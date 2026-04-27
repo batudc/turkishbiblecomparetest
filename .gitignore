@@ -1,0 +1,28 @@
+# Large binaries / installers
+*.dmg
+*.pkg
+*.pdf
+*.png
+# Keep brand assets
+!brand_assets/*.png
+
+# OCR source files
+yyy ocr.txt
+YYY_Vision.txt
+
+# Large raw data
+Ekumenik_KKtp_10_Aralik_2024-compressed.json
+
+# Node
+node_modules/
+
+# Screenshots / temp
+temporary screenshots/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Claude local config
+.claude/

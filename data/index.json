@@ -1,0 +1,20 @@
+[
+  { "id": "TCL02",      "name": "Yeni Çeviri",                      "year": 2009, "publisher": "Kutsal Kitap ve Yeni Yaşam Yayınları", "testament": "both",   "status": "active"    },
+  { "id": "KMEYA",     "name": "Kitab-ı Mukaddes",                  "year": 1941, "publisher": "Eski ve Yeni Ahit",                   "testament": "both",   "status": "active"    },
+  { "id": "YTC",       "name": "Yorumsuz Türkçe Çeviri",            "year": 2023, "publisher": "",                                    "testament": "nt",     "status": "active"    },
+  { "id": "HADI",      "name": "Halk Dilinde İncil",                 "year": 2013, "publisher": "Yeni Yaşam Yayınları",               "testament": "nt",     "status": "active"    },
+  { "id": "CAN",       "name": "Kutsal İncil",                       "year": 2003, "publisher": "Bünyamin Candemir",                   "testament": "nt",     "status": "pending"   },
+  { "id": "TC",        "name": "İncil: Sevinç Getirici Haber",       "year": 2010, "publisher": "Thomas Cosmades",                    "testament": "nt",     "status": "pending"   },
+  { "id": "BGT",       "name": "İncil BG Türkçe",                   "year": 2004, "publisher": "",                                    "testament": "nt",     "status": "pending"   },
+  { "id": "AREMS",     "name": "FONDATSİYA AR EM Sİ",               "year": 2007, "publisher": "",                                    "testament": "nt",     "status": "pending"   },
+  { "id": "DLbi12-TK", "name": "Yeni Dünya Çevirisi",               "year": 2008, "publisher": "JW",                                  "testament": "both",   "status": "pending"   },
+  { "id": "HKKT",      "name": "Ekümenik Kutsal Kitap",              "year": 2007, "publisher": "Haktan Yayıncılık",                   "testament": "both",   "status": "pending"   },
+  { "id": "TTT",       "name": "Temel Türkçe Tercüme",               "year": 2023, "publisher": "Biblica",                            "testament": "nt",     "status": "pending"   },
+  { "id": "BOTR",      "name": "Bible Old Translation Revision",     "year": 2019, "publisher": "",                                    "testament": "nt_partial", "status": "pending" },
+  { "id": "ALI",       "name": "Ali Bey el yazması",                 "year": 1665, "publisher": "",                                    "testament": "nt",     "status": "pending"   },
+  { "id": "KIE",       "name": "Yeni Ahit, haz. J.D. Kieffer",      "year": 1819, "publisher": "",                                    "testament": "nt",     "status": "pending"   },
+  { "id": "JDK",       "name": "YENİ AHİT, haz. J.D. Kieffer",     "year": 1827, "publisher": "",                                    "testament": "nt",     "status": "pending"   },
+  { "id": "TUR",       "name": "Yeni Ahit, haz. Türabi Efendi",     "year": 1857, "publisher": "",                                    "testament": "nt",     "status": "pending"   },
+  { "id": "SEL",       "name": "Yeni Ahit, Selim Efendi",           "year": 1866, "publisher": "",                                    "testament": "nt",     "status": "pending"   },
+  { "id": "KM1886",    "name": "KİTAB-I MUKADDES 1886",             "year": 1886, "publisher": "",                                    "testament": "nt",     "status": "pending"   }
+]
