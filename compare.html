@@ -902,13 +902,13 @@
       { id:'KMEYA',    name:'Kitab-ı Mukaddes',                      year:1941, loaded:true  },
       { id:'TCL02',    name:'Yeni Çeviri',                           year:2001, loaded:true  },
       { id:'AREMSI',   name:'FONDATSİYA "AR EM Sİ"',                 year:2007, loaded:true  },
-      { id:'HKTN',     name:'Ekümenik Kutsal Kitap',                  year:2007, loaded:true  },
+      { id:'HKTN',     name:'Ekümenik Kutsal Kitap',                  year:2007, loaded:false  },
       { id:'YTC',      name:'Yorumsuz Türkçe Çeviri',                 year:2023, loaded:true  },
       { id:'HAKK',     name:'Halk Dilinde Kutsal Kitap',              year:2024, loaded:true  },
     ],
     ntFull: [
       { id:'KIE1819',  name:'Yeni Ahit (Ali Bey, J.D. Kieffer)',     year:1819, loaded:true  },
-      { id:'YYY1987',  name:'İncil: Müjde (1987)',                    year:1987, loaded:true  },
+      { id:'YYY1987',  name:'İncil: Müjde (1987)',                    year:1987, loaded:false  },
       { id:'CAN',      name:'Kutsal İncil (Bünyamin Candemir)',      year:2003, loaded:true  },
       { id:'KKDEU',    name:'Kutsal Kitap ve Deuterakanonik',        year:2003, loaded:true  },
       { id:'BGT',      name:'İncil BG Türkçe',                       year:2004, loaded:true  },
@@ -964,7 +964,7 @@
   let layoutMode     = 'cols'; // 'cols' | 'rows' | 'grid'
 
   // Currently selected translation IDs (only loaded ones shown by default)
-  const selectedTranslations = new Set(['TCL02','KMEYA','YTC','HAKK','YYY1987']);
+  const selectedTranslations = new Set(['TCL02','KMEYA']);
 
   // ── Grid calculation ──────────────────────────────────────────────────
   function calcGrid(n) {
