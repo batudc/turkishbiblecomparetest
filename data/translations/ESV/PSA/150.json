@@ -1,0 +1,31 @@
+{
+  "t": "ESV",
+  "b": "PSA",
+  "c": 150,
+  "content": [
+    {
+      "v": 1,
+      "text": "Praise the Lord!\nPraise God in his sanctuary;\n    praise him in his mighty heavens!"
+    },
+    {
+      "v": 2,
+      "text": "Praise him for his mighty deeds;\n    praise him according to his excellent greatness!"
+    },
+    {
+      "v": 3,
+      "text": "Praise him with trumpet sound;\n    praise him with lute and harp!"
+    },
+    {
+      "v": 4,
+      "text": "Praise him with tambourine and dance;\n    praise him with strings and pipe!"
+    },
+    {
+      "v": 5,
+      "text": "Praise him with sounding cymbals;\n    praise him with loud clashing cymbals!"
+    },
+    {
+      "v": 6,
+      "text": "Let everything that has breath praise the Lord!\nPraise the Lord!"
+    }
+  ]
+}

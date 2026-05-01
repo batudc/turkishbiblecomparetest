@@ -808,6 +808,8 @@
   <div id="trans-ot-partial"></div>
   <div class="trans-group-label">Sapkın Tercümeler</div>
   <div id="trans-heretical"></div>
+  <div class="trans-group-label">İngilizce Çeviriler</div>
+  <div id="trans-english"></div>
 </div>
 
 <!-- ===== HERETICAL WARNING MODAL ===== -->
@@ -928,11 +930,14 @@
       { id:'NWT2008',   name:'Yeni Dünya Çevirisi',                   year:2008, loaded:true  },
       { id:'NWT2025',   name:'Yeni Dünya Çevirisi (2025)',            year:2025, loaded:true  },
     ],
+    english: [
+      { id:'ESV',       name:'English Standard Version',              year:2001, loaded:true  },
+    ],
   };
 
   // Flat lookup: id → translation metadata
   const ALL_TRANS = {};
-  const TRANS_ORDER = [...TRANSLATIONS.bibleFull, ...TRANSLATIONS.ntFull, ...TRANSLATIONS.ntPartial, ...TRANSLATIONS.otPartial, ...TRANSLATIONS.heretical]
+  const TRANS_ORDER = [...TRANSLATIONS.bibleFull, ...TRANSLATIONS.ntFull, ...TRANSLATIONS.ntPartial, ...TRANSLATIONS.otPartial, ...TRANSLATIONS.heretical, ...TRANSLATIONS.english]
     .sort((a, b) => a.year - b.year)
     .map(t => { ALL_TRANS[t.id] = t; return t.id; });
 
@@ -1292,6 +1297,7 @@
   buildTransGroup('trans-nt-partial',  TRANSLATIONS.ntPartial);
   buildTransGroup('trans-ot-partial',  TRANSLATIONS.otPartial);
   buildTransGroup('trans-heretical',   TRANSLATIONS.heretical);
+  buildTransGroup('trans-english',     TRANSLATIONS.english);
 
   // ── Select-all toggle ─────────────────────────────────────────────────
   (function() {

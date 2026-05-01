@@ -1,0 +1,23 @@
+{
+  "t": "ESV",
+  "b": "PSA",
+  "c": 123,
+  "content": [
+    {
+      "v": 1,
+      "text": "To you I lift up my eyes,\n    O you who are enthroned in the heavens!"
+    },
+    {
+      "v": 2,
+      "text": "Behold, as the eyes of servants\n    look to the hand of their master,\nas the eyes of a maidservant\n    to the hand of her mistress,\nso our eyes look to the Lord our God,\n    till he has mercy upon us."
+    },
+    {
+      "v": 3,
+      "text": "Have mercy upon us, O Lord, have mercy upon us,\n    for we have had more than enough of contempt."
+    },
+    {
+      "v": 4,
+      "text": "Our soul has had more than enough\n    of the scorn of those who are at ease,\n    of the contempt of the proud."
+    }
+  ]
+}

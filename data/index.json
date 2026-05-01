@@ -16,5 +16,6 @@
   { "id": "JDK",       "name": "YENİ AHİT, haz. J.D. Kieffer",     "year": 1827, "publisher": "",                                    "testament": "nt",     "status": "pending"   },
   { "id": "TUR",       "name": "Yeni Ahit, haz. Türabi Efendi",     "year": 1857, "publisher": "",                                    "testament": "nt",     "status": "pending"   },
   { "id": "SEL",       "name": "Yeni Ahit, Selim Efendi",           "year": 1866, "publisher": "",                                    "testament": "nt",     "status": "pending"   },
-  { "id": "KM1886",    "name": "KİTAB-I MUKADDES 1886",             "year": 1886, "publisher": "",                                    "testament": "nt",     "status": "pending"   }
+  { "id": "KM1886",    "name": "KİTAB-I MUKADDES 1886",             "year": 1886, "publisher": "",                                    "testament": "nt",     "status": "pending"   },
+  { "id": "ESV",    "name": "English Standart Version",             "year": 2001, "publisher": "",                                    "testament": "both",     "status": "active"   }
 ]

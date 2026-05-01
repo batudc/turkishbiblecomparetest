@@ -1,0 +1,31 @@
+{
+  "t": "ESV",
+  "b": "PSA",
+  "c": 1,
+  "content": [
+    {
+      "v": 1,
+      "text": "Blessed is the man\n    who walks not in the counsel of the wicked,\nnor stands in the way of sinners,\n    nor sits in the seat of scoffers;"
+    },
+    {
+      "v": 2,
+      "text": "but his delight is in the law of the Lord,\n    and on his law he meditates day and night."
+    },
+    {
+      "v": 3,
+      "text": "He is like a tree\n    planted by streams of water\nthat yields its fruit in its season,\n    and its leaf does not wither.\nIn all that he does, he prospers."
+    },
+    {
+      "v": 4,
+      "text": "The wicked are not so,\n    but are like chaff that the wind drives away."
+    },
+    {
+      "v": 5,
+      "text": "Therefore the wicked will not stand in the judgment,\n    nor sinners in the congregation of the righteous;"
+    },
+    {
+      "v": 6,
+      "text": "for the Lord knows the way of the righteous,\n    but the way of the wicked will perish."
+    }
+  ]
+}
