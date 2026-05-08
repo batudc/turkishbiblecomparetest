@@ -1,1 +1,82 @@
-{"t": "TCL02", "b": "2SA", "c": 8, "content": [{"v": 1, "text": "Bir süre sonra Davut Filistliler'i yenip boyunduruğu altına aldı ve Meteg-Amma'yı Filistliler'in yönetiminden çıkardı."}, {"v": 2, "text": "Moavlılar'ı da bozguna uğrattı. Onları yere yatırıp iple ölçtü. Ölçtüğü iki sırayı öldürdü, bir bütün sırayı sağ bıraktı. Moavlılar Davut'un haraç ödeyen köleleri oldular."}, {"v": 3, "text": "Davut Fırat'a kadar krallığını yeniden kurmaya giden Sova Kralı Rehov oğlu Hadadezer'i de yendi."}, {"v": 4, "text": "Bin yedi yüz atlısıyla yirmi bin yaya askerini ele geçirdi. Yüz savaş arabası için gereken atların dışındaki bütün atları da sakatladı."}, {"v": 5, "text": "Sova Kralı Hadadezer'e yardıma gelen Şam Aramlıları'ndan yirmi iki bin kişiyi öldürdü."}, {"v": 6, "text": "Sonra Şam Aramlıları'nın ülkesine askeri birlikler yerleştirdi. Onlar da Davut'un haraç ödeyen köleleri oldular. RAB Davut'u gittiği her yerde zafere ulaştırdı."}, {"v": 7, "text": "Davut Hadadezer'in komutanlarının taşıdığı altın kalkanları alıp Yeruşalim'e götürdü."}, {"v": 8, "text": "Ayrıca Hadadezer'in yönetimindeki Betah ve Berotay kentlerinden bol miktarda tunç aldı."}, {"v": 9, "text": "Hama Kralı Toi, Davut'un Hadadezer'in bütün ordusunu bozguna uğrattığını duydu."}, {"v": 10, "text": "Toi Kral Davut'u selamlamak ve Hadadezer'le savaşıp yendiği için onu kutlamak üzere oğlu Yoram'ı ona gönderdi. Çünkü Toi Hadadezer'le sürekli savaşmıştı. Yoram Davut'a altın, gümüş, tunç armağanlar getirdi."}, {"v": 11, "text": "Kral Davut bu armağanları yendiği bütün uluslardan –Aram, Moav, Ammonlular, Filistliler ve Amalekliler'den– ele geçirdiği altın ve gümüşle birlikte RAB'be adadı. Bunun yanısıra Sova Kralı Rehov oğlu Hadadezer'den yağmalanan altınla gümüşü de RAB'be adadı."}, {"v": 13, "text": "Davut Tuz Vadisi'nde on sekiz bin Edomlu öldürüp dönünce üne kavuştu."}, {"v": 14, "text": "Edom'un her yanına askeri birlikler yerleştirdi. Edomlular'ın tümü Davut'un köleleri oldular. RAB Davut'u gittiği her yerde zafere ulaştırdı."}, {"v": 15, "text": "Bütün İsrail'de krallık yapan Davut halkına doğruluk ve adalet sağladı."}, {"v": 16, "text": "Seruya oğlu Yoav ordu komutanı, Ahilut oğlu Yehoşafat devlet tarihçisiydi."}, {"v": 17, "text": "Ahituv oğlu Sadok'la Aviyatar oğlu Ahimelek kâhin, Seraya yazmandı."}, {"v": 18, "text": "Yehoyada oğlu Benaya Keretliler'le Peletliler'in komutanıydı. Davut'un oğullarıysa kâhindi."}]}
+{
+  "t": "TCL02",
+  "b": "2SA",
+  "c": 8,
+  "content": [
+    {
+      "section": "Davut'un Başarıları"
+    },
+    {
+      "v": 1,
+      "text": "Bir süre sonra Davut Filistliler'i yenip boyunduruğu altına aldı ve Meteg-Amma'yı Filistliler'in yönetiminden çıkardı."
+    },
+    {
+      "v": 2,
+      "text": "Moavlılar'ı da bozguna uğrattı. Onları yere yatırıp iple ölçtü. Ölçtüğü iki sırayı öldürdü, bir bütün sırayı sağ bıraktı. Moavlılar Davut'un haraç ödeyen köleleri oldular."
+    },
+    {
+      "v": 3,
+      "text": "Davut Fırat'a kadar krallığını yeniden kurmaya giden Sova Kralı Rehov oğlu Hadadezer'i de yendi."
+    },
+    {
+      "v": 4,
+      "text": "Bin yedi yüz atlısıyla yirmi bin yaya askerini ele geçirdi. Yüz savaş arabası için gereken atların dışındaki bütün atları da sakatladı."
+    },
+    {
+      "v": 5,
+      "text": "Sova Kralı Hadadezer'e yardıma gelen Şam Aramlıları'ndan yirmi iki bin kişiyi öldürdü."
+    },
+    {
+      "v": 6,
+      "text": "Sonra Şam Aramlıları'nın ülkesine askeri birlikler yerleştirdi. Onlar da Davut'un haraç ödeyen köleleri oldular. RAB Davut'u gittiği her yerde zafere ulaştırdı."
+    },
+    {
+      "v": 7,
+      "text": "Davut Hadadezer'in komutanlarının taşıdığı altın kalkanları alıp Yeruşalim'e götürdü."
+    },
+    {
+      "v": 8,
+      "text": "Ayrıca Hadadezer'in yönetimindeki Betah ve Berotay kentlerinden bol miktarda tunç aldı."
+    },
+    {
+      "v": 9,
+      "text": "Hama Kralı Toi, Davut'un Hadadezer'in bütün ordusunu bozguna uğrattığını duydu."
+    },
+    {
+      "v": 10,
+      "text": "Toi Kral Davut'u selamlamak ve Hadadezer'le savaşıp yendiği için onu kutlamak üzere oğlu Yoram'ı ona gönderdi. Çünkü Toi Hadadezer'le sürekli savaşmıştı. Yoram Davut'a altın, gümüş, tunç armağanlar getirdi."
+    },
+    {
+      "v": 11,
+      "text": "Kral Davut bu armağanları yendiği bütün uluslardan –Aram, Moav, Ammonlular, Filistliler ve Amalekliler'den– ele geçirdiği altın ve gümüşle birlikte RAB'be adadı. Bunun yanısıra Sova Kralı Rehov oğlu Hadadezer'den yağmalanan altınla gümüşü de RAB'be adadı."
+    },
+    {
+      "v": 13,
+      "text": "Davut Tuz Vadisi'nde on sekiz bin Edomlu öldürüp dönünce üne kavuştu."
+    },
+    {
+      "v": 14,
+      "text": "Edom'un her yanına askeri birlikler yerleştirdi. Edomlular'ın tümü Davut'un köleleri oldular. RAB Davut'u gittiği her yerde zafere ulaştırdı."
+    },
+    {
+      "section": "Davut'un Görevlileri"
+    },
+    {
+      "v": 15,
+      "text": "Bütün İsrail'de krallık yapan Davut halkına doğruluk ve adalet sağladı."
+    },
+    {
+      "v": 16,
+      "text": "Seruya oğlu Yoav ordu komutanı, Ahilut oğlu Yehoşafat devlet tarihçisiydi."
+    },
+    {
+      "v": 17,
+      "text": "Ahituv oğlu Sadok'la Aviyatar oğlu Ahimelek kâhin, Seraya yazmandı."
+    },
+    {
+      "v": 18,
+      "text": "Yehoyada oğlu Benaya Keretliler'le Peletliler'in komutanıydı. Davut'un oğullarıysa kâhindi."
+    }
+  ],
+  "title": "Davut'un Başarıları"
+}

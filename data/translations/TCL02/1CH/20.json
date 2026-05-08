@@ -1,1 +1,46 @@
-{"t":"TCL02","b":"1CH","c":20,"content":[{"v":1,"text":"İlkbaharda, kralların savaşa gittiği dönemde Yoav, komutasındaki orduyla birlikte yola çıktı. Ammonlular'ın ülkesini yerle bir edip Rabba Kenti'ni kuşatırken Davut Yeruşalim'de kalıyordu. Yoav Rabba Kenti'ne saldırıp onu yerle bir etti."},{"v":2,"text":"Davut Ammon Kralı'nın başındaki tacı aldı. Değerli taşlarla süslü, ağırlığı bir talant altını bulan tacı Davut'un başına koydular. Davut kentten çok miktarda mal yağmalayıp götürdü."},{"v":3,"text":"Orada yaşayan halkı dışarı çıkarıp testereyle, demir kazma ve baltayla yapılan işlerde çalıştırdı. Davut bunu bütün Ammon kentlerinde uyguladı. Sonra ordusuyla birlikte Yeruşalim'e döndü."},{"v":4,"text":"Bir süre sonra Filistliler'le Gezer'de savaş çıktı. Bu savaş sırasında Huşalı Sibbekay, Rafa soyundan Sippay'ı öldürünce, Filistliler boyun eğdiler."},{"v":5,"text":"İsrailliler'le Filistliler arasında çıkan bir başka savaşta Yair oğlu Elhanan, Gatlı Golyat'ın kardeşi Lahmi'yi öldürdü. Golyat'ın mızrağının sapı dokumacı tezgahının sırığı gibiydi."},{"v":6,"text":"Gat'ta bir kez daha savaş çıktı. Orada dev gibi bir adam vardı. Elleri, ayakları altışar parmaklıydı. Toplam yirmi dört parmağı vardı. O da Rafa soyundandı."},{"v":7,"text":"Adam İsrailliler'e meydan okuyunca, Davut'un kardeşi Şima'nın oğlu Yonatan onu öldürdü."},{"v":8,"text":"Bunlar Gat'taki Rafa soyundandı. Davut'la adamları tarafından öldürüldüler."}]}
+{
+  "t": "TCL02",
+  "b": "1CH",
+  "c": 20,
+  "content": [
+    {
+      "section": "Rabba Kenti Ele Geçiriliyor"
+    },
+    {
+      "v": 1,
+      "text": "İlkbaharda, kralların savaşa gittiği dönemde Yoav, komutasındaki orduyla birlikte yola çıktı. Ammonlular'ın ülkesini yerle bir edip Rabba Kenti'ni kuşatırken Davut Yeruşalim'de kalıyordu. Yoav Rabba Kenti'ne saldırıp onu yerle bir etti."
+    },
+    {
+      "v": 2,
+      "text": "Davut Ammon Kralı'nın başındaki tacı aldı. Değerli taşlarla süslü, ağırlığı bir talant altını bulan tacı Davut'un başına koydular. Davut kentten çok miktarda mal yağmalayıp götürdü."
+    },
+    {
+      "v": 3,
+      "text": "Orada yaşayan halkı dışarı çıkarıp testereyle, demir kazma ve baltayla yapılan işlerde çalıştırdı. Davut bunu bütün Ammon kentlerinde uyguladı. Sonra ordusuyla birlikte Yeruşalim'e döndü."
+    },
+    {
+      "section": "Filistliler'e Karşı Savaş"
+    },
+    {
+      "v": 4,
+      "text": "Bir süre sonra Filistliler'le Gezer'de savaş çıktı. Bu savaş sırasında Huşalı Sibbekay, Rafa soyundan Sippay'ı öldürünce, Filistliler boyun eğdiler."
+    },
+    {
+      "v": 5,
+      "text": "İsrailliler'le Filistliler arasında çıkan bir başka savaşta Yair oğlu Elhanan, Gatlı Golyat'ın kardeşi Lahmi'yi öldürdü. Golyat'ın mızrağının sapı dokumacı tezgahının sırığı gibiydi."
+    },
+    {
+      "v": 6,
+      "text": "Gat'ta bir kez daha savaş çıktı. Orada dev gibi bir adam vardı. Elleri, ayakları altışar parmaklıydı. Toplam yirmi dört parmağı vardı. O da Rafa soyundandı."
+    },
+    {
+      "v": 7,
+      "text": "Adam İsrailliler'e meydan okuyunca, Davut'un kardeşi Şima'nın oğlu Yonatan onu öldürdü."
+    },
+    {
+      "v": 8,
+      "text": "Bunlar Gat'taki Rafa soyundandı. Davut'la adamları tarafından öldürüldüler."
+    }
+  ],
+  "title": "Rabba Kenti Ele Geçiriliyor"
+}

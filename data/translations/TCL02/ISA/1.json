@@ -1,1 +1,137 @@
-{"t":"TCL02","b":"ISA","c":1,"content":[{"v":1,"text":"Yahuda kralları Uzziya, Yotam, Ahaz ve Hizkiya zamanında Amots oğlu Yeşaya'nın Yahuda ve Yeruşalim'le ilgili görümü:"},{"v":2,"text":"Ey gökler dinleyin, ey yeryüzü kulak ver! Çünkü RAB konuşuyor: “Çocuklar yetiştirip büyüttüm, Ama bana başkaldırdılar."},{"v":3,"text":"Öküz sahibini, eşek efendisinin yemliğini bilir, Ama İsrail halkı bu kadarını bile bilmiyor, Halkım anlamıyor.”"},{"v":4,"text":"Günahlı ulusun, suç yüklü halkın, Kötülük yapan soyun, Baştan çıkmış çocukların vay haline! RAB'bi terk ettiler, İsrail'in Kutsalı'nı hor gördüler, O'na sırt çevirdiler."},{"v":5,"text":"Neden bir daha dövülesiniz? Neden vefasızlığı sürdürüyorsunuz? Baş büsbütün hasta, yürek büsbütün yaralı."},{"v":6,"text":"Bedeniniz tepeden tırnağa sağlıksız, Taze darbe izleriyle, yara bereyle dolu, Temizlenmemiş, yağla yumuşatılmamış, sarılmamış."},{"v":7,"text":"Ülkeniz ıssız, kentleriniz ateşe verilmiş. Yabancılar topraklarınızı Gözünüzün önünde yiyip bitiriyor! Sanki ülkenin kökünü kazımışlar."},{"v":8,"text":"Siyon kızı bağdaki çardak, Salatalık bostanındaki kulübe gibi, Kuşatılmış bir kent gibi kalakalmış."},{"v":9,"text":"Her Şeye Egemen RAB bazılarımızı Sağ bırakmamış olsaydı, Sodom gibi olur, Gomora'ya benzerdik."},{"v":10,"text":"Ey Sodom yöneticileri, RAB'bin söylediklerini dinleyin; Ey Gomora halkı, Tanrımız'ın yasasına kulak verin."},{"v":11,"text":"“Kurbanlarınızın sayısı çokmuş, Bana ne?” diyor RAB, “Yakmalık koç sunularına, Besili hayvanların yağına doydum. Boğa, kuzu, teke kanı değil istediğim."},{"v":12,"text":"Huzuruma geldiğinizde Avlularımı çiğnemenizi mi istedim sizden?"},{"v":13,"text":"Anlamsız sunular getirmeyin artık. Buhurdan iğreniyorum. Kötülük dolu törenlere, Yeni Ay, Şabat Günü kutlamalarına Ve düzenlediğiniz toplantılara dayanamıyorum."},{"v":14,"text":"Yeni Ay törenlerinizden, bayramlarınızdan nefret ediyorum. Bunlar bana yük oldu, Onları taşımaktan yoruldum."},{"v":15,"text":"“Ellerinizi açıp bana yakardığınızda Gözlerimi sizden kaçıracağım. Ne kadar çok dua ederseniz edin dinlemeyeceğim. Elleriniz kan dolu."},{"v":16,"text":"Yıkanıp temizlenin, Kötülük yaptığınızı gözüm görmesin, Kötülük etmekten vazgeçin."},{"v":17,"text":"İyilik etmeyi öğrenin, Adaleti gözetin, zorbayı yola getirin, Öksüzün hakkını verin, Dul kadını savunun.”"},{"v":18,"text":"RAB diyor ki, “Gelin, şimdi davamızı görelim. Günahlarınız sizi kana boyamış bile olsa Kar gibi ak pak olacaksınız. Elleriniz kırmız böceği gibi kızıl olsa da Yapağı gibi bembeyaz olacak."},{"v":19,"text":"İstekli olur, söz dinlerseniz, Ülkenin en iyi ürünlerini yiyeceksiniz."},{"v":20,"text":"Ama direnip başkaldırırsanız, Kılıç sizi yiyip bitirecek.” Bunu söyleyen RAB'dir."},{"v":21,"text":"Sadık kent nasıl da fahişe oldu! Adaletle doluydu, doğruluğun barınağıydı, Şimdiyse katillerle doldu."},{"v":22,"text":"Gümüşü cüruf oldu, Şarabına su katıldı."},{"v":23,"text":"Yöneticileri asilerle hırsızların işbirlikçisi; Hepsi rüşveti seviyor, Armağan peşine düşmüş. Öksüzün hakkını vermiyor, Dul kadının davasını görmüyorlar."},{"v":24,"text":"Bu yüzden Rab, Her Şeye Egemen RAB, İsrail'in Güçlüsü şöyle diyor: “Hasımlarımı cezalandırıp rahata kavuşacağım, Düşmanlarımdan öç alacağım."},{"v":25,"text":"Sana karşı duracak, Kül suyuyla arıtır gibi seni cüruftan arıtıp temizleyeceğim."},{"v":26,"text":"Eskiden, başlangıçta olduğu gibi, Sana yöneticiler, danışmanlar yetiştireceğim. Ondan sonra ‘Doğruluk Kenti’, ‘Sadık Kent’ diye adlandırılacaksın.”"},{"v":27,"text":"Siyon adalet sayesinde, Tövbe edenleri de doğruluk sayesinde kurtulacak."},{"v":28,"text":"Ama başkaldıranlarla günahlılar Birlikte yıkıma uğrayacaklar. RAB'bi terk edenler yok olacak."},{"v":29,"text":"“Sevip altında tapındığınız yabanıl fıstık ağaçlarından utanacaksınız, Putperest törenleriniz için seçtiğiniz bahçelerden ötürü yüzünüz kızaracak."},{"v":30,"text":"Yaprakları solmuş yabanıl fıstık ağacına, Susuz bahçeye döneceksiniz."},{"v":31,"text":"Güçlü adamlarınız kıtık gibi, Yaptıkları işler kıvılcım gibi olacak; İkisi birlikte yanacak ve söndüren olmayacak.”"}]}
+{
+  "t": "TCL02",
+  "b": "ISA",
+  "c": 1,
+  "content": [
+    {
+      "v": 1,
+      "text": "Yahuda kralları Uzziya, Yotam, Ahaz ve Hizkiya zamanında Amots oğlu Yeşaya'nın Yahuda ve Yeruşalim'le ilgili görümü:"
+    },
+    {
+      "section": "Rab Halkını Uyarıyor"
+    },
+    {
+      "v": 2,
+      "text": "Ey gökler dinleyin, ey yeryüzü kulak ver! Çünkü RAB konuşuyor: “Çocuklar yetiştirip büyüttüm, Ama bana başkaldırdılar."
+    },
+    {
+      "v": 3,
+      "text": "Öküz sahibini, eşek efendisinin yemliğini bilir, Ama İsrail halkı bu kadarını bile bilmiyor, Halkım anlamıyor.”"
+    },
+    {
+      "v": 4,
+      "text": "Günahlı ulusun, suç yüklü halkın, Kötülük yapan soyun, Baştan çıkmış çocukların vay haline! RAB'bi terk ettiler, İsrail'in Kutsalı'nı hor gördüler, O'na sırt çevirdiler."
+    },
+    {
+      "v": 5,
+      "text": "Neden bir daha dövülesiniz? Neden vefasızlığı sürdürüyorsunuz? Baş büsbütün hasta, yürek büsbütün yaralı."
+    },
+    {
+      "v": 6,
+      "text": "Bedeniniz tepeden tırnağa sağlıksız, Taze darbe izleriyle, yara bereyle dolu, Temizlenmemiş, yağla yumuşatılmamış, sarılmamış."
+    },
+    {
+      "v": 7,
+      "text": "Ülkeniz ıssız, kentleriniz ateşe verilmiş. Yabancılar topraklarınızı Gözünüzün önünde yiyip bitiriyor! Sanki ülkenin kökünü kazımışlar."
+    },
+    {
+      "v": 8,
+      "text": "Siyon kızı bağdaki çardak, Salatalık bostanındaki kulübe gibi, Kuşatılmış bir kent gibi kalakalmış."
+    },
+    {
+      "v": 9,
+      "text": "Her Şeye Egemen RAB bazılarımızı Sağ bırakmamış olsaydı, Sodom gibi olur, Gomora'ya benzerdik."
+    },
+    {
+      "v": 10,
+      "text": "Ey Sodom yöneticileri, RAB'bin söylediklerini dinleyin; Ey Gomora halkı, Tanrımız'ın yasasına kulak verin."
+    },
+    {
+      "v": 11,
+      "text": "“Kurbanlarınızın sayısı çokmuş, Bana ne?” diyor RAB, “Yakmalık koç sunularına, Besili hayvanların yağına doydum. Boğa, kuzu, teke kanı değil istediğim."
+    },
+    {
+      "v": 12,
+      "text": "Huzuruma geldiğinizde Avlularımı çiğnemenizi mi istedim sizden?"
+    },
+    {
+      "v": 13,
+      "text": "Anlamsız sunular getirmeyin artık. Buhurdan iğreniyorum. Kötülük dolu törenlere, Yeni Ay, Şabat Günü kutlamalarına Ve düzenlediğiniz toplantılara dayanamıyorum."
+    },
+    {
+      "v": 14,
+      "text": "Yeni Ay törenlerinizden, bayramlarınızdan nefret ediyorum. Bunlar bana yük oldu, Onları taşımaktan yoruldum."
+    },
+    {
+      "v": 15,
+      "text": "“Ellerinizi açıp bana yakardığınızda Gözlerimi sizden kaçıracağım. Ne kadar çok dua ederseniz edin dinlemeyeceğim. Elleriniz kan dolu."
+    },
+    {
+      "v": 16,
+      "text": "Yıkanıp temizlenin, Kötülük yaptığınızı gözüm görmesin, Kötülük etmekten vazgeçin."
+    },
+    {
+      "v": 17,
+      "text": "İyilik etmeyi öğrenin, Adaleti gözetin, zorbayı yola getirin, Öksüzün hakkını verin, Dul kadını savunun.”"
+    },
+    {
+      "v": 18,
+      "text": "RAB diyor ki, “Gelin, şimdi davamızı görelim. Günahlarınız sizi kana boyamış bile olsa Kar gibi ak pak olacaksınız. Elleriniz kırmız böceği gibi kızıl olsa da Yapağı gibi bembeyaz olacak."
+    },
+    {
+      "v": 19,
+      "text": "İstekli olur, söz dinlerseniz, Ülkenin en iyi ürünlerini yiyeceksiniz."
+    },
+    {
+      "v": 20,
+      "text": "Ama direnip başkaldırırsanız, Kılıç sizi yiyip bitirecek.” Bunu söyleyen RAB'dir."
+    },
+    {
+      "section": "Günahlı Kent"
+    },
+    {
+      "v": 21,
+      "text": "Sadık kent nasıl da fahişe oldu! Adaletle doluydu, doğruluğun barınağıydı, Şimdiyse katillerle doldu."
+    },
+    {
+      "v": 22,
+      "text": "Gümüşü cüruf oldu, Şarabına su katıldı."
+    },
+    {
+      "v": 23,
+      "text": "Yöneticileri asilerle hırsızların işbirlikçisi; Hepsi rüşveti seviyor, Armağan peşine düşmüş. Öksüzün hakkını vermiyor, Dul kadının davasını görmüyorlar."
+    },
+    {
+      "v": 24,
+      "text": "Bu yüzden Rab, Her Şeye Egemen RAB, İsrail'in Güçlüsü şöyle diyor: “Hasımlarımı cezalandırıp rahata kavuşacağım, Düşmanlarımdan öç alacağım."
+    },
+    {
+      "v": 25,
+      "text": "Sana karşı duracak, Kül suyuyla arıtır gibi seni cüruftan arıtıp temizleyeceğim."
+    },
+    {
+      "v": 26,
+      "text": "Eskiden, başlangıçta olduğu gibi, Sana yöneticiler, danışmanlar yetiştireceğim. Ondan sonra ‘Doğruluk Kenti’, ‘Sadık Kent’ diye adlandırılacaksın.”"
+    },
+    {
+      "v": 27,
+      "text": "Siyon adalet sayesinde, Tövbe edenleri de doğruluk sayesinde kurtulacak."
+    },
+    {
+      "v": 28,
+      "text": "Ama başkaldıranlarla günahlılar Birlikte yıkıma uğrayacaklar. RAB'bi terk edenler yok olacak."
+    },
+    {
+      "v": 29,
+      "text": "“Sevip altında tapındığınız yabanıl fıstık ağaçlarından utanacaksınız, Putperest törenleriniz için seçtiğiniz bahçelerden ötürü yüzünüz kızaracak."
+    },
+    {
+      "v": 30,
+      "text": "Yaprakları solmuş yabanıl fıstık ağacına, Susuz bahçeye döneceksiniz."
+    },
+    {
+      "v": 31,
+      "text": "Güçlü adamlarınız kıtık gibi, Yaptıkları işler kıvılcım gibi olacak; İkisi birlikte yanacak ve söndüren olmayacak.”"
+    }
+  ]
+}

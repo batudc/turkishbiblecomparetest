@@ -1,1 +1,134 @@
-{"t": "TCL02", "b": "JHN", "c": 14, "content": [{"v": 1, "text": "“Yüreğiniz sıkılmasın. Tanrı'ya iman edin, bana da iman edin."}, {"v": 2, "text": "Babam'ın evinde kalacak çok yer var. Öyle olmasa size söylerdim. Çünkü size yer hazırlamaya gidiyorum."}, {"v": 3, "text": "Gider ve size yer hazırlarsam, siz de benim bulunduğum yerde olasınız diye yine gelip sizi yanıma alacağım."}, {"v": 4, "text": "Benim gideceğim yerin yolunu biliyorsunuz.”"}, {"v": 5, "text": "Tomas, “Ya Rab, senin nereye gideceğini bilmiyoruz, yolu nasıl bilebiliriz?” dedi."}, {"v": 6, "text": "İsa, “Yol, gerçek ve yaşam Ben'im” dedi. “Benim aracılığım olmadan Baba'ya kimse gelemez."}, {"v": 7, "text": "Beni tanısaydınız, Babam'ı da tanırdınız. Artık O'nu tanıyorsunuz, O'nu gördünüz.”"}, {"v": 8, "text": "Filipus, “Ya Rab, bize Baba'yı göster, bu bize yeter” dedi."}, {"v": 9, "text": "İsa, “Filipus” dedi, “Bunca zamandır sizinle birlikteyim. Beni daha tanımadın mı? Beni görmüş olan, Baba'yı görmüştür. Sen nasıl, ‘Bize Baba'yı göster’ diyorsun?"}, {"v": 10, "text": "Benim Baba'da, Baba'nın da bende olduğuna inanmıyor musun? Size söylediğim sözleri kendiliğimden söylemiyorum, ama bende yaşayan Baba kendi işlerini yapıyor."}, {"v": 11, "text": "Bana iman edin; ben Baba'dayım, Baba da bendedir. Hiç değilse bu işlerden dolayı iman edin."}, {"v": 12, "text": "Size doğrusunu söyleyeyim, benim yaptığım işleri, bana iman eden de yapacak; hatta daha büyüklerini yapacaktır. Çünkü ben Baba'ya gidiyorum."}, {"v": 13, "text": "Baba Oğul'da yüceltilsin diye, benim adımla dilediğiniz her şeyi yapacağım."}, {"v": 14, "text": "Benim adımla benden ne dilerseniz yapacağım.”"}, {"v": 15, "text": "“Beni seviyorsanız, buyruklarımı yerine getirirsiniz."}, {"v": 16, "text": "Ben de Baba'dan dileyeceğim. O sonsuza dek sizinle birlikte olsun diye size başka bir Yardımcı, Gerçeğin Ruhu'nu verecek. Dünya O'nu kabul edemez. Çünkü O'nu ne görür, ne de tanır. Siz O'nu tanıyorsunuz. Çünkü O aranızda yaşıyor ve içinizde olacaktır."}, {"v": 18, "text": "Sizi öksüz bırakmayacağım, size geri döneceğim."}, {"v": 19, "text": "Az sonra dünya artık beni görmeyecek, ama siz beni göreceksiniz. Ben yaşadığım için siz de yaşayacaksınız."}, {"v": 20, "text": "O gün anlayacaksınız ki, ben Babam'dayım, siz bendesiniz, ben de sizdeyim."}, {"v": 21, "text": "Kim buyruklarımı bilir ve yerine getirirse, işte beni seven odur. Beni seveni Babam da sevecektir. Ben de onu seveceğim ve kendimi ona göstereceğim.”"}, {"v": 22, "text": "Yahuda –İskariot değil– O'na, “Ya Rab, nasıl olur da kendini dünyaya göstermeyip bize göstereceksin?” diye sordu."}, {"v": 23, "text": "İsa ona şu karşılığı verdi: “Beni seven sözüme uyar, Babam da onu sever. Biz de ona gelir, onunla birlikte yaşarız."}, {"v": 24, "text": "Beni sevmeyen, sözlerime uymaz. İşittiğiniz söz benim değil, beni gönderen Baba'nındır."}, {"v": 25, "text": "“Ben daha aranızdayken size bunları söyledim."}, {"v": 26, "text": "Ama Baba'nın benim adımla göndereceği Yardımcı, Kutsal Ruh, size her şeyi öğretecek, bütün söylediklerimi size hatırlatacak."}, {"v": 27, "text": "Size esenlik bırakıyorum, size kendi esenliğimi veriyorum. Ben size dünyanın verdiği gibi vermiyorum. Yüreğiniz sıkılmasın ve korkmasın."}, {"v": 28, "text": "Size, ‘Gidiyorum, ama yanınıza döneceğim’ dediğimi işittiniz. Beni sevseydiniz, Baba'ya gideceğim için sevinirdiniz. Çünkü Baba benden üstündür."}, {"v": 29, "text": "Bunları size şimdiden, her şey olup bitmeden önce söyledim. Öyle ki, bunlar olunca inanasınız."}, {"v": 30, "text": "Artık sizinle uzun uzun konuşmayacağım. Çünkü bu dünyanın egemeni geliyor. Onun benim üzerimde hiçbir yetkisi yoktur."}, {"v": 31, "text": "Ama dünyanın, Baba'yı sevdiğimi ve Baba'nın bana buyurduğu her şeyi yerine getirdiğimi anlamasını istiyorum. Haydi kalkın, buradan gidelim.”"}]}
+{
+  "t": "TCL02",
+  "b": "JHN",
+  "c": 14,
+  "content": [
+    {
+      "section": "İsa - Tanrı'ya Giden Yol"
+    },
+    {
+      "v": 1,
+      "text": "“Yüreğiniz sıkılmasın. Tanrı'ya iman edin, bana da iman edin."
+    },
+    {
+      "v": 2,
+      "text": "Babam'ın evinde kalacak çok yer var. Öyle olmasa size söylerdim. Çünkü size yer hazırlamaya gidiyorum."
+    },
+    {
+      "v": 3,
+      "text": "Gider ve size yer hazırlarsam, siz de benim bulunduğum yerde olasınız diye yine gelip sizi yanıma alacağım."
+    },
+    {
+      "v": 4,
+      "text": "Benim gideceğim yerin yolunu biliyorsunuz.”"
+    },
+    {
+      "v": 5,
+      "text": "Tomas, “Ya Rab, senin nereye gideceğini bilmiyoruz, yolu nasıl bilebiliriz?” dedi."
+    },
+    {
+      "v": 6,
+      "text": "İsa, “Yol, gerçek ve yaşam Ben'im” dedi. “Benim aracılığım olmadan Baba'ya kimse gelemez."
+    },
+    {
+      "v": 7,
+      "text": "Beni tanısaydınız, Babam'ı da tanırdınız. Artık O'nu tanıyorsunuz, O'nu gördünüz.”"
+    },
+    {
+      "v": 8,
+      "text": "Filipus, “Ya Rab, bize Baba'yı göster, bu bize yeter” dedi."
+    },
+    {
+      "v": 9,
+      "text": "İsa, “Filipus” dedi, “Bunca zamandır sizinle birlikteyim. Beni daha tanımadın mı? Beni görmüş olan, Baba'yı görmüştür. Sen nasıl, ‘Bize Baba'yı göster’ diyorsun?"
+    },
+    {
+      "v": 10,
+      "text": "Benim Baba'da, Baba'nın da bende olduğuna inanmıyor musun? Size söylediğim sözleri kendiliğimden söylemiyorum, ama bende yaşayan Baba kendi işlerini yapıyor."
+    },
+    {
+      "v": 11,
+      "text": "Bana iman edin; ben Baba'dayım, Baba da bendedir. Hiç değilse bu işlerden dolayı iman edin."
+    },
+    {
+      "v": 12,
+      "text": "Size doğrusunu söyleyeyim, benim yaptığım işleri, bana iman eden de yapacak; hatta daha büyüklerini yapacaktır. Çünkü ben Baba'ya gidiyorum."
+    },
+    {
+      "v": 13,
+      "text": "Baba Oğul'da yüceltilsin diye, benim adımla dilediğiniz her şeyi yapacağım."
+    },
+    {
+      "v": 14,
+      "text": "Benim adımla benden ne dilerseniz yapacağım.”"
+    },
+    {
+      "section": "Kutsal Ruh"
+    },
+    {
+      "v": 15,
+      "text": "“Beni seviyorsanız, buyruklarımı yerine getirirsiniz."
+    },
+    {
+      "v": 16,
+      "text": "Ben de Baba'dan dileyeceğim. O sonsuza dek sizinle birlikte olsun diye size başka bir Yardımcı, Gerçeğin Ruhu'nu verecek. Dünya O'nu kabul edemez. Çünkü O'nu ne görür, ne de tanır. Siz O'nu tanıyorsunuz. Çünkü O aranızda yaşıyor ve içinizde olacaktır."
+    },
+    {
+      "v": 18,
+      "text": "Sizi öksüz bırakmayacağım, size geri döneceğim."
+    },
+    {
+      "v": 19,
+      "text": "Az sonra dünya artık beni görmeyecek, ama siz beni göreceksiniz. Ben yaşadığım için siz de yaşayacaksınız."
+    },
+    {
+      "v": 20,
+      "text": "O gün anlayacaksınız ki, ben Babam'dayım, siz bendesiniz, ben de sizdeyim."
+    },
+    {
+      "v": 21,
+      "text": "Kim buyruklarımı bilir ve yerine getirirse, işte beni seven odur. Beni seveni Babam da sevecektir. Ben de onu seveceğim ve kendimi ona göstereceğim.”"
+    },
+    {
+      "v": 22,
+      "text": "Yahuda –İskariot değil– O'na, “Ya Rab, nasıl olur da kendini dünyaya göstermeyip bize göstereceksin?” diye sordu."
+    },
+    {
+      "v": 23,
+      "text": "İsa ona şu karşılığı verdi: “Beni seven sözüme uyar, Babam da onu sever. Biz de ona gelir, onunla birlikte yaşarız."
+    },
+    {
+      "v": 24,
+      "text": "Beni sevmeyen, sözlerime uymaz. İşittiğiniz söz benim değil, beni gönderen Baba'nındır."
+    },
+    {
+      "v": 25,
+      "text": "“Ben daha aranızdayken size bunları söyledim."
+    },
+    {
+      "v": 26,
+      "text": "Ama Baba'nın benim adımla göndereceği Yardımcı, Kutsal Ruh, size her şeyi öğretecek, bütün söylediklerimi size hatırlatacak."
+    },
+    {
+      "v": 27,
+      "text": "Size esenlik bırakıyorum, size kendi esenliğimi veriyorum. Ben size dünyanın verdiği gibi vermiyorum. Yüreğiniz sıkılmasın ve korkmasın."
+    },
+    {
+      "v": 28,
+      "text": "Size, ‘Gidiyorum, ama yanınıza döneceğim’ dediğimi işittiniz. Beni sevseydiniz, Baba'ya gideceğim için sevinirdiniz. Çünkü Baba benden üstündür."
+    },
+    {
+      "v": 29,
+      "text": "Bunları size şimdiden, her şey olup bitmeden önce söyledim. Öyle ki, bunlar olunca inanasınız."
+    },
+    {
+      "v": 30,
+      "text": "Artık sizinle uzun uzun konuşmayacağım. Çünkü bu dünyanın egemeni geliyor. Onun benim üzerimde hiçbir yetkisi yoktur."
+    },
+    {
+      "v": 31,
+      "text": "Ama dünyanın, Baba'yı sevdiğimi ve Baba'nın bana buyurduğu her şeyi yerine getirdiğimi anlamasını istiyorum. Haydi kalkın, buradan gidelim.”"
+    }
+  ],
+  "title": "İsa - Tanrı'ya Giden Yol"
+}

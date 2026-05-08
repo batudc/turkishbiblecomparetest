@@ -1,1 +1,31 @@
-{"t":"TCL02","b":"JER","c":45,"content":[{"v":1,"text":"Yahuda Kralı Yoşiya oğlu Yehoyakim'in dördüncü yılında Neriya oğlu Baruk, Peygamber Yeremya'nın kendisine söylediği sözleri tomara yazdıktan sonra Yeremya ona şunları söyledi:"},{"v":2,"text":"“Ey Baruk, İsrail'in Tanrısı RAB sana şöyle diyor:"},{"v":3,"text":"Sen, ‘Vay başıma! Çünkü RAB acıma acı kattı. İnlemekten bitkin düştüm, bana rahat yok’ dedin."},{"v":4,"text":"“RAB bana, ‘Ona şöyle diyeceksin’ dedi: ‘RAB diyor ki, bütün ülkeyi yıkacağım; bina ettiğimi yıkacak, diktiğimi sökeceğim."},{"v":5,"text":"Sana gelince, büyük şeyler peşinde mi koşuyorsun? Sakın koşma! Çünkü bütün halkın üzerine felaket getirmek üzereyim’ diyor RAB, ‘Ama sen nereye gidersen git, canını bağışlayacağım.’ ”"}]}
+{
+  "t": "TCL02",
+  "b": "JER",
+  "c": 45,
+  "content": [
+    {
+      "section": "Baruk'a Haber"
+    },
+    {
+      "v": 1,
+      "text": "Yahuda Kralı Yoşiya oğlu Yehoyakim'in dördüncü yılında Neriya oğlu Baruk, Peygamber Yeremya'nın kendisine söylediği sözleri tomara yazdıktan sonra Yeremya ona şunları söyledi:"
+    },
+    {
+      "v": 2,
+      "text": "“Ey Baruk, İsrail'in Tanrısı RAB sana şöyle diyor:"
+    },
+    {
+      "v": 3,
+      "text": "Sen, ‘Vay başıma! Çünkü RAB acıma acı kattı. İnlemekten bitkin düştüm, bana rahat yok’ dedin."
+    },
+    {
+      "v": 4,
+      "text": "“RAB bana, ‘Ona şöyle diyeceksin’ dedi: ‘RAB diyor ki, bütün ülkeyi yıkacağım; bina ettiğimi yıkacak, diktiğimi sökeceğim."
+    },
+    {
+      "v": 5,
+      "text": "Sana gelince, büyük şeyler peşinde mi koşuyorsun? Sakın koşma! Çünkü bütün halkın üzerine felaket getirmek üzereyim’ diyor RAB, ‘Ama sen nereye gidersen git, canını bağışlayacağım.’ ”"
+    }
+  ],
+  "title": "Baruk'a Haber"
+}

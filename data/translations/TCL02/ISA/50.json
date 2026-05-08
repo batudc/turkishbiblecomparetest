@@ -1,1 +1,58 @@
-{"t":"TCL02","b":"ISA","c":50,"content":[{"v":1,"text":"RAB şöyle diyor: “Boşadığım annenizin boşanma belgesi nerede? Hangi alacaklıma sattım sizi? Suçlarınız yüzünden satıldınız, Anneniz isyanlarınız yüzünden dışlandı."},{"v":2,"text":"Geldiğimde neden kimse yoktu, Çağırdığımda niçin yanıt veren olmadı? Sizi kurtaramayacak kadar kısa mı elim, Ya da gücüm yok mu sizi özgür kılmaya? Azarlayarak denizi kurutur, Irmakları çöle çeviririm. Su kalmayınca balıklar ölür ve kokar."},{"v":3,"text":"Göklere karalar giydirir, Çul ederim onların örtüsünü.”"},{"v":4,"text":"Yorgunlara sözle destek olmayı bileyim diye Egemen RAB bana eğitilmişlerin dilini verdi. Eğitilenler gibi dinleyeyim diye kulağımı uyandırır her sabah."},{"v":5,"text":"Egemen RAB kulağımı açtı, Karşı koymadım, geri çekilmedim."},{"v":6,"text":"Bana vuranlara sırtımı açtım, Yanaklarımı uzattım sakalımı yolanlara. Aşağılamalardan, tükürükten yüzümü gizlemedim."},{"v":7,"text":"Egemen RAB bana yardım ettiği için Utanç duymam. Kararımdan dönmem, Utandırılmayacağımı bilirim."},{"v":8,"text":"Beni haklı çıkaran yakınımda. Benden davacı olan kim, yüzleşelim, Kimdir hasmım, karşıma çıksın."},{"v":9,"text":"Bana yardım eden Egemen RAB'dir, Kim suçlu çıkaracak beni? Onların hepsi giysi gibi eskiyecek, Tümünü güve yiyip bitirecek."},{"v":10,"text":"Aranızda RAB'den korkan, Kulunun sözünü dinleyen kim var? Karanlıkta yürüyen, ışığı olmayan, RAB'bin adına güvensin, Tanrısı'na dayansın."},{"v":11,"text":"Ama ateş yakan, Alevli oklar kuşanan sizler, hepiniz, Ateşinizin aydınlığında, Tutuşturduğunuz alevli okların arasında yürüyün. Benden alacağınız şudur: Azap içinde yatacaksınız."}]}
+{
+  "t": "TCL02",
+  "b": "ISA",
+  "c": 50,
+  "content": [
+    {
+      "section": "İsrail'in Günahı"
+    },
+    {
+      "v": 1,
+      "text": "RAB şöyle diyor: “Boşadığım annenizin boşanma belgesi nerede? Hangi alacaklıma sattım sizi? Suçlarınız yüzünden satıldınız, Anneniz isyanlarınız yüzünden dışlandı."
+    },
+    {
+      "v": 2,
+      "text": "Geldiğimde neden kimse yoktu, Çağırdığımda niçin yanıt veren olmadı? Sizi kurtaramayacak kadar kısa mı elim, Ya da gücüm yok mu sizi özgür kılmaya? Azarlayarak denizi kurutur, Irmakları çöle çeviririm. Su kalmayınca balıklar ölür ve kokar."
+    },
+    {
+      "v": 3,
+      "text": "Göklere karalar giydirir, Çul ederim onların örtüsünü.”"
+    },
+    {
+      "section": "Kulun Söz Dinleyişi"
+    },
+    {
+      "v": 4,
+      "text": "Yorgunlara sözle destek olmayı bileyim diye Egemen RAB bana eğitilmişlerin dilini verdi. Eğitilenler gibi dinleyeyim diye kulağımı uyandırır her sabah."
+    },
+    {
+      "v": 5,
+      "text": "Egemen RAB kulağımı açtı, Karşı koymadım, geri çekilmedim."
+    },
+    {
+      "v": 6,
+      "text": "Bana vuranlara sırtımı açtım, Yanaklarımı uzattım sakalımı yolanlara. Aşağılamalardan, tükürükten yüzümü gizlemedim."
+    },
+    {
+      "v": 7,
+      "text": "Egemen RAB bana yardım ettiği için Utanç duymam. Kararımdan dönmem, Utandırılmayacağımı bilirim."
+    },
+    {
+      "v": 8,
+      "text": "Beni haklı çıkaran yakınımda. Benden davacı olan kim, yüzleşelim, Kimdir hasmım, karşıma çıksın."
+    },
+    {
+      "v": 9,
+      "text": "Bana yardım eden Egemen RAB'dir, Kim suçlu çıkaracak beni? Onların hepsi giysi gibi eskiyecek, Tümünü güve yiyip bitirecek."
+    },
+    {
+      "v": 10,
+      "text": "Aranızda RAB'den korkan, Kulunun sözünü dinleyen kim var? Karanlıkta yürüyen, ışığı olmayan, RAB'bin adına güvensin, Tanrısı'na dayansın."
+    },
+    {
+      "v": 11,
+      "text": "Ama ateş yakan, Alevli oklar kuşanan sizler, hepiniz, Ateşinizin aydınlığında, Tutuşturduğunuz alevli okların arasında yürüyün. Benden alacağınız şudur: Azap içinde yatacaksınız."
+    }
+  ],
+  "title": "İsrail'in Günahı"
+}

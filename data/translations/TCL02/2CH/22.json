@@ -1,1 +1,62 @@
-{"t":"TCL02","b":"2CH","c":22,"content":[{"v":1,"text":"Yeruşalim halkı Yehoram'ın en küçük oğlu Ahazya'yı babasının yerine kral yaptı. Çünkü Araplar'la ordugaha gelen akıncılar büyük kardeşlerinin hepsini öldürmüştü. Dolayısıyla Yehoram oğlu Ahazya Yahuda Kralı oldu."},{"v":2,"text":"Ahazya yirmi iki yaşında kral oldu ve Yeruşalim'de bir yıl krallık yaptı. Annesi Omri'nin torunu Atalya'ydı."},{"v":3,"text":"Ahazya da Ahav ailesinin yollarını izledi. Annesi onu kötülüğe itiyordu."},{"v":4,"text":"Ahav ailesi gibi RAB'bin gözünde kötü olanı yaptı. Çünkü babasının ölümünden beri Ahav ailesi onu yıkıma götürecek öğütler veriyordu."},{"v":5,"text":"Ahazya onların öğütlerine uyarak, Aram Kralı Hazael'le savaşmak üzere İsrail Kralı Ahav oğlu Yoram'la birlikte Ramot-Gilat'a gitti. Aramlılar Yoram'ı yaraladılar."},{"v":6,"text":"Yoram Ramot-Gilat'ta Aram Kralı Hazael'le savaşırken aldığı yaraların iyileşmesi için Yizreel'e döndü. Yahuda Kralı Yehoram oğlu Ahazya da yaralanan Ahav oğlu Yoram'ı görmek için Yizreel'e gitti."},{"v":7,"text":"Yoram'ı ziyaret eden Ahazya'yı Tanrı yıkıma uğrattı. Ahazya oraya varınca, Yoram'la birlikte Nimşi oğlu Yehu'yu karşılamaya gitti; RAB Yehu'yu Ahav soyunu ortadan kaldırmak için meshetmişti."},{"v":8,"text":"Yehu, Ahav soyunu cezalandırırken, Ahazya'ya hizmet eden Yahuda önderleriyle Ahazya'nın yeğenlerini bulup hepsini öldürdü."},{"v":9,"text":"Sonra Ahazya'yı aramaya koyuldu. Onu Samiriye'de gizlenirken yakalayıp Yehu'ya getirdiler, sonra öldürdüler. Ahazya'yı, “Bütün yüreğiyle RAB'be yönelen Yehoşafat'ın torunudur” diyerek gömdüler. Böylece Ahazya'nın soyunda krallığı yönetebilecek güçte kimse kalmadı."},{"v":10,"text":"Ahazya'nın annesi Atalya, oğlunun öldürüldüğünü duyunca, Yahuda'da kral soyunun bütün bireylerini yok etmeye çalıştı."},{"v":11,"text":"Ne var ki, Kral Yehoram'ın kızı Yehoşavat, Ahazya oğlu Yoaş'ı kralın öldürülmek istenen öteki oğullarının arasından alıp kaçırdı ve dadısıyla birlikte yatak odasına gizledi. Yehoşavat Kral Yehoram'ın kızı, Kâhin Yehoyada'nın karısı, Ahazya'nın da üvey kızkardeşiydi. Öldürülmesin diye çocuğu Atalya'dan gizledi."},{"v":12,"text":"Atalya ülkeyi yönetirken, çocuk altı yıl boyunca Tanrı'nın Tapınağı'nda onların yanında gizlendi."}]}
+{
+  "t": "TCL02",
+  "b": "2CH",
+  "c": 22,
+  "content": [
+    {
+      "section": "Ahazya'nın Yahuda Krallığı"
+    },
+    {
+      "v": 1,
+      "text": "Yeruşalim halkı Yehoram'ın en küçük oğlu Ahazya'yı babasının yerine kral yaptı. Çünkü Araplar'la ordugaha gelen akıncılar büyük kardeşlerinin hepsini öldürmüştü. Dolayısıyla Yehoram oğlu Ahazya Yahuda Kralı oldu."
+    },
+    {
+      "v": 2,
+      "text": "Ahazya yirmi iki yaşında kral oldu ve Yeruşalim'de bir yıl krallık yaptı. Annesi Omri'nin torunu Atalya'ydı."
+    },
+    {
+      "v": 3,
+      "text": "Ahazya da Ahav ailesinin yollarını izledi. Annesi onu kötülüğe itiyordu."
+    },
+    {
+      "v": 4,
+      "text": "Ahav ailesi gibi RAB'bin gözünde kötü olanı yaptı. Çünkü babasının ölümünden beri Ahav ailesi onu yıkıma götürecek öğütler veriyordu."
+    },
+    {
+      "v": 5,
+      "text": "Ahazya onların öğütlerine uyarak, Aram Kralı Hazael'le savaşmak üzere İsrail Kralı Ahav oğlu Yoram'la birlikte Ramot-Gilat'a gitti. Aramlılar Yoram'ı yaraladılar."
+    },
+    {
+      "v": 6,
+      "text": "Yoram Ramot-Gilat'ta Aram Kralı Hazael'le savaşırken aldığı yaraların iyileşmesi için Yizreel'e döndü. Yahuda Kralı Yehoram oğlu Ahazya da yaralanan Ahav oğlu Yoram'ı görmek için Yizreel'e gitti."
+    },
+    {
+      "v": 7,
+      "text": "Yoram'ı ziyaret eden Ahazya'yı Tanrı yıkıma uğrattı. Ahazya oraya varınca, Yoram'la birlikte Nimşi oğlu Yehu'yu karşılamaya gitti; RAB Yehu'yu Ahav soyunu ortadan kaldırmak için meshetmişti."
+    },
+    {
+      "v": 8,
+      "text": "Yehu, Ahav soyunu cezalandırırken, Ahazya'ya hizmet eden Yahuda önderleriyle Ahazya'nın yeğenlerini bulup hepsini öldürdü."
+    },
+    {
+      "v": 9,
+      "text": "Sonra Ahazya'yı aramaya koyuldu. Onu Samiriye'de gizlenirken yakalayıp Yehu'ya getirdiler, sonra öldürdüler. Ahazya'yı, “Bütün yüreğiyle RAB'be yönelen Yehoşafat'ın torunudur” diyerek gömdüler. Böylece Ahazya'nın soyunda krallığı yönetebilecek güçte kimse kalmadı."
+    },
+    {
+      "section": "Atalya Yönetime El Koyuyor"
+    },
+    {
+      "v": 10,
+      "text": "Ahazya'nın annesi Atalya, oğlunun öldürüldüğünü duyunca, Yahuda'da kral soyunun bütün bireylerini yok etmeye çalıştı."
+    },
+    {
+      "v": 11,
+      "text": "Ne var ki, Kral Yehoram'ın kızı Yehoşavat, Ahazya oğlu Yoaş'ı kralın öldürülmek istenen öteki oğullarının arasından alıp kaçırdı ve dadısıyla birlikte yatak odasına gizledi. Yehoşavat Kral Yehoram'ın kızı, Kâhin Yehoyada'nın karısı, Ahazya'nın da üvey kızkardeşiydi. Öldürülmesin diye çocuğu Atalya'dan gizledi."
+    },
+    {
+      "v": 12,
+      "text": "Atalya ülkeyi yönetirken, çocuk altı yıl boyunca Tanrı'nın Tapınağı'nda onların yanında gizlendi."
+    }
+  ],
+  "title": "Ahazya'nın Yahuda Krallığı"
+}

@@ -1,1 +1,81 @@
-{"t":"TCL02","b":"ECC","c":4,"content":[{"v":1,"text":"Güneşin altında yapılan baskılara bir daha baktım, Ezilenlerin gözyaşlarını gördüm; Avutanları yok, Güç ezenlerden yana, Avutanları yok."},{"v":2,"text":"Çoktan ölmüş ölüleri, Hâlâ sağ olan yaşayanlardan daha mutlu gördüm."},{"v":3,"text":"Ama henüz doğmamış, Güneşin altında yapılan kötülükleri görmemiş olan İkisinden de mutludur."},{"v":4,"text":"Harcanan her emeğin, yapılan her ustaca işin ardında kıskançlık olduğunu gördüm. Bu da boş ve rüzgarı kovalamaya kalkışmakmış."},{"v":5,"text":"Akılsız ellerini kavuşturup kendi kendini yer."},{"v":6,"text":"Rahat kazanılan bir avuç dolusu Zahmetle, rüzgarı kovalamaya kalkışarak kazanılan İki avuç dolusundan daha iyidir."},{"v":7,"text":"Güneşin altında bir boş şey daha gördüm:"},{"v":8,"text":"Yalnız bir adam vardı, Oğlu da kardeşi de yoktu. Çabaları dinmek nedir bilmezdi, Gözü zenginliğe doymazdı. “Kimin için çalışıyorum, Neden kendimi zevkten yoksun bırakıyorum?” diye sormazdı. Bu da boş ve çetin bir zahmettir."},{"v":9,"text":"İki kişi bir kişiden iyidir, Çünkü emeklerine iyi karşılık alırlar."},{"v":10,"text":"Biri düşerse, öteki kaldırır. Ama yalnız olup da düşenin vay haline! Onu kaldıran olmaz."},{"v":11,"text":"Ayrıca iki kişi birlikte yatarsa, birbirini ısıtır. Ama tek başına yatan nasıl ısınabilir?"},{"v":12,"text":"Yalnız biri yenik düşer, Ama iki kişi direnebilir. Üç kat iplik kolay kolay kopmaz."},{"v":13,"text":"Yoksul ama bilge bir genç artık öğüt almayı bilmeyen kocamış akılsız kraldan iyidir."},{"v":14,"text":"Çünkü genç, ülkesinde yoksulluk içinde doğsa bile cezaevinden krallığa yükselebilir."},{"v":15,"text":"Güneşin altında yaşayan herkesin kralın yerine geçen genci izlediğini gördüm."},{"v":16,"text":"Yeni kralın yönettiği halk sayısız olabilir. Yine de sonrakiler ondan hoşnut olmayabilir. Gerçekten bu da boş ve rüzgarı kovalamaya kalkışmaktır."}]}
+{
+  "t": "TCL02",
+  "b": "ECC",
+  "c": 4,
+  "content": [
+    {
+      "section": "Dünyadaki Eziyetler"
+    },
+    {
+      "v": 1,
+      "text": "Güneşin altında yapılan baskılara bir daha baktım, Ezilenlerin gözyaşlarını gördüm; Avutanları yok, Güç ezenlerden yana, Avutanları yok."
+    },
+    {
+      "v": 2,
+      "text": "Çoktan ölmüş ölüleri, Hâlâ sağ olan yaşayanlardan daha mutlu gördüm."
+    },
+    {
+      "v": 3,
+      "text": "Ama henüz doğmamış, Güneşin altında yapılan kötülükleri görmemiş olan İkisinden de mutludur."
+    },
+    {
+      "v": 4,
+      "text": "Harcanan her emeğin, yapılan her ustaca işin ardında kıskançlık olduğunu gördüm. Bu da boş ve rüzgarı kovalamaya kalkışmakmış."
+    },
+    {
+      "v": 5,
+      "text": "Akılsız ellerini kavuşturup kendi kendini yer."
+    },
+    {
+      "v": 6,
+      "text": "Rahat kazanılan bir avuç dolusu Zahmetle, rüzgarı kovalamaya kalkışarak kazanılan İki avuç dolusundan daha iyidir."
+    },
+    {
+      "section": "Yalnızlığın Anlamsızlığı"
+    },
+    {
+      "v": 7,
+      "text": "Güneşin altında bir boş şey daha gördüm:"
+    },
+    {
+      "v": 8,
+      "text": "Yalnız bir adam vardı, Oğlu da kardeşi de yoktu. Çabaları dinmek nedir bilmezdi, Gözü zenginliğe doymazdı. “Kimin için çalışıyorum, Neden kendimi zevkten yoksun bırakıyorum?” diye sormazdı. Bu da boş ve çetin bir zahmettir."
+    },
+    {
+      "v": 9,
+      "text": "İki kişi bir kişiden iyidir, Çünkü emeklerine iyi karşılık alırlar."
+    },
+    {
+      "v": 10,
+      "text": "Biri düşerse, öteki kaldırır. Ama yalnız olup da düşenin vay haline! Onu kaldıran olmaz."
+    },
+    {
+      "v": 11,
+      "text": "Ayrıca iki kişi birlikte yatarsa, birbirini ısıtır. Ama tek başına yatan nasıl ısınabilir?"
+    },
+    {
+      "v": 12,
+      "text": "Yalnız biri yenik düşer, Ama iki kişi direnebilir. Üç kat iplik kolay kolay kopmaz."
+    },
+    {
+      "section": "Yükselmenin Anlamsızlığı"
+    },
+    {
+      "v": 13,
+      "text": "Yoksul ama bilge bir genç artık öğüt almayı bilmeyen kocamış akılsız kraldan iyidir."
+    },
+    {
+      "v": 14,
+      "text": "Çünkü genç, ülkesinde yoksulluk içinde doğsa bile cezaevinden krallığa yükselebilir."
+    },
+    {
+      "v": 15,
+      "text": "Güneşin altında yaşayan herkesin kralın yerine geçen genci izlediğini gördüm."
+    },
+    {
+      "v": 16,
+      "text": "Yeni kralın yönettiği halk sayısız olabilir. Yine de sonrakiler ondan hoşnut olmayabilir. Gerçekten bu da boş ve rüzgarı kovalamaya kalkışmaktır."
+    }
+  ],
+  "title": "Dünyadaki Eziyetler"
+}

@@ -1,1 +1,107 @@
-{"t":"TCL02","b":"LEV","c":9,"content":[{"v":1,"text":"Sekizinci gün Musa Harun'la oğullarını ve İsrail ileri gelenlerini çağırdı."},{"v":2,"text":"Harun'a, “Kendin için günah sunusu olarak kusursuz bir erkek buzağı, yakmalık sunu olarak da kusursuz bir koç al, RAB'be sun” dedi,"},{"v":3,"text":"“Sonra İsrail halkına de ki, ‘Günah sunusu olarak bir teke, yakmalık sunu olarak da bir yaşında kusursuz bir buzağı ile bir kuzu alın."},{"v":4,"text":"RAB'bin huzurunda esenlik sunusu olarak kurban edilmek üzere bir sığır ve bir koçla birlikte zeytinyağıyla yoğrulmuş tahıl sunusu getirin. Çünkü RAB bugün size görünecektir.’ ”"},{"v":5,"text":"Musa'nın buyurdukları Buluşma Çadırı'nın önüne getirildi. Herkes yaklaşıp RAB'bin huzurunda toplandı."},{"v":6,"text":"Musa, “RAB şunları yapmanızı buyuruyor, o zaman RAB'bin yüceliği size görünecektir” dedi."},{"v":7,"text":"Sonra Harun'a, “Sunağa git, günah ve yakmalık sunularını sun” dedi, “Hem kendinin, hem de halkın günahlarını bağışlat. RAB'bin buyurduğu gibi halkın sunusunu sun, günahlarını bağışlat.”"},{"v":8,"text":"Böylece Harun sunağa gidip kendisi için günah sunusu olarak sunulacak buzağıyı kesti."},{"v":9,"text":"Oğulları buzağının kanını ona getirdiler. Harun parmağını kana batırıp sunağın boynuzlarına sürdü. Artan kanı sunağın dibine döktü."},{"v":10,"text":"RAB'bin Musa'ya verdiği buyruğa uygun olarak günah sunusunun yağını, böbreklerini, karaciğerinin perdesini sunakta yaktı."},{"v":11,"text":"Etiyle derisini ise ordugahın dışında yaktı."},{"v":12,"text":"Sonra yakmalık sunuyu kesti. Oğulları sununun kanını kendisine verdiler. O da kanı sunağın her yanına döktü."},{"v":13,"text":"Sununun bütün parçalarını ve başını Harun'a verdiler. Harun hepsini sunağın üzerinde yaktı."},{"v":14,"text":"Sununun işkembesini, bağırsaklarını, ayaklarını yıkayıp sunakta yakmalık sununun üzerinde yaktı."},{"v":15,"text":"Bundan sonra Harun halkın sunusunu getirdi. Halkın günahları için sunulacak tekeyi kesti ve ilk sunu gibi bunu da günah sunusu olarak sundu."},{"v":16,"text":"Yakmalık sunuyu da kurallara uygun biçimde sundu."},{"v":17,"text":"Sonra tahıl sunusunu getirdi. Bir avuç alıp her sabah sunulan yakmalık sunuya ek olarak sunağın üzerinde yaktı."},{"v":18,"text":"Halk için esenlik kurbanları olarak sunulacak sığırla koçu da kesti. Oğulları sunuların kanını kendisine verdiler. O da kanı sunağın her yanına döktü."},{"v":19,"text":"Sığırla koçun yağlarını, kuyruk yağını, bağırsak ve işkembe yağlarını, böbreklerini ve karaciğerlerinin perdesini"},{"v":20,"text":"döşlerin üzerine koydular. Harun yağları sunakta yaktı."},{"v":21,"text":"Musa'nın buyurduğu gibi döşleri ve sağ budu sallamalık sunu olarak RAB'bin huzurunda salladı."},{"v":22,"text":"Harun günah, yakmalık, esenlik sunularını sunduktan sonra ellerini halka doğru uzatarak onları kutsadı ve aşağıya indi."},{"v":23,"text":"Musa'yla Harun Buluşma Çadırı'na girdiler. Dışarı çıkınca halkı kutsadılar. O zaman RAB'bin yüceliği halka göründü."},{"v":24,"text":"RAB bir ateş gönderdi. Ateş sunağın üzerindeki yakmalık sunuyu, yağları yakıp küle çevirdi. Bunu gören halkın tümü sevinçle haykırarak yüzüstü yere kapandı."}]}
+{
+  "t": "TCL02",
+  "b": "LEV",
+  "c": 9,
+  "content": [
+    {
+      "section": "Kâhinler Görevlerine Başlıyor"
+    },
+    {
+      "v": 1,
+      "text": "Sekizinci gün Musa Harun'la oğullarını ve İsrail ileri gelenlerini çağırdı."
+    },
+    {
+      "v": 2,
+      "text": "Harun'a, “Kendin için günah sunusu olarak kusursuz bir erkek buzağı, yakmalık sunu olarak da kusursuz bir koç al, RAB'be sun” dedi,"
+    },
+    {
+      "v": 3,
+      "text": "“Sonra İsrail halkına de ki, ‘Günah sunusu olarak bir teke, yakmalık sunu olarak da bir yaşında kusursuz bir buzağı ile bir kuzu alın."
+    },
+    {
+      "v": 4,
+      "text": "RAB'bin huzurunda esenlik sunusu olarak kurban edilmek üzere bir sığır ve bir koçla birlikte zeytinyağıyla yoğrulmuş tahıl sunusu getirin. Çünkü RAB bugün size görünecektir.’ ”"
+    },
+    {
+      "v": 5,
+      "text": "Musa'nın buyurdukları Buluşma Çadırı'nın önüne getirildi. Herkes yaklaşıp RAB'bin huzurunda toplandı."
+    },
+    {
+      "v": 6,
+      "text": "Musa, “RAB şunları yapmanızı buyuruyor, o zaman RAB'bin yüceliği size görünecektir” dedi."
+    },
+    {
+      "v": 7,
+      "text": "Sonra Harun'a, “Sunağa git, günah ve yakmalık sunularını sun” dedi, “Hem kendinin, hem de halkın günahlarını bağışlat. RAB'bin buyurduğu gibi halkın sunusunu sun, günahlarını bağışlat.”"
+    },
+    {
+      "v": 8,
+      "text": "Böylece Harun sunağa gidip kendisi için günah sunusu olarak sunulacak buzağıyı kesti."
+    },
+    {
+      "v": 9,
+      "text": "Oğulları buzağının kanını ona getirdiler. Harun parmağını kana batırıp sunağın boynuzlarına sürdü. Artan kanı sunağın dibine döktü."
+    },
+    {
+      "v": 10,
+      "text": "RAB'bin Musa'ya verdiği buyruğa uygun olarak günah sunusunun yağını, böbreklerini, karaciğerinin perdesini sunakta yaktı."
+    },
+    {
+      "v": 11,
+      "text": "Etiyle derisini ise ordugahın dışında yaktı."
+    },
+    {
+      "v": 12,
+      "text": "Sonra yakmalık sunuyu kesti. Oğulları sununun kanını kendisine verdiler. O da kanı sunağın her yanına döktü."
+    },
+    {
+      "v": 13,
+      "text": "Sununun bütün parçalarını ve başını Harun'a verdiler. Harun hepsini sunağın üzerinde yaktı."
+    },
+    {
+      "v": 14,
+      "text": "Sununun işkembesini, bağırsaklarını, ayaklarını yıkayıp sunakta yakmalık sununun üzerinde yaktı."
+    },
+    {
+      "v": 15,
+      "text": "Bundan sonra Harun halkın sunusunu getirdi. Halkın günahları için sunulacak tekeyi kesti ve ilk sunu gibi bunu da günah sunusu olarak sundu."
+    },
+    {
+      "v": 16,
+      "text": "Yakmalık sunuyu da kurallara uygun biçimde sundu."
+    },
+    {
+      "v": 17,
+      "text": "Sonra tahıl sunusunu getirdi. Bir avuç alıp her sabah sunulan yakmalık sunuya ek olarak sunağın üzerinde yaktı."
+    },
+    {
+      "v": 18,
+      "text": "Halk için esenlik kurbanları olarak sunulacak sığırla koçu da kesti. Oğulları sunuların kanını kendisine verdiler. O da kanı sunağın her yanına döktü."
+    },
+    {
+      "v": 19,
+      "text": "Sığırla koçun yağlarını, kuyruk yağını, bağırsak ve işkembe yağlarını, böbreklerini ve karaciğerlerinin perdesini"
+    },
+    {
+      "v": 20,
+      "text": "döşlerin üzerine koydular. Harun yağları sunakta yaktı."
+    },
+    {
+      "v": 21,
+      "text": "Musa'nın buyurduğu gibi döşleri ve sağ budu sallamalık sunu olarak RAB'bin huzurunda salladı."
+    },
+    {
+      "v": 22,
+      "text": "Harun günah, yakmalık, esenlik sunularını sunduktan sonra ellerini halka doğru uzatarak onları kutsadı ve aşağıya indi."
+    },
+    {
+      "v": 23,
+      "text": "Musa'yla Harun Buluşma Çadırı'na girdiler. Dışarı çıkınca halkı kutsadılar. O zaman RAB'bin yüceliği halka göründü."
+    },
+    {
+      "v": 24,
+      "text": "RAB bir ateş gönderdi. Ateş sunağın üzerindeki yakmalık sunuyu, yağları yakıp küle çevirdi. Bunu gören halkın tümü sevinçle haykırarak yüzüstü yere kapandı."
+    }
+  ],
+  "title": "Kâhinler Görevlerine Başlıyor"
+}

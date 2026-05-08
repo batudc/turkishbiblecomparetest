@@ -1,1 +1,31 @@
-{"t":"TCL02","b":"PSA","c":100,"content":[{"v":1,"text":"Ey bütün dünya, RAB'be sevinç çığlıkları yükseltin!"},{"v":2,"text":"O'na neşeyle kulluk edin, Sevinç ezgileriyle çıkın huzuruna!"},{"v":3,"text":"Bilin ki RAB Tanrı'dır. Bizi yaratan O'dur, biz de O'nunuz, O'nun halkı, otlağının koyunlarıyız."},{"v":4,"text":"Kapılarına şükranla, Avlularına övgüyle girin! Şükredin O'na, adına övgüler sunun!"},{"v":5,"text":"Çünkü RAB iyidir, Sevgisi sonsuzdur. Sadakati kuşaklar boyunca sürer."}]}
+{
+  "t": "TCL02",
+  "b": "PSA",
+  "c": 100,
+  "content": [
+    {
+      "section": "100. Mezmur"
+    },
+    {
+      "v": 1,
+      "text": "Ey bütün dünya, RAB'be sevinç çığlıkları yükseltin!"
+    },
+    {
+      "v": 2,
+      "text": "O'na neşeyle kulluk edin, Sevinç ezgileriyle çıkın huzuruna!"
+    },
+    {
+      "v": 3,
+      "text": "Bilin ki RAB Tanrı'dır. Bizi yaratan O'dur, biz de O'nunuz, O'nun halkı, otlağının koyunlarıyız."
+    },
+    {
+      "v": 4,
+      "text": "Kapılarına şükranla, Avlularına övgüyle girin! Şükredin O'na, adına övgüler sunun!"
+    },
+    {
+      "v": 5,
+      "text": "Çünkü RAB iyidir, Sevgisi sonsuzdur. Sadakati kuşaklar boyunca sürer."
+    }
+  ],
+  "title": "100. Mezmur"
+}

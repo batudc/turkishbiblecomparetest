@@ -1,1 +1,82 @@
-{"t":"TCL02","b":"1CH","c":14,"content":[{"v":1,"text":"Sur Kralı Hiram Davut'a ulaklar ve bir saray yapmak için sedir tomrukları, taşçılar, marangozlar gönderdi."},{"v":2,"text":"Böylece Davut RAB'bin kendisini İsrail Kralı atadığını ve halkı İsrail'in hatırı için krallığını çok yücelttiğini anladı."},{"v":3,"text":"Davut Yeruşalim'de kendine daha birçok karı aldı; bunlardan erkek ve kız çocukları oldu."},{"v":4,"text":"Davut'un Yeruşalim'de doğan çocuklarının adları şunlardı: Şammua, Şovav, Natan, Süleyman,"},{"v":5,"text":"Yivhar, Elişua, Elpelet,"},{"v":6,"text":"Nogah, Nefek, Yafia,"},{"v":7,"text":"Elişama, Beelyada, Elifelet."},{"v":8,"text":"Filistliler Davut'un İsrail Kralı olarak meshedildiğini duyunca, bütün Filist ordusu onu aramak için yola çıktı. Bunu duyan Davut onları karşılamaya gitti."},{"v":9,"text":"Filistliler gelip Refaim Vadisi'nde baskın yapmışlardı."},{"v":10,"text":"Davut Tanrı'ya danıştı: “Filistliler'e saldırayım mı? Onları elime teslim edecek misin?”  RAB, “Saldır” dedi, “Onları eline teslim edeceğim.”"},{"v":11,"text":"Bunun üzerine Davut'la adamları Baal-Perasim'e gittiler. Davut orada Filistliler'i bozguna uğrattı. Sonra, “Her şeyi yarıp geçen sular gibi, Tanrı düşmanlarımı benim elimle yarıp geçti” dedi. Bundan ötürü oraya Baal-Perasim adı verildi."},{"v":12,"text":"Filistliler putlarını orada bıraktılar. Davut'un buyruğu uyarınca putlar yakıldı."},{"v":13,"text":"Filistliler bir kez daha gelip vadiye baskın yaptılar."},{"v":14,"text":"Davut yine Tanrı'ya danıştı. Tanrı şöyle karşılık verdi: “Buradan saldırma! Onları arkadan çevirip pelesenk ağaçlarının önünden saldır."},{"v":15,"text":"Pelesenk ağaçlarının tepesinden yürüyüş sesi duyar duymaz, saldırıya geç. Çünkü ben Filist ordusunu bozguna uğratmak için önünsıra gitmişim demektir.”"},{"v":16,"text":"Davut Tanrı'nın kendisine buyurduğu gibi yaptı ve Filist ordusunu Givon'dan Gezer'e kadar bozguna uğrattı."},{"v":17,"text":"Böylece Davut'un ünü her yana yayıldı. RAB bütün ulusların ondan korkmasını sağladı."}]}
+{
+  "t": "TCL02",
+  "b": "1CH",
+  "c": 14,
+  "content": [
+    {
+      "section": "Davut'un Ailesi"
+    },
+    {
+      "v": 1,
+      "text": "Sur Kralı Hiram Davut'a ulaklar ve bir saray yapmak için sedir tomrukları, taşçılar, marangozlar gönderdi."
+    },
+    {
+      "v": 2,
+      "text": "Böylece Davut RAB'bin kendisini İsrail Kralı atadığını ve halkı İsrail'in hatırı için krallığını çok yücelttiğini anladı."
+    },
+    {
+      "v": 3,
+      "text": "Davut Yeruşalim'de kendine daha birçok karı aldı; bunlardan erkek ve kız çocukları oldu."
+    },
+    {
+      "v": 4,
+      "text": "Davut'un Yeruşalim'de doğan çocuklarının adları şunlardı: Şammua, Şovav, Natan, Süleyman,"
+    },
+    {
+      "v": 5,
+      "text": "Yivhar, Elişua, Elpelet,"
+    },
+    {
+      "v": 6,
+      "text": "Nogah, Nefek, Yafia,"
+    },
+    {
+      "v": 7,
+      "text": "Elişama, Beelyada, Elifelet."
+    },
+    {
+      "section": "Filistliler Yenilgiye Uğruyor"
+    },
+    {
+      "v": 8,
+      "text": "Filistliler Davut'un İsrail Kralı olarak meshedildiğini duyunca, bütün Filist ordusu onu aramak için yola çıktı. Bunu duyan Davut onları karşılamaya gitti."
+    },
+    {
+      "v": 9,
+      "text": "Filistliler gelip Refaim Vadisi'nde baskın yapmışlardı."
+    },
+    {
+      "v": 10,
+      "text": "Davut Tanrı'ya danıştı: “Filistliler'e saldırayım mı? Onları elime teslim edecek misin?”  RAB, “Saldır” dedi, “Onları eline teslim edeceğim.”"
+    },
+    {
+      "v": 11,
+      "text": "Bunun üzerine Davut'la adamları Baal-Perasim'e gittiler. Davut orada Filistliler'i bozguna uğrattı. Sonra, “Her şeyi yarıp geçen sular gibi, Tanrı düşmanlarımı benim elimle yarıp geçti” dedi. Bundan ötürü oraya Baal-Perasim adı verildi."
+    },
+    {
+      "v": 12,
+      "text": "Filistliler putlarını orada bıraktılar. Davut'un buyruğu uyarınca putlar yakıldı."
+    },
+    {
+      "v": 13,
+      "text": "Filistliler bir kez daha gelip vadiye baskın yaptılar."
+    },
+    {
+      "v": 14,
+      "text": "Davut yine Tanrı'ya danıştı. Tanrı şöyle karşılık verdi: “Buradan saldırma! Onları arkadan çevirip pelesenk ağaçlarının önünden saldır."
+    },
+    {
+      "v": 15,
+      "text": "Pelesenk ağaçlarının tepesinden yürüyüş sesi duyar duymaz, saldırıya geç. Çünkü ben Filist ordusunu bozguna uğratmak için önünsıra gitmişim demektir.”"
+    },
+    {
+      "v": 16,
+      "text": "Davut Tanrı'nın kendisine buyurduğu gibi yaptı ve Filist ordusunu Givon'dan Gezer'e kadar bozguna uğrattı."
+    },
+    {
+      "v": 17,
+      "text": "Böylece Davut'un ünü her yana yayıldı. RAB bütün ulusların ondan korkmasını sağladı."
+    }
+  ],
+  "title": "Davut'un Ailesi"
+}

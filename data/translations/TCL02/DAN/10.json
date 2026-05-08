@@ -1,1 +1,95 @@
-{"t":"TCL02","b":"DAN","c":10,"content":[{"v":1,"text":"Pers Kralı Koreş'in krallığının üçüncü yılında Belteşassar diye çağrılan Daniel'e bir giz açıklandı. Büyük bir savaşla ilgili olan bu giz gerçekti. Daniel görümde kendisine açıklanan gizi anladı."},{"v":2,"text":"O sırada ben Daniel üç haftadır yas tutuyordum."},{"v":3,"text":"Üç hafta dolana dek ağzıma ne güzel bir yiyecek ya da et koydum, ne şarap içtim, ne de yağ süründüm."},{"v":4,"text":"Birinci ayın yirmi dördüncü günü, Büyük Irmak'ın, yani Dicle'nin kıyısındayken,"},{"v":5,"text":"gözlerimi kaldırıp bakınca keten giysi giyinmiş, beline Ufaz altınından kemer kuşanmış bir adam gördüm."},{"v":6,"text":"Bedeni sarı yakut gibiydi. Yüzü şimşek gibi parlıyordu. Gözleri alevli meşalelere benziyordu. Kollarıyla bacakları cilalı tunç gibi parlıyor, sesi büyük bir kalabalığın çıkardığı gürültüyü andırıyordu."},{"v":7,"text":"Görümü yalnız ben Daniel gördüm. Yanımdakiler görmediler, ama dehşete düşerek gizlenmek için kaçtılar."},{"v":8,"text":"Böylece ben yalnız kaldım. Bu büyük görümü seyrederken gücüm tükendi, benzim büsbütün soldu, kendimi toparlayamadım."},{"v":9,"text":"Sonra adamın sesini duyunca yüzüstü yere düşüp derin bir uykuya daldım."},{"v":10,"text":"Derken bir el dokundu, titredim; beni dizlerimle ellerimin üzerine kaldırdı."},{"v":11,"text":"Bana, “Ey Daniel, sen ki çok sevilen birisin!” dedi, “Ayağa kalk ve söyleyeceklerime iyi kulak ver. Çünkü sana gönderildim.” O bunları söyler söylemez titreyerek ayağa kalktım."},{"v":12,"text":"“Korkma, ey Daniel!” diye devam etti, “Anlayışa erişmeye ve kendini Tanrın'ın önünde alçaltmaya karar verdiğin gün duan işitildi. İşte bu yüzden geldim."},{"v":13,"text":"Pers krallığının önderi yirmi bir gün bana karşı durdu. Sonra baş önderlerden Mikail bana yardıma geldi, çünkü orada, Pers krallarının yanında alıkonulmuştum."},{"v":14,"text":"Son günlerde halkının başına neler geleceğini sana açıklamak için geldim şimdi, çünkü bu görüm gelecekle ilgilidir.”"},{"v":15,"text":"O bunları söyleyince, suskun suskun yere baktım."},{"v":16,"text":"Derken insanoğluna benzeyen biri dudaklarıma dokundu. Ben de ağzımı açıp konuşmaya başladım. Karşımda durana, “Ey efendim, bu görüm yüzünden acı çekiyorum, kendimi toparlayamıyorum” dedim,"},{"v":17,"text":"“Ben kulun nasıl seninle konuşayım? Gücüm tükendi, soluğum kesildi.”"},{"v":18,"text":"İnsana benzeyen varlık yine dokunup beni güçlendirdi."},{"v":19,"text":"“Ey çok sevilen adam, korkma!” dedi, “Esenlik olsun sana! Güçlü ol! Evet, güçlü ol!”  O benimle konuşunca güçlendim. “Konuşmanı sürdür, efendim, çünkü bana güç verdin” dedim."},{"v":20,"text":"Bunun üzerine, “Sana neden geldiğimi biliyor musun?” dedi, “Çok yakında dönüp Pers önderiyle savaşacağım. Ben gidince Grek önderi gelecek."},{"v":21,"text":"Ama önce Gerçek Kitap'ta neler yazıldığını sana bildireceğim. Onlara karşı önderiniz Mikail dışında bana yardım eden kimse yok."}]}
+{
+  "t": "TCL02",
+  "b": "DAN",
+  "c": 10,
+  "content": [
+    {
+      "section": "Daniel'in Dicle Irmağı'nda Gördüğü Görüm"
+    },
+    {
+      "v": 1,
+      "text": "Pers Kralı Koreş'in krallığının üçüncü yılında Belteşassar diye çağrılan Daniel'e bir giz açıklandı. Büyük bir savaşla ilgili olan bu giz gerçekti. Daniel görümde kendisine açıklanan gizi anladı."
+    },
+    {
+      "v": 2,
+      "text": "O sırada ben Daniel üç haftadır yas tutuyordum."
+    },
+    {
+      "v": 3,
+      "text": "Üç hafta dolana dek ağzıma ne güzel bir yiyecek ya da et koydum, ne şarap içtim, ne de yağ süründüm."
+    },
+    {
+      "v": 4,
+      "text": "Birinci ayın yirmi dördüncü günü, Büyük Irmak'ın, yani Dicle'nin kıyısındayken,"
+    },
+    {
+      "v": 5,
+      "text": "gözlerimi kaldırıp bakınca keten giysi giyinmiş, beline Ufaz altınından kemer kuşanmış bir adam gördüm."
+    },
+    {
+      "v": 6,
+      "text": "Bedeni sarı yakut gibiydi. Yüzü şimşek gibi parlıyordu. Gözleri alevli meşalelere benziyordu. Kollarıyla bacakları cilalı tunç gibi parlıyor, sesi büyük bir kalabalığın çıkardığı gürültüyü andırıyordu."
+    },
+    {
+      "v": 7,
+      "text": "Görümü yalnız ben Daniel gördüm. Yanımdakiler görmediler, ama dehşete düşerek gizlenmek için kaçtılar."
+    },
+    {
+      "v": 8,
+      "text": "Böylece ben yalnız kaldım. Bu büyük görümü seyrederken gücüm tükendi, benzim büsbütün soldu, kendimi toparlayamadım."
+    },
+    {
+      "v": 9,
+      "text": "Sonra adamın sesini duyunca yüzüstü yere düşüp derin bir uykuya daldım."
+    },
+    {
+      "v": 10,
+      "text": "Derken bir el dokundu, titredim; beni dizlerimle ellerimin üzerine kaldırdı."
+    },
+    {
+      "v": 11,
+      "text": "Bana, “Ey Daniel, sen ki çok sevilen birisin!” dedi, “Ayağa kalk ve söyleyeceklerime iyi kulak ver. Çünkü sana gönderildim.” O bunları söyler söylemez titreyerek ayağa kalktım."
+    },
+    {
+      "v": 12,
+      "text": "“Korkma, ey Daniel!” diye devam etti, “Anlayışa erişmeye ve kendini Tanrın'ın önünde alçaltmaya karar verdiğin gün duan işitildi. İşte bu yüzden geldim."
+    },
+    {
+      "v": 13,
+      "text": "Pers krallığının önderi yirmi bir gün bana karşı durdu. Sonra baş önderlerden Mikail bana yardıma geldi, çünkü orada, Pers krallarının yanında alıkonulmuştum."
+    },
+    {
+      "v": 14,
+      "text": "Son günlerde halkının başına neler geleceğini sana açıklamak için geldim şimdi, çünkü bu görüm gelecekle ilgilidir.”"
+    },
+    {
+      "v": 15,
+      "text": "O bunları söyleyince, suskun suskun yere baktım."
+    },
+    {
+      "v": 16,
+      "text": "Derken insanoğluna benzeyen biri dudaklarıma dokundu. Ben de ağzımı açıp konuşmaya başladım. Karşımda durana, “Ey efendim, bu görüm yüzünden acı çekiyorum, kendimi toparlayamıyorum” dedim,"
+    },
+    {
+      "v": 17,
+      "text": "“Ben kulun nasıl seninle konuşayım? Gücüm tükendi, soluğum kesildi.”"
+    },
+    {
+      "v": 18,
+      "text": "İnsana benzeyen varlık yine dokunup beni güçlendirdi."
+    },
+    {
+      "v": 19,
+      "text": "“Ey çok sevilen adam, korkma!” dedi, “Esenlik olsun sana! Güçlü ol! Evet, güçlü ol!”  O benimle konuşunca güçlendim. “Konuşmanı sürdür, efendim, çünkü bana güç verdin” dedim."
+    },
+    {
+      "v": 20,
+      "text": "Bunun üzerine, “Sana neden geldiğimi biliyor musun?” dedi, “Çok yakında dönüp Pers önderiyle savaşacağım. Ben gidince Grek önderi gelecek."
+    },
+    {
+      "v": 21,
+      "text": "Ama önce Gerçek Kitap'ta neler yazıldığını sana bildireceğim. Onlara karşı önderiniz Mikail dışında bana yardım eden kimse yok."
+    }
+  ],
+  "title": "Daniel'in Dicle Irmağı'nda Gördüğü Görüm"
+}

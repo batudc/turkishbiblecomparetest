@@ -1,1 +1,98 @@
-{"t":"TCL02","b":"ISA","c":59,"content":[{"v":1,"text":"Bakın, RAB'bin eli kurtaramayacak kadar kısa, Kulağı duyamayacak kadar sağır değildir."},{"v":2,"text":"Ama suçlarınız sizi Tanrınız'dan ayırdı. Günahlarınızdan ötürü O'nun yüzünü göremez, Sesinizi işittiremez oldunuz."},{"v":3,"text":"Çünkü elleriniz kanla, Parmaklarınız suçla kirlendi. Dudaklarınız yalan söyledi, Diliniz kötülük mırıldanıyor."},{"v":4,"text":"Adaletle dava açan, Davasını dürüstçe savunan yok. Boş laflara güveniyor, yalan söylüyorlar. Fesada gebe kalıp kötülük doğuruyorlar."},{"v":5,"text":"Engerek yumurtaları üzerinde kuluçkaya yatıyor, Örümcek ağı dokuyorlar. Onların yumurtalarından yiyen ölür, Kırılan yumurtadan engerek yavrusu çıkar."},{"v":6,"text":"Dokudukları ağdan giysi olmaz, Elleriyle yaptıklarıyla örtünemezler. Eylemleri kötü eylemlerdir, Elleri zorbalığın araçlarıdır."},{"v":7,"text":"Ayakları kötülüğe koşar, Çekinmeden suçsuz kanı dökerler. Akılları fikirleri hep kötülükte, Şiddet ve yıkım var yollarında."},{"v":8,"text":"Esenlik yolunu bilmezler, İzledikleri yolda adalet yoktur. Kendilerine çarpık yollar yaptılar, O yoldan gidenlerin hiçbiri esenlik nedir bilmez."},{"v":9,"text":"Diyorlar ki, “Bu yüzden adalet bizden uzak, Doğruluk bize erişemiyor. Işık bekliyoruz, yalnız karanlık var; Parıltı bekliyor, koyu karanlıkta yürüyoruz."},{"v":10,"text":"Kör gibi duvarı el yordamıyla arıyor, Yolumuzu bulmaya çalışıyoruz. Öğle vakti alaca karanlıktaymış gibi tökezliyoruz, Güçlüler arasında ölüler gibiyiz."},{"v":11,"text":"Hepimiz ayı gibi homurdanıyor, Güvercin gibi inim inim inliyoruz. Adalet bekliyoruz, ortada yok; Kurtuluş bekliyoruz, bizden uzak."},{"v":12,"text":"Çünkü sana çok kez başkaldırdık, Günahlarımız bize karşı tanıklık ediyor, İsyanlarımız hep yanıbaşımızda. Suçlarımızı kabul ediyoruz."},{"v":13,"text":"Başkaldırıp RAB'bi yadsıdık, Tanrımız'ı izlemez olduk. Zorbalık, isyan dolu sözler söyledik, Yüreğimizde tasarladığımız yalanları mırıldandık."},{"v":14,"text":"Adalet püskürtüldü, doğruluk bizden uzak duruyor. Çünkü gerçek, kent meydanında sendeleyip düştü, Dürüstlük aramıza giremez oldu."},{"v":15,"text":"Hiçbir yerde gerçek yok, Kötülükten çekinen soyuluyor!”  RAB olanları gördü ve adaletin yokluğuna üzüldü."},{"v":16,"text":"Kimsenin olmadığını gördü, Aracılık edecek birinin olmadığına şaştı. Kendi gücüyle kurtuluş sağladı, Doğruluğu O'na destek oldu."},{"v":17,"text":"Doğruluğu göğüslük gibi kuşandı, Kurtuluş miğferini başına taktı, Öç giysisini giydi, Gayreti kaftan gibi sarındı."},{"v":18,"text":"Herkese yaptıklarının karşılığını verecek. Düşmanlarına öfkeyle, Hasımlarına ve kıyı halklarına cezayla karşılık verecek."},{"v":19,"text":"Böylece batıdan doğuya kadar insanlar RAB'bin adından ve yüceliğinden korkacak. Çünkü düşman azgın bir ırmak gibi geldiğinde, RAB'bin Ruhu onu kaçırtacak."},{"v":20,"text":"RAB diyor ki, “Kurtarıcı Siyon'a, Yakup soyundan olup başkaldırmaktan vazgeçenlere gelecek."},{"v":21,"text":"Bana gelince, onlarla yapacağım antlaşma şudur: Üzerindeki Ruhum, ağzına koyduğum sözler Şimdiden sonsuza dek senin, çocuklarının, Torunlarının ağzından düşmeyecek.”"}]}
+{
+  "t": "TCL02",
+  "b": "ISA",
+  "c": 59,
+  "content": [
+    {
+      "section": "Günah ve İtiraf"
+    },
+    {
+      "v": 1,
+      "text": "Bakın, RAB'bin eli kurtaramayacak kadar kısa, Kulağı duyamayacak kadar sağır değildir."
+    },
+    {
+      "v": 2,
+      "text": "Ama suçlarınız sizi Tanrınız'dan ayırdı. Günahlarınızdan ötürü O'nun yüzünü göremez, Sesinizi işittiremez oldunuz."
+    },
+    {
+      "v": 3,
+      "text": "Çünkü elleriniz kanla, Parmaklarınız suçla kirlendi. Dudaklarınız yalan söyledi, Diliniz kötülük mırıldanıyor."
+    },
+    {
+      "v": 4,
+      "text": "Adaletle dava açan, Davasını dürüstçe savunan yok. Boş laflara güveniyor, yalan söylüyorlar. Fesada gebe kalıp kötülük doğuruyorlar."
+    },
+    {
+      "v": 5,
+      "text": "Engerek yumurtaları üzerinde kuluçkaya yatıyor, Örümcek ağı dokuyorlar. Onların yumurtalarından yiyen ölür, Kırılan yumurtadan engerek yavrusu çıkar."
+    },
+    {
+      "v": 6,
+      "text": "Dokudukları ağdan giysi olmaz, Elleriyle yaptıklarıyla örtünemezler. Eylemleri kötü eylemlerdir, Elleri zorbalığın araçlarıdır."
+    },
+    {
+      "v": 7,
+      "text": "Ayakları kötülüğe koşar, Çekinmeden suçsuz kanı dökerler. Akılları fikirleri hep kötülükte, Şiddet ve yıkım var yollarında."
+    },
+    {
+      "v": 8,
+      "text": "Esenlik yolunu bilmezler, İzledikleri yolda adalet yoktur. Kendilerine çarpık yollar yaptılar, O yoldan gidenlerin hiçbiri esenlik nedir bilmez."
+    },
+    {
+      "v": 9,
+      "text": "Diyorlar ki, “Bu yüzden adalet bizden uzak, Doğruluk bize erişemiyor. Işık bekliyoruz, yalnız karanlık var; Parıltı bekliyor, koyu karanlıkta yürüyoruz."
+    },
+    {
+      "v": 10,
+      "text": "Kör gibi duvarı el yordamıyla arıyor, Yolumuzu bulmaya çalışıyoruz. Öğle vakti alaca karanlıktaymış gibi tökezliyoruz, Güçlüler arasında ölüler gibiyiz."
+    },
+    {
+      "v": 11,
+      "text": "Hepimiz ayı gibi homurdanıyor, Güvercin gibi inim inim inliyoruz. Adalet bekliyoruz, ortada yok; Kurtuluş bekliyoruz, bizden uzak."
+    },
+    {
+      "v": 12,
+      "text": "Çünkü sana çok kez başkaldırdık, Günahlarımız bize karşı tanıklık ediyor, İsyanlarımız hep yanıbaşımızda. Suçlarımızı kabul ediyoruz."
+    },
+    {
+      "v": 13,
+      "text": "Başkaldırıp RAB'bi yadsıdık, Tanrımız'ı izlemez olduk. Zorbalık, isyan dolu sözler söyledik, Yüreğimizde tasarladığımız yalanları mırıldandık."
+    },
+    {
+      "v": 14,
+      "text": "Adalet püskürtüldü, doğruluk bizden uzak duruyor. Çünkü gerçek, kent meydanında sendeleyip düştü, Dürüstlük aramıza giremez oldu."
+    },
+    {
+      "v": 15,
+      "text": "Hiçbir yerde gerçek yok, Kötülükten çekinen soyuluyor!”  RAB olanları gördü ve adaletin yokluğuna üzüldü."
+    },
+    {
+      "section": "Rab Halkını Kurtaracak"
+    },
+    {
+      "v": 16,
+      "text": "Kimsenin olmadığını gördü, Aracılık edecek birinin olmadığına şaştı. Kendi gücüyle kurtuluş sağladı, Doğruluğu O'na destek oldu."
+    },
+    {
+      "v": 17,
+      "text": "Doğruluğu göğüslük gibi kuşandı, Kurtuluş miğferini başına taktı, Öç giysisini giydi, Gayreti kaftan gibi sarındı."
+    },
+    {
+      "v": 18,
+      "text": "Herkese yaptıklarının karşılığını verecek. Düşmanlarına öfkeyle, Hasımlarına ve kıyı halklarına cezayla karşılık verecek."
+    },
+    {
+      "v": 19,
+      "text": "Böylece batıdan doğuya kadar insanlar RAB'bin adından ve yüceliğinden korkacak. Çünkü düşman azgın bir ırmak gibi geldiğinde, RAB'bin Ruhu onu kaçırtacak."
+    },
+    {
+      "v": 20,
+      "text": "RAB diyor ki, “Kurtarıcı Siyon'a, Yakup soyundan olup başkaldırmaktan vazgeçenlere gelecek."
+    },
+    {
+      "v": 21,
+      "text": "Bana gelince, onlarla yapacağım antlaşma şudur: Üzerindeki Ruhum, ağzına koyduğum sözler Şimdiden sonsuza dek senin, çocuklarının, Torunlarının ağzından düşmeyecek.”"
+    }
+  ],
+  "title": "Günah ve İtiraf"
+}

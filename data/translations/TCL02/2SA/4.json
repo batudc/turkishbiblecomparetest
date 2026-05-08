@@ -1,1 +1,51 @@
-{"t": "TCL02", "b": "2SA", "c": 4, "content": [{"v": 1, "text": "Avner'in Hevron'da öldürüldüğünü duyan Saul oğlu İş-Boşet korkuya kapıldı. Bütün İsrail halkı da dehşet içindeydi."}, {"v": 2, "text": "Saul oğlu İş-Boşet'in iki akıncı önderi vardı; bunlar Benyamin oymağından Beerotlu Rimmon'un oğullarıydı. Birinin adı Baana, öbürününki Rekav'dı. –Beerot Benyamin oymağından sayılırdı."}, {"v": 3, "text": "Beerotlular Gittayim'e kaçmışlardı. Yabancı olan bu halk bugün de orada gurbette yaşıyor.–"}, {"v": 4, "text": "Saul oğlu Yonatan'ın Mefiboşet adında bir oğlu vardı; iki ayağı da topaldı. Saul'la Yonatan'ın ölüm haberi Yizreel'den ulaştığında, Mefiboşet beş yaşındaydı. Dadısı onu alıp kaçmıştı. Ne var ki, aceleyle kaçmaya çalışırken çocuk düşüp sakatlanmıştı."}, {"v": 5, "text": "Beerotlu Rimmon'un oğulları Rekav'la Baana yola koyuldular. Öğle sıcağında İş-Boşet'in evine vardıklarında İş-Boşet uzanmış dinlenmekteydi."}, {"v": 6, "text": "Buğday alacakmış gibi yaparak eve girdiler. O sırada İş-Boşet yatak odasında yatağında uzanıyordu. Adamlar İş-Boşet'in karnını deşip öldürdüler. Başını gövdesinden ayırıp yanlarına aldılar.  Rekav'la kardeşi Baana kaçıp bütün gece Arava yolundan ilerlediler."}, {"v": 8, "text": "İş-Boşet'in başını Hevron'da Kral Davut'a getirip, “İşte seni öldürmek isteyen düşmanın Saul'un oğlu İş-Boşet'in başı!” dediler, “RAB bugün Saul'dan ve onun soyundan efendimiz kralın öcünü aldı.”"}, {"v": 9, "text": "Ama Davut Beerotlu Rimmon'un oğulları Rekav'la kardeşi Baana'ya şöyle karşılık verdi: “Beni her türlü sıkıntıdan kurtaran yaşayan RAB adıyla derim ki, iyi haber getirdiğini sanarak bana Saul'un öldüğünü bildiren adamı yakalayıp Ziklak'ta yaşamına son verdim. Getirdiği iyi haber için verdiğim ödül buydu!"}, {"v": 11, "text": "Doğru birini evinde, yatağında öldüren kötü kişilerin ölümü çok daha kesindir! Şimdi sizi yeryüzünden yok ederek onun öcünü sizden almayacak mıyım?”"}, {"v": 12, "text": "Sonra adamlarına buyruk verdi. İki kardeşi öldürüp ellerini, ayaklarını kestiler ve Hevron'daki havuzun yanına astılar. İş-Boşet'in başını ise götürüp Hevron'da Avner'in mezarına gömdüler."}]}
+{
+  "t": "TCL02",
+  "b": "2SA",
+  "c": 4,
+  "content": [
+    {
+      "section": "İş-Boşet'in Öldürülmesi"
+    },
+    {
+      "v": 1,
+      "text": "Avner'in Hevron'da öldürüldüğünü duyan Saul oğlu İş-Boşet korkuya kapıldı. Bütün İsrail halkı da dehşet içindeydi."
+    },
+    {
+      "v": 2,
+      "text": "Saul oğlu İş-Boşet'in iki akıncı önderi vardı; bunlar Benyamin oymağından Beerotlu Rimmon'un oğullarıydı. Birinin adı Baana, öbürününki Rekav'dı. –Beerot Benyamin oymağından sayılırdı."
+    },
+    {
+      "v": 3,
+      "text": "Beerotlular Gittayim'e kaçmışlardı. Yabancı olan bu halk bugün de orada gurbette yaşıyor.–"
+    },
+    {
+      "v": 4,
+      "text": "Saul oğlu Yonatan'ın Mefiboşet adında bir oğlu vardı; iki ayağı da topaldı. Saul'la Yonatan'ın ölüm haberi Yizreel'den ulaştığında, Mefiboşet beş yaşındaydı. Dadısı onu alıp kaçmıştı. Ne var ki, aceleyle kaçmaya çalışırken çocuk düşüp sakatlanmıştı."
+    },
+    {
+      "v": 5,
+      "text": "Beerotlu Rimmon'un oğulları Rekav'la Baana yola koyuldular. Öğle sıcağında İş-Boşet'in evine vardıklarında İş-Boşet uzanmış dinlenmekteydi."
+    },
+    {
+      "v": 6,
+      "text": "Buğday alacakmış gibi yaparak eve girdiler. O sırada İş-Boşet yatak odasında yatağında uzanıyordu. Adamlar İş-Boşet'in karnını deşip öldürdüler. Başını gövdesinden ayırıp yanlarına aldılar.  Rekav'la kardeşi Baana kaçıp bütün gece Arava yolundan ilerlediler."
+    },
+    {
+      "v": 8,
+      "text": "İş-Boşet'in başını Hevron'da Kral Davut'a getirip, “İşte seni öldürmek isteyen düşmanın Saul'un oğlu İş-Boşet'in başı!” dediler, “RAB bugün Saul'dan ve onun soyundan efendimiz kralın öcünü aldı.”"
+    },
+    {
+      "v": 9,
+      "text": "Ama Davut Beerotlu Rimmon'un oğulları Rekav'la kardeşi Baana'ya şöyle karşılık verdi: “Beni her türlü sıkıntıdan kurtaran yaşayan RAB adıyla derim ki, iyi haber getirdiğini sanarak bana Saul'un öldüğünü bildiren adamı yakalayıp Ziklak'ta yaşamına son verdim. Getirdiği iyi haber için verdiğim ödül buydu!"
+    },
+    {
+      "v": 11,
+      "text": "Doğru birini evinde, yatağında öldüren kötü kişilerin ölümü çok daha kesindir! Şimdi sizi yeryüzünden yok ederek onun öcünü sizden almayacak mıyım?”"
+    },
+    {
+      "v": 12,
+      "text": "Sonra adamlarına buyruk verdi. İki kardeşi öldürüp ellerini, ayaklarını kestiler ve Hevron'daki havuzun yanına astılar. İş-Boşet'in başını ise götürüp Hevron'da Avner'in mezarına gömdüler."
+    }
+  ],
+  "title": "İş-Boşet'in Öldürülmesi"
+}

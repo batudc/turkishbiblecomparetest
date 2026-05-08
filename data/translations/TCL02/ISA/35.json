@@ -1,1 +1,51 @@
-{"t":"TCL02","b":"ISA","c":35,"content":[{"v":1,"text":"Çöl ve kurak toprak sevinecek, Bozkır coşup çiğdem gibi çiçeklenecek."},{"v":2,"text":"Her yanı çiçeklenip sevinçle coşacak, Sevincini haykıracak. Lübnan'ın yüceliği, Karmel ve Şaron'un görkemi ona verilecek. İnsanlar RAB'bin yüceliğini, Tanrımız'ın görkemini görecek."},{"v":3,"text":"Gevşek elleri güçlendirin, Pekiştirin çözülen dizleri."},{"v":4,"text":"Yüreği kaygılı olanlara, “Güçlü olun, korkmayın” deyin, “İşte Tanrınız geliyor! Öç almaya, karşılık vermeye geliyor. Sizi O kurtaracak.”"},{"v":5,"text":"O zaman körlerin gözleri, Sağırların kulakları açılacak;"},{"v":6,"text":"Topallar geyik gibi sıçrayacak, Sevinçle haykıracak dilsizlerin dili. Çünkü çölde sular fışkıracak, Irmaklar akacak bozkırda."},{"v":7,"text":"Kızgın kum havuza, Susuz toprak pınara dönüşecek. Çakalların yattığı yerlerde Kamış, saz ve ot bitecek."},{"v":8,"text":"Orada bir yol, bir anayol olacak, “Kutsal yol” diye anılacak, Murdar kişiler geçemeyecek oradan. O yol kurtulmuş olanların yoludur. O yolda yürüyenler, bön kişiler de olsa yoldan sapmayacak."},{"v":9,"text":"Aslan olmayacak orada, Yırtıcı hayvan o yola çıkmayacak; Orada bulunmayacaklar. Ancak kurtulmuş olanlar yürüyecek o yolda."},{"v":10,"text":"RAB'bin kurtardıkları dönecek, Sevinçle haykırarak Siyon'a varacaklar. Yüzlerinde sonsuz sevinç olacak. Onların olacak coşku ve sevinç, Üzüntü ve inilti kaçacak."}]}
+{
+  "t": "TCL02",
+  "b": "ISA",
+  "c": 35,
+  "content": [
+    {
+      "section": "Rab'bin Egemenliği"
+    },
+    {
+      "v": 1,
+      "text": "Çöl ve kurak toprak sevinecek, Bozkır coşup çiğdem gibi çiçeklenecek."
+    },
+    {
+      "v": 2,
+      "text": "Her yanı çiçeklenip sevinçle coşacak, Sevincini haykıracak. Lübnan'ın yüceliği, Karmel ve Şaron'un görkemi ona verilecek. İnsanlar RAB'bin yüceliğini, Tanrımız'ın görkemini görecek."
+    },
+    {
+      "v": 3,
+      "text": "Gevşek elleri güçlendirin, Pekiştirin çözülen dizleri."
+    },
+    {
+      "v": 4,
+      "text": "Yüreği kaygılı olanlara, “Güçlü olun, korkmayın” deyin, “İşte Tanrınız geliyor! Öç almaya, karşılık vermeye geliyor. Sizi O kurtaracak.”"
+    },
+    {
+      "v": 5,
+      "text": "O zaman körlerin gözleri, Sağırların kulakları açılacak;"
+    },
+    {
+      "v": 6,
+      "text": "Topallar geyik gibi sıçrayacak, Sevinçle haykıracak dilsizlerin dili. Çünkü çölde sular fışkıracak, Irmaklar akacak bozkırda."
+    },
+    {
+      "v": 7,
+      "text": "Kızgın kum havuza, Susuz toprak pınara dönüşecek. Çakalların yattığı yerlerde Kamış, saz ve ot bitecek."
+    },
+    {
+      "v": 8,
+      "text": "Orada bir yol, bir anayol olacak, “Kutsal yol” diye anılacak, Murdar kişiler geçemeyecek oradan. O yol kurtulmuş olanların yoludur. O yolda yürüyenler, bön kişiler de olsa yoldan sapmayacak."
+    },
+    {
+      "v": 9,
+      "text": "Aslan olmayacak orada, Yırtıcı hayvan o yola çıkmayacak; Orada bulunmayacaklar. Ancak kurtulmuş olanlar yürüyecek o yolda."
+    },
+    {
+      "v": 10,
+      "text": "RAB'bin kurtardıkları dönecek, Sevinçle haykırarak Siyon'a varacaklar. Yüzlerinde sonsuz sevinç olacak. Onların olacak coşku ve sevinç, Üzüntü ve inilti kaçacak."
+    }
+  ],
+  "title": "Rab'bin Egemenliği"
+}

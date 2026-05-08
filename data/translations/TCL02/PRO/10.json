@@ -1,1 +1,139 @@
-{"t":"TCL02","b":"PRO","c":10,"content":[{"v":1,"text":"Süleyman'ın özdeyişleri: Bilge çocuk babasını sevindirir, Akılsız çocuk annesini üzer."},{"v":2,"text":"Haksızca kazanılan servetin yararı yoktur, Ama doğruluk ölümden kurtarır."},{"v":3,"text":"RAB doğru kişiyi aç komaz, Ama kötülerin isteğini boşa çıkarır."},{"v":4,"text":"Tembel eller insanı yoksullaştırır, Çalışkan el zengin eder."},{"v":5,"text":"Aklı başında evlat ürünü yazın toplar, Hasatta uyuyansa ailesinin yüzkarasıdır."},{"v":6,"text":"Bereket doğru kişinin başına yağar, Kötülerse zorbalıklarını sözle gizler."},{"v":7,"text":"Doğrular övgüyle, Kötüler nefretle anılır."},{"v":8,"text":"Bilge kişi buyrukları kabul eder, Çenesi düşük ahmaksa yıkıma uğrar."},{"v":9,"text":"Dürüst kişi güvenlik içinde yaşar, Ama hileli yoldan giden açığa vurulacaktır."},{"v":10,"text":"Sinsice göz kırpan, acılara neden olur. Çenesi düşük ahmak da yıkıma uğrar."},{"v":11,"text":"Doğru kişinin ağzı yaşam pınarıdır, Kötülerse zorbalıklarını sözle gizlerler."},{"v":12,"text":"Nefret çekişmeyi azdırır, Sevgi her suçu bağışlar."},{"v":13,"text":"Akıllı kişinin dudaklarından bilgelik akar, Ama sağduyudan yoksun olan sırtına kötek yer."},{"v":14,"text":"Bilge kişi bilgi biriktirir, Ahmağın ağzıysa onu yıkıma yaklaştırır."},{"v":15,"text":"Zenginin serveti onun kalesidir, Fakirin yoksulluğu ise onu yıkıma götürür."},{"v":16,"text":"Doğru kişinin ücreti yaşamdır, Kötünün geliriyse kendisine cezadır."},{"v":17,"text":"Terbiyeye kulak veren yaşam yolunu bulur. Uyarıları reddedense başkalarını yoldan saptırır."},{"v":18,"text":"Nefretini gizleyen kişinin dudakları yalancıdır. İftira yayan akılsızdır."},{"v":19,"text":"Çok konuşanın günahı eksik olmaz, Sağduyulu kişiyse dilini tutar."},{"v":20,"text":"Doğru kişinin dili saf gümüş gibidir, Kötünün niyetleriyse değersizdir."},{"v":21,"text":"Doğru kişinin sözleri birçoklarını besler, Ahmaklarsa sağduyu yoksunluğundan ölür."},{"v":22,"text":"RAB'bin bereketidir kişiyi zengin eden, RAB buna dert katmaz."},{"v":23,"text":"Kötülük akılsızlar için eğlence gibidir. Aklı başında olanlar içinse bilgelik aynı şeydir."},{"v":24,"text":"Kötü kişinin korktuğu başına gelir, Doğru kişiyse dileğine erişir."},{"v":25,"text":"Kasırga gelince kötü kişiyi silip götürür; Ama doğru kişi sonsuza dek ayakta kalır."},{"v":26,"text":"Dişler için sirke, Gözler için duman neyse, Tembel ulak da kendisini gönderen için öyledir."},{"v":27,"text":"RAB korkusu ömrü uzatır, Kötülerin yıllarıysa kısadır."},{"v":28,"text":"Doğrunun umudu onu sevindirir, Kötünün beklentileriyse boşa çıkar."},{"v":29,"text":"RAB'bin yolu dürüst için sığınak, Fesatçı içinse yıkımdır."},{"v":30,"text":"Doğru kişi hiçbir zaman sarsılmaz, Ama kötüler ülkede kalamaz."},{"v":31,"text":"Doğru kişinin ağzı bilgelik üretir, Sapık dilse kesilir."},{"v":32,"text":"Doğru kişinin dudakları söylenecek sözü bilir, Kötünün ağzındansa sapık sözler çıkar."}]}
+{
+  "t": "TCL02",
+  "b": "PRO",
+  "c": 10,
+  "content": [
+    {
+      "section": "Doğrulukla Kötülüğün Karşılaştırılması"
+    },
+    {
+      "v": 1,
+      "text": "Süleyman'ın özdeyişleri: Bilge çocuk babasını sevindirir, Akılsız çocuk annesini üzer."
+    },
+    {
+      "v": 2,
+      "text": "Haksızca kazanılan servetin yararı yoktur, Ama doğruluk ölümden kurtarır."
+    },
+    {
+      "v": 3,
+      "text": "RAB doğru kişiyi aç komaz, Ama kötülerin isteğini boşa çıkarır."
+    },
+    {
+      "v": 4,
+      "text": "Tembel eller insanı yoksullaştırır, Çalışkan el zengin eder."
+    },
+    {
+      "v": 5,
+      "text": "Aklı başında evlat ürünü yazın toplar, Hasatta uyuyansa ailesinin yüzkarasıdır."
+    },
+    {
+      "v": 6,
+      "text": "Bereket doğru kişinin başına yağar, Kötülerse zorbalıklarını sözle gizler."
+    },
+    {
+      "v": 7,
+      "text": "Doğrular övgüyle, Kötüler nefretle anılır."
+    },
+    {
+      "v": 8,
+      "text": "Bilge kişi buyrukları kabul eder, Çenesi düşük ahmaksa yıkıma uğrar."
+    },
+    {
+      "v": 9,
+      "text": "Dürüst kişi güvenlik içinde yaşar, Ama hileli yoldan giden açığa vurulacaktır."
+    },
+    {
+      "v": 10,
+      "text": "Sinsice göz kırpan, acılara neden olur. Çenesi düşük ahmak da yıkıma uğrar."
+    },
+    {
+      "v": 11,
+      "text": "Doğru kişinin ağzı yaşam pınarıdır, Kötülerse zorbalıklarını sözle gizlerler."
+    },
+    {
+      "v": 12,
+      "text": "Nefret çekişmeyi azdırır, Sevgi her suçu bağışlar."
+    },
+    {
+      "v": 13,
+      "text": "Akıllı kişinin dudaklarından bilgelik akar, Ama sağduyudan yoksun olan sırtına kötek yer."
+    },
+    {
+      "v": 14,
+      "text": "Bilge kişi bilgi biriktirir, Ahmağın ağzıysa onu yıkıma yaklaştırır."
+    },
+    {
+      "v": 15,
+      "text": "Zenginin serveti onun kalesidir, Fakirin yoksulluğu ise onu yıkıma götürür."
+    },
+    {
+      "v": 16,
+      "text": "Doğru kişinin ücreti yaşamdır, Kötünün geliriyse kendisine cezadır."
+    },
+    {
+      "v": 17,
+      "text": "Terbiyeye kulak veren yaşam yolunu bulur. Uyarıları reddedense başkalarını yoldan saptırır."
+    },
+    {
+      "v": 18,
+      "text": "Nefretini gizleyen kişinin dudakları yalancıdır. İftira yayan akılsızdır."
+    },
+    {
+      "v": 19,
+      "text": "Çok konuşanın günahı eksik olmaz, Sağduyulu kişiyse dilini tutar."
+    },
+    {
+      "v": 20,
+      "text": "Doğru kişinin dili saf gümüş gibidir, Kötünün niyetleriyse değersizdir."
+    },
+    {
+      "v": 21,
+      "text": "Doğru kişinin sözleri birçoklarını besler, Ahmaklarsa sağduyu yoksunluğundan ölür."
+    },
+    {
+      "v": 22,
+      "text": "RAB'bin bereketidir kişiyi zengin eden, RAB buna dert katmaz."
+    },
+    {
+      "v": 23,
+      "text": "Kötülük akılsızlar için eğlence gibidir. Aklı başında olanlar içinse bilgelik aynı şeydir."
+    },
+    {
+      "v": 24,
+      "text": "Kötü kişinin korktuğu başına gelir, Doğru kişiyse dileğine erişir."
+    },
+    {
+      "v": 25,
+      "text": "Kasırga gelince kötü kişiyi silip götürür; Ama doğru kişi sonsuza dek ayakta kalır."
+    },
+    {
+      "v": 26,
+      "text": "Dişler için sirke, Gözler için duman neyse, Tembel ulak da kendisini gönderen için öyledir."
+    },
+    {
+      "v": 27,
+      "text": "RAB korkusu ömrü uzatır, Kötülerin yıllarıysa kısadır."
+    },
+    {
+      "v": 28,
+      "text": "Doğrunun umudu onu sevindirir, Kötünün beklentileriyse boşa çıkar."
+    },
+    {
+      "v": 29,
+      "text": "RAB'bin yolu dürüst için sığınak, Fesatçı içinse yıkımdır."
+    },
+    {
+      "v": 30,
+      "text": "Doğru kişi hiçbir zaman sarsılmaz, Ama kötüler ülkede kalamaz."
+    },
+    {
+      "v": 31,
+      "text": "Doğru kişinin ağzı bilgelik üretir, Sapık dilse kesilir."
+    },
+    {
+      "v": 32,
+      "text": "Doğru kişinin dudakları söylenecek sözü bilir, Kötünün ağzındansa sapık sözler çıkar."
+    }
+  ],
+  "title": "Doğrulukla Kötülüğün Karşılaştırılması"
+}

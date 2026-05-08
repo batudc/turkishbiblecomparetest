@@ -1,1 +1,125 @@
-{"t": "TCL02", "b": "MAT", "c": 19, "content": [{"v": 1, "text": "İsa konuşmasını bitirdikten sonra Celile'den ayrılıp Yahudiye'nin Şeria Irmağı'nın karşı yakasındaki topraklarına geçti."}, {"v": 2, "text": "Büyük halk toplulukları da O'nun ardından gitti. Hasta olanları orada iyileştirdi."}, {"v": 3, "text": "İsa'nın yanına gelen bazı Ferisiler, O'nu denemek amacıyla şunu sordular: “Bir adamın, herhangi bir nedenle karısını boşaması Kutsal Yasa'ya uygun mudur?”"}, {"v": 4, "text": "İsa şu karşılığı verdi: “Kutsal Yazılar'ı okumadınız mı? Yaradan başlangıçtan ‘İnsanları erkek ve dişi olarak yarattı’ ve şöyle dedi: ‘Bu nedenle adam annesini babasını bırakıp karısına bağlanacak, ikisi tek beden olacak.’"}, {"v": 6, "text": "Şöyle ki, onlar artık iki değil, tek bedendir. O halde Tanrı'nın birleştirdiğini, insan ayırmasın.”"}, {"v": 7, "text": "Ferisiler İsa'ya, “Öyleyse” dediler, “Musa neden erkeğin boşanma belgesi verip karısını boşayabileceğini söyledi?”"}, {"v": 8, "text": "İsa onlara, “İnatçı olduğunuz için Musa karılarınızı boşamanıza izin verdi” dedi. “Başlangıçta bu böyle değildi."}, {"v": 9, "text": "Ben size şunu söyleyeyim, karısını fuhuştan başka bir nedenle boşayıp başkasıyla evlenen, zina etmiş olur. Boşanan kadınla evlenen de zina etmiş olur.”"}, {"v": 10, "text": "Öğrenciler İsa'ya, “Eğer erkekle karısı arasındaki ilişki buysa, hiç evlenmemek daha iyi!” dediler."}, {"v": 11, "text": "İsa onlara, “Herkes bu sözü kabul edemez, ancak Tanrı'nın güç verdiği kişiler kabul edebilir” dedi."}, {"v": 12, "text": "“Çünkü kimisi doğuştan hadımdır, kimisi insanlar tarafından hadım edilir, kimisi de Göklerin Egemenliği uğruna kendini hadım sayar. Bunu kabul edebilen etsin!”"}, {"v": 13, "text": "O sırada bazıları küçük çocukları İsa'nın yanına getirdiler; ellerini onların üzerine koyup dua etmesini istediler. Öğrenciler onları azarlayınca İsa, “Bırakın çocukları” dedi. “Bana gelmelerine engel olmayın! Çünkü Göklerin Egemenliği böylelerinindir.”"}, {"v": 15, "text": "Ellerini onların üzerine koyduktan sonra oradan ayrıldı."}, {"v": 16, "text": "Adamın biri İsa'ya gelip, “Öğretmenim, sonsuz yaşama kavuşmak için nasıl bir iyilik yapmalıyım?” diye sordu."}, {"v": 17, "text": "İsa, “Bana neden iyilik hakkında soru soruyorsun?” dedi. “İyi olan yalnız biri var. Yaşama kavuşmak istiyorsan, O'nun buyruklarını yerine getir.”"}, {"v": 18, "text": "“Hangi buyrukları?” diye sordu adam.  İsa şu karşılığı verdi: “ ‘Adam öldürmeyeceksin, zina etmeyeceksin, çalmayacaksın, yalan yere tanıklık etmeyeceksin, annene babana saygı göstereceksin’ ve ‘Komşunu kendin gibi seveceksin.’ ”"}, {"v": 20, "text": "Genç adam, “Bunların hepsini yerine getirdim” dedi, “Daha ne eksiğim var?”"}, {"v": 21, "text": "İsa ona, “Eğer eksiksiz olmak istiyorsan, git, varını yoğunu sat, parasını yoksullara ver; böylece göklerde hazinen olur. Sonra gel, beni izle” dedi."}, {"v": 22, "text": "Genç adam bu sözleri işitince üzüntü içinde oradan uzaklaştı. Çünkü çok malı vardı."}, {"v": 23, "text": "İsa öğrencilerine, “Size doğrusunu söyleyeyim” dedi, “Zengin kişi Göklerin Egemenliği'ne zor girecek."}, {"v": 24, "text": "Yine şunu söyleyeyim ki, devenin iğne deliğinden geçmesi, zenginin Tanrı Egemenliği'ne girmesinden daha kolaydır.”"}, {"v": 25, "text": "Bunu işiten öğrenciler büsbütün şaşırdılar, “Öyleyse kim kurtulabilir?” diye sordular."}, {"v": 26, "text": "İsa onlara bakarak, “İnsanlar için bu imkânsız, ama Tanrı için her şey mümkündür” dedi."}, {"v": 27, "text": "Bunun üzerine Petrus O'na, “Bak” dedi, “Biz her şeyi bırakıp senin ardından geldik, kazancımız ne olacak?”"}, {"v": 28, "text": "İsa onlara, “Size doğrusunu söyleyeyim” dedi, “Her şey yenilendiğinde, İnsanoğlu görkemli tahtına oturduğunda, siz, evet ardımdan gelen sizler, on iki tahta oturup İsrail'in on iki oymağını yargılayacaksınız."}, {"v": 29, "text": "Benim adım uğruna evlerini, kardeşlerini, anne ya da babasını, çocuklarını ya da topraklarını bırakan herkes, bunların yüz katını elde edecek ve sonsuz yaşamı miras alacak."}, {"v": 30, "text": "Ne var ki, birincilerin birçoğu sonuncu, sonuncuların birçoğu da birinci olacak.”"}]}
+{
+  "t": "TCL02",
+  "b": "MAT",
+  "c": 19,
+  "content": [
+    {
+      "section": "Boşanmayla İlgili Soru"
+    },
+    {
+      "v": 1,
+      "text": "İsa konuşmasını bitirdikten sonra Celile'den ayrılıp Yahudiye'nin Şeria Irmağı'nın karşı yakasındaki topraklarına geçti."
+    },
+    {
+      "v": 2,
+      "text": "Büyük halk toplulukları da O'nun ardından gitti. Hasta olanları orada iyileştirdi."
+    },
+    {
+      "v": 3,
+      "text": "İsa'nın yanına gelen bazı Ferisiler, O'nu denemek amacıyla şunu sordular: “Bir adamın, herhangi bir nedenle karısını boşaması Kutsal Yasa'ya uygun mudur?”"
+    },
+    {
+      "v": 4,
+      "text": "İsa şu karşılığı verdi: “Kutsal Yazılar'ı okumadınız mı? Yaradan başlangıçtan ‘İnsanları erkek ve dişi olarak yarattı’ ve şöyle dedi: ‘Bu nedenle adam annesini babasını bırakıp karısına bağlanacak, ikisi tek beden olacak.’"
+    },
+    {
+      "v": 6,
+      "text": "Şöyle ki, onlar artık iki değil, tek bedendir. O halde Tanrı'nın birleştirdiğini, insan ayırmasın.”"
+    },
+    {
+      "v": 7,
+      "text": "Ferisiler İsa'ya, “Öyleyse” dediler, “Musa neden erkeğin boşanma belgesi verip karısını boşayabileceğini söyledi?”"
+    },
+    {
+      "v": 8,
+      "text": "İsa onlara, “İnatçı olduğunuz için Musa karılarınızı boşamanıza izin verdi” dedi. “Başlangıçta bu böyle değildi."
+    },
+    {
+      "v": 9,
+      "text": "Ben size şunu söyleyeyim, karısını fuhuştan başka bir nedenle boşayıp başkasıyla evlenen, zina etmiş olur. Boşanan kadınla evlenen de zina etmiş olur.”"
+    },
+    {
+      "v": 10,
+      "text": "Öğrenciler İsa'ya, “Eğer erkekle karısı arasındaki ilişki buysa, hiç evlenmemek daha iyi!” dediler."
+    },
+    {
+      "v": 11,
+      "text": "İsa onlara, “Herkes bu sözü kabul edemez, ancak Tanrı'nın güç verdiği kişiler kabul edebilir” dedi."
+    },
+    {
+      "v": 12,
+      "text": "“Çünkü kimisi doğuştan hadımdır, kimisi insanlar tarafından hadım edilir, kimisi de Göklerin Egemenliği uğruna kendini hadım sayar. Bunu kabul edebilen etsin!”"
+    },
+    {
+      "section": "İsa Küçük Çocukları Kutsuyor"
+    },
+    {
+      "v": 13,
+      "text": "O sırada bazıları küçük çocukları İsa'nın yanına getirdiler; ellerini onların üzerine koyup dua etmesini istediler. Öğrenciler onları azarlayınca İsa, “Bırakın çocukları” dedi. “Bana gelmelerine engel olmayın! Çünkü Göklerin Egemenliği böylelerinindir.”"
+    },
+    {
+      "v": 15,
+      "text": "Ellerini onların üzerine koyduktan sonra oradan ayrıldı."
+    },
+    {
+      "section": "Zenginlik ve Sonsuz Yaşam"
+    },
+    {
+      "v": 16,
+      "text": "Adamın biri İsa'ya gelip, “Öğretmenim, sonsuz yaşama kavuşmak için nasıl bir iyilik yapmalıyım?” diye sordu."
+    },
+    {
+      "v": 17,
+      "text": "İsa, “Bana neden iyilik hakkında soru soruyorsun?” dedi. “İyi olan yalnız biri var. Yaşama kavuşmak istiyorsan, O'nun buyruklarını yerine getir.”"
+    },
+    {
+      "v": 18,
+      "text": "“Hangi buyrukları?” diye sordu adam.  İsa şu karşılığı verdi: “ ‘Adam öldürmeyeceksin, zina etmeyeceksin, çalmayacaksın, yalan yere tanıklık etmeyeceksin, annene babana saygı göstereceksin’ ve ‘Komşunu kendin gibi seveceksin.’ ”"
+    },
+    {
+      "v": 20,
+      "text": "Genç adam, “Bunların hepsini yerine getirdim” dedi, “Daha ne eksiğim var?”"
+    },
+    {
+      "v": 21,
+      "text": "İsa ona, “Eğer eksiksiz olmak istiyorsan, git, varını yoğunu sat, parasını yoksullara ver; böylece göklerde hazinen olur. Sonra gel, beni izle” dedi."
+    },
+    {
+      "v": 22,
+      "text": "Genç adam bu sözleri işitince üzüntü içinde oradan uzaklaştı. Çünkü çok malı vardı."
+    },
+    {
+      "v": 23,
+      "text": "İsa öğrencilerine, “Size doğrusunu söyleyeyim” dedi, “Zengin kişi Göklerin Egemenliği'ne zor girecek."
+    },
+    {
+      "v": 24,
+      "text": "Yine şunu söyleyeyim ki, devenin iğne deliğinden geçmesi, zenginin Tanrı Egemenliği'ne girmesinden daha kolaydır.”"
+    },
+    {
+      "v": 25,
+      "text": "Bunu işiten öğrenciler büsbütün şaşırdılar, “Öyleyse kim kurtulabilir?” diye sordular."
+    },
+    {
+      "v": 26,
+      "text": "İsa onlara bakarak, “İnsanlar için bu imkânsız, ama Tanrı için her şey mümkündür” dedi."
+    },
+    {
+      "v": 27,
+      "text": "Bunun üzerine Petrus O'na, “Bak” dedi, “Biz her şeyi bırakıp senin ardından geldik, kazancımız ne olacak?”"
+    },
+    {
+      "v": 28,
+      "text": "İsa onlara, “Size doğrusunu söyleyeyim” dedi, “Her şey yenilendiğinde, İnsanoğlu görkemli tahtına oturduğunda, siz, evet ardımdan gelen sizler, on iki tahta oturup İsrail'in on iki oymağını yargılayacaksınız."
+    },
+    {
+      "v": 29,
+      "text": "Benim adım uğruna evlerini, kardeşlerini, anne ya da babasını, çocuklarını ya da topraklarını bırakan herkes, bunların yüz katını elde edecek ve sonsuz yaşamı miras alacak."
+    },
+    {
+      "v": 30,
+      "text": "Ne var ki, birincilerin birçoğu sonuncu, sonuncuların birçoğu da birinci olacak.”"
+    }
+  ],
+  "title": "Boşanmayla İlgili Soru"
+}

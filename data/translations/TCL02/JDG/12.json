@@ -1,1 +1,74 @@
-{"t":"TCL02","b":"JDG","c":12,"content":[{"v":1,"text":"Efrayimli erkekler toplanıp Safon'a geçtiler. Yiftah'a, “Ammonlular'la savaşmaya gittiğinde bizi neden çağırmadın?” dediler, “Seni de evini de yakacağız.”"},{"v":2,"text":"Yiftah, “Halkımla ben Ammonlular'a karşı amansız bir savaşa tutuşmuştuk” diye yanıtladı, “Sizi çağırdım, ama gelip beni onların elinden kurtarmadınız."},{"v":3,"text":"Beni kurtarmak istemediğinizi görünce canımı dişime takıp Ammonlular'a karşı harekete geçtim. Sonunda RAB onları elime teslim etti. Neden bugün benimle savaşmaya kalkışıyorsunuz?”"},{"v":4,"text":"Bundan sonra Yiftah Gilat erkeklerini toplayarak Efrayimoğulları'yla savaşa girdi. Gilatlılar Efrayimoğulları'na saldırdılar. Çünkü Efrayimoğulları onlara, “Ey Efrayim ve Manaşşe halkları arasında yaşayan Gilatlılar, siz Efrayim'den kaçan döneklersiniz!” demişlerdi."},{"v":5,"text":"Şeria Irmağı'nın Efrayim'e yol veren geçitlerini tutan Gilatlılar, geçmek isteyen Efrayimli kaçaklara, “Efrayimli misin?” diye sorarlardı. Adamlar, “Hayır” derlerse,"},{"v":6,"text":"o zaman onlara, “ ‘Şibbolet’ deyin bakalım” derlerdi. Adamlar “Sibbolet” derdi. Çünkü “Şibbolet” sözcüğünü doğru söyleyemezlerdi. Bunun üzerine onları yakalayıp Şeria Irmağı'nın geçitlerinde öldürürlerdi. O gün Efrayimliler'den kırk iki bin kişi öldürüldü."},{"v":7,"text":"Gilatlı Yiftah İsrail'i altı yıl yönetti. Ölünce Gilat kentlerinden birinde gömüldü."},{"v":8,"text":"Ondan sonra İsrail'in başına Beytlehemli İvsan geçti."},{"v":9,"text":"İvsan'ın otuz oğlu, otuz kızı vardı. İvsan kızlarını başka boylara verdi, oğullarına da başka boylardan kızlar aldı. İsrail'i yedi yıl yönetti."},{"v":10,"text":"Ölünce Beytlehem'de gömüldü."},{"v":11,"text":"Ondan sonra İsrail'in başına Zevulun oymağından Elon geçti. Elon İsrail'i on yıl yönetti."},{"v":12,"text":"Ölünce Zevulun topraklarında, Ayalon'da gömüldü."},{"v":13,"text":"Onun ardından İsrail'in başına Piratonlu Hillel oğlu Avdon geçti."},{"v":14,"text":"Avdon'un kırk oğlu, otuz torunu ve bunların bindiği yetmiş eşeği vardı. İsrail'i sekiz yıl yönetti."},{"v":15,"text":"Piratonlu Hillel oğlu Avdon ölünce Amalekliler'e ait dağlık bölgenin Efrayim yöresindeki Piraton'da gömüldü."}]}
+{
+  "t": "TCL02",
+  "b": "JDG",
+  "c": 12,
+  "content": [
+    {
+      "section": "Yiftah ile Efrayim"
+    },
+    {
+      "v": 1,
+      "text": "Efrayimli erkekler toplanıp Safon'a geçtiler. Yiftah'a, “Ammonlular'la savaşmaya gittiğinde bizi neden çağırmadın?” dediler, “Seni de evini de yakacağız.”"
+    },
+    {
+      "v": 2,
+      "text": "Yiftah, “Halkımla ben Ammonlular'a karşı amansız bir savaşa tutuşmuştuk” diye yanıtladı, “Sizi çağırdım, ama gelip beni onların elinden kurtarmadınız."
+    },
+    {
+      "v": 3,
+      "text": "Beni kurtarmak istemediğinizi görünce canımı dişime takıp Ammonlular'a karşı harekete geçtim. Sonunda RAB onları elime teslim etti. Neden bugün benimle savaşmaya kalkışıyorsunuz?”"
+    },
+    {
+      "v": 4,
+      "text": "Bundan sonra Yiftah Gilat erkeklerini toplayarak Efrayimoğulları'yla savaşa girdi. Gilatlılar Efrayimoğulları'na saldırdılar. Çünkü Efrayimoğulları onlara, “Ey Efrayim ve Manaşşe halkları arasında yaşayan Gilatlılar, siz Efrayim'den kaçan döneklersiniz!” demişlerdi."
+    },
+    {
+      "v": 5,
+      "text": "Şeria Irmağı'nın Efrayim'e yol veren geçitlerini tutan Gilatlılar, geçmek isteyen Efrayimli kaçaklara, “Efrayimli misin?” diye sorarlardı. Adamlar, “Hayır” derlerse,"
+    },
+    {
+      "v": 6,
+      "text": "o zaman onlara, “ ‘Şibbolet’ deyin bakalım” derlerdi. Adamlar “Sibbolet” derdi. Çünkü “Şibbolet” sözcüğünü doğru söyleyemezlerdi. Bunun üzerine onları yakalayıp Şeria Irmağı'nın geçitlerinde öldürürlerdi. O gün Efrayimliler'den kırk iki bin kişi öldürüldü."
+    },
+    {
+      "v": 7,
+      "text": "Gilatlı Yiftah İsrail'i altı yıl yönetti. Ölünce Gilat kentlerinden birinde gömüldü."
+    },
+    {
+      "section": "İvsan, Elon ve Avdon"
+    },
+    {
+      "v": 8,
+      "text": "Ondan sonra İsrail'in başına Beytlehemli İvsan geçti."
+    },
+    {
+      "v": 9,
+      "text": "İvsan'ın otuz oğlu, otuz kızı vardı. İvsan kızlarını başka boylara verdi, oğullarına da başka boylardan kızlar aldı. İsrail'i yedi yıl yönetti."
+    },
+    {
+      "v": 10,
+      "text": "Ölünce Beytlehem'de gömüldü."
+    },
+    {
+      "v": 11,
+      "text": "Ondan sonra İsrail'in başına Zevulun oymağından Elon geçti. Elon İsrail'i on yıl yönetti."
+    },
+    {
+      "v": 12,
+      "text": "Ölünce Zevulun topraklarında, Ayalon'da gömüldü."
+    },
+    {
+      "v": 13,
+      "text": "Onun ardından İsrail'in başına Piratonlu Hillel oğlu Avdon geçti."
+    },
+    {
+      "v": 14,
+      "text": "Avdon'un kırk oğlu, otuz torunu ve bunların bindiği yetmiş eşeği vardı. İsrail'i sekiz yıl yönetti."
+    },
+    {
+      "v": 15,
+      "text": "Piratonlu Hillel oğlu Avdon ölünce Amalekliler'e ait dağlık bölgenin Efrayim yöresindeki Piraton'da gömüldü."
+    }
+  ],
+  "title": "Yiftah ile Efrayim"
+}

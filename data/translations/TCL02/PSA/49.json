@@ -1,1 +1,91 @@
-{"t":"TCL02","b":"PSA","c":49,"content":[{"v":1,"text":"Ey bütün halklar, dinleyin! Kulak verin hepiniz, ey dünyada yaşayanlar,"},{"v":2,"text":"Halk çocukları, bey çocukları, Zenginler, yoksullar!"},{"v":3,"text":"Bilgelik dökülecek ağzımdan, Anlayış sağlayacak içimdeki düşünceler,"},{"v":4,"text":"Kulak vereceğim özdeyişlere, Lirle yorumlayacağım bilmecemi."},{"v":5,"text":"Niçin korkayım kötü günlerde Niyeti bozuk düşmanlarım çevremi sarınca?"},{"v":6,"text":"Onlar varlıklarına güvenir, Büyük servetleriyle böbürlenirler."},{"v":7,"text":"Kimse kimsenin hayatının bedelini ödeyemez, Tanrı'ya fidye veremez."},{"v":8,"text":"Çünkü hayatın fidyesi büyüktür, Kimse ödemeye yeltenmemeli."},{"v":9,"text":"Böyle olmasa, Sonsuza dek yaşar insan, Mezar yüzü görmez."},{"v":10,"text":"Kuşkusuz herkes biliyor bilgelerin öldüğünü, Aptallarla budalaların yok olduğunu. Mallarını başkalarına bırakıyorlar."},{"v":11,"text":"Mezarları, sonsuza dek evleri, Kuşaklar boyu konutları olacak, Topraklarına kendi adlarını verseler bile."},{"v":12,"text":"Bütün gösterişine karşın geçicidir insan, Ölüp giden hayvanlar gibi."},{"v":13,"text":"Budalaların yolu, Onların sözünü onaylayanların sonu budur. Sela"},{"v":14,"text":"Sürü gibi ölüler diyarına sürülecekler, Ölüm güdecek onları. Tan ağarınca doğrular onlara egemen olacak, Cesetleri çürüyecek, Ölüler diyarı onlara konut olacak."},{"v":15,"text":"Ama Tanrı beni Ölüler diyarının pençesinden kurtaracak Ve yanına alacak. Sela"},{"v":16,"text":"Korkma biri zenginleşirse, Evinin görkemi artarsa."},{"v":17,"text":"Çünkü ölünce hiçbir şey götüremez, Görkemi onunla mezara gitmez."},{"v":18,"text":"Yaşarken kendini mutlu saysa bile, Başarılı olunca övülse bile."},{"v":19,"text":"Atalarının kuşağına katılacak, Onlar ki asla ışık yüzü görmeyecekler."},{"v":20,"text":"Bütün gösterişine karşın anlayışsızdır insan, Ölüp giden hayvanlar gibi."}]}
+{
+  "t": "TCL02",
+  "b": "PSA",
+  "c": 49,
+  "content": [
+    {
+      "section": "49. Mezmur"
+    },
+    {
+      "v": 1,
+      "text": "Ey bütün halklar, dinleyin! Kulak verin hepiniz, ey dünyada yaşayanlar,"
+    },
+    {
+      "v": 2,
+      "text": "Halk çocukları, bey çocukları, Zenginler, yoksullar!"
+    },
+    {
+      "v": 3,
+      "text": "Bilgelik dökülecek ağzımdan, Anlayış sağlayacak içimdeki düşünceler,"
+    },
+    {
+      "v": 4,
+      "text": "Kulak vereceğim özdeyişlere, Lirle yorumlayacağım bilmecemi."
+    },
+    {
+      "v": 5,
+      "text": "Niçin korkayım kötü günlerde Niyeti bozuk düşmanlarım çevremi sarınca?"
+    },
+    {
+      "v": 6,
+      "text": "Onlar varlıklarına güvenir, Büyük servetleriyle böbürlenirler."
+    },
+    {
+      "v": 7,
+      "text": "Kimse kimsenin hayatının bedelini ödeyemez, Tanrı'ya fidye veremez."
+    },
+    {
+      "v": 8,
+      "text": "Çünkü hayatın fidyesi büyüktür, Kimse ödemeye yeltenmemeli."
+    },
+    {
+      "v": 9,
+      "text": "Böyle olmasa, Sonsuza dek yaşar insan, Mezar yüzü görmez."
+    },
+    {
+      "v": 10,
+      "text": "Kuşkusuz herkes biliyor bilgelerin öldüğünü, Aptallarla budalaların yok olduğunu. Mallarını başkalarına bırakıyorlar."
+    },
+    {
+      "v": 11,
+      "text": "Mezarları, sonsuza dek evleri, Kuşaklar boyu konutları olacak, Topraklarına kendi adlarını verseler bile."
+    },
+    {
+      "v": 12,
+      "text": "Bütün gösterişine karşın geçicidir insan, Ölüp giden hayvanlar gibi."
+    },
+    {
+      "v": 13,
+      "text": "Budalaların yolu, Onların sözünü onaylayanların sonu budur. Sela"
+    },
+    {
+      "v": 14,
+      "text": "Sürü gibi ölüler diyarına sürülecekler, Ölüm güdecek onları. Tan ağarınca doğrular onlara egemen olacak, Cesetleri çürüyecek, Ölüler diyarı onlara konut olacak."
+    },
+    {
+      "v": 15,
+      "text": "Ama Tanrı beni Ölüler diyarının pençesinden kurtaracak Ve yanına alacak. Sela"
+    },
+    {
+      "v": 16,
+      "text": "Korkma biri zenginleşirse, Evinin görkemi artarsa."
+    },
+    {
+      "v": 17,
+      "text": "Çünkü ölünce hiçbir şey götüremez, Görkemi onunla mezara gitmez."
+    },
+    {
+      "v": 18,
+      "text": "Yaşarken kendini mutlu saysa bile, Başarılı olunca övülse bile."
+    },
+    {
+      "v": 19,
+      "text": "Atalarının kuşağına katılacak, Onlar ki asla ışık yüzü görmeyecekler."
+    },
+    {
+      "v": 20,
+      "text": "Bütün gösterişine karşın anlayışsızdır insan, Ölüp giden hayvanlar gibi."
+    }
+  ],
+  "title": "49. Mezmur"
+}

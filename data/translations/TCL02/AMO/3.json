@@ -1,1 +1,70 @@
-{"t":"TCL02","b":"AMO","c":3,"content":[{"v":1,"text":"Ey İsrailliler, kulak verin RAB'bin size, Mısır'dan çıkardığı halka söylediği şu sözlere:"},{"v":2,"text":"“Yeryüzündeki bütün halklar arasından yalnız sizi tanıdım, Bu yüzden suçlarınızı karşılıksız bırakmayacağım.”"},{"v":3,"text":"İki kişi anlaşmadan birlikte yürür mü?"},{"v":4,"text":"Avı olmayan aslan ormanda kükrer mi? Bir şey yakalamadıkça genç aslan ininde homurdanır mı?"},{"v":5,"text":"Tuzak kurulmamışsa, Yerdeki kapana kuş düşer mi? İçine bir şey düşmedikçe Kapan yerden fırlar mı?"},{"v":6,"text":"Kentte boru çalınır da halk korkmaz mı? RAB'bin onayı olmadan bir kentin başına felaket gelir mi?"},{"v":7,"text":"Gerçek şu ki, Egemen RAB kulu peygamberlere Sırrını açmadıkça bir şey yapmaz."},{"v":8,"text":"Aslan kükrer de kim korkmaz? Egemen RAB söyler de kim peygamberlik etmez?"},{"v":9,"text":"Aşdot ve Mısır saraylarına duyurun: “Samiriye dağlarında toplanın” deyin, “Kentin ortasındaki büyük kargaşayı, İçindeki baskıyı görün.”"},{"v":10,"text":"RAB, “Onlar doğruluk nedir bilmiyorlar” diyor, “Saraylarına zorbalık ve çapul yığmışlar.”"},{"v":11,"text":"Bu yüzden Egemen RAB diyor ki, “Düşman kuşatmakta ülkenizi, Saraylarınızı yağmalayacak, güçsüz kılacak sizi.”"},{"v":12,"text":"RAB şöyle diyor: “Bir çoban aslanın ağzındaki hayvanın iki bacağını Ya da kulağının parçasını nasıl kaparsa, Samiriye'de sedir köşelerine, Divan yastıklarına Kurulan İsrailliler de öyle kurtarılacak."},{"v":13,"text":"Dinleyin ve Yakup soyunu uyarın.” Egemen RAB, Her Şeye Egemen Tanrı konuşuyor:"},{"v":14,"text":"“İsyanlarından ötürü İsrail'i cezalandırdığım gün, Beytel'in sunaklarını da yok edeceğim. Kesilip yere düşecek sunağın boynuzları."},{"v":15,"text":"Hem kışlık hem yazlık evi vuracağım, Yok olacak fildişi evler, Sonu gelecek büyük evlerin.” RAB böyle diyor."}]}
+{
+  "t": "TCL02",
+  "b": "AMO",
+  "c": 3,
+  "content": [
+    {
+      "v": 1,
+      "text": "Ey İsrailliler, kulak verin RAB'bin size, Mısır'dan çıkardığı halka söylediği şu sözlere:"
+    },
+    {
+      "v": 2,
+      "text": "“Yeryüzündeki bütün halklar arasından yalnız sizi tanıdım, Bu yüzden suçlarınızı karşılıksız bırakmayacağım.”"
+    },
+    {
+      "section": "Tanrı Konuşursa, Peygamber Susamaz"
+    },
+    {
+      "v": 3,
+      "text": "İki kişi anlaşmadan birlikte yürür mü?"
+    },
+    {
+      "v": 4,
+      "text": "Avı olmayan aslan ormanda kükrer mi? Bir şey yakalamadıkça genç aslan ininde homurdanır mı?"
+    },
+    {
+      "v": 5,
+      "text": "Tuzak kurulmamışsa, Yerdeki kapana kuş düşer mi? İçine bir şey düşmedikçe Kapan yerden fırlar mı?"
+    },
+    {
+      "v": 6,
+      "text": "Kentte boru çalınır da halk korkmaz mı? RAB'bin onayı olmadan bir kentin başına felaket gelir mi?"
+    },
+    {
+      "v": 7,
+      "text": "Gerçek şu ki, Egemen RAB kulu peygamberlere Sırrını açmadıkça bir şey yapmaz."
+    },
+    {
+      "v": 8,
+      "text": "Aslan kükrer de kim korkmaz? Egemen RAB söyler de kim peygamberlik etmez?"
+    },
+    {
+      "v": 9,
+      "text": "Aşdot ve Mısır saraylarına duyurun: “Samiriye dağlarında toplanın” deyin, “Kentin ortasındaki büyük kargaşayı, İçindeki baskıyı görün.”"
+    },
+    {
+      "v": 10,
+      "text": "RAB, “Onlar doğruluk nedir bilmiyorlar” diyor, “Saraylarına zorbalık ve çapul yığmışlar.”"
+    },
+    {
+      "v": 11,
+      "text": "Bu yüzden Egemen RAB diyor ki, “Düşman kuşatmakta ülkenizi, Saraylarınızı yağmalayacak, güçsüz kılacak sizi.”"
+    },
+    {
+      "v": 12,
+      "text": "RAB şöyle diyor: “Bir çoban aslanın ağzındaki hayvanın iki bacağını Ya da kulağının parçasını nasıl kaparsa, Samiriye'de sedir köşelerine, Divan yastıklarına Kurulan İsrailliler de öyle kurtarılacak."
+    },
+    {
+      "v": 13,
+      "text": "Dinleyin ve Yakup soyunu uyarın.” Egemen RAB, Her Şeye Egemen Tanrı konuşuyor:"
+    },
+    {
+      "v": 14,
+      "text": "“İsyanlarından ötürü İsrail'i cezalandırdığım gün, Beytel'in sunaklarını da yok edeceğim. Kesilip yere düşecek sunağın boynuzları."
+    },
+    {
+      "v": 15,
+      "text": "Hem kışlık hem yazlık evi vuracağım, Yok olacak fildişi evler, Sonu gelecek büyük evlerin.” RAB böyle diyor."
+    }
+  ]
+}

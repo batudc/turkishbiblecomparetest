@@ -1,1 +1,143 @@
-{"t": "TCL02", "b": "NUM", "c": 2, "content": [{"v": 1, "text": "RAB Musa'yla Harun'a, “İsrailliler sancaklarının altında, aile bayraklarıyla Buluşma Çadırı'ndan biraz ötede çepeçevre konaklasın” dedi."}, {"v": 3, "text": "Doğuda, gündoğusunda konaklayan bölükler Yahuda ordugahının sancağına bağlı olacak. Yahudaoğulları'nın önderi Amminadav oğlu Nahşon olacak."}, {"v": 4, "text": "Bölüğünün sayısı 74 600 kişiydi."}, {"v": 5, "text": "İssakar oymağı onların bitişiğinde konaklayacak. İssakaroğulları'nın önderi Suar oğlu Netanel olacak."}, {"v": 6, "text": "Bölüğünün sayısı 54 400 kişiydi."}, {"v": 7, "text": "Sonra Zevulun oymağı konaklayacak. Zevulunoğulları'nın önderi Helon oğlu Eliav olacak."}, {"v": 8, "text": "Bölüğünün sayısı 57 400 kişiydi."}, {"v": 9, "text": "Yahuda ordugahına ayrılan bölüklerdeki adam sayısı 186 400 kişiydi. Yola ilk çıkacak olanlar bunlardı."}, {"v": 10, "text": "Güneyde Ruben ordugahının sancağı dikilecek, Ruben'e bağlı bölükler orada konaklayacak. Rubenoğulları'nın önderi Şedeur oğlu Elisur olacak."}, {"v": 11, "text": "Bölüğünün sayısı 46 500 kişiydi."}, {"v": 12, "text": "Şimon oymağı onların bitişiğinde konaklayacak. Şimonoğulları'nın önderi Surişadday oğlu Şelumiel olacak."}, {"v": 13, "text": "Bölüğünün sayısı 59 300 kişiydi."}, {"v": 14, "text": "Sonra Gad oymağı konaklayacak. Gadoğulları'nın önderi Deuel oğlu Elyasaf olacak."}, {"v": 15, "text": "Bölüğünün sayısı 45 650 kişiydi."}, {"v": 16, "text": "Ruben ordugahına ayrılan bölüklerdeki adam sayısı 151 450 kişiydi. İkinci sırada yola çıkacak olanlar bunlardı."}, {"v": 17, "text": "Buluşma Çadırı ve Levililer'in ordugahı göç sırasında öbür ordugahların ortasında yola çıkacak. Herkes konakladığı düzende kendi sancağı altında göç edecek."}, {"v": 18, "text": "Batıda Efrayim ordugahının sancağı dikilecek, Efrayim'e bağlı bölükler orada konaklayacak. Efrayimoğulları'nın önderi Ammihut oğlu Elişama olacak."}, {"v": 19, "text": "Bölüğünün sayısı 40 500 kişiydi."}, {"v": 20, "text": "Manaşşe oymağı onlara bitişik olacak. Manaşşeoğulları'nın önderi Pedahsur oğlu Gamliel olacak."}, {"v": 21, "text": "Bölüğünün sayısı 32 200 kişiydi."}, {"v": 22, "text": "Sonra Benyamin oymağı konaklayacak. Benyaminoğulları'nın önderi Gidoni oğlu Avidan olacak."}, {"v": 23, "text": "Bölüğünün sayısı 35 400 kişiydi."}, {"v": 24, "text": "Efrayim ordugahına ayrılan bölüklerdeki adam sayısı 108 100 kişiydi. Üçüncü olarak bunlar yola çıkacak."}, {"v": 25, "text": "Kuzeyde Dan ordugahının sancağı dikilecek, Dan'a bağlı bölükler orada konaklayacak. Danoğulları'nın önderi Ammişadday oğlu Ahiezer olacak."}, {"v": 26, "text": "Bölüğünün sayısı 62 700 kişiydi."}, {"v": 27, "text": "Aşer oymağı onların bitişiğinde konaklayacak. Aşeroğulları'nın önderi Okran oğlu Pagiel olacak."}, {"v": 28, "text": "Bölüğünün sayısı 41 500 kişiydi."}, {"v": 29, "text": "Sonra Naftali oymağı konaklayacak. Naftalioğulları'nın önderi Enan oğlu Ahira olacak."}, {"v": 30, "text": "Bölüğünün sayısı 53 400 kişiydi."}, {"v": 31, "text": "Dan ordugahına ayrılan adamların sayısı 157 600 kişiydi. Kendi sancakları altında en son onlar yola çıkacak."}, {"v": 32, "text": "Ailelerine göre sayılan İsrailliler bunlardı. Ordugahlardaki bütün bölüklerin toplamı 603 550 kişiydi."}, {"v": 33, "text": "RAB'bin Musa'ya verdiği buyruk uyarınca Levililer öbür İsrailliler'le birlikte sayılmadı."}, {"v": 34, "text": "Böylece İsrailliler RAB'bin Musa'ya buyurduğu gibi yaptılar. Sancakları altında ordugah kurdular. Göç ederken de herkes boyu ve ailesiyle birlikte yola çıktı."}]}
+{
+  "t": "TCL02",
+  "b": "NUM",
+  "c": 2,
+  "content": [
+    {
+      "section": "Oymakların Konaklama Düzeni"
+    },
+    {
+      "v": 1,
+      "text": "RAB Musa'yla Harun'a, “İsrailliler sancaklarının altında, aile bayraklarıyla Buluşma Çadırı'ndan biraz ötede çepeçevre konaklasın” dedi."
+    },
+    {
+      "v": 3,
+      "text": "Doğuda, gündoğusunda konaklayan bölükler Yahuda ordugahının sancağına bağlı olacak. Yahudaoğulları'nın önderi Amminadav oğlu Nahşon olacak."
+    },
+    {
+      "v": 4,
+      "text": "Bölüğünün sayısı 74 600 kişiydi."
+    },
+    {
+      "v": 5,
+      "text": "İssakar oymağı onların bitişiğinde konaklayacak. İssakaroğulları'nın önderi Suar oğlu Netanel olacak."
+    },
+    {
+      "v": 6,
+      "text": "Bölüğünün sayısı 54 400 kişiydi."
+    },
+    {
+      "v": 7,
+      "text": "Sonra Zevulun oymağı konaklayacak. Zevulunoğulları'nın önderi Helon oğlu Eliav olacak."
+    },
+    {
+      "v": 8,
+      "text": "Bölüğünün sayısı 57 400 kişiydi."
+    },
+    {
+      "v": 9,
+      "text": "Yahuda ordugahına ayrılan bölüklerdeki adam sayısı 186 400 kişiydi. Yola ilk çıkacak olanlar bunlardı."
+    },
+    {
+      "v": 10,
+      "text": "Güneyde Ruben ordugahının sancağı dikilecek, Ruben'e bağlı bölükler orada konaklayacak. Rubenoğulları'nın önderi Şedeur oğlu Elisur olacak."
+    },
+    {
+      "v": 11,
+      "text": "Bölüğünün sayısı 46 500 kişiydi."
+    },
+    {
+      "v": 12,
+      "text": "Şimon oymağı onların bitişiğinde konaklayacak. Şimonoğulları'nın önderi Surişadday oğlu Şelumiel olacak."
+    },
+    {
+      "v": 13,
+      "text": "Bölüğünün sayısı 59 300 kişiydi."
+    },
+    {
+      "v": 14,
+      "text": "Sonra Gad oymağı konaklayacak. Gadoğulları'nın önderi Deuel oğlu Elyasaf olacak."
+    },
+    {
+      "v": 15,
+      "text": "Bölüğünün sayısı 45 650 kişiydi."
+    },
+    {
+      "v": 16,
+      "text": "Ruben ordugahına ayrılan bölüklerdeki adam sayısı 151 450 kişiydi. İkinci sırada yola çıkacak olanlar bunlardı."
+    },
+    {
+      "v": 17,
+      "text": "Buluşma Çadırı ve Levililer'in ordugahı göç sırasında öbür ordugahların ortasında yola çıkacak. Herkes konakladığı düzende kendi sancağı altında göç edecek."
+    },
+    {
+      "v": 18,
+      "text": "Batıda Efrayim ordugahının sancağı dikilecek, Efrayim'e bağlı bölükler orada konaklayacak. Efrayimoğulları'nın önderi Ammihut oğlu Elişama olacak."
+    },
+    {
+      "v": 19,
+      "text": "Bölüğünün sayısı 40 500 kişiydi."
+    },
+    {
+      "v": 20,
+      "text": "Manaşşe oymağı onlara bitişik olacak. Manaşşeoğulları'nın önderi Pedahsur oğlu Gamliel olacak."
+    },
+    {
+      "v": 21,
+      "text": "Bölüğünün sayısı 32 200 kişiydi."
+    },
+    {
+      "v": 22,
+      "text": "Sonra Benyamin oymağı konaklayacak. Benyaminoğulları'nın önderi Gidoni oğlu Avidan olacak."
+    },
+    {
+      "v": 23,
+      "text": "Bölüğünün sayısı 35 400 kişiydi."
+    },
+    {
+      "v": 24,
+      "text": "Efrayim ordugahına ayrılan bölüklerdeki adam sayısı 108 100 kişiydi. Üçüncü olarak bunlar yola çıkacak."
+    },
+    {
+      "v": 25,
+      "text": "Kuzeyde Dan ordugahının sancağı dikilecek, Dan'a bağlı bölükler orada konaklayacak. Danoğulları'nın önderi Ammişadday oğlu Ahiezer olacak."
+    },
+    {
+      "v": 26,
+      "text": "Bölüğünün sayısı 62 700 kişiydi."
+    },
+    {
+      "v": 27,
+      "text": "Aşer oymağı onların bitişiğinde konaklayacak. Aşeroğulları'nın önderi Okran oğlu Pagiel olacak."
+    },
+    {
+      "v": 28,
+      "text": "Bölüğünün sayısı 41 500 kişiydi."
+    },
+    {
+      "v": 29,
+      "text": "Sonra Naftali oymağı konaklayacak. Naftalioğulları'nın önderi Enan oğlu Ahira olacak."
+    },
+    {
+      "v": 30,
+      "text": "Bölüğünün sayısı 53 400 kişiydi."
+    },
+    {
+      "v": 31,
+      "text": "Dan ordugahına ayrılan adamların sayısı 157 600 kişiydi. Kendi sancakları altında en son onlar yola çıkacak."
+    },
+    {
+      "v": 32,
+      "text": "Ailelerine göre sayılan İsrailliler bunlardı. Ordugahlardaki bütün bölüklerin toplamı 603 550 kişiydi."
+    },
+    {
+      "v": 33,
+      "text": "RAB'bin Musa'ya verdiği buyruk uyarınca Levililer öbür İsrailliler'le birlikte sayılmadı."
+    },
+    {
+      "v": 34,
+      "text": "Böylece İsrailliler RAB'bin Musa'ya buyurduğu gibi yaptılar. Sancakları altında ordugah kurdular. Göç ederken de herkes boyu ve ailesiyle birlikte yola çıktı."
+    }
+  ],
+  "title": "Oymakların Konaklama Düzeni"
+}

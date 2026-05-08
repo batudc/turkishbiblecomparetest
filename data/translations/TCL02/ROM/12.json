@@ -1,1 +1,91 @@
-{"t": "TCL02", "b": "ROM", "c": 12, "content": [{"v": 1, "text": "Öyleyse kardeşlerim, Tanrı'nın merhameti adına size yalvarırım: Bedenlerinizi diri, kutsal, Tanrı'yı hoşnut eden birer kurban olarak sunun. Ruhsal tapınmanız budur."}, {"v": 2, "text": "Bu çağın gidişine uymayın; bunun yerine, Tanrı'nın iyi, beğenilir ve yetkin isteğinin ne olduğunu ayırt edebilmek için düşüncenizin yenilenmesiyle değişin."}, {"v": 3, "text": "Tanrı'nın bana bağışladığı lütufla hepinize söylüyorum: Kimse kendisine gereğinden çok değer vermesin. Herkes Tanrı'nın kendisine verdiği iman ölçüsüne göre düşüncelerinde sağduyulu olsun."}, {"v": 4, "text": "Bir bedende ayrı ayrı işlevleri olan çok sayıda üyemiz olduğu gibi, çok sayıda olan bizler de Mesih'te tek bir bedeniz ve birbirimizin üyeleriyiz."}, {"v": 6, "text": "Tanrı'nın bize bağışladığı lütfa göre, ayrı ayrı ruhsal armağanlarımız vardır. Birinin armağanı peygamberlikse, imanı oranında peygamberlik etsin."}, {"v": 7, "text": "Hizmetse, hizmet etsin. Öğretmekse, öğretsin."}, {"v": 8, "text": "Öğüt veren, öğütte bulunsun. Bağışta bulunan, bunu cömertçe yapsın. Yöneten, gayretle yönetsin. Merhamet eden, bunu güler yüzle yapsın."}, {"v": 9, "text": "Sevginiz ikiyüzlü olmasın. Kötülükten tiksinin, iyiliğe bağlanın."}, {"v": 10, "text": "Birbirinize kardeşlik sevgisiyle bağlı olun. Birbirinize saygı göstermekte yarışın."}, {"v": 11, "text": "Gayretiniz eksilmesin. Ruhta ateşli olun. Rab'be kulluk edin."}, {"v": 12, "text": "Umudunuzla sevinin. Sıkıntıya dayanın. Kendinizi duaya verin."}, {"v": 13, "text": "İhtiyaç içinde olan kutsallara yardım edin. Konuksever olmayı amaç edinin."}, {"v": 14, "text": "Size zulmedenler için iyilik dileyin. İyilik dileyin, lanet etmeyin."}, {"v": 15, "text": "Sevinenlerle sevinin, ağlayanlarla ağlayın."}, {"v": 16, "text": "Birbirinizle aynı düşüncede olun. Böbürlenmeyin; tersine, hor görülenlerle arkadaşlık edin. Bilgiçlik taslamayın."}, {"v": 17, "text": "Kötülüğe kötülükle karşılık vermeyin. Herkesin gözünde iyi olanı yapmaya dikkat edin."}, {"v": 18, "text": "Mümkünse, elinizden geldiğince herkesle barış içinde yaşayın."}, {"v": 19, "text": "Sevgili kardeşler, kimseden öç almayın; bunu Tanrı'nın gazabına bırakın. Çünkü şöyle yazılmıştır: “Rab diyor ki, ‘Öç benimdir, ben karşılık vereceğim.’ ”"}, {"v": 20, "text": "Ama, “Düşmanın acıkmışsa doyur, Susamışsa su ver. Bunu yapmakla onu utanca boğarsın.”"}, {"v": 21, "text": "Kötülüğe yenilme, kötülüğü iyilikle yen."}]}
+{
+  "t": "TCL02",
+  "b": "ROM",
+  "c": 12,
+  "content": [
+    {
+      "section": "Tanrı'yı Hoşnut Etmek"
+    },
+    {
+      "v": 1,
+      "text": "Öyleyse kardeşlerim, Tanrı'nın merhameti adına size yalvarırım: Bedenlerinizi diri, kutsal, Tanrı'yı hoşnut eden birer kurban olarak sunun. Ruhsal tapınmanız budur."
+    },
+    {
+      "v": 2,
+      "text": "Bu çağın gidişine uymayın; bunun yerine, Tanrı'nın iyi, beğenilir ve yetkin isteğinin ne olduğunu ayırt edebilmek için düşüncenizin yenilenmesiyle değişin."
+    },
+    {
+      "v": 3,
+      "text": "Tanrı'nın bana bağışladığı lütufla hepinize söylüyorum: Kimse kendisine gereğinden çok değer vermesin. Herkes Tanrı'nın kendisine verdiği iman ölçüsüne göre düşüncelerinde sağduyulu olsun."
+    },
+    {
+      "v": 4,
+      "text": "Bir bedende ayrı ayrı işlevleri olan çok sayıda üyemiz olduğu gibi, çok sayıda olan bizler de Mesih'te tek bir bedeniz ve birbirimizin üyeleriyiz."
+    },
+    {
+      "v": 6,
+      "text": "Tanrı'nın bize bağışladığı lütfa göre, ayrı ayrı ruhsal armağanlarımız vardır. Birinin armağanı peygamberlikse, imanı oranında peygamberlik etsin."
+    },
+    {
+      "v": 7,
+      "text": "Hizmetse, hizmet etsin. Öğretmekse, öğretsin."
+    },
+    {
+      "v": 8,
+      "text": "Öğüt veren, öğütte bulunsun. Bağışta bulunan, bunu cömertçe yapsın. Yöneten, gayretle yönetsin. Merhamet eden, bunu güler yüzle yapsın."
+    },
+    {
+      "v": 9,
+      "text": "Sevginiz ikiyüzlü olmasın. Kötülükten tiksinin, iyiliğe bağlanın."
+    },
+    {
+      "v": 10,
+      "text": "Birbirinize kardeşlik sevgisiyle bağlı olun. Birbirinize saygı göstermekte yarışın."
+    },
+    {
+      "v": 11,
+      "text": "Gayretiniz eksilmesin. Ruhta ateşli olun. Rab'be kulluk edin."
+    },
+    {
+      "v": 12,
+      "text": "Umudunuzla sevinin. Sıkıntıya dayanın. Kendinizi duaya verin."
+    },
+    {
+      "v": 13,
+      "text": "İhtiyaç içinde olan kutsallara yardım edin. Konuksever olmayı amaç edinin."
+    },
+    {
+      "v": 14,
+      "text": "Size zulmedenler için iyilik dileyin. İyilik dileyin, lanet etmeyin."
+    },
+    {
+      "v": 15,
+      "text": "Sevinenlerle sevinin, ağlayanlarla ağlayın."
+    },
+    {
+      "v": 16,
+      "text": "Birbirinizle aynı düşüncede olun. Böbürlenmeyin; tersine, hor görülenlerle arkadaşlık edin. Bilgiçlik taslamayın."
+    },
+    {
+      "v": 17,
+      "text": "Kötülüğe kötülükle karşılık vermeyin. Herkesin gözünde iyi olanı yapmaya dikkat edin."
+    },
+    {
+      "v": 18,
+      "text": "Mümkünse, elinizden geldiğince herkesle barış içinde yaşayın."
+    },
+    {
+      "v": 19,
+      "text": "Sevgili kardeşler, kimseden öç almayın; bunu Tanrı'nın gazabına bırakın. Çünkü şöyle yazılmıştır: “Rab diyor ki, ‘Öç benimdir, ben karşılık vereceğim.’ ”"
+    },
+    {
+      "v": 20,
+      "text": "Ama, “Düşmanın acıkmışsa doyur, Susamışsa su ver. Bunu yapmakla onu utanca boğarsın.”"
+    },
+    {
+      "v": 21,
+      "text": "Kötülüğe yenilme, kötülüğü iyilikle yen."
+    }
+  ],
+  "title": "Tanrı'yı Hoşnut Etmek"
+}

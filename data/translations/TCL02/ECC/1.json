@@ -1,1 +1,86 @@
-{"t":"TCL02","b":"ECC","c":1,"content":[{"v":1,"text":"Bunlar Yeruşalim'de krallık yapan Davut oğlu Vaiz'in sözleridir:"},{"v":2,"text":"“Her şey boş, bomboş, bomboş!” diyor Vaiz."},{"v":3,"text":"Ne kazancı var insanın Güneşin altında harcadığı onca emekten?"},{"v":4,"text":"Kuşaklar gelir, kuşaklar geçer, Ama dünya sonsuza dek kalır."},{"v":5,"text":"Güneş doğar, güneş batar, Hep doğduğu yere koşar."},{"v":6,"text":"Rüzgar güneye gider, kuzeye döner, Döne döne eserek Hep aynı yolu izler."},{"v":7,"text":"Bütün ırmaklar denize akar, Yine de deniz dolmaz. Irmaklar hep çıktıkları yere döner."},{"v":8,"text":"Her şey yorucu, Sözcüklerle anlatılamayacak kadar. Göz görmekle doymuyor, Kulak işitmekle dolmuyor."},{"v":9,"text":"Önce ne olduysa, yine olacak. Önce ne yapıldıysa, yine yapılacak. Güneşin altında yeni bir şey yok."},{"v":10,"text":"Var mı kimsenin, “Bak bu yeni!” diyebileceği bir şey? Her şey çoktan, bizden yıllar önce de vardı."},{"v":11,"text":"Geçmiş kuşaklar anımsanmıyor, Gelecek kuşaklar da kendilerinden sonra gelenlerce anımsanmayacak."},{"v":12,"text":"Ben Vaiz, Yeruşalim'de İsrail kralıyken"},{"v":13,"text":"kendimi göklerin altında yapılan her şeyi bilgece araştırıp incelemeye adadım. Tanrı'nın uğraşsınlar diye insanlara verdiği çetin bir zahmettir bu."},{"v":14,"text":"Güneşin altında yapılan bütün işleri gördüm; hepsi boştur, rüzgarı kovalamaya kalkışmaktır!"},{"v":15,"text":"Eğri olan doğrultulamaz, eksik olan sayılamaz."},{"v":16,"text":"Kendi kendime, “İşte, bilgeliğimi benden önce Yeruşalim'de krallık yapan herkesten çok artırdım” dedim, “Alabildiğine bilgi ve bilgelik edindim.”"},{"v":17,"text":"Kendimi bilgi ve bilgeliği, deliliği ve akılsızlığı anlamaya adadım. Gördüm ki, bu da yalnızca rüzgarı kovalamaya kalkışmakmış."},{"v":18,"text":"Çünkü çok bilgelik çok keder doğurur, bilgi arttıkça acı da artar."}]}
+{
+  "t": "TCL02",
+  "b": "ECC",
+  "c": 1,
+  "content": [
+    {
+      "section": "Her Şey Bomboş"
+    },
+    {
+      "v": 1,
+      "text": "Bunlar Yeruşalim'de krallık yapan Davut oğlu Vaiz'in sözleridir:"
+    },
+    {
+      "v": 2,
+      "text": "“Her şey boş, bomboş, bomboş!” diyor Vaiz."
+    },
+    {
+      "v": 3,
+      "text": "Ne kazancı var insanın Güneşin altında harcadığı onca emekten?"
+    },
+    {
+      "v": 4,
+      "text": "Kuşaklar gelir, kuşaklar geçer, Ama dünya sonsuza dek kalır."
+    },
+    {
+      "v": 5,
+      "text": "Güneş doğar, güneş batar, Hep doğduğu yere koşar."
+    },
+    {
+      "v": 6,
+      "text": "Rüzgar güneye gider, kuzeye döner, Döne döne eserek Hep aynı yolu izler."
+    },
+    {
+      "v": 7,
+      "text": "Bütün ırmaklar denize akar, Yine de deniz dolmaz. Irmaklar hep çıktıkları yere döner."
+    },
+    {
+      "v": 8,
+      "text": "Her şey yorucu, Sözcüklerle anlatılamayacak kadar. Göz görmekle doymuyor, Kulak işitmekle dolmuyor."
+    },
+    {
+      "v": 9,
+      "text": "Önce ne olduysa, yine olacak. Önce ne yapıldıysa, yine yapılacak. Güneşin altında yeni bir şey yok."
+    },
+    {
+      "v": 10,
+      "text": "Var mı kimsenin, “Bak bu yeni!” diyebileceği bir şey? Her şey çoktan, bizden yıllar önce de vardı."
+    },
+    {
+      "v": 11,
+      "text": "Geçmiş kuşaklar anımsanmıyor, Gelecek kuşaklar da kendilerinden sonra gelenlerce anımsanmayacak."
+    },
+    {
+      "section": "Bilgelik Boştur"
+    },
+    {
+      "v": 12,
+      "text": "Ben Vaiz, Yeruşalim'de İsrail kralıyken"
+    },
+    {
+      "v": 13,
+      "text": "kendimi göklerin altında yapılan her şeyi bilgece araştırıp incelemeye adadım. Tanrı'nın uğraşsınlar diye insanlara verdiği çetin bir zahmettir bu."
+    },
+    {
+      "v": 14,
+      "text": "Güneşin altında yapılan bütün işleri gördüm; hepsi boştur, rüzgarı kovalamaya kalkışmaktır!"
+    },
+    {
+      "v": 15,
+      "text": "Eğri olan doğrultulamaz, eksik olan sayılamaz."
+    },
+    {
+      "v": 16,
+      "text": "Kendi kendime, “İşte, bilgeliğimi benden önce Yeruşalim'de krallık yapan herkesten çok artırdım” dedim, “Alabildiğine bilgi ve bilgelik edindim.”"
+    },
+    {
+      "v": 17,
+      "text": "Kendimi bilgi ve bilgeliği, deliliği ve akılsızlığı anlamaya adadım. Gördüm ki, bu da yalnızca rüzgarı kovalamaya kalkışmakmış."
+    },
+    {
+      "v": 18,
+      "text": "Çünkü çok bilgelik çok keder doğurur, bilgi arttıkça acı da artar."
+    }
+  ],
+  "title": "Her Şey Bomboş"
+}

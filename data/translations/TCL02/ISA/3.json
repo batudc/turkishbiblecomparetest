@@ -1,1 +1,86 @@
-{"t": "TCL02", "b": "ISA", "c": 3, "content": [{"v": 1, "text": "Bakın, Rab, Her Şeye Egemen RAB, Her türlü yardım ve desteği, Yani ekmek ve suyu, Yiğitlerle savaşçıları, Yöneticilerle peygamberleri, Falcılarla ileri gelenleri, Takım komutanlarıyla soyluları, danışmanları, Hünerli büyücülerle bilge muskacıları Yeruşalim'den ve Yahuda'dan çekip alacak."}, {"v": 4, "text": "Çocukları onlara yönetici atayacak, Küçük çocuklar onlara egemen olacak."}, {"v": 5, "text": "İnsan insana, komşu komşuya haksızlık edecek. Genç yaşlıya, Sıradan adam onurlu kişiye Hayasızca davranacak."}, {"v": 6, "text": "Ailede bir kardeş öbürüne sarılıp, “Hiç olmazsa senin bir üstlüğün var, Önderimiz ol! Bu yıkıntıları sen yönet” diyecek."}, {"v": 7, "text": "O zaman adam şöyle yanıtlayacak: “Ben yaranızı saramam. Evimde ne yiyecek ne giyecek var. Beni halkın önderi yapmayın.”"}, {"v": 8, "text": "Yeruşalim sendeledi, Yahuda düştü. Çünkü söyledikleri de yaptıkları da RAB'be karşı; O'nun yüce varlığını aşağılıyor."}, {"v": 9, "text": "Yüzlerindeki ifade onlara karşı tanıklık ediyor. Sodom gibi günahlarını açıkça söylüyor, gizlemiyorlar. Vay onların haline! Çünkü bu felaketi başlarına kendileri getirdiler."}, {"v": 10, "text": "Doğru kişiye iyilik göreceğini söyleyin. Çünkü iyiliklerinin meyvesini yiyecek."}, {"v": 11, "text": "Vay kötülerin haline! Kötülük görecek, yaptıklarının karşılığını alacaklar."}, {"v": 12, "text": "Çocuklar halkımı eziyor, Kadınlar onu yönetiyor. Ey halkım, sana yol gösterenler Seni saptırıyor, yolunu şaşırtıyorlar."}, {"v": 13, "text": "RAB davasını görmek için yerini aldı, Halkları yargılamak için ayağa kalkıyor."}, {"v": 14, "text": "RAB halkının ileri gelenleri ve önderleriyle davasını görecek. Rab, Her Şeye Egemen RAB onlara diyor ki, “Bağları yiyip bitiren sizsiniz, Evleriniz yoksullardan zorla aldığınız malla dolu. Ne hakla halkımı eziyor, Yoksulu sömürüyorsunuz?”"}, {"v": 16, "text": "RAB şöyle diyor: “Siyon kızları kibirlidir, burunları bir karış havada, göz kırparak geziyor, ayaklarındaki halhalları şıngırdatarak kırıtıyorlar."}, {"v": 17, "text": "Bu yüzden onların başlarında yaralar çıkaracağım, mahrem yerlerini açacağım.”"}, {"v": 18, "text": "O gün Rab güzel halhalları, alın çatkılarını, hilalleri, küpeleri, bilezikleri, peçeleri, başlıkları, ayak zincirlerini, kuşakları, koku şişelerini, muskaları, yüzükleri, burun halkalarını, bayramlık giysileri, pelerinleri, şalları, keseleri, el aynalarını, keten giysileri, baş sargılarını, tülbentleri ortadan kaldıracak."}, {"v": 24, "text": "O zaman güzel kokunun yerini pis koku, Kuşağın yerini ip, Lüleli saçın yerini kel kafa, Süslü giysinin yerini çul, Güzelliğin yerini dağlama izi alacak."}, {"v": 25, "text": "Erkekleri kılıçtan geçirilecek, Yiğitleri savaşta yok olacak."}, {"v": 26, "text": "Siyon'un kapıları ah çekip yas tutacak; Kent, yerde oturan, Terk edilmiş bir kadın gibi olacak."}]}
+{
+  "t": "TCL02",
+  "b": "ISA",
+  "c": 3,
+  "content": [
+    {
+      "section": "Yeruşalim'de Karışıklık"
+    },
+    {
+      "v": 1,
+      "text": "Bakın, Rab, Her Şeye Egemen RAB, Her türlü yardım ve desteği, Yani ekmek ve suyu, Yiğitlerle savaşçıları, Yöneticilerle peygamberleri, Falcılarla ileri gelenleri, Takım komutanlarıyla soyluları, danışmanları, Hünerli büyücülerle bilge muskacıları Yeruşalim'den ve Yahuda'dan çekip alacak."
+    },
+    {
+      "v": 4,
+      "text": "Çocukları onlara yönetici atayacak, Küçük çocuklar onlara egemen olacak."
+    },
+    {
+      "v": 5,
+      "text": "İnsan insana, komşu komşuya haksızlık edecek. Genç yaşlıya, Sıradan adam onurlu kişiye Hayasızca davranacak."
+    },
+    {
+      "v": 6,
+      "text": "Ailede bir kardeş öbürüne sarılıp, “Hiç olmazsa senin bir üstlüğün var, Önderimiz ol! Bu yıkıntıları sen yönet” diyecek."
+    },
+    {
+      "v": 7,
+      "text": "O zaman adam şöyle yanıtlayacak: “Ben yaranızı saramam. Evimde ne yiyecek ne giyecek var. Beni halkın önderi yapmayın.”"
+    },
+    {
+      "v": 8,
+      "text": "Yeruşalim sendeledi, Yahuda düştü. Çünkü söyledikleri de yaptıkları da RAB'be karşı; O'nun yüce varlığını aşağılıyor."
+    },
+    {
+      "v": 9,
+      "text": "Yüzlerindeki ifade onlara karşı tanıklık ediyor. Sodom gibi günahlarını açıkça söylüyor, gizlemiyorlar. Vay onların haline! Çünkü bu felaketi başlarına kendileri getirdiler."
+    },
+    {
+      "v": 10,
+      "text": "Doğru kişiye iyilik göreceğini söyleyin. Çünkü iyiliklerinin meyvesini yiyecek."
+    },
+    {
+      "v": 11,
+      "text": "Vay kötülerin haline! Kötülük görecek, yaptıklarının karşılığını alacaklar."
+    },
+    {
+      "v": 12,
+      "text": "Çocuklar halkımı eziyor, Kadınlar onu yönetiyor. Ey halkım, sana yol gösterenler Seni saptırıyor, yolunu şaşırtıyorlar."
+    },
+    {
+      "v": 13,
+      "text": "RAB davasını görmek için yerini aldı, Halkları yargılamak için ayağa kalkıyor."
+    },
+    {
+      "v": 14,
+      "text": "RAB halkının ileri gelenleri ve önderleriyle davasını görecek. Rab, Her Şeye Egemen RAB onlara diyor ki, “Bağları yiyip bitiren sizsiniz, Evleriniz yoksullardan zorla aldığınız malla dolu. Ne hakla halkımı eziyor, Yoksulu sömürüyorsunuz?”"
+    },
+    {
+      "section": "Yeruşalim Kadınlarına Uyarı"
+    },
+    {
+      "v": 16,
+      "text": "RAB şöyle diyor: “Siyon kızları kibirlidir, burunları bir karış havada, göz kırparak geziyor, ayaklarındaki halhalları şıngırdatarak kırıtıyorlar."
+    },
+    {
+      "v": 17,
+      "text": "Bu yüzden onların başlarında yaralar çıkaracağım, mahrem yerlerini açacağım.”"
+    },
+    {
+      "v": 18,
+      "text": "O gün Rab güzel halhalları, alın çatkılarını, hilalleri, küpeleri, bilezikleri, peçeleri, başlıkları, ayak zincirlerini, kuşakları, koku şişelerini, muskaları, yüzükleri, burun halkalarını, bayramlık giysileri, pelerinleri, şalları, keseleri, el aynalarını, keten giysileri, baş sargılarını, tülbentleri ortadan kaldıracak."
+    },
+    {
+      "v": 24,
+      "text": "O zaman güzel kokunun yerini pis koku, Kuşağın yerini ip, Lüleli saçın yerini kel kafa, Süslü giysinin yerini çul, Güzelliğin yerini dağlama izi alacak."
+    },
+    {
+      "v": 25,
+      "text": "Erkekleri kılıçtan geçirilecek, Yiğitleri savaşta yok olacak."
+    },
+    {
+      "v": 26,
+      "text": "Siyon'un kapıları ah çekip yas tutacak; Kent, yerde oturan, Terk edilmiş bir kadın gibi olacak."
+    }
+  ],
+  "title": "Yeruşalim'de Karışıklık"
+}

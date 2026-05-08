@@ -1,1 +1,117 @@
-{"t":"TCL02","b":"EZK","c":11,"content":[{"v":1,"text":"Ruh beni yine yukarıya kaldırıp RAB'bin Tapınağı'nın Doğu Kapısı'na götürdü. Kapının giriş bölümünde yirmi beş adam vardı. Aralarında halkın önderlerinden Azzur oğlu Yaazanya'yı, Benaya oğlu Pelatya'yı gördüm."},{"v":2,"text":"RAB bana, “İnsanoğlu, bunlar kötülük tasarlayan ve bu kentte kötü öğüt veren adamlardır” dedi,"},{"v":3,"text":"“Onlar, ‘Yıkım yakın değil, ev yapmanın zamanıdır. Bu kent kazan, biz de etiz’ diyorlar."},{"v":4,"text":"Bundan ötürü onları uyar, ey insanoğlu, onları uyar.”"},{"v":5,"text":"Sonra RAB'bin Ruhu üzerime inip şunları söylememi buyurdu: “RAB şöyle diyor: Ey İsrail halkı, neler söylediğinizi ve neler düşündüğünüzü bilirim."},{"v":6,"text":"Bu kentte birçok kişi öldürdünüz, kentin sokaklarını ölülerle doldurdunuz."},{"v":7,"text":"“Bundan ötürü Egemen RAB şöyle diyor: Oraya attığınız ölüler et, kent de kazandır. Ama sizi kentin dışına süreceğim."},{"v":8,"text":"Kılıçtan korktunuz, ama ben üzerinize kılıç göndereceğim. Egemen RAB böyle diyor."},{"v":9,"text":"Sizi kentten çıkarıp yabancıların eline teslim edeceğim. Sizi cezalandıracağım."},{"v":10,"text":"Kılıçla öldürüleceksiniz. Sizi İsrail sınırında cezalandıracağım. O zaman benim RAB olduğumu anlayacaksınız."},{"v":11,"text":"Bu kent sizin için kazan olmayacak, siz de onun içinde et olmayacaksınız. Sizi İsrail sınırında cezalandıracağım."},{"v":12,"text":"O zaman benim RAB olduğumu anlayacaksınız. Kurallarımı izlemediniz, ilkelerime uymadınız; çevrenizdeki ulusların ilkelerine uydunuz.”"},{"v":13,"text":"Ben peygamberlikte bulunurken Benaya oğlu Pelatya öldü. Yüzüstü yere kapanıp, “Ah, ey Egemen RAB! Geri kalan İsrailliler'i büsbütün mü yok edeceksin?” diye yüksek sesle haykırdım."},{"v":14,"text":"RAB bana şöyle seslendi:"},{"v":15,"text":"“Ey insanoğlu, Yeruşalim'de yaşayanlar senin kardeşlerin, akrabaların ve öbür İsrailliler için, ‘Onlar RAB'den uzaklar, bu ülke mülk olarak bize verildi’ demişler.”"},{"v":16,"text":"“Bu yüzden de ki, ‘Egemen RAB şöyle diyor: Onları uzaktaki uluslar arasına gönderdim, ülkeler arasına dağıttım. Öyleyken gittikleri ülkelerde kısa süre için onlara barınak oldum.’"},{"v":17,"text":"“De ki, ‘Egemen RAB şöyle diyor: Sizi uluslar arasından toplayacak, dağılmış olduğunuz ülkelerden geri getirecek, İsrail ülkesini yeniden size vereceğim.’"},{"v":18,"text":"“Ülkeye dönecek, tiksindirici, iğrenç putları oradan söküp atacaklar."},{"v":19,"text":"Onlara tek bir yürek vereceğim, içlerine yeni bir ruh koyacağım. İçlerindeki taş yüreği çıkarıp onlara etten bir yürek vereceğim."},{"v":20,"text":"O zaman kurallarımı izleyecek, ilkelerime uymaya özen gösterecekler. Onlar halkım olacak, ben de onların Tanrısı olacağım."},{"v":21,"text":"Tiksindirici, iğrenç putlara gönülden yönelenlere gelince, yaptıklarının aynısını başlarına getireceğim. Böyle diyor Egemen RAB.”"},{"v":22,"text":"Keruvlar kanatlarını açtı, tekerlekler yanlarında duruyordu. İsrail Tanrısı'nın görkemi onların üzerindeydi."},{"v":23,"text":"RAB'bin görkemi kentin ortasından yükselip kentin doğusundaki dağa kondu."},{"v":24,"text":"Görümde Tanrı'nın Ruhu beni yukarı kaldırıp Kildan ülkesindeki sürgünlerin yanına götürdü. Sonra gördüğüm görüm kayboldu."},{"v":25,"text":"Ben de RAB'bin bana gösterdiği her şeyi sürgündekilere anlattım."}]}
+{
+  "t": "TCL02",
+  "b": "EZK",
+  "c": 11,
+  "content": [
+    {
+      "section": "Yeruşalim'in Cezası"
+    },
+    {
+      "v": 1,
+      "text": "Ruh beni yine yukarıya kaldırıp RAB'bin Tapınağı'nın Doğu Kapısı'na götürdü. Kapının giriş bölümünde yirmi beş adam vardı. Aralarında halkın önderlerinden Azzur oğlu Yaazanya'yı, Benaya oğlu Pelatya'yı gördüm."
+    },
+    {
+      "v": 2,
+      "text": "RAB bana, “İnsanoğlu, bunlar kötülük tasarlayan ve bu kentte kötü öğüt veren adamlardır” dedi,"
+    },
+    {
+      "v": 3,
+      "text": "“Onlar, ‘Yıkım yakın değil, ev yapmanın zamanıdır. Bu kent kazan, biz de etiz’ diyorlar."
+    },
+    {
+      "v": 4,
+      "text": "Bundan ötürü onları uyar, ey insanoğlu, onları uyar.”"
+    },
+    {
+      "v": 5,
+      "text": "Sonra RAB'bin Ruhu üzerime inip şunları söylememi buyurdu: “RAB şöyle diyor: Ey İsrail halkı, neler söylediğinizi ve neler düşündüğünüzü bilirim."
+    },
+    {
+      "v": 6,
+      "text": "Bu kentte birçok kişi öldürdünüz, kentin sokaklarını ölülerle doldurdunuz."
+    },
+    {
+      "v": 7,
+      "text": "“Bundan ötürü Egemen RAB şöyle diyor: Oraya attığınız ölüler et, kent de kazandır. Ama sizi kentin dışına süreceğim."
+    },
+    {
+      "v": 8,
+      "text": "Kılıçtan korktunuz, ama ben üzerinize kılıç göndereceğim. Egemen RAB böyle diyor."
+    },
+    {
+      "v": 9,
+      "text": "Sizi kentten çıkarıp yabancıların eline teslim edeceğim. Sizi cezalandıracağım."
+    },
+    {
+      "v": 10,
+      "text": "Kılıçla öldürüleceksiniz. Sizi İsrail sınırında cezalandıracağım. O zaman benim RAB olduğumu anlayacaksınız."
+    },
+    {
+      "v": 11,
+      "text": "Bu kent sizin için kazan olmayacak, siz de onun içinde et olmayacaksınız. Sizi İsrail sınırında cezalandıracağım."
+    },
+    {
+      "v": 12,
+      "text": "O zaman benim RAB olduğumu anlayacaksınız. Kurallarımı izlemediniz, ilkelerime uymadınız; çevrenizdeki ulusların ilkelerine uydunuz.”"
+    },
+    {
+      "v": 13,
+      "text": "Ben peygamberlikte bulunurken Benaya oğlu Pelatya öldü. Yüzüstü yere kapanıp, “Ah, ey Egemen RAB! Geri kalan İsrailliler'i büsbütün mü yok edeceksin?” diye yüksek sesle haykırdım."
+    },
+    {
+      "section": "Sürgündekiler İsrail Ülkesine Dönecek"
+    },
+    {
+      "v": 14,
+      "text": "RAB bana şöyle seslendi:"
+    },
+    {
+      "v": 15,
+      "text": "“Ey insanoğlu, Yeruşalim'de yaşayanlar senin kardeşlerin, akrabaların ve öbür İsrailliler için, ‘Onlar RAB'den uzaklar, bu ülke mülk olarak bize verildi’ demişler.”"
+    },
+    {
+      "v": 16,
+      "text": "“Bu yüzden de ki, ‘Egemen RAB şöyle diyor: Onları uzaktaki uluslar arasına gönderdim, ülkeler arasına dağıttım. Öyleyken gittikleri ülkelerde kısa süre için onlara barınak oldum.’"
+    },
+    {
+      "v": 17,
+      "text": "“De ki, ‘Egemen RAB şöyle diyor: Sizi uluslar arasından toplayacak, dağılmış olduğunuz ülkelerden geri getirecek, İsrail ülkesini yeniden size vereceğim.’"
+    },
+    {
+      "v": 18,
+      "text": "“Ülkeye dönecek, tiksindirici, iğrenç putları oradan söküp atacaklar."
+    },
+    {
+      "v": 19,
+      "text": "Onlara tek bir yürek vereceğim, içlerine yeni bir ruh koyacağım. İçlerindeki taş yüreği çıkarıp onlara etten bir yürek vereceğim."
+    },
+    {
+      "v": 20,
+      "text": "O zaman kurallarımı izleyecek, ilkelerime uymaya özen gösterecekler. Onlar halkım olacak, ben de onların Tanrısı olacağım."
+    },
+    {
+      "v": 21,
+      "text": "Tiksindirici, iğrenç putlara gönülden yönelenlere gelince, yaptıklarının aynısını başlarına getireceğim. Böyle diyor Egemen RAB.”"
+    },
+    {
+      "section": "Rab'bin Görkemi Tapınaktan Ayrılıyor"
+    },
+    {
+      "v": 22,
+      "text": "Keruvlar kanatlarını açtı, tekerlekler yanlarında duruyordu. İsrail Tanrısı'nın görkemi onların üzerindeydi."
+    },
+    {
+      "v": 23,
+      "text": "RAB'bin görkemi kentin ortasından yükselip kentin doğusundaki dağa kondu."
+    },
+    {
+      "v": 24,
+      "text": "Görümde Tanrı'nın Ruhu beni yukarı kaldırıp Kildan ülkesindeki sürgünlerin yanına götürdü. Sonra gördüğüm görüm kayboldu."
+    },
+    {
+      "v": 25,
+      "text": "Ben de RAB'bin bana gösterdiği her şeyi sürgündekilere anlattım."
+    }
+  ],
+  "title": "Yeruşalim'in Cezası"
+}

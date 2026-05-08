@@ -1,1 +1,91 @@
-{"t":"TCL02","b":"2KI","c":16,"content":[{"v":1,"text":"İsrail Kralı Remalya oğlu Pekah'ın krallığının on yedinci yılında Yotam oğlu Ahaz Yahuda Kralı oldu."},{"v":2,"text":"Ahaz yirmi yaşında kral oldu ve Yeruşalim'de on altı yıl krallık yaptı. Tanrısı RAB'bin gözünde doğru olanı yapan atası Davut gibi davranmadı."},{"v":3,"text":"İsrail krallarının yolunu izledi; hatta RAB'bin İsrail halkının önünden kovmuş olduğu ulusların iğrenç törelerine uyarak oğlunu ateşte kurban etti."},{"v":4,"text":"Puta tapılan yerlerde, tepelerde, bol yapraklı her ağacın altında kurban kesip buhur yaktı."},{"v":5,"text":"Aram Kralı Resin'le İsrail Kralı Remalya oğlu Pekah Yeruşalim'e yürüdüler. Kenti kuşattılarsa da Ahaz'ı yenemediler."},{"v":6,"text":"O sırada Aram Kralı Resin Eylat'ı geri alıp Yahudalılar'ı oradan sürdü. Edomlular Eylat'a yerleşti. Bugün de orada yaşıyorlar."},{"v":7,"text":"Ahaz, Asur Kralı Tiglat-Pileser'e: “Senin kulun kölenim; gel, bana saldıran Aram ve İsrail krallarının elinden beni kurtar” diye ulaklar gönderdi."},{"v":8,"text":"RAB'bin Tapınağı'nda ve sarayın hazinelerinde bulunan altın ve gümüşü armağan olarak Asur Kralı'na gönderdi."},{"v":9,"text":"Asur Kralı Ahaz'ın isteğini olumlu karşıladı, saldırıp Şam'ı ele geçirdi. Kent halkını Kîr'e sürüp Resin'i öldürdü."},{"v":10,"text":"Kral Ahaz, Asur Kralı Tiglat-Pileser'i karşılamak için Şam'a gittiğinde, oradaki sunağı gördü. Aynısını yaptırmak için sunağın bütün ayrıntılarını gösteren bir planı ve maketi Kâhin Uriya'ya gönderdi."},{"v":11,"text":"Kâhin Uriya, Kral Ahaz Şam'dan dönünceye kadar, onun göndermiş olduğu maketin tıpkısı bir sunak yaptı."},{"v":12,"text":"Kral Şam'dan dönünce sunağı gördü, yaklaşıp üzerinde sunular sundu."},{"v":13,"text":"Yakmalık sunuları ve tahıl sunularını sundu, dökmelik sunuyu boşalttı, esenlik sunusunun kanını sunağın üzerine döktü."},{"v":14,"text":"RAB'bin huzurundaki tunç sunağı tapınağın önünden, yeni sunakla tapınağın arasındaki yerinden getirtip yeni sunağın kuzeyine yerleştirdi."},{"v":15,"text":"Kral Ahaz Kâhin Uriya'ya şu buyrukları verdi: “Sabahın yakmalık sunusuyla akşamın tahıl sunusunu, kralın yakmalık ve tahıl sunusunu, ayrıca ülke halkının yakmalık, tahıl ve dökmelik sunularını bu büyük sunağın üzerinde sun; yakmalık sunuların ve kurbanların kanını onun üzerine dök. Ama tunç sunağı geleceği bilmek için kendim kullanacağım.”"},{"v":16,"text":"Kâhin Uriya Kral Ahaz'ın bütün buyruklarını yerine getirdi."},{"v":17,"text":"Kral Ahaz tapınaktaki kazanların üzerine oturduğu ayaklıkların yan aynalıklarını söküp kazanları kaldırdı. Havuzu tunç boğaların üzerinden indirip taş bir döşeme üzerine yerleştirdi."},{"v":18,"text":"Asur Kralı'nı hoşnut etmek için RAB'bin Tapınağı'na konan kral kürsüsünün setini kaldırıp kralın tapınağa girmek için kullandığı özel kapıyı kapattı."},{"v":19,"text":"Ahaz'ın krallığı dönemindeki öteki olaylar ve yaptıkları Yahuda krallarının tarihinde yazılıdır."},{"v":20,"text":"Ahaz ölüp atalarına kavuşunca, Davut Kenti'nde atalarının yanına gömüldü. Yerine oğlu Hizkiya kral oldu."}]}
+{
+  "t": "TCL02",
+  "b": "2KI",
+  "c": 16,
+  "content": [
+    {
+      "section": "Ahaz'ın Yahuda Krallığı"
+    },
+    {
+      "v": 1,
+      "text": "İsrail Kralı Remalya oğlu Pekah'ın krallığının on yedinci yılında Yotam oğlu Ahaz Yahuda Kralı oldu."
+    },
+    {
+      "v": 2,
+      "text": "Ahaz yirmi yaşında kral oldu ve Yeruşalim'de on altı yıl krallık yaptı. Tanrısı RAB'bin gözünde doğru olanı yapan atası Davut gibi davranmadı."
+    },
+    {
+      "v": 3,
+      "text": "İsrail krallarının yolunu izledi; hatta RAB'bin İsrail halkının önünden kovmuş olduğu ulusların iğrenç törelerine uyarak oğlunu ateşte kurban etti."
+    },
+    {
+      "v": 4,
+      "text": "Puta tapılan yerlerde, tepelerde, bol yapraklı her ağacın altında kurban kesip buhur yaktı."
+    },
+    {
+      "v": 5,
+      "text": "Aram Kralı Resin'le İsrail Kralı Remalya oğlu Pekah Yeruşalim'e yürüdüler. Kenti kuşattılarsa da Ahaz'ı yenemediler."
+    },
+    {
+      "v": 6,
+      "text": "O sırada Aram Kralı Resin Eylat'ı geri alıp Yahudalılar'ı oradan sürdü. Edomlular Eylat'a yerleşti. Bugün de orada yaşıyorlar."
+    },
+    {
+      "v": 7,
+      "text": "Ahaz, Asur Kralı Tiglat-Pileser'e: “Senin kulun kölenim; gel, bana saldıran Aram ve İsrail krallarının elinden beni kurtar” diye ulaklar gönderdi."
+    },
+    {
+      "v": 8,
+      "text": "RAB'bin Tapınağı'nda ve sarayın hazinelerinde bulunan altın ve gümüşü armağan olarak Asur Kralı'na gönderdi."
+    },
+    {
+      "v": 9,
+      "text": "Asur Kralı Ahaz'ın isteğini olumlu karşıladı, saldırıp Şam'ı ele geçirdi. Kent halkını Kîr'e sürüp Resin'i öldürdü."
+    },
+    {
+      "v": 10,
+      "text": "Kral Ahaz, Asur Kralı Tiglat-Pileser'i karşılamak için Şam'a gittiğinde, oradaki sunağı gördü. Aynısını yaptırmak için sunağın bütün ayrıntılarını gösteren bir planı ve maketi Kâhin Uriya'ya gönderdi."
+    },
+    {
+      "v": 11,
+      "text": "Kâhin Uriya, Kral Ahaz Şam'dan dönünceye kadar, onun göndermiş olduğu maketin tıpkısı bir sunak yaptı."
+    },
+    {
+      "v": 12,
+      "text": "Kral Şam'dan dönünce sunağı gördü, yaklaşıp üzerinde sunular sundu."
+    },
+    {
+      "v": 13,
+      "text": "Yakmalık sunuları ve tahıl sunularını sundu, dökmelik sunuyu boşalttı, esenlik sunusunun kanını sunağın üzerine döktü."
+    },
+    {
+      "v": 14,
+      "text": "RAB'bin huzurundaki tunç sunağı tapınağın önünden, yeni sunakla tapınağın arasındaki yerinden getirtip yeni sunağın kuzeyine yerleştirdi."
+    },
+    {
+      "v": 15,
+      "text": "Kral Ahaz Kâhin Uriya'ya şu buyrukları verdi: “Sabahın yakmalık sunusuyla akşamın tahıl sunusunu, kralın yakmalık ve tahıl sunusunu, ayrıca ülke halkının yakmalık, tahıl ve dökmelik sunularını bu büyük sunağın üzerinde sun; yakmalık sunuların ve kurbanların kanını onun üzerine dök. Ama tunç sunağı geleceği bilmek için kendim kullanacağım.”"
+    },
+    {
+      "v": 16,
+      "text": "Kâhin Uriya Kral Ahaz'ın bütün buyruklarını yerine getirdi."
+    },
+    {
+      "v": 17,
+      "text": "Kral Ahaz tapınaktaki kazanların üzerine oturduğu ayaklıkların yan aynalıklarını söküp kazanları kaldırdı. Havuzu tunç boğaların üzerinden indirip taş bir döşeme üzerine yerleştirdi."
+    },
+    {
+      "v": 18,
+      "text": "Asur Kralı'nı hoşnut etmek için RAB'bin Tapınağı'na konan kral kürsüsünün setini kaldırıp kralın tapınağa girmek için kullandığı özel kapıyı kapattı."
+    },
+    {
+      "v": 19,
+      "text": "Ahaz'ın krallığı dönemindeki öteki olaylar ve yaptıkları Yahuda krallarının tarihinde yazılıdır."
+    },
+    {
+      "v": 20,
+      "text": "Ahaz ölüp atalarına kavuşunca, Davut Kenti'nde atalarının yanına gömüldü. Yerine oğlu Hizkiya kral oldu."
+    }
+  ],
+  "title": "Ahaz'ın Yahuda Krallığı"
+}

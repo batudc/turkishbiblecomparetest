@@ -1,1 +1,127 @@
-{"t":"TCL02","b":"NUM","c":34,"content":[{"v":1,"text":"RAB Musa'ya şöyle dedi:"},{"v":2,"text":"“İsrailliler'e de ki, ‘Mülk olarak size düşecek Kenan ülkesine girince, sınırlarınız şöyle olacak:"},{"v":3,"text":"“ ‘Güney sınırınız Zin Çölü'nden Edom sınırı boyunca uzanacak. Doğuda, güney sınırınız Lut Gölü'nün ucundan başlayacak,"},{"v":4,"text":"Akrep Geçidi'nin güneyinden Zin'e geçip Kadeş-Barnea'nın güneyine dek uzanacak. Oradan Hasar-Addar'a ve Asmon'a,"},{"v":5,"text":"oradan da Mısır Vadisi'ne uzanarak Akdeniz'de son bulacak."},{"v":6,"text":"“ ‘Batı sınırınız Akdeniz ve kıyısı olacak. Batıda sınırınız bu olacak."},{"v":7,"text":"“ ‘Kuzey sınırınız Akdeniz'den Hor Dağı'na dek uzanacak."},{"v":8,"text":"Hor Dağı'ndan Levo-Hamat'a, oradan Sedat'a,"},{"v":9,"text":"Zifron'a doğru uzanarak Hasar-Enan'da son bulacak. Kuzeyde sınırınız bu olacak."},{"v":10,"text":"“ ‘Doğu sınırınız Hasar-Enan'dan Şefam'a dek uzanacak."},{"v":11,"text":"Sınırınız Şefam'dan Ayin'in doğusundaki Rivla'ya dek inecek. Oradan Kinneret Gölü'nün doğu kıyısındaki yamaçlara dek uzanacak."},{"v":12,"text":"Oradan Şeria Irmağı boyunca uzanacak ve Lut Gölü'nde son bulacak.  “ ‘Her yandan ülkenizin sınırları bu olacaktır.’ ”"},{"v":13,"text":"Musa İsrailliler'e, “Miras olarak kurayla paylaştıracağınız ülke budur” dedi, “RAB'bin buyruğu uyarınca ülke dokuz oymakla bir yarım oymak arasında paylaştırılacak."},{"v":14,"text":"Çünkü Ruben oymağına bağlı ailelerle Gad oymağına bağlı aileler ve Manaşşe oymağının öbür yarısı mülklerini aldılar."},{"v":15,"text":"Bu iki oymakla yarım oymak mülklerini Eriha'nın karşısındaki Şeria Irmağı'nın doğusunda aldılar.”"},{"v":16,"text":"RAB Musa'ya şöyle dedi:"},{"v":17,"text":"“Ülkeyi mülk olarak aranızda paylaştıracak adamlar şunlardır: Kâhin Elazar ve Nun oğlu Yeşu."},{"v":18,"text":"Ülkeyi mülk olarak paylaştırmaları için her oymaktan birer önder görevlendirin."},{"v":19,"text":"Şu adamları görevlendireceksiniz:  “Yahuda oymağından Yefunne oğlu Kalev,"},{"v":20,"text":"Şimon oymağından Ammihut oğlu Şemuel,"},{"v":21,"text":"Benyamin oymağından Kislon oğlu Elidat,"},{"v":22,"text":"Dan oymağından Yogli oğlu önder Bukki,"},{"v":23,"text":"Yusufoğulları'ndan: Manaşşe oymağından Efot oğlu önder Hanniel,"},{"v":24,"text":"Efrayim oymağından Şiftan oğlu önder Kemuel,"},{"v":25,"text":"Zevulun oymağından Parnak oğlu önder Elisafan,"},{"v":26,"text":"İssakar oymağından Azzan oğlu önder Paltiel,"},{"v":27,"text":"Aşer oymağından Şelomi oğlu önder Ahihut,"},{"v":28,"text":"Naftali oymağından Ammihut oğlu önder Pedahel.”"},{"v":29,"text":"Kenan ülkesinde İsrailliler'e mülkü paylaştırmaları için RAB'bin görevlendirdiği adamlar bunlardı."}]}
+{
+  "t": "TCL02",
+  "b": "NUM",
+  "c": 34,
+  "content": [
+    {
+      "section": "Kenan Ülkesinin Sınırları"
+    },
+    {
+      "v": 1,
+      "text": "RAB Musa'ya şöyle dedi:"
+    },
+    {
+      "v": 2,
+      "text": "“İsrailliler'e de ki, ‘Mülk olarak size düşecek Kenan ülkesine girince, sınırlarınız şöyle olacak:"
+    },
+    {
+      "v": 3,
+      "text": "“ ‘Güney sınırınız Zin Çölü'nden Edom sınırı boyunca uzanacak. Doğuda, güney sınırınız Lut Gölü'nün ucundan başlayacak,"
+    },
+    {
+      "v": 4,
+      "text": "Akrep Geçidi'nin güneyinden Zin'e geçip Kadeş-Barnea'nın güneyine dek uzanacak. Oradan Hasar-Addar'a ve Asmon'a,"
+    },
+    {
+      "v": 5,
+      "text": "oradan da Mısır Vadisi'ne uzanarak Akdeniz'de son bulacak."
+    },
+    {
+      "v": 6,
+      "text": "“ ‘Batı sınırınız Akdeniz ve kıyısı olacak. Batıda sınırınız bu olacak."
+    },
+    {
+      "v": 7,
+      "text": "“ ‘Kuzey sınırınız Akdeniz'den Hor Dağı'na dek uzanacak."
+    },
+    {
+      "v": 8,
+      "text": "Hor Dağı'ndan Levo-Hamat'a, oradan Sedat'a,"
+    },
+    {
+      "v": 9,
+      "text": "Zifron'a doğru uzanarak Hasar-Enan'da son bulacak. Kuzeyde sınırınız bu olacak."
+    },
+    {
+      "v": 10,
+      "text": "“ ‘Doğu sınırınız Hasar-Enan'dan Şefam'a dek uzanacak."
+    },
+    {
+      "v": 11,
+      "text": "Sınırınız Şefam'dan Ayin'in doğusundaki Rivla'ya dek inecek. Oradan Kinneret Gölü'nün doğu kıyısındaki yamaçlara dek uzanacak."
+    },
+    {
+      "v": 12,
+      "text": "Oradan Şeria Irmağı boyunca uzanacak ve Lut Gölü'nde son bulacak.  “ ‘Her yandan ülkenizin sınırları bu olacaktır.’ ”"
+    },
+    {
+      "v": 13,
+      "text": "Musa İsrailliler'e, “Miras olarak kurayla paylaştıracağınız ülke budur” dedi, “RAB'bin buyruğu uyarınca ülke dokuz oymakla bir yarım oymak arasında paylaştırılacak."
+    },
+    {
+      "v": 14,
+      "text": "Çünkü Ruben oymağına bağlı ailelerle Gad oymağına bağlı aileler ve Manaşşe oymağının öbür yarısı mülklerini aldılar."
+    },
+    {
+      "v": 15,
+      "text": "Bu iki oymakla yarım oymak mülklerini Eriha'nın karşısındaki Şeria Irmağı'nın doğusunda aldılar.”"
+    },
+    {
+      "v": 16,
+      "text": "RAB Musa'ya şöyle dedi:"
+    },
+    {
+      "v": 17,
+      "text": "“Ülkeyi mülk olarak aranızda paylaştıracak adamlar şunlardır: Kâhin Elazar ve Nun oğlu Yeşu."
+    },
+    {
+      "v": 18,
+      "text": "Ülkeyi mülk olarak paylaştırmaları için her oymaktan birer önder görevlendirin."
+    },
+    {
+      "v": 19,
+      "text": "Şu adamları görevlendireceksiniz:  “Yahuda oymağından Yefunne oğlu Kalev,"
+    },
+    {
+      "v": 20,
+      "text": "Şimon oymağından Ammihut oğlu Şemuel,"
+    },
+    {
+      "v": 21,
+      "text": "Benyamin oymağından Kislon oğlu Elidat,"
+    },
+    {
+      "v": 22,
+      "text": "Dan oymağından Yogli oğlu önder Bukki,"
+    },
+    {
+      "v": 23,
+      "text": "Yusufoğulları'ndan: Manaşşe oymağından Efot oğlu önder Hanniel,"
+    },
+    {
+      "v": 24,
+      "text": "Efrayim oymağından Şiftan oğlu önder Kemuel,"
+    },
+    {
+      "v": 25,
+      "text": "Zevulun oymağından Parnak oğlu önder Elisafan,"
+    },
+    {
+      "v": 26,
+      "text": "İssakar oymağından Azzan oğlu önder Paltiel,"
+    },
+    {
+      "v": 27,
+      "text": "Aşer oymağından Şelomi oğlu önder Ahihut,"
+    },
+    {
+      "v": 28,
+      "text": "Naftali oymağından Ammihut oğlu önder Pedahel.”"
+    },
+    {
+      "v": 29,
+      "text": "Kenan ülkesinde İsrailliler'e mülkü paylaştırmaları için RAB'bin görevlendirdiği adamlar bunlardı."
+    }
+  ],
+  "title": "Kenan Ülkesinin Sınırları"
+}

@@ -1,1 +1,79 @@
-{"t":"TCL02","b":"2CH","c":3,"content":[{"v":1,"text":"Süleyman bundan sonra RAB'bin Yeruşalim'de babası Davut'a göründüğü Moriya Dağı'nda RAB'bin Tapınağı'nı yaptırmaya başladı. Yevuslu Ornan'ın olan bu harman yerini Davut sağlamıştı."},{"v":2,"text":"Süleyman krallığının dördüncü yılının ikinci ayının ikinci gününde yapıyı başlattı."},{"v":3,"text":"Tanrı'nın Tapınağı için attığı temel, eski ölçülere göre altmış arşın uzunluğunda, yirmi arşın genişliğindeydi."},{"v":4,"text":"Tapınağın ön cephesini boydan boya kaplayan eyvanının genişliği yirmi arşın, yüksekliği yüz yirmi arşındı. Süleyman iç duvarları saf altınla kaplattı."},{"v":5,"text":"Ana bölümün duvarlarını da önce çam tahtasıyla, sonra saf altınla kaplattı; hurma ağacı ve zincir motifleriyle süsletti."},{"v":6,"text":"Tapınağı değerli taşlarla bezetti. Kullanılan altın Parvayim'den getirilmişti."},{"v":7,"text":"Kirişleri, kapı eşiklerini, duvarlarla kapıları altınla kaplattı. Duvarlara Keruvlar oydurdu."},{"v":8,"text":"En Kutsal Yer'i yaptı: Uzunluğu tapınağın genişliğine eşitti; uzunluğu da genişliği de yirmişer arşındı. En Kutsal Yer'in iç duvarlarını altı yüz talant saf altınla kaplattı."},{"v":9,"text":"Altın çivilerin ağırlığı elli şekeldi. Süleyman yukarı odaları da altınla kaplattı."},{"v":10,"text":"En Kutsal Yer'de iki Keruv heykeli yaptırarak altınla kaplattı."},{"v":11,"text":"Keruvlar'ın kanatlarının uzunluğu yirmi arşındı. Keruvlar'dan birinin kanadı beş arşındı ve tapınağın duvarına erişiyordu. Öbür kanat da beş arşındı ve öteki Keruv'un kanadına değiyordu."},{"v":12,"text":"Aynı şekilde öteki Keruv'un da kanadı beş arşındı ve tapınağın duvarına erişiyordu. Öbür kanat da beş arşındı ve birinci Keruv'un kanadına değiyordu."},{"v":13,"text":"Ayakta duran ve açılmış kanatlarının uzunluğu yirmi arşın olan Keruvlar'ın yüzü ana bölüme bakıyordu."},{"v":14,"text":"En Kutsal Yer'in perdesi lacivert, mor, kırmızı kumaştan ve ince ketenden yapılmıştı. Üzerinde Keruv işlemeleri vardı."},{"v":15,"text":"Süleyman otuz beşer arşın yüksekliğinde iki sütun yaptırıp tapınağın önüne diktirdi. Sütun başlıkları beşer arşın yüksekliğindeydi."},{"v":16,"text":"Gerdanlığa benzer zincirler yaptırarak sütunların üzerine koydurdu. Yüz nar motifi yaptırıp zincirlere taktırdı."},{"v":17,"text":"Sütunları tapınağın önüne diktirip sağdakine Yakin, soldakine Boaz adını verdi."}]}
+{
+  "t": "TCL02",
+  "b": "2CH",
+  "c": 3,
+  "content": [
+    {
+      "section": "Tapınağın Yapılışı"
+    },
+    {
+      "v": 1,
+      "text": "Süleyman bundan sonra RAB'bin Yeruşalim'de babası Davut'a göründüğü Moriya Dağı'nda RAB'bin Tapınağı'nı yaptırmaya başladı. Yevuslu Ornan'ın olan bu harman yerini Davut sağlamıştı."
+    },
+    {
+      "v": 2,
+      "text": "Süleyman krallığının dördüncü yılının ikinci ayının ikinci gününde yapıyı başlattı."
+    },
+    {
+      "v": 3,
+      "text": "Tanrı'nın Tapınağı için attığı temel, eski ölçülere göre altmış arşın uzunluğunda, yirmi arşın genişliğindeydi."
+    },
+    {
+      "v": 4,
+      "text": "Tapınağın ön cephesini boydan boya kaplayan eyvanının genişliği yirmi arşın, yüksekliği yüz yirmi arşındı. Süleyman iç duvarları saf altınla kaplattı."
+    },
+    {
+      "v": 5,
+      "text": "Ana bölümün duvarlarını da önce çam tahtasıyla, sonra saf altınla kaplattı; hurma ağacı ve zincir motifleriyle süsletti."
+    },
+    {
+      "v": 6,
+      "text": "Tapınağı değerli taşlarla bezetti. Kullanılan altın Parvayim'den getirilmişti."
+    },
+    {
+      "v": 7,
+      "text": "Kirişleri, kapı eşiklerini, duvarlarla kapıları altınla kaplattı. Duvarlara Keruvlar oydurdu."
+    },
+    {
+      "v": 8,
+      "text": "En Kutsal Yer'i yaptı: Uzunluğu tapınağın genişliğine eşitti; uzunluğu da genişliği de yirmişer arşındı. En Kutsal Yer'in iç duvarlarını altı yüz talant saf altınla kaplattı."
+    },
+    {
+      "v": 9,
+      "text": "Altın çivilerin ağırlığı elli şekeldi. Süleyman yukarı odaları da altınla kaplattı."
+    },
+    {
+      "v": 10,
+      "text": "En Kutsal Yer'de iki Keruv heykeli yaptırarak altınla kaplattı."
+    },
+    {
+      "v": 11,
+      "text": "Keruvlar'ın kanatlarının uzunluğu yirmi arşındı. Keruvlar'dan birinin kanadı beş arşındı ve tapınağın duvarına erişiyordu. Öbür kanat da beş arşındı ve öteki Keruv'un kanadına değiyordu."
+    },
+    {
+      "v": 12,
+      "text": "Aynı şekilde öteki Keruv'un da kanadı beş arşındı ve tapınağın duvarına erişiyordu. Öbür kanat da beş arşındı ve birinci Keruv'un kanadına değiyordu."
+    },
+    {
+      "v": 13,
+      "text": "Ayakta duran ve açılmış kanatlarının uzunluğu yirmi arşın olan Keruvlar'ın yüzü ana bölüme bakıyordu."
+    },
+    {
+      "v": 14,
+      "text": "En Kutsal Yer'in perdesi lacivert, mor, kırmızı kumaştan ve ince ketenden yapılmıştı. Üzerinde Keruv işlemeleri vardı."
+    },
+    {
+      "v": 15,
+      "text": "Süleyman otuz beşer arşın yüksekliğinde iki sütun yaptırıp tapınağın önüne diktirdi. Sütun başlıkları beşer arşın yüksekliğindeydi."
+    },
+    {
+      "v": 16,
+      "text": "Gerdanlığa benzer zincirler yaptırarak sütunların üzerine koydurdu. Yüz nar motifi yaptırıp zincirlere taktırdı."
+    },
+    {
+      "v": 17,
+      "text": "Sütunları tapınağın önüne diktirip sağdakine Yakin, soldakine Boaz adını verdi."
+    }
+  ],
+  "title": "Tapınağın Yapılışı"
+}

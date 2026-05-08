@@ -1,1 +1,63 @@
-{"t":"TCL02","b":"AMO","c":4,"content":[{"v":1,"text":"Ey sizler, Samiriye Dağı'ndaki Başan inekleri, Yoksula baskı yapan, Mazlumu ezen, Beylerine, “Getir de içelim!” diyen hanımlar! Kulak verin şu sözlere:"},{"v":2,"text":"Egemen RAB kutsallığı üstüne ant içerek şöyle dedi: “İşte geliyor o günler; Sizi et kancalarıyla, En son kalanlarınızı balık çengelleriyle götürecekleri günler."},{"v":3,"text":"Her biriniz karşınızdaki gedikten çıkacak, Harmon'a atılacaksınız.” RAB böyle diyor."},{"v":4,"text":"“Beytel'e gelip günah işleyin, Gilgal'a gelip daha da günah işleyin! Her sabah kurbanlarınızı, Üç günde bir de ondalıklarınızı getirin."},{"v":5,"text":"Şükran sunusu olarak mayalı ekmek yakın, Gönülden verdiğiniz sunuları açıklayıp duyurun! Çünkü bundan hoşlanıyorsunuz, ey İsrailliler.” Egemen RAB böyle diyor."},{"v":6,"text":"“Bütün kentlerinizde açlıktan nefesiniz koktu, Bulunduğunuz her yerde size kıtlık verdim, Yine de bana dönmediniz.” RAB böyle diyor."},{"v":7,"text":"“Hasat mevsimine daha üç ay varken, Sizden yağmuru da esirgedim. Bir kente yağmur yağdırdım, Öbürüne yağdırmadım. Bir tarla yağmur aldı, Öteki almayıp kurudu."},{"v":8,"text":"Su bulmak için Kent kent sersemce dolaştınız; Suya doyamadınız, Yine de bana dönmediniz.” RAB böyle diyor."},{"v":9,"text":"“Samyeli ve küfle sizi cezalandırdım, Mahvettim bağlarınızı, bahçelerinizi, İncir ve zeytin ağaçlarınızı çekirge yedi, Yine de bana dönmediniz.” RAB böyle diyor."},{"v":10,"text":"“Mısır'da olduğu gibi Aranıza salgın hastalık gönderdim, Kılıçtan geçirdim yiğitlerinizi, Atlarınızı düşmanlarınıza verdim, Ordugahınızın pis kokusunu burunlarınıza doldurdum; Yine de bana dönmediniz.” RAB böyle diyor."},{"v":11,"text":"“Sodom ve Gomora'yı altüst ettiğim gibi, Altüst ettim içinizden bazılarını. Ateşten kurtarılan yanık odun parçasına döndünüz, Yine de yönelmediniz bana.” RAB böyle diyor."},{"v":12,"text":"“Bu yüzden sana şunu yapacağım, ey İsrail. Yapacaklarım için Tanrın'ı karşılamaya hazırlan, ey İsrail!”"},{"v":13,"text":"Çünkü dağlara biçim veren, Rüzgarı yaratan, düşüncelerini insana bildiren, Şafağı karanlığa çeviren, Dünyanın yüksek yerlerine ayak basan işte O'dur, O'nun adı RAB, Her Şeye Egemen Tanrı'dır."}]}
+{
+  "t": "TCL02",
+  "b": "AMO",
+  "c": 4,
+  "content": [
+    {
+      "section": "İsrail Rab'be Dönmüyor"
+    },
+    {
+      "v": 1,
+      "text": "Ey sizler, Samiriye Dağı'ndaki Başan inekleri, Yoksula baskı yapan, Mazlumu ezen, Beylerine, “Getir de içelim!” diyen hanımlar! Kulak verin şu sözlere:"
+    },
+    {
+      "v": 2,
+      "text": "Egemen RAB kutsallığı üstüne ant içerek şöyle dedi: “İşte geliyor o günler; Sizi et kancalarıyla, En son kalanlarınızı balık çengelleriyle götürecekleri günler."
+    },
+    {
+      "v": 3,
+      "text": "Her biriniz karşınızdaki gedikten çıkacak, Harmon'a atılacaksınız.” RAB böyle diyor."
+    },
+    {
+      "v": 4,
+      "text": "“Beytel'e gelip günah işleyin, Gilgal'a gelip daha da günah işleyin! Her sabah kurbanlarınızı, Üç günde bir de ondalıklarınızı getirin."
+    },
+    {
+      "v": 5,
+      "text": "Şükran sunusu olarak mayalı ekmek yakın, Gönülden verdiğiniz sunuları açıklayıp duyurun! Çünkü bundan hoşlanıyorsunuz, ey İsrailliler.” Egemen RAB böyle diyor."
+    },
+    {
+      "v": 6,
+      "text": "“Bütün kentlerinizde açlıktan nefesiniz koktu, Bulunduğunuz her yerde size kıtlık verdim, Yine de bana dönmediniz.” RAB böyle diyor."
+    },
+    {
+      "v": 7,
+      "text": "“Hasat mevsimine daha üç ay varken, Sizden yağmuru da esirgedim. Bir kente yağmur yağdırdım, Öbürüne yağdırmadım. Bir tarla yağmur aldı, Öteki almayıp kurudu."
+    },
+    {
+      "v": 8,
+      "text": "Su bulmak için Kent kent sersemce dolaştınız; Suya doyamadınız, Yine de bana dönmediniz.” RAB böyle diyor."
+    },
+    {
+      "v": 9,
+      "text": "“Samyeli ve küfle sizi cezalandırdım, Mahvettim bağlarınızı, bahçelerinizi, İncir ve zeytin ağaçlarınızı çekirge yedi, Yine de bana dönmediniz.” RAB böyle diyor."
+    },
+    {
+      "v": 10,
+      "text": "“Mısır'da olduğu gibi Aranıza salgın hastalık gönderdim, Kılıçtan geçirdim yiğitlerinizi, Atlarınızı düşmanlarınıza verdim, Ordugahınızın pis kokusunu burunlarınıza doldurdum; Yine de bana dönmediniz.” RAB böyle diyor."
+    },
+    {
+      "v": 11,
+      "text": "“Sodom ve Gomora'yı altüst ettiğim gibi, Altüst ettim içinizden bazılarını. Ateşten kurtarılan yanık odun parçasına döndünüz, Yine de yönelmediniz bana.” RAB böyle diyor."
+    },
+    {
+      "v": 12,
+      "text": "“Bu yüzden sana şunu yapacağım, ey İsrail. Yapacaklarım için Tanrın'ı karşılamaya hazırlan, ey İsrail!”"
+    },
+    {
+      "v": 13,
+      "text": "Çünkü dağlara biçim veren, Rüzgarı yaratan, düşüncelerini insana bildiren, Şafağı karanlığa çeviren, Dünyanın yüksek yerlerine ayak basan işte O'dur, O'nun adı RAB, Her Şeye Egemen Tanrı'dır."
+    }
+  ],
+  "title": "İsrail Rab'be Dönmüyor"
+}

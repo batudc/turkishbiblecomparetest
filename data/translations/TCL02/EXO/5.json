@@ -1,1 +1,106 @@
-{"t":"TCL02","b":"EXO","c":5,"content":[{"v":1,"text":"Sonra Musa'yla Harun firavuna gidip şöyle dediler: “İsrail'in Tanrısı RAB diyor ki, ‘Halkımı bırak gitsin, çölde bana bayram yapsın.’ ”"},{"v":2,"text":"Firavun, “RAB kim oluyor ki, O'nun sözünü dinleyip İsrail halkını salıvereyim?” dedi. “RAB'bi tanımıyorum. İsrailliler'in gitmesine izin vermeyeceğim.”"},{"v":3,"text":"Musa'yla Harun, “İbraniler'in Tanrısı bizimle görüştü” diye yanıtladılar, “İzin ver, Tanrımız RAB'be kurban kesmek için çölde üç gün yol alalım. Yoksa bizi salgın hastalık ya da kılıçla cezalandırabilir.”"},{"v":4,"text":"Mısır Firavunu, “Ey Musa ve Harun, niçin halkı işinden alıkoyuyorsunuz? Siz de işinizin başına dönün” dedi,"},{"v":5,"text":"“Bakın, halkınız Mısırlılar'dan daha kalabalık, oysa siz onların işini engellemeye çalışıyorsunuz.”"},{"v":6,"text":"Firavun o gün angaryacılara ve halkın başındaki görevlilere buyruk verdi:"},{"v":7,"text":"“Kerpiç yapmak için artık halka saman vermeyeceksiniz. Gitsinler, kendi samanlarını kendileri toplasınlar."},{"v":8,"text":"Önceki gibi aynı sayıda kerpiç yapmalarını isteyin, kerpiç sayısını azaltmayın. Çünkü tembel insanlardır; bu yüzden, ‘Gidelim, Tanrımız'a kurban keselim’ diye bağrışıyorlar."},{"v":9,"text":"İşlerini ağırlaştırın ki, meşgul olsunlar, yalan sözlere kulak asmasınlar.”"},{"v":10,"text":"Angaryacılarla görevliler gidip İsrailliler'e şöyle dediler: “Firavun diyor ki, ‘Artık size saman vermeyeceğim."},{"v":11,"text":"Gidin, nerede bulursanız oradan kendinize saman alın. Ancak işiniz hiç hafifletilmeyecek.’ ”"},{"v":12,"text":"Böylece halk saman yerine anız toplamak üzere bütün Mısır'a dağıldı."},{"v":13,"text":"Angaryacılar, “Saman verildiği günlerdeki gibi gündelik görevlerinizi eksiksiz yerine getirin” diyerek onlara baskı yapıyordu."},{"v":14,"text":"Firavunun angaryacılarının atadığı İsrailli görevliler, “Niçin dün ve bugün daha önceki gibi gereken sayıda kerpiç yaptırmadınız?” diyerek dövüldüler."},{"v":15,"text":"Bunun üzerine İsrailli görevliler firavunun yanına varıp yakındılar: “Neden kullarına böyle davranıyorsun?"},{"v":16,"text":"Neden bize saman verilmediği halde, ‘Kerpiç yapın!’ deniyor? İşte kulların dövülüyor, oysa suçlu senin kendi halkındır.”"},{"v":17,"text":"Firavun, “Tembelsiniz siz, tembel!” diye karşılık verdi, “Bu yüzden ‘Gidip RAB'be kurban keselim’ diyorsunuz."},{"v":18,"text":"Haydi, işinizin başına dönün. Size saman verilmeyecek; yine de aynı sayıda kerpiç üreteceksiniz.”"},{"v":19,"text":"Kendilerine, “Her gün üretmeniz gereken kerpiç sayısını azaltmayacaksınız” dendiğinde İsrailli görevliler zor durumda olduklarını anladılar."},{"v":20,"text":"Firavunun yanından ayrılınca, kendilerini bekleyen Musa'yla Harun'a çıkıştılar."},{"v":21,"text":"“RAB yaptığınızı görsün, cezanızı versin!” dediler, “Bizi firavunla görevlilerinin gözünde rezil ettiniz. Bizi öldürmeleri için ellerine bir kılıç verdiniz.”"},{"v":22,"text":"Musa RAB'be döndü ve, “Ya Rab, niçin bu halka kötü davrandın?” dedi, “Beni bunun için mi gönderdin?"},{"v":23,"text":"Senin adına firavunla konuşmaya gittim gideli firavun bu halka kötü davranıyor. Sen de kendi halkını kurtarmak için hiçbir şey yapmadın.”"}]}
+{
+  "t": "TCL02",
+  "b": "EXO",
+  "c": 5,
+  "content": [
+    {
+      "section": "Musa'yla Harun Firavunun Huzurunda"
+    },
+    {
+      "v": 1,
+      "text": "Sonra Musa'yla Harun firavuna gidip şöyle dediler: “İsrail'in Tanrısı RAB diyor ki, ‘Halkımı bırak gitsin, çölde bana bayram yapsın.’ ”"
+    },
+    {
+      "v": 2,
+      "text": "Firavun, “RAB kim oluyor ki, O'nun sözünü dinleyip İsrail halkını salıvereyim?” dedi. “RAB'bi tanımıyorum. İsrailliler'in gitmesine izin vermeyeceğim.”"
+    },
+    {
+      "v": 3,
+      "text": "Musa'yla Harun, “İbraniler'in Tanrısı bizimle görüştü” diye yanıtladılar, “İzin ver, Tanrımız RAB'be kurban kesmek için çölde üç gün yol alalım. Yoksa bizi salgın hastalık ya da kılıçla cezalandırabilir.”"
+    },
+    {
+      "v": 4,
+      "text": "Mısır Firavunu, “Ey Musa ve Harun, niçin halkı işinden alıkoyuyorsunuz? Siz de işinizin başına dönün” dedi,"
+    },
+    {
+      "v": 5,
+      "text": "“Bakın, halkınız Mısırlılar'dan daha kalabalık, oysa siz onların işini engellemeye çalışıyorsunuz.”"
+    },
+    {
+      "v": 6,
+      "text": "Firavun o gün angaryacılara ve halkın başındaki görevlilere buyruk verdi:"
+    },
+    {
+      "v": 7,
+      "text": "“Kerpiç yapmak için artık halka saman vermeyeceksiniz. Gitsinler, kendi samanlarını kendileri toplasınlar."
+    },
+    {
+      "v": 8,
+      "text": "Önceki gibi aynı sayıda kerpiç yapmalarını isteyin, kerpiç sayısını azaltmayın. Çünkü tembel insanlardır; bu yüzden, ‘Gidelim, Tanrımız'a kurban keselim’ diye bağrışıyorlar."
+    },
+    {
+      "v": 9,
+      "text": "İşlerini ağırlaştırın ki, meşgul olsunlar, yalan sözlere kulak asmasınlar.”"
+    },
+    {
+      "v": 10,
+      "text": "Angaryacılarla görevliler gidip İsrailliler'e şöyle dediler: “Firavun diyor ki, ‘Artık size saman vermeyeceğim."
+    },
+    {
+      "v": 11,
+      "text": "Gidin, nerede bulursanız oradan kendinize saman alın. Ancak işiniz hiç hafifletilmeyecek.’ ”"
+    },
+    {
+      "v": 12,
+      "text": "Böylece halk saman yerine anız toplamak üzere bütün Mısır'a dağıldı."
+    },
+    {
+      "v": 13,
+      "text": "Angaryacılar, “Saman verildiği günlerdeki gibi gündelik görevlerinizi eksiksiz yerine getirin” diyerek onlara baskı yapıyordu."
+    },
+    {
+      "v": 14,
+      "text": "Firavunun angaryacılarının atadığı İsrailli görevliler, “Niçin dün ve bugün daha önceki gibi gereken sayıda kerpiç yaptırmadınız?” diyerek dövüldüler."
+    },
+    {
+      "v": 15,
+      "text": "Bunun üzerine İsrailli görevliler firavunun yanına varıp yakındılar: “Neden kullarına böyle davranıyorsun?"
+    },
+    {
+      "v": 16,
+      "text": "Neden bize saman verilmediği halde, ‘Kerpiç yapın!’ deniyor? İşte kulların dövülüyor, oysa suçlu senin kendi halkındır.”"
+    },
+    {
+      "v": 17,
+      "text": "Firavun, “Tembelsiniz siz, tembel!” diye karşılık verdi, “Bu yüzden ‘Gidip RAB'be kurban keselim’ diyorsunuz."
+    },
+    {
+      "v": 18,
+      "text": "Haydi, işinizin başına dönün. Size saman verilmeyecek; yine de aynı sayıda kerpiç üreteceksiniz.”"
+    },
+    {
+      "v": 19,
+      "text": "Kendilerine, “Her gün üretmeniz gereken kerpiç sayısını azaltmayacaksınız” dendiğinde İsrailli görevliler zor durumda olduklarını anladılar."
+    },
+    {
+      "v": 20,
+      "text": "Firavunun yanından ayrılınca, kendilerini bekleyen Musa'yla Harun'a çıkıştılar."
+    },
+    {
+      "v": 21,
+      "text": "“RAB yaptığınızı görsün, cezanızı versin!” dediler, “Bizi firavunla görevlilerinin gözünde rezil ettiniz. Bizi öldürmeleri için ellerine bir kılıç verdiniz.”"
+    },
+    {
+      "section": "Tanrı Kurtuluş Sözü Veriyor"
+    },
+    {
+      "v": 22,
+      "text": "Musa RAB'be döndü ve, “Ya Rab, niçin bu halka kötü davrandın?” dedi, “Beni bunun için mi gönderdin?"
+    },
+    {
+      "v": 23,
+      "text": "Senin adına firavunla konuşmaya gittim gideli firavun bu halka kötü davranıyor. Sen de kendi halkını kurtarmak için hiçbir şey yapmadın.”"
+    }
+  ],
+  "title": "Musa'yla Harun Firavunun Huzurunda"
+}

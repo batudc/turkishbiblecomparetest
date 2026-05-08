@@ -1,1 +1,79 @@
-{"t":"TCL02","b":"EST","c":4,"content":[{"v":1,"text":"Mordekay olup bitenleri öğrenince giysilerini yırttı, çula sarınıp başından aşağı kül döktü, yüksek sesle ve acıyla feryat ederek kent merkezine geldi."},{"v":2,"text":"Varıp sarayın kapısında durdu. Çünkü çula sarınmış hiç kimse bu kapıdan içeri giremezdi."},{"v":3,"text":"Kralın buyruğunun ve fermanının ulaştığı her ilde Yahudiler büyük yas tuttular, ağlayıp feryat ettiler, oruç tuttular. Birçoğu da çula sarınıp kül içinde yattı."},{"v":4,"text":"Hizmetçileriyle haremağaları gelip Mordekay'ın durumunu anlatınca, Kraliçe Ester çok sarsıldı. Çulunu çıkartıp giyinmesi için Mordekay'a giysiler gönderdi, ama Mordekay bunları kabul etmedi."},{"v":5,"text":"Bunun üzerine Ester kralın kendi hizmetine atadığı haremağalarından biri olan Hatak'ı çağırttı; Mordekay'dan ne olup bittiğini ve nedenini öğrenmesini buyurdu."},{"v":6,"text":"Hatak saray kapısının açıldığı kent meydanına, Mordekay'ın yanına gitti."},{"v":7,"text":"Mordekay başına gelen her şeyi ona anlattı. Yahudiler'in yok edilmesi için Haman'ın saray hazinesine vaat ettiği paranın miktarını bile tam tamına ona bildirdi."},{"v":8,"text":"Ester'e gösterip açıklaması için Sus'ta yayımlanan, Yahudiler'in kökünün kurutulmasını isteyen fermanın bir kopyasını da ona verdi. Ester'in krala çıkmasını, ondan merhamet dileyip kendi halkı için yalvarmasını istedi."},{"v":9,"text":"Hatak geri dönüp Mordekay'ın söylediklerini Ester'e bildirdi."},{"v":10,"text":"Ester Mordekay'a şu haberi götürmesini buyurdu:"},{"v":11,"text":"“Kralın bütün adamları ve illerinde yaşayan halk biliyor ki, çağrılmadan sarayın iç avlusuna girip kralın yanına yaklaşan her erkek ya da kadın için tek bir ceza vardır. Kral altın asasını uzatıp canlarını bağışlamadıkça bu kişiler ölüme çarptırılır. Ben de otuz gündür kralın huzuruna çağrılmış değilim.”"},{"v":12,"text":"Ester'in bu sözleri kendisine iletilince,"},{"v":13,"text":"Mordekay ona şu yanıtı götürmelerini istedi: “Sarayda yaşadığın için bütün Yahudiler içinde kurtulacak tek kişinin sen olacağını sanma."},{"v":14,"text":"Şu anda susarsan, Yahudiler'e yardım ve kurtuluş başka yerden gelecektir; ama sen ve babanın ev halkı yok olacaksınız. Kim bilir, belki de böyle bir gün için kraliçe oldun.”"},{"v":15,"text":"Bunun üzerine Ester Mordekay'a şu yanıtı gönderdi:"},{"v":16,"text":"“Git, Sus'taki bütün Yahudiler'i topla; benim için oruç tutun; üç gün, üç gece hiçbir şey yemeyin, içmeyin. Hizmetçilerimle ben de sizin gibi oruç tutacağız. Ardından, kurala aykırı olduğu halde kralın huzuruna çıkacağım; ölürsem ölürüm.”"},{"v":17,"text":"Mordekay oradan ayrıldı ve Ester'in söylediği her şeyi yaptı."}]}
+{
+  "t": "TCL02",
+  "b": "EST",
+  "c": 4,
+  "content": [
+    {
+      "section": "Mordekay Ester'den Yardım İstiyor"
+    },
+    {
+      "v": 1,
+      "text": "Mordekay olup bitenleri öğrenince giysilerini yırttı, çula sarınıp başından aşağı kül döktü, yüksek sesle ve acıyla feryat ederek kent merkezine geldi."
+    },
+    {
+      "v": 2,
+      "text": "Varıp sarayın kapısında durdu. Çünkü çula sarınmış hiç kimse bu kapıdan içeri giremezdi."
+    },
+    {
+      "v": 3,
+      "text": "Kralın buyruğunun ve fermanının ulaştığı her ilde Yahudiler büyük yas tuttular, ağlayıp feryat ettiler, oruç tuttular. Birçoğu da çula sarınıp kül içinde yattı."
+    },
+    {
+      "v": 4,
+      "text": "Hizmetçileriyle haremağaları gelip Mordekay'ın durumunu anlatınca, Kraliçe Ester çok sarsıldı. Çulunu çıkartıp giyinmesi için Mordekay'a giysiler gönderdi, ama Mordekay bunları kabul etmedi."
+    },
+    {
+      "v": 5,
+      "text": "Bunun üzerine Ester kralın kendi hizmetine atadığı haremağalarından biri olan Hatak'ı çağırttı; Mordekay'dan ne olup bittiğini ve nedenini öğrenmesini buyurdu."
+    },
+    {
+      "v": 6,
+      "text": "Hatak saray kapısının açıldığı kent meydanına, Mordekay'ın yanına gitti."
+    },
+    {
+      "v": 7,
+      "text": "Mordekay başına gelen her şeyi ona anlattı. Yahudiler'in yok edilmesi için Haman'ın saray hazinesine vaat ettiği paranın miktarını bile tam tamına ona bildirdi."
+    },
+    {
+      "v": 8,
+      "text": "Ester'e gösterip açıklaması için Sus'ta yayımlanan, Yahudiler'in kökünün kurutulmasını isteyen fermanın bir kopyasını da ona verdi. Ester'in krala çıkmasını, ondan merhamet dileyip kendi halkı için yalvarmasını istedi."
+    },
+    {
+      "v": 9,
+      "text": "Hatak geri dönüp Mordekay'ın söylediklerini Ester'e bildirdi."
+    },
+    {
+      "v": 10,
+      "text": "Ester Mordekay'a şu haberi götürmesini buyurdu:"
+    },
+    {
+      "v": 11,
+      "text": "“Kralın bütün adamları ve illerinde yaşayan halk biliyor ki, çağrılmadan sarayın iç avlusuna girip kralın yanına yaklaşan her erkek ya da kadın için tek bir ceza vardır. Kral altın asasını uzatıp canlarını bağışlamadıkça bu kişiler ölüme çarptırılır. Ben de otuz gündür kralın huzuruna çağrılmış değilim.”"
+    },
+    {
+      "v": 12,
+      "text": "Ester'in bu sözleri kendisine iletilince,"
+    },
+    {
+      "v": 13,
+      "text": "Mordekay ona şu yanıtı götürmelerini istedi: “Sarayda yaşadığın için bütün Yahudiler içinde kurtulacak tek kişinin sen olacağını sanma."
+    },
+    {
+      "v": 14,
+      "text": "Şu anda susarsan, Yahudiler'e yardım ve kurtuluş başka yerden gelecektir; ama sen ve babanın ev halkı yok olacaksınız. Kim bilir, belki de böyle bir gün için kraliçe oldun.”"
+    },
+    {
+      "v": 15,
+      "text": "Bunun üzerine Ester Mordekay'a şu yanıtı gönderdi:"
+    },
+    {
+      "v": 16,
+      "text": "“Git, Sus'taki bütün Yahudiler'i topla; benim için oruç tutun; üç gün, üç gece hiçbir şey yemeyin, içmeyin. Hizmetçilerimle ben de sizin gibi oruç tutacağız. Ardından, kurala aykırı olduğu halde kralın huzuruna çıkacağım; ölürsem ölürüm.”"
+    },
+    {
+      "v": 17,
+      "text": "Mordekay oradan ayrıldı ve Ester'in söylediği her şeyi yaptı."
+    }
+  ],
+  "title": "Mordekay Ester'den Yardım İstiyor"
+}

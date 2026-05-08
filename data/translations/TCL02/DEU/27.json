@@ -1,1 +1,118 @@
-{"t":"TCL02","b":"DEU","c":27,"content":[{"v":1,"text":"Musa ile İsrail ileri gelenleri halka şöyle dediler: “Bugün size ilettiğim bütün buyruklara uyun."},{"v":2,"text":"Şeria Irmağı'ndan Tanrınız RAB'bin size vereceği ülkeye geçince, büyük taşlar dikip kireçleyeceksiniz."},{"v":3,"text":"Atalarınızın Tanrısı RAB'bin size verdiği söz uyarınca O'nun size vereceği ülkeye, süt ve bal akan ülkeye girince, bu yasanın bütün sözlerini taşlara yazacaksınız."},{"v":4,"text":"Şeria Irmağı'ndan geçince, bugün size buyurduğum gibi, bu taşları Eval Dağı'na dikip kireçleyeceksiniz."},{"v":5,"text":"Orada Tanrınız RAB'be taşlardan bir sunak yapacaksınız. Bu taşlara demir alet uygulamayacaksınız."},{"v":6,"text":"Tanrınız RAB'bin sunağını yontulmamış taşlardan yapacak, üzerinde Tanrınız RAB'be yakmalık sunular sunacaksınız."},{"v":7,"text":"Esenlik sunularını orada kesip yiyecek ve Tanrınız RAB'bin önünde sevineceksiniz."},{"v":8,"text":"Taşlara bu yasanın bütün sözlerini okunaklı bir biçimde yazacaksınız.”"},{"v":9,"text":"Sonra Musa ile Levili kâhinler bütün İsrailliler'e, “Ey İsrail, sus ve kulak ver!” diye seslendiler, “Bugün Tanrınız RAB'bin halkı oldunuz."},{"v":10,"text":"Tanrınız RAB'bin sözüne kulak verin, bugün size ilettiğim buyruklarına, kurallarına uyun.”"},{"v":11,"text":"O gün Musa halka şöyle dedi:"},{"v":12,"text":"“Şeria Irmağı'ndan geçince, halkı kutsamak için Gerizim Dağı'nda duracak oymaklar şunlardır: Şimon, Levi, Yahuda, İssakar, Yusuf, Benyamin."},{"v":13,"text":"Lanetlemek için Eval Dağı'nda şu oymaklar duracak: Ruben, Gad, Aşer, Zevulun, Dan, Naftali."},{"v":14,"text":"Levililer bütün İsrail halkına yüksek sesle şöyle diyecekler:"},{"v":15,"text":"“ ‘RAB'bin tiksindiği el işi oyma ya da dökme put yapana ve onu gizlice dikene lanet olsun!’  “Bütün halk, ‘Amin!’ diye karşılık verecek."},{"v":16,"text":"“ ‘Annesine, babasına saygısızca davranana lanet olsun!’  “Bütün halk, ‘Amin!’ diyecek."},{"v":17,"text":"“ ‘Komşusunun sınırını değiştirene lanet olsun!’  “Bütün halk, ‘Amin!’ diyecek."},{"v":18,"text":"“ ‘Kör olanı yoldan saptırana lanet olsun!’  “Bütün halk, ‘Amin!’ diyecek."},{"v":19,"text":"“ ‘Yabancıya, öksüze, dul kadına haksızlık edene lanet olsun!’  “Bütün halk, ‘Amin!’ diyecek."},{"v":20,"text":"“ ‘Babasının karısıyla yatana lanet olsun! Çünkü o babasının evlilik yatağına leke sürmüştür.’  “Bütün halk, ‘Amin!’ diyecek."},{"v":21,"text":"“ ‘Herhangi bir hayvanla cinsel ilişki kurana lanet olsun!’  “Bütün halk, ‘Amin!’ diyecek."},{"v":22,"text":"“ ‘Annesinden ya da babasından olan kızkardeşiyle yatana lanet olsun!’  “Bütün halk, ‘Amin!’ diyecek."},{"v":23,"text":"“ ‘Kaynanasıyla yatana lanet olsun!’  “Bütün halk, ‘Amin!’ diyecek."},{"v":24,"text":"“ ‘Komşusunu gizlice öldürene lanet olsun!’  “Bütün halk, ‘Amin!’ diyecek."},{"v":25,"text":"“ ‘Suçsuz birini öldürmek için rüşvet alana lanet olsun!’  “Bütün halk, ‘Amin!’ diyecek."},{"v":26,"text":"“ ‘Bu yasanın sözlerine uymayan ve onları onaylamayana lanet olsun!’  “Bütün halk, ‘Amin!’ diyecek.”"}]}
+{
+  "t": "TCL02",
+  "b": "DEU",
+  "c": 27,
+  "content": [
+    {
+      "section": "Eval Dağı'ndaki Sunak"
+    },
+    {
+      "v": 1,
+      "text": "Musa ile İsrail ileri gelenleri halka şöyle dediler: “Bugün size ilettiğim bütün buyruklara uyun."
+    },
+    {
+      "v": 2,
+      "text": "Şeria Irmağı'ndan Tanrınız RAB'bin size vereceği ülkeye geçince, büyük taşlar dikip kireçleyeceksiniz."
+    },
+    {
+      "v": 3,
+      "text": "Atalarınızın Tanrısı RAB'bin size verdiği söz uyarınca O'nun size vereceği ülkeye, süt ve bal akan ülkeye girince, bu yasanın bütün sözlerini taşlara yazacaksınız."
+    },
+    {
+      "v": 4,
+      "text": "Şeria Irmağı'ndan geçince, bugün size buyurduğum gibi, bu taşları Eval Dağı'na dikip kireçleyeceksiniz."
+    },
+    {
+      "v": 5,
+      "text": "Orada Tanrınız RAB'be taşlardan bir sunak yapacaksınız. Bu taşlara demir alet uygulamayacaksınız."
+    },
+    {
+      "v": 6,
+      "text": "Tanrınız RAB'bin sunağını yontulmamış taşlardan yapacak, üzerinde Tanrınız RAB'be yakmalık sunular sunacaksınız."
+    },
+    {
+      "v": 7,
+      "text": "Esenlik sunularını orada kesip yiyecek ve Tanrınız RAB'bin önünde sevineceksiniz."
+    },
+    {
+      "v": 8,
+      "text": "Taşlara bu yasanın bütün sözlerini okunaklı bir biçimde yazacaksınız.”"
+    },
+    {
+      "v": 9,
+      "text": "Sonra Musa ile Levili kâhinler bütün İsrailliler'e, “Ey İsrail, sus ve kulak ver!” diye seslendiler, “Bugün Tanrınız RAB'bin halkı oldunuz."
+    },
+    {
+      "v": 10,
+      "text": "Tanrınız RAB'bin sözüne kulak verin, bugün size ilettiğim buyruklarına, kurallarına uyun.”"
+    },
+    {
+      "section": "Eval Dağı'ndan Lanetler"
+    },
+    {
+      "v": 11,
+      "text": "O gün Musa halka şöyle dedi:"
+    },
+    {
+      "v": 12,
+      "text": "“Şeria Irmağı'ndan geçince, halkı kutsamak için Gerizim Dağı'nda duracak oymaklar şunlardır: Şimon, Levi, Yahuda, İssakar, Yusuf, Benyamin."
+    },
+    {
+      "v": 13,
+      "text": "Lanetlemek için Eval Dağı'nda şu oymaklar duracak: Ruben, Gad, Aşer, Zevulun, Dan, Naftali."
+    },
+    {
+      "v": 14,
+      "text": "Levililer bütün İsrail halkına yüksek sesle şöyle diyecekler:"
+    },
+    {
+      "v": 15,
+      "text": "“ ‘RAB'bin tiksindiği el işi oyma ya da dökme put yapana ve onu gizlice dikene lanet olsun!’  “Bütün halk, ‘Amin!’ diye karşılık verecek."
+    },
+    {
+      "v": 16,
+      "text": "“ ‘Annesine, babasına saygısızca davranana lanet olsun!’  “Bütün halk, ‘Amin!’ diyecek."
+    },
+    {
+      "v": 17,
+      "text": "“ ‘Komşusunun sınırını değiştirene lanet olsun!’  “Bütün halk, ‘Amin!’ diyecek."
+    },
+    {
+      "v": 18,
+      "text": "“ ‘Kör olanı yoldan saptırana lanet olsun!’  “Bütün halk, ‘Amin!’ diyecek."
+    },
+    {
+      "v": 19,
+      "text": "“ ‘Yabancıya, öksüze, dul kadına haksızlık edene lanet olsun!’  “Bütün halk, ‘Amin!’ diyecek."
+    },
+    {
+      "v": 20,
+      "text": "“ ‘Babasının karısıyla yatana lanet olsun! Çünkü o babasının evlilik yatağına leke sürmüştür.’  “Bütün halk, ‘Amin!’ diyecek."
+    },
+    {
+      "v": 21,
+      "text": "“ ‘Herhangi bir hayvanla cinsel ilişki kurana lanet olsun!’  “Bütün halk, ‘Amin!’ diyecek."
+    },
+    {
+      "v": 22,
+      "text": "“ ‘Annesinden ya da babasından olan kızkardeşiyle yatana lanet olsun!’  “Bütün halk, ‘Amin!’ diyecek."
+    },
+    {
+      "v": 23,
+      "text": "“ ‘Kaynanasıyla yatana lanet olsun!’  “Bütün halk, ‘Amin!’ diyecek."
+    },
+    {
+      "v": 24,
+      "text": "“ ‘Komşusunu gizlice öldürene lanet olsun!’  “Bütün halk, ‘Amin!’ diyecek."
+    },
+    {
+      "v": 25,
+      "text": "“ ‘Suçsuz birini öldürmek için rüşvet alana lanet olsun!’  “Bütün halk, ‘Amin!’ diyecek."
+    },
+    {
+      "v": 26,
+      "text": "“ ‘Bu yasanın sözlerine uymayan ve onları onaylamayana lanet olsun!’  “Bütün halk, ‘Amin!’ diyecek.”"
+    }
+  ],
+  "title": "Eval Dağı'ndaki Sunak"
+}

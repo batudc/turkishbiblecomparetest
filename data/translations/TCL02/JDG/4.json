@@ -1,1 +1,107 @@
-{"t":"TCL02","b":"JDG","c":4,"content":[{"v":1,"text":"Ehut'un ölümünden sonra İsrailliler yine RAB'bin gözünde kötü olanı yaptılar."},{"v":2,"text":"RAB de İsrailliler'i Hasor'da egemenlik süren Kenanlı kral Yavin'in eline teslim etti. Yavin'in Sisera adında bir ordu komutanı vardı; Haroşet-Goyim'de yaşardı."},{"v":3,"text":"Dokuz yüz demir savaş arabasına sahip olan Yavin, yirmi yıldır İsrailliler'i acımasızca eziyordu. Bu yüzden İsrailliler RAB'be yakardılar."},{"v":4,"text":"O sırada İsrail'i Lappidot'un karısı Peygamber Debora yönetiyordu."},{"v":5,"text":"Debora Efrayim'in dağlık bölgesinde, Rama ile Beytel arasındaki hurma ağacının altında oturur, kendisine gelen İsrailliler'in davalarına bakardı."},{"v":6,"text":"Debora bir gün adam gönderip Avinoam oğlu Barak'ı Kedeş-Naftali'den çağırttı. Ona, “İsrail'in Tanrısı RAB, yanına Naftali ve Zevulunoğulları'ndan on bin kişi alıp Tavor Dağı'na gitmeni buyuruyor” dedi,"},{"v":7,"text":"“RAB, ‘Kral Yavin'in ordu komutanı Sisera'yı, savaş arabalarını ve ordusunu Kişon Vadisi'ne, senin yanına çekip eline teslim edeceğim’ diyor.”"},{"v":8,"text":"Barak Debora'ya, “Eğer benimle gelirsen giderim” dedi, “Benimle gelmezsen gitmem.”"},{"v":9,"text":"Debora, “Seninle gelmesine gelirim, ama böyle bir yol tuttuğun için onurlandırılmayacaksın” dedi, “Çünkü RAB Sisera'yı bir kadının eline teslim etmiş olacak.” Böylece Debora kalkıp Barak'la birlikte Kedeş'e gitti."},{"v":10,"text":"Barak Zevulun ve Naftali oğullarını Kedeş'te topladı. Ardında on bin kişi vardı. Debora da onunla birlikte gitti."},{"v":11,"text":"Kenliler'den Hever, Musa'nın kayınbiraderi Hovav'ın torunlarından, yani Kenliler'den ayrılmış, çadırını Kedeş yakınında Saanannim'deki meşe ağacının yanına kurmuştu."},{"v":12,"text":"Avinoam oğlu Barak'ın Tavor Dağı'na çıktığını duyan Sisera,"},{"v":13,"text":"dokuz yüz demir arabasını ve yanındaki halkı Haroşet-Goyim'den çıkarıp Kişon Vadisi'nde topladı."},{"v":14,"text":"Debora Barak'a, “Haydi kalk! Çünkü RAB'bin Sisera'yı senin eline teslim ettiği gün bugündür” dedi, “RAB senin önünden gidiyor.” Bunun üzerine Barak ardında on bin kişiyle Tavor Dağı'ndan indi."},{"v":15,"text":"RAB, Sisera'yı, savaş arabalarını sürenleri ve ordusunu Barak'ın önünde şaşkına çevirerek bozguna uğrattı. Sisera savaş arabasından indi ve yaya olarak kaçtı."},{"v":16,"text":"Barak savaş arabalarını ve orduyu Haroşet-Goyim'e kadar kovaladı. Sisera'nın bütün ordusu kılıçtan geçirildi, tek kişi bile kurtulamadı."},{"v":17,"text":"Yaya olarak kaçan Sisera ise Kenliler'den Hever'in karısı Yael'in çadırına sığındı. Çünkü Hasor Kralı Yavin'le Kenliler'den Hever'in arası iyiydi."},{"v":18,"text":"Yael Sisera'yı karşılamaya çıktı. Ona, “Korkma, efendim, gel çadırıma sığın” dedi. Çadırına sığınan Sisera'nın üzerine bir yorgan örttü."},{"v":19,"text":"Sisera, “Susadım, lütfen biraz su ver de içeyim” dedi. Yael süt tulumunu açıp ona içirdikten sonra üzerini yine örttü."},{"v":20,"text":"Sisera kadına, “Çadırın kapısında dur” dedi, “Biri gelir de çadırda kimse var mı diye sorarsa, yok de.”"},{"v":21,"text":"Hever'in karısı Yael eline bir çadır kazığı ile tokmak aldı. Yorgunluktan derin bir uykuya dalmış olan Sisera'ya sessizce yaklaşarak kazığı şakağına dayadı ve yere saplanıncaya dek çaktı. Sisera hemen öldü."},{"v":22,"text":"Yael Sisera'yı kovalayan Barak'ı karşılamaya çıktı. “Gel, aradığın adamı sana göstereyim” dedi.  Barak kadını izledi ve şakağına kazık çakılmış Sisera'yı ölü buldu."},{"v":23,"text":"Böylece Tanrı o gün Kenanlı kral Yavin'i İsrailliler'in önünde bozguna uğrattı."},{"v":24,"text":"Giderek güçlenen İsrailliler sonunda Kenanlı kral Yavin'i ortadan kaldırdılar."}]}
+{
+  "t": "TCL02",
+  "b": "JDG",
+  "c": 4,
+  "content": [
+    {
+      "section": "Debora"
+    },
+    {
+      "v": 1,
+      "text": "Ehut'un ölümünden sonra İsrailliler yine RAB'bin gözünde kötü olanı yaptılar."
+    },
+    {
+      "v": 2,
+      "text": "RAB de İsrailliler'i Hasor'da egemenlik süren Kenanlı kral Yavin'in eline teslim etti. Yavin'in Sisera adında bir ordu komutanı vardı; Haroşet-Goyim'de yaşardı."
+    },
+    {
+      "v": 3,
+      "text": "Dokuz yüz demir savaş arabasına sahip olan Yavin, yirmi yıldır İsrailliler'i acımasızca eziyordu. Bu yüzden İsrailliler RAB'be yakardılar."
+    },
+    {
+      "v": 4,
+      "text": "O sırada İsrail'i Lappidot'un karısı Peygamber Debora yönetiyordu."
+    },
+    {
+      "v": 5,
+      "text": "Debora Efrayim'in dağlık bölgesinde, Rama ile Beytel arasındaki hurma ağacının altında oturur, kendisine gelen İsrailliler'in davalarına bakardı."
+    },
+    {
+      "v": 6,
+      "text": "Debora bir gün adam gönderip Avinoam oğlu Barak'ı Kedeş-Naftali'den çağırttı. Ona, “İsrail'in Tanrısı RAB, yanına Naftali ve Zevulunoğulları'ndan on bin kişi alıp Tavor Dağı'na gitmeni buyuruyor” dedi,"
+    },
+    {
+      "v": 7,
+      "text": "“RAB, ‘Kral Yavin'in ordu komutanı Sisera'yı, savaş arabalarını ve ordusunu Kişon Vadisi'ne, senin yanına çekip eline teslim edeceğim’ diyor.”"
+    },
+    {
+      "v": 8,
+      "text": "Barak Debora'ya, “Eğer benimle gelirsen giderim” dedi, “Benimle gelmezsen gitmem.”"
+    },
+    {
+      "v": 9,
+      "text": "Debora, “Seninle gelmesine gelirim, ama böyle bir yol tuttuğun için onurlandırılmayacaksın” dedi, “Çünkü RAB Sisera'yı bir kadının eline teslim etmiş olacak.” Böylece Debora kalkıp Barak'la birlikte Kedeş'e gitti."
+    },
+    {
+      "v": 10,
+      "text": "Barak Zevulun ve Naftali oğullarını Kedeş'te topladı. Ardında on bin kişi vardı. Debora da onunla birlikte gitti."
+    },
+    {
+      "v": 11,
+      "text": "Kenliler'den Hever, Musa'nın kayınbiraderi Hovav'ın torunlarından, yani Kenliler'den ayrılmış, çadırını Kedeş yakınında Saanannim'deki meşe ağacının yanına kurmuştu."
+    },
+    {
+      "v": 12,
+      "text": "Avinoam oğlu Barak'ın Tavor Dağı'na çıktığını duyan Sisera,"
+    },
+    {
+      "v": 13,
+      "text": "dokuz yüz demir arabasını ve yanındaki halkı Haroşet-Goyim'den çıkarıp Kişon Vadisi'nde topladı."
+    },
+    {
+      "v": 14,
+      "text": "Debora Barak'a, “Haydi kalk! Çünkü RAB'bin Sisera'yı senin eline teslim ettiği gün bugündür” dedi, “RAB senin önünden gidiyor.” Bunun üzerine Barak ardında on bin kişiyle Tavor Dağı'ndan indi."
+    },
+    {
+      "v": 15,
+      "text": "RAB, Sisera'yı, savaş arabalarını sürenleri ve ordusunu Barak'ın önünde şaşkına çevirerek bozguna uğrattı. Sisera savaş arabasından indi ve yaya olarak kaçtı."
+    },
+    {
+      "v": 16,
+      "text": "Barak savaş arabalarını ve orduyu Haroşet-Goyim'e kadar kovaladı. Sisera'nın bütün ordusu kılıçtan geçirildi, tek kişi bile kurtulamadı."
+    },
+    {
+      "v": 17,
+      "text": "Yaya olarak kaçan Sisera ise Kenliler'den Hever'in karısı Yael'in çadırına sığındı. Çünkü Hasor Kralı Yavin'le Kenliler'den Hever'in arası iyiydi."
+    },
+    {
+      "v": 18,
+      "text": "Yael Sisera'yı karşılamaya çıktı. Ona, “Korkma, efendim, gel çadırıma sığın” dedi. Çadırına sığınan Sisera'nın üzerine bir yorgan örttü."
+    },
+    {
+      "v": 19,
+      "text": "Sisera, “Susadım, lütfen biraz su ver de içeyim” dedi. Yael süt tulumunu açıp ona içirdikten sonra üzerini yine örttü."
+    },
+    {
+      "v": 20,
+      "text": "Sisera kadına, “Çadırın kapısında dur” dedi, “Biri gelir de çadırda kimse var mı diye sorarsa, yok de.”"
+    },
+    {
+      "v": 21,
+      "text": "Hever'in karısı Yael eline bir çadır kazığı ile tokmak aldı. Yorgunluktan derin bir uykuya dalmış olan Sisera'ya sessizce yaklaşarak kazığı şakağına dayadı ve yere saplanıncaya dek çaktı. Sisera hemen öldü."
+    },
+    {
+      "v": 22,
+      "text": "Yael Sisera'yı kovalayan Barak'ı karşılamaya çıktı. “Gel, aradığın adamı sana göstereyim” dedi.  Barak kadını izledi ve şakağına kazık çakılmış Sisera'yı ölü buldu."
+    },
+    {
+      "v": 23,
+      "text": "Böylece Tanrı o gün Kenanlı kral Yavin'i İsrailliler'in önünde bozguna uğrattı."
+    },
+    {
+      "v": 24,
+      "text": "Giderek güçlenen İsrailliler sonunda Kenanlı kral Yavin'i ortadan kaldırdılar."
+    }
+  ],
+  "title": "Debora"
+}

@@ -1,1 +1,93 @@
-{"t": "TCL02", "b": "MRK", "c": 16, "content": [{"v": 1, "text": "Şabat Günü geçince, Mecdelli Meryem, Yakup'un annesi Meryem ve Salome gidip İsa'nın cesedine sürmek üzere baharat satın aldılar."}, {"v": 2, "text": "Haftanın ilk günü sabah çok erkenden, güneşin doğuşuyla birlikte mezara gittiler."}, {"v": 3, "text": "Aralarında, “Mezarın girişindeki taşı bizim için kim yana yuvarlayacak?” diye konuşuyorlardı."}, {"v": 4, "text": "Başlarını kaldırıp bakınca, o kocaman taşın yana yuvarlanmış olduğunu gördüler."}, {"v": 5, "text": "Mezara girip sağ tarafta, beyaz kaftan giyinmiş genç bir adamın oturduğunu görünce çok şaşırdılar."}, {"v": 6, "text": "Adam onlara, “Şaşırmayın!” dedi. “Çarmıha gerilen Nasıralı İsa'yı arıyorsunuz. O dirildi, burada yok. İşte O'nu yatırdıkları yer."}, {"v": 7, "text": "Şimdi öğrencilerine ve Petrus'a gidip şöyle deyin: ‘İsa sizden önce Celile'ye gidiyor. Size bildirdiği gibi, kendisini orada göreceksiniz.’ ”"}, {"v": 8, "text": "Kadınlar mezardan çıkıp kaçtılar. Onları bir titreme, bir şaşkınlık almıştı. Korkularından kimseye bir şey söylemediler."}, {"v": 9, "text": "İsa, haftanın ilk günü sabah erkenden dirildiği zaman önce Mecdelli Meryem'e göründü. Ondan yedi cin kovmuştu."}, {"v": 10, "text": "Meryem gitti, İsa'yla bulunmuş olan, şimdiyse yas tutup gözyaşı döken öğrencilerine haberi verdi."}, {"v": 11, "text": "Ne var ki onlar, İsa'nın yaşadığını, Meryem'e göründüğünü duyunca inanmadılar."}, {"v": 12, "text": "Bundan sonra İsa kırlara doğru yürümekte olan öğrencilerinden ikisine değişik bir biçimde göründü."}, {"v": 13, "text": "Bunlar geri dönüp öbürlerine haber verdiler, ama öbürleri bunlara da inanmadılar."}, {"v": 14, "text": "İsa daha sonra, sofrada otururlarken Onbirler'e göründü. Onları imansızlıklarından ve yüreklerinin duygusuzluğundan ötürü azarladı. Çünkü kendisini diri görenlere inanmamışlardı."}, {"v": 15, "text": "İsa onlara şöyle buyurdu: “Dünyanın her yanına gidin, Müjde'yi bütün yaratılışa duyurun."}, {"v": 16, "text": "İman edip vaftiz olan kurtulacak, iman etmeyen ise hüküm giyecek."}, {"v": 17, "text": "İman edenlerle birlikte görülecek belirtiler şunlardır: Benim adımla cinleri kovacaklar, yeni dillerle konuşacaklar, yılanları elleriyle tutacaklar. Öldürücü bir zehir içseler bile, zarar görmeyecekler. Ellerini hastaların üzerine koyacaklar ve hastalar iyileşecek.”"}, {"v": 19, "text": "Rab İsa, onlara bu sözleri söyledikten sonra göğe alındı ve Tanrı'nın sağında oturdu."}, {"v": 20, "text": "Öğrencileri de gidip Tanrı sözünü her yere yaydılar. Rab onlarla birlikte çalışıyor, görülen belirtilerle sözünü doğruluyordu."}]}
+{
+  "t": "TCL02",
+  "b": "MRK",
+  "c": 16,
+  "content": [
+    {
+      "section": "İsa'nın Dirilişi"
+    },
+    {
+      "v": 1,
+      "text": "Şabat Günü geçince, Mecdelli Meryem, Yakup'un annesi Meryem ve Salome gidip İsa'nın cesedine sürmek üzere baharat satın aldılar."
+    },
+    {
+      "v": 2,
+      "text": "Haftanın ilk günü sabah çok erkenden, güneşin doğuşuyla birlikte mezara gittiler."
+    },
+    {
+      "v": 3,
+      "text": "Aralarında, “Mezarın girişindeki taşı bizim için kim yana yuvarlayacak?” diye konuşuyorlardı."
+    },
+    {
+      "v": 4,
+      "text": "Başlarını kaldırıp bakınca, o kocaman taşın yana yuvarlanmış olduğunu gördüler."
+    },
+    {
+      "v": 5,
+      "text": "Mezara girip sağ tarafta, beyaz kaftan giyinmiş genç bir adamın oturduğunu görünce çok şaşırdılar."
+    },
+    {
+      "v": 6,
+      "text": "Adam onlara, “Şaşırmayın!” dedi. “Çarmıha gerilen Nasıralı İsa'yı arıyorsunuz. O dirildi, burada yok. İşte O'nu yatırdıkları yer."
+    },
+    {
+      "v": 7,
+      "text": "Şimdi öğrencilerine ve Petrus'a gidip şöyle deyin: ‘İsa sizden önce Celile'ye gidiyor. Size bildirdiği gibi, kendisini orada göreceksiniz.’ ”"
+    },
+    {
+      "v": 8,
+      "text": "Kadınlar mezardan çıkıp kaçtılar. Onları bir titreme, bir şaşkınlık almıştı. Korkularından kimseye bir şey söylemediler."
+    },
+    {
+      "section": "İsa Öğrencilerine Görünüyor"
+    },
+    {
+      "v": 9,
+      "text": "İsa, haftanın ilk günü sabah erkenden dirildiği zaman önce Mecdelli Meryem'e göründü. Ondan yedi cin kovmuştu."
+    },
+    {
+      "v": 10,
+      "text": "Meryem gitti, İsa'yla bulunmuş olan, şimdiyse yas tutup gözyaşı döken öğrencilerine haberi verdi."
+    },
+    {
+      "v": 11,
+      "text": "Ne var ki onlar, İsa'nın yaşadığını, Meryem'e göründüğünü duyunca inanmadılar."
+    },
+    {
+      "v": 12,
+      "text": "Bundan sonra İsa kırlara doğru yürümekte olan öğrencilerinden ikisine değişik bir biçimde göründü."
+    },
+    {
+      "v": 13,
+      "text": "Bunlar geri dönüp öbürlerine haber verdiler, ama öbürleri bunlara da inanmadılar."
+    },
+    {
+      "v": 14,
+      "text": "İsa daha sonra, sofrada otururlarken Onbirler'e göründü. Onları imansızlıklarından ve yüreklerinin duygusuzluğundan ötürü azarladı. Çünkü kendisini diri görenlere inanmamışlardı."
+    },
+    {
+      "section": "İsa Öğrencilerini Bütün Dünyaya Gönderiyor"
+    },
+    {
+      "v": 15,
+      "text": "İsa onlara şöyle buyurdu: “Dünyanın her yanına gidin, Müjde'yi bütün yaratılışa duyurun."
+    },
+    {
+      "v": 16,
+      "text": "İman edip vaftiz olan kurtulacak, iman etmeyen ise hüküm giyecek."
+    },
+    {
+      "v": 17,
+      "text": "İman edenlerle birlikte görülecek belirtiler şunlardır: Benim adımla cinleri kovacaklar, yeni dillerle konuşacaklar, yılanları elleriyle tutacaklar. Öldürücü bir zehir içseler bile, zarar görmeyecekler. Ellerini hastaların üzerine koyacaklar ve hastalar iyileşecek.”"
+    },
+    {
+      "v": 19,
+      "text": "Rab İsa, onlara bu sözleri söyledikten sonra göğe alındı ve Tanrı'nın sağında oturdu."
+    },
+    {
+      "v": 20,
+      "text": "Öğrencileri de gidip Tanrı sözünü her yere yaydılar. Rab onlarla birlikte çalışıyor, görülen belirtilerle sözünü doğruluyordu."
+    }
+  ],
+  "title": "İsa'nın Dirilişi"
+}

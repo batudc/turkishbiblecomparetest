@@ -1,1 +1,55 @@
-{"t":"TCL02","b":"PSA","c":32,"content":[{"v":1,"text":"Ne mutlu isyanı bağışlanan, Günahı örtülen insana!"},{"v":2,"text":"Suçu RAB tarafından sayılmayan, Ruhunda hile bulunmayan insana ne mutlu!"},{"v":3,"text":"Sustuğum sürece Kemiklerim eridi, Gün boyu inlemekten."},{"v":4,"text":"Çünkü gece gündüz Elin üzerimde ağırlaştı. Dermanım tükendi yaz sıcağında gibi. Sela"},{"v":5,"text":"Günahımı açıkladım sana, Suçumu gizlemedim. “RAB'be isyanımı itiraf edeceğim” deyince, Günahımı, suçumu bağışladın. Sela"},{"v":6,"text":"Bu nedenle her sadık kulun Ulaşılır olduğun zaman sana dua etsin. Engin sular taşsa bile ona erişemez."},{"v":7,"text":"Sığınağım sensin, Beni sıkıntıdan korur, Çevremi kurtuluş ilahileriyle kuşatırsın. Sela"},{"v":8,"text":"Eğiteceğim seni, gideceğin yolu göstereceğim, Öğüt vereceğim sana, Gözüm sendedir."},{"v":9,"text":"At ya da katır gibi anlayışsız olmayın; Onları idare etmek için gem ve dizgin gerekir, Yoksa sana yaklaşmazlar."},{"v":10,"text":"Kötülerin acısı çoktur, Ama RAB'be güvenenleri O'nun sevgisi kuşatır."},{"v":11,"text":"Ey doğru insanlar, sevinç kaynağınız RAB olsun, coşun; Ey yüreği temiz olanlar, Hepiniz sevinç çığlıkları atın!"}]}
+{
+  "t": "TCL02",
+  "b": "PSA",
+  "c": 32,
+  "content": [
+    {
+      "section": "32. Mezmur"
+    },
+    {
+      "v": 1,
+      "text": "Ne mutlu isyanı bağışlanan, Günahı örtülen insana!"
+    },
+    {
+      "v": 2,
+      "text": "Suçu RAB tarafından sayılmayan, Ruhunda hile bulunmayan insana ne mutlu!"
+    },
+    {
+      "v": 3,
+      "text": "Sustuğum sürece Kemiklerim eridi, Gün boyu inlemekten."
+    },
+    {
+      "v": 4,
+      "text": "Çünkü gece gündüz Elin üzerimde ağırlaştı. Dermanım tükendi yaz sıcağında gibi. Sela"
+    },
+    {
+      "v": 5,
+      "text": "Günahımı açıkladım sana, Suçumu gizlemedim. “RAB'be isyanımı itiraf edeceğim” deyince, Günahımı, suçumu bağışladın. Sela"
+    },
+    {
+      "v": 6,
+      "text": "Bu nedenle her sadık kulun Ulaşılır olduğun zaman sana dua etsin. Engin sular taşsa bile ona erişemez."
+    },
+    {
+      "v": 7,
+      "text": "Sığınağım sensin, Beni sıkıntıdan korur, Çevremi kurtuluş ilahileriyle kuşatırsın. Sela"
+    },
+    {
+      "v": 8,
+      "text": "Eğiteceğim seni, gideceğin yolu göstereceğim, Öğüt vereceğim sana, Gözüm sendedir."
+    },
+    {
+      "v": 9,
+      "text": "At ya da katır gibi anlayışsız olmayın; Onları idare etmek için gem ve dizgin gerekir, Yoksa sana yaklaşmazlar."
+    },
+    {
+      "v": 10,
+      "text": "Kötülerin acısı çoktur, Ama RAB'be güvenenleri O'nun sevgisi kuşatır."
+    },
+    {
+      "v": 11,
+      "text": "Ey doğru insanlar, sevinç kaynağınız RAB olsun, coşun; Ey yüreği temiz olanlar, Hepiniz sevinç çığlıkları atın!"
+    }
+  ],
+  "title": "32. Mezmur"
+}

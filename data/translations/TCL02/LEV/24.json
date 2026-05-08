@@ -1,1 +1,109 @@
-{"t":"TCL02","b":"LEV","c":24,"content":[{"v":1,"text":"RAB Musa'ya şöyle dedi:"},{"v":2,"text":"“İsrail halkına buyruk ver, kandilin sürekli yanıp ışık vermesi için saf sıkma zeytinyağı getirsinler."},{"v":3,"text":"Harun kandilleri benim huzurumda, Buluşma Çadırı'nda, Levha Sandığı'nın önündeki perdenin dışında, akşamdan sabaha kadar sürekli yanar biçimde tutacak. Kuşaklar boyunca sürekli bir kural olacak bu."},{"v":4,"text":"RAB'bin huzurunda saf altın kandillikteki kandiller sürekli yanacaktır.”"},{"v":5,"text":"“İnce undan on iki pide pişireceksin. Her biri efanın onda ikisi ağırlığında olacak."},{"v":6,"text":"Bunları RAB'bin huzurunda iki sıra halinde, altışar altışar saf altın masanın üzerine dizeceksin."},{"v":7,"text":"İki sıra ekmeğin yanına anma payı olarak saf günnük koyacaksın. Bu RAB için yakılan sunu olacak ve ekmeğin yerini alacak."},{"v":8,"text":"Bu ekmek, İsrail halkı adına sonsuza dek sürecek bir antlaşma olarak, her Şabat Günü aksatılmadan RAB'bin huzurunda dizilecek."},{"v":9,"text":"Ve Harun'la oğullarına ait olacak. Onu kutsal bir yerde yiyecekler. Çünkü çok kutsaldır. RAB için yakılan sunulardan onların sürekli bir payı olacak.”"},{"v":10,"text":"İsrailliler arasında annesi İsrailli babası Mısırlı bir adam vardı. Ordugahta onunla bir İsrailli arasında kavga çıktı."},{"v":11,"text":"İsrailli kadının oğlu RAB'be sövdü, lanet etti. Onu Musa'ya getirdiler. Annesi Dan oymağından Divri'nin kızı Şelomit'ti."},{"v":12,"text":"Adamı göz altına alıp RAB'bin kararını beklediler."},{"v":13,"text":"RAB Musa'ya şöyle dedi:"},{"v":14,"text":"“Onu ordugahın dışına çıkar. Ettiği laneti duyan herkes elini adamın başına koysun ve bütün topluluk onu taşlasın."},{"v":15,"text":"İsrail halkına de ki, ‘Kim Tanrısı'na lanet ederse günahının cezasını çekecektir."},{"v":16,"text":"RAB'be söven kesinlikle öldürülecektir. Bütün topluluk onu taşlayacak. İster yerli ister yabancı olsun, RAB'be söven herkes öldürülecektir."},{"v":17,"text":"“ ‘Adam öldüren kesinlikle öldürülecektir."},{"v":18,"text":"Başkasının hayvanını öldüren, yerine bir hayvan vererek aldığı canın karşılığını canla ödeyecektir."},{"v":19,"text":"Kim komşusunu yaralarsa, kendisine de aynı şey yapılacaktır."},{"v":20,"text":"Kırığa karşılık kırık, göze göz, dişe diş olmak üzere, ona ne yaptıysa kendisine de aynı şey yapılacaktır."},{"v":21,"text":"Hayvan öldüren yerine bir hayvan verecek, adam öldüren öldürülecektir."},{"v":22,"text":"Yerli yabancı herkes için tek bir yasanız olacak. Tanrınız RAB benim.’ ”"},{"v":23,"text":"Musa bunları İsrail halkına bildirdikten sonra, halk RAB'be lanet eden adamı ordugahın dışına çıkardı ve taşlayarak öldürdü. Böylece İsrail halkı RAB'bin Musa'ya verdiği buyruğu yerine getirmiş oldu."}]}
+{
+  "t": "TCL02",
+  "b": "LEV",
+  "c": 24,
+  "content": [
+    {
+      "section": "Rab'bin Huzurunda Yanan Işık"
+    },
+    {
+      "v": 1,
+      "text": "RAB Musa'ya şöyle dedi:"
+    },
+    {
+      "v": 2,
+      "text": "“İsrail halkına buyruk ver, kandilin sürekli yanıp ışık vermesi için saf sıkma zeytinyağı getirsinler."
+    },
+    {
+      "v": 3,
+      "text": "Harun kandilleri benim huzurumda, Buluşma Çadırı'nda, Levha Sandığı'nın önündeki perdenin dışında, akşamdan sabaha kadar sürekli yanar biçimde tutacak. Kuşaklar boyunca sürekli bir kural olacak bu."
+    },
+    {
+      "v": 4,
+      "text": "RAB'bin huzurunda saf altın kandillikteki kandiller sürekli yanacaktır.”"
+    },
+    {
+      "section": "Rab'be Sunulan Ekmek"
+    },
+    {
+      "v": 5,
+      "text": "“İnce undan on iki pide pişireceksin. Her biri efanın onda ikisi ağırlığında olacak."
+    },
+    {
+      "v": 6,
+      "text": "Bunları RAB'bin huzurunda iki sıra halinde, altışar altışar saf altın masanın üzerine dizeceksin."
+    },
+    {
+      "v": 7,
+      "text": "İki sıra ekmeğin yanına anma payı olarak saf günnük koyacaksın. Bu RAB için yakılan sunu olacak ve ekmeğin yerini alacak."
+    },
+    {
+      "v": 8,
+      "text": "Bu ekmek, İsrail halkı adına sonsuza dek sürecek bir antlaşma olarak, her Şabat Günü aksatılmadan RAB'bin huzurunda dizilecek."
+    },
+    {
+      "v": 9,
+      "text": "Ve Harun'la oğullarına ait olacak. Onu kutsal bir yerde yiyecekler. Çünkü çok kutsaldır. RAB için yakılan sunulardan onların sürekli bir payı olacak.”"
+    },
+    {
+      "section": "Tanrı'ya Lanet Edenin Sonu"
+    },
+    {
+      "v": 10,
+      "text": "İsrailliler arasında annesi İsrailli babası Mısırlı bir adam vardı. Ordugahta onunla bir İsrailli arasında kavga çıktı."
+    },
+    {
+      "v": 11,
+      "text": "İsrailli kadının oğlu RAB'be sövdü, lanet etti. Onu Musa'ya getirdiler. Annesi Dan oymağından Divri'nin kızı Şelomit'ti."
+    },
+    {
+      "v": 12,
+      "text": "Adamı göz altına alıp RAB'bin kararını beklediler."
+    },
+    {
+      "v": 13,
+      "text": "RAB Musa'ya şöyle dedi:"
+    },
+    {
+      "v": 14,
+      "text": "“Onu ordugahın dışına çıkar. Ettiği laneti duyan herkes elini adamın başına koysun ve bütün topluluk onu taşlasın."
+    },
+    {
+      "v": 15,
+      "text": "İsrail halkına de ki, ‘Kim Tanrısı'na lanet ederse günahının cezasını çekecektir."
+    },
+    {
+      "v": 16,
+      "text": "RAB'be söven kesinlikle öldürülecektir. Bütün topluluk onu taşlayacak. İster yerli ister yabancı olsun, RAB'be söven herkes öldürülecektir."
+    },
+    {
+      "v": 17,
+      "text": "“ ‘Adam öldüren kesinlikle öldürülecektir."
+    },
+    {
+      "v": 18,
+      "text": "Başkasının hayvanını öldüren, yerine bir hayvan vererek aldığı canın karşılığını canla ödeyecektir."
+    },
+    {
+      "v": 19,
+      "text": "Kim komşusunu yaralarsa, kendisine de aynı şey yapılacaktır."
+    },
+    {
+      "v": 20,
+      "text": "Kırığa karşılık kırık, göze göz, dişe diş olmak üzere, ona ne yaptıysa kendisine de aynı şey yapılacaktır."
+    },
+    {
+      "v": 21,
+      "text": "Hayvan öldüren yerine bir hayvan verecek, adam öldüren öldürülecektir."
+    },
+    {
+      "v": 22,
+      "text": "Yerli yabancı herkes için tek bir yasanız olacak. Tanrınız RAB benim.’ ”"
+    },
+    {
+      "v": 23,
+      "text": "Musa bunları İsrail halkına bildirdikten sonra, halk RAB'be lanet eden adamı ordugahın dışına çıkardı ve taşlayarak öldürdü. Böylece İsrail halkı RAB'bin Musa'ya verdiği buyruğu yerine getirmiş oldu."
+    }
+  ],
+  "title": "Rab'bin Huzurunda Yanan Işık"
+}

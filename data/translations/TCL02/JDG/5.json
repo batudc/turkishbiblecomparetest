@@ -1,1 +1,135 @@
-{"t":"TCL02","b":"JDG","c":5,"content":[{"v":1,"text":"Debora ile Avinoam oğlu Barak o gün şu ezgiyi söylediler:"},{"v":2,"text":"“İsrail'in önderleri başı çekince, Halk gönüllü olarak savaşınca RAB'be övgüler sunun."},{"v":3,"text":"Dinleyin, ey krallar! Ey yönetenler, kulak verin! RAB'be ezgiler söyleyip İsrail'in Tanrısı RAB'bi ilahilerle öveceğim."},{"v":4,"text":"Seir'den çıktığında, ya RAB, Edom kırlarından geçtiğinde, Yer sarsıldı, göklerden yağmur boşandı, Evet, bulutlar yağmur yağdırdı."},{"v":5,"text":"Sina Dağı'nda olan RAB'bin, İsrail'in Tanrısı RAB'bin önünde Dağlar sarsıldı."},{"v":6,"text":"Anat oğlu Şamgar zamanında, Yael zamanında kervanların ardı kesildi. Yolcular sapa yollardan gider oldu."},{"v":7,"text":"Bomboştu İsrail'in köyleri, Ben İsrail'de ana olarak ortaya çıkıncaya dek, Ben Debora ortaya çıkıncaya dek İsrail'in köyleri bomboştu."},{"v":8,"text":"Yeni ilahlar seçtikleri zaman Savaş kentin kapılarına dayandı. İsrail'deki kırk bin askerin elinde Ne kalkan ne de mızrak vardı."},{"v":9,"text":"Yüreğim İsrail'i yönetenlerle Ve halkın arasındaki gönüllülerledir. RAB'be övgüler sunun!"},{"v":10,"text":"Ey semerleri pahalı boz eşeklere binenler, Ey yoldan yaya gidenler, dinleyin!"},{"v":11,"text":"Kuyu başındaki kalabalıklar RAB'bin zaferlerini, İsrail savaşçılarının zaferlerini anlatıyorlar. Ardından RAB'bin halkı kent kapılarına Akın etmeye başladı."},{"v":12,"text":"Uyan, uyan Debora, uyan uyan! Söyle, ezgiler söyle! Ey Avinoam oğlu Barak, Kalk, götür tutsaklarını."},{"v":13,"text":"Geriye kalanlar soyluların yanına geldi, RAB'bin halkı yiğitleriyle bana geldi."},{"v":14,"text":"Amalek kökünden olanlar Efrayim'den geldi, Benyaminliler de seni izleyenlerin arasındaydı. Yöneticiler Makir'den, Başbuğ asasını taşıyanlar Zevulun'dan geldi."},{"v":15,"text":"Debora'yla birlikteydi İssakar'ın beyleri. Evet, İssakaroğulları da Barak'ın ardından Hızla ovaya indi. Ama Ruben oymağının bölükleri Büyük bir kararsızlık içindeydi."},{"v":16,"text":"Sürülerine kaval çalan çobanları Dinlemek için neden ağıllarda kaldılar? Evet, Ruben oymağının bölükleri Büyük bir kararsızlık içindeydi."},{"v":17,"text":"Gilatlılar Şeria Irmağı'nın ötesinde kaldı, Dan oymağıysa gemilerde oyalandı. Aşer oymağı deniz kıyısında dinlendi, Koylarda yan gelip oturdu."},{"v":18,"text":"Ama Zevulun ve Naftali halkları Tehlikeye attılar canlarını savaş alanında."},{"v":19,"text":"Taanak'ta ve Megiddo sularının kıyısında Krallar gelip savaştılar. Kenan kralları da savaştı. Ancak ne gümüş ne ganimet aldılar."},{"v":20,"text":"Yıldızlar göklerden savaşa katıldı. Göğü bir baştan öbür başa geçerken, Sisera'ya karşı savaştı."},{"v":21,"text":"Kişon Irmağı, o eski ırmak, Süpürüp götürdü onları. Yürü, ey ruhum, üzerlerine güçle yürü!"},{"v":22,"text":"O zaman atlar dörtnala koştu. Güçlü atların toynakları Yerde izler bıraktı."},{"v":23,"text":"RAB'bin meleği, ‘Meroz Kenti'ni lanetleyin’ dedi, ‘Halkına lanetler yağdırın. Çünkü RAB'bin yardımına, Zorbalara karşı RAB'bin yardımına koşmadılar.’"},{"v":24,"text":"Kenliler'den Hever'in karısı Yael Kadınlar arasında alabildiğine kutsansın. Çadırlarda yaşayan kadınlar arasında Alabildiğine kutsansın."},{"v":25,"text":"Sisera su istedi, Yael ona süt verdi. Soylulara yaraşır bir çanakla ayran sundu."},{"v":26,"text":"Sol eline çadır kazığını, Sağ eline işçi tokmağını aldı. Vurdu, Sisera'nın başını ezdi. Şakağına çaktı kazığı, deldi geçirdi."},{"v":27,"text":"Ayaklarının dibine çöktü, Yere serildi Sisera. Düşüp yığıldı Yael'in ayakları dibine, Yığıldığı yerde cansız kaldı."},{"v":28,"text":"Sisera'nın annesi parmaklıkların ardından, Pencereden bakıp feryat etti: ‘Oğlumun savaş arabası Neden bu kadar gecikti, Nal sesleri neden duyulmuyor?’"},{"v":29,"text":"Bilge kadınlar onu yanıtladılar. O da şöyle düşündü:"},{"v":30,"text":"‘Ganimeti bulmuş, paylaşıyor olmalılar. Her yiğide bir ya da iki kız, Sisera'ya ganimet olarak rengarenk giysiler, Evet, işlemeli, rengarenk giysiler. Yağmacıların boyunları için İki yanı işlemeli renkli giysiler, Hepsi ganimet.’"},{"v":31,"text":"Ya RAB, bütün düşmanların böyle yok olsun. Seni sevenlerse, Bütün gücüyle doğan güneş gibi olsunlar.”  Bundan sonra ülke kırk yıl barış içinde yaşadı."}]}
+{
+  "t": "TCL02",
+  "b": "JDG",
+  "c": 5,
+  "content": [
+    {
+      "section": "Debora'nın Ezgisi"
+    },
+    {
+      "v": 1,
+      "text": "Debora ile Avinoam oğlu Barak o gün şu ezgiyi söylediler:"
+    },
+    {
+      "v": 2,
+      "text": "“İsrail'in önderleri başı çekince, Halk gönüllü olarak savaşınca RAB'be övgüler sunun."
+    },
+    {
+      "v": 3,
+      "text": "Dinleyin, ey krallar! Ey yönetenler, kulak verin! RAB'be ezgiler söyleyip İsrail'in Tanrısı RAB'bi ilahilerle öveceğim."
+    },
+    {
+      "v": 4,
+      "text": "Seir'den çıktığında, ya RAB, Edom kırlarından geçtiğinde, Yer sarsıldı, göklerden yağmur boşandı, Evet, bulutlar yağmur yağdırdı."
+    },
+    {
+      "v": 5,
+      "text": "Sina Dağı'nda olan RAB'bin, İsrail'in Tanrısı RAB'bin önünde Dağlar sarsıldı."
+    },
+    {
+      "v": 6,
+      "text": "Anat oğlu Şamgar zamanında, Yael zamanında kervanların ardı kesildi. Yolcular sapa yollardan gider oldu."
+    },
+    {
+      "v": 7,
+      "text": "Bomboştu İsrail'in köyleri, Ben İsrail'de ana olarak ortaya çıkıncaya dek, Ben Debora ortaya çıkıncaya dek İsrail'in köyleri bomboştu."
+    },
+    {
+      "v": 8,
+      "text": "Yeni ilahlar seçtikleri zaman Savaş kentin kapılarına dayandı. İsrail'deki kırk bin askerin elinde Ne kalkan ne de mızrak vardı."
+    },
+    {
+      "v": 9,
+      "text": "Yüreğim İsrail'i yönetenlerle Ve halkın arasındaki gönüllülerledir. RAB'be övgüler sunun!"
+    },
+    {
+      "v": 10,
+      "text": "Ey semerleri pahalı boz eşeklere binenler, Ey yoldan yaya gidenler, dinleyin!"
+    },
+    {
+      "v": 11,
+      "text": "Kuyu başındaki kalabalıklar RAB'bin zaferlerini, İsrail savaşçılarının zaferlerini anlatıyorlar. Ardından RAB'bin halkı kent kapılarına Akın etmeye başladı."
+    },
+    {
+      "v": 12,
+      "text": "Uyan, uyan Debora, uyan uyan! Söyle, ezgiler söyle! Ey Avinoam oğlu Barak, Kalk, götür tutsaklarını."
+    },
+    {
+      "v": 13,
+      "text": "Geriye kalanlar soyluların yanına geldi, RAB'bin halkı yiğitleriyle bana geldi."
+    },
+    {
+      "v": 14,
+      "text": "Amalek kökünden olanlar Efrayim'den geldi, Benyaminliler de seni izleyenlerin arasındaydı. Yöneticiler Makir'den, Başbuğ asasını taşıyanlar Zevulun'dan geldi."
+    },
+    {
+      "v": 15,
+      "text": "Debora'yla birlikteydi İssakar'ın beyleri. Evet, İssakaroğulları da Barak'ın ardından Hızla ovaya indi. Ama Ruben oymağının bölükleri Büyük bir kararsızlık içindeydi."
+    },
+    {
+      "v": 16,
+      "text": "Sürülerine kaval çalan çobanları Dinlemek için neden ağıllarda kaldılar? Evet, Ruben oymağının bölükleri Büyük bir kararsızlık içindeydi."
+    },
+    {
+      "v": 17,
+      "text": "Gilatlılar Şeria Irmağı'nın ötesinde kaldı, Dan oymağıysa gemilerde oyalandı. Aşer oymağı deniz kıyısında dinlendi, Koylarda yan gelip oturdu."
+    },
+    {
+      "v": 18,
+      "text": "Ama Zevulun ve Naftali halkları Tehlikeye attılar canlarını savaş alanında."
+    },
+    {
+      "v": 19,
+      "text": "Taanak'ta ve Megiddo sularının kıyısında Krallar gelip savaştılar. Kenan kralları da savaştı. Ancak ne gümüş ne ganimet aldılar."
+    },
+    {
+      "v": 20,
+      "text": "Yıldızlar göklerden savaşa katıldı. Göğü bir baştan öbür başa geçerken, Sisera'ya karşı savaştı."
+    },
+    {
+      "v": 21,
+      "text": "Kişon Irmağı, o eski ırmak, Süpürüp götürdü onları. Yürü, ey ruhum, üzerlerine güçle yürü!"
+    },
+    {
+      "v": 22,
+      "text": "O zaman atlar dörtnala koştu. Güçlü atların toynakları Yerde izler bıraktı."
+    },
+    {
+      "v": 23,
+      "text": "RAB'bin meleği, ‘Meroz Kenti'ni lanetleyin’ dedi, ‘Halkına lanetler yağdırın. Çünkü RAB'bin yardımına, Zorbalara karşı RAB'bin yardımına koşmadılar.’"
+    },
+    {
+      "v": 24,
+      "text": "Kenliler'den Hever'in karısı Yael Kadınlar arasında alabildiğine kutsansın. Çadırlarda yaşayan kadınlar arasında Alabildiğine kutsansın."
+    },
+    {
+      "v": 25,
+      "text": "Sisera su istedi, Yael ona süt verdi. Soylulara yaraşır bir çanakla ayran sundu."
+    },
+    {
+      "v": 26,
+      "text": "Sol eline çadır kazığını, Sağ eline işçi tokmağını aldı. Vurdu, Sisera'nın başını ezdi. Şakağına çaktı kazığı, deldi geçirdi."
+    },
+    {
+      "v": 27,
+      "text": "Ayaklarının dibine çöktü, Yere serildi Sisera. Düşüp yığıldı Yael'in ayakları dibine, Yığıldığı yerde cansız kaldı."
+    },
+    {
+      "v": 28,
+      "text": "Sisera'nın annesi parmaklıkların ardından, Pencereden bakıp feryat etti: ‘Oğlumun savaş arabası Neden bu kadar gecikti, Nal sesleri neden duyulmuyor?’"
+    },
+    {
+      "v": 29,
+      "text": "Bilge kadınlar onu yanıtladılar. O da şöyle düşündü:"
+    },
+    {
+      "v": 30,
+      "text": "‘Ganimeti bulmuş, paylaşıyor olmalılar. Her yiğide bir ya da iki kız, Sisera'ya ganimet olarak rengarenk giysiler, Evet, işlemeli, rengarenk giysiler. Yağmacıların boyunları için İki yanı işlemeli renkli giysiler, Hepsi ganimet.’"
+    },
+    {
+      "v": 31,
+      "text": "Ya RAB, bütün düşmanların böyle yok olsun. Seni sevenlerse, Bütün gücüyle doğan güneş gibi olsunlar.”  Bundan sonra ülke kırk yıl barış içinde yaşadı."
+    }
+  ],
+  "title": "Debora'nın Ezgisi"
+}

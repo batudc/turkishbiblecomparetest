@@ -1,1 +1,91 @@
-{"t":"TCL02","b":"DEU","c":8,"content":[{"v":1,"text":"“Bugün size bildirdiğim buyruklara tam tamına uyun ki, yaşayasınız, çoğalasınız ve gidip RAB'bin atalarınıza ant içerek söz verdiği ülkeyi mülk edinesiniz."},{"v":2,"text":"Tanrınız RAB'bin sizi kırk yıl boyunca çölde dolaştırdığı uzun yolculuğu anımsayın! Buyruklarına uyup uymayacağınızı, amacınızın ne olduğunu öğrenmek için sizi sıkıntılara sokarak sınadı."},{"v":3,"text":"Sizi aç bırakarak sıkıntıya soktu. Sonra sizin de atalarınızın da bilmediği man ile sizi doyurdu. İnsanın yalnız ekmekle yaşamadığını, RAB'bin ağzından çıkan her sözle yaşadığını size öğretmek için yaptı bunu."},{"v":4,"text":"Kırk yıl ne giysileriniz eskidi, ne de ayaklarınız şişti."},{"v":5,"text":"Tanrınız RAB'bin, çocuğunu eğiten bir baba gibi, sizi nasıl eğittiğini anlayın."},{"v":6,"text":"“Onun için, Tanrınız RAB'bin buyruklarına uyun. Yollarında yürüyün, O'ndan korkun."},{"v":7,"text":"Tanrınız RAB sizi verimli bir ülkeye götürüyor. Öyle bir ülke ki, ırmakları, pınarları, derelerden tepelerden çıkan su kaynakları vardır;"},{"v":8,"text":"buğdayı, arpası, üzümü, inciri, narı, zeytinyağı, balı vardır."},{"v":9,"text":"Sıkıntısız ekmek yiyebileceğiniz, hiçbir şeye gereksinim duymayacağınız bir ülkedir. Öyle bir ülke ki, kayaları demirdir, dağlarından bakır çıkarabilirsiniz."},{"v":10,"text":"“Yiyip doyunca, size verdiği verimli ülke için Tanrınız RAB'be övgüler sunun."},{"v":11,"text":"Tanrınız RAB'bi unutmamaya dikkat edin. Bugün size bildirdiğim buyruklarını, ilkelerini, kurallarını savsaklamayın."},{"v":12,"text":"Yiyip doyduğunuzda, güzel evler yapıp yerleştiğinizde,"},{"v":13,"text":"sığırlarınız, davarlarınız çoğaldığında, altınınız, gümüşünüz ve her şeyiniz arttığında,"},{"v":14,"text":"böbürlenmemeye ve sizi Mısır'dan, köle olduğunuz ülkeden çıkaran Tanrınız RAB'bi unutmamaya dikkat edin."},{"v":15,"text":"RAB o büyük ve korkunç çölde, zehirli yılanlarla, akreplerle dolu o kurak, susuz toprakta sizi yürüttü. Size sert kayadan su çıkardı."},{"v":16,"text":"Atalarınızın bilmediği man ile sizi çölde doyurdu. Sizi sıkıntıya soktu, sınadı. Öyle ki, sonunda üzerinize iyilik gelsin."},{"v":17,"text":"‘Bu serveti toplayan kendi yeteneğimiz, güçlü elimizdir’ diye düşünebilirsiniz."},{"v":18,"text":"Ancak bu serveti toplama yeteneğini size verenin Tanrınız RAB olduğunu anımsayın. Atalarınıza ant içerek yaptığı antlaşmayı sürdürmek amacıyla bugün de bunu yapıyor."},{"v":19,"text":"“Tanrınız RAB'bi unutur, başka ilahların ardınca giderseniz, onlara tapar, önlerinde yere kapanırsanız, bugün size açıkça belirtirim ki, tamamen yok olacaksınız."},{"v":20,"text":"Tanrınız RAB önünüzden ulusları yok ettiği gibi, sözüne kulak vermediğiniz için sizi de yok edecek."}]}
+{
+  "t": "TCL02",
+  "b": "DEU",
+  "c": 8,
+  "content": [
+    {
+      "section": "Rab'bi Unutmayın"
+    },
+    {
+      "v": 1,
+      "text": "“Bugün size bildirdiğim buyruklara tam tamına uyun ki, yaşayasınız, çoğalasınız ve gidip RAB'bin atalarınıza ant içerek söz verdiği ülkeyi mülk edinesiniz."
+    },
+    {
+      "v": 2,
+      "text": "Tanrınız RAB'bin sizi kırk yıl boyunca çölde dolaştırdığı uzun yolculuğu anımsayın! Buyruklarına uyup uymayacağınızı, amacınızın ne olduğunu öğrenmek için sizi sıkıntılara sokarak sınadı."
+    },
+    {
+      "v": 3,
+      "text": "Sizi aç bırakarak sıkıntıya soktu. Sonra sizin de atalarınızın da bilmediği man ile sizi doyurdu. İnsanın yalnız ekmekle yaşamadığını, RAB'bin ağzından çıkan her sözle yaşadığını size öğretmek için yaptı bunu."
+    },
+    {
+      "v": 4,
+      "text": "Kırk yıl ne giysileriniz eskidi, ne de ayaklarınız şişti."
+    },
+    {
+      "v": 5,
+      "text": "Tanrınız RAB'bin, çocuğunu eğiten bir baba gibi, sizi nasıl eğittiğini anlayın."
+    },
+    {
+      "v": 6,
+      "text": "“Onun için, Tanrınız RAB'bin buyruklarına uyun. Yollarında yürüyün, O'ndan korkun."
+    },
+    {
+      "v": 7,
+      "text": "Tanrınız RAB sizi verimli bir ülkeye götürüyor. Öyle bir ülke ki, ırmakları, pınarları, derelerden tepelerden çıkan su kaynakları vardır;"
+    },
+    {
+      "v": 8,
+      "text": "buğdayı, arpası, üzümü, inciri, narı, zeytinyağı, balı vardır."
+    },
+    {
+      "v": 9,
+      "text": "Sıkıntısız ekmek yiyebileceğiniz, hiçbir şeye gereksinim duymayacağınız bir ülkedir. Öyle bir ülke ki, kayaları demirdir, dağlarından bakır çıkarabilirsiniz."
+    },
+    {
+      "v": 10,
+      "text": "“Yiyip doyunca, size verdiği verimli ülke için Tanrınız RAB'be övgüler sunun."
+    },
+    {
+      "v": 11,
+      "text": "Tanrınız RAB'bi unutmamaya dikkat edin. Bugün size bildirdiğim buyruklarını, ilkelerini, kurallarını savsaklamayın."
+    },
+    {
+      "v": 12,
+      "text": "Yiyip doyduğunuzda, güzel evler yapıp yerleştiğinizde,"
+    },
+    {
+      "v": 13,
+      "text": "sığırlarınız, davarlarınız çoğaldığında, altınınız, gümüşünüz ve her şeyiniz arttığında,"
+    },
+    {
+      "v": 14,
+      "text": "böbürlenmemeye ve sizi Mısır'dan, köle olduğunuz ülkeden çıkaran Tanrınız RAB'bi unutmamaya dikkat edin."
+    },
+    {
+      "v": 15,
+      "text": "RAB o büyük ve korkunç çölde, zehirli yılanlarla, akreplerle dolu o kurak, susuz toprakta sizi yürüttü. Size sert kayadan su çıkardı."
+    },
+    {
+      "v": 16,
+      "text": "Atalarınızın bilmediği man ile sizi çölde doyurdu. Sizi sıkıntıya soktu, sınadı. Öyle ki, sonunda üzerinize iyilik gelsin."
+    },
+    {
+      "v": 17,
+      "text": "‘Bu serveti toplayan kendi yeteneğimiz, güçlü elimizdir’ diye düşünebilirsiniz."
+    },
+    {
+      "v": 18,
+      "text": "Ancak bu serveti toplama yeteneğini size verenin Tanrınız RAB olduğunu anımsayın. Atalarınıza ant içerek yaptığı antlaşmayı sürdürmek amacıyla bugün de bunu yapıyor."
+    },
+    {
+      "v": 19,
+      "text": "“Tanrınız RAB'bi unutur, başka ilahların ardınca giderseniz, onlara tapar, önlerinde yere kapanırsanız, bugün size açıkça belirtirim ki, tamamen yok olacaksınız."
+    },
+    {
+      "v": 20,
+      "text": "Tanrınız RAB önünüzden ulusları yok ettiği gibi, sözüne kulak vermediğiniz için sizi de yok edecek."
+    }
+  ],
+  "title": "Rab'bi Unutmayın"
+}

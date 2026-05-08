@@ -1,1 +1,166 @@
-{"t":"TCL02","b":"EXO","c":40,"content":[{"v":1,"text":"RAB Musa'ya şöyle dedi:"},{"v":2,"text":"“Konutu, yani Buluşma Çadırı'nı birinci ayın ilk günü kur."},{"v":3,"text":"Levha Sandığı'nı oraya getirip perdeyle gizle."},{"v":4,"text":"Masayı içeri getir, gereken her şeyi üzerine diz. Kandilliği getirip kandillerini yak."},{"v":5,"text":"Altın buhur sunağını Levha Sandığı'nın önüne koy, konutun giriş bölümüne perdesini tak."},{"v":6,"text":"Yakmalık sunu sunağını konutun –Buluşma Çadırı'nın– giriş bölümüne koy."},{"v":7,"text":"Kazanı çadırla sunak arasına koyup içine su doldur."},{"v":8,"text":"Çadırın çevresini avluyla kapat, avlunun girişine perdesini as."},{"v":9,"text":"“Sonra mesh yağıyla konutu ve içindeki bütün eşyaları meshederek kutsal kıl. Böylece konutla takımları kutsal olacak."},{"v":10,"text":"Yakmalık sunu sunağıyla takımlarını meshet, sunağı kutsal kıl. Sunak çok kutsal olacak."},{"v":11,"text":"Kazan ve kazan ayaklığını meshederek kutsal kıl."},{"v":12,"text":"“Harun'la oğullarını Buluşma Çadırı'nın giriş bölümüne getirip yıka."},{"v":13,"text":"Harun'a kutsal giysileri giydir, bana kâhinlik etmesi için onu meshederek kutsal kıl."},{"v":14,"text":"Oğullarını getirip mintanları giydir."},{"v":15,"text":"Bana kâhinlik etmeleri için babaları gibi onları da meshet. Bu mesh onların kuşaklar boyu sürekli kâhin olmalarını sağlayacak.”"},{"v":16,"text":"Musa her şeyi RAB'bin kendisine buyurduğu gibi yaptı."},{"v":17,"text":"Böylece ikinci yılın birinci ayının birinci günü konut kuruldu."},{"v":18,"text":"Musa konutu kurdu, tabanlarını koydu, çerçevelerini yerleştirdi, kirişlerini taktı, direklerini dikti."},{"v":19,"text":"Çadırı tıpkı RAB'bin kendisine buyurduğu gibi konutun üzerine gerdi, çadır örtüsünü üzerine örttü."},{"v":20,"text":"Antlaşma Levhaları'nı sandığa koydu, sandık sırıklarını taktı, Bağışlanma Kapağı'nı sandığın üzerine yerleştirdi."},{"v":21,"text":"RAB'bin kendisine buyurduğu gibi Levha Sandığı'nı konuta getirdi, bölme perdesini asarak sandığı gizledi."},{"v":22,"text":"Masayı Buluşma Çadırı'na, konutun kuzeyine, perdenin dışına koydu."},{"v":23,"text":"RAB'bin huzurunda, RAB'bin kendisine buyurduğu gibi üzerine ekmekleri dizdi."},{"v":24,"text":"Kandilliği Buluşma Çadırı'na, masanın karşısına, konutun güneyine koydu."},{"v":25,"text":"RAB'bin kendisine buyurduğu gibi, RAB'bin huzurunda kandilleri yaktı."},{"v":26,"text":"Altın sunağı Buluşma Çadırı'na, perdenin önüne koydu."},{"v":27,"text":"RAB'bin kendisine buyurduğu gibi üzerinde güzel kokulu buhur yaktı."},{"v":28,"text":"Konutun giriş bölümünün perdesini taktı."},{"v":29,"text":"RAB'bin kendisine buyurduğu gibi yakmalık sunu sunağını Buluşma Çadırı'nın giriş bölümüne koydu, üzerinde yakmalık sunu ve tahıl sunusu sundu."},{"v":30,"text":"Kazanı Buluşma Çadırı ile sunak arasına koydu, yıkanmak için içine su doldurdu."},{"v":31,"text":"Musa, Harun ve Harun'un oğulları ellerini, ayaklarını orada yıkadılar."},{"v":32,"text":"Ne zaman Buluşma Çadırı'na girip sunağa yaklaşsalar RAB'bin Musa'ya buyurduğu gibi orada yıkandılar."},{"v":33,"text":"Musa konutla sunağı avluyla çevirdi. Avlunun girişine perdeyi asarak işi tamamladı."},{"v":34,"text":"O zaman bulut Buluşma Çadırı'nı kapladı ve RAB'bin görkemi konutu doldurdu."},{"v":35,"text":"Musa Buluşma Çadırı'na giremedi; çünkü bulut her yeri kaplamış, RAB'bin görkemi konutu doldurmuştu."},{"v":36,"text":"İsrailliler ancak bulut konutun üzerinden kalkınca göçerlerdi."},{"v":37,"text":"Bulut durdukça yerlerinden ayrılmaz, kalkacağı günü beklerlerdi."},{"v":38,"text":"Böylece bütün yolculuklarında konutun üzerinde gündüzün RAB'bin bulutu, gece de ateş İsrailliler'e yol gösterdi."}]}
+{
+  "t": "TCL02",
+  "b": "EXO",
+  "c": 40,
+  "content": [
+    {
+      "section": "Buluşma Çadırı'nın Düzenlenmesi ve Adanması"
+    },
+    {
+      "v": 1,
+      "text": "RAB Musa'ya şöyle dedi:"
+    },
+    {
+      "v": 2,
+      "text": "“Konutu, yani Buluşma Çadırı'nı birinci ayın ilk günü kur."
+    },
+    {
+      "v": 3,
+      "text": "Levha Sandığı'nı oraya getirip perdeyle gizle."
+    },
+    {
+      "v": 4,
+      "text": "Masayı içeri getir, gereken her şeyi üzerine diz. Kandilliği getirip kandillerini yak."
+    },
+    {
+      "v": 5,
+      "text": "Altın buhur sunağını Levha Sandığı'nın önüne koy, konutun giriş bölümüne perdesini tak."
+    },
+    {
+      "v": 6,
+      "text": "Yakmalık sunu sunağını konutun –Buluşma Çadırı'nın– giriş bölümüne koy."
+    },
+    {
+      "v": 7,
+      "text": "Kazanı çadırla sunak arasına koyup içine su doldur."
+    },
+    {
+      "v": 8,
+      "text": "Çadırın çevresini avluyla kapat, avlunun girişine perdesini as."
+    },
+    {
+      "v": 9,
+      "text": "“Sonra mesh yağıyla konutu ve içindeki bütün eşyaları meshederek kutsal kıl. Böylece konutla takımları kutsal olacak."
+    },
+    {
+      "v": 10,
+      "text": "Yakmalık sunu sunağıyla takımlarını meshet, sunağı kutsal kıl. Sunak çok kutsal olacak."
+    },
+    {
+      "v": 11,
+      "text": "Kazan ve kazan ayaklığını meshederek kutsal kıl."
+    },
+    {
+      "v": 12,
+      "text": "“Harun'la oğullarını Buluşma Çadırı'nın giriş bölümüne getirip yıka."
+    },
+    {
+      "v": 13,
+      "text": "Harun'a kutsal giysileri giydir, bana kâhinlik etmesi için onu meshederek kutsal kıl."
+    },
+    {
+      "v": 14,
+      "text": "Oğullarını getirip mintanları giydir."
+    },
+    {
+      "v": 15,
+      "text": "Bana kâhinlik etmeleri için babaları gibi onları da meshet. Bu mesh onların kuşaklar boyu sürekli kâhin olmalarını sağlayacak.”"
+    },
+    {
+      "v": 16,
+      "text": "Musa her şeyi RAB'bin kendisine buyurduğu gibi yaptı."
+    },
+    {
+      "v": 17,
+      "text": "Böylece ikinci yılın birinci ayının birinci günü konut kuruldu."
+    },
+    {
+      "v": 18,
+      "text": "Musa konutu kurdu, tabanlarını koydu, çerçevelerini yerleştirdi, kirişlerini taktı, direklerini dikti."
+    },
+    {
+      "v": 19,
+      "text": "Çadırı tıpkı RAB'bin kendisine buyurduğu gibi konutun üzerine gerdi, çadır örtüsünü üzerine örttü."
+    },
+    {
+      "v": 20,
+      "text": "Antlaşma Levhaları'nı sandığa koydu, sandık sırıklarını taktı, Bağışlanma Kapağı'nı sandığın üzerine yerleştirdi."
+    },
+    {
+      "v": 21,
+      "text": "RAB'bin kendisine buyurduğu gibi Levha Sandığı'nı konuta getirdi, bölme perdesini asarak sandığı gizledi."
+    },
+    {
+      "v": 22,
+      "text": "Masayı Buluşma Çadırı'na, konutun kuzeyine, perdenin dışına koydu."
+    },
+    {
+      "v": 23,
+      "text": "RAB'bin huzurunda, RAB'bin kendisine buyurduğu gibi üzerine ekmekleri dizdi."
+    },
+    {
+      "v": 24,
+      "text": "Kandilliği Buluşma Çadırı'na, masanın karşısına, konutun güneyine koydu."
+    },
+    {
+      "v": 25,
+      "text": "RAB'bin kendisine buyurduğu gibi, RAB'bin huzurunda kandilleri yaktı."
+    },
+    {
+      "v": 26,
+      "text": "Altın sunağı Buluşma Çadırı'na, perdenin önüne koydu."
+    },
+    {
+      "v": 27,
+      "text": "RAB'bin kendisine buyurduğu gibi üzerinde güzel kokulu buhur yaktı."
+    },
+    {
+      "v": 28,
+      "text": "Konutun giriş bölümünün perdesini taktı."
+    },
+    {
+      "v": 29,
+      "text": "RAB'bin kendisine buyurduğu gibi yakmalık sunu sunağını Buluşma Çadırı'nın giriş bölümüne koydu, üzerinde yakmalık sunu ve tahıl sunusu sundu."
+    },
+    {
+      "v": 30,
+      "text": "Kazanı Buluşma Çadırı ile sunak arasına koydu, yıkanmak için içine su doldurdu."
+    },
+    {
+      "v": 31,
+      "text": "Musa, Harun ve Harun'un oğulları ellerini, ayaklarını orada yıkadılar."
+    },
+    {
+      "v": 32,
+      "text": "Ne zaman Buluşma Çadırı'na girip sunağa yaklaşsalar RAB'bin Musa'ya buyurduğu gibi orada yıkandılar."
+    },
+    {
+      "v": 33,
+      "text": "Musa konutla sunağı avluyla çevirdi. Avlunun girişine perdeyi asarak işi tamamladı."
+    },
+    {
+      "section": "Buluşma Çadırı Üstündeki Bulut"
+    },
+    {
+      "v": 34,
+      "text": "O zaman bulut Buluşma Çadırı'nı kapladı ve RAB'bin görkemi konutu doldurdu."
+    },
+    {
+      "v": 35,
+      "text": "Musa Buluşma Çadırı'na giremedi; çünkü bulut her yeri kaplamış, RAB'bin görkemi konutu doldurmuştu."
+    },
+    {
+      "v": 36,
+      "text": "İsrailliler ancak bulut konutun üzerinden kalkınca göçerlerdi."
+    },
+    {
+      "v": 37,
+      "text": "Bulut durdukça yerlerinden ayrılmaz, kalkacağı günü beklerlerdi."
+    },
+    {
+      "v": 38,
+      "text": "Böylece bütün yolculuklarında konutun üzerinde gündüzün RAB'bin bulutu, gece de ateş İsrailliler'e yol gösterdi."
+    }
+  ],
+  "title": "Buluşma Çadırı'nın Düzenlenmesi ve Adanması"
+}

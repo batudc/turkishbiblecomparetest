@@ -1,1 +1,171 @@
-{"t":"TCL02","b":"PSA","c":37,"content":[{"v":1,"text":"Kötülük edenlere kızıp üzülme, Suç işleyenlere özenme!"},{"v":2,"text":"Çünkü onlar ot gibi hemen solacak, Yeşil bitki gibi kuruyup gidecek."},{"v":3,"text":"Sen RAB'be güven, iyilik yap, Ülkede otur, sadakatle çalış."},{"v":4,"text":"RAB'den zevk al, O senin yüreğinin dileklerini yerine getirecektir."},{"v":5,"text":"Her şeyi RAB'be bırak, O'na güven, O gerekeni yapar."},{"v":6,"text":"O senin doğruluğunu ışık gibi, Hakkını öğle güneşi gibi Aydınlığa çıkarır."},{"v":7,"text":"RAB'bin önünde sakin dur, sabırla bekle; Kızıp üzülme işi yolunda olanlara, Kötü amaçlarına kavuşanlara."},{"v":8,"text":"Kızmaktan kaçın, bırak öfkeyi, Üzülme, yalnız kötülüğe sürükler bu seni."},{"v":9,"text":"Çünkü kötülerin kökü kazınacak, Ama RAB'be umut bağlayanlar ülkeyi miras alacak."},{"v":10,"text":"Yakında kötünün sonu gelecek, Yerini arasan da bulunmayacak."},{"v":11,"text":"Ama alçakgönüllüler ülkeyi miras alacak, Derin bir huzurun zevkini tadacak."},{"v":12,"text":"Kötü insan doğru insana düzen kurar, Diş gıcırdatır."},{"v":13,"text":"Ama Rab kötüye güler, Çünkü bilir onun sonunun geldiğini."},{"v":14,"text":"Kılıç çekti kötüler, yaylarını gerdi, Mazlumu, yoksulu yıkmak, Doğru yolda olanları öldürmek için."},{"v":15,"text":"Ama kılıçları kendi yüreklerine saplanacak, Yayları kırılacak."},{"v":16,"text":"Doğrunun azıcık varlığı, Pek çok kötünün servetinden iyidir."},{"v":17,"text":"Çünkü kötülerin gücü kırılacak, Ama doğrulara RAB destek olacak."},{"v":18,"text":"RAB yetkinlerin her gününü gözetir, Onların mirası sonsuza dek sürecek."},{"v":19,"text":"Kötü günde utanmayacaklar, Kıtlıkta karınları doyacak."},{"v":20,"text":"Ama kötüler yıkıma uğrayacak; RAB'bin düşmanları kır çiçekleri gibi kuruyup gidecek, Duman gibi dağılıp yok olacak."},{"v":21,"text":"Kötüler ödünç alır, geri vermez; Doğrularsa cömertçe verir."},{"v":22,"text":"RAB'bin kutsadığı insanlar ülkeyi miras alacak, Lanetlediği insanların kökü kazınacak."},{"v":23,"text":"RAB insana sağlam adım attırır, İnsanın yolundan hoşnut olursa."},{"v":24,"text":"Düşse bile yıkılmaz insan, Çünkü elinden tutan RAB'dir."},{"v":25,"text":"Gençtim, ömrüm tükendi, Ama hiç görmedim doğru insanın terk edildiğini, Soyunun ekmek dilendiğini."},{"v":26,"text":"O hep cömertçe ödünç verir, Soyu kutsanır."},{"v":27,"text":"Kötülükten kaç, iyilik yap; Sonsuz yaşama kavuşursun."},{"v":28,"text":"Çünkü RAB doğruyu sever, Sadık kullarını terk etmez. Onlar sonsuza dek korunacak, Kötülerinse kökü kazınacak."},{"v":29,"text":"Doğrular ülkeyi miras alacak, Orada sonsuza dek yaşayacak."},{"v":30,"text":"Doğrunun ağzından bilgelik akar, Dilinden adalet damlar."},{"v":31,"text":"Tanrısı'nın yasası yüreğindedir, Ayakları kaymaz."},{"v":32,"text":"Kötü, doğruya pusu kurar, Onu öldürmeye çalışır."},{"v":33,"text":"Ama RAB onu kötünün eline düşürmez, Yargılanırken mahkûm etmez."},{"v":34,"text":"RAB'be umut bağla, O'nun yolunu tut, Ülkeyi miras almak üzere seni yükseltecektir. Kötülerin kökünün kazındığını göreceksin."},{"v":35,"text":"Kötü ve acımasız adamı gördüm, İlk dikildiği toprakta yeşeren ağaç gibi Dal budak salıyordu;"},{"v":36,"text":"Geçip gitti, yok oldu, Aradım, bulunmaz oldu."},{"v":37,"text":"Yetkin adamı gözle, doğru adama bak, Çünkü yarınlar barışseverindir."},{"v":38,"text":"Ama başkaldıranların hepsi yok olacak, Kötülerin kökü kazınacak."},{"v":39,"text":"Doğruların kurtuluşu RAB'den gelir, Sıkıntılı günde onlara kale olur."},{"v":40,"text":"RAB onlara yardım eder, kurtarır onları, Kötülerin elinden alıp özgür kılar, Çünkü kendisine sığınırlar."}]}
+{
+  "t": "TCL02",
+  "b": "PSA",
+  "c": 37,
+  "content": [
+    {
+      "section": "37. Mezmur"
+    },
+    {
+      "v": 1,
+      "text": "Kötülük edenlere kızıp üzülme, Suç işleyenlere özenme!"
+    },
+    {
+      "v": 2,
+      "text": "Çünkü onlar ot gibi hemen solacak, Yeşil bitki gibi kuruyup gidecek."
+    },
+    {
+      "v": 3,
+      "text": "Sen RAB'be güven, iyilik yap, Ülkede otur, sadakatle çalış."
+    },
+    {
+      "v": 4,
+      "text": "RAB'den zevk al, O senin yüreğinin dileklerini yerine getirecektir."
+    },
+    {
+      "v": 5,
+      "text": "Her şeyi RAB'be bırak, O'na güven, O gerekeni yapar."
+    },
+    {
+      "v": 6,
+      "text": "O senin doğruluğunu ışık gibi, Hakkını öğle güneşi gibi Aydınlığa çıkarır."
+    },
+    {
+      "v": 7,
+      "text": "RAB'bin önünde sakin dur, sabırla bekle; Kızıp üzülme işi yolunda olanlara, Kötü amaçlarına kavuşanlara."
+    },
+    {
+      "v": 8,
+      "text": "Kızmaktan kaçın, bırak öfkeyi, Üzülme, yalnız kötülüğe sürükler bu seni."
+    },
+    {
+      "v": 9,
+      "text": "Çünkü kötülerin kökü kazınacak, Ama RAB'be umut bağlayanlar ülkeyi miras alacak."
+    },
+    {
+      "v": 10,
+      "text": "Yakında kötünün sonu gelecek, Yerini arasan da bulunmayacak."
+    },
+    {
+      "v": 11,
+      "text": "Ama alçakgönüllüler ülkeyi miras alacak, Derin bir huzurun zevkini tadacak."
+    },
+    {
+      "v": 12,
+      "text": "Kötü insan doğru insana düzen kurar, Diş gıcırdatır."
+    },
+    {
+      "v": 13,
+      "text": "Ama Rab kötüye güler, Çünkü bilir onun sonunun geldiğini."
+    },
+    {
+      "v": 14,
+      "text": "Kılıç çekti kötüler, yaylarını gerdi, Mazlumu, yoksulu yıkmak, Doğru yolda olanları öldürmek için."
+    },
+    {
+      "v": 15,
+      "text": "Ama kılıçları kendi yüreklerine saplanacak, Yayları kırılacak."
+    },
+    {
+      "v": 16,
+      "text": "Doğrunun azıcık varlığı, Pek çok kötünün servetinden iyidir."
+    },
+    {
+      "v": 17,
+      "text": "Çünkü kötülerin gücü kırılacak, Ama doğrulara RAB destek olacak."
+    },
+    {
+      "v": 18,
+      "text": "RAB yetkinlerin her gününü gözetir, Onların mirası sonsuza dek sürecek."
+    },
+    {
+      "v": 19,
+      "text": "Kötü günde utanmayacaklar, Kıtlıkta karınları doyacak."
+    },
+    {
+      "v": 20,
+      "text": "Ama kötüler yıkıma uğrayacak; RAB'bin düşmanları kır çiçekleri gibi kuruyup gidecek, Duman gibi dağılıp yok olacak."
+    },
+    {
+      "v": 21,
+      "text": "Kötüler ödünç alır, geri vermez; Doğrularsa cömertçe verir."
+    },
+    {
+      "v": 22,
+      "text": "RAB'bin kutsadığı insanlar ülkeyi miras alacak, Lanetlediği insanların kökü kazınacak."
+    },
+    {
+      "v": 23,
+      "text": "RAB insana sağlam adım attırır, İnsanın yolundan hoşnut olursa."
+    },
+    {
+      "v": 24,
+      "text": "Düşse bile yıkılmaz insan, Çünkü elinden tutan RAB'dir."
+    },
+    {
+      "v": 25,
+      "text": "Gençtim, ömrüm tükendi, Ama hiç görmedim doğru insanın terk edildiğini, Soyunun ekmek dilendiğini."
+    },
+    {
+      "v": 26,
+      "text": "O hep cömertçe ödünç verir, Soyu kutsanır."
+    },
+    {
+      "v": 27,
+      "text": "Kötülükten kaç, iyilik yap; Sonsuz yaşama kavuşursun."
+    },
+    {
+      "v": 28,
+      "text": "Çünkü RAB doğruyu sever, Sadık kullarını terk etmez. Onlar sonsuza dek korunacak, Kötülerinse kökü kazınacak."
+    },
+    {
+      "v": 29,
+      "text": "Doğrular ülkeyi miras alacak, Orada sonsuza dek yaşayacak."
+    },
+    {
+      "v": 30,
+      "text": "Doğrunun ağzından bilgelik akar, Dilinden adalet damlar."
+    },
+    {
+      "v": 31,
+      "text": "Tanrısı'nın yasası yüreğindedir, Ayakları kaymaz."
+    },
+    {
+      "v": 32,
+      "text": "Kötü, doğruya pusu kurar, Onu öldürmeye çalışır."
+    },
+    {
+      "v": 33,
+      "text": "Ama RAB onu kötünün eline düşürmez, Yargılanırken mahkûm etmez."
+    },
+    {
+      "v": 34,
+      "text": "RAB'be umut bağla, O'nun yolunu tut, Ülkeyi miras almak üzere seni yükseltecektir. Kötülerin kökünün kazındığını göreceksin."
+    },
+    {
+      "v": 35,
+      "text": "Kötü ve acımasız adamı gördüm, İlk dikildiği toprakta yeşeren ağaç gibi Dal budak salıyordu;"
+    },
+    {
+      "v": 36,
+      "text": "Geçip gitti, yok oldu, Aradım, bulunmaz oldu."
+    },
+    {
+      "v": 37,
+      "text": "Yetkin adamı gözle, doğru adama bak, Çünkü yarınlar barışseverindir."
+    },
+    {
+      "v": 38,
+      "text": "Ama başkaldıranların hepsi yok olacak, Kötülerin kökü kazınacak."
+    },
+    {
+      "v": 39,
+      "text": "Doğruların kurtuluşu RAB'den gelir, Sıkıntılı günde onlara kale olur."
+    },
+    {
+      "v": 40,
+      "text": "RAB onlara yardım eder, kurtarır onları, Kötülerin elinden alıp özgür kılar, Çünkü kendisine sığınırlar."
+    }
+  ],
+  "title": "37. Mezmur"
+}

@@ -1,1 +1,39 @@
-{"t":"TCL02","b":"PSA","c":11,"content":[{"v":1,"text":"Ben RAB'be sığınırım, Nasıl dersiniz bana, “Kuş gibi kaç dağlara."},{"v":2,"text":"Bak, kötüler yaylarını geriyor, Temiz yürekli insanları Karanlıkta vurmak için Oklarını kirişine koyuyor."},{"v":3,"text":"Temeller yıkılırsa, Ne yapabilir doğru insan?”"},{"v":4,"text":"RAB kutsal tapınağındadır, O'nun tahtı göklerdedir, Bütün insanları görür, Herkesi sınar."},{"v":5,"text":"RAB doğru insanı sınar, Kötüden, zorbalığı sevenden tiksinir."},{"v":6,"text":"Kötülerin üzerine kızgın korlar ve kükürt yağdıracak, Paylarına düşen kâse kavurucu rüzgar olacak."},{"v":7,"text":"Çünkü RAB doğrudur, doğruları sever; Dürüst insanlar O'nun yüzünü görecek."}]}
+{
+  "t": "TCL02",
+  "b": "PSA",
+  "c": 11,
+  "content": [
+    {
+      "section": "11. Mezmur"
+    },
+    {
+      "v": 1,
+      "text": "Ben RAB'be sığınırım, Nasıl dersiniz bana, “Kuş gibi kaç dağlara."
+    },
+    {
+      "v": 2,
+      "text": "Bak, kötüler yaylarını geriyor, Temiz yürekli insanları Karanlıkta vurmak için Oklarını kirişine koyuyor."
+    },
+    {
+      "v": 3,
+      "text": "Temeller yıkılırsa, Ne yapabilir doğru insan?”"
+    },
+    {
+      "v": 4,
+      "text": "RAB kutsal tapınağındadır, O'nun tahtı göklerdedir, Bütün insanları görür, Herkesi sınar."
+    },
+    {
+      "v": 5,
+      "text": "RAB doğru insanı sınar, Kötüden, zorbalığı sevenden tiksinir."
+    },
+    {
+      "v": 6,
+      "text": "Kötülerin üzerine kızgın korlar ve kükürt yağdıracak, Paylarına düşen kâse kavurucu rüzgar olacak."
+    },
+    {
+      "v": 7,
+      "text": "Çünkü RAB doğrudur, doğruları sever; Dürüst insanlar O'nun yüzünü görecek."
+    }
+  ],
+  "title": "11. Mezmur"
+}

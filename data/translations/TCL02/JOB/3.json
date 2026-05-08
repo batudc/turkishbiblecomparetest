@@ -1,1 +1,111 @@
-{"t": "TCL02", "b": "JOB", "c": 3, "content": [{"v": 1, "text": "Sonunda Eyüp ağzını açtı ve doğduğu güne lanet edip şöyle dedi:"}, {"v": 3, "text": "“Doğduğum gün yok olsun, ‘Bir oğul doğdu’ denen gece yok olsun!"}, {"v": 4, "text": "Karanlığa bürünsün o gün, Yüce Tanrı onunla ilgilenmesin, Üzerine ışık doğmasın."}, {"v": 5, "text": "Karanlık ve ölüm gölgesi sahip çıksın o güne, Bulut çöksün üzerine; Işığını karanlık söndürsün."}, {"v": 6, "text": "Zifiri karanlık yutsun o geceyi, Yılın günleri arasında sayılmasın, Aylardan hiçbirine girmesin."}, {"v": 7, "text": "Kısır olsun o gece, Sevinç sesi duyulmasın içinde."}, {"v": 8, "text": "Günleri lanetleyenler, Livyatan'ı uyandırmaya hazır olanlar, O günü lanetlesin."}, {"v": 9, "text": "Akşamının yıldızları kararsın, Boş yere aydınlığı beklesin, Tan atışını görmesin."}, {"v": 10, "text": "Çünkü sıkıntı yüzü görmemem için Anamın rahminin kapılarını üstüme kapamadı."}, {"v": 11, "text": "“Neden doğarken ölmedim, Rahimden çıkarken son soluğumu vermedim?"}, {"v": 12, "text": "Neden beni dizler, Emeyim diye memeler karşıladı?"}, {"v": 13, "text": "Çünkü şimdi huzur içinde yatmış, Uyuyup dinlenmiş olurdum;"}, {"v": 14, "text": "Yaptırdıkları kentler şimdi viran olan Dünya kralları ve danışmanlarıyla birlikte,"}, {"v": 15, "text": "Evlerini gümüşle dolduran Altın sahibi önderlerle birlikte."}, {"v": 16, "text": "Neden düşük bir çocuk gibi, Gün yüzü görmemiş yavrular gibi toprağa gömülmedim?"}, {"v": 17, "text": "Orada kötüler kargaşayı bırakır, Yorgunlar rahat eder."}, {"v": 18, "text": "Tutsaklar huzur içinde yaşar, Angaryacının sesini duymazlar."}, {"v": 19, "text": "Küçük de büyük de oradadır, Köle efendisinden özgürdür."}, {"v": 20, "text": "“Niçin sıkıntı çekenlere ışık, Acı içindekilere yaşam verilir?"}, {"v": 21, "text": "Oysa onlar gelmeyen ölümü özler, Onu define arar gibi ararlar;"}, {"v": 22, "text": "Mezara kavuşunca Neşeden coşar, sevinç bulurlar."}, {"v": 23, "text": "Neden yaşam verilir nereye gideceğini bilmeyen insana, Çevresini Tanrı'nın çitle çevirdiği kişiye?"}, {"v": 24, "text": "Çünkü iniltim ekmekten önce geliyor, Su gibi dökülmekte feryadım."}, {"v": 25, "text": "Korktuğum, Çekindiğim başıma geldi."}, {"v": 26, "text": "Huzur yok, sükûnet yok, rahat yok, Yalnız kargaşa var.”"}]}
+{
+  "t": "TCL02",
+  "b": "JOB",
+  "c": 3,
+  "content": [
+    {
+      "section": "Eyüp Konuşuyor"
+    },
+    {
+      "v": 1,
+      "text": "Sonunda Eyüp ağzını açtı ve doğduğu güne lanet edip şöyle dedi:"
+    },
+    {
+      "v": 3,
+      "text": "“Doğduğum gün yok olsun, ‘Bir oğul doğdu’ denen gece yok olsun!"
+    },
+    {
+      "v": 4,
+      "text": "Karanlığa bürünsün o gün, Yüce Tanrı onunla ilgilenmesin, Üzerine ışık doğmasın."
+    },
+    {
+      "v": 5,
+      "text": "Karanlık ve ölüm gölgesi sahip çıksın o güne, Bulut çöksün üzerine; Işığını karanlık söndürsün."
+    },
+    {
+      "v": 6,
+      "text": "Zifiri karanlık yutsun o geceyi, Yılın günleri arasında sayılmasın, Aylardan hiçbirine girmesin."
+    },
+    {
+      "v": 7,
+      "text": "Kısır olsun o gece, Sevinç sesi duyulmasın içinde."
+    },
+    {
+      "v": 8,
+      "text": "Günleri lanetleyenler, Livyatan'ı uyandırmaya hazır olanlar, O günü lanetlesin."
+    },
+    {
+      "v": 9,
+      "text": "Akşamının yıldızları kararsın, Boş yere aydınlığı beklesin, Tan atışını görmesin."
+    },
+    {
+      "v": 10,
+      "text": "Çünkü sıkıntı yüzü görmemem için Anamın rahminin kapılarını üstüme kapamadı."
+    },
+    {
+      "v": 11,
+      "text": "“Neden doğarken ölmedim, Rahimden çıkarken son soluğumu vermedim?"
+    },
+    {
+      "v": 12,
+      "text": "Neden beni dizler, Emeyim diye memeler karşıladı?"
+    },
+    {
+      "v": 13,
+      "text": "Çünkü şimdi huzur içinde yatmış, Uyuyup dinlenmiş olurdum;"
+    },
+    {
+      "v": 14,
+      "text": "Yaptırdıkları kentler şimdi viran olan Dünya kralları ve danışmanlarıyla birlikte,"
+    },
+    {
+      "v": 15,
+      "text": "Evlerini gümüşle dolduran Altın sahibi önderlerle birlikte."
+    },
+    {
+      "v": 16,
+      "text": "Neden düşük bir çocuk gibi, Gün yüzü görmemiş yavrular gibi toprağa gömülmedim?"
+    },
+    {
+      "v": 17,
+      "text": "Orada kötüler kargaşayı bırakır, Yorgunlar rahat eder."
+    },
+    {
+      "v": 18,
+      "text": "Tutsaklar huzur içinde yaşar, Angaryacının sesini duymazlar."
+    },
+    {
+      "v": 19,
+      "text": "Küçük de büyük de oradadır, Köle efendisinden özgürdür."
+    },
+    {
+      "v": 20,
+      "text": "“Niçin sıkıntı çekenlere ışık, Acı içindekilere yaşam verilir?"
+    },
+    {
+      "v": 21,
+      "text": "Oysa onlar gelmeyen ölümü özler, Onu define arar gibi ararlar;"
+    },
+    {
+      "v": 22,
+      "text": "Mezara kavuşunca Neşeden coşar, sevinç bulurlar."
+    },
+    {
+      "v": 23,
+      "text": "Neden yaşam verilir nereye gideceğini bilmeyen insana, Çevresini Tanrı'nın çitle çevirdiği kişiye?"
+    },
+    {
+      "v": 24,
+      "text": "Çünkü iniltim ekmekten önce geliyor, Su gibi dökülmekte feryadım."
+    },
+    {
+      "v": 25,
+      "text": "Korktuğum, Çekindiğim başıma geldi."
+    },
+    {
+      "v": 26,
+      "text": "Huzur yok, sükûnet yok, rahat yok, Yalnız kargaşa var.”"
+    }
+  ],
+  "title": "Eyüp Konuşuyor"
+}

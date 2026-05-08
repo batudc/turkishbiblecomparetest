@@ -1,1 +1,99 @@
-{"t":"TCL02","b":"ISA","c":38,"content":[{"v":1,"text":"O günlerde Hizkiya ölümcül bir hastalığa yakalandı. Amots oğlu Peygamber Yeşaya ona gidip şöyle dedi: “RAB diyor ki, ‘Ev işlerini düzene sok. Çünkü iyileşmeyecek, öleceksin.’ ”"},{"v":2,"text":"Hizkiya yüzünü duvara dönüp RAB'be yalvardı:"},{"v":3,"text":"“Ya RAB, yürekten bir sadakatle önünde nasıl yaşadığımı, gözünde iyi olanı yaptığımı anımsa lütfen.” Sonra acı acı ağlamaya başladı."},{"v":4,"text":"Bunun üzerine RAB Yeşaya'ya seslendi:"},{"v":5,"text":"“Git, Hizkiya'ya şunu söyle: ‘Atan Davut'un Tanrısı RAB diyor ki: Duanı işittim, gözyaşlarını gördüm. Bak, ömrünü on beş yıl daha uzatacağım."},{"v":6,"text":"Bu kenti savunacak, seni de kenti de Asur Kralı'nın elinden kurtaracağım."},{"v":7,"text":"Sözümü gerçekleştireceğime ilişkin sana vereceğim belirti şu olacak:"},{"v":8,"text":"RAB, batmakta olan güneşin Ahaz'ın inşa ettiği basamakların üzerine düşen gölgesini on basamak kısaltacak.’ ” Böylece batmakta olan güneşin gölgesi on basamak kısaldı."},{"v":9,"text":"Yahuda Kralı Hizkiya hastalanıp iyileştikten sonra şunları yazdı:"},{"v":10,"text":"“Hayatımın baharında ölüler diyarının kapılarından geçip Ömrümün geri kalan yıllarından yoksun mu kalmalıyım?” demiştim,"},{"v":11,"text":"“Yaşayanlar diyarında RAB'bi, evet, RAB'bi bir daha görmeyeceğim, Bu dünyada yaşayanlar gibi insan yüzü görmeyeceğim bir daha."},{"v":12,"text":"Evim bir çoban çadırı gibi bozuldu, alındı elimden. Dokumacı gibi dürdüm yaşamımı, RAB tezgahtan beni kesti, Bir gün içinde sonumu getiriverdi."},{"v":13,"text":"Sabırla bekledim sabaha kadar, RAB bir aslan gibi kırdı bütün kemiklerimi, Bir gün içinde sonumu getiriverdi."},{"v":14,"text":"Kırlangıç gibi, turna gibi acı acı öttüm, Güvercin gibi inledim, gözlerim yoruldu yukarı bakmaktan. Ya Rab, eziyet çekiyorum, Yardım et bana."},{"v":15,"text":"“Ne diyeyim? Bana seslenen de bunu yapan da Rab'dir. Tattığım bu acılardan sonra daha dikkatli yaşayacağım."},{"v":16,"text":"Ya Rab, insanlar bunlarla yaşarlar. Canım da bunların sayesinde yaşıyor. İyileştirdin, yaşattın beni!"},{"v":17,"text":"Çektiğim bunca acı esenlik bulmam içindi. Beni sevdiğin için yıkım çukuruna düşmekten alıkoydun, Günahlarımı arkana attın."},{"v":18,"text":"Çünkü ölüler diyarı sana şükredemez, Ölüm övgüler sunmaz sana. Ölüm çukuruna inenler senin sadakatine umut bağlayamaz."},{"v":19,"text":"Diriler, yalnız diriler Bugün benim yaptığım gibi sana şükreder; Babalar senin sadakatini çocuklarına anlatır."},{"v":20,"text":"Beni kurtaracak olan RAB'dir. Ömrümüz boyunca O'nun tapınağında Telli çalgılarımızı çalacağız.”"},{"v":21,"text":"Yeşaya, “İncir pestili getirin, Hizkiya'nın çıbanına koyun, iyileşir” demişti."},{"v":22,"text":"Hizkiya da, “RAB'bin Tapınağı'na çıkacağıma ilişkin belirti nedir?” diye sormuştu."}]}
+{
+  "t": "TCL02",
+  "b": "ISA",
+  "c": 38,
+  "content": [
+    {
+      "section": "Hizkiya'nın Hastalığı"
+    },
+    {
+      "v": 1,
+      "text": "O günlerde Hizkiya ölümcül bir hastalığa yakalandı. Amots oğlu Peygamber Yeşaya ona gidip şöyle dedi: “RAB diyor ki, ‘Ev işlerini düzene sok. Çünkü iyileşmeyecek, öleceksin.’ ”"
+    },
+    {
+      "v": 2,
+      "text": "Hizkiya yüzünü duvara dönüp RAB'be yalvardı:"
+    },
+    {
+      "v": 3,
+      "text": "“Ya RAB, yürekten bir sadakatle önünde nasıl yaşadığımı, gözünde iyi olanı yaptığımı anımsa lütfen.” Sonra acı acı ağlamaya başladı."
+    },
+    {
+      "v": 4,
+      "text": "Bunun üzerine RAB Yeşaya'ya seslendi:"
+    },
+    {
+      "v": 5,
+      "text": "“Git, Hizkiya'ya şunu söyle: ‘Atan Davut'un Tanrısı RAB diyor ki: Duanı işittim, gözyaşlarını gördüm. Bak, ömrünü on beş yıl daha uzatacağım."
+    },
+    {
+      "v": 6,
+      "text": "Bu kenti savunacak, seni de kenti de Asur Kralı'nın elinden kurtaracağım."
+    },
+    {
+      "v": 7,
+      "text": "Sözümü gerçekleştireceğime ilişkin sana vereceğim belirti şu olacak:"
+    },
+    {
+      "v": 8,
+      "text": "RAB, batmakta olan güneşin Ahaz'ın inşa ettiği basamakların üzerine düşen gölgesini on basamak kısaltacak.’ ” Böylece batmakta olan güneşin gölgesi on basamak kısaldı."
+    },
+    {
+      "v": 9,
+      "text": "Yahuda Kralı Hizkiya hastalanıp iyileştikten sonra şunları yazdı:"
+    },
+    {
+      "v": 10,
+      "text": "“Hayatımın baharında ölüler diyarının kapılarından geçip Ömrümün geri kalan yıllarından yoksun mu kalmalıyım?” demiştim,"
+    },
+    {
+      "v": 11,
+      "text": "“Yaşayanlar diyarında RAB'bi, evet, RAB'bi bir daha görmeyeceğim, Bu dünyada yaşayanlar gibi insan yüzü görmeyeceğim bir daha."
+    },
+    {
+      "v": 12,
+      "text": "Evim bir çoban çadırı gibi bozuldu, alındı elimden. Dokumacı gibi dürdüm yaşamımı, RAB tezgahtan beni kesti, Bir gün içinde sonumu getiriverdi."
+    },
+    {
+      "v": 13,
+      "text": "Sabırla bekledim sabaha kadar, RAB bir aslan gibi kırdı bütün kemiklerimi, Bir gün içinde sonumu getiriverdi."
+    },
+    {
+      "v": 14,
+      "text": "Kırlangıç gibi, turna gibi acı acı öttüm, Güvercin gibi inledim, gözlerim yoruldu yukarı bakmaktan. Ya Rab, eziyet çekiyorum, Yardım et bana."
+    },
+    {
+      "v": 15,
+      "text": "“Ne diyeyim? Bana seslenen de bunu yapan da Rab'dir. Tattığım bu acılardan sonra daha dikkatli yaşayacağım."
+    },
+    {
+      "v": 16,
+      "text": "Ya Rab, insanlar bunlarla yaşarlar. Canım da bunların sayesinde yaşıyor. İyileştirdin, yaşattın beni!"
+    },
+    {
+      "v": 17,
+      "text": "Çektiğim bunca acı esenlik bulmam içindi. Beni sevdiğin için yıkım çukuruna düşmekten alıkoydun, Günahlarımı arkana attın."
+    },
+    {
+      "v": 18,
+      "text": "Çünkü ölüler diyarı sana şükredemez, Ölüm övgüler sunmaz sana. Ölüm çukuruna inenler senin sadakatine umut bağlayamaz."
+    },
+    {
+      "v": 19,
+      "text": "Diriler, yalnız diriler Bugün benim yaptığım gibi sana şükreder; Babalar senin sadakatini çocuklarına anlatır."
+    },
+    {
+      "v": 20,
+      "text": "Beni kurtaracak olan RAB'dir. Ömrümüz boyunca O'nun tapınağında Telli çalgılarımızı çalacağız.”"
+    },
+    {
+      "v": 21,
+      "text": "Yeşaya, “İncir pestili getirin, Hizkiya'nın çıbanına koyun, iyileşir” demişti."
+    },
+    {
+      "v": 22,
+      "text": "Hizkiya da, “RAB'bin Tapınağı'na çıkacağıma ilişkin belirti nedir?” diye sormuştu."
+    }
+  ],
+  "title": "Hizkiya'nın Hastalığı"
+}

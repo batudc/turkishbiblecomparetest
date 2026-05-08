@@ -1,1 +1,103 @@
-{"t":"TCL02","b":"1CO","c":3,"content":[{"v":1,"text":"Kardeşler, ben sizinle ruhsal kişilerle konuşur gibi konuşamadım. Benliğe uyanlarla, Mesih'te henüz bebeklik çağında olanlarla konuşur gibi konuştum."},{"v":2,"text":"Size süt verdim, katı yiyecek değil. Çünkü katı yiyeceği henüz yiyemiyordunuz. Şimdi bile yiyemezsiniz."},{"v":3,"text":"Çünkü hâlâ benliğe uyuyorsunuz. Aranızda kıskançlık ve çekişme olması, benliğe uyduğunuzu, öbür insanlar gibi yaşadığınızı göstermiyor mu?"},{"v":4,"text":"Biriniz, “Ben Pavlus yanlısıyım”, ötekiniz, “Ben Apollos yanlısıyım” diyorsa, öbür insanlardan ne farkınız kalır?"},{"v":5,"text":"Apollos kim, Pavlus kim? İman etmenize aracı olmuş hizmetkârlardır. Rab her birimize bir görev vermiştir."},{"v":6,"text":"Tohumu ben ektim, Apollos suladı. Ama Tanrı büyüttü."},{"v":7,"text":"Önemli olan, eken ya da sulayan değil, ekileni büyüten Tanrı'dır."},{"v":8,"text":"Ekenle sulayanın değeri birdir. Her biri kendi emeğinin karşılığını alacaktır."},{"v":9,"text":"Biz Tanrı'nın emektaşlarıyız. Sizler de Tanrı'nın tarlası, Tanrı'nın binasısınız."},{"v":10,"text":"Tanrı'nın bana lütfettiği görev uyarınca bilge bir mimar gibi temel attım, başkaları da bu temel üzerine inşa ediyor. Herkes nasıl inşa ettiğine dikkat etsin."},{"v":11,"text":"Çünkü hiç kimse atılan temelden, yani İsa Mesih'ten başka bir temel atamaz."},{"v":12,"text":"Bu temel üzerine kimi altın, gümüş ya da değerli taşlarla, kimi de tahta, ot ya da kamışla inşa edecek."},{"v":13,"text":"Herkesin yaptığı iş belli olacak, yargı günü ortaya çıkacak. Herkesin işi ateşle açığa vurulacak. Ateş her işin niteliğini sınayacak."},{"v":14,"text":"Bir kimsenin inşa ettikleri ateşe dayanırsa, o kimse ödülünü alacak."},{"v":15,"text":"Yaptıkları yanarsa, zarar edecek. Kendisi kurtulacak, ama ateşten geçmiş gibi olacaktır."},{"v":16,"text":"Tanrı'nın tapınağı olduğunuzu, Tanrı'nın Ruhu'nun sizde yaşadığını bilmiyor musunuz?"},{"v":17,"text":"Kim Tanrı'nın tapınağını yıkarsa, Tanrı da onu yıkacak. Çünkü Tanrı'nın tapınağı kutsaldır ve o tapınak sizsiniz."},{"v":18,"text":"Kimse kendini aldatmasın. Aranızdan biri bu çağın ölçülerine göre kendini bilge sanıyorsa, bilge olmak için “akılsız” olsun!"},{"v":19,"text":"Çünkü bu dünyanın bilgeliği Tanrı'nın gözünde akılsızlıktır. Yazılmış olduğu gibi, “O, bilgeleri kurnazlıklarında yakalar.”"},{"v":20,"text":"Yine, “Rab bilgelerin düşüncelerinin boş olduğunu bilir” diye yazılmıştır."},{"v":21,"text":"Bu nedenle hiç kimse insanlarla övünmesin. Çünkü her şey sizindir."},{"v":22,"text":"Pavlus, Apollos, Kefas, dünya, yaşam ve ölüm, şimdiki ve gelecek zaman, her şey sizindir."},{"v":23,"text":"Siz Mesih'insiniz, Mesih de Tanrı'nındır."}]}
+{
+  "t": "TCL02",
+  "b": "1CO",
+  "c": 3,
+  "content": [
+    {
+      "section": "Toplulukta Uyum"
+    },
+    {
+      "v": 1,
+      "text": "Kardeşler, ben sizinle ruhsal kişilerle konuşur gibi konuşamadım. Benliğe uyanlarla, Mesih'te henüz bebeklik çağında olanlarla konuşur gibi konuştum."
+    },
+    {
+      "v": 2,
+      "text": "Size süt verdim, katı yiyecek değil. Çünkü katı yiyeceği henüz yiyemiyordunuz. Şimdi bile yiyemezsiniz."
+    },
+    {
+      "v": 3,
+      "text": "Çünkü hâlâ benliğe uyuyorsunuz. Aranızda kıskançlık ve çekişme olması, benliğe uyduğunuzu, öbür insanlar gibi yaşadığınızı göstermiyor mu?"
+    },
+    {
+      "v": 4,
+      "text": "Biriniz, “Ben Pavlus yanlısıyım”, ötekiniz, “Ben Apollos yanlısıyım” diyorsa, öbür insanlardan ne farkınız kalır?"
+    },
+    {
+      "v": 5,
+      "text": "Apollos kim, Pavlus kim? İman etmenize aracı olmuş hizmetkârlardır. Rab her birimize bir görev vermiştir."
+    },
+    {
+      "v": 6,
+      "text": "Tohumu ben ektim, Apollos suladı. Ama Tanrı büyüttü."
+    },
+    {
+      "v": 7,
+      "text": "Önemli olan, eken ya da sulayan değil, ekileni büyüten Tanrı'dır."
+    },
+    {
+      "v": 8,
+      "text": "Ekenle sulayanın değeri birdir. Her biri kendi emeğinin karşılığını alacaktır."
+    },
+    {
+      "v": 9,
+      "text": "Biz Tanrı'nın emektaşlarıyız. Sizler de Tanrı'nın tarlası, Tanrı'nın binasısınız."
+    },
+    {
+      "v": 10,
+      "text": "Tanrı'nın bana lütfettiği görev uyarınca bilge bir mimar gibi temel attım, başkaları da bu temel üzerine inşa ediyor. Herkes nasıl inşa ettiğine dikkat etsin."
+    },
+    {
+      "v": 11,
+      "text": "Çünkü hiç kimse atılan temelden, yani İsa Mesih'ten başka bir temel atamaz."
+    },
+    {
+      "v": 12,
+      "text": "Bu temel üzerine kimi altın, gümüş ya da değerli taşlarla, kimi de tahta, ot ya da kamışla inşa edecek."
+    },
+    {
+      "v": 13,
+      "text": "Herkesin yaptığı iş belli olacak, yargı günü ortaya çıkacak. Herkesin işi ateşle açığa vurulacak. Ateş her işin niteliğini sınayacak."
+    },
+    {
+      "v": 14,
+      "text": "Bir kimsenin inşa ettikleri ateşe dayanırsa, o kimse ödülünü alacak."
+    },
+    {
+      "v": 15,
+      "text": "Yaptıkları yanarsa, zarar edecek. Kendisi kurtulacak, ama ateşten geçmiş gibi olacaktır."
+    },
+    {
+      "v": 16,
+      "text": "Tanrı'nın tapınağı olduğunuzu, Tanrı'nın Ruhu'nun sizde yaşadığını bilmiyor musunuz?"
+    },
+    {
+      "v": 17,
+      "text": "Kim Tanrı'nın tapınağını yıkarsa, Tanrı da onu yıkacak. Çünkü Tanrı'nın tapınağı kutsaldır ve o tapınak sizsiniz."
+    },
+    {
+      "v": 18,
+      "text": "Kimse kendini aldatmasın. Aranızdan biri bu çağın ölçülerine göre kendini bilge sanıyorsa, bilge olmak için “akılsız” olsun!"
+    },
+    {
+      "v": 19,
+      "text": "Çünkü bu dünyanın bilgeliği Tanrı'nın gözünde akılsızlıktır. Yazılmış olduğu gibi, “O, bilgeleri kurnazlıklarında yakalar.”"
+    },
+    {
+      "v": 20,
+      "text": "Yine, “Rab bilgelerin düşüncelerinin boş olduğunu bilir” diye yazılmıştır."
+    },
+    {
+      "v": 21,
+      "text": "Bu nedenle hiç kimse insanlarla övünmesin. Çünkü her şey sizindir."
+    },
+    {
+      "v": 22,
+      "text": "Pavlus, Apollos, Kefas, dünya, yaşam ve ölüm, şimdiki ve gelecek zaman, her şey sizindir."
+    },
+    {
+      "v": 23,
+      "text": "Siz Mesih'insiniz, Mesih de Tanrı'nındır."
+    }
+  ],
+  "title": "Toplulukta Uyum"
+}

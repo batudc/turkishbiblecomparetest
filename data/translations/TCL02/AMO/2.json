@@ -1,1 +1,74 @@
-{"t":"TCL02","b":"AMO","c":2,"content":[{"v":1,"text":"RAB şöyle diyor: “Moavlılar'ın cezasını kaldırmayacağım. Çünkü günah üstüne günah işlediler, Edom Kralı'nın kemiklerini Kireçleşinceye dek yaktılar."},{"v":2,"text":"Bu yüzden Moav'a ateş yağdıracağım, Yakıp yok edecek Keriyot saraylarını. Kargaşa, savaş naraları, Boru sesleri arasında ölecek Moav halkı."},{"v":3,"text":"Söküp atacağım içinden yöneticisini, Öldüreceğim onunla bütün görevlilerini.” RAB böyle diyor."},{"v":4,"text":"RAB şöyle diyor: “Yahudalılar'ın cezasını kaldırmayacağım. Çünkü günah üstüne günah işlediler, Reddettiler yasamı, Kurallarıma uymadılar; Yalancı putlar saptırdı onları, Atalarının da izlediği putlar."},{"v":5,"text":"Bu yüzden Yahuda'ya ateş yağdıracağım, Yakıp yok edecek Yeruşalim saraylarını.”"},{"v":6,"text":"RAB şöyle diyor: “İsrailliler'in cezasını kaldırmayacağım, Çünkü günah üstüne günah işlediler, Doğruyu para için, Yoksulu bir çift çarık için sattılar."},{"v":7,"text":"Onlar ki, Yoksulun başını toz toprak içinde çiğner Ve mazlumun hakkını bir yana iterler. Baba oğul aynı kızla yatarak Kutsal adımı kirletirler."},{"v":8,"text":"Her sunağın yanına, Rehin alınan giysilerin üzerine uzanır, Tanrıları'nın Tapınağı'nda Ceza karşılığı alınan şarabı içerler."},{"v":9,"text":"Ama ben onların önünde Amorlular'ı yok ettim; Sedir ağaçları kadar boylu, Meşe kadar güçlü olsa da, Yukarıdan meyvesini, Aşağıdan kökünü kuruttum."},{"v":10,"text":"Sizi Mısır'dan ben çıkardım, Amor topraklarını sahiplenesiniz diye Çölde kırk yıl size yol gösterdim."},{"v":11,"text":"Oğullarınızdan peygamberler, Gençlerinizden bana adanmış kişiler atadım. Doğru değil mi, ey İsrailliler?” RAB böyle diyor."},{"v":12,"text":"“Sizse bana adanmış kişilere şarap içirdiniz Ve peygamberlere, ‘Peygamberlik etmeyin!’ Diye buyruk verdiniz."},{"v":13,"text":"“Tahıl yüklü araba toprağı nasıl ezerse, İşte ben de sizi öyle ezeceğim."},{"v":14,"text":"Hızlı koşan kaçamayacak, Güçlü gücünü gösteremeyecek, Yiğit canını kurtaramayacak,"},{"v":15,"text":"Okçu yerini koruyamayacak, Ayağı tez olan uzaklaşamayacak, Atlı canını kurtaramayacak,"},{"v":16,"text":"En yürekli yiğitler bile O gün silahlarını bırakıp kaçacak.” RAB böyle diyor."}]}
+{
+  "t": "TCL02",
+  "b": "AMO",
+  "c": 2,
+  "content": [
+    {
+      "v": 1,
+      "text": "RAB şöyle diyor: “Moavlılar'ın cezasını kaldırmayacağım. Çünkü günah üstüne günah işlediler, Edom Kralı'nın kemiklerini Kireçleşinceye dek yaktılar."
+    },
+    {
+      "v": 2,
+      "text": "Bu yüzden Moav'a ateş yağdıracağım, Yakıp yok edecek Keriyot saraylarını. Kargaşa, savaş naraları, Boru sesleri arasında ölecek Moav halkı."
+    },
+    {
+      "v": 3,
+      "text": "Söküp atacağım içinden yöneticisini, Öldüreceğim onunla bütün görevlilerini.” RAB böyle diyor."
+    },
+    {
+      "v": 4,
+      "text": "RAB şöyle diyor: “Yahudalılar'ın cezasını kaldırmayacağım. Çünkü günah üstüne günah işlediler, Reddettiler yasamı, Kurallarıma uymadılar; Yalancı putlar saptırdı onları, Atalarının da izlediği putlar."
+    },
+    {
+      "v": 5,
+      "text": "Bu yüzden Yahuda'ya ateş yağdıracağım, Yakıp yok edecek Yeruşalim saraylarını.”"
+    },
+    {
+      "section": "Rab İsrail'i Cezalandırıyor"
+    },
+    {
+      "v": 6,
+      "text": "RAB şöyle diyor: “İsrailliler'in cezasını kaldırmayacağım, Çünkü günah üstüne günah işlediler, Doğruyu para için, Yoksulu bir çift çarık için sattılar."
+    },
+    {
+      "v": 7,
+      "text": "Onlar ki, Yoksulun başını toz toprak içinde çiğner Ve mazlumun hakkını bir yana iterler. Baba oğul aynı kızla yatarak Kutsal adımı kirletirler."
+    },
+    {
+      "v": 8,
+      "text": "Her sunağın yanına, Rehin alınan giysilerin üzerine uzanır, Tanrıları'nın Tapınağı'nda Ceza karşılığı alınan şarabı içerler."
+    },
+    {
+      "v": 9,
+      "text": "Ama ben onların önünde Amorlular'ı yok ettim; Sedir ağaçları kadar boylu, Meşe kadar güçlü olsa da, Yukarıdan meyvesini, Aşağıdan kökünü kuruttum."
+    },
+    {
+      "v": 10,
+      "text": "Sizi Mısır'dan ben çıkardım, Amor topraklarını sahiplenesiniz diye Çölde kırk yıl size yol gösterdim."
+    },
+    {
+      "v": 11,
+      "text": "Oğullarınızdan peygamberler, Gençlerinizden bana adanmış kişiler atadım. Doğru değil mi, ey İsrailliler?” RAB böyle diyor."
+    },
+    {
+      "v": 12,
+      "text": "“Sizse bana adanmış kişilere şarap içirdiniz Ve peygamberlere, ‘Peygamberlik etmeyin!’ Diye buyruk verdiniz."
+    },
+    {
+      "v": 13,
+      "text": "“Tahıl yüklü araba toprağı nasıl ezerse, İşte ben de sizi öyle ezeceğim."
+    },
+    {
+      "v": 14,
+      "text": "Hızlı koşan kaçamayacak, Güçlü gücünü gösteremeyecek, Yiğit canını kurtaramayacak,"
+    },
+    {
+      "v": 15,
+      "text": "Okçu yerini koruyamayacak, Ayağı tez olan uzaklaşamayacak, Atlı canını kurtaramayacak,"
+    },
+    {
+      "v": 16,
+      "text": "En yürekli yiğitler bile O gün silahlarını bırakıp kaçacak.” RAB böyle diyor."
+    }
+  ]
+}

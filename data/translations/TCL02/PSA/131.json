@@ -1,1 +1,23 @@
-{"t":"TCL02","b":"PSA","c":131,"content":[{"v":1,"text":"Ya RAB, yüreğimde gurur yok, Gözüm yükseklerde değil. Büyük işlerle, Kendimi aşan harika işlerle uğraşmıyorum."},{"v":2,"text":"Tersine, ana kucağında sütten kesilmiş çocuk gibi, Kendimi yatıştırıp huzur buldum, Sütten kesilmiş çocuğa döndüm."},{"v":3,"text":"Ey İsrail, RAB'be umut bağla Şimdiden sonsuza dek!"}]}
+{
+  "t": "TCL02",
+  "b": "PSA",
+  "c": 131,
+  "content": [
+    {
+      "section": "131. Mezmur"
+    },
+    {
+      "v": 1,
+      "text": "Ya RAB, yüreğimde gurur yok, Gözüm yükseklerde değil. Büyük işlerle, Kendimi aşan harika işlerle uğraşmıyorum."
+    },
+    {
+      "v": 2,
+      "text": "Tersine, ana kucağında sütten kesilmiş çocuk gibi, Kendimi yatıştırıp huzur buldum, Sütten kesilmiş çocuğa döndüm."
+    },
+    {
+      "v": 3,
+      "text": "Ey İsrail, RAB'be umut bağla Şimdiden sonsuza dek!"
+    }
+  ],
+  "title": "131. Mezmur"
+}

@@ -1,1 +1,95 @@
-{"t": "TCL02", "b": "PSA", "c": 103, "content": [{"v": 1, "text": "RAB'be övgüler sun, ey gönlüm! O'nun kutsal adına övgüler sun, ey bütün varlığım!"}, {"v": 2, "text": "RAB'be övgüler sun, ey canım! İyiliklerinin hiçbirini unutma!"}, {"v": 3, "text": "Bütün suçlarını bağışlayan, Bütün hastalıklarını iyileştiren,"}, {"v": 4, "text": "Canını ölüm çukurundan kurtaran, Sana sevgi ve sevecenlik tacı giydiren,"}, {"v": 5, "text": "Yaşam boyu seni iyiliklerle doyuran O'dur, Bu nedenle gençliğin kartalınki gibi tazelenir."}, {"v": 6, "text": "RAB bütün düşkünlere Hak ve adalet sağlar."}, {"v": 7, "text": "Kendi yöntemlerini Musa'ya, İşlerini İsrailliler'e açıkladı."}, {"v": 8, "text": "RAB sevecen ve lütfedendir, Tez öfkelenmez, sevgisi engindir."}, {"v": 9, "text": "Sürekli suçlamaz, Öfkesini sonsuza dek sürdürmez."}, {"v": 10, "text": "Bize günahlarımıza göre davranmaz, Suçlarımızın karşılığını vermez."}, {"v": 11, "text": "Çünkü gökler yeryüzünden ne kadar yüksekse, Kendisinden korkanlara karşı sevgisi de o kadar büyüktür."}, {"v": 12, "text": "Doğu batıdan ne kadar uzaksa, O kadar uzaklaştırdı bizden isyanlarımızı."}, {"v": 13, "text": "Bir baba çocuklarına nasıl sevecen davranırsa, RAB de kendisinden korkanlara öyle sevecen davranır."}, {"v": 14, "text": "Çünkü mayamızı bilir, Toprak olduğumuzu anımsar."}, {"v": 15, "text": "İnsana gelince, ota benzer ömrü, Kır çiçeği gibi serpilir;"}, {"v": 16, "text": "Rüzgar üzerine esince yok olur gider, Bulunduğu yer onu tanımaz."}, {"v": 17, "text": "Ama RAB kendisinden korkanları sonsuza dek sever, Antlaşmasına uyan Ve buyruklarına uymayı anımsayan soylarına adil davranır."}, {"v": 19, "text": "RAB tahtını göklere kurmuştur, O'nun egemenliği her yeri kapsar."}, {"v": 20, "text": "RAB'be övgüler sunun, ey sizler, O'nun melekleri, O'nun sözünü dinleyen, Söylediklerini yerine getiren güç sahipleri!"}, {"v": 21, "text": "RAB'be övgüler sunun, ey sizler, O'nun bütün göksel orduları, İsteğini yerine getiren kulları!"}, {"v": 22, "text": "RAB'be övgüler sunun, Ey O'nun egemen olduğu yerlerdeki bütün yaratıklar! RAB'be övgüler sun, ey gönlüm!"}]}
+{
+  "t": "TCL02",
+  "b": "PSA",
+  "c": 103,
+  "content": [
+    {
+      "section": "103. Mezmur"
+    },
+    {
+      "v": 1,
+      "text": "RAB'be övgüler sun, ey gönlüm! O'nun kutsal adına övgüler sun, ey bütün varlığım!"
+    },
+    {
+      "v": 2,
+      "text": "RAB'be övgüler sun, ey canım! İyiliklerinin hiçbirini unutma!"
+    },
+    {
+      "v": 3,
+      "text": "Bütün suçlarını bağışlayan, Bütün hastalıklarını iyileştiren,"
+    },
+    {
+      "v": 4,
+      "text": "Canını ölüm çukurundan kurtaran, Sana sevgi ve sevecenlik tacı giydiren,"
+    },
+    {
+      "v": 5,
+      "text": "Yaşam boyu seni iyiliklerle doyuran O'dur, Bu nedenle gençliğin kartalınki gibi tazelenir."
+    },
+    {
+      "v": 6,
+      "text": "RAB bütün düşkünlere Hak ve adalet sağlar."
+    },
+    {
+      "v": 7,
+      "text": "Kendi yöntemlerini Musa'ya, İşlerini İsrailliler'e açıkladı."
+    },
+    {
+      "v": 8,
+      "text": "RAB sevecen ve lütfedendir, Tez öfkelenmez, sevgisi engindir."
+    },
+    {
+      "v": 9,
+      "text": "Sürekli suçlamaz, Öfkesini sonsuza dek sürdürmez."
+    },
+    {
+      "v": 10,
+      "text": "Bize günahlarımıza göre davranmaz, Suçlarımızın karşılığını vermez."
+    },
+    {
+      "v": 11,
+      "text": "Çünkü gökler yeryüzünden ne kadar yüksekse, Kendisinden korkanlara karşı sevgisi de o kadar büyüktür."
+    },
+    {
+      "v": 12,
+      "text": "Doğu batıdan ne kadar uzaksa, O kadar uzaklaştırdı bizden isyanlarımızı."
+    },
+    {
+      "v": 13,
+      "text": "Bir baba çocuklarına nasıl sevecen davranırsa, RAB de kendisinden korkanlara öyle sevecen davranır."
+    },
+    {
+      "v": 14,
+      "text": "Çünkü mayamızı bilir, Toprak olduğumuzu anımsar."
+    },
+    {
+      "v": 15,
+      "text": "İnsana gelince, ota benzer ömrü, Kır çiçeği gibi serpilir;"
+    },
+    {
+      "v": 16,
+      "text": "Rüzgar üzerine esince yok olur gider, Bulunduğu yer onu tanımaz."
+    },
+    {
+      "v": 17,
+      "text": "Ama RAB kendisinden korkanları sonsuza dek sever, Antlaşmasına uyan Ve buyruklarına uymayı anımsayan soylarına adil davranır."
+    },
+    {
+      "v": 19,
+      "text": "RAB tahtını göklere kurmuştur, O'nun egemenliği her yeri kapsar."
+    },
+    {
+      "v": 20,
+      "text": "RAB'be övgüler sunun, ey sizler, O'nun melekleri, O'nun sözünü dinleyen, Söylediklerini yerine getiren güç sahipleri!"
+    },
+    {
+      "v": 21,
+      "text": "RAB'be övgüler sunun, ey sizler, O'nun bütün göksel orduları, İsteğini yerine getiren kulları!"
+    },
+    {
+      "v": 22,
+      "text": "RAB'be övgüler sunun, Ey O'nun egemen olduğu yerlerdeki bütün yaratıklar! RAB'be övgüler sun, ey gönlüm!"
+    }
+  ],
+  "title": "103. Mezmur"
+}

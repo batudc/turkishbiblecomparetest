@@ -1,1 +1,99 @@
-{"t":"TCL02","b":"JOB","c":16,"content":[{"v":1,"text":"Eyüp şöyle yanıtladı:"},{"v":2,"text":"“Buna benzer çok şey duydum, Oysa siz avutmuyor, sıkıntı veriyorsunuz."},{"v":3,"text":"Boş sözleriniz hiç sona ermeyecek mi? Nedir derdiniz, boyuna karşılık veriyorsunuz?"},{"v":4,"text":"Yerimde siz olsaydınız, Ben de sizin gibi konuşabilirdim; Size karşı güzel sözler dizer, Başımı sallayabilirdim."},{"v":5,"text":"Ağzımdan çıkan sözlerle yüreklendirir, Dudaklarımdan dökülen avutucu sözlerle yatıştırırdım sizi."},{"v":6,"text":"“Konuşsam bile acım dinmez, Sussam ne değişir?"},{"v":7,"text":"Ey Tanrı, beni tükettin, Bütün ev halkımı dağıttın."},{"v":8,"text":"Beni sıkıp buruşturdun, bana karşı tanık oldu bu; Zayıflığım kalkmış tanıklık ediyor bana karşı."},{"v":9,"text":"Tanrı öfkeyle saldırıp parçalıyor beni, Dişlerini gıcırdatıyor bana, Düşmanım gözlerini üzerime dikiyor."},{"v":10,"text":"İnsanlar bana dudak büküyor, Aşağılayarak tokat atıyor, Birleşiyorlar bana karşı."},{"v":11,"text":"Tanrı haksızlara teslim ediyor beni, Kötülerin kucağına atıyor."},{"v":12,"text":"Ben rahat yaşıyordum, ama Tanrı paraladı beni, Boynumdan tutup yere çaldı. Beni hedef yaptı kendine."},{"v":13,"text":"Okçuları beni kuşatıyor, Acımadan böbreklerimi deşiyor, Ödümü yerlere döküyor."},{"v":14,"text":"Bedenimde gedik üstüne gedik açıyor, Dev gibi üzerime saldırıyor."},{"v":15,"text":"“Giymek için çul diktim, Gururumu ayak altına aldım."},{"v":16,"text":"Ağlamaktan yüzüm kızardı, Gözlerimin altı morardı."},{"v":17,"text":"Yine de ellerim şiddetten uzak, Duam içtendir."},{"v":18,"text":"“Ey toprak, kanımı örtme, Feryadım asla dinmesin."},{"v":19,"text":"Daha şimdiden tanığım göklerde, Beni savunan yücelerdedir."},{"v":20,"text":"Dostlarım benimle eğleniyor, Gözlerim Tanrı'ya yaş döküyor;"},{"v":21,"text":"Tanrı kendisiyle insan arasında İnsanoğluyla komşusu arasında hak arasın diye."},{"v":22,"text":"“Çünkü birkaç yıl sonra, Dönüşü olmayan yolculuğa çıkacağım."}]}
+{
+  "t": "TCL02",
+  "b": "JOB",
+  "c": 16,
+  "content": [
+    {
+      "section": "Eyüp"
+    },
+    {
+      "v": 1,
+      "text": "Eyüp şöyle yanıtladı:"
+    },
+    {
+      "v": 2,
+      "text": "“Buna benzer çok şey duydum, Oysa siz avutmuyor, sıkıntı veriyorsunuz."
+    },
+    {
+      "v": 3,
+      "text": "Boş sözleriniz hiç sona ermeyecek mi? Nedir derdiniz, boyuna karşılık veriyorsunuz?"
+    },
+    {
+      "v": 4,
+      "text": "Yerimde siz olsaydınız, Ben de sizin gibi konuşabilirdim; Size karşı güzel sözler dizer, Başımı sallayabilirdim."
+    },
+    {
+      "v": 5,
+      "text": "Ağzımdan çıkan sözlerle yüreklendirir, Dudaklarımdan dökülen avutucu sözlerle yatıştırırdım sizi."
+    },
+    {
+      "v": 6,
+      "text": "“Konuşsam bile acım dinmez, Sussam ne değişir?"
+    },
+    {
+      "v": 7,
+      "text": "Ey Tanrı, beni tükettin, Bütün ev halkımı dağıttın."
+    },
+    {
+      "v": 8,
+      "text": "Beni sıkıp buruşturdun, bana karşı tanık oldu bu; Zayıflığım kalkmış tanıklık ediyor bana karşı."
+    },
+    {
+      "v": 9,
+      "text": "Tanrı öfkeyle saldırıp parçalıyor beni, Dişlerini gıcırdatıyor bana, Düşmanım gözlerini üzerime dikiyor."
+    },
+    {
+      "v": 10,
+      "text": "İnsanlar bana dudak büküyor, Aşağılayarak tokat atıyor, Birleşiyorlar bana karşı."
+    },
+    {
+      "v": 11,
+      "text": "Tanrı haksızlara teslim ediyor beni, Kötülerin kucağına atıyor."
+    },
+    {
+      "v": 12,
+      "text": "Ben rahat yaşıyordum, ama Tanrı paraladı beni, Boynumdan tutup yere çaldı. Beni hedef yaptı kendine."
+    },
+    {
+      "v": 13,
+      "text": "Okçuları beni kuşatıyor, Acımadan böbreklerimi deşiyor, Ödümü yerlere döküyor."
+    },
+    {
+      "v": 14,
+      "text": "Bedenimde gedik üstüne gedik açıyor, Dev gibi üzerime saldırıyor."
+    },
+    {
+      "v": 15,
+      "text": "“Giymek için çul diktim, Gururumu ayak altına aldım."
+    },
+    {
+      "v": 16,
+      "text": "Ağlamaktan yüzüm kızardı, Gözlerimin altı morardı."
+    },
+    {
+      "v": 17,
+      "text": "Yine de ellerim şiddetten uzak, Duam içtendir."
+    },
+    {
+      "v": 18,
+      "text": "“Ey toprak, kanımı örtme, Feryadım asla dinmesin."
+    },
+    {
+      "v": 19,
+      "text": "Daha şimdiden tanığım göklerde, Beni savunan yücelerdedir."
+    },
+    {
+      "v": 20,
+      "text": "Dostlarım benimle eğleniyor, Gözlerim Tanrı'ya yaş döküyor;"
+    },
+    {
+      "v": 21,
+      "text": "Tanrı kendisiyle insan arasında İnsanoğluyla komşusu arasında hak arasın diye."
+    },
+    {
+      "v": 22,
+      "text": "“Çünkü birkaç yıl sonra, Dönüşü olmayan yolculuğa çıkacağım."
+    }
+  ],
+  "title": "Eyüp"
+}

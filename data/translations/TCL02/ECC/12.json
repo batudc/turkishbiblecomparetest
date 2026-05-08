@@ -1,1 +1,62 @@
-{"t": "TCL02", "b": "ECC", "c": 12, "content": [{"v": 1, "text": "Bu yüzden zor günler gelmeden, “Zevk almıyorum” diyeceğin yıllar yaklaşmadan, Güneş, ışık, ay ve yıldızlar kararmadan Ve yağmurdan sonra bulutlar geri dönmeden, Gençlik günlerinde seni yaratanı anımsa."}, {"v": 3, "text": "O gün, evi bekleyenler titreyecek, Güçlüler eğilecek, Öğütücüler azaldığı için duracak, Pencereden bakanlar kararacak."}, {"v": 4, "text": "Değirmen sesi yavaşlayınca, Sokağa açılan çift kapı kapanacak, İnsanlar kuş sesiyle uyanacak, Ama şarkıların sesini duyamayacaklar."}, {"v": 5, "text": "Dahası yüksek yerden, Sokaktaki tehlikelerden korkacaklar; Badem ağacı çiçek açacak, Çekirge ağırlaşacak, Tutku zayıflayacak. Çünkü insan sonsuzluk evine gidecek, Yas tutanlar sokakta dolaşacak."}, {"v": 6, "text": "Gümüş tel kopmadan, Altın tas kırılmadan, Testi çeşmede parçalanmadan, Kuyu makarası kırılmadan,"}, {"v": 7, "text": "Toprak geldiği yere dönmeden, Ruh onu veren Tanrı'ya dönmeden, Seni yaratanı anımsa."}, {"v": 8, "text": "“Her şey boş” diyor Vaiz, “Bomboş!”"}, {"v": 9, "text": "Vaiz yalnız bilge değildi, bildiklerini halka da öğretiyordu. Hesap etti, araştırdı ve birçok özdeyişi düzene soktu."}, {"v": 10, "text": "Güzel sözler bulmaya çalıştı. Yazdıkları gerçek ve doğrudur."}, {"v": 11, "text": "Bilgelerin sözleri üvendire gibidir, derledikleri özdeyişlerse, iyi çakılan çivi gibi; bir tek Çoban tarafından verilmişler."}, {"v": 12, "text": "Bunların dışındakilerden sakın, evladım. Çok kitap yazmanın sonu yoktur, fazla araştırma da bedeni yıpratır."}, {"v": 13, "text": "Her şey duyuldu, sonuç şu: Tanrı'ya saygı göster, buyruklarını yerine getir, Çünkü her insanın görevi budur."}, {"v": 14, "text": "Tanrı her işi, her gizli şeyi yargılayacaktır, İster iyi ister kötü olsun."}]}
+{
+  "t": "TCL02",
+  "b": "ECC",
+  "c": 12,
+  "content": [
+    {
+      "v": 1,
+      "text": "Bu yüzden zor günler gelmeden, “Zevk almıyorum” diyeceğin yıllar yaklaşmadan, Güneş, ışık, ay ve yıldızlar kararmadan Ve yağmurdan sonra bulutlar geri dönmeden, Gençlik günlerinde seni yaratanı anımsa."
+    },
+    {
+      "v": 3,
+      "text": "O gün, evi bekleyenler titreyecek, Güçlüler eğilecek, Öğütücüler azaldığı için duracak, Pencereden bakanlar kararacak."
+    },
+    {
+      "v": 4,
+      "text": "Değirmen sesi yavaşlayınca, Sokağa açılan çift kapı kapanacak, İnsanlar kuş sesiyle uyanacak, Ama şarkıların sesini duyamayacaklar."
+    },
+    {
+      "v": 5,
+      "text": "Dahası yüksek yerden, Sokaktaki tehlikelerden korkacaklar; Badem ağacı çiçek açacak, Çekirge ağırlaşacak, Tutku zayıflayacak. Çünkü insan sonsuzluk evine gidecek, Yas tutanlar sokakta dolaşacak."
+    },
+    {
+      "v": 6,
+      "text": "Gümüş tel kopmadan, Altın tas kırılmadan, Testi çeşmede parçalanmadan, Kuyu makarası kırılmadan,"
+    },
+    {
+      "v": 7,
+      "text": "Toprak geldiği yere dönmeden, Ruh onu veren Tanrı'ya dönmeden, Seni yaratanı anımsa."
+    },
+    {
+      "v": 8,
+      "text": "“Her şey boş” diyor Vaiz, “Bomboş!”"
+    },
+    {
+      "section": "Son Söz"
+    },
+    {
+      "v": 9,
+      "text": "Vaiz yalnız bilge değildi, bildiklerini halka da öğretiyordu. Hesap etti, araştırdı ve birçok özdeyişi düzene soktu."
+    },
+    {
+      "v": 10,
+      "text": "Güzel sözler bulmaya çalıştı. Yazdıkları gerçek ve doğrudur."
+    },
+    {
+      "v": 11,
+      "text": "Bilgelerin sözleri üvendire gibidir, derledikleri özdeyişlerse, iyi çakılan çivi gibi; bir tek Çoban tarafından verilmişler."
+    },
+    {
+      "v": 12,
+      "text": "Bunların dışındakilerden sakın, evladım. Çok kitap yazmanın sonu yoktur, fazla araştırma da bedeni yıpratır."
+    },
+    {
+      "v": 13,
+      "text": "Her şey duyuldu, sonuç şu: Tanrı'ya saygı göster, buyruklarını yerine getir, Çünkü her insanın görevi budur."
+    },
+    {
+      "v": 14,
+      "text": "Tanrı her işi, her gizli şeyi yargılayacaktır, İster iyi ister kötü olsun."
+    }
+  ]
+}

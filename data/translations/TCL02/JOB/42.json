@@ -1,1 +1,85 @@
-{"t":"TCL02","b":"JOB","c":42,"content":[{"v":1,"text":"O zaman Eyüp RAB'bi şöyle yanıtladı:"},{"v":2,"text":"“Senin her şeyi yapabileceğini biliyorum, Hiçbir amacına engel olunmaz."},{"v":3,"text":"‘Tasarımı bilgisizce karartan bu adam kim?’ diye sordun. Kuşkusuz anlamadığım şeyleri konuştum, Beni aşan, bilmediğim şaşılası işleri."},{"v":4,"text":"“ ‘Dinle de konuşayım’ dedin, ‘Ben sorayım, sen anlat.’"},{"v":5,"text":"Kulaktan duymaydı bildiklerim senin hakkında, Şimdiyse gözlerimle gördüm seni."},{"v":6,"text":"Bu yüzden kendimi hor görüyor, Toz ve kül içinde tövbe ediyorum.”"},{"v":7,"text":"RAB Eyüp'le konuştuktan sonra, Temanlı Elifaz'a: “Sana ve iki dostuna karşı öfkem alevlendi” dedi, “Çünkü kulum Eyüp gibi hakkımda doğruyu konuşmadınız."},{"v":8,"text":"Şimdi yedi boğa, yedi koç alıp kulum Eyüp'ün yanına gidin, kendiniz için yakmalık sunu sunun. Kulum Eyüp sizin için dua etsin. Çünkü onun duasını kabul eder, aptallığınızın karşılığını vermem. Kulum Eyüp gibi hakkımda doğruyu konuşmadınız.”"},{"v":9,"text":"Temanlı Elifaz, Şuahlı Bildat, Naamalı Sofar gidip RAB'bin söylediğini yaptılar. RAB de Eyüp'ün duasını kabul etti."},{"v":10,"text":"Eyüp dostları için dua ettikten sonra, RAB onu eski gönencine kavuşturup ona önceki varlığının iki katını verdi."},{"v":11,"text":"Bütün erkek ve kız kardeşleri, eski tanıdıklarının hepsi Eyüp'ün yanına gelip evinde onunla birlikte yemek yediler. Acısını paylaşıp RAB'bin başına getirmiş olduğu felaketlerden ötürü onu avuttular. Her biri ona bir parça gümüş, bir de altın halka verdi."},{"v":12,"text":"RAB Eyüp'ün sonunu başından bereketli kıldı. On dört bin koyuna, altı bin deveye, bin çift öküze, bin eşeğe sahip oldu."},{"v":13,"text":"Yedi oğlu, üç kızı oldu."},{"v":14,"text":"İlk kızının adını Yemima, ikincisinin Kesia, üçüncüsünün Keren-Happuk koydu."},{"v":15,"text":"Ülkenin hiçbir yerinde Eyüp'ün kızları kadar güzel kızlar yoktu. Babaları, kardeşlerinin yanısıra onlara da miras verdi."},{"v":16,"text":"Bundan sonra Eyüp yüz kırk yıl daha yaşadı, oğullarını, dört göbek torunlarını gördü."},{"v":17,"text":"Kocayıp yaşama doyarak öldü."}]}
+{
+  "t": "TCL02",
+  "b": "JOB",
+  "c": 42,
+  "content": [
+    {
+      "section": "Eyüp'ün Yeni Bir Yaşama Dönüşü"
+    },
+    {
+      "v": 1,
+      "text": "O zaman Eyüp RAB'bi şöyle yanıtladı:"
+    },
+    {
+      "v": 2,
+      "text": "“Senin her şeyi yapabileceğini biliyorum, Hiçbir amacına engel olunmaz."
+    },
+    {
+      "v": 3,
+      "text": "‘Tasarımı bilgisizce karartan bu adam kim?’ diye sordun. Kuşkusuz anlamadığım şeyleri konuştum, Beni aşan, bilmediğim şaşılası işleri."
+    },
+    {
+      "v": 4,
+      "text": "“ ‘Dinle de konuşayım’ dedin, ‘Ben sorayım, sen anlat.’"
+    },
+    {
+      "v": 5,
+      "text": "Kulaktan duymaydı bildiklerim senin hakkında, Şimdiyse gözlerimle gördüm seni."
+    },
+    {
+      "v": 6,
+      "text": "Bu yüzden kendimi hor görüyor, Toz ve kül içinde tövbe ediyorum.”"
+    },
+    {
+      "section": "Rab'bin Kararı"
+    },
+    {
+      "v": 7,
+      "text": "RAB Eyüp'le konuştuktan sonra, Temanlı Elifaz'a: “Sana ve iki dostuna karşı öfkem alevlendi” dedi, “Çünkü kulum Eyüp gibi hakkımda doğruyu konuşmadınız."
+    },
+    {
+      "v": 8,
+      "text": "Şimdi yedi boğa, yedi koç alıp kulum Eyüp'ün yanına gidin, kendiniz için yakmalık sunu sunun. Kulum Eyüp sizin için dua etsin. Çünkü onun duasını kabul eder, aptallığınızın karşılığını vermem. Kulum Eyüp gibi hakkımda doğruyu konuşmadınız.”"
+    },
+    {
+      "v": 9,
+      "text": "Temanlı Elifaz, Şuahlı Bildat, Naamalı Sofar gidip RAB'bin söylediğini yaptılar. RAB de Eyüp'ün duasını kabul etti."
+    },
+    {
+      "section": "Tanrı Eyüp'ü Yeniden Bolluğa Kavuşturuyor"
+    },
+    {
+      "v": 10,
+      "text": "Eyüp dostları için dua ettikten sonra, RAB onu eski gönencine kavuşturup ona önceki varlığının iki katını verdi."
+    },
+    {
+      "v": 11,
+      "text": "Bütün erkek ve kız kardeşleri, eski tanıdıklarının hepsi Eyüp'ün yanına gelip evinde onunla birlikte yemek yediler. Acısını paylaşıp RAB'bin başına getirmiş olduğu felaketlerden ötürü onu avuttular. Her biri ona bir parça gümüş, bir de altın halka verdi."
+    },
+    {
+      "v": 12,
+      "text": "RAB Eyüp'ün sonunu başından bereketli kıldı. On dört bin koyuna, altı bin deveye, bin çift öküze, bin eşeğe sahip oldu."
+    },
+    {
+      "v": 13,
+      "text": "Yedi oğlu, üç kızı oldu."
+    },
+    {
+      "v": 14,
+      "text": "İlk kızının adını Yemima, ikincisinin Kesia, üçüncüsünün Keren-Happuk koydu."
+    },
+    {
+      "v": 15,
+      "text": "Ülkenin hiçbir yerinde Eyüp'ün kızları kadar güzel kızlar yoktu. Babaları, kardeşlerinin yanısıra onlara da miras verdi."
+    },
+    {
+      "v": 16,
+      "text": "Bundan sonra Eyüp yüz kırk yıl daha yaşadı, oğullarını, dört göbek torunlarını gördü."
+    },
+    {
+      "v": 17,
+      "text": "Kocayıp yaşama doyarak öldü."
+    }
+  ],
+  "title": "Eyüp'ün Yeni Bir Yaşama Dönüşü"
+}

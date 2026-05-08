@@ -1,1 +1,123 @@
-{"t":"TCL02","b":"EZK","c":12,"content":[{"v":1,"text":"RAB bana şöyle seslendi:"},{"v":2,"text":"“İnsanoğlu, asi bir halkın arasında yaşıyorsun. Gözleri varken görmüyor, kulakları varken işitmiyorlar. Çünkü bu halk asidir."},{"v":3,"text":"“Sen, insanoğlu, sürgüne gidecekmiş gibi eşyanı topla, onların gözü önünde, gündüzün yola çık, bulunduğun yerden başka bir yere git. Kim bilir, asi bir halk olmalarına karşın seni görüp anlayabilirler."},{"v":4,"text":"Gündüzün, halkın gözü önünde topladığın sürgün eşyanı çıkar. Akşam yine onların gözü önünde sürgüne giden biri gibi yola çık."},{"v":5,"text":"Onlar seni izlerken duvarı delip eşyanı çıkar."},{"v":6,"text":"Seni izlerlerken eşyanı sırtlayıp karanlıkta taşı. Ülkeyi görmemek için yüzünü ört. Çünkü yapacakların İsrail halkı için bir uyarı olacaktır.”"},{"v":7,"text":"Bana verilen buyruk uyarınca davrandım. Gündüzün sürgüne gidecekmiş gibi eşyalarımı çıkardım. Akşam elimle duvarı deldim. Eşyalarımı karanlıkta çıkarıp onlar izlerken sırtımda taşıdım."},{"v":8,"text":"Ertesi sabah RAB bana seslendi:"},{"v":9,"text":"“İnsanoğlu, o asi İsrail halkı sana, ‘Ne yapıyorsun?’ diye sormadı mı?"},{"v":10,"text":"“Onlara de ki, ‘Egemen RAB şöyle diyor: Yeruşalim'deki önder ve orada yaşayan bütün İsrail halkına ilişkin bir bildiridir bu."},{"v":11,"text":"Ben sizin için bir uyarıyım’ de. Sana yaptığımın tıpkısı onlara da yapılacak. Tutsak olarak sürgüne gidecekler."},{"v":12,"text":"“Onların önderi karanlıkta eşyasını sırtında taşıyarak yola koyulacak. Eşyasını çıkarmak için duvarda bir gedik açacak. Ülkeyi görmemek için yüzünü örtecek."},{"v":13,"text":"Onun üzerine ağımı atacağım, kurduğum tuzağa düşecek. Onu Babil'e, Kildan ülkesine götüreceğim, ama ülkeyi göremeden orada ölecek."},{"v":14,"text":"Çevresindekilerin tümünü –yardımcılarını, ordusunu– dünyanın dört bucağına dağıtacağım. Yalın kılıç onların peşlerine düşeceğim."},{"v":15,"text":"Onları uluslar arasına dağıtıp ülkelere sürdüğümde, benim RAB olduğumu anlayacaklar."},{"v":16,"text":"Gittikleri uluslarda yaptıkları bütün iğrenç uygulamaları anlatmaları için aralarından birkaç kişiyi kılıçtan, kıtlıktan, salgın hastalıktan sağ bırakacağım. Böylece benim RAB olduğumu anlayacaklar.”"},{"v":17,"text":"RAB bana şöyle seslendi:"},{"v":18,"text":"“İnsanoğlu, yiyeceğini titreyerek ye, suyunu korkudan ürpererek iç."},{"v":19,"text":"Ülkede yaşayan halka de ki, ‘Egemen RAB İsrail ve Yeruşalim'de yaşayanlar için şöyle diyor: Yiyeceklerini umutsuzluk içinde yiyecek, sularını şaşkınlık içinde içecekler. Orada yaşayanların yaptığı zorbalık yüzünden ülke ıssız bırakılacak."},{"v":20,"text":"Halkın içinde yaşadığı kentler yakılacak, ülke çöle dönüşecek. O zaman benim RAB olduğumu anlayacaksınız.’ ”"},{"v":21,"text":"RAB bana şöyle seslendi:"},{"v":22,"text":"“İnsanoğlu, İsrail'de yaygın olan, ‘Günler geçiyor, her görüm boşa çıkıyor’ deyişinin anlamı nedir?"},{"v":23,"text":"Onlara de ki, ‘Egemen RAB şöyle diyor: Ben bu deyişe son vereceğim. Bundan böyle İsrail'de bir daha söylenmeyecek.’ Yine onlara de ki, ‘Her görümün yerine geleceği günler yaklaştı."},{"v":24,"text":"Artık İsrail halkı arasında yalan görüm ya da aldatıcı falcılık olmayacak."},{"v":25,"text":"Ama ben RAB, ne dersem gecikmeden olacak. Siz, ey asi İsrail halkı, söylediklerimin tümünü sizin günlerinizde yerine getireceğim. Böyle diyor Egemen RAB.’ ”"},{"v":26,"text":"RAB bana şöyle seslendi:"},{"v":27,"text":"“İnsanoğlu, İsrail halkı, ‘Onun gördüğü görüm uzak günler için, peygamberlik sözleri de uzak gelecekle ilgili’ diyor."},{"v":28,"text":"“Bundan ötürü onlara de ki, ‘Egemen RAB şöyle diyor: Söylediğim sözlerden hiçbiri artık gecikmeyecek, ne dersem olacak. Böyle diyor Egemen RAB.’ ”"}]}
+{
+  "t": "TCL02",
+  "b": "EZK",
+  "c": 12,
+  "content": [
+    {
+      "section": "Sürgüne Gidiş Simgelerle Anlatılıyor"
+    },
+    {
+      "v": 1,
+      "text": "RAB bana şöyle seslendi:"
+    },
+    {
+      "v": 2,
+      "text": "“İnsanoğlu, asi bir halkın arasında yaşıyorsun. Gözleri varken görmüyor, kulakları varken işitmiyorlar. Çünkü bu halk asidir."
+    },
+    {
+      "v": 3,
+      "text": "“Sen, insanoğlu, sürgüne gidecekmiş gibi eşyanı topla, onların gözü önünde, gündüzün yola çık, bulunduğun yerden başka bir yere git. Kim bilir, asi bir halk olmalarına karşın seni görüp anlayabilirler."
+    },
+    {
+      "v": 4,
+      "text": "Gündüzün, halkın gözü önünde topladığın sürgün eşyanı çıkar. Akşam yine onların gözü önünde sürgüne giden biri gibi yola çık."
+    },
+    {
+      "v": 5,
+      "text": "Onlar seni izlerken duvarı delip eşyanı çıkar."
+    },
+    {
+      "v": 6,
+      "text": "Seni izlerlerken eşyanı sırtlayıp karanlıkta taşı. Ülkeyi görmemek için yüzünü ört. Çünkü yapacakların İsrail halkı için bir uyarı olacaktır.”"
+    },
+    {
+      "v": 7,
+      "text": "Bana verilen buyruk uyarınca davrandım. Gündüzün sürgüne gidecekmiş gibi eşyalarımı çıkardım. Akşam elimle duvarı deldim. Eşyalarımı karanlıkta çıkarıp onlar izlerken sırtımda taşıdım."
+    },
+    {
+      "v": 8,
+      "text": "Ertesi sabah RAB bana seslendi:"
+    },
+    {
+      "v": 9,
+      "text": "“İnsanoğlu, o asi İsrail halkı sana, ‘Ne yapıyorsun?’ diye sormadı mı?"
+    },
+    {
+      "v": 10,
+      "text": "“Onlara de ki, ‘Egemen RAB şöyle diyor: Yeruşalim'deki önder ve orada yaşayan bütün İsrail halkına ilişkin bir bildiridir bu."
+    },
+    {
+      "v": 11,
+      "text": "Ben sizin için bir uyarıyım’ de. Sana yaptığımın tıpkısı onlara da yapılacak. Tutsak olarak sürgüne gidecekler."
+    },
+    {
+      "v": 12,
+      "text": "“Onların önderi karanlıkta eşyasını sırtında taşıyarak yola koyulacak. Eşyasını çıkarmak için duvarda bir gedik açacak. Ülkeyi görmemek için yüzünü örtecek."
+    },
+    {
+      "v": 13,
+      "text": "Onun üzerine ağımı atacağım, kurduğum tuzağa düşecek. Onu Babil'e, Kildan ülkesine götüreceğim, ama ülkeyi göremeden orada ölecek."
+    },
+    {
+      "v": 14,
+      "text": "Çevresindekilerin tümünü –yardımcılarını, ordusunu– dünyanın dört bucağına dağıtacağım. Yalın kılıç onların peşlerine düşeceğim."
+    },
+    {
+      "v": 15,
+      "text": "Onları uluslar arasına dağıtıp ülkelere sürdüğümde, benim RAB olduğumu anlayacaklar."
+    },
+    {
+      "v": 16,
+      "text": "Gittikleri uluslarda yaptıkları bütün iğrenç uygulamaları anlatmaları için aralarından birkaç kişiyi kılıçtan, kıtlıktan, salgın hastalıktan sağ bırakacağım. Böylece benim RAB olduğumu anlayacaklar.”"
+    },
+    {
+      "v": 17,
+      "text": "RAB bana şöyle seslendi:"
+    },
+    {
+      "v": 18,
+      "text": "“İnsanoğlu, yiyeceğini titreyerek ye, suyunu korkudan ürpererek iç."
+    },
+    {
+      "v": 19,
+      "text": "Ülkede yaşayan halka de ki, ‘Egemen RAB İsrail ve Yeruşalim'de yaşayanlar için şöyle diyor: Yiyeceklerini umutsuzluk içinde yiyecek, sularını şaşkınlık içinde içecekler. Orada yaşayanların yaptığı zorbalık yüzünden ülke ıssız bırakılacak."
+    },
+    {
+      "v": 20,
+      "text": "Halkın içinde yaşadığı kentler yakılacak, ülke çöle dönüşecek. O zaman benim RAB olduğumu anlayacaksınız.’ ”"
+    },
+    {
+      "v": 21,
+      "text": "RAB bana şöyle seslendi:"
+    },
+    {
+      "v": 22,
+      "text": "“İnsanoğlu, İsrail'de yaygın olan, ‘Günler geçiyor, her görüm boşa çıkıyor’ deyişinin anlamı nedir?"
+    },
+    {
+      "v": 23,
+      "text": "Onlara de ki, ‘Egemen RAB şöyle diyor: Ben bu deyişe son vereceğim. Bundan böyle İsrail'de bir daha söylenmeyecek.’ Yine onlara de ki, ‘Her görümün yerine geleceği günler yaklaştı."
+    },
+    {
+      "v": 24,
+      "text": "Artık İsrail halkı arasında yalan görüm ya da aldatıcı falcılık olmayacak."
+    },
+    {
+      "v": 25,
+      "text": "Ama ben RAB, ne dersem gecikmeden olacak. Siz, ey asi İsrail halkı, söylediklerimin tümünü sizin günlerinizde yerine getireceğim. Böyle diyor Egemen RAB.’ ”"
+    },
+    {
+      "v": 26,
+      "text": "RAB bana şöyle seslendi:"
+    },
+    {
+      "v": 27,
+      "text": "“İnsanoğlu, İsrail halkı, ‘Onun gördüğü görüm uzak günler için, peygamberlik sözleri de uzak gelecekle ilgili’ diyor."
+    },
+    {
+      "v": 28,
+      "text": "“Bundan ötürü onlara de ki, ‘Egemen RAB şöyle diyor: Söylediğim sözlerden hiçbiri artık gecikmeyecek, ne dersem olacak. Böyle diyor Egemen RAB.’ ”"
+    }
+  ],
+  "title": "Sürgüne Gidiş Simgelerle Anlatılıyor"
+}

@@ -1,1 +1,77 @@
-{"t": "TCL02", "b": "2CO", "c": 2, "content": [{"v": 1, "text": "Size tekrar keder dolu bir ziyaret yapmamaya karar verdim."}, {"v": 2, "text": "Çünkü sizi kederlendirirsem, keder verdiğim sizlerden başka beni kim sevindirecek?"}, {"v": 3, "text": "Bunu yazdım ki, geldiğimde beni sevindirmesi gerekenler beni kederlendirmesin. Sevincimin hepinizin sevinci olduğuna ilişkin hepinize güvenim var."}, {"v": 4, "text": "Kederlenesiniz diye değil, size beslediğim derin sevgiyi anlayasınız diye büyük bir sıkıntı ve yürek acısıyla gözyaşları içinde size yazdım."}, {"v": 5, "text": "Eğer biri bir başkasını kederlendirdiyse, beni değil –abartmadan söyleyeyim– bir dereceye kadar hepinizi kederlendirmiş olur."}, {"v": 6, "text": "Böyle birine çoğunluğun verdiği bu ceza yeterlidir."}, {"v": 7, "text": "Aşırı kedere boğulmasın diye o kişiyi daha fazla cezalandırmayıp bağışlamalı ve teselli etmelisiniz."}, {"v": 8, "text": "Bunun için ona duyduğunuz sevgiyi yenilemenizi rica ederim."}, {"v": 9, "text": "Sizi sınamak ve her durumda söz dinleyenler olup olmadığınızı anlamak için yazdım size."}, {"v": 10, "text": "Kimi bağışlarsanız, ben de onu bağışlarım. Eğer bir şeyi bağışladımsa, bunu sizin için Mesih'in önünde bağışladım."}, {"v": 11, "text": "Öyle ki, Şeytan'ın oyununa gelmeyelim. Çünkü onun düzenlerini bilmez değiliz."}, {"v": 12, "text": "Mesih'in Müjdesi'ni yaymak amacıyla Troas'a geldiğimde Rab'bin işi için bana bir kapı açıldığı halde, kardeşim Titus'u orada bulamadığım için iç huzurum yoktu. Bu nedenle oradakilere veda ederek Makedonya'ya gittim."}, {"v": 14, "text": "Bizi her zaman Mesih'in zafer alayında yürüten, O'nu tanımanın güzel kokusunu aracılığımızla her yerde yayan Tanrı'ya şükürler olsun!"}, {"v": 15, "text": "Çünkü biz hem kurtulanlar hem de mahvolanlar arasında Tanrı için Mesih'in güzel kokusuyuz."}, {"v": 16, "text": "Mahvolanlar için ölüme götüren ölüm kokusu, kurtulanlar içinse yaşama götüren yaşam kokusuyuz. Böylesi bir işe kim yeterlidir?"}, {"v": 17, "text": "Birçokları gibi, Tanrı'nın sözünü ticaret aracı yapanlar değiliz. Tanrı tarafından gönderilen ve Mesih'e ait olan kişiler olarak Tanrı'nın önünde içtenlikle konuşuyoruz."}]}
+{
+  "t": "TCL02",
+  "b": "2CO",
+  "c": 2,
+  "content": [
+    {
+      "v": 1,
+      "text": "Size tekrar keder dolu bir ziyaret yapmamaya karar verdim."
+    },
+    {
+      "v": 2,
+      "text": "Çünkü sizi kederlendirirsem, keder verdiğim sizlerden başka beni kim sevindirecek?"
+    },
+    {
+      "v": 3,
+      "text": "Bunu yazdım ki, geldiğimde beni sevindirmesi gerekenler beni kederlendirmesin. Sevincimin hepinizin sevinci olduğuna ilişkin hepinize güvenim var."
+    },
+    {
+      "v": 4,
+      "text": "Kederlenesiniz diye değil, size beslediğim derin sevgiyi anlayasınız diye büyük bir sıkıntı ve yürek acısıyla gözyaşları içinde size yazdım."
+    },
+    {
+      "section": "Suçluyu Bağışlamak"
+    },
+    {
+      "v": 5,
+      "text": "Eğer biri bir başkasını kederlendirdiyse, beni değil –abartmadan söyleyeyim– bir dereceye kadar hepinizi kederlendirmiş olur."
+    },
+    {
+      "v": 6,
+      "text": "Böyle birine çoğunluğun verdiği bu ceza yeterlidir."
+    },
+    {
+      "v": 7,
+      "text": "Aşırı kedere boğulmasın diye o kişiyi daha fazla cezalandırmayıp bağışlamalı ve teselli etmelisiniz."
+    },
+    {
+      "v": 8,
+      "text": "Bunun için ona duyduğunuz sevgiyi yenilemenizi rica ederim."
+    },
+    {
+      "v": 9,
+      "text": "Sizi sınamak ve her durumda söz dinleyenler olup olmadığınızı anlamak için yazdım size."
+    },
+    {
+      "v": 10,
+      "text": "Kimi bağışlarsanız, ben de onu bağışlarım. Eğer bir şeyi bağışladımsa, bunu sizin için Mesih'in önünde bağışladım."
+    },
+    {
+      "v": 11,
+      "text": "Öyle ki, Şeytan'ın oyununa gelmeyelim. Çünkü onun düzenlerini bilmez değiliz."
+    },
+    {
+      "section": "Yeni Antlaşmanın Elçileri"
+    },
+    {
+      "v": 12,
+      "text": "Mesih'in Müjdesi'ni yaymak amacıyla Troas'a geldiğimde Rab'bin işi için bana bir kapı açıldığı halde, kardeşim Titus'u orada bulamadığım için iç huzurum yoktu. Bu nedenle oradakilere veda ederek Makedonya'ya gittim."
+    },
+    {
+      "v": 14,
+      "text": "Bizi her zaman Mesih'in zafer alayında yürüten, O'nu tanımanın güzel kokusunu aracılığımızla her yerde yayan Tanrı'ya şükürler olsun!"
+    },
+    {
+      "v": 15,
+      "text": "Çünkü biz hem kurtulanlar hem de mahvolanlar arasında Tanrı için Mesih'in güzel kokusuyuz."
+    },
+    {
+      "v": 16,
+      "text": "Mahvolanlar için ölüme götüren ölüm kokusu, kurtulanlar içinse yaşama götüren yaşam kokusuyuz. Böylesi bir işe kim yeterlidir?"
+    },
+    {
+      "v": 17,
+      "text": "Birçokları gibi, Tanrı'nın sözünü ticaret aracı yapanlar değiliz. Tanrı tarafından gönderilen ve Mesih'e ait olan kişiler olarak Tanrı'nın önünde içtenlikle konuşuyoruz."
+    }
+  ]
+}

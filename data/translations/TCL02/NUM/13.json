@@ -1,1 +1,139 @@
-{"t": "TCL02", "b": "NUM", "c": 13, "content": [{"v": 1, "text": "RAB Musa'ya, “İsrail halkına vereceğim Kenan ülkesini araştırmak için bazı adamlar gönder” dedi, “Ataların her oymağından bir önder gönder.”"}, {"v": 3, "text": "Musa RAB'bin buyruğu uyarınca Paran Çölü'nden adamları gönderdi. Hepsi İsrail halkının önderlerindendi."}, {"v": 4, "text": "Adları şöyleydi:  Ruben oymağından Zakkur oğlu Şammua;"}, {"v": 5, "text": "Şimon oymağından Hori oğlu Şafat;"}, {"v": 6, "text": "Yahuda oymağından Yefunne oğlu Kalev;"}, {"v": 7, "text": "İssakar oymağından Yusuf oğlu Yigal;"}, {"v": 8, "text": "Efrayim oymağından Nun oğlu Hoşea;"}, {"v": 9, "text": "Benyamin oymağından Rafu oğlu Palti;"}, {"v": 10, "text": "Zevulun oymağından Sodi oğlu Gaddiel;"}, {"v": 11, "text": "Yusuf oymağından –Manaşşe oymağından– Susi oğlu Gaddi;"}, {"v": 12, "text": "Dan oymağından Gemalli oğlu Ammiel;"}, {"v": 13, "text": "Aşer oymağından Mikael oğlu Setur;"}, {"v": 14, "text": "Naftali oymağından Vofsi oğlu Nahbi;"}, {"v": 15, "text": "Gad oymağından Maki oğlu Geuel."}, {"v": 16, "text": "Ülkeyi araştırmak üzere Musa'nın gönderdiği adamlar bunlardı. Musa Nun oğlu Hoşea'ya Yeşu adını verdi."}, {"v": 17, "text": "Musa, Kenan ülkesini araştırmak üzere onları gönderirken, “Negev'e, dağlık bölgeye gidin” dedi,"}, {"v": 18, "text": "“Nasıl bir ülke olduğunu, orada yaşayan halkın güçlü mü zayıf mı, çok mu az mı olduğunu öğrenin."}, {"v": 19, "text": "Yaşadıkları ülke iyi mi kötü mü, kentleri nasıl, surlu mu değil mi anlayın."}, {"v": 20, "text": "Toprak nasıl? Verimli mi, kıraç mı? Çevre ağaçlık mı, değil mi? Elinizden geleni yapıp orada yetişen meyvelerden getirin.” Mevsim üzümün olgunlaşmaya başladığı zamandı."}, {"v": 21, "text": "Böylece adamlar yola çıkıp ülkeyi Zin Çölü'nden Levo-Hamat'a doğru Rehov'a dek araştırdılar."}, {"v": 22, "text": "Negev'den geçip Anakoğulları'ndan Ahiman, Şeşay ve Talmay'ın yaşadığı Hevron'a vardılar. –Hevron Mısır'daki Soan Kenti'nden yedi yıl önce kurulmuştu.–"}, {"v": 23, "text": "Eşkol Vadisi'ne varınca, üzerinde bir salkım üzüm olan bir asma dalı kestiler. Adamlardan ikisi dalı bir sırıkta taşıdılar. Yanlarına nar, incir de aldılar."}, {"v": 24, "text": "İsrailliler'in kestiği üzüm salkımından dolayı oraya Eşkol Vadisi adı verildi."}, {"v": 25, "text": "Kırk gün dolaştıktan sonra adamlar ülkeyi araştırmaktan döndüler."}, {"v": 26, "text": "Paran Çölü'ndeki Kadeş'e, Musa'yla Harun'un ve İsrail topluluğunun yanına geldiler. Onlara ve bütün topluluğa gördüklerini anlatıp ülkenin ürünlerini gösterdiler."}, {"v": 27, "text": "Musa'ya, “Bizi gönderdiğin ülkeye gittik” dediler, “Gerçekten süt ve bal akıyor orada! İşte ülkenin ürünleri!"}, {"v": 28, "text": "Ancak orada yaşayan halk güçlü, kentler de surlu ve çok büyük. Orada Anak soyundan gelen insanları bile gördük."}, {"v": 29, "text": "Amalekliler Negev'de; Hititler, Yevuslular ve Amorlular dağlık bölgede; Kenanlılar da denizin yanında ve Şeria Irmağı'nın kıyısında yaşıyor.”"}, {"v": 30, "text": "Kalev, Musa'nın önünde halkı susturup, “Oraya gidip ülkeyi ele geçirelim. Kesinlikle buna yetecek gücümüz var” dedi."}, {"v": 31, "text": "Ne var ki, kendisiyle oraya giden adamlar, “Bu halka saldıramayız, onlar bizden daha güçlü” dediler."}, {"v": 32, "text": "Araştırdıkları ülke hakkında İsrailliler arasında kötü haber yayarak, “Boydan boya araştırdığımız ülke, içinde yaşayanları yiyip bitiren bir ülkedir” dediler, “Üstelik orada gördüğümüz herkes uzun boyluydu."}, {"v": 33, "text": "Nefiller'i, Nefiller'in soyundan gelen Anaklılar'ı gördük. Onların yanında kendimizi çekirge gibi hissettik, onlara da öyle göründük.”"}]}
+{
+  "t": "TCL02",
+  "b": "NUM",
+  "c": 13,
+  "content": [
+    {
+      "section": "Kenan Ülkesine Casuslar Gönderiliyor"
+    },
+    {
+      "v": 1,
+      "text": "RAB Musa'ya, “İsrail halkına vereceğim Kenan ülkesini araştırmak için bazı adamlar gönder” dedi, “Ataların her oymağından bir önder gönder.”"
+    },
+    {
+      "v": 3,
+      "text": "Musa RAB'bin buyruğu uyarınca Paran Çölü'nden adamları gönderdi. Hepsi İsrail halkının önderlerindendi."
+    },
+    {
+      "v": 4,
+      "text": "Adları şöyleydi:  Ruben oymağından Zakkur oğlu Şammua;"
+    },
+    {
+      "v": 5,
+      "text": "Şimon oymağından Hori oğlu Şafat;"
+    },
+    {
+      "v": 6,
+      "text": "Yahuda oymağından Yefunne oğlu Kalev;"
+    },
+    {
+      "v": 7,
+      "text": "İssakar oymağından Yusuf oğlu Yigal;"
+    },
+    {
+      "v": 8,
+      "text": "Efrayim oymağından Nun oğlu Hoşea;"
+    },
+    {
+      "v": 9,
+      "text": "Benyamin oymağından Rafu oğlu Palti;"
+    },
+    {
+      "v": 10,
+      "text": "Zevulun oymağından Sodi oğlu Gaddiel;"
+    },
+    {
+      "v": 11,
+      "text": "Yusuf oymağından –Manaşşe oymağından– Susi oğlu Gaddi;"
+    },
+    {
+      "v": 12,
+      "text": "Dan oymağından Gemalli oğlu Ammiel;"
+    },
+    {
+      "v": 13,
+      "text": "Aşer oymağından Mikael oğlu Setur;"
+    },
+    {
+      "v": 14,
+      "text": "Naftali oymağından Vofsi oğlu Nahbi;"
+    },
+    {
+      "v": 15,
+      "text": "Gad oymağından Maki oğlu Geuel."
+    },
+    {
+      "v": 16,
+      "text": "Ülkeyi araştırmak üzere Musa'nın gönderdiği adamlar bunlardı. Musa Nun oğlu Hoşea'ya Yeşu adını verdi."
+    },
+    {
+      "v": 17,
+      "text": "Musa, Kenan ülkesini araştırmak üzere onları gönderirken, “Negev'e, dağlık bölgeye gidin” dedi,"
+    },
+    {
+      "v": 18,
+      "text": "“Nasıl bir ülke olduğunu, orada yaşayan halkın güçlü mü zayıf mı, çok mu az mı olduğunu öğrenin."
+    },
+    {
+      "v": 19,
+      "text": "Yaşadıkları ülke iyi mi kötü mü, kentleri nasıl, surlu mu değil mi anlayın."
+    },
+    {
+      "v": 20,
+      "text": "Toprak nasıl? Verimli mi, kıraç mı? Çevre ağaçlık mı, değil mi? Elinizden geleni yapıp orada yetişen meyvelerden getirin.” Mevsim üzümün olgunlaşmaya başladığı zamandı."
+    },
+    {
+      "v": 21,
+      "text": "Böylece adamlar yola çıkıp ülkeyi Zin Çölü'nden Levo-Hamat'a doğru Rehov'a dek araştırdılar."
+    },
+    {
+      "v": 22,
+      "text": "Negev'den geçip Anakoğulları'ndan Ahiman, Şeşay ve Talmay'ın yaşadığı Hevron'a vardılar. –Hevron Mısır'daki Soan Kenti'nden yedi yıl önce kurulmuştu.–"
+    },
+    {
+      "v": 23,
+      "text": "Eşkol Vadisi'ne varınca, üzerinde bir salkım üzüm olan bir asma dalı kestiler. Adamlardan ikisi dalı bir sırıkta taşıdılar. Yanlarına nar, incir de aldılar."
+    },
+    {
+      "v": 24,
+      "text": "İsrailliler'in kestiği üzüm salkımından dolayı oraya Eşkol Vadisi adı verildi."
+    },
+    {
+      "v": 25,
+      "text": "Kırk gün dolaştıktan sonra adamlar ülkeyi araştırmaktan döndüler."
+    },
+    {
+      "v": 26,
+      "text": "Paran Çölü'ndeki Kadeş'e, Musa'yla Harun'un ve İsrail topluluğunun yanına geldiler. Onlara ve bütün topluluğa gördüklerini anlatıp ülkenin ürünlerini gösterdiler."
+    },
+    {
+      "v": 27,
+      "text": "Musa'ya, “Bizi gönderdiğin ülkeye gittik” dediler, “Gerçekten süt ve bal akıyor orada! İşte ülkenin ürünleri!"
+    },
+    {
+      "v": 28,
+      "text": "Ancak orada yaşayan halk güçlü, kentler de surlu ve çok büyük. Orada Anak soyundan gelen insanları bile gördük."
+    },
+    {
+      "v": 29,
+      "text": "Amalekliler Negev'de; Hititler, Yevuslular ve Amorlular dağlık bölgede; Kenanlılar da denizin yanında ve Şeria Irmağı'nın kıyısında yaşıyor.”"
+    },
+    {
+      "v": 30,
+      "text": "Kalev, Musa'nın önünde halkı susturup, “Oraya gidip ülkeyi ele geçirelim. Kesinlikle buna yetecek gücümüz var” dedi."
+    },
+    {
+      "v": 31,
+      "text": "Ne var ki, kendisiyle oraya giden adamlar, “Bu halka saldıramayız, onlar bizden daha güçlü” dediler."
+    },
+    {
+      "v": 32,
+      "text": "Araştırdıkları ülke hakkında İsrailliler arasında kötü haber yayarak, “Boydan boya araştırdığımız ülke, içinde yaşayanları yiyip bitiren bir ülkedir” dediler, “Üstelik orada gördüğümüz herkes uzun boyluydu."
+    },
+    {
+      "v": 33,
+      "text": "Nefiller'i, Nefiller'in soyundan gelen Anaklılar'ı gördük. Onların yanında kendimizi çekirge gibi hissettik, onlara da öyle göründük.”"
+    }
+  ],
+  "title": "Kenan Ülkesine Casuslar Gönderiliyor"
+}

@@ -1,1 +1,99 @@
-{"t":"TCL02","b":"EXO","c":3,"content":[{"v":1,"text":"Musa kayınbabası Midyanlı Kâhin Yitro'nun sürüsünü güdüyordu. Sürüyü çölün batısına sürdü ve Tanrı Dağı'na, Horev'e vardı."},{"v":2,"text":"RAB'bin meleği bir çalıdan yükselen alevlerin içinde ona göründü. Musa baktı, çalı yanıyor, ama tükenmiyor."},{"v":3,"text":"“Çok garip” diye düşündü, “Gidip bir bakayım, çalı neden tükenmiyor!”"},{"v":4,"text":"RAB Tanrı Musa'nın yaklaştığını görünce, çalının içinden, “Musa, Musa!” diye seslendi.  Musa, “Buyur!” diye yanıtladı."},{"v":5,"text":"Tanrı, “Fazla yaklaşma” dedi, “Çarıklarını çıkar. Çünkü bastığın yer kutsal topraktır."},{"v":6,"text":"Ben babanın Tanrısı, İbrahim'in Tanrısı, İshak'ın Tanrısı ve Yakup'un Tanrısı'yım.” Musa yüzünü kapadı, çünkü Tanrı'ya bakmaya korkuyordu."},{"v":7,"text":"RAB, “Halkımın Mısır'da çektiği sıkıntıyı yakından gördüm” dedi, “Angaryacılar yüzünden ettikleri feryadı duydum. Acılarını biliyorum."},{"v":8,"text":"Bu yüzden onları Mısırlılar'ın elinden kurtarmak için geldim. O ülkeden çıkarıp geniş ve verimli topraklara, süt ve bal akan ülkeye, Kenan, Hitit, Amor, Periz, Hiv ve Yevus topraklarına götüreceğim."},{"v":9,"text":"İsrailliler'in feryadı bana erişti. Mısırlılar'ın onlara yapmakta olduğu baskıyı görüyorum."},{"v":10,"text":"Şimdi gel, halkım İsrail'i Mısır'dan çıkarmak için seni firavuna göndereyim.”"},{"v":11,"text":"Musa, “Ben kimim ki firavuna gidip İsrailliler'i Mısır'dan çıkarayım?” diye karşılık verdi."},{"v":12,"text":"Tanrı, “Kuşkun olmasın, ben seninle olacağım” dedi, “Seni benim gönderdiğimin kanıtı şu olacak: Halkı Mısır'dan çıkardığın zaman bu dağda bana tapınacaksınız.”"},{"v":13,"text":"Musa şöyle karşılık verdi: “İsrailliler'e gidip, ‘Beni size atalarınızın Tanrısı gönderdi’ dersem, ‘Adı nedir?’ diye sorabilirler. O zaman ne diyeyim?”"},{"v":14,"text":"Tanrı, “Ben Ben'im” dedi, “İsrailliler'e de ki, ‘Beni size Ben Ben'im diyen gönderdi.’"},{"v":15,"text":"“İsrailliler'e de ki, ‘Beni size atalarınızın Tanrısı, İbrahim'in Tanrısı, İshak'ın Tanrısı ve Yakup'un Tanrısı Yahve gönderdi.’ Sonsuza dek adım bu olacak. Kuşaklar boyunca böyle anılacağım."},{"v":16,"text":"Git, İsrail ileri gelenlerini topla, onlara şöyle de: ‘Atalarınız İbrahim'in, İshak'ın, Yakup'un Tanrısı Yahve bana görünerek şunları söyledi: Sizinle ve Mısır'da size yapılanlarla yakından ilgileniyorum."},{"v":17,"text":"Söz verdim, sizi Mısır'da çektiğiniz sıkıntıdan kurtaracağım; Kenan, Hitit, Amor, Periz, Hiv ve Yevus topraklarına, süt ve bal akan ülkeye götüreceğim.’"},{"v":18,"text":"“İsrail ileri gelenleri seni dinleyecekler. Sonra birlikte Mısır Kralı'na gidip, ‘İbraniler'in Tanrısı Yahve bizimle görüştü’ diyeceksiniz, ‘Şimdi izin ver, Tanrımız Yahve'ye kurban kesmek için çölde üç gün yol alalım.’"},{"v":19,"text":"Ama biliyorum, güçlü bir el zorlamadıkça Mısır Kralı gitmenize izin vermeyecek."},{"v":20,"text":"Elimi uzatacak ve aralarında şaşılası işler yaparak Mısır'ı cezalandıracağım. O zaman sizi salıverecek."},{"v":21,"text":"“Halkımın Mısırlılar'ın gözünde lütuf bulmasını sağlayacağım. Gittiğinizde eli boş gitmeyeceksiniz."},{"v":22,"text":"Her kadın Mısırlı komşusundan ya da konuğundan altın ve gümüş takılar, giysiler isteyecek. Oğullarınızı, kızlarınızı bunlarla süsleyeceksiniz. Mısırlılar'ı soyacaksınız.”"}]}
+{
+  "t": "TCL02",
+  "b": "EXO",
+  "c": 3,
+  "content": [
+    {
+      "section": "Tanrı Musa'yı Çağırıyor"
+    },
+    {
+      "v": 1,
+      "text": "Musa kayınbabası Midyanlı Kâhin Yitro'nun sürüsünü güdüyordu. Sürüyü çölün batısına sürdü ve Tanrı Dağı'na, Horev'e vardı."
+    },
+    {
+      "v": 2,
+      "text": "RAB'bin meleği bir çalıdan yükselen alevlerin içinde ona göründü. Musa baktı, çalı yanıyor, ama tükenmiyor."
+    },
+    {
+      "v": 3,
+      "text": "“Çok garip” diye düşündü, “Gidip bir bakayım, çalı neden tükenmiyor!”"
+    },
+    {
+      "v": 4,
+      "text": "RAB Tanrı Musa'nın yaklaştığını görünce, çalının içinden, “Musa, Musa!” diye seslendi.  Musa, “Buyur!” diye yanıtladı."
+    },
+    {
+      "v": 5,
+      "text": "Tanrı, “Fazla yaklaşma” dedi, “Çarıklarını çıkar. Çünkü bastığın yer kutsal topraktır."
+    },
+    {
+      "v": 6,
+      "text": "Ben babanın Tanrısı, İbrahim'in Tanrısı, İshak'ın Tanrısı ve Yakup'un Tanrısı'yım.” Musa yüzünü kapadı, çünkü Tanrı'ya bakmaya korkuyordu."
+    },
+    {
+      "v": 7,
+      "text": "RAB, “Halkımın Mısır'da çektiği sıkıntıyı yakından gördüm” dedi, “Angaryacılar yüzünden ettikleri feryadı duydum. Acılarını biliyorum."
+    },
+    {
+      "v": 8,
+      "text": "Bu yüzden onları Mısırlılar'ın elinden kurtarmak için geldim. O ülkeden çıkarıp geniş ve verimli topraklara, süt ve bal akan ülkeye, Kenan, Hitit, Amor, Periz, Hiv ve Yevus topraklarına götüreceğim."
+    },
+    {
+      "v": 9,
+      "text": "İsrailliler'in feryadı bana erişti. Mısırlılar'ın onlara yapmakta olduğu baskıyı görüyorum."
+    },
+    {
+      "v": 10,
+      "text": "Şimdi gel, halkım İsrail'i Mısır'dan çıkarmak için seni firavuna göndereyim.”"
+    },
+    {
+      "v": 11,
+      "text": "Musa, “Ben kimim ki firavuna gidip İsrailliler'i Mısır'dan çıkarayım?” diye karşılık verdi."
+    },
+    {
+      "v": 12,
+      "text": "Tanrı, “Kuşkun olmasın, ben seninle olacağım” dedi, “Seni benim gönderdiğimin kanıtı şu olacak: Halkı Mısır'dan çıkardığın zaman bu dağda bana tapınacaksınız.”"
+    },
+    {
+      "v": 13,
+      "text": "Musa şöyle karşılık verdi: “İsrailliler'e gidip, ‘Beni size atalarınızın Tanrısı gönderdi’ dersem, ‘Adı nedir?’ diye sorabilirler. O zaman ne diyeyim?”"
+    },
+    {
+      "v": 14,
+      "text": "Tanrı, “Ben Ben'im” dedi, “İsrailliler'e de ki, ‘Beni size Ben Ben'im diyen gönderdi.’"
+    },
+    {
+      "v": 15,
+      "text": "“İsrailliler'e de ki, ‘Beni size atalarınızın Tanrısı, İbrahim'in Tanrısı, İshak'ın Tanrısı ve Yakup'un Tanrısı Yahve gönderdi.’ Sonsuza dek adım bu olacak. Kuşaklar boyunca böyle anılacağım."
+    },
+    {
+      "v": 16,
+      "text": "Git, İsrail ileri gelenlerini topla, onlara şöyle de: ‘Atalarınız İbrahim'in, İshak'ın, Yakup'un Tanrısı Yahve bana görünerek şunları söyledi: Sizinle ve Mısır'da size yapılanlarla yakından ilgileniyorum."
+    },
+    {
+      "v": 17,
+      "text": "Söz verdim, sizi Mısır'da çektiğiniz sıkıntıdan kurtaracağım; Kenan, Hitit, Amor, Periz, Hiv ve Yevus topraklarına, süt ve bal akan ülkeye götüreceğim.’"
+    },
+    {
+      "v": 18,
+      "text": "“İsrail ileri gelenleri seni dinleyecekler. Sonra birlikte Mısır Kralı'na gidip, ‘İbraniler'in Tanrısı Yahve bizimle görüştü’ diyeceksiniz, ‘Şimdi izin ver, Tanrımız Yahve'ye kurban kesmek için çölde üç gün yol alalım.’"
+    },
+    {
+      "v": 19,
+      "text": "Ama biliyorum, güçlü bir el zorlamadıkça Mısır Kralı gitmenize izin vermeyecek."
+    },
+    {
+      "v": 20,
+      "text": "Elimi uzatacak ve aralarında şaşılası işler yaparak Mısır'ı cezalandıracağım. O zaman sizi salıverecek."
+    },
+    {
+      "v": 21,
+      "text": "“Halkımın Mısırlılar'ın gözünde lütuf bulmasını sağlayacağım. Gittiğinizde eli boş gitmeyeceksiniz."
+    },
+    {
+      "v": 22,
+      "text": "Her kadın Mısırlı komşusundan ya da konuğundan altın ve gümüş takılar, giysiler isteyecek. Oğullarınızı, kızlarınızı bunlarla süsleyeceksiniz. Mısırlılar'ı soyacaksınız.”"
+    }
+  ],
+  "title": "Tanrı Musa'yı Çağırıyor"
+}

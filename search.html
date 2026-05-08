@@ -1,0 +1,1097 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Arama — Kutsal Kitap Forum</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Jost:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --navy-deep:  #0F2437;
+      --navy:       #1B3A54;
+      --navy-mid:   #264D6B;
+      --cream:      #F7F1E8;
+      --parchment:  #EDE4D3;
+      --gold:       #B8922A;
+      --gold-light: #D4AA56;
+      --stone:      #8A8070;
+      --ink:        #2C2416;
+    }
+
+    html, body {
+      width: 100%; height: 100%;
+      overflow: hidden;
+      font-family: 'Jost', Helvetica, Arial, sans-serif;
+      font-size: 12px;
+      color: var(--ink);
+      background: var(--navy-deep);
+    }
+
+    ::-webkit-scrollbar { width: 0.45em; height: 0.45em; }
+    ::-webkit-scrollbar-track { background: transparent; }
+    ::-webkit-scrollbar-thumb { background: rgba(184,146,42,0.25); border-radius: 0; }
+    ::-webkit-scrollbar-thumb:hover { background: rgba(184,146,42,0.45); }
+
+    /* ── Full layout ── */
+    #layout {
+      width: 100%; height: 100%;
+      display: flex;
+      flex-direction: column;
+    }
+
+    /* ── Header — identical to compare.html ── */
+    #header {
+      flex-shrink: 0;
+      background: #08141F;
+      border-bottom: 1px solid rgba(184,146,42,0.15);
+      display: flex;
+      align-items: center;
+      gap: 0;
+      height: 70px;
+      padding: 0 14px;
+    }
+
+    #logo {
+      display: flex; align-items: center; gap: 9px;
+      text-decoration: none; flex-shrink: 0; margin-right: 18px;
+    }
+    #logo img {
+      height: 32px; width: auto;
+      filter: brightness(0) invert(1); opacity: 0.82;
+    }
+    #logo-text {
+      font-family: 'EB Garamond', Georgia, serif;
+      font-size: 18px; font-weight: 500;
+      color: var(--cream); line-height: 1.15; letter-spacing: -0.01em;
+    }
+    #logo-text small {
+      display: block;
+      font-family: 'Jost', sans-serif;
+      font-size: 9.5px; font-weight: 400;
+      letter-spacing: 0.14em; text-transform: uppercase;
+      color: rgba(184,146,42,0.6);
+    }
+
+    #search-wrap {
+      flex: 1; max-width: 480px; position: relative;
+    }
+    #search-wrap svg {
+      position: absolute; left: 10px; top: 50%;
+      transform: translateY(-50%);
+      width: 14px; height: 14px;
+      color: rgba(255,255,255,0.3); pointer-events: none;
+    }
+    #search-input {
+      width: 100%;
+      padding: 8px 12px 8px 32px;
+      background: rgba(255,255,255,0.08);
+      border: 1px solid rgba(255,255,255,0.12);
+      border-radius: 3px;
+      color: #fff; font-size: 13px;
+      font-family: 'Jost', sans-serif;
+      outline: none;
+      transition: background 0.15s, border-color 0.15s;
+    }
+    #search-input::placeholder { color: rgba(255,255,255,0.3); }
+    #search-input:focus {
+      background: rgba(255,255,255,0.12);
+      border-color: rgba(255,255,255,0.25);
+    }
+
+    #header-controls {
+      display: flex; align-items: center; gap: 6px;
+      margin-left: auto; flex-shrink: 0;
+    }
+
+    .hdr-btn {
+      padding: 6px 13px;
+      background: rgba(255,255,255,0.05);
+      border: 1px solid rgba(255,255,255,0.1);
+      border-radius: 3px;
+      color: rgba(247,241,232,0.6);
+      font-size: 12px; font-family: 'Jost', sans-serif;
+      font-weight: 400; cursor: pointer; white-space: nowrap;
+      transition: background 0.12s, color 0.12s, border-color 0.12s;
+      line-height: 1.5;
+    }
+    .hdr-btn:hover { background: rgba(184,146,42,0.12); border-color: rgba(184,146,42,0.3); color: var(--gold-light); }
+    .hdr-btn:active { background: rgba(184,146,42,0.06); }
+
+    #header-links {
+      margin-left: 10px;
+      display: flex; align-items: center; gap: 0; flex-shrink: 0;
+    }
+    #header-links a {
+      font-size: 11px; color: rgba(247,241,232,0.25);
+      text-decoration: none; padding: 0 8px;
+      border-right: 1px solid rgba(255,255,255,0.08);
+      transition: color 0.12s;
+    }
+    #header-links a:last-child { border-right: none; }
+    #header-links a:hover { color: var(--gold-light); }
+
+    /* ── Sub-bar (filters + stats) ── */
+    #sub-bar {
+      flex-shrink: 0;
+      background: #0a1a28;
+      border-bottom: 1px solid rgba(255,255,255,0.06);
+      display: flex;
+      align-items: center;
+      gap: 0;
+      height: 40px;
+      padding: 0 14px;
+      overflow: hidden;
+    }
+
+    #sub-stats {
+      display: flex;
+      align-items: center;
+      gap: 14px;
+      flex-shrink: 0;
+      margin-right: 20px;
+    }
+    #result-count {
+      font-size: 11px;
+      color: rgba(184,146,42,0.75);
+      font-weight: 600;
+      letter-spacing: 0.04em;
+      white-space: nowrap;
+    }
+    #scan-status {
+      font-size: 10px;
+      color: rgba(247,241,232,0.3);
+      letter-spacing: 0.04em;
+      white-space: nowrap;
+    }
+    #scan-status.scanning { color: rgba(184,146,42,0.5); animation: pulse 1.2s ease-in-out infinite; }
+
+    @keyframes pulse { 0%,100%{opacity:1} 50%{opacity:.4} }
+
+    #progress-bar-wrap {
+      width: 80px; height: 2px;
+      background: rgba(255,255,255,0.06);
+      border-radius: 1px; overflow: hidden;
+      flex-shrink: 0;
+    }
+    #progress-bar {
+      height: 100%;
+      background: linear-gradient(90deg, var(--gold), var(--gold-light));
+      width: 0%;
+      transition: width 0.25s ease;
+      border-radius: 1px;
+    }
+
+    .sub-divider {
+      width: 1px; height: 20px;
+      background: rgba(255,255,255,0.07);
+      margin: 0 14px; flex-shrink: 0;
+    }
+
+    .scope-btn {
+      padding: 3px 10px;
+      background: none;
+      border: 1px solid transparent;
+      border-radius: 2px;
+      color: rgba(247,241,232,0.3);
+      font-size: 10px; font-weight: 600;
+      font-family: 'Jost', sans-serif;
+      letter-spacing: 0.08em; text-transform: uppercase;
+      cursor: pointer;
+      transition: background 0.12s, color 0.12s, border-color 0.12s;
+    }
+    .scope-btn.active {
+      background: rgba(184,146,42,0.12);
+      border-color: rgba(184,146,42,0.3);
+      color: var(--gold-light);
+    }
+    .scope-btn:hover:not(.active) { color: rgba(247,241,232,0.6); }
+
+    #trans-filter-wrap {
+      display: flex;
+      align-items: center;
+      gap: 4px;
+      overflow-x: auto;
+      scrollbar-width: none;
+      flex: 1;
+      min-width: 0;
+    }
+    #trans-filter-wrap::-webkit-scrollbar { display: none; }
+
+    .trans-chip {
+      display: flex;
+      align-items: center;
+      gap: 5px;
+      padding: 3px 9px;
+      background: rgba(255,255,255,0.04);
+      border: 1px solid rgba(255,255,255,0.08);
+      border-radius: 2px;
+      cursor: pointer;
+      white-space: nowrap;
+      transition: background 0.12s, border-color 0.12s;
+      flex-shrink: 0;
+    }
+    .trans-chip.active {
+      background: rgba(184,146,42,0.1);
+      border-color: rgba(184,146,42,0.28);
+    }
+    .trans-chip input[type="checkbox"] { display: none; }
+    .trans-chip-dot {
+      width: 5px; height: 5px;
+      border-radius: 50%;
+      border: 1px solid rgba(255,255,255,0.2);
+      flex-shrink: 0;
+      transition: background 0.12s, border-color 0.12s;
+    }
+    .trans-chip.active .trans-chip-dot {
+      background: var(--gold);
+      border-color: var(--gold);
+    }
+    .trans-chip-label {
+      font-size: 9.5px;
+      font-weight: 600;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: rgba(247,241,232,0.3);
+      transition: color 0.12s;
+    }
+    .trans-chip.active .trans-chip-label { color: rgba(184,146,42,0.85); }
+    .trans-chip-hits {
+      font-size: 8.5px;
+      color: rgba(247,241,232,0.2);
+      font-weight: 500;
+    }
+    .trans-chip.active .trans-chip-hits { color: rgba(184,146,42,0.5); }
+
+    /* ── Results area ── */
+    #results-area {
+      flex: 1;
+      overflow-y: auto;
+      padding: 0;
+    }
+
+    /* ── Empty / idle state ── */
+    #state-idle {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100%;
+      gap: 16px;
+      color: rgba(247,241,232,0.15);
+      text-align: center;
+      padding: 40px 20px;
+    }
+    #state-idle svg { width: 52px; height: 52px; }
+    #state-idle h2 {
+      font-family: 'EB Garamond', serif;
+      font-size: 26px; font-weight: 400;
+      color: rgba(247,241,232,0.25);
+      letter-spacing: 0.01em;
+    }
+    #state-idle p {
+      font-size: 12px;
+      color: rgba(247,241,232,0.2);
+      line-height: 1.8; max-width: 340px;
+    }
+
+    /* ── No results ── */
+    #state-no-results {
+      display: none;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 60%;
+      gap: 10px;
+      text-align: center;
+      padding: 40px 20px;
+    }
+    #state-no-results h3 {
+      font-family: 'EB Garamond', serif;
+      font-size: 20px; font-weight: 400;
+      color: rgba(247,241,232,0.3);
+    }
+    #state-no-results p { font-size: 11px; color: rgba(247,241,232,0.2); line-height: 1.8; }
+
+    /* ── Results list ── */
+    #results-list { display: none; }
+
+    .book-section { border-bottom: 1px solid rgba(255,255,255,0.05); }
+
+    .book-heading {
+      display: flex;
+      align-items: baseline;
+      gap: 10px;
+      padding: 10px 16px 8px;
+      background: rgba(0,0,0,0.15);
+      position: sticky;
+      top: 0;
+      z-index: 2;
+      border-bottom: 1px solid rgba(184,146,42,0.1);
+    }
+    .book-heading-name {
+      font-family: 'EB Garamond', Georgia, serif;
+      font-size: 15px; font-weight: 500;
+      color: var(--cream);
+      letter-spacing: 0.01em;
+    }
+    .book-heading-count {
+      font-size: 9px; font-weight: 700;
+      letter-spacing: 0.12em; text-transform: uppercase;
+      color: rgba(184,146,42,0.4);
+    }
+
+    .result-row {
+      display: grid;
+      grid-template-columns: 80px 72px 1fr;
+      align-items: baseline;
+      gap: 0 12px;
+      padding: 7px 16px;
+      border-bottom: 1px solid rgba(255,255,255,0.025);
+      cursor: pointer;
+      text-decoration: none;
+      color: inherit;
+      transition: background 0.1s;
+    }
+    .result-row:hover { background: rgba(184,146,42,0.07); }
+    .result-row:last-child { border-bottom: none; }
+
+    .rr-ref {
+      font-size: 10.5px; font-weight: 600;
+      color: var(--gold-light);
+      letter-spacing: 0.03em;
+      white-space: nowrap;
+    }
+
+    .rr-tid {
+      font-size: 8.5px; font-weight: 700;
+      letter-spacing: 0.1em; text-transform: uppercase;
+      color: rgba(247,241,232,0.25);
+      background: rgba(255,255,255,0.04);
+      border: 1px solid rgba(255,255,255,0.07);
+      padding: 1px 5px; border-radius: 2px;
+      white-space: nowrap;
+      justify-self: start;
+      align-self: center;
+    }
+
+    .rr-text {
+      font-family: 'EB Garamond', Georgia, serif;
+      font-size: 14px;
+      color: rgba(247,241,232,0.6);
+      line-height: 1.55;
+    }
+    .rr-text mark {
+      background: rgba(184,146,42,0.28);
+      color: var(--gold-light);
+      border-radius: 1px;
+      padding: 0 1px;
+      font-style: normal;
+    }
+
+    .show-more-row {
+      padding: 7px 16px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .show-more-btn {
+      background: none;
+      border: 1px solid rgba(255,255,255,0.08);
+      border-radius: 2px;
+      color: rgba(247,241,232,0.25);
+      font-size: 9.5px; font-weight: 600;
+      letter-spacing: 0.09em; text-transform: uppercase;
+      font-family: 'Jost', sans-serif;
+      padding: 4px 14px; cursor: pointer;
+      transition: background 0.12s, color 0.12s;
+    }
+    .show-more-btn:hover { background: rgba(184,146,42,0.08); color: rgba(184,146,42,0.7); }
+
+    /* ===== MOBILE ===== */
+    @media (max-width: 640px) {
+      #header {
+        height: 50px;
+        padding: 0 10px;
+        gap: 6px;
+      }
+      #logo { margin-right: 4px; }
+      #logo img { height: 26px; }
+      #logo-text { display: none; }
+      #header-links { display: none; }
+
+      #search-wrap {
+        flex: 1;
+        max-width: none;
+      }
+
+      .hdr-btn {
+        padding: 0 10px;
+        height: 34px;
+        font-size: 11.5px;
+      }
+
+      /* Sub-bar: wrap to two rows */
+      #sub-bar {
+        height: auto;
+        flex-wrap: wrap;
+        padding: 6px 10px;
+        gap: 6px;
+      }
+      #sub-stats {
+        width: 100%;
+        margin-right: 0;
+        order: -1;
+      }
+      #scope-tabs {
+        order: 1;
+        flex-shrink: 0;
+      }
+      #chip-list {
+        order: 2;
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
+        scrollbar-width: none;
+        flex-wrap: nowrap;
+      }
+      #chip-list::-webkit-scrollbar { display: none; }
+
+      /* Results: full width, more padding */
+      .sr-item { padding: 9px 12px; gap: 8px; }
+      .sr-ref {
+        min-width: 70px;
+        font-size: 9.5px;
+      }
+      .sr-text { font-size: 12.5px; }
+    }
+  </style>
+</head>
+<body>
+<div id="layout">
+
+  <!-- ===== HEADER — same as compare.html ===== -->
+  <div id="header">
+    <a href="index.html" id="logo">
+      <img src="brand_assets/logo.png" alt="Kutsal Kitap Forum" />
+      <div id="logo-text">
+        Kutsal Kitap Forum
+        <small>Türkçe Meal Karşılaştırma</small>
+      </div>
+    </a>
+
+    <div id="search-wrap">
+      <svg viewBox="0 0 14 14" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round">
+        <circle cx="5.5" cy="5.5" r="4"/><line x1="9" y1="9" x2="13" y2="13"/>
+      </svg>
+      <input id="search-input" type="text" placeholder="arama yapın…" autocomplete="off" />
+    </div>
+
+    <div id="header-controls">
+      <a href="compare.html" class="hdr-btn">← Karşılaştır</a>
+      <div id="header-links">
+        <a href="index.html">Ana Sayfa</a>
+        <a href="#">Hakkımızda</a>
+        <a href="#">Yardım</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- ===== SUB-BAR: stats + scope + translation chips ===== -->
+  <div id="sub-bar">
+    <div id="sub-stats">
+      <span id="result-count"></span>
+      <span id="scan-status"></span>
+      <div id="progress-bar-wrap"><div id="progress-bar"></div></div>
+    </div>
+    <div class="sub-divider"></div>
+    <button class="scope-btn active" data-scope="all">Tümü</button>
+    <button class="scope-btn" data-scope="nt">Yeni Ahit</button>
+    <button class="scope-btn" data-scope="ot">Eski Ahit</button>
+    <div class="sub-divider"></div>
+    <div id="trans-filter-wrap"></div>
+  </div>
+
+  <!-- ===== RESULTS AREA ===== -->
+  <div id="results-area">
+    <div id="state-idle">
+      <svg viewBox="0 0 52 52" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linecap="round">
+        <circle cx="22" cy="22" r="16"/>
+        <line x1="33" y1="33" x2="48" y2="48"/>
+      </svg>
+      <h2>Kelime veya ifade arayın</h2>
+      <p>Türkçe meallerin tamamında arama yapın. Türkçe karakter duyarsızlığı desteklenmektedir (ş → s, ğ → g, ç → c) ve Osmanlıca hat işaretleri otomatik eşleştirilir (â → a, î → i, û → u).</p>
+    </div>
+    <div id="state-no-results">
+      <h3>Sonuç bulunamadı</h3>
+      <p>Farklı bir kelime deneyin ya da daha fazla meal seçin.</p>
+    </div>
+    <div id="results-list"></div>
+  </div>
+
+</div><!-- #layout -->
+
+<script>
+// ── Constants ──────────────────────────────────────────────────────────────
+const SEA_BOOKS      = new Set(['MAT','MRK','EPH','PHM','1JN']);
+const BGT_BOOKS      = new Set(['MAT','MRK','LUK','JHN','ACT','ROM','1CO','2CO','GAL','EPH','PHP','COL','1TH','2TH','1TI','2TI','TIT','PHM','HEB','JAS','1PE','2PE','1JN','2JN','3JN','JUD','REV']);
+const TSV_BOOKS      = new Set(['PRO']);
+const KKDEU_NT_BOOKS = new Set(['MAT','MRK','LUK','JHN','ACT','ROM','1CO','2CO','GAL','EPH','PHP','COL','1TH','2TH','1TI','2TI','TIT','PHM','HEB','JAS','1PE','2PE','1JN','2JN','3JN','JUD','REV']);
+const TTT_NT_BOOKS   = new Set(['MAT','MRK','LUK','JHN','ACT','ROM','1CO','2CO','GAL','EPH','PHP','COL','1TH','2TH','1TI','2TI','TIT','PHM','HEB','JAS','1PE','2PE','1JN','2JN','3JN','JUD','REV']);
+const KIE1819_NT_BOOKS = new Set(['MAT','MRK','LUK','JHN','ACT','ROM','1CO','2CO','GAL','EPH','PHP','COL','1TH','2TH','1TI','2TI','TIT','PHM','HEB','JAS','1PE','2PE','1JN','2JN','3JN','JUD','REV']);
+const CAN_NT_BOOKS   = new Set(['MAT','MRK','LUK','JHN','ACT','ROM','1CO','2CO','GAL','EPH','PHP','COL','1TH','2TH','1TI','2TI','TIT','PHM','HEB','JAS','1PE','2PE','1JN','2JN','3JN','JUD','REV']);
+const COS_NT_BOOKS   = new Set(['MAT','MRK','LUK','JHN','ACT','ROM','1CO','2CO','GAL','EPH','PHP','COL','1TH','2TH','1TI','2TI','TIT','PHM','HEB','JAS','1PE','2PE','1JN','2JN','3JN','JUD','REV','PRO']);
+const TUR1852_BOOKS  = new Set(['GEN','PSA','MAT','MRK','LUK','JHN','ACT','ROM','1CO','2CO','GAL','EPH','PHP','COL','1TH','2TH','1TI','2TI','TIT','PHM','HEB','JAS','1PE','2PE','1JN','2JN','3JN','JUD','REV']);
+const SEL1866_BOOKS  = new Set(['GEN','EXO','LEV','NUM','DEU','PSA','ISA','MAT','MRK','LUK','JHN','ACT','ROM','1CO','2CO','GAL','EPH','PHP','COL','1TH','2TH','1TI','2TI','TIT','PHM','HEB','JAS','1PE','2PE','1JN','2JN','3JN','JUD','REV']);
+const HAKK_NT_BOOKS  = new Set(['MAT','MRK','LUK','JHN','ACT','ROM','1CO','2CO','GAL','EPH','PHP','COL','1TH','2TH','1TI','2TI','TIT','PHM','HEB','JAS','1PE','2PE','1JN','2JN','3JN','JUD','REV']);
+const HKTN_BOOKS     = new Set(['MAT','MRK','LUK','JHN']);
+const NSH1739_BOOKS  = new Set(['GEN']);
+const MEZ1669_BOOKS  = new Set(['PSA']);
+
+const CHAPTER_COUNTS = {
+  'Yaratılış':50,"Mısır'dan Çıkış":40,'Levililer':27,'Çölde Sayım':36,
+  "Yasa'nın Tekrarı":34,'Yeşu':24,'Hakimler':21,'Rut':4,
+  '1. Samuel':31,'2. Samuel':24,'1. Krallar':22,'2. Krallar':25,
+  '1. Tarihler':29,'2. Tarihler':36,'Ezra':10,'Nehemya':13,'Ester':10,
+  'Eyüp':42,'Mezmurlar':150,"Süleyman'ın Özdeyişleri":31,'Vaiz':12,
+  'Ezgiler Ezgisi':8,'Yeşaya':66,'Yeremya':52,'Ağıtlar':5,'Hezekiel':48,
+  'Daniel':12,'Hoşea':14,'Yoel':3,'Amos':9,'Ovadya':1,'Yunus':4,
+  'Mika':7,'Nahum':3,'Habakkuk':3,'Zefanya':3,'Hagay':2,'Zekeriya':14,'Malaki':4,
+  'Matta':28,'Markos':16,'Luka':24,'Yuhanna':21,'Elçilerin İşleri':28,
+  'Romalılar':16,'1. Korintliler':16,'2. Korintliler':13,'Galatyalılar':6,
+  'Efesliler':6,'Filipililer':4,'Koloseliler':4,'1. Selanikliler':5,
+  '2. Selanikliler':3,'1. Timoteos':6,'2. Timoteos':4,'Titus':3,'Filemon':1,
+  'İbraniler':13,'Yakup':5,'1. Petrus':5,'2. Petrus':3,
+  '1. Yuhanna':5,'2. Yuhanna':1,'3. Yuhanna':1,'Yahuda':1,'Vahiy':22,
+};
+
+const OT_BOOKS = [
+  'Yaratılış',"Mısır'dan Çıkış",'Levililer','Çölde Sayım',"Yasa'nın Tekrarı",
+  'Yeşu','Hakimler','Rut','1. Samuel','2. Samuel','1. Krallar','2. Krallar',
+  '1. Tarihler','2. Tarihler','Ezra','Nehemya','Ester','Eyüp','Mezmurlar',
+  "Süleyman'ın Özdeyişleri",'Vaiz','Ezgiler Ezgisi','Yeşaya','Yeremya',
+  'Ağıtlar','Hezekiel','Daniel','Hoşea','Yoel','Amos','Ovadya','Yunus',
+  'Mika','Nahum','Habakkuk','Zefanya','Hagay','Zekeriya','Malaki'
+];
+const NT_BOOKS = [
+  'Matta','Markos','Luka','Yuhanna','Elçilerin İşleri','Romalılar',
+  '1. Korintliler','2. Korintliler','Galatyalılar','Efesliler','Filipililer',
+  'Koloseliler','1. Selanikliler','2. Selanikliler','1. Timoteos','2. Timoteos',
+  'Titus','Filemon','İbraniler','Yakup','1. Petrus','2. Petrus',
+  '1. Yuhanna','2. Yuhanna','3. Yuhanna','Yahuda','Vahiy'
+];
+const ALL_BOOKS_ORDERED = [...NT_BOOKS, ...OT_BOOKS];
+
+const BOOK_CODES = {
+  'Matta':'MAT','Markos':'MRK','Luka':'LUK','Yuhanna':'JHN',
+  'Elçilerin İşleri':'ACT','Romalılar':'ROM','1. Korintliler':'1CO',
+  '2. Korintliler':'2CO','Galatyalılar':'GAL','Efesliler':'EPH',
+  'Filipililer':'PHP','Koloseliler':'COL','1. Selanikliler':'1TH',
+  '2. Selanikliler':'2TH','1. Timoteos':'1TI','2. Timoteos':'2TI',
+  'Titus':'TIT','Filemon':'PHM','İbraniler':'HEB','Yakup':'JAS',
+  '1. Petrus':'1PE','2. Petrus':'2PE','1. Yuhanna':'1JN',
+  '2. Yuhanna':'2JN','3. Yuhanna':'3JN','Yahuda':'JUD','Vahiy':'REV',
+  'Yaratılış':'GEN',"Mısır'dan Çıkış":'EXO','Levililer':'LEV',
+  'Çölde Sayım':'NUM',"Yasa'nın Tekrarı":'DEU','Yeşu':'JOS',
+  'Hakimler':'JDG','Rut':'RUT','1. Samuel':'1SA','2. Samuel':'2SA',
+  '1. Krallar':'1KI','2. Krallar':'2KI','1. Tarihler':'1CH',
+  '2. Tarihler':'2CH','Ezra':'EZR','Nehemya':'NEH','Ester':'EST',
+  'Eyüp':'JOB','Mezmurlar':'PSA',"Süleyman'ın Özdeyişleri":'PRO',
+  'Vaiz':'ECC','Ezgiler Ezgisi':'SNG','Yeşaya':'ISA','Yeremya':'JER',
+  'Ağıtlar':'LAM','Hezekiel':'EZK','Daniel':'DAN','Hoşea':'HOS',
+  'Yoel':'JOL','Amos':'AMO','Ovadya':'OBA','Yunus':'JON','Mika':'MIC',
+  'Nahum':'NAH','Habakkuk':'HAB','Zefanya':'ZEP','Hagay':'HAG',
+  'Zekeriya':'ZEC','Malaki':'MAL'
+};
+const BOOK_CODES_REV = Object.fromEntries(Object.entries(BOOK_CODES).map(([k,v])=>[v,k]));
+const NT_CODE_SET = new Set(NT_BOOKS.map(n => BOOK_CODES[n]));
+
+const TRANSLATIONS = {
+  bibleFull: [
+    { id:'ALI1665',    name:'Ali Bey El Yazması',              year:1665, loaded:true  },
+    { id:'JDK1827',    name:'Eski Ahit (J.D. Kieffer)',        year:1827, loaded:true  },
+    { id:'TUR1852-57', name:'Türabi Efendi / J.W. Redhouse',   year:1852, loaded:true  },
+    { id:'SEL1866-77', name:'Selim Efendi / W. Schauffler',    year:1866, loaded:true  },
+    { id:'KM1886',     name:'Kitab-ı Mukaddes 1886',           year:1886, loaded:true  },
+    { id:'KMEYA',      name:'Kitab-ı Mukaddes',                year:1941, loaded:true  },
+    { id:'TCL02',      name:'Yeni Çeviri',                     year:2001, loaded:true  },
+    { id:'AREMSI',     name:'FONDATSİYA "AR EM Sİ"',           year:2007, loaded:true  },
+    { id:'HKTN',       name:'Ekümenik Kutsal Kitap',            year:2007, loaded:false },
+    { id:'YTC',        name:'Yorumsuz Türkçe Çeviri',           year:2023, loaded:true  },
+    { id:'HAKK',       name:'Halk Dilinde Kutsal Kitap',        year:2024, loaded:true  },
+  ],
+  ntFull: [
+    { id:'KIE1819',    name:'Yeni Ahit (Ali Bey, J.D. Kieffer)', year:1819, loaded:true },
+    { id:'YYY1987',    name:'İncil: Müjde (1987)',                year:1987, loaded:true },
+    { id:'CAN',        name:'Kutsal İncil (Bünyamin Candemir)',   year:2003, loaded:true },
+    { id:'KKDEU',      name:'Kutsal Kitap ve Deuterakanonik',     year:2003, loaded:true },
+    { id:'BGT',        name:'İncil BG Türkçe',                    year:2004, loaded:true },
+    { id:'COS',        name:'İncil: Sevinç Getirici Haber',      year:2010, loaded:true },
+    { id:'TTT',        name:'Temel Türkçe Tercüme',               year:2023, loaded:true },
+  ],
+  ntPartial: [
+    { id:'SEA1666',    name:'İncil-i Mukaddes (W. Seaman)',       year:1666, loaded:true  },
+    { id:'OTR2019',    name:'Bible Old Translation Revision',     year:2019, loaded:false },
+  ],
+  otPartial: [
+    { id:'MEZ1669',    name:'Ali Bey\'in Musiki Mezmurları',     year:1669, loaded:true },
+    { id:'NSH1739',    name:'Tekvin (N. Şröder)',                 year:1739, loaded:true },
+    { id:'TSV',        name:'Türk Standart Versiyon',             year:2009, loaded:true },
+  ],
+  heretical: [
+    { id:'NWT2008',    name:'Yeni Dünya Çevirisi',               year:2008, loaded:true },
+    { id:'NWT2025',    name:'Yeni Dünya Çevirisi (2025)',         year:2025, loaded:true },
+  ],
+  english: [
+    { id:'ESV',        name:'English Standard Version',          year:2001, loaded:true },
+  ],
+};
+
+const ALL_TRANS = {};
+[...TRANSLATIONS.bibleFull, ...TRANSLATIONS.ntFull, ...TRANSLATIONS.ntPartial,
+ ...TRANSLATIONS.otPartial, ...TRANSLATIONS.heretical, ...TRANSLATIONS.english]
+  .forEach(t => { ALL_TRANS[t.id] = t; });
+
+const ALL_LOADED_TIDS = Object.values(ALL_TRANS).filter(t => t.loaded).map(t => t.id);
+
+function isTransAvailableForBook(tid, bookCode) {
+  if (tid === 'SEA1666'    && !SEA_BOOKS.has(bookCode))         return false;
+  if (tid === 'BGT'        && !BGT_BOOKS.has(bookCode))         return false;
+  if (tid === 'TSV'        && !TSV_BOOKS.has(bookCode))         return false;
+  if (tid === 'KKDEU'      && !KKDEU_NT_BOOKS.has(bookCode))    return false;
+  if (tid === 'TTT'        && !TTT_NT_BOOKS.has(bookCode))      return false;
+  if (tid === 'CAN'        && !CAN_NT_BOOKS.has(bookCode))      return false;
+  if (tid === 'COS'        && !COS_NT_BOOKS.has(bookCode))      return false;
+  if (tid === 'KIE1819'    && !KIE1819_NT_BOOKS.has(bookCode))  return false;
+  if (tid === 'TUR1852-57' && !TUR1852_BOOKS.has(bookCode))     return false;
+  if (tid === 'SEL1866-77' && !SEL1866_BOOKS.has(bookCode))     return false;
+  if (tid === 'HAKK'       && !HAKK_NT_BOOKS.has(bookCode))     return false;
+  if (tid === 'HKTN'       && !HKTN_BOOKS.has(bookCode))        return false;
+  if (tid === 'NSH1739'    && !NSH1739_BOOKS.has(bookCode))     return false;
+  if (tid === 'MEZ1669'    && !MEZ1669_BOOKS.has(bookCode))     return false;
+  return true;
+}
+
+// ── Helpers ────────────────────────────────────────────────────────────────
+function normTr(s) {
+  return s
+    .replace(/İ/g, 'i')
+    .toLowerCase()
+    .replace(/â/g, 'a').replace(/Â/g, 'a')
+    .replace(/î/g, 'i').replace(/Î/g, 'i')
+    .replace(/û/g, 'u').replace(/Û/g, 'u')
+    .replace(/ş/g, 's')
+    .replace(/ğ/g, 'g')
+    .replace(/ç/g, 'c');
+}
+
+function escHtml(s) {
+  return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
+}
+
+function highlightAll(text, normQ) {
+  let out = '', lower = normTr(text), idx = 0, pos;
+  while ((pos = lower.indexOf(normQ, idx)) !== -1) {
+    out += escHtml(text.slice(idx, pos));
+    out += `<mark>${escHtml(text.slice(pos, pos + normQ.length))}</mark>`;
+    idx = pos + normQ.length;
+  }
+  return out + escHtml(text.slice(idx));
+}
+
+// ── State ──────────────────────────────────────────────────────────────────
+const params     = new URLSearchParams(location.search);
+const initQ      = params.get('q') || '';
+const initT      = params.get('t') || '';
+
+let activeTids   = initT
+  ? initT.split(',').filter(id => ALL_TRANS[id] && ALL_TRANS[id].loaded)
+  : ALL_LOADED_TIDS.slice();
+let scopeFilter  = 'all';
+let results      = {};   // bookName → [{tid, chap, v, text}]
+let hitsByTid    = {};   // tid → count
+let scanning     = false;
+let stopped      = false;
+let currentNormQ = '';
+let showLimits   = {};   // bookName → number shown
+
+const SHOW_STEP  = 40;
+
+// ── Translation chips ──────────────────────────────────────────────────────
+function buildTransChips() {
+  const wrap = document.getElementById('trans-filter-wrap');
+  const allLoaded = ALL_LOADED_TIDS;
+  wrap.innerHTML = allLoaded.map(tid => {
+    const t = ALL_TRANS[tid];
+    const on = activeTids.includes(tid);
+    return `<label class="trans-chip ${on ? 'active' : ''}" data-tid="${tid}" title="${escHtml(t.name)}">
+      <input type="checkbox" ${on ? 'checked' : ''} />
+      <span class="trans-chip-dot"></span>
+      <span class="trans-chip-label">${escHtml(tid)}</span>
+      <span class="trans-chip-hits" id="chip-hits-${tid}"></span>
+    </label>`;
+  }).join('');
+
+  wrap.querySelectorAll('.trans-chip').forEach(chip => {
+    chip.addEventListener('click', e => {
+      e.preventDefault(); // stop browser from toggling the checkbox a second time
+      const tid    = chip.dataset.tid;
+      const cb     = chip.querySelector('input');
+      const nowOn  = !activeTids.includes(tid);
+      cb.checked   = nowOn;
+      chip.classList.toggle('active', nowOn);
+      if (nowOn) activeTids.push(tid);
+      else       activeTids = activeTids.filter(t => t !== tid);
+      reSearch();
+    });
+  });
+}
+
+function updateChipHits() {
+  for (const [tid, count] of Object.entries(hitsByTid)) {
+    const el = document.getElementById(`chip-hits-${tid}`);
+    if (el) el.textContent = count > 0 ? count : '';
+  }
+}
+
+// ── Re-run search or just re-render if no active query ────────────────────
+function reSearch() {
+  const q = document.getElementById('search-input').value;
+  if (currentNormQ.length >= 2) runSearch(q);
+  else renderResults();
+}
+
+// ── Scope tabs ─────────────────────────────────────────────────────────────
+document.querySelectorAll('.scope-btn').forEach(btn => {
+  btn.addEventListener('click', () => {
+    document.querySelectorAll('.scope-btn').forEach(b => b.classList.remove('active'));
+    btn.classList.add('active');
+    scopeFilter = btn.dataset.scope;
+    reSearch();
+  });
+});
+
+// ── Render ─────────────────────────────────────────────────────────────────
+function renderResults() {
+  const idleEl   = document.getElementById('state-idle');
+  const noResEl  = document.getElementById('state-no-results');
+  const listEl   = document.getElementById('results-list');
+  const countEl  = document.getElementById('result-count');
+
+  updateChipHits();
+
+  const scopeBooks = scopeFilter === 'nt' ? new Set(NT_BOOKS)
+                   : scopeFilter === 'ot' ? new Set(OT_BOOKS)
+                   : null;
+
+  let totalVisible = 0;
+  const booksWithHits = ALL_BOOKS_ORDERED.filter(bn => {
+    if (scopeBooks && !scopeBooks.has(bn)) return false;
+    return (results[bn] || []).some(r => activeTids.includes(r.tid));
+  });
+
+  if (!currentNormQ) {
+    idleEl.style.display  = '';
+    noResEl.style.display = 'none';
+    listEl.style.display  = 'none';
+    countEl.textContent   = '';
+    return;
+  }
+
+  idleEl.style.display = 'none';
+
+  if (booksWithHits.length === 0 && !scanning) {
+    noResEl.style.display = 'flex';
+    listEl.style.display  = 'none';
+    countEl.textContent   = '0 sonuç';
+    return;
+  }
+
+  noResEl.style.display = 'none';
+  listEl.style.display  = 'block';
+
+  let html = '';
+  for (const bn of booksWithHits) {
+    const rows  = (results[bn] || []).filter(r => activeTids.includes(r.tid));
+    if (!rows.length) continue;
+    totalVisible += rows.length;
+    const limit = showLimits[bn] ?? SHOW_STEP;
+    const shown = rows.slice(0, limit);
+
+    html += `<div class="book-section">
+      <div class="book-heading">
+        <span class="book-heading-name">${escHtml(bn)}</span>
+        <span class="book-heading-count">${rows.length} sonuç</span>
+      </div>`;
+
+    for (const r of shown) {
+      const href = `compare.html?b=${encodeURIComponent(bn)}&c=${r.chap}&v=${r.v}&t=${encodeURIComponent(activeTids.join(','))}`;
+      html += `<a class="result-row" href="${href}" target="_blank">
+        <span class="rr-ref">${r.chap}:${r.v}</span>
+        <span class="rr-tid">${escHtml(r.tid)}</span>
+        <span class="rr-text">${highlightAll(r.text, currentNormQ)}</span>
+      </a>`;
+    }
+
+    if (rows.length > limit) {
+      html += `<div class="show-more-row">
+        <button class="show-more-btn" data-book="${escHtml(bn)}">
+          ${rows.length - limit} sonuç daha göster
+        </button>
+      </div>`;
+    }
+
+    html += `</div>`;
+  }
+
+  listEl.innerHTML = html;
+  countEl.textContent = totalVisible > 0 ? `${totalVisible} sonuç` : '';
+
+  listEl.querySelectorAll('.show-more-btn').forEach(btn => {
+    btn.addEventListener('click', () => {
+      showLimits[btn.dataset.book] = (showLimits[btn.dataset.book] ?? SHOW_STEP) + 100;
+      renderResults();
+    });
+  });
+}
+
+// ── Scan ───────────────────────────────────────────────────────────────────
+async function runSearch(query) {
+  if (scanning) { stopped = true; await new Promise(r => setTimeout(r, 100)); }
+
+  currentNormQ = normTr(query.trim());
+  results      = {};
+  hitsByTid    = {};
+  showLimits   = {};
+
+  const statusEl = document.getElementById('scan-status');
+  const barEl    = document.getElementById('progress-bar');
+
+  if (currentNormQ.length < 2) {
+    renderResults();
+    statusEl.textContent = '';
+    statusEl.className   = 'scan-status';
+    barEl.style.width    = '0%';
+    return;
+  }
+
+  scanning = true;
+  stopped  = false;
+  statusEl.className = 'scan-status scanning';
+
+  const booksToScan = scopeFilter === 'nt' ? NT_BOOKS
+                    : scopeFilter === 'ot' ? OT_BOOKS
+                    : ALL_BOOKS_ORDERED;
+  const total = booksToScan.length;
+  let done    = 0;
+
+  for (const bookName of booksToScan) {
+    if (stopped) break;
+    const bookCode = BOOK_CODES[bookName];
+    const chCount  = CHAPTER_COUNTS[bookName] ?? 1;
+    const tidsForBook = activeTids.filter(tid => isTransAvailableForBook(tid, bookCode));
+
+    if (!tidsForBook.length) { done++; continue; }
+
+    const tasks = [];
+    for (const tid of tidsForBook)
+      for (let ch = 1; ch <= chCount; ch++)
+        tasks.push({ tid, ch });
+
+    const BATCH = 40;
+    for (let i = 0; i < tasks.length; i += BATCH) {
+      if (stopped) break;
+      await Promise.allSettled(tasks.slice(i, i + BATCH).map(({ tid, ch }) =>
+        fetch(`data/translations/${tid}/${bookCode}/${ch}.json`)
+          .then(r => r.ok ? r.json() : null)
+          .then(d => {
+            if (!d) return;
+            for (const v of (d.content ?? [])) {
+              if (!v.text || !normTr(v.text).includes(currentNormQ)) continue;
+              if (!results[bookName]) results[bookName] = [];
+              results[bookName].push({ tid, chap: ch, v: v.v, text: v.text });
+              hitsByTid[tid] = (hitsByTid[tid] ?? 0) + 1;
+            }
+          })
+          .catch(() => {})
+      ));
+    }
+
+    done++;
+    const pct = Math.round(done / total * 100);
+    barEl.style.width = pct + '%';
+    statusEl.textContent = `${done} / ${total} kitap`;
+
+    if (done % 4 === 0 || done === total) renderResults();
+  }
+
+  scanning = false;
+  statusEl.className   = 'scan-status';
+  statusEl.textContent = stopped ? 'Durduruldu' : 'Tamamlandı';
+  barEl.style.width    = '100%';
+  renderResults();
+
+  const url = new URL(location.href);
+  url.searchParams.set('q', query);
+  url.searchParams.set('t', activeTids.join(','));
+  history.replaceState({}, '', url);
+}
+
+// ── Verse reference parser ─────────────────────────────────────────────────
+function normB(s) {
+  return s.toLowerCase()
+    .replace(/[\s.'`\-]/g, '')
+    .replace(/İ|ı|I/g,'i').replace(/ş/g,'s').replace(/ğ/g,'g')
+    .replace(/ö/g,'o').replace(/ü/g,'u').replace(/ç/g,'c')
+    .replace(/â/g,'a').replace(/î/g,'i').replace(/û/g,'u');
+}
+const _VR_RAW = [
+  ['GEN',['gen','genesis','yar','yaratis','yaratilis']],
+  ['EXO',['exo','ex','exod','exodus','cik','cikis','misirdancikis','misirdan']],
+  ['LEV',['lev','leviticus','levililer']],
+  ['NUM',['num','numbers','say','sayim','coldesayim']],
+  ['DEU',['deu','deut','deuteronomy','yas','yasanintekrari','tesniye']],
+  ['JOS',['jos','josh','joshua','yesu','yos']],
+  ['JDG',['jdg','judg','judges','hak','hakimler']],
+  ['RUT',['rut','ruth']],
+  ['1SA',['1sa','1sam','1samuel']],['2SA',['2sa','2sam','2samuel']],
+  ['1KI',['1ki','1kgs','1kings','1kr','1krallar']],['2KI',['2ki','2kgs','2kings','2kr','2krallar']],
+  ['1CH',['1ch','1chr','1chronicles','1ta','1tarihler']],['2CH',['2ch','2chr','2chronicles','2ta','2tarihler']],
+  ['EZR',['ezr','ezra']],['NEH',['neh','nehemiah','nehemya']],['EST',['est','esther','ester']],
+  ['JOB',['job','eyu','eyup','eyub']],
+  ['PSA',['ps','psa','psalm','psalms','mez','mezmurlar']],
+  ['PRO',['prov','pro','proverbs','suz','ozdeyisler','suleymanin']],
+  ['ECC',['ecc','eccl','ecclesiastes','vai','vaiz']],
+  ['SNG',['song','sos','sng','ezgilerezgisi','ezgiler']],
+  ['ISA',['isa','isaiah','yesaya','ysa']],
+  ['JER',['jer','jeremiah','yeremya','yer']],
+  ['LAM',['lam','lamentations','agitlar','agi']],
+  ['EZK',['ezk','ezek','ezekiel','hezekiel','hez']],
+  ['DAN',['dan','daniel']],
+  ['HOS',['hos','hosea']],['JOL',['jol','joel','yoel']],['AMO',['amo','amos']],
+  ['OBA',['oba','obad','obadiah','ova','ovadya']],
+  ['JON',['jon','jonah','yun','yunus']],
+  ['MIC',['mic','micah','mik','mika']],['NAH',['nah','nahum']],['HAB',['hab','habakkuk']],
+  ['ZEP',['zep','zeph','zephaniah','zef','zefanya']],
+  ['HAG',['hag','haggai','hagay']],['ZEC',['zec','zech','zechariah','zek','zekeriya']],
+  ['MAL',['mal','malachi','malaki']],
+  ['MAT',['mat','matt','mt','matthew','matta']],
+  ['MRK',['mrk','mk','mar','mark','markos']],
+  ['LUK',['luk','lk','luke','luka']],
+  ['JHN',['jhn','jn','joh','john','yuh','yuhanna']],
+  ['ACT',['act','acts','elc','elcilerin','elcilerinisleri']],
+  ['ROM',['rom','romans','romalilar']],
+  ['1CO',['1co','1cor','1corinthians','1ko','1korintliler']],['2CO',['2co','2cor','2corinthians','2ko','2korintliler']],
+  ['GAL',['gal','galatians','galatiyalilar','galatya']],
+  ['EPH',['eph','ephesians','efe','efesliler']],
+  ['PHP',['php','phil','philippians','fil','filipililer']],
+  ['COL',['col','colossians','kol','koloseliler']],
+  ['1TH',['1th','1thes','1thess','1thessalonians','1se','1selanikliler']],['2TH',['2th','2thes','2thess','2thessalonians','2se','2selanikliler']],
+  ['1TI',['1ti','1tim','1timothy','1timoteos']],['2TI',['2ti','2tim','2timothy','2timoteos']],
+  ['TIT',['tit','titus']],['PHM',['phm','phlm','philemon','flm','filemon']],
+  ['HEB',['heb','hebrews','ibr','ibraniler']],
+  ['JAS',['jas','james','yak','yakup']],
+  ['1PE',['1pe','1pet','1peter','1petrus']],['2PE',['2pe','2pet','2peter','2petrus']],
+  ['1JN',['1jn','1joh','1john','1yuh','1yuhanna']],['2JN',['2jn','2joh','2john','2yuh','2yuhanna']],
+  ['3JN',['3jn','3joh','3john','3yuh','3yuhanna']],
+  ['JUD',['jud','jude','yah','yahuda']],
+  ['REV',['rev','revelation','vah','vahiy']],
+];
+const _VR_MAP = {};
+_VR_RAW.forEach(([code, names]) => names.forEach(n => { _VR_MAP[normB(n)] = code; }));
+
+function _editDist(a, b) {
+  if (a === b) return 0;
+  const m = a.length, n = b.length;
+  if (!m) return n; if (!n) return m;
+  let prev = Array.from({length: n+1}, (_,i) => i);
+  for (let i = 1; i <= m; i++) {
+    const cur = [i];
+    for (let j = 1; j <= n; j++)
+      cur[j] = a[i-1]===b[j-1] ? prev[j-1] : 1+Math.min(prev[j],cur[j-1],prev[j-1]);
+    prev = cur;
+  }
+  return prev[n];
+}
+function _lookupBook(raw) {
+  const norm = normB(raw);
+  if (!norm) return null;
+  if (_VR_MAP[norm]) return _VR_MAP[norm];
+  if (norm.length >= 2) {
+    let best = null, bestLen = 0;
+    for (const key of Object.keys(_VR_MAP))
+      if (key.startsWith(norm) && norm.length > bestLen) { best = _VR_MAP[key]; bestLen = norm.length; }
+    if (best) return best;
+  }
+  let bestCode = null, bestDist = Infinity;
+  const maxErr = norm.length <= 4 ? 1 : 2;
+  for (const [key, code] of Object.entries(_VR_MAP)) {
+    if (Math.abs(key.length - norm.length) > maxErr) continue;
+    const d = _editDist(norm, key);
+    if (d < bestDist && d <= maxErr) { bestDist = d; bestCode = code; }
+  }
+  return bestCode;
+}
+function parseVerseRef(raw) {
+  const s = raw.trim()
+    .replace(/[,;:]/g, ' ').replace(/\./g, ' ')
+    .replace(/([a-zA-ZğüşıöçĞÜŞİÖÇ])(\d)/g, '$1 $2')
+    .replace(/(\d)([a-zA-ZğüşıöçĞÜŞİÖÇ])/g, '$1 $2')
+    .replace(/\s+/g, ' ').trim();
+  const tokens = s.split(' ').filter(Boolean);
+  if (tokens.length < 2) return null;
+  const numIdx = tokens.reduce((a,t,i) => /^\d+$/.test(t) ? [...a,i] : a, []);
+  if (numIdx.length < 2) return null;
+  const versePos = numIdx[numIdx.length-1], chapPos = numIdx[numIdx.length-2];
+  const verse = parseInt(tokens[versePos],10), chap = parseInt(tokens[chapPos],10);
+  if (verse < 1 || chap < 1) return null;
+  const bookStr = tokens.slice(0, chapPos).join('');
+  if (!bookStr) return null;
+  const bookCode = _lookupBook(bookStr);
+  return bookCode ? { bookCode, chap, verse } : null;
+}
+
+// ── Input wiring ───────────────────────────────────────────────────────────
+const qEl = document.getElementById('search-input');
+qEl.value = initQ;
+
+let debounceT = null;
+qEl.addEventListener('input', () => {
+  clearTimeout(debounceT);
+  debounceT = setTimeout(() => runSearch(qEl.value), 350);
+});
+qEl.addEventListener('keydown', e => {
+  if (e.key === 'Enter') {
+    clearTimeout(debounceT);
+    const q = qEl.value.trim();
+    // Verse reference? Open compare.html at that location
+    const ref = parseVerseRef(q);
+    if (ref) {
+      const bookName = BOOK_CODES_REV[ref.bookCode];
+      if (bookName) {
+        const tParam = activeTids.join(',');
+        window.open(
+          `compare.html?b=${encodeURIComponent(bookName)}&c=${ref.chap}&v=${ref.verse}&t=${encodeURIComponent(tParam)}`,
+          '_blank'
+        );
+        return;
+      }
+    }
+    runSearch(q);
+  }
+});
+
+// ── Init ───────────────────────────────────────────────────────────────────
+buildTransChips();
+renderResults();
+
+if (initQ.trim().length >= 2) {
+  runSearch(initQ);
+} else {
+  qEl.focus();
+}
+</script>
+</body>
+</html>

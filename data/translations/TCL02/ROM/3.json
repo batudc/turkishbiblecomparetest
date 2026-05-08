@@ -1,1 +1,137 @@
-{"t": "TCL02", "b": "ROM", "c": 3, "content": [{"v": 1, "text": "Öyleyse Yahudi'nin ne üstünlüğü var? Sünnetin yararı nedir?"}, {"v": 2, "text": "Her yönden çoktur. İlk olarak, Tanrı'nın sözleri Yahudiler'e emanet edilmiştir."}, {"v": 3, "text": "Peki, kimi Yahudiler güvenilmez çıkmışsa ne olur? Onların güvenilmezliği Tanrı'nın güvenilirliğini ortadan kaldırır mı?"}, {"v": 4, "text": "Kesinlikle hayır! Herkes yalancı olsa bile, Tanrı'nın doğruyu söylediği bilinmelidir. Yazılmış olduğu gibi: “Öyle ki, sözlerinde doğru çıkasın Ve yargılandığında davayı kazanasın.”"}, {"v": 5, "text": "Ama bizim haksızlığımız Tanrı'nın adil olduğunu ortaya çıkarıyorsa, ne diyelim? İnsanların diliyle konuşuyorum: Gazapla cezalandıran Tanrı haksız mı?"}, {"v": 6, "text": "Kesinlikle hayır! Öyle olsa Tanrı dünyayı nasıl yargılayacak?"}, {"v": 7, "text": "Ama Tanrı'nın her zaman doğruyu söylediği benim yalanımla yüceliği için daha açık şekilde ortaya çıkmışsa, ben niçin yine bir günahkâr olarak yargılanıyorum?"}, {"v": 8, "text": "Bazılarının bizi kötüleyerek, söylediğimizi ileri sürdüğü gibi niçin, “Kötülük yapalım da bundan iyilik çıksın” demeyelim? Böylelerinin yargılanması yerindedir."}, {"v": 9, "text": "Şimdi ne diyelim? Biz Yahudiler öteki uluslardan üstün müyüz? Elbette değiliz. İster Yahudi ister Grek olsun, daha önce herkesi günahın denetiminde olmakla suçladık."}, {"v": 10, "text": "Yazılmış olduğu gibi: “Doğru kimse yok, tek kişi bile yok."}, {"v": 11, "text": "Anlayan kimse yok, Tanrı'yı arayan yok."}, {"v": 12, "text": "Hepsi saptı, Tümü yararsız oldu. İyilik eden yok, tek kişi bile!”"}, {"v": 13, "text": "“Ağızları açık birer mezardır. Dilleriyle aldatırlar.” “Engerek zehiri var dudaklarının altında.”"}, {"v": 14, "text": "“Ağızları lanet ve acı sözle doludur.”"}, {"v": 15, "text": "“Ayakları kan dökmeye seğirtir."}, {"v": 16, "text": "Yıkım ve dert var yollarında."}, {"v": 17, "text": "Esenlik yolunu da bilmezler.”"}, {"v": 18, "text": "“Tanrı korkusu yoktur onlarda.”"}, {"v": 19, "text": "Kutsal Yasa'da söylenenlerin her ağız kapansın, bütün dünya Tanrı'ya hesap versin diye Yasa'nın yönetimi altındakilere söylendiğini biliyoruz."}, {"v": 20, "text": "Bu nedenle Yasa'nın gereklerini yapmakla hiç kimse Tanrı katında aklanmayacaktır. Çünkü Yasa sayesinde günahın bilincine varılır."}, {"v": 21, "text": "Ama şimdi Yasa'dan bağımsız olarak Tanrı'nın insanı nasıl aklayacağı açıklandı. Yasa ve peygamberler buna tanıklık ediyor."}, {"v": 22, "text": "Tanrı insanları İsa Mesih'e olan imanlarıyla aklar. Bunu, iman eden herkes için yapar. Hiç ayrım yoktur."}, {"v": 23, "text": "Çünkü herkes günah işledi ve Tanrı'nın yüceliğinden yoksun kaldı."}, {"v": 24, "text": "İnsanlar İsa Mesih'te olan kurtuluşla, Tanrı'nın lütfuyla, karşılıksız olarak aklanırlar."}, {"v": 25, "text": "Tanrı Mesih'i, kanıyla günahları bağışlatan ve imanla benimsenen kurban olarak sundu. Böylece adaletini gösterdi. Çünkü sabredip daha önce işlenmiş günahları cezasız bıraktı. Bunu, adil kalmak ve İsa'ya iman edeni aklamak için şimdiki zamanda kendi adaletini göstermek amacıyla yaptı."}, {"v": 27, "text": "Öyleyse neyle övünebiliriz? Hiçbir şeyle! Hangi ilkeye dayanarak? Yasa'yı yerine getirme ilkesine mi? Hayır, iman ilkesine."}, {"v": 28, "text": "Çünkü insanın, Yasa'nın gereklerini yaparak değil, iman ederek aklandığı kanısındayız."}, {"v": 29, "text": "Yoksa Tanrı yalnız Yahudiler'in Tanrısı mı? Öteki ulusların da Tanrısı değil mi? Elbet öteki ulusların da Tanrısı'dır."}, {"v": 30, "text": "Çünkü sünnetlileri imanları sayesinde, sünnetsizleri de aynı imanla aklayacak olan Tanrı tektir."}, {"v": 31, "text": "Öyleyse biz iman aracılığıyla Kutsal Yasa'yı geçersiz mi kılıyoruz? Hayır, tam tersine, Yasa'yı doğruluyoruz."}]}
+{
+  "t": "TCL02",
+  "b": "ROM",
+  "c": 3,
+  "content": [
+    {
+      "section": "Tanrı'nın Güvenilirliği"
+    },
+    {
+      "v": 1,
+      "text": "Öyleyse Yahudi'nin ne üstünlüğü var? Sünnetin yararı nedir?"
+    },
+    {
+      "v": 2,
+      "text": "Her yönden çoktur. İlk olarak, Tanrı'nın sözleri Yahudiler'e emanet edilmiştir."
+    },
+    {
+      "v": 3,
+      "text": "Peki, kimi Yahudiler güvenilmez çıkmışsa ne olur? Onların güvenilmezliği Tanrı'nın güvenilirliğini ortadan kaldırır mı?"
+    },
+    {
+      "v": 4,
+      "text": "Kesinlikle hayır! Herkes yalancı olsa bile, Tanrı'nın doğruyu söylediği bilinmelidir. Yazılmış olduğu gibi: “Öyle ki, sözlerinde doğru çıkasın Ve yargılandığında davayı kazanasın.”"
+    },
+    {
+      "v": 5,
+      "text": "Ama bizim haksızlığımız Tanrı'nın adil olduğunu ortaya çıkarıyorsa, ne diyelim? İnsanların diliyle konuşuyorum: Gazapla cezalandıran Tanrı haksız mı?"
+    },
+    {
+      "v": 6,
+      "text": "Kesinlikle hayır! Öyle olsa Tanrı dünyayı nasıl yargılayacak?"
+    },
+    {
+      "v": 7,
+      "text": "Ama Tanrı'nın her zaman doğruyu söylediği benim yalanımla yüceliği için daha açık şekilde ortaya çıkmışsa, ben niçin yine bir günahkâr olarak yargılanıyorum?"
+    },
+    {
+      "v": 8,
+      "text": "Bazılarının bizi kötüleyerek, söylediğimizi ileri sürdüğü gibi niçin, “Kötülük yapalım da bundan iyilik çıksın” demeyelim? Böylelerinin yargılanması yerindedir."
+    },
+    {
+      "section": "Doğru Olan Yok"
+    },
+    {
+      "v": 9,
+      "text": "Şimdi ne diyelim? Biz Yahudiler öteki uluslardan üstün müyüz? Elbette değiliz. İster Yahudi ister Grek olsun, daha önce herkesi günahın denetiminde olmakla suçladık."
+    },
+    {
+      "v": 10,
+      "text": "Yazılmış olduğu gibi: “Doğru kimse yok, tek kişi bile yok."
+    },
+    {
+      "v": 11,
+      "text": "Anlayan kimse yok, Tanrı'yı arayan yok."
+    },
+    {
+      "v": 12,
+      "text": "Hepsi saptı, Tümü yararsız oldu. İyilik eden yok, tek kişi bile!”"
+    },
+    {
+      "v": 13,
+      "text": "“Ağızları açık birer mezardır. Dilleriyle aldatırlar.” “Engerek zehiri var dudaklarının altında.”"
+    },
+    {
+      "v": 14,
+      "text": "“Ağızları lanet ve acı sözle doludur.”"
+    },
+    {
+      "v": 15,
+      "text": "“Ayakları kan dökmeye seğirtir."
+    },
+    {
+      "v": 16,
+      "text": "Yıkım ve dert var yollarında."
+    },
+    {
+      "v": 17,
+      "text": "Esenlik yolunu da bilmezler.”"
+    },
+    {
+      "v": 18,
+      "text": "“Tanrı korkusu yoktur onlarda.”"
+    },
+    {
+      "v": 19,
+      "text": "Kutsal Yasa'da söylenenlerin her ağız kapansın, bütün dünya Tanrı'ya hesap versin diye Yasa'nın yönetimi altındakilere söylendiğini biliyoruz."
+    },
+    {
+      "v": 20,
+      "text": "Bu nedenle Yasa'nın gereklerini yapmakla hiç kimse Tanrı katında aklanmayacaktır. Çünkü Yasa sayesinde günahın bilincine varılır."
+    },
+    {
+      "section": "İmanla Aklanma"
+    },
+    {
+      "v": 21,
+      "text": "Ama şimdi Yasa'dan bağımsız olarak Tanrı'nın insanı nasıl aklayacağı açıklandı. Yasa ve peygamberler buna tanıklık ediyor."
+    },
+    {
+      "v": 22,
+      "text": "Tanrı insanları İsa Mesih'e olan imanlarıyla aklar. Bunu, iman eden herkes için yapar. Hiç ayrım yoktur."
+    },
+    {
+      "v": 23,
+      "text": "Çünkü herkes günah işledi ve Tanrı'nın yüceliğinden yoksun kaldı."
+    },
+    {
+      "v": 24,
+      "text": "İnsanlar İsa Mesih'te olan kurtuluşla, Tanrı'nın lütfuyla, karşılıksız olarak aklanırlar."
+    },
+    {
+      "v": 25,
+      "text": "Tanrı Mesih'i, kanıyla günahları bağışlatan ve imanla benimsenen kurban olarak sundu. Böylece adaletini gösterdi. Çünkü sabredip daha önce işlenmiş günahları cezasız bıraktı. Bunu, adil kalmak ve İsa'ya iman edeni aklamak için şimdiki zamanda kendi adaletini göstermek amacıyla yaptı."
+    },
+    {
+      "v": 27,
+      "text": "Öyleyse neyle övünebiliriz? Hiçbir şeyle! Hangi ilkeye dayanarak? Yasa'yı yerine getirme ilkesine mi? Hayır, iman ilkesine."
+    },
+    {
+      "v": 28,
+      "text": "Çünkü insanın, Yasa'nın gereklerini yaparak değil, iman ederek aklandığı kanısındayız."
+    },
+    {
+      "v": 29,
+      "text": "Yoksa Tanrı yalnız Yahudiler'in Tanrısı mı? Öteki ulusların da Tanrısı değil mi? Elbet öteki ulusların da Tanrısı'dır."
+    },
+    {
+      "v": 30,
+      "text": "Çünkü sünnetlileri imanları sayesinde, sünnetsizleri de aynı imanla aklayacak olan Tanrı tektir."
+    },
+    {
+      "v": 31,
+      "text": "Öyleyse biz iman aracılığıyla Kutsal Yasa'yı geçersiz mi kılıyoruz? Hayır, tam tersine, Yasa'yı doğruluyoruz."
+    }
+  ],
+  "title": "Tanrı'nın Güvenilirliği"
+}

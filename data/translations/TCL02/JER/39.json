@@ -1,1 +1,86 @@
-{"t":"TCL02","b":"JER","c":39,"content":[{"v":1,"text":"Yahuda Kralı Sidkiya'nın dokuzuncu yılının onuncu ayında Babil Kralı Nebukadnessar bütün ordusuyla Yeruşalim önlerine gelerek kenti kuşattı."},{"v":2,"text":"Sidkiya'nın krallığının on birinci yılında, dördüncü ayın dokuzuncu günü kent surlarında gedik açıldı."},{"v":3,"text":"Yeruşalim ele geçirilince Babil Kralı'nın bütün komutanları –Samgarlı Nergal-Sareser, askeri danışman Nebo– Sarsekim, baş görevli Nergal-Sareser ve bütün öteki görevliler– içeri girip Orta Kapı'da oturdular."},{"v":4,"text":"Yahuda Kralı Sidkiya'yla askerler onları görünce kaçtılar. Gece kral bahçesinin yolundan iki duvarın arasındaki kapıdan kaçarak Arava yoluna çıktılar."},{"v":5,"text":"Ama artlarına düşen Kildani ordusu Eriha ovalarında Sidkiya'ya yetişti, onu yakalayıp Hama topraklarında, Rivla'da Babil Kralı Nebukadnessar'ın huzuruna çıkardılar. Nebukadnessar onun hakkında karar verdi:"},{"v":6,"text":"Rivla'da Sidkiya'nın gözü önünde oğullarını, sonra da bütün Yahuda ileri gelenlerini öldürttü."},{"v":7,"text":"Sidkiya'nın gözlerini oydu, zincire vurup Babil'e götürdü."},{"v":8,"text":"Kildaniler sarayla halkın evlerini ateşe verdiler, Yeruşalim surlarını yıktılar."},{"v":9,"text":"Komutan Nebuzaradan kentte sağ kalanları, kendi safına geçen kaçakları ve geri kalan halkı Babil'e sürgün etti."},{"v":10,"text":"Ancak hiçbir şeyi olmayan bazı yoksulları Yahuda'da bıraktı, onlara bağ ve tarla verdi."},{"v":11,"text":"Babil Kralı Nebukadnessar, muhafız birliği komutanı Nebuzaradan aracılığıyla Yeremya'yla ilgili şu buyruğu verdi:"},{"v":12,"text":"“Onu sorumluluğun altına al, ona iyi bak, hiç zarar verme, senden ne dilerse yap.”"},{"v":13,"text":"Bunun üzerine muhafız birliği komutanı Nebuzaradan, askeri danışman Nebuşazban, baş görevli Nergal-Sareser ve Babil Kralı'nın öbür görevlileri"},{"v":14,"text":"adam gönderip Yeremya'yı muhafız avlusundan getirttiler. Evine geri götürmesi için Şafan oğlu Ahikam oğlu Gedalya'nın koruyuculuğuna verdiler. Böylece Yeremya halkı arasında yaşamını sürdürdü."},{"v":15,"text":"Yeremya daha muhafız avlusunda tutukluyken RAB ona şöyle seslenmişti:"},{"v":16,"text":"“Git, Kûşlu Ebet-Melek'e de ki, ‘İsrail'in Tanrısı, Her Şeye Egemen RAB şöyle diyor: Bu kent üzerine yarar değil, zarar verecek sözlerimi yerine getirmek üzereyim. O gün olanları sen de göreceksin."},{"v":17,"text":"Ama o gün seni kurtaracağım diyor RAB. Korktuğun adamların eline teslim edilmeyeceksin."},{"v":18,"text":"Seni kesinlikle kurtaracağım, kılıçla öldürülmeyeceksin. Hiç değilse canını kurtarmış olacaksın. Çünkü bana güvendin, diyor RAB.’ ”"}]}
+{
+  "t": "TCL02",
+  "b": "JER",
+  "c": 39,
+  "content": [
+    {
+      "section": "Yeruşalim'in Düşüşü"
+    },
+    {
+      "v": 1,
+      "text": "Yahuda Kralı Sidkiya'nın dokuzuncu yılının onuncu ayında Babil Kralı Nebukadnessar bütün ordusuyla Yeruşalim önlerine gelerek kenti kuşattı."
+    },
+    {
+      "v": 2,
+      "text": "Sidkiya'nın krallığının on birinci yılında, dördüncü ayın dokuzuncu günü kent surlarında gedik açıldı."
+    },
+    {
+      "v": 3,
+      "text": "Yeruşalim ele geçirilince Babil Kralı'nın bütün komutanları –Samgarlı Nergal-Sareser, askeri danışman Nebo– Sarsekim, baş görevli Nergal-Sareser ve bütün öteki görevliler– içeri girip Orta Kapı'da oturdular."
+    },
+    {
+      "v": 4,
+      "text": "Yahuda Kralı Sidkiya'yla askerler onları görünce kaçtılar. Gece kral bahçesinin yolundan iki duvarın arasındaki kapıdan kaçarak Arava yoluna çıktılar."
+    },
+    {
+      "v": 5,
+      "text": "Ama artlarına düşen Kildani ordusu Eriha ovalarında Sidkiya'ya yetişti, onu yakalayıp Hama topraklarında, Rivla'da Babil Kralı Nebukadnessar'ın huzuruna çıkardılar. Nebukadnessar onun hakkında karar verdi:"
+    },
+    {
+      "v": 6,
+      "text": "Rivla'da Sidkiya'nın gözü önünde oğullarını, sonra da bütün Yahuda ileri gelenlerini öldürttü."
+    },
+    {
+      "v": 7,
+      "text": "Sidkiya'nın gözlerini oydu, zincire vurup Babil'e götürdü."
+    },
+    {
+      "v": 8,
+      "text": "Kildaniler sarayla halkın evlerini ateşe verdiler, Yeruşalim surlarını yıktılar."
+    },
+    {
+      "v": 9,
+      "text": "Komutan Nebuzaradan kentte sağ kalanları, kendi safına geçen kaçakları ve geri kalan halkı Babil'e sürgün etti."
+    },
+    {
+      "v": 10,
+      "text": "Ancak hiçbir şeyi olmayan bazı yoksulları Yahuda'da bıraktı, onlara bağ ve tarla verdi."
+    },
+    {
+      "section": "Yeremya Özgür Bırakılıyor"
+    },
+    {
+      "v": 11,
+      "text": "Babil Kralı Nebukadnessar, muhafız birliği komutanı Nebuzaradan aracılığıyla Yeremya'yla ilgili şu buyruğu verdi:"
+    },
+    {
+      "v": 12,
+      "text": "“Onu sorumluluğun altına al, ona iyi bak, hiç zarar verme, senden ne dilerse yap.”"
+    },
+    {
+      "v": 13,
+      "text": "Bunun üzerine muhafız birliği komutanı Nebuzaradan, askeri danışman Nebuşazban, baş görevli Nergal-Sareser ve Babil Kralı'nın öbür görevlileri"
+    },
+    {
+      "v": 14,
+      "text": "adam gönderip Yeremya'yı muhafız avlusundan getirttiler. Evine geri götürmesi için Şafan oğlu Ahikam oğlu Gedalya'nın koruyuculuğuna verdiler. Böylece Yeremya halkı arasında yaşamını sürdürdü."
+    },
+    {
+      "v": 15,
+      "text": "Yeremya daha muhafız avlusunda tutukluyken RAB ona şöyle seslenmişti:"
+    },
+    {
+      "v": 16,
+      "text": "“Git, Kûşlu Ebet-Melek'e de ki, ‘İsrail'in Tanrısı, Her Şeye Egemen RAB şöyle diyor: Bu kent üzerine yarar değil, zarar verecek sözlerimi yerine getirmek üzereyim. O gün olanları sen de göreceksin."
+    },
+    {
+      "v": 17,
+      "text": "Ama o gün seni kurtaracağım diyor RAB. Korktuğun adamların eline teslim edilmeyeceksin."
+    },
+    {
+      "v": 18,
+      "text": "Seni kesinlikle kurtaracağım, kılıçla öldürülmeyeceksin. Hiç değilse canını kurtarmış olacaksın. Çünkü bana güvendin, diyor RAB.’ ”"
+    }
+  ],
+  "title": "Yeruşalim'in Düşüşü"
+}

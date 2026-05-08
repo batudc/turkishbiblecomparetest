@@ -1,1 +1,79 @@
-{"t": "TCL02", "b": "GEN", "c": 23, "content": [{"v": 1, "text": "Sara yüz yirmi yedi yıl yaşadı. Ömrü bu kadardı."}, {"v": 2, "text": "Kenan ülkesinde, bugün Hevron denilen Kiryat-Arba'da öldü. İbrahim yas tutmak, ağlamak için Sara'nın ölüsünün başına gitti."}, {"v": 3, "text": "Sonra karısının ölüsünün başından kalkıp Hititler'e,"}, {"v": 4, "text": "“Ben aranızda konuk ve yabancıyım” dedi, “Bana mezar yapabileceğim bir toprak satın. Ölümü kaldırıp gömeyim.”"}, {"v": 5, "text": "Hititler, “Efendim, bizi dinle” diye yanıtladılar, “Sen aramızda önemli bir beysin. Ölünü mezarlarımızın en iyisine göm. Ölünü gömmen için kimse senden mezarını esirgemez.”"}, {"v": 7, "text": "İbrahim, ülke halkı olan Hititler'in önünde eğilerek,"}, {"v": 8, "text": "“Eğer ölümü gömmemi istiyorsanız, benim için Sohar oğlu Efron'a ricada bulunun” dedi,"}, {"v": 9, "text": "“Tarlasının dibindeki Makpela Mağarası'nı bana satsın. Fiyatı neyse huzurunuzda eksiksiz ödeyip orayı mezarlık yapacağım.”"}, {"v": 10, "text": "Hititli Efron halkının arasında oturuyordu. Kent kapısında toplanan herkesin duyacağı biçimde,"}, {"v": 11, "text": "“Hayır, efendim!” diye karşılık verdi, “Beni dinle, mağarayla birlikte tarlayı da sana veriyorum. Halkımın huzurunda onu sana veriyorum. Ölünü göm.”"}, {"v": 12, "text": "İbrahim ülke halkının önünde eğildi."}, {"v": 13, "text": "Herkesin duyacağı biçimde Efron'a, “Lütfen beni dinle” dedi, “Tarlanın parasını ödeyeyim. Parayı kabul et ki, ölümü oraya gömeyim.”"}, {"v": 14, "text": "Efron, “Efendim, beni dinle” diye karşılık verdi, “Aramızda dört yüz şekel gümüşün sözü mü olur? Ölünü göm.”"}, {"v": 16, "text": "İbrahim Efron'un önerisini kabul etti. Efron'un Hititler'in önünde sözünü ettiği dört yüz şekel gümüşü tüccarların ağırlık ölçülerine göre tarttı."}, {"v": 17, "text": "Böylece Efron'un Mamre yakınında Makpela'daki tarlası, çevresindeki bütün ağaçlarla ve içindeki mağarayla birlikte, kent kapısında toplanan Hititler'in huzurunda İbrahim'in mülkü kabul edildi."}, {"v": 19, "text": "İbrahim karısı Sara'yı Kenan ülkesinde Mamre'ye –Hevron'a– yakın Makpela Tarlası'ndaki mağaraya gömdü."}, {"v": 20, "text": "Hititler tarlayı içindeki mağarayla birlikte İbrahim'in mezarlık yeri olarak onayladılar."}]}
+{
+  "t": "TCL02",
+  "b": "GEN",
+  "c": 23,
+  "content": [
+    {
+      "section": "Sara'nın Ölümü"
+    },
+    {
+      "v": 1,
+      "text": "Sara yüz yirmi yedi yıl yaşadı. Ömrü bu kadardı."
+    },
+    {
+      "v": 2,
+      "text": "Kenan ülkesinde, bugün Hevron denilen Kiryat-Arba'da öldü. İbrahim yas tutmak, ağlamak için Sara'nın ölüsünün başına gitti."
+    },
+    {
+      "v": 3,
+      "text": "Sonra karısının ölüsünün başından kalkıp Hititler'e,"
+    },
+    {
+      "v": 4,
+      "text": "“Ben aranızda konuk ve yabancıyım” dedi, “Bana mezar yapabileceğim bir toprak satın. Ölümü kaldırıp gömeyim.”"
+    },
+    {
+      "v": 5,
+      "text": "Hititler, “Efendim, bizi dinle” diye yanıtladılar, “Sen aramızda önemli bir beysin. Ölünü mezarlarımızın en iyisine göm. Ölünü gömmen için kimse senden mezarını esirgemez.”"
+    },
+    {
+      "v": 7,
+      "text": "İbrahim, ülke halkı olan Hititler'in önünde eğilerek,"
+    },
+    {
+      "v": 8,
+      "text": "“Eğer ölümü gömmemi istiyorsanız, benim için Sohar oğlu Efron'a ricada bulunun” dedi,"
+    },
+    {
+      "v": 9,
+      "text": "“Tarlasının dibindeki Makpela Mağarası'nı bana satsın. Fiyatı neyse huzurunuzda eksiksiz ödeyip orayı mezarlık yapacağım.”"
+    },
+    {
+      "v": 10,
+      "text": "Hititli Efron halkının arasında oturuyordu. Kent kapısında toplanan herkesin duyacağı biçimde,"
+    },
+    {
+      "v": 11,
+      "text": "“Hayır, efendim!” diye karşılık verdi, “Beni dinle, mağarayla birlikte tarlayı da sana veriyorum. Halkımın huzurunda onu sana veriyorum. Ölünü göm.”"
+    },
+    {
+      "v": 12,
+      "text": "İbrahim ülke halkının önünde eğildi."
+    },
+    {
+      "v": 13,
+      "text": "Herkesin duyacağı biçimde Efron'a, “Lütfen beni dinle” dedi, “Tarlanın parasını ödeyeyim. Parayı kabul et ki, ölümü oraya gömeyim.”"
+    },
+    {
+      "v": 14,
+      "text": "Efron, “Efendim, beni dinle” diye karşılık verdi, “Aramızda dört yüz şekel gümüşün sözü mü olur? Ölünü göm.”"
+    },
+    {
+      "v": 16,
+      "text": "İbrahim Efron'un önerisini kabul etti. Efron'un Hititler'in önünde sözünü ettiği dört yüz şekel gümüşü tüccarların ağırlık ölçülerine göre tarttı."
+    },
+    {
+      "v": 17,
+      "text": "Böylece Efron'un Mamre yakınında Makpela'daki tarlası, çevresindeki bütün ağaçlarla ve içindeki mağarayla birlikte, kent kapısında toplanan Hititler'in huzurunda İbrahim'in mülkü kabul edildi."
+    },
+    {
+      "v": 19,
+      "text": "İbrahim karısı Sara'yı Kenan ülkesinde Mamre'ye –Hevron'a– yakın Makpela Tarlası'ndaki mağaraya gömdü."
+    },
+    {
+      "v": 20,
+      "text": "Hititler tarlayı içindeki mağarayla birlikte İbrahim'in mezarlık yeri olarak onayladılar."
+    }
+  ],
+  "title": "Sara'nın Ölümü"
+}

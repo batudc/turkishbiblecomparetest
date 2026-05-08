@@ -1,1 +1,35 @@
-{"t":"TCL02","b":"PSA","c":53,"content":[{"v":1,"text":"Akılsız içinden, “Tanrı yok!” der. İnsanlar bozuldu, iğrençlik aldı yürüdü, İyilik eden yok."},{"v":2,"text":"Tanrı göklerden bakar oldu insanlara, Akıllı, Tanrı'ya yönelen biri var mı diye."},{"v":3,"text":"Hepsi saptı, Tümü yozlaştı, İyilik eden yok, Bir kişi bile!"},{"v":4,"text":"Suç işleyenler görmüyor mu? Halkımı ekmek yer gibi yiyor, Tanrı'ya yakarmıyorlar."},{"v":5,"text":"Ama korkulmayacak yerde korkacaklar, Çünkü Tanrı seni kuşatanların kemiklerini dağıtacak, Onları reddettiği için hepsini utandıracak."},{"v":6,"text":"Keşke İsrail'in kurtuluşu Siyon'dan gelse! Tanrı halkını eski gönencine kavuşturunca, Yakup soyu sevinecek, İsrail halkı coşacak."}]}
+{
+  "t": "TCL02",
+  "b": "PSA",
+  "c": 53,
+  "content": [
+    {
+      "section": "53. Mezmur"
+    },
+    {
+      "v": 1,
+      "text": "Akılsız içinden, “Tanrı yok!” der. İnsanlar bozuldu, iğrençlik aldı yürüdü, İyilik eden yok."
+    },
+    {
+      "v": 2,
+      "text": "Tanrı göklerden bakar oldu insanlara, Akıllı, Tanrı'ya yönelen biri var mı diye."
+    },
+    {
+      "v": 3,
+      "text": "Hepsi saptı, Tümü yozlaştı, İyilik eden yok, Bir kişi bile!"
+    },
+    {
+      "v": 4,
+      "text": "Suç işleyenler görmüyor mu? Halkımı ekmek yer gibi yiyor, Tanrı'ya yakarmıyorlar."
+    },
+    {
+      "v": 5,
+      "text": "Ama korkulmayacak yerde korkacaklar, Çünkü Tanrı seni kuşatanların kemiklerini dağıtacak, Onları reddettiği için hepsini utandıracak."
+    },
+    {
+      "v": 6,
+      "text": "Keşke İsrail'in kurtuluşu Siyon'dan gelse! Tanrı halkını eski gönencine kavuşturunca, Yakup soyu sevinecek, İsrail halkı coşacak."
+    }
+  ],
+  "title": "53. Mezmur"
+}

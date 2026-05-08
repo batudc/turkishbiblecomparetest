@@ -1,1 +1,119 @@
-{"t":"TCL02","b":"LEV","c":20,"content":[{"v":1,"text":"RAB Musa'ya şöyle dedi:"},{"v":2,"text":"“İsrail halkına de ki, ‘İsrailliler'den ya da aranızda yaşayan yabancılardan kim çocuklarından birini ilah Molek'e sunarsa, kesinlikle öldürülecek. Ülke halkı onu taşlayacak."},{"v":3,"text":"Kim çocuğunu Molek'e sunarak tapınağımı kirletir, kutsal adıma leke sürerse, ona öfkeyle bakacağım. Onu halkımın arasından atacağım."},{"v":4,"text":"Adam çocuğunu Molek'e sunar da, ülke halkı bunu görmezden gelir, onu öldürmezse,"},{"v":5,"text":"adama ve ailesine öfkeyle bakacağım. Hem onu, hem de bana ihanet edip onu izleyerek Molek'e tapanların hepsini halkımın arasından atacağım."},{"v":6,"text":"“ ‘Kim cincilere, ruh çağıranlara danışır, bana ihanet ederse, ona öfkeyle bakacak, halkımın arasından atacağım."},{"v":7,"text":"Kendinizi bana adayın, kutsal olun. Tanrınız RAB benim."},{"v":8,"text":"Kurallarıma uyacak, onları yerine getireceksiniz. Sizi kutsal kılan RAB benim."},{"v":9,"text":"“ ‘Annesine ya da babasına lanet eden herkes kesinlikle öldürülecektir. Annesine ya da babasına lanet ettiği için ölümü hak etmiştir."},{"v":10,"text":"“ ‘Biri başka birinin karısıyla, yani komşusunun karısıyla zina ederse, hem kendisi, hem de zina ettiği kadın kesinlikle öldürülecektir."},{"v":11,"text":"Babasının karısıyla yatan, babasının namusuna leke sürmüş olur. İkisi de kesinlikle öldürülecektir. Ölümü hak etmişlerdir."},{"v":12,"text":"Bir adam geliniyle yatarsa, ikisi de kesinlikle öldürülecektir. Rezillik etmişler, ölümü hak etmişlerdir."},{"v":13,"text":"Bir erkek başka bir erkekle cinsel ilişki kurarsa, ikisi de iğrençlik etmiş olur. Kesinlikle öldürülecekler. Ölümü hak etmişlerdir."},{"v":14,"text":"Bir adam hem bir kızla, hem de kızın annesiyle evlenirse, alçaklık etmiş olur. Aranızda böyle alçaklıklar olmasın diye üçü de yakılacaktır."},{"v":15,"text":"Bir hayvanla cinsel ilişki kuran adam kesinlikle öldürülecek, hayvansa kesilecektir."},{"v":16,"text":"Bir kadın cinsel ilişki kurmak amacıyla bir hayvana yaklaşırsa, kadını da hayvanı da kesinlikle öldüreceksiniz. Ölümü hak etmişlerdir."},{"v":17,"text":"“ ‘Bir adam anne ya da baba tarafından üvey olan kızkardeşiyle evlenir, cinsel ilişki kurarsa, utançtır. Açıkça aşağılanıp halkın arasından atılacaklardır. Adam kızkardeşiyle ilişki kurduğu için suçunun cezasını çekecektir."},{"v":18,"text":"Âdet gören bir kadınla yatıp cinsel ilişki kuran adam kadının akıntılı yerini açığa çıkarmış, kadın da buna katılmış olur. İkisi de halkın arasından atılacaktır."},{"v":19,"text":"“ ‘Teyzenle ya da halanla cinsel ilişki kurmayacaksın. Çünkü yakın akrabanın namusudur. İkiniz de suçunuzun cezasını çekeceksiniz."},{"v":20,"text":"“ ‘Amcasının karısıyla cinsel ilişki kuran adam, amcasının namusuna leke sürmüş olur. İkisi de günahlarının cezasını çekecek ve çocuk sahibi olmadan öleceklerdir."},{"v":21,"text":"Kardeşinin karısıyla evlenen adam rezillik etmiş olur. Kardeşinin namusunu lekelemiştir. Çocuk sahibi olmayacaklardır."},{"v":22,"text":"“ ‘Bütün kurallarıma, ilkelerime uyacak, onları yerine getireceksiniz. Öyle ki, yaşamak üzere sizi götüreceğim ülke sizi dışarı kusmasın."},{"v":23,"text":"Önünüzden kovacağım ulusların törelerine göre yaşamayacaksınız. Çünkü onlar bütün bu kötülükleri yaptılar. Bu yüzden onlardan nefret ettim."},{"v":24,"text":"Oysa, Siz onların topraklarını sahipleneceksiniz. Bal ve süt akan bu ülkeyi size mülk olarak vereceğim, dedim. Sizi öteki uluslardan ayrı tutan Tanrınız RAB benim."},{"v":25,"text":"“ ‘Temiz hayvanlarla kuşları kirli olanlardan ayırt edeceksiniz. Sizin için kirli ilan ettiğim hayvanlarla, kuşlarla, küçük kara hayvanlarıyla kendinizi kirletmeyeceksiniz."},{"v":26,"text":"Benim için kutsal olacaksınız. Çünkü ben RAB kutsalım. Bana ait olmanız için sizi öbür halklardan ayrı tuttum."},{"v":27,"text":"“ ‘Cincilik yapan ve ruh çağıran ister erkek olsun, ister kadın olsun kesinlikle öldürülecektir. Onları taşlayacaksınız. Ölümlerinden kendileri sorumludur.’ ”"}]}
+{
+  "t": "TCL02",
+  "b": "LEV",
+  "c": 20,
+  "content": [
+    {
+      "section": "Günahın Bedeli"
+    },
+    {
+      "v": 1,
+      "text": "RAB Musa'ya şöyle dedi:"
+    },
+    {
+      "v": 2,
+      "text": "“İsrail halkına de ki, ‘İsrailliler'den ya da aranızda yaşayan yabancılardan kim çocuklarından birini ilah Molek'e sunarsa, kesinlikle öldürülecek. Ülke halkı onu taşlayacak."
+    },
+    {
+      "v": 3,
+      "text": "Kim çocuğunu Molek'e sunarak tapınağımı kirletir, kutsal adıma leke sürerse, ona öfkeyle bakacağım. Onu halkımın arasından atacağım."
+    },
+    {
+      "v": 4,
+      "text": "Adam çocuğunu Molek'e sunar da, ülke halkı bunu görmezden gelir, onu öldürmezse,"
+    },
+    {
+      "v": 5,
+      "text": "adama ve ailesine öfkeyle bakacağım. Hem onu, hem de bana ihanet edip onu izleyerek Molek'e tapanların hepsini halkımın arasından atacağım."
+    },
+    {
+      "v": 6,
+      "text": "“ ‘Kim cincilere, ruh çağıranlara danışır, bana ihanet ederse, ona öfkeyle bakacak, halkımın arasından atacağım."
+    },
+    {
+      "v": 7,
+      "text": "Kendinizi bana adayın, kutsal olun. Tanrınız RAB benim."
+    },
+    {
+      "v": 8,
+      "text": "Kurallarıma uyacak, onları yerine getireceksiniz. Sizi kutsal kılan RAB benim."
+    },
+    {
+      "v": 9,
+      "text": "“ ‘Annesine ya da babasına lanet eden herkes kesinlikle öldürülecektir. Annesine ya da babasına lanet ettiği için ölümü hak etmiştir."
+    },
+    {
+      "v": 10,
+      "text": "“ ‘Biri başka birinin karısıyla, yani komşusunun karısıyla zina ederse, hem kendisi, hem de zina ettiği kadın kesinlikle öldürülecektir."
+    },
+    {
+      "v": 11,
+      "text": "Babasının karısıyla yatan, babasının namusuna leke sürmüş olur. İkisi de kesinlikle öldürülecektir. Ölümü hak etmişlerdir."
+    },
+    {
+      "v": 12,
+      "text": "Bir adam geliniyle yatarsa, ikisi de kesinlikle öldürülecektir. Rezillik etmişler, ölümü hak etmişlerdir."
+    },
+    {
+      "v": 13,
+      "text": "Bir erkek başka bir erkekle cinsel ilişki kurarsa, ikisi de iğrençlik etmiş olur. Kesinlikle öldürülecekler. Ölümü hak etmişlerdir."
+    },
+    {
+      "v": 14,
+      "text": "Bir adam hem bir kızla, hem de kızın annesiyle evlenirse, alçaklık etmiş olur. Aranızda böyle alçaklıklar olmasın diye üçü de yakılacaktır."
+    },
+    {
+      "v": 15,
+      "text": "Bir hayvanla cinsel ilişki kuran adam kesinlikle öldürülecek, hayvansa kesilecektir."
+    },
+    {
+      "v": 16,
+      "text": "Bir kadın cinsel ilişki kurmak amacıyla bir hayvana yaklaşırsa, kadını da hayvanı da kesinlikle öldüreceksiniz. Ölümü hak etmişlerdir."
+    },
+    {
+      "v": 17,
+      "text": "“ ‘Bir adam anne ya da baba tarafından üvey olan kızkardeşiyle evlenir, cinsel ilişki kurarsa, utançtır. Açıkça aşağılanıp halkın arasından atılacaklardır. Adam kızkardeşiyle ilişki kurduğu için suçunun cezasını çekecektir."
+    },
+    {
+      "v": 18,
+      "text": "Âdet gören bir kadınla yatıp cinsel ilişki kuran adam kadının akıntılı yerini açığa çıkarmış, kadın da buna katılmış olur. İkisi de halkın arasından atılacaktır."
+    },
+    {
+      "v": 19,
+      "text": "“ ‘Teyzenle ya da halanla cinsel ilişki kurmayacaksın. Çünkü yakın akrabanın namusudur. İkiniz de suçunuzun cezasını çekeceksiniz."
+    },
+    {
+      "v": 20,
+      "text": "“ ‘Amcasının karısıyla cinsel ilişki kuran adam, amcasının namusuna leke sürmüş olur. İkisi de günahlarının cezasını çekecek ve çocuk sahibi olmadan öleceklerdir."
+    },
+    {
+      "v": 21,
+      "text": "Kardeşinin karısıyla evlenen adam rezillik etmiş olur. Kardeşinin namusunu lekelemiştir. Çocuk sahibi olmayacaklardır."
+    },
+    {
+      "v": 22,
+      "text": "“ ‘Bütün kurallarıma, ilkelerime uyacak, onları yerine getireceksiniz. Öyle ki, yaşamak üzere sizi götüreceğim ülke sizi dışarı kusmasın."
+    },
+    {
+      "v": 23,
+      "text": "Önünüzden kovacağım ulusların törelerine göre yaşamayacaksınız. Çünkü onlar bütün bu kötülükleri yaptılar. Bu yüzden onlardan nefret ettim."
+    },
+    {
+      "v": 24,
+      "text": "Oysa, Siz onların topraklarını sahipleneceksiniz. Bal ve süt akan bu ülkeyi size mülk olarak vereceğim, dedim. Sizi öteki uluslardan ayrı tutan Tanrınız RAB benim."
+    },
+    {
+      "v": 25,
+      "text": "“ ‘Temiz hayvanlarla kuşları kirli olanlardan ayırt edeceksiniz. Sizin için kirli ilan ettiğim hayvanlarla, kuşlarla, küçük kara hayvanlarıyla kendinizi kirletmeyeceksiniz."
+    },
+    {
+      "v": 26,
+      "text": "Benim için kutsal olacaksınız. Çünkü ben RAB kutsalım. Bana ait olmanız için sizi öbür halklardan ayrı tuttum."
+    },
+    {
+      "v": 27,
+      "text": "“ ‘Cincilik yapan ve ruh çağıran ister erkek olsun, ister kadın olsun kesinlikle öldürülecektir. Onları taşlayacaksınız. Ölümlerinden kendileri sorumludur.’ ”"
+    }
+  ],
+  "title": "Günahın Bedeli"
+}

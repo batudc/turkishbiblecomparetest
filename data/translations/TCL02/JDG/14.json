@@ -1,1 +1,91 @@
-{"t":"TCL02","b":"JDG","c":14,"content":[{"v":1,"text":"Şimşon bir gün Timna'ya gitti. Orada Filistli bir kadın gördü."},{"v":2,"text":"Geri dönünce annesiyle babasına, “Timna'da Filistli bir kadın gördüm” dedi, “Onu hemen bana eş olarak alın.”"},{"v":3,"text":"Annesiyle babası, “Akrabalarının ya da halkımızın kızları arasında kimse yok mu ki, sünnetsiz Filistliler'den kız almaya kalkıyorsun?” diye karşılık verdiler.  Ama Şimşon babasına, “Bana o kadını al, ondan hoşlanıyorum” dedi."},{"v":4,"text":"Şimşon'un annesiyle babası bunu isteyenin RAB olduğunu anlamadılar. Çünkü RAB o sırada İsrailliler'e egemen olan Filistliler'e karşı fırsat kolluyordu."},{"v":5,"text":"Böylece Şimşon annesi ve babasıyla Timna'ya doğru yola koyuldu. Timna bağlarına vardıklarında, genç bir aslan kükreyerek Şimşon'un karşısına çıktı."},{"v":6,"text":"Şimşon üzerine inen RAB'bin Ruhu'yla güçlendi ve aslanı bir oğlak parçalar gibi çıplak elle parçaladı. Ama yaptığını ne annesine ne de babasına bildirdi."},{"v":7,"text":"Sonra gidip kadınla konuştu ve ondan çok hoşlandı."},{"v":8,"text":"Bir süre sonra kadınla evlenmek üzere yine Timna'ya giderken, aslanın leşini görmek için yoldan saptı. Bir arı sürüsünün aslanın leşini kovana çevirdiğini gördü."},{"v":9,"text":"Kovandaki balı avuçlarına doldurdu, yiye yiye oradan uzaklaştı. Annesiyle babasının yanına varınca baldan onlara da verdi, onlar da yedi. Ama balı aslanın leşinden aldığını söylemedi."},{"v":10,"text":"Babası kadını görmeye gidince, Şimşon da damat geleneğine uyarak orada bir şölen düzenledi."},{"v":11,"text":"Filistliler onu görünce ona eşlik etmek üzere otuz genç getirdiler."},{"v":12,"text":"Şimşon onlara, “Size bir bilmece sorayım” dedi, “Şölenin yedi günü içinde kesin yanıtı bulup bana bildirirseniz, size otuz keten mintan, otuz takım da üst giysi vereceğim."},{"v":13,"text":"Ama bilmeceyi çözemezseniz, o zaman da siz bana otuz keten mintanla otuz takım üst giysi vereceksiniz.”  Ona, “Seni dinliyoruz” dediler, “Söyle bakalım bilmeceni.”"},{"v":14,"text":"Şimşon, “Yiyenden yiyecek, Güçlüden tatlı çıktı”  dedi. Üç gün geçtiyse de bilmeceyi çözemediler."},{"v":15,"text":"Dördüncü gün gençler Şimşon'un karısına, “Kocanı kandır da bize bilmecenin yanıtını versin” dediler, “Yoksa, seni de babanın evini de yakarız. Bizi soymak için mi buraya çağırdınız?”"},{"v":16,"text":"Şimşon'un karısı ağlayarak ona, “Benden nefret ediyorsun” dedi, “Beni sevmiyorsun. Soydaşlarıma bir bilmece sordun, yanıtını bana söylemedin.”  Şimşon karısına, “Bak” dedi, “Anneme babama bile söylemedim, sana mı söyleyeceğim?”"},{"v":17,"text":"Kadın şölen boyunca yedi gün ağlayıp durdu. Kadının sürekli sıkıştırması üzerine Şimşon yedinci gün bilmecenin yanıtını ona söyledi. Kadın da yanıtı soydaşlarına iletti."},{"v":18,"text":"Yedinci gün, gün batmadan kentli gençler Şimşon'a geldiler. “Baldan tatlı, Aslandan güçlü ne var?”  dediler.  Şimşon, “Düvemle çift sürmüş olmasaydınız, bilmecemi çözemezdiniz” diye karşılık verdi."},{"v":19,"text":"RAB'bin Ruhu üzerine inince güçlenen Şimşon Aşkelon'a gitti; otuz kişi vurup mallarını yağmaladı, giysilerini de bilmeceyi çözenlere verdi. Öfkeden kudurmuş bir halde babasının evine döndü."},{"v":20,"text":"Şimşon'un karısı ise Şimşon'a eşlik eden sağdıca verildi."}]}
+{
+  "t": "TCL02",
+  "b": "JDG",
+  "c": 14,
+  "content": [
+    {
+      "section": "Şimşon'un Evlenmesi"
+    },
+    {
+      "v": 1,
+      "text": "Şimşon bir gün Timna'ya gitti. Orada Filistli bir kadın gördü."
+    },
+    {
+      "v": 2,
+      "text": "Geri dönünce annesiyle babasına, “Timna'da Filistli bir kadın gördüm” dedi, “Onu hemen bana eş olarak alın.”"
+    },
+    {
+      "v": 3,
+      "text": "Annesiyle babası, “Akrabalarının ya da halkımızın kızları arasında kimse yok mu ki, sünnetsiz Filistliler'den kız almaya kalkıyorsun?” diye karşılık verdiler.  Ama Şimşon babasına, “Bana o kadını al, ondan hoşlanıyorum” dedi."
+    },
+    {
+      "v": 4,
+      "text": "Şimşon'un annesiyle babası bunu isteyenin RAB olduğunu anlamadılar. Çünkü RAB o sırada İsrailliler'e egemen olan Filistliler'e karşı fırsat kolluyordu."
+    },
+    {
+      "v": 5,
+      "text": "Böylece Şimşon annesi ve babasıyla Timna'ya doğru yola koyuldu. Timna bağlarına vardıklarında, genç bir aslan kükreyerek Şimşon'un karşısına çıktı."
+    },
+    {
+      "v": 6,
+      "text": "Şimşon üzerine inen RAB'bin Ruhu'yla güçlendi ve aslanı bir oğlak parçalar gibi çıplak elle parçaladı. Ama yaptığını ne annesine ne de babasına bildirdi."
+    },
+    {
+      "v": 7,
+      "text": "Sonra gidip kadınla konuştu ve ondan çok hoşlandı."
+    },
+    {
+      "v": 8,
+      "text": "Bir süre sonra kadınla evlenmek üzere yine Timna'ya giderken, aslanın leşini görmek için yoldan saptı. Bir arı sürüsünün aslanın leşini kovana çevirdiğini gördü."
+    },
+    {
+      "v": 9,
+      "text": "Kovandaki balı avuçlarına doldurdu, yiye yiye oradan uzaklaştı. Annesiyle babasının yanına varınca baldan onlara da verdi, onlar da yedi. Ama balı aslanın leşinden aldığını söylemedi."
+    },
+    {
+      "v": 10,
+      "text": "Babası kadını görmeye gidince, Şimşon da damat geleneğine uyarak orada bir şölen düzenledi."
+    },
+    {
+      "v": 11,
+      "text": "Filistliler onu görünce ona eşlik etmek üzere otuz genç getirdiler."
+    },
+    {
+      "v": 12,
+      "text": "Şimşon onlara, “Size bir bilmece sorayım” dedi, “Şölenin yedi günü içinde kesin yanıtı bulup bana bildirirseniz, size otuz keten mintan, otuz takım da üst giysi vereceğim."
+    },
+    {
+      "v": 13,
+      "text": "Ama bilmeceyi çözemezseniz, o zaman da siz bana otuz keten mintanla otuz takım üst giysi vereceksiniz.”  Ona, “Seni dinliyoruz” dediler, “Söyle bakalım bilmeceni.”"
+    },
+    {
+      "v": 14,
+      "text": "Şimşon, “Yiyenden yiyecek, Güçlüden tatlı çıktı”  dedi. Üç gün geçtiyse de bilmeceyi çözemediler."
+    },
+    {
+      "v": 15,
+      "text": "Dördüncü gün gençler Şimşon'un karısına, “Kocanı kandır da bize bilmecenin yanıtını versin” dediler, “Yoksa, seni de babanın evini de yakarız. Bizi soymak için mi buraya çağırdınız?”"
+    },
+    {
+      "v": 16,
+      "text": "Şimşon'un karısı ağlayarak ona, “Benden nefret ediyorsun” dedi, “Beni sevmiyorsun. Soydaşlarıma bir bilmece sordun, yanıtını bana söylemedin.”  Şimşon karısına, “Bak” dedi, “Anneme babama bile söylemedim, sana mı söyleyeceğim?”"
+    },
+    {
+      "v": 17,
+      "text": "Kadın şölen boyunca yedi gün ağlayıp durdu. Kadının sürekli sıkıştırması üzerine Şimşon yedinci gün bilmecenin yanıtını ona söyledi. Kadın da yanıtı soydaşlarına iletti."
+    },
+    {
+      "v": 18,
+      "text": "Yedinci gün, gün batmadan kentli gençler Şimşon'a geldiler. “Baldan tatlı, Aslandan güçlü ne var?”  dediler.  Şimşon, “Düvemle çift sürmüş olmasaydınız, bilmecemi çözemezdiniz” diye karşılık verdi."
+    },
+    {
+      "v": 19,
+      "text": "RAB'bin Ruhu üzerine inince güçlenen Şimşon Aşkelon'a gitti; otuz kişi vurup mallarını yağmaladı, giysilerini de bilmeceyi çözenlere verdi. Öfkeden kudurmuş bir halde babasının evine döndü."
+    },
+    {
+      "v": 20,
+      "text": "Şimşon'un karısı ise Şimşon'a eşlik eden sağdıca verildi."
+    }
+  ],
+  "title": "Şimşon'un Evlenmesi"
+}

@@ -1,1 +1,126 @@
-{"t":"TCL02","b":"JOS","c":18,"content":[{"v":1,"text":"Ülkenin denetimini eline geçiren İsrail topluluğu Şilo'da bir araya geldi. Orada Buluşma Çadırı'nı kurdular."},{"v":2,"text":"Ne var ki, mülkten henüz paylarını almamış yedi İsrail oymağı vardı."},{"v":3,"text":"Yeşu İsrailliler'e, “Bu uyuşukluğu üzerinizden ne zaman atacaksınız, atalarınızın Tanrısı RAB'bin size verdiği toprakları ele geçirmek için daha ne kadar bekleyeceksiniz?” dedi."},{"v":4,"text":"“Her oymaktan üçer adam seçin. Onları, ülkeyi incelemeye göndereceğim. Mülk edinecekleri yerlerin sınırlarını belirleyip kayda geçirerek yanıma dönsünler."},{"v":5,"text":"Bu toprakları yedi bölgeye ayırsınlar. Yahuda güney bölgesinde, Yusufoğulları kuzey bölgesinde kalsın."},{"v":6,"text":"Yedi bölgeyi belirleyip kayda geçirdikten sonra, sonucu bana getirin. Burada, Tanrımız RAB'bin önünde aranızda kura çekeceğim."},{"v":7,"text":"Levililer'e gelince, onların aranızda payı yoktur; mirasları RAB için kâhinlik yapmaktır. Gad ve Ruben oymaklarıyla Manaşşe oymağının yarısı ise RAB'bin kulu Musa'nın Şeria Irmağı'nın doğusunda kendilerine verdiği mülkü almış bulunuyorlar.”"},{"v":8,"text":"Yeşu, toprakları kayda geçirmek için yola çıkmak üzere olan adamlara, “Gidip toprakları inceleyin, kayda geçirip yanıma dönün” diye buyurdu, “Sonra burada, Şilo'da, RAB'bin önünde sizin için kura çekeceğim.”"},{"v":9,"text":"Adamlar yola çıkıp ülkeyi dolaştılar; kent kent, yedi bölge halinde kayda geçirdikten sonra Şilo'da, ordugahta bulunan Yeşu'nun yanına döndüler."},{"v":10,"text":"Yeşu Şilo'da RAB'bin önünde onlar için kura çekti ve toprakları İsrail oymakları arasında bölüştürdü."},{"v":11,"text":"Boy sayısına göre Benyaminoğulları oymağı için kura çekildi. Paylarına düşen bölge Yahudaoğulları'yla Yusufoğulları'nın toprakları arasında kalıyordu."},{"v":12,"text":"Topraklarının sınırı kuzeyde Şeria Irmağı'ndan başlıyor, Eriha'nın kuzey sırtlarına doğru yükselerek batıda dağlık bölgeye uzanıyor, Beytaven kırlarında son buluyordu."},{"v":13,"text":"Sınır oradan Luz'a –Beytel'e– Luz'un güney sırtlarına geçiyor, Aşağı Beythoron'un güneyindeki dağın üzerinde kurulu Atrot-Addar'a iniyor,"},{"v":14,"text":"bölgenin batısında Beythoron'un güneyindeki dağdan güneye dönüyor ve Yahudaoğulları'na ait Kiryat-Baal –Kiryat-Yearim– Kenti'nde son buluyordu. Bu batı tarafıydı."},{"v":15,"text":"Güney tarafı Kiryat-Yearim'in batı varoşlarından başlıyor, Neftoah sularının kaynağına uzanıyordu."},{"v":16,"text":"Sınır buradan Refaim Vadisi'nin kuzeyindeki Ben-Hinnom Vadisi'ne bakan dağın yamaçlarına varıyor, Hinnom Vadisi'ni geçip Yevus'un güney sırtlarına, oradan da Eyn-Rogel'e iniyordu."},{"v":17,"text":"Kuzeye kıvrılan sınır Eyn-Şemeş ve Adummim Yokuşu'nun karşısındaki Gelilot'a çıkıyor, Ruben oğlu Bohan'ın taşına iniyor,"},{"v":18,"text":"sonra Arava Vadisi'nin kuzey sırtlarından geçip Arava'ya sarkıyor,"},{"v":19,"text":"buradan Beythogla'nın kuzey yamaçlarına geçiyor, Lut Gölü'nün kuzey körfezinde, Şeria Irmağı'nın güney ağzında bitiyordu. Güney sınırı buydu."},{"v":20,"text":"Şeria Irmağı doğu sınırını oluşturuyordu. Boy sayısına göre Benyaminoğulları'nın payına düşen mülkün sınırları çepeçevre buydu."},{"v":21,"text":"Boy sayısına göre Benyaminoğulları oymağının payına düşen kentler şunlardı: Eriha, Beythogla, Emek-Kesis,"},{"v":22,"text":"Beytarava, Semarayim, Beytel,"},{"v":23,"text":"Avvim, Para, Ofra,"},{"v":24,"text":"Kefar-Ammoni, Ofni, Geva; köyleriyle birlikte on iki kent."},{"v":25,"text":"Givon, Rama, Beerot,"},{"v":26,"text":"Mispe, Kefira, Mosa,"},{"v":27,"text":"Rekem, Yirpeel, Tarala,"},{"v":28,"text":"Sela, Haelef, Yevus –Yeruşalim– Givat ve Kiryat; köyleriyle birlikte on dört kent. Boy sayısına göre Benyaminoğulları'nın payı buydu."}]}
+{
+  "t": "TCL02",
+  "b": "JOS",
+  "c": 18,
+  "content": [
+    {
+      "section": "Öbür Toprakların Bölüşülmesi"
+    },
+    {
+      "v": 1,
+      "text": "Ülkenin denetimini eline geçiren İsrail topluluğu Şilo'da bir araya geldi. Orada Buluşma Çadırı'nı kurdular."
+    },
+    {
+      "v": 2,
+      "text": "Ne var ki, mülkten henüz paylarını almamış yedi İsrail oymağı vardı."
+    },
+    {
+      "v": 3,
+      "text": "Yeşu İsrailliler'e, “Bu uyuşukluğu üzerinizden ne zaman atacaksınız, atalarınızın Tanrısı RAB'bin size verdiği toprakları ele geçirmek için daha ne kadar bekleyeceksiniz?” dedi."
+    },
+    {
+      "v": 4,
+      "text": "“Her oymaktan üçer adam seçin. Onları, ülkeyi incelemeye göndereceğim. Mülk edinecekleri yerlerin sınırlarını belirleyip kayda geçirerek yanıma dönsünler."
+    },
+    {
+      "v": 5,
+      "text": "Bu toprakları yedi bölgeye ayırsınlar. Yahuda güney bölgesinde, Yusufoğulları kuzey bölgesinde kalsın."
+    },
+    {
+      "v": 6,
+      "text": "Yedi bölgeyi belirleyip kayda geçirdikten sonra, sonucu bana getirin. Burada, Tanrımız RAB'bin önünde aranızda kura çekeceğim."
+    },
+    {
+      "v": 7,
+      "text": "Levililer'e gelince, onların aranızda payı yoktur; mirasları RAB için kâhinlik yapmaktır. Gad ve Ruben oymaklarıyla Manaşşe oymağının yarısı ise RAB'bin kulu Musa'nın Şeria Irmağı'nın doğusunda kendilerine verdiği mülkü almış bulunuyorlar.”"
+    },
+    {
+      "v": 8,
+      "text": "Yeşu, toprakları kayda geçirmek için yola çıkmak üzere olan adamlara, “Gidip toprakları inceleyin, kayda geçirip yanıma dönün” diye buyurdu, “Sonra burada, Şilo'da, RAB'bin önünde sizin için kura çekeceğim.”"
+    },
+    {
+      "v": 9,
+      "text": "Adamlar yola çıkıp ülkeyi dolaştılar; kent kent, yedi bölge halinde kayda geçirdikten sonra Şilo'da, ordugahta bulunan Yeşu'nun yanına döndüler."
+    },
+    {
+      "v": 10,
+      "text": "Yeşu Şilo'da RAB'bin önünde onlar için kura çekti ve toprakları İsrail oymakları arasında bölüştürdü."
+    },
+    {
+      "section": "Benyaminoğulları'na Verilen Topraklar"
+    },
+    {
+      "v": 11,
+      "text": "Boy sayısına göre Benyaminoğulları oymağı için kura çekildi. Paylarına düşen bölge Yahudaoğulları'yla Yusufoğulları'nın toprakları arasında kalıyordu."
+    },
+    {
+      "v": 12,
+      "text": "Topraklarının sınırı kuzeyde Şeria Irmağı'ndan başlıyor, Eriha'nın kuzey sırtlarına doğru yükselerek batıda dağlık bölgeye uzanıyor, Beytaven kırlarında son buluyordu."
+    },
+    {
+      "v": 13,
+      "text": "Sınır oradan Luz'a –Beytel'e– Luz'un güney sırtlarına geçiyor, Aşağı Beythoron'un güneyindeki dağın üzerinde kurulu Atrot-Addar'a iniyor,"
+    },
+    {
+      "v": 14,
+      "text": "bölgenin batısında Beythoron'un güneyindeki dağdan güneye dönüyor ve Yahudaoğulları'na ait Kiryat-Baal –Kiryat-Yearim– Kenti'nde son buluyordu. Bu batı tarafıydı."
+    },
+    {
+      "v": 15,
+      "text": "Güney tarafı Kiryat-Yearim'in batı varoşlarından başlıyor, Neftoah sularının kaynağına uzanıyordu."
+    },
+    {
+      "v": 16,
+      "text": "Sınır buradan Refaim Vadisi'nin kuzeyindeki Ben-Hinnom Vadisi'ne bakan dağın yamaçlarına varıyor, Hinnom Vadisi'ni geçip Yevus'un güney sırtlarına, oradan da Eyn-Rogel'e iniyordu."
+    },
+    {
+      "v": 17,
+      "text": "Kuzeye kıvrılan sınır Eyn-Şemeş ve Adummim Yokuşu'nun karşısındaki Gelilot'a çıkıyor, Ruben oğlu Bohan'ın taşına iniyor,"
+    },
+    {
+      "v": 18,
+      "text": "sonra Arava Vadisi'nin kuzey sırtlarından geçip Arava'ya sarkıyor,"
+    },
+    {
+      "v": 19,
+      "text": "buradan Beythogla'nın kuzey yamaçlarına geçiyor, Lut Gölü'nün kuzey körfezinde, Şeria Irmağı'nın güney ağzında bitiyordu. Güney sınırı buydu."
+    },
+    {
+      "v": 20,
+      "text": "Şeria Irmağı doğu sınırını oluşturuyordu. Boy sayısına göre Benyaminoğulları'nın payına düşen mülkün sınırları çepeçevre buydu."
+    },
+    {
+      "v": 21,
+      "text": "Boy sayısına göre Benyaminoğulları oymağının payına düşen kentler şunlardı: Eriha, Beythogla, Emek-Kesis,"
+    },
+    {
+      "v": 22,
+      "text": "Beytarava, Semarayim, Beytel,"
+    },
+    {
+      "v": 23,
+      "text": "Avvim, Para, Ofra,"
+    },
+    {
+      "v": 24,
+      "text": "Kefar-Ammoni, Ofni, Geva; köyleriyle birlikte on iki kent."
+    },
+    {
+      "v": 25,
+      "text": "Givon, Rama, Beerot,"
+    },
+    {
+      "v": 26,
+      "text": "Mispe, Kefira, Mosa,"
+    },
+    {
+      "v": 27,
+      "text": "Rekem, Yirpeel, Tarala,"
+    },
+    {
+      "v": 28,
+      "text": "Sela, Haelef, Yevus –Yeruşalim– Givat ve Kiryat; köyleriyle birlikte on dört kent. Boy sayısına göre Benyaminoğulları'nın payı buydu."
+    }
+  ],
+  "title": "Öbür Toprakların Bölüşülmesi"
+}

@@ -1,1 +1,67 @@
-{"t":"TCL02","b":"JOB","c":26,"content":[{"v":1,"text":"Eyüp şöyle yanıtladı:"},{"v":2,"text":"“Çaresize nasıl yardım ettin! Güçsüz pazıyı nasıl kurtardın!"},{"v":3,"text":"Bilge olmayana ne öğütler verdin! Sağlam bilgiyi pek güzel öğrettin!"},{"v":4,"text":"Bu sözleri kime söyledin? Senin ağzından konuşan ruh kimin?"},{"v":5,"text":"“Suların ve sularda yaşayanların altında Ölüler titriyor."},{"v":6,"text":"Tanrı'nın önünde ölüler diyarı çıplaktır, Yıkım diyarı örtüsüz."},{"v":7,"text":"O boşluğun üzerine kuzey göklerini yayar, Hiçliğin üzerine dünyayı asar."},{"v":8,"text":"Bulutların içine suları sarar, Bulutlar yırtılmaz onların ağırlığı altında."},{"v":9,"text":"Dolunayın yüzünü örter, Üstüne bulutlarını serper."},{"v":10,"text":"Suların yüzeyine sınır çizer Işıkla karanlığın ayrıldığı yerde."},{"v":11,"text":"Göklerin direkleri sarsılır, Şaşkına dönerler O azarlayınca."},{"v":12,"text":"Gücüyle denizi çalkalar, Ustaca Rahav'ı vurur."},{"v":13,"text":"Gökler O'nun soluğuyla açılır, O'nun eli parçalar kaçan yılanı."},{"v":14,"text":"Bunlar yaptıklarının küçücük parçaları, O'ndan duyduğumuz hafif bir fısıltıdır. Gürleyen gücünü kim anlayabilir?”"}]}
+{
+  "t": "TCL02",
+  "b": "JOB",
+  "c": 26,
+  "content": [
+    {
+      "section": "Eyüp"
+    },
+    {
+      "v": 1,
+      "text": "Eyüp şöyle yanıtladı:"
+    },
+    {
+      "v": 2,
+      "text": "“Çaresize nasıl yardım ettin! Güçsüz pazıyı nasıl kurtardın!"
+    },
+    {
+      "v": 3,
+      "text": "Bilge olmayana ne öğütler verdin! Sağlam bilgiyi pek güzel öğrettin!"
+    },
+    {
+      "v": 4,
+      "text": "Bu sözleri kime söyledin? Senin ağzından konuşan ruh kimin?"
+    },
+    {
+      "v": 5,
+      "text": "“Suların ve sularda yaşayanların altında Ölüler titriyor."
+    },
+    {
+      "v": 6,
+      "text": "Tanrı'nın önünde ölüler diyarı çıplaktır, Yıkım diyarı örtüsüz."
+    },
+    {
+      "v": 7,
+      "text": "O boşluğun üzerine kuzey göklerini yayar, Hiçliğin üzerine dünyayı asar."
+    },
+    {
+      "v": 8,
+      "text": "Bulutların içine suları sarar, Bulutlar yırtılmaz onların ağırlığı altında."
+    },
+    {
+      "v": 9,
+      "text": "Dolunayın yüzünü örter, Üstüne bulutlarını serper."
+    },
+    {
+      "v": 10,
+      "text": "Suların yüzeyine sınır çizer Işıkla karanlığın ayrıldığı yerde."
+    },
+    {
+      "v": 11,
+      "text": "Göklerin direkleri sarsılır, Şaşkına dönerler O azarlayınca."
+    },
+    {
+      "v": 12,
+      "text": "Gücüyle denizi çalkalar, Ustaca Rahav'ı vurur."
+    },
+    {
+      "v": 13,
+      "text": "Gökler O'nun soluğuyla açılır, O'nun eli parçalar kaçan yılanı."
+    },
+    {
+      "v": 14,
+      "text": "Bunlar yaptıklarının küçücük parçaları, O'ndan duyduğumuz hafif bir fısıltıdır. Gürleyen gücünü kim anlayabilir?”"
+    }
+  ],
+  "title": "Eyüp"
+}

@@ -1,1 +1,98 @@
-{"t":"TCL02","b":"JOB","c":1,"content":[{"v":1,"text":"Ûs ülkesinde Eyüp adında bir adam yaşardı. Kusursuz, doğru bir adamdı. Tanrı'dan korkar, kötülükten kaçınırdı."},{"v":2,"text":"Yedi oğlu, üç kızı vardı."},{"v":3,"text":"Yedi bin koyuna, üç bin deveye, beş yüz çift öküze, beş yüz çift eşeğe ve pek çok köleye sahipti. Doğudaki insanların en zengini oydu."},{"v":4,"text":"Oğulları sırayla evlerinde şölen verir, birlikte yiyip içmek için üç kızkardeşlerini de çağırırlardı."},{"v":5,"text":"Bu şölen dönemi bitince Eyüp onları çağırtıp kutsardı. Sabah erkenden kalkar, “Çocuklarım günah işlemiş, içlerinden Tanrı'ya sövmüş olabilirler” diyerek her biri için yakmalık sunu sunardı. Eyüp hep böyle yapardı."},{"v":6,"text":"Bir gün ilahi varlıklar RAB'bin huzuruna çıkmak için geldiklerinde, Şeytan da onlarla geldi."},{"v":7,"text":"RAB Şeytan'a, “Nereden geliyorsun?” dedi.  Şeytan, “Dünyada gezip dolaşmaktan” diye yanıtladı."},{"v":8,"text":"RAB, “Kulum Eyüp'e bakıp da düşündün mü?” dedi, “Çünkü dünyada onun gibisi yoktur. Kusursuz, doğru bir adamdır. Tanrı'dan korkar, kötülükten kaçınır.”"},{"v":9,"text":"Şeytan, “Eyüp Tanrı'dan boşuna mı korkuyor?” diye yanıtladı."},{"v":10,"text":"“Onu, ev halkını, sahip olduğu her şeyi sen çitle çevirip korumadın mı? Elleriyle yaptığı her şeyi bereketli kıldın. Sürüleri bütün ülkeye yayıldı."},{"v":11,"text":"Ama elini uzatır da sahip olduğu her şeyi yok edersen, yüzüne karşı sövecektir.”"},{"v":12,"text":"RAB Şeytan'a, “Peki” dedi, “Sahip olduğu her şeyi senin eline bırakıyorum, yalnız kendisine dokunma.” Böylece Şeytan RAB'bin huzurundan ayrıldı."},{"v":13,"text":"Bir gün Eyüp'ün oğullarıyla kızları ağabeylerinin evinde yemek yiyip şarap içerken"},{"v":14,"text":"bir ulak gelip Eyüp'e şöyle dedi: “Öküzler çift sürüyor, eşekler onların yanında otluyordu."},{"v":15,"text":"Sabalılar baskın yaptı, hepsini alıp götürdü. Uşakları kılıçtan geçirdiler. Yalnız ben kaçıp kurtuldum sana durumu bildirmek için.”"},{"v":16,"text":"O daha sözünü bitirmeden başka bir ulak gelip, “Tanrı ateş yağdırdı” dedi, “Koyunlarla uşakları yakıp küle çevirdi. Yalnızca ben kaçıp kurtuldum durumu sana bildirmek için.”"},{"v":17,"text":"O daha sözünü bitirmeden başka bir ulak gelip, “Kildaniler üç bölük halinde develere saldırdı” dedi, “Hepsini alıp götürdüler, uşakları kılıçtan geçirdiler. Yalnızca ben kurtuldum durumu sana bildirmek için.”"},{"v":18,"text":"O daha sözünü bitirmeden başka bir ulak gelip, “Oğullarınla kızların ağabeylerinin evinde yemek yiyip şarap içerken"},{"v":19,"text":"ansızın çölden şiddetli bir rüzgar esti” dedi, “Evin dört köşesine çarptı; ev gençlerin üzerine yıkıldı, hepsi öldü. Yalnız ben kurtuldum durumu sana bildirmek için.”"},{"v":20,"text":"Bunun üzerine Eyüp kalktı, kaftanını yırtıp saçını sakalını kesti, yere kapanıp tapındı."},{"v":21,"text":"Dedi ki, “Bu dünyaya çıplak geldim, çıplak gideceğim. RAB verdi, RAB aldı, RAB'bin adına övgüler olsun!”"},{"v":22,"text":"Bütün bu olaylara karşın Eyüp günah işlemedi ve Tanrı'yı suçlamadı."}]}
+{
+  "t": "TCL02",
+  "b": "JOB",
+  "c": 1,
+  "content": [
+    {
+      "v": 1,
+      "text": "Ûs ülkesinde Eyüp adında bir adam yaşardı. Kusursuz, doğru bir adamdı. Tanrı'dan korkar, kötülükten kaçınırdı."
+    },
+    {
+      "v": 2,
+      "text": "Yedi oğlu, üç kızı vardı."
+    },
+    {
+      "v": 3,
+      "text": "Yedi bin koyuna, üç bin deveye, beş yüz çift öküze, beş yüz çift eşeğe ve pek çok köleye sahipti. Doğudaki insanların en zengini oydu."
+    },
+    {
+      "v": 4,
+      "text": "Oğulları sırayla evlerinde şölen verir, birlikte yiyip içmek için üç kızkardeşlerini de çağırırlardı."
+    },
+    {
+      "v": 5,
+      "text": "Bu şölen dönemi bitince Eyüp onları çağırtıp kutsardı. Sabah erkenden kalkar, “Çocuklarım günah işlemiş, içlerinden Tanrı'ya sövmüş olabilirler” diyerek her biri için yakmalık sunu sunardı. Eyüp hep böyle yapardı."
+    },
+    {
+      "section": "Eyüp'ün İlk Sınavı"
+    },
+    {
+      "v": 6,
+      "text": "Bir gün ilahi varlıklar RAB'bin huzuruna çıkmak için geldiklerinde, Şeytan da onlarla geldi."
+    },
+    {
+      "v": 7,
+      "text": "RAB Şeytan'a, “Nereden geliyorsun?” dedi.  Şeytan, “Dünyada gezip dolaşmaktan” diye yanıtladı."
+    },
+    {
+      "v": 8,
+      "text": "RAB, “Kulum Eyüp'e bakıp da düşündün mü?” dedi, “Çünkü dünyada onun gibisi yoktur. Kusursuz, doğru bir adamdır. Tanrı'dan korkar, kötülükten kaçınır.”"
+    },
+    {
+      "v": 9,
+      "text": "Şeytan, “Eyüp Tanrı'dan boşuna mı korkuyor?” diye yanıtladı."
+    },
+    {
+      "v": 10,
+      "text": "“Onu, ev halkını, sahip olduğu her şeyi sen çitle çevirip korumadın mı? Elleriyle yaptığı her şeyi bereketli kıldın. Sürüleri bütün ülkeye yayıldı."
+    },
+    {
+      "v": 11,
+      "text": "Ama elini uzatır da sahip olduğu her şeyi yok edersen, yüzüne karşı sövecektir.”"
+    },
+    {
+      "v": 12,
+      "text": "RAB Şeytan'a, “Peki” dedi, “Sahip olduğu her şeyi senin eline bırakıyorum, yalnız kendisine dokunma.” Böylece Şeytan RAB'bin huzurundan ayrıldı."
+    },
+    {
+      "v": 13,
+      "text": "Bir gün Eyüp'ün oğullarıyla kızları ağabeylerinin evinde yemek yiyip şarap içerken"
+    },
+    {
+      "v": 14,
+      "text": "bir ulak gelip Eyüp'e şöyle dedi: “Öküzler çift sürüyor, eşekler onların yanında otluyordu."
+    },
+    {
+      "v": 15,
+      "text": "Sabalılar baskın yaptı, hepsini alıp götürdü. Uşakları kılıçtan geçirdiler. Yalnız ben kaçıp kurtuldum sana durumu bildirmek için.”"
+    },
+    {
+      "v": 16,
+      "text": "O daha sözünü bitirmeden başka bir ulak gelip, “Tanrı ateş yağdırdı” dedi, “Koyunlarla uşakları yakıp küle çevirdi. Yalnızca ben kaçıp kurtuldum durumu sana bildirmek için.”"
+    },
+    {
+      "v": 17,
+      "text": "O daha sözünü bitirmeden başka bir ulak gelip, “Kildaniler üç bölük halinde develere saldırdı” dedi, “Hepsini alıp götürdüler, uşakları kılıçtan geçirdiler. Yalnızca ben kurtuldum durumu sana bildirmek için.”"
+    },
+    {
+      "v": 18,
+      "text": "O daha sözünü bitirmeden başka bir ulak gelip, “Oğullarınla kızların ağabeylerinin evinde yemek yiyip şarap içerken"
+    },
+    {
+      "v": 19,
+      "text": "ansızın çölden şiddetli bir rüzgar esti” dedi, “Evin dört köşesine çarptı; ev gençlerin üzerine yıkıldı, hepsi öldü. Yalnız ben kurtuldum durumu sana bildirmek için.”"
+    },
+    {
+      "v": 20,
+      "text": "Bunun üzerine Eyüp kalktı, kaftanını yırtıp saçını sakalını kesti, yere kapanıp tapındı."
+    },
+    {
+      "v": 21,
+      "text": "Dedi ki, “Bu dünyaya çıplak geldim, çıplak gideceğim. RAB verdi, RAB aldı, RAB'bin adına övgüler olsun!”"
+    },
+    {
+      "v": 22,
+      "text": "Bütün bu olaylara karşın Eyüp günah işlemedi ve Tanrı'yı suçlamadı."
+    }
+  ]
+}

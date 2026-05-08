@@ -1,1 +1,133 @@
-{"t": "TCL02", "b": "GAL", "c": 4, "content": [{"v": 1, "text": "Şunu demek istiyorum: Mirasçı her şeyin sahibiyse de, çocuk olduğu sürece köleden farksızdır."}, {"v": 2, "text": "Babasının belirlediği zamana dek vasilerin, vekillerin gözetimi altındadır."}, {"v": 3, "text": "Bunun gibi, biz de ruhsal yönden çocukken, dünyanın temel ilkelerine bağlı yaşayan kölelerdik."}, {"v": 4, "text": "Ama zaman dolunca Tanrı, Yasa altında olanları özgürlüğe kavuşturmak için kadından doğan, Yasa altında doğan öz Oğlu'nu gönderdi. Öyle ki, bizler oğulluk hakkını alalım."}, {"v": 6, "text": "Oğullar olduğunuz için Tanrı öz Oğlu'nun “Abba! Baba!” diye seslenen Ruhu'nu yüreklerinize gönderdi."}, {"v": 7, "text": "Bu nedenle artık köle değil, oğullarsınız. Oğullar olduğunuz için de Tanrı sizi aynı zamanda mirasçı yaptı."}, {"v": 8, "text": "Ne var ki, eskiden Tanrı'yı tanımadığınız zamanlarda, gerçek olmayan tanrılara kölelik ettiniz."}, {"v": 9, "text": "Şimdiyse Tanrı'yı tanıdınız, daha doğrusu Tanrı tarafından tanındınız. Öyleyse nasıl oluyor da bu değersiz, etkisiz ilkelere dönüyorsunuz? Yeniden onların kölesi mi olmak istiyorsunuz?"}, {"v": 10, "text": "Özel günler, aylar, mevsimler, yıllar kutluyorsunuz!"}, {"v": 11, "text": "Sizin için korkuyorum. Yoksa uğrunuza boş yere mi emek verdim?"}, {"v": 12, "text": "Kardeşler, size yalvarıyorum, benim gibi olun. Çünkü ben de sizin gibi oldum. Bana hiç haksızlık etmediniz."}, {"v": 13, "text": "Bildiğiniz gibi, Müjde'yi size ilk kez bedensel hastalığım nedeniyle bildirmiştim."}, {"v": 14, "text": "Bedensel durumum sizin için çetin bir deneme olduğu halde beni ne hor gördünüz ne de reddettiniz. Tanrı'nın bir meleğini, hatta Mesih İsa'yı kabul eder gibi kabul ettiniz beni."}, {"v": 15, "text": "Şimdi o sevincinize ne oldu? Sizin için tanıklık ederim ki, elinizden gelse gözlerinizi oyar bana verirdiniz."}, {"v": 16, "text": "Peki, size gerçeği söylediğim için düşmanınız mı oldum?"}, {"v": 17, "text": "Başkaları sizi kazanmaya gayret ediyor, ama niyetleri iyi değil. Kendileri için gayret edesiniz diye sizi bizden ayırmak istiyorlar."}, {"v": 18, "text": "Niyet iyiyse, yalnız aranızda olduğum zaman değil, her zaman gayretli olmak iyidir."}, {"v": 19, "text": "Çocuklarım! Mesih sizde biçimleninceye dek sizin için yine doğum ağrısı çekiyorum."}, {"v": 20, "text": "Şimdi yanınızda bulunmayı ve sesimin tonunu değiştirmeyi isterdim. Bu halinize şaşıyorum!"}, {"v": 21, "text": "Kutsal Yasa altında yaşamak isteyen sizler, söyleyin bana, Yasa'nın ne dediğini bilmiyor musunuz?"}, {"v": 22, "text": "İbrahim'in biri köle, biri de özgür kadından iki oğlu olduğu yazılıdır."}, {"v": 23, "text": "Köle kadından olan olağan yoldan, özgür kadından olansa vaat sonucu doğdu."}, {"v": 24, "text": "Burada bir benzetme vardır. Bu kadınlar iki antlaşmayı simgelemektedir. Biri Sina Dağı'ndandır, köle olacak çocuklar doğurur. Bu Hacer'dir."}, {"v": 25, "text": "Hacer, Arabistan'daki Sina Dağı'nı simgeler. Şimdiki Yeruşalim'in karşılığıdır. Çünkü çocuklarıyla birlikte kölelik etmektedir."}, {"v": 26, "text": "Oysa göksel Yeruşalim özgürdür, annemiz odur."}, {"v": 27, "text": "Nitekim şöyle yazılmıştır: “Sevin, çocuk doğurmayan ey kısır kadın! Doğum ağrısı nedir bilmeyen sen, Yükselt sesini, haykır! Çünkü terk edilmiş kadının, Kocası olandan daha çok çocuğu var.”"}, {"v": 28, "text": "Kardeşler, İshak gibi sizler de vaat çocuklarısınız."}, {"v": 29, "text": "Olağan yoldan doğan, Kutsal Ruh'a göre doğana o zaman nasıl zulmettiyse, şimdi de öyle oluyor."}, {"v": 30, "text": "Ama Kutsal Yazı ne diyor? “Köle kadınla oğlunu kov. Çünkü köle kadının oğlu Özgür kadının oğluyla birlikte Asla mirasa ortak olmayacaktır.”"}, {"v": 31, "text": "İşte böyle, kardeşler, bizler köle kadının değil, özgür kadının çocuklarıyız."}]}
+{
+  "t": "TCL02",
+  "b": "GAL",
+  "c": 4,
+  "content": [
+    {
+      "v": 1,
+      "text": "Şunu demek istiyorum: Mirasçı her şeyin sahibiyse de, çocuk olduğu sürece köleden farksızdır."
+    },
+    {
+      "v": 2,
+      "text": "Babasının belirlediği zamana dek vasilerin, vekillerin gözetimi altındadır."
+    },
+    {
+      "v": 3,
+      "text": "Bunun gibi, biz de ruhsal yönden çocukken, dünyanın temel ilkelerine bağlı yaşayan kölelerdik."
+    },
+    {
+      "v": 4,
+      "text": "Ama zaman dolunca Tanrı, Yasa altında olanları özgürlüğe kavuşturmak için kadından doğan, Yasa altında doğan öz Oğlu'nu gönderdi. Öyle ki, bizler oğulluk hakkını alalım."
+    },
+    {
+      "v": 6,
+      "text": "Oğullar olduğunuz için Tanrı öz Oğlu'nun “Abba! Baba!” diye seslenen Ruhu'nu yüreklerinize gönderdi."
+    },
+    {
+      "v": 7,
+      "text": "Bu nedenle artık köle değil, oğullarsınız. Oğullar olduğunuz için de Tanrı sizi aynı zamanda mirasçı yaptı."
+    },
+    {
+      "section": "Pavlus'un Galatyalılar için Kaygıları"
+    },
+    {
+      "v": 8,
+      "text": "Ne var ki, eskiden Tanrı'yı tanımadığınız zamanlarda, gerçek olmayan tanrılara kölelik ettiniz."
+    },
+    {
+      "v": 9,
+      "text": "Şimdiyse Tanrı'yı tanıdınız, daha doğrusu Tanrı tarafından tanındınız. Öyleyse nasıl oluyor da bu değersiz, etkisiz ilkelere dönüyorsunuz? Yeniden onların kölesi mi olmak istiyorsunuz?"
+    },
+    {
+      "v": 10,
+      "text": "Özel günler, aylar, mevsimler, yıllar kutluyorsunuz!"
+    },
+    {
+      "v": 11,
+      "text": "Sizin için korkuyorum. Yoksa uğrunuza boş yere mi emek verdim?"
+    },
+    {
+      "v": 12,
+      "text": "Kardeşler, size yalvarıyorum, benim gibi olun. Çünkü ben de sizin gibi oldum. Bana hiç haksızlık etmediniz."
+    },
+    {
+      "v": 13,
+      "text": "Bildiğiniz gibi, Müjde'yi size ilk kez bedensel hastalığım nedeniyle bildirmiştim."
+    },
+    {
+      "v": 14,
+      "text": "Bedensel durumum sizin için çetin bir deneme olduğu halde beni ne hor gördünüz ne de reddettiniz. Tanrı'nın bir meleğini, hatta Mesih İsa'yı kabul eder gibi kabul ettiniz beni."
+    },
+    {
+      "v": 15,
+      "text": "Şimdi o sevincinize ne oldu? Sizin için tanıklık ederim ki, elinizden gelse gözlerinizi oyar bana verirdiniz."
+    },
+    {
+      "v": 16,
+      "text": "Peki, size gerçeği söylediğim için düşmanınız mı oldum?"
+    },
+    {
+      "v": 17,
+      "text": "Başkaları sizi kazanmaya gayret ediyor, ama niyetleri iyi değil. Kendileri için gayret edesiniz diye sizi bizden ayırmak istiyorlar."
+    },
+    {
+      "v": 18,
+      "text": "Niyet iyiyse, yalnız aranızda olduğum zaman değil, her zaman gayretli olmak iyidir."
+    },
+    {
+      "v": 19,
+      "text": "Çocuklarım! Mesih sizde biçimleninceye dek sizin için yine doğum ağrısı çekiyorum."
+    },
+    {
+      "v": 20,
+      "text": "Şimdi yanınızda bulunmayı ve sesimin tonunu değiştirmeyi isterdim. Bu halinize şaşıyorum!"
+    },
+    {
+      "section": "Sara'yla Hacer Örneği"
+    },
+    {
+      "v": 21,
+      "text": "Kutsal Yasa altında yaşamak isteyen sizler, söyleyin bana, Yasa'nın ne dediğini bilmiyor musunuz?"
+    },
+    {
+      "v": 22,
+      "text": "İbrahim'in biri köle, biri de özgür kadından iki oğlu olduğu yazılıdır."
+    },
+    {
+      "v": 23,
+      "text": "Köle kadından olan olağan yoldan, özgür kadından olansa vaat sonucu doğdu."
+    },
+    {
+      "v": 24,
+      "text": "Burada bir benzetme vardır. Bu kadınlar iki antlaşmayı simgelemektedir. Biri Sina Dağı'ndandır, köle olacak çocuklar doğurur. Bu Hacer'dir."
+    },
+    {
+      "v": 25,
+      "text": "Hacer, Arabistan'daki Sina Dağı'nı simgeler. Şimdiki Yeruşalim'in karşılığıdır. Çünkü çocuklarıyla birlikte kölelik etmektedir."
+    },
+    {
+      "v": 26,
+      "text": "Oysa göksel Yeruşalim özgürdür, annemiz odur."
+    },
+    {
+      "v": 27,
+      "text": "Nitekim şöyle yazılmıştır: “Sevin, çocuk doğurmayan ey kısır kadın! Doğum ağrısı nedir bilmeyen sen, Yükselt sesini, haykır! Çünkü terk edilmiş kadının, Kocası olandan daha çok çocuğu var.”"
+    },
+    {
+      "v": 28,
+      "text": "Kardeşler, İshak gibi sizler de vaat çocuklarısınız."
+    },
+    {
+      "v": 29,
+      "text": "Olağan yoldan doğan, Kutsal Ruh'a göre doğana o zaman nasıl zulmettiyse, şimdi de öyle oluyor."
+    },
+    {
+      "v": 30,
+      "text": "Ama Kutsal Yazı ne diyor? “Köle kadınla oğlunu kov. Çünkü köle kadının oğlu Özgür kadının oğluyla birlikte Asla mirasa ortak olmayacaktır.”"
+    },
+    {
+      "v": 31,
+      "text": "İşte böyle, kardeşler, bizler köle kadının değil, özgür kadının çocuklarıyız."
+    }
+  ]
+}

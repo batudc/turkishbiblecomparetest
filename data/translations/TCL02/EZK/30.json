@@ -1,1 +1,115 @@
-{"t":"TCL02","b":"EZK","c":30,"content":[{"v":1,"text":"RAB bana şöyle seslendi:"},{"v":2,"text":"“İnsanoğlu, peygamberlik et ve de ki, ‘Egemen RAB şöyle diyor: “ ‘Ah o gün diye haykır."},{"v":3,"text":"Çünkü o gün yakın. RAB'bin günü yakın, Bulutların günü, Ulusların yıkım zamanı."},{"v":4,"text":"Bir kılıç Mısır'a karşı çıkacak. Kûş'u acılar saracak. Mısır'da vurulanlar yere serilince Ülkenin serveti alınıp götürülecek, Temelleri yok edilecek."},{"v":5,"text":"Mısır'la birlikte Kûş, Pût, Lud, Arabistan, Kuv ve antlaşma yaptığım halkım Kılıçtan geçirilecek."},{"v":6,"text":"“ ‘RAB şöyle diyor: Mısır'ı destekleyenler öldürülecek, Mısır'ın övündüğü ordu çökecek, Migdol'dan Asvan'a dek kılıçtan geçirilecekler. Böyle diyor Egemen RAB."},{"v":7,"text":"Kimsesiz kalmış ülkeler arasında Kimsesiz kalacaklar. Kentleri viran olmuş kentler gibi olacak."},{"v":8,"text":"Mısır'ı ateşe verdiğimde, Onu destekleyenler ezildiğinde, Benim RAB olduğumu anlayacaklar."},{"v":9,"text":"“ ‘O gün kaygısız Kûşlular'ı korkutmak için gemilerle ulaklar göndereceğim. Mısır'ın yıkım günü geldiğinde korkuya kapılacaklar. İşte o gün geliyor."},{"v":10,"text":"“ ‘Egemen RAB şöyle diyor: Babil Kralı Nebukadnessar aracılığıyla Mısır'ın zenginliğine son vereceğim."},{"v":11,"text":"O ve ordusu, ulusların en acımasızı, Ülkeyi yerle bir etmek için gelecekler. Mısır'a karşı kılıçlarını çekecek, Ülkeyi öldürülenlerle dolduracaklar."},{"v":12,"text":"Nil'in kanallarını kurutup Ülkeyi kötü kişilere teslim edeceğim, Ülkeyi de içindeki her şeyi de Yabancılar eliyle viran edeceğim. Bunu ben RAB söylüyorum."},{"v":13,"text":"Egemen RAB şöyle diyor: Putları yok edecek, Nof'taki değersiz putlara son vereceğim. Mısır'da artık önder olmayacak, Ülkeye korku salacağım."},{"v":14,"text":"Patros'u viraneye çevirecek, Soan'ı ateşe verecek, No Kenti'ni cezalandıracağım."},{"v":15,"text":"Öfkemi Mısır'ın kalesi Sin üzerine boşaltacak, Kalabalık No halkına son vereceğim."},{"v":16,"text":"Mısır'ı ateşe vereceğim, Sin acıdan kıvranacak, No Kenti'nin surları yarılacak, Nof sürekli tedirgin olacak."},{"v":17,"text":"On Kenti ve Pi-Beset gençleri Kılıçtan geçirilecek, Oradaki halk sürgüne gönderilecek."},{"v":18,"text":"Tahpanhes'te Mısır'ın boyunduruğunu kırdığım zaman, Orada gündüz geceye dönecek, Övündüğü orduya son verilecek, Kent bulutlarla kaplanacak, Köylerindeki halk sürgüne gönderilecek."},{"v":19,"text":"Mısır'ı böyle cezalandırdığımda Benim RAB olduğumu anlayacaklar.’ ”"},{"v":20,"text":"Sürgünlüğümüzün on birinci yılı, birinci ayın yedinci günü RAB bana şöyle seslendi:"},{"v":21,"text":"“İnsanoğlu, firavunun kolunu kırdım. İyileşmesin, kılıç tutacak kadar güçlenmesin diye kimse onu bağlamadı, sargı beziyle sarmadı."},{"v":22,"text":"Bu yüzden Egemen RAB şöyle diyor: Firavuna karşıyım. Her iki kolunu, sağlam olanı da kırık olanı da kıracağım. Kılıcı elinden düşüreceğim."},{"v":23,"text":"Mısırlılar'ı uluslar arasına gönderecek, ülkelere dağıtacağım."},{"v":24,"text":"Babil Kralı'nın kollarını güçlendirip kılıcımı onun eline vereceğim. Firavunun ise kollarını kıracağım. Babil Kralı'nın önünde ağır yaralı biri gibi inleyecek."},{"v":25,"text":"Babil Kralı'nın gücüne güç katacak, firavunun gücünü zayıflatacağım. Kılıcımı Babil Kralı'nın eline verdiğimde ve o kılıcı Mısır'a doğru uzattığında, benim RAB olduğumu anlayacaklar."},{"v":26,"text":"Mısırlılar'ı uluslar arasına gönderecek, ülkelere dağıtacağım. O zaman benim RAB olduğumu anlayacaklar.”"}]}
+{
+  "t": "TCL02",
+  "b": "EZK",
+  "c": 30,
+  "content": [
+    {
+      "section": "Rab Mısır'ı Cezalandıracak"
+    },
+    {
+      "v": 1,
+      "text": "RAB bana şöyle seslendi:"
+    },
+    {
+      "v": 2,
+      "text": "“İnsanoğlu, peygamberlik et ve de ki, ‘Egemen RAB şöyle diyor: “ ‘Ah o gün diye haykır."
+    },
+    {
+      "v": 3,
+      "text": "Çünkü o gün yakın. RAB'bin günü yakın, Bulutların günü, Ulusların yıkım zamanı."
+    },
+    {
+      "v": 4,
+      "text": "Bir kılıç Mısır'a karşı çıkacak. Kûş'u acılar saracak. Mısır'da vurulanlar yere serilince Ülkenin serveti alınıp götürülecek, Temelleri yok edilecek."
+    },
+    {
+      "v": 5,
+      "text": "Mısır'la birlikte Kûş, Pût, Lud, Arabistan, Kuv ve antlaşma yaptığım halkım Kılıçtan geçirilecek."
+    },
+    {
+      "v": 6,
+      "text": "“ ‘RAB şöyle diyor: Mısır'ı destekleyenler öldürülecek, Mısır'ın övündüğü ordu çökecek, Migdol'dan Asvan'a dek kılıçtan geçirilecekler. Böyle diyor Egemen RAB."
+    },
+    {
+      "v": 7,
+      "text": "Kimsesiz kalmış ülkeler arasında Kimsesiz kalacaklar. Kentleri viran olmuş kentler gibi olacak."
+    },
+    {
+      "v": 8,
+      "text": "Mısır'ı ateşe verdiğimde, Onu destekleyenler ezildiğinde, Benim RAB olduğumu anlayacaklar."
+    },
+    {
+      "v": 9,
+      "text": "“ ‘O gün kaygısız Kûşlular'ı korkutmak için gemilerle ulaklar göndereceğim. Mısır'ın yıkım günü geldiğinde korkuya kapılacaklar. İşte o gün geliyor."
+    },
+    {
+      "v": 10,
+      "text": "“ ‘Egemen RAB şöyle diyor: Babil Kralı Nebukadnessar aracılığıyla Mısır'ın zenginliğine son vereceğim."
+    },
+    {
+      "v": 11,
+      "text": "O ve ordusu, ulusların en acımasızı, Ülkeyi yerle bir etmek için gelecekler. Mısır'a karşı kılıçlarını çekecek, Ülkeyi öldürülenlerle dolduracaklar."
+    },
+    {
+      "v": 12,
+      "text": "Nil'in kanallarını kurutup Ülkeyi kötü kişilere teslim edeceğim, Ülkeyi de içindeki her şeyi de Yabancılar eliyle viran edeceğim. Bunu ben RAB söylüyorum."
+    },
+    {
+      "v": 13,
+      "text": "Egemen RAB şöyle diyor: Putları yok edecek, Nof'taki değersiz putlara son vereceğim. Mısır'da artık önder olmayacak, Ülkeye korku salacağım."
+    },
+    {
+      "v": 14,
+      "text": "Patros'u viraneye çevirecek, Soan'ı ateşe verecek, No Kenti'ni cezalandıracağım."
+    },
+    {
+      "v": 15,
+      "text": "Öfkemi Mısır'ın kalesi Sin üzerine boşaltacak, Kalabalık No halkına son vereceğim."
+    },
+    {
+      "v": 16,
+      "text": "Mısır'ı ateşe vereceğim, Sin acıdan kıvranacak, No Kenti'nin surları yarılacak, Nof sürekli tedirgin olacak."
+    },
+    {
+      "v": 17,
+      "text": "On Kenti ve Pi-Beset gençleri Kılıçtan geçirilecek, Oradaki halk sürgüne gönderilecek."
+    },
+    {
+      "v": 18,
+      "text": "Tahpanhes'te Mısır'ın boyunduruğunu kırdığım zaman, Orada gündüz geceye dönecek, Övündüğü orduya son verilecek, Kent bulutlarla kaplanacak, Köylerindeki halk sürgüne gönderilecek."
+    },
+    {
+      "v": 19,
+      "text": "Mısır'ı böyle cezalandırdığımda Benim RAB olduğumu anlayacaklar.’ ”"
+    },
+    {
+      "v": 20,
+      "text": "Sürgünlüğümüzün on birinci yılı, birinci ayın yedinci günü RAB bana şöyle seslendi:"
+    },
+    {
+      "v": 21,
+      "text": "“İnsanoğlu, firavunun kolunu kırdım. İyileşmesin, kılıç tutacak kadar güçlenmesin diye kimse onu bağlamadı, sargı beziyle sarmadı."
+    },
+    {
+      "v": 22,
+      "text": "Bu yüzden Egemen RAB şöyle diyor: Firavuna karşıyım. Her iki kolunu, sağlam olanı da kırık olanı da kıracağım. Kılıcı elinden düşüreceğim."
+    },
+    {
+      "v": 23,
+      "text": "Mısırlılar'ı uluslar arasına gönderecek, ülkelere dağıtacağım."
+    },
+    {
+      "v": 24,
+      "text": "Babil Kralı'nın kollarını güçlendirip kılıcımı onun eline vereceğim. Firavunun ise kollarını kıracağım. Babil Kralı'nın önünde ağır yaralı biri gibi inleyecek."
+    },
+    {
+      "v": 25,
+      "text": "Babil Kralı'nın gücüne güç katacak, firavunun gücünü zayıflatacağım. Kılıcımı Babil Kralı'nın eline verdiğimde ve o kılıcı Mısır'a doğru uzattığında, benim RAB olduğumu anlayacaklar."
+    },
+    {
+      "v": 26,
+      "text": "Mısırlılar'ı uluslar arasına gönderecek, ülkelere dağıtacağım. O zaman benim RAB olduğumu anlayacaklar.”"
+    }
+  ],
+  "title": "Rab Mısır'ı Cezalandıracak"
+}

@@ -1,1 +1,118 @@
-{"t": "TCL02", "b": "1CH", "c": 17, "content": [{"v": 1, "text": "Davut sarayına yerleştikten sonra Peygamber Natan'a, “Bak, ben sedir ağacından yapılmış bir sarayda oturuyorum. Oysa RAB'bin Antlaşma Sandığı bir çadırın altında duruyor!” dedi."}, {"v": 2, "text": "Natan, “Tasarladığın her şeyi yap, çünkü Tanrı seninledir” diye karşılık verdi."}, {"v": 3, "text": "O gece Tanrı Natan'a şöyle seslendi:"}, {"v": 4, "text": "“Git, kulum Davut'a şöyle de: ‘RAB diyor ki, oturmam için bana tapınak yapmayacaksın."}, {"v": 5, "text": "İsrail halkını Mısır'dan çıkardığım günden bu yana tapınakta oturmadım. Bir çadırdan öbür çadıra, orada burada konaklayarak dolaştım."}, {"v": 6, "text": "İsrailliler'le birlikte dolaştığım yerlerin herhangi birinde, halkımı gütmesini buyurduğum İsrail önderlerinden birine, neden bana sedir ağacından bir konut yapmadınız diye hiç sordum mu?’"}, {"v": 7, "text": "“Şimdi kulum Davut'a şöyle diyeceksin: ‘Her Şeye Egemen RAB diyor ki: Halkım İsrail'e önder olasın diye seni otlaklardan ve koyun gütmekten aldım."}, {"v": 8, "text": "Her nereye gittiysen seninleydim. Önünden bütün düşmanlarını yok ettim. Adını dünyadaki büyük adamların adı gibi büyük kılacağım."}, {"v": 9, "text": "Halkım İsrail için bir yurt sağlayıp onları oraya yerleştireceğim. Bundan böyle kendi yurtlarında otursunlar, bir daha rahatsız edilmesinler. Kötü kişiler de halkım İsrail'e hakimler atadığım günden bu yana yaptıkları gibi, bir daha onlara baskı yapmasınlar. Bütün düşmanlarının sana boyun eğmesini sağlayacağım. RAB'bin senin için bir soy yetiştirecek, bilesin."}, {"v": 11, "text": "“ ‘Sen ölüp atalarına kavuşunca, senden sonra oğullarından birini ortaya çıkarıp krallığını pekiştireceğim."}, {"v": 12, "text": "Benim için tapınak kuracak olan odur. Ben de onun tahtını sonsuza dek sürdüreceğim."}, {"v": 13, "text": "Ben ona baba olacağım, o da bana oğul olacak. Senden önceki kraldan esirgediğim sevgiyi hiçbir zaman esirgemeyeceğim."}, {"v": 14, "text": "Onu sonsuza dek tapınağımın ve krallığımın üzerine atayacağım; tahtı sonsuza dek sürecektir.’ ”"}, {"v": 15, "text": "Böylece Natan bütün bu sözleri ve görümleri Davut'a aktardı."}, {"v": 16, "text": "Bunun üzerine Kral Davut gelip RAB'bin önünde oturdu ve şöyle dedi: “Ya RAB Tanrı, ben kimim, ailem nedir ki, beni bu duruma getirdin?"}, {"v": 17, "text": "Ey Tanrı, sanki bu yetmezmiş gibi, kulunun soyunun geleceği hakkında da söz verdin. Benimle de büyük bir adammışım gibi ilgilendin, ya RAB Tanrı!"}, {"v": 18, "text": "Kulunu onurlandırdın, ben sana başka ne diyebilirim ki! Çünkü sen kulunu tanıyorsun."}, {"v": 19, "text": "Ya RAB, kulunun hatırı için ve isteğin uyarınca bu büyüklüğü gösterdin ve bu büyük vaatleri bildirdin."}, {"v": 20, "text": "“Ya RAB, bir benzerin yok, senden başka tanrı da yok! Bunu kendi kulaklarımızla duyduk."}, {"v": 21, "text": "Halkın İsrail'e benzer tek bir ulus yok dünyada. Kendi halkın olsun diye onları kurtarmaya gittin. Büyük ve görkemli işler yapmakla ün saldın. Mısır'dan kurtardığın halkın önünden ulusları kovdun."}, {"v": 22, "text": "Halkın İsrail'i sonsuza dek kendi halkın olarak seçtin ve sen de, ya RAB, onların Tanrısı oldun."}, {"v": 23, "text": "“Şimdi, ya RAB, kuluna ve onun soyuna ilişkin verdiğin sözü sonsuza dek tut, sözünü yerine getir."}, {"v": 24, "text": "Öyle ki, insanlar, ‘İsrail'i kayıran, Her Şeye Egemen RAB Tanrı İsrail'in Tanrısı'dır!’ diyerek adını sonsuza dek ansınlar, yüceltsinler ve kulun Davut'un soyu da önünde sürsün."}, {"v": 25, "text": "“Sen, ey Tanrım, ben kulun için bir soy çıkaracağını bana açıkladın. Bundan dolayı kulun önünde sana dua etme yürekliliğini buldu."}, {"v": 26, "text": "Ya RAB, sen Tanrı'sın! Kuluna bu iyi sözü verdin."}, {"v": 27, "text": "Şimdi önünde sonsuza dek sürmesi için kulunun soyunu kutsamayı uygun gördün. Çünkü, ya RAB, onu kutsadığın için sonsuza dek kutlu kılınacak.”"}]}
+{
+  "t": "TCL02",
+  "b": "1CH",
+  "c": 17,
+  "content": [
+    {
+      "section": "Tanrı'nın Davut'a Verdiği Söz"
+    },
+    {
+      "v": 1,
+      "text": "Davut sarayına yerleştikten sonra Peygamber Natan'a, “Bak, ben sedir ağacından yapılmış bir sarayda oturuyorum. Oysa RAB'bin Antlaşma Sandığı bir çadırın altında duruyor!” dedi."
+    },
+    {
+      "v": 2,
+      "text": "Natan, “Tasarladığın her şeyi yap, çünkü Tanrı seninledir” diye karşılık verdi."
+    },
+    {
+      "v": 3,
+      "text": "O gece Tanrı Natan'a şöyle seslendi:"
+    },
+    {
+      "v": 4,
+      "text": "“Git, kulum Davut'a şöyle de: ‘RAB diyor ki, oturmam için bana tapınak yapmayacaksın."
+    },
+    {
+      "v": 5,
+      "text": "İsrail halkını Mısır'dan çıkardığım günden bu yana tapınakta oturmadım. Bir çadırdan öbür çadıra, orada burada konaklayarak dolaştım."
+    },
+    {
+      "v": 6,
+      "text": "İsrailliler'le birlikte dolaştığım yerlerin herhangi birinde, halkımı gütmesini buyurduğum İsrail önderlerinden birine, neden bana sedir ağacından bir konut yapmadınız diye hiç sordum mu?’"
+    },
+    {
+      "v": 7,
+      "text": "“Şimdi kulum Davut'a şöyle diyeceksin: ‘Her Şeye Egemen RAB diyor ki: Halkım İsrail'e önder olasın diye seni otlaklardan ve koyun gütmekten aldım."
+    },
+    {
+      "v": 8,
+      "text": "Her nereye gittiysen seninleydim. Önünden bütün düşmanlarını yok ettim. Adını dünyadaki büyük adamların adı gibi büyük kılacağım."
+    },
+    {
+      "v": 9,
+      "text": "Halkım İsrail için bir yurt sağlayıp onları oraya yerleştireceğim. Bundan böyle kendi yurtlarında otursunlar, bir daha rahatsız edilmesinler. Kötü kişiler de halkım İsrail'e hakimler atadığım günden bu yana yaptıkları gibi, bir daha onlara baskı yapmasınlar. Bütün düşmanlarının sana boyun eğmesini sağlayacağım. RAB'bin senin için bir soy yetiştirecek, bilesin."
+    },
+    {
+      "v": 11,
+      "text": "“ ‘Sen ölüp atalarına kavuşunca, senden sonra oğullarından birini ortaya çıkarıp krallığını pekiştireceğim."
+    },
+    {
+      "v": 12,
+      "text": "Benim için tapınak kuracak olan odur. Ben de onun tahtını sonsuza dek sürdüreceğim."
+    },
+    {
+      "v": 13,
+      "text": "Ben ona baba olacağım, o da bana oğul olacak. Senden önceki kraldan esirgediğim sevgiyi hiçbir zaman esirgemeyeceğim."
+    },
+    {
+      "v": 14,
+      "text": "Onu sonsuza dek tapınağımın ve krallığımın üzerine atayacağım; tahtı sonsuza dek sürecektir.’ ”"
+    },
+    {
+      "v": 15,
+      "text": "Böylece Natan bütün bu sözleri ve görümleri Davut'a aktardı."
+    },
+    {
+      "section": "Davut'un Duası"
+    },
+    {
+      "v": 16,
+      "text": "Bunun üzerine Kral Davut gelip RAB'bin önünde oturdu ve şöyle dedi: “Ya RAB Tanrı, ben kimim, ailem nedir ki, beni bu duruma getirdin?"
+    },
+    {
+      "v": 17,
+      "text": "Ey Tanrı, sanki bu yetmezmiş gibi, kulunun soyunun geleceği hakkında da söz verdin. Benimle de büyük bir adammışım gibi ilgilendin, ya RAB Tanrı!"
+    },
+    {
+      "v": 18,
+      "text": "Kulunu onurlandırdın, ben sana başka ne diyebilirim ki! Çünkü sen kulunu tanıyorsun."
+    },
+    {
+      "v": 19,
+      "text": "Ya RAB, kulunun hatırı için ve isteğin uyarınca bu büyüklüğü gösterdin ve bu büyük vaatleri bildirdin."
+    },
+    {
+      "v": 20,
+      "text": "“Ya RAB, bir benzerin yok, senden başka tanrı da yok! Bunu kendi kulaklarımızla duyduk."
+    },
+    {
+      "v": 21,
+      "text": "Halkın İsrail'e benzer tek bir ulus yok dünyada. Kendi halkın olsun diye onları kurtarmaya gittin. Büyük ve görkemli işler yapmakla ün saldın. Mısır'dan kurtardığın halkın önünden ulusları kovdun."
+    },
+    {
+      "v": 22,
+      "text": "Halkın İsrail'i sonsuza dek kendi halkın olarak seçtin ve sen de, ya RAB, onların Tanrısı oldun."
+    },
+    {
+      "v": 23,
+      "text": "“Şimdi, ya RAB, kuluna ve onun soyuna ilişkin verdiğin sözü sonsuza dek tut, sözünü yerine getir."
+    },
+    {
+      "v": 24,
+      "text": "Öyle ki, insanlar, ‘İsrail'i kayıran, Her Şeye Egemen RAB Tanrı İsrail'in Tanrısı'dır!’ diyerek adını sonsuza dek ansınlar, yüceltsinler ve kulun Davut'un soyu da önünde sürsün."
+    },
+    {
+      "v": 25,
+      "text": "“Sen, ey Tanrım, ben kulun için bir soy çıkaracağını bana açıkladın. Bundan dolayı kulun önünde sana dua etme yürekliliğini buldu."
+    },
+    {
+      "v": 26,
+      "text": "Ya RAB, sen Tanrı'sın! Kuluna bu iyi sözü verdin."
+    },
+    {
+      "v": 27,
+      "text": "Şimdi önünde sonsuza dek sürmesi için kulunun soyunu kutsamayı uygun gördün. Çünkü, ya RAB, onu kutsadığın için sonsuza dek kutlu kılınacak.”"
+    }
+  ],
+  "title": "Tanrı'nın Davut'a Verdiği Söz"
+}

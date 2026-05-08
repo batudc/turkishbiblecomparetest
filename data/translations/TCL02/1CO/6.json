@@ -1,1 +1,90 @@
-{"t": "TCL02", "b": "1CO", "c": 6, "content": [{"v": 1, "text": "Sizden birinin öbürüne karşı bir davası varsa kutsallar önünde değil de, imansızlar önünde yargılanmaya cesaret eder mi?"}, {"v": 2, "text": "Kutsalların dünyayı yargılayacağını bilmiyor musunuz? Madem dünyayı yargılayacaksınız, böyle önemsiz davaları görmeye yeterli değil misiniz?"}, {"v": 3, "text": "Bu yaşamla ilgili davalar bir yana, melekleri bile yargılayacağımızı bilmiyor musunuz?"}, {"v": 4, "text": "Bu yaşamla ilgili davalarınız olduğunda, inanlılar topluluğunda en önemsiz sayılanları mı yargıç atıyorsunuz?"}, {"v": 5, "text": "Sizi utandırmak için söylüyorum bunu. Kardeşler arasındaki davalarda yargıçlık edecek kadar bilge biri yok mu aranızda?"}, {"v": 6, "text": "Kardeş kardeşe karşı dava açıyor, üstelik imansızlar önünde!"}, {"v": 7, "text": "Aslında birbirinizden davacı olmanız bile sizin için düpedüz yenilgidir. Haksızlığa uğrasanız daha iyi olmaz mı? Dolandırılsanız daha iyi olmaz mı?"}, {"v": 8, "text": "Bunun yerine, siz kendiniz haksızlık edip başkasını dolandırıyorsunuz. Üstelik bunu kardeşlerinize yapıyorsunuz."}, {"v": 9, "text": "Günahkârların, Tanrı Egemenliği'ni miras almayacağını bilmiyor musunuz? Aldanmayın! Ne fuhuş yapanlar Tanrı'nın Egemenliği'ni miras alacaktır, ne puta tapanlar, ne zina edenler, ne oğlanlar, ne oğlancılar, ne hırsızlar, ne açgözlüler, ne ayyaşlar, ne sövücüler, ne de soyguncular."}, {"v": 11, "text": "Bazılarınız böyleydiniz; ama yıkandınız, kutsal kılındınız, Rab İsa Mesih adıyla ve Tanrımız'ın Ruhu aracılığıyla aklandınız."}, {"v": 12, "text": "“Bana her şey serbest” diyorsunuz, ama her şey yararlı değildir. “Bana her şey serbest” diyorsunuz, ama hiçbir şeyin tutsağı olmayacağım."}, {"v": 13, "text": "“Yemek mide için, mide de yemek içindir” diyorsunuz, ama Tanrı hem mideyi hem de yemeği ortadan kaldıracaktır. Beden fuhuş için değil, Rab içindir. Rab de beden içindir."}, {"v": 14, "text": "Rab'bi dirilten Tanrı, kudretiyle bizi de diriltecek."}, {"v": 15, "text": "Bedenlerinizin Mesih'in üyeleri olduğunu bilmiyor musunuz? Mesih'in üyelerini alıp bir fahişenin üyeleri mi yapayım? Asla!"}, {"v": 16, "text": "Yoksa fahişeyle birleşenin, onunla tek beden olduğunu bilmiyor musunuz? Çünkü “İkisi tek beden olacak” deniyor."}, {"v": 17, "text": "Rab'le birleşen kişiyse O'nunla tek ruh olur."}, {"v": 18, "text": "Fuhuştan kaçının. İnsanın işlediği bütün öbür günahlar bedenin dışındadır; ama fuhuş yapan, kendi bedenine karşı günah işler."}, {"v": 19, "text": "Bedeninizin, Tanrı'dan aldığınız ve içinizdeki Kutsal Ruh'un tapınağı olduğunu bilmiyor musunuz? Kendinize ait değilsiniz."}, {"v": 20, "text": "Bir bedel karşılığı satın alındınız; onun için Tanrı'yı bedeninizde yüceltin."}]}
+{
+  "t": "TCL02",
+  "b": "1CO",
+  "c": 6,
+  "content": [
+    {
+      "section": "Davalar Konusu"
+    },
+    {
+      "v": 1,
+      "text": "Sizden birinin öbürüne karşı bir davası varsa kutsallar önünde değil de, imansızlar önünde yargılanmaya cesaret eder mi?"
+    },
+    {
+      "v": 2,
+      "text": "Kutsalların dünyayı yargılayacağını bilmiyor musunuz? Madem dünyayı yargılayacaksınız, böyle önemsiz davaları görmeye yeterli değil misiniz?"
+    },
+    {
+      "v": 3,
+      "text": "Bu yaşamla ilgili davalar bir yana, melekleri bile yargılayacağımızı bilmiyor musunuz?"
+    },
+    {
+      "v": 4,
+      "text": "Bu yaşamla ilgili davalarınız olduğunda, inanlılar topluluğunda en önemsiz sayılanları mı yargıç atıyorsunuz?"
+    },
+    {
+      "v": 5,
+      "text": "Sizi utandırmak için söylüyorum bunu. Kardeşler arasındaki davalarda yargıçlık edecek kadar bilge biri yok mu aranızda?"
+    },
+    {
+      "v": 6,
+      "text": "Kardeş kardeşe karşı dava açıyor, üstelik imansızlar önünde!"
+    },
+    {
+      "v": 7,
+      "text": "Aslında birbirinizden davacı olmanız bile sizin için düpedüz yenilgidir. Haksızlığa uğrasanız daha iyi olmaz mı? Dolandırılsanız daha iyi olmaz mı?"
+    },
+    {
+      "v": 8,
+      "text": "Bunun yerine, siz kendiniz haksızlık edip başkasını dolandırıyorsunuz. Üstelik bunu kardeşlerinize yapıyorsunuz."
+    },
+    {
+      "v": 9,
+      "text": "Günahkârların, Tanrı Egemenliği'ni miras almayacağını bilmiyor musunuz? Aldanmayın! Ne fuhuş yapanlar Tanrı'nın Egemenliği'ni miras alacaktır, ne puta tapanlar, ne zina edenler, ne oğlanlar, ne oğlancılar, ne hırsızlar, ne açgözlüler, ne ayyaşlar, ne sövücüler, ne de soyguncular."
+    },
+    {
+      "v": 11,
+      "text": "Bazılarınız böyleydiniz; ama yıkandınız, kutsal kılındınız, Rab İsa Mesih adıyla ve Tanrımız'ın Ruhu aracılığıyla aklandınız."
+    },
+    {
+      "section": "Fuhuştan Kaçının"
+    },
+    {
+      "v": 12,
+      "text": "“Bana her şey serbest” diyorsunuz, ama her şey yararlı değildir. “Bana her şey serbest” diyorsunuz, ama hiçbir şeyin tutsağı olmayacağım."
+    },
+    {
+      "v": 13,
+      "text": "“Yemek mide için, mide de yemek içindir” diyorsunuz, ama Tanrı hem mideyi hem de yemeği ortadan kaldıracaktır. Beden fuhuş için değil, Rab içindir. Rab de beden içindir."
+    },
+    {
+      "v": 14,
+      "text": "Rab'bi dirilten Tanrı, kudretiyle bizi de diriltecek."
+    },
+    {
+      "v": 15,
+      "text": "Bedenlerinizin Mesih'in üyeleri olduğunu bilmiyor musunuz? Mesih'in üyelerini alıp bir fahişenin üyeleri mi yapayım? Asla!"
+    },
+    {
+      "v": 16,
+      "text": "Yoksa fahişeyle birleşenin, onunla tek beden olduğunu bilmiyor musunuz? Çünkü “İkisi tek beden olacak” deniyor."
+    },
+    {
+      "v": 17,
+      "text": "Rab'le birleşen kişiyse O'nunla tek ruh olur."
+    },
+    {
+      "v": 18,
+      "text": "Fuhuştan kaçının. İnsanın işlediği bütün öbür günahlar bedenin dışındadır; ama fuhuş yapan, kendi bedenine karşı günah işler."
+    },
+    {
+      "v": 19,
+      "text": "Bedeninizin, Tanrı'dan aldığınız ve içinizdeki Kutsal Ruh'un tapınağı olduğunu bilmiyor musunuz? Kendinize ait değilsiniz."
+    },
+    {
+      "v": 20,
+      "text": "Bir bedel karşılığı satın alındınız; onun için Tanrı'yı bedeninizde yüceltin."
+    }
+  ],
+  "title": "Davalar Konusu"
+}

@@ -1,1 +1,93 @@
-{"t":"TCL02","b":"JOL","c":1,"content":[{"v":1,"text":"RAB'bin Petuel oğlu Yoel'e bildirdikleri."},{"v":2,"text":"Ey yaşlılar, dinleyin, Ülkede yaşayan herkes, kulak verin: Sizin zamanınızda ya da atalarınızın zamanında Hiç böyle bir şey oldu mu?"},{"v":3,"text":"Bunu çocuklarınıza anlatın; Çocuklarınız kendi çocuklarına, Onların çocukları da bir sonraki kuşağa anlatsınlar."},{"v":4,"text":"Genç çekirgeden artakalan ürünü olgunlaşmış çekirge yedi, Ondan artakalanı yumurtadan yeni çıkan çekirge yedi; Ondan artakalanı da yavru çekirgeler yedi."},{"v":5,"text":"Ey sarhoşlar, ayılın ve ağlayın. Ey şarap düşkünleri, tatlı şarap için ağıt yakın. Çünkü şarabınızı ağzınızdan kaptılar."},{"v":6,"text":"Güçlü ve sayılamayacak kadar büyük bir çekirge ordusu saldırdı ülkeme. Aslan dişine benzer, Dişi aslanın kesici dişlerine benzer dişleri var."},{"v":7,"text":"Asmalarımı harap ettiler, İncir ağaçlarımı mahvettiler, Kabuklarını soyup yere attılar. Soyulan dallar bembeyaz."},{"v":8,"text":"Sözlüsünü yitirip çul kuşanan bir genç kız gibi yas tutun."},{"v":9,"text":"RAB'bin Tapınağı'na götürülecek Tahıl ve şarap sunusu yok artık. RAB'be hizmet eden kâhinler yas tutuyorlar."},{"v":10,"text":"Tarlalar harap oldu, toprak acılı. Çünkü tahıl mahvoldu, Yeni şarap tükendi, zeytinyağı kesildi."},{"v":11,"text":"Arpa, buğday için dövünün, ey ırgatlar, Ağıt yakın, ey bağcılar, Çünkü tarlaların ürünü yok oldu."},{"v":12,"text":"Asmalar kurudu, incir ağaçları soldu; Nar, hurma, elma, bütün meyve ağaçları kurudu. İnsanoğlunun sevinci yok oldu."},{"v":13,"text":"Ey kâhinler, çul kuşanıp yas tutun. Ey sunakta hizmet edenler, ağıt yakın, Ey Tanrım'ın hizmetkârları, tapınağa gelin, Çul içinde geceleyin. Çünkü Tanrınız'ın Tapınağı için Tahıl ve şarap sunusu kalmadı."},{"v":14,"text":"Oruç için gün belirleyin, özel bir toplantı yapın; Yaşlıları ve ülkede yaşayanların tümünü Tanrınız RAB'bin Tapınağı'na toplayıp RAB'be yakarın."},{"v":15,"text":"Eyvahlar olsun! Çünkü RAB'bin günü yakındır. Her Şeye Gücü Yeten'in göndereceği yıkım gibi geliyor o gün."},{"v":16,"text":"Yiyeceğimiz gözümüzün önünde yok edildi. Tanrımız'ın Tapınağı'nda sevinç ve coşku sona erdi."},{"v":17,"text":"Tohumlar keseklerin altında çürüdü, Tahıl yok oldu, Ambarlar boş kaldı, depolar yıkıldı."},{"v":18,"text":"Hayvanlar nasıl da inliyor! Sığır sürüleri çaresiz. Çünkü otlaklar kurudu. Koyun sürüleri perişan oldu."},{"v":19,"text":"Ya RAB, sana yakarıyorum. Çünkü ateş otlakları yok etti, Bütün ağaçları kavurdu."},{"v":20,"text":"Yabanıl hayvanlar bile sana sesleniyor. Çünkü akarsular kurudu, Ateş otlakları yok etti."}]}
+{
+  "t": "TCL02",
+  "b": "JOL",
+  "c": 1,
+  "content": [
+    {
+      "v": 1,
+      "text": "RAB'bin Petuel oğlu Yoel'e bildirdikleri."
+    },
+    {
+      "section": "Çekirgelerin Saldırısı"
+    },
+    {
+      "v": 2,
+      "text": "Ey yaşlılar, dinleyin, Ülkede yaşayan herkes, kulak verin: Sizin zamanınızda ya da atalarınızın zamanında Hiç böyle bir şey oldu mu?"
+    },
+    {
+      "v": 3,
+      "text": "Bunu çocuklarınıza anlatın; Çocuklarınız kendi çocuklarına, Onların çocukları da bir sonraki kuşağa anlatsınlar."
+    },
+    {
+      "v": 4,
+      "text": "Genç çekirgeden artakalan ürünü olgunlaşmış çekirge yedi, Ondan artakalanı yumurtadan yeni çıkan çekirge yedi; Ondan artakalanı da yavru çekirgeler yedi."
+    },
+    {
+      "v": 5,
+      "text": "Ey sarhoşlar, ayılın ve ağlayın. Ey şarap düşkünleri, tatlı şarap için ağıt yakın. Çünkü şarabınızı ağzınızdan kaptılar."
+    },
+    {
+      "v": 6,
+      "text": "Güçlü ve sayılamayacak kadar büyük bir çekirge ordusu saldırdı ülkeme. Aslan dişine benzer, Dişi aslanın kesici dişlerine benzer dişleri var."
+    },
+    {
+      "v": 7,
+      "text": "Asmalarımı harap ettiler, İncir ağaçlarımı mahvettiler, Kabuklarını soyup yere attılar. Soyulan dallar bembeyaz."
+    },
+    {
+      "v": 8,
+      "text": "Sözlüsünü yitirip çul kuşanan bir genç kız gibi yas tutun."
+    },
+    {
+      "v": 9,
+      "text": "RAB'bin Tapınağı'na götürülecek Tahıl ve şarap sunusu yok artık. RAB'be hizmet eden kâhinler yas tutuyorlar."
+    },
+    {
+      "v": 10,
+      "text": "Tarlalar harap oldu, toprak acılı. Çünkü tahıl mahvoldu, Yeni şarap tükendi, zeytinyağı kesildi."
+    },
+    {
+      "v": 11,
+      "text": "Arpa, buğday için dövünün, ey ırgatlar, Ağıt yakın, ey bağcılar, Çünkü tarlaların ürünü yok oldu."
+    },
+    {
+      "v": 12,
+      "text": "Asmalar kurudu, incir ağaçları soldu; Nar, hurma, elma, bütün meyve ağaçları kurudu. İnsanoğlunun sevinci yok oldu."
+    },
+    {
+      "section": "Tövbeye Çağrı"
+    },
+    {
+      "v": 13,
+      "text": "Ey kâhinler, çul kuşanıp yas tutun. Ey sunakta hizmet edenler, ağıt yakın, Ey Tanrım'ın hizmetkârları, tapınağa gelin, Çul içinde geceleyin. Çünkü Tanrınız'ın Tapınağı için Tahıl ve şarap sunusu kalmadı."
+    },
+    {
+      "v": 14,
+      "text": "Oruç için gün belirleyin, özel bir toplantı yapın; Yaşlıları ve ülkede yaşayanların tümünü Tanrınız RAB'bin Tapınağı'na toplayıp RAB'be yakarın."
+    },
+    {
+      "v": 15,
+      "text": "Eyvahlar olsun! Çünkü RAB'bin günü yakındır. Her Şeye Gücü Yeten'in göndereceği yıkım gibi geliyor o gün."
+    },
+    {
+      "v": 16,
+      "text": "Yiyeceğimiz gözümüzün önünde yok edildi. Tanrımız'ın Tapınağı'nda sevinç ve coşku sona erdi."
+    },
+    {
+      "v": 17,
+      "text": "Tohumlar keseklerin altında çürüdü, Tahıl yok oldu, Ambarlar boş kaldı, depolar yıkıldı."
+    },
+    {
+      "v": 18,
+      "text": "Hayvanlar nasıl da inliyor! Sığır sürüleri çaresiz. Çünkü otlaklar kurudu. Koyun sürüleri perişan oldu."
+    },
+    {
+      "v": 19,
+      "text": "Ya RAB, sana yakarıyorum. Çünkü ateş otlakları yok etti, Bütün ağaçları kavurdu."
+    },
+    {
+      "v": 20,
+      "text": "Yabanıl hayvanlar bile sana sesleniyor. Çünkü akarsular kurudu, Ateş otlakları yok etti."
+    }
+  ]
+}

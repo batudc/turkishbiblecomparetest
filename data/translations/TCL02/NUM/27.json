@@ -1,1 +1,98 @@
-{"t": "TCL02", "b": "NUM", "c": 27, "content": [{"v": 1, "text": "Yusuf oğlu Manaşşe'nin boylarından Manaşşe oğlu Makir oğlu Gilat oğlu Hefer oğlu Selofhat'ın Mahla, Noa, Hogla, Milka, Tirsa adındaki kızları, Buluşma Çadırı'nın girişinde Musa'nın, Kâhin Elazar'ın, önderlerin ve bütün topluluğun önüne gelip şöyle dediler:"}, {"v": 3, "text": "“Babamız çölde öldü. RAB'be başkaldıran Korah'ın yandaşları arasında değildi. İşlemiş olduğu günahtan ötürü öldü. Oğulları olmadı."}, {"v": 4, "text": "Erkek çocuğu olmadı diye babamızın adı kendi boyu arasından neden yok olsun? Babamızın kardeşleri arasında bize de mülk verin.”"}, {"v": 5, "text": "Musa onların davasını RAB'be götürdü."}, {"v": 6, "text": "RAB Musa'ya şöyle dedi:"}, {"v": 7, "text": "“Selofhat'ın kızları doğru söylüyor. Onlara amcalarıyla birlikte miras olarak mülk verecek, babalarının mirasını onlara aktaracaksın."}, {"v": 8, "text": "“İsrailliler'e de ki, ‘Bir adam erkek çocuğu olmadan ölürse, mirasını kızına vereceksiniz."}, {"v": 9, "text": "Kızı yoksa mirasını kardeşlerine,"}, {"v": 10, "text": "kardeşleri yoksa amcalarına vereceksiniz."}, {"v": 11, "text": "Amcaları da yoksa, mirasını bağlı olduğu boyda kendisine en yakın akrabasına vereceksiniz. Yakını mirası mülk edinsin. Musa'ya verdiğim buyruk uyarınca, İsrailliler için kesin bir kural olacak bu.’ ”"}, {"v": 12, "text": "Bundan sonra RAB Musa'ya, “Haavarim dağlık bölgesine çık, İsrailliler'e vereceğim ülkeye bak” dedi,"}, {"v": 13, "text": "“Ülkeyi gördükten sonra, ağabeyin Harun gibi sen de ölüp atalarına kavuşacaksın."}, {"v": 14, "text": "Çünkü ikiniz de Zin Çölü'nde buyruğuma karşı çıktınız. Topluluk sularda bana başkaldırdığında, onların önünde kutsallığımı önemsemediniz.” –Bunlar Zin Çölü'ndeki Kadeş'te Meriva sularıdır.–"}, {"v": 15, "text": "Musa, “Bütün insan ruhlarının Tanrısı RAB bu topluluğa bir önder atasın” diye karşılık verdi,"}, {"v": 17, "text": "“O kişi topluluğun önünde yürüsün ve topluluğu yönetsin. Öyle ki, RAB'bin topluluğu çobansız koyunlar gibi kalmasın.”"}, {"v": 18, "text": "Bunun üzerine RAB, “Kendisinde RAB'bin Ruhu bulunan Nun oğlu Yeşu'yu yanına al, üzerine elini koy” dedi,"}, {"v": 19, "text": "“Onu Kâhin Elazar'la bütün topluluğun önüne çıkar ve hepsinin önünde görevlendir."}, {"v": 20, "text": "Bütün İsrail topluluğu sözünü dinlesin diye ona yetkinden ver."}, {"v": 21, "text": "Kâhin Elazar'ın önüne çıkacak; kâhin, Yeşu için Urim aracılığıyla RAB'be danışacak. Bu yöntemle Elazar Yeşu'yu ve bütün halkı yönlendirecek.”"}, {"v": 22, "text": "Musa RAB'bin kendisine buyurduğu gibi yaptı. Yeşu'yu Kâhin Elazar'ın ve bütün topluluğun önüne götürdü."}, {"v": 23, "text": "RAB'bin buyruğu uyarınca ellerini üzerine koyarak onu görevlendirdi."}]}
+{
+  "t": "TCL02",
+  "b": "NUM",
+  "c": 27,
+  "content": [
+    {
+      "section": "Selofhat'ın Kızları"
+    },
+    {
+      "v": 1,
+      "text": "Yusuf oğlu Manaşşe'nin boylarından Manaşşe oğlu Makir oğlu Gilat oğlu Hefer oğlu Selofhat'ın Mahla, Noa, Hogla, Milka, Tirsa adındaki kızları, Buluşma Çadırı'nın girişinde Musa'nın, Kâhin Elazar'ın, önderlerin ve bütün topluluğun önüne gelip şöyle dediler:"
+    },
+    {
+      "v": 3,
+      "text": "“Babamız çölde öldü. RAB'be başkaldıran Korah'ın yandaşları arasında değildi. İşlemiş olduğu günahtan ötürü öldü. Oğulları olmadı."
+    },
+    {
+      "v": 4,
+      "text": "Erkek çocuğu olmadı diye babamızın adı kendi boyu arasından neden yok olsun? Babamızın kardeşleri arasında bize de mülk verin.”"
+    },
+    {
+      "v": 5,
+      "text": "Musa onların davasını RAB'be götürdü."
+    },
+    {
+      "v": 6,
+      "text": "RAB Musa'ya şöyle dedi:"
+    },
+    {
+      "v": 7,
+      "text": "“Selofhat'ın kızları doğru söylüyor. Onlara amcalarıyla birlikte miras olarak mülk verecek, babalarının mirasını onlara aktaracaksın."
+    },
+    {
+      "v": 8,
+      "text": "“İsrailliler'e de ki, ‘Bir adam erkek çocuğu olmadan ölürse, mirasını kızına vereceksiniz."
+    },
+    {
+      "v": 9,
+      "text": "Kızı yoksa mirasını kardeşlerine,"
+    },
+    {
+      "v": 10,
+      "text": "kardeşleri yoksa amcalarına vereceksiniz."
+    },
+    {
+      "v": 11,
+      "text": "Amcaları da yoksa, mirasını bağlı olduğu boyda kendisine en yakın akrabasına vereceksiniz. Yakını mirası mülk edinsin. Musa'ya verdiğim buyruk uyarınca, İsrailliler için kesin bir kural olacak bu.’ ”"
+    },
+    {
+      "section": "Yeşu Musa'nın Yerine Geçecek"
+    },
+    {
+      "v": 12,
+      "text": "Bundan sonra RAB Musa'ya, “Haavarim dağlık bölgesine çık, İsrailliler'e vereceğim ülkeye bak” dedi,"
+    },
+    {
+      "v": 13,
+      "text": "“Ülkeyi gördükten sonra, ağabeyin Harun gibi sen de ölüp atalarına kavuşacaksın."
+    },
+    {
+      "v": 14,
+      "text": "Çünkü ikiniz de Zin Çölü'nde buyruğuma karşı çıktınız. Topluluk sularda bana başkaldırdığında, onların önünde kutsallığımı önemsemediniz.” –Bunlar Zin Çölü'ndeki Kadeş'te Meriva sularıdır.–"
+    },
+    {
+      "v": 15,
+      "text": "Musa, “Bütün insan ruhlarının Tanrısı RAB bu topluluğa bir önder atasın” diye karşılık verdi,"
+    },
+    {
+      "v": 17,
+      "text": "“O kişi topluluğun önünde yürüsün ve topluluğu yönetsin. Öyle ki, RAB'bin topluluğu çobansız koyunlar gibi kalmasın.”"
+    },
+    {
+      "v": 18,
+      "text": "Bunun üzerine RAB, “Kendisinde RAB'bin Ruhu bulunan Nun oğlu Yeşu'yu yanına al, üzerine elini koy” dedi,"
+    },
+    {
+      "v": 19,
+      "text": "“Onu Kâhin Elazar'la bütün topluluğun önüne çıkar ve hepsinin önünde görevlendir."
+    },
+    {
+      "v": 20,
+      "text": "Bütün İsrail topluluğu sözünü dinlesin diye ona yetkinden ver."
+    },
+    {
+      "v": 21,
+      "text": "Kâhin Elazar'ın önüne çıkacak; kâhin, Yeşu için Urim aracılığıyla RAB'be danışacak. Bu yöntemle Elazar Yeşu'yu ve bütün halkı yönlendirecek.”"
+    },
+    {
+      "v": 22,
+      "text": "Musa RAB'bin kendisine buyurduğu gibi yaptı. Yeşu'yu Kâhin Elazar'ın ve bütün topluluğun önüne götürdü."
+    },
+    {
+      "v": 23,
+      "text": "RAB'bin buyruğu uyarınca ellerini üzerine koyarak onu görevlendirdi."
+    }
+  ],
+  "title": "Selofhat'ın Kızları"
+}

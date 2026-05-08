@@ -1,1 +1,86 @@
-{"t": "TCL02", "b": "ZEP", "c": 3, "content": [{"v": 1, "text": "Başkaldıran, yozlaşan, acımasız kentin vay haline!"}, {"v": 2, "text": "Söz dinlemedi, ders almadı, RAB'be güvenmedi, Tanrısı'na sığınmadı."}, {"v": 3, "text": "Yöneticileri kükreyen aslanlar, Önderleri akşam gezen aç kurtlar gibi, Sabaha bir şey bırakmazlar."}, {"v": 4, "text": "Peygamberleri sorumsuz ve güvenilmezdir. Kâhinleri kutsal olanı kirletip, Yasayı çarpıtırlar."}, {"v": 5, "text": "Ama adil RAB hâlâ o kentte; O haksızlık etmez, Aksatmadan dağıtır adaletini her yeni günün sabahında. Ne var ki, bu yetmiyor haksızları utandırmaya."}, {"v": 6, "text": "RAB diyor ki, “Ulusları yok ettim, Kalelerini yıktım, sokaklarını harap ettim. O sokaklardan geçen kimse yok artık. Kentleri viraneye döndü, Eser kalmadı insandan."}, {"v": 7, "text": "Halkım benden korkar, Ders alır bundan dedim. O zaman konutlarına dokunmaz, Onları tasarladığım cezaya çarptırmazdım. Ama her türlü kötülüğü yapmaya istekli görünüyorlar.”"}, {"v": 8, "text": "Bu yüzden, “Bekleyin de görün” diyor RAB, “Ulusları yargılayacağım günü bekleyin. Ulusları toplamaya, Krallıkları bir araya getirmeye, Gazabımı, kızgın öfkemi Üzerlerine dökmeye karar verdim. Çünkü kıskançlığımın ateşi bütün dünyayı yiyip bitirecek."}, {"v": 9, "text": "O zaman, hep birlikte beni adımla çağırmaları, Omuz omuza bana hizmet etmeleri için, Halkların dudaklarını pak kılacağım."}, {"v": 10, "text": "Dağılmış olan, bana tapan halkım, Kûş ırmaklarının ötesinden Bana sunular getirecek."}, {"v": 11, "text": "Halkım bana yaptığı bunca kötülük yüzünden utandırılmayacak o gün. Çünkü gururlu, küstah olanları uzaklaştıracağım aralarından. Kutsal dağımda bir daha böbürlenmeyecekler."}, {"v": 12, "text": "Orada sadece benim adıma sığınan uysal ve alçakgönüllüleri bırakacağım."}, {"v": 13, "text": "İsrailliler'den geride kalanlar haksızlık etmeyecek, Yalan söylemeyecek, Kimseyi aldatmayacak, Tok karna yatacaklar ve onları korkutan olmayacak.”"}, {"v": 14, "text": "Ey Siyon kızı, ezgiler söyle! Ey İsrail, haykır! Yürekten sevin, sevinçle coş, Ey Yeruşalim kızı!"}, {"v": 15, "text": "RAB senin cezanı kaldırdı, Kovdu düşmanlarını. İsrail'in Kralı RAB seninle. Korkma artık kötülükten."}, {"v": 16, "text": "O gün Yeruşalim'e denecek ki, “Korkma, ey Siyon, gevşemesin ellerin."}, {"v": 17, "text": "Tanrın RAB, o güçlü Kurtarıcı seninle. Alabildiğine sevinecek senin için, Sevgisiyle seni yenileyecek, ezgilerle coşacak.”"}, {"v": 18, "text": "RAB, “Bayramlar için çektiğiniz özlemleri sona erdireceğim” diyor, “Bunlar sizin için ağırlık ve utançtır. Sizi ezenlerin tümünü cezalandıracağım o gün. Düşkünleri kurtaracak, sürgünleri toplayacağım. Utanç içinde kaldıkları bütün ülkelerde Onları yüceltip onurlandıracağım. O zaman sizi toplayıp yurdunuza geri getireceğim. Göreceksiniz, sizi yeniden bayındır kılacak, Dünyanın bütün halkları arasında yüceltip onurlandıracağım.”"}]}
+{
+  "t": "TCL02",
+  "b": "ZEP",
+  "c": 3,
+  "content": [
+    {
+      "section": "Yeruşalim'in Geleceği"
+    },
+    {
+      "v": 1,
+      "text": "Başkaldıran, yozlaşan, acımasız kentin vay haline!"
+    },
+    {
+      "v": 2,
+      "text": "Söz dinlemedi, ders almadı, RAB'be güvenmedi, Tanrısı'na sığınmadı."
+    },
+    {
+      "v": 3,
+      "text": "Yöneticileri kükreyen aslanlar, Önderleri akşam gezen aç kurtlar gibi, Sabaha bir şey bırakmazlar."
+    },
+    {
+      "v": 4,
+      "text": "Peygamberleri sorumsuz ve güvenilmezdir. Kâhinleri kutsal olanı kirletip, Yasayı çarpıtırlar."
+    },
+    {
+      "v": 5,
+      "text": "Ama adil RAB hâlâ o kentte; O haksızlık etmez, Aksatmadan dağıtır adaletini her yeni günün sabahında. Ne var ki, bu yetmiyor haksızları utandırmaya."
+    },
+    {
+      "v": 6,
+      "text": "RAB diyor ki, “Ulusları yok ettim, Kalelerini yıktım, sokaklarını harap ettim. O sokaklardan geçen kimse yok artık. Kentleri viraneye döndü, Eser kalmadı insandan."
+    },
+    {
+      "v": 7,
+      "text": "Halkım benden korkar, Ders alır bundan dedim. O zaman konutlarına dokunmaz, Onları tasarladığım cezaya çarptırmazdım. Ama her türlü kötülüğü yapmaya istekli görünüyorlar.”"
+    },
+    {
+      "v": 8,
+      "text": "Bu yüzden, “Bekleyin de görün” diyor RAB, “Ulusları yargılayacağım günü bekleyin. Ulusları toplamaya, Krallıkları bir araya getirmeye, Gazabımı, kızgın öfkemi Üzerlerine dökmeye karar verdim. Çünkü kıskançlığımın ateşi bütün dünyayı yiyip bitirecek."
+    },
+    {
+      "v": 9,
+      "text": "O zaman, hep birlikte beni adımla çağırmaları, Omuz omuza bana hizmet etmeleri için, Halkların dudaklarını pak kılacağım."
+    },
+    {
+      "v": 10,
+      "text": "Dağılmış olan, bana tapan halkım, Kûş ırmaklarının ötesinden Bana sunular getirecek."
+    },
+    {
+      "v": 11,
+      "text": "Halkım bana yaptığı bunca kötülük yüzünden utandırılmayacak o gün. Çünkü gururlu, küstah olanları uzaklaştıracağım aralarından. Kutsal dağımda bir daha böbürlenmeyecekler."
+    },
+    {
+      "v": 12,
+      "text": "Orada sadece benim adıma sığınan uysal ve alçakgönüllüleri bırakacağım."
+    },
+    {
+      "v": 13,
+      "text": "İsrailliler'den geride kalanlar haksızlık etmeyecek, Yalan söylemeyecek, Kimseyi aldatmayacak, Tok karna yatacaklar ve onları korkutan olmayacak.”"
+    },
+    {
+      "section": "Sevinç Ezgisi"
+    },
+    {
+      "v": 14,
+      "text": "Ey Siyon kızı, ezgiler söyle! Ey İsrail, haykır! Yürekten sevin, sevinçle coş, Ey Yeruşalim kızı!"
+    },
+    {
+      "v": 15,
+      "text": "RAB senin cezanı kaldırdı, Kovdu düşmanlarını. İsrail'in Kralı RAB seninle. Korkma artık kötülükten."
+    },
+    {
+      "v": 16,
+      "text": "O gün Yeruşalim'e denecek ki, “Korkma, ey Siyon, gevşemesin ellerin."
+    },
+    {
+      "v": 17,
+      "text": "Tanrın RAB, o güçlü Kurtarıcı seninle. Alabildiğine sevinecek senin için, Sevgisiyle seni yenileyecek, ezgilerle coşacak.”"
+    },
+    {
+      "v": 18,
+      "text": "RAB, “Bayramlar için çektiğiniz özlemleri sona erdireceğim” diyor, “Bunlar sizin için ağırlık ve utançtır. Sizi ezenlerin tümünü cezalandıracağım o gün. Düşkünleri kurtaracak, sürgünleri toplayacağım. Utanç içinde kaldıkları bütün ülkelerde Onları yüceltip onurlandıracağım. O zaman sizi toplayıp yurdunuza geri getireceğim. Göreceksiniz, sizi yeniden bayındır kılacak, Dünyanın bütün halkları arasında yüceltip onurlandıracağım.”"
+    }
+  ],
+  "title": "Yeruşalim'in Geleceği"
+}

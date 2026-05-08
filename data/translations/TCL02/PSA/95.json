@@ -1,1 +1,55 @@
-{"t":"TCL02","b":"PSA","c":95,"content":[{"v":1,"text":"Gelin, RAB'be sevinçle haykıralım, Bizi kurtaran kayaya sevinç çığlıkları atalım,"},{"v":2,"text":"Şükranla huzuruna çıkalım, O'na sevinç ilahileri yükseltelim!"},{"v":3,"text":"Çünkü RAB ulu Tanrı'dır, Bütün ilahların üstünde ulu kraldır."},{"v":4,"text":"Yerin derinlikleri O'nun elindedir, Dağların dorukları da O'nun."},{"v":5,"text":"Deniz O'nundur, çünkü O yarattı, Karaya da O'nun elleri biçim verdi."},{"v":6,"text":"Gelin, tapınalım, eğilelim, Bizi yaratan RAB'bin önünde diz çökelim."},{"v":7,"text":"Çünkü O Tanrımız'dır, Bizse O'nun otlağının halkı, Elinin altındaki koyunlarız. Bugün sesini duyarsanız,"},{"v":8,"text":"Meriva'da, o gün çölde, Massa'da olduğu gibi, Yüreklerinizi nasırlaştırmayın."},{"v":9,"text":"Yaptıklarımı görmelerine karşın, Atalarınız orada beni sınayıp denediler."},{"v":10,"text":"Kırk yıl o kuşaktan hep iğrendim, “Yüreği kötü yola sapan bir halktır” dedim, “Yollarımı bilmiyorlar.”"},{"v":11,"text":"Bu yüzden öfkeyle ant içtim: “Huzur diyarıma asla girmeyecekler!”"}]}
+{
+  "t": "TCL02",
+  "b": "PSA",
+  "c": 95,
+  "content": [
+    {
+      "section": "95. Mezmur"
+    },
+    {
+      "v": 1,
+      "text": "Gelin, RAB'be sevinçle haykıralım, Bizi kurtaran kayaya sevinç çığlıkları atalım,"
+    },
+    {
+      "v": 2,
+      "text": "Şükranla huzuruna çıkalım, O'na sevinç ilahileri yükseltelim!"
+    },
+    {
+      "v": 3,
+      "text": "Çünkü RAB ulu Tanrı'dır, Bütün ilahların üstünde ulu kraldır."
+    },
+    {
+      "v": 4,
+      "text": "Yerin derinlikleri O'nun elindedir, Dağların dorukları da O'nun."
+    },
+    {
+      "v": 5,
+      "text": "Deniz O'nundur, çünkü O yarattı, Karaya da O'nun elleri biçim verdi."
+    },
+    {
+      "v": 6,
+      "text": "Gelin, tapınalım, eğilelim, Bizi yaratan RAB'bin önünde diz çökelim."
+    },
+    {
+      "v": 7,
+      "text": "Çünkü O Tanrımız'dır, Bizse O'nun otlağının halkı, Elinin altındaki koyunlarız. Bugün sesini duyarsanız,"
+    },
+    {
+      "v": 8,
+      "text": "Meriva'da, o gün çölde, Massa'da olduğu gibi, Yüreklerinizi nasırlaştırmayın."
+    },
+    {
+      "v": 9,
+      "text": "Yaptıklarımı görmelerine karşın, Atalarınız orada beni sınayıp denediler."
+    },
+    {
+      "v": 10,
+      "text": "Kırk yıl o kuşaktan hep iğrendim, “Yüreği kötü yola sapan bir halktır” dedim, “Yollarımı bilmiyorlar.”"
+    },
+    {
+      "v": 11,
+      "text": "Bu yüzden öfkeyle ant içtim: “Huzur diyarıma asla girmeyecekler!”"
+    }
+  ],
+  "title": "95. Mezmur"
+}

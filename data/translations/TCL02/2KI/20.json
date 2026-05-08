@@ -1,1 +1,98 @@
-{"t":"TCL02","b":"2KI","c":20,"content":[{"v":1,"text":"O günlerde Hizkiya ölümcül bir hastalığa yakalandı. Amots oğlu Peygamber Yeşaya ona gidip şöyle dedi: “RAB diyor ki, ‘Ev işlerini düzene sok. Çünkü iyileşmeyecek, öleceksin.’ ”"},{"v":2,"text":"Hizkiya yüzünü duvara dönüp RAB'be yalvardı:"},{"v":3,"text":"“Ya RAB, yürekten bir sadakatle önünde nasıl yaşadığımı, gözünde iyi olanı yaptığımı anımsa lütfen.” Sonra acı acı ağlamaya başladı."},{"v":4,"text":"Yeşaya sarayın orta avlusundan çıkmadan önce RAB ona şöyle dedi:"},{"v":5,"text":"“Geri dön ve halkımı yöneten Hizkiya'ya şunu söyle: ‘Atan Davut'un Tanrısı RAB diyor ki: Duanı işittim, gözyaşlarını gördüm, seni sağlığına kavuşturacağım. Üç gün içinde RAB'bin Tapınağı'na çıkacaksın."},{"v":6,"text":"Ömrünü on beş yıl daha uzatacağım. Seni de kenti de Asur Kralı'nın elinden kurtaracağım. Kendim için ve kulum Davut'un hatırı için bu kenti savunacağım.’ ”"},{"v":7,"text":"Sonra Yeşaya, “İncir pestili getirin” dedi. Getirip çıbanına koydular ve Hizkiya iyileşti."},{"v":8,"text":"Hizkiya Yeşaya'ya, “RAB'bin beni iyileştireceğine ve üç gün içinde RAB'bin Tapınağı'na çıkacağıma ilişkin belirti nedir?” diye sormuştu."},{"v":9,"text":"Yeşaya şöyle karşılık vermişti: “RAB'bin verdiği sözü tutacağına ilişkin belirti şu olacak: Gölge on basamak uzasın mı, kısalsın mı?”"},{"v":10,"text":"Hizkiya, “Gölgenin on basamak uzaması kolaydır, on basamak kısalsın” demişti."},{"v":11,"text":"Bunun üzerine Peygamber Yeşaya RAB'be yakardı ve RAB Ahaz'ın merdiveninden aşağı düşmüş olan gölgeyi on basamak kısaltmıştı."},{"v":12,"text":"O sırada Hizkiya'nın hastalandığını duyan Baladan oğlu Babil Kralı Merodak-Baladan, ona mektuplarla birlikte bir armağan gönderdi."},{"v":13,"text":"Hizkiya elçileri kabul etti. Deposundaki bütün değerli eşyaları –altını, gümüşü, baharatı, değerli yağı, silah deposunu ve hazine odalarındaki her şeyi– elçilere gösterdi. Sarayında da krallığında da onlara göstermediği hiçbir şey kalmadı."},{"v":14,"text":"Peygamber Yeşaya Kral Hizkiya'ya gidip, “Bu adamlar sana ne dediler, nereden gelmişler?” diye sordu.  Hizkiya, “Uzak bir ülkeden, Babil'den gelmişler” diye karşılık verdi."},{"v":15,"text":"Yeşaya, “Sarayında ne gördüler?” diye sordu.  Hizkiya, “Sarayımdaki her şeyi gördüler, hazinelerimde onlara göstermediğim hiçbir şey kalmadı” diye yanıtladı."},{"v":16,"text":"Bunun üzerine Yeşaya şöyle dedi: “RAB'bin sözüne kulak ver."},{"v":17,"text":"RAB diyor ki, ‘Gün gelecek, sarayındaki her şey, atalarının bugüne kadar bütün biriktirdikleri Babil'e taşınacak. Hiçbir şey kalmayacak."},{"v":18,"text":"Soyundan gelen bazı çocuklar alınıp götürülecek, Babil Kralı'nın sarayında hadım edilecek.’ ”"},{"v":19,"text":"Hizkiya, “RAB'den ilettiğin bu söz iyi” dedi. Çünkü, “Nasıl olsa yaşadığım sürece barış ve güvenlik olacak” diye düşünüyordu."},{"v":20,"text":"Hizkiya'nın krallığı dönemindeki öteki olaylar, bütün başarıları, bir havuz ve tünel yaparak suyu kente nasıl getirdiği, Yahuda krallarının tarihinde yazılıdır."},{"v":21,"text":"Hizkiya ölüp atalarına kavuşunca, yerine oğlu Manaşşe kral oldu."}]}
+{
+  "t": "TCL02",
+  "b": "2KI",
+  "c": 20,
+  "content": [
+    {
+      "section": "Hizkiya'nın Hastalığı"
+    },
+    {
+      "v": 1,
+      "text": "O günlerde Hizkiya ölümcül bir hastalığa yakalandı. Amots oğlu Peygamber Yeşaya ona gidip şöyle dedi: “RAB diyor ki, ‘Ev işlerini düzene sok. Çünkü iyileşmeyecek, öleceksin.’ ”"
+    },
+    {
+      "v": 2,
+      "text": "Hizkiya yüzünü duvara dönüp RAB'be yalvardı:"
+    },
+    {
+      "v": 3,
+      "text": "“Ya RAB, yürekten bir sadakatle önünde nasıl yaşadığımı, gözünde iyi olanı yaptığımı anımsa lütfen.” Sonra acı acı ağlamaya başladı."
+    },
+    {
+      "v": 4,
+      "text": "Yeşaya sarayın orta avlusundan çıkmadan önce RAB ona şöyle dedi:"
+    },
+    {
+      "v": 5,
+      "text": "“Geri dön ve halkımı yöneten Hizkiya'ya şunu söyle: ‘Atan Davut'un Tanrısı RAB diyor ki: Duanı işittim, gözyaşlarını gördüm, seni sağlığına kavuşturacağım. Üç gün içinde RAB'bin Tapınağı'na çıkacaksın."
+    },
+    {
+      "v": 6,
+      "text": "Ömrünü on beş yıl daha uzatacağım. Seni de kenti de Asur Kralı'nın elinden kurtaracağım. Kendim için ve kulum Davut'un hatırı için bu kenti savunacağım.’ ”"
+    },
+    {
+      "v": 7,
+      "text": "Sonra Yeşaya, “İncir pestili getirin” dedi. Getirip çıbanına koydular ve Hizkiya iyileşti."
+    },
+    {
+      "v": 8,
+      "text": "Hizkiya Yeşaya'ya, “RAB'bin beni iyileştireceğine ve üç gün içinde RAB'bin Tapınağı'na çıkacağıma ilişkin belirti nedir?” diye sormuştu."
+    },
+    {
+      "v": 9,
+      "text": "Yeşaya şöyle karşılık vermişti: “RAB'bin verdiği sözü tutacağına ilişkin belirti şu olacak: Gölge on basamak uzasın mı, kısalsın mı?”"
+    },
+    {
+      "v": 10,
+      "text": "Hizkiya, “Gölgenin on basamak uzaması kolaydır, on basamak kısalsın” demişti."
+    },
+    {
+      "v": 11,
+      "text": "Bunun üzerine Peygamber Yeşaya RAB'be yakardı ve RAB Ahaz'ın merdiveninden aşağı düşmüş olan gölgeyi on basamak kısaltmıştı."
+    },
+    {
+      "section": "Hizkiya'nın Akılsızlığı"
+    },
+    {
+      "v": 12,
+      "text": "O sırada Hizkiya'nın hastalandığını duyan Baladan oğlu Babil Kralı Merodak-Baladan, ona mektuplarla birlikte bir armağan gönderdi."
+    },
+    {
+      "v": 13,
+      "text": "Hizkiya elçileri kabul etti. Deposundaki bütün değerli eşyaları –altını, gümüşü, baharatı, değerli yağı, silah deposunu ve hazine odalarındaki her şeyi– elçilere gösterdi. Sarayında da krallığında da onlara göstermediği hiçbir şey kalmadı."
+    },
+    {
+      "v": 14,
+      "text": "Peygamber Yeşaya Kral Hizkiya'ya gidip, “Bu adamlar sana ne dediler, nereden gelmişler?” diye sordu.  Hizkiya, “Uzak bir ülkeden, Babil'den gelmişler” diye karşılık verdi."
+    },
+    {
+      "v": 15,
+      "text": "Yeşaya, “Sarayında ne gördüler?” diye sordu.  Hizkiya, “Sarayımdaki her şeyi gördüler, hazinelerimde onlara göstermediğim hiçbir şey kalmadı” diye yanıtladı."
+    },
+    {
+      "v": 16,
+      "text": "Bunun üzerine Yeşaya şöyle dedi: “RAB'bin sözüne kulak ver."
+    },
+    {
+      "v": 17,
+      "text": "RAB diyor ki, ‘Gün gelecek, sarayındaki her şey, atalarının bugüne kadar bütün biriktirdikleri Babil'e taşınacak. Hiçbir şey kalmayacak."
+    },
+    {
+      "v": 18,
+      "text": "Soyundan gelen bazı çocuklar alınıp götürülecek, Babil Kralı'nın sarayında hadım edilecek.’ ”"
+    },
+    {
+      "v": 19,
+      "text": "Hizkiya, “RAB'den ilettiğin bu söz iyi” dedi. Çünkü, “Nasıl olsa yaşadığım sürece barış ve güvenlik olacak” diye düşünüyordu."
+    },
+    {
+      "v": 20,
+      "text": "Hizkiya'nın krallığı dönemindeki öteki olaylar, bütün başarıları, bir havuz ve tünel yaparak suyu kente nasıl getirdiği, Yahuda krallarının tarihinde yazılıdır."
+    },
+    {
+      "v": 21,
+      "text": "Hizkiya ölüp atalarına kavuşunca, yerine oğlu Manaşşe kral oldu."
+    }
+  ],
+  "title": "Hizkiya'nın Hastalığı"
+}

@@ -1,1 +1,123 @@
-{"t":"TCL02","b":"PRO","c":25,"content":[{"v":1,"text":"Bundan sonrakiler de Süleyman'ın özdeyişleridir. Bunları Yahuda Kralı Hizkiya'nın adamları derledi."},{"v":2,"text":"Tanrı'yı gizli tuttuğu şeyler için, Krallarıysa açığa çıkardıkları için yüceltiriz."},{"v":3,"text":"Göğün yüksekliği, yerin derinliği gibi, Kralların aklından geçen de kestirilemez."},{"v":4,"text":"Cürufu gümüşten ayırınca, Kuyumcunun işleyeceği madde kalır."},{"v":5,"text":"Kötüleri kralın huzurundan uzaklaştırırsan Kralın tahtı adaletle pekişir."},{"v":6,"text":"Kralın önünde kendini yüceltme, Önemli kişiler arasında yer edinmeye çalışma."},{"v":7,"text":"Çünkü kralın seni bir soylunun önünde alaşağı etmesindense, Sana, “Yukarıya gel” demesi yeğdir."},{"v":8,"text":"Gördüklerinle hemencecik mahkemeye başvurma; Çünkü başkası seni utandırabilir, Sonra ne yapacağını bilemezsin."},{"v":9,"text":"Davanı doğrudan komşunla gör; Başkasının sırrını açıklama."},{"v":10,"text":"Yoksa işiten seni utandırabilir Ve bu kötü ün yakanı bırakmaz."},{"v":11,"text":"Yerinde söylenen söz, Gümüş oymalardaki altın elma gibidir."},{"v":12,"text":"Altın küpe ya da altın bir süs neyse, Dinleyen kulak için bilgenin azarlaması da öyledir."},{"v":13,"text":"Hasatta kar serinliği nasılsa, Güvenilir ulak da kendisini gönderenler için öyledir. Böyle biri efendilerinin canına can katar."},{"v":14,"text":"Yağmursuz bulut ve yel nasılsa, Vermediği armağanla övünen kişi de öyledir."},{"v":15,"text":"Sabırla bir hükümdar bile ikna edilir, Tatlı dil en güçlü direnci kırar."},{"v":16,"text":"Bal buldun mu yeteri kadar ye, Fazla doyarsan kusarsın."},{"v":17,"text":"Başkalarının evine seyrek git, Yoksa onları bezdirir, nefretini kazanırsın."},{"v":18,"text":"Başkasına karşı yalancı tanıklık eden Topuz, kılıç ya da sivri ok gibidir."},{"v":19,"text":"Sıkıntılı günde haine güvenmek, Çürük dişe ya da sakat ayağa güvenmek gibidir."},{"v":20,"text":"Dertli kişiye ezgi söylemek, Soğuk günde giysilerini üzerinden almaya, Ya da sodaya sirke katmaya benzer."},{"v":21,"text":"Düşmanın acıkmışsa doyur, Susamışsa su ver."},{"v":22,"text":"Bunu yapmakla onu utanca boğarsın Ve RAB seni ödüllendirir."},{"v":23,"text":"Kuzeyden esen rüzgar nasıl yağmur getirirse, İftiracı dil de öfkeli bakışlara yol açar."},{"v":24,"text":"Kavgacı kadınla aynı evde oturmaktansa, Damın köşesinde oturmak yeğdir."},{"v":25,"text":"Susamış kişi için soğuk su neyse, Uzak ülkeden gelen iyi haber de öyledir."},{"v":26,"text":"Kötünün önünde pes eden doğru kişi, Suyu bulanmış pınar, kirlenmiş kuyu gibidir."},{"v":27,"text":"Fazla bal yemek iyi değildir; Hep yüceltilmeyi beklemek de..."},{"v":28,"text":"Kendini denetleyemeyen kişi Yıkılmış sursuz kent gibidir."}]}
+{
+  "t": "TCL02",
+  "b": "PRO",
+  "c": 25,
+  "content": [
+    {
+      "section": "Süleyman'ın Özdeyişlerinin İkinci Bölümü"
+    },
+    {
+      "v": 1,
+      "text": "Bundan sonrakiler de Süleyman'ın özdeyişleridir. Bunları Yahuda Kralı Hizkiya'nın adamları derledi."
+    },
+    {
+      "v": 2,
+      "text": "Tanrı'yı gizli tuttuğu şeyler için, Krallarıysa açığa çıkardıkları için yüceltiriz."
+    },
+    {
+      "v": 3,
+      "text": "Göğün yüksekliği, yerin derinliği gibi, Kralların aklından geçen de kestirilemez."
+    },
+    {
+      "v": 4,
+      "text": "Cürufu gümüşten ayırınca, Kuyumcunun işleyeceği madde kalır."
+    },
+    {
+      "v": 5,
+      "text": "Kötüleri kralın huzurundan uzaklaştırırsan Kralın tahtı adaletle pekişir."
+    },
+    {
+      "v": 6,
+      "text": "Kralın önünde kendini yüceltme, Önemli kişiler arasında yer edinmeye çalışma."
+    },
+    {
+      "v": 7,
+      "text": "Çünkü kralın seni bir soylunun önünde alaşağı etmesindense, Sana, “Yukarıya gel” demesi yeğdir."
+    },
+    {
+      "v": 8,
+      "text": "Gördüklerinle hemencecik mahkemeye başvurma; Çünkü başkası seni utandırabilir, Sonra ne yapacağını bilemezsin."
+    },
+    {
+      "v": 9,
+      "text": "Davanı doğrudan komşunla gör; Başkasının sırrını açıklama."
+    },
+    {
+      "v": 10,
+      "text": "Yoksa işiten seni utandırabilir Ve bu kötü ün yakanı bırakmaz."
+    },
+    {
+      "v": 11,
+      "text": "Yerinde söylenen söz, Gümüş oymalardaki altın elma gibidir."
+    },
+    {
+      "v": 12,
+      "text": "Altın küpe ya da altın bir süs neyse, Dinleyen kulak için bilgenin azarlaması da öyledir."
+    },
+    {
+      "v": 13,
+      "text": "Hasatta kar serinliği nasılsa, Güvenilir ulak da kendisini gönderenler için öyledir. Böyle biri efendilerinin canına can katar."
+    },
+    {
+      "v": 14,
+      "text": "Yağmursuz bulut ve yel nasılsa, Vermediği armağanla övünen kişi de öyledir."
+    },
+    {
+      "v": 15,
+      "text": "Sabırla bir hükümdar bile ikna edilir, Tatlı dil en güçlü direnci kırar."
+    },
+    {
+      "v": 16,
+      "text": "Bal buldun mu yeteri kadar ye, Fazla doyarsan kusarsın."
+    },
+    {
+      "v": 17,
+      "text": "Başkalarının evine seyrek git, Yoksa onları bezdirir, nefretini kazanırsın."
+    },
+    {
+      "v": 18,
+      "text": "Başkasına karşı yalancı tanıklık eden Topuz, kılıç ya da sivri ok gibidir."
+    },
+    {
+      "v": 19,
+      "text": "Sıkıntılı günde haine güvenmek, Çürük dişe ya da sakat ayağa güvenmek gibidir."
+    },
+    {
+      "v": 20,
+      "text": "Dertli kişiye ezgi söylemek, Soğuk günde giysilerini üzerinden almaya, Ya da sodaya sirke katmaya benzer."
+    },
+    {
+      "v": 21,
+      "text": "Düşmanın acıkmışsa doyur, Susamışsa su ver."
+    },
+    {
+      "v": 22,
+      "text": "Bunu yapmakla onu utanca boğarsın Ve RAB seni ödüllendirir."
+    },
+    {
+      "v": 23,
+      "text": "Kuzeyden esen rüzgar nasıl yağmur getirirse, İftiracı dil de öfkeli bakışlara yol açar."
+    },
+    {
+      "v": 24,
+      "text": "Kavgacı kadınla aynı evde oturmaktansa, Damın köşesinde oturmak yeğdir."
+    },
+    {
+      "v": 25,
+      "text": "Susamış kişi için soğuk su neyse, Uzak ülkeden gelen iyi haber de öyledir."
+    },
+    {
+      "v": 26,
+      "text": "Kötünün önünde pes eden doğru kişi, Suyu bulanmış pınar, kirlenmiş kuyu gibidir."
+    },
+    {
+      "v": 27,
+      "text": "Fazla bal yemek iyi değildir; Hep yüceltilmeyi beklemek de..."
+    },
+    {
+      "v": 28,
+      "text": "Kendini denetleyemeyen kişi Yıkılmış sursuz kent gibidir."
+    }
+  ],
+  "title": "Süleyman'ın Özdeyişlerinin İkinci Bölümü"
+}

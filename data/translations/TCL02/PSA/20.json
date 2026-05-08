@@ -1,1 +1,47 @@
-{"t":"TCL02","b":"PSA","c":20,"content":[{"v":1,"text":"Sıkıntılı gününde RAB seni yanıtlasın, Yakup'un Tanrısı'nın adı seni korusun!"},{"v":2,"text":"Yardım göndersin sana kutsal yerden, Siyon'dan destek versin."},{"v":3,"text":"Bütün tahıl sunularını anımsasın, Yakmalık sunularını kabul etsin! Sela"},{"v":4,"text":"Gönlünce versin sana, Bütün tasarılarını gerçekleştirsin!"},{"v":5,"text":"O zaman zaferini sevinç çığlıklarıyla kutlayacağız, Tanrımız'ın adıyla sancaklarımızı dikeceğiz. RAB senin bütün dileklerini yerine getirsin."},{"v":6,"text":"Şimdi anladım ki, RAB meshettiği kralı kurtarıyor, Sağ elinin kurtarıcı gücüyle Kutsal göklerinden ona yanıt veriyor."},{"v":7,"text":"Bazıları savaş arabalarına, Bazıları atlarına güvenir, Bizse Tanrımız RAB'bin adına güveniriz."},{"v":8,"text":"Onlar çöküyor, düşüyorlar; Bizse kalkıyor, dimdik duruyoruz."},{"v":9,"text":"Ya RAB, kralı kurtar! Yanıtla bizi sana yakardığımız gün!"}]}
+{
+  "t": "TCL02",
+  "b": "PSA",
+  "c": 20,
+  "content": [
+    {
+      "section": "20. Mezmur"
+    },
+    {
+      "v": 1,
+      "text": "Sıkıntılı gününde RAB seni yanıtlasın, Yakup'un Tanrısı'nın adı seni korusun!"
+    },
+    {
+      "v": 2,
+      "text": "Yardım göndersin sana kutsal yerden, Siyon'dan destek versin."
+    },
+    {
+      "v": 3,
+      "text": "Bütün tahıl sunularını anımsasın, Yakmalık sunularını kabul etsin! Sela"
+    },
+    {
+      "v": 4,
+      "text": "Gönlünce versin sana, Bütün tasarılarını gerçekleştirsin!"
+    },
+    {
+      "v": 5,
+      "text": "O zaman zaferini sevinç çığlıklarıyla kutlayacağız, Tanrımız'ın adıyla sancaklarımızı dikeceğiz. RAB senin bütün dileklerini yerine getirsin."
+    },
+    {
+      "v": 6,
+      "text": "Şimdi anladım ki, RAB meshettiği kralı kurtarıyor, Sağ elinin kurtarıcı gücüyle Kutsal göklerinden ona yanıt veriyor."
+    },
+    {
+      "v": 7,
+      "text": "Bazıları savaş arabalarına, Bazıları atlarına güvenir, Bizse Tanrımız RAB'bin adına güveniriz."
+    },
+    {
+      "v": 8,
+      "text": "Onlar çöküyor, düşüyorlar; Bizse kalkıyor, dimdik duruyoruz."
+    },
+    {
+      "v": 9,
+      "text": "Ya RAB, kralı kurtar! Yanıtla bizi sana yakardığımız gün!"
+    }
+  ],
+  "title": "20. Mezmur"
+}

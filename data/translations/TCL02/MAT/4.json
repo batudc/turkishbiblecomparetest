@@ -1,1 +1,112 @@
-{"t": "TCL02", "b": "MAT", "c": 4, "content": [{"v": 1, "text": "Bundan sonra İsa, İblis tarafından denenmek üzere Ruh aracılığıyla çöle götürüldü."}, {"v": 2, "text": "İsa kırk gün kırk gece oruç tuttuktan sonra acıktı."}, {"v": 3, "text": "O zaman Ayartıcı yaklaşıp, “Tanrı'nın Oğlu'ysan, söyle şu taşlar ekmek olsun” dedi."}, {"v": 4, "text": "İsa ona şu karşılığı verdi: “ ‘İnsan yalnız ekmekle yaşamaz, Tanrı'nın ağzından çıkan her sözle yaşar’ diye yazılmıştır.”"}, {"v": 5, "text": "Sonra İblis O'nu kutsal kente götürdü. Tapınağın tepesine çıkarıp, “Tanrı'nın Oğlu'ysan, kendini aşağı at” dedi, “Çünkü şöyle yazılmıştır: ‘Tanrı, senin için meleklerine buyruk verecek.’ ‘Ayağın bir taşa çarpmasın diye Seni elleri üzerinde taşıyacaklar.’ ”"}, {"v": 7, "text": "İsa İblis'e şu karşılığı verdi: “ ‘Tanrın Rab'bi denemeyeceksin’ diye de yazılmıştır.”"}, {"v": 8, "text": "İblis bu kez İsa'yı çok yüksek bir dağa çıkardı. O'na bütün görkemiyle dünya ülkelerini göstererek,"}, {"v": 9, "text": "“Yere kapanıp bana taparsan, bütün bunları sana vereceğim” dedi."}, {"v": 10, "text": "İsa ona şöyle karşılık verdi: “Çekil git, Şeytan! ‘Tanrın Rab'be tapacak, yalnız O'na kulluk edeceksin’ diye yazılmıştır.”"}, {"v": 11, "text": "Bunun üzerine İblis İsa'yı bırakıp gitti. Melekler gelip İsa'ya hizmet ettiler."}, {"v": 12, "text": "İsa, Yahya'nın tutuklandığını duyunca Celile'ye döndü."}, {"v": 13, "text": "Nasıra'dan ayrılarak Zevulun ve Naftali yöresinde, Celile Gölü kıyısında bulunan Kefarnahum'a yerleşti."}, {"v": 14, "text": "Bu, Peygamber Yeşaya aracılığıyla bildirilen şu söz yerine gelsin diye oldu: “Zevulun ve Naftali bölgeleri, Şeria Irmağı'nın ötesinde, Deniz Yolu'nda, Ulusların yaşadığı Celile!"}, {"v": 16, "text": "Karanlıkta yaşayan halk, Büyük bir ışık gördü. Ölümün gölgelediği diyarda Yaşayanlara ışık doğdu.”"}, {"v": 17, "text": "O günden sonra İsa şu çağrıda bulunmaya başladı: “Tövbe edin! Çünkü Göklerin Egemenliği yaklaştı.”"}, {"v": 18, "text": "İsa, Celile Gölü'nün kıyısında yürürken Petrus diye de anılan Simun'la kardeşi Andreas'ı gördü. Balıkçı olan bu iki kardeş göle ağ atıyorlardı."}, {"v": 19, "text": "Onlara, “Ardımdan gelin” dedi, “Sizleri insan tutan balıkçılar yapacağım.”"}, {"v": 20, "text": "Onlar da hemen ağlarını bırakıp O'nun ardından gittiler."}, {"v": 21, "text": "İsa daha ileri gidince başka iki kardeşi, Zebedi'nin oğulları Yakup'la Yuhanna'yı gördü. Babaları Zebedi'yle birlikte teknede ağlarını onarıyorlardı. Onları da çağırdı."}, {"v": 22, "text": "Hemen tekneyi ve babalarını bırakıp İsa'nın ardından gittiler."}, {"v": 23, "text": "İsa, Celile bölgesinin her tarafını dolaştı. Buralardaki havralarda öğretiyor, göksel egemenliğin Müjdesi'ni duyuruyor, halk arasında rastlanan her hastalığı, her illeti iyileştiriyordu."}, {"v": 24, "text": "Ünü bütün Suriye'ye yayılmıştı. Türlü hastalıklara yakalanmış bütün hastaları, acı çekenleri, cinlileri, saralıları, felçlileri O'na getirdiler; hepsini iyileştirdi."}, {"v": 25, "text": "Celile, Dekapolis, Yeruşalim, Yahudiye ve Şeria Irmağı'nın karşı yakasından gelen büyük kalabalıklar O'nun ardından gidiyordu."}]}
+{
+  "t": "TCL02",
+  "b": "MAT",
+  "c": 4,
+  "content": [
+    {
+      "section": "İsa Deneniyor"
+    },
+    {
+      "v": 1,
+      "text": "Bundan sonra İsa, İblis tarafından denenmek üzere Ruh aracılığıyla çöle götürüldü."
+    },
+    {
+      "v": 2,
+      "text": "İsa kırk gün kırk gece oruç tuttuktan sonra acıktı."
+    },
+    {
+      "v": 3,
+      "text": "O zaman Ayartıcı yaklaşıp, “Tanrı'nın Oğlu'ysan, söyle şu taşlar ekmek olsun” dedi."
+    },
+    {
+      "v": 4,
+      "text": "İsa ona şu karşılığı verdi: “ ‘İnsan yalnız ekmekle yaşamaz, Tanrı'nın ağzından çıkan her sözle yaşar’ diye yazılmıştır.”"
+    },
+    {
+      "v": 5,
+      "text": "Sonra İblis O'nu kutsal kente götürdü. Tapınağın tepesine çıkarıp, “Tanrı'nın Oğlu'ysan, kendini aşağı at” dedi, “Çünkü şöyle yazılmıştır: ‘Tanrı, senin için meleklerine buyruk verecek.’ ‘Ayağın bir taşa çarpmasın diye Seni elleri üzerinde taşıyacaklar.’ ”"
+    },
+    {
+      "v": 7,
+      "text": "İsa İblis'e şu karşılığı verdi: “ ‘Tanrın Rab'bi denemeyeceksin’ diye de yazılmıştır.”"
+    },
+    {
+      "v": 8,
+      "text": "İblis bu kez İsa'yı çok yüksek bir dağa çıkardı. O'na bütün görkemiyle dünya ülkelerini göstererek,"
+    },
+    {
+      "v": 9,
+      "text": "“Yere kapanıp bana taparsan, bütün bunları sana vereceğim” dedi."
+    },
+    {
+      "v": 10,
+      "text": "İsa ona şöyle karşılık verdi: “Çekil git, Şeytan! ‘Tanrın Rab'be tapacak, yalnız O'na kulluk edeceksin’ diye yazılmıştır.”"
+    },
+    {
+      "v": 11,
+      "text": "Bunun üzerine İblis İsa'yı bırakıp gitti. Melekler gelip İsa'ya hizmet ettiler."
+    },
+    {
+      "section": "İsa Müjde'yi Duyurmaya Başlıyor"
+    },
+    {
+      "v": 12,
+      "text": "İsa, Yahya'nın tutuklandığını duyunca Celile'ye döndü."
+    },
+    {
+      "v": 13,
+      "text": "Nasıra'dan ayrılarak Zevulun ve Naftali yöresinde, Celile Gölü kıyısında bulunan Kefarnahum'a yerleşti."
+    },
+    {
+      "v": 14,
+      "text": "Bu, Peygamber Yeşaya aracılığıyla bildirilen şu söz yerine gelsin diye oldu: “Zevulun ve Naftali bölgeleri, Şeria Irmağı'nın ötesinde, Deniz Yolu'nda, Ulusların yaşadığı Celile!"
+    },
+    {
+      "v": 16,
+      "text": "Karanlıkta yaşayan halk, Büyük bir ışık gördü. Ölümün gölgelediği diyarda Yaşayanlara ışık doğdu.”"
+    },
+    {
+      "v": 17,
+      "text": "O günden sonra İsa şu çağrıda bulunmaya başladı: “Tövbe edin! Çünkü Göklerin Egemenliği yaklaştı.”"
+    },
+    {
+      "section": "İsa İlk Öğrencilerini Seçiyor"
+    },
+    {
+      "v": 18,
+      "text": "İsa, Celile Gölü'nün kıyısında yürürken Petrus diye de anılan Simun'la kardeşi Andreas'ı gördü. Balıkçı olan bu iki kardeş göle ağ atıyorlardı."
+    },
+    {
+      "v": 19,
+      "text": "Onlara, “Ardımdan gelin” dedi, “Sizleri insan tutan balıkçılar yapacağım.”"
+    },
+    {
+      "v": 20,
+      "text": "Onlar da hemen ağlarını bırakıp O'nun ardından gittiler."
+    },
+    {
+      "v": 21,
+      "text": "İsa daha ileri gidince başka iki kardeşi, Zebedi'nin oğulları Yakup'la Yuhanna'yı gördü. Babaları Zebedi'yle birlikte teknede ağlarını onarıyorlardı. Onları da çağırdı."
+    },
+    {
+      "v": 22,
+      "text": "Hemen tekneyi ve babalarını bırakıp İsa'nın ardından gittiler."
+    },
+    {
+      "section": "İsa Hastaları İyileştiriyor"
+    },
+    {
+      "v": 23,
+      "text": "İsa, Celile bölgesinin her tarafını dolaştı. Buralardaki havralarda öğretiyor, göksel egemenliğin Müjdesi'ni duyuruyor, halk arasında rastlanan her hastalığı, her illeti iyileştiriyordu."
+    },
+    {
+      "v": 24,
+      "text": "Ünü bütün Suriye'ye yayılmıştı. Türlü hastalıklara yakalanmış bütün hastaları, acı çekenleri, cinlileri, saralıları, felçlileri O'na getirdiler; hepsini iyileştirdi."
+    },
+    {
+      "v": 25,
+      "text": "Celile, Dekapolis, Yeruşalim, Yahudiye ve Şeria Irmağı'nın karşı yakasından gelen büyük kalabalıklar O'nun ardından gidiyordu."
+    }
+  ],
+  "title": "İsa Deneniyor"
+}

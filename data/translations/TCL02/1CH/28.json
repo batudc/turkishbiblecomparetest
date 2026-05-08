@@ -1,1 +1,95 @@
-{"t":"TCL02","b":"1CH","c":28,"content":[{"v":1,"text":"Davut İsrail'deki bütün yöneticilerin –oymak başlarının, kralın hizmetindeki birlik komutanlarının, binbaşıların, yüzbaşıların, kralla oğullarına ait servetten ve sürüden sorumlu kişilerin, saray görevlilerinin, bütün güçlü adamların ve yiğit savaşçıların– Yeruşalim'de toplanmasını buyurdu."},{"v":2,"text":"Kral Davut ayağa kalkıp onlara şöyle dedi: “Ey kardeşlerim ve halkım, beni dinleyin! RAB'bin Antlaşma Sandığı, Tanrımız'ın ayak basamağı için kalıcı bir yer yapmak istedim. Konutun yapımı için hazırlık yaptım."},{"v":3,"text":"Ama Tanrı bana, ‘Adıma bir tapınak kurmayacaksın’ dedi, ‘Çünkü sen savaşçı birisin, kan döktün.’"},{"v":4,"text":"“İsrail'in Tanrısı RAB, sonsuza dek İsrail Kralı olmam için bütün ailem arasından beni seçti. Önder olarak Yahuda'yı, Yahuda oymağından da babamın ailesini seçti. Babamın oğulları arasından beni bütün İsrail'in kralı yapmayı uygun gördü."},{"v":5,"text":"Bütün oğullarım arasından –RAB bana birçok oğul verdi– İsrail'de RAB'bin krallığının tahtına oturtmak için oğlum Süleyman'ı seçti."},{"v":6,"text":"RAB bana şöyle dedi: ‘Tapınağımı ve avlularımı yapacak olan oğlun Süleyman'dır. Onu kendime oğul seçtim. Ben de ona baba olacağım."},{"v":7,"text":"Bugün yaptığı gibi buyruklarıma, ilkelerime dikkatle uyarsa, krallığını sonsuza dek sürdüreceğim.’"},{"v":8,"text":"“Şimdi, Tanrımız'ın önünde, RAB'bin topluluğu olan bütün İsrail'in gözü önünde size sesleniyorum: Tanrınız RAB'bin bütün buyruklarına uymaya dikkat edin ki, bu verimli ülkeyi mülk edinip sonsuza dek çocuklarınıza miras olarak veresiniz."},{"v":9,"text":"“Sen, ey oğlum Süleyman, babanın Tanrısı'nı tanı. Bütün yüreğinle ve istekle O'na kulluk et. Çünkü RAB her yüreği araştırır, her düşüncenin ardındaki amacı saptar. Eğer O'na yönelirsen, kendisini sana buldurur. Ama O'nu bırakırsan, seni sonsuza dek reddeder."},{"v":10,"text":"Şimdi dinle! Tapınağı yapmak için RAB seni seçti. Yürekli ol, işe başla!”"},{"v":11,"text":"Davut tapınağa ait eyvanın, binaların –hazine odalarının, yukarıyla iç odaların ve Bağışlanma Kapağı'nın bulunduğu yerin– tasarılarını oğlu Süleyman'a verdi."},{"v":12,"text":"Ruh aracılığıyla kendisine açıklanan bütün tasarıları verdi: RAB'bin Tapınağı'nın avlularıyla çevredeki bütün odaların, Tanrı'nın Tapınağı'nın hazinelerinin, adanmış armağanların konulacağı yerlerin ölçülerini verdi."},{"v":13,"text":"Kâhinlerle Levililer'in bölüklerine ilişkin kuralları, RAB'bin Tapınağı'ndaki hizmet ve hizmette kullanılan bütün eşyalarla ilgili ilkeleri,"},{"v":14,"text":"değişik hizmetlerde kullanılan altın eşyalar için saptanan altın miktarını, değişik hizmetlerde kullanılan gümüş eşyalar için saptanan gümüş miktarını,"},{"v":15,"text":"altın kandilliklerle kandiller –her bir altın kandillikle kandil– için saptanan altını, her kandilliğin kullanış biçimine göre gümüş kandilliklerle kandiller için saptanan gümüşü,"},{"v":16,"text":"adak ekmeklerinin dizildiği masalar için belirlenen altını, gümüş masalar için gümüşü,"},{"v":17,"text":"büyük çatallar, çanaklar ve testiler için belirlenen saf altını, her altın tas için saptanan altını, her gümüş tas için saptanan gümüşü,"},{"v":18,"text":"buhur sunağı için saptanan saf altın miktarını bildirdi. Davut arabanın –RAB'bin Antlaşma Sandığı'na kanatlarını yayarak onu örten altın Keruvlar'ın– tasarısını da verdi."},{"v":19,"text":"“Bütün bunlar RAB'bin eli üzerimde olduğu için bana bildirildi” dedi, “Ben de tasarının bütün ayrıntılarını yazılı olarak veriyorum.”"},{"v":20,"text":"Sonra oğlu Süleyman'a, “Güçlü ve yürekli ol!” dedi, “İşe giriş. Korkma, yılma. Çünkü benim Tanrım, RAB Tanrı seninledir. RAB'bin Tapınağı'nın bütün yapım işleri bitinceye dek seni başarısızlığa uğratmayacak, seni bırakmayacaktır."},{"v":21,"text":"Tanrı'nın Tapınağı'nın yapım işleri için kâhinlerle Levililer'in bölükleri burada hazır bekliyor. Her tür yapım işinde usta ve istekli adamlar sana yardım edecek. Önderler de bütün halk da senin buyruklarını bekliyor.”"}]}
+{
+  "t": "TCL02",
+  "b": "1CH",
+  "c": 28,
+  "content": [
+    {
+      "section": "Davut'un Tapınakla İlgili Tasarıları"
+    },
+    {
+      "v": 1,
+      "text": "Davut İsrail'deki bütün yöneticilerin –oymak başlarının, kralın hizmetindeki birlik komutanlarının, binbaşıların, yüzbaşıların, kralla oğullarına ait servetten ve sürüden sorumlu kişilerin, saray görevlilerinin, bütün güçlü adamların ve yiğit savaşçıların– Yeruşalim'de toplanmasını buyurdu."
+    },
+    {
+      "v": 2,
+      "text": "Kral Davut ayağa kalkıp onlara şöyle dedi: “Ey kardeşlerim ve halkım, beni dinleyin! RAB'bin Antlaşma Sandığı, Tanrımız'ın ayak basamağı için kalıcı bir yer yapmak istedim. Konutun yapımı için hazırlık yaptım."
+    },
+    {
+      "v": 3,
+      "text": "Ama Tanrı bana, ‘Adıma bir tapınak kurmayacaksın’ dedi, ‘Çünkü sen savaşçı birisin, kan döktün.’"
+    },
+    {
+      "v": 4,
+      "text": "“İsrail'in Tanrısı RAB, sonsuza dek İsrail Kralı olmam için bütün ailem arasından beni seçti. Önder olarak Yahuda'yı, Yahuda oymağından da babamın ailesini seçti. Babamın oğulları arasından beni bütün İsrail'in kralı yapmayı uygun gördü."
+    },
+    {
+      "v": 5,
+      "text": "Bütün oğullarım arasından –RAB bana birçok oğul verdi– İsrail'de RAB'bin krallığının tahtına oturtmak için oğlum Süleyman'ı seçti."
+    },
+    {
+      "v": 6,
+      "text": "RAB bana şöyle dedi: ‘Tapınağımı ve avlularımı yapacak olan oğlun Süleyman'dır. Onu kendime oğul seçtim. Ben de ona baba olacağım."
+    },
+    {
+      "v": 7,
+      "text": "Bugün yaptığı gibi buyruklarıma, ilkelerime dikkatle uyarsa, krallığını sonsuza dek sürdüreceğim.’"
+    },
+    {
+      "v": 8,
+      "text": "“Şimdi, Tanrımız'ın önünde, RAB'bin topluluğu olan bütün İsrail'in gözü önünde size sesleniyorum: Tanrınız RAB'bin bütün buyruklarına uymaya dikkat edin ki, bu verimli ülkeyi mülk edinip sonsuza dek çocuklarınıza miras olarak veresiniz."
+    },
+    {
+      "v": 9,
+      "text": "“Sen, ey oğlum Süleyman, babanın Tanrısı'nı tanı. Bütün yüreğinle ve istekle O'na kulluk et. Çünkü RAB her yüreği araştırır, her düşüncenin ardındaki amacı saptar. Eğer O'na yönelirsen, kendisini sana buldurur. Ama O'nu bırakırsan, seni sonsuza dek reddeder."
+    },
+    {
+      "v": 10,
+      "text": "Şimdi dinle! Tapınağı yapmak için RAB seni seçti. Yürekli ol, işe başla!”"
+    },
+    {
+      "v": 11,
+      "text": "Davut tapınağa ait eyvanın, binaların –hazine odalarının, yukarıyla iç odaların ve Bağışlanma Kapağı'nın bulunduğu yerin– tasarılarını oğlu Süleyman'a verdi."
+    },
+    {
+      "v": 12,
+      "text": "Ruh aracılığıyla kendisine açıklanan bütün tasarıları verdi: RAB'bin Tapınağı'nın avlularıyla çevredeki bütün odaların, Tanrı'nın Tapınağı'nın hazinelerinin, adanmış armağanların konulacağı yerlerin ölçülerini verdi."
+    },
+    {
+      "v": 13,
+      "text": "Kâhinlerle Levililer'in bölüklerine ilişkin kuralları, RAB'bin Tapınağı'ndaki hizmet ve hizmette kullanılan bütün eşyalarla ilgili ilkeleri,"
+    },
+    {
+      "v": 14,
+      "text": "değişik hizmetlerde kullanılan altın eşyalar için saptanan altın miktarını, değişik hizmetlerde kullanılan gümüş eşyalar için saptanan gümüş miktarını,"
+    },
+    {
+      "v": 15,
+      "text": "altın kandilliklerle kandiller –her bir altın kandillikle kandil– için saptanan altını, her kandilliğin kullanış biçimine göre gümüş kandilliklerle kandiller için saptanan gümüşü,"
+    },
+    {
+      "v": 16,
+      "text": "adak ekmeklerinin dizildiği masalar için belirlenen altını, gümüş masalar için gümüşü,"
+    },
+    {
+      "v": 17,
+      "text": "büyük çatallar, çanaklar ve testiler için belirlenen saf altını, her altın tas için saptanan altını, her gümüş tas için saptanan gümüşü,"
+    },
+    {
+      "v": 18,
+      "text": "buhur sunağı için saptanan saf altın miktarını bildirdi. Davut arabanın –RAB'bin Antlaşma Sandığı'na kanatlarını yayarak onu örten altın Keruvlar'ın– tasarısını da verdi."
+    },
+    {
+      "v": 19,
+      "text": "“Bütün bunlar RAB'bin eli üzerimde olduğu için bana bildirildi” dedi, “Ben de tasarının bütün ayrıntılarını yazılı olarak veriyorum.”"
+    },
+    {
+      "v": 20,
+      "text": "Sonra oğlu Süleyman'a, “Güçlü ve yürekli ol!” dedi, “İşe giriş. Korkma, yılma. Çünkü benim Tanrım, RAB Tanrı seninledir. RAB'bin Tapınağı'nın bütün yapım işleri bitinceye dek seni başarısızlığa uğratmayacak, seni bırakmayacaktır."
+    },
+    {
+      "v": 21,
+      "text": "Tanrı'nın Tapınağı'nın yapım işleri için kâhinlerle Levililer'in bölükleri burada hazır bekliyor. Her tür yapım işinde usta ve istekli adamlar sana yardım edecek. Önderler de bütün halk da senin buyruklarını bekliyor.”"
+    }
+  ],
+  "title": "Davut'un Tapınakla İlgili Tasarıları"
+}

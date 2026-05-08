@@ -1,1 +1,87 @@
-{"t": "TCL02", "b": "2KI", "c": 22, "content": [{"v": 1, "text": "Yoşiya sekiz yaşında kral oldu ve Yeruşalim'de otuz bir yıl krallık yaptı. Annesi Boskatlı Adaya'nın kızı Yedida'ydı."}, {"v": 2, "text": "Yoşiya RAB'bin gözünde doğru olanı yaptı. Sağa sola sapmadan atası Davut'un bütün yollarını izledi."}, {"v": 3, "text": "Kral Yoşiya, krallığının on sekizinci yılında Meşullam oğlu Asalya oğlu Yazman Şafan'ı RAB'bin Tapınağı'na gönderirken ona şöyle dedi:"}, {"v": 4, "text": "“Başkâhin Hilkiya'nın yanına çık. Kapı nöbetçilerinin halktan toplayıp RAB'bin Tapınağı'na getirdikleri paraları saysın."}, {"v": 5, "text": "RAB'bin Tapınağı'ndaki işlerin başında bulunan denetçilere versin. Onlar da paraları RAB'bin Tapınağı'ndaki çatlakları onaranlara, marangozlara, yapıcılara, duvarcılara ödesinler. Tapınağın onarımı için gerekli keresteyi, yontma taşı da bu parayla alsınlar."}, {"v": 7, "text": "Onlara verilen paranın hesabı sorulmasın, çünkü dürüstçe çalışıyorlar.”"}, {"v": 8, "text": "Başkâhin Hilkiya Yazman Şafan'a, “RAB'bin Tapınağı'nda Yasa Kitabı'nı buldum” diyerek kitabı ona verdi. Şafan kitabı okudu."}, {"v": 9, "text": "Sonra krala giderek, “Görevlilerin tapınaktaki paraları alıp RAB'bin Tapınağı'ndaki işlerin başında bulunan adamlara verdiler” diye durumu bildirdi."}, {"v": 10, "text": "Ardından, “Kâhin Hilkiya bana bir kitap verdi” diyerek kitabı krala okudu."}, {"v": 11, "text": "Kral Kutsal Yasa'daki sözleri duyunca giysilerini yırttı."}, {"v": 12, "text": "Kâhin Hilkiya'ya, Şafan oğlu Ahikam'a, Mikaya oğlu Akbor'a, Yazman Şafan'a ve kendi özel görevlisi Asaya'ya şöyle buyurdu:"}, {"v": 13, "text": "“Gidin, bulunan bu kitabın sözleri hakkında benim için de, bütün Yahuda halkı için de RAB'be danışın. RAB'bin bize karşı alevlenen öfkesi büyüktür. Çünkü atalarımız bu kitabın sözlerine kulak asmadılar, bizler için yazılan bu sözlere uymadılar.”"}, {"v": 14, "text": "Kâhin Hilkiya, Ahikam, Akbor, Şafan ve Asaya varıp tapınaktaki giysilerin nöbetçisi Harhas oğlu Tikva oğlu Şallum'un karısı Peygamber Hulda'ya danıştılar. Hulda Yeruşalim'de, İkinci Mahalle'de oturuyordu."}, {"v": 15, "text": "Hulda onlara şöyle dedi: “İsrail'in Tanrısı RAB, ‘Sizi bana gönderen adama şunları söyleyin’ diyor:"}, {"v": 16, "text": "‘Yahuda Kralı'nın okuduğu kitapta yazılı olduğu gibi, buraya da, burada yaşayan halkın başına da felaket getireceğim."}, {"v": 17, "text": "Beni terk ettikleri, elleriyle yaptıkları başka ilahlara buhur yakıp beni kızdırdıkları için buraya karşı öfkem alevlenecek ve sönmeyecek.’"}, {"v": 18, "text": "“RAB'be danışmak için sizi gönderen Yahuda Kralı'na şöyle deyin: ‘İsrail'in Tanrısı RAB duyduğun sözlere ilişkin diyor ki:"}, {"v": 19, "text": "Madem yıkılıp lanetle anılacak olan burası ve burada yaşayanlarla ilgili sözlerimi duyunca yüreğin yumuşadı, önümde kendini alçalttın, giysilerini yırtıp huzurumda ağladın, ben de yalvarışını işittim."}, {"v": 20, "text": "Seni atalarına kavuşturacağım, esenlik içinde mezarına gömüleceksin. Buraya getireceğim büyük felaketi görmeyeceksin.’ ” Hilkiya ile yanındakiler bu sözleri krala ilettiler."}]}
+{
+  "t": "TCL02",
+  "b": "2KI",
+  "c": 22,
+  "content": [
+    {
+      "section": "Yoşiya'nın Yahuda Krallığı"
+    },
+    {
+      "v": 1,
+      "text": "Yoşiya sekiz yaşında kral oldu ve Yeruşalim'de otuz bir yıl krallık yaptı. Annesi Boskatlı Adaya'nın kızı Yedida'ydı."
+    },
+    {
+      "v": 2,
+      "text": "Yoşiya RAB'bin gözünde doğru olanı yaptı. Sağa sola sapmadan atası Davut'un bütün yollarını izledi."
+    },
+    {
+      "v": 3,
+      "text": "Kral Yoşiya, krallığının on sekizinci yılında Meşullam oğlu Asalya oğlu Yazman Şafan'ı RAB'bin Tapınağı'na gönderirken ona şöyle dedi:"
+    },
+    {
+      "v": 4,
+      "text": "“Başkâhin Hilkiya'nın yanına çık. Kapı nöbetçilerinin halktan toplayıp RAB'bin Tapınağı'na getirdikleri paraları saysın."
+    },
+    {
+      "v": 5,
+      "text": "RAB'bin Tapınağı'ndaki işlerin başında bulunan denetçilere versin. Onlar da paraları RAB'bin Tapınağı'ndaki çatlakları onaranlara, marangozlara, yapıcılara, duvarcılara ödesinler. Tapınağın onarımı için gerekli keresteyi, yontma taşı da bu parayla alsınlar."
+    },
+    {
+      "v": 7,
+      "text": "Onlara verilen paranın hesabı sorulmasın, çünkü dürüstçe çalışıyorlar.”"
+    },
+    {
+      "v": 8,
+      "text": "Başkâhin Hilkiya Yazman Şafan'a, “RAB'bin Tapınağı'nda Yasa Kitabı'nı buldum” diyerek kitabı ona verdi. Şafan kitabı okudu."
+    },
+    {
+      "v": 9,
+      "text": "Sonra krala giderek, “Görevlilerin tapınaktaki paraları alıp RAB'bin Tapınağı'ndaki işlerin başında bulunan adamlara verdiler” diye durumu bildirdi."
+    },
+    {
+      "v": 10,
+      "text": "Ardından, “Kâhin Hilkiya bana bir kitap verdi” diyerek kitabı krala okudu."
+    },
+    {
+      "v": 11,
+      "text": "Kral Kutsal Yasa'daki sözleri duyunca giysilerini yırttı."
+    },
+    {
+      "v": 12,
+      "text": "Kâhin Hilkiya'ya, Şafan oğlu Ahikam'a, Mikaya oğlu Akbor'a, Yazman Şafan'a ve kendi özel görevlisi Asaya'ya şöyle buyurdu:"
+    },
+    {
+      "v": 13,
+      "text": "“Gidin, bulunan bu kitabın sözleri hakkında benim için de, bütün Yahuda halkı için de RAB'be danışın. RAB'bin bize karşı alevlenen öfkesi büyüktür. Çünkü atalarımız bu kitabın sözlerine kulak asmadılar, bizler için yazılan bu sözlere uymadılar.”"
+    },
+    {
+      "v": 14,
+      "text": "Kâhin Hilkiya, Ahikam, Akbor, Şafan ve Asaya varıp tapınaktaki giysilerin nöbetçisi Harhas oğlu Tikva oğlu Şallum'un karısı Peygamber Hulda'ya danıştılar. Hulda Yeruşalim'de, İkinci Mahalle'de oturuyordu."
+    },
+    {
+      "v": 15,
+      "text": "Hulda onlara şöyle dedi: “İsrail'in Tanrısı RAB, ‘Sizi bana gönderen adama şunları söyleyin’ diyor:"
+    },
+    {
+      "v": 16,
+      "text": "‘Yahuda Kralı'nın okuduğu kitapta yazılı olduğu gibi, buraya da, burada yaşayan halkın başına da felaket getireceğim."
+    },
+    {
+      "v": 17,
+      "text": "Beni terk ettikleri, elleriyle yaptıkları başka ilahlara buhur yakıp beni kızdırdıkları için buraya karşı öfkem alevlenecek ve sönmeyecek.’"
+    },
+    {
+      "v": 18,
+      "text": "“RAB'be danışmak için sizi gönderen Yahuda Kralı'na şöyle deyin: ‘İsrail'in Tanrısı RAB duyduğun sözlere ilişkin diyor ki:"
+    },
+    {
+      "v": 19,
+      "text": "Madem yıkılıp lanetle anılacak olan burası ve burada yaşayanlarla ilgili sözlerimi duyunca yüreğin yumuşadı, önümde kendini alçalttın, giysilerini yırtıp huzurumda ağladın, ben de yalvarışını işittim."
+    },
+    {
+      "v": 20,
+      "text": "Seni atalarına kavuşturacağım, esenlik içinde mezarına gömüleceksin. Buraya getireceğim büyük felaketi görmeyeceksin.’ ” Hilkiya ile yanındakiler bu sözleri krala ilettiler."
+    }
+  ],
+  "title": "Yoşiya'nın Yahuda Krallığı"
+}

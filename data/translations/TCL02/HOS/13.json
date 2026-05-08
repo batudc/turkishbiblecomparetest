@@ -1,1 +1,75 @@
-{"t":"TCL02","b":"HOS","c":13,"content":[{"v":1,"text":"Efrayim konuştuğunda herkes titrerdi, Yücelmişti İsrail'de. Ama Baal'a taparak suç işleyince öldü."},{"v":2,"text":"Şimdi günah üstüne günah işliyorlar, Gümüşlerinden dökme putlar, Akıllıca tasarlanmış putlar yapıyorlar, Hepsi de usta işi. Bu insanlar hakkında, “İnsan kurban edenler Buzağıları öpüyor!” diye konuşuluyor."},{"v":3,"text":"Bu yüzden sabah sisine, Erken uçup giden çiye, Harman yerinden savrulan saman çöpüne, Bacadan tüten dumana dönecekler."},{"v":4,"text":"“Ama seni Mısır'dan çıkaran Tanrın RAB benim, Benden başka tanrı tanımayacaksın, Çünkü başka kurtarıcı yoktur."},{"v":5,"text":"Ben sana çölde, Kurak topraklarda göz kulak oldum."},{"v":6,"text":"Otlaklara sahip olunca doydular, Doyunca gurura kapıldılar; Bu yüzden unuttular beni."},{"v":7,"text":"Ben de onlara karşı bir aslan gibi olacağım, Bir pars gibi yol kenarında pusuya yatacağım."},{"v":8,"text":"Yavrularından edilmiş dişi ayı gibi Karşılarına çıkacak, Yüreklerinin zarını yırtacağım, Dişi aslan gibi onları oracıkta yiyip bitireceğim, Yabanıl bir hayvan parçalayacak onları."},{"v":9,"text":"“Ey İsrail, bana, yardımcına karşı çıkman Yıkıma uğratıyor seni."},{"v":10,"text":"Nerede seni bütün kentlerinde Kurtaracak kralın? Yöneticilerin nerede? Hani, onlar için: ‘Bana bir kral ve önderler ver!’ demiştin."},{"v":11,"text":"Öfkelendiğimde bir kral verdim sana, Gazaba gelince alıp götürdüm onu."},{"v":12,"text":"Efrayim'in suçu birikmiş, Günahı kayda geçmiş."},{"v":13,"text":"Doğum sancıları çeken kadının akılsız oğludur o, Çünkü zamanı geldiğinde, Açık rahimden çıkmıyor."},{"v":14,"text":"“Onları fidyeyle kurtaracağım Ölüler diyarının elinden, Ölümden fidyeyle kurtaracağım. Felaketin nerede, ey ölüm? Yıkıcılığın nerede, ey ölüler diyarı? Hiç pişmanlık duymayacağım."},{"v":15,"text":"“Kardeşleri arasında serpilip gelişse de, Doğu rüzgarı, çölden esen RAB'bin soluğu üzerine gelecek, Onun kaynağı kuruyacak, Pınarı kesilecek, Değerli eşyalarının hazinesi yağmalanacak."},{"v":16,"text":"Samiriye halkı suçunun cezasını çekecek, Çünkü Tanrısı'na başkaldırdı. Kılıçla yıkılacaklar, Yere çalınıp parçalanacak yavruları, Gebe kadınlarının karnı yarılacak.”"}]}
+{
+  "t": "TCL02",
+  "b": "HOS",
+  "c": 13,
+  "content": [
+    {
+      "section": "Rab İsrail'e Öfkeleniyor"
+    },
+    {
+      "v": 1,
+      "text": "Efrayim konuştuğunda herkes titrerdi, Yücelmişti İsrail'de. Ama Baal'a taparak suç işleyince öldü."
+    },
+    {
+      "v": 2,
+      "text": "Şimdi günah üstüne günah işliyorlar, Gümüşlerinden dökme putlar, Akıllıca tasarlanmış putlar yapıyorlar, Hepsi de usta işi. Bu insanlar hakkında, “İnsan kurban edenler Buzağıları öpüyor!” diye konuşuluyor."
+    },
+    {
+      "v": 3,
+      "text": "Bu yüzden sabah sisine, Erken uçup giden çiye, Harman yerinden savrulan saman çöpüne, Bacadan tüten dumana dönecekler."
+    },
+    {
+      "v": 4,
+      "text": "“Ama seni Mısır'dan çıkaran Tanrın RAB benim, Benden başka tanrı tanımayacaksın, Çünkü başka kurtarıcı yoktur."
+    },
+    {
+      "v": 5,
+      "text": "Ben sana çölde, Kurak topraklarda göz kulak oldum."
+    },
+    {
+      "v": 6,
+      "text": "Otlaklara sahip olunca doydular, Doyunca gurura kapıldılar; Bu yüzden unuttular beni."
+    },
+    {
+      "v": 7,
+      "text": "Ben de onlara karşı bir aslan gibi olacağım, Bir pars gibi yol kenarında pusuya yatacağım."
+    },
+    {
+      "v": 8,
+      "text": "Yavrularından edilmiş dişi ayı gibi Karşılarına çıkacak, Yüreklerinin zarını yırtacağım, Dişi aslan gibi onları oracıkta yiyip bitireceğim, Yabanıl bir hayvan parçalayacak onları."
+    },
+    {
+      "v": 9,
+      "text": "“Ey İsrail, bana, yardımcına karşı çıkman Yıkıma uğratıyor seni."
+    },
+    {
+      "v": 10,
+      "text": "Nerede seni bütün kentlerinde Kurtaracak kralın? Yöneticilerin nerede? Hani, onlar için: ‘Bana bir kral ve önderler ver!’ demiştin."
+    },
+    {
+      "v": 11,
+      "text": "Öfkelendiğimde bir kral verdim sana, Gazaba gelince alıp götürdüm onu."
+    },
+    {
+      "v": 12,
+      "text": "Efrayim'in suçu birikmiş, Günahı kayda geçmiş."
+    },
+    {
+      "v": 13,
+      "text": "Doğum sancıları çeken kadının akılsız oğludur o, Çünkü zamanı geldiğinde, Açık rahimden çıkmıyor."
+    },
+    {
+      "v": 14,
+      "text": "“Onları fidyeyle kurtaracağım Ölüler diyarının elinden, Ölümden fidyeyle kurtaracağım. Felaketin nerede, ey ölüm? Yıkıcılığın nerede, ey ölüler diyarı? Hiç pişmanlık duymayacağım."
+    },
+    {
+      "v": 15,
+      "text": "“Kardeşleri arasında serpilip gelişse de, Doğu rüzgarı, çölden esen RAB'bin soluğu üzerine gelecek, Onun kaynağı kuruyacak, Pınarı kesilecek, Değerli eşyalarının hazinesi yağmalanacak."
+    },
+    {
+      "v": 16,
+      "text": "Samiriye halkı suçunun cezasını çekecek, Çünkü Tanrısı'na başkaldırdı. Kılıçla yıkılacaklar, Yere çalınıp parçalanacak yavruları, Gebe kadınlarının karnı yarılacak.”"
+    }
+  ],
+  "title": "Rab İsrail'e Öfkeleniyor"
+}

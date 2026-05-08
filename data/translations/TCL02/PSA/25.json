@@ -1,1 +1,99 @@
-{"t":"TCL02","b":"PSA","c":25,"content":[{"v":1,"text":"Ya RAB, bütün varlığımla sana yaklaşıyorum,"},{"v":2,"text":"Ey Tanrım, sana güveniyorum, utandırma beni, Düşmanlarım zafer kahkahası atmasın!"},{"v":3,"text":"Sana umut bağlayan hiç kimse utanca düşmez; Nedensiz hainlik edenler utanır."},{"v":4,"text":"Ya RAB, yollarını bana öğret, Yönlerini bildir."},{"v":5,"text":"Bana gerçek yolunda öncülük et, eğit beni; Çünkü beni kurtaran Tanrı sensin. Bütün gün umudum sende."},{"v":6,"text":"Ya RAB, sevecenliğini ve sevgini anımsa; Çünkü onlar öncesizlikten beri aynıdır."},{"v":7,"text":"Gençlik günahlarımı, isyanlarımı anımsama, Sevgine göre anımsa beni, Çünkü sen iyisin, ya RAB."},{"v":8,"text":"RAB iyi ve doğrudur, Onun için günahkârlara yol gösterir."},{"v":9,"text":"Alçakgönüllülere adalet yolunda öncülük eder, Kendi yolunu öğretir onlara."},{"v":10,"text":"RAB'bin bütün yolları sevgi ve sadakate dayanır Antlaşmasındaki buyruklara uyanlar için."},{"v":11,"text":"Ya RAB, adın uğruna Suçumu bağışla, çünkü suçum büyük."},{"v":12,"text":"Kim RAB'den korkarsa, RAB ona seçeceği yolu gösterir."},{"v":13,"text":"Gönenç içinde yaşayacak o insan, Soyu ülkeyi sahiplenecek."},{"v":14,"text":"RAB kendisinden korkanlarla paylaşır sırrını, Onlara açıklar antlaşmasını."},{"v":15,"text":"Gözlerim hep RAB'dedir, Çünkü ayaklarımı ağdan O çıkarır."},{"v":16,"text":"Halime bak, lütfet bana; Çünkü garip ve mazlumum."},{"v":17,"text":"Yüreğimdeki sıkıntılar artıyor, Kurtar beni dertlerimden!"},{"v":18,"text":"Üzüntüme, acılarıma bak, Bütün günahlarımı bağışla!"},{"v":19,"text":"Düşmanlarıma bak, ne kadar çoğaldılar, Nasıl da benden nefret ediyorlar!"},{"v":20,"text":"Canımı koru, kurtar beni! Hayal kırıklığına uğratma, çünkü sana sığınıyorum!"},{"v":21,"text":"Dürüstlük, doğruluk korusun beni, Çünkü umudum sendedir."},{"v":22,"text":"Ey Tanrı, kurtar İsrail'i Bütün sıkıntılarından!"}]}
+{
+  "t": "TCL02",
+  "b": "PSA",
+  "c": 25,
+  "content": [
+    {
+      "section": "25. Mezmur"
+    },
+    {
+      "v": 1,
+      "text": "Ya RAB, bütün varlığımla sana yaklaşıyorum,"
+    },
+    {
+      "v": 2,
+      "text": "Ey Tanrım, sana güveniyorum, utandırma beni, Düşmanlarım zafer kahkahası atmasın!"
+    },
+    {
+      "v": 3,
+      "text": "Sana umut bağlayan hiç kimse utanca düşmez; Nedensiz hainlik edenler utanır."
+    },
+    {
+      "v": 4,
+      "text": "Ya RAB, yollarını bana öğret, Yönlerini bildir."
+    },
+    {
+      "v": 5,
+      "text": "Bana gerçek yolunda öncülük et, eğit beni; Çünkü beni kurtaran Tanrı sensin. Bütün gün umudum sende."
+    },
+    {
+      "v": 6,
+      "text": "Ya RAB, sevecenliğini ve sevgini anımsa; Çünkü onlar öncesizlikten beri aynıdır."
+    },
+    {
+      "v": 7,
+      "text": "Gençlik günahlarımı, isyanlarımı anımsama, Sevgine göre anımsa beni, Çünkü sen iyisin, ya RAB."
+    },
+    {
+      "v": 8,
+      "text": "RAB iyi ve doğrudur, Onun için günahkârlara yol gösterir."
+    },
+    {
+      "v": 9,
+      "text": "Alçakgönüllülere adalet yolunda öncülük eder, Kendi yolunu öğretir onlara."
+    },
+    {
+      "v": 10,
+      "text": "RAB'bin bütün yolları sevgi ve sadakate dayanır Antlaşmasındaki buyruklara uyanlar için."
+    },
+    {
+      "v": 11,
+      "text": "Ya RAB, adın uğruna Suçumu bağışla, çünkü suçum büyük."
+    },
+    {
+      "v": 12,
+      "text": "Kim RAB'den korkarsa, RAB ona seçeceği yolu gösterir."
+    },
+    {
+      "v": 13,
+      "text": "Gönenç içinde yaşayacak o insan, Soyu ülkeyi sahiplenecek."
+    },
+    {
+      "v": 14,
+      "text": "RAB kendisinden korkanlarla paylaşır sırrını, Onlara açıklar antlaşmasını."
+    },
+    {
+      "v": 15,
+      "text": "Gözlerim hep RAB'dedir, Çünkü ayaklarımı ağdan O çıkarır."
+    },
+    {
+      "v": 16,
+      "text": "Halime bak, lütfet bana; Çünkü garip ve mazlumum."
+    },
+    {
+      "v": 17,
+      "text": "Yüreğimdeki sıkıntılar artıyor, Kurtar beni dertlerimden!"
+    },
+    {
+      "v": 18,
+      "text": "Üzüntüme, acılarıma bak, Bütün günahlarımı bağışla!"
+    },
+    {
+      "v": 19,
+      "text": "Düşmanlarıma bak, ne kadar çoğaldılar, Nasıl da benden nefret ediyorlar!"
+    },
+    {
+      "v": 20,
+      "text": "Canımı koru, kurtar beni! Hayal kırıklığına uğratma, çünkü sana sığınıyorum!"
+    },
+    {
+      "v": 21,
+      "text": "Dürüstlük, doğruluk korusun beni, Çünkü umudum sendedir."
+    },
+    {
+      "v": 22,
+      "text": "Ey Tanrı, kurtar İsrail'i Bütün sıkıntılarından!"
+    }
+  ],
+  "title": "25. Mezmur"
+}

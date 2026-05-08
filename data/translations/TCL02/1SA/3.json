@@ -1,1 +1,95 @@
-{"t":"TCL02","b":"1SA","c":3,"content":[{"v":1,"text":"Genç Samuel Eli'nin yönetimi altında RAB'be hizmet ediyordu. O günlerde RAB'bin sözü seyrek geliyordu; görümler de azalmıştı."},{"v":2,"text":"Bir gece Eli yatağında uyuyordu. Gözleri öyle zayıflamıştı ki, güçlükle görebiliyordu."},{"v":3,"text":"Samuel ise RAB'bin Tapınağı'nda, Tanrı'nın Sandığı'nın bulunduğu yerde uyuyordu. Tanrı'nın kandili daha sönmemişti."},{"v":4,"text":"RAB Samuel'e seslendi. Samuel, “Buradayım” diye karşılık verdi."},{"v":5,"text":"Ardından Eli'ye koşup, “Beni çağırdın, işte buradayım” dedi.  Ama Eli, “Ben çağırmadım, dön yat” diye karşılık verdi. Samuel de dönüp yattı."},{"v":6,"text":"RAB yine, “Samuel!” diye seslendi. Samuel kalkıp Eli'ye gitti ve, “İşte, buradayım, beni çağırdın” dedi.  Eli, “Çağırmadım, oğlum” diye karşılık verdi, “Dön yat.”"},{"v":7,"text":"Samuel RAB'bi daha tanımıyordu; RAB'bin sözü henüz ona açıklanmamıştı."},{"v":8,"text":"RAB yine üçüncü kez Samuel'e seslendi. Samuel kalkıp Eli'ye gitti. “İşte buradayım, beni çağırdın” dedi.  O zaman Eli genç Samuel'e RAB'bin seslendiğini anladı."},{"v":9,"text":"Bunun üzerine Samuel'e, “Git yat” dedi, “Sana yine seslenirse, ‘Konuş, ya RAB, kulun dinliyor’ dersin.” Samuel gidip yerine yattı."},{"v":10,"text":"RAB gelip orada durdu ve önceki gibi, “Samuel, Samuel!” diye seslendi.  Samuel, “Konuş, kulun dinliyor” diye yanıtladı."},{"v":11,"text":"RAB Samuel'e şöyle dedi: “Ben İsrail'de her duyanı şaşkına çevirecek bir şey yapmak üzereyim."},{"v":12,"text":"O gün Eli'nin ailesine karşı söylediğim her şeyi baştan sona dek yerine getireceğim."},{"v":13,"text":"Çünkü farkında olduğu günahtan ötürü ailesini sonsuza dek yargılayacağımı Eli'ye bildirdim. Oğulları Tanrı'ya saygısızlık ettiler. Eli de onlara engel olmadı."},{"v":14,"text":"Bu nedenle, ‘Eli'nin ailesinin günahı hiçbir zaman kurban ya da sunuyla bile bağışlanmayacaktır’ diyerek Eli'nin ailesi hakkında ant içtim.”"},{"v":15,"text":"Samuel sabaha kadar yattı, sonra RAB'bin Tapınağı'nın kapılarını açtı. Gördüğü görümü Eli'ye söylemekten çekiniyordu."},{"v":16,"text":"Ama Eli ona, “Oğlum Samuel!” diye seslendi.  Samuel, “İşte buradayım” diye yanıtladı."},{"v":17,"text":"Eli, “RAB sana neler söyledi?” diye sordu, “Lütfen benden gizleme. Sana söylediklerinden birini bile benden gizlersen, Tanrı sana aynısını, hatta daha kötüsünü yapsın!”"},{"v":18,"text":"Bunun üzerine Samuel hiçbir şey gizlemeden ona her şeyi anlattı. Eli de, “O RAB'dir, gözünde iyi olanı yapsın” dedi."},{"v":19,"text":"Samuel büyürken RAB onunla birlikteydi. RAB ona verdiği sözlerin hiçbirinin boşa çıkmasına izin vermedi."},{"v":20,"text":"Samuel'in RAB'bin bir peygamberi olarak onaylandığını Dan'dan Beer-Şeva'ya kadar bütün İsrail anladı."},{"v":21,"text":"RAB Şilo'da görünmeyi sürdürdü. Orada sözü aracılığıyla kendisini Samuel'e tanıttı."}]}
+{
+  "t": "TCL02",
+  "b": "1SA",
+  "c": 3,
+  "content": [
+    {
+      "section": "Tanrı'nın Samuel'e Seslenişi"
+    },
+    {
+      "v": 1,
+      "text": "Genç Samuel Eli'nin yönetimi altında RAB'be hizmet ediyordu. O günlerde RAB'bin sözü seyrek geliyordu; görümler de azalmıştı."
+    },
+    {
+      "v": 2,
+      "text": "Bir gece Eli yatağında uyuyordu. Gözleri öyle zayıflamıştı ki, güçlükle görebiliyordu."
+    },
+    {
+      "v": 3,
+      "text": "Samuel ise RAB'bin Tapınağı'nda, Tanrı'nın Sandığı'nın bulunduğu yerde uyuyordu. Tanrı'nın kandili daha sönmemişti."
+    },
+    {
+      "v": 4,
+      "text": "RAB Samuel'e seslendi. Samuel, “Buradayım” diye karşılık verdi."
+    },
+    {
+      "v": 5,
+      "text": "Ardından Eli'ye koşup, “Beni çağırdın, işte buradayım” dedi.  Ama Eli, “Ben çağırmadım, dön yat” diye karşılık verdi. Samuel de dönüp yattı."
+    },
+    {
+      "v": 6,
+      "text": "RAB yine, “Samuel!” diye seslendi. Samuel kalkıp Eli'ye gitti ve, “İşte, buradayım, beni çağırdın” dedi.  Eli, “Çağırmadım, oğlum” diye karşılık verdi, “Dön yat.”"
+    },
+    {
+      "v": 7,
+      "text": "Samuel RAB'bi daha tanımıyordu; RAB'bin sözü henüz ona açıklanmamıştı."
+    },
+    {
+      "v": 8,
+      "text": "RAB yine üçüncü kez Samuel'e seslendi. Samuel kalkıp Eli'ye gitti. “İşte buradayım, beni çağırdın” dedi.  O zaman Eli genç Samuel'e RAB'bin seslendiğini anladı."
+    },
+    {
+      "v": 9,
+      "text": "Bunun üzerine Samuel'e, “Git yat” dedi, “Sana yine seslenirse, ‘Konuş, ya RAB, kulun dinliyor’ dersin.” Samuel gidip yerine yattı."
+    },
+    {
+      "v": 10,
+      "text": "RAB gelip orada durdu ve önceki gibi, “Samuel, Samuel!” diye seslendi.  Samuel, “Konuş, kulun dinliyor” diye yanıtladı."
+    },
+    {
+      "v": 11,
+      "text": "RAB Samuel'e şöyle dedi: “Ben İsrail'de her duyanı şaşkına çevirecek bir şey yapmak üzereyim."
+    },
+    {
+      "v": 12,
+      "text": "O gün Eli'nin ailesine karşı söylediğim her şeyi baştan sona dek yerine getireceğim."
+    },
+    {
+      "v": 13,
+      "text": "Çünkü farkında olduğu günahtan ötürü ailesini sonsuza dek yargılayacağımı Eli'ye bildirdim. Oğulları Tanrı'ya saygısızlık ettiler. Eli de onlara engel olmadı."
+    },
+    {
+      "v": 14,
+      "text": "Bu nedenle, ‘Eli'nin ailesinin günahı hiçbir zaman kurban ya da sunuyla bile bağışlanmayacaktır’ diyerek Eli'nin ailesi hakkında ant içtim.”"
+    },
+    {
+      "v": 15,
+      "text": "Samuel sabaha kadar yattı, sonra RAB'bin Tapınağı'nın kapılarını açtı. Gördüğü görümü Eli'ye söylemekten çekiniyordu."
+    },
+    {
+      "v": 16,
+      "text": "Ama Eli ona, “Oğlum Samuel!” diye seslendi.  Samuel, “İşte buradayım” diye yanıtladı."
+    },
+    {
+      "v": 17,
+      "text": "Eli, “RAB sana neler söyledi?” diye sordu, “Lütfen benden gizleme. Sana söylediklerinden birini bile benden gizlersen, Tanrı sana aynısını, hatta daha kötüsünü yapsın!”"
+    },
+    {
+      "v": 18,
+      "text": "Bunun üzerine Samuel hiçbir şey gizlemeden ona her şeyi anlattı. Eli de, “O RAB'dir, gözünde iyi olanı yapsın” dedi."
+    },
+    {
+      "v": 19,
+      "text": "Samuel büyürken RAB onunla birlikteydi. RAB ona verdiği sözlerin hiçbirinin boşa çıkmasına izin vermedi."
+    },
+    {
+      "v": 20,
+      "text": "Samuel'in RAB'bin bir peygamberi olarak onaylandığını Dan'dan Beer-Şeva'ya kadar bütün İsrail anladı."
+    },
+    {
+      "v": 21,
+      "text": "RAB Şilo'da görünmeyi sürdürdü. Orada sözü aracılığıyla kendisini Samuel'e tanıttı."
+    }
+  ],
+  "title": "Tanrı'nın Samuel'e Seslenişi"
+}

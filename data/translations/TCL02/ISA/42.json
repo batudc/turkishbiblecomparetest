@@ -1,1 +1,120 @@
-{"t":"TCL02","b":"ISA","c":42,"content":[{"v":1,"text":"“İşte kendisine destek olduğum, Gönlümün hoşnut olduğu seçtiğim kulum! Ruhum'u onun üzerine koydum. Adaleti uluslara ulaştıracak."},{"v":2,"text":"Bağırıp çağırmayacak, Sokakta sesini yükseltmeyecek."},{"v":3,"text":"Ezilmiş kamışı kırmayacak, Tüten fitili söndürmeyecek. Adaleti sadakatle ulaştıracak."},{"v":4,"text":"Yeryüzünde adaleti sağlayana dek Umudunu, cesaretini yitirmeyecek. Kıyı halkları onun yasasına umut bağlayacak.”"},{"v":5,"text":"Gökleri yaratıp geren, Yeryüzünü ve ürününü seren, Dünyadaki insanlara soluk, Orada yaşayanlara ruh veren RAB Tanrı diyor ki,"},{"v":6,"text":"“Ben, RAB, seni doğrulukla çağırdım, Elinden tutacak, Seni koruyacağım. Seni halka antlaşma, Uluslara ışık yapacağım."},{"v":7,"text":"Öyle ki, kör gözleri açasın, Zindandaki tutsakları, Cezaevi karanlığında yaşayanları özgür kılasın."},{"v":8,"text":"“Ben RAB'bim, adım budur. Onurumu bir başkasına, Övgülerimi putlara bırakmam."},{"v":9,"text":"Bakın, önceden bildirdiklerim gerçekleşti. Şimdi de yenilerini bildiriyorum; Bunlar ortaya çıkmadan önce size duyuruyorum.”"},{"v":10,"text":"Ey denizlere açılanlar ve denizlerdeki her şey, Kıyılar ve kıyı halkları, RAB'be yeni bir ilahi söyleyin, Dünyanın dört bucağından O'nu ezgilerle övün."},{"v":11,"text":"Bozkır ve bozkırdaki kentler, Kedar köylerinde yaşayan halk Sesini yükseltsin. Sela'da oturanlar sevinçle haykırsın, Bağırsın dağların doruklarından."},{"v":12,"text":"Hepsi RAB'bi onurlandırsın, Kıyı halkları O'nu övsün."},{"v":13,"text":"Yiğit gibi çıkagelecek RAB, Savaşçı gibi gayrete gelecek. Bağırıp savaş çığlığı atacak, Düşmanlarına üstünlüğünü gösterecek."},{"v":14,"text":"“Uzun zamandır ses çıkarmadım, Sustum, kendimi tuttum. Ama şimdi feryat edeceğim doğuran kadın gibi, Nefesim tutulacak, kesik kesik soluyacağım."},{"v":15,"text":"Harap edeceğim dağları, tepeleri, Bütün yeşilliklerini kurutacağım. Irmakları adalara çevirip havuzları kurutacağım."},{"v":16,"text":"Körlere bilmedikleri yolda rehberlik edeceğim, Onlara kılavuz olacağım bilmedikleri yollarda, Karanlığı önlerinde ışığa, Engebeleri düzlüğe çevireceğim. Yerine getireceğim sözler bunlardır. Onlardan geri dönmem."},{"v":17,"text":"Oyma putlara güvenenler, Dökme putlara, ‘İlahlarımız sizsiniz’ diyenlerse Geri döndürülüp büsbütün utandırılacaklar.”"},{"v":18,"text":"“Ey sağırlar, işitin, Ey körler, bakın da görün!"},{"v":19,"text":"Kulum kadar kör olan var mı? Gönderdiğim ulak kadar sağır olan var mı? Benimle barışık olan kadar, RAB'bin kulu kadar kör olan kim var?"},{"v":20,"text":"Pek çok şey gördünüz, ama aldırmıyorsunuz, Kulaklarınız açık, ama işitmiyorsunuz.”"},{"v":21,"text":"Kendi doğruluğu uğruna Kutsal Yasa'yı Büyük ve yüce kılmak RAB'bi hoşnut etti."},{"v":22,"text":"Ama bu yağmalanmış, soyulmuş bir halktır. Hepsi deliklere, cezaevlerine kapatılmışlardır. Yağmalanmak için varlar, kurtaran yok. Soyulmak içinler, “Geri verin” diyen yok."},{"v":23,"text":"Hanginiz kulak verecek? Gelecekte kim can kulağıyla dinleyecek?"},{"v":24,"text":"Yakup soyunun soyulmasına, İsrail'in yağmalanmasına kim olur verdi? Kendisine karşı günah işlediğimiz RAB değil mi? Çünkü O'nun yolunda yürümek istemediler, Yasasına kulak asmadılar."},{"v":25,"text":"Bu yüzden kızgın öfkesini, Savaşın şiddetini üzerlerine yağdırdı. Ama ateş çemberi içinde olduklarını farketmediler, Aldırmadılar kendilerini yakıp bitiren ateşe."}]}
+{
+  "t": "TCL02",
+  "b": "ISA",
+  "c": 42,
+  "content": [
+    {
+      "section": "Rab'bin Kulu"
+    },
+    {
+      "v": 1,
+      "text": "“İşte kendisine destek olduğum, Gönlümün hoşnut olduğu seçtiğim kulum! Ruhum'u onun üzerine koydum. Adaleti uluslara ulaştıracak."
+    },
+    {
+      "v": 2,
+      "text": "Bağırıp çağırmayacak, Sokakta sesini yükseltmeyecek."
+    },
+    {
+      "v": 3,
+      "text": "Ezilmiş kamışı kırmayacak, Tüten fitili söndürmeyecek. Adaleti sadakatle ulaştıracak."
+    },
+    {
+      "v": 4,
+      "text": "Yeryüzünde adaleti sağlayana dek Umudunu, cesaretini yitirmeyecek. Kıyı halkları onun yasasına umut bağlayacak.”"
+    },
+    {
+      "v": 5,
+      "text": "Gökleri yaratıp geren, Yeryüzünü ve ürününü seren, Dünyadaki insanlara soluk, Orada yaşayanlara ruh veren RAB Tanrı diyor ki,"
+    },
+    {
+      "v": 6,
+      "text": "“Ben, RAB, seni doğrulukla çağırdım, Elinden tutacak, Seni koruyacağım. Seni halka antlaşma, Uluslara ışık yapacağım."
+    },
+    {
+      "v": 7,
+      "text": "Öyle ki, kör gözleri açasın, Zindandaki tutsakları, Cezaevi karanlığında yaşayanları özgür kılasın."
+    },
+    {
+      "v": 8,
+      "text": "“Ben RAB'bim, adım budur. Onurumu bir başkasına, Övgülerimi putlara bırakmam."
+    },
+    {
+      "v": 9,
+      "text": "Bakın, önceden bildirdiklerim gerçekleşti. Şimdi de yenilerini bildiriyorum; Bunlar ortaya çıkmadan önce size duyuruyorum.”"
+    },
+    {
+      "section": "Övgü İlahisi"
+    },
+    {
+      "v": 10,
+      "text": "Ey denizlere açılanlar ve denizlerdeki her şey, Kıyılar ve kıyı halkları, RAB'be yeni bir ilahi söyleyin, Dünyanın dört bucağından O'nu ezgilerle övün."
+    },
+    {
+      "v": 11,
+      "text": "Bozkır ve bozkırdaki kentler, Kedar köylerinde yaşayan halk Sesini yükseltsin. Sela'da oturanlar sevinçle haykırsın, Bağırsın dağların doruklarından."
+    },
+    {
+      "v": 12,
+      "text": "Hepsi RAB'bi onurlandırsın, Kıyı halkları O'nu övsün."
+    },
+    {
+      "v": 13,
+      "text": "Yiğit gibi çıkagelecek RAB, Savaşçı gibi gayrete gelecek. Bağırıp savaş çığlığı atacak, Düşmanlarına üstünlüğünü gösterecek."
+    },
+    {
+      "section": "Rab'bin Yardım Sözü"
+    },
+    {
+      "v": 14,
+      "text": "“Uzun zamandır ses çıkarmadım, Sustum, kendimi tuttum. Ama şimdi feryat edeceğim doğuran kadın gibi, Nefesim tutulacak, kesik kesik soluyacağım."
+    },
+    {
+      "v": 15,
+      "text": "Harap edeceğim dağları, tepeleri, Bütün yeşilliklerini kurutacağım. Irmakları adalara çevirip havuzları kurutacağım."
+    },
+    {
+      "v": 16,
+      "text": "Körlere bilmedikleri yolda rehberlik edeceğim, Onlara kılavuz olacağım bilmedikleri yollarda, Karanlığı önlerinde ışığa, Engebeleri düzlüğe çevireceğim. Yerine getireceğim sözler bunlardır. Onlardan geri dönmem."
+    },
+    {
+      "v": 17,
+      "text": "Oyma putlara güvenenler, Dökme putlara, ‘İlahlarımız sizsiniz’ diyenlerse Geri döndürülüp büsbütün utandırılacaklar.”"
+    },
+    {
+      "section": "Kör, Sağır İsrail"
+    },
+    {
+      "v": 18,
+      "text": "“Ey sağırlar, işitin, Ey körler, bakın da görün!"
+    },
+    {
+      "v": 19,
+      "text": "Kulum kadar kör olan var mı? Gönderdiğim ulak kadar sağır olan var mı? Benimle barışık olan kadar, RAB'bin kulu kadar kör olan kim var?"
+    },
+    {
+      "v": 20,
+      "text": "Pek çok şey gördünüz, ama aldırmıyorsunuz, Kulaklarınız açık, ama işitmiyorsunuz.”"
+    },
+    {
+      "v": 21,
+      "text": "Kendi doğruluğu uğruna Kutsal Yasa'yı Büyük ve yüce kılmak RAB'bi hoşnut etti."
+    },
+    {
+      "v": 22,
+      "text": "Ama bu yağmalanmış, soyulmuş bir halktır. Hepsi deliklere, cezaevlerine kapatılmışlardır. Yağmalanmak için varlar, kurtaran yok. Soyulmak içinler, “Geri verin” diyen yok."
+    },
+    {
+      "v": 23,
+      "text": "Hanginiz kulak verecek? Gelecekte kim can kulağıyla dinleyecek?"
+    },
+    {
+      "v": 24,
+      "text": "Yakup soyunun soyulmasına, İsrail'in yağmalanmasına kim olur verdi? Kendisine karşı günah işlediğimiz RAB değil mi? Çünkü O'nun yolunda yürümek istemediler, Yasasına kulak asmadılar."
+    },
+    {
+      "v": 25,
+      "text": "Bu yüzden kızgın öfkesini, Savaşın şiddetini üzerlerine yağdırdı. Ama ateş çemberi içinde olduklarını farketmediler, Aldırmadılar kendilerini yakıp bitiren ateşe."
+    }
+  ],
+  "title": "Rab'bin Kulu"
+}

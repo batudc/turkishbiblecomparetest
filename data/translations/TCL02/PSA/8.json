@@ -1,1 +1,47 @@
-{"t":"TCL02","b":"PSA","c":8,"content":[{"v":1,"text":"Ey Egemenimiz RAB, Ne yüce adın var yeryüzünün tümünde! Gökyüzünü görkeminle kapladın."},{"v":2,"text":"Çocukların, hatta emziktekilerin sesiyle Set çektin hasımlarına, Düşmanı, öç alanı yok etmek için."},{"v":3,"text":"Seyrederken ellerinin eseri olan gökleri, Oraya koyduğun ayı ve yıldızları,"},{"v":4,"text":"Soruyorum kendi kendime: “İnsan ne ki, onu anasın, Ya da insanoğlu ne ki, ona ilgi gösteresin?”"},{"v":5,"text":"Nerdeyse bir tanrı yaptın onu, Başına yücelik ve onur tacını koydun."},{"v":6,"text":"Ellerinin yapıtları üzerine onu egemen kıldın, Her şeyi ayaklarının altına serdin;"},{"v":7,"text":"Davarları, sığırları, Yabanıl hayvanları,"},{"v":8,"text":"Gökteki kuşları, denizdeki balıkları, Denizde kıpırdaşan bütün canlıları."},{"v":9,"text":"Ey Egemenimiz RAB, Ne yüce adın var yeryüzünün tümünde!"}]}
+{
+  "t": "TCL02",
+  "b": "PSA",
+  "c": 8,
+  "content": [
+    {
+      "section": "8. Mezmur"
+    },
+    {
+      "v": 1,
+      "text": "Ey Egemenimiz RAB, Ne yüce adın var yeryüzünün tümünde! Gökyüzünü görkeminle kapladın."
+    },
+    {
+      "v": 2,
+      "text": "Çocukların, hatta emziktekilerin sesiyle Set çektin hasımlarına, Düşmanı, öç alanı yok etmek için."
+    },
+    {
+      "v": 3,
+      "text": "Seyrederken ellerinin eseri olan gökleri, Oraya koyduğun ayı ve yıldızları,"
+    },
+    {
+      "v": 4,
+      "text": "Soruyorum kendi kendime: “İnsan ne ki, onu anasın, Ya da insanoğlu ne ki, ona ilgi gösteresin?”"
+    },
+    {
+      "v": 5,
+      "text": "Nerdeyse bir tanrı yaptın onu, Başına yücelik ve onur tacını koydun."
+    },
+    {
+      "v": 6,
+      "text": "Ellerinin yapıtları üzerine onu egemen kıldın, Her şeyi ayaklarının altına serdin;"
+    },
+    {
+      "v": 7,
+      "text": "Davarları, sığırları, Yabanıl hayvanları,"
+    },
+    {
+      "v": 8,
+      "text": "Gökteki kuşları, denizdeki balıkları, Denizde kıpırdaşan bütün canlıları."
+    },
+    {
+      "v": 9,
+      "text": "Ey Egemenimiz RAB, Ne yüce adın var yeryüzünün tümünde!"
+    }
+  ],
+  "title": "8. Mezmur"
+}

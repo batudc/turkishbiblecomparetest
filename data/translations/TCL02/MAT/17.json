@@ -1,1 +1,120 @@
-{"t": "TCL02", "b": "MAT", "c": 17, "content": [{"v": 1, "text": "Altı gün sonra İsa, yanına yalnız Petrus, Yakup ve Yakup'un kardeşi Yuhanna'yı alarak yüksek bir dağa çıktı."}, {"v": 2, "text": "Onların gözü önünde İsa'nın görünümü değişti. Yüzü güneş gibi parladı, giysileri ışık gibi bembeyaz oldu."}, {"v": 3, "text": "O anda Musa'yla İlyas öğrencilere göründü. İsa'yla konuşuyorlardı."}, {"v": 4, "text": "Petrus İsa'ya, “Ya Rab” dedi, “Burada bulunmamız ne iyi oldu! İstersen burada üç çardak kurayım: Biri sana, biri Musa'ya, biri de İlyas'a.”"}, {"v": 5, "text": "Petrus daha konuşurken parlak bir bulut onlara gölge saldı. Buluttan gelen bir ses, “Sevgili Oğlum budur, O'ndan hoşnudum. O'nu dinleyin!” dedi."}, {"v": 6, "text": "Öğrenciler bunu işitince, dehşet içinde yüzüstü yere kapandılar."}, {"v": 7, "text": "İsa gelip onlara dokundu, “Kalkın, korkmayın!” dedi."}, {"v": 8, "text": "Başlarını kaldırınca İsa'dan başka kimseyi göremediler."}, {"v": 9, "text": "Dağdan inerlerken İsa onlara, “İnsanoğlu ölümden dirilmeden, gördüklerinizi kimseye söylemeyin” diye buyurdu."}, {"v": 10, "text": "Öğrencileri O'na şunu sordular: “Peki, din bilginleri neden önce İlyas'ın gelmesi gerektiğini söylüyorlar?”"}, {"v": 11, "text": "İsa, “İlyas gerçekten gelecek ve her şeyi yeniden düzene koyacak” diye yanıtladı."}, {"v": 12, "text": "“Size şunu söyleyeyim, İlyas zaten geldi, ama onu tanımadılar, ona yapmadıklarını bırakmadılar. Aynı şekilde İnsanoğlu da onların elinden acı çekecektir.”"}, {"v": 13, "text": "O zaman öğrenciler İsa'nın kendilerine Vaftizci Yahya'dan söz ettiğini anladılar."}, {"v": 14, "text": "Kalabalığın yanına vardıklarında bir adam İsa'ya yaklaşıp önünde diz çöktü."}, {"v": 15, "text": "“Ya Rab” dedi, “Oğlumun haline acı! Sarası var, çok acı çekiyor. Sık sık ateşe, suya düşüyor."}, {"v": 16, "text": "Onu senin öğrencilerine getirdim, ama iyileştiremediler.”"}, {"v": 17, "text": "İsa, “Ey imansız ve sapmış kuşak!” dedi. “Sizinle daha ne kadar kalacağım? Size daha ne kadar katlanacağım? Çocuğu buraya, bana getirin.”"}, {"v": 18, "text": "İsa cini azarlayınca, cin çocuktan çıktı, çocuk o anda iyileşti."}, {"v": 19, "text": "Sonra öğrenciler tek başlarına İsa'ya gelip, “Biz cini neden kovamadık?” diye sordular."}, {"v": 20, "text": "İsa, “İmanınız kıt olduğu için” karşılığını verdi. “Size doğrusunu söyleyeyim, bir hardal tanesi kadar imanınız olsa şu dağa, ‘Buradan şuraya göç’ derseniz, göçer; sizin için imkânsız bir şey olmayacaktır.”"}, {"v": 22, "text": "Celile'de bir araya geldiklerinde İsa onlara, “İnsanoğlu, insanların eline teslim edilecek ve öldürülecek, ama üçüncü gün dirilecek” dedi.  Öğrenciler buna çok kederlendiler."}, {"v": 24, "text": "Kefarnahum'a geldiklerinde, iki dirhemlik tapınak vergisini toplayanlar Petrus'a gelip, “Öğretmeniniz tapınak vergisini ödüyor, değil mi?” diye sordular."}, {"v": 25, "text": "Petrus, “Ödüyor” dedi.  Petrus eve gelince, daha kendisi bir şey söylemeden İsa ona, “Simun, ne dersin?” dedi. “Dünya kralları gümrük ya da vergiyi kimlerden alır? Kendi oğullarından mı, yabancılardan mı?”"}, {"v": 26, "text": "Petrus'un, “Yabancılardan” demesi üzerine İsa, “O halde oğullar muaftır” dedi."}, {"v": 27, "text": "“Ama vergi toplayanları gücendirmeyelim. Göle gidip oltanı at. Tuttuğun ilk balığı çıkar, onun ağzını aç, dört dirhemlik bir akçe bulacaksın. Parayı al, ikimizin vergisi olarak onlara ver.”"}]}
+{
+  "t": "TCL02",
+  "b": "MAT",
+  "c": 17,
+  "content": [
+    {
+      "section": "İsa'nın Görünümü Değişiyor"
+    },
+    {
+      "v": 1,
+      "text": "Altı gün sonra İsa, yanına yalnız Petrus, Yakup ve Yakup'un kardeşi Yuhanna'yı alarak yüksek bir dağa çıktı."
+    },
+    {
+      "v": 2,
+      "text": "Onların gözü önünde İsa'nın görünümü değişti. Yüzü güneş gibi parladı, giysileri ışık gibi bembeyaz oldu."
+    },
+    {
+      "v": 3,
+      "text": "O anda Musa'yla İlyas öğrencilere göründü. İsa'yla konuşuyorlardı."
+    },
+    {
+      "v": 4,
+      "text": "Petrus İsa'ya, “Ya Rab” dedi, “Burada bulunmamız ne iyi oldu! İstersen burada üç çardak kurayım: Biri sana, biri Musa'ya, biri de İlyas'a.”"
+    },
+    {
+      "v": 5,
+      "text": "Petrus daha konuşurken parlak bir bulut onlara gölge saldı. Buluttan gelen bir ses, “Sevgili Oğlum budur, O'ndan hoşnudum. O'nu dinleyin!” dedi."
+    },
+    {
+      "v": 6,
+      "text": "Öğrenciler bunu işitince, dehşet içinde yüzüstü yere kapandılar."
+    },
+    {
+      "v": 7,
+      "text": "İsa gelip onlara dokundu, “Kalkın, korkmayın!” dedi."
+    },
+    {
+      "v": 8,
+      "text": "Başlarını kaldırınca İsa'dan başka kimseyi göremediler."
+    },
+    {
+      "v": 9,
+      "text": "Dağdan inerlerken İsa onlara, “İnsanoğlu ölümden dirilmeden, gördüklerinizi kimseye söylemeyin” diye buyurdu."
+    },
+    {
+      "v": 10,
+      "text": "Öğrencileri O'na şunu sordular: “Peki, din bilginleri neden önce İlyas'ın gelmesi gerektiğini söylüyorlar?”"
+    },
+    {
+      "v": 11,
+      "text": "İsa, “İlyas gerçekten gelecek ve her şeyi yeniden düzene koyacak” diye yanıtladı."
+    },
+    {
+      "v": 12,
+      "text": "“Size şunu söyleyeyim, İlyas zaten geldi, ama onu tanımadılar, ona yapmadıklarını bırakmadılar. Aynı şekilde İnsanoğlu da onların elinden acı çekecektir.”"
+    },
+    {
+      "v": 13,
+      "text": "O zaman öğrenciler İsa'nın kendilerine Vaftizci Yahya'dan söz ettiğini anladılar."
+    },
+    {
+      "section": "Cinli Çocuk İyileştiriliyor"
+    },
+    {
+      "v": 14,
+      "text": "Kalabalığın yanına vardıklarında bir adam İsa'ya yaklaşıp önünde diz çöktü."
+    },
+    {
+      "v": 15,
+      "text": "“Ya Rab” dedi, “Oğlumun haline acı! Sarası var, çok acı çekiyor. Sık sık ateşe, suya düşüyor."
+    },
+    {
+      "v": 16,
+      "text": "Onu senin öğrencilerine getirdim, ama iyileştiremediler.”"
+    },
+    {
+      "v": 17,
+      "text": "İsa, “Ey imansız ve sapmış kuşak!” dedi. “Sizinle daha ne kadar kalacağım? Size daha ne kadar katlanacağım? Çocuğu buraya, bana getirin.”"
+    },
+    {
+      "v": 18,
+      "text": "İsa cini azarlayınca, cin çocuktan çıktı, çocuk o anda iyileşti."
+    },
+    {
+      "v": 19,
+      "text": "Sonra öğrenciler tek başlarına İsa'ya gelip, “Biz cini neden kovamadık?” diye sordular."
+    },
+    {
+      "v": 20,
+      "text": "İsa, “İmanınız kıt olduğu için” karşılığını verdi. “Size doğrusunu söyleyeyim, bir hardal tanesi kadar imanınız olsa şu dağa, ‘Buradan şuraya göç’ derseniz, göçer; sizin için imkânsız bir şey olmayacaktır.”"
+    },
+    {
+      "section": "İsa Ölüp Dirileceğini Tekrar Bildiriyor"
+    },
+    {
+      "v": 22,
+      "text": "Celile'de bir araya geldiklerinde İsa onlara, “İnsanoğlu, insanların eline teslim edilecek ve öldürülecek, ama üçüncü gün dirilecek” dedi.  Öğrenciler buna çok kederlendiler."
+    },
+    {
+      "section": "Tapınak Vergisi"
+    },
+    {
+      "v": 24,
+      "text": "Kefarnahum'a geldiklerinde, iki dirhemlik tapınak vergisini toplayanlar Petrus'a gelip, “Öğretmeniniz tapınak vergisini ödüyor, değil mi?” diye sordular."
+    },
+    {
+      "v": 25,
+      "text": "Petrus, “Ödüyor” dedi.  Petrus eve gelince, daha kendisi bir şey söylemeden İsa ona, “Simun, ne dersin?” dedi. “Dünya kralları gümrük ya da vergiyi kimlerden alır? Kendi oğullarından mı, yabancılardan mı?”"
+    },
+    {
+      "v": 26,
+      "text": "Petrus'un, “Yabancılardan” demesi üzerine İsa, “O halde oğullar muaftır” dedi."
+    },
+    {
+      "v": 27,
+      "text": "“Ama vergi toplayanları gücendirmeyelim. Göle gidip oltanı at. Tuttuğun ilk balığı çıkar, onun ağzını aç, dört dirhemlik bir akçe bulacaksın. Parayı al, ikimizin vergisi olarak onlara ver.”"
+    }
+  ],
+  "title": "İsa'nın Görünümü Değişiyor"
+}

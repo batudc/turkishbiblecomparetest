@@ -1,1 +1,125 @@
-{"t":"TCL02","b":"JER","c":13,"content":[{"v":1,"text":"RAB bana, “Git, kendine keten bir kuşak satın alıp beline sar, ama suya sokma” dedi."},{"v":2,"text":"RAB'bin buyruğu uyarınca bir kuşak satın alıp belime sardım."},{"v":3,"text":"RAB bana ikinci kez seslendi:"},{"v":4,"text":"“Satın aldığın belindeki kuşağı al, Perat'a git. Kuşağı orada bir kaya kovuğuna gizle.”"},{"v":5,"text":"RAB'bin buyruğu uyarınca gidip kuşağı Perat'a yakın bir yere gizledim."},{"v":6,"text":"Uzun süre sonra RAB bana, “Kalk, Perat'a git, gizlemeni buyurduğum kuşağı al” dedi."},{"v":7,"text":"Bunun üzerine Perat'a gittim, gizlediğim yeri kazıp kuşağı aldım. Ancak kuşak çürümüştü, hiçbir işe yaramazdı."},{"v":8,"text":"RAB bana şöyle seslendi:"},{"v":9,"text":"“RAB diyor ki, ‘İşte Yahuda'nın gururunu da Yeruşalim'in büyük gururunu da böyle çürüteceğim."},{"v":10,"text":"Sözümü dinlemek istemeyen, yüreklerinin inadı uyarınca davranan, başka ilahları izleyip onlara kulluk eden, tapan bu kötü halk, bu işe yaramaz kuşak gibi olacak."},{"v":11,"text":"Kuşak insanın beline nasıl yapışırsa, ben de İsrail ve Yahuda halklarını kendime öyle yapıştırdım’ diyor RAB, ‘Öyle ki, bana ün, övgü, onur getirecek bir halk olsunlar. Ama dinlemediler.’ ”"},{"v":12,"text":"“Onlara de ki, ‘İsrail'in Tanrısı RAB, Her tulum şarapla dolacak, diyor.’ Eğer sana, ‘Her tulumun şarapla dolacağını bilmiyor muyuz sanki?’ derlerse,"},{"v":13,"text":"onlara de ki, ‘Bu ülkede yaşayan herkesi –Davut'un tahtında oturan kralları, kâhinleri, peygamberleri, Yeruşalim'de yaşayanların tümünü– sarhoş olana dek şarapla dolduracağım’ diyor RAB."},{"v":14,"text":"‘Onları –babalarla çocukları– birbirlerine çarpacağım. Acımadan, esirgemeden, sevecenlik göstermeden hepsini yok edeceğim’ diyor RAB.”"},{"v":15,"text":"Dinleyin, kulak verin, Gururlanmayın, Çünkü RAB konuştu."},{"v":16,"text":"Karanlık basmadan, Kararan dağlarda Ayaklarınız tökezlemeden Tanrınız RAB'bi onurlandırın. Siz ışık beklerken, RAB onu kopkoyu, zifiri karanlığa çevirecek."},{"v":17,"text":"Ama bu uyarıyı dinlemezseniz, Gururunuz yüzünden ağlayacağım gizlice, Gözlerim acı acı gözyaşı dökecek, Gözyaşlarım sel gibi akacak. Çünkü RAB'bin sürüsü sürgüne gönderilecek."},{"v":18,"text":"Krala ve ana kraliçeye söyle: “Tahtlarınızdan inin, Çünkü görkemli taçlarınız başınızdan düştü.”"},{"v":19,"text":"Negev'deki kentler kapanacak, Onları açan olmayacak. Sürgüne gönderilecek Yahuda, Tamamı sürgüne gönderilecek."},{"v":20,"text":"Gözlerinizi kaldırıp bakın, Kuzeyden gelenleri görün. Nerede sana emanet edilen sürü? Övündüğün kuzular nerede?"},{"v":21,"text":"Sana dost olması için yetiştirdiğin kişileri RAB başına yönetici atayınca ne diyeceksin? Doğuran kadının çektiği sancı gibi Seni de ağrı tutmayacak mı?"},{"v":22,"text":"“Neden bütün bunlar başıma geldi?” dersen, Günahlarının çokluğu yüzünden eteklerin açıldı, Tecavüze uğradın."},{"v":23,"text":"Kûşlu derisinin rengini, Pars beneklerini değiştirebilir mi? Kötülük etmeye alışmış olan sizler de iyilik edemezsiniz."},{"v":24,"text":"“Çöl rüzgarının savurduğu saman çöpü gibi Dağıtacağım sizleri."},{"v":25,"text":"Payın, sana ayırdığım pay bu olacak” diyor RAB. “Çünkü beni unuttun, Sahte ilahlara güvendin."},{"v":26,"text":"Ayıbın ortaya çıksın diye Eteklerini yüzüne dek kaldıracağım."},{"v":27,"text":"Kırdaki tepeler üzerinde Yaptığın iğrençlikleri –zinalarını, Çapkın çapkın kişneyişini, yüzsüz fahişeliklerini– gördüm. Vay başına geleceklere, ey Yeruşalim! Ne zamana dek böyle kirli kalacaksın?”"}]}
+{
+  "t": "TCL02",
+  "b": "JER",
+  "c": 13,
+  "content": [
+    {
+      "section": "Keten Kuşak Simgesi"
+    },
+    {
+      "v": 1,
+      "text": "RAB bana, “Git, kendine keten bir kuşak satın alıp beline sar, ama suya sokma” dedi."
+    },
+    {
+      "v": 2,
+      "text": "RAB'bin buyruğu uyarınca bir kuşak satın alıp belime sardım."
+    },
+    {
+      "v": 3,
+      "text": "RAB bana ikinci kez seslendi:"
+    },
+    {
+      "v": 4,
+      "text": "“Satın aldığın belindeki kuşağı al, Perat'a git. Kuşağı orada bir kaya kovuğuna gizle.”"
+    },
+    {
+      "v": 5,
+      "text": "RAB'bin buyruğu uyarınca gidip kuşağı Perat'a yakın bir yere gizledim."
+    },
+    {
+      "v": 6,
+      "text": "Uzun süre sonra RAB bana, “Kalk, Perat'a git, gizlemeni buyurduğum kuşağı al” dedi."
+    },
+    {
+      "v": 7,
+      "text": "Bunun üzerine Perat'a gittim, gizlediğim yeri kazıp kuşağı aldım. Ancak kuşak çürümüştü, hiçbir işe yaramazdı."
+    },
+    {
+      "v": 8,
+      "text": "RAB bana şöyle seslendi:"
+    },
+    {
+      "v": 9,
+      "text": "“RAB diyor ki, ‘İşte Yahuda'nın gururunu da Yeruşalim'in büyük gururunu da böyle çürüteceğim."
+    },
+    {
+      "v": 10,
+      "text": "Sözümü dinlemek istemeyen, yüreklerinin inadı uyarınca davranan, başka ilahları izleyip onlara kulluk eden, tapan bu kötü halk, bu işe yaramaz kuşak gibi olacak."
+    },
+    {
+      "v": 11,
+      "text": "Kuşak insanın beline nasıl yapışırsa, ben de İsrail ve Yahuda halklarını kendime öyle yapıştırdım’ diyor RAB, ‘Öyle ki, bana ün, övgü, onur getirecek bir halk olsunlar. Ama dinlemediler.’ ”"
+    },
+    {
+      "section": "Şarap Tulumu"
+    },
+    {
+      "v": 12,
+      "text": "“Onlara de ki, ‘İsrail'in Tanrısı RAB, Her tulum şarapla dolacak, diyor.’ Eğer sana, ‘Her tulumun şarapla dolacağını bilmiyor muyuz sanki?’ derlerse,"
+    },
+    {
+      "v": 13,
+      "text": "onlara de ki, ‘Bu ülkede yaşayan herkesi –Davut'un tahtında oturan kralları, kâhinleri, peygamberleri, Yeruşalim'de yaşayanların tümünü– sarhoş olana dek şarapla dolduracağım’ diyor RAB."
+    },
+    {
+      "v": 14,
+      "text": "‘Onları –babalarla çocukları– birbirlerine çarpacağım. Acımadan, esirgemeden, sevecenlik göstermeden hepsini yok edeceğim’ diyor RAB.”"
+    },
+    {
+      "section": "Sürgün Yakın"
+    },
+    {
+      "v": 15,
+      "text": "Dinleyin, kulak verin, Gururlanmayın, Çünkü RAB konuştu."
+    },
+    {
+      "v": 16,
+      "text": "Karanlık basmadan, Kararan dağlarda Ayaklarınız tökezlemeden Tanrınız RAB'bi onurlandırın. Siz ışık beklerken, RAB onu kopkoyu, zifiri karanlığa çevirecek."
+    },
+    {
+      "v": 17,
+      "text": "Ama bu uyarıyı dinlemezseniz, Gururunuz yüzünden ağlayacağım gizlice, Gözlerim acı acı gözyaşı dökecek, Gözyaşlarım sel gibi akacak. Çünkü RAB'bin sürüsü sürgüne gönderilecek."
+    },
+    {
+      "v": 18,
+      "text": "Krala ve ana kraliçeye söyle: “Tahtlarınızdan inin, Çünkü görkemli taçlarınız başınızdan düştü.”"
+    },
+    {
+      "v": 19,
+      "text": "Negev'deki kentler kapanacak, Onları açan olmayacak. Sürgüne gönderilecek Yahuda, Tamamı sürgüne gönderilecek."
+    },
+    {
+      "v": 20,
+      "text": "Gözlerinizi kaldırıp bakın, Kuzeyden gelenleri görün. Nerede sana emanet edilen sürü? Övündüğün kuzular nerede?"
+    },
+    {
+      "v": 21,
+      "text": "Sana dost olması için yetiştirdiğin kişileri RAB başına yönetici atayınca ne diyeceksin? Doğuran kadının çektiği sancı gibi Seni de ağrı tutmayacak mı?"
+    },
+    {
+      "v": 22,
+      "text": "“Neden bütün bunlar başıma geldi?” dersen, Günahlarının çokluğu yüzünden eteklerin açıldı, Tecavüze uğradın."
+    },
+    {
+      "v": 23,
+      "text": "Kûşlu derisinin rengini, Pars beneklerini değiştirebilir mi? Kötülük etmeye alışmış olan sizler de iyilik edemezsiniz."
+    },
+    {
+      "v": 24,
+      "text": "“Çöl rüzgarının savurduğu saman çöpü gibi Dağıtacağım sizleri."
+    },
+    {
+      "v": 25,
+      "text": "Payın, sana ayırdığım pay bu olacak” diyor RAB. “Çünkü beni unuttun, Sahte ilahlara güvendin."
+    },
+    {
+      "v": 26,
+      "text": "Ayıbın ortaya çıksın diye Eteklerini yüzüne dek kaldıracağım."
+    },
+    {
+      "v": 27,
+      "text": "Kırdaki tepeler üzerinde Yaptığın iğrençlikleri –zinalarını, Çapkın çapkın kişneyişini, yüzsüz fahişeliklerini– gördüm. Vay başına geleceklere, ey Yeruşalim! Ne zamana dek böyle kirli kalacaksın?”"
+    }
+  ],
+  "title": "Keten Kuşak Simgesi"
+}

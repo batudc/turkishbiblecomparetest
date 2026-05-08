@@ -1,1 +1,129 @@
-{"t":"TCL02","b":"HEB","c":7,"content":[{"v":1,"text":"Bu Melkisedek, Şalem Kralı ve yüce Tanrı'nın kâhiniydi. Kralları bozguna uğratmaktan dönen İbrahim'i karşılamış ve onu kutsamıştı."},{"v":2,"text":"İbrahim de ona her şeyin ondalığını verdi. Melkisedek, adının anlamına göre, önce “Doğruluk Kralı” dır; sonra da “Şalem Kralı”, yani “Esenlik Kralı” dır."},{"v":3,"text":"Babasız, annesizdir; soyağacı yoktur. Ne günlerinin başlangıcı, ne yaşamının sonu vardır. Tanrı'nın Oğlu gibi sonsuza dek kâhin kalacaktır."},{"v":4,"text":"Bakın, büyük ata İbrahim'in ganimetten ondalık verdiği bu adam ne kadar büyüktür!"},{"v":5,"text":"Levioğulları'ndan olup kâhinlik görevini üstlenenlere Kutsal Yasa uyarınca halktan, yani İbrahim'in soyundan oldukları halde, kardeşlerinden ondalık almaları buyrulmuştur."},{"v":6,"text":"Melkisedek ise Levili kâhinlerin soyundan olmadığı halde, vaatleri alan İbrahim'den ondalık kabul etmiş ve onu kutsamıştır."},{"v":7,"text":"Hiç kuşkusuz, kutsayan kutsanandan üstündür."},{"v":8,"text":"Birinde ölümlü insanlar ondalık alıyor, ötekinde yaşadığına tanıklık edilen biri alıyor."},{"v":9,"text":"Ondalık alan Levi bile İbrahim aracılığıyla ondalık vermiştir denebilir."},{"v":10,"text":"Çünkü Melkisedek İbrahim'i karşıladığı zaman, Levi hâlâ atasının bedenindeydi."},{"v":11,"text":"Eğer Levililer'in kâhinliği aracılığıyla yetkinliğe erişilebilseydi –nitekim Kutsal Yasa bu kâhinliği öngörerek halka verildi– Harun düzenine göre değil de, Melkisedek düzenine göre başka bir kâhinin gelmesinden söz etmeye ne gerek kalırdı?"},{"v":12,"text":"Çünkü kâhinlik değişince, Yasa da zorunlu olarak değişir."},{"v":13,"text":"Kendisinden böyle söz edilen kişi başka bir oymaktandır. Bu oymaktan hiç kimse sunakta hizmet etmemiştir."},{"v":14,"text":"Rabbimiz'in Yahuda oymağından geldiği açıktır. Musa bu oymaktan söz ederken kâhinlere ilişkin bir şey söylemedi."},{"v":15,"text":"Melkisedek benzeri başka bir kâhin ortaya çıktığından, bu söylediğimiz artık daha da açıktır."},{"v":16,"text":"O, Yasa'nın soyla ilgili önkoşuluna göre değil, yok edilemez bir yaşamın gücüne göre kâhin olmuştur."},{"v":17,"text":"Çünkü, “Melkisedek düzeni uyarınca Sen sonsuza dek kâhinsin”   diye tanıklık ediliyor."},{"v":18,"text":"Önceki buyruk, zayıflığı ve yararsızlığı nedeniyle geçersiz kılındı."},{"v":19,"text":"Çünkü Yasa hiçbir şeyi yetkinleştiremedi. Bunun yerine, aracılığıyla Tanrı'ya yaklaştığımız daha sağlam bir umut verildi."},{"v":20,"text":"Bu da antsız olmadı. Öbürleri ant içilmeden kâhin olmuşlardı."},{"v":21,"text":"Ama O kendisine, “Rab ant içti, kararından dönmez, Sen sonsuza dek kâhinsin”   diyen Tanrı'nın andıyla kâhin oldu."},{"v":22,"text":"Böylece İsa daha iyi bir antlaşmanın kefili olmuştur."},{"v":23,"text":"Önceki düzende çok sayıda kâhin görev aldı. Çünkü ölüm, görevlerini sürdürmelerini engelliyordu."},{"v":24,"text":"Ama İsa sonsuza dek yaşadığı için kâhinliği süreklidir."},{"v":25,"text":"Bu nedenle O'nun aracılığıyla Tanrı'ya yaklaşanları tümüyle kurtaracak güçtedir. Çünkü onlara aracılık etmek için hep yaşamaktadır."},{"v":26,"text":"Böyle bir başkâhinimiz –kutsal, suçsuz, lekesiz, günahkârlardan ayrılmış, göklerden daha yücelere çıkarılmış bir başkâhinimiz– olması uygundur."},{"v":27,"text":"O, öbür başkâhinler gibi her gün önce kendi günahları, sonra da halkın günahları için kurbanlar sunmak zorunda değildir. Çünkü kendini sunmakla bunu ilk ve son kez yaptı."},{"v":28,"text":"Kutsal Yasa, zayıflıkları olan insanları başkâhin atamaktadır. Ama Yasa'dan sonra gelen ant sözü, sonsuza dek yetkin kılınmış olan Oğul'u başkâhin atamıştır."}]}
+{
+  "t": "TCL02",
+  "b": "HEB",
+  "c": 7,
+  "content": [
+    {
+      "section": "Kâhin Melkisedek"
+    },
+    {
+      "v": 1,
+      "text": "Bu Melkisedek, Şalem Kralı ve yüce Tanrı'nın kâhiniydi. Kralları bozguna uğratmaktan dönen İbrahim'i karşılamış ve onu kutsamıştı."
+    },
+    {
+      "v": 2,
+      "text": "İbrahim de ona her şeyin ondalığını verdi. Melkisedek, adının anlamına göre, önce “Doğruluk Kralı” dır; sonra da “Şalem Kralı”, yani “Esenlik Kralı” dır."
+    },
+    {
+      "v": 3,
+      "text": "Babasız, annesizdir; soyağacı yoktur. Ne günlerinin başlangıcı, ne yaşamının sonu vardır. Tanrı'nın Oğlu gibi sonsuza dek kâhin kalacaktır."
+    },
+    {
+      "v": 4,
+      "text": "Bakın, büyük ata İbrahim'in ganimetten ondalık verdiği bu adam ne kadar büyüktür!"
+    },
+    {
+      "v": 5,
+      "text": "Levioğulları'ndan olup kâhinlik görevini üstlenenlere Kutsal Yasa uyarınca halktan, yani İbrahim'in soyundan oldukları halde, kardeşlerinden ondalık almaları buyrulmuştur."
+    },
+    {
+      "v": 6,
+      "text": "Melkisedek ise Levili kâhinlerin soyundan olmadığı halde, vaatleri alan İbrahim'den ondalık kabul etmiş ve onu kutsamıştır."
+    },
+    {
+      "v": 7,
+      "text": "Hiç kuşkusuz, kutsayan kutsanandan üstündür."
+    },
+    {
+      "v": 8,
+      "text": "Birinde ölümlü insanlar ondalık alıyor, ötekinde yaşadığına tanıklık edilen biri alıyor."
+    },
+    {
+      "v": 9,
+      "text": "Ondalık alan Levi bile İbrahim aracılığıyla ondalık vermiştir denebilir."
+    },
+    {
+      "v": 10,
+      "text": "Çünkü Melkisedek İbrahim'i karşıladığı zaman, Levi hâlâ atasının bedenindeydi."
+    },
+    {
+      "section": "Yeni Kâhinlik Düzeni"
+    },
+    {
+      "v": 11,
+      "text": "Eğer Levililer'in kâhinliği aracılığıyla yetkinliğe erişilebilseydi –nitekim Kutsal Yasa bu kâhinliği öngörerek halka verildi– Harun düzenine göre değil de, Melkisedek düzenine göre başka bir kâhinin gelmesinden söz etmeye ne gerek kalırdı?"
+    },
+    {
+      "v": 12,
+      "text": "Çünkü kâhinlik değişince, Yasa da zorunlu olarak değişir."
+    },
+    {
+      "v": 13,
+      "text": "Kendisinden böyle söz edilen kişi başka bir oymaktandır. Bu oymaktan hiç kimse sunakta hizmet etmemiştir."
+    },
+    {
+      "v": 14,
+      "text": "Rabbimiz'in Yahuda oymağından geldiği açıktır. Musa bu oymaktan söz ederken kâhinlere ilişkin bir şey söylemedi."
+    },
+    {
+      "v": 15,
+      "text": "Melkisedek benzeri başka bir kâhin ortaya çıktığından, bu söylediğimiz artık daha da açıktır."
+    },
+    {
+      "v": 16,
+      "text": "O, Yasa'nın soyla ilgili önkoşuluna göre değil, yok edilemez bir yaşamın gücüne göre kâhin olmuştur."
+    },
+    {
+      "v": 17,
+      "text": "Çünkü, “Melkisedek düzeni uyarınca Sen sonsuza dek kâhinsin”   diye tanıklık ediliyor."
+    },
+    {
+      "v": 18,
+      "text": "Önceki buyruk, zayıflığı ve yararsızlığı nedeniyle geçersiz kılındı."
+    },
+    {
+      "v": 19,
+      "text": "Çünkü Yasa hiçbir şeyi yetkinleştiremedi. Bunun yerine, aracılığıyla Tanrı'ya yaklaştığımız daha sağlam bir umut verildi."
+    },
+    {
+      "v": 20,
+      "text": "Bu da antsız olmadı. Öbürleri ant içilmeden kâhin olmuşlardı."
+    },
+    {
+      "v": 21,
+      "text": "Ama O kendisine, “Rab ant içti, kararından dönmez, Sen sonsuza dek kâhinsin”   diyen Tanrı'nın andıyla kâhin oldu."
+    },
+    {
+      "v": 22,
+      "text": "Böylece İsa daha iyi bir antlaşmanın kefili olmuştur."
+    },
+    {
+      "v": 23,
+      "text": "Önceki düzende çok sayıda kâhin görev aldı. Çünkü ölüm, görevlerini sürdürmelerini engelliyordu."
+    },
+    {
+      "v": 24,
+      "text": "Ama İsa sonsuza dek yaşadığı için kâhinliği süreklidir."
+    },
+    {
+      "v": 25,
+      "text": "Bu nedenle O'nun aracılığıyla Tanrı'ya yaklaşanları tümüyle kurtaracak güçtedir. Çünkü onlara aracılık etmek için hep yaşamaktadır."
+    },
+    {
+      "section": "Yeni Bir Antlaşmanın Başkâhini"
+    },
+    {
+      "v": 26,
+      "text": "Böyle bir başkâhinimiz –kutsal, suçsuz, lekesiz, günahkârlardan ayrılmış, göklerden daha yücelere çıkarılmış bir başkâhinimiz– olması uygundur."
+    },
+    {
+      "v": 27,
+      "text": "O, öbür başkâhinler gibi her gün önce kendi günahları, sonra da halkın günahları için kurbanlar sunmak zorunda değildir. Çünkü kendini sunmakla bunu ilk ve son kez yaptı."
+    },
+    {
+      "v": 28,
+      "text": "Kutsal Yasa, zayıflıkları olan insanları başkâhin atamaktadır. Ama Yasa'dan sonra gelen ant sözü, sonsuza dek yetkin kılınmış olan Oğul'u başkâhin atamıştır."
+    }
+  ],
+  "title": "Kâhin Melkisedek"
+}

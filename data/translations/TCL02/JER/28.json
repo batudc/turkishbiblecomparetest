@@ -1,1 +1,79 @@
-{"t":"TCL02","b":"JER","c":28,"content":[{"v":1,"text":"Aynı yıl Yahuda Kralı Sidkiya'nın krallığının başlangıcında, dördüncü yılının beşinci ayında Givonlu Azzur oğlu Peygamber Hananya RAB'bin Tapınağı'nda kâhinlerle bütün halkın önünde bana şöyle dedi:"},{"v":2,"text":"“İsrail'in Tanrısı, Her Şeye Egemen RAB diyor ki, ‘Babil Kralı'nın boyunduruğunu kıracağım."},{"v":3,"text":"Babil Kralı Nebukadnessar'ın buradan alıp Babil'e götürdüğü RAB'bin Tapınağı'na ait bütün eşyaları iki yıl içinde buraya geri getireceğim."},{"v":4,"text":"Yahuda Kralı Yehoyakim oğlu Yehoyakin'le Babil'e sürgüne giden bütün Yahudalılar'ı buraya geri getireceğim’ diyor RAB, ‘Çünkü Babil Kralı'nın boyunduruğunu kıracağım.’ ”"},{"v":5,"text":"Bunun üzerine Peygamber Yeremya, kâhinlerin ve RAB'bin Tapınağı'ndaki halkın önünde Peygamber Hananya'yı yanıtladı."},{"v":6,"text":"Yeremya şöyle dedi: “Amin! RAB aynısını yapsın! RAB, tapınağına ait eşyalarla bütün sürgünleri Babil'den buraya geri getirerek ettiğin peygamberlik sözlerini gerçekleştirsin!"},{"v":7,"text":"Yalnız şimdi sana ve halka söyleyeceğim şu sözü dinle:"},{"v":8,"text":"Çok önce, benden de senden de önce yaşamış peygamberler birçok ülke ve büyük krallığın başına savaş, felaket, salgın hastalık gelecek diye peygamberlik ettiler."},{"v":9,"text":"Ancak esenlik olacağını söyleyen peygamberin sözü yerine gelirse, onun gerçekten RAB'bin gönderdiği peygamber olduğu anlaşılır.”"},{"v":10,"text":"Bunun üzerine Peygamber Hananya, Peygamber Yeremya'nın boynundan boyunduruğu çıkarıp kırdı."},{"v":11,"text":"Sonra halkın önünde şöyle dedi: “RAB diyor ki, ‘Babil Kralı Nebukadnessar'ın bütün ulusların boynuna taktığı boyunduruğu iki yıl içinde işte böyle kıracağım.’ ”  Böylece Peygamber Yeremya yoluna gitti."},{"v":12,"text":"Peygamber Hananya Peygamber Yeremya'nın boynundaki boyunduruğu kırdıktan sonra RAB Yeremya'ya şöyle seslendi:"},{"v":13,"text":"“Git, Hananya'ya de ki, ‘RAB şöyle diyor: Sen tahtadan yapılmış boyunduruğu kırdın, ama yerine demir boyunduruk yapacaksın!"},{"v":14,"text":"Çünkü İsrail'in Tanrısı, Her Şeye Egemen RAB diyor ki, Babil Kralı Nebukadnessar'a kulluk etmeleri için bütün bu ulusların boynuna demir boyunduruk geçirdim, ona kulluk edecekler. Yabanıl hayvanları da onun denetimine vereceğim.’ ”"},{"v":15,"text":"Peygamber Yeremya Peygamber Hananya'ya, “Dinle, ey Hananya!” dedi, “Seni RAB göndermedi. Ama sen bu ulusu yalana inandırdın."},{"v":16,"text":"Bu nedenle RAB diyor ki, ‘Seni yeryüzünden silip atacağım. Bu yıl öleceksin. Çünkü halkı RAB'be karşı kışkırttın.’ ”"},{"v":17,"text":"Peygamber Hananya o yılın yedinci ayında öldü."}]}
+{
+  "t": "TCL02",
+  "b": "JER",
+  "c": 28,
+  "content": [
+    {
+      "section": "Sahte Peygamber Hananya"
+    },
+    {
+      "v": 1,
+      "text": "Aynı yıl Yahuda Kralı Sidkiya'nın krallığının başlangıcında, dördüncü yılının beşinci ayında Givonlu Azzur oğlu Peygamber Hananya RAB'bin Tapınağı'nda kâhinlerle bütün halkın önünde bana şöyle dedi:"
+    },
+    {
+      "v": 2,
+      "text": "“İsrail'in Tanrısı, Her Şeye Egemen RAB diyor ki, ‘Babil Kralı'nın boyunduruğunu kıracağım."
+    },
+    {
+      "v": 3,
+      "text": "Babil Kralı Nebukadnessar'ın buradan alıp Babil'e götürdüğü RAB'bin Tapınağı'na ait bütün eşyaları iki yıl içinde buraya geri getireceğim."
+    },
+    {
+      "v": 4,
+      "text": "Yahuda Kralı Yehoyakim oğlu Yehoyakin'le Babil'e sürgüne giden bütün Yahudalılar'ı buraya geri getireceğim’ diyor RAB, ‘Çünkü Babil Kralı'nın boyunduruğunu kıracağım.’ ”"
+    },
+    {
+      "v": 5,
+      "text": "Bunun üzerine Peygamber Yeremya, kâhinlerin ve RAB'bin Tapınağı'ndaki halkın önünde Peygamber Hananya'yı yanıtladı."
+    },
+    {
+      "v": 6,
+      "text": "Yeremya şöyle dedi: “Amin! RAB aynısını yapsın! RAB, tapınağına ait eşyalarla bütün sürgünleri Babil'den buraya geri getirerek ettiğin peygamberlik sözlerini gerçekleştirsin!"
+    },
+    {
+      "v": 7,
+      "text": "Yalnız şimdi sana ve halka söyleyeceğim şu sözü dinle:"
+    },
+    {
+      "v": 8,
+      "text": "Çok önce, benden de senden de önce yaşamış peygamberler birçok ülke ve büyük krallığın başına savaş, felaket, salgın hastalık gelecek diye peygamberlik ettiler."
+    },
+    {
+      "v": 9,
+      "text": "Ancak esenlik olacağını söyleyen peygamberin sözü yerine gelirse, onun gerçekten RAB'bin gönderdiği peygamber olduğu anlaşılır.”"
+    },
+    {
+      "v": 10,
+      "text": "Bunun üzerine Peygamber Hananya, Peygamber Yeremya'nın boynundan boyunduruğu çıkarıp kırdı."
+    },
+    {
+      "v": 11,
+      "text": "Sonra halkın önünde şöyle dedi: “RAB diyor ki, ‘Babil Kralı Nebukadnessar'ın bütün ulusların boynuna taktığı boyunduruğu iki yıl içinde işte böyle kıracağım.’ ”  Böylece Peygamber Yeremya yoluna gitti."
+    },
+    {
+      "v": 12,
+      "text": "Peygamber Hananya Peygamber Yeremya'nın boynundaki boyunduruğu kırdıktan sonra RAB Yeremya'ya şöyle seslendi:"
+    },
+    {
+      "v": 13,
+      "text": "“Git, Hananya'ya de ki, ‘RAB şöyle diyor: Sen tahtadan yapılmış boyunduruğu kırdın, ama yerine demir boyunduruk yapacaksın!"
+    },
+    {
+      "v": 14,
+      "text": "Çünkü İsrail'in Tanrısı, Her Şeye Egemen RAB diyor ki, Babil Kralı Nebukadnessar'a kulluk etmeleri için bütün bu ulusların boynuna demir boyunduruk geçirdim, ona kulluk edecekler. Yabanıl hayvanları da onun denetimine vereceğim.’ ”"
+    },
+    {
+      "v": 15,
+      "text": "Peygamber Yeremya Peygamber Hananya'ya, “Dinle, ey Hananya!” dedi, “Seni RAB göndermedi. Ama sen bu ulusu yalana inandırdın."
+    },
+    {
+      "v": 16,
+      "text": "Bu nedenle RAB diyor ki, ‘Seni yeryüzünden silip atacağım. Bu yıl öleceksin. Çünkü halkı RAB'be karşı kışkırttın.’ ”"
+    },
+    {
+      "v": 17,
+      "text": "Peygamber Hananya o yılın yedinci ayında öldü."
+    }
+  ],
+  "title": "Sahte Peygamber Hananya"
+}

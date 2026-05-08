@@ -1,1 +1,109 @@
-{"t":"TCL02","b":"2CH","c":11,"content":[{"v":1,"text":"Rehavam Yeruşalim'e varınca, İsrailliler'le savaşıp onları yeniden egemenliği altına almak amacıyla Yahuda ve Benyamin oymaklarından yüz seksen bin seçkin savaşçı topladı."},{"v":2,"text":"Bu arada RAB, Tanrı adamı Şemaya'ya şöyle seslendi:"},{"v":3,"text":"“Süleyman oğlu Yahuda Kralı Rehavam'a, Yahuda ve Benyamin bölgesinde yaşayan bütün İsrailliler'e şunu söyle:"},{"v":4,"text":"‘RAB diyor ki, İsrailli kardeşlerinize saldırmayın, onlarla savaşmayın. Herkes evine dönsün! Çünkü bu olayı ben düzenledim.’ ” RAB'bin bu sözlerini duyan halk Yarovam'a karşı savaşmaktan vazgeçti."},{"v":5,"text":"Rehavam Yeruşalim'de yaşadı ve savunma amacıyla Yahuda'daki şu kentleri onardı:"},{"v":6,"text":"Beytlehem, Etam, Tekoa,"},{"v":7,"text":"Beytsur, Soko, Adullam,"},{"v":8,"text":"Gat, Mareşa, Zif,"},{"v":9,"text":"Adorayim, Lakiş, Azeka,"},{"v":10,"text":"Sora, Ayalon, Hevron. Bunlar Yahuda ve Benyamin bölgesinde surlu kentlerdi."},{"v":11,"text":"Rehavam bu kentlerin surlarını güçlendirerek buralara komutanlar atadı; yiyecek, zeytinyağı, şarap depoladı."},{"v":12,"text":"Her kent için kalkanlar, mızraklar sağladı. Kentleri iyice güçlendirdi. Böylece Yahuda ve Benyamin bölgeleri onun denetimi altında kaldı."},{"v":13,"text":"İsrail'in her bölgesinden kâhinlerle Levililer Rehavam'dan yana geçtiler."},{"v":14,"text":"Levililer otlaklarını, mallarını bırakıp Yahuda ve Yeruşalim'e gelmişlerdi. Çünkü Yarovam'la oğulları onları RAB'bin kâhinliğinden uzaklaştırmıştı."},{"v":15,"text":"Yarovam tapınma yerleri ve yaptırdığı teke ve buzağı biçimindeki putlar için kâhinler atamıştı."},{"v":16,"text":"İsrail'in her oymağından RAB'be, İsrail'in Tanrısı'na yönelmeye yürekten kararlı olanlar ise, atalarının Tanrısı RAB'be kurban sunmak için kâhinlerle Levililer'in ardından Yeruşalim'e geldiler."},{"v":17,"text":"Üç yıl Davut'la Süleyman'ın izinde yürüyen bu kişiler, Süleyman oğlu Rehavam'ı destekleyerek Yahuda Krallığı'nı güçlendirdiler."},{"v":18,"text":"Rehavam Davut oğlu Yerimot'un kızı Mahalat'la evlendi. Mahalat'ın annesi Avihayil, İşay oğlu Eliav'ın kızıydı."},{"v":19,"text":"Mahalat Rehavam'a şu oğulları doğurdu: Yeuş, Şemarya, Zaham."},{"v":20,"text":"Rehavam Mahalat'tan sonra Avşalom'un kızı Maaka ile evlendi. Maaka ona Aviya'yı, Attay'ı, Ziza'yı, Şelomit'i doğurdu."},{"v":21,"text":"Rehavam Avşalom'un kızı Maaka'yı öbür eşleriyle cariyelerinin hepsinden daha çok severdi. Rehavam'ın on sekiz karısı, altmış cariyesi vardı. Bunlardan yirmi sekiz erkek, altmış kız çocuğu oldu."},{"v":22,"text":"Rehavam Maaka'dan doğan Aviya'yı kral yapmak amacıyla onu kardeşleri arasında önder ve tahta geçecek aday atadı."},{"v":23,"text":"Bilgece davranarak oğullarının bazılarını Yahuda ve Benyamin topraklarına, surlu kentlere dağıttı. Onlara bol yiyecek sağladı ve birçok kadınla evlendirdi."}]}
+{
+  "t": "TCL02",
+  "b": "2CH",
+  "c": 11,
+  "content": [
+    {
+      "section": "Şemaya'nın Peygamberliği"
+    },
+    {
+      "v": 1,
+      "text": "Rehavam Yeruşalim'e varınca, İsrailliler'le savaşıp onları yeniden egemenliği altına almak amacıyla Yahuda ve Benyamin oymaklarından yüz seksen bin seçkin savaşçı topladı."
+    },
+    {
+      "v": 2,
+      "text": "Bu arada RAB, Tanrı adamı Şemaya'ya şöyle seslendi:"
+    },
+    {
+      "v": 3,
+      "text": "“Süleyman oğlu Yahuda Kralı Rehavam'a, Yahuda ve Benyamin bölgesinde yaşayan bütün İsrailliler'e şunu söyle:"
+    },
+    {
+      "v": 4,
+      "text": "‘RAB diyor ki, İsrailli kardeşlerinize saldırmayın, onlarla savaşmayın. Herkes evine dönsün! Çünkü bu olayı ben düzenledim.’ ” RAB'bin bu sözlerini duyan halk Yarovam'a karşı savaşmaktan vazgeçti."
+    },
+    {
+      "section": "Rehavam Yahuda'yı Güçlendiriyor"
+    },
+    {
+      "v": 5,
+      "text": "Rehavam Yeruşalim'de yaşadı ve savunma amacıyla Yahuda'daki şu kentleri onardı:"
+    },
+    {
+      "v": 6,
+      "text": "Beytlehem, Etam, Tekoa,"
+    },
+    {
+      "v": 7,
+      "text": "Beytsur, Soko, Adullam,"
+    },
+    {
+      "v": 8,
+      "text": "Gat, Mareşa, Zif,"
+    },
+    {
+      "v": 9,
+      "text": "Adorayim, Lakiş, Azeka,"
+    },
+    {
+      "v": 10,
+      "text": "Sora, Ayalon, Hevron. Bunlar Yahuda ve Benyamin bölgesinde surlu kentlerdi."
+    },
+    {
+      "v": 11,
+      "text": "Rehavam bu kentlerin surlarını güçlendirerek buralara komutanlar atadı; yiyecek, zeytinyağı, şarap depoladı."
+    },
+    {
+      "v": 12,
+      "text": "Her kent için kalkanlar, mızraklar sağladı. Kentleri iyice güçlendirdi. Böylece Yahuda ve Benyamin bölgeleri onun denetimi altında kaldı."
+    },
+    {
+      "v": 13,
+      "text": "İsrail'in her bölgesinden kâhinlerle Levililer Rehavam'dan yana geçtiler."
+    },
+    {
+      "v": 14,
+      "text": "Levililer otlaklarını, mallarını bırakıp Yahuda ve Yeruşalim'e gelmişlerdi. Çünkü Yarovam'la oğulları onları RAB'bin kâhinliğinden uzaklaştırmıştı."
+    },
+    {
+      "v": 15,
+      "text": "Yarovam tapınma yerleri ve yaptırdığı teke ve buzağı biçimindeki putlar için kâhinler atamıştı."
+    },
+    {
+      "v": 16,
+      "text": "İsrail'in her oymağından RAB'be, İsrail'in Tanrısı'na yönelmeye yürekten kararlı olanlar ise, atalarının Tanrısı RAB'be kurban sunmak için kâhinlerle Levililer'in ardından Yeruşalim'e geldiler."
+    },
+    {
+      "v": 17,
+      "text": "Üç yıl Davut'la Süleyman'ın izinde yürüyen bu kişiler, Süleyman oğlu Rehavam'ı destekleyerek Yahuda Krallığı'nı güçlendirdiler."
+    },
+    {
+      "section": "Rehavam'ın Ailesi"
+    },
+    {
+      "v": 18,
+      "text": "Rehavam Davut oğlu Yerimot'un kızı Mahalat'la evlendi. Mahalat'ın annesi Avihayil, İşay oğlu Eliav'ın kızıydı."
+    },
+    {
+      "v": 19,
+      "text": "Mahalat Rehavam'a şu oğulları doğurdu: Yeuş, Şemarya, Zaham."
+    },
+    {
+      "v": 20,
+      "text": "Rehavam Mahalat'tan sonra Avşalom'un kızı Maaka ile evlendi. Maaka ona Aviya'yı, Attay'ı, Ziza'yı, Şelomit'i doğurdu."
+    },
+    {
+      "v": 21,
+      "text": "Rehavam Avşalom'un kızı Maaka'yı öbür eşleriyle cariyelerinin hepsinden daha çok severdi. Rehavam'ın on sekiz karısı, altmış cariyesi vardı. Bunlardan yirmi sekiz erkek, altmış kız çocuğu oldu."
+    },
+    {
+      "v": 22,
+      "text": "Rehavam Maaka'dan doğan Aviya'yı kral yapmak amacıyla onu kardeşleri arasında önder ve tahta geçecek aday atadı."
+    },
+    {
+      "v": 23,
+      "text": "Bilgece davranarak oğullarının bazılarını Yahuda ve Benyamin topraklarına, surlu kentlere dağıttı. Onlara bol yiyecek sağladı ve birçok kadınla evlendirdi."
+    }
+  ],
+  "title": "Şemaya'nın Peygamberliği"
+}

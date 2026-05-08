@@ -1,1 +1,67 @@
-{"t":"TCL02","b":"AMO","c":6,"content":[{"v":1,"text":"Vay başına Siyon'daki kaygısızların, Samiriye Dağı'nda kendilerini güvende sananların, İsrail halkının başvurduğu Önder ulusun tanınmış insanlarının!"},{"v":2,"text":"Kalne Kenti'ne gidin de görün, Oradan büyük Hama'ya geçin, Filistliler'in Gat Kenti'ne inin, Sizin bu krallıklarınızdan daha mı iyiler? Toprakları sizinkinden daha mı geniş?"},{"v":3,"text":"Ey sizler, kötü günü uzak sanan, Zorbalık tahtını yaklaştıranlar."},{"v":4,"text":"Ey sizler, fildişi süslü yataklara uzananlar, Sedirlere serilenler, Seçme kuzular, besili buzağılar yiyenler,"},{"v":5,"text":"Çenk eşliğinde türkü söyleyenler, Davut gibi beste yapanlar,"},{"v":6,"text":"Tas tas şarap içenler, Yağların en güzelini sürünenler, Yusuf'un yıkımına kederlenmeyenler!"},{"v":7,"text":"Bu yüzden şimdi bunlar Sürgüne gideceklerin başını çekecekler; Sona erecek sedire serilenlerin cümbüşü."},{"v":8,"text":"Egemen RAB başı üzerine ant içti, Her Şeye Egemen Tanrı RAB şöyle diyor: “Yakup'un gururundan iğreniyor, Saraylarından tiksiniyorum. Bu yüzden içindeki her şeyle kenti Düşmana teslim edeceğim.”"},{"v":9,"text":"Eğer bir evden on kişi kalmışsa, Onlar da ölecek."},{"v":10,"text":"Ölünün akrabası yakmak için cesedi evden almaya gelince, Evdekine, “Yanında kimse var mı?” diye soracak, O da, “Hayır!” yanıtını alınca, “Sus!” diyecek, “RAB'bin adı anılmamalı.”"},{"v":11,"text":"Çünkü RAB buyuruyor, Büyük ev toza, Küçük ev küle dönecek."},{"v":12,"text":"Atlar kaya üzerinde koşar mı? Kimse denizde öküzle çift sürer mi? Ama siz adaleti zehire, Doğruluk meyvesini pelinotuna çevirdiniz."},{"v":13,"text":"Sizler, Lo-Devar Kenti'ni aldık diye sevinenler, “Karnayim'i kendi bileğimizle ele geçirmedik mi?” diyenlersiniz."},{"v":14,"text":"“İşte bu yüzden, ey İsrail halkı, Üzerinize bir ulus göndereceğim” Diyor Her Şeye Egemen Tanrı RAB, “Levo-Hamat'tan Arava Vadisi'ne kadar ezecekler sizi.”"}]}
+{
+  "t": "TCL02",
+  "b": "AMO",
+  "c": 6,
+  "content": [
+    {
+      "section": "Vay Başına Kaygısızların"
+    },
+    {
+      "v": 1,
+      "text": "Vay başına Siyon'daki kaygısızların, Samiriye Dağı'nda kendilerini güvende sananların, İsrail halkının başvurduğu Önder ulusun tanınmış insanlarının!"
+    },
+    {
+      "v": 2,
+      "text": "Kalne Kenti'ne gidin de görün, Oradan büyük Hama'ya geçin, Filistliler'in Gat Kenti'ne inin, Sizin bu krallıklarınızdan daha mı iyiler? Toprakları sizinkinden daha mı geniş?"
+    },
+    {
+      "v": 3,
+      "text": "Ey sizler, kötü günü uzak sanan, Zorbalık tahtını yaklaştıranlar."
+    },
+    {
+      "v": 4,
+      "text": "Ey sizler, fildişi süslü yataklara uzananlar, Sedirlere serilenler, Seçme kuzular, besili buzağılar yiyenler,"
+    },
+    {
+      "v": 5,
+      "text": "Çenk eşliğinde türkü söyleyenler, Davut gibi beste yapanlar,"
+    },
+    {
+      "v": 6,
+      "text": "Tas tas şarap içenler, Yağların en güzelini sürünenler, Yusuf'un yıkımına kederlenmeyenler!"
+    },
+    {
+      "v": 7,
+      "text": "Bu yüzden şimdi bunlar Sürgüne gideceklerin başını çekecekler; Sona erecek sedire serilenlerin cümbüşü."
+    },
+    {
+      "v": 8,
+      "text": "Egemen RAB başı üzerine ant içti, Her Şeye Egemen Tanrı RAB şöyle diyor: “Yakup'un gururundan iğreniyor, Saraylarından tiksiniyorum. Bu yüzden içindeki her şeyle kenti Düşmana teslim edeceğim.”"
+    },
+    {
+      "v": 9,
+      "text": "Eğer bir evden on kişi kalmışsa, Onlar da ölecek."
+    },
+    {
+      "v": 10,
+      "text": "Ölünün akrabası yakmak için cesedi evden almaya gelince, Evdekine, “Yanında kimse var mı?” diye soracak, O da, “Hayır!” yanıtını alınca, “Sus!” diyecek, “RAB'bin adı anılmamalı.”"
+    },
+    {
+      "v": 11,
+      "text": "Çünkü RAB buyuruyor, Büyük ev toza, Küçük ev küle dönecek."
+    },
+    {
+      "v": 12,
+      "text": "Atlar kaya üzerinde koşar mı? Kimse denizde öküzle çift sürer mi? Ama siz adaleti zehire, Doğruluk meyvesini pelinotuna çevirdiniz."
+    },
+    {
+      "v": 13,
+      "text": "Sizler, Lo-Devar Kenti'ni aldık diye sevinenler, “Karnayim'i kendi bileğimizle ele geçirmedik mi?” diyenlersiniz."
+    },
+    {
+      "v": 14,
+      "text": "“İşte bu yüzden, ey İsrail halkı, Üzerinize bir ulus göndereceğim” Diyor Her Şeye Egemen Tanrı RAB, “Levo-Hamat'tan Arava Vadisi'ne kadar ezecekler sizi.”"
+    }
+  ],
+  "title": "Vay Başına Kaygısızların"
+}

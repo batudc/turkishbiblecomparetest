@@ -1,1 +1,154 @@
-{"t":"TCL02","b":"PRO","c":6,"content":[{"v":1,"text":"Oğlum, eğer birine kefil oldunsa, Onun borcunu yüklendinse,"},{"v":2,"text":"Düştünse tuzağa kendi sözlerinle, Ağzının sözleriyle yakalandınsa,"},{"v":3,"text":"O kişinin eline düştün demektir. Oğlum, şunu yap ve kendini kurtar: Git, yere kapan onun önünde, Ona yalvar yakar."},{"v":4,"text":"Gözlerine uyku girmesin, Ağırlaşmasın göz kapakların."},{"v":5,"text":"Avcının elinden ceylan gibi, Kuşbazın elinden kuş gibi kurtar kendini."},{"v":6,"text":"Ey tembel kişi, git, karıncalara bak, Onların yaşamından bilgelik öğren."},{"v":7,"text":"Başkanları, önderleri ya da yöneticileri olmadığı halde,"},{"v":8,"text":"Yazın erzaklarını biriktirirler, Yiyeceklerini toplarlar biçim mevsiminde."},{"v":9,"text":"Ne zamana dek yatacaksın, ey tembel kişi? Ne zaman kalkacaksın uykundan?"},{"v":10,"text":"“Biraz kestireyim, biraz uyuklayayım, Ellerimi kavuşturup şöyle bir uyuyayım” demeye kalmadan,"},{"v":11,"text":"Yokluk bir haydut gibi, Yoksulluk bir akıncı gibi gelir üzerine."},{"v":12,"text":"Ağzında yalanla dolaşan kişi, Soysuz ve fesatçıdır."},{"v":13,"text":"Göz kırpar, bir sürü ayak oyunu, El kol hareketleri yapar,"},{"v":14,"text":"Ahlaksız yüreğinde kötülük tasarlar, Çekişmeler yaratır durmadan."},{"v":15,"text":"Bu yüzden ansızın yıkıma uğrayacak, Birdenbire çaresizce yok olacak."},{"v":16,"text":"RAB'bin nefret ettiği altı şey, İğrendiği yedi şey vardır:"},{"v":17,"text":"Gururlu gözler, Yalancı dil, Suçsuz kanı döken eller,"},{"v":18,"text":"Düzenbaz yürek, Kötülüğe seğirten ayaklar,"},{"v":19,"text":"Yalan soluyan yalancı tanık Ve kardeşler arasında çekişme yaratan kişi."},{"v":20,"text":"Oğlum, babanın buyruklarına uy, Annenin öğrettiklerinden ayrılma."},{"v":21,"text":"Bunlar sürekli yüreğinin bağı olsun, Tak onları boynuna."},{"v":22,"text":"Yolunda sana rehber olacak, Seni koruyacaklar yattığın zaman; Söyleşecekler seninle uyandığında."},{"v":23,"text":"Bu buyruklar sana çıra, Öğretilenler ışıktır. Eğitici uyarılar yaşam yolunu gösterir."},{"v":24,"text":"Seni kötü kadından, Başka birinin karısının yaltaklanan dilinden Koruyacak olan bunlardır."},{"v":25,"text":"Böyle kadınların güzelliği seni ayartmasın, Bakışları seni tutsak etmesin."},{"v":26,"text":"Çünkü fahişe yüzünden insan bir lokma ekmeğe muhtaç kalır, Başkasının karısıyla yatmak da kişinin canına mal olur."},{"v":27,"text":"İnsan koynuna ateş alır da, Giysisi yanmaz mı?"},{"v":28,"text":"Korlar üzerinde yürür de, Ayakları kavrulmaz mı?"},{"v":29,"text":"Başkasının karısıyla yatan adamın durumu budur. Böyle bir ilişkiye giren cezasız kalmaz."},{"v":30,"text":"Aç hırsız karnını doyurmak için çalıyorsa, Kimse onu hor görmez."},{"v":31,"text":"Ama yakalanırsa, çaldığının yedi katını ödemek zorunda; Varını yoğunu vermek anlamına gelse bile."},{"v":32,"text":"Zina eden adam sağduyudan yoksundur. Yaptıklarıyla kendini yok eder."},{"v":33,"text":"Payına düşen dayak ve onursuzluktur, Asla kurtulamaz utançtan."},{"v":34,"text":"Çünkü kıskançlık kocanın öfkesini azdırır, Öç alırken acımasız olur."},{"v":35,"text":"Hiçbir fidye kabul etmez, Gönlünü alamazsın armağanların çokluğuyla."}]}
+{
+  "t": "TCL02",
+  "b": "PRO",
+  "c": 6,
+  "content": [
+    {
+      "section": "Tuzaklara Dikkat Et!"
+    },
+    {
+      "v": 1,
+      "text": "Oğlum, eğer birine kefil oldunsa, Onun borcunu yüklendinse,"
+    },
+    {
+      "v": 2,
+      "text": "Düştünse tuzağa kendi sözlerinle, Ağzının sözleriyle yakalandınsa,"
+    },
+    {
+      "v": 3,
+      "text": "O kişinin eline düştün demektir. Oğlum, şunu yap ve kendini kurtar: Git, yere kapan onun önünde, Ona yalvar yakar."
+    },
+    {
+      "v": 4,
+      "text": "Gözlerine uyku girmesin, Ağırlaşmasın göz kapakların."
+    },
+    {
+      "v": 5,
+      "text": "Avcının elinden ceylan gibi, Kuşbazın elinden kuş gibi kurtar kendini."
+    },
+    {
+      "v": 6,
+      "text": "Ey tembel kişi, git, karıncalara bak, Onların yaşamından bilgelik öğren."
+    },
+    {
+      "v": 7,
+      "text": "Başkanları, önderleri ya da yöneticileri olmadığı halde,"
+    },
+    {
+      "v": 8,
+      "text": "Yazın erzaklarını biriktirirler, Yiyeceklerini toplarlar biçim mevsiminde."
+    },
+    {
+      "v": 9,
+      "text": "Ne zamana dek yatacaksın, ey tembel kişi? Ne zaman kalkacaksın uykundan?"
+    },
+    {
+      "v": 10,
+      "text": "“Biraz kestireyim, biraz uyuklayayım, Ellerimi kavuşturup şöyle bir uyuyayım” demeye kalmadan,"
+    },
+    {
+      "v": 11,
+      "text": "Yokluk bir haydut gibi, Yoksulluk bir akıncı gibi gelir üzerine."
+    },
+    {
+      "v": 12,
+      "text": "Ağzında yalanla dolaşan kişi, Soysuz ve fesatçıdır."
+    },
+    {
+      "v": 13,
+      "text": "Göz kırpar, bir sürü ayak oyunu, El kol hareketleri yapar,"
+    },
+    {
+      "v": 14,
+      "text": "Ahlaksız yüreğinde kötülük tasarlar, Çekişmeler yaratır durmadan."
+    },
+    {
+      "v": 15,
+      "text": "Bu yüzden ansızın yıkıma uğrayacak, Birdenbire çaresizce yok olacak."
+    },
+    {
+      "v": 16,
+      "text": "RAB'bin nefret ettiği altı şey, İğrendiği yedi şey vardır:"
+    },
+    {
+      "v": 17,
+      "text": "Gururlu gözler, Yalancı dil, Suçsuz kanı döken eller,"
+    },
+    {
+      "v": 18,
+      "text": "Düzenbaz yürek, Kötülüğe seğirten ayaklar,"
+    },
+    {
+      "v": 19,
+      "text": "Yalan soluyan yalancı tanık Ve kardeşler arasında çekişme yaratan kişi."
+    },
+    {
+      "section": "Zinaya Karşı Bir Uyarı Daha"
+    },
+    {
+      "v": 20,
+      "text": "Oğlum, babanın buyruklarına uy, Annenin öğrettiklerinden ayrılma."
+    },
+    {
+      "v": 21,
+      "text": "Bunlar sürekli yüreğinin bağı olsun, Tak onları boynuna."
+    },
+    {
+      "v": 22,
+      "text": "Yolunda sana rehber olacak, Seni koruyacaklar yattığın zaman; Söyleşecekler seninle uyandığında."
+    },
+    {
+      "v": 23,
+      "text": "Bu buyruklar sana çıra, Öğretilenler ışıktır. Eğitici uyarılar yaşam yolunu gösterir."
+    },
+    {
+      "v": 24,
+      "text": "Seni kötü kadından, Başka birinin karısının yaltaklanan dilinden Koruyacak olan bunlardır."
+    },
+    {
+      "v": 25,
+      "text": "Böyle kadınların güzelliği seni ayartmasın, Bakışları seni tutsak etmesin."
+    },
+    {
+      "v": 26,
+      "text": "Çünkü fahişe yüzünden insan bir lokma ekmeğe muhtaç kalır, Başkasının karısıyla yatmak da kişinin canına mal olur."
+    },
+    {
+      "v": 27,
+      "text": "İnsan koynuna ateş alır da, Giysisi yanmaz mı?"
+    },
+    {
+      "v": 28,
+      "text": "Korlar üzerinde yürür de, Ayakları kavrulmaz mı?"
+    },
+    {
+      "v": 29,
+      "text": "Başkasının karısıyla yatan adamın durumu budur. Böyle bir ilişkiye giren cezasız kalmaz."
+    },
+    {
+      "v": 30,
+      "text": "Aç hırsız karnını doyurmak için çalıyorsa, Kimse onu hor görmez."
+    },
+    {
+      "v": 31,
+      "text": "Ama yakalanırsa, çaldığının yedi katını ödemek zorunda; Varını yoğunu vermek anlamına gelse bile."
+    },
+    {
+      "v": 32,
+      "text": "Zina eden adam sağduyudan yoksundur. Yaptıklarıyla kendini yok eder."
+    },
+    {
+      "v": 33,
+      "text": "Payına düşen dayak ve onursuzluktur, Asla kurtulamaz utançtan."
+    },
+    {
+      "v": 34,
+      "text": "Çünkü kıskançlık kocanın öfkesini azdırır, Öç alırken acımasız olur."
+    },
+    {
+      "v": 35,
+      "text": "Hiçbir fidye kabul etmez, Gönlünü alamazsın armağanların çokluğuyla."
+    }
+  ],
+  "title": "Tuzaklara Dikkat Et!"
+}

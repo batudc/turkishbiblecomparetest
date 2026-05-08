@@ -1,1 +1,151 @@
-{"t":"TCL02","b":"PRO","c":3,"content":[{"v":1,"text":"Oğlum, unutma öğrettiklerimi, Aklında tut buyruklarımı."},{"v":2,"text":"Çünkü bunlar ömrünü uzatacak, Yaşam yıllarını, esenliğini artıracaktır."},{"v":3,"text":"Sevgiyi, sadakati hiç yanından ayırma, Bağla onları boynuna, Yaz yüreğinin levhasına."},{"v":4,"text":"Böylece Tanrı'nın ve insanların gözünde Beğeni ve saygınlık kazanacaksın."},{"v":5,"text":"RAB'be güven bütün yüreğinle, Kendi aklına bel bağlama."},{"v":6,"text":"Yaptığın her işte RAB'bi an, O senin yolunu düze çıkarır."},{"v":7,"text":"Kendini bilge biri olarak görme, RAB'den kork, kötülükten uzak dur."},{"v":8,"text":"Böylece bedenin sağlık Ve ferahlık bulur."},{"v":9,"text":"Servetinle ve ürününün turfandasıyla RAB'bi onurlandır."},{"v":10,"text":"O zaman ambarların tıka basa dolar, Teknelerin yeni şarapla dolup taşar."},{"v":11,"text":"Oğlum, RAB'bin terbiye edişini hafife alma, O'nun azarlamasından usanma."},{"v":12,"text":"Çünkü RAB, oğlundan hoşnut bir baba gibi, Sevdiğini azarlar."},{"v":13,"text":"Bilgeliğe erişene, Aklı bulana ne mutlu!"},{"v":14,"text":"Gümüş kazanmaktansa onu kazanmak daha iyidir. Onun yararı altından daha çoktur."},{"v":15,"text":"Daha değerlidir mücevherden, Dileyeceğin hiçbir şey onunla kıyaslanamaz."},{"v":16,"text":"Sağ elinde uzun ömür, Sol elinde zenginlik ve onur vardır."},{"v":17,"text":"Yolları sevinç yollarıdır, Evet, bütün yolları esenliğe çıkarır."},{"v":18,"text":"Bilgelik yaşam ağacıdır ona sarılanlara, Ne mutlu ona sımsıkı tutunanlara!"},{"v":19,"text":"RAB dünyanın temelini bilgelikle attı, Gökleri akıllıca yerleştirdi."},{"v":20,"text":"Bilgisiyle enginler yarıldı, Bulutlar suyunu verdi."},{"v":21,"text":"Oğlum, sağlam öğüde, sağgörüye tutun. Sakın gözünü ayırma onlardan."},{"v":22,"text":"Onlar sana yaşam verecek Ve boynuna güzel bir süs olacak."},{"v":23,"text":"O zaman güvenlik içinde yol alırsın, Sendelemeden."},{"v":24,"text":"Korkusuzca yatar, Tatlı tatlı uyursun."},{"v":25,"text":"Beklenmedik felaketten, Ya da kötülerin uğradığı yıkımdan korkma."},{"v":26,"text":"Çünkü senin güvencen RAB'dir, Tuzağa düşmekten seni O koruyacaktır."},{"v":27,"text":"Elinden geldikçe, İyiliğe hakkı olanlardan iyiliği esirgeme."},{"v":28,"text":"Elinde varken komşuna, “Bugün git, yarın gel, o zaman veririm” deme."},{"v":29,"text":"Sana güvenerek yanında yaşayan komşuna Kötülük tasarlama."},{"v":30,"text":"Sana kötülük etmemiş biriyle Yok yere çekişme."},{"v":31,"text":"Zorba kişiye imrenme, Onun yollarından hiçbirini seçme."},{"v":32,"text":"Çünkü RAB sapkınlardan tiksinir, Ama doğruların candan dostudur."},{"v":33,"text":"RAB kötülerin evini lanetler, Doğruların oturduğu yeriyse kutsar."},{"v":34,"text":"RAB alaycılarla alay eder, Ama alçakgönüllülere lütfeder."},{"v":35,"text":"Bilge kişiler onuru miras alacak, Akılsızlara yalnız utanç kalacak."}]}
+{
+  "t": "TCL02",
+  "b": "PRO",
+  "c": 3,
+  "content": [
+    {
+      "section": "Bilgenin Yolu"
+    },
+    {
+      "v": 1,
+      "text": "Oğlum, unutma öğrettiklerimi, Aklında tut buyruklarımı."
+    },
+    {
+      "v": 2,
+      "text": "Çünkü bunlar ömrünü uzatacak, Yaşam yıllarını, esenliğini artıracaktır."
+    },
+    {
+      "v": 3,
+      "text": "Sevgiyi, sadakati hiç yanından ayırma, Bağla onları boynuna, Yaz yüreğinin levhasına."
+    },
+    {
+      "v": 4,
+      "text": "Böylece Tanrı'nın ve insanların gözünde Beğeni ve saygınlık kazanacaksın."
+    },
+    {
+      "v": 5,
+      "text": "RAB'be güven bütün yüreğinle, Kendi aklına bel bağlama."
+    },
+    {
+      "v": 6,
+      "text": "Yaptığın her işte RAB'bi an, O senin yolunu düze çıkarır."
+    },
+    {
+      "v": 7,
+      "text": "Kendini bilge biri olarak görme, RAB'den kork, kötülükten uzak dur."
+    },
+    {
+      "v": 8,
+      "text": "Böylece bedenin sağlık Ve ferahlık bulur."
+    },
+    {
+      "v": 9,
+      "text": "Servetinle ve ürününün turfandasıyla RAB'bi onurlandır."
+    },
+    {
+      "v": 10,
+      "text": "O zaman ambarların tıka basa dolar, Teknelerin yeni şarapla dolup taşar."
+    },
+    {
+      "v": 11,
+      "text": "Oğlum, RAB'bin terbiye edişini hafife alma, O'nun azarlamasından usanma."
+    },
+    {
+      "v": 12,
+      "text": "Çünkü RAB, oğlundan hoşnut bir baba gibi, Sevdiğini azarlar."
+    },
+    {
+      "v": 13,
+      "text": "Bilgeliğe erişene, Aklı bulana ne mutlu!"
+    },
+    {
+      "v": 14,
+      "text": "Gümüş kazanmaktansa onu kazanmak daha iyidir. Onun yararı altından daha çoktur."
+    },
+    {
+      "v": 15,
+      "text": "Daha değerlidir mücevherden, Dileyeceğin hiçbir şey onunla kıyaslanamaz."
+    },
+    {
+      "v": 16,
+      "text": "Sağ elinde uzun ömür, Sol elinde zenginlik ve onur vardır."
+    },
+    {
+      "v": 17,
+      "text": "Yolları sevinç yollarıdır, Evet, bütün yolları esenliğe çıkarır."
+    },
+    {
+      "v": 18,
+      "text": "Bilgelik yaşam ağacıdır ona sarılanlara, Ne mutlu ona sımsıkı tutunanlara!"
+    },
+    {
+      "v": 19,
+      "text": "RAB dünyanın temelini bilgelikle attı, Gökleri akıllıca yerleştirdi."
+    },
+    {
+      "v": 20,
+      "text": "Bilgisiyle enginler yarıldı, Bulutlar suyunu verdi."
+    },
+    {
+      "v": 21,
+      "text": "Oğlum, sağlam öğüde, sağgörüye tutun. Sakın gözünü ayırma onlardan."
+    },
+    {
+      "v": 22,
+      "text": "Onlar sana yaşam verecek Ve boynuna güzel bir süs olacak."
+    },
+    {
+      "v": 23,
+      "text": "O zaman güvenlik içinde yol alırsın, Sendelemeden."
+    },
+    {
+      "v": 24,
+      "text": "Korkusuzca yatar, Tatlı tatlı uyursun."
+    },
+    {
+      "v": 25,
+      "text": "Beklenmedik felaketten, Ya da kötülerin uğradığı yıkımdan korkma."
+    },
+    {
+      "v": 26,
+      "text": "Çünkü senin güvencen RAB'dir, Tuzağa düşmekten seni O koruyacaktır."
+    },
+    {
+      "v": 27,
+      "text": "Elinden geldikçe, İyiliğe hakkı olanlardan iyiliği esirgeme."
+    },
+    {
+      "v": 28,
+      "text": "Elinde varken komşuna, “Bugün git, yarın gel, o zaman veririm” deme."
+    },
+    {
+      "v": 29,
+      "text": "Sana güvenerek yanında yaşayan komşuna Kötülük tasarlama."
+    },
+    {
+      "v": 30,
+      "text": "Sana kötülük etmemiş biriyle Yok yere çekişme."
+    },
+    {
+      "v": 31,
+      "text": "Zorba kişiye imrenme, Onun yollarından hiçbirini seçme."
+    },
+    {
+      "v": 32,
+      "text": "Çünkü RAB sapkınlardan tiksinir, Ama doğruların candan dostudur."
+    },
+    {
+      "v": 33,
+      "text": "RAB kötülerin evini lanetler, Doğruların oturduğu yeriyse kutsar."
+    },
+    {
+      "v": 34,
+      "text": "RAB alaycılarla alay eder, Ama alçakgönüllülere lütfeder."
+    },
+    {
+      "v": 35,
+      "text": "Bilge kişiler onuru miras alacak, Akılsızlara yalnız utanç kalacak."
+    }
+  ],
+  "title": "Bilgenin Yolu"
+}

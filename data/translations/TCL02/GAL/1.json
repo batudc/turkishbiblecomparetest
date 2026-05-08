@@ -1,1 +1,101 @@
-{"t": "TCL02", "b": "GAL", "c": 1, "content": [{"v": 1, "text": "İnsanlarca ya da insan aracılığıyla değil, İsa Mesih ve O'nu ölümden dirilten Baba Tanrı aracılığıyla elçi atanan ben Pavlus'tan ve benimle birlikte olan bütün kardeşlerden Galatya'daki kiliselere selam!"}, {"v": 3, "text": "Babamız Tanrı'dan ve Rab İsa Mesih'ten sizlere lütuf ve esenlik olsun."}, {"v": 4, "text": "Mesih, Babamız Tanrı'nın isteğine uyarak bizi şimdiki kötü çağdan kurtarmak için günahlarımıza karşılık kendini feda etti."}, {"v": 5, "text": "Tanrı'ya sonsuzlara dek yücelik olsun! Amin."}, {"v": 6, "text": "Sizi Mesih'in lütfuyla çağıranı bırakıp değişik bir müjdeye böylesine çarçabuk dönmenize şaşıyorum."}, {"v": 7, "text": "Gerçekte başka bir müjde yoktur. Ancak aklınızı karıştırıp Mesih'in Müjdesi'ni çarpıtmak isteyenler vardır."}, {"v": 8, "text": "İster biz, ister gökten bir melek size bildirdiğimize ters düşen bir müjde bildirirse, lanet olsun ona!"}, {"v": 9, "text": "Daha önce söylediğimizi şimdi yine söylüyorum: Bir kimse size kabul ettiğinize ters düşen bir müjde bildirirse, ona lanet olsun!"}, {"v": 10, "text": "Şimdi ben insanların onayını mı, Tanrı'nın onayını mı arıyorum? Yoksa insanları mı hoşnut etmeye çalışıyorum? Eğer hâlâ insanları hoşnut etmek isteseydim, Mesih'in kulu olmazdım."}, {"v": 11, "text": "Kardeşlerim, yaydığım Müjde'nin insandan kaynaklanmadığını bilmenizi istiyorum."}, {"v": 12, "text": "Çünkü ben onu insandan almadım, kimseden de öğrenmedim. Bunu bana İsa Mesih vahiy yoluyla açıkladı."}, {"v": 13, "text": "Yahudi dinine bağlı olduğum zaman nasıl bir yaşam sürdüğümü duydunuz. Tanrı'nın kilisesine alabildiğine zulmediyor, onu kırıp geçiriyordum."}, {"v": 14, "text": "Yahudi dininde yaşıtım olan soydaşlarımın birçoğundan daha ilerideydim, atalarımın geleneklerini savunmakta çok daha gayretliydim."}, {"v": 15, "text": "Ama beni daha annemin rahmindeyken seçip lütfuyla çağıran Tanrı, uluslara müjdelemem için Oğlu'nu bana göstermeye razı olunca hemen insanlara danışmadım;"}, {"v": 17, "text": "Yeruşalim'e, benden önce elçi olanların yanına da gitmedim; Arabistan'a gittim, sonra yine Şam'a döndüm."}, {"v": 18, "text": "Bundan üç yıl sonra Kefas'la tanışmak üzere Yeruşalim'e gittim, on beş gün onun yanında kaldım."}, {"v": 19, "text": "Öbür elçilerden hiçbirini görmedim, yalnız Rab İsa'nın kardeşi Yakup'u gördüm."}, {"v": 20, "text": "Bakın, size yazdıklarımın yalan olmadığını Tanrı'nın önünde belirtiyorum."}, {"v": 21, "text": "Sonra Suriye ve Kilikya bölgelerine gittim."}, {"v": 22, "text": "Yahudiye'nin Mesih'e ait kiliseleri beni şahsen tanımıyorlardı."}, {"v": 23, "text": "Yalnız, “Bir zamanlar bize zulmeden adam, önceleri yıkmaya çalıştığı imanı şimdi yayıyor” dendiğini duymuşlardı."}, {"v": 24, "text": "Böylece benden ötürü Tanrı'yı yüceltiyorlardı."}]}
+{
+  "t": "TCL02",
+  "b": "GAL",
+  "c": 1,
+  "content": [
+    {
+      "v": 1,
+      "text": "İnsanlarca ya da insan aracılığıyla değil, İsa Mesih ve O'nu ölümden dirilten Baba Tanrı aracılığıyla elçi atanan ben Pavlus'tan ve benimle birlikte olan bütün kardeşlerden Galatya'daki kiliselere selam!"
+    },
+    {
+      "v": 3,
+      "text": "Babamız Tanrı'dan ve Rab İsa Mesih'ten sizlere lütuf ve esenlik olsun."
+    },
+    {
+      "v": 4,
+      "text": "Mesih, Babamız Tanrı'nın isteğine uyarak bizi şimdiki kötü çağdan kurtarmak için günahlarımıza karşılık kendini feda etti."
+    },
+    {
+      "v": 5,
+      "text": "Tanrı'ya sonsuzlara dek yücelik olsun! Amin."
+    },
+    {
+      "section": "Tek Müjde"
+    },
+    {
+      "v": 6,
+      "text": "Sizi Mesih'in lütfuyla çağıranı bırakıp değişik bir müjdeye böylesine çarçabuk dönmenize şaşıyorum."
+    },
+    {
+      "v": 7,
+      "text": "Gerçekte başka bir müjde yoktur. Ancak aklınızı karıştırıp Mesih'in Müjdesi'ni çarpıtmak isteyenler vardır."
+    },
+    {
+      "v": 8,
+      "text": "İster biz, ister gökten bir melek size bildirdiğimize ters düşen bir müjde bildirirse, lanet olsun ona!"
+    },
+    {
+      "v": 9,
+      "text": "Daha önce söylediğimizi şimdi yine söylüyorum: Bir kimse size kabul ettiğinize ters düşen bir müjde bildirirse, ona lanet olsun!"
+    },
+    {
+      "v": 10,
+      "text": "Şimdi ben insanların onayını mı, Tanrı'nın onayını mı arıyorum? Yoksa insanları mı hoşnut etmeye çalışıyorum? Eğer hâlâ insanları hoşnut etmek isteseydim, Mesih'in kulu olmazdım."
+    },
+    {
+      "section": "Mesih'in Elçisi Pavlus"
+    },
+    {
+      "v": 11,
+      "text": "Kardeşlerim, yaydığım Müjde'nin insandan kaynaklanmadığını bilmenizi istiyorum."
+    },
+    {
+      "v": 12,
+      "text": "Çünkü ben onu insandan almadım, kimseden de öğrenmedim. Bunu bana İsa Mesih vahiy yoluyla açıkladı."
+    },
+    {
+      "v": 13,
+      "text": "Yahudi dinine bağlı olduğum zaman nasıl bir yaşam sürdüğümü duydunuz. Tanrı'nın kilisesine alabildiğine zulmediyor, onu kırıp geçiriyordum."
+    },
+    {
+      "v": 14,
+      "text": "Yahudi dininde yaşıtım olan soydaşlarımın birçoğundan daha ilerideydim, atalarımın geleneklerini savunmakta çok daha gayretliydim."
+    },
+    {
+      "v": 15,
+      "text": "Ama beni daha annemin rahmindeyken seçip lütfuyla çağıran Tanrı, uluslara müjdelemem için Oğlu'nu bana göstermeye razı olunca hemen insanlara danışmadım;"
+    },
+    {
+      "v": 17,
+      "text": "Yeruşalim'e, benden önce elçi olanların yanına da gitmedim; Arabistan'a gittim, sonra yine Şam'a döndüm."
+    },
+    {
+      "v": 18,
+      "text": "Bundan üç yıl sonra Kefas'la tanışmak üzere Yeruşalim'e gittim, on beş gün onun yanında kaldım."
+    },
+    {
+      "v": 19,
+      "text": "Öbür elçilerden hiçbirini görmedim, yalnız Rab İsa'nın kardeşi Yakup'u gördüm."
+    },
+    {
+      "v": 20,
+      "text": "Bakın, size yazdıklarımın yalan olmadığını Tanrı'nın önünde belirtiyorum."
+    },
+    {
+      "v": 21,
+      "text": "Sonra Suriye ve Kilikya bölgelerine gittim."
+    },
+    {
+      "v": 22,
+      "text": "Yahudiye'nin Mesih'e ait kiliseleri beni şahsen tanımıyorlardı."
+    },
+    {
+      "v": 23,
+      "text": "Yalnız, “Bir zamanlar bize zulmeden adam, önceleri yıkmaya çalıştığı imanı şimdi yayıyor” dendiğini duymuşlardı."
+    },
+    {
+      "v": 24,
+      "text": "Böylece benden ötürü Tanrı'yı yüceltiyorlardı."
+    }
+  ]
+}

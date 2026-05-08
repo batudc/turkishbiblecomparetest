@@ -1,1 +1,39 @@
-{"t":"TCL02","b":"PSA","c":142,"content":[{"v":1,"text":"Yüksek sesle yakarıyorum RAB'be, Yüksek sesle RAB'be yalvarıyorum."},{"v":2,"text":"Önüne döküyorum yakınmalarımı, Önünde anlatıyorum sıkıntılarımı."},{"v":3,"text":"Bunalıma düştüğümde, Gideceğim yolu sen bilirsin. Tuzak kurdular yürüdüğüm yola."},{"v":4,"text":"Sağıma bak da gör, Kimse saymıyor beni, Sığınacak yerim kalmadı, Kimse aramıyor beni."},{"v":5,"text":"Sana haykırıyorum, ya RAB: “Sığınağım, Yaşadığımız bu dünyada nasibim sensin” diyorum."},{"v":6,"text":"Haykırışıma kulak ver, Çünkü çok çaresizim; Kurtar beni ardıma düşenlerden, Çünkü benden güçlüler."},{"v":7,"text":"Çıkar beni zindandan, Adına şükredeyim. O zaman doğrular çevremi saracak, Bana iyilik ettiğin için."}]}
+{
+  "t": "TCL02",
+  "b": "PSA",
+  "c": 142,
+  "content": [
+    {
+      "section": "142. Mezmur "
+    },
+    {
+      "v": 1,
+      "text": "Yüksek sesle yakarıyorum RAB'be, Yüksek sesle RAB'be yalvarıyorum."
+    },
+    {
+      "v": 2,
+      "text": "Önüne döküyorum yakınmalarımı, Önünde anlatıyorum sıkıntılarımı."
+    },
+    {
+      "v": 3,
+      "text": "Bunalıma düştüğümde, Gideceğim yolu sen bilirsin. Tuzak kurdular yürüdüğüm yola."
+    },
+    {
+      "v": 4,
+      "text": "Sağıma bak da gör, Kimse saymıyor beni, Sığınacak yerim kalmadı, Kimse aramıyor beni."
+    },
+    {
+      "v": 5,
+      "text": "Sana haykırıyorum, ya RAB: “Sığınağım, Yaşadığımız bu dünyada nasibim sensin” diyorum."
+    },
+    {
+      "v": 6,
+      "text": "Haykırışıma kulak ver, Çünkü çok çaresizim; Kurtar beni ardıma düşenlerden, Çünkü benden güçlüler."
+    },
+    {
+      "v": 7,
+      "text": "Çıkar beni zindandan, Adına şükredeyim. O zaman doğrular çevremi saracak, Bana iyilik ettiğin için."
+    }
+  ],
+  "title": "142. Mezmur "
+}

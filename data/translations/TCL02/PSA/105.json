@@ -1,1 +1,179 @@
-{"t": "TCL02", "b": "PSA", "c": 105, "content": [{"v": 1, "text": "RAB'be şükredin, O'nu adıyla çağırın, Halklara duyurun yaptıklarını!"}, {"v": 2, "text": "O'nu ezgilerle, ilahilerle övün, Bütün harikalarını anlatın!"}, {"v": 3, "text": "Kutsal adıyla övünün, Sevinsin RAB'be yönelenler!"}, {"v": 4, "text": "RAB'be ve O'nun gücüne bakın, Durmadan O'nun yüzünü arayın!"}, {"v": 5, "text": "Ey sizler, kulu İbrahim'in soyu, Seçtiği Yakupoğulları, O'nun yaptığı harikaları, Olağanüstü işlerini Ve ağzından çıkan yargıları anımsayın!"}, {"v": 7, "text": "Tanrımız RAB O'dur, Yargıları bütün yeryüzünü kapsar."}, {"v": 8, "text": "O antlaşmasını, Bin kuşak için verdiği sözü, İbrahim'le yaptığı antlaşmayı, İshak için içtiği andı sonsuza dek anımsar."}, {"v": 10, "text": "“Hakkınıza düşen mülk olarak Kenan ülkesini size vereceğim” diyerek, Bunu Yakup için bir kural, İsrail'le sonsuza dek geçerli bir antlaşma yaptı."}, {"v": 12, "text": "O zaman bir avuç insandılar, Sayıca az ve ülkeye yabancıydılar."}, {"v": 13, "text": "Bir ulustan öbürüne, Bir ülkeden ötekine dolaşıp durdular."}, {"v": 14, "text": "RAB kimsenin onları ezmesine izin vermedi, Onlar için kralları bile payladı:"}, {"v": 15, "text": "“Meshettiklerime dokunmayın, Peygamberlerime kötülük etmeyin!” dedi."}, {"v": 16, "text": "Ülkeye kıtlık gönderdi, Bütün yiyeceklerini yok etti."}, {"v": 17, "text": "Önlerinden bir adam göndermişti, Köle olarak satılan Yusuf'tu bu."}, {"v": 18, "text": "Zincir vurup incittiler ayaklarını, Demir halka geçirdiler boynuna,"}, {"v": 19, "text": "Söyledikleri gerçekleşinceye dek, RAB'bin sözü onu sınadı."}, {"v": 20, "text": "Kral adam gönderip Yusuf'u salıverdi, Halklara egemen olan onu özgür kıldı."}, {"v": 21, "text": "Onu kendi sarayının efendisi, Bütün varlığının sorumlusu yaptı;"}, {"v": 22, "text": "Önderlerini istediği gibi eğitsin, İleri gelenlerine akıl versin diye."}, {"v": 23, "text": "O zaman İsrail Mısır'a gitti, Yakup Ham ülkesine yerleşti."}, {"v": 24, "text": "RAB halkını alabildiğine çoğalttı, Düşmanlarından sayıca artırdı onları."}, {"v": 25, "text": "Sonunda tutumunu değiştirdi düşmanlarının: Halkından tiksindiler, Kullarına kurnazca davrandılar."}, {"v": 26, "text": "Kulu Musa'yı, Seçtiği Harun'u gönderdi aralarına."}, {"v": 27, "text": "Onlar gösterdiler RAB'bin belirtilerini, Ham ülkesinde şaşılası işlerini."}, {"v": 28, "text": "Karanlık gönderip ülkeyi karanlığa bürüdü RAB, Çünkü Mısırlılar O'nun sözlerine karşı gelmişti."}, {"v": 29, "text": "Kana çevirdi sularını, Öldürdü balıklarını."}, {"v": 30, "text": "Ülkede kurbağalar kaynaştı Krallarının odalarına kadar."}, {"v": 31, "text": "RAB buyurunca sinek sürüleri, Sivrisinekler üşüştü ülkenin her yanına."}, {"v": 32, "text": "Dolu yağdırdı yağmur yerine, Şimşekler çaktırdı ülkelerinde."}, {"v": 33, "text": "Bağlarını, incir ağaçlarını vurdu, Parçaladı ülkenin ağaçlarını."}, {"v": 34, "text": "O buyurunca çekirgeler, Sayısız yavrular kaynadı."}, {"v": 35, "text": "Ülkenin bütün bitkilerini yediler, Toprağın ürününü yiyip bitirdiler."}, {"v": 36, "text": "RAB ülkede ilk doğanların hepsini, İlk çocuklarını öldürdü."}, {"v": 37, "text": "İsrailliler'i ülkeden altın ve gümüşle çıkardı, Oymaklarından tek kişi bile tökezlemedi."}, {"v": 38, "text": "Onlar gidince Mısır sevindi, Çünkü İsrail korkusu çökmüştü Mısır'ın üzerine."}, {"v": 39, "text": "RAB bulutu bir örtü gibi yaydı üzerlerine, Gece ateş verdi yollarını aydınlatsın diye."}, {"v": 40, "text": "İstediler, bıldırcın gönderdi, Göksel ekmekle doyurdu karınlarını."}, {"v": 41, "text": "Kayayı yardı, sular fışkırdı, Çorak topraklarda bir ırmak gibi aktı."}, {"v": 42, "text": "Çünkü kutsal sözünü, Kulu İbrahim'e verdiği sözü anımsadı."}, {"v": 43, "text": "Halkını sevinç içinde, Seçtiklerini sevinç çığlıklarıyla ülkeden çıkardı."}, {"v": 44, "text": "Ulusların topraklarını verdi onlara. Halkların emeğini miras aldılar;"}, {"v": 45, "text": "Kurallarını yerine getirsinler, Yasalarına uysunlar diye. RAB'be övgüler sunun!"}]}
+{
+  "t": "TCL02",
+  "b": "PSA",
+  "c": 105,
+  "content": [
+    {
+      "section": "105. Mezmur"
+    },
+    {
+      "v": 1,
+      "text": "RAB'be şükredin, O'nu adıyla çağırın, Halklara duyurun yaptıklarını!"
+    },
+    {
+      "v": 2,
+      "text": "O'nu ezgilerle, ilahilerle övün, Bütün harikalarını anlatın!"
+    },
+    {
+      "v": 3,
+      "text": "Kutsal adıyla övünün, Sevinsin RAB'be yönelenler!"
+    },
+    {
+      "v": 4,
+      "text": "RAB'be ve O'nun gücüne bakın, Durmadan O'nun yüzünü arayın!"
+    },
+    {
+      "v": 5,
+      "text": "Ey sizler, kulu İbrahim'in soyu, Seçtiği Yakupoğulları, O'nun yaptığı harikaları, Olağanüstü işlerini Ve ağzından çıkan yargıları anımsayın!"
+    },
+    {
+      "v": 7,
+      "text": "Tanrımız RAB O'dur, Yargıları bütün yeryüzünü kapsar."
+    },
+    {
+      "v": 8,
+      "text": "O antlaşmasını, Bin kuşak için verdiği sözü, İbrahim'le yaptığı antlaşmayı, İshak için içtiği andı sonsuza dek anımsar."
+    },
+    {
+      "v": 10,
+      "text": "“Hakkınıza düşen mülk olarak Kenan ülkesini size vereceğim” diyerek, Bunu Yakup için bir kural, İsrail'le sonsuza dek geçerli bir antlaşma yaptı."
+    },
+    {
+      "v": 12,
+      "text": "O zaman bir avuç insandılar, Sayıca az ve ülkeye yabancıydılar."
+    },
+    {
+      "v": 13,
+      "text": "Bir ulustan öbürüne, Bir ülkeden ötekine dolaşıp durdular."
+    },
+    {
+      "v": 14,
+      "text": "RAB kimsenin onları ezmesine izin vermedi, Onlar için kralları bile payladı:"
+    },
+    {
+      "v": 15,
+      "text": "“Meshettiklerime dokunmayın, Peygamberlerime kötülük etmeyin!” dedi."
+    },
+    {
+      "v": 16,
+      "text": "Ülkeye kıtlık gönderdi, Bütün yiyeceklerini yok etti."
+    },
+    {
+      "v": 17,
+      "text": "Önlerinden bir adam göndermişti, Köle olarak satılan Yusuf'tu bu."
+    },
+    {
+      "v": 18,
+      "text": "Zincir vurup incittiler ayaklarını, Demir halka geçirdiler boynuna,"
+    },
+    {
+      "v": 19,
+      "text": "Söyledikleri gerçekleşinceye dek, RAB'bin sözü onu sınadı."
+    },
+    {
+      "v": 20,
+      "text": "Kral adam gönderip Yusuf'u salıverdi, Halklara egemen olan onu özgür kıldı."
+    },
+    {
+      "v": 21,
+      "text": "Onu kendi sarayının efendisi, Bütün varlığının sorumlusu yaptı;"
+    },
+    {
+      "v": 22,
+      "text": "Önderlerini istediği gibi eğitsin, İleri gelenlerine akıl versin diye."
+    },
+    {
+      "v": 23,
+      "text": "O zaman İsrail Mısır'a gitti, Yakup Ham ülkesine yerleşti."
+    },
+    {
+      "v": 24,
+      "text": "RAB halkını alabildiğine çoğalttı, Düşmanlarından sayıca artırdı onları."
+    },
+    {
+      "v": 25,
+      "text": "Sonunda tutumunu değiştirdi düşmanlarının: Halkından tiksindiler, Kullarına kurnazca davrandılar."
+    },
+    {
+      "v": 26,
+      "text": "Kulu Musa'yı, Seçtiği Harun'u gönderdi aralarına."
+    },
+    {
+      "v": 27,
+      "text": "Onlar gösterdiler RAB'bin belirtilerini, Ham ülkesinde şaşılası işlerini."
+    },
+    {
+      "v": 28,
+      "text": "Karanlık gönderip ülkeyi karanlığa bürüdü RAB, Çünkü Mısırlılar O'nun sözlerine karşı gelmişti."
+    },
+    {
+      "v": 29,
+      "text": "Kana çevirdi sularını, Öldürdü balıklarını."
+    },
+    {
+      "v": 30,
+      "text": "Ülkede kurbağalar kaynaştı Krallarının odalarına kadar."
+    },
+    {
+      "v": 31,
+      "text": "RAB buyurunca sinek sürüleri, Sivrisinekler üşüştü ülkenin her yanına."
+    },
+    {
+      "v": 32,
+      "text": "Dolu yağdırdı yağmur yerine, Şimşekler çaktırdı ülkelerinde."
+    },
+    {
+      "v": 33,
+      "text": "Bağlarını, incir ağaçlarını vurdu, Parçaladı ülkenin ağaçlarını."
+    },
+    {
+      "v": 34,
+      "text": "O buyurunca çekirgeler, Sayısız yavrular kaynadı."
+    },
+    {
+      "v": 35,
+      "text": "Ülkenin bütün bitkilerini yediler, Toprağın ürününü yiyip bitirdiler."
+    },
+    {
+      "v": 36,
+      "text": "RAB ülkede ilk doğanların hepsini, İlk çocuklarını öldürdü."
+    },
+    {
+      "v": 37,
+      "text": "İsrailliler'i ülkeden altın ve gümüşle çıkardı, Oymaklarından tek kişi bile tökezlemedi."
+    },
+    {
+      "v": 38,
+      "text": "Onlar gidince Mısır sevindi, Çünkü İsrail korkusu çökmüştü Mısır'ın üzerine."
+    },
+    {
+      "v": 39,
+      "text": "RAB bulutu bir örtü gibi yaydı üzerlerine, Gece ateş verdi yollarını aydınlatsın diye."
+    },
+    {
+      "v": 40,
+      "text": "İstediler, bıldırcın gönderdi, Göksel ekmekle doyurdu karınlarını."
+    },
+    {
+      "v": 41,
+      "text": "Kayayı yardı, sular fışkırdı, Çorak topraklarda bir ırmak gibi aktı."
+    },
+    {
+      "v": 42,
+      "text": "Çünkü kutsal sözünü, Kulu İbrahim'e verdiği sözü anımsadı."
+    },
+    {
+      "v": 43,
+      "text": "Halkını sevinç içinde, Seçtiklerini sevinç çığlıklarıyla ülkeden çıkardı."
+    },
+    {
+      "v": 44,
+      "text": "Ulusların topraklarını verdi onlara. Halkların emeğini miras aldılar;"
+    },
+    {
+      "v": 45,
+      "text": "Kurallarını yerine getirsinler, Yasalarına uysunlar diye. RAB'be övgüler sunun!"
+    }
+  ],
+  "title": "105. Mezmur"
+}

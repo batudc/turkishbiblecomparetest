@@ -1,1 +1,39 @@
-{"t":"TCL02","b":"PSA","c":120,"content":[{"v":1,"text":"Sıkıntıya düşünce RAB'be seslendim; Yanıtladı beni."},{"v":2,"text":"Ya RAB, kurtar canımı yalancı dudaklardan, Aldatıcı dillerden!"},{"v":3,"text":"Ey aldatıcı dil, RAB ne verecek sana, Daha ne verecek?"},{"v":4,"text":"Yiğidin sivri oklarıyla Retem çalısından alevli korlar!"},{"v":5,"text":"Vay bana, Meşek'te garip kaldım sanki, Kedar çadırları arasında oturdum."},{"v":6,"text":"Fazla kaldım Barıştan nefret edenler arasında."},{"v":7,"text":"Ben barış yanlısıyım, Ama söze başladığımda, Onlar savaşa kalkıyor!"}]}
+{
+  "t": "TCL02",
+  "b": "PSA",
+  "c": 120,
+  "content": [
+    {
+      "section": "120. Mezmur"
+    },
+    {
+      "v": 1,
+      "text": "Sıkıntıya düşünce RAB'be seslendim; Yanıtladı beni."
+    },
+    {
+      "v": 2,
+      "text": "Ya RAB, kurtar canımı yalancı dudaklardan, Aldatıcı dillerden!"
+    },
+    {
+      "v": 3,
+      "text": "Ey aldatıcı dil, RAB ne verecek sana, Daha ne verecek?"
+    },
+    {
+      "v": 4,
+      "text": "Yiğidin sivri oklarıyla Retem çalısından alevli korlar!"
+    },
+    {
+      "v": 5,
+      "text": "Vay bana, Meşek'te garip kaldım sanki, Kedar çadırları arasında oturdum."
+    },
+    {
+      "v": 6,
+      "text": "Fazla kaldım Barıştan nefret edenler arasında."
+    },
+    {
+      "v": 7,
+      "text": "Ben barış yanlısıyım, Ama söze başladığımda, Onlar savaşa kalkıyor!"
+    }
+  ],
+  "title": "120. Mezmur"
+}

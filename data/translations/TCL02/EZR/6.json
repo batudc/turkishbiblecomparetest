@@ -1,1 +1,101 @@
-{"t": "TCL02", "b": "EZR", "c": 6, "content": [{"v": 1, "text": "Kral Darius'un buyruğu uyarınca, Babil'de kayıtların saklandığı odada araştırma yapıldı."}, {"v": 2, "text": "Medya İli'ndeki Ahmeta Kalesi'nde bir tomar bulundu. Tomarın içinde şunlar yazılıydı:"}, {"v": 3, "text": "“Kral Koreş, krallığının birinci yılında, Tanrı'nın Yeruşalim'deki Tapınağı'na ilişkin şöyle buyruk verdi: ‘Kurban kesmek üzere bu tapınağın yeniden kurulması için temel atılsın. Üç sıra büyük taş, bir sıra kiriş döşensin. Yüksekliği ve genişliği altmışar arşın olsun. Giderler saraydan karşılansın."}, {"v": 5, "text": "Nebukadnessar'ın Yeruşalim'deki Tanrı'nın Tapınağı'ndan çıkarıp Babil'e getirdiği altın ve gümüş kaplar da geri verilsin. Yeruşalim'deki tapınakta özel yerlerine götürülsün. Hepsi Tanrı'nın Tapınağı'na konsun.’ ”"}, {"v": 6, "text": "“Onun için siz, Fırat'ın batı yakasındaki bölge valisi Tattenay, Şetar-Bozenay, çalışma arkadaşları ve oranın görevlileri, tapınaktan uzak durun!"}, {"v": 7, "text": "Tanrı'nın Tapınağı'nın yapım işlerine karışmayın. Bırakın, Yahudiler'in valisiyle ileri gelenleri Tanrı'nın Tapınağı'nı eski yerinde yeniden kursunlar."}, {"v": 8, "text": "Ayrıca Tanrı'nın Tapınağı'nın yeniden kurulması için Yahudi ileri gelenlerine neler yapmanız gerektiğini de size buyuruyorum: Bu adamların bütün giderleri kralın hazinesinden, Fırat'ın batı yakasındaki bölgeden toplanan vergilerden ödensin. Öyle ki, yapım işleri aksamasın."}, {"v": 9, "text": "Yeruşalim'deki kâhinlerin bütün gereksinimlerini hiç aksatmadan her gün vereceksiniz: Göklerin Tanrısı'na sunulacak yakmalık sunular için genç boğalar, koçlar, kuzular ve buğday, tuz, şarap, zeytinyağı."}, {"v": 10, "text": "Öyle ki, Göklerin Tanrısı'nı hoşnut eden sunular sunsunlar, ben ve oğullarım sağ kalalım diye dua etsinler."}, {"v": 11, "text": "Bundan başka buyuruyorum ki, bu kararı değiştirenin evinden bir kiriş çıkarılacak ve o kişi kirişin üzerine asılacak. Evi de bu suçtan ötürü çöplüğe çevrilecek."}, {"v": 12, "text": "Yeruşalim'i adına konut seçen Tanrı, bu kararı değiştirmeye, oradaki Tanrı Tapınağı'nı yıkmaya kalkışan her kralı ve ulusu yok etsin. Ben Darius böyle buyurdum. Buyruğum özenle yerine getirilsin.”"}, {"v": 13, "text": "Fırat'ın batı yakasındaki bölge valisi Tattenay, Şetar-Bozenay ve çalışma arkadaşları Kral Darius'un buyruğunu özenle yerine getirdiler."}, {"v": 14, "text": "Peygamber Hagay ile İddo oğlu Zekeriya'nın yaptıkları peygamberlik sayesinde Yahudi ileri gelenleri yapım işlerini başarıyla ilerlettiler. İsrail Tanrısı'nın buyruğu ve Pers kralları Koreş'in, Darius'un, Artahşasta'nın buyrukları uyarınca tapınağın yapımını bitirdiler."}, {"v": 15, "text": "Tapınak Kral Darius'un krallığının altıncı yılı, Adar ayının üçüncü günü tamamlandı."}, {"v": 16, "text": "İsrail halkı –kâhinler, Levililer ve sürgünden dönenlerin tümü– Tanrı'nın Tapınağı'nın adanmasını sevinçle kutladılar."}, {"v": 17, "text": "Tanrı'nın Tapınağı'nın adanması için yüz boğa, iki yüz koç, dört yüz kuzu kurban ettiler. Oymakların sayısına göre, bütün İsrailliler için günah sunusu olarak on iki teke sundular."}, {"v": 18, "text": "Musa'nın Kitabı'ndaki kural uyarınca Tanrı'nın Yeruşalim'deki hizmeti için kâhinlerle Levililer'i bağlı oldukları bölüklere göre görevlere atadılar."}, {"v": 19, "text": "Sürgünden dönenler birinci ayın on dördüncü günü Fısıh Bayramı'nı kutladılar."}, {"v": 20, "text": "Kâhinlerle Levililer hep birlikte kendilerini arındırdılar; dinsel açıdan hepsi arındı. Levililer sürgünden dönenlerin tümü, kardeşleri olan kâhinler ve kendileri için Fısıh kurbanını kestiler."}, {"v": 21, "text": "Sürgünden dönen İsrailliler'le İsrail'in Tanrısı RAB'be yönelmek amacıyla kendilerini çevredeki halkların kötü alışkanlıklarından ayırıp onlara katılanların hepsi kurban etinden yedi."}, {"v": 22, "text": "Mayasız Ekmek Bayramı'nı yedi gün sevinçle kutladılar. Çünkü RAB onları sevindirdi ve Asur Kralı'nın onlara iyi davranmasını, İsrail'in Tanrısı Tanrı'nın Tapınağı'nın yapım işlerinde onlara yardım etmesini sağladı."}]}
+{
+  "t": "TCL02",
+  "b": "EZR",
+  "c": 6,
+  "content": [
+    {
+      "section": "Darius'un Buyruğu"
+    },
+    {
+      "v": 1,
+      "text": "Kral Darius'un buyruğu uyarınca, Babil'de kayıtların saklandığı odada araştırma yapıldı."
+    },
+    {
+      "v": 2,
+      "text": "Medya İli'ndeki Ahmeta Kalesi'nde bir tomar bulundu. Tomarın içinde şunlar yazılıydı:"
+    },
+    {
+      "v": 3,
+      "text": "“Kral Koreş, krallığının birinci yılında, Tanrı'nın Yeruşalim'deki Tapınağı'na ilişkin şöyle buyruk verdi: ‘Kurban kesmek üzere bu tapınağın yeniden kurulması için temel atılsın. Üç sıra büyük taş, bir sıra kiriş döşensin. Yüksekliği ve genişliği altmışar arşın olsun. Giderler saraydan karşılansın."
+    },
+    {
+      "v": 5,
+      "text": "Nebukadnessar'ın Yeruşalim'deki Tanrı'nın Tapınağı'ndan çıkarıp Babil'e getirdiği altın ve gümüş kaplar da geri verilsin. Yeruşalim'deki tapınakta özel yerlerine götürülsün. Hepsi Tanrı'nın Tapınağı'na konsun.’ ”"
+    },
+    {
+      "v": 6,
+      "text": "“Onun için siz, Fırat'ın batı yakasındaki bölge valisi Tattenay, Şetar-Bozenay, çalışma arkadaşları ve oranın görevlileri, tapınaktan uzak durun!"
+    },
+    {
+      "v": 7,
+      "text": "Tanrı'nın Tapınağı'nın yapım işlerine karışmayın. Bırakın, Yahudiler'in valisiyle ileri gelenleri Tanrı'nın Tapınağı'nı eski yerinde yeniden kursunlar."
+    },
+    {
+      "v": 8,
+      "text": "Ayrıca Tanrı'nın Tapınağı'nın yeniden kurulması için Yahudi ileri gelenlerine neler yapmanız gerektiğini de size buyuruyorum: Bu adamların bütün giderleri kralın hazinesinden, Fırat'ın batı yakasındaki bölgeden toplanan vergilerden ödensin. Öyle ki, yapım işleri aksamasın."
+    },
+    {
+      "v": 9,
+      "text": "Yeruşalim'deki kâhinlerin bütün gereksinimlerini hiç aksatmadan her gün vereceksiniz: Göklerin Tanrısı'na sunulacak yakmalık sunular için genç boğalar, koçlar, kuzular ve buğday, tuz, şarap, zeytinyağı."
+    },
+    {
+      "v": 10,
+      "text": "Öyle ki, Göklerin Tanrısı'nı hoşnut eden sunular sunsunlar, ben ve oğullarım sağ kalalım diye dua etsinler."
+    },
+    {
+      "v": 11,
+      "text": "Bundan başka buyuruyorum ki, bu kararı değiştirenin evinden bir kiriş çıkarılacak ve o kişi kirişin üzerine asılacak. Evi de bu suçtan ötürü çöplüğe çevrilecek."
+    },
+    {
+      "v": 12,
+      "text": "Yeruşalim'i adına konut seçen Tanrı, bu kararı değiştirmeye, oradaki Tanrı Tapınağı'nı yıkmaya kalkışan her kralı ve ulusu yok etsin. Ben Darius böyle buyurdum. Buyruğum özenle yerine getirilsin.”"
+    },
+    {
+      "section": "Tapınağın Adanması"
+    },
+    {
+      "v": 13,
+      "text": "Fırat'ın batı yakasındaki bölge valisi Tattenay, Şetar-Bozenay ve çalışma arkadaşları Kral Darius'un buyruğunu özenle yerine getirdiler."
+    },
+    {
+      "v": 14,
+      "text": "Peygamber Hagay ile İddo oğlu Zekeriya'nın yaptıkları peygamberlik sayesinde Yahudi ileri gelenleri yapım işlerini başarıyla ilerlettiler. İsrail Tanrısı'nın buyruğu ve Pers kralları Koreş'in, Darius'un, Artahşasta'nın buyrukları uyarınca tapınağın yapımını bitirdiler."
+    },
+    {
+      "v": 15,
+      "text": "Tapınak Kral Darius'un krallığının altıncı yılı, Adar ayının üçüncü günü tamamlandı."
+    },
+    {
+      "v": 16,
+      "text": "İsrail halkı –kâhinler, Levililer ve sürgünden dönenlerin tümü– Tanrı'nın Tapınağı'nın adanmasını sevinçle kutladılar."
+    },
+    {
+      "v": 17,
+      "text": "Tanrı'nın Tapınağı'nın adanması için yüz boğa, iki yüz koç, dört yüz kuzu kurban ettiler. Oymakların sayısına göre, bütün İsrailliler için günah sunusu olarak on iki teke sundular."
+    },
+    {
+      "v": 18,
+      "text": "Musa'nın Kitabı'ndaki kural uyarınca Tanrı'nın Yeruşalim'deki hizmeti için kâhinlerle Levililer'i bağlı oldukları bölüklere göre görevlere atadılar."
+    },
+    {
+      "section": "Fısıh Bayramı Kutlanıyor"
+    },
+    {
+      "v": 19,
+      "text": "Sürgünden dönenler birinci ayın on dördüncü günü Fısıh Bayramı'nı kutladılar."
+    },
+    {
+      "v": 20,
+      "text": "Kâhinlerle Levililer hep birlikte kendilerini arındırdılar; dinsel açıdan hepsi arındı. Levililer sürgünden dönenlerin tümü, kardeşleri olan kâhinler ve kendileri için Fısıh kurbanını kestiler."
+    },
+    {
+      "v": 21,
+      "text": "Sürgünden dönen İsrailliler'le İsrail'in Tanrısı RAB'be yönelmek amacıyla kendilerini çevredeki halkların kötü alışkanlıklarından ayırıp onlara katılanların hepsi kurban etinden yedi."
+    },
+    {
+      "v": 22,
+      "text": "Mayasız Ekmek Bayramı'nı yedi gün sevinçle kutladılar. Çünkü RAB onları sevindirdi ve Asur Kralı'nın onlara iyi davranmasını, İsrail'in Tanrısı Tanrı'nın Tapınağı'nın yapım işlerinde onlara yardım etmesini sağladı."
+    }
+  ],
+  "title": "Darius'un Buyruğu"
+}

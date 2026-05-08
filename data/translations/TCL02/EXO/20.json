@@ -1,1 +1,121 @@
-{"t":"TCL02","b":"EXO","c":20,"content":[{"v":1,"text":"Tanrı şöyle konuştu:"},{"v":2,"text":"“Seni Mısır'dan, köle olduğun ülkeden çıkaran Tanrın RAB benim."},{"v":3,"text":"“Benden başka tanrın olmayacak."},{"v":4,"text":"“Kendine yukarıda gökyüzünde, aşağıda yeryüzünde ya da yer altındaki sularda yaşayan herhangi bir canlıya benzer put yapmayacaksın."},{"v":5,"text":"Putların önünde eğilmeyecek, onlara tapmayacaksın. Çünkü ben, Tanrın RAB, kıskanç bir Tanrı'yım. Benden nefret edenin babasının işlediği suçun hesabını çocuklarından, üçüncü, dördüncü kuşaklardan sorarım."},{"v":6,"text":"Ama beni seven, buyruklarıma uyan binlerce kuşağa sevgi gösteririm."},{"v":7,"text":"“Tanrın RAB'bin adını boş yere ağzına almayacaksın. Çünkü RAB, adını boş yere ağzına alanları cezasız bırakmayacaktır."},{"v":8,"text":"“Şabat Günü'nü kutsal sayarak anımsa."},{"v":9,"text":"Altı gün çalışacak, bütün işlerini yapacaksın."},{"v":10,"text":"Ama yedinci gün bana, Tanrın RAB'be Şabat Günü olarak adanmıştır. O gün sen, oğlun, kızın, erkek ve kadın kölen, hayvanların, aranızdaki yabancılar dahil, hiçbir iş yapmayacaksınız."},{"v":11,"text":"Çünkü ben, RAB yeri göğü, denizi ve bütün canlıları altı günde yarattım, yedinci gün dinlendim. Bu yüzden Şabat Günü'nü kutsadım ve kutsal bir gün olarak belirledim."},{"v":12,"text":"“Annene babana saygı göster. Öyle ki, Tanrın RAB'bin sana vereceği ülkede ömrün uzun olsun."},{"v":13,"text":"“Adam öldürmeyeceksin."},{"v":14,"text":"“Zina etmeyeceksin."},{"v":15,"text":"“Çalmayacaksın."},{"v":16,"text":"“Komşuna karşı yalan yere tanıklık etmeyeceksin."},{"v":17,"text":"“Komşunun evine, karısına, erkek ve kadın kölesine, öküzüne, eşeğine, hiçbir şeyine göz dikmeyeceksin.”"},{"v":18,"text":"Halk gök gürlemelerini, boru sesini duyup şimşekleri ve dağın başındaki dumanı görünce korkudan titremeye başladı. Uzakta durarak"},{"v":19,"text":"Musa'ya, “Bizimle sen konuş, dinleyelim” dediler, “Ama Tanrı konuşmasın, yoksa ölürüz.”"},{"v":20,"text":"Musa, “Korkmayın!” diye karşılık verdi, “Tanrı sizi denemek için geldi; Tanrı korkusu üzerinizde olsun, günah işlemeyesiniz diye.”"},{"v":21,"text":"Musa Tanrı'nın içinde bulunduğu koyu karanlığa yaklaşırken halk uzakta durdu."},{"v":22,"text":"RAB Musa'ya şöyle dedi: “İsrailliler'e de ki, ‘Göklerden sizinle konuştuğumu gördünüz."},{"v":23,"text":"Benim yanımsıra başka ilahlar yapmayacaksınız, altın ya da gümüş ilahlar dökmeyeceksiniz."},{"v":24,"text":"Benim için toprak bir sunak yapacaksınız. Yakmalık ve esenlik sunularınızı, davarlarınızı, sığırlarınızı onun üzerinde sunacaksınız. Adımı anımsattığım her yere gelip sizi kutsayacağım."},{"v":25,"text":"Eğer bana taş sunak yaparsanız, yontma taş kullanmayın. Çünkü kullanacağınız alet sunağın kutsallığını bozar."},{"v":26,"text":"Sunağımın üzerine basamakla çıkmayacaksınız. Çünkü çıplak yeriniz görünebilir.’ ”"}]}
+{
+  "t": "TCL02",
+  "b": "EXO",
+  "c": 20,
+  "content": [
+    {
+      "section": "On Buyruk"
+    },
+    {
+      "v": 1,
+      "text": "Tanrı şöyle konuştu:"
+    },
+    {
+      "v": 2,
+      "text": "“Seni Mısır'dan, köle olduğun ülkeden çıkaran Tanrın RAB benim."
+    },
+    {
+      "v": 3,
+      "text": "“Benden başka tanrın olmayacak."
+    },
+    {
+      "v": 4,
+      "text": "“Kendine yukarıda gökyüzünde, aşağıda yeryüzünde ya da yer altındaki sularda yaşayan herhangi bir canlıya benzer put yapmayacaksın."
+    },
+    {
+      "v": 5,
+      "text": "Putların önünde eğilmeyecek, onlara tapmayacaksın. Çünkü ben, Tanrın RAB, kıskanç bir Tanrı'yım. Benden nefret edenin babasının işlediği suçun hesabını çocuklarından, üçüncü, dördüncü kuşaklardan sorarım."
+    },
+    {
+      "v": 6,
+      "text": "Ama beni seven, buyruklarıma uyan binlerce kuşağa sevgi gösteririm."
+    },
+    {
+      "v": 7,
+      "text": "“Tanrın RAB'bin adını boş yere ağzına almayacaksın. Çünkü RAB, adını boş yere ağzına alanları cezasız bırakmayacaktır."
+    },
+    {
+      "v": 8,
+      "text": "“Şabat Günü'nü kutsal sayarak anımsa."
+    },
+    {
+      "v": 9,
+      "text": "Altı gün çalışacak, bütün işlerini yapacaksın."
+    },
+    {
+      "v": 10,
+      "text": "Ama yedinci gün bana, Tanrın RAB'be Şabat Günü olarak adanmıştır. O gün sen, oğlun, kızın, erkek ve kadın kölen, hayvanların, aranızdaki yabancılar dahil, hiçbir iş yapmayacaksınız."
+    },
+    {
+      "v": 11,
+      "text": "Çünkü ben, RAB yeri göğü, denizi ve bütün canlıları altı günde yarattım, yedinci gün dinlendim. Bu yüzden Şabat Günü'nü kutsadım ve kutsal bir gün olarak belirledim."
+    },
+    {
+      "v": 12,
+      "text": "“Annene babana saygı göster. Öyle ki, Tanrın RAB'bin sana vereceği ülkede ömrün uzun olsun."
+    },
+    {
+      "v": 13,
+      "text": "“Adam öldürmeyeceksin."
+    },
+    {
+      "v": 14,
+      "text": "“Zina etmeyeceksin."
+    },
+    {
+      "v": 15,
+      "text": "“Çalmayacaksın."
+    },
+    {
+      "v": 16,
+      "text": "“Komşuna karşı yalan yere tanıklık etmeyeceksin."
+    },
+    {
+      "v": 17,
+      "text": "“Komşunun evine, karısına, erkek ve kadın kölesine, öküzüne, eşeğine, hiçbir şeyine göz dikmeyeceksin.”"
+    },
+    {
+      "section": "İsrailliler Korkuyor"
+    },
+    {
+      "v": 18,
+      "text": "Halk gök gürlemelerini, boru sesini duyup şimşekleri ve dağın başındaki dumanı görünce korkudan titremeye başladı. Uzakta durarak"
+    },
+    {
+      "v": 19,
+      "text": "Musa'ya, “Bizimle sen konuş, dinleyelim” dediler, “Ama Tanrı konuşmasın, yoksa ölürüz.”"
+    },
+    {
+      "v": 20,
+      "text": "Musa, “Korkmayın!” diye karşılık verdi, “Tanrı sizi denemek için geldi; Tanrı korkusu üzerinizde olsun, günah işlemeyesiniz diye.”"
+    },
+    {
+      "v": 21,
+      "text": "Musa Tanrı'nın içinde bulunduğu koyu karanlığa yaklaşırken halk uzakta durdu."
+    },
+    {
+      "section": "Sunaklara İlişkin Yasalar"
+    },
+    {
+      "v": 22,
+      "text": "RAB Musa'ya şöyle dedi: “İsrailliler'e de ki, ‘Göklerden sizinle konuştuğumu gördünüz."
+    },
+    {
+      "v": 23,
+      "text": "Benim yanımsıra başka ilahlar yapmayacaksınız, altın ya da gümüş ilahlar dökmeyeceksiniz."
+    },
+    {
+      "v": 24,
+      "text": "Benim için toprak bir sunak yapacaksınız. Yakmalık ve esenlik sunularınızı, davarlarınızı, sığırlarınızı onun üzerinde sunacaksınız. Adımı anımsattığım her yere gelip sizi kutsayacağım."
+    },
+    {
+      "v": 25,
+      "text": "Eğer bana taş sunak yaparsanız, yontma taş kullanmayın. Çünkü kullanacağınız alet sunağın kutsallığını bozar."
+    },
+    {
+      "v": 26,
+      "text": "Sunağımın üzerine basamakla çıkmayacaksınız. Çünkü çıplak yeriniz görünebilir.’ ”"
+    }
+  ],
+  "title": "On Buyruk"
+}

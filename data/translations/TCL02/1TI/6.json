@@ -1,1 +1,78 @@
-{"t": "TCL02", "b": "1TI", "c": 6, "content": [{"v": 1, "text": "Kölelik boyunduruğu altında olanların hepsi kendi efendilerini tam bir saygıya layık görsünler ki, Tanrı'nın adı ve öğretisi kötülenmesin."}, {"v": 2, "text": "Efendileri iman etmiş olanlarsa, nasıl olsa kardeşiz deyip efendilerine saygısızlık etmesinler. Tersine, daha iyi hizmet etsinler. Çünkü bu iyi hizmetten yararlananlar, sevdikleri imanlılardır. Bu ilkeleri öğret ve öğütle."}, {"v": 3, "text": "Eğer biri farklı öğretiler yayar, doğru sözleri, yani Rabbimiz İsa Mesih'in sözlerini ve Tanrı yoluna dayanan öğretiyi onaylamazsa, kendini beğenmiş, bilgisiz bir kişidir. Böyle biri tartışmaları ve kelime kavgalarını hastalık derecesinde sever. Bu şeyler kıskançlığa, çekişmeye, iftiraya, kötü kuşkulara, düşünceleri yozlaşmış ve gerçeği yitirmiş kişilerin durmadan sürtüşmesine yol açar. Onlar Tanrı yolunu kazanç yolu sanıyorlar."}, {"v": 6, "text": "Oysa eldekiyle yetinerek Tanrı yolunda yürümek büyük kazançtır."}, {"v": 7, "text": "Çünkü dünyaya ne bir şey getirdik, ne de ondan bir şey götürebiliriz."}, {"v": 8, "text": "Yiyeceğimiz, giyeceğimiz varsa bunlarla yetiniriz."}, {"v": 9, "text": "Zengin olmak isteyenler ayartılıp tuzağa düşerler, insanı çöküşe ve yıkıma götüren birçok saçma ve zararlı arzulara kapılırlar."}, {"v": 10, "text": "Çünkü her türlü kötülüğün bir kökü de para sevgisidir. Kimileri zengin olma hevesiyle imandan saptılar, kendi kendilerine çok acı çektirdiler."}, {"v": 11, "text": "Ama sen, ey Tanrı adamı, bu şeylerden kaç! Doğruluğun, Tanrı yolunun, imanın, sevginin, sabrın, uysallığın ardından koş."}, {"v": 12, "text": "İman uğrunda yüce mücadeleyi sürdür. Sonsuz yaşama sımsıkı sarıl. Bunun için çağrıldın ve birçok tanık önünde yüce inancı açıkça benimsedin."}, {"v": 13, "text": "Her şeye yaşam veren Tanrı'nın ve Pontius Pilatus önünde yüce inanca tanıklık etmiş olan Mesih İsa'nın huzurunda sana buyuruyorum: Rabbimiz İsa Mesih'in gelişine dek Tanrı buyruğunu lekesiz ve kusursuz olarak koru."}, {"v": 15, "text": "Mübarek ve tek Hükümdar, kralların Kralı, rablerin Rabbi, ölümsüzlüğün tek sahibi, yaklaşılmaz ışıkta yaşayan, hiçbir insanın görmediği ve göremeyeceği Tanrı, Mesih'i belirlenen zamanda ortaya çıkaracaktır. Onur ve kudret sonsuza dek O'nun olsun! Amin."}, {"v": 17, "text": "Şimdiki çağda zengin olanlara gururlanmamalarını, gelip geçici zenginliğe umut bağlamamalarını buyur. Zevk almamız için bize her şeyi bol bol veren Tanrı'ya umut bağlasınlar."}, {"v": 18, "text": "İyilik yapmalarını, iyilikten yana zengin, eliaçık ve paylaşmaya istekli olmalarını buyur."}, {"v": 19, "text": "Böylelikle gerçek yaşama kavuşmak üzere gelecek için kendilerine sağlam temel olacak bir hazine biriktirmiş olurlar."}, {"v": 20, "text": "Ey Timoteos, sana emanet edileni koru! Kutsallıktan yoksun, boş sözlerden, yalan yere “bilgi” denen düşüncelerin çelişkilerinden sakın."}, {"v": 21, "text": "Kimileri bu sözde bilgiye sahip olduklarını ileri sürerek imandan saptılar.  Tanrı'nın lütfu sizlerle birlikte olsun."}]}
+{
+  "t": "TCL02",
+  "b": "1TI",
+  "c": 6,
+  "content": [
+    {
+      "v": 1,
+      "text": "Kölelik boyunduruğu altında olanların hepsi kendi efendilerini tam bir saygıya layık görsünler ki, Tanrı'nın adı ve öğretisi kötülenmesin."
+    },
+    {
+      "v": 2,
+      "text": "Efendileri iman etmiş olanlarsa, nasıl olsa kardeşiz deyip efendilerine saygısızlık etmesinler. Tersine, daha iyi hizmet etsinler. Çünkü bu iyi hizmetten yararlananlar, sevdikleri imanlılardır. Bu ilkeleri öğret ve öğütle."
+    },
+    {
+      "section": "Tanrı Yolunda Yürümek"
+    },
+    {
+      "v": 3,
+      "text": "Eğer biri farklı öğretiler yayar, doğru sözleri, yani Rabbimiz İsa Mesih'in sözlerini ve Tanrı yoluna dayanan öğretiyi onaylamazsa, kendini beğenmiş, bilgisiz bir kişidir. Böyle biri tartışmaları ve kelime kavgalarını hastalık derecesinde sever. Bu şeyler kıskançlığa, çekişmeye, iftiraya, kötü kuşkulara, düşünceleri yozlaşmış ve gerçeği yitirmiş kişilerin durmadan sürtüşmesine yol açar. Onlar Tanrı yolunu kazanç yolu sanıyorlar."
+    },
+    {
+      "v": 6,
+      "text": "Oysa eldekiyle yetinerek Tanrı yolunda yürümek büyük kazançtır."
+    },
+    {
+      "v": 7,
+      "text": "Çünkü dünyaya ne bir şey getirdik, ne de ondan bir şey götürebiliriz."
+    },
+    {
+      "v": 8,
+      "text": "Yiyeceğimiz, giyeceğimiz varsa bunlarla yetiniriz."
+    },
+    {
+      "v": 9,
+      "text": "Zengin olmak isteyenler ayartılıp tuzağa düşerler, insanı çöküşe ve yıkıma götüren birçok saçma ve zararlı arzulara kapılırlar."
+    },
+    {
+      "v": 10,
+      "text": "Çünkü her türlü kötülüğün bir kökü de para sevgisidir. Kimileri zengin olma hevesiyle imandan saptılar, kendi kendilerine çok acı çektirdiler."
+    },
+    {
+      "v": 11,
+      "text": "Ama sen, ey Tanrı adamı, bu şeylerden kaç! Doğruluğun, Tanrı yolunun, imanın, sevginin, sabrın, uysallığın ardından koş."
+    },
+    {
+      "v": 12,
+      "text": "İman uğrunda yüce mücadeleyi sürdür. Sonsuz yaşama sımsıkı sarıl. Bunun için çağrıldın ve birçok tanık önünde yüce inancı açıkça benimsedin."
+    },
+    {
+      "v": 13,
+      "text": "Her şeye yaşam veren Tanrı'nın ve Pontius Pilatus önünde yüce inanca tanıklık etmiş olan Mesih İsa'nın huzurunda sana buyuruyorum: Rabbimiz İsa Mesih'in gelişine dek Tanrı buyruğunu lekesiz ve kusursuz olarak koru."
+    },
+    {
+      "v": 15,
+      "text": "Mübarek ve tek Hükümdar, kralların Kralı, rablerin Rabbi, ölümsüzlüğün tek sahibi, yaklaşılmaz ışıkta yaşayan, hiçbir insanın görmediği ve göremeyeceği Tanrı, Mesih'i belirlenen zamanda ortaya çıkaracaktır. Onur ve kudret sonsuza dek O'nun olsun! Amin."
+    },
+    {
+      "v": 17,
+      "text": "Şimdiki çağda zengin olanlara gururlanmamalarını, gelip geçici zenginliğe umut bağlamamalarını buyur. Zevk almamız için bize her şeyi bol bol veren Tanrı'ya umut bağlasınlar."
+    },
+    {
+      "v": 18,
+      "text": "İyilik yapmalarını, iyilikten yana zengin, eliaçık ve paylaşmaya istekli olmalarını buyur."
+    },
+    {
+      "v": 19,
+      "text": "Böylelikle gerçek yaşama kavuşmak üzere gelecek için kendilerine sağlam temel olacak bir hazine biriktirmiş olurlar."
+    },
+    {
+      "v": 20,
+      "text": "Ey Timoteos, sana emanet edileni koru! Kutsallıktan yoksun, boş sözlerden, yalan yere “bilgi” denen düşüncelerin çelişkilerinden sakın."
+    },
+    {
+      "v": 21,
+      "text": "Kimileri bu sözde bilgiye sahip olduklarını ileri sürerek imandan saptılar.  Tanrı'nın lütfu sizlerle birlikte olsun."
+    }
+  ]
+}

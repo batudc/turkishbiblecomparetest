@@ -1,1 +1,106 @@
-{"t":"TCL02","b":"1SA","c":13,"content":[{"v":1,"text":"Saul İsrail'de iki yıl krallık yaptıktan sonra"},{"v":2,"text":"halktan üç bin kişi seçti. Bunlardan iki binini Mikmas ve Beytel'in dağlık bölgesinde yanına aldı. Binini de Benyamin oymağına ait Giva Kenti'nde Yonatan'ın yanına bıraktı. Halktan geri kalanları evlerine gönderdi."},{"v":3,"text":"Yonatan Giva'daki Filist birliğini yendi. Filistliler bunu duydular. Saul, bütün ülkede boru çaldırarak, “İbraniler bu haberi duysun” dedi."},{"v":4,"text":"Böylece İsrailliler'in hepsi Saul'un Filist birliğini yendiğini ve Filistliler'in İsrailliler'den iğrendiğini duydu. Bunun üzerine halk Gilgal'da Saul'un çevresinde toplandı."},{"v":5,"text":"Filistliler İsrailliler'le savaşmak üzere toplandılar. Otuz bin savaş arabası, altı bin atlı asker ve kıyılardaki kum kadar kalabalık bir orduya sahiptiler. Gidip Beytaven'in doğusundaki Mikmas'ta ordugah kurdular."},{"v":6,"text":"Durumlarının tehlikeli olduğunu ve askerlerinin sıkıştırıldığını gören İsrailliler, mağaralarda, çalılıklarda, kayalıklarda, çukurlarda, sarnıçlarda gizlendiler."},{"v":7,"text":"Bazı İbraniler de Şeria Irmağı'ndan Gad ve Gilat bölgesine geçti. Ama Saul daha Gilgal'daydı. Bütün askerler onu titreyerek izliyordu."},{"v":8,"text":"Saul, Samuel tarafından belirlenen süreye uyarak, yedi gün bekledi. Ama Samuel Gilgal'a gelmeyince, halk Saul'un yanından dağılmaya başladı."},{"v":9,"text":"Saul, “Yakmalık sunuları ve esenlik sunularını bana getirin” dedi. Sonra yakmalık sunuyu sundu."},{"v":10,"text":"Saul yakmalık sununun sunulmasını bitirir bitirmez Samuel geldi. Saul selamlamak için onu karşılamaya çıktı."},{"v":11,"text":"Samuel, “Ne yaptın?” diye sordu.  Saul, “Halk yanımdan dağılıyordu” diye karşılık verdi, “Sen de belirlenen gün gelmedin. Üstelik Filistliler Mikmas'ta toplandılar. Bunları görünce,"},{"v":12,"text":"‘Şimdi Filistliler Gilgal'da üzerime yürüyecek; oysa ben RAB'bin yardımını dilememiştim’ diye düşündüm. Bu nedenle, yakmalık sunuyu sunma gerekliliğini duydum.”"},{"v":13,"text":"Samuel, “Akılsızca davrandın” dedi, “Tanrın RAB'bin sana verdiği buyruğa uymadın; yoksa, RAB İsrail üzerinde senin krallığının sonsuza dek sürmesini sağlayacaktı."},{"v":14,"text":"Ama artık krallığın sürmeyecek. RAB kendi gönlüne uygun birini arayıp onu kendi halkına önder olarak atamaya kararlı. Çünkü sen RAB'bin buyruğunu tutmadın.”"},{"v":15,"text":"Bundan sonra Samuel Gilgal'dan ayrılarak Benyaminoğulları'nın Giva Kenti'ne gitti. Saul yanında kalan halkı saydı; yaklaşık altı yüz kişiydi."},{"v":16,"text":"Saul, oğlu Yonatan ve yanlarındaki halk Benyaminoğulları'nın bölgesindeki Giva'da kalıyorlardı. Filistliler ise Mikmas'ta ordugah kurmuşlardı."},{"v":17,"text":"Akıncılar üç koldan Filistliler'in ordugahından çıktılar. Kollardan biri Şual bölgesindeki Ofra'ya,"},{"v":18,"text":"biri Beythoron'a, öbürü ise çöle, Sevoyim Vadisi'ne bakan sınıra doğru ilerledi."},{"v":19,"text":"Bütün İsrail ülkesinde bir tek demirci yoktu. Filistliler, “İbraniler kılıç, mızrak yapmasın” demişlerdi."},{"v":20,"text":"Bu nedenle bütün İsrailliler saban demirlerini, kazma, balta ve oraklarını biletmek için Filistliler'e gitmek zorundaydılar."},{"v":21,"text":"Saban demiriyle kazmanın bileme fiyatı, şekelin üçte ikisi kadardı. Beller, baltalar, üvendireler için istenilen fiyat ise şekelin üçte biriydi."},{"v":22,"text":"İşte bu yüzden, savaş sırasında Saul ile Yonatan dışında, yanlarındaki hiç kimsenin elinde kılıç, mızrak yoktu."},{"v":23,"text":"O sırada Filistliler'in bir kolu Mikmas Geçidi'ne çıkmıştı."}]}
+{
+  "t": "TCL02",
+  "b": "1SA",
+  "c": 13,
+  "content": [
+    {
+      "section": "Samuel Saul'u Paylıyor"
+    },
+    {
+      "v": 1,
+      "text": "Saul İsrail'de iki yıl krallık yaptıktan sonra"
+    },
+    {
+      "v": 2,
+      "text": "halktan üç bin kişi seçti. Bunlardan iki binini Mikmas ve Beytel'in dağlık bölgesinde yanına aldı. Binini de Benyamin oymağına ait Giva Kenti'nde Yonatan'ın yanına bıraktı. Halktan geri kalanları evlerine gönderdi."
+    },
+    {
+      "v": 3,
+      "text": "Yonatan Giva'daki Filist birliğini yendi. Filistliler bunu duydular. Saul, bütün ülkede boru çaldırarak, “İbraniler bu haberi duysun” dedi."
+    },
+    {
+      "v": 4,
+      "text": "Böylece İsrailliler'in hepsi Saul'un Filist birliğini yendiğini ve Filistliler'in İsrailliler'den iğrendiğini duydu. Bunun üzerine halk Gilgal'da Saul'un çevresinde toplandı."
+    },
+    {
+      "v": 5,
+      "text": "Filistliler İsrailliler'le savaşmak üzere toplandılar. Otuz bin savaş arabası, altı bin atlı asker ve kıyılardaki kum kadar kalabalık bir orduya sahiptiler. Gidip Beytaven'in doğusundaki Mikmas'ta ordugah kurdular."
+    },
+    {
+      "v": 6,
+      "text": "Durumlarının tehlikeli olduğunu ve askerlerinin sıkıştırıldığını gören İsrailliler, mağaralarda, çalılıklarda, kayalıklarda, çukurlarda, sarnıçlarda gizlendiler."
+    },
+    {
+      "v": 7,
+      "text": "Bazı İbraniler de Şeria Irmağı'ndan Gad ve Gilat bölgesine geçti. Ama Saul daha Gilgal'daydı. Bütün askerler onu titreyerek izliyordu."
+    },
+    {
+      "v": 8,
+      "text": "Saul, Samuel tarafından belirlenen süreye uyarak, yedi gün bekledi. Ama Samuel Gilgal'a gelmeyince, halk Saul'un yanından dağılmaya başladı."
+    },
+    {
+      "v": 9,
+      "text": "Saul, “Yakmalık sunuları ve esenlik sunularını bana getirin” dedi. Sonra yakmalık sunuyu sundu."
+    },
+    {
+      "v": 10,
+      "text": "Saul yakmalık sununun sunulmasını bitirir bitirmez Samuel geldi. Saul selamlamak için onu karşılamaya çıktı."
+    },
+    {
+      "v": 11,
+      "text": "Samuel, “Ne yaptın?” diye sordu.  Saul, “Halk yanımdan dağılıyordu” diye karşılık verdi, “Sen de belirlenen gün gelmedin. Üstelik Filistliler Mikmas'ta toplandılar. Bunları görünce,"
+    },
+    {
+      "v": 12,
+      "text": "‘Şimdi Filistliler Gilgal'da üzerime yürüyecek; oysa ben RAB'bin yardımını dilememiştim’ diye düşündüm. Bu nedenle, yakmalık sunuyu sunma gerekliliğini duydum.”"
+    },
+    {
+      "v": 13,
+      "text": "Samuel, “Akılsızca davrandın” dedi, “Tanrın RAB'bin sana verdiği buyruğa uymadın; yoksa, RAB İsrail üzerinde senin krallığının sonsuza dek sürmesini sağlayacaktı."
+    },
+    {
+      "v": 14,
+      "text": "Ama artık krallığın sürmeyecek. RAB kendi gönlüne uygun birini arayıp onu kendi halkına önder olarak atamaya kararlı. Çünkü sen RAB'bin buyruğunu tutmadın.”"
+    },
+    {
+      "v": 15,
+      "text": "Bundan sonra Samuel Gilgal'dan ayrılarak Benyaminoğulları'nın Giva Kenti'ne gitti. Saul yanında kalan halkı saydı; yaklaşık altı yüz kişiydi."
+    },
+    {
+      "v": 16,
+      "text": "Saul, oğlu Yonatan ve yanlarındaki halk Benyaminoğulları'nın bölgesindeki Giva'da kalıyorlardı. Filistliler ise Mikmas'ta ordugah kurmuşlardı."
+    },
+    {
+      "v": 17,
+      "text": "Akıncılar üç koldan Filistliler'in ordugahından çıktılar. Kollardan biri Şual bölgesindeki Ofra'ya,"
+    },
+    {
+      "v": 18,
+      "text": "biri Beythoron'a, öbürü ise çöle, Sevoyim Vadisi'ne bakan sınıra doğru ilerledi."
+    },
+    {
+      "v": 19,
+      "text": "Bütün İsrail ülkesinde bir tek demirci yoktu. Filistliler, “İbraniler kılıç, mızrak yapmasın” demişlerdi."
+    },
+    {
+      "v": 20,
+      "text": "Bu nedenle bütün İsrailliler saban demirlerini, kazma, balta ve oraklarını biletmek için Filistliler'e gitmek zorundaydılar."
+    },
+    {
+      "v": 21,
+      "text": "Saban demiriyle kazmanın bileme fiyatı, şekelin üçte ikisi kadardı. Beller, baltalar, üvendireler için istenilen fiyat ise şekelin üçte biriydi."
+    },
+    {
+      "v": 22,
+      "text": "İşte bu yüzden, savaş sırasında Saul ile Yonatan dışında, yanlarındaki hiç kimsenin elinde kılıç, mızrak yoktu."
+    },
+    {
+      "section": "Filistliler'e Karşı Savaş"
+    },
+    {
+      "v": 23,
+      "text": "O sırada Filistliler'in bir kolu Mikmas Geçidi'ne çıkmıştı."
+    }
+  ],
+  "title": "Samuel Saul'u Paylıyor"
+}

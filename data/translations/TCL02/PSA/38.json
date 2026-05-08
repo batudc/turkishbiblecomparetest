@@ -1,1 +1,99 @@
-{"t":"TCL02","b":"PSA","c":38,"content":[{"v":1,"text":"Ya RAB, öfkelenip azarlama beni, Gazapla yola getirme!"},{"v":2,"text":"Okların içime saplandı, Elin üzerime indi."},{"v":3,"text":"Öfken yüzünden sağlığım bozuldu, Günahım yüzünden rahatım kaçtı."},{"v":4,"text":"Çünkü suçlarım başımdan aştı, Taşınmaz bir yük gibi sırtımda ağırlaştı."},{"v":5,"text":"Akılsızlığım yüzünden Yaralarım iğrenç, irinli."},{"v":6,"text":"Eğildim, iki büklüm oldum, Gün boyu yaslı dolaşıyorum."},{"v":7,"text":"Çünkü belim ateş içinde, Sağlığım bozuk."},{"v":8,"text":"Tükendim, ezildim alabildiğine, İnliyorum yüreğimin acısından."},{"v":9,"text":"Ya Rab, bütün özlemlerimi bilirsin, İniltilerim senden gizli değil."},{"v":10,"text":"Yüreğim çarpıyor, gücüm tükeniyor, Gözlerimin feri bile söndü."},{"v":11,"text":"Eşim dostum kaçar oldu derdimden, Yakınlarım uzak duruyor benden."},{"v":12,"text":"Canıma susayanlar bana tuzak kuruyor, Zararımı isteyenler kuyumu kazıyor, Gün boyu hileler düşünüyorlar."},{"v":13,"text":"Ama ben bir sağır gibi duymuyorum, Bir dilsiz gibi ağzımı açmıyorum;"},{"v":14,"text":"Duymaz, Ağzında yanıt bulunmaz bir adama döndüm."},{"v":15,"text":"Umudum sende, ya RAB, Sen yanıtlayacaksın, ya Rab, Tanrım benim!"},{"v":16,"text":"Çünkü dua ediyorum: “Halime sevinmesinler, Ayağım kayınca böbürlenmesinler!”"},{"v":17,"text":"Düşmek üzereyim, Acım hep içimde."},{"v":18,"text":"Suçumu itiraf ediyorum, Günahım yüzünden kaygılanıyorum."},{"v":19,"text":"Ama düşmanlarım güçlü ve dinç, Yok yere benden nefret edenler çok."},{"v":20,"text":"İyiliğe karşı kötülük yapanlar bana karşı çıkar, İyiliğin peşinde olduğum için."},{"v":21,"text":"Beni terk etme, ya RAB! Ey Tanrım, benden uzak durma!"},{"v":22,"text":"Yardımıma koş, Ya Rab, kurtuluşum benim!"}]}
+{
+  "t": "TCL02",
+  "b": "PSA",
+  "c": 38,
+  "content": [
+    {
+      "section": "38. Mezmur"
+    },
+    {
+      "v": 1,
+      "text": "Ya RAB, öfkelenip azarlama beni, Gazapla yola getirme!"
+    },
+    {
+      "v": 2,
+      "text": "Okların içime saplandı, Elin üzerime indi."
+    },
+    {
+      "v": 3,
+      "text": "Öfken yüzünden sağlığım bozuldu, Günahım yüzünden rahatım kaçtı."
+    },
+    {
+      "v": 4,
+      "text": "Çünkü suçlarım başımdan aştı, Taşınmaz bir yük gibi sırtımda ağırlaştı."
+    },
+    {
+      "v": 5,
+      "text": "Akılsızlığım yüzünden Yaralarım iğrenç, irinli."
+    },
+    {
+      "v": 6,
+      "text": "Eğildim, iki büklüm oldum, Gün boyu yaslı dolaşıyorum."
+    },
+    {
+      "v": 7,
+      "text": "Çünkü belim ateş içinde, Sağlığım bozuk."
+    },
+    {
+      "v": 8,
+      "text": "Tükendim, ezildim alabildiğine, İnliyorum yüreğimin acısından."
+    },
+    {
+      "v": 9,
+      "text": "Ya Rab, bütün özlemlerimi bilirsin, İniltilerim senden gizli değil."
+    },
+    {
+      "v": 10,
+      "text": "Yüreğim çarpıyor, gücüm tükeniyor, Gözlerimin feri bile söndü."
+    },
+    {
+      "v": 11,
+      "text": "Eşim dostum kaçar oldu derdimden, Yakınlarım uzak duruyor benden."
+    },
+    {
+      "v": 12,
+      "text": "Canıma susayanlar bana tuzak kuruyor, Zararımı isteyenler kuyumu kazıyor, Gün boyu hileler düşünüyorlar."
+    },
+    {
+      "v": 13,
+      "text": "Ama ben bir sağır gibi duymuyorum, Bir dilsiz gibi ağzımı açmıyorum;"
+    },
+    {
+      "v": 14,
+      "text": "Duymaz, Ağzında yanıt bulunmaz bir adama döndüm."
+    },
+    {
+      "v": 15,
+      "text": "Umudum sende, ya RAB, Sen yanıtlayacaksın, ya Rab, Tanrım benim!"
+    },
+    {
+      "v": 16,
+      "text": "Çünkü dua ediyorum: “Halime sevinmesinler, Ayağım kayınca böbürlenmesinler!”"
+    },
+    {
+      "v": 17,
+      "text": "Düşmek üzereyim, Acım hep içimde."
+    },
+    {
+      "v": 18,
+      "text": "Suçumu itiraf ediyorum, Günahım yüzünden kaygılanıyorum."
+    },
+    {
+      "v": 19,
+      "text": "Ama düşmanlarım güçlü ve dinç, Yok yere benden nefret edenler çok."
+    },
+    {
+      "v": 20,
+      "text": "İyiliğe karşı kötülük yapanlar bana karşı çıkar, İyiliğin peşinde olduğum için."
+    },
+    {
+      "v": 21,
+      "text": "Beni terk etme, ya RAB! Ey Tanrım, benden uzak durma!"
+    },
+    {
+      "v": 22,
+      "text": "Yardımıma koş, Ya Rab, kurtuluşum benim!"
+    }
+  ],
+  "title": "38. Mezmur"
+}

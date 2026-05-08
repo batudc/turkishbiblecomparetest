@@ -1,1 +1,83 @@
-{"t":"TCL02","b":"JOS","c":17,"content":[{"v":1,"text":"Yusuf'un büyük oğlu Manaşşe'nin oymağı için kura çekildi. –Gilat ve Başan, Manaşşe'nin ilk oğlu Makir'e verilmişti. Çünkü Gilatlılar'ın atası olan Makir büyük bir savaşçıydı.–"},{"v":2,"text":"Manaşşe soyundan gelen öbürleri –Aviezer, Helek, Asriel, Şekem, Hefer ve Şemidaoğulları– bu kuranın içindeydi. Bunlar boylarına göre Yusuf oğlu Manaşşe'nin erkek çocuklarıydı."},{"v":3,"text":"Bunlardan Manaşşe oğlu, Makir oğlu, Gilat oğlu, Hefer oğlu Selofhat'ın erkek çocuğu olmadı; yalnız Mahla, Noa, Hogla, Milka ve Tirsa adında kızları vardı."},{"v":4,"text":"Bunlar, Kâhin Elazar'a, Nun oğlu Yeşu'ya ve önderlere gidip şöyle dediler: “RAB, Musa'ya erkek akrabalarımızla birlikte bize de mirastan pay verilmesini buyurdu.” RAB'bin bu buyruğu üzerine Yeşu, amcalarıyla birlikte onlara da mirastan pay verdi."},{"v":5,"text":"Böylece Manaşşe oymağına Şeria Irmağı'nın doğusundaki Gilat ve Başan bölgelerinden başka on pay verildi."},{"v":6,"text":"Çünkü Manaşşe'nin kız torunları da erkek torunların yanısıra mirastan pay almışlardı. Gilat bölgesi ise Manaşşe'nin öbür oğullarına verilmişti."},{"v":7,"text":"Manaşşe sınırı Aşer sınırından Şekem yakınındaki Mikmetat'a uzanıyor, buradan güneye kıvrılarak Eyn-Tappuah halkının topraklarına varıyordu."},{"v":8,"text":"Tappuah Kenti'ni çevreleyen topraklar Manaşşe'nindi. Ama Manaşşe sınırındaki Tappuah Kenti Efrayimoğulları'na aitti."},{"v":9,"text":"Sonra sınır Kana Vadisi'ne iniyordu. Vadinin güneyinde Manaşşe kentleri arasında Efrayim'e ait kentler de vardı. Manaşşe sınırları vadinin kuzeyi boyunca uzanarak Akdeniz'de son buluyordu."},{"v":10,"text":"Güneydeki topraklar Efrayim'in, kuzeydeki topraklarsa Manaşşe'nindi. Böylece Manaşşe bölgesi Akdeniz'le, kuzeyde Aşer'le ve doğuda İssakar'la sınırlanmıştı."},{"v":11,"text":"İssakar ve Aşer'e ait topraklardaki Beytşean ve köyleri, Yivleam'la köyleri, Dor, yani Dor sırtları halkıyla köyleri, Eyn-Dor halkıyla köyleri, Taanak halkıyla köyleri, Megiddo halkıyla köyleri Manaşşe'ye aitti."},{"v":12,"text":"Ne var ki, Manaşşeoğulları bu kentleri tümüyle ele geçiremediler. Çünkü Kenanlılar buralarda yaşamaya kararlıydı."},{"v":13,"text":"İsrailliler güçlenince, Kenanlılar'ı sürecek yerde, onları angaryasına çalıştırmaya başladılar."},{"v":14,"text":"Yusufoğulları Yeşu'ya gelip, “Mülk olarak bize neden tek kurayla tek pay verdin?” dediler, “Çok kalabalığız. Çünkü RAB bizi bugüne dek alabildiğine çoğalttı.”"},{"v":15,"text":"Yeşu, “O kadar kalabalıksanız ve Efrayim'in dağlık bölgesi size dar geliyorsa, Perizliler'in ve Refalılar'ın topraklarındaki ormanlara çıkıp kendinize yer açın” diye karşılık verdi."},{"v":16,"text":"Yusufoğulları, “Dağlık bölge bize yetmiyor” dediler, “Ancak hem Beytşean ve köylerinde, hem de Yizreel Vadisi'nde oturanların, ovada yaşayan bütün Kenanlılar'ın demirden savaş arabaları var.”"},{"v":17,"text":"Yeşu Yusufoğulları'na, Efrayim ve Manaşşe oymaklarına şöyle dedi: “Kalabalıksınız ve çok güçlüsünüz. Tek kuraya kalmayacaksınız."},{"v":18,"text":"Dağlık bölge de sizin olacak. Orası ormanlıktır, ama ağaçları kesip açacağınız bütün topraklar sizin olur. Kenanlılar güçlüdür, demirden savaş arabalarına sahiptirler ama, yine de onları sürersiniz.”"}]}
+{
+  "t": "TCL02",
+  "b": "JOS",
+  "c": 17,
+  "content": [
+    {
+      "section": "Manaşşeoğulları'na Düşen Topraklar"
+    },
+    {
+      "v": 1,
+      "text": "Yusuf'un büyük oğlu Manaşşe'nin oymağı için kura çekildi. –Gilat ve Başan, Manaşşe'nin ilk oğlu Makir'e verilmişti. Çünkü Gilatlılar'ın atası olan Makir büyük bir savaşçıydı.–"
+    },
+    {
+      "v": 2,
+      "text": "Manaşşe soyundan gelen öbürleri –Aviezer, Helek, Asriel, Şekem, Hefer ve Şemidaoğulları– bu kuranın içindeydi. Bunlar boylarına göre Yusuf oğlu Manaşşe'nin erkek çocuklarıydı."
+    },
+    {
+      "v": 3,
+      "text": "Bunlardan Manaşşe oğlu, Makir oğlu, Gilat oğlu, Hefer oğlu Selofhat'ın erkek çocuğu olmadı; yalnız Mahla, Noa, Hogla, Milka ve Tirsa adında kızları vardı."
+    },
+    {
+      "v": 4,
+      "text": "Bunlar, Kâhin Elazar'a, Nun oğlu Yeşu'ya ve önderlere gidip şöyle dediler: “RAB, Musa'ya erkek akrabalarımızla birlikte bize de mirastan pay verilmesini buyurdu.” RAB'bin bu buyruğu üzerine Yeşu, amcalarıyla birlikte onlara da mirastan pay verdi."
+    },
+    {
+      "v": 5,
+      "text": "Böylece Manaşşe oymağına Şeria Irmağı'nın doğusundaki Gilat ve Başan bölgelerinden başka on pay verildi."
+    },
+    {
+      "v": 6,
+      "text": "Çünkü Manaşşe'nin kız torunları da erkek torunların yanısıra mirastan pay almışlardı. Gilat bölgesi ise Manaşşe'nin öbür oğullarına verilmişti."
+    },
+    {
+      "v": 7,
+      "text": "Manaşşe sınırı Aşer sınırından Şekem yakınındaki Mikmetat'a uzanıyor, buradan güneye kıvrılarak Eyn-Tappuah halkının topraklarına varıyordu."
+    },
+    {
+      "v": 8,
+      "text": "Tappuah Kenti'ni çevreleyen topraklar Manaşşe'nindi. Ama Manaşşe sınırındaki Tappuah Kenti Efrayimoğulları'na aitti."
+    },
+    {
+      "v": 9,
+      "text": "Sonra sınır Kana Vadisi'ne iniyordu. Vadinin güneyinde Manaşşe kentleri arasında Efrayim'e ait kentler de vardı. Manaşşe sınırları vadinin kuzeyi boyunca uzanarak Akdeniz'de son buluyordu."
+    },
+    {
+      "v": 10,
+      "text": "Güneydeki topraklar Efrayim'in, kuzeydeki topraklarsa Manaşşe'nindi. Böylece Manaşşe bölgesi Akdeniz'le, kuzeyde Aşer'le ve doğuda İssakar'la sınırlanmıştı."
+    },
+    {
+      "v": 11,
+      "text": "İssakar ve Aşer'e ait topraklardaki Beytşean ve köyleri, Yivleam'la köyleri, Dor, yani Dor sırtları halkıyla köyleri, Eyn-Dor halkıyla köyleri, Taanak halkıyla köyleri, Megiddo halkıyla köyleri Manaşşe'ye aitti."
+    },
+    {
+      "v": 12,
+      "text": "Ne var ki, Manaşşeoğulları bu kentleri tümüyle ele geçiremediler. Çünkü Kenanlılar buralarda yaşamaya kararlıydı."
+    },
+    {
+      "v": 13,
+      "text": "İsrailliler güçlenince, Kenanlılar'ı sürecek yerde, onları angaryasına çalıştırmaya başladılar."
+    },
+    {
+      "v": 14,
+      "text": "Yusufoğulları Yeşu'ya gelip, “Mülk olarak bize neden tek kurayla tek pay verdin?” dediler, “Çok kalabalığız. Çünkü RAB bizi bugüne dek alabildiğine çoğalttı.”"
+    },
+    {
+      "v": 15,
+      "text": "Yeşu, “O kadar kalabalıksanız ve Efrayim'in dağlık bölgesi size dar geliyorsa, Perizliler'in ve Refalılar'ın topraklarındaki ormanlara çıkıp kendinize yer açın” diye karşılık verdi."
+    },
+    {
+      "v": 16,
+      "text": "Yusufoğulları, “Dağlık bölge bize yetmiyor” dediler, “Ancak hem Beytşean ve köylerinde, hem de Yizreel Vadisi'nde oturanların, ovada yaşayan bütün Kenanlılar'ın demirden savaş arabaları var.”"
+    },
+    {
+      "v": 17,
+      "text": "Yeşu Yusufoğulları'na, Efrayim ve Manaşşe oymaklarına şöyle dedi: “Kalabalıksınız ve çok güçlüsünüz. Tek kuraya kalmayacaksınız."
+    },
+    {
+      "v": 18,
+      "text": "Dağlık bölge de sizin olacak. Orası ormanlıktır, ama ağaçları kesip açacağınız bütün topraklar sizin olur. Kenanlılar güçlüdür, demirden savaş arabalarına sahiptirler ama, yine de onları sürersiniz.”"
+    }
+  ],
+  "title": "Manaşşeoğulları'na Düşen Topraklar"
+}

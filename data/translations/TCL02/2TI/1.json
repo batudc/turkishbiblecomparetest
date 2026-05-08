@@ -1,1 +1,74 @@
-{"t": "TCL02", "b": "2TI", "c": 1, "content": [{"v": 1, "text": "Mesih İsa'daki yaşam vaadi uyarınca Tanrı'nın isteğiyle Mesih İsa'nın elçisi atanan ben Pavlus'tan sevgili oğlum Timoteos'a selam! Baba Tanrı'dan ve Rabbimiz Mesih İsa'dan sana lütuf, merhamet ve esenlik olsun."}, {"v": 3, "text": "Durmadan, gece gündüz dualarımda seni anarak atalarım gibi temiz vicdanla kulluk ettiğim Tanrı'ya şükrediyorum."}, {"v": 4, "text": "Gözyaşlarını anımsıyor, sevinçle dolmak için seni görmeyi özlemle bekliyorum."}, {"v": 5, "text": "Sendeki içten imanı anımsıyorum. Önce büyükannen Lois'in ve annen Evniki'nin sahip olduğu imana şimdi senin de sahip olduğuna eminim."}, {"v": 6, "text": "Bu nedenle, ellerimi senin üzerine koymamla Tanrı'nın sana verdiği armağanı alevlendirmen gerektiğini hatırlatıyorum."}, {"v": 7, "text": "Çünkü Tanrı bize korkaklık ruhu değil, güç, sevgi ve özdenetim ruhu vermiştir."}, {"v": 8, "text": "Bunun için Rabbimiz'e tanıklık etmekten de O'nun uğruna tutuklu bulunan benden de utanma. Tanrı'nın gücüyle Müjde uğruna benimle birlikte sıkıntıya göğüs ger."}, {"v": 9, "text": "Tanrı bizi yaptıklarımıza göre değil, kendi amacına ve lütfuna göre kurtarıp kutsal bir yaşama çağırdı. Bu lütuf bize zamanın başlangıcından önce Mesih İsa'da bağışlanmış, şimdi de O'nun gelişiyle açığa çıkarılmıştır. Kurtarıcımız Mesih İsa ölümü etkisiz kılmış, yaşamı ve ölümsüzlüğü Müjde aracılığıyla ışığa çıkarmıştır."}, {"v": 11, "text": "Ben Müjde'nin habercisi, elçisi ve öğretmeni atandım."}, {"v": 12, "text": "Bu acıları çekmemin nedeni de budur. Ama bundan utanmıyorum. Çünkü kime inandığımı biliyorum. O'nun bana emanet ettiğini o güne dek koruyacak güçte olduğuna eminim."}, {"v": 13, "text": "Benden işitmiş olduğun doğru sözleri örnek alarak imanla ve Mesih İsa'da olan sevgiyle bunlara bağlı kal."}, {"v": 14, "text": "Sana emanet edilen iyi öğretileri içimizde yaşayan Kutsal Ruh aracılığıyla koru."}, {"v": 15, "text": "Biliyorsun, Asya İli'ndekilerin hepsi beni terk edip gittiler. Figelos'la Hermogenis de bunlardandır."}, {"v": 16, "text": "Rab, Onisiforos'un ev halkına merhamet etsin. Çünkü o çok kez içimi ferahlattı ve zincire vurulmuş olmamdan utanmadı."}, {"v": 17, "text": "Tersine, Roma'ya geldiğinde beni gayretle arayıp buldu."}, {"v": 18, "text": "O gün Rab'den merhamet bulmasını dilerim. Efes'te onun bana ne kadar hizmet ettiğini sen de çok iyi bilirsin."}]}
+{
+  "t": "TCL02",
+  "b": "2TI",
+  "c": 1,
+  "content": [
+    {
+      "v": 1,
+      "text": "Mesih İsa'daki yaşam vaadi uyarınca Tanrı'nın isteğiyle Mesih İsa'nın elçisi atanan ben Pavlus'tan sevgili oğlum Timoteos'a selam! Baba Tanrı'dan ve Rabbimiz Mesih İsa'dan sana lütuf, merhamet ve esenlik olsun."
+    },
+    {
+      "section": "Müjde'ye Bağlılık Çağrısı"
+    },
+    {
+      "v": 3,
+      "text": "Durmadan, gece gündüz dualarımda seni anarak atalarım gibi temiz vicdanla kulluk ettiğim Tanrı'ya şükrediyorum."
+    },
+    {
+      "v": 4,
+      "text": "Gözyaşlarını anımsıyor, sevinçle dolmak için seni görmeyi özlemle bekliyorum."
+    },
+    {
+      "v": 5,
+      "text": "Sendeki içten imanı anımsıyorum. Önce büyükannen Lois'in ve annen Evniki'nin sahip olduğu imana şimdi senin de sahip olduğuna eminim."
+    },
+    {
+      "v": 6,
+      "text": "Bu nedenle, ellerimi senin üzerine koymamla Tanrı'nın sana verdiği armağanı alevlendirmen gerektiğini hatırlatıyorum."
+    },
+    {
+      "v": 7,
+      "text": "Çünkü Tanrı bize korkaklık ruhu değil, güç, sevgi ve özdenetim ruhu vermiştir."
+    },
+    {
+      "v": 8,
+      "text": "Bunun için Rabbimiz'e tanıklık etmekten de O'nun uğruna tutuklu bulunan benden de utanma. Tanrı'nın gücüyle Müjde uğruna benimle birlikte sıkıntıya göğüs ger."
+    },
+    {
+      "v": 9,
+      "text": "Tanrı bizi yaptıklarımıza göre değil, kendi amacına ve lütfuna göre kurtarıp kutsal bir yaşama çağırdı. Bu lütuf bize zamanın başlangıcından önce Mesih İsa'da bağışlanmış, şimdi de O'nun gelişiyle açığa çıkarılmıştır. Kurtarıcımız Mesih İsa ölümü etkisiz kılmış, yaşamı ve ölümsüzlüğü Müjde aracılığıyla ışığa çıkarmıştır."
+    },
+    {
+      "v": 11,
+      "text": "Ben Müjde'nin habercisi, elçisi ve öğretmeni atandım."
+    },
+    {
+      "v": 12,
+      "text": "Bu acıları çekmemin nedeni de budur. Ama bundan utanmıyorum. Çünkü kime inandığımı biliyorum. O'nun bana emanet ettiğini o güne dek koruyacak güçte olduğuna eminim."
+    },
+    {
+      "v": 13,
+      "text": "Benden işitmiş olduğun doğru sözleri örnek alarak imanla ve Mesih İsa'da olan sevgiyle bunlara bağlı kal."
+    },
+    {
+      "v": 14,
+      "text": "Sana emanet edilen iyi öğretileri içimizde yaşayan Kutsal Ruh aracılığıyla koru."
+    },
+    {
+      "v": 15,
+      "text": "Biliyorsun, Asya İli'ndekilerin hepsi beni terk edip gittiler. Figelos'la Hermogenis de bunlardandır."
+    },
+    {
+      "v": 16,
+      "text": "Rab, Onisiforos'un ev halkına merhamet etsin. Çünkü o çok kez içimi ferahlattı ve zincire vurulmuş olmamdan utanmadı."
+    },
+    {
+      "v": 17,
+      "text": "Tersine, Roma'ya geldiğinde beni gayretle arayıp buldu."
+    },
+    {
+      "v": 18,
+      "text": "O gün Rab'den merhamet bulmasını dilerim. Efes'te onun bana ne kadar hizmet ettiğini sen de çok iyi bilirsin."
+    }
+  ]
+}

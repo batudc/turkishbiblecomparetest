@@ -1,1 +1,153 @@
-{"t":"TCL02","b":"1KI","c":4,"content":[{"v":1,"text":"Süleyman bütün İsrail'in kralıydı."},{"v":2,"text":"Görevlileri ise şunlardı:  Kâhin: Sadok oğlu Azarya."},{"v":3,"text":"Yazmanlar: Şişa'nın oğulları Elihoref ve Ahiya. Devlet tarihçisi: Ahilut oğlu Yehoşafat."},{"v":4,"text":"Ordu komutanı: Yehoyada oğlu Benaya. Kâhinler: Sadok ve Aviyatar."},{"v":5,"text":"Baş vali: Natan oğlu Azarya. Kralın özel danışmanı: Natan oğlu Kâhin Zavut."},{"v":6,"text":"Saray sorumlusu: Ahişar. Angaryacıların başı: Avda oğlu Adoniram."},{"v":7,"text":"Süleyman'ın İsrail'de on iki bölge valisi vardı. Bunlar kralın ve sarayın yiyecek içecek gereksinimini karşılardı. Her vali yılda bir ay bu gereksinimleri karşılamakla yükümlüydü."},{"v":8,"text":"Bu valiler şunlardı: Efrayim'in dağlık bölgesinde Ben-Hur;"},{"v":9,"text":"Makaz, Şaalvim, Beytşemeş ve Elon-Beythanan bölgelerinde Ben-Deker;"},{"v":10,"text":"Arubbot, Soko ve bütün Hefer bölgesinde Ben-Heset;"},{"v":11,"text":"Nafat-Dor bölgesinde Süleyman'ın kızı Tafat'la evli olan Ben-Avinadav;"},{"v":12,"text":"Taanak, Megiddo, Yizreel'in altında Saretan'ın yanındaki bütün Beytşean ve Beytşean'dan Avel-Mehola ve Yokmoam'ın ötelerine kadar uzanan bölgede Ahilut oğlu Baana;"},{"v":13,"text":"Ramot-Gilat, Gilat'ta Manaşşe oğlu Yair'in yerleşim birimleri ve Başan'daki Argov yöresinde surlar ve tunç sürgülerle güçlendirilmiş altmış büyük kentin başında Ben-Gever;"},{"v":14,"text":"Mahanayim bölgesinde İddo oğlu Ahinadav;"},{"v":15,"text":"Naftali bölgesinde Süleyman'ın kızı Basemat'la evlenen Ahimaas;"},{"v":16,"text":"Aşer ve Bealot bölgelerinde Huşay oğlu Baana;"},{"v":17,"text":"İssakar bölgesinde Paruah oğlu Yehoşafat;"},{"v":18,"text":"Benyamin bölgesinde Ela oğlu Şimi;"},{"v":19,"text":"Gilat bölgesinde, yani Amorlular'ın Kralı Sihon'la Başan Kralı Og'un eski topraklarında Uri oğlu Gever. Ayrıca Yahuda bölgesinin tek valisi vardı."},{"v":20,"text":"Yahuda ve İsrail halkı kıyıların kumu kadar kalabalıktı. Herkes yiyip içip sevinç içinde yaşıyordu."},{"v":21,"text":"Süleyman, Fırat Irmağı'ndan Filist'e, oradan Mısır sınırına kadar bütün ülkelere egemendi. Bu ülkeler Süleyman'ın yaşamı boyunca ona haraç ödeyip hizmet ettiler."},{"v":22,"text":"Süleyman'ın sarayının bir günlük yiyecek gereksinimi şunlardı: Otuz kor ince, altmış kor kepekli un;"},{"v":23,"text":"onu ahırda, yirmisi çayırda yetiştirilmiş sığır ve yüz koyun; ayrıca geyikler, ceylanlar, karacalar ve semiz kuşlar."},{"v":24,"text":"Tifsah'tan Gazze'ye kadar, Fırat Irmağı'nın batısındaki bütün krallıkları Süleyman yönetiyordu. Her tarafta barış vardı."},{"v":25,"text":"Dan'dan Beer-Şeva'ya kadar Yahuda ve İsrail halkının her bireyi Süleyman'ın yaşamı boyunca kendi asması ve incir ağacı altında güvenlik içinde yaşadı."},{"v":26,"text":"Süleyman'ın savaş arabalarının atları için dört bin ahırı ve on iki bin atlısı vardı."},{"v":27,"text":"Bölge valilerinin her biri kendine düşen bir ay boyunca, Kral Süleyman'a ve sofrasına oturan herkese yiyecek sağlar, hiçbir şeyi eksik etmezdi."},{"v":28,"text":"Her vali kendisine verilen buyruk uyarınca, savaş arabalarının atlarıyla öbür atlar için belirli bir yere arpa ve saman getirirdi."},{"v":29,"text":"Tanrı, Süleyman'a bilgelik, derin bir sezgi, kıyılardaki kum kadar anlayış verdi."},{"v":30,"text":"Süleyman'ın bilgeliği, bütün doğuluların ve Mısırlılar'ın bilgeliğinden daha üstündü."},{"v":31,"text":"O, Ezrahlı Etan, Mahol'un oğulları Heman, Kalkol ve Darda dahil herkesten daha bilgeydi. Ünü çevredeki bütün uluslara yayılmıştı."},{"v":32,"text":"Üç bin özdeyişi ve bin beş ezgisi vardı."},{"v":33,"text":"Lübnan sedir ağacından duvarlarda biten mercanköşkotuna kadar bütün ağaçlardan söz ettiği gibi, hayvanlar, kuşlar, sürüngenler ve balıklardan da söz edebiliyordu."},{"v":34,"text":"Süleyman'ın bilgeliğini duyan dünyanın bütün kralları ona adamlarını gönderirdi. Bütün uluslardan insanlar gelir, Süleyman'ın bilgece sözlerini dinlerdi."}]}
+{
+  "t": "TCL02",
+  "b": "1KI",
+  "c": 4,
+  "content": [
+    {
+      "section": "Süleyman'ın Görevlileri"
+    },
+    {
+      "v": 1,
+      "text": "Süleyman bütün İsrail'in kralıydı."
+    },
+    {
+      "v": 2,
+      "text": "Görevlileri ise şunlardı:  Kâhin: Sadok oğlu Azarya."
+    },
+    {
+      "v": 3,
+      "text": "Yazmanlar: Şişa'nın oğulları Elihoref ve Ahiya. Devlet tarihçisi: Ahilut oğlu Yehoşafat."
+    },
+    {
+      "v": 4,
+      "text": "Ordu komutanı: Yehoyada oğlu Benaya. Kâhinler: Sadok ve Aviyatar."
+    },
+    {
+      "v": 5,
+      "text": "Baş vali: Natan oğlu Azarya. Kralın özel danışmanı: Natan oğlu Kâhin Zavut."
+    },
+    {
+      "v": 6,
+      "text": "Saray sorumlusu: Ahişar. Angaryacıların başı: Avda oğlu Adoniram."
+    },
+    {
+      "v": 7,
+      "text": "Süleyman'ın İsrail'de on iki bölge valisi vardı. Bunlar kralın ve sarayın yiyecek içecek gereksinimini karşılardı. Her vali yılda bir ay bu gereksinimleri karşılamakla yükümlüydü."
+    },
+    {
+      "v": 8,
+      "text": "Bu valiler şunlardı: Efrayim'in dağlık bölgesinde Ben-Hur;"
+    },
+    {
+      "v": 9,
+      "text": "Makaz, Şaalvim, Beytşemeş ve Elon-Beythanan bölgelerinde Ben-Deker;"
+    },
+    {
+      "v": 10,
+      "text": "Arubbot, Soko ve bütün Hefer bölgesinde Ben-Heset;"
+    },
+    {
+      "v": 11,
+      "text": "Nafat-Dor bölgesinde Süleyman'ın kızı Tafat'la evli olan Ben-Avinadav;"
+    },
+    {
+      "v": 12,
+      "text": "Taanak, Megiddo, Yizreel'in altında Saretan'ın yanındaki bütün Beytşean ve Beytşean'dan Avel-Mehola ve Yokmoam'ın ötelerine kadar uzanan bölgede Ahilut oğlu Baana;"
+    },
+    {
+      "v": 13,
+      "text": "Ramot-Gilat, Gilat'ta Manaşşe oğlu Yair'in yerleşim birimleri ve Başan'daki Argov yöresinde surlar ve tunç sürgülerle güçlendirilmiş altmış büyük kentin başında Ben-Gever;"
+    },
+    {
+      "v": 14,
+      "text": "Mahanayim bölgesinde İddo oğlu Ahinadav;"
+    },
+    {
+      "v": 15,
+      "text": "Naftali bölgesinde Süleyman'ın kızı Basemat'la evlenen Ahimaas;"
+    },
+    {
+      "v": 16,
+      "text": "Aşer ve Bealot bölgelerinde Huşay oğlu Baana;"
+    },
+    {
+      "v": 17,
+      "text": "İssakar bölgesinde Paruah oğlu Yehoşafat;"
+    },
+    {
+      "v": 18,
+      "text": "Benyamin bölgesinde Ela oğlu Şimi;"
+    },
+    {
+      "v": 19,
+      "text": "Gilat bölgesinde, yani Amorlular'ın Kralı Sihon'la Başan Kralı Og'un eski topraklarında Uri oğlu Gever. Ayrıca Yahuda bölgesinin tek valisi vardı."
+    },
+    {
+      "section": "Süleyman'ın Bir Günlük Gereksinimleri"
+    },
+    {
+      "v": 20,
+      "text": "Yahuda ve İsrail halkı kıyıların kumu kadar kalabalıktı. Herkes yiyip içip sevinç içinde yaşıyordu."
+    },
+    {
+      "v": 21,
+      "text": "Süleyman, Fırat Irmağı'ndan Filist'e, oradan Mısır sınırına kadar bütün ülkelere egemendi. Bu ülkeler Süleyman'ın yaşamı boyunca ona haraç ödeyip hizmet ettiler."
+    },
+    {
+      "v": 22,
+      "text": "Süleyman'ın sarayının bir günlük yiyecek gereksinimi şunlardı: Otuz kor ince, altmış kor kepekli un;"
+    },
+    {
+      "v": 23,
+      "text": "onu ahırda, yirmisi çayırda yetiştirilmiş sığır ve yüz koyun; ayrıca geyikler, ceylanlar, karacalar ve semiz kuşlar."
+    },
+    {
+      "v": 24,
+      "text": "Tifsah'tan Gazze'ye kadar, Fırat Irmağı'nın batısındaki bütün krallıkları Süleyman yönetiyordu. Her tarafta barış vardı."
+    },
+    {
+      "v": 25,
+      "text": "Dan'dan Beer-Şeva'ya kadar Yahuda ve İsrail halkının her bireyi Süleyman'ın yaşamı boyunca kendi asması ve incir ağacı altında güvenlik içinde yaşadı."
+    },
+    {
+      "v": 26,
+      "text": "Süleyman'ın savaş arabalarının atları için dört bin ahırı ve on iki bin atlısı vardı."
+    },
+    {
+      "v": 27,
+      "text": "Bölge valilerinin her biri kendine düşen bir ay boyunca, Kral Süleyman'a ve sofrasına oturan herkese yiyecek sağlar, hiçbir şeyi eksik etmezdi."
+    },
+    {
+      "v": 28,
+      "text": "Her vali kendisine verilen buyruk uyarınca, savaş arabalarının atlarıyla öbür atlar için belirli bir yere arpa ve saman getirirdi."
+    },
+    {
+      "section": "Süleyman'ın Eşsiz Bilgeliği"
+    },
+    {
+      "v": 29,
+      "text": "Tanrı, Süleyman'a bilgelik, derin bir sezgi, kıyılardaki kum kadar anlayış verdi."
+    },
+    {
+      "v": 30,
+      "text": "Süleyman'ın bilgeliği, bütün doğuluların ve Mısırlılar'ın bilgeliğinden daha üstündü."
+    },
+    {
+      "v": 31,
+      "text": "O, Ezrahlı Etan, Mahol'un oğulları Heman, Kalkol ve Darda dahil herkesten daha bilgeydi. Ünü çevredeki bütün uluslara yayılmıştı."
+    },
+    {
+      "v": 32,
+      "text": "Üç bin özdeyişi ve bin beş ezgisi vardı."
+    },
+    {
+      "v": 33,
+      "text": "Lübnan sedir ağacından duvarlarda biten mercanköşkotuna kadar bütün ağaçlardan söz ettiği gibi, hayvanlar, kuşlar, sürüngenler ve balıklardan da söz edebiliyordu."
+    },
+    {
+      "v": 34,
+      "text": "Süleyman'ın bilgeliğini duyan dünyanın bütün kralları ona adamlarını gönderirdi. Bütün uluslardan insanlar gelir, Süleyman'ın bilgece sözlerini dinlerdi."
+    }
+  ],
+  "title": "Süleyman'ın Görevlileri"
+}

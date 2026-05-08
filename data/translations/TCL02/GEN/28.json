@@ -1,1 +1,94 @@
-{"t": "TCL02", "b": "GEN", "c": 28, "content": [{"v": 1, "text": "İshak Yakup'u çağırdı, onu kutsayarak, “Kenanlı kızlarla evlenme” diye buyurdu,"}, {"v": 2, "text": "“Hemen Paddan-Aram'a, annenin babası Betuel'in evine git. Orada dayın Lavan'ın kızlarından biriyle evlen."}, {"v": 3, "text": "Her Şeye Gücü Yeten Tanrı seni kutsasın, verimli kılsın, soyunu çoğaltsın; soyundan halklar türesin."}, {"v": 4, "text": "İbrahim'i kutsadığı gibi seni ve soyunu da kutsasın. Öyle ki, Tanrı'nın İbrahim'e verdiği topraklara –üzerinde yabancı olarak yaşadığın bu topraklara– sahip olasın.”"}, {"v": 5, "text": "İshak Yakup'u böyle uğurladı. Yakup Paddan-Aram'a, kendisinin ve Esav'ın annesi Rebeka'nın kardeşi Aramlı Betuel oğlu Lavan'ın yanına gitmek üzere yola çıktı."}, {"v": 6, "text": "Esav İshak'ın Yakup'u kutsadığını, evlenmek üzere Paddan-Aram'a gönderdiğini öğrendi. Ayrıca Yakup'u kutsarken, babasının, “Kenanlı kızlarla evlenme” diye buyurduğunu, Yakup'un da annesiyle babasını dinleyip Paddan-Aram'a gittiğini öğrendi."}, {"v": 8, "text": "Böylece babasının Kenanlı kızlardan hoşlanmadığını anladı."}, {"v": 9, "text": "İsmail'in yanına gitti. İbrahim oğlu İsmail'in kızı, Nevayot'un kızkardeşi Mahalat'la evlenerek onu karılarının üzerine getirdi."}, {"v": 10, "text": "Yakup Beer-Şeva'dan ayrılarak Harran'a doğru yola çıktı."}, {"v": 11, "text": "Bir yere varıp orada geceledi, çünkü güneş batmıştı. Oradaki taşlardan birini alıp başının altına koyarak yattı."}, {"v": 12, "text": "Düşte yeryüzüne bir merdiven dikildiğini, başının göklere eriştiğini gördü. Tanrı'nın melekleri merdivenden çıkıp iniyorlardı."}, {"v": 13, "text": "RAB yanıbaşında durup, “Atan İbrahim'in, İshak'ın Tanrısı RAB benim” dedi, “Üzerinde yattığın toprakları sana ve soyuna vereceğim."}, {"v": 14, "text": "Yeryüzünün tozu kadar sayısız bir soya sahip olacaksın. Doğuya, batıya, kuzeye, güneye doğru yayılacaksınız. Yeryüzündeki bütün halklar sen ve soyun aracılığıyla kutsanacak."}, {"v": 15, "text": "Seninle birlikteyim. Gideceğin her yerde seni koruyacak ve bu topraklara geri getireceğim. Verdiğim sözü yerine getirinceye kadar senden ayrılmayacağım.”"}, {"v": 16, "text": "Yakup uyanınca, “RAB burada, ama ben farkına varamadım” diye düşündü."}, {"v": 17, "text": "Korktu ve, “Ne korkunç bir yer!” dedi, “Bu, Tanrı'nın evinden başka bir yer olamaz. Burası göklerin kapısı.”"}, {"v": 18, "text": "Ertesi sabah erkenden kalkıp başının altına koyduğu taşı anıt olarak dikti, üzerine zeytinyağı döktü."}, {"v": 19, "text": "Oraya Beytel adını verdi. Kentin önceki adı Luz'du."}, {"v": 20, "text": "Sonra bir adak adayarak şöyle dedi: “Tanrı benimle olur, gittiğim yolda beni korur, bana yiyecek, giyecek sağlarsa,"}, {"v": 21, "text": "babamın evine esenlik içinde dönersem, RAB benim Tanrım olacak."}, {"v": 22, "text": "Anıt olarak diktiğim bu taş Tanrı'nın evi olacak. Bana vereceğin her şeyin ondalığını sana vereceğim.”"}]}
+{
+  "t": "TCL02",
+  "b": "GEN",
+  "c": 28,
+  "content": [
+    {
+      "v": 1,
+      "text": "İshak Yakup'u çağırdı, onu kutsayarak, “Kenanlı kızlarla evlenme” diye buyurdu,"
+    },
+    {
+      "v": 2,
+      "text": "“Hemen Paddan-Aram'a, annenin babası Betuel'in evine git. Orada dayın Lavan'ın kızlarından biriyle evlen."
+    },
+    {
+      "v": 3,
+      "text": "Her Şeye Gücü Yeten Tanrı seni kutsasın, verimli kılsın, soyunu çoğaltsın; soyundan halklar türesin."
+    },
+    {
+      "v": 4,
+      "text": "İbrahim'i kutsadığı gibi seni ve soyunu da kutsasın. Öyle ki, Tanrı'nın İbrahim'e verdiği topraklara –üzerinde yabancı olarak yaşadığın bu topraklara– sahip olasın.”"
+    },
+    {
+      "v": 5,
+      "text": "İshak Yakup'u böyle uğurladı. Yakup Paddan-Aram'a, kendisinin ve Esav'ın annesi Rebeka'nın kardeşi Aramlı Betuel oğlu Lavan'ın yanına gitmek üzere yola çıktı."
+    },
+    {
+      "v": 6,
+      "text": "Esav İshak'ın Yakup'u kutsadığını, evlenmek üzere Paddan-Aram'a gönderdiğini öğrendi. Ayrıca Yakup'u kutsarken, babasının, “Kenanlı kızlarla evlenme” diye buyurduğunu, Yakup'un da annesiyle babasını dinleyip Paddan-Aram'a gittiğini öğrendi."
+    },
+    {
+      "v": 8,
+      "text": "Böylece babasının Kenanlı kızlardan hoşlanmadığını anladı."
+    },
+    {
+      "v": 9,
+      "text": "İsmail'in yanına gitti. İbrahim oğlu İsmail'in kızı, Nevayot'un kızkardeşi Mahalat'la evlenerek onu karılarının üzerine getirdi."
+    },
+    {
+      "section": "Yakup'un Düşü"
+    },
+    {
+      "v": 10,
+      "text": "Yakup Beer-Şeva'dan ayrılarak Harran'a doğru yola çıktı."
+    },
+    {
+      "v": 11,
+      "text": "Bir yere varıp orada geceledi, çünkü güneş batmıştı. Oradaki taşlardan birini alıp başının altına koyarak yattı."
+    },
+    {
+      "v": 12,
+      "text": "Düşte yeryüzüne bir merdiven dikildiğini, başının göklere eriştiğini gördü. Tanrı'nın melekleri merdivenden çıkıp iniyorlardı."
+    },
+    {
+      "v": 13,
+      "text": "RAB yanıbaşında durup, “Atan İbrahim'in, İshak'ın Tanrısı RAB benim” dedi, “Üzerinde yattığın toprakları sana ve soyuna vereceğim."
+    },
+    {
+      "v": 14,
+      "text": "Yeryüzünün tozu kadar sayısız bir soya sahip olacaksın. Doğuya, batıya, kuzeye, güneye doğru yayılacaksınız. Yeryüzündeki bütün halklar sen ve soyun aracılığıyla kutsanacak."
+    },
+    {
+      "v": 15,
+      "text": "Seninle birlikteyim. Gideceğin her yerde seni koruyacak ve bu topraklara geri getireceğim. Verdiğim sözü yerine getirinceye kadar senden ayrılmayacağım.”"
+    },
+    {
+      "v": 16,
+      "text": "Yakup uyanınca, “RAB burada, ama ben farkına varamadım” diye düşündü."
+    },
+    {
+      "v": 17,
+      "text": "Korktu ve, “Ne korkunç bir yer!” dedi, “Bu, Tanrı'nın evinden başka bir yer olamaz. Burası göklerin kapısı.”"
+    },
+    {
+      "v": 18,
+      "text": "Ertesi sabah erkenden kalkıp başının altına koyduğu taşı anıt olarak dikti, üzerine zeytinyağı döktü."
+    },
+    {
+      "v": 19,
+      "text": "Oraya Beytel adını verdi. Kentin önceki adı Luz'du."
+    },
+    {
+      "v": 20,
+      "text": "Sonra bir adak adayarak şöyle dedi: “Tanrı benimle olur, gittiğim yolda beni korur, bana yiyecek, giyecek sağlarsa,"
+    },
+    {
+      "v": 21,
+      "text": "babamın evine esenlik içinde dönersem, RAB benim Tanrım olacak."
+    },
+    {
+      "v": 22,
+      "text": "Anıt olarak diktiğim bu taş Tanrı'nın evi olacak. Bana vereceğin her şeyin ondalığını sana vereceğim.”"
+    }
+  ]
+}

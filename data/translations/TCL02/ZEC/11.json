@@ -1,1 +1,78 @@
-{"t":"TCL02","b":"ZEC","c":11,"content":[{"v":1,"text":"Ey Lübnan, kapılarını aç ki, Ateş sedir ağaçlarını yakıp yok etsin!"},{"v":2,"text":"Ey çam ağacı, haykır! Sedir ağacı yıkıldı, Ulu ağaçlar yok oldu! Haykırın, ey Başan meşeleri, Gür ormanın ağaçları devrildi!"},{"v":3,"text":"Çobanların haykırışını duy, Çünkü güzelim otlakları yok oldu! Genç aslanların kükremesini dinle, Çünkü Şeria Irmağı'nın kıyısındaki ağaçlık yok oldu!"},{"v":4,"text":"Tanrım RAB, “Kesime ayrılmış sürüyü sen güt” diyor,"},{"v":5,"text":"“Sürüyü satın alanlar koyunları kesiyor ama cezalarını çekmiyorlar. Koyunları satanlar da, ‘Tanrı'ya övgüler olsun, zengin oldum!’ diyorlar. Çobanlar kendi sürülerine acımıyor."},{"v":6,"text":"Çünkü ülkede yaşayan halka artık acımayacağım” diyor RAB, “Herkesi kendi komşusunun ve kralının eline teslim edeceğim. Ülkeyi ezecekler, ben de halkı ellerinden kurtarmayacağım.”"},{"v":7,"text":"Bunun üzerine kesime ayrılmış sürünün özellikle ezilenlerini güttüm. Elime iki değnek aldım; birine “Lütuf”, ötekine “Birlik” adını koydum. Böylece sürüyü gütmeye başladım."},{"v":8,"text":"Bir ayda üç çobanı başımdan savdım. Çünkü ben sürüden bıkmıştım, sürü de benden tiksinmişti."},{"v":9,"text":"Sürüye, “Artık sizi gütmeyeceğim. Ölen ölsün, kesilen kesilsin, geri kalanlar da birbirinin etini yesin” dedim."},{"v":10,"text":"Sonra “Lütuf” adındaki değneğimi aldım ve bütün uluslarla yapmış olduğum antlaşmayı bozmak için kırdım."},{"v":11,"text":"Böylece antlaşma o gün bozuldu. Beni gözleyen sürünün ezilenleri RAB'bin sözünün yerine geldiğini anladılar."},{"v":12,"text":"Onlara, “Uygun görürseniz ücretimi ödeyin, yoksa boş verin” dedim. Onlar da ücret olarak bana otuz gümüş verdiler."},{"v":13,"text":"RAB bana, “Çömlekçiye at” dedi. Böylece bana biçtikleri yüksek değerin karşılığı olan otuz gümüşü alıp RAB'bin Tapınağı'ndaki çömlekçiye attım."},{"v":14,"text":"Sonra Yahuda ile İsrail arasındaki kardeşliği bozmak için “Birlik” adındaki öteki değneğimi kırdım."},{"v":15,"text":"RAB bana, “Sen yine akılsız bir çoban gibi donat kendini” dedi,"},{"v":16,"text":"“Ülkeye öyle bir çoban atayacağım ki, yitiklere bakmayacak, dağılmışları aramayacak, yaralıları iyileştirmeyecek, sağlamları beslemeyecek. Ancak semiz koyunların etini yiyecek, tırnaklarını koparacak."},{"v":17,"text":"“Sürüyü terk eden değersiz çobanın vay haline! Kılıç kolunu ve sağ gözünü vursun! Kolu tamamen kurusun, Sağ gözü kör olsun!”"}]}
+{
+  "t": "TCL02",
+  "b": "ZEC",
+  "c": 11,
+  "content": [
+    {
+      "v": 1,
+      "text": "Ey Lübnan, kapılarını aç ki, Ateş sedir ağaçlarını yakıp yok etsin!"
+    },
+    {
+      "v": 2,
+      "text": "Ey çam ağacı, haykır! Sedir ağacı yıkıldı, Ulu ağaçlar yok oldu! Haykırın, ey Başan meşeleri, Gür ormanın ağaçları devrildi!"
+    },
+    {
+      "v": 3,
+      "text": "Çobanların haykırışını duy, Çünkü güzelim otlakları yok oldu! Genç aslanların kükremesini dinle, Çünkü Şeria Irmağı'nın kıyısındaki ağaçlık yok oldu!"
+    },
+    {
+      "section": "İki Çoban"
+    },
+    {
+      "v": 4,
+      "text": "Tanrım RAB, “Kesime ayrılmış sürüyü sen güt” diyor,"
+    },
+    {
+      "v": 5,
+      "text": "“Sürüyü satın alanlar koyunları kesiyor ama cezalarını çekmiyorlar. Koyunları satanlar da, ‘Tanrı'ya övgüler olsun, zengin oldum!’ diyorlar. Çobanlar kendi sürülerine acımıyor."
+    },
+    {
+      "v": 6,
+      "text": "Çünkü ülkede yaşayan halka artık acımayacağım” diyor RAB, “Herkesi kendi komşusunun ve kralının eline teslim edeceğim. Ülkeyi ezecekler, ben de halkı ellerinden kurtarmayacağım.”"
+    },
+    {
+      "v": 7,
+      "text": "Bunun üzerine kesime ayrılmış sürünün özellikle ezilenlerini güttüm. Elime iki değnek aldım; birine “Lütuf”, ötekine “Birlik” adını koydum. Böylece sürüyü gütmeye başladım."
+    },
+    {
+      "v": 8,
+      "text": "Bir ayda üç çobanı başımdan savdım. Çünkü ben sürüden bıkmıştım, sürü de benden tiksinmişti."
+    },
+    {
+      "v": 9,
+      "text": "Sürüye, “Artık sizi gütmeyeceğim. Ölen ölsün, kesilen kesilsin, geri kalanlar da birbirinin etini yesin” dedim."
+    },
+    {
+      "v": 10,
+      "text": "Sonra “Lütuf” adındaki değneğimi aldım ve bütün uluslarla yapmış olduğum antlaşmayı bozmak için kırdım."
+    },
+    {
+      "v": 11,
+      "text": "Böylece antlaşma o gün bozuldu. Beni gözleyen sürünün ezilenleri RAB'bin sözünün yerine geldiğini anladılar."
+    },
+    {
+      "v": 12,
+      "text": "Onlara, “Uygun görürseniz ücretimi ödeyin, yoksa boş verin” dedim. Onlar da ücret olarak bana otuz gümüş verdiler."
+    },
+    {
+      "v": 13,
+      "text": "RAB bana, “Çömlekçiye at” dedi. Böylece bana biçtikleri yüksek değerin karşılığı olan otuz gümüşü alıp RAB'bin Tapınağı'ndaki çömlekçiye attım."
+    },
+    {
+      "v": 14,
+      "text": "Sonra Yahuda ile İsrail arasındaki kardeşliği bozmak için “Birlik” adındaki öteki değneğimi kırdım."
+    },
+    {
+      "v": 15,
+      "text": "RAB bana, “Sen yine akılsız bir çoban gibi donat kendini” dedi,"
+    },
+    {
+      "v": 16,
+      "text": "“Ülkeye öyle bir çoban atayacağım ki, yitiklere bakmayacak, dağılmışları aramayacak, yaralıları iyileştirmeyecek, sağlamları beslemeyecek. Ancak semiz koyunların etini yiyecek, tırnaklarını koparacak."
+    },
+    {
+      "v": 17,
+      "text": "“Sürüyü terk eden değersiz çobanın vay haline! Kılıç kolunu ve sağ gözünü vursun! Kolu tamamen kurusun, Sağ gözü kör olsun!”"
+    }
+  ]
+}

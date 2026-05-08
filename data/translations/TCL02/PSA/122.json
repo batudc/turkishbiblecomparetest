@@ -1,1 +1,47 @@
-{"t":"TCL02","b":"PSA","c":122,"content":[{"v":1,"text":"Bana: “RAB'bin evine gidelim” dendikçe Sevinirim."},{"v":2,"text":"Ayaklarımız senin kapılarında, Ey Yeruşalim!"},{"v":3,"text":"Bitişik nizamda kurulmuş bir kenttir Yeruşalim!"},{"v":4,"text":"Oymaklar çıkar oraya, RAB'bin oymakları, İsrail'e verilen öğüt uyarınca, RAB'bin adına şükretmek için."},{"v":5,"text":"Çünkü orada yargı tahtları, Davut soyunun tahtları kurulmuştur."},{"v":6,"text":"Esenlik dileyin Yeruşalim'e: “Huzur bulsun seni sevenler!"},{"v":7,"text":"Surlarına esenlik, Saraylarına huzur egemen olsun!”"},{"v":8,"text":"Kardeşlerim, dostlarım için, “Esenlik olsun sana!” derim."},{"v":9,"text":"Tanrımız RAB'bin evi için İyilik dilerim sana."}]}
+{
+  "t": "TCL02",
+  "b": "PSA",
+  "c": 122,
+  "content": [
+    {
+      "section": "122. Mezmur"
+    },
+    {
+      "v": 1,
+      "text": "Bana: “RAB'bin evine gidelim” dendikçe Sevinirim."
+    },
+    {
+      "v": 2,
+      "text": "Ayaklarımız senin kapılarında, Ey Yeruşalim!"
+    },
+    {
+      "v": 3,
+      "text": "Bitişik nizamda kurulmuş bir kenttir Yeruşalim!"
+    },
+    {
+      "v": 4,
+      "text": "Oymaklar çıkar oraya, RAB'bin oymakları, İsrail'e verilen öğüt uyarınca, RAB'bin adına şükretmek için."
+    },
+    {
+      "v": 5,
+      "text": "Çünkü orada yargı tahtları, Davut soyunun tahtları kurulmuştur."
+    },
+    {
+      "v": 6,
+      "text": "Esenlik dileyin Yeruşalim'e: “Huzur bulsun seni sevenler!"
+    },
+    {
+      "v": 7,
+      "text": "Surlarına esenlik, Saraylarına huzur egemen olsun!”"
+    },
+    {
+      "v": 8,
+      "text": "Kardeşlerim, dostlarım için, “Esenlik olsun sana!” derim."
+    },
+    {
+      "v": 9,
+      "text": "Tanrımız RAB'bin evi için İyilik dilerim sana."
+    }
+  ],
+  "title": "122. Mezmur"
+}

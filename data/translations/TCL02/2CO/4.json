@@ -1,1 +1,83 @@
-{"t":"TCL02","b":"2CO","c":4,"content":[{"v":1,"text":"Bu hizmeti Tanrı'nın merhametiyle üstlendiğimiz için cesaretimizi yitirmeyiz."},{"v":2,"text":"Utanç verici gizli yolları reddettik. Hileye başvurmayız, Tanrı'nın sözünü de çarpıtmayız. Gerçeği ortaya koyarak kendimizi Tanrı'nın önünde her insanın vicdanına tavsiye ederiz."},{"v":3,"text":"Yaydığımız Müjde örtülüyse de, mahvolanlar için örtülüdür."},{"v":4,"text":"Tanrı'nın görünümü olan Mesih'in yüceliğiyle ilgili Müjde'nin ışığı imansızların üzerine doğmasın diye, bu çağın ilahı onların zihinlerini kör etmiştir."},{"v":5,"text":"Biz kendimizi ilan etmiyoruz; ama Mesih İsa'yı Rab, kendimizi de İsa uğruna kullarınız ilan ediyoruz."},{"v":6,"text":"Çünkü, “Işık karanlıktan parlayacak” diyen Tanrı, İsa Mesih'in yüzünde parlayan kendi yüceliğini tanımamızdan doğan ışığı bize vermek için yüreklerimizi aydınlattı."},{"v":7,"text":"Üstün gücün bizden değil, Tanrı'dan kaynaklandığı bilinsin diye bu hazineye toprak kaplar içinde sahibiz."},{"v":8,"text":"Her yönden sıkıştırılmışız, ama ezilmiş değiliz. Şaşırmışız, ama çaresiz değiliz."},{"v":9,"text":"Kovalanıyoruz, ama terk edilmiş değiliz. Yere yıkılmışız, ama yok olmuş değiliz."},{"v":10,"text":"İsa'nın yaşamı bedenimizde açıkça görülsün diye İsa'nın ölümünü her an bedenimizde taşıyoruz."},{"v":11,"text":"Çünkü İsa'nın yaşamı ölümlü bedenimizde açıkça görülsün diye, biz yaşayanlar İsa uğruna sürekli olarak ölüme teslim ediliyoruz."},{"v":12,"text":"Böylece ölüm bizde, yaşamsa sizde etkin olmaktadır."},{"v":13,"text":"“İman ettim, bu nedenle konuştum” diye yazılmıştır. Aynı iman ruhuna sahip olarak biz de iman ediyor ve bu nedenle konuşuyoruz."},{"v":14,"text":"Çünkü Rab İsa'yı dirilten Tanrı'nın, bizi de İsa'yla diriltip sizinle birlikte kendi önüne çıkaracağını biliyoruz."},{"v":15,"text":"Bütün bunlar sizin yararınızadır. Böylelikle Tanrı'nın lütfu çoğalıp daha çok insana ulaştıkça, Tanrı'nın yüceliği için şükran da artsın."},{"v":16,"text":"Bu nedenle cesaretimizi yitirmeyiz. Her ne kadar dış varlığımız harap oluyorsa da, iç varlığımız günden güne yenileniyor."},{"v":17,"text":"Çünkü geçici, hafif sıkıntılarımız bize, ağırlıkta hiçbir şeyle karşılaştırılamayacak kadar büyük, sonsuz bir yücelik kazandırmaktadır."},{"v":18,"text":"Gözlerimizi görünen şeylere değil, görünmeyenlere çeviriyoruz. Çünkü görünenler geçicidir, görünmeyenlerse sonsuza dek kalıcıdır."}]}
+{
+  "t": "TCL02",
+  "b": "2CO",
+  "c": 4,
+  "content": [
+    {
+      "section": "Cesaretimizi Yitirmeyiz"
+    },
+    {
+      "v": 1,
+      "text": "Bu hizmeti Tanrı'nın merhametiyle üstlendiğimiz için cesaretimizi yitirmeyiz."
+    },
+    {
+      "v": 2,
+      "text": "Utanç verici gizli yolları reddettik. Hileye başvurmayız, Tanrı'nın sözünü de çarpıtmayız. Gerçeği ortaya koyarak kendimizi Tanrı'nın önünde her insanın vicdanına tavsiye ederiz."
+    },
+    {
+      "v": 3,
+      "text": "Yaydığımız Müjde örtülüyse de, mahvolanlar için örtülüdür."
+    },
+    {
+      "v": 4,
+      "text": "Tanrı'nın görünümü olan Mesih'in yüceliğiyle ilgili Müjde'nin ışığı imansızların üzerine doğmasın diye, bu çağın ilahı onların zihinlerini kör etmiştir."
+    },
+    {
+      "v": 5,
+      "text": "Biz kendimizi ilan etmiyoruz; ama Mesih İsa'yı Rab, kendimizi de İsa uğruna kullarınız ilan ediyoruz."
+    },
+    {
+      "v": 6,
+      "text": "Çünkü, “Işık karanlıktan parlayacak” diyen Tanrı, İsa Mesih'in yüzünde parlayan kendi yüceliğini tanımamızdan doğan ışığı bize vermek için yüreklerimizi aydınlattı."
+    },
+    {
+      "v": 7,
+      "text": "Üstün gücün bizden değil, Tanrı'dan kaynaklandığı bilinsin diye bu hazineye toprak kaplar içinde sahibiz."
+    },
+    {
+      "v": 8,
+      "text": "Her yönden sıkıştırılmışız, ama ezilmiş değiliz. Şaşırmışız, ama çaresiz değiliz."
+    },
+    {
+      "v": 9,
+      "text": "Kovalanıyoruz, ama terk edilmiş değiliz. Yere yıkılmışız, ama yok olmuş değiliz."
+    },
+    {
+      "v": 10,
+      "text": "İsa'nın yaşamı bedenimizde açıkça görülsün diye İsa'nın ölümünü her an bedenimizde taşıyoruz."
+    },
+    {
+      "v": 11,
+      "text": "Çünkü İsa'nın yaşamı ölümlü bedenimizde açıkça görülsün diye, biz yaşayanlar İsa uğruna sürekli olarak ölüme teslim ediliyoruz."
+    },
+    {
+      "v": 12,
+      "text": "Böylece ölüm bizde, yaşamsa sizde etkin olmaktadır."
+    },
+    {
+      "v": 13,
+      "text": "“İman ettim, bu nedenle konuştum” diye yazılmıştır. Aynı iman ruhuna sahip olarak biz de iman ediyor ve bu nedenle konuşuyoruz."
+    },
+    {
+      "v": 14,
+      "text": "Çünkü Rab İsa'yı dirilten Tanrı'nın, bizi de İsa'yla diriltip sizinle birlikte kendi önüne çıkaracağını biliyoruz."
+    },
+    {
+      "v": 15,
+      "text": "Bütün bunlar sizin yararınızadır. Böylelikle Tanrı'nın lütfu çoğalıp daha çok insana ulaştıkça, Tanrı'nın yüceliği için şükran da artsın."
+    },
+    {
+      "v": 16,
+      "text": "Bu nedenle cesaretimizi yitirmeyiz. Her ne kadar dış varlığımız harap oluyorsa da, iç varlığımız günden güne yenileniyor."
+    },
+    {
+      "v": 17,
+      "text": "Çünkü geçici, hafif sıkıntılarımız bize, ağırlıkta hiçbir şeyle karşılaştırılamayacak kadar büyük, sonsuz bir yücelik kazandırmaktadır."
+    },
+    {
+      "v": 18,
+      "text": "Gözlerimizi görünen şeylere değil, görünmeyenlere çeviriyoruz. Çünkü görünenler geçicidir, görünmeyenlerse sonsuza dek kalıcıdır."
+    }
+  ],
+  "title": "Cesaretimizi Yitirmeyiz"
+}

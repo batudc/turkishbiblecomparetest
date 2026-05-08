@@ -1,1 +1,51 @@
-{"t":"TCL02","b":"JON","c":3,"content":[{"v":1,"text":"RAB Yunus'a ikinci kez şöyle seslendi:"},{"v":2,"text":"“Kalk, Ninova'ya, o büyük kente git ve sana söyleyeceklerimi halka bildir.”"},{"v":3,"text":"Yunus RAB'bin sözü uyarınca kalkıp Ninova'ya gitti. Ninova öyle büyük bir kentti ki, ancak üç günde dolaşılabilirdi."},{"v":4,"text":"Yunus kente girip dolaşmaya başladı. Bir gün geçince, “Kırk gün sonra Ninova yıkılacak!” diye ilan etti."},{"v":5,"text":"Ninova halkı Tanrı'ya inandı. Oruç ilan ederek büyüğünden küçüğüne hepsi çula sarındı."},{"v":6,"text":"Ninova Kralı olanları duyunca, tahtından kalkıp kaftanını çıkardı; çula sarınarak küle oturdu."},{"v":7,"text":"Ardından Ninova'da şu buyruğu yayımladı: “Kral ve soyluların buyruğudur:  Hiçbir insan ya da hayvan –ister sığır, ister davar olsun– ağzına bir şey koymayacak, otlamayacak, içmeyecek."},{"v":8,"text":"Bütün insanlar ve hayvanlar çula sarınsın. Herkes var gücüyle Tanrı'ya yakararak kötü yoldan, zorbalıktan vazgeçsin."},{"v":9,"text":"Belki o zaman Tanrı fikrini değiştirip bize acır, kızgın öfkesinden döner de yok olmayız.”"},{"v":10,"text":"Tanrı Ninovalılar'ın yaptıklarını, kötü yoldan döndüklerini görünce, onlara acıdı, yapacağını söylediği kötülükten vazgeçti."}]}
+{
+  "t": "TCL02",
+  "b": "JON",
+  "c": 3,
+  "content": [
+    {
+      "section": "Yunus Ninovalılar'a Sesleniyor"
+    },
+    {
+      "v": 1,
+      "text": "RAB Yunus'a ikinci kez şöyle seslendi:"
+    },
+    {
+      "v": 2,
+      "text": "“Kalk, Ninova'ya, o büyük kente git ve sana söyleyeceklerimi halka bildir.”"
+    },
+    {
+      "v": 3,
+      "text": "Yunus RAB'bin sözü uyarınca kalkıp Ninova'ya gitti. Ninova öyle büyük bir kentti ki, ancak üç günde dolaşılabilirdi."
+    },
+    {
+      "v": 4,
+      "text": "Yunus kente girip dolaşmaya başladı. Bir gün geçince, “Kırk gün sonra Ninova yıkılacak!” diye ilan etti."
+    },
+    {
+      "v": 5,
+      "text": "Ninova halkı Tanrı'ya inandı. Oruç ilan ederek büyüğünden küçüğüne hepsi çula sarındı."
+    },
+    {
+      "v": 6,
+      "text": "Ninova Kralı olanları duyunca, tahtından kalkıp kaftanını çıkardı; çula sarınarak küle oturdu."
+    },
+    {
+      "v": 7,
+      "text": "Ardından Ninova'da şu buyruğu yayımladı: “Kral ve soyluların buyruğudur:  Hiçbir insan ya da hayvan –ister sığır, ister davar olsun– ağzına bir şey koymayacak, otlamayacak, içmeyecek."
+    },
+    {
+      "v": 8,
+      "text": "Bütün insanlar ve hayvanlar çula sarınsın. Herkes var gücüyle Tanrı'ya yakararak kötü yoldan, zorbalıktan vazgeçsin."
+    },
+    {
+      "v": 9,
+      "text": "Belki o zaman Tanrı fikrini değiştirip bize acır, kızgın öfkesinden döner de yok olmayız.”"
+    },
+    {
+      "v": 10,
+      "text": "Tanrı Ninovalılar'ın yaptıklarını, kötü yoldan döndüklerini görünce, onlara acıdı, yapacağını söylediği kötülükten vazgeçti."
+    }
+  ],
+  "title": "Yunus Ninovalılar'a Sesleniyor"
+}

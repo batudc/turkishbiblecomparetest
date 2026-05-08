@@ -1,1 +1,98 @@
-{"t":"TCL02","b":"JOL","c":3,"content":[{"v":1,"text":"“O günler Yahuda ve Yeruşalim halkını Sürgünden geri getirdiğimde,"},{"v":2,"text":"Bütün ulusları toplayıp Yehoşafat Vadisi'ne indireceğim. Mirasım olan İsrail halkını Uluslar arasına dağıttıkları ve ülkemi bölüştükleri için Onları orada yargılayacağım."},{"v":3,"text":"Çünkü halkım için kura çektiler, Erkek çocukları fahişelere ücret olarak verdiler. İçtikleri şaraba karşılık kızları sattılar."},{"v":4,"text":"Ey Sur, Sayda ve bütün Filist halkı, Bana yapmak istediğiniz nedir? Neye karşılık vermeye çalışıyorsunuz? Eğer karşılık verirseniz, Karşılığını çarçabuk ödetirim size."},{"v":5,"text":"Altınımı, gümüşümü alıp Değerli eşyalarımı tapınaklarınıza götürdünüz."},{"v":6,"text":"Yahuda ve Yeruşalim halkını Topraklarından uzaklaştırmak için Grekler'e sattınız."},{"v":7,"text":"Göreceksiniz, onları, sattığınız yerde Harekete geçireceğim. Onlara yaptığınızı kendi başınıza getireceğim."},{"v":8,"text":"Oğullarınızı, kızlarınızı Yahuda halkına sattıracağım. Onları uzak bir ulusa, Sabalılar'a satacaklar.” RAB böyle diyor."},{"v":9,"text":"“Uluslar arasında şunu duyurun: Savaşa hazırlanın, yiğitlerinizi harekete geçirin. Bütün savaşçılarınız toplanıp saldırıya geçsin."},{"v":10,"text":"Saban demirlerinizi Çekiçle dövüp kılıç yapın, Bağcı bıçaklarınızı mızrak yapın. Güçsüz olan ‘Güçlüyüm’ desin."},{"v":11,"text":"Ey çevredeki uluslar, Tez gelin, bir araya toplanın. Ya RAB, yiğitlerini oraya indir."},{"v":12,"text":"Uluslar harekete geçip Yehoşafat Vadisi'nde toplansınlar. Çünkü çevredeki bütün ulusları Yargılamak için orada olacağım."},{"v":13,"text":"Salın orakları, ekinler olgunlaştı. Gelin, üzümleri çiğneyin, Sıkma çukuru üzümle dolu, şarap tekneleri taşıyor. Ulusların kötülükleri bu denli çoktur.”"},{"v":14,"text":"Kalabalıklar, Yargı vadisini dolduran nice kalabalıklar... Yargı vadisinde RAB'bin günü yaklaştı."},{"v":15,"text":"Güneş ve ay kararıyor, Yıldızların parıltısı görünmez oluyor."},{"v":16,"text":"RAB Siyon'dan kükreyecek, Yeruşalim'den gürleyecek. Gök ve yer sarsılacak. Ama RAB kendi halkı için sığınak, İsrailliler için kale olacak."},{"v":17,"text":"“O zaman bileceksiniz ki, Siyon'da, kutsal dağımda oturan Tanrınız RAB benim. Yeruşalim kutsal olacak; Yabancılar bir daha orayı ele geçiremeyecek."},{"v":18,"text":"“O gün dağlardan Tatlı şarap damlayacak; Tepelerde süt, Yahuda derelerinde su akacak. RAB'bin Tapınağı'ndan çıkan bir pınar Şittim Vadisi'ni sulayacak."},{"v":19,"text":"“Ama Mısır viraneye, Edom ıssız çöle dönecek. Çünkü Yahudalılar'ın ülkesine saldırıp Suçsuz insanların kanını döktüler."},{"v":20,"text":"Oysa Yahuda sonsuza dek yaşayacak. Yeruşalim kuşaktan kuşağa sürecek."},{"v":21,"text":"Akan kanların öcünü alacağım, Suçluyu cezasız bırakmayacağım.” RAB Siyon'da oturur."}]}
+{
+  "t": "TCL02",
+  "b": "JOL",
+  "c": 3,
+  "content": [
+    {
+      "section": "Uluslar Yargılanacak"
+    },
+    {
+      "v": 1,
+      "text": "“O günler Yahuda ve Yeruşalim halkını Sürgünden geri getirdiğimde,"
+    },
+    {
+      "v": 2,
+      "text": "Bütün ulusları toplayıp Yehoşafat Vadisi'ne indireceğim. Mirasım olan İsrail halkını Uluslar arasına dağıttıkları ve ülkemi bölüştükleri için Onları orada yargılayacağım."
+    },
+    {
+      "v": 3,
+      "text": "Çünkü halkım için kura çektiler, Erkek çocukları fahişelere ücret olarak verdiler. İçtikleri şaraba karşılık kızları sattılar."
+    },
+    {
+      "v": 4,
+      "text": "Ey Sur, Sayda ve bütün Filist halkı, Bana yapmak istediğiniz nedir? Neye karşılık vermeye çalışıyorsunuz? Eğer karşılık verirseniz, Karşılığını çarçabuk ödetirim size."
+    },
+    {
+      "v": 5,
+      "text": "Altınımı, gümüşümü alıp Değerli eşyalarımı tapınaklarınıza götürdünüz."
+    },
+    {
+      "v": 6,
+      "text": "Yahuda ve Yeruşalim halkını Topraklarından uzaklaştırmak için Grekler'e sattınız."
+    },
+    {
+      "v": 7,
+      "text": "Göreceksiniz, onları, sattığınız yerde Harekete geçireceğim. Onlara yaptığınızı kendi başınıza getireceğim."
+    },
+    {
+      "v": 8,
+      "text": "Oğullarınızı, kızlarınızı Yahuda halkına sattıracağım. Onları uzak bir ulusa, Sabalılar'a satacaklar.” RAB böyle diyor."
+    },
+    {
+      "v": 9,
+      "text": "“Uluslar arasında şunu duyurun: Savaşa hazırlanın, yiğitlerinizi harekete geçirin. Bütün savaşçılarınız toplanıp saldırıya geçsin."
+    },
+    {
+      "v": 10,
+      "text": "Saban demirlerinizi Çekiçle dövüp kılıç yapın, Bağcı bıçaklarınızı mızrak yapın. Güçsüz olan ‘Güçlüyüm’ desin."
+    },
+    {
+      "v": 11,
+      "text": "Ey çevredeki uluslar, Tez gelin, bir araya toplanın. Ya RAB, yiğitlerini oraya indir."
+    },
+    {
+      "v": 12,
+      "text": "Uluslar harekete geçip Yehoşafat Vadisi'nde toplansınlar. Çünkü çevredeki bütün ulusları Yargılamak için orada olacağım."
+    },
+    {
+      "v": 13,
+      "text": "Salın orakları, ekinler olgunlaştı. Gelin, üzümleri çiğneyin, Sıkma çukuru üzümle dolu, şarap tekneleri taşıyor. Ulusların kötülükleri bu denli çoktur.”"
+    },
+    {
+      "v": 14,
+      "text": "Kalabalıklar, Yargı vadisini dolduran nice kalabalıklar... Yargı vadisinde RAB'bin günü yaklaştı."
+    },
+    {
+      "v": 15,
+      "text": "Güneş ve ay kararıyor, Yıldızların parıltısı görünmez oluyor."
+    },
+    {
+      "v": 16,
+      "text": "RAB Siyon'dan kükreyecek, Yeruşalim'den gürleyecek. Gök ve yer sarsılacak. Ama RAB kendi halkı için sığınak, İsrailliler için kale olacak."
+    },
+    {
+      "section": "Rab Halkını Kutsayacak"
+    },
+    {
+      "v": 17,
+      "text": "“O zaman bileceksiniz ki, Siyon'da, kutsal dağımda oturan Tanrınız RAB benim. Yeruşalim kutsal olacak; Yabancılar bir daha orayı ele geçiremeyecek."
+    },
+    {
+      "v": 18,
+      "text": "“O gün dağlardan Tatlı şarap damlayacak; Tepelerde süt, Yahuda derelerinde su akacak. RAB'bin Tapınağı'ndan çıkan bir pınar Şittim Vadisi'ni sulayacak."
+    },
+    {
+      "v": 19,
+      "text": "“Ama Mısır viraneye, Edom ıssız çöle dönecek. Çünkü Yahudalılar'ın ülkesine saldırıp Suçsuz insanların kanını döktüler."
+    },
+    {
+      "v": 20,
+      "text": "Oysa Yahuda sonsuza dek yaşayacak. Yeruşalim kuşaktan kuşağa sürecek."
+    },
+    {
+      "v": 21,
+      "text": "Akan kanların öcünü alacağım, Suçluyu cezasız bırakmayacağım.” RAB Siyon'da oturur."
+    }
+  ],
+  "title": "Uluslar Yargılanacak"
+}

@@ -1,1 +1,95 @@
-{"t":"TCL02","b":"JOB","c":4,"content":[{"v":1,"text":"Temanlı Elifaz şöyle yanıtladı:"},{"v":2,"text":"“Biri sana bir şey söylemeye çalışsa gücenir misin? Kim konuşmadan durabilir?"},{"v":3,"text":"Evet, pek çoklarına sen ders verdin, Zayıf elleri güçlendirdin,"},{"v":4,"text":"Tökezleyeni senin sözlerin ayakta tuttu, Titreyen dizleri sen pekiştirdin."},{"v":5,"text":"Ama şimdi senin başına gelince gücüne gidiyor, Sana dokununca yılgınlığa düşüyorsun."},{"v":6,"text":"Senin güvendiğin Tanrı'dan korkun değil mi, Umudun kusursuz yaşamında değil mi?"},{"v":7,"text":"“Düşün biraz: Hangi suçsuz yok oldu, Nerede doğrular yıkıma uğradı?"},{"v":8,"text":"Benim gördüğüm kadarıyla, fesat sürenler, Kötülük tohumu ekenler ektiklerini biçiyor."},{"v":9,"text":"Tanrı'nın soluğuyla yok oluyor, Öfkesinin rüzgarıyla tükeniyorlar."},{"v":10,"text":"Aslanın kükremesi, homurtusu kesildi, Dişleri kırıldı genç aslanların."},{"v":11,"text":"Aslan av bulamadığı için yok oluyor, Dişi aslanın yavruları dağılıyor."},{"v":12,"text":"“Bir söz gizlice erişti bana, Fısıltısı kulağıma ulaştı."},{"v":13,"text":"Gece rüyaların doğurduğu düşünceler içinde, İnsanları ağır uyku bastığı zaman,"},{"v":14,"text":"Beni dehşet ve titreme aldı, Bütün kemiklerimi sarstı."},{"v":15,"text":"Önümden bir ruh geçti, Tüylerim ürperdi."},{"v":16,"text":"Durdu, ama ne olduğunu seçemedim. Bir suret duruyordu gözümün önünde, Çıt çıkmazken bir ses duydum:"},{"v":17,"text":"‘Tanrı karşısında insan doğru olabilir mi? Kendisini yaratanın karşısında temiz çıkabilir mi?"},{"v":18,"text":"Bakın, Tanrı kullarına güvenmez, Meleklerinde hata bulur da,"},{"v":19,"text":"Çamur evlerde oturanlara, Mayası toprak olanlara, Güveden kolay ezilenlere mi güvenir?"},{"v":20,"text":"Ömürleri sabahtan akşama varmaz, Kimse farkına varmadan sonsuza dek yok olurlar."},{"v":21,"text":"İçlerindeki çadır ipleri çekilince, Bilgelikten yoksun olarak ölüp giderler.’"}]}
+{
+  "t": "TCL02",
+  "b": "JOB",
+  "c": 4,
+  "content": [
+    {
+      "section": "Elifaz"
+    },
+    {
+      "v": 1,
+      "text": "Temanlı Elifaz şöyle yanıtladı:"
+    },
+    {
+      "v": 2,
+      "text": "“Biri sana bir şey söylemeye çalışsa gücenir misin? Kim konuşmadan durabilir?"
+    },
+    {
+      "v": 3,
+      "text": "Evet, pek çoklarına sen ders verdin, Zayıf elleri güçlendirdin,"
+    },
+    {
+      "v": 4,
+      "text": "Tökezleyeni senin sözlerin ayakta tuttu, Titreyen dizleri sen pekiştirdin."
+    },
+    {
+      "v": 5,
+      "text": "Ama şimdi senin başına gelince gücüne gidiyor, Sana dokununca yılgınlığa düşüyorsun."
+    },
+    {
+      "v": 6,
+      "text": "Senin güvendiğin Tanrı'dan korkun değil mi, Umudun kusursuz yaşamında değil mi?"
+    },
+    {
+      "v": 7,
+      "text": "“Düşün biraz: Hangi suçsuz yok oldu, Nerede doğrular yıkıma uğradı?"
+    },
+    {
+      "v": 8,
+      "text": "Benim gördüğüm kadarıyla, fesat sürenler, Kötülük tohumu ekenler ektiklerini biçiyor."
+    },
+    {
+      "v": 9,
+      "text": "Tanrı'nın soluğuyla yok oluyor, Öfkesinin rüzgarıyla tükeniyorlar."
+    },
+    {
+      "v": 10,
+      "text": "Aslanın kükremesi, homurtusu kesildi, Dişleri kırıldı genç aslanların."
+    },
+    {
+      "v": 11,
+      "text": "Aslan av bulamadığı için yok oluyor, Dişi aslanın yavruları dağılıyor."
+    },
+    {
+      "v": 12,
+      "text": "“Bir söz gizlice erişti bana, Fısıltısı kulağıma ulaştı."
+    },
+    {
+      "v": 13,
+      "text": "Gece rüyaların doğurduğu düşünceler içinde, İnsanları ağır uyku bastığı zaman,"
+    },
+    {
+      "v": 14,
+      "text": "Beni dehşet ve titreme aldı, Bütün kemiklerimi sarstı."
+    },
+    {
+      "v": 15,
+      "text": "Önümden bir ruh geçti, Tüylerim ürperdi."
+    },
+    {
+      "v": 16,
+      "text": "Durdu, ama ne olduğunu seçemedim. Bir suret duruyordu gözümün önünde, Çıt çıkmazken bir ses duydum:"
+    },
+    {
+      "v": 17,
+      "text": "‘Tanrı karşısında insan doğru olabilir mi? Kendisini yaratanın karşısında temiz çıkabilir mi?"
+    },
+    {
+      "v": 18,
+      "text": "Bakın, Tanrı kullarına güvenmez, Meleklerinde hata bulur da,"
+    },
+    {
+      "v": 19,
+      "text": "Çamur evlerde oturanlara, Mayası toprak olanlara, Güveden kolay ezilenlere mi güvenir?"
+    },
+    {
+      "v": 20,
+      "text": "Ömürleri sabahtan akşama varmaz, Kimse farkına varmadan sonsuza dek yok olurlar."
+    },
+    {
+      "v": 21,
+      "text": "İçlerindeki çadır ipleri çekilince, Bilgelikten yoksun olarak ölüp giderler.’"
+    }
+  ],
+  "title": "Elifaz"
+}

@@ -1,1 +1,99 @@
-{"t":"TCL02","b":"EXO","c":1,"content":[{"v":1,"text":"Yakup'la birlikte aileleriyle Mısır'a giden İsrailoğulları'nın adları şunlardır:"},{"v":2,"text":"Ruben, Şimon, Levi, Yahuda,"},{"v":3,"text":"İssakar, Zevulun, Benyamin,"},{"v":4,"text":"Dan, Naftali, Gad, Aşer."},{"v":5,"text":"Yakup'un soyundan gelenler toplam yetmiş kişiydi. Yusuf zaten Mısır'daydı."},{"v":6,"text":"Zamanla Yusuf, kardeşleri ve o kuşağın hepsi öldü."},{"v":7,"text":"Ama soyları arttı; üreyip çoğaldılar, gittikçe büyüdüler, ülke onlarla dolup taştı."},{"v":8,"text":"Sonra Yusuf hakkında bilgisi olmayan yeni bir kral Mısır'da tahta çıktı."},{"v":9,"text":"Halkına, “Bakın, İsrailliler sayıca bizden daha çok” dedi,"},{"v":10,"text":"“Gelin, onlara karşı aklımızı kullanalım, yoksa daha da çoğalırlar; bir savaş çıkarsa, düşmanlarımıza katılıp bize karşı savaşır, ülkeyi terk ederler.”"},{"v":11,"text":"Böylece Mısırlılar İsrailliler'in başına onları ağır işlere koşacak angaryacılar atadılar. İsrailliler firavun için Pitom ve Ramses adında ambarlı kentler yaptılar."},{"v":12,"text":"Ama Mısırlılar baskı yaptıkça İsrailliler daha da çoğalarak bölgeye yayıldılar. Mısırlılar korkuya kapılarak"},{"v":13,"text":"İsrailliler'i amansızca çalıştırdılar."},{"v":14,"text":"Her türlü tarla işi, harç ve kerpiç yapımı gibi ağır işlerle yaşamı onlara zehir ettiler. Bütün işlerinde onları amansızca kullandılar."},{"v":15,"text":"Mısır Kralı, Şifra ve Pua adındaki İbrani ebelere şöyle dedi:"},{"v":16,"text":"“İbrani kadınlarını doğum sandalyesinde doğurturken iyi bakın; çocuk erkekse öldürün, kızsa dokunmayın.”"},{"v":17,"text":"Ama ebeler Tanrı'dan korkan kimselerdi, Mısır Kralı'nın buyruğuna uymayarak erkek çocukları sağ bıraktılar."},{"v":18,"text":"Bunun üzerine Mısır Kralı ebeleri çağırtıp, “Niçin yaptınız bunu?” diye sordu, “Neden erkek çocukları sağ bıraktınız?”"},{"v":19,"text":"Ebeler, “İbrani kadınlar Mısırlı kadınlara benzemiyor” diye yanıtladılar, “Çok güçlüler. Daha ebe gelmeden doğuruyorlar.”"},{"v":20,"text":"Tanrı ebelere iyilik etti. Halk çoğaldıkça çoğaldı."},{"v":21,"text":"Ebeler kendisinden korktukları için Tanrı onları ev bark sahibi yaptı."},{"v":22,"text":"Bunun üzerine firavun bütün halkına buyruk verdi: “Doğan her İbrani erkek çocuk Nil'e atılacak, kızlar sağ bırakılacak.”"}]}
+{
+  "t": "TCL02",
+  "b": "EXO",
+  "c": 1,
+  "content": [
+    {
+      "section": "İsrailliler Mısır'da Baskı Görüyor"
+    },
+    {
+      "v": 1,
+      "text": "Yakup'la birlikte aileleriyle Mısır'a giden İsrailoğulları'nın adları şunlardır:"
+    },
+    {
+      "v": 2,
+      "text": "Ruben, Şimon, Levi, Yahuda,"
+    },
+    {
+      "v": 3,
+      "text": "İssakar, Zevulun, Benyamin,"
+    },
+    {
+      "v": 4,
+      "text": "Dan, Naftali, Gad, Aşer."
+    },
+    {
+      "v": 5,
+      "text": "Yakup'un soyundan gelenler toplam yetmiş kişiydi. Yusuf zaten Mısır'daydı."
+    },
+    {
+      "v": 6,
+      "text": "Zamanla Yusuf, kardeşleri ve o kuşağın hepsi öldü."
+    },
+    {
+      "v": 7,
+      "text": "Ama soyları arttı; üreyip çoğaldılar, gittikçe büyüdüler, ülke onlarla dolup taştı."
+    },
+    {
+      "v": 8,
+      "text": "Sonra Yusuf hakkında bilgisi olmayan yeni bir kral Mısır'da tahta çıktı."
+    },
+    {
+      "v": 9,
+      "text": "Halkına, “Bakın, İsrailliler sayıca bizden daha çok” dedi,"
+    },
+    {
+      "v": 10,
+      "text": "“Gelin, onlara karşı aklımızı kullanalım, yoksa daha da çoğalırlar; bir savaş çıkarsa, düşmanlarımıza katılıp bize karşı savaşır, ülkeyi terk ederler.”"
+    },
+    {
+      "v": 11,
+      "text": "Böylece Mısırlılar İsrailliler'in başına onları ağır işlere koşacak angaryacılar atadılar. İsrailliler firavun için Pitom ve Ramses adında ambarlı kentler yaptılar."
+    },
+    {
+      "v": 12,
+      "text": "Ama Mısırlılar baskı yaptıkça İsrailliler daha da çoğalarak bölgeye yayıldılar. Mısırlılar korkuya kapılarak"
+    },
+    {
+      "v": 13,
+      "text": "İsrailliler'i amansızca çalıştırdılar."
+    },
+    {
+      "v": 14,
+      "text": "Her türlü tarla işi, harç ve kerpiç yapımı gibi ağır işlerle yaşamı onlara zehir ettiler. Bütün işlerinde onları amansızca kullandılar."
+    },
+    {
+      "v": 15,
+      "text": "Mısır Kralı, Şifra ve Pua adındaki İbrani ebelere şöyle dedi:"
+    },
+    {
+      "v": 16,
+      "text": "“İbrani kadınlarını doğum sandalyesinde doğurturken iyi bakın; çocuk erkekse öldürün, kızsa dokunmayın.”"
+    },
+    {
+      "v": 17,
+      "text": "Ama ebeler Tanrı'dan korkan kimselerdi, Mısır Kralı'nın buyruğuna uymayarak erkek çocukları sağ bıraktılar."
+    },
+    {
+      "v": 18,
+      "text": "Bunun üzerine Mısır Kralı ebeleri çağırtıp, “Niçin yaptınız bunu?” diye sordu, “Neden erkek çocukları sağ bıraktınız?”"
+    },
+    {
+      "v": 19,
+      "text": "Ebeler, “İbrani kadınlar Mısırlı kadınlara benzemiyor” diye yanıtladılar, “Çok güçlüler. Daha ebe gelmeden doğuruyorlar.”"
+    },
+    {
+      "v": 20,
+      "text": "Tanrı ebelere iyilik etti. Halk çoğaldıkça çoğaldı."
+    },
+    {
+      "v": 21,
+      "text": "Ebeler kendisinden korktukları için Tanrı onları ev bark sahibi yaptı."
+    },
+    {
+      "v": 22,
+      "text": "Bunun üzerine firavun bütün halkına buyruk verdi: “Doğan her İbrani erkek çocuk Nil'e atılacak, kızlar sağ bırakılacak.”"
+    }
+  ],
+  "title": "İsrailliler Mısır'da Baskı Görüyor"
+}

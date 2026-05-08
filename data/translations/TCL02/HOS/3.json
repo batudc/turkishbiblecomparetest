@@ -1,1 +1,31 @@
-{"t":"TCL02","b":"HOS","c":3,"content":[{"v":1,"text":"RAB bana şöyle dedi: “İsrailliler'in başka ilahlara yönelmelerine, üzüm pestillerine gönül vermelerine karşın, RAB onları nasıl seviyorsa, sen de git, o kadını sev, başkasınca sevilmiş, zina etmiş olsa bile.”"},{"v":2,"text":"Böylece onu on beş şekel gümüş, bir homer bir letek arpa karşılığında satın aldım kendime."},{"v":3,"text":"Ona, “Uzun süre benimle yaşayacaksın” dedim, “Zina etmeyecek, başka bir erkekle dostluk kurmayacaksın. Ben de sana öyle davranacağım.”"},{"v":4,"text":"Çünkü İsrailliler uzun süre kral, önder, kurban, dikili taş, efod, aile putu olmadan yaşayacak."},{"v":5,"text":"Sonra dönüp Tanrıları RAB'bi, kralları Davut'u arayacaklar. Son günlerde korkarak RAB'be ve O'nun iyiliğine yönelecekler."}]}
+{
+  "t": "TCL02",
+  "b": "HOS",
+  "c": 3,
+  "content": [
+    {
+      "section": "Hoşea ve Vefasız Kadın"
+    },
+    {
+      "v": 1,
+      "text": "RAB bana şöyle dedi: “İsrailliler'in başka ilahlara yönelmelerine, üzüm pestillerine gönül vermelerine karşın, RAB onları nasıl seviyorsa, sen de git, o kadını sev, başkasınca sevilmiş, zina etmiş olsa bile.”"
+    },
+    {
+      "v": 2,
+      "text": "Böylece onu on beş şekel gümüş, bir homer bir letek arpa karşılığında satın aldım kendime."
+    },
+    {
+      "v": 3,
+      "text": "Ona, “Uzun süre benimle yaşayacaksın” dedim, “Zina etmeyecek, başka bir erkekle dostluk kurmayacaksın. Ben de sana öyle davranacağım.”"
+    },
+    {
+      "v": 4,
+      "text": "Çünkü İsrailliler uzun süre kral, önder, kurban, dikili taş, efod, aile putu olmadan yaşayacak."
+    },
+    {
+      "v": 5,
+      "text": "Sonra dönüp Tanrıları RAB'bi, kralları Davut'u arayacaklar. Son günlerde korkarak RAB'be ve O'nun iyiliğine yönelecekler."
+    }
+  ],
+  "title": "Hoşea ve Vefasız Kadın"
+}

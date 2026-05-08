@@ -1,1 +1,47 @@
-{"t":"TCL02","b":"ISA","c":15,"content":[{"v":1,"text":"Moav'la ilgili bildiri: Moav'ın Ar Kenti bir gecede viraneye döndü, yok oldu, Moav'ın Kîr Kenti bir gecede viraneye döndü, yok oldu."},{"v":2,"text":"Bu yüzden Divon halkı ağlamak için tapınağa, Tapınma yerlerine çıktı. Moav halkı, Nevo ve Medeva için feryat ediyor. İnsanlar saçlarını sakallarını kesiyor."},{"v":3,"text":"Çul giyiyorlar sokaklarda, Damlarda, meydanlarda herkes feryat ediyor, Gözyaşları sel gibi."},{"v":4,"text":"Heşbon ve Elale'nin haykırışları Yahas'a ulaşıyor. Moav askerleri bu yüzden feryat ediyor, Yürekleri korku içinde."},{"v":5,"text":"Yüreğim sızlıyor Moav için. Kaçanlar Soar'a, Eglat-Şelişiya'ya ulaştı, Ağlaya ağlaya çıkıyorlar Luhit Yokuşu'ndan, Horonayim yolunda yıkımlarına ağıt yakıyorlar."},{"v":6,"text":"Nimrim suları kuruduğu için otlar sararıp soldu. Taze ot kalmadı, yeşillik yok artık."},{"v":7,"text":"Bu yüzden halk kazanıp biriktirdiği ne varsa, Kavak Vadisi üzerinden taşıyacak."},{"v":8,"text":"Haykırışları Moav topraklarında yankılanıyor, Feryatları Eglayim'e, Beer-Elim'e dek ulaştı."},{"v":9,"text":"Çünkü Dimon suları kan dolu, Ama başına daha beterini getireceğim. Moav'dan kaçıp kurtulanların, Ülkede sağ kalanların üzerine aslan salacağım."}]}
+{
+  "t": "TCL02",
+  "b": "ISA",
+  "c": 15,
+  "content": [
+    {
+      "section": "Moav Yıkıma Uğrayacak"
+    },
+    {
+      "v": 1,
+      "text": "Moav'la ilgili bildiri: Moav'ın Ar Kenti bir gecede viraneye döndü, yok oldu, Moav'ın Kîr Kenti bir gecede viraneye döndü, yok oldu."
+    },
+    {
+      "v": 2,
+      "text": "Bu yüzden Divon halkı ağlamak için tapınağa, Tapınma yerlerine çıktı. Moav halkı, Nevo ve Medeva için feryat ediyor. İnsanlar saçlarını sakallarını kesiyor."
+    },
+    {
+      "v": 3,
+      "text": "Çul giyiyorlar sokaklarda, Damlarda, meydanlarda herkes feryat ediyor, Gözyaşları sel gibi."
+    },
+    {
+      "v": 4,
+      "text": "Heşbon ve Elale'nin haykırışları Yahas'a ulaşıyor. Moav askerleri bu yüzden feryat ediyor, Yürekleri korku içinde."
+    },
+    {
+      "v": 5,
+      "text": "Yüreğim sızlıyor Moav için. Kaçanlar Soar'a, Eglat-Şelişiya'ya ulaştı, Ağlaya ağlaya çıkıyorlar Luhit Yokuşu'ndan, Horonayim yolunda yıkımlarına ağıt yakıyorlar."
+    },
+    {
+      "v": 6,
+      "text": "Nimrim suları kuruduğu için otlar sararıp soldu. Taze ot kalmadı, yeşillik yok artık."
+    },
+    {
+      "v": 7,
+      "text": "Bu yüzden halk kazanıp biriktirdiği ne varsa, Kavak Vadisi üzerinden taşıyacak."
+    },
+    {
+      "v": 8,
+      "text": "Haykırışları Moav topraklarında yankılanıyor, Feryatları Eglayim'e, Beer-Elim'e dek ulaştı."
+    },
+    {
+      "v": 9,
+      "text": "Çünkü Dimon suları kan dolu, Ama başına daha beterini getireceğim. Moav'dan kaçıp kurtulanların, Ülkede sağ kalanların üzerine aslan salacağım."
+    }
+  ],
+  "title": "Moav Yıkıma Uğrayacak"
+}

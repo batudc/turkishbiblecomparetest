@@ -1,1 +1,113 @@
-{"t":"TCL02","b":"EXO","c":7,"content":[{"v":1,"text":"RAB, “Bak, seni firavuna karşı Tanrı gibi yaptım” dedi, “Ağabeyin Harun senin peygamberin olacak."},{"v":2,"text":"Sana buyurduğum her şeyi ağabeyine anlat. O da firavuna İsrailliler'i ülkesinden salıvermesini söylesin."},{"v":3,"text":"Ben firavunu inatçı yapacağım ki, belirtilerimi ve şaşılası işlerimi Mısır'da artırabileyim."},{"v":4,"text":"Ama firavun sizi dinlemeyecek. O zaman elimi Mısır'ın üzerine koyacağım ve onları ağır biçimde cezalandırarak halkım İsrail'i ordular halinde Mısır'dan çıkaracağım."},{"v":5,"text":"Mısır'a karşı elimi kaldırdığım ve İsrailliler'i aralarından çıkardığım zaman Mısırlılar benim RAB olduğumu anlayacak.”"},{"v":6,"text":"Musa'yla Harun RAB'bin buyurduğu gibi yaptılar."},{"v":7,"text":"Firavunla konuştuklarında Musa seksen, Harun seksen üç yaşındaydı."},{"v":8,"text":"RAB Musa'yla Harun'a şöyle dedi:"},{"v":9,"text":"“Firavun size, ‘Bir mucize yapın’ dediğinde, söyle Harun'a, değneğini alıp firavunun önüne atsın. Değnek yılan olacak.”"},{"v":10,"text":"Böylece Musa'yla Harun firavunun yanına gittiler ve RAB'bin buyurduğu gibi yaptılar. Harun değneğini firavunla görevlilerinin önüne attı. Değnek yılan oluverdi."},{"v":11,"text":"Bunun üzerine firavun kendi bilgelerini, büyücülerini çağırdı. Mısırlı büyücüler de büyüleriyle aynı şeyi yaptılar."},{"v":12,"text":"Her biri değneğini attı, değnekler yılan oldu. Ancak Harun'un değneği onların değneklerini yuttu."},{"v":13,"text":"Yine de, RAB'bin söylediği gibi firavun inat etti ve Musa'yla Harun'u dinlemedi."},{"v":14,"text":"RAB Musa'ya, “Firavun inat ediyor, halkı salıvermeyi reddediyor” dedi,"},{"v":15,"text":"“Sabah git, firavun Nil'e inerken onu karşılamak için ırmak kıyısında bekle. Yılana dönüşen değneği eline al"},{"v":16,"text":"ve ona de ki, ‘Halkımı salıver, çölde bana tapsınlar, demem için İbraniler'in Tanrısı RAB beni sana gönderdi. Ama sen şu ana kadar kulak asmadın."},{"v":17,"text":"Benim RAB olduğumu şundan anla, diyor RAB. İşte, elimdeki değneği ırmağın sularına vuracağım, sular kana dönecek."},{"v":18,"text":"Irmaktaki balıklar ölecek, ırmak leş gibi kokacak, Mısırlılar artık ırmağın suyunu içemeyecekler.’ ”"},{"v":19,"text":"Sonra RAB Musa'ya şöyle buyurdu: “Harun'a de ki, ‘Değneğini al ve elini Mısır'ın suları üzerine –ırmakları, kanalları, havuzları, bütün su birikintileri üzerine– uzat, hepsi kana dönsün. Bütün Mısır'da tahta ve taş kaplardaki sular bile kana dönecek.’ ”"},{"v":20,"text":"Musa'yla Harun RAB'bin buyurduğu gibi yaptılar. Harun firavunla görevlilerinin gözü önünde değneğini kaldırıp ırmağın sularına vurdu. Bütün sular kana dönüştü."},{"v":21,"text":"Irmaktaki balıklar öldü, ırmak kokmaya başladı. Mısırlılar ırmağın suyunu içemez oldular. Mısır'ın her yerinde kan vardı."},{"v":22,"text":"Mısırlı büyücüler de kendi büyüleriyle aynı şeyi yaptılar. RAB'bin söylediği gibi firavun inat etti ve Musa'yla Harun'u dinlemedi."},{"v":23,"text":"Olanlara aldırmadan sarayına döndü."},{"v":24,"text":"Mısırlılar içecek su bulmak için ırmak kıyısını kazmaya koyuldular. Çünkü ırmağın suyunu içemiyorlardı."},{"v":25,"text":"RAB'bin ırmağı vurmasının üzerinden yedi gün geçti."}]}
+{
+  "t": "TCL02",
+  "b": "EXO",
+  "c": 7,
+  "content": [
+    {
+      "v": 1,
+      "text": "RAB, “Bak, seni firavuna karşı Tanrı gibi yaptım” dedi, “Ağabeyin Harun senin peygamberin olacak."
+    },
+    {
+      "v": 2,
+      "text": "Sana buyurduğum her şeyi ağabeyine anlat. O da firavuna İsrailliler'i ülkesinden salıvermesini söylesin."
+    },
+    {
+      "v": 3,
+      "text": "Ben firavunu inatçı yapacağım ki, belirtilerimi ve şaşılası işlerimi Mısır'da artırabileyim."
+    },
+    {
+      "v": 4,
+      "text": "Ama firavun sizi dinlemeyecek. O zaman elimi Mısır'ın üzerine koyacağım ve onları ağır biçimde cezalandırarak halkım İsrail'i ordular halinde Mısır'dan çıkaracağım."
+    },
+    {
+      "v": 5,
+      "text": "Mısır'a karşı elimi kaldırdığım ve İsrailliler'i aralarından çıkardığım zaman Mısırlılar benim RAB olduğumu anlayacak.”"
+    },
+    {
+      "v": 6,
+      "text": "Musa'yla Harun RAB'bin buyurduğu gibi yaptılar."
+    },
+    {
+      "v": 7,
+      "text": "Firavunla konuştuklarında Musa seksen, Harun seksen üç yaşındaydı."
+    },
+    {
+      "section": "Harun'un Değneği Yılan Oluyor"
+    },
+    {
+      "v": 8,
+      "text": "RAB Musa'yla Harun'a şöyle dedi:"
+    },
+    {
+      "v": 9,
+      "text": "“Firavun size, ‘Bir mucize yapın’ dediğinde, söyle Harun'a, değneğini alıp firavunun önüne atsın. Değnek yılan olacak.”"
+    },
+    {
+      "v": 10,
+      "text": "Böylece Musa'yla Harun firavunun yanına gittiler ve RAB'bin buyurduğu gibi yaptılar. Harun değneğini firavunla görevlilerinin önüne attı. Değnek yılan oluverdi."
+    },
+    {
+      "v": 11,
+      "text": "Bunun üzerine firavun kendi bilgelerini, büyücülerini çağırdı. Mısırlı büyücüler de büyüleriyle aynı şeyi yaptılar."
+    },
+    {
+      "v": 12,
+      "text": "Her biri değneğini attı, değnekler yılan oldu. Ancak Harun'un değneği onların değneklerini yuttu."
+    },
+    {
+      "v": 13,
+      "text": "Yine de, RAB'bin söylediği gibi firavun inat etti ve Musa'yla Harun'u dinlemedi."
+    },
+    {
+      "section": "Kan Belası"
+    },
+    {
+      "v": 14,
+      "text": "RAB Musa'ya, “Firavun inat ediyor, halkı salıvermeyi reddediyor” dedi,"
+    },
+    {
+      "v": 15,
+      "text": "“Sabah git, firavun Nil'e inerken onu karşılamak için ırmak kıyısında bekle. Yılana dönüşen değneği eline al"
+    },
+    {
+      "v": 16,
+      "text": "ve ona de ki, ‘Halkımı salıver, çölde bana tapsınlar, demem için İbraniler'in Tanrısı RAB beni sana gönderdi. Ama sen şu ana kadar kulak asmadın."
+    },
+    {
+      "v": 17,
+      "text": "Benim RAB olduğumu şundan anla, diyor RAB. İşte, elimdeki değneği ırmağın sularına vuracağım, sular kana dönecek."
+    },
+    {
+      "v": 18,
+      "text": "Irmaktaki balıklar ölecek, ırmak leş gibi kokacak, Mısırlılar artık ırmağın suyunu içemeyecekler.’ ”"
+    },
+    {
+      "v": 19,
+      "text": "Sonra RAB Musa'ya şöyle buyurdu: “Harun'a de ki, ‘Değneğini al ve elini Mısır'ın suları üzerine –ırmakları, kanalları, havuzları, bütün su birikintileri üzerine– uzat, hepsi kana dönsün. Bütün Mısır'da tahta ve taş kaplardaki sular bile kana dönecek.’ ”"
+    },
+    {
+      "v": 20,
+      "text": "Musa'yla Harun RAB'bin buyurduğu gibi yaptılar. Harun firavunla görevlilerinin gözü önünde değneğini kaldırıp ırmağın sularına vurdu. Bütün sular kana dönüştü."
+    },
+    {
+      "v": 21,
+      "text": "Irmaktaki balıklar öldü, ırmak kokmaya başladı. Mısırlılar ırmağın suyunu içemez oldular. Mısır'ın her yerinde kan vardı."
+    },
+    {
+      "v": 22,
+      "text": "Mısırlı büyücüler de kendi büyüleriyle aynı şeyi yaptılar. RAB'bin söylediği gibi firavun inat etti ve Musa'yla Harun'u dinlemedi."
+    },
+    {
+      "v": 23,
+      "text": "Olanlara aldırmadan sarayına döndü."
+    },
+    {
+      "v": 24,
+      "text": "Mısırlılar içecek su bulmak için ırmak kıyısını kazmaya koyuldular. Çünkü ırmağın suyunu içemiyorlardı."
+    },
+    {
+      "v": 25,
+      "text": "RAB'bin ırmağı vurmasının üzerinden yedi gün geçti."
+    }
+  ]
+}

@@ -1,1 +1,55 @@
-{"t": "TCL02", "b": "ISA", "c": 62, "content": [{"v": 1, "text": "Zaferi ışık gibi parlayıncaya, Kurtuluşu meşale gibi yanıncaya dek Siyon uğruna susmayacak, Yeruşalim uğruna sessiz kalmayacağım."}, {"v": 2, "text": "Uluslar senin zaferini, Bütün krallar görkemini görecek. RAB'bin kendi ağzıyla belirlediği yeni bir adla anılacaksın."}, {"v": 3, "text": "RAB'bin elinde güzellik tacı, Tanrın'ın elinde krallık sarığı olacaksın."}, {"v": 4, "text": "Artık sana “Terk edilmiş”, Ülkene “Virane” denmeyecek; Bunun yerine sana “Sevdiğim”, Ülkene “Evli” denecek. Çünkü RAB seni seviyor, Ülken de evli sayılacak."}, {"v": 5, "text": "Bir delikanlı bir kızla nasıl evlenirse, Oğulların da seninle öyle evlenecek. Güvey gelinle nasıl sevinirse, Tanrın da seninle öyle sevinecek."}, {"v": 6, "text": "Ey Yeruşalim, surlarına bekçiler diktim, Gece gündüz hiç susmayacaklar. Ey RAB'be sözünü anımsatanlar, Yeruşalim'i pekiştirene, Onu yeryüzünün övüncü kılana dek Durup dinlenmeden RAB'be yakarın, O'na rahat vermeyin."}, {"v": 8, "text": "RAB sağ elini, güçlü kolunu kaldırıp ant içti: “Tahılını bir daha düşmanlarına yedirmeyeceğim, Emek verdiğin yeni şarabı yabancılar içmeyecek."}, {"v": 9, "text": "Tahılı devşiren yiyecek Ve RAB'be övgüler sunacak. Üzümü toplayan, Şarabını kutsal avlularımda içecek.”"}, {"v": 10, "text": "Geçin, geçin kent kapılarından! Halkın yolunu açın! Toprak yığıp yol yapın, Taşları ayıklayın, uluslar için sancak dikin!"}, {"v": 11, "text": "RAB çağrısını dünyanın dört bucağına duyurdu: “Siyon kızına, ‘İşte kurtuluşun geliyor’ deyin, ‘Ücreti kendisiyle birlikte, ödülü önündedir.’ ”"}, {"v": 12, "text": "Siyon halkına, “RAB'bin fidyeyle kurtardığı kutsal halk” diyecekler. Ve sen Yeruşalim, “Aranan, terk edilmemiş kent” diye anılacaksın."}]}
+{
+  "t": "TCL02",
+  "b": "ISA",
+  "c": 62,
+  "content": [
+    {
+      "section": "Siyon'un Yeni Adı"
+    },
+    {
+      "v": 1,
+      "text": "Zaferi ışık gibi parlayıncaya, Kurtuluşu meşale gibi yanıncaya dek Siyon uğruna susmayacak, Yeruşalim uğruna sessiz kalmayacağım."
+    },
+    {
+      "v": 2,
+      "text": "Uluslar senin zaferini, Bütün krallar görkemini görecek. RAB'bin kendi ağzıyla belirlediği yeni bir adla anılacaksın."
+    },
+    {
+      "v": 3,
+      "text": "RAB'bin elinde güzellik tacı, Tanrın'ın elinde krallık sarığı olacaksın."
+    },
+    {
+      "v": 4,
+      "text": "Artık sana “Terk edilmiş”, Ülkene “Virane” denmeyecek; Bunun yerine sana “Sevdiğim”, Ülkene “Evli” denecek. Çünkü RAB seni seviyor, Ülken de evli sayılacak."
+    },
+    {
+      "v": 5,
+      "text": "Bir delikanlı bir kızla nasıl evlenirse, Oğulların da seninle öyle evlenecek. Güvey gelinle nasıl sevinirse, Tanrın da seninle öyle sevinecek."
+    },
+    {
+      "v": 6,
+      "text": "Ey Yeruşalim, surlarına bekçiler diktim, Gece gündüz hiç susmayacaklar. Ey RAB'be sözünü anımsatanlar, Yeruşalim'i pekiştirene, Onu yeryüzünün övüncü kılana dek Durup dinlenmeden RAB'be yakarın, O'na rahat vermeyin."
+    },
+    {
+      "v": 8,
+      "text": "RAB sağ elini, güçlü kolunu kaldırıp ant içti: “Tahılını bir daha düşmanlarına yedirmeyeceğim, Emek verdiğin yeni şarabı yabancılar içmeyecek."
+    },
+    {
+      "v": 9,
+      "text": "Tahılı devşiren yiyecek Ve RAB'be övgüler sunacak. Üzümü toplayan, Şarabını kutsal avlularımda içecek.”"
+    },
+    {
+      "v": 10,
+      "text": "Geçin, geçin kent kapılarından! Halkın yolunu açın! Toprak yığıp yol yapın, Taşları ayıklayın, uluslar için sancak dikin!"
+    },
+    {
+      "v": 11,
+      "text": "RAB çağrısını dünyanın dört bucağına duyurdu: “Siyon kızına, ‘İşte kurtuluşun geliyor’ deyin, ‘Ücreti kendisiyle birlikte, ödülü önündedir.’ ”"
+    },
+    {
+      "v": 12,
+      "text": "Siyon halkına, “RAB'bin fidyeyle kurtardığı kutsal halk” diyecekler. Ve sen Yeruşalim, “Aranan, terk edilmemiş kent” diye anılacaksın."
+    }
+  ],
+  "title": "Siyon'un Yeni Adı"
+}

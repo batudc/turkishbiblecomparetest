@@ -1,1 +1,127 @@
-{"t":"TCL02","b":"ECC","c":7,"content":[{"v":1,"text":"İyi ad hoş kokulu yağdan, Ölüm günü doğum gününden iyidir."},{"v":2,"text":"Yas evine gitmek, şölen evine gitmekten iyidir. Çünkü her insanın sonu ölümdür, Yaşayan herkes bunu aklında tutmalı."},{"v":3,"text":"Üzüntü gülmekten iyidir, Çünkü yüz mahzun olunca yürek sevinir."},{"v":4,"text":"Bilge kişinin aklı yas evindedir, Akılsızın aklıysa şenlik evinde."},{"v":5,"text":"Bilgenin azarını işitmek, Akılsızın türküsünü işitmekten iyidir."},{"v":6,"text":"Çünkü akılsızın gülmesi, Kazanın altındaki çalıların çatırtısı gibidir. Bu da boştur."},{"v":7,"text":"Haksız kazanç bilgeyi delirtir, Rüşvet karakteri bozar."},{"v":8,"text":"Bir olayın sonu başlangıcından iyidir. Sabırlı kibirliden iyidir."},{"v":9,"text":"Çabuk öfkelenme, Çünkü öfke akılsızların bağrında barınır."},{"v":10,"text":"“Neden geçmiş günler bugünlerden iyiydi?” diye sorma, Çünkü bu bilgece bir soru değil."},{"v":11,"text":"Bilgelik miras kadar iyidir, Güneşi gören herkes için yararlıdır."},{"v":12,"text":"Bilgelik siperdir, para da siper, Bilginin yararı ise şudur: Bilgelik ona sahip olan kişinin yaşamını korur."},{"v":13,"text":"Tanrı'nın yaptığını düşün: O'nun eğrilttiğini kim doğrultabilir?"},{"v":14,"text":"İyi günde mutlu ol, Ama kötü günde dikkatle düşün; Tanrı birini öbürü gibi yaptı ki, İnsan kendisinden sonra neler olacağını bilmesin."},{"v":15,"text":"Boş ömrümde şunları gördüm: Doğru insan doğruluğuna karşın ölüyor, Kötü insanın ise, kötülüğüne karşın ömrü uzuyor."},{"v":16,"text":"Ne çok doğru ol ne de çok bilge. Niçin kendini yok edesin?"},{"v":17,"text":"Ne çok kötü ol ne de akılsız. Niçin vaktinden önce ölesin?"},{"v":18,"text":"Birini tutman iyidir, Öbüründen de elini çekme. Çünkü Tanrı'ya saygı duyan ikisini de başarır."},{"v":19,"text":"Bilgelik, bilge kişiyi kentteki on yöneticiden daha güçlü kılar."},{"v":20,"text":"Çünkü yeryüzünde hep iyilik yapan, Hiç günah işlemeyen doğru insan yoktur."},{"v":21,"text":"İnsanların söylediği her söze aldırma, Yoksa uşağının bile sana sövdüğünü duyabilirsin."},{"v":22,"text":"Çünkü sen de birçok kez Başkalarına sövdüğünü pekâlâ biliyorsun."},{"v":23,"text":"Bütün bunları bilgelikle denedim: “Bilge olacağım” dedim. Ama bu beni aşıyordu."},{"v":24,"text":"Bilgelik denen şey Uzak ve çok derindir, onu kim bulabilir?"},{"v":25,"text":"Böylece, bilgelik ve çözüm aramaya, incelemeye, kavramaya, Kötülüğün akılsızlık, akılsızlığın delilik olduğunu anlamaya kafa yordum."},{"v":26,"text":"Kimi kadını ölümden acı buldum. O kadın ki, kendisi tuzak, yüreği kapan, elleri zincirdir. Tanrı'nın hoşnut kaldığı insan ondan kaçar, Günah işleyense ona tutsak olur."},{"v":27,"text":"Vaiz diyor ki, “Şunu gördüm: Bir çözüm bulmak için Bir şeyi öbürüne eklerken"},{"v":28,"text":"–Araştırıp hâlâ bulamazken– Binde bir adam buldum, Ama aralarında bir kadın bulamadım."},{"v":29,"text":"Bulduğum tek şey: Tanrı insanları doğru yarattı, Oysa onlar hâlâ karmaşık çözümler arıyorlar.”"}]}
+{
+  "t": "TCL02",
+  "b": "ECC",
+  "c": 7,
+  "content": [
+    {
+      "section": "Bilgelik"
+    },
+    {
+      "v": 1,
+      "text": "İyi ad hoş kokulu yağdan, Ölüm günü doğum gününden iyidir."
+    },
+    {
+      "v": 2,
+      "text": "Yas evine gitmek, şölen evine gitmekten iyidir. Çünkü her insanın sonu ölümdür, Yaşayan herkes bunu aklında tutmalı."
+    },
+    {
+      "v": 3,
+      "text": "Üzüntü gülmekten iyidir, Çünkü yüz mahzun olunca yürek sevinir."
+    },
+    {
+      "v": 4,
+      "text": "Bilge kişinin aklı yas evindedir, Akılsızın aklıysa şenlik evinde."
+    },
+    {
+      "v": 5,
+      "text": "Bilgenin azarını işitmek, Akılsızın türküsünü işitmekten iyidir."
+    },
+    {
+      "v": 6,
+      "text": "Çünkü akılsızın gülmesi, Kazanın altındaki çalıların çatırtısı gibidir. Bu da boştur."
+    },
+    {
+      "v": 7,
+      "text": "Haksız kazanç bilgeyi delirtir, Rüşvet karakteri bozar."
+    },
+    {
+      "v": 8,
+      "text": "Bir olayın sonu başlangıcından iyidir. Sabırlı kibirliden iyidir."
+    },
+    {
+      "v": 9,
+      "text": "Çabuk öfkelenme, Çünkü öfke akılsızların bağrında barınır."
+    },
+    {
+      "v": 10,
+      "text": "“Neden geçmiş günler bugünlerden iyiydi?” diye sorma, Çünkü bu bilgece bir soru değil."
+    },
+    {
+      "v": 11,
+      "text": "Bilgelik miras kadar iyidir, Güneşi gören herkes için yararlıdır."
+    },
+    {
+      "v": 12,
+      "text": "Bilgelik siperdir, para da siper, Bilginin yararı ise şudur: Bilgelik ona sahip olan kişinin yaşamını korur."
+    },
+    {
+      "v": 13,
+      "text": "Tanrı'nın yaptığını düşün: O'nun eğrilttiğini kim doğrultabilir?"
+    },
+    {
+      "v": 14,
+      "text": "İyi günde mutlu ol, Ama kötü günde dikkatle düşün; Tanrı birini öbürü gibi yaptı ki, İnsan kendisinden sonra neler olacağını bilmesin."
+    },
+    {
+      "v": 15,
+      "text": "Boş ömrümde şunları gördüm: Doğru insan doğruluğuna karşın ölüyor, Kötü insanın ise, kötülüğüne karşın ömrü uzuyor."
+    },
+    {
+      "v": 16,
+      "text": "Ne çok doğru ol ne de çok bilge. Niçin kendini yok edesin?"
+    },
+    {
+      "v": 17,
+      "text": "Ne çok kötü ol ne de akılsız. Niçin vaktinden önce ölesin?"
+    },
+    {
+      "v": 18,
+      "text": "Birini tutman iyidir, Öbüründen de elini çekme. Çünkü Tanrı'ya saygı duyan ikisini de başarır."
+    },
+    {
+      "v": 19,
+      "text": "Bilgelik, bilge kişiyi kentteki on yöneticiden daha güçlü kılar."
+    },
+    {
+      "v": 20,
+      "text": "Çünkü yeryüzünde hep iyilik yapan, Hiç günah işlemeyen doğru insan yoktur."
+    },
+    {
+      "v": 21,
+      "text": "İnsanların söylediği her söze aldırma, Yoksa uşağının bile sana sövdüğünü duyabilirsin."
+    },
+    {
+      "v": 22,
+      "text": "Çünkü sen de birçok kez Başkalarına sövdüğünü pekâlâ biliyorsun."
+    },
+    {
+      "v": 23,
+      "text": "Bütün bunları bilgelikle denedim: “Bilge olacağım” dedim. Ama bu beni aşıyordu."
+    },
+    {
+      "v": 24,
+      "text": "Bilgelik denen şey Uzak ve çok derindir, onu kim bulabilir?"
+    },
+    {
+      "v": 25,
+      "text": "Böylece, bilgelik ve çözüm aramaya, incelemeye, kavramaya, Kötülüğün akılsızlık, akılsızlığın delilik olduğunu anlamaya kafa yordum."
+    },
+    {
+      "v": 26,
+      "text": "Kimi kadını ölümden acı buldum. O kadın ki, kendisi tuzak, yüreği kapan, elleri zincirdir. Tanrı'nın hoşnut kaldığı insan ondan kaçar, Günah işleyense ona tutsak olur."
+    },
+    {
+      "v": 27,
+      "text": "Vaiz diyor ki, “Şunu gördüm: Bir çözüm bulmak için Bir şeyi öbürüne eklerken"
+    },
+    {
+      "v": 28,
+      "text": "–Araştırıp hâlâ bulamazken– Binde bir adam buldum, Ama aralarında bir kadın bulamadım."
+    },
+    {
+      "v": 29,
+      "text": "Bulduğum tek şey: Tanrı insanları doğru yarattı, Oysa onlar hâlâ karmaşık çözümler arıyorlar.”"
+    }
+  ],
+  "title": "Bilgelik"
+}

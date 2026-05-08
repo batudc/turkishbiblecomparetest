@@ -1,1 +1,85 @@
-{"t":"TCL02","b":"COL","c":4,"content":[{"v":1,"text":"Ey efendiler, gökte sizin de bir Efendiniz olduğunu bilerek kölelerinize adalet ve eşitlikle davranın."},{"v":2,"text":"Kendinizi duaya verin. Duada uyanık kalın, şükredin."},{"v":3,"text":"Aynı zamanda bizim için de dua edin ki Tanrı, sözünü yaymamız ve uğruna hapsedildiğim Mesih sırrını açıklamamız için bize bir kapı açsın."},{"v":4,"text":"Bu sırrı gerektiği gibi açıklıkla bildirebilmem için dua edin."},{"v":5,"text":"Sizden olmayanlara karşı bilgece davranın. Fırsatı değerlendirin."},{"v":6,"text":"Sözünüz tuzla terbiye edilmiş gibi her zaman lütufla dolu olsun. Böylece herkese nasıl karşılık vermek gerektiğini bileceksiniz."},{"v":7,"text":"Rab yolunda emektaşım ve güvenilir bir hizmetkâr olan sevgili kardeşimiz Tihikos, benimle ilgili her şeyi size bildirecektir."},{"v":8,"text":"İşte bu amaçla, durumumuzu iletmesi ve yüreklerinize cesaret vermesi için kendisini size gönderiyorum."},{"v":9,"text":"Onunla birlikte, sizden biri olan, güvenilir ve sevgili kardeş Onisimos'u da gönderiyorum. Burada olup biten her şeyi size bildirecekler."},{"v":10,"text":"Hapishane arkadaşım Aristarhus ve Barnaba'nın yeğeni Markos size selam ederler. Markos'la ilgili buyruklar aldınız; yanınıza gelirse kendisini kabul edin."},{"v":11,"text":"Yustus diye tanınan Yeşu da size selam eder. Tanrı'nın Egemenliği için çalışan emektaşım Yahudiler yalnız bunlardır. Bunlar bana teselli oldular."},{"v":12,"text":"Sizden biri ve Mesih İsa'nın kulu olan Epafras size selam eder. Tanrı'nın her isteğinden emin, yetkin kişiler olarak ayakta kalasınız diye sizin için her zaman duayla mücadele ediyor."},{"v":13,"text":"Gerek sizin gerekse Laodikya ve Hierapolis'tekiler için çok emek verdiğine tanıklık ederim."},{"v":14,"text":"Sevgili hekim Luka'yla Dimas da size selam ederler."},{"v":15,"text":"Laodikya'daki kardeşlere, Nimfa'ya ve evindeki topluluğa selam edin."},{"v":16,"text":"Bu mektup aranızda okunduktan sonra Laodikya kilisesine de okutun. Siz de Laodikya'dan gelecek mektubu okuyun."},{"v":17,"text":"Arhippus'a, “Rab yolunda üstlendiğin görevi tamamlamaya dikkat et!” deyin."},{"v":18,"text":"Ben Pavlus bu selamı elimle yazıyorum. Zincire vurulduğumu unutmayın. Tanrı'nın lütfu sizinle birlikte olsun."}]}
+{
+  "t": "TCL02",
+  "b": "COL",
+  "c": 4,
+  "content": [
+    {
+      "v": 1,
+      "text": "Ey efendiler, gökte sizin de bir Efendiniz olduğunu bilerek kölelerinize adalet ve eşitlikle davranın."
+    },
+    {
+      "section": "Çeşitli Öğütler"
+    },
+    {
+      "v": 2,
+      "text": "Kendinizi duaya verin. Duada uyanık kalın, şükredin."
+    },
+    {
+      "v": 3,
+      "text": "Aynı zamanda bizim için de dua edin ki Tanrı, sözünü yaymamız ve uğruna hapsedildiğim Mesih sırrını açıklamamız için bize bir kapı açsın."
+    },
+    {
+      "v": 4,
+      "text": "Bu sırrı gerektiği gibi açıklıkla bildirebilmem için dua edin."
+    },
+    {
+      "v": 5,
+      "text": "Sizden olmayanlara karşı bilgece davranın. Fırsatı değerlendirin."
+    },
+    {
+      "v": 6,
+      "text": "Sözünüz tuzla terbiye edilmiş gibi her zaman lütufla dolu olsun. Böylece herkese nasıl karşılık vermek gerektiğini bileceksiniz."
+    },
+    {
+      "section": "Son Selamlar"
+    },
+    {
+      "v": 7,
+      "text": "Rab yolunda emektaşım ve güvenilir bir hizmetkâr olan sevgili kardeşimiz Tihikos, benimle ilgili her şeyi size bildirecektir."
+    },
+    {
+      "v": 8,
+      "text": "İşte bu amaçla, durumumuzu iletmesi ve yüreklerinize cesaret vermesi için kendisini size gönderiyorum."
+    },
+    {
+      "v": 9,
+      "text": "Onunla birlikte, sizden biri olan, güvenilir ve sevgili kardeş Onisimos'u da gönderiyorum. Burada olup biten her şeyi size bildirecekler."
+    },
+    {
+      "v": 10,
+      "text": "Hapishane arkadaşım Aristarhus ve Barnaba'nın yeğeni Markos size selam ederler. Markos'la ilgili buyruklar aldınız; yanınıza gelirse kendisini kabul edin."
+    },
+    {
+      "v": 11,
+      "text": "Yustus diye tanınan Yeşu da size selam eder. Tanrı'nın Egemenliği için çalışan emektaşım Yahudiler yalnız bunlardır. Bunlar bana teselli oldular."
+    },
+    {
+      "v": 12,
+      "text": "Sizden biri ve Mesih İsa'nın kulu olan Epafras size selam eder. Tanrı'nın her isteğinden emin, yetkin kişiler olarak ayakta kalasınız diye sizin için her zaman duayla mücadele ediyor."
+    },
+    {
+      "v": 13,
+      "text": "Gerek sizin gerekse Laodikya ve Hierapolis'tekiler için çok emek verdiğine tanıklık ederim."
+    },
+    {
+      "v": 14,
+      "text": "Sevgili hekim Luka'yla Dimas da size selam ederler."
+    },
+    {
+      "v": 15,
+      "text": "Laodikya'daki kardeşlere, Nimfa'ya ve evindeki topluluğa selam edin."
+    },
+    {
+      "v": 16,
+      "text": "Bu mektup aranızda okunduktan sonra Laodikya kilisesine de okutun. Siz de Laodikya'dan gelecek mektubu okuyun."
+    },
+    {
+      "v": 17,
+      "text": "Arhippus'a, “Rab yolunda üstlendiğin görevi tamamlamaya dikkat et!” deyin."
+    },
+    {
+      "v": 18,
+      "text": "Ben Pavlus bu selamı elimle yazıyorum. Zincire vurulduğumu unutmayın. Tanrı'nın lütfu sizinle birlikte olsun."
+    }
+  ]
+}

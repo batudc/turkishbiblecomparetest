@@ -1,1 +1,67 @@
-{"t":"TCL02","b":"AMO","c":8,"content":[{"v":1,"text":"Egemen RAB bana şunu gösterdi: Baktım bir sepet olgun meyve."},{"v":2,"text":"Bana, “Ne görüyorsun, Amos?” diye sordu.  “Bir sepet olgun meyve” diye yanıtladım.  Bunun üzerine RAB, “Halkım İsrail'in sonu geldi” dedi, “Bir daha onları esirgemeyeceğim."},{"v":3,"text":"O gün saraydaki türküler yas çığlıklarına dönecek.” Egemen RAB, “Her yer atılmış cesetlerle dolacak, sessizlik hüküm sürecek” diyor."},{"v":4,"text":"Dinleyin bunu, ey yoksulu çiğneyenler, Ülkedeki mazlumları yok edenler!"},{"v":5,"text":"Diyorsunuz ki, “Yeni Ay Töreni geçse de tahılımızı satsak, Şabat Günü geçse de buğdayımızı satışa çıkarsak. Ölçeği küçültüp fiyatı yükseltsek, Hileli tartı kullanıp"},{"v":6,"text":"Yoksulları gümüş, Mazlumları bir çift çarık karşılığında satın alsak. Buğday yerine süprüntüsünü satsak.”"},{"v":7,"text":"Yakup soyunun gurur duyduğu RAB kendi başı üstüne ant içti: “Onların yaptıklarının hiçbirini asla unutmayacağım."},{"v":8,"text":"Bu yüzden yer sarsılmayacak mı, Üzerinde yaşayan herkes yas tutmayacak mı? Bütün yer Nil gibi yükselecek, Kabarıp yine inecek Mısır'ın ırmağı gibi.”"},{"v":9,"text":"“O gün” diyor Egemen RAB, “Öğleyin güneşi batıracağım, Güpegündüz yeryüzünü karartacağım."},{"v":10,"text":"Bayramlarınızı yasa, Bütün ezgilerinizi ağıta döndüreceğim. Her bele çul kuşattıracağım, Her başın saçını yoldurtacağım. O günü biricik oğulun ardından tutulan yasa çevirecek, Sonunu acı getireceğim."},{"v":11,"text":"“İşte günler geliyor, Ülkeye kıtlık göndereceğim” Diyor Egemen RAB, “Ekmek ya da su kıtlığı değil, RAB'bin sözlerine susamışlık göndereceğim."},{"v":12,"text":"RAB'bin sözünü bulmak için İnsanlar denizden denize, Kuzeyden doğuya dek dolaşacak, Oraya buraya koşacak, ama bulamayacaklar."},{"v":13,"text":"O gün güzel kızlar, Yiğitler susuzluktan bayılacak."},{"v":14,"text":"Samiriye tanrıçası Aşima üzerine ant içenler, ‘Ey Dan, senin ilahının başı üzerine’ Ve, ‘Beer-Şeva ilahının başı üzerine’ diyenler Düşecek ve bir daha kalkmayacak.”"}]}
+{
+  "t": "TCL02",
+  "b": "AMO",
+  "c": 8,
+  "content": [
+    {
+      "section": "Bir Sepet Meyve"
+    },
+    {
+      "v": 1,
+      "text": "Egemen RAB bana şunu gösterdi: Baktım bir sepet olgun meyve."
+    },
+    {
+      "v": 2,
+      "text": "Bana, “Ne görüyorsun, Amos?” diye sordu.  “Bir sepet olgun meyve” diye yanıtladım.  Bunun üzerine RAB, “Halkım İsrail'in sonu geldi” dedi, “Bir daha onları esirgemeyeceğim."
+    },
+    {
+      "v": 3,
+      "text": "O gün saraydaki türküler yas çığlıklarına dönecek.” Egemen RAB, “Her yer atılmış cesetlerle dolacak, sessizlik hüküm sürecek” diyor."
+    },
+    {
+      "v": 4,
+      "text": "Dinleyin bunu, ey yoksulu çiğneyenler, Ülkedeki mazlumları yok edenler!"
+    },
+    {
+      "v": 5,
+      "text": "Diyorsunuz ki, “Yeni Ay Töreni geçse de tahılımızı satsak, Şabat Günü geçse de buğdayımızı satışa çıkarsak. Ölçeği küçültüp fiyatı yükseltsek, Hileli tartı kullanıp"
+    },
+    {
+      "v": 6,
+      "text": "Yoksulları gümüş, Mazlumları bir çift çarık karşılığında satın alsak. Buğday yerine süprüntüsünü satsak.”"
+    },
+    {
+      "v": 7,
+      "text": "Yakup soyunun gurur duyduğu RAB kendi başı üstüne ant içti: “Onların yaptıklarının hiçbirini asla unutmayacağım."
+    },
+    {
+      "v": 8,
+      "text": "Bu yüzden yer sarsılmayacak mı, Üzerinde yaşayan herkes yas tutmayacak mı? Bütün yer Nil gibi yükselecek, Kabarıp yine inecek Mısır'ın ırmağı gibi.”"
+    },
+    {
+      "v": 9,
+      "text": "“O gün” diyor Egemen RAB, “Öğleyin güneşi batıracağım, Güpegündüz yeryüzünü karartacağım."
+    },
+    {
+      "v": 10,
+      "text": "Bayramlarınızı yasa, Bütün ezgilerinizi ağıta döndüreceğim. Her bele çul kuşattıracağım, Her başın saçını yoldurtacağım. O günü biricik oğulun ardından tutulan yasa çevirecek, Sonunu acı getireceğim."
+    },
+    {
+      "v": 11,
+      "text": "“İşte günler geliyor, Ülkeye kıtlık göndereceğim” Diyor Egemen RAB, “Ekmek ya da su kıtlığı değil, RAB'bin sözlerine susamışlık göndereceğim."
+    },
+    {
+      "v": 12,
+      "text": "RAB'bin sözünü bulmak için İnsanlar denizden denize, Kuzeyden doğuya dek dolaşacak, Oraya buraya koşacak, ama bulamayacaklar."
+    },
+    {
+      "v": 13,
+      "text": "O gün güzel kızlar, Yiğitler susuzluktan bayılacak."
+    },
+    {
+      "v": 14,
+      "text": "Samiriye tanrıçası Aşima üzerine ant içenler, ‘Ey Dan, senin ilahının başı üzerine’ Ve, ‘Beer-Şeva ilahının başı üzerine’ diyenler Düşecek ve bir daha kalkmayacak.”"
+    }
+  ],
+  "title": "Bir Sepet Meyve"
+}

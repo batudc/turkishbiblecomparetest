@@ -1,1 +1,99 @@
-{"t":"TCL02","b":"LAM","c":5,"content":[{"v":1,"text":"Anımsa, ya RAB, başımıza geleni, Bak da utancımızı gör."},{"v":2,"text":"Mülkümüz yabancılara geçti, Evlerimiz ellere."},{"v":3,"text":"Öksüz kaldık, babasız, Annelerimiz dul kadınlara döndü."},{"v":4,"text":"Suyumuzu parayla içtik, Odunumuzu parayla almak zorunda kaldık."},{"v":5,"text":"Bizi kovalayanlar ensemizde, Yorgun düştük, rahatımız yok."},{"v":6,"text":"Ekmek için Mısır'a, Asur'a el açtık."},{"v":7,"text":"Atalarımız günah işledi, Ama artık onlar yok; Suçlarının cezasını biz yüklendik."},{"v":8,"text":"Köleler üstümüzde saltanat sürüyor, Bizi ellerinden kurtaracak kimse yok."},{"v":9,"text":"Çöldeki kılıçlı haydutlar yüzünden Ekmeğimizi canımız pahasına kazanıyoruz."},{"v":10,"text":"Kıtlığın yakıcı sıcağından Derimiz fırın gibi kızardı."},{"v":11,"text":"Siyon'da kadınların, Yahuda kentlerinde erden kızların ırzına geçtiler."},{"v":12,"text":"Önderler ellerinden asıldı, Yaşlılar saygı görmedi."},{"v":13,"text":"Değirmen taşını gençler çevirdi, Çocuklar odun yükü altında tökezledi."},{"v":14,"text":"Yaşlılar kent kapısında oturmaz oldu, Gençler saz çalmaz oldu."},{"v":15,"text":"Yüreğimizin sevinci durdu, Oyunumuz yasa döndü."},{"v":16,"text":"Taç düştü başımızdan, Vay başımıza! Çünkü günah işledik."},{"v":17,"text":"Bu yüzden yüreğimiz baygın, Bunlardan ötürü gözlerimiz karardı."},{"v":18,"text":"Viran olan Siyon Dağı'nın üstünde Çakallar geziyor!"},{"v":19,"text":"Ama sen, sonsuza dek tahtında oturursun, ya RAB, Egemenliğin kuşaklar boyu sürer."},{"v":20,"text":"Niçin bizi hep unutuyorsun, Neden bizi uzun süre terk ediyorsun?"},{"v":21,"text":"Bizi kendine döndür, ya RAB, döneriz, Eski günlerimizi geri ver."},{"v":22,"text":"Bizi büsbütün attıysan, Bize çok öfkelenmiş olmalısın."}]}
+{
+  "t": "TCL02",
+  "b": "LAM",
+  "c": 5,
+  "content": [
+    {
+      "section": "5. Ağıt"
+    },
+    {
+      "v": 1,
+      "text": "Anımsa, ya RAB, başımıza geleni, Bak da utancımızı gör."
+    },
+    {
+      "v": 2,
+      "text": "Mülkümüz yabancılara geçti, Evlerimiz ellere."
+    },
+    {
+      "v": 3,
+      "text": "Öksüz kaldık, babasız, Annelerimiz dul kadınlara döndü."
+    },
+    {
+      "v": 4,
+      "text": "Suyumuzu parayla içtik, Odunumuzu parayla almak zorunda kaldık."
+    },
+    {
+      "v": 5,
+      "text": "Bizi kovalayanlar ensemizde, Yorgun düştük, rahatımız yok."
+    },
+    {
+      "v": 6,
+      "text": "Ekmek için Mısır'a, Asur'a el açtık."
+    },
+    {
+      "v": 7,
+      "text": "Atalarımız günah işledi, Ama artık onlar yok; Suçlarının cezasını biz yüklendik."
+    },
+    {
+      "v": 8,
+      "text": "Köleler üstümüzde saltanat sürüyor, Bizi ellerinden kurtaracak kimse yok."
+    },
+    {
+      "v": 9,
+      "text": "Çöldeki kılıçlı haydutlar yüzünden Ekmeğimizi canımız pahasına kazanıyoruz."
+    },
+    {
+      "v": 10,
+      "text": "Kıtlığın yakıcı sıcağından Derimiz fırın gibi kızardı."
+    },
+    {
+      "v": 11,
+      "text": "Siyon'da kadınların, Yahuda kentlerinde erden kızların ırzına geçtiler."
+    },
+    {
+      "v": 12,
+      "text": "Önderler ellerinden asıldı, Yaşlılar saygı görmedi."
+    },
+    {
+      "v": 13,
+      "text": "Değirmen taşını gençler çevirdi, Çocuklar odun yükü altında tökezledi."
+    },
+    {
+      "v": 14,
+      "text": "Yaşlılar kent kapısında oturmaz oldu, Gençler saz çalmaz oldu."
+    },
+    {
+      "v": 15,
+      "text": "Yüreğimizin sevinci durdu, Oyunumuz yasa döndü."
+    },
+    {
+      "v": 16,
+      "text": "Taç düştü başımızdan, Vay başımıza! Çünkü günah işledik."
+    },
+    {
+      "v": 17,
+      "text": "Bu yüzden yüreğimiz baygın, Bunlardan ötürü gözlerimiz karardı."
+    },
+    {
+      "v": 18,
+      "text": "Viran olan Siyon Dağı'nın üstünde Çakallar geziyor!"
+    },
+    {
+      "v": 19,
+      "text": "Ama sen, sonsuza dek tahtında oturursun, ya RAB, Egemenliğin kuşaklar boyu sürer."
+    },
+    {
+      "v": 20,
+      "text": "Niçin bizi hep unutuyorsun, Neden bizi uzun süre terk ediyorsun?"
+    },
+    {
+      "v": 21,
+      "text": "Bizi kendine döndür, ya RAB, döneriz, Eski günlerimizi geri ver."
+    },
+    {
+      "v": 22,
+      "text": "Bizi büsbütün attıysan, Bize çok öfkelenmiş olmalısın."
+    }
+  ],
+  "title": "5. Ağıt"
+}

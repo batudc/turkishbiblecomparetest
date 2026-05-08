@@ -1,1 +1,39 @@
-{"t":"TCL02","b":"JER","c":47,"content":[{"v":1,"text":"Firavun Gazze'ye saldırmadan önce RAB'bin Peygamber Yeremya'ya bildirdiği Filistliler'e ilişkin söz şudur:"},{"v":2,"text":"RAB diyor ki, “Bakın sular kuzeyden nasıl yükseliyor! Taşkın bir ırmak olacak, Ülkeyi ve içindeki her şeyi, Kentleri ve içinde yaşayanları kaplayacak. İnsanlar yakaracak, Ülkede yaşayan herkes feryat edecek."},{"v":3,"text":"Dörtnala koşan aygırların Toynak seslerinden, Savaş arabalarının takırtısından, Tekerleklerin gürültüsünden Babalar dönüp çocuklarına bakmayacak; Ellerinde derman kalmayacak."},{"v":4,"text":"Çünkü Filistliler'in yok edileceği gün geliyor. Sur ve Sayda'ya yardım edebilecek Sağ kalan herkes kesilip yok edilecek. RAB Kaftor kıyısından gelen Filistliler'in Sağ kalanlarını yok edecek."},{"v":5,"text":"Gazze yastan saçını yolacak, Aşkelon susturulacak. Ey ovada sağ kalanlar, Ne zamana dek bedenlerinizi yaralayacaksınız?"},{"v":6,"text":"Ah, RAB'bin kılıcı! Yatışmana daha ne kadar zaman var? Dön kınına! Dur ve sessiz ol!"},{"v":7,"text":"Ama RAB ona buyruk vermişken, Aşkelon'a, deniz kıyısına Saldırmak üzere görevlendirmişken Kılıç nasıl yatışabilir?”"}]}
+{
+  "t": "TCL02",
+  "b": "JER",
+  "c": 47,
+  "content": [
+    {
+      "section": "Filistliler'le İlgili Bildiri"
+    },
+    {
+      "v": 1,
+      "text": "Firavun Gazze'ye saldırmadan önce RAB'bin Peygamber Yeremya'ya bildirdiği Filistliler'e ilişkin söz şudur:"
+    },
+    {
+      "v": 2,
+      "text": "RAB diyor ki, “Bakın sular kuzeyden nasıl yükseliyor! Taşkın bir ırmak olacak, Ülkeyi ve içindeki her şeyi, Kentleri ve içinde yaşayanları kaplayacak. İnsanlar yakaracak, Ülkede yaşayan herkes feryat edecek."
+    },
+    {
+      "v": 3,
+      "text": "Dörtnala koşan aygırların Toynak seslerinden, Savaş arabalarının takırtısından, Tekerleklerin gürültüsünden Babalar dönüp çocuklarına bakmayacak; Ellerinde derman kalmayacak."
+    },
+    {
+      "v": 4,
+      "text": "Çünkü Filistliler'in yok edileceği gün geliyor. Sur ve Sayda'ya yardım edebilecek Sağ kalan herkes kesilip yok edilecek. RAB Kaftor kıyısından gelen Filistliler'in Sağ kalanlarını yok edecek."
+    },
+    {
+      "v": 5,
+      "text": "Gazze yastan saçını yolacak, Aşkelon susturulacak. Ey ovada sağ kalanlar, Ne zamana dek bedenlerinizi yaralayacaksınız?"
+    },
+    {
+      "v": 6,
+      "text": "Ah, RAB'bin kılıcı! Yatışmana daha ne kadar zaman var? Dön kınına! Dur ve sessiz ol!"
+    },
+    {
+      "v": 7,
+      "text": "Ama RAB ona buyruk vermişken, Aşkelon'a, deniz kıyısına Saldırmak üzere görevlendirmişken Kılıç nasıl yatışabilir?”"
+    }
+  ],
+  "title": "Filistliler'le İlgili Bildiri"
+}

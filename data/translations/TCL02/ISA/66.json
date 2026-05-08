@@ -1,1 +1,107 @@
-{"t":"TCL02","b":"ISA","c":66,"content":[{"v":1,"text":"RAB diyor ki, “Gökler tahtım, Yeryüzü ayaklarımın taburesidir. Nerede benim için yapacağınız ev, Neresi dinleneceğim yer?"},{"v":2,"text":"Çünkü bütün bunları ellerim yaptı, Hepsi böylece var oldu” diyor RAB. “Ancak ben alçakgönüllüye, ruhu ezik olana, Sözümden titreyen kişiye değer veririm."},{"v":3,"text":"Sığır boğazlayan, adam öldüren gibidir, Davar kurban eden, köpek boynu kıran, Tahıl sunusu getiren, domuz kanı sunan, Anma sunusu olarak günnük yakan, putperest gibidir. Evet, bunlar kendi yollarını seçtiler, Yaptıkları iğrençliklerden hoşlanıyorlar."},{"v":4,"text":"Ben de onlar için yıkımı seçecek, Korktuklarını başlarına getireceğim. Çünkü çağırdığımda yanıt veren olmadı, Konuştuğumda dinlemediler, Gözümde kötü olanı yaptılar, Hoşlanmadığımı seçtiler.”"},{"v":5,"text":"RAB'bin sözünden titreyenler, Kulak verin O'nun söylediklerine: “Sizden nefret eden, Adımdan ötürü sizi dışlayan kardeşleriniz, ‘RAB yüceltilsin de sevincinizi görelim!’ diyorlar. Utandırılacak olan onlardır."},{"v":6,"text":"Kentten gürültülü sesler, Tapınaktan bir ses yükseliyor! Düşmanlarına hak ettikleri karşılığı veren RAB'bin sesidir bu."},{"v":7,"text":"“Doğum sancısı çekmeden doğurdu, Sancısı tutmadan bir erkek çocuk doğurdu."},{"v":8,"text":"Kim böyle bir şey duydu? Kim böyle şeyler gördü? Bir ülke bir günde doğar mı, Bir anda doğar mı bir ulus? Ama Siyon, ağrısı tutar tutmaz çocuklarını doğurdu."},{"v":9,"text":"Doğum anına dek getiririm de Doğuracak gücü vermez miyim?” diyor RAB. “Doğuracak güç veren ben, rahmi kapatır mıyım?” diyor Tanrın."},{"v":10,"text":"“Yeruşalim'le birlikte sevinin, Onu sevenler, hepiniz onun için coşun, Yeruşalim için yas tutanlar, onunla sevinçle coşun."},{"v":11,"text":"Öyle ki, onun avutucu memelerini emip doyasınız, Kana kana içip Onun yüce bolluğundan zevk alasınız.”"},{"v":12,"text":"Çünkü RAB diyor ki, “Bakın, esenliği bir ırmak gibi, Ulusların servetini taşkın bir ırmak gibi ona akıtacağım. Ondan beslenecek, kucakta taşınacak, Dizleri üzerinde sallanacaksınız."},{"v":13,"text":"Çocuğunu avutan bir anne gibi avutacağım sizi, Yeruşalim'de avuntu bulacaksınız."},{"v":14,"text":"Bunları gördüğünüzde yüreğiniz sevinecek, Bedenleriniz körpe ot gibi tazelenecek. Herkes bilecek ki, RAB'bin koruyucu eli kullarının, Gazabı ise düşmanlarının üzerindedir.”"},{"v":15,"text":"Bakın, RAB ateşle geliyor, Savaş arabaları kasırga gibi. Şiddetli öfkesini, Azarını alev alev dökmek üzere."},{"v":16,"text":"Çünkü O bütün insanlığı ateş ve kılıçla yargılayacak, Pek çok kişiyi öldürecek."},{"v":17,"text":"“Bahçelere girmek için kendilerini arıtıp kutsayanlar, domuz, fare ve öteki iğrenç hayvanların etini yiyenlerin ortasında duranı izleyenler hep birlikte yok olacaklar” diyor RAB,"},{"v":18,"text":"“Çünkü ben onların eylemlerini de düşüncelerini de bilirim. Bütün ulusları ve dilleri bir araya toplayacağım an geliyor; gelip yüceliğimi görecekler."},{"v":19,"text":"“Aralarına bir belirti koyacağım. Onlardan kaçıp kurtulanları uluslara, Tarşiş'e, Pûl'a, Lud'a –yay gerenlere– Tuval'a, Yâvan'a, ünümü duymamış, yüceliğimi görmemiş uzak kıyı halklarına göndereceğim. Uluslar arasında yüceliğimi ilan edecekler."},{"v":20,"text":"İsrailoğulları tahıl sunularını pak kaplar içinde RAB'bin Tapınağı'na nasıl getiriyorsa, onlar da bütün kardeşlerinizi uluslardan atlarla, savaş arabalarıyla, at arabalarıyla, katırlarla, develerle kutsal dağıma, Yeruşalim'e, RAB'be sunu olarak getirecekler.” Böyle diyor RAB."},{"v":21,"text":"“Onların arasından kimilerini kâhin ve Levili olarak seçeceğim” diyor RAB."},{"v":22,"text":"“Çünkü yaratacağım yeni yer ve gök önümde nasıl duracaksa, soyunuz ve adınız da öyle duracak” diyor RAB."},{"v":23,"text":"“Yeni Ay'dan Yeni Ay'a, Şabat Günü'nden Şabat Günü'ne bütün insanlar önüme gelip bana tapınacaklar” diyor RAB."},{"v":24,"text":"“Dışarı çıktıklarında bana başkaldırmış olanların cesetlerini görecekler. Öylelerini kemiren kurt ölmez, yakan ateş sönmez. Bütün insanlar onlardan iğrenecek.”"}]}
+{
+  "t": "TCL02",
+  "b": "ISA",
+  "c": 66,
+  "content": [
+    {
+      "section": "Yargı ve Umut"
+    },
+    {
+      "v": 1,
+      "text": "RAB diyor ki, “Gökler tahtım, Yeryüzü ayaklarımın taburesidir. Nerede benim için yapacağınız ev, Neresi dinleneceğim yer?"
+    },
+    {
+      "v": 2,
+      "text": "Çünkü bütün bunları ellerim yaptı, Hepsi böylece var oldu” diyor RAB. “Ancak ben alçakgönüllüye, ruhu ezik olana, Sözümden titreyen kişiye değer veririm."
+    },
+    {
+      "v": 3,
+      "text": "Sığır boğazlayan, adam öldüren gibidir, Davar kurban eden, köpek boynu kıran, Tahıl sunusu getiren, domuz kanı sunan, Anma sunusu olarak günnük yakan, putperest gibidir. Evet, bunlar kendi yollarını seçtiler, Yaptıkları iğrençliklerden hoşlanıyorlar."
+    },
+    {
+      "v": 4,
+      "text": "Ben de onlar için yıkımı seçecek, Korktuklarını başlarına getireceğim. Çünkü çağırdığımda yanıt veren olmadı, Konuştuğumda dinlemediler, Gözümde kötü olanı yaptılar, Hoşlanmadığımı seçtiler.”"
+    },
+    {
+      "v": 5,
+      "text": "RAB'bin sözünden titreyenler, Kulak verin O'nun söylediklerine: “Sizden nefret eden, Adımdan ötürü sizi dışlayan kardeşleriniz, ‘RAB yüceltilsin de sevincinizi görelim!’ diyorlar. Utandırılacak olan onlardır."
+    },
+    {
+      "v": 6,
+      "text": "Kentten gürültülü sesler, Tapınaktan bir ses yükseliyor! Düşmanlarına hak ettikleri karşılığı veren RAB'bin sesidir bu."
+    },
+    {
+      "v": 7,
+      "text": "“Doğum sancısı çekmeden doğurdu, Sancısı tutmadan bir erkek çocuk doğurdu."
+    },
+    {
+      "v": 8,
+      "text": "Kim böyle bir şey duydu? Kim böyle şeyler gördü? Bir ülke bir günde doğar mı, Bir anda doğar mı bir ulus? Ama Siyon, ağrısı tutar tutmaz çocuklarını doğurdu."
+    },
+    {
+      "v": 9,
+      "text": "Doğum anına dek getiririm de Doğuracak gücü vermez miyim?” diyor RAB. “Doğuracak güç veren ben, rahmi kapatır mıyım?” diyor Tanrın."
+    },
+    {
+      "v": 10,
+      "text": "“Yeruşalim'le birlikte sevinin, Onu sevenler, hepiniz onun için coşun, Yeruşalim için yas tutanlar, onunla sevinçle coşun."
+    },
+    {
+      "v": 11,
+      "text": "Öyle ki, onun avutucu memelerini emip doyasınız, Kana kana içip Onun yüce bolluğundan zevk alasınız.”"
+    },
+    {
+      "v": 12,
+      "text": "Çünkü RAB diyor ki, “Bakın, esenliği bir ırmak gibi, Ulusların servetini taşkın bir ırmak gibi ona akıtacağım. Ondan beslenecek, kucakta taşınacak, Dizleri üzerinde sallanacaksınız."
+    },
+    {
+      "v": 13,
+      "text": "Çocuğunu avutan bir anne gibi avutacağım sizi, Yeruşalim'de avuntu bulacaksınız."
+    },
+    {
+      "v": 14,
+      "text": "Bunları gördüğünüzde yüreğiniz sevinecek, Bedenleriniz körpe ot gibi tazelenecek. Herkes bilecek ki, RAB'bin koruyucu eli kullarının, Gazabı ise düşmanlarının üzerindedir.”"
+    },
+    {
+      "v": 15,
+      "text": "Bakın, RAB ateşle geliyor, Savaş arabaları kasırga gibi. Şiddetli öfkesini, Azarını alev alev dökmek üzere."
+    },
+    {
+      "v": 16,
+      "text": "Çünkü O bütün insanlığı ateş ve kılıçla yargılayacak, Pek çok kişiyi öldürecek."
+    },
+    {
+      "v": 17,
+      "text": "“Bahçelere girmek için kendilerini arıtıp kutsayanlar, domuz, fare ve öteki iğrenç hayvanların etini yiyenlerin ortasında duranı izleyenler hep birlikte yok olacaklar” diyor RAB,"
+    },
+    {
+      "v": 18,
+      "text": "“Çünkü ben onların eylemlerini de düşüncelerini de bilirim. Bütün ulusları ve dilleri bir araya toplayacağım an geliyor; gelip yüceliğimi görecekler."
+    },
+    {
+      "v": 19,
+      "text": "“Aralarına bir belirti koyacağım. Onlardan kaçıp kurtulanları uluslara, Tarşiş'e, Pûl'a, Lud'a –yay gerenlere– Tuval'a, Yâvan'a, ünümü duymamış, yüceliğimi görmemiş uzak kıyı halklarına göndereceğim. Uluslar arasında yüceliğimi ilan edecekler."
+    },
+    {
+      "v": 20,
+      "text": "İsrailoğulları tahıl sunularını pak kaplar içinde RAB'bin Tapınağı'na nasıl getiriyorsa, onlar da bütün kardeşlerinizi uluslardan atlarla, savaş arabalarıyla, at arabalarıyla, katırlarla, develerle kutsal dağıma, Yeruşalim'e, RAB'be sunu olarak getirecekler.” Böyle diyor RAB."
+    },
+    {
+      "v": 21,
+      "text": "“Onların arasından kimilerini kâhin ve Levili olarak seçeceğim” diyor RAB."
+    },
+    {
+      "v": 22,
+      "text": "“Çünkü yaratacağım yeni yer ve gök önümde nasıl duracaksa, soyunuz ve adınız da öyle duracak” diyor RAB."
+    },
+    {
+      "v": 23,
+      "text": "“Yeni Ay'dan Yeni Ay'a, Şabat Günü'nden Şabat Günü'ne bütün insanlar önüme gelip bana tapınacaklar” diyor RAB."
+    },
+    {
+      "v": 24,
+      "text": "“Dışarı çıktıklarında bana başkaldırmış olanların cesetlerini görecekler. Öylelerini kemiren kurt ölmez, yakan ateş sönmez. Bütün insanlar onlardan iğrenecek.”"
+    }
+  ],
+  "title": "Yargı ve Umut"
+}

@@ -1,1 +1,103 @@
-{"t":"TCL02","b":"PSA","c":50,"content":[{"v":1,"text":"Güçlü olan Tanrı, RAB konuşuyor; Güneşin doğduğu yerden battığı yere kadar Yeryüzünün tümüne sesleniyor."},{"v":2,"text":"Güzelliğin doruğu Siyon'dan Parıldıyor Tanrı."},{"v":3,"text":"Tanrımız geliyor, sessiz kalmayacak, Önünde yanan ateş her şeyi kül ediyor, Çevresinde şiddetli bir fırtına esiyor."},{"v":4,"text":"Halkını yargılamak için Yere göğe sesleniyor:"},{"v":5,"text":"“Toplayın önüme sadık kullarımı, Kurban keserek benimle antlaşma yapanları.”"},{"v":6,"text":"Gökler O'nun doğruluğunu duyuruyor, Çünkü yargıç Tanrı'nın kendisidir. Sela"},{"v":7,"text":"“Ey halkım, dinle de konuşayım, Ey İsrail, sana karşı tanıklık edeyim: Ben Tanrı'yım, senin Tanrın'ım!"},{"v":8,"text":"Kurbanlarından ötürü seni azarlamıyorum, Yakmalık sunuların sürekli önümde."},{"v":9,"text":"Ne evinden bir boğa, Ne de ağıllarından bir teke alacağım."},{"v":10,"text":"Çünkü bütün orman yaratıkları, Dağlardaki bütün hayvanlar benimdir."},{"v":11,"text":"Dağlardaki bütün kuşları korurum, Kırlardaki bütün yabanıl hayvanlar benimdir."},{"v":12,"text":"Acıksam sana söylemezdim, Çünkü bütün dünya ve içindekiler benimdir."},{"v":13,"text":"Ben boğa eti yer miyim? Ya da keçi kanı içer miyim?"},{"v":14,"text":"Tanrı'ya şükran kurbanı sun, Yüceler Yücesi'ne adadığın adakları yerine getir."},{"v":15,"text":"Sıkıntılı gününde seslen bana, Seni kurtarırım, sen de beni yüceltirsin."},{"v":16,"text":"Ama Tanrı kötüye şöyle diyor: “Kurallarımı ezbere okumaya Ya da antlaşmamı ağzına almaya ne hakkın var?"},{"v":17,"text":"Çünkü yola getirilmekten nefret ediyor, Sözlerimi arkana atıyorsun."},{"v":18,"text":"Hırsız görünce onunla dost oluyor, Zina edenlere ortak oluyorsun."},{"v":19,"text":"Ağzını kötülük için kullanıyor, Dilini yalana koşuyorsun."},{"v":20,"text":"Oturup kardeşine karşı konuşur, Annenin oğluna kara çalarsın."},{"v":21,"text":"Sen bunları yaptın, ben sustum, Beni kendin gibi sandın. Seni azarlıyorum, Suçlarını gözünün önüne seriyorum."},{"v":22,"text":"“Dikkate alın bunu, ey Tanrı'yı unutan sizler! Yoksa parçalarım sizi, kurtaran olmaz."},{"v":23,"text":"Kim şükran kurbanı sunarsa beni yüceltir; Yolunu düzeltene kurtarışımı göstereceğim.”"}]}
+{
+  "t": "TCL02",
+  "b": "PSA",
+  "c": 50,
+  "content": [
+    {
+      "section": "50. Mezmur"
+    },
+    {
+      "v": 1,
+      "text": "Güçlü olan Tanrı, RAB konuşuyor; Güneşin doğduğu yerden battığı yere kadar Yeryüzünün tümüne sesleniyor."
+    },
+    {
+      "v": 2,
+      "text": "Güzelliğin doruğu Siyon'dan Parıldıyor Tanrı."
+    },
+    {
+      "v": 3,
+      "text": "Tanrımız geliyor, sessiz kalmayacak, Önünde yanan ateş her şeyi kül ediyor, Çevresinde şiddetli bir fırtına esiyor."
+    },
+    {
+      "v": 4,
+      "text": "Halkını yargılamak için Yere göğe sesleniyor:"
+    },
+    {
+      "v": 5,
+      "text": "“Toplayın önüme sadık kullarımı, Kurban keserek benimle antlaşma yapanları.”"
+    },
+    {
+      "v": 6,
+      "text": "Gökler O'nun doğruluğunu duyuruyor, Çünkü yargıç Tanrı'nın kendisidir. Sela"
+    },
+    {
+      "v": 7,
+      "text": "“Ey halkım, dinle de konuşayım, Ey İsrail, sana karşı tanıklık edeyim: Ben Tanrı'yım, senin Tanrın'ım!"
+    },
+    {
+      "v": 8,
+      "text": "Kurbanlarından ötürü seni azarlamıyorum, Yakmalık sunuların sürekli önümde."
+    },
+    {
+      "v": 9,
+      "text": "Ne evinden bir boğa, Ne de ağıllarından bir teke alacağım."
+    },
+    {
+      "v": 10,
+      "text": "Çünkü bütün orman yaratıkları, Dağlardaki bütün hayvanlar benimdir."
+    },
+    {
+      "v": 11,
+      "text": "Dağlardaki bütün kuşları korurum, Kırlardaki bütün yabanıl hayvanlar benimdir."
+    },
+    {
+      "v": 12,
+      "text": "Acıksam sana söylemezdim, Çünkü bütün dünya ve içindekiler benimdir."
+    },
+    {
+      "v": 13,
+      "text": "Ben boğa eti yer miyim? Ya da keçi kanı içer miyim?"
+    },
+    {
+      "v": 14,
+      "text": "Tanrı'ya şükran kurbanı sun, Yüceler Yücesi'ne adadığın adakları yerine getir."
+    },
+    {
+      "v": 15,
+      "text": "Sıkıntılı gününde seslen bana, Seni kurtarırım, sen de beni yüceltirsin."
+    },
+    {
+      "v": 16,
+      "text": "Ama Tanrı kötüye şöyle diyor: “Kurallarımı ezbere okumaya Ya da antlaşmamı ağzına almaya ne hakkın var?"
+    },
+    {
+      "v": 17,
+      "text": "Çünkü yola getirilmekten nefret ediyor, Sözlerimi arkana atıyorsun."
+    },
+    {
+      "v": 18,
+      "text": "Hırsız görünce onunla dost oluyor, Zina edenlere ortak oluyorsun."
+    },
+    {
+      "v": 19,
+      "text": "Ağzını kötülük için kullanıyor, Dilini yalana koşuyorsun."
+    },
+    {
+      "v": 20,
+      "text": "Oturup kardeşine karşı konuşur, Annenin oğluna kara çalarsın."
+    },
+    {
+      "v": 21,
+      "text": "Sen bunları yaptın, ben sustum, Beni kendin gibi sandın. Seni azarlıyorum, Suçlarını gözünün önüne seriyorum."
+    },
+    {
+      "v": 22,
+      "text": "“Dikkate alın bunu, ey Tanrı'yı unutan sizler! Yoksa parçalarım sizi, kurtaran olmaz."
+    },
+    {
+      "v": 23,
+      "text": "Kim şükran kurbanı sunarsa beni yüceltir; Yolunu düzeltene kurtarışımı göstereceğim.”"
+    }
+  ],
+  "title": "50. Mezmur"
+}

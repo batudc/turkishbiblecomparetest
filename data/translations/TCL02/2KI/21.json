@@ -1,1 +1,114 @@
-{"t": "TCL02", "b": "2KI", "c": 21, "content": [{"v": 1, "text": "Manaşşe on iki yaşında kral oldu ve Yeruşalim'de elli beş yıl krallık yaptı. Annesinin adı Hefsivah'tı."}, {"v": 2, "text": "RAB'bin İsrail halkının önünden kovmuş olduğu ulusların iğrenç törelerine uyarak RAB'bin gözünde kötü olanı yaptı."}, {"v": 3, "text": "Babası Hizkiya'nın yok ettiği puta tapılan yerleri yeniden yaptırdı. İsrail Kralı Ahav gibi, Baal için sunaklar kurdu, Aşera putu yaptı. Gök cisimlerine taparak onlara kulluk etti."}, {"v": 4, "text": "RAB'bin, “Yeruşalim'de bulunacağım” dediği RAB'bin Tapınağı'nda sunaklar kurdu."}, {"v": 5, "text": "Tapınağın iki avlusunda gök cisimlerine tapmak için sunaklar yaptırdı."}, {"v": 6, "text": "Oğlunu ateşte kurban etti; falcılık ve büyücülük yaptı. Medyumlara, ruh çağıranlara danıştı. RAB'bin gözünde çok kötülük yaparak O'nu öfkelendirdi."}, {"v": 7, "text": "Manaşşe yaptırdığı Aşera putunu RAB'bin Tapınağı'na yerleştirdi. Oysa RAB tapınağa ilişkin Davut'la oğlu Süleyman'a şöyle demişti: “Bu tapınakta ve İsrail oymaklarının yaşadığı kentler arasından seçtiğim Yeruşalim'de adım sonsuza dek anılacak."}, {"v": 8, "text": "Buyruklarımı dikkatle yerine getirir ve kulum Musa'nın kendilerine verdiği Kutsal Yasa'yı tam uygularlarsa, İsrail halkının ayağını bir daha atalarına vermiş olduğum ülkenin dışına çıkarmayacağım.”"}, {"v": 9, "text": "Ama halk kulak asmadı. Manaşşe onları öylesine yoldan çıkardı ki, RAB'bin İsrail halkının önünde yok ettiği uluslardan daha çok kötülük yaptılar."}, {"v": 10, "text": "RAB, kulları peygamberler aracılığıyla şöyle dedi:"}, {"v": 11, "text": "“Yahuda Kralı Manaşşe bu iğrenç işleri yaptığı, kendisinden önceki Amorlular'dan daha çok kötülük ettiği, putlar dikerek Yahudalılar'ı günaha sürüklediği için İsrail'in Tanrısı RAB, ‘Yeruşalim'in ve Yahuda'nın başına öyle bir felaket getireceğim ki, duyanların hepsi şaşkına dönecek’ diyor,"}, {"v": 13, "text": "‘Samiriye'yi ve Ahav'ın soyunu nasıl cezalandırdımsa, Yeruşalim'i cezalandırırken de aynı ölçü ipini, aynı çekülü kullanacağım. Bir adam tabağını nasıl temizler, silip yüzüstü kapatırsa, Yeruşalim'i de öyle silip süpüreceğim."}, {"v": 14, "text": "Halkımdan sağ kalanları terk edeceğim ve düşmanlarının eline teslim edeceğim. Yeruşalim halkı yağmalanıp ganimet olarak götürülecek."}, {"v": 15, "text": "Çünkü gözümde kötü olanı yaptılar. Atalarının Mısır'dan çıktığı günden bugüne kadar beni öfkelendirdiler.’ ”"}, {"v": 16, "text": "Manaşşe RAB'bin gözünde kötü olanı yaparak Yahudalılar'ı günaha sürüklemekle kalmadı, Yeruşalim'i bir uçtan öbür uca dolduracak kadar çok sayıda suçsuzun kanını döktü."}, {"v": 17, "text": "Manaşşe'nin krallığı dönemindeki öteki olaylar, bütün yaptıkları ve işlediği günahlar Yahuda krallarının tarihinde yazılıdır."}, {"v": 18, "text": "Manaşşe ölüp atalarına kavuşunca, sarayının Uzza adındaki bahçesine gömüldü. Yerine oğlu Amon kral oldu."}, {"v": 19, "text": "Amon yirmi iki yaşında kral oldu ve Yeruşalim'de iki yıl krallık yaptı. Annesi Yotvalı Harus'un kızı Meşullemet'ti."}, {"v": 20, "text": "Amon da babası Manaşşe gibi RAB'bin gözünde kötü olanı yaptı."}, {"v": 21, "text": "Babasının yürüdüğü yollarda yürüdü, aynı putlara taptı ve hizmet etti."}, {"v": 22, "text": "Atalarının Tanrısı RAB'bi terk etti, O'nun yolunda yürümedi."}, {"v": 23, "text": "Kral Amon'un görevlileri düzen kurup onu sarayında öldürdüler."}, {"v": 24, "text": "Ülke halkı Amon'a düzen kuranların hepsini öldürdü. Yerine oğlu Yoşiya'yı kral yaptı."}, {"v": 25, "text": "Amon'un krallığı dönemindeki öteki olaylar ve yaptıkları Yahuda krallarının tarihinde yazılıdır."}, {"v": 26, "text": "Amon Uzza bahçesinde kendi mezarına gömüldü. Yerine oğlu Yoşiya kral oldu."}]}
+{
+  "t": "TCL02",
+  "b": "2KI",
+  "c": 21,
+  "content": [
+    {
+      "section": "Manaşşe'nin Yahuda Krallığı"
+    },
+    {
+      "v": 1,
+      "text": "Manaşşe on iki yaşında kral oldu ve Yeruşalim'de elli beş yıl krallık yaptı. Annesinin adı Hefsivah'tı."
+    },
+    {
+      "v": 2,
+      "text": "RAB'bin İsrail halkının önünden kovmuş olduğu ulusların iğrenç törelerine uyarak RAB'bin gözünde kötü olanı yaptı."
+    },
+    {
+      "v": 3,
+      "text": "Babası Hizkiya'nın yok ettiği puta tapılan yerleri yeniden yaptırdı. İsrail Kralı Ahav gibi, Baal için sunaklar kurdu, Aşera putu yaptı. Gök cisimlerine taparak onlara kulluk etti."
+    },
+    {
+      "v": 4,
+      "text": "RAB'bin, “Yeruşalim'de bulunacağım” dediği RAB'bin Tapınağı'nda sunaklar kurdu."
+    },
+    {
+      "v": 5,
+      "text": "Tapınağın iki avlusunda gök cisimlerine tapmak için sunaklar yaptırdı."
+    },
+    {
+      "v": 6,
+      "text": "Oğlunu ateşte kurban etti; falcılık ve büyücülük yaptı. Medyumlara, ruh çağıranlara danıştı. RAB'bin gözünde çok kötülük yaparak O'nu öfkelendirdi."
+    },
+    {
+      "v": 7,
+      "text": "Manaşşe yaptırdığı Aşera putunu RAB'bin Tapınağı'na yerleştirdi. Oysa RAB tapınağa ilişkin Davut'la oğlu Süleyman'a şöyle demişti: “Bu tapınakta ve İsrail oymaklarının yaşadığı kentler arasından seçtiğim Yeruşalim'de adım sonsuza dek anılacak."
+    },
+    {
+      "v": 8,
+      "text": "Buyruklarımı dikkatle yerine getirir ve kulum Musa'nın kendilerine verdiği Kutsal Yasa'yı tam uygularlarsa, İsrail halkının ayağını bir daha atalarına vermiş olduğum ülkenin dışına çıkarmayacağım.”"
+    },
+    {
+      "v": 9,
+      "text": "Ama halk kulak asmadı. Manaşşe onları öylesine yoldan çıkardı ki, RAB'bin İsrail halkının önünde yok ettiği uluslardan daha çok kötülük yaptılar."
+    },
+    {
+      "v": 10,
+      "text": "RAB, kulları peygamberler aracılığıyla şöyle dedi:"
+    },
+    {
+      "v": 11,
+      "text": "“Yahuda Kralı Manaşşe bu iğrenç işleri yaptığı, kendisinden önceki Amorlular'dan daha çok kötülük ettiği, putlar dikerek Yahudalılar'ı günaha sürüklediği için İsrail'in Tanrısı RAB, ‘Yeruşalim'in ve Yahuda'nın başına öyle bir felaket getireceğim ki, duyanların hepsi şaşkına dönecek’ diyor,"
+    },
+    {
+      "v": 13,
+      "text": "‘Samiriye'yi ve Ahav'ın soyunu nasıl cezalandırdımsa, Yeruşalim'i cezalandırırken de aynı ölçü ipini, aynı çekülü kullanacağım. Bir adam tabağını nasıl temizler, silip yüzüstü kapatırsa, Yeruşalim'i de öyle silip süpüreceğim."
+    },
+    {
+      "v": 14,
+      "text": "Halkımdan sağ kalanları terk edeceğim ve düşmanlarının eline teslim edeceğim. Yeruşalim halkı yağmalanıp ganimet olarak götürülecek."
+    },
+    {
+      "v": 15,
+      "text": "Çünkü gözümde kötü olanı yaptılar. Atalarının Mısır'dan çıktığı günden bugüne kadar beni öfkelendirdiler.’ ”"
+    },
+    {
+      "v": 16,
+      "text": "Manaşşe RAB'bin gözünde kötü olanı yaparak Yahudalılar'ı günaha sürüklemekle kalmadı, Yeruşalim'i bir uçtan öbür uca dolduracak kadar çok sayıda suçsuzun kanını döktü."
+    },
+    {
+      "v": 17,
+      "text": "Manaşşe'nin krallığı dönemindeki öteki olaylar, bütün yaptıkları ve işlediği günahlar Yahuda krallarının tarihinde yazılıdır."
+    },
+    {
+      "v": 18,
+      "text": "Manaşşe ölüp atalarına kavuşunca, sarayının Uzza adındaki bahçesine gömüldü. Yerine oğlu Amon kral oldu."
+    },
+    {
+      "section": "Amon'un Yahuda Krallığı"
+    },
+    {
+      "v": 19,
+      "text": "Amon yirmi iki yaşında kral oldu ve Yeruşalim'de iki yıl krallık yaptı. Annesi Yotvalı Harus'un kızı Meşullemet'ti."
+    },
+    {
+      "v": 20,
+      "text": "Amon da babası Manaşşe gibi RAB'bin gözünde kötü olanı yaptı."
+    },
+    {
+      "v": 21,
+      "text": "Babasının yürüdüğü yollarda yürüdü, aynı putlara taptı ve hizmet etti."
+    },
+    {
+      "v": 22,
+      "text": "Atalarının Tanrısı RAB'bi terk etti, O'nun yolunda yürümedi."
+    },
+    {
+      "v": 23,
+      "text": "Kral Amon'un görevlileri düzen kurup onu sarayında öldürdüler."
+    },
+    {
+      "v": 24,
+      "text": "Ülke halkı Amon'a düzen kuranların hepsini öldürdü. Yerine oğlu Yoşiya'yı kral yaptı."
+    },
+    {
+      "v": 25,
+      "text": "Amon'un krallığı dönemindeki öteki olaylar ve yaptıkları Yahuda krallarının tarihinde yazılıdır."
+    },
+    {
+      "v": 26,
+      "text": "Amon Uzza bahçesinde kendi mezarına gömüldü. Yerine oğlu Yoşiya kral oldu."
+    }
+  ],
+  "title": "Manaşşe'nin Yahuda Krallığı"
+}

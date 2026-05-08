@@ -1,1 +1,170 @@
-{"t": "TCL02", "b": "1CH", "c": 8, "content": [{"v": 1, "text": "Benyamin'in ilk oğlu Bala, İkinci oğlu Aşbel, Üçüncü oğlu Ahrah,"}, {"v": 2, "text": "Dördüncü oğlu Noha, Beşinci oğlu Rafa'ydı."}, {"v": 3, "text": "Bala'nın oğulları: Addar, Gera, Avihut,"}, {"v": 4, "text": "Avişua, Naaman, Ahoah,"}, {"v": 5, "text": "Gera, Şefufan, Huram."}, {"v": 6, "text": "Ehutoğulları Geva'da yaşayan ailelerin başlarıydı. Oradan Manahat'a sürüldüler. Adları şunlardır:"}, {"v": 7, "text": "Naaman, Ahiya ve onları sürgüne gönderen Gera. Gera Uzza'yla Ahihut'un babasıydı."}, {"v": 8, "text": "Şaharayim, karıları Huşim'le Baara'yı boşadıktan sonra, Moav kırında çocuk sahibi oldu."}, {"v": 9, "text": "Yeni karısı Hodeş'ten doğan oğulları şunlardır: Yovav, Sivya, Meşa, Malkam,"}, {"v": 10, "text": "Yeus, Sakeya, Mirma. Bunlar Şaharayim'in oğullarıydı. Hepsi de boy başlarıydı."}, {"v": 11, "text": "Şaharayim'in karısı Huşim'den de Avituv ve Elpaal adında iki oğlu vardı."}, {"v": 12, "text": "Elpaal'ın oğulları: Ever, Mişam, Ono ve Lod kentleriyle çevrelerindeki köyleri yeniden kuran Şemet, Beria, Şema. Beria'yla Şema Ayalon'da yaşayan halkın boy başlarıydı. Bunlar Gat'ta yaşayan halkı sürdüler."}, {"v": 14, "text": "Ahyo, Şaşak, Yeremot,"}, {"v": 15, "text": "Zevadya, Arat, Eder,"}, {"v": 16, "text": "Mikael, Yişpa ve Yoha Beria'nın oğullarıydı."}, {"v": 17, "text": "Zevadya, Meşullam, Hizki, Hever,"}, {"v": 18, "text": "Yişmeray, Yizliya ve Yovav Elpaal'ın oğullarıydı."}, {"v": 19, "text": "Yakim, Zikri, Zavdi,"}, {"v": 20, "text": "Elienay, Silletay, Eliel,"}, {"v": 21, "text": "Adaya, Beraya ve Şimrat Şimi'nin oğullarıydı."}, {"v": 22, "text": "Şaşak'ın oğulları: Yişpan, Ever, Eliel,"}, {"v": 23, "text": "Avdon, Zikri, Hanan,"}, {"v": 24, "text": "Hananya, Elam, Antotiya,"}, {"v": 25, "text": "Yifdeya, Penuel."}, {"v": 26, "text": "Yeroham'ın oğulları: Şamşeray, Şeharya, Atalya,"}, {"v": 27, "text": "Yaareşya, Eliya, Zikri."}, {"v": 28, "text": "Bunların hepsi soy kütüğüne göre boy başları ve önderlerdi. Yeruşalim'de yaşadılar."}, {"v": 29, "text": "Givon'un kurucusu Yeiel Givon'da yaşadı. Karısının adı Maaka'ydı."}, {"v": 30, "text": "Yeiel'in ilk oğlu Avdon'du. Öbürleri şunlardı: Sur, Kiş, Baal, Ner, Nadav,"}, {"v": 31, "text": "Gedor, Ahyo, Zeker"}, {"v": 32, "text": "ve Şima'nın babası Miklot. Bunlar Yeruşalim'deki akrabalarının yanında yaşarlardı."}, {"v": 33, "text": "Ner Kiş'in, Kiş Saul'un babasıydı. Saul Yonatan, Malkişua, Avinadav ve Eşbaal'ın babasıydı."}, {"v": 34, "text": "Yonatan Merib-Baal'ın, Merib-Baal Mika'nın babasıydı."}, {"v": 35, "text": "Mika'nın oğulları: Piton, Melek, Tarea, Ahaz."}, {"v": 36, "text": "Ahaz Yehoadda'nın babasıydı. Yehoadda Alemet, Azmavet, Zimri'nin, Zimri Mosa'nın,"}, {"v": 37, "text": "Mosa Binea'nın, Binea Rafa'nın, Rafa Elasa'nın, Elasa da Asel'in babasıydı."}, {"v": 38, "text": "Asel'in altı oğlu vardı. Adları şöyledir: Azrikam, Bokeru, İsmail, Şearya, Ovadya, Hanan. Bütün bunlar Asel'in oğullarıydı."}, {"v": 39, "text": "Asel'in kardeşi Esek'in oğulları: İlk oğlu Ulam, ikincisi Yeuş, üçüncüsü Elifelet."}, {"v": 40, "text": "Ulamoğulları ok atmakta usta, yiğit savaşçılardı. Ulam'ın birçok oğlu, torunu vardı. Sayıları yüz elli kişiydi. Hepsi Benyamin soyundandı."}]}
+{
+  "t": "TCL02",
+  "b": "1CH",
+  "c": 8,
+  "content": [
+    {
+      "section": "Benyamin Soyu"
+    },
+    {
+      "v": 1,
+      "text": "Benyamin'in ilk oğlu Bala, İkinci oğlu Aşbel, Üçüncü oğlu Ahrah,"
+    },
+    {
+      "v": 2,
+      "text": "Dördüncü oğlu Noha, Beşinci oğlu Rafa'ydı."
+    },
+    {
+      "v": 3,
+      "text": "Bala'nın oğulları: Addar, Gera, Avihut,"
+    },
+    {
+      "v": 4,
+      "text": "Avişua, Naaman, Ahoah,"
+    },
+    {
+      "v": 5,
+      "text": "Gera, Şefufan, Huram."
+    },
+    {
+      "v": 6,
+      "text": "Ehutoğulları Geva'da yaşayan ailelerin başlarıydı. Oradan Manahat'a sürüldüler. Adları şunlardır:"
+    },
+    {
+      "v": 7,
+      "text": "Naaman, Ahiya ve onları sürgüne gönderen Gera. Gera Uzza'yla Ahihut'un babasıydı."
+    },
+    {
+      "v": 8,
+      "text": "Şaharayim, karıları Huşim'le Baara'yı boşadıktan sonra, Moav kırında çocuk sahibi oldu."
+    },
+    {
+      "v": 9,
+      "text": "Yeni karısı Hodeş'ten doğan oğulları şunlardır: Yovav, Sivya, Meşa, Malkam,"
+    },
+    {
+      "v": 10,
+      "text": "Yeus, Sakeya, Mirma. Bunlar Şaharayim'in oğullarıydı. Hepsi de boy başlarıydı."
+    },
+    {
+      "v": 11,
+      "text": "Şaharayim'in karısı Huşim'den de Avituv ve Elpaal adında iki oğlu vardı."
+    },
+    {
+      "v": 12,
+      "text": "Elpaal'ın oğulları: Ever, Mişam, Ono ve Lod kentleriyle çevrelerindeki köyleri yeniden kuran Şemet, Beria, Şema. Beria'yla Şema Ayalon'da yaşayan halkın boy başlarıydı. Bunlar Gat'ta yaşayan halkı sürdüler."
+    },
+    {
+      "v": 14,
+      "text": "Ahyo, Şaşak, Yeremot,"
+    },
+    {
+      "v": 15,
+      "text": "Zevadya, Arat, Eder,"
+    },
+    {
+      "v": 16,
+      "text": "Mikael, Yişpa ve Yoha Beria'nın oğullarıydı."
+    },
+    {
+      "v": 17,
+      "text": "Zevadya, Meşullam, Hizki, Hever,"
+    },
+    {
+      "v": 18,
+      "text": "Yişmeray, Yizliya ve Yovav Elpaal'ın oğullarıydı."
+    },
+    {
+      "v": 19,
+      "text": "Yakim, Zikri, Zavdi,"
+    },
+    {
+      "v": 20,
+      "text": "Elienay, Silletay, Eliel,"
+    },
+    {
+      "v": 21,
+      "text": "Adaya, Beraya ve Şimrat Şimi'nin oğullarıydı."
+    },
+    {
+      "v": 22,
+      "text": "Şaşak'ın oğulları: Yişpan, Ever, Eliel,"
+    },
+    {
+      "v": 23,
+      "text": "Avdon, Zikri, Hanan,"
+    },
+    {
+      "v": 24,
+      "text": "Hananya, Elam, Antotiya,"
+    },
+    {
+      "v": 25,
+      "text": "Yifdeya, Penuel."
+    },
+    {
+      "v": 26,
+      "text": "Yeroham'ın oğulları: Şamşeray, Şeharya, Atalya,"
+    },
+    {
+      "v": 27,
+      "text": "Yaareşya, Eliya, Zikri."
+    },
+    {
+      "v": 28,
+      "text": "Bunların hepsi soy kütüğüne göre boy başları ve önderlerdi. Yeruşalim'de yaşadılar."
+    },
+    {
+      "section": "Kral Saul'un Soyu"
+    },
+    {
+      "v": 29,
+      "text": "Givon'un kurucusu Yeiel Givon'da yaşadı. Karısının adı Maaka'ydı."
+    },
+    {
+      "v": 30,
+      "text": "Yeiel'in ilk oğlu Avdon'du. Öbürleri şunlardı: Sur, Kiş, Baal, Ner, Nadav,"
+    },
+    {
+      "v": 31,
+      "text": "Gedor, Ahyo, Zeker"
+    },
+    {
+      "v": 32,
+      "text": "ve Şima'nın babası Miklot. Bunlar Yeruşalim'deki akrabalarının yanında yaşarlardı."
+    },
+    {
+      "v": 33,
+      "text": "Ner Kiş'in, Kiş Saul'un babasıydı. Saul Yonatan, Malkişua, Avinadav ve Eşbaal'ın babasıydı."
+    },
+    {
+      "v": 34,
+      "text": "Yonatan Merib-Baal'ın, Merib-Baal Mika'nın babasıydı."
+    },
+    {
+      "v": 35,
+      "text": "Mika'nın oğulları: Piton, Melek, Tarea, Ahaz."
+    },
+    {
+      "v": 36,
+      "text": "Ahaz Yehoadda'nın babasıydı. Yehoadda Alemet, Azmavet, Zimri'nin, Zimri Mosa'nın,"
+    },
+    {
+      "v": 37,
+      "text": "Mosa Binea'nın, Binea Rafa'nın, Rafa Elasa'nın, Elasa da Asel'in babasıydı."
+    },
+    {
+      "v": 38,
+      "text": "Asel'in altı oğlu vardı. Adları şöyledir: Azrikam, Bokeru, İsmail, Şearya, Ovadya, Hanan. Bütün bunlar Asel'in oğullarıydı."
+    },
+    {
+      "v": 39,
+      "text": "Asel'in kardeşi Esek'in oğulları: İlk oğlu Ulam, ikincisi Yeuş, üçüncüsü Elifelet."
+    },
+    {
+      "v": 40,
+      "text": "Ulamoğulları ok atmakta usta, yiğit savaşçılardı. Ulam'ın birçok oğlu, torunu vardı. Sayıları yüz elli kişiydi. Hepsi Benyamin soyundandı."
+    }
+  ],
+  "title": "Benyamin Soyu"
+}

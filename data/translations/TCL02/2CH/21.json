@@ -1,1 +1,90 @@
-{"t":"TCL02","b":"2CH","c":21,"content":[{"v":1,"text":"Yehoşafat ölüp atalarına kavuştu ve Davut Kenti'nde atalarının yanına gömüldü. Yerine oğlu Yehoram kral oldu."},{"v":2,"text":"Yehoşafat oğlu Yehoram'ın kardeşleri şunlardı: Azarya, Yehiel, Zekeriya, Azaryahu, Mikael, Şefatya. Bunların tümü İsrail Kralı Yehoşafat'ın oğullarıydı."},{"v":3,"text":"Babaları onlara çok miktarda altın, gümüş, değerli eşyalar armağan etmiş, ayrıca Yahuda'da surlu kentler vermişti. Ancak, Yehoram ilk oğlu olduğundan, krallığı ona bırakmıştı."},{"v":4,"text":"Babasının yerine geçen Yehoram güçlenince, bütün kardeşlerini ve bazı İsrail önderlerini kılıçtan geçirtti."},{"v":5,"text":"Yehoram otuz iki yaşında kral oldu ve Yeruşalim'de sekiz yıl krallık yaptı."},{"v":6,"text":"Karısı Ahav'ın kızı olduğu için, o da Ahav'ın ailesi gibi İsrail krallarının yolunu izledi ve RAB'bin gözünde kötü olanı yaptı."},{"v":7,"text":"Ama RAB Davut'la yaptığı antlaşmadan ötürü onun soyunu yok etmek istemedi. Çünkü Davut'a ve soyuna sönmeyen bir ışık vereceğine söz vermişti."},{"v":8,"text":"Yehoram'ın krallığı döneminde Edomlular Yahudalılar'a karşı ayaklanarak kendi krallıklarını kurdular."},{"v":9,"text":"Yehoram komutanları ve bütün savaş arabalarıyla oraya gitti. Edomlular onu ve savaş arabalarının komutanlarını kuşattılar. Ama Yehoram gece kalkıp kuşatmayı yararak kaçtı."},{"v":10,"text":"Edomlular'ın Yahuda'ya karşı başkaldırması bugün de sürüyor.  O sırada Livna Kenti de ayaklandı. Çünkü Yehoram atalarının Tanrısı RAB'bi bırakmıştı."},{"v":11,"text":"Yahuda tepelerinde puta tapılan yerler bile yapmış, Yeruşalim halkının putlara bağlanmasına önayak olmuş, Yahuda halkını günaha sürüklemişti."},{"v":12,"text":"Yehoram Peygamber İlyas'tan bir mektup aldı. Mektup şöyleydi:  “Atan Davut'un Tanrısı RAB şöyle diyor: ‘Baban Yehoşafat'ın ve Yahuda Kralı Asa'nın yollarını izlemedin."},{"v":13,"text":"İsrail krallarının yolunu izledin. Ahav'ın ailesinin yaptığı gibi Yahuda ve Yeruşalim halkının putlara bağlanmasına önayak oldun. Üstelik kendi ailenden, senden daha iyi olan kardeşlerini öldürttün."},{"v":14,"text":"Bu yüzden RAB halkını, oğullarını, karılarını ve senin olan her şeyi büyük bir yıkımla vuracak."},{"v":15,"text":"Sen de korkunç bir bağırsak hastalığına yakalanacaksın. Bu hastalık yüzünden bağırsakların dışarı dökülene dek günlerce sürüneceksin.’ ”"},{"v":16,"text":"RAB Filistliler'i ve Kûşlular'ın yanında yaşayan Araplar'ı Yehoram'a karşı kışkırttı."},{"v":17,"text":"Saldırıp Yahuda'ya girdiler. Sarayda bulunan her şeyi, kralın oğullarıyla karılarını alıp götürdüler. Kralın en küçük oğlu Yehoahaz'dan başka oğlu kalmadı."},{"v":18,"text":"Sonra RAB Yehoram'ı iyileşmez bir bağırsak hastalığıyla cezalandırdı."},{"v":19,"text":"Zaman geçti, ikinci yılın sonunda hastalık yüzünden bağırsakları dışarı döküldü. Şiddetli acılar içinde öldü. Halkı ataları için ateş yaktığı gibi onun onuruna ateş yakmadı."},{"v":20,"text":"Yehoram otuz iki yaşında kral oldu ve Yeruşalim'de sekiz yıl krallık yaptı. Ölümüne kimse üzülmedi. Onu Davut Kenti'nde gömdülerse de, kralların mezarlığına gömmediler."}]}
+{
+  "t": "TCL02",
+  "b": "2CH",
+  "c": 21,
+  "content": [
+    {
+      "v": 1,
+      "text": "Yehoşafat ölüp atalarına kavuştu ve Davut Kenti'nde atalarının yanına gömüldü. Yerine oğlu Yehoram kral oldu."
+    },
+    {
+      "section": "Yehoram'ın Yahuda Krallığı"
+    },
+    {
+      "v": 2,
+      "text": "Yehoşafat oğlu Yehoram'ın kardeşleri şunlardı: Azarya, Yehiel, Zekeriya, Azaryahu, Mikael, Şefatya. Bunların tümü İsrail Kralı Yehoşafat'ın oğullarıydı."
+    },
+    {
+      "v": 3,
+      "text": "Babaları onlara çok miktarda altın, gümüş, değerli eşyalar armağan etmiş, ayrıca Yahuda'da surlu kentler vermişti. Ancak, Yehoram ilk oğlu olduğundan, krallığı ona bırakmıştı."
+    },
+    {
+      "v": 4,
+      "text": "Babasının yerine geçen Yehoram güçlenince, bütün kardeşlerini ve bazı İsrail önderlerini kılıçtan geçirtti."
+    },
+    {
+      "v": 5,
+      "text": "Yehoram otuz iki yaşında kral oldu ve Yeruşalim'de sekiz yıl krallık yaptı."
+    },
+    {
+      "v": 6,
+      "text": "Karısı Ahav'ın kızı olduğu için, o da Ahav'ın ailesi gibi İsrail krallarının yolunu izledi ve RAB'bin gözünde kötü olanı yaptı."
+    },
+    {
+      "v": 7,
+      "text": "Ama RAB Davut'la yaptığı antlaşmadan ötürü onun soyunu yok etmek istemedi. Çünkü Davut'a ve soyuna sönmeyen bir ışık vereceğine söz vermişti."
+    },
+    {
+      "v": 8,
+      "text": "Yehoram'ın krallığı döneminde Edomlular Yahudalılar'a karşı ayaklanarak kendi krallıklarını kurdular."
+    },
+    {
+      "v": 9,
+      "text": "Yehoram komutanları ve bütün savaş arabalarıyla oraya gitti. Edomlular onu ve savaş arabalarının komutanlarını kuşattılar. Ama Yehoram gece kalkıp kuşatmayı yararak kaçtı."
+    },
+    {
+      "v": 10,
+      "text": "Edomlular'ın Yahuda'ya karşı başkaldırması bugün de sürüyor.  O sırada Livna Kenti de ayaklandı. Çünkü Yehoram atalarının Tanrısı RAB'bi bırakmıştı."
+    },
+    {
+      "v": 11,
+      "text": "Yahuda tepelerinde puta tapılan yerler bile yapmış, Yeruşalim halkının putlara bağlanmasına önayak olmuş, Yahuda halkını günaha sürüklemişti."
+    },
+    {
+      "v": 12,
+      "text": "Yehoram Peygamber İlyas'tan bir mektup aldı. Mektup şöyleydi:  “Atan Davut'un Tanrısı RAB şöyle diyor: ‘Baban Yehoşafat'ın ve Yahuda Kralı Asa'nın yollarını izlemedin."
+    },
+    {
+      "v": 13,
+      "text": "İsrail krallarının yolunu izledin. Ahav'ın ailesinin yaptığı gibi Yahuda ve Yeruşalim halkının putlara bağlanmasına önayak oldun. Üstelik kendi ailenden, senden daha iyi olan kardeşlerini öldürttün."
+    },
+    {
+      "v": 14,
+      "text": "Bu yüzden RAB halkını, oğullarını, karılarını ve senin olan her şeyi büyük bir yıkımla vuracak."
+    },
+    {
+      "v": 15,
+      "text": "Sen de korkunç bir bağırsak hastalığına yakalanacaksın. Bu hastalık yüzünden bağırsakların dışarı dökülene dek günlerce sürüneceksin.’ ”"
+    },
+    {
+      "v": 16,
+      "text": "RAB Filistliler'i ve Kûşlular'ın yanında yaşayan Araplar'ı Yehoram'a karşı kışkırttı."
+    },
+    {
+      "v": 17,
+      "text": "Saldırıp Yahuda'ya girdiler. Sarayda bulunan her şeyi, kralın oğullarıyla karılarını alıp götürdüler. Kralın en küçük oğlu Yehoahaz'dan başka oğlu kalmadı."
+    },
+    {
+      "v": 18,
+      "text": "Sonra RAB Yehoram'ı iyileşmez bir bağırsak hastalığıyla cezalandırdı."
+    },
+    {
+      "v": 19,
+      "text": "Zaman geçti, ikinci yılın sonunda hastalık yüzünden bağırsakları dışarı döküldü. Şiddetli acılar içinde öldü. Halkı ataları için ateş yaktığı gibi onun onuruna ateş yakmadı."
+    },
+    {
+      "v": 20,
+      "text": "Yehoram otuz iki yaşında kral oldu ve Yeruşalim'de sekiz yıl krallık yaptı. Ölümüne kimse üzülmedi. Onu Davut Kenti'nde gömdülerse de, kralların mezarlığına gömmediler."
+    }
+  ]
+}

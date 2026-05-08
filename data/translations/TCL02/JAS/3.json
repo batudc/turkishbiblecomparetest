@@ -1,1 +1,86 @@
-{"t":"TCL02","b":"JAS","c":3,"content":[{"v":1,"text":"Kardeşlerim, biz öğretmenlerin daha titiz bir yargılamadan geçeceğini biliyorsunuz; bu nedenle çoğunuz öğretmen olmayın."},{"v":2,"text":"Çünkü hepimiz çok hata yaparız. Sözleriyle hata yapmayan kimse, bütün bedenini de dizginleyebilen yetkin bir kişidir."},{"v":3,"text":"Bize boyun eğmeleri için atların ağzına gem vururuz, böylece bütün bedenlerini yönlendiririz."},{"v":4,"text":"Düşünün, gemiler de o kadar büyük olduğu, güçlü rüzgarlar tarafından sürüklendiği halde, dümencinin gönlü nereye isterse küçücük bir dümenle o yöne çevrilirler."},{"v":5,"text":"Bunun gibi, dil de bedenin küçük bir üyesidir, ama büyük işlerle övünür.  Düşünün, küçücük bir kıvılcım koca bir ormanı tutuşturabilir."},{"v":6,"text":"Dil de bir ateş, bedenimizin üyeleri arasında bir kötülük dünyasıdır. Bütün varlığımızı kirletir. Cehennemden alevlenmiş olarak yaşamımızın gidişini alevlendirir."},{"v":7,"text":"İnsan soyu, her tür yabanıl hayvanı, kuşu, sürüngeni ve deniz yaratığını evcilleştirmiş ve evcilleştirmektedir."},{"v":8,"text":"Ama dili hiçbir insan evcilleştiremez. Dil öldürücü zehirle dolu, dinmeyen bir kötülüktür."},{"v":9,"text":"Dilimizle Rab'bi, Baba'yı överiz. Yine dilimizle Tanrı'ya benzer yaratılmış insana söveriz."},{"v":10,"text":"Övgü ve sövgü aynı ağızdan çıkar. Kardeşlerim, bu böyle olmamalı."},{"v":11,"text":"Bir pınar aynı gözden tatlı ve acı su akıtır mı?"},{"v":12,"text":"Kardeşlerim, incir ağacı zeytin ya da asma incir verebilir mi? Bunun gibi, tuzlu su kaynağı tatlı su veremez."},{"v":13,"text":"Aranızda bilge ve anlayışlı olan kim? Olumlu yaşayışıyla, bilgelikten doğan alçakgönüllülükle iyi eylemlerini göstersin."},{"v":14,"text":"Ama yüreğinizde kin, kıskançlık, bencillik varsa övünmeyin, gerçeği yadsımayın."},{"v":15,"text":"Böylesi “bilgelik” gökten inen değil, dünyadan, insan doğasından, cinlerden gelen bilgeliktir."},{"v":16,"text":"Çünkü nerede kıskançlık, bencillik varsa, orada karışıklık ve her tür kötülük vardır."},{"v":17,"text":"Ama gökten inen bilgelik her şeyden önce paktır, sonra barışçıldır, yumuşaktır, uysaldır. Merhamet ve iyi meyvelerle doludur. Kayırıcılığı, ikiyüzlülüğü yoktur."},{"v":18,"text":"Barış içinde eken barış yapıcıları doğruluk ürününü biçerler."}]}
+{
+  "t": "TCL02",
+  "b": "JAS",
+  "c": 3,
+  "content": [
+    {
+      "section": "Dizginlenemeyen Dil"
+    },
+    {
+      "v": 1,
+      "text": "Kardeşlerim, biz öğretmenlerin daha titiz bir yargılamadan geçeceğini biliyorsunuz; bu nedenle çoğunuz öğretmen olmayın."
+    },
+    {
+      "v": 2,
+      "text": "Çünkü hepimiz çok hata yaparız. Sözleriyle hata yapmayan kimse, bütün bedenini de dizginleyebilen yetkin bir kişidir."
+    },
+    {
+      "v": 3,
+      "text": "Bize boyun eğmeleri için atların ağzına gem vururuz, böylece bütün bedenlerini yönlendiririz."
+    },
+    {
+      "v": 4,
+      "text": "Düşünün, gemiler de o kadar büyük olduğu, güçlü rüzgarlar tarafından sürüklendiği halde, dümencinin gönlü nereye isterse küçücük bir dümenle o yöne çevrilirler."
+    },
+    {
+      "v": 5,
+      "text": "Bunun gibi, dil de bedenin küçük bir üyesidir, ama büyük işlerle övünür.  Düşünün, küçücük bir kıvılcım koca bir ormanı tutuşturabilir."
+    },
+    {
+      "v": 6,
+      "text": "Dil de bir ateş, bedenimizin üyeleri arasında bir kötülük dünyasıdır. Bütün varlığımızı kirletir. Cehennemden alevlenmiş olarak yaşamımızın gidişini alevlendirir."
+    },
+    {
+      "v": 7,
+      "text": "İnsan soyu, her tür yabanıl hayvanı, kuşu, sürüngeni ve deniz yaratığını evcilleştirmiş ve evcilleştirmektedir."
+    },
+    {
+      "v": 8,
+      "text": "Ama dili hiçbir insan evcilleştiremez. Dil öldürücü zehirle dolu, dinmeyen bir kötülüktür."
+    },
+    {
+      "v": 9,
+      "text": "Dilimizle Rab'bi, Baba'yı överiz. Yine dilimizle Tanrı'ya benzer yaratılmış insana söveriz."
+    },
+    {
+      "v": 10,
+      "text": "Övgü ve sövgü aynı ağızdan çıkar. Kardeşlerim, bu böyle olmamalı."
+    },
+    {
+      "v": 11,
+      "text": "Bir pınar aynı gözden tatlı ve acı su akıtır mı?"
+    },
+    {
+      "v": 12,
+      "text": "Kardeşlerim, incir ağacı zeytin ya da asma incir verebilir mi? Bunun gibi, tuzlu su kaynağı tatlı su veremez."
+    },
+    {
+      "section": "Bilge Olan Kim?"
+    },
+    {
+      "v": 13,
+      "text": "Aranızda bilge ve anlayışlı olan kim? Olumlu yaşayışıyla, bilgelikten doğan alçakgönüllülükle iyi eylemlerini göstersin."
+    },
+    {
+      "v": 14,
+      "text": "Ama yüreğinizde kin, kıskançlık, bencillik varsa övünmeyin, gerçeği yadsımayın."
+    },
+    {
+      "v": 15,
+      "text": "Böylesi “bilgelik” gökten inen değil, dünyadan, insan doğasından, cinlerden gelen bilgeliktir."
+    },
+    {
+      "v": 16,
+      "text": "Çünkü nerede kıskançlık, bencillik varsa, orada karışıklık ve her tür kötülük vardır."
+    },
+    {
+      "v": 17,
+      "text": "Ama gökten inen bilgelik her şeyden önce paktır, sonra barışçıldır, yumuşaktır, uysaldır. Merhamet ve iyi meyvelerle doludur. Kayırıcılığı, ikiyüzlülüğü yoktur."
+    },
+    {
+      "v": 18,
+      "text": "Barış içinde eken barış yapıcıları doğruluk ürününü biçerler."
+    }
+  ],
+  "title": "Dizginlenemeyen Dil"
+}

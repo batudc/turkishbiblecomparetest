@@ -1,1 +1,23 @@
-{"t":"TCL02","b":"PSA","c":134,"content":[{"v":1,"text":"Ey sizler, RAB'bin bütün kulları, RAB'bin Tapınağı'nda gece hizmet edenler, O'na övgüler sunun!"},{"v":2,"text":"Ellerinizi kutsal yere doğru kaldırıp RAB'be övgüler sunun!"},{"v":3,"text":"Yeri göğü yaratan RAB kutsasın sizi Siyon'dan."}]}
+{
+  "t": "TCL02",
+  "b": "PSA",
+  "c": 134,
+  "content": [
+    {
+      "section": "134. Mezmur"
+    },
+    {
+      "v": 1,
+      "text": "Ey sizler, RAB'bin bütün kulları, RAB'bin Tapınağı'nda gece hizmet edenler, O'na övgüler sunun!"
+    },
+    {
+      "v": 2,
+      "text": "Ellerinizi kutsal yere doğru kaldırıp RAB'be övgüler sunun!"
+    },
+    {
+      "v": 3,
+      "text": "Yeri göğü yaratan RAB kutsasın sizi Siyon'dan."
+    }
+  ],
+  "title": "134. Mezmur"
+}

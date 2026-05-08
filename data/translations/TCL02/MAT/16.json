@@ -1,1 +1,128 @@
-{"t": "TCL02", "b": "MAT", "c": 16, "content": [{"v": 1, "text": "Ferisiler'le Sadukiler İsa'nın yanına geldiler. O'nu denemek amacıyla kendilerine gökten bir belirti göstermesini istediler."}, {"v": 2, "text": "İsa onlara şu karşılığı verdi: “Akşam, ‘Gökyüzü kızıl olduğuna göre hava iyi olacak’ dersiniz."}, {"v": 3, "text": "Sabah, ‘Bugün gök kızıl ve bulutlu, hava bozacak’ dersiniz. Gökyüzünün görünümünü yorumlayabiliyorsunuz da, zamanın belirtilerini yorumlayamıyor musunuz?"}, {"v": 4, "text": "Kötü ve vefasız kuşak bir belirti istiyor! Ama ona Yunus'un belirtisinden başka bir belirti gösterilmeyecek.” Sonra İsa onları bırakıp gitti."}, {"v": 5, "text": "Öğrenciler gölün karşı yakasına geçerken ekmek almayı unutmuşlardı."}, {"v": 6, "text": "İsa onlara, “Dikkatli olun, Ferisiler'in ve Sadukiler'in mayasından kaçının!” dedi."}, {"v": 7, "text": "Onlar ise kendi aralarında tartışarak, “Ekmek almadığımız için böyle diyor” dediler."}, {"v": 8, "text": "Bunun farkında olan İsa şöyle dedi: “Ey kıt imanlılar! Ekmeğiniz yok diye niçin tartışıyorsunuz?"}, {"v": 9, "text": "Hâlâ anlamıyor musunuz? Beş ekmekle beş bin kişinin doyduğunu, kaç sepet dolusu yemek fazlası topladığınızı hatırlamıyor musunuz? Yedi ekmekle dört bin kişinin doyduğunu, kaç küfe dolusu yemek fazlası topladığınızı hatırlamıyor musunuz?"}, {"v": 11, "text": "Ben size, ‘Ferisiler'in ve Sadukiler'in mayasından kaçının’ derken, ekmekten söz etmediğimi nasıl olur da anlamazsınız?”"}, {"v": 12, "text": "Ekmek mayasından değil de, Ferisiler'le Sadukiler'in öğretisinden kaçının dediğini o zaman anladılar."}, {"v": 13, "text": "İsa, Filipus Sezariyesi bölgesine geldiğinde öğrencilerine şunu sordu: “Halk, İnsanoğlu'nun kim olduğunu söylüyor?”"}, {"v": 14, "text": "Öğrencileri şu karşılığı verdiler: “Kimi Vaftizci Yahya, kimi İlyas, kimi de Yeremya ya da peygamberlerden biridir diyor.”"}, {"v": 15, "text": "İsa onlara, “Siz ne dersiniz” dedi, “Sizce ben kimim?”"}, {"v": 16, "text": "Simun Petrus, “Sen, yaşayan Tanrı'nın Oğlu Mesih'sin” yanıtını verdi."}, {"v": 17, "text": "İsa ona, “Ne mutlu sana, Yunus oğlu Simun!” dedi. “Bu sırrı sana açan insan değil, göklerdeki Babam'dır."}, {"v": 18, "text": "Ben de sana şunu söyleyeyim, sen Petrus'sun ve ben kilisemi bu kayanın üzerine kuracağım. Ölüler diyarının kapıları ona karşı direnemeyecek."}, {"v": 19, "text": "Göklerin Egemenliği'nin anahtarlarını sana vereceğim. Yeryüzünde bağlayacağın her şey göklerde de bağlanmış olacak; yeryüzünde çözeceğin her şey göklerde de çözülmüş olacak.”"}, {"v": 20, "text": "Bu sözlerden sonra İsa, kendisinin Mesih olduğunu kimseye söylememeleri için öğrencilerini uyardı."}, {"v": 21, "text": "Bundan sonra İsa, kendisinin Yeruşalim'e gitmesi, ileri gelenler, başkâhinler ve din bilginlerinin elinden çok acı çekmesi, öldürülmesi ve üçüncü gün dirilmesi gerektiğini öğrencilerine anlatmaya başladı."}, {"v": 22, "text": "Bunun üzerine Petrus O'nu bir kenara çekip azarlamaya başladı. “Tanrı korusun, ya Rab! Senin başına asla böyle bir şey gelmeyecek!” dedi."}, {"v": 23, "text": "Ama İsa Petrus'a dönüp, “Çekil önümden, Şeytan!” dedi, “Bana engel oluyorsun. Düşüncelerin Tanrı'ya değil, insana özgüdür.”"}, {"v": 24, "text": "Sonra İsa, öğrencilerine şunları söyledi: “Ardımdan gelmek isteyen kendini inkâr etsin, çarmıhını yüklenip beni izlesin."}, {"v": 25, "text": "Canını kurtarmak isteyen onu yitirecek, canını benim uğruma yitiren ise onu kurtaracaktır."}, {"v": 26, "text": "İnsan bütün dünyayı kazanıp da canından olursa, bunun kendisine ne yararı olur? İnsan kendi canına karşılık ne verebilir?"}, {"v": 27, "text": "İnsanoğlu, Babası'nın görkemi içinde melekleriyle gelecek ve herkese, yaptığının karşılığını verecektir."}, {"v": 28, "text": "Size doğrusunu söyleyeyim, burada bulunanlar arasında, İnsanoğlu'nun kendi egemenliği içinde gelişini görmeden ölümü tatmayacak olanlar var.”"}]}
+{
+  "t": "TCL02",
+  "b": "MAT",
+  "c": 16,
+  "content": [
+    {
+      "section": "Doğaüstü Bir Belirti İsteniyor"
+    },
+    {
+      "v": 1,
+      "text": "Ferisiler'le Sadukiler İsa'nın yanına geldiler. O'nu denemek amacıyla kendilerine gökten bir belirti göstermesini istediler."
+    },
+    {
+      "v": 2,
+      "text": "İsa onlara şu karşılığı verdi: “Akşam, ‘Gökyüzü kızıl olduğuna göre hava iyi olacak’ dersiniz."
+    },
+    {
+      "v": 3,
+      "text": "Sabah, ‘Bugün gök kızıl ve bulutlu, hava bozacak’ dersiniz. Gökyüzünün görünümünü yorumlayabiliyorsunuz da, zamanın belirtilerini yorumlayamıyor musunuz?"
+    },
+    {
+      "v": 4,
+      "text": "Kötü ve vefasız kuşak bir belirti istiyor! Ama ona Yunus'un belirtisinden başka bir belirti gösterilmeyecek.” Sonra İsa onları bırakıp gitti."
+    },
+    {
+      "section": "Ferisiler'le Sadukiler'in Mayası"
+    },
+    {
+      "v": 5,
+      "text": "Öğrenciler gölün karşı yakasına geçerken ekmek almayı unutmuşlardı."
+    },
+    {
+      "v": 6,
+      "text": "İsa onlara, “Dikkatli olun, Ferisiler'in ve Sadukiler'in mayasından kaçının!” dedi."
+    },
+    {
+      "v": 7,
+      "text": "Onlar ise kendi aralarında tartışarak, “Ekmek almadığımız için böyle diyor” dediler."
+    },
+    {
+      "v": 8,
+      "text": "Bunun farkında olan İsa şöyle dedi: “Ey kıt imanlılar! Ekmeğiniz yok diye niçin tartışıyorsunuz?"
+    },
+    {
+      "v": 9,
+      "text": "Hâlâ anlamıyor musunuz? Beş ekmekle beş bin kişinin doyduğunu, kaç sepet dolusu yemek fazlası topladığınızı hatırlamıyor musunuz? Yedi ekmekle dört bin kişinin doyduğunu, kaç küfe dolusu yemek fazlası topladığınızı hatırlamıyor musunuz?"
+    },
+    {
+      "v": 11,
+      "text": "Ben size, ‘Ferisiler'in ve Sadukiler'in mayasından kaçının’ derken, ekmekten söz etmediğimi nasıl olur da anlamazsınız?”"
+    },
+    {
+      "v": 12,
+      "text": "Ekmek mayasından değil de, Ferisiler'le Sadukiler'in öğretisinden kaçının dediğini o zaman anladılar."
+    },
+    {
+      "section": "Petrus'un Mesih'i Tanıması"
+    },
+    {
+      "v": 13,
+      "text": "İsa, Filipus Sezariyesi bölgesine geldiğinde öğrencilerine şunu sordu: “Halk, İnsanoğlu'nun kim olduğunu söylüyor?”"
+    },
+    {
+      "v": 14,
+      "text": "Öğrencileri şu karşılığı verdiler: “Kimi Vaftizci Yahya, kimi İlyas, kimi de Yeremya ya da peygamberlerden biridir diyor.”"
+    },
+    {
+      "v": 15,
+      "text": "İsa onlara, “Siz ne dersiniz” dedi, “Sizce ben kimim?”"
+    },
+    {
+      "v": 16,
+      "text": "Simun Petrus, “Sen, yaşayan Tanrı'nın Oğlu Mesih'sin” yanıtını verdi."
+    },
+    {
+      "v": 17,
+      "text": "İsa ona, “Ne mutlu sana, Yunus oğlu Simun!” dedi. “Bu sırrı sana açan insan değil, göklerdeki Babam'dır."
+    },
+    {
+      "v": 18,
+      "text": "Ben de sana şunu söyleyeyim, sen Petrus'sun ve ben kilisemi bu kayanın üzerine kuracağım. Ölüler diyarının kapıları ona karşı direnemeyecek."
+    },
+    {
+      "v": 19,
+      "text": "Göklerin Egemenliği'nin anahtarlarını sana vereceğim. Yeryüzünde bağlayacağın her şey göklerde de bağlanmış olacak; yeryüzünde çözeceğin her şey göklerde de çözülmüş olacak.”"
+    },
+    {
+      "v": 20,
+      "text": "Bu sözlerden sonra İsa, kendisinin Mesih olduğunu kimseye söylememeleri için öğrencilerini uyardı."
+    },
+    {
+      "section": "İsa Ölüp Dirileceğini Önceden Bildiriyor"
+    },
+    {
+      "v": 21,
+      "text": "Bundan sonra İsa, kendisinin Yeruşalim'e gitmesi, ileri gelenler, başkâhinler ve din bilginlerinin elinden çok acı çekmesi, öldürülmesi ve üçüncü gün dirilmesi gerektiğini öğrencilerine anlatmaya başladı."
+    },
+    {
+      "v": 22,
+      "text": "Bunun üzerine Petrus O'nu bir kenara çekip azarlamaya başladı. “Tanrı korusun, ya Rab! Senin başına asla böyle bir şey gelmeyecek!” dedi."
+    },
+    {
+      "v": 23,
+      "text": "Ama İsa Petrus'a dönüp, “Çekil önümden, Şeytan!” dedi, “Bana engel oluyorsun. Düşüncelerin Tanrı'ya değil, insana özgüdür.”"
+    },
+    {
+      "v": 24,
+      "text": "Sonra İsa, öğrencilerine şunları söyledi: “Ardımdan gelmek isteyen kendini inkâr etsin, çarmıhını yüklenip beni izlesin."
+    },
+    {
+      "v": 25,
+      "text": "Canını kurtarmak isteyen onu yitirecek, canını benim uğruma yitiren ise onu kurtaracaktır."
+    },
+    {
+      "v": 26,
+      "text": "İnsan bütün dünyayı kazanıp da canından olursa, bunun kendisine ne yararı olur? İnsan kendi canına karşılık ne verebilir?"
+    },
+    {
+      "v": 27,
+      "text": "İnsanoğlu, Babası'nın görkemi içinde melekleriyle gelecek ve herkese, yaptığının karşılığını verecektir."
+    },
+    {
+      "v": 28,
+      "text": "Size doğrusunu söyleyeyim, burada bulunanlar arasında, İnsanoğlu'nun kendi egemenliği içinde gelişini görmeden ölümü tatmayacak olanlar var.”"
+    }
+  ],
+  "title": "Doğaüstü Bir Belirti İsteniyor"
+}

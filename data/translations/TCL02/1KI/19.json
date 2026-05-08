@@ -1,1 +1,97 @@
-{"t": "TCL02", "b": "1KI", "c": 19, "content": [{"v": 1, "text": "Ahav, İlyas'ın bütün yaptıklarını, peygamberleri nasıl kılıçtan geçirdiğini İzebel'e anlattı."}, {"v": 2, "text": "İzebel, İlyas'a, “Yarın bu saate kadar senin peygamberlere yaptığını ben de sana yapmazsam, ilahlar bana aynısını, hatta daha kötüsünü yapsın” diye haber gönderdi."}, {"v": 3, "text": "İlyas can korkusuyla Yahuda'nın Beer-Şeva Kenti'ne kaçıp uşağını orada bıraktı."}, {"v": 4, "text": "Bir gün boyunca çölde yürüdü, sonunda bir retem çalısının altına oturdu ve ölmek için dua etti: “Ya RAB, yeter artık, canımı al, ben atalarımdan daha iyi değilim.”"}, {"v": 5, "text": "Sonra retem çalısının altına yatıp uykuya daldı. Ansızın bir melek ona dokunarak, “Kalk yemek ye” dedi."}, {"v": 6, "text": "İlyas çevresine bakınca yanıbaşında, kızgın taşların üstünde bir pideyle bir testi su gördü. Yiyip içtikten sonra yine uzandı."}, {"v": 7, "text": "RAB'bin meleği ikinci kez geldi, ona dokunarak, “Kalk yemeğini ye. Gideceğin yol çok uzun” dedi."}, {"v": 8, "text": "İlyas kalktı, yiyip içti. Yediklerinden aldığı güçle kırk gün kırk gece Tanrı Dağı Horev'e kadar yürüdü."}, {"v": 9, "text": "Geceyi orada bulunan bir mağarada geçirdi.   RAB, “Burada ne yapıyorsun, İlyas?” diye sordu."}, {"v": 10, "text": "İlyas, “RAB'be, Her Şeye Egemen Tanrı'ya büyük bir istekle kulluk ettim” diye karşılık verdi, “Ama İsrail halkı senin antlaşmanı reddetti, sunaklarını yıktı ve peygamberlerini kılıçtan geçirdi. Yalnız ben kaldım. Beni de öldürmeye çalışıyorlar.”"}, {"v": 11, "text": "RAB, “Dağa çık ve önümde dur, yanından geçeceğim” dedi.  RAB'bin önünde çok güçlü bir rüzgar dağları yarıp kayaları parçaladı. Ancak RAB rüzgarın içinde değildi. Rüzgarın ardından bir deprem oldu, RAB depremin içinde de değildi."}, {"v": 12, "text": "Depremden sonra bir ateş çıktı, ancak RAB ateşin içinde de değildi. Ateşten sonra ince, yumuşak bir ses duyuldu."}, {"v": 13, "text": "İlyas bu sesi duyunca, cüppesiyle yüzünü örttü, çıkıp mağaranın girişinde durdu.  O sırada bir ses, “Burada ne yapıyorsun, İlyas?” dedi."}, {"v": 14, "text": "İlyas, “RAB'be, Her Şeye Egemen Tanrı'ya büyük bir istekle kulluk ettim” diye karşılık verdi, “Ama İsrail halkı senin antlaşmanı reddetti, sunaklarını yıktı ve peygamberlerini kılıçtan geçirdi. Yalnız ben kaldım. Beni de öldürmeye çalışıyorlar.”"}, {"v": 15, "text": "RAB, “Geldiğin yoldan geri dön, Şam yakınındaki kırlara git” dedi, “Oraya vardığında, Hazael'i Aram Kralı olarak, Nimşi oğlu Yehu'yu İsrail Kralı olarak, Avel-Meholalı Şafat'ın oğlu Elişa'yı da kendi yerine peygamber olarak meshedeceksin."}, {"v": 17, "text": "Hazael'in kılıcından kurtulanı Yehu, Yehu'nun kılıcından kurtulanı Elişa öldürecek."}, {"v": 18, "text": "Ancak İsrail'de Baal'ın önünde diz çöküp onu öpmemiş yedi bin kişiyi sağ bırakacağım.”"}, {"v": 19, "text": "İlyas oradan ayrılıp gitti, Şafat oğlu Elişa'yı buldu. Elişa, on iki çift öküzle saban sürenlerin ardından on ikinci çifti sürüyordu. İlyas Elişa'nın yanından geçerek kendi cüppesini onun üzerine attı."}, {"v": 20, "text": "Elişa öküzleri bırakıp İlyas'ın ardından koştu ve, “İzin ver, annemle babamı öpeyim, sonra seninle geleyim” dedi.  İlyas, “Geri dön, ben sana ne yaptım ki?” diye karşılık verdi."}, {"v": 21, "text": "Böylece Elişa gidip sürdüğü çiftin öküzlerini kesti. Boyunduruklarıyla ateş yakıp etleri pişirdikten sonra, yesinler diye halka dağıttı. Sonra, İlyas'ın ardından gidip ona hizmet etti."}]}
+{
+  "t": "TCL02",
+  "b": "1KI",
+  "c": 19,
+  "content": [
+    {
+      "section": "İlyas'ın Kaçışı"
+    },
+    {
+      "v": 1,
+      "text": "Ahav, İlyas'ın bütün yaptıklarını, peygamberleri nasıl kılıçtan geçirdiğini İzebel'e anlattı."
+    },
+    {
+      "v": 2,
+      "text": "İzebel, İlyas'a, “Yarın bu saate kadar senin peygamberlere yaptığını ben de sana yapmazsam, ilahlar bana aynısını, hatta daha kötüsünü yapsın” diye haber gönderdi."
+    },
+    {
+      "v": 3,
+      "text": "İlyas can korkusuyla Yahuda'nın Beer-Şeva Kenti'ne kaçıp uşağını orada bıraktı."
+    },
+    {
+      "v": 4,
+      "text": "Bir gün boyunca çölde yürüdü, sonunda bir retem çalısının altına oturdu ve ölmek için dua etti: “Ya RAB, yeter artık, canımı al, ben atalarımdan daha iyi değilim.”"
+    },
+    {
+      "v": 5,
+      "text": "Sonra retem çalısının altına yatıp uykuya daldı. Ansızın bir melek ona dokunarak, “Kalk yemek ye” dedi."
+    },
+    {
+      "v": 6,
+      "text": "İlyas çevresine bakınca yanıbaşında, kızgın taşların üstünde bir pideyle bir testi su gördü. Yiyip içtikten sonra yine uzandı."
+    },
+    {
+      "v": 7,
+      "text": "RAB'bin meleği ikinci kez geldi, ona dokunarak, “Kalk yemeğini ye. Gideceğin yol çok uzun” dedi."
+    },
+    {
+      "v": 8,
+      "text": "İlyas kalktı, yiyip içti. Yediklerinden aldığı güçle kırk gün kırk gece Tanrı Dağı Horev'e kadar yürüdü."
+    },
+    {
+      "v": 9,
+      "text": "Geceyi orada bulunan bir mağarada geçirdi.   RAB, “Burada ne yapıyorsun, İlyas?” diye sordu."
+    },
+    {
+      "section": "Rab İlyas'a Görünüyor"
+    },
+    {
+      "v": 10,
+      "text": "İlyas, “RAB'be, Her Şeye Egemen Tanrı'ya büyük bir istekle kulluk ettim” diye karşılık verdi, “Ama İsrail halkı senin antlaşmanı reddetti, sunaklarını yıktı ve peygamberlerini kılıçtan geçirdi. Yalnız ben kaldım. Beni de öldürmeye çalışıyorlar.”"
+    },
+    {
+      "v": 11,
+      "text": "RAB, “Dağa çık ve önümde dur, yanından geçeceğim” dedi.  RAB'bin önünde çok güçlü bir rüzgar dağları yarıp kayaları parçaladı. Ancak RAB rüzgarın içinde değildi. Rüzgarın ardından bir deprem oldu, RAB depremin içinde de değildi."
+    },
+    {
+      "v": 12,
+      "text": "Depremden sonra bir ateş çıktı, ancak RAB ateşin içinde de değildi. Ateşten sonra ince, yumuşak bir ses duyuldu."
+    },
+    {
+      "v": 13,
+      "text": "İlyas bu sesi duyunca, cüppesiyle yüzünü örttü, çıkıp mağaranın girişinde durdu.  O sırada bir ses, “Burada ne yapıyorsun, İlyas?” dedi."
+    },
+    {
+      "v": 14,
+      "text": "İlyas, “RAB'be, Her Şeye Egemen Tanrı'ya büyük bir istekle kulluk ettim” diye karşılık verdi, “Ama İsrail halkı senin antlaşmanı reddetti, sunaklarını yıktı ve peygamberlerini kılıçtan geçirdi. Yalnız ben kaldım. Beni de öldürmeye çalışıyorlar.”"
+    },
+    {
+      "v": 15,
+      "text": "RAB, “Geldiğin yoldan geri dön, Şam yakınındaki kırlara git” dedi, “Oraya vardığında, Hazael'i Aram Kralı olarak, Nimşi oğlu Yehu'yu İsrail Kralı olarak, Avel-Meholalı Şafat'ın oğlu Elişa'yı da kendi yerine peygamber olarak meshedeceksin."
+    },
+    {
+      "v": 17,
+      "text": "Hazael'in kılıcından kurtulanı Yehu, Yehu'nun kılıcından kurtulanı Elişa öldürecek."
+    },
+    {
+      "v": 18,
+      "text": "Ancak İsrail'de Baal'ın önünde diz çöküp onu öpmemiş yedi bin kişiyi sağ bırakacağım.”"
+    },
+    {
+      "section": "Elişa'ya Çağrı"
+    },
+    {
+      "v": 19,
+      "text": "İlyas oradan ayrılıp gitti, Şafat oğlu Elişa'yı buldu. Elişa, on iki çift öküzle saban sürenlerin ardından on ikinci çifti sürüyordu. İlyas Elişa'nın yanından geçerek kendi cüppesini onun üzerine attı."
+    },
+    {
+      "v": 20,
+      "text": "Elişa öküzleri bırakıp İlyas'ın ardından koştu ve, “İzin ver, annemle babamı öpeyim, sonra seninle geleyim” dedi.  İlyas, “Geri dön, ben sana ne yaptım ki?” diye karşılık verdi."
+    },
+    {
+      "v": 21,
+      "text": "Böylece Elişa gidip sürdüğü çiftin öküzlerini kesti. Boyunduruklarıyla ateş yakıp etleri pişirdikten sonra, yesinler diye halka dağıttı. Sonra, İlyas'ın ardından gidip ona hizmet etti."
+    }
+  ],
+  "title": "İlyas'ın Kaçışı"
+}

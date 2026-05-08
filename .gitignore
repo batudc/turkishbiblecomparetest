@@ -26,3 +26,15 @@ temporary screenshots/
 
 # Claude local config
 .claude/
+
+# API keys
+.env
+
+# Build artifacts / logs
+output/
+__pycache__/
+*.pyc
+
+# Rebuilt translation data (intermediate pipeline output)
+data/translations/YYY1987_REBUILT/
+data/translations/_archive/

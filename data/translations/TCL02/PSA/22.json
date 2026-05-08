@@ -1,1 +1,135 @@
-{"t":"TCL02","b":"PSA","c":22,"content":[{"v":1,"text":"Tanrım, Tanrım, beni neden terk ettin? Niçin bana yardım etmekten, Haykırışıma kulak vermekten uzak duruyorsun?"},{"v":2,"text":"Ey Tanrım, gündüz sesleniyorum, yanıt vermiyorsun, Gece sesleniyorum, yine rahat yok bana."},{"v":3,"text":"Oysa sen kutsalsın, İsrail'in övgüleri üzerine taht kuran sensin."},{"v":4,"text":"Sana güvendiler atalarımız, Sana dayandılar, onları kurtardın."},{"v":5,"text":"Sana yakarıp kurtuldular, Sana güvendiler, aldanmadılar."},{"v":6,"text":"Ama ben insan değil, toprak kurduyum, İnsanlar beni küçümsüyor, halk hor görüyor."},{"v":7,"text":"Beni gören herkes alay ediyor, Sırıtıp baş sallayarak diyorlar ki,"},{"v":8,"text":"“Sırtını RAB'be dayadı, kurtarsın bakalım onu, Madem onu seviyor, yardım etsin!”"},{"v":9,"text":"Oysa beni ana rahminden çıkaran, Ana kucağındayken sana güvenmeyi öğreten sensin."},{"v":10,"text":"Doğuşumdan beri sana teslim edildim, Ana rahminden beri Tanrım sensin."},{"v":11,"text":"Benden uzak durma! Çünkü sıkıntı yanıbaşımda, Yardım edecek kimse yok."},{"v":12,"text":"Boğalar kuşatıyor beni, Azgın Başan boğaları sarıyor çevremi."},{"v":13,"text":"Kükreyerek avını parçalayan aslanlar gibi Ağızlarını açıyorlar bana."},{"v":14,"text":"Su gibi dökülüyorum, Bütün kemiklerim oynaklarından çıkıyor; Yüreğim balmumu gibi içimde eriyor."},{"v":15,"text":"Gücüm çömlek parçası gibi kurudu, Dilim damağıma yapışıyor; Beni ölüm toprağına yatırdın."},{"v":16,"text":"Köpekler kuşatıyor beni, Kötüler sürüsü çevremi sarıyor, Ellerimi, ayaklarımı deliyorlar."},{"v":17,"text":"Bütün kemiklerimi sayar oldum, Gözlerini dikmiş, bana bakıyorlar."},{"v":18,"text":"Giysilerimi aralarında paylaşıyor, Elbisem için kura çekiyorlar."},{"v":19,"text":"Ama sen, ya RAB, uzak durma; Ey gücüm benim, yardımıma koş!"},{"v":20,"text":"Canımı kılıçtan, Biricik hayatımı köpeğin pençesinden kurtar!"},{"v":21,"text":"Kurtar beni aslanın ağzından, Yaban öküzlerinin boynuzundan. Yanıt ver bana!"},{"v":22,"text":"Adını kardeşlerime duyurayım, Topluluğun ortasında sana övgüler sunayım:"},{"v":23,"text":"Ey sizler, RAB'den korkanlar, O'na övgüler sunun! Ey Yakup soyu, O'nu yüceltin! Ey İsrail soyu, O'na saygı gösterin!"},{"v":24,"text":"Çünkü O mazlumun çektiği sıkıntıyı hafife almadı, Ondan tiksinmedi, yüz çevirmedi; Kendisini yardıma çağırdığında ona kulak verdi."},{"v":25,"text":"Övgü konum sen olacaksın büyük toplulukta, Senden korkanların önünde yerine getireceğim adaklarımı."},{"v":26,"text":"Yoksullar yiyip doyacak, RAB'be yönelenler O'na övgü sunacak. Sonsuza dek ömrünüz tükenmesin!"},{"v":27,"text":"Yeryüzünün dört bucağı anımsayıp RAB'be dönecek, Ulusların bütün soyları O'nun önünde yere kapanacak."},{"v":28,"text":"Çünkü egemenlik RAB'bindir, Ulusları O yönetir."},{"v":29,"text":"Yeryüzündeki bütün zenginler doyacak Ve O'nun önünde yere kapanacak, Toprağa gidenler, Ölümlerine engel olamayanlar, Eğilecekler O'nun önünde."},{"v":30,"text":"Gelecek kuşaklar O'na kulluk edecek, Rab yeni kuşaklara anlatılacak."},{"v":31,"text":"O'nun kurtarışını, “Rab yaptı bunları” diyerek, Henüz doğmamış bir halka duyuracaklar."}]}
+{
+  "t": "TCL02",
+  "b": "PSA",
+  "c": 22,
+  "content": [
+    {
+      "section": "22. Mezmur"
+    },
+    {
+      "v": 1,
+      "text": "Tanrım, Tanrım, beni neden terk ettin? Niçin bana yardım etmekten, Haykırışıma kulak vermekten uzak duruyorsun?"
+    },
+    {
+      "v": 2,
+      "text": "Ey Tanrım, gündüz sesleniyorum, yanıt vermiyorsun, Gece sesleniyorum, yine rahat yok bana."
+    },
+    {
+      "v": 3,
+      "text": "Oysa sen kutsalsın, İsrail'in övgüleri üzerine taht kuran sensin."
+    },
+    {
+      "v": 4,
+      "text": "Sana güvendiler atalarımız, Sana dayandılar, onları kurtardın."
+    },
+    {
+      "v": 5,
+      "text": "Sana yakarıp kurtuldular, Sana güvendiler, aldanmadılar."
+    },
+    {
+      "v": 6,
+      "text": "Ama ben insan değil, toprak kurduyum, İnsanlar beni küçümsüyor, halk hor görüyor."
+    },
+    {
+      "v": 7,
+      "text": "Beni gören herkes alay ediyor, Sırıtıp baş sallayarak diyorlar ki,"
+    },
+    {
+      "v": 8,
+      "text": "“Sırtını RAB'be dayadı, kurtarsın bakalım onu, Madem onu seviyor, yardım etsin!”"
+    },
+    {
+      "v": 9,
+      "text": "Oysa beni ana rahminden çıkaran, Ana kucağındayken sana güvenmeyi öğreten sensin."
+    },
+    {
+      "v": 10,
+      "text": "Doğuşumdan beri sana teslim edildim, Ana rahminden beri Tanrım sensin."
+    },
+    {
+      "v": 11,
+      "text": "Benden uzak durma! Çünkü sıkıntı yanıbaşımda, Yardım edecek kimse yok."
+    },
+    {
+      "v": 12,
+      "text": "Boğalar kuşatıyor beni, Azgın Başan boğaları sarıyor çevremi."
+    },
+    {
+      "v": 13,
+      "text": "Kükreyerek avını parçalayan aslanlar gibi Ağızlarını açıyorlar bana."
+    },
+    {
+      "v": 14,
+      "text": "Su gibi dökülüyorum, Bütün kemiklerim oynaklarından çıkıyor; Yüreğim balmumu gibi içimde eriyor."
+    },
+    {
+      "v": 15,
+      "text": "Gücüm çömlek parçası gibi kurudu, Dilim damağıma yapışıyor; Beni ölüm toprağına yatırdın."
+    },
+    {
+      "v": 16,
+      "text": "Köpekler kuşatıyor beni, Kötüler sürüsü çevremi sarıyor, Ellerimi, ayaklarımı deliyorlar."
+    },
+    {
+      "v": 17,
+      "text": "Bütün kemiklerimi sayar oldum, Gözlerini dikmiş, bana bakıyorlar."
+    },
+    {
+      "v": 18,
+      "text": "Giysilerimi aralarında paylaşıyor, Elbisem için kura çekiyorlar."
+    },
+    {
+      "v": 19,
+      "text": "Ama sen, ya RAB, uzak durma; Ey gücüm benim, yardımıma koş!"
+    },
+    {
+      "v": 20,
+      "text": "Canımı kılıçtan, Biricik hayatımı köpeğin pençesinden kurtar!"
+    },
+    {
+      "v": 21,
+      "text": "Kurtar beni aslanın ağzından, Yaban öküzlerinin boynuzundan. Yanıt ver bana!"
+    },
+    {
+      "v": 22,
+      "text": "Adını kardeşlerime duyurayım, Topluluğun ortasında sana övgüler sunayım:"
+    },
+    {
+      "v": 23,
+      "text": "Ey sizler, RAB'den korkanlar, O'na övgüler sunun! Ey Yakup soyu, O'nu yüceltin! Ey İsrail soyu, O'na saygı gösterin!"
+    },
+    {
+      "v": 24,
+      "text": "Çünkü O mazlumun çektiği sıkıntıyı hafife almadı, Ondan tiksinmedi, yüz çevirmedi; Kendisini yardıma çağırdığında ona kulak verdi."
+    },
+    {
+      "v": 25,
+      "text": "Övgü konum sen olacaksın büyük toplulukta, Senden korkanların önünde yerine getireceğim adaklarımı."
+    },
+    {
+      "v": 26,
+      "text": "Yoksullar yiyip doyacak, RAB'be yönelenler O'na övgü sunacak. Sonsuza dek ömrünüz tükenmesin!"
+    },
+    {
+      "v": 27,
+      "text": "Yeryüzünün dört bucağı anımsayıp RAB'be dönecek, Ulusların bütün soyları O'nun önünde yere kapanacak."
+    },
+    {
+      "v": 28,
+      "text": "Çünkü egemenlik RAB'bindir, Ulusları O yönetir."
+    },
+    {
+      "v": 29,
+      "text": "Yeryüzündeki bütün zenginler doyacak Ve O'nun önünde yere kapanacak, Toprağa gidenler, Ölümlerine engel olamayanlar, Eğilecekler O'nun önünde."
+    },
+    {
+      "v": 30,
+      "text": "Gelecek kuşaklar O'na kulluk edecek, Rab yeni kuşaklara anlatılacak."
+    },
+    {
+      "v": 31,
+      "text": "O'nun kurtarışını, “Rab yaptı bunları” diyerek, Henüz doğmamış bir halka duyuracaklar."
+    }
+  ],
+  "title": "22. Mezmur"
+}

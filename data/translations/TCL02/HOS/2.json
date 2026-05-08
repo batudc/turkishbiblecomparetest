@@ -1,1 +1,102 @@
-{"t":"TCL02","b":"HOS","c":2,"content":[{"v":1,"text":"“Kardeşlerinizi ‘Halkım’, kızkardeşlerinizi ‘Merhamete ermişler’ diye çağırın.”"},{"v":2,"text":"“Azarlayın annenizi, azarlayın, Çünkü o benim karım değil artık, Ben de onun kocası değilim. Yüzünden akan fahişeliği, Koynundan zinaları atsın."},{"v":3,"text":"Yoksa onu çırılçıplak soyacak, Anneden doğma edeceğim, Çöle, çorak toprağa çevirecek, Susuzluktan öldüreceğim."},{"v":4,"text":"Acımayacağım çocuklarına, Çünkü onlar zina çocuklarıdır."},{"v":5,"text":"Anneleri zina etti, Onlara gebe kaldı, rezillik etti. ‘Oynaşlarımın ardından gideceğim’ dedi, ‘Ekmeğimi, suyumu, yapağımı, ketenimi, zeytinyağımı, içkimi onlar veriyor.’"},{"v":6,"text":"İşte bu yüzden onun yoluna dikenli çit çekeceğim, Yolunu bulamasın diye Önüne duvar öreceğim."},{"v":7,"text":"Oynaşlarının ardına düşecek, Ama onlara erişemeyecek, Onları arayacak, Ama bulamayacak. O zaman, ‘İlk kocama döneyim’ diyecek, ‘Çünkü o zamanki halim şimdikinden iyiydi!’"},{"v":8,"text":"Ama kendisine tahıl, yeni şarap, zeytinyağı verenin, Baal için harcadığı altınla gümüşü bol bol sağlayanın Ben olduğumu bilmedi."},{"v":9,"text":"Bu yüzden zamanında tahılımı, Mevsiminde yeni şarabımı geri alacağım; Çıplak bedenini örten yapağımı, ketenimi çekip alacağım."},{"v":10,"text":"Evet, oynaşlarının önünde ayıbını ortaya çıkaracağım, Kimse elimden kurtaramayacak onu."},{"v":11,"text":"Bütün sevincine, bayramlarına, Yeni Ay törenlerine, Şabat günlerine, Dinsel bayramlarının tümüne son vereceğim."},{"v":12,"text":"Viran edeceğim asmalarını, incir ağaçlarını, Hani, ‘Bunlar oynaşlarımın bana verdiği ücrettir’ dediği; Çalılığa çevireceğim onları, Yem olacaklar yabanıl hayvanlara."},{"v":13,"text":"Cezalandıracağım onu, Baallar'a buhur yaktığı günler için; Halkalarla, takılarla süslenmiş, Oynaşlarının ardınca gitmiş, Beni unutmuştu” Diyor RAB."},{"v":14,"text":"“İşte bu yüzden onu ikna edip çöle götürecek, Onunla dostça konuşacağım."},{"v":15,"text":"Kendisine orada bağlar vereceğim, Akor Vadisi'ni ona umut kapısı yapacağım. Gençlik günlerinde olduğu gibi, Mısır'dan çıktığı günlerde olduğu gibi, Ezgiler söyleyecek."},{"v":16,"text":"Ve o gün gelecek” diyor RAB, “Bana, ‘Kocam’ diyeceksin; Artık, ‘Efendim’ demeyeceksin."},{"v":17,"text":"Ağzından Baallar'ın adını sileceğim, Adları bir daha anılmayacak."},{"v":18,"text":"Kırdaki hayvanlarla, gökteki kuşlarla, Toprakta yaşayan canlılarla, Halkım için o gün antlaşma yapacağım; Ülkeden yayı, kılıcı, savaşı kaldıracağım, Güvenlik içinde yatıracağım onları."},{"v":19,"text":"Seni sonsuza dek kendime eş alacağım, Doğruluk, adalet, sevgi, merhamet temelinde Seninle evleneceğim."},{"v":20,"text":"Sadakatle seninle evleneceğim, RAB'bi tanıyacaksın."},{"v":21,"text":"“Ve o gün yanıt vereceğim” diyor RAB, “Göklere yanıt vereceğim; Onlar da yere yanıt verecek;"},{"v":22,"text":"Yerse, tahıla, yeni şaraba, Zeytinyağına yanıt verecek, Onlar da Yizreel'e yanıt verecekler."},{"v":23,"text":"Onu ülkede kendim için ekeceğim, Merhamete ermemiş olana acıyacağım, Halkım olmayana, ‘Halkımsın’ diyeceğim; Onlar da bana, ‘Tanrım’ diyecekler.”"}]}
+{
+  "t": "TCL02",
+  "b": "HOS",
+  "c": 2,
+  "content": [
+    {
+      "v": 1,
+      "text": "“Kardeşlerinizi ‘Halkım’, kızkardeşlerinizi ‘Merhamete ermişler’ diye çağırın.”"
+    },
+    {
+      "section": "Sadakatsiz İsrail"
+    },
+    {
+      "v": 2,
+      "text": "“Azarlayın annenizi, azarlayın, Çünkü o benim karım değil artık, Ben de onun kocası değilim. Yüzünden akan fahişeliği, Koynundan zinaları atsın."
+    },
+    {
+      "v": 3,
+      "text": "Yoksa onu çırılçıplak soyacak, Anneden doğma edeceğim, Çöle, çorak toprağa çevirecek, Susuzluktan öldüreceğim."
+    },
+    {
+      "v": 4,
+      "text": "Acımayacağım çocuklarına, Çünkü onlar zina çocuklarıdır."
+    },
+    {
+      "v": 5,
+      "text": "Anneleri zina etti, Onlara gebe kaldı, rezillik etti. ‘Oynaşlarımın ardından gideceğim’ dedi, ‘Ekmeğimi, suyumu, yapağımı, ketenimi, zeytinyağımı, içkimi onlar veriyor.’"
+    },
+    {
+      "v": 6,
+      "text": "İşte bu yüzden onun yoluna dikenli çit çekeceğim, Yolunu bulamasın diye Önüne duvar öreceğim."
+    },
+    {
+      "v": 7,
+      "text": "Oynaşlarının ardına düşecek, Ama onlara erişemeyecek, Onları arayacak, Ama bulamayacak. O zaman, ‘İlk kocama döneyim’ diyecek, ‘Çünkü o zamanki halim şimdikinden iyiydi!’"
+    },
+    {
+      "v": 8,
+      "text": "Ama kendisine tahıl, yeni şarap, zeytinyağı verenin, Baal için harcadığı altınla gümüşü bol bol sağlayanın Ben olduğumu bilmedi."
+    },
+    {
+      "v": 9,
+      "text": "Bu yüzden zamanında tahılımı, Mevsiminde yeni şarabımı geri alacağım; Çıplak bedenini örten yapağımı, ketenimi çekip alacağım."
+    },
+    {
+      "v": 10,
+      "text": "Evet, oynaşlarının önünde ayıbını ortaya çıkaracağım, Kimse elimden kurtaramayacak onu."
+    },
+    {
+      "v": 11,
+      "text": "Bütün sevincine, bayramlarına, Yeni Ay törenlerine, Şabat günlerine, Dinsel bayramlarının tümüne son vereceğim."
+    },
+    {
+      "v": 12,
+      "text": "Viran edeceğim asmalarını, incir ağaçlarını, Hani, ‘Bunlar oynaşlarımın bana verdiği ücrettir’ dediği; Çalılığa çevireceğim onları, Yem olacaklar yabanıl hayvanlara."
+    },
+    {
+      "v": 13,
+      "text": "Cezalandıracağım onu, Baallar'a buhur yaktığı günler için; Halkalarla, takılarla süslenmiş, Oynaşlarının ardınca gitmiş, Beni unutmuştu” Diyor RAB."
+    },
+    {
+      "v": 14,
+      "text": "“İşte bu yüzden onu ikna edip çöle götürecek, Onunla dostça konuşacağım."
+    },
+    {
+      "v": 15,
+      "text": "Kendisine orada bağlar vereceğim, Akor Vadisi'ni ona umut kapısı yapacağım. Gençlik günlerinde olduğu gibi, Mısır'dan çıktığı günlerde olduğu gibi, Ezgiler söyleyecek."
+    },
+    {
+      "v": 16,
+      "text": "Ve o gün gelecek” diyor RAB, “Bana, ‘Kocam’ diyeceksin; Artık, ‘Efendim’ demeyeceksin."
+    },
+    {
+      "v": 17,
+      "text": "Ağzından Baallar'ın adını sileceğim, Adları bir daha anılmayacak."
+    },
+    {
+      "v": 18,
+      "text": "Kırdaki hayvanlarla, gökteki kuşlarla, Toprakta yaşayan canlılarla, Halkım için o gün antlaşma yapacağım; Ülkeden yayı, kılıcı, savaşı kaldıracağım, Güvenlik içinde yatıracağım onları."
+    },
+    {
+      "v": 19,
+      "text": "Seni sonsuza dek kendime eş alacağım, Doğruluk, adalet, sevgi, merhamet temelinde Seninle evleneceğim."
+    },
+    {
+      "v": 20,
+      "text": "Sadakatle seninle evleneceğim, RAB'bi tanıyacaksın."
+    },
+    {
+      "v": 21,
+      "text": "“Ve o gün yanıt vereceğim” diyor RAB, “Göklere yanıt vereceğim; Onlar da yere yanıt verecek;"
+    },
+    {
+      "v": 22,
+      "text": "Yerse, tahıla, yeni şaraba, Zeytinyağına yanıt verecek, Onlar da Yizreel'e yanıt verecekler."
+    },
+    {
+      "v": 23,
+      "text": "Onu ülkede kendim için ekeceğim, Merhamete ermemiş olana acıyacağım, Halkım olmayana, ‘Halkımsın’ diyeceğim; Onlar da bana, ‘Tanrım’ diyecekler.”"
+    }
+  ]
+}

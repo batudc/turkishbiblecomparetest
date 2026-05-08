@@ -1,1 +1,35 @@
-{"t":"TCL02","b":"JOB","c":25,"content":[{"v":1,"text":"Şuahlı Bildat şöyle yanıtladı:"},{"v":2,"text":"“Egemenlik ve heybet Tanrı'ya özgüdür, Yüce göklerde düzen kuran O'dur."},{"v":3,"text":"Orduları sayılabilir mi? Işığı kimin üzerine doğmaz?"},{"v":4,"text":"İnsan Tanrı'nın önünde nasıl doğru olabilir? Kadından doğan biri nasıl temiz olabilir?"},{"v":5,"text":"O'nun gözünde ay parlak, Yıldızlar temiz değilse,"},{"v":6,"text":"Nerede kaldı bir kurtçuk olan insan, Bir böcek olan insanoğlu!”"}]}
+{
+  "t": "TCL02",
+  "b": "JOB",
+  "c": 25,
+  "content": [
+    {
+      "section": "Bildat"
+    },
+    {
+      "v": 1,
+      "text": "Şuahlı Bildat şöyle yanıtladı:"
+    },
+    {
+      "v": 2,
+      "text": "“Egemenlik ve heybet Tanrı'ya özgüdür, Yüce göklerde düzen kuran O'dur."
+    },
+    {
+      "v": 3,
+      "text": "Orduları sayılabilir mi? Işığı kimin üzerine doğmaz?"
+    },
+    {
+      "v": 4,
+      "text": "İnsan Tanrı'nın önünde nasıl doğru olabilir? Kadından doğan biri nasıl temiz olabilir?"
+    },
+    {
+      "v": 5,
+      "text": "O'nun gözünde ay parlak, Yıldızlar temiz değilse,"
+    },
+    {
+      "v": 6,
+      "text": "Nerede kaldı bir kurtçuk olan insan, Bir böcek olan insanoğlu!”"
+    }
+  ],
+  "title": "Bildat"
+}

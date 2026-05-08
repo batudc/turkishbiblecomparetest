@@ -1,1 +1,103 @@
-{"t":"TCL02","b":"ROM","c":14,"content":[{"v":1,"text":"İmanı zayıf olanı aranıza kabul edin, ama tartışmalı konulara girmeyin."},{"v":2,"text":"Biri her şeyi yiyebileceğine inanır; imanı zayıf olansa yalnız sebze yer."},{"v":3,"text":"Her şeyi yiyen, yemeyeni hor görmesin. Her şeyi yemeyen, yiyeni yargılamasın. Çünkü Tanrı onu kabul etmiştir."},{"v":4,"text":"Sen kimsin ki, başkasının kulunu yargılıyorsun? Kulu haklı çıkaran da haksız çıkaran da efendisidir. Kul haklı çıkacaktır. Çünkü Rab'bin onu haklı çıkarmaya gücü vardır."},{"v":5,"text":"Kimi bir günü başka bir günden üstün sayar, kimi her günü bir sayar. Herkesin kendi görüşüne tam güveni olsun."},{"v":6,"text":"Belli bir günü kutlayan, Rab için kutlar. Her şeyi yiyen, Tanrı'ya şükrederek Rab için yer. Bazı şeyleri yemeyen de Rab için yemez ve Tanrı'ya şükreder."},{"v":7,"text":"Hiçbirimiz kendimiz için yaşamayız, hiçbirimiz de kendimiz için ölmeyiz."},{"v":8,"text":"Yaşarsak Rab için yaşarız; ölürsek Rab için ölürüz. Öyleyse, yaşasak da ölsek de Rab'be aitiz."},{"v":9,"text":"Mesih hem ölülerin hem yaşayanların Rabbi olmak üzere ölüp dirildi."},{"v":10,"text":"Sen neden kardeşini yargılıyorsun? Ya sen, kardeşini neden küçümsüyorsun? Tanrı'nın yargı kürsüsü önüne hepimiz çıkacağız."},{"v":11,"text":"Yazılmış olduğu gibi: “Rab şöyle diyor: ‘Varlığım hakkı için her diz önümde çökecek, Her dil Tanrı olduğumu açıkça söyleyecek.’ ”"},{"v":12,"text":"Böylece her birimiz kendi adına Tanrı'ya hesap verecektir."},{"v":13,"text":"Onun için, artık birbirimizi yargılamayalım. Bunun yerine, hiçbir kardeşin yoluna sürçme ya da tökezleme taşı koymamaya kararlı olun."},{"v":14,"text":"Rab İsa'ya ait biri olarak kesinlikle biliyorum ki, hiçbir şey kendiliğinden murdar değildir. Ama bir şeyi murdar sayan için o şey murdardır."},{"v":15,"text":"Yediğin bir şey yüzünden kardeşin incinmişse, artık sevgi yolunda yürümüyorsun demektir. Mesih'in, uğruna öldüğü kardeşini yediklerinle mahvetme!"},{"v":16,"text":"Size göre iyi olanın kötülenmesine fırsat vermeyin."},{"v":17,"text":"Çünkü Tanrı'nın Egemenliği, yiyecek içecek sorunu değil, doğruluk, esenlik ve Kutsal Ruh'ta sevinçtir."},{"v":18,"text":"Mesih'e bu yolda hizmet eden, Tanrı'yı hoşnut eder, insanların da beğenisini kazanır."},{"v":19,"text":"Öyleyse kendimizi esenlik getiren ve karşılıklı gelişmemizi sağlayan işlere verelim."},{"v":20,"text":"Yiyecek uğruna Tanrı'nın işini bozma! Her yiyecek temizdir, ama yedikleriyle başkasının sürçmesine yol açan kişi kötülük etmiş olur."},{"v":21,"text":"Et yememen, şarap içmemen, kardeşinin sürçmesine yol açacak bir şey yapmaman iyidir."},{"v":22,"text":"Bu konulardaki inancını Tanrı'nın önünde kendine sakla. Onayladığı şeyden ötürü kendini yargılamayan kişi ne mutludur!"},{"v":23,"text":"Ama bir yiyecekten kuşkulanan kişi onu yerse yargılanır; çünkü imanla yemiyor. İmana dayanmayan her şey günahtır."}]}
+{
+  "t": "TCL02",
+  "b": "ROM",
+  "c": 14,
+  "content": [
+    {
+      "section": "Zayıf İman, Güçlü İman"
+    },
+    {
+      "v": 1,
+      "text": "İmanı zayıf olanı aranıza kabul edin, ama tartışmalı konulara girmeyin."
+    },
+    {
+      "v": 2,
+      "text": "Biri her şeyi yiyebileceğine inanır; imanı zayıf olansa yalnız sebze yer."
+    },
+    {
+      "v": 3,
+      "text": "Her şeyi yiyen, yemeyeni hor görmesin. Her şeyi yemeyen, yiyeni yargılamasın. Çünkü Tanrı onu kabul etmiştir."
+    },
+    {
+      "v": 4,
+      "text": "Sen kimsin ki, başkasının kulunu yargılıyorsun? Kulu haklı çıkaran da haksız çıkaran da efendisidir. Kul haklı çıkacaktır. Çünkü Rab'bin onu haklı çıkarmaya gücü vardır."
+    },
+    {
+      "v": 5,
+      "text": "Kimi bir günü başka bir günden üstün sayar, kimi her günü bir sayar. Herkesin kendi görüşüne tam güveni olsun."
+    },
+    {
+      "v": 6,
+      "text": "Belli bir günü kutlayan, Rab için kutlar. Her şeyi yiyen, Tanrı'ya şükrederek Rab için yer. Bazı şeyleri yemeyen de Rab için yemez ve Tanrı'ya şükreder."
+    },
+    {
+      "v": 7,
+      "text": "Hiçbirimiz kendimiz için yaşamayız, hiçbirimiz de kendimiz için ölmeyiz."
+    },
+    {
+      "v": 8,
+      "text": "Yaşarsak Rab için yaşarız; ölürsek Rab için ölürüz. Öyleyse, yaşasak da ölsek de Rab'be aitiz."
+    },
+    {
+      "v": 9,
+      "text": "Mesih hem ölülerin hem yaşayanların Rabbi olmak üzere ölüp dirildi."
+    },
+    {
+      "v": 10,
+      "text": "Sen neden kardeşini yargılıyorsun? Ya sen, kardeşini neden küçümsüyorsun? Tanrı'nın yargı kürsüsü önüne hepimiz çıkacağız."
+    },
+    {
+      "v": 11,
+      "text": "Yazılmış olduğu gibi: “Rab şöyle diyor: ‘Varlığım hakkı için her diz önümde çökecek, Her dil Tanrı olduğumu açıkça söyleyecek.’ ”"
+    },
+    {
+      "v": 12,
+      "text": "Böylece her birimiz kendi adına Tanrı'ya hesap verecektir."
+    },
+    {
+      "v": 13,
+      "text": "Onun için, artık birbirimizi yargılamayalım. Bunun yerine, hiçbir kardeşin yoluna sürçme ya da tökezleme taşı koymamaya kararlı olun."
+    },
+    {
+      "v": 14,
+      "text": "Rab İsa'ya ait biri olarak kesinlikle biliyorum ki, hiçbir şey kendiliğinden murdar değildir. Ama bir şeyi murdar sayan için o şey murdardır."
+    },
+    {
+      "v": 15,
+      "text": "Yediğin bir şey yüzünden kardeşin incinmişse, artık sevgi yolunda yürümüyorsun demektir. Mesih'in, uğruna öldüğü kardeşini yediklerinle mahvetme!"
+    },
+    {
+      "v": 16,
+      "text": "Size göre iyi olanın kötülenmesine fırsat vermeyin."
+    },
+    {
+      "v": 17,
+      "text": "Çünkü Tanrı'nın Egemenliği, yiyecek içecek sorunu değil, doğruluk, esenlik ve Kutsal Ruh'ta sevinçtir."
+    },
+    {
+      "v": 18,
+      "text": "Mesih'e bu yolda hizmet eden, Tanrı'yı hoşnut eder, insanların da beğenisini kazanır."
+    },
+    {
+      "v": 19,
+      "text": "Öyleyse kendimizi esenlik getiren ve karşılıklı gelişmemizi sağlayan işlere verelim."
+    },
+    {
+      "v": 20,
+      "text": "Yiyecek uğruna Tanrı'nın işini bozma! Her yiyecek temizdir, ama yedikleriyle başkasının sürçmesine yol açan kişi kötülük etmiş olur."
+    },
+    {
+      "v": 21,
+      "text": "Et yememen, şarap içmemen, kardeşinin sürçmesine yol açacak bir şey yapmaman iyidir."
+    },
+    {
+      "v": 22,
+      "text": "Bu konulardaki inancını Tanrı'nın önünde kendine sakla. Onayladığı şeyden ötürü kendini yargılamayan kişi ne mutludur!"
+    },
+    {
+      "v": 23,
+      "text": "Ama bir yiyecekten kuşkulanan kişi onu yerse yargılanır; çünkü imanla yemiyor. İmana dayanmayan her şey günahtır."
+    }
+  ],
+  "title": "Zayıf İman, Güçlü İman"
+}

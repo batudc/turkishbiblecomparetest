@@ -1,1 +1,55 @@
-{"t": "TCL02", "b": "1CO", "c": 5, "content": [{"v": 1, "text": "Aranızda fuhuş olduğu söyleniyor, üstelik putperestler arasında bile rastlanmayan türden bir fuhuş! Biri babasının karısını almış."}, {"v": 2, "text": "Siz hâlâ böbürleniyorsunuz! Oysa yas tutup bu işi yapanı aranızdan atmanız gerekmez miydi?"}, {"v": 3, "text": "Bedence olmasa da ruhça aranızdayım. Bu suçu işleyeni, aranızdaymışım gibi Rabbimiz İsa'nın adıyla zaten yargılamış bulunuyorum. Ben ruhça aranızdayken Rabbimiz İsa'nın gücüyle toplandığınız zaman, bedeninin yok olması için bu adamı Şeytan'a teslim edin ki, Rab İsa'nın gününde ruhu kurtulabilsin."}, {"v": 6, "text": "Övünmeniz yersizdir. Azıcık mayanın bütün hamuru kabarttığını bilmiyor musunuz?"}, {"v": 7, "text": "Yeni bir hamur olabilmek için eski mayadan arınıp temizlenin. Zaten mayasızsınız. Çünkü Fısıh kuzumuz Mesih kurban edildi."}, {"v": 8, "text": "Bunun için eski mayayla –kin ve kötülük mayasıyla– değil, içtenliğin ve dürüstlüğün mayasız ekmeğiyle bayram edelim."}, {"v": 9, "text": "Mektubumda size fuhuş yapanlarla arkadaşlık etmemenizi yazdım."}, {"v": 10, "text": "Kuşkusuz dünyadaki ahlaksızları, açgözlüleri, soyguncuları ya da putperestleri demek istemedim. Öyle olsaydı, dünyadan ayrılmak zorunda kalırdınız!"}, {"v": 11, "text": "Ama şimdi size şunu yazıyorum: Kardeş diye bilinirken fuhuş yapan, açgözlü, putperest, sövücü, ayyaş ya da soyguncu olanla arkadaşlık etmeyin, böyle biriyle yemek bile yemeyin."}, {"v": 12, "text": "İnanlılar topluluğunun dışındakileri yargılamaya benim ne hakkım var? Sizin de yargılamanız gereken kişiler topluluğun içindekiler değil mi?"}, {"v": 13, "text": "Topluluğun dışında kalanları Tanrı yargılar. “Kötü adamı aranızdan kovun!”"}]}
+{
+  "t": "TCL02",
+  "b": "1CO",
+  "c": 5,
+  "content": [
+    {
+      "section": "Topluluğa Düzen Verin"
+    },
+    {
+      "v": 1,
+      "text": "Aranızda fuhuş olduğu söyleniyor, üstelik putperestler arasında bile rastlanmayan türden bir fuhuş! Biri babasının karısını almış."
+    },
+    {
+      "v": 2,
+      "text": "Siz hâlâ böbürleniyorsunuz! Oysa yas tutup bu işi yapanı aranızdan atmanız gerekmez miydi?"
+    },
+    {
+      "v": 3,
+      "text": "Bedence olmasa da ruhça aranızdayım. Bu suçu işleyeni, aranızdaymışım gibi Rabbimiz İsa'nın adıyla zaten yargılamış bulunuyorum. Ben ruhça aranızdayken Rabbimiz İsa'nın gücüyle toplandığınız zaman, bedeninin yok olması için bu adamı Şeytan'a teslim edin ki, Rab İsa'nın gününde ruhu kurtulabilsin."
+    },
+    {
+      "v": 6,
+      "text": "Övünmeniz yersizdir. Azıcık mayanın bütün hamuru kabarttığını bilmiyor musunuz?"
+    },
+    {
+      "v": 7,
+      "text": "Yeni bir hamur olabilmek için eski mayadan arınıp temizlenin. Zaten mayasızsınız. Çünkü Fısıh kuzumuz Mesih kurban edildi."
+    },
+    {
+      "v": 8,
+      "text": "Bunun için eski mayayla –kin ve kötülük mayasıyla– değil, içtenliğin ve dürüstlüğün mayasız ekmeğiyle bayram edelim."
+    },
+    {
+      "v": 9,
+      "text": "Mektubumda size fuhuş yapanlarla arkadaşlık etmemenizi yazdım."
+    },
+    {
+      "v": 10,
+      "text": "Kuşkusuz dünyadaki ahlaksızları, açgözlüleri, soyguncuları ya da putperestleri demek istemedim. Öyle olsaydı, dünyadan ayrılmak zorunda kalırdınız!"
+    },
+    {
+      "v": 11,
+      "text": "Ama şimdi size şunu yazıyorum: Kardeş diye bilinirken fuhuş yapan, açgözlü, putperest, sövücü, ayyaş ya da soyguncu olanla arkadaşlık etmeyin, böyle biriyle yemek bile yemeyin."
+    },
+    {
+      "v": 12,
+      "text": "İnanlılar topluluğunun dışındakileri yargılamaya benim ne hakkım var? Sizin de yargılamanız gereken kişiler topluluğun içindekiler değil mi?"
+    },
+    {
+      "v": 13,
+      "text": "Topluluğun dışında kalanları Tanrı yargılar. “Kötü adamı aranızdan kovun!”"
+    }
+  ],
+  "title": "Topluluğa Düzen Verin"
+}

@@ -1,1 +1,91 @@
-{"t":"TCL02","b":"DEU","c":30,"content":[{"v":1,"text":"“Bütün bu olaylar –önünüze serdiğim kutsama ve lanetler– başınıza geldiğinde, Tanrınız RAB'bin sizi dağıttığı uluslar arasında bunları anımsayacaksınız."},{"v":2,"text":"Bugün size ilettiğim buyruklar uyarınca siz ve çocuklarınız Tanrınız RAB'be döner, bütün yüreğinizle, bütün canınızla O'na uyarsanız,"},{"v":3,"text":"Tanrınız RAB size acıyacak, sizi sürgünden geri getirecek. Sizi dağıttığı ulusların arasından yeniden toplayacak."},{"v":4,"text":"Dünyanın öbür ucuna sürülmüş olsanız bile, Tanrınız RAB sizleri toplayıp geri getirecek."},{"v":5,"text":"Sizi atalarınızın mülk edindiği ülkeye ulaştıracak. Orayı miras alacaksınız. Tanrınız RAB üzerinize iyilik getirecek ve sizi atalarınızdan daha çok çoğaltacak."},{"v":6,"text":"Sizin ve çocuklarınızın yüreğini değiştirecek. Öyle ki, O'nu bütün yüreğinizle, bütün canınızla sevesiniz ve yaşayasınız."},{"v":7,"text":"Tanrınız RAB bütün bu lanetleri sizden nefret edenlerin, size baskı yapan düşmanlarınızın üzerine yağdıracak."},{"v":8,"text":"Siz yine RAB'bin sözüne kulak verecek, bugün size ilettiğim buyrukların hepsine uyacaksınız."},{"v":9,"text":"Tanrınız RAB el attığınız her işte sizi başarılı kılacak; çok sayıda çocuğunuz olacak, hayvanlarınızın yavruları, toprağınızın ürünü bol olacak. RAB atalarınızdan nasıl hoşnut kaldıysa, sizden de öyle hoşnut kalacak ve sizi başarılı kılacak."},{"v":10,"text":"Yeter ki, Tanrınız RAB'bin sözünü dinleyin, bu Yasa Kitabı'nda yazılı buyruklarına, kurallarına uyun ve bütün yüreğinizle, bütün canınızla O'na dönün."},{"v":11,"text":"“Bugün size ilettiğim bu buyruk ne tutamayacağınız kadar zor, ne de ulaşamayacağınız kadar uzaktır."},{"v":12,"text":"O göklerde değil ki, ‘Kim bizim için göğe çıkacak? Kim yerine getirmemiz için onu alıp yayacak?’ diyesiniz."},{"v":13,"text":"Denizin ötesinde değil ki, ‘Kim bizim için denizin ötesine gidecek? Kim yerine getirmemiz için onu alıp yayacak?’ diyesiniz."},{"v":14,"text":"Tanrı sözü size çok yakındır; uymanız için ağzınızda ve yüreğinizdedir."},{"v":15,"text":"“İşte bugün önünüze yaşamla iyiliği, ölümle kötülüğü koyuyorum."},{"v":16,"text":"Bugün size Tanrınız RAB'bi sevmeyi, yollarında yürümeyi, buyruklarına, kurallarına, ilkelerine uymayı buyuruyorum. Öyle ki, yaşayasınız, çoğalasınız ve mülk edinmek için gideceğiniz ülkede Tanrınız RAB tarafından kutsanasınız."},{"v":17,"text":"“Eğer yoldan döner, kulak vermezseniz, ayartılır, başka ilahlara eğilip taparsanız,"},{"v":18,"text":"bugün size kesinlikle yok olacağınızı bildiriyorum. Şeria Irmağı'ndan geçip mülk edinmek için gideceğiniz ülkede uzun yaşamayacaksınız."},{"v":19,"text":"“Önünüze yaşamla ölümü, kutsamayla laneti koyduğuma bugün yeri göğü size karşı tanık gösteriyorum. Yaşamı seçin ki, siz de çocuklarınız da yaşayasınız."},{"v":20,"text":"Tanrınız RAB'bi sevin, sözüne uyup O'na bağlanın. RAB yaşamınızdır; kendilerine vereceğine ilişkin atalarınız İbrahim'e, İshak'a, Yakup'a söz verdiği ülkede uzun yaşamanızı sağlayacaktır.”"}]}
+{
+  "t": "TCL02",
+  "b": "DEU",
+  "c": 30,
+  "content": [
+    {
+      "section": "İyileşmenin ve Kutsanmanın Koşulları"
+    },
+    {
+      "v": 1,
+      "text": "“Bütün bu olaylar –önünüze serdiğim kutsama ve lanetler– başınıza geldiğinde, Tanrınız RAB'bin sizi dağıttığı uluslar arasında bunları anımsayacaksınız."
+    },
+    {
+      "v": 2,
+      "text": "Bugün size ilettiğim buyruklar uyarınca siz ve çocuklarınız Tanrınız RAB'be döner, bütün yüreğinizle, bütün canınızla O'na uyarsanız,"
+    },
+    {
+      "v": 3,
+      "text": "Tanrınız RAB size acıyacak, sizi sürgünden geri getirecek. Sizi dağıttığı ulusların arasından yeniden toplayacak."
+    },
+    {
+      "v": 4,
+      "text": "Dünyanın öbür ucuna sürülmüş olsanız bile, Tanrınız RAB sizleri toplayıp geri getirecek."
+    },
+    {
+      "v": 5,
+      "text": "Sizi atalarınızın mülk edindiği ülkeye ulaştıracak. Orayı miras alacaksınız. Tanrınız RAB üzerinize iyilik getirecek ve sizi atalarınızdan daha çok çoğaltacak."
+    },
+    {
+      "v": 6,
+      "text": "Sizin ve çocuklarınızın yüreğini değiştirecek. Öyle ki, O'nu bütün yüreğinizle, bütün canınızla sevesiniz ve yaşayasınız."
+    },
+    {
+      "v": 7,
+      "text": "Tanrınız RAB bütün bu lanetleri sizden nefret edenlerin, size baskı yapan düşmanlarınızın üzerine yağdıracak."
+    },
+    {
+      "v": 8,
+      "text": "Siz yine RAB'bin sözüne kulak verecek, bugün size ilettiğim buyrukların hepsine uyacaksınız."
+    },
+    {
+      "v": 9,
+      "text": "Tanrınız RAB el attığınız her işte sizi başarılı kılacak; çok sayıda çocuğunuz olacak, hayvanlarınızın yavruları, toprağınızın ürünü bol olacak. RAB atalarınızdan nasıl hoşnut kaldıysa, sizden de öyle hoşnut kalacak ve sizi başarılı kılacak."
+    },
+    {
+      "v": 10,
+      "text": "Yeter ki, Tanrınız RAB'bin sözünü dinleyin, bu Yasa Kitabı'nda yazılı buyruklarına, kurallarına uyun ve bütün yüreğinizle, bütün canınızla O'na dönün."
+    },
+    {
+      "v": 11,
+      "text": "“Bugün size ilettiğim bu buyruk ne tutamayacağınız kadar zor, ne de ulaşamayacağınız kadar uzaktır."
+    },
+    {
+      "v": 12,
+      "text": "O göklerde değil ki, ‘Kim bizim için göğe çıkacak? Kim yerine getirmemiz için onu alıp yayacak?’ diyesiniz."
+    },
+    {
+      "v": 13,
+      "text": "Denizin ötesinde değil ki, ‘Kim bizim için denizin ötesine gidecek? Kim yerine getirmemiz için onu alıp yayacak?’ diyesiniz."
+    },
+    {
+      "v": 14,
+      "text": "Tanrı sözü size çok yakındır; uymanız için ağzınızda ve yüreğinizdedir."
+    },
+    {
+      "v": 15,
+      "text": "“İşte bugün önünüze yaşamla iyiliği, ölümle kötülüğü koyuyorum."
+    },
+    {
+      "v": 16,
+      "text": "Bugün size Tanrınız RAB'bi sevmeyi, yollarında yürümeyi, buyruklarına, kurallarına, ilkelerine uymayı buyuruyorum. Öyle ki, yaşayasınız, çoğalasınız ve mülk edinmek için gideceğiniz ülkede Tanrınız RAB tarafından kutsanasınız."
+    },
+    {
+      "v": 17,
+      "text": "“Eğer yoldan döner, kulak vermezseniz, ayartılır, başka ilahlara eğilip taparsanız,"
+    },
+    {
+      "v": 18,
+      "text": "bugün size kesinlikle yok olacağınızı bildiriyorum. Şeria Irmağı'ndan geçip mülk edinmek için gideceğiniz ülkede uzun yaşamayacaksınız."
+    },
+    {
+      "v": 19,
+      "text": "“Önünüze yaşamla ölümü, kutsamayla laneti koyduğuma bugün yeri göğü size karşı tanık gösteriyorum. Yaşamı seçin ki, siz de çocuklarınız da yaşayasınız."
+    },
+    {
+      "v": 20,
+      "text": "Tanrınız RAB'bi sevin, sözüne uyup O'na bağlanın. RAB yaşamınızdır; kendilerine vereceğine ilişkin atalarınız İbrahim'e, İshak'a, Yakup'a söz verdiği ülkede uzun yaşamanızı sağlayacaktır.”"
+    }
+  ],
+  "title": "İyileşmenin ve Kutsanmanın Koşulları"
+}

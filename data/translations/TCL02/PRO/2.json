@@ -1,1 +1,91 @@
-{"t": "TCL02", "b": "PRO", "c": 2, "content": [{"v": 1, "text": "Oğlum, bilgeliğe kulak verip Yürekten akla yönelerek Sözlerimi kabul eder, Buyruklarımı aklında tutarsan,"}, {"v": 3, "text": "Evet, aklı çağırır, Ona gönülden seslenirsen,"}, {"v": 4, "text": "Gümüş ararcasına onu ararsan, Onu ararsan define arar gibi,"}, {"v": 5, "text": "RAB korkusunu anlar Ve Tanrı'yı yakından tanırsın."}, {"v": 6, "text": "Çünkü bilgeliğin kaynağı RAB'dir. O'nun ağzından bilgi ve anlayış çıkar."}, {"v": 7, "text": "Doğru kişileri başarıya ulaştırır, Kalkanıdır dürüst yaşayanların."}, {"v": 8, "text": "Adil olanların adımlarını korur, Sadık kullarının yolunu gözetir."}, {"v": 9, "text": "O zaman anlarsın her iyi yolu, Neyin doğru, haklı ve adil olduğunu."}, {"v": 10, "text": "Çünkü yüreğin bilgelikle dolacak, Zevk alacaksın bilgiden."}, {"v": 11, "text": "Sağgörü sana bekçilik edecek Ve akıl seni koruyacak."}, {"v": 12, "text": "Bunlar seni kötü yoldan, Ahlaksızın sözlerinden kurtaracak."}, {"v": 13, "text": "Onlar ki karanlık yollarda yürümek için Doğru yoldan ayrılırlar."}, {"v": 14, "text": "Kötülük yapmaktan hoşlanır, Zevk alırlar kötülüğün aşırısından."}, {"v": 15, "text": "Yolları dolambaçlı, Yaşayışları çarpıktır."}, {"v": 16, "text": "Bilgelik, gençken evlendiği eşini terk eden, Tanrı'nın önünde içtiği andı unutan ahlaksız kadından, Sözleriyle yaltaklanan Vefasız kadından seni kurtaracak."}, {"v": 18, "text": "O kadının evi insanı ölüme, Yolları ölülere götürür."}, {"v": 19, "text": "Ona gidenlerden hiçbiri geri dönmez, Yaşam yollarına erişmez."}, {"v": 20, "text": "Bu nedenle sen iyilerin yolunda yürü, Doğruların izinden git."}, {"v": 21, "text": "Çünkü ülkede yaşayacak olan doğrulardır, Dürüst kişilerdir orada kalacak olan."}, {"v": 22, "text": "Kötüler ülkeden sürülecek, Hainler sökülüp atılacak."}]}
+{
+  "t": "TCL02",
+  "b": "PRO",
+  "c": 2,
+  "content": [
+    {
+      "section": "Bilgeliğin Yararları"
+    },
+    {
+      "v": 1,
+      "text": "Oğlum, bilgeliğe kulak verip Yürekten akla yönelerek Sözlerimi kabul eder, Buyruklarımı aklında tutarsan,"
+    },
+    {
+      "v": 3,
+      "text": "Evet, aklı çağırır, Ona gönülden seslenirsen,"
+    },
+    {
+      "v": 4,
+      "text": "Gümüş ararcasına onu ararsan, Onu ararsan define arar gibi,"
+    },
+    {
+      "v": 5,
+      "text": "RAB korkusunu anlar Ve Tanrı'yı yakından tanırsın."
+    },
+    {
+      "v": 6,
+      "text": "Çünkü bilgeliğin kaynağı RAB'dir. O'nun ağzından bilgi ve anlayış çıkar."
+    },
+    {
+      "v": 7,
+      "text": "Doğru kişileri başarıya ulaştırır, Kalkanıdır dürüst yaşayanların."
+    },
+    {
+      "v": 8,
+      "text": "Adil olanların adımlarını korur, Sadık kullarının yolunu gözetir."
+    },
+    {
+      "v": 9,
+      "text": "O zaman anlarsın her iyi yolu, Neyin doğru, haklı ve adil olduğunu."
+    },
+    {
+      "v": 10,
+      "text": "Çünkü yüreğin bilgelikle dolacak, Zevk alacaksın bilgiden."
+    },
+    {
+      "v": 11,
+      "text": "Sağgörü sana bekçilik edecek Ve akıl seni koruyacak."
+    },
+    {
+      "v": 12,
+      "text": "Bunlar seni kötü yoldan, Ahlaksızın sözlerinden kurtaracak."
+    },
+    {
+      "v": 13,
+      "text": "Onlar ki karanlık yollarda yürümek için Doğru yoldan ayrılırlar."
+    },
+    {
+      "v": 14,
+      "text": "Kötülük yapmaktan hoşlanır, Zevk alırlar kötülüğün aşırısından."
+    },
+    {
+      "v": 15,
+      "text": "Yolları dolambaçlı, Yaşayışları çarpıktır."
+    },
+    {
+      "v": 16,
+      "text": "Bilgelik, gençken evlendiği eşini terk eden, Tanrı'nın önünde içtiği andı unutan ahlaksız kadından, Sözleriyle yaltaklanan Vefasız kadından seni kurtaracak."
+    },
+    {
+      "v": 18,
+      "text": "O kadının evi insanı ölüme, Yolları ölülere götürür."
+    },
+    {
+      "v": 19,
+      "text": "Ona gidenlerden hiçbiri geri dönmez, Yaşam yollarına erişmez."
+    },
+    {
+      "v": 20,
+      "text": "Bu nedenle sen iyilerin yolunda yürü, Doğruların izinden git."
+    },
+    {
+      "v": 21,
+      "text": "Çünkü ülkede yaşayacak olan doğrulardır, Dürüst kişilerdir orada kalacak olan."
+    },
+    {
+      "v": 22,
+      "text": "Kötüler ülkeden sürülecek, Hainler sökülüp atılacak."
+    }
+  ],
+  "title": "Bilgeliğin Yararları"
+}

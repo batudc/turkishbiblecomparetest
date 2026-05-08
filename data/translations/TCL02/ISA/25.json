@@ -1,1 +1,65 @@
-{"t":"TCL02","b":"ISA","c":25,"content":[{"v":1,"text":"Ya RAB, sensin benim Tanrım, Seni yüceltir, adını överim. Çünkü sen eskiden beri tasarladığın harikaları Tam bir sadakatle gerçekleştirdin."},{"v":2,"text":"Kenti bir taş yığınına, Surlu kenti viraneye çevirdin. Yabancıların kalesiydi, kent olmaktan çıktı. Bir daha da onarılmayacak."},{"v":3,"text":"Bundan ötürü güçlü uluslar seni onurlandıracak, Acımasız ulusların kentleri senden korkacak."},{"v":4,"text":"Çünkü onların öfkesi Duvara çarpan sağanak gibi yükselince, Sen yoksulun, sıkıntı içindeki düşkünün kalesi, Sağanağa karşı sığınak, Sıcağa karşı gölgelik oldun."},{"v":5,"text":"Yabancıların gürültüsünü çöl sıcağı gibi bastırırsın. Bulutun gölgesi sıcağı nasıl kırarsa, Bu acımasız adamların türküsü de öyle diniyor."},{"v":6,"text":"Her Şeye Egemen RAB bu dağda Bütün uluslara yağlı yemeklerin Ve dinlendirilmiş seçkin şarapların sunulduğu Zengin bir şölen verecek."},{"v":7,"text":"Bütün halkların üzerindeki örtüyü, Bütün ulusların üzerine örülmüş olan örtüyü Bu dağda kaldıracak."},{"v":8,"text":"Ölümü sonsuza dek yutacak. Egemen RAB bütün yüzlerden gözyaşlarını silecek. Halkının utancını bütün yeryüzünden kaldıracak. Çünkü RAB böyle diyor."},{"v":9,"text":"O gün diyecekler ki, “İşte Tanrımız budur; O'na umut bağlamıştık, bizi kurtardı, RAB O'dur, O'na umut bağlamıştık, O'nun kurtarışıyla sevinip coşalım.”"},{"v":10,"text":"RAB'bin eli bu dağın üzerinde kalacak, Ama Moav gübre çukurundaki saman gibi Kendi yerinde çiğnenecek."},{"v":11,"text":"Oracıkta yüzmek isteyen biri gibi ellerini uzatacak, Ama kurnazlığına karşın RAB onun gururunu kıracak."},{"v":12,"text":"RAB surlarındaki yüksek burçları Devirip yıkacak, yerle bir edecek."}]}
+{
+  "t": "TCL02",
+  "b": "ISA",
+  "c": 25,
+  "content": [
+    {
+      "section": "Övgü İlahisi"
+    },
+    {
+      "v": 1,
+      "text": "Ya RAB, sensin benim Tanrım, Seni yüceltir, adını överim. Çünkü sen eskiden beri tasarladığın harikaları Tam bir sadakatle gerçekleştirdin."
+    },
+    {
+      "v": 2,
+      "text": "Kenti bir taş yığınına, Surlu kenti viraneye çevirdin. Yabancıların kalesiydi, kent olmaktan çıktı. Bir daha da onarılmayacak."
+    },
+    {
+      "v": 3,
+      "text": "Bundan ötürü güçlü uluslar seni onurlandıracak, Acımasız ulusların kentleri senden korkacak."
+    },
+    {
+      "v": 4,
+      "text": "Çünkü onların öfkesi Duvara çarpan sağanak gibi yükselince, Sen yoksulun, sıkıntı içindeki düşkünün kalesi, Sağanağa karşı sığınak, Sıcağa karşı gölgelik oldun."
+    },
+    {
+      "v": 5,
+      "text": "Yabancıların gürültüsünü çöl sıcağı gibi bastırırsın. Bulutun gölgesi sıcağı nasıl kırarsa, Bu acımasız adamların türküsü de öyle diniyor."
+    },
+    {
+      "section": "Rab'bin Hazırladığı Şölen"
+    },
+    {
+      "v": 6,
+      "text": "Her Şeye Egemen RAB bu dağda Bütün uluslara yağlı yemeklerin Ve dinlendirilmiş seçkin şarapların sunulduğu Zengin bir şölen verecek."
+    },
+    {
+      "v": 7,
+      "text": "Bütün halkların üzerindeki örtüyü, Bütün ulusların üzerine örülmüş olan örtüyü Bu dağda kaldıracak."
+    },
+    {
+      "v": 8,
+      "text": "Ölümü sonsuza dek yutacak. Egemen RAB bütün yüzlerden gözyaşlarını silecek. Halkının utancını bütün yeryüzünden kaldıracak. Çünkü RAB böyle diyor."
+    },
+    {
+      "v": 9,
+      "text": "O gün diyecekler ki, “İşte Tanrımız budur; O'na umut bağlamıştık, bizi kurtardı, RAB O'dur, O'na umut bağlamıştık, O'nun kurtarışıyla sevinip coşalım.”"
+    },
+    {
+      "section": "Rab Moav'ı Cezalandıracak"
+    },
+    {
+      "v": 10,
+      "text": "RAB'bin eli bu dağın üzerinde kalacak, Ama Moav gübre çukurundaki saman gibi Kendi yerinde çiğnenecek."
+    },
+    {
+      "v": 11,
+      "text": "Oracıkta yüzmek isteyen biri gibi ellerini uzatacak, Ama kurnazlığına karşın RAB onun gururunu kıracak."
+    },
+    {
+      "v": 12,
+      "text": "RAB surlarındaki yüksek burçları Devirip yıkacak, yerle bir edecek."
+    }
+  ],
+  "title": "Övgü İlahisi"
+}

@@ -1,1 +1,82 @@
-{"t":"TCL02","b":"2CH","c":1,"content":[{"v":1,"text":"Davut oğlu Süleyman krallığını sağlamlaştırdı. Çünkü Tanrısı RAB onunlaydı ve onu çok yüceltti."},{"v":2,"text":"Süleyman bütün İsrailliler'i –binbaşıları, yüzbaşıları, yargıçları, İsrail'in boy başları olan önderleri– çağırttı."},{"v":3,"text":"Sonra bütün toplulukla birlikte Givon'daki tapınma yerine gitti. Çünkü RAB'bin kulu Musa'nın çölde yaptığı Tanrı'yla Buluşma Çadırı oradaydı."},{"v":4,"text":"Ancak Davut Tanrı'nın Antlaşma Sandığı'nı Kiryat-Yearim'den getirip Yeruşalim'de hazırladığı çadıra koymuştu."},{"v":5,"text":"Hur oğlu Uri oğlu Besalel'in yaptığı tunç sunağı da Givon'da RAB'bin Konutu'nun önüne yerleştirmişti. Süleyman'la topluluk orada RAB'be danıştılar."},{"v":6,"text":"Süleyman RAB'bin önüne, Buluşma Çadırı'nın önündeki tunç sunağa çıkarak üzerinde bin yakmalık sunu sundu."},{"v":7,"text":"Tanrı o gece Süleyman'a görünüp, “Sana ne vermemi istersin?” diye sordu."},{"v":8,"text":"Süleyman, “Babam Davut'a büyük iyilikler yaptın” diye karşılık verdi, “Beni de onun yerine kral atadın."},{"v":9,"text":"Ya RAB Tanrı, babam Davut'a verdiğin söz yerine gelsin! Beni yeryüzünün tozu kadar çok olan bir halkın kralı yaptın."},{"v":10,"text":"Şimdi bu halkı yönetebilmem için bana bilgi ve bilgelik ver. Başka türlü senin bu büyük halkını kim yönetebilir!”"},{"v":11,"text":"Tanrı Süleyman'a, “Demek yüreğinin dileği bu” dedi, “Zenginlik, mal mülk, onur ya da senden nefret edenlerin ölümünü istemedin, kendin için uzun ömür de istemedin. Bunların yerine seni başına kral yaptığım halkımı yönetmek için bilgi ve bilgelik istedin."},{"v":12,"text":"Sana bilgi ve bilgelik verilecektir. Sana ayrıca öyle bir zenginlik, mal mülk ve onur vereceğim ki, benzeri ne senden önceki krallarda görülmüştür, ne de senden sonrakilerde görülecektir.”"},{"v":13,"text":"Bundan sonra Süleyman Givon'daki tapınma yerinden, Buluşma Çadırı'ndan ayrılıp Yeruşalim'e gitti. İsrail'i oradan yönetti."},{"v":14,"text":"Kral Süleyman savaş arabalarıyla atlarını topladı. Bin dört yüz savaş arabası, on iki bin atı vardı. Bunların bir kısmını savaş arabaları için ayrılan kentlere, bir kısmını da kendi yanına, Yeruşalim'e yerleştirdi."},{"v":15,"text":"Krallığı döneminde Yeruşalim'de altın ve gümüş taş değerine düştü. Sedir ağaçları Şefela'daki yabanıl incir ağaçları kadar bollaştı."},{"v":16,"text":"Süleyman'ın atları Mısır ve Keve'den getirilirdi. Kralın tüccarları atları Keve'den satın alırdı."},{"v":17,"text":"Mısır'dan bir savaş arabası altı yüz, bir at yüz elli şekel gümüşe getirilirdi. Bunları bütün Hitit ve Aram krallarına satarlardı."}]}
+{
+  "t": "TCL02",
+  "b": "2CH",
+  "c": 1,
+  "content": [
+    {
+      "section": "Süleyman Bilgelik Diliyor"
+    },
+    {
+      "v": 1,
+      "text": "Davut oğlu Süleyman krallığını sağlamlaştırdı. Çünkü Tanrısı RAB onunlaydı ve onu çok yüceltti."
+    },
+    {
+      "v": 2,
+      "text": "Süleyman bütün İsrailliler'i –binbaşıları, yüzbaşıları, yargıçları, İsrail'in boy başları olan önderleri– çağırttı."
+    },
+    {
+      "v": 3,
+      "text": "Sonra bütün toplulukla birlikte Givon'daki tapınma yerine gitti. Çünkü RAB'bin kulu Musa'nın çölde yaptığı Tanrı'yla Buluşma Çadırı oradaydı."
+    },
+    {
+      "v": 4,
+      "text": "Ancak Davut Tanrı'nın Antlaşma Sandığı'nı Kiryat-Yearim'den getirip Yeruşalim'de hazırladığı çadıra koymuştu."
+    },
+    {
+      "v": 5,
+      "text": "Hur oğlu Uri oğlu Besalel'in yaptığı tunç sunağı da Givon'da RAB'bin Konutu'nun önüne yerleştirmişti. Süleyman'la topluluk orada RAB'be danıştılar."
+    },
+    {
+      "v": 6,
+      "text": "Süleyman RAB'bin önüne, Buluşma Çadırı'nın önündeki tunç sunağa çıkarak üzerinde bin yakmalık sunu sundu."
+    },
+    {
+      "v": 7,
+      "text": "Tanrı o gece Süleyman'a görünüp, “Sana ne vermemi istersin?” diye sordu."
+    },
+    {
+      "v": 8,
+      "text": "Süleyman, “Babam Davut'a büyük iyilikler yaptın” diye karşılık verdi, “Beni de onun yerine kral atadın."
+    },
+    {
+      "v": 9,
+      "text": "Ya RAB Tanrı, babam Davut'a verdiğin söz yerine gelsin! Beni yeryüzünün tozu kadar çok olan bir halkın kralı yaptın."
+    },
+    {
+      "v": 10,
+      "text": "Şimdi bu halkı yönetebilmem için bana bilgi ve bilgelik ver. Başka türlü senin bu büyük halkını kim yönetebilir!”"
+    },
+    {
+      "v": 11,
+      "text": "Tanrı Süleyman'a, “Demek yüreğinin dileği bu” dedi, “Zenginlik, mal mülk, onur ya da senden nefret edenlerin ölümünü istemedin, kendin için uzun ömür de istemedin. Bunların yerine seni başına kral yaptığım halkımı yönetmek için bilgi ve bilgelik istedin."
+    },
+    {
+      "v": 12,
+      "text": "Sana bilgi ve bilgelik verilecektir. Sana ayrıca öyle bir zenginlik, mal mülk ve onur vereceğim ki, benzeri ne senden önceki krallarda görülmüştür, ne de senden sonrakilerde görülecektir.”"
+    },
+    {
+      "section": "Süleyman'ın Gücü ve Zenginliği"
+    },
+    {
+      "v": 13,
+      "text": "Bundan sonra Süleyman Givon'daki tapınma yerinden, Buluşma Çadırı'ndan ayrılıp Yeruşalim'e gitti. İsrail'i oradan yönetti."
+    },
+    {
+      "v": 14,
+      "text": "Kral Süleyman savaş arabalarıyla atlarını topladı. Bin dört yüz savaş arabası, on iki bin atı vardı. Bunların bir kısmını savaş arabaları için ayrılan kentlere, bir kısmını da kendi yanına, Yeruşalim'e yerleştirdi."
+    },
+    {
+      "v": 15,
+      "text": "Krallığı döneminde Yeruşalim'de altın ve gümüş taş değerine düştü. Sedir ağaçları Şefela'daki yabanıl incir ağaçları kadar bollaştı."
+    },
+    {
+      "v": 16,
+      "text": "Süleyman'ın atları Mısır ve Keve'den getirilirdi. Kralın tüccarları atları Keve'den satın alırdı."
+    },
+    {
+      "v": 17,
+      "text": "Mısır'dan bir savaş arabası altı yüz, bir at yüz elli şekel gümüşe getirilirdi. Bunları bütün Hitit ve Aram krallarına satarlardı."
+    }
+  ],
+  "title": "Süleyman Bilgelik Diliyor"
+}

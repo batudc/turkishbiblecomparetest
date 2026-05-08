@@ -1,1 +1,105 @@
-{"t":"TCL02","b":"REV","c":3,"content":[{"v":1,"text":"“Sart'taki kilisenin meleğine yaz. Tanrı'nın yedi ruhuna ve yedi yıldıza sahip olan şöyle diyor: ‘Yaptıklarını biliyorum. Yaşıyorsun diye ad yapmışsın, ama ölüsün."},{"v":2,"text":"Uyan! Geriye kalan ve ölmek üzere olan ne varsa güçlendir. Çünkü yaptıklarının Tanrım'ın önünde tamamlanmamış olduğunu gördüm."},{"v":3,"text":"Bu nedenle neler aldığını, neler işittiğini anımsa. Bunları yerine getir, tövbe et! Eğer uyanmazsan, hırsız gibi geleceğim. Hangi saatte geleceğimi hiç bilemeyeceksin."},{"v":4,"text":"Ama Sart'ta, aranızda giysilerini lekelememiş birkaç kişi var ki, beyazlar içinde benimle birlikte yürüyecekler. Çünkü buna layıktırlar."},{"v":5,"text":"Galip gelen böylece beyaz giysiler giyecek. Onun adını yaşam kitabından hiç silmeyeceğim. Babam'ın ve meleklerinin önünde o kişinin adını açıkça anacağım."},{"v":6,"text":"Kulağı olan, Ruh'un kiliselere ne dediğini işitsin.’ ”"},{"v":7,"text":"“Filadelfya'daki kilisenin meleğine yaz. Kutsal ve gerçek olan, Davut'un anahtarına sahip olan, açtığını kimsenin kapayamadığı, kapadığını kimsenin açamadığı kişi şöyle diyor:"},{"v":8,"text":"‘Yaptıklarını biliyorum. İşte önüne kimsenin kapayamayacağı açık bir kapı koydum. Gücünün az olduğunu biliyorum; yine de sözüme uydun, adımı yadsımadın."},{"v":9,"text":"Bak, Şeytan'ın havrasından olanları, Yahudi olmadıkları halde Yahudi olduklarını ileri süren yalancıları öyle edeceğim ki, gelip ayaklarına kapanacak, benim seni sevdiğimi anlayacaklar."},{"v":10,"text":"Sözüme uyarak sabırla dayandın. Ben de yeryüzünde yaşayanları denemek için bütün dünyanın üzerine gelecek olan denenme saatinden seni esirgeyeceğim."},{"v":11,"text":"Tez geliyorum. Tacını kimse elinden almasın diye sahip olduğuna sımsıkı sarıl."},{"v":12,"text":"Galip geleni Tanrım'ın Tapınağı'nda sütun yapacağım. Böyle biri artık oradan hiç ayrılmayacak. Onun üzerine Tanrım'ın adını, Tanrım'a ait kentin –gökten Tanrım'ın yanından inen yeni Yeruşalim'in– adını ve benim yeni adımı yazacağım."},{"v":13,"text":"Kulağı olan, Ruh'un kiliselere ne dediğini işitsin.’ ”"},{"v":14,"text":"“Laodikya'daki kilisenin meleğine yaz. Amin, sadık ve gerçek tanık, Tanrı yaratılışının kaynağı şöyle diyor:"},{"v":15,"text":"‘Yaptıklarını biliyorum. Ne soğuksun, ne sıcak. Keşke ya soğuk ya sıcak olsaydın!"},{"v":16,"text":"Oysa ne sıcak ne soğuksun, ılıksın. Bu yüzden seni ağzımdan kusacağım."},{"v":17,"text":"Zenginim, zenginleştim, hiçbir şeye gereksinmem yok diyorsun; ama zavallı, acınacak durumda, yoksul, kör ve çıplak olduğunu bilmiyorsun."},{"v":18,"text":"Zengin olmak için benden ateşte arıtılmış altın, giyinip çıplaklığının ayıbını örtmek için beyaz giysiler, görmek için gözlerine sürmek üzere merhem satın almanı salık veriyorum."},{"v":19,"text":"Ben sevdiklerimi azarlayıp terbiye ederim. Onun için gayrete gel, tövbe et."},{"v":20,"text":"İşte kapıda durmuş, kapıyı çalıyorum. Biri sesimi işitir ve kapıyı açarsa, onun yanına gireceğim; ben onunla, o da benimle, birlikte yemek yiyeceğiz."},{"v":21,"text":"Ben nasıl galip gelerek Babam'la birlikte Babam'ın tahtına oturdumsa, galip gelene de benimle birlikte tahtıma oturma hakkını vereceğim."},{"v":22,"text":"Kulağı olan, Ruh'un kiliselere ne dediğini işitsin.’ ”"}]}
+{
+  "t": "TCL02",
+  "b": "REV",
+  "c": 3,
+  "content": [
+    {
+      "section": "Sart'taki Kiliseye"
+    },
+    {
+      "v": 1,
+      "text": "“Sart'taki kilisenin meleğine yaz. Tanrı'nın yedi ruhuna ve yedi yıldıza sahip olan şöyle diyor: ‘Yaptıklarını biliyorum. Yaşıyorsun diye ad yapmışsın, ama ölüsün."
+    },
+    {
+      "v": 2,
+      "text": "Uyan! Geriye kalan ve ölmek üzere olan ne varsa güçlendir. Çünkü yaptıklarının Tanrım'ın önünde tamamlanmamış olduğunu gördüm."
+    },
+    {
+      "v": 3,
+      "text": "Bu nedenle neler aldığını, neler işittiğini anımsa. Bunları yerine getir, tövbe et! Eğer uyanmazsan, hırsız gibi geleceğim. Hangi saatte geleceğimi hiç bilemeyeceksin."
+    },
+    {
+      "v": 4,
+      "text": "Ama Sart'ta, aranızda giysilerini lekelememiş birkaç kişi var ki, beyazlar içinde benimle birlikte yürüyecekler. Çünkü buna layıktırlar."
+    },
+    {
+      "v": 5,
+      "text": "Galip gelen böylece beyaz giysiler giyecek. Onun adını yaşam kitabından hiç silmeyeceğim. Babam'ın ve meleklerinin önünde o kişinin adını açıkça anacağım."
+    },
+    {
+      "v": 6,
+      "text": "Kulağı olan, Ruh'un kiliselere ne dediğini işitsin.’ ”"
+    },
+    {
+      "section": "Filadelfya'daki Kiliseye"
+    },
+    {
+      "v": 7,
+      "text": "“Filadelfya'daki kilisenin meleğine yaz. Kutsal ve gerçek olan, Davut'un anahtarına sahip olan, açtığını kimsenin kapayamadığı, kapadığını kimsenin açamadığı kişi şöyle diyor:"
+    },
+    {
+      "v": 8,
+      "text": "‘Yaptıklarını biliyorum. İşte önüne kimsenin kapayamayacağı açık bir kapı koydum. Gücünün az olduğunu biliyorum; yine de sözüme uydun, adımı yadsımadın."
+    },
+    {
+      "v": 9,
+      "text": "Bak, Şeytan'ın havrasından olanları, Yahudi olmadıkları halde Yahudi olduklarını ileri süren yalancıları öyle edeceğim ki, gelip ayaklarına kapanacak, benim seni sevdiğimi anlayacaklar."
+    },
+    {
+      "v": 10,
+      "text": "Sözüme uyarak sabırla dayandın. Ben de yeryüzünde yaşayanları denemek için bütün dünyanın üzerine gelecek olan denenme saatinden seni esirgeyeceğim."
+    },
+    {
+      "v": 11,
+      "text": "Tez geliyorum. Tacını kimse elinden almasın diye sahip olduğuna sımsıkı sarıl."
+    },
+    {
+      "v": 12,
+      "text": "Galip geleni Tanrım'ın Tapınağı'nda sütun yapacağım. Böyle biri artık oradan hiç ayrılmayacak. Onun üzerine Tanrım'ın adını, Tanrım'a ait kentin –gökten Tanrım'ın yanından inen yeni Yeruşalim'in– adını ve benim yeni adımı yazacağım."
+    },
+    {
+      "v": 13,
+      "text": "Kulağı olan, Ruh'un kiliselere ne dediğini işitsin.’ ”"
+    },
+    {
+      "section": "Laodikya'daki Kiliseye"
+    },
+    {
+      "v": 14,
+      "text": "“Laodikya'daki kilisenin meleğine yaz. Amin, sadık ve gerçek tanık, Tanrı yaratılışının kaynağı şöyle diyor:"
+    },
+    {
+      "v": 15,
+      "text": "‘Yaptıklarını biliyorum. Ne soğuksun, ne sıcak. Keşke ya soğuk ya sıcak olsaydın!"
+    },
+    {
+      "v": 16,
+      "text": "Oysa ne sıcak ne soğuksun, ılıksın. Bu yüzden seni ağzımdan kusacağım."
+    },
+    {
+      "v": 17,
+      "text": "Zenginim, zenginleştim, hiçbir şeye gereksinmem yok diyorsun; ama zavallı, acınacak durumda, yoksul, kör ve çıplak olduğunu bilmiyorsun."
+    },
+    {
+      "v": 18,
+      "text": "Zengin olmak için benden ateşte arıtılmış altın, giyinip çıplaklığının ayıbını örtmek için beyaz giysiler, görmek için gözlerine sürmek üzere merhem satın almanı salık veriyorum."
+    },
+    {
+      "v": 19,
+      "text": "Ben sevdiklerimi azarlayıp terbiye ederim. Onun için gayrete gel, tövbe et."
+    },
+    {
+      "v": 20,
+      "text": "İşte kapıda durmuş, kapıyı çalıyorum. Biri sesimi işitir ve kapıyı açarsa, onun yanına gireceğim; ben onunla, o da benimle, birlikte yemek yiyeceğiz."
+    },
+    {
+      "v": 21,
+      "text": "Ben nasıl galip gelerek Babam'la birlikte Babam'ın tahtına oturdumsa, galip gelene de benimle birlikte tahtıma oturma hakkını vereceğim."
+    },
+    {
+      "v": 22,
+      "text": "Kulağı olan, Ruh'un kiliselere ne dediğini işitsin.’ ”"
+    }
+  ],
+  "title": "Sart'taki Kiliseye"
+}

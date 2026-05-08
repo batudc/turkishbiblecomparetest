@@ -1,1 +1,86 @@
-{"t":"TCL02","b":"JOS","c":1,"content":[{"v":1,"text":"RAB, kulu Musa'nın ölümünden sonra onun yardımcısı Nun oğlu Yeşu'ya şöyle seslendi:"},{"v":2,"text":"“Kulum Musa öldü. Şimdi kalk, bütün halkla birlikte Şeria Irmağı'nı geç. Size, İsrail halkına vereceğim ülkeye girin."},{"v":3,"text":"Musa'ya söylediğim gibi, ayak basacağınız her yeri size veriyorum."},{"v":4,"text":"Sınırlarınız çölden Lübnan'a, büyük Fırat Irmağı'ndan –bütün Hitit ülkesi dahil– batıdaki Akdeniz'e kadar uzanacak."},{"v":5,"text":"Yaşamın boyunca hiç kimse sana karşı koyamayacak; nasıl Musa ile birlikte oldumsa, seninle de birlikte olacağım. Seni terk etmeyeceğim, seni yüzüstü bırakmayacağım."},{"v":6,"text":"“Güçlü ve yürekli ol. Çünkü halkı, atalarına vereceğime ant içtiğim ülkeyi miras almaya sen götüreceksin."},{"v":7,"text":"Yeter ki, güçlü ve yürekli ol. Kulum Musa'nın sana buyurduğu Kutsal Yasa'nın tümünü yerine getirmeye dikkat et. Gittiğin her yerde başarılı olmak için bu yasadan ayrılma, sağa sola sapma."},{"v":8,"text":"Yasa Kitabı'nda yazılanları dilinden düşürme. Tümünü özenle yerine getirmek için gece gündüz onu düşün. O zaman başarılı olacak ve amacına ulaşacaksın."},{"v":9,"text":"Sana güçlü ve yürekli ol demedim mi? Korkma, yılma. Çünkü Tanrın RAB gideceğin her yerde seninle birlikte olacak.”"},{"v":10,"text":"Bunun üzerine Yeşu, halkın görevlilerine şöyle buyurdu:"},{"v":11,"text":"“Ordugahın ortasından geçip halka şu buyruğu verin: ‘Kendinize kumanya hazırlayın. Çünkü Tanrınız RAB'bin size vereceği ülkeye girip orayı mülk edinmek için üç gün sonra Şeria Irmağı'nı geçeceksiniz.’ ”"},{"v":12,"text":"Yeşu, Ruben ve Gad oymaklarına ve Manaşşe oymağının yarısına da şöyle dedi:"},{"v":13,"text":"“RAB'bin kulu Musa'nın, ‘Tanrınız RAB bu ülkeyi size verip sizi rahata erdirecek’ dediğini anımsayın."},{"v":14,"text":"Kadınlarınız, çocuklarınız ve hayvanlarınız Şeria Irmağı'nın doğusunda, Musa'nın size verdiği topraklarda kalsın. Ama sizler, bütün yiğit savaşçılar, silahlı olarak kardeşlerinizden önce ırmağı geçip onlara yardım edin."},{"v":15,"text":"RAB sizi rahata erdirdiği gibi, onları da rahata erdirecek. Onlar Tanrınız RAB'bin vereceği ülkeyi mülk edindikten sonra siz de mülk edindiğiniz topraklara, RAB'bin kulu Musa'nın Şeria Irmağı'nın doğusunda size verdiği topraklara dönüp oraya yerleşin.”"},{"v":16,"text":"Önderler Yeşu'ya, “Bize ne buyurduysan yapacağız” diye karşılık verdiler, “Bizi nereye gönderirsen gideceğiz."},{"v":17,"text":"Her durumda Musa'nın sözünü dinlediğimiz gibi, senin sözünü de dinleyeceğiz. Yeter ki, Musa'yla birlikte olmuş olan Tanrın RAB seninle de birlikte olsun."},{"v":18,"text":"Sözünü dinlemeyen, buyruklarına karşı gelip başkaldıran ölümle cezalandırılacaktır. Yeter ki, sen güçlü ve yürekli ol.”"}]}
+{
+  "t": "TCL02",
+  "b": "JOS",
+  "c": 1,
+  "content": [
+    {
+      "section": "Rab'bin Yeşu'ya Buyruğu"
+    },
+    {
+      "v": 1,
+      "text": "RAB, kulu Musa'nın ölümünden sonra onun yardımcısı Nun oğlu Yeşu'ya şöyle seslendi:"
+    },
+    {
+      "v": 2,
+      "text": "“Kulum Musa öldü. Şimdi kalk, bütün halkla birlikte Şeria Irmağı'nı geç. Size, İsrail halkına vereceğim ülkeye girin."
+    },
+    {
+      "v": 3,
+      "text": "Musa'ya söylediğim gibi, ayak basacağınız her yeri size veriyorum."
+    },
+    {
+      "v": 4,
+      "text": "Sınırlarınız çölden Lübnan'a, büyük Fırat Irmağı'ndan –bütün Hitit ülkesi dahil– batıdaki Akdeniz'e kadar uzanacak."
+    },
+    {
+      "v": 5,
+      "text": "Yaşamın boyunca hiç kimse sana karşı koyamayacak; nasıl Musa ile birlikte oldumsa, seninle de birlikte olacağım. Seni terk etmeyeceğim, seni yüzüstü bırakmayacağım."
+    },
+    {
+      "v": 6,
+      "text": "“Güçlü ve yürekli ol. Çünkü halkı, atalarına vereceğime ant içtiğim ülkeyi miras almaya sen götüreceksin."
+    },
+    {
+      "v": 7,
+      "text": "Yeter ki, güçlü ve yürekli ol. Kulum Musa'nın sana buyurduğu Kutsal Yasa'nın tümünü yerine getirmeye dikkat et. Gittiğin her yerde başarılı olmak için bu yasadan ayrılma, sağa sola sapma."
+    },
+    {
+      "v": 8,
+      "text": "Yasa Kitabı'nda yazılanları dilinden düşürme. Tümünü özenle yerine getirmek için gece gündüz onu düşün. O zaman başarılı olacak ve amacına ulaşacaksın."
+    },
+    {
+      "v": 9,
+      "text": "Sana güçlü ve yürekli ol demedim mi? Korkma, yılma. Çünkü Tanrın RAB gideceğin her yerde seninle birlikte olacak.”"
+    },
+    {
+      "section": "Yeşu'nun Halka Buyruğu"
+    },
+    {
+      "v": 10,
+      "text": "Bunun üzerine Yeşu, halkın görevlilerine şöyle buyurdu:"
+    },
+    {
+      "v": 11,
+      "text": "“Ordugahın ortasından geçip halka şu buyruğu verin: ‘Kendinize kumanya hazırlayın. Çünkü Tanrınız RAB'bin size vereceği ülkeye girip orayı mülk edinmek için üç gün sonra Şeria Irmağı'nı geçeceksiniz.’ ”"
+    },
+    {
+      "v": 12,
+      "text": "Yeşu, Ruben ve Gad oymaklarına ve Manaşşe oymağının yarısına da şöyle dedi:"
+    },
+    {
+      "v": 13,
+      "text": "“RAB'bin kulu Musa'nın, ‘Tanrınız RAB bu ülkeyi size verip sizi rahata erdirecek’ dediğini anımsayın."
+    },
+    {
+      "v": 14,
+      "text": "Kadınlarınız, çocuklarınız ve hayvanlarınız Şeria Irmağı'nın doğusunda, Musa'nın size verdiği topraklarda kalsın. Ama sizler, bütün yiğit savaşçılar, silahlı olarak kardeşlerinizden önce ırmağı geçip onlara yardım edin."
+    },
+    {
+      "v": 15,
+      "text": "RAB sizi rahata erdirdiği gibi, onları da rahata erdirecek. Onlar Tanrınız RAB'bin vereceği ülkeyi mülk edindikten sonra siz de mülk edindiğiniz topraklara, RAB'bin kulu Musa'nın Şeria Irmağı'nın doğusunda size verdiği topraklara dönüp oraya yerleşin.”"
+    },
+    {
+      "v": 16,
+      "text": "Önderler Yeşu'ya, “Bize ne buyurduysan yapacağız” diye karşılık verdiler, “Bizi nereye gönderirsen gideceğiz."
+    },
+    {
+      "v": 17,
+      "text": "Her durumda Musa'nın sözünü dinlediğimiz gibi, senin sözünü de dinleyeceğiz. Yeter ki, Musa'yla birlikte olmuş olan Tanrın RAB seninle de birlikte olsun."
+    },
+    {
+      "v": 18,
+      "text": "Sözünü dinlemeyen, buyruklarına karşı gelip başkaldıran ölümle cezalandırılacaktır. Yeter ki, sen güçlü ve yürekli ol.”"
+    }
+  ],
+  "title": "Rab'bin Yeşu'ya Buyruğu"
+}

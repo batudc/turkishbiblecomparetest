@@ -1,1 +1,183 @@
-{"t":"TCL02","b":"PRO","c":24,"content":[{"v":1,"text":"Kötülere imrenme, Onlarla birlikte olmayı isteme."},{"v":2,"text":"Çünkü yürekleri zorbalık tasarlar, Dudakları belalardan söz eder."},{"v":3,"text":"Ev bilgelikle yapılır, Akılla pekiştirilir."},{"v":4,"text":"Bilgi sayesinde odaları Her türlü değerli, güzel eşyayla dolar."},{"v":5,"text":"Bilgelik güçten, Bilgi kaba kuvvetten üstündür."},{"v":6,"text":"Savaşmak için yöntem, Zafer kazanmak için birçok danışman gerekli."},{"v":7,"text":"Ahmak için bilgelik ulaşılamayacak kadar yüksektir, Kent kurulunda ağzını açamaz."},{"v":8,"text":"Kötülük tasarlayan kişi Düzenbaz olarak bilinecektir."},{"v":9,"text":"Ahmakça tasarılar günahtır, Alaycı kişiden herkes iğrenir."},{"v":10,"text":"Sıkıntılı günde cesaretini yitirirsen, Gücün kıt demektir."},{"v":11,"text":"Ölüm tehlikesi içinde olanları kurtar, Ölmek üzere olanları esirge."},{"v":12,"text":"“İşte bunu bilmiyordum” desen de, İnsanın yüreğindekini bilen sezmez mi? Senin canını koruyan anlamaz mı? Ödetmez mi herkese yaptığını?"},{"v":13,"text":"Oğlum, bal ye, çünkü iyidir, Süzme bal damağa tatlı gelir."},{"v":14,"text":"Bilgelik de canın için öyledir, bilmiş ol. Bilgeliği bulursan bir geleceğin olur Ve umudun boşa çıkmaz."},{"v":15,"text":"Ey kötü adam, doğru kişinin evine karşı pusuya yatma, Konutunu yıkmaya kalkma."},{"v":16,"text":"Çünkü doğru kişi yedi kez düşse yine kalkar, Ama kötüler felakette yıkılır."},{"v":17,"text":"Düşmanın düşüşüne keyiflenme, Sendelemesine sevinme."},{"v":18,"text":"Yoksa RAB görür ve hoşnut kalmaz Ve düşmanına duyduğu öfke yatışır."},{"v":19,"text":"Kötülük edenlere kızıp üzülme, Onlara özenme."},{"v":20,"text":"Çünkü kötülerin geleceği yok, Çırası sönecek onların."},{"v":21,"text":"Oğlum, RAB'be ve krala saygı göster, Onlara başkaldıranlarla arkadaşlık etme."},{"v":22,"text":"Çünkü onlar ansızın felakete uğrar, İnsanın başına ne belalar getireceklerini kim bilir?"},{"v":23,"text":"Şunlar da bilgelerin sözleridir: Yargılarken yan tutmak iyi değildir."},{"v":24,"text":"Kötüye, “Suçsuzsun” diyen yargıcı Halklar lanetler, uluslar kınar."},{"v":25,"text":"Ne mutlu suçluyu mahkûm edene! Herkes onu candan kutlar."},{"v":26,"text":"Dürüst yanıt Gerçek dostluğun işaretidir."},{"v":27,"text":"İlkin dışardaki işini bitirip tarlanı hazırla, Ondan sonra evini yap."},{"v":28,"text":"Başkalarına karşı nedensiz tanıklık etme Ve dudaklarınla aldatma."},{"v":29,"text":"“Bana yaptığını ben de ona yapacağım, Ödeteceğim bana yaptığını” deme."},{"v":30,"text":"Tembelin tarlasından, Sağduyudan yoksun kişinin bağından geçtiğimde"},{"v":31,"text":"Her yanı dikenlerin, otların Kapladığını gördüm; Taş duvar da yıkılmıştı."},{"v":32,"text":"Gördüklerimi derin derin düşündüm, Seyrettiklerimden ibret aldım."},{"v":33,"text":"“Biraz kestireyim, biraz uyuklayayım, Ellerimi kavuşturup şöyle bir uyuyayım” demeye kalmadan,"},{"v":34,"text":"Yokluk bir haydut gibi, Yoksulluk bir akıncı gibi gelir üzerine."}]}
+{
+  "t": "TCL02",
+  "b": "PRO",
+  "c": 24,
+  "content": [
+    {
+      "section": "(19)"
+    },
+    {
+      "v": 1,
+      "text": "Kötülere imrenme, Onlarla birlikte olmayı isteme."
+    },
+    {
+      "v": 2,
+      "text": "Çünkü yürekleri zorbalık tasarlar, Dudakları belalardan söz eder."
+    },
+    {
+      "section": "(20)"
+    },
+    {
+      "v": 3,
+      "text": "Ev bilgelikle yapılır, Akılla pekiştirilir."
+    },
+    {
+      "v": 4,
+      "text": "Bilgi sayesinde odaları Her türlü değerli, güzel eşyayla dolar."
+    },
+    {
+      "section": "(21)"
+    },
+    {
+      "v": 5,
+      "text": "Bilgelik güçten, Bilgi kaba kuvvetten üstündür."
+    },
+    {
+      "v": 6,
+      "text": "Savaşmak için yöntem, Zafer kazanmak için birçok danışman gerekli."
+    },
+    {
+      "section": "(22)"
+    },
+    {
+      "v": 7,
+      "text": "Ahmak için bilgelik ulaşılamayacak kadar yüksektir, Kent kurulunda ağzını açamaz."
+    },
+    {
+      "section": "(23)"
+    },
+    {
+      "v": 8,
+      "text": "Kötülük tasarlayan kişi Düzenbaz olarak bilinecektir."
+    },
+    {
+      "v": 9,
+      "text": "Ahmakça tasarılar günahtır, Alaycı kişiden herkes iğrenir."
+    },
+    {
+      "section": "(24)"
+    },
+    {
+      "v": 10,
+      "text": "Sıkıntılı günde cesaretini yitirirsen, Gücün kıt demektir."
+    },
+    {
+      "section": "(25)"
+    },
+    {
+      "v": 11,
+      "text": "Ölüm tehlikesi içinde olanları kurtar, Ölmek üzere olanları esirge."
+    },
+    {
+      "v": 12,
+      "text": "“İşte bunu bilmiyordum” desen de, İnsanın yüreğindekini bilen sezmez mi? Senin canını koruyan anlamaz mı? Ödetmez mi herkese yaptığını?"
+    },
+    {
+      "section": "(26)"
+    },
+    {
+      "v": 13,
+      "text": "Oğlum, bal ye, çünkü iyidir, Süzme bal damağa tatlı gelir."
+    },
+    {
+      "v": 14,
+      "text": "Bilgelik de canın için öyledir, bilmiş ol. Bilgeliği bulursan bir geleceğin olur Ve umudun boşa çıkmaz."
+    },
+    {
+      "section": "(27)"
+    },
+    {
+      "v": 15,
+      "text": "Ey kötü adam, doğru kişinin evine karşı pusuya yatma, Konutunu yıkmaya kalkma."
+    },
+    {
+      "v": 16,
+      "text": "Çünkü doğru kişi yedi kez düşse yine kalkar, Ama kötüler felakette yıkılır."
+    },
+    {
+      "section": "(28)"
+    },
+    {
+      "v": 17,
+      "text": "Düşmanın düşüşüne keyiflenme, Sendelemesine sevinme."
+    },
+    {
+      "v": 18,
+      "text": "Yoksa RAB görür ve hoşnut kalmaz Ve düşmanına duyduğu öfke yatışır."
+    },
+    {
+      "section": "(29)"
+    },
+    {
+      "v": 19,
+      "text": "Kötülük edenlere kızıp üzülme, Onlara özenme."
+    },
+    {
+      "v": 20,
+      "text": "Çünkü kötülerin geleceği yok, Çırası sönecek onların."
+    },
+    {
+      "section": "(30)"
+    },
+    {
+      "v": 21,
+      "text": "Oğlum, RAB'be ve krala saygı göster, Onlara başkaldıranlarla arkadaşlık etme."
+    },
+    {
+      "v": 22,
+      "text": "Çünkü onlar ansızın felakete uğrar, İnsanın başına ne belalar getireceklerini kim bilir?"
+    },
+    {
+      "section": "Bilgelerin Öbür Özdeyişleri"
+    },
+    {
+      "v": 23,
+      "text": "Şunlar da bilgelerin sözleridir: Yargılarken yan tutmak iyi değildir."
+    },
+    {
+      "v": 24,
+      "text": "Kötüye, “Suçsuzsun” diyen yargıcı Halklar lanetler, uluslar kınar."
+    },
+    {
+      "v": 25,
+      "text": "Ne mutlu suçluyu mahkûm edene! Herkes onu candan kutlar."
+    },
+    {
+      "v": 26,
+      "text": "Dürüst yanıt Gerçek dostluğun işaretidir."
+    },
+    {
+      "v": 27,
+      "text": "İlkin dışardaki işini bitirip tarlanı hazırla, Ondan sonra evini yap."
+    },
+    {
+      "v": 28,
+      "text": "Başkalarına karşı nedensiz tanıklık etme Ve dudaklarınla aldatma."
+    },
+    {
+      "v": 29,
+      "text": "“Bana yaptığını ben de ona yapacağım, Ödeteceğim bana yaptığını” deme."
+    },
+    {
+      "v": 30,
+      "text": "Tembelin tarlasından, Sağduyudan yoksun kişinin bağından geçtiğimde"
+    },
+    {
+      "v": 31,
+      "text": "Her yanı dikenlerin, otların Kapladığını gördüm; Taş duvar da yıkılmıştı."
+    },
+    {
+      "v": 32,
+      "text": "Gördüklerimi derin derin düşündüm, Seyrettiklerimden ibret aldım."
+    },
+    {
+      "v": 33,
+      "text": "“Biraz kestireyim, biraz uyuklayayım, Ellerimi kavuşturup şöyle bir uyuyayım” demeye kalmadan,"
+    },
+    {
+      "v": 34,
+      "text": "Yokluk bir haydut gibi, Yoksulluk bir akıncı gibi gelir üzerine."
+    }
+  ],
+  "title": "(19)"
+}

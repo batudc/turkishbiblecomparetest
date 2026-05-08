@@ -1,1 +1,131 @@
-{"t":"TCL02","b":"GEN","c":38,"content":[{"v":1,"text":"O sıralarda Yahuda kardeşlerinden ayrılarak Adullamlı Hira adında bir adamın yanına gitti."},{"v":2,"text":"Orada Kenanlı bir kızla karşılaştı. Kızın babasının adı Şua'ydı. Yahuda kızla evlendi."},{"v":3,"text":"Kadın hamile kaldı ve bir erkek çocuk doğurdu. Yahuda ona Er adını verdi."},{"v":4,"text":"Kadın yine hamile kaldı, bir erkek çocuk daha doğurdu, adını Onan koydu."},{"v":5,"text":"Yine bir erkek çocuk doğurdu, adını Şela koydu. Şela doğduğu zaman Yahuda Keziv'deydi."},{"v":6,"text":"Yahuda ilk oğlu Er için bir kadın aldı. Kadının adı Tamar'dı."},{"v":7,"text":"Yahuda'nın ilk oğlu Er, RAB'bin gözünde kötüydü. Bu yüzden RAB onu öldürdü."},{"v":8,"text":"Yahuda Onan'a, “Kardeşinin karısıyla evlen” dedi, “Kayınbiraderlik görevini yap. Kardeşinin soyunu sürdür.”"},{"v":9,"text":"Ama Onan doğacak çocukların kendisine ait olmayacağını biliyordu. Bu yüzden ne zaman kardeşinin karısıyla yatsa, kardeşine soy yetiştirmemek için menisini yere boşaltıyordu."},{"v":10,"text":"Bu yaptığı RAB'bin gözünde kötüydü. Bu yüzden RAB onu da öldürdü."},{"v":11,"text":"Bunun üzerine Yahuda, gelini Tamar'a, “Babanın evine dön” dedi, “Oğlum Şela büyüyünceye kadar orada dul olarak yaşa.” Yahuda, “Şela da kardeşleri gibi ölebilir” diye düşünüyordu. Böylece Tamar babasının evine döndü."},{"v":12,"text":"Uzun süre sonra Şua'nın kızı olan Yahuda'nın karısı öldü. Yahuda yası bittikten sonra arkadaşı Adullamlı Hira'yla birlikte Timna'ya, sürüsünü kırkanların yanına gitti."},{"v":13,"text":"Tamar'a, “Kayınbaban sürüsünü kırkmak için Timna'ya gidiyor” diye haber verdiler."},{"v":14,"text":"Tamar üzerindeki dul giysilerini çıkardı. Peçesini örttü, sarınıp Timna yolu üzerindeki Enayim Kapısı'nda oturdu. Çünkü Şela büyüdüğü halde onunla evlenmesine izin verilmediğini görmüştü."},{"v":15,"text":"Yahuda onu görünce fahişe sandı. Çünkü yüzü örtülüydü."},{"v":16,"text":"Yolun kenarına, ona doğru seğirterek, kendi gelini olduğunu bilmeden, “Hadi gel, seninle yatmak istiyorum” dedi.  Tamar, “Seninle yatarsam, bana ne vereceksin?” diye sordu."},{"v":17,"text":"Yahuda, “Sürümden sana bir oğlak göndereyim” dedi.  Tamar, “Oğlağı gönderinceye kadar rehin olarak bana bir şey verebilir misin?” dedi."},{"v":18,"text":"Yahuda, “Ne vereyim?” diye sordu.  Tamar, “Mührünü, kaytanını ve elindeki değneği” diye yanıtladı. Yahuda bunları verip onunla yattı. Tamar hamile kaldı."},{"v":19,"text":"Gidip peçesini çıkardı, yine dul giysilerini giydi."},{"v":20,"text":"Bu arada Yahuda rehin bıraktığı eşyaları geri almak için Adullamlı arkadaşıyla kadına bir oğlak gönderdi. Ne var ki arkadaşı kadını bulamadı."},{"v":21,"text":"O çevrede yaşayanlara, “Enayim'de, yol kenarında bir fahişe vardı, nerede o?” diye sordu.  “Burada öyle bir kadın yok” diye karşılık verdiler."},{"v":22,"text":"Bunun üzerine Yahuda'nın yanına dönerek, “Kadını bulamadım” dedi, “O çevrede yaşayanlar da ‘Burada fahişe yok’ dediler.”"},{"v":23,"text":"Yahuda, “Varsın eşyalar onun olsun” dedi, “Kimseyi kendimize güldürmeyelim. Ben oğlağı gönderdim, ama sen kadını bulamadın.”"},{"v":24,"text":"Yaklaşık üç ay sonra Yahuda'ya, “Gelinin Tamar zina etmiş, şu anda hamile” diye haber verdiler.  Yahuda, “Onu dışarıya çıkarıp yakın” dedi."},{"v":25,"text":"Tamar dışarı çıkarılınca, kayınbabasına, “Ben bu eşyaların sahibinden hamile kaldım” diye haber gönderdi, “Lütfen şunlara bak. Bu mühür, kaytan, değnek kime ait?”"},{"v":26,"text":"Yahuda eşyaları tanıdı. “O benden daha doğru bir kişi” dedi, “Çünkü onu oğlum Şela'ya almadım.” Bir daha onunla yatmadı."},{"v":27,"text":"Doğum vakti gelince Tamar'ın rahminde ikiz olduğu anlaşıldı."},{"v":28,"text":"Doğum yaparken ikizlerden biri elini dışarı çıkardı. Ebe çocuğun elini yakalayıp bileğine kırmızı bir iplik bağladı, “Bu önce doğdu” dedi."},{"v":29,"text":"Ne var ki, çocuk elini içeri çekti, o sırada da kardeşi doğdu. Ebe, “Kendine böyle mi gedik açtın?” dedi. Bu yüzden çocuğa Peres adı kondu."},{"v":30,"text":"Sonra bileğine kırmızı iplik bağlı kardeşi doğdu. Ona da Zerah adı verildi."}]}
+{
+  "t": "TCL02",
+  "b": "GEN",
+  "c": 38,
+  "content": [
+    {
+      "section": "Yahuda'yla Tamar"
+    },
+    {
+      "v": 1,
+      "text": "O sıralarda Yahuda kardeşlerinden ayrılarak Adullamlı Hira adında bir adamın yanına gitti."
+    },
+    {
+      "v": 2,
+      "text": "Orada Kenanlı bir kızla karşılaştı. Kızın babasının adı Şua'ydı. Yahuda kızla evlendi."
+    },
+    {
+      "v": 3,
+      "text": "Kadın hamile kaldı ve bir erkek çocuk doğurdu. Yahuda ona Er adını verdi."
+    },
+    {
+      "v": 4,
+      "text": "Kadın yine hamile kaldı, bir erkek çocuk daha doğurdu, adını Onan koydu."
+    },
+    {
+      "v": 5,
+      "text": "Yine bir erkek çocuk doğurdu, adını Şela koydu. Şela doğduğu zaman Yahuda Keziv'deydi."
+    },
+    {
+      "v": 6,
+      "text": "Yahuda ilk oğlu Er için bir kadın aldı. Kadının adı Tamar'dı."
+    },
+    {
+      "v": 7,
+      "text": "Yahuda'nın ilk oğlu Er, RAB'bin gözünde kötüydü. Bu yüzden RAB onu öldürdü."
+    },
+    {
+      "v": 8,
+      "text": "Yahuda Onan'a, “Kardeşinin karısıyla evlen” dedi, “Kayınbiraderlik görevini yap. Kardeşinin soyunu sürdür.”"
+    },
+    {
+      "v": 9,
+      "text": "Ama Onan doğacak çocukların kendisine ait olmayacağını biliyordu. Bu yüzden ne zaman kardeşinin karısıyla yatsa, kardeşine soy yetiştirmemek için menisini yere boşaltıyordu."
+    },
+    {
+      "v": 10,
+      "text": "Bu yaptığı RAB'bin gözünde kötüydü. Bu yüzden RAB onu da öldürdü."
+    },
+    {
+      "v": 11,
+      "text": "Bunun üzerine Yahuda, gelini Tamar'a, “Babanın evine dön” dedi, “Oğlum Şela büyüyünceye kadar orada dul olarak yaşa.” Yahuda, “Şela da kardeşleri gibi ölebilir” diye düşünüyordu. Böylece Tamar babasının evine döndü."
+    },
+    {
+      "v": 12,
+      "text": "Uzun süre sonra Şua'nın kızı olan Yahuda'nın karısı öldü. Yahuda yası bittikten sonra arkadaşı Adullamlı Hira'yla birlikte Timna'ya, sürüsünü kırkanların yanına gitti."
+    },
+    {
+      "v": 13,
+      "text": "Tamar'a, “Kayınbaban sürüsünü kırkmak için Timna'ya gidiyor” diye haber verdiler."
+    },
+    {
+      "v": 14,
+      "text": "Tamar üzerindeki dul giysilerini çıkardı. Peçesini örttü, sarınıp Timna yolu üzerindeki Enayim Kapısı'nda oturdu. Çünkü Şela büyüdüğü halde onunla evlenmesine izin verilmediğini görmüştü."
+    },
+    {
+      "v": 15,
+      "text": "Yahuda onu görünce fahişe sandı. Çünkü yüzü örtülüydü."
+    },
+    {
+      "v": 16,
+      "text": "Yolun kenarına, ona doğru seğirterek, kendi gelini olduğunu bilmeden, “Hadi gel, seninle yatmak istiyorum” dedi.  Tamar, “Seninle yatarsam, bana ne vereceksin?” diye sordu."
+    },
+    {
+      "v": 17,
+      "text": "Yahuda, “Sürümden sana bir oğlak göndereyim” dedi.  Tamar, “Oğlağı gönderinceye kadar rehin olarak bana bir şey verebilir misin?” dedi."
+    },
+    {
+      "v": 18,
+      "text": "Yahuda, “Ne vereyim?” diye sordu.  Tamar, “Mührünü, kaytanını ve elindeki değneği” diye yanıtladı. Yahuda bunları verip onunla yattı. Tamar hamile kaldı."
+    },
+    {
+      "v": 19,
+      "text": "Gidip peçesini çıkardı, yine dul giysilerini giydi."
+    },
+    {
+      "v": 20,
+      "text": "Bu arada Yahuda rehin bıraktığı eşyaları geri almak için Adullamlı arkadaşıyla kadına bir oğlak gönderdi. Ne var ki arkadaşı kadını bulamadı."
+    },
+    {
+      "v": 21,
+      "text": "O çevrede yaşayanlara, “Enayim'de, yol kenarında bir fahişe vardı, nerede o?” diye sordu.  “Burada öyle bir kadın yok” diye karşılık verdiler."
+    },
+    {
+      "v": 22,
+      "text": "Bunun üzerine Yahuda'nın yanına dönerek, “Kadını bulamadım” dedi, “O çevrede yaşayanlar da ‘Burada fahişe yok’ dediler.”"
+    },
+    {
+      "v": 23,
+      "text": "Yahuda, “Varsın eşyalar onun olsun” dedi, “Kimseyi kendimize güldürmeyelim. Ben oğlağı gönderdim, ama sen kadını bulamadın.”"
+    },
+    {
+      "v": 24,
+      "text": "Yaklaşık üç ay sonra Yahuda'ya, “Gelinin Tamar zina etmiş, şu anda hamile” diye haber verdiler.  Yahuda, “Onu dışarıya çıkarıp yakın” dedi."
+    },
+    {
+      "v": 25,
+      "text": "Tamar dışarı çıkarılınca, kayınbabasına, “Ben bu eşyaların sahibinden hamile kaldım” diye haber gönderdi, “Lütfen şunlara bak. Bu mühür, kaytan, değnek kime ait?”"
+    },
+    {
+      "v": 26,
+      "text": "Yahuda eşyaları tanıdı. “O benden daha doğru bir kişi” dedi, “Çünkü onu oğlum Şela'ya almadım.” Bir daha onunla yatmadı."
+    },
+    {
+      "v": 27,
+      "text": "Doğum vakti gelince Tamar'ın rahminde ikiz olduğu anlaşıldı."
+    },
+    {
+      "v": 28,
+      "text": "Doğum yaparken ikizlerden biri elini dışarı çıkardı. Ebe çocuğun elini yakalayıp bileğine kırmızı bir iplik bağladı, “Bu önce doğdu” dedi."
+    },
+    {
+      "v": 29,
+      "text": "Ne var ki, çocuk elini içeri çekti, o sırada da kardeşi doğdu. Ebe, “Kendine böyle mi gedik açtın?” dedi. Bu yüzden çocuğa Peres adı kondu."
+    },
+    {
+      "v": 30,
+      "text": "Sonra bileğine kırmızı iplik bağlı kardeşi doğdu. Ona da Zerah adı verildi."
+    }
+  ],
+  "title": "Yahuda'yla Tamar"
+}

@@ -1,1 +1,114 @@
-{"t":"TCL02","b":"EXO","c":2,"content":[{"v":1,"text":"Levili bir adam kendi oymağından bir kızla evlendi."},{"v":2,"text":"Kadın gebe kaldı ve bir erkek çocuk doğurdu. Güzel bir çocuk olduğunu görünce, onu üç ay gizledi."},{"v":3,"text":"Daha fazla gizleyemeyeceğini anlayınca, hasır bir sepet alıp katran ve ziftle sıvadı. İçine çocuğu yerleştirip Nil kıyısındaki sazlığa bıraktı."},{"v":4,"text":"Çocuğun ablası kardeşine ne olacağını görmek için uzaktan gözlüyordu."},{"v":5,"text":"O sırada firavunun kızı yıkanmak için ırmağa indi. Hizmetçileri ırmak kıyısında yürüyorlardı. Sazların arasındaki sepeti görünce, firavunun kızı onu getirmesi için hizmetçisini gönderdi."},{"v":6,"text":"Sepeti açınca ağlayan çocuğu gördü. Ona acıyarak, “Bu bir İbrani çocuğu” dedi."},{"v":7,"text":"Çocuğun ablası firavunun kızına, “Gidip bir İbrani sütnine çağırayım mı?” diye sordu, “Senin için bebeği emzirsin.”"},{"v":8,"text":"Firavunun kızı, “Olur” diye yanıtladı. Kız gidip bebeğin annesini çağırdı."},{"v":9,"text":"Firavunun kızı kadına, “Bu bebeği al, benim için emzir, ücretin neyse veririm” dedi. Kadın bebeği alıp emzirdi."},{"v":10,"text":"Çocuk büyüyünce, onu geri getirdi. Firavunun kızı çocuğu evlat edindi. “Onu sudan çıkardım” diyerek adını Musa koydu."},{"v":11,"text":"Musa büyüdükten sonra bir gün soydaşlarının yanına gitti. Yaptıkları ağır işleri seyrederken bir Mısırlı'nın bir İbrani'yi dövdüğünü gördü."},{"v":12,"text":"Çevresine göz gezdirdi; kimse olmadığını anlayınca, Mısırlı'yı öldürüp kuma gizledi."},{"v":13,"text":"Ertesi gün gittiğinde, iki İbrani'nin kavga ettiğini gördü. Haksız olana, “Niçin kardeşini dövüyorsun?” diye sordu."},{"v":14,"text":"Adam, “Kim seni başımıza yönetici ve yargıç atadı?” diye yanıtladı, “Mısırlı'yı öldürdüğün gibi beni de mi öldürmek istiyorsun?” O zaman Musa korkarak, “Bu iş ortaya çıkmış!” diye düşündü."},{"v":15,"text":"Firavun olayı duyunca Musa'yı öldürtmek istedi. Ancak Musa ondan kaçıp Midyan yöresine gitti. Bir kuyunun başında otururken"},{"v":16,"text":"Midyanlı bir kâhinin yedi kızı su çekmeye geldi. Babalarının sürüsünü suvarmak için yalakları dolduruyorlardı."},{"v":17,"text":"Ama bazı çobanlar gelip onları kovmak istedi. Musa kızların yardımına koşup hayvanlarını suvardı."},{"v":18,"text":"Sonra kızlar babaları Reuel'in yanına döndüler. Reuel, “Nasıl oldu da bugün böyle tez geldiniz?” diye sordu."},{"v":19,"text":"Kızlar, “Mısırlı bir adam bizi çobanların elinden kurtardı” diye yanıtladılar, “Üstelik bizim için su çekip hayvanlara verdi.”"},{"v":20,"text":"Babaları, “Nerede o?” diye sordu, “Niçin adamı dışarıda bıraktınız? Gidin onu yemeğe çağırın.”"},{"v":21,"text":"Musa Reuel'in yanında kalmayı kabul etti. Reuel de kızı Sippora'yı onunla evlendirdi."},{"v":22,"text":"Sippora bir erkek çocuk doğurdu. Musa, “Garibim bu yabancı ülkede” diyerek çocuğa Gerşom adını verdi."},{"v":23,"text":"Aradan yıllar geçti, bu arada Mısır Kralı öldü. İsrailliler hâlâ kölelik altında inliyor, feryat ediyorlardı. Sonunda yakarışları Tanrı'ya erişti."},{"v":24,"text":"Tanrı iniltilerini duydu; İbrahim, İshak ve Yakup'la yaptığı antlaşmayı anımsadı."},{"v":25,"text":"İsrailliler'e baktı ve onlara ilgi gösterdi."}]}
+{
+  "t": "TCL02",
+  "b": "EXO",
+  "c": 2,
+  "content": [
+    {
+      "section": "Musa'nın Doğumu"
+    },
+    {
+      "v": 1,
+      "text": "Levili bir adam kendi oymağından bir kızla evlendi."
+    },
+    {
+      "v": 2,
+      "text": "Kadın gebe kaldı ve bir erkek çocuk doğurdu. Güzel bir çocuk olduğunu görünce, onu üç ay gizledi."
+    },
+    {
+      "v": 3,
+      "text": "Daha fazla gizleyemeyeceğini anlayınca, hasır bir sepet alıp katran ve ziftle sıvadı. İçine çocuğu yerleştirip Nil kıyısındaki sazlığa bıraktı."
+    },
+    {
+      "v": 4,
+      "text": "Çocuğun ablası kardeşine ne olacağını görmek için uzaktan gözlüyordu."
+    },
+    {
+      "v": 5,
+      "text": "O sırada firavunun kızı yıkanmak için ırmağa indi. Hizmetçileri ırmak kıyısında yürüyorlardı. Sazların arasındaki sepeti görünce, firavunun kızı onu getirmesi için hizmetçisini gönderdi."
+    },
+    {
+      "v": 6,
+      "text": "Sepeti açınca ağlayan çocuğu gördü. Ona acıyarak, “Bu bir İbrani çocuğu” dedi."
+    },
+    {
+      "v": 7,
+      "text": "Çocuğun ablası firavunun kızına, “Gidip bir İbrani sütnine çağırayım mı?” diye sordu, “Senin için bebeği emzirsin.”"
+    },
+    {
+      "v": 8,
+      "text": "Firavunun kızı, “Olur” diye yanıtladı. Kız gidip bebeğin annesini çağırdı."
+    },
+    {
+      "v": 9,
+      "text": "Firavunun kızı kadına, “Bu bebeği al, benim için emzir, ücretin neyse veririm” dedi. Kadın bebeği alıp emzirdi."
+    },
+    {
+      "v": 10,
+      "text": "Çocuk büyüyünce, onu geri getirdi. Firavunun kızı çocuğu evlat edindi. “Onu sudan çıkardım” diyerek adını Musa koydu."
+    },
+    {
+      "section": "Musa Midyan'a Kaçıyor"
+    },
+    {
+      "v": 11,
+      "text": "Musa büyüdükten sonra bir gün soydaşlarının yanına gitti. Yaptıkları ağır işleri seyrederken bir Mısırlı'nın bir İbrani'yi dövdüğünü gördü."
+    },
+    {
+      "v": 12,
+      "text": "Çevresine göz gezdirdi; kimse olmadığını anlayınca, Mısırlı'yı öldürüp kuma gizledi."
+    },
+    {
+      "v": 13,
+      "text": "Ertesi gün gittiğinde, iki İbrani'nin kavga ettiğini gördü. Haksız olana, “Niçin kardeşini dövüyorsun?” diye sordu."
+    },
+    {
+      "v": 14,
+      "text": "Adam, “Kim seni başımıza yönetici ve yargıç atadı?” diye yanıtladı, “Mısırlı'yı öldürdüğün gibi beni de mi öldürmek istiyorsun?” O zaman Musa korkarak, “Bu iş ortaya çıkmış!” diye düşündü."
+    },
+    {
+      "v": 15,
+      "text": "Firavun olayı duyunca Musa'yı öldürtmek istedi. Ancak Musa ondan kaçıp Midyan yöresine gitti. Bir kuyunun başında otururken"
+    },
+    {
+      "v": 16,
+      "text": "Midyanlı bir kâhinin yedi kızı su çekmeye geldi. Babalarının sürüsünü suvarmak için yalakları dolduruyorlardı."
+    },
+    {
+      "v": 17,
+      "text": "Ama bazı çobanlar gelip onları kovmak istedi. Musa kızların yardımına koşup hayvanlarını suvardı."
+    },
+    {
+      "v": 18,
+      "text": "Sonra kızlar babaları Reuel'in yanına döndüler. Reuel, “Nasıl oldu da bugün böyle tez geldiniz?” diye sordu."
+    },
+    {
+      "v": 19,
+      "text": "Kızlar, “Mısırlı bir adam bizi çobanların elinden kurtardı” diye yanıtladılar, “Üstelik bizim için su çekip hayvanlara verdi.”"
+    },
+    {
+      "v": 20,
+      "text": "Babaları, “Nerede o?” diye sordu, “Niçin adamı dışarıda bıraktınız? Gidin onu yemeğe çağırın.”"
+    },
+    {
+      "v": 21,
+      "text": "Musa Reuel'in yanında kalmayı kabul etti. Reuel de kızı Sippora'yı onunla evlendirdi."
+    },
+    {
+      "v": 22,
+      "text": "Sippora bir erkek çocuk doğurdu. Musa, “Garibim bu yabancı ülkede” diyerek çocuğa Gerşom adını verdi."
+    },
+    {
+      "v": 23,
+      "text": "Aradan yıllar geçti, bu arada Mısır Kralı öldü. İsrailliler hâlâ kölelik altında inliyor, feryat ediyorlardı. Sonunda yakarışları Tanrı'ya erişti."
+    },
+    {
+      "v": 24,
+      "text": "Tanrı iniltilerini duydu; İbrahim, İshak ve Yakup'la yaptığı antlaşmayı anımsadı."
+    },
+    {
+      "v": 25,
+      "text": "İsrailliler'e baktı ve onlara ilgi gösterdi."
+    }
+  ],
+  "title": "Musa'nın Doğumu"
+}

@@ -694,6 +694,241 @@
       background: rgba(180,30,30,0.12);
     }
     #hw-btn-remove:hover { background: rgba(180,30,30,0.24); }
+
+    /* ===== SEARCH RESULTS ===== */
+    #search-results {
+      position: fixed;
+      z-index: 300;
+      background: #111f2c;
+      border: 1px solid rgba(184,146,42,0.22);
+      border-top: 2px solid rgba(184,146,42,0.4);
+      border-radius: 0 0 4px 4px;
+      box-shadow: 0 20px 60px rgba(0,0,0,0.75);
+      max-height: 72vh;
+      overflow-y: auto;
+      display: none;
+      font-family: 'Jost', sans-serif;
+      min-width: 360px;
+    }
+    #search-results.open { display: block; }
+
+    .sr-warning {
+      padding: 14px 16px;
+      color: rgba(184,146,42,0.8);
+      font-size: 11px;
+      letter-spacing: 0.04em;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+    .sr-header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 7px 14px;
+      border-bottom: 1px solid rgba(255,255,255,0.07);
+      background: rgba(0,0,0,0.25);
+      position: sticky;
+      top: 0;
+      z-index: 2;
+    }
+    .sr-count {
+      font-size: 9px;
+      color: rgba(247,241,232,0.3);
+      letter-spacing: 0.08em;
+    }
+    .sr-scan-btn {
+      font-size: 9px;
+      font-weight: 600;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: var(--gold-light);
+      background: rgba(184,146,42,0.1);
+      border: 1px solid rgba(184,146,42,0.28);
+      padding: 3px 10px;
+      cursor: pointer;
+      font-family: 'Jost', sans-serif;
+      transition: background 0.15s;
+    }
+    .sr-scan-btn:hover { background: rgba(184,146,42,0.22); }
+    .sr-scan-btn:disabled { opacity: 0.4; cursor: not-allowed; }
+    .sr-empty {
+      padding: 28px 20px;
+      text-align: center;
+      color: rgba(247,241,232,0.28);
+      font-size: 11px;
+      line-height: 1.8;
+      letter-spacing: 0.04em;
+    }
+    .sr-trans-label {
+      font-size: 8px;
+      font-weight: 700;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      color: rgba(184,146,42,0.5);
+      padding: 7px 14px 4px;
+      background: rgba(0,0,0,0.2);
+      position: sticky;
+      top: 32px;
+      z-index: 1;
+    }
+    .sr-result {
+      display: flex;
+      align-items: baseline;
+      gap: 10px;
+      padding: 7px 14px;
+      border-bottom: 1px solid rgba(255,255,255,0.03);
+      cursor: pointer;
+      transition: background 0.1s;
+    }
+    .sr-result:hover { background: rgba(184,146,42,0.09); }
+    .sr-ref {
+      font-size: 9px;
+      font-weight: 600;
+      color: var(--gold-light);
+      letter-spacing: 0.04em;
+      white-space: nowrap;
+      flex-shrink: 0;
+      min-width: 90px;
+    }
+    .sr-text {
+      font-family: 'EB Garamond', Georgia, serif;
+      font-size: 13px;
+      color: rgba(247,241,232,0.6);
+      line-height: 1.5;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+    .sr-text mark {
+      background: rgba(184,146,42,0.35);
+      color: var(--gold-light);
+      border-radius: 1px;
+      padding: 0 1px;
+    }
+    .sr-more {
+      padding: 5px 14px 8px;
+      font-size: 9px;
+      color: rgba(247,241,232,0.2);
+      letter-spacing: 0.06em;
+    }
+    .sr-progress {
+      padding: 8px 14px;
+      font-size: 9px;
+      color: rgba(184,146,42,0.45);
+      letter-spacing: 0.06em;
+      text-align: center;
+      border-bottom: 1px solid rgba(255,255,255,0.05);
+      animation: pulse 1.2s ease-in-out infinite;
+    }
+
+    /* ===== MOBILE TRANSLATION TABS ===== */
+    #mobile-col-tabs {
+      display: none;
+    }
+
+    /* ===== PANEL BACKDROP ===== */
+    #panel-backdrop {
+      display: none;
+      position: fixed;
+      inset: 0;
+      background: rgba(0,0,0,0.5);
+      z-index: 199;
+    }
+    #panel-backdrop.visible { display: block; }
+
+    /* ===== MOBILE BREAKPOINT ===== */
+    @media (max-width: 640px) {
+
+      /* — Header — */
+      #header {
+        height: 50px;
+        padding: 0 10px;
+        gap: 5px;
+      }
+      #logo { margin-right: 4px; }
+      #logo img { height: 26px; }
+      #logo-text { display: none; }
+      #search-wrap { display: none; }
+      #btn-top, #btn-share, #header-links { display: none; }
+
+      .hdr-btn {
+        padding: 0 10px;
+        height: 34px;
+        font-size: 11.5px;
+      }
+      .hdr-nav-arrow {
+        width: 34px;
+        height: 34px;
+        font-size: 16px;
+      }
+
+      /* — Translation tab bar — */
+      #mobile-col-tabs {
+        display: flex;
+        flex-shrink: 0;
+        background: #0d1e2d;
+        border-bottom: 1px solid rgba(184,146,42,0.18);
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
+        scrollbar-width: none;
+      }
+      #mobile-col-tabs::-webkit-scrollbar { display: none; }
+
+      .mob-tab {
+        flex-shrink: 0;
+        padding: 0 16px;
+        height: 36px;
+        background: none;
+        border: none;
+        border-bottom: 2px solid transparent;
+        color: rgba(247,241,232,0.4);
+        font-family: 'Jost', sans-serif;
+        font-size: 11px;
+        font-weight: 600;
+        letter-spacing: 0.1em;
+        text-transform: uppercase;
+        cursor: pointer;
+        transition: color 0.15s, border-color 0.15s;
+        white-space: nowrap;
+      }
+      .mob-tab.active {
+        color: var(--gold-light);
+        border-bottom-color: var(--gold);
+      }
+
+      /* — Single-column reader — */
+      .col { display: none !important; }
+      .col.mob-visible { display: flex !important; }
+
+      /* — Panels: full-width bottom sheet — */
+      .panel {
+        left: 0 !important;
+        right: 0 !important;
+        bottom: 0 !important;
+        top: auto !important;
+        width: 100% !important;
+        max-width: 100% !important;
+        max-height: 75vh;
+        overflow-y: auto;
+        border-radius: 14px 14px 0 0;
+        border-left: none;
+        border-right: none;
+        border-bottom: none;
+      }
+
+      /* Wider book grid on mobile */
+      #panel-books { width: 100% !important; }
+      .books-grid { grid-template-columns: 1fr 1fr 1fr 1fr; }
+      .book-btn { font-size: 11.5px; padding: 7px 5px; }
+
+      /* Wider translation panel */
+      #panel-translations { width: 100% !important; max-height: 65vh; }
+      .trans-item { padding: 9px 14px; }
+
+      /* Wider chapter panel */
+      #panel-chapter { width: 100% !important; }
+    }
   </style>
 </head>
 <body>
@@ -732,6 +967,9 @@
       </div>
     </div>
   </div>
+
+  <!-- Mobile translation tab bar (hidden on desktop) -->
+  <div id="mobile-col-tabs"></div>
 
   <!-- ===== READER ===== -->
   <div id="okuyucu_layout">
@@ -811,6 +1049,9 @@
   <div class="trans-group-label">İngilizce Çeviriler</div>
   <div id="trans-english"></div>
 </div>
+
+<!-- ===== SEARCH RESULTS PANEL ===== -->
+<div id="search-results"></div>
 
 <!-- ===== HERETICAL WARNING MODAL ===== -->
 <div id="heretical-overlay"></div>
@@ -910,7 +1151,7 @@
     ],
     ntFull: [
       { id:'KIE1819',  name:'Yeni Ahit (Ali Bey, J.D. Kieffer)',     year:1819, loaded:true  },
-      { id:'YYY1987',  name:'İncil: Müjde (1987)',                    year:1987, loaded:false  },
+      { id:'YYY1987',  name:'İncil: Müjde (1987)',                    year:1987, loaded:true  },
       { id:'CAN',      name:'Kutsal İncil (Bünyamin Candemir)',      year:2003, loaded:true  },
       { id:'KKDEU',    name:'Kutsal Kitap ve Deuterakanonik',        year:2003, loaded:true  },
       { id:'BGT',      name:'İncil BG Türkçe',                       year:2004, loaded:true  },
@@ -968,8 +1209,33 @@
   let currentChapter = 1;
   let layoutMode     = 'cols'; // 'cols' | 'rows' | 'grid'
 
-  // Currently selected translation IDs (only loaded ones shown by default)
+  // Currently selected translation IDs — single source of truth
   const selectedTranslations = new Set(['TCL02','KMEYA']);
+
+  // Chapter data cache — key: `${tid}|${bookCode}|${chap}` → verse array
+  const chapterCache = new Map();
+
+  // Search state
+  const searchState = { query: '', scanning: false, timer: null };
+
+  // ── Translation availability helper ──────────────────────────────────
+  function isTransAvailableForBook(tid, bookCode) {
+    if (tid === 'SEA1666'     && !SEA_BOOKS.has(bookCode))       return false;
+    if (tid === 'BGT'         && !BGT_BOOKS.has(bookCode))       return false;
+    if (tid === 'TSV'         && !TSV_BOOKS.has(bookCode))       return false;
+    if (tid === 'KKDEU'       && !KKDEU_NT_BOOKS.has(bookCode))  return false;
+    if (tid === 'TTT'         && !TTT_NT_BOOKS.has(bookCode))    return false;
+    if (tid === 'CAN'         && !CAN_NT_BOOKS.has(bookCode))    return false;
+    if (tid === 'COS'         && !COS_NT_BOOKS.has(bookCode))    return false;
+    if (tid === 'KIE1819'     && !KIE1819_NT_BOOKS.has(bookCode)) return false;
+    if (tid === 'TUR1852-57'  && !TUR1852_BOOKS.has(bookCode))   return false;
+    if (tid === 'SEL1866-77'  && !SEL1866_BOOKS.has(bookCode))   return false;
+    if (tid === 'HAKK'        && !HAKK_NT_BOOKS.has(bookCode))   return false;
+    if (tid === 'HKTN'        && !HKTN_BOOKS.has(bookCode))      return false;
+    if (tid === 'NSH1739'     && !NSH1739_BOOKS.has(bookCode))   return false;
+    if (tid === 'MEZ1669'     && !MEZ1669_BOOKS.has(bookCode))   return false;
+    return true;
+  }
 
   // ── Grid calculation ──────────────────────────────────────────────────
   function calcGrid(n) {
@@ -1101,6 +1367,23 @@
     container.appendChild(chDiv);
   }
 
+  const TRANS_NOTES = {
+    'SEA1666':    [SEA_BOOKS,       SEA_NOTE],
+    'BGT':        [BGT_BOOKS,       BGT_NOTE],
+    'TSV':        [TSV_BOOKS,       TSV_NOTE],
+    'KKDEU':      [KKDEU_NT_BOOKS,  KKDEU_NOTE],
+    'TTT':        [TTT_NT_BOOKS,    TTT_NOTE],
+    'CAN':        [CAN_NT_BOOKS,    CAN_NOTE],
+    'COS':        [COS_NT_BOOKS,    COS_NOTE],
+    'KIE1819':    [KIE1819_NT_BOOKS,KIE1819_NOTE],
+    'TUR1852-57': [TUR1852_BOOKS,   TUR1852_NOTE],
+    'SEL1866-77': [SEL1866_BOOKS,   SEL1866_NOTE],
+    'HAKK':       [HAKK_NT_BOOKS,   HAKK_NOTE],
+    'HKTN':       [HKTN_BOOKS,      HKTN_NOTE],
+    'NSH1739':    [NSH1739_BOOKS,   NSH1739_NOTE],
+    'MEZ1669':    [MEZ1669_BOOKS,   MEZ1669_NOTE],
+  };
+
   async function loadColumn(colEl, translationId, bookCode, chapter) {
     const container = colEl.querySelector('.col-content');
     if (!container) return;
@@ -1108,36 +1391,14 @@
     try {
       const res = await fetch(`data/translations/${translationId}/${bookCode}/${chapter}.json`, { cache: 'no-cache' });
       if (!res.ok) throw new Error('not found');
-      renderChapter(container, await res.json());
+      const data = await res.json();
+      // Cache for search
+      chapterCache.set(`${translationId}|${bookCode}|${chapter}`, data.content ?? []);
+      renderChapter(container, data);
     } catch {
-      if (translationId === 'SEA1666' && !SEA_BOOKS.has(bookCode)) {
-        container.innerHTML = `<div class="col-note"><p>${SEA_NOTE}</p></div>`;
-      } else if (translationId === 'BGT' && !BGT_BOOKS.has(bookCode)) {
-        container.innerHTML = `<div class="col-note"><p>${BGT_NOTE}</p></div>`;
-      } else if (translationId === 'TSV' && !TSV_BOOKS.has(bookCode)) {
-        container.innerHTML = `<div class="col-note"><p>${TSV_NOTE}</p></div>`;
-      } else if (translationId === 'KKDEU' && !KKDEU_NT_BOOKS.has(bookCode)) {
-        container.innerHTML = `<div class="col-note"><p>${KKDEU_NOTE}</p></div>`;
-      } else if (translationId === 'TTT' && !TTT_NT_BOOKS.has(bookCode)) {
-        container.innerHTML = `<div class="col-note"><p>${TTT_NOTE}</p></div>`;
-      } else if (translationId === 'CAN' && !CAN_NT_BOOKS.has(bookCode)) {
-        container.innerHTML = `<div class="col-note"><p>${CAN_NOTE}</p></div>`;
-      } else if (translationId === 'COS' && !COS_NT_BOOKS.has(bookCode)) {
-        container.innerHTML = `<div class="col-note"><p>${COS_NOTE}</p></div>`;
-      } else if (translationId === 'KIE1819' && !KIE1819_NT_BOOKS.has(bookCode)) {
-        container.innerHTML = `<div class="col-note"><p>${KIE1819_NOTE}</p></div>`;
-      } else if (translationId === 'TUR1852-57' && !TUR1852_BOOKS.has(bookCode)) {
-        container.innerHTML = `<div class="col-note"><p>${TUR1852_NOTE}</p></div>`;
-      } else if (translationId === 'SEL1866-77' && !SEL1866_BOOKS.has(bookCode)) {
-        container.innerHTML = `<div class="col-note"><p>${SEL1866_NOTE}</p></div>`;
-      } else if (translationId === 'HAKK' && !HAKK_NT_BOOKS.has(bookCode)) {
-        container.innerHTML = `<div class="col-note"><p>${HAKK_NOTE}</p></div>`;
-      } else if (translationId === 'HKTN' && !HKTN_BOOKS.has(bookCode)) {
-        container.innerHTML = `<div class="col-note"><p>${HKTN_NOTE}</p></div>`;
-      } else if (translationId === 'NSH1739' && !NSH1739_BOOKS.has(bookCode)) {
-        container.innerHTML = `<div class="col-note"><p>${NSH1739_NOTE}</p></div>`;
-      } else if (translationId === 'MEZ1669' && !MEZ1669_BOOKS.has(bookCode)) {
-        container.innerHTML = `<div class="col-note"><p>${MEZ1669_NOTE}</p></div>`;
+      const entry = TRANS_NOTES[translationId];
+      if (entry && !entry[0].has(bookCode)) {
+        container.innerHTML = `<div class="col-note"><p>${entry[1]}</p></div>`;
       } else {
         container.innerHTML = `<div class="col-note"><p>Bu bölüm bu tercümede mevcut değil.</p></div>`;
       }
@@ -1286,7 +1547,9 @@
         item.querySelector('input').addEventListener('change', e => {
           if (e.target.checked) selectedTranslations.add(t.id);
           else selectedTranslations.delete(t.id);
+          syncSelectAllBar();
           rebuildColumns();
+          triggerSearch();
         });
       }
       el.appendChild(item);
@@ -1299,70 +1562,80 @@
   buildTransGroup('trans-heretical',   TRANSLATIONS.heretical);
   buildTransGroup('trans-english',     TRANSLATIONS.english);
 
-  // ── Select-all toggle ─────────────────────────────────────────────────
-  (function() {
-    const allLoaded = [...TRANSLATIONS.bibleFull, ...TRANSLATIONS.ntFull, ...TRANSLATIONS.ntPartial, ...TRANSLATIONS.otPartial]
-      .filter(t => t.loaded);
-    const btn   = document.getElementById('btn-select-all');
-    const count = document.getElementById('trans-selected-count');
+  // ── Translation state management ──────────────────────────────────────
+  // Non-heretical loaded translations (used for bulk select/deselect)
+  const BULK_TRANS = [...TRANSLATIONS.bibleFull, ...TRANSLATIONS.ntFull,
+                      ...TRANSLATIONS.ntPartial, ...TRANSLATIONS.otPartial]
+    .filter(t => t.loaded);
 
-    function syncSelectAll() {
-      const n = allLoaded.filter(t => selectedTranslations.has(t.id)).length;
-      count.textContent = `${n} / ${allLoaded.length} seçili`;
-      btn.textContent = (n === allLoaded.length) ? 'Hiçbirini Seçme' : 'Tümünü Seç';
-    }
-    syncSelectAll();
+  // All loaded translations including heretical/english
+  const ALL_LOADED_TRANS = [...TRANSLATIONS.bibleFull, ...TRANSLATIONS.ntFull,
+    ...TRANSLATIONS.ntPartial, ...TRANSLATIONS.otPartial,
+    ...TRANSLATIONS.heretical, ...TRANSLATIONS.english]
+    .filter(t => t.loaded);
 
-    async function selectAvailable() {
-      const bookCode = BOOK_CODES[currentBook];
-      const ch = currentChapter;
-      const checks = await Promise.all(allLoaded.map(async t => {
-        if (t.id === 'SEA1666'   && !SEA_BOOKS.has(bookCode))       return false;
-        if (t.id === 'BGT'       && !BGT_BOOKS.has(bookCode))       return false;
-        if (t.id === 'TSV'       && !TSV_BOOKS.has(bookCode))       return false;
-        if (t.id === 'KKDEU'    && !KKDEU_NT_BOOKS.has(bookCode))  return false;
-        if (t.id === 'TTT'       && !TTT_NT_BOOKS.has(bookCode))    return false;
-        if (t.id === 'CAN'       && !CAN_NT_BOOKS.has(bookCode))    return false;
-        if (t.id === 'COS'       && !COS_NT_BOOKS.has(bookCode))    return false;
-        if (t.id === 'KIE1819'  && !KIE1819_NT_BOOKS.has(bookCode)) return false;
-        if (t.id === 'TUR1852-57'&& !TUR1852_BOOKS.has(bookCode))  return false;
-        if (t.id === 'SEL1866-77'&& !SEL1866_BOOKS.has(bookCode))  return false;
-        if (t.id === 'HAKK'     && !HAKK_NT_BOOKS.has(bookCode))   return false;
-        if (t.id === 'HKTN'     && !HKTN_BOOKS.has(bookCode))     return false;
-        if (t.id === 'NSH1739'  && !NSH1739_BOOKS.has(bookCode))  return false;
-        if (t.id === 'MEZ1669'  && !MEZ1669_BOOKS.has(bookCode))  return false;
-        try {
-          const r = await fetch(`data/translations/${t.id}/${bookCode}/${ch}.json`, { method: 'HEAD' });
-          return r.ok;
-        } catch { return false; }
-      }));
-      allLoaded.forEach((t, i) => checks[i] ? selectedTranslations.add(t.id) : selectedTranslations.delete(t.id));
-      document.querySelectorAll('#panel-translations .trans-item input[type="checkbox"]').forEach(cb => {
-        cb.checked = selectedTranslations.has(cb.dataset.tid);
-      });
-      syncSelectAll();
+  // Sync ALL checkboxes from selectedTranslations (single source of truth)
+  function syncTranslationUI() {
+    document.querySelectorAll('#panel-translations input[type="checkbox"][data-tid]').forEach(cb => {
+      cb.checked = selectedTranslations.has(cb.dataset.tid);
+    });
+    syncSelectAllBar();
+  }
+
+  // Update the count label and button text
+  function syncSelectAllBar() {
+    const total    = BULK_TRANS.length;
+    const selected = BULK_TRANS.filter(t => selectedTranslations.has(t.id)).length;
+    const countEl  = document.getElementById('trans-selected-count');
+    const btnEl    = document.getElementById('btn-select-all');
+    if (countEl) countEl.textContent = `${selected} / ${total} seçili`;
+    if (btnEl)   btnEl.textContent   = (selected > 0) ? 'Hiçbirini Seçme' : 'Tümünü Seç';
+  }
+  syncSelectAllBar(); // initial render
+
+  // ── Select-all / Deselect-all button ──────────────────────────────────
+  let _selectAllBusy = false;
+  document.getElementById('btn-select-all').addEventListener('click', async function() {
+    if (_selectAllBusy) return;
+
+    const anySelected = BULK_TRANS.some(t => selectedTranslations.has(t.id));
+    if (anySelected) {
+      // Deselect ALL including heretical
+      ALL_LOADED_TRANS.forEach(t => selectedTranslations.delete(t.id));
+      syncTranslationUI();
       rebuildColumns();
+      triggerSearch();
+      return;
     }
 
-    btn.addEventListener('click', async () => {
-      if (allLoaded.every(t => selectedTranslations.has(t.id))) {
-        allLoaded.forEach(t => selectedTranslations.delete(t.id));
-        document.querySelectorAll('#panel-translations .trans-item input[type="checkbox"]').forEach(cb => { cb.checked = false; });
-        syncSelectAll();
-        rebuildColumns();
-      } else {
-        btn.textContent = 'Kontrol ediliyor…';
-        btn.disabled = true;
-        await selectAvailable();
-        btn.disabled = false;
-      }
+    // Select all available for this book/chapter via HEAD check
+    _selectAllBusy  = true;
+    this.textContent = 'Kontrol ediliyor…';
+    this.disabled    = true;
+
+    const bookCode = BOOK_CODES[currentBook];
+    const ch       = currentChapter;
+
+    const avail = await Promise.all(BULK_TRANS.map(async t => {
+      if (!isTransAvailableForBook(t.id, bookCode)) return false;
+      try {
+        const r = await fetch(`data/translations/${t.id}/${bookCode}/${ch}.json`, { method: 'HEAD' });
+        return r.ok;
+      } catch { return false; }
+    }));
+
+    BULK_TRANS.forEach((t, i) => {
+      if (avail[i]) selectedTranslations.add(t.id);
+      else          selectedTranslations.delete(t.id);
     });
 
-    // Keep count in sync when individual checkboxes change
-    document.querySelectorAll('#panel-translations .trans-item input[type="checkbox"]').forEach(cb => {
-      cb.addEventListener('change', syncSelectAll);
-    });
-  })();
+    syncTranslationUI();
+    rebuildColumns();
+    triggerSearch();
+
+    _selectAllBusy   = false;
+    this.disabled    = false;
+  });
 
   // ── Heretical warning banner ──────────────────────────────────────────
   (function() {
@@ -1390,9 +1663,9 @@
     hBtnRemove.addEventListener('click', () => {
       if (hActiveTid) {
         selectedTranslations.delete(hActiveTid);
-        const cb = document.querySelector(`#trans-heretical input[data-tid="${hActiveTid}"]`);
-        if (cb) cb.checked = false;
+        syncTranslationUI();
         rebuildColumns();
+        triggerSearch();
       }
       hideHereticWarning();
     });
@@ -1560,8 +1833,510 @@
     }
   });
 
+  // ── Verse reference parser ────────────────────────────────────────────
+  // Normalise a book-name fragment for lookup (strip accents, spaces, dots)
+  function normB(s) {
+    return s.toLowerCase()
+      .replace(/[\s.'`\-]/g, '')
+      .replace(/İ|ı|I/g,'i').replace(/ş/g,'s').replace(/ğ/g,'g')
+      .replace(/ö/g,'o').replace(/ü/g,'u').replace(/ç/g,'c')
+      .replace(/â/g,'a').replace(/î/g,'i').replace(/û/g,'u');
+  }
+
+  const _VR_RAW = [
+    ['GEN',['gen','genesis','yar','yaratis','yaratilis']],
+    ['EXO',['exo','ex','exod','exodus','cik','cikis','misirdancikis','misirdan']],
+    ['LEV',['lev','leviticus','levililer']],
+    ['NUM',['num','numbers','say','sayim','coldesayim']],
+    ['DEU',['deu','deut','deuteronomy','yas','yasanintekrari','tesniye']],
+    ['JOS',['jos','josh','joshua','yesu','yos']],
+    ['JDG',['jdg','judg','judges','hak','hakimler']],
+    ['RUT',['rut','ruth']],
+    ['1SA',['1sa','1sam','1samuel']],
+    ['2SA',['2sa','2sam','2samuel']],
+    ['1KI',['1ki','1kgs','1kings','1kr','1krallar']],
+    ['2KI',['2ki','2kgs','2kings','2kr','2krallar']],
+    ['1CH',['1ch','1chr','1chronicles','1ta','1tarihler']],
+    ['2CH',['2ch','2chr','2chronicles','2ta','2tarihler']],
+    ['EZR',['ezr','ezra']],
+    ['NEH',['neh','nehemiah','nehemya']],
+    ['EST',['est','esther','ester']],
+    ['JOB',['job','eyu','eyup','eyub']],
+    ['PSA',['ps','psa','psalm','psalms','mez','mezmurlar']],
+    ['PRO',['prov','pro','proverbs','suz','ozdeyisler','suleymanin']],
+    ['ECC',['ecc','eccl','ecclesiastes','vai','vaiz']],
+    ['SNG',['song','sos','sng','ezgilerezgisi','ezgiler','guzelsar']],
+    ['ISA',['isa','isaiah','yesaya','ysa']],
+    ['JER',['jer','jeremiah','yeremya','yer']],
+    ['LAM',['lam','lamentations','agitlar','agi']],
+    ['EZK',['ezk','ezek','ezekiel','hezekiel','hez']],
+    ['DAN',['dan','daniel']],
+    ['HOS',['hos','hosea','hosea']],
+    ['JOL',['jol','joel','yoel']],
+    ['AMO',['amo','amos']],
+    ['OBA',['oba','obad','obadiah','ova','ovadya']],
+    ['JON',['jon','jonah','yun','yunus']],
+    ['MIC',['mic','micah','mik','mika']],
+    ['NAH',['nah','nahum']],
+    ['HAB',['hab','habakkuk']],
+    ['ZEP',['zep','zeph','zephaniah','zef','zefanya']],
+    ['HAG',['hag','haggai','hagay']],
+    ['ZEC',['zec','zech','zechariah','zek','zekeriya']],
+    ['MAL',['mal','malachi','malaki']],
+    ['MAT',['mat','matt','mt','matthew','matta']],
+    ['MRK',['mrk','mk','mar','mark','markos']],
+    ['LUK',['luk','lk','luke','luka']],
+    ['JHN',['jhn','jn','joh','john','yuh','yuhanna']],
+    ['ACT',['act','acts','elc','elcilerin','elcilerinisleri']],
+    ['ROM',['rom','romans','romalilar']],
+    ['1CO',['1co','1cor','1corinthians','1ko','1korintliler']],
+    ['2CO',['2co','2cor','2corinthians','2ko','2korintliler']],
+    ['GAL',['gal','galatians','galatiyalilar','galatya']],
+    ['EPH',['eph','ephesians','efe','efesliler']],
+    ['PHP',['php','phil','philippians','fil','filipililer']],
+    ['COL',['col','colossians','kol','koloseliler']],
+    ['1TH',['1th','1thes','1thess','1thessalonians','1se','1selanikliler']],
+    ['2TH',['2th','2thes','2thess','2thessalonians','2se','2selanikliler']],
+    ['1TI',['1ti','1tim','1timothy','1timoteos']],
+    ['2TI',['2ti','2tim','2timothy','2timoteos']],
+    ['TIT',['tit','titus']],
+    ['PHM',['phm','phlm','philemon','flm','filemon']],
+    ['HEB',['heb','hebrews','ibr','ibraniler']],
+    ['JAS',['jas','james','yak','yakup']],
+    ['1PE',['1pe','1pet','1peter','1petrus']],
+    ['2PE',['2pe','2pet','2peter','2petrus']],
+    ['1JN',['1jn','1joh','1john','1yuh','1yuhanna']],
+    ['2JN',['2jn','2joh','2john','2yuh','2yuhanna']],
+    ['3JN',['3jn','3joh','3john','3yuh','3yuhanna']],
+    ['JUD',['jud','jude','yah','yahuda']],
+    ['REV',['rev','revelation','vah','vahiy']],
+  ];
+  const _VR_MAP = {};
+  _VR_RAW.forEach(([code, names]) => names.forEach(n => { _VR_MAP[normB(n)] = code; }));
+
+  function _editDist(a, b) {
+    if (a === b) return 0;
+    const m = a.length, n = b.length;
+    if (!m) return n; if (!n) return m;
+    let prev = Array.from({length: n+1}, (_,i) => i);
+    for (let i = 1; i <= m; i++) {
+      const cur = [i];
+      for (let j = 1; j <= n; j++)
+        cur[j] = a[i-1]===b[j-1] ? prev[j-1] : 1+Math.min(prev[j],cur[j-1],prev[j-1]);
+      prev = cur;
+    }
+    return prev[n];
+  }
+
+  function _lookupBook(raw) {
+    const norm = normB(raw);
+    if (!norm) return null;
+    // Exact
+    if (_VR_MAP[norm]) return _VR_MAP[norm];
+    // Prefix: input is a prefix of a known key (min 2 chars)
+    if (norm.length >= 2) {
+      let best = null, bestLen = 0;
+      for (const key of Object.keys(_VR_MAP)) {
+        if (key.startsWith(norm) && norm.length > bestLen) { best = _VR_MAP[key]; bestLen = norm.length; }
+      }
+      if (best) return best;
+    }
+    // Fuzzy: allow 1 edit for short names, 2 for longer
+    let bestCode = null, bestDist = Infinity;
+    const maxErr = norm.length <= 4 ? 1 : 2;
+    for (const [key, code] of Object.entries(_VR_MAP)) {
+      if (Math.abs(key.length - norm.length) > maxErr) continue;
+      const d = _editDist(norm, key);
+      if (d < bestDist && d <= maxErr) { bestDist = d; bestCode = code; }
+    }
+    return bestCode;
+  }
+
+  // Parse "yuh 3:16", "john 3 16", "1jn3:16", "jhn. 3,16", etc.
+  // Returns {bookCode, chap, verse} or null.
+  function parseVerseRef(raw) {
+    // Tokenise: split on separators, also split alpha-digit boundaries
+    const s = raw.trim()
+      .replace(/[,;:]/g, ' ')
+      .replace(/\./g,  ' ')
+      .replace(/([a-zA-ZğüşıöçĞÜŞİÖÇ])(\d)/g, '$1 $2')
+      .replace(/(\d)([a-zA-ZğüşıöçĞÜŞİÖÇ])/g, '$1 $2')
+      .replace(/\s+/g, ' ').trim();
+
+    const tokens = s.split(' ').filter(Boolean);
+    if (tokens.length < 2) return null;
+
+    // Last two pure-number tokens → verse, chapter
+    const numIdx = tokens.reduce((a, t, i) => (/^\d+$/.test(t) ? [...a, i] : a), []);
+    if (numIdx.length < 2) return null;
+
+    const versePos = numIdx[numIdx.length - 1];
+    const chapPos  = numIdx[numIdx.length - 2];
+    const verse = parseInt(tokens[versePos], 10);
+    const chap  = parseInt(tokens[chapPos],  10);
+    if (verse < 1 || chap < 1) return null;
+
+    // Book = all tokens before chapPos, joined (handles "1 john", "song of solomon")
+    const bookStr = tokens.slice(0, chapPos).join('');
+    if (!bookStr) return null;
+
+    const bookCode = _lookupBook(bookStr);
+    return bookCode ? { bookCode, chap, verse } : null;
+  }
+
+  // Navigate to bookCode/chap and scroll+highlight verse once columns load
+  function goToVerse(bookCode, chap, verse) {
+    const bookName = BOOK_CODES_REV[bookCode];
+    if (!bookName) return false;
+    navigateToBook(bookName, chap);
+    // Poll until verse elements appear (columns load asynchronously)
+    let tries = 25;
+    const label = String(verse);
+    const poll = () => {
+      const el = Array.from(document.querySelectorAll('.verse[data-v]'))
+                      .find(v => verseLabelsOverlap(label, v.dataset.v));
+      if (el) {
+        el.scrollIntoView({ behavior: 'smooth', block: 'center' });
+        selectedVerses.clear();
+        document.querySelectorAll('.verse').forEach(v => v.classList.remove('v-selected'));
+        selectedVerses.add(label);
+        highlightVerse(label, 'v-selected', true);
+      } else if (--tries > 0) {
+        setTimeout(poll, 120);
+      }
+    };
+    setTimeout(poll, 80);
+    return true;
+  }
+
+  // ── Search engine ─────────────────────────────────────────────────────
+  function normTr(s) {
+    // Replace İ before toLowerCase — JS's toLowerCase('İ') yields 'i̇' (2 chars)
+    return s
+      .replace(/İ/g, 'i')
+      .toLowerCase()
+      .replace(/â/g, 'a').replace(/Â/g, 'a')
+      .replace(/î/g, 'i').replace(/Î/g, 'i')
+      .replace(/û/g, 'u').replace(/Û/g, 'u')
+      .replace(/ş/g, 's')
+      .replace(/ğ/g, 'g')
+      .replace(/ç/g, 'c');
+  }
+
+  function escHtml(s) {
+    return s.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
+  }
+
+  function highlightMatch(text, normQ) {
+    const normText = normTr(text);
+    const idx = normText.indexOf(normQ);
+    if (idx < 0) return escHtml(text);
+    const before = escHtml(text.slice(0, idx));
+    const matched = escHtml(text.slice(idx, idx + normQ.length));
+    const after   = escHtml(text.slice(idx + normQ.length));
+    return `${before}<mark>${matched}</mark>${after}`;
+  }
+
+  function searchInCache(normQ) {
+    const results = {};
+    for (const [key, verses] of chapterCache) {
+      const [tid, bookCode, chapStr] = key.split('|');
+      if (!selectedTranslations.has(tid)) continue;
+      for (const v of verses) {
+        if (!v.text) continue;
+        if (normTr(v.text).includes(normQ)) {
+          if (!results[tid]) results[tid] = [];
+          results[tid].push({ bookCode, chap: parseInt(chapStr, 10), v: v.v, text: v.text });
+        }
+      }
+    }
+    return results;
+  }
+
+  const srEl = document.getElementById('search-results');
+
+  function positionSearchResults() {
+    const wrap = document.getElementById('search-wrap');
+    if (!wrap) return;
+    const r = wrap.getBoundingClientRect();
+    srEl.style.left  = r.left + 'px';
+    srEl.style.top   = (r.bottom + 4) + 'px';
+    srEl.style.width = Math.max(r.width, 400) + 'px';
+  }
+
+  function renderSearchResults(normQ, results, scanned) {
+    const tids = Object.keys(results);
+    const totalHits = tids.reduce((s, t) => s + results[t].length, 0);
+    const MAX_PER_TRANS = 15;
+
+    let html = `<div class="sr-header">
+      <span class="sr-count">${totalHits > 0 ? totalHits + ' sonuç' : 'Sonuç bulunamadı'}</span>
+      ${!scanned ? `<button class="sr-scan-btn" id="sr-scan-btn">Tümünü Tara</button>` : ''}
+    </div>`;
+
+    if (tids.length === 0) {
+      html += `<div class="sr-empty">Görüntülenen bölümlerde eşleşme yok.<br>${!scanned ? 'Tüm kitabı taramak için "Tümünü Tara" düğmesine tıklayın.' : ''}</div>`;
+    } else {
+      for (const tid of tids) {
+        const hits = results[tid];
+        const transName = ALL_TRANS[tid]?.name ?? tid;
+        html += `<div class="sr-trans-label">${escHtml(transName)}</div>`;
+        const shown = hits.slice(0, MAX_PER_TRANS);
+        for (const h of shown) {
+          const bookName = BOOK_CODES_REV?.[h.bookCode] ?? h.bookCode;
+          const ref = `${escHtml(bookName)} ${h.chap}:${h.v}`;
+          html += `<div class="sr-result" data-tid="${escHtml(tid)}" data-book="${escHtml(h.bookCode)}" data-chap="${h.chap}" data-v="${h.v}">
+            <span class="sr-ref">${ref}</span>
+            <span class="sr-text">${highlightMatch(h.text, normQ)}</span>
+          </div>`;
+        }
+        if (hits.length > MAX_PER_TRANS) {
+          html += `<div class="sr-more">+ ${hits.length - MAX_PER_TRANS} sonuç daha</div>`;
+        }
+      }
+    }
+
+    positionSearchResults();
+    srEl.innerHTML = html;
+    srEl.classList.add('open');
+
+    document.getElementById('sr-scan-btn')?.addEventListener('click', () => {
+      scanCurrentBook(normQ);
+    });
+
+    srEl.querySelectorAll('.sr-result').forEach(row => {
+      row.addEventListener('click', () => {
+        const { tid, book, chap, v } = row.dataset;
+        const bookName = BOOK_CODES_REV?.[book] ?? book;
+        if (bookName !== currentBook) navigateToBook(bookName, parseInt(chap, 10));
+        else if (parseInt(chap, 10) !== currentChapter) { setChapter(parseInt(chap, 10)); loadAll(); }
+        srEl.classList.remove('open');
+        requestAnimationFrame(() => {
+          const target = document.querySelector(`.verse[data-v="${v}"]`);
+          target?.scrollIntoView({ behavior: 'smooth', block: 'center' });
+        });
+      });
+    });
+  }
+
+  async function scanCurrentBook(normQ) {
+    if (searchState.scanning) return;
+    searchState.scanning = true;
+
+    const bookCode = BOOK_CODES[currentBook];
+    const totalCh  = CHAPTER_COUNTS[currentBook] ?? 1;
+    const selTids  = [...selectedTranslations].filter(tid => isTransAvailableForBook(tid, bookCode));
+
+    srEl.innerHTML = `<div class="sr-progress">Tüm bölümler taranıyor…</div>`;
+    srEl.classList.add('open');
+    positionSearchResults();
+
+    const fetches = [];
+    for (const tid of selTids) {
+      for (let ch = 1; ch <= totalCh; ch++) {
+        const key = `${tid}|${bookCode}|${ch}`;
+        if (chapterCache.has(key)) continue;
+        fetches.push(
+          fetch(`data/translations/${tid}/${bookCode}/${ch}.json`)
+            .then(r => r.ok ? r.json() : null)
+            .then(d => { if (d) chapterCache.set(key, d.content ?? []); })
+            .catch(() => {})
+        );
+      }
+    }
+
+    await Promise.all(fetches);
+    searchState.scanning = false;
+
+    const results = searchInCache(normQ);
+    renderSearchResults(normQ, results, true);
+  }
+
+  function triggerSearch() {
+    const raw  = document.getElementById('search-input')?.value ?? '';
+    const normQ = normTr(raw.trim());
+    if (normQ.length < 2) {
+      srEl.classList.remove('open');
+      return;
+    }
+    const results = searchInCache(normQ);
+    renderSearchResults(normQ, results, false);
+  }
+
+  document.getElementById('search-input')?.addEventListener('input', () => {
+    clearTimeout(searchState.timer);
+    searchState.timer = setTimeout(triggerSearch, 300);
+  });
+
+  document.getElementById('search-input')?.addEventListener('keydown', e => {
+    if (e.key === 'Enter') {
+      const q = e.target.value.trim();
+      if (!q) return;
+      // Check for verse reference first
+      const ref = parseVerseRef(q);
+      if (ref && goToVerse(ref.bookCode, ref.chap, ref.verse)) {
+        srEl.classList.remove('open');
+        e.target.value = '';
+        return;
+      }
+      // Otherwise open search page
+      if (q.length >= 2) {
+        const tids = [...selectedTranslations].join(',');
+        window.open(`search.html?q=${encodeURIComponent(q)}&t=${encodeURIComponent(tids)}`, '_blank');
+      }
+    }
+  });
+
+  document.addEventListener('click', e => {
+    if (!srEl.contains(e.target) && e.target.id !== 'search-input') {
+      srEl.classList.remove('open');
+    }
+  });
+
+  window.addEventListener('resize', () => {
+    if (srEl.classList.contains('open')) positionSearchResults();
+  });
+
+  // Build reverse book code lookup once (bookCode → bookName)
+  const BOOK_CODES_REV = Object.fromEntries(
+    Object.entries(BOOK_CODES).map(([name, code]) => [code, name])
+  );
+
+  // ── URL param restore (from search page links) ────────────────────────
+  (function() {
+    const p = new URLSearchParams(location.search);
+    const b = p.get('b');
+    const c = parseInt(p.get('c') || '0', 10);
+    const t = p.get('t');
+    const v = p.get('v');
+
+    if (t) {
+      const tids = t.split(',').filter(id => ALL_TRANS[id]);
+      // Replace default selection with URL-specified translations
+      selectedTranslations.clear();
+      tids.forEach(id => selectedTranslations.add(id));
+      syncTranslationUI();
+    }
+
+    if (b && BOOK_CODES[b]) {
+      currentBook = b;
+      document.getElementById('btn-books').childNodes[0].textContent = b + ' ';
+      ['books-ot','books-nt'].forEach(id => {
+        document.getElementById(id)?.querySelectorAll('.book-btn').forEach(btn =>
+          btn.classList.toggle('active', btn.textContent === b));
+      });
+      buildChapters(b);
+      if (c > 0) setChapter(c);
+    }
+
+    if (v) {
+      // Scroll to verse after columns load
+      const targetV = v;
+      const origLoadAll = window._loadAllHook;
+      const scrollOnce = () => {
+        requestAnimationFrame(() => {
+          const el = document.querySelector(`.verse[data-v="${targetV}"]`);
+          if (el) {
+            el.scrollIntoView({ behavior: 'smooth', block: 'center' });
+            el.classList.add('v-selected');
+          }
+        });
+      };
+      setTimeout(scrollOnce, 800);
+    }
+  })();
+
   // ── Initial build ─────────────────────────────────────────────────────
   rebuildColumns();
+
+  // ── Mobile: translation tab bar + swipe ──────────────────────────────
+  const mobileTabBar = document.getElementById('mobile-col-tabs');
+  let mobActiveIdx = 0;
+
+  function isMobile() { return window.innerWidth <= 640; }
+
+  function buildMobileColTabs() {
+    mobileTabBar.innerHTML = '';
+    if (!isMobile()) return;
+    const cols = Array.from(document.querySelectorAll('#okuyucu_layout .col'));
+    if (mobActiveIdx >= cols.length) mobActiveIdx = 0;
+    cols.forEach((col, i) => {
+      const tid = col.dataset.translation || '';
+      const btn = document.createElement('button');
+      btn.className = 'mob-tab' + (i === mobActiveIdx ? ' active' : '');
+      btn.textContent = tid;
+      btn.addEventListener('click', () => setMobileActiveCol(i));
+      mobileTabBar.appendChild(btn);
+    });
+    applyMobileVisibility();
+  }
+
+  function setMobileActiveCol(idx) {
+    mobActiveIdx = idx;
+    applyMobileVisibility();
+    const tabs = mobileTabBar.querySelectorAll('.mob-tab');
+    tabs.forEach((t, i) => t.classList.toggle('active', i === idx));
+    if (tabs[idx]) tabs[idx].scrollIntoView({ inline: 'nearest', block: 'nearest' });
+  }
+
+  function applyMobileVisibility() {
+    if (!isMobile()) return;
+    document.querySelectorAll('#okuyucu_layout .col')
+      .forEach((c, i) => c.classList.toggle('mob-visible', i === mobActiveIdx));
+  }
+
+  // Watch for column changes (rebuildColumns clears #okuyucu_layout)
+  new MutationObserver(() => {
+    mobActiveIdx = 0;
+    setTimeout(buildMobileColTabs, 0);
+  }).observe(document.getElementById('okuyucu_layout'), { childList: true });
+
+  // Swipe left/right on reader to switch columns
+  (function() {
+    const reader = document.getElementById('okuyucu_layout');
+    let startX = 0, startY = 0;
+    reader.addEventListener('touchstart', e => {
+      startX = e.touches[0].clientX;
+      startY = e.touches[0].clientY;
+    }, { passive: true });
+    reader.addEventListener('touchend', e => {
+      if (!isMobile()) return;
+      const dx = e.changedTouches[0].clientX - startX;
+      const dy = e.changedTouches[0].clientY - startY;
+      if (Math.abs(dx) < 40 || Math.abs(dx) < Math.abs(dy) * 1.5) return;
+      const total = document.querySelectorAll('#okuyucu_layout .col').length;
+      if (total < 2) return;
+      const next = dx < 0
+        ? Math.min(mobActiveIdx + 1, total - 1)
+        : Math.max(mobActiveIdx - 1, 0);
+      if (next !== mobActiveIdx) setMobileActiveCol(next);
+    }, { passive: true });
+  })();
+
+  // Panel backdrop (bottom-sheet overlay on mobile)
+  const backdrop = document.createElement('div');
+  backdrop.id = 'panel-backdrop';
+  document.body.appendChild(backdrop);
+  backdrop.addEventListener('click', closePanel);
+
+  // Watch panels for .open class changes → show/hide backdrop
+  document.querySelectorAll('.panel').forEach(panel => {
+    new MutationObserver(() => {
+      if (!isMobile()) return;
+      const anyOpen = !!document.querySelector('.panel.open');
+      backdrop.classList.toggle('visible', anyOpen);
+    }).observe(panel, { attributes: true, attributeFilter: ['class'] });
+  });
+
+  // Resize: re-evaluate tabs and strip mob-visible on desktop
+  window.addEventListener('resize', () => {
+    buildMobileColTabs();
+    if (!isMobile()) {
+      document.querySelectorAll('#okuyucu_layout .col')
+        .forEach(c => c.classList.remove('mob-visible'));
+      backdrop.classList.remove('visible');
+    }
+  });
 </script>
 </body>
 </html>

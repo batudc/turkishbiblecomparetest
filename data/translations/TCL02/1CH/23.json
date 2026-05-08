@@ -1,1 +1,138 @@
-{"t":"TCL02","b":"1CH","c":23,"content":[{"v":1,"text":"Davut çok yaşlanınca, oğlu Süleyman'ı İsrail Kralı yaptı."},{"v":2,"text":"Davut İsrail'in bütün önderlerini, kâhinleri, Levililer'i bir araya topladı."},{"v":3,"text":"Otuz ve daha yukarı yaştaki Levililer sayıldı. Toplamı otuz sekiz bin erkekti."},{"v":4,"text":"Bunlardan yirmi dört bini RAB'bin Tapınağı'nın işlerini gözetecek, altı bini memur ve yargıç olacaktı;"},{"v":5,"text":"dört bini kapı nöbetçisi olacak, dört bini de Davut'un RAB'bi övmek için sağladığı çalgıları çalacaktı."},{"v":6,"text":"Davut Levililer'i Levi'nin oğullarına göre bölümlere ayırdı: Gerşon, Kehat, Merari."},{"v":7,"text":"Gerşonlular: Ladan, Şimi."},{"v":8,"text":"Ladan'ın oğulları: İlk oğlu Yehiel, Zetam, Yoel. Toplam üç kişiydi."},{"v":9,"text":"Bunlar Ladan boyunun boy başlarıydı. Şimi'nin oğulları: Şelomit, Haziel, Haran. Toplam üç kişiydi."},{"v":10,"text":"Şimi'nin öbür oğulları: Yahat, Ziza, Yeuş, Beria. Bu dördü Şimi'nin oğullarıydı."},{"v":11,"text":"Yahat ilk, Ziza ikinci oğuldu. Ancak Yeuş'la Beria'nın çok sayıda oğulları olmadığı için bir boy sayıldılar."},{"v":12,"text":"Kehat'ın oğulları: Amram, Yishar, Hevron, Uzziel. Toplam dört kişi."},{"v":13,"text":"Amram'ın oğulları: Harun, Musa.  Harun'la oğulları en kutsal eşyaları korumak, RAB'bin önünde buhur yakmak, O'na hizmet etmek ve sonsuza dek O'nun adına halkı kutsamak için atandılar."},{"v":14,"text":"Tanrı adamı Musa'nın oğulları da Levi oymağından sayıldı."},{"v":15,"text":"Musa'nın oğulları: Gerşom, Eliezer."},{"v":16,"text":"Gerşom'un oğulları: Önder Şevuel."},{"v":17,"text":"Eliezer'in oğlu: Önder Rehavya. Eliezer'in başka oğlu yoktu. Rehavya'nınsa birçok oğlu vardı."},{"v":18,"text":"Yishar'ın oğulları: Önder Şelomit."},{"v":19,"text":"Hevron'un oğulları: İlk oğlu Yeriya, ikincisi Amarya, üçüncüsü Yahaziel, dördüncüsü Yekamam."},{"v":20,"text":"Uzziel'in oğulları: İlk oğlu Mika, ikincisi Yişşiya."},{"v":21,"text":"Merari'nin oğulları: Mahli, Muşi.  Mahli'nin oğulları: Elazar, Kiş."},{"v":22,"text":"Elazar oğul sahibi olmadan öldü. Ama kızları vardı. Amcaları Kiş'in oğulları onlarla evlendi."},{"v":23,"text":"Muşi'nin oğulları: Mahli, Eder, Yeremot. Toplam üç kişi."},{"v":24,"text":"Boylarına göre Levioğulları bunlardı. Boy başlarının her biri kendi adıyla sayıldı. Yirmi ve daha yukarı yaştaki Levililer, RAB'bin Tapınağı'nın işlerinde görev aldılar."},{"v":25,"text":"Çünkü Davut, “İsrail'in Tanrısı RAB halkını rahata kavuşturdu” demişti, “Yeruşalim'i de sonsuza dek kendine konut seçti."},{"v":26,"text":"Onun için Levililer'in RAB'bin Çadırı'nı ve tapınma hizmetinde kullanılan eşyaları taşımalarına artık gerek yok.”"},{"v":27,"text":"Davut'un son buyruğu uyarınca, yirmi ve daha yukarı yaştaki Levililer sayıldı."},{"v":28,"text":"Levililer'in görevi RAB'bin Tapınağı'nın hizmetinde Harunoğulları'na yardım etmekti: Avlulardan, odalardan, kutsal eşyaların arınmasından ve Tanrı'nın Tapınağı'ndaki öbür hizmetlerden sorumluydular."},{"v":29,"text":"Adak ekmeklerinden, tahıl sunusu için kullanılan ince undan, mayasız ince ekmekten, sacda pişirilen yiyeceklerden ve zeytinyağıyla karıştırılan sunulardan, her tür hacim ve uzunluk ölçülerinden onlar sorumluydu."},{"v":30,"text":"RAB'be şükretmek, övgüler sunmak üzere her sabah ve akşam tapınakta hazır bulunacaklardı."},{"v":31,"text":"Şabat Günü, Yeni Ay Töreni ve öbür bayramlarda RAB'be yakmalık sunular sunulduğunda da hazır bulunacaklardı. RAB'bin önünde, kendileri için belirlenen ilkeler uyarınca uygun sayıda sürekli hizmet edeceklerdi."},{"v":32,"text":"Böylece Levililer Buluşma Çadırı'na ve kutsal yere bakma, RAB'bin Tapınağı'nın hizmetinde kardeşleri Harunoğulları'na yardım etme görevini üstlendiler."}]}
+{
+  "t": "TCL02",
+  "b": "1CH",
+  "c": 23,
+  "content": [
+    {
+      "v": 1,
+      "text": "Davut çok yaşlanınca, oğlu Süleyman'ı İsrail Kralı yaptı."
+    },
+    {
+      "section": "Levililer'in Görevleri"
+    },
+    {
+      "v": 2,
+      "text": "Davut İsrail'in bütün önderlerini, kâhinleri, Levililer'i bir araya topladı."
+    },
+    {
+      "v": 3,
+      "text": "Otuz ve daha yukarı yaştaki Levililer sayıldı. Toplamı otuz sekiz bin erkekti."
+    },
+    {
+      "v": 4,
+      "text": "Bunlardan yirmi dört bini RAB'bin Tapınağı'nın işlerini gözetecek, altı bini memur ve yargıç olacaktı;"
+    },
+    {
+      "v": 5,
+      "text": "dört bini kapı nöbetçisi olacak, dört bini de Davut'un RAB'bi övmek için sağladığı çalgıları çalacaktı."
+    },
+    {
+      "v": 6,
+      "text": "Davut Levililer'i Levi'nin oğullarına göre bölümlere ayırdı: Gerşon, Kehat, Merari."
+    },
+    {
+      "v": 7,
+      "text": "Gerşonlular: Ladan, Şimi."
+    },
+    {
+      "v": 8,
+      "text": "Ladan'ın oğulları: İlk oğlu Yehiel, Zetam, Yoel. Toplam üç kişiydi."
+    },
+    {
+      "v": 9,
+      "text": "Bunlar Ladan boyunun boy başlarıydı. Şimi'nin oğulları: Şelomit, Haziel, Haran. Toplam üç kişiydi."
+    },
+    {
+      "v": 10,
+      "text": "Şimi'nin öbür oğulları: Yahat, Ziza, Yeuş, Beria. Bu dördü Şimi'nin oğullarıydı."
+    },
+    {
+      "v": 11,
+      "text": "Yahat ilk, Ziza ikinci oğuldu. Ancak Yeuş'la Beria'nın çok sayıda oğulları olmadığı için bir boy sayıldılar."
+    },
+    {
+      "v": 12,
+      "text": "Kehat'ın oğulları: Amram, Yishar, Hevron, Uzziel. Toplam dört kişi."
+    },
+    {
+      "v": 13,
+      "text": "Amram'ın oğulları: Harun, Musa.  Harun'la oğulları en kutsal eşyaları korumak, RAB'bin önünde buhur yakmak, O'na hizmet etmek ve sonsuza dek O'nun adına halkı kutsamak için atandılar."
+    },
+    {
+      "v": 14,
+      "text": "Tanrı adamı Musa'nın oğulları da Levi oymağından sayıldı."
+    },
+    {
+      "v": 15,
+      "text": "Musa'nın oğulları: Gerşom, Eliezer."
+    },
+    {
+      "v": 16,
+      "text": "Gerşom'un oğulları: Önder Şevuel."
+    },
+    {
+      "v": 17,
+      "text": "Eliezer'in oğlu: Önder Rehavya. Eliezer'in başka oğlu yoktu. Rehavya'nınsa birçok oğlu vardı."
+    },
+    {
+      "v": 18,
+      "text": "Yishar'ın oğulları: Önder Şelomit."
+    },
+    {
+      "v": 19,
+      "text": "Hevron'un oğulları: İlk oğlu Yeriya, ikincisi Amarya, üçüncüsü Yahaziel, dördüncüsü Yekamam."
+    },
+    {
+      "v": 20,
+      "text": "Uzziel'in oğulları: İlk oğlu Mika, ikincisi Yişşiya."
+    },
+    {
+      "v": 21,
+      "text": "Merari'nin oğulları: Mahli, Muşi.  Mahli'nin oğulları: Elazar, Kiş."
+    },
+    {
+      "v": 22,
+      "text": "Elazar oğul sahibi olmadan öldü. Ama kızları vardı. Amcaları Kiş'in oğulları onlarla evlendi."
+    },
+    {
+      "v": 23,
+      "text": "Muşi'nin oğulları: Mahli, Eder, Yeremot. Toplam üç kişi."
+    },
+    {
+      "v": 24,
+      "text": "Boylarına göre Levioğulları bunlardı. Boy başlarının her biri kendi adıyla sayıldı. Yirmi ve daha yukarı yaştaki Levililer, RAB'bin Tapınağı'nın işlerinde görev aldılar."
+    },
+    {
+      "v": 25,
+      "text": "Çünkü Davut, “İsrail'in Tanrısı RAB halkını rahata kavuşturdu” demişti, “Yeruşalim'i de sonsuza dek kendine konut seçti."
+    },
+    {
+      "v": 26,
+      "text": "Onun için Levililer'in RAB'bin Çadırı'nı ve tapınma hizmetinde kullanılan eşyaları taşımalarına artık gerek yok.”"
+    },
+    {
+      "v": 27,
+      "text": "Davut'un son buyruğu uyarınca, yirmi ve daha yukarı yaştaki Levililer sayıldı."
+    },
+    {
+      "v": 28,
+      "text": "Levililer'in görevi RAB'bin Tapınağı'nın hizmetinde Harunoğulları'na yardım etmekti: Avlulardan, odalardan, kutsal eşyaların arınmasından ve Tanrı'nın Tapınağı'ndaki öbür hizmetlerden sorumluydular."
+    },
+    {
+      "v": 29,
+      "text": "Adak ekmeklerinden, tahıl sunusu için kullanılan ince undan, mayasız ince ekmekten, sacda pişirilen yiyeceklerden ve zeytinyağıyla karıştırılan sunulardan, her tür hacim ve uzunluk ölçülerinden onlar sorumluydu."
+    },
+    {
+      "v": 30,
+      "text": "RAB'be şükretmek, övgüler sunmak üzere her sabah ve akşam tapınakta hazır bulunacaklardı."
+    },
+    {
+      "v": 31,
+      "text": "Şabat Günü, Yeni Ay Töreni ve öbür bayramlarda RAB'be yakmalık sunular sunulduğunda da hazır bulunacaklardı. RAB'bin önünde, kendileri için belirlenen ilkeler uyarınca uygun sayıda sürekli hizmet edeceklerdi."
+    },
+    {
+      "v": 32,
+      "text": "Böylece Levililer Buluşma Çadırı'na ve kutsal yere bakma, RAB'bin Tapınağı'nın hizmetinde kardeşleri Harunoğulları'na yardım etme görevini üstlendiler."
+    }
+  ]
+}

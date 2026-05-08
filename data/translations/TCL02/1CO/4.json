@@ -1,1 +1,95 @@
-{"t":"TCL02","b":"1CO","c":4,"content":[{"v":1,"text":"Böylece insanlar bizi Mesih'in hizmetkârları ve Tanrı'nın sırlarının kâhyaları saysın."},{"v":2,"text":"Kâhyada aranan başlıca nitelik güvenilir olmasıdır."},{"v":3,"text":"Sizin tarafınızdan ya da olağan bir mahkeme tarafından yargılanırsam hiç aldırmam. Kendi kendimi de yargılamıyorum."},{"v":4,"text":"Kendimde bir kusur görmüyorum. Ama bu beni aklamaz. Beni yargılayan Rab'dir."},{"v":5,"text":"Bu nedenle, belirlenen zamandan önce hiçbir şeyi yargılamayın. Rab'bin gelişini bekleyin. O, karanlığın gizlediklerini aydınlığa çıkaracak, yüreklerdeki amaçları açığa vuracaktır. O zaman herkes Tanrı'dan payına düşen övgüyü alacaktır."},{"v":6,"text":"Kardeşler, bizden örnek alarak, “Yazılmış olanın dışına çıkmayın” sözünün anlamını öğrenmeniz için bu ilkeleri sizin yararınıza kendime ve Apollos'a uyguladım. Öyle ki, hiç kimse biriyle övünüp bir başkasını hor görmesin."},{"v":7,"text":"Seni başkasından üstün kılan kim? Tanrı'dan almadığın neyin var ki? Madem aldın, niçin almamış gibi övünüyorsun?"},{"v":8,"text":"Zaten tok ve zenginsiniz! Biz olmadan krallar olmuşsunuz! Keşke gerçekten krallar olsaydınız da, biz de sizinle birlikte krallık etseydik!"},{"v":9,"text":"Kanımca Tanrı biz elçileri, en geriden gelen ölüm hükümlüleri gibi gözler önüne serdi. Hem melekler hem insanlar için, bütün evren için seyirlik oyun olduk."},{"v":10,"text":"Biz Mesih uğruna akılsızız, ama siz Mesih'te akıllısınız! Biz zayıfız, siz güçlüsünüz! Siz saygıdeğer kişilersiniz, bizse değersiziz!"},{"v":11,"text":"Şu ana dek aç, susuz, çıplağız. Dövülüyoruz, barınacak yerimiz yok."},{"v":12,"text":"Kendi ellerimizle çalışıp emek veriyoruz. Bize sövenlere iyilik diliyoruz, zulmedilince sabrediyoruz."},{"v":13,"text":"İftiraya uğrayınca tatlılıkla karşılık veriyoruz. Şu ana dek adeta dünyanın süprüntüsü, her şeyin döküntüsü olduk."},{"v":14,"text":"Bunları sizi utandırmak için değil, siz sevgili çocuklarımı uyarmak için yazıyorum."},{"v":15,"text":"Çünkü Mesih'in yolunda sayısız eğiticiniz olsa da çok sayıda babanız yoktur. Size Müjde'yi ulaştırmakla Mesih İsa'da manevi babanız oldum."},{"v":16,"text":"Bu nedenle beni örnek almaya çağırıyorum sizi."},{"v":17,"text":"Rab'be sadık olan sevgili çocuğum Timoteos'u bu amaçla size gönderiyorum. Her yerde, her kilisede öğrettiğim ve Mesih'te izlediğim yolları o size anımsatacaktır."},{"v":18,"text":"Bazılarınız yanınıza gelmeyeceğimi sanarak küstahlaşıyor."},{"v":19,"text":"Ama Rab dilerse yakında yanınıza geleceğim. O zaman bu küstahların söylediklerini değil, güçlerinin ne olduğunu öğreneceğim."},{"v":20,"text":"Çünkü Tanrı'nın Egemenliği lafta değil, güçtedir."},{"v":21,"text":"Ne istiyorsunuz? Size sopayla mı geleyim, yoksa sevgi ve yumuşak bir ruhla mı?"}]}
+{
+  "t": "TCL02",
+  "b": "1CO",
+  "c": 4,
+  "content": [
+    {
+      "section": "Mesih'in Elçileri"
+    },
+    {
+      "v": 1,
+      "text": "Böylece insanlar bizi Mesih'in hizmetkârları ve Tanrı'nın sırlarının kâhyaları saysın."
+    },
+    {
+      "v": 2,
+      "text": "Kâhyada aranan başlıca nitelik güvenilir olmasıdır."
+    },
+    {
+      "v": 3,
+      "text": "Sizin tarafınızdan ya da olağan bir mahkeme tarafından yargılanırsam hiç aldırmam. Kendi kendimi de yargılamıyorum."
+    },
+    {
+      "v": 4,
+      "text": "Kendimde bir kusur görmüyorum. Ama bu beni aklamaz. Beni yargılayan Rab'dir."
+    },
+    {
+      "v": 5,
+      "text": "Bu nedenle, belirlenen zamandan önce hiçbir şeyi yargılamayın. Rab'bin gelişini bekleyin. O, karanlığın gizlediklerini aydınlığa çıkaracak, yüreklerdeki amaçları açığa vuracaktır. O zaman herkes Tanrı'dan payına düşen övgüyü alacaktır."
+    },
+    {
+      "v": 6,
+      "text": "Kardeşler, bizden örnek alarak, “Yazılmış olanın dışına çıkmayın” sözünün anlamını öğrenmeniz için bu ilkeleri sizin yararınıza kendime ve Apollos'a uyguladım. Öyle ki, hiç kimse biriyle övünüp bir başkasını hor görmesin."
+    },
+    {
+      "v": 7,
+      "text": "Seni başkasından üstün kılan kim? Tanrı'dan almadığın neyin var ki? Madem aldın, niçin almamış gibi övünüyorsun?"
+    },
+    {
+      "v": 8,
+      "text": "Zaten tok ve zenginsiniz! Biz olmadan krallar olmuşsunuz! Keşke gerçekten krallar olsaydınız da, biz de sizinle birlikte krallık etseydik!"
+    },
+    {
+      "v": 9,
+      "text": "Kanımca Tanrı biz elçileri, en geriden gelen ölüm hükümlüleri gibi gözler önüne serdi. Hem melekler hem insanlar için, bütün evren için seyirlik oyun olduk."
+    },
+    {
+      "v": 10,
+      "text": "Biz Mesih uğruna akılsızız, ama siz Mesih'te akıllısınız! Biz zayıfız, siz güçlüsünüz! Siz saygıdeğer kişilersiniz, bizse değersiziz!"
+    },
+    {
+      "v": 11,
+      "text": "Şu ana dek aç, susuz, çıplağız. Dövülüyoruz, barınacak yerimiz yok."
+    },
+    {
+      "v": 12,
+      "text": "Kendi ellerimizle çalışıp emek veriyoruz. Bize sövenlere iyilik diliyoruz, zulmedilince sabrediyoruz."
+    },
+    {
+      "v": 13,
+      "text": "İftiraya uğrayınca tatlılıkla karşılık veriyoruz. Şu ana dek adeta dünyanın süprüntüsü, her şeyin döküntüsü olduk."
+    },
+    {
+      "v": 14,
+      "text": "Bunları sizi utandırmak için değil, siz sevgili çocuklarımı uyarmak için yazıyorum."
+    },
+    {
+      "v": 15,
+      "text": "Çünkü Mesih'in yolunda sayısız eğiticiniz olsa da çok sayıda babanız yoktur. Size Müjde'yi ulaştırmakla Mesih İsa'da manevi babanız oldum."
+    },
+    {
+      "v": 16,
+      "text": "Bu nedenle beni örnek almaya çağırıyorum sizi."
+    },
+    {
+      "v": 17,
+      "text": "Rab'be sadık olan sevgili çocuğum Timoteos'u bu amaçla size gönderiyorum. Her yerde, her kilisede öğrettiğim ve Mesih'te izlediğim yolları o size anımsatacaktır."
+    },
+    {
+      "v": 18,
+      "text": "Bazılarınız yanınıza gelmeyeceğimi sanarak küstahlaşıyor."
+    },
+    {
+      "v": 19,
+      "text": "Ama Rab dilerse yakında yanınıza geleceğim. O zaman bu küstahların söylediklerini değil, güçlerinin ne olduğunu öğreneceğim."
+    },
+    {
+      "v": 20,
+      "text": "Çünkü Tanrı'nın Egemenliği lafta değil, güçtedir."
+    },
+    {
+      "v": 21,
+      "text": "Ne istiyorsunuz? Size sopayla mı geleyim, yoksa sevgi ve yumuşak bir ruhla mı?"
+    }
+  ],
+  "title": "Mesih'in Elçileri"
+}

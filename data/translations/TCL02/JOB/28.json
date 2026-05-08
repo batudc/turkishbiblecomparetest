@@ -1,1 +1,123 @@
-{"t":"TCL02","b":"JOB","c":28,"content":[{"v":1,"text":"Gümüş maden ocağından elde edilir, Altını arıtmak için de bir yer vardır."},{"v":2,"text":"Demir topraktan çıkarılır, Bakırsa taştan."},{"v":3,"text":"İnsan karanlığa son verir, Koyu karanlığın, ölüm gölgesinin taşlarını Son sınırına kadar araştırır."},{"v":4,"text":"Maden kuyusunu insanların oturduğu yerden uzakta açar, İnsan ayağının unuttuğu yerlerde, Herkesten uzak iplere sarılıp sallanır."},{"v":5,"text":"Ekmek topraktan çıkar, Toprağın altı ise yanmış, altüst olmuştur."},{"v":6,"text":"Kayalarından laciverttaşı çıkar, Yüzeyi altın tozunu andırır."},{"v":7,"text":"Yırtıcı kuş yolu bilmez, Doğanın gözü onu görmemiştir."},{"v":8,"text":"Güçlü hayvanlar oraya ayak basmamış, Aslan oradan geçmemiştir."},{"v":9,"text":"Madenci elini çakmak taşına uzatır, Dağları kökünden altüst eder."},{"v":10,"text":"Kayaların içinden tüneller açar, Gözleri değerli ne varsa görür."},{"v":11,"text":"Irmakların kaynağını tıkar, Gizli olanı ışığa çıkarır."},{"v":12,"text":"Ama bilgelik nerede bulunur? Aklın yeri neresi?"},{"v":13,"text":"İnsan onun değerini bilmez, Yaşayanlar diyarında ona rastlanmaz."},{"v":14,"text":"Engin, “Bende değil” der, Deniz, “Yanımda değil.”"},{"v":15,"text":"Onun bedeli saf altınla ödenmez, Değeri gümüşle ölçülmez."},{"v":16,"text":"Ona Ofir altınıyla, değerli oniksle, Laciverttaşıyla değer biçilmez."},{"v":17,"text":"Ne altın ne cam onunla karşılaştırılabilir, Saf altın kaplara değişilmez."},{"v":18,"text":"Yanında mercanla billurun sözü edilmez, Bilgeliğin değeri mücevherden üstündür."},{"v":19,"text":"Kûş topazı onunla denk sayılmaz, Saf altınla ona değer biçilmez."},{"v":20,"text":"Öyleyse bilgelik nereden geliyor? Aklın yeri neresi?"},{"v":21,"text":"O bütün canlıların gözünden uzaktır, Gökte uçan kuşlardan bile saklıdır."},{"v":22,"text":"Yıkım'la Ölüm: “Kulaklarımız ancak fısıltısını duydu” der."},{"v":23,"text":"Onun yolunu Tanrı anlar, Yerini bilen O'dur."},{"v":24,"text":"Çünkü O yeryüzünün uçlarına kadar bakar, Göklerin altındaki her şeyi görür."},{"v":25,"text":"Rüzgara güç verdiği, Suları ölçtüğü,"},{"v":26,"text":"Yağmura kural koyduğu, Yıldırıma yol açtığı zaman,"},{"v":27,"text":"Bilgeliği görüp değerini biçti, Onu onaylayıp araştırdı."},{"v":28,"text":"İnsana, “İşte Rab korkusu, bilgelik budur” dedi, “Kötülükten kaçınmak akıllılıktır.”"}]}
+{
+  "t": "TCL02",
+  "b": "JOB",
+  "c": 28,
+  "content": [
+    {
+      "section": "Bilgelik Üzerine"
+    },
+    {
+      "v": 1,
+      "text": "Gümüş maden ocağından elde edilir, Altını arıtmak için de bir yer vardır."
+    },
+    {
+      "v": 2,
+      "text": "Demir topraktan çıkarılır, Bakırsa taştan."
+    },
+    {
+      "v": 3,
+      "text": "İnsan karanlığa son verir, Koyu karanlığın, ölüm gölgesinin taşlarını Son sınırına kadar araştırır."
+    },
+    {
+      "v": 4,
+      "text": "Maden kuyusunu insanların oturduğu yerden uzakta açar, İnsan ayağının unuttuğu yerlerde, Herkesten uzak iplere sarılıp sallanır."
+    },
+    {
+      "v": 5,
+      "text": "Ekmek topraktan çıkar, Toprağın altı ise yanmış, altüst olmuştur."
+    },
+    {
+      "v": 6,
+      "text": "Kayalarından laciverttaşı çıkar, Yüzeyi altın tozunu andırır."
+    },
+    {
+      "v": 7,
+      "text": "Yırtıcı kuş yolu bilmez, Doğanın gözü onu görmemiştir."
+    },
+    {
+      "v": 8,
+      "text": "Güçlü hayvanlar oraya ayak basmamış, Aslan oradan geçmemiştir."
+    },
+    {
+      "v": 9,
+      "text": "Madenci elini çakmak taşına uzatır, Dağları kökünden altüst eder."
+    },
+    {
+      "v": 10,
+      "text": "Kayaların içinden tüneller açar, Gözleri değerli ne varsa görür."
+    },
+    {
+      "v": 11,
+      "text": "Irmakların kaynağını tıkar, Gizli olanı ışığa çıkarır."
+    },
+    {
+      "v": 12,
+      "text": "Ama bilgelik nerede bulunur? Aklın yeri neresi?"
+    },
+    {
+      "v": 13,
+      "text": "İnsan onun değerini bilmez, Yaşayanlar diyarında ona rastlanmaz."
+    },
+    {
+      "v": 14,
+      "text": "Engin, “Bende değil” der, Deniz, “Yanımda değil.”"
+    },
+    {
+      "v": 15,
+      "text": "Onun bedeli saf altınla ödenmez, Değeri gümüşle ölçülmez."
+    },
+    {
+      "v": 16,
+      "text": "Ona Ofir altınıyla, değerli oniksle, Laciverttaşıyla değer biçilmez."
+    },
+    {
+      "v": 17,
+      "text": "Ne altın ne cam onunla karşılaştırılabilir, Saf altın kaplara değişilmez."
+    },
+    {
+      "v": 18,
+      "text": "Yanında mercanla billurun sözü edilmez, Bilgeliğin değeri mücevherden üstündür."
+    },
+    {
+      "v": 19,
+      "text": "Kûş topazı onunla denk sayılmaz, Saf altınla ona değer biçilmez."
+    },
+    {
+      "v": 20,
+      "text": "Öyleyse bilgelik nereden geliyor? Aklın yeri neresi?"
+    },
+    {
+      "v": 21,
+      "text": "O bütün canlıların gözünden uzaktır, Gökte uçan kuşlardan bile saklıdır."
+    },
+    {
+      "v": 22,
+      "text": "Yıkım'la Ölüm: “Kulaklarımız ancak fısıltısını duydu” der."
+    },
+    {
+      "v": 23,
+      "text": "Onun yolunu Tanrı anlar, Yerini bilen O'dur."
+    },
+    {
+      "v": 24,
+      "text": "Çünkü O yeryüzünün uçlarına kadar bakar, Göklerin altındaki her şeyi görür."
+    },
+    {
+      "v": 25,
+      "text": "Rüzgara güç verdiği, Suları ölçtüğü,"
+    },
+    {
+      "v": 26,
+      "text": "Yağmura kural koyduğu, Yıldırıma yol açtığı zaman,"
+    },
+    {
+      "v": 27,
+      "text": "Bilgeliği görüp değerini biçti, Onu onaylayıp araştırdı."
+    },
+    {
+      "v": 28,
+      "text": "İnsana, “İşte Rab korkusu, bilgelik budur” dedi, “Kötülükten kaçınmak akıllılıktır.”"
+    }
+  ],
+  "title": "Bilgelik Üzerine"
+}

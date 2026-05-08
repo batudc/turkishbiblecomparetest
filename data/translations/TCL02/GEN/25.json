@@ -1,1 +1,153 @@
-{"t":"TCL02","b":"GEN","c":25,"content":[{"v":1,"text":"İbrahim bir kadınla daha evlendi. Kadının adı Ketura'ydı."},{"v":2,"text":"Ondan Zimran, Yokşan, Medan, Midyan, Yişbak, Şuah adlı çocukları oldu."},{"v":3,"text":"Yokşan'dan da Şeva, Dedan oldu. Dedan soyundan Aşurlular, Letuşlular, Leumlular doğdu."},{"v":4,"text":"Midyan'ın Efa, Efer, Hanok, Avida, Eldaa adlı oğulları oldu. Bunların hepsi Ketura'nın soyundandı."},{"v":5,"text":"İbrahim sahip olduğu her şeyi İshak'a bıraktı."},{"v":6,"text":"Cariyelerinin oğullarına da armağanlar verdi. Kendisi sağken bu çocukları oğlu İshak'tan uzaklaştırıp doğuya gönderdi."},{"v":7,"text":"İbrahim yüz yetmiş beş yıl yaşadı. Ömrü bu kadardı."},{"v":8,"text":"Kocamış, yaşama doymuş, iyice yaşlanmış olarak son soluğunu verdi. Ölüp atalarına kavuştu."},{"v":9,"text":"Oğulları İshak'la İsmail onu Hititli Sohar oğlu Efron'un tarlasında Mamre'ye yakın Makpela Mağarası'na gömdüler."},{"v":10,"text":"İbrahim o tarlayı Hititler'den satın almıştı. Böylece İbrahim'le karısı Sara oraya gömüldüler."},{"v":11,"text":"Tanrı İbrahim'in ölümünden sonra oğlu İshak'ı kutsadı. İshak Beer-Lahay-Roi'de yaşıyordu."},{"v":12,"text":"Sara'nın cariyesi Mısırlı Hacer'in İbrahim'e doğurduğu İsmail'in öyküsü:"},{"v":13,"text":"Doğum sırasına göre İsmail'in oğullarının adları şunlardır: İlk oğlu Nevayot. Sonra Kedar, Adbeel, Mivsam,"},{"v":14,"text":"Mişma, Duma, Massa,"},{"v":15,"text":"Hadat, Tema, Yetur, Nafiş, Kedema gelir."},{"v":16,"text":"İsmail'in oğulları olan bu on iki bey oymakların atalarıydı. Köylerine, obalarına da bu adları verdiler."},{"v":17,"text":"İsmail yüz otuz yedi yıl yaşadıktan sonra son soluğunu verdi. Ölüp halkına kavuştu."},{"v":18,"text":"İsmailoğulları Aşur'a doğru giderken Mısır sınırı yakınında, Havila ile Şur arasındaki bölgeye yerleştiler. Kardeşlerinin yaşadığı yerin doğusuna yerleşmişlerdi."},{"v":19,"text":"İbrahim'in oğlu İshak'ın öyküsü:"},{"v":20,"text":"İshak Aramlı Lavan'ın kızkardeşi, Paddan-Aramlı Betuel'in kızı Rebeka'yla evlendiğinde kırk yaşındaydı."},{"v":21,"text":"İshak karısı için RAB'be yakardı, çünkü karısı kısırdı. RAB İshak'ın yakarışını yanıtladı, Rebeka hamile kaldı."},{"v":22,"text":"Çocuklar karnında itişiyordu. Rebeka, “Nedir bu başıma gelen?” diyerek RAB'be danışmaya gitti."},{"v":23,"text":"RAB onu şöyle yanıtladı: “Rahminde iki ulus var, Senden iki ayrı halk doğacak, Biri öbüründen güçlü olacak, Büyüğü küçüğüne hizmet edecek.”"},{"v":24,"text":"Doğum vakti gelince, Rebeka'nın ikiz oğulları oldu."},{"v":25,"text":"İlk doğan oğlu kıpkırmızı ve tüylüydü; kırmızı bir cüppeyi andırıyordu. Adını Esav koydular."},{"v":26,"text":"Sonra kardeşi doğdu. Eliyle Esav'ın topuğunu tutuyordu. Bu yüzden İshak ona Yakup adını verdi. Rebeka doğum yaptığında İshak altmış yaşındaydı."},{"v":27,"text":"Çocuklar büyüdü. Esav kırları seven usta bir avcı oldu. Yakup'sa hep çadırda oturan sakin bir adamdı."},{"v":28,"text":"İshak Esav'ı daha çok severdi, çünkü onun getirdiği av etlerini yerdi. Rebeka ise Yakup'u severdi."},{"v":29,"text":"Bir gün Yakup çorba pişirirken Esav avdan geldi. Aç ve bitkindi."},{"v":30,"text":"Yakup'a, “Lütfen şu kızıl çorbadan biraz ver de içeyim. Aç ve bitkinim” dedi. Bu nedenle ona Edom adı da verildi."},{"v":31,"text":"Yakup, “Önce sen ilk oğulluk hakkını bana ver” diye karşılık verdi."},{"v":32,"text":"Esav, “Baksana, açlıktan ölmek üzereyim” dedi, “İlk oğulluk hakkının bana ne yararı var?”"},{"v":33,"text":"Yakup, “Önce ant iç” dedi. Esav ant içerek ilk oğulluk hakkını Yakup'a sattı."},{"v":34,"text":"Yakup Esav'a ekmekle mercimek çorbası verdi. Esav yiyip içtikten sonra kalkıp gitti.  Böylece Esav ilk oğulluk hakkını küçümsemiş oldu."}]}
+{
+  "t": "TCL02",
+  "b": "GEN",
+  "c": 25,
+  "content": [
+    {
+      "section": "İbrahim'in Ölümü"
+    },
+    {
+      "v": 1,
+      "text": "İbrahim bir kadınla daha evlendi. Kadının adı Ketura'ydı."
+    },
+    {
+      "v": 2,
+      "text": "Ondan Zimran, Yokşan, Medan, Midyan, Yişbak, Şuah adlı çocukları oldu."
+    },
+    {
+      "v": 3,
+      "text": "Yokşan'dan da Şeva, Dedan oldu. Dedan soyundan Aşurlular, Letuşlular, Leumlular doğdu."
+    },
+    {
+      "v": 4,
+      "text": "Midyan'ın Efa, Efer, Hanok, Avida, Eldaa adlı oğulları oldu. Bunların hepsi Ketura'nın soyundandı."
+    },
+    {
+      "v": 5,
+      "text": "İbrahim sahip olduğu her şeyi İshak'a bıraktı."
+    },
+    {
+      "v": 6,
+      "text": "Cariyelerinin oğullarına da armağanlar verdi. Kendisi sağken bu çocukları oğlu İshak'tan uzaklaştırıp doğuya gönderdi."
+    },
+    {
+      "v": 7,
+      "text": "İbrahim yüz yetmiş beş yıl yaşadı. Ömrü bu kadardı."
+    },
+    {
+      "v": 8,
+      "text": "Kocamış, yaşama doymuş, iyice yaşlanmış olarak son soluğunu verdi. Ölüp atalarına kavuştu."
+    },
+    {
+      "v": 9,
+      "text": "Oğulları İshak'la İsmail onu Hititli Sohar oğlu Efron'un tarlasında Mamre'ye yakın Makpela Mağarası'na gömdüler."
+    },
+    {
+      "v": 10,
+      "text": "İbrahim o tarlayı Hititler'den satın almıştı. Böylece İbrahim'le karısı Sara oraya gömüldüler."
+    },
+    {
+      "v": 11,
+      "text": "Tanrı İbrahim'in ölümünden sonra oğlu İshak'ı kutsadı. İshak Beer-Lahay-Roi'de yaşıyordu."
+    },
+    {
+      "section": "İsmailoğulları"
+    },
+    {
+      "v": 12,
+      "text": "Sara'nın cariyesi Mısırlı Hacer'in İbrahim'e doğurduğu İsmail'in öyküsü:"
+    },
+    {
+      "v": 13,
+      "text": "Doğum sırasına göre İsmail'in oğullarının adları şunlardır: İlk oğlu Nevayot. Sonra Kedar, Adbeel, Mivsam,"
+    },
+    {
+      "v": 14,
+      "text": "Mişma, Duma, Massa,"
+    },
+    {
+      "v": 15,
+      "text": "Hadat, Tema, Yetur, Nafiş, Kedema gelir."
+    },
+    {
+      "v": 16,
+      "text": "İsmail'in oğulları olan bu on iki bey oymakların atalarıydı. Köylerine, obalarına da bu adları verdiler."
+    },
+    {
+      "v": 17,
+      "text": "İsmail yüz otuz yedi yıl yaşadıktan sonra son soluğunu verdi. Ölüp halkına kavuştu."
+    },
+    {
+      "v": 18,
+      "text": "İsmailoğulları Aşur'a doğru giderken Mısır sınırı yakınında, Havila ile Şur arasındaki bölgeye yerleştiler. Kardeşlerinin yaşadığı yerin doğusuna yerleşmişlerdi."
+    },
+    {
+      "section": "Yakup'la Esav"
+    },
+    {
+      "v": 19,
+      "text": "İbrahim'in oğlu İshak'ın öyküsü:"
+    },
+    {
+      "v": 20,
+      "text": "İshak Aramlı Lavan'ın kızkardeşi, Paddan-Aramlı Betuel'in kızı Rebeka'yla evlendiğinde kırk yaşındaydı."
+    },
+    {
+      "v": 21,
+      "text": "İshak karısı için RAB'be yakardı, çünkü karısı kısırdı. RAB İshak'ın yakarışını yanıtladı, Rebeka hamile kaldı."
+    },
+    {
+      "v": 22,
+      "text": "Çocuklar karnında itişiyordu. Rebeka, “Nedir bu başıma gelen?” diyerek RAB'be danışmaya gitti."
+    },
+    {
+      "v": 23,
+      "text": "RAB onu şöyle yanıtladı: “Rahminde iki ulus var, Senden iki ayrı halk doğacak, Biri öbüründen güçlü olacak, Büyüğü küçüğüne hizmet edecek.”"
+    },
+    {
+      "v": 24,
+      "text": "Doğum vakti gelince, Rebeka'nın ikiz oğulları oldu."
+    },
+    {
+      "v": 25,
+      "text": "İlk doğan oğlu kıpkırmızı ve tüylüydü; kırmızı bir cüppeyi andırıyordu. Adını Esav koydular."
+    },
+    {
+      "v": 26,
+      "text": "Sonra kardeşi doğdu. Eliyle Esav'ın topuğunu tutuyordu. Bu yüzden İshak ona Yakup adını verdi. Rebeka doğum yaptığında İshak altmış yaşındaydı."
+    },
+    {
+      "v": 27,
+      "text": "Çocuklar büyüdü. Esav kırları seven usta bir avcı oldu. Yakup'sa hep çadırda oturan sakin bir adamdı."
+    },
+    {
+      "v": 28,
+      "text": "İshak Esav'ı daha çok severdi, çünkü onun getirdiği av etlerini yerdi. Rebeka ise Yakup'u severdi."
+    },
+    {
+      "v": 29,
+      "text": "Bir gün Yakup çorba pişirirken Esav avdan geldi. Aç ve bitkindi."
+    },
+    {
+      "v": 30,
+      "text": "Yakup'a, “Lütfen şu kızıl çorbadan biraz ver de içeyim. Aç ve bitkinim” dedi. Bu nedenle ona Edom adı da verildi."
+    },
+    {
+      "v": 31,
+      "text": "Yakup, “Önce sen ilk oğulluk hakkını bana ver” diye karşılık verdi."
+    },
+    {
+      "v": 32,
+      "text": "Esav, “Baksana, açlıktan ölmek üzereyim” dedi, “İlk oğulluk hakkının bana ne yararı var?”"
+    },
+    {
+      "v": 33,
+      "text": "Yakup, “Önce ant iç” dedi. Esav ant içerek ilk oğulluk hakkını Yakup'a sattı."
+    },
+    {
+      "v": 34,
+      "text": "Yakup Esav'a ekmekle mercimek çorbası verdi. Esav yiyip içtikten sonra kalkıp gitti.  Böylece Esav ilk oğulluk hakkını küçümsemiş oldu."
+    }
+  ],
+  "title": "İbrahim'in Ölümü"
+}

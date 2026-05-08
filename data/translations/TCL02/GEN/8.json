@@ -1,1 +1,95 @@
-{"t": "TCL02", "b": "GEN", "c": 8, "content": [{"v": 1, "text": "Sonra Tanrı Nuh'u ve gemideki evcil ve yabanıl hayvanları anımsadı. Yeryüzünde bir rüzgar estirdi, sular alçalmaya başladı."}, {"v": 2, "text": "Enginlerin kaynakları, göklerin kapakları kapandı. Yağmur dindi."}, {"v": 3, "text": "Sular yeryüzünden çekilmeye başladı. Yüz elli gün geçtikten sonra sular azaldı."}, {"v": 4, "text": "Gemi yedinci ayın on yedinci günü Ararat dağlarına oturdu."}, {"v": 5, "text": "Sular onuncu aya kadar sürekli azaldı. Onuncu ayın birinde dağların doruğu göründü."}, {"v": 6, "text": "Kırk gün sonra Nuh yapmış olduğu geminin penceresini açtı."}, {"v": 7, "text": "Kuzgunu dışarı gönderdi. Kuzgun sular kuruyuncaya kadar dönmedi, uçup durdu."}, {"v": 8, "text": "Bunun üzerine Nuh suların yeryüzünden çekilip çekilmediğini anlamak için güvercini gönderdi."}, {"v": 9, "text": "Güvercin konacak bir yer bulamadı, çünkü her yer suyla kaplıydı. Gemiye, Nuh'un yanına döndü. Nuh uzanıp güvercini tuttu ve gemiye, yanına aldı."}, {"v": 10, "text": "Yedi gün daha bekledi, sonra güvercini yine dışarı saldı."}, {"v": 11, "text": "Güvercin gagasında yeni kopmuş bir zeytin yaprağıyla akşamleyin geri döndü. O zaman Nuh suların yeryüzünden çekilmiş olduğunu anladı."}, {"v": 12, "text": "Yedi gün daha bekledikten sonra güvercini yine gönderdi. Bu kez güvercin geri dönmedi."}, {"v": 13, "text": "Nuh altı yüz bir yaşındayken, birinci ayın birinde yeryüzündeki sular kurudu. Nuh geminin üstündeki kapağı kaldırınca toprağın kurumuş olduğunu gördü."}, {"v": 14, "text": "İkinci ayın yirmi yedinci günü toprak tümüyle kurumuştu."}, {"v": 15, "text": "Tanrı Nuh'a, “Karın, oğulların ve gelinlerinle birlikte gemiden çık” dedi,"}, {"v": 17, "text": "“Kendinle birlikte bütün canlıları, kuşları, hayvanları, sürüngenleri de çıkar. Üresinler, verimli olsunlar, yeryüzünde çoğalsınlar.”"}, {"v": 18, "text": "Nuh karısı, oğulları ve gelinleriyle birlikte gemiden çıktı."}, {"v": 19, "text": "Bütün hayvanlar, sürüngenler, kuşlar, yeryüzünde yaşayan her tür canlı da gemiyi terk etti."}, {"v": 20, "text": "Nuh RAB'be bir sunak yaptı. Orada bütün temiz sayılan hayvanlarla kuşlardan yakmalık sunular sundu."}, {"v": 21, "text": "Güzel kokudan hoşnut olan RAB içinden şöyle dedi: “İnsanlar yüzünden yeryüzünü bir daha lanetlemeyeceğim. Çünkü insan yüreğindeki eğilimler çocukluğundan beri kötüdür. Şimdi yaptığım gibi bütün canlıları bir daha yok etmeyeceğim."}, {"v": 22, "text": "“Dünya durdukça Ekin ekmek, biçmek, Sıcak, soğuk, Yaz, kış, Gece, gündüz hep var olacaktır.”"}]}
+{
+  "t": "TCL02",
+  "b": "GEN",
+  "c": 8,
+  "content": [
+    {
+      "section": "Tufanın Sonu"
+    },
+    {
+      "v": 1,
+      "text": "Sonra Tanrı Nuh'u ve gemideki evcil ve yabanıl hayvanları anımsadı. Yeryüzünde bir rüzgar estirdi, sular alçalmaya başladı."
+    },
+    {
+      "v": 2,
+      "text": "Enginlerin kaynakları, göklerin kapakları kapandı. Yağmur dindi."
+    },
+    {
+      "v": 3,
+      "text": "Sular yeryüzünden çekilmeye başladı. Yüz elli gün geçtikten sonra sular azaldı."
+    },
+    {
+      "v": 4,
+      "text": "Gemi yedinci ayın on yedinci günü Ararat dağlarına oturdu."
+    },
+    {
+      "v": 5,
+      "text": "Sular onuncu aya kadar sürekli azaldı. Onuncu ayın birinde dağların doruğu göründü."
+    },
+    {
+      "v": 6,
+      "text": "Kırk gün sonra Nuh yapmış olduğu geminin penceresini açtı."
+    },
+    {
+      "v": 7,
+      "text": "Kuzgunu dışarı gönderdi. Kuzgun sular kuruyuncaya kadar dönmedi, uçup durdu."
+    },
+    {
+      "v": 8,
+      "text": "Bunun üzerine Nuh suların yeryüzünden çekilip çekilmediğini anlamak için güvercini gönderdi."
+    },
+    {
+      "v": 9,
+      "text": "Güvercin konacak bir yer bulamadı, çünkü her yer suyla kaplıydı. Gemiye, Nuh'un yanına döndü. Nuh uzanıp güvercini tuttu ve gemiye, yanına aldı."
+    },
+    {
+      "v": 10,
+      "text": "Yedi gün daha bekledi, sonra güvercini yine dışarı saldı."
+    },
+    {
+      "v": 11,
+      "text": "Güvercin gagasında yeni kopmuş bir zeytin yaprağıyla akşamleyin geri döndü. O zaman Nuh suların yeryüzünden çekilmiş olduğunu anladı."
+    },
+    {
+      "v": 12,
+      "text": "Yedi gün daha bekledikten sonra güvercini yine gönderdi. Bu kez güvercin geri dönmedi."
+    },
+    {
+      "v": 13,
+      "text": "Nuh altı yüz bir yaşındayken, birinci ayın birinde yeryüzündeki sular kurudu. Nuh geminin üstündeki kapağı kaldırınca toprağın kurumuş olduğunu gördü."
+    },
+    {
+      "v": 14,
+      "text": "İkinci ayın yirmi yedinci günü toprak tümüyle kurumuştu."
+    },
+    {
+      "v": 15,
+      "text": "Tanrı Nuh'a, “Karın, oğulların ve gelinlerinle birlikte gemiden çık” dedi,"
+    },
+    {
+      "v": 17,
+      "text": "“Kendinle birlikte bütün canlıları, kuşları, hayvanları, sürüngenleri de çıkar. Üresinler, verimli olsunlar, yeryüzünde çoğalsınlar.”"
+    },
+    {
+      "v": 18,
+      "text": "Nuh karısı, oğulları ve gelinleriyle birlikte gemiden çıktı."
+    },
+    {
+      "v": 19,
+      "text": "Bütün hayvanlar, sürüngenler, kuşlar, yeryüzünde yaşayan her tür canlı da gemiyi terk etti."
+    },
+    {
+      "v": 20,
+      "text": "Nuh RAB'be bir sunak yaptı. Orada bütün temiz sayılan hayvanlarla kuşlardan yakmalık sunular sundu."
+    },
+    {
+      "v": 21,
+      "text": "Güzel kokudan hoşnut olan RAB içinden şöyle dedi: “İnsanlar yüzünden yeryüzünü bir daha lanetlemeyeceğim. Çünkü insan yüreğindeki eğilimler çocukluğundan beri kötüdür. Şimdi yaptığım gibi bütün canlıları bir daha yok etmeyeceğim."
+    },
+    {
+      "v": 22,
+      "text": "“Dünya durdukça Ekin ekmek, biçmek, Sıcak, soğuk, Yaz, kış, Gece, gündüz hep var olacaktır.”"
+    }
+  ],
+  "title": "Tufanın Sonu"
+}

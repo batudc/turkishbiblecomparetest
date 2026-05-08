@@ -1,1 +1,70 @@
-{"t": "TCL02", "b": "ACT", "c": 6, "content": [{"v": 1, "text": "İsa'nın öğrencilerinin sayıca çoğaldığı o günlerde, Grekçe konuşan Yahudiler, günlük yardım dağıtımında kendi dullarına gereken ilginin gösterilmediğini ileri sürerek İbranice konuşan Yahudiler'den yakınmaya başladılar."}, {"v": 2, "text": "Bunun üzerine Onikiler, bütün öğrencileri bir araya toplayıp şöyle dediler: “Tanrı'nın sözünü yayma işini bırakıp maddi işlerle uğraşmamız doğru olmaz."}, {"v": 3, "text": "Bu nedenle, kardeşler, aranızdan Ruh'la ve bilgelikle dolu, yedi saygın kişi seçin. Onları bu iş için görevlendirelim."}, {"v": 4, "text": "Biz ise kendimizi duaya ve Tanrı sözünü yaymaya adayalım.”"}, {"v": 5, "text": "Bu öneri bütün topluluğu hoşnut etti. Böylece, iman ve Kutsal Ruh'la dolu biri olan İstefanos'un yanısıra Filipus, Prohoros, Nikanor, Timon, Parmenas ve Yahudiliğe dönen Antakyalı Nikolas'ı seçip elçilerin önüne çıkardılar. Elçiler de dua edip ellerini onların üzerine koydular."}, {"v": 7, "text": "Böylece Tanrı'nın sözü yayılıyor, Yeruşalim'deki öğrencilerin sayısı arttıkça artıyor, kâhinlerden birçoğu da iman çağrısına uyuyordu."}, {"v": 8, "text": "Tanrı'nın lütfuyla ve kudretle dolu olan İstefanos, halk arasında büyük belirtiler ve harikalar yapıyordu."}, {"v": 9, "text": "Ne var ki, Azatlılar Havrası diye bilinen havranın bazı üyeleri ve Kirene'den, İskenderiye'den, Kilikya'dan ve Asya İli'nden bazı kişiler İstefanos'la çekişmeye başladılar."}, {"v": 10, "text": "Ama İstefanos'un konuşmasındaki bilgeliğe ve Ruh'a karşı koyamadılar."}, {"v": 11, "text": "Bunun üzerine birkaç kişiyi el altından ayartarak onlara, “Bu adamın Musa'ya ve Tanrı'ya karşı küfür dolu sözler söylediğini duyduk” dedirttiler."}, {"v": 12, "text": "Böylelikle halkı, ileri gelenleri ve din bilginlerini kışkırttılar. Gidip İstefanos'u yakaladılar ve Yüksek Kurul'un önüne çıkardılar."}, {"v": 13, "text": "Getirdikleri yalancı tanıklar, “Bu adam durmadan bu kutsal yere ve Yasa'ya karşı konuşuyor” dediler."}, {"v": 14, "text": "“ ‘Nasıralı İsa burayı yıkacak, Musa'nın bize emanet ettiği töreleri de değiştirecek’ dediğini duyduk.”"}, {"v": 15, "text": "Kurul'da oturanların hepsi, İstefanos'a baktıklarında yüzünün bir melek yüzüne benzediğini gördüler."}]}
+{
+  "t": "TCL02",
+  "b": "ACT",
+  "c": 6,
+  "content": [
+    {
+      "section": "Yedi Yardımcı"
+    },
+    {
+      "v": 1,
+      "text": "İsa'nın öğrencilerinin sayıca çoğaldığı o günlerde, Grekçe konuşan Yahudiler, günlük yardım dağıtımında kendi dullarına gereken ilginin gösterilmediğini ileri sürerek İbranice konuşan Yahudiler'den yakınmaya başladılar."
+    },
+    {
+      "v": 2,
+      "text": "Bunun üzerine Onikiler, bütün öğrencileri bir araya toplayıp şöyle dediler: “Tanrı'nın sözünü yayma işini bırakıp maddi işlerle uğraşmamız doğru olmaz."
+    },
+    {
+      "v": 3,
+      "text": "Bu nedenle, kardeşler, aranızdan Ruh'la ve bilgelikle dolu, yedi saygın kişi seçin. Onları bu iş için görevlendirelim."
+    },
+    {
+      "v": 4,
+      "text": "Biz ise kendimizi duaya ve Tanrı sözünü yaymaya adayalım.”"
+    },
+    {
+      "v": 5,
+      "text": "Bu öneri bütün topluluğu hoşnut etti. Böylece, iman ve Kutsal Ruh'la dolu biri olan İstefanos'un yanısıra Filipus, Prohoros, Nikanor, Timon, Parmenas ve Yahudiliğe dönen Antakyalı Nikolas'ı seçip elçilerin önüne çıkardılar. Elçiler de dua edip ellerini onların üzerine koydular."
+    },
+    {
+      "v": 7,
+      "text": "Böylece Tanrı'nın sözü yayılıyor, Yeruşalim'deki öğrencilerin sayısı arttıkça artıyor, kâhinlerden birçoğu da iman çağrısına uyuyordu."
+    },
+    {
+      "section": "İstefanos Tutuklanıyor"
+    },
+    {
+      "v": 8,
+      "text": "Tanrı'nın lütfuyla ve kudretle dolu olan İstefanos, halk arasında büyük belirtiler ve harikalar yapıyordu."
+    },
+    {
+      "v": 9,
+      "text": "Ne var ki, Azatlılar Havrası diye bilinen havranın bazı üyeleri ve Kirene'den, İskenderiye'den, Kilikya'dan ve Asya İli'nden bazı kişiler İstefanos'la çekişmeye başladılar."
+    },
+    {
+      "v": 10,
+      "text": "Ama İstefanos'un konuşmasındaki bilgeliğe ve Ruh'a karşı koyamadılar."
+    },
+    {
+      "v": 11,
+      "text": "Bunun üzerine birkaç kişiyi el altından ayartarak onlara, “Bu adamın Musa'ya ve Tanrı'ya karşı küfür dolu sözler söylediğini duyduk” dedirttiler."
+    },
+    {
+      "v": 12,
+      "text": "Böylelikle halkı, ileri gelenleri ve din bilginlerini kışkırttılar. Gidip İstefanos'u yakaladılar ve Yüksek Kurul'un önüne çıkardılar."
+    },
+    {
+      "v": 13,
+      "text": "Getirdikleri yalancı tanıklar, “Bu adam durmadan bu kutsal yere ve Yasa'ya karşı konuşuyor” dediler."
+    },
+    {
+      "v": 14,
+      "text": "“ ‘Nasıralı İsa burayı yıkacak, Musa'nın bize emanet ettiği töreleri de değiştirecek’ dediğini duyduk.”"
+    },
+    {
+      "v": 15,
+      "text": "Kurul'da oturanların hepsi, İstefanos'a baktıklarında yüzünün bir melek yüzüne benzediğini gördüler."
+    }
+  ],
+  "title": "Yedi Yardımcı"
+}

@@ -1,1 +1,79 @@
-{"t":"TCL02","b":"ISA","c":54,"content":[{"v":1,"text":"“Çocuk doğurmayan ey kısır kadın, Sevinç çığlıkları at; Ey doğum ağrısı nedir bilmeyen sen, Sevinçle haykır, bağır. Çünkü terk edilmiş kadının, Evli kadından daha çok çocuğu olacaktır” diyor RAB."},{"v":2,"text":"“Çadırının alanını genişlet, Perdelerini uzat, çekinme. Gergi iplerini de uzat, kazıklarını sağlamlaştır."},{"v":3,"text":"Çünkü sağa sola yayılacaksın, Soyundan gelenler ulusları mülk edinecek, Issız kentlere yerleşecek."},{"v":4,"text":"“Korkma, ayıplanmayacaksın, Utanma, aşağılanmayacaksın. Unutacaksın gençliğinde yaşadığın utancı, Dulluk ayıbını artık anmayacaksın."},{"v":5,"text":"Çünkü kocan, seni yaratandır. O'nun adı Her Şeye Egemen RAB'dir, İsrail'in Kutsalı'dır seni kurtaran. O'na bütün dünyanın Tanrısı denir.”"},{"v":6,"text":"Tanrın diyor ki, “RAB seni terk edilmiş, Ruhu kederli bir kadın, Genç yaşta evlenip sonra dışlanmış Bir kadın olarak çağırıyor:"},{"v":7,"text":"‘Bir an için seni terk ettim, Ama büyük sevecenlikle geri getireceğim."},{"v":8,"text":"Bir anlık taşkın öfkeyle senden yüz çevirmiştim, Ama sonsuz sadakatle sana sevecenlik göstereceğim.’ ” Seni kurtaran RAB böyle diyor."},{"v":9,"text":"“Bu benim için Nuh tufanı gibidir. Nuh tufanının bir daha yeryüzünü Kaplamayacağına nasıl ant içtimse, Sana öfkelenmeyeceğime, Seni azarlamayacağıma da ant içiyorum."},{"v":10,"text":"Dağlar yerinden kalksa, tepeler sarsılsa da Sadakatim senin üzerinden kalkmaz, Esenlik antlaşmam sarsılmaz” Diyor sana merhamet eden RAB."},{"v":11,"text":"“Ey kasırgaya tutulmuş, Avuntu bulmamış ezik kent! Taşlarını koyu harçla yerine koyacak, Temellerini laciverttaşıyla atacağım."},{"v":12,"text":"Kale burçlarını yakuttan, Kapılarını mücevherden, Surlarını değerli taşlardan yapacağım."},{"v":13,"text":"Bütün çocuklarını ben RAB eğiteceğim, Esenlikleri tam olacak."},{"v":14,"text":"Doğrulukla güçlenecek, Baskıdan uzak olacak, korkmayacaksın. Dehşet senden uzak kalacak, sana yaklaşmayacak."},{"v":15,"text":"Sana saldıran olursa, benden olmadığını bil. Sana saldıran herkes önünde yenilgiye uğrayacak."},{"v":16,"text":"“İşte, kor halindeki ateşi üfleyen, Amaca uygun silah yapan demirciyi ben yarattım. Yok etsin diye yıkıcıyı da ben yarattım."},{"v":17,"text":"Ama sana karşı yapılan hiçbir silah işe yaramayacak, Mahkemede seni suçlayan her dili Suçlu çıkaracaksın. RAB'be kulluk edenlerin mirası şudur: Onların gönenci bendendir” diyor RAB."}]}
+{
+  "t": "TCL02",
+  "b": "ISA",
+  "c": 54,
+  "content": [
+    {
+      "section": "İsrail'in Kurtuluşu"
+    },
+    {
+      "v": 1,
+      "text": "“Çocuk doğurmayan ey kısır kadın, Sevinç çığlıkları at; Ey doğum ağrısı nedir bilmeyen sen, Sevinçle haykır, bağır. Çünkü terk edilmiş kadının, Evli kadından daha çok çocuğu olacaktır” diyor RAB."
+    },
+    {
+      "v": 2,
+      "text": "“Çadırının alanını genişlet, Perdelerini uzat, çekinme. Gergi iplerini de uzat, kazıklarını sağlamlaştır."
+    },
+    {
+      "v": 3,
+      "text": "Çünkü sağa sola yayılacaksın, Soyundan gelenler ulusları mülk edinecek, Issız kentlere yerleşecek."
+    },
+    {
+      "v": 4,
+      "text": "“Korkma, ayıplanmayacaksın, Utanma, aşağılanmayacaksın. Unutacaksın gençliğinde yaşadığın utancı, Dulluk ayıbını artık anmayacaksın."
+    },
+    {
+      "v": 5,
+      "text": "Çünkü kocan, seni yaratandır. O'nun adı Her Şeye Egemen RAB'dir, İsrail'in Kutsalı'dır seni kurtaran. O'na bütün dünyanın Tanrısı denir.”"
+    },
+    {
+      "v": 6,
+      "text": "Tanrın diyor ki, “RAB seni terk edilmiş, Ruhu kederli bir kadın, Genç yaşta evlenip sonra dışlanmış Bir kadın olarak çağırıyor:"
+    },
+    {
+      "v": 7,
+      "text": "‘Bir an için seni terk ettim, Ama büyük sevecenlikle geri getireceğim."
+    },
+    {
+      "v": 8,
+      "text": "Bir anlık taşkın öfkeyle senden yüz çevirmiştim, Ama sonsuz sadakatle sana sevecenlik göstereceğim.’ ” Seni kurtaran RAB böyle diyor."
+    },
+    {
+      "v": 9,
+      "text": "“Bu benim için Nuh tufanı gibidir. Nuh tufanının bir daha yeryüzünü Kaplamayacağına nasıl ant içtimse, Sana öfkelenmeyeceğime, Seni azarlamayacağıma da ant içiyorum."
+    },
+    {
+      "v": 10,
+      "text": "Dağlar yerinden kalksa, tepeler sarsılsa da Sadakatim senin üzerinden kalkmaz, Esenlik antlaşmam sarsılmaz” Diyor sana merhamet eden RAB."
+    },
+    {
+      "v": 11,
+      "text": "“Ey kasırgaya tutulmuş, Avuntu bulmamış ezik kent! Taşlarını koyu harçla yerine koyacak, Temellerini laciverttaşıyla atacağım."
+    },
+    {
+      "v": 12,
+      "text": "Kale burçlarını yakuttan, Kapılarını mücevherden, Surlarını değerli taşlardan yapacağım."
+    },
+    {
+      "v": 13,
+      "text": "Bütün çocuklarını ben RAB eğiteceğim, Esenlikleri tam olacak."
+    },
+    {
+      "v": 14,
+      "text": "Doğrulukla güçlenecek, Baskıdan uzak olacak, korkmayacaksın. Dehşet senden uzak kalacak, sana yaklaşmayacak."
+    },
+    {
+      "v": 15,
+      "text": "Sana saldıran olursa, benden olmadığını bil. Sana saldıran herkes önünde yenilgiye uğrayacak."
+    },
+    {
+      "v": 16,
+      "text": "“İşte, kor halindeki ateşi üfleyen, Amaca uygun silah yapan demirciyi ben yarattım. Yok etsin diye yıkıcıyı da ben yarattım."
+    },
+    {
+      "v": 17,
+      "text": "Ama sana karşı yapılan hiçbir silah işe yaramayacak, Mahkemede seni suçlayan her dili Suçlu çıkaracaksın. RAB'be kulluk edenlerin mirası şudur: Onların gönenci bendendir” diyor RAB."
+    }
+  ],
+  "title": "İsrail'in Kurtuluşu"
+}

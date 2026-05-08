@@ -1,1 +1,130 @@
-{"t":"TCL02","b":"ISA","c":41,"content":[{"v":1,"text":"RAB diyor ki, “Susun karşımda, ey kıyı halkları! Halklar güçlerini tazelesin, Öne çıkıp konuşsunlar. Yargı için bir araya gelelim."},{"v":2,"text":"“Doğudan adaleti harekete geçiren, Hizmete koşan kim? Ulusları önüne katıyor, krallara baş eğdiriyor. Kılıcıyla toz ediyor onları, Yayıyla savrulan samana çeviriyor."},{"v":3,"text":"Kovalıyor onları, Ayak basmadığı bir yoldan esenlikle geçiyor."},{"v":4,"text":"Bunları yapıp gerçekleştiren, Kuşakları başlangıçtan beri çağıran kim? Ben RAB, ilkim; sonuncularla da yine Ben olacağım.”"},{"v":5,"text":"Kıyı halkları bunu görüp korktu. Dünyanın dört bucağı titriyor. Yaklaşıyor, geliyorlar."},{"v":6,"text":"Herkes komşusuna yardım ediyor, Kardeşine, “Güçlü ol” diyor."},{"v":7,"text":"Zanaatçı kuyumcuyu yüreklendiriyor, Madeni çekiçle düzleyen, “Lehim iyi oldu” diyerek örse vuranı yüreklendiriyor. Kımıldamasın diye putu yerine çiviliyor."},{"v":8,"text":"“Ama sen, ey kulum İsrail, Seçtiğim Yakup soyu, Dostum İbrahim'in torunları!"},{"v":9,"text":"Sizleri dünyanın dört bucağından topladım, En uzak yerlerden çağırdım. Dedim ki, ‘Sen kulumsun, seni seçtim, Seni reddetmedim.’"},{"v":10,"text":"Korkma, çünkü ben seninleyim, Yılma, çünkü Tanrın benim. Seni güçlendireceğim, evet, sana yardım edeceğim; Zafer kazanan sağ elimle sana destek olacağım."},{"v":11,"text":"“Sana öfkelenenlerin hepsi utanacak, rezil olacak. Sana karşı çıkanlar hiçe sayılıp yok olacak."},{"v":12,"text":"Seninle çekişenleri arasan da bulamayacaksın. Seninle savaşanlar hiçten beter olacak."},{"v":13,"text":"Çünkü sağ elinden tutan, ‘Korkma, sana yardım edeceğim’ diyen Tanrın RAB benim."},{"v":14,"text":"“Ey Yakup soyu, toprak kurdu, Ey İsrail halkı, korkma! Sana yardım edeceğim” diyor RAB, Seni kurtaran İsrail'in Kutsalı."},{"v":15,"text":"“İşte, seni dişli, keskin, yepyeni bir harman düveni yaptım. Harman edip ufalayacaksın dağları, Tepeleri samana çevireceksin."},{"v":16,"text":"Onları savurduğunda rüzgar alıp götürecek, Darmadağın edecek hepsini kasırga. Sense RAB'de sevinç bulacak, İsrail'in Kutsalı'yla övüneceksin."},{"v":17,"text":"“Düşkünlerle yoksullar su arıyor, ama yok. Dilleri kurumuş susuzluktan. Ben RAB, onları yanıtlayacağım, Ben, İsrail'in Tanrısı, onları bırakmayacağım."},{"v":18,"text":"Çıplak tepeler üzerinde ırmaklar, Vadilerde su kaynakları yapacağım. Çölü havuza, Kurak toprağı pınara çevireceğim."},{"v":19,"text":"Çölü sedir, akasya, Mersin ve iğde ağaçlarına kavuşturacağım. Bozkıra çam, köknar Ve selviyi bir arada dikeceğim."},{"v":20,"text":"Öyle ki, insanlar görüp bilsinler, Hep birlikte düşünüp anlasınlar ki, Bütün bunları RAB'bin eli yapmış, İsrail'in Kutsalı yaratmıştır.”"},{"v":21,"text":"“Davanızı sunun” diyor RAB, “Kanıtlarınızı ortaya koyun” diyor Yakup'un Kralı,"},{"v":22,"text":"“Putlarınızı getirin de olacakları bildirsinler bize. Olup bitenleri bildirsinler ki düşünelim, Sonuçlarını bilelim. Ya da gelecekte olacakları duyursunlar bize."},{"v":23,"text":"Ey putlar, bundan sonra olacakları bize bildirin de, İlah olduğunuzu bilelim! Haydi bir iyilik ya da kötülük edin de, Hepimiz korkup dehşete düşelim."},{"v":24,"text":"Siz de yaptıklarınız da hiçten betersiniz, Sizi yeğleyen iğrençtir."},{"v":25,"text":"“Kuzeyden birini harekete geçirdim, geliyor, Gün doğusundan beni adımla çağıran biri. Çömlekçinin balçığı çiğnediği gibi, Önderleri çamur gibi çiğneyecek ayağıyla."},{"v":26,"text":"Hanginiz bunu başlangıçtan bildirdi ki, bilelim, Kim önceden bildirdi ki, ‘Haklısın’ diyelim? Konuştuğunuzu bildiren de Duyuran da Duyan da olmadı hiç."},{"v":27,"text":"Siyon'a ilk, ‘İşte, geldiler’ diyen benim. Yeruşalim'e müjdeci gönderdim."},{"v":28,"text":"Bakıyorum, aralarında öğüt verebilecek kimse yok ki, Onlara danışayım, onlar da yanıtlasınlar."},{"v":29,"text":"Hepsi bomboş, yaptıkları da bir hiç. Halkın putları yalnızca yeldir, sıfırdır.”"}]}
+{
+  "t": "TCL02",
+  "b": "ISA",
+  "c": 41,
+  "content": [
+    {
+      "section": "Rab'den Güvence"
+    },
+    {
+      "v": 1,
+      "text": "RAB diyor ki, “Susun karşımda, ey kıyı halkları! Halklar güçlerini tazelesin, Öne çıkıp konuşsunlar. Yargı için bir araya gelelim."
+    },
+    {
+      "v": 2,
+      "text": "“Doğudan adaleti harekete geçiren, Hizmete koşan kim? Ulusları önüne katıyor, krallara baş eğdiriyor. Kılıcıyla toz ediyor onları, Yayıyla savrulan samana çeviriyor."
+    },
+    {
+      "v": 3,
+      "text": "Kovalıyor onları, Ayak basmadığı bir yoldan esenlikle geçiyor."
+    },
+    {
+      "v": 4,
+      "text": "Bunları yapıp gerçekleştiren, Kuşakları başlangıçtan beri çağıran kim? Ben RAB, ilkim; sonuncularla da yine Ben olacağım.”"
+    },
+    {
+      "v": 5,
+      "text": "Kıyı halkları bunu görüp korktu. Dünyanın dört bucağı titriyor. Yaklaşıyor, geliyorlar."
+    },
+    {
+      "v": 6,
+      "text": "Herkes komşusuna yardım ediyor, Kardeşine, “Güçlü ol” diyor."
+    },
+    {
+      "v": 7,
+      "text": "Zanaatçı kuyumcuyu yüreklendiriyor, Madeni çekiçle düzleyen, “Lehim iyi oldu” diyerek örse vuranı yüreklendiriyor. Kımıldamasın diye putu yerine çiviliyor."
+    },
+    {
+      "v": 8,
+      "text": "“Ama sen, ey kulum İsrail, Seçtiğim Yakup soyu, Dostum İbrahim'in torunları!"
+    },
+    {
+      "v": 9,
+      "text": "Sizleri dünyanın dört bucağından topladım, En uzak yerlerden çağırdım. Dedim ki, ‘Sen kulumsun, seni seçtim, Seni reddetmedim.’"
+    },
+    {
+      "v": 10,
+      "text": "Korkma, çünkü ben seninleyim, Yılma, çünkü Tanrın benim. Seni güçlendireceğim, evet, sana yardım edeceğim; Zafer kazanan sağ elimle sana destek olacağım."
+    },
+    {
+      "v": 11,
+      "text": "“Sana öfkelenenlerin hepsi utanacak, rezil olacak. Sana karşı çıkanlar hiçe sayılıp yok olacak."
+    },
+    {
+      "v": 12,
+      "text": "Seninle çekişenleri arasan da bulamayacaksın. Seninle savaşanlar hiçten beter olacak."
+    },
+    {
+      "v": 13,
+      "text": "Çünkü sağ elinden tutan, ‘Korkma, sana yardım edeceğim’ diyen Tanrın RAB benim."
+    },
+    {
+      "v": 14,
+      "text": "“Ey Yakup soyu, toprak kurdu, Ey İsrail halkı, korkma! Sana yardım edeceğim” diyor RAB, Seni kurtaran İsrail'in Kutsalı."
+    },
+    {
+      "v": 15,
+      "text": "“İşte, seni dişli, keskin, yepyeni bir harman düveni yaptım. Harman edip ufalayacaksın dağları, Tepeleri samana çevireceksin."
+    },
+    {
+      "v": 16,
+      "text": "Onları savurduğunda rüzgar alıp götürecek, Darmadağın edecek hepsini kasırga. Sense RAB'de sevinç bulacak, İsrail'in Kutsalı'yla övüneceksin."
+    },
+    {
+      "v": 17,
+      "text": "“Düşkünlerle yoksullar su arıyor, ama yok. Dilleri kurumuş susuzluktan. Ben RAB, onları yanıtlayacağım, Ben, İsrail'in Tanrısı, onları bırakmayacağım."
+    },
+    {
+      "v": 18,
+      "text": "Çıplak tepeler üzerinde ırmaklar, Vadilerde su kaynakları yapacağım. Çölü havuza, Kurak toprağı pınara çevireceğim."
+    },
+    {
+      "v": 19,
+      "text": "Çölü sedir, akasya, Mersin ve iğde ağaçlarına kavuşturacağım. Bozkıra çam, köknar Ve selviyi bir arada dikeceğim."
+    },
+    {
+      "v": 20,
+      "text": "Öyle ki, insanlar görüp bilsinler, Hep birlikte düşünüp anlasınlar ki, Bütün bunları RAB'bin eli yapmış, İsrail'in Kutsalı yaratmıştır.”"
+    },
+    {
+      "section": "Rab Putlara Karşı"
+    },
+    {
+      "v": 21,
+      "text": "“Davanızı sunun” diyor RAB, “Kanıtlarınızı ortaya koyun” diyor Yakup'un Kralı,"
+    },
+    {
+      "v": 22,
+      "text": "“Putlarınızı getirin de olacakları bildirsinler bize. Olup bitenleri bildirsinler ki düşünelim, Sonuçlarını bilelim. Ya da gelecekte olacakları duyursunlar bize."
+    },
+    {
+      "v": 23,
+      "text": "Ey putlar, bundan sonra olacakları bize bildirin de, İlah olduğunuzu bilelim! Haydi bir iyilik ya da kötülük edin de, Hepimiz korkup dehşete düşelim."
+    },
+    {
+      "v": 24,
+      "text": "Siz de yaptıklarınız da hiçten betersiniz, Sizi yeğleyen iğrençtir."
+    },
+    {
+      "v": 25,
+      "text": "“Kuzeyden birini harekete geçirdim, geliyor, Gün doğusundan beni adımla çağıran biri. Çömlekçinin balçığı çiğnediği gibi, Önderleri çamur gibi çiğneyecek ayağıyla."
+    },
+    {
+      "v": 26,
+      "text": "Hanginiz bunu başlangıçtan bildirdi ki, bilelim, Kim önceden bildirdi ki, ‘Haklısın’ diyelim? Konuştuğunuzu bildiren de Duyuran da Duyan da olmadı hiç."
+    },
+    {
+      "v": 27,
+      "text": "Siyon'a ilk, ‘İşte, geldiler’ diyen benim. Yeruşalim'e müjdeci gönderdim."
+    },
+    {
+      "v": 28,
+      "text": "Bakıyorum, aralarında öğüt verebilecek kimse yok ki, Onlara danışayım, onlar da yanıtlasınlar."
+    },
+    {
+      "v": 29,
+      "text": "Hepsi bomboş, yaptıkları da bir hiç. Halkın putları yalnızca yeldir, sıfırdır.”"
+    }
+  ],
+  "title": "Rab'den Güvence"
+}

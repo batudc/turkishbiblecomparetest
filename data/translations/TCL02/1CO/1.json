@@ -1,1 +1,125 @@
-{"t": "TCL02", "b": "1CO", "c": 1, "content": [{"v": 1, "text": "Tanrı'nın isteğiyle Mesih İsa'nın elçisi olmaya çağrılan ben Pavlus ve kardeşimiz Sostenis'ten Tanrı'nın Korint'teki kilisesine selam! Mesih İsa'da kutsal kılınmış, kutsal olmaya çağrılmış olan sizlere ve hepimizin Rabbi İsa Mesih'in adını her yerde anan herkese Babamız Tanrı'dan ve Rab İsa Mesih'ten lütuf ve esenlik olsun."}, {"v": 4, "text": "Tanrı'nın Mesih İsa'da size bağışladığı lütuftan ötürü sizin için her zaman Tanrım'a şükrediyorum."}, {"v": 5, "text": "Mesih'le ilgili tanıklığımız sizde pekiştiği gibi Mesih'te her bakımdan –her tür söz ve bilgi bakımından– zenginleştiniz."}, {"v": 7, "text": "Şöyle ki, Rabbimiz İsa Mesih'in görünmesini beklerken hiçbir ruhsal armağandan yoksun değilsiniz."}, {"v": 8, "text": "Rabbimiz İsa Mesih kendi gününde kusursuz olmanız için sizi sonuna dek pekiştirecektir."}, {"v": 9, "text": "Sizleri Oğlu Rabbimiz İsa Mesih'le paydaşlığa çağıran Tanrı güvenilirdir."}, {"v": 10, "text": "Kardeşler, Rabbimiz İsa Mesih'in adıyla yalvarıyorum: Hepiniz uyum içinde olun, aranızda bölünmeler olmadan aynı düşünce ve görüşte birleşin."}, {"v": 11, "text": "Kardeşlerim, Kloi'nin ev halkından aranızda çekişmeler olduğunu öğrendim."}, {"v": 12, "text": "Şunu demek istiyorum: Her biriniz, “Ben Pavlus yanlısıyım”, “Ben Apollos yanlısıyım”, “Ben Kefas yanlısıyım” ya da “Ben Mesih yanlısıyım” diyormuş."}, {"v": 13, "text": "Mesih bölündü mü? Sizin için çarmıha gerilen Pavlus muydu? Pavlus'un adıyla mı vaftiz edildiniz?"}, {"v": 14, "text": "Hiç kimse benim adımla vaftiz edildiğinizi söylemesin diye Krispus'la Gayus'tan başka hiçbirinizi vaftiz etmediğim için Tanrı'ya şükrediyorum."}, {"v": 16, "text": "Evet, bir de İstefanas'ın ev halkını vaftiz ettim; bunun dışında kimseyi vaftiz ettiğimi anımsamıyorum."}, {"v": 17, "text": "Çünkü Mesih beni vaftiz etmeye değil, Mesih'in çarmıhtaki ölümü boşa gitmesin diye, bilgece sözlere dayanmaksızın Müjde'yi yaymaya gönderdi."}, {"v": 18, "text": "Çarmıhla ilgili bildiri mahva gidenler için saçmalık, biz kurtulmakta olanlar içinse Tanrı gücüdür."}, {"v": 19, "text": "Nitekim şöyle yazılmıştır: “Bilgelerin bilgeliğini yok edeceğim, Akıllıların aklını boşa çıkaracağım.”"}, {"v": 20, "text": "Hani nerede bilge kişi? Din bilgini nerede? Nerede bu çağın hünerli tartışmacısı? Tanrı dünya bilgeliğinin saçma olduğunu göstermedi mi?"}, {"v": 21, "text": "Mademki dünya Tanrı'nın bilgeliği uyarınca Tanrı'yı kendi bilgeliğiyle tanımadı, Tanrı iman edenleri saçma sayılan bildiriyle kurtarmaya razı oldu."}, {"v": 22, "text": "Yahudiler doğaüstü belirtiler ister, Grekler'se bilgelik arar."}, {"v": 23, "text": "Ama biz çarmıha gerilmiş Mesih'i duyuruyoruz. Yahudiler bunu yüzkarası, öteki uluslar da saçmalık sayarlar."}, {"v": 24, "text": "Oysa Mesih, çağrılmış olanlar için –ister Yahudi ister Grek olsun– Tanrı'nın gücü ve Tanrı'nın bilgeliğidir."}, {"v": 25, "text": "Çünkü Tanrı'nın “saçmalığı” insan bilgeliğinden daha üstün, Tanrı'nın “zayıflığı” insan gücünden daha güçlüdür."}, {"v": 26, "text": "Kardeşlerim, aldığınız çağrıyı düşünün. Birçoğunuz insan ölçülerine göre bilge, güçlü ya da soylu kişiler değildiniz."}, {"v": 27, "text": "Ne var ki, Tanrı bilgeleri utandırmak için dünyanın saçma saydıklarını, güçlüleri utandırmak için de dünyanın zayıf saydıklarını seçti."}, {"v": 28, "text": "Dünyanın önemli gördüklerini hiçe indirmek için dünyanın önemsiz, soysuz, değersiz gördüklerini seçti."}, {"v": 29, "text": "Öyle ki, Tanrı'nın önünde hiç kimse övünemesin."}, {"v": 30, "text": "Ama siz Tanrı sayesinde Mesih İsa'dasınız. O bizim için tanrısal bilgelik, doğruluk, kutsallık ve kurtuluş oldu."}, {"v": 31, "text": "Bunun için yazılmış olduğu gibi, “Övünen, Rab'le övünsün.”"}]}
+{
+  "t": "TCL02",
+  "b": "1CO",
+  "c": 1,
+  "content": [
+    {
+      "section": "Selamlar ve Şükranlar"
+    },
+    {
+      "v": 1,
+      "text": "Tanrı'nın isteğiyle Mesih İsa'nın elçisi olmaya çağrılan ben Pavlus ve kardeşimiz Sostenis'ten Tanrı'nın Korint'teki kilisesine selam! Mesih İsa'da kutsal kılınmış, kutsal olmaya çağrılmış olan sizlere ve hepimizin Rabbi İsa Mesih'in adını her yerde anan herkese Babamız Tanrı'dan ve Rab İsa Mesih'ten lütuf ve esenlik olsun."
+    },
+    {
+      "v": 4,
+      "text": "Tanrı'nın Mesih İsa'da size bağışladığı lütuftan ötürü sizin için her zaman Tanrım'a şükrediyorum."
+    },
+    {
+      "v": 5,
+      "text": "Mesih'le ilgili tanıklığımız sizde pekiştiği gibi Mesih'te her bakımdan –her tür söz ve bilgi bakımından– zenginleştiniz."
+    },
+    {
+      "v": 7,
+      "text": "Şöyle ki, Rabbimiz İsa Mesih'in görünmesini beklerken hiçbir ruhsal armağandan yoksun değilsiniz."
+    },
+    {
+      "v": 8,
+      "text": "Rabbimiz İsa Mesih kendi gününde kusursuz olmanız için sizi sonuna dek pekiştirecektir."
+    },
+    {
+      "v": 9,
+      "text": "Sizleri Oğlu Rabbimiz İsa Mesih'le paydaşlığa çağıran Tanrı güvenilirdir."
+    },
+    {
+      "section": "İnanlılar Topluluğunda Bölünmeler"
+    },
+    {
+      "v": 10,
+      "text": "Kardeşler, Rabbimiz İsa Mesih'in adıyla yalvarıyorum: Hepiniz uyum içinde olun, aranızda bölünmeler olmadan aynı düşünce ve görüşte birleşin."
+    },
+    {
+      "v": 11,
+      "text": "Kardeşlerim, Kloi'nin ev halkından aranızda çekişmeler olduğunu öğrendim."
+    },
+    {
+      "v": 12,
+      "text": "Şunu demek istiyorum: Her biriniz, “Ben Pavlus yanlısıyım”, “Ben Apollos yanlısıyım”, “Ben Kefas yanlısıyım” ya da “Ben Mesih yanlısıyım” diyormuş."
+    },
+    {
+      "v": 13,
+      "text": "Mesih bölündü mü? Sizin için çarmıha gerilen Pavlus muydu? Pavlus'un adıyla mı vaftiz edildiniz?"
+    },
+    {
+      "v": 14,
+      "text": "Hiç kimse benim adımla vaftiz edildiğinizi söylemesin diye Krispus'la Gayus'tan başka hiçbirinizi vaftiz etmediğim için Tanrı'ya şükrediyorum."
+    },
+    {
+      "v": 16,
+      "text": "Evet, bir de İstefanas'ın ev halkını vaftiz ettim; bunun dışında kimseyi vaftiz ettiğimi anımsamıyorum."
+    },
+    {
+      "v": 17,
+      "text": "Çünkü Mesih beni vaftiz etmeye değil, Mesih'in çarmıhtaki ölümü boşa gitmesin diye, bilgece sözlere dayanmaksızın Müjde'yi yaymaya gönderdi."
+    },
+    {
+      "section": "Mesih: Tanrı'nın Gücü ve Bilgeliği"
+    },
+    {
+      "v": 18,
+      "text": "Çarmıhla ilgili bildiri mahva gidenler için saçmalık, biz kurtulmakta olanlar içinse Tanrı gücüdür."
+    },
+    {
+      "v": 19,
+      "text": "Nitekim şöyle yazılmıştır: “Bilgelerin bilgeliğini yok edeceğim, Akıllıların aklını boşa çıkaracağım.”"
+    },
+    {
+      "v": 20,
+      "text": "Hani nerede bilge kişi? Din bilgini nerede? Nerede bu çağın hünerli tartışmacısı? Tanrı dünya bilgeliğinin saçma olduğunu göstermedi mi?"
+    },
+    {
+      "v": 21,
+      "text": "Mademki dünya Tanrı'nın bilgeliği uyarınca Tanrı'yı kendi bilgeliğiyle tanımadı, Tanrı iman edenleri saçma sayılan bildiriyle kurtarmaya razı oldu."
+    },
+    {
+      "v": 22,
+      "text": "Yahudiler doğaüstü belirtiler ister, Grekler'se bilgelik arar."
+    },
+    {
+      "v": 23,
+      "text": "Ama biz çarmıha gerilmiş Mesih'i duyuruyoruz. Yahudiler bunu yüzkarası, öteki uluslar da saçmalık sayarlar."
+    },
+    {
+      "v": 24,
+      "text": "Oysa Mesih, çağrılmış olanlar için –ister Yahudi ister Grek olsun– Tanrı'nın gücü ve Tanrı'nın bilgeliğidir."
+    },
+    {
+      "v": 25,
+      "text": "Çünkü Tanrı'nın “saçmalığı” insan bilgeliğinden daha üstün, Tanrı'nın “zayıflığı” insan gücünden daha güçlüdür."
+    },
+    {
+      "v": 26,
+      "text": "Kardeşlerim, aldığınız çağrıyı düşünün. Birçoğunuz insan ölçülerine göre bilge, güçlü ya da soylu kişiler değildiniz."
+    },
+    {
+      "v": 27,
+      "text": "Ne var ki, Tanrı bilgeleri utandırmak için dünyanın saçma saydıklarını, güçlüleri utandırmak için de dünyanın zayıf saydıklarını seçti."
+    },
+    {
+      "v": 28,
+      "text": "Dünyanın önemli gördüklerini hiçe indirmek için dünyanın önemsiz, soysuz, değersiz gördüklerini seçti."
+    },
+    {
+      "v": 29,
+      "text": "Öyle ki, Tanrı'nın önünde hiç kimse övünemesin."
+    },
+    {
+      "v": 30,
+      "text": "Ama siz Tanrı sayesinde Mesih İsa'dasınız. O bizim için tanrısal bilgelik, doğruluk, kutsallık ve kurtuluş oldu."
+    },
+    {
+      "v": 31,
+      "text": "Bunun için yazılmış olduğu gibi, “Övünen, Rab'le övünsün.”"
+    }
+  ],
+  "title": "Selamlar ve Şükranlar"
+}

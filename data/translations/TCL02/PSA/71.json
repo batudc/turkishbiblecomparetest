@@ -1,1 +1,107 @@
-{"t":"TCL02","b":"PSA","c":71,"content":[{"v":1,"text":"Ya RAB, sana sığınıyorum, Utandırma beni hiçbir zaman!"},{"v":2,"text":"Adaletinle kurtar beni, tehlikeden uzaklaştır, Kulak ver bana, kurtar beni!"},{"v":3,"text":"Sığınacak kayam ol, Her zaman başvurabileceğim; Buyruk ver, kurtulayım, Çünkü kayam ve kalem sensin."},{"v":4,"text":"Ey Tanrım, kurtar beni Kötünün elinden, haksızın, gaddarın pençesinden!"},{"v":5,"text":"Çünkü umudum sensin, ey Egemen RAB, Gençliğimden beri dayanağım sensin."},{"v":6,"text":"Doğduğum günden beri sana güveniyorum, Beni ana rahminden çıkaran sensin. Övgülerim hep sanadır."},{"v":7,"text":"Birçokları için iyi bir örnek oldum, Çünkü sen güçlü sığınağımsın."},{"v":8,"text":"Ağzımdan sana övgü eksilmez, Gün boyu yüceliğini anarım."},{"v":9,"text":"Yaşlandığımda beni reddetme, Gücüm tükendiğinde beni terk etme!"},{"v":10,"text":"Çünkü düşmanlarım benden söz ediyor, Beni öldürmek isteyenler birbirine danışıyor,"},{"v":11,"text":"“Tanrı onu terk etti” diyorlar, “Kovalayıp yakalayın, Kurtaracak kimsesi yok!”"},{"v":12,"text":"Ey Tanrı, benden uzak durma, Tanrım, yardımıma koş!"},{"v":13,"text":"Utansın, yok olsun beni suçlayanlar, Utanca, rezalete bürünsün kötülüğümü isteyenler."},{"v":14,"text":"Ama ben her zaman umutluyum, Sana övgü üstüne övgü dizeceğim."},{"v":15,"text":"Gün boyu senin zaferini, Kurtarışını anlatacağım, Ölçüsünü bilmesem de."},{"v":16,"text":"Ey Egemen RAB, gelip yiğitliklerini, Senin, yalnız senin zaferini duyuracağım."},{"v":17,"text":"Ey Tanrı, çocukluğumdan beri beni sen yetiştirdin, Senin harikalarını hâlâ anlatıyorum."},{"v":18,"text":"Yaşlanıp saçlarıma ak düşse bile Terk etme beni, ey Tanrı, Gücünü gelecek kuşağa, Kudretini sonrakilere anlatana dek."},{"v":19,"text":"Ey Tanrı, doğruluğun göklere erişiyor, Büyük işler yaptın, Senin gibisi var mı, ey Tanrı?"},{"v":20,"text":"Sen ki, bana birçok kötü sıkıntı gösterdin, Bana yeniden yaşam verecek, Beni toprağın derinliklerinden çıkaracaksın."},{"v":21,"text":"Saygınlığımı artıracak, Yine beni avutacaksın."},{"v":22,"text":"Ben de seni, Senin sadakatini çenkle öveceğim, ey Tanrım, Lir çalarak seni ilahilerle öveceğim, Ey İsrail'in Kutsalı!"},{"v":23,"text":"Seni ilahilerle överken, Dudaklarımla, varlığımla sevincimi dile getireceğim, Çünkü sen beni kurtardın."},{"v":24,"text":"Dilim gün boyu senin zaferinden söz edecek, Çünkü kötülüğümü isteyenler Utanıp rezil oldu."}]}
+{
+  "t": "TCL02",
+  "b": "PSA",
+  "c": 71,
+  "content": [
+    {
+      "section": "71. Mezmur"
+    },
+    {
+      "v": 1,
+      "text": "Ya RAB, sana sığınıyorum, Utandırma beni hiçbir zaman!"
+    },
+    {
+      "v": 2,
+      "text": "Adaletinle kurtar beni, tehlikeden uzaklaştır, Kulak ver bana, kurtar beni!"
+    },
+    {
+      "v": 3,
+      "text": "Sığınacak kayam ol, Her zaman başvurabileceğim; Buyruk ver, kurtulayım, Çünkü kayam ve kalem sensin."
+    },
+    {
+      "v": 4,
+      "text": "Ey Tanrım, kurtar beni Kötünün elinden, haksızın, gaddarın pençesinden!"
+    },
+    {
+      "v": 5,
+      "text": "Çünkü umudum sensin, ey Egemen RAB, Gençliğimden beri dayanağım sensin."
+    },
+    {
+      "v": 6,
+      "text": "Doğduğum günden beri sana güveniyorum, Beni ana rahminden çıkaran sensin. Övgülerim hep sanadır."
+    },
+    {
+      "v": 7,
+      "text": "Birçokları için iyi bir örnek oldum, Çünkü sen güçlü sığınağımsın."
+    },
+    {
+      "v": 8,
+      "text": "Ağzımdan sana övgü eksilmez, Gün boyu yüceliğini anarım."
+    },
+    {
+      "v": 9,
+      "text": "Yaşlandığımda beni reddetme, Gücüm tükendiğinde beni terk etme!"
+    },
+    {
+      "v": 10,
+      "text": "Çünkü düşmanlarım benden söz ediyor, Beni öldürmek isteyenler birbirine danışıyor,"
+    },
+    {
+      "v": 11,
+      "text": "“Tanrı onu terk etti” diyorlar, “Kovalayıp yakalayın, Kurtaracak kimsesi yok!”"
+    },
+    {
+      "v": 12,
+      "text": "Ey Tanrı, benden uzak durma, Tanrım, yardımıma koş!"
+    },
+    {
+      "v": 13,
+      "text": "Utansın, yok olsun beni suçlayanlar, Utanca, rezalete bürünsün kötülüğümü isteyenler."
+    },
+    {
+      "v": 14,
+      "text": "Ama ben her zaman umutluyum, Sana övgü üstüne övgü dizeceğim."
+    },
+    {
+      "v": 15,
+      "text": "Gün boyu senin zaferini, Kurtarışını anlatacağım, Ölçüsünü bilmesem de."
+    },
+    {
+      "v": 16,
+      "text": "Ey Egemen RAB, gelip yiğitliklerini, Senin, yalnız senin zaferini duyuracağım."
+    },
+    {
+      "v": 17,
+      "text": "Ey Tanrı, çocukluğumdan beri beni sen yetiştirdin, Senin harikalarını hâlâ anlatıyorum."
+    },
+    {
+      "v": 18,
+      "text": "Yaşlanıp saçlarıma ak düşse bile Terk etme beni, ey Tanrı, Gücünü gelecek kuşağa, Kudretini sonrakilere anlatana dek."
+    },
+    {
+      "v": 19,
+      "text": "Ey Tanrı, doğruluğun göklere erişiyor, Büyük işler yaptın, Senin gibisi var mı, ey Tanrı?"
+    },
+    {
+      "v": 20,
+      "text": "Sen ki, bana birçok kötü sıkıntı gösterdin, Bana yeniden yaşam verecek, Beni toprağın derinliklerinden çıkaracaksın."
+    },
+    {
+      "v": 21,
+      "text": "Saygınlığımı artıracak, Yine beni avutacaksın."
+    },
+    {
+      "v": 22,
+      "text": "Ben de seni, Senin sadakatini çenkle öveceğim, ey Tanrım, Lir çalarak seni ilahilerle öveceğim, Ey İsrail'in Kutsalı!"
+    },
+    {
+      "v": 23,
+      "text": "Seni ilahilerle överken, Dudaklarımla, varlığımla sevincimi dile getireceğim, Çünkü sen beni kurtardın."
+    },
+    {
+      "v": 24,
+      "text": "Dilim gün boyu senin zaferinden söz edecek, Çünkü kötülüğümü isteyenler Utanıp rezil oldu."
+    }
+  ],
+  "title": "71. Mezmur"
+}

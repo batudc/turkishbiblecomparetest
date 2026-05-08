@@ -1,1 +1,35 @@
-{"t":"TCL02","b":"PSA","c":1,"content":[{"v":1,"text":"Ne mutlu o insana ki, kötülerin öğüdüyle yürümez, Günahkârların yolunda durmaz, Alaycıların arasında oturmaz."},{"v":2,"text":"Ancak zevkini RAB'bin Yasası'ndan alır Ve gece gündüz onun üzerinde derin derin düşünür."},{"v":3,"text":"Böylesi akarsu kıyılarına dikilmiş ağaca benzer, Meyvesini mevsiminde verir, Yaprağı hiç solmaz. Yaptığı her işi başarır."},{"v":4,"text":"Kötüler böyle değil, Rüzgarın savurduğu saman çöpüne benzerler."},{"v":5,"text":"Bu yüzden yargılanınca aklanamaz, Doğrular topluluğunda yer bulamaz günahkârlar."},{"v":6,"text":"Çünkü RAB doğruların yolunu gözetir, Kötülerin yolu ise ölüme götürür."}]}
+{
+  "t": "TCL02",
+  "b": "PSA",
+  "c": 1,
+  "content": [
+    {
+      "section": "1. Mezmur"
+    },
+    {
+      "v": 1,
+      "text": "Ne mutlu o insana ki, kötülerin öğüdüyle yürümez, Günahkârların yolunda durmaz, Alaycıların arasında oturmaz."
+    },
+    {
+      "v": 2,
+      "text": "Ancak zevkini RAB'bin Yasası'ndan alır Ve gece gündüz onun üzerinde derin derin düşünür."
+    },
+    {
+      "v": 3,
+      "text": "Böylesi akarsu kıyılarına dikilmiş ağaca benzer, Meyvesini mevsiminde verir, Yaprağı hiç solmaz. Yaptığı her işi başarır."
+    },
+    {
+      "v": 4,
+      "text": "Kötüler böyle değil, Rüzgarın savurduğu saman çöpüne benzerler."
+    },
+    {
+      "v": 5,
+      "text": "Bu yüzden yargılanınca aklanamaz, Doğrular topluluğunda yer bulamaz günahkârlar."
+    },
+    {
+      "v": 6,
+      "text": "Çünkü RAB doğruların yolunu gözetir, Kötülerin yolu ise ölüme götürür."
+    }
+  ],
+  "title": "1. Mezmur"
+}

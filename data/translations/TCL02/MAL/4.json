@@ -1,1 +1,35 @@
-{"t":"TCL02","b":"MAL","c":4,"content":[{"v":1,"text":"Her Şeye Egemen RAB diyor ki, “İşte o gün geliyor, fırın gibi yanıyor. Kendini beğenmişlerle kötülük yapanlar samandan farksız olacak; o gün hepsini yakacak. Onlarda ne kök, ne dal bırakılacak."},{"v":2,"text":"Ama siz, adıma saygı gösterenler için ışınlarıyla şifa getiren doğruluk güneşi doğacak. Ve çıkıp ahırdan salınmış buzağılar gibi sıçrayacaksınız."},{"v":3,"text":"Kötüleri ezeceksiniz. Çünkü bunları yaptığım gün, ayağınızın altında kül olacaklar.” Böyle diyor Her Şeye Egemen RAB."},{"v":4,"text":"“Kulum Musa'nın yasasını, bütün İsrail'e iletmesi için Horev Dağı'nda ona verdiğim kuralları, ilkeleri anımsayın."},{"v":5,"text":"“RAB'bin büyük ve korkunç günü gelmeden önce size Peygamber İlyas'ı göndereceğim."},{"v":6,"text":"O babaların yüreklerini çocuklarına, çocukların yüreklerini babalarına döndürecek. Öyle ki, gelip ülkeyi lanetleyerek yok etmeyeyim.”"}]}
+{
+  "t": "TCL02",
+  "b": "MAL",
+  "c": 4,
+  "content": [
+    {
+      "section": "Rab'bin Günü"
+    },
+    {
+      "v": 1,
+      "text": "Her Şeye Egemen RAB diyor ki, “İşte o gün geliyor, fırın gibi yanıyor. Kendini beğenmişlerle kötülük yapanlar samandan farksız olacak; o gün hepsini yakacak. Onlarda ne kök, ne dal bırakılacak."
+    },
+    {
+      "v": 2,
+      "text": "Ama siz, adıma saygı gösterenler için ışınlarıyla şifa getiren doğruluk güneşi doğacak. Ve çıkıp ahırdan salınmış buzağılar gibi sıçrayacaksınız."
+    },
+    {
+      "v": 3,
+      "text": "Kötüleri ezeceksiniz. Çünkü bunları yaptığım gün, ayağınızın altında kül olacaklar.” Böyle diyor Her Şeye Egemen RAB."
+    },
+    {
+      "v": 4,
+      "text": "“Kulum Musa'nın yasasını, bütün İsrail'e iletmesi için Horev Dağı'nda ona verdiğim kuralları, ilkeleri anımsayın."
+    },
+    {
+      "v": 5,
+      "text": "“RAB'bin büyük ve korkunç günü gelmeden önce size Peygamber İlyas'ı göndereceğim."
+    },
+    {
+      "v": 6,
+      "text": "O babaların yüreklerini çocuklarına, çocukların yüreklerini babalarına döndürecek. Öyle ki, gelip ülkeyi lanetleyerek yok etmeyeyim.”"
+    }
+  ],
+  "title": "Rab'bin Günü"
+}

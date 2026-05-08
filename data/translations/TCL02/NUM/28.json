@@ -1,1 +1,139 @@
-{"t": "TCL02", "b": "NUM", "c": 28, "content": [{"v": 1, "text": "RAB Musa'ya şöyle dedi:"}, {"v": 2, "text": "“İsrailliler'e buyur ve de ki, ‘Bana sunacağınız sunuyu –yakılan sunu ve beni hoşnut eden koku olarak sunacağınız yiyeceği– belirlenen zamanda sunmaya dikkat edeceksiniz.’"}, {"v": 3, "text": "Onlara de ki, ‘RAB'be sunacağınız yakılan sunu şudur: Günlük yakmalık sunu olarak her gün bir yaşında kusursuz iki erkek kuzu sunacaksınız."}, {"v": 4, "text": "Kuzunun birini sabah, öbürünü akşamüstü sunun."}, {"v": 5, "text": "Kuzuyla birlikte tahıl sunusu olarak dörtte bir hin sıkma zeytinyağıyla yoğrulmuş onda bir efa ince un sunacaksınız."}, {"v": 6, "text": "Günlük yakmalık sunu, Sina Dağı'nda başlatılan, RAB'bi hoşnut eden koku olarak yakılan sunudur."}, {"v": 7, "text": "Kuzuyla birlikte dökmelik sunu olarak dörtte bir hin içki sunacaksınız. Dökmelik sunuyu RAB için kutsal yerde dökeceksiniz."}, {"v": 8, "text": "Öbür kuzuyu akşamüstü, yakılan sunu ve RAB'bi hoşnut eden koku olarak, sabahki gibi tahıl sunusu ve dökmelik sunuyla birlikte bana sunacaksınız.’ ”"}, {"v": 9, "text": "“ ‘Şabat Günü bir yaşında kusursuz iki erkek kuzuyla birlikte tahıl sunusu olarak zeytinyağıyla yoğrulmuş onda iki efa ince un ve onun dökmelik sunusunu sunacaksınız."}, {"v": 10, "text": "Günlük yakmalık sunuyla dökmelik sunusu dışında, her Şabat Günü sunulan yakmalık sunu budur.’ ”"}, {"v": 11, "text": "“ ‘Her ayın ilk günü, RAB'be yakmalık sunu olarak iki boğa, bir koç ve bir yaşında kusursuz yedi erkek kuzu sunacaksınız."}, {"v": 12, "text": "Her boğayla birlikte tahıl sunusu olarak zeytinyağıyla yoğrulmuş onda üç efa ince un; koçla birlikte tahıl sunusu olarak zeytinyağıyla yoğrulmuş onda iki efa ince un;"}, {"v": 13, "text": "her kuzuyla da tahıl sunusu olarak zeytinyağıyla yoğrulmuş onda bir efa ince un sunacaksınız. Bu, yakmalık sunu, RAB'bi hoşnut eden koku, yakılan sunu olacaktır."}, {"v": 14, "text": "Her boğayla dökmelik sunu olarak yarım hin, koçla üçte bir hin, her kuzuyla dörtte bir hin şarap sunacaksınız. Yıl boyunca her Yeni Ay'da yapılacak yakmalık sunu budur."}, {"v": 15, "text": "Günlük yakmalık sunuyla dökmelik sunusu dışında, RAB'be günah sunusu olarak bir teke sunulacak.’ ”"}, {"v": 16, "text": "“ ‘RAB'bin Fısıh kurbanı birinci ayın on dördüncü günü kesilmelidir."}, {"v": 17, "text": "On beşinci gün bayram olacaktır; yedi gün mayasız ekmek yiyeceksiniz."}, {"v": 18, "text": "İlk gün kutsal toplantı düzenleyecek, gündelik işlerinizi yapmayacaksınız."}, {"v": 19, "text": "RAB için yakılan sunu, yakmalık sunu olarak iki boğa, bir koç ve bir yaşında yedi erkek kuzu sunacaksınız. Sunacağınız hayvanlar kusursuz olmalı."}, {"v": 20, "text": "Her boğayla birlikte tahıl sunusu olarak zeytinyağıyla yoğrulmuş onda üç efa, koçla onda iki efa, her kuzuyla onda bir efa ince un sunacaksınız;"}, {"v": 22, "text": "günahlarınızı bağışlatmak için de günah sunusu olarak bir teke sunacaksınız."}, {"v": 23, "text": "Her sabah sunacağınız günlük yakmalık sunuya ek olarak bunları da sunacaksınız."}, {"v": 24, "text": "Böylece her gün RAB'bi hoşnut eden koku olarak yakılan yiyecek sunusunu yedi gün sunacaksınız. Bunu günlük yakmalık sunuyla dökmelik sunusuna ek olarak sunacaksınız."}, {"v": 25, "text": "Yedinci gün kutsal toplantı düzenleyecek, gündelik işlerinizi yapmayacaksınız.’ ”"}, {"v": 26, "text": "“ ‘İlk ürünleri kutlama günü, Haftalar Bayramı'nda RAB'be yeni tahıl sunusu sunduğunuzda kutsal toplantı düzenleyecek, gündelik işlerinizi yapmayacaksınız."}, {"v": 27, "text": "RAB'bi hoşnut eden koku, yakmalık sunu olarak iki boğa, bir koç ve bir yaşında yedi erkek kuzu sunacaksınız."}, {"v": 28, "text": "Her boğayla birlikte tahıl sunusu olarak zeytinyağıyla yoğrulmuş onda üç efa, koçla birlikte onda iki efa, her kuzuyla da onda bir efa ince un sunacaksınız;"}, {"v": 30, "text": "günahlarınızı bağışlatmak için de bir teke sunacaksınız."}, {"v": 31, "text": "Günlük yakmalık sunuyla tahıl sunusuna ek olarak bunları dökmelik sunuyla birlikte sunacaksınız. Sunacağınız hayvanlar kusursuz olmalı.’ ”"}]}
+{
+  "t": "TCL02",
+  "b": "NUM",
+  "c": 28,
+  "content": [
+    {
+      "section": "Günlük Sunular"
+    },
+    {
+      "v": 1,
+      "text": "RAB Musa'ya şöyle dedi:"
+    },
+    {
+      "v": 2,
+      "text": "“İsrailliler'e buyur ve de ki, ‘Bana sunacağınız sunuyu –yakılan sunu ve beni hoşnut eden koku olarak sunacağınız yiyeceği– belirlenen zamanda sunmaya dikkat edeceksiniz.’"
+    },
+    {
+      "v": 3,
+      "text": "Onlara de ki, ‘RAB'be sunacağınız yakılan sunu şudur: Günlük yakmalık sunu olarak her gün bir yaşında kusursuz iki erkek kuzu sunacaksınız."
+    },
+    {
+      "v": 4,
+      "text": "Kuzunun birini sabah, öbürünü akşamüstü sunun."
+    },
+    {
+      "v": 5,
+      "text": "Kuzuyla birlikte tahıl sunusu olarak dörtte bir hin sıkma zeytinyağıyla yoğrulmuş onda bir efa ince un sunacaksınız."
+    },
+    {
+      "v": 6,
+      "text": "Günlük yakmalık sunu, Sina Dağı'nda başlatılan, RAB'bi hoşnut eden koku olarak yakılan sunudur."
+    },
+    {
+      "v": 7,
+      "text": "Kuzuyla birlikte dökmelik sunu olarak dörtte bir hin içki sunacaksınız. Dökmelik sunuyu RAB için kutsal yerde dökeceksiniz."
+    },
+    {
+      "v": 8,
+      "text": "Öbür kuzuyu akşamüstü, yakılan sunu ve RAB'bi hoşnut eden koku olarak, sabahki gibi tahıl sunusu ve dökmelik sunuyla birlikte bana sunacaksınız.’ ”"
+    },
+    {
+      "section": "Şabat Sunuları"
+    },
+    {
+      "v": 9,
+      "text": "“ ‘Şabat Günü bir yaşında kusursuz iki erkek kuzuyla birlikte tahıl sunusu olarak zeytinyağıyla yoğrulmuş onda iki efa ince un ve onun dökmelik sunusunu sunacaksınız."
+    },
+    {
+      "v": 10,
+      "text": "Günlük yakmalık sunuyla dökmelik sunusu dışında, her Şabat Günü sunulan yakmalık sunu budur.’ ”"
+    },
+    {
+      "section": "Yeni Ay Sunuları"
+    },
+    {
+      "v": 11,
+      "text": "“ ‘Her ayın ilk günü, RAB'be yakmalık sunu olarak iki boğa, bir koç ve bir yaşında kusursuz yedi erkek kuzu sunacaksınız."
+    },
+    {
+      "v": 12,
+      "text": "Her boğayla birlikte tahıl sunusu olarak zeytinyağıyla yoğrulmuş onda üç efa ince un; koçla birlikte tahıl sunusu olarak zeytinyağıyla yoğrulmuş onda iki efa ince un;"
+    },
+    {
+      "v": 13,
+      "text": "her kuzuyla da tahıl sunusu olarak zeytinyağıyla yoğrulmuş onda bir efa ince un sunacaksınız. Bu, yakmalık sunu, RAB'bi hoşnut eden koku, yakılan sunu olacaktır."
+    },
+    {
+      "v": 14,
+      "text": "Her boğayla dökmelik sunu olarak yarım hin, koçla üçte bir hin, her kuzuyla dörtte bir hin şarap sunacaksınız. Yıl boyunca her Yeni Ay'da yapılacak yakmalık sunu budur."
+    },
+    {
+      "v": 15,
+      "text": "Günlük yakmalık sunuyla dökmelik sunusu dışında, RAB'be günah sunusu olarak bir teke sunulacak.’ ”"
+    },
+    {
+      "section": "Fısıh Sunuları"
+    },
+    {
+      "v": 16,
+      "text": "“ ‘RAB'bin Fısıh kurbanı birinci ayın on dördüncü günü kesilmelidir."
+    },
+    {
+      "v": 17,
+      "text": "On beşinci gün bayram olacaktır; yedi gün mayasız ekmek yiyeceksiniz."
+    },
+    {
+      "v": 18,
+      "text": "İlk gün kutsal toplantı düzenleyecek, gündelik işlerinizi yapmayacaksınız."
+    },
+    {
+      "v": 19,
+      "text": "RAB için yakılan sunu, yakmalık sunu olarak iki boğa, bir koç ve bir yaşında yedi erkek kuzu sunacaksınız. Sunacağınız hayvanlar kusursuz olmalı."
+    },
+    {
+      "v": 20,
+      "text": "Her boğayla birlikte tahıl sunusu olarak zeytinyağıyla yoğrulmuş onda üç efa, koçla onda iki efa, her kuzuyla onda bir efa ince un sunacaksınız;"
+    },
+    {
+      "v": 22,
+      "text": "günahlarınızı bağışlatmak için de günah sunusu olarak bir teke sunacaksınız."
+    },
+    {
+      "v": 23,
+      "text": "Her sabah sunacağınız günlük yakmalık sunuya ek olarak bunları da sunacaksınız."
+    },
+    {
+      "v": 24,
+      "text": "Böylece her gün RAB'bi hoşnut eden koku olarak yakılan yiyecek sunusunu yedi gün sunacaksınız. Bunu günlük yakmalık sunuyla dökmelik sunusuna ek olarak sunacaksınız."
+    },
+    {
+      "v": 25,
+      "text": "Yedinci gün kutsal toplantı düzenleyecek, gündelik işlerinizi yapmayacaksınız.’ ”"
+    },
+    {
+      "section": "Haftalar Bayramı'nda Sunulacak Sunular"
+    },
+    {
+      "v": 26,
+      "text": "“ ‘İlk ürünleri kutlama günü, Haftalar Bayramı'nda RAB'be yeni tahıl sunusu sunduğunuzda kutsal toplantı düzenleyecek, gündelik işlerinizi yapmayacaksınız."
+    },
+    {
+      "v": 27,
+      "text": "RAB'bi hoşnut eden koku, yakmalık sunu olarak iki boğa, bir koç ve bir yaşında yedi erkek kuzu sunacaksınız."
+    },
+    {
+      "v": 28,
+      "text": "Her boğayla birlikte tahıl sunusu olarak zeytinyağıyla yoğrulmuş onda üç efa, koçla birlikte onda iki efa, her kuzuyla da onda bir efa ince un sunacaksınız;"
+    },
+    {
+      "v": 30,
+      "text": "günahlarınızı bağışlatmak için de bir teke sunacaksınız."
+    },
+    {
+      "v": 31,
+      "text": "Günlük yakmalık sunuyla tahıl sunusuna ek olarak bunları dökmelik sunuyla birlikte sunacaksınız. Sunacağınız hayvanlar kusursuz olmalı.’ ”"
+    }
+  ],
+  "title": "Günlük Sunular"
+}

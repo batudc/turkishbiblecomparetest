@@ -1,1 +1,103 @@
-{"t":"TCL02","b":"ISA","c":24,"content":[{"v":1,"text":"İşte RAB yeryüzünü harap edip viraneye çevirecek, Yeryüzünü altüst edecek, Üzerinde yaşayanları darmadağın edecek."},{"v":2,"text":"Ayrım yapılmayacak; Ne halkla kâhin arasında, Ne köleyle efendi arasında, Ne hizmetçiyle hanım arasında, Ne alıcıyla satıcı arasında, Ne ödünç alanla ödünç veren arasında, Ne faizciyle borç alan arasında."},{"v":3,"text":"Dünya tümüyle yağmalanıp viraneye çevrilecek. RAB böyle söyledi."},{"v":4,"text":"Dünya kuruyup büzülüyor, Yeryüzü solup büzülüyor, Dünyadaki soylular güçlerini yitiriyor."},{"v":5,"text":"Dünyada yaşayanlar onu kirletti. Çünkü Tanrı'nın yasalarını çiğnediler, Kurallarını ayaklar altına aldılar, Ebedi antlaşmayı bozdular."},{"v":6,"text":"Bu yüzden lanet dünyayı yiyip bitirdi, Orada yaşayanlar suçlarının cezasını çekiyorlar. Yaşayanlar bu nedenle yanıyor, pek azı kurtulacak."},{"v":7,"text":"Yeni şarabın sonu geldi, Asmalar soldu, Bir zamanlar sevinçli olanların hepsi inliyor."},{"v":8,"text":"Tefin coşkun sesi kesildi, Eğlenenlerin gürültüsü durdu, Lirin coşkun sesi kesildi."},{"v":9,"text":"Ezgi eşliğinde şarap içilmiyor artık, İçkinin tadı içene acı geliyor."},{"v":10,"text":"Yıkılan kent perişan durumda, Kimse girmesin diye her evin girişi kapandı."},{"v":11,"text":"İnsanlar şarap özlemiyle sokaklarda bağrışıyor, Sevinçten eser kalmadı, Dünyanın coşkusu yok oldu."},{"v":12,"text":"Kent viraneye döndü, Kapıları paramparça oldu."},{"v":13,"text":"Çünkü zeytinler dökülsün diye dövülen ağaç nasılsa, Bağbozumundan artakalan üzümler nasılsa, Dünyadaki bütün uluslar da öyle olacak."},{"v":14,"text":"Sağ kalanlar seslerini yükseltip Sevinç çığlıkları atacak, Batıda yaşayanlar RAB'bin büyüklüğü karşısında Hayranlıkla bağıracak."},{"v":15,"text":"Onun için, doğuda yaşayanlar RAB'bi yüceltin, Deniz kıyısındakiler, İsrail'in Tanrısı RAB'bin adını yüceltin."},{"v":16,"text":"Dünyanın en uzak köşelerinden ezgiler işitiyoruz: “Doğru Olan'a övgüler olsun!” Ama ben, “Bittim, bittim! Vay halime!” dedim, “Hainler hainliklerini sürdürüyor. Evet, hainler sürekli hainlik ediyorlar.”"},{"v":17,"text":"Ey dünyada yaşayanlar, Önünüzde dehşet, çukur ve tuzak var."},{"v":18,"text":"Dehşet haberinden kaçan çukura düşecek, Çukurdan çıkan tuzağa yakalanacak. Göklerin kapakları açılacak, Dünyanın temelleri sarsılacak."},{"v":19,"text":"Yeryüzü büsbütün çatlayıp yarılacak, Sarsıldıkça sarsılacak."},{"v":20,"text":"Dünya sarhoş gibi yalpalayacak, Bir kulübe gibi sallanacak, İsyanlarının ağırlığı altında çökecek Ve bir daha kalkamayacak."},{"v":21,"text":"O gün RAB yukarıda, gökteki güçleri Ve aşağıda, yeryüzündeki kralları cezalandıracak."},{"v":22,"text":"Zindana tıkılan tutsaklar gibi Cezaevine kapatılacak Ve uzun süre sonra cezalandırılacaklar."},{"v":23,"text":"Ayın yüzü kızaracak, güneş utanacak. Çünkü Her Şeye Egemen RAB Siyon Dağı'nda, Yeruşalim'de krallık edecek. Halkın ileri gelenleri O'nun yüceliğini görecek."}]}
+{
+  "t": "TCL02",
+  "b": "ISA",
+  "c": 24,
+  "content": [
+    {
+      "section": "Rab Dünyayı Cezalandıracak"
+    },
+    {
+      "v": 1,
+      "text": "İşte RAB yeryüzünü harap edip viraneye çevirecek, Yeryüzünü altüst edecek, Üzerinde yaşayanları darmadağın edecek."
+    },
+    {
+      "v": 2,
+      "text": "Ayrım yapılmayacak; Ne halkla kâhin arasında, Ne köleyle efendi arasında, Ne hizmetçiyle hanım arasında, Ne alıcıyla satıcı arasında, Ne ödünç alanla ödünç veren arasında, Ne faizciyle borç alan arasında."
+    },
+    {
+      "v": 3,
+      "text": "Dünya tümüyle yağmalanıp viraneye çevrilecek. RAB böyle söyledi."
+    },
+    {
+      "v": 4,
+      "text": "Dünya kuruyup büzülüyor, Yeryüzü solup büzülüyor, Dünyadaki soylular güçlerini yitiriyor."
+    },
+    {
+      "v": 5,
+      "text": "Dünyada yaşayanlar onu kirletti. Çünkü Tanrı'nın yasalarını çiğnediler, Kurallarını ayaklar altına aldılar, Ebedi antlaşmayı bozdular."
+    },
+    {
+      "v": 6,
+      "text": "Bu yüzden lanet dünyayı yiyip bitirdi, Orada yaşayanlar suçlarının cezasını çekiyorlar. Yaşayanlar bu nedenle yanıyor, pek azı kurtulacak."
+    },
+    {
+      "v": 7,
+      "text": "Yeni şarabın sonu geldi, Asmalar soldu, Bir zamanlar sevinçli olanların hepsi inliyor."
+    },
+    {
+      "v": 8,
+      "text": "Tefin coşkun sesi kesildi, Eğlenenlerin gürültüsü durdu, Lirin coşkun sesi kesildi."
+    },
+    {
+      "v": 9,
+      "text": "Ezgi eşliğinde şarap içilmiyor artık, İçkinin tadı içene acı geliyor."
+    },
+    {
+      "v": 10,
+      "text": "Yıkılan kent perişan durumda, Kimse girmesin diye her evin girişi kapandı."
+    },
+    {
+      "v": 11,
+      "text": "İnsanlar şarap özlemiyle sokaklarda bağrışıyor, Sevinçten eser kalmadı, Dünyanın coşkusu yok oldu."
+    },
+    {
+      "v": 12,
+      "text": "Kent viraneye döndü, Kapıları paramparça oldu."
+    },
+    {
+      "v": 13,
+      "text": "Çünkü zeytinler dökülsün diye dövülen ağaç nasılsa, Bağbozumundan artakalan üzümler nasılsa, Dünyadaki bütün uluslar da öyle olacak."
+    },
+    {
+      "v": 14,
+      "text": "Sağ kalanlar seslerini yükseltip Sevinç çığlıkları atacak, Batıda yaşayanlar RAB'bin büyüklüğü karşısında Hayranlıkla bağıracak."
+    },
+    {
+      "v": 15,
+      "text": "Onun için, doğuda yaşayanlar RAB'bi yüceltin, Deniz kıyısındakiler, İsrail'in Tanrısı RAB'bin adını yüceltin."
+    },
+    {
+      "v": 16,
+      "text": "Dünyanın en uzak köşelerinden ezgiler işitiyoruz: “Doğru Olan'a övgüler olsun!” Ama ben, “Bittim, bittim! Vay halime!” dedim, “Hainler hainliklerini sürdürüyor. Evet, hainler sürekli hainlik ediyorlar.”"
+    },
+    {
+      "v": 17,
+      "text": "Ey dünyada yaşayanlar, Önünüzde dehşet, çukur ve tuzak var."
+    },
+    {
+      "v": 18,
+      "text": "Dehşet haberinden kaçan çukura düşecek, Çukurdan çıkan tuzağa yakalanacak. Göklerin kapakları açılacak, Dünyanın temelleri sarsılacak."
+    },
+    {
+      "v": 19,
+      "text": "Yeryüzü büsbütün çatlayıp yarılacak, Sarsıldıkça sarsılacak."
+    },
+    {
+      "v": 20,
+      "text": "Dünya sarhoş gibi yalpalayacak, Bir kulübe gibi sallanacak, İsyanlarının ağırlığı altında çökecek Ve bir daha kalkamayacak."
+    },
+    {
+      "v": 21,
+      "text": "O gün RAB yukarıda, gökteki güçleri Ve aşağıda, yeryüzündeki kralları cezalandıracak."
+    },
+    {
+      "v": 22,
+      "text": "Zindana tıkılan tutsaklar gibi Cezaevine kapatılacak Ve uzun süre sonra cezalandırılacaklar."
+    },
+    {
+      "v": 23,
+      "text": "Ayın yüzü kızaracak, güneş utanacak. Çünkü Her Şeye Egemen RAB Siyon Dağı'nda, Yeruşalim'de krallık edecek. Halkın ileri gelenleri O'nun yüceliğini görecek."
+    }
+  ],
+  "title": "Rab Dünyayı Cezalandıracak"
+}

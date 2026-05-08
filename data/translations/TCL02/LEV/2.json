@@ -1,1 +1,75 @@
-{"t":"TCL02","b":"LEV","c":2,"content":[{"v":1,"text":"“ ‘Biri RAB'be tahıl sunusu getirdiği zaman, sunusu ince undan olmalı. Üzerine zeytinyağı dökerek ve günnük koyarak"},{"v":2,"text":"sunuyu Harun soyundan gelen kâhinlere götürmeli. Kâhin avuç dolusu ince un, zeytinyağı ve bütün günnüğü alıp sunağın üzerinde anma payı olarak yakacak. Bu yakılan sunu ve RAB'bi hoşnut eden kokudur."},{"v":3,"text":"Tahıl sunusundan artakalan Harun'la oğullarına bırakılmalı. RAB için yakılan bir sunu olduğundan çok kutsaldır."},{"v":4,"text":"“ ‘Eğer fırında pişirilmiş tahıl sunusu sunuyorsan, zeytinyağıyla yoğrulmuş ince undan yapılmış mayasız pideler ya da üzerine yağ sürülmüş mayasız yufkalar olmalı."},{"v":5,"text":"Eğer sunu sacda pişirilmiş tahıl sunusu ise, zeytinyağıyla yoğrulmuş mayasız ince undan yapılmalı."},{"v":6,"text":"Onu sunarken parçalara ayırıp üzerine zeytinyağı dökeceksin. Bu tahıl sunusudur."},{"v":7,"text":"Eğer sunu tavada pişirilmiş tahıl sunusu ise, ince un ve zeytinyağıyla yoğrulmuş olmalı."},{"v":8,"text":"Böyle yapılmış tahıl sunusunu RAB'be sunmak için getirip kâhine vereceksin. Kâhin de onu sunağa götürecek."},{"v":9,"text":"Anma payı olarak tahıl sunusundan bir parça alıp yakılan sunu ve RAB'bi hoşnut eden koku olarak sunak üzerinde yakacak."},{"v":10,"text":"Tahıl sunusundan artakalan Harun'la oğullarına bırakılmalı. RAB için yakılan bir sunu olduğundan çok kutsaldır."},{"v":11,"text":"“ ‘RAB'be sunacağınız tahıl sunularının hiçbirine maya katılmamalı. Çünkü RAB için yakılan sunu içinde hiçbir zaman maya ya da bal yakılmamalı."},{"v":12,"text":"Bunları ilk ürünlerinizin sunusu olarak RAB'be sunabilirsiniz. Ancak RAB'bi hoşnut eden koku olarak sunak üzerinde sunulmamaları gerekir."},{"v":13,"text":"Bütün tahıl sunularını tuzlayacaksınız. Tanrı'nın sizinle yaptığı antlaşmayı simgeleyen tuzu tahıl sunularından hiç eksik etmeyeceksiniz. Bütün sunulara tuz katacaksınız."},{"v":14,"text":"“ ‘Eğer RAB'be ilk ürünlerin tahıl sunusunu getiriyorsan, kavrulup dövülmüş, taze devşirilmiş buğday başakları sunacaksın."},{"v":15,"text":"Üzerine zeytinyağı ve günnük koyacaksın. Tahıl sunusudur bu."},{"v":16,"text":"Kâhin biraz dövülmüş buğday ve zeytinyağı alıp günnüğün tümüyle birlikte anma payı olarak yakacak. RAB için yakılan sunudur bu.’ ”"}]}
+{
+  "t": "TCL02",
+  "b": "LEV",
+  "c": 2,
+  "content": [
+    {
+      "section": "Tahıl Sunusu"
+    },
+    {
+      "v": 1,
+      "text": "“ ‘Biri RAB'be tahıl sunusu getirdiği zaman, sunusu ince undan olmalı. Üzerine zeytinyağı dökerek ve günnük koyarak"
+    },
+    {
+      "v": 2,
+      "text": "sunuyu Harun soyundan gelen kâhinlere götürmeli. Kâhin avuç dolusu ince un, zeytinyağı ve bütün günnüğü alıp sunağın üzerinde anma payı olarak yakacak. Bu yakılan sunu ve RAB'bi hoşnut eden kokudur."
+    },
+    {
+      "v": 3,
+      "text": "Tahıl sunusundan artakalan Harun'la oğullarına bırakılmalı. RAB için yakılan bir sunu olduğundan çok kutsaldır."
+    },
+    {
+      "v": 4,
+      "text": "“ ‘Eğer fırında pişirilmiş tahıl sunusu sunuyorsan, zeytinyağıyla yoğrulmuş ince undan yapılmış mayasız pideler ya da üzerine yağ sürülmüş mayasız yufkalar olmalı."
+    },
+    {
+      "v": 5,
+      "text": "Eğer sunu sacda pişirilmiş tahıl sunusu ise, zeytinyağıyla yoğrulmuş mayasız ince undan yapılmalı."
+    },
+    {
+      "v": 6,
+      "text": "Onu sunarken parçalara ayırıp üzerine zeytinyağı dökeceksin. Bu tahıl sunusudur."
+    },
+    {
+      "v": 7,
+      "text": "Eğer sunu tavada pişirilmiş tahıl sunusu ise, ince un ve zeytinyağıyla yoğrulmuş olmalı."
+    },
+    {
+      "v": 8,
+      "text": "Böyle yapılmış tahıl sunusunu RAB'be sunmak için getirip kâhine vereceksin. Kâhin de onu sunağa götürecek."
+    },
+    {
+      "v": 9,
+      "text": "Anma payı olarak tahıl sunusundan bir parça alıp yakılan sunu ve RAB'bi hoşnut eden koku olarak sunak üzerinde yakacak."
+    },
+    {
+      "v": 10,
+      "text": "Tahıl sunusundan artakalan Harun'la oğullarına bırakılmalı. RAB için yakılan bir sunu olduğundan çok kutsaldır."
+    },
+    {
+      "v": 11,
+      "text": "“ ‘RAB'be sunacağınız tahıl sunularının hiçbirine maya katılmamalı. Çünkü RAB için yakılan sunu içinde hiçbir zaman maya ya da bal yakılmamalı."
+    },
+    {
+      "v": 12,
+      "text": "Bunları ilk ürünlerinizin sunusu olarak RAB'be sunabilirsiniz. Ancak RAB'bi hoşnut eden koku olarak sunak üzerinde sunulmamaları gerekir."
+    },
+    {
+      "v": 13,
+      "text": "Bütün tahıl sunularını tuzlayacaksınız. Tanrı'nın sizinle yaptığı antlaşmayı simgeleyen tuzu tahıl sunularından hiç eksik etmeyeceksiniz. Bütün sunulara tuz katacaksınız."
+    },
+    {
+      "v": 14,
+      "text": "“ ‘Eğer RAB'be ilk ürünlerin tahıl sunusunu getiriyorsan, kavrulup dövülmüş, taze devşirilmiş buğday başakları sunacaksın."
+    },
+    {
+      "v": 15,
+      "text": "Üzerine zeytinyağı ve günnük koyacaksın. Tahıl sunusudur bu."
+    },
+    {
+      "v": 16,
+      "text": "Kâhin biraz dövülmüş buğday ve zeytinyağı alıp günnüğün tümüyle birlikte anma payı olarak yakacak. RAB için yakılan sunudur bu.’ ”"
+    }
+  ],
+  "title": "Tahıl Sunusu"
+}

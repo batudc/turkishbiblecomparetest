@@ -1,1 +1,39 @@
-{"t": "TCL02", "b": "PSA", "c": 114, "content": [{"v": 1, "text": "İsrail Mısır'dan çıktığında, Yakup'un soyu yabancı dil konuşan bir halktan ayrıldığında,"}, {"v": 2, "text": "Yahuda Rab'bin kutsal yeri oldu, İsrail de O'nun krallığı."}, {"v": 3, "text": "Deniz olanı görüp geri çekildi, Şeria Irmağı tersine aktı."}, {"v": 4, "text": "Dağlar koç gibi, Tepeler kuzu gibi sıçradı."}, {"v": 5, "text": "Ey deniz, sana ne oldu da kaçtın? Ey Şeria, neden tersine aktın?"}, {"v": 6, "text": "Ey dağlar, niçin koç gibi, Ey tepeler, niçin kuzu gibi sıçradınız?"}, {"v": 7, "text": "Titre, ey yeryüzü, Kayayı havuza, Çakmaktaşını pınara çeviren Rab'bin önünde, Yakup'un Tanrısı'nın huzurunda."}]}
+{
+  "t": "TCL02",
+  "b": "PSA",
+  "c": 114,
+  "content": [
+    {
+      "section": "114. Mezmur"
+    },
+    {
+      "v": 1,
+      "text": "İsrail Mısır'dan çıktığında, Yakup'un soyu yabancı dil konuşan bir halktan ayrıldığında,"
+    },
+    {
+      "v": 2,
+      "text": "Yahuda Rab'bin kutsal yeri oldu, İsrail de O'nun krallığı."
+    },
+    {
+      "v": 3,
+      "text": "Deniz olanı görüp geri çekildi, Şeria Irmağı tersine aktı."
+    },
+    {
+      "v": 4,
+      "text": "Dağlar koç gibi, Tepeler kuzu gibi sıçradı."
+    },
+    {
+      "v": 5,
+      "text": "Ey deniz, sana ne oldu da kaçtın? Ey Şeria, neden tersine aktın?"
+    },
+    {
+      "v": 6,
+      "text": "Ey dağlar, niçin koç gibi, Ey tepeler, niçin kuzu gibi sıçradınız?"
+    },
+    {
+      "v": 7,
+      "text": "Titre, ey yeryüzü, Kayayı havuza, Çakmaktaşını pınara çeviren Rab'bin önünde, Yakup'un Tanrısı'nın huzurunda."
+    }
+  ],
+  "title": "114. Mezmur"
+}

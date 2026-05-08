@@ -1,1 +1,23 @@
-{"t":"TCL02","b":"EST","c":10,"content":[{"v":1,"text":"Kral Ahaşveroş ülkeyi en uzak kıyılarına dek haraca bağlamıştı."},{"v":2,"text":"Büyüklüğü, kahramanlıkları ve Mordekay'ı her bakımdan nasıl onurlandırdığı Pers ve Med krallarının tarihinde yazılıdır."},{"v":3,"text":"Yahudi Mordekay, Kral Ahaşveroş'tan sonra ikinci adam olmuştu. Yahudi soydaşları arasında saygı gören ve çoğunluk tarafından sevilen biriydi. Çünkü halkının iyiliğini düşünüyor, bütün soydaşlarının esenliği için çaba gösteriyordu."}]}
+{
+  "t": "TCL02",
+  "b": "EST",
+  "c": 10,
+  "content": [
+    {
+      "section": "Ahaşveroş ve Mordekay'a Övgü"
+    },
+    {
+      "v": 1,
+      "text": "Kral Ahaşveroş ülkeyi en uzak kıyılarına dek haraca bağlamıştı."
+    },
+    {
+      "v": 2,
+      "text": "Büyüklüğü, kahramanlıkları ve Mordekay'ı her bakımdan nasıl onurlandırdığı Pers ve Med krallarının tarihinde yazılıdır."
+    },
+    {
+      "v": 3,
+      "text": "Yahudi Mordekay, Kral Ahaşveroş'tan sonra ikinci adam olmuştu. Yahudi soydaşları arasında saygı gören ve çoğunluk tarafından sevilen biriydi. Çünkü halkının iyiliğini düşünüyor, bütün soydaşlarının esenliği için çaba gösteriyordu."
+    }
+  ],
+  "title": "Ahaşveroş ve Mordekay'a Övgü"
+}

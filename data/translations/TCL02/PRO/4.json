@@ -1,1 +1,119 @@
-{"t":"TCL02","b":"PRO","c":4,"content":[{"v":1,"text":"Çocuklarım, babanızın uyarılarına kulak verin. Dikkat edin ki anlayışlı olasınız."},{"v":2,"text":"Çünkü size iyi ders veriyorum, Ayrılmayın öğrettiğimden."},{"v":3,"text":"Ben bir çocukken babamın evinde, Annemin körpecik tek yavrusuyken,"},{"v":4,"text":"Babam bana şunu öğretti: “Söylediklerime yürekten sarıl, Buyruklarımı yerine getir ki yaşayasın."},{"v":5,"text":"Bilgeliği ve aklı sahiplen, Söylediklerimi unutma, onlardan sapma."},{"v":6,"text":"Bilgelikten ayrılma, o seni korur. Sev onu, seni gözetir."},{"v":7,"text":"Bilgeliğe ilk adım onu sahiplenmektir. Bütün servetine mal olsa da akla sahip çık."},{"v":8,"text":"Onu el üstünde tut, o da seni yüceltecek, Ona sarılırsan seni onurlandıracak."},{"v":9,"text":"Başına zarif bir çelenk, Görkemli bir taç giydirecektir.”"},{"v":10,"text":"Dinle oğlum, sözlerimi benimse ki, Uzasın ömrün."},{"v":11,"text":"Seni bilgelik yolunda eğitir, Doğru yollara yöneltirim."},{"v":12,"text":"Ayakların takılmadan yürür, Sürçmeden koşarsın."},{"v":13,"text":"Aldığın terbiyeye sarıl, bırakma, Onu uygula, çünkü odur yaşamın."},{"v":14,"text":"Kötülerin yoluna ayak basma, Yürüme alçakların yolunda,"},{"v":15,"text":"O yoldan sakın, yakınından bile geçme, Yönünü değiştirip geç."},{"v":16,"text":"Çünkü kötülük etmedikçe uyuyamaz onlar, Uykuları kaçar saptırmadıkça birilerini."},{"v":17,"text":"Yedikleri ekmek kötülük, İçtikleri şarap zorbalık ürünüdür."},{"v":18,"text":"Oysa doğruların yolu şafak ışığı gibidir, Giderek öğle güneşinin parlaklığına erişir."},{"v":19,"text":"Kötülerin yoluysa zifiri karanlık gibidir, Neden tökezlediklerini bilmezler."},{"v":20,"text":"Oğlum, sözlerime dikkat et, Dediklerime kulak ver."},{"v":21,"text":"Aklından çıkmasın bunlar, Onları yüreğinde sakla."},{"v":22,"text":"Çünkü onları bulan için yaşam, Bedeni için şifadır bunlar."},{"v":23,"text":"Her şeyden önce de yüreğini koru, Çünkü yaşam ondan kaynaklanır."},{"v":24,"text":"Yalan çıkmasın ağzından, Uzak tut dudaklarını sapık sözlerden."},{"v":25,"text":"Gözlerin hep ileriye baksın, Dosdoğru önüne!"},{"v":26,"text":"Gideceğin yolu düzle, O zaman bütün işlerin sağlam olur."},{"v":27,"text":"Sapma sağa sola, Ayağını kötülükten uzak tut."}]}
+{
+  "t": "TCL02",
+  "b": "PRO",
+  "c": 4,
+  "content": [
+    {
+      "section": "Bilgeliğin Üstünlüğü"
+    },
+    {
+      "v": 1,
+      "text": "Çocuklarım, babanızın uyarılarına kulak verin. Dikkat edin ki anlayışlı olasınız."
+    },
+    {
+      "v": 2,
+      "text": "Çünkü size iyi ders veriyorum, Ayrılmayın öğrettiğimden."
+    },
+    {
+      "v": 3,
+      "text": "Ben bir çocukken babamın evinde, Annemin körpecik tek yavrusuyken,"
+    },
+    {
+      "v": 4,
+      "text": "Babam bana şunu öğretti: “Söylediklerime yürekten sarıl, Buyruklarımı yerine getir ki yaşayasın."
+    },
+    {
+      "v": 5,
+      "text": "Bilgeliği ve aklı sahiplen, Söylediklerimi unutma, onlardan sapma."
+    },
+    {
+      "v": 6,
+      "text": "Bilgelikten ayrılma, o seni korur. Sev onu, seni gözetir."
+    },
+    {
+      "v": 7,
+      "text": "Bilgeliğe ilk adım onu sahiplenmektir. Bütün servetine mal olsa da akla sahip çık."
+    },
+    {
+      "v": 8,
+      "text": "Onu el üstünde tut, o da seni yüceltecek, Ona sarılırsan seni onurlandıracak."
+    },
+    {
+      "v": 9,
+      "text": "Başına zarif bir çelenk, Görkemli bir taç giydirecektir.”"
+    },
+    {
+      "v": 10,
+      "text": "Dinle oğlum, sözlerimi benimse ki, Uzasın ömrün."
+    },
+    {
+      "v": 11,
+      "text": "Seni bilgelik yolunda eğitir, Doğru yollara yöneltirim."
+    },
+    {
+      "v": 12,
+      "text": "Ayakların takılmadan yürür, Sürçmeden koşarsın."
+    },
+    {
+      "v": 13,
+      "text": "Aldığın terbiyeye sarıl, bırakma, Onu uygula, çünkü odur yaşamın."
+    },
+    {
+      "v": 14,
+      "text": "Kötülerin yoluna ayak basma, Yürüme alçakların yolunda,"
+    },
+    {
+      "v": 15,
+      "text": "O yoldan sakın, yakınından bile geçme, Yönünü değiştirip geç."
+    },
+    {
+      "v": 16,
+      "text": "Çünkü kötülük etmedikçe uyuyamaz onlar, Uykuları kaçar saptırmadıkça birilerini."
+    },
+    {
+      "v": 17,
+      "text": "Yedikleri ekmek kötülük, İçtikleri şarap zorbalık ürünüdür."
+    },
+    {
+      "v": 18,
+      "text": "Oysa doğruların yolu şafak ışığı gibidir, Giderek öğle güneşinin parlaklığına erişir."
+    },
+    {
+      "v": 19,
+      "text": "Kötülerin yoluysa zifiri karanlık gibidir, Neden tökezlediklerini bilmezler."
+    },
+    {
+      "v": 20,
+      "text": "Oğlum, sözlerime dikkat et, Dediklerime kulak ver."
+    },
+    {
+      "v": 21,
+      "text": "Aklından çıkmasın bunlar, Onları yüreğinde sakla."
+    },
+    {
+      "v": 22,
+      "text": "Çünkü onları bulan için yaşam, Bedeni için şifadır bunlar."
+    },
+    {
+      "v": 23,
+      "text": "Her şeyden önce de yüreğini koru, Çünkü yaşam ondan kaynaklanır."
+    },
+    {
+      "v": 24,
+      "text": "Yalan çıkmasın ağzından, Uzak tut dudaklarını sapık sözlerden."
+    },
+    {
+      "v": 25,
+      "text": "Gözlerin hep ileriye baksın, Dosdoğru önüne!"
+    },
+    {
+      "v": 26,
+      "text": "Gideceğin yolu düzle, O zaman bütün işlerin sağlam olur."
+    },
+    {
+      "v": 27,
+      "text": "Sapma sağa sola, Ayağını kötülükten uzak tut."
+    }
+  ],
+  "title": "Bilgeliğin Üstünlüğü"
+}

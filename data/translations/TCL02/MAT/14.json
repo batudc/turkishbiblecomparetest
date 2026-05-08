@@ -1,1 +1,153 @@
-{"t": "TCL02", "b": "MAT", "c": 14, "content": [{"v": 1, "text": "O günlerde İsa'yla ilgili haberleri duyan bölge kralı Hirodes, adamlarına, “Bu, Vaftizci Yahya'dır” dedi. “Ölümden dirildi. Olağanüstü güçlerin onda etkin olmasının nedeni budur.”"}, {"v": 3, "text": "Hirodes, kardeşi Filipus'un karısı Hirodiya yüzünden Yahya'yı tutuklatmış, bağlatıp zindana attırmıştı."}, {"v": 4, "text": "Çünkü Yahya Hirodes'e, “O kadınla evlenmen Kutsal Yasa'ya aykırıdır” demişti."}, {"v": 5, "text": "Hirodes Yahya'yı öldürtmek istemiş, ama halktan korkmuştu. Çünkü halk Yahya'yı peygamber sayıyordu."}, {"v": 6, "text": "Hirodes'in doğum günü şenliği sırasında Hirodiya'nın kızı ortaya çıkıp dans etti. Bu, Hirodes'in öyle hoşuna gitti ki, ant içerek kıza ne dilerse vereceğini söyledi."}, {"v": 8, "text": "Kız, annesinin kışkırtmasıyla, “Bana şimdi, bir tepsi üzerinde Vaftizci Yahya'nın başını ver” dedi."}, {"v": 9, "text": "Kral buna çok üzüldüyse de, konuklarının önünde içtiği anttan ötürü bu dileğin yerine getirilmesini buyurdu."}, {"v": 10, "text": "Adam gönderip zindanda Yahya'nın başını kestirdi."}, {"v": 11, "text": "Kesik baş tepsiyle getirilip kıza verildi, kız da bunu annesine götürdü."}, {"v": 12, "text": "Yahya'nın öğrencileri gelip cesedi aldılar ve gömdüler. Sonra gidip İsa'ya haber verdiler."}, {"v": 13, "text": "İsa bunu duyunca, tek başına tenha bir yere çekilmek üzere bir tekneyle oradan ayrıldı. Bunu öğrenen halk, kentlerden çıkıp O'nu yaya olarak izledi."}, {"v": 14, "text": "İsa tekneden inince büyük bir kalabalıkla karşılaştı. Onlara acıdı ve hasta olanlarını iyileştirdi."}, {"v": 15, "text": "Akşama doğru öğrencileri yanına gelip, “Burası ıssız bir yer” dediler, “Vakit de geç oldu. Halkı salıver de köylere gidip kendilerine yiyecek alsınlar.”"}, {"v": 16, "text": "İsa, “Gitmelerine gerek yok, onlara siz yiyecek verin” dedi."}, {"v": 17, "text": "Öğrenciler, “Burada beş ekmekle iki balıktan başka bir şeyimiz yok ki” dediler."}, {"v": 18, "text": "İsa, “Onları buraya, bana getirin” dedi."}, {"v": 19, "text": "Halka çayıra oturmalarını buyurduktan sonra, beş ekmekle iki balığı aldı, gözlerini göğe kaldırarak şükretti; sonra ekmekleri bölüp öğrencilerine verdi, onlar da halka dağıttılar."}, {"v": 20, "text": "Herkes yiyip doydu. Artakalan parçalardan on iki sepet dolusu topladılar."}, {"v": 21, "text": "Yemek yiyenlerin sayısı, kadın ve çocuklar hariç, yaklaşık beş bin erkekti."}, {"v": 22, "text": "Bundan hemen sonra İsa öğrencilerine, tekneye binip kendisinden önce karşı yakaya geçmelerini buyurdu. Bu arada halkı evlerine gönderecekti."}, {"v": 23, "text": "Halkı gönderdikten sonra dua etmek için tek başına dağa çıktı. Akşam olurken orada yalnızdı."}, {"v": 24, "text": "O sırada tekne kıyıdan bir hayli uzakta dalgalarla boğuşuyordu. Çünkü rüzgar karşı yönden esiyordu."}, {"v": 25, "text": "Sabaha karşı İsa, gölün üstünde yürüyerek onlara yaklaştı."}, {"v": 26, "text": "Öğrenciler, O'nun gölün üstünde yürüdüğünü görünce dehşete kapıldılar. “Bu bir hayalet!” diyerek korkuyla bağrıştılar."}, {"v": 27, "text": "Ama İsa hemen onlara seslenerek, “Cesur olun, benim, korkmayın!” dedi."}, {"v": 28, "text": "Petrus buna karşılık, “Ya Rab” dedi, “Eğer sen isen, buyruk ver suyun üstünden yürüyerek sana geleyim.”"}, {"v": 29, "text": "İsa, “Gel!” dedi.  Petrus da tekneden indi, suyun üstünden yürüyerek İsa'ya yaklaştı."}, {"v": 30, "text": "Ama rüzgarın ne kadar güçlü estiğini görünce korktu, batmaya başladı. “Ya Rab, beni kurtar!” diye bağırdı."}, {"v": 31, "text": "İsa hemen elini uzatıp onu tuttu. Ona, “Ey kıt imanlı, neden kuşku duydun?” dedi."}, {"v": 32, "text": "Onlar tekneye bindikten sonra rüzgar dindi."}, {"v": 33, "text": "Teknedekiler, “Sen gerçekten Tanrı'nın Oğlu'sun” diyerek O'na tapındılar."}, {"v": 34, "text": "Gölü aşıp Ginnesar'da karaya çıktılar."}, {"v": 35, "text": "Yöre halkı İsa'yı tanıyınca çevreye haber saldı. Bütün hastaları O'na getirdiler."}, {"v": 36, "text": "Giysisinin eteğine bir dokunsak diye yalvarıyorlardı. Dokunanların hepsi iyileşti."}]}
+{
+  "t": "TCL02",
+  "b": "MAT",
+  "c": 14,
+  "content": [
+    {
+      "section": "Yahya'nın Öldürülmesi"
+    },
+    {
+      "v": 1,
+      "text": "O günlerde İsa'yla ilgili haberleri duyan bölge kralı Hirodes, adamlarına, “Bu, Vaftizci Yahya'dır” dedi. “Ölümden dirildi. Olağanüstü güçlerin onda etkin olmasının nedeni budur.”"
+    },
+    {
+      "v": 3,
+      "text": "Hirodes, kardeşi Filipus'un karısı Hirodiya yüzünden Yahya'yı tutuklatmış, bağlatıp zindana attırmıştı."
+    },
+    {
+      "v": 4,
+      "text": "Çünkü Yahya Hirodes'e, “O kadınla evlenmen Kutsal Yasa'ya aykırıdır” demişti."
+    },
+    {
+      "v": 5,
+      "text": "Hirodes Yahya'yı öldürtmek istemiş, ama halktan korkmuştu. Çünkü halk Yahya'yı peygamber sayıyordu."
+    },
+    {
+      "v": 6,
+      "text": "Hirodes'in doğum günü şenliği sırasında Hirodiya'nın kızı ortaya çıkıp dans etti. Bu, Hirodes'in öyle hoşuna gitti ki, ant içerek kıza ne dilerse vereceğini söyledi."
+    },
+    {
+      "v": 8,
+      "text": "Kız, annesinin kışkırtmasıyla, “Bana şimdi, bir tepsi üzerinde Vaftizci Yahya'nın başını ver” dedi."
+    },
+    {
+      "v": 9,
+      "text": "Kral buna çok üzüldüyse de, konuklarının önünde içtiği anttan ötürü bu dileğin yerine getirilmesini buyurdu."
+    },
+    {
+      "v": 10,
+      "text": "Adam gönderip zindanda Yahya'nın başını kestirdi."
+    },
+    {
+      "v": 11,
+      "text": "Kesik baş tepsiyle getirilip kıza verildi, kız da bunu annesine götürdü."
+    },
+    {
+      "v": 12,
+      "text": "Yahya'nın öğrencileri gelip cesedi aldılar ve gömdüler. Sonra gidip İsa'ya haber verdiler."
+    },
+    {
+      "section": "İsa Beş Bin Kişiyi Doyuruyor"
+    },
+    {
+      "v": 13,
+      "text": "İsa bunu duyunca, tek başına tenha bir yere çekilmek üzere bir tekneyle oradan ayrıldı. Bunu öğrenen halk, kentlerden çıkıp O'nu yaya olarak izledi."
+    },
+    {
+      "v": 14,
+      "text": "İsa tekneden inince büyük bir kalabalıkla karşılaştı. Onlara acıdı ve hasta olanlarını iyileştirdi."
+    },
+    {
+      "v": 15,
+      "text": "Akşama doğru öğrencileri yanına gelip, “Burası ıssız bir yer” dediler, “Vakit de geç oldu. Halkı salıver de köylere gidip kendilerine yiyecek alsınlar.”"
+    },
+    {
+      "v": 16,
+      "text": "İsa, “Gitmelerine gerek yok, onlara siz yiyecek verin” dedi."
+    },
+    {
+      "v": 17,
+      "text": "Öğrenciler, “Burada beş ekmekle iki balıktan başka bir şeyimiz yok ki” dediler."
+    },
+    {
+      "v": 18,
+      "text": "İsa, “Onları buraya, bana getirin” dedi."
+    },
+    {
+      "v": 19,
+      "text": "Halka çayıra oturmalarını buyurduktan sonra, beş ekmekle iki balığı aldı, gözlerini göğe kaldırarak şükretti; sonra ekmekleri bölüp öğrencilerine verdi, onlar da halka dağıttılar."
+    },
+    {
+      "v": 20,
+      "text": "Herkes yiyip doydu. Artakalan parçalardan on iki sepet dolusu topladılar."
+    },
+    {
+      "v": 21,
+      "text": "Yemek yiyenlerin sayısı, kadın ve çocuklar hariç, yaklaşık beş bin erkekti."
+    },
+    {
+      "section": "İsa Su Üstünde Yürüyor"
+    },
+    {
+      "v": 22,
+      "text": "Bundan hemen sonra İsa öğrencilerine, tekneye binip kendisinden önce karşı yakaya geçmelerini buyurdu. Bu arada halkı evlerine gönderecekti."
+    },
+    {
+      "v": 23,
+      "text": "Halkı gönderdikten sonra dua etmek için tek başına dağa çıktı. Akşam olurken orada yalnızdı."
+    },
+    {
+      "v": 24,
+      "text": "O sırada tekne kıyıdan bir hayli uzakta dalgalarla boğuşuyordu. Çünkü rüzgar karşı yönden esiyordu."
+    },
+    {
+      "v": 25,
+      "text": "Sabaha karşı İsa, gölün üstünde yürüyerek onlara yaklaştı."
+    },
+    {
+      "v": 26,
+      "text": "Öğrenciler, O'nun gölün üstünde yürüdüğünü görünce dehşete kapıldılar. “Bu bir hayalet!” diyerek korkuyla bağrıştılar."
+    },
+    {
+      "v": 27,
+      "text": "Ama İsa hemen onlara seslenerek, “Cesur olun, benim, korkmayın!” dedi."
+    },
+    {
+      "v": 28,
+      "text": "Petrus buna karşılık, “Ya Rab” dedi, “Eğer sen isen, buyruk ver suyun üstünden yürüyerek sana geleyim.”"
+    },
+    {
+      "v": 29,
+      "text": "İsa, “Gel!” dedi.  Petrus da tekneden indi, suyun üstünden yürüyerek İsa'ya yaklaştı."
+    },
+    {
+      "v": 30,
+      "text": "Ama rüzgarın ne kadar güçlü estiğini görünce korktu, batmaya başladı. “Ya Rab, beni kurtar!” diye bağırdı."
+    },
+    {
+      "v": 31,
+      "text": "İsa hemen elini uzatıp onu tuttu. Ona, “Ey kıt imanlı, neden kuşku duydun?” dedi."
+    },
+    {
+      "v": 32,
+      "text": "Onlar tekneye bindikten sonra rüzgar dindi."
+    },
+    {
+      "v": 33,
+      "text": "Teknedekiler, “Sen gerçekten Tanrı'nın Oğlu'sun” diyerek O'na tapındılar."
+    },
+    {
+      "v": 34,
+      "text": "Gölü aşıp Ginnesar'da karaya çıktılar."
+    },
+    {
+      "v": 35,
+      "text": "Yöre halkı İsa'yı tanıyınca çevreye haber saldı. Bütün hastaları O'na getirdiler."
+    },
+    {
+      "v": 36,
+      "text": "Giysisinin eteğine bir dokunsak diye yalvarıyorlardı. Dokunanların hepsi iyileşti."
+    }
+  ],
+  "title": "Yahya'nın Öldürülmesi"
+}

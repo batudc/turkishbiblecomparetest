@@ -1,1 +1,122 @@
-{"t":"TCL02","b":"EXO","c":15,"content":[{"v":1,"text":"Musa'yla İsrailliler RAB'be şu ezgiyi söylediler: “Ezgiler sunacağım RAB'be, Çünkü yüceldikçe yüceldi; Atları da, atlıları da denize döktü."},{"v":2,"text":"Rab gücüm ve ezgimdir, O kurtardı beni. O'dur Tanrım, Övgüler sunacağım O'na. O'dur babamın Tanrısı, Yücelteceğim O'nu."},{"v":3,"text":"Savaş eridir RAB, Adı RAB'dir."},{"v":4,"text":"“Denize attı firavunun ordusunu, Savaş arabalarını. Kamış Denizi'nde boğuldu seçme subayları."},{"v":5,"text":"Derin sulara gömüldüler, Taş gibi dibe indiler."},{"v":6,"text":"“Senin sağ elin, ya RAB, Senin sağ elin korkunç güce sahiptir. Altında düşmanlar kırılır."},{"v":7,"text":"Devrilir sana başkaldıranlar büyük görkemin karşısında, Gönderir gazabını anız gibi tüketirsin onları."},{"v":8,"text":"Burnunun soluğu karşısında, Sular yığıldı bir araya. Kabaran sular duvarlara dönüştü, Denizin göbeğindeki derin sular dondu."},{"v":9,"text":"Düşman böbürlendi: ‘Peşlerine düşüp yakalayacağım onları’ dedi, ‘Bölüşeceğim çapulu, Dileğimce yağmalayacağım, Kılıcımı çekip yok edeceğim onları.’"},{"v":10,"text":"Üfledin soluğunu, denize gömüldüler, Kurşun gibi engin sulara battılar."},{"v":11,"text":"“Var mı senin gibisi ilahlar arasında, ya RAB? Senin gibi kutsallıkta görkemli, heybetiyle övgüye değer, Harikalar yaratan var mı?"},{"v":12,"text":"Sağ elini uzattın, Yer yuttu onları."},{"v":13,"text":"Öncülük edeceksin sevginle kurtardığın halka, Kutsal konutunun yolunu göstereceksin gücünle onlara."},{"v":14,"text":"Uluslar duyup titreyecekler, Filist halkını dehşet saracak."},{"v":15,"text":"Edom beyleri korkuya kapılacak, Moav önderlerini titreme alacak, Kenan'da yaşayanların tümü korkudan eriyecek."},{"v":16,"text":"Korku ve dehşet düşecek üzerlerine, Senin halkın geçinceye dek, ya RAB, Sahip olduğun bu halk geçinceye dek, Bileğinin gücü karşısında taş kesilecekler."},{"v":17,"text":"Ya RAB, halkını içeri alacaksın. Kendi dağına, yaşamak için seçtiğin yere, Ellerinle kurduğun kutsal yere dikeceksin, ya Rab!"},{"v":18,"text":"RAB sonsuza dek egemen olacaktır.”"},{"v":19,"text":"Firavunun atları, savaş arabaları, atlıları denize dalınca, RAB suları onların üzerine çevirdi. Ama İsrailliler denizi kuru toprakta yürüyerek geçtiler."},{"v":20,"text":"Harun'un kızkardeşi Peygamber Miryam tefini eline aldı, bütün kadınlar teflerle, oynayarak onu izlediler."},{"v":21,"text":"Miryam onlara şu ezgiyi söyledi: “Ezgiler sunun RAB'be, Çünkü yüceldikçe yüceldi, Atları, atlıları denize döktü.”"},{"v":22,"text":"Musa İsrailliler'i Kamış Denizi'nin ötesine çıkardı. Şur Çölü'ne girdiler. Çölde üç gün yol aldılarsa da su bulamadılar."},{"v":23,"text":"Mara'ya vardılar. Ama Mara'nın suyunu içemediler, çünkü su acıydı. Bu yüzden oraya Mara adı verildi."},{"v":24,"text":"Halk, “Ne içeceğiz?” diye Musa'ya yakınmaya başladı."},{"v":25,"text":"Musa RAB'be yakardı. RAB ona bir ağaç parçası gösterdi. Musa onu suya atınca sular tatlı oldu.  Orada RAB onlar için bir kural ve ilke koydu, hepsini sınadı."},{"v":26,"text":"“Ben, Tanrınız RAB'bin sözünü dikkatle dinler, gözümde doğru olanı yapar, buyruklarıma kulak verir, bütün kurallarıma uyarsanız, Mısırlılar'a verdiğim hastalıkların hiçbirini size vermeyeceğim” dedi, “Çünkü size şifa veren RAB benim.”"},{"v":27,"text":"Sonra Elim'e gittiler. Orada on iki su kaynağı, yetmiş hurma ağacı vardı. Su kıyısında konakladılar."}]}
+{
+  "t": "TCL02",
+  "b": "EXO",
+  "c": 15,
+  "content": [
+    {
+      "section": "Kurtuluş Ezgisi"
+    },
+    {
+      "v": 1,
+      "text": "Musa'yla İsrailliler RAB'be şu ezgiyi söylediler: “Ezgiler sunacağım RAB'be, Çünkü yüceldikçe yüceldi; Atları da, atlıları da denize döktü."
+    },
+    {
+      "v": 2,
+      "text": "Rab gücüm ve ezgimdir, O kurtardı beni. O'dur Tanrım, Övgüler sunacağım O'na. O'dur babamın Tanrısı, Yücelteceğim O'nu."
+    },
+    {
+      "v": 3,
+      "text": "Savaş eridir RAB, Adı RAB'dir."
+    },
+    {
+      "v": 4,
+      "text": "“Denize attı firavunun ordusunu, Savaş arabalarını. Kamış Denizi'nde boğuldu seçme subayları."
+    },
+    {
+      "v": 5,
+      "text": "Derin sulara gömüldüler, Taş gibi dibe indiler."
+    },
+    {
+      "v": 6,
+      "text": "“Senin sağ elin, ya RAB, Senin sağ elin korkunç güce sahiptir. Altında düşmanlar kırılır."
+    },
+    {
+      "v": 7,
+      "text": "Devrilir sana başkaldıranlar büyük görkemin karşısında, Gönderir gazabını anız gibi tüketirsin onları."
+    },
+    {
+      "v": 8,
+      "text": "Burnunun soluğu karşısında, Sular yığıldı bir araya. Kabaran sular duvarlara dönüştü, Denizin göbeğindeki derin sular dondu."
+    },
+    {
+      "v": 9,
+      "text": "Düşman böbürlendi: ‘Peşlerine düşüp yakalayacağım onları’ dedi, ‘Bölüşeceğim çapulu, Dileğimce yağmalayacağım, Kılıcımı çekip yok edeceğim onları.’"
+    },
+    {
+      "v": 10,
+      "text": "Üfledin soluğunu, denize gömüldüler, Kurşun gibi engin sulara battılar."
+    },
+    {
+      "v": 11,
+      "text": "“Var mı senin gibisi ilahlar arasında, ya RAB? Senin gibi kutsallıkta görkemli, heybetiyle övgüye değer, Harikalar yaratan var mı?"
+    },
+    {
+      "v": 12,
+      "text": "Sağ elini uzattın, Yer yuttu onları."
+    },
+    {
+      "v": 13,
+      "text": "Öncülük edeceksin sevginle kurtardığın halka, Kutsal konutunun yolunu göstereceksin gücünle onlara."
+    },
+    {
+      "v": 14,
+      "text": "Uluslar duyup titreyecekler, Filist halkını dehşet saracak."
+    },
+    {
+      "v": 15,
+      "text": "Edom beyleri korkuya kapılacak, Moav önderlerini titreme alacak, Kenan'da yaşayanların tümü korkudan eriyecek."
+    },
+    {
+      "v": 16,
+      "text": "Korku ve dehşet düşecek üzerlerine, Senin halkın geçinceye dek, ya RAB, Sahip olduğun bu halk geçinceye dek, Bileğinin gücü karşısında taş kesilecekler."
+    },
+    {
+      "v": 17,
+      "text": "Ya RAB, halkını içeri alacaksın. Kendi dağına, yaşamak için seçtiğin yere, Ellerinle kurduğun kutsal yere dikeceksin, ya Rab!"
+    },
+    {
+      "v": 18,
+      "text": "RAB sonsuza dek egemen olacaktır.”"
+    },
+    {
+      "v": 19,
+      "text": "Firavunun atları, savaş arabaları, atlıları denize dalınca, RAB suları onların üzerine çevirdi. Ama İsrailliler denizi kuru toprakta yürüyerek geçtiler."
+    },
+    {
+      "v": 20,
+      "text": "Harun'un kızkardeşi Peygamber Miryam tefini eline aldı, bütün kadınlar teflerle, oynayarak onu izlediler."
+    },
+    {
+      "v": 21,
+      "text": "Miryam onlara şu ezgiyi söyledi: “Ezgiler sunun RAB'be, Çünkü yüceldikçe yüceldi, Atları, atlıları denize döktü.”"
+    },
+    {
+      "section": "Acı Su"
+    },
+    {
+      "v": 22,
+      "text": "Musa İsrailliler'i Kamış Denizi'nin ötesine çıkardı. Şur Çölü'ne girdiler. Çölde üç gün yol aldılarsa da su bulamadılar."
+    },
+    {
+      "v": 23,
+      "text": "Mara'ya vardılar. Ama Mara'nın suyunu içemediler, çünkü su acıydı. Bu yüzden oraya Mara adı verildi."
+    },
+    {
+      "v": 24,
+      "text": "Halk, “Ne içeceğiz?” diye Musa'ya yakınmaya başladı."
+    },
+    {
+      "v": 25,
+      "text": "Musa RAB'be yakardı. RAB ona bir ağaç parçası gösterdi. Musa onu suya atınca sular tatlı oldu.  Orada RAB onlar için bir kural ve ilke koydu, hepsini sınadı."
+    },
+    {
+      "v": 26,
+      "text": "“Ben, Tanrınız RAB'bin sözünü dikkatle dinler, gözümde doğru olanı yapar, buyruklarıma kulak verir, bütün kurallarıma uyarsanız, Mısırlılar'a verdiğim hastalıkların hiçbirini size vermeyeceğim” dedi, “Çünkü size şifa veren RAB benim.”"
+    },
+    {
+      "v": 27,
+      "text": "Sonra Elim'e gittiler. Orada on iki su kaynağı, yetmiş hurma ağacı vardı. Su kıyısında konakladılar."
+    }
+  ],
+  "title": "Kurtuluş Ezgisi"
+}

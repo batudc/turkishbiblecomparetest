@@ -1,1 +1,99 @@
-{"t":"TCL02","b":"ECC","c":3,"content":[{"v":1,"text":"Her şeyin mevsimi, göklerin altındaki her olayın zamanı vardır."},{"v":2,"text":"Doğmanın zamanı var, ölmenin zamanı var. Dikmenin zamanı var, sökmenin zamanı var."},{"v":3,"text":"Öldürmenin zamanı var, şifa vermenin zamanı var. Yıkmanın zamanı var, yapmanın zamanı var."},{"v":4,"text":"Ağlamanın zamanı var, gülmenin zamanı var. Yas tutmanın zamanı var, oynamanın zamanı var."},{"v":5,"text":"Taş atmanın zamanı var, taş toplamanın zamanı var. Kucaklaşmanın zamanı var, kucaklaşmamanın zamanı var."},{"v":6,"text":"Aramanın zamanı var, vazgeçmenin zamanı var. Saklamanın zamanı var, atmanın zamanı var."},{"v":7,"text":"Yırtmanın zamanı var, dikmenin zamanı var. Susmanın zamanı var, konuşmanın zamanı var."},{"v":8,"text":"Sevmenin zamanı var, nefret etmenin zamanı var. Savaşın zamanı var, barışın zamanı var."},{"v":9,"text":"Çalışanın harcadığı emekten ne kazancı var?"},{"v":10,"text":"Tanrı'nın uğraşsınlar diye insanlara verdiği zahmeti gördüm."},{"v":11,"text":"O her şeyi zamanında güzel yaptı. İnsanların yüreğine sonsuzluk kavramını koydu. Yine de insan Tanrı'nın yaptığı işi başından sonuna dek anlayamaz."},{"v":12,"text":"İnsan için yaşamı boyunca mutlu olmaktan, iyi yaşamaktan daha iyi bir şey olmadığını biliyorum."},{"v":13,"text":"Her insanın yiyip içmesi, yaptığı her işle doyuma ulaşması bir Tanrı armağanıdır."},{"v":14,"text":"Tanrı'nın yaptığı her şeyin sonsuza dek süreceğini biliyorum. Ona ne bir şey eklenebilir ne de ondan bir şey çıkarılabilir. Tanrı insanların kendisine saygı duymaları için bunu yapıyor."},{"v":15,"text":"Şimdi ne oluyorsa, geçmişte de oldu, Ne olacaksa, daha önce de olmuştur. Tanrı geçmiş olayların hesabını soruyor."},{"v":16,"text":"Güneşin altında bir şey daha gördüm: Adaletin ve doğruluğun yerini kötülük almış."},{"v":17,"text":"İçimden “Tanrı doğruyu da, kötüyü de yargılayacaktır” dedim, “Çünkü her olayın, her eylemin zamanını belirledi.”"},{"v":18,"text":"İnsanlara gelince, “Tanrı hayvan olduklarını görsünler diye insanları sınıyor” diye düşündüm."},{"v":19,"text":"Çünkü insanların başına gelen hayvanların da başına geliyor. Aynı sonu paylaşıyorlar. Biri nasıl ölüyorsa, öbürü de öyle ölüyor. Hepsi aynı soluğu taşıyor. İnsanın hayvandan üstünlüğü yoktur. Çünkü her şey boş."},{"v":20,"text":"İkisi de aynı yere gidiyor; topraktan gelmiş, toprağa dönüyor."},{"v":21,"text":"Kim biliyor insan ruhunun yukarıya çıktığını, hayvan ruhunun aşağıya, yeraltına indiğini?"},{"v":22,"text":"Sonuçta insanın yaptığı işten zevk almasından daha iyi bir şey olmadığını gördüm. Çünkü onun payına düşen budur. Kendisinden sonra olacakları görmesi için kim onu geri getirebilir?"}]}
+{
+  "t": "TCL02",
+  "b": "ECC",
+  "c": 3,
+  "content": [
+    {
+      "section": "Her Şeyin Zamanı Var"
+    },
+    {
+      "v": 1,
+      "text": "Her şeyin mevsimi, göklerin altındaki her olayın zamanı vardır."
+    },
+    {
+      "v": 2,
+      "text": "Doğmanın zamanı var, ölmenin zamanı var. Dikmenin zamanı var, sökmenin zamanı var."
+    },
+    {
+      "v": 3,
+      "text": "Öldürmenin zamanı var, şifa vermenin zamanı var. Yıkmanın zamanı var, yapmanın zamanı var."
+    },
+    {
+      "v": 4,
+      "text": "Ağlamanın zamanı var, gülmenin zamanı var. Yas tutmanın zamanı var, oynamanın zamanı var."
+    },
+    {
+      "v": 5,
+      "text": "Taş atmanın zamanı var, taş toplamanın zamanı var. Kucaklaşmanın zamanı var, kucaklaşmamanın zamanı var."
+    },
+    {
+      "v": 6,
+      "text": "Aramanın zamanı var, vazgeçmenin zamanı var. Saklamanın zamanı var, atmanın zamanı var."
+    },
+    {
+      "v": 7,
+      "text": "Yırtmanın zamanı var, dikmenin zamanı var. Susmanın zamanı var, konuşmanın zamanı var."
+    },
+    {
+      "v": 8,
+      "text": "Sevmenin zamanı var, nefret etmenin zamanı var. Savaşın zamanı var, barışın zamanı var."
+    },
+    {
+      "v": 9,
+      "text": "Çalışanın harcadığı emekten ne kazancı var?"
+    },
+    {
+      "v": 10,
+      "text": "Tanrı'nın uğraşsınlar diye insanlara verdiği zahmeti gördüm."
+    },
+    {
+      "v": 11,
+      "text": "O her şeyi zamanında güzel yaptı. İnsanların yüreğine sonsuzluk kavramını koydu. Yine de insan Tanrı'nın yaptığı işi başından sonuna dek anlayamaz."
+    },
+    {
+      "v": 12,
+      "text": "İnsan için yaşamı boyunca mutlu olmaktan, iyi yaşamaktan daha iyi bir şey olmadığını biliyorum."
+    },
+    {
+      "v": 13,
+      "text": "Her insanın yiyip içmesi, yaptığı her işle doyuma ulaşması bir Tanrı armağanıdır."
+    },
+    {
+      "v": 14,
+      "text": "Tanrı'nın yaptığı her şeyin sonsuza dek süreceğini biliyorum. Ona ne bir şey eklenebilir ne de ondan bir şey çıkarılabilir. Tanrı insanların kendisine saygı duymaları için bunu yapıyor."
+    },
+    {
+      "v": 15,
+      "text": "Şimdi ne oluyorsa, geçmişte de oldu, Ne olacaksa, daha önce de olmuştur. Tanrı geçmiş olayların hesabını soruyor."
+    },
+    {
+      "v": 16,
+      "text": "Güneşin altında bir şey daha gördüm: Adaletin ve doğruluğun yerini kötülük almış."
+    },
+    {
+      "v": 17,
+      "text": "İçimden “Tanrı doğruyu da, kötüyü de yargılayacaktır” dedim, “Çünkü her olayın, her eylemin zamanını belirledi.”"
+    },
+    {
+      "v": 18,
+      "text": "İnsanlara gelince, “Tanrı hayvan olduklarını görsünler diye insanları sınıyor” diye düşündüm."
+    },
+    {
+      "v": 19,
+      "text": "Çünkü insanların başına gelen hayvanların da başına geliyor. Aynı sonu paylaşıyorlar. Biri nasıl ölüyorsa, öbürü de öyle ölüyor. Hepsi aynı soluğu taşıyor. İnsanın hayvandan üstünlüğü yoktur. Çünkü her şey boş."
+    },
+    {
+      "v": 20,
+      "text": "İkisi de aynı yere gidiyor; topraktan gelmiş, toprağa dönüyor."
+    },
+    {
+      "v": 21,
+      "text": "Kim biliyor insan ruhunun yukarıya çıktığını, hayvan ruhunun aşağıya, yeraltına indiğini?"
+    },
+    {
+      "v": 22,
+      "text": "Sonuçta insanın yaptığı işten zevk almasından daha iyi bir şey olmadığını gördüm. Çünkü onun payına düşen budur. Kendisinden sonra olacakları görmesi için kim onu geri getirebilir?"
+    }
+  ],
+  "title": "Her Şeyin Zamanı Var"
+}

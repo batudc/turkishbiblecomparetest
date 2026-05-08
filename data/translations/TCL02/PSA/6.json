@@ -1,1 +1,51 @@
-{"t":"TCL02","b":"PSA","c":6,"content":[{"v":1,"text":"Ya RAB, öfkeyle azarlama beni, Gazapla yola getirme."},{"v":2,"text":"Lütfet bana, ya RAB, bitkinim; Şifa ver bana, ya RAB, kemiklerim sızlıyor,"},{"v":3,"text":"Çok acı çekiyorum. Ah, ya RAB! Ne zamana dek sürecek bu?"},{"v":4,"text":"Gel, ya RAB, kurtar beni, Yardım et sevginden dolayı."},{"v":5,"text":"Çünkü ölüler arasında kimse seni anmaz, Kim şükür sunar sana ölüler diyarından?"},{"v":6,"text":"İnleye inleye bittim, Döşeğim su içinde bütün gece ağlamaktan, Yatağım sırılsıklam gözyaşlarımdan."},{"v":7,"text":"Kederden gözlerimin feri sönüyor, Zayıflıyor gözlerim düşmanlarım yüzünden."},{"v":8,"text":"Ey kötülük yapanlar, Uzak durun benden, Çünkü RAB ağlayışımı işitti."},{"v":9,"text":"Yalvarışımı duydu, Duamı kabul etti."},{"v":10,"text":"Bütün düşmanlarım utanacak, Hepsini dehşet saracak, Ansızın geri dönecekler utanç içinde."}]}
+{
+  "t": "TCL02",
+  "b": "PSA",
+  "c": 6,
+  "content": [
+    {
+      "section": "6. Mezmur"
+    },
+    {
+      "v": 1,
+      "text": "Ya RAB, öfkeyle azarlama beni, Gazapla yola getirme."
+    },
+    {
+      "v": 2,
+      "text": "Lütfet bana, ya RAB, bitkinim; Şifa ver bana, ya RAB, kemiklerim sızlıyor,"
+    },
+    {
+      "v": 3,
+      "text": "Çok acı çekiyorum. Ah, ya RAB! Ne zamana dek sürecek bu?"
+    },
+    {
+      "v": 4,
+      "text": "Gel, ya RAB, kurtar beni, Yardım et sevginden dolayı."
+    },
+    {
+      "v": 5,
+      "text": "Çünkü ölüler arasında kimse seni anmaz, Kim şükür sunar sana ölüler diyarından?"
+    },
+    {
+      "v": 6,
+      "text": "İnleye inleye bittim, Döşeğim su içinde bütün gece ağlamaktan, Yatağım sırılsıklam gözyaşlarımdan."
+    },
+    {
+      "v": 7,
+      "text": "Kederden gözlerimin feri sönüyor, Zayıflıyor gözlerim düşmanlarım yüzünden."
+    },
+    {
+      "v": 8,
+      "text": "Ey kötülük yapanlar, Uzak durun benden, Çünkü RAB ağlayışımı işitti."
+    },
+    {
+      "v": 9,
+      "text": "Yalvarışımı duydu, Duamı kabul etti."
+    },
+    {
+      "v": 10,
+      "text": "Bütün düşmanlarım utanacak, Hepsini dehşet saracak, Ansızın geri dönecekler utanç içinde."
+    }
+  ],
+  "title": "6. Mezmur"
+}

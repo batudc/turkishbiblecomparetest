@@ -1,1 +1,63 @@
-{"t":"TCL02","b":"ISA","c":27,"content":[{"v":1,"text":"O gün RAB Livyatan'ı, o kaçan yılanı, Evet Livyatan'ı, o kıvrıla kıvrıla giden yılanı Acımasız, kocaman, güçlü kılıcıyla cezalandıracak, Denizdeki canavarı öldürecek."},{"v":2,"text":"O gün RAB, “Sevdiğim bağ için ezgiler söyleyin” diyecek,"},{"v":3,"text":"“Ben RAB, bağın koruyucusuyum, Onu sürekli sularım. Kimse zarar vermesin diye Gece gündüz beklerim."},{"v":4,"text":"Kızgın değilim. Keşke karşıma dikenli çalılar çıksa! Onların üzerine yürür, Tümünü ateşe verirdim."},{"v":5,"text":"Ya da koruyuculuğuma sarılsınlar, Barışsınlar benimle, Evet, benimle barışsınlar.”"},{"v":6,"text":"Yakup soyu gelecekte kök salacak, İsrail filizlenip çiçeklenecek, Yeryüzünü meyvesiyle dolduracak."},{"v":7,"text":"RAB İsrailliler'i, kendilerini cezalandıranları cezalandırdığı gibi cezalandırdı mı? Ya da İsrailliler'i başkalarını öldürdüğü gibi öldürdü mü?"},{"v":8,"text":"RAB onları yargıladı, Kovup sürgüne gönderdi. Doğu rüzgarının estiği gün Onları şiddetli soluğuyla savurdu."},{"v":9,"text":"Böylece Yakup soyunun suçu bağışlanacak. Günahlarının kaldırılmasının sonucu şöyle olacak: Sunağın taşlarını tebeşir taşı gibi un ufak ettiklerinde Ne Aşera putu ne de buhur sunağı kalacak."},{"v":10,"text":"Surlu kent terk edildi, Çöl kadar ıssız, sahipsiz bir yurt oldu. Dana orada otlayıp uzanacak, Filizlerini yiyip bitirecek."},{"v":11,"text":"Kuruyan dalları koparılacak, Kadınlar gelip bunları yakacaklar. Çünkü bu halk akıllı bir halk değil. Bu yüzden onları yaratan kendilerine acımayacak, Onlara biçim veren onları kayırmayacak."},{"v":12,"text":"Ey İsrailoğulları, o gün RAB gürül gürül akan Fırat ile Mısır Vadisi arasında harman döver gibi, sizi birer birer toplayacak."},{"v":13,"text":"Evet, o gün büyük bir boru çalınacak; Asur'da yitenlerle Mısır'a sürgün edilenler gelip kutsal dağda, Yeruşalim'de RAB'be tapınacaklar."}]}
+{
+  "t": "TCL02",
+  "b": "ISA",
+  "c": 27,
+  "content": [
+    {
+      "section": "İsrail'in Kurtuluşu"
+    },
+    {
+      "v": 1,
+      "text": "O gün RAB Livyatan'ı, o kaçan yılanı, Evet Livyatan'ı, o kıvrıla kıvrıla giden yılanı Acımasız, kocaman, güçlü kılıcıyla cezalandıracak, Denizdeki canavarı öldürecek."
+    },
+    {
+      "v": 2,
+      "text": "O gün RAB, “Sevdiğim bağ için ezgiler söyleyin” diyecek,"
+    },
+    {
+      "v": 3,
+      "text": "“Ben RAB, bağın koruyucusuyum, Onu sürekli sularım. Kimse zarar vermesin diye Gece gündüz beklerim."
+    },
+    {
+      "v": 4,
+      "text": "Kızgın değilim. Keşke karşıma dikenli çalılar çıksa! Onların üzerine yürür, Tümünü ateşe verirdim."
+    },
+    {
+      "v": 5,
+      "text": "Ya da koruyuculuğuma sarılsınlar, Barışsınlar benimle, Evet, benimle barışsınlar.”"
+    },
+    {
+      "v": 6,
+      "text": "Yakup soyu gelecekte kök salacak, İsrail filizlenip çiçeklenecek, Yeryüzünü meyvesiyle dolduracak."
+    },
+    {
+      "v": 7,
+      "text": "RAB İsrailliler'i, kendilerini cezalandıranları cezalandırdığı gibi cezalandırdı mı? Ya da İsrailliler'i başkalarını öldürdüğü gibi öldürdü mü?"
+    },
+    {
+      "v": 8,
+      "text": "RAB onları yargıladı, Kovup sürgüne gönderdi. Doğu rüzgarının estiği gün Onları şiddetli soluğuyla savurdu."
+    },
+    {
+      "v": 9,
+      "text": "Böylece Yakup soyunun suçu bağışlanacak. Günahlarının kaldırılmasının sonucu şöyle olacak: Sunağın taşlarını tebeşir taşı gibi un ufak ettiklerinde Ne Aşera putu ne de buhur sunağı kalacak."
+    },
+    {
+      "v": 10,
+      "text": "Surlu kent terk edildi, Çöl kadar ıssız, sahipsiz bir yurt oldu. Dana orada otlayıp uzanacak, Filizlerini yiyip bitirecek."
+    },
+    {
+      "v": 11,
+      "text": "Kuruyan dalları koparılacak, Kadınlar gelip bunları yakacaklar. Çünkü bu halk akıllı bir halk değil. Bu yüzden onları yaratan kendilerine acımayacak, Onlara biçim veren onları kayırmayacak."
+    },
+    {
+      "v": 12,
+      "text": "Ey İsrailoğulları, o gün RAB gürül gürül akan Fırat ile Mısır Vadisi arasında harman döver gibi, sizi birer birer toplayacak."
+    },
+    {
+      "v": 13,
+      "text": "Evet, o gün büyük bir boru çalınacak; Asur'da yitenlerle Mısır'a sürgün edilenler gelip kutsal dağda, Yeruşalim'de RAB'be tapınacaklar."
+    }
+  ],
+  "title": "İsrail'in Kurtuluşu"
+}

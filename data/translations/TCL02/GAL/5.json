@@ -1,1 +1,106 @@
-{"t": "TCL02", "b": "GAL", "c": 5, "content": [{"v": 1, "text": "Mesih bizi özgür olalım diye özgür kıldı. Bunun için dayanın. Bir daha kölelik boyunduruğuna girmeyin."}, {"v": 2, "text": "Bakın, ben Pavlus size diyorum ki, sünnet olursanız Mesih'in size hiç yararı olmaz."}, {"v": 3, "text": "Sünnet edilen her adamı bir daha uyarıyorum: Kutsal Yasa'nın tümünü yerine getirmek zorundadır."}, {"v": 4, "text": "Yasa aracılığıyla aklanmaya çalışan sizler Mesih'ten ayrıldınız, Tanrı'nın lütfundan uzak düştünüz."}, {"v": 5, "text": "Ama biz aklanmanın verdiği umudun gerçekleşmesini Ruh'a dayanarak, imanla bekliyoruz."}, {"v": 6, "text": "Mesih İsa'da ne sünnetliliğin ne de sünnetsizliğin yararı vardır; yararlı olan, sevgiyle etkisini gösteren imandır."}, {"v": 7, "text": "İyi koşuyordunuz. Sizi gerçeğe uymaktan kim alıkoydu?"}, {"v": 8, "text": "Buna kanmanız sizi çağıranın isteği değildir."}, {"v": 9, "text": "“Azıcık maya bütün hamuru kabartır.”"}, {"v": 10, "text": "Başka türlü düşünmeyeceğinize ilişkin Rab'de size güvenim var. Ama aklınızı karıştıran kim olursa olsun, cezasını çekecektir."}, {"v": 11, "text": "Bana gelince, kardeşler, eğer hâlâ sünneti savunuyor olsaydım, bugüne dek baskı görür müydüm? Öyle olsaydı, çarmıh engeli ortadan kalkardı."}, {"v": 12, "text": "Aklınızı çelenler keşke kendilerini hadım etseler!"}, {"v": 13, "text": "Kardeşler, siz özgür olmaya çağrıldınız. Ancak özgürlük benlik için fırsat olmasın. Birbirinize sevgiyle hizmet edin."}, {"v": 14, "text": "Bütün Kutsal Yasa tek bir sözde özetlenmiştir: “Komşunu kendin gibi seveceksin.”"}, {"v": 15, "text": "Ama birbirinizi ısırıp yiyorsanız, dikkat edin, birbirinizi yok etmeyesiniz!"}, {"v": 16, "text": "Şunu demek istiyorum: Kutsal Ruh'un yönetiminde yaşayın. O zaman benliğin tutkularını asla yerine getirmezsiniz."}, {"v": 17, "text": "Çünkü benlik Ruh'a, Ruh da benliğe aykırı olanı arzular. Bunlar birbirine karşıttır; sonuç olarak, istediğinizi yapamıyorsunuz."}, {"v": 18, "text": "Ruh'un yönetimindeyseniz, Yasa'ya bağımlı değilsiniz."}, {"v": 19, "text": "Benliğin işleri bellidir. Bunlar fuhuş, pislik, sefahat, putperestlik, büyücülük, düşmanlık, çekişme, kıskançlık, öfke, bencil tutkular, ayrılıklar, bölünmeler, çekememezlik, sarhoşluk, çılgın eğlenceler ve benzeri şeylerdir. Sizi daha önce uyardığım gibi yine uyarıyorum, böyle davrananlar Tanrı Egemenliği'ni miras alamayacaklar."}, {"v": 22, "text": "Ruh'un ürünüyse sevgi, sevinç, esenlik, sabır, şefkat, iyilik, bağlılık, yumuşak huyluluk ve özdenetimdir. Bu tür nitelikleri yasaklayan yasa yoktur."}, {"v": 24, "text": "Mesih İsa'ya ait olanlar, benliği, tutku ve arzularıyla birlikte çarmıha germişlerdir."}, {"v": 25, "text": "Ruh sayesinde yaşıyorsak, Ruh'un izinde yürüyelim."}, {"v": 26, "text": "Boş yere övünen, birbirine meydan okuyan, birbirini kıskanan kişiler olmayalım."}]}
+{
+  "t": "TCL02",
+  "b": "GAL",
+  "c": 5,
+  "content": [
+    {
+      "section": "Özgürlüğünüzü Koruyun"
+    },
+    {
+      "v": 1,
+      "text": "Mesih bizi özgür olalım diye özgür kıldı. Bunun için dayanın. Bir daha kölelik boyunduruğuna girmeyin."
+    },
+    {
+      "v": 2,
+      "text": "Bakın, ben Pavlus size diyorum ki, sünnet olursanız Mesih'in size hiç yararı olmaz."
+    },
+    {
+      "v": 3,
+      "text": "Sünnet edilen her adamı bir daha uyarıyorum: Kutsal Yasa'nın tümünü yerine getirmek zorundadır."
+    },
+    {
+      "v": 4,
+      "text": "Yasa aracılığıyla aklanmaya çalışan sizler Mesih'ten ayrıldınız, Tanrı'nın lütfundan uzak düştünüz."
+    },
+    {
+      "v": 5,
+      "text": "Ama biz aklanmanın verdiği umudun gerçekleşmesini Ruh'a dayanarak, imanla bekliyoruz."
+    },
+    {
+      "v": 6,
+      "text": "Mesih İsa'da ne sünnetliliğin ne de sünnetsizliğin yararı vardır; yararlı olan, sevgiyle etkisini gösteren imandır."
+    },
+    {
+      "v": 7,
+      "text": "İyi koşuyordunuz. Sizi gerçeğe uymaktan kim alıkoydu?"
+    },
+    {
+      "v": 8,
+      "text": "Buna kanmanız sizi çağıranın isteği değildir."
+    },
+    {
+      "v": 9,
+      "text": "“Azıcık maya bütün hamuru kabartır.”"
+    },
+    {
+      "v": 10,
+      "text": "Başka türlü düşünmeyeceğinize ilişkin Rab'de size güvenim var. Ama aklınızı karıştıran kim olursa olsun, cezasını çekecektir."
+    },
+    {
+      "v": 11,
+      "text": "Bana gelince, kardeşler, eğer hâlâ sünneti savunuyor olsaydım, bugüne dek baskı görür müydüm? Öyle olsaydı, çarmıh engeli ortadan kalkardı."
+    },
+    {
+      "v": 12,
+      "text": "Aklınızı çelenler keşke kendilerini hadım etseler!"
+    },
+    {
+      "section": "Benlik ve Kutsal Ruh"
+    },
+    {
+      "v": 13,
+      "text": "Kardeşler, siz özgür olmaya çağrıldınız. Ancak özgürlük benlik için fırsat olmasın. Birbirinize sevgiyle hizmet edin."
+    },
+    {
+      "v": 14,
+      "text": "Bütün Kutsal Yasa tek bir sözde özetlenmiştir: “Komşunu kendin gibi seveceksin.”"
+    },
+    {
+      "v": 15,
+      "text": "Ama birbirinizi ısırıp yiyorsanız, dikkat edin, birbirinizi yok etmeyesiniz!"
+    },
+    {
+      "v": 16,
+      "text": "Şunu demek istiyorum: Kutsal Ruh'un yönetiminde yaşayın. O zaman benliğin tutkularını asla yerine getirmezsiniz."
+    },
+    {
+      "v": 17,
+      "text": "Çünkü benlik Ruh'a, Ruh da benliğe aykırı olanı arzular. Bunlar birbirine karşıttır; sonuç olarak, istediğinizi yapamıyorsunuz."
+    },
+    {
+      "v": 18,
+      "text": "Ruh'un yönetimindeyseniz, Yasa'ya bağımlı değilsiniz."
+    },
+    {
+      "v": 19,
+      "text": "Benliğin işleri bellidir. Bunlar fuhuş, pislik, sefahat, putperestlik, büyücülük, düşmanlık, çekişme, kıskançlık, öfke, bencil tutkular, ayrılıklar, bölünmeler, çekememezlik, sarhoşluk, çılgın eğlenceler ve benzeri şeylerdir. Sizi daha önce uyardığım gibi yine uyarıyorum, böyle davrananlar Tanrı Egemenliği'ni miras alamayacaklar."
+    },
+    {
+      "v": 22,
+      "text": "Ruh'un ürünüyse sevgi, sevinç, esenlik, sabır, şefkat, iyilik, bağlılık, yumuşak huyluluk ve özdenetimdir. Bu tür nitelikleri yasaklayan yasa yoktur."
+    },
+    {
+      "v": 24,
+      "text": "Mesih İsa'ya ait olanlar, benliği, tutku ve arzularıyla birlikte çarmıha germişlerdir."
+    },
+    {
+      "v": 25,
+      "text": "Ruh sayesinde yaşıyorsak, Ruh'un izinde yürüyelim."
+    },
+    {
+      "v": 26,
+      "text": "Boş yere övünen, birbirine meydan okuyan, birbirini kıskanan kişiler olmayalım."
+    }
+  ],
+  "title": "Özgürlüğünüzü Koruyun"
+}

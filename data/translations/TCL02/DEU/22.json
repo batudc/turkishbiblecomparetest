@@ -1,1 +1,126 @@
-{"t": "TCL02", "b": "DEU", "c": 22, "content": [{"v": 1, "text": "“Kardeşinin yolunu yitirmiş sığırını ya da koyununu görünce, onları görmezlikten gelme. Sığırı ya da koyunu kesinlikle kardeşine geri götüreceksin."}, {"v": 2, "text": "Kardeşin sana uzaksa ya da hayvanın kime ait olduğunu bilmiyorsan evine götür. Kardeşin sığırını ya da koyununu aramaya çıkıncaya dek hayvan evinde kalsın. Sonra ona geri verirsin."}, {"v": 3, "text": "Kardeşinin eşeğini, giysisini ya da yitirdiği başka bir şeyini gördüğünde, aynı biçimde davranacaksın. Görmezlikten gelmeyeceksin."}, {"v": 4, "text": "“Kardeşinin eşeğini ya da sığırını yolda düşmüş gördüğünde, görmezlikten gelme. Hayvanı ayağa kaldırması için kesinlikle kardeşine yardım edeceksin."}, {"v": 5, "text": "“Kadınlar erkek giysisi, erkekler de kadın giysisi giymesin. Tanrınız RAB bu gibi şeyleri yapanlardan tiksinir."}, {"v": 6, "text": "“Yolda rastlantıyla ağaçta ya da yerde bir kuş yuvası görürseniz, ana kuş yavruların ya da yumurtaların üzerinde oturuyorsa, anayı yavrularıyla birlikte almayacaksınız."}, {"v": 7, "text": "Yavruları kendiniz için alabilirsiniz, ama anayı kesinlikle özgür bırakacaksınız. Öyle ki, üzerinize iyilik gelsin ve ömrünüz uzun olsun."}, {"v": 8, "text": "“Yeni bir ev yaparken, dama korkuluk yapacaksın. Öyle ki, biri damdan düşüp ölürse ailen sorumlu sayılmasın."}, {"v": 9, "text": "“Bağına iki çeşit tohum ekmeyeceksin. Yoksa ektiğin tohumun da bağın da ürününü kullanamazsın."}, {"v": 10, "text": "“Çift sürmek için eşeği öküzle birlikte koşmayacaksın."}, {"v": 11, "text": "“Yünle ketenden dokunmuş karışık kumaştan giysi giymeyeceksin."}, {"v": 12, "text": "“Giysinin dört yerine püskül dikeceksin.”"}, {"v": 13, "text": "“Bir adam bir kadın alır, yattıktan sonra ondan hoşlanmazsa,"}, {"v": 14, "text": "ona suç yükler, adını kötüler, ‘Bu kadınla evlendim ama onunla yatınca erden olmadığını gördüm’ derse,"}, {"v": 15, "text": "kadının annesiyle babası kızlarının erden olduğuna ilişkin kanıtı alıp kapıda görevli kent ileri gelenlerine getirecekler."}, {"v": 16, "text": "Kadının babası ileri gelenlere, ‘Kızımı bu adamla evlendirdim ama o kızımdan hoşlanmıyor’ diyecek, ‘Şimdi kızımı suçluyor, onun erden olmadığını söylüyor. İşte kızımın erden olduğunun kanıtı!’ Sonra anne-baba kızlarının erden olduğunu kanıtlayan yatak çarşafını ileri gelenlerin önüne serip gösterecekler."}, {"v": 18, "text": "Kent ileri gelenleri de adamı cezalandıracaklar."}, {"v": 19, "text": "Ceza olarak ondan yüz gümüş alıp kadının babasına verecekler. Çünkü adam İsrailli bir erden kızın adını kötülemiştir. Kadın adamın karısı kalacak ve adam yaşamı boyunca onu boşayamayacaktır."}, {"v": 20, "text": "“Ancak bu sav doğruysa, kızın erden olduğuna ilişkin bir kanıt bulunamazsa,"}, {"v": 21, "text": "kızı baba evinin kapısına çıkaracaklar. Kent halkı taşlayarak kızı öldürecek. Babasının evindeyken fuhuş yapmakla İsrail'de iğrençlik yapmıştır. Aranızdaki kötülüğü ortadan kaldıracaksınız."}, {"v": 22, "text": "“Eğer bir adam başka birinin karısıyla yatarken yakalanırsa, hem kadınla yatan adam, hem kadın, ikisi de öldürülecek. İsrail'den kötülüğü atacaksınız."}, {"v": 23, "text": "“Eğer bir adam kentte başka biriyle nişanlı erden bir kızla karşılaşır ve onunla yatarsa,"}, {"v": 24, "text": "ikisini de kentin kapısına götürecek, taşlayarak öldüreceksiniz. Çünkü kız kentte olduğu halde yardım istemek için bağırmadı; adam da komşusunun karısıyla ilişki kurdu. Aranızdaki kötülüğü ortadan kaldıracaksınız."}, {"v": 25, "text": "“Eğer bir adam kırda nişanlı bir kızla karşılaşır, onu yakalayıp tecavüz ederse, yalnız tecavüz eden adam öldürülecek."}, {"v": 26, "text": "Kıza hiçbir şey yapmayacaksınız. Çünkü kızın ölümü hak edecek bir günahı yoktur. Bu, komşusuna saldırıp onu öldüren adamın davasına benzer."}, {"v": 27, "text": "Adam kızı kırda gördüğünde nişanlı kız bağırmışsa da onu kurtaran olmamıştır."}, {"v": 28, "text": "“Eğer bir adam nişanlı olmayan erden bir kızla karşılaşır, tutup onunla yatarsa ve bu ortaya çıkarsa,"}, {"v": 29, "text": "kızla yatan adam kızın babasına elli gümüş verecek. Kıza tecavüz ettiği için onu karı olarak alacak ve yaşamı boyunca onu boşayamayacaktır."}, {"v": 30, "text": "“Kimse babasının karısını almayacak, babasının evlilik yatağına leke sürmeyecektir.”"}]}
+{
+  "t": "TCL02",
+  "b": "DEU",
+  "c": 22,
+  "content": [
+    {
+      "v": 1,
+      "text": "“Kardeşinin yolunu yitirmiş sığırını ya da koyununu görünce, onları görmezlikten gelme. Sığırı ya da koyunu kesinlikle kardeşine geri götüreceksin."
+    },
+    {
+      "v": 2,
+      "text": "Kardeşin sana uzaksa ya da hayvanın kime ait olduğunu bilmiyorsan evine götür. Kardeşin sığırını ya da koyununu aramaya çıkıncaya dek hayvan evinde kalsın. Sonra ona geri verirsin."
+    },
+    {
+      "v": 3,
+      "text": "Kardeşinin eşeğini, giysisini ya da yitirdiği başka bir şeyini gördüğünde, aynı biçimde davranacaksın. Görmezlikten gelmeyeceksin."
+    },
+    {
+      "v": 4,
+      "text": "“Kardeşinin eşeğini ya da sığırını yolda düşmüş gördüğünde, görmezlikten gelme. Hayvanı ayağa kaldırması için kesinlikle kardeşine yardım edeceksin."
+    },
+    {
+      "v": 5,
+      "text": "“Kadınlar erkek giysisi, erkekler de kadın giysisi giymesin. Tanrınız RAB bu gibi şeyleri yapanlardan tiksinir."
+    },
+    {
+      "v": 6,
+      "text": "“Yolda rastlantıyla ağaçta ya da yerde bir kuş yuvası görürseniz, ana kuş yavruların ya da yumurtaların üzerinde oturuyorsa, anayı yavrularıyla birlikte almayacaksınız."
+    },
+    {
+      "v": 7,
+      "text": "Yavruları kendiniz için alabilirsiniz, ama anayı kesinlikle özgür bırakacaksınız. Öyle ki, üzerinize iyilik gelsin ve ömrünüz uzun olsun."
+    },
+    {
+      "v": 8,
+      "text": "“Yeni bir ev yaparken, dama korkuluk yapacaksın. Öyle ki, biri damdan düşüp ölürse ailen sorumlu sayılmasın."
+    },
+    {
+      "v": 9,
+      "text": "“Bağına iki çeşit tohum ekmeyeceksin. Yoksa ektiğin tohumun da bağın da ürününü kullanamazsın."
+    },
+    {
+      "v": 10,
+      "text": "“Çift sürmek için eşeği öküzle birlikte koşmayacaksın."
+    },
+    {
+      "v": 11,
+      "text": "“Yünle ketenden dokunmuş karışık kumaştan giysi giymeyeceksin."
+    },
+    {
+      "v": 12,
+      "text": "“Giysinin dört yerine püskül dikeceksin.”"
+    },
+    {
+      "section": "Cinsel Paklıkla İlgili Kurallar"
+    },
+    {
+      "v": 13,
+      "text": "“Bir adam bir kadın alır, yattıktan sonra ondan hoşlanmazsa,"
+    },
+    {
+      "v": 14,
+      "text": "ona suç yükler, adını kötüler, ‘Bu kadınla evlendim ama onunla yatınca erden olmadığını gördüm’ derse,"
+    },
+    {
+      "v": 15,
+      "text": "kadının annesiyle babası kızlarının erden olduğuna ilişkin kanıtı alıp kapıda görevli kent ileri gelenlerine getirecekler."
+    },
+    {
+      "v": 16,
+      "text": "Kadının babası ileri gelenlere, ‘Kızımı bu adamla evlendirdim ama o kızımdan hoşlanmıyor’ diyecek, ‘Şimdi kızımı suçluyor, onun erden olmadığını söylüyor. İşte kızımın erden olduğunun kanıtı!’ Sonra anne-baba kızlarının erden olduğunu kanıtlayan yatak çarşafını ileri gelenlerin önüne serip gösterecekler."
+    },
+    {
+      "v": 18,
+      "text": "Kent ileri gelenleri de adamı cezalandıracaklar."
+    },
+    {
+      "v": 19,
+      "text": "Ceza olarak ondan yüz gümüş alıp kadının babasına verecekler. Çünkü adam İsrailli bir erden kızın adını kötülemiştir. Kadın adamın karısı kalacak ve adam yaşamı boyunca onu boşayamayacaktır."
+    },
+    {
+      "v": 20,
+      "text": "“Ancak bu sav doğruysa, kızın erden olduğuna ilişkin bir kanıt bulunamazsa,"
+    },
+    {
+      "v": 21,
+      "text": "kızı baba evinin kapısına çıkaracaklar. Kent halkı taşlayarak kızı öldürecek. Babasının evindeyken fuhuş yapmakla İsrail'de iğrençlik yapmıştır. Aranızdaki kötülüğü ortadan kaldıracaksınız."
+    },
+    {
+      "v": 22,
+      "text": "“Eğer bir adam başka birinin karısıyla yatarken yakalanırsa, hem kadınla yatan adam, hem kadın, ikisi de öldürülecek. İsrail'den kötülüğü atacaksınız."
+    },
+    {
+      "v": 23,
+      "text": "“Eğer bir adam kentte başka biriyle nişanlı erden bir kızla karşılaşır ve onunla yatarsa,"
+    },
+    {
+      "v": 24,
+      "text": "ikisini de kentin kapısına götürecek, taşlayarak öldüreceksiniz. Çünkü kız kentte olduğu halde yardım istemek için bağırmadı; adam da komşusunun karısıyla ilişki kurdu. Aranızdaki kötülüğü ortadan kaldıracaksınız."
+    },
+    {
+      "v": 25,
+      "text": "“Eğer bir adam kırda nişanlı bir kızla karşılaşır, onu yakalayıp tecavüz ederse, yalnız tecavüz eden adam öldürülecek."
+    },
+    {
+      "v": 26,
+      "text": "Kıza hiçbir şey yapmayacaksınız. Çünkü kızın ölümü hak edecek bir günahı yoktur. Bu, komşusuna saldırıp onu öldüren adamın davasına benzer."
+    },
+    {
+      "v": 27,
+      "text": "Adam kızı kırda gördüğünde nişanlı kız bağırmışsa da onu kurtaran olmamıştır."
+    },
+    {
+      "v": 28,
+      "text": "“Eğer bir adam nişanlı olmayan erden bir kızla karşılaşır, tutup onunla yatarsa ve bu ortaya çıkarsa,"
+    },
+    {
+      "v": 29,
+      "text": "kızla yatan adam kızın babasına elli gümüş verecek. Kıza tecavüz ettiği için onu karı olarak alacak ve yaşamı boyunca onu boşayamayacaktır."
+    },
+    {
+      "v": 30,
+      "text": "“Kimse babasının karısını almayacak, babasının evlilik yatağına leke sürmeyecektir.”"
+    }
+  ]
+}

@@ -1,1 +1,151 @@
-{"t": "TCL02", "b": "EXO", "c": 26, "content": [{"v": 1, "text": "“Tanrı'nın Konutu'nu on perdeden yap. Perdeler lacivert, mor, kırmızı iplikle özenle dokunmuş ince ketenden olsun, üzeri Keruvlar'la ustaca süslensin."}, {"v": 2, "text": "Her perdenin boyu yirmi sekiz, eni dört arşın olmalı. Bütün perdeler aynı ölçüde olacak."}, {"v": 3, "text": "Perdeler beşer beşer birbirine eklenerek iki takım perde yapılacak."}, {"v": 4, "text": "Birinci takımın kenarına lacivert ilmekler aç. Öbür takımın kenarına da aynı şeyi yap."}, {"v": 5, "text": "Birinci takımın ilk perdesiyle ikinci takımın son perdesine ellişer ilmek aç. İlmekler birbirine karşı olmalı."}, {"v": 6, "text": "Elli altın kopça yap, perdeleri kopçalayarak çadırı birleştir. Böylece konut tek parça haline gelecek."}, {"v": 7, "text": "“Konutun üstünü kaplayacak çadır için keçi kılından on bir perde yap."}, {"v": 8, "text": "Her perdenin boyu otuz, eni dört arşın olacak. On bir perde de aynı ölçüde olmalı."}, {"v": 9, "text": "Beş perde birbirine, altı perde birbirine birleştirilecek. Altıncı perdeyi çadırın önünde katla."}, {"v": 10, "text": "Her iki perde takımının kenarlarına ellişer ilmek aç."}, {"v": 11, "text": "Elli tunç kopça yap, kopçaları ilmeklere geçir ki, çadır tek parça haline gelsin."}, {"v": 12, "text": "Çadırın perdelerinden artan yarım perde konutun arkasından sarkacak."}, {"v": 13, "text": "Perdelerin uzun kenarlarından artan kumaş çadırın yanlarından birer arşın sarkarak konutu örtecek."}, {"v": 14, "text": "Çadır için kırmızı boyalı koç derilerinden bir örtü, onun üstüne de deriden başka bir örtü yap."}, {"v": 15, "text": "“Konut için akasya ağacından dikine çerçeveler yap."}, {"v": 16, "text": "Her çerçevenin boyu on, eni bir buçuk arşın olacak."}, {"v": 17, "text": "Çerçevelerin birbirine uyan iki paralel çıkıntısı olacak. Konutun bütün çerçevelerini aynı biçimde yapacaksın."}, {"v": 18, "text": "Konutun güneyi için yirmi çerçeve yap."}, {"v": 19, "text": "Her çerçevenin altında iki çıkıntı için birer taban olmak üzere, yirmi çerçevenin altında kırk gümüş taban yap."}, {"v": 20, "text": "Konutun öbür yanı, yani kuzeyi için de yirmi çerçeve ve her çerçevenin altında iki taban olmak üzere kırk gümüş taban yap."}, {"v": 22, "text": "Konutun batıya bakacak arka tarafı için altı çerçeve yap."}, {"v": 23, "text": "Arkada konutun köşeleri için iki çerçeve yap."}, {"v": 24, "text": "Bu köşe çerçevelerinin alt tarafı ayrı kalacak, üst tarafı ise birinci halkayla birleştirilecek. İki köşeyi oluşturan iki çerçeve aynı biçimde olacak."}, {"v": 25, "text": "Böylece sekiz çerçeve ve her çerçevenin altında iki taban olmak üzere on altı gümüş taban olacak."}, {"v": 26, "text": "“Konutun bir yanındaki çerçeveler için beş, öbür yanındaki çerçeveler için beş, batıya bakan arka tarafındaki çerçeveler için de beş olmak üzere akasya ağacından kirişler yap."}, {"v": 28, "text": "Çerçevelerin ortasındaki kiriş çadırın bir ucundan öbür ucuna geçecek."}, {"v": 29, "text": "Çerçeveleri ve kirişleri altınla kapla, kirişlerin geçeceği halkaları da altından yap."}, {"v": 30, "text": "“Konutu dağda sana gösterilen plana göre yap."}, {"v": 31, "text": "“Lacivert, mor, kırmızı iplikle özenle dokunmuş ince ketenden bir perde yap; üzerini Keruvlar'la ustaca süsle."}, {"v": 32, "text": "Dört gümüş taban üstünde duran akasya ağacından altın kaplı dört direk üzerine as. Çengelleri altın olacak."}, {"v": 33, "text": "Perdeyi kopçaların altına asıp Levha Sandığı'nı perdenin arkasına koy. Perde Kutsal Yer'le En Kutsal Yer'i birbirinden ayıracak."}, {"v": 34, "text": "Bağışlanma Kapağı'nı En Kutsal Yer'de bulunan Levha Sandığı'nın üzerine koy."}, {"v": 35, "text": "Masayı perdenin öbür tarafına, konutun kuzeye bakan yanına yerleştir; kandilliği masanın karşısına, konutun güney tarafına koy."}, {"v": 36, "text": "“Çadırın giriş bölümüne lacivert, mor, kırmızı iplikle özenle dokunmuş ince ketenden nakışlı bir perde yap."}, {"v": 37, "text": "Perdeyi asmak için akasya ağacından beş direk yap, altınla kapla. Çengelleri de altın olacak. Direkler için tunçtan beş taban dök.”"}]}
+{
+  "t": "TCL02",
+  "b": "EXO",
+  "c": 26,
+  "content": [
+    {
+      "section": "Tanrı'nın Konutu"
+    },
+    {
+      "v": 1,
+      "text": "“Tanrı'nın Konutu'nu on perdeden yap. Perdeler lacivert, mor, kırmızı iplikle özenle dokunmuş ince ketenden olsun, üzeri Keruvlar'la ustaca süslensin."
+    },
+    {
+      "v": 2,
+      "text": "Her perdenin boyu yirmi sekiz, eni dört arşın olmalı. Bütün perdeler aynı ölçüde olacak."
+    },
+    {
+      "v": 3,
+      "text": "Perdeler beşer beşer birbirine eklenerek iki takım perde yapılacak."
+    },
+    {
+      "v": 4,
+      "text": "Birinci takımın kenarına lacivert ilmekler aç. Öbür takımın kenarına da aynı şeyi yap."
+    },
+    {
+      "v": 5,
+      "text": "Birinci takımın ilk perdesiyle ikinci takımın son perdesine ellişer ilmek aç. İlmekler birbirine karşı olmalı."
+    },
+    {
+      "v": 6,
+      "text": "Elli altın kopça yap, perdeleri kopçalayarak çadırı birleştir. Böylece konut tek parça haline gelecek."
+    },
+    {
+      "v": 7,
+      "text": "“Konutun üstünü kaplayacak çadır için keçi kılından on bir perde yap."
+    },
+    {
+      "v": 8,
+      "text": "Her perdenin boyu otuz, eni dört arşın olacak. On bir perde de aynı ölçüde olmalı."
+    },
+    {
+      "v": 9,
+      "text": "Beş perde birbirine, altı perde birbirine birleştirilecek. Altıncı perdeyi çadırın önünde katla."
+    },
+    {
+      "v": 10,
+      "text": "Her iki perde takımının kenarlarına ellişer ilmek aç."
+    },
+    {
+      "v": 11,
+      "text": "Elli tunç kopça yap, kopçaları ilmeklere geçir ki, çadır tek parça haline gelsin."
+    },
+    {
+      "v": 12,
+      "text": "Çadırın perdelerinden artan yarım perde konutun arkasından sarkacak."
+    },
+    {
+      "v": 13,
+      "text": "Perdelerin uzun kenarlarından artan kumaş çadırın yanlarından birer arşın sarkarak konutu örtecek."
+    },
+    {
+      "v": 14,
+      "text": "Çadır için kırmızı boyalı koç derilerinden bir örtü, onun üstüne de deriden başka bir örtü yap."
+    },
+    {
+      "v": 15,
+      "text": "“Konut için akasya ağacından dikine çerçeveler yap."
+    },
+    {
+      "v": 16,
+      "text": "Her çerçevenin boyu on, eni bir buçuk arşın olacak."
+    },
+    {
+      "v": 17,
+      "text": "Çerçevelerin birbirine uyan iki paralel çıkıntısı olacak. Konutun bütün çerçevelerini aynı biçimde yapacaksın."
+    },
+    {
+      "v": 18,
+      "text": "Konutun güneyi için yirmi çerçeve yap."
+    },
+    {
+      "v": 19,
+      "text": "Her çerçevenin altında iki çıkıntı için birer taban olmak üzere, yirmi çerçevenin altında kırk gümüş taban yap."
+    },
+    {
+      "v": 20,
+      "text": "Konutun öbür yanı, yani kuzeyi için de yirmi çerçeve ve her çerçevenin altında iki taban olmak üzere kırk gümüş taban yap."
+    },
+    {
+      "v": 22,
+      "text": "Konutun batıya bakacak arka tarafı için altı çerçeve yap."
+    },
+    {
+      "v": 23,
+      "text": "Arkada konutun köşeleri için iki çerçeve yap."
+    },
+    {
+      "v": 24,
+      "text": "Bu köşe çerçevelerinin alt tarafı ayrı kalacak, üst tarafı ise birinci halkayla birleştirilecek. İki köşeyi oluşturan iki çerçeve aynı biçimde olacak."
+    },
+    {
+      "v": 25,
+      "text": "Böylece sekiz çerçeve ve her çerçevenin altında iki taban olmak üzere on altı gümüş taban olacak."
+    },
+    {
+      "v": 26,
+      "text": "“Konutun bir yanındaki çerçeveler için beş, öbür yanındaki çerçeveler için beş, batıya bakan arka tarafındaki çerçeveler için de beş olmak üzere akasya ağacından kirişler yap."
+    },
+    {
+      "v": 28,
+      "text": "Çerçevelerin ortasındaki kiriş çadırın bir ucundan öbür ucuna geçecek."
+    },
+    {
+      "v": 29,
+      "text": "Çerçeveleri ve kirişleri altınla kapla, kirişlerin geçeceği halkaları da altından yap."
+    },
+    {
+      "v": 30,
+      "text": "“Konutu dağda sana gösterilen plana göre yap."
+    },
+    {
+      "v": 31,
+      "text": "“Lacivert, mor, kırmızı iplikle özenle dokunmuş ince ketenden bir perde yap; üzerini Keruvlar'la ustaca süsle."
+    },
+    {
+      "v": 32,
+      "text": "Dört gümüş taban üstünde duran akasya ağacından altın kaplı dört direk üzerine as. Çengelleri altın olacak."
+    },
+    {
+      "v": 33,
+      "text": "Perdeyi kopçaların altına asıp Levha Sandığı'nı perdenin arkasına koy. Perde Kutsal Yer'le En Kutsal Yer'i birbirinden ayıracak."
+    },
+    {
+      "v": 34,
+      "text": "Bağışlanma Kapağı'nı En Kutsal Yer'de bulunan Levha Sandığı'nın üzerine koy."
+    },
+    {
+      "v": 35,
+      "text": "Masayı perdenin öbür tarafına, konutun kuzeye bakan yanına yerleştir; kandilliği masanın karşısına, konutun güney tarafına koy."
+    },
+    {
+      "v": 36,
+      "text": "“Çadırın giriş bölümüne lacivert, mor, kırmızı iplikle özenle dokunmuş ince ketenden nakışlı bir perde yap."
+    },
+    {
+      "v": 37,
+      "text": "Perdeyi asmak için akasya ağacından beş direk yap, altınla kapla. Çengelleri de altın olacak. Direkler için tunçtan beş taban dök.”"
+    }
+  ],
+  "title": "Tanrı'nın Konutu"
+}

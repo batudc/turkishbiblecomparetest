@@ -1,1 +1,39 @@
-{"t":"TCL02","b":"PSA","c":87,"content":[{"v":1,"text":"RAB Siyon'u kutsal dağlar üzerine kurdu."},{"v":2,"text":"Siyon'un kapılarını Yakup soyunun bütün konutlarından daha çok sever."},{"v":3,"text":"Ey Tanrı kenti, senin için ne yüce sözler söylenir: Sela"},{"v":4,"text":"“Beni tanıyanlar arasında Rahav ve Babil'i anacağım, Filist'i, Sur'u, Kûş'u da; ‘Bu da Siyon'da doğdu’ diyeceğim.”"},{"v":5,"text":"Evet, Siyon için şöyle denecek: “Şu da orada doğmuş, bu da, Yüceler Yücesi onu sarsılmaz kılacak.”"},{"v":6,"text":"RAB halkları kaydederken, “Bu da Siyon'da doğmuş” diye yazacak. Sela"},{"v":7,"text":"Okuyucular, kavalcılar, “Bütün kaynaklarım sendedir!” diyecek."}]}
+{
+  "t": "TCL02",
+  "b": "PSA",
+  "c": 87,
+  "content": [
+    {
+      "section": "87. Mezmur"
+    },
+    {
+      "v": 1,
+      "text": "RAB Siyon'u kutsal dağlar üzerine kurdu."
+    },
+    {
+      "v": 2,
+      "text": "Siyon'un kapılarını Yakup soyunun bütün konutlarından daha çok sever."
+    },
+    {
+      "v": 3,
+      "text": "Ey Tanrı kenti, senin için ne yüce sözler söylenir: Sela"
+    },
+    {
+      "v": 4,
+      "text": "“Beni tanıyanlar arasında Rahav ve Babil'i anacağım, Filist'i, Sur'u, Kûş'u da; ‘Bu da Siyon'da doğdu’ diyeceğim.”"
+    },
+    {
+      "v": 5,
+      "text": "Evet, Siyon için şöyle denecek: “Şu da orada doğmuş, bu da, Yüceler Yücesi onu sarsılmaz kılacak.”"
+    },
+    {
+      "v": 6,
+      "text": "RAB halkları kaydederken, “Bu da Siyon'da doğmuş” diye yazacak. Sela"
+    },
+    {
+      "v": 7,
+      "text": "Okuyucular, kavalcılar, “Bütün kaynaklarım sendedir!” diyecek."
+    }
+  ],
+  "title": "87. Mezmur"
+}

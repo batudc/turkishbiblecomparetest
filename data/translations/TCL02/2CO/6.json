@@ -1,1 +1,69 @@
-{"t": "TCL02", "b": "2CO", "c": 6, "content": [{"v": 1, "text": "Tanrı'yla birlikte çalışan bizler, O'nun lütfunu boş yere kabul etmemenizi ayrıca rica ediyoruz."}, {"v": 2, "text": "Çünkü Tanrı diyor ki, “Uygun zamanda seni duydum, Kurtuluş günü sana yardım ettim.”   Uygun zaman işte şimdidir, kurtuluş günü işte şimdidir."}, {"v": 3, "text": "Hizmetimizin kötülenmemesi için hiçbir konuda hiç kimsenin sürçmesine neden olmadık."}, {"v": 4, "text": "Tersine Tanrı'nın hizmetkârları olarak olağanüstü dayanmada, sıkıntı, güçlük ve elemlerde, dayak, hapis, karışıklık, emek, uykusuzluk ve açlıkta; pak yaşayışta, bilgi, sabır, iyilik, Kutsal Ruh ve içten sevgide; gerçeğin ilanında ve Tanrı'nın gücünde; sağ ve sol ellerimizde doğruluğun silahlarıyla, yücelikte ve onursuzlukta, iyi ünde ve kötü ünde, kendimizi her durumda örnek gösteriyoruz. Aldatanlar sayılıyorsak da dürüst kişileriz."}, {"v": 9, "text": "Tanınmıyor gibiyiz, ama iyi tanınıyoruz. Ölümün ağzındayız, ama işte yaşıyoruz. Dövülüyorsak bile öldürülmüş değiliz."}, {"v": 10, "text": "Kederliyiz ama her zaman seviniyoruz. Yoksuluz ama birçoklarını zengin ediyoruz. Hiçbir şeyimiz yok ama her şeye sahibiz."}, {"v": 11, "text": "Ey Korintliler, sizinle açıkça konuştuk, size yüreğimizi açtık."}, {"v": 12, "text": "Sizden sevgimizi esirgemedik, ama siz bizden sevginizi esirgediniz."}, {"v": 13, "text": "Bize aynı karşılığı verebilmek için –çocuklarıma söyler gibi söylüyorum– siz de yüreğinizi açın."}, {"v": 14, "text": "İmansızlarla aynı boyunduruğa girmeyin. Çünkü doğrulukla fesadın ne ortaklığı, ışıkla karanlığın ne paydaşlığı olabilir?"}, {"v": 15, "text": "Mesih'le Beliyal uyum içinde olabilir mi? İman edenle iman etmeyenin ortak yanı olabilir mi?"}, {"v": 16, "text": "Tanrı'nın tapınağıyla putlar uyuşabilir mi? Çünkü biz yaşayan Tanrı'nın tapınağıyız. Nitekim Tanrı şöyle diyor: “Aralarında yaşayacak, Aralarında yürüyeceğim. Onların Tanrısı olacağım, Onlar da benim halkım olacak.”"}, {"v": 17, "text": "Bu nedenle, “İmansızların arasından çıkıp ayrılın” diyor Rab. “Murdara dokunmayın, Ben de sizi kabul edeceğim.”"}, {"v": 18, "text": "Her Şeye Gücü Yeten Rab diyor ki, “Size Baba olacağım, Siz de oğullarım, kızlarım olacaksınız.”"}]}
+{
+  "t": "TCL02",
+  "b": "2CO",
+  "c": 6,
+  "content": [
+    {
+      "v": 1,
+      "text": "Tanrı'yla birlikte çalışan bizler, O'nun lütfunu boş yere kabul etmemenizi ayrıca rica ediyoruz."
+    },
+    {
+      "v": 2,
+      "text": "Çünkü Tanrı diyor ki, “Uygun zamanda seni duydum, Kurtuluş günü sana yardım ettim.”   Uygun zaman işte şimdidir, kurtuluş günü işte şimdidir."
+    },
+    {
+      "section": "Pavlus'un Çektiği Sıkıntılar"
+    },
+    {
+      "v": 3,
+      "text": "Hizmetimizin kötülenmemesi için hiçbir konuda hiç kimsenin sürçmesine neden olmadık."
+    },
+    {
+      "v": 4,
+      "text": "Tersine Tanrı'nın hizmetkârları olarak olağanüstü dayanmada, sıkıntı, güçlük ve elemlerde, dayak, hapis, karışıklık, emek, uykusuzluk ve açlıkta; pak yaşayışta, bilgi, sabır, iyilik, Kutsal Ruh ve içten sevgide; gerçeğin ilanında ve Tanrı'nın gücünde; sağ ve sol ellerimizde doğruluğun silahlarıyla, yücelikte ve onursuzlukta, iyi ünde ve kötü ünde, kendimizi her durumda örnek gösteriyoruz. Aldatanlar sayılıyorsak da dürüst kişileriz."
+    },
+    {
+      "v": 9,
+      "text": "Tanınmıyor gibiyiz, ama iyi tanınıyoruz. Ölümün ağzındayız, ama işte yaşıyoruz. Dövülüyorsak bile öldürülmüş değiliz."
+    },
+    {
+      "v": 10,
+      "text": "Kederliyiz ama her zaman seviniyoruz. Yoksuluz ama birçoklarını zengin ediyoruz. Hiçbir şeyimiz yok ama her şeye sahibiz."
+    },
+    {
+      "v": 11,
+      "text": "Ey Korintliler, sizinle açıkça konuştuk, size yüreğimizi açtık."
+    },
+    {
+      "v": 12,
+      "text": "Sizden sevgimizi esirgemedik, ama siz bizden sevginizi esirgediniz."
+    },
+    {
+      "v": 13,
+      "text": "Bize aynı karşılığı verebilmek için –çocuklarıma söyler gibi söylüyorum– siz de yüreğinizi açın."
+    },
+    {
+      "section": "Tanrı'nın Tapınağıyız"
+    },
+    {
+      "v": 14,
+      "text": "İmansızlarla aynı boyunduruğa girmeyin. Çünkü doğrulukla fesadın ne ortaklığı, ışıkla karanlığın ne paydaşlığı olabilir?"
+    },
+    {
+      "v": 15,
+      "text": "Mesih'le Beliyal uyum içinde olabilir mi? İman edenle iman etmeyenin ortak yanı olabilir mi?"
+    },
+    {
+      "v": 16,
+      "text": "Tanrı'nın tapınağıyla putlar uyuşabilir mi? Çünkü biz yaşayan Tanrı'nın tapınağıyız. Nitekim Tanrı şöyle diyor: “Aralarında yaşayacak, Aralarında yürüyeceğim. Onların Tanrısı olacağım, Onlar da benim halkım olacak.”"
+    },
+    {
+      "v": 17,
+      "text": "Bu nedenle, “İmansızların arasından çıkıp ayrılın” diyor Rab. “Murdara dokunmayın, Ben de sizi kabul edeceğim.”"
+    },
+    {
+      "v": 18,
+      "text": "Her Şeye Gücü Yeten Rab diyor ki, “Size Baba olacağım, Siz de oğullarım, kızlarım olacaksınız.”"
+    }
+  ]
+}

@@ -1,1 +1,107 @@
-{"t": "TCL02", "b": "ACT", "c": 24, "content": [{"v": 1, "text": "Bundan beş gün sonra Başkâhin Hananya, bazı ileri gelenler ve Tertullus adlı bir hatip Sezariye'ye gelip Pavlus'la ilgili şikâyetlerini valiye ilettiler."}, {"v": 2, "text": "Pavlus çağrılınca Tertullus suçlamalarına başladı. “Ey erdemli Feliks!” dedi. “Senin sayende uzun süredir esenlik içinde yaşamaktayız. Aldığın önlemlerle de bu ulusun yararına olumlu gelişmeler kaydedilmiştir. Yaptıklarını, her zaman ve her yerde büyük bir şükranla anıyoruz."}, {"v": 4, "text": "Seni fazla yormak istemiyorum; söyleyeceğimiz birkaç sözü hoşgörüyle dinlemeni rica ediyorum."}, {"v": 5, "text": "“Biz şunu anladık ki, bu adam dünyanın her yanında bütün Yahudiler arasında kargaşalık çıkaran bir fesatçı ve Nasrani tarikatının elebaşılarından biridir."}, {"v": 6, "text": "Tapınağı bile kirletmeye kalkıştı. Ama biz onu yakaladık. Onu sorguya çekersen, onunla ilgili bütün suçlamalarımızın doğruluğunu kendisinden öğrenebilirsin.”"}, {"v": 9, "text": "Oradaki Yahudiler de anlatılanların doğru olduğunu söyleyerek bu suçlamalara katıldılar."}, {"v": 10, "text": "Valinin bir işareti üzerine Pavlus şöyle karşılık verdi: “Senin yıllardan beri bu ulusa yargıçlık ettiğini bildiğim için, kendi savunmamı sevinçle yapıyorum."}, {"v": 11, "text": "Sen kendin de öğrenebilirsin, tapınmak amacıyla Yeruşalim'e gidişimden bu yana sadece on iki gün geçti."}, {"v": 12, "text": "Beni ne tapınakta, ne havralarda, ne de kentin başka bir yerinde herhangi biriyle tartışırken ya da halkı ayaklandırmaya çalışırken görmüşlerdir."}, {"v": 13, "text": "Şu anda bana yönelttikleri suçlamaları da sana kanıtlayamazlar."}, {"v": 14, "text": "Bununla birlikte, sana şunu itiraf edeyim ki, kendilerinin tarikat dedikleri Yol'un bir izleyicisi olarak atalarımızın Tanrısı'na kulluk ediyorum. Kutsal Yasa'da ve peygamberlerin kitaplarında yazılı her şeye inanıyorum."}, {"v": 15, "text": "Aynı bu adamların kabul ettiği gibi, hem doğru kişilerin hem doğru olmayanların ölümden dirileceğine dair Tanrı'ya umut bağladım."}, {"v": 16, "text": "Bu nedenle ben gerek Tanrı, gerek insanlar önünde vicdanımı temiz tutmaya her zaman özen gösteriyorum."}, {"v": 17, "text": "“Uzun yıllar sonra, ulusuma bağışlar getirmek ve adaklar sunmak için Yeruşalim'e geldim."}, {"v": 18, "text": "Beni tapınakta adaklar sunarken buldukları zaman arınmış durumdaydım. Çevremde ne bir kalabalık ne de karışıklık vardı. Ancak orada Asya İli'nden bazı Yahudiler bulunuyordu."}, {"v": 19, "text": "Onların bana karşı bir diyecekleri varsa, senin önüne çıkıp suçlamalarını belirtmeleri gerekir."}, {"v": 20, "text": "Buradakiler de, Yüksek Kurul'un önündeki duruşmam sırasında bende ne suç bulduklarını açıklasınlar."}, {"v": 21, "text": "Önlerine çıkarıldığımda, ‘Bugün, ölülerin dirilişi konusunda tarafınızdan yargılanmaktayım’ diye seslenmiştim. Olsa olsa beni bu konuda suçlayabilirler.”"}, {"v": 22, "text": "İsa'nın yoluna ilişkin derin bilgisi olan Feliks duruşmayı başka bir güne ertelerken, “Davanızla ilgili kararımı komutan Lisias gelince veririm” dedi."}, {"v": 23, "text": "Oradaki yüzbaşıya da Pavlus'u gözaltında tutmasını, ama kendisine biraz serbestlik tanımasını, ona yardımda bulunmak isteyen dostlarından hiçbirine engel olmamasını buyurdu."}, {"v": 24, "text": "Birkaç gün sonra Feliks, Yahudi olan karısı Drusilla ile birlikte geldi, Pavlus'u çağırtarak Mesih İsa'ya olan inancı konusunda onu dinledi."}, {"v": 25, "text": "Pavlus doğruluk, özdenetim ve gelecek olan yargı gününden söz edince Feliks korkuya kapıldı. “Şimdilik gidebilirsin” dedi, “Fırsat bulunca seni yine çağırtırım.”"}, {"v": 26, "text": "Bir yandan da Pavlus'un kendisine rüşvet vereceğini umuyordu. Bu nedenle onu sık sık çağırtır, onunla sohbet ederdi."}, {"v": 27, "text": "İki yıl dolunca görevini Porkius Festus'a devreden Feliks, Yahudiler'in gönlünü kazanmak amacıyla Pavlus'u hapiste bıraktı."}]}
+{
+  "t": "TCL02",
+  "b": "ACT",
+  "c": 24,
+  "content": [
+    {
+      "section": "Pavlus Feliks'in Önünde Suçlanıyor"
+    },
+    {
+      "v": 1,
+      "text": "Bundan beş gün sonra Başkâhin Hananya, bazı ileri gelenler ve Tertullus adlı bir hatip Sezariye'ye gelip Pavlus'la ilgili şikâyetlerini valiye ilettiler."
+    },
+    {
+      "v": 2,
+      "text": "Pavlus çağrılınca Tertullus suçlamalarına başladı. “Ey erdemli Feliks!” dedi. “Senin sayende uzun süredir esenlik içinde yaşamaktayız. Aldığın önlemlerle de bu ulusun yararına olumlu gelişmeler kaydedilmiştir. Yaptıklarını, her zaman ve her yerde büyük bir şükranla anıyoruz."
+    },
+    {
+      "v": 4,
+      "text": "Seni fazla yormak istemiyorum; söyleyeceğimiz birkaç sözü hoşgörüyle dinlemeni rica ediyorum."
+    },
+    {
+      "v": 5,
+      "text": "“Biz şunu anladık ki, bu adam dünyanın her yanında bütün Yahudiler arasında kargaşalık çıkaran bir fesatçı ve Nasrani tarikatının elebaşılarından biridir."
+    },
+    {
+      "v": 6,
+      "text": "Tapınağı bile kirletmeye kalkıştı. Ama biz onu yakaladık. Onu sorguya çekersen, onunla ilgili bütün suçlamalarımızın doğruluğunu kendisinden öğrenebilirsin.”"
+    },
+    {
+      "v": 9,
+      "text": "Oradaki Yahudiler de anlatılanların doğru olduğunu söyleyerek bu suçlamalara katıldılar."
+    },
+    {
+      "v": 10,
+      "text": "Valinin bir işareti üzerine Pavlus şöyle karşılık verdi: “Senin yıllardan beri bu ulusa yargıçlık ettiğini bildiğim için, kendi savunmamı sevinçle yapıyorum."
+    },
+    {
+      "v": 11,
+      "text": "Sen kendin de öğrenebilirsin, tapınmak amacıyla Yeruşalim'e gidişimden bu yana sadece on iki gün geçti."
+    },
+    {
+      "v": 12,
+      "text": "Beni ne tapınakta, ne havralarda, ne de kentin başka bir yerinde herhangi biriyle tartışırken ya da halkı ayaklandırmaya çalışırken görmüşlerdir."
+    },
+    {
+      "v": 13,
+      "text": "Şu anda bana yönelttikleri suçlamaları da sana kanıtlayamazlar."
+    },
+    {
+      "v": 14,
+      "text": "Bununla birlikte, sana şunu itiraf edeyim ki, kendilerinin tarikat dedikleri Yol'un bir izleyicisi olarak atalarımızın Tanrısı'na kulluk ediyorum. Kutsal Yasa'da ve peygamberlerin kitaplarında yazılı her şeye inanıyorum."
+    },
+    {
+      "v": 15,
+      "text": "Aynı bu adamların kabul ettiği gibi, hem doğru kişilerin hem doğru olmayanların ölümden dirileceğine dair Tanrı'ya umut bağladım."
+    },
+    {
+      "v": 16,
+      "text": "Bu nedenle ben gerek Tanrı, gerek insanlar önünde vicdanımı temiz tutmaya her zaman özen gösteriyorum."
+    },
+    {
+      "v": 17,
+      "text": "“Uzun yıllar sonra, ulusuma bağışlar getirmek ve adaklar sunmak için Yeruşalim'e geldim."
+    },
+    {
+      "v": 18,
+      "text": "Beni tapınakta adaklar sunarken buldukları zaman arınmış durumdaydım. Çevremde ne bir kalabalık ne de karışıklık vardı. Ancak orada Asya İli'nden bazı Yahudiler bulunuyordu."
+    },
+    {
+      "v": 19,
+      "text": "Onların bana karşı bir diyecekleri varsa, senin önüne çıkıp suçlamalarını belirtmeleri gerekir."
+    },
+    {
+      "v": 20,
+      "text": "Buradakiler de, Yüksek Kurul'un önündeki duruşmam sırasında bende ne suç bulduklarını açıklasınlar."
+    },
+    {
+      "v": 21,
+      "text": "Önlerine çıkarıldığımda, ‘Bugün, ölülerin dirilişi konusunda tarafınızdan yargılanmaktayım’ diye seslenmiştim. Olsa olsa beni bu konuda suçlayabilirler.”"
+    },
+    {
+      "v": 22,
+      "text": "İsa'nın yoluna ilişkin derin bilgisi olan Feliks duruşmayı başka bir güne ertelerken, “Davanızla ilgili kararımı komutan Lisias gelince veririm” dedi."
+    },
+    {
+      "v": 23,
+      "text": "Oradaki yüzbaşıya da Pavlus'u gözaltında tutmasını, ama kendisine biraz serbestlik tanımasını, ona yardımda bulunmak isteyen dostlarından hiçbirine engel olmamasını buyurdu."
+    },
+    {
+      "v": 24,
+      "text": "Birkaç gün sonra Feliks, Yahudi olan karısı Drusilla ile birlikte geldi, Pavlus'u çağırtarak Mesih İsa'ya olan inancı konusunda onu dinledi."
+    },
+    {
+      "v": 25,
+      "text": "Pavlus doğruluk, özdenetim ve gelecek olan yargı gününden söz edince Feliks korkuya kapıldı. “Şimdilik gidebilirsin” dedi, “Fırsat bulunca seni yine çağırtırım.”"
+    },
+    {
+      "v": 26,
+      "text": "Bir yandan da Pavlus'un kendisine rüşvet vereceğini umuyordu. Bu nedenle onu sık sık çağırtır, onunla sohbet ederdi."
+    },
+    {
+      "v": 27,
+      "text": "İki yıl dolunca görevini Porkius Festus'a devreden Feliks, Yahudiler'in gönlünü kazanmak amacıyla Pavlus'u hapiste bıraktı."
+    }
+  ],
+  "title": "Pavlus Feliks'in Önünde Suçlanıyor"
+}

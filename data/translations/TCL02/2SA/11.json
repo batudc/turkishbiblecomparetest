@@ -1,1 +1,119 @@
-{"t":"TCL02","b":"2SA","c":11,"content":[{"v":1,"text":"İlkbaharda, kralların savaşa gittiği dönemde, Davut kendi subaylarıyla birlikte Yoav'ı ve bütün İsrail ordusunu savaşa gönderdi. Onlar Ammonlular'ı yenilgiye uğratıp Rabba Kenti'ni kuşatırken, Davut Yeruşalim'de kalıyordu."},{"v":2,"text":"Bir akşamüstü Davut yatağından kalktı, sarayın damına çıkıp gezinmeye başladı. Damdan yıkanan bir kadın gördü. Kadın çok güzeldi."},{"v":3,"text":"Davut onun kim olduğunu öğrenmek için birini gönderdi.  Adam, “Kadın Eliam'ın kızı Hititli Uriya'nın karısı Bat-Şeva'dır” dedi."},{"v":4,"text":"Davut kadını getirmeleri için ulaklar gönderdi. Kadın Davut'un yanına geldi. Davut aybaşı kirliliğinden yeni arınmış olan kadınla yattı. Sonra kadın evine döndü."},{"v":5,"text":"Gebe kalan kadın Davut'a, “Gebe kaldım” diye haber gönderdi."},{"v":6,"text":"Bunun üzerine Davut Hititli Uriya'yı kendisine göndermesi için Yoav'a haber yolladı. Yoav da Uriya'yı Davut'a gönderdi."},{"v":7,"text":"Uriya yanına varınca, Davut Yoav'ın, ordunun ve savaşın durumunu sordu."},{"v":8,"text":"Sonra Uriya'ya, “Evine git, rahatına bak” dedi.  Uriya saraydan çıkınca, kral ardından bir armağan gönderdi."},{"v":9,"text":"Ne var ki, Uriya evine gitmedi, efendisinin bütün adamlarıyla birlikte sarayın kapısında uyudu."},{"v":10,"text":"Davut Uriya'nın evine gitmediğini öğrenince, ona, “Yolculuktan geldin. Neden evine gitmedin?” diye sordu."},{"v":11,"text":"Uriya, “Sandık da, İsrailliler'le Yahudalılar da çardaklarda kalıyor” diye karşılık verdi, “Komutanım Yoav'la efendimin adamları kırlarda konaklıyor. Bu durumda nasıl olur da ben yiyip içmek, karımla yatmak için evime giderim? Yaşamın hakkı için, böyle bir şeyi kesinlikle yapmayacağım.”"},{"v":12,"text":"Bunun üzerine Davut, “Bugün de burada kal, yarın seni göndereceğim” dedi. Uriya o gün de, ertesi gün de Yeruşalim'de kaldı."},{"v":13,"text":"Davut Uriya'yı çağırdı. Onu sarhoş edene dek yedirip içirdi. Akşam olunca Uriya efendisinin adamlarıyla birlikte uyumak üzere yattığı yere gitti. Yine evine gitmedi."},{"v":14,"text":"Sabahleyin Davut Yoav'a bir mektup yazıp Uriya aracılığıyla gönderdi."},{"v":15,"text":"Mektupta şöyle yazdı: “Uriya'yı savaşın en şiddetli olduğu cepheye yerleştir ve yanından çekil ki, vurulup ölsün.”"},{"v":16,"text":"Böylece Yoav kenti kuşatırken Uriya'yı yiğit adamların bulunduğunu bildiği yere yerleştirdi."},{"v":17,"text":"Kent halkı çıkıp Yoav'ın askerleriyle savaştı. Davut'un askerlerinden ölenler oldu. Hititli Uriya da ölenler arasındaydı."},{"v":18,"text":"Yoav savaşla ilgili ayrıntılı haberleri Davut'a iletmek üzere bir ulak gönderdi."},{"v":19,"text":"Ulağı şöyle uyardı: “Sen savaşla ilgili ayrıntılı haberleri krala iletmeyi bitirdikten sonra,"},{"v":20,"text":"kral öfkelenip sana şunu sorabilir: ‘Onlarla savaşmak için kente neden o kadar çok yaklaştınız? Surdan ok atacaklarını bilmiyor muydunuz?"},{"v":21,"text":"Yerubbeşet oğlu Avimelek'i kim öldürdü? Teves'te surun üstünden bir kadın üzerine bir değirmen üst taşını atıp onu öldürmedi mi? Öyleyse niçin sura o kadar çok yaklaştınız?’ O zaman, ‘Kulun Hititli Uriya da öldü’ dersin.”"},{"v":22,"text":"Ulak yola koyuldu. Davut'un yanına varınca, Yoav'ın kendisine söylediklerinin tümünü ona iletti."},{"v":23,"text":"“Adamlar bizden üstün çıktılar” dedi, “Kentten çıkıp bizimle kırda savaştılar. Ama onları kent kapısına kadar geri püskürttük."},{"v":24,"text":"Bunun üzerine okçular adamlarına surdan ok attılar. Kralın adamlarından bazıları öldü; kulun Hititli Uriya da öldü.”"},{"v":25,"text":"Davut ulağa şöyle dedi: “Yoav'a de ki, ‘Bu olay seni üzmesin! Savaşta kimin öleceği belli olmaz. Kente karşı saldırınızı güçlendirin ve kenti yerle bir edin!’ Bu sözlerle onu yüreklendir.”"},{"v":26,"text":"Uriya'nın karısı, kocasının öldüğünü duyunca, onun için yas tuttu."},{"v":27,"text":"Yas süresi geçince, Davut onu sarayına getirtti. Kadın Davut'un karısı oldu ve ona bir oğul doğurdu.  Ancak, Davut'un bu yaptığı RAB'bin hoşuna gitmedi."}]}
+{
+  "t": "TCL02",
+  "b": "2SA",
+  "c": 11,
+  "content": [
+    {
+      "section": "Davut'la Bat-Şeva"
+    },
+    {
+      "v": 1,
+      "text": "İlkbaharda, kralların savaşa gittiği dönemde, Davut kendi subaylarıyla birlikte Yoav'ı ve bütün İsrail ordusunu savaşa gönderdi. Onlar Ammonlular'ı yenilgiye uğratıp Rabba Kenti'ni kuşatırken, Davut Yeruşalim'de kalıyordu."
+    },
+    {
+      "v": 2,
+      "text": "Bir akşamüstü Davut yatağından kalktı, sarayın damına çıkıp gezinmeye başladı. Damdan yıkanan bir kadın gördü. Kadın çok güzeldi."
+    },
+    {
+      "v": 3,
+      "text": "Davut onun kim olduğunu öğrenmek için birini gönderdi.  Adam, “Kadın Eliam'ın kızı Hititli Uriya'nın karısı Bat-Şeva'dır” dedi."
+    },
+    {
+      "v": 4,
+      "text": "Davut kadını getirmeleri için ulaklar gönderdi. Kadın Davut'un yanına geldi. Davut aybaşı kirliliğinden yeni arınmış olan kadınla yattı. Sonra kadın evine döndü."
+    },
+    {
+      "v": 5,
+      "text": "Gebe kalan kadın Davut'a, “Gebe kaldım” diye haber gönderdi."
+    },
+    {
+      "v": 6,
+      "text": "Bunun üzerine Davut Hititli Uriya'yı kendisine göndermesi için Yoav'a haber yolladı. Yoav da Uriya'yı Davut'a gönderdi."
+    },
+    {
+      "v": 7,
+      "text": "Uriya yanına varınca, Davut Yoav'ın, ordunun ve savaşın durumunu sordu."
+    },
+    {
+      "v": 8,
+      "text": "Sonra Uriya'ya, “Evine git, rahatına bak” dedi.  Uriya saraydan çıkınca, kral ardından bir armağan gönderdi."
+    },
+    {
+      "v": 9,
+      "text": "Ne var ki, Uriya evine gitmedi, efendisinin bütün adamlarıyla birlikte sarayın kapısında uyudu."
+    },
+    {
+      "v": 10,
+      "text": "Davut Uriya'nın evine gitmediğini öğrenince, ona, “Yolculuktan geldin. Neden evine gitmedin?” diye sordu."
+    },
+    {
+      "v": 11,
+      "text": "Uriya, “Sandık da, İsrailliler'le Yahudalılar da çardaklarda kalıyor” diye karşılık verdi, “Komutanım Yoav'la efendimin adamları kırlarda konaklıyor. Bu durumda nasıl olur da ben yiyip içmek, karımla yatmak için evime giderim? Yaşamın hakkı için, böyle bir şeyi kesinlikle yapmayacağım.”"
+    },
+    {
+      "v": 12,
+      "text": "Bunun üzerine Davut, “Bugün de burada kal, yarın seni göndereceğim” dedi. Uriya o gün de, ertesi gün de Yeruşalim'de kaldı."
+    },
+    {
+      "v": 13,
+      "text": "Davut Uriya'yı çağırdı. Onu sarhoş edene dek yedirip içirdi. Akşam olunca Uriya efendisinin adamlarıyla birlikte uyumak üzere yattığı yere gitti. Yine evine gitmedi."
+    },
+    {
+      "v": 14,
+      "text": "Sabahleyin Davut Yoav'a bir mektup yazıp Uriya aracılığıyla gönderdi."
+    },
+    {
+      "v": 15,
+      "text": "Mektupta şöyle yazdı: “Uriya'yı savaşın en şiddetli olduğu cepheye yerleştir ve yanından çekil ki, vurulup ölsün.”"
+    },
+    {
+      "v": 16,
+      "text": "Böylece Yoav kenti kuşatırken Uriya'yı yiğit adamların bulunduğunu bildiği yere yerleştirdi."
+    },
+    {
+      "v": 17,
+      "text": "Kent halkı çıkıp Yoav'ın askerleriyle savaştı. Davut'un askerlerinden ölenler oldu. Hititli Uriya da ölenler arasındaydı."
+    },
+    {
+      "v": 18,
+      "text": "Yoav savaşla ilgili ayrıntılı haberleri Davut'a iletmek üzere bir ulak gönderdi."
+    },
+    {
+      "v": 19,
+      "text": "Ulağı şöyle uyardı: “Sen savaşla ilgili ayrıntılı haberleri krala iletmeyi bitirdikten sonra,"
+    },
+    {
+      "v": 20,
+      "text": "kral öfkelenip sana şunu sorabilir: ‘Onlarla savaşmak için kente neden o kadar çok yaklaştınız? Surdan ok atacaklarını bilmiyor muydunuz?"
+    },
+    {
+      "v": 21,
+      "text": "Yerubbeşet oğlu Avimelek'i kim öldürdü? Teves'te surun üstünden bir kadın üzerine bir değirmen üst taşını atıp onu öldürmedi mi? Öyleyse niçin sura o kadar çok yaklaştınız?’ O zaman, ‘Kulun Hititli Uriya da öldü’ dersin.”"
+    },
+    {
+      "v": 22,
+      "text": "Ulak yola koyuldu. Davut'un yanına varınca, Yoav'ın kendisine söylediklerinin tümünü ona iletti."
+    },
+    {
+      "v": 23,
+      "text": "“Adamlar bizden üstün çıktılar” dedi, “Kentten çıkıp bizimle kırda savaştılar. Ama onları kent kapısına kadar geri püskürttük."
+    },
+    {
+      "v": 24,
+      "text": "Bunun üzerine okçular adamlarına surdan ok attılar. Kralın adamlarından bazıları öldü; kulun Hititli Uriya da öldü.”"
+    },
+    {
+      "v": 25,
+      "text": "Davut ulağa şöyle dedi: “Yoav'a de ki, ‘Bu olay seni üzmesin! Savaşta kimin öleceği belli olmaz. Kente karşı saldırınızı güçlendirin ve kenti yerle bir edin!’ Bu sözlerle onu yüreklendir.”"
+    },
+    {
+      "v": 26,
+      "text": "Uriya'nın karısı, kocasının öldüğünü duyunca, onun için yas tuttu."
+    },
+    {
+      "v": 27,
+      "text": "Yas süresi geçince, Davut onu sarayına getirtti. Kadın Davut'un karısı oldu ve ona bir oğul doğurdu.  Ancak, Davut'un bu yaptığı RAB'bin hoşuna gitmedi."
+    }
+  ],
+  "title": "Davut'la Bat-Şeva"
+}

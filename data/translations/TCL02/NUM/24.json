@@ -1,1 +1,109 @@
-{"t": "TCL02", "b": "NUM", "c": 24, "content": [{"v": 1, "text": "Balam, RAB'bin İsrail halkını kutsamaktan hoşnut olduğunu anlayınca, önceden yaptığı gibi gidip fala başvurmadı, yüzünü çöle çevirdi."}, {"v": 2, "text": "Baktı, İsrail'in oymak oymak yerleştiğini gördü. Tanrı'nın Ruhu onun üzerine inince,"}, {"v": 3, "text": "şu bildiriyi iletti: “Beor oğlu Balam, Gözü açılmış olan,"}, {"v": 4, "text": "Tanrı'nın sözlerini duyan, Her Şeye Gücü Yeten'in görümlerini gören, Yere kapanan, Tanrı'nın gözlerini açtığı kişi bildiriyor:"}, {"v": 5, "text": "‘Ey Yakup soyu, çadırların, Ey İsrail, konutların ne güzel!"}, {"v": 6, "text": "Yayılıyorlar vadiler gibi, Irmak kıyısında bahçeler gibi, RAB'bin diktiği öd ağaçları gibi, Su kıyısındaki sedir ağaçları gibi."}, {"v": 7, "text": "Kovalarından sular akacak, Tohumları bol suyla sulanacak. Kralları Agak'tan büyük olacak, Krallığı yüceltilecek."}, {"v": 8, "text": "Tanrı onları Mısır'dan çıkardı, O'nun yaban öküzü gibi gücü var. Düşmanı olan ulusları yiyip bitirecek, Kemiklerini parçalayacak, Oklarıyla onları deşecekler."}, {"v": 9, "text": "Aslan gibi, dişi aslan gibi Yere çömelir, yatarlar, Kim onları uyandırmaya cesaret edebilir? Seni kutsayan kutsansın, Seni lanetleyen lanetlensin!’ ”"}, {"v": 10, "text": "Balam'a öfkelenen Balak ellerini birbirine vurarak, “Düşmanlarıma lanet okuyasın diye seni çağırdım” dedi, “Oysa üç kez onları kutsadın."}, {"v": 11, "text": "Haydi, hemen evine dön! Seni ödüllendireceğimi söylemiştim. Ama RAB seni ödül almaktan yoksun bıraktı.”"}, {"v": 12, "text": "Balam şöyle karşılık verdi: “Bana gönderdiğin ulaklara, ‘Balak sarayını altınla, gümüşle doldurup bana verse bile, RAB'bin buyruğundan öte iyi kötü hiçbir şey yapamam. Ancak RAB ne derse onu söylerim’ dememiş miydim?"}, {"v": 14, "text": "İşte şimdi halkıma dönüyorum. Gel, bu halkın gelecekte halkına neler yapacağını sana bildireyim.”"}, {"v": 15, "text": "Sonra Balam şu bildiriyi iletti: “Beor oğlu Balam, Gözü açılmış olan,"}, {"v": 16, "text": "Tanrı'nın sözlerini duyan, Yüceler Yücesi'nin bilgisine kavuşan, Her Şeye Gücü Yeten'in görümlerini gören, Yere kapanan, Tanrı'nın gözlerini açtığı kişi bildiriyor:"}, {"v": 17, "text": "‘Onu görüyorum, ama şimdilik değil, Ona bakıyorum, ama yakından değil. Yakup soyundan bir yıldız çıkacak, İsrail'den bir önder yükselecek. Moavlılar'ın alınlarını, Şetoğulları'nın başlarını ezecek."}, {"v": 18, "text": "Düşmanı olan Edom ele geçirilecek, Evet, Seir alınacak, Ama İsrail güçlenecek."}, {"v": 19, "text": "Yakup soyundan gelen kişi önderlik edecek, Kentte sağ kalanları yok edecek.’ ”"}, {"v": 20, "text": "Balam Amalekliler'i görünce şu bildiriyi iletti: “Amalek halkı uluslar arasında birinciydi, Ama sonu yıkım olacak.”"}, {"v": 21, "text": "Kenliler'i görünce de şu bildiriyi iletti: “Yaşadığınız yer güvenli, Yuvanız kayalarda kurulmuş;"}, {"v": 22, "text": "Ama, ey Kenliler, Asurlular sizi tutsak edince, Yanıp yok olacaksınız.”"}, {"v": 23, "text": "Balam bildirisini iletmeyi sürdürdü: “Ah, bunu yapan Tanrı'ysa, Kim sağ kalabilir?"}, {"v": 24, "text": "Kittim kıyılarından gemiler gelecek, Asur'la Ever'i dize getirecekler, Kendileri de yıkıma uğrayacak.”"}, {"v": 25, "text": "Bundan sonra Balam kalkıp evine döndü, Balak da kendi yoluna gitti."}]}
+{
+  "t": "TCL02",
+  "b": "NUM",
+  "c": 24,
+  "content": [
+    {
+      "v": 1,
+      "text": "Balam, RAB'bin İsrail halkını kutsamaktan hoşnut olduğunu anlayınca, önceden yaptığı gibi gidip fala başvurmadı, yüzünü çöle çevirdi."
+    },
+    {
+      "v": 2,
+      "text": "Baktı, İsrail'in oymak oymak yerleştiğini gördü. Tanrı'nın Ruhu onun üzerine inince,"
+    },
+    {
+      "v": 3,
+      "text": "şu bildiriyi iletti: “Beor oğlu Balam, Gözü açılmış olan,"
+    },
+    {
+      "v": 4,
+      "text": "Tanrı'nın sözlerini duyan, Her Şeye Gücü Yeten'in görümlerini gören, Yere kapanan, Tanrı'nın gözlerini açtığı kişi bildiriyor:"
+    },
+    {
+      "v": 5,
+      "text": "‘Ey Yakup soyu, çadırların, Ey İsrail, konutların ne güzel!"
+    },
+    {
+      "v": 6,
+      "text": "Yayılıyorlar vadiler gibi, Irmak kıyısında bahçeler gibi, RAB'bin diktiği öd ağaçları gibi, Su kıyısındaki sedir ağaçları gibi."
+    },
+    {
+      "v": 7,
+      "text": "Kovalarından sular akacak, Tohumları bol suyla sulanacak. Kralları Agak'tan büyük olacak, Krallığı yüceltilecek."
+    },
+    {
+      "v": 8,
+      "text": "Tanrı onları Mısır'dan çıkardı, O'nun yaban öküzü gibi gücü var. Düşmanı olan ulusları yiyip bitirecek, Kemiklerini parçalayacak, Oklarıyla onları deşecekler."
+    },
+    {
+      "v": 9,
+      "text": "Aslan gibi, dişi aslan gibi Yere çömelir, yatarlar, Kim onları uyandırmaya cesaret edebilir? Seni kutsayan kutsansın, Seni lanetleyen lanetlensin!’ ”"
+    },
+    {
+      "v": 10,
+      "text": "Balam'a öfkelenen Balak ellerini birbirine vurarak, “Düşmanlarıma lanet okuyasın diye seni çağırdım” dedi, “Oysa üç kez onları kutsadın."
+    },
+    {
+      "v": 11,
+      "text": "Haydi, hemen evine dön! Seni ödüllendireceğimi söylemiştim. Ama RAB seni ödül almaktan yoksun bıraktı.”"
+    },
+    {
+      "v": 12,
+      "text": "Balam şöyle karşılık verdi: “Bana gönderdiğin ulaklara, ‘Balak sarayını altınla, gümüşle doldurup bana verse bile, RAB'bin buyruğundan öte iyi kötü hiçbir şey yapamam. Ancak RAB ne derse onu söylerim’ dememiş miydim?"
+    },
+    {
+      "v": 14,
+      "text": "İşte şimdi halkıma dönüyorum. Gel, bu halkın gelecekte halkına neler yapacağını sana bildireyim.”"
+    },
+    {
+      "section": "Balam'ın Dördüncü Bildirisi"
+    },
+    {
+      "v": 15,
+      "text": "Sonra Balam şu bildiriyi iletti: “Beor oğlu Balam, Gözü açılmış olan,"
+    },
+    {
+      "v": 16,
+      "text": "Tanrı'nın sözlerini duyan, Yüceler Yücesi'nin bilgisine kavuşan, Her Şeye Gücü Yeten'in görümlerini gören, Yere kapanan, Tanrı'nın gözlerini açtığı kişi bildiriyor:"
+    },
+    {
+      "v": 17,
+      "text": "‘Onu görüyorum, ama şimdilik değil, Ona bakıyorum, ama yakından değil. Yakup soyundan bir yıldız çıkacak, İsrail'den bir önder yükselecek. Moavlılar'ın alınlarını, Şetoğulları'nın başlarını ezecek."
+    },
+    {
+      "v": 18,
+      "text": "Düşmanı olan Edom ele geçirilecek, Evet, Seir alınacak, Ama İsrail güçlenecek."
+    },
+    {
+      "v": 19,
+      "text": "Yakup soyundan gelen kişi önderlik edecek, Kentte sağ kalanları yok edecek.’ ”"
+    },
+    {
+      "section": "Balam'ın Son Bildirileri"
+    },
+    {
+      "v": 20,
+      "text": "Balam Amalekliler'i görünce şu bildiriyi iletti: “Amalek halkı uluslar arasında birinciydi, Ama sonu yıkım olacak.”"
+    },
+    {
+      "v": 21,
+      "text": "Kenliler'i görünce de şu bildiriyi iletti: “Yaşadığınız yer güvenli, Yuvanız kayalarda kurulmuş;"
+    },
+    {
+      "v": 22,
+      "text": "Ama, ey Kenliler, Asurlular sizi tutsak edince, Yanıp yok olacaksınız.”"
+    },
+    {
+      "v": 23,
+      "text": "Balam bildirisini iletmeyi sürdürdü: “Ah, bunu yapan Tanrı'ysa, Kim sağ kalabilir?"
+    },
+    {
+      "v": 24,
+      "text": "Kittim kıyılarından gemiler gelecek, Asur'la Ever'i dize getirecekler, Kendileri de yıkıma uğrayacak.”"
+    },
+    {
+      "v": 25,
+      "text": "Bundan sonra Balam kalkıp evine döndü, Balak da kendi yoluna gitti."
+    }
+  ]
+}

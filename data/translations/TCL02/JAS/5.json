@@ -1,1 +1,93 @@
-{"t": "TCL02", "b": "JAS", "c": 5, "content": [{"v": 1, "text": "Dinleyin şimdi ey zenginler, başınıza gelecek felaketlerden ötürü feryat edip ağlayın."}, {"v": 2, "text": "Servetiniz çürümüş, giysinizi güve yemiştir."}, {"v": 3, "text": "Altınlarınız, gümüşleriniz pas tutmuştur. Onların pası size karşı tanıklık edecek, etinizi ateş gibi yiyecek. Bu son çağda servetinize servet kattınız."}, {"v": 4, "text": "İşte, ekinlerinizi biçen işçilerin haksızca alıkoyduğunuz ücretleri size karşı haykırıyor. Orakçıların feryadı Her Şeye Egemen Rab'bin kulağına erişti."}, {"v": 5, "text": "Yeryüzünde zevk ve bolluk içinde yaşadınız. Boğazlanacağınız gün için kendinizi besiye çektiniz."}, {"v": 6, "text": "Size karşı koymayan doğru kişiyi yargılayıp öldürdünüz."}, {"v": 7, "text": "Öyleyse kardeşler, Rab'bin gelişine dek sabredin. Bakın, çiftçi ilk ve son yağmurları alıncaya dek toprağın değerli ürününü nasıl sabırla bekliyor!"}, {"v": 8, "text": "Siz de sabredin. Yüreklerinizi güçlendirin. Çünkü Rab'bin gelişi yakındır."}, {"v": 9, "text": "Kardeşler, yargılanmamak için birbirinize karşı homurdanmayın. İşte, Yargıç kapının önünde duruyor."}, {"v": 10, "text": "Kardeşler, Rab'bin adıyla konuşmuş olan peygamberleri sıkıntılarda sabır örneği olarak alın."}, {"v": 11, "text": "Sıkıntıya dayanmış olanları mutlu sayarız. Eyüp'ün nasıl dayandığını duydunuz. Rab'bin en sonunda onun için neler yaptığını bilirsiniz. Rab çok şefkatli ve merhametlidir."}, {"v": 12, "text": "Kardeşlerim, öncelikle şunu söyleyeyim: Ne gök üzerine, ne yer üzerine, ne de başka bir şey üzerine ant için. “Evet” iniz evet, “hayır” ınız hayır olsun ki, yargıya uğramayasınız."}, {"v": 13, "text": "İçinizden biri sıkıntıda mı, dua etsin. Sevinçli mi, ilahi söylesin."}, {"v": 14, "text": "İçinizden biri hasta mı, kilisenin ihtiyarlarını çağırtsın; Rab'bin adıyla üzerine yağ sürüp onun için dua etsinler."}, {"v": 15, "text": "İmanla edilen dua hastayı iyileştirecek ve Rab onu ayağa kaldıracaktır. Eğer hasta günah işlemişse, günahları bağışlanacaktır."}, {"v": 16, "text": "Bu nedenle, şifa bulmak için günahlarınızı birbirinize itiraf edin ve birbiriniz için dua edin. Doğru kişinin yalvarışı çok güçlü ve etkilidir."}, {"v": 17, "text": "İlyas da tıpkı bizim gibi insandı. Yağmur yağmaması için gayretle dua etti; üç yıl altı ay ülkeye yağmur yağmadı."}, {"v": 18, "text": "Yeniden dua etti; gök yağmurunu, toprak da ürününü verdi."}, {"v": 19, "text": "Kardeşlerim, içinizden biri gerçeğin yolundan sapar da başka biri onu yine gerçeğe döndürürse, bilsin ki, günahkârı sapık yolundan döndüren, ölümden bir can kurtarmış, bir sürü günahı örtmüş olur."}]}
+{
+  "t": "TCL02",
+  "b": "JAS",
+  "c": 5,
+  "content": [
+    {
+      "section": "Zenginlere Uyarı"
+    },
+    {
+      "v": 1,
+      "text": "Dinleyin şimdi ey zenginler, başınıza gelecek felaketlerden ötürü feryat edip ağlayın."
+    },
+    {
+      "v": 2,
+      "text": "Servetiniz çürümüş, giysinizi güve yemiştir."
+    },
+    {
+      "v": 3,
+      "text": "Altınlarınız, gümüşleriniz pas tutmuştur. Onların pası size karşı tanıklık edecek, etinizi ateş gibi yiyecek. Bu son çağda servetinize servet kattınız."
+    },
+    {
+      "v": 4,
+      "text": "İşte, ekinlerinizi biçen işçilerin haksızca alıkoyduğunuz ücretleri size karşı haykırıyor. Orakçıların feryadı Her Şeye Egemen Rab'bin kulağına erişti."
+    },
+    {
+      "v": 5,
+      "text": "Yeryüzünde zevk ve bolluk içinde yaşadınız. Boğazlanacağınız gün için kendinizi besiye çektiniz."
+    },
+    {
+      "v": 6,
+      "text": "Size karşı koymayan doğru kişiyi yargılayıp öldürdünüz."
+    },
+    {
+      "section": "Sabredin"
+    },
+    {
+      "v": 7,
+      "text": "Öyleyse kardeşler, Rab'bin gelişine dek sabredin. Bakın, çiftçi ilk ve son yağmurları alıncaya dek toprağın değerli ürününü nasıl sabırla bekliyor!"
+    },
+    {
+      "v": 8,
+      "text": "Siz de sabredin. Yüreklerinizi güçlendirin. Çünkü Rab'bin gelişi yakındır."
+    },
+    {
+      "v": 9,
+      "text": "Kardeşler, yargılanmamak için birbirinize karşı homurdanmayın. İşte, Yargıç kapının önünde duruyor."
+    },
+    {
+      "v": 10,
+      "text": "Kardeşler, Rab'bin adıyla konuşmuş olan peygamberleri sıkıntılarda sabır örneği olarak alın."
+    },
+    {
+      "v": 11,
+      "text": "Sıkıntıya dayanmış olanları mutlu sayarız. Eyüp'ün nasıl dayandığını duydunuz. Rab'bin en sonunda onun için neler yaptığını bilirsiniz. Rab çok şefkatli ve merhametlidir."
+    },
+    {
+      "v": 12,
+      "text": "Kardeşlerim, öncelikle şunu söyleyeyim: Ne gök üzerine, ne yer üzerine, ne de başka bir şey üzerine ant için. “Evet” iniz evet, “hayır” ınız hayır olsun ki, yargıya uğramayasınız."
+    },
+    {
+      "section": "İmanla Dua Edin"
+    },
+    {
+      "v": 13,
+      "text": "İçinizden biri sıkıntıda mı, dua etsin. Sevinçli mi, ilahi söylesin."
+    },
+    {
+      "v": 14,
+      "text": "İçinizden biri hasta mı, kilisenin ihtiyarlarını çağırtsın; Rab'bin adıyla üzerine yağ sürüp onun için dua etsinler."
+    },
+    {
+      "v": 15,
+      "text": "İmanla edilen dua hastayı iyileştirecek ve Rab onu ayağa kaldıracaktır. Eğer hasta günah işlemişse, günahları bağışlanacaktır."
+    },
+    {
+      "v": 16,
+      "text": "Bu nedenle, şifa bulmak için günahlarınızı birbirinize itiraf edin ve birbiriniz için dua edin. Doğru kişinin yalvarışı çok güçlü ve etkilidir."
+    },
+    {
+      "v": 17,
+      "text": "İlyas da tıpkı bizim gibi insandı. Yağmur yağmaması için gayretle dua etti; üç yıl altı ay ülkeye yağmur yağmadı."
+    },
+    {
+      "v": 18,
+      "text": "Yeniden dua etti; gök yağmurunu, toprak da ürününü verdi."
+    },
+    {
+      "v": 19,
+      "text": "Kardeşlerim, içinizden biri gerçeğin yolundan sapar da başka biri onu yine gerçeğe döndürürse, bilsin ki, günahkârı sapık yolundan döndüren, ölümden bir can kurtarmış, bir sürü günahı örtmüş olur."
+    }
+  ],
+  "title": "Zenginlere Uyarı"
+}

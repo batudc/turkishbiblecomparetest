@@ -1,1 +1,110 @@
-{"t": "TCL02", "b": "COL", "c": 3, "content": [{"v": 1, "text": "Mesih'le birlikte dirildiğinize göre, gökteki değerlerin ardından gidin. Mesih orada, Tanrı'nın sağında oturuyor."}, {"v": 2, "text": "Yeryüzündeki değil, gökteki değerleri düşünün."}, {"v": 3, "text": "Çünkü siz öldünüz, yaşamınız Mesih'le birlikte Tanrı'da saklıdır."}, {"v": 4, "text": "Yaşamınız olan Mesih göründüğü zaman, siz de O'nunla birlikte yücelmiş olarak görüneceksiniz."}, {"v": 5, "text": "Bu nedenle bedenin dünyasal eğilimlerini –fuhşu, pisliği, şehveti, kötü arzuları ve putperestlikle eş olan açgözlülüğü– öldürün."}, {"v": 6, "text": "Bunlar yüzünden Tanrı'nın gazabı söz dinlemeyenlerin üzerine geliyor."}, {"v": 7, "text": "Geçmişte bunlarla iç içe yaşadığınız zaman siz de bu yollarda yürüdünüz."}, {"v": 8, "text": "Ama şimdi öfke, kızgınlık, kötü niyet dahil, hepsini üzerinizden sıyırıp atın. Ağzınızdan hiçbir iftira ya da edepsiz söz çıkmasın."}, {"v": 9, "text": "Birbirinize yalan söylemeyin. Çünkü eski yaradılışı kötü alışkanlıklarıyla birlikte üzerinizden çıkarıp attınız;"}, {"v": 10, "text": "eksiksiz bilgiye erişmek için Yaratıcısı'na benzer olmak üzere yenilenen yeni yaradılışı giyindiniz."}, {"v": 11, "text": "Bu yenilikte Grek ve Yahudi, sünnetli ve sünnetsiz, barbar, İskit, köle ve özgür ayrımı yoktur. Mesih her şeydir ve her şeydedir."}, {"v": 12, "text": "Öyleyse, Tanrı'nın kutsal ve sevgili seçilmişleri olarak yürekten sevecenliği, iyiliği, alçakgönüllülüğü, sabrı, yumuşaklığı giyinin."}, {"v": 13, "text": "Birbirinize hoşgörülü davranın. Birinizin ötekinden bir şikâyeti varsa, Rab'bin sizi bağışladığı gibi, siz de birbirinizi bağışlayın."}, {"v": 14, "text": "Bunların hepsinin üzerine yetkin birliğin bağı olan sevgiyi giyinin."}, {"v": 15, "text": "Mesih'in esenliği yüreklerinizde hakem olsun. Tek bir bedenin üyeleri olarak bu esenliğe çağrıldınız. Şükredici olun!"}, {"v": 16, "text": "Mesih'in sözü bütün zenginliğiyle içinizde yaşasın. Tam bir bilgelikle birbirinize öğretin, öğüt verin, mezmurlar, ilahiler, ruhsal ezgiler söyleyerek yüreklerinizde şükranla Tanrı'ya nağmeler yükseltin."}, {"v": 17, "text": "Söylediğiniz, yaptığınız her şeyi Rab İsa'nın adıyla, O'nun aracılığıyla Baba Tanrı'ya şükrederek yapın."}, {"v": 18, "text": "Ey kadınlar, Rab'be ait olanlara yaraşır biçimde kocalarınıza bağımlı olun."}, {"v": 19, "text": "Ey kocalar, karılarınızı sevin. Onlara sert davranmayın."}, {"v": 20, "text": "Ey çocuklar, her konuda anne babalarınızın sözünü dinleyin. Çünkü bu Rab'bi hoşnut eder."}, {"v": 21, "text": "Ey babalar, çocuklarınızı incitmeyin, yoksa cesaretleri kırılır."}, {"v": 22, "text": "Ey köleler, dünyadaki efendilerinizin her sözünü dinleyin. Bunu, yalnız insanları hoşnut etmek isteyenler gibi göze hoş görünen hizmetle değil, saf yürekle, Rab korkusuyla yapın."}, {"v": 23, "text": "Rab'den miras ödülünü alacağınızı bilerek, her ne yaparsanız, insanlar için değil, Rab için yapar gibi candan yapın. Rab Mesih'e kulluk ediyorsunuz."}, {"v": 25, "text": "Haksızlık eden ettiği haksızlığın karşılığını alacak, hiçbir ayrım yapılmayacaktır."}]}
+{
+  "t": "TCL02",
+  "b": "COL",
+  "c": 3,
+  "content": [
+    {
+      "section": "Mesih'te Yeni Yaşam"
+    },
+    {
+      "v": 1,
+      "text": "Mesih'le birlikte dirildiğinize göre, gökteki değerlerin ardından gidin. Mesih orada, Tanrı'nın sağında oturuyor."
+    },
+    {
+      "v": 2,
+      "text": "Yeryüzündeki değil, gökteki değerleri düşünün."
+    },
+    {
+      "v": 3,
+      "text": "Çünkü siz öldünüz, yaşamınız Mesih'le birlikte Tanrı'da saklıdır."
+    },
+    {
+      "v": 4,
+      "text": "Yaşamınız olan Mesih göründüğü zaman, siz de O'nunla birlikte yücelmiş olarak görüneceksiniz."
+    },
+    {
+      "v": 5,
+      "text": "Bu nedenle bedenin dünyasal eğilimlerini –fuhşu, pisliği, şehveti, kötü arzuları ve putperestlikle eş olan açgözlülüğü– öldürün."
+    },
+    {
+      "v": 6,
+      "text": "Bunlar yüzünden Tanrı'nın gazabı söz dinlemeyenlerin üzerine geliyor."
+    },
+    {
+      "v": 7,
+      "text": "Geçmişte bunlarla iç içe yaşadığınız zaman siz de bu yollarda yürüdünüz."
+    },
+    {
+      "v": 8,
+      "text": "Ama şimdi öfke, kızgınlık, kötü niyet dahil, hepsini üzerinizden sıyırıp atın. Ağzınızdan hiçbir iftira ya da edepsiz söz çıkmasın."
+    },
+    {
+      "v": 9,
+      "text": "Birbirinize yalan söylemeyin. Çünkü eski yaradılışı kötü alışkanlıklarıyla birlikte üzerinizden çıkarıp attınız;"
+    },
+    {
+      "v": 10,
+      "text": "eksiksiz bilgiye erişmek için Yaratıcısı'na benzer olmak üzere yenilenen yeni yaradılışı giyindiniz."
+    },
+    {
+      "v": 11,
+      "text": "Bu yenilikte Grek ve Yahudi, sünnetli ve sünnetsiz, barbar, İskit, köle ve özgür ayrımı yoktur. Mesih her şeydir ve her şeydedir."
+    },
+    {
+      "v": 12,
+      "text": "Öyleyse, Tanrı'nın kutsal ve sevgili seçilmişleri olarak yürekten sevecenliği, iyiliği, alçakgönüllülüğü, sabrı, yumuşaklığı giyinin."
+    },
+    {
+      "v": 13,
+      "text": "Birbirinize hoşgörülü davranın. Birinizin ötekinden bir şikâyeti varsa, Rab'bin sizi bağışladığı gibi, siz de birbirinizi bağışlayın."
+    },
+    {
+      "v": 14,
+      "text": "Bunların hepsinin üzerine yetkin birliğin bağı olan sevgiyi giyinin."
+    },
+    {
+      "v": 15,
+      "text": "Mesih'in esenliği yüreklerinizde hakem olsun. Tek bir bedenin üyeleri olarak bu esenliğe çağrıldınız. Şükredici olun!"
+    },
+    {
+      "v": 16,
+      "text": "Mesih'in sözü bütün zenginliğiyle içinizde yaşasın. Tam bir bilgelikle birbirinize öğretin, öğüt verin, mezmurlar, ilahiler, ruhsal ezgiler söyleyerek yüreklerinizde şükranla Tanrı'ya nağmeler yükseltin."
+    },
+    {
+      "v": 17,
+      "text": "Söylediğiniz, yaptığınız her şeyi Rab İsa'nın adıyla, O'nun aracılığıyla Baba Tanrı'ya şükrederek yapın."
+    },
+    {
+      "section": "Yeni Yaşamda Aile, Toplum İlişkileri"
+    },
+    {
+      "v": 18,
+      "text": "Ey kadınlar, Rab'be ait olanlara yaraşır biçimde kocalarınıza bağımlı olun."
+    },
+    {
+      "v": 19,
+      "text": "Ey kocalar, karılarınızı sevin. Onlara sert davranmayın."
+    },
+    {
+      "v": 20,
+      "text": "Ey çocuklar, her konuda anne babalarınızın sözünü dinleyin. Çünkü bu Rab'bi hoşnut eder."
+    },
+    {
+      "v": 21,
+      "text": "Ey babalar, çocuklarınızı incitmeyin, yoksa cesaretleri kırılır."
+    },
+    {
+      "v": 22,
+      "text": "Ey köleler, dünyadaki efendilerinizin her sözünü dinleyin. Bunu, yalnız insanları hoşnut etmek isteyenler gibi göze hoş görünen hizmetle değil, saf yürekle, Rab korkusuyla yapın."
+    },
+    {
+      "v": 23,
+      "text": "Rab'den miras ödülünü alacağınızı bilerek, her ne yaparsanız, insanlar için değil, Rab için yapar gibi candan yapın. Rab Mesih'e kulluk ediyorsunuz."
+    },
+    {
+      "v": 25,
+      "text": "Haksızlık eden ettiği haksızlığın karşılığını alacak, hiçbir ayrım yapılmayacaktır."
+    }
+  ],
+  "title": "Mesih'te Yeni Yaşam"
+}

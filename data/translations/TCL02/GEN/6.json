@@ -1,1 +1,99 @@
-{"t":"TCL02","b":"GEN","c":6,"content":[{"v":1,"text":"Yeryüzünde insanlar çoğalmaya başladı, kızlar doğdu."},{"v":2,"text":"İlahi varlıklar insan kızlarının güzelliğini görünce beğendikleriyle evlendiler."},{"v":3,"text":"RAB, “Ruhum insanda sonsuza dek kalmayacak, çünkü o ölümlüdür” dedi, “İnsanın ömrü yüz yirmi yıl olacak.”"},{"v":4,"text":"İlahi varlıkların insan kızlarıyla evlenip çocuk sahibi oldukları günlerde ve daha sonra yeryüzünde Nefiller vardı. Bunlar eski çağ kahramanları, ünlü kişilerdi."},{"v":5,"text":"RAB baktı, yeryüzünde insanın yaptığı kötülük çok, aklı fikri hep kötülükte."},{"v":6,"text":"İnsanı yarattığına pişman oldu. Yüreği sızladı."},{"v":7,"text":"“Yarattığım insanları, hayvanları, sürüngenleri, kuşları yeryüzünden silip atacağım” dedi, “Çünkü onları yarattığıma pişman oldum.”"},{"v":8,"text":"Ama Nuh RAB'bin gözünde lütuf buldu."},{"v":9,"text":"Nuh'un öyküsü şöyledir: Nuh doğru bir insandı. Çağdaşları arasında kusursuz biriydi. Tanrı yolunda yürüdü."},{"v":10,"text":"Üç oğlu vardı: Sam, Ham, Yafet."},{"v":11,"text":"Tanrı'nın gözünde yeryüzü bozulmuş, zorbalıkla dolmuştu."},{"v":12,"text":"Tanrı yeryüzüne baktı ve her şeyin ne denli bozulduğunu gördü. Çünkü insanlar yoldan çıkmıştı."},{"v":13,"text":"Tanrı Nuh'a, “İnsanlığa son vereceğim” dedi, “Çünkü onlar yüzünden yeryüzü zorbalıkla doldu. Onlarla birlikte yeryüzünü de yok edeceğim."},{"v":14,"text":"Kendine gofer ağacından bir gemi yap. İçini dışını ziftle, içeriye kamaralar yap."},{"v":15,"text":"Gemiyi şöyle yapacaksın: Uzunluğu üç yüz, genişliği elli, yüksekliği otuz arşın olacak."},{"v":16,"text":"Pencere de yap, boyu yukarıya doğru bir arşını bulsun. Kapıyı geminin yan tarafına koy. Alt, orta ve üst güverteler yap."},{"v":17,"text":"Yeryüzüne tufan göndereceğim. Göklerin altında soluk alan bütün canlıları yok edeceğim. Yeryüzündeki her canlı ölecek."},{"v":18,"text":"Ama seninle bir antlaşma yapacağım. Oğulların, karın, gelinlerinle birlikte gemiye bin."},{"v":19,"text":"Sağ kalabilmeleri için her canlı türünden bir erkek, bir dişi olmak üzere birer çifti gemiye al."},{"v":20,"text":"Çeşit çeşit kuşlar, hayvanlar, sürüngenler sağ kalmak için çifter çifter sana gelecekler."},{"v":21,"text":"Yanına hem kendin, hem onlar için yenebilecek ne varsa al, ilerde yemek üzere depola.”"},{"v":22,"text":"Nuh Tanrı'nın bütün buyruklarını yerine getirdi."}]}
+{
+  "t": "TCL02",
+  "b": "GEN",
+  "c": 6,
+  "content": [
+    {
+      "section": "Tufan"
+    },
+    {
+      "v": 1,
+      "text": "Yeryüzünde insanlar çoğalmaya başladı, kızlar doğdu."
+    },
+    {
+      "v": 2,
+      "text": "İlahi varlıklar insan kızlarının güzelliğini görünce beğendikleriyle evlendiler."
+    },
+    {
+      "v": 3,
+      "text": "RAB, “Ruhum insanda sonsuza dek kalmayacak, çünkü o ölümlüdür” dedi, “İnsanın ömrü yüz yirmi yıl olacak.”"
+    },
+    {
+      "v": 4,
+      "text": "İlahi varlıkların insan kızlarıyla evlenip çocuk sahibi oldukları günlerde ve daha sonra yeryüzünde Nefiller vardı. Bunlar eski çağ kahramanları, ünlü kişilerdi."
+    },
+    {
+      "v": 5,
+      "text": "RAB baktı, yeryüzünde insanın yaptığı kötülük çok, aklı fikri hep kötülükte."
+    },
+    {
+      "v": 6,
+      "text": "İnsanı yarattığına pişman oldu. Yüreği sızladı."
+    },
+    {
+      "v": 7,
+      "text": "“Yarattığım insanları, hayvanları, sürüngenleri, kuşları yeryüzünden silip atacağım” dedi, “Çünkü onları yarattığıma pişman oldum.”"
+    },
+    {
+      "v": 8,
+      "text": "Ama Nuh RAB'bin gözünde lütuf buldu."
+    },
+    {
+      "v": 9,
+      "text": "Nuh'un öyküsü şöyledir: Nuh doğru bir insandı. Çağdaşları arasında kusursuz biriydi. Tanrı yolunda yürüdü."
+    },
+    {
+      "v": 10,
+      "text": "Üç oğlu vardı: Sam, Ham, Yafet."
+    },
+    {
+      "v": 11,
+      "text": "Tanrı'nın gözünde yeryüzü bozulmuş, zorbalıkla dolmuştu."
+    },
+    {
+      "v": 12,
+      "text": "Tanrı yeryüzüne baktı ve her şeyin ne denli bozulduğunu gördü. Çünkü insanlar yoldan çıkmıştı."
+    },
+    {
+      "v": 13,
+      "text": "Tanrı Nuh'a, “İnsanlığa son vereceğim” dedi, “Çünkü onlar yüzünden yeryüzü zorbalıkla doldu. Onlarla birlikte yeryüzünü de yok edeceğim."
+    },
+    {
+      "v": 14,
+      "text": "Kendine gofer ağacından bir gemi yap. İçini dışını ziftle, içeriye kamaralar yap."
+    },
+    {
+      "v": 15,
+      "text": "Gemiyi şöyle yapacaksın: Uzunluğu üç yüz, genişliği elli, yüksekliği otuz arşın olacak."
+    },
+    {
+      "v": 16,
+      "text": "Pencere de yap, boyu yukarıya doğru bir arşını bulsun. Kapıyı geminin yan tarafına koy. Alt, orta ve üst güverteler yap."
+    },
+    {
+      "v": 17,
+      "text": "Yeryüzüne tufan göndereceğim. Göklerin altında soluk alan bütün canlıları yok edeceğim. Yeryüzündeki her canlı ölecek."
+    },
+    {
+      "v": 18,
+      "text": "Ama seninle bir antlaşma yapacağım. Oğulların, karın, gelinlerinle birlikte gemiye bin."
+    },
+    {
+      "v": 19,
+      "text": "Sağ kalabilmeleri için her canlı türünden bir erkek, bir dişi olmak üzere birer çifti gemiye al."
+    },
+    {
+      "v": 20,
+      "text": "Çeşit çeşit kuşlar, hayvanlar, sürüngenler sağ kalmak için çifter çifter sana gelecekler."
+    },
+    {
+      "v": 21,
+      "text": "Yanına hem kendin, hem onlar için yenebilecek ne varsa al, ilerde yemek üzere depola.”"
+    },
+    {
+      "v": 22,
+      "text": "Nuh Tanrı'nın bütün buyruklarını yerine getirdi."
+    }
+  ],
+  "title": "Tufan"
+}

@@ -1,1 +1,94 @@
-{"t":"TCL02","b":"GEN","c":12,"content":[{"v":1,"text":"RAB Avram'a, “Ülkeni, akrabalarını, baba evini bırak, sana göstereceğim ülkeye git” dedi,"},{"v":2,"text":"“Seni büyük bir ulus yapacağım, Seni kutsayacak, sana ün kazandıracağım, Bereket kaynağı olacaksın."},{"v":3,"text":"Seni kutsayanları kutsayacak, Seni lanetleyeni lanetleyeceğim. Yeryüzündeki bütün halklar Senin aracılığınla kutsanacak.”"},{"v":4,"text":"Avram RAB'bin buyurduğu gibi yola çıktı. Lut da onunla birlikte gitti. Avram Harran'dan ayrıldığı zaman yetmiş beş yaşındaydı."},{"v":5,"text":"Karısı Saray'ı, yeğeni Lut'u, Harran'da kazandıkları malları, edindikleri uşakları yanına alıp Kenan ülkesine doğru yola çıktı. Oraya vardılar."},{"v":6,"text":"Avram ülke boyunca Şekem'deki More meşesine kadar ilerledi. O günlerde orada Kenanlılar yaşıyordu."},{"v":7,"text":"RAB Avram'a görünerek, “Bu toprakları senin soyuna vereceğim” dedi. Avram kendisine görünen RAB'be orada bir sunak yaptı."},{"v":8,"text":"Oradan Beytel'in doğusundaki dağlık bölgeye doğru gitti. Çadırını batıdaki Beytel'le doğudaki Ay Kenti'nin arasına kurdu. Orada RAB'be bir sunak yapıp RAB'bi adıyla çağırdı."},{"v":9,"text":"Sonra kona göçe Negev'e doğru ilerledi."},{"v":10,"text":"Ülkedeki şiddetli kıtlık yüzünden Avram geçici bir süre için Mısır'a gitti."},{"v":11,"text":"Mısır'a yaklaştıklarında karısı Saray'a, “Güzel bir kadın olduğunu biliyorum” dedi,"},{"v":12,"text":"“Olur ki Mısırlılar seni görüp, ‘Bu onun karısı’ diyerek beni öldürür, seni sağ bırakırlar."},{"v":13,"text":"Lütfen, ‘Onun kızkardeşiyim’ de ki, senin hatırın için bana iyi davransınlar, canıma dokunmasınlar.”"},{"v":14,"text":"Avram Mısır'a girince, Mısırlılar karısının çok güzel olduğunu farkettiler."},{"v":15,"text":"Kadını gören firavunun adamları, güzelliğini firavuna övdüler. Kadın saraya alındı."},{"v":16,"text":"Onun hatırı için firavun Avram'a iyi davrandı. Avram davar, sığır, erkek ve dişi eşek, erkek ve kadın köle, deve sahibi oldu."},{"v":17,"text":"RAB Avram'ın karısı Saray yüzünden firavunla ev halkının başına korkunç felaketler getirdi."},{"v":18,"text":"Firavun Avram'ı çağırtarak, “Nedir bana bu yaptığın?” dedi, “Neden Saray'ın karın olduğunu söylemedin?"},{"v":19,"text":"Niçin ‘Saray kızkardeşimdir’ diyerek onunla evlenmeme izin verdin? Al karını, git!”"},{"v":20,"text":"Firavun Avram için adamlarına buyruk verdi. Böylece Avram'la karısını sahip olduğu her şeyle birlikte gönderdiler."}]}
+{
+  "t": "TCL02",
+  "b": "GEN",
+  "c": 12,
+  "content": [
+    {
+      "section": "Avram'a Çağrı"
+    },
+    {
+      "v": 1,
+      "text": "RAB Avram'a, “Ülkeni, akrabalarını, baba evini bırak, sana göstereceğim ülkeye git” dedi,"
+    },
+    {
+      "v": 2,
+      "text": "“Seni büyük bir ulus yapacağım, Seni kutsayacak, sana ün kazandıracağım, Bereket kaynağı olacaksın."
+    },
+    {
+      "v": 3,
+      "text": "Seni kutsayanları kutsayacak, Seni lanetleyeni lanetleyeceğim. Yeryüzündeki bütün halklar Senin aracılığınla kutsanacak.”"
+    },
+    {
+      "v": 4,
+      "text": "Avram RAB'bin buyurduğu gibi yola çıktı. Lut da onunla birlikte gitti. Avram Harran'dan ayrıldığı zaman yetmiş beş yaşındaydı."
+    },
+    {
+      "v": 5,
+      "text": "Karısı Saray'ı, yeğeni Lut'u, Harran'da kazandıkları malları, edindikleri uşakları yanına alıp Kenan ülkesine doğru yola çıktı. Oraya vardılar."
+    },
+    {
+      "v": 6,
+      "text": "Avram ülke boyunca Şekem'deki More meşesine kadar ilerledi. O günlerde orada Kenanlılar yaşıyordu."
+    },
+    {
+      "v": 7,
+      "text": "RAB Avram'a görünerek, “Bu toprakları senin soyuna vereceğim” dedi. Avram kendisine görünen RAB'be orada bir sunak yaptı."
+    },
+    {
+      "v": 8,
+      "text": "Oradan Beytel'in doğusundaki dağlık bölgeye doğru gitti. Çadırını batıdaki Beytel'le doğudaki Ay Kenti'nin arasına kurdu. Orada RAB'be bir sunak yapıp RAB'bi adıyla çağırdı."
+    },
+    {
+      "v": 9,
+      "text": "Sonra kona göçe Negev'e doğru ilerledi."
+    },
+    {
+      "section": "Avram Mısır'da"
+    },
+    {
+      "v": 10,
+      "text": "Ülkedeki şiddetli kıtlık yüzünden Avram geçici bir süre için Mısır'a gitti."
+    },
+    {
+      "v": 11,
+      "text": "Mısır'a yaklaştıklarında karısı Saray'a, “Güzel bir kadın olduğunu biliyorum” dedi,"
+    },
+    {
+      "v": 12,
+      "text": "“Olur ki Mısırlılar seni görüp, ‘Bu onun karısı’ diyerek beni öldürür, seni sağ bırakırlar."
+    },
+    {
+      "v": 13,
+      "text": "Lütfen, ‘Onun kızkardeşiyim’ de ki, senin hatırın için bana iyi davransınlar, canıma dokunmasınlar.”"
+    },
+    {
+      "v": 14,
+      "text": "Avram Mısır'a girince, Mısırlılar karısının çok güzel olduğunu farkettiler."
+    },
+    {
+      "v": 15,
+      "text": "Kadını gören firavunun adamları, güzelliğini firavuna övdüler. Kadın saraya alındı."
+    },
+    {
+      "v": 16,
+      "text": "Onun hatırı için firavun Avram'a iyi davrandı. Avram davar, sığır, erkek ve dişi eşek, erkek ve kadın köle, deve sahibi oldu."
+    },
+    {
+      "v": 17,
+      "text": "RAB Avram'ın karısı Saray yüzünden firavunla ev halkının başına korkunç felaketler getirdi."
+    },
+    {
+      "v": 18,
+      "text": "Firavun Avram'ı çağırtarak, “Nedir bana bu yaptığın?” dedi, “Neden Saray'ın karın olduğunu söylemedin?"
+    },
+    {
+      "v": 19,
+      "text": "Niçin ‘Saray kızkardeşimdir’ diyerek onunla evlenmeme izin verdin? Al karını, git!”"
+    },
+    {
+      "v": 20,
+      "text": "Firavun Avram için adamlarına buyruk verdi. Böylece Avram'la karısını sahip olduğu her şeyle birlikte gönderdiler."
+    }
+  ],
+  "title": "Avram'a Çağrı"
+}

@@ -1,1 +1,103 @@
-{"t": "TCL02", "b": "JOS", "c": 4, "content": [{"v": 1, "text": "Halkın tümü Şeria Irmağı'nı geçtikten sonra RAB Yeşu'ya şöyle seslendi:"}, {"v": 2, "text": "“Her oymaktan birer kişi olmak üzere halktan on iki adam seçin."}, {"v": 3, "text": "Onlara şunu buyurun: ‘Buradan, Şeria Irmağı'nın ortasından, kâhinlerin ayaklarını sağlam biçimde bastıkları yerden birer taş alın. Bu taşları yanınızda götürüp geceyi geçireceğiniz yere koyun.’ ”"}, {"v": 4, "text": "Böylece Yeşu İsrail'in her oymağından birer kişi olmak üzere seçtiği on iki adamı çağırdı."}, {"v": 5, "text": "Onlara, “Irmağın ortasına, Tanrınız RAB'bin Antlaşma Sandığı'na kadar gidin” diye buyurdu, “İsrail halkının oymak sayısına göre her biriniz omuzuna birer taş alsın."}, {"v": 6, "text": "Bunlar sizin için bir anı olacak. Çocuklarınız ilerde, ‘Bu taşların sizin için anlamı ne?’ diye sorduklarında,"}, {"v": 7, "text": "onlara diyeceksiniz ki, ‘Şeria Irmağı'nın suları RAB'bin Antlaşma Sandığı'nın önünde kesildi. Antlaşma Sandığı ırmaktan geçerken akan sular durdu. Bu taşlar sonsuza dek İsrail halkı için bu olayın anısı olacak.’ ”"}, {"v": 8, "text": "İsrailliler Yeşu'nun buyruğunu yerine getirdiler. RAB'bin Yeşu'ya söylediği gibi, İsrail oymaklarının sayısına göre Şeria Irmağı'nın ortasından aldıkları on iki taşı konaklayacakları yere götürüp bir araya yığdılar."}, {"v": 9, "text": "Yeşu ayrıca Şeria Irmağı'nın ortasına, Antlaşma Sandığı'nı taşıyan kâhinlerin durduğu yere on iki taş diktirdi. Bu taşlar bugün de oradadır."}, {"v": 10, "text": "Böylece RAB'bin Yeşu'ya, halka iletilmek üzere buyurduğu her şey yerine getirilinceye dek, sandığı taşıyan kâhinler Şeria Irmağı'nın ortasında durdular. Her şey Musa'nın Yeşu'ya buyurduğu gibi yapıldı. Halk da çabucak ırmağı geçti."}, {"v": 11, "text": "Halkın tümü geçtikten sonra kâhinler RAB'bin Antlaşma Sandığı'yla birlikte halkın önüne geçtiler."}, {"v": 12, "text": "Ruben ve Gad oymaklarıyla Manaşşe oymağının yarısı, Musa'nın kendilerine buyurduğu gibi, silahlı olarak İsrail halkının önüne geçtiler."}, {"v": 13, "text": "Böylece kırk bin kadar silahlı adam savaşmak üzere RAB'bin önünde Eriha ovalarına girdi."}, {"v": 14, "text": "RAB o gün Yeşu'yu bütün İsrail halkının gözünde yüceltti. Musa'ya yaşamı boyunca nasıl saygı gösterdilerse, Yeşu'ya da öyle saygı göstermeye başladılar."}, {"v": 15, "text": "RAB Yeşu'ya, “Levha Sandığı'nı taşıyan kâhinlerin Şeria Irmağı'ndan çıkmalarını buyur” dedi."}, {"v": 17, "text": "Yeşu da kâhinlere, “Şeria Irmağı'ndan çıkın” diye buyurdu."}, {"v": 18, "text": "RAB'bin Antlaşma Sandığı'nı taşıyan kâhinler Şeria Irmağı'nın ortasından ayrılıp karaya ayak basar basmaz ırmağın suları eskisi gibi akmaya ve kıyıları basmaya başladı."}, {"v": 19, "text": "Halk Şeria Irmağı'nı birinci ayın onuncu günü geçip Gilgal'da, Eriha'nın doğu sınırında konakladı."}, {"v": 20, "text": "Yeşu ırmaktan alınan on iki taşı Gilgal'a dikti."}, {"v": 21, "text": "Sonra İsrail halkına şöyle dedi: “Çocuklarınız bir gün size, ‘Bu taşların anlamı nedir?’ diye soracak olurlarsa,"}, {"v": 22, "text": "onlara, ‘İsrail halkı Şeria Irmağı'nın kurumuş yatağından geçti’ diyeceksiniz."}, {"v": 23, "text": "‘Tanrınız RAB Kamış Denizi'ni geçişimiz boyunca önümüzde nasıl kuruttuysa, Şeria Irmağı'nı da geçişiniz boyunca önünüzde kuruttu."}, {"v": 24, "text": "Öyle ki, yeryüzünün bütün halkları RAB'bin ne denli güçlü olduğunu anlasın; siz de Tanrınız RAB'den her zaman korkasınız!’ ”"}]}
+{
+  "t": "TCL02",
+  "b": "JOS",
+  "c": 4,
+  "content": [
+    {
+      "section": "Irmaktan Alınan Taşlar"
+    },
+    {
+      "v": 1,
+      "text": "Halkın tümü Şeria Irmağı'nı geçtikten sonra RAB Yeşu'ya şöyle seslendi:"
+    },
+    {
+      "v": 2,
+      "text": "“Her oymaktan birer kişi olmak üzere halktan on iki adam seçin."
+    },
+    {
+      "v": 3,
+      "text": "Onlara şunu buyurun: ‘Buradan, Şeria Irmağı'nın ortasından, kâhinlerin ayaklarını sağlam biçimde bastıkları yerden birer taş alın. Bu taşları yanınızda götürüp geceyi geçireceğiniz yere koyun.’ ”"
+    },
+    {
+      "v": 4,
+      "text": "Böylece Yeşu İsrail'in her oymağından birer kişi olmak üzere seçtiği on iki adamı çağırdı."
+    },
+    {
+      "v": 5,
+      "text": "Onlara, “Irmağın ortasına, Tanrınız RAB'bin Antlaşma Sandığı'na kadar gidin” diye buyurdu, “İsrail halkının oymak sayısına göre her biriniz omuzuna birer taş alsın."
+    },
+    {
+      "v": 6,
+      "text": "Bunlar sizin için bir anı olacak. Çocuklarınız ilerde, ‘Bu taşların sizin için anlamı ne?’ diye sorduklarında,"
+    },
+    {
+      "v": 7,
+      "text": "onlara diyeceksiniz ki, ‘Şeria Irmağı'nın suları RAB'bin Antlaşma Sandığı'nın önünde kesildi. Antlaşma Sandığı ırmaktan geçerken akan sular durdu. Bu taşlar sonsuza dek İsrail halkı için bu olayın anısı olacak.’ ”"
+    },
+    {
+      "v": 8,
+      "text": "İsrailliler Yeşu'nun buyruğunu yerine getirdiler. RAB'bin Yeşu'ya söylediği gibi, İsrail oymaklarının sayısına göre Şeria Irmağı'nın ortasından aldıkları on iki taşı konaklayacakları yere götürüp bir araya yığdılar."
+    },
+    {
+      "v": 9,
+      "text": "Yeşu ayrıca Şeria Irmağı'nın ortasına, Antlaşma Sandığı'nı taşıyan kâhinlerin durduğu yere on iki taş diktirdi. Bu taşlar bugün de oradadır."
+    },
+    {
+      "v": 10,
+      "text": "Böylece RAB'bin Yeşu'ya, halka iletilmek üzere buyurduğu her şey yerine getirilinceye dek, sandığı taşıyan kâhinler Şeria Irmağı'nın ortasında durdular. Her şey Musa'nın Yeşu'ya buyurduğu gibi yapıldı. Halk da çabucak ırmağı geçti."
+    },
+    {
+      "v": 11,
+      "text": "Halkın tümü geçtikten sonra kâhinler RAB'bin Antlaşma Sandığı'yla birlikte halkın önüne geçtiler."
+    },
+    {
+      "v": 12,
+      "text": "Ruben ve Gad oymaklarıyla Manaşşe oymağının yarısı, Musa'nın kendilerine buyurduğu gibi, silahlı olarak İsrail halkının önüne geçtiler."
+    },
+    {
+      "v": 13,
+      "text": "Böylece kırk bin kadar silahlı adam savaşmak üzere RAB'bin önünde Eriha ovalarına girdi."
+    },
+    {
+      "v": 14,
+      "text": "RAB o gün Yeşu'yu bütün İsrail halkının gözünde yüceltti. Musa'ya yaşamı boyunca nasıl saygı gösterdilerse, Yeşu'ya da öyle saygı göstermeye başladılar."
+    },
+    {
+      "v": 15,
+      "text": "RAB Yeşu'ya, “Levha Sandığı'nı taşıyan kâhinlerin Şeria Irmağı'ndan çıkmalarını buyur” dedi."
+    },
+    {
+      "v": 17,
+      "text": "Yeşu da kâhinlere, “Şeria Irmağı'ndan çıkın” diye buyurdu."
+    },
+    {
+      "v": 18,
+      "text": "RAB'bin Antlaşma Sandığı'nı taşıyan kâhinler Şeria Irmağı'nın ortasından ayrılıp karaya ayak basar basmaz ırmağın suları eskisi gibi akmaya ve kıyıları basmaya başladı."
+    },
+    {
+      "v": 19,
+      "text": "Halk Şeria Irmağı'nı birinci ayın onuncu günü geçip Gilgal'da, Eriha'nın doğu sınırında konakladı."
+    },
+    {
+      "v": 20,
+      "text": "Yeşu ırmaktan alınan on iki taşı Gilgal'a dikti."
+    },
+    {
+      "v": 21,
+      "text": "Sonra İsrail halkına şöyle dedi: “Çocuklarınız bir gün size, ‘Bu taşların anlamı nedir?’ diye soracak olurlarsa,"
+    },
+    {
+      "v": 22,
+      "text": "onlara, ‘İsrail halkı Şeria Irmağı'nın kurumuş yatağından geçti’ diyeceksiniz."
+    },
+    {
+      "v": 23,
+      "text": "‘Tanrınız RAB Kamış Denizi'ni geçişimiz boyunca önümüzde nasıl kuruttuysa, Şeria Irmağı'nı da geçişiniz boyunca önünüzde kuruttu."
+    },
+    {
+      "v": 24,
+      "text": "Öyle ki, yeryüzünün bütün halkları RAB'bin ne denli güçlü olduğunu anlasın; siz de Tanrınız RAB'den her zaman korkasınız!’ ”"
+    }
+  ],
+  "title": "Irmaktan Alınan Taşlar"
+}

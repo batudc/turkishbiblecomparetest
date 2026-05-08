@@ -1,1 +1,78 @@
-{"t":"TCL02","b":"1SA","c":7,"content":[{"v":1,"text":"Bunun üzerine Kiryat-Yearim halkı varıp RAB'bin Sandığı'nı aldı. Onu Avinadav'ın tepedeki evine götürdüler. RAB'bin Antlaşma Sandığı'na bakması için Avinadav oğlu Elazar'ı görevlendirdiler."},{"v":2,"text":"Sandık uzun bir süre, yirmi yıl boyunca Kiryat-Yearim'de kaldı. Bu arada bütün İsrail halkı RAB'bin özlemini çekti."},{"v":3,"text":"Samuel İsrail halkına şöyle dedi: “Eğer bütün yüreğinizle RAB'be dönmeye istekliyseniz, yabancı ilahları ve Aştoret'in putlarını aranızdan kaldırın. Kendinizi RAB'be adayıp yalnız O'na kulluk edin. RAB de sizi Filistliler'in elinden kurtaracaktır.”"},{"v":4,"text":"Bunun üzerine İsrailliler Baal'ın ve Aştoret'in putlarını atıp yalnızca RAB'be kulluk etmeye başladılar."},{"v":5,"text":"O zaman Samuel, “Bütün İsrail halkını Mispa'da toplayın, ben de sizin için RAB'be yakaracağım” dedi."},{"v":6,"text":"Mispa'da toplanan İsrailliler kuyudan su çekip RAB'bin önüne döktüler. O gün oruç tuttular ve, “RAB'be karşı günah işledik” dediler. Samuel Mispa'da İsrail halkına önderlik etti."},{"v":7,"text":"Filistliler İsrail halkının Mispa'da toplandığını duydular. Filist beyleri İsrailliler'e karşı savaşmaya çıktılar. İsrailliler bunu duyunca Filistliler'den korktular."},{"v":8,"text":"Samuel'e, “Bizi Filistliler'in elinden kurtarması için Tanrımız RAB'be yakarmayı bırakma” dediler."},{"v":9,"text":"Bunun üzerine Samuel bir süt kuzusu alıp RAB'be tümüyle yakmalık sunu olarak sundu ve İsrailliler adına RAB'be yakardı. RAB de ona karşılık verdi."},{"v":10,"text":"Samuel yakmalık sunuyu sunarken, Filistliler, İsrailliler'e saldırmak üzere yaklaşmışlardı. Ama RAB o an korkunç bir sesle gürleyerek Filistliler'i öyle şaşkına çevirdi ki, İsrailliler'in önünde bozguna uğradılar."},{"v":11,"text":"Mispa'dan çıkan İsrailliler Filistliler'i Beytkar'ın altına kadar kovalayıp öldürdüler."},{"v":12,"text":"Samuel bir taş alıp Mispa ile Şen arasına dikti. “RAB buraya kadar bize yardım etmiştir” diyerek taşa Even-Ezer adını verdi."},{"v":13,"text":"Yenilgiye uğrayan Filistliler bir daha İsrail topraklarına saldırmadılar. Samuel yaşadığı sürece RAB Filistliler'in saldırmasını engelledi."},{"v":14,"text":"Ekron'dan Gat'a kadar Filistliler'in ele geçirdiği kentler İsrail'e geri verildi. Bunun yanısıra İsrail'in sınır toprakları da Filistliler'in elinden kurtarıldı. İsrailliler'le Amorlular arasında ise barış vardı."},{"v":15,"text":"Samuel yaşadığı sürece İsrail'e önderlik yaptı."},{"v":16,"text":"Her yıl gidip Beytel'i, Gilgal'ı, Mispa'yı dolaşır, bu kentlerden İsrail'i yönetirdi."},{"v":17,"text":"Sonra Rama'daki evine döner, İsrail'i oradan yönetirdi. Orada RAB'be bir sunak yaptı."}]}
+{
+  "t": "TCL02",
+  "b": "1SA",
+  "c": 7,
+  "content": [
+    {
+      "v": 1,
+      "text": "Bunun üzerine Kiryat-Yearim halkı varıp RAB'bin Sandığı'nı aldı. Onu Avinadav'ın tepedeki evine götürdüler. RAB'bin Antlaşma Sandığı'na bakması için Avinadav oğlu Elazar'ı görevlendirdiler."
+    },
+    {
+      "section": "Samuel İsrail'e Önderlik Ediyor"
+    },
+    {
+      "v": 2,
+      "text": "Sandık uzun bir süre, yirmi yıl boyunca Kiryat-Yearim'de kaldı. Bu arada bütün İsrail halkı RAB'bin özlemini çekti."
+    },
+    {
+      "v": 3,
+      "text": "Samuel İsrail halkına şöyle dedi: “Eğer bütün yüreğinizle RAB'be dönmeye istekliyseniz, yabancı ilahları ve Aştoret'in putlarını aranızdan kaldırın. Kendinizi RAB'be adayıp yalnız O'na kulluk edin. RAB de sizi Filistliler'in elinden kurtaracaktır.”"
+    },
+    {
+      "v": 4,
+      "text": "Bunun üzerine İsrailliler Baal'ın ve Aştoret'in putlarını atıp yalnızca RAB'be kulluk etmeye başladılar."
+    },
+    {
+      "v": 5,
+      "text": "O zaman Samuel, “Bütün İsrail halkını Mispa'da toplayın, ben de sizin için RAB'be yakaracağım” dedi."
+    },
+    {
+      "v": 6,
+      "text": "Mispa'da toplanan İsrailliler kuyudan su çekip RAB'bin önüne döktüler. O gün oruç tuttular ve, “RAB'be karşı günah işledik” dediler. Samuel Mispa'da İsrail halkına önderlik etti."
+    },
+    {
+      "v": 7,
+      "text": "Filistliler İsrail halkının Mispa'da toplandığını duydular. Filist beyleri İsrailliler'e karşı savaşmaya çıktılar. İsrailliler bunu duyunca Filistliler'den korktular."
+    },
+    {
+      "v": 8,
+      "text": "Samuel'e, “Bizi Filistliler'in elinden kurtarması için Tanrımız RAB'be yakarmayı bırakma” dediler."
+    },
+    {
+      "v": 9,
+      "text": "Bunun üzerine Samuel bir süt kuzusu alıp RAB'be tümüyle yakmalık sunu olarak sundu ve İsrailliler adına RAB'be yakardı. RAB de ona karşılık verdi."
+    },
+    {
+      "v": 10,
+      "text": "Samuel yakmalık sunuyu sunarken, Filistliler, İsrailliler'e saldırmak üzere yaklaşmışlardı. Ama RAB o an korkunç bir sesle gürleyerek Filistliler'i öyle şaşkına çevirdi ki, İsrailliler'in önünde bozguna uğradılar."
+    },
+    {
+      "v": 11,
+      "text": "Mispa'dan çıkan İsrailliler Filistliler'i Beytkar'ın altına kadar kovalayıp öldürdüler."
+    },
+    {
+      "v": 12,
+      "text": "Samuel bir taş alıp Mispa ile Şen arasına dikti. “RAB buraya kadar bize yardım etmiştir” diyerek taşa Even-Ezer adını verdi."
+    },
+    {
+      "v": 13,
+      "text": "Yenilgiye uğrayan Filistliler bir daha İsrail topraklarına saldırmadılar. Samuel yaşadığı sürece RAB Filistliler'in saldırmasını engelledi."
+    },
+    {
+      "v": 14,
+      "text": "Ekron'dan Gat'a kadar Filistliler'in ele geçirdiği kentler İsrail'e geri verildi. Bunun yanısıra İsrail'in sınır toprakları da Filistliler'in elinden kurtarıldı. İsrailliler'le Amorlular arasında ise barış vardı."
+    },
+    {
+      "v": 15,
+      "text": "Samuel yaşadığı sürece İsrail'e önderlik yaptı."
+    },
+    {
+      "v": 16,
+      "text": "Her yıl gidip Beytel'i, Gilgal'ı, Mispa'yı dolaşır, bu kentlerden İsrail'i yönetirdi."
+    },
+    {
+      "v": 17,
+      "text": "Sonra Rama'daki evine döner, İsrail'i oradan yönetirdi. Orada RAB'be bir sunak yaptı."
+    }
+  ]
+}

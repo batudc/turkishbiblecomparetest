@@ -1,1 +1,103 @@
-{"t":"TCL02","b":"PRO","c":5,"content":[{"v":1,"text":"Oğlum, bilgeliğime dikkat et, Akıllıca sözlerime kulak ver."},{"v":2,"text":"Böylelikle her zaman sağgörülü olur, Dudaklarınla bilgiyi korursun."},{"v":3,"text":"Zina eden kadının bal damlar dudaklarından, Ağzı daha yumuşaktır zeytinyağından."},{"v":4,"text":"Ama sonu pelinotu kadar acı, İki ağızlı kılıç kadar keskindir."},{"v":5,"text":"Ayakları ölüme gider, Adımları ölüler diyarına ulaşır."},{"v":6,"text":"Yaşama giden yolu hiç düşünmez, Yolları dolaşıktır, ama farkında değil."},{"v":7,"text":"Oğlum, şimdi beni dinle, Ağzımdan çıkan sözlerden ayrılma."},{"v":8,"text":"Öyle kadınlardan uzak dur, Yaklaşma evinin kapısına."},{"v":9,"text":"Yoksa onurunu başkalarına, Yıllarını bir gaddara kaptırırsın."},{"v":10,"text":"Varını yoğunu yer bitirir yabancılar, Emeğin başka birinin evini bayındır kılar."},{"v":11,"text":"Ah çekip inlersin ömrünün son günlerinde, Etin, bedenin tükendiğinde."},{"v":12,"text":"“Eğitilmekten neden bu kadar nefret ettim, Yüreğim uyarıları neden önemsemedi?” dersin."},{"v":13,"text":"“Öğretmenlerimin sözünü dinlemedim, Beni eğitenlere kulak vermedim."},{"v":14,"text":"Halkın ve topluluğun arasında Tam bir yıkımın eşiğine gelmişim.”"},{"v":15,"text":"Suyu kendi sarnıcından, Kendi kuyunun kaynağından iç."},{"v":16,"text":"Pınarların sokakları, Akarsuların meydanları mı sulamalı?"},{"v":17,"text":"Yalnız senin olsun onlar, Paylaşma yabancılarla."},{"v":18,"text":"Çeşmen bereketli olsun Ve gençken evlendiğin karınla mutlu ol."},{"v":19,"text":"Sevimli bir geyik, zarif bir ceylan gibi, Hep seni doyursun memeleri. Aşkıyla sürekli coş."},{"v":20,"text":"Oğlum, neden ahlaksız bir kadınla coşasın, Neden başka birinin karısını koynuna alasın?"},{"v":21,"text":"RAB insanın tuttuğu yolu gözler, Attığı her adımı denetler."},{"v":22,"text":"Kötü kişiyi kendi suçları ele verecek, Günahının kemendi kıskıvrak bağlayacak onu."},{"v":23,"text":"Aşırı ahmaklığı onu yoldan çıkaracak, Terbiyeyi umursamadığı için ölecek."}]}
+{
+  "t": "TCL02",
+  "b": "PRO",
+  "c": 5,
+  "content": [
+    {
+      "section": "Zinaya Karşı Uyarı"
+    },
+    {
+      "v": 1,
+      "text": "Oğlum, bilgeliğime dikkat et, Akıllıca sözlerime kulak ver."
+    },
+    {
+      "v": 2,
+      "text": "Böylelikle her zaman sağgörülü olur, Dudaklarınla bilgiyi korursun."
+    },
+    {
+      "v": 3,
+      "text": "Zina eden kadının bal damlar dudaklarından, Ağzı daha yumuşaktır zeytinyağından."
+    },
+    {
+      "v": 4,
+      "text": "Ama sonu pelinotu kadar acı, İki ağızlı kılıç kadar keskindir."
+    },
+    {
+      "v": 5,
+      "text": "Ayakları ölüme gider, Adımları ölüler diyarına ulaşır."
+    },
+    {
+      "v": 6,
+      "text": "Yaşama giden yolu hiç düşünmez, Yolları dolaşıktır, ama farkında değil."
+    },
+    {
+      "v": 7,
+      "text": "Oğlum, şimdi beni dinle, Ağzımdan çıkan sözlerden ayrılma."
+    },
+    {
+      "v": 8,
+      "text": "Öyle kadınlardan uzak dur, Yaklaşma evinin kapısına."
+    },
+    {
+      "v": 9,
+      "text": "Yoksa onurunu başkalarına, Yıllarını bir gaddara kaptırırsın."
+    },
+    {
+      "v": 10,
+      "text": "Varını yoğunu yer bitirir yabancılar, Emeğin başka birinin evini bayındır kılar."
+    },
+    {
+      "v": 11,
+      "text": "Ah çekip inlersin ömrünün son günlerinde, Etin, bedenin tükendiğinde."
+    },
+    {
+      "v": 12,
+      "text": "“Eğitilmekten neden bu kadar nefret ettim, Yüreğim uyarıları neden önemsemedi?” dersin."
+    },
+    {
+      "v": 13,
+      "text": "“Öğretmenlerimin sözünü dinlemedim, Beni eğitenlere kulak vermedim."
+    },
+    {
+      "v": 14,
+      "text": "Halkın ve topluluğun arasında Tam bir yıkımın eşiğine gelmişim.”"
+    },
+    {
+      "v": 15,
+      "text": "Suyu kendi sarnıcından, Kendi kuyunun kaynağından iç."
+    },
+    {
+      "v": 16,
+      "text": "Pınarların sokakları, Akarsuların meydanları mı sulamalı?"
+    },
+    {
+      "v": 17,
+      "text": "Yalnız senin olsun onlar, Paylaşma yabancılarla."
+    },
+    {
+      "v": 18,
+      "text": "Çeşmen bereketli olsun Ve gençken evlendiğin karınla mutlu ol."
+    },
+    {
+      "v": 19,
+      "text": "Sevimli bir geyik, zarif bir ceylan gibi, Hep seni doyursun memeleri. Aşkıyla sürekli coş."
+    },
+    {
+      "v": 20,
+      "text": "Oğlum, neden ahlaksız bir kadınla coşasın, Neden başka birinin karısını koynuna alasın?"
+    },
+    {
+      "v": 21,
+      "text": "RAB insanın tuttuğu yolu gözler, Attığı her adımı denetler."
+    },
+    {
+      "v": 22,
+      "text": "Kötü kişiyi kendi suçları ele verecek, Günahının kemendi kıskıvrak bağlayacak onu."
+    },
+    {
+      "v": 23,
+      "text": "Aşırı ahmaklığı onu yoldan çıkaracak, Terbiyeyi umursamadığı için ölecek."
+    }
+  ],
+  "title": "Zinaya Karşı Uyarı"
+}

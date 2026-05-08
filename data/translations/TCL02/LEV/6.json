@@ -1,1 +1,139 @@
-{"t":"TCL02","b":"LEV","c":6,"content":[{"v":1,"text":"RAB Musa'ya şöyle dedi:"},{"v":2,"text":"“Eğer biri günah işler, RAB'be ihanet eder, kendisine emanet edilen, rehin bırakılan ya da çalıntı bir mal konusunda komşusunu aldatır ya da ona haksızlık ederse,"},{"v":3,"text":"kayıp bir eşya bulup yalan söylerse, yalan yere ant içerse, yani insanların işleyebileceği bu suçlardan birini işlerse,"},{"v":4,"text":"günah işlemiş olur ve suçlu sayılır. Çaldığı ya da haksızlıkla ele geçirdiği şeyi, kendisine emanet edilen ya da bulduğu kayıp eşyayı,"},{"v":5,"text":"ya da hakkında yalan yere ant içtiği şeyi, üzerine beşte birini de ekleyerek, suç sunusunu getirdiği gün sahibine geri vermeli."},{"v":6,"text":"RAB'be suç sunusu olarak kâhine belli değeri olan kusursuz bir koç getirmeli."},{"v":7,"text":"Kâhin RAB'bin huzurunda onun günahını bağışlatacak; işlediği suç ne olursa olsun kişi bağışlanacak.”"},{"v":8,"text":"RAB Musa'ya şöyle dedi:"},{"v":9,"text":"“Harun'la oğullarına buyruk ver: ‘Yakmalık sunu yasası şudur: Yakmalık sunu bütün gece, sabaha kadar sunaktaki ateşin üzerinde kalacak. Sunağın üzerindeki ateş sönmeyecek."},{"v":10,"text":"Kâhin keten giysisini, donunu giyecek. Sunağın üzerindeki yakmalık sunudan kalan külü toplayıp sunağın yanına koyacak."},{"v":11,"text":"Giysilerini değiştirdikten sonra külü ordugahın dışında temiz bir yere götürecek."},{"v":12,"text":"Sunağın üzerindeki ateş sürekli yanacak, hiç sönmeyecek. Kâhin her sabah ateşe odun atacak, yakmalık sununun parçalarını odunların üzerine dizecek, onun üzerinde de esenlik sunularının yağını yakacak."},{"v":13,"text":"Sunağın üzerindeki ateş sürekli yanacak, hiç sönmeyecek.’ ”"},{"v":14,"text":"“ ‘Tahıl sunusu yasası şudur: Harun'un oğulları onu sunağın önünde RAB'be sunacaklar."},{"v":15,"text":"Kâhin üzerindeki günnükle birlikte tahıl sunusunun ince unundan ve zeytinyağından bir avuç alıp anma payı ve RAB'bi hoşnut eden koku olarak sunakta yakacak."},{"v":16,"text":"Artakalanı Harun'la oğulları yiyecekler. Onu kutsal bir yerde, Buluşma Çadırı'nın avlusunda mayasız ekmek olarak yemeliler."},{"v":17,"text":"Mayayla pişirilmemeli. Bunu yakılan sunulardan, kâhinlerin payı olarak verdim. Suç sunusu, günah sunusu gibi bu da çok kutsaldır."},{"v":18,"text":"Harun soyundan gelen her erkek ondan yiyebilir. RAB için yakılan sunularda onların kuşaklar boyunca sonsuza dek payları olacak. Sunulara her dokunan kutsal sayılacak.’ ”"},{"v":19,"text":"RAB Musa'ya şöyle dedi:"},{"v":20,"text":"“Harun kâhin olarak meshedildiği gün, Harun'la oğulları tahıl sunusu olarak RAB'be yarısı sabah, yarısı akşam olmak üzere, onda bir efa ince un sunacaklar. Bu sürekli bir sunu olacak."},{"v":21,"text":"Zeytinyağıyla iyice yoğrulup sacda pişirilecek. Tahıl sunusunu getirip RAB'bi hoşnut eden koku olarak pişmiş parçalar halinde sunacaklar."},{"v":22,"text":"Bunu Harun soyundan gelen meshedilmiş kâhin RAB'be sunacak. Sürekli bir kural olacak bu. Sununun tümü yakılacak."},{"v":23,"text":"Kâhinin sunduğu her tahıl sunusu tümüyle yakılmalı, hiç yenmemeli.”"},{"v":24,"text":"RAB Musa'ya şöyle dedi:"},{"v":25,"text":"“Harun'la oğullarına de ki, ‘Günah sunusu yasası şudur: Günah sunusu yakmalık sununun kesildiği yerde, RAB'bin huzurunda kesilecek. Çok kutsaldır."},{"v":26,"text":"Hayvanı sunan kâhin onu kutsal bir yerde, Buluşma Çadırı'nın giriş bölümünde yiyecek."},{"v":27,"text":"Sununun etine her dokunan kutsal sayılacak. Kanı birinin giysisine sıçrarsa, giysi kutsal bir yerde yıkanmalı."},{"v":28,"text":"İçinde etin haşlandığı çömlek kırılmalı. Ancak tunç bir kapta haşlanmışsa, kap iyice ovulup suyla durulanmalı."},{"v":29,"text":"Kâhinler soyundan gelen her erkek bu sunuyu yiyebilir. Çok kutsaldır."},{"v":30,"text":"Ama kutsal yerde günah bağışlatmak için kanı Buluşma Çadırı'na getirilen günah sunusunun eti yenmeyecek, yakılacaktır.’ ”"}]}
+{
+  "t": "TCL02",
+  "b": "LEV",
+  "c": 6,
+  "content": [
+    {
+      "v": 1,
+      "text": "RAB Musa'ya şöyle dedi:"
+    },
+    {
+      "v": 2,
+      "text": "“Eğer biri günah işler, RAB'be ihanet eder, kendisine emanet edilen, rehin bırakılan ya da çalıntı bir mal konusunda komşusunu aldatır ya da ona haksızlık ederse,"
+    },
+    {
+      "v": 3,
+      "text": "kayıp bir eşya bulup yalan söylerse, yalan yere ant içerse, yani insanların işleyebileceği bu suçlardan birini işlerse,"
+    },
+    {
+      "v": 4,
+      "text": "günah işlemiş olur ve suçlu sayılır. Çaldığı ya da haksızlıkla ele geçirdiği şeyi, kendisine emanet edilen ya da bulduğu kayıp eşyayı,"
+    },
+    {
+      "v": 5,
+      "text": "ya da hakkında yalan yere ant içtiği şeyi, üzerine beşte birini de ekleyerek, suç sunusunu getirdiği gün sahibine geri vermeli."
+    },
+    {
+      "v": 6,
+      "text": "RAB'be suç sunusu olarak kâhine belli değeri olan kusursuz bir koç getirmeli."
+    },
+    {
+      "v": 7,
+      "text": "Kâhin RAB'bin huzurunda onun günahını bağışlatacak; işlediği suç ne olursa olsun kişi bağışlanacak.”"
+    },
+    {
+      "section": "Kâhinlerin Sunu Sunma Kuralları"
+    },
+    {
+      "section": "a) Yakmalık Sunu"
+    },
+    {
+      "v": 8,
+      "text": "RAB Musa'ya şöyle dedi:"
+    },
+    {
+      "v": 9,
+      "text": "“Harun'la oğullarına buyruk ver: ‘Yakmalık sunu yasası şudur: Yakmalık sunu bütün gece, sabaha kadar sunaktaki ateşin üzerinde kalacak. Sunağın üzerindeki ateş sönmeyecek."
+    },
+    {
+      "v": 10,
+      "text": "Kâhin keten giysisini, donunu giyecek. Sunağın üzerindeki yakmalık sunudan kalan külü toplayıp sunağın yanına koyacak."
+    },
+    {
+      "v": 11,
+      "text": "Giysilerini değiştirdikten sonra külü ordugahın dışında temiz bir yere götürecek."
+    },
+    {
+      "v": 12,
+      "text": "Sunağın üzerindeki ateş sürekli yanacak, hiç sönmeyecek. Kâhin her sabah ateşe odun atacak, yakmalık sununun parçalarını odunların üzerine dizecek, onun üzerinde de esenlik sunularının yağını yakacak."
+    },
+    {
+      "v": 13,
+      "text": "Sunağın üzerindeki ateş sürekli yanacak, hiç sönmeyecek.’ ”"
+    },
+    {
+      "section": "b) Tahıl Sunusu"
+    },
+    {
+      "v": 14,
+      "text": "“ ‘Tahıl sunusu yasası şudur: Harun'un oğulları onu sunağın önünde RAB'be sunacaklar."
+    },
+    {
+      "v": 15,
+      "text": "Kâhin üzerindeki günnükle birlikte tahıl sunusunun ince unundan ve zeytinyağından bir avuç alıp anma payı ve RAB'bi hoşnut eden koku olarak sunakta yakacak."
+    },
+    {
+      "v": 16,
+      "text": "Artakalanı Harun'la oğulları yiyecekler. Onu kutsal bir yerde, Buluşma Çadırı'nın avlusunda mayasız ekmek olarak yemeliler."
+    },
+    {
+      "v": 17,
+      "text": "Mayayla pişirilmemeli. Bunu yakılan sunulardan, kâhinlerin payı olarak verdim. Suç sunusu, günah sunusu gibi bu da çok kutsaldır."
+    },
+    {
+      "v": 18,
+      "text": "Harun soyundan gelen her erkek ondan yiyebilir. RAB için yakılan sunularda onların kuşaklar boyunca sonsuza dek payları olacak. Sunulara her dokunan kutsal sayılacak.’ ”"
+    },
+    {
+      "v": 19,
+      "text": "RAB Musa'ya şöyle dedi:"
+    },
+    {
+      "v": 20,
+      "text": "“Harun kâhin olarak meshedildiği gün, Harun'la oğulları tahıl sunusu olarak RAB'be yarısı sabah, yarısı akşam olmak üzere, onda bir efa ince un sunacaklar. Bu sürekli bir sunu olacak."
+    },
+    {
+      "v": 21,
+      "text": "Zeytinyağıyla iyice yoğrulup sacda pişirilecek. Tahıl sunusunu getirip RAB'bi hoşnut eden koku olarak pişmiş parçalar halinde sunacaklar."
+    },
+    {
+      "v": 22,
+      "text": "Bunu Harun soyundan gelen meshedilmiş kâhin RAB'be sunacak. Sürekli bir kural olacak bu. Sununun tümü yakılacak."
+    },
+    {
+      "v": 23,
+      "text": "Kâhinin sunduğu her tahıl sunusu tümüyle yakılmalı, hiç yenmemeli.”"
+    },
+    {
+      "section": "c) Günah Sunusu"
+    },
+    {
+      "v": 24,
+      "text": "RAB Musa'ya şöyle dedi:"
+    },
+    {
+      "v": 25,
+      "text": "“Harun'la oğullarına de ki, ‘Günah sunusu yasası şudur: Günah sunusu yakmalık sununun kesildiği yerde, RAB'bin huzurunda kesilecek. Çok kutsaldır."
+    },
+    {
+      "v": 26,
+      "text": "Hayvanı sunan kâhin onu kutsal bir yerde, Buluşma Çadırı'nın giriş bölümünde yiyecek."
+    },
+    {
+      "v": 27,
+      "text": "Sununun etine her dokunan kutsal sayılacak. Kanı birinin giysisine sıçrarsa, giysi kutsal bir yerde yıkanmalı."
+    },
+    {
+      "v": 28,
+      "text": "İçinde etin haşlandığı çömlek kırılmalı. Ancak tunç bir kapta haşlanmışsa, kap iyice ovulup suyla durulanmalı."
+    },
+    {
+      "v": 29,
+      "text": "Kâhinler soyundan gelen her erkek bu sunuyu yiyebilir. Çok kutsaldır."
+    },
+    {
+      "v": 30,
+      "text": "Ama kutsal yerde günah bağışlatmak için kanı Buluşma Çadırı'na getirilen günah sunusunun eti yenmeyecek, yakılacaktır.’ ”"
+    }
+  ]
+}

@@ -1,1 +1,78 @@
-{"t":"TCL02","b":"EXO","c":17,"content":[{"v":1,"text":"RAB'bin buyruğu uyarınca, bütün İsrail topluluğu Sin Çölü'nden ayrıldı, bir yerden öbürüne göçerek Refidim'de konakladı. Ancak orada içecek su yoktu."},{"v":2,"text":"Musa'ya, “Bize içecek su ver” diye çıkıştılar.  Musa, “Niçin bana çıkışıyorsunuz?” dedi, “Neden RAB'bi deniyorsunuz?”"},{"v":3,"text":"Ama halk susamıştı. “Niçin bizi Mısır'dan çıkardın?” diye Musa'ya söylendiler, “Bizi, çocuklarımızı, hayvanlarımızı susuzluktan öldürmek için mi?”"},{"v":4,"text":"Musa, “Bu halka ne yapayım?” diye RAB'be feryat etti, “Neredeyse beni taşlayacaklar.”"},{"v":5,"text":"RAB Musa'ya, “Halkın önüne geç” dedi, “Birkaç İsrail ileri gelenini ve Nil'e vurduğun değneği de yanına alıp yürü."},{"v":6,"text":"Ben Horev Dağı'nda bir kayanın üzerinde, senin önünde duracağım. Kayaya vuracaksın, halk içsin diye su fışkıracak.” Musa İsrail ileri gelenlerinin önünde denileni yaptı."},{"v":7,"text":"Oraya Massa ve Meriva adı verildi. Çünkü İsrailliler orada Musa'ya çıkışmış ve, “Acaba RAB aramızda mı, değil mi?” diye RAB'bi denemişlerdi."},{"v":8,"text":"Amalekliler gelip Refidim'de İsrailliler'e savaş açtılar."},{"v":9,"text":"Musa Yeşu'ya, “Adam seç, git Amalekliler'le savaş” dedi, “Yarın ben elimde Tanrı'nın değneğiyle tepenin üzerinde duracağım.”"},{"v":10,"text":"Yeşu Musa'nın buyurduğu gibi Amalekliler'le savaştı. Bu arada Musa, Harun ve Hur tepenin üzerine çıktılar."},{"v":11,"text":"Musa elini kaldırdıkça İsrailliler, indirdikçe Amalekliler kazanıyordu."},{"v":12,"text":"Ne var ki, Musa'nın elleri yoruldu. Bir taş getirip altına koydular. Musa üzerine oturdu. Bir yanda Harun, öbür yanda Hur Musa'nın ellerini yukarıda tuttular. Güneş batıncaya dek Musa'nın elleri yukarıda kaldı."},{"v":13,"text":"Böylece Yeşu Amalek ordusunu yenip kılıçtan geçirdi."},{"v":14,"text":"RAB Musa'ya, “Bunu anı olarak kayda geç” dedi, “Yeşu'ya da söyle, Amalekliler'in adını yeryüzünden büsbütün sileceğim.”"},{"v":15,"text":"Musa bir sunak yaptı, adını “Yahve nissi” koydu."},{"v":16,"text":"“Eller Rab'bin tahtına doğru kaldırıldı” dedi, “RAB kuşaklar boyunca Amalekliler'e karşı savaşacak!”"}]}
+{
+  "t": "TCL02",
+  "b": "EXO",
+  "c": 17,
+  "content": [
+    {
+      "section": "Kayadan Çıkan Su"
+    },
+    {
+      "v": 1,
+      "text": "RAB'bin buyruğu uyarınca, bütün İsrail topluluğu Sin Çölü'nden ayrıldı, bir yerden öbürüne göçerek Refidim'de konakladı. Ancak orada içecek su yoktu."
+    },
+    {
+      "v": 2,
+      "text": "Musa'ya, “Bize içecek su ver” diye çıkıştılar.  Musa, “Niçin bana çıkışıyorsunuz?” dedi, “Neden RAB'bi deniyorsunuz?”"
+    },
+    {
+      "v": 3,
+      "text": "Ama halk susamıştı. “Niçin bizi Mısır'dan çıkardın?” diye Musa'ya söylendiler, “Bizi, çocuklarımızı, hayvanlarımızı susuzluktan öldürmek için mi?”"
+    },
+    {
+      "v": 4,
+      "text": "Musa, “Bu halka ne yapayım?” diye RAB'be feryat etti, “Neredeyse beni taşlayacaklar.”"
+    },
+    {
+      "v": 5,
+      "text": "RAB Musa'ya, “Halkın önüne geç” dedi, “Birkaç İsrail ileri gelenini ve Nil'e vurduğun değneği de yanına alıp yürü."
+    },
+    {
+      "v": 6,
+      "text": "Ben Horev Dağı'nda bir kayanın üzerinde, senin önünde duracağım. Kayaya vuracaksın, halk içsin diye su fışkıracak.” Musa İsrail ileri gelenlerinin önünde denileni yaptı."
+    },
+    {
+      "v": 7,
+      "text": "Oraya Massa ve Meriva adı verildi. Çünkü İsrailliler orada Musa'ya çıkışmış ve, “Acaba RAB aramızda mı, değil mi?” diye RAB'bi denemişlerdi."
+    },
+    {
+      "section": "Amalekliler Bozguna Uğruyor"
+    },
+    {
+      "v": 8,
+      "text": "Amalekliler gelip Refidim'de İsrailliler'e savaş açtılar."
+    },
+    {
+      "v": 9,
+      "text": "Musa Yeşu'ya, “Adam seç, git Amalekliler'le savaş” dedi, “Yarın ben elimde Tanrı'nın değneğiyle tepenin üzerinde duracağım.”"
+    },
+    {
+      "v": 10,
+      "text": "Yeşu Musa'nın buyurduğu gibi Amalekliler'le savaştı. Bu arada Musa, Harun ve Hur tepenin üzerine çıktılar."
+    },
+    {
+      "v": 11,
+      "text": "Musa elini kaldırdıkça İsrailliler, indirdikçe Amalekliler kazanıyordu."
+    },
+    {
+      "v": 12,
+      "text": "Ne var ki, Musa'nın elleri yoruldu. Bir taş getirip altına koydular. Musa üzerine oturdu. Bir yanda Harun, öbür yanda Hur Musa'nın ellerini yukarıda tuttular. Güneş batıncaya dek Musa'nın elleri yukarıda kaldı."
+    },
+    {
+      "v": 13,
+      "text": "Böylece Yeşu Amalek ordusunu yenip kılıçtan geçirdi."
+    },
+    {
+      "v": 14,
+      "text": "RAB Musa'ya, “Bunu anı olarak kayda geç” dedi, “Yeşu'ya da söyle, Amalekliler'in adını yeryüzünden büsbütün sileceğim.”"
+    },
+    {
+      "v": 15,
+      "text": "Musa bir sunak yaptı, adını “Yahve nissi” koydu."
+    },
+    {
+      "v": 16,
+      "text": "“Eller Rab'bin tahtına doğru kaldırıldı” dedi, “RAB kuşaklar boyunca Amalekliler'e karşı savaşacak!”"
+    }
+  ],
+  "title": "Kayadan Çıkan Su"
+}

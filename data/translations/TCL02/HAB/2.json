@@ -1,1 +1,90 @@
-{"t":"TCL02","b":"HAB","c":2,"content":[{"v":1,"text":"Nöbet yerinde, gözcü kulesinde durayım, Bakayım RAB bana ne diyecek, Yakınmalarıma ne yanıt verecek göreyim."},{"v":2,"text":"Şöyle yanıtladı RAB: “Göreceklerini taş levhalara oyarak yaz. Öyle ki, herkes bir çırpıda okusun."},{"v":3,"text":"Bu olayların zamanı gelmedi henüz. Sonun belirtileridir bunlar ve yalan değildir. Gecikiyormuş gibi görünse de bekle olacakları, Kesinlikle olacak, gecikmeyecek."},{"v":4,"text":"Bakın şu övüngen kişiye, niyeti iyi değildir. Ama doğru kişi sadakatiyle yaşayacaktır."},{"v":5,"text":"Servet aldatıcıdır. Küstahlar kalıcı değildir; Açgözlüdürler ölüler diyarı gibi Ve ölüm gibi hiç doymazlar. Ülkeleri ele geçirip halkları tutsak alırlar."},{"v":6,"text":"Tutsak alınanlar onları küçümseyip alay etmeyecekler mi? ‘Kendisine ait olmayanı ele geçirenin, Haraç alarak zenginleşenin vay haline! Daha ne kadar sürecek bu?’ demeyecekler mi?"},{"v":7,"text":"Haraca kestikleriniz ansızın ayaklanmayacak mı? Uyanıp yakanıza yapışmayacaklar mı? İşte o zaman onlar için çapul malı gibi olacaksınız."},{"v":8,"text":"Birçok ulusu soyduğunuz, Kan döktüğünüz, Ülkelere, kentlere ve oralarda yaşayan herkese zorbalık ettiğiniz için, Halklardan sağ kalanlar da sizi soyacaklar."},{"v":9,"text":"Evini haksız kazançla dolduranın, Felaketten kaçmak için yuvasını yüksek yere kuranın vay haline!"},{"v":10,"text":"Birçok halkı kıyıma uğratmakla Kendi soyunuzu utanca boğdunuz, Kendi yıkımınızı hazırladınız."},{"v":11,"text":"Duvar taşları bile haykıracak bunu Ve yankılanacak ahşap kirişler."},{"v":12,"text":"Kan dökerek kentler kuranın, Zorbalıkla beldeler yapanın vay haline!"},{"v":13,"text":"Halkların bütün emeklerinin yanması, Ulusların bütün çabalarının boşa gitmesi Her Şeye Egemen RAB'bin işi değil mi?"},{"v":14,"text":"Çünkü sular denizi nasıl dolduruyorsa, Dünya da RAB'bin yüceliğinin bilgisiyle dolacak."},{"v":15,"text":"Çıplak bedenlerini seyretmek için Komşularına içki içirip sarhoş eden, İçkiye zehir bile katan sizlerin vay haline!"},{"v":16,"text":"Onur yerine utanca boğulacaksınız. Şimdi sıra sizde, için de çıplaklığınız görünsün. RAB size sağ elindeki ceza dolu kâseden içirecek. Onurunuz kırılacak, rezil olacaksınız."},{"v":17,"text":"Lübnan'a ettiğiniz zorbalık kendi başınıza gelecek. Telef ettiğiniz hayvanlar sizi dehşete düşürecek. Çünkü insan kanı döktünüz, Ülkelere, kentlere ve oralarda yaşayan herkese zorbalık ettiniz."},{"v":18,"text":"İnsanın biçim verdiği oyma ya da dökme putun ne yararı var ki aldatmaktan başka? Putu yapan, yaptığına güvenir, Ama yaptığı ne ki, dilsiz puttan başka."},{"v":19,"text":"Tahta puta, ‘Canlan!’ diyenin, Dilsiz taşa, ‘Uyan’ diyenin Vay haline! Put yol gösterebilir mi? Altınla, gümüşle kaplanmış, Ama içinde yaşam soluğu yok."},{"v":20,"text":"Oysa RAB kutsal tapınağındadır. Sussun bütün dünya O'nun önünde.”"}]}
+{
+  "t": "TCL02",
+  "b": "HAB",
+  "c": 2,
+  "content": [
+    {
+      "v": 1,
+      "text": "Nöbet yerinde, gözcü kulesinde durayım, Bakayım RAB bana ne diyecek, Yakınmalarıma ne yanıt verecek göreyim."
+    },
+    {
+      "section": "Rab'bin Yanıtı"
+    },
+    {
+      "v": 2,
+      "text": "Şöyle yanıtladı RAB: “Göreceklerini taş levhalara oyarak yaz. Öyle ki, herkes bir çırpıda okusun."
+    },
+    {
+      "v": 3,
+      "text": "Bu olayların zamanı gelmedi henüz. Sonun belirtileridir bunlar ve yalan değildir. Gecikiyormuş gibi görünse de bekle olacakları, Kesinlikle olacak, gecikmeyecek."
+    },
+    {
+      "v": 4,
+      "text": "Bakın şu övüngen kişiye, niyeti iyi değildir. Ama doğru kişi sadakatiyle yaşayacaktır."
+    },
+    {
+      "v": 5,
+      "text": "Servet aldatıcıdır. Küstahlar kalıcı değildir; Açgözlüdürler ölüler diyarı gibi Ve ölüm gibi hiç doymazlar. Ülkeleri ele geçirip halkları tutsak alırlar."
+    },
+    {
+      "v": 6,
+      "text": "Tutsak alınanlar onları küçümseyip alay etmeyecekler mi? ‘Kendisine ait olmayanı ele geçirenin, Haraç alarak zenginleşenin vay haline! Daha ne kadar sürecek bu?’ demeyecekler mi?"
+    },
+    {
+      "v": 7,
+      "text": "Haraca kestikleriniz ansızın ayaklanmayacak mı? Uyanıp yakanıza yapışmayacaklar mı? İşte o zaman onlar için çapul malı gibi olacaksınız."
+    },
+    {
+      "v": 8,
+      "text": "Birçok ulusu soyduğunuz, Kan döktüğünüz, Ülkelere, kentlere ve oralarda yaşayan herkese zorbalık ettiğiniz için, Halklardan sağ kalanlar da sizi soyacaklar."
+    },
+    {
+      "v": 9,
+      "text": "Evini haksız kazançla dolduranın, Felaketten kaçmak için yuvasını yüksek yere kuranın vay haline!"
+    },
+    {
+      "v": 10,
+      "text": "Birçok halkı kıyıma uğratmakla Kendi soyunuzu utanca boğdunuz, Kendi yıkımınızı hazırladınız."
+    },
+    {
+      "v": 11,
+      "text": "Duvar taşları bile haykıracak bunu Ve yankılanacak ahşap kirişler."
+    },
+    {
+      "v": 12,
+      "text": "Kan dökerek kentler kuranın, Zorbalıkla beldeler yapanın vay haline!"
+    },
+    {
+      "v": 13,
+      "text": "Halkların bütün emeklerinin yanması, Ulusların bütün çabalarının boşa gitmesi Her Şeye Egemen RAB'bin işi değil mi?"
+    },
+    {
+      "v": 14,
+      "text": "Çünkü sular denizi nasıl dolduruyorsa, Dünya da RAB'bin yüceliğinin bilgisiyle dolacak."
+    },
+    {
+      "v": 15,
+      "text": "Çıplak bedenlerini seyretmek için Komşularına içki içirip sarhoş eden, İçkiye zehir bile katan sizlerin vay haline!"
+    },
+    {
+      "v": 16,
+      "text": "Onur yerine utanca boğulacaksınız. Şimdi sıra sizde, için de çıplaklığınız görünsün. RAB size sağ elindeki ceza dolu kâseden içirecek. Onurunuz kırılacak, rezil olacaksınız."
+    },
+    {
+      "v": 17,
+      "text": "Lübnan'a ettiğiniz zorbalık kendi başınıza gelecek. Telef ettiğiniz hayvanlar sizi dehşete düşürecek. Çünkü insan kanı döktünüz, Ülkelere, kentlere ve oralarda yaşayan herkese zorbalık ettiniz."
+    },
+    {
+      "v": 18,
+      "text": "İnsanın biçim verdiği oyma ya da dökme putun ne yararı var ki aldatmaktan başka? Putu yapan, yaptığına güvenir, Ama yaptığı ne ki, dilsiz puttan başka."
+    },
+    {
+      "v": 19,
+      "text": "Tahta puta, ‘Canlan!’ diyenin, Dilsiz taşa, ‘Uyan’ diyenin Vay haline! Put yol gösterebilir mi? Altınla, gümüşle kaplanmış, Ama içinde yaşam soluğu yok."
+    },
+    {
+      "v": 20,
+      "text": "Oysa RAB kutsal tapınağındadır. Sussun bütün dünya O'nun önünde.”"
+    }
+  ]
+}

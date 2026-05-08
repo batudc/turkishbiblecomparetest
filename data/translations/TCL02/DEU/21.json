@@ -1,1 +1,115 @@
-{"t":"TCL02","b":"DEU","c":21,"content":[{"v":1,"text":"“Tanrınız RAB'bin mülk edinmek için size vereceği ülkede, kırda yere düşmüş, kimin öldürdüğü bilinmeyen birini görürseniz,"},{"v":2,"text":"ileri gelenleriniz ve yargıçlarınız gidip ölünün çevredeki kentlere olan uzaklığını ölçsünler."},{"v":3,"text":"Ölüye en yakın kentin ileri gelenleri işe koşulmamış, boyunduruk takmamış bir düve alacaklar."},{"v":4,"text":"Düveyi toprağı sürülmemiş, ekilmemiş ve içinde sürekli akan bir dere olan bir vadiye getirecekler. Orada, derede düvenin boynunu kıracaklar."},{"v":5,"text":"Levili kâhinler de oraya gidecek. Çünkü Tanrınız RAB, onları kendisine hizmet etsinler, O'nun adıyla kutsasınlar diye seçti. Kavga, saldırı davalarına da onlar bakacak."},{"v":6,"text":"Ölüye en yakın kentin ileri gelenleri, derede boynu kırılan düvenin üzerinde ellerini yıkayacaklar."},{"v":7,"text":"Sonra şöyle bir açıklama yapacaklar: ‘Bu kanı ellerimiz dökmedi, kimin yaptığını gözlerimiz de görmedi."},{"v":8,"text":"Ya RAB, kurtardığın halkın İsrailliler'i bağışla. Halkını dökülen suçsuz kanından sorumlu tutma.’ Böylece kan dökme günahından bağışlanacaklar."},{"v":9,"text":"RAB'bin gözünde doğru olanı yapmakla, suçsuz kanı dökme günahından arınacaksınız.”"},{"v":10,"text":"“Düşmanlarınızla savaşmaya çıktığınızda ve Tanrınız RAB onları elinize teslim ettiğinde, tutsaklar alır ve"},{"v":11,"text":"aralarında sevdiğiniz güzel bir kadın görürseniz, onu kendinize eş olarak alabilirsiniz."},{"v":12,"text":"Onu evinize götürün. Başını tıraş etsin, tırnaklarını kessin."},{"v":13,"text":"Üzerinden tutsaklık giysilerini çıkarsın. Evinizde otursun. Anne babası için bir ay yas tutsun. Sonra kadını alan kişi onunla yatabilir. Erkek ona koca, kadın da ona karı olacak."},{"v":14,"text":"Kadından hoşnut kalmazsa, onu özgür bıraksın. Kadınla yattığı için onu parayla satmasın, ona köle gibi davranmasın.”"},{"v":15,"text":"“Eğer bir adamın iki karısı varsa, birini seviyor, öbüründen hoşlanmıyorsa; iki kadın da kendisine oğullar doğurmuşsa; ilk oğul hoşlanmadığı kadının oğluysa;"},{"v":16,"text":"adam malını miras olarak oğullarına bölüştürdüğü gün sevdiği kadının oğlunu kayırıp ona ilk oğulluk hakkını veremez."},{"v":17,"text":"Hoşlanmadığı kadının oğlunu ilk doğan oğul olarak tanıyacak ve ona bütün malından iki pay verecektir. Çünkü bu oğul babasının gücünün ilk ürünüdür. İlk oğulluk hakkı onun olacak.”"},{"v":18,"text":"“Eğer bir adamın dikbaşlı, başkaldıran, annesinin ve babasının sözünü dinlemeyen, onların tedibine aldırmayan bir oğlu varsa,"},{"v":19,"text":"annesiyle babası onu tutup kent kapısında görev yapan kent ileri gelenlerine götürecekler."},{"v":20,"text":"Onlara şöyle diyecekler: ‘Oğlumuz dikbaşlı, başkaldıran bir çocuktur. Sözümüzü dinlemiyor. Savurgan ve içkicidir.’"},{"v":21,"text":"Bunun üzerine kentin bütün erkekleri onu taşlayarak öldürecekler. Aranızdaki kötülüğü ortadan kaldıracaksınız. Bütün İsrailliler bunu duyup korkacaklar.”"},{"v":22,"text":"“Eğer bir adam bir günahtan ötürü ölüm cezasına çarptırılıp öldürülür ve ölüsü ağaca asılırsa,"},{"v":23,"text":"ölüyü gece ağaçta asılı bırakmamalısınız. O gün kesinlikle gömmelisiniz. Asılan kişi Tanrı tarafından lanetlenmiştir. Tanrınız RAB'bin mülk olarak size vereceği ülkeyi kirletmeyeceksiniz."}]}
+{
+  "t": "TCL02",
+  "b": "DEU",
+  "c": 21,
+  "content": [
+    {
+      "section": "Kimin Öldürdüğü Bilinmeyen Ölüler"
+    },
+    {
+      "v": 1,
+      "text": "“Tanrınız RAB'bin mülk edinmek için size vereceği ülkede, kırda yere düşmüş, kimin öldürdüğü bilinmeyen birini görürseniz,"
+    },
+    {
+      "v": 2,
+      "text": "ileri gelenleriniz ve yargıçlarınız gidip ölünün çevredeki kentlere olan uzaklığını ölçsünler."
+    },
+    {
+      "v": 3,
+      "text": "Ölüye en yakın kentin ileri gelenleri işe koşulmamış, boyunduruk takmamış bir düve alacaklar."
+    },
+    {
+      "v": 4,
+      "text": "Düveyi toprağı sürülmemiş, ekilmemiş ve içinde sürekli akan bir dere olan bir vadiye getirecekler. Orada, derede düvenin boynunu kıracaklar."
+    },
+    {
+      "v": 5,
+      "text": "Levili kâhinler de oraya gidecek. Çünkü Tanrınız RAB, onları kendisine hizmet etsinler, O'nun adıyla kutsasınlar diye seçti. Kavga, saldırı davalarına da onlar bakacak."
+    },
+    {
+      "v": 6,
+      "text": "Ölüye en yakın kentin ileri gelenleri, derede boynu kırılan düvenin üzerinde ellerini yıkayacaklar."
+    },
+    {
+      "v": 7,
+      "text": "Sonra şöyle bir açıklama yapacaklar: ‘Bu kanı ellerimiz dökmedi, kimin yaptığını gözlerimiz de görmedi."
+    },
+    {
+      "v": 8,
+      "text": "Ya RAB, kurtardığın halkın İsrailliler'i bağışla. Halkını dökülen suçsuz kanından sorumlu tutma.’ Böylece kan dökme günahından bağışlanacaklar."
+    },
+    {
+      "v": 9,
+      "text": "RAB'bin gözünde doğru olanı yapmakla, suçsuz kanı dökme günahından arınacaksınız.”"
+    },
+    {
+      "section": "Tutsak Bir Kadınla Evlenmek"
+    },
+    {
+      "v": 10,
+      "text": "“Düşmanlarınızla savaşmaya çıktığınızda ve Tanrınız RAB onları elinize teslim ettiğinde, tutsaklar alır ve"
+    },
+    {
+      "v": 11,
+      "text": "aralarında sevdiğiniz güzel bir kadın görürseniz, onu kendinize eş olarak alabilirsiniz."
+    },
+    {
+      "v": 12,
+      "text": "Onu evinize götürün. Başını tıraş etsin, tırnaklarını kessin."
+    },
+    {
+      "v": 13,
+      "text": "Üzerinden tutsaklık giysilerini çıkarsın. Evinizde otursun. Anne babası için bir ay yas tutsun. Sonra kadını alan kişi onunla yatabilir. Erkek ona koca, kadın da ona karı olacak."
+    },
+    {
+      "v": 14,
+      "text": "Kadından hoşnut kalmazsa, onu özgür bıraksın. Kadınla yattığı için onu parayla satmasın, ona köle gibi davranmasın.”"
+    },
+    {
+      "section": "İlk Oğulluk Hakkı"
+    },
+    {
+      "v": 15,
+      "text": "“Eğer bir adamın iki karısı varsa, birini seviyor, öbüründen hoşlanmıyorsa; iki kadın da kendisine oğullar doğurmuşsa; ilk oğul hoşlanmadığı kadının oğluysa;"
+    },
+    {
+      "v": 16,
+      "text": "adam malını miras olarak oğullarına bölüştürdüğü gün sevdiği kadının oğlunu kayırıp ona ilk oğulluk hakkını veremez."
+    },
+    {
+      "v": 17,
+      "text": "Hoşlanmadığı kadının oğlunu ilk doğan oğul olarak tanıyacak ve ona bütün malından iki pay verecektir. Çünkü bu oğul babasının gücünün ilk ürünüdür. İlk oğulluk hakkı onun olacak.”"
+    },
+    {
+      "section": "Söz Dinlemez Oğul"
+    },
+    {
+      "v": 18,
+      "text": "“Eğer bir adamın dikbaşlı, başkaldıran, annesinin ve babasının sözünü dinlemeyen, onların tedibine aldırmayan bir oğlu varsa,"
+    },
+    {
+      "v": 19,
+      "text": "annesiyle babası onu tutup kent kapısında görev yapan kent ileri gelenlerine götürecekler."
+    },
+    {
+      "v": 20,
+      "text": "Onlara şöyle diyecekler: ‘Oğlumuz dikbaşlı, başkaldıran bir çocuktur. Sözümüzü dinlemiyor. Savurgan ve içkicidir.’"
+    },
+    {
+      "v": 21,
+      "text": "Bunun üzerine kentin bütün erkekleri onu taşlayarak öldürecekler. Aranızdaki kötülüğü ortadan kaldıracaksınız. Bütün İsrailliler bunu duyup korkacaklar.”"
+    },
+    {
+      "section": "Çeşitli Yasalar"
+    },
+    {
+      "v": 22,
+      "text": "“Eğer bir adam bir günahtan ötürü ölüm cezasına çarptırılıp öldürülür ve ölüsü ağaca asılırsa,"
+    },
+    {
+      "v": 23,
+      "text": "ölüyü gece ağaçta asılı bırakmamalısınız. O gün kesinlikle gömmelisiniz. Asılan kişi Tanrı tarafından lanetlenmiştir. Tanrınız RAB'bin mülk olarak size vereceği ülkeyi kirletmeyeceksiniz."
+    }
+  ],
+  "title": "Kimin Öldürdüğü Bilinmeyen Ölüler"
+}

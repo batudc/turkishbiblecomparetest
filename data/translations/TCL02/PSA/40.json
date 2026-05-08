@@ -1,1 +1,75 @@
-{"t": "TCL02", "b": "PSA", "c": 40, "content": [{"v": 1, "text": "RAB'bi sabırla bekledim; Bana yönelip yakarışımı duydu."}, {"v": 2, "text": "Ölüm çukurundan, Balçıktan çıkardı beni, Ayaklarımı kaya üzerinde tuttu, Kaymayayım diye."}, {"v": 3, "text": "Ağzıma yeni bir ezgi, Tanrımız'a bir övgü ilahisi koydu. Çokları görüp korkacak Ve RAB'be güvenecekler."}, {"v": 4, "text": "Ne mutlu RAB'be güvenen insana, Gururluya, yalana sapana ilgi duymayana."}, {"v": 5, "text": "Ya RAB, Tanrım, Harikaların, düşüncelerin ne çoktur bizim için; Sana eş koşulmaz! Duyurmak, anlatmak istesem yaptıklarını, Saymakla bitmez."}, {"v": 6, "text": "Kurbandan, sunudan hoşnut olmadın, Ama kulaklarımı açtın. Yakmalık sunu, günah sunusu da istemedin."}, {"v": 7, "text": "O zaman şöyle dedim: “İşte geldim; Kutsal Yazı tomarında benim için yazılmıştır. Ey Tanrım, senin isteğini yapmaktan zevk alırım ben, Yasan yüreğimin derinliğindedir.”"}, {"v": 9, "text": "Büyük toplantıda müjdelerim senin zaferini, Sözümü esirgemem, Ya RAB, bildiğin gibi!"}, {"v": 10, "text": "Zaferini içimde gizlemem, Bağlılığını ve kurtarışını duyururum, Sevgini, sadakatini saklamam büyük topluluktan."}, {"v": 11, "text": "Ya RAB, esirgeme sevecenliğini benden! Sevgin, sadakatin hep korusun beni!"}, {"v": 12, "text": "Sayısız belalar çevremi sardı, Suçlarım bana yetişti, önümü göremiyorum; Başımdaki saçlardan daha çoklar, Çaresiz kaldım."}, {"v": 13, "text": "Ne olur, ya RAB, kurtar beni! Yardımıma koş, ya RAB!"}, {"v": 14, "text": "Utansın canımı almaya çalışanlar, Yüzleri kızarsın! Geri dönsün zararımı isteyenler, Rezil olsunlar!"}, {"v": 15, "text": "Bana, “Oh! Oh!” çekenler Dehşete düşsün utançlarından!"}, {"v": 16, "text": "Sende neşe ve sevinç bulsun Bütün sana yönelenler! “RAB yücedir!” desin hep Senin kurtarışını özleyenler!"}, {"v": 17, "text": "Bense mazlum ve yoksulum, Düşün beni, ya Rab. Yardımcım ve kurtarıcım sensin, Geç kalma, ey Tanrım!"}]}
+{
+  "t": "TCL02",
+  "b": "PSA",
+  "c": 40,
+  "content": [
+    {
+      "section": "40. Mezmur"
+    },
+    {
+      "v": 1,
+      "text": "RAB'bi sabırla bekledim; Bana yönelip yakarışımı duydu."
+    },
+    {
+      "v": 2,
+      "text": "Ölüm çukurundan, Balçıktan çıkardı beni, Ayaklarımı kaya üzerinde tuttu, Kaymayayım diye."
+    },
+    {
+      "v": 3,
+      "text": "Ağzıma yeni bir ezgi, Tanrımız'a bir övgü ilahisi koydu. Çokları görüp korkacak Ve RAB'be güvenecekler."
+    },
+    {
+      "v": 4,
+      "text": "Ne mutlu RAB'be güvenen insana, Gururluya, yalana sapana ilgi duymayana."
+    },
+    {
+      "v": 5,
+      "text": "Ya RAB, Tanrım, Harikaların, düşüncelerin ne çoktur bizim için; Sana eş koşulmaz! Duyurmak, anlatmak istesem yaptıklarını, Saymakla bitmez."
+    },
+    {
+      "v": 6,
+      "text": "Kurbandan, sunudan hoşnut olmadın, Ama kulaklarımı açtın. Yakmalık sunu, günah sunusu da istemedin."
+    },
+    {
+      "v": 7,
+      "text": "O zaman şöyle dedim: “İşte geldim; Kutsal Yazı tomarında benim için yazılmıştır. Ey Tanrım, senin isteğini yapmaktan zevk alırım ben, Yasan yüreğimin derinliğindedir.”"
+    },
+    {
+      "v": 9,
+      "text": "Büyük toplantıda müjdelerim senin zaferini, Sözümü esirgemem, Ya RAB, bildiğin gibi!"
+    },
+    {
+      "v": 10,
+      "text": "Zaferini içimde gizlemem, Bağlılığını ve kurtarışını duyururum, Sevgini, sadakatini saklamam büyük topluluktan."
+    },
+    {
+      "v": 11,
+      "text": "Ya RAB, esirgeme sevecenliğini benden! Sevgin, sadakatin hep korusun beni!"
+    },
+    {
+      "v": 12,
+      "text": "Sayısız belalar çevremi sardı, Suçlarım bana yetişti, önümü göremiyorum; Başımdaki saçlardan daha çoklar, Çaresiz kaldım."
+    },
+    {
+      "v": 13,
+      "text": "Ne olur, ya RAB, kurtar beni! Yardımıma koş, ya RAB!"
+    },
+    {
+      "v": 14,
+      "text": "Utansın canımı almaya çalışanlar, Yüzleri kızarsın! Geri dönsün zararımı isteyenler, Rezil olsunlar!"
+    },
+    {
+      "v": 15,
+      "text": "Bana, “Oh! Oh!” çekenler Dehşete düşsün utançlarından!"
+    },
+    {
+      "v": 16,
+      "text": "Sende neşe ve sevinç bulsun Bütün sana yönelenler! “RAB yücedir!” desin hep Senin kurtarışını özleyenler!"
+    },
+    {
+      "v": 17,
+      "text": "Bense mazlum ve yoksulum, Düşün beni, ya Rab. Yardımcım ve kurtarıcım sensin, Geç kalma, ey Tanrım!"
+    }
+  ],
+  "title": "40. Mezmur"
+}

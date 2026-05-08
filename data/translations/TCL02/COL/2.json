@@ -1,1 +1,93 @@
-{"t": "TCL02", "b": "COL", "c": 2, "content": [{"v": 1, "text": "Gerek sizler, gerek Laodikya'dakiler, gerekse sizler gibi yüzümü hiç görmemiş olanlar için ne denli büyük bir uğraş verdiğimi bilmenizi isterim."}, {"v": 2, "text": "Yüreklerinin cesaret bulmasını, sevgide birleşmelerini dilerim. Öyle ki, anlayışın verdiği tam güvenliğin bütün zenginliğine kavuşsunlar ve Tanrı'nın sırrını, yani bilginin ve bilgeliğin bütün hazinelerinin saklı olduğu Mesih'i tanısınlar."}, {"v": 4, "text": "Kimse sizi kulağı okşayan sözlerle aldatmasın diye söylüyorum bunu."}, {"v": 5, "text": "Çünkü her ne kadar bedence aranızda değilsem de, ruhça sizinle birlikteyim. Düzenliliğinizi, Mesih'e imanınızın sağlamlığını görüp seviniyorum."}, {"v": 6, "text": "Bu nedenle Rab Mesih İsa'yı nasıl kabul ettinizse, O'nda öylece yaşayın."}, {"v": 7, "text": "Şükranla dolup taşarak O'nda köklenin ve gelişin, size öğretildiği gibi imanda güçlenin."}, {"v": 8, "text": "Dikkatli olun! Mesih'e değil de, insanların geleneğine, dünyanın temel ilkelerine dayanan felsefeyle, boş ve aldatıcı sözlerle kimse sizi tutsak etmesin."}, {"v": 9, "text": "Çünkü Tanrılığın bütün doluluğu bedence Mesih'te bulunuyor."}, {"v": 10, "text": "Siz de her yönetim ve hükümranlığın başı olan Mesih'te doluluğa kavuştunuz."}, {"v": 11, "text": "Ayrıca Mesih'in gerçekleştirdiği sünnet sayesinde bedenin benliğinden soyunarak elle yapılmayan sünnetle O'nda sünnet edildiniz."}, {"v": 12, "text": "Vaftizde O'nunla birlikte gömüldünüz, O'nu ölümden dirilten Tanrı'nın gücüne iman ederek O'nunla birlikte dirildiniz."}, {"v": 13, "text": "Sizler suçlarınız ve benliğinizin sünnetsizliği yüzünden ölüyken, Tanrı sizi Mesih'le birlikte yaşama kavuşturdu. Bütün suçlarımızı O bağışladı."}, {"v": 14, "text": "Kurallarıyla bize karşı ve aleyhimizde olan yazılı antlaşmayı sildi, onu çarmıha çakarak ortadan kaldırdı."}, {"v": 15, "text": "Yönetimlerin ve hükümranlıkların elindeki silahları alıp onları çarmıhta yenerek açıkça gözler önüne serdi."}, {"v": 16, "text": "Bu nedenle kimse yiyecek içecek, bayram, Yeni Ay ya da Şabat Günü konusunda sizi yargılamasın."}, {"v": 17, "text": "Bunlar gelecek şeylerin gölgesidir, aslı ise Mesih'tedir."}, {"v": 18, "text": "Sözde alçakgönüllülükte ve meleklere tapınmakta direnen, gördüğü düşlerin üzerinde durarak benliğin düşünceleriyle boş yere böbürlenen, Baş'a tutunmayan hiç kimse sizi ödülünüzden yoksun bırakmasın. Bütün beden eklemler ve bağlar yardımıyla bu Baş'tan beslenip bütünlenmekte, Tanrı'nın sağladığı büyümeyle gelişmektedir."}, {"v": 20, "text": "Mesih'le birlikte ölüp dünyanın temel ilkelerinden kurtulduğunuza göre, niçin dünyada yaşayanlar gibi, “Şunu elleme”, “Bunu tatma”, “Şuna dokunma” gibi kurallara uyuyorsunuz?"}, {"v": 22, "text": "Bu kuralların hepsi, kullanıldıkça yok olacak nesnelerle ilgilidir; insanların buyruklarına, öğretilerine dayanır."}, {"v": 23, "text": "Kuşkusuz bu kuralların uyduruk dindarlık, sözde alçakgönüllülük, bedene eziyet açısından bilgece bir görünüşü vardır; ama benliğin tutkularını denetlemekte hiçbir yararları yoktur."}]}
+{
+  "t": "TCL02",
+  "b": "COL",
+  "c": 2,
+  "content": [
+    {
+      "v": 1,
+      "text": "Gerek sizler, gerek Laodikya'dakiler, gerekse sizler gibi yüzümü hiç görmemiş olanlar için ne denli büyük bir uğraş verdiğimi bilmenizi isterim."
+    },
+    {
+      "v": 2,
+      "text": "Yüreklerinin cesaret bulmasını, sevgide birleşmelerini dilerim. Öyle ki, anlayışın verdiği tam güvenliğin bütün zenginliğine kavuşsunlar ve Tanrı'nın sırrını, yani bilginin ve bilgeliğin bütün hazinelerinin saklı olduğu Mesih'i tanısınlar."
+    },
+    {
+      "v": 4,
+      "text": "Kimse sizi kulağı okşayan sözlerle aldatmasın diye söylüyorum bunu."
+    },
+    {
+      "v": 5,
+      "text": "Çünkü her ne kadar bedence aranızda değilsem de, ruhça sizinle birlikteyim. Düzenliliğinizi, Mesih'e imanınızın sağlamlığını görüp seviniyorum."
+    },
+    {
+      "section": "Mesih'in Sağladığı Yaşam"
+    },
+    {
+      "v": 6,
+      "text": "Bu nedenle Rab Mesih İsa'yı nasıl kabul ettinizse, O'nda öylece yaşayın."
+    },
+    {
+      "v": 7,
+      "text": "Şükranla dolup taşarak O'nda köklenin ve gelişin, size öğretildiği gibi imanda güçlenin."
+    },
+    {
+      "v": 8,
+      "text": "Dikkatli olun! Mesih'e değil de, insanların geleneğine, dünyanın temel ilkelerine dayanan felsefeyle, boş ve aldatıcı sözlerle kimse sizi tutsak etmesin."
+    },
+    {
+      "v": 9,
+      "text": "Çünkü Tanrılığın bütün doluluğu bedence Mesih'te bulunuyor."
+    },
+    {
+      "v": 10,
+      "text": "Siz de her yönetim ve hükümranlığın başı olan Mesih'te doluluğa kavuştunuz."
+    },
+    {
+      "v": 11,
+      "text": "Ayrıca Mesih'in gerçekleştirdiği sünnet sayesinde bedenin benliğinden soyunarak elle yapılmayan sünnetle O'nda sünnet edildiniz."
+    },
+    {
+      "v": 12,
+      "text": "Vaftizde O'nunla birlikte gömüldünüz, O'nu ölümden dirilten Tanrı'nın gücüne iman ederek O'nunla birlikte dirildiniz."
+    },
+    {
+      "v": 13,
+      "text": "Sizler suçlarınız ve benliğinizin sünnetsizliği yüzünden ölüyken, Tanrı sizi Mesih'le birlikte yaşama kavuşturdu. Bütün suçlarımızı O bağışladı."
+    },
+    {
+      "v": 14,
+      "text": "Kurallarıyla bize karşı ve aleyhimizde olan yazılı antlaşmayı sildi, onu çarmıha çakarak ortadan kaldırdı."
+    },
+    {
+      "v": 15,
+      "text": "Yönetimlerin ve hükümranlıkların elindeki silahları alıp onları çarmıhta yenerek açıkça gözler önüne serdi."
+    },
+    {
+      "section": "Yanlış Öğretilere Kapılmayın"
+    },
+    {
+      "v": 16,
+      "text": "Bu nedenle kimse yiyecek içecek, bayram, Yeni Ay ya da Şabat Günü konusunda sizi yargılamasın."
+    },
+    {
+      "v": 17,
+      "text": "Bunlar gelecek şeylerin gölgesidir, aslı ise Mesih'tedir."
+    },
+    {
+      "v": 18,
+      "text": "Sözde alçakgönüllülükte ve meleklere tapınmakta direnen, gördüğü düşlerin üzerinde durarak benliğin düşünceleriyle boş yere böbürlenen, Baş'a tutunmayan hiç kimse sizi ödülünüzden yoksun bırakmasın. Bütün beden eklemler ve bağlar yardımıyla bu Baş'tan beslenip bütünlenmekte, Tanrı'nın sağladığı büyümeyle gelişmektedir."
+    },
+    {
+      "v": 20,
+      "text": "Mesih'le birlikte ölüp dünyanın temel ilkelerinden kurtulduğunuza göre, niçin dünyada yaşayanlar gibi, “Şunu elleme”, “Bunu tatma”, “Şuna dokunma” gibi kurallara uyuyorsunuz?"
+    },
+    {
+      "v": 22,
+      "text": "Bu kuralların hepsi, kullanıldıkça yok olacak nesnelerle ilgilidir; insanların buyruklarına, öğretilerine dayanır."
+    },
+    {
+      "v": 23,
+      "text": "Kuşkusuz bu kuralların uyduruk dindarlık, sözde alçakgönüllülük, bedene eziyet açısından bilgece bir görünüşü vardır; ama benliğin tutkularını denetlemekte hiçbir yararları yoktur."
+    }
+  ]
+}

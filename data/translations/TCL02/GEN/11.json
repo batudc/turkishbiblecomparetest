@@ -1,1 +1,142 @@
-{"t":"TCL02","b":"GEN","c":11,"content":[{"v":1,"text":"Başlangıçta dünyadaki bütün insanlar aynı dili konuşur, aynı sözleri kullanırlardı."},{"v":2,"text":"Doğuya göçerlerken Şinar bölgesinde bir ova bulup oraya yerleştiler."},{"v":3,"text":"Birbirlerine, “Gelin, tuğla yapıp iyice pişirelim” dediler. Taş yerine tuğla, harç yerine zift kullandılar."},{"v":4,"text":"Sonra, “Kendimize bir kent kuralım” dediler, “Göklere erişecek bir kule dikip ün salalım. Böylece yeryüzüne dağılmayız.”"},{"v":5,"text":"RAB insanların yaptığı kentle kuleyi görmek için aşağıya indi."},{"v":6,"text":"“Tek bir halk olup aynı dili konuşarak bunu yapmaya başladıklarına göre, düşündüklerini gerçekleştirecek, hiçbir engel tanımayacaklar” dedi,"},{"v":7,"text":"“Gelin, aşağı inip dillerini karıştıralım ki, birbirlerini anlamasınlar.”"},{"v":8,"text":"Böylece RAB onları yeryüzüne dağıtarak kentin yapımını durdurdu."},{"v":9,"text":"Bu nedenle kente Babil adı verildi. Çünkü RAB bütün insanların dilini orada karıştırmış ve onları yeryüzünün dört bucağına dağıtmıştı."},{"v":10,"text":"Sam'ın soyunun öyküsü: Tufandan iki yıl sonra Sam 100 yaşındayken oğlu Arpakşat doğdu."},{"v":11,"text":"Arpakşat'ın doğumundan sonra Sam 500 yıl daha yaşadı. Başka oğulları, kızları oldu."},{"v":12,"text":"Arpakşat 35 yaşındayken oğlu Şelah doğdu."},{"v":13,"text":"Şelah'ın doğumundan sonra Arpakşat 403 yıl daha yaşadı. Başka oğulları, kızları oldu."},{"v":14,"text":"Şelah 30 yaşındayken oğlu Ever doğdu."},{"v":15,"text":"Ever'in doğumundan sonra Şelah 403 yıl daha yaşadı. Başka oğulları, kızları oldu."},{"v":16,"text":"Ever 34 yaşındayken oğlu Pelek doğdu."},{"v":17,"text":"Pelek'in doğumundan sonra Ever 430 yıl daha yaşadı. Başka oğulları, kızları oldu."},{"v":18,"text":"Pelek 30 yaşındayken oğlu Reu doğdu."},{"v":19,"text":"Reu'nun doğumundan sonra Pelek 209 yıl daha yaşadı. Başka oğulları, kızları oldu."},{"v":20,"text":"Reu 32 yaşındayken oğlu Seruk doğdu."},{"v":21,"text":"Seruk'un doğumundan sonra Reu 207 yıl daha yaşadı. Başka oğulları, kızları oldu."},{"v":22,"text":"Seruk 30 yaşındayken oğlu Nahor doğdu."},{"v":23,"text":"Nahor'un doğumundan sonra Seruk 200 yıl daha yaşadı. Başka oğulları, kızları oldu."},{"v":24,"text":"Nahor 29 yaşındayken oğlu Terah doğdu."},{"v":25,"text":"Terah'ın doğumundan sonra Nahor 119 yıl daha yaşadı. Başka oğulları, kızları oldu."},{"v":26,"text":"Yetmiş yaşından sonra Terah'ın Avram, Nahor ve Haran adlı oğulları oldu."},{"v":27,"text":"Terah soyunun öyküsü: Terah Avram, Nahor ve Haran'ın babasıydı. Haran'ın Lut adlı bir oğlu oldu."},{"v":28,"text":"Haran, babası Terah henüz sağken, doğduğu ülkede, Kildaniler'in Ur Kenti'nde öldü."},{"v":29,"text":"Avram'la Nahor evlendiler. Avram'ın karısının adı Saray, Nahor'unkinin adı Milka'ydı. Milka Yiska'nın babası Haran'ın kızıydı."},{"v":30,"text":"Saray kısırdı, çocuğu olmuyordu."},{"v":31,"text":"Terah, oğlu Avram'ı, Haran'ın oğlu olan torunu Lut'u ve Avram'ın karısı olan gelini Saray'ı yanına aldı. Kenan ülkesine gitmek üzere Kildaniler'in Ur Kenti'nden ayrıldılar. Harran'a gidip oraya yerleştiler."},{"v":32,"text":"Terah iki yüz beş yıl yaşadıktan sonra Harran'da öldü."}]}
+{
+  "t": "TCL02",
+  "b": "GEN",
+  "c": 11,
+  "content": [
+    {
+      "section": "Babil Kulesi"
+    },
+    {
+      "v": 1,
+      "text": "Başlangıçta dünyadaki bütün insanlar aynı dili konuşur, aynı sözleri kullanırlardı."
+    },
+    {
+      "v": 2,
+      "text": "Doğuya göçerlerken Şinar bölgesinde bir ova bulup oraya yerleştiler."
+    },
+    {
+      "v": 3,
+      "text": "Birbirlerine, “Gelin, tuğla yapıp iyice pişirelim” dediler. Taş yerine tuğla, harç yerine zift kullandılar."
+    },
+    {
+      "v": 4,
+      "text": "Sonra, “Kendimize bir kent kuralım” dediler, “Göklere erişecek bir kule dikip ün salalım. Böylece yeryüzüne dağılmayız.”"
+    },
+    {
+      "v": 5,
+      "text": "RAB insanların yaptığı kentle kuleyi görmek için aşağıya indi."
+    },
+    {
+      "v": 6,
+      "text": "“Tek bir halk olup aynı dili konuşarak bunu yapmaya başladıklarına göre, düşündüklerini gerçekleştirecek, hiçbir engel tanımayacaklar” dedi,"
+    },
+    {
+      "v": 7,
+      "text": "“Gelin, aşağı inip dillerini karıştıralım ki, birbirlerini anlamasınlar.”"
+    },
+    {
+      "v": 8,
+      "text": "Böylece RAB onları yeryüzüne dağıtarak kentin yapımını durdurdu."
+    },
+    {
+      "v": 9,
+      "text": "Bu nedenle kente Babil adı verildi. Çünkü RAB bütün insanların dilini orada karıştırmış ve onları yeryüzünün dört bucağına dağıtmıştı."
+    },
+    {
+      "section": "Sam'dan Avram'a"
+    },
+    {
+      "v": 10,
+      "text": "Sam'ın soyunun öyküsü: Tufandan iki yıl sonra Sam 100 yaşındayken oğlu Arpakşat doğdu."
+    },
+    {
+      "v": 11,
+      "text": "Arpakşat'ın doğumundan sonra Sam 500 yıl daha yaşadı. Başka oğulları, kızları oldu."
+    },
+    {
+      "v": 12,
+      "text": "Arpakşat 35 yaşındayken oğlu Şelah doğdu."
+    },
+    {
+      "v": 13,
+      "text": "Şelah'ın doğumundan sonra Arpakşat 403 yıl daha yaşadı. Başka oğulları, kızları oldu."
+    },
+    {
+      "v": 14,
+      "text": "Şelah 30 yaşındayken oğlu Ever doğdu."
+    },
+    {
+      "v": 15,
+      "text": "Ever'in doğumundan sonra Şelah 403 yıl daha yaşadı. Başka oğulları, kızları oldu."
+    },
+    {
+      "v": 16,
+      "text": "Ever 34 yaşındayken oğlu Pelek doğdu."
+    },
+    {
+      "v": 17,
+      "text": "Pelek'in doğumundan sonra Ever 430 yıl daha yaşadı. Başka oğulları, kızları oldu."
+    },
+    {
+      "v": 18,
+      "text": "Pelek 30 yaşındayken oğlu Reu doğdu."
+    },
+    {
+      "v": 19,
+      "text": "Reu'nun doğumundan sonra Pelek 209 yıl daha yaşadı. Başka oğulları, kızları oldu."
+    },
+    {
+      "v": 20,
+      "text": "Reu 32 yaşındayken oğlu Seruk doğdu."
+    },
+    {
+      "v": 21,
+      "text": "Seruk'un doğumundan sonra Reu 207 yıl daha yaşadı. Başka oğulları, kızları oldu."
+    },
+    {
+      "v": 22,
+      "text": "Seruk 30 yaşındayken oğlu Nahor doğdu."
+    },
+    {
+      "v": 23,
+      "text": "Nahor'un doğumundan sonra Seruk 200 yıl daha yaşadı. Başka oğulları, kızları oldu."
+    },
+    {
+      "v": 24,
+      "text": "Nahor 29 yaşındayken oğlu Terah doğdu."
+    },
+    {
+      "v": 25,
+      "text": "Terah'ın doğumundan sonra Nahor 119 yıl daha yaşadı. Başka oğulları, kızları oldu."
+    },
+    {
+      "v": 26,
+      "text": "Yetmiş yaşından sonra Terah'ın Avram, Nahor ve Haran adlı oğulları oldu."
+    },
+    {
+      "v": 27,
+      "text": "Terah soyunun öyküsü: Terah Avram, Nahor ve Haran'ın babasıydı. Haran'ın Lut adlı bir oğlu oldu."
+    },
+    {
+      "v": 28,
+      "text": "Haran, babası Terah henüz sağken, doğduğu ülkede, Kildaniler'in Ur Kenti'nde öldü."
+    },
+    {
+      "v": 29,
+      "text": "Avram'la Nahor evlendiler. Avram'ın karısının adı Saray, Nahor'unkinin adı Milka'ydı. Milka Yiska'nın babası Haran'ın kızıydı."
+    },
+    {
+      "v": 30,
+      "text": "Saray kısırdı, çocuğu olmuyordu."
+    },
+    {
+      "v": 31,
+      "text": "Terah, oğlu Avram'ı, Haran'ın oğlu olan torunu Lut'u ve Avram'ın karısı olan gelini Saray'ı yanına aldı. Kenan ülkesine gitmek üzere Kildaniler'in Ur Kenti'nden ayrıldılar. Harran'a gidip oraya yerleştiler."
+    },
+    {
+      "v": 32,
+      "text": "Terah iki yüz beş yıl yaşadıktan sonra Harran'da öldü."
+    }
+  ],
+  "title": "Babil Kulesi"
+}

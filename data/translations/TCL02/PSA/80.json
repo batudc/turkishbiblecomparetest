@@ -1,1 +1,87 @@
-{"t":"TCL02","b":"PSA","c":80,"content":[{"v":1,"text":"Kulak ver, ey İsrail'in çobanı, Ey Yusuf'u bir sürü gibi güden, Keruvlar arasında taht kuran, Saç ışığını,"},{"v":2,"text":"Efrayim, Benyamin, Manaşşe önünde Uyandır gücünü, Gel, kurtar bizi!"},{"v":3,"text":"Bizi eski halimize kavuştur, ey Tanrı, Yüzünün ışığıyla aydınlat, kurtulalım!"},{"v":4,"text":"Ya RAB, Her Şeye Egemen Tanrı, Ne zamana dek halkının dualarına ateş püsküreceksin?"},{"v":5,"text":"Onlara ekmek yerine gözyaşı verdin, Ölçekler dolusu gözyaşı içirdin."},{"v":6,"text":"Kavga nedeni ettin bizi komşularımıza, Düşmanlarımız alay ediyor bizimle."},{"v":7,"text":"Bizi eski halimize kavuştur, Ey Her Şeye Egemen Tanrı, Yüzünün ışığıyla aydınlat, kurtulalım!"},{"v":8,"text":"Mısır'dan bir asma çubuğu getirdin, Ulusları kovup onu diktin."},{"v":9,"text":"Onun için toprağı hazırladın, Kök saldı, bütün ülkeye yayıldı."},{"v":10,"text":"Gölgesi dağları, Dalları koca sedir ağaçlarını kapladı."},{"v":11,"text":"Sürgünleri Akdeniz'e, Filizleri Fırat'a dek uzandı."},{"v":12,"text":"Niçin yıktın bağın duvarlarını? Yoldan geçen herkes üzümünü koparıyor,"},{"v":13,"text":"Orman domuzları onu yoluyor, Yabanıl hayvanlar onunla besleniyor."},{"v":14,"text":"Ey Her Şeye Egemen Tanrı, ne olur, dön bize! Göklerden bak ve gör, İlgilen bu asmayla."},{"v":15,"text":"İlgilen sağ elinin diktiği filizle, Kendine seçtiğin oğulla!"},{"v":16,"text":"Asman kesilmiş, yakılmış, Öfkeli bakışların yok etsin düşmanlarını!"},{"v":17,"text":"Elin, sağ kolun olan adamın üzerinde, Kendine seçtiğin insanın üzerinde olsun!"},{"v":18,"text":"O zaman senden asla ayrılmayacağız; Yaşam ver bize, adını analım!"},{"v":19,"text":"Ya RAB, ey Her Şeye Egemen Tanrı, Bizi eski halimize kavuştur, Yüzünün ışığıyla aydınlat, kurtulalım!"}]}
+{
+  "t": "TCL02",
+  "b": "PSA",
+  "c": 80,
+  "content": [
+    {
+      "section": "80. Mezmur"
+    },
+    {
+      "v": 1,
+      "text": "Kulak ver, ey İsrail'in çobanı, Ey Yusuf'u bir sürü gibi güden, Keruvlar arasında taht kuran, Saç ışığını,"
+    },
+    {
+      "v": 2,
+      "text": "Efrayim, Benyamin, Manaşşe önünde Uyandır gücünü, Gel, kurtar bizi!"
+    },
+    {
+      "v": 3,
+      "text": "Bizi eski halimize kavuştur, ey Tanrı, Yüzünün ışığıyla aydınlat, kurtulalım!"
+    },
+    {
+      "v": 4,
+      "text": "Ya RAB, Her Şeye Egemen Tanrı, Ne zamana dek halkının dualarına ateş püsküreceksin?"
+    },
+    {
+      "v": 5,
+      "text": "Onlara ekmek yerine gözyaşı verdin, Ölçekler dolusu gözyaşı içirdin."
+    },
+    {
+      "v": 6,
+      "text": "Kavga nedeni ettin bizi komşularımıza, Düşmanlarımız alay ediyor bizimle."
+    },
+    {
+      "v": 7,
+      "text": "Bizi eski halimize kavuştur, Ey Her Şeye Egemen Tanrı, Yüzünün ışığıyla aydınlat, kurtulalım!"
+    },
+    {
+      "v": 8,
+      "text": "Mısır'dan bir asma çubuğu getirdin, Ulusları kovup onu diktin."
+    },
+    {
+      "v": 9,
+      "text": "Onun için toprağı hazırladın, Kök saldı, bütün ülkeye yayıldı."
+    },
+    {
+      "v": 10,
+      "text": "Gölgesi dağları, Dalları koca sedir ağaçlarını kapladı."
+    },
+    {
+      "v": 11,
+      "text": "Sürgünleri Akdeniz'e, Filizleri Fırat'a dek uzandı."
+    },
+    {
+      "v": 12,
+      "text": "Niçin yıktın bağın duvarlarını? Yoldan geçen herkes üzümünü koparıyor,"
+    },
+    {
+      "v": 13,
+      "text": "Orman domuzları onu yoluyor, Yabanıl hayvanlar onunla besleniyor."
+    },
+    {
+      "v": 14,
+      "text": "Ey Her Şeye Egemen Tanrı, ne olur, dön bize! Göklerden bak ve gör, İlgilen bu asmayla."
+    },
+    {
+      "v": 15,
+      "text": "İlgilen sağ elinin diktiği filizle, Kendine seçtiğin oğulla!"
+    },
+    {
+      "v": 16,
+      "text": "Asman kesilmiş, yakılmış, Öfkeli bakışların yok etsin düşmanlarını!"
+    },
+    {
+      "v": 17,
+      "text": "Elin, sağ kolun olan adamın üzerinde, Kendine seçtiğin insanın üzerinde olsun!"
+    },
+    {
+      "v": 18,
+      "text": "O zaman senden asla ayrılmayacağız; Yaşam ver bize, adını analım!"
+    },
+    {
+      "v": 19,
+      "text": "Ya RAB, ey Her Şeye Egemen Tanrı, Bizi eski halimize kavuştur, Yüzünün ışığıyla aydınlat, kurtulalım!"
+    }
+  ],
+  "title": "80. Mezmur"
+}

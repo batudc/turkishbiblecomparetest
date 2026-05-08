@@ -1,1 +1,31 @@
-{"t":"TCL02","b":"PSA","c":127,"content":[{"v":1,"text":"Evi RAB yapmazsa, Yapıcılar boşuna didinir. Kenti RAB korumazsa, Bekçi boşuna bekler."},{"v":2,"text":"Boşuna erken kalkıp Geç yatıyorsunuz. Ey zahmetle kazanılan ekmeği yiyenler, RAB sevdiklerinin rahat uyumasını sağlar."},{"v":3,"text":"Çocuklar RAB'bin verdiği bir armağandır, Rahmin ürünü bir ödüldür."},{"v":4,"text":"Yiğidin elinde nasılsa oklar, Öyledir gençlikte doğan çocuklar."},{"v":5,"text":"Ne mutlu ok kılıfı onlarla dolu insana! Kent kapısında hasımlarıyla tartışırken Utanç duymayacaklar."}]}
+{
+  "t": "TCL02",
+  "b": "PSA",
+  "c": 127,
+  "content": [
+    {
+      "section": "127. Mezmur"
+    },
+    {
+      "v": 1,
+      "text": "Evi RAB yapmazsa, Yapıcılar boşuna didinir. Kenti RAB korumazsa, Bekçi boşuna bekler."
+    },
+    {
+      "v": 2,
+      "text": "Boşuna erken kalkıp Geç yatıyorsunuz. Ey zahmetle kazanılan ekmeği yiyenler, RAB sevdiklerinin rahat uyumasını sağlar."
+    },
+    {
+      "v": 3,
+      "text": "Çocuklar RAB'bin verdiği bir armağandır, Rahmin ürünü bir ödüldür."
+    },
+    {
+      "v": 4,
+      "text": "Yiğidin elinde nasılsa oklar, Öyledir gençlikte doğan çocuklar."
+    },
+    {
+      "v": 5,
+      "text": "Ne mutlu ok kılıfı onlarla dolu insana! Kent kapısında hasımlarıyla tartışırken Utanç duymayacaklar."
+    }
+  ],
+  "title": "127. Mezmur"
+}

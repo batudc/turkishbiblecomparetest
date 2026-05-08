@@ -1,1 +1,55 @@
-{"t":"TCL02","b":"NEH","c":1,"content":[{"v":1,"text":"Hakalya oğlu Nehemya'nın anlattıkları:  Pers Kralı Artahşasta'nın krallığının yirminci yılı, Kislev ayında Sus Kalesi'ndeydim."},{"v":2,"text":"Kardeşlerimden Hanani ve bazı Yahudalılar yanıma geldi. Onlara sürgünden kurtulup sağ kalan Yahudiler'i ve Yeruşalim'in durumunu sordum."},{"v":3,"text":"“Sürgünden kurtulup Yahuda İli'ne dönenler büyük sıkıntı ve utanç içinde” diye karşılık verdiler, “Üstelik Yeruşalim surları yıkılmış, kapıları yakılmış.”"},{"v":4,"text":"Bunları duyunca oturup ağladım, günlerce yas tuttum. Oruç tutup Göklerin Tanrısı'na dua ettim:"},{"v":5,"text":"“Ey Göklerin Tanrısı RAB! Yüce ve görkemli Tanrı! Seni sevenlerle, buyruklarına uyanlarla yaptığın antlaşmaya bağlı kalırsın."},{"v":6,"text":"Ya RAB, halimi gör, gece gündüz kulların İsrail halkı için ettiğim duaya kulak ver. İtiraf ediyorum, İsrail halkı günah işledi, ben ve atalarım günah işledik."},{"v":7,"text":"Sana çok kötülük yaptık. Kulun Musa'ya verdiğin buyruklara, kurallara, ilkelere uymadık."},{"v":8,"text":"“Kulun Musa'ya söylediklerini anımsa. Dedin ki, ‘Eğer bana ihanet ederseniz, sizi ulusların arasına dağıtacağım."},{"v":9,"text":"Ama bana döner, buyruklarımı özenle yerine getirirseniz, dünyanın öbür ucuna sürülmüş olsanız bile sizleri toplayıp seçtiğim yere, bulunacağım yere getireceğim.’"},{"v":10,"text":"“Onlar senin kulların, kendi halkındır. Yüce kudretin ve güçlü elinle onları kurtardın."},{"v":11,"text":"Ya Rab, bu kulunun, adını yüceltmekten sevinç duyan öbür kullarının dualarına kulak ver. Beni bugün başarılı kıl ve kralın önerimi kabul etmesini sağla.”  O günlerde kralın sakisiydim."}]}
+{
+  "t": "TCL02",
+  "b": "NEH",
+  "c": 1,
+  "content": [
+    {
+      "section": "Nehemya'nın Duası"
+    },
+    {
+      "v": 1,
+      "text": "Hakalya oğlu Nehemya'nın anlattıkları:  Pers Kralı Artahşasta'nın krallığının yirminci yılı, Kislev ayında Sus Kalesi'ndeydim."
+    },
+    {
+      "v": 2,
+      "text": "Kardeşlerimden Hanani ve bazı Yahudalılar yanıma geldi. Onlara sürgünden kurtulup sağ kalan Yahudiler'i ve Yeruşalim'in durumunu sordum."
+    },
+    {
+      "v": 3,
+      "text": "“Sürgünden kurtulup Yahuda İli'ne dönenler büyük sıkıntı ve utanç içinde” diye karşılık verdiler, “Üstelik Yeruşalim surları yıkılmış, kapıları yakılmış.”"
+    },
+    {
+      "v": 4,
+      "text": "Bunları duyunca oturup ağladım, günlerce yas tuttum. Oruç tutup Göklerin Tanrısı'na dua ettim:"
+    },
+    {
+      "v": 5,
+      "text": "“Ey Göklerin Tanrısı RAB! Yüce ve görkemli Tanrı! Seni sevenlerle, buyruklarına uyanlarla yaptığın antlaşmaya bağlı kalırsın."
+    },
+    {
+      "v": 6,
+      "text": "Ya RAB, halimi gör, gece gündüz kulların İsrail halkı için ettiğim duaya kulak ver. İtiraf ediyorum, İsrail halkı günah işledi, ben ve atalarım günah işledik."
+    },
+    {
+      "v": 7,
+      "text": "Sana çok kötülük yaptık. Kulun Musa'ya verdiğin buyruklara, kurallara, ilkelere uymadık."
+    },
+    {
+      "v": 8,
+      "text": "“Kulun Musa'ya söylediklerini anımsa. Dedin ki, ‘Eğer bana ihanet ederseniz, sizi ulusların arasına dağıtacağım."
+    },
+    {
+      "v": 9,
+      "text": "Ama bana döner, buyruklarımı özenle yerine getirirseniz, dünyanın öbür ucuna sürülmüş olsanız bile sizleri toplayıp seçtiğim yere, bulunacağım yere getireceğim.’"
+    },
+    {
+      "v": 10,
+      "text": "“Onlar senin kulların, kendi halkındır. Yüce kudretin ve güçlü elinle onları kurtardın."
+    },
+    {
+      "v": 11,
+      "text": "Ya Rab, bu kulunun, adını yüceltmekten sevinç duyan öbür kullarının dualarına kulak ver. Beni bugün başarılı kıl ve kralın önerimi kabul etmesini sağla.”  O günlerde kralın sakisiydim."
+    }
+  ],
+  "title": "Nehemya'nın Duası"
+}

@@ -1,1 +1,62 @@
-{"t": "TCL02", "b": "1PE", "c": 5, "content": [{"v": 1, "text": "Bu nedenle aranızdaki ihtiyarlara, onlar gibi bir ihtiyar, Mesih'in çektiği acıların tanığı, açığa çıkacak olan yüceliğin paydaşı olarak rica ediyorum: Tanrı'nın size verdiği sürüyü güdün. Zorunluymuş gibi değil, Tanrı'nın istediği gibi gönüllü gözetmenlik yapın. Para hırsıyla değil, gönül rızasıyla, size emanet edilenlere egemenlik taslamadan, sürüye örnek olarak görevinizi yapın."}, {"v": 4, "text": "Baş Çoban göründüğü zaman yüceliğin solmaz tacına kavuşacaksınız."}, {"v": 5, "text": "Ey gençler, siz de ihtiyarlara bağımlı olun. Hepiniz birbirinize karşı alçakgönüllülüğü kuşanın. Çünkü, “Tanrı kibirlilere karşıdır, Ama alçakgönüllülere lütfeder.”"}, {"v": 6, "text": "Uygun zamanda sizi yüceltmesi için, Tanrı'nın kudretli eli altında kendinizi alçaltın."}, {"v": 7, "text": "Bütün kaygılarınızı O'na yükleyin, çünkü O sizi kayırır."}, {"v": 8, "text": "Ayık ve uyanık olun. Düşmanınız İblis kükreyen aslan gibi yutacak birini arayarak dolaşıyor."}, {"v": 9, "text": "Dünyanın her yerindeki kardeşlerinizin de aynı acıları çektiğini bilerek imanda sarsılmadan İblis'e karşı direnin."}, {"v": 10, "text": "Sizleri Mesih'te sonsuz yüceliğine çağıran ve bütün lütfun kaynağı olan Tanrı'nın kendisi kısa bir süre acı çekmenizden sonra sizi yetkinleştirip pekiştirecek, güçlendirip temellendirecektir."}, {"v": 11, "text": "Kudret sonsuzlara dek O'nun olsun! Amin."}, {"v": 12, "text": "Kendisini güvenilir bir kardeş saydığım Silvanus aracılığıyla size kısaca yazmış bulunuyorum. Sizi yüreklendiriyor ve sözünü ettiğim lütfun Tanrı'nın gerçek lütfu olduğuna tanıklık ediyorum. Buna bağlı kalın."}, {"v": 13, "text": "Sizler gibi seçilmiş olan Babil'deki kilise ve oğlum Markos size selam ederler."}, {"v": 14, "text": "Birbirinizi sevgiyle öperek selamlayın.  Sizlere, Mesih'e ait olan herkese esenlik olsun."}]}
+{
+  "t": "TCL02",
+  "b": "1PE",
+  "c": 5,
+  "content": [
+    {
+      "section": "İhtiyarlar ve Gençler"
+    },
+    {
+      "v": 1,
+      "text": "Bu nedenle aranızdaki ihtiyarlara, onlar gibi bir ihtiyar, Mesih'in çektiği acıların tanığı, açığa çıkacak olan yüceliğin paydaşı olarak rica ediyorum: Tanrı'nın size verdiği sürüyü güdün. Zorunluymuş gibi değil, Tanrı'nın istediği gibi gönüllü gözetmenlik yapın. Para hırsıyla değil, gönül rızasıyla, size emanet edilenlere egemenlik taslamadan, sürüye örnek olarak görevinizi yapın."
+    },
+    {
+      "v": 4,
+      "text": "Baş Çoban göründüğü zaman yüceliğin solmaz tacına kavuşacaksınız."
+    },
+    {
+      "v": 5,
+      "text": "Ey gençler, siz de ihtiyarlara bağımlı olun. Hepiniz birbirinize karşı alçakgönüllülüğü kuşanın. Çünkü, “Tanrı kibirlilere karşıdır, Ama alçakgönüllülere lütfeder.”"
+    },
+    {
+      "v": 6,
+      "text": "Uygun zamanda sizi yüceltmesi için, Tanrı'nın kudretli eli altında kendinizi alçaltın."
+    },
+    {
+      "v": 7,
+      "text": "Bütün kaygılarınızı O'na yükleyin, çünkü O sizi kayırır."
+    },
+    {
+      "v": 8,
+      "text": "Ayık ve uyanık olun. Düşmanınız İblis kükreyen aslan gibi yutacak birini arayarak dolaşıyor."
+    },
+    {
+      "v": 9,
+      "text": "Dünyanın her yerindeki kardeşlerinizin de aynı acıları çektiğini bilerek imanda sarsılmadan İblis'e karşı direnin."
+    },
+    {
+      "v": 10,
+      "text": "Sizleri Mesih'te sonsuz yüceliğine çağıran ve bütün lütfun kaynağı olan Tanrı'nın kendisi kısa bir süre acı çekmenizden sonra sizi yetkinleştirip pekiştirecek, güçlendirip temellendirecektir."
+    },
+    {
+      "v": 11,
+      "text": "Kudret sonsuzlara dek O'nun olsun! Amin."
+    },
+    {
+      "section": "Son Selamlar"
+    },
+    {
+      "v": 12,
+      "text": "Kendisini güvenilir bir kardeş saydığım Silvanus aracılığıyla size kısaca yazmış bulunuyorum. Sizi yüreklendiriyor ve sözünü ettiğim lütfun Tanrı'nın gerçek lütfu olduğuna tanıklık ediyorum. Buna bağlı kalın."
+    },
+    {
+      "v": 13,
+      "text": "Sizler gibi seçilmiş olan Babil'deki kilise ve oğlum Markos size selam ederler."
+    },
+    {
+      "v": 14,
+      "text": "Birbirinizi sevgiyle öperek selamlayın.  Sizlere, Mesih'e ait olan herkese esenlik olsun."
+    }
+  ],
+  "title": "İhtiyarlar ve Gençler"
+}

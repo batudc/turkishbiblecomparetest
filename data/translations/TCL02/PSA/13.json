@@ -1,1 +1,35 @@
-{"t":"TCL02","b":"PSA","c":13,"content":[{"v":1,"text":"Ne zamana dek, ya RAB, Sonsuza dek mi beni unutacaksın? Ne zamana dek yüzünü benden gizleyeceksin?"},{"v":2,"text":"Ne zamana dek içimde tasa, Yüreğimde hep keder olacak? Ne zamana dek düşmanım bana üstün çıkacak?"},{"v":3,"text":"Gör halimi, ya RAB, yanıtla Tanrım, Gözlerimi aç, ölüm uykusuna dalmayayım."},{"v":4,"text":"Düşmanlarım, “Onu yendik!” demesin, Sarsıldığımda hasımlarım sevinmesin."},{"v":5,"text":"Ben senin sevgine güveniyorum, Yüreğim kurtarışınla coşsun."},{"v":6,"text":"Ezgiler söyleyeceğim sana, ya RAB, Çünkü iyilik ettin bana."}]}
+{
+  "t": "TCL02",
+  "b": "PSA",
+  "c": 13,
+  "content": [
+    {
+      "section": "13. Mezmur"
+    },
+    {
+      "v": 1,
+      "text": "Ne zamana dek, ya RAB, Sonsuza dek mi beni unutacaksın? Ne zamana dek yüzünü benden gizleyeceksin?"
+    },
+    {
+      "v": 2,
+      "text": "Ne zamana dek içimde tasa, Yüreğimde hep keder olacak? Ne zamana dek düşmanım bana üstün çıkacak?"
+    },
+    {
+      "v": 3,
+      "text": "Gör halimi, ya RAB, yanıtla Tanrım, Gözlerimi aç, ölüm uykusuna dalmayayım."
+    },
+    {
+      "v": 4,
+      "text": "Düşmanlarım, “Onu yendik!” demesin, Sarsıldığımda hasımlarım sevinmesin."
+    },
+    {
+      "v": 5,
+      "text": "Ben senin sevgine güveniyorum, Yüreğim kurtarışınla coşsun."
+    },
+    {
+      "v": 6,
+      "text": "Ezgiler söyleyeceğim sana, ya RAB, Çünkü iyilik ettin bana."
+    }
+  ],
+  "title": "13. Mezmur"
+}

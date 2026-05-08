@@ -1,1 +1,117 @@
-{"t": "TCL02", "b": "PHP", "c": 1, "content": [{"v": 1, "text": "Mesih İsa'nın kulları ben Pavlus ve Timoteos'tan Filipi'deki gözetmenler ve görevlilerle birlikte Mesih İsa'ya ait bütün kutsallara selam!"}, {"v": 2, "text": "Babamız Tanrı'dan ve Rab İsa Mesih'ten sizlere lütuf ve esenlik olsun."}, {"v": 3, "text": "Sizi hatırladıkça Tanrım'a şükrediyorum."}, {"v": 4, "text": "İlk günden şimdiye dek Müjde'nin yayılmasındaki işbirliğinizden dolayı her duamda hepiniz için her zaman sevinçle dilekte bulunuyorum."}, {"v": 6, "text": "Sizde iyi bir işe başlamış olan Tanrı'nın bunu Mesih İsa'nın gününe dek tamamlayacağına güvenim var."}, {"v": 7, "text": "Hepiniz için böyle düşünmekte haklıyım. Her an yüreğimdesiniz. İster zincire vurulmuş, ister Müjde'yi savunup doğrulamakta olayım, hepiniz benimle birlikte Tanrı'nın lütfuna ortaksınız."}, {"v": 8, "text": "Hepinizi Mesih İsa'nın sevgisiyle nasıl özlediğime Tanrı tanıktır."}, {"v": 9, "text": "Duam şu ki, sevginiz, bilgi ve her tür sezgiyle durmadan artsın."}, {"v": 10, "text": "Öyle ki, üstün değerleri ayırt edebilesiniz ve böylece Tanrı'nın yüceltilip övülmesi için İsa Mesih aracılığıyla gelen doğruluk meyvesiyle dolarak Mesih'in gününde saf ve kusursuz olasınız."}, {"v": 12, "text": "Kardeşler, şunu bilmenizi isterim: Başıma gelenler daha çok Müjde'nin yayılmasına yaramıştır."}, {"v": 13, "text": "Sonuç olarak bütün saray muhafızları dahil, herkes Mesih uğruna zincire vurulduğumu öğrendi."}, {"v": 14, "text": "Kardeşlerin çoğu da zincire vuruluşumdan ötürü Rab'be güvenerek Tanrı'nın sözünü korkusuzca söylemekte daha da cesur davranıyorlar."}, {"v": 15, "text": "Gerçi kimi Mesih'i kıskançlık ve rekabetle, kimiyse iyi niyetle duyuruyor."}, {"v": 16, "text": "Sonuncular, Müjde'yi savunmaya atandığımı bilerek bunu sevgiyle yapıyorlar."}, {"v": 17, "text": "Ötekilerse Mesih'i temiz yürekle değil, bencil tutkularla duyuruyorlar. Böylece tutukluluğumda bana sıkıntı vereceklerini sanıyorlar."}, {"v": 18, "text": "Ama ne önemi var? İster art niyetle ister içtenlikle olsun, her durumda Mesih duyurulmuş oluyor. Buna seviniyorum, sevineceğim de."}, {"v": 19, "text": "Çünkü dualarınızla ve İsa Mesih'in Ruhu yardımıyla bunun bana kurtuluş getireceğini biliyorum."}, {"v": 20, "text": "Hiçbir şekilde utandırılmayacağımı, yaşasam da ölsem de Mesih'in her zamanki gibi şimdi de bedenimde yüceltilmesi için tam bir cesaret gösterebileceğimi bekliyor ve umut ediyorum."}, {"v": 21, "text": "Çünkü benim için, yaşamak Mesih'tir, ölmek kazançtır."}, {"v": 22, "text": "Hayatta kalırsam yararlı işler yapacağım. Ama hangisini seçeceğimi bilemiyorum."}, {"v": 23, "text": "İki seçenek arasında kaldım. Dünyadan ayrılıp Mesih'le birlikte olmayı arzuluyorum; bu çok daha iyi."}, {"v": 24, "text": "Ama hayatta kalmam sizin için daha gereklidir."}, {"v": 25, "text": "Bundan emin olarak kalacağımı biliyorum. İmanda gelişip sevinmeniz için hepinizle birlikte olmaya devam edeceğim."}, {"v": 26, "text": "Öyle ki, tekrar yanınıza geldiğimde, Mesih İsa'da benimle daha çok övünebilesiniz."}, {"v": 27, "text": "Ancak yaşayışınız Mesih'in Müjdesi'ne layık olsun. Öyle ki, gelip sizi görsem de gelmesem de sizinle ilgili haberleri, tek bir ruhta dimdik durduğunuzu, Müjde'de açıklanan inanç uğruna tek can halinde birlikte mücadele ettiğinizi, size karşı olanlardan hiçbir şekilde yılmadığınızı duyayım. Böyle davranmanız onlara bir belirtidir – kendilerinin mahvolacağını, sizlerin ise kurtulacağını gösteren bir belirti. Bu da Tanrı'nın işidir."}, {"v": 29, "text": "Çünkü Mesih uğruna size yalnız Mesih'e iman etmek değil, daha önce bende gördüğünüz ve hâlâ sürdürdüğümü duyduğunuz zorlu çabanın aynısını göstererek Mesih uğruna acı çekmek ayrıcalığı da verildi."}]}
+{
+  "t": "TCL02",
+  "b": "PHP",
+  "c": 1,
+  "content": [
+    {
+      "v": 1,
+      "text": "Mesih İsa'nın kulları ben Pavlus ve Timoteos'tan Filipi'deki gözetmenler ve görevlilerle birlikte Mesih İsa'ya ait bütün kutsallara selam!"
+    },
+    {
+      "v": 2,
+      "text": "Babamız Tanrı'dan ve Rab İsa Mesih'ten sizlere lütuf ve esenlik olsun."
+    },
+    {
+      "section": "Şükran ve Dua"
+    },
+    {
+      "v": 3,
+      "text": "Sizi hatırladıkça Tanrım'a şükrediyorum."
+    },
+    {
+      "v": 4,
+      "text": "İlk günden şimdiye dek Müjde'nin yayılmasındaki işbirliğinizden dolayı her duamda hepiniz için her zaman sevinçle dilekte bulunuyorum."
+    },
+    {
+      "v": 6,
+      "text": "Sizde iyi bir işe başlamış olan Tanrı'nın bunu Mesih İsa'nın gününe dek tamamlayacağına güvenim var."
+    },
+    {
+      "v": 7,
+      "text": "Hepiniz için böyle düşünmekte haklıyım. Her an yüreğimdesiniz. İster zincire vurulmuş, ister Müjde'yi savunup doğrulamakta olayım, hepiniz benimle birlikte Tanrı'nın lütfuna ortaksınız."
+    },
+    {
+      "v": 8,
+      "text": "Hepinizi Mesih İsa'nın sevgisiyle nasıl özlediğime Tanrı tanıktır."
+    },
+    {
+      "v": 9,
+      "text": "Duam şu ki, sevginiz, bilgi ve her tür sezgiyle durmadan artsın."
+    },
+    {
+      "v": 10,
+      "text": "Öyle ki, üstün değerleri ayırt edebilesiniz ve böylece Tanrı'nın yüceltilip övülmesi için İsa Mesih aracılığıyla gelen doğruluk meyvesiyle dolarak Mesih'in gününde saf ve kusursuz olasınız."
+    },
+    {
+      "section": "Müjde'nin Yayılması"
+    },
+    {
+      "v": 12,
+      "text": "Kardeşler, şunu bilmenizi isterim: Başıma gelenler daha çok Müjde'nin yayılmasına yaramıştır."
+    },
+    {
+      "v": 13,
+      "text": "Sonuç olarak bütün saray muhafızları dahil, herkes Mesih uğruna zincire vurulduğumu öğrendi."
+    },
+    {
+      "v": 14,
+      "text": "Kardeşlerin çoğu da zincire vuruluşumdan ötürü Rab'be güvenerek Tanrı'nın sözünü korkusuzca söylemekte daha da cesur davranıyorlar."
+    },
+    {
+      "v": 15,
+      "text": "Gerçi kimi Mesih'i kıskançlık ve rekabetle, kimiyse iyi niyetle duyuruyor."
+    },
+    {
+      "v": 16,
+      "text": "Sonuncular, Müjde'yi savunmaya atandığımı bilerek bunu sevgiyle yapıyorlar."
+    },
+    {
+      "v": 17,
+      "text": "Ötekilerse Mesih'i temiz yürekle değil, bencil tutkularla duyuruyorlar. Böylece tutukluluğumda bana sıkıntı vereceklerini sanıyorlar."
+    },
+    {
+      "v": 18,
+      "text": "Ama ne önemi var? İster art niyetle ister içtenlikle olsun, her durumda Mesih duyurulmuş oluyor. Buna seviniyorum, sevineceğim de."
+    },
+    {
+      "v": 19,
+      "text": "Çünkü dualarınızla ve İsa Mesih'in Ruhu yardımıyla bunun bana kurtuluş getireceğini biliyorum."
+    },
+    {
+      "v": 20,
+      "text": "Hiçbir şekilde utandırılmayacağımı, yaşasam da ölsem de Mesih'in her zamanki gibi şimdi de bedenimde yüceltilmesi için tam bir cesaret gösterebileceğimi bekliyor ve umut ediyorum."
+    },
+    {
+      "v": 21,
+      "text": "Çünkü benim için, yaşamak Mesih'tir, ölmek kazançtır."
+    },
+    {
+      "v": 22,
+      "text": "Hayatta kalırsam yararlı işler yapacağım. Ama hangisini seçeceğimi bilemiyorum."
+    },
+    {
+      "v": 23,
+      "text": "İki seçenek arasında kaldım. Dünyadan ayrılıp Mesih'le birlikte olmayı arzuluyorum; bu çok daha iyi."
+    },
+    {
+      "v": 24,
+      "text": "Ama hayatta kalmam sizin için daha gereklidir."
+    },
+    {
+      "v": 25,
+      "text": "Bundan emin olarak kalacağımı biliyorum. İmanda gelişip sevinmeniz için hepinizle birlikte olmaya devam edeceğim."
+    },
+    {
+      "v": 26,
+      "text": "Öyle ki, tekrar yanınıza geldiğimde, Mesih İsa'da benimle daha çok övünebilesiniz."
+    },
+    {
+      "v": 27,
+      "text": "Ancak yaşayışınız Mesih'in Müjdesi'ne layık olsun. Öyle ki, gelip sizi görsem de gelmesem de sizinle ilgili haberleri, tek bir ruhta dimdik durduğunuzu, Müjde'de açıklanan inanç uğruna tek can halinde birlikte mücadele ettiğinizi, size karşı olanlardan hiçbir şekilde yılmadığınızı duyayım. Böyle davranmanız onlara bir belirtidir – kendilerinin mahvolacağını, sizlerin ise kurtulacağını gösteren bir belirti. Bu da Tanrı'nın işidir."
+    },
+    {
+      "v": 29,
+      "text": "Çünkü Mesih uğruna size yalnız Mesih'e iman etmek değil, daha önce bende gördüğünüz ve hâlâ sürdürdüğümü duyduğunuz zorlu çabanın aynısını göstererek Mesih uğruna acı çekmek ayrıcalığı da verildi."
+    }
+  ]
+}

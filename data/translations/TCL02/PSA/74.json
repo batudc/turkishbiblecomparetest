@@ -1,1 +1,103 @@
-{"t":"TCL02","b":"PSA","c":74,"content":[{"v":1,"text":"Ey Tanrı, neden bizi sonsuza dek reddettin? Niçin otlağının koyunlarına karşı öfken tütmekte?"},{"v":2,"text":"Anımsa geçmişte sahiplendiğin topluluğu, Kendi halkın olsun diye kurtardığın oymağı Ve üzerine konut kurduğun Siyon Dağı'nı."},{"v":3,"text":"Yönelt adımlarını şu onarılmaz yıkıntılara doğru, Düşman kutsal yerdeki her şeyi yıktı."},{"v":4,"text":"Düşmanların bizimle buluştuğun yerde kükredi, Zafer simgesi olarak kendi bayraklarını dikti."},{"v":5,"text":"Gür bir ormana Baltayla dalar gibiydiler."},{"v":6,"text":"Baltayla, balyozla kırdılar, Bütün oymaları."},{"v":7,"text":"Ateşe verdiler tapınağını, Yerle bir edip kutsallığını bozdular Adının yaşadığı konutun."},{"v":8,"text":"İçlerinden, “Hepsini ezelim!” dediler. Ülkede Tanrı'yla buluşma yerlerinin tümünü yaktılar."},{"v":9,"text":"Artık kutsal simgelerimizi görmüyoruz, Peygamberler de yok oldu, İçimizden kimse bilmiyor ne zamana dek..."},{"v":10,"text":"Ey Tanrı, ne zamana dek düşman sana sövecek, Hasmın senin adını hor görecek?"},{"v":11,"text":"Niçin geri çekiyorsun elini? Çıkar sağ elini bağrından, yok et onları!"},{"v":12,"text":"Ama geçmişten bu yana kralım sensin, ey Tanrı, Yeryüzünde kurtuluş sağladın."},{"v":13,"text":"Gücünle denizi yardın, Canavarların kafasını sularda parçaladın."},{"v":14,"text":"Livyatan'ın başlarını ezdin, Çölde yaşayanlara onu yem ettin."},{"v":15,"text":"Kaynaklar, dereler fışkırttın, Sürekli akan ırmakları kuruttun."},{"v":16,"text":"Gün senindir, gece de senin, Ay ve güneşi sen yerleştirdin,"},{"v":17,"text":"Yeryüzünün bütün sınırlarını sen saptadın, Yazı da kışı da yaratan sensin."},{"v":18,"text":"Anımsa, ya RAB, düşmanın sana nasıl sövdüğünü, Akılsız bir halkın, adını nasıl hor gördüğünü."},{"v":19,"text":"Canavara teslim etme kumrunun canını, Asla unutma düşkün kullarının yaşamını."},{"v":20,"text":"Yaptığın antlaşmayı gözönüne al, Çünkü ülkenin her karanlık köşesi Zorbaların inleriyle dolmuş."},{"v":21,"text":"Düşkünler boynu bükük geri çevrilmesin, Mazlumlar, yoksullar adına övgüler dizsin."},{"v":22,"text":"Kalk, ey Tanrı, davanı savun! Anımsa akılsızların gün boyu sana nasıl sövdüğünü!"},{"v":23,"text":"Unutma hasımlarının yaygarasını, Sana başkaldıranların durmadan yükselen patırtısını!"}]}
+{
+  "t": "TCL02",
+  "b": "PSA",
+  "c": 74,
+  "content": [
+    {
+      "section": "74. Mezmur"
+    },
+    {
+      "v": 1,
+      "text": "Ey Tanrı, neden bizi sonsuza dek reddettin? Niçin otlağının koyunlarına karşı öfken tütmekte?"
+    },
+    {
+      "v": 2,
+      "text": "Anımsa geçmişte sahiplendiğin topluluğu, Kendi halkın olsun diye kurtardığın oymağı Ve üzerine konut kurduğun Siyon Dağı'nı."
+    },
+    {
+      "v": 3,
+      "text": "Yönelt adımlarını şu onarılmaz yıkıntılara doğru, Düşman kutsal yerdeki her şeyi yıktı."
+    },
+    {
+      "v": 4,
+      "text": "Düşmanların bizimle buluştuğun yerde kükredi, Zafer simgesi olarak kendi bayraklarını dikti."
+    },
+    {
+      "v": 5,
+      "text": "Gür bir ormana Baltayla dalar gibiydiler."
+    },
+    {
+      "v": 6,
+      "text": "Baltayla, balyozla kırdılar, Bütün oymaları."
+    },
+    {
+      "v": 7,
+      "text": "Ateşe verdiler tapınağını, Yerle bir edip kutsallığını bozdular Adının yaşadığı konutun."
+    },
+    {
+      "v": 8,
+      "text": "İçlerinden, “Hepsini ezelim!” dediler. Ülkede Tanrı'yla buluşma yerlerinin tümünü yaktılar."
+    },
+    {
+      "v": 9,
+      "text": "Artık kutsal simgelerimizi görmüyoruz, Peygamberler de yok oldu, İçimizden kimse bilmiyor ne zamana dek..."
+    },
+    {
+      "v": 10,
+      "text": "Ey Tanrı, ne zamana dek düşman sana sövecek, Hasmın senin adını hor görecek?"
+    },
+    {
+      "v": 11,
+      "text": "Niçin geri çekiyorsun elini? Çıkar sağ elini bağrından, yok et onları!"
+    },
+    {
+      "v": 12,
+      "text": "Ama geçmişten bu yana kralım sensin, ey Tanrı, Yeryüzünde kurtuluş sağladın."
+    },
+    {
+      "v": 13,
+      "text": "Gücünle denizi yardın, Canavarların kafasını sularda parçaladın."
+    },
+    {
+      "v": 14,
+      "text": "Livyatan'ın başlarını ezdin, Çölde yaşayanlara onu yem ettin."
+    },
+    {
+      "v": 15,
+      "text": "Kaynaklar, dereler fışkırttın, Sürekli akan ırmakları kuruttun."
+    },
+    {
+      "v": 16,
+      "text": "Gün senindir, gece de senin, Ay ve güneşi sen yerleştirdin,"
+    },
+    {
+      "v": 17,
+      "text": "Yeryüzünün bütün sınırlarını sen saptadın, Yazı da kışı da yaratan sensin."
+    },
+    {
+      "v": 18,
+      "text": "Anımsa, ya RAB, düşmanın sana nasıl sövdüğünü, Akılsız bir halkın, adını nasıl hor gördüğünü."
+    },
+    {
+      "v": 19,
+      "text": "Canavara teslim etme kumrunun canını, Asla unutma düşkün kullarının yaşamını."
+    },
+    {
+      "v": 20,
+      "text": "Yaptığın antlaşmayı gözönüne al, Çünkü ülkenin her karanlık köşesi Zorbaların inleriyle dolmuş."
+    },
+    {
+      "v": 21,
+      "text": "Düşkünler boynu bükük geri çevrilmesin, Mazlumlar, yoksullar adına övgüler dizsin."
+    },
+    {
+      "v": 22,
+      "text": "Kalk, ey Tanrı, davanı savun! Anımsa akılsızların gün boyu sana nasıl sövdüğünü!"
+    },
+    {
+      "v": 23,
+      "text": "Unutma hasımlarının yaygarasını, Sana başkaldıranların durmadan yükselen patırtısını!"
+    }
+  ],
+  "title": "74. Mezmur"
+}

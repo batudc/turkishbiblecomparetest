@@ -1,1 +1,180 @@
-{"t":"TCL02","b":"EXO","c":25,"content":[{"v":1,"text":"RAB Musa'ya şöyle dedi:"},{"v":2,"text":"“İsrailliler'e söyle, bana armağan getirsinler. Gönülden veren herkesin armağanını alın."},{"v":3,"text":"Onlardan alacağınız armağanlar şunlardır: Altın, gümüş, tunç;"},{"v":4,"text":"lacivert, mor, kırmızı iplik; ince keten, keçi kılı,"},{"v":5,"text":"deri, kırmızı boyalı koç derisi, akasya ağacı,"},{"v":6,"text":"kandil için zeytinyağı, mesh yağıyla güzel kokulu buhur için baharat,"},{"v":7,"text":"başkâhinin efoduyla göğüslüğü için oniks ve öbür kakma taşlar."},{"v":8,"text":"“Aralarında yaşamam için bana kutsal bir yer yapsınlar."},{"v":9,"text":"Konutu ve eşyalarını sana göstereceğim örneğe tıpatıp uygun yapın.”"},{"v":10,"text":"“Akasya ağacından bir sandık yapsınlar. Boyu iki buçuk, eni ve yüksekliği birer buçuk arşın olsun."},{"v":11,"text":"İçini de dışını da saf altınla kapla. Çevresine altın pervaz yap."},{"v":12,"text":"Dört altın halka döküp dört ayağına tak. İkisi bir yanda, ikisi öbür yanda olacak."},{"v":13,"text":"Akasya ağacından sırıklar yapıp altınla kapla."},{"v":14,"text":"Sandığın taşınması için sırıkları yanlardaki halkalara geçir."},{"v":15,"text":"Sırıklar sandığın halkalarında kalacak, çıkarılmayacak."},{"v":16,"text":"Antlaşmanın taş levhalarını sana vereceğim. Onları sandığın içine koy."},{"v":17,"text":"“Saf altından bir Bağışlanma Kapağı yap. Boyu iki buçuk, eni bir buçuk arşın olacak."},{"v":18,"text":"Kapağın iki kenarına dövme altından birer Keruv yap."},{"v":19,"text":"Keruvlar'dan birini bir kenara, öbürünü öteki kenara, kapakla tek parça halinde yap."},{"v":20,"text":"Keruvlar yukarı doğru açık kanatlarıyla kapağı örtecek. Yüzleri birbirine dönük olacak ve kapağa bakacak."},{"v":21,"text":"Kapağı sandığın üzerine, sana vereceğim taş levhaları ise sandığın içine koy."},{"v":22,"text":"Seninle orada, Levha Sandığı'nın üstündeki Keruvlar arasında, Bağışlanma Kapağı'nın üzerinde görüşeceğim ve İsrailliler için sana buyruklar vereceğim.”"},{"v":23,"text":"“Akasya ağacından bir masa yap. Boyu iki, eni bir, yüksekliği bir buçuk arşın olacak."},{"v":24,"text":"Masayı saf altınla kapla. Çevresine altın pervaz yap."},{"v":25,"text":"Pervazın çevresine dört parmak eninde bir kenarlık yaparak altın pervazla çevir."},{"v":26,"text":"Masa için dört altın halka yap, dört ayak üzerindeki dört köşeye yerleştir."},{"v":27,"text":"Masanın taşınması için sırıkların içinden geçeceği halkalar kenarlığa yakın olmalı."},{"v":28,"text":"Sırıkları akasya ağacından yap, altınla kapla. Masa onlarla taşınacak."},{"v":29,"text":"Masa için saf altından tabaklar, sahanlar, dökmelik sunu testileri, tasları yap."},{"v":30,"text":"Ekmekleri sürekli olarak huzuruma, masanın üzerine koyacaksın.”"},{"v":31,"text":"“Saf altından bir kandillik yap. Ayağı, gövdesi dövme altın olsun. Çanak, tomurcuk ve çiçek motifleri kendinden olsun."},{"v":32,"text":"Kandillik üç kolu bir yanda, üç kolu öteki yanda olmak üzere altı kollu olacak."},{"v":33,"text":"Her kolda badem çiçeğini andıran üç çanak, tomurcuk ve çiçek motifi bulunacak. Altı kol da aynı olacak."},{"v":34,"text":"Kandilliğin gövdesinde badem çiçeğini andıran dört çanak, tomurcuk ve çiçek motifi olacak."},{"v":35,"text":"Kandillikten yükselen ilk iki kolun, ikinci iki kolun, üçüncü iki kolun altında kendinden birer tomurcuk bulunacak. Toplam altı kol olacak."},{"v":36,"text":"Tomurcukları, kolları tek parça olan kandillik saf dövme altından olacak."},{"v":37,"text":"“Kandillik için yedi kandil yap; kandiller karşısını aydınlatacak biçimde yerleştirilsin."},{"v":38,"text":"Fitil maşaları, tablaları saf altından olacak."},{"v":39,"text":"Bütün takımları dahil kandilliğe bir talant saf altın harcanacak."},{"v":40,"text":"Her şeyi sana dağda gösterilen örneğe göre yapmaya dikkat et.”"}]}
+{
+  "t": "TCL02",
+  "b": "EXO",
+  "c": 25,
+  "content": [
+    {
+      "section": "Buluşma Çadırı için Armağanlar"
+    },
+    {
+      "v": 1,
+      "text": "RAB Musa'ya şöyle dedi:"
+    },
+    {
+      "v": 2,
+      "text": "“İsrailliler'e söyle, bana armağan getirsinler. Gönülden veren herkesin armağanını alın."
+    },
+    {
+      "v": 3,
+      "text": "Onlardan alacağınız armağanlar şunlardır: Altın, gümüş, tunç;"
+    },
+    {
+      "v": 4,
+      "text": "lacivert, mor, kırmızı iplik; ince keten, keçi kılı,"
+    },
+    {
+      "v": 5,
+      "text": "deri, kırmızı boyalı koç derisi, akasya ağacı,"
+    },
+    {
+      "v": 6,
+      "text": "kandil için zeytinyağı, mesh yağıyla güzel kokulu buhur için baharat,"
+    },
+    {
+      "v": 7,
+      "text": "başkâhinin efoduyla göğüslüğü için oniks ve öbür kakma taşlar."
+    },
+    {
+      "v": 8,
+      "text": "“Aralarında yaşamam için bana kutsal bir yer yapsınlar."
+    },
+    {
+      "v": 9,
+      "text": "Konutu ve eşyalarını sana göstereceğim örneğe tıpatıp uygun yapın.”"
+    },
+    {
+      "section": "Antlaşma Sandığı"
+    },
+    {
+      "v": 10,
+      "text": "“Akasya ağacından bir sandık yapsınlar. Boyu iki buçuk, eni ve yüksekliği birer buçuk arşın olsun."
+    },
+    {
+      "v": 11,
+      "text": "İçini de dışını da saf altınla kapla. Çevresine altın pervaz yap."
+    },
+    {
+      "v": 12,
+      "text": "Dört altın halka döküp dört ayağına tak. İkisi bir yanda, ikisi öbür yanda olacak."
+    },
+    {
+      "v": 13,
+      "text": "Akasya ağacından sırıklar yapıp altınla kapla."
+    },
+    {
+      "v": 14,
+      "text": "Sandığın taşınması için sırıkları yanlardaki halkalara geçir."
+    },
+    {
+      "v": 15,
+      "text": "Sırıklar sandığın halkalarında kalacak, çıkarılmayacak."
+    },
+    {
+      "v": 16,
+      "text": "Antlaşmanın taş levhalarını sana vereceğim. Onları sandığın içine koy."
+    },
+    {
+      "v": 17,
+      "text": "“Saf altından bir Bağışlanma Kapağı yap. Boyu iki buçuk, eni bir buçuk arşın olacak."
+    },
+    {
+      "v": 18,
+      "text": "Kapağın iki kenarına dövme altından birer Keruv yap."
+    },
+    {
+      "v": 19,
+      "text": "Keruvlar'dan birini bir kenara, öbürünü öteki kenara, kapakla tek parça halinde yap."
+    },
+    {
+      "v": 20,
+      "text": "Keruvlar yukarı doğru açık kanatlarıyla kapağı örtecek. Yüzleri birbirine dönük olacak ve kapağa bakacak."
+    },
+    {
+      "v": 21,
+      "text": "Kapağı sandığın üzerine, sana vereceğim taş levhaları ise sandığın içine koy."
+    },
+    {
+      "v": 22,
+      "text": "Seninle orada, Levha Sandığı'nın üstündeki Keruvlar arasında, Bağışlanma Kapağı'nın üzerinde görüşeceğim ve İsrailliler için sana buyruklar vereceğim.”"
+    },
+    {
+      "section": "Üzerinde Ekmek Sunulan Masa"
+    },
+    {
+      "v": 23,
+      "text": "“Akasya ağacından bir masa yap. Boyu iki, eni bir, yüksekliği bir buçuk arşın olacak."
+    },
+    {
+      "v": 24,
+      "text": "Masayı saf altınla kapla. Çevresine altın pervaz yap."
+    },
+    {
+      "v": 25,
+      "text": "Pervazın çevresine dört parmak eninde bir kenarlık yaparak altın pervazla çevir."
+    },
+    {
+      "v": 26,
+      "text": "Masa için dört altın halka yap, dört ayak üzerindeki dört köşeye yerleştir."
+    },
+    {
+      "v": 27,
+      "text": "Masanın taşınması için sırıkların içinden geçeceği halkalar kenarlığa yakın olmalı."
+    },
+    {
+      "v": 28,
+      "text": "Sırıkları akasya ağacından yap, altınla kapla. Masa onlarla taşınacak."
+    },
+    {
+      "v": 29,
+      "text": "Masa için saf altından tabaklar, sahanlar, dökmelik sunu testileri, tasları yap."
+    },
+    {
+      "v": 30,
+      "text": "Ekmekleri sürekli olarak huzuruma, masanın üzerine koyacaksın.”"
+    },
+    {
+      "section": "Kandillik"
+    },
+    {
+      "v": 31,
+      "text": "“Saf altından bir kandillik yap. Ayağı, gövdesi dövme altın olsun. Çanak, tomurcuk ve çiçek motifleri kendinden olsun."
+    },
+    {
+      "v": 32,
+      "text": "Kandillik üç kolu bir yanda, üç kolu öteki yanda olmak üzere altı kollu olacak."
+    },
+    {
+      "v": 33,
+      "text": "Her kolda badem çiçeğini andıran üç çanak, tomurcuk ve çiçek motifi bulunacak. Altı kol da aynı olacak."
+    },
+    {
+      "v": 34,
+      "text": "Kandilliğin gövdesinde badem çiçeğini andıran dört çanak, tomurcuk ve çiçek motifi olacak."
+    },
+    {
+      "v": 35,
+      "text": "Kandillikten yükselen ilk iki kolun, ikinci iki kolun, üçüncü iki kolun altında kendinden birer tomurcuk bulunacak. Toplam altı kol olacak."
+    },
+    {
+      "v": 36,
+      "text": "Tomurcukları, kolları tek parça olan kandillik saf dövme altından olacak."
+    },
+    {
+      "v": 37,
+      "text": "“Kandillik için yedi kandil yap; kandiller karşısını aydınlatacak biçimde yerleştirilsin."
+    },
+    {
+      "v": 38,
+      "text": "Fitil maşaları, tablaları saf altından olacak."
+    },
+    {
+      "v": 39,
+      "text": "Bütün takımları dahil kandilliğe bir talant saf altın harcanacak."
+    },
+    {
+      "v": 40,
+      "text": "Her şeyi sana dağda gösterilen örneğe göre yapmaya dikkat et.”"
+    }
+  ],
+  "title": "Buluşma Çadırı için Armağanlar"
+}

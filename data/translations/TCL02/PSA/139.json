@@ -1,1 +1,107 @@
-{"t":"TCL02","b":"PSA","c":139,"content":[{"v":1,"text":"Ya RAB, sınayıp tanıdın beni."},{"v":2,"text":"Oturup kalkışımı bilirsin, Niyetimi uzaktan anlarsın."},{"v":3,"text":"Gittiğim yolu, yattığım yeri inceden inceye elersin, Bütün yaptıklarımdan haberin var."},{"v":4,"text":"Daha sözü ağzıma almadan, Söyleyeceğim her şeyi bilirsin, ya RAB."},{"v":5,"text":"Beni çepeçevre kuşattın, Elini üzerime koydun."},{"v":6,"text":"Kaldıramam böylesi bir bilgiyi, Başa çıkamam, erişemem."},{"v":7,"text":"Nereye gidebilirim senin Ruhun'dan, Nereye kaçabilirim huzurundan?"},{"v":8,"text":"Göklere çıksam, oradasın, Ölüler diyarına yatak sersem, yine oradasın."},{"v":9,"text":"Seherin kanatlarını alıp uçsam, Denizin ötesine konsam,"},{"v":10,"text":"Orada bile elin yol gösterir bana, Sağ elin tutar beni."},{"v":11,"text":"Desem ki, “Karanlık beni kaplasın, Çevremdeki aydınlık geceye dönsün.”"},{"v":12,"text":"Karanlık bile karanlık sayılmaz senin için, Gece, gündüz gibi ışıldar, Karanlıkla aydınlık birdir senin için."},{"v":13,"text":"İç varlığımı sen yarattın, Annemin rahminde beni sen ördün."},{"v":14,"text":"Sana övgüler sunarım, Çünkü müthiş ve harika yaratılmışım. Ne harika işlerin var! Bunu çok iyi bilirim."},{"v":15,"text":"Gizli yerde yaratıldığımda, Yerin derinliklerinde örüldüğümde, Bedenim senden gizli değildi."},{"v":16,"text":"Henüz döl yatağındayken gözlerin gördü beni; Bana ayrılan günlerin hiçbiri gelmeden, Hepsi senin kitabına yazılmıştı."},{"v":17,"text":"Hakkımdaki düşüncelerin ne değerli, ey Tanrı, Sayıları ne çok!"},{"v":18,"text":"Kum tanelerinden fazladır saymaya kalksam. Uyanıyorum, hâlâ seninleyim."},{"v":19,"text":"Ey Tanrı, keşke kötüleri öldürsen! Ey eli kanlı insanlar, uzaklaşın benden!"},{"v":20,"text":"Çünkü senin için kötü konuşuyorlar, Adını kötüye kullanıyor düşmanların."},{"v":21,"text":"Ya RAB, nasıl tiksinmem senden tiksinenlerden? Nasıl iğrenmem sana başkaldıranlardan?"},{"v":22,"text":"Onlardan tümüyle nefret ediyor, Onları düşman sayıyorum."},{"v":23,"text":"Ey Tanrı, yokla beni, tanı yüreğimi, Sına beni, öğren kaygılarımı."},{"v":24,"text":"Bak, seni gücendiren bir yönüm var mı, Öncülük et bana sonsuz yaşam yolunda!"}]}
+{
+  "t": "TCL02",
+  "b": "PSA",
+  "c": 139,
+  "content": [
+    {
+      "section": "139. Mezmur"
+    },
+    {
+      "v": 1,
+      "text": "Ya RAB, sınayıp tanıdın beni."
+    },
+    {
+      "v": 2,
+      "text": "Oturup kalkışımı bilirsin, Niyetimi uzaktan anlarsın."
+    },
+    {
+      "v": 3,
+      "text": "Gittiğim yolu, yattığım yeri inceden inceye elersin, Bütün yaptıklarımdan haberin var."
+    },
+    {
+      "v": 4,
+      "text": "Daha sözü ağzıma almadan, Söyleyeceğim her şeyi bilirsin, ya RAB."
+    },
+    {
+      "v": 5,
+      "text": "Beni çepeçevre kuşattın, Elini üzerime koydun."
+    },
+    {
+      "v": 6,
+      "text": "Kaldıramam böylesi bir bilgiyi, Başa çıkamam, erişemem."
+    },
+    {
+      "v": 7,
+      "text": "Nereye gidebilirim senin Ruhun'dan, Nereye kaçabilirim huzurundan?"
+    },
+    {
+      "v": 8,
+      "text": "Göklere çıksam, oradasın, Ölüler diyarına yatak sersem, yine oradasın."
+    },
+    {
+      "v": 9,
+      "text": "Seherin kanatlarını alıp uçsam, Denizin ötesine konsam,"
+    },
+    {
+      "v": 10,
+      "text": "Orada bile elin yol gösterir bana, Sağ elin tutar beni."
+    },
+    {
+      "v": 11,
+      "text": "Desem ki, “Karanlık beni kaplasın, Çevremdeki aydınlık geceye dönsün.”"
+    },
+    {
+      "v": 12,
+      "text": "Karanlık bile karanlık sayılmaz senin için, Gece, gündüz gibi ışıldar, Karanlıkla aydınlık birdir senin için."
+    },
+    {
+      "v": 13,
+      "text": "İç varlığımı sen yarattın, Annemin rahminde beni sen ördün."
+    },
+    {
+      "v": 14,
+      "text": "Sana övgüler sunarım, Çünkü müthiş ve harika yaratılmışım. Ne harika işlerin var! Bunu çok iyi bilirim."
+    },
+    {
+      "v": 15,
+      "text": "Gizli yerde yaratıldığımda, Yerin derinliklerinde örüldüğümde, Bedenim senden gizli değildi."
+    },
+    {
+      "v": 16,
+      "text": "Henüz döl yatağındayken gözlerin gördü beni; Bana ayrılan günlerin hiçbiri gelmeden, Hepsi senin kitabına yazılmıştı."
+    },
+    {
+      "v": 17,
+      "text": "Hakkımdaki düşüncelerin ne değerli, ey Tanrı, Sayıları ne çok!"
+    },
+    {
+      "v": 18,
+      "text": "Kum tanelerinden fazladır saymaya kalksam. Uyanıyorum, hâlâ seninleyim."
+    },
+    {
+      "v": 19,
+      "text": "Ey Tanrı, keşke kötüleri öldürsen! Ey eli kanlı insanlar, uzaklaşın benden!"
+    },
+    {
+      "v": 20,
+      "text": "Çünkü senin için kötü konuşuyorlar, Adını kötüye kullanıyor düşmanların."
+    },
+    {
+      "v": 21,
+      "text": "Ya RAB, nasıl tiksinmem senden tiksinenlerden? Nasıl iğrenmem sana başkaldıranlardan?"
+    },
+    {
+      "v": 22,
+      "text": "Onlardan tümüyle nefret ediyor, Onları düşman sayıyorum."
+    },
+    {
+      "v": 23,
+      "text": "Ey Tanrı, yokla beni, tanı yüreğimi, Sına beni, öğren kaygılarımı."
+    },
+    {
+      "v": 24,
+      "text": "Bak, seni gücendiren bir yönüm var mı, Öncülük et bana sonsuz yaşam yolunda!"
+    }
+  ],
+  "title": "139. Mezmur"
+}

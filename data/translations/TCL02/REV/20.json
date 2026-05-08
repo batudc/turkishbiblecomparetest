@@ -1,1 +1,77 @@
-{"t":"TCL02","b":"REV","c":20,"content":[{"v":1,"text":"Sonra bir meleğin gökten indiğini gördüm. Elinde dipsiz derinliklerin anahtarı ve büyük bir zincir vardı."},{"v":2,"text":"Melek ejderhayı –İblis ya da Şeytan denen o eski yılanı– yakalayıp bin yıl için bağladı."},{"v":3,"text":"Bin yıl tamamlanıncaya dek ulusları bir daha saptırmasın diye onu dipsiz derinliklere attı, oraya kapayıp girişi mühürledi. Bin yıl geçtikten sonra kısa bir süre için serbest bırakılması gerekiyor."},{"v":4,"text":"Bazı tahtlar ve bunlara oturanları gördüm. Onlara yargılama yetkisi verilmişti. İsa'ya tanıklık ve Tanrı'nın sözü uğruna başı kesilenlerin canlarını da gördüm. Bunlar, canavara ve heykeline tapmamış, alınlarına ve ellerine onun işaretini almamış olanlardı. Hepsi dirilip Mesih'le birlikte bin yıl egemenlik sürdüler."},{"v":5,"text":"İlk diriliş budur. Ölülerin geri kalanı bin yıl tamamlanmadan dirilmedi."},{"v":6,"text":"İlk dirilişe dahil olanlar mutlu ve kutsaldır. İkinci ölümün bunların üzerinde yetkisi yoktur. Onlar Tanrı'nın ve Mesih'in kâhinleri olacak, O'nunla birlikte bin yıl egemenlik sürecekler."},{"v":7,"text":"Bin yıl tamamlanınca Şeytan atıldığı zindandan serbest bırakılacak."},{"v":8,"text":"Yeryüzünün dört bucağındaki ulusları –Gog'la Magog'u– saptırmak, savaş için bir araya toplamak üzere zindandan çıkacak. Toplananların sayısı deniz kumu kadar çoktur."},{"v":9,"text":"Yeryüzünün dört bir yanından gelerek kutsalların ordugahını ve sevilen kenti kuşattılar. Ama gökten ateş yağdı, onları yakıp yok etti."},{"v":10,"text":"Onları saptıran İblis ise canavarla sahte peygamberin de içinde bulunduğu ateş ve kükürt gölüne atıldı. Gece gündüz, sonsuzlara dek işkence çekeceklerdir."},{"v":11,"text":"Sonra büyük, beyaz bir taht ve tahtta oturanı gördüm. Yerle gök önünden kaçtılar, yok olup gittiler."},{"v":12,"text":"Tahtın önünde duran küçük büyük, ölüleri gördüm. Sonra kitaplar açıldı. Yaşam kitabı denen başka bir kitap daha açıldı. Ölüler kitaplarda yazılanlara bakılarak yaptıklarına göre yargılandı."},{"v":13,"text":"Deniz kendisinde olan ölüleri, ölüm ve ölüler diyarı da kendilerinde olan ölüleri teslim ettiler. Her biri yaptıklarına göre yargılandı."},{"v":14,"text":"Ölüm ve ölüler diyarı ateş gölüne atıldı. İşte bu ateş gölü ikinci ölümdür."},{"v":15,"text":"Adı yaşam kitabına yazılmamış olanlar ateş gölüne atıldı."}]}
+{
+  "t": "TCL02",
+  "b": "REV",
+  "c": 20,
+  "content": [
+    {
+      "section": "Bin Yıl"
+    },
+    {
+      "v": 1,
+      "text": "Sonra bir meleğin gökten indiğini gördüm. Elinde dipsiz derinliklerin anahtarı ve büyük bir zincir vardı."
+    },
+    {
+      "v": 2,
+      "text": "Melek ejderhayı –İblis ya da Şeytan denen o eski yılanı– yakalayıp bin yıl için bağladı."
+    },
+    {
+      "v": 3,
+      "text": "Bin yıl tamamlanıncaya dek ulusları bir daha saptırmasın diye onu dipsiz derinliklere attı, oraya kapayıp girişi mühürledi. Bin yıl geçtikten sonra kısa bir süre için serbest bırakılması gerekiyor."
+    },
+    {
+      "v": 4,
+      "text": "Bazı tahtlar ve bunlara oturanları gördüm. Onlara yargılama yetkisi verilmişti. İsa'ya tanıklık ve Tanrı'nın sözü uğruna başı kesilenlerin canlarını da gördüm. Bunlar, canavara ve heykeline tapmamış, alınlarına ve ellerine onun işaretini almamış olanlardı. Hepsi dirilip Mesih'le birlikte bin yıl egemenlik sürdüler."
+    },
+    {
+      "v": 5,
+      "text": "İlk diriliş budur. Ölülerin geri kalanı bin yıl tamamlanmadan dirilmedi."
+    },
+    {
+      "v": 6,
+      "text": "İlk dirilişe dahil olanlar mutlu ve kutsaldır. İkinci ölümün bunların üzerinde yetkisi yoktur. Onlar Tanrı'nın ve Mesih'in kâhinleri olacak, O'nunla birlikte bin yıl egemenlik sürecekler."
+    },
+    {
+      "section": "Şeytan'ın Cezalandırılması"
+    },
+    {
+      "v": 7,
+      "text": "Bin yıl tamamlanınca Şeytan atıldığı zindandan serbest bırakılacak."
+    },
+    {
+      "v": 8,
+      "text": "Yeryüzünün dört bucağındaki ulusları –Gog'la Magog'u– saptırmak, savaş için bir araya toplamak üzere zindandan çıkacak. Toplananların sayısı deniz kumu kadar çoktur."
+    },
+    {
+      "v": 9,
+      "text": "Yeryüzünün dört bir yanından gelerek kutsalların ordugahını ve sevilen kenti kuşattılar. Ama gökten ateş yağdı, onları yakıp yok etti."
+    },
+    {
+      "v": 10,
+      "text": "Onları saptıran İblis ise canavarla sahte peygamberin de içinde bulunduğu ateş ve kükürt gölüne atıldı. Gece gündüz, sonsuzlara dek işkence çekeceklerdir."
+    },
+    {
+      "section": "Ölülerin Yargılanması"
+    },
+    {
+      "v": 11,
+      "text": "Sonra büyük, beyaz bir taht ve tahtta oturanı gördüm. Yerle gök önünden kaçtılar, yok olup gittiler."
+    },
+    {
+      "v": 12,
+      "text": "Tahtın önünde duran küçük büyük, ölüleri gördüm. Sonra kitaplar açıldı. Yaşam kitabı denen başka bir kitap daha açıldı. Ölüler kitaplarda yazılanlara bakılarak yaptıklarına göre yargılandı."
+    },
+    {
+      "v": 13,
+      "text": "Deniz kendisinde olan ölüleri, ölüm ve ölüler diyarı da kendilerinde olan ölüleri teslim ettiler. Her biri yaptıklarına göre yargılandı."
+    },
+    {
+      "v": 14,
+      "text": "Ölüm ve ölüler diyarı ateş gölüne atıldı. İşte bu ateş gölü ikinci ölümdür."
+    },
+    {
+      "v": 15,
+      "text": "Adı yaşam kitabına yazılmamış olanlar ateş gölüne atıldı."
+    }
+  ],
+  "title": "Bin Yıl"
+}

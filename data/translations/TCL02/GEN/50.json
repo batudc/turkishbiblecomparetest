@@ -1,1 +1,117 @@
-{"t": "TCL02", "b": "GEN", "c": 50, "content": [{"v": 1, "text": "Yusuf kendini babasının üzerine attı, ağlayarak onu öptü."}, {"v": 2, "text": "Babasının cesedini mumyalamaları için özel hekimlerine buyruk verdi. Hekimler İsrail'i mumyaladılar."}, {"v": 3, "text": "Bu iş kırk gün sürdü. Mumyalama için bu süre gerekliydi. Mısırlılar İsrail için yetmiş gün yas tuttu."}, {"v": 4, "text": "Yas günleri geçince, Yusuf firavunun ev halkına, “Eğer benden hoşnut kaldınızsa, lütfen firavunla konuşun” dedi,"}, {"v": 5, "text": "“Babam bana ant içirdi: ‘Ölmek üzereyim. Beni Kenan ülkesinde kendim için kazdırdığım mezara gömeceksin’ dedi. Şimdi lütfen firavuna bildirin, izin versin gideyim, babamı gömüp geleyim.”"}, {"v": 6, "text": "Firavun, “Git, babanı göm, andını yerine getir” dedi."}, {"v": 7, "text": "Böylece Yusuf babasını gömmeye gitti. Firavunun bütün görevlileri, sarayın ve Mısır'ın ileri gelenleri ona eşlik etti."}, {"v": 8, "text": "Yusuf'un bütün ailesi, kardeşleri, babasının ev halkı da onunla birlikteydi. Yalnız çocukları, davarlarla sığırları Goşen'de bıraktılar."}, {"v": 9, "text": "Arabalarla atlılar da onları izledi. Büyük bir alay oluşturdular."}, {"v": 10, "text": "Şeria Irmağı'nın doğusunda Atat Harmanı'na varınca, yüksek sesle, acı acı ağıt yaktılar. Yusuf babası için yedi gün yas tuttu."}, {"v": 11, "text": "O bölgede yaşayan Kenanlılar, Atat Harmanı'ndaki yası görünce, “Mısırlılar ne kadar hüzünlü yas tutuyor!” dediler. Bu yüzden, Şeria Irmağı'nın doğusundaki bu yere Avel-Misrayim adı verildi."}, {"v": 12, "text": "Yakup'un oğulları, babalarının vermiş olduğu buyruğu tam tamına yerine getirdiler."}, {"v": 13, "text": "Onu Kenan ülkesine götürüp Mamre yakınlarında Makpela Tarlası'ndaki mağaraya gömdüler. O mağarayı mezar yapmak üzere tarlayla birlikte Hititli Efron'dan İbrahim satın almıştı."}, {"v": 14, "text": "Yusuf babasını gömdükten sonra, kendisi, kardeşleri ve onunla birlikte babasını gömmeye gelenlerin hepsi Mısır'a döndüler."}, {"v": 15, "text": "Babalarının ölümünden sonra Yusuf'un kardeşleri, “Belki Yusuf bize kin besliyordur” dediler, “Ya ona yaptığımız kötülüğe karşılık bizden öç almaya kalkarsa?”"}, {"v": 16, "text": "Böylece Yusuf'a haber gönderdiler: “Babamız ölmeden önce Yusuf'a şöyle deyin diye buyurmuştu: ‘Kardeşlerin sana kötülük yaptılar, lütfen onların suçunu, günahını bağışla.’ Ne olur şimdi günahımızı bağışla. Biz babanın Tanrısı'nın kullarıyız.” Yusuf bu haberi alınca ağladı."}, {"v": 18, "text": "Bunun üzerine kardeşleri gidip onun önünde yere kapanarak, “Senin köleniz” dediler."}, {"v": 19, "text": "Yusuf, “Korkmayın” dedi, “Ben Tanrı mıyım?"}, {"v": 20, "text": "Siz bana kötülük düşündünüz, ama Tanrı bugün olduğu gibi birçok halkın yaşamını korumak için o kötülüğü iyiliğe çevirdi."}, {"v": 21, "text": "Korkmanıza gerek yok, size de çocuklarınıza da bakacağım.” Yüreklerine dokunacak güzel sözlerle onlara güven verdi."}, {"v": 22, "text": "Yusuf'la babasının ev halkı Mısır'a yerleştiler. Yusuf yüz on yıl yaşadı."}, {"v": 23, "text": "Efrayim'in üç göbek çocuklarını gördü. Manaşşe'nin oğlu Makir'in çocukları onun elinde doğdu."}, {"v": 24, "text": "Yusuf yakınlarına, “Ben ölmek üzereyim” dedi, “Ama Tanrı kesinlikle size yardım edecek; sizi İbrahim'e, İshak'a, Yakup'a ant içerek söz verdiği topraklara götürecek.”"}, {"v": 25, "text": "Sonra onlara ant içirerek, “Tanrı kesinlikle size yardım edecek” dedi, “O zaman kemiklerimi buradan götürürsünüz.”"}, {"v": 26, "text": "Yusuf yüz on yaşında öldü. Onu mumyalayıp Mısır'da bir tabuta koydular."}]}
+{
+  "t": "TCL02",
+  "b": "GEN",
+  "c": 50,
+  "content": [
+    {
+      "section": "Yakup'un Gömülüşü"
+    },
+    {
+      "v": 1,
+      "text": "Yusuf kendini babasının üzerine attı, ağlayarak onu öptü."
+    },
+    {
+      "v": 2,
+      "text": "Babasının cesedini mumyalamaları için özel hekimlerine buyruk verdi. Hekimler İsrail'i mumyaladılar."
+    },
+    {
+      "v": 3,
+      "text": "Bu iş kırk gün sürdü. Mumyalama için bu süre gerekliydi. Mısırlılar İsrail için yetmiş gün yas tuttu."
+    },
+    {
+      "v": 4,
+      "text": "Yas günleri geçince, Yusuf firavunun ev halkına, “Eğer benden hoşnut kaldınızsa, lütfen firavunla konuşun” dedi,"
+    },
+    {
+      "v": 5,
+      "text": "“Babam bana ant içirdi: ‘Ölmek üzereyim. Beni Kenan ülkesinde kendim için kazdırdığım mezara gömeceksin’ dedi. Şimdi lütfen firavuna bildirin, izin versin gideyim, babamı gömüp geleyim.”"
+    },
+    {
+      "v": 6,
+      "text": "Firavun, “Git, babanı göm, andını yerine getir” dedi."
+    },
+    {
+      "v": 7,
+      "text": "Böylece Yusuf babasını gömmeye gitti. Firavunun bütün görevlileri, sarayın ve Mısır'ın ileri gelenleri ona eşlik etti."
+    },
+    {
+      "v": 8,
+      "text": "Yusuf'un bütün ailesi, kardeşleri, babasının ev halkı da onunla birlikteydi. Yalnız çocukları, davarlarla sığırları Goşen'de bıraktılar."
+    },
+    {
+      "v": 9,
+      "text": "Arabalarla atlılar da onları izledi. Büyük bir alay oluşturdular."
+    },
+    {
+      "v": 10,
+      "text": "Şeria Irmağı'nın doğusunda Atat Harmanı'na varınca, yüksek sesle, acı acı ağıt yaktılar. Yusuf babası için yedi gün yas tuttu."
+    },
+    {
+      "v": 11,
+      "text": "O bölgede yaşayan Kenanlılar, Atat Harmanı'ndaki yası görünce, “Mısırlılar ne kadar hüzünlü yas tutuyor!” dediler. Bu yüzden, Şeria Irmağı'nın doğusundaki bu yere Avel-Misrayim adı verildi."
+    },
+    {
+      "v": 12,
+      "text": "Yakup'un oğulları, babalarının vermiş olduğu buyruğu tam tamına yerine getirdiler."
+    },
+    {
+      "v": 13,
+      "text": "Onu Kenan ülkesine götürüp Mamre yakınlarında Makpela Tarlası'ndaki mağaraya gömdüler. O mağarayı mezar yapmak üzere tarlayla birlikte Hititli Efron'dan İbrahim satın almıştı."
+    },
+    {
+      "v": 14,
+      "text": "Yusuf babasını gömdükten sonra, kendisi, kardeşleri ve onunla birlikte babasını gömmeye gelenlerin hepsi Mısır'a döndüler."
+    },
+    {
+      "section": "Yusuf Kardeşlerine Güven Veriyor"
+    },
+    {
+      "v": 15,
+      "text": "Babalarının ölümünden sonra Yusuf'un kardeşleri, “Belki Yusuf bize kin besliyordur” dediler, “Ya ona yaptığımız kötülüğe karşılık bizden öç almaya kalkarsa?”"
+    },
+    {
+      "v": 16,
+      "text": "Böylece Yusuf'a haber gönderdiler: “Babamız ölmeden önce Yusuf'a şöyle deyin diye buyurmuştu: ‘Kardeşlerin sana kötülük yaptılar, lütfen onların suçunu, günahını bağışla.’ Ne olur şimdi günahımızı bağışla. Biz babanın Tanrısı'nın kullarıyız.” Yusuf bu haberi alınca ağladı."
+    },
+    {
+      "v": 18,
+      "text": "Bunun üzerine kardeşleri gidip onun önünde yere kapanarak, “Senin köleniz” dediler."
+    },
+    {
+      "v": 19,
+      "text": "Yusuf, “Korkmayın” dedi, “Ben Tanrı mıyım?"
+    },
+    {
+      "v": 20,
+      "text": "Siz bana kötülük düşündünüz, ama Tanrı bugün olduğu gibi birçok halkın yaşamını korumak için o kötülüğü iyiliğe çevirdi."
+    },
+    {
+      "v": 21,
+      "text": "Korkmanıza gerek yok, size de çocuklarınıza da bakacağım.” Yüreklerine dokunacak güzel sözlerle onlara güven verdi."
+    },
+    {
+      "section": "Yusuf'un Ölümü"
+    },
+    {
+      "v": 22,
+      "text": "Yusuf'la babasının ev halkı Mısır'a yerleştiler. Yusuf yüz on yıl yaşadı."
+    },
+    {
+      "v": 23,
+      "text": "Efrayim'in üç göbek çocuklarını gördü. Manaşşe'nin oğlu Makir'in çocukları onun elinde doğdu."
+    },
+    {
+      "v": 24,
+      "text": "Yusuf yakınlarına, “Ben ölmek üzereyim” dedi, “Ama Tanrı kesinlikle size yardım edecek; sizi İbrahim'e, İshak'a, Yakup'a ant içerek söz verdiği topraklara götürecek.”"
+    },
+    {
+      "v": 25,
+      "text": "Sonra onlara ant içirerek, “Tanrı kesinlikle size yardım edecek” dedi, “O zaman kemiklerimi buradan götürürsünüz.”"
+    },
+    {
+      "v": 26,
+      "text": "Yusuf yüz on yaşında öldü. Onu mumyalayıp Mısır'da bir tabuta koydular."
+    }
+  ],
+  "title": "Yakup'un Gömülüşü"
+}

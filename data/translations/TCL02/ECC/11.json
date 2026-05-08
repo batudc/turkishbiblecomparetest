@@ -1,1 +1,54 @@
-{"t":"TCL02","b":"ECC","c":11,"content":[{"v":1,"text":"Ekmeğini suya at, Çünkü günler sonra onu bulursun."},{"v":2,"text":"Yedi, hatta sekiz kişiye pay ver, Çünkü ülkenin başına ne felaket geleceğini bilemezsin."},{"v":3,"text":"Bulutlar su yüklüyse, Yeryüzüne döker yağmurlarını. Ağaç ister güneye ister kuzeye devrilsin, Devrildiği yerde kalır."},{"v":4,"text":"Rüzgarı gözeten ekmez, Bulutlara bakan biçmez."},{"v":5,"text":"Ana rahmindeki çocuğun nasıl ruh ve beden aldığını bilmediğin gibi, Her şeyi yaratan Tanrı'nın yaptıklarını da bilemezsin."},{"v":6,"text":"Tohumunu sabah ek, Akşam da elin boş durmasın. Çünkü bu mu iyi, şu mu, Yoksa ikisi de aynı sonucu mu verecek, bilemezsin."},{"v":7,"text":"Işık tatlıdır, Güneşi görmek güzeldir."},{"v":8,"text":"Evet, insan uzun yıllar yaşarsa, Sevinçle yaşasın. Ama karanlık günleri unutmasın, Çünkü onlar da az değil. Gelecek her şey boştur."},{"v":9,"text":"Ey delikanlı, gençliğinle sevin, Bırak gençlik günlerinde yüreğin sevinç duysun. Gönlünün isteklerini, gözünün gördüklerini izle, Ama bil ki, bütün bunlar için Tanrı seni yargılayacaktır."},{"v":10,"text":"Öyleyse at tasayı yüreğinden, Uzaklaştır derdi bedeninden. Çünkü gençlik de dinçlik de boştur."}]}
+{
+  "t": "TCL02",
+  "b": "ECC",
+  "c": 11,
+  "content": [
+    {
+      "section": "İyilik Yap, Denize At"
+    },
+    {
+      "v": 1,
+      "text": "Ekmeğini suya at, Çünkü günler sonra onu bulursun."
+    },
+    {
+      "v": 2,
+      "text": "Yedi, hatta sekiz kişiye pay ver, Çünkü ülkenin başına ne felaket geleceğini bilemezsin."
+    },
+    {
+      "v": 3,
+      "text": "Bulutlar su yüklüyse, Yeryüzüne döker yağmurlarını. Ağaç ister güneye ister kuzeye devrilsin, Devrildiği yerde kalır."
+    },
+    {
+      "v": 4,
+      "text": "Rüzgarı gözeten ekmez, Bulutlara bakan biçmez."
+    },
+    {
+      "v": 5,
+      "text": "Ana rahmindeki çocuğun nasıl ruh ve beden aldığını bilmediğin gibi, Her şeyi yaratan Tanrı'nın yaptıklarını da bilemezsin."
+    },
+    {
+      "v": 6,
+      "text": "Tohumunu sabah ek, Akşam da elin boş durmasın. Çünkü bu mu iyi, şu mu, Yoksa ikisi de aynı sonucu mu verecek, bilemezsin."
+    },
+    {
+      "v": 7,
+      "text": "Işık tatlıdır, Güneşi görmek güzeldir."
+    },
+    {
+      "v": 8,
+      "text": "Evet, insan uzun yıllar yaşarsa, Sevinçle yaşasın. Ama karanlık günleri unutmasın, Çünkü onlar da az değil. Gelecek her şey boştur."
+    },
+    {
+      "section": "Gençliğinin Değerini Bil"
+    },
+    {
+      "v": 9,
+      "text": "Ey delikanlı, gençliğinle sevin, Bırak gençlik günlerinde yüreğin sevinç duysun. Gönlünün isteklerini, gözünün gördüklerini izle, Ama bil ki, bütün bunlar için Tanrı seni yargılayacaktır."
+    },
+    {
+      "v": 10,
+      "text": "Öyleyse at tasayı yüreğinden, Uzaklaştır derdi bedeninden. Çünkü gençlik de dinçlik de boştur."
+    }
+  ],
+  "title": "İyilik Yap, Denize At"
+}

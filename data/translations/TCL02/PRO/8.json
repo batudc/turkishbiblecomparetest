@@ -1,1 +1,151 @@
-{"t": "TCL02", "b": "PRO", "c": 8, "content": [{"v": 1, "text": "Bilgelik çağırıyor, Akıl sesini yükseltiyor."}, {"v": 2, "text": "Yol kenarındaki tepelerin başında, Yolların birleştiği yerde duruyor o."}, {"v": 3, "text": "Kentin girişinde, kapıların yanında, Sesini yükseltiyor:"}, {"v": 4, "text": "“Ey insanlar, size sesleniyorum, Çağrım insan soyunadır!"}, {"v": 5, "text": "Ey bön kişiler, ihtiyatlı olmayı öğrenin; Sağduyulu olmayı öğrenin, ey akılsızlar!"}, {"v": 6, "text": "Söylediğim yetkin sözleri dinleyin, Ağzımı doğruları söylemek için açarım."}, {"v": 7, "text": "Ağzım gerçeği duyurur, Çünkü dudaklarım kötülükten iğrenir."}, {"v": 8, "text": "Ağzımdan çıkan her söz doğrudur, Yoktur eğri ya da sapık olanı."}, {"v": 9, "text": "Apaçıktır hepsi anlayana, Bilgiye erişen, doğruluğunu bilir onların."}, {"v": 10, "text": "Gümüş yerine terbiyeyi, Saf altın yerine bilgiyi edinin."}, {"v": 11, "text": "Çünkü bilgelik mücevherden değerlidir, Dilediğin hiçbir şey onunla kıyaslanamaz."}, {"v": 12, "text": "Ben bilgelik olarak ihtiyatı kendime konut edindim. Bilgi ve sağgörü bendedir."}, {"v": 13, "text": "RAB'den korkmak kötülükten nefret etmek demektir. Kibirden, küstahlıktan, Kötü yoldan, sapık ağızdan nefret ederim."}, {"v": 14, "text": "Öğüt ve sağlam karar bana özgüdür. Akıl ve güç kaynağı benim."}, {"v": 15, "text": "Krallar sayemde egemenlik sürer, Hükümdarlar adil kurallar koyar."}, {"v": 16, "text": "Önderler, adaletle yöneten soylular Sayemde yönetirler."}, {"v": 17, "text": "Beni sevenleri ben de severim, Gayretle arayan beni bulur."}, {"v": 18, "text": "Zenginlik ve onur, Kalıcı değerler ve bolluk bendedir."}, {"v": 19, "text": "Meyvem altından, saf altından, Ürünüm seçme gümüşten daha iyidir."}, {"v": 20, "text": "Doğruluk yolunda, Adaletin izinden yürürüm."}, {"v": 21, "text": "Böylelikle, beni sevenleri servet sahibi yapar, Hazinelerini doldururum."}, {"v": 22, "text": "RAB yaratma işine başladığında İlk beni yarattı,"}, {"v": 23, "text": "Dünya var olmadan önce, Ta başlangıçta, öncesizlikte yerimi aldım."}, {"v": 24, "text": "Enginler yokken, Suları bol pınarlar yokken doğdum ben."}, {"v": 25, "text": "Dağlar daha oluşmadan, Tepeler belirmeden, RAB dünyayı, kırları Ve dünyadaki toprağın zerresini yaratmadan doğdum."}, {"v": 27, "text": "RAB gökleri yerine koyduğunda oradaydım, Engin denizleri ufukla çevirdiğinde,"}, {"v": 28, "text": "Bulutları oluşturduğunda, Denizin kaynaklarını güçlendirdiğinde,"}, {"v": 29, "text": "Sular buyruğundan öte geçmesinler diye Denize sınır çizdiğinde, Dünyanın temellerini pekiştirdiğinde,"}, {"v": 30, "text": "Baş mimar olarak O'nun yanındaydım. Gün be gün sevinçle dolup taştım, Huzurunda hep coştum."}, {"v": 31, "text": "O'nun dünyası mutluluğum, İnsanları sevincimdi."}, {"v": 32, "text": "Çocuklarım, şimdi beni dinleyin: Yolumu izleyenlere ne mutlu!"}, {"v": 33, "text": "Uyarılarımı dinleyin ve bilge kişiler olun, Görmezlikten gelmeyin onları."}, {"v": 34, "text": "Beni dinleyen, Her gün kapımı gözleyen, Kapımın eşiğinden ayrılmayan kişiye ne mutlu!"}, {"v": 35, "text": "Çünkü beni bulan yaşam bulur Ve RAB'bin beğenisini kazanır."}, {"v": 36, "text": "Beni gözardı edense kendine zarar verir, Benden nefret eden, ölümü seviyor demektir.”"}]}
+{
+  "t": "TCL02",
+  "b": "PRO",
+  "c": 8,
+  "content": [
+    {
+      "section": "Bilgeliğe Kulak Ver"
+    },
+    {
+      "v": 1,
+      "text": "Bilgelik çağırıyor, Akıl sesini yükseltiyor."
+    },
+    {
+      "v": 2,
+      "text": "Yol kenarındaki tepelerin başında, Yolların birleştiği yerde duruyor o."
+    },
+    {
+      "v": 3,
+      "text": "Kentin girişinde, kapıların yanında, Sesini yükseltiyor:"
+    },
+    {
+      "v": 4,
+      "text": "“Ey insanlar, size sesleniyorum, Çağrım insan soyunadır!"
+    },
+    {
+      "v": 5,
+      "text": "Ey bön kişiler, ihtiyatlı olmayı öğrenin; Sağduyulu olmayı öğrenin, ey akılsızlar!"
+    },
+    {
+      "v": 6,
+      "text": "Söylediğim yetkin sözleri dinleyin, Ağzımı doğruları söylemek için açarım."
+    },
+    {
+      "v": 7,
+      "text": "Ağzım gerçeği duyurur, Çünkü dudaklarım kötülükten iğrenir."
+    },
+    {
+      "v": 8,
+      "text": "Ağzımdan çıkan her söz doğrudur, Yoktur eğri ya da sapık olanı."
+    },
+    {
+      "v": 9,
+      "text": "Apaçıktır hepsi anlayana, Bilgiye erişen, doğruluğunu bilir onların."
+    },
+    {
+      "v": 10,
+      "text": "Gümüş yerine terbiyeyi, Saf altın yerine bilgiyi edinin."
+    },
+    {
+      "v": 11,
+      "text": "Çünkü bilgelik mücevherden değerlidir, Dilediğin hiçbir şey onunla kıyaslanamaz."
+    },
+    {
+      "v": 12,
+      "text": "Ben bilgelik olarak ihtiyatı kendime konut edindim. Bilgi ve sağgörü bendedir."
+    },
+    {
+      "v": 13,
+      "text": "RAB'den korkmak kötülükten nefret etmek demektir. Kibirden, küstahlıktan, Kötü yoldan, sapık ağızdan nefret ederim."
+    },
+    {
+      "v": 14,
+      "text": "Öğüt ve sağlam karar bana özgüdür. Akıl ve güç kaynağı benim."
+    },
+    {
+      "v": 15,
+      "text": "Krallar sayemde egemenlik sürer, Hükümdarlar adil kurallar koyar."
+    },
+    {
+      "v": 16,
+      "text": "Önderler, adaletle yöneten soylular Sayemde yönetirler."
+    },
+    {
+      "v": 17,
+      "text": "Beni sevenleri ben de severim, Gayretle arayan beni bulur."
+    },
+    {
+      "v": 18,
+      "text": "Zenginlik ve onur, Kalıcı değerler ve bolluk bendedir."
+    },
+    {
+      "v": 19,
+      "text": "Meyvem altından, saf altından, Ürünüm seçme gümüşten daha iyidir."
+    },
+    {
+      "v": 20,
+      "text": "Doğruluk yolunda, Adaletin izinden yürürüm."
+    },
+    {
+      "v": 21,
+      "text": "Böylelikle, beni sevenleri servet sahibi yapar, Hazinelerini doldururum."
+    },
+    {
+      "v": 22,
+      "text": "RAB yaratma işine başladığında İlk beni yarattı,"
+    },
+    {
+      "v": 23,
+      "text": "Dünya var olmadan önce, Ta başlangıçta, öncesizlikte yerimi aldım."
+    },
+    {
+      "v": 24,
+      "text": "Enginler yokken, Suları bol pınarlar yokken doğdum ben."
+    },
+    {
+      "v": 25,
+      "text": "Dağlar daha oluşmadan, Tepeler belirmeden, RAB dünyayı, kırları Ve dünyadaki toprağın zerresini yaratmadan doğdum."
+    },
+    {
+      "v": 27,
+      "text": "RAB gökleri yerine koyduğunda oradaydım, Engin denizleri ufukla çevirdiğinde,"
+    },
+    {
+      "v": 28,
+      "text": "Bulutları oluşturduğunda, Denizin kaynaklarını güçlendirdiğinde,"
+    },
+    {
+      "v": 29,
+      "text": "Sular buyruğundan öte geçmesinler diye Denize sınır çizdiğinde, Dünyanın temellerini pekiştirdiğinde,"
+    },
+    {
+      "v": 30,
+      "text": "Baş mimar olarak O'nun yanındaydım. Gün be gün sevinçle dolup taştım, Huzurunda hep coştum."
+    },
+    {
+      "v": 31,
+      "text": "O'nun dünyası mutluluğum, İnsanları sevincimdi."
+    },
+    {
+      "v": 32,
+      "text": "Çocuklarım, şimdi beni dinleyin: Yolumu izleyenlere ne mutlu!"
+    },
+    {
+      "v": 33,
+      "text": "Uyarılarımı dinleyin ve bilge kişiler olun, Görmezlikten gelmeyin onları."
+    },
+    {
+      "v": 34,
+      "text": "Beni dinleyen, Her gün kapımı gözleyen, Kapımın eşiğinden ayrılmayan kişiye ne mutlu!"
+    },
+    {
+      "v": 35,
+      "text": "Çünkü beni bulan yaşam bulur Ve RAB'bin beğenisini kazanır."
+    },
+    {
+      "v": 36,
+      "text": "Beni gözardı edense kendine zarar verir, Benden nefret eden, ölümü seviyor demektir.”"
+    }
+  ],
+  "title": "Bilgeliğe Kulak Ver"
+}
