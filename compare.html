@@ -6,7 +6,7 @@
   <title>Karşılaştır — Kutsal Kitap Forum</title>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Jost:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Jost:wght@300;400;500;600&family=Noto+Serif+Hebrew:wght@400;500&family=Cardo:ital,wght@0,400;0,700;1,400&family=GFS+Didot&family=Noto+Serif:ital,wght@0,400;0,700;1,400&family=Crimson+Pro:ital,wght@0,400;0,600;1,400&family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400&family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Lora:ital,wght@0,400;0,600;1,400&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;1,8..60,400&display=swap" rel="stylesheet" />
   <style>
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
@@ -184,6 +184,142 @@
     #header-links a:hover { color: var(--gold-light); }
 
 
+    /* ===== READER WRAPPER + SIDEBAR ===== */
+    #reader-wrapper {
+      flex: 1;
+      display: flex;
+      flex-direction: row;
+      overflow: hidden;
+      min-height: 0;
+    }
+
+    #sidebar-panel {
+      width: 0;
+      overflow: hidden;
+      transition: width 0.28s cubic-bezier(0.4, 0, 0.2, 1);
+      background: #0d1a25;
+      display: flex;
+      flex-direction: column;
+      flex-shrink: 0;
+    }
+    #sidebar-panel.open {
+      width: 460px;
+      border-left: 1px solid rgba(184,146,42,0.15);
+    }
+
+    #sidebar-tabs {
+      flex-shrink: 0;
+      display: flex;
+      background: #08141F;
+      border-bottom: 1px solid rgba(184,146,42,0.15);
+      padding: 0 8px;
+    }
+    .sidebar-tab {
+      padding: 8px 14px;
+      background: none;
+      border: none;
+      border-bottom: 2px solid transparent;
+      color: rgba(247,241,232,0.4);
+      font-family: 'Jost', sans-serif;
+      font-size: 10.5px;
+      font-weight: 600;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      cursor: pointer;
+      white-space: nowrap;
+      transition: color 0.15s, border-color 0.15s;
+    }
+    .sidebar-tab:hover { color: var(--gold-light); }
+    .sidebar-tab.active { color: var(--gold-light); border-bottom-color: var(--gold); }
+
+    #sidebar-sections {
+      flex: 1;
+      overflow: hidden;
+      position: relative;
+    }
+    .sidebar-section {
+      display: none;
+      flex-direction: column;
+      position: absolute;
+      inset: 0;
+      overflow: hidden;
+    }
+    .sidebar-section.active { display: flex; }
+
+    #commentary-title-bar {
+      flex-shrink: 0;
+      padding: 10px 14px 9px;
+      border-bottom: 1px solid rgba(184,146,42,0.2);
+    }
+    #commentary-title {
+      display: block;
+      font-size: 8.5px;
+      font-weight: 700;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      color: rgba(184,146,42,0.55);
+      margin-bottom: 2px;
+      font-family: 'Jost', sans-serif;
+    }
+    #commentary-source {
+      font-size: 10px;
+      color: rgba(247,241,232,0.35);
+      font-style: italic;
+      font-family: 'Jost', sans-serif;
+    }
+    #commentary-body {
+      overflow-y: auto;
+      padding: 10px 14px 16px;
+      flex: 1;
+    }
+    #commentary-loading {
+      font-size: 11px;
+      color: rgba(247,241,232,0.35);
+      padding: 8px 0;
+      font-family: 'Jost', sans-serif;
+    }
+    #commentary-intro {
+      font-size: 11.5px;
+      line-height: 1.65;
+      color: rgba(247,241,232,0.6);
+      font-style: italic;
+      border-bottom: 1px solid rgba(255,255,255,0.06);
+      padding-bottom: 10px;
+      margin-bottom: 10px;
+    }
+    #commentary-intro:empty { display: none; }
+    .comm-note {
+      margin-bottom: 10px;
+      padding-bottom: 10px;
+      border-bottom: 1px solid rgba(255,255,255,0.05);
+    }
+    .comm-note:last-child { border-bottom: none; margin-bottom: 0; }
+    .comm-ref {
+      font-size: 9.5px;
+      font-weight: 700;
+      letter-spacing: 0.06em;
+      color: var(--gold-light);
+      margin-bottom: 4px;
+      font-family: 'Jost', sans-serif;
+    }
+    .comm-text {
+      font-size: 11.5px;
+      line-height: 1.65;
+      color: rgba(247,241,232,0.75);
+    }
+    .comm-text em { color: rgba(247,241,232,0.95); font-style: italic; }
+    #commentary-empty {
+      font-size: 11px;
+      color: rgba(247,241,232,0.3);
+      padding: 8px 0;
+      font-family: 'Jost', sans-serif;
+    }
+    #btn-commentary.comm-open {
+      background: rgba(184,146,42,0.15);
+      border-color: rgba(184,146,42,0.4);
+      color: var(--gold-light);
+    }
+
     /* ===== READER LAYOUT ===== */
     #okuyucu_layout {
       flex: 1;
@@ -209,10 +345,13 @@
       border-bottom: 1px solid rgba(184,146,42,0.2);
       padding: 5px 12px;
       display: flex;
-      align-items: baseline;
-      justify-content: space-between;
-      gap: 6px;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+      user-select: none;
+      transition: background 0.12s;
     }
+    .col-header:hover { background: rgba(27,58,84,0.9); }
     .col-abbr {
       font-family: 'Jost', sans-serif;
       font-size: 10.5px;
@@ -221,18 +360,49 @@
       text-transform: uppercase;
       color: var(--gold-light);
     }
-    .col-name {
-      font-family: 'EB Garamond', serif;
-      font-size: 11.5px;
-      color: rgba(247,241,232,0.4);
-      font-style: italic;
+
+    /* ===== COLUMN INFO POPUP ===== */
+    #col-info-popup {
+      position: fixed;
+      z-index: 250;
+      background: #0f1f2e;
+      border: 1px solid rgba(184,146,42,0.3);
+      border-radius: 3px;
+      box-shadow: 0 10px 36px rgba(0,0,0,0.7), 0 0 0 1px rgba(184,146,42,0.06);
+      padding: 14px 16px 13px;
+      min-width: 200px;
+      max-width: 300px;
+      display: none;
+      font-family: 'Jost', sans-serif;
     }
-    .col-year {
-      font-size: 9.5px;
-      font-weight: 400;
-      color: rgba(247,241,232,0.2);
-      letter-spacing: 0.08em;
-      margin-left: auto;
+    #col-info-popup.open { display: block; }
+    .cip-abbr {
+      font-size: 8.5px;
+      font-weight: 700;
+      letter-spacing: 0.2em;
+      color: var(--gold);
+      text-transform: uppercase;
+      margin-bottom: 5px;
+    }
+    .cip-name {
+      font-family: 'EB Garamond', serif;
+      font-size: 15.5px;
+      color: var(--cream);
+      line-height: 1.3;
+      margin-bottom: 3px;
+    }
+    .cip-year {
+      font-size: 9px;
+      color: rgba(184,146,42,0.6);
+      letter-spacing: 0.1em;
+      margin-bottom: 10px;
+    }
+    .cip-credit {
+      font-size: 10.5px;
+      color: rgba(247,241,232,0.45);
+      line-height: 1.65;
+      border-top: 1px solid rgba(255,255,255,0.06);
+      padding-top: 9px;
     }
 
     /* Column content — the actual reading pane */
@@ -321,6 +491,119 @@
       color: #3a3025;
     }
 
+    /* Greek columns (NA27 / SBLGNT, LXX) */
+    :root { --gk-font: 'New York', ui-serif, 'Cardo', Georgia, serif; }
+    .col[data-greek] .col-content {
+      font-family: var(--gk-font);
+      font-size: 15px;
+      line-height: 2.0;
+    }
+    .col[data-greek] .vt {
+      font-size: 15px;
+      line-height: 2.0;
+    }
+
+    /* Greek font picker */
+    .gkfp-wrap {
+      position: relative;
+      padding: 4px 8px 8px;
+    }
+    .gkfp-btn {
+      width: 100%;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      padding: 7px 10px;
+      background: rgba(255,255,255,0.04);
+      border: 1px solid rgba(184,146,42,0.25);
+      border-radius: 3px;
+      cursor: pointer;
+      user-select: none;
+      transition: border-color 0.15s, background 0.15s;
+    }
+    .gkfp-btn:hover { border-color: rgba(184,146,42,0.55); background: rgba(184,146,42,0.07); }
+    .gkfp-btn .gkfp-preview-text {
+      font-size: 17px;
+      color: rgba(247,241,232,0.9);
+      line-height: 1;
+      font-family: var(--gk-font);
+      font-style: italic;
+      flex-shrink: 0;
+      min-width: 60px;
+    }
+    .gkfp-btn .gkfp-label {
+      flex: 1;
+      font-size: 11px;
+      color: rgba(247,241,232,0.65);
+      text-align: left;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+    .gkfp-btn .gkfp-arrow {
+      font-size: 9px;
+      color: rgba(247,241,232,0.35);
+      flex-shrink: 0;
+    }
+    .gkfp-dropdown {
+      display: none;
+      position: absolute;
+      left: 8px; right: 8px;
+      top: calc(100% - 4px);
+      background: #161a1f;
+      border: 1px solid rgba(184,146,42,0.3);
+      border-radius: 3px;
+      z-index: 9999;
+      max-height: 260px;
+      overflow-y: auto;
+      box-shadow: 0 8px 24px rgba(0,0,0,0.55);
+    }
+    .gkfp-dropdown.open { display: block; }
+    .gkfp-option {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      padding: 8px 10px;
+      cursor: pointer;
+      border-bottom: 1px solid rgba(255,255,255,0.04);
+      transition: background 0.1s;
+    }
+    .gkfp-option:last-child { border-bottom: none; }
+    .gkfp-option:hover { background: rgba(184,146,42,0.1); }
+    .gkfp-option.selected { background: rgba(184,146,42,0.15); }
+    .gkfp-option .go-preview {
+      font-size: 16px;
+      color: rgba(247,241,232,0.9);
+      line-height: 1;
+      min-width: 60px;
+      flex-shrink: 0;
+    }
+    .gkfp-option .go-name {
+      font-size: 11px;
+      color: rgba(247,241,232,0.55);
+      font-family: 'Jost', sans-serif;
+    }
+    .gkfp-option.selected .go-name { color: rgba(247,241,232,0.9); }
+
+    /* RTL columns (Hebrew / ancient language texts) */
+    .col[data-rtl] .col-content {
+      direction: rtl;
+      font-family: 'Noto Serif Hebrew', 'SBL Hebrew', 'Ezra SIL', serif;
+      font-size: 15px;
+      line-height: 2.1;
+    }
+    .col[data-rtl] .vt {
+      font-size: 15px;
+      line-height: 2.1;
+    }
+    .col[data-rtl] .vn {
+      direction: ltr;
+      text-align: left;
+      order: 1;
+      padding-right: 0;
+      padding-left: 4px;
+    }
+
     /* Quote blocks */
     blockquote.verse-quote {
       margin: 8px 0 8px 18px;
@@ -385,8 +668,9 @@
     body.fz-small  .vt          { font-size: 11.5px; }
     body.fz-large  .vt          { font-size: 16.5px; }
 
-    /* ===== HIDE VERSE NUMBERS ===== */
-    body.hide-vn .vn { visibility: hidden; }
+    /* ===== HIDE VERSE/CHAPTER NUMBERS ===== */
+    body.hide-vn .vn          { display: none; }
+    body.hide-vn .chapter-num { display: none; }
 
     /* ===== HIDE SECTION HEADINGS ===== */
     body.hide-heads .section-head { display: none; }
@@ -527,7 +811,82 @@
     .book-btn.active { color: var(--gold-light); font-weight: 600; background: rgba(184,146,42,0.07); }
 
     /* ===== TRANSLATION PANEL ===== */
-    #panel-translations { width: 300px; max-height: 70vh; overflow-y: auto; }
+    #panel-translations { width: 300px; max-height: 70vh; }
+
+    /* Preset category buttons */
+    #trans-presets-bar {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 5px;
+      padding: 10px 12px 9px;
+      border-bottom: 1px solid rgba(255,255,255,0.07);
+    }
+    .preset-btn {
+      padding: 3px 10px;
+      background: rgba(255,255,255,0.05);
+      border: 1px solid rgba(255,255,255,0.1);
+      border-radius: 10px;
+      color: rgba(247,241,232,0.5);
+      font-family: 'Jost', sans-serif;
+      font-size: 10px;
+      font-weight: 500;
+      letter-spacing: 0.04em;
+      cursor: pointer;
+      white-space: nowrap;
+      transition: background 0.12s, color 0.12s, border-color 0.12s;
+    }
+    .preset-btn:hover {
+      background: rgba(184,146,42,0.12);
+      border-color: rgba(184,146,42,0.3);
+      color: var(--gold-light);
+    }
+    .preset-btn.active {
+      background: rgba(184,146,42,0.2);
+      border-color: rgba(184,146,42,0.55);
+      color: var(--gold-light);
+    }
+
+    /* Favorite star button inside each translation row */
+    .fav-star {
+      background: none;
+      border: none;
+      color: rgba(255,255,255,0.2);
+      font-size: 13px;
+      cursor: pointer;
+      padding: 0 2px;
+      line-height: 1;
+      flex-shrink: 0;
+      transition: color 0.12s, transform 0.1s;
+    }
+    .fav-star:hover { color: var(--gold-light); transform: scale(1.2); }
+    .fav-star.fav-on { color: var(--gold); }
+
+    #trans-bulk-bar {
+      display: flex;
+      gap: 5px;
+      padding: 0 12px 9px;
+      border-bottom: 1px solid rgba(255,255,255,0.07);
+    }
+    .bulk-btn {
+      flex: 1;
+      padding: 4px 8px;
+      background: rgba(255,255,255,0.04);
+      border: 1px solid rgba(255,255,255,0.08);
+      border-radius: 4px;
+      color: rgba(247,241,232,0.4);
+      font-family: 'Jost', sans-serif;
+      font-size: 9.5px;
+      font-weight: 500;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+      cursor: pointer;
+      transition: background 0.12s, color 0.12s, border-color 0.12s;
+    }
+    .bulk-btn:hover {
+      background: rgba(255,255,255,0.08);
+      border-color: rgba(255,255,255,0.18);
+      color: rgba(247,241,232,0.75);
+    }
 
     .trans-item {
       display: flex;
@@ -572,36 +931,99 @@
       background: rgba(0,0,0,0.15);
     }
 
-    #trans-select-all-bar {
+    /* ===== TRANSLATION CATEGORY ACCORDION ===== */
+    #panel-translations { overflow: hidden; }
+    #trans-presets-bar { flex-shrink: 0; }
+    #trans-cat-list { flex: 1; overflow-y: auto; min-height: 0; }
+
+    .trans-cat { border-bottom: 1px solid rgba(255,255,255,0.05); }
+    .trans-cat:last-child { border-bottom: none; }
+
+    .trans-cat-header {
       display: flex;
       align-items: center;
-      justify-content: space-between;
-      padding: 8px 14px;
-      border-bottom: 1px solid rgba(255,255,255,0.06);
-      background: rgba(0,0,0,0.1);
+      gap: 0;
+      padding: 0 10px 0 0;
+      min-height: 38px;
     }
-    #trans-selected-count {
-      font-size: 9px;
-      color: rgba(247,241,232,0.35);
-      letter-spacing: 0.06em;
-    }
-    #btn-select-all {
-      font-size: 9.5px;
-      font-weight: 600;
-      letter-spacing: 0.1em;
-      text-transform: uppercase;
-      color: var(--gold-light);
-      background: rgba(184,146,42,0.1);
-      border: 1px solid rgba(184,146,42,0.28);
-      padding: 3px 11px;
-      cursor: pointer;
+
+    .trans-cat-toggle {
+      flex: 1;
+      display: flex;
+      align-items: center;
+      gap: 7px;
+      background: none;
+      border: none;
+      color: rgba(247,241,232,0.78);
       font-family: 'Jost', sans-serif;
-      transition: background 0.15s, border-color 0.15s;
+      font-size: 11.5px;
+      font-weight: 500;
+      cursor: pointer;
+      padding: 0 8px 0 14px;
+      min-height: 38px;
+      text-align: left;
+      transition: color 0.1s, background 0.1s;
     }
-    #btn-select-all:hover {
-      background: rgba(184,146,42,0.22);
-      border-color: rgba(184,146,42,0.5);
+    .trans-cat-toggle:hover { color: var(--gold-light); background: rgba(184,146,42,0.05); }
+
+    .trans-cat-arrow {
+      font-size: 8px;
+      color: rgba(247,241,232,0.25);
+      transition: transform 0.18s cubic-bezier(0.4,0,0.2,1);
+      flex-shrink: 0;
+      margin-right: 1px;
     }
+    .trans-cat.open .trans-cat-arrow { transform: rotate(180deg); }
+
+    .trans-cat-count {
+      font-size: 8.5px;
+      color: rgba(247,241,232,0.22);
+      font-weight: 400;
+      letter-spacing: 0.01em;
+      margin-left: auto;
+      flex-shrink: 0;
+    }
+    .trans-cat-count.has-sel { color: rgba(184,146,42,0.7); }
+
+    .trans-cat-selall {
+      padding: 3px 10px;
+      background: rgba(255,255,255,0.04);
+      border: 1px solid rgba(255,255,255,0.08);
+      border-radius: 2px;
+      color: rgba(247,241,232,0.35);
+      font-family: 'Jost', sans-serif;
+      font-size: 9px;
+      font-weight: 500;
+      letter-spacing: 0.05em;
+      cursor: pointer;
+      white-space: nowrap;
+      flex-shrink: 0;
+      transition: background 0.12s, color 0.12s, border-color 0.12s;
+    }
+    .trans-cat-selall:hover {
+      background: rgba(184,146,42,0.12);
+      border-color: rgba(184,146,42,0.3);
+      color: var(--gold-light);
+    }
+    .trans-cat-selall.all-on {
+      background: rgba(184,146,42,0.15);
+      border-color: rgba(184,146,42,0.4);
+      color: var(--gold-light);
+    }
+
+    .trans-cat-body { display: none; background: rgba(0,0,0,0.1); }
+    .trans-cat.open .trans-cat-body { display: block; }
+
+    .trans-subcat-label {
+      font-size: 7.5px;
+      font-weight: 700;
+      letter-spacing: 0.22em;
+      text-transform: uppercase;
+      color: rgba(184,146,42,0.4);
+      padding: 7px 14px 3px 22px;
+      background: rgba(0,0,0,0.08);
+    }
+
 
     /* ===== HERETICAL WARNING MODAL ===== */
     #heretical-overlay {
@@ -928,6 +1350,18 @@
 
       /* Wider chapter panel */
       #panel-chapter { width: 100% !important; }
+
+      /* Sidebar: slide up from bottom on mobile */
+      #sidebar-panel.open {
+        width: 100% !important;
+        position: fixed;
+        inset: auto 0 0 0;
+        height: 75vh;
+        border-left: none;
+        border-top: 1px solid rgba(184,146,42,0.25);
+        border-radius: 14px 14px 0 0;
+        z-index: 190;
+      }
     }
   </style>
 </head>
@@ -958,6 +1392,7 @@
       <button class="hdr-nav-arrow" id="btn-next-ch" title="Sonraki bölüm">›</button>
       <button class="hdr-btn" id="btn-translations" title="Çevirileri yönet">Çeviri <span style="opacity:.4;font-size:9px;">▾</span></button>
       <button class="hdr-btn" id="btn-style" title="Görünüm ayarları">Görünüm <span style="opacity:.4;font-size:9px;">▾</span></button>
+      <button class="hdr-btn" id="btn-commentary" title="Bölüm yorumu">Yorum <span style="opacity:.4;font-size:9px;">▾</span></button>
       <button class="hdr-btn" id="btn-top" title="Başa dön">↑ Yukarı</button>
       <button class="hdr-btn" id="btn-share" title="Bağlantıyı paylaş">Paylaş</button>
       <div id="header-links">
@@ -971,10 +1406,36 @@
   <!-- Mobile translation tab bar (hidden on desktop) -->
   <div id="mobile-col-tabs"></div>
 
-  <!-- ===== READER ===== -->
-  <div id="okuyucu_layout">
-    <!-- columns built dynamically by rebuildColumns() -->
-  </div><!-- /#okuyucu_layout -->
+  <!-- ===== READER WRAPPER (columns + sidebar) ===== -->
+  <div id="reader-wrapper">
+    <div id="okuyucu_layout">
+      <!-- columns built dynamically by rebuildColumns() -->
+    </div><!-- /#okuyucu_layout -->
+
+    <!-- ===== SIDEBAR PANEL ===== -->
+    <div id="sidebar-panel">
+      <div id="sidebar-tabs">
+        <button class="sidebar-tab active" data-section="commentary">📖 Yorum</button>
+        <!-- future tabs: Harita, Notlarım, vb. -->
+      </div>
+      <div id="sidebar-sections">
+        <div class="sidebar-section active" id="sidebar-section-commentary">
+          <div id="commentary-title-bar">
+            <span id="commentary-title">Yorum</span>
+            <span id="commentary-source">Açıklamalı Kutsal Kitap</span>
+          </div>
+          <div id="commentary-body">
+            <div id="commentary-pre-space"></div>
+            <div id="commentary-loading" style="display:none">Yükleniyor…</div>
+            <div id="commentary-intro"></div>
+            <div id="commentary-notes"></div>
+            <div id="commentary-empty" style="display:none">Bu bölüm için yorum bulunamadı.</div>
+            <div id="commentary-post-space"></div>
+          </div>
+        </div>
+      </div>
+    </div><!-- /#sidebar-panel -->
+  </div><!-- /#reader-wrapper -->
 </div><!-- /#layout -->
 
 <!-- ===== PANEL: STYLE ===== -->
@@ -1000,6 +1461,17 @@
     <div class="panel-row-group">
       <label class="panel-option active" id="toggle-vn"><input type="checkbox" id="chk-vn" checked> Ayet numaralarını göster</label>
       <label class="panel-option active" id="toggle-heads"><input type="checkbox" id="chk-heads" checked> Bölüm başlıklarını göster</label>
+    </div>
+  </div>
+  <div class="panel-section">
+    <div class="panel-section-title">Yunanca Yazı Tipi</div>
+    <div class="gkfp-wrap" id="gkfp-wrap">
+      <div class="gkfp-btn" id="gkfp-btn">
+        <span class="gkfp-preview-text" id="gkfp-preview-text">Ἀρχή</span>
+        <span class="gkfp-label" id="gkfp-label">New York</span>
+        <span class="gkfp-arrow">▾</span>
+      </div>
+      <div class="gkfp-dropdown" id="gkfp-dropdown"></div>
     </div>
   </div>
   <div class="panel-section">
@@ -1032,26 +1504,20 @@
 
 <!-- ===== PANEL: TRANSLATIONS ===== -->
 <div class="panel" id="panel-translations">
-  <div id="trans-select-all-bar">
-    <span id="trans-selected-count"></span>
-    <button id="btn-select-all">Tümünü Seç</button>
-  </div>
-  <div class="trans-group-label">Tam Kutsal Kitap — Eski ve Yeni Antlaşma</div>
-  <div id="trans-bible-full"></div>
-  <div class="trans-group-label">Yeni Antlaşma — Tam Çeviriler</div>
-  <div id="trans-nt-full"></div>
-  <div class="trans-group-label">Yeni Antlaşma — Kısmi Çeviriler</div>
-  <div id="trans-nt-partial"></div>
-  <div class="trans-group-label">Eski Antlaşma — Kısmi Çeviriler</div>
-  <div id="trans-ot-partial"></div>
-  <div class="trans-group-label">Sapkın Tercümeler</div>
-  <div id="trans-heretical"></div>
-  <div class="trans-group-label">İngilizce Çeviriler</div>
-  <div id="trans-english"></div>
+  <div id="trans-presets-bar"><!-- populated by JS --></div>
+  <div id="trans-cat-list"><!-- populated by buildTransCategories() --></div>
 </div>
 
 <!-- ===== SEARCH RESULTS PANEL ===== -->
 <div id="search-results"></div>
+
+<!-- ===== COLUMN INFO POPUP ===== -->
+<div id="col-info-popup">
+  <div class="cip-abbr"></div>
+  <div class="cip-name"></div>
+  <div class="cip-year"></div>
+  <div class="cip-credit"></div>
+</div>
 
 <!-- ===== HERETICAL WARNING MODAL ===== -->
 <div id="heretical-overlay"></div>
@@ -1101,6 +1567,17 @@
   const NSH1739_NOTE  = 'NSH1739 çevirisi yalnızca Yaratılış kitabının ilk 4 bölümünü kapsamaktadır.';
   const MEZ1669_BOOKS = new Set(['PSA']);
   const MEZ1669_NOTE  = 'MEZ1669 çevirisi yalnızca Mezmurlar kitabının ilk 14 bölümünü kapsamaktadır.';
+  const YYY1987_NT_BOOKS = new Set(['MAT','MRK','LUK','JHN','ACT','ROM','1CO','2CO','GAL','EPH','PHP','COL','1TH','2TH','1TI','2TI','TIT','PHM','HEB','JAS','1PE','2PE','1JN','2JN','3JN','JUD','REV']);
+  const YYY1987_NOTE  = 'İncil: Müjde (1987) çevirisi yalnızca Yeni Antlaşma kitaplarını kapsamaktadır.';
+  const BHS_BOOKS = new Set([
+    'GEN','EXO','LEV','NUM','DEU','JOS','JDG','RUT','1SA','2SA',
+    '1KI','2KI','1CH','2CH','EZR','NEH','EST','JOB','PSA','PRO',
+    'ECC','SNG','ISA','JER','LAM','EZK','DAN','HOS','JOL','AMO',
+    'OBA','JON','MIC','NAH','HAB','ZEP','HAG','ZEC','MAL',
+  ]);
+  const BHS_NOTE  = 'İbranice Eski Antlaşma metni yalnızca Eski Antlaşma kitaplarını kapsamaktadır.';
+  const NA27_NOTE = 'Yunanca Yeni Antlaşma metni (SBLGNT) yalnızca Yeni Antlaşma kitaplarını kapsamaktadır.';
+  const LXX_NOTE  = 'Septuagint (LXX) metni yalnızca Eski Antlaşma kitaplarını kapsamaktadır.';
 
   const CHAPTER_COUNTS = {
     'Yaratılış':50,'Mısır\'dan Çıkış':40,'Levililer':27,'Çölde Sayım':36,
@@ -1135,7 +1612,46 @@
     '1. Yuhanna','2. Yuhanna','3. Yuhanna','Yahuda','Vahiy'
   ];
 
+  const TRANS_CREDITS = {
+    'ALI1665':      'Mütercim: Mehmed Ali Bey. Bilinen en eski Türkçe tam İncil el yazması (yakl. 1665).',
+    'JDK1827':      'Mütercim: J.D. Kieffer. British & Foreign Bible Society yayını, 1827.',
+    'TUR1852-57':   'Mütercimler: Türabi Efendi & J.W. Redhouse. BFBS yayını, 1852–57.',
+    'SEL1866-77':   'Mütercimler: Selim Efendi & W. Schauffler. American Bible Society yayını, 1866–77.',
+    'KM1886':       'ABS & BFBS ortak yayını. Osmanlıca Latin harfli baskı, 1886.',
+    'KMEYA':        'Kitabı Mukaddes Şirketi, 1941. Türkiye\'de en yaygın kullanılan standart baskı.',
+    'TCL02':        'Kitabı Mukaddes Şirketi & Yeni Yaşam Yayınları, 2001.',
+    'AREMSI':       'Fondatsiya "AR EM Sİ", 2007. Orta Asya Türkçesi etkili çeviri.',
+    'HKTN':         'Ekümenik ekip çevirisi, 2007. Hem Protestan hem Katolik geleneğini yansıtır.',
+    'YTC':          'Yorumsuz Türkçe Çeviri, 2023. Kaynak metne yüksek bağlılık önceliğiyle hazırlanmıştır.',
+    'HAKK':         'Halk Dilinde Kutsal Kitap, 2024. Günümüz sade Türkçesiyle hazırlanmıştır.',
+    'KIE1819':      'Mütercimler: Ali Bey & J.D. Kieffer. BFBS yayını, 1819.',
+    'YYY1987':      'Kilise kullanımı için hazırlanmış Yeni Ahit çevirisi, 1987.',
+    'CAN':          'Mütercim: Bünyamin Candemir. Yeni Ahit çevirisi, 2003.',
+    'KKDEU':        'Kutsal Kitap ve Deuterakanonik kitaplar dahil ekümenik Yeni Ahit çevirisi, 2003.',
+    'BGT':          'İncil BG Türkçe. Yeni Ahit çevirisi, 2004.',
+    'COS':          'Mütercim: Thomas Cosmades. Süleyman\'ın Özdeyişleri ve Yeni Ahit, 2010.',
+    'TTT':          'Temel Türkçe Tercüme. Yeni Ahit çevirisi, 2023.',
+    'SEA1666':      'Mütercim: William Seaman. 17. yüzyıl Osmanlı Türkçesiyle Yeni Ahit, 1666.',
+    'OTR2019':      'Bible Old Translation Revision, 2019.',
+    'MEZ1669':      'Mütercim: Ali Bey. Osmanlıca manzum mezmurlar, 1669.',
+    'NSH1739':      'Mütercim: N. Şröder. Tekvin\'in ilk bölümleri, 1739.',
+    'TSV':          'Türk Standart Versiyon. Süleyman\'ın Özdeyişleri çevirisi, 2009.',
+    'NWT2008':      '⚠ Yehova Şahitleri (JW.org) çevirisi. Metni sapkın öğretiye uyarlamaktadır.',
+    'NWT2025':      '⚠ Yehova Şahitleri (JW.org) güncelleme baskısı, 2025. Metni sapkın öğretiye uyarlamaktadır.',
+    'ESV':          'English Standard Version. Crossway yayını, 2001. Amerikan Evanjelik Protestan çevirisi.',
+    'BHS':          'Biblia Hebraica Stuttgartensia (BHS) temelinde Westminster Leningrad Kodeksi (MS 1008). Niqqud ve te\'amim işaretleriyle tam noktalı Masoretik metin. Kamu malı dijital kaynak (WLC). Eski Antlaşmanın asıl İbranice metni.',
+    'NA27':         'SBL Greek New Testament (SBLGNT, 2010). Nestle-Aland ve diğer eleştirel edisyonlar temel alınarak hazırlanmış, tam vurgulu (politonik) Yeni Antlaşma Yunancası. Society of Biblical Literature tarafından serbest erişime açılmıştır.',
+    'LXX':          'Septuaginta (LXX). İbrani kutsal yazılarının Yunanca çevirisi, MÖ 3.–1. yy. Yetmiş İki Çevirmen geleneğine dayanan ve ilk Hristiyanların kullandığı metin. Rahlfs eleştirel baskısı temel alınmıştır. 151. Mezmur dahil.',
+    'VULG':         'Vulgata Latina (Klementine baskısı, 1592). Aziz Hieronymus tarafından MS 382–405 yılları arasında hazırlanan Latince Kutsal Kitap çevirisi. Orta Çağ Kilisesinin resmî standart metni; Eski Antlaşma İbranice ve Yunancadan, Yeni Antlaşma Yunancadan çevrilmiştir. Ester ve Daniel kitaplarında Deuterokanonik bölümler dahildir.',
+  };
+
   const TRANSLATIONS = {
+    ancient: [
+      { id:'BHS',  name:'Biblia Hebraica Stuttgartensia',        year:1008, yearLabel:'MS 1008 (Leningrad Kodeksi)',      rtl:true,   loaded:true },
+      { id:'LXX',  name:'Septuaginta (LXX)',                     year:-200,  yearLabel:'MÖ 3.–1. yy. (Rahlfs LXX)',         greek:true, loaded:true },
+      { id:'VULG', name:'Vulgata Latina',                         year:405,  yearLabel:'MS 405 (Hieronymus / Klementine)',                loaded:true },
+      { id:'NA27', name:'SBL Yunanca Yeni Antlaşma (SBLGNT)',    year:400,  yearLabel:'SBLGNT 2010 (Politonik Yunanca)',    greek:true, loaded:true },
+    ],
     bibleFull: [
       { id:'ALI1665',  name:'Ali Bey El Yazması',                    year:1665, loaded:true  },
       { id:'JDK1827',  name:'Eski Ahit (J.D. Kieffer)',              year:1827, loaded:true  },
@@ -1178,7 +1694,7 @@
 
   // Flat lookup: id → translation metadata
   const ALL_TRANS = {};
-  const TRANS_ORDER = [...TRANSLATIONS.bibleFull, ...TRANSLATIONS.ntFull, ...TRANSLATIONS.ntPartial, ...TRANSLATIONS.otPartial, ...TRANSLATIONS.heretical, ...TRANSLATIONS.english]
+  const TRANS_ORDER = [...TRANSLATIONS.ancient, ...TRANSLATIONS.bibleFull, ...TRANSLATIONS.ntFull, ...TRANSLATIONS.ntPartial, ...TRANSLATIONS.otPartial, ...TRANSLATIONS.heretical, ...TRANSLATIONS.english]
     .sort((a, b) => a.year - b.year)
     .map(t => { ALL_TRANS[t.id] = t; return t.id; });
 
@@ -1204,13 +1720,31 @@
     'Zekeriya':'ZEC','Malaki':'MAL'
   };
 
+  // ── Persistence helpers (defined early, before state init) ────────────
+  function _lsGet(k)    { try { return localStorage.getItem(k); } catch { return null; } }
+  function _lsSet(k, v) { try { localStorage.setItem(k, v); }    catch {} }
+  function getFavorites()     { try { return JSON.parse(_lsGet('kkf_favs') || '[]'); } catch { return []; } }
+  function saveFavorites(ids) { _lsSet('kkf_favs', JSON.stringify(ids)); }
+
   // ── App state ─────────────────────────────────────────────────────────
-  let currentBook    = 'Yuhanna';
-  let currentChapter = 1;
+  let currentBook    = _lsGet('kkf_book')  || 'Yuhanna';
+  let currentChapter = parseInt(_lsGet('kkf_chap') || '1', 10) || 1;
   let layoutMode     = 'cols'; // 'cols' | 'rows' | 'grid'
 
-  // Currently selected translation IDs — single source of truth
-  const selectedTranslations = new Set(['TCL02','KMEYA']);
+  // Init translations: saved state → favorites → default
+  const _initTrans = (() => {
+    try {
+      const t = JSON.parse(_lsGet('kkf_trans') || 'null');
+      if (Array.isArray(t) && t.length > 0) return t;
+    } catch {}
+    const favs = getFavorites();
+    return favs.length > 0 ? favs : ['TCL02', 'KMEYA'];
+  })();
+  const selectedTranslations = new Set(_initTrans);
+  // Validate against known IDs (in case saved data has stale entries)
+  selectedTranslations.forEach(id => { if (!ALL_TRANS[id]) selectedTranslations.delete(id); });
+  if (selectedTranslations.size === 0) { selectedTranslations.add('TCL02'); selectedTranslations.add('KMEYA'); }
+  if (!BOOK_CODES[currentBook]) currentBook = 'Yuhanna';
 
   // Chapter data cache — key: `${tid}|${bookCode}|${chap}` → verse array
   const chapterCache = new Map();
@@ -1234,6 +1768,7 @@
     if (tid === 'HKTN'        && !HKTN_BOOKS.has(bookCode))      return false;
     if (tid === 'NSH1739'     && !NSH1739_BOOKS.has(bookCode))   return false;
     if (tid === 'MEZ1669'     && !MEZ1669_BOOKS.has(bookCode))   return false;
+    if (tid === 'YYY1987'     && !YYY1987_NT_BOOKS.has(bookCode)) return false;
     return true;
   }
 
@@ -1334,15 +1869,17 @@
           if (target === col) return;
           applyPosition(cols, tIdx, logical, verse, fraction);
         });
+        scheduleCommentaryScroll(verse);
       }, { passive: true });
     });
   }
 
   // ── Column rendering ──────────────────────────────────────────────────
-  function renderChapter(container, data) {
+  function renderChapter(container, data, chapterFallback) {
     const chDiv = document.createElement('div');
     chDiv.className = 'chapter';
-    chDiv.innerHTML = `<div class="chapter-num">${data.c}</div>${data.title ? `<div class="chapter-title">${data.title}</div>` : ''}`;
+    const chNum = data.c ?? chapterFallback ?? currentChapter;
+    chDiv.innerHTML = `<div class="chapter-num">${chNum}</div>${data.title ? `<div class="chapter-title">${data.title}</div>` : ''}`;
     const verses = data.content.filter(item => !item.section);
     data.content.forEach((item, idx) => {
       if (item.section) {
@@ -1382,6 +1919,10 @@
     'HKTN':       [HKTN_BOOKS,      HKTN_NOTE],
     'NSH1739':    [NSH1739_BOOKS,   NSH1739_NOTE],
     'MEZ1669':    [MEZ1669_BOOKS,   MEZ1669_NOTE],
+    'YYY1987':    [YYY1987_NT_BOOKS, YYY1987_NOTE],
+    'BHS':        [BHS_BOOKS,       BHS_NOTE],
+    'LXX':        [BHS_BOOKS,       LXX_NOTE],
+    'NA27':       [BGT_NT_BOOKS,    NA27_NOTE],
   };
 
   async function loadColumn(colEl, translationId, bookCode, chapter) {
@@ -1394,7 +1935,7 @@
       const data = await res.json();
       // Cache for search
       chapterCache.set(`${translationId}|${bookCode}|${chapter}`, data.content ?? []);
-      renderChapter(container, data);
+      renderChapter(container, data, chapter);
     } catch {
       const entry = TRANS_NOTES[translationId];
       if (entry && !entry[0].has(bookCode)) {
@@ -1408,6 +1949,7 @@
 
   function loadAll() {
     clearVerseState();
+    getCols().forEach(c => { c.scrollTop = 0; });
     const bookCode = BOOK_CODES[currentBook] ?? 'JHN';
     document.querySelectorAll('.col[data-translation]').forEach(colEl => {
       loadColumn(colEl, colEl.dataset.translation, bookCode, currentChapter);
@@ -1422,7 +1964,9 @@
     container.className = '';
     container.style.removeProperty('--grid-cols');
 
+    const bookCode = BOOK_CODES[currentBook] ?? 'JHN';
     const ids = Array.from(selectedTranslations)
+      .filter(tid => isTransAvailableForBook(tid, bookCode))
       .sort((a, b) => TRANS_ORDER.indexOf(a) - TRANS_ORDER.indexOf(b));
     const n   = ids.length;
 
@@ -1440,11 +1984,11 @@
       const col  = document.createElement('div');
       col.className = 'col';
       col.dataset.translation = tid;
+      if (meta.rtl)   col.dataset.rtl    = 'true';
+      if (meta.greek) col.dataset.greek  = 'true';
       col.innerHTML = `
-        <div class="col-header">
+        <div class="col-header" data-tid="${tid}">
           <span class="col-abbr">${tid}</span>
-          <span class="col-name">${meta.name}</span>
-          <span class="col-year">${meta.year}</span>
         </div>
         <div class="col-content"></div>`;
       container.appendChild(col);
@@ -1498,6 +2042,7 @@
         btn.classList.add('active');
         closePanel();
         loadAll();
+        saveState();
       });
       grid.appendChild(btn);
     }
@@ -1522,6 +2067,7 @@
         buildChapters(b);
         closePanel();
         loadAll();
+        saveState();
       });
       el.appendChild(btn);
     });
@@ -1529,47 +2075,179 @@
   buildBooks('books-ot', OT_BOOKS);
   buildBooks('books-nt', NT_BOOKS);
 
-  // ── Build translation panel ───────────────────────────────────────────
-  function buildTransGroup(containerId, list) {
-    const el = document.getElementById(containerId);
-    list.forEach(t => {
-      const item = document.createElement('div');
-      item.className = 'trans-item' + (t.loaded ? '' : ' unavailable');
-      const checked = selectedTranslations.has(t.id);
-      item.innerHTML = `
-        <input type="checkbox" ${checked ? 'checked' : ''} ${t.loaded ? '' : 'disabled'} data-tid="${t.id}">
-        <div class="trans-abbr">${t.id}</div>
-        <div class="trans-meta">
-          <div class="trans-name">${t.name}</div>
-          <div class="trans-year">${t.year}${!t.loaded ? ' — yakında' : t.id === 'BGT' ? ' — Yeni Ahit' : t.id === 'TSV' ? ' — Özdeyişler' : ''}</div>
-        </div>`;
-      if (t.loaded) {
-        item.querySelector('input').addEventListener('change', e => {
-          if (e.target.checked) selectedTranslations.add(t.id);
-          else selectedTranslations.delete(t.id);
-          syncSelectAllBar();
-          rebuildColumns();
-          triggerSearch();
-        });
+  // ── Build translation panel — category accordion ─────────────────────
+  const HERETICAL_ID_SET = new Set(TRANSLATIONS.heretical.map(t => t.id));
+
+  const TRANS_CATEGORIES = [
+    {
+      id: 'ottoman', label: 'Osmanlı Türkçesi',
+      subcats: [
+        { label: 'Tam Kutsal Kitap', ids: ['ALI1665','JDK1827','TUR1852-57','SEL1866-77','KM1886','KMEYA'] },
+        { label: 'Yeni Antlaşma',    ids: ['KIE1819'] },
+        { label: 'Kısmi',            ids: ['SEA1666','MEZ1669','NSH1739'] },
+      ]
+    },
+    {
+      id: 'modern', label: 'Modern Türkçe',
+      subcats: [
+        { label: 'Tam Kutsal Kitap', ids: ['TCL02','AREMSI','HKTN','YTC','HAKK'] },
+        { label: 'Yeni Antlaşma',    ids: ['YYY1987','CAN','KKDEU','BGT','COS','TTT'] },
+        { label: 'Kısmi',            ids: ['TSV','OTR2019'] },
+      ]
+    },
+    {
+      id: 'ancient', label: 'Eski Çağlar',
+      subcats: [ { label: null, ids: ['BHS','LXX','VULG','NA27'] } ]
+    },
+    {
+      id: 'english', label: 'English',
+      subcats: [ { label: null, ids: ['ESV'] } ]
+    },
+    {
+      id: 'heretical', label: 'Sapkın Türkçe Tercümeler',
+      subcats: [ { label: null, ids: ['NWT2008','NWT2025'] } ]
+    },
+  ];
+
+  function _catAllIds(cat) {
+    return cat.subcats.flatMap(sc => sc.ids).filter(id => ALL_TRANS[id]);
+  }
+
+  function updateCatCounts() {
+    document.querySelectorAll('.trans-cat[data-cat-id]').forEach(catEl => {
+      const cat = TRANS_CATEGORIES.find(c => c.id === catEl.dataset.catId);
+      if (!cat) return;
+      const loaded = _catAllIds(cat).filter(id => ALL_TRANS[id]?.loaded);
+      const selCount = loaded.filter(id => selectedTranslations.has(id)).length;
+      const countEl = catEl.querySelector('.trans-cat-count');
+      if (countEl) {
+        countEl.textContent = selCount > 0 ? `${selCount}/${loaded.length}` : loaded.length;
+        countEl.classList.toggle('has-sel', selCount > 0);
       }
-      el.appendChild(item);
+      const selAllBtn = catEl.querySelector('.trans-cat-selall');
+      if (selAllBtn) {
+        const allOn = loaded.length > 0 && loaded.every(id => selectedTranslations.has(id));
+        selAllBtn.classList.toggle('all-on', allOn);
+        selAllBtn.textContent = allOn ? 'Bırak' : 'Tümü';
+      }
     });
   }
-  buildTransGroup('trans-bible-full',  TRANSLATIONS.bibleFull);
-  buildTransGroup('trans-nt-full',     TRANSLATIONS.ntFull);
-  buildTransGroup('trans-nt-partial',  TRANSLATIONS.ntPartial);
-  buildTransGroup('trans-ot-partial',  TRANSLATIONS.otPartial);
-  buildTransGroup('trans-heretical',   TRANSLATIONS.heretical);
-  buildTransGroup('trans-english',     TRANSLATIONS.english);
+
+  function buildTransItem(tid) {
+    const t = ALL_TRANS[tid];
+    if (!t) return null;
+    const isHeretical = HERETICAL_ID_SET.has(tid);
+    const item = document.createElement('div');
+    item.className = 'trans-item' + (t.loaded ? '' : ' unavailable');
+    const checked = selectedTranslations.has(t.id);
+    item.innerHTML = `
+      <input type="checkbox" ${checked ? 'checked' : ''} ${t.loaded ? '' : 'disabled'}
+             data-tid="${t.id}"${isHeretical ? ' data-heretical="true"' : ''}>
+      <div class="trans-abbr">${t.id}</div>
+      <div class="trans-meta">
+        <div class="trans-name">${t.name}</div>
+        <div class="trans-year">${t.yearLabel ?? t.year}${!t.loaded ? ' — yakında' : ''}</div>
+      </div>`;
+    const star = document.createElement('button');
+    star.className = 'fav-star' + (getFavorites().includes(t.id) ? ' fav-on' : '');
+    star.dataset.tid = t.id;
+    star.textContent = '★';
+    star.title = getFavorites().includes(t.id) ? 'Favorilerden çıkar' : 'Favorilere ekle';
+    star.addEventListener('click', e => { e.stopPropagation(); toggleFavorite(t.id); });
+    item.appendChild(star);
+    if (t.loaded) {
+      item.querySelector('input').addEventListener('change', e => {
+        if (e.target.checked) selectedTranslations.add(t.id);
+        else selectedTranslations.delete(t.id);
+        rebuildColumns();
+        triggerSearch();
+        saveState();
+        syncPresetHighlights();
+        updateCatCounts();
+      });
+    }
+    return item;
+  }
+
+  function buildTransCategories() {
+    const listEl = document.getElementById('trans-cat-list');
+    listEl.innerHTML = '';
+    TRANS_CATEGORIES.forEach(cat => {
+      const loaded = _catAllIds(cat).filter(id => ALL_TRANS[id]?.loaded);
+      const selCount = loaded.filter(id => selectedTranslations.has(id)).length;
+
+      const catEl = document.createElement('div');
+      catEl.className = 'trans-cat';
+      catEl.dataset.catId = cat.id;
+
+      // Header
+      const header = document.createElement('div');
+      header.className = 'trans-cat-header';
+
+      const toggle = document.createElement('button');
+      toggle.className = 'trans-cat-toggle';
+      toggle.innerHTML = `<span class="trans-cat-arrow">▾</span><span class="trans-cat-name">${cat.label}</span><span class="trans-cat-count${selCount > 0 ? ' has-sel' : ''}">${selCount > 0 ? `${selCount}/${loaded.length}` : loaded.length}</span>`;
+      toggle.addEventListener('click', () => catEl.classList.toggle('open'));
+
+      const selAllBtn = document.createElement('button');
+      selAllBtn.className = 'trans-cat-selall';
+      const allOn0 = loaded.length > 0 && loaded.every(id => selectedTranslations.has(id));
+      selAllBtn.textContent = allOn0 ? 'Bırak' : 'Tümü';
+      selAllBtn.classList.toggle('all-on', allOn0);
+      selAllBtn.title = 'Bu kategorideki tüm çevirileri seç / bırak';
+      selAllBtn.addEventListener('click', e => {
+        e.stopPropagation();
+        const allNowOn = loaded.every(id => selectedTranslations.has(id));
+        if (allNowOn) {
+          loaded.forEach(id => selectedTranslations.delete(id));
+        } else {
+          loaded.forEach(id => selectedTranslations.add(id));
+          // Show heretical warning for category-level selection
+          if (cat.id === 'heretical' && window._hereticShowWarning && loaded.length > 0) {
+            window._hereticShowWarning(loaded[0], true);
+          }
+        }
+        syncTranslationUI();
+        rebuildColumns();
+        triggerSearch();
+        saveState();
+        syncPresetHighlights();
+        updateCatCounts();
+      });
+
+      header.appendChild(toggle);
+      header.appendChild(selAllBtn);
+      catEl.appendChild(header);
+
+      // Body
+      const body = document.createElement('div');
+      body.className = 'trans-cat-body';
+      cat.subcats.forEach(sc => {
+        if (sc.label) {
+          const labelEl = document.createElement('div');
+          labelEl.className = 'trans-subcat-label';
+          labelEl.textContent = sc.label;
+          body.appendChild(labelEl);
+        }
+        sc.ids.forEach(id => {
+          const item = buildTransItem(id);
+          if (item) body.appendChild(item);
+        });
+      });
+      catEl.appendChild(body);
+      listEl.appendChild(catEl);
+    });
+  }
+  buildTransCategories();
 
   // ── Translation state management ──────────────────────────────────────
   // Non-heretical loaded translations (used for bulk select/deselect)
-  const BULK_TRANS = [...TRANSLATIONS.bibleFull, ...TRANSLATIONS.ntFull,
+  const BULK_TRANS = [...TRANSLATIONS.ancient, ...TRANSLATIONS.bibleFull, ...TRANSLATIONS.ntFull,
                       ...TRANSLATIONS.ntPartial, ...TRANSLATIONS.otPartial]
     .filter(t => t.loaded);
 
   // All loaded translations including heretical/english
-  const ALL_LOADED_TRANS = [...TRANSLATIONS.bibleFull, ...TRANSLATIONS.ntFull,
+  const ALL_LOADED_TRANS = [...TRANSLATIONS.ancient, ...TRANSLATIONS.bibleFull, ...TRANSLATIONS.ntFull,
     ...TRANSLATIONS.ntPartial, ...TRANSLATIONS.otPartial,
     ...TRANSLATIONS.heretical, ...TRANSLATIONS.english]
     .filter(t => t.loaded);
@@ -1579,63 +2257,87 @@
     document.querySelectorAll('#panel-translations input[type="checkbox"][data-tid]').forEach(cb => {
       cb.checked = selectedTranslations.has(cb.dataset.tid);
     });
+    updateCatCounts();
     syncSelectAllBar();
   }
 
-  // Update the count label and button text
-  function syncSelectAllBar() {
-    const total    = BULK_TRANS.length;
-    const selected = BULK_TRANS.filter(t => selectedTranslations.has(t.id)).length;
-    const countEl  = document.getElementById('trans-selected-count');
-    const btnEl    = document.getElementById('btn-select-all');
-    if (countEl) countEl.textContent = `${selected} / ${total} seçili`;
-    if (btnEl)   btnEl.textContent   = (selected > 0) ? 'Hiçbirini Seçme' : 'Tümünü Seç';
+  function syncSelectAllBar() {} // kept as no-op; called in places we don't want to remove
+
+  // ── Save / restore state ───────────────────────────────────────────────
+  function saveState() {
+    _lsSet('kkf_book',  currentBook);
+    _lsSet('kkf_chap',  String(currentChapter));
+    _lsSet('kkf_trans', JSON.stringify([...selectedTranslations]));
   }
-  syncSelectAllBar(); // initial render
 
-  // ── Select-all / Deselect-all button ──────────────────────────────────
-  let _selectAllBusy = false;
-  document.getElementById('btn-select-all').addEventListener('click', async function() {
-    if (_selectAllBusy) return;
-
-    const anySelected = BULK_TRANS.some(t => selectedTranslations.has(t.id));
-    if (anySelected) {
-      // Deselect ALL including heretical
-      ALL_LOADED_TRANS.forEach(t => selectedTranslations.delete(t.id));
-      syncTranslationUI();
-      rebuildColumns();
-      triggerSearch();
-      return;
-    }
-
-    // Select all available for this book/chapter via HEAD check
-    _selectAllBusy  = true;
-    this.textContent = 'Kontrol ediliyor…';
-    this.disabled    = true;
-
-    const bookCode = BOOK_CODES[currentBook];
-    const ch       = currentChapter;
-
-    const avail = await Promise.all(BULK_TRANS.map(async t => {
-      if (!isTransAvailableForBook(t.id, bookCode)) return false;
-      try {
-        const r = await fetch(`data/translations/${t.id}/${bookCode}/${ch}.json`, { method: 'HEAD' });
-        return r.ok;
-      } catch { return false; }
-    }));
-
-    BULK_TRANS.forEach((t, i) => {
-      if (avail[i]) selectedTranslations.add(t.id);
-      else          selectedTranslations.delete(t.id);
+  // ── Favorites ─────────────────────────────────────────────────────────
+  function toggleFavorite(tid) {
+    const favs = getFavorites();
+    const idx  = favs.indexOf(tid);
+    if (idx >= 0) favs.splice(idx, 1); else favs.push(tid);
+    saveFavorites(favs);
+    updateFavoriteStars();
+    syncPresetHighlights();
+  }
+  function updateFavoriteStars() {
+    const favs = getFavorites();
+    document.querySelectorAll('.fav-star').forEach(btn => {
+      const on = favs.includes(btn.dataset.tid);
+      btn.classList.toggle('fav-on', on);
+      btn.title = on ? 'Favorilerden çıkar' : 'Favorilere ekle';
     });
+  }
 
+  // ── Category presets ──────────────────────────────────────────────────
+  const HERETICAL_IDS = new Set(TRANSLATIONS.heretical.map(t => t.id));
+  const ENGLISH_IDS   = new Set(TRANSLATIONS.english.map(t => t.id));
+
+  const PRESETS = [
+    { id:'favoriler', label:'⭐ Favoriler',  ids: () => getFavorites() },
+    { id:'modern',    label:'Modern',        ids: () => ['TCL02','YTC','TTT','HAKK','KMEYA'] },
+    { id:'tarihi',    label:'Tarihi',        ids: () => ['ALI1665','KIE1819','JDK1827','TUR1852-57','SEL1866-77','KM1886'] },
+    { id:'yeniant',   label:'Yeni Ant.',     ids: () => ['KIE1819','YYY1987','CAN','KKDEU','BGT','COS','TTT'] },
+    { id:'tamkitap',  label:'Tam Kitap',     ids: () => ['ALI1665','JDK1827','KM1886','KMEYA','TCL02','AREMSI','YTC','HAKK'] },
+    { id:'1940plus',  label:'1940 Sonrası',  ids: () => TRANS_ORDER.filter(id => !HERETICAL_IDS.has(id) && !ENGLISH_IDS.has(id) && ALL_TRANS[id]?.year > 1940 && ALL_TRANS[id]?.loaded) },
+  ];
+
+  function applyPreset(preset) {
+    const ids = preset.ids().filter(id => ALL_TRANS[id]?.loaded);
+    if (ids.length === 0) return;
+    const allOn = ids.every(id => selectedTranslations.has(id));
+    selectedTranslations.clear();
+    if (!allOn) ids.forEach(id => selectedTranslations.add(id));
     syncTranslationUI();
     rebuildColumns();
     triggerSearch();
+    saveState();
+    syncPresetHighlights();
+  }
 
-    _selectAllBusy   = false;
-    this.disabled    = false;
-  });
+  function syncPresetHighlights() {
+    document.querySelectorAll('.preset-btn[data-preset]').forEach(btn => {
+      const p = PRESETS.find(x => x.id === btn.dataset.preset);
+      if (!p) return;
+      const ids = p.ids().filter(id => ALL_TRANS[id]?.loaded);
+      btn.classList.toggle('active', ids.length > 0 && ids.every(id => selectedTranslations.has(id)));
+    });
+  }
+
+  function buildPresetsBar() {
+    const bar = document.getElementById('trans-presets-bar');
+    bar.innerHTML = '';
+    PRESETS.forEach(p => {
+      const btn = document.createElement('button');
+      btn.className    = 'preset-btn';
+      btn.dataset.preset = p.id;
+      btn.textContent  = p.label;
+      btn.addEventListener('click', () => applyPreset(p));
+      bar.appendChild(btn);
+    });
+    syncPresetHighlights();
+  }
+  buildPresetsBar();
+
 
   // ── Heretical warning banner ──────────────────────────────────────────
   (function() {
@@ -1644,10 +2346,12 @@
     const hName     = document.getElementById('hw-trans-name');
     const hBtnDismiss = document.getElementById('hw-btn-dismiss');
     const hBtnRemove  = document.getElementById('hw-btn-remove');
-    let hActiveTid  = null;
+    let hActiveTid    = null;
+    let _removeAllMode = false; // true when triggered from category "Tümü" button
 
-    function showHereticWarning(tid) {
-      hActiveTid = tid;
+    function showHereticWarning(tid, removeAll) {
+      hActiveTid    = tid;
+      _removeAllMode = removeAll || false;
       hName.textContent = ALL_TRANS[tid]?.name ?? tid;
       hOverlay.classList.add('hw-visible');
       hWarning.classList.add('hw-visible');
@@ -1655,28 +2359,38 @@
     function hideHereticWarning() {
       hOverlay.classList.remove('hw-visible');
       hWarning.classList.remove('hw-visible');
-      hActiveTid = null;
+      hActiveTid    = null;
+      _removeAllMode = false;
     }
 
     hOverlay.addEventListener('click', hideHereticWarning);
     hBtnDismiss.addEventListener('click', hideHereticWarning);
     hBtnRemove.addEventListener('click', () => {
       if (hActiveTid) {
-        selectedTranslations.delete(hActiveTid);
+        if (_removeAllMode) {
+          // Remove every heretical translation added by category "Tümü"
+          HERETICAL_ID_SET.forEach(id => selectedTranslations.delete(id));
+        } else {
+          selectedTranslations.delete(hActiveTid);
+        }
         syncTranslationUI();
         rebuildColumns();
         triggerSearch();
+        updateCatCounts();
       }
       hideHereticWarning();
     });
 
-    // Attach warning trigger to heretical checkboxes
-    document.querySelectorAll('#trans-heretical input[type="checkbox"]').forEach(cb => {
+    // Attach warning trigger to heretical checkboxes (identified by data-heretical attribute)
+    document.querySelectorAll('#panel-translations input[type="checkbox"][data-heretical]').forEach(cb => {
       cb.addEventListener('change', e => {
-        if (e.target.checked) showHereticWarning(e.target.dataset.tid);
+        if (e.target.checked) showHereticWarning(e.target.dataset.tid, false);
         else hideHereticWarning();
       });
     });
+
+    // Expose so the category "Tümü" button can trigger the warning
+    window._hereticShowWarning = (tid, removeAll) => showHereticWarning(tid, removeAll);
   })();
 
   // ── Style panel ───────────────────────────────────────────────────────
@@ -1709,6 +2423,57 @@
     });
   });
 
+  // ── Greek font picker ─────────────────────────────────────────────────
+  const GK_FONTS = [
+    { key: 'new-york',    label: 'New York',          stack: "'New York', ui-serif, 'Cardo', Georgia, serif" },
+    { key: 'cardo',       label: 'Cardo',             stack: "'Cardo', Georgia, serif" },
+    { key: 'gfs-didot',   label: 'GFS Didot',         stack: "'GFS Didot', Georgia, serif" },
+    { key: 'eb-garamond', label: 'EB Garamond',       stack: "'EB Garamond', Georgia, serif" },
+    { key: 'noto-serif',  label: 'Noto Serif',        stack: "'Noto Serif', Georgia, serif" },
+    { key: 'crimson-pro', label: 'Crimson Pro',       stack: "'Crimson Pro', Georgia, serif" },
+    { key: 'cormorant',   label: 'Cormorant Garamond',stack: "'Cormorant Garamond', Georgia, serif" },
+    { key: 'playfair',    label: 'Playfair Display',  stack: "'Playfair Display', Georgia, serif" },
+    { key: 'lora',        label: 'Lora',              stack: "'Lora', Georgia, serif" },
+    { key: 'source-serif',label: 'Source Serif 4',    stack: "'Source Serif 4', Georgia, serif" },
+  ];
+  const GK_PREVIEW = 'Ἀρχή';
+
+  function applyGkFont(key) {
+    const f = GK_FONTS.find(x => x.key === key) || GK_FONTS[0];
+    document.documentElement.style.setProperty('--gk-font', f.stack);
+    document.getElementById('gkfp-preview-text').style.fontFamily = f.stack;
+    document.getElementById('gkfp-label').textContent = f.label;
+    document.querySelectorAll('#gkfp-dropdown .gkfp-option').forEach(o =>
+      o.classList.toggle('selected', o.dataset.key === key));
+  }
+
+  (function buildGkPicker() {
+    const dropdown = document.getElementById('gkfp-dropdown');
+    GK_FONTS.forEach(f => {
+      const div = document.createElement('div');
+      div.className = 'gkfp-option';
+      div.dataset.key = f.key;
+      div.innerHTML = `<span class="go-preview" style="font-family:${f.stack}">${GK_PREVIEW}</span><span class="go-name">${f.label}</span>`;
+      div.addEventListener('click', () => {
+        applyGkFont(f.key);
+        _lsSet('gkFont', f.key);
+        dropdown.classList.remove('open');
+      });
+      dropdown.appendChild(div);
+    });
+
+    const btn = document.getElementById('gkfp-btn');
+    btn.addEventListener('click', e => {
+      e.stopPropagation();
+      dropdown.classList.toggle('open');
+    });
+    document.addEventListener('click', () => dropdown.classList.remove('open'));
+    dropdown.addEventListener('click', e => e.stopPropagation());
+  })();
+
+  const savedGkFont = _lsGet('gkFont') || 'new-york';
+  applyGkFont(savedGkFont);
+
   document.getElementById('chk-vn').addEventListener('change', e =>
     document.body.classList.toggle('hide-vn', !e.target.checked));
   document.getElementById('chk-heads').addEventListener('change', e =>
@@ -1726,6 +2491,13 @@
   });
   document.getElementById('btn-style').addEventListener('click', function(e) {
     e.stopPropagation(); togglePanel('panel-style', this);
+  });
+  document.getElementById('btn-commentary').addEventListener('click', function() {
+    const sidebar = document.getElementById('sidebar-panel');
+    const isOpening = !sidebar.classList.contains('open');
+    sidebar.classList.toggle('open');
+    this.classList.toggle('comm-open', isOpening);
+    if (isOpening) loadCommentary(currentBook, currentChapter);
   });
   document.getElementById('btn-top')?.addEventListener('click', () => {
     getCols().forEach(c => c.scrollTo({ top: 0, behavior: 'smooth' }));
@@ -1752,9 +2524,11 @@
     buildChapters(bookName);
     setChapter(chapterNum);
     loadAll();
+    saveState();
+    _maybeReloadCommentary();
   }
   document.getElementById('btn-prev-ch')?.addEventListener('click', () => {
-    if (currentChapter > 1) { setChapter(currentChapter - 1); loadAll(); }
+    if (currentChapter > 1) { setChapter(currentChapter - 1); loadAll(); saveState(); _maybeReloadCommentary(); }
     else {
       const idx = ALL_BOOKS.indexOf(currentBook);
       if (idx > 0) navigateToBook(ALL_BOOKS[idx - 1], CHAPTER_COUNTS[ALL_BOOKS[idx - 1]] ?? 1);
@@ -1762,7 +2536,7 @@
   });
   document.getElementById('btn-next-ch')?.addEventListener('click', () => {
     const total = CHAPTER_COUNTS[currentBook] ?? 1;
-    if (currentChapter < total) { setChapter(currentChapter + 1); loadAll(); }
+    if (currentChapter < total) { setChapter(currentChapter + 1); loadAll(); saveState(); _maybeReloadCommentary(); }
     else {
       const idx = ALL_BOOKS.indexOf(currentBook);
       if (idx < ALL_BOOKS.length - 1) navigateToBook(ALL_BOOKS[idx + 1], 1);
@@ -1830,6 +2604,8 @@
     } else {
       selectedVerses.add(label);
       highlightVerse(label, 'v-selected', true);
+      const vNum = parseInt(String(label).split('-')[0], 10);
+      if (!isNaN(vNum)) scrollCommentaryToVerse(vNum);
     }
   });
 
@@ -2246,7 +3022,10 @@
     }
   })();
 
-  // ── Initial build ─────────────────────────────────────────────────────
+  // ── Initial build — sync header to restored state ────────────────────
+  document.getElementById('btn-books').childNodes[0].textContent = currentBook + ' ';
+  document.getElementById('btn-chapter').textContent = currentChapter + '. Bölüm';
+  buildChapters(currentBook);
   rebuildColumns();
 
   // ── Mobile: translation tab bar + swipe ──────────────────────────────
@@ -2327,6 +3106,311 @@
       backdrop.classList.toggle('visible', anyOpen);
     }).observe(panel, { attributes: true, attributeFilter: ['class'] });
   });
+
+  // ── Commentary verse-sync helpers ────────────────────────────────────
+  function _parseNoteVerse(ref) {
+    // ref examples: "1:1", "1:3-5", "3", "1-3"
+    let s = ref;
+    if (s.includes(':')) s = s.split(':')[1];
+    const m = s.trim().match(/^(\d+)/);
+    return m ? parseInt(m[1], 10) : null;
+  }
+
+  let _commSyncRAF = null;
+  let _commSyncVerse = null;
+  let _commLeading = false, _commLeadTimer = null;
+
+  // RAF-throttled: fires at most once per frame, tracks topmost column verse in real time
+  function scheduleCommentaryScroll(verseNum) {
+    if (verseNum == null || _commLeading) return;
+    _commSyncVerse = verseNum;
+    if (_commSyncRAF) return;
+    _commSyncRAF = requestAnimationFrame(() => {
+      _commSyncRAF = null;
+      if (_commSyncVerse != null) {
+        scrollCommentaryToVerse(_commSyncVerse);
+        _commSyncVerse = null;
+      }
+    });
+  }
+
+  function scrollCommentaryToVerse(verseNum) {
+    const sidebar = document.getElementById('sidebar-panel');
+    if (!sidebar.classList.contains('open')) return;
+    const body = document.getElementById('commentary-body');
+    if (!body) return;
+    const notes = Array.from(body.querySelectorAll('.comm-note[data-verse]'));
+    if (!notes.length) return;
+
+    // Last note whose verse is <= verseNum — don't jump ahead of reading position
+    let target = null;
+    for (const note of notes) {
+      if (parseInt(note.dataset.verse, 10) <= verseNum) target = note;
+      else break;
+    }
+
+    if (!target) { body.scrollTop = 0; return; }
+
+    // Reset to 0 first so getBoundingClientRect gives positions relative to the
+    // body's top edge, independent of any prior scroll state.
+    // #commentary-body is position:static so offsetParent chains are unreliable;
+    // the reset+measure approach is the only robust option.
+    body.scrollTop = 0;
+    body.scrollTop = Math.max(0,
+      target.getBoundingClientRect().top - body.getBoundingClientRect().top);
+  }
+
+  // ── Sidebar tab switching ─────────────────────────────────────────────
+  document.querySelectorAll('.sidebar-tab').forEach(tab => {
+    tab.addEventListener('click', () => {
+      const section = tab.dataset.section;
+      document.querySelectorAll('.sidebar-tab').forEach(t => t.classList.remove('active'));
+      document.querySelectorAll('.sidebar-section').forEach(s => s.classList.remove('active'));
+      tab.classList.add('active');
+      document.getElementById(`sidebar-section-${section}`)?.classList.add('active');
+    });
+  });
+
+  // ── Commentary panel ─────────────────────────────────────────────────
+  let _commCache = {};  // key: "BOOK|chap" → data
+
+  async function loadCommentary(bookName, chap) {
+    const bookCode = BOOK_CODES[bookName];
+    if (!bookCode) return;
+    const key = `${bookCode}|${chap}`;
+    const introEl = document.getElementById('commentary-intro');
+    const notesEl = document.getElementById('commentary-notes');
+    const emptyEl = document.getElementById('commentary-empty');
+    const loadEl  = document.getElementById('commentary-loading');
+    const titleEl = document.getElementById('commentary-title');
+
+    titleEl.textContent = `${bookName} ${chap}. Bölüm — Yorum`;
+    introEl.textContent  = '';
+    notesEl.innerHTML   = '';
+    emptyEl.style.display = 'none';
+    document.getElementById('commentary-body').scrollTop = 0;
+
+    if (_commCache[key]) {
+      renderCommentary(_commCache[key]);
+      return;
+    }
+
+    loadEl.style.display = 'block';
+    try {
+      const res = await fetch(`data/commentary/${bookCode}/${chap}.json`);
+      if (!res.ok) throw new Error('not found');
+      const data = await res.json();
+      _commCache[key] = data;
+      loadEl.style.display = 'none';
+      renderCommentary(data);
+    } catch {
+      loadEl.style.display = 'none';
+      emptyEl.style.display = 'block';
+    }
+  }
+
+  function renderCommentary(data) {
+    const introEl = document.getElementById('commentary-intro');
+    const notesEl = document.getElementById('commentary-notes');
+    const emptyEl = document.getElementById('commentary-empty');
+
+    introEl.textContent = data.intro || '';
+    notesEl.innerHTML = '';
+
+    if (!data.notes || data.notes.length === 0) {
+      emptyEl.style.display = 'block';
+      return;
+    }
+
+    data.notes.forEach(note => {
+      const div = document.createElement('div');
+      div.className = 'comm-note';
+      const vn = _parseNoteVerse(note.ref);
+      if (vn !== null) div.dataset.verse = vn;
+      const ref = document.createElement('div');
+      ref.className = 'comm-ref';
+      ref.textContent = note.ref.includes(':') ? note.ref.split(':')[1].trim() : note.ref;
+      const text = document.createElement('div');
+      text.className = 'comm-text';
+      // Italicize terms that appear in italics on source site (quoted with apostrophes)
+      text.innerHTML = note.text
+        .replace(/([A-ZÇĞİÖŞÜa-zçğışöşü][^\.\!\?]{2,30}?) (Bkz\.|bkz\.|Krş\.|krş\.)/g, '<em>$1</em> $2')
+        .replace(/\bBkz\. /g, '<span style="color:rgba(184,146,42,0.7)">Bkz. </span>')
+        .replace(/\bbkz\. /g, '<span style="color:rgba(184,146,42,0.7)">bkz. </span>');
+      div.appendChild(ref);
+      div.appendChild(text);
+      notesEl.appendChild(div);
+    });
+
+    // Size the pre-space, then sync commentary to current column position.
+    updateCommentaryPreSpace();
+
+    function _currentColVerse() {
+      const cols = getCols();
+      let verse = verseNums[0]?.[0] ?? 1;
+      if (cols.length && versePos[0] && Object.keys(versePos[0]).length) {
+        const pos = getPosition(cols, 0);
+        if (pos.verse != null) verse = pos.verse;
+      }
+      return verse;
+    }
+
+    // Immediate sync (double-RAF so pre-space height is in layout).
+    requestAnimationFrame(() => requestAnimationFrame(() => {
+      if (_commLeading) return;
+      scrollCommentaryToVerse(_currentColVerse());
+    }));
+
+    // The sidebar animates from width:0 → width:460px (0.28s). While it's
+    // narrow, text wraps more heavily → note heights are inflated → the
+    // scroll position lands one note too far. Re-sync once the animation ends
+    // with the final, correct layout.
+    const _sidebarEl = document.getElementById('sidebar-panel');
+    function _onSidebarOpen(e) {
+      if (e.propertyName !== 'width') return;
+      _sidebarEl.removeEventListener('transitionend', _onSidebarOpen);
+      if (!_sidebarEl.classList.contains('open')) return;
+      updateCommentaryPreSpace();
+      if (!_commLeading) scrollCommentaryToVerse(_currentColVerse());
+    }
+    _sidebarEl.addEventListener('transitionend', _onSidebarOpen);
+  }
+
+  function updateCommentaryPreSpace() {
+    const body = document.getElementById('commentary-body');
+    const pre  = document.getElementById('commentary-pre-space');
+    const post = document.getElementById('commentary-post-space');
+    if (!body) return;
+    const H = body.clientHeight;
+    if (pre) pre.style.height = H + 'px';
+    if (post) {
+      // Post-space must be exactly (H - lastNoteHeight) so the furthest the
+      // user can scroll is the last note's top edge flush with the panel top —
+      // no blank space below the last note is ever reachable.
+      const notes    = body.querySelectorAll('.comm-note');
+      const lastNote = notes[notes.length - 1];
+      const lastH    = lastNote ? lastNote.getBoundingClientRect().height : 0;
+      post.style.height = Math.max(0, H - lastH) + 'px';
+    }
+  }
+
+  window.addEventListener('resize', updateCommentaryPreSpace);
+
+  // Commentary body → reading columns reverse sync
+  (function() {
+    const body = document.getElementById('commentary-body');
+
+    // Find the note whose label (top edge) has most recently crossed the viewport top.
+    // "Last note whose top ≤ bodyRect.top + 1" — switches verse exactly when the next
+    // note's label scrolls to the top, not when the previous note's body scrolls away.
+    function topNoteAtViewport() {
+      const bodyRect = body.getBoundingClientRect();
+      const notes = Array.from(body.querySelectorAll('.comm-note[data-verse]'));
+      let found = null;
+      for (const note of notes) {
+        if (note.getBoundingClientRect().top <= bodyRect.top + 1) found = note;
+        else break;
+      }
+      return { found, bodyRect, notes };
+    }
+
+    function syncColsToCommentary() {
+      const sidebar = document.getElementById('sidebar-panel');
+      if (!sidebar.classList.contains('open')) return;
+      const { found, bodyRect, notes } = topNoteAtViewport();
+      if (!found) {
+        // Spacer area visible — sync to first verse
+        if (verseNums[0]?.length) {
+          const cols = getCols();
+          cols.forEach((col, idx) => applyPosition(cols, idx, null, verseNums[0][0], 0));
+        }
+        return;
+      }
+      const verseNum = parseInt(found.dataset.verse, 10);
+      if (isNaN(verseNum)) return;
+      const cols = getCols();
+      cols.forEach((col, idx) => applyPosition(cols, idx, null, verseNum, 0));
+    }
+
+    function scheduleSettle() {
+      clearTimeout(_commLeadTimer);
+      _commLeadTimer = setTimeout(() => {
+        _commLeading = false;
+        // One-shot post-scroll settle: sync columns after commentary comes to rest
+        // Skip if a column is currently leading (forward sync is active)
+        requestAnimationFrame(() => {
+          if (leader === null) syncColsToCommentary();
+        });
+      }, 350);
+    }
+
+    body.addEventListener('wheel', () => {
+      _commLeading = true;
+      scheduleSettle();
+    }, { passive: true });
+    body.addEventListener('touchstart', () => {
+      _commLeading = true;
+      clearTimeout(_commLeadTimer);
+    }, { passive: true });
+    body.addEventListener('touchend', () => { scheduleSettle(); }, { passive: true });
+
+    body.addEventListener('scroll', () => {
+      if (!_commLeading) return;
+      const sidebar = document.getElementById('sidebar-panel');
+      if (!sidebar.classList.contains('open')) return;
+      syncColsToCommentary();
+    }, { passive: true });
+  })();
+
+  // Reload commentary when book/chapter changes if sidebar is open
+  function _maybeReloadCommentary() {
+    if (document.getElementById('sidebar-panel').classList.contains('open')) {
+      loadCommentary(currentBook, currentChapter);
+    }
+  }
+
+  // ── Column info popup ────────────────────────────────────────────────
+  (function() {
+    const popup  = document.getElementById('col-info-popup');
+    let openTid  = null;
+
+    function showColInfo(tid, headerEl) {
+      const meta   = ALL_TRANS[tid] || { name: tid, year: '' };
+      const credit = TRANS_CREDITS[tid] || '';
+      popup.querySelector('.cip-abbr').textContent = tid;
+      popup.querySelector('.cip-name').textContent = meta.name;
+      popup.querySelector('.cip-year').textContent = meta.yearLabel || (meta.year ? String(meta.year) : '');
+      const creditEl = popup.querySelector('.cip-credit');
+      creditEl.textContent  = credit;
+      creditEl.style.display = credit ? '' : 'none';
+      popup.classList.add('open');
+      openTid = tid;
+
+      requestAnimationFrame(() => {
+        const rect = headerEl.getBoundingClientRect();
+        const pw   = popup.offsetWidth || 260;
+        let   left = rect.left + (rect.width - pw) / 2;
+        left = Math.max(6, Math.min(left, window.innerWidth - pw - 6));
+        popup.style.left = left + 'px';
+        popup.style.top  = (rect.bottom + 5) + 'px';
+      });
+    }
+
+    function hideColInfo() { popup.classList.remove('open'); openTid = null; }
+
+    document.getElementById('okuyucu_layout').addEventListener('click', e => {
+      const hdr = e.target.closest('.col-header[data-tid]');
+      if (!hdr) return;
+      const tid = hdr.dataset.tid;
+      if (openTid === tid) { hideColInfo(); return; }
+      showColInfo(tid, hdr);
+    });
+
+    document.addEventListener('click', e => {
+      if (!openTid) return;
+      if (!popup.contains(e.target) && !e.target.closest('.col-header')) hideColInfo();
+    });
+  })();
 
   // Resize: re-evaluate tabs and strip mob-visible on desktop
   window.addEventListener('resize', () => {
