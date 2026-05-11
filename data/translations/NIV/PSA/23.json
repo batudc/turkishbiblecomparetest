@@ -1,0 +1,31 @@
+{
+  "t": "NIV",
+  "b": "PSA",
+  "c": 23,
+  "content": [
+    {
+      "v": 1,
+      "text": "The Lord is my shepherd, I lack nothing."
+    },
+    {
+      "v": 2,
+      "text": "He makes me lie down in green pastures,\nhe leads me beside quiet waters,"
+    },
+    {
+      "v": 3,
+      "text": "he refreshes my soul.\nHe guides me along the right paths\n    for his name’s sake."
+    },
+    {
+      "v": 4,
+      "text": "Even though I walk\n    through the darkest valley,\nI will fear no evil,\n    for you are with me;\nyour rod and your staff,\n    they comfort me."
+    },
+    {
+      "v": 5,
+      "text": "You prepare a table before me\n    in the presence of my enemies.\nYou anoint my head with oil;\n    my cup overflows."
+    },
+    {
+      "v": 6,
+      "text": "Surely your goodness and love will follow me\n    all the days of my life,\nand I will dwell in the house of the Lord\n    forever."
+    }
+  ]
+}

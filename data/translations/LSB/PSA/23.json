@@ -1,0 +1,31 @@
+{
+  "t": "LSB",
+  "b": "PSA",
+  "c": 23,
+  "content": [
+    {
+      "v": 1,
+      "text": "Yahweh is my shepherd,\nI shall not want."
+    },
+    {
+      "v": 2,
+      "text": "He makes me lie down in green pastures;\nHe leads me beside quiet waters."
+    },
+    {
+      "v": 3,
+      "text": "He restores my soul;\nHe guides me in the paths of righteousness\nFor His name’s sake."
+    },
+    {
+      "v": 4,
+      "text": "Even though I walk through the valley of the shadow of death,\nI fear no evil, for You are with me;\nYour rod and Your staff, they comfort me."
+    },
+    {
+      "v": 5,
+      "text": "You prepare a table before me in the presence of my enemies;\nYou have anointed my head with oil;\nMy cup overflows."
+    },
+    {
+      "v": 6,
+      "text": "Surely goodness and lovingkindness will pursue me all the days of my life,\nAnd I will dwell in the house of Yahweh forever."
+    }
+  ]
+}

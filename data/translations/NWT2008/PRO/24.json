@@ -1,1 +1,140 @@
-{"t": "NWT2008", "b": "PRO", "c": 24, "content": [{"v": 1, "text": "Kötülere imrenme, aralarına katılmaya can atma."}, {"v": 2, "text": "Onlar yüreklerinde soygunculuk tasarlar; ağızlarından bela eksik olmaz."}, {"v": 3, "text": "Bir ev hikmetle kurulur, anlayışla pekiştirilir."}, {"v": 4, "text": "Bilgi sayesinde odalar hoş ve değerli şeylerle dolar."}, {"v": 5, "text": "Gücünü hikmetle kullanan yiğit adamdır. Bilgili insan gücüne güç katar."}, {"v": 6, "text": "Savaşını sağlam rehberliğe göre sürdür; kurtuluş danışmanların çokluğuyla olur."}, {"v": 7, "text": "Ahmak için gerçek hikmet çok yükseklerdedir; şehir kapısında ağzını açmaz."}, {"v": 8, "text": "Kötülük tasarlayanın adı düzenbaza çıkar."}, {"v": 9, "text": "Edepsizlik ahmaklıktan doğar ve günahtır; alaycı insan herkese itici gelir."}, {"v": 10, "text": "Sıkıntılı günde cesaretin mi kırıldı? O zaman gücün de olmaz."}, {"v": 11, "text": "Ölüme götürülmekte olanları kurtar; öldürülmeye sendeleyerek gidenleri esirge."}, {"v": 12, "text": "“Bak bunu bilmiyorduk” dersen, yürekleri tartan anlamaz mı, senin içini okuyan bilmez mi, insana yaptıklarının karşılığını vermez mi?"}, {"v": 13, "text": "Oğlum, bal ye, iyidir; petek balı damağına tatlı gelir."}, {"v": 14, "text": "Hikmeti öğrenmek de senin için öyledir. Onu bulmuşsan bir geleceğin var demektir, ümidin boşa çıkmaz."}, {"v": 15, "text": "Kötü adam gibi doğrunun mekânına karşı pusuya yatma, onun oturduğu yeri yağmalama."}, {"v": 16, "text": "Çünkü doğru insan yedi kere düşse de kalkar; kötüler ise felakete uğrayınca yıkılır."}, {"v": 17, "text": "Düşmanın düştüğünde sevinme, ona çelme takıldı diye yüreğini sevinç kaplamasın;"}, {"v": 18, "text": "yoksa Yehova bunu görür ve hiç hoş karşılamaz; o zaman ona olan öfkesi geçer."}, {"v": 19, "text": "Kötülük yapanlar yüzünden kızma. Kötülere imrenme."}, {"v": 20, "text": "Çünkü kötülerin geleceği olmayacak; hepsinin kandili söndürülecek."}, {"v": 21, "text": "Oğlum, Yehova’dan ve kraldan kork. Asilerin arasına karışma,"}, {"v": 22, "text": "çünkü felaketleri ansızın gelir, yıkımları kaşla göz arasında olur."}, {"v": 23, "text": "Şu sözler de hikmetliler içindir: Yargıda taraf tutmak iyi değildir."}, {"v": 24, "text": "Kötüye “Sen doğrusun” diyeni halklar lanetleyecek, milletler kınayacak."}, {"v": 25, "text": "Ona yanlışını gösterenler ise esenlik bulacak, güzel nimetler tadacaklar."}, {"v": 26, "text": "Dosdoğru cevap vereni yanaklarından öperler."}, {"v": 27, "text": "Dışarıda işini düzene sok, tarlada hazırlığını yap. Ondan sonra da aileni güçlendir."}, {"v": 28, "text": "Neden yokken komşun aleyhinde tanıklık etme. Yoksa kendi ağzınla akılsız durumuna düşersin."}, {"v": 29, "text": "“Bana yaptığının aynını ben de ona yapacağım. Yaptıklarını bir bir ödeteceğim” deme."}, {"v": 30, "text": "Tembelin tarlasının, yüreği sağduyudan yoksun adamın bağının yanından geçtim."}, {"v": 31, "text": "Gördüm ki, her yanı deliceler bürümüş, ısırganlar kaplamış; taş duvar da yıkılmış."}, {"v": 32, "text": "Öylece baktım, yüreğimden derin düşünceler geçirdim, gördüklerimden ibret aldım:"}, {"v": 33, "text": "Biraz uyuyayım, biraz kestireyim, ellerimi kavuşturup biraz yatayım derken,"}, {"v": 34, "text": "yoksulluk bir haydut gibi, yokluk bir eşkıya gibi gelir üzerine."}]}
+{
+  "content": [
+    {
+      "v": 1,
+      "text": "Kötülere imrenme, aralarına katılmaya can atma."
+    },
+    {
+      "v": 2,
+      "text": "Onlar yüreklerinde soygunculuk tasarlar; ağızlarından bela eksik olmaz."
+    },
+    {
+      "v": 3,
+      "text": "Bir ev hikmetle kurulur, anlayışla pekiştirilir."
+    },
+    {
+      "v": 4,
+      "text": "Bilgi sayesinde odalar hoş ve değerli şeylerle dolar."
+    },
+    {
+      "v": 5,
+      "text": "Gücünü hikmetle kullanan yiğit adamdır. Bilgili insan gücüne güç katar."
+    },
+    {
+      "v": 6,
+      "text": "Savaşını sağlam rehberliğe göre sürdür; kurtuluş danışmanların çokluğuyla olur."
+    },
+    {
+      "v": 7,
+      "text": "Ahmak için gerçek hikmet çok yükseklerdedir; şehir kapısında ağzını açmaz."
+    },
+    {
+      "v": 8,
+      "text": "Kötülük tasarlayanın adı düzenbaza çıkar."
+    },
+    {
+      "v": 9,
+      "text": "Edepsizlik ahmaklıktan doğar ve günahtır; alaycı insan herkese itici gelir."
+    },
+    {
+      "v": 10,
+      "text": "Sıkıntılı günde cesaretin mi kırıldı? O zaman gücün de olmaz."
+    },
+    {
+      "v": 11,
+      "text": "Ölüme götürülmekte olanları kurtar; öldürülmeye sendeleyerek gidenleri esirge."
+    },
+    {
+      "v": 12,
+      "text": "“Bak bunu bilmiyorduk” dersen, yürekleri tartan anlamaz mı, senin içini okuyan bilmez mi, insana yaptıklarının karşılığını vermez mi?"
+    },
+    {
+      "v": 13,
+      "text": "Oğlum, bal ye, iyidir; petek balı damağına tatlı gelir."
+    },
+    {
+      "v": 14,
+      "text": "Hikmeti öğrenmek de senin için öyledir. Onu bulmuşsan bir geleceğin var demektir, ümidin boşa çıkmaz."
+    },
+    {
+      "v": 15,
+      "text": "Kötü adam gibi doğrunun mekânına karşı pusuya yatma, onun oturduğu yeri yağmalama."
+    },
+    {
+      "v": 16,
+      "text": "Çünkü doğru insan yedi kere düşse de kalkar; kötüler ise felakete uğrayınca yıkılır."
+    },
+    {
+      "v": 17,
+      "text": "Düşmanın düştüğünde sevinme, ona çelme takıldı diye yüreğini sevinç kaplamasın;"
+    },
+    {
+      "v": 18,
+      "text": "yoksa Yehova bunu görür ve hiç hoş karşılamaz; o zaman ona olan öfkesi geçer."
+    },
+    {
+      "v": 19,
+      "text": "Kötülük yapanlar yüzünden kızma. Kötülere imrenme."
+    },
+    {
+      "v": 20,
+      "text": "Çünkü kötülerin geleceği olmayacak; hepsinin kandili söndürülecek."
+    },
+    {
+      "v": 21,
+      "text": "Oğlum, Yehova’dan ve kraldan kork. Asilerin arasına karışma,"
+    },
+    {
+      "v": 22,
+      "text": "çünkü felaketleri ansızın gelir, yıkımları kaşla göz arasında olur."
+    },
+    {
+      "v": 23,
+      "text": "Şu sözler de hikmetliler içindir: Yargıda taraf tutmak iyi değildir."
+    },
+    {
+      "v": 24,
+      "text": "Kötüye “Sen doğrusun” diyeni halklar lanetleyecek, milletler kınayacak."
+    },
+    {
+      "v": 25,
+      "text": "Ona yanlışını gösterenler ise esenlik bulacak, güzel nimetler tadacaklar."
+    },
+    {
+      "v": 26,
+      "text": "Dosdoğru cevap vereni yanaklarından öperler."
+    },
+    {
+      "v": 27,
+      "text": "Dışarıda işini düzene sok, tarlada hazırlığını yap. Ondan sonra da aileni güçlendir."
+    },
+    {
+      "v": 28,
+      "text": "Neden yokken komşun aleyhinde tanıklık etme. Yoksa kendi ağzınla akılsız durumuna düşersin."
+    },
+    {
+      "v": 29,
+      "text": "“Bana yaptığının aynını ben de ona yapacağım. Yaptıklarını bir bir ödeteceğim” deme."
+    },
+    {
+      "v": 30,
+      "text": "Tembelin tarlasının, yüreği sağduyudan yoksun adamın bağının yanından geçtim."
+    },
+    {
+      "v": 31,
+      "text": "Gördüm ki, her yanı deliceler bürümüş, ısırganlar kaplamış; taş duvar da yıkılmış."
+    },
+    {
+      "v": 32,
+      "text": "Öylece baktım, yüreğimden derin düşünceler geçirdim, gördüklerimden ibret aldım:"
+    },
+    {
+      "v": 33,
+      "text": "Biraz uyuyayım, biraz kestireyim, ellerimi kavuşturup biraz yatayım derken,"
+    },
+    {
+      "v": 34,
+      "text": "yoksulluk bir haydut gibi, yokluk bir eşkıya gibi gelir üzerine."
+    }
+  ]
+}

@@ -1,1 +1,84 @@
-{"t": "NWT2008", "b": "DEU", "c": 20, "content": [{"v": 1, "text": "“Düşmanlarınla savaşmak üzere sefere çıktığında karşında atlar, savaş arabaları ve senden kalabalık bir ordu görürsen onlardan korkmayacaksın. Çünkü seni Mısır diyarından çıkaran Tanrın Yehova seninledir."}, {"v": 2, "text": "Savaşa gireceğin zaman kâhin halkın yanına gelip onlara seslenecek."}, {"v": 3, "text": "‘Dinle ey İsrail’ diyecek, ‘Bugün düşmanlarınızla savaşa giriyorsunuz. Yüreksiz olmayın. Korkmayın, telaşa kapılarak kaçmayın, onlardan gözünüz yılmasın."}, {"v": 4, "text": "Çünkü düşmanlarınızla savaşıp sizi kurtarmak üzere Tanrınız Yehova da sizinle birlikte geliyor.’"}, {"v": 5, "text": "Görevliler de halkla konuşup şöyle diyecekler: ‘Aranızda yeni bir ev yapıp da içinde oturmamış olan var mı? Gitsin, evine dönsün; olur da savaşta ölürse evine başkası yerleşir."}, {"v": 6, "text": "Bir bağ kurup da ilk ürününü toplamamış olan var mı? Gitsin, evine dönsün; olur da savaşta ölürse ürününü başkası toplar."}, {"v": 7, "text": "Bir kızla nişanlanıp da onu almamış biri var mı? Gitsin, evine dönsün; olur da savaşta ölürse nişanlısını başkası alır.’"}, {"v": 8, "text": "Görevliler halka şunları da söyleyecek: ‘Korkan, cesaretini kaybeden biri var mı? Gitsin, evine dönsün ki kardeşlerinin de yüreğine korku düşürmesin.’"}, {"v": 9, "text": "Görevliler halka söyleyeceklerini bitirdikten sonra onların başına ordu komutanları atayacaklar."}, {"v": 10, "text": "Savaşmak üzere bir şehrin önlerine geldiğinde ona barış koşullarını da bildireceksin."}, {"v": 11, "text": "Eğer şehir sana barışçı bir cevap verir ve kapılarını açarsa, o zaman içindeki tüm halkı ağır işlerde çalıştırmak üzere alacaksın, sana kulluk edecekler."}, {"v": 12, "text": "Ancak, şehir seninle barış yapmaz, savaşa girişirse ve onu kuşatmak zorunda kalırsan,"}, {"v": 13, "text": "Tanrın Yehova onu mutlaka senin eline verecek, oradaki tüm erkekleri kılıçtan geçireceksin."}, {"v": 14, "text": "Yalnızca kadınları, çocukları, hayvanları ve şehirde olan her şeyi, tüm ganimeti kendine ayıracaksın. Tanrın Yehova’nın senin eline verdiği, düşmanlarına ait olan ganimeti yiyeceksin."}, {"v": 15, "text": "Bu milletlere ait olmayan, çok uzaktaki şehirlerin tümüne böyle yapacaksın."}, {"v": 16, "text": "Tanrın Yehova’nın sana miras olarak vereceği şehirlerde ise nefes alan hiçbir canlı bırakmayacaksın;"}, {"v": 17, "text": "çünkü Tanrın Yehova’nın sana emrettiği gibi bu milletlerin hepsini, Hititleri, Amorileri, Kenanlıları, Perizzileri, Hivileri ve Yebusileri mutlaka yok etmelisin."}, {"v": 18, "text": "Yoksa size de kendi tanrıları için yaptıkları tüm iğrenç işleri yapmayı öğretirler ve Tanrınız Yehova’ya karşı günah işlersiniz."}, {"v": 19, "text": "Bir şehri ele geçirmek üzere savaşırken onu uzun süre kuşatacak olursan, ağaçlarına balta vurup onları mahvetmeyeceksin, çünkü meyvelerinden yiyeceksin. Onları kesmeyeceksin; kırın ağacı insan mı ki kuşatma altına alasın?"}, {"v": 20, "text": "Yalnızca meyve ağacı olmadığını bildiğin ağaçları yok edebilirsin; onları kesip seninle savaşan şehir düşene dek karşısına rampalar kuracaksın.”"}]}
+{
+  "content": [
+    {
+      "v": 1,
+      "text": "“Düşmanlarınla savaşmak üzere sefere çıktığında karşında atlar, savaş arabaları ve senden kalabalık bir ordu görürsen onlardan korkmayacaksın. Çünkü seni Mısır diyarından çıkaran Tanrın Yehova seninledir."
+    },
+    {
+      "v": 2,
+      "text": "Savaşa gireceğin zaman kâhin halkın yanına gelip onlara seslenecek."
+    },
+    {
+      "v": 3,
+      "text": "‘Dinle ey İsrail’ diyecek, ‘Bugün düşmanlarınızla savaşa giriyorsunuz. Yüreksiz olmayın. Korkmayın, telaşa kapılarak kaçmayın, onlardan gözünüz yılmasın."
+    },
+    {
+      "v": 4,
+      "text": "Çünkü düşmanlarınızla savaşıp sizi kurtarmak üzere Tanrınız Yehova da sizinle birlikte geliyor.’"
+    },
+    {
+      "v": 5,
+      "text": "Görevliler de halkla konuşup şöyle diyecekler: ‘Aranızda yeni bir ev yapıp da içinde oturmamış olan var mı? Gitsin, evine dönsün; olur da savaşta ölürse evine başkası yerleşir."
+    },
+    {
+      "v": 6,
+      "text": "Bir bağ kurup da ilk ürününü toplamamış olan var mı? Gitsin, evine dönsün; olur da savaşta ölürse ürününü başkası toplar."
+    },
+    {
+      "v": 7,
+      "text": "Bir kızla nişanlanıp da onu almamış biri var mı? Gitsin, evine dönsün; olur da savaşta ölürse nişanlısını başkası alır.’"
+    },
+    {
+      "v": 8,
+      "text": "Görevliler halka şunları da söyleyecek: ‘Korkan, cesaretini kaybeden biri var mı? Gitsin, evine dönsün ki kardeşlerinin de yüreğine korku düşürmesin.’"
+    },
+    {
+      "v": 9,
+      "text": "Görevliler halka söyleyeceklerini bitirdikten sonra onların başına ordu komutanları atayacaklar."
+    },
+    {
+      "v": 10,
+      "text": "Savaşmak üzere bir şehrin önlerine geldiğinde ona barış koşullarını da bildireceksin."
+    },
+    {
+      "v": 11,
+      "text": "Eğer şehir sana barışçı bir cevap verir ve kapılarını açarsa, o zaman içindeki tüm halkı ağır işlerde çalıştırmak üzere alacaksın, sana kulluk edecekler."
+    },
+    {
+      "v": 12,
+      "text": "Ancak, şehir seninle barış yapmaz, savaşa girişirse ve onu kuşatmak zorunda kalırsan,"
+    },
+    {
+      "v": 13,
+      "text": "Tanrın Yehova onu mutlaka senin eline verecek, oradaki tüm erkekleri kılıçtan geçireceksin."
+    },
+    {
+      "v": 14,
+      "text": "Yalnızca kadınları, çocukları, hayvanları ve şehirde olan her şeyi, tüm ganimeti kendine ayıracaksın. Tanrın Yehova’nın senin eline verdiği, düşmanlarına ait olan ganimeti yiyeceksin."
+    },
+    {
+      "v": 15,
+      "text": "Bu milletlere ait olmayan, çok uzaktaki şehirlerin tümüne böyle yapacaksın."
+    },
+    {
+      "v": 16,
+      "text": "Tanrın Yehova’nın sana miras olarak vereceği şehirlerde ise nefes alan hiçbir canlı bırakmayacaksın;"
+    },
+    {
+      "v": 17,
+      "text": "çünkü Tanrın Yehova’nın sana emrettiği gibi bu milletlerin hepsini, Hititleri, Amorileri, Kenanlıları, Perizzileri, Hivileri ve Yebusileri mutlaka yok etmelisin."
+    },
+    {
+      "v": 18,
+      "text": "Yoksa size de kendi tanrıları için yaptıkları tüm iğrenç işleri yapmayı öğretirler ve Tanrınız Yehova’ya karşı günah işlersiniz."
+    },
+    {
+      "v": 19,
+      "text": "Bir şehri ele geçirmek üzere savaşırken onu uzun süre kuşatacak olursan, ağaçlarına balta vurup onları mahvetmeyeceksin, çünkü meyvelerinden yiyeceksin. Onları kesmeyeceksin; kırın ağacı insan mı ki kuşatma altına alasın?"
+    },
+    {
+      "v": 20,
+      "text": "Yalnızca meyve ağacı olmadığını bildiğin ağaçları yok edebilirsin; onları kesip seninle savaşan şehir düşene dek karşısına rampalar kuracaksın.”"
+    }
+  ]
+}

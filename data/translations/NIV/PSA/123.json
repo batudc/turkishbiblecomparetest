@@ -1,0 +1,23 @@
+{
+  "t": "NIV",
+  "b": "PSA",
+  "c": 123,
+  "content": [
+    {
+      "v": 1,
+      "text": "I lift up my eyes to you,\n    to you who sit enthroned in heaven."
+    },
+    {
+      "v": 2,
+      "text": "As the eyes of slaves look to the hand of their master,\n    as the eyes of a female slave look to the hand of her mistress,\nso our eyes look to the Lord our God,\n    till he shows us his mercy."
+    },
+    {
+      "v": 3,
+      "text": "Have mercy on us, Lord, have mercy on us,\n    for we have endured no end of contempt."
+    },
+    {
+      "v": 4,
+      "text": "We have endured no end\n    of ridicule from the arrogant,\n    of contempt from the proud."
+    }
+  ]
+}

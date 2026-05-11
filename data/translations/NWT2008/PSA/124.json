@@ -1,1 +1,36 @@
-{"t": "NWT2008", "b": "PSA", "c": 124, "content": [{"v": 1, "text": "İsrail şimdi desin ki, “Yehova bizimle olmasaydı,"}, {"v": 2, "text": "İnsanlar üzerimize yürüdüğünde, Yehova bizimle olmasaydı,"}, {"v": 3, "text": "Bize karşı öfkeleri kabardığında Bizi diri diri yutarlardı."}, {"v": 4, "text": "Sular silip süpürür Seller ezer geçerdi bizi."}, {"v": 5, "text": "Kabaran sular Ezer geçerdi bizi."}, {"v": 6, "text": "Yehova’ya şükrolsun, Bizi onlara yem etmedi."}, {"v": 7, "text": "Avcıların tuzağından kurtulan Kuş gibiydi canımız. Tuzak kırıldı, Biz de kaçıp kurtulduk."}, {"v": 8, "text": "Göğü ve yeri yaratanın, Yehova’nın adıdır yardımcımız.”"}]}
+{
+  "content": [
+    {
+      "v": 1,
+      "text": "İsrail şimdi desin ki,“Yehova bizimle olmasaydı,"
+    },
+    {
+      "v": 2,
+      "text": "İnsanlar üzerimize yürüdüğünde,Yehova bizimle olmasaydı,"
+    },
+    {
+      "v": 3,
+      "text": "Bize karşı öfkeleri kabardığındaBizi diri diri yutarlardı."
+    },
+    {
+      "v": 4,
+      "text": "Sular silip süpürürSeller ezer geçerdi bizi."
+    },
+    {
+      "v": 5,
+      "text": "Kabaran sularEzer geçerdi bizi."
+    },
+    {
+      "v": 6,
+      "text": "Yehova’ya şükrolsun,Bizi onlara yem etmedi."
+    },
+    {
+      "v": 7,
+      "text": "Avcıların tuzağından kurtulanKuş gibiydi canımız.Tuzak kırıldı,Biz de kaçıp kurtulduk."
+    },
+    {
+      "v": 8,
+      "text": "Göğü ve yeri yaratanın,Yehova’nın adıdır yardımcımız.”"
+    }
+  ]
+}

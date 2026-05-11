@@ -1,0 +1,223 @@
+{
+  "t": "CSB",
+  "b": "NUM",
+  "c": 1,
+  "content": [
+    {
+      "v": 1,
+      "text": "The Lord spoke to Moses in the tent of meeting in the Wilderness of Sinai, on the first day of the second month of the second year after Israel’s departure from the land of Egypt:"
+    },
+    {
+      "v": 2,
+      "text": "“Take a census of the entire Israelite community by their clans and their ancestral families, counting the names of every male one by one."
+    },
+    {
+      "v": 3,
+      "text": "You and Aaron are to register those who are twenty years old or more by their military divisions—everyone who can serve in Israel’s army."
+    },
+    {
+      "v": 4,
+      "text": "A man from each tribe is to be with you, each one the head of his ancestral family."
+    },
+    {
+      "v": 5,
+      "text": "These are the names of the men who are to assist you:\nElizur son of Shedeur from Reuben;"
+    },
+    {
+      "v": 6,
+      "text": "Shelumiel son of Zurishaddai from Simeon;"
+    },
+    {
+      "v": 7,
+      "text": "Nahshon son of Amminadab from Judah;"
+    },
+    {
+      "v": 8,
+      "text": "Nethanel son of Zuar from Issachar;"
+    },
+    {
+      "v": 9,
+      "text": "Eliab son of Helon from Zebulun;"
+    },
+    {
+      "v": 10,
+      "text": "from the sons of Joseph:\nElishama son of Ammihud from Ephraim,\nGamaliel son of Pedahzur from Manasseh;"
+    },
+    {
+      "v": 11,
+      "text": "Abidan son of Gideoni from Benjamin;"
+    },
+    {
+      "v": 12,
+      "text": "Ahiezer son of Ammishaddai from Dan;"
+    },
+    {
+      "v": 13,
+      "text": "Pagiel son of Ochran from Asher;"
+    },
+    {
+      "v": 14,
+      "text": "Eliasaph son of Deuel from Gad;"
+    },
+    {
+      "v": 15,
+      "text": "Ahira son of Enan from Naphtali."
+    },
+    {
+      "v": 16,
+      "text": "These are the men called from the community; they are leaders of their ancestral tribes, the heads of Israel’s clans.”"
+    },
+    {
+      "v": 17,
+      "text": "So Moses and Aaron took these men who had been designated by name,"
+    },
+    {
+      "v": 18,
+      "text": "and they assembled the whole community on the first day of the second month. They recorded their ancestry by their clans and their ancestral families, counting one by one the names of those twenty years old or more,"
+    },
+    {
+      "v": 19,
+      "text": "just as the Lord commanded Moses. He registered them in the Wilderness of Sinai:"
+    },
+    {
+      "v": 20,
+      "text": "The descendants of Reuben, the firstborn of Israel: according to their family records by their clans and their ancestral families, counting one by one the names of every male twenty years old or more, everyone who could serve in the army,"
+    },
+    {
+      "v": 21,
+      "text": "those registered for the tribe of Reuben numbered 46,500."
+    },
+    {
+      "v": 22,
+      "text": "The descendants of Simeon: according to their family records by their clans and their ancestral families, those registered counting one by one the names of every male twenty years old or more, everyone who could serve in the army,"
+    },
+    {
+      "v": 23,
+      "text": "those registered for the tribe of Simeon numbered 59,300."
+    },
+    {
+      "v": 24,
+      "text": "The descendants of Gad: according to their family records by their clans and their ancestral families, counting the names of those twenty years old or more, everyone who could serve in the army,"
+    },
+    {
+      "v": 25,
+      "text": "those registered for the tribe of Gad numbered 45,650."
+    },
+    {
+      "v": 26,
+      "text": "The descendants of Judah: according to their family records by their clans and their ancestral families, counting the names of those twenty years old or more, everyone who could serve in the army,"
+    },
+    {
+      "v": 27,
+      "text": "those registered for the tribe of Judah numbered 74,600."
+    },
+    {
+      "v": 28,
+      "text": "The descendants of Issachar: according to their family records by their clans and their ancestral families, counting the names of those twenty years old or more, everyone who could serve in the army,"
+    },
+    {
+      "v": 29,
+      "text": "those registered for the tribe of Issachar numbered 54,400."
+    },
+    {
+      "v": 30,
+      "text": "The descendants of Zebulun: according to their family records by their clans and their ancestral families, counting the names of those twenty years old or more, everyone who could serve in the army,"
+    },
+    {
+      "v": 31,
+      "text": "those registered for the tribe of Zebulun numbered 57,400."
+    },
+    {
+      "v": 32,
+      "text": "The descendants of Joseph:\nThe descendants of Ephraim: according to their family records by their clans and their ancestral families, counting the names of those twenty years old or more, everyone who could serve in the army,"
+    },
+    {
+      "v": 33,
+      "text": "those registered for the tribe of Ephraim numbered 40,500."
+    },
+    {
+      "v": 34,
+      "text": "The descendants of Manasseh: according to their family records by their clans and their ancestral families, counting the names of those twenty years old or more, everyone who could serve in the army,"
+    },
+    {
+      "v": 35,
+      "text": "those registered for the tribe of Manasseh numbered 32,200."
+    },
+    {
+      "v": 36,
+      "text": "The descendants of Benjamin: according to their family records by their clans and their ancestral families, counting the names of those twenty years old or more, everyone who could serve in the army,"
+    },
+    {
+      "v": 37,
+      "text": "those registered for the tribe of Benjamin numbered 35,400."
+    },
+    {
+      "v": 38,
+      "text": "The descendants of Dan: according to their family records by their clans and their ancestral families, counting the names of those twenty years old or more, everyone who could serve in the army,"
+    },
+    {
+      "v": 39,
+      "text": "those registered for the tribe of Dan numbered 62,700."
+    },
+    {
+      "v": 40,
+      "text": "The descendants of Asher: according to their family records by their clans and their ancestral families, counting the names of those twenty years old or more, everyone who could serve in the army,"
+    },
+    {
+      "v": 41,
+      "text": "those registered for the tribe of Asher numbered 41,500."
+    },
+    {
+      "v": 42,
+      "text": "The descendants of Naphtali: according to their family records by their clans and their ancestral families, counting the names of those twenty years old or more, everyone who could serve in the army,"
+    },
+    {
+      "v": 43,
+      "text": "those registered for the tribe of Naphtali numbered 53,400."
+    },
+    {
+      "v": 44,
+      "text": "These are the men Moses and Aaron registered, with the assistance of the twelve leaders of Israel; each represented his ancestral family."
+    },
+    {
+      "v": 45,
+      "text": "So all the Israelites twenty years old or more, everyone who could serve in Israel’s army, were registered by their ancestral families."
+    },
+    {
+      "v": 46,
+      "text": "All those registered numbered 603,550."
+    },
+    {
+      "v": 47,
+      "text": "But the Levites were not registered with them by their ancestral tribe."
+    },
+    {
+      "v": 48,
+      "text": "For the Lord had told Moses,"
+    },
+    {
+      "v": 49,
+      "text": "“Do not register or take a census of the tribe of Levi with the other Israelites."
+    },
+    {
+      "v": 50,
+      "text": "Appoint the Levites over the tabernacle of the testimony, all its furnishings, and everything in it. They are to transport the tabernacle and all its articles, take care of it, and camp around it."
+    },
+    {
+      "v": 51,
+      "text": "Whenever the tabernacle is to move, the Levites are to take it down, and whenever it is to stop at a campsite, the Levites are to set it up. Any unauthorized person who comes near it is to be put to death."
+    },
+    {
+      "v": 52,
+      "text": "“The Israelites are to camp by their military divisions, each man with his encampment and under his banner."
+    },
+    {
+      "v": 53,
+      "text": "The Levites are to camp around the tabernacle of the testimony and watch over it, so that no wrath will fall on the Israelite community.”"
+    },
+    {
+      "v": 54,
+      "text": "The Israelites did everything just as the Lord had commanded Moses."
+    }
+  ]
+}

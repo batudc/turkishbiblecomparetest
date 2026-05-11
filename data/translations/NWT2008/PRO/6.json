@@ -1,1 +1,144 @@
-{"t": "NWT2008", "b": "PRO", "c": 6, "content": [{"v": 1, "text": "Oğlum, eğer komşuna kefil oldun, yabancıyla el sıkışıp anlaştınsa,"}, {"v": 2, "text": "ağzından çıkan sözlerle kapana kısılıp kendi sözlerinle tuzağa tutuldunsa,"}, {"v": 3, "text": "komşunun eline düştün demektir; kendini kurtar oğlum, şöyle yap: gururu bırak, komşuna git, yalvar yakar."}, {"v": 4, "text": "Öyle ki, gözüne uyku girmesin, kırpma gözünü."}, {"v": 5, "text": "Avcının elinden bir ceylan gibi kurtul, tuzak kuranın elinden bir kuş gibi kurtar kendini."}, {"v": 6, "text": "Ey tembel, git karıncaya bak; neler yaptığını gör de hikmet kazan."}, {"v": 7, "text": "Başında bir komutan, görevli ya da yönetici yokken,"}, {"v": 8, "text": "yiyeceğini yazdan hazır eder, hasat vaktinde erzağını toplar."}, {"v": 9, "text": "Daha ne kadar yatacaksın, ey tembel? Ne zaman uykudan kalkacaksın?"}, {"v": 10, "text": "Biraz daha uyuyayım, biraz daha kestireyim, ellerimi kavuşturup biraz daha yatayım derken,"}, {"v": 11, "text": "yoksulluk bir haydut gibi, yokluk bir eşkıya gibi gelir üzerine."}, {"v": 12, "text": "İşe yaramaz, zararlı adam, ağzında hileli sözlerle ortalıkta dolaşır;"}, {"v": 13, "text": "kaşını gözünü oynatır, ayağıyla işaretler yapar, parmaklarıyla bir şeyler anlatır."}, {"v": 14, "text": "Fesat onun yüreğindedir. Her zaman kötülük kurar. Sürekli çekişme yaratır."}, {"v": 15, "text": "Bu yüzden felaketi ansızın gelecek, bir anda mahvolacak ve bir daha toparlanamayacak."}, {"v": 16, "text": "Yehova’nın nefret ettiği altı şey var ve canının tiksindiği yedi şey var:"}, {"v": 17, "text": "Yüksekten bakan gözler, yalancı dil, masum kanı döken eller,"}, {"v": 18, "text": "hainlik tasarlayan yürek, kötülüğe koşa koşa giden ayaklar,"}, {"v": 19, "text": "yalan soluyan yalancı şahit ve kardeşleri birbirine düşüren adam."}, {"v": 20, "text": "Oğlum, babanın buyruğuna uy, annenin öğrettiği kanundan sapma."}, {"v": 21, "text": "Onları her zaman yüreğinin üzerine bağla, boynuna tak."}, {"v": 22, "text": "Yürürken sana yol gösterirler; yatarken başucunda nöbet tutarlar, uyandığında seninle ilgilenirler."}, {"v": 23, "text": "Çünkü kanun bir ışık, emir bir kandildir, yanlışı düzelten terbiye de hayata giden yoldur."}, {"v": 24, "text": "Seni kötü kadından, tatlı sözlerle yaltaklanan yabancı kadının dilinden bunlar korur."}, {"v": 25, "text": "Onun güzelliğini gönlün çekmesin, şehvetli bakışları aklını başından almasın."}, {"v": 26, "text": "Çünkü fahişe kadın yüzünden bir somun ekmeğe kalırsın; başkasının karısı yüzünden de değerli canından olursun."}, {"v": 27, "text": "Bir adam koynuna ateş alır da giysisi yanmaz mı?"}, {"v": 28, "text": "Ya da korlar üzerinde yürür de ayakları kavrulmaz mı?"}, {"v": 29, "text": "Başkasının karısıyla ilişkiye giren de böyle olur, o kadına dokunan cezasız kalmaz."}, {"v": 30, "text": "Hırsız aç karnını doyurmak için çalarsa insanlar onu hor görmez;"}, {"v": 31, "text": "yine de yakalandığında çaldığının yedi katını öder; evinde değerli nesi varsa gider."}, {"v": 32, "text": "Bir kadınla zina yapanın yüreğinde sağduyu yoktur; bunu yapan kendi kendini mahveder."}, {"v": 33, "text": "Başını belaya sokar, saygınlığını kaybeder; utancı silinmez."}, {"v": 34, "text": "Çünkü kocanın kıskançlığı öfke doğurur; öç günü geldiğinde acımasız olur."}, {"v": 35, "text": "Kurtulmak için ne verirsen ver, gözü görmez; armağanın ne kadar büyük olursa olsun, razı gelmez."}]}
+{
+  "content": [
+    {
+      "v": 1,
+      "text": "Oğlum, eğer komşuna kefil oldun, yabancıyla el sıkışıp anlaştınsa,"
+    },
+    {
+      "v": 2,
+      "text": "ağzından çıkan sözlerle kapana kısılıp kendi sözlerinle tuzağa tutuldunsa,"
+    },
+    {
+      "v": 3,
+      "text": "komşunun eline düştün demektir; kendini kurtar oğlum, şöyle yap: gururu bırak, komşuna git, yalvar yakar."
+    },
+    {
+      "v": 4,
+      "text": "Öyle ki, gözüne uyku girmesin, kırpma gözünü."
+    },
+    {
+      "v": 5,
+      "text": "Avcının elinden bir ceylan gibi kurtul, tuzak kuranın elinden bir kuş gibi kurtar kendini."
+    },
+    {
+      "v": 6,
+      "text": "Ey tembel, git karıncaya bak; neler yaptığını gör de hikmet kazan."
+    },
+    {
+      "v": 7,
+      "text": "Başında bir komutan, görevli ya da yönetici yokken,"
+    },
+    {
+      "v": 8,
+      "text": "yiyeceğini yazdan hazır eder, hasat vaktinde erzağını toplar."
+    },
+    {
+      "v": 9,
+      "text": "Daha ne kadar yatacaksın, ey tembel? Ne zaman uykudan kalkacaksın?"
+    },
+    {
+      "v": 10,
+      "text": "Biraz daha uyuyayım, biraz daha kestireyim, ellerimi kavuşturup biraz daha yatayım derken,"
+    },
+    {
+      "v": 11,
+      "text": "yoksulluk bir haydut gibi, yokluk bir eşkıya gibi gelir üzerine."
+    },
+    {
+      "v": 12,
+      "text": "İşe yaramaz, zararlı adam, ağzında hileli sözlerle ortalıkta dolaşır;"
+    },
+    {
+      "v": 13,
+      "text": "kaşını gözünü oynatır, ayağıyla işaretler yapar, parmaklarıyla bir şeyler anlatır."
+    },
+    {
+      "v": 14,
+      "text": "Fesat onun yüreğindedir. Her zaman kötülük kurar. Sürekli çekişme yaratır."
+    },
+    {
+      "v": 15,
+      "text": "Bu yüzden felaketi ansızın gelecek, bir anda mahvolacak ve bir daha toparlanamayacak."
+    },
+    {
+      "v": 16,
+      "text": "Yehova’nın nefret ettiği altı şey var ve canının tiksindiği yedi şey var:"
+    },
+    {
+      "v": 17,
+      "text": "Yüksekten bakan gözler, yalancı dil, masum kanı döken eller,"
+    },
+    {
+      "v": 18,
+      "text": "hainlik tasarlayan yürek, kötülüğe koşa koşa giden ayaklar,"
+    },
+    {
+      "v": 19,
+      "text": "yalan soluyan yalancı şahit ve kardeşleri birbirine düşüren adam."
+    },
+    {
+      "v": 20,
+      "text": "Oğlum, babanın buyruğuna uy, annenin öğrettiği kanundan sapma."
+    },
+    {
+      "v": 21,
+      "text": "Onları her zaman yüreğinin üzerine bağla, boynuna tak."
+    },
+    {
+      "v": 22,
+      "text": "Yürürken sana yol gösterirler; yatarken başucunda nöbet tutarlar, uyandığında seninle ilgilenirler."
+    },
+    {
+      "v": 23,
+      "text": "Çünkü kanun bir ışık, emir bir kandildir, yanlışı düzelten terbiye de hayata giden yoldur."
+    },
+    {
+      "v": 24,
+      "text": "Seni kötü kadından, tatlı sözlerle yaltaklanan yabancı kadının dilinden bunlar korur."
+    },
+    {
+      "v": 25,
+      "text": "Onun güzelliğini gönlün çekmesin, şehvetli bakışları aklını başından almasın."
+    },
+    {
+      "v": 26,
+      "text": "Çünkü fahişe kadın yüzünden bir somun ekmeğe kalırsın; başkasının karısı yüzünden de değerli canından olursun."
+    },
+    {
+      "v": 27,
+      "text": "Bir adam koynuna ateş alır da giysisi yanmaz mı?"
+    },
+    {
+      "v": 28,
+      "text": "Ya da korlar üzerinde yürür de ayakları kavrulmaz mı?"
+    },
+    {
+      "v": 29,
+      "text": "Başkasının karısıyla ilişkiye giren de böyle olur, o kadına dokunan cezasız kalmaz."
+    },
+    {
+      "v": 30,
+      "text": "Hırsız aç karnını doyurmak için çalarsa insanlar onu hor görmez;"
+    },
+    {
+      "v": 31,
+      "text": "yine de yakalandığında çaldığının yedi katını öder; evinde değerli nesi varsa gider."
+    },
+    {
+      "v": 32,
+      "text": "Bir kadınla zina yapanın yüreğinde sağduyu yoktur; bunu yapan kendi kendini mahveder."
+    },
+    {
+      "v": 33,
+      "text": "Başını belaya sokar, saygınlığını kaybeder; utancı silinmez."
+    },
+    {
+      "v": 34,
+      "text": "Çünkü kocanın kıskançlığı öfke doğurur; öç günü geldiğinde acımasız olur."
+    },
+    {
+      "v": 35,
+      "text": "Kurtulmak için ne verirsen ver, gözü görmez; armağanın ne kadar büyük olursa olsun, razı gelmez."
+    }
+  ]
+}

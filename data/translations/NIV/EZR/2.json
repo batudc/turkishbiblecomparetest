@@ -1,0 +1,287 @@
+{
+  "t": "NIV",
+  "b": "EZR",
+  "c": 2,
+  "content": [
+    {
+      "v": 1,
+      "text": "Now these are the people of the province who came up from the captivity of the exiles, whom Nebuchadnezzar king of Babylon had taken captive to Babylon (they returned to Jerusalem and Judah, each to their own town,"
+    },
+    {
+      "v": 2,
+      "text": "in company with Zerubbabel, Joshua, Nehemiah, Seraiah, Reelaiah, Mordecai, Bilshan, Mispar, Bigvai, Rehum and Baanah):\nThe list of the men of the people of Israel:"
+    },
+    {
+      "v": 3,
+      "text": "the descendants of Parosh 2,172"
+    },
+    {
+      "v": 4,
+      "text": "of Shephatiah 372"
+    },
+    {
+      "v": 5,
+      "text": "of Arah 775"
+    },
+    {
+      "v": 6,
+      "text": "of Pahath-Moab (through the line of Jeshua and Joab) 2,812"
+    },
+    {
+      "v": 7,
+      "text": "of Elam 1,254"
+    },
+    {
+      "v": 8,
+      "text": "of Zattu 945"
+    },
+    {
+      "v": 9,
+      "text": "of Zakkai 760"
+    },
+    {
+      "v": 10,
+      "text": "of Bani 642"
+    },
+    {
+      "v": 11,
+      "text": "of Bebai 623"
+    },
+    {
+      "v": 12,
+      "text": "of Azgad 1,222"
+    },
+    {
+      "v": 13,
+      "text": "of Adonikam 666"
+    },
+    {
+      "v": 14,
+      "text": "of Bigvai 2,056"
+    },
+    {
+      "v": 15,
+      "text": "of Adin 454"
+    },
+    {
+      "v": 16,
+      "text": "of Ater (through Hezekiah) 98"
+    },
+    {
+      "v": 17,
+      "text": "of Bezai 323"
+    },
+    {
+      "v": 18,
+      "text": "of Jorah 112"
+    },
+    {
+      "v": 19,
+      "text": "of Hashum 223"
+    },
+    {
+      "v": 20,
+      "text": "of Gibbar 95"
+    },
+    {
+      "v": 21,
+      "text": "the men of Bethlehem 123"
+    },
+    {
+      "v": 22,
+      "text": "of Netophah 56"
+    },
+    {
+      "v": 23,
+      "text": "of Anathoth 128"
+    },
+    {
+      "v": 24,
+      "text": "of Azmaveth 42"
+    },
+    {
+      "v": 25,
+      "text": "of Kiriath Jearim, Kephirah and Beeroth 743"
+    },
+    {
+      "v": 26,
+      "text": "of Ramah and Geba 621"
+    },
+    {
+      "v": 27,
+      "text": "of Mikmash 122"
+    },
+    {
+      "v": 28,
+      "text": "of Bethel and Ai 223"
+    },
+    {
+      "v": 29,
+      "text": "of Nebo 52"
+    },
+    {
+      "v": 30,
+      "text": "of Magbish 156"
+    },
+    {
+      "v": 31,
+      "text": "of the other Elam 1,254"
+    },
+    {
+      "v": 32,
+      "text": "of Harim 320"
+    },
+    {
+      "v": 33,
+      "text": "of Lod, Hadid and Ono 725"
+    },
+    {
+      "v": 34,
+      "text": "of Jericho 345"
+    },
+    {
+      "v": 35,
+      "text": "of Senaah 3,630"
+    },
+    {
+      "v": 36,
+      "text": "The priests:the descendants of Jedaiah (through the family of Jeshua) 973"
+    },
+    {
+      "v": 37,
+      "text": "of Immer 1,052"
+    },
+    {
+      "v": 38,
+      "text": "of Pashhur 1,247"
+    },
+    {
+      "v": 39,
+      "text": "of Harim 1,017"
+    },
+    {
+      "v": 40,
+      "text": "The Levites:the descendants of Jeshua and Kadmiel (of the line of Hodaviah) 74"
+    },
+    {
+      "v": 41,
+      "text": "The musicians:the descendants of Asaph 128"
+    },
+    {
+      "v": 42,
+      "text": "The gatekeepers of the temple:the descendants of Shallum, Ater, Talmon,Akkub, Hatita and Shobai 139"
+    },
+    {
+      "v": 43,
+      "text": "The temple servants:the descendants of Ziha, Hasupha, Tabbaoth,"
+    },
+    {
+      "v": 44,
+      "text": "Keros, Siaha, Padon,"
+    },
+    {
+      "v": 45,
+      "text": "Lebanah, Hagabah, Akkub,"
+    },
+    {
+      "v": 46,
+      "text": "Hagab, Shalmai, Hanan,"
+    },
+    {
+      "v": 47,
+      "text": "Giddel, Gahar, Reaiah,"
+    },
+    {
+      "v": 48,
+      "text": "Rezin, Nekoda, Gazzam,"
+    },
+    {
+      "v": 49,
+      "text": "Uzza, Paseah, Besai,"
+    },
+    {
+      "v": 50,
+      "text": "Asnah, Meunim, Nephusim,"
+    },
+    {
+      "v": 51,
+      "text": "Bakbuk, Hakupha, Harhur,"
+    },
+    {
+      "v": 52,
+      "text": "Bazluth, Mehida, Harsha,"
+    },
+    {
+      "v": 53,
+      "text": "Barkos, Sisera, Temah,"
+    },
+    {
+      "v": 54,
+      "text": "Neziah and Hatipha"
+    },
+    {
+      "v": 55,
+      "text": "The descendants of the servants of Solomon:the descendants ofSotai, Hassophereth, Peruda,"
+    },
+    {
+      "v": 56,
+      "text": "Jaala, Darkon, Giddel,"
+    },
+    {
+      "v": 57,
+      "text": "Shephatiah, Hattil, Pokereth-Hazzebaim and Ami"
+    },
+    {
+      "v": 58,
+      "text": "The temple servants and the descendants of the servants of Solomon 392"
+    },
+    {
+      "v": 59,
+      "text": "The following came up from the towns of Tel Melah, Tel Harsha, Kerub, Addon and Immer, but they could not show that their families were descended from Israel:"
+    },
+    {
+      "v": 60,
+      "text": "The descendants of Delaiah, Tobiah and Nekoda652"
+    },
+    {
+      "v": 61,
+      "text": "And from among the priests:The descendants ofHobaiah, Hakkoz and Barzillai (a man who had married a daughter of Barzillai the Gileadite and was called by that name)."
+    },
+    {
+      "v": 62,
+      "text": "These searched for their family records, but they could not find them and so were excluded from the priesthood as unclean."
+    },
+    {
+      "v": 63,
+      "text": "The governor ordered them not to eat any of the most sacred food until there was a priest ministering with the Urim and Thummim."
+    },
+    {
+      "v": 64,
+      "text": "The whole company numbered 42,360,"
+    },
+    {
+      "v": 65,
+      "text": "besides their 7,337 male and female slaves; and they also had 200 male and female singers."
+    },
+    {
+      "v": 66,
+      "text": "They had 736 horses, 245 mules,"
+    },
+    {
+      "v": 67,
+      "text": "435 camels and 6,720 donkeys."
+    },
+    {
+      "v": 68,
+      "text": "When they arrived at the house of the Lord in Jerusalem, some of the heads of the families gave freewill offerings toward the rebuilding of the house of God on its site."
+    },
+    {
+      "v": 69,
+      "text": "According to their ability they gave to the treasury for this work 61,000 darics of gold, 5,000 minas of silver and 100 priestly garments."
+    },
+    {
+      "v": 70,
+      "text": "The priests, the Levites, the musicians, the gatekeepers and the temple servants settled in their own towns, along with some of the other people, and the rest of the Israelites settled in their towns."
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "t": "CSB",
+  "b": "PSA",
+  "c": 150,
+  "content": [
+    {
+      "v": 1,
+      "text": "Hallelujah!\nPraise God in his sanctuary.\nPraise him in his mighty expanse."
+    },
+    {
+      "v": 2,
+      "text": "Praise him for his powerful acts;\npraise him for his abundant greatness."
+    },
+    {
+      "v": 3,
+      "text": "Praise him with the blast of a ram’s horn;\npraise him with harp and lyre."
+    },
+    {
+      "v": 4,
+      "text": "Praise him with tambourine and dance;\npraise him with strings and flute."
+    },
+    {
+      "v": 5,
+      "text": "Praise him with resounding cymbals;\npraise him with clashing cymbals."
+    },
+    {
+      "v": 6,
+      "text": "Let everything that breathes praise the Lord.\nHallelujah!"
+    }
+  ]
+}

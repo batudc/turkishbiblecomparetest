@@ -1,1 +1,24 @@
-{"t": "NWT2008", "b": "PSA", "c": 93, "content": [{"v": 1, "text": "Yehova kral oldu! Haşmetine büründü; Yehova giyindi; gücünü üzerine kuşandı. Yeryüzü de pekiştirildi ki sarsılmasın."}, {"v": 2, "text": "Tahtın devirler öncesinden kurulmuş, Sen ezelden beri varsın."}, {"v": 3, "text": "Irmaklar coştu ey Yehova, Irmaklar çağlıyor; Irmaklar gürül gürül akıyor."}, {"v": 4, "text": "Yehova yücelerdedir, Engin suların gürleyişinden, denizlerin ulu dalgalarından da heybetlidir."}, {"v": 5, "text": "Senin hatırlatmaların her zaman güvenilirdir ey Yehova. Kutsallık daima Senin evine yaraşır."}]}
+{
+  "content": [
+    {
+      "v": 1,
+      "text": "Yehova kral oldu!Haşmetine büründü;Yehova giyindi; gücünü üzerine kuşandı.Yeryüzü de pekiştirildi ki sarsılmasın."
+    },
+    {
+      "v": 2,
+      "text": "Tahtın devirler öncesinden kurulmuş,Sen ezelden beri varsın."
+    },
+    {
+      "v": 3,
+      "text": "Irmaklar coştu ey Yehova,Irmaklar çağlıyor;Irmaklar gürül gürül akıyor."
+    },
+    {
+      "v": 4,
+      "text": "Yehova yücelerdedir,Engin suların gürleyişinden, denizlerin ulu dalgalarından da heybetlidir."
+    },
+    {
+      "v": 5,
+      "text": "Senin hatırlatmaların her zaman güvenilirdir ey Yehova.Kutsallık daima Senin evine yaraşır."
+    }
+  ]
+}

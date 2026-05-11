@@ -1,0 +1,23 @@
+{
+  "t": "CSB",
+  "b": "PSA",
+  "c": 123,
+  "content": [
+    {
+      "v": 1,
+      "text": "I lift my eyes to you,\nthe one enthroned in heaven."
+    },
+    {
+      "v": 2,
+      "text": "Like a servant’s eyes on his master’s hand,\nlike a servant girl’s eyes on her mistress’s hand,\nso our eyes are on the Lord our God\nuntil he shows us favor."
+    },
+    {
+      "v": 3,
+      "text": "Show us favor, Lord, show us favor,\nfor we’ve had more than enough contempt."
+    },
+    {
+      "v": 4,
+      "text": "We’ve had more than enough\nscorn from the arrogant\nand contempt from the proud."
+    }
+  ]
+}

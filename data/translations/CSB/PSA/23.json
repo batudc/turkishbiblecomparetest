@@ -1,0 +1,31 @@
+{
+  "t": "CSB",
+  "b": "PSA",
+  "c": 23,
+  "content": [
+    {
+      "v": 1,
+      "text": "The Lord is my shepherd;\nI have what I need."
+    },
+    {
+      "v": 2,
+      "text": "He lets me lie down in green pastures;\nhe leads me beside quiet waters."
+    },
+    {
+      "v": 3,
+      "text": "He renews my life;\nhe leads me along the right paths\nfor his name’s sake."
+    },
+    {
+      "v": 4,
+      "text": "Even when I go through the darkest valley,\nI fear no danger,\nfor you are with me;\nyour rod and your staff—they comfort me."
+    },
+    {
+      "v": 5,
+      "text": "You prepare a table before me\nin the presence of my enemies;\nyou anoint my head with oil;\nmy cup overflows."
+    },
+    {
+      "v": 6,
+      "text": "Only goodness and faithful love will pursue me\nall the days of my life,\nand I will dwell in the house of the Lord\nas long as I live."
+    }
+  ]
+}

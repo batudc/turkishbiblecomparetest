@@ -1,1 +1,104 @@
-{"t": "NWT2008", "b": "JOB", "c": 29, "content": [{"v": 1, "text": "Eyüp yeniden deyişine başladı:"}, {"v": 2, "text": "“Keşke geçmiş zamana dönebilsem, Tanrı’nın beni koruyup kolladığı günlere, aylara."}, {"v": 3, "text": "Kandilini başımın üzerinde parlattığı, O’nun ışığıyla karanlığı yarıp geçtiğim günlere."}, {"v": 4, "text": "O verimli gençlik çağıma geri dönebilsem; Çadırımda Tanrı’nın dostluğunu yaşadığım,"}, {"v": 5, "text": "Mutlak Gücün Sahibinin benimle olduğu, Tüm hizmetkârlarımın çevremde durduğu zamana!"}, {"v": 6, "text": "O zamanlar yollarım sütle yıkanırdı, Kayalar bana zeytinyağı akıtırdı."}, {"v": 7, "text": "Kent kapısına çıkar, Meydanda kürsümü hazırlardım."}, {"v": 8, "text": "Çocuklar beni görüp saklanırdı, Yaşlılar bile kalkıp ayakta dururdu."}, {"v": 9, "text": "Beyler ellerini ağızlarına koyar, Sözlerini sakınırlardı."}, {"v": 10, "text": "Önderler dillerini yutmuş gibi, Ses çıkarmazlardı."}, {"v": 11, "text": "Bana kulak verenler, ‘Ne mutlu sana!’ derlerdi, Beni görenlerin gözleri parlardı."}, {"v": 12, "text": "Çünkü yardıma çağıran mazlumu, Yetimi, kimsesizi kurtarırdım."}, {"v": 13, "text": "Yıkımın eşiğinde olanın hayırduasını alır, Dul kadının yüreğini mutlu ederdim."}, {"v": 14, "text": "Doğruluğa sarınır, bir giysi gibi kuşanırdım, Adalet de sanki kaftanım, sarığımdı."}, {"v": 15, "text": "Körün gözü, Topalın bacağıydım."}, {"v": 16, "text": "Yoksula baba idim, Tanımadığım kişinin davasına bakar, soruştururdum."}, {"v": 17, "text": "Suç işleyenin çenesini kırar, Avını dişlerinin arasından çekip alırdım."}, {"v": 18, "text": "Hep derdim ki, ‘Son soluğumu yuvamda vereceğim, Kum taneleri kadar çok gün göreceğim."}, {"v": 19, "text": "Köküm sulara erişecek, Çiy bütün gece dallarımda kalacak."}, {"v": 20, "text": "Saygınlığım hiç solmayacak, Yayım elimdedir, oklarının ardı kesilmeyecek.’"}, {"v": 21, "text": "Hepsi beni dinler, Öğüdümü sessizce beklerdi."}, {"v": 22, "text": "Sözümün üstüne söz söylemezlerdi; Sözlerim onlar için çiy damlaları gibiydi,"}, {"v": 23, "text": "Yağmur bekler gibi beni beklerlerdi; İlkbahar yağmuru girsin diye ağızlarını açarlardı."}, {"v": 24, "text": "Onlara gülümsediğimde gözlerine inanamazlardı; Yüzümün ışıltısına gölge düşürmezlerdi."}, {"v": 25, "text": "Başları olarak oturur, izleyecekleri yolu ben seçerdim; Askerlerinin ortasındaki kral gibi otururdum, Yaslıların tesellicisi gibiydim.”"}]}
+{
+  "content": [
+    {
+      "v": 1,
+      "text": "Eyüp yeniden deyişine başladı:"
+    },
+    {
+      "v": 2,
+      "text": "“Keşke geçmiş zamana dönebilsem,Tanrı’nın beni koruyup kolladığı günlere, aylara."
+    },
+    {
+      "v": 3,
+      "text": "Kandilini başımın üzerinde parlattığı,O’nun ışığıyla karanlığı yarıp geçtiğim günlere."
+    },
+    {
+      "v": 4,
+      "text": "O verimli gençlik çağıma geri dönebilsem;Çadırımda Tanrı’nın dostluğunu yaşadığım,"
+    },
+    {
+      "v": 5,
+      "text": "Mutlak Gücün Sahibinin benimle olduğu,Tüm hizmetkârlarımın çevremde durduğu zamana!"
+    },
+    {
+      "v": 6,
+      "text": "O zamanlar yollarım sütle yıkanırdı,Kayalar bana zeytinyağı akıtırdı."
+    },
+    {
+      "v": 7,
+      "text": "Kent kapısına çıkar,Meydanda kürsümü hazırlardım."
+    },
+    {
+      "v": 8,
+      "text": "Çocuklar beni görüp saklanırdı,Yaşlılar bile kalkıp ayakta dururdu."
+    },
+    {
+      "v": 9,
+      "text": "Beyler ellerini ağızlarına koyar,Sözlerini sakınırlardı."
+    },
+    {
+      "v": 10,
+      "text": "Önderler dillerini yutmuş gibi,Ses çıkarmazlardı."
+    },
+    {
+      "v": 11,
+      "text": "Bana kulak verenler, ‘Ne mutlu sana!’ derlerdi,Beni görenlerin gözleri parlardı."
+    },
+    {
+      "v": 12,
+      "text": "Çünkü yardıma çağıran mazlumu,Yetimi, kimsesizi kurtarırdım."
+    },
+    {
+      "v": 13,
+      "text": "Yıkımın eşiğinde olanın hayırduasını alır,Dul kadının yüreğini mutlu ederdim."
+    },
+    {
+      "v": 14,
+      "text": "Doğruluğa sarınır, bir giysi gibi kuşanırdım,Adalet de sanki kaftanım, sarığımdı."
+    },
+    {
+      "v": 15,
+      "text": "Körün gözü,Topalın bacağıydım."
+    },
+    {
+      "v": 16,
+      "text": "Yoksula baba idim,Tanımadığım kişinin davasına bakar, soruştururdum."
+    },
+    {
+      "v": 17,
+      "text": "Suç işleyenin çenesini kırar,Avını dişlerinin arasından çekip alırdım."
+    },
+    {
+      "v": 18,
+      "text": "Hep derdim ki, ‘Son soluğumu yuvamda vereceğim,Kum taneleri kadar çok gün göreceğim."
+    },
+    {
+      "v": 19,
+      "text": "Köküm sulara erişecek,Çiy bütün gece dallarımda kalacak."
+    },
+    {
+      "v": 20,
+      "text": "Saygınlığım hiç solmayacak,Yayım elimdedir, oklarının ardı kesilmeyecek.’"
+    },
+    {
+      "v": 21,
+      "text": "Hepsi beni dinler,Öğüdümü sessizce beklerdi."
+    },
+    {
+      "v": 22,
+      "text": "Sözümün üstüne söz söylemezlerdi;Sözlerim onlar için çiy damlaları gibiydi,"
+    },
+    {
+      "v": 23,
+      "text": "Yağmur bekler gibi beni beklerlerdi;İlkbahar yağmuru girsin diye ağızlarını açarlardı."
+    },
+    {
+      "v": 24,
+      "text": "Onlara gülümsediğimde gözlerine inanamazlardı;Yüzümün ışıltısına gölge düşürmezlerdi."
+    },
+    {
+      "v": 25,
+      "text": "Başları olarak oturur, izleyecekleri yolu ben seçerdim;Askerlerinin ortasındaki kral gibi otururdum,Yaslıların tesellicisi gibiydim.”"
+    }
+  ]
+}

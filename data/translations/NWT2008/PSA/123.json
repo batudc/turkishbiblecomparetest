@@ -1,1 +1,20 @@
-{"t": "NWT2008", "b": "PSA", "c": 123, "content": [{"v": 1, "text": "Ey Sen göklerde oturan, Gözlerimi Sana dikiyorum."}, {"v": 2, "text": "Nasıl hizmetkâr efendisinin eline, Hizmetçi hanımının eline bakarsa; Biz de Tanrımız Yehova’ya bakar, O’ndan lütuf bekleriz."}, {"v": 3, "text": "Bize lütfet ey Yehova, bize lütfet, Uğradığımız hakaretler canımıza yetti."}, {"v": 4, "text": "Rahat içinde yaşayanların alayları, Kibirlilerin hakareti canımıza yetti."}]}
+{
+  "content": [
+    {
+      "v": 1,
+      "text": "Ey Sen göklerde oturan,Gözlerimi Sana dikiyorum."
+    },
+    {
+      "v": 2,
+      "text": "Nasıl hizmetkâr efendisinin eline,Hizmetçi hanımının eline bakarsa;Biz de Tanrımız Yehova’ya bakar,O’ndan lütuf bekleriz."
+    },
+    {
+      "v": 3,
+      "text": "Bize lütfet ey Yehova, bize lütfet,Uğradığımız hakaretler canımıza yetti."
+    },
+    {
+      "v": 4,
+      "text": "Rahat içinde yaşayanların alayları,Kibirlilerin hakareti canımıza yetti."
+    }
+  ]
+}

@@ -1,0 +1,287 @@
+{
+  "t": "NET",
+  "b": "EZR",
+  "c": 2,
+  "content": [
+    {
+      "v": 1,
+      "text": "These are the people of the province who were going up, from the captives of the exile whom King Nebuchadnezzar of Babylon had forced into exile in Babylon. They returned to Jerusalem and Judah, each to his own city."
+    },
+    {
+      "v": 2,
+      "text": "They came with Zerubbabel, Jeshua, Nehemiah, Seraiah, Reelaiah, Mordecai, Bilshan, Mispar, Bigvai, Rehum, and Baanah.\nThe number of Israelites was as follows:"
+    },
+    {
+      "v": 3,
+      "text": "the descendants of Parosh: 2,172;"
+    },
+    {
+      "v": 4,
+      "text": "the descendants of Shephatiah: 372;"
+    },
+    {
+      "v": 5,
+      "text": "the descendants of Arah: 775;"
+    },
+    {
+      "v": 6,
+      "text": "the descendants of Pahath Moab (from the line of Jeshua and Joab): 2,812;"
+    },
+    {
+      "v": 7,
+      "text": "the descendants of Elam: 1,254;"
+    },
+    {
+      "v": 8,
+      "text": "the descendants of Zattu: 945;"
+    },
+    {
+      "v": 9,
+      "text": "the descendants of Zaccai: 760;"
+    },
+    {
+      "v": 10,
+      "text": "the descendants of Bani: 642;"
+    },
+    {
+      "v": 11,
+      "text": "the descendants of Bebai: 623;"
+    },
+    {
+      "v": 12,
+      "text": "the descendants of Azgad: 1,222;"
+    },
+    {
+      "v": 13,
+      "text": "the descendants of Adonikam: 666;"
+    },
+    {
+      "v": 14,
+      "text": "the descendants of Bigvai: 2,056;"
+    },
+    {
+      "v": 15,
+      "text": "the descendants of Adin: 454;"
+    },
+    {
+      "v": 16,
+      "text": "the descendants of Ater (through Hezekiah): 98;"
+    },
+    {
+      "v": 17,
+      "text": "the descendants of Bezai: 323;"
+    },
+    {
+      "v": 18,
+      "text": "the descendants of Jorah: 112;"
+    },
+    {
+      "v": 19,
+      "text": "the descendants of Hashum: 223;"
+    },
+    {
+      "v": 20,
+      "text": "the descendants of Gibbar: 95."
+    },
+    {
+      "v": 21,
+      "text": "The men of Bethlehem: 123;"
+    },
+    {
+      "v": 22,
+      "text": "the men of Netophah: 56;"
+    },
+    {
+      "v": 23,
+      "text": "the men of Anathoth: 128;"
+    },
+    {
+      "v": 24,
+      "text": "the men of the family of Azmaveth: 42;"
+    },
+    {
+      "v": 25,
+      "text": "the men of Kiriath Jearim, Kephirah and Beeroth: 743;"
+    },
+    {
+      "v": 26,
+      "text": "the men of Ramah and Geba: 621;"
+    },
+    {
+      "v": 27,
+      "text": "the men of Micmash: 122;"
+    },
+    {
+      "v": 28,
+      "text": "the men of Bethel and Ai: 223;"
+    },
+    {
+      "v": 29,
+      "text": "the descendants of Nebo: 52;"
+    },
+    {
+      "v": 30,
+      "text": "the descendants of Magbish: 156;"
+    },
+    {
+      "v": 31,
+      "text": "the descendants of the other Elam: 1,254;"
+    },
+    {
+      "v": 32,
+      "text": "the descendants of Harim: 320;"
+    },
+    {
+      "v": 33,
+      "text": "the men of Lod, Hadid, and Ono: 725;"
+    },
+    {
+      "v": 34,
+      "text": "the men of Jericho: 345;"
+    },
+    {
+      "v": 35,
+      "text": "the descendants of Senaah: 3,630."
+    },
+    {
+      "v": 36,
+      "text": "The priests: the descendants of Jedaiah (through the family of Jeshua): 973;"
+    },
+    {
+      "v": 37,
+      "text": "the descendants of Immer: 1,052;"
+    },
+    {
+      "v": 38,
+      "text": "the descendants of Pashhur: 1,247;"
+    },
+    {
+      "v": 39,
+      "text": "the descendants of Harim: 1,017."
+    },
+    {
+      "v": 40,
+      "text": "The Levites: the descendants of Jeshua and Kadmiel (through the line of Hodaviah): 74."
+    },
+    {
+      "v": 41,
+      "text": "The singers: the descendants of Asaph: 128."
+    },
+    {
+      "v": 42,
+      "text": "The gatekeepers: the descendants of Shallum, the descendants of Ater, the descendants of Talmon, the descendants of Akkub, the descendants of Hatita, and the descendants of Shobai: 139."
+    },
+    {
+      "v": 43,
+      "text": "The temple servants: the descendants of Ziha, the descendants of Hasupha, the descendants of Tabbaoth,"
+    },
+    {
+      "v": 44,
+      "text": "the descendants of Keros, the descendants of Siaha, the descendants of Padon,"
+    },
+    {
+      "v": 45,
+      "text": "the descendants of Lebanah, the descendants of Hagabah, the descendants of Akkub,"
+    },
+    {
+      "v": 46,
+      "text": "the descendants of Hagab, the descendants of Shalmai, the descendants of Hanan,"
+    },
+    {
+      "v": 47,
+      "text": "the descendants of Giddel, the descendants of Gahar, the descendants of Reaiah,"
+    },
+    {
+      "v": 48,
+      "text": "the descendants of Rezin, the descendants of Nekoda, the descendants of Gazzam,"
+    },
+    {
+      "v": 49,
+      "text": "the descendants of Uzzah, the descendants of Paseah, the descendants of Besai,"
+    },
+    {
+      "v": 50,
+      "text": "the descendants of Asnah, the descendants of Meunim, the descendants of Nephussim,"
+    },
+    {
+      "v": 51,
+      "text": "the descendants of Bakbuk, the descendants of Hakupha, the descendants of Harhur,"
+    },
+    {
+      "v": 52,
+      "text": "the descendants of Bazluth, the descendants of Mehida, the descendants of Harsha,"
+    },
+    {
+      "v": 53,
+      "text": "the descendants of Barkos, the descendants of Sisera, the descendants of Temah,"
+    },
+    {
+      "v": 54,
+      "text": "the descendants of Neziah, and the descendants of Hatipha."
+    },
+    {
+      "v": 55,
+      "text": "The descendants of the servants of Solomon: the descendants of Sotai, the descendants of Hassophereth, the descendants of Peruda,"
+    },
+    {
+      "v": 56,
+      "text": "the descendants of Jaala, the descendants of Darkon, the descendants of Giddel,"
+    },
+    {
+      "v": 57,
+      "text": "the descendants of Shephatiah, the descendants of Hattil, the descendants of Pokereth Hazzebaim, and the descendants of Ami."
+    },
+    {
+      "v": 58,
+      "text": "All the temple servants and the descendants of the servants of Solomon: 392."
+    },
+    {
+      "v": 59,
+      "text": "These are the ones that came up from Tel Melah, Tel Harsha, Kerub, Addon, and Immer (although they were unable to certify their family connection or their ancestry, as to whether they really were from Israel):"
+    },
+    {
+      "v": 60,
+      "text": "the descendants of Delaiah, the descendants of Tobiah, and the descendants of Nekoda: 652."
+    },
+    {
+      "v": 61,
+      "text": "And from among the priests: the descendants of Hobaiah, the descendants of Hakkoz, and the descendants of Barzillai (who had taken a wife from the daughters of Barzillai the Gileadite and was called by that name)."
+    },
+    {
+      "v": 62,
+      "text": "They searched for their records in the genealogical materials, but did not find them. They were therefore excluded from the priesthood."
+    },
+    {
+      "v": 63,
+      "text": "The governor instructed them not to eat any of the sacred food until there was a priest who could consult the Urim and Thummim."
+    },
+    {
+      "v": 64,
+      "text": "The entire group numbered 42,360,"
+    },
+    {
+      "v": 65,
+      "text": "not counting their male and female servants, who numbered 7,337. They also had 200 male and female singers"
+    },
+    {
+      "v": 66,
+      "text": "and 736 horses, 245 mules,"
+    },
+    {
+      "v": 67,
+      "text": "435 camels, and 6,720 donkeys."
+    },
+    {
+      "v": 68,
+      "text": "When they came to the Lord’s temple in Jerusalem, some of the family leaders offered voluntary offerings for the temple of God in order to rebuild it on its site."
+    },
+    {
+      "v": 69,
+      "text": "As they were able, they gave to the treasury for this work 61,000 drachmas of gold, 5,000 minas of silver, and 100 priestly robes."
+    },
+    {
+      "v": 70,
+      "text": "The priests, the Levites, some of the people, the singers, the gatekeepers, and the temple servants lived in their towns, and all the rest of Israel lived in their towns."
+    }
+  ]
+}

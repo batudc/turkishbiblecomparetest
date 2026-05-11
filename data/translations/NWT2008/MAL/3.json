@@ -1,1 +1,76 @@
-{"t": "NWT2008", "b": "MAL", "c": 3, "content": [{"v": 1, "text": "“İşte, habercimi gönderiyorum; önümde yolu açacak. Aradığınız Rab ve sevinçle beklediğiniz ahit habercisi mabedine ansızın gelecek. Evet, işte geliyor!” Göklerin hâkimi Yehova böyle diyor."}, {"v": 2, "text": "“Onun geldiği güne kim dayanacak, ortaya çıktığında kim ayakta kalacak? Çünkü o, maden arıtanın ateşi, çamaşırcının küllü suyu gibi olacak."}, {"v": 3, "text": "Madeni eriten, gümüşü arıtan biri gibi oturup Levioğullarını arındıracak, onları altın, gümüş gibi saflaştıracak ve onlar Yehova’ya doğrulukla sunular veren bir halk olacak."}, {"v": 4, "text": "Çok eski günlerde, geçmiş yıllarda olduğu gibi, Yahuda’nın ve Yeruşalim’in sunuları Yehova’yı hoşnut edecek."}, {"v": 5, "text": "Sizi yargılamak için yanınıza geleceğim. Büyücüye, zina yapana, yalan yere yemin edene, işçisine hak ettiği ücreti ödemeyene, dulun, yetimin, aranızda yaşayan yabancının hakkını yiyene, Benden korkmayıp bunları yapana karşı derhal tanıklık edeceğim.” Göklerin hâkimi Yehova böyle diyor."}, {"v": 6, "text": "“Çünkü Ben Yehova’yım, Ben değişmem. Siz bu nedenle yok olmadınız, ey Yakupoğulları."}, {"v": 7, "text": "Atalarınızın zamanından beri hep kurallarımdan saptınız, onlara uymadınız. Bana dönün, Ben de size dönerim.” Göklerin hâkimi Yehova böyle diyor. Ve siz “Dönmek için ne yapalım?” diyorsunuz."}, {"v": 8, "text": "“Hiç insan Tanrı’dan çalar mı? Ama siz Benden çalıyorsunuz.” Ve siz “Ne yaptık da Senden çaldık?” diyorsunuz. “Ondalık ve bağışlardan çaldınız."}, {"v": 9, "text": "Milletçe Benden çalıyor ve Bana lanet ediyorsunuz."}, {"v": 10, "text": "Evimde yiyecek olması için ondalığın hepsini ambara getirin ve Beni bununla sınayın” diyor göklerin hâkimi Yehova, “Göklerin bentlerini size açmaz mıyım, üzerinize yeterinden fazla bereket yağdırmaz mıyım?”"}, {"v": 11, "text": "“Sizin için haşaratı azarlayacağım, toprağınızın ürününü mahvetmeyecek, bağda asmanız üzümsüz kalmayacak.” Göklerin hâkimi Yehova böyle diyor."}, {"v": 12, "text": "“Bütün milletler ‘Ne mutlu size!’ diyecek, çünkü ülkeniz sevinç diyarı olacak.” Göklerin hâkimi Yehova böyle diyor."}, {"v": 13, "text": "“Bana karşı ağır sözler söylediniz” diyor Yehova. Ve siz “Aramızda Senin hakkında ne konuştuk?” diyorsunuz."}, {"v": 14, "text": "“Şöyle söylediniz: ‘Tanrı’ya kulluk etmenin ne yararı var? O’na karşı yükümlülüklerimizi yerine getirmemiz, göklerin hâkimi Yehova’nın önünde üzgün üzgün dolaşmamız bize ne kazandırıyor?"}, {"v": 15, "text": "Şimdi, küstah insana ne mutlu diyoruz. Kötülük edenler de refah içinde. Tanrı’yı sınıyorlar ama cezadan kurtuluyorlar.’”"}, {"v": 16, "text": "O zaman Yehova’dan korkanlar aralarında konuştular; herkes komşusuyla konuştu. Yehova kulak verip dinledi. Yehova’dan korkanlar ve ismini düşünenler için O’nun önünde bir anılma kitabı yazıldı."}, {"v": 17, "text": "“Onları Kendi halkım yapacağım gün Benim olacaklar.” Göklerin hâkimi Yehova böyle diyor. “Bir adam kendisine hizmet eden oğluna nasıl şefkat gösterirse, Ben de onlara öyle şefkat göstereceğim."}, {"v": 18, "text": "Ve siz bir kez daha, doğru kişiyle kötü kişi, Tanrı’ya kulluk edenle etmeyen arasındaki ayrımı göreceksiniz.”"}]}
+{
+  "content": [
+    {
+      "v": 1,
+      "text": "“İşte, habercimi gönderiyorum; önümde yolu açacak. Aradığınız Rab ve sevinçle beklediğiniz ahit habercisi mabedine ansızın gelecek. Evet, işte geliyor!” Göklerin hâkimi Yehova böyle diyor."
+    },
+    {
+      "v": 2,
+      "text": "“Onun geldiği güne kim dayanacak, ortaya çıktığında kim ayakta kalacak? Çünkü o, maden arıtanın ateşi, çamaşırcının küllü suyu gibi olacak."
+    },
+    {
+      "v": 3,
+      "text": "Madeni eriten, gümüşü arıtan biri gibi oturup Levioğullarını arındıracak, onları altın, gümüş gibi saflaştıracak ve onlar Yehova’ya doğrulukla sunular veren bir halk olacak."
+    },
+    {
+      "v": 4,
+      "text": "Çok eski günlerde, geçmiş yıllarda olduğu gibi, Yahuda’nın ve Yeruşalim’in sunuları Yehova’yı hoşnut edecek."
+    },
+    {
+      "v": 5,
+      "text": "Sizi yargılamak için yanınıza geleceğim. Büyücüye, zina yapana, yalan yere yemin edene, işçisine hak ettiği ücreti ödemeyene, dulun, yetimin, aranızda yaşayan yabancının hakkını yiyene, Benden korkmayıp bunları yapana karşı derhal tanıklık edeceğim.” Göklerin hâkimi Yehova böyle diyor."
+    },
+    {
+      "v": 6,
+      "text": "“Çünkü Ben Yehova’yım, Ben değişmem. Siz bu nedenle yok olmadınız, ey Yakupoğulları."
+    },
+    {
+      "v": 7,
+      "text": "Atalarınızın zamanından beri hep kurallarımdan saptınız, onlara uymadınız. Bana dönün, Ben de size dönerim.” Göklerin hâkimi Yehova böyle diyor. Ve siz “Dönmek için ne yapalım?” diyorsunuz."
+    },
+    {
+      "v": 8,
+      "text": "“Hiç insan Tanrı’dan çalar mı? Ama siz Benden çalıyorsunuz.” Ve siz “Ne yaptık da Senden çaldık?” diyorsunuz. “Ondalık ve bağışlardan çaldınız."
+    },
+    {
+      "v": 9,
+      "text": "Milletçe Benden çalıyor ve Bana lanet ediyorsunuz."
+    },
+    {
+      "v": 10,
+      "text": "Evimde yiyecek olması için ondalığın hepsini ambara getirin ve Beni bununla sınayın” diyor göklerin hâkimi Yehova, “Göklerin bentlerini size açmaz mıyım, üzerinize yeterinden fazla bereket yağdırmaz mıyım?”"
+    },
+    {
+      "v": 11,
+      "text": "“Sizin için haşaratı azarlayacağım, toprağınızın ürününü mahvetmeyecek, bağda asmanız üzümsüz kalmayacak.” Göklerin hâkimi Yehova böyle diyor."
+    },
+    {
+      "v": 12,
+      "text": "“Bütün milletler ‘Ne mutlu size!’ diyecek, çünkü ülkeniz sevinç diyarı olacak.” Göklerin hâkimi Yehova böyle diyor."
+    },
+    {
+      "v": 13,
+      "text": "“Bana karşı ağır sözler söylediniz” diyor Yehova. Ve siz “Aramızda Senin hakkında ne konuştuk?” diyorsunuz."
+    },
+    {
+      "v": 14,
+      "text": "“Şöyle söylediniz: ‘Tanrı’ya kulluk etmenin ne yararı var? O’na karşı yükümlülüklerimizi yerine getirmemiz, göklerin hâkimi Yehova’nın önünde üzgün üzgün dolaşmamız bize ne kazandırıyor?"
+    },
+    {
+      "v": 15,
+      "text": "Şimdi, küstah insana ne mutlu diyoruz. Kötülük edenler de refah içinde. Tanrı’yı sınıyorlar ama cezadan kurtuluyorlar.’”"
+    },
+    {
+      "v": 16,
+      "text": "O zaman Yehova’dan korkanlar aralarında konuştular; herkes komşusuyla konuştu. Yehova kulak verip dinledi. Yehova’dan korkanlar ve ismini düşünenler için O’nun önünde bir anılma kitabı yazıldı."
+    },
+    {
+      "v": 17,
+      "text": "“Onları Kendi halkım yapacağım gün Benim olacaklar.” Göklerin hâkimi Yehova böyle diyor. “Bir adam kendisine hizmet eden oğluna nasıl şefkat gösterirse, Ben de onlara öyle şefkat göstereceğim."
+    },
+    {
+      "v": 18,
+      "text": "Ve siz bir kez daha, doğru kişiyle kötü kişi, Tanrı’ya kulluk edenle etmeyen arasındaki ayrımı göreceksiniz.”"
+    }
+  ]
+}

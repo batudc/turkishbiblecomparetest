@@ -1,1 +1,80 @@
-{"t": "NWT2008", "b": "DEU", "c": 26, "content": [{"v": 1, "text": "“Tanrın Yehova’nın sana miras olarak vereceği diyara girdiğin, onu mülk edinip oraya yerleştiğin zaman,"}, {"v": 2, "text": "Tanrın Yehova’nın sana verdiği diyarın toprağından elde ettiğin bütün hasadın ilk ürünlerinden alacaksın, onları bir sepete koyup Tanrın Yehova’nın Kendi adını taşıması için seçtiği yere gideceksin."}, {"v": 3, "text": "Ve o sırada görevli olan kâhine gidip şöyle diyeceksin: ‘Yehova’nın bize vereceğine dair atalarımıza yemin ettiği diyara geldim; bunu bugün Tanrın Yehova’nın önünde doğruluyorum.’"}, {"v": 4, "text": "Kâhin senin elinden sepeti alacak, Tanrın Yehova’nın sunağı önüne koyacak."}, {"v": 5, "text": "Bundan sonra Tanrın Yehova’nın önünde şu sözleri söyleyeceksin: ‘Atam, ölümle burun buruna yaşamış bir Aramlıydı; çok az bir nüfusla Mısır’a indi ve orada bir yabancı olarak oturdu. Sonra soyu büyük, güçlü ve kalabalık bir millet haline geldi."}, {"v": 6, "text": "Mısırlılar bize kötü davrandılar, eziyet ettiler ve köle olarak ağır işlerde çalıştırdılar."}, {"v": 7, "text": "Atalarımızın Tanrısı Yehova’ya feryat ettik ve Yehova sesimizi duydu, çektiğimiz eziyeti, sıkıntıyı ve baskıyı gördü."}, {"v": 8, "text": "Sonunda Yehova güçlü koluyla, uzattığı eliyle, büyük dehşet uyandıran olaylarla, alametler ve mucizelerle bizi Mısır’dan çıkardı."}, {"v": 9, "text": "Bizi buraya getirdi, bu toprakları, süt ve bal akan bu diyarı bize verdi."}, {"v": 10, "text": "Şimdi ben de Yehova’nın bana verdiği topraktan aldığım hasadın ilk ürününü getirdim.’ Sonra onu Tanrın Yehova’nın önüne koyacak ve Tanrın Yehova’nın önünde eğileceksin."}, {"v": 11, "text": "Aranızda yaşayan yabancılar ve Levioğulları da dahil hepiniz, Tanrın Yehova’nın sana ve ev halkına yaptığı iyilikten ötürü sevinçli olacaksınız."}, {"v": 12, "text": "Üçüncü yılda, ondalık yılında, ondalığının tümünü ayırdıktan sonra, onu Levioğullarına, aranızda yaşayan yabancıya, dul ve yetimlere vereceksin; şehrinizin içinde yiyecek ve doyacaklar."}, {"v": 13, "text": "Ve Tanrın Yehova’nın önünde şunları söyleyeceksin: ‘Kutsal olarak ayırdığım hiçbir şeyi evimde bırakmadım; bana bildirdiğin tüm emirlere uyarak onu Levioğullarına, aramızda yaşayan yabancılara, dul ve yetimlere verdim. Emirlerinden dışarı çıkmadım ve onları unutmadım."}, {"v": 14, "text": "Yas tutarken ondan yemedim, kirli durumdayken ona dokunmadım, onu bir ölü için kullanmadım. Tanrım Yehova’nın sözüne kulak verdim. Bana verdiğin tüm emirlere uygun davrandım."}, {"v": 15, "text": "Ne olur göklerden, kutsal mekânından aşağı bak, atalarımıza yemin ettiğin gibi bize verdiğin toprağa, süt ve bal akan diyara, halkın İsrail’e bereketini ver.’"}, {"v": 16, "text": "Bugün Tanrın Yehova bu kuralları ve hükümleri yerine getirmeni emrediyor. Bütün yüreğinle ve bütün canınla onlara uyacak ve gereğini yapacaksın."}, {"v": 17, "text": "Senin sözün üzerine Yehova, O’nun yolunda yürüdüğün, kurallarına, emirlerine, hükümlerine uyduğun ve sözüne kulak verdiğin sürece senin Tanrın olacağını bildirdi."}, {"v": 18, "text": "Buna karşılık sen de Yehova’ya, Kendisinin vaat ettiği gibi O’na ait bir halk, O’nun özel halkı olacağını bildirdin; ve tüm emirlerine uyacağını söyledin."}, {"v": 19, "text": "Tanrın Yehova için kutsal bir halk olduğun sürece, vaat ettiği gibi seni, yarattığı tüm milletlerden üstün kılacak. O’na övgü, şan ve onur getireceksin.”"}]}
+{
+  "content": [
+    {
+      "v": 1,
+      "text": "“Tanrın Yehova’nın sana miras olarak vereceği diyara girdiğin, onu mülk edinip oraya yerleştiğin zaman,"
+    },
+    {
+      "v": 2,
+      "text": "Tanrın Yehova’nın sana verdiği diyarın toprağından elde ettiğin bütün hasadın ilk ürünlerinden alacaksın, onları bir sepete koyup Tanrın Yehova’nın Kendi adını taşıması için seçtiği yere gideceksin."
+    },
+    {
+      "v": 3,
+      "text": "Ve o sırada görevli olan kâhine gidip şöyle diyeceksin: ‘Yehova’nın bize vereceğine dair atalarımıza yemin ettiği diyara geldim; bunu bugün Tanrın Yehova’nın önünde doğruluyorum.’"
+    },
+    {
+      "v": 4,
+      "text": "Kâhin senin elinden sepeti alacak, Tanrın Yehova’nın sunağı önüne koyacak."
+    },
+    {
+      "v": 5,
+      "text": "Bundan sonra Tanrın Yehova’nın önünde şu sözleri söyleyeceksin: ‘Atam, ölümle burun buruna yaşamış bir Aramlıydı; çok az bir nüfusla Mısır’a indi ve orada bir yabancı olarak oturdu. Sonra soyu büyük, güçlü ve kalabalık bir millet haline geldi."
+    },
+    {
+      "v": 6,
+      "text": "Mısırlılar bize kötü davrandılar, eziyet ettiler ve köle olarak ağır işlerde çalıştırdılar."
+    },
+    {
+      "v": 7,
+      "text": "Atalarımızın Tanrısı Yehova’ya feryat ettik ve Yehova sesimizi duydu, çektiğimiz eziyeti, sıkıntıyı ve baskıyı gördü."
+    },
+    {
+      "v": 8,
+      "text": "Sonunda Yehova güçlü koluyla, uzattığı eliyle, büyük dehşet uyandıran olaylarla, alametler ve mucizelerle bizi Mısır’dan çıkardı."
+    },
+    {
+      "v": 9,
+      "text": "Bizi buraya getirdi, bu toprakları, süt ve bal akan bu diyarı bize verdi."
+    },
+    {
+      "v": 10,
+      "text": "Şimdi ben de Yehova’nın bana verdiği topraktan aldığım hasadın ilk ürününü getirdim.’ Sonra onu Tanrın Yehova’nın önüne koyacak ve Tanrın Yehova’nın önünde eğileceksin."
+    },
+    {
+      "v": 11,
+      "text": "Aranızda yaşayan yabancılar ve Levioğulları da dahil hepiniz, Tanrın Yehova’nın sana ve ev halkına yaptığı iyilikten ötürü sevinçli olacaksınız."
+    },
+    {
+      "v": 12,
+      "text": "Üçüncü yılda, ondalık yılında, ondalığının tümünü ayırdıktan sonra, onu Levioğullarına, aranızda yaşayan yabancıya, dul ve yetimlere vereceksin; şehrinizin içinde yiyecek ve doyacaklar."
+    },
+    {
+      "v": 13,
+      "text": "Ve Tanrın Yehova’nın önünde şunları söyleyeceksin: ‘Kutsal olarak ayırdığım hiçbir şeyi evimde bırakmadım; bana bildirdiğin tüm emirlere uyarak onu Levioğullarına, aramızda yaşayan yabancılara, dul ve yetimlere verdim. Emirlerinden dışarı çıkmadım ve onları unutmadım."
+    },
+    {
+      "v": 14,
+      "text": "Yas tutarken ondan yemedim, kirli durumdayken ona dokunmadım, onu bir ölü için kullanmadım. Tanrım Yehova’nın sözüne kulak verdim. Bana verdiğin tüm emirlere uygun davrandım."
+    },
+    {
+      "v": 15,
+      "text": "Ne olur göklerden, kutsal mekânından aşağı bak, atalarımıza yemin ettiğin gibi bize verdiğin toprağa, süt ve bal akan diyara, halkın İsrail’e bereketini ver.’"
+    },
+    {
+      "v": 16,
+      "text": "Bugün Tanrın Yehova bu kuralları ve hükümleri yerine getirmeni emrediyor. Bütün yüreğinle ve bütün canınla onlara uyacak ve gereğini yapacaksın."
+    },
+    {
+      "v": 17,
+      "text": "Senin sözün üzerine Yehova, O’nun yolunda yürüdüğün, kurallarına, emirlerine, hükümlerine uyduğun ve sözüne kulak verdiğin sürece senin Tanrın olacağını bildirdi."
+    },
+    {
+      "v": 18,
+      "text": "Buna karşılık sen de Yehova’ya, Kendisinin vaat ettiği gibi O’na ait bir halk, O’nun özel halkı olacağını bildirdin; ve tüm emirlerine uyacağını söyledin."
+    },
+    {
+      "v": 19,
+      "text": "Tanrın Yehova için kutsal bir halk olduğun sürece, vaat ettiği gibi seni, yarattığı tüm milletlerden üstün kılacak. O’na övgü, şan ve onur getireceksin.”"
+    }
+  ]
+}

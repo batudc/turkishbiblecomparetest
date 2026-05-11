@@ -1,1 +1,92 @@
-{"t": "NWT2008", "b": "RUT", "c": 4, "content": [{"v": 1, "text": "Boaz şehir kapısına gidip orada oturdu. O sırada Boaz’ın sözünü ettiği akraba geçiyordu; adama “Hey falanca, biraz dur, geç şöyle otur” dedi. O da yolundan dönüp oturdu."}, {"v": 2, "text": "Sonra şehrin ihtiyarlarından on kişiyi getirip, “Buyrun şöyle oturun” dedi. Onlar da oturdular."}, {"v": 3, "text": "Boaz akrabalık görevi yapabilecek olan adama şöyle dedi: “Moab topraklarından geri dönmüş olan Naomi, kardeşimiz Elimelek’in tarlasını satmak zorunda."}, {"v": 4, "text": "Ben bu meseleyi sana açmam gerektiğini düşündüm. Derim ki, ‘Halkın ihtiyarları ve bu insanlar huzurunda onu satın al. Eğer satın alacaksan al; fakat almayacaksan, söyle de bileyim. Çünkü seninle benden başka bunu yapacak kimse yok, ben senden sonra geliyorum.’” Adam, “Ben alırım” dedi."}, {"v": 5, "text": "O zaman Boaz şöyle dedi: “Naomi’den tarlayı aldığın gün, kocası ölen Moablı Rut’tan da satın almalısın ki, ölmüş olan adamın adı kendi mirasıyla yaşasın.”"}, {"v": 6, "text": "Bunun üzerine adam, “Ben bunu yapamam” diye cevap verdi. “Çünkü kendi mirasım tehlikeye girer diye korkuyorum. Ben satın alamayacağım için hakkımı sana devrediyorum, sen al.”"}, {"v": 7, "text": "Eski devirlerde İsrail’de akrabalık hakkı ve bu hakkın devredilmesiyle ilgili meseleleri halletmekte âdet şöyleydi: Adam çarığını çıkarıp diğerine verirdi ve bu hareketi İsrail’de onay kabul edilirdi."}, {"v": 8, "text": "Böylece akrabalık görevini yerine getirebilecek olan adam Boaz’a “Onu sen satın al” dedi ve çarığını çıkardı."}, {"v": 9, "text": "Boaz oradaki ihtiyarlara ve tüm halka şöyle dedi: “Bugün sizler, Elimelek’e, Kilyon’a ve Mahlon’a ait olan her şeyi Naomi’den satın aldığıma şahitsiniz."}, {"v": 10, "text": "Ayrıca Mahlon’un karısı Moablı Rut’u da eş olarak alıyorum ki, ölmüş olan adamın adı kendi mirasıyla yaşasın; adı kardeşleri arasında ve memleketinin kapılarında unutulup gitmesin. Bugün siz buna şahitsiniz.”"}, {"v": 11, "text": "Bunun üzerine kapıda toplanmış olan halk ve ihtiyarlar “Şahidiz!” dediler. “Yehova senin evine eş olarak gelen kadını, İsrail evinin anaları olan Rahel ve Lea gibi yapsın. Senin de Efrata’da itibarın artsın, Beytlehem’de namın yayılsın."}, {"v": 12, "text": "Yehova’nın sana bu genç kadından vereceği soy sayesinde, senin evin de Tamar’ın Yahuda’ya doğurduğu Perets’in evi gibi olsun.”"}, {"v": 13, "text": "Böylece Boaz Rut’u eş olarak aldı ve onunla birlikte oldu. Yehova’nın lütfuyla kadın gebe kaldı ve bir oğul doğurdu."}, {"v": 14, "text": "O zaman kadınlar Naomi’ye şöyle dediler: “Bugün seni akrabasız bırakmayan Yehova’ya şükrolsun ve onun adı İsrail’de dilden dile dolaşsın."}, {"v": 15, "text": "O senin canına can kattı, yaşlılık günlerinde sana güç verdi; çünkü bu oğlu, seni çok seven ve senin için yedi oğuldan daha hayırlı olan gelinin doğurdu.”"}, {"v": 16, "text": "Naomi çocuğu aldı, bağrına bastı; çocuğa o baktı."}, {"v": 17, "text": "Komşu kadınlar “Naomi’ye bir oğul doğdu” diyerek çocuğun adını Obed koydular. O, Davut’un babası olan Yesse’nin babasıdır."}, {"v": 18, "text": "Perets’in soyu şöyledir: Perets Hetsron’un babasıydı;"}, {"v": 19, "text": "Hetsron Ram’ın babasıydı; Ram Amminadab’ın babasıydı;"}, {"v": 20, "text": "Amminadab Nahşon’un babasıydı; Nahşon Salmon’un babasıydı;"}, {"v": 21, "text": "Salmon Boaz’ın babasıydı; Boaz Obed’in babasıydı;"}, {"v": 22, "text": "Obed Yesse’nin babasıydı. Yesse de Davut’un babasıydı."}]}
+{
+  "content": [
+    {
+      "v": 1,
+      "text": "Boaz şehir kapısına gidip orada oturdu. O sırada Boaz’ın sözünü ettiği akraba geçiyordu; adama “Hey falanca, biraz dur, geç şöyle otur” dedi. O da yolundan dönüp oturdu."
+    },
+    {
+      "v": 2,
+      "text": "Sonra şehrin ihtiyarlarından on kişiyi getirip, “Buyrun şöyle oturun” dedi. Onlar da oturdular."
+    },
+    {
+      "v": 3,
+      "text": "Boaz akrabalık görevi yapabilecek olan adama şöyle dedi: “Moab topraklarından geri dönmüş olan Naomi, kardeşimiz Elimelek’in tarlasını satmak zorunda."
+    },
+    {
+      "v": 4,
+      "text": "Ben bu meseleyi sana açmam gerektiğini düşündüm. Derim ki, ‘Halkın ihtiyarları ve bu insanlar huzurunda onu satın al. Eğer satın alacaksan al; fakat almayacaksan, söyle de bileyim. Çünkü seninle benden başka bunu yapacak kimse yok, ben senden sonra geliyorum.’” Adam, “Ben alırım” dedi."
+    },
+    {
+      "v": 5,
+      "text": "O zaman Boaz şöyle dedi: “Naomi’den tarlayı aldığın gün, kocası ölen Moablı Rut’tan da satın almalısın ki, ölmüş olan adamın adı kendi mirasıyla yaşasın.”"
+    },
+    {
+      "v": 6,
+      "text": "Bunun üzerine adam, “Ben bunu yapamam” diye cevap verdi. “Çünkü kendi mirasım tehlikeye girer diye korkuyorum. Ben satın alamayacağım için hakkımı sana devrediyorum, sen al.”"
+    },
+    {
+      "v": 7,
+      "text": "Eski devirlerde İsrail’de akrabalık hakkı ve bu hakkın devredilmesiyle ilgili meseleleri halletmekte âdet şöyleydi: Adam çarığını çıkarıp diğerine verirdi ve bu hareketi İsrail’de onay kabul edilirdi."
+    },
+    {
+      "v": 8,
+      "text": "Böylece akrabalık görevini yerine getirebilecek olan adam Boaz’a “Onu sen satın al” dedi ve çarığını çıkardı."
+    },
+    {
+      "v": 9,
+      "text": "Boaz oradaki ihtiyarlara ve tüm halka şöyle dedi: “Bugün sizler, Elimelek’e, Kilyon’a ve Mahlon’a ait olan her şeyi Naomi’den satın aldığıma şahitsiniz."
+    },
+    {
+      "v": 10,
+      "text": "Ayrıca Mahlon’un karısı Moablı Rut’u da eş olarak alıyorum ki, ölmüş olan adamın adı kendi mirasıyla yaşasın; adı kardeşleri arasında ve memleketinin kapılarında unutulup gitmesin. Bugün siz buna şahitsiniz.”"
+    },
+    {
+      "v": 11,
+      "text": "Bunun üzerine kapıda toplanmış olan halk ve ihtiyarlar “Şahidiz!” dediler. “Yehova senin evine eş olarak gelen kadını, İsrail evinin anaları olan Rahel ve Lea gibi yapsın. Senin de Efrata’da itibarın artsın, Beytlehem’de namın yayılsın."
+    },
+    {
+      "v": 12,
+      "text": "Yehova’nın sana bu genç kadından vereceği soy sayesinde, senin evin de Tamar’ın Yahuda’ya doğurduğu Perets’in evi gibi olsun.”"
+    },
+    {
+      "v": 13,
+      "text": "Böylece Boaz Rut’u eş olarak aldı ve onunla birlikte oldu. Yehova’nın lütfuyla kadın gebe kaldı ve bir oğul doğurdu."
+    },
+    {
+      "v": 14,
+      "text": "O zaman kadınlar Naomi’ye şöyle dediler: “Bugün seni akrabasız bırakmayan Yehova’ya şükrolsun ve onun adı İsrail’de dilden dile dolaşsın."
+    },
+    {
+      "v": 15,
+      "text": "O senin canına can kattı, yaşlılık günlerinde sana güç verdi; çünkü bu oğlu, seni çok seven ve senin için yedi oğuldan daha hayırlı olan gelinin doğurdu.”"
+    },
+    {
+      "v": 16,
+      "text": "Naomi çocuğu aldı, bağrına bastı; çocuğa o baktı."
+    },
+    {
+      "v": 17,
+      "text": "Komşu kadınlar “Naomi’ye bir oğul doğdu” diyerek çocuğun adını Obed koydular. O, Davut’un babası olan Yesse’nin babasıdır."
+    },
+    {
+      "v": 18,
+      "text": "Perets’in soyu şöyledir: Perets Hetsron’un babasıydı;"
+    },
+    {
+      "v": 19,
+      "text": "Hetsron Ram’ın babasıydı; Ram Amminadab’ın babasıydı;"
+    },
+    {
+      "v": 20,
+      "text": "Amminadab Nahşon’un babasıydı; Nahşon Salmon’un babasıydı;"
+    },
+    {
+      "v": 21,
+      "text": "Salmon Boaz’ın babasıydı; Boaz Obed’in babasıydı;"
+    },
+    {
+      "v": 22,
+      "text": "Obed Yesse’nin babasıydı. Yesse de Davut’un babasıydı."
+    }
+  ]
+}

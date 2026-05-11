@@ -1,1 +1,120 @@
-{"t": "NWT2008", "b": "PSA", "c": 118, "content": [{"v": 1, "text": "Yehova’ya şükürler sunun, çünkü O iyidir; Vefalı sevgisi sonsuzdur."}, {"v": 2, "text": "İsrail desin ki, “Vefalı sevgisi sonsuzdur.”"}, {"v": 3, "text": "Harun evinden olanlar desin ki, “Vefalı sevgisi sonsuzdur.”"}, {"v": 4, "text": "Yehova’dan korkanlar desin ki, “Vefalı sevgisi sonsuzdur.”"}, {"v": 5, "text": "Sıkıntılar içindeyken Yah’a yakardım; Yah cevap verdi, beni feraha çıkardı."}, {"v": 6, "text": "Yehova yanımda; ben korkmam. İnsan bana ne yapabilir?"}, {"v": 7, "text": "Benden nefret edenlerin düşüşünü görmem için, Yehova bana yardım edenlerin yanında."}, {"v": 8, "text": "Yehova’ya sığınmak, İnsanoğluna güvenmekten iyidir."}, {"v": 9, "text": "Yehova’ya sığınmak, Soylulara güvenmekten iyidir."}, {"v": 10, "text": "Tüm milletler etrafımı sardı, Yehova’nın adıyla püskürttüm onları."}, {"v": 11, "text": "Etrafımı sardılar, evet beni kuşattılar, Yehova’nın adıyla püskürttüm onları."}, {"v": 12, "text": "Arılar gibi başıma üşüştüler; Fakat çalı ateşi gibi sönüverdiler. Yehova’nın adıyla püskürttüm onları."}, {"v": 13, "text": "Düşeyim diye ittiler, Fakat Yehova bana yardım etti."}, {"v": 14, "text": "Yah sığınağım, gücüm, O beni kurtarır."}, {"v": 15, "text": "Doğruların çadırlarından, Sevinç ve kurtuluş nidaları yükselir. Yehova sağ eliyle büyük gücünü gösterir."}, {"v": 16, "text": "Yehova’nın sağ eli yükselir; Yehova sağ eliyle büyük gücünü gösterir."}, {"v": 17, "text": "Ölmeyeyim, yaşayayım ki, Yah’ın işlerini bildireyim."}, {"v": 18, "text": "Yah beni ağır şekilde terbiye etti, Fakat ölüme terk etmedi."}, {"v": 19, "text": "Bana doğruluğun kapılarını açın, Oradan girip Yah’ı yücelteyim."}, {"v": 20, "text": "Bu Yehova’nın kapısıdır, Oradan ancak doğrular girer."}, {"v": 21, "text": "Seni yüceltirim, çünkü bana cevap verdin Ve benim kurtarıcım oldun."}, {"v": 22, "text": "Yapı ustalarının reddettiği taş Köşenin baş taşı oldu."}, {"v": 23, "text": "Bu Yehova’dandır, Ve bizim gözümüzde harikadır."}, {"v": 24, "text": "O gün, Yehova’nın yarattığı gündür, Biz o gün sevinçli, neşeli olacağız."}, {"v": 25, "text": "Ah Yehova, ne olur kurtar! Ah Yehova, ne olur başarılı kıl!"}, {"v": 26, "text": "Yehova’nın adıyla gelen kutlu olsun; Yehova’nın evinde size hayırdua ettik."}, {"v": 27, "text": "Yehova kudretli Tanrı’dır, Bize ışık verir. Sunağın boynuzlarına kadar Bayram alayını dallarla süsleyin."}, {"v": 28, "text": "Sen benim kudretli Tanrımsın, Sana övgüler sunarım; Seni yüceltirim ey Tanrım."}, {"v": 29, "text": "Yehova’ya şükürler sunun, çünkü O iyidir; Vefalı sevgisi sonsuzdur."}]}
+{
+  "content": [
+    {
+      "v": 1,
+      "text": "Yehova’ya şükürler sunun, çünkü O iyidir;Vefalı sevgisi sonsuzdur."
+    },
+    {
+      "v": 2,
+      "text": "İsrail desin ki,“Vefalı sevgisi sonsuzdur.”"
+    },
+    {
+      "v": 3,
+      "text": "Harun evinden olanlar desin ki,“Vefalı sevgisi sonsuzdur.”"
+    },
+    {
+      "v": 4,
+      "text": "Yehova’dan korkanlar desin ki,“Vefalı sevgisi sonsuzdur.”"
+    },
+    {
+      "v": 5,
+      "text": "Sıkıntılar içindeyken Yah’a yakardım;Yah cevap verdi, beni feraha çıkardı."
+    },
+    {
+      "v": 6,
+      "text": "Yehova yanımda; ben korkmam.İnsan bana ne yapabilir?"
+    },
+    {
+      "v": 7,
+      "text": "Benden nefret edenlerin düşüşünü görmem için,Yehova bana yardım edenlerin yanında."
+    },
+    {
+      "v": 8,
+      "text": "Yehova’ya sığınmak,İnsanoğluna güvenmekten iyidir."
+    },
+    {
+      "v": 9,
+      "text": "Yehova’ya sığınmak,Soylulara güvenmekten iyidir."
+    },
+    {
+      "v": 10,
+      "text": "Tüm milletler etrafımı sardı,Yehova’nın adıyla püskürttüm onları."
+    },
+    {
+      "v": 11,
+      "text": "Etrafımı sardılar, evet beni kuşattılar,Yehova’nın adıyla püskürttüm onları."
+    },
+    {
+      "v": 12,
+      "text": "Arılar gibi başıma üşüştüler;Fakat çalı ateşi gibi sönüverdiler.Yehova’nın adıyla püskürttüm onları."
+    },
+    {
+      "v": 13,
+      "text": "Düşeyim diye ittiler,Fakat Yehova bana yardım etti."
+    },
+    {
+      "v": 14,
+      "text": "Yah sığınağım, gücüm,O beni kurtarır."
+    },
+    {
+      "v": 15,
+      "text": "Doğruların çadırlarından,Sevinç ve kurtuluş nidaları yükselir.Yehova sağ eliyle büyük gücünü gösterir."
+    },
+    {
+      "v": 16,
+      "text": "Yehova’nın sağ eli yükselir;Yehova sağ eliyle büyük gücünü gösterir."
+    },
+    {
+      "v": 17,
+      "text": "Ölmeyeyim, yaşayayım ki,Yah’ın işlerini bildireyim."
+    },
+    {
+      "v": 18,
+      "text": "Yah beni ağır şekilde terbiye etti,Fakat ölüme terk etmedi."
+    },
+    {
+      "v": 19,
+      "text": "Bana doğruluğun kapılarını açın,Oradan girip Yah’ı yücelteyim."
+    },
+    {
+      "v": 20,
+      "text": "Bu Yehova’nın kapısıdır,Oradan ancak doğrular girer."
+    },
+    {
+      "v": 21,
+      "text": "Seni yüceltirim, çünkü bana cevap verdinVe benim kurtarıcım oldun."
+    },
+    {
+      "v": 22,
+      "text": "Yapı ustalarının reddettiği taşKöşenin baş taşı oldu."
+    },
+    {
+      "v": 23,
+      "text": "Bu Yehova’dandır,Ve bizim gözümüzde harikadır."
+    },
+    {
+      "v": 24,
+      "text": "O gün, Yehova’nın yarattığı gündür,Biz o gün sevinçli, neşeli olacağız."
+    },
+    {
+      "v": 25,
+      "text": "Ah Yehova, ne olur kurtar!Ah Yehova, ne olur başarılı kıl!"
+    },
+    {
+      "v": 26,
+      "text": "Yehova’nın adıyla gelen kutlu olsun;Yehova’nın evinde size hayırdua ettik."
+    },
+    {
+      "v": 27,
+      "text": "Yehova kudretli Tanrı’dır,Bize ışık verir.Sunağın boynuzlarına kadarBayram alayını dallarla süsleyin."
+    },
+    {
+      "v": 28,
+      "text": "Sen benim kudretli Tanrımsın, Sana övgüler sunarım;Seni yüceltirim ey Tanrım."
+    },
+    {
+      "v": 29,
+      "text": "Yehova’ya şükürler sunun, çünkü O iyidir;Vefalı sevgisi sonsuzdur."
+    }
+  ]
+}

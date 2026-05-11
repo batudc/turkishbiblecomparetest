@@ -1,0 +1,31 @@
+{
+  "t": "LSB",
+  "b": "PSA",
+  "c": 13,
+  "content": [
+    {
+      "v": 1,
+      "text": "How long, O Yahweh? Will You forget me forever?\nHow long will You hide Your face from me?"
+    },
+    {
+      "v": 2,
+      "text": "How long shall I take counsel in my soul,\nHaving sorrow in my heart all the day?\nHow long will my enemy be exalted over me?"
+    },
+    {
+      "v": 3,
+      "text": "Look and answer me, O Yahweh my God;\nGive light to my eyes, lest I sleep the sleep of death,"
+    },
+    {
+      "v": 4,
+      "text": "Lest my enemy says, “I have overcome him,”\nAnd my adversaries rejoice that I am shaken."
+    },
+    {
+      "v": 5,
+      "text": "But I have trusted in Your lovingkindness;\nMy heart shall rejoice in Your salvation."
+    },
+    {
+      "v": 6,
+      "text": "I will sing to Yahweh,\nBecause He has dealt bountifully with me."
+    }
+  ]
+}

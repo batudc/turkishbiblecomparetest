@@ -1,1 +1,120 @@
-{"t": "NWT2008", "b": "JOB", "c": 20, "content": [{"v": 1, "text": "Bunun üzerine Naamalı Tsofar şöyle karşılık verdi:"}, {"v": 2, "text": "“İşte bu yüzden içim sıkılıyor, Huzurumu kaçıran düşünceler beni cevap vermeye zorluyor."}, {"v": 3, "text": "Onur kırıcı öğütler işitiyorum, Benim anlayışımdan yoksun bir akıl bana cevap yetiştiriyor."}, {"v": 4, "text": "Bilmiyor musun ki, İnsan yeryüzüne geldi geleli"}, {"v": 5, "text": "Kötünün sevinç çığlığı kısa ömürlüdür, Tanrı’yı terk edenin sevinci de bir anlıktır?"}, {"v": 6, "text": "Haşmeti göğe erse, Başı bulutlara değse,"}, {"v": 7, "text": "Kendi pisliği gibi sonsuza dek yok olacak; Onu görmüş olanlar, ‘Nerede?’ diye soracak."}, {"v": 8, "text": "Hayal gibi uçup gidecek, bulunmayacak. Gece görülen bir görüntü gibi kovalanacak."}, {"v": 9, "text": "Ne bir zamanlar ona bakan göz, Ne de mekânı, artık kendisini görecek."}, {"v": 10, "text": "Oğulları düşkünlerden lütuf dilenecek, Aldığı değerli şeyleri kendi elleriyle geri verecek."}, {"v": 11, "text": "Kemiklerini dolduran gençlik kuvveti, Kendisiyle birlikte toprakta yatacak."}, {"v": 12, "text": "Kötülük ağzında tatlı bir lokma olsa, Onu dilinin altında eritse,"}, {"v": 13, "text": "Tadına bayıldığından bırakamayıp, Damağında evirip çevirse,"}, {"v": 14, "text": "Lokması bağırsaklarında değişecek, İçinde kobra zehrine dönecek."}, {"v": 15, "text": "Yuttuğu serveti kusacak, Bu serveti Tanrı onun karnından çıkarıp atacak."}, {"v": 16, "text": "Kobra zehrini emecek; Engereğin dili onu öldürecek."}, {"v": 17, "text": "Gözleri bir daha ne ırmakları görecek, Ne de yağ bal akan dereleri."}, {"v": 18, "text": "Kazandığını geri verecek, midesine indiremeyecek, Ticaretten edindiği servetin tadını çıkaramayacak."}, {"v": 19, "text": "Çünkü düşkünleri ezip yüzüstü bıraktı; Kendi yapmadığı evi zorla aldı."}, {"v": 20, "text": "Bu yüzden huzur nedir bilmeyecek, Elindeki güzel şeyler onu kurtarmayacak."}, {"v": 21, "text": "Yutacak lokması kalmayacak; Böyle olunca da refahı sürmeyecek."}, {"v": 22, "text": "Refahının doruğundayken kaygı çekecek; Felaket tüm gücüyle tepesine binecek."}, {"v": 23, "text": "Tanrı yakıcı öfkesini üzerine göndersin; Öfkesini yağdırsın, ta bağırsaklarına kadar, Karnını tıka basa doldursun."}, {"v": 24, "text": "Demir silahtan kaçsa da, Bakır yay bedenini delik deşik edecek."}, {"v": 25, "text": "Oklar sırtından çıkacak, Parıldayan silahlar da ödünü delip geçecek. Dehşetler üzerine çökecek."}, {"v": 26, "text": "Hazinesi koyu karanlığın payı olacak; Kimsenin körüklemediği bir ateş onu yiyip bitirecek, Çadırında artakalan mahvolacak."}, {"v": 27, "text": "Gökler suçunu açığa çıkaracak, Yer ona karşı ayaklanacak."}, {"v": 28, "text": "Şiddetli sağanak evini alıp götürecek; O’nun gazap gününde seller akacak."}, {"v": 29, "text": "İşte kötü adamın Tanrı’dan aldığı pay, Tanrı’nın ona ayırdığı miras budur.”"}]}
+{
+  "content": [
+    {
+      "v": 1,
+      "text": "Bunun üzerine Naamalı Tsofar şöyle karşılık verdi:"
+    },
+    {
+      "v": 2,
+      "text": "“İşte bu yüzden içim sıkılıyor,Huzurumu kaçıran düşünceler beni cevap vermeye zorluyor."
+    },
+    {
+      "v": 3,
+      "text": "Onur kırıcı öğütler işitiyorum,Benim anlayışımdan yoksun bir akıl bana cevap yetiştiriyor."
+    },
+    {
+      "v": 4,
+      "text": "Bilmiyor musun ki,İnsan yeryüzüne geldi geleli"
+    },
+    {
+      "v": 5,
+      "text": "Kötünün sevinç çığlığı kısa ömürlüdür,Tanrı’yı terk edenin sevinci de bir anlıktır?"
+    },
+    {
+      "v": 6,
+      "text": "Haşmeti göğe erse,Başı bulutlara değse,"
+    },
+    {
+      "v": 7,
+      "text": "Kendi pisliği gibi sonsuza dek yok olacak;Onu görmüş olanlar, ‘Nerede?’ diye soracak."
+    },
+    {
+      "v": 8,
+      "text": "Hayal gibi uçup gidecek, bulunmayacak.Gece görülen bir görüntü gibi kovalanacak."
+    },
+    {
+      "v": 9,
+      "text": "Ne bir zamanlar ona bakan göz,Ne de mekânı, artık kendisini görecek."
+    },
+    {
+      "v": 10,
+      "text": "Oğulları düşkünlerden lütuf dilenecek,Aldığı değerli şeyleri kendi elleriyle geri verecek."
+    },
+    {
+      "v": 11,
+      "text": "Kemiklerini dolduran gençlik kuvveti,Kendisiyle birlikte toprakta yatacak."
+    },
+    {
+      "v": 12,
+      "text": "Kötülük ağzında tatlı bir lokma olsa,Onu dilinin altında eritse,"
+    },
+    {
+      "v": 13,
+      "text": "Tadına bayıldığından bırakamayıp,Damağında evirip çevirse,"
+    },
+    {
+      "v": 14,
+      "text": "Lokması bağırsaklarında değişecek,İçinde kobra zehrine dönecek."
+    },
+    {
+      "v": 15,
+      "text": "Yuttuğu serveti kusacak,Bu serveti Tanrı onun karnından çıkarıp atacak."
+    },
+    {
+      "v": 16,
+      "text": "Kobra zehrini emecek;Engereğin dili onu öldürecek."
+    },
+    {
+      "v": 17,
+      "text": "Gözleri bir daha ne ırmakları görecek,Ne de yağ bal akan dereleri."
+    },
+    {
+      "v": 18,
+      "text": "Kazandığını geri verecek, midesine indiremeyecek,Ticaretten edindiği servetin tadını çıkaramayacak."
+    },
+    {
+      "v": 19,
+      "text": "Çünkü düşkünleri ezip yüzüstü bıraktı;Kendi yapmadığı evi zorla aldı."
+    },
+    {
+      "v": 20,
+      "text": "Bu yüzden huzur nedir bilmeyecek,Elindeki güzel şeyler onu kurtarmayacak."
+    },
+    {
+      "v": 21,
+      "text": "Yutacak lokması kalmayacak;Böyle olunca da refahı sürmeyecek."
+    },
+    {
+      "v": 22,
+      "text": "Refahının doruğundayken kaygı çekecek;Felaket tüm gücüyle tepesine binecek."
+    },
+    {
+      "v": 23,
+      "text": "Tanrı yakıcı öfkesini üzerine göndersin;Öfkesini yağdırsın, ta bağırsaklarına kadar,Karnını tıka basa doldursun."
+    },
+    {
+      "v": 24,
+      "text": "Demir silahtan kaçsa da,Bakır yay bedenini delik deşik edecek."
+    },
+    {
+      "v": 25,
+      "text": "Oklar sırtından çıkacak,Parıldayan silahlar da ödünü delip geçecek.Dehşetler üzerine çökecek."
+    },
+    {
+      "v": 26,
+      "text": "Hazinesi koyu karanlığın payı olacak;Kimsenin körüklemediği bir ateş onu yiyip bitirecek,Çadırında artakalan mahvolacak."
+    },
+    {
+      "v": 27,
+      "text": "Gökler suçunu açığa çıkaracak,Yer ona karşı ayaklanacak."
+    },
+    {
+      "v": 28,
+      "text": "Şiddetli sağanak evini alıp götürecek;O’nun gazap gününde seller akacak."
+    },
+    {
+      "v": 29,
+      "text": "İşte kötü adamın Tanrı’dan aldığı pay,Tanrı’nın ona ayırdığı miras budur.”"
+    }
+  ]
+}

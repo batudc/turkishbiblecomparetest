@@ -1,1 +1,24 @@
-{"t": "NWT2008", "b": "PSA", "c": 15, "content": [{"v": 1, "text": "Ey Yehova, çadırına kim konuk olacak? Kutsal dağında kim oturacak?"}, {"v": 2, "text": "Temiz bir yaşam süren, doğruluktan ayrılmayan Ve yürekten doğru konuşan insan."}, {"v": 3, "text": "O insan ki, diliyle iftira atmaz. Arkadaşına kötülük etmez, Yakın dostunu karalamaz."}, {"v": 4, "text": "Alçak adam onun gözünde değersizdir. Yehova’dan korkanlara saygı duyar. Kendi zararına da olsa yemininden dönmez."}, {"v": 5, "text": "Parasını faizle vermez, Masum insanın zararına rüşvet almaz. İşte bunları yapan asla sarsılmaz."}]}
+{
+  "content": [
+    {
+      "v": 1,
+      "text": "Ey Yehova, çadırına kim konuk olacak?Kutsal dağında kim oturacak?"
+    },
+    {
+      "v": 2,
+      "text": "Temiz bir yaşam süren, doğruluktan ayrılmayanVe yürekten doğru konuşan insan."
+    },
+    {
+      "v": 3,
+      "text": "O insan ki, diliyle iftira atmaz.Arkadaşına kötülük etmez,Yakın dostunu karalamaz."
+    },
+    {
+      "v": 4,
+      "text": "Alçak adam onun gözünde değersizdir.Yehova’dan korkanlara saygı duyar.Kendi zararına da olsa yemininden dönmez."
+    },
+    {
+      "v": 5,
+      "text": "Parasını faizle vermez,Masum insanın zararına rüşvet almaz.İşte bunları yapan asla sarsılmaz."
+    }
+  ]
+}

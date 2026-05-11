@@ -1,0 +1,23 @@
+{
+  "t": "NLT",
+  "b": "PSA",
+  "c": 123,
+  "content": [
+    {
+      "v": 1,
+      "text": "I lift my eyes to you,\n    O God, enthroned in heaven."
+    },
+    {
+      "v": 2,
+      "text": "We keep looking to the Lord our God for his mercy,\n    just as servants keep their eyes on their master,\n    as a slave girl watches her mistress for the slightest signal."
+    },
+    {
+      "v": 3,
+      "text": "Have mercy on us, Lord, have mercy,\n    for we have had our fill of contempt."
+    },
+    {
+      "v": 4,
+      "text": "We have had more than our fill of the scoffing of the proud\n    and the contempt of the arrogant."
+    }
+  ]
+}

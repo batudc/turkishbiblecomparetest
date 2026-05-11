@@ -1,1 +1,104 @@
-{"t": "NWT2008", "b": "GEN", "c": 2, "content": [{"v": 1, "text": "Böylece gökler ve yer, her şeyiyle tamamlandı."}, {"v": 2, "text": "Yedinci gün geldiğinde Tanrı yaptığı bütün işi bitirdi. Dolayısıyla, çalışmayı bırakıp yedinci günü dinlenme günü yaptı."}, {"v": 3, "text": "Tanrı yedinci günü kutsadı ve kutsal olarak ayırdı; çünkü yapmayı amaçladığı her şeyi yaratmış, o günü dinlenme günü yapmıştı."}, {"v": 4, "text": "Yehova Tanrı’nın yeri ve göğü yaptığı gün, onların yaratıldığı zaman hakkındaki kayıt budur."}, {"v": 5, "text": "Henüz yeryüzünde ne bir bitki ne de bir çalı bitmişti, çünkü Yehova Tanrı yeryüzüne yağmur yağdırmamıştı, toprağı işleyecek insan da yoktu."}, {"v": 6, "text": "Yerden buğu yükselir, toprağın bütün yüzünü sulardı."}, {"v": 7, "text": "Sonra Yehova Tanrı yerin toprağından adamı yarattı, onun burnuna hayat nefesini üfledi ve adam yaşayan bir can oldu."}, {"v": 8, "text": "Yehova Tanrı doğuda, Aden’de bir bahçe yaptı ve yarattığı adamı oraya yerleştirdi."}, {"v": 9, "text": "Yehova Tanrı göze hoş gelen ve meyvesi yenilen tüm ağaçları; bahçenin ortasındaki hayat ağacını ve iyiyi kötüyü bilme ağacını yerden bitirdi."}, {"v": 10, "text": "Bahçeyi sulamak için Aden’den doğan bir ırmak vardı; sonra orada bölündü ve dört kol oldu."}, {"v": 11, "text": "Birincisinin adı Pişon’dur; altın yatakları olan tüm Havila diyarının çevresinden akan budur."}, {"v": 12, "text": "Bu diyarın altını iyidir. Kokulu reçine ve oniks taşı da vardır."}, {"v": 13, "text": "İkinci ırmağın adı Gihon’dur; tüm Kuş diyarının çevresinden akan budur."}, {"v": 14, "text": "Üçüncü ırmağın adı Dicle’dir; Asur’un doğusundan akan budur. Dördüncü ırmak ise Fırat’tır."}, {"v": 15, "text": "Yehova Tanrı adamı aldı ve işleyip bakması için onu Aden bahçesine yerleştirdi."}, {"v": 16, "text": "Yehova Tanrı adama şu emri de verdi: “Bahçenin her ağacının meyvesinden dilediğin gibi yiyebilirsin."}, {"v": 17, "text": "Fakat iyiyi kötüyü bilme ağacının meyvesinden kesinlikle yemeyeceksin, çünkü ondan yediğin gün mutlaka ölürsün.”"}, {"v": 18, "text": "Yehova Tanrı daha sonra, “Adamın tek başına olması iyi değildir” dedi. “Ona, kendisini tamamlayacak bir yardımcı yapacağım.”"}, {"v": 19, "text": "Bu arada Yehova Tanrı her yaban hayvanını ve göklerde uçan her kanatlıyı topraktan yapmaya devam ediyor, her birine isim vermesi için onları adama getiriyordu; adam her bir canlıyı nasıl adlandırdıysa, o canlının adı öyle oldu."}, {"v": 20, "text": "Böylece adam tüm evcil hayvanlara, göklerde uçan kanatlılara ve tüm yaban hayvanlarına isim verdi. Fakat adam için kendisini tamamlayacak bir yardımcı yoktu."}, {"v": 21, "text": "Bu nedenle Yehova Tanrı adama derin bir uyku verdi; sonra o uyurken, kaburga kemiklerinden birini aldı ve açılan yeri kapadı."}, {"v": 22, "text": "Ve Yehova Tanrı adamdan aldığı kaburga kemiğinden bir kadın yarattı ve adama getirdi."}, {"v": 23, "text": "O zaman adam şöyle dedi: “İşte sonunda! Kemiği kemiklerimden, Eti etimden olan biri. Ona Kadın denilecek, Çünkü adamdan alındı.”"}, {"v": 24, "text": "Bu nedenle adam, anasını babasını bırakacak, karısına bağlanacak ve onlar tek beden olacaklar."}, {"v": 25, "text": "Adam ve karısı, ikisi de çıplaktı, fakat utanmıyorlardı."}]}
+{
+  "content": [
+    {
+      "v": 1,
+      "text": "Böylece gökler ve yer, her şeyiyle tamamlandı."
+    },
+    {
+      "v": 2,
+      "text": "Yedinci gün geldiğinde Tanrı yaptığı bütün işi bitirdi. Dolayısıyla, çalışmayı bırakıp yedinci günü dinlenme günü yaptı."
+    },
+    {
+      "v": 3,
+      "text": "Tanrı yedinci günü kutsadı ve kutsal olarak ayırdı; çünkü yapmayı amaçladığı her şeyi yaratmış, o günü dinlenme günü yapmıştı."
+    },
+    {
+      "v": 4,
+      "text": "Yehova Tanrı’nın yeri ve göğü yaptığı gün, onların yaratıldığı zaman hakkındaki kayıt budur."
+    },
+    {
+      "v": 5,
+      "text": "Henüz yeryüzünde ne bir bitki ne de bir çalı bitmişti, çünkü Yehova Tanrı yeryüzüne yağmur yağdırmamıştı, toprağı işleyecek insan da yoktu."
+    },
+    {
+      "v": 6,
+      "text": "Yerden buğu yükselir, toprağın bütün yüzünü sulardı."
+    },
+    {
+      "v": 7,
+      "text": "Sonra Yehova Tanrı yerin toprağından adamı yarattı, onun burnuna hayat nefesini üfledi ve adam yaşayan bir can oldu."
+    },
+    {
+      "v": 8,
+      "text": "Yehova Tanrı doğuda, Aden’de bir bahçe yaptı ve yarattığı adamı oraya yerleştirdi."
+    },
+    {
+      "v": 9,
+      "text": "Yehova Tanrı göze hoş gelen ve meyvesi yenilen tüm ağaçları; bahçenin ortasındaki hayat ağacını ve iyiyi kötüyü bilme ağacını yerden bitirdi."
+    },
+    {
+      "v": 10,
+      "text": "Bahçeyi sulamak için Aden’den doğan bir ırmak vardı; sonra orada bölündü ve dört kol oldu."
+    },
+    {
+      "v": 11,
+      "text": "Birincisinin adı Pişon’dur; altın yatakları olan tüm Havila diyarının çevresinden akan budur."
+    },
+    {
+      "v": 12,
+      "text": "Bu diyarın altını iyidir. Kokulu reçine ve oniks taşı da vardır."
+    },
+    {
+      "v": 13,
+      "text": "İkinci ırmağın adı Gihon’dur; tüm Kuş diyarının çevresinden akan budur."
+    },
+    {
+      "v": 14,
+      "text": "Üçüncü ırmağın adı Dicle’dir; Asur’un doğusundan akan budur. Dördüncü ırmak ise Fırat’tır."
+    },
+    {
+      "v": 15,
+      "text": "Yehova Tanrı adamı aldı ve işleyip bakması için onu Aden bahçesine yerleştirdi."
+    },
+    {
+      "v": 16,
+      "text": "Yehova Tanrı adama şu emri de verdi: “Bahçenin her ağacının meyvesinden dilediğin gibi yiyebilirsin."
+    },
+    {
+      "v": 17,
+      "text": "Fakat iyiyi kötüyü bilme ağacının meyvesinden kesinlikle yemeyeceksin, çünkü ondan yediğin gün mutlaka ölürsün.”"
+    },
+    {
+      "v": 18,
+      "text": "Yehova Tanrı daha sonra, “Adamın tek başına olması iyi değildir” dedi. “Ona, kendisini tamamlayacak bir yardımcı yapacağım.”"
+    },
+    {
+      "v": 19,
+      "text": "Bu arada Yehova Tanrı her yaban hayvanını ve göklerde uçan her kanatlıyı topraktan yapmaya devam ediyor, her birine isim vermesi için onları adama getiriyordu; adam her bir canlıyı nasıl adlandırdıysa, o canlının adı öyle oldu."
+    },
+    {
+      "v": 20,
+      "text": "Böylece adam tüm evcil hayvanlara, göklerde uçan kanatlılara ve tüm yaban hayvanlarına isim verdi. Fakat adam için kendisini tamamlayacak bir yardımcı yoktu."
+    },
+    {
+      "v": 21,
+      "text": "Bu nedenle Yehova Tanrı adama derin bir uyku verdi; sonra o uyurken, kaburga kemiklerinden birini aldı ve açılan yeri kapadı."
+    },
+    {
+      "v": 22,
+      "text": "Ve Yehova Tanrı adamdan aldığı kaburga kemiğinden bir kadın yarattı ve adama getirdi."
+    },
+    {
+      "v": 23,
+      "text": "O zaman adam şöyle dedi:“İşte sonunda! Kemiği kemiklerimden,Eti etimden olan biri.Ona Kadın denilecek,Çünkü adamdan alındı.”"
+    },
+    {
+      "v": 24,
+      "text": "Bu nedenle adam, anasını babasını bırakacak, karısına bağlanacak ve onlar tek beden olacaklar."
+    },
+    {
+      "v": 25,
+      "text": "Adam ve karısı, ikisi de çıplaktı, fakat utanmıyorlardı."
+    }
+  ]
+}

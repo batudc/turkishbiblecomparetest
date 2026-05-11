@@ -1,1 +1,100 @@
-{"t": "NWT2008", "b": "JOB", "c": 40, "content": [{"v": 1, "text": "Ve Yehova Eyüp’e şöyle dedi:"}, {"v": 2, "text": "“İnsan Mutlak Gücün Sahibinde kusur bulup O’nunla çekişebilir mi? Tanrı’yı eleştiren buna cevap versin.”"}, {"v": 3, "text": "Eyüp de Yehova’ya şöyle karşılık verdi:"}, {"v": 4, "text": "“Evet, ben bir hiçim. Sana ne cevap vereyim? Elimi ağzıma kapadım."}, {"v": 5, "text": "Bir kez konuştum, bir daha cevap vermem; İkinci kez de söylediklerime bir söz daha eklemem.”"}, {"v": 6, "text": "Yehova kasırganın içinden Eyüp’e şöyle dedi:"}, {"v": 7, "text": "“Haydi dola kuşağını beline, erkek gibi; Sana sorayım da Bana anlat."}, {"v": 8, "text": "Adaletime gölge mi düşüreceksin? Haklı çıkmak için Beni kötülemeye mi kalkıyorsun?"}, {"v": 9, "text": "Senin kolun Tanrı’nınki gibi güçlü mü? Sesin O’nunki gibi gürleyebilir mi?"}, {"v": 10, "text": "Haydi, haşmet ve yücelikle donat kendini; İtibar ve görkem seni sarsın."}, {"v": 11, "text": "Öfkeden ateş püskür, Tüm kibirlileri gör, aşağıla onları."}, {"v": 12, "text": "Tüm kibirlileri gör de gururlarını kır, Kötüleri oldukları yerde ez."}, {"v": 13, "text": "Hepsini birden toprağa göm, Gizli yerde yüzlerini sar."}, {"v": 14, "text": "O zaman Ben de seni överim, Sağ elinle kendini kurtarabilirsin derim."}, {"v": 15, "text": "Suaygırına bak; senin gibi onu da Ben yarattım. Tıpkı boğa gibi yeşil ot yer."}, {"v": 16, "text": "Kuvveti sağrısında, Muazzam gücü karın kaslarındadır."}, {"v": 17, "text": "Kuyruğunu sedir ağacı gibi eğer; Uyluk lifleri sımsıkı örülüdür."}, {"v": 18, "text": "Kemikleri bakır borulardır; Güçlü kemikleri de dövme demirden çubuklar."}, {"v": 19, "text": "Tanrı’nın eserleri arasında ilk sırada yer alır; Yalnızca Yaratıcısı kılıçla üzerine gidebilir."}, {"v": 20, "text": "Dağlar onun için ürün verir, Ve tüm yaban hayvanları oralarda oynaşır."}, {"v": 21, "text": "Dikenli hünnap ağaçlarının altında, Kamışlıkların kuytularında ve bataklıklarda serilip yatar."}, {"v": 22, "text": "Hünnap ağaçları onu gölgeler, Vadideki kavaklar onu çevreler."}, {"v": 23, "text": "Nehir suları azgınlaşsa da, korkup kaçmaz, Ürdün Irmağı kabarıp yüzüne çarpsa da kendinden emindir."}, {"v": 24, "text": "Gözleri açıkken kim onu tutabilir? Kim kancayla burnunu delebilir?”"}]}
+{
+  "content": [
+    {
+      "v": 1,
+      "text": "Ve Yehova Eyüp’e şöyle dedi:"
+    },
+    {
+      "v": 2,
+      "text": "“İnsan Mutlak Gücün Sahibinde kusur bulup O’nunla çekişebilir mi?Tanrı’yı eleştiren buna cevap versin.”"
+    },
+    {
+      "v": 3,
+      "text": "Eyüp de Yehova’ya şöyle karşılık verdi:"
+    },
+    {
+      "v": 4,
+      "text": "“Evet, ben bir hiçim.Sana ne cevap vereyim?Elimi ağzıma kapadım."
+    },
+    {
+      "v": 5,
+      "text": "Bir kez konuştum, bir daha cevap vermem;İkinci kez de söylediklerime bir söz daha eklemem.”"
+    },
+    {
+      "v": 6,
+      "text": "Yehova kasırganın içinden Eyüp’e şöyle dedi:"
+    },
+    {
+      "v": 7,
+      "text": "“Haydi dola kuşağını beline, erkek gibi;Sana sorayım da Bana anlat."
+    },
+    {
+      "v": 8,
+      "text": "Adaletime gölge mi düşüreceksin?Haklı çıkmak için Beni kötülemeye mi kalkıyorsun?"
+    },
+    {
+      "v": 9,
+      "text": "Senin kolun Tanrı’nınki gibi güçlü mü?Sesin O’nunki gibi gürleyebilir mi?"
+    },
+    {
+      "v": 10,
+      "text": "Haydi, haşmet ve yücelikle donat kendini;İtibar ve görkem seni sarsın."
+    },
+    {
+      "v": 11,
+      "text": "Öfkeden ateş püskür,Tüm kibirlileri gör, aşağıla onları."
+    },
+    {
+      "v": 12,
+      "text": "Tüm kibirlileri gör de gururlarını kır,Kötüleri oldukları yerde ez."
+    },
+    {
+      "v": 13,
+      "text": "Hepsini birden toprağa göm,Gizli yerde yüzlerini sar."
+    },
+    {
+      "v": 14,
+      "text": "O zaman Ben de seni överim,Sağ elinle kendini kurtarabilirsin derim."
+    },
+    {
+      "v": 15,
+      "text": "Suaygırına bak; senin gibi onu da Ben yarattım.Tıpkı boğa gibi yeşil ot yer."
+    },
+    {
+      "v": 16,
+      "text": "Kuvveti sağrısında,Muazzam gücü karın kaslarındadır."
+    },
+    {
+      "v": 17,
+      "text": "Kuyruğunu sedir ağacı gibi eğer;Uyluk lifleri sımsıkı örülüdür."
+    },
+    {
+      "v": 18,
+      "text": "Kemikleri bakır borulardır;Güçlü kemikleri de dövme demirden çubuklar."
+    },
+    {
+      "v": 19,
+      "text": "Tanrı’nın eserleri arasında ilk sırada yer alır;Yalnızca Yaratıcısı kılıçla üzerine gidebilir."
+    },
+    {
+      "v": 20,
+      "text": "Dağlar onun için ürün verir,Ve tüm yaban hayvanları oralarda oynaşır."
+    },
+    {
+      "v": 21,
+      "text": "Dikenli hünnap ağaçlarının altında,Kamışlıkların kuytularında ve bataklıklarda serilip yatar."
+    },
+    {
+      "v": 22,
+      "text": "Hünnap ağaçları onu gölgeler,Vadideki kavaklar onu çevreler."
+    },
+    {
+      "v": 23,
+      "text": "Nehir suları azgınlaşsa da, korkup kaçmaz,Ürdün Irmağı kabarıp yüzüne çarpsa da kendinden emindir."
+    },
+    {
+      "v": 24,
+      "text": "Gözleri açıkken kim onu tutabilir?Kim kancayla burnunu delebilir?”"
+    }
+  ]
+}

@@ -1,1 +1,100 @@
-{"t": "NWT2008", "b": "PRO", "c": 18, "content": [{"v": 1, "text": "Kendini toplumdan ayıran bencil arzularının peşine düşer; her hikmetli söze karşı çıkar."}, {"v": 2, "text": "Akılsıza zevk veren, doğruyu yanlışı ayırt etmek değil, kendi içindekini ortaya dökmektir."}, {"v": 3, "text": "Kötü adamın girdiği yere rezillik de girer; rezaletin olduğu yerde utanç da vardır."}, {"v": 4, "text": "İnsanın ağzından dökülen sözler derin sulardır. Hikmet pınarı da coşkun bir akarsudur."}, {"v": 5, "text": "Kötüyü kayırmak da, doğru insandan adaleti esirgemek de iyi değildir."}, {"v": 6, "text": "Akılsızın dili kavga çıkarır, ağzı da dayağı davet eder."}, {"v": 7, "text": "Akılsızın kendi ağzı yıkımını getirir, kendi dili canına tuzak olur."}, {"v": 8, "text": "İftiracının sözleri iştahla yutulan lokmalar gibidir; karna girer, en derine inerler."}, {"v": 9, "text": "İşinde gevşek davranan da yıkım getirenin kardeşidir."}, {"v": 10, "text": "Yehova ismi güçlü kuledir; doğru insan onun içine koşar ve korunur."}, {"v": 11, "text": "Zenginin değerli malları onun güçlü kentidir; hayalinde onlar koruyucu bir sur gibidir."}, {"v": 12, "text": "Mağrur yürek yıkım getirir; alçakgönüllülük ise saygınlık kazandırır."}, {"v": 13, "text": "Dinlemeden cevap vermek akılsızlık ve utançtır."}, {"v": 14, "text": "İnsanın ruhu güçlüyse hastalığına katlanabilir; fakat ezik ruha kim dayanabilir?"}, {"v": 15, "text": "Anlayışlı insanın yüreği bilgi edinir, hikmetlinin kulağı bilginin peşindedir."}, {"v": 16, "text": "İnsanın hediyesi kendisine yer açar, onu büyük adamların önüne çıkartır."}, {"v": 17, "text": "Davasında ilk konuşan haklı görünür; sonra başkası çıkıp onu sorgular."}, {"v": 18, "text": "Kura, çekişmeleri durdurur, güçlüleri birbirinden ayırır."}, {"v": 19, "text": "Gücendirilmiş kardeş surlu kentten daha zor kazanılır; öyle çekişmeler vardır ki, kale kapısının sürgüsü gibidir."}, {"v": 20, "text": "Dilinin meyvesi insanın karnını doyurur, dudaklarının ürünü ona doyum sağlar."}, {"v": 21, "text": "Ölüm ve hayat dilin elindedir; onu seven meyvesini yer."}, {"v": 22, "text": "İyi eş bulan adam iyilik bulur, Yehova’dan lütuf görür."}, {"v": 23, "text": "Yoksul sözünü yalvararak söyler; zengin ise sert karşılık verir."}, {"v": 24, "text": "Öyle arkadaşlar vardır ki, birbirini paralamaya hazırdır; öyle dost vardır ki, kardeşten de yakındır."}]}
+{
+  "content": [
+    {
+      "v": 1,
+      "text": "Kendini toplumdan ayıran bencil arzularının peşine düşer; her hikmetli söze karşı çıkar."
+    },
+    {
+      "v": 2,
+      "text": "Akılsıza zevk veren, doğruyu yanlışı ayırt etmek değil, kendi içindekini ortaya dökmektir."
+    },
+    {
+      "v": 3,
+      "text": "Kötü adamın girdiği yere rezillik de girer; rezaletin olduğu yerde utanç da vardır."
+    },
+    {
+      "v": 4,
+      "text": "İnsanın ağzından dökülen sözler derin sulardır. Hikmet pınarı da coşkun bir akarsudur."
+    },
+    {
+      "v": 5,
+      "text": "Kötüyü kayırmak da, doğru insandan adaleti esirgemek de iyi değildir."
+    },
+    {
+      "v": 6,
+      "text": "Akılsızın dili kavga çıkarır, ağzı da dayağı davet eder."
+    },
+    {
+      "v": 7,
+      "text": "Akılsızın kendi ağzı yıkımını getirir, kendi dili canına tuzak olur."
+    },
+    {
+      "v": 8,
+      "text": "İftiracının sözleri iştahla yutulan lokmalar gibidir; karna girer, en derine inerler."
+    },
+    {
+      "v": 9,
+      "text": "İşinde gevşek davranan da yıkım getirenin kardeşidir."
+    },
+    {
+      "v": 10,
+      "text": "Yehova ismi güçlü kuledir; doğru insan onun içine koşar ve korunur."
+    },
+    {
+      "v": 11,
+      "text": "Zenginin değerli malları onun güçlü kentidir; hayalinde onlar koruyucu bir sur gibidir."
+    },
+    {
+      "v": 12,
+      "text": "Mağrur yürek yıkım getirir; alçakgönüllülük ise saygınlık kazandırır."
+    },
+    {
+      "v": 13,
+      "text": "Dinlemeden cevap vermek akılsızlık ve utançtır."
+    },
+    {
+      "v": 14,
+      "text": "İnsanın ruhu güçlüyse hastalığına katlanabilir; fakat ezik ruha kim dayanabilir?"
+    },
+    {
+      "v": 15,
+      "text": "Anlayışlı insanın yüreği bilgi edinir, hikmetlinin kulağı bilginin peşindedir."
+    },
+    {
+      "v": 16,
+      "text": "İnsanın hediyesi kendisine yer açar, onu büyük adamların önüne çıkartır."
+    },
+    {
+      "v": 17,
+      "text": "Davasında ilk konuşan haklı görünür; sonra başkası çıkıp onu sorgular."
+    },
+    {
+      "v": 18,
+      "text": "Kura, çekişmeleri durdurur, güçlüleri birbirinden ayırır."
+    },
+    {
+      "v": 19,
+      "text": "Gücendirilmiş kardeş surlu kentten daha zor kazanılır; öyle çekişmeler vardır ki, kale kapısının sürgüsü gibidir."
+    },
+    {
+      "v": 20,
+      "text": "Dilinin meyvesi insanın karnını doyurur, dudaklarının ürünü ona doyum sağlar."
+    },
+    {
+      "v": 21,
+      "text": "Ölüm ve hayat dilin elindedir; onu seven meyvesini yer."
+    },
+    {
+      "v": 22,
+      "text": "İyi eş bulan adam iyilik bulur, Yehova’dan lütuf görür."
+    },
+    {
+      "v": 23,
+      "text": "Yoksul sözünü yalvararak söyler; zengin ise sert karşılık verir."
+    },
+    {
+      "v": 24,
+      "text": "Öyle arkadaşlar vardır ki, birbirini paralamaya hazırdır; öyle dost vardır ki, kardeşten de yakındır."
+    }
+  ]
+}

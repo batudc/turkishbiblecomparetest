@@ -1,0 +1,31 @@
+{
+  "t": "NET",
+  "b": "PSA",
+  "c": 23,
+  "content": [
+    {
+      "v": 1,
+      "text": "The Lord is my shepherd,\nI lack nothing."
+    },
+    {
+      "v": 2,
+      "text": "He takes me to lush pastures,\nhe leads me to refreshing water."
+    },
+    {
+      "v": 3,
+      "text": "He restores my strength.\nHe leads me down the right paths\nfor the sake of his reputation."
+    },
+    {
+      "v": 4,
+      "text": "Even when I must walk through the darkest valley,\nI fear no danger,\nfor you are with me;\nyour rod and your staff reassure me."
+    },
+    {
+      "v": 5,
+      "text": "You prepare a feast before me\nin plain sight of my enemies.\nYou refresh my head with oil;\nmy cup is completely full."
+    },
+    {
+      "v": 6,
+      "text": "Surely your goodness and faithfulness will pursue me all my days,\nand I will live in the Lord’s house for the rest of my life."
+    }
+  ]
+}

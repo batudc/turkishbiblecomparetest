@@ -1,1 +1,72 @@
-{"t": "NWT2008", "b": "JER", "c": 12, "content": [{"v": 1, "text": "Ey Yehova Sen adilsin; Sana şikâyette bulunduğumda, hükümlerin konusunda Seninle konuştuğumda, Sen hep adil davrandın. Ama neden kötülerin işi iyi gidiyor? Neden hainlik edenler hep tasasız?"}, {"v": 2, "text": "Onları Sen diktin; onlar da kök saldı. Serpildiler, meyve de verdiler. Sen hep onların ağzındasın ama gönüllerinden çok uzaksın."}, {"v": 3, "text": "Ey Yehova, beni iyi tanıyorsun, beni görüyorsun; yüreğimi araştırdın, Sana bağlı olup olmadığını gördün. Kesimlik koyun gibi seçip ayır onları; kıyım günü için bir kenara ayır."}, {"v": 4, "text": "Ne zamana kadar ülke böyle mahvolacak, kırlardaki bitkiler kuruyacak? İçinde yaşayanların kötülüğü yüzünden hayvanlar, kuşlar yok olup gitti. Çünkü “O başımıza gelecekleri görmüyor” dediler."}, {"v": 5, "text": "Yayalarla koştuğunda yoruldunsa, atlarla nasıl yarışabilirsin? Kendini ancak barış diyarında güvende hissediyorsan, Ürdün Irmağı boyunca uzanan mağrur çalılar arasında ne yapacaksın?"}, {"v": 6, "text": "Çünkü öz kardeşlerin, babanın ev halkı bile sana ihanet etti. Onlar bile arkandan bağırdı. Sırf sana güzel sözler söylüyorlar diye onlara kanma."}, {"v": 7, "text": "“Evimi terk ettim, Kendi halkımı bıraktım, candan sevdiğimi düşmanının eline verdim."}, {"v": 8, "text": "Kendi halkım Benim için ormandaki aslan gibi oldu. Ağzını açıp Bana kükredi. Bu yüzden ondan nefret ettim."}, {"v": 9, "text": "Halkım Benim gözümde rengârenk bir yırtıcı kuş gibi. Başka yırtıcı kuşlar tepesine üşüşmüş. Ey bütün yaban hayvanları gelin, onu yemek için bir araya toplanın."}, {"v": 10, "text": "Çobanlar bağımı harap etti; payımı ayak altına aldı. Benim payım olan güzel toprağı ıssız bir çöle çevirdi."}, {"v": 11, "text": "O viran edildi, mahvedildi, karşımda ıssız duruyor. Bütün ülke viraneye dönmüş, çünkü aldıran yok."}, {"v": 12, "text": "Çölden geçen bütün yollarda yağmacılar kol geziyor. Yehova’nın kılıcı ülkeyi bir uçtan bir uca yiyip bitiriyor. Hiçbir canlıya rahat yüzü yok."}, {"v": 13, "text": "Buğday ekmişlerdi, ama diken biçiyorlar. Ölesiye çalışmışlardı, ama yararını görmüyorlar. Yehova’nın yakıcı öfkesi yüzünden, ürünlerinden utanacaklar.”"}, {"v": 14, "text": "“Ben Yehova, halkım İsrail’e miras olarak verdiğim mülke el uzatan bütün kötü komşularım hakkında şunları diyorum: Onları topraklarından söküp atacağım; ortalarından Yahuda evini de sökeceğim."}, {"v": 15, "text": "Ve öyle olacak ki, onları yerlerinden söküp attıktan sonra kendilerine yine merhamet göstereceğim, her birini ülkesine, mirası olan topraklara döndüreceğim.”"}, {"v": 16, "text": "“Ve öyle olacak ki, onlar halkıma eskiden Baal adıyla yemin etmeyi öğrettikleri gibi, bu kez de kendileri halkımın yolunda yürümeyi ve ‘Yehova’nın hakkı için’ diyerek Benim adımla yemin etmeyi öğrenirlerse, halkımın arasında yer edinecekler."}, {"v": 17, "text": "Öte yandan söz dinlemezlerse Ben bu milleti de söküp atacağım. Onu yerinden söküp yok edeceğim.” Yehova’nın sözü."}]}
+{
+  "content": [
+    {
+      "v": 1,
+      "text": "Ey Yehova Sen adilsin; Sana şikâyette bulunduğumda, hükümlerin konusunda Seninle konuştuğumda, Sen hep adil davrandın. Ama neden kötülerin işi iyi gidiyor? Neden hainlik edenler hep tasasız?"
+    },
+    {
+      "v": 2,
+      "text": "Onları Sen diktin; onlar da kök saldı. Serpildiler, meyve de verdiler. Sen hep onların ağzındasın ama gönüllerinden çok uzaksın."
+    },
+    {
+      "v": 3,
+      "text": "Ey Yehova, beni iyi tanıyorsun, beni görüyorsun; yüreğimi araştırdın, Sana bağlı olup olmadığını gördün. Kesimlik koyun gibi seçip ayır onları; kıyım günü için bir kenara ayır."
+    },
+    {
+      "v": 4,
+      "text": "Ne zamana kadar ülke böyle mahvolacak, kırlardaki bitkiler kuruyacak? İçinde yaşayanların kötülüğü yüzünden hayvanlar, kuşlar yok olup gitti. Çünkü “O başımıza gelecekleri görmüyor” dediler."
+    },
+    {
+      "v": 5,
+      "text": "Yayalarla koştuğunda yoruldunsa, atlarla nasıl yarışabilirsin? Kendini ancak barış diyarında güvende hissediyorsan, Ürdün Irmağı boyunca uzanan mağrur çalılar arasında ne yapacaksın?"
+    },
+    {
+      "v": 6,
+      "text": "Çünkü öz kardeşlerin, babanın ev halkı bile sana ihanet etti. Onlar bile arkandan bağırdı. Sırf sana güzel sözler söylüyorlar diye onlara kanma."
+    },
+    {
+      "v": 7,
+      "text": "“Evimi terk ettim, Kendi halkımı bıraktım, candan sevdiğimi düşmanının eline verdim."
+    },
+    {
+      "v": 8,
+      "text": "Kendi halkım Benim için ormandaki aslan gibi oldu. Ağzını açıp Bana kükredi. Bu yüzden ondan nefret ettim."
+    },
+    {
+      "v": 9,
+      "text": "Halkım Benim gözümde rengârenk bir yırtıcı kuş gibi. Başka yırtıcı kuşlar tepesine üşüşmüş. Ey bütün yaban hayvanları gelin, onu yemek için bir araya toplanın."
+    },
+    {
+      "v": 10,
+      "text": "Çobanlar bağımı harap etti; payımı ayak altına aldı. Benim payım olan güzel toprağı ıssız bir çöle çevirdi."
+    },
+    {
+      "v": 11,
+      "text": "O viran edildi, mahvedildi, karşımda ıssız duruyor. Bütün ülke viraneye dönmüş, çünkü aldıran yok."
+    },
+    {
+      "v": 12,
+      "text": "Çölden geçen bütün yollarda yağmacılar kol geziyor. Yehova’nın kılıcı ülkeyi bir uçtan bir uca yiyip bitiriyor. Hiçbir canlıya rahat yüzü yok."
+    },
+    {
+      "v": 13,
+      "text": "Buğday ekmişlerdi, ama diken biçiyorlar. Ölesiye çalışmışlardı, ama yararını görmüyorlar. Yehova’nın yakıcı öfkesi yüzünden, ürünlerinden utanacaklar.”"
+    },
+    {
+      "v": 14,
+      "text": "“Ben Yehova, halkım İsrail’e miras olarak verdiğim mülke el uzatan bütün kötü komşularım hakkında şunları diyorum: Onları topraklarından söküp atacağım; ortalarından Yahuda evini de sökeceğim."
+    },
+    {
+      "v": 15,
+      "text": "Ve öyle olacak ki, onları yerlerinden söküp attıktan sonra kendilerine yine merhamet göstereceğim, her birini ülkesine, mirası olan topraklara döndüreceğim.”"
+    },
+    {
+      "v": 16,
+      "text": "“Ve öyle olacak ki, onlar halkıma eskiden Baal adıyla yemin etmeyi öğrettikleri gibi, bu kez de kendileri halkımın yolunda yürümeyi ve ‘Yehova’nın hakkı için’ diyerek Benim adımla yemin etmeyi öğrenirlerse, halkımın arasında yer edinecekler."
+    },
+    {
+      "v": 17,
+      "text": "Öte yandan söz dinlemezlerse Ben bu milleti de söküp atacağım. Onu yerinden söküp yok edeceğim.” Yehova’nın sözü."
+    }
+  ]
+}

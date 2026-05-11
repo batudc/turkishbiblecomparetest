@@ -1,0 +1,27 @@
+{
+  "t": "NLT",
+  "b": "PSA",
+  "c": 100,
+  "content": [
+    {
+      "v": 1,
+      "text": "Shout with joy to the Lord, all the earth!"
+    },
+    {
+      "v": 2,
+      "text": "Worship the Lord with gladness.\n    Come before him, singing with joy."
+    },
+    {
+      "v": 3,
+      "text": "Acknowledge that the Lord is God!\n    He made us, and we are his.\n    We are his people, the sheep of his pasture."
+    },
+    {
+      "v": 4,
+      "text": "Enter his gates with thanksgiving;\n    go into his courts with praise.\n    Give thanks to him and praise his name."
+    },
+    {
+      "v": 5,
+      "text": "For the Lord is good.\n    His unfailing love continues forever,\n    and his faithfulness continues to each generation."
+    }
+  ]
+}

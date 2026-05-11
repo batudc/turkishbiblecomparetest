@@ -1,1 +1,140 @@
-{"t": "NWT2008", "b": "JOB", "c": 21, "content": [{"v": 1, "text": "Bunun üzerine Eyüp söze başladı:"}, {"v": 2, "text": "“Dediklerimi dikkatle dinleyin, Teselliniz bu olsun."}, {"v": 3, "text": "Alaylarınızı sonraya saklayın, Bana biraz katlanın da konuşayım;"}, {"v": 4, "text": "Ben derdimi insana mı anlatıyorum? Öyle olsa sabrım tükenmez miydi?"}, {"v": 5, "text": "Bana bakın da şaşıp kalın, Elinizi ağzınıza kapayın."}, {"v": 6, "text": "Aklıma geldikçe huzursuz oluyorum, Bedenimi ürperti kaplıyor."}, {"v": 7, "text": "Neden kötü insan uzun yaşar, Yaşına yaş, servetine servet katar?"}, {"v": 8, "text": "Evlatları sapasağlam karşısında, Torunları da gözlerinin önündedir."}, {"v": 9, "text": "Evi dehşetten uzak, huzur içindedir; Tanrı’nın sopası tepesine inmez."}, {"v": 10, "text": "Boğası çiftleşir, dölü boşa gitmez; İneği doğurur, düşük yapmaz."}, {"v": 11, "text": "Çocuklarını sokağa sürü gibi salar, Oğulları dışarıda hoplayıp zıplar."}, {"v": 12, "text": "Tef ve lir eşliğinde şarkı söylerler, Kaval sesiyle gülüp eğlenirler."}, {"v": 13, "text": "Kötü insanlar gününü gün eder, Ve ölüler diyarına bir anda inerler."}, {"v": 14, "text": "Tanrı’ya ‘Bizden uzak dur!’ derler, ‘Senin yolunu öğrenmenin ne zevki var?"}, {"v": 15, "text": "Mutlak Gücün Sahibi kim ki, O’na kulluk edelim, O’na yakarsak ne kazancımız olur?’"}, {"v": 16, "text": "Oysa refahları kendi ellerinde değil. Kötülerin tasarıları benden uzak olsun."}, {"v": 17, "text": "Sorarım size, kaç kere kötünün ışığı söndü, Kaç kere başına felaket geldi? Tanrı kaç kere öfkelenip kötüyü mahvetti?"}, {"v": 18, "text": "Rüzgârın önüne kattığı çöpe, Fırtınanın alıp götürdüğü samana hiç benzedi mi?"}, {"v": 19, "text": "Tanrı onun hainliğinin acısını oğullarından çıkaracak, Anlasın diye ona karşılığını verecek."}, {"v": 20, "text": "Çöküşünü kendi gözleriyle görecek, Mutlak Gücün Sahibinin öfkesini tadacak."}, {"v": 21, "text": "Ömrünün ayları yarıda kesilince, Göçüp gidince, ailesinden nasıl sevinç duyacak?"}, {"v": 22, "text": "Yüksektekileri yargılayana, Tanrı’ya akıl mı öğretecek?"}, {"v": 23, "text": "Bu adam ölürken bir şeye muhtaç değildir, Kaygısız ve huzur içindedir;"}, {"v": 24, "text": "Eti budu yerindedir, Kemikleri ilik doludur."}, {"v": 25, "text": "Ötekininse, boğazından güzel bir lokma geçmemiştir, Yüreği buruk ölür."}, {"v": 26, "text": "Onlar toprakta birlikte yatar, Üzerlerini kurtlar kaplar."}, {"v": 27, "text": "Bakın, ne düşündüğünüzü iyi biliyorum, Canımı yakmak için kurduğunuz düzenleri de."}, {"v": 28, "text": "Diyorsunuz ki, ‘Soylu kişinin evi nerede, Nerede kötünün çadırı, mekânı?’"}, {"v": 29, "text": "Yollar aşıp gelenlere sormadınız mı? Anlattıklarını dikkatle dinlemediniz mi?"}, {"v": 30, "text": "Felaket gününde kötünün esirgendiğini, Gazap gününde kurtulduğunu anlatmadılar mı?"}, {"v": 31, "text": "Yolunun yanlış olduğunu kim yüzüne vurur? Yaptığını ona kim ödetir?"}, {"v": 32, "text": "Evet, o mezarına taşınır, Kabri başında da nöbet tutulur."}, {"v": 33, "text": "Vadinin toprağı ona hoş gelir, Tüm insanları peşinden sürükler, Önü sıra gidenlerinse haddi hesabı yoktur."}, {"v": 34, "text": "Teselli çabalarınız ne kadar boş, Cevaplarınız ne kadar haince!”"}]}
+{
+  "content": [
+    {
+      "v": 1,
+      "text": "Bunun üzerine Eyüp söze başladı:"
+    },
+    {
+      "v": 2,
+      "text": "“Dediklerimi dikkatle dinleyin,Teselliniz bu olsun."
+    },
+    {
+      "v": 3,
+      "text": "Alaylarınızı sonraya saklayın,Bana biraz katlanın da konuşayım;"
+    },
+    {
+      "v": 4,
+      "text": "Ben derdimi insana mı anlatıyorum?Öyle olsa sabrım tükenmez miydi?"
+    },
+    {
+      "v": 5,
+      "text": "Bana bakın da şaşıp kalın,Elinizi ağzınıza kapayın."
+    },
+    {
+      "v": 6,
+      "text": "Aklıma geldikçe huzursuz oluyorum,Bedenimi ürperti kaplıyor."
+    },
+    {
+      "v": 7,
+      "text": "Neden kötü insan uzun yaşar,Yaşına yaş, servetine servet katar?"
+    },
+    {
+      "v": 8,
+      "text": "Evlatları sapasağlam karşısında,Torunları da gözlerinin önündedir."
+    },
+    {
+      "v": 9,
+      "text": "Evi dehşetten uzak, huzur içindedir;Tanrı’nın sopası tepesine inmez."
+    },
+    {
+      "v": 10,
+      "text": "Boğası çiftleşir, dölü boşa gitmez;İneği doğurur, düşük yapmaz."
+    },
+    {
+      "v": 11,
+      "text": "Çocuklarını sokağa sürü gibi salar,Oğulları dışarıda hoplayıp zıplar."
+    },
+    {
+      "v": 12,
+      "text": "Tef ve lir eşliğinde şarkı söylerler,Kaval sesiyle gülüp eğlenirler."
+    },
+    {
+      "v": 13,
+      "text": "Kötü insanlar gününü gün eder,Ve ölüler diyarına bir anda inerler."
+    },
+    {
+      "v": 14,
+      "text": "Tanrı’ya ‘Bizden uzak dur!’ derler,‘Senin yolunu öğrenmenin ne zevki var?"
+    },
+    {
+      "v": 15,
+      "text": "Mutlak Gücün Sahibi kim ki, O’na kulluk edelim,O’na yakarsak ne kazancımız olur?’"
+    },
+    {
+      "v": 16,
+      "text": "Oysa refahları kendi ellerinde değil.Kötülerin tasarıları benden uzak olsun."
+    },
+    {
+      "v": 17,
+      "text": "Sorarım size, kaç kere kötünün ışığı söndü,Kaç kere başına felaket geldi?Tanrı kaç kere öfkelenip kötüyü mahvetti?"
+    },
+    {
+      "v": 18,
+      "text": "Rüzgârın önüne kattığı çöpe,Fırtınanın alıp götürdüğü samana hiç benzedi mi?"
+    },
+    {
+      "v": 19,
+      "text": "Tanrı onun hainliğinin acısını oğullarından çıkaracak,Anlasın diye ona karşılığını verecek."
+    },
+    {
+      "v": 20,
+      "text": "Çöküşünü kendi gözleriyle görecek,Mutlak Gücün Sahibinin öfkesini tadacak."
+    },
+    {
+      "v": 21,
+      "text": "Ömrünün ayları yarıda kesilince,Göçüp gidince, ailesinden nasıl sevinç duyacak?"
+    },
+    {
+      "v": 22,
+      "text": "Yüksektekileri yargılayana,Tanrı’ya akıl mı öğretecek?"
+    },
+    {
+      "v": 23,
+      "text": "Bu adam ölürken bir şeye muhtaç değildir,Kaygısız ve huzur içindedir;"
+    },
+    {
+      "v": 24,
+      "text": "Eti budu yerindedir,Kemikleri ilik doludur."
+    },
+    {
+      "v": 25,
+      "text": "Ötekininse, boğazından güzel bir lokma geçmemiştir,Yüreği buruk ölür."
+    },
+    {
+      "v": 26,
+      "text": "Onlar toprakta birlikte yatar,Üzerlerini kurtlar kaplar."
+    },
+    {
+      "v": 27,
+      "text": "Bakın, ne düşündüğünüzü iyi biliyorum,Canımı yakmak için kurduğunuz düzenleri de."
+    },
+    {
+      "v": 28,
+      "text": "Diyorsunuz ki, ‘Soylu kişinin evi nerede,Nerede kötünün çadırı, mekânı?’"
+    },
+    {
+      "v": 29,
+      "text": "Yollar aşıp gelenlere sormadınız mı?Anlattıklarını dikkatle dinlemediniz mi?"
+    },
+    {
+      "v": 30,
+      "text": "Felaket gününde kötünün esirgendiğini,Gazap gününde kurtulduğunu anlatmadılar mı?"
+    },
+    {
+      "v": 31,
+      "text": "Yolunun yanlış olduğunu kim yüzüne vurur?Yaptığını ona kim ödetir?"
+    },
+    {
+      "v": 32,
+      "text": "Evet, o mezarına taşınır,Kabri başında da nöbet tutulur."
+    },
+    {
+      "v": 33,
+      "text": "Vadinin toprağı ona hoş gelir,Tüm insanları peşinden sürükler,Önü sıra gidenlerinse haddi hesabı yoktur."
+    },
+    {
+      "v": 34,
+      "text": "Teselli çabalarınız ne kadar boş,Cevaplarınız ne kadar haince!”"
+    }
+  ]
+}

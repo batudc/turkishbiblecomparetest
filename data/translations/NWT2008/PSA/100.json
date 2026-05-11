@@ -1,1 +1,24 @@
-{"t": "NWT2008", "b": "PSA", "c": 100, "content": [{"v": 1, "text": "Ey bütün dünya, zafer haykırışlarıyla seslenin Yehova’ya."}, {"v": 2, "text": "Yehova’ya sevinçle kulluk edin, O’nun huzuruna sevinç nidalarıyla girin."}, {"v": 3, "text": "Bilin ki Yehova Tanrı’dır. Bizi O yarattı, kendimiz değil; Biz O’nun halkı, otlağının koyunlarıyız."}, {"v": 4, "text": "O’nun kapılarına şükranla, Avlularına övgülerle girin, O’na şükredin, adını yüceltin."}, {"v": 5, "text": "Çünkü Yehova iyidir; Vefalı sevgisi sonsuzdur Ve sadakati nesiller boyu sürer."}]}
+{
+  "content": [
+    {
+      "v": 1,
+      "text": "Ey bütün dünya, zafer haykırışlarıyla seslenin Yehova’ya."
+    },
+    {
+      "v": 2,
+      "text": "Yehova’ya sevinçle kulluk edin,O’nun huzuruna sevinç nidalarıyla girin."
+    },
+    {
+      "v": 3,
+      "text": "Bilin ki Yehova Tanrı’dır.Bizi O yarattı, kendimiz değil;Biz O’nun halkı, otlağının koyunlarıyız."
+    },
+    {
+      "v": 4,
+      "text": "O’nun kapılarına şükranla,Avlularına övgülerle girin,O’na şükredin, adını yüceltin."
+    },
+    {
+      "v": 5,
+      "text": "Çünkü Yehova iyidir;Vefalı sevgisi sonsuzdurVe sadakati nesiller boyu sürer."
+    }
+  ]
+}

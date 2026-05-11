@@ -1,1 +1,84 @@
-{"t": "NWT2008", "b": "PSA", "c": 66, "content": [{"v": 1, "text": "Ey bütün dünya, sevincinizi haykırın Tanrı’ya."}, {"v": 2, "text": "O’nun ismini yücelten ilahiler söyleyin, O’nu övgülerle yüceltin."}, {"v": 3, "text": "Tanrı’ya “İşlerin ne muhteşem!” deyin, “Büyük gücünden ötürü düşmanların ayaklarına kapanacak."}, {"v": 4, "text": "Bütün dünya Senin önünde eğilecek Ve Sana ilahi söyleyecek, ismine ilahiler.” ( Selah )"}, {"v": 5, "text": "Gelin, Tanrı’nın yaptıklarını görün. İnsanlar arasında ne muhteşem işler yaptı."}, {"v": 6, "text": "Denizi kuru toprağa çevirdi; Irmak içinden yürüyerek geçtiler. Ve biz orada O’nunla sevinç bulduk."}, {"v": 7, "text": "O kudretiyle devirler boyu saltanat sürer. Gözleri milletler üzerindedir. Bu yüzden, dik başlılar büyüklenmesin. ( Selah )"}, {"v": 8, "text": "Ey halklar, Tanrımıza şükredin, Övgülerinizi O’na işittirin."}, {"v": 9, "text": "Çünkü canımızı hayatta tutan O’dur, Ayaklarımızın kaymasına izin vermez."}, {"v": 10, "text": "Bizi sınadın ey Tanrım, Gümüş arıtır gibi arıttın."}, {"v": 11, "text": "Bizi avcının ağına düşürdün, Sırtımıza ağır bir yük verdin."}, {"v": 12, "text": "Ölümlü insanı tepemize bindirdin, Ateşlerden, sulardan geçtik, Ve sonra bizi rahata erdirdin."}, {"v": 13, "text": "Senin evine yakılan sunularla geleceğim, Sana adadığım adakları yerine getireceğim,"}, {"v": 14, "text": "Dudaklarımdan dökülen adakları, Sıkıntıdayken ağzımdan çıkanları."}, {"v": 15, "text": "Yakılan sunu olarak Sana besili hayvanlar, Kurban ettiğim koçlardan tüten dumanı sunacağım. Boğayla tekeler vereceğim. ( Selah )"}, {"v": 16, "text": "Gelin Tanrı’dan korkanlar, dinleyin, Benim için neler yaptığını anlatayım."}, {"v": 17, "text": "Ağzımı açıp O’na seslendim, Dilimden dökülen övgülerle O’nu yücelttim."}, {"v": 18, "text": "Yüreğimden hainlik geçirseydim, Yehova beni işitmezdi."}, {"v": 19, "text": "Oysa Tanrı sesimi işitti; Dualarıma kulak verdi."}, {"v": 20, "text": "Tanrı’ya şükürler olsun, duamı geri çevirmedi, Vefalı sevgisini benden esirgemedi."}]}
+{
+  "content": [
+    {
+      "v": 1,
+      "text": "Ey bütün dünya, sevincinizi haykırın Tanrı’ya."
+    },
+    {
+      "v": 2,
+      "text": "O’nun ismini yücelten ilahiler söyleyin,O’nu övgülerle yüceltin."
+    },
+    {
+      "v": 3,
+      "text": "Tanrı’ya “İşlerin ne muhteşem!” deyin,“Büyük gücünden ötürü düşmanların ayaklarına kapanacak."
+    },
+    {
+      "v": 4,
+      "text": "Bütün dünya Senin önünde eğilecekVe Sana ilahi söyleyecek, ismine ilahiler.” (Selah)"
+    },
+    {
+      "v": 5,
+      "text": "Gelin, Tanrı’nın yaptıklarını görün.İnsanlar arasında ne muhteşem işler yaptı."
+    },
+    {
+      "v": 6,
+      "text": "Denizi kuru toprağa çevirdi;Irmak içinden yürüyerek geçtiler.Ve biz orada O’nunla sevinç bulduk."
+    },
+    {
+      "v": 7,
+      "text": "O kudretiyle devirler boyu saltanat sürer.Gözleri milletler üzerindedir.Bu yüzden, dik başlılar büyüklenmesin. (Selah)"
+    },
+    {
+      "v": 8,
+      "text": "Ey halklar, Tanrımıza şükredin,Övgülerinizi O’na işittirin."
+    },
+    {
+      "v": 9,
+      "text": "Çünkü canımızı hayatta tutan O’dur,Ayaklarımızın kaymasına izin vermez."
+    },
+    {
+      "v": 10,
+      "text": "Bizi sınadın ey Tanrım,Gümüş arıtır gibi arıttın."
+    },
+    {
+      "v": 11,
+      "text": "Bizi avcının ağına düşürdün,Sırtımıza ağır bir yük verdin."
+    },
+    {
+      "v": 12,
+      "text": "Ölümlü insanı tepemize bindirdin,Ateşlerden, sulardan geçtik,Ve sonra bizi rahata erdirdin."
+    },
+    {
+      "v": 13,
+      "text": "Senin evine yakılan sunularla geleceğim,Sana adadığım adakları yerine getireceğim,"
+    },
+    {
+      "v": 14,
+      "text": "Dudaklarımdan dökülen adakları,Sıkıntıdayken ağzımdan çıkanları."
+    },
+    {
+      "v": 15,
+      "text": "Yakılan sunu olarak Sana besili hayvanlar,Kurban ettiğim koçlardan tüten dumanı sunacağım.Boğayla tekeler vereceğim. (Selah)"
+    },
+    {
+      "v": 16,
+      "text": "Gelin Tanrı’dan korkanlar, dinleyin,Benim için neler yaptığını anlatayım."
+    },
+    {
+      "v": 17,
+      "text": "Ağzımı açıp O’na seslendim,Dilimden dökülen övgülerle O’nu yücelttim."
+    },
+    {
+      "v": 18,
+      "text": "Yüreğimden hainlik geçirseydim,Yehova beni işitmezdi."
+    },
+    {
+      "v": 19,
+      "text": "Oysa Tanrı sesimi işitti;Dualarıma kulak verdi."
+    },
+    {
+      "v": 20,
+      "text": "Tanrı’ya şükürler olsun, duamı geri çevirmedi,Vefalı sevgisini benden esirgemedi."
+    }
+  ]
+}

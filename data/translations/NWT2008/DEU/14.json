@@ -1,1 +1,120 @@
-{"t": "NWT2008", "b": "DEU", "c": 14, "content": [{"v": 1, "text": "“Siz Tanrınız Yehova’nın oğullarısınız. Ölü için bedeninizde yara açmayacak, kaşlarınızı yolmayacaksınız."}, {"v": 2, "text": "Çünkü Tanrın Yehova için kutsal bir halksın, Yehova yeryüzündeki tüm halklar arasından seni Kendine ait bir halk, Kendi özel halkı olman için seçti."}, {"v": 3, "text": "İğrenç sayılan hiçbir şeyi yemeyeceksin."}, {"v": 4, "text": "Yiyebileceğin hayvan türleri şunlardır: Sığır, koyun, keçi,"}, {"v": 5, "text": "geyik, ceylan, karaca, yaban keçisi, antilop, yaban koyunu ve dağ keçisi;"}, {"v": 6, "text": "geviş getiren her çift toynaklı hayvan. Bunları yiyebilirsiniz."}, {"v": 7, "text": "Ancak geviş getiren ya da çift toynaklı hayvanlardan şu türleri yemeyeceksiniz: Deve, tavşan, kaya damanı; bunlar geviş getirir fakat çift toynaklı değildir. Sizin için temiz değildirler."}, {"v": 8, "text": "Domuz da yemeyeceksiniz, çünkü çift toynaklıdır fakat geviş getirmez. Sizin için temiz değildir. Bunlardan hiçbirinin etini yemeyeceksiniz, leşine dokunmayacaksınız."}, {"v": 9, "text": "Suda yaşayan tüm canlılar arasında şu türleri yiyebilirsiniz: Tüm pullu ve yüzgeçli olanları yiyebilirsiniz."}, {"v": 10, "text": "Pulsuz ve yüzgeçsiz olanlardan hiçbirini yemeyeceksiniz. Sizin için temiz değildir."}, {"v": 11, "text": "Temiz sayılan her kuşu yiyebilirsiniz."}, {"v": 12, "text": "Yememeniz gerekenler ise şunlardır: kartal, balıkkartalı, kara akbaba,"}, {"v": 13, "text": "kızıl çaylak, kara çaylak ve tüm türleri;"}, {"v": 14, "text": "bütün karga türleri;"}, {"v": 15, "text": "devekuşu, baykuş, martı ve doğan türleri,"}, {"v": 16, "text": "kukumav, orman baykuşu, kuğu,"}, {"v": 17, "text": "pelikan, akbaba, karabatak,"}, {"v": 18, "text": "leylek, balıkçıl türleri, ibibik ve yarasa."}, {"v": 19, "text": "Kanatlı ufak canlılar sizin için temiz değildir. Onlar yenilmeyecek."}, {"v": 20, "text": "Uçan kanatlılardan temiz sayılanları yiyebilirsiniz."}, {"v": 21, "text": "Ölmüş olanı yemeyeceksiniz. Onu şehirlerinden birinde misafir olarak yaşayan yabancıya verebilirsin, o da yiyebilir; ya da dışarıdan bir yabancıya satabilirsin; çünkü sen Tanrın Yehova için kutsal bir halksın. Oğlağı annesinin sütünde pişirmeyeceksin."}, {"v": 22, "text": "Her yıl ektiğin tohumdan tarlanda yetişen tüm ürünün onda birini vereceksin."}, {"v": 23, "text": "Tahılının, yeni şarabının, zeytinyağının onda birini, sığırların ve davarların arasındaki ilk doğanları, Tanrın Yehova’nın önünde, Kendi adını taşıması için seçeceği yerde yiyeceksin; böylece her zaman Tanrın Yehova’dan korkmayı öğreneceksin."}, {"v": 24, "text": "Eğer Tanrın Yehova’nın Kendi ismini koymak için seçtiği yer sana çok uzaksa ve uzun bir yolculuk yapman gerekeceğinden onları yanında taşıyamayacaksan (çünkü Tanrın Yehova seni bereketli kılacak),"}, {"v": 25, "text": "hepsini paraya çevireceksin ve parayı çıkın edip eline alarak Tanrın Yehova’nın seçeceği yere gideceksin."}, {"v": 26, "text": "O parayı canının istediği gibi harcayacaksın; sığır, koyun, keçi, içki, şarap, canın ne çekerse onu alacaksın. Sen ve ev halkın onları orada, Tanrın Yehova’nın önünde yiyecek ve sevinç duyacaksınız."}, {"v": 27, "text": "Şehrinde yaşayan Levioğullarını da ihmal etmeyeceksin, çünkü onların sizin aranızda payı ve mirası yoktur."}, {"v": 28, "text": "Her üç yılın sonunda o yılki ürününün tüm ondalığını çıkarıp şehrinde bir yere toplayacaksın."}, {"v": 29, "text": "Şehrinde yaşayan yabancılar, dul ve yetimler, sizin aranızda payı ve mirası olmayan Levioğulları gelecek, yiyip doyacaklar. Böyle yaparsan Tanrın Yehova da el attığın her işte sana bereket verecek.”"}]}
+{
+  "content": [
+    {
+      "v": 1,
+      "text": "“Siz Tanrınız Yehova’nın oğullarısınız. Ölü için bedeninizde yara açmayacak, kaşlarınızı yolmayacaksınız."
+    },
+    {
+      "v": 2,
+      "text": "Çünkü Tanrın Yehova için kutsal bir halksın, Yehova yeryüzündeki tüm halklar arasından seni Kendine ait bir halk, Kendi özel halkı olman için seçti."
+    },
+    {
+      "v": 3,
+      "text": "İğrenç sayılan hiçbir şeyi yemeyeceksin."
+    },
+    {
+      "v": 4,
+      "text": "Yiyebileceğin hayvan türleri şunlardır: Sığır, koyun, keçi,"
+    },
+    {
+      "v": 5,
+      "text": "geyik, ceylan, karaca, yaban keçisi, antilop, yaban koyunu ve dağ keçisi;"
+    },
+    {
+      "v": 6,
+      "text": "geviş getiren her çift toynaklı hayvan. Bunları yiyebilirsiniz."
+    },
+    {
+      "v": 7,
+      "text": "Ancak geviş getiren ya da çift toynaklı hayvanlardan şu türleri yemeyeceksiniz: Deve, tavşan, kaya damanı; bunlar geviş getirir fakat çift toynaklı değildir. Sizin için temiz değildirler."
+    },
+    {
+      "v": 8,
+      "text": "Domuz da yemeyeceksiniz, çünkü çift toynaklıdır fakat geviş getirmez. Sizin için temiz değildir. Bunlardan hiçbirinin etini yemeyeceksiniz, leşine dokunmayacaksınız."
+    },
+    {
+      "v": 9,
+      "text": "Suda yaşayan tüm canlılar arasında şu türleri yiyebilirsiniz: Tüm pullu ve yüzgeçli olanları yiyebilirsiniz."
+    },
+    {
+      "v": 10,
+      "text": "Pulsuz ve yüzgeçsiz olanlardan hiçbirini yemeyeceksiniz. Sizin için temiz değildir."
+    },
+    {
+      "v": 11,
+      "text": "Temiz sayılan her kuşu yiyebilirsiniz."
+    },
+    {
+      "v": 12,
+      "text": "Yememeniz gerekenler ise şunlardır: kartal, balıkkartalı, kara akbaba,"
+    },
+    {
+      "v": 13,
+      "text": "kızıl çaylak, kara çaylak ve tüm türleri;"
+    },
+    {
+      "v": 14,
+      "text": "bütün karga türleri;"
+    },
+    {
+      "v": 15,
+      "text": "devekuşu, baykuş, martı ve doğan türleri,"
+    },
+    {
+      "v": 16,
+      "text": "kukumav, orman baykuşu, kuğu,"
+    },
+    {
+      "v": 17,
+      "text": "pelikan, akbaba, karabatak,"
+    },
+    {
+      "v": 18,
+      "text": "leylek, balıkçıl türleri, ibibik ve yarasa."
+    },
+    {
+      "v": 19,
+      "text": "Kanatlı ufak canlılar sizin için temiz değildir. Onlar yenilmeyecek."
+    },
+    {
+      "v": 20,
+      "text": "Uçan kanatlılardan temiz sayılanları yiyebilirsiniz."
+    },
+    {
+      "v": 21,
+      "text": "Ölmüş olanı yemeyeceksiniz. Onu şehirlerinden birinde misafir olarak yaşayan yabancıya verebilirsin, o da yiyebilir; ya da dışarıdan bir yabancıya satabilirsin; çünkü sen Tanrın Yehova için kutsal bir halksın. Oğlağı annesinin sütünde pişirmeyeceksin."
+    },
+    {
+      "v": 22,
+      "text": "Her yıl ektiğin tohumdan tarlanda yetişen tüm ürünün onda birini vereceksin."
+    },
+    {
+      "v": 23,
+      "text": "Tahılının, yeni şarabının, zeytinyağının onda birini, sığırların ve davarların arasındaki ilk doğanları, Tanrın Yehova’nın önünde, Kendi adını taşıması için seçeceği yerde yiyeceksin; böylece her zaman Tanrın Yehova’dan korkmayı öğreneceksin."
+    },
+    {
+      "v": 24,
+      "text": "Eğer Tanrın Yehova’nın Kendi ismini koymak için seçtiği yer sana çok uzaksa ve uzun bir yolculuk yapman gerekeceğinden onları yanında taşıyamayacaksan (çünkü Tanrın Yehova seni bereketli kılacak),"
+    },
+    {
+      "v": 25,
+      "text": "hepsini paraya çevireceksin ve parayı çıkın edip eline alarak Tanrın Yehova’nın seçeceği yere gideceksin."
+    },
+    {
+      "v": 26,
+      "text": "O parayı canının istediği gibi harcayacaksın; sığır, koyun, keçi, içki, şarap, canın ne çekerse onu alacaksın. Sen ve ev halkın onları orada, Tanrın Yehova’nın önünde yiyecek ve sevinç duyacaksınız."
+    },
+    {
+      "v": 27,
+      "text": "Şehrinde yaşayan Levioğullarını da ihmal etmeyeceksin, çünkü onların sizin aranızda payı ve mirası yoktur."
+    },
+    {
+      "v": 28,
+      "text": "Her üç yılın sonunda o yılki ürününün tüm ondalığını çıkarıp şehrinde bir yere toplayacaksın."
+    },
+    {
+      "v": 29,
+      "text": "Şehrinde yaşayan yabancılar, dul ve yetimler, sizin aranızda payı ve mirası olmayan Levioğulları gelecek, yiyip doyacaklar. Böyle yaparsan Tanrın Yehova da el attığın her işte sana bereket verecek.”"
+    }
+  ]
+}

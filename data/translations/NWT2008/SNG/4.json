@@ -1,1 +1,68 @@
-{"t": "NWT2008", "b": "SNG", "c": 4, "content": [{"v": 1, "text": "“Ne güzelsin ey sevdiğim, ah ne güzelsin! Peçenin arkasında gözlerin adeta güvercin gözleri. Saçların, Gilead dağlarından sekerek inen keçi sürüsünü andırıyor."}, {"v": 2, "text": "Dişlerin yeni kırkılıp yıkanmış, sudan çıkıp gelen koyun sürüsü gibi; hepsinin karnında ikiz var, hiçbiri yavrusunu kaybetmemiş."}, {"v": 3, "text": "Dudakların al ibrişim gibi; konuşman da ne hoş! Peçenin arkasında şakakların sanki birer nar parçası."}, {"v": 4, "text": "Boynun, sıra sıra taşlarla yapılmış Davut Kulesi gibi; bin kalkan asılı, hepsi de yiğitlerin yuvarlak kalkanları."}, {"v": 5, "text": "Göğüslerin zambaklar arasında otlayan ikiz ceylan yavruları gibi.”"}, {"v": 6, "text": "“Gün serinleyip gölgeler kaybolmadan yola koyulup, mürrüsafi dağına, akgünlük tepesine gideceğim.”"}, {"v": 7, "text": "“Her şeyinle güzelsin sevdiğim, hiçbir kusurun yok."}, {"v": 8, "text": "Benimle Lübnan’dan gel ey nişanlım, Lübnan’dan gel. Amana doruklarından ve Senir’in, Hermon’un tepelerinden in; aslanların inlerinden, leoparların dağlarından geç de gel."}, {"v": 9, "text": "Ey kız kardeşim, nişanlım, senin yüzünden kalbim çarpıyor; bir gözün, gerdanlığının bir boncuğu bile yüreğimi yerinden oynatıyor."}, {"v": 10, "text": "Sevgini ifade edişin ne hoş, ey kız kardeşim, nişanlım! Sevgi ifadelerin şaraptan çok daha güzel, sürdüğün yağların kokusu da her tür esanstan hoş!"}, {"v": 11, "text": "Ah nişanlım, petek balı damlıyor dudaklarından. Dilinin altında süt ve bal var. Giysilerinin kokusu da Lübnan’ın hoş kokusu gibi."}, {"v": 12, "text": "Kapalı bir bahçedir benim kız kardeşim, nişanlım, kapalı bir bahçe, mühürlü bir pınar."}, {"v": 13, "text": "Tenin bir nar cenneti, içinde en iyi meyveler, kına çiçeği ve hintsümbülü var;"}, {"v": 14, "text": "hintsümbülü ve safran, hoş kokulu kamış ve tarçın, her tür akgünlük ağacı, mürrüsafi, sarısabır ve en güzel kokular."}, {"v": 15, "text": "Tenin, bahçelerde bir pınar, bir taze su kuyusu; Lübnan’dan şırıl şırıl akıp gelen bir dere."}, {"v": 16, "text": "Uyan ey kuzey rüzgârı, gir içeri ey güney rüzgârı. Bahçemde es de güzel kokusu yayılsın.” “Sevgilim bahçesine gelsin, en iyi meyveleri yesin.”"}]}
+{
+  "content": [
+    {
+      "v": 1,
+      "text": "“Ne güzelsin ey sevdiğim, ah ne güzelsin! Peçenin arkasında gözlerin adeta güvercin gözleri. Saçların, Gilead dağlarından sekerek inen keçi sürüsünü andırıyor."
+    },
+    {
+      "v": 2,
+      "text": "Dişlerin yeni kırkılıp yıkanmış, sudan çıkıp gelen koyun sürüsü gibi; hepsinin karnında ikiz var, hiçbiri yavrusunu kaybetmemiş."
+    },
+    {
+      "v": 3,
+      "text": "Dudakların al ibrişim gibi; konuşman da ne hoş! Peçenin arkasında şakakların sanki birer nar parçası."
+    },
+    {
+      "v": 4,
+      "text": "Boynun, sıra sıra taşlarla yapılmış Davut Kulesi gibi; bin kalkan asılı, hepsi de yiğitlerin yuvarlak kalkanları."
+    },
+    {
+      "v": 5,
+      "text": "Göğüslerin zambaklar arasında otlayan ikiz ceylan yavruları gibi.”"
+    },
+    {
+      "v": 6,
+      "text": "“Gün serinleyip gölgeler kaybolmadan yola koyulup, mürrüsafi dağına, akgünlük tepesine gideceğim.”"
+    },
+    {
+      "v": 7,
+      "text": "“Her şeyinle güzelsin sevdiğim, hiçbir kusurun yok."
+    },
+    {
+      "v": 8,
+      "text": "Benimle Lübnan’dan gel ey nişanlım, Lübnan’dan gel. Amana doruklarından ve Senir’in, Hermon’un tepelerinden in; aslanların inlerinden, leoparların dağlarından geç de gel."
+    },
+    {
+      "v": 9,
+      "text": "Ey kız kardeşim, nişanlım, senin yüzünden kalbim çarpıyor; bir gözün, gerdanlığının bir boncuğu bile yüreğimi yerinden oynatıyor."
+    },
+    {
+      "v": 10,
+      "text": "Sevgini ifade edişin ne hoş, ey kız kardeşim, nişanlım! Sevgi ifadelerin şaraptan çok daha güzel, sürdüğün yağların kokusu da her tür esanstan hoş!"
+    },
+    {
+      "v": 11,
+      "text": "Ah nişanlım, petek balı damlıyor dudaklarından. Dilinin altında süt ve bal var. Giysilerinin kokusu da Lübnan’ın hoş kokusu gibi."
+    },
+    {
+      "v": 12,
+      "text": "Kapalı bir bahçedir benim kız kardeşim, nişanlım, kapalı bir bahçe, mühürlü bir pınar."
+    },
+    {
+      "v": 13,
+      "text": "Tenin bir nar cenneti, içinde en iyi meyveler, kına çiçeği ve hintsümbülü var;"
+    },
+    {
+      "v": 14,
+      "text": "hintsümbülü ve safran, hoş kokulu kamış ve tarçın, her tür akgünlük ağacı, mürrüsafi, sarısabır ve en güzel kokular."
+    },
+    {
+      "v": 15,
+      "text": "Tenin, bahçelerde bir pınar, bir taze su kuyusu; Lübnan’dan şırıl şırıl akıp gelen bir dere."
+    },
+    {
+      "v": 16,
+      "text": "Uyan ey kuzey rüzgârı, gir içeri ey güney rüzgârı. Bahçemde es de güzel kokusu yayılsın.” “Sevgilim bahçesine gelsin, en iyi meyveleri yesin.”"
+    }
+  ]
+}

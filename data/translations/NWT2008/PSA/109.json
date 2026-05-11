@@ -1,1 +1,128 @@
-{"t": "NWT2008", "b": "PSA", "c": 109, "content": [{"v": 1, "text": "Ey yücelttiğim Tanrım, suskun kalma ne olur."}, {"v": 2, "text": "Çünkü kötüler, hilekârlar bana diş gösteriyorlar. Hakkımda yalanlar söylüyorlar."}, {"v": 3, "text": "Nefret dolu sözlerle etrafımı sardılar, Yok yere benimle kavga ediyorlar."}, {"v": 4, "text": "Sevgime suçlamayla karşılık veriyorlar, Bense duama devam ediyorum."}, {"v": 5, "text": "İyiliğime kötülükle, Sevgime nefretle karşılık veriyorlar."}, {"v": 6, "text": "Kötü adamı onun başına koy, Sağ yanında hep bir suçlayan olsun."}, {"v": 7, "text": "Yargılandığında kötülüğü ortaya çıksın, Duası bir günah olsun."}, {"v": 8, "text": "Ömrü kısa sürsün, Onun gözetim işini başkası alsın."}, {"v": 9, "text": "Çocukları yetim, Karısı dul kalsın."}, {"v": 10, "text": "Oğulları avare dolaşsın, Dilenip dursunlar, Viranelerinden çıkıp yiyecek arasınlar."}, {"v": 11, "text": "Varı yoğu tefecinin tuzağına düşsün, Emek verdiği ürünü yabancılar yağmalasın."}, {"v": 12, "text": "Hiç kimseden vefa görmesin, Yetim kalan çocuklarına kimse sahip çıkmasın."}, {"v": 13, "text": "Soyu kesilsin, Sonraki nesilde adı silinip gitsin."}, {"v": 14, "text": "Yehova atalarının suçunu ansın, Anasının günahı silinmesin."}, {"v": 15, "text": "Suçları hep Yehova’nın önünde olsun, O da adını yeryüzünden söküp atsın."}, {"v": 16, "text": "Çünkü o vefa göstermeyi unuttu, Mazlumu ve yoksulu, Yüreği kırık olanı öldürmek için peşine düştü."}, {"v": 17, "text": "Hep laneti sevdi, o da kendi başına geldi, Lütuf göstermekten hoşlanmadı, O da ondan uzaklaştı."}, {"v": 18, "text": "Lanet bir giysi gibi üzerini örttü. Su gibi karnına girdi, Yağ gibi kemiklerine işledi."}, {"v": 19, "text": "O lanet, bir giysi gibi onu sarsın, Bir kuşak gibi hep beline dolansın."}, {"v": 20, "text": "Beni suçlayana, bana hakaret edene, Yehova’nın karşılığı bu olsun,"}, {"v": 21, "text": "Fakat Sen Ulu Rab Yehova’sın. Adın uğruna lütfet bana. Kurtar beni, çünkü vefalı sevgin büyüktür."}, {"v": 22, "text": "Ben mazlum ve yoksulum, Bağrımda yüreğim paramparça."}, {"v": 23, "text": "Gün batınca yok olan gölge gibi geçip gidiyorum, Çekirge gibi silkelenip atılıyorum."}, {"v": 24, "text": "Dizlerim oruç tutmaktan titriyor, Bedenim eriyip bitti, tenimde yağın ışıltısı kalmadı."}, {"v": 25, "text": "Etrafıma yüzkarası oldum, Beni görünce başlarını sallıyorlar."}, {"v": 26, "text": "Yardım et bana ey Yehova Tanrım; Vefalı sevginden ötürü kurtar beni."}, {"v": 27, "text": "Onlar da bilsin ki bu Senin elin; Sen ey Yehova, bunu Sen yaptın."}, {"v": 28, "text": "Onlar lanet okuyup dursun, Sen ise bana olan lütfunu bildir. Saldırıya geçtiler, fakat mahcup olsunlar, Ve Senin kulun sevinsin."}, {"v": 29, "text": "Beni suçlayanlar rezilliğe bürünsün, Üzerlerine utancı kaftan gibi giysinler."}, {"v": 30, "text": "Ağzımdan Yehova’ya övgüler dökülecek, Halklar arasında O’nu yücelteceğim."}, {"v": 31, "text": "Çünkü O yoksulun sağında durur, Onu mahkûm edenlerden canını korur."}]}
+{
+  "content": [
+    {
+      "v": 1,
+      "text": "Ey yücelttiğim Tanrım, suskun kalma ne olur."
+    },
+    {
+      "v": 2,
+      "text": "Çünkü kötüler, hilekârlar bana diş gösteriyorlar.Hakkımda yalanlar söylüyorlar."
+    },
+    {
+      "v": 3,
+      "text": "Nefret dolu sözlerle etrafımı sardılar,Yok yere benimle kavga ediyorlar."
+    },
+    {
+      "v": 4,
+      "text": "Sevgime suçlamayla karşılık veriyorlar,Bense duama devam ediyorum."
+    },
+    {
+      "v": 5,
+      "text": "İyiliğime kötülükle,Sevgime nefretle karşılık veriyorlar."
+    },
+    {
+      "v": 6,
+      "text": "Kötü adamı onun başına koy,Sağ yanında hep bir suçlayan olsun."
+    },
+    {
+      "v": 7,
+      "text": "Yargılandığında kötülüğü ortaya çıksın,Duası bir günah olsun."
+    },
+    {
+      "v": 8,
+      "text": "Ömrü kısa sürsün,Onun gözetim işini başkası alsın."
+    },
+    {
+      "v": 9,
+      "text": "Çocukları yetim,Karısı dul kalsın."
+    },
+    {
+      "v": 10,
+      "text": "Oğulları avare dolaşsın,Dilenip dursunlar,Viranelerinden çıkıp yiyecek arasınlar."
+    },
+    {
+      "v": 11,
+      "text": "Varı yoğu tefecinin tuzağına düşsün,Emek verdiği ürünü yabancılar yağmalasın."
+    },
+    {
+      "v": 12,
+      "text": "Hiç kimseden vefa görmesin,Yetim kalan çocuklarına kimse sahip çıkmasın."
+    },
+    {
+      "v": 13,
+      "text": "Soyu kesilsin,Sonraki nesilde adı silinip gitsin."
+    },
+    {
+      "v": 14,
+      "text": "Yehova atalarının suçunu ansın,Anasının günahı silinmesin."
+    },
+    {
+      "v": 15,
+      "text": "Suçları hep Yehova’nın önünde olsun,O da adını yeryüzünden söküp atsın."
+    },
+    {
+      "v": 16,
+      "text": "Çünkü o vefa göstermeyi unuttu,Mazlumu ve yoksulu,Yüreği kırık olanı öldürmek için peşine düştü."
+    },
+    {
+      "v": 17,
+      "text": "Hep laneti sevdi, o da kendi başına geldi,Lütuf göstermekten hoşlanmadı,O da ondan uzaklaştı."
+    },
+    {
+      "v": 18,
+      "text": "Lanet bir giysi gibi üzerini örttü.Su gibi karnına girdi,Yağ gibi kemiklerine işledi."
+    },
+    {
+      "v": 19,
+      "text": "O lanet, bir giysi gibi onu sarsın,Bir kuşak gibi hep beline dolansın."
+    },
+    {
+      "v": 20,
+      "text": "Beni suçlayana, bana hakaret edene,Yehova’nın karşılığı bu olsun,"
+    },
+    {
+      "v": 21,
+      "text": "Fakat Sen Ulu Rab Yehova’sın.Adın uğruna lütfet bana.Kurtar beni, çünkü vefalı sevgin büyüktür."
+    },
+    {
+      "v": 22,
+      "text": "Ben mazlum ve yoksulum,Bağrımda yüreğim paramparça."
+    },
+    {
+      "v": 23,
+      "text": "Gün batınca yok olan gölge gibi geçip gidiyorum,Çekirge gibi silkelenip atılıyorum."
+    },
+    {
+      "v": 24,
+      "text": "Dizlerim oruç tutmaktan titriyor,Bedenim eriyip bitti, tenimde yağın ışıltısı kalmadı."
+    },
+    {
+      "v": 25,
+      "text": "Etrafıma yüzkarası oldum,Beni görünce başlarını sallıyorlar."
+    },
+    {
+      "v": 26,
+      "text": "Yardım et bana ey Yehova Tanrım;Vefalı sevginden ötürü kurtar beni."
+    },
+    {
+      "v": 27,
+      "text": "Onlar da bilsin ki bu Senin elin;Sen ey Yehova, bunu Sen yaptın."
+    },
+    {
+      "v": 28,
+      "text": "Onlar lanet okuyup dursun,Sen ise bana olan lütfunu bildir.Saldırıya geçtiler, fakat mahcup olsunlar,Ve Senin kulun sevinsin."
+    },
+    {
+      "v": 29,
+      "text": "Beni suçlayanlar rezilliğe bürünsün,Üzerlerine utancı kaftan gibi giysinler."
+    },
+    {
+      "v": 30,
+      "text": "Ağzımdan Yehova’ya övgüler dökülecek,Halklar arasında O’nu yücelteceğim."
+    },
+    {
+      "v": 31,
+      "text": "Çünkü O yoksulun sağında durur,Onu mahkûm edenlerden canını korur."
+    }
+  ]
+}

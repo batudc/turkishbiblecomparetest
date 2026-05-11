@@ -1,0 +1,331 @@
+{
+  "t": "CSB",
+  "b": "1CH",
+  "c": 6,
+  "content": [
+    {
+      "v": 1,
+      "text": "Levi’s sons: Gershom, Kohath, and Merari."
+    },
+    {
+      "v": 2,
+      "text": "Kohath’s sons: Amram, Izhar, Hebron, and Uzziel."
+    },
+    {
+      "v": 3,
+      "text": "Amram’s children: Aaron, Moses, and Miriam.\nAaron’s sons: Nadab, Abihu, Eleazar, and Ithamar."
+    },
+    {
+      "v": 4,
+      "text": "Eleazar fathered Phinehas;\nPhinehas fathered Abishua;"
+    },
+    {
+      "v": 5,
+      "text": "Abishua fathered Bukki;\nBukki fathered Uzzi;"
+    },
+    {
+      "v": 6,
+      "text": "Uzzi fathered Zerahiah;\nZerahiah fathered Meraioth;"
+    },
+    {
+      "v": 7,
+      "text": "Meraioth fathered Amariah;\nAmariah fathered Ahitub;"
+    },
+    {
+      "v": 8,
+      "text": "Ahitub fathered Zadok;\nZadok fathered Ahimaaz;"
+    },
+    {
+      "v": 9,
+      "text": "Ahimaaz fathered Azariah;\nAzariah fathered Johanan;"
+    },
+    {
+      "v": 10,
+      "text": "Johanan fathered Azariah, who served as priest in the temple that Solomon built in Jerusalem;"
+    },
+    {
+      "v": 11,
+      "text": "Azariah fathered Amariah;\nAmariah fathered Ahitub;"
+    },
+    {
+      "v": 12,
+      "text": "Ahitub fathered Zadok;\nZadok fathered Shallum;"
+    },
+    {
+      "v": 13,
+      "text": "Shallum fathered Hilkiah;\nHilkiah fathered Azariah;"
+    },
+    {
+      "v": 14,
+      "text": "Azariah fathered Seraiah;\nand Seraiah fathered Jehozadak."
+    },
+    {
+      "v": 15,
+      "text": "Jehozadak went into exile when the Lord sent Judah and Jerusalem into exile at the hands of Nebuchadnezzar."
+    },
+    {
+      "v": 16,
+      "text": "Levi’s sons: Gershom, Kohath, and Merari."
+    },
+    {
+      "v": 17,
+      "text": "These are the names of Gershom’s sons: Libni and Shimei."
+    },
+    {
+      "v": 18,
+      "text": "Kohath’s sons: Amram, Izhar, Hebron and Uzziel."
+    },
+    {
+      "v": 19,
+      "text": "Merari’s sons: Mahli and Mushi.\nThese are the Levites’ families according to their fathers:"
+    },
+    {
+      "v": 20,
+      "text": "Of Gershom: his son Libni,\nhis son Jahath, his son Zimmah,"
+    },
+    {
+      "v": 21,
+      "text": "his son Joah, his son Iddo,\nhis son Zerah, and his son Jeatherai."
+    },
+    {
+      "v": 22,
+      "text": "Kohath’s sons: his son Amminadab,\nhis son Korah, his son Assir,"
+    },
+    {
+      "v": 23,
+      "text": "his son Elkanah, his son Ebiasaph,\nhis son Assir,"
+    },
+    {
+      "v": 24,
+      "text": "his son Tahath,\nhis son Uriel, his son Uzziah,\nand his son Shaul."
+    },
+    {
+      "v": 25,
+      "text": "Elkanah’s sons: Amasai and Ahimoth,"
+    },
+    {
+      "v": 26,
+      "text": "his son Elkanah, his son Zophai,\nhis son Nahath,"
+    },
+    {
+      "v": 27,
+      "text": "his son Eliab,\nhis son Jeroham, and his son Elkanah."
+    },
+    {
+      "v": 28,
+      "text": "Samuel’s sons: his firstborn Joel,\nand his second son Abijah."
+    },
+    {
+      "v": 29,
+      "text": "Merari’s sons: Mahli, his son Libni,\nhis son Shimei, his son Uzzah,"
+    },
+    {
+      "v": 30,
+      "text": "his son Shimea, his son Haggiah,\nand his son Asaiah."
+    },
+    {
+      "v": 31,
+      "text": "These are the men David put in charge of the music in the Lord’s temple after the ark came to rest there."
+    },
+    {
+      "v": 32,
+      "text": "They ministered with song in front of the tabernacle, the tent of meeting, until Solomon built the Lord’s temple in Jerusalem, and they performed their task according to the regulations given to them."
+    },
+    {
+      "v": 33,
+      "text": "These are the men who served with their sons.\nFrom the Kohathites: Heman the singer,\nson of Joel, son of Samuel,"
+    },
+    {
+      "v": 34,
+      "text": "son of Elkanah, son of Jeroham,\nson of Eliel, son of Toah,"
+    },
+    {
+      "v": 35,
+      "text": "son of Zuph, son of Elkanah,\nson of Mahath, son of Amasai,"
+    },
+    {
+      "v": 36,
+      "text": "son of Elkanah, son of Joel,\nson of Azariah, son of Zephaniah,"
+    },
+    {
+      "v": 37,
+      "text": "son of Tahath, son of Assir,\nson of Ebiasaph, son of Korah,"
+    },
+    {
+      "v": 38,
+      "text": "son of Izhar, son of Kohath,\nson of Levi, son of Israel."
+    },
+    {
+      "v": 39,
+      "text": "Heman’s relative was Asaph, who stood at his right hand:\nAsaph son of Berechiah, son of Shimea,"
+    },
+    {
+      "v": 40,
+      "text": "son of Michael, son of Baaseiah,\nson of Malchijah,"
+    },
+    {
+      "v": 41,
+      "text": "son of Ethni,\nson of Zerah, son of Adaiah,"
+    },
+    {
+      "v": 42,
+      "text": "son of Ethan, son of Zimmah,\nson of Shimei,"
+    },
+    {
+      "v": 43,
+      "text": "son of Jahath,\nson of Gershom, son of Levi."
+    },
+    {
+      "v": 44,
+      "text": "On the left, their relatives were Merari’s sons:\nEthan son of Kishi, son of Abdi,\nson of Malluch,"
+    },
+    {
+      "v": 45,
+      "text": "son of Hashabiah,\nson of Amaziah, son of Hilkiah,"
+    },
+    {
+      "v": 46,
+      "text": "son of Amzi, son of Bani,\nson of Shemer,"
+    },
+    {
+      "v": 47,
+      "text": "son of Mahli,\nson of Mushi, son of Merari,\nson of Levi."
+    },
+    {
+      "v": 48,
+      "text": "Their relatives, the Levites, were assigned to all the service of the tabernacle, God’s temple."
+    },
+    {
+      "v": 49,
+      "text": "But Aaron and his sons did all the work of the most holy place. They presented the offerings on the altar of burnt offerings and on the altar of incense to make atonement for Israel according to all that Moses the servant of God had commanded."
+    },
+    {
+      "v": 50,
+      "text": "These are Aaron’s sons: his son Eleazar,\nhis son Phinehas, his son Abishua,"
+    },
+    {
+      "v": 51,
+      "text": "his son Bukki, his son Uzzi,\nhis son Zerahiah,"
+    },
+    {
+      "v": 52,
+      "text": "his son Meraioth,\nhis son Amariah, his son Ahitub,"
+    },
+    {
+      "v": 53,
+      "text": "his son Zadok, and his son Ahimaaz."
+    },
+    {
+      "v": 54,
+      "text": "These were the places assigned to Aaron’s descendants from the Kohathite family for their settlements in their territory, because the first lot was for them."
+    },
+    {
+      "v": 55,
+      "text": "They were given Hebron in the land of Judah and its surrounding pasturelands,"
+    },
+    {
+      "v": 56,
+      "text": "but the fields and settlements around the city were given to Caleb son of Jephunneh."
+    },
+    {
+      "v": 57,
+      "text": "Aaron’s descendants were given:\nHebron (a city of refuge), Libnah and its pasturelands, Jattir, Eshtemoa and its pasturelands,"
+    },
+    {
+      "v": 58,
+      "text": "Hilen and its pasturelands, Debir and its pasturelands,"
+    },
+    {
+      "v": 59,
+      "text": "Ashan and its pasturelands, and Beth-shemesh and its pasturelands."
+    },
+    {
+      "v": 60,
+      "text": "From the tribe of Benjamin they were given Geba and its pasturelands, Alemeth and its pasturelands, and Anathoth and its pasturelands. They had thirteen towns in all among their families."
+    },
+    {
+      "v": 61,
+      "text": "To the rest of the Kohathites, ten towns from half the tribe of Manasseh were assigned by lot."
+    },
+    {
+      "v": 62,
+      "text": "The Gershomites were assigned thirteen towns from the tribes of Issachar, Asher, Naphtali, and Manasseh in Bashan according to their families."
+    },
+    {
+      "v": 63,
+      "text": "The Merarites were assigned by lot twelve towns from the tribes of Reuben, Gad, and Zebulun according to their families."
+    },
+    {
+      "v": 64,
+      "text": "So the Israelites gave these towns and their pasturelands to the Levites."
+    },
+    {
+      "v": 65,
+      "text": "They assigned by lot the towns named above from the tribes of the descendants of Judah, Simeon, and Benjamin."
+    },
+    {
+      "v": 66,
+      "text": "Some of the families of the Kohathites were given towns from the tribe of Ephraim for their territory:"
+    },
+    {
+      "v": 67,
+      "text": "Shechem (a city of refuge) with its pasturelands in the hill country of Ephraim, Gezer and its pasturelands,"
+    },
+    {
+      "v": 68,
+      "text": "Jokmeam and its pasturelands, Beth-horon and its pasturelands,"
+    },
+    {
+      "v": 69,
+      "text": "Aijalon and its pasturelands, and Gath-rimmon and its pasturelands."
+    },
+    {
+      "v": 70,
+      "text": "From half the tribe of Manasseh, Aner and its pasturelands, and Bileam and its pasturelands were given to the rest of the families of the Kohathites."
+    },
+    {
+      "v": 71,
+      "text": "The Gershomites received:\nGolan in Bashan and its pasturelands, and Ashtaroth and its pasturelands from the families of half the tribe of Manasseh."
+    },
+    {
+      "v": 72,
+      "text": "From the tribe of Issachar they received Kedesh and its pasturelands, Daberath and its pasturelands,"
+    },
+    {
+      "v": 73,
+      "text": "Ramoth and its pasturelands, and Anem and its pasturelands."
+    },
+    {
+      "v": 74,
+      "text": "From the tribe of Asher they received Mashal and its pasturelands, Abdon and its pasturelands,"
+    },
+    {
+      "v": 75,
+      "text": "Hukok and its pasturelands, and Rehob and its pasturelands."
+    },
+    {
+      "v": 76,
+      "text": "From the tribe of Naphtali they received Kedesh in Galilee and its pasturelands, Hammon and its pasturelands, and Kiriathaim and its pasturelands."
+    },
+    {
+      "v": 77,
+      "text": "The rest of the Merarites received:\nFrom the tribe of Zebulun they received Rimmono and its pasturelands and Tabor and its pasturelands."
+    },
+    {
+      "v": 78,
+      "text": "From the tribe of Reuben across the Jordan at Jericho, to the east of the Jordan, they received Bezer in the desert and its pasturelands, Jahzah and its pasturelands,"
+    },
+    {
+      "v": 79,
+      "text": "Kedemoth and its pasturelands, and Mephaath and its pasturelands."
+    },
+    {
+      "v": 80,
+      "text": "From the tribe of Gad they received Ramoth in Gilead and its pasturelands, Mahanaim and its pasturelands,"
+    },
+    {
+      "v": 81,
+      "text": "Heshbon and its pasturelands, and Jazer and its pasturelands."
+    }
+  ]
+}

@@ -1,1 +1,92 @@
-{"t": "NWT2008", "b": "JOB", "c": 1, "content": [{"v": 1, "text": "Uts diyarında Eyüp adlı bir adam yaşıyordu. Bu adam temiz ve dürüst biriydi, Tanrı’dan korkar, kötülükten sakınırdı."}, {"v": 2, "text": "Yedi oğul ve üç kız babasıydı."}, {"v": 3, "text": "Sürülerinde yedi bin koyun, üç bin deve, beş yüz çift öküz, beş yüz dişi eşek vardı; hizmetkârları pek çoktu. Bu adam tüm Doğulular içinde en itibarlı kişiydi."}, {"v": 4, "text": "Oğulları, her biri kendi gününde, evinde bir şölen düzenlerdi; haber gönderip üç kız kardeşlerini de birlikte yiyip içmeye çağırırlardı."}, {"v": 5, "text": "Şölen günleri bir devir yaptığında Eyüp kendilerini arındırmaları için onlara haber gönderirdi. Sabah erkenden kalkar, “Belki oğullarım günah işlemiş, yüreklerinden Tanrı’ya lanet etmiştir” diyerek, her biri için yakılan kurban sunardı. Eyüp her zaman böyle yapardı."}, {"v": 6, "text": "Tanrı oğullarının Yehova’nın huzuruna çıktıkları gün geldi, aralarında Şeytan da huzura çıktı."}, {"v": 7, "text": "Ve Yehova Şeytan’a “Nereden geliyorsun?” diye sordu. Şeytan Yehova’ya, “Dünyada gezinip dolanmaktan geliyorum” karşılığını verdi."}, {"v": 8, "text": "Yehova Şeytan’a “Kulum Eyüp’e dikkat ettin mi?” dedi. “Yeryüzünde onun gibisi yok; temiz ve dürüst bir adam, Tanrı’dan korkar, kötülükten sakınır.”"}, {"v": 9, "text": "Şeytan Yehova’ya şu karşılığı verdi: “Eyüp Tanrı’dan boşuna mı korkuyor?"}, {"v": 10, "text": "Onun çevresine, evinin ve sahip olduğu her şeyin çevresine Sen çit çevirmedin mi? Elinin emeğini bereketli kıldın, sürüleri her yana yayıldı."}, {"v": 11, "text": "Şimdi elini uzatıp nesi varsa hepsine dokun da bak, yüzüne karşı Sana nasıl lanet edecek.”"}, {"v": 12, "text": "Bunun üzerine Yehova Şeytan’a, “İşte, her şeyi senin elinde. Yalnız kendisine el uzatma!” dedi. Böylece Şeytan Yehova’nın huzurundan ayrıldı."}, {"v": 13, "text": "Derken, Eyüp’ün oğullarının ve kızlarının, büyük ağabeylerinin evinde yemek yiyip şarap içmek için toplandıkları gün geldi."}, {"v": 14, "text": "Ve bir ulak gelip Eyüp’e şunları söyledi: “Öküzler çift sürüyor, eşekler de onların yanında otlanıyordu;"}, {"v": 15, "text": "Sebalılar baskın yaptı, onları alıp götürdüler, uşakları kılıçtan geçirdiler; sadece ben kaldım, tek ben kaçıp kurtuldum ki olanları sana anlatayım.”"}, {"v": 16, "text": "O daha sözünü bitirmeden bir başkası gelip şöyle dedi: “Göklerden Tanrı’nın ateşi yağdı, koyunları ve uşakları alevler sardı, onları yiyip bitirdi; sadece ben kaldım, tek ben kaçıp kurtuldum ki olanları sana anlatayım.”"}, {"v": 17, "text": "O daha sözünü bitirmeden bir başkası gelip şöyle dedi: “Kaldeliler develerin üzerine üç koldan akın ederek onları alıp götürdüler, uşakları kılıçtan geçirdiler; sadece ben kaldım, tek ben kaçıp kurtuldum ki olanları sana anlatayım.”"}, {"v": 18, "text": "O daha sözünü bitirmeden bir başkası gelip şöyle dedi: “Oğulların ve kızların büyük ağabeylerinin evinde yemek yiyip şarap içiyorlardı."}, {"v": 19, "text": "Birden çölden şiddetli bir rüzgâr çıkıp evi dört yandan dövmeye başladı; ev gençlerin üzerine yıkıldı, öldüler. Sadece ben kaldım, tek ben kaçıp kurtuldum ki olanları sana anlatayım.”"}, {"v": 20, "text": "Eyüp kalktı, üstündeki kaftanı yırttı, saçını kesti ve eğilip yere kapanarak"}, {"v": 21, "text": "şunları söyledi: “Anamın karnından çıplak çıktım, Oraya çıplak döneceğim. Veren de Yehova, alan da Yehova. Yehova’nın ismine her zaman şükredilsin.”"}, {"v": 22, "text": "Bütün bu olanlar karşısında Eyüp günah işlemedi ve Tanrı’yı suçlamadı."}]}
+{
+  "content": [
+    {
+      "v": 1,
+      "text": "Uts diyarında Eyüp adlı bir adam yaşıyordu. Bu adam temiz ve dürüst biriydi, Tanrı’dan korkar, kötülükten sakınırdı."
+    },
+    {
+      "v": 2,
+      "text": "Yedi oğul ve üç kız babasıydı."
+    },
+    {
+      "v": 3,
+      "text": "Sürülerinde yedi bin koyun, üç bin deve, beş yüz çift öküz, beş yüz dişi eşek vardı; hizmetkârları pek çoktu. Bu adam tüm Doğulular içinde en itibarlı kişiydi."
+    },
+    {
+      "v": 4,
+      "text": "Oğulları, her biri kendi gününde, evinde bir şölen düzenlerdi; haber gönderip üç kız kardeşlerini de birlikte yiyip içmeye çağırırlardı."
+    },
+    {
+      "v": 5,
+      "text": "Şölen günleri bir devir yaptığında Eyüp kendilerini arındırmaları için onlara haber gönderirdi. Sabah erkenden kalkar, “Belki oğullarım günah işlemiş, yüreklerinden Tanrı’ya lanet etmiştir” diyerek, her biri için yakılan kurban sunardı. Eyüp her zaman böyle yapardı."
+    },
+    {
+      "v": 6,
+      "text": "Tanrı oğullarının Yehova’nın huzuruna çıktıkları gün geldi, aralarında Şeytan da huzura çıktı."
+    },
+    {
+      "v": 7,
+      "text": "Ve Yehova Şeytan’a “Nereden geliyorsun?” diye sordu. Şeytan Yehova’ya, “Dünyada gezinip dolanmaktan geliyorum” karşılığını verdi."
+    },
+    {
+      "v": 8,
+      "text": "Yehova Şeytan’a “Kulum Eyüp’e dikkat ettin mi?” dedi. “Yeryüzünde onun gibisi yok; temiz ve dürüst bir adam, Tanrı’dan korkar, kötülükten sakınır.”"
+    },
+    {
+      "v": 9,
+      "text": "Şeytan Yehova’ya şu karşılığı verdi: “Eyüp Tanrı’dan boşuna mı korkuyor?"
+    },
+    {
+      "v": 10,
+      "text": "Onun çevresine, evinin ve sahip olduğu her şeyin çevresine Sen çit çevirmedin mi? Elinin emeğini bereketli kıldın, sürüleri her yana yayıldı."
+    },
+    {
+      "v": 11,
+      "text": "Şimdi elini uzatıp nesi varsa hepsine dokun da bak, yüzüne karşı Sana nasıl lanet edecek.”"
+    },
+    {
+      "v": 12,
+      "text": "Bunun üzerine Yehova Şeytan’a, “İşte, her şeyi senin elinde. Yalnız kendisine el uzatma!” dedi. Böylece Şeytan Yehova’nın huzurundan ayrıldı."
+    },
+    {
+      "v": 13,
+      "text": "Derken, Eyüp’ün oğullarının ve kızlarının, büyük ağabeylerinin evinde yemek yiyip şarap içmek için toplandıkları gün geldi."
+    },
+    {
+      "v": 14,
+      "text": "Ve bir ulak gelip Eyüp’e şunları söyledi: “Öküzler çift sürüyor, eşekler de onların yanında otlanıyordu;"
+    },
+    {
+      "v": 15,
+      "text": "Sebalılar baskın yaptı, onları alıp götürdüler, uşakları kılıçtan geçirdiler; sadece ben kaldım, tek ben kaçıp kurtuldum ki olanları sana anlatayım.”"
+    },
+    {
+      "v": 16,
+      "text": "O daha sözünü bitirmeden bir başkası gelip şöyle dedi: “Göklerden Tanrı’nın ateşi yağdı, koyunları ve uşakları alevler sardı, onları yiyip bitirdi; sadece ben kaldım, tek ben kaçıp kurtuldum ki olanları sana anlatayım.”"
+    },
+    {
+      "v": 17,
+      "text": "O daha sözünü bitirmeden bir başkası gelip şöyle dedi: “Kaldeliler develerin üzerine üç koldan akın ederek onları alıp götürdüler, uşakları kılıçtan geçirdiler; sadece ben kaldım, tek ben kaçıp kurtuldum ki olanları sana anlatayım.”"
+    },
+    {
+      "v": 18,
+      "text": "O daha sözünü bitirmeden bir başkası gelip şöyle dedi: “Oğulların ve kızların büyük ağabeylerinin evinde yemek yiyip şarap içiyorlardı."
+    },
+    {
+      "v": 19,
+      "text": "Birden çölden şiddetli bir rüzgâr çıkıp evi dört yandan dövmeye başladı; ev gençlerin üzerine yıkıldı, öldüler. Sadece ben kaldım, tek ben kaçıp kurtuldum ki olanları sana anlatayım.”"
+    },
+    {
+      "v": 20,
+      "text": "Eyüp kalktı, üstündeki kaftanı yırttı, saçını kesti ve eğilip yere kapanarak"
+    },
+    {
+      "v": 21,
+      "text": "şunları söyledi:“Anamın karnından çıplak çıktım,Oraya çıplak döneceğim.Veren de Yehova, alan da Yehova.Yehova’nın ismine her zaman şükredilsin.”"
+    },
+    {
+      "v": 22,
+      "text": "Bütün bu olanlar karşısında Eyüp günah işlemedi ve Tanrı’yı suçlamadı."
+    }
+  ]
+}

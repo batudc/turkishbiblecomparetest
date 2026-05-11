@@ -1,1 +1,36 @@
-{"t": "NWT2008", "b": "PSA", "c": 61, "content": [{"v": 1, "text": "Yakarışımı duy, ey Tanrım, Duamı dinle."}, {"v": 2, "text": "Yüreğimde derman kalmayınca, yerin öte ucundan Sana feryat ederim. Erişemeyeceğim kayaya beni Sen çıkar."}, {"v": 3, "text": "Sen hep sığınak oldun bana, Düşman karşısında güçlü kulemsin."}, {"v": 4, "text": "Çadırında daima konuk olurum, Kanatlarının gölgesine sığınırım. ( Selah )"}, {"v": 5, "text": "Çünkü Sen ey Tanrım, adadığım adakları duydun, İsminden korkanlara ayırdığın mirası verdin bana."}, {"v": 6, "text": "Kralın günlerine günler eklersin, Ve ömrü nesiller boyu sürer."}, {"v": 7, "text": "O, Senin önünde devirler boyu tahtında oturur; Vefalı sevgini, sadakatini gönder, onu korusunlar."}, {"v": 8, "text": "Ben sonsuza dek Senin ismine ilahiler söylerim, Her gün adaklarımı yerine getiririm."}]}
+{
+  "content": [
+    {
+      "v": 1,
+      "text": "Yakarışımı duy, ey Tanrım,Duamı dinle."
+    },
+    {
+      "v": 2,
+      "text": "Yüreğimde derman kalmayınca, yerin öte ucundan Sana feryat ederim.Erişemeyeceğim kayaya beni Sen çıkar."
+    },
+    {
+      "v": 3,
+      "text": "Sen hep sığınak oldun bana,Düşman karşısında güçlü kulemsin."
+    },
+    {
+      "v": 4,
+      "text": "Çadırında daima konuk olurum,Kanatlarının gölgesine sığınırım. (Selah)"
+    },
+    {
+      "v": 5,
+      "text": "Çünkü Sen ey Tanrım, adadığım adakları duydun,İsminden korkanlara ayırdığın mirası verdin bana."
+    },
+    {
+      "v": 6,
+      "text": "Kralın günlerine günler eklersin,Ve ömrü nesiller boyu sürer."
+    },
+    {
+      "v": 7,
+      "text": "O, Senin önünde devirler boyu tahtında oturur;Vefalı sevgini, sadakatini gönder, onu korusunlar."
+    },
+    {
+      "v": 8,
+      "text": "Ben sonsuza dek Senin ismine ilahiler söylerim,Her gün adaklarımı yerine getiririm."
+    }
+  ]
+}

@@ -1,1 +1,92 @@
-{"t": "NWT2008", "b": "ECC", "c": 3, "content": [{"v": 1, "text": "Her şeyin bir zamanı, gökler altında her işin bir vakti var:"}, {"v": 2, "text": "Doğumun vakti, ölümün vakti var; dikmenin vakti, dikileni sökmenin vakti var;"}, {"v": 3, "text": "öldürmenin vakti, şifa vermenin vakti var; yıkmanın vakti, yapmanın vakti var;"}, {"v": 4, "text": "ağlamanın vakti, gülmenin vakti var; dövünmenin vakti, oynamanın vakti var;"}, {"v": 5, "text": "taş atmanın vakti, taş toplamanın vakti var; kucaklaşmanın vakti, kucaklaşmaktan çekinmenin vakti var;"}, {"v": 6, "text": "aramanın vakti, kaybetmeyi kabullenmenin vakti var; saklamanın vakti, atmanın vakti var;"}, {"v": 7, "text": "yırtmanın vakti, dikmenin vakti var; susmanın vakti, konuşmanın vakti var;"}, {"v": 8, "text": "sevmenin vakti, nefret etmenin vakti var; savaşın vakti, barışın vakti var."}, {"v": 9, "text": "Peki çalışıp didinenin harcadığı emekten ne kazancı var?"}, {"v": 10, "text": "Tanrı’nın uğraşsın diye insanoğluna verdiği işi gördüm."}, {"v": 11, "text": "O her şeyi vaktinde ve güzel yaptı. Onların yüreğine de sonsuzluğu koydu; dolayısıyla, insanoğlu Tanrı’nın yaptığı işi baştan sona asla anlayamaz."}, {"v": 12, "text": "Anladım ki, insan için yaşamı boyunca iyilik etmekten ve sevinçli olmaktan daha güzel bir şey yok."}, {"v": 13, "text": "Her insan yesin, içsin, harcadığı tüm emeğin keyfini çıkarsın. Bu Tanrı’nın armağanıdır."}, {"v": 14, "text": "Anladım ki, Tanrı’nın yaptığı her şey çağlar boyu böyle sürüp gidecek. Ona ne bir şey eklenebilir ne de ondan bir şey çıkarılabilir; Tanrı insanlar Kendisinden korksun diye böyle yaptı."}, {"v": 15, "text": "Şimdi ne oluyorsa, daha önce de oldu, ileride de şimdiye dek olmuş olanlar olacak; Tanrı da kovalananlar uğruna uğraşmaya devam ediyor."}, {"v": 16, "text": "Ve yine güneş altında gördüm ki, adaletin yerini kötülük almış, doğruluğun yerine kötülük geçmiş."}, {"v": 17, "text": "Kendi kendime, “Tanrı doğru kişiyi de, kötü kişiyi de yargılayacak” dedim; “Çünkü her şeyin, her işin bir vakti var.”"}, {"v": 18, "text": "İnsanoğlu ile ilgili kendi kendime şöyle dedim: Tanrı onları eleyip ayırıyor ki, hayvanlardan farklı olmadıklarını görsünler."}, {"v": 19, "text": "Çünkü insan için de hayvan için de bir son var, ikisinin de sonu aynı. Biri nasıl ölüyorsa, öbürü de öyle ölüyor; hepsinde aynı ruh var, dolayısıyla insanın hayvana üstünlüğü yok, her şey boş."}, {"v": 20, "text": "Hepsi aynı yere gidiyor. Hepsi topraktan geldi ve toprağa dönüyor."}, {"v": 21, "text": "İnsanın ruhunun yukarıya çıktığını, hayvanın ruhunun aşağıya, yere indiğini kim biliyor?"}, {"v": 22, "text": "Gördüm ki, insanın yaptığı işten sevinç duymasından daha güzel bir şey yok, onun payı budur; çünkü kendisinden sonra olacakları görmesi için kim onu geri getirebilir?"}]}
+{
+  "content": [
+    {
+      "v": 1,
+      "text": "Her şeyin bir zamanı, gökler altında her işin bir vakti var:"
+    },
+    {
+      "v": 2,
+      "text": "Doğumun vakti, ölümün vakti var; dikmenin vakti, dikileni sökmenin vakti var;"
+    },
+    {
+      "v": 3,
+      "text": "öldürmenin vakti, şifa vermenin vakti var; yıkmanın vakti, yapmanın vakti var;"
+    },
+    {
+      "v": 4,
+      "text": "ağlamanın vakti, gülmenin vakti var; dövünmenin vakti, oynamanın vakti var;"
+    },
+    {
+      "v": 5,
+      "text": "taş atmanın vakti, taş toplamanın vakti var; kucaklaşmanın vakti, kucaklaşmaktan çekinmenin vakti var;"
+    },
+    {
+      "v": 6,
+      "text": "aramanın vakti, kaybetmeyi kabullenmenin vakti var; saklamanın vakti, atmanın vakti var;"
+    },
+    {
+      "v": 7,
+      "text": "yırtmanın vakti, dikmenin vakti var; susmanın vakti, konuşmanın vakti var;"
+    },
+    {
+      "v": 8,
+      "text": "sevmenin vakti, nefret etmenin vakti var; savaşın vakti, barışın vakti var."
+    },
+    {
+      "v": 9,
+      "text": "Peki çalışıp didinenin harcadığı emekten ne kazancı var?"
+    },
+    {
+      "v": 10,
+      "text": "Tanrı’nın uğraşsın diye insanoğluna verdiği işi gördüm."
+    },
+    {
+      "v": 11,
+      "text": "O her şeyi vaktinde ve güzel yaptı. Onların yüreğine de sonsuzluğu koydu; dolayısıyla, insanoğlu Tanrı’nın yaptığı işi baştan sona asla anlayamaz."
+    },
+    {
+      "v": 12,
+      "text": "Anladım ki, insan için yaşamı boyunca iyilik etmekten ve sevinçli olmaktan daha güzel bir şey yok."
+    },
+    {
+      "v": 13,
+      "text": "Her insan yesin, içsin, harcadığı tüm emeğin keyfini çıkarsın. Bu Tanrı’nın armağanıdır."
+    },
+    {
+      "v": 14,
+      "text": "Anladım ki, Tanrı’nın yaptığı her şey çağlar boyu böyle sürüp gidecek. Ona ne bir şey eklenebilir ne de ondan bir şey çıkarılabilir; Tanrı insanlar Kendisinden korksun diye böyle yaptı."
+    },
+    {
+      "v": 15,
+      "text": "Şimdi ne oluyorsa, daha önce de oldu, ileride de şimdiye dek olmuş olanlar olacak; Tanrı da kovalananlar uğruna uğraşmaya devam ediyor."
+    },
+    {
+      "v": 16,
+      "text": "Ve yine güneş altında gördüm ki, adaletin yerini kötülük almış, doğruluğun yerine kötülük geçmiş."
+    },
+    {
+      "v": 17,
+      "text": "Kendi kendime, “Tanrı doğru kişiyi de, kötü kişiyi de yargılayacak” dedim; “Çünkü her şeyin, her işin bir vakti var.”"
+    },
+    {
+      "v": 18,
+      "text": "İnsanoğlu ile ilgili kendi kendime şöyle dedim: Tanrı onları eleyip ayırıyor ki, hayvanlardan farklı olmadıklarını görsünler."
+    },
+    {
+      "v": 19,
+      "text": "Çünkü insan için de hayvan için de bir son var, ikisinin de sonu aynı. Biri nasıl ölüyorsa, öbürü de öyle ölüyor; hepsinde aynı ruh var, dolayısıyla insanın hayvana üstünlüğü yok, her şey boş."
+    },
+    {
+      "v": 20,
+      "text": "Hepsi aynı yere gidiyor. Hepsi topraktan geldi ve toprağa dönüyor."
+    },
+    {
+      "v": 21,
+      "text": "İnsanın ruhunun yukarıya çıktığını, hayvanın ruhunun aşağıya, yere indiğini kim biliyor?"
+    },
+    {
+      "v": 22,
+      "text": "Gördüm ki, insanın yaptığı işten sevinç duymasından daha güzel bir şey yok, onun payı budur; çünkü kendisinden sonra olacakları görmesi için kim onu geri getirebilir?"
+    }
+  ]
+}

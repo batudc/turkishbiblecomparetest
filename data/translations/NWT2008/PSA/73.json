@@ -1,1 +1,116 @@
-{"t": "NWT2008", "b": "PSA", "c": 73, "content": [{"v": 1, "text": "Tanrı İsrail’e, yüreği temiz olana gerçekten iyidir."}, {"v": 2, "text": "Fakat benim adımlarım neredeyse yoldan sapıyordu, Ayaklarım az kalsın kayacaktı."}, {"v": 3, "text": "Çünkü kötüleri huzur içinde gördüm, Küstahça böbürlenenleri kıskandım,"}, {"v": 4, "text": "Çünkü onlar ölüm sancıları çekmezler, Göbekleri yağ bağlamış."}, {"v": 5, "text": "Şu ölümlü insanın dertlerinden uzaklar, Diğerleri gibi çile çekmiyorlar."}, {"v": 6, "text": "Bu yüzden kibir onlara gerdanlık olmuş, Zorbalık giysi gibi üzerlerini örtmüş."}, {"v": 7, "text": "Gözleri şişmanlıktan dışarı fırlamış, Yüreklerindeki arzular fazlasıyla gerçekleşmiş."}, {"v": 8, "text": "Etrafı küçümser, kötülükler anlatırlar, Dolandırıcılıktan söz ederken küstahtırlar."}, {"v": 9, "text": "Ağızlarını açınca adeta göklerden konuşurlar, Dillerinden dökülen sözler de yeryüzünde dolaşır."}, {"v": 10, "text": "Böylece O’nun halkını da döndürür, Ve onlar içsin diye dolu kuyulardan su çekerler."}, {"v": 11, "text": "“Tanrı nereden bilsin?” diyorlar “Yüceler Yücesinde bilgi ne arar?”"}, {"v": 12, "text": "İşte, kötüler böyledir, hep rahat içindedirler, Mal mülk çoğaltıp dururlar."}, {"v": 13, "text": "Demek ki ben yüreğimi boşuna temizlemişim, Ellerimi suçsuzluk suyunda boşuna yıkamışım."}, {"v": 14, "text": "Bütün gün dertlerden başımı alamıyorum, Üstelik her sabah azar işitiyorum."}, {"v": 15, "text": "Bunları böylece hikâye etsem ne olurdu? İşte o zaman Senin çocuklarına Hainlik etmiş olurdum."}, {"v": 16, "text": "Bunları anlamak için düşünüp durdum; Fakat benim için zordu."}, {"v": 17, "text": "Tanrı’nın yüce mabedine gelene dek anlayamadım. Onların geleceği ne olacak bilmek istiyordum."}, {"v": 18, "text": "Gerçekten de Sen onları kaygan yerlere koydun, Hepsini yıkıma uğrattın."}, {"v": 19, "text": "Nasıl da bir anda şaşılacak duruma düştüler! Nasıl da sonları geldi ve ani felaketlerle tükeniverdiler!"}, {"v": 20, "text": "Ey Yehova, Sen ayağa kalkınca, Onları bir hayal gibi, uykudan sonra unutulan bir rüya gibi sileceksin."}, {"v": 21, "text": "Benim yüreğim buruklaşmış, Gönlüme derin acılar dolmuştu."}, {"v": 22, "text": "Senin önünde akılsız ve bilgisizdim, Bir hayvandan farkım yoktu."}, {"v": 23, "text": "Yine de daima Seninleyim, Benim sağ elimden tuttun."}, {"v": 24, "text": "Öğüdünle yol gösterirsin; Sonra da beni onurlandırırsın."}, {"v": 25, "text": "Göklerde Senden başka kimim var? Yeryüzünde de tek sevincim Sensin."}, {"v": 26, "text": "Bedenim ve yüreğim tükendi; Fakat Tanrı yüreğimin kayasıdır, devirler boyu payım O’dur."}, {"v": 27, "text": "İşte! Senden uzaklaşanları yok edersin, Seni ahlaksızca terk edenlerin soluğunu kesersin."}, {"v": 28, "text": "Fakat benim için en doğrusu Tanrı’ya yaklaşmak. Ulu Rab Yehova’ya sığındım, O’nun bütün işlerini bildireceğim."}]}
+{
+  "content": [
+    {
+      "v": 1,
+      "text": "Tanrı İsrail’e, yüreği temiz olana gerçekten iyidir."
+    },
+    {
+      "v": 2,
+      "text": "Fakat benim adımlarım neredeyse yoldan sapıyordu,Ayaklarım az kalsın kayacaktı."
+    },
+    {
+      "v": 3,
+      "text": "Çünkü kötüleri huzur içinde gördüm,Küstahça böbürlenenleri kıskandım,"
+    },
+    {
+      "v": 4,
+      "text": "Çünkü onlar ölüm sancıları çekmezler,Göbekleri yağ bağlamış."
+    },
+    {
+      "v": 5,
+      "text": "Şu ölümlü insanın dertlerinden uzaklar,Diğerleri gibi çile çekmiyorlar."
+    },
+    {
+      "v": 6,
+      "text": "Bu yüzden kibir onlara gerdanlık olmuş,Zorbalık giysi gibi üzerlerini örtmüş."
+    },
+    {
+      "v": 7,
+      "text": "Gözleri şişmanlıktan dışarı fırlamış,Yüreklerindeki arzular fazlasıyla gerçekleşmiş."
+    },
+    {
+      "v": 8,
+      "text": "Etrafı küçümser, kötülükler anlatırlar,Dolandırıcılıktan söz ederken küstahtırlar."
+    },
+    {
+      "v": 9,
+      "text": "Ağızlarını açınca adeta göklerden konuşurlar,Dillerinden dökülen sözler de yeryüzünde dolaşır."
+    },
+    {
+      "v": 10,
+      "text": "Böylece O’nun halkını da döndürür,Ve onlar içsin diye dolu kuyulardan su çekerler."
+    },
+    {
+      "v": 11,
+      "text": "“Tanrı nereden bilsin?” diyorlar“Yüceler Yücesinde bilgi ne arar?”"
+    },
+    {
+      "v": 12,
+      "text": "İşte, kötüler böyledir, hep rahat içindedirler,Mal mülk çoğaltıp dururlar."
+    },
+    {
+      "v": 13,
+      "text": "Demek ki ben yüreğimi boşuna temizlemişim,Ellerimi suçsuzluk suyunda boşuna yıkamışım."
+    },
+    {
+      "v": 14,
+      "text": "Bütün gün dertlerden başımı alamıyorum,Üstelik her sabah azar işitiyorum."
+    },
+    {
+      "v": 15,
+      "text": "Bunları böylece hikâye etsem ne olurdu?İşte o zaman Senin çocuklarınaHainlik etmiş olurdum."
+    },
+    {
+      "v": 16,
+      "text": "Bunları anlamak için düşünüp durdum;Fakat benim için zordu."
+    },
+    {
+      "v": 17,
+      "text": "Tanrı’nın yüce mabedine gelene dek anlayamadım.Onların geleceği ne olacak bilmek istiyordum."
+    },
+    {
+      "v": 18,
+      "text": "Gerçekten de Sen onları kaygan yerlere koydun,Hepsini yıkıma uğrattın."
+    },
+    {
+      "v": 19,
+      "text": "Nasıl da bir anda şaşılacak duruma düştüler!Nasıl da sonları geldi ve ani felaketlerle tükeniverdiler!"
+    },
+    {
+      "v": 20,
+      "text": "Ey Yehova, Sen ayağa kalkınca,Onları bir hayal gibi, uykudan sonra unutulan bir rüya gibi sileceksin."
+    },
+    {
+      "v": 21,
+      "text": "Benim yüreğim buruklaşmış,Gönlüme derin acılar dolmuştu."
+    },
+    {
+      "v": 22,
+      "text": "Senin önünde akılsız ve bilgisizdim,Bir hayvandan farkım yoktu."
+    },
+    {
+      "v": 23,
+      "text": "Yine de daima Seninleyim,Benim sağ elimden tuttun."
+    },
+    {
+      "v": 24,
+      "text": "Öğüdünle yol gösterirsin;Sonra da beni onurlandırırsın."
+    },
+    {
+      "v": 25,
+      "text": "Göklerde Senden başka kimim var? Yeryüzünde de tek sevincim Sensin."
+    },
+    {
+      "v": 26,
+      "text": "Bedenim ve yüreğim tükendi;Fakat Tanrı yüreğimin kayasıdır, devirler boyu payım O’dur."
+    },
+    {
+      "v": 27,
+      "text": "İşte! Senden uzaklaşanları yok edersin,Seni ahlaksızca terk edenlerin soluğunu kesersin."
+    },
+    {
+      "v": 28,
+      "text": "Fakat benim için en doğrusu Tanrı’ya yaklaşmak.Ulu Rab Yehova’ya sığındım,O’nun bütün işlerini bildireceğim."
+    }
+  ]
+}

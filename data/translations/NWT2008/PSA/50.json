@@ -1,1 +1,96 @@
-{"t": "NWT2008", "b": "PSA", "c": 50, "content": [{"v": 1, "text": "Kudretli Tanrı, Yehova konuştu, Gündoğusundan günbatısına, Tüm yeryüzüne seslendi."}, {"v": 2, "text": "Sion’dan, güzelliğin doruğundan Tanrı parladı."}, {"v": 3, "text": "Tanrımız gelecek, O suskun kalamaz. Önünden çıkan ateş silip süpürür. Çevresinde şiddetli fırtınalar eser durur."}, {"v": 4, "text": "Halkına verdiği hükmü yerine getirsinler diye, Göklere ve yere seslenir:"}, {"v": 5, "text": "“Vefalı kullarımı yanıma toplayın, Kurbanla ahde girdiklerimi.”"}, {"v": 6, "text": "Gökler O’nun adaletini anlatır, Çünkü hâkimlik eden Tanrı’dır. ( Selah )"}, {"v": 7, "text": "“Dinle ey halkım, Ben konuşayım, Ey İsrail, önüne kanıtlar koyayım, Ben Tanrıyım, senin Tanrın."}, {"v": 8, "text": "Seni kurbanlarından ötürü azarlamıyorum, Önümde sürekli sunduğun yakılan kurbanlardan ötürü de."}, {"v": 9, "text": "Ne evinden bir boğa, Ne de ağıllarından bir teke alırım."}, {"v": 10, "text": "Çünkü ormandaki bütün yaban hayvanları, Binlerce dağda yaşayan tüm hayvanlar Benimdir."}, {"v": 11, "text": "Dağlardaki bütün kuşları iyi bilirim, Kırlardaki hayvan sürüleri Benimdir."}, {"v": 12, "text": "Acıksam da sana söylemezdim; Çünkü yeryüzü ve üzerindeki her şey Benimdir."}, {"v": 13, "text": "Güçlü boğaların etini yer miyim, Tekelerin kanını içer miyim?"}, {"v": 14, "text": "Sen Tanrı’ya şükran kurbanı sun, Yüceler Yücesine adaklarını yerine getir."}, {"v": 15, "text": "Sıkıntı zamanında Bana seslen, Seni kurtarırım, sen de Beni yüceltirsin.”"}, {"v": 16, "text": "Kötü kişiye ise Tanrı şunu diyecek: “Ne hakla kurallarımı tekrarlayıp duruyorsun, Ve ahdimi ağzına alıyorsun?"}, {"v": 17, "text": "Sen ki, terbiyeden nefret ediyor Ve sözlerime sırt çeviriyorsun."}, {"v": 18, "text": "Bir hırsız görsen onunla ahbap oluyor, Zina yapanlarla işbirliği ediyorsun."}, {"v": 19, "text": "Ağzına gem vurmayıp kötülük saçıyor, Dilinden de hileyi düşürmüyorsun."}, {"v": 20, "text": "Oturup kardeşinin aleyhinde konuşuyor, Annenin oğlunun kusurunu ortaya seriyorsun."}, {"v": 21, "text": "Tüm bunları yaptın, ses çıkarmadım, Beni de kendine benzeteceğini sandın. Fakat seni terbiye edeceğim, yaptıklarını gözünün önüne sereceğim."}, {"v": 22, "text": "Ey Tanrı’yı unutanlar, bunu iyi anlayın, Yoksa sizi parçalarım, kurtaran çıkmaz."}, {"v": 23, "text": "Şükran kurbanı sunan Beni yüceltir, Ben de doğru yoldan şaşmayana, Tanrı nasıl kurtarır gösteririm.”"}]}
+{
+  "content": [
+    {
+      "v": 1,
+      "text": "Kudretli Tanrı, Yehova konuştu,Gündoğusundan günbatısına,Tüm yeryüzüne seslendi."
+    },
+    {
+      "v": 2,
+      "text": "Sion’dan, güzelliğin doruğundan Tanrı parladı."
+    },
+    {
+      "v": 3,
+      "text": "Tanrımız gelecek, O suskun kalamaz.Önünden çıkan ateş silip süpürür.Çevresinde şiddetli fırtınalar eser durur."
+    },
+    {
+      "v": 4,
+      "text": "Halkına verdiği hükmü yerine getirsinler diye,Göklere ve yere seslenir:"
+    },
+    {
+      "v": 5,
+      "text": "“Vefalı kullarımı yanıma toplayın,Kurbanla ahde girdiklerimi.”"
+    },
+    {
+      "v": 6,
+      "text": "Gökler O’nun adaletini anlatır,Çünkü hâkimlik eden Tanrı’dır. (Selah)"
+    },
+    {
+      "v": 7,
+      "text": "“Dinle ey halkım, Ben konuşayım,Ey İsrail, önüne kanıtlar koyayım,Ben Tanrıyım, senin Tanrın."
+    },
+    {
+      "v": 8,
+      "text": "Seni kurbanlarından ötürü azarlamıyorum,Önümde sürekli sunduğun yakılan kurbanlardan ötürü de."
+    },
+    {
+      "v": 9,
+      "text": "Ne evinden bir boğa,Ne de ağıllarından bir teke alırım."
+    },
+    {
+      "v": 10,
+      "text": "Çünkü ormandaki bütün yaban hayvanları,Binlerce dağda yaşayan tüm hayvanlar Benimdir."
+    },
+    {
+      "v": 11,
+      "text": "Dağlardaki bütün kuşları iyi bilirim,Kırlardaki hayvan sürüleri Benimdir."
+    },
+    {
+      "v": 12,
+      "text": "Acıksam da sana söylemezdim;Çünkü yeryüzü ve üzerindeki her şey Benimdir."
+    },
+    {
+      "v": 13,
+      "text": "Güçlü boğaların etini yer miyim,Tekelerin kanını içer miyim?"
+    },
+    {
+      "v": 14,
+      "text": "Sen Tanrı’ya şükran kurbanı sun,Yüceler Yücesine adaklarını yerine getir."
+    },
+    {
+      "v": 15,
+      "text": "Sıkıntı zamanında Bana seslen,Seni kurtarırım, sen de Beni yüceltirsin.”"
+    },
+    {
+      "v": 16,
+      "text": "Kötü kişiye ise Tanrı şunu diyecek:“Ne hakla kurallarımı tekrarlayıp duruyorsun,Ve ahdimi ağzına alıyorsun?"
+    },
+    {
+      "v": 17,
+      "text": "Sen ki, terbiyeden nefret ediyorVe sözlerime sırt çeviriyorsun."
+    },
+    {
+      "v": 18,
+      "text": "Bir hırsız görsen onunla ahbap oluyor,Zina yapanlarla işbirliği ediyorsun."
+    },
+    {
+      "v": 19,
+      "text": "Ağzına gem vurmayıp kötülük saçıyor,Dilinden de hileyi düşürmüyorsun."
+    },
+    {
+      "v": 20,
+      "text": "Oturup kardeşinin aleyhinde konuşuyor,Annenin oğlunun kusurunu ortaya seriyorsun."
+    },
+    {
+      "v": 21,
+      "text": "Tüm bunları yaptın, ses çıkarmadım,Beni de kendine benzeteceğini sandın.Fakat seni terbiye edeceğim, yaptıklarını gözünün önüne sereceğim."
+    },
+    {
+      "v": 22,
+      "text": "Ey Tanrı’yı unutanlar, bunu iyi anlayın,Yoksa sizi parçalarım, kurtaran çıkmaz."
+    },
+    {
+      "v": 23,
+      "text": "Şükran kurbanı sunan Beni yüceltir,Ben de doğru yoldan şaşmayana,Tanrı nasıl kurtarır gösteririm.”"
+    }
+  ]
+}

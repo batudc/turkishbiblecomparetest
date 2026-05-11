@@ -1,1 +1,32 @@
-{"t": "NWT2008", "b": "PSA", "c": 120, "content": [{"v": 1, "text": "Sıkıntıdayken Yehova’ya yakardım Ve bana cevap verdi."}, {"v": 2, "text": "Ey Yehova, kurtar canımı sahtekâr ağızdan, Hilekâr dilden."}, {"v": 3, "text": "Ey hilekâr dil, biliyor musun Sana ne verilecek, eline geçen ne olacak?"}, {"v": 4, "text": "Yiğidin sivri okları, Ve süpürgeçalısının yanan korları."}, {"v": 5, "text": "Vay halime, çünkü Meşek’te garip kaldım, Kedar çadırları arasına çadır kurdum."}, {"v": 6, "text": "Çok uzun zamandır Barıştan nefret edenler arasında oturuyorum."}, {"v": 7, "text": "Ben barış istiyorum; fakat ne zaman bundan söz etsem Onlar savaşa hazırlanıyor."}]}
+{
+  "content": [
+    {
+      "v": 1,
+      "text": "Sıkıntıdayken Yehova’ya yakardımVe bana cevap verdi."
+    },
+    {
+      "v": 2,
+      "text": "Ey Yehova, kurtar canımı sahtekâr ağızdan,Hilekâr dilden."
+    },
+    {
+      "v": 3,
+      "text": "Ey hilekâr dil, biliyor musunSana ne verilecek, eline geçen ne olacak?"
+    },
+    {
+      "v": 4,
+      "text": "Yiğidin sivri okları,Ve süpürgeçalısının yanan korları."
+    },
+    {
+      "v": 5,
+      "text": "Vay halime, çünkü Meşek’te garip kaldım,Kedar çadırları arasına çadır kurdum."
+    },
+    {
+      "v": 6,
+      "text": "Çok uzun zamandırBarıştan nefret edenler arasında oturuyorum."
+    },
+    {
+      "v": 7,
+      "text": "Ben barış istiyorum; fakat ne zaman bundan söz etsemOnlar savaşa hazırlanıyor."
+    }
+  ]
+}

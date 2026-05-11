@@ -1,1 +1,124 @@
-{"t": "NWT2008", "b": "JOB", "c": 39, "content": [{"v": 1, "text": "“Sarp kayalıklarda dolaşan dağ keçilerinin yavrulama vaktini biliyor musun? Geyikleri sancılar içinde doğururken hiç gözledin mi?"}, {"v": 2, "text": "Doldurdukları ayları hesaplayabilir misin, Doğuracakları vakti bilir misin?"}, {"v": 3, "text": "Yere çöküp yavrularını doğururlar, Sancılarından kurtulurlar."}, {"v": 4, "text": "Yavrular gürbüzleşir, kırlarda büyürler; Sonra uzaklara gider ve analarına dönmezler."}, {"v": 5, "text": "Kim zebrayı özgür bıraktı, Yaban eşeğinin bağlarını kim çözdü?"}, {"v": 6, "text": "Ben ona yurt olarak bozkırı, Barınak olarak tuz diyarını vermedim mi?"}, {"v": 7, "text": "Şehrin kargaşasına güler geçer o; İz sürenin sesini duymaz bile."}, {"v": 8, "text": "Otlak arayarak dağları dolaşır, Her yeşil bitkinin peşine düşer."}, {"v": 9, "text": "Yaban sığırı sana hizmet eder mi, Senin yemliğinin yanında geceler mi?"}, {"v": 10, "text": "Onu bağlayıp saban yarıklarında dolaştırabilir misin? Ovalarda peşin sıra tırmık çeker mi?"}, {"v": 11, "text": "Büyük gücüne bel bağlayıp Zahmetli işini ona bırakabilir misin?"}, {"v": 12, "text": "Ekinini sana getireceğine, Harman yerine toplayacağına güvenebilir misin?"}, {"v": 13, "text": "Devekuşu sevinçle kanat çırpar mı, Onda leyleğin telek ve tüyleri var mı?"}, {"v": 14, "text": "Yumurtalarını yere bırakır, Toprağa gömerek sıcak tutar;"}, {"v": 15, "text": "Onların ayak altında ezilebileceğini, Yaban hayvanları tarafından çiğnenebileceğini unutur."}, {"v": 16, "text": "Yavrularına acımasızca davranır; kendisinin değillermiş gibi, Onlar için kaygılanmadığından zahmeti boşa gider."}, {"v": 17, "text": "Çünkü Tanrı ona hikmeti unutturmuştur, Anlayıştan pay vermemiştir."}, {"v": 18, "text": "Fakat kanat çırparken ayakları yerden kesildiğinde, Ata ve binicisine güler."}, {"v": 19, "text": "Sen misin ata gücünü veren, Dalgalanan yeleyi boynuna giydiren?"}, {"v": 20, "text": "Onu çekirge gibi sıçratan? O at ki, gururla burnundan soluması dehşetlidir."}, {"v": 21, "text": "Toynaklarıyla ovayı eşeler, tüm gücüyle sıçrar, Silahlıların üzerine yürür."}, {"v": 22, "text": "Dehşete güler geçer, yılmaz; Kılıcı görünce dönüp kaçmaz."}, {"v": 23, "text": "Mızrağın ve kargının ucu, Ok kılıfı, üzerinde takırdar."}, {"v": 24, "text": "Yeri inleterek heyecanla yutar mesafeleri, Boru sesini duyunca kulaklarına inanamaz."}, {"v": 25, "text": "Boru öter ötmez “He-hey!” diye kişnemeye başlar, Savaşın kokusunu uzaktan duyar, Komutanların gürlemesini ve savaş çığlıklarını da."}, {"v": 26, "text": "Doğan senin aklına mı borçlu havada süzülüşünü, Güney rüzgârına kanat açışını?"}, {"v": 27, "text": "Kartal senin emrinle mi yükseklere uçuyor, Yuvasını yükseklerde kuruyor,"}, {"v": 28, "text": "Sarp kayalıklarda tünüyor, Sivri kayaların ucunda, erişilmez yerlerde geceliyor?"}, {"v": 29, "text": "Yiyeceğini oradan araştırıyor, Gözleriyle çok uzakları tarıyor."}, {"v": 30, "text": "Yavruları yudum yudum kan içiyor; Leş neredeyse o da orada.”"}]}
+{
+  "content": [
+    {
+      "v": 1,
+      "text": "“Sarp kayalıklarda dolaşan dağ keçilerinin yavrulama vaktini biliyor musun?Geyikleri sancılar içinde doğururken hiç gözledin mi?"
+    },
+    {
+      "v": 2,
+      "text": "Doldurdukları ayları hesaplayabilir misin,Doğuracakları vakti bilir misin?"
+    },
+    {
+      "v": 3,
+      "text": "Yere çöküp yavrularını doğururlar,Sancılarından kurtulurlar."
+    },
+    {
+      "v": 4,
+      "text": "Yavrular gürbüzleşir, kırlarda büyürler;Sonra uzaklara gider ve analarına dönmezler."
+    },
+    {
+      "v": 5,
+      "text": "Kim zebrayı özgür bıraktı,Yaban eşeğinin bağlarını kim çözdü?"
+    },
+    {
+      "v": 6,
+      "text": "Ben ona yurt olarak bozkırı,Barınak olarak tuz diyarını vermedim mi?"
+    },
+    {
+      "v": 7,
+      "text": "Şehrin kargaşasına güler geçer o;İz sürenin sesini duymaz bile."
+    },
+    {
+      "v": 8,
+      "text": "Otlak arayarak dağları dolaşır,Her yeşil bitkinin peşine düşer."
+    },
+    {
+      "v": 9,
+      "text": "Yaban sığırı sana hizmet eder mi,Senin yemliğinin yanında geceler mi?"
+    },
+    {
+      "v": 10,
+      "text": "Onu bağlayıp saban yarıklarında dolaştırabilir misin?Ovalarda peşin sıra tırmık çeker mi?"
+    },
+    {
+      "v": 11,
+      "text": "Büyük gücüne bel bağlayıpZahmetli işini ona bırakabilir misin?"
+    },
+    {
+      "v": 12,
+      "text": "Ekinini sana getireceğine,Harman yerine toplayacağına güvenebilir misin?"
+    },
+    {
+      "v": 13,
+      "text": "Devekuşu sevinçle kanat çırpar mı,Onda leyleğin telek ve tüyleri var mı?"
+    },
+    {
+      "v": 14,
+      "text": "Yumurtalarını yere bırakır,Toprağa gömerek sıcak tutar;"
+    },
+    {
+      "v": 15,
+      "text": "Onların ayak altında ezilebileceğini,Yaban hayvanları tarafından çiğnenebileceğini unutur."
+    },
+    {
+      "v": 16,
+      "text": "Yavrularına acımasızca davranır; kendisinin değillermiş gibi,Onlar için kaygılanmadığından zahmeti boşa gider."
+    },
+    {
+      "v": 17,
+      "text": "Çünkü Tanrı ona hikmeti unutturmuştur,Anlayıştan pay vermemiştir."
+    },
+    {
+      "v": 18,
+      "text": "Fakat kanat çırparken ayakları yerden kesildiğinde,Ata ve binicisine güler."
+    },
+    {
+      "v": 19,
+      "text": "Sen misin ata gücünü veren,Dalgalanan yeleyi boynuna giydiren?"
+    },
+    {
+      "v": 20,
+      "text": "Onu çekirge gibi sıçratan?O at ki, gururla burnundan soluması dehşetlidir."
+    },
+    {
+      "v": 21,
+      "text": "Toynaklarıyla ovayı eşeler, tüm gücüyle sıçrar,Silahlıların üzerine yürür."
+    },
+    {
+      "v": 22,
+      "text": "Dehşete güler geçer, yılmaz;Kılıcı görünce dönüp kaçmaz."
+    },
+    {
+      "v": 23,
+      "text": "Mızrağın ve kargının ucu,Ok kılıfı, üzerinde takırdar."
+    },
+    {
+      "v": 24,
+      "text": "Yeri inleterek heyecanla yutar mesafeleri,Boru sesini duyunca kulaklarına inanamaz."
+    },
+    {
+      "v": 25,
+      "text": "Boru öter ötmez “He-hey!” diye kişnemeye başlar,Savaşın kokusunu uzaktan duyar,Komutanların gürlemesini ve savaş çığlıklarını da."
+    },
+    {
+      "v": 26,
+      "text": "Doğan senin aklına mı borçlu havada süzülüşünü,Güney rüzgârına kanat açışını?"
+    },
+    {
+      "v": 27,
+      "text": "Kartal senin emrinle mi yükseklere uçuyor,Yuvasını yükseklerde kuruyor,"
+    },
+    {
+      "v": 28,
+      "text": "Sarp kayalıklarda tünüyor,Sivri kayaların ucunda, erişilmez yerlerde geceliyor?"
+    },
+    {
+      "v": 29,
+      "text": "Yiyeceğini oradan araştırıyor,Gözleriyle çok uzakları tarıyor."
+    },
+    {
+      "v": 30,
+      "text": "Yavruları yudum yudum kan içiyor;Leş neredeyse o da orada.”"
+    }
+  ]
+}

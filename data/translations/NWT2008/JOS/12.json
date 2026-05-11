@@ -1,1 +1,100 @@
-{"t": "NWT2008", "b": "JOS", "c": 12, "content": [{"v": 1, "text": "Ürdün Irmağının doğusunda, Arnon Vadisinden Hermon Dağına kadar ve gündoğusu yönünde bütün Araba bölgesinde, İsrailoğullarının yenip topraklarını ele geçirdiği krallar şunlardır:"}, {"v": 2, "text": "Heşbon’da oturan Amorilerin kralı Sihon: onun yönetiminde olan bölge, Arnon Vadisinin kenarında yer alan Aroer’den, vadinin ortasından başlayıp Ammonoğullarının sınırı olan Yabbok Vadisine kadar uzanıyor, Gilead’ın yarısını içine alıyordu."}, {"v": 3, "text": "Araba bölgesinde, doğuda Kinneret Gölünden, yine doğuda Beyt-yeşimot doğrultusundaki Araba Gölüne (Tuz Gölü) ve güneyde Pisga yamaçlarına kadar uzanan bölge de onun yönetimindeydi."}, {"v": 4, "text": "Aştarot ve Edrei’de oturan, Refaoğullarının sonuncularından Başan kralı Og;"}, {"v": 5, "text": "onun yönettiği bölge, Hermon Dağını, Saleka’yı, bütün Başan’ı kapsıyordu; Geşurilerin ve Maakatlıların sınırına kadar uzanıp Gilead bölgesinin yarısını ve Heşbon kralı Sihon’un yönetim bölgesine kadar olan bütün toprakları içine alıyordu."}, {"v": 6, "text": "Yehova’nın kulu Musa ve İsrailoğulları bu kralları yenmişti. Yehova’nın kulu Musa sonra bu bölgeyi Rubenoğullarına, Gadoğullarına ve Manasse kabilesinin yarısına vermişti."}, {"v": 7, "text": "Yeşu ve İsrailoğullarının Ürdün Irmağının batı tarafında Lübnan Ovasındaki Baal-gad’dan, Seir’e bakan Halak Dağına kadar uzanan bölgede yendiği krallar şunlardır: (Yeşu daha sonra bu bölgeyi İsrail kabilelerine mülk olarak paylaştırdı."}, {"v": 8, "text": "Bu bölge, Hititlerin, Amorilerin, Kenanlıların, Perizzilerin, Hivilerin ve Yebusilerin yaşadığı dağlık bölgeyi, Şefela’yı, Araba’yı, yamaçları, çölü ve Necef’i kapsıyordu.)"}, {"v": 9, "text": "Eriha kralı, Beytel yakınındaki Ay şehrinin kralı,"}, {"v": 10, "text": "Yeruşalim kralı, Hebron kralı,"}, {"v": 11, "text": "Yarmut kralı, Lakiş kralı,"}, {"v": 12, "text": "Eglon kralı, Gezer kralı,"}, {"v": 13, "text": "Debir kralı, Geder kralı,"}, {"v": 14, "text": "Horma kralı, Arad kralı,"}, {"v": 15, "text": "Libna kralı, Adullam kralı,"}, {"v": 16, "text": "Makkeda kralı, Beytel kralı,"}, {"v": 17, "text": "Tappuah kralı, Hefer kralı,"}, {"v": 18, "text": "Afek kralı, Laşşaron kralı,"}, {"v": 19, "text": "Madon kralı, Hatsor kralı,"}, {"v": 20, "text": "Şimron-meron kralı, Akşaf kralı,"}, {"v": 21, "text": "Taanak kralı, Megiddo kralı,"}, {"v": 22, "text": "Kedeş kralı, Karmel’deki Yokneam kralı,"}, {"v": 23, "text": "Dor dağlık bölgesinde yaşayan Dor kralı, Gilgal’deki Goyim kralı,"}, {"v": 24, "text": "Tirtsa kralı. Toplam otuz bir kral."}]}
+{
+  "content": [
+    {
+      "v": 1,
+      "text": "Ürdün Irmağının doğusunda, Arnon Vadisinden Hermon Dağına kadar ve gündoğusu yönünde bütün Araba bölgesinde, İsrailoğullarının yenip topraklarını ele geçirdiği krallar şunlardır:"
+    },
+    {
+      "v": 2,
+      "text": "Heşbon’da oturan Amorilerin kralı Sihon: onun yönetiminde olan bölge, Arnon Vadisinin kenarında yer alan Aroer’den, vadinin ortasından başlayıp Ammonoğullarının sınırı olan Yabbok Vadisine kadar uzanıyor, Gilead’ın yarısını içine alıyordu."
+    },
+    {
+      "v": 3,
+      "text": "Araba bölgesinde, doğuda Kinneret Gölünden, yine doğuda Beyt-yeşimot doğrultusundaki Araba Gölüne (Tuz Gölü) ve güneyde Pisga yamaçlarına kadar uzanan bölge de onun yönetimindeydi."
+    },
+    {
+      "v": 4,
+      "text": "Aştarot ve Edrei’de oturan, Refaoğullarının sonuncularından Başan kralı Og;"
+    },
+    {
+      "v": 5,
+      "text": "onun yönettiği bölge, Hermon Dağını, Saleka’yı, bütün Başan’ı kapsıyordu; Geşurilerin ve Maakatlıların sınırına kadar uzanıp Gilead bölgesinin yarısını ve Heşbon kralı Sihon’un yönetim bölgesine kadar olan bütün toprakları içine alıyordu."
+    },
+    {
+      "v": 6,
+      "text": "Yehova’nın kulu Musa ve İsrailoğulları bu kralları yenmişti. Yehova’nın kulu Musa sonra bu bölgeyi Rubenoğullarına, Gadoğullarına ve Manasse kabilesinin yarısına vermişti."
+    },
+    {
+      "v": 7,
+      "text": "Yeşu ve İsrailoğullarının Ürdün Irmağının batı tarafında Lübnan Ovasındaki Baal-gad’dan, Seir’e bakan Halak Dağına kadar uzanan bölgede yendiği krallar şunlardır: (Yeşu daha sonra bu bölgeyi İsrail kabilelerine mülk olarak paylaştırdı."
+    },
+    {
+      "v": 8,
+      "text": "Bu bölge, Hititlerin, Amorilerin, Kenanlıların, Perizzilerin, Hivilerin ve Yebusilerin yaşadığı dağlık bölgeyi, Şefela’yı, Araba’yı, yamaçları, çölü ve Necef’i kapsıyordu.)"
+    },
+    {
+      "v": 9,
+      "text": "Eriha kralı, Beytel yakınındaki Ay şehrinin kralı,"
+    },
+    {
+      "v": 10,
+      "text": "Yeruşalim kralı, Hebron kralı,"
+    },
+    {
+      "v": 11,
+      "text": "Yarmut kralı, Lakiş kralı,"
+    },
+    {
+      "v": 12,
+      "text": "Eglon kralı, Gezer kralı,"
+    },
+    {
+      "v": 13,
+      "text": "Debir kralı, Geder kralı,"
+    },
+    {
+      "v": 14,
+      "text": "Horma kralı, Arad kralı,"
+    },
+    {
+      "v": 15,
+      "text": "Libna kralı, Adullam kralı,"
+    },
+    {
+      "v": 16,
+      "text": "Makkeda kralı, Beytel kralı,"
+    },
+    {
+      "v": 17,
+      "text": "Tappuah kralı, Hefer kralı,"
+    },
+    {
+      "v": 18,
+      "text": "Afek kralı, Laşşaron kralı,"
+    },
+    {
+      "v": 19,
+      "text": "Madon kralı, Hatsor kralı,"
+    },
+    {
+      "v": 20,
+      "text": "Şimron-meron kralı, Akşaf kralı,"
+    },
+    {
+      "v": 21,
+      "text": "Taanak kralı, Megiddo kralı,"
+    },
+    {
+      "v": 22,
+      "text": "Kedeş kralı, Karmel’deki Yokneam kralı,"
+    },
+    {
+      "v": 23,
+      "text": "Dor dağlık bölgesinde yaşayan Dor kralı, Gilgal’deki Goyim kralı,"
+    },
+    {
+      "v": 24,
+      "text": "Tirtsa kralı. Toplam otuz bir kral."
+    }
+  ]
+}

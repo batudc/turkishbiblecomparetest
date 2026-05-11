@@ -1,1 +1,64 @@
-{"t": "NWT2008", "b": "EST", "c": 3, "content": [{"v": 1, "text": "Bu olanlardan sonra Kral Ahaşveroş, Agagoğullarından Hammedata oğlu Haman’ı onurlandırıp konumunu yükseltti; onu yanındaki tüm yöneticilerden daha yüksek bir makama getirdi."}, {"v": 2, "text": "Kralın emri olduğundan, kral kapısındaki tüm hizmetkârlar Haman’ın önünde eğilir ve yere kapanırdı. Fakat Mordekay eğilmez ve yere kapanmazdı."}, {"v": 3, "text": "Kral kapısında görevli diğer hizmetkârlar Mordekay’a “Kralın emrini neden çiğniyorsun?” diye soruyorlardı."}, {"v": 4, "text": "Her gün böyle konuşmalarına rağmen Mordekay onlara aldırmazdı. Bunun üzerine durumu Haman’a anlattılar. Mordekay kendilerine Yahudi olduğunu söylediğinden, bu tutumu daha ne kadar sürdürebileceğini görmek istiyorlardı."}, {"v": 5, "text": "Mordekay’ın kendi önünde eğilip yere kapanmadığını gördükçe Haman’ın öfkesi kabarıyordu."}, {"v": 6, "text": "Fakat sadece Mordekay’ı cezalandırmanın itibarına yakışmayacağını düşündü. Onun hangi halktan olduğunu öğrenmişti; böylece Haman, Ahaşveroş’un ülkesinde yaşayan bütün Yahudileri, Mordekay’ın halkını yok etme planları yapmaya başladı."}, {"v": 7, "text": "Kral Ahaşveroş’un on ikinci yılında, birinci ay olan Nisan ayında Haman’ın önünde, günü ve ayı belirlemek için kura çekildi; Pur denilen bu kurada on ikinci ay, yani Adar ayı çıktı."}, {"v": 8, "text": "Haman Kral Ahaşveroş’a şunu söyledi: “Ülkenizin tüm vilayetlerinde halklar arasına dağılmış, fakat kendini onlardan ayrı tutan bir halk var. Kanunları diğer tüm halklarınkinden farklı; kralın kanunlarına da uymuyorlar. Onları böyle kendi hallerine bırakmak kral için uygun değildir."}, {"v": 9, "text": "Eğer krala uygun görünürse, onların ortadan kaldırılması için bir yazı yazılsın; ben de kralın hazinesine getirsinler diye kralın işlerini görenlere on bin talant gümüş vereceğim.”"}, {"v": 10, "text": "Bunun üzerine kral mühür yüzüğünü parmağından çıkardı ve Yahudilere düşmanlık besleyen, Agagoğullarından Hammedata oğlu Haman’a verdi."}, {"v": 11, "text": "Ona “Gümüş ve halk senin eline verilmiştir; nasıl uygun görüyorsan öyle yap” dedi."}, {"v": 12, "text": "Birinci ayın on üçüncü gününde kralın yazmanları çağrıldı ve kralın satraplarına, vilayetlerin valilerine ve halkların yöneticilerine, Haman’ın emrine göre yazılar yazıldı. Belgeler Kral Ahaşveroş adına her vilayetin kendi yazısıyla ve her halkın kendi dilinde hazırlandı ve kralın mühür yüzüğüyle mühürlendi."}, {"v": 13, "text": "Bu mektuplar kralın ülkesindeki tüm vilayetlere ulaklar aracılığıyla gönderildi. Mektuplarda, bir kıyıma girişilerek, kadın, çocuk, genç, yaşlı tüm Yahudilerin bir günde, on ikinci ay olan Adar ayının on üçüncü gününde öldürülüp yok edilmesi, mallarının yağmalanması emrediliyordu."}, {"v": 14, "text": "Bu yazının bir sureti tüm vilayetlere kanun olarak gönderilecek ve o güne hazır olmaları tüm halklara duyurulacaktı."}, {"v": 15, "text": "Ulaklar kralın emriyle aceleyle yola çıktılar. Ayrıca kanun Susa kalesinde de duyuruldu. Kral ve Haman içki içmeye oturdular. Susa şehrinde ise, halk şaşkınlık içindeydi."}]}
+{
+  "content": [
+    {
+      "v": 1,
+      "text": "Bu olanlardan sonra Kral Ahaşveroş, Agagoğullarından Hammedata oğlu Haman’ı onurlandırıp konumunu yükseltti; onu yanındaki tüm yöneticilerden daha yüksek bir makama getirdi."
+    },
+    {
+      "v": 2,
+      "text": "Kralın emri olduğundan, kral kapısındaki tüm hizmetkârlar Haman’ın önünde eğilir ve yere kapanırdı. Fakat Mordekay eğilmez ve yere kapanmazdı."
+    },
+    {
+      "v": 3,
+      "text": "Kral kapısında görevli diğer hizmetkârlar Mordekay’a “Kralın emrini neden çiğniyorsun?” diye soruyorlardı."
+    },
+    {
+      "v": 4,
+      "text": "Her gün böyle konuşmalarına rağmen Mordekay onlara aldırmazdı. Bunun üzerine durumu Haman’a anlattılar. Mordekay kendilerine Yahudi olduğunu söylediğinden, bu tutumu daha ne kadar sürdürebileceğini görmek istiyorlardı."
+    },
+    {
+      "v": 5,
+      "text": "Mordekay’ın kendi önünde eğilip yere kapanmadığını gördükçe Haman’ın öfkesi kabarıyordu."
+    },
+    {
+      "v": 6,
+      "text": "Fakat sadece Mordekay’ı cezalandırmanın itibarına yakışmayacağını düşündü. Onun hangi halktan olduğunu öğrenmişti; böylece Haman, Ahaşveroş’un ülkesinde yaşayan bütün Yahudileri, Mordekay’ın halkını yok etme planları yapmaya başladı."
+    },
+    {
+      "v": 7,
+      "text": "Kral Ahaşveroş’un on ikinci yılında, birinci ay olan Nisan ayında Haman’ın önünde, günü ve ayı belirlemek için kura çekildi; Pur denilen bu kurada on ikinci ay, yani Adar ayı çıktı."
+    },
+    {
+      "v": 8,
+      "text": "Haman Kral Ahaşveroş’a şunu söyledi: “Ülkenizin tüm vilayetlerinde halklar arasına dağılmış, fakat kendini onlardan ayrı tutan bir halk var. Kanunları diğer tüm halklarınkinden farklı; kralın kanunlarına da uymuyorlar. Onları böyle kendi hallerine bırakmak kral için uygun değildir."
+    },
+    {
+      "v": 9,
+      "text": "Eğer krala uygun görünürse, onların ortadan kaldırılması için bir yazı yazılsın; ben de kralın hazinesine getirsinler diye kralın işlerini görenlere on bin talant gümüş vereceğim.”"
+    },
+    {
+      "v": 10,
+      "text": "Bunun üzerine kral mühür yüzüğünü parmağından çıkardı ve Yahudilere düşmanlık besleyen, Agagoğullarından Hammedata oğlu Haman’a verdi."
+    },
+    {
+      "v": 11,
+      "text": "Ona “Gümüş ve halk senin eline verilmiştir; nasıl uygun görüyorsan öyle yap” dedi."
+    },
+    {
+      "v": 12,
+      "text": "Birinci ayın on üçüncü gününde kralın yazmanları çağrıldı ve kralın satraplarına, vilayetlerin valilerine ve halkların yöneticilerine, Haman’ın emrine göre yazılar yazıldı. Belgeler Kral Ahaşveroş adına her vilayetin kendi yazısıyla ve her halkın kendi dilinde hazırlandı ve kralın mühür yüzüğüyle mühürlendi."
+    },
+    {
+      "v": 13,
+      "text": "Bu mektuplar kralın ülkesindeki tüm vilayetlere ulaklar aracılığıyla gönderildi. Mektuplarda, bir kıyıma girişilerek, kadın, çocuk, genç, yaşlı tüm Yahudilerin bir günde, on ikinci ay olan Adar ayının on üçüncü gününde öldürülüp yok edilmesi, mallarının yağmalanması emrediliyordu."
+    },
+    {
+      "v": 14,
+      "text": "Bu yazının bir sureti tüm vilayetlere kanun olarak gönderilecek ve o güne hazır olmaları tüm halklara duyurulacaktı."
+    },
+    {
+      "v": 15,
+      "text": "Ulaklar kralın emriyle aceleyle yola çıktılar. Ayrıca kanun Susa kalesinde de duyuruldu. Kral ve Haman içki içmeye oturdular. Susa şehrinde ise, halk şaşkınlık içindeydi."
+    }
+  ]
+}

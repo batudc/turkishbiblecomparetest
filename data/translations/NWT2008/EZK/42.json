@@ -1,1 +1,84 @@
-{"t": "NWT2008", "b": "EZK", "c": 42, "content": [{"v": 1, "text": "Daha sonra adam beni kuzeye giden yoldan dış avluya çıkardı. Oradan da açık alanın önünde, yapının kuzeyinde yer alan yemek odalarının bulunduğu kısma götürdü."}, {"v": 2, "text": "Bu kısmın genişliği elli arşındı, yüz arşın uzunluğundaki yan duvarın önünde kuzeye bakan bir giriş vardı."}, {"v": 3, "text": "İç avludaki yirmi arşınlık bölümle dış avludaki taş zemin arasında, üç kat karşılıklı teraslar vardı."}, {"v": 4, "text": "İçeride, yemek odalarının önünde genişliği on arşın olan bir yol ve bir arşınlık bir geçit vardı. Girişler kuzeye bakıyordu."}, {"v": 5, "text": "En üst kattaki yemek odaları daha küçüktü; çünkü teraslar binanın üst katında, diğer katlara göre daha çok yer kaplıyordu."}, {"v": 6, "text": "Üç kat vardı ve avludaki gibi sütunlar yoktu. Bu nedenle, en alt kat ve orta kata göre üst katın zemininde daha az yer bırakılmıştı."}, {"v": 7, "text": "Dış avlu tarafındaki yemek odalarının yanında, diğer odaların ön tarafında, taştan bir dış duvar vardı ve uzunluğu elli arşındı."}, {"v": 8, "text": "Dış avlu tarafındaki yemek odalarının toplam uzunluğu elli arşındı. Mabet tarafındaki uzunluk ise yüz arşındı."}, {"v": 9, "text": "Birinci katta, dış avludan yemek odalarının bulunduğu kısma girmek için doğuya bakan bir giriş vardı."}, {"v": 10, "text": "Mabede, avludaki açık alana bakan tarafta yemek odaları vardı; bunların genişliği doğu tarafında avluya bakan taş duvar kadardı."}, {"v": 11, "text": "Kuzey tarafındaki yemek odalarında olduğu gibi, bunların önünde de bir yol vardı. Odaların uzunlukları, genişlikleri, bütün girişleri, çıkışları ve planları kuzeydekilerle aynıydı."}, {"v": 12, "text": "Yemek odalarına girmek için, güney tarafındaki yemek odalarının girişinde olduğu gibi, doğu tarafındaki taş duvara paralel yolun başında da bir giriş vardı."}, {"v": 13, "text": "Adam bana şöyle dedi: “Kuzey ve güney kısımlarındaki yemek odaları, Yehova’nın huzuruna yaklaşan kâhinlerin çok kutsal olan sunuları yedikleri kutsal yemek odalarıdır. Orası kutsal bir yer olduğu için, çok kutsal olan tahıl sunusunu, günah sunusunu ve suç sunusunu orada tutarlar."}, {"v": 14, "text": "Kâhinler içeri girdikten sonra, hizmet ederken giydikleri giysileri orada bırakmadan kutsal yerden dış avluya çıkmayacaklar, çünkü bu giysiler kutsaldır. Ancak üzerlerindeki giysileri değiştirdikten sonra halkın bulunduğu yerlere gidecekler.”"}, {"v": 15, "text": "Adam mabedin iç alanındaki ölçümleri bitirdikten sonra beni doğudaki kapıdan dışarı çıkardı ve orayı da çepçevre ölçtü."}, {"v": 16, "text": "Ölçü kamışıyla doğu tarafını ölçtü; toplam beş yüz kamıştı."}, {"v": 17, "text": "Kuzey tarafını ölçtü, ölçü kamışıyla toplam beş yüz kamıştı."}, {"v": 18, "text": "Güney tarafını ölçtü, ölçü kamışıyla beş yüz kamıştı."}, {"v": 19, "text": "Sonra da batı tarafına geçip orayı ölçtü, ölçü kamışıyla beş yüz kamıştı."}, {"v": 20, "text": "Böylece dört tarafı da ölçtü; mabet alanının çevresinde, beş yüz kamış uzunluğunda ve beş yüz kamış genişliğinde bir duvar vardı, kutsal olan ile olmayanı birbirinden ayırıyordu."}]}
+{
+  "content": [
+    {
+      "v": 1,
+      "text": "Daha sonra adam beni kuzeye giden yoldan dış avluya çıkardı. Oradan da açık alanın önünde, yapının kuzeyinde yer alan yemek odalarının bulunduğu kısma götürdü."
+    },
+    {
+      "v": 2,
+      "text": "Bu kısmın genişliği elli arşındı, yüz arşın uzunluğundaki yan duvarın önünde kuzeye bakan bir giriş vardı."
+    },
+    {
+      "v": 3,
+      "text": "İç avludaki yirmi arşınlık bölümle dış avludaki taş zemin arasında, üç kat karşılıklı teraslar vardı."
+    },
+    {
+      "v": 4,
+      "text": "İçeride, yemek odalarının önünde genişliği on arşın olan bir yol ve bir arşınlık bir geçit vardı. Girişler kuzeye bakıyordu."
+    },
+    {
+      "v": 5,
+      "text": "En üst kattaki yemek odaları daha küçüktü; çünkü teraslar binanın üst katında, diğer katlara göre daha çok yer kaplıyordu."
+    },
+    {
+      "v": 6,
+      "text": "Üç kat vardı ve avludaki gibi sütunlar yoktu. Bu nedenle, en alt kat ve orta kata göre üst katın zemininde daha az yer bırakılmıştı."
+    },
+    {
+      "v": 7,
+      "text": "Dış avlu tarafındaki yemek odalarının yanında, diğer odaların ön tarafında, taştan bir dış duvar vardı ve uzunluğu elli arşındı."
+    },
+    {
+      "v": 8,
+      "text": "Dış avlu tarafındaki yemek odalarının toplam uzunluğu elli arşındı. Mabet tarafındaki uzunluk ise yüz arşındı."
+    },
+    {
+      "v": 9,
+      "text": "Birinci katta, dış avludan yemek odalarının bulunduğu kısma girmek için doğuya bakan bir giriş vardı."
+    },
+    {
+      "v": 10,
+      "text": "Mabede, avludaki açık alana bakan tarafta yemek odaları vardı; bunların genişliği doğu tarafında avluya bakan taş duvar kadardı."
+    },
+    {
+      "v": 11,
+      "text": "Kuzey tarafındaki yemek odalarında olduğu gibi, bunların önünde de bir yol vardı. Odaların uzunlukları, genişlikleri, bütün girişleri, çıkışları ve planları kuzeydekilerle aynıydı."
+    },
+    {
+      "v": 12,
+      "text": "Yemek odalarına girmek için, güney tarafındaki yemek odalarının girişinde olduğu gibi, doğu tarafındaki taş duvara paralel yolun başında da bir giriş vardı."
+    },
+    {
+      "v": 13,
+      "text": "Adam bana şöyle dedi: “Kuzey ve güney kısımlarındaki yemek odaları, Yehova’nın huzuruna yaklaşan kâhinlerin çok kutsal olan sunuları yedikleri kutsal yemek odalarıdır. Orası kutsal bir yer olduğu için, çok kutsal olan tahıl sunusunu, günah sunusunu ve suç sunusunu orada tutarlar."
+    },
+    {
+      "v": 14,
+      "text": "Kâhinler içeri girdikten sonra, hizmet ederken giydikleri giysileri orada bırakmadan kutsal yerden dış avluya çıkmayacaklar, çünkü bu giysiler kutsaldır. Ancak üzerlerindeki giysileri değiştirdikten sonra halkın bulunduğu yerlere gidecekler.”"
+    },
+    {
+      "v": 15,
+      "text": "Adam mabedin iç alanındaki ölçümleri bitirdikten sonra beni doğudaki kapıdan dışarı çıkardı ve orayı da çepçevre ölçtü."
+    },
+    {
+      "v": 16,
+      "text": "Ölçü kamışıyla doğu tarafını ölçtü; toplam beş yüz kamıştı."
+    },
+    {
+      "v": 17,
+      "text": "Kuzey tarafını ölçtü, ölçü kamışıyla toplam beş yüz kamıştı."
+    },
+    {
+      "v": 18,
+      "text": "Güney tarafını ölçtü, ölçü kamışıyla beş yüz kamıştı."
+    },
+    {
+      "v": 19,
+      "text": "Sonra da batı tarafına geçip orayı ölçtü, ölçü kamışıyla beş yüz kamıştı."
+    },
+    {
+      "v": 20,
+      "text": "Böylece dört tarafı da ölçtü; mabet alanının çevresinde, beş yüz kamış uzunluğunda ve beş yüz kamış genişliğinde bir duvar vardı, kutsal olan ile olmayanı birbirinden ayırıyordu."
+    }
+  ]
+}

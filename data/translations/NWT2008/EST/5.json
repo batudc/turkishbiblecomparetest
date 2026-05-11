@@ -1,1 +1,60 @@
-{"t": "NWT2008", "b": "EST", "c": 5, "content": [{"v": 1, "text": "Üçüncü gün olduğunda, Ester kraliyet giysilerini giydi ve kral evinin iç avlusuna gelip evin girişi önünde durdu; kral da evde, girişe bakan tahtında oturuyordu."}, {"v": 2, "text": "Kral avluda duran Kraliçe Ester’i görünce hoşuna gitti; elindeki altın asayı Ester’e uzattı. Ester de yaklaşıp asanın ucuna dokundu."}, {"v": 3, "text": "Kral, “Neyin var Kraliçe Ester? Dileğin nedir? Krallığın yarısını bile dilesen verilecektir!” dedi."}, {"v": 4, "text": "O zaman Ester “Eğer kral uygun görürse, bugün kendisi için vereceğim ziyafete Haman’la birlikte buyursun” dedi."}, {"v": 5, "text": "Bunun üzerine kral, “Hizmetkârlar! Ester’in isteği yerine getirilsin, Haman’ı hemen çağırtın” dedi. Daha sonra kral ve Haman, Ester’in hazırladığı ziyafete geldi."}, {"v": 6, "text": "Kral şarap ziyafeti sırasında Ester’e “Söyle, dileğin nedir? Sana verilecektir! Rican neyse, krallığın yarısı bile olsa, yerine getirilecektir!” dedi."}, {"v": 7, "text": "Bunun üzerine Ester şu cevabı verdi: “Dileğim ve ricam şudur:"}, {"v": 8, "text": "Eğer kral benden hoşnutsa, eğer dileğimi ve ricamı yerine getirmeyi uygun görürse, kral ve Haman yarın kendileri için vereceğim ziyafete gelsinler. Kralın sorusuna yarın cevap vereceğim.”"}, {"v": 9, "text": "Haman o gün oradan ayrılırken sevinçli ve keyifliydi. Fakat kral kapısında duran Mordekay’ın kendisinin önünde ayağa kalkmadığını, yerinden bile kımıldamadığını görünce öfkeden deliye döndü."}, {"v": 10, "text": "Yine de kendini tuttu ve evine geldi. Haber gönderip dostlarını ve karısı Zereş’i çağırttı."}, {"v": 11, "text": "Haman onlara zenginliğinin ihtişamını, oğullarının çokluğunu, kralın kendisini nelerle onurlandırdığını, ayrıca yöneticilerinden ve hizmetkârlarından ne kadar üstün bir konuma getirdiğini anlattı."}, {"v": 12, "text": "Haman sözlerine şöyle devam etti: “Üstelik Kraliçe Ester verdiği ziyafete kralın dışında sadece beni çağırdı; yarın da kralla birlikte onun davetlisiyim."}, {"v": 13, "text": "Fakat, şu Yahudi Mordekay’ı kral kapısında otururken gördükçe, bunların hiçbir anlamı kalmıyor.”"}, {"v": 14, "text": "Bunun üzerine karısı Zereş ve tüm dostları şunu dediler: “Elli arşın yüksekliğinde bir direk hazırlat. Sabahleyin krala, Mordekay’ı o direğe astırmasını söyle. Sonra da kralla birlikte ziyafete sevinçle gidersin.” Fikir Haman’ın hoşuna gitti ve direği diktirmek için gerekeni yaptı."}]}
+{
+  "content": [
+    {
+      "v": 1,
+      "text": "Üçüncü gün olduğunda, Ester kraliyet giysilerini giydi ve kral evinin iç avlusuna gelip evin girişi önünde durdu; kral da evde, girişe bakan tahtında oturuyordu."
+    },
+    {
+      "v": 2,
+      "text": "Kral avluda duran Kraliçe Ester’i görünce hoşuna gitti; elindeki altın asayı Ester’e uzattı. Ester de yaklaşıp asanın ucuna dokundu."
+    },
+    {
+      "v": 3,
+      "text": "Kral, “Neyin var Kraliçe Ester? Dileğin nedir? Krallığın yarısını bile dilesen verilecektir!” dedi."
+    },
+    {
+      "v": 4,
+      "text": "O zaman Ester “Eğer kral uygun görürse, bugün kendisi için vereceğim ziyafete Haman’la birlikte buyursun” dedi."
+    },
+    {
+      "v": 5,
+      "text": "Bunun üzerine kral, “Hizmetkârlar! Ester’in isteği yerine getirilsin, Haman’ı hemen çağırtın” dedi. Daha sonra kral ve Haman, Ester’in hazırladığı ziyafete geldi."
+    },
+    {
+      "v": 6,
+      "text": "Kral şarap ziyafeti sırasında Ester’e “Söyle, dileğin nedir? Sana verilecektir! Rican neyse, krallığın yarısı bile olsa, yerine getirilecektir!” dedi."
+    },
+    {
+      "v": 7,
+      "text": "Bunun üzerine Ester şu cevabı verdi: “Dileğim ve ricam şudur:"
+    },
+    {
+      "v": 8,
+      "text": "Eğer kral benden hoşnutsa, eğer dileğimi ve ricamı yerine getirmeyi uygun görürse, kral ve Haman yarın kendileri için vereceğim ziyafete gelsinler. Kralın sorusuna yarın cevap vereceğim.”"
+    },
+    {
+      "v": 9,
+      "text": "Haman o gün oradan ayrılırken sevinçli ve keyifliydi. Fakat kral kapısında duran Mordekay’ın kendisinin önünde ayağa kalkmadığını, yerinden bile kımıldamadığını görünce öfkeden deliye döndü."
+    },
+    {
+      "v": 10,
+      "text": "Yine de kendini tuttu ve evine geldi. Haber gönderip dostlarını ve karısı Zereş’i çağırttı."
+    },
+    {
+      "v": 11,
+      "text": "Haman onlara zenginliğinin ihtişamını, oğullarının çokluğunu, kralın kendisini nelerle onurlandırdığını, ayrıca yöneticilerinden ve hizmetkârlarından ne kadar üstün bir konuma getirdiğini anlattı."
+    },
+    {
+      "v": 12,
+      "text": "Haman sözlerine şöyle devam etti: “Üstelik Kraliçe Ester verdiği ziyafete kralın dışında sadece beni çağırdı; yarın da kralla birlikte onun davetlisiyim."
+    },
+    {
+      "v": 13,
+      "text": "Fakat, şu Yahudi Mordekay’ı kral kapısında otururken gördükçe, bunların hiçbir anlamı kalmıyor.”"
+    },
+    {
+      "v": 14,
+      "text": "Bunun üzerine karısı Zereş ve tüm dostları şunu dediler: “Elli arşın yüksekliğinde bir direk hazırlat. Sabahleyin krala, Mordekay’ı o direğe astırmasını söyle. Sonra da kralla birlikte ziyafete sevinçle gidersin.” Fikir Haman’ın hoşuna gitti ve direği diktirmek için gerekeni yaptı."
+    }
+  ]
+}

@@ -1,1 +1,16 @@
-{"t": "NWT2008", "b": "EST", "c": 10, "content": [{"v": 1, "text": "Kral Ahaşveroş adalara dek tüm ülke topraklarında zorunlu çalışma uygulamasını başlattı."}, {"v": 2, "text": "Onun tüm gayretli faaliyeti ve büyük işleri, Med ve Pers krallarının tarih kitabında yazılıdır. Kralın yüksek bir mevkiye getirdiği Mordekay’ın başarılarıyla ilgili tüm ayrıntılar da orada yazılıdır."}, {"v": 3, "text": "Çünkü Yahudi Mordekay, Kral Ahaşveroş’tan sonra gelen ikinci adamdı. Yahudiler arasında çok nüfuzlu ve itibarlıydı. Kardeşlerinin toplumunda takdir edilir, halkının iyiliği için çalışır, halkının evlatlarının barış ve huzuru için konuşurdu."}]}
+{
+  "content": [
+    {
+      "v": 1,
+      "text": "Kral Ahaşveroş adalara dek tüm ülke topraklarında zorunlu çalışma uygulamasını başlattı."
+    },
+    {
+      "v": 2,
+      "text": "Onun tüm gayretli faaliyeti ve büyük işleri, Med ve Pers krallarının tarih kitabında yazılıdır. Kralın yüksek bir mevkiye getirdiği Mordekay’ın başarılarıyla ilgili tüm ayrıntılar da orada yazılıdır."
+    },
+    {
+      "v": 3,
+      "text": "Çünkü Yahudi Mordekay, Kral Ahaşveroş’tan sonra gelen ikinci adamdı. Yahudiler arasında çok nüfuzlu ve itibarlıydı. Kardeşlerinin toplumunda takdir edilir, halkının iyiliği için çalışır, halkının evlatlarının barış ve huzuru için konuşurdu."
+    }
+  ]
+}

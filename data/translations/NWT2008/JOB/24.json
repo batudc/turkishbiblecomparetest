@@ -1,1 +1,104 @@
-{"t": "NWT2008", "b": "JOB", "c": 24, "content": [{"v": 1, "text": "“Mutlak Gücün Sahibi neden bir hüküm vakti belirlemez, O’nu tanıyanlar o günleri neden görmez?"}, {"v": 2, "text": "Sınır işaretlerinin yerini değiştirenler var; Sürüleri kapıp götürür, kendileri güderler."}, {"v": 3, "text": "Yetimin eşeğini kaçırır, Dul kadının öküzünü rehin alırlar."}, {"v": 4, "text": "Onlar yüzünden yoksullar yollarını değiştirir; Dünyanın mazlumları da kaçacak delik arar."}, {"v": 5, "text": "Kırdaki zebralar gibi Yiyecek bulmak için koşuştururlar. Bozkır her birine oğulları için ekmek verir."}, {"v": 6, "text": "Yemi tarladan toplar, Kötünün bağını alelacele yağmalarlar."}, {"v": 7, "text": "Geceyi giysisiz, çıplak geçirir, Soğukta örtüsüz kalırlar."}, {"v": 8, "text": "Dağlardan gelen yağmur fırtınalarında sırılsıklam olur, Sığınak bulamayıp kayalara sarılırlar."}, {"v": 9, "text": "Kötüler yetimi annesinin memesinden çekip ayırır, Düşkünün elindekini avcundakini rehin alırlar."}, {"v": 10, "text": "Onları giysisiz, çıplak gönderip Aç karnına ekin demetleri taşıtırlar."}, {"v": 11, "text": "Öğle vakti taraçalardan geçirtirler; Teknede üzüm çiğnetip de susuz bırakırlar."}, {"v": 12, "text": "Ölümle pençeleşenlerin iniltisi şehirden yükselir, Ağır yaralı canlar yardım için feryat eder; Ve Tanrı bunda bir yanlış görmez."}, {"v": 13, "text": "Kötüler ışığa isyan edenlerdendir; Onun yolunu tanımaz, İzinde yürümezler."}, {"v": 14, "text": "Katiller gün ışırken kalkar, Mazlumu ve yoksulu katlederler; Geceleri ise işleri hırsızlıktır."}, {"v": 15, "text": "Zina yapanlar da akşam karanlığını gözler, ‘Kimse beni görmez!’ deyip, Yüzlerini örterler."}, {"v": 16, "text": "Hırsızlar karanlıkta duvar delip evlere girer; Gündüzleri eve kapanırlar. Gün ışığı nedir bilmezler."}, {"v": 17, "text": "Sabah onlar için koyu karanlıktan farksızdır, Çünkü koyu karanlığın ani dehşetini iyi bilirler."}, {"v": 18, "text": "Günahkârlar hızla akıntıya kapılıp gider; Yeryüzünde arazileri lanetlidir. Bağlarının yoluna sapmaz olurlar."}, {"v": 19, "text": "Kuraklık ve sıcak, kar suyunu nasıl alıp götürürse, Ölüler diyarı da günahkârı öyle götürür."}, {"v": 20, "text": "Rahim onu unutur, toprak kurtları tatlı tatlı yer, Artık anılmaz olur. Haksızlık bir ağaç gibi kırılır."}, {"v": 21, "text": "Günahkâr adam, doğurmamış kısır kadınla, Hiç iyilik etmediği dul kadınla uğraşır."}, {"v": 22, "text": "Tanrı kuvvetlileri Kendi gücüyle silip atar; Onlar yükselir, ancak hayatları güvende olmaz."}, {"v": 23, "text": "Kendi güçlerine dayanmalarına Tanrı izin verir; Fakat gözü tuttukları yol üzerindedir."}, {"v": 24, "text": "Kısa bir süre yükselir, sonra yok olurlar, Başları eğilip düşer; herkes gibi onlar da yerinden sökülür, Başak gibi kesilip koparılırlar."}, {"v": 25, "text": "Öyleyse şimdi kim beni yalancı çıkarabilir, Sözlerimin boş olduğunu kim gösterebilir?”"}]}
+{
+  "content": [
+    {
+      "v": 1,
+      "text": "“Mutlak Gücün Sahibi neden bir hüküm vakti belirlemez,O’nu tanıyanlar o günleri neden görmez?"
+    },
+    {
+      "v": 2,
+      "text": "Sınır işaretlerinin yerini değiştirenler var;Sürüleri kapıp götürür, kendileri güderler."
+    },
+    {
+      "v": 3,
+      "text": "Yetimin eşeğini kaçırır,Dul kadının öküzünü rehin alırlar."
+    },
+    {
+      "v": 4,
+      "text": "Onlar yüzünden yoksullar yollarını değiştirir;Dünyanın mazlumları da kaçacak delik arar."
+    },
+    {
+      "v": 5,
+      "text": "Kırdaki zebralar gibiYiyecek bulmak için koşuştururlar.Bozkır her birine oğulları için ekmek verir."
+    },
+    {
+      "v": 6,
+      "text": "Yemi tarladan toplar,Kötünün bağını alelacele yağmalarlar."
+    },
+    {
+      "v": 7,
+      "text": "Geceyi giysisiz, çıplak geçirir,Soğukta örtüsüz kalırlar."
+    },
+    {
+      "v": 8,
+      "text": "Dağlardan gelen yağmur fırtınalarında sırılsıklam olur,Sığınak bulamayıp kayalara sarılırlar."
+    },
+    {
+      "v": 9,
+      "text": "Kötüler yetimi annesinin memesinden çekip ayırır,Düşkünün elindekini avcundakini rehin alırlar."
+    },
+    {
+      "v": 10,
+      "text": "Onları giysisiz, çıplak gönderipAç karnına ekin demetleri taşıtırlar."
+    },
+    {
+      "v": 11,
+      "text": "Öğle vakti taraçalardan geçirtirler;Teknede üzüm çiğnetip de susuz bırakırlar."
+    },
+    {
+      "v": 12,
+      "text": "Ölümle pençeleşenlerin iniltisi şehirden yükselir,Ağır yaralı canlar yardım için feryat eder;Ve Tanrı bunda bir yanlış görmez."
+    },
+    {
+      "v": 13,
+      "text": "Kötüler ışığa isyan edenlerdendir;Onun yolunu tanımaz,İzinde yürümezler."
+    },
+    {
+      "v": 14,
+      "text": "Katiller gün ışırken kalkar,Mazlumu ve yoksulu katlederler;Geceleri ise işleri hırsızlıktır."
+    },
+    {
+      "v": 15,
+      "text": "Zina yapanlar da akşam karanlığını gözler,‘Kimse beni görmez!’ deyip,Yüzlerini örterler."
+    },
+    {
+      "v": 16,
+      "text": "Hırsızlar karanlıkta duvar delip evlere girer;Gündüzleri eve kapanırlar.Gün ışığı nedir bilmezler."
+    },
+    {
+      "v": 17,
+      "text": "Sabah onlar için koyu karanlıktan farksızdır,Çünkü koyu karanlığın ani dehşetini iyi bilirler."
+    },
+    {
+      "v": 18,
+      "text": "Günahkârlar hızla akıntıya kapılıp gider;Yeryüzünde arazileri lanetlidir.Bağlarının yoluna sapmaz olurlar."
+    },
+    {
+      "v": 19,
+      "text": "Kuraklık ve sıcak, kar suyunu nasıl alıp götürürse,Ölüler diyarı da günahkârı öyle götürür."
+    },
+    {
+      "v": 20,
+      "text": "Rahim onu unutur, toprak kurtları tatlı tatlı yer,Artık anılmaz olur.Haksızlık bir ağaç gibi kırılır."
+    },
+    {
+      "v": 21,
+      "text": "Günahkâr adam, doğurmamış kısır kadınla,Hiç iyilik etmediği dul kadınla uğraşır."
+    },
+    {
+      "v": 22,
+      "text": "Tanrı kuvvetlileri Kendi gücüyle silip atar;Onlar yükselir, ancak hayatları güvende olmaz."
+    },
+    {
+      "v": 23,
+      "text": "Kendi güçlerine dayanmalarına Tanrı izin verir;Fakat gözü tuttukları yol üzerindedir."
+    },
+    {
+      "v": 24,
+      "text": "Kısa bir süre yükselir, sonra yok olurlar,Başları eğilip düşer; herkes gibi onlar da yerinden sökülür,Başak gibi kesilip koparılırlar."
+    },
+    {
+      "v": 25,
+      "text": "Öyleyse şimdi kim beni yalancı çıkarabilir,Sözlerimin boş olduğunu kim gösterebilir?”"
+    }
+  ]
+}

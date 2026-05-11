@@ -1,1 +1,92 @@
-{"t": "NWT2008", "b": "JOB", "c": 14, "content": [{"v": 1, "text": "“İnsan ki, kadından doğar, Ömrü kısadır, sıkıntıya doyar."}, {"v": 2, "text": "Çiçek gibi çıkar ve dalından koparılır; Gölge gibi geçip gider; bir hiç olur."}, {"v": 3, "text": "Senin gözünü dikip baktığın, işte böyle biri. Bir de beni dava ediyorsun."}, {"v": 4, "text": "Kim kirli birinden temiz bir insan meydana getirebilir? Hiç kimse."}, {"v": 5, "text": "Mademki insanın günleri belirlenmiştir, Ayları Senin önünde sayılıdır, Bundan öte geçmesin diye buyruğun vardır;"}, {"v": 6, "text": "Bari gözlerini ondan ayır da rahat etsin, Gündelikçi gibi, yaşadığı günün tadını çıkarsın."}, {"v": 7, "text": "Çünkü bir ağaç için bile umut vardır. Kesilse de yine sürgün verir, Filizleri tükenmez."}, {"v": 8, "text": "Kökü yerde yaşlansa, Kütüğü toprakta ölse de,"}, {"v": 9, "text": "Su kokusu alınca filiz sürer, Körpe bir bitki gibi dal verir."}, {"v": 10, "text": "Oysa yiğit ölür, yere yığılır, İnsanoğlu son soluğunu verir; hani o nerede?"}, {"v": 11, "text": "Suları kaybolan göl, Çekilip kuruyan ırmak gibi,"}, {"v": 12, "text": "İnsan da öylece yatar, bir daha doğrulmaz. Gökler yok olana dek uyanmaz, Kimse onu uykusundan kaldıramaz."}, {"v": 13, "text": "Keşke beni ölüler diyarında gizlesen, Öfken geçene dek saklasan, Bir süre belirlesen de, sonra beni ansan!"}, {"v": 14, "text": "Ölen insan dirilir mi? Esaret günlerim boyunca hep bekleyeceğim; Kurtuluşum gelene dek."}, {"v": 15, "text": "Sen çağıracaksın, ben cevap vereceğim; Elinin eserini özleyeceksin."}, {"v": 16, "text": "Fakat şimdi adımlarımı sayıyor, Günahımdan başka bir şey görmüyorsun."}, {"v": 17, "text": "İsyanım bir kesede mühürlü duruyor, Suçumun üzerine zamk sürüyorsun."}, {"v": 18, "text": "Oysa bir dağ bile yıkılıp parçalanır, Bir kaya bile yerinden sürüklenir."}, {"v": 19, "text": "Su nasıl taşları aşındırır, Taşkınları yerin toprağını süpürürse, Sen de ölümlü insanın umudunu öyle yok edersin."}, {"v": 20, "text": "Onu ebedi bir yenilgiye uğratırsın, çekip gider; Çehresini bozar gönderirsin."}, {"v": 21, "text": "Oğulları onurlandırılır, onun haberi olmaz; İtibarlarını yitirirler, o farkına varmaz."}, {"v": 22, "text": "Bedeni var oldukça, acı çeker, Canı kendisinde oldukça, yas tutar.”"}]}
+{
+  "content": [
+    {
+      "v": 1,
+      "text": "“İnsan ki, kadından doğar,Ömrü kısadır, sıkıntıya doyar."
+    },
+    {
+      "v": 2,
+      "text": "Çiçek gibi çıkar ve dalından koparılır;Gölge gibi geçip gider; bir hiç olur."
+    },
+    {
+      "v": 3,
+      "text": "Senin gözünü dikip baktığın, işte böyle biri.Bir de beni dava ediyorsun."
+    },
+    {
+      "v": 4,
+      "text": "Kim kirli birinden temiz bir insan meydana getirebilir?Hiç kimse."
+    },
+    {
+      "v": 5,
+      "text": "Mademki insanın günleri belirlenmiştir,Ayları Senin önünde sayılıdır,Bundan öte geçmesin diye buyruğun vardır;"
+    },
+    {
+      "v": 6,
+      "text": "Bari gözlerini ondan ayır da rahat etsin,Gündelikçi gibi, yaşadığı günün tadını çıkarsın."
+    },
+    {
+      "v": 7,
+      "text": "Çünkü bir ağaç için bile umut vardır.Kesilse de yine sürgün verir,Filizleri tükenmez."
+    },
+    {
+      "v": 8,
+      "text": "Kökü yerde yaşlansa,Kütüğü toprakta ölse de,"
+    },
+    {
+      "v": 9,
+      "text": "Su kokusu alınca filiz sürer,Körpe bir bitki gibi dal verir."
+    },
+    {
+      "v": 10,
+      "text": "Oysa yiğit ölür, yere yığılır,İnsanoğlu son soluğunu verir; hani o nerede?"
+    },
+    {
+      "v": 11,
+      "text": "Suları kaybolan göl,Çekilip kuruyan ırmak gibi,"
+    },
+    {
+      "v": 12,
+      "text": "İnsan da öylece yatar, bir daha doğrulmaz.Gökler yok olana dek uyanmaz,Kimse onu uykusundan kaldıramaz."
+    },
+    {
+      "v": 13,
+      "text": "Keşke beni ölüler diyarında gizlesen,Öfken geçene dek saklasan,Bir süre belirlesen de, sonra beni ansan!"
+    },
+    {
+      "v": 14,
+      "text": "Ölen insan dirilir mi?Esaret günlerim boyunca hep bekleyeceğim;Kurtuluşum gelene dek."
+    },
+    {
+      "v": 15,
+      "text": "Sen çağıracaksın, ben cevap vereceğim;Elinin eserini özleyeceksin."
+    },
+    {
+      "v": 16,
+      "text": "Fakat şimdi adımlarımı sayıyor,Günahımdan başka bir şey görmüyorsun."
+    },
+    {
+      "v": 17,
+      "text": "İsyanım bir kesede mühürlü duruyor,Suçumun üzerine zamk sürüyorsun."
+    },
+    {
+      "v": 18,
+      "text": "Oysa bir dağ bile yıkılıp parçalanır,Bir kaya bile yerinden sürüklenir."
+    },
+    {
+      "v": 19,
+      "text": "Su nasıl taşları aşındırır,Taşkınları yerin toprağını süpürürse,Sen de ölümlü insanın umudunu öyle yok edersin."
+    },
+    {
+      "v": 20,
+      "text": "Onu ebedi bir yenilgiye uğratırsın, çekip gider;Çehresini bozar gönderirsin."
+    },
+    {
+      "v": 21,
+      "text": "Oğulları onurlandırılır, onun haberi olmaz;İtibarlarını yitirirler, o farkına varmaz."
+    },
+    {
+      "v": 22,
+      "text": "Bedeni var oldukça, acı çeker,Canı kendisinde oldukça, yas tutar.”"
+    }
+  ]
+}

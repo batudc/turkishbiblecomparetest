@@ -1,0 +1,223 @@
+{
+  "t": "LSB",
+  "b": "1CH",
+  "c": 1,
+  "content": [
+    {
+      "v": 1,
+      "text": "Adam, Seth, Enosh,"
+    },
+    {
+      "v": 2,
+      "text": "Kenan, Mahalalel, Jared,"
+    },
+    {
+      "v": 3,
+      "text": "Enoch, Methuselah, Lamech,"
+    },
+    {
+      "v": 4,
+      "text": "Noah, Shem, Ham, and Japheth."
+    },
+    {
+      "v": 5,
+      "text": "The sons of Japheth were Gomer, Magog, Madai, Javan, Tubal, Meshech, and Tiras."
+    },
+    {
+      "v": 6,
+      "text": "The sons of Gomer were Ashkenaz, Diphath, and Togarmah."
+    },
+    {
+      "v": 7,
+      "text": "The sons of Javan were Elishah, Tarshish, Kittim, and Rodanim."
+    },
+    {
+      "v": 8,
+      "text": "The sons of Ham were Cush, Mizraim, Put, and Canaan."
+    },
+    {
+      "v": 9,
+      "text": "The sons of Cush were Seba, Havilah, Sabta, Raama, and Sabteca;\nand the sons of Raama were Sheba and Dedan."
+    },
+    {
+      "v": 10,
+      "text": "Cush was the father of Nimrod; he began to be a mighty one on the earth."
+    },
+    {
+      "v": 11,
+      "text": "Mizraim was the father of the people of Lud, Anam, Lehab, Naphtuh,"
+    },
+    {
+      "v": 12,
+      "text": "Pathrus, Casluh (from which came the Philistines), and Caphtor."
+    },
+    {
+      "v": 13,
+      "text": "Canaan was the father of Sidon, his firstborn, Heth,"
+    },
+    {
+      "v": 14,
+      "text": "and the Jebusites, the Amorites, the Girgashites,"
+    },
+    {
+      "v": 15,
+      "text": "the Hivites, the Arkites, the Sinites,"
+    },
+    {
+      "v": 16,
+      "text": "the Arvadites, the Zemarites, and the Hamathites."
+    },
+    {
+      "v": 17,
+      "text": "The sons of Shem were Elam, Asshur, Arpachshad, Lud, Aram, Uz, Hul, Gether, and Meshech."
+    },
+    {
+      "v": 18,
+      "text": "Arpachshad was the father of Shelah,\nand Shelah was the father of Eber."
+    },
+    {
+      "v": 19,
+      "text": "Two sons were born to Eber, the name of the one was Peleg, for in his days the earth was divided, and his brother’s name was Joktan."
+    },
+    {
+      "v": 20,
+      "text": "Joktan was the father of Almodad, Sheleph, Hazarmaveth, Jerah,"
+    },
+    {
+      "v": 21,
+      "text": "Hadoram, Uzal, Diklah,"
+    },
+    {
+      "v": 22,
+      "text": "Ebal, Abimael, Sheba,"
+    },
+    {
+      "v": 23,
+      "text": "Ophir, Havilah, and Jobab; all these were the sons of Joktan."
+    },
+    {
+      "v": 24,
+      "text": "Shem, Arpachshad, Shelah,"
+    },
+    {
+      "v": 25,
+      "text": "Eber, Peleg, Reu,"
+    },
+    {
+      "v": 26,
+      "text": "Serug, Nahor, Terah,"
+    },
+    {
+      "v": 27,
+      "text": "Abram, that is Abraham."
+    },
+    {
+      "v": 28,
+      "text": "The sons of Abraham were Isaac and Ishmael."
+    },
+    {
+      "v": 29,
+      "text": "These are their generations:\nthe firstborn of Ishmael was Nebaioth, then Kedar, Adbeel, Mibsam,"
+    },
+    {
+      "v": 30,
+      "text": "Mishma, Dumah, Massa, Hadad, Tema,"
+    },
+    {
+      "v": 31,
+      "text": "Jetur, Naphish, and Kedemah; these were the sons of Ishmael."
+    },
+    {
+      "v": 32,
+      "text": "The sons of Keturah, Abraham’s concubine, whom she bore, were Zimran, Jokshan, Medan, Midian, Ishbak, and Shuah.\nAnd the sons of Jokshan were Sheba and Dedan."
+    },
+    {
+      "v": 33,
+      "text": "The sons of Midian were Ephah, Epher, Hanoch, Abida, and Eldaah. All these were the sons of Keturah."
+    },
+    {
+      "v": 34,
+      "text": "Abraham became the father of Isaac.\nThe sons of Isaac were Esau and Israel."
+    },
+    {
+      "v": 35,
+      "text": "The sons of Esau were Eliphaz, Reuel, Jeush, Jalam, and Korah."
+    },
+    {
+      "v": 36,
+      "text": "The sons of Eliphaz were Teman, Omar, Zephi, Gatam, Kenaz, Timna, and Amalek."
+    },
+    {
+      "v": 37,
+      "text": "The sons of Reuel were Nahath, Zerah, Shammah, and Mizzah."
+    },
+    {
+      "v": 38,
+      "text": "The sons of Seir were Lotan, Shobal, Zibeon, Anah, Dishon, Ezer, and Dishan."
+    },
+    {
+      "v": 39,
+      "text": "The sons of Lotan were Hori and Homam; and Lotan’s sister was Timna."
+    },
+    {
+      "v": 40,
+      "text": "The sons of Shobal were Alian, Manahath, Ebal, Shephi, and Onam.\nAnd the sons of Zibeon were Aiah and Anah."
+    },
+    {
+      "v": 41,
+      "text": "The son of Anah was Dishon.\nAnd the sons of Dishon were Hamran, Eshban, Ithran, and Cheran."
+    },
+    {
+      "v": 42,
+      "text": "The sons of Ezer were Bilhan, Zaavan, and Jaakan.\nThe sons of Dishon were Uz and Aran."
+    },
+    {
+      "v": 43,
+      "text": "Now these are the kings who reigned in the land of Edom before any king of the sons of Israel reigned. Bela was the son of Beor, and the name of his city was Dinhabah."
+    },
+    {
+      "v": 44,
+      "text": "Then Bela died, and Jobab the son of Zerah of Bozrah became king in his place."
+    },
+    {
+      "v": 45,
+      "text": "Then Jobab died, and Husham of the land of the Temanites became king in his place."
+    },
+    {
+      "v": 46,
+      "text": "Then Husham died, and Hadad the son of Bedad, who struck down Midian in the field of Moab, became king in his place; and the name of his city was Avith."
+    },
+    {
+      "v": 47,
+      "text": "Then Hadad died, and Samlah of Masrekah became king in his place."
+    },
+    {
+      "v": 48,
+      "text": "Then Samlah died, and Shaul of Rehoboth by the River became king in his place."
+    },
+    {
+      "v": 49,
+      "text": "Then Shaul died, and Baal-hanan the son of Achbor became king in his place."
+    },
+    {
+      "v": 50,
+      "text": "Then Baal-hanan died, and Hadad became king in his place; and the name of his city was Pai, and his wife’s name was Mehetabel, the daughter of Matred, daughter of Mezahab."
+    },
+    {
+      "v": 51,
+      "text": "Then Hadad died.\nNow the chiefs of Edom were:\nchief Timna, chief Aliah, chief Jetheth,"
+    },
+    {
+      "v": 52,
+      "text": "chief Oholibamah, chief Elah, chief Pinon,"
+    },
+    {
+      "v": 53,
+      "text": "chief Kenaz, chief Teman, chief Mibzar,"
+    },
+    {
+      "v": 54,
+      "text": "chief Magdiel, chief Iram.\nThese were the chiefs of Edom."
+    }
+  ]
+}

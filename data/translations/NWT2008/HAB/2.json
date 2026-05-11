@@ -1,1 +1,84 @@
-{"t": "NWT2008", "b": "HAB", "c": 2, "content": [{"v": 1, "text": "Nöbet yerimde duracağım, surlar üzerinde yerimi alacağım; benim aracılığımla ne söyleyeceğini ve yanlışımı düzelttiğinde ona ne karşılık vereceğimi bilmek için bekleyeceğim."}, {"v": 2, "text": "Yehova bana şöyle dedi: “Gördüklerini kaleme al ve levhalar üzerine açıkça yaz ki, yüksek sesle okuyan bunu akıcı şekilde yapabilsin."}, {"v": 3, "text": "Çünkü bu görüntünün gerçekleşeceği bir zaman var, sona doğru hızla ilerliyor, yalan çıkmayacak; gecikirse bile beklemeye devam et, çünkü mutlaka gerçekleşecek. Geç kalmayacak."}, {"v": 4, "text": "Böbürlenen adama bak, içinde dürüstlük yok; oysa doğru kişi sadakati sayesinde yaşayacaktır."}, {"v": 5, "text": "Şarabın hainliğinden ötürü, o adam daha da övünüp durur. Ama ölüler diyarı kadar iştahlı olsa, ölüm gibi olsa, doymak nedir bilmese de hedefine erişemeyecek. Tüm milletleri yanına toplar, tüm halkları bir araya, yanına getirir."}, {"v": 6, "text": "Onların diline düşecek; hakkında kinayeli, imalı sözler söyleyecekler. Şöyle denecek: ‘Kendisine ait olmayan malı çoğaltanın, borçlarını artırıp duranın vay haline! Bu daha ne kadar sürecek?"}, {"v": 7, "text": "Senden faiz isteyenler bir anda üzerine yürümeyecek mi? Seni şiddetle sarsanlar uyanmayacak mı? Onlara ganimet olmayacak mısın?"}, {"v": 8, "text": "Sen birçok milleti yağmaladığın için, o halklardan artakalanlar da seni yağmalayacak. Çünkü insanların kanını döktün, memlekete, kente ve içinde yaşayan herkese zorbalık ettin."}, {"v": 9, "text": "Felaketten kurtulmak için yuvasını yükseklere kurmak isteyip evine haksız kazanç sokanın vay haline!"}, {"v": 10, "text": "Sen, evine utanç getiren bir şey tasarlayıp birçok halkı yok ettin; günah işliyorsun."}, {"v": 11, "text": "Ve duvardan bir taş feryat edecek, tavandaki ahşap kirişlerden biri de ona karşılık verecek."}, {"v": 12, "text": "Kan dökerek şehir yapanın, haksızlıkla kent kuranın vay haline!"}, {"v": 13, "text": "İnsanlar yalnızca ateş için uğraşıp duruyor, milletler kendilerini boş yere yoruyor; bu göklerin hâkimi Yehova’dan değil mi?"}, {"v": 14, "text": "Sular deniz yatağını nasıl kaplıyorsa, Yehova’nın ihtişamı hakkındaki bilgi de yeryüzünü öyle dolduracak."}, {"v": 15, "text": "Arkadaşlarının edep yerlerini görmek için onlara içki verip sarhoş edenin, içkilerine de gazabını ve öfkesini katanın vay haline!"}, {"v": 16, "text": "Sen onura değil utanca boğulacaksın. Kendin de iç, sünnetsiz olduğun görülsün. Yehova’nın sağ elindeki kâseden içme sırası sana da gelecek, itibarın rezilliğe dönecek."}, {"v": 17, "text": "Lübnan’a yapılan zorbalık ve hayvanları dehşete düşüren talan senin başına gelecek, çünkü insanların kanını döktün, memlekete, kente ve içinde yaşayan herkese zorbalık ettin."}, {"v": 18, "text": "İnsanın biçim verdiği oyma put, dökme heykel, sahtekâr öğretmen ne işe yarar ki, biçim veren ona güveniyor ve hiçbir değeri olmayan dilsiz ilahlar yapıyor?"}, {"v": 19, "text": "Odun parçasına “Uyan!”, dilsiz taşa “Kalk da öğret!” diyenin vay haline! Onlar altınla, gümüşle kaplanmış, içlerinde soluk yok."}, {"v": 20, "text": "Fakat Yehova kutsal mabedindedir. Tüm dünya O’nun önünde sussun.’”"}]}
+{
+  "content": [
+    {
+      "v": 1,
+      "text": "Nöbet yerimde duracağım, surlar üzerinde yerimi alacağım; benim aracılığımla ne söyleyeceğini ve yanlışımı düzelttiğinde ona ne karşılık vereceğimi bilmek için bekleyeceğim."
+    },
+    {
+      "v": 2,
+      "text": "Yehova bana şöyle dedi: “Gördüklerini kaleme al ve levhalar üzerine açıkça yaz ki, yüksek sesle okuyan bunu akıcı şekilde yapabilsin."
+    },
+    {
+      "v": 3,
+      "text": "Çünkü bu görüntünün gerçekleşeceği bir zaman var, sona doğru hızla ilerliyor, yalan çıkmayacak; gecikirse bile beklemeye devam et, çünkü mutlaka gerçekleşecek. Geç kalmayacak."
+    },
+    {
+      "v": 4,
+      "text": "Böbürlenen adama bak, içinde dürüstlük yok; oysa doğru kişi sadakati sayesinde yaşayacaktır."
+    },
+    {
+      "v": 5,
+      "text": "Şarabın hainliğinden ötürü, o adam daha da övünüp durur. Ama ölüler diyarı kadar iştahlı olsa, ölüm gibi olsa, doymak nedir bilmese de hedefine erişemeyecek. Tüm milletleri yanına toplar, tüm halkları bir araya, yanına getirir."
+    },
+    {
+      "v": 6,
+      "text": "Onların diline düşecek; hakkında kinayeli, imalı sözler söyleyecekler. Şöyle denecek:‘Kendisine ait olmayan malı çoğaltanın, borçlarını artırıp duranın vay haline! Bu daha ne kadar sürecek?"
+    },
+    {
+      "v": 7,
+      "text": "Senden faiz isteyenler bir anda üzerine yürümeyecek mi? Seni şiddetle sarsanlar uyanmayacak mı? Onlara ganimet olmayacak mısın?"
+    },
+    {
+      "v": 8,
+      "text": "Sen birçok milleti yağmaladığın için, o halklardan artakalanlar da seni yağmalayacak. Çünkü insanların kanını döktün, memlekete, kente ve içinde yaşayan herkese zorbalık ettin."
+    },
+    {
+      "v": 9,
+      "text": "Felaketten kurtulmak için yuvasını yükseklere kurmak isteyip evine haksız kazanç sokanın vay haline!"
+    },
+    {
+      "v": 10,
+      "text": "Sen, evine utanç getiren bir şey tasarlayıp birçok halkı yok ettin; günah işliyorsun."
+    },
+    {
+      "v": 11,
+      "text": "Ve duvardan bir taş feryat edecek, tavandaki ahşap kirişlerden biri de ona karşılık verecek."
+    },
+    {
+      "v": 12,
+      "text": "Kan dökerek şehir yapanın, haksızlıkla kent kuranın vay haline!"
+    },
+    {
+      "v": 13,
+      "text": "İnsanlar yalnızca ateş için uğraşıp duruyor, milletler kendilerini boş yere yoruyor; bu göklerin hâkimi Yehova’dan değil mi?"
+    },
+    {
+      "v": 14,
+      "text": "Sular deniz yatağını nasıl kaplıyorsa, Yehova’nın ihtişamı hakkındaki bilgi de yeryüzünü öyle dolduracak."
+    },
+    {
+      "v": 15,
+      "text": "Arkadaşlarının edep yerlerini görmek için onlara içki verip sarhoş edenin, içkilerine de gazabını ve öfkesini katanın vay haline!"
+    },
+    {
+      "v": 16,
+      "text": "Sen onura değil utanca boğulacaksın. Kendin de iç, sünnetsiz olduğun görülsün. Yehova’nın sağ elindeki kâseden içme sırası sana da gelecek, itibarın rezilliğe dönecek."
+    },
+    {
+      "v": 17,
+      "text": "Lübnan’a yapılan zorbalık ve hayvanları dehşete düşüren talan senin başına gelecek, çünkü insanların kanını döktün, memlekete, kente ve içinde yaşayan herkese zorbalık ettin."
+    },
+    {
+      "v": 18,
+      "text": "İnsanın biçim verdiği oyma put, dökme heykel, sahtekâr öğretmen ne işe yarar ki, biçim veren ona güveniyor ve hiçbir değeri olmayan dilsiz ilahlar yapıyor?"
+    },
+    {
+      "v": 19,
+      "text": "Odun parçasına “Uyan!”, dilsiz taşa “Kalk da öğret!” diyenin vay haline! Onlar altınla, gümüşle kaplanmış, içlerinde soluk yok."
+    },
+    {
+      "v": 20,
+      "text": "Fakat Yehova kutsal mabedindedir. Tüm dünya O’nun önünde sussun.’”"
+    }
+  ]
+}

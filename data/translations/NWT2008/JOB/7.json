@@ -1,1 +1,88 @@
-{"t": "NWT2008", "b": "JOB", "c": 7, "content": [{"v": 1, "text": "“Ölümlü insanı yeryüzünde zahmetli bir uğraş beklemiyor mu? Günleri ücretli işçininkine benzemiyor mu?"}, {"v": 2, "text": "Gölge bulmak için can atan bir köle, Ücretini bekleyen bir gündelikçi gibi."}, {"v": 3, "text": "Bana kalan miras da değersiz aylar oldu, Payıma sıkıntılı geceler düştü."}, {"v": 4, "text": "Yattığımda, ‘Ne zaman kalkarım?’ diyorum, Gece boyu, gün ağarana dek dönüp durmak canıma yetti."}, {"v": 5, "text": "Bedenim kurtlarla, toz toprakla kaplı; Derim kabuk bağlıyor, yaram tekrar açılıyor."}, {"v": 6, "text": "Dokumacı mekiğinden daha hızlı geçen günlerim, Umutsuzluk içinde tükeniyor."}, {"v": 7, "text": "Unutma ki hayatım bir rüzgâr gibi geçip gidiyor; Bir daha gün görmeyeceğim."}, {"v": 8, "text": "Bana bakan gözler artık beni görmeyecek; Gözünü bana çevireceksin, ama ben olmayacağım."}, {"v": 9, "text": "Bulut nasıl er geç dağılır giderse, Ölüler diyarına inen de bir daha çıkmaz."}, {"v": 10, "text": "Bir daha evine geri dönmez, Yeri yurdu onu artık tanımaz."}, {"v": 11, "text": "Onun için ben de ağzımı kapamayacağım. Ruhumdaki sıkıntıyı dökeceğim; İçimin acısıyla kaygımı söyleyeceğim."}, {"v": 12, "text": "Neden başıma nöbetçi koyuyorsun, Ben deniz miyim, ya da deniz canavarı mı?"}, {"v": 13, "text": "Tam ‘Sedirim beni avutur, Yatağım derdimi paylaşır’ derken,"}, {"v": 14, "text": "Bu sefer de düşlerle korkutuyorsun, Görüntülerle dehşete düşürüyorsun,"}, {"v": 15, "text": "Öyle ki, bu kemikleri görmektense ölmek, Nefessiz kalmak benim için daha iyi."}, {"v": 16, "text": "Eksik olsun, varsın ömrüm uzun olmasın, Rahat bırak beni; zaten günlerim bir soluktan farksız."}, {"v": 17, "text": "Ölümlü insan ne ki, onu büyütüp yetiştiresin, Yüreğini onunla meşgul edesin?"}, {"v": 18, "text": "Her sabah onu izleyip, Her an onu yoklayasın?"}, {"v": 19, "text": "Neden gözünü üzerimden ayırmıyorsun, Yutkunmama bile fırsat vermiyorsun?"}, {"v": 20, "text": "Günah işledimse, sana ne zararım var, ey insanın Gözcüsü? Neden beni hedef seçtin, sana yük olmuyor muyum?"}, {"v": 21, "text": "Neden suçumu bağışlamıyor, Kabahatimi görmezden gelmiyorsun? Artık toprakta yatacağım; Beni arayacaksın, ama ben olmayacağım.”"}]}
+{
+  "content": [
+    {
+      "v": 1,
+      "text": "“Ölümlü insanı yeryüzünde zahmetli bir uğraş beklemiyor mu?Günleri ücretli işçininkine benzemiyor mu?"
+    },
+    {
+      "v": 2,
+      "text": "Gölge bulmak için can atan bir köle,Ücretini bekleyen bir gündelikçi gibi."
+    },
+    {
+      "v": 3,
+      "text": "Bana kalan miras da değersiz aylar oldu,Payıma sıkıntılı geceler düştü."
+    },
+    {
+      "v": 4,
+      "text": "Yattığımda, ‘Ne zaman kalkarım?’ diyorum,Gece boyu, gün ağarana dek dönüp durmak canıma yetti."
+    },
+    {
+      "v": 5,
+      "text": "Bedenim kurtlarla, toz toprakla kaplı;Derim kabuk bağlıyor, yaram tekrar açılıyor."
+    },
+    {
+      "v": 6,
+      "text": "Dokumacı mekiğinden daha hızlı geçen günlerim,Umutsuzluk içinde tükeniyor."
+    },
+    {
+      "v": 7,
+      "text": "Unutma ki hayatım bir rüzgâr gibi geçip gidiyor;Bir daha gün görmeyeceğim."
+    },
+    {
+      "v": 8,
+      "text": "Bana bakan gözler artık beni görmeyecek;Gözünü bana çevireceksin, ama ben olmayacağım."
+    },
+    {
+      "v": 9,
+      "text": "Bulut nasıl er geç dağılır giderse,Ölüler diyarına inen de bir daha çıkmaz."
+    },
+    {
+      "v": 10,
+      "text": "Bir daha evine geri dönmez,Yeri yurdu onu artık tanımaz."
+    },
+    {
+      "v": 11,
+      "text": "Onun için ben de ağzımı kapamayacağım.Ruhumdaki sıkıntıyı dökeceğim;İçimin acısıyla kaygımı söyleyeceğim."
+    },
+    {
+      "v": 12,
+      "text": "Neden başıma nöbetçi koyuyorsun,Ben deniz miyim, ya da deniz canavarı mı?"
+    },
+    {
+      "v": 13,
+      "text": "Tam ‘Sedirim beni avutur,Yatağım derdimi paylaşır’ derken,"
+    },
+    {
+      "v": 14,
+      "text": "Bu sefer de düşlerle korkutuyorsun,Görüntülerle dehşete düşürüyorsun,"
+    },
+    {
+      "v": 15,
+      "text": "Öyle ki, bu kemikleri görmektense ölmek,Nefessiz kalmak benim için daha iyi."
+    },
+    {
+      "v": 16,
+      "text": "Eksik olsun, varsın ömrüm uzun olmasın,Rahat bırak beni; zaten günlerim bir soluktan farksız."
+    },
+    {
+      "v": 17,
+      "text": "Ölümlü insan ne ki, onu büyütüp yetiştiresin,Yüreğini onunla meşgul edesin?"
+    },
+    {
+      "v": 18,
+      "text": "Her sabah onu izleyip,Her an onu yoklayasın?"
+    },
+    {
+      "v": 19,
+      "text": "Neden gözünü üzerimden ayırmıyorsun,Yutkunmama bile fırsat vermiyorsun?"
+    },
+    {
+      "v": 20,
+      "text": "Günah işledimse, sana ne zararım var, ey insanın Gözcüsü?Neden beni hedef seçtin, sana yük olmuyor muyum?"
+    },
+    {
+      "v": 21,
+      "text": "Neden suçumu bağışlamıyor,Kabahatimi görmezden gelmiyorsun?Artık toprakta yatacağım;Beni arayacaksın, ama ben olmayacağım.”"
+    }
+  ]
+}

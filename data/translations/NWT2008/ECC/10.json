@@ -1,1 +1,84 @@
-{"t": "NWT2008", "b": "ECC", "c": 10, "content": [{"v": 1, "text": "Ölü sinekler aktarın yağını kokutup köpürtür. Biraz akılsızlık da hikmeti ve onuruyla değerli olan kişiye böyle zarar verir."}, {"v": 2, "text": "Hikmetlinin yüreği sağındadır, akılsızın yüreği ise solunda."}, {"v": 3, "text": "Hangi yolda giderse gitsin akılsızın yüreğinde sağduyu yoktur ve akılsızlığını mutlaka herkese duyurur."}, {"v": 4, "text": "Hükümdar sana öfkelenirse yerinden ayrılma, çünkü sakinlik büyük günahları yatıştırır."}, {"v": 5, "text": "Güneş altında gördüğüm bir dert var; sanki güç sahibi kişiden kaynaklanan bir hata:"}, {"v": 6, "text": "Akılsızlar yüksek makamlara getiriliyor, değerli kişilerse alt konumlarda oturuyor."}, {"v": 7, "text": "Uşakları at üzerinde, beyleri ise yerde, uşak gibi yürürken gördüm."}, {"v": 8, "text": "Çukur kazan, içine düşer; taş duvarda gedik açanı yılan sokar."}, {"v": 9, "text": "Taş ocağında çalışan taşla kendini yaralar. Odun yaran da kendini sakınmalıdır."}, {"v": 10, "text": "Demir alet körelmişse, onu bilemeyen gücünü boşa harcar. Hikmeti yerinde kullanmak da başarı getirir."}, {"v": 11, "text": "Yılan sihirli sözler söylenmeden önce sokarsa, dilindeki maharetin sihirbaza yararı olmaz."}, {"v": 12, "text": "Hikmetli, dudaklarından dökülen sözlerle takdir kazanır, akılsızın ağzı ise kendini mahveder."}, {"v": 13, "text": "Ağzından çıkan ilk söz akılsızlıktır, son söz ise yıkıcı bir deliliktir."}, {"v": 14, "text": "Akılsız kişi çok konuşur. İnsan ileride olacakları bilmez; kim ona kendisinden sonra neler olacağını söyleyebilir?"}, {"v": 15, "text": "Akılsızların çabası onları yorgun düşürür, çünkü hiçbiri şehrin yolunu bilmez."}, {"v": 16, "text": "Ey diyar, kralın bir çocuksa, yöneticilerin de yemeğe daha sabahtan başlıyorsa, senin halin ne olur?"}, {"v": 17, "text": "Ey diyar, kralın soylu bir ailedense, yöneticilerin de sarhoş olmak için değil, güç kazanmak için yemeğe vaktinde oturuyorsa, ne mutlu sana!"}, {"v": 18, "text": "Aşırı tembellik kirişleri çökertir, elini kaldırmaya üşenenin de damı akar."}, {"v": 19, "text": "Ekmek işçinin yüzünü güldürür, şarap hayata sevinç katar; gümüş ise her ihtiyacı karşılar."}, {"v": 20, "text": "Yatak odanda bile krala lanet etme, arka odanda uzanırken bile zengine lanet etme, çünkü gökte uçan kuş sesi taşır, bir kanatlı gidip sözünü iletir."}]}
+{
+  "content": [
+    {
+      "v": 1,
+      "text": "Ölü sinekler aktarın yağını kokutup köpürtür. Biraz akılsızlık da hikmeti ve onuruyla değerli olan kişiye böyle zarar verir."
+    },
+    {
+      "v": 2,
+      "text": "Hikmetlinin yüreği sağındadır, akılsızın yüreği ise solunda."
+    },
+    {
+      "v": 3,
+      "text": "Hangi yolda giderse gitsin akılsızın yüreğinde sağduyu yoktur ve akılsızlığını mutlaka herkese duyurur."
+    },
+    {
+      "v": 4,
+      "text": "Hükümdar sana öfkelenirse yerinden ayrılma, çünkü sakinlik büyük günahları yatıştırır."
+    },
+    {
+      "v": 5,
+      "text": "Güneş altında gördüğüm bir dert var; sanki güç sahibi kişiden kaynaklanan bir hata:"
+    },
+    {
+      "v": 6,
+      "text": "Akılsızlar yüksek makamlara getiriliyor, değerli kişilerse alt konumlarda oturuyor."
+    },
+    {
+      "v": 7,
+      "text": "Uşakları at üzerinde, beyleri ise yerde, uşak gibi yürürken gördüm."
+    },
+    {
+      "v": 8,
+      "text": "Çukur kazan, içine düşer; taş duvarda gedik açanı yılan sokar."
+    },
+    {
+      "v": 9,
+      "text": "Taş ocağında çalışan taşla kendini yaralar. Odun yaran da kendini sakınmalıdır."
+    },
+    {
+      "v": 10,
+      "text": "Demir alet körelmişse, onu bilemeyen gücünü boşa harcar. Hikmeti yerinde kullanmak da başarı getirir."
+    },
+    {
+      "v": 11,
+      "text": "Yılan sihirli sözler söylenmeden önce sokarsa, dilindeki maharetin sihirbaza yararı olmaz."
+    },
+    {
+      "v": 12,
+      "text": "Hikmetli, dudaklarından dökülen sözlerle takdir kazanır, akılsızın ağzı ise kendini mahveder."
+    },
+    {
+      "v": 13,
+      "text": "Ağzından çıkan ilk söz akılsızlıktır, son söz ise yıkıcı bir deliliktir."
+    },
+    {
+      "v": 14,
+      "text": "Akılsız kişi çok konuşur. İnsan ileride olacakları bilmez; kim ona kendisinden sonra neler olacağını söyleyebilir?"
+    },
+    {
+      "v": 15,
+      "text": "Akılsızların çabası onları yorgun düşürür, çünkü hiçbiri şehrin yolunu bilmez."
+    },
+    {
+      "v": 16,
+      "text": "Ey diyar, kralın bir çocuksa, yöneticilerin de yemeğe daha sabahtan başlıyorsa, senin halin ne olur?"
+    },
+    {
+      "v": 17,
+      "text": "Ey diyar, kralın soylu bir ailedense, yöneticilerin de sarhoş olmak için değil, güç kazanmak için yemeğe vaktinde oturuyorsa, ne mutlu sana!"
+    },
+    {
+      "v": 18,
+      "text": "Aşırı tembellik kirişleri çökertir, elini kaldırmaya üşenenin de damı akar."
+    },
+    {
+      "v": 19,
+      "text": "Ekmek işçinin yüzünü güldürür, şarap hayata sevinç katar; gümüş ise her ihtiyacı karşılar."
+    },
+    {
+      "v": 20,
+      "text": "Yatak odanda bile krala lanet etme, arka odanda uzanırken bile zengine lanet etme, çünkü gökte uçan kuş sesi taşır, bir kanatlı gidip sözünü iletir."
+    }
+  ]
+}

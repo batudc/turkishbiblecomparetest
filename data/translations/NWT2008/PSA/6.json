@@ -1,1 +1,44 @@
-{"t": "NWT2008", "b": "PSA", "c": 6, "content": [{"v": 1, "text": "Ey Yehova, beni öfkeyle düzeltme, Beni hiddetle yola getirme."}, {"v": 2, "text": "Bana lütfet ey Yehova, sararıp soluyorum. Kemiklerim sızlıyor ey Yehova, şifa ver bana."}, {"v": 3, "text": "Evet, canım dehşet içinde; Daha ne kadar bekleyeceksin ey Yehova?"}, {"v": 4, "text": "Ne olur dön ey Yehova, kurtar canımı; Vefalı sevginden ötürü koru beni."}, {"v": 5, "text": "Çünkü ölüler Seni anamaz; Ölüler diyarında Seni kim yüceltir?"}, {"v": 6, "text": "İç çekmekten bitkin düştüm; Bütün gece ağlamaktan sırılsıklam oldu yatağım, Sedirime sel gibi akıyor gözyaşlarım."}, {"v": 7, "text": "Derdimden gözümün feri söndü, Düşmanlarımdan ötürü gözümde nur kalmadı."}, {"v": 8, "text": "Siz hainlik edenler gidin başımdan, Yehova ağlayışımı duyacak."}, {"v": 9, "text": "Yehova lütuf dileğimi elbet işitecek; Yehova duamı kabul edecek."}, {"v": 10, "text": "Bütün düşmanlarım utanca ve dehşete boğulacak; Utanç içinde ansızın geri dönecekler."}]}
+{
+  "content": [
+    {
+      "v": 1,
+      "text": "Ey Yehova, beni öfkeyle düzeltme,Beni hiddetle yola getirme."
+    },
+    {
+      "v": 2,
+      "text": "Bana lütfet ey Yehova, sararıp soluyorum.Kemiklerim sızlıyor ey Yehova, şifa ver bana."
+    },
+    {
+      "v": 3,
+      "text": "Evet, canım dehşet içinde;Daha ne kadar bekleyeceksin ey Yehova?"
+    },
+    {
+      "v": 4,
+      "text": "Ne olur dön ey Yehova, kurtar canımı;Vefalı sevginden ötürü koru beni."
+    },
+    {
+      "v": 5,
+      "text": "Çünkü ölüler Seni anamaz;Ölüler diyarında Seni kim yüceltir?"
+    },
+    {
+      "v": 6,
+      "text": "İç çekmekten bitkin düştüm;Bütün gece ağlamaktan sırılsıklam oldu yatağım,Sedirime sel gibi akıyor gözyaşlarım."
+    },
+    {
+      "v": 7,
+      "text": "Derdimden gözümün feri söndü,Düşmanlarımdan ötürü gözümde nur kalmadı."
+    },
+    {
+      "v": 8,
+      "text": "Siz hainlik edenler gidin başımdan,Yehova ağlayışımı duyacak."
+    },
+    {
+      "v": 9,
+      "text": "Yehova lütuf dileğimi elbet işitecek;Yehova duamı kabul edecek."
+    },
+    {
+      "v": 10,
+      "text": "Bütün düşmanlarım utanca ve dehşete boğulacak;Utanç içinde ansızın geri dönecekler."
+    }
+  ]
+}

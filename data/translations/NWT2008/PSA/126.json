@@ -1,1 +1,28 @@
-{"t": "NWT2008", "b": "PSA", "c": 126, "content": [{"v": 1, "text": "Yehova Sion’un sürgünlerini toplayıp geri getirdiğinde, Sanki rüyada gibiydik."}, {"v": 2, "text": "O zaman ağzımız gülüşlerle, Dilimiz sevinç nidalarıyla dolmuştu. O zaman milletler arasında denildi ki, “Yehova onlar için büyük işler yaptı.”"}, {"v": 3, "text": "Evet, Yehova bizim için büyük işler yaptı, İçimiz sevinçle doldu."}, {"v": 4, "text": "Sürgündeki kardeşlerimizi geri getir ey Yehova, Necef’e, yataklarına döndürdüğün sular gibi."}, {"v": 5, "text": "Gözyaşı dökerek tohum eken, Sevinç nidalarıyla ürün biçecek."}, {"v": 6, "text": "Tohum torbasını alıp Ağlayarak giden, Demetlerini yüklenip Sevinç nidalarıyla dönecek."}]}
+{
+  "content": [
+    {
+      "v": 1,
+      "text": "Yehova Sion’un sürgünlerini toplayıp geri getirdiğinde,Sanki rüyada gibiydik."
+    },
+    {
+      "v": 2,
+      "text": "O zaman ağzımız gülüşlerle,Dilimiz sevinç nidalarıyla dolmuştu.O zaman milletler arasında denildi ki,“Yehova onlar için büyük işler yaptı.”"
+    },
+    {
+      "v": 3,
+      "text": "Evet, Yehova bizim için büyük işler yaptı,İçimiz sevinçle doldu."
+    },
+    {
+      "v": 4,
+      "text": "Sürgündeki kardeşlerimizi geri getir ey Yehova,Necef’e, yataklarına döndürdüğün sular gibi."
+    },
+    {
+      "v": 5,
+      "text": "Gözyaşı dökerek tohum eken,Sevinç nidalarıyla ürün biçecek."
+    },
+    {
+      "v": 6,
+      "text": "Tohum torbasını alıpAğlayarak giden,Demetlerini yüklenipSevinç nidalarıyla dönecek."
+    }
+  ]
+}

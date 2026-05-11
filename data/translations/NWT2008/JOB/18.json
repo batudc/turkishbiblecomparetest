@@ -1,1 +1,88 @@
-{"t": "NWT2008", "b": "JOB", "c": 18, "content": [{"v": 1, "text": "Şuahoğlu Bildad şu sözlerle karşılık verdi:"}, {"v": 2, "text": "“Sizin gibiler ne zaman susacak? Siz bir anlasanız da biz sonra konuşsak."}, {"v": 3, "text": "Neden hayvan yerine konuluyor, Gözünüzde kirli sayılıyoruz?"}, {"v": 4, "text": "Öfkeden nasıl da paralıyor kendini. Senin uğruna dünya mı terk edilecek, Kayalar yerinden mi kaldırılacak?"}, {"v": 5, "text": "Evet, kötünün ışığı sönecek, Ateşi kıvılcım saçmayacak."}, {"v": 6, "text": "Çadırındaki ışık er geç kararacak, Kandili sönecek."}, {"v": 7, "text": "Dev adımları ufalacak, Kurduğu düzenler onu yarı yolda bırakacak."}, {"v": 8, "text": "Tuzağa doğru yürüyecek, Kendi ayağıyla ağa düşecek."}, {"v": 9, "text": "Topuğundan tuzağa yakalanacak, Kapana kısılıp kalacak."}, {"v": 10, "text": "Toprağa gizlenmiş bir ilmek, Yoluna konulmuş bir kapan onu bekleyecek."}, {"v": 11, "text": "Çevresini saran dehşet onu yıldıracak; Adım adım peşinde olacak."}, {"v": 12, "text": "Gücünü açlık kemirecek, Onu sendeletmek için felaket yanı başında bekleyecek;"}, {"v": 13, "text": "Derisinin parçalarını yiyecek, Kolunu bacağını da ölümün ilk oğlu yutacak."}, {"v": 14, "text": "Güvencesi çadırından sökülüp atılacak, Dehşet onu kendi kralına götürecek."}, {"v": 15, "text": "Çadırında bilmediği şeyler barınacak; Mekânına kükürt saçılacak."}, {"v": 16, "text": "Dipten kökleri kuruyacak, Üstten de dalları."}, {"v": 17, "text": "Yeryüzünde ondan hiçbir anı kalmayacak, Sokakta adı duyulmayacak."}, {"v": 18, "text": "Onu aydınlıktan karanlığa sürecekler, Verimli topraklardan kovacaklar."}, {"v": 19, "text": "Halkının arasında evlatsız, torunsuz kalacak, Gittiği gurbet diyarında da kimsesi olmayacak."}, {"v": 20, "text": "Onun yıkım gününde batıdakiler şaşkınlıkla bakakalacak, Doğudakileri de ürperti alacak."}, {"v": 21, "text": "Suç işleyenin çadırları ancak böyle olur, Tanrı’yı tanımayanın mekânı işte böyledir.”"}]}
+{
+  "content": [
+    {
+      "v": 1,
+      "text": "Şuahoğlu Bildad şu sözlerle karşılık verdi:"
+    },
+    {
+      "v": 2,
+      "text": "“Sizin gibiler ne zaman susacak?Siz bir anlasanız da biz sonra konuşsak."
+    },
+    {
+      "v": 3,
+      "text": "Neden hayvan yerine konuluyor,Gözünüzde kirli sayılıyoruz?"
+    },
+    {
+      "v": 4,
+      "text": "Öfkeden nasıl da paralıyor kendini.Senin uğruna dünya mı terk edilecek,Kayalar yerinden mi kaldırılacak?"
+    },
+    {
+      "v": 5,
+      "text": "Evet, kötünün ışığı sönecek,Ateşi kıvılcım saçmayacak."
+    },
+    {
+      "v": 6,
+      "text": "Çadırındaki ışık er geç kararacak,Kandili sönecek."
+    },
+    {
+      "v": 7,
+      "text": "Dev adımları ufalacak,Kurduğu düzenler onu yarı yolda bırakacak."
+    },
+    {
+      "v": 8,
+      "text": "Tuzağa doğru yürüyecek,Kendi ayağıyla ağa düşecek."
+    },
+    {
+      "v": 9,
+      "text": "Topuğundan tuzağa yakalanacak,Kapana kısılıp kalacak."
+    },
+    {
+      "v": 10,
+      "text": "Toprağa gizlenmiş bir ilmek,Yoluna konulmuş bir kapan onu bekleyecek."
+    },
+    {
+      "v": 11,
+      "text": "Çevresini saran dehşet onu yıldıracak;Adım adım peşinde olacak."
+    },
+    {
+      "v": 12,
+      "text": "Gücünü açlık kemirecek,Onu sendeletmek için felaket yanı başında bekleyecek;"
+    },
+    {
+      "v": 13,
+      "text": "Derisinin parçalarını yiyecek,Kolunu bacağını da ölümün ilk oğlu yutacak."
+    },
+    {
+      "v": 14,
+      "text": "Güvencesi çadırından sökülüp atılacak,Dehşet onu kendi kralına götürecek."
+    },
+    {
+      "v": 15,
+      "text": "Çadırında bilmediği şeyler barınacak;Mekânına kükürt saçılacak."
+    },
+    {
+      "v": 16,
+      "text": "Dipten kökleri kuruyacak,Üstten de dalları."
+    },
+    {
+      "v": 17,
+      "text": "Yeryüzünde ondan hiçbir anı kalmayacak,Sokakta adı duyulmayacak."
+    },
+    {
+      "v": 18,
+      "text": "Onu aydınlıktan karanlığa sürecekler,Verimli topraklardan kovacaklar."
+    },
+    {
+      "v": 19,
+      "text": "Halkının arasında evlatsız, torunsuz kalacak,Gittiği gurbet diyarında da kimsesi olmayacak."
+    },
+    {
+      "v": 20,
+      "text": "Onun yıkım gününde batıdakiler şaşkınlıkla bakakalacak,Doğudakileri de ürperti alacak."
+    },
+    {
+      "v": 21,
+      "text": "Suç işleyenin çadırları ancak böyle olur,Tanrı’yı tanımayanın mekânı işte böyledir.”"
+    }
+  ]
+}

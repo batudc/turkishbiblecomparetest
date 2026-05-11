@@ -1,0 +1,23 @@
+{
+  "t": "LSB",
+  "b": "PSA",
+  "c": 123,
+  "content": [
+    {
+      "v": 1,
+      "text": "To You I lift up my eyes,\nThe One enthroned in the heavens!"
+    },
+    {
+      "v": 2,
+      "text": "Behold, as the eyes of slaves look to the hand of their master,\nAs the eyes of a servant-girl to the hand of her mistress,\nSo our eyes look to Yahweh our God,\nUntil He is gracious to us."
+    },
+    {
+      "v": 3,
+      "text": "Be gracious to us, O Yahweh, be gracious to us,\nFor we are greatly saturated with contempt."
+    },
+    {
+      "v": 4,
+      "text": "Our soul is greatly saturated\nWith the mockery of those who are at ease,\nAnd with the contempt of the proud."
+    }
+  ]
+}

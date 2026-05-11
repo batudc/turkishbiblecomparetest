@@ -1,1 +1,80 @@
-{"t": "NWT2008", "b": "2CH", "c": 10, "content": [{"v": 1, "text": "Rehoboam Şekem’e gitti, çünkü tüm İsrailliler onu kral yapmak için Şekem’e toplanmıştı."}, {"v": 2, "text": "Bu arada, Mısır’da bulunan Nebat oğlu Yeroboam, olan biteni duydu ve hemen Mısır’dan döndü (Kral Süleyman yüzünden oraya kaçmıştı)."}, {"v": 3, "text": "Haber yollayıp onu çağırdılar; Yeroboam ve tüm İsrail halkı Rehoboam’a gelip şöyle dediler:"}, {"v": 4, "text": "“Baban bize ağır bir boyunduruk yükledi, onun bizden istediği ağır işi ve üzerimize yüklediği ağır boyunduruğu hafiflet, biz de sana hizmet edelim.”"}, {"v": 5, "text": "Bunun üzerine Rehoboam onlara “Gidin, üç gün sonra yine gelin” dedi. Halk da yanından ayrıldı."}, {"v": 6, "text": "Kral Rehoboam babası Süleyman hayattayken onun hizmetinde olan yaşlı adamlara danışıp “Bu halka ne cevap vermemi önerirsiniz?” dedi."}, {"v": 7, "text": "Onlar da kendisine şöyle dediler: “Eğer sen bu halka iyi davranırsan, onları hoşnut edersen ve güzel sözler söylersen onlar da daima senin hizmetkârın olurlar.”"}, {"v": 8, "text": "Ancak Rehoboam yaşlı adamların öğüdünü bırakıp beraber büyüdüğü, hizmetindeki genç adamlara danıştı."}, {"v": 9, "text": "Onlara “Siz ne öğüt verirsiniz?” diye sordu, “Babanın üzerimize yüklediği boyunduruğu hafiflet, diyen bu halka ne cevap verelim?”"}, {"v": 10, "text": "Beraber büyüdüğü genç adamlar da ona şöyle dediler: “Sana gelip ‘Baban bize ağır bir boyunduruk yükledi, fakat sen yükümüzü hafiflet’ diyen halka diyeceksin ki, ‘Benim küçük parmağım babamın belinden daha kalın olacak."}, {"v": 11, "text": "Babam size ağır bir boyunduruk yükledi; ben ise boyunduruğunuzu daha da ağırlaştıracağım. Babam sizi kamçılarla cezalandırdı, ben ise kancalı kırbaçlarla cezalandıracağım.’”"}, {"v": 12, "text": "Rehoboam “Üçüncü gün yanıma gelin” dediği için, Yeroboam ve tüm halk üçüncü gün kralın yanına geldiler."}, {"v": 13, "text": "Ve Kral Rehoboam yaşlı adamların öğüdünü bırakıp halka sert cevap verdi."}, {"v": 14, "text": "Genç adamların verdiği öğüde göre konuşarak halka şöyle dedi: “Ben size daha ağır bir boyunduruk yükleyeceğim, evet yükünüzü daha da ağırlaştıracağım. Babam sizi kamçılarla cezalandırdı, ben ise kancalı kırbaçlarla cezalandıracağım.”"}, {"v": 15, "text": "Ve kral halkı dinlemedi; çünkü Yehova Tanrı, Şilolu Ahiya aracılığıyla Nebat oğlu Yeroboam’a söylediği sözü gerçekleştirmek için olayların seyrini değiştirmişti."}, {"v": 16, "text": "Kral kendilerini dinlemeyince tüm İsrail ona şöyle karşılık verdi: “Davut’ta ne payımız var? Yesse’nin oğlunda mirasımız yok. Ey İsrail, herkes kendi ilahlarına dönsün! Ey Davut, şimdi sen de kendi evine bak!” Bunun üzerine tüm İsrail çadırlarına döndü."}, {"v": 17, "text": "Yahuda şehirlerinde oturan İsrailoğullarına gelince, Rehoboam onlar üzerinde hüküm sürmeye devam etti."}, {"v": 18, "text": "Kral Rehoboam zorunlu hizmette çalışanların başında bulunan Hadoram’ı bir görev için gönderdiğinde İsrailoğulları onu taşlayıp öldürdü. Kral Rehoboam zar zor savaş arabasına binip Yeruşalim’e kaçtı."}, {"v": 19, "text": "İsrailliler Davut evine karşı bugün hâlâ asidir."}]}
+{
+  "content": [
+    {
+      "v": 1,
+      "text": "Rehoboam Şekem’e gitti, çünkü tüm İsrailliler onu kral yapmak için Şekem’e toplanmıştı."
+    },
+    {
+      "v": 2,
+      "text": "Bu arada, Mısır’da bulunan Nebat oğlu Yeroboam, olan biteni duydu ve hemen Mısır’dan döndü (Kral Süleyman yüzünden oraya kaçmıştı)."
+    },
+    {
+      "v": 3,
+      "text": "Haber yollayıp onu çağırdılar; Yeroboam ve tüm İsrail halkı Rehoboam’a gelip şöyle dediler:"
+    },
+    {
+      "v": 4,
+      "text": "“Baban bize ağır bir boyunduruk yükledi, onun bizden istediği ağır işi ve üzerimize yüklediği ağır boyunduruğu hafiflet, biz de sana hizmet edelim.”"
+    },
+    {
+      "v": 5,
+      "text": "Bunun üzerine Rehoboam onlara “Gidin, üç gün sonra yine gelin” dedi. Halk da yanından ayrıldı."
+    },
+    {
+      "v": 6,
+      "text": "Kral Rehoboam babası Süleyman hayattayken onun hizmetinde olan yaşlı adamlara danışıp “Bu halka ne cevap vermemi önerirsiniz?” dedi."
+    },
+    {
+      "v": 7,
+      "text": "Onlar da kendisine şöyle dediler: “Eğer sen bu halka iyi davranırsan, onları hoşnut edersen ve güzel sözler söylersen onlar da daima senin hizmetkârın olurlar.”"
+    },
+    {
+      "v": 8,
+      "text": "Ancak Rehoboam yaşlı adamların öğüdünü bırakıp beraber büyüdüğü, hizmetindeki genç adamlara danıştı."
+    },
+    {
+      "v": 9,
+      "text": "Onlara “Siz ne öğüt verirsiniz?” diye sordu, “Babanın üzerimize yüklediği boyunduruğu hafiflet, diyen bu halka ne cevap verelim?”"
+    },
+    {
+      "v": 10,
+      "text": "Beraber büyüdüğü genç adamlar da ona şöyle dediler: “Sana gelip ‘Baban bize ağır bir boyunduruk yükledi, fakat sen yükümüzü hafiflet’ diyen halka diyeceksin ki, ‘Benim küçük parmağım babamın belinden daha kalın olacak."
+    },
+    {
+      "v": 11,
+      "text": "Babam size ağır bir boyunduruk yükledi; ben ise boyunduruğunuzu daha da ağırlaştıracağım. Babam sizi kamçılarla cezalandırdı, ben ise kancalı kırbaçlarla cezalandıracağım.’”"
+    },
+    {
+      "v": 12,
+      "text": "Rehoboam “Üçüncü gün yanıma gelin” dediği için, Yeroboam ve tüm halk üçüncü gün kralın yanına geldiler."
+    },
+    {
+      "v": 13,
+      "text": "Ve Kral Rehoboam yaşlı adamların öğüdünü bırakıp halka sert cevap verdi."
+    },
+    {
+      "v": 14,
+      "text": "Genç adamların verdiği öğüde göre konuşarak halka şöyle dedi: “Ben size daha ağır bir boyunduruk yükleyeceğim, evet yükünüzü daha da ağırlaştıracağım. Babam sizi kamçılarla cezalandırdı, ben ise kancalı kırbaçlarla cezalandıracağım.”"
+    },
+    {
+      "v": 15,
+      "text": "Ve kral halkı dinlemedi; çünkü Yehova Tanrı, Şilolu Ahiya aracılığıyla Nebat oğlu Yeroboam’a söylediği sözü gerçekleştirmek için olayların seyrini değiştirmişti."
+    },
+    {
+      "v": 16,
+      "text": "Kral kendilerini dinlemeyince tüm İsrail ona şöyle karşılık verdi: “Davut’ta ne payımız var? Yesse’nin oğlunda mirasımız yok. Ey İsrail, herkes kendi ilahlarına dönsün! Ey Davut, şimdi sen de kendi evine bak!” Bunun üzerine tüm İsrail çadırlarına döndü."
+    },
+    {
+      "v": 17,
+      "text": "Yahuda şehirlerinde oturan İsrailoğullarına gelince, Rehoboam onlar üzerinde hüküm sürmeye devam etti."
+    },
+    {
+      "v": 18,
+      "text": "Kral Rehoboam zorunlu hizmette çalışanların başında bulunan Hadoram’ı bir görev için gönderdiğinde İsrailoğulları onu taşlayıp öldürdü. Kral Rehoboam zar zor savaş arabasına binip Yeruşalim’e kaçtı."
+    },
+    {
+      "v": 19,
+      "text": "İsrailliler Davut evine karşı bugün hâlâ asidir."
+    }
+  ]
+}

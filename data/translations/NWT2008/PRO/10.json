@@ -1,1 +1,132 @@
-{"t": "NWT2008", "b": "PRO", "c": 10, "content": [{"v": 1, "text": "Süleyman’ın özdeyişleri. Akıllı oğul babasına sevinç verir; akılsız oğul ise anasına dert olur."}, {"v": 2, "text": "Kötünün hazineleri hiçbir işe yaramaz; oysa doğruluk ölümden kurtarır."}, {"v": 3, "text": "Yehova doğru insanı aç bırakmaz; doymak bilmeyen kötüleri ise geri çevirir."}, {"v": 4, "text": "Tembelin eli onu yoksul eder; çalışkanın eli ise onu zengin eder."}, {"v": 5, "text": "Yazın hasadı kaldıran oğul sağgörülüdür; biçim zamanı uyuyakalan oğul ise yüzkarasıdır."}, {"v": 6, "text": "Doğru insan takdir toplar; kötülerin ağzı ise zorbalığı gizler."}, {"v": 7, "text": "Doğru insanın adı hayırduayla anılır, kötülerin adı ise silinir gider."}, {"v": 8, "text": "Yüreğinde hikmet olan, emirleri kabul eder; diliyle akılsızlık eden ise yerden yere vurulur."}, {"v": 9, "text": "Doğruluk yolunda yürüyen güvenlik içinde yaşar; dolambaçlı yollara sapan ise kendini belli eder."}, {"v": 10, "text": "Kaş göz işareti yapan acıya yol açar, diliyle akılsızlık eden yerden yere vurulur."}, {"v": 11, "text": "Doğru insanın ağzı hayat pınarıdır; kötülerin ağzı ise zorbalığı gizler."}, {"v": 12, "text": "Nefret kavga doğurur; oysa sevgi bütün suçları örter."}, {"v": 13, "text": "Anlayışlı insanın dilinde hikmet bulunur; yüreği sağduyudan yoksun olanın ise sırtına değnek iner."}, {"v": 14, "text": "Hazine gibi bilgi biriktiren hikmetlidir; akılsızı yıkımın eşiğine getiren ise dilidir."}, {"v": 15, "text": "Zengin adamın serveti kendisi için hisardır. Düşkünün yoksulluğu da kendisi için yıkımdır."}, {"v": 16, "text": "Doğru insanın yaptıkları hayata götürür; kötü insanın kazancı ise günah doğurur."}, {"v": 17, "text": "Terbiyeyi benimseyen başkalarına hayat yolu olur; düzeltilmeyi reddeden ise yoldan saptırır."}, {"v": 18, "text": "Nefretini gizleyenin dili yalancıdır; iftira atan akılsızdır."}, {"v": 19, "text": "Çok sözde hata eksik olmaz; dilini tutan sağgörülü davranır."}, {"v": 20, "text": "Doğru insanın dili has gümüş gibidir; kötünün yüreği ise bir değer taşımaz."}, {"v": 21, "text": "Doğru insan diliyle çok kişiyi güder; akılsızlar ise anlayış kıtlığından ölür."}, {"v": 22, "text": "Yehova’nın bereketi insanı zengin eder ve O, bereketine keder katmaz."}, {"v": 23, "text": "Edepsizlik akılsıza oyun gibi gelir, oysa hikmet ayırt edici insan içindir."}, {"v": 24, "text": "Kötünün korktuğu başına gelir; fakat doğruların dileği gerçekleştirilir."}, {"v": 25, "text": "Kötü adam kasırgaya tutulmuş gibi yok olup gider; doğru adamın ise temeli asla sarsılmaz."}, {"v": 26, "text": "Dişler için sirke, gözler için duman neyse, kendisini gönderenler için de tembel adam öyledir."}, {"v": 27, "text": "Yehova korkusu ömrü uzatır; kötülerin yaşamı ise kısa sürer."}, {"v": 28, "text": "Doğruların beklentisi sevinç verir; oysa kötülerin umudu boşa çıkar."}, {"v": 29, "text": "Yehova’nın yolu temiz insan için korunma, hainlik edenler içinse yıkım demektir."}, {"v": 30, "text": "Doğru insanı hiçbir şey sarsmayacak; kötüler ise yeryüzünde barınamayacak."}, {"v": 31, "text": "Doğru kişinin dudakları hikmet meyvesi verir; fesat dil ise koparılacaktır."}, {"v": 32, "text": "Doğruların dili iyi olanı bilir, kötülerin ağzı ise fesat saçar."}]}
+{
+  "content": [
+    {
+      "v": 1,
+      "text": "Süleyman’ın özdeyişleri. Akıllı oğul babasına sevinç verir; akılsız oğul ise anasına dert olur."
+    },
+    {
+      "v": 2,
+      "text": "Kötünün hazineleri hiçbir işe yaramaz; oysa doğruluk ölümden kurtarır."
+    },
+    {
+      "v": 3,
+      "text": "Yehova doğru insanı aç bırakmaz; doymak bilmeyen kötüleri ise geri çevirir."
+    },
+    {
+      "v": 4,
+      "text": "Tembelin eli onu yoksul eder; çalışkanın eli ise onu zengin eder."
+    },
+    {
+      "v": 5,
+      "text": "Yazın hasadı kaldıran oğul sağgörülüdür; biçim zamanı uyuyakalan oğul ise yüzkarasıdır."
+    },
+    {
+      "v": 6,
+      "text": "Doğru insan takdir toplar; kötülerin ağzı ise zorbalığı gizler."
+    },
+    {
+      "v": 7,
+      "text": "Doğru insanın adı hayırduayla anılır, kötülerin adı ise silinir gider."
+    },
+    {
+      "v": 8,
+      "text": "Yüreğinde hikmet olan, emirleri kabul eder; diliyle akılsızlık eden ise yerden yere vurulur."
+    },
+    {
+      "v": 9,
+      "text": "Doğruluk yolunda yürüyen güvenlik içinde yaşar; dolambaçlı yollara sapan ise kendini belli eder."
+    },
+    {
+      "v": 10,
+      "text": "Kaş göz işareti yapan acıya yol açar, diliyle akılsızlık eden yerden yere vurulur."
+    },
+    {
+      "v": 11,
+      "text": "Doğru insanın ağzı hayat pınarıdır; kötülerin ağzı ise zorbalığı gizler."
+    },
+    {
+      "v": 12,
+      "text": "Nefret kavga doğurur; oysa sevgi bütün suçları örter."
+    },
+    {
+      "v": 13,
+      "text": "Anlayışlı insanın dilinde hikmet bulunur; yüreği sağduyudan yoksun olanın ise sırtına değnek iner."
+    },
+    {
+      "v": 14,
+      "text": "Hazine gibi bilgi biriktiren hikmetlidir; akılsızı yıkımın eşiğine getiren ise dilidir."
+    },
+    {
+      "v": 15,
+      "text": "Zengin adamın serveti kendisi için hisardır. Düşkünün yoksulluğu da kendisi için yıkımdır."
+    },
+    {
+      "v": 16,
+      "text": "Doğru insanın yaptıkları hayata götürür; kötü insanın kazancı ise günah doğurur."
+    },
+    {
+      "v": 17,
+      "text": "Terbiyeyi benimseyen başkalarına hayat yolu olur; düzeltilmeyi reddeden ise yoldan saptırır."
+    },
+    {
+      "v": 18,
+      "text": "Nefretini gizleyenin dili yalancıdır; iftira atan akılsızdır."
+    },
+    {
+      "v": 19,
+      "text": "Çok sözde hata eksik olmaz; dilini tutan sağgörülü davranır."
+    },
+    {
+      "v": 20,
+      "text": "Doğru insanın dili has gümüş gibidir; kötünün yüreği ise bir değer taşımaz."
+    },
+    {
+      "v": 21,
+      "text": "Doğru insan diliyle çok kişiyi güder; akılsızlar ise anlayış kıtlığından ölür."
+    },
+    {
+      "v": 22,
+      "text": "Yehova’nın bereketi insanı zengin eder ve O, bereketine keder katmaz."
+    },
+    {
+      "v": 23,
+      "text": "Edepsizlik akılsıza oyun gibi gelir, oysa hikmet ayırt edici insan içindir."
+    },
+    {
+      "v": 24,
+      "text": "Kötünün korktuğu başına gelir; fakat doğruların dileği gerçekleştirilir."
+    },
+    {
+      "v": 25,
+      "text": "Kötü adam kasırgaya tutulmuş gibi yok olup gider; doğru adamın ise temeli asla sarsılmaz."
+    },
+    {
+      "v": 26,
+      "text": "Dişler için sirke, gözler için duman neyse, kendisini gönderenler için de tembel adam öyledir."
+    },
+    {
+      "v": 27,
+      "text": "Yehova korkusu ömrü uzatır; kötülerin yaşamı ise kısa sürer."
+    },
+    {
+      "v": 28,
+      "text": "Doğruların beklentisi sevinç verir; oysa kötülerin umudu boşa çıkar."
+    },
+    {
+      "v": 29,
+      "text": "Yehova’nın yolu temiz insan için korunma, hainlik edenler içinse yıkım demektir."
+    },
+    {
+      "v": 30,
+      "text": "Doğru insanı hiçbir şey sarsmayacak; kötüler ise yeryüzünde barınamayacak."
+    },
+    {
+      "v": 31,
+      "text": "Doğru kişinin dudakları hikmet meyvesi verir; fesat dil ise koparılacaktır."
+    },
+    {
+      "v": 32,
+      "text": "Doğruların dili iyi olanı bilir, kötülerin ağzı ise fesat saçar."
+    }
+  ]
+}

@@ -1,1 +1,128 @@
-{"t": "NWT2008", "b": "JOB", "c": 30, "content": [{"v": 1, "text": "“Ama şimdi, dünkü çocuklar Halime gülüyor. Bense onların babalarını kabul etmezdim, Sürümü bekleyen köpeklerin yanına bile koymazdım."}, {"v": 2, "text": "Kollarındaki kuvvet ne işime yarardı ki? Zaten dermanları kesilmişti onların."}, {"v": 3, "text": "Hiçbirinde can kalmamış, açlık ve yoksulluktan, Çorak toprakları kemirmekten; Bir gün önce fırtına ve yıkımın kol gezdiği yerleri."}, {"v": 4, "text": "Onlar ki çalı diplerinden karapazı koparır, Süpürgeçalısının köklerini yerlerdi."}, {"v": 5, "text": "İnsanlar onları aralarından atar, Peşlerinden bağırıp hırsız gibi kovarlardı."}, {"v": 6, "text": "Barınakları vadi yamaçlarıydı, Toprağın oyukları ve kaya kovuklarıydı."}, {"v": 7, "text": "Çalılıklar arasında bağırır, Isırganların dibinde birbirlerine sokulurlardı."}, {"v": 8, "text": "Akılsızların, adı sanı olmayan adamların oğullarıydılar, Memleketten kırbaçla kovulmuşlardı."}, {"v": 9, "text": "Şimdiyse dillerine doladıkları şarkı gibiyim, Hepsine alay konusu oldum."}, {"v": 10, "text": "Tiksinerek benden uzak duruyor, Yüzüme tükürmekten çekinmiyorlar."}, {"v": 11, "text": "Çünkü O yayımın kirişini gevşetti; beni küçük düşürdü, Bu yüzden bana karşı dizginsizce davranıyorlar."}, {"v": 12, "text": "Sağ tarafımdan sürü halinde üzerime yürüyorlar; Yürüyüp gideyim diye bırakıyor, Fakat sonra yoluma korkunç engeller yığıyorlar."}, {"v": 13, "text": "Kimseden yardım almadan, Yollarımı bozup mahvediyorlar. Tek yaptıkları bana sıkıntı vermek."}, {"v": 14, "text": "Sanki büyük bir gedikten çıkar gibi, Fırtınayla birlikte üzerime çullanıyorlar."}, {"v": 15, "text": "Ansızın felaketler çöküyor üzerime; Asaletimi rüzgâr alıp götürdü, Kurtuluş umudum bulut gibi geçip gitti."}, {"v": 16, "text": "İçimde canım çekiliyor; Kara günler peşimi bırakmıyor."}, {"v": 17, "text": "Geceleri kemiklerim oyuluyor, Bedenimi kemiren acılar dinmek bilmiyor."}, {"v": 18, "text": "Şiddetinden kılığım değişiyor; Dar bir yaka gibi boğazımı sıkıyor."}, {"v": 19, "text": "O beni çamura batırdı, Toz gibi, kül gibi oldum."}, {"v": 20, "text": "Yardımıma yetiş diye feryat ediyorum, karşılık vermiyorsun; Dikkatini çekebilmek için dikilip duruyorum."}, {"v": 21, "text": "Bana karşı değiştin, zalim oldun; Tüm gücünle vurup düşmanlığını gösteriyorsun."}, {"v": 22, "text": "Beni kaldırıp rüzgâra bindiriyor, Uğultular içinde darmadağın ediyorsun."}, {"v": 23, "text": "Gayet iyi biliyorum, beni ölüme, Tüm yaşayanların toplanacağı eve göndereceksin."}, {"v": 24, "text": "Ne var ki, kimse bu yıkıntıya son darbeyi vurmuyor; Çöküp giden insan için yardım çağıran da çıkmıyor."}, {"v": 25, "text": "Bense herkesin zor gününde ağlar, Yoksullar için kederlenirdim."}, {"v": 26, "text": "İyilik beklerken başıma kötülük geldi, Işık bekleyip durdum, karanlık geldi."}, {"v": 27, "text": "İçim bunalıyor, durup dinmeden; Kara günler çıktı karşıma."}, {"v": 28, "text": "Güneş bir türlü doğmuyor, kederli kederli dolaşıyorum; Topluluk içinde kalkıp feryat ederek yardım istiyorum."}, {"v": 29, "text": "Çakallarla kardeş, Devekuşunun kızlarıyla arkadaş oldum."}, {"v": 30, "text": "Derim kapkara oldu, döküldü, Kemiklerim ateşten kavruldu."}, {"v": 31, "text": "Lirim yalnızca ağıt yakar oldu, Kavalım da ağlayanların sesini veriyor.”"}]}
+{
+  "content": [
+    {
+      "v": 1,
+      "text": "“Ama şimdi, dünkü çocuklarHalime gülüyor.Bense onların babalarını kabul etmezdim,Sürümü bekleyen köpeklerin yanına bile koymazdım."
+    },
+    {
+      "v": 2,
+      "text": "Kollarındaki kuvvet ne işime yarardı ki?Zaten dermanları kesilmişti onların."
+    },
+    {
+      "v": 3,
+      "text": "Hiçbirinde can kalmamış, açlık ve yoksulluktan,Çorak toprakları kemirmekten;Bir gün önce fırtına ve yıkımın kol gezdiği yerleri."
+    },
+    {
+      "v": 4,
+      "text": "Onlar ki çalı diplerinden karapazı koparır,Süpürgeçalısının köklerini yerlerdi."
+    },
+    {
+      "v": 5,
+      "text": "İnsanlar onları aralarından atar,Peşlerinden bağırıp hırsız gibi kovarlardı."
+    },
+    {
+      "v": 6,
+      "text": "Barınakları vadi yamaçlarıydı,Toprağın oyukları ve kaya kovuklarıydı."
+    },
+    {
+      "v": 7,
+      "text": "Çalılıklar arasında bağırır,Isırganların dibinde birbirlerine sokulurlardı."
+    },
+    {
+      "v": 8,
+      "text": "Akılsızların, adı sanı olmayan adamların oğullarıydılar,Memleketten kırbaçla kovulmuşlardı."
+    },
+    {
+      "v": 9,
+      "text": "Şimdiyse dillerine doladıkları şarkı gibiyim,Hepsine alay konusu oldum."
+    },
+    {
+      "v": 10,
+      "text": "Tiksinerek benden uzak duruyor,Yüzüme tükürmekten çekinmiyorlar."
+    },
+    {
+      "v": 11,
+      "text": "Çünkü O yayımın kirişini gevşetti; beni küçük düşürdü,Bu yüzden bana karşı dizginsizce davranıyorlar."
+    },
+    {
+      "v": 12,
+      "text": "Sağ tarafımdan sürü halinde üzerime yürüyorlar;Yürüyüp gideyim diye bırakıyor,Fakat sonra yoluma korkunç engeller yığıyorlar."
+    },
+    {
+      "v": 13,
+      "text": "Kimseden yardım almadan,Yollarımı bozup mahvediyorlar.Tek yaptıkları bana sıkıntı vermek."
+    },
+    {
+      "v": 14,
+      "text": "Sanki büyük bir gedikten çıkar gibi,Fırtınayla birlikte üzerime çullanıyorlar."
+    },
+    {
+      "v": 15,
+      "text": "Ansızın felaketler çöküyor üzerime;Asaletimi rüzgâr alıp götürdü,Kurtuluş umudum bulut gibi geçip gitti."
+    },
+    {
+      "v": 16,
+      "text": "İçimde canım çekiliyor;Kara günler peşimi bırakmıyor."
+    },
+    {
+      "v": 17,
+      "text": "Geceleri kemiklerim oyuluyor,Bedenimi kemiren acılar dinmek bilmiyor."
+    },
+    {
+      "v": 18,
+      "text": "Şiddetinden kılığım değişiyor;Dar bir yaka gibi boğazımı sıkıyor."
+    },
+    {
+      "v": 19,
+      "text": "O beni çamura batırdı,Toz gibi, kül gibi oldum."
+    },
+    {
+      "v": 20,
+      "text": "Yardımıma yetiş diye feryat ediyorum, karşılık vermiyorsun;Dikkatini çekebilmek için dikilip duruyorum."
+    },
+    {
+      "v": 21,
+      "text": "Bana karşı değiştin, zalim oldun;Tüm gücünle vurup düşmanlığını gösteriyorsun."
+    },
+    {
+      "v": 22,
+      "text": "Beni kaldırıp rüzgâra bindiriyor,Uğultular içinde darmadağın ediyorsun."
+    },
+    {
+      "v": 23,
+      "text": "Gayet iyi biliyorum, beni ölüme,Tüm yaşayanların toplanacağı eve göndereceksin."
+    },
+    {
+      "v": 24,
+      "text": "Ne var ki, kimse bu yıkıntıya son darbeyi vurmuyor;Çöküp giden insan için yardım çağıran da çıkmıyor."
+    },
+    {
+      "v": 25,
+      "text": "Bense herkesin zor gününde ağlar,Yoksullar için kederlenirdim."
+    },
+    {
+      "v": 26,
+      "text": "İyilik beklerken başıma kötülük geldi,Işık bekleyip durdum, karanlık geldi."
+    },
+    {
+      "v": 27,
+      "text": "İçim bunalıyor, durup dinmeden;Kara günler çıktı karşıma."
+    },
+    {
+      "v": 28,
+      "text": "Güneş bir türlü doğmuyor, kederli kederli dolaşıyorum;Topluluk içinde kalkıp feryat ederek yardım istiyorum."
+    },
+    {
+      "v": 29,
+      "text": "Çakallarla kardeş,Devekuşunun kızlarıyla arkadaş oldum."
+    },
+    {
+      "v": 30,
+      "text": "Derim kapkara oldu, döküldü,Kemiklerim ateşten kavruldu."
+    },
+    {
+      "v": 31,
+      "text": "Lirim yalnızca ağıt yakar oldu,Kavalım da ağlayanların sesini veriyor.”"
+    }
+  ]
+}

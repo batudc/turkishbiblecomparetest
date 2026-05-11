@@ -1,1 +1,52 @@
-{"t": "NWT2008", "b": "PSA", "c": 60, "content": [{"v": 1, "text": "Ey Tanrım, bizi terk ettin; hiddetlendin, saflarımızı yarıp geçtin, Ne olur yine kabul et bizi."}, {"v": 2, "text": "Yeryüzünü salladın, üzerinde yarıklar açtın, Yer sarsılıyor; ne olur çatlaklarını onar."}, {"v": 3, "text": "Kendi halkını sıkıntıya düşürdün, Bize sersemletici bir şarap içirdin."}, {"v": 4, "text": "Senden korkanlar oklardan kaçabilsin diye Onlar için bir sancak diktin. ( Selah )"}, {"v": 5, "text": "Sağ elinle kurtar bizi, cevap ver, Ve sevdiklerin feraha çıksın."}, {"v": 6, "text": "Kutsal Tanrı konuştu. “Sevinçle coşacağım, Sukkot Ovasını ölçüp böleceğim” dedi, “Ve Şekem’i dilediğime pay olarak vereceğim."}, {"v": 7, "text": "Gilead Benimdir, Manasse de Benim. Efraim önderimin kalesi, Yahuda önderlik değneğimdir."}, {"v": 8, "text": "Moab leğenimdir, Çarığımı Edom’a fırlatacağım, Filistiye’ye karşı zaferi haykıracağım.”"}, {"v": 9, "text": "Kuşatılmış şehre beni kim götürecek? Edom’a kadar kim bana yol gösterecek?"}, {"v": 10, "text": "Ey Tanrım Sen değil misin? Sen ki bizi terk ettin, Sen ki ordularımızdan desteğini çektin."}, {"v": 11, "text": "Sıkıntıdan çıkmamıza ne olur yardım et, Çünkü insandan kurtuluş beklemek boş."}, {"v": 12, "text": "Biz tüm gücümüzü Tanrı’dan alırız, Ve O düşmanlarımızı çiğner geçer."}]}
+{
+  "content": [
+    {
+      "v": 1,
+      "text": "Ey Tanrım, bizi terk ettin; hiddetlendin, saflarımızı yarıp geçtin,Ne olur yine kabul et bizi."
+    },
+    {
+      "v": 2,
+      "text": "Yeryüzünü salladın, üzerinde yarıklar açtın,Yer sarsılıyor; ne olur çatlaklarını onar."
+    },
+    {
+      "v": 3,
+      "text": "Kendi halkını sıkıntıya düşürdün,Bize sersemletici bir şarap içirdin."
+    },
+    {
+      "v": 4,
+      "text": "Senden korkanlar oklardan kaçabilsin diyeOnlar için bir sancak diktin. (Selah)"
+    },
+    {
+      "v": 5,
+      "text": "Sağ elinle kurtar bizi, cevap ver,Ve sevdiklerin feraha çıksın."
+    },
+    {
+      "v": 6,
+      "text": "Kutsal Tanrı konuştu.“Sevinçle coşacağım, Sukkot Ovasını ölçüp böleceğim” dedi,“Ve Şekem’i dilediğime pay olarak vereceğim."
+    },
+    {
+      "v": 7,
+      "text": "Gilead Benimdir, Manasse de Benim.Efraim önderimin kalesi,Yahuda önderlik değneğimdir."
+    },
+    {
+      "v": 8,
+      "text": "Moab leğenimdir,Çarığımı Edom’a fırlatacağım,Filistiye’ye karşı zaferi haykıracağım.”"
+    },
+    {
+      "v": 9,
+      "text": "Kuşatılmış şehre beni kim götürecek?Edom’a kadar kim bana yol gösterecek?"
+    },
+    {
+      "v": 10,
+      "text": "Ey Tanrım Sen değil misin?Sen ki bizi terk ettin, Sen ki ordularımızdan desteğini çektin."
+    },
+    {
+      "v": 11,
+      "text": "Sıkıntıdan çıkmamıza ne olur yardım et,Çünkü insandan kurtuluş beklemek boş."
+    },
+    {
+      "v": 12,
+      "text": "Biz tüm gücümüzü Tanrı’dan alırız,Ve O düşmanlarımızı çiğner geçer."
+    }
+  ]
+}

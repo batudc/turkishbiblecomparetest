@@ -1,1 +1,144 @@
-{"t": "NWT2008", "b": "JOB", "c": 9, "content": [{"v": 1, "text": "Eyüp şu sözlerle karşılık verdi:"}, {"v": 2, "text": "“Ben de biliyorum, gerçekten öyledir. Fakat ölümlü insan Tanrı’yla davasında nasıl haklı çıkabilir?"}, {"v": 3, "text": "Tanrı kendisiyle tartışmak istese, İnsan O’nun söylediklerinin binde birine cevap veremez."}, {"v": 4, "text": "O’nun yüreğinde hikmet vardır, güçlü ve kudretlidir. Kim Tanrı’ya ayak direyip de sağlam kalabilir?"}, {"v": 5, "text": "O ki, dağları yerinden kaldırır, insanlar farkında bile değildir; Öfkesiyle onları altüst eder."}, {"v": 6, "text": "Yeri öyle bir sarsar ki, Temel direkleri bile titrer."}, {"v": 7, "text": "Güneşe ışığını saçmasın diye emreder, Yıldızları da mühürleyip örter."}, {"v": 8, "text": "Gökleri tek başına geren, Denizin kabaran dalgalarını çiğneyen;"}, {"v": 9, "text": "Ayiş, Kesil, Kima takımyıldızlarını, Güneyin arka odalarını yapan,"}, {"v": 10, "text": "Akıl almaz büyük işler, Sayısız harikalar gerçekleştiren O’dur."}, {"v": 11, "text": "Evet, yanımdan geçer, O’nu görmem, Geçip gider, farkına varmam."}, {"v": 12, "text": "Evet, O çekip alınca kim direnebilir? Kim O’na ‘Ne yapıyorsun’ diyebilir?"}, {"v": 13, "text": "Tanrı öfkelenince geri adım atmaz; Zorbanın yardımcıları önünde dize gelirler."}, {"v": 14, "text": "Böyleyken ben O’na nasıl cevap veririm! Konuşurken sözlerimi tek tek seçmeliyim,"}, {"v": 15, "text": "Gerçekten haklı olsam da O’na cevap veremem. Davacımdan merhamet dilerim."}, {"v": 16, "text": "O’na seslensem cevap verir mi? Sesime kulak vereceğine inanmıyorum;"}, {"v": 17, "text": "Beni kasırgayla eziyor, Yok yere yaralarımı çoğaltıyor."}, {"v": 18, "text": "Hiç soluk aldırmıyor, Beni sürekli acıya boğuyor."}, {"v": 19, "text": "Kudrette üstün biri varsa, işte O orada; Adalette üstün biri varsa, ne olur beni yanına çağırsa!"}, {"v": 20, "text": "Doğru olsam da kendi ağzım beni suçlu çıkarır, Temiz olsam da O, yoldan saptığımı söyler."}, {"v": 21, "text": "Temizsem de bunu kendim bilmeyeceğim, Hayatımı değersiz göreceğim."}, {"v": 22, "text": "Hepsi bir; bu yüzden diyorum ki, ‘Temiz insanın da sonunu O getiriyor, kötünün de.’"}, {"v": 23, "text": "Ani bir su taşkını ölüm saçarsa, Masumların umutsuzluğuyla eğlenir."}, {"v": 24, "text": "Yeryüzü kötünün eline verilmiş; Hâkimlerin gözünü kapatan O’dur, O değilse kim?"}, {"v": 25, "text": "Benim günlerimse bir koşucudan hızlı geçiyor, Hiçbir iyilik görmeden geçip gidiyor."}, {"v": 26, "text": "Geçip gidiyor, sazdan tekneler gibi; Avına ok gibi dalan kartal misali."}, {"v": 27, "text": "‘Derdimi unutayım, Yüzüm gülsün, neşeleneyim’ desem,"}, {"v": 28, "text": "Acılarıma acı katılır; yılarım; Bilirim, beni masum saymazsın."}, {"v": 29, "text": "Sonunda suçlu çıkacağım. Öyleyse neden boşuna didinip durayım?"}, {"v": 30, "text": "Kar suyuyla yıkansam, Ellerimi de küllü suda temizlesem,"}, {"v": 31, "text": "Beni hemen çukura batırıp çıkarırsın, Giysilerim de benden tiksinir."}, {"v": 32, "text": "Benim gibi insan değil ki, O’na cevap vereyim, Mahkemede yüz yüze geleyim."}, {"v": 33, "text": "Aramızda karar verecek, Elini ikimizin üzerine koyacak kimse yok."}, {"v": 34, "text": "Sopasını üzerimden çeksin, Dehşetiyle beni sindirmesin."}, {"v": 35, "text": "O’ndan çekinmeden konuşayım, Çünkü ben korkacak biri değilim.”"}]}
+{
+  "content": [
+    {
+      "v": 1,
+      "text": "Eyüp şu sözlerle karşılık verdi:"
+    },
+    {
+      "v": 2,
+      "text": "“Ben de biliyorum, gerçekten öyledir.Fakat ölümlü insan Tanrı’yla davasında nasıl haklı çıkabilir?"
+    },
+    {
+      "v": 3,
+      "text": "Tanrı kendisiyle tartışmak istese,İnsan O’nun söylediklerinin binde birine cevap veremez."
+    },
+    {
+      "v": 4,
+      "text": "O’nun yüreğinde hikmet vardır, güçlü ve kudretlidir.Kim Tanrı’ya ayak direyip de sağlam kalabilir?"
+    },
+    {
+      "v": 5,
+      "text": "O ki, dağları yerinden kaldırır, insanlar farkında bile değildir;Öfkesiyle onları altüst eder."
+    },
+    {
+      "v": 6,
+      "text": "Yeri öyle bir sarsar ki,Temel direkleri bile titrer."
+    },
+    {
+      "v": 7,
+      "text": "Güneşe ışığını saçmasın diye emreder,Yıldızları da mühürleyip örter."
+    },
+    {
+      "v": 8,
+      "text": "Gökleri tek başına geren,Denizin kabaran dalgalarını çiğneyen;"
+    },
+    {
+      "v": 9,
+      "text": "Ayiş, Kesil, Kima takımyıldızlarını,Güneyin arka odalarını yapan,"
+    },
+    {
+      "v": 10,
+      "text": "Akıl almaz büyük işler,Sayısız harikalar gerçekleştiren O’dur."
+    },
+    {
+      "v": 11,
+      "text": "Evet, yanımdan geçer, O’nu görmem,Geçip gider, farkına varmam."
+    },
+    {
+      "v": 12,
+      "text": "Evet, O çekip alınca kim direnebilir?Kim O’na ‘Ne yapıyorsun’ diyebilir?"
+    },
+    {
+      "v": 13,
+      "text": "Tanrı öfkelenince geri adım atmaz;Zorbanın yardımcıları önünde dize gelirler."
+    },
+    {
+      "v": 14,
+      "text": "Böyleyken ben O’na nasıl cevap veririm!Konuşurken sözlerimi tek tek seçmeliyim,"
+    },
+    {
+      "v": 15,
+      "text": "Gerçekten haklı olsam da O’na cevap veremem.Davacımdan merhamet dilerim."
+    },
+    {
+      "v": 16,
+      "text": "O’na seslensem cevap verir mi?Sesime kulak vereceğine inanmıyorum;"
+    },
+    {
+      "v": 17,
+      "text": "Beni kasırgayla eziyor,Yok yere yaralarımı çoğaltıyor."
+    },
+    {
+      "v": 18,
+      "text": "Hiç soluk aldırmıyor,Beni sürekli acıya boğuyor."
+    },
+    {
+      "v": 19,
+      "text": "Kudrette üstün biri varsa, işte O orada;Adalette üstün biri varsa, ne olur beni yanına çağırsa!"
+    },
+    {
+      "v": 20,
+      "text": "Doğru olsam da kendi ağzım beni suçlu çıkarır,Temiz olsam da O, yoldan saptığımı söyler."
+    },
+    {
+      "v": 21,
+      "text": "Temizsem de bunu kendim bilmeyeceğim,Hayatımı değersiz göreceğim."
+    },
+    {
+      "v": 22,
+      "text": "Hepsi bir; bu yüzden diyorum ki,‘Temiz insanın da sonunu O getiriyor, kötünün de.’"
+    },
+    {
+      "v": 23,
+      "text": "Ani bir su taşkını ölüm saçarsa,Masumların umutsuzluğuyla eğlenir."
+    },
+    {
+      "v": 24,
+      "text": "Yeryüzü kötünün eline verilmiş;Hâkimlerin gözünü kapatan O’dur,O değilse kim?"
+    },
+    {
+      "v": 25,
+      "text": "Benim günlerimse bir koşucudan hızlı geçiyor,Hiçbir iyilik görmeden geçip gidiyor."
+    },
+    {
+      "v": 26,
+      "text": "Geçip gidiyor, sazdan tekneler gibi;Avına ok gibi dalan kartal misali."
+    },
+    {
+      "v": 27,
+      "text": "‘Derdimi unutayım,Yüzüm gülsün, neşeleneyim’ desem,"
+    },
+    {
+      "v": 28,
+      "text": "Acılarıma acı katılır; yılarım;Bilirim, beni masum saymazsın."
+    },
+    {
+      "v": 29,
+      "text": "Sonunda suçlu çıkacağım.Öyleyse neden boşuna didinip durayım?"
+    },
+    {
+      "v": 30,
+      "text": "Kar suyuyla yıkansam,Ellerimi de küllü suda temizlesem,"
+    },
+    {
+      "v": 31,
+      "text": "Beni hemen çukura batırıp çıkarırsın,Giysilerim de benden tiksinir."
+    },
+    {
+      "v": 32,
+      "text": "Benim gibi insan değil ki, O’na cevap vereyim,Mahkemede yüz yüze geleyim."
+    },
+    {
+      "v": 33,
+      "text": "Aramızda karar verecek,Elini ikimizin üzerine koyacak kimse yok."
+    },
+    {
+      "v": 34,
+      "text": "Sopasını üzerimden çeksin,Dehşetiyle beni sindirmesin."
+    },
+    {
+      "v": 35,
+      "text": "O’ndan çekinmeden konuşayım,Çünkü ben korkacak biri değilim.”"
+    }
+  ]
+}

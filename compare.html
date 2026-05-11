@@ -269,6 +269,7 @@
     }
     #commentary-body {
       overflow-y: auto;
+      overscroll-behavior-y: none;
       padding: 10px 14px 16px;
       flex: 1;
     }
@@ -308,6 +309,79 @@
       color: rgba(247,241,232,0.75);
     }
     .comm-text em { color: rgba(247,241,232,0.95); font-style: italic; }
+    .xref-link {
+      color: var(--gold-light);
+      text-decoration-line: underline;
+      text-decoration-style: dotted;
+      text-decoration-color: rgba(184,146,42,0.45);
+      cursor: default;
+    }
+    .xref-link:hover {
+      color: var(--gold);
+      text-decoration-style: solid;
+      text-decoration-color: var(--gold);
+    }
+    #xref-tooltip {
+      position: fixed;
+      z-index: 700;
+      background: #112030;
+      border: 1px solid rgba(184,146,42,0.3);
+      border-radius: 4px;
+      padding: 9px 13px 10px;
+      max-width: 260px;
+      pointer-events: none;
+      opacity: 0;
+      transition: opacity 0.14s ease;
+      box-shadow: 0 8px 24px rgba(0,0,0,0.45);
+    }
+    #xref-tooltip.visible { opacity: 1; }
+    .xref-tt-ref {
+      font-family: 'Jost', sans-serif;
+      font-size: 9px;
+      font-weight: 700;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: var(--gold-light);
+      margin-bottom: 6px;
+    }
+    .xref-tt-text {
+      font-family: 'EB Garamond', Georgia, serif;
+      font-size: 13px;
+      line-height: 1.6;
+      color: rgba(247,241,232,0.82);
+      white-space: normal;
+    }
+    #default-trans-row {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      padding: 7px 12px 7px;
+      border-bottom: 1px solid rgba(255,255,255,0.06);
+      flex-shrink: 0;
+    }
+    #default-trans-row label {
+      font-family: 'Jost', sans-serif;
+      font-size: 9px;
+      font-weight: 600;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: rgba(247,241,232,0.35);
+      flex-shrink: 0;
+      white-space: nowrap;
+    }
+    #default-trans-sel {
+      font-size: 11px;
+      font-family: 'Jost', sans-serif;
+      background: rgba(255,255,255,0.05);
+      border: 1px solid rgba(255,255,255,0.1);
+      border-radius: 3px;
+      color: rgba(247,241,232,0.72);
+      padding: 2px 5px;
+      flex: 1;
+      min-width: 0;
+      cursor: pointer;
+    }
+    #default-trans-sel:focus { outline: none; border-color: rgba(184,146,42,0.5); }
     #commentary-empty {
       font-size: 11px;
       color: rgba(247,241,232,0.3);
@@ -347,10 +421,11 @@
       display: flex;
       align-items: center;
       justify-content: center;
-      cursor: pointer;
+      cursor: grab;
       user-select: none;
       transition: background 0.12s;
     }
+    .col-header:active { cursor: grabbing; }
     .col-header:hover { background: rgba(27,58,84,0.9); }
     .col-abbr {
       font-family: 'Jost', sans-serif;
@@ -360,6 +435,21 @@
       text-transform: uppercase;
       color: var(--gold-light);
     }
+    .col-drag-handle {
+      opacity: 0.35;
+      margin-right: 7px;
+      font-size: 11px;
+      line-height: 1;
+      letter-spacing: 0.05em;
+      color: var(--gold-light);
+      flex-shrink: 0;
+    }
+    .col-header:hover .col-drag-handle { opacity: 0.7; }
+    /* Drop indicator: vertical line on left or right edge of target column */
+    .col.drop-left  { box-shadow: -3px 0 0 0 var(--gold); }
+    .col.drop-right { box-shadow:  3px 0 0 0 var(--gold); }
+    /* Dragged column fades */
+    .col.col-dragging { opacity: 0.35; }
 
     /* ===== COLUMN INFO POPUP ===== */
     #col-info-popup {
@@ -411,7 +501,7 @@
       overflow-y: auto;
       position: relative;
       background: var(--cream);
-      padding: 20px 18px 80vh;
+      padding: 20px 18px 200vh;
       font-family: 'EB Garamond', Georgia, serif;
       color: var(--ink);
       font-size: 14.5px;
@@ -1363,6 +1453,54 @@
         z-index: 190;
       }
     }
+    /* ===== KIE1819 INLINE GLOSS TOOLTIPS ===== */
+    .kie-gloss-word {
+      cursor: pointer;
+      text-decoration: underline;
+      text-decoration-style: dotted;
+      text-underline-offset: 3px;
+      text-decoration-color: rgba(44,36,22,0.4);
+    }
+    body.theme-dark .kie-gloss-word  { text-decoration-color: rgba(200,187,168,0.4); }
+    body.theme-sepia .kie-gloss-word { text-decoration-color: rgba(44,31,14,0.4); }
+    .kie-gloss-word:hover {
+      text-decoration-color: rgba(44,36,22,0.75);
+      background: rgba(184,146,42,0.08);
+    }
+
+    #kie-tooltip {
+      position: fixed;
+      z-index: 700;
+      background: #f9f4ec;
+      border: 1px solid rgba(44,36,22,0.18);
+      border-radius: 4px;
+      padding: 8px 13px 9px;
+      font-family: 'Jost', sans-serif;
+      font-size: 12px;
+      line-height: 1.5;
+      color: #2c2416;
+      box-shadow: 0 6px 22px rgba(0,0,0,0.18), 0 1px 4px rgba(0,0,0,0.1);
+      pointer-events: none;
+      opacity: 0;
+      transition: opacity 0.14s ease;
+      white-space: nowrap;
+      max-width: 320px;
+    }
+    #kie-tooltip.visible { opacity: 1; }
+    #kie-tooltip .kie-tt-word {
+      font-family: 'EB Garamond', serif;
+      font-size: 14px;
+      font-weight: 600;
+      color: #1B3A54;
+      margin-right: 4px;
+    }
+    #kie-tooltip .kie-tt-sep {
+      color: rgba(44,36,22,0.35);
+      margin: 0 3px;
+    }
+    #kie-tooltip .kie-tt-gloss {
+      color: #3d2e1a;
+    }
   </style>
 </head>
 <body>
@@ -1505,6 +1643,10 @@
 <!-- ===== PANEL: TRANSLATIONS ===== -->
 <div class="panel" id="panel-translations">
   <div id="trans-presets-bar"><!-- populated by JS --></div>
+  <div id="default-trans-row">
+    <label for="default-trans-sel">Atıf Çevirisi</label>
+    <select id="default-trans-sel"><option value="">— Seçin —</option></select>
+  </div>
   <div id="trans-cat-list"><!-- populated by buildTransCategories() --></div>
 </div>
 
@@ -1535,6 +1677,9 @@
     <button class="hw-btn" id="hw-btn-dismiss">Anladım, Göster</button>
   </div>
 </div>
+
+<div id="kie-tooltip"><span class="kie-tt-word"></span><span class="kie-tt-sep"> : </span><span class="kie-tt-gloss"></span></div>
+<div id="xref-tooltip"><div class="xref-tt-ref"></div><div class="xref-tt-text"></div></div>
 
 <script>
   // ── Static data ───────────────────────────────────────────────────────
@@ -1639,6 +1784,13 @@
     'NWT2008':      '⚠ Yehova Şahitleri (JW.org) çevirisi. Metni sapkın öğretiye uyarlamaktadır.',
     'NWT2025':      '⚠ Yehova Şahitleri (JW.org) güncelleme baskısı, 2025. Metni sapkın öğretiye uyarlamaktadır.',
     'ESV':          'English Standard Version. Crossway yayını, 2001. Amerikan Evanjelik Protestan çevirisi.',
+    'KJV':          'King James Version (Authorized Version). 1611. İngilizce Kutsal Kitabın klasik çevirisi.',
+    'NKJV':         'New King James Version. Thomas Nelson yayını, 1982. KJV dilinin modernize edilmiş hâli.',
+    'NIV':          'New International Version. Biblica yayını, 1978 (rev. 2011). Geniş çaplı Evanjelik çeviri.',
+    'NLT':          'New Living Translation. Tyndale House yayını, 1996 (rev. 2015). Düşünce-düşünce çevirisi.',
+    'NET':          'New English Translation (NET Bible). Biblical Press Foundation, 2005. Kapsamlı dipnotlu çeviri.',
+    'CSB':          'Christian Standard Bible. Holman Bible Publishers yayını, 2017. Optimal Denklik yaklaşımı.',
+    'LSB':          'Legacy Standard Bible. Three Sixteen Publishing, 2021. NASB kökenli, sözcük-sözcük çevirisi.',
     'BHS':          'Biblia Hebraica Stuttgartensia (BHS) temelinde Westminster Leningrad Kodeksi (MS 1008). Niqqud ve te\'amim işaretleriyle tam noktalı Masoretik metin. Kamu malı dijital kaynak (WLC). Eski Antlaşmanın asıl İbranice metni.',
     'NA27':         'SBL Greek New Testament (SBLGNT, 2010). Nestle-Aland ve diğer eleştirel edisyonlar temel alınarak hazırlanmış, tam vurgulu (politonik) Yeni Antlaşma Yunancası. Society of Biblical Literature tarafından serbest erişime açılmıştır.',
     'LXX':          'Septuaginta (LXX). İbrani kutsal yazılarının Yunanca çevirisi, MÖ 3.–1. yy. Yetmiş İki Çevirmen geleneğine dayanan ve ilk Hristiyanların kullandığı metin. Rahlfs eleştirel baskısı temel alınmıştır. 151. Mezmur dahil.',
@@ -1688,7 +1840,14 @@
       { id:'NWT2025',   name:'Yeni Dünya Çevirisi (2025)',            year:2025, loaded:true  },
     ],
     english: [
+      { id:'KJV',       name:'King James Version',                    year:1611, loaded:true  },
+      { id:'NKJV',      name:'New King James Version',                year:1982, loaded:true  },
       { id:'ESV',       name:'English Standard Version',              year:2001, loaded:true  },
+      { id:'NIV',       name:'New International Version',             year:2011, loaded:true  },
+      { id:'NLT',       name:'New Living Translation',                year:2015, loaded:true  },
+      { id:'NET',       name:'New English Translation',               year:2005, loaded:true  },
+      { id:'CSB',       name:'Christian Standard Bible',              year:2017, loaded:true  },
+      { id:'LSB',       name:'Legacy Standard Bible',                 year:2021, loaded:true  },
     ],
   };
 
@@ -1730,6 +1889,10 @@
   let currentBook    = _lsGet('kkf_book')  || 'Yuhanna';
   let currentChapter = parseInt(_lsGet('kkf_chap') || '1', 10) || 1;
   let layoutMode     = 'cols'; // 'cols' | 'rows' | 'grid'
+  // User-defined column order — array of translation IDs; null = use default TRANS_ORDER
+  let colOrder = (() => { try { return JSON.parse(_lsGet('kkf_col_order') || 'null'); } catch { return null; } })();
+  // Default translation for cross-reference navigation
+  let defaultTrans = _lsGet('kkf_default_trans') || null;
 
   // Init translations: saved state → favorites → default
   const _initTrans = (() => {
@@ -1875,12 +2038,33 @@
   }
 
   // ── Column rendering ──────────────────────────────────────────────────
-  function renderChapter(container, data, chapterFallback) {
+  // KIE1819 gloss parser — wraps annotated Ottoman words in tooltip spans.
+  // Handles: all language prefixes (Ar., Fa., E.Tü., Yun., Aram., İbr., Osm., etc.), numbered glosses, (alt) forms, < > :: = delimiters.
+  // Word group uses [^\s.]+ to prevent matching partial lang prefixes (e.g. E. in E.Yun.) as words.
+  // Optional (?:\s*<\s*)? handles "word < LANG. form" format where < leads the annotation.
+  const KIE_GLOSS_RE = /([^\s.]+?)(?:\s*<\s*)?((?:[A-Zİ][a-zğüşöçı]*\.)+(?:\/(?:[A-Zİ][a-zğüşöçı]*\.)+)?\s+(?:[^\s=\[(<>]+|\([^)]+\))+(?:\s+\[[^\]]+\])?(?:\s*\([^)]+\))?(?:(?:\s*=\s*(?:\d+\.\s+)?[^\s,;]+(?:\s*\([^)]+\))?(?:[,;]\s+(?:\d+\.\s+)?[^\s,;]+(?:\s*\([^)]+\))?)*|\s*[<>]\s*(?:\S+\.\s+\S+|\S+)(?:\s*=\s*[^\s,;]+(?:[,;]\s+[^\s,;]+)*)?|\s*::\s*(?:\S+\.\s+\S+|\S+)(?:\s*=\s*[^\s,;]+(?:[,;]\s+[^\s,;]+)*)?)(?:\s*(?:[<>]|::)\s*(?:\S+\.\s+\S+|\S+)(?:\s*=\s*[^\s,;]+(?:[,;]\s+[^\s,;]+)*)?)*)?)/g;
+
+  function parseKieGlosses(text) {
+    // Escape < > & in gloss values so the cleanup passes below don't corrupt data-gloss attributes.
+    // dataset.gloss decodes &lt; back to < for the tooltip display.
+    text = text.replace(KIE_GLOSS_RE, (_, word, gloss) => {
+      const safe = gloss.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
+      return `<span class="kie-gloss-word" data-gloss="${safe}">${word}</span>`;
+    });
+    // Strip remaining annotation chain markers that weren't consumed by the main regex.
+    // Safe: < > in data-gloss are &lt; &gt; and won't be matched by [<>].
+    text = text.replace(/\s+[<>]\s+(?:(?:[A-Zİ][a-zğüşöçı]*\.)+\s+)?[^\s<>&:;,+\[\]"]+(?:\s*=\s*[^\s<>&:;,+\[\]"]+(?:[,;]\s*[^\s<>&:;,+\[\]"]+)*)*/g, '');
+    text = text.replace(/\s+::\s+(?:(?:[A-Zİ][a-zğüşöçı]*\.)+\s+)?[^\s<>&:;,+\[\]"]+(?:\s*=\s*[^\s<>&:;,+\[\]"]+(?:[,;]\s*[^\s<>&:;,+\[\]"]+)*)*/g, '');
+    return text;
+  }
+
+  function renderChapter(container, data, chapterFallback, translationId) {
     const chDiv = document.createElement('div');
     chDiv.className = 'chapter';
     const chNum = data.c ?? chapterFallback ?? currentChapter;
     chDiv.innerHTML = `<div class="chapter-num">${chNum}</div>${data.title ? `<div class="chapter-title">${data.title}</div>` : ''}`;
     const verses = data.content.filter(item => !item.section);
+    const isKie = translationId === 'KIE1819';
     data.content.forEach((item, idx) => {
       if (item.section) {
         const s = document.createElement('div');
@@ -1891,12 +2075,12 @@
         const v = document.createElement('div');
         v.className = 'verse';
         v.dataset.v = String(item.v);
-        // Compute verse range label: if next verse skips numbers, show e.g. "1-2"
         const verseIdx = verses.indexOf(item);
         const nextVerse = verses[verseIdx + 1];
         const rangeEnd = nextVerse ? nextVerse.v - 1 : null;
         const vnLabel = (rangeEnd && rangeEnd > item.v) ? `${item.v}-${rangeEnd}` : String(item.v);
-        v.innerHTML = `<span class="vn">${vnLabel}</span><span class="vt">${item.text}</span>`;
+        const verseText = isKie ? parseKieGlosses(item.text) : item.text;
+        v.innerHTML = `<span class="vn">${vnLabel}</span><span class="vt">${verseText}</span>`;
         chDiv.appendChild(v);
       }
     });
@@ -1935,7 +2119,7 @@
       const data = await res.json();
       // Cache for search
       chapterCache.set(`${translationId}|${bookCode}|${chapter}`, data.content ?? []);
-      renderChapter(container, data, chapter);
+      renderChapter(container, data, chapter, translationId);
     } catch {
       const entry = TRANS_NOTES[translationId];
       if (entry && !entry[0].has(bookCode)) {
@@ -1967,7 +2151,15 @@
     const bookCode = BOOK_CODES[currentBook] ?? 'JHN';
     const ids = Array.from(selectedTranslations)
       .filter(tid => isTransAvailableForBook(tid, bookCode))
-      .sort((a, b) => TRANS_ORDER.indexOf(a) - TRANS_ORDER.indexOf(b));
+      .sort((a, b) => {
+        if (colOrder) {
+          const ai = colOrder.indexOf(a), bi = colOrder.indexOf(b);
+          if (ai !== -1 && bi !== -1) return ai - bi;
+          if (ai !== -1) return -1;
+          if (bi !== -1) return 1;
+        }
+        return TRANS_ORDER.indexOf(a) - TRANS_ORDER.indexOf(b);
+      });
     const n   = ids.length;
 
     if (layoutMode === 'rows') {
@@ -1987,7 +2179,8 @@
       if (meta.rtl)   col.dataset.rtl    = 'true';
       if (meta.greek) col.dataset.greek  = 'true';
       col.innerHTML = `
-        <div class="col-header" data-tid="${tid}">
+        <div class="col-header" data-tid="${tid}" draggable="true">
+          <span class="col-drag-handle" aria-hidden="true">⠿</span>
           <span class="col-abbr">${tid}</span>
         </div>
         <div class="col-content"></div>`;
@@ -1995,7 +2188,71 @@
     });
 
     attachSyncListeners();
+    attachDragHandlers();
     loadAll();
+  }
+
+  // ── Column drag-and-drop reordering ───────────────────────────────────
+  function attachDragHandlers() {
+    const container = document.getElementById('okuyucu_layout');
+    let dragSrc = null;
+
+    container.querySelectorAll('.col').forEach(col => {
+      const hdr = col.querySelector('.col-header');
+
+      hdr.addEventListener('dragstart', e => {
+        dragSrc = col;
+        col.classList.add('col-dragging');
+        e.dataTransfer.effectAllowed = 'move';
+        e.dataTransfer.setData('text/plain', col.dataset.translation);
+      });
+
+      hdr.addEventListener('dragend', () => {
+        dragSrc = null;
+        container.querySelectorAll('.col').forEach(c => {
+          c.classList.remove('col-dragging', 'drop-left', 'drop-right');
+        });
+      });
+
+      col.addEventListener('dragover', e => {
+        if (!dragSrc || dragSrc === col) return;
+        e.preventDefault();
+        e.dataTransfer.dropEffect = 'move';
+        const rect = col.getBoundingClientRect();
+        const mid  = rect.left + rect.width / 2;
+        container.querySelectorAll('.col').forEach(c => c.classList.remove('drop-left', 'drop-right'));
+        col.classList.add(e.clientX < mid ? 'drop-left' : 'drop-right');
+      });
+
+      col.addEventListener('dragleave', e => {
+        if (!col.contains(e.relatedTarget)) {
+          col.classList.remove('drop-left', 'drop-right');
+        }
+      });
+
+      col.addEventListener('drop', e => {
+        e.preventDefault();
+        if (!dragSrc || dragSrc === col) return;
+        const rect = col.getBoundingClientRect();
+        const mid  = rect.left + rect.width / 2;
+        const insertBefore = e.clientX < mid;
+
+        // Reorder in DOM
+        if (insertBefore) {
+          container.insertBefore(dragSrc, col);
+        } else {
+          container.insertBefore(dragSrc, col.nextSibling);
+        }
+
+        // Persist new order
+        const newOrder = Array.from(container.querySelectorAll('.col[data-translation]'))
+          .map(c => c.dataset.translation);
+        colOrder = newOrder;
+        _lsSet('kkf_col_order', JSON.stringify(newOrder));
+
+        col.classList.remove('drop-left', 'drop-right');
+      });
+    });
   }
 
   // ── Panel helpers ─────────────────────────────────────────────────────
@@ -2101,7 +2358,7 @@
     },
     {
       id: 'english', label: 'English',
-      subcats: [ { label: null, ids: ['ESV'] } ]
+      subcats: [ { label: null, ids: ['KJV','NKJV','ESV','NIV','NLT','NET','CSB','LSB'] } ]
     },
     {
       id: 'heretical', label: 'Sapkın Türkçe Tercümeler',
@@ -2278,6 +2535,7 @@
     saveFavorites(favs);
     updateFavoriteStars();
     syncPresetHighlights();
+    updateDefaultTransSelect();
   }
   function updateFavoriteStars() {
     const favs = getFavorites();
@@ -2393,6 +2651,55 @@
     window._hereticShowWarning = (tid, removeAll) => showHereticWarning(tid, removeAll);
   })();
 
+  // ── KIE1819 gloss tooltip ─────────────────────────────────────────────
+  (function() {
+    const tooltip  = document.getElementById('kie-tooltip');
+    const ttWord   = tooltip.querySelector('.kie-tt-word');
+    const ttGloss  = tooltip.querySelector('.kie-tt-gloss');
+    let activeWord = null;
+
+    function showAt(wordEl) {
+      ttWord.textContent  = wordEl.textContent;
+      ttGloss.textContent = wordEl.dataset.gloss;
+      // Off-screen first so we can measure actual width
+      tooltip.style.left = '-9999px';
+      tooltip.style.top  = '-9999px';
+      tooltip.classList.add('visible');
+
+      requestAnimationFrame(() => {
+        const wr = wordEl.getBoundingClientRect();
+        const tr = tooltip.getBoundingClientRect();
+        let left = wr.left + wr.width / 2 - tr.width / 2;
+        let top  = wr.top - tr.height - 7;
+        // Clamp within viewport
+        left = Math.max(8, Math.min(left, window.innerWidth  - tr.width  - 8));
+        if (top < 6) top = wr.bottom + 7; // flip below if too close to top
+        tooltip.style.left = left + 'px';
+        tooltip.style.top  = top  + 'px';
+      });
+    }
+
+    function hide() {
+      tooltip.classList.remove('visible');
+      activeWord = null;
+    }
+
+    document.addEventListener('click', e => {
+      const word = e.target.closest('.kie-gloss-word');
+      if (word) {
+        e.stopPropagation();
+        if (activeWord === word) { hide(); return; }
+        activeWord = word;
+        showAt(word);
+      } else {
+        hide();
+      }
+    });
+
+    // Also hide when scrolling the column
+    document.addEventListener('scroll', hide, true);
+  })();
+
   // ── Style panel ───────────────────────────────────────────────────────
   document.querySelectorAll('input[name="theme"]').forEach(r => {
     r.addEventListener('change', () => {
@@ -2498,6 +2805,13 @@
     sidebar.classList.toggle('open');
     this.classList.toggle('comm-open', isOpening);
     if (isOpening) loadCommentary(currentBook, currentChapter);
+  });
+
+  // Re-measure verse positions after sidebar width transition (open or close).
+  // The sidebar changes column widths → text reflows → verse offsetTops change →
+  // sync measurements must be refreshed or column alignment breaks.
+  document.getElementById('sidebar-panel').addEventListener('transitionend', e => {
+    if (e.propertyName === 'width') reinitSync();
   });
   document.getElementById('btn-top')?.addEventListener('click', () => {
     getCols().forEach(c => c.scrollTo({ top: 0, behavior: 'smooth' }));
@@ -3209,6 +3523,189 @@
     }
   }
 
+  // ── Cross-reference linkification ────────────────────────────────────
+  const XREF_BOOKS = {
+    'Eyüp.':'Eyüp',    // longer first so it matches before 'Eyü.'
+    'Mat.':'Matta',    'Mar.':'Markos',      'Luk.':'Luka',       'Yu.':'Yuhanna',
+    'Elç.':'Elçilerin İşleri',
+    'Rom.':'Romalılar',
+    '1Ko.':'1. Korintliler',  '2Ko.':'2. Korintliler',
+    'Gal.':'Galatyalılar',    'Ef.':'Efesliler',
+    'Flp.':'Filipililer',     'Kol.':'Koloseliler',
+    '1Se.':'1. Selanikliler', '2Se.':'2. Selanikliler',
+    '1Ti.':'1. Timoteos',     '2Ti.':'2. Timoteos',     '2ti.':'2. Timoteos',
+    'Tit.':'Titus',   'Flm.':'Filemon',    'İbr.':'İbraniler',  'Yak.':'Yakup',
+    '1Pe.':'1. Petrus',  '2Pe.':'2. Petrus',
+    '1Yu.':'1. Yuhanna', '2Yu.':'2. Yuhanna', '3Yu.':'3. Yuhanna',
+    'Yah.':'Yahuda',  'Va.':'Vahiy',       'Vai.':'Vahiy',
+    'Yar.':'Yaratılış', "Çık.":"Mısır'dan Çıkış", 'Lev.':'Levililer',
+    'Say.':'Çölde Sayım', "Yas.":"Yasa'nın Tekrarı",
+    'Yşu.':'Yeşu',    'Hak.':'Hakimler',   'Rut.':'Rut',
+    '1Sa.':'1. Samuel',  '2Sa.':'2. Samuel',
+    '1Kr.':'1. Krallar', '2Kr.':'2. Krallar',
+    '1Ta.':'1. Tarihler','2Ta.':'2. Tarihler',
+    'Ezr.':'Ezra',    'Neh.':'Nehemya',    'Est.':'Ester',
+    "Eyü.":'Eyüp',    'Mez.':'Mezmurlar',
+    "Özd.":"Süleyman'ın Özdeyişleri", 'Ezg.':'Ezgiler Ezgisi',
+    'Yşa.':'Yeşaya',  'Yer.':'Yeremya',    'Ağı.':'Ağıtlar',
+    'Hez.':'Hezekiel','Dan.':'Daniel',     'Hoş.':'Hoşea',
+    'Yoe.':'Yoel',    'Amo.':'Amos',       'Ova.':'Ovadya',
+    'Yun.':'Yunus',   'Mik.':'Mika',       'Nah.':'Nahum',
+    'Hab.':'Habakkuk','Sef.':'Zefanya',    'Hag.':'Hagay',
+    'Zek.':'Zekeriya','Mal.':'Malaki',
+  };
+
+  const _xrefAbbrs = Object.keys(XREF_BOOKS).sort((a, b) => b.length - a.length);
+  const XREF_RE = new RegExp(
+    '(' + _xrefAbbrs.map(k => k.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')).join('|') + ')' +
+    '\\s*(\\d+):(\\d+)(?:[–\\-](\\d+))?',
+    'g'
+  );
+
+  function linkifyXrefs(html) {
+    return html.replace(XREF_RE, (match, abbr, chap, vFrom) => {
+      const bookName = XREF_BOOKS[abbr];
+      if (!bookName) return match;
+      const safeBook = bookName.replace(/'/g, '&#39;').replace(/"/g, '&quot;');
+      return `<span class="xref-link" data-book="${safeBook}" data-chap="${chap}" data-verse="${vFrom}">${match}</span>`;
+    });
+  }
+
+  function openXref(bookName, chap, verse) {
+    if (!BOOK_CODES[bookName]) return;
+    const tid = (defaultTrans && ALL_TRANS[defaultTrans]?.loaded) ? defaultTrans
+              : [...selectedTranslations][0];
+    // Ensure the target translation is visible
+    if (tid && !selectedTranslations.has(tid)) {
+      selectedTranslations.add(tid);
+      syncTranslationUI();
+      rebuildColumns();
+      saveState();
+    }
+    if (bookName !== currentBook || chap !== currentChapter) {
+      navigateToBook(bookName, chap);
+    }
+    let tries = 25;
+    const label = String(verse);
+    const poll = () => {
+      let el = tid
+        ? document.querySelector(`.col[data-translation="${tid}"] .verse[data-v="${label}"]`)
+        : null;
+      if (!el) el = Array.from(document.querySelectorAll('.verse[data-v]'))
+                          .find(v => verseLabelsOverlap(label, v.dataset.v));
+      if (el) {
+        el.scrollIntoView({ behavior: 'smooth', block: 'center' });
+        selectedVerses.clear();
+        document.querySelectorAll('.verse').forEach(v => v.classList.remove('v-selected'));
+        selectedVerses.add(label);
+        highlightVerse(label, 'v-selected', true);
+      } else if (--tries > 0) {
+        setTimeout(poll, 120);
+      }
+    };
+    setTimeout(poll, 80);
+  }
+
+  // Default translation select — populated from favorites
+  function updateDefaultTransSelect() {
+    const sel = document.getElementById('default-trans-sel');
+    if (!sel) return;
+    const favs = getFavorites().filter(id => ALL_TRANS[id]?.loaded);
+    const pool = favs.length > 0 ? favs : TRANS_ORDER.filter(id => ALL_TRANS[id]?.loaded);
+    sel.innerHTML = '<option value="">— Seçin —</option>' +
+      pool.map(id => {
+        const meta = ALL_TRANS[id];
+        const sel_ = id === defaultTrans ? ' selected' : '';
+        return `<option value="${id}"${sel_}>${id} — ${meta?.name || id}</option>`;
+      }).join('');
+  }
+  updateDefaultTransSelect();
+
+  document.getElementById('default-trans-sel')?.addEventListener('change', e => {
+    defaultTrans = e.target.value || null;
+    _lsSet('kkf_default_trans', defaultTrans || '');
+  });
+
+  // Cross-ref hover tooltip
+  (function() {
+    const tooltip = document.getElementById('xref-tooltip');
+    const ttRef   = tooltip.querySelector('.xref-tt-ref');
+    const ttText  = tooltip.querySelector('.xref-tt-text');
+    let activeEl  = null;
+    let _timer    = null;
+
+    function positionAt(el) {
+      tooltip.style.left = '-9999px';
+      tooltip.style.top  = '-9999px';
+      requestAnimationFrame(() => {
+        const er = el.getBoundingClientRect();
+        const tr = tooltip.getBoundingClientRect();
+        let left = er.left + er.width / 2 - tr.width / 2;
+        let top  = er.top - tr.height - 8;
+        left = Math.max(8, Math.min(left, window.innerWidth - tr.width - 8));
+        if (top < 6) top = er.bottom + 8;
+        tooltip.style.left = left + 'px';
+        tooltip.style.top  = top  + 'px';
+      });
+    }
+
+    async function show(el) {
+      const bookName = el.dataset.book;
+      const chap     = parseInt(el.dataset.chap, 10);
+      const verse    = parseInt(el.dataset.verse, 10);
+      const bookCode = BOOK_CODES[bookName];
+      if (!bookCode) return;
+
+      const tid = (defaultTrans && ALL_TRANS[defaultTrans]?.loaded)
+        ? defaultTrans
+        : [...selectedTranslations][0] || TRANS_ORDER.find(id => ALL_TRANS[id]?.loaded);
+      if (!tid) return;
+
+      const cacheKey = `${tid}|${bookCode}|${chap}`;
+      let verses = chapterCache.get(cacheKey);
+      if (!verses) {
+        try {
+          const res  = await fetch(`data/translations/${tid}/${bookCode}/${chap}.json`);
+          if (!res.ok) throw new Error();
+          const data = await res.json();
+          verses = data.content ?? [];
+          chapterCache.set(cacheKey, verses);
+        } catch { return; }
+      }
+
+      const items = verses.filter(v => v.v != null);
+      let target = items.find(v => v.v === verse);
+      if (!target && items.length) {
+        target = items.reduce((best, v) =>
+          Math.abs(v.v - verse) < Math.abs(best.v - verse) ? v : best, items[0]);
+      }
+      if (!target || activeEl !== el) return;
+
+      ttRef.textContent  = `${el.textContent}  ·  ${tid}`;
+      ttText.textContent = target.text;
+      tooltip.classList.add('visible');
+      positionAt(el);
+    }
+
+    function hide() {
+      tooltip.classList.remove('visible');
+      activeEl = null;
+      clearTimeout(_timer);
+    }
+
+    const notes = document.getElementById('commentary-notes');
+    notes.addEventListener('mouseover', e => {
+      const xref = e.target.closest('.xref-link');
+      if (!xref || xref === activeEl) return;
+      clearTimeout(_timer);
+      activeEl = xref;
+      _timer = setTimeout(() => show(xref), 100);
+    });
+    notes.addEventListener('mouseout', e => {
+      if (!e.target.closest('.xref-link') || !e.relatedTarget?.closest('.xref-link')) hide();
+    });
+  })();
+
   function renderCommentary(data) {
     const introEl = document.getElementById('commentary-intro');
     const notesEl = document.getElementById('commentary-notes');
@@ -3233,10 +3730,10 @@
       const text = document.createElement('div');
       text.className = 'comm-text';
       // Italicize terms that appear in italics on source site (quoted with apostrophes)
-      text.innerHTML = note.text
+      text.innerHTML = linkifyXrefs(note.text
         .replace(/([A-ZÇĞİÖŞÜa-zçğışöşü][^\.\!\?]{2,30}?) (Bkz\.|bkz\.|Krş\.|krş\.)/g, '<em>$1</em> $2')
         .replace(/\bBkz\. /g, '<span style="color:rgba(184,146,42,0.7)">Bkz. </span>')
-        .replace(/\bbkz\. /g, '<span style="color:rgba(184,146,42,0.7)">bkz. </span>');
+        .replace(/\bbkz\. /g, '<span style="color:rgba(184,146,42,0.7)">bkz. </span>'));
       div.appendChild(ref);
       div.appendChild(text);
       notesEl.appendChild(div);
@@ -3282,7 +3779,7 @@
     const post = document.getElementById('commentary-post-space');
     if (!body) return;
     const H = body.clientHeight;
-    if (pre) pre.style.height = H + 'px';
+    if (pre) pre.style.height = '0px';
     if (post) {
       // Post-space must be exactly (H - lastNoteHeight) so the furthest the
       // user can scroll is the last note's top edge flush with the panel top —
