@@ -1,1 +1,131 @@
-{"t":"AREMS","b":"1CO","c":12,"content":[{"v":1,"text":"Şimdi ruhani armağanlara gelince, ey kardeşler, sizin bilgisiz kalmanızı istemem."},{"v":2,"text":"Bilirsiniz ki siz Centiller idiniz, yöneltildiğiniz gibi bu dilsiz putlara götürüldünüz."},{"v":3,"text":"Bunun için size bildiririm ki, hiçbir adam Allah’ın Ruh’u aracılığıyla konuşarak, İsa lanetlidir, demez; Kutsal Ruh’un aracılığı olmaksızın da hiçbir adam, İsa Rab’dir, diyemez."},{"v":4,"text":"Şimdi armağanların çeşitleri vardır, ama aynı Ruh’tur."},{"v":5,"text":"Ve hizmetlerin çeşitleri vardır, ama aynı Rab’dir."},{"v":6,"text":"Ve işlerin çeşitleri vardır, ama hepsinde hepsini işleyen aynı Allah’tır."},{"v":7,"text":"Ama her adama Ruh’un açıklanışı genel yarar için veriliyor."},{"v":8,"text":"Çünkü Ruh aracılığıyla birine bilgelik sözü, bir diğerine aynı Ruh aracılığıyla bilgi sözü;"},{"v":9,"text":"Bir diğerine aynı Ruh aracılığıyla iman; bir diğerine aynı Ruh aracılığıyla şifa armağanları,"},{"v":10,"text":"Bir diğerine mucizeler yapmak; bir diğerine peygamberlik; bir diğerine ruhları ayırt etmek; bir diğerine değişik diller çeşitleri; bir diğerine de dillerin tercümesi veriliyor;"},{"v":11,"text":"Ama istediği gibi her adama ayrı ayrı dağıtarak bunların hepsini tek ve aynı Ruh yapıyor."},{"v":12,"text":"Çünkü beden tek ve üyeleri çok olduğu gibi, ve o tek bedenin tüm üyeleri çok oldukları halde beden tektir; Mesih de böyledir."},{"v":13,"text":"Çünkü tek Ruh aracılığıyla hepimiz, ister Yahudiler ister Centiller olalım, ister köle ya da özgür olalım, tek bir bedenin içine vaftiz edildik; ve hepimizin tek Ruh’un içine içmesi sağlandı."},{"v":14,"text":"Çünkü beden tek üye değil, ama çok üyedir."},{"v":15,"text":"Eğer ayak, El olmadığım için bedenden değilim, derse; bunun için bedenden değil midir?"},{"v":16,"text":"Ve eğer kulak, Göz olmadığım için bedenden değilim, derse; bunun için bedenden değil midir?"},{"v":17,"text":"Eğer tüm beden göz olsaydı, işitme nerede kalırdı? Eğer bütünü işitme olsaydı, koklama nerede kalırdı?"},{"v":18,"text":"Ama şimdi Allah üyelerin her birini bedene istediği gibi koydu."},{"v":19,"text":"Ve eğer hepsi tek bir üye olsaydı, beden nerede kalırdı?"},{"v":20,"text":"Ama şimdi onlar çok üye, ancak yalnız tek bedendirler."},{"v":21,"text":"Ve göz ele, Sana ihtiyacım yoktur, ya da yine baş ayaklara, Size ihtiyacım yoktur, diyemez."},{"v":22,"text":"Tam tersine, bedenin daha zayıf görünen üyeleri daha çok gereklidir;"},{"v":23,"text":"Ve bedenin daha az saygıdeğer saydığımız üyelerine daha fazla saygı veririz; ve güzel olmayan üyelerimizin daha çok güzelliği vardır;"},{"v":24,"text":"Çünkü güzel üyelerimizin ihtiyacı yoktur; ama Allah eksik olan parçaya daha çok saygı vererek bedeni birleştirdi;"},{"v":25,"text":"Öyle ki, bedende ayrılık olmasın; ama üyeler aynı derecede birbirini kayırsınlar."},{"v":26,"text":"Ve eğer bir üye elem çekerse, tüm üyeler onunla birlikte elem çeker; ya da bir üye şeref bulursa, tüm üyeler onunla birlikte sevinirler."},{"v":27,"text":"Şimdi siz Mesih’in bedeni, ve ayrı ayrı üyelersiniz."},{"v":28,"text":"Ve Allah kilisede bazılarını koydu: önce elçiler, ikinci peygamberler, üçüncü öğretmenler, sonra mucizeler, sonra şifa armağanları, yardımlar, yönetmeler, dillerin çeşitleri."},{"v":29,"text":"Hepsi elçi mi? Hepsi peygamber mi? Hepsi öğretmen mi? Hepsi mucizeler yapar mı?"},{"v":30,"text":"Hepsinin şifa armağanları var mı? Hepsi dillerle konuşur mu? Hepsi tercüme eder mi?"},{"v":31,"text":"Ama daha iyi armağanları gayretle isteyin. Ve yine size daha iyi bir yol göstereyim."}]}
+{
+  "t": "AREMS",
+  "b": "1CO",
+  "c": 12,
+  "content": [
+    {
+      "v": 1,
+      "text": "Şimdi ruhani armağanlara gelince, ey kardeşler, sizin bilgisiz kalmanızı istemem."
+    },
+    {
+      "v": 2,
+      "text": "Bilirsiniz ki siz Centiller idiniz, yöneltildiğiniz gibi bu dilsiz putlara götürüldünüz."
+    },
+    {
+      "v": 3,
+      "text": "Bunun için size bildiririm ki, hiçbir adam Allah’ın Ruhu aracılığıyla konuşarak, İsa lanetlidir, demez; Kutsal Ruh’un aracılığı olmaksızın da hiçbir adam, İsa Rab’dir, diyemez."
+    },
+    {
+      "v": 4,
+      "text": "Şimdi armağanların çeşitleri vardır, ama aynı Ruh’tur."
+    },
+    {
+      "v": 5,
+      "text": "Ve hizmetlerin çeşitleri vardır, ama aynı Rab’dir."
+    },
+    {
+      "v": 6,
+      "text": "Ve işlerin çeşitleri vardır, ama hepsinde hepsini işleyen aynı Allah’tır."
+    },
+    {
+      "v": 7,
+      "text": "Ama her adama Ruh’un açıklanışı genel yarar için veriliyor."
+    },
+    {
+      "v": 8,
+      "text": "Çünkü Ruh aracılığıyla birine bilgelik sözü, bir diğerine aynı Ruh aracılığıyla bilgi sözü;"
+    },
+    {
+      "v": 9,
+      "text": "Bir diğerine aynı Ruh aracılığıyla iman; bir diğerine aynı Ruh aracılığıyla şifa armağanları,"
+    },
+    {
+      "v": 10,
+      "text": "Bir diğerine mucizeler yapmak; bir diğerine peygamberlik; bir diğerine ruhları ayırt etmek; bir diğerine dillerin çeşitleri; bir diğerine de dillerin tercümesi veriliyor;"
+    },
+    {
+      "v": 11,
+      "text": "Ama istediği gibi her adama ayrı ayrı dağıtarak bunların hepsini tek ve aynı Ruh yapıyor."
+    },
+    {
+      "v": 12,
+      "text": "Çünkü beden tek ve üyeleri çok olduğu gibi, ve o tek bedenin tüm üyeleri çok oldukları halde beden tektir; Mesih de böyledir."
+    },
+    {
+      "v": 13,
+      "text": "Çünkü tek Ruh aracılığıyla hepimiz, ister Yahudi ister Centil olalım, ister köle ister özgür olalım, tek bir bedenin içine vaftiz edildik; ve hepimizin tek Ruh’un içine içmesi sağlandı."
+    },
+    {
+      "v": 14,
+      "text": "Çünkü beden tek üye değil, çok üyedir."
+    },
+    {
+      "v": 15,
+      "text": "Eğer ayak, El olmadığım için bedenden değilim, derse; bunun için bedenden değil midir?"
+    },
+    {
+      "v": 16,
+      "text": "Ve eğer kulak, Göz olmadığım için bedenden değilim, derse; bunun için bedenden değil midir?"
+    },
+    {
+      "v": 17,
+      "text": "Eğer tüm beden göz olsaydı, işitme nerede kalırdı? Eğer bütünü işitme olsaydı, koklama nerede kalırdı?"
+    },
+    {
+      "v": 18,
+      "text": "Ama şimdi Allah üyelerin her birini bedene istediği gibi koydu."
+    },
+    {
+      "v": 19,
+      "text": "Ve eğer hepsi tek bir üye olsaydı, beden nerede kalırdı?"
+    },
+    {
+      "v": 20,
+      "text": "Ama şimdi onlar çok üye, ancak yalnız tek bedendirler."
+    },
+    {
+      "v": 21,
+      "text": "Ve göz ele, Sana ihtiyacım yoktur, ya da baş ayaklara, Size ihtiyacım yoktur, diyemez."
+    },
+    {
+      "v": 22,
+      "text": "Tam tersine, bedenin daha zayıf görünen üyeleri daha çok gereklidir;"
+    },
+    {
+      "v": 23,
+      "text": "Ve bedenin daha az saygıdeğer saydığımız üyelerine daha fazla saygı veririz; ve güzel olmayan üyelerimizin daha çok güzelliği vardır;"
+    },
+    {
+      "v": 24,
+      "text": "Çünkü güzel üyelerimizin ihtiyacı yoktur; ama Allah eksik olan parçaya daha çok saygı vererek bedeni birleştirdi;"
+    },
+    {
+      "v": 25,
+      "text": "Öyle ki, bedende ayrılık olmasın; ama üyeler aynı derecede birbirini kayırsınlar."
+    },
+    {
+      "v": 26,
+      "text": "Ve eğer bir üye elem çekerse, tüm üyeler onunla birlikte elem çeker; ya da bir üye şeref bulursa, tüm üyeler onunla birlikte sevinirler."
+    },
+    {
+      "v": 27,
+      "text": "Şimdi siz Mesih’in bedeni, ve ayrı ayrı üyelersiniz."
+    },
+    {
+      "v": 28,
+      "text": "Ve Allah kilisede bazılarını koydu: önce elçiler, ikinci peygamberler, üçüncü öğretmenler, sonra mucizeler, sonra şifa armağanları, yardımlar, yönetmeler, dillerin çeşitleri."
+    },
+    {
+      "v": 29,
+      "text": "Hepsi elçi mi? hepsi peygamber mi? hepsi öğretmen mi? hepsi mucizeler yapar mı?"
+    },
+    {
+      "v": 30,
+      "text": "Hepsinin şifa armağanları var mı? hepsi dillerle konuşur mu? hepsi tercüme eder mi?"
+    },
+    {
+      "v": 31,
+      "text": "Ama daha iyi armağanları gayretle isteyin. Ve yine size daha iyi bir yol göstereyim."
+    }
+  ]
+}

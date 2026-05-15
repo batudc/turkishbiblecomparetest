@@ -1,1 +1,99 @@
-{"t":"AREMS","b":"MAT","c":2,"content":[{"v":1,"text":"Şimdi İsa Kral Hirodes’in günlerinde Yahudiye Beytlehemi’nde doğduğu zaman, işte, doğudan Yeruşalim’e gök bilimciler gelip,"},{"v":2,"text":"“Yahudiler’in Kralı olarak doğan kişi nerededir?” dediler; “Çünkü O’nun yıldızını doğuda gördük, ve O’na tapınmaya geldik.”"},{"v":3,"text":"Kral Hirodes bunları duyunca tedirgin oldu, tüm Yeruşalim de onunla birlikte."},{"v":4,"text":"Ve, tüm baş kâhinleri ve halkın yazıcılarını toplayarak onlardan Mesih’in nerede doğacağını sordu."},{"v":5,"text":"Onlar da kendisine, Yahudiye Beytlehemi’nde, dediler; çünkü peygamber aracılığıyla şöyle yazılmıştır:"},{"v":6,"text":"Ve sen, Yahuda ülkesindeki Beytlehem, Yahuda reisleri arasında hiç de en küçüğü değilsin; çünkü benim halkım İsrail’i güdecek olan Önder senden çıkacak."},{"v":7,"text":"O zaman Hirodes, gök bilimcileri gizlice çağırınca, yıldızın ne zaman göründüğünü onlara dikkatlice soruşturdu."},{"v":8,"text":"Ve onları Beytlehem’e gönderip, Gidin ve genç çocuğu iyice arayın, dedi; ve O’nu bulduğunuz zaman bana haber verin ki, ben de gelip O’na tapınayım."},{"v":9,"text":"Kralı dinledikten sonra gittiler; ve, işte, doğuda gördükleri yıldız, gelip genç çocuğun bulunduğu yerin üzerinde duruncaya kadar, önlerince gitti."},{"v":10,"text":"Yıldızı gördüklerinde büyük bir sevinçle coştular."},{"v":11,"text":"Ve eve girip genç çocuğu annesi Meryem’le gördüler, ve yere kapanıp O’na tapındılar; ve hazinelerini açıp O’na armağanlar sundular: altın,"},{"v":12,"text":"ve günnük, ve mür."},{"v":13,"text":"Ve Hirodes’e dönmemeleri için Allah tarafından rüyada uyarılıp kendi ülkelerine başka yoldan döndüler."},{"v":14,"text":"Ve onlar gittikten sonra, işte, Rab’bin meleği Yusuf’a rüyada görünüp, Kalk, dedi, ve genç çocukla annesini al, ve Mısır’a kaç, ve ben sana söyleyinceye dek orada kal; çünkü Hirodes O’nu helâk etmek için genç çocuğu arayacak."},{"v":15,"text":"O da kalkıp geceleyin genç çocuğu ve annesini aldı, ve Mısır’a gitti."},{"v":16,"text":"Ve Hirodes’in ölümüne dek orada kaldı; bu, Rab’bin peygamber aracılığıyla söylediği şu söz yerine gelsin diye oldu: Oğlum’u Mısır’dan çağırdım."},{"v":17,"text":"O zaman Hirodes, gök bilimciler tarafından aldatıldığını görünce, çok öfkelendi ve gök bilimcilere dikkatlice soruşturduğu zamana göre, gönderip Beytlehem ve tüm sınırlarındaki iki yaşında ve daha aşağı olan tüm çocukları öldürttü."},{"v":18,"text":"O zaman Yeremya peygamber aracılığıyla söylenen şu söz yerine gelmiş oldu:"},{"v":19,"text":"Rama’da bir ses duyuldu, inleme, ve ağlayış, ve yoğun dövünme; Rahel çocukları için ağlıyor, ve teselli edilmek istemiyor, çünkü onlar yok."},{"v":20,"text":"Ama Hirodes ölünce, işte, Rab’bin bir meleği Mısır’da Yusuf’a rüyada görünüp,"},{"v":21,"text":"Kalk, dedi, ve genç çocukla annesini al ve İsrail ülkesine git; çünkü genç çocuğun canına kıymak isteyenler öldü."},{"v":22,"text":"O da kalktı, ve genç çocukla annesini alıp İsrail ülkesine geldi."},{"v":23,"text":"Ama Yahudiye’de Arhelaos’un, babası Hirodes’in yerine krallık ettiğini duyunca oraya gitmekten korktu; ancak Allah tarafından rüyada uyarılıp Celile bölgesine çekildi;"}]}
+{
+  "t": "AREMS",
+  "b": "MAT",
+  "c": 2,
+  "content": [
+    {
+      "v": 1,
+      "text": "Şimdi İsa Kral Hirodes’in günlerinde Yahudiye Beytlehemi’nde doğduğu zaman, işte, doğudan Yeruşalim’e gök bilimciler gelip."
+    },
+    {
+      "v": 2,
+      "text": "Yahudiler’in Kralı olarak doğan kişi nerededir? dediler; çünkü onun yıldızını doğuda gördük, ve ona tapınmaya geldik."
+    },
+    {
+      "v": 3,
+      "text": "Kral Hirodes bu şeyleri duyunca tedirgin oldu, tüm Yeruşalim de onunla birlikte."
+    },
+    {
+      "v": 4,
+      "text": "Ve tüm başkahinleri ve halkın yazıcılarını toplayarak onlardan Mesih’in nerede doğacağını sordu."
+    },
+    {
+      "v": 5,
+      "text": "Onlar da kendisine, Yahudiye Beytlehemi’nde, dediler; çünkü peygamber aracılığıyla şöyle yazılmıştır:"
+    },
+    {
+      "v": 6,
+      "text": "Ve sen, Yahuda ülkesindeki Beytlehem, Yahuda reisleri arasında hiç de en küçüğü değilsin; çünkü benim halkım İsrail’i güdecek olan Önder senden çıkacak."
+    },
+    {
+      "v": 7,
+      "text": "O zaman Hirodes, gök bilimcileri gizlice çağırınca, yıldızın ne zaman göründüğünü onlara dikkatlice soruşturdu."
+    },
+    {
+      "v": 8,
+      "text": "Ve onları Beytlehem’e gönderip, Gidin ve genç çocuğu iyice arayın, dedi; ve onu bulduğunuz zaman bana haber verin ki, ben de gelip ona tapınayım."
+    },
+    {
+      "v": 9,
+      "text": "Kralı dinledikten sonra gittiler; ve, işte, doğuda gördükleri yıldız, gelip genç çocuğun bulunduğu yerin üzerinde duruncaya kadar, önlerince gitti."
+    },
+    {
+      "v": 10,
+      "text": "Yıldızı gördüklerinde büyük bir sevinçle coştular."
+    },
+    {
+      "v": 11,
+      "text": "Ve eve girip genç çocuğu annesi Meryem’le gördüler, ve yere kapanıp ona tapındılar; ve hazinelerini açıp ona armağanlar sundular: altın, ve günnük, ve mür."
+    },
+    {
+      "v": 12,
+      "text": "Ve Hirodes’e dönmemeleri için Allah tarafından rüyada uyarılıp kendi ülkelerine başka yoldan döndüler."
+    },
+    {
+      "v": 13,
+      "text": "Ve onlar gittikten sonra, işte, Rab’bin meleği Yusuf’a rüyada görünüp, Kalk, dedi, ve genç çocukla annesini al, ve Mısır’a kaç, ve ben sana söyleyinceye dek orada kal; çünkü Hirodes onu helak etmek için genç çocuğu arayacak."
+    },
+    {
+      "v": 14,
+      "text": "O da kalkıp geceleyin genç çocuğu ve annesini aldı, ve Mısır’a gitti."
+    },
+    {
+      "v": 15,
+      "text": "Ve Hirodes’in ölümüne dek orada kaldı; bu, Rab’bin peygamber aracılığıyla söylediği şu söz yerine gelsin diye oldu: Oğlum’u Mısır’dan çağırdım."
+    },
+    {
+      "v": 16,
+      "text": "O zaman Hirodes, gök bilimciler tarafından aldatıldığını görünce, çok öfkelendi, ve gök bilimcilere dikkatlice soruşturduğu zamana göre, gönderip Beytlehem ve tüm sınırlarındaki iki yaşında ve daha aşağı olan tüm çocukları öldürttü."
+    },
+    {
+      "v": 17,
+      "text": "O zaman Yeremya peygamber aracılığıyla söylenen şu söz yerine gelmiş oldu:"
+    },
+    {
+      "v": 18,
+      "text": "Rama’da bir ses duyuldu, inleme, ve ağlayış, ve yoğun dövünme, Rahel çocukları için ağlıyor, ve teselli edilmek istemiyor, çünkü onlar yok."
+    },
+    {
+      "v": 19,
+      "text": "Ama Hirodes ölünce, işte, Rab’bin bir meleği Mısır’da Yusuf’a rüyada görünüp,"
+    },
+    {
+      "v": 20,
+      "text": "Kalk, dedi, ve genç çocukla annesini al, ve İsrail ülkesine git; çünkü genç çocuğun canına kıymak isteyenler öldü."
+    },
+    {
+      "v": 21,
+      "text": "O da kalktı, ve genç çocukla annesini alıp İsrail ülkesine geldi."
+    },
+    {
+      "v": 22,
+      "text": "Ama Yahudiye’de Arhelaos’un, babası Hirodes’in yerine krallık ettiğini duyunca oraya gitmekten korktu; ancak Allah tarafından rüyada uyarılıp Celile bölgesine çekildi;"
+    },
+    {
+      "v": 23,
+      "text": "Ve gelip Nasıra denen kentte yerleşti; bu, peygamberler aracılığıyla söylenen şu söz yerine gelsin diye oldu: Ona Nasıralı denecektir."
+    }
+  ]
+}

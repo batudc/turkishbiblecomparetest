@@ -1,1 +1,91 @@
-{"t":"AREMS","b":"1TI","c":6,"content":[{"v":1,"text":"Boyunduruk altında kaç köle varsa kendi efendilerini tüm onura layık saysınlar, öyle ki, Allah’ın adı ve öğretisi küfredilmesin."},{"v":2,"text":"Ve iman etmiş efendileri olanlar, kardeş oldukları için onları hor görmesinler, ama daha ziyade onlara hizmet etsinler; çünkü bunlar sadık ve sevilen, bu hizmetten yararlanan kişilerdir. Bu şeyleri öğret ve teşvik et."},{"v":3,"text":"Eğer bir adam başka türlü öğretirse, ve sağlam sözlere, Rabbimiz İsa Mesih’in sözlerine, ve takvaya göre olan öğretiye yanaşmazsa,"},{"v":4,"text":"Bir şey bilmeyerek kibirlenmiştir, ama tartışmalar ve kelime kavgalarını delilik derecesinde sever; kıskançlık, çekişme, iftiralar, kötü kuşkular,"},{"v":5,"text":"Düşünceleri bozulmuş ve gerçekten yoksun kalmış adamların takvayı kazanç yolu sanıp sürtüşmeleri bunlardan oluyor; böyle kimselerden sakın."},{"v":6,"text":"Ama takva, yetinmeyle büyük kazançtır."},{"v":7,"text":"Çünkü dünyaya bir şey getirmedik, ve bellidir ki ondan bir şey götüremeyiz."},{"v":8,"text":"Ve yiyeceğimiz ve örtüneceğimiz oldukça bunlarla yetinelim."},{"v":9,"text":"Ama zengin olmak isteyenler denenmeye ve tuzağa, ve insanları yıkıma ve helâke batıran çok anlamsız ve zararlı arzulara düşerler."},{"v":10,"text":"Çünkü tüm kötülüğün kökü para sevgisidir; bazıları bunu arzu ederek imandan saptılar, ve kendilerini birçok elemlerle sapladılar."},{"v":11,"text":"Ama sen, ey Allah adamı, bu şeylerden kaç; ve doğruluğun, takvanın, imanın, sevginin, sabrın, yumuşak huyluluğun ardından koş."},{"v":12,"text":"İmanın iyi mücadelesini sürdür, sonsuz yaşamı sıkı tut, buna da çağrıldın, ve çok tanıklar önünde iyi ikrarı ikrar ettin."},{"v":13,"text":"Tüm şeyleri diri eden Allah’ın gözü önünde, ve Pontius Pilatus’un önünde iyi ikrarı tanıklık etmiş olan Mesih İsa’nın önünde sana buyuruyorum ki,"},{"v":14,"text":"Rabbimiz İsa Mesih’in görünmesine dek sen bu emri lekesiz, kusursuz tutasın;"},{"v":15,"text":"Kendi vakitlerinde O’nu gösterecektir, kutlu ve tek Hükümdar, kralların Kralı, ve rablerin Rabbi O’dur;"},{"v":16,"text":"Ölümsüzlüğe yalnız sahip olan, hiçbir adamın yaklaşamadığı ışıkta duran O’dur, O’nu hiçbir adam görmedi, ve göremiyor; O’na onur ve sonsuz kudret olsun. Amin."},{"v":17,"text":"Bu dünyada zengin olanlara yüksek fikirli olmamalarını, ve güvenilmez zenginliğe değil, ama zevk almamız için bize tüm şeyleri bol bol veren Allah’a umut bağlamalarını,"},{"v":18,"text":"Sonsuz yaşamı tutsunlar diye, gelecek vakit için kendilerine iyi temel hazırlayarak iyilik işlemelerini,"},{"v":19,"text":"İyi işlerde zengin olup dağıtmaya hazır ve cömert olmalarını buyur."},{"v":20,"text":"Ey Timoteos, sana emanet edileni koru, bayağı ve boş sözlerden, ve yalan yere bilgi denilen şeyin itirazlarından sakın;"},{"v":21,"text":"Bazıları bunu iddia ederek iman hakkında saptılar. İnayet seninle olsun. Amin."}]}
+{
+  "t": "AREMS",
+  "b": "1TI",
+  "c": 6,
+  "content": [
+    {
+      "v": 1,
+      "text": "Boyunduruk altında kaç köle varsa kendi efendilerini tüm onura layık saysınlar, öyle ki, Allah’ın adı ve ögretisi küfredilmesin."
+    },
+    {
+      "v": 2,
+      "text": "Ve iman etmiş efendileri olanlar, kardeş oldukları için onları hor görmesinler, ama daha ziyade hizmet etsinler; çünkü bunlar sadık ve sevilen, bu hizmetten yararlanan kişilerdir. Bu şeyleri öğret ve teşvik et."
+    },
+    {
+      "v": 3,
+      "text": "Eğer bir adam başka türlü öğretirse, ve sağlam sözlere, Rabbimiz İsa Mesih’in sözlerine, ve takvaya göre olan öğretiye yanaşmazsa,"
+    },
+    {
+      "v": 4,
+      "text": "Bir şey bilmeyerek kibirlenmiştir, ama tartışmalar ve kelime kavgalarını delilik derecesinde sever; kıskançlık, çekişme, iftiralar, kötü kuşkular,"
+    },
+    {
+      "v": 5,
+      "text": "Düşünceleri bozulmuş ve gerçekten yoksun kalmış adamların takvayı kazanç yolu sanıp sürtüşmeleri bunlardan oluyor; böyle kimselerden sakın."
+    },
+    {
+      "v": 6,
+      "text": "Ama takva, yetinmeyle büyük kazançtır."
+    },
+    {
+      "v": 7,
+      "text": "Çünkü dünyaya bir şey getirmedik, ne de ondan bir şey götürebiliriz."
+    },
+    {
+      "v": 8,
+      "text": "Ve yiyeceğimiz ve örtüneceğimiz oldukça bunlarla yetinelim."
+    },
+    {
+      "v": 9,
+      "text": "Ama zengin olmak isteyenler denenmeye ve tuzağa, ve insanları yıkıma ve helake batıran çok anlamsız ve zararlı arzulara düşerler."
+    },
+    {
+      "v": 10,
+      "text": "Çünkü her kötülüğün kökü para sevgisidir; bazıları bunu arzu ederek imandan saptılar, ve birçok eziyetlerle kendilerine işkence ettiler."
+    },
+    {
+      "v": 11,
+      "text": "Ama sen, ey Allah adamı, bu şeylerden kaç; ve doğruluğun, takvanın, imanın, sevginin, sabrın, yumuşak huyluluğun ardından koş."
+    },
+    {
+      "v": 12,
+      "text": "İmanın iyi mücadelesini sürdür, sonsuz yaşamı sıkı tut, buna da çağrıldın, ve çok tanıklar önünde iyi ikrarı ikrar ettin."
+    },
+    {
+      "v": 13,
+      "text": "Tüm şeyleri diri eden Allah’ın gözü önünde, ve Pontius Pilatus’un önünde iyi ikrarı tanıklık etmiş olan Mesih İsa’nın önünde sana buyuruyorum ki,"
+    },
+    {
+      "v": 14,
+      "text": "Rabbimiz İsa Mesih’in görünmesine dek sen bu emri lekesiz, kusursuz tutasın;"
+    },
+    {
+      "v": 15,
+      "text": "Kendi vakitlerinde onu gösterecektir, kutlu ve tek Hükümdar, kralların Kralı, ve rablerin Rabbi odur;"
+    },
+    {
+      "v": 16,
+      "text": "Ölümsüzlüğe yalnız sahip olan, hiçbir adamın yaklaşamadığı ışıkta duran odur, onu hiçbir adam görmedi, ve göremiyor; ona onur ve sonsuz kudret olsun. Amin."
+    },
+    {
+      "v": 17,
+      "text": "Şimdiki dünyada zengin olanlara yüksek fikirli olmamalarını, ve güvenilmez zenginliğe değil, zevk almamız için bize tüm şeyleri bol bol veren Allah’a umut bağlamalarını,"
+    },
+    {
+      "v": 18,
+      "text": "Sonsuz yaşamı tutsunlar diye, gelecek vakit için kendilerine iyi temel hazırlayarak iyilik işlemelerini,"
+    },
+    {
+      "v": 19,
+      "text": "İyi işlerde zengin olup dağıtmaya hazır ve cömert olmalarını buyur."
+    },
+    {
+      "v": 20,
+      "text": "Ey Timoteos, sana emanet edileni koru, bayağı ve boş sözlerden, ve yalan yere bilgi denilen şeyin itirazlarından sakın;"
+    },
+    {
+      "v": 21,
+      "text": "Bazıları bunu iddia ederek iman hakkında saptılar. İnayet sizlerle olsun. Amin."
+    }
+  ]
+}

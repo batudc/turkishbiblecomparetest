@@ -1,1 +1,99 @@
-{"t":"AREMS","b":"PHP","c":4,"content":[{"v":1,"text":"Bu nedenle, kardeşlerim, sevincim ve tacım, çok sevdiğim ve özlediğim değerli kardeşlerim, böylece Rab’de dimdik durun."},{"v":2,"text":"Rab’de aynı düşüncede olmalarını Evodiya’ya rica ederim ve Sintihi’ye rica ederim."},{"v":3,"text":"Ve sana da, ey sadık yoldaş, yalvarırım, benimle, Klemens’le ve adları hayat kitabında bulunan başka emektaşlarımla birlikte İncil’de mücadele etmiş olan kadınlara yardım et."},{"v":4,"text":"Rab’de her zaman sevinin, ve yine derim ki, Sevinin."},{"v":5,"text":"Ilımınız tüm insanlarca bilinsin. Rab yakındır."},{"v":6,"text":"Hiçbir şey için kaygılanmayın; ama her şeyde istekleriniz Allah’a dua ve yalvarışla şükranla bildirilsin."},{"v":7,"text":"Ve Allah’ın her anlayışın çok üstünde olan esenliği Mesih İsa aracılığıyla yüreklerinizi ve akıllarınızı koruyacaktır."},{"v":8,"text":"Son olarak, ey kardeşler, her ne şeyler gerçek, her ne şeyler saygıdeğer, her ne şeyler adil, her ne şeyler pak, her ne şeyler sevimli, her ne şeyler hakkında iyi söylenirse; eğer bir erdem varsa, ve eğer bir övgü varsa, bu şeyleri düşünün."},{"v":9,"text":"Ögrendiğiniz, ve kabul ettiğiniz, ve işittiğiniz, ve bende gördüğünüz şeyleri yapın; ve esenlik Allah’ı sizinle olacaktır."},{"v":10,"text":"Ama ben Rab’de çok sevindim ki, bana olan kayırmanız son zaman tazelendi; bunu da kayırdınız, ama fırsatınız yoktu."},{"v":11,"text":"Böyle söylemem yoksulluktan değildir; çünkü her ne halde isem, onunla yetinmeyi öğrendim."},{"v":12,"text":"Yoksulluk çekmeyi de bilirim, bollukta olmayı da bilirim; her yerde ve tüm şeylerde tok olmaya ve aç olmaya, bolluğa ve eksikliğe alıştım."},{"v":13,"text":"Beni güçlendiren Mesih aracılığıyla tüm şeyleri yapabilirim."},{"v":14,"text":"Bununla beraber siz sıkıntıma paydaş olduğunuza iyi ettiniz."},{"v":15,"text":"Şimdi siz Filipililer de bilirsiniz ki, İncil’in başlangıcında, Makedonya’dan ayrıldığımda, sizden başka hiçbir kilise vermek ve almak konusunda benimle paydaşlıkta bulunmadı."},{"v":16,"text":"Çünkü Selanik’te iken de, bir iki kez bana lazım olanı gönderdiniz."},{"v":17,"text":"Bir bağış istediğim için değil; ama hesabınıza çoğalacak ürünü isterim."},{"v":18,"text":"Ama her şeyim var ve bolluktayım; doldum, çünkü sizden gönderilmiş şeyleri, hoş rayihalı kokuyu, Allah’a hoş görünen, makbul kurbanı Epafroditos’tan aldım."},{"v":19,"text":"Ama Allah’ım yücelerdeki zenginliğine göre tüm ihtiyacınızı Mesih İsa aracılığıyla karşılayacaktır."},{"v":20,"text":"Şimdi Allah’a ve Babamız’a sonsuzlara dek yücelik olsun. Amin."},{"v":21,"text":"Her kutsal kişiye Mesih İsa’da selam edin. Benimle birlikteki kardeşler size selam ederler."},{"v":22,"text":"Tüm kutsallar, özellikle Sezar’ın evinden olanlar, size selam ederler."},{"v":23,"text":"Rabbimiz İsa Mesih’in inayeti hepinizle birlikte olsun. Amin."}]}
+{
+  "t": "AREMS",
+  "b": "PHP",
+  "c": 4,
+  "content": [
+    {
+      "v": 1,
+      "text": "Bu nedenle, kardeşlerim, sevincim ve tacım, çok sevdiğim ve özlediğim değerli kardeşlerim, böylece Rab’de dimdik durun."
+    },
+    {
+      "v": 2,
+      "text": "Rab’de aynı düşünce olmalarını Evodiya’ya rica ederim ve Sintihi’ye rica ederim."
+    },
+    {
+      "v": 3,
+      "text": "Ve sana da, ey sadık yoldaş, yalvarırım ki, benimle, Klemens’le ve adları hayat kitabında bulunan başka emektaşlarımla birlikte İncil’de mücadele etmiş olan kadınlara yardım edesin."
+    },
+    {
+      "v": 4,
+      "text": "Rab’de her zaman sevinin, ve yine derim ki, Sevinin."
+    },
+    {
+      "v": 5,
+      "text": "Ilımınız tüm insanlarca bilinsin. Rab yakındır."
+    },
+    {
+      "v": 6,
+      "text": "Hiçbir şey için kaygılanmayın; ama her şeyde istekleriniz Allah’a dua ve yalvarışla şükranla bildirilsin."
+    },
+    {
+      "v": 7,
+      "text": "Ve Allah’ın her anlayışın çok üstünde olan esenliği Mesih İsa aracılığıyla yüreklerinizi ve akıllarınızı koruyacaktır."
+    },
+    {
+      "v": 8,
+      "text": "Son olarak, ey kardeşler, her ne şeyler gerçek, her ne şeyler saygıdeğer, her ne şeyler adil, her ne şeyler pak, her ne şeyler sevimli, her ne şeyler hakkında iyi söylenirse; eğer bir erdem varsa, ve eğer bir övgü varsa, bu şeyleri düşünün."
+    },
+    {
+      "v": 9,
+      "text": "Ögrendiğiniz, ve kabul ettiğiniz, ve işittiğiniz, ve bende gördüğünüz şeyleri yapın; ve esenlik Allahı sizinle olacaktır."
+    },
+    {
+      "v": 10,
+      "text": "Ama ben Rab’de çok sevindim ki, bana olan kayırmanız son zaman tazelendi; bunu da kayırdınız, ama fırsatınız yoktu."
+    },
+    {
+      "v": 11,
+      "text": "Böyle söylemem yoksulluktan değildir; çünkü her ne halde isem, onunla yetinmeyi öğrendim."
+    },
+    {
+      "v": 12,
+      "text": "Yoksulluk çekmeyi de bilirim, bollukta olmayı da bilirim; her yerde ve her şeyde tok olmaya ve aç olmaya, bolluğa ve eksikliğe alıştım."
+    },
+    {
+      "v": 13,
+      "text": "Beni güçlendiren Mesih aracılığıyla her şeyi yapabilirim."
+    },
+    {
+      "v": 14,
+      "text": "Bununla beraber siz sıkıntıma paydaş olduğunuza iyi ettiniz."
+    },
+    {
+      "v": 15,
+      "text": "Şimdi siz Filipililer de bilirsiniz ki, İncil’in başlangıcında, Makedonya’dan ayrıldığımda, sizden başka hiçbir kilise vermek ve almak konusunda benimle paydaşlıkta bulunmadı."
+    },
+    {
+      "v": 16,
+      "text": "Çünkü Selanik’te iken de, bana bir iki kez lazım olanı gönderdiniz."
+    },
+    {
+      "v": 17,
+      "text": "Bir bağış istediğim için değil; ama hesabınıza çoğalacak ürünü isterim."
+    },
+    {
+      "v": 18,
+      "text": "Ama her şeyim var ve bolluktayım; doldum, çünkü sizden gönderilmiş şeyleri, hoş rayihalı kokuyu, Allah’a hoş görünen, makbul kurbanı Epafroditos’tan aldım."
+    },
+    {
+      "v": 19,
+      "text": "Ama Allahım yücelerdeki zenginliğine göre her ihtiyacınızı Mesih İsa aracılığıyla karşılayacaktır."
+    },
+    {
+      "v": 20,
+      "text": "Şimdi Allah’a ve Babamız’a sonsuzlara dek yücelik olsun. Amin."
+    },
+    {
+      "v": 21,
+      "text": "Her kutsal kişiye Mesih İsa’da selam edin. Benimle birlikteki kardeşler size selam ederler."
+    },
+    {
+      "v": 22,
+      "text": "Tüm kutsallar, özellikle Sezar’ın evinden olanlar, size selam ederler."
+    },
+    {
+      "v": 23,
+      "text": "Rabbimiz İsa Mesih’in inayeti hepinizle birlikte olsun. Amin."
+    }
+  ]
+}

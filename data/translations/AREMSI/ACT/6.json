@@ -1,1 +1,67 @@
-{"t":"AREMS","b":"ACT","c":6,"content":[{"v":1,"text":"Ve öğrencilerin sayıca çoğaldığı o günlerde, Hellenistler’den İbraniler’e karşı mırıldanma oldu, çünkü günlük hizmette onların dullarına önem verilmiyordu."},{"v":2,"text":"O zaman Onikiler, öğrenci topluluğunu yanlarına çağırıp, Allah’ın sözünü bırakıp sofralara hizmet etmemiz doğru değildir, dediler."},{"v":3,"text":"Bu nedenle, ey kardeşler, aranızdan Kutsal Ruh’la ve bilgelikle dolu, haklarında iyi tanıklık edilen yedi kişi arayın, onları bu iş için görevlendirelim."},{"v":4,"text":"Biz ise kendimizi duaya ve sözün hizmetine vereceğiz."},{"v":5,"text":"Ve bu söz tüm topluluğu hoşnut etti; ve imanla ve Kutsal Ruh’la dolu bir adam olan İstefan’ı, ve Filipus’u, ve Prohoros’u, ve Nikanor’u, ve Timon’u, ve Parmenas’ı, ve Yahudiliğe dönme Antakyalı Nikolas’ı seçtiler;"},{"v":6,"text":"Bunları elçilerin önüne çıkardılar; ve dua ettikten sonra onların üzerine ellerini koydular."},{"v":7,"text":"Ve Allah’ın sözü büyüyor, ve Yeruşalim’de öğrencilerin sayısı arttıkça artıyordu; kâhinlerden oluşan büyük bir topluluk da imana itaat ediyordu."},{"v":8,"text":"Ve imanla ve kudretle dolu olan İstefan, halk arasında büyük harikalar ve mucizeler yapıyordu."},{"v":9,"text":"O zaman Libertinler havrası denen havradan, ve Kireneliler’den, ve İskenderiyeliler’den, ve Kilikya ve Asya’dan olanlardan bazı kişiler kalkıp İstefan’la tartışıyorlardı."},{"v":10,"text":"Ve aracılığıyla konuştuğu bilgeliğe ve ruha karşı koyamadılar."},{"v":11,"text":"O zaman bazı kişileri el altında ayarttılar, bunlar, Bu adamın Musa’ya ve Allah’a karşı küfür dolu sözler söylediğini duyduk, dediler."},{"v":12,"text":"Ve halkı, ve ihtiyarları, ve yazıcıları kışkırttılar, ve onun üzerine yürüdüler, ve onu yakalayıp Kurul’a götürdüler,"},{"v":13,"text":"Ve yalancı tanıklar koydular, bunlar, Bu adam durmadan bu kutsal yere ve yasaya karşı sövücü sözler konuşuyor, dediler."},{"v":14,"text":"Çünkü, bu Nasıralı İsa bu yeri yıkacak, ve Musa’nın bize verdiği töreleri değiştirecek, dediğini duyduk."},{"v":15,"text":"Ve Kurul’da oturanların hepsi onun üzerine gözlerini dikerek, yüzünü bir melek yüzü gibi gördüler."}]}
+{
+  "t": "AREMS",
+  "b": "ACT",
+  "c": 6,
+  "content": [
+    {
+      "v": 1,
+      "text": "Ve öğrencilerin sayıca çoğaldığı o günlerde, Hellenistler’den İbraniler’e karşı mırıldanma oldu, çünkü günlük hizmette onların dullarına önem verilmiyordu."
+    },
+    {
+      "v": 2,
+      "text": "O zaman Onikiler, öğrenci topluluğunu yanlarına çağırıp, Allah’ın sözünü bırakıp sofralara hizmet etmemiz doğru değildir, dediler."
+    },
+    {
+      "v": 3,
+      "text": "Bu nedenle, ey kardeşler, aranızdan Kutsal Ruh’la ve bilgelikle dolu, haklarında iyi tanıklık edilen yedi kişi arayın, onları bu iş için görevlendirelim."
+    },
+    {
+      "v": 4,
+      "text": "Biz ise kendimizi duaya ve sözün hizmetine vereceğiz."
+    },
+    {
+      "v": 5,
+      "text": "Ve bu söz tüm topluluğu hoşnut etti; ve imanla ve Kutsal Ruh’la dolu bir adam olan İstefan’ı, ve Filipus’u, ve Prohoros’u, ve Nikanor’u, ve Timon’u, ve Parmenas’ı, ve Yahudiliğe dönme Antakyalı Nikolas’ı seçtiler;"
+    },
+    {
+      "v": 6,
+      "text": "Bunları elçilerin önüne çıkardılar; ve dua ettikten sonra onların üzerine ellerini koydular."
+    },
+    {
+      "v": 7,
+      "text": "Ve Allah’ın sözü büyüyor, ve Yeruşalim’de öğrencilerin sayısı arttıkça artıyordu; kahinlerden oluşan büyük bir topluluk da imana itaat ediyordu."
+    },
+    {
+      "v": 8,
+      "text": "Ve imanla ve kudretle dolu olan İstefan, halk arasında büyük harikalar ve mucizeler yapıyordu."
+    },
+    {
+      "v": 9,
+      "text": "O zaman Libertinler havrası denen havradan, ve Kireneliler’den, ve İskenderiyeliler’den, ve Kilikya ve Asya’dan olanlardan bazı kişiler kalkıp İstefan’la tartışıyorlardı."
+    },
+    {
+      "v": 10,
+      "text": "Ve aracılığıyla konuştuğu bilgeliğe ve ruha karşı koyamadılar."
+    },
+    {
+      "v": 11,
+      "text": "O zaman bazı kişileri el altında ayarttılar, bunlar, Bu adamın Musa’ya ve Allah’a karşı küfür dolu sözler söylediğini duyduk, dediler."
+    },
+    {
+      "v": 12,
+      "text": "Ve halkı, ve ihtiyarları, ve yazıcıları kışkırttılar, ve onun üzerine yürüdüler, ve onu yakalayıp Kuru’la götürdüler,"
+    },
+    {
+      "v": 13,
+      "text": "Ve yalancı tanıklar koydular, bunlar, Bu adam durmadan bu kutsal yere ve yasaya karşı sövücü sözler konuşuyor, dediler."
+    },
+    {
+      "v": 14,
+      "text": "Çünkü, bu Nasıralı İsa bu yeri yıkacak, ve Musa’nın bize verdiği töreleri değiştirecek, dediğini duyduk."
+    },
+    {
+      "v": 15,
+      "text": "Ve Kurul’da oturanların hepsi onun üzerine gözlerini dikerek, yüzünü bir melek yüzü gibi gördüler."
+    }
+  ]
+}

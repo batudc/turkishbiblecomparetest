@@ -1,1 +1,91 @@
-{"t":"AREMS","b":"ROM","c":5,"content":[{"v":1,"text":"Bu nedenle, imanla aklanmış olarak Rab İsa Mesih aracılığıyla Allah indinde esenliğimiz var;"},{"v":2,"text":"O’nun aracılığıyla da içinde durduğumuz bu inayete imanla girme hakkımız var, ve Allah’ın yüceliğinin umuduyla övünüyoruz."},{"v":3,"text":"Ve yalnız bununla değil, ama sıkıntılarla bile övünürüz; çünkü biliriz ki sıkıntı sabrı getirir;"},{"v":4,"text":"Ve sabır tecrübeyi, tecrübe de umudu;"},{"v":5,"text":"Umut da utandırmaz; çünkü bize verilen Kutsal Ruh aracılığıyla yüreklerimize Allah’ın sevgisi dökülmüştür."},{"v":6,"text":"Çünkü biz daha kuvvetsizken Mesih belirlenen zamanda takvasızlar için öldü."},{"v":7,"text":"Çünkü biri doğru bir adam için güç ölür; ama iyi adam için belki bazıları ölmeye bile gayret bulur."},{"v":8,"text":"Ama Allah bize olan sevgisini şununla kanıtladı: biz daha günahkârken, Mesih bizim için öldü."},{"v":9,"text":"Böylece O’nun kanıyla şimdi aklanmış olarak, O’nun aracılığıyla gazaptan ne kadar daha çok kurtulacağız."},{"v":10,"text":"Çünkü eğer biz düşmanken Oğlu’nun ölümü aracılığıyla Allah’la barıştıksa, ne kadar daha çok barışmış olarak O’nun yaşamı aracılığıyla kurtulacağız."},{"v":11,"text":"Ve yalnız bu değil, ama kendi aracılığıyla kefaret aldığımız Rabbimiz İsa Mesih aracılığıyla Allah’ta sevinç de duymaktayız."},{"v":12,"text":"Bunun için, nasıl günah bir adam aracılığıyla ve ölüm günah aracılığıyla dünyaya girdiyse; böylece ölüm de tüm insanlara geçti, çünkü hepsi günah işledi;"},{"v":13,"text":"(Çünkü yasaya dek dünyada günah vardı, ama yasa yokken günah sayılmaz.)"},{"v":14,"text":"Ama ölüm, Adem’den Musa’ya kadar, gelecek kişinin sureti olan Adem’in suçunun benzeyişi üzere günah işlememiş olanlar üzerinde de egemenlik sürdü."},{"v":15,"text":"Ama suç nasılsa, bağış da öyle değildir. Çünkü eğer bir kişinin suçuyla birçokları öldüyse, Allah’ın inayeti ve bir adamdan, yani İsa Mesih’ten gelen inayetle olan armağan çok kimselere daha da çoğaldı."},{"v":16,"text":"Ve armağan günah işleyen bir kişi aracılığıyla olduğu gibi değildir; çünkü yargı bir suçtan mahkûmiyet için, ama bağış çok suçlardan aklanma için oldu."},{"v":17,"text":"Çünkü bir adamın suçuyla ölüm bir kişiyle egemenlik sürdüyse, inayetin ve doğruluk armağanının bolluğunu alanların yaşamda bir kişi, yani İsa Mesih aracılığıyla ne kadar daha çok egemenlik sürecekler.)"},{"v":18,"text":"Şimdi nasıl bir kişinin suçuyla tüm insanlar üzerine yargı mahkûmiyet için geldiyse, böyle de bir kişinin doğruluğuyla bağış tüm insanlar üzerine yaşam aklanması için gelmiştir."},{"v":19,"text":"Çünkü bir adamın sözdinlemezliğiyle birçokları günahkâr kılındığı gibi, böyle de bir kişinin söz dinlemesiyle birçokları doğru kılınacaktır."},{"v":20,"text":"Üstelik yasa suç çoğalsın diye araya girdi. Ama günahın çoğaldığı yerde, inayet daha da çoğaldı;"},{"v":21,"text":"Öyle ki, günah ölüme egemenlik sürdüğü gibi, böylece de inayet Rabbimiz İsa Mesih aracılığıyla sonsuz yaşama doğrulukla egemenlik sürsün."}]}
+{
+  "t": "AREMS",
+  "b": "ROM",
+  "c": 5,
+  "content": [
+    {
+      "v": 1,
+      "text": "Bu nedenle, imanla aklanmış olarak Rab İsa Mesih aracılığıyla Allah indinde esenliğimiz var;"
+    },
+    {
+      "v": 2,
+      "text": "Onun aracılığıyla da içinde durduğumuz bu inayete imanla girme hakkımız var, ve Allah’ın yüceliğinin umuduyla övünüyoruz."
+    },
+    {
+      "v": 3,
+      "text": "Ve yalnız bunula değil, sıkıntılarla bile övünürüz; çünkü biliriz ki sıkıntı sabrı getirir;"
+    },
+    {
+      "v": 4,
+      "text": "Ve sabır tecrübeyi, tecrübe de umudu;"
+    },
+    {
+      "v": 5,
+      "text": "Umut da utandırmaz; çünkü bize verilen Kutsal Ruh aracılığıyla yüreklerimize Allah’ın sevgisi dökülmüştur."
+    },
+    {
+      "v": 6,
+      "text": "Çünkü biz daha kuvvetsizken Mesih belirlenen zamanda takvasızlar için öldü."
+    },
+    {
+      "v": 7,
+      "text": "Çünkü biri doğru bir adam için güç ölür; ama iyi adam için belki bazıları ölmeye bile gayret bulur."
+    },
+    {
+      "v": 8,
+      "text": "Ama Allah bize olan sevgisini şununla kanıtladı: biz daha günahkarken, Mesih bizim için öldü."
+    },
+    {
+      "v": 9,
+      "text": "Böylece onun kanıyla şu anda aklanmış olarak, onun aracılığıyla gazaptan ne kadar daha çok kurtulacağız."
+    },
+    {
+      "v": 10,
+      "text": "Çünkü eğer biz düşmanken Oğlu’nun ölümü aracılığıyla Allah’la barıştıksa, ne kadar daha çok barışmış olarak onun yaşamı aracılığıyla kurtulacağız."
+    },
+    {
+      "v": 11,
+      "text": "Ve yalnız bu değil, kendi aracılığıyla kefaret aldığımız Rabbimiz İsa Mesih aracılığıyla Allah’ta sevinç de duymaktayız."
+    },
+    {
+      "v": 12,
+      "text": "Bunun için, nasıl günah bir adam aracılığıyla ve ölüm günah aracılığıyla dünyaya girdiyse; böylece ölüm de tüm insanlara geçti, çünkü hepsi günah işledi;"
+    },
+    {
+      "v": 13,
+      "text": "(Çünkü yasaya dek dünyada günah vardı, ama yasa yokken günah sayılmaz."
+    },
+    {
+      "v": 14,
+      "text": "Ama ölüm, Adem’den Musa’ya kadar, gelecek kişinin sureti olan Adem’in suçunun benzeyişi üzere günah işlememiş olanlar üzerinde de egemenlik sürdü."
+    },
+    {
+      "v": 15,
+      "text": "Ama suç nasılsa, bağış da öyle değildir. Çünkü eğer bir kişinin suçuyla birçokları öldüyse, Allah’ın inayeti ve bir adamdan, yani İsa Mesih’ten gelen inayetle olan armağan çok kimselere daha da çoğaldı."
+    },
+    {
+      "v": 16,
+      "text": "Ve armağan günah işleyen bir kişi aracılığıyla olduğu gibi değildir; çünkü yargı bir suçtan mahkumiyet için, ama bağış çok suçlardan aklanma için oldu."
+    },
+    {
+      "v": 17,
+      "text": "Çünkü bir adamın suçuyla ölüm bir kişiyle egemenlik sürdüyse, inayetin ve doğruluk armağanının bolluğunu alanların yaşamda bir kişi, yani İsa Mesih aracılığıyla ne kadar daha çok egemenlik sürecekler.)"
+    },
+    {
+      "v": 18,
+      "text": "Şimdi nasıl bir kişinin suçuyla tüm insanlar üzerine yargı mahkumiyet için geldiyse, böyle de bir kişinin doğruluğuyla bağış tüm insanlar üzerine yaşam aklanması için gelmiştir."
+    },
+    {
+      "v": 19,
+      "text": "Çünkü bir adamın sözdinlemezliğiyle birçokları günahkar kılındığı gibi, böyle de bir kişinin söz dinlemesiyle birçokları doğru kılınacaktır."
+    },
+    {
+      "v": 20,
+      "text": "Üstelik yasa suç çoğalsın diye araya girdi. Ama günahın çoğaldığı yerde, inayet daha da çoğaldı;"
+    },
+    {
+      "v": 21,
+      "text": "Öyle ki, günah ölüme egemenlik sürdüğü gibi, böylece de inayet Rabbimiz İsa Mesih aracılığıyla sonsuz yaşama doğrulukla egemenlik sürsün."
+    }
+  ]
+}

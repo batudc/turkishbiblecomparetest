@@ -1,1 +1,79 @@
-{"t":"AREMS","b":"JAS","c":3,"content":[{"v":1,"text":"Kardeşlerim, bizim daha büyük mahkûmiyete uğrayacağımızı bilerek, çoğunuz öğretmen olmayın."},{"v":2,"text":"Çünkü hepimiz çok şeylerde sürçeriz. Bir adam sözde sürçmezse, yetkin adam odur, tüm bedenine de gem vurabilir."},{"v":3,"text":"Bakın, bize itaat etmeleri için atların ağızlarına gem vuruyoruz; onların tüm bedenini de çeviriyoruz."},{"v":4,"text":"Gemilere de bakın, o kadar büyük olduğu ve güçlü rüzgârlar tarafından sürüklendiği halde, dümencinin gönlü her nereye isterse, küçücük bir dümenle oraya çevrilirler."},{"v":5,"text":"Bunun gibi, dil de küçük bir üyedir, ve büyük şeylerle övünür. Bakın, küçücük bir ateş ne kadar büyük bir ormanı tutuşturur!"},{"v":6,"text":"Ve dil bir ateştir, bir fesat dünyasıdır; dil üyelerimiz arasında böyledir ki, tüm bedenimizi kirletir ve tabiatın devranını alevlendirir; kendisi de cehennemden alevlenir."},{"v":7,"text":"Çünkü her tür yabani hayvan, ve kuş, ve sürüngen, ve denizdeki şeyler insanlar tarafından evcilleştirilmiş, ve evcilleştirilmektedir;"},{"v":8,"text":"Ama dili hiçbir adam evcilleştiremez; öldürücü zehirle dolu, uslanmak bilmez bir kötülüktür."},{"v":9,"text":"Onunla Allah’a, yani Baba’ya hamt ederiz; yine onunla Allah’ın benzeyişinde yaratılmış olan insanları lanetleriz."},{"v":10,"text":"Hamt ve lanet aynı ağızdan çıkıyor. Kardeşlerim, bu şeyler böyle olmamalı."},{"v":11,"text":"Bir pınar aynı gözden tatlı ve acı su çıkarır mı?"},{"v":12,"text":"Kardeşlerim, incir ağacı zeytin, ya da asma incir verebilir mi? Bunun gibi, hiçbir pınar hem tuzlu hem tatlı su veremez."},{"v":13,"text":"Aranızda hikmetli ve anlayışlı adam kimdir? İyi yaşayışla işlerini bilgelik yumuşaklığında göstersin."},{"v":14,"text":"Ama eğer yüreğinizde acı kıskançlık ve sürtüşme varsa, övünmeyin, ve gerçeğe karşı yalan söylemeyin."},{"v":15,"text":"Bu bilgelik, yukarıdan inmemiştir, ama dünyevi, nefsani, şeytanidir."},{"v":16,"text":"Çünkü nerede kıskançlık ve sürtüşme varsa, orada karışıklık ve her kötü iş vardır."},{"v":17,"text":"Ama yukarıdan olan bilgelik her şeyden önce paktır, sonra barışçıl, yumuşak, uysal, merhamet ve iyi meyvelerle doludur, kayırıcılığı ve ikiyüzlülüğü yoktur."},{"v":18,"text":"Ve doğruluk ürünü barış yapanlarca barış içinde ekilir."}]}
+{
+  "t": "AREMS",
+  "b": "JAS",
+  "c": 3,
+  "content": [
+    {
+      "v": 1,
+      "text": "Kardeşlerim, bizim daha büyük mahkumiyete uğrayacağımızı bilerek, çoğunuz öğretmen olmayın."
+    },
+    {
+      "v": 2,
+      "text": "Çünkü hepimiz çok şeylerde sürçeriz. Bir adam sözde sürçmezse, yetkin adam odur, tüm bedenine de gem vurabilendir."
+    },
+    {
+      "v": 3,
+      "text": "Bakın, bize itaat etmeleri için atların ağızlarına gem vuruyoruz; onların tüm bedenini de çeviriyoruz."
+    },
+    {
+      "v": 4,
+      "text": "Gemilere de bakın, o kadar büyük olduğu ve güçlü rüzgarlar tarafından sürüklendiği halde, dümencinin gönlü nereye isterse, küçücük bir dümenle oraya çevrilirler."
+    },
+    {
+      "v": 5,
+      "text": "Bunun gibi, dil de küçük bir üyedir, ve büyük şeylerle övünür. Bakın, küçücük bir ateş ne kadar büyük bir ormanı tutuşturur!"
+    },
+    {
+      "v": 6,
+      "text": "Ve dil bir ateştir, bir fesat dünyasıdır; dil üyelerimiz arasında böyledir ki, tüm bedenimizi kirletir ve tabiatın devranını alevlendirir; kendisi de cehennemden alevlenir."
+    },
+    {
+      "v": 7,
+      "text": "Çünkü her tür yabani hayvan, ve kuş, ve sürüngen, ve denizdeki şeyler insanlar tarafından evcilleştirilmiş, ve evcilleştirilmektedir;"
+    },
+    {
+      "v": 8,
+      "text": "Ama dili hiçbir adam evcilleştiremez; öldürücü zehirle dolu, uslanmak bilmez bir kötülüktür."
+    },
+    {
+      "v": 9,
+      "text": "Onunla Allah’a, yani Baba’ya hamdederiz; yine onunla Allah’ın benzeyişinde yaratılmış olan insanları lanetleriz."
+    },
+    {
+      "v": 10,
+      "text": "Hamt ve lanet aynı ağızdan çıkıyor. Kardeşlerim, bu şeyler böyle olmamalı."
+    },
+    {
+      "v": 11,
+      "text": "Bir pınar aynı gözden tatlı ve acı su çıkarır mı?"
+    },
+    {
+      "v": 12,
+      "text": "Kardeşlerim, incir ağacı zeytin, ya da asma incir verebilir mi? bunun gibi, hiçbir pınar hem tuzlu hem tatlı su veremez."
+    },
+    {
+      "v": 13,
+      "text": "Aranızda hikmetli ve anlayışlı adam kimdir? iyi yaşayışla işlerini bilgelik yumuşaklığında göstersin."
+    },
+    {
+      "v": 14,
+      "text": "Ama eğer yüreğinizde acı kıskançlık ve sürtüşme varsa, övünmeyin, ve gerçeğe karşı yalan söylemeyin."
+    },
+    {
+      "v": 15,
+      "text": "Bu bilgelik, yukarıdan inmemiştir, ama dünyevi, nefsani, şeytanidir."
+    },
+    {
+      "v": 16,
+      "text": "Çünkü nerede kıskançlık ve sürtüşme varsa, orada karışıklık ve her kötü iş vardır."
+    },
+    {
+      "v": 17,
+      "text": "Ama yukarıdan olan bilgelik her şeyden önce paktır, sonra barışçıl, yumuşak, uysal, merhamet ve iyi meyvelerle doludur, kayırıcılığı ve ikiyüzlülüğü yoktur."
+    },
+    {
+      "v": 18,
+      "text": "Ve doğruluk ürünü barış yapanlarca barış içinde ekilir."
+    }
+  ]
+}

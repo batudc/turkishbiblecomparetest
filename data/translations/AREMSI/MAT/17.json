@@ -1,1 +1,115 @@
-{"t":"AREMS","b":"MAT","c":17,"content":[{"v":1,"text":"Ve altı gün sonra İsa Petrus’u, Yakup’la kardeşi Yuhanna’yı yanına alıp onları ayrı olarak yüksek bir dağa götürdü,"},{"v":2,"text":"Ve onların önünde görünümü değişti; ve yüzü güneş gibi parladı, ve giysileri ışık gibi beyaz oldu."},{"v":3,"text":"Ve, işte, onlara Musa’yla İlyas göründü, O’nunla konuşuyorlardı."},{"v":4,"text":"O zaman Petrus cevap verip İsa’ya, Ya Rab, dedi, bizim burada bulunmamız iyidir; eğer istersen, burada üç çadır kuralım: biri sana, ve biri Musa’ya, ve biri İlyas’a."},{"v":5,"text":"O daha konuşurken, işte, parlak bir bulut onlara gölge saldı; ve işte buluttan gelen bir ses, Sevgili Oğlum budur, O’ndan hoşnudum; O’nu dinleyin, dedi."},{"v":6,"text":"Ve öğrenciler bunu işitince, yüzüstü düştüler, ve pek çok korktular."},{"v":7,"text":"Ve İsa gelip onlara dokundu, ve, Kalkın, ve korkmayın, dedi."},{"v":8,"text":"Onlar da gözlerini kaldırdıklarında yalnız İsa’dan başka adamı görmediler."},{"v":9,"text":"Ve dağdan inerlerken İsa onlara, İnsanoğlu ölüler arasından dirilinceye dek, bu görüntüyü hiçbir adama söylemeyin, diye emretti."},{"v":10,"text":"Ve öğrencileri O’na sorup, Öyleyse neden yazıcılar önce İlyas’ın gelmesi gerektiğini söylüyorlar? dediler."},{"v":11,"text":"Ve İsa cevap verip onlara, İlyas gerçekten önce gelecek ve tüm şeyleri düzene koyacak, dedi."},{"v":12,"text":"Ama size derim ki, İlyas zaten gelmiştir, ve onu tanımadılar, ama ona her ne istedilerse yaptılar. Aynı şekilde İnsanoğlu da onlardan elem çekecektir."},{"v":13,"text":"O zaman öğrenciler onlara Vaftizci Yahya’dan söz ettiğini anladılar."},{"v":14,"text":"Ve kalabalığa vardıklarında, O’na bir adam gelip önünde diz çökerek,"},{"v":15,"text":"Ya Rab, dedi, oğluma merhamet et; çünkü saralı ve çok acı çekiyor; çünkü sık sık ateşe, çok defa da suya düşüyor."},{"v":16,"text":"Ve onu senin öğrencilerine getirdim, ve onu iyileştiremediler."},{"v":17,"text":"O zaman İsa cevap verip, Ey imansız ve sapmış kuşak, dedi, ne zamana dek sizinle birlikte olacağım? Ne zamana dek size katlanacağım? Onu buraya, bana getirin."},{"v":18,"text":"Ve İsa iblisi azarladı; ve ondan çıktı, ve hemen o saatte çocuk iyileşti."},{"v":19,"text":"O zaman öğrenciler İsa’ya ayrı olarak gelip, Biz onu neden kovamadık? dediler."},{"v":20,"text":"İsa da onlara, İmansızlığınızdan dolayı, dedi; çünkü doğrusu size derim ki, Eğer bir hardal tanesi gibi imanınız olsa, şu dağa, Buradan şuraya göç, diyeceksiniz, ve göçecek; ve sizin için imkânsız bir şey kalmayacak."},{"v":21,"text":"Ama bu cins duadan ve oruçtan başka yolla çıkmaz."},{"v":22,"text":"Ve Celile’de otururlarken İsa onlara, İnsanoğlu insanların ellerine verilecek, dedi;"},{"v":23,"text":"Ve O’nu öldürecekler, ve üçüncü gün diriltilecek. Ve onlar çok kederlendiler."},{"v":24,"text":"Ve Kefernahum’a geldiklerinde, vergi parasını alanlar Petrus’a gelip, Öğretmeniniz vergi ödemiyor mu? dediler."},{"v":25,"text":"O, Ödüyor, dedi. Ve eve gelince, önce İsa ona, Ey Simon, ne düşünürsün? dedi; dünya kralları gümrük ya da vergiyi kimden alırlar? Kendi oğullarından mı, yoksa yabancılardan mı?"},{"v":26,"text":"Petrus O’na, Yabancılardan, dedi. İsa ona, O halde oğullar serbesttir, dedi."},{"v":27,"text":"Ama onları sürçtürmeyelim diye, denize gidip oltayı at, ve çıkan ilk balığı al, ve ağzını açınca gümüş bir para bulacaksın; onu al, ve benim ve senin için onlara ver."}]}
+{
+  "t": "AREMS",
+  "b": "MAT",
+  "c": 17,
+  "content": [
+    {
+      "v": 1,
+      "text": "Ve altı gün sonra İsa Petrus’u, Yakup’la kardeşi Yuhanna’yı yanına alıp onları ayrı olarak yüksek bir dağa götürdü,"
+    },
+    {
+      "v": 2,
+      "text": "Ve onların önünde görünümü değişti; ve yüzü güneş gibi parladı, ve giysileri ışık gibi beyaz oldu."
+    },
+    {
+      "v": 3,
+      "text": "Ve, işte, onlara Musa’yla İlyas göründü, onunla konuşuyorlardı."
+    },
+    {
+      "v": 4,
+      "text": "O zaman Petrus cevap verip İsa’ya, Ya Rab, dedi, bizim burada bulunmamız iyidir; eğer istersen, burada üç çadır kuralım: biri sana, ve biri Musa’ya, ve biri İlyas’a."
+    },
+    {
+      "v": 5,
+      "text": "O daha konuşurken, işte, parlak bir bulut onlara gölge saldı; ve işte buluttan gelen bir ses, Sevgili Oğlum budur, ondan hoşnudum; onu dinleyin, dedi."
+    },
+    {
+      "v": 6,
+      "text": "Ve öğrenciler bunu işitince, yüzüstü düştüler, ve pek çok korktular."
+    },
+    {
+      "v": 7,
+      "text": "Ve İsa gelip onlara dokundu, ve, Kalkın, ve korkmayın, dedi."
+    },
+    {
+      "v": 8,
+      "text": "Onlar da gözlerini kaldırdıklarında yalnız İsa’dan başka adamı görmediler."
+    },
+    {
+      "v": 9,
+      "text": "Ve dağdan inerlerken İsa onlara, İnsanoğlu ölüler arasından dirilinceye dek, bu görüntüyü hiçbir adama söylemeyin, diye emretti."
+    },
+    {
+      "v": 10,
+      "text": "Ve öğrencileri ona sorup, Öyleyse neden yazıcılar önce İlyas’ın gelmesi gerektiğini söylüyorlar? dediler."
+    },
+    {
+      "v": 11,
+      "text": "Ve İsa cevap verip onlara, İlyas gerçekten önce gelecek ve tüm şeyleri düzene koyacak, dedi."
+    },
+    {
+      "v": 12,
+      "text": "Ama size derim ki, İlyas zaten gelmiştir, ve onu tanımadılar, ama ona her ne istedilerse yaptılar. Aynı şekilde İnsanoğlu da onlardan elem çekecektir."
+    },
+    {
+      "v": 13,
+      "text": "O zaman öğrenciler onlara Vaftizci Yahya’dan söz ettiğini anladılar."
+    },
+    {
+      "v": 14,
+      "text": "Ve kalabalığa vardıklarında, ona bir adam gelip önünde diz çökerek,"
+    },
+    {
+      "v": 15,
+      "text": "Ya Rab, dedi, oğluma merhamet et; çünkü saralı ve çok acı çekiyor; çünkü sık sık ateşe, çok defa da suya düşüyor."
+    },
+    {
+      "v": 16,
+      "text": "Ve onu senin öğrencilerine getirdim, ve onu iyileştiremediler."
+    },
+    {
+      "v": 17,
+      "text": "O zaman İsa cevap verip, Ey imansız ve sapmış kuşak, dedi, ne zamana dek sizinle birlikte olacağım? ne zamana dek size katlanacağım? onu buraya, bana getirin."
+    },
+    {
+      "v": 18,
+      "text": "Ve İsa iblisi azarladı; ve ondan çıktı, ve hemen o saatte çocuk iyileşti."
+    },
+    {
+      "v": 19,
+      "text": "O zaman öğrenciler İsa’ya ayrı olarak gelip, Biz onu neden kovamadık? dediler."
+    },
+    {
+      "v": 20,
+      "text": "İsa da onlara, İmansızlığınızdan dolayı, dedi; çünkü doğrusu size derim ki, Eğer bir hardal tanesi gibi imanınız olsa, şu dağa, Buradan şuraya göç, diyeceksiniz, ve göçecek; ve sizin için imkansız bir şey kalmaz."
+    },
+    {
+      "v": 21,
+      "text": "Ama bu cins duadan ve oruçtan başka yolla çıkmaz."
+    },
+    {
+      "v": 22,
+      "text": "Ve Celile’de otururlarken İsa onlara, İnsanoğlu insanların ellerine verilecek, dedi;"
+    },
+    {
+      "v": 23,
+      "text": "Ve onu öldürecekler, ve üçüncü gün diriltilecek. Ve onlar çok kederlendiler."
+    },
+    {
+      "v": 24,
+      "text": "Ve Kefernahum’a geldiklerinde, vergi parasını alanlar Petrus’a gelip, Öğretmeniniz vergi ödemiyor mu? dediler."
+    },
+    {
+      "v": 25,
+      "text": "O, Ödüyor, dedi. Ve eve gelince, önce İsa ona, Ey Simon, ne düşünürsün? dedi; dünya kralları gümrük ya da vergiyi kimden alırlar? kendi oğullarından mı, yoksa yabancılardan mı?"
+    },
+    {
+      "v": 26,
+      "text": "Petrus ona, Yabancılardan, dedi. İsa ona, O halde oğullar serbesttir, dedi."
+    },
+    {
+      "v": 27,
+      "text": "Ama onları sürçtürmeyelim diye, denize gidip oltayı at, ve çıkan ilk balığı al, ve ağzını açınca gümüş bir para bulacaksın; onu al, ve benim ve senin için onlara ver."
+    }
+  ]
+}

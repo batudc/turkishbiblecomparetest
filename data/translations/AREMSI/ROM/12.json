@@ -1,1 +1,91 @@
-{"t":"AREMS","b":"ROM","c":12,"content":[{"v":1,"text":"Bunun için, ey kardeşler, Allah’ın merhametleri aracılığıyla size yalvarırım ki bedenlerinizi Allah’a makbul, kutsal, diri kurban olarak"},{"v":2,"text":"sunasınız; akla uygun hizmetiniz budur."},{"v":3,"text":"Ve bu dünyaya uymayın, ama Allah’ın iyi, ve makbul, ve mükemmel isteğinin ne olduğunu denemek için zihninizin yenilenmesiyle değişin."},{"v":4,"text":"Çünkü bana verilen inayetle aranızda olan her adama söylüyorum, kendisi için layık olduğundan fazla düşünmesin, ama Allah’ın her adama verdiği iman ölçüsüne göre, itidalle düşünsün."},{"v":5,"text":"Çünkü nasıl ki bir bedende çok üyemiz var, ve tüm üyelerin işi bir değildir,"},{"v":6,"text":"Böyle de biz çokken Mesih’te tek bedeniz, ve her birimiz birbirimizin üyeleriyiz."},{"v":7,"text":"Bize verilen inayete göre ayrı ayrı armağanlarımız var, eğer peygamberlikse, iman ölçüsüne göre peygamberlik edelim;"},{"v":8,"text":"Eğer hizmetse, hizmet edelim, öğretense, öğretsin;"},{"v":9,"text":"Eğer öğüt verense, öğütte bulunsun; bağışta bulunan, bunu sadelikle yapsın; yöneten, gayretle yönetsin; merhamet eden, sevinçle etsin."},{"v":10,"text":"Sevgi ikiyüzlü olmasın. Kötülükten tiksinin; iyiye yapışın."},{"v":11,"text":"Birbirinizi kardeşlik sevgisiyle, şefkatle sevin; saygıda birbirinize öncelik verin;"},{"v":12,"text":"Çalışmada gevşek olmayın; ruhta ateşli olun, Rab’be kulluk edin;"},{"v":13,"text":"Umutta sevinin; sıkıntıda sabırlı olun; duada gayretle devam edin;"},{"v":14,"text":"Kutsalların ihtiyaçlarına katılın; kendinizi konukseverliğe verin."},{"v":15,"text":"Size zulmedenlere iyilik dileyin; iyilik dileyin, ve lanet etmeyin."},{"v":16,"text":"Sevinenlerle sevinin, ağlayanlarla ağlayın."},{"v":17,"text":"Birbirinizle aynı düşüncede olun. Yüksek şeyler düşünmeyin, ama alçakgönüllü adamlara uyun. Bilgiçlik taslamayın."},{"v":18,"text":"Hiçbir adama kötülüğe karşı kötülük etmeyin. Tüm insanların gözü önünde iyi şeylere dikkat edin."},{"v":19,"text":"Mümkünse, elinizden geldiği kadar, tüm insanlarla barış içinde yaşayın."},{"v":20,"text":"Ey sevgililer, kendiniz için öç almayın, ama tersine gazaba yer verin; çünkü yazılmıştır: Rab diyor ki, Öç benimdir, karşılığı ben vereceğim."},{"v":21,"text":"Bu nedenle, eğer düşmanın acıkmışsa, ona yedir, eğer susamışsa, ona içir; çünkü böyle yapmakla onun başı üzerine ateş korları yığarsın."}]}
+{
+  "t": "AREMS",
+  "b": "ROM",
+  "c": 12,
+  "content": [
+    {
+      "v": 1,
+      "text": "Bunun için, ey kardeşler, Allah’ın merhametleri aracılığıyla size yalvarırım ki bedenlerinizi Allah’a makbul, kutsal, diri kurban olarak sunasınız; akla uygun hizmetiniz budur."
+    },
+    {
+      "v": 2,
+      "text": "Ve bu dünyaya uymayın, ama Allah’ın iyi, ve makbul, ve mükemmel isteğinin ne olduğunu denemek için zihninizin yenilenmesiyle değişin."
+    },
+    {
+      "v": 3,
+      "text": "Çünkü bana verilen inayetle aranızda olan her adama söylüyorum, kendisi için layık olduğundan fazla düşünmesin, ama Allah’ın her adama verdiği iman ölçüsüne göre, itidalla düşünsün."
+    },
+    {
+      "v": 4,
+      "text": "Çünkü nasıl ki bir bedende çok üyemiz var, ve tüm üyelerin işi bir değildir,"
+    },
+    {
+      "v": 5,
+      "text": "Böyle de biz çokken Mesih’te tek bedeniz, ve her birimiz birbirimizin üyeleriyiz."
+    },
+    {
+      "v": 6,
+      "text": "Bize verilen inayete göre ayrı ayrı armağanlarımız var, eğer peygamberlikse, iman ölçüsüne göre peygamberlik edelim;"
+    },
+    {
+      "v": 7,
+      "text": "Eğer hizmetse, hizmet edelim, öğretense, öğretsin;"
+    },
+    {
+      "v": 8,
+      "text": "Eğer öğüt verense, öğütte bulunsun; bağışta bulunan, bunu cömertçe yapsın; yöneten, gayretle yönetsin; merhamet eden, sevinçle etsin."
+    },
+    {
+      "v": 9,
+      "text": "Sevgi ikiyüzlü olmasın. Kötülükten tiksinin; iyiye yapışın."
+    },
+    {
+      "v": 10,
+      "text": "Birbirinizi kardeşlik sevgisiyle, şefkatle sevin; saygıda birbirinize öncelik verin;"
+    },
+    {
+      "v": 11,
+      "text": "Çalışmada gevşek olmayın; ruhta ateşli olun, Rab’be kulluk edin;"
+    },
+    {
+      "v": 12,
+      "text": "Umutta sevinin; sıkıntıda sabırlı olun; duada gayretle devam edin;"
+    },
+    {
+      "v": 13,
+      "text": "Kutsalların ihtiyaçlarına katılın; kendinizi konukseverliğe verin."
+    },
+    {
+      "v": 14,
+      "text": "Size zulmedenlere iyilik dileyin; iyilik dileyin, ve lanet etmeyin."
+    },
+    {
+      "v": 15,
+      "text": "Sevinenlerle sevinin, ağlayanlarla ağlayın."
+    },
+    {
+      "v": 16,
+      "text": "Birbirinizle aynı düşüncede olun. Yüksek şeyler düşünmeyin, ama alçakgönüllü adamlara uyun. Bilgiçlik taslamayın."
+    },
+    {
+      "v": 17,
+      "text": "Hiçbir adama kötülüğe karşı kötülük etmeyin. Tüm insanlar huzurunda iyi şeylere dikkat edin."
+    },
+    {
+      "v": 18,
+      "text": "Mümkünse, elinizden geldiği kadar, tüm insanlarla barış içinde yaşayın."
+    },
+    {
+      "v": 19,
+      "text": "Ey sevgililer, kendiniz için öç almayın, ama tersine gazaba yer verin; çünkü yazılmıştır: Rab diyor ki, Öç benimdir, karşılığı ben vereceğim."
+    },
+    {
+      "v": 20,
+      "text": "Bu nedenle, eğer düşmanın acıkmışsa, ona yedir, eğer susamışsa, ona içir; çünkü böyle yapmakla onun başı üzerine ateş korları yığarsın."
+    },
+    {
+      "v": 21,
+      "text": "Kötülüğe yenilme, ama kötülüğü iyilikle yen."
+    }
+  ]
+}

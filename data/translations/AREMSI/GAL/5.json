@@ -1,1 +1,111 @@
-{"t":"AREMS","b":"GAL","c":5,"content":[{"v":1,"text":"Onun için Mesih’in bizi özgür kıldığı özgürlükte dimdik durun, ve tekrar kölelik boyunduruğuna tutulmayın."},{"v":2,"text":"İşte, ben Pavlus size diyorum ki, Eğer sünnet edilirseniz, Mesih’in size hiç yararı olmayacaktır."},{"v":3,"text":"Çünkü sünnet edilen her adama yine tanıklık ederim ki, tüm yasayı yapmaya borçludur."},{"v":4,"text":"Sizden hanginiz yasayla aklanmaktaysanız, Mesih size etkisiz oldu; inayetten düştünüz."},{"v":5,"text":"Çünkü biz Ruh aracılığıyla doğruluk umudunu imanla bekliyoruz."},{"v":6,"text":"Çünkü İsa Mesih’te ne sünnetlilik, ne de sünnetsizlik bir şeye yarar; ama sevgiyle işleyen iman."},{"v":7,"text":"İyi koşuyordunuz; gerçeğe itaat etmeyesiniz diye size kim engel oldu?"},{"v":8,"text":"Bu kandırıcılık sizi çağırandan gelmiyor."},{"v":9,"text":"Azıcık maya tüm hamuru mayalar."},{"v":10,"text":"Rab’de size güvenim var ki, başka düşüncede olmayacaksınız; ama sizi karıştıran, kim olursa olsun, yargısını taşıyacaktır."},{"v":11,"text":"Ve ben, kardeşler, eğer hâlâ sünnetlilik vaaz ediyorsam, niçin hâlâ zulüm görüyorum? O zaman çarmıhın tökezi kaldırıldı."},{"v":12,"text":"Keşke sizi tedirgin edenler kesilmiş olsalar."},{"v":13,"text":"Çünkü, ey kardeşler, siz özgürlüğe çağrıldınız, ama özgürlüğü et bedene bir fırsat için kullanmayın, ama birbirinize sevgiyle hizmet edin."},{"v":14,"text":"Çünkü tüm yasa bir sözde, yani şunda yerine getirilir: Komşunu kendin gibi seveceksin."},{"v":15,"text":"Ama eğer birbirinizi ısırıyor ve yiyorsanız, sakının, birbiriniz tarafından telef edilmeyesiniz."},{"v":16,"text":"O zaman şunu söylüyorum: Ruh’ta yürüyün, ve et bedenin arzusunu yerine getirmeyeceksiniz."},{"v":17,"text":"Çünkü et beden Ruh’a karşı arzu eder, Ruh da et bedene karşı; ve bunlar birbirine karşıttır, öyle ki, istediğiniz şeyleri yapamazsınız."},{"v":18,"text":"Ama eğer Ruh’la yöneltiliyorsanız, yasa altında değilsiniz."},{"v":19,"text":"Şimdi et bedenin işleri açıktır, şunlardır: Zina, fuhuş, pislik, sefahat,"},{"v":20,"text":"Putperestlik, büyücülük, nefret, uyuşmazlık, rekabetler, gazap, kavga, ayaklanmalar, yanlış fikirler,"},{"v":21,"text":"Kıskançlıklar, cinayetler, sarhoşluklar, çümbüşler, ve bunlara benzeyen şeyler ki, size daha önce söylediğim gibi, size önceden söylüyorum, bu şeyleri yapanlar Allah’ın Krallığı’nı miras almayacaklar."},{"v":22,"text":"Ama Ruh’un meyvesi sevgi, sevinç, esenlik, tahammül, yumuşaklık, iyilik, iman,"},{"v":23,"text":"Yumuşak huyluluk, zabıt nefistir; böyle şeylere karşı yasa yoktur."},{"v":24,"text":"Ve Mesih’in olanlar et bedeni, heves ve arzularıyla birlikte çarmıha gerdiler."},{"v":25,"text":"Eğer Ruh’la yaşıyorsak, Ruh’la da yürüyelim."},{"v":26,"text":"Birbirimizi kışkırtarak, birbirimizi kıskanarak boş yere övünenler olmayalım."}]}
+{
+  "t": "AREMS",
+  "b": "GAL",
+  "c": 5,
+  "content": [
+    {
+      "v": 1,
+      "text": "Onun için Mesih’in bizi özgür kıldığı özgürlükte dimdik durun, ve tekrar kölelik boyunduruğuna tutulmayın."
+    },
+    {
+      "v": 2,
+      "text": "İşte, ben Pavlus size diyorum ki, Eğer sünnet edilirseniz, Mesih’in size hiç yararı olmayacaktır."
+    },
+    {
+      "v": 3,
+      "text": "Çünkü sünnet edilen her adama yine tanıklık ederim ki, tüm yasayı yapmaya borçludur."
+    },
+    {
+      "v": 4,
+      "text": "Sizden hanginiz yasayla aklanmaktasanız, Mesih size etkisiz oldu; inayetten düştünüz."
+    },
+    {
+      "v": 5,
+      "text": "Çünkü biz Ruh aracılığıyla doğruluk umudunu imanla bekliyoruz."
+    },
+    {
+      "v": 6,
+      "text": "Çünkü İsa Mesih’te ne sünnetlilik, ne de sünnetsizlik bir şeye yarar; ama sevgiyle işleyen iman."
+    },
+    {
+      "v": 7,
+      "text": "İyi koşuyordunuz; gerçeğe itaat etmeyesiniz diye size kim engel oldu?"
+    },
+    {
+      "v": 8,
+      "text": "Bu kandırıcılık sizi çağırandan değildir."
+    },
+    {
+      "v": 9,
+      "text": "Azıcık maya tüm hamuru mayalar."
+    },
+    {
+      "v": 10,
+      "text": "Rab’de size güvenim var ki, başka düşüncede olmayacaksınız; ama sizi karıştıran, kim olursa olsun, yargısını taşıyacaktır."
+    },
+    {
+      "v": 11,
+      "text": "Ve ben, kardeşler, eğer hala sünnetlilik vaaz ediyorsam, niçin hala zulüm görüyorum? o zaman çarmıhın tökezi kaldırıldı."
+    },
+    {
+      "v": 12,
+      "text": "Keşke sizi tedirgin edenler kesilmiş olsalar."
+    },
+    {
+      "v": 13,
+      "text": "Çünkü, ey kardeşler, siz özgürlüğe çağrıldınız, ama özgürlüğü etbedene bir fırsat için kullanmayın, ama birbirinize sevgiyle hizmet edin."
+    },
+    {
+      "v": 14,
+      "text": "Çünkü tüm yasa bir sözde, yani şunda yerine getirilir: Komşunu kendin gibi seveceksin."
+    },
+    {
+      "v": 15,
+      "text": "Ama eğer birbirinizi ısırıyor ve yiyorsanız, sakının, birbiriniz tarafından telef edilmeyesiniz."
+    },
+    {
+      "v": 16,
+      "text": "O zaman şunu söylüyorum: Ruh’ta yürüyün, ve etbedenin arzusunu yerine getirmeyeceksiniz."
+    },
+    {
+      "v": 17,
+      "text": "Çünkü etbeden Ruh’a karşı arzu eder, Ruh da etbedene karşı; ve bunlar birbirine karşıttır, öyle ki, istediğiniz şeyleri yapamazsınız."
+    },
+    {
+      "v": 18,
+      "text": "Ama eğer Ruh’la yöneltiliyorsanız, yasa altında değilsiniz."
+    },
+    {
+      "v": 19,
+      "text": "Şimdi etbedenin işleri açıktır, şunlardır: Zina, fuhuş, pislik, sefahat,"
+    },
+    {
+      "v": 20,
+      "text": "Putperestlik, büyücülük, nefret, uyuşmazlık, rekabetler, gazap, kavga, ayaklanmalar, yanlış fikirler,"
+    },
+    {
+      "v": 21,
+      "text": "Kıskançlıklar, cinayetler, sarhoşluklar, çümbüşler, ve bunlara benzeyen şeyler ki, size daha önce söylediğim gibi, size önceden söylüyorum, bu şeyleri yapanlar Allah’ın Krallığı’nı miras almayacaklar."
+    },
+    {
+      "v": 22,
+      "text": "Ama Ruh’un meyvesi sevgi, sevinç, esenlik, tahammül, yumuşaklık, iyilik, iman,"
+    },
+    {
+      "v": 23,
+      "text": "Yumuşak huyluluk, zabıt nefistir; böyle şeylere karşı yasa yoktur."
+    },
+    {
+      "v": 24,
+      "text": "Ve Mesih’in olanlar etbedeni, heves ve arzularıyla birlikte çarmıha gerdiler."
+    },
+    {
+      "v": 25,
+      "text": "Eğer Ruh’la yaşıyorsak, Ruh’la da yürüyelim."
+    },
+    {
+      "v": 26,
+      "text": "Birbirimizi kışkırtarak, birbirimizi kıskanarak boş yere övünenler olmayalım."
+    }
+  ]
+}

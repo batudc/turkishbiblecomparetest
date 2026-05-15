@@ -1,1 +1,115 @@
-{"t":"AREMS","b":"ACT","c":25,"content":[{"v":1,"text":"Şimdi Festus, vilayete vardıktan üç gün sonra, Sezariye’den Yeruşalim’e çıktı."},{"v":2,"text":"O zaman büyük kâhinle Yahudiler’in ileri gelenleri, Pavlus aleyhinde ona haber verdiler, ve ondan dilekte bulundular,"},{"v":3,"text":"Ve onu Yeruşalim’e getirtmesi için ona karşı kendilerine bir iyilikte bulunmasını istediler, onlar ise pusu kurup onu yolda öldüreceklerdi."},{"v":4,"text":"Ama Festus cevap verdi ki, Pavlus Sezariye’de tutuklu bulunsun, kendisi de yakında oraya gidecek."},{"v":5,"text":"Aranızdan kim gelebilirse, dedi, benimle birlikte insin, bu adamda bir şer varsa onu suçlasınlar."},{"v":6,"text":"Ve onların arasında on günden fazla kaldıktan sonra Sezariye’ye indi; ve ertesi gün yargı kürsüsüne oturup Pavlus’un getirilmesini emretti."},{"v":7,"text":"Ve o gelince, Yeruşalim’den inen Yahudiler çevresini sardılar, ve Pavlus’a karşı kanıtlayamadıkları birçok ağır suçlamada bulundular."},{"v":8,"text":"O da, Ne Yahudiler’in yasasına, ne tapınağa, ne de Sezar’a karşı hiçbir suç işlemedim, diyerek kendisini savundu."},{"v":9,"text":"Ama Festus Yahudiler’in gönlünü kazanmak isteyerek Pavlus’a cevap verip dedi ki, Yeruşalim’e çıkıp orada bu şeyler için benim önümde yargılanmak ister misin?"},{"v":10,"text":"O zaman Pavlus, Ben Sezar’ın yargı kürsüsü önünde duruyorum, dedi; burada yargılanmam gerekir; senin de çok iyi bildiğin gibi, Yahudiler’e hiçbir haksızlık etmedim."},{"v":11,"text":"Zira eğer yolsuzluk işlemişsem, ya da ölümü gerektirecek bir şey yapmışsam, ölmekten çekinmem; ama bunların bana karşı yaptığı suçlamalar asılsız ise, hiçbir adam beni onlara teslim edemez. Sezar’a başvuruyorum."},{"v":12,"text":"O zaman Festus, Kurul’la görüştükten sonra cevap verdi: Sezar’a başvurdun mu? Sezar’a gideceksin."},{"v":13,"text":"Ve birkaç gün sonra Kral Agrippa ile Berniki, Festus’u selamlamaya Sezariye’ye geldiler."},{"v":14,"text":"Ve onlar orada birçok gün kalınca Festus, Pavlus’la ilgili durumu krala anlattı. Feliks’in tutuklu bıraktığı bir adam var, dedi;"},{"v":15,"text":"Ben Yeruşalim’deyken, kendisi için Yahudiler’in başkâhinleriyle ihtiyarları bana bildirip onun cezaya çarptırılmasını istediler."},{"v":16,"text":"Onlara cevap verdim: Suçlanan bir adamı, kendisini suçlayanlarla yüzleştirmeden, yüklenen suç konusunda savunma fırsatı tanımadan, öldürtmek Romalılar’ın alışkısı değildir."},{"v":17,"text":"Bunun için, onlar buraya gelince, vakit geçirmeden ertesi gün yargı kürsüsüne oturup adamın getirilmesini emrettim."},{"v":18,"text":"Suçlayanlar ayağa kalkınca, onu sandığım şeylerden hiçbiriyle suçlamadılar;"},{"v":19,"text":"Ancak onunla, kendi inançlarına ve ölmüş de Pavlus’un iddiasına göre yaşamakta olan İsa adındaki birine ilişkin bazı sorunlarda çekişmeleri vardı."},{"v":20,"text":"Ve bu sorunlar karşısında kuşku duyduğum için ona, Yeruşalim’e gidip bu konularda yargılanmayı isteyip istemediğini sordum."},{"v":21,"text":"Ama Pavlus Avgustus’un kararına saklanmayı dileyince, onu Sezar’a göndereceğim zamana kadar tutuklu kalmasını emrettim."},{"v":22,"text":"O zaman Agrippa Festus’a, Ben de bu adamı dinlemek isterdim, dedi. Yarın onu dinleyeceksin, dedi."},{"v":23,"text":"Ve ertesi gün, Agrippa ile Berniki göz alıcı görünüşle gelip komutanlarla ve kentin ileri gelenleriyle duruşma binasına girince, Festus’un emri üzerine Pavlus içeri getirildi."},{"v":24,"text":"Ve Festus dedi ki, Kral Agrippa ve burada bizimle bulunan tüm adamlar, Yeruşalim’de ve burada tüm Yahudi topluluğunun bana şikâyet ettiği bu adamı görüyorsunuz; onun için, artık yaşaması doğru değildir, diye bağırıyorlar."},{"v":25,"text":"Ama ben onun ölümü gerektiren hiçbir suç işlemediğini, ve kendisinin de Avgustus’a başvurduğunu bulunca onu göndermeye karar verdim."},{"v":26,"text":"Efendime onun için yazacak kesin bir şeyim yok. Bu nedenle onu sizin önünüze ve özellikle, Kral Agrippa, senin önüne çıkardım, öyle ki, bu soruşturmanın sonuncunda yazacak bir şeyim olsun."},{"v":27,"text":"Çünkü bir tutukluyu gönderirken, neyle suçlandığını belirtmemek bana anlamsız görünüyor."}]}
+{
+  "t": "AREMS",
+  "b": "ACT",
+  "c": 25,
+  "content": [
+    {
+      "v": 1,
+      "text": "Şimdi Festus, vilayete vardıktan üç gün sonra, Sezariye’den Yeruşalim’e çıktı."
+    },
+    {
+      "v": 2,
+      "text": "O zaman büyük kahinle Yahudiler’in ileri gelenleri, Pavlus aleyhinde ona haber verdiler, ve ondan dilekte bulundular,"
+    },
+    {
+      "v": 3,
+      "text": "Ve onu Yeruşalim’e getirtmesi için ona karşı kendilerine bir iyilikte bulunmasını istediler, onlar ise pusu kurup onu yolda öldüreceklerdi."
+    },
+    {
+      "v": 4,
+      "text": "Ama Festus cevap verdi ki, Pavlus Sezariye’de tutuklu bulunsun, kendisi de yakında oraya gidecek."
+    },
+    {
+      "v": 5,
+      "text": "Aranızdan kim gelebilirse, dedi, benimle birlikte insin, bu adamda bir şer varsa onu suçlasınlar."
+    },
+    {
+      "v": 6,
+      "text": "Ve onların arasında on günden fazla kaldıktan sonra Sezariye’ye indi; ve ertesi gün yargı kürsüsüne oturup Pavlus’un getirilmesini emretti."
+    },
+    {
+      "v": 7,
+      "text": "Ve o gelince, Yeruşalim’den inen Yahudiler çevresini sardılar, ve Pavlus’a karşı kanıtlayamadıkları birçok ağır suçlamada bulundular."
+    },
+    {
+      "v": 8,
+      "text": "O da, Ne Yahudiler’in yasasına, ne tapınağa, ne de Sezar’a karşı hiçbir suç işlemedim, diyerek kendisini savundu."
+    },
+    {
+      "v": 9,
+      "text": "Ama Festus Yahudiler’in gönlünü kazanmak isteyerek Pavlus’a cevap verip dedi ki, Yeruşalim’e çıkıp orada bu şeyler için benim önümde yargılanmak ister misin?"
+    },
+    {
+      "v": 10,
+      "text": "O zaman Pavlus, Ben Sezar’ın yargı kürsüsü önünde duruyorum, dedi; burada yargılanmam gerekir; senin de çok iyi bildiğin gibi, Yahudiler’e hiçbir haksızlık etmedim."
+    },
+    {
+      "v": 11,
+      "text": "Zira eğer yolsuzluk işlemişsem, ya da ölümü gerektirecek bir şey yapmışsam, ölmekten çekinmem; ama bunların bana karşı yaptığı suçlamalar asılsız ise, hiçbir adam beni onlara teslim edemez. Sezar’a başvuruyorum."
+    },
+    {
+      "v": 12,
+      "text": "O zaman Festus, Kurul’la görüştükten sonra cevap verdi: Sezar’a başvurdun mu? Sezar’a gideceksin."
+    },
+    {
+      "v": 13,
+      "text": "Ve birkaç gün sonra Kral Agrippa ile Berniki, Festus’u selamlamaya Sezariye’ye geldiler."
+    },
+    {
+      "v": 14,
+      "text": "Ve onlar orada birçok gün kalınca Festus, Pavlus’la ilgili durumu krala anlattı. Feliks’in tutuklu bıraktığı bir adam var, dedi;"
+    },
+    {
+      "v": 15,
+      "text": "Ben Yeruşalim’deyken, kendisi için Yahudiler’in başkahinleriyle ihtiyarları bana bildirip onun cezaya çarptırılmasını istediler."
+    },
+    {
+      "v": 16,
+      "text": "Onlara cevap verdim: Suçlanan bir adamı, kendisini suçlayanlarla yüzleştirmeden, yüklenen suç konusunda savunma fırsatı tanımadan, öldürtmek Romalılar’ın alışkısı değildir."
+    },
+    {
+      "v": 17,
+      "text": "Bunun için, onlar buraya gelince, vakit geçirmeden ertesi gün yargı kürsüsüne oturup adamın getirilmesini emrettim."
+    },
+    {
+      "v": 18,
+      "text": "Suçlayanlar ayağa kalkınca, onu sandığım şeylerden hiçbiriyle suçlamadılar;"
+    },
+    {
+      "v": 19,
+      "text": "Ancak onunla, kendi inançlarına ve ölmüş de Pavlus’un iddiasına göre yaşamakta olan İsa adındaki birine ilişkin bazı sorunlarda çekişmeleri vardı."
+    },
+    {
+      "v": 20,
+      "text": "Ve bu sorunlar karşısında kuşku duyduğum için ona, Yeruşalim’e gidip bu konularda yargılanmaya isteyip istemediğini sordum."
+    },
+    {
+      "v": 21,
+      "text": "Ama Pavlus Avgustus’un kararına saklanmayı dileyince, onu Sezar’a göndereceğim zamana kadar tutuklu kalmasını emrettim."
+    },
+    {
+      "v": 22,
+      "text": "O zaman Agrippa Festus’a, Ben de bu adamı dinlemek isterdim, dedi. Yarın onu denleyeceksin, dedi."
+    },
+    {
+      "v": 23,
+      "text": "Ve ertesi gün, Agrippa ile Berniki göz alıcı görünüşle gelip komutanlarla ve kentin ileri gelenleriyle duruşma binasına girince, Festus’un emri üzerine Pavlus içeri getirildi."
+    },
+    {
+      "v": 24,
+      "text": "Ve Festus dedi ki, Kral Agrippa ve burada bizimle bulunan tüm adamlar, Yeruşalim’de ve burada tüm Yahudi topluluğunun bana şikayet ettiği bu adamı görüyorsunuz; onun için, artık yaşaması doğru değildir, diye bağırıyorlar."
+    },
+    {
+      "v": 25,
+      "text": "Ama ben onun ölümü gerektiren hiçbir suç işlemediğini, ve kendisinin de Avgustus’a başvurduğunu bulunca onu göndermeye karar verdim."
+    },
+    {
+      "v": 26,
+      "text": "Efendime onun için yazacak kesin bir şeyim yok. Bu nedenle onu sizin önünüze ve özellikle, Kral Agrippa, senin önüne çıkardım, öyle ki, bu soruşturmanın sonuncunda yazacak bir şeyim olsun."
+    },
+    {
+      "v": 27,
+      "text": "Çünkü bir tutukluyu gönderirken, neyle suçlandığını belirtmemek bana anlamsız görünüyor."
+    }
+  ]
+}

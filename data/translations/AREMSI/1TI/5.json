@@ -1,1 +1,107 @@
-{"t":"AREMS","b":"1TI","c":5,"content":[{"v":1,"text":"Bir ihtiyarı azarlama, ama onu baba gibi, daha genç olan adamları kardeşler gibi,"},{"v":2,"text":"Yaşlı kadınları analar gibi, daha genç olanları tüm paklıkla kız kardeşler gibi öğütle."},{"v":3,"text":"Gerçekten dul olan dul kadınlara saygı göster."},{"v":4,"text":"Ama bir dul kadının çocukları ya da torunları varsa, onlar önce kendi evlerine takva göstermeyi, ve kendi ana babalarına karşılık ödemeyi öğrensinler; çünkü Allah’ın önünde bu iyi ve makbuldür."},{"v":5,"text":"Şimdi gerçekten dul ve yalnız kalmış olan kadın, umudunu Allah’a bağlamıştır, ve gece gündüz yalvarışlara ve dualara devam eder."},{"v":6,"text":"Ama zevk içinde yaşayan kadın, yaşarken ölüdür."},{"v":7,"text":"Ve kusursuz olmaları için bu şeyleri uyarı olarak bildir."},{"v":8,"text":"Ama eğer biri, kendininkilere, ve özellikle ev halkına bakmazsa, imanı inkâr etmiştir, ve imansızdan beterdir."},{"v":9,"text":"İyi işler için hakkında tanıklık edilen, tek erkeğin karısı olup altmış yaşından aşağı olmayan dul kadın,"},{"v":10,"text":"Eğer çocuklar büyütmüş, eğer konuk ağırlamış, eğer kutsalların ayaklarını yıkamış, eğer sıkıntıda olanlara yardım etmiş, eğer her iyi işin ardınca gitmişse, deftere yazılsın."},{"v":11,"text":"Ama daha genç dul kadınları reddet, çünkü Mesih’e karşı olarak bedensel arzularına düştükleri zaman, evlenmek isterler;"},{"v":12,"text":"İlk imanı bıraktıkları için hüküm giyerler."},{"v":13,"text":"Aynı zamanda evden eve gezerek aylak olmayı da öğrenirler; ancak yalnız aylak değil, ama üzerlerine düşmeyen şeyleri söyleyerek başkalarının işlerine karışan boşboğazlar da olurlar."},{"v":14,"text":"Bu nedenle, daha genç kadınların evlenmelerini, çocuk yapmalarını, ev yönetmelerini, karşı durana sitem için hiç fırsat vermemelerini isterim;"},{"v":15,"text":"Çünkü zaten bazıları Şeytan’ın ardına düştüler."},{"v":16,"text":"Eğer iman eden bir adamın ya da kadının dulları varsa, onlara yardım etsinler, ve gerçekten dul kadınlara yardım etmesi için kiliseye yük edilmesin."},{"v":17,"text":"İyi önderlik eden ihtiyarlar, özellikle söze ve öğretiye emek verenler, iki kat saygıya layık sayılsınlar."},{"v":18,"text":"Çünkü Yazı diyor ki, Harman döven öküzün ağzını bağlamayacaksın. Ve, İşçi kendi ücretine hak eder."},{"v":19,"text":"İki ya da üç tanıkla olmadıkça, bir ihtiyara karşı suçlamayı kabul etme."},{"v":20,"text":"Günah işleyenleri herkesin önünde azarla ki, diğerleri de korksun."},{"v":21,"text":"Allah’ın, ve Rab İsa Mesih’in, ve seçilmiş meleklerin önünde seni uyarıyorum ki, hatıra göre hiçbir şey yapmayarak, taraf tutmadan bu şeyleri uygulayasın."},{"v":22,"text":"Bir adamın üzerine aceleyle eller koyma; ve başka adamların günahlarına paydaş olma; kendini temiz tut."},{"v":23,"text":"Bundan sonra artık su içme, ama miden ve sık sık gelen hastalıkların için biraz da şarap kullan."},{"v":24,"text":"Bazı adamların günahları bellidir, önceden yargıya gider; bazı adamları da geriden izler."},{"v":25,"text":"Aynı şekilde bazıların iyi işleri de bellidir, ve başkaca olanların gizlenmesi mümkün değildir."}]}
+{
+  "t": "AREMS",
+  "b": "1TI",
+  "c": 5,
+  "content": [
+    {
+      "v": 1,
+      "text": "Bir ihtiyarı azarlama, ama onu baba gibi, daha genç olan adamları kardeşler gibi,"
+    },
+    {
+      "v": 2,
+      "text": "Yaşlı kadınları analar gibi, daha genç olanları tüm paklıkla kızkardeşler gibi öğütle."
+    },
+    {
+      "v": 3,
+      "text": "Gerçekten dul olan dul kadınlara saygı göster."
+    },
+    {
+      "v": 4,
+      "text": "Ama bir dul kadının çocukları ya da torunları varsa, onlar önce kendi evlerine takva göstermeyi, ve kendi ana babalarına karşılık ödemeyi öğrensinler; çünkü Allah’ın önünde bu iyi ve makbuldür."
+    },
+    {
+      "v": 5,
+      "text": "Şimdi gerçekten dul ve yalnız kalmış olan, umudunu Allah’a bağlamıştır, ve gece gündüz yalvarışlara ve dualara devam eder."
+    },
+    {
+      "v": 6,
+      "text": "Ama zevk içinde yaşayan kadın, yaşarken ölüdür."
+    },
+    {
+      "v": 7,
+      "text": "Ve kusursuz olmaları için bu şeyleri uyarı olarak bildir."
+    },
+    {
+      "v": 8,
+      "text": "Ama eğer biri, kendininkilere, ve özellikle ev halkına bakmazsa, imanı inkar etmiştir, ve imansızdan beterdir."
+    },
+    {
+      "v": 9,
+      "text": "İyi işler için hakkında tanıklık edilen, tek erkeğin karısı olup altmış yaşından aşağı olmayan dul kadın,"
+    },
+    {
+      "v": 10,
+      "text": "Eğer çocuklar büyütmüş, eğer konuk ağırlamış, eğer kutsalların ayaklarını yıkamış, eğer sıkıntıda olanlara yardım etmiş, eğer her iyi işin ardınca gitmişse, deftere yazılsın."
+    },
+    {
+      "v": 11,
+      "text": "Ama daha genç dul kadınları reddet, çünkü Mesih’e karşı olarak bedensel arzularına düştükleri zaman, evlenmek isterler;"
+    },
+    {
+      "v": 12,
+      "text": "İlk imanı bıraktıkları için hüküm giyerler."
+    },
+    {
+      "v": 13,
+      "text": "Aynı zamanda evden eve gezerek aylak olmayı da öğrenirler; ancak yalnız aylak değil, üzerlerine düşmeyen şeyleri söyleyerek başkalarının işlerine karışan boşboğazlar da olurlar."
+    },
+    {
+      "v": 14,
+      "text": "Bu nedenle, daha genç kadınların evlenmelerini, çocuk yapmalarını, ev yönetmelerini, karşı durana sitem için hiç fırsat vermemelerini isterim;"
+    },
+    {
+      "v": 15,
+      "text": "Çünkü zaten bazıları Şeytan’ın ardına düştüler."
+    },
+    {
+      "v": 16,
+      "text": "Eğer iman eden bir adamın ya da kadının dulları varsa, onlara yardım etsinler, ve gerçekten dul kadınlara yardım etmesi için kiliseye yük edilmesin."
+    },
+    {
+      "v": 17,
+      "text": "İyi önderlik eden ihtiyarlar, özellikle söze ve öğretiye emek verenler, iki kat hürmete layık sayılsınlar."
+    },
+    {
+      "v": 18,
+      "text": "Çünkü Yazı diyor ki, Harman döven öküzün ağzını bağlamayacaksın. Ve, İşçi kendi ücretine hak eder."
+    },
+    {
+      "v": 19,
+      "text": "İki ya da üç tanıkla olmadıkça, bir ihtiyara karşı suçlamayı kabul etme."
+    },
+    {
+      "v": 20,
+      "text": "Günah işleyenleri herkesin önünde azarla ki, diğerleri de korksun."
+    },
+    {
+      "v": 21,
+      "text": "Allah’ın, ve Rab İsa Mesih’in, ve seçilmiş meleklerin önünde seni uyarıyorum ki, hatıra göre hiçbir şey yapmayarak, taraf tutmadan bu şeyleri uygulayasın"
+    },
+    {
+      "v": 22,
+      "text": "Bir adamın üzerine aceleyle eller koyma; ve başka adamların günahlarına paydaş olma; kendini temiz tut."
+    },
+    {
+      "v": 23,
+      "text": "Bundan sonra artık su içme, ama miden ve sık sık gelen hastalıkların için biraz da şarap kullan."
+    },
+    {
+      "v": 24,
+      "text": "Bazı adamların günahları bellidir, önceden yargıya gider; bazı adamları da geriden izler."
+    },
+    {
+      "v": 25,
+      "text": "Aynı şekilde bazıların iyi işleri de bellidir, ve başkaca olanların gizlenmesi mümkün değildir."
+    }
+  ]
+}

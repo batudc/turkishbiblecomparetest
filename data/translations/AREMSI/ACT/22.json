@@ -1,1 +1,127 @@
-{"t":"AREMS","b":"ACT","c":22,"content":[{"v":1,"text":"Adamlar, kardeşler, ve babalar, size şimdi yapacağım savunmayı dinleyin."},{"v":2,"text":"(Ve onun kendilerine İbrani dilinde seslendiğini duyduklarında daha da sustular; ve o dedi ki,)"},{"v":3,"text":"Ben Kilikya’nın Tarsus Kenti’nde doğmuş bir adam, bir Yahudi’yim, ama bu kentte, Gamaliel’in dizinin dibinde büyüdüm, ataların yasasına sımsıkı bağlılıkla eğitildim, bugün hepinizin olduğu gibi, Allah için gayretliydim."},{"v":4,"text":"Ve erkekleri de kadınları da bağlayıp hapse atarak bu yola ölüm derecesinde zulmederdim."},{"v":5,"text":"Nasıl ki, büyük kâhin ile tüm İhtiyarlar kurulu da benim için tanıklık verirler; kendilerinden de kardeşlere yazılmış mektuplar alarak"},{"v":6,"text":"Damaskus’a, orada bulunanları cezalandırmak üzere bağlı olarak Yeruşalim’e getireyim diye gidiyordum."},{"v":7,"text":"Ve vaki oldu ki, ben yolda gitmekte ve öğleye doğru Damaskus’a yaklaşmaktayken, birdenbire gökten güçlü bir ışık çevremde parladı."},{"v":8,"text":"Ve yere düştüm, ve bir sesin bana, Saul, Saul, neden bana zulmediyorsun? dediğini işittim."},{"v":9,"text":"Ben de cevap verdim: Sen kimsin, ya Rab? O da bana, Ben senin zulmettiğin Nasıralı İsa’yım, dedi."},{"v":10,"text":"Ve beraberimde olanlar gerçekten ışığı gördüler, ve korktular; ama bana konuşanın sesini işitmediler."},{"v":11,"text":"Ve ben, Ne yapayım, ya Rab? dedim. Ve Rab bana, Kalk, ve Damaskus’a git, dedi; yapman için tayin edilmiş olan tüm şeyler orada sana bildirilecektir."},{"v":12,"text":"Ve o ışığın yüceliğinden gözlerim görmez olduğundan, yanımda olanların eliyle yöneltilerek Damaskus’a vardım."},{"v":13,"text":"Ve orada yaşayan tüm Yahudiler’ce hakkında iyi tanıklık edilen, yasa üzere dindar bir adam, Hananya adlı biri yanıma geldi,"},{"v":14,"text":"Ve ayakta durarak bana, Saul kardeş, gözlerin görsün, dedi. Ben de o saatte ona baktım."},{"v":15,"text":"O da, Atalarımızın Allah’ı, kendi isteğini bilmen ve Adil Olan’ı görüp kendi ağzının sesini işitmen için seni seçmiştir, dedi."},{"v":16,"text":"Çünkü gördüğün ve işittiğin şeyler için tüm insanlara O’nun tanığı olacaksın."},{"v":17,"text":"Ve şimdi ne bekliyorsun? Kalk, ve vaftiz ol, ve Rab’bin adını çağırarak günahlarından arın."},{"v":18,"text":"Ve vaki oldu ki, ben Yeruşalim’e döndükten sonra, tapınakta dua ettiğim bir sırada dalınca geldim;"},{"v":19,"text":"Ve O’nu gördüm, bana, Çabuk ol, dedi, aceleyle Yeruşalim’den git; çünkü benimle ilgili tanıklığını kabul etmeyecekler."},{"v":20,"text":"Ve ben, Ya Rab, dedim, her havrada sana inananları hapsedip dövdüğümü biliyorlar;"},{"v":21,"text":"Ve senin şehidin İstefan’ın kanı döküldüğü zaman, ben de orada durmuş onun ölümünü onaylıyor, ve onu öldürenlerin giysilerine bekçilik ediyordum."},{"v":22,"text":"O da bana, Git, dedi; çünkü ben seni uzakta olan Centiller’e göndereceğim."},{"v":23,"text":"Ve bu söze dek onu dinlediler, sonra seslerini yükseltip, Böyle bir insanı yeryüzünden kaldır, dediler; çünkü yaşaması uygun değildir."},{"v":24,"text":"Ve onlar bağırmakta, ve giysilerini sallayıp havaya toz savurmakta iken,"},{"v":25,"text":"Komutan onun kalenin içine götürülmesini emretti, ve halkın kendisine karşı neden böyle bağırdığını öğrenmek için onun kamçılanarak sorguya çekilmesini istedi."},{"v":26,"text":"Ve kendisini sırımlarla bağladıklarında, Pavlus orada duran yüzbaşıya, Romalı ve mahkûm edilmemiş bir adamı kamçılamanız yasal mıdır? dedi."},{"v":27,"text":"Yüzbaşı bunu duyunca gidip komutana haber verdi, Ne yaptığına bak, dedi, çünkü bu adam Romalıdır."},{"v":28,"text":"O zaman komutan gelip ona, Söyle bana, dedi, Romalı mısın? O da, Evet, dedi."},{"v":29,"text":"Ve komutan cevap verdi: Ben bu özgürlüğü çok para karşılığında elde ettim. Pavlus da, Ama ben özgür doğdum, dedi."},{"v":30,"text":"O zaman onu sorguya çekecek olanlar hemen yanından çekilip gittiler; komutan da onun Romalı olduğunu anlayınca korktu, çünkü onu bağlamıştı."}]}
+{
+  "t": "AREMS",
+  "b": "ACT",
+  "c": 22,
+  "content": [
+    {
+      "v": 1,
+      "text": "Adamlar, kardeşler, ve babalar, size şimdi yapacağım savunmayı dinleyin."
+    },
+    {
+      "v": 2,
+      "text": "(Ve onun kendilerine İbrani dilinde seslendiğini duydaklarında daha da sustular; ve o dedi ki,)"
+    },
+    {
+      "v": 3,
+      "text": "Ben Kilikya’nın Tarsus Kenti’nde doğmuş bir adam, bir Yahudi’yim, ama bu kentte, Gamaliel’in dizinin dibinde büyüdüm, ataların yasasına sımsıkı bağlılıkla eğitildim, bu gün hepinizin olduğu gibi, Allah için gayretliydim."
+    },
+    {
+      "v": 4,
+      "text": "Ve erkekleri de kadınları da bağlayıp hapse atarak bu yola ölüm derecesinde zulmederdim."
+    },
+    {
+      "v": 5,
+      "text": "Nasıl ki, büyük kahin ile tüm İhtiyarlar kurulu da benim için tanıklık verirler; kendilerinden de kardeşlere yazılmış mektuplar alarak Damaskus’a, orada bulunanları cezalandırmak üzere bağlı olarak Yeruşalim’e getireyim diye gidiyordum."
+    },
+    {
+      "v": 6,
+      "text": "Ve vaki oldu ki, ben yolda gitmekte ve öğleye doğru Damaskus’a yaklaşmaktayken, birdenbire gökten güçlü bir ışık çevremde parladı."
+    },
+    {
+      "v": 7,
+      "text": "Ve yere düştüm, ve bir sesin bana, Saul, Saul, neden bana zulmediyorsun? dediğini işittim."
+    },
+    {
+      "v": 8,
+      "text": "Ben de cevap verdim: Sen kimsin, ya Rab? O da bana, Ben senin zulmettiğin Nasıralı İsa’yım, dedi."
+    },
+    {
+      "v": 9,
+      "text": "Ve beraberimde olanlar gerçekten ışığı gördüler, ve korktular; ama bana konuşanın senini işitmediler."
+    },
+    {
+      "v": 10,
+      "text": "Ve ben, Ne yapayım, ya Rab? dedim. Ve Rab bana, Kalk, ve Damaskus’a git, dedi; yapmam için tayin edilmiş olan tüm şeyler orada sana bildirilecektir."
+    },
+    {
+      "v": 11,
+      "text": "Ve o ışığın yüceliğinden gözlerim görmez olduğundan, yanımda olanların eliyle yöneltilerek Damaskus’a vardım."
+    },
+    {
+      "v": 12,
+      "text": "Ve orada yaşayan tüm Yahudiler’ce hakkında iyi tanıklık edilen, yasa üzere dindar bir adam, Hananya adlı biri yanıma geldi,"
+    },
+    {
+      "v": 13,
+      "text": "Ve ayakta durarak bana, Saul kardeş, gözlerin görsün, dedi. Ben de o saatte ona baktım."
+    },
+    {
+      "v": 14,
+      "text": "O da, Atalarımızın Allahı, kendi isteğini bilmen ve Adil Olan’ı görüp kendi ağzının sesini işitmen için seni seçmiştir, dedi."
+    },
+    {
+      "v": 15,
+      "text": "Çünkü gördüğün ve işittiğin şeyler için tüm insanlara onun tanığı olacaksın."
+    },
+    {
+      "v": 16,
+      "text": "Ve şimdi ne bekliyorsun? kalk, ve vaftiz ol, ve Rab’bin adını çağırarak günahlarından arın."
+    },
+    {
+      "v": 17,
+      "text": "Ve vaki oldu ki, ben Yeruşalim’e döndükten sonra, tapınakta dua ettiğim bir sırada dalınca geldim;"
+    },
+    {
+      "v": 18,
+      "text": "Ve onu gördüm, bana, Çabuk ol, dedi, aceleyle Yeruşalim’den git; çünkü benimle ilgili tanıklığını kabul etmeyecekler."
+    },
+    {
+      "v": 19,
+      "text": "Ve ben, Ya Rab, dedim, her havrada sana inananları hapsedip dövdüğümü biliyorlar;"
+    },
+    {
+      "v": 20,
+      "text": "Ve senin şehidin İstefan’ın kanı döküldüğü zaman, ben de orada durmuş onun ölümünü onaylıyor, ve onu öldürenlerin giysilerine bekçilik ediyordum."
+    },
+    {
+      "v": 21,
+      "text": "O da bana, Git, dedi; çünkü ben seni uzakta olan Centiller’e göndereceğim."
+    },
+    {
+      "v": 22,
+      "text": "Ve bu söze dek onu dinlediler, sonra seslerini yükseltip, Böyle bir insanı yeryüzünden kaldır, dediler; çünkü yaşaması uygun değildir."
+    },
+    {
+      "v": 23,
+      "text": "Ve onlar bağırmakta, ve giysilerini sallayıp havaya toz savurmakta iken,"
+    },
+    {
+      "v": 24,
+      "text": "Komutan onun kalenin içine götürülmesini emretti, ve halkın kendisine karşı neden böyle bağırdığını öğrenmek için onun kamçılanarak sorguya çekilmesini istedi."
+    },
+    {
+      "v": 25,
+      "text": "Ve kendisini sırımlarla bağladıklarında, Pavlus orada duran yüzbaşıya, Romalı ve mahkum edilmemiş bir adamı kamçılamanız yasal mıdır? dedi."
+    },
+    {
+      "v": 26,
+      "text": "Yüzbaşı bunu duyunca gidip komutana haber verdi, Ne yaptığına bak, dedi, çünkü bu adam Romalı’dır."
+    },
+    {
+      "v": 27,
+      "text": "O zaman komutan gelip ona, Söyle bana, dedi, Romalı mısın? O da, Evet, dedi."
+    },
+    {
+      "v": 28,
+      "text": "Ve komutan cevap verdi: Ben bu özgürlüğü çok para karşılığında elde ettim. Pavlus da, Ama ben özgür doğdum, dedi."
+    },
+    {
+      "v": 29,
+      "text": "O zaman onu sorguya çekecek olanlar hemen yanından çekilip gittiler; komutan da onun Romalı olduğunu anlayınca korktu, çünkü onu bağlamıştı."
+    },
+    {
+      "v": 30,
+      "text": "Yahudiler’in Pavlus’u neden suçladığını kesin olarak öğrenmek isteyerek, ertesi gün onun bağlarını çözdü, ve başkahinler ve onların tüm Kurulu’nun toplanmasını emretti, ve onu aşağı getirip karşılarına çıkardı."
+    }
+  ]
+}

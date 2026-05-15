@@ -1,1 +1,111 @@
-{"t":"AREMS","b":"ACT","c":3,"content":[{"v":1,"text":"Şimdi Petrus’la Yuhanna dua vakti olan dokuzuncu saatte birlikte tapınağa çıkıyorlardı."},{"v":2,"text":"Ve anadan doğma kötürüm bir adam getiriliyordu, tapınağa girenlerden sadaka dilenmesi için her gün onu tapınağın Güzel diye adlandırılan kapısına koyarlardı;"},{"v":3,"text":"Bu kimse tapınağa girmek üzere olan Petrus’la Yuhanna’yı görüp sadaka istedi."},{"v":4,"text":"Petrus da Yuhanna’yla ona göz dikip, Bize bak, dedi."},{"v":5,"text":"O da onlardan bir şey alacağını umarak kendilerine dikkat ediyordu."},{"v":6,"text":"O zaman Petrus, Bende gümüş ve altın yok, ama bende olanı sana veriyorum, Nasıralı İsa Mesih’in adıyla kalk ve yürü, dedi."},{"v":7,"text":"Ve onu sağ elinden tutarak ayağa kaldırdı; ve hemen ayaklarıyla ayak bilekleri kuvvet buldu."},{"v":8,"text":"Ve sıçrayıp ayakta durdu, ve yürüdü, ve yürüyüp sıçrayarak ve Allah’ı överek onlarla birlikte tapınağa girdi."},{"v":9,"text":"Ve tüm halk, onun yürüyüp Allah’ı övdüğünü gördü;"},{"v":10,"text":"Ve onun, tapınağın Güzel Kapısı’nda sadaka için oturan kişi olduğunu anladılar; ve ona olan bu şeyden ötürü hayret ve şaşkınlıkla doldular."},{"v":11,"text":"Ve şifa bulmuş kötürüm, Petrus’la Yuhanna’ya yapışmışken, tüm halk bir arada, şaşkınlık içinde Süleyman’ın denilen eyvanda onlara koştu."},{"v":12,"text":"Ve Petrus bunu görünce halka cevap verdi: Ey İsrail adamları, buna neden şaşıyorsunuz? Yahut biz kendi kudretimiz ya da kutsallığımızla bu adamın yürümesini sağlamışız gibi, bize neden göz dikiyorsunuz?"},{"v":13,"text":"İbrahim’in ve İshak’ın, ve Yakup’un Allah’ı, atalarımızın Allah’ı, Oğlu İsa’yı yüceltmiştir; siz O’nu ele verdiniz, ve Pilatus O’nu salıvermeye karar vermişken, onun önünde O’nu inkâr ettiniz."},{"v":14,"text":"Ama siz Kutsal ve Adil Olan’ı inkâr ettiniz, ve bir katilin size bağışlanmasını istediniz;"},{"v":15,"text":"Ve Hayat Reisi’ni öldürdünüz, Allah O’nu ölüler arasından diriltti; biz bunun tanıklarıyız."},{"v":16,"text":"Ve O’nun adına olan imanla gördüğünüz ve tanıdığınız bu adamı O’nun adı kuvvetlendirdi; evet, O’nun aracılığıyla olan iman hepinizin gözü önünde ona bu tam sağlığı verdi."},{"v":17,"text":"Ve şimdi, ey kardeşler, biliyorum ki, yöneticileriniz gibi siz de bunu bilmeyerek yaptınız."},{"v":18,"text":"Ama Allah tüm peygamberlerinin ağzından Mesih’in elem çekmesi konusunda önceden bildirdiği şeyleri böylece yerine getirmiştir."},{"v":19,"text":"Bu nedenle tövbe edin ve dönün, öyle ki, Rab’bin önünden tazelenme vakitleri gelince, günahlarınız silinsin;"},{"v":20,"text":"Ve, size önceden vaaz edilen, İsa Mesih’i gönderecek;"},{"v":21,"text":"Allah’ın dünyanın başlangıcından beri tüm kutsal peygamberleri ağzıyla bildirdiği tüm şeylerin yeniden düzenleneceği zamana dek, göğün O’nu kabul etmesi gerektir."},{"v":22,"text":"Çünkü gerçekten Musa atalara demişti ki, Allah’ınız olan Rab size, kendi kardeşleriniz arasından benim gibi bir peygamber çıkaracak; tüm şeylerde, size her ne söylerse, onu dinleyeceksiniz."},{"v":23,"text":"Ve vaki olacaktır ki, o peygamberi dinlemeyen her can halk arasından yok edilecektir."},{"v":24,"text":"Evet, ve Samuel ve ondan sonra gelen peygamberlerin hepsi de, kaç kişi konuşmuşsa, aynı şekilde bu günleri bildirmiştir."},{"v":25,"text":"Sizler peygamberlerin ve Allah’ın atalarımızla yaptığı antlaşmanın çocuklarısınız; İbrahim’e demişti ki, Ve senin tohumunda yeryüzünün tüm halkları kutsanacaktır."},{"v":26,"text":"Allah her birinizi fesatlarından döndürmekle kutsamak için, Oğlu İsa’yı yükseltip önce size gönderdi."}]}
+{
+  "t": "AREMS",
+  "b": "ACT",
+  "c": 3,
+  "content": [
+    {
+      "v": 1,
+      "text": "Şimdi Petrus’la Yuhanna dua vakti olan dokuzuncu saatte birlikte tapınağa çıkıyorlardı."
+    },
+    {
+      "v": 2,
+      "text": "Ve anadan doğma kötürüm bir adam getiriliyordu, tapınağa girenlerden sadaka dilenmesi için her gün onu tapınağın Güzel diye adlandırılan kapısına koyarlardı;"
+    },
+    {
+      "v": 3,
+      "text": "Bu kimse tapınağa girmek üzere olan Petrus’la Yuhanna’yı görüp sadaka istedi."
+    },
+    {
+      "v": 4,
+      "text": "Petrus da Yuhanna’yla ona göz dikip, Bize bak, dedi."
+    },
+    {
+      "v": 5,
+      "text": "O da onlardan bir şey alacağını umarak kendilerine dikkat ediyordu."
+    },
+    {
+      "v": 6,
+      "text": "O zaman Petrus, Bende gümüş ve altın yok, ama bende olanı sana veriyorum, Nasıralı İsa Mesih’in adıyla kalk ve yürü, dedi."
+    },
+    {
+      "v": 7,
+      "text": "Ve onu sağ elinden tutarak ayağa kaldırdı; ve hemen ayaklarıyla ayak bilekleri kuvvet buldu."
+    },
+    {
+      "v": 8,
+      "text": "Ve sıçrayıp ayakta durdu, ve yürüdü, ve yürüyüp sıçrayarak ve Allah’ı överek onlarla birlikte tapınağa girdi."
+    },
+    {
+      "v": 9,
+      "text": "Ve tüm halk, onun yürüyüp Allah’ı övdüğünü gördü;"
+    },
+    {
+      "v": 10,
+      "text": "Ve onun, tapınağın Güzel kapısında sadaka için oturan kişi olduğunu anladılar; ve ona olan bu şeyden ötürü hayret ve şaşkınlıkla doldular."
+    },
+    {
+      "v": 11,
+      "text": "Ve şifa bulmuş kötürüm, Petrus’la Yuhanna’ya yapışmışken, tüm halk bir arada, şaşkınlık içinde Süleyman’ın denilen eyvanda onlara koştu."
+    },
+    {
+      "v": 12,
+      "text": "Ve Petrus bunu görünce halka cevap verdi: Ey İsrail adamları, buna neden şaşıyorsunuz? yahut biz kendi kudretimiz ya da kutsallığımızla bu adamın yürümesini sağlamışız gibi, bize neden göz dikiyorsunuz?"
+    },
+    {
+      "v": 13,
+      "text": "İbrahim’in ve İshak’ın, ve Yakup’un Allahı, atalarımızın Allahı, Oğlu İsa’yı yüceltmiştir; siz onu ele verdiniz, ve Pilatus onu salıvermeye karar vermişken, onun önünde onu inkar ettiniz."
+    },
+    {
+      "v": 14,
+      "text": "Ama siz Kutsal ve Adil Olan’ı inkar ettiniz, ve bir katilin size bağışlanmasını istediniz;"
+    },
+    {
+      "v": 15,
+      "text": "Ve hayat Reisi’ni öldürdünüz, Allah onu ölüler arasından diriltti; biz bunun tanıklarıyız."
+    },
+    {
+      "v": 16,
+      "text": "Ve onun adına olan imanla gördüğünüz ve tanıdığınız bu adamı onun adı kuvvetlendirdi; evet, onun aracılığıyla olan iman hepinizin gözü önünde ona bu tam sağlığı verdi."
+    },
+    {
+      "v": 17,
+      "text": "Ve şimdi, ey kardeşler, biliyorum ki, yöneticileriniz gibi siz de bunu bilmeyerek yaptınız."
+    },
+    {
+      "v": 18,
+      "text": "Ama Allah tüm peygamberlerinin ağzından Mesih’in elem çekmesi konusunda önceden bildirdiği şeyleri böylece yerine getirmiştir."
+    },
+    {
+      "v": 19,
+      "text": "Bu nedenle tövbe edin ve dönün, öyle ki, Rab’bin önünden tazelenme vakitleri gelince, günahlarınız silinsin;"
+    },
+    {
+      "v": 20,
+      "text": "Ve, size önceden vaaz edilen, İsa Mesih’i gönderecek;"
+    },
+    {
+      "v": 21,
+      "text": "Allah’ın dünyanın başlangıcından beri tüm kutsal peygamberleri ağzıyla bildirdiği tüm şeylerin yeniden düzenleneceği zamana dek, gök onu kabul etmek gerektir."
+    },
+    {
+      "v": 22,
+      "text": "Çünkü gerçekten Musa atalara demişti ki, Allahınız olan Rab size, kendi kardeşleriniz arasından benim gibi bir peygamber çıkaracak; tüm şeylerde, size her ne söylerse, onu dinleyeceksiniz."
+    },
+    {
+      "v": 23,
+      "text": "Ve vaki olacaktır ki, o peygamberi dinlemeyen her can halk arasından yok edilecektir."
+    },
+    {
+      "v": 24,
+      "text": "Evet, ve Samuel ve ondan sonra gelen peygamberlerin hepsi de, kaç kişi konuşmuşsa, aynı şekilde bu günleri bildirmiştir."
+    },
+    {
+      "v": 25,
+      "text": "Sizler peygamberlerin ve Allah’ın atalarımızla yaptığı antlaşmanın çocuklarısınız; İbrahim’e demişti ki, Ve senin tohumunda yeryüzünün tüm halkları kutsanacaktır."
+    },
+    {
+      "v": 26,
+      "text": "Allah her birinizi fesatlarından döndürmekle kutsamak için, Oğlu İsa’yı yükseltip önce size gönderdi."
+    }
+  ]
+}

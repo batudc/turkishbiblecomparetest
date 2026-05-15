@@ -1,1 +1,151 @@
-{"t":"AREMS","b":"MAT","c":14,"content":[{"v":1,"text":"O sıralarda tetrark Hirodes İsa’nın ününü duydu,"},{"v":2,"text":"Ve hizmetçilerine, Bu Vaftizci Yahya’dır, dedi; ölüler arasından dirilmiştir; ve bundan dolayı kendisinde güçlü işler işlemektedir."},{"v":3,"text":"Çünkü Hirodes, kardeşi Filipus’un karısı Hirodias yüzünden Yahya’yı tutup bağlamış, ve onu hapishaneye koymuştu."},{"v":4,"text":"Çünkü Yahya ona, Onu almak senin için yasal değildir, demekteydi."},{"v":5,"text":"Ve onu öldürmek isteyip kalabalıktan korkuyordu, çünkü onu peygamber olarak tanıyorlardı."},{"v":6,"text":"Ama Hirodes’in doğum günü kutlandığında Hirodias’ın kızı onların önünde dans etti, ve Hirodes’in hoşuna gitti."},{"v":7,"text":"Bunun üzerine, ant içerek her ne dilerse ona vereceğini vaat etti."},{"v":8,"text":"O da annesi tarafından kışkırtılmış olarak, Bana burada bir tepsi üzerinde Vaftizci Yahya’nın başını ver, dedi."},{"v":9,"text":"Ve kral üzüldü; ama ant ve kendisiyle birlikte sofrada oturanlardan ötürü, ona verilmesini emretti."},{"v":10,"text":"Ve gönderip hapishanede Yahya’nın başını kestirdi."},{"v":11,"text":"Ve onun başı bir tepsi üzerinde getirilip kıza verildi; o da bunu annesine getirdi."},{"v":12,"text":"Ve onun öğrencileri gelip cesedi aldılar, ve onu gömdüler, ve gidip İsa’ya haber verdiler."},{"v":13,"text":"İsa bunu duyunca, oradan bir tekneyle ıssız bir yere tek başına çekildi; ve halk bunu duyunca, kentlerden yaya olarak O’nu izledi."},{"v":14,"text":"Ve İsa çıkıp büyük bir kalabalık gördü, ve onlara acıdı, ve hastalarını iyileştirdi."},{"v":15,"text":"Ve akşam olunca öğrencileri O’na gelip, Burası ıssız bir yer, dediler, vakit de artık geç oldu; kalabalığı salıver de köylere gidip kendilerine yiyecek satın alsınlar."},{"v":16,"text":"Ama İsa onlara, Gitmelerine gerek yok, dedi; onlara siz yiyecek verin."},{"v":17,"text":"Onlar da O’na, Burada beş ekmekle iki balıktan başka bir şeyimiz yok, dediler."},{"v":18,"text":"O da, Onları buraya, bana getirin, dedi."},{"v":19,"text":"Ve kalabalığa çimenlerin üzerine oturmalarını emretti, ve beş ekmekle iki balığı aldı, ve göğe doğru bakarak kutsadı, ve kırıp ekmekleri öğrencilerine verdi, öğrenciler de kalabalığa."},{"v":20,"text":"Hepsi de yiyip doydular; ve artakalan parçalardan on iki küfe dolusu kaldırdılar."},{"v":21,"text":"Ve yiyenler, kadınlardan ve çocuklardan başka, yaklaşık beş bin erkekti."},{"v":22,"text":"Ve hemen sonra İsa, kendisi kalabalıkları salıverirken, öğrencilerini tekneye binmeye ve kendisinden önce karşı yakaya geçmeye zorladı."},{"v":23,"text":"Kendisi de kalabalıkları salıverdikten sonra, dua etmek için bir dağa tek başına çıktı; ve akşam olduğunda orada yalnızdı."},{"v":24,"text":"Ama tekne artık denizin ortasında bulunup dalgalarla çalkalanıyordu; çünkü rüzgâr karşıttı."},{"v":25,"text":"Ve gecenin dördüncü nöbetinde İsa denizin üstünde yürüyerek onlara gitti."},{"v":26,"text":"Ve öğrenciler O’nu denizin üstünde yürürken görünce, Bu bir ruhtur, diyerek tedirgin oldular; ve korkudan bağırdılar."},{"v":27,"text":"Ama İsa hemen onlara seslenip, Yüreklenin, benim, korkmayın, dedi."},{"v":28,"text":"Ve Petrus O’na cevap verip, Ya Rab, dedi, eğer sen isen, buyruk ver de suyun üstünden sana geleyim."},{"v":29,"text":"O da, Gel, dedi. Ve Petrus tekneden inip İsa’ya gitmek için suyun üstünden yürüdü."},{"v":30,"text":"Ama rüzgârı şiddetli görünce korktu; ve batmaya başladığında, Ya Rab, beni kurtar, diye bağırdı."},{"v":31,"text":"Ve İsa hemen elini uzatıp onu tuttu, ve ona, Ey az imanlı, neden kuşku duydun? dedi."},{"v":32,"text":"Ve onlar tekneye binince rüzgâr dindi."},{"v":33,"text":"O zaman teknede olanlar gelip, Gerçekten sen Allah’ın Oğlu’sun, diyerek O’na tapındılar."},{"v":34,"text":"Ve karşıya geçip Genesaret ülkesine geldiler."},{"v":35,"text":"Ve o yerin adamları O’nu tanıyınca, çevredeki tüm yöreye gönderip illetlilerin hepsini O’na getirdiler;"},{"v":36,"text":"Ve yalnız giysisinin eteğine dokunsunlar diye O’na yalvardılar; dokunanların hepsi de tamamen iyileşti."}]}
+{
+  "t": "AREMS",
+  "b": "MAT",
+  "c": 14,
+  "content": [
+    {
+      "v": 1,
+      "text": "O sıralarda tetrark Hirodes İsa’nın ününü duydu,"
+    },
+    {
+      "v": 2,
+      "text": "Ve hizmetçilerine, Bu Vaftizci Yahya’dır, dedi; ölüler arasından dirilmiştir; ve bundan dolayı kendisinde güçlü işler işlemektedir."
+    },
+    {
+      "v": 3,
+      "text": "Çünkü Hirodes, kardeşi Filipus’un karısı Hirodias yüzünden Yahya’yı tutup bağlamış, ve onu hapishaneye koymuştu."
+    },
+    {
+      "v": 4,
+      "text": "Çünkü Yahya ona, Onu almak senin için yasal değildir, demekteydi."
+    },
+    {
+      "v": 5,
+      "text": "Ve onu öldürmek isteyip kalabalıktan korkuyordu, çünkü onu peygamber olarak tanıyorlardı."
+    },
+    {
+      "v": 6,
+      "text": "Ama Hirodes’in doğum günü kutlandığında Hirodias’ın kızı onların önünde dans etti, ve Hirodes’in hoşuna gitti."
+    },
+    {
+      "v": 7,
+      "text": "Bunun üzerine, ant içerek her ne dilerse ona vereceğini vaat etti."
+    },
+    {
+      "v": 8,
+      "text": "O da annesi tarafından kışkırtılmış olarak, Bana burada bir tepsi üzerinde Vaftizci Yahya’nın başını ver, dedi."
+    },
+    {
+      "v": 9,
+      "text": "Ve kral üzüldü; ama ant ve kendisiyle birlikte sofrada oturanlardan ötürü, ona verilmesini emretti."
+    },
+    {
+      "v": 10,
+      "text": "Ve gönderip hapishanede Yahya’nın başını kestirdi."
+    },
+    {
+      "v": 11,
+      "text": "Ve onun başı bir tepsi üzerinde getirilip kıza verildi; o da bunu annesine getirdi."
+    },
+    {
+      "v": 12,
+      "text": "Ve onun öğrencileri gelip cesedi aldılar, ve onu gömdüler, ve gidip İsa’ya haber verdiler."
+    },
+    {
+      "v": 13,
+      "text": "İsa bunu duyunca, oradan bir tekneyle ıssız bir yere tek başına çekildi; ve halk bunu duyunca, kentlerden yaya olarak onu izledi."
+    },
+    {
+      "v": 14,
+      "text": "Ve İsa çıkıp büyük bir kalabalık gördü, ve onlara acıdı, ve hastalarını iyileştirdi."
+    },
+    {
+      "v": 15,
+      "text": "Ve akşam olunca öğrencileri ona gelip, Burası ıssız bir yer, dediler, vakit de artık geç oldu; kalabalığı salıver de köylere gidip kendilerine yiyecek satın alsınlar."
+    },
+    {
+      "v": 16,
+      "text": "Ama İsa onlara, Gitmelerine gerek yok, dedi; onlara siz yiyecek verin."
+    },
+    {
+      "v": 17,
+      "text": "Onlar da ona, Burada beş ekmekle iki balıktan başka bir şeyimiz yok, dediler."
+    },
+    {
+      "v": 18,
+      "text": "O da, Onları buraya, bana getirin, dedi."
+    },
+    {
+      "v": 19,
+      "text": "Ve kalabalığa çimenlerin üzerine oturmalarını emretti, ve beş ekmekle iki balığı aldı, ve göğe doğru bakarak kutsadı, ve kırıp ekmekleri öğrencilerine verdi, öğrenciler de kalabalığa."
+    },
+    {
+      "v": 20,
+      "text": "Hepsi de yiyip doydular; ve artakalan parçalardan on iki küfe dolusu kaldırdılar."
+    },
+    {
+      "v": 21,
+      "text": "Ve yiyenler, kadınlardan ve çocuklardan başka, yaklaşık beş bin erkekti."
+    },
+    {
+      "v": 22,
+      "text": "Ve hemen sonra İsa, kendisi kalabalıkları salıverirken, öğrencilerini tekneye binmeye ve kendisinden önce karşı yakaya geçmeye zorladı."
+    },
+    {
+      "v": 23,
+      "text": "Kendisi de kalabalıkları salıverdikten sonra, dua etmek için bir dağa tek başına çıktı; ve akşam olduğunda orada yalnızdı."
+    },
+    {
+      "v": 24,
+      "text": "Ama tekne artık denizin ortasında bulunup dalgalarla çalkalanıyordu; çünkü rüzgar karşıttı."
+    },
+    {
+      "v": 25,
+      "text": "Ve gecenin dördüncü nöbetinde İsa denizin üstünde yürüyerek onlara gitti."
+    },
+    {
+      "v": 26,
+      "text": "Ve öğrenciler onu denizin üstünde yürürken görünce, Bu bir ruhtur, diyerek tedirgin oldular; ve korkudan bağırdılar."
+    },
+    {
+      "v": 27,
+      "text": "Ama İsa hemen onlara seslenip, Yüreklenin, benim, korkmayın, dedi."
+    },
+    {
+      "v": 28,
+      "text": "Ve Petrus ona cevap verip, Ya Rab, dedi, eğer sen isen, buyruk ver de suyun üstünden sana geleyim."
+    },
+    {
+      "v": 29,
+      "text": "O da, Gel, dedi. Ve Petrus tekneden inip İsa’ya gitmek için suyun üstünden yürüdü."
+    },
+    {
+      "v": 30,
+      "text": "Ama rüzgarı şiddetli görünce korktu; ve batmaya başladığında, Ya Rab, beni kurtar, diye bağırdı."
+    },
+    {
+      "v": 31,
+      "text": "Ve İsa hemen elini uzatıp onu tuttu, ve ona, Ey az imanlı, neden kuşku duydun? dedi."
+    },
+    {
+      "v": 32,
+      "text": "Ve onlar tekneye binince rüzgar dindi."
+    },
+    {
+      "v": 33,
+      "text": "O zaman teknede olanlar gelip, Gerçekten sen Allah’ın Oğlu’sun, diyerek ona tapındılar."
+    },
+    {
+      "v": 34,
+      "text": "Ve karşıya geçip Genesaret ülkesine geldiler."
+    },
+    {
+      "v": 35,
+      "text": "Ve o yerin adamları onu tanıyınca, çevredeki tüm yöreye gönderip illetlilerin hepsini ona getirdiler;"
+    },
+    {
+      "v": 36,
+      "text": "Ve yalnız giysisinin eteğine dokunsunlar diye ona yalvardılar; dokunanların hepsi de tamamen iyileşti."
+    }
+  ]
+}

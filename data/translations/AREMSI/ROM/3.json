@@ -1,1 +1,131 @@
-{"t":"AREMS","b":"ROM","c":3,"content":[{"v":1,"text":"Öyleyse, Yahudi’nin ne üstünlüğü var? Ya da sünnetliliğin yararı nedir?"},{"v":2,"text":"Her yönden çoktur; önce, çünkü Allah’ın sözleri onlara emanet edildi;"},{"v":3,"text":"Çünkü eğer bazıları iman etmedilerse, ne olur? Onların imansızlığı Allah’ın imanını geçersiz mi kılar?"},{"v":4,"text":"Allah korusun; evet, Allah doğru, ama her insan yalancı olsun; yazılmış olduğu gibi: Öyle ki, sözlerinde doğru çıkasın, ve yargılandığın zaman galip gelesin."},{"v":5,"text":"Ama eğer bizim haksızlığımız Allah’ın doğruluğunu gösterirse, ne diyelim? Öfkeyle cezalandıran Allah haksız mıdır? (İnsan gibi konuşuyorum.)"},{"v":6,"text":"Allah korusun; çünkü öyle olsa, Allah dünyayı nasıl yargılayacak?"},{"v":7,"text":"Çünkü eğer benim yalanımla Allah’ın gerçeği O’nun yüceliği için çoğaldıysa, ben niçin yine de bir günahkâr gibi yargılanıyorum?"},{"v":8,"text":"Ve niçin (kötülendiğimiz gibi ve bazılarının söylediğimizi ileri sürdüğü gibi,) İyilik gelsin diye kötülük yapalım, demeyelim? Haktır onların hüküm giymesi."},{"v":9,"text":"Öyleyse ne? Biz onlardan daha üstün müyüz? Hayır, asla; çünkü hepsinin, hem Yahudiler’in hem de Centiller’in günah altında olduğunu daha önce kanıtladık;"},{"v":10,"text":"Yazılmış olduğu gibi: Hiç doğru yok, bir kişi bile yoktur."},{"v":11,"text":"Anlayan kimse yok, Allah’ı arayan kimse yok."},{"v":12,"text":"Hepsi yoldan saptılar, birlikte yararsız oldular; iyilik eden yok, bir kişi bile yoktur."},{"v":13,"text":"Boğazları açık mezardır, dilleriyle hileyi kullandılar; dudaklarının altında engerek zehri var;"},{"v":14,"text":"Ağızları lanet ve acılıkla doludur;"},{"v":15,"text":"Ayakları kan dökmeye çeviktir;"},{"v":16,"text":"Yollarında yıkım ve dert vardır;"},{"v":17,"text":"Esenlik yolunu da bilmediler;"},{"v":18,"text":"Onların gözleri önünde Allah korkusu yoktur."},{"v":19,"text":"Şimdi biz biliriz ki, yasa her ne söylerse, yasa altında olanlara söyler, öyle ki, her ağız kapansın ve tüm dünya Allah’ın önünde suçlu olsun."},{"v":20,"text":"Bu nedenle O’nun gözü önünde hiç et beden yasa işleriyle aklanmayacaktır, çünkü günah bilgisi yasa aracılığıyladır."},{"v":21,"text":"Ama şimdi Allah’ın doğruluğu yasa olmadan açıklandı, yasa ve peygamberler tarafından buna tanıklık edildi,"},{"v":22,"text":"Yani Allah’ın İsa Mesih imanından olan doğruluğu iman edenlerin hepsine ve hepsinin üzerinedir; çünkü fark yoktur;"},{"v":23,"text":"Çünkü hepsi günah işledi, ve Allah’ın yüceliğinden yoksun kaldı;"},{"v":24,"text":"Mesih İsa’da olan halas aracılığıyla, O’nun inayetiyle karşılıksız olarak aklanırlar;"},{"v":25,"text":"Allah’ın katlanışı üzere daha önce işlenmiş günahları bağışlamakla doğruluğunu göstermek için Allah O’nu, kanına olan imanla, bağışlamalık olarak sundu;"},{"v":26,"text":"Doğruluğunu şimdiki zamanda göstermek için, diyorum, öyle ki, kendisi adil olsun, ve İsa’ya iman edeni aklayan olsun."},{"v":27,"text":"Öyleyse övünme nerede kaldı? Dışarda kaldı. Hangi yasayla? İşler yasasıyla mı? Hayır, ama iman yasasıyla."},{"v":28,"text":"Bunun için şu sonuca vardık: bir adam yasa işleri olmaksızın imanla aklanır."},{"v":29,"text":"O yalnız Yahudiler’in Allah’ı mı? Centiller’in de değil mi? Evet Centiller’in de;"},{"v":30,"text":"Çünkü sünnetliliği imanla ve sünnetsizliği iman aracılığıyla aklayacak olan Allah tektir."},{"v":31,"text":"O zaman biz iman aracılığıyla yasayı geçersiz mi kılıyoruz? Allah korusun, tam tersine yasayı pekiştiriyoruz."}]}
+{
+  "t": "AREMS",
+  "b": "ROM",
+  "c": 3,
+  "content": [
+    {
+      "v": 1,
+      "text": "Öyleyse, Yahudi’nin ne üstünlüğü var? ya da sünnetliliğin yararı nedir?"
+    },
+    {
+      "v": 2,
+      "text": "Her yönden çoktur; önce, çünkü Allah’ın sözleri onlara emanet edildi;"
+    },
+    {
+      "v": 3,
+      "text": "Çünkü eğer bazıları iman etmedilerse, ne olur? onların imansızlığı Allah’ın imanını geçersiz mi kılar?"
+    },
+    {
+      "v": 4,
+      "text": "Allah korusun; evet, Allah doğru, ama her insan yalancı olsun; yazılmış olduğu gibi: Öyle ki, sözlerinde doğru çıkasın, ve yargılandığın zaman galip gelesin."
+    },
+    {
+      "v": 5,
+      "text": "Ama eğer bizim haksızlığımız Allah’ın doğruluğunu gösterirse, ne diyelim? Öfkeyle cezalandıran Allah haksız mıdır? (İnsan gibi konuşuyorum)"
+    },
+    {
+      "v": 6,
+      "text": "Allah korusun; çünkü öyle olsa, Allah dünyayı nasıl yargılayacak?"
+    },
+    {
+      "v": 7,
+      "text": "Çünkü eğer benim yalanımla Allah’ın gerçeği onun yüceliği için çoğaldıysa, ben niçin yine de bir günahkar gibi yargılanıyorum?"
+    },
+    {
+      "v": 8,
+      "text": "Ve niçin (kötülendiğimiz gibi ve bazılarının söylediğimizi ileri sürdüğü gibi,) İyilik gelsin diye kötülük yapalım, demeyelim? böyle kimselerin yargılanması doğrudur."
+    },
+    {
+      "v": 9,
+      "text": "Öyleyse ne? biz onlardan daha üstün müyüz? Hayır, asla; çünkü hepsinin, hem Yahudiler’in hem de Centiller’in günah altında olduğunu daha önce kanıtladık;"
+    },
+    {
+      "v": 10,
+      "text": "Yazılmış olduğu gibi: Hiç doğru yok, bir kişi bile yoktur."
+    },
+    {
+      "v": 11,
+      "text": "Anlayan kimse yok, Allah’ı arayan kimse yok."
+    },
+    {
+      "v": 12,
+      "text": "Hepsi yoldan saptılar, birlikte yararsız oldular; iyilik eden yok, bir kişi bile yoktur."
+    },
+    {
+      "v": 13,
+      "text": "Boğazları açık mezardır, dilleriyle hileyi kullandılar; dudaklarının altında engerek zehiri var;"
+    },
+    {
+      "v": 14,
+      "text": "Ağızları lanet ve acılıkla doludur;"
+    },
+    {
+      "v": 15,
+      "text": "Ayakları kan dökmeye çeviktir;"
+    },
+    {
+      "v": 16,
+      "text": "Yollarında yıkım ve dert vardır;"
+    },
+    {
+      "v": 17,
+      "text": "Esenlik yolunu da bilmediler;"
+    },
+    {
+      "v": 18,
+      "text": "Onların gözleri önünde Allah korkusu yoktur."
+    },
+    {
+      "v": 19,
+      "text": "Şimdi biz biliriz ki, yasa her ne söylerse, yasa altında olanlara söyler, öyle ki, her ağız kapansın ve tüm dünya Allah’ın önünde suçlu olsun."
+    },
+    {
+      "v": 20,
+      "text": "Bu nedenle onun gözü önünde hiç etbeden yasa işleriyle aklanmayacaktır, çünkü günah bilgisi yasa aracılığıyladır."
+    },
+    {
+      "v": 21,
+      "text": "Ama şimdi Allah’ın doğruluğu yasa olmadan açıklandı, yasa ve peygamberler tarafından buna tanıklık edildi,"
+    },
+    {
+      "v": 22,
+      "text": "Yani Allah’ın İsa Mesih imanından olan doğruluğu iman edenlerin hepsine ve hepsinin üzerinedir; çünkü fark yoktur;"
+    },
+    {
+      "v": 23,
+      "text": "Çünkü hepsi günah işledi, ve Allah’ın yüceliğinden yoksun kaldı;"
+    },
+    {
+      "v": 24,
+      "text": "Mesih İsa’da olan halas aracılığıyla, onun inayetiyle karşılıksız olarak aklanırlar;"
+    },
+    {
+      "v": 25,
+      "text": "Allah’ın katlanışı üzere daha önce işlenmiş günahları bağışlamakla doğruluğunu göstermek için Allah onu, kanına olan imanla, bağışlamalık olarak sundu;"
+    },
+    {
+      "v": 26,
+      "text": "Doğruluğunu şimdiki zamanda göstermek için, diyorum, öyle ki, kendisi adil olsun, ve İsa’ya iman edeni aklayan olsun."
+    },
+    {
+      "v": 27,
+      "text": "Öyleyse övünme nerede kaldı? dışarda kaldı. Hangi yasayla? işler yasasıyla mı? Hayır, ama iman yasasıyla."
+    },
+    {
+      "v": 28,
+      "text": "Bunun için şu sonuca vardık: bir adam yasa işleri olmaksızın imanla aklanır."
+    },
+    {
+      "v": 29,
+      "text": "O yalnız Yahudiler’in Allahı mı? Centiller’in de değil mi? Evet Centiller’in de;"
+    },
+    {
+      "v": 30,
+      "text": "Çünkü sünnetliliği imanla ve sünnetsizliği iman aracılığıyla aklayacak olan Allah tektir."
+    },
+    {
+      "v": 31,
+      "text": "O zaman biz iman aracılığıyla yasayı geçersiz mi kılıyoruz? Allah korusun, tam tersine yasayı pekiştiriyoruz."
+    }
+  ]
+}

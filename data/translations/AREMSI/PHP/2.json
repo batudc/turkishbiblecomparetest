@@ -1,1 +1,127 @@
-{"t":"AREMS","b":"PHP","c":2,"content":[{"v":1,"text":"Bunun için eğer Mesih’te bir avunç, eğer sevginin bir tesellisi, eğer Ruh’un bir paydaşlığı, eğer bağırlar ve merhametler varsa,"},{"v":2,"text":"Benim sevincimi tamamlayın ki, birlik içinde zihniniz bir olarak hemfikirle, aynı sevgiye sahip olasınız."},{"v":3,"text":"Hiçbir şey çekişmeyle ya da boş övünmeyle yapılmasın; ama alçak gönülle her biri diğerini kendinden üstün saysın."},{"v":4,"text":"Her adam kendi şeylerine bakmasın, ama her adam başkalarının şeylerine de baksın."},{"v":5,"text":"Mesih İsa’da olan gönül sizde de olsun,"},{"v":6,"text":"O, Allah’ın suretindeyken, Allah’a eşit olmak soygunculuk zannetmedi,"},{"v":7,"text":"Ama kendisini ünsüz kıldı, ve üzerine kul suretini aldı, ve insanların benzeyişinde oldu,"},{"v":8,"text":"Ve şekilde insan gibi bulunarak, kendini alçalttı, ve ölüme, hatta çarmıh ölümüne dek itaat etti."},{"v":9,"text":"Bu nedenle Allah da O’nu pek çok yükseltip O’na her adın üstünde olan ı bağışladı;"},{"v":10,"text":"Öyle ki, İsa’nın adına her diz çöksün, gökteki şeylerin, ve yerdeki şeylerin, ve yer altındaki şeylerin;"},{"v":11,"text":"Ve, Baba Allah’ın yüceliği için, her dil İsa Mesih’in Rab olduğunu ikrar etsin."},{"v":12,"text":"Bu nedenle, sevgili kardeşlerim, her zaman söz dinlediğiniz gibi, yalnız ben hazırken olduğu gibi değil, ama şimdi ben yokken daha da çok korku ve titremeyle kendi kurtuluşunuzu tekmilleyin."},{"v":13,"text":"Çünkü sizde hem istemeyi hem de yapmayı hoşnutluğuna göre işleyen Allah’tır."},{"v":14,"text":"Tüm şeyleri söylenmeden ve çekişmeden yapın,"},{"v":15,"text":"Öyle ki, yaşam sözünü ileri sürerek, dünyada ışıklar gibi aralarında parladığınız eğri ve sapık ulusun ortasında kusursuz ve saf, Allah’ın ayıpsız oğulları olasınız;"},{"v":16,"text":"Öyle ki, boş yere koşmadım ve boş yere emek vermedim diye, Mesih’in gününde sevineyim."},{"v":17,"text":"Evet, ve eğer imanınızın kurbanı ve hizmeti üzerine sunulursam, sevinç duyarım, ve hepinizle birlikte sevinçli olurum."},{"v":18,"text":"Siz de aynı sebeple sevinirsiniz, ve benimle birlikte sevinçli olursunuz."},{"v":19,"text":"Ama Rab İsa’da güvenirim ki Timoteos’u yakında size göndereyim, öyle ki, benim de halinizi bilerek hatırım hoş olsun."},{"v":20,"text":"Çünkü gönlüme uyan başka kimsem yoktur ki içtenlikle halinize bakacak."},{"v":21,"text":"Çünkü hepsi İsa Mesih’in şeylerini değil, kendi şeylerini arıyorlar."},{"v":22,"text":"Ama siz onun tecrübesini bilirsiniz ki oğul babaya hizmet eder gibi benimle İncil’de hizmet etti."},{"v":23,"text":"Şimdi halim ne olacağını görünce, onu hemen göndermek umudundayım."},{"v":24,"text":"Ama Rab’be güvenirim ki ben kendim de yakında geleyim."},{"v":25,"text":"Yine de kardeşim, ve emektaşım, ve silahtaşım, ama sizin haberciniz, ve ihtiyacıma hizmet etmiş olan Epafroditos’u size göndermeyi gerekli gördüm."},{"v":26,"text":"Çünkü hepinizi özlüyor, ve onun hasta olduğunu işittiğinizden dolayı kederleniyordu."},{"v":27,"text":"Çünkü gerçekten ölüme yakın hastaydı, ama Allah ona, ve yalnız ona değil, ama üzüntü üzerine üzüntüm olmasın diye, bana da merhamet etti."},{"v":28,"text":"Şimdi onu tekrar görerek sevinesiniz ve benim üzüntüm azalsın diye, kendisini daha acele gönderdim."},{"v":29,"text":"Bunun için onu Rab’de tüm sevinçle kabul edin; ve böyle kimselere saygı gösterin;"},{"v":30,"text":"Çünkü bana olan hizmetinizin noksanını tamamlasın diye, hayatına bakmayarak, Mesih’in işi için ölüme yakındı."}]}
+{
+  "t": "AREMS",
+  "b": "PHP",
+  "c": 2,
+  "content": [
+    {
+      "v": 1,
+      "text": "Bunun için eğer Mesih’te bir avunç, eğer sevginin bir tesellisi, eğer Ruh’un bir paydaşlığı, eğer bağırlar ve merhametler varsa,"
+    },
+    {
+      "v": 2,
+      "text": "Benim sevincimi tamamlayın ki, birlik içinde zihniniz bir olarak hemfikirli, aynı sevgiye sahip olasınız."
+    },
+    {
+      "v": 3,
+      "text": "Hiçbir şey çekişmeyle ya da boş övünmeyle yapılmasın; ama alçak gönülle her biri diğerini kendinden üstün saysın."
+    },
+    {
+      "v": 4,
+      "text": "Her adam kendi şeylerine bakmasın, ama her adam başkaların şeylerine de baksın."
+    },
+    {
+      "v": 5,
+      "text": "Mesih İsa’da olan gönül sizde de olsun,"
+    },
+    {
+      "v": 6,
+      "text": "O, Allah’ın suretindeyken, Allah’a eşit olmak soygunculuk zannetmedi,"
+    },
+    {
+      "v": 7,
+      "text": "Ama kendisini ünsüz kıldı, ve kul suretini aldı, ve insanların benzeyişinde oldu,"
+    },
+    {
+      "v": 8,
+      "text": "Ve şekilde insan gibi bulunarak, kendini alçalttı, ve ölüme, hatta çarmıh ölümüne dek itaat etti."
+    },
+    {
+      "v": 9,
+      "text": "Bu nedenle Allah da onu pek çok yükseltip ona her adın üstünde olan adı bağışladı;"
+    },
+    {
+      "v": 10,
+      "text": "Öyle ki, İsa’nın adına her diz çöksün, gökteki şeylerin, ve yerdeki şeylerin, ve yer altındaki şeylerin;"
+    },
+    {
+      "v": 11,
+      "text": "Ve, Baba Allah’ın yüceliği için, her dil İsa Mesih’in Rab olduğunu ikrar etsin."
+    },
+    {
+      "v": 12,
+      "text": "Bu nedenle, sevgili kardeşlerim, her zaman söz dinlediğiniz gibi, yalnız ben hazırken olduğu gibi değil, ama şimdi ben yokken daha da çok korku ve titremeyle kendi kurtuluşunuzu tekmilleyin."
+    },
+    {
+      "v": 13,
+      "text": "Çünkü sizde hem istemeyi hem de yapmayı hoşnutluğuna göre işleyen Allah’tır."
+    },
+    {
+      "v": 14,
+      "text": "Tüm şeyleri söylenmeden ve çekişmeden yapın,"
+    },
+    {
+      "v": 15,
+      "text": "Öyle ki, yaşam sözünü ileri sürerek, dünyada ışıklar gibi aralarında parladığınız eğri ve sapık ulusun ortasında kusursuz ve saf, Allah’ın ayıpsız oğulları olasınız;"
+    },
+    {
+      "v": 16,
+      "text": "Öyle ki, boş yere koşmadım ve boş yere emek vermedim diye, Mesih’in gününde sevineyim."
+    },
+    {
+      "v": 17,
+      "text": "Evet, ve eğer imanınızın kurbanı ve hizmeti üzerine sunulursam, sevinç duyarım, ve hepinizle birlikte sevinçli olurum."
+    },
+    {
+      "v": 18,
+      "text": "Siz de aynı sebeple sevinirsiniz, ve benimle birlikte sevinçli olursunuz."
+    },
+    {
+      "v": 19,
+      "text": "Ama Rab İsa’da güvenirim ki Timoteos’u yakında size göndereyim, öyle ki, ben de halinizi bilerek gönlüm ferahlansın."
+    },
+    {
+      "v": 20,
+      "text": "Çünkü gönlüme uyan kimsem yoktur ki içtenlikle halinize bakacak."
+    },
+    {
+      "v": 21,
+      "text": "Çünkü hepsi İsa Mesih’in şeyleri değil, kendi şeylerini arıyorlar."
+    },
+    {
+      "v": 22,
+      "text": "Ama siz onun tecrübesini bilirsiniz ki oğul babaya hizmet eder gibi benimle İncil’de hizmet etti."
+    },
+    {
+      "v": 23,
+      "text": "Şimdi halim ne olacağını görünce, onu hemen göndermek umudundayım."
+    },
+    {
+      "v": 24,
+      "text": "Ama Rab’de güvenirim ki ben kendim de yakında geleyim."
+    },
+    {
+      "v": 25,
+      "text": "Yine de kardeşim, ve emektaşım, ve silahtaşım, ama sizin haberciniz, ve ihtiyacıma hizmet etmiş olan Epafroditos’u size göndermeyi gerekli gördüm."
+    },
+    {
+      "v": 26,
+      "text": "Çünkü hepinizi özlüyor, ve onun hasta olduğunu işittiğinizden dolayı kederleniyordu."
+    },
+    {
+      "v": 27,
+      "text": "Çünkü gerçekten ölüme yakın hastaydı, ama Allah ona, ve yalnız ona değil, üzüntü üzerine üzüntüm olmasın diye, bana da merhamet etti."
+    },
+    {
+      "v": 28,
+      "text": "Şimdi onu tekrar görerek sevinesiniz ve benim üzüntüm azalsın diye, kendisini daha acele gönderdim."
+    },
+    {
+      "v": 29,
+      "text": "Bunun için onu Rab’de tüm sevinçle kabul edin; ve böyle kimselere saygı gösterin;"
+    },
+    {
+      "v": 30,
+      "text": "Çünkü bana olan hizmetinizin noksanını tamamlasın diye, hayatına bakmayarak, Mesih’in işi için ölüme yakındı."
+    }
+  ]
+}

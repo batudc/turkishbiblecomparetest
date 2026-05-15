@@ -1,1 +1,107 @@
-{"t":"AREMS","b":"ACT","c":12,"content":[{"v":1,"text":"Şimdi o sıralarda Kral Hirodes, kiliseden bazı kişilere kötülük etmek için el uzattı."},{"v":2,"text":"Ve Yuhanna’nın kardeşi Yakup’u kılıçla öldürdü."},{"v":3,"text":"Ve bunun Yahudiler’i hoşnut ettiğini görerek ileri varıp Petrus’u da yakalattı. (O zaman mayasız ekmek günleriydi.)"},{"v":4,"text":"Ve onu tutunca hapse attı, ve dörder kişilik dört takım askerin gözetimine teslim etti; Fısıh’tan sonra onu halkın önüne çıkarmak niyetindeydi."},{"v":5,"text":"Bu nedenle Petrus hapiste tutuldu; ama kilisece onun için Allah’a durmadan dua ediliyordu."},{"v":6,"text":"Ve Hirodes’in onu ortaya çıkaracağında, tam o gece Petrus iki zincirle bağlanmış olarak iki askerin arasında uyuyordu; bekçiler de kapının önünde hapishaneyi koruyordu."},{"v":7,"text":"Ve, işte, Rab’bin meleği yanında durdu, ve hapishanede bir ışık parladı; ve Petrus’un böğrüne vurup onu uyandırdı, Çabuk kalk, dedi. Ve zincirleri ellerinden düştü."},{"v":8,"text":"Ve melek ona, Kuşağını bağla, ve çarıklarını giy, dedi. O da öyle yaptı. Ve ona, Üst giysini kuşan, ve beni izle, dedi."},{"v":9,"text":"O da çıkıp ardından gitti; ve meleğin yaptığının gerçek olduğunu bilmiyordu; ancak bir görüm gördüğünü sanıyordu."},{"v":10,"text":"Birinci ve ikinci nöbetçi yerini geçerek kente çıkılan demir kapıya geldiler; kapı önlerinde kendiliğinden açıldı; ve dışarı çıkıp bir sokağı geçtiler; ve melek hemen ondan ayrıldı."},{"v":11,"text":"Ve Petrus kendine gelince, Şimdi gerçekten biliyorum ki, dedi, Rab meleğini gönderip beni Hirodes’in elinden ve Yahudi halkının tüm umduklarından azat etti."},{"v":12,"text":"Ve bunun farkına varınca Markos diye bilinen Yuhanna’nın annesi Meryem’in evine gitti; orada birçok kişi toplanmış dua ediyordu."},{"v":13,"text":"Ve Petrus dış kapıyı çalınca Roda adlı bir kız kulak vermeye geldi."},{"v":14,"text":"Ve Petrus’un sesini tanıyınca sevincinden kapıyı açmadan içeri koşup Petrus’un kapı önünde durduğunu bildirdi."},{"v":15,"text":"Ve onlar ona, Çıldırmışsın sen, dediler. Ama kız öyle olduğunu kesinlikle bildirdi. O zaman, O’nun meleğidir, dediler."},{"v":16,"text":"Petrus ise kapıyı çalmaya devam etti; kapıyı açıp onu görünce şaşıp kaldılar."},{"v":17,"text":"O ise elle susmalarını işaret ederek Rab’bin kendisini hapishaneden nasıl çıkardığını anlattı. Ve, Bu şeyleri Yakup’a ve kardeşlere bildirin, dedi. Ve oradan ayrılıp başka yere gitti."},{"v":18,"text":"Şimdi sabah olunca, Petrus ne oldu diye askerler arasındaki kargaşalık az değildi."},{"v":19,"text":"Ve Hirodes onu arayıp bulmayınca nöbetçileri sorguya çekti, ve öldürülmelerini emretti. Ve Yahudiye’den Sezariye’ye inip orada kaldı."},{"v":20,"text":"Ve Hirodes Sur ve Sayda halklarına karşı çok öfkeliydi; ama onlar hep birlikte kendisine geldiler, önce kralın baş danışmanı Vlastos’u dost edinerek barış istediler; çünkü kendi ülkeleri kralın ülkesinden besleniyordu."},{"v":21,"text":"Ve belirlenen günde krallık giysilerini giymiş olan Hirodes tahtına oturarak onlara bir konuşma yaptı."},{"v":22,"text":"Ve halk, Bu bir insanın sesi değil, bir ilahın sesidir, diye bağırıyordu."},{"v":23,"text":"Ve Rab’bin meleği onu hemen vurdu, çünkü yüceliği Allah’a vermemişti; ve kurtlanıp ruhu verdi."},{"v":24,"text":"Ama Allah’ın sözü büyüyüp çoğaldı."},{"v":25,"text":"Ve Barnabas ile Saul hizmetlerini bitirdikten sonra, Markos diye bilinen Yuhanna’yı yanlarına alarak Yeruşalim’den döndüler."}]}
+{
+  "t": "AREMS",
+  "b": "ACT",
+  "c": 12,
+  "content": [
+    {
+      "v": 1,
+      "text": "Şimdi o sıralarda Kral Hirodes, kiliseden bazı kişilere kötülük etmek için el uzattı."
+    },
+    {
+      "v": 2,
+      "text": "Ve Yuhanna’nın kardeşi Yakup’u kılıçla öldürdü."
+    },
+    {
+      "v": 3,
+      "text": "Ve bunun Yahudiler’i hoşnut ettiğini görerek ileri varıp Petrus’u da yakalattı. (O zaman mayasız ekmek günleriydi.)"
+    },
+    {
+      "v": 4,
+      "text": "Ve onu tutunca hapse attı, ve dörder kişilik dört takım askerin gözetimine teslim etti; Fısıh’tan sonra onu halkın önüne çıkarmak niyetindeydi."
+    },
+    {
+      "v": 5,
+      "text": "Bu nedenle Petrus hapiste tutuldu; ama kilisece onun için Allah’a durmadan dua ediliyordu."
+    },
+    {
+      "v": 6,
+      "text": "Ve Hirodes’in onu ortaya çıkaracağında, tam o gece Petrus iki zincirle bağlanmış olarak iki askerin arasında uyuyordu; bekçiler de kapının önünde hapishaneyi koruyordu."
+    },
+    {
+      "v": 7,
+      "text": "Ve, işte, Rab’bin meleği yanında durdu, ve hapıshanede bir ışık parladı; ve Petrus’un böğrüne vurup onu uyandırdı, Çabuk kalk, dedi. Ve zincirleri ellerinden düştü."
+    },
+    {
+      "v": 8,
+      "text": "Ve melek ona, Kuşağını bağla, ve çarıklarını giy, dedi. O da öyle yaptı. Ve ona, Üst giysinin kuşan, ve beni izle, dedi."
+    },
+    {
+      "v": 9,
+      "text": "O da çıkıp ardından gitti; ve meleğin yaptığının gerçek olduğunu bilmiyordu; ancak bir görüm gördüğünü sanıyordu."
+    },
+    {
+      "v": 10,
+      "text": "Birinci ve ikinci nöbetçi yerini geçerek kente çıkılan demir kapıya geldiler; kapı önlerinde kendiliğinden açıldı; ve dışarı çıkıp bir sokağı geçtiler; ve melek hemen ondan ayrıldı."
+    },
+    {
+      "v": 11,
+      "text": "Ve Petrus kendine gelince, Şimdi gerçekten biliyorum ki, dedi, Rab meleğini gönderip beni Hirodes’in elinden ve Yahudi halkının tüm umduklarından azat etti."
+    },
+    {
+      "v": 12,
+      "text": "Ve bunun farkına varınca Markos diye bilinen Yuhanna’nın annesi Meryem’in evine gitti; orada birçok kişi toplanmış dua ediyordu."
+    },
+    {
+      "v": 13,
+      "text": "Ve Petrus dış kapıyı çalınca Roda adlı bir kız kulak vermeye geldi."
+    },
+    {
+      "v": 14,
+      "text": "Ve Petrus’un sesini tanıyınca sevincinden kapıyı açmadan içeri koşup Petrus’un kapı önünde durduğunu bildirdi."
+    },
+    {
+      "v": 15,
+      "text": "Ve onlar ona, Çıldırmışsın sen, dediler. Ama kız öyle olduğunu kesinlikle bildirdi. O zaman, Onun meleğidir, dediler."
+    },
+    {
+      "v": 16,
+      "text": "Petrus ise kapıyı çalmaya devam etti; kapıyı açıp onu görünce şaşıp kaldılar."
+    },
+    {
+      "v": 17,
+      "text": "O ise elle susmalarını işaret ederek Rab’bin kendisini hapishaneden nasıl çıkardığını anlattı. Ve, Bu şeyleri Yakup’a ve kardeşlere bildirin, dedi. Ve oradan ayrılıp başka yere gitti."
+    },
+    {
+      "v": 18,
+      "text": "Şimdi sabah olunca, Petrus ne oldu diye askerler arasındaki kargaşalık az değildi."
+    },
+    {
+      "v": 19,
+      "text": "Ve Hirodes onu arayıp bulmayınca nöbetçileri sorguya çekti, ve öldürülmelerini emretti. Ve Yahudiye’den Sezariye’ye inip orada kaldı."
+    },
+    {
+      "v": 20,
+      "text": "Ve Hirodes Sur ve Sayda halklarına karşı çok öfkeliydi; ama onlar hep birlikte kendisine geldiler, önce kralın baş danışmanı Vlastos’u dost edinerek barış istediler; çünkü kendi ülkeleri kralın ülkesinden besleniyordu."
+    },
+    {
+      "v": 21,
+      "text": "Ve belirlenen günde krallık giysilerini giymiş olan Hirodes tahtına oturarak onlara bir konuşma yaptı."
+    },
+    {
+      "v": 22,
+      "text": "Ve halk, Bu bir insanın sesi değil, bir ilahın sesidir, diye bağırıyordu."
+    },
+    {
+      "v": 23,
+      "text": "Ve Rab’bin meleği onu hemen vurdu, çünkü yüceliği Allah’a vermemişti; ve kurtlanıp ruhu verdi."
+    },
+    {
+      "v": 24,
+      "text": "Ama Allah’ın sözü büyüyüp çoğaldı."
+    },
+    {
+      "v": 25,
+      "text": "Ve Barnabas ile Saul hizmetlerini bitirdikten sonra, Markos diye bilinen Yuhanna’yı yanlarına alarak Yeruşalim’den döndüler."
+    }
+  ]
+}

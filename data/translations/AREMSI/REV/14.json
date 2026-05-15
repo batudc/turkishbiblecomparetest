@@ -1,1 +1,87 @@
-{"t":"AREMS","b":"REV","c":14,"content":[{"v":1,"text":"Ve baktım, ve, işte, bir Kuzu Sion Dağı’nda duruyor, ve O’nunla birlikte alınlarında Babası’nın adının yazılmış olduğu yüz kırk dört bin kişi."},{"v":2,"text":"Ve gökten çok suların sesi gibi, büyük bir gök gürlemesinin sesi gibi bir ses işittim; ve çenklerini çalan çenkçilerin sesini işittim."},{"v":3,"text":"Ve tahtın önünde, ve dört yaratığın, ve ihtiyarların önünde sanki yeni bir ezgi söylüyorlar; ve yeryüzünden halas edilmiş olan yüz kırk dört bin kişiden başka hiçbir adam o ezgiyi öğrenemedi."},{"v":4,"text":"Kadınlarla lekelenmemiş olanlar bunlardır; çünkü bakiredirler. Kuzu nereye giderse, ardından giden bunlardır. Bunlar Allah’a ve Kuzu’ya ilk ürün olmak üzere insanlar arasından halas edildiler."},{"v":5,"text":"Ve onların ağzında hile bulunmadı; çünkü Allah’ın tahtının önünde kusursuzdurlar."},{"v":6,"text":"Ve yeryüzünde oturanlara, ve her ulusa, ve oymağa, ve dile, ve halka vaaz etmek için kendisinde sonsuz İncil olup göğün ortasında uçan başka bir melek gördüm,"},{"v":7,"text":"Yüksek sesle şöyle diyordu: Allah’tan korkun, ve O’na yücelik verin; çünkü O’nun yargılama saati geldi; ve göğü, ve yeri, ve denizi, ve su pınarlarını yapana tapının."},{"v":8,"text":"Ve başka bir melek ardından gelip, Babil yıkıldı, dedi, o koca kent yıkıldı, çünkü kendi fuhşunun azgınlığının şarabından tüm uluslara içirdi."},{"v":9,"text":"Ve onların ardından üçüncü melek gelip yüksek sesle dedi ki, Eğer bir adam canavara ve onun suretine tapar, ve nişanını alnına ya da eline kabul ederse,"},{"v":10,"text":"O, Allah’ın kendi gazabının kâsesine saf olarak dökülmüş olan öfkesi şarabından içecektir; ve kutsal meleklerin önünde ve Kuzu’nun önünde ateş ve kükürtle azap edilecektir;"},{"v":11,"text":"Ve azaplarının dumanı sonsuzlara dek tüter; ve canavara ve suretine tapanların, ve adının nişanını kim kabul ederse, onların gece gündüz dinlenmeleri yoktur."},{"v":12,"text":"Kutsalların sabrı buradadır; Allah’ın emirlerini, ve İsa’nın imanını tutanlar buradadır."},{"v":13,"text":"Ve gökten bir ses işittim, bana dedi ki, Yaz: Rab’de bundan sonra ölen ölülere ne mutlu; Ruh, Evet, diyor, öyle ki, emeklerinden dinlensinler; ve işleri onların ardından gider."},{"v":14,"text":"Ve baktım, ve işte beyaz bir bulut, ve bulutun üzerinde İnsanoğlu’na benzer biri oturuyordu, O’nun başında altın taç ve elinde keskin orak vardı."},{"v":15,"text":"Ve tapınaktan başka bir melek çıktı, bulutun üzerinde oturana yüksek sesle, Orağını sal, ve biç; çünkü sana biçme saati geldi; çünkü yerin"},{"v":16,"text":"biçilecek ürünü olgunlaşmış bulunuyor, diye bağırdı."},{"v":17,"text":"Ve bulut üzerinde oturan, orağını yeryüzüne saldı; ve yer biçildi."},{"v":18,"text":"Ve gökteki tapınaktan başka bir melek çıktı, onun da keskin orağı vardı."},{"v":19,"text":"Ve ateşin üzerinde kudreti olan başka bir melek sunaktan çıktı; ve keskin orağı olana yüksek bağırışla, Keskin orağını sal, ve yeryüzünün asmasının salkımlarını topla; çünkü üzümleri olgunlaştı, diye bağırdı."},{"v":20,"text":"Ve melek orağını yeryüzüne saldı, ve yeryüzünün asmasının üzümlerini toplayıp Allah’ın gazabının büyük masarasına attı."}]}
+{
+  "t": "AREMS",
+  "b": "REV",
+  "c": 14,
+  "content": [
+    {
+      "v": 1,
+      "text": "Ve baktım, ve, işte, bir Kuzu Sion Dağı’nda duruyor, ve onunla birlikte alınlarında Babası’nın adının yazılmış olduğu yüz kırk dört bin kişi."
+    },
+    {
+      "v": 2,
+      "text": "Ve gökten çok suların sesi gibi, büyük bir gök gürlemesinin sesi gibi bir ses işittim; ve çenklerini çalan çenkçilerin sesini işittim."
+    },
+    {
+      "v": 3,
+      "text": "Ve tahtın önünde, ve dört yaratığın, ve ihtiyarların önünde sanki yeni bir ezgi söylüyorlar; ve yeryüzünden halas edilmiş olan yüz kırk dört bin kişiden başka hiçbir adam o ezgiyi öğrenemedi."
+    },
+    {
+      "v": 4,
+      "text": "Kadınlarla lekelenmemiş olanlar bunlardır; çünkü bakiredirler. Kuzu nereye giderse, ardından giden bunlardır. Bunlar Allah’a ve Kuzu’ya ilk ürün olmak üzere insanlar arasından halas edildiler."
+    },
+    {
+      "v": 5,
+      "text": "Ve onların ağzında hile bulunmadı; çünkü Allah’ın tahtının önünde kusursuzdurlar."
+    },
+    {
+      "v": 6,
+      "text": "Ve yeryüzünde oturanlara, ve her ulusa, ve oymağa, ve dile, ve halka vaaz etmek için kendisinde sonsuz İncil olup göğün ortasında uçan başka bir melek gördüm,"
+    },
+    {
+      "v": 7,
+      "text": "Yüksek sesle şöyle diyordu: Allah’tan korkun, ve ona yücelik verin; çünkü onun yargılama saati geldi; ve göğü, ve yeri, ve denizi, ve su pınarlarını yapana tapının."
+    },
+    {
+      "v": 8,
+      "text": "Ve başka bir melek ardından gelip, Babil yıkıldı, dedi, o koca kent yıkıldı, çünkü kendi fuhşunun azgınlığının şarabından tüm uluslara içirdi."
+    },
+    {
+      "v": 9,
+      "text": "Ve onların ardından üçüncü melek gelip yüksek sesle dedi ki, Eğer bir adam canavara ve onun suretine tapar, ve nişanını alnına ya da eline kabul ederse,"
+    },
+    {
+      "v": 10,
+      "text": "O, Allah’ın kendi gazabının kasesine saf olarak dökülmüş olan öfkesi şarabından içecektir; ve kutsal meleklerin önünde ve Kuzu’nun önünde ateş ve kükürtle azap edilecektir;"
+    },
+    {
+      "v": 11,
+      "text": "Ve azaplarının dumanı sonsuzlara dek tüter; ve canavara ve suretine tapanların, ve adının nişanını kim kabul ederse, onların gece gündüz dinlenmeleri yoktur."
+    },
+    {
+      "v": 12,
+      "text": "Kutsalların sabrı buradadır; Allah’ın emirlerini, ve İsa’nın imanını tutanlar buradadır."
+    },
+    {
+      "v": 13,
+      "text": "Ve gökten bir ses işittim, bana dedi ki, Yaz: Rab’de bundan sonra ölen ölülere ne mutlu; Ruh, Evet, diyor, öyle ki, emeklerinden dinlensinler; ve işleri onların ardından gider."
+    },
+    {
+      "v": 14,
+      "text": "Ve baktım, ve işte beyaz bir bulut, ve bulutun üzerinde İnsanoğlu’na benzer biri oturuyordu, onun başında altın taç ve elinde keskin orak vardı."
+    },
+    {
+      "v": 15,
+      "text": "Ve tapınaktan başka bir melek çıktı, bulutun üzerinde oturana yüksek sesle, Orağını sal, ve biç; çünkü sana biçme saati geldi; çünkü yerin biçileçek ürünü olgunlaşmış bulunuyor, diye bağırdı."
+    },
+    {
+      "v": 16,
+      "text": "Ve bulut üzerinde oturan, orağını yeryüzüne saldı; ve yer biçildi."
+    },
+    {
+      "v": 17,
+      "text": "Ve gökteki tapınaktan başka bir melek çıktı, onun da keskin orağı vardı."
+    },
+    {
+      "v": 18,
+      "text": "Ve ateşin üzerinde kudreti olan başka bir melek sunaktan çıktı; ve keskin orağı olana yüksek bağırışla, Keskin orağını sal, ve yeryüzünün asmasının salkımlarını topla; çünkü üzümleri olgunlaştı, diye bağırdı."
+    },
+    {
+      "v": 19,
+      "text": "Ve melek orağını yeryüzüne saldı, ve yeryüzünün asmasının üzümlerini toplayıp Allah’ın gazabının büyük masarasına attı."
+    },
+    {
+      "v": 20,
+      "text": "Ve masara kentin dışında çiğnendi, ve masaradan bin altı yüz ok atımı mesafede kan atların gemlerine kadar çıktı."
+    }
+  ]
+}

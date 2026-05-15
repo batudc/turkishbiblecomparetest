@@ -1,1 +1,131 @@
-{"t":"AREMS","b":"LUK","c":16,"content":[{"v":1,"text":"Ve öğrencilerine şunları da anlattı: Zengin bir adamın bir kâhyası vardı; ve bu, mallarını israf ediyor diye ona ihbar edildi."},{"v":2,"text":"O da onu çağırıp kendisine, Senin hakkında bu işittiğim nedir? kahyalığının hesabını ver; çünkü sen artık kâhya olamazsın, dedi."},{"v":3,"text":"O zaman kâhya içinden, Ne yapayım? dedi; çünkü efendim kâhyalığı benden alıyor; toprak kazmaya gücüm yetmez; dilenmekten utanırım."},{"v":4,"text":"Kâhyalıktan kovulduğum zaman beni evlerine kabul etsinler diye ne yapacağımı biliyorum."},{"v":5,"text":"Böylece efendisine borçlu olanlardan her birini yanına çağırıp, birincisine, Efendime ne kadar borcun var? dedi."},{"v":6,"text":"Ve o, Yüz ölçek yağ, dedi. O da ona, Borç senedini al, ve hemen otur, ve elli yaz, dedi."},{"v":7,"text":"Sonra bir başkasına, Ve senin borcun ne kadar? dedi. Ve o, Yüz ölçek buğday, dedi. O da ona, Borç senedini al, ve seksen yaz, dedi."},{"v":8,"text":"Efendisi de, dürüst olmayan kâhyayı, akıllıca davrandığı için övdü; çünkü bu dünyanın çocukları nesillerinde ışığın çocuklarından daha akıllıdırlar."},{"v":9,"text":"Ben de size derim ki, Haksızlık mammonundan kendinize dostlar edinin; öyle ki, tükenip bittiğiniz zaman, sizi sonsuz konutlara kabul etsinler."},{"v":10,"text":"En azda sadık olan, çokta da sadık olur; en azda dürüst olmayan, çokta da dürüst olmaz."},{"v":11,"text":"Bu nedenle, eğer haksız mammonda sadık olmadınızsa, gerçek serveti size kim emanet eder?"},{"v":12,"text":"Ve başka adamın şeylerinde sadık olmadınızsa, kendinizin olanı size kim verir?"},{"v":13,"text":"Hiçbir uşak iki efendiye kulluk edemez; çünkü ya birinden nefret edip öbürünü sever, ya da birine bağlanıp öbürünü hor görür. Siz hem Allah’a, hem mammona kulluk edemezsiniz."},{"v":14,"text":"Ve açgözlü olan Ferisiler de tüm bu şeyleri duydular; ve onunla alay ediyorlardı."},{"v":15,"text":"O da onlara dedi ki, Siz insanlar önünde kendinizi adil çıkaran kişilersiniz; ama Allah yüreğinizi biliyor; çünkü insanlar arasında iyi sayılan, Allah’ın gözü önünde iğrençtir."},{"v":16,"text":"Yasa ve peygamberler Yahya’ya kadardı; o zamandan bu yana Allah’ın Krallığı vaaz ediliyor, ve her adam ona zorla giriyor."},{"v":17,"text":"Ve gök ve yerin geçmesi, yasanın ufacık bir noktasının yok olmasından daha kolaydır."},{"v":18,"text":"Her kim karısını boşayıp başkasıyla evlenirse zina eder; ve her kim kocasından boşanmış bir kadınla evlenirse zina eder."},{"v":19,"text":"Zengin bir adam vardı, erguvani ve ince ketenden giysiler giyip her gün zevk ederek yer, içerdi;"},{"v":20,"text":"Lazar adında bir dilenci de vardı, her tarafı yara içinde olup onun kapısının önüne bırakılırdı;"},{"v":21,"text":"Ve zenginin sofrasından düşen kırıntılarla karnını doyurmayı isterdi; bundan başka köpekler gelip onun yaralarını yalarlardı."},{"v":22,"text":"Ve vaki oldu ki dilenci öldü, ve melekler tarafından İbrahim’in kucağına götürüldü; zengin adam da öldü ve gömüldü;"},{"v":23,"text":"Ve cehennemde, azap içinde olarak gözlerini kaldırıp uzakta İbrahim’i ve onun kucağında Lazar’ı gördü."},{"v":24,"text":"Ve, Ey İbrahim baba, diye bağırdı, bana merhamet et, ve Lazar’ı gönder de parmağının ucunu suya batırıp dilimi serinletsin; çünkü bu alevde"},{"v":25,"text":"azap çekiyorum."},{"v":26,"text":"Ama İbrahim, Ey oğul, dedi, yaşamın boyunca senin iyi şeylerini aldığını, ve Lazar’ın aynı şekilde kötü şeyleri aldığını hatırla; şimdiyse o teselli ediliyor, sen de azap çekiyorsun."},{"v":27,"text":"Ve bunun hepsinden başka, bizimle sizin aranızda büyük bir uçurum konulmuştur, öyle ki, ne buradan size geçmek isteyenler geçebilir, ne de oradan bize geçmek isteyenler geçebilir."},{"v":28,"text":"O zaman o dedi ki, Öyleyse, baba, sana yalvarırım ki onu babamın evine gönderesin;"},{"v":29,"text":"Çünkü beş kardeşim var; öyle ki, onlara tanıklık etsin, onlar da bu azap yerine gelmesinler."},{"v":30,"text":"İbrahim ona, Musa ve peygamberleri var; onları dinlesinler, dedi."},{"v":31,"text":"O da, Hayır, İbrahim baba, dedi; ama ölüler arasından biri onlara giderse, tövbe ederler."}]}
+{
+  "t": "AREMS",
+  "b": "LUK",
+  "c": 16,
+  "content": [
+    {
+      "v": 1,
+      "text": "Ve öğrencilerine şunları da anlattı: Zengin bir adamın bir kahyası vardı; ve bu, mallarını israf ediyor diye ona ihbar edildi."
+    },
+    {
+      "v": 2,
+      "text": "O da onu çağırıp kendisine, Senin hakkında bu işittiğim nedir? kahyalığının hesabını ver; çünkü sen artık kahya olamazsın, dedi."
+    },
+    {
+      "v": 3,
+      "text": "O zaman kahya içinden, Ne yapayım? dedi; çünkü efendim kahyalığı benden alıyor; toprak kazmaya gücüm yetmez; dilenmekten utanırım."
+    },
+    {
+      "v": 4,
+      "text": "Kahyalıktan kovulduğum zaman beni evlerine kabul etsinler diye ne yapacağımı biliyorum."
+    },
+    {
+      "v": 5,
+      "text": "Böylece efendisine borçlu olanlardan her birini yanına çağırıp, birincisine, Efendime ne kadar borcun var? dedi."
+    },
+    {
+      "v": 6,
+      "text": "Ve o, Yüz ölçek yağ, dedi. O da ona, Borç senedini al, ve hemen otur, ve elli yaz, dedi."
+    },
+    {
+      "v": 7,
+      "text": "Sonra bir başkasına, Ve senin borcun ne kadar? dedi. Ve o, Yüz ölçek buğday, dedi. O da ona, Borç senedini al, ve seksen yaz, dedi."
+    },
+    {
+      "v": 8,
+      "text": "Efendisi de, dürüst olmayan kahyayı, akıllıca davrandığı için övdü; çünkü bu dünyanın çocukları nesillerinde ışığın çocuklarından daha akıllıdırlar."
+    },
+    {
+      "v": 9,
+      "text": "Ben de size derim ki, Haksızlık mammonundan kendinize dostlar edinin; öyle ki, tükenip bittiğiniz zaman, sizi sonsuz konutlara kabul etsinler."
+    },
+    {
+      "v": 10,
+      "text": "En azda sadık olan, çokta da sadık olur; en azda dürüst olmayan, çokta da dürüst olmaz."
+    },
+    {
+      "v": 11,
+      "text": "Be nedenle, eğer haksız mammonda sadık olmadınızsa, gerçek serveti size kim emanet eder?"
+    },
+    {
+      "v": 12,
+      "text": "Ve başka adamın şeylerinde sadık olmadınızsa, kendinizin olanı size kim verir?"
+    },
+    {
+      "v": 13,
+      "text": "Hiçbir uşak iki efendiye kulluk edemez; çünkü ya birinden nefret edip öbürünü sever, ya da birine bağlanıp öbürünü hor görür. Siz hem Allah’a, hem mammona kulluk edemezsiniz."
+    },
+    {
+      "v": 14,
+      "text": "Ve açgözlü olan Ferisiler de tüm bu şeyleri duydular; ve onunla alay edıyorlardı."
+    },
+    {
+      "v": 15,
+      "text": "O da onlara dedi ki, Siz insanlar önünde kendinizi adil çıkaran kişilersiniz; ama Allah yüreğinizi biliyor; çünkü insanlar arasında iyi sayılan, Allah’ın gözü önünde iğrençtir."
+    },
+    {
+      "v": 16,
+      "text": "Yasa ve peygamberler Yahya’ya kadardı; o zamandan bu yana Allah’ın Krallığı vaaz ediliyor, ve her adam ona zorla giriyor."
+    },
+    {
+      "v": 17,
+      "text": "Ve gök ve yerin geçmesi, yasanın ufacık bir noktasının yok olmasından daha kolaydır."
+    },
+    {
+      "v": 18,
+      "text": "Her kim karısını boşayıp başkasıyla evlenirse zina eder; ve her kim kocasından boşanmış bir kadınla evlenirse zina eder."
+    },
+    {
+      "v": 19,
+      "text": "Zengin bir adam vardı, erguvani ve ince ketenden giysiler giyip her gün zevk ederek yer, içerdi;"
+    },
+    {
+      "v": 20,
+      "text": "Lazar adında bir dilenci de vardı, her tarafı yara içinde olup onun kapısının önüne bırakılırdı;"
+    },
+    {
+      "v": 21,
+      "text": "Ve zenginin sofrasından düşen kırıntılarla karnını doyurmaya isterdi; bundan başka köpekler gelip onun yaralarını yalarlardı."
+    },
+    {
+      "v": 22,
+      "text": "Ve vaki oldu ki dilenci öldü, ve melekler tarafından İbrahim’in kucağına götürüldü; zengin adam da öldü ve gömüldü;"
+    },
+    {
+      "v": 23,
+      "text": "Ve cehennemde, azap içinde olarak gözlerini kaldırıp uzakta İbrahim’i ve onun kucağında Lazar’ı gördü."
+    },
+    {
+      "v": 24,
+      "text": "Ve, Ey İbrahim baba, diye bağırdı, bana merhamet et, ve Lazar’ı gönder de parmağının ucunu suya batırıp dilimi serinletsin; çünkü bu alevde azap çekiyorum"
+    },
+    {
+      "v": 25,
+      "text": "Ama İbrahim, Ey oğul, dedi, yaşamın boyunca senin iyi şeylerini aldığını, ve Lazar’ın aynı şekilde kötü şeyleri aldığını hatırla; şimdiyse o teselli ediliyor, sen de azap çekiyorsun."
+    },
+    {
+      "v": 26,
+      "text": "Ve bunun hepsinden başka, bizimle sizin aranızda büyük bir uçurum konulmuştur, öyle ki, ne buradan size geçmek isteyenler geçebilir, ne de oradan bize geçmek isteyenler geçebilir."
+    },
+    {
+      "v": 27,
+      "text": "O zaman o dedi ki, Öyleyse, baba, sana yalvarırım ki onu babamın evine gönderesin;"
+    },
+    {
+      "v": 28,
+      "text": "Çünkü beş kardeşim var; öyle ki, onlara tanıklık etsin, onlar da bu azap yerine gelmesinler."
+    },
+    {
+      "v": 29,
+      "text": "İbrahim ona, Musa ve peygamberleri var; onları dinlesinler, dedi."
+    },
+    {
+      "v": 30,
+      "text": "O da, Hayır, İbrahim baba, dedi; ama ölüler arasından biri onlara giderse, tövbe ederler."
+    },
+    {
+      "v": 31,
+      "text": "Ve o ona, Eğer Musa ile peygamberleri dinlemezlerse, ölüler arasından biri dirilse bile ikna olmazlar, dedi."
+    }
+  ]
+}

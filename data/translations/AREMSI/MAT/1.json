@@ -1,1 +1,107 @@
-{"t":"AREMS","b":"MAT","c":1,"content":[{"v":1,"text":"İbrahim oğlu, Davut oğlu İsa Mesih’in soy kitabı."},{"v":2,"text":"İbrahim İshak’ı tevlit etti; ve İshak Yakup’u tevlit etti; ve Yakup Yahuda ve onun kardeşlerini tevlit etti;"},{"v":3,"text":"Ve Yahuda Tamar’dan Fares ve Zara’yı tevlit etti; ve Fares Esrom’u tevlit etti; ve Esrom Aram’ı tevlit etti;"},{"v":4,"text":"Ve Aram Aminadab’ı tevlit etti; ve Aminadab Nahşon’u tevlit etti; ve Nahşon Salmon’u tevlit etti;"},{"v":5,"text":"Ve Salmon Rahab’dan Boaz’ı tevlit etti; ve Boaz Rut’tan Obed’i tevlit etti; ve Obed Yesse’yi tevlit etti;"},{"v":6,"text":"Ve Yesse Kral Davut’u tevlit etti; ve Kral Davut daha önceleri Üriya’nın karısı olandan Süleyman’ı tevlit etti;"},{"v":7,"text":"Ve Süleyman Roboam’ı tevlit etti; ve Roboam Abiya’yı tevlit etti; ve Abiya Asa’yı tevlit etti;"},{"v":8,"text":"Ve Asa Yoşafat’ı tevlit etti; ve Yoşafat Yoram’ı tevlit etti; ve Yoram Uzziya’yı tevlit etti;"},{"v":9,"text":"Ve Uzziya Yoatam’ı tevlit etti; ve Yoatam Ahaz’ı tevlit etti; ve Ahaz Hezekiya’yı tevlit etti;"},{"v":10,"text":"Ve Hezekiya Manasses’i tevlit etti; ve Manasses Amon’u tevlit etti; ve Amon Yoşiya’yı tevlit etti;"},{"v":11,"text":"Ve Yoşiya Babil sürgünü sırasında Yekonias ve onun kardeşlerini tevlit etti;"},{"v":12,"text":"Ve Yekonias Babil sürgününden sonra Şealtiel’i tevlit etti; ve Şealtiel Zerubabel’i tevlit etti;"},{"v":13,"text":"Ve Zerubabel Abiud’u tevlit etti; ve Abiud Eliakim’i tevlit etti; ve Eliakim Azor’u tevlit etti;"},{"v":14,"text":"Ve Azor Sadok’u tevlit etti; ve Sadok Ahim’i tevlit etti; ve Ahim Eliud’u tevlit etti;"},{"v":15,"text":"Ve Eliud Eleazar’ı tevlit etti; ve Eleazar Mattan’ı tevlit etti; ve Mattan Yakup’u tevlit etti;"},{"v":16,"text":"Ve Yakup Meryem’in kocası Yusuf’u tevlit etti, Meryem’den de Mesih denilen İsa doğdu."},{"v":17,"text":"Böylece İbrahim’den Davut’a kadar tüm kuşaklar on dört kuşak; ve Davut’tan Babil sürgününe kadar on dört kuşak; ve Babil sürgününden Mesih’e kadar on dört kuşaktır."},{"v":18,"text":"Şimdi İsa Mesih’in doğumu şöyle oldu: Annesi Meryem, Yusuf’la nişanlıyken, birleşmelerinden önce Kutsal Ruh’tan hamile bulundu."},{"v":19,"text":"O zaman kocası Yusuf, adil bir adam olduğundan ve onu herkesin önünde utandırmak istemediğinden, onu gizlice boşamak niyetindeydi."},{"v":20,"text":"Ama bunları düşünürken, işte, Rab’bin meleği ona rüyada görünerek, Ey Davut oğlu Yusuf, dedi, karın Meryem’i yanına almaktan korkma; çünkü onda oluşan Kutsal Ruh’tandır."},{"v":21,"text":"Ve o bir oğul doğuracak, ve O’nun adını İSA koyacaksın; çünkü O, halkını günahlarından kurtaracak."},{"v":22,"text":"Şimdi bunun hepsi, Rab’bin peygamber aracılığıyla söylediği şu söz yerine gelsin diye oldu:"},{"v":23,"text":"İşte, bakire gebe kalacak, ve bir oğul doğuracak; ve O’nun adını Emmanuel koyacaklar, bu da çevrildiğinde, Allah bizimle, demektir."},{"v":24,"text":"O zaman Yusuf uykusundan uyanıp Rab’bin meleğinin kendisine buyurduğu gibi yaptı, ve karısını yanına aldı;"},{"v":25,"text":"İlk oğlunu doğuruncaya dek onu bilmedi; ve O’nun adını İSA koydu."}]}
+{
+  "t": "AREMS",
+  "b": "MAT",
+  "c": 1,
+  "content": [
+    {
+      "v": 1,
+      "text": "İbrahim oğlu, Davut oğlu İsa Mesih’in soy kitabı."
+    },
+    {
+      "v": 2,
+      "text": "İbrahim İshak’ı tevlit etti; ve İshak Yakup’u tevlit etti; ve Yakup Yahuda ve onun kardeşlerini tevlit etti;"
+    },
+    {
+      "v": 3,
+      "text": "Ve Yahuda Tamar’dan Fares ve Zara’yı tevlit etti; ve Fares Esrom’u tevlit etti; ve Esrom Aram’ı tevlit etti;"
+    },
+    {
+      "v": 4,
+      "text": "Ve Aram Aminadab’ı tevlit etti; ve Aminadab Nahşon’u tevlit etti; ve Nahşon Salmon’u tevlit etti;"
+    },
+    {
+      "v": 5,
+      "text": "Ve Salmon Rahab’dan Boaz’ı tevlit etti; ve Boaz Rut’tan Obed’i tevlit etti; ve Obed Yesse’yi tevlit etti;"
+    },
+    {
+      "v": 6,
+      "text": "Ve Yesse Kral Davut’u tevlit etti; ve Kral Davut daha önceleri Üriya’nın karısı olandan Süleyman’ı tevlit etti;"
+    },
+    {
+      "v": 7,
+      "text": "Ve Süleyman Roboam’ı tevlit etti; ve Roboam Abiya’yı tevlit etti; ve Abiya Asa’yı tevlit etti;"
+    },
+    {
+      "v": 8,
+      "text": "Ve Asa Yoşafat’ı tevlit etti; ve Yoşafat Yoram’ı tevlit etti; ve Yoram Uzziya’yı tevlit etti;"
+    },
+    {
+      "v": 9,
+      "text": "Ve Uzziya Yoatam’ı tevlit etti; ve Yoatam Ahaz’ı tevlit etti; ve Ahaz Hezekiya’yı tevlit etti;"
+    },
+    {
+      "v": 10,
+      "text": "Ve Hezekiya Manasses’i tevlit etti; ve Manasses Amon’u tevlit etti; ve Amon Yoşiya’yı tevlit etti;"
+    },
+    {
+      "v": 11,
+      "text": "Ve Yoşiya Babil sürgünü sırasında Yekonias ve onun kardeşlerini tevlit etti;"
+    },
+    {
+      "v": 12,
+      "text": "Ve Yekonias Babil sürgününden sonra Şealtiel’i tevlit etti; ve Şealtiel Zerubabel’i tevlit etti;"
+    },
+    {
+      "v": 13,
+      "text": "Ve Zerubabel Abiud’u tevlit etti; ve Abiud Eliakim’i tevlit etti; ve Eliakim Azor’u tevlit etti;"
+    },
+    {
+      "v": 14,
+      "text": "Ve Azor Sadok’u tevlit etti; ve Sadok Ahim’i tevlit etti; ve Ahim Eliud’u tevlit etti;"
+    },
+    {
+      "v": 15,
+      "text": "Ve Eliud Eleazar’ı tevlit etti; ve Eleazar Mattan’ı tevlit etti; ve Mattan Yakup’u tevlit etti;"
+    },
+    {
+      "v": 16,
+      "text": "Ve Yakup Meryem’in kocası Yusuf’u tevlit etti, Meryem’den de Mesih denilen İsa doğdu."
+    },
+    {
+      "v": 17,
+      "text": "Böylece İbrahim’den Davut’a kadar tüm kuşaklar on dört kuşaktır; ve Davut’tan Babil sürgününe kadar on dört kuşak; ve Babil sürgününden Mesih’e kadar on dört kuşak."
+    },
+    {
+      "v": 18,
+      "text": "Şimdi İsa Mesih’in doğumu şöyle oldu: Annesi Meryem Yusuf’la nişanlıyken, birleşmelerinden önce Kutsal Ruh’tan hamile bulundu."
+    },
+    {
+      "v": 19,
+      "text": "O zaman kocası Yusuf, adil bir adam olduğundan ve onu herkesin önünde utandırmak istemediğinden, onu gizlice boşamak niyetindeydi."
+    },
+    {
+      "v": 20,
+      "text": "Ama bu şeyleri düşünürken, işte, Rab’bin meleği ona rüyada görünerek, Ey Davut oğlu Yusuf, dedi, karın Meryem’i yanına almaktan korkma; çünkü onda oluşan Kutsal Ruh’tan’dır."
+    },
+    {
+      "v": 21,
+      "text": "Ve bir oğul doğuracak, ve onun adını İSA koyacaksın; çünkü o, halkını günahlarından kurtaracak."
+    },
+    {
+      "v": 22,
+      "text": "Şimdi bunun hepsi, Rab’bin peygamber aracılığıyla söylediği şu söz yerine gelsin diye oldu:"
+    },
+    {
+      "v": 23,
+      "text": "İşte, bakire gebe kalacak, ve bir oğul doğuracak; ve onun adını Emmanuel koyacaklar, bu da çevrildiğinde, Allah bizimle, demektir."
+    },
+    {
+      "v": 24,
+      "text": "O zaman Yusuf uykusundan uyanıp Rab’bin meleğinin kendisine buyurduğu gibi yaptı, ve karısını yanına aldı;"
+    },
+    {
+      "v": 25,
+      "text": "Ve ilk oğlunu doğuruncaya dek onu bilmedi; ve onun adını İSA koydu."
+    }
+  ]
+}

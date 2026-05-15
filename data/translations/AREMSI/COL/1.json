@@ -1,1 +1,123 @@
-{"t":"AREMS","b":"COL","c":1,"content":[{"v":1,"text":"Allah’ın isteğiyle İsa Mesih’in elçisi Pavlus, ve kardeşimiz Timoteos,"},{"v":2,"text":"Kolose’deki kutsallara ve Mesih’te sadık kardeşlere: Babamız Allah ve Rab İsa Mesih’ten size inayet ve selamet olsun."},{"v":3,"text":"İsa Mesih’te olan imanınızı ve tüm kutsallara olan sevginizi işittikten sonra,"},{"v":4,"text":"Her zaman sizin için dua ederek Allah’a ve Rabbimiz İsa Mesih’in Babası’na şükrediyoruz,"},{"v":5,"text":"Çünkü gökte sizin için saklanmış umudun sebebiyle ki siz onun hakkında önceden İncil’in gerçeğinin sözünde işittiğiniz;"},{"v":6,"text":"Bu da tüm dünyaya ulaştığı gibi, size de ulaştı; ve onun hakkında işittiğiniz ve gerçekte Allah’ın inayetini bildiğiniz günden beri aranızda olduğu gibi meyve verir;"},{"v":7,"text":"Nitekim sevgili hizmettaşımız Epafras’tan da öğrendiniz, o sizin için Mesih’in sadık hizmetkârıdır;"},{"v":8,"text":"O da sizin Ruh’ta sevginizi bize bildirdi."},{"v":9,"text":"Bu nedenle biz de bunu işittiğimiz günden beri durmadan sizin için dua ediyor ve yalvarıyoruz; öyle ki, tüm bilgelik ve ruhani anlayışta O’nun isteğinin bilgisiyle dolasınız;"},{"v":10,"text":"Rab’be layık olduğu üzere yürüyüp O’nu her şeyde hoşnut edesiniz, ve her iyi işte verimli olup Allah’ın bilgisinde artasınız;"},{"v":11,"text":"O’nun yüce kudretine göre sevinçle tüm sabır ve tahammüle tüm kuvvetle güçlenesiniz;"},{"v":12,"text":"Bizi ışıkta kutsalların mirasına paydaş olmaya layık eden Baba’ya şükredesiniz;"},{"v":13,"text":"O bizi karanlığın kudretinden azat etti ve bizi kendi sevgili Oğlu’nun krallığına aktardı;"},{"v":14,"text":"O’nda, kanı aracılığıyla halasa, yani günahların bağışına sahibiz;"},{"v":15,"text":"O, görünmez Allah’ın sureti, her yaratığın ilk doğanıdır;"},{"v":16,"text":"Çünkü gökte ve yerde, görünen ve görünmeyen tüm şeyler, gerek tahtlar, gerek egemenlikler, gerek yönetimler, gerek kudretler olsun, O’nun aracılığıyla yaratıldı; tüm şeyler O’nun aracılığıyla ve O’nun için yaratılmıştır."},{"v":17,"text":"Ve O tüm şeylerden öncedir, ve tüm şeyler O’nun aracılığıyla ayakta durmaktadır."},{"v":18,"text":"Ve bedenin, kilisenin, başı O’dur; başlangıç, ölüler arasından ilk doğan O’dur; öyle ki, tüm şeylerde ilk yeri O alsın."},{"v":19,"text":"Çünkü tüm doluluğun O’nda yerleşmesinden,"},{"v":20,"text":"Ve O’nun çarmıhının kanı aracılığıyla barış sağlamış olarak O’nun aracılığıyla gerek yerde olan şeyleri, gerek gökte olan şeyleri, O’nun aracılığıyla, diyorum, tüm şeyleri kendisiyle barıştırmaktan Baba hoşnut oldu."},{"v":21,"text":"Ve bir zamanlar şer işlerle aklınızda yabancı ve düşman olan sizleri"},{"v":22,"text":"Şimdi kendi et bedeninin bedeninde ölüm aracılığıyla, sizleri O’nun gözü önüne kutsal ve lekesiz ve kusursuz çıkarmak için, barıştırdı;"},{"v":23,"text":"Eğer imanda temellenmiş ve yerleşmiş olarak devam edip duyduğunuz ve gök altında bulunan her yaratığa vaaz edilen İncil’in umudundan kımıldanmazsanız; ben Pavlus bunun hizmetkârı oldum;"},{"v":24,"text":"Şimdi sizin için olan elemlerimde seviniyorum, ve Mesih’in sıkıntılarının kalanlarını kilise olan O’nun bedeni uğruna kendi et bedenimde tamamlıyorum."},{"v":25,"text":"Allah’ın sizin için bana verilen idaresine göre bunun hizmetkârı oldum, öyle ki, Allah’ın sözünü yerine getireyim;"},{"v":26,"text":"Yani çağlardan ve nesillerden gizlenmiş, ama şimdi O’nun kutsallarına açıklanmış olan sırrını;"},{"v":27,"text":"Allah, onlara bu sırrın yüceliğinin zenginliği Centiller arasında ne olduğunu bildirmek istedi; bu da Mesih sizde, yüceliğin umududur;"},{"v":28,"text":"Her adamı uyararak ve her adama tüm bilgelikle öğreterek onu vaaz ediyoruz; öyle ki her adamı Mesih İsa’da yetkin olarak sunalım;"},{"v":29,"text":"Bunun için ben de uğraşıp bende O’nun güçlü biçimde işlemesine göre emek veriyorum."}]}
+{
+  "t": "AREMS",
+  "b": "COL",
+  "c": 1,
+  "content": [
+    {
+      "v": 1,
+      "text": "Allah’ın isteğiyle İsa Mesih’in elçisi Pavlus, ve kardeşimiz Timoteos,"
+    },
+    {
+      "v": 2,
+      "text": "Kolose’deki kutsallara ve Mesih’te sadık kardeşlere: Babamız Allah’tan ve Rab İsa Mesih’ten size inayet ve selamet olsun."
+    },
+    {
+      "v": 3,
+      "text": "Her zaman sizin için dua ederek Allah’a ve Rabbimiz İsa Mesih’in Babası’na şükrediyoruz,"
+    },
+    {
+      "v": 4,
+      "text": "Çünkü İsa Mesih’te olan imanınızı ve tüm kutsallara olan sevginizi işittik,"
+    },
+    {
+      "v": 5,
+      "text": "Gökte sizin için saklanmış umudun sebebiyle ki siz onun hakkında önceden İncil’in gerçeğinin sözünde işittiğiniz;"
+    },
+    {
+      "v": 6,
+      "text": "Bu da tüm dünyaya ulaştığı gibi, size de ulaştı; ve onun hakkında işittiğiniz ve gerçekte Allah’ın inayetini bildiğiniz günden beri aranızda olduğu gibi meyve verir;"
+    },
+    {
+      "v": 7,
+      "text": "Nitekim sevgili hizmettaşımız Epafras’tan da öğrendiniz, o sizin için Mesih’in sadık hizmetkarıdır;"
+    },
+    {
+      "v": 8,
+      "text": "O da sizin Ruh’ta sevginizi bize bildirdi."
+    },
+    {
+      "v": 9,
+      "text": "Bu nedenle biz de bunu işittiğimiz günden beri durmadan sizin için dua ediyor ve yalvarıyoruz; öyle ki, tüm bilgelik ve ruhani anlayışta onun isteğinin bilgisiyle dolasınız;"
+    },
+    {
+      "v": 10,
+      "text": "Rab’be layık olduğu üzere yürüyüp onu her şeyde hoşnut edesiniz, ve her iyi işte verimli olup Allah’ın bilgisinde artasınız;"
+    },
+    {
+      "v": 11,
+      "text": "Onun yüce kudretine göre sevinçle tüm sabır ve tahammül için tüm kuvvetle güçlenesiniz;"
+    },
+    {
+      "v": 12,
+      "text": "Bizi ışıkta kutsalların mirasına paydaş olmaya layık eden Baba’ya şükredesiniz;"
+    },
+    {
+      "v": 13,
+      "text": "O bizi karanlığın kudretinden azat edip kendi sevgili Oğlu’nun krallığına aktardı;"
+    },
+    {
+      "v": 14,
+      "text": "Onda, kanı aracılığıyla halasa, yani günahların bağışına sahibiz;"
+    },
+    {
+      "v": 15,
+      "text": "O, görünmez Allah’ın sureti, her yaratığın ilk doğanıdır;"
+    },
+    {
+      "v": 16,
+      "text": "Çünkü gökte ve yerde, görünen ve görünmeyen tüm şeyler, gerek tahtlar, gerek egemenlikler, gerek yönetimler, gerek kudretler, onun aracılığıyla yaratıldı; tüm şeyler onun aracılığıyla ve onun için yaratılmıştır."
+    },
+    {
+      "v": 17,
+      "text": "Ve o tüm şeylerden öncedir, ve tüm şeyler onun aracılığıyla ayakta durmaktadır."
+    },
+    {
+      "v": 18,
+      "text": "Ve bedenin, kilisenin, başı odur; başlangıç, ölüler arasından ilk doğan odur; öyle ki, tüm şeylerde ilk yeri o alsın."
+    },
+    {
+      "v": 19,
+      "text": "Çünkü tüm doluluğun onda yerleşmesinden,"
+    },
+    {
+      "v": 20,
+      "text": "Ve onun çarmıhının kanı aracılığıyla barış sağlamış olarak onun aracılığıyla gerek yerde olan şeyleri, gerek gökte olan şeyleri, onun aracılığıyla, diyorum, tüm şeyleri kendisiyle barıştırmaktan Baba hoşnut oldu."
+    },
+    {
+      "v": 21,
+      "text": "Ve bir zamanlar şer işlerle aklınızda yabancı ve düşman olan sizleri"
+    },
+    {
+      "v": 22,
+      "text": "Şimdi kendi etbedenin bedeninde ölüm aracılığıyla barıştırdı, öyle ki, sizi onun önüne kutsal ve lekesiz ve kusursuz çıkarsın;"
+    },
+    {
+      "v": 23,
+      "text": "Eğer imanda temellenmiş ve yerleşmiş olarak devam edip duyduğunuz ve gök altında bulunan her yaratığa vaaz edilen İncil’in umudundan kımıldanmazsanız; ben Pavlus bunun hizmetkarı oldum;"
+    },
+    {
+      "v": 24,
+      "text": "Şimdi sizin için olan elemlerimde seviniyorum, ve Mesih’in sıkıntılarının kalanlarını kilise olan onun bedeni uğruna kendi etbedenimde tamamlıyorum."
+    },
+    {
+      "v": 25,
+      "text": "Allah’ın sizin için bana verilen idaresine göre bunun hizmetkarı oldum, öyle ki, Allah’ın sözünü yerine getireyim;"
+    },
+    {
+      "v": 26,
+      "text": "Yani çağlardan ve nesillerden gizlenmiş, ama şimdi onun kutsallarına açıklanmış olan sırrını;"
+    },
+    {
+      "v": 27,
+      "text": "Allah, onlara bu sırrın yüceliğinin zenginliği Centiller arasında ne olduğunu bildirmek istedi; bu da Mesih sizde, yüceliğin umududur;"
+    },
+    {
+      "v": 28,
+      "text": "Her adamı uyararak ve her adama tüm bilgelikle öğreterek onu vaaz ediyoruz; öyle ki her adamı Mesih İsa’da yetkin olarak sunalım;"
+    },
+    {
+      "v": 29,
+      "text": "Bunun için ben de uğraşıp bende onun güçlü biçimde işlemesine göre emek veriyorum."
+    }
+  ]
+}

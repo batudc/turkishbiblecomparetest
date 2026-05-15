@@ -1,1 +1,75 @@
-{"t":"AREMS","b":"MAT","c":3,"content":[{"v":1,"text":"O günlerde Vaftizci Yahya gelip Yahudiye çölünde vaaz ediyor,"},{"v":2,"text":"Ve, Tövbe edin; çünkü Göğün Krallığı yaklaşmıştır, diyordu."},{"v":3,"text":"Çünkü İşaya peygamber tarafından, Çölde bağıran birinin sesi: Rab’bin yolunu hazırlayın, O’nun patikalarını düzleyin, diye sözü edilen kişi budur."},{"v":4,"text":"Ve bu Yahya’nın deve tüyünden elbisesi, belinde de deriden kuşağı vardı; ve yiyeceği çekirge ve yaban balıydı."},{"v":5,"text":"O zaman Yeruşalim, ve tüm Yahudiye, ve tüm Ürdün yöresi ona çıkıyor,"},{"v":6,"text":"Ve günahlarını itiraf ederek Ürdün’de onun tarafından vaftiz ediliyordu."},{"v":7,"text":"Ama Ferisiler’le Sadukiler’den birçok kişinin onun vaftizine geldiklerini görünce onlara, Ey engerekler soyu, dedi, gelecek gazaptan kaçmanız için sizi kim uyardı?"},{"v":8,"text":"Onun için tövbeye yaraşır meyveler verin;"},{"v":9,"text":"Ve kendi içinizden, Babamız İbrahim’dir, demeyi düşünmeyin; çünkü ben size derim ki, Allah İbrahim’e şu taşlardan çocuklar çıkarabilir."},{"v":10,"text":"Ve şimdi de balta ağaçların köküne konulmuştur; bunun için iyi meyve vermeyen her ağaç kesilip ateşe atılır."},{"v":11,"text":"Gerçi ben sizi tövbe için suyla vaftiz ediyorum; ama benden sonra gelen benden daha güçlüdür, ben O’nun ayakkabılarını taşımaya layık değilim; O sizi Kutsal Ruh’la ve ateşle vaftiz edecek;"},{"v":12,"text":"O’nun yabası elindedir, ve kendi harman yerini tamamen temizleyecek, ve buğdayını ambara toplayacak; ama samanı sönmeyen"},{"v":13,"text":"ateşle yakacak."},{"v":14,"text":"O zaman İsa, onun tarafından vaftiz edilmek üzere Celile’den Ürdün’e Yahya’nın yanına geldi."},{"v":15,"text":"Ama Yahya, Benim senin tarafından vaftiz edilmem gerekir, ve sen bana mı geliyorsun? diyerek O’nu önledi."},{"v":16,"text":"İsa da cevap verip ona, Bırak şimdi öyle olsun, dedi; çünkü tüm doğruluğu yerine getirmek bize öylece yaraşır. O zaman O’nu bıraktı."},{"v":17,"text":"Ve İsa, vaftiz edilince, hemen sudan çıktı; ve, işte, gökler O’na açıldı, ve Allah’ın Ruhu’nun güvercin gibi inip üzerine konduğunu gördü;"}]}
+{
+  "t": "AREMS",
+  "b": "MAT",
+  "c": 3,
+  "content": [
+    {
+      "v": 1,
+      "text": "O günlerde Vaftizci Yahya gelip Yahudiye çölünde vaaz ediyor,"
+    },
+    {
+      "v": 2,
+      "text": "Ve, Tövbe edin; çünkü Göğün Krallığı yaklaşmıştır, diyordu."
+    },
+    {
+      "v": 3,
+      "text": "Çünkü İşaya peygamber tarafından, Çölde bağıran birinin sesi: Rab’bin yolunu hazırlayın, onun patikalarını düzleyin, diye sözü edilen kişi budur."
+    },
+    {
+      "v": 4,
+      "text": "Ve bu Yahya’nın deve tüyünden elbisesi, belinde de deriden kuşağı vardı; ve yiyeceği çekirge ve yaban balıydı."
+    },
+    {
+      "v": 5,
+      "text": "O zaman Yeruşalim, ve tüm Yahudiye, ve tüm Ürdün yöresi ona çıkıyor,"
+    },
+    {
+      "v": 6,
+      "text": "Ve günahlarını itiraf ederek Ürdün’de onun tarafından vaftiz ediliyordu."
+    },
+    {
+      "v": 7,
+      "text": "Ama Ferisiler’le Sadukiler’den birçok kişinin onun vaftizine geldiklerini görünce onlara, Ey engerekler soyu, dedi, gelecek gazaptan kaçmanız için sizi kim uyardı?"
+    },
+    {
+      "v": 8,
+      "text": "Onun için tövbeye yaraşır meyveler verin;"
+    },
+    {
+      "v": 9,
+      "text": "Ve kendi içinizden, Babamız İbrahim’dir, demeyi düşünmeyin; çünkü ben size derim ki, Allah İbrahim’e şu taşlardan çocuklar çıkarabilir."
+    },
+    {
+      "v": 10,
+      "text": "Ve şimdi de balta ağaçların köküne konulmuştur; bunun için iyi meyve vermeyen her ağaç kesilip ateşe atılır."
+    },
+    {
+      "v": 11,
+      "text": "Gerçi ben sizi tövbe için suyla vaftiz ediyorum; ama benden sonra gelen benden daha güçlüdür, ben onun ayakkabılarını taşımaya layık değilim; o sizi Kutsal Ruh’la ve ateşle vaftiz edecek;"
+    },
+    {
+      "v": 12,
+      "text": "Onun yabası elindedir, ve kendi harman yerini tamamen temizleyecek, ve buğdayını ambara toplayacak; ama samanı sönmeyen ateşle yakacak."
+    },
+    {
+      "v": 13,
+      "text": "O zaman İsa, onun tarafından vaftiz edilmek üzere Celile’den Ürdün’e Yahya’nın yanına geldi."
+    },
+    {
+      "v": 14,
+      "text": "Ama Yahya, Benim senin tarafından vaftiz edilmem gerekir, ve sen bana mı geliyorsun? diyerek onu önledi."
+    },
+    {
+      "v": 15,
+      "text": "İsa da cevap verip ona, Bırak şimdi öyle olsun, dedi; çünkü tüm doğruluğu yerine getirmek bize öylece yaraşır. O zaman onu bıraktı."
+    },
+    {
+      "v": 16,
+      "text": "Ve İsa, vaftiz edilince, hemen sudan çıktı; ve, işte, gökler ona açıldı, ve Allah’ın Ruhu’nun güvercin gibi inip üzerine konduğunu gördü;"
+    },
+    {
+      "v": 17,
+      "text": "Ve işte gökten bir ses, Sevgili Oğlum budur, ondan hoşnudum, dedi."
+    }
+  ]
+}

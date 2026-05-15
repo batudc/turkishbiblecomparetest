@@ -1,1 +1,155 @@
-{"t":"AREMS","b":"LUK","c":17,"content":[{"v":1,"text":"O zaman öğrencilere dedi ki, Tökezlerin gelmesi kaçınılmaz; ama kimin aracılığıyla geliyorsa, vay onun haline!"},{"v":2,"text":"Şu küçüklerden birini sürçtürmektense, boynuna bir değirmen taşı asılıp denize atılması kendisi için daha iyi olur."},{"v":3,"text":"Kendinize dikkat edin; kardeşin sana karşı günah işlerse onu azarla; tövbe ederse onu bağışla."},{"v":4,"text":"Ve günde yedi kez sana karşı suç işler ve yedi kez sana geri gelip, Tövbe ediyorum, derse, onu bağışlayacaksın."},{"v":5,"text":"Ve elçiler Rab’be, İmanımızı artır, dediler."},{"v":6,"text":"Ve Rab dedi ki, Bir hardal tanesi gibi imanınız olsaydı, şu dut ağacına, Kökünden sökül ve denizin içine dikil, derdiniz; o da buyruğunuza uyardı."},{"v":7,"text":"Ama hangi birinizin çift süren ya da çobanlık eden bir kölesi olur da, tarladan dönüşünde ona hemen, Git, sofraya otur, der?"},{"v":8,"text":"Ama ona, Akşam yiyeceğimi hazırla, ve kuşağını bağla, ve ben yiyip içinceye dek bana hizmet et; ondan sonra da sen yiyip içersin, demez mi?"},{"v":9,"text":"Kendisine buyurulan şeyleri yaptığı için o köleye teşekkür eder mi? Ben sanmam."},{"v":10,"text":"Böylece aynı şekilde siz, size buyurulan tüm şeylerini yaptığınızda, Biz yararsız kullarız; yapmamız gerekeni yaptık, deyin."},{"v":11,"text":"Ve vaki oldu ki, Yeruşalim’e giderken Samiriye ile Celile’nin ortasından geçiyordu."},{"v":12,"text":"Ve köyün birine girdiği zaman, cüzamlı on adam uzakta durarak onu karşıladılar;"},{"v":13,"text":"Ve seslerini yükseltip, İsa, Üstat, bize merhamet et, dediler."},{"v":14,"text":"Ve onları görünce kendilerine, Gidin, kendinizi kâhinlere gösterin, dedi. Ve vaki oldu ki, onlar giderken temizlendiler."},{"v":15,"text":"Ve onlardan biri, iyileştiğini görünce geri döndü, ve yüksek sesle Allah’ı yüceltti,"},{"v":16,"text":"Ve yüzüstü O’nun ayaklarına kapanıp O’na teşekkür etti; ve o bir Samiriyeli’ydi."},{"v":17,"text":"Ve İsa cevap verip, Temizlenenler on kişi değil miydi? dedi; ama dokuzu nerede?"},{"v":18,"text":"Allah’ı yüceltmek için bu yabancıdan başka geri dönen olmadı."},{"v":19,"text":"Ve ona, Kalk, git, imanın seni iyileştirdi, dedi."},{"v":20,"text":"Ve Ferisiler tarafından, Allah’ın Krallığı ne zaman gelir diye kendisine sorulduğunda, onlara cevap verip dedi ki, Allah’ın Krallığı gözle"},{"v":21,"text":"görülür bir şekilde gelmez;"},{"v":22,"text":"Ne de, İşte burada! ya da, işte şurada! diyecekler, çünkü, işte, Allah’ın Krallığı içinizdedir."},{"v":23,"text":"Ve öğrencilere şöyle dedi: Günler gelecek ki, siz İnsanoğlu’nun günlerinden birini görmeyi özleyeceksiniz, ve görmeyeceksiniz."},{"v":24,"text":"Ve size, İşte burada, ya da, işte orada, diyecekler; gitmeyin, onların arkasından koşmayın."},{"v":25,"text":"Çünkü şimşek gök altındaki bir yanda çakıp gök altındaki öbür yanına kadar nasıl aydınlatırsa, İnsanoğlu kendi gününde öyle olacaktır."},{"v":26,"text":"Ama önce O’nun çok şeyler çekmesi ve bu kuşak tarafından reddedilmesi gerekir."},{"v":27,"text":"Ve Nuh’un günlerinde nasıl olduysa, İnsanoğlu’nun günlerinde de öyle olacak."},{"v":28,"text":"Nuh’un gemiye bindiği, tufanın gelip hepsini helâk ettiği güne dek yiyip içiyorlar, evlenip evlendiriliyorlardı."},{"v":29,"text":"Aynı şekilde Lut’un günlerinde olduğu gibi; yiyor, içiyor, satın alıyor, satıyor, ekiyor, bina ediyorlardı;"},{"v":30,"text":"Ama Lut’un Sodom’dan ayrıldığı gün gökten ateşle kükürt yağdı ve hepsini yok etti."},{"v":31,"text":"İnsanoğlu’nun açıklanacağı günde de böyle olacaktır."},{"v":32,"text":"O gün damda olup da eşyaları evde bulunan, onları almaya aşağı inmesin; bunun gibi, tarlada olan da geri dönmesin."},{"v":33,"text":"Lut’un karısını hatırlayın."},{"v":34,"text":"Her kim hayatını kurtarmak isterse, onu kaybedecektir; ve her kim hayatını kaybederse onu koruyacaktır."},{"v":35,"text":"Size derim ki, o gece bir yatakta iki adam bulunacak, biri alınacak, ve öbürü bırakılacak."},{"v":36,"text":"Birlikte değirmen çeken iki kadın olacak; biri alınacak, ve öbürü bırakılacak."},{"v":37,"text":"İki adam tarlada bulunacak; biri alınacak, ve öbürü bırakılacak."}]}
+{
+  "t": "AREMS",
+  "b": "LUK",
+  "c": 17,
+  "content": [
+    {
+      "v": 1,
+      "text": "O zaman öğrencilere dedi ki, Tökezlerin gelmesi kaçınılmaz; ama kimin aracılığıyla geliyorsa, vay onun haline!"
+    },
+    {
+      "v": 2,
+      "text": "Şu küçüklerden birini sürçtürmektense, boynuna bir değirmen taşı asılıp denize atılması kendisi için daha iyi olur."
+    },
+    {
+      "v": 3,
+      "text": "Kendinize dikkat edin; kardeşin sana karşı günah işlerse onu azarla; tövbe ederse onu bağışla."
+    },
+    {
+      "v": 4,
+      "text": "Ve günde yedi kez sana karşı suç işler ve yedi kez sana geri gelip, Tövbe ediyorum, derse, onu bağışlayacaksın."
+    },
+    {
+      "v": 5,
+      "text": "Ve elçiler Rab’be, İmanımızı artır, dediler."
+    },
+    {
+      "v": 6,
+      "text": "Ve Rab dedi ki, Bir hardal tanesi gibi imanınız olsaydı, şu dut ağacına, Kökünden sökül ve denizin içine dikil, derdiniz; o da buyruğunuza uyardı."
+    },
+    {
+      "v": 7,
+      "text": "Ama hangi birinizin çift süren ya da çobanlık eden bir kölesi olur da, tarladan dönüşünde ona hemen, Git, sofraya otur, der?"
+    },
+    {
+      "v": 8,
+      "text": "Ama ona, Akşam yiyeceğimi hazırla, ve kuşağını bağla, ve ben yiyip içinceye dek bana hizmet et; ondan sonra da sen yiyip içersin, demez mi?"
+    },
+    {
+      "v": 9,
+      "text": "Kendisine buyurulan şeyleri yaptığı için o köleye teşekkür eder mi? ben sanmam."
+    },
+    {
+      "v": 10,
+      "text": "Böylece aynı şekilde siz, size buyurulan tüm şeylerini yaptığınızda, Biz yararsız kullarız; yapmamız gerekeni yaptık, deyin."
+    },
+    {
+      "v": 11,
+      "text": "Ve vaki oldu ki, Yeruşalim’e giderken Samiriye ile Celile’nin ortasından geçiyordu."
+    },
+    {
+      "v": 12,
+      "text": "Ve köyün birine girdiği zaman, cüzamlı on adam uzakta durarak onu karşıladılar;"
+    },
+    {
+      "v": 13,
+      "text": "Ve seslerini yükseltip, İsa, Üstat, bize merhamet et, dediler."
+    },
+    {
+      "v": 14,
+      "text": "Ve onları görünce kendilerine, Gidin, kendinizi kahinlere gösterin, dedi. Ve vaki oldu ki, onlar giderken temizlendiler."
+    },
+    {
+      "v": 15,
+      "text": "Ve onlardan biri, iyileştiğini görünce geri döndü, ve yüksek sesle Allah’ı yüceltti,"
+    },
+    {
+      "v": 16,
+      "text": "Ve yüzüstü onun ayaklarına kapanıp ona teşekkür etti; ve o bir Samiriyeli’ydi."
+    },
+    {
+      "v": 17,
+      "text": "Ve İsa cevap verip, Temizlenenler on kişi değil miydi? dedi; ama dokuzu nerede?"
+    },
+    {
+      "v": 18,
+      "text": "Allah’ı yüceltmek için bu yabancıdan başka geri dönen olmadı."
+    },
+    {
+      "v": 19,
+      "text": "Ve ona, Kalk, git, imanın seni iyileştirdi, dedi."
+    },
+    {
+      "v": 20,
+      "text": "Ve Ferisiler tarafından, Allah’ın Krallığı ne zaman gelir diye kendisine sorulduğunda, onlara cevap verip dedi ki, Allah’ın Krallığı gözle görülür bir şekilde gelmez;"
+    },
+    {
+      "v": 21,
+      "text": "Ne de, İşte burada! ya da, işte şurada! diyecekler, çünkü, işte, Allah’ın Krallığı içinizdedir."
+    },
+    {
+      "v": 22,
+      "text": "Ve öğrencilere şöyle dedi: Günler gelecek ki, siz İnsanoğlu’nun günlerinden birini görmeyi özleyeceksiniz, ve görmeyeceksiniz."
+    },
+    {
+      "v": 23,
+      "text": "Ve size, İşte burada, ya da, işte orada, diyecekler; gitmeyin, onların arkasından koşmayın."
+    },
+    {
+      "v": 24,
+      "text": "Çünkü şimşek gök altındaki bir yanda çakıp gök altındaki öbür yanına kadar nasıl aydınlatırsa, İnsanoğlu kendi gününde öyle olacaktır."
+    },
+    {
+      "v": 25,
+      "text": "Ama önce onun çok şeyler çekmesi ve bu kuşak tarafından reddedilmesi gerekir."
+    },
+    {
+      "v": 26,
+      "text": "Ve Nuh’un günlerinde nasıl olduysa, İnsanoğlu’nun günlerinde de öyle olacak."
+    },
+    {
+      "v": 27,
+      "text": "Nuh’un gemiye bindiği, tufanın gelip hepsini helak ettiği güne dek yiyip içiyorlar, evlenip evlendiriliyorlardı."
+    },
+    {
+      "v": 28,
+      "text": "Aynı şekilde Lut’un günlerinde olduğu gibi; yiyor, içiyor, satın alıyor, satıyor, ekiyor, bina ediyorlardı;"
+    },
+    {
+      "v": 29,
+      "text": "Ama Lut’un Sodom’dan ayrıldığı gün gökten ateşle kükürt yağdı ve hepsini yok etti."
+    },
+    {
+      "v": 30,
+      "text": "İnsanoğlu’nun açıklanacağı günde de böyle olacaktır."
+    },
+    {
+      "v": 31,
+      "text": "O gün damda olup da eşyaları evde bulunan, onları almaya aşağı inmesin; bunun gibi, tarlada olan da geri dönmesin."
+    },
+    {
+      "v": 32,
+      "text": "Lut’un karısını hatırlayın."
+    },
+    {
+      "v": 33,
+      "text": "Her kim hayatını kurtarmak isterse, onu kaybedecektir; ve her kim hayatını kaybederse onu koruyacaktır."
+    },
+    {
+      "v": 34,
+      "text": "Size derim ki, o gece bir yatakta iki adam bulunacak, biri alınacak, ve öbürü bırakılacak."
+    },
+    {
+      "v": 35,
+      "text": "Birlikte değirmen çeken iki kadın olacak; biri alınacak, ve öbürü bırakılacak."
+    },
+    {
+      "v": 36,
+      "text": "İki adam tarlada bulunacak; biri alınacak, ve öbürü bırakılacak."
+    },
+    {
+      "v": 37,
+      "text": "Ve onlar cevap verip ona, Nerede, ya Rab? dediler. O da onlara, Leş neredeyse, kartallar da orada toplanacak, dedi."
+    }
+  ]
+}

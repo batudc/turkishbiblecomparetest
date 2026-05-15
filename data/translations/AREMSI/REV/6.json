@@ -1,1 +1,75 @@
-{"t":"AREMS","b":"REV","c":6,"content":[{"v":1,"text":"Ve Kuzu mühürlerin birini açtığı zaman, gördüm, ve dört yaratıktan birinin, gök gürültüsüne benzer bir sesle, Gel ve gör, dediğini işittim."},{"v":2,"text":"Ve gördüm, ve işte beyaz bir at; ve onun üzerine binmiş olanın bir yayı vardı; ve ona bir taç verildi; ve yenerek, ve yenmek için çıktı."},{"v":3,"text":"Ve ikinci mührü açtığı zaman, ikinci yaratığın, Gel ve gör, dediğini işittim."},{"v":4,"text":"Ve kızıl olan başka bir at çıktı; ve onun üzerine binmiş olana, yeryüzünden barışı kaldırma kudreti verildi, ve öyle ki, birbirlerini öldürsünler; ve ona büyük bir kılıç verildi."},{"v":5,"text":"Ve üçüncü mührü açtığı zaman, üçüncü yaratığın, Gel ve gör, dediğini işittim. Ve baktım, ve işte siyah bir at; ve onun üzerine binmiş olanın elinde bir terazi vardı."},{"v":6,"text":"Ve dört yaratığın ortasında bir sesin, Bir ölçek buğday bir dinara, ve üç ölçek arpa bir dinara; ve yağa ve şaraba zarar verme, dediğini işittim."},{"v":7,"text":"Ve dördüncü mührü açtığı zaman, dördüncü yaratığın sesinin, Gel ve gör, dediğini işittim."},{"v":8,"text":"Ve baktım, ve işte solgun bir at; ve onun üzerine binmiş olanın adı Ölüm’dü, ve Cehennem onunla birlikte ardından geliyordu. Ve bunlara kılıçla, ve açlıkla, ve ölümle, ve yeryüzünün vahşi hayvanlarıyla öldürmek için yeryüzünün dörtte biri üzerinde kudret verildi."},{"v":9,"text":"Ve beşinci mührü açtığı zaman, sunağın altında, Allah’ın sözü için ve kendilerinde bulunan tanıklık için öldürülmüş olanların canlarını gördüm."},{"v":10,"text":"Ve yüksek sesle bağırıp, Ya Rab, kutsal ve gerçek!, dediler, ne vakte kadar yargılamayacak ve yeryüzünde oturanlardan kanımızın öcünü almayacaksın?"},{"v":11,"text":"Ve onların her birine beyaz kaftanlar verildi; ve, kendileri gibi öldürülecek olan beraber kulluk edenlerin ve kardeşlerinin tamamlanmasına dek, kısa bir süre daha dinlenmeleri kendilerine söylendi."},{"v":12,"text":"Ve altıncı mührü açtığı zaman, gördüm, ve, işte, büyük deprem oldu; ve güneş kıldan çul gibi siyah oldu, ve ay kan gibi oldu;"},{"v":13,"text":"Ve göğün yıldızları, incir ağacı güçlü bir rüzgârla sarsıldığında ham incirlerini döktüğü gibi, yeryüzüne düştü."},{"v":14,"text":"Ve gök, dürülen bir tomar gibi çekildi; ve her dağ ve her ada yerinden kaldırıldı."},{"v":15,"text":"Ve yeryüzünün kralları, ve büyük adamlar, ve zengin adamlar, ve binbaşılar, ve güçlü adamlar, ve her köle, ve her özgür adam, mağaralarda ve dağların kayalarında gizlendiler;"},{"v":16,"text":"Ve dağlara ve kayalara, Üzerimize düşün, dediler, ve taht üzerinde oturanın yüzünden, ve Kuzu’nun gazabından bizi gizleyin;"},{"v":17,"text":"Çünkü O’nun gazabının büyük günü geldi; ve kim durabilir?"}]}
+{
+  "t": "AREMS",
+  "b": "REV",
+  "c": 6,
+  "content": [
+    {
+      "v": 1,
+      "text": "Ve Kuzu mühürlerin birini açtığı zaman, gördüm, ve dört yaratıktan birinin, gök gürültüsüne benzer bir sesle, Gel ve gör, dediğini işittim."
+    },
+    {
+      "v": 2,
+      "text": "Ve gördüm, ve işte beyaz bir at; ve onun üzerine binmiş olanın bir yayı vardı; ve ona bir taç verildi; ve yenerek, ve yenmek için çıktı."
+    },
+    {
+      "v": 3,
+      "text": "Ve ikinci mührü açtığı zaman, ikinci yaratığın, Gel ve gör, dediğini işittim."
+    },
+    {
+      "v": 4,
+      "text": "Ve kızıl olan başka bir at çıktı; ve onun üzerine binmiş olana, yeryüzünden barışı kaldırma kudreti verildi, ve öyle ki, birbirlerini öldürsünler; ve ona büyük bir kılıç verildi."
+    },
+    {
+      "v": 5,
+      "text": "Ve üçüncü mührü açtığı zaman, üçüncü yaratığın, Gel ve gör, dediğini işittim. Ve baktım, ve işte siyah bir at; ve onun üzerine binmiş olanın elinde bir terazi vardı."
+    },
+    {
+      "v": 6,
+      "text": "Ve dört yaratığın ortasında bir sesin, Bir ölçek buğday bir dinara, ve üç ölçek arpa bir dinara; ve yağa ve şaraba zarar verme, dediğini işittim."
+    },
+    {
+      "v": 7,
+      "text": "Ve dördüncü mührü açtığı zaman, dördüncü yaratığın sesinin, Gel ve gör, dediğini işittim."
+    },
+    {
+      "v": 8,
+      "text": "Ve baktım, ve işte solgun bir at; ve onun üzerine binmiş olanın adı Ölüm’dü, ve Cehennem onunla birlikte ardından geliyordu. Ve bunlara kılıçla, ve açlıkla, ve ölümle, ve yeryüzünün vahşi hayvanlarıyla öldürmek için yeryüzünün dörtte biri üzerinde kudret verildi."
+    },
+    {
+      "v": 9,
+      "text": "Ve beşinci mührü açtığı zaman, sunağın altında, Allah’ın sözü için ve kendilerinde bulunan tanıklık için öldürülmüş olanların canlarını gördüm."
+    },
+    {
+      "v": 10,
+      "text": "Ve yüksek sesle bağırıp, Ya Rab, kutsal ve gerçek!, dediler, ne vakte kadar yargılamayacak ve yeryüzünde oturanlardan kanımızın öcünü almayacaksın?"
+    },
+    {
+      "v": 11,
+      "text": "Ve onların her birine beyaz kaftanlar verildi; ve, kendileri gibi öldürülecek olan beraber kulluk edenlerin ve kardeşlerinin tamamlanmasına dek, kısa bir süre daha dinlenmeleri kendilerine söylendi."
+    },
+    {
+      "v": 12,
+      "text": "Ve altıncı mührü açtığı zaman, gördüm, ve, işte, büyük deprem oldu; ve güneş kıldan çul gibi siyah oldu, ve ay kan gibi oldu;"
+    },
+    {
+      "v": 13,
+      "text": "Ve göğün yıldızları, incir ağacı güçlü bir rüzgarla sarsıldığında ham incirlerini döktüğü gibi, yeryüzüne düştü."
+    },
+    {
+      "v": 14,
+      "text": "Ve gök, dürülen bir tomar gibi çekildi; ve her dağ ve her ada yerinden kaldırıldı."
+    },
+    {
+      "v": 15,
+      "text": "Ve yeryüzünün kralları, ve büyük adamlar, ve zengin adamlar, ve binbaşılar, ve güçlü adamlar, ve her köle, ve her özgür adam, mağaralarda ve dağların kayalarında gizlendiler;"
+    },
+    {
+      "v": 16,
+      "text": "Ve dağlara ve kayalara, Üzerimize düşün, dediler, ve taht üzerinde oturanın yüzünden, ve Kuzu’nun gazabından bizi gizleyin;"
+    },
+    {
+      "v": 17,
+      "text": "Çünkü onun gazabının büyük günü geldi; ve kim durabilir?"
+    }
+  ]
+}

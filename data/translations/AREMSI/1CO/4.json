@@ -1,1 +1,91 @@
-{"t":"AREMS","b":"1CO","c":4,"content":[{"v":1,"text":"Böylece, bir adam bizi Mesih’in hizmetkârları ve Allah’ın sırlarının kahyaları gibi saysın."},{"v":2,"text":"Üstelik kahyalarda aranan, bir adamın sadık bulunmasıdır."},{"v":3,"text":"Ama sizin tarafınızdan ya da insan yargısıyla yargılanmak benim için en küçük şeydir; kendi kendimi de yargılamıyorum."},{"v":4,"text":"Çünkü kendime karşı bir şey bilmiyorum; yine de bununla aklanmış değilim; ama beni yargılayan Rab’dir."},{"v":5,"text":"Bu nedenle vaktinden önce hiçbir şeyi yargılamayın, ta Rab gelinceye dek, O da karanlığın gizli şeylerini aydınlığa çıkaracak, ve yüreklerin fikirlerini belli edecek; ve o zaman her adam Allah’tan övgü alacak."},{"v":6,"text":"Ve, ey kardeşler, ben bu şeyleri sizin için kendime ve Apollos’a temsilen naklettim; öyle ki, yazılı olandan fazla insanlar hakkında düşünmemeyi bizden öğrenesiniz, ve sizden hiç kimse biri için diğerine karşı kabarmasın."},{"v":7,"text":"Çünkü kim seni başkasından farklı kılıyor? Ve almadığın neyin var? Şimdi eğer onu aldınsa, niçin onu almamış gibi övünüyorsun?"},{"v":8,"text":"Şimdi toksunuz, şimdi zenginsiniz, biz olmadan krallar gibi krallık sürdünüz; ve keşke gerçekten krallık sürseydiniz de, biz de sizinle birlikte krallık etseydik."},{"v":9,"text":"Çünkü ben sanırım ki Allah, biz elçileri ölüme mahkûm olanlar gibi en geri sırada sergiledi; çünkü biz dünyaya, ve meleklere, ve insanlara seyredilecek bir şey olduk."},{"v":10,"text":"Biz Mesih’in uğruna akılsızız, ama siz Mesih’te akıllısınız; biz zayıfız, ama siz güçlüsünüz; siz onurlusunuz, ama biz aşağı görülenleriz."},{"v":11,"text":"Bu saate dek açız, ve susuzuz, ve çıplağız, ve dövülüyoruz, ve evimiz barkımız yoktur."},{"v":12,"text":"Ve kendi ellerimizle çalışıp emek veriyoruz; sövülünce iyilik diliyoruz; zulmedilince katlanıyoruz;"},{"v":13,"text":"Aşağılanınca yalvarıyoruz; dünyanın süprüntüsü gibi olduk, ve bugüne dek tüm şeylerin kazıntısıyız."},{"v":14,"text":"Bu şeyleri sizi utandırmak için yazmıyorum, ama sevgili oğullarım gibi sizi uyarıyorum."},{"v":15,"text":"Çünkü Mesih’te on bin eğiticiniz olsa bile çok sayıda babanız yoktur; çünkü İncil aracılığıyla Mesih İsa’da ben sizi tevlit ettim."},{"v":16,"text":"Onun için size yalvarırım, bana uyan olun."},{"v":17,"text":"Bunun için Rab’be sadık olan sevgili oğlum Timoteos’u size gönderdim, o size, her yerde, her kilisede öğrettiğim gibi, Mesih’te olan yollarımı hatırlatacaktır."},{"v":18,"text":"Şimdi bazıları yanınıza gelmeyecekmişim gibi böbürlendiler."},{"v":19,"text":"Ama Rab isterse yakında yanınıza geleceğim, ve böbürlenenlerin sözünü değil, ama kudretini bileceğim."},{"v":20,"text":"Çünkü Allah’ın Krallığı sözde değil, ama kudrettedir."},{"v":21,"text":"Ne istiyorsunuz? Size değnekle mi geleyim, yoksa sevgi ve yumuşak ruhla mı?"}]}
+{
+  "t": "AREMS",
+  "b": "1CO",
+  "c": 4,
+  "content": [
+    {
+      "v": 1,
+      "text": "Böylece, bir adam bizi Mesih’in hizmetkarları ve Allah’ın sırlarının kahyaları gibi saysın."
+    },
+    {
+      "v": 2,
+      "text": "Üstelik kahyalarda aranan, bir adamın sadık bulunmasıdır."
+    },
+    {
+      "v": 3,
+      "text": "Ama sizin tarafınızdan ya da insan yargısıyla yargılanmak benim için en küçük şeydir; kendi kendimi de yargılamıyorum."
+    },
+    {
+      "v": 4,
+      "text": "Çünkü kendime karşı bir şey bilmiyorum; yine de bununla aklanmış değilim; ama beni yargılayan Rab’dır."
+    },
+    {
+      "v": 5,
+      "text": "Bu nedenle vaktinden önce hiçbir şeyi yargılamayın, ta Rab gelinceye dek, o da karanlığın gizli şeylerini aydınlığa çıkaracak, ve yüreklerin fikirlerini belli edecek; ve o zaman her adam Allah’tan övğü alacak."
+    },
+    {
+      "v": 6,
+      "text": "Ve, ey kardeşler, ben bu şeyleri sizin için kendime ve Apollos’a temsilen naklettim; öyle ki, yazılı olandan fazla insanlar hakkında düşünmemeyi bizde öğrenesiniz, ve sizden hiç kimse biri için diğerine karşı kabarmasın."
+    },
+    {
+      "v": 7,
+      "text": "Çünkü kim seni diğerlerden farklı kılıyor? ve almadığın neyin var? şimdi eğer aldınsa, niçin almamış gibi övünüyorsun?"
+    },
+    {
+      "v": 8,
+      "text": "Şimdi toksunuz, şimdi zenginsiniz, biz olmadan krallar gibi krallık sürdünüz; ve keşke gerçekten krallık sürseydiniz de, biz de sizinle birlikte krallık etseydik."
+    },
+    {
+      "v": 9,
+      "text": "Çünkü ben sanırım ki Allah, biz elçileri ölüme mahkum olanlar gibi en geri sırada sergiledi; çünkü biz dünyaya, ve meleklere, ve insanlara seyredilecek bir şey olduk."
+    },
+    {
+      "v": 10,
+      "text": "Biz Mesih’in uğruna akılsızız, ama siz Mesih’te akıllısınız; bir zayıfız, ama siz güçlüsünüz; siz onurlusunuz, ama biz aşağı görülenleriz."
+    },
+    {
+      "v": 11,
+      "text": "Bu saate dek açız, ve susuzuz, ve çıplağız, ve dövülüyoruz, ve evimiz barkımız yoktur."
+    },
+    {
+      "v": 12,
+      "text": "Ve kendi ellerimizle çalışıp emek veriyoruz; sövülünce iyilik diliyoruz; zulmedilince katlanıyoruz;"
+    },
+    {
+      "v": 13,
+      "text": "Aşağılanınca yalvarıyoruz; dünyanın süprüntüsü gibi olduk, ve şu ana dek tüm şeylerin kazıntısıyız."
+    },
+    {
+      "v": 14,
+      "text": "Bu şeyleri sizi utandırmak için yazmıyorum, ama sevgili oğullarım gibi sizi uyarıyorum."
+    },
+    {
+      "v": 15,
+      "text": "Çünkü Mesih’te on bin eğiticiniz olsa bile çok sayıda babanız yoktur; çünkü İncil aracılığıyla Mesih İsa’da ben sizi tevlit ettim."
+    },
+    {
+      "v": 16,
+      "text": "Onun için size yalvarırım ki, bana uyan olasınız."
+    },
+    {
+      "v": 17,
+      "text": "Bunun için Rab’be sadık olan sevgili oğlum Timoteos’u size gönderdim, o size, her yerde, her kilisede öğrettiğim gibi, Mesih’te olan yollarımı hatırlatacaktır."
+    },
+    {
+      "v": 18,
+      "text": "Şimdi bazıları yanınıza gelmeyecekmişim gibi böbürlendiler."
+    },
+    {
+      "v": 19,
+      "text": "Ama Rab isterse yakında yanınıza geleceğim, ve böbürlenenlerin sözünü değil, kudretini bileceğim."
+    },
+    {
+      "v": 20,
+      "text": "Çünkü Allah’ın Krallığı sözde değil, kudrettedir."
+    },
+    {
+      "v": 21,
+      "text": "Ne istiyorsunuz? size değnekle mi geleyim, yoksa sevgi ve yumuşak ruhla mı?"
+    }
+  ]
+}

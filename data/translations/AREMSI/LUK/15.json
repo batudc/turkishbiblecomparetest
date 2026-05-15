@@ -1,1 +1,135 @@
-{"t":"AREMS","b":"LUK","c":15,"content":[{"v":1,"text":"O zaman tüm vergi görevlileriyle günahkârlar O’nu dinlemek için yanına yaklaşıyorlardı."},{"v":2,"text":"Ve Ferisiler’le yazıcılar, Bu adam günahkârları kabul ediyor, ve onlara birlikte yemek yiyor, diye söyleniyorlardı."},{"v":3,"text":"Ve onlara şu benzetmeyi anlatarak dedi ki,"},{"v":4,"text":"Sizden hangi adamın yüz koyunu olur da, bunlardan bir tanesini kaybedince doksan dokuzunu bozkırda bırakarak kaybolanı buluncaya dek onun ardından gitmez?"},{"v":5,"text":"Onu bulunca da sevinç içinde omuzlarına alır."},{"v":6,"text":"Ve eve geldiğinde, arkadaşlarını ve komşularını çağırıp onlara, Benimle birlikte sevinin, çünkü kaybolan koyunumu buldum, der."},{"v":7,"text":"Size derim ki, aynı şekilde gökte, tövbe eden bir günahkâr için, tövbeyi gereksinmeyen doksan dokuz adil kişi için duyulandan daha büyük sevinç duyulacaktır."},{"v":8,"text":"Ya da hangi kadının on gümüş parası olur da bir tanesini kaybederse, ışık yakıp evi süpürmez, ve onu buluncaya dek dikkatle aramaz?"},{"v":9,"text":"Onu bulunca da arkadaşlarını ve komşularını çağırıp, Benimle birlikte sevinin, çünkü kaybettiğim parayı buldum, der."},{"v":10,"text":"Size derim ki, aynı şekilde, tövbe eden bir günahkâr için Allah’ın melekleri önünde sevinç duyulur."},{"v":11,"text":"Ve dedi ki, Bir adamın iki oğlu vardı;"},{"v":12,"text":"Ve bunlardan küçüğü babasına, Baba, malından payıma düşeni bana ver, dedi. O da varını onlara böldü."},{"v":13,"text":"Ve bundan birkaç gün sonra küçük oğul her şeyi toplayıp uzak bir ülkeye gitti, ve orada sefahat içinde bir yaşam sürerek malını telef etti."},{"v":14,"text":"Ve hepsini harcadıktan sonra, o ülkede şiddetli bir kıtlık çıktı; o da yokluk çekmeye başladı."},{"v":15,"text":"Ve gidip o ülkenin vatandaşlarından birine bağlandı; o da kendisini domuz gütmek üzere tarlalarına yolladı."},{"v":16,"text":"Ve domuzların yediği keçiboynuzlarıyla karnını doyurmak istiyor, ve hiçbir adam ona vermiyordu."},{"v":17,"text":"Ve aklı başına gelince dedi ki, Babamın nice işçisinin fazlasıyla ekmeği var, bense burada açlıktan mahvoluyorum!"},{"v":18,"text":"Kalkıp babama gideceğim, ve ona, Baba, diyeceğim, göğe karşı ve senin önünde günah işledim,"},{"v":19,"text":"Ve artık senin oğlun denilmeye layık değilim; beni işçilerinden biri gibi et."},{"v":20,"text":"Ve kalkıp babasına geldi. Ama henüz uzaktayken babası onu gördü, ve ona acıdı, ve koşup boynuna sarıldı, ve onu öptü."},{"v":21,"text":"Oğul da ona, Baba, dedi, göğe karşı ve senin önünde günah işledim, ben artık senin oğlun denilmeye layık değilim."},{"v":22,"text":"Ama baba kölelerine, En iyi kaftanı getirip ona giydirin, dedi; ve parmağına bir yüzük takın, ve ayaklarına ayakkabı giydirin;"},{"v":23,"text":"Ve besili danayı getirip kesin; ve yiyelim ve eğlenelim;"},{"v":24,"text":"Çünkü benim bu oğlum ölmüştü, ve yaşama döndü; kaybolmuştu, ve bulundu. Ve onlar eğlenmeye başladılar."},{"v":25,"text":"Şimdi onun büyük oğlu tarladaydı; ve gelip eve yaklaştığında çalgı ve oyun seslerini duydu."},{"v":26,"text":"Ve uşaklardan birini yanına çağırıp bu şeylerin ne demek olduğunu sordu."},{"v":27,"text":"O da ona, Kardeşin geldi; baban da onu sağ salim bulduğu için besili danayı kesti, dedi."},{"v":28,"text":"Ve o öfkelendi, ve içeri girmek istemedi; bunun üzerine, babası dışarı çıkıp ona yalvardı."},{"v":29,"text":"O da cevap verip babasına, Bak, bunca yıldır sana hizmet ediyorum, dedi, hiçbir zaman emrinden çıkmadım; ne var ki sen bana, arkadaşlarımla eğleneyim diye hiçbir zaman bir oğlak vermedin."},{"v":30,"text":"Oysa senin malını fahişelerle yiyen şu oğlun gelince, onun için besili danayı kestin."},{"v":31,"text":"Ve o ona, Oğul, sen her zaman benimle berabersin, dedi, ve neyim varsa senindir."},{"v":32,"text":"Sevinip eğlenmek gerekiyordu; çünkü bu kardeşin ölmüştü, ve yaşama döndü; ve kaybolmuştu, ve bulundu."}]}
+{
+  "t": "AREMS",
+  "b": "LUK",
+  "c": 15,
+  "content": [
+    {
+      "v": 1,
+      "text": "O zaman tüm vergi görevlileriyle günahkarlar onu dinlemek için yanına yaklaşıyorlardı."
+    },
+    {
+      "v": 2,
+      "text": "Ve Ferisiler’le yazıcılar, Bu adam günahkarları kabul ediyor, ve onlara birlikte yemek yiyor, diye söyleniyorlardı."
+    },
+    {
+      "v": 3,
+      "text": "Ve onlara şu benzetmeyi anlatarak dedi ki,"
+    },
+    {
+      "v": 4,
+      "text": "Sizden hangi adamın yüz koyunu olur da, bunlardan bir tanesini kaybedince doksan dokuzunu bozkırda bırakarak kaybolanı buluncaya dek onun ardından gitmez?"
+    },
+    {
+      "v": 5,
+      "text": "Onu bulunca da sevinç içinde omuzlarına alır."
+    },
+    {
+      "v": 6,
+      "text": "Ve eve geldiğinde, arkadaşlarını ve komşularını çağırıp onlara, Benimle birlikte sevinin, çünkü kaybolan koyunumu buldum, der."
+    },
+    {
+      "v": 7,
+      "text": "Size derim ki, aynı şekilde gökte, tövbe eden bir günahkar için, tövbeyi gereksinmeyen doksan dokuz adil kişi için duyulandan daha büyük sevinç duyulacaktır."
+    },
+    {
+      "v": 8,
+      "text": "Ya da hangi kadının on gümüş parası olur da bir tanesini kaybederse, ışık yakıp evi süpürmez, ve onu buluncaya dek dikkatle aramaz?"
+    },
+    {
+      "v": 9,
+      "text": "Onu bulunca da arkadaşlarını ve komşularını çağırıp, Benimle birlikte sevinin, çünkü kaybettiğim parayı buldum, der."
+    },
+    {
+      "v": 10,
+      "text": "Size derim ki, aynı şekilde, tövbe eden bir günahkar için Allah’ın melekleri önünde sevinç duyulur."
+    },
+    {
+      "v": 11,
+      "text": "Ve dedi ki, Bir adamın iki oğlu vardı;"
+    },
+    {
+      "v": 12,
+      "text": "Ve bunlardan küçüğü babasına, Baba, malından payıma düşeni bana ver, dedi. O da varını onlara böldü."
+    },
+    {
+      "v": 13,
+      "text": "Ve bundan birkaç gün sonra küçük oğul her şeyi toplayıp uzak bir ülkeye gitti, ve orada sefahat içinde bir yaşam sürerek malını telef etti."
+    },
+    {
+      "v": 14,
+      "text": "Ve hepsini harcadıktan sonra, o ülkede şiddetli bir kıtlık çıktı; o da yokluk çekmeye başladı."
+    },
+    {
+      "v": 15,
+      "text": "Ve gidip o ülkenin vatandaşlarından birine bağlandı; o da kendisini domuz gütmek üzere tarlalarına yolladı."
+    },
+    {
+      "v": 16,
+      "text": "Ve domuzların yediği keçiboynuzlarıyla karnını doyurmak istiyor, ve hiçbir adam ona vermiyordu."
+    },
+    {
+      "v": 17,
+      "text": "Ve aklı başına gelince dedi ki, Babamın nice işçisinin fazlasıyla ekmeği var, bense burada açlıktan mahvoluryorum!"
+    },
+    {
+      "v": 18,
+      "text": "Kalkıp babama gideceğim, ve ona, Baba, diyeceğim, göğe karşı ve senin önünde günah işledim,"
+    },
+    {
+      "v": 19,
+      "text": "Ve artık senin oğlun denilmeye layık değilim; beni işçilerinden biri gibi et."
+    },
+    {
+      "v": 20,
+      "text": "Ve kalkıp babasına geldi. Ama henüz uzaktayken babası onu gördü, ve ona acıdı, ve koşup boynuna sarılıdı, ve onu öptü."
+    },
+    {
+      "v": 21,
+      "text": "Oğul da ona, Baba, dedi, göge karşı ve senin önünde günah işledim, ben artık senin oğlun denilmeye layık değilim."
+    },
+    {
+      "v": 22,
+      "text": "Ama baba kölelerine, En iyi kaftanı getirip ona giydirin, dedi; ve parmağına bir yüzük takın, ve ayaklarına ayakkabı giydirin;"
+    },
+    {
+      "v": 23,
+      "text": "Ve besili danayı getirip kesin; ve yiyelim ve eğlenelim;"
+    },
+    {
+      "v": 24,
+      "text": "Çünkü benim bu oğlum ölmüştü, ve yaşama döndü; kaybolmuştu, ve bulundu. Ve onlar eğlenmeye başladılar."
+    },
+    {
+      "v": 25,
+      "text": "Şimdi onun büyük oğlu tarladaydı; ve gelip eve yaklaştığında çalgı ve oyun seslerini duydu."
+    },
+    {
+      "v": 26,
+      "text": "Ve uşaklardan birini yanına çağırıp bu şeylerin ne demek olduğunu sordu."
+    },
+    {
+      "v": 27,
+      "text": "O da ona, Kardeşin geldi; baban da onu sağ salim bulduğu için besili danayı kesti, dedi."
+    },
+    {
+      "v": 28,
+      "text": "Ve o öfkelendi, ve içeri girmek istemedi; bunun üzerine, babası dışarı çıkıp ona yalvardı."
+    },
+    {
+      "v": 29,
+      "text": "O da cevap verip babasına, Bak, bunca yıldır sana hizmet ediyorum, dedi, hiçbir zaman emrinden çıkmadım; ne var ki sen bana, arkadaşlarımla eğleneyim diye hiçbir zaman bir oğlak vermedin."
+    },
+    {
+      "v": 30,
+      "text": "Oysa senin malını fahişelerle yiyen şu oğlun gelince, onun için besili danayı kestin."
+    },
+    {
+      "v": 31,
+      "text": "Ve o ona, Oğul, sen her zaman benimle berabersin, dedi, ve neyim varsa senindir."
+    },
+    {
+      "v": 32,
+      "text": "Sevenip eğlenmek gerekiyordu; çünkü bu kardeşin ölmüştü, ve yaşama döndü; ve kaybolmuştu, ve bulundu."
+    }
+  ]
+}

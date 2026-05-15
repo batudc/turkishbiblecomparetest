@@ -1,1 +1,139 @@
-{"t":"AREMS","b":"ROM","c":9,"content":[{"v":1,"text":"Mesih’te gerçeği söylüyorum, yalan söylemiyorum, vicdanım da bana Kutsal Ruh’ta tanıklık ediyor ki,"},{"v":2,"text":"Büyük kederim ve yüreğimde dinmeyen bir acı var."},{"v":3,"text":"Çünkü kardeşlerim, et bedene göre soydaşlarım uğruna, ben kendim lanetlenip Mesih’ten yoksun olmayı dilerdim;"},{"v":4,"text":"Onlar İsrailliler’dir; oğulluk, ve yücelik, ve antlaşmalar, ve yasanın verilmesi, ve Allah’ın hizmeti, ve vaatler onlara aittir."},{"v":5,"text":"Atalar onlarındır, Mesih de et bedene göre onlardandır, O her şeyin üzerinde, sonsuza dek kutlu olan Allah’tır. Amin."},{"v":6,"text":"Ama Allah’ın sözü boşa çıktı demek değildir. Çünkü İsrail’den olanların hepsi İsrail değildir;"},{"v":7,"text":"Ve İbrahim’in tohumu oldukları için hepsi çocuklar değil; ama, Senin tohumun İshak’ta çağrılacaktır."},{"v":8,"text":"Demek ki, Et bedenin çocukları olanlar Allah’ın çocukları değildir; ama vaadin çocukları tohum için sayılır."},{"v":9,"text":"Çünkü vaadin sözü şudur: Bu vakitte geleceğim, ve Sara’nın bir oğlu olacak."},{"v":10,"text":"Ve yalnız bu değil, ama Rebeka da birinden, yani atamız İshak’tan gebe kaldığı zaman,"},{"v":11,"text":"(Çünkü çocuklar henüz doğmamış, iyi ya da kötü bir şey yapmamışken, Allah’ın amacı seçime göre, işlerden değil, ama çağırandan kalsın diye,)"},{"v":12,"text":"Ona, Büyüğü küçüğüne kulluk edecek, denildi."},{"v":13,"text":"Yazılmış olduğu gibi, Yakup’u sevdim, Esav’dan ise nefret ettim."},{"v":14,"text":"Öyleyse ne diyelim? Allah indinde haksızlık mı var? Allah korusun."},{"v":15,"text":"Çünkü Musa’ya diyor ki, Merhamet etmek istediğime merhamet edeceğim, ve acımak istediğime acıyacağım."},{"v":16,"text":"Demek ki ne isteyenden, ne de çabalayandan değil, ama merhamet eden Allah’tandır."},{"v":17,"text":"Çünkü Yazı Firavun’a diyor ki, Gücümü sende göstereyim ve adım tüm yeryüzünde duyurulsun diye, işte, seni bu amaçla yükselttim."},{"v":18,"text":"Demek ki, merhamet etmek istediğine merhamet eder, ve istediğini katılaştırır."},{"v":19,"text":"O zaman bana, Neden hâlâ kusur buluyor? Çünkü O’nun isteğine kim karşı durmuştur? diyeceksin."},{"v":20,"text":"Hayır, ama, ey insan sen kimsin ki Allah’a karşı cevap veriyorsun? Kendisine biçim verilen, biçim verene, Beni neden böyle yaptın? der mi?"},{"v":21,"text":"Aynı yığından bir kabı saygı için ve bir başkasını saygısızlık için yapmaya çömlekçinin balçık üzerinde kudreti yok mu?"},{"v":22,"text":"Eğer Allah kendi gazabını göstermek ve gücünü bildirmek isterken mahvolmaya hazırlanmış gazap kaplarına çok sabırla katlandıysa,"},{"v":23,"text":"Ve yüceliğe önce hazırladığı merhamet kapları üzerine,"},{"v":24,"text":"Yani, yalnız Yahudiler’den değil, ama Centiller’den de, çağırdığı bizim üzerimize kendi yüceliğinin zenginliğini bildirmek istediyse, ne diyelim?"},{"v":25,"text":"Nitekim Hoşea’da da diyor ki, Halkım olmayana halkım, sevgili olmayana sevgili diyeceğim."},{"v":26,"text":"Ve vaki olacak ki, onlara, Halkım değilsiniz, denildiği yerde, orada diri olan Allah’ın çocukları diye adlandırılacaklar."},{"v":27,"text":"İşaya da İsrail hakkında bağırıyor: İsrail çocuklarının sayısı denizin kumu kadar olsa da, bir bakiye kurtulacaktır."},{"v":28,"text":"Çünkü işi bitirip doğrulukta kısa kesecektir; çünkü Rab yeryüzünde kısa bir iş yapacaktır."},{"v":29,"text":"Ve İşaya’nın önceden dediği gibi: Eğer orduların Rabbi bize bir tohum bırakmamış olsaydı, Sodom gibi olur, Gomorra’ya benzerdik."},{"v":30,"text":"Öyleyse ne diyelim? Doğruluk peşinde olmayan Centiller, doğruluğa, yani imandan gelen doğruluğa kavuştular."},{"v":31,"text":"Ama doğruluk yasası ardından giden İsrail doğruluk yasasına erişmedi."},{"v":32,"text":"Neden? Çünkü imanla değil, ama yasanın işleriyle olurmuş gibi aradılar. Çünkü o tökezleme taşında tökezlediler;"},{"v":33,"text":"Yazılmış olduğu gibi: İşte Sion’da bir tökezleme taşı ve bir sürçme kayası koyuyorum; ve O’na iman eden utanmayacaktır."}]}
+{
+  "t": "AREMS",
+  "b": "ROM",
+  "c": 9,
+  "content": [
+    {
+      "v": 1,
+      "text": "Mesih’te gerçeği söylüyorum, yalan söylemiyorum, vicdanım da bana Kutsal Ruh’ta tanıklık ediyor ki,"
+    },
+    {
+      "v": 2,
+      "text": "Büyük kederim ve yüreğimde dinmeyen bir acı var."
+    },
+    {
+      "v": 3,
+      "text": "Çünkü kardeşlerim, etbedene göre soydaşlarım uğruna, ben kendim lanetlenip Mesih’ten yoksun olmayı dilerdim;"
+    },
+    {
+      "v": 4,
+      "text": "Onlar İsrailliler’dir; oğulluk, ve yücelik, ve antlaşmalar, ve yasanın verilmesi, ve Allah’ın hizmeti, ve vaatler onlara aittir."
+    },
+    {
+      "v": 5,
+      "text": "Atalar onlarındır, Mesih de etbedene göre onlardandır, o her şeyin üzerinde, sonsuza dek kutlu olan Allah’tır. Amin."
+    },
+    {
+      "v": 6,
+      "text": "Ama Allah’ın sözü boşa çıktı demek değildir. Çünkü İsrail’den olanların hepsi İsrail değildir;"
+    },
+    {
+      "v": 7,
+      "text": "Ve İbrahim’in tohumu oldukları için hepsi çocuklar değil; ama, Senin tohumun İshak’ta çağrılacaktır."
+    },
+    {
+      "v": 8,
+      "text": "Demek ki, Etbedenin çocukları olanlar Allah’ın çocukları değildir; ama vaadin çocukları tohum için sayılır."
+    },
+    {
+      "v": 9,
+      "text": "Çünkü vaadin sözü şudur: Bu vakitte geleceğim, ve Sara’nın bir oğlu olacak."
+    },
+    {
+      "v": 10,
+      "text": "Ve yalnız bu değil, Rebeka da birinden, yani atamız İshak’tan gebe kaldığı zaman,"
+    },
+    {
+      "v": 11,
+      "text": "(Çünkü çocuklar henüz doğmamış, iyi ya da kötü bir şey yapmamışken, Allah’ın amacı seçime göre, işlerden değil, çağırandan kalsın diye,)"
+    },
+    {
+      "v": 12,
+      "text": "Ona, Büyüğü küçüğüne kulluk edecek, denildi."
+    },
+    {
+      "v": 13,
+      "text": "Yazılmış olduğu gibi, Yakup’u sevdim, Esav’dan ise nefret ettim."
+    },
+    {
+      "v": 14,
+      "text": "Öyleyse ne diyelim? Allah indinde haksızlık mı var? Allah korusun."
+    },
+    {
+      "v": 15,
+      "text": "Çünkü Musa’ya diyor ki, Merhamet etmek istediğime merhamet edeceğim, ve acımak istediğime acıyacağım."
+    },
+    {
+      "v": 16,
+      "text": "Demek ki ne isteyenden, ne de koşandan değil, merhamet eden Allah’tandır."
+    },
+    {
+      "v": 17,
+      "text": "Çünkü Yazı Firavun’a diyor ki, Gücümü sende göstereyim ve adım tüm yeryüzünde duyurulsun diye, işte, seni bu amaçla yükselttim."
+    },
+    {
+      "v": 18,
+      "text": "Demek ki, merhamet etmek istediğine merhamet eder, ve istediğini katılaştırır."
+    },
+    {
+      "v": 19,
+      "text": "O zaman bana, Neden hala kusur buluyor? çünkü onun isteğine kim karşı durmuştur? diyeceksin."
+    },
+    {
+      "v": 20,
+      "text": "Hayır, ama, ey insan sen kimsin ki Allah’a karşı cevap veriyorsun? Kendisine biçim verilen, biçim verene, Beni neden böyle yaptın? der mi?"
+    },
+    {
+      "v": 21,
+      "text": "Aynı yığından bir kabı saygı için ve bir başkasını saygısızlık için yapmaya çömlekçinin balçık üzerinde kudreti yok mu?"
+    },
+    {
+      "v": 22,
+      "text": "Eğer Allah kendi gazabını göstermek ve gücünü bildirmek isterken mahvolmaya hazırlanmış gazap kaplarına çok sabırla katlandıysa,"
+    },
+    {
+      "v": 23,
+      "text": "Ve yüceliğe önce hazırladığı merhamet kapları üzerine,"
+    },
+    {
+      "v": 24,
+      "text": "Yani, yalnız Yahudiler’den değil, Centiller’den de, çağırdığı bizim üzerimize kendi yüceliğinin zenginliğini bildirmek istediyse, ne diyelim?"
+    },
+    {
+      "v": 25,
+      "text": "Nitekim Hoşea’da da diyor ki, Halkım olmayana halkım, sevgili olmayana sevgili diyeceğim."
+    },
+    {
+      "v": 26,
+      "text": "Ve vaki olacak ki, onlara, Halkım değilsiniz, denildiği yerde, orada diri olan Allah’ın çocukları diye adlandırılacaklar."
+    },
+    {
+      "v": 27,
+      "text": "İşaya da İsrail hakkında bağırıyor: İsrail çocuklarının sayısı denizin kumu kadar olsa da, bir bakiye kurtulacaktır."
+    },
+    {
+      "v": 28,
+      "text": "Çünkü işi bitirip doğrulukta kısa kesecektir; çünkü Rab yeryüzünde kısa bir iş yapacaktır."
+    },
+    {
+      "v": 29,
+      "text": "Ve İşaya’nın önceden dediği gibi: Eğer orduların Rabbi bize bir tohum bırakmamış olsaydı, Sodom gibi olur, Gomorra’ya benzerdik."
+    },
+    {
+      "v": 30,
+      "text": "Öyleyse ne diyelim? Doğruluk peşinde olmayan Centiller, doğruluğa, yani imandan gelen doğruluğa kavuştular."
+    },
+    {
+      "v": 31,
+      "text": "Ama doğruluk yasası ardından giden İsrail doğruluk yasasına erişmedi."
+    },
+    {
+      "v": 32,
+      "text": "Neden? çünkü imanla değil, yasanın işleriyle olurmuş gibi aradılar. Çünkü o tökezleme taşında tökezlendiler;"
+    },
+    {
+      "v": 33,
+      "text": "Yazılmış olduğu gibi: İşte Sion’da bir tökezleme taşı ve bir sürçme kayası koyuyorum; ve ona iman eden utanmayacaktır."
+    }
+  ]
+}

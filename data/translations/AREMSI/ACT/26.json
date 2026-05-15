@@ -1,1 +1,135 @@
-{"t":"AREMS","b":"ACT","c":26,"content":[{"v":1,"text":"O zaman Agrippa Pavlus’a, Kendin için konuşmana izin var, dedi. O zaman Pavlus elini uzatarak kendisi için cevap verdi:"},{"v":2,"text":"Kral Agrippa, Yahudiler’in beni suçladıkları tüm sorunlarla ilgili olarak savunmamı bugün senin önünde yapacağım için kendimi mutlu sayıyorum;"},{"v":3,"text":"Özellikle senin Yahudiler’in tüm törelerini ve sorunlarını bilen biri olduğunu bildiğim için; bu nedenle beni sabırla dinlemeni rica ediyorum."},{"v":4,"text":"Tüm Yahudiler, gençliğimden beri, başlangıçtan ulusum arasında Yeruşalim’de geçen yaşamımı bilirler."},{"v":5,"text":"Beni eskiden beri tanırlar ve isteseler, dinimizin en titiz mezhebine göre bir Ferisi olarak yaşamış olduğuma tanıklık edebilirler."},{"v":6,"text":"Ve şimdi Allah tarafından atalarımıza verilen vaadin umudundan dolayı burada bulunmakta ve yargılanmaktayım;"},{"v":7,"text":"Bu, on iki oymağımızın gece gündüz Allah’a içtenlikle kulluk ederek erişmeyi umdukları vaattir. Bu umuttan ötürü, Kral Agrippa, Yahudiler tarafından suçlanıyorum."},{"v":8,"text":"Allah’ın ölüleri diriltmesi sizce neden inanılmaz bir şey sayılıyor?"},{"v":9,"text":"Doğrusu ben de Nasıralı İsa’nın adına karşı çok şeyler yapmam gerektiğini sanmıştım."},{"v":10,"text":"Bunu da Yeruşalim’de yaptım; ve başkâhinlerden aldığım yetkiyle kutsallardan birçoğunu hapishaneye kapattım; öldürüldükleri zaman oyumu onların aleyhinde kullandım."},{"v":11,"text":"Ve her havrada onları birçok kez cezalandırır, ve sövmeye zorlardım; ve onlara karşı öylesine kudurmuştum ki, yabancı kentlere kadar bile onlara zulmederdim."},{"v":12,"text":"Bu arada başkâhinler tarafından yetki ve görevle Damaskus’a giderken,"},{"v":13,"text":"Ey kral, öğleyin yolda gökten benim ve yol arkadaşlarımın çevresini aydınlatan, güneşten daha parlak bir ışık gördüm."},{"v":14,"text":"Ve hepimiz yere düşünce, bir sesin bana İbrani dilinde seslendiğini duydum. Saul, Saul, neden bana zulmediyorsun? dedi; üvendireye karşı tepmek senin için güçtür."},{"v":15,"text":"Ben de, Sen kimsin, ya Rab? dedim. Ve o, Ben senin zulmettiğin İsa’yım, dedi."},{"v":16,"text":"Ama kalk, ve ayakta dur; çünkü, hem gördüğün şeylere, hem de sana görüneceğim şeylere seni hizmetkâr ve tanık atamak için sana göründüm;"},{"v":17,"text":"Seni halktan ve Centiller’den azat edeceğim, şimdi seni onlara gönderiyorum;"},{"v":18,"text":"Öyle ki, onların gözlerini açıp onları karanlıktan ışığa ve Şeytan’ın kudretinden Allah’a döndüresin de günahların bağışlanmasına kavuşsunlar ve bana olan imanla kutsal kılınanlar arasında miras alsınlar."},{"v":19,"text":"Bunun için, Kral Agrippa, göksel görüme karşı söz dinlemezlik etmedim;"},{"v":20,"text":"Ama önce Damaskus’ta, ve Yeruşalim’de, ve tüm Yahudiye bölgesindekilere, sonra da Centiller’e, tövbe edip Allah’a dönmeleri ve tövbeye yaraşır işler yapmalarını bildirdim."},{"v":21,"text":"Bu sebeplerden ötürü Yahudiler beni tapınakta yakalayıp öldürmek istediler."},{"v":22,"text":"Ama Allah’tan gelen yardımla bugüne dek büyük küçük herkese tanıklıkta bulunup peygamberlerle Musa’nın olacağını söyledikleri şeylerden başka bir şey söylemiyorum;"},{"v":23,"text":"Onlar, Mesih’in elem çekeceğini, ölüler arasından dirilen ilk kişi olarak halka ve Centiller’e ışık göstereceğini bildirmişlerdi."},{"v":24,"text":"Ve kendisi için böylece konuşurken, Festus yüksek sesle, Çıldırıyorsun, Pavlus! Çok okumak seni delirtiyor, dedi."},{"v":25,"text":"Ama o, Erdemli Festus, deli değilim, dedi; ama gerçek ve akla uygun sözler söylüyorum."},{"v":26,"text":"Önünde hiç çekinmeden konuştuğum kral da bu şeyleri bilir; çünkü bu şeylerden hiçbiri gözünden kaçmadığı kanısındayım; çünkü bu şey bir"},{"v":27,"text":"köşede yapılmamıştır."},{"v":28,"text":"Kral Agrippa, peygamberlere inanır mısın? İnandığını biliyorum."},{"v":29,"text":"O zaman Agrippa Pavlus’a, Az kaldı beni ikna edip Mesihçi yapacaksın, dedi."},{"v":30,"text":"Pavlus da, Allah’tan dilerim ki yalnız sen değil, bugün beni dinleyen herkes, hem az hem de çoktan bu zincirler dışında benim gibi olsun, dedi."},{"v":31,"text":"Ve bunları söyledikten sonra kral, ve vali, ve Berniki, ve onlarla birlikte oturanlar ayağa kalktılar;"},{"v":32,"text":"Ve bir yana çekilip birbiriyle konuştular, Bu adam ölüm ya da bağlara değer hiçbir şey yapmış değildir, dediler."}]}
+{
+  "t": "AREMS",
+  "b": "ACT",
+  "c": 26,
+  "content": [
+    {
+      "v": 1,
+      "text": "O zaman Agrippa Pavlus’a, Kendin için konuşmana izin var, dedi. O zaman Pavlus elini uzatarak kendisi için cevap verdi:"
+    },
+    {
+      "v": 2,
+      "text": "Kral Agrippa, Yahudiler’in beni suçladıkları tüm sorunlarla ilgili olarak savunmamı bugün senin önünde yapacağım için kendimi mutlu sayıyorum;"
+    },
+    {
+      "v": 3,
+      "text": "Özellikle senin Yahudiler’in tüm törelerini ve sorunlarını bilen biri olduğunu bildiğim için; bu nedenle beni sabırla dinlemeni rica ediyorum."
+    },
+    {
+      "v": 4,
+      "text": "Tüm Yahudiler, gençliğimden beri, başlangıçtan ulusum arasında Yeruşalim’de geçen yaşamımı bilirler."
+    },
+    {
+      "v": 5,
+      "text": "Beni eskiden beri tanırlar ve isteseler, dinimizin en titiz mezhebine göre bir Ferisi olarak yaşamış olduğuma tanıklık edebilirler."
+    },
+    {
+      "v": 6,
+      "text": "Ve şimdi Allah tarafından atalarımıza verilen vaadin umudundan dolayı burada bulunmakta ve yargılanmaktayım;"
+    },
+    {
+      "v": 7,
+      "text": "Bu, on iki oymağımızın gece gündüz Allah’a içtenlikle kulluk ederek erişmeyi umdukları vaattir. Bu umuttan ötürü, Kral Agippa, Yahudiler tarafından suçlanıyorum."
+    },
+    {
+      "v": 8,
+      "text": "Allah’ın ölüleri diriltmesi sizce neden inanılmaz bir şey sayılıyor?"
+    },
+    {
+      "v": 9,
+      "text": "Doğrusu ben de Nasıralı İsa’nın adına karşı çok şeyler yapmam gerektiğini sanmıştım."
+    },
+    {
+      "v": 10,
+      "text": "Bunu da Yeruşalim’de yaptım; ve başkahinlerden aldığım yetkiyle kutsallardan birçoğunu hapishaneye kapattım; öldürüldükleri zaman oyumu onların aleyhinde kullandım."
+    },
+    {
+      "v": 11,
+      "text": "Ve her havrada onları birçok kez cezalandırır, ve sövmeye zorlardım; ve onlara karşı öylesine kudurmuştum ki, yabancı kentlere kadar bile onlara zulmederdim."
+    },
+    {
+      "v": 12,
+      "text": "Bu arada başkahinler tarafından yetki ve görevle Damaskus’a giderken,"
+    },
+    {
+      "v": 13,
+      "text": "Ey kral, öğleyin yolda gökten benim ve yol arkadaşlarımın çevresini aydınlatan, güneşten daha parlak bir ışık gördüm."
+    },
+    {
+      "v": 14,
+      "text": "Ve hepimiz yere düşünce, bir sesin bana İbrani dilinde seslendiğini duydum. Saul, Saul, neden bana zulmediyorsun? dedi; üvendireye karşı tepmek senin için güçtür."
+    },
+    {
+      "v": 15,
+      "text": "Ben de, Sen kimsin, ya Rab? dedim. Ve o, Ben senin zulmettiğin İsa’yım, dedi."
+    },
+    {
+      "v": 16,
+      "text": "Ama kalk, ve ayakta dur; çünkü, hem gördüğün şeylere, hem de sana görüneceğim şeylere seni hizmetkar ve tanık atamak için sana göründüm;"
+    },
+    {
+      "v": 17,
+      "text": "Seni halktan ve Centiller’den azat edeceğim, şimdi seni onlara gönderiyorum;"
+    },
+    {
+      "v": 18,
+      "text": "Öyle ki, onların gözlerini açıp onları karanlıktan ışığa ve Şeytan’ın kudretinden Allah’a döndüresin de günahların bağışlanmasına kavuşsunlar ve bana olan imanla kutsal kılınanlar arasında miras alsınlar."
+    },
+    {
+      "v": 19,
+      "text": "Bunun için, Kral Agrippa, göksel görüme karşı sözdinlemezlik etmedim;"
+    },
+    {
+      "v": 20,
+      "text": "Ama önce Damaskus’ta, ve Yeruşalim’de, ve tüm Yahudiye bölgesindekilere, sonra da Centiller’e, tövbe edip Allah’a dönmeleri ve tövbeye yaraşır işler yapmalarını bildirdim."
+    },
+    {
+      "v": 21,
+      "text": "Bu sebeplerden ötürü Yahudiler beni tapınakta yakalayıp öldürmek istediler."
+    },
+    {
+      "v": 22,
+      "text": "Ama Allah’tan gelen yardımla bugüne dek büyük küçük herkese tanıklıkta bulunup peygamberlerle Musa’nın olacağını söyledikleri şeylerden başka bir şey söylemiyorum;"
+    },
+    {
+      "v": 23,
+      "text": "Onlar, Mesih’in elem çekeceğini, ölüler arasından dirilen ilk kişi olarak halka ve Centiller’e ışık göstereceğini bildirmişlerdi."
+    },
+    {
+      "v": 24,
+      "text": "Ve kendisi için böylece konuşurken, Festus yüksek sesle, Çıldırıyorsun, Pavlus! çok okumak seni delirtiyor, dedi."
+    },
+    {
+      "v": 25,
+      "text": "Ama o, Erdemli Festus, deli değilim, dedi; ama gerçek ve akla uygun sözler söylüyorum."
+    },
+    {
+      "v": 26,
+      "text": "Önünde hiç çekinmeden konuştuğum kral da bu şeyleri bilir; çünkü bu şeylerden hiçbiri gözünden kaçmadığı kanısındayım; çünkü bu şey bir köşede yapılmamıştır."
+    },
+    {
+      "v": 27,
+      "text": "Kral Agrippa, peygamberlere inanır mısın? İnandığını biliyorum."
+    },
+    {
+      "v": 28,
+      "text": "O zaman Agrippa Pavlus’a, Az kaldı beni ikna edip Mesihçi yapacaksın, dedi."
+    },
+    {
+      "v": 29,
+      "text": "Pavlus da, Allah’tan dilerim ki yalnız sen değil, bugün beni dinleyen herkes, hem az hem de çoktan bu zincirler dışında benim gibi olsun, dedi."
+    },
+    {
+      "v": 30,
+      "text": "Ve bunları söyledikten sonra kral, ve vali, ve Berniki, ve onlarla birlikte oturanlar ayağa kalktılar;"
+    },
+    {
+      "v": 31,
+      "text": "Ve bir yana çekilip birbiriyle konuştular, Bu adam ölüm ya da bağlara değer hiçbir şey yapmış değildir, dediler."
+    },
+    {
+      "v": 32,
+      "text": "O zaman Agrippa Festus’a, Sezar’a başvurmamış olsaydı, bu adam serbest bırakılabilirdi, dedi."
+    }
+  ]
+}

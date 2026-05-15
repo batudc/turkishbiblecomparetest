@@ -1,1 +1,107 @@
-{"t":"AREMS","b":"1PE","c":2,"content":[{"v":1,"text":"Bu nedenle tüm kötü niyetini, ve tüm hileyi, ve iki yüzlülükleri, ve kıskançlıkları, ve tüm kötü konuşmaları bırakarak"},{"v":2,"text":"Yeni doğmuş çocuklar gibi, sözün saf sütünü özleyin ki, bununla büyüyesiniz;"},{"v":3,"text":"Eğer Rab’bin lütufkâr olduğunu tattınızsa."},{"v":4,"text":"O'na, yani insanlar tarafından reddedilmiş, ama Allah tarafından seçilmiş, kıymetli, diri taşa gibi yanaşarak,"},{"v":5,"text":"Siz de, İsa Mesih aracılığıyla Allah’a makbul ruhanî kurbanlar sunmak için, diri taşlar gibi ruhanî ev, kutsal kâhinlik olmak üzere bina edildiniz."},{"v":6,"text":"Bu nedenle de Yazı’da şöyle bulunur: İşte, Sion’da köşe başı bir seçilmiş kıymetli taş koyuyorum; O’na iman eden utandırılmayacaktır."},{"v":7,"text":"Bu nedenle siz iman edenlere kıymetlidir; ama yapıcıların reddettikleri taş, söz dinlemezlere, yani sözdinlemezlik ederek sözde tökezleyenlere,"},{"v":8,"text":"Ki bunun için atanmışlardır, köşenin başı, ve tökezleme taşı, ve sürçme kayası oldu."},{"v":9,"text":"Ama siz seçme nesil, melîkâne kâhinlik, kutsal ulus, has halkısınız; öyle ki, sizi karanlıktan kendisinin şaşılacak ışığına çağıranın övgülerini"},{"v":10,"text":"bildiresiniz;"},{"v":11,"text":"Bir zamanlar halk değildiniz, ama şimdi Allah’ın halkısınız; merhamete kavuşmamıştınız; ama şimdi merhamete kavuştunuz."},{"v":12,"text":"Sevgili kardeşler, size gariplere ve konuklara gibi yalvarırım, cana karşı savaşan et bedensel tutkulardan çekinin;"},{"v":13,"text":"Centiller arasında dürüst yaşayışınız olsun; öyle ki, aleyhinize kötülük işleyenler diye söyledikleri yerde, görecekleri iyi işlerinizle, ziyaret gününde Allah’a yücelik versinler."},{"v":14,"text":"Rab için her insanî nizama boyun eğin, gerek krala, nitekim en büyüktür;"},{"v":15,"text":"Gerek valilere, nitekim kötülük edenlerin cezası için ve iyilik edenlerin övgüsü için O’nun tarafından gönderilmiş oldular."},{"v":16,"text":"Çünkü Allah’ın isteği şöyledir: özgür gibi, özgürlüğünüzü de kötülük örtüsü için değil,"},{"v":17,"text":"Ama Allah’ın kulları gibi kullanarak iyilik etmekle akılsız insanların bilgisizliğini susturasınız."},{"v":18,"text":"Tüm insanlara saygı gösterin. Kardeşliği sevin. Allah’tan korkun. Krala saygı gösterin."},{"v":19,"text":"Ey köleler, efendilerinize tüm korkuyla boyun eğin; yalnız iyilere ve yumuşak huylu olanlara değil, ama ters huylu olanlara da."},{"v":20,"text":"Çünkü eğer bir adam haksız yere elem çekerek Allah’a karşı vicdandan ötürü üzüntüye dayanırsa, bu makbuldür."},{"v":21,"text":"Çünkü kabahat işleyip yumruklandığınız zaman sabrederseniz, bunda övülecek ne var? Ama eğer iyilik ederek elem çekip sabrederseniz, bu Allah indinde makbuldür."},{"v":22,"text":"Çünkü zaten bunun için çağrıldınız; zira Mesih de, kendi izleri ardınca gidesiniz diye, bize bir örnek bırakarak bizim içim elem çekti."},{"v":23,"text":"O, günah işlemedi, ve ağzında hile bulunmadı;"},{"v":24,"text":"Küfredildiği zaman, ona karşı küfretmezdi; elem çektiği zaman tehdit etmezdi; ama doğruluk üzere yargılayana kendisini teslim ederdi;"},{"v":25,"text":"Biz günahlara ölmüş olarak doğruluğa yaşayalım diye, kendisi kendi bedeninde ağaç üzerinde günahlarımızı taşıdı; O’nun bereleriyle şifa buldunuz."}]}
+{
+  "t": "AREMS",
+  "b": "1PE",
+  "c": 2,
+  "content": [
+    {
+      "v": 1,
+      "text": "Bu nedenle tüm kötü niyetini, ve tüm hileyi, ve iki yüzlülükleri, ve kıskançlıkları, ve tüm kötü konuşmaları bırakarak"
+    },
+    {
+      "v": 2,
+      "text": "Yeni doğmuş çocuklar gibi, sözün saf sütünü özleyin ki, bununla büyüyesiniz;"
+    },
+    {
+      "v": 3,
+      "text": "Eğer Rab’bin lütufkar olduğunu tattınızsa."
+    },
+    {
+      "v": 4,
+      "text": "Ona, yani insanlar tarafından reddedilmiş, ama Allah tarafından seçilmiş, kıymetli, diri taşa yanaşarak,"
+    },
+    {
+      "v": 5,
+      "text": "Siz de, İsa Mesih aracılığıyla Allah’a makbul ruhani kurbanlar sunmak için, diri taşlar gibi ruhani ev, kutsal kahinlik olmak üzere bina edildiniz."
+    },
+    {
+      "v": 6,
+      "text": "Bu nedenle de Yazı’da şöyle bulunur: İşte, Sion’da köşebaşı bir seçilmiş kıymetli taş koyuyorum; ona iman eden utandırılmayacaktır."
+    },
+    {
+      "v": 7,
+      "text": "Bu nedenle siz iman edenlere kıymetlidir; ama yapıcıların reddettikleri taş, söz dinlemezlere, yani sözdinlemezlik ederek sözde tökezleyenlere,"
+    },
+    {
+      "v": 8,
+      "text": "Ki bunun için atanmışlardır, köşenin başı, ve tökezleme taşı, ve sürçme kayası oldu."
+    },
+    {
+      "v": 9,
+      "text": "Ama siz seçme nesil, melikane kahinlik, kutsal ulus, has halkısınız; öyle ki, sizi karanlıktan kendisinin şaşılacak ışığına çağıranın övgülerini bildiresiniz;"
+    },
+    {
+      "v": 10,
+      "text": "Bir zamanlar halk değildiniz, ama şimdi Allah’ın halkısınız; merhamete kavuşmamıştınız; ama şimdi merhamete kavuştunuz."
+    },
+    {
+      "v": 11,
+      "text": "Sevgili kardeşler, size gariplere ve konuklara gibi yalvarırım, cana karşı savaşan etbedensel tutkulardan çekinin;"
+    },
+    {
+      "v": 12,
+      "text": "Centiller arasında dürüst yaşayışınız olsun; öyle ki, aleyhinize kötülük işleyenler diye söyledikleri yerde, görecekleri iyi işlerinizle, ziyaret gününde Allah’a yücelik versinler."
+    },
+    {
+      "v": 13,
+      "text": "Rab için her insani nizama boyun eğin, gerek krala, nitekim en büyüktür;"
+    },
+    {
+      "v": 14,
+      "text": "Gerek valilere, nitekim kötülük edenlerin cezası için ve iyilik edenlerin övgüsü için onun tarafından gönderilmiş oldular."
+    },
+    {
+      "v": 15,
+      "text": "Çünkü Allah’ın isteği şöyledir: özgür gibi, özgürlüğünüzü de kötülük örtüsü için değil,"
+    },
+    {
+      "v": 16,
+      "text": "Allah’ın kulları gibi kullanarak iyilik etmekle akılsız insanların bilgisizliğini susturasınız."
+    },
+    {
+      "v": 17,
+      "text": "Tüm insanlara saygı gösterin. Kardeşliği sevin. Allah’tan korkun. Krala saygı gösterin."
+    },
+    {
+      "v": 18,
+      "text": "Ey köleler, efendilerinize tüm korkuyla boyun eğin; yalnız iyilere ve yumuşak huylu olanlara değil, ters huylu olanlara da."
+    },
+    {
+      "v": 19,
+      "text": "Çünkü eğer bir adam haksız yere elem çekerek Allah’a karşı vicdandan ötürü üzüntüye dayanırsa, bu makbuldür."
+    },
+    {
+      "v": 20,
+      "text": "Çünkü kabahat işleyip yumruklandığınız zaman sabrederseniz, bunda övülecek ne var? ama eğer iyilik ederek elem çekip sabrederseniz, bu Allah indinde makbuldür."
+    },
+    {
+      "v": 21,
+      "text": "Çünkü zaten bunun için çağrıldınız; zira Mesih de, kendi izleri ardınca gidesiniz diye, bize bir örnek bırakarak bizim içim elem çekti."
+    },
+    {
+      "v": 22,
+      "text": "O, günah işlemedi, ve ağzında hile bulunmadı;"
+    },
+    {
+      "v": 23,
+      "text": "Küfredildiği zaman, ona karşı küfretmezdi; elem çektiği zaman tehdit etmezdi; ama doğruluk üzere yargılayana kendisini teslim ederdi;"
+    },
+    {
+      "v": 24,
+      "text": "Biz günahlara ölmüş olarak doğruluğa yaşayalım diye, kendisi kendi bedeninde ağaç üzerinde günahlarımızı taşıdı; onun bereleriyle şifa buldunuz."
+    },
+    {
+      "v": 25,
+      "text": "Çünkü siz sapmış koyunlar gibi idiniz; ama şimdi canlarınızın Çobanı’na ve Gözeticisi’ne döndünüz."
+    }
+  ]
+}

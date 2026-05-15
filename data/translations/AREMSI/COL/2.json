@@ -1,1 +1,99 @@
-{"t":"AREMS","b":"COL","c":2,"content":[{"v":1,"text":"Çünkü sizin, ve Laodikya’da bulunanların, ve et bedence yüzümü hiç görmemiş olanların hepsi için ne denli büyük bir çaba içinde bulunduğumu bilmenizi isterim;"},{"v":2,"text":"Öyle ki, yürekleri teselli bulsun ve kendileri sevgide birleşmiş olarak anlayışın tam güvenliğinin zenginliklerine ve Allah’ın, ve Baba’nın, ve Mesih’in sırrının bilgisine kavuşsunlar;"},{"v":3,"text":"O’nda bilgeliğin ve bilginin tüm hazineleri gizlenmiştir."},{"v":4,"text":"Ve bunu, bir adam sizi kandırıcı sözlerle aldatmasın diye söylüyorum."},{"v":5,"text":"Çünkü her ne kadar et bedence hazır bulunmuyorsam da, ruhça sizinle beraberim, düzenliliğinizi ve Mesih’e imanınızın sağlamlığını görüyor ve seviniyorum."},{"v":6,"text":"Buna göre Rab Mesih İsa’yı nasıl kabul ettinizse, öylece O’nda yürüyün;"},{"v":7,"text":"O’nda köklenip gelişin, ve size öğretildiği gibi imanda pekişin, bunun içinde şükranla dolup taşarak."},{"v":8,"text":"Sakının, Mesih’e göre değil, ama insanların geleneğine ve dünyanın temel ilkelerine göre, felsefe ve boş hileyle bir adam sizi yağma etmesin."},{"v":9,"text":"Çünkü Uluhiyet’in tüm doluluğu bedence O’nda oturuyor."},{"v":10,"text":"Her yönetim ve kudretin başı O’dur, siz de O’nda tamamsınız;"},{"v":11,"text":"Hem de O’nda et bedenin günahlarının bedeninden Mesih’in sünnetiyle soyunup elle olmamış sünnetle sünnet edildiniz;"},{"v":12,"text":"Vaftizde O’nunla birlikte gömüldünüz ve bunda da O’nu ölüler arasından dirilten Allah’ın işlemesinin imanı aracılığıyla O’nunla birlikte dirildiniz."},{"v":13,"text":"Ve, siz günahlarınızda ve et bedeninizin sünnetsizliğinde ölüyken, O sizi O’nunla birlikte diri etti, tüm suçlarınızı bağışladı;"},{"v":14,"text":"Bize karşı ve aleyhimizde olan kanunların el yazısını sildi, ve O’nu çarmıhına mıhlayıp ortadan kaldırdı;"},{"v":15,"text":"Ve yönetimleri ve kudretleri yağma edip onları bunda yendi, onları açıkça serdi."},{"v":16,"text":"Bu nedenle yiyecekte, yahut içecekte, yahut bayram, yahut yeni ay, yahut Şabat günleri konusunda hiçbir adam sizi yargılamasın;"},{"v":17,"text":"Bunlar gelecek şeylerin gölgesidir, ama beden Mesih’tendir."},{"v":18,"text":"İsteyerek alçakgönüllülük edip meleklere tapınan, görmemiş şeylere dahil eden, kendi et bedensel aklıyla boş yere kabaran,"},{"v":19,"text":"Ve Baş’a tutunmayan hiçbir adam sizi ödülünüzden yoksun bırakmasın; tüm beden, eklemler ve bağlar aracılığıyla bundan beslenip birleştirilerek Allah’ın sağladığı büyümeyle büyür."},{"v":20,"text":"Bunun için eğer Mesih’le birlikte dünyanın temel ilkelerine öldünüzse, dünyada yaşayanlar gibi niçin kurallara uyuyorsunuz?"},{"v":21,"text":"(Tutma, tatma, dokunma;"},{"v":22,"text":"Bunların hepsi kullanıldıkça yok olurlar;) bunlar insanların emirlerine ve öğretilerine göredir."},{"v":23,"text":"Gerçi gönüllü tapınmada, alçak gönüllülükte ve bedene şefkat etmemekte bunların bilgece bir görünüşü vardır; et bedenin doyurulması için bir onur da değillerdir."}]}
+{
+  "t": "AREMS",
+  "b": "COL",
+  "c": 2,
+  "content": [
+    {
+      "v": 1,
+      "text": "Çünkü sizin, ve Laodikya’da bulunanların, ve etbedence yüzümü hiç görmemiş olanların hepsi için ne denli büyük bir çaba içinde bulunduğumu bilmenizi isterim;"
+    },
+    {
+      "v": 2,
+      "text": "Öyle ki, yürekleri teselli bulsun ve kendiler sevgide birleşmiş olarak anlayışın tam güvenliğinin zenginliklerine ve Allah’ın, ve Baba’nın, ve Mesih’in sırrının bilgisine kavuşsunlar;"
+    },
+    {
+      "v": 3,
+      "text": "Onda bilgeliğin ve bilginin tüm hazineleri gizlenmiştir."
+    },
+    {
+      "v": 4,
+      "text": "Ve bunu, bir adam sizi kandırıcı sözlerle aldatmasın diye söylüyorum."
+    },
+    {
+      "v": 5,
+      "text": "Çünkü her ne kadar etbedence hazır bulunmuyorsam da, ruhça sizinle beraberim, düzenliliğinizi ve Mesih’e imanınızın sağlamlığını görüyor ve seviniyorum."
+    },
+    {
+      "v": 6,
+      "text": "Buna göre Rab Mesih İsa’yı nasıl kabul ettinizse, öylece onda yürüyün;"
+    },
+    {
+      "v": 7,
+      "text": "Onda köklenip gelişin, ve size öğretildiği gibi imanda pekişin, bunun içinde şükranla dolup taşarak."
+    },
+    {
+      "v": 8,
+      "text": "Sakının, Mesih’e göre değil, insanların geleneğine ve dünyanın temel ilkelerine göre, felsefe ve boş hileyle bir adam sizi yağma etmesin."
+    },
+    {
+      "v": 9,
+      "text": "Çünkü Uluhiyet’in tüm doluluğu bedence onda oturuyor."
+    },
+    {
+      "v": 10,
+      "text": "Her yönetim ve kudretin başı odur, siz de onda tamamsınız;"
+    },
+    {
+      "v": 11,
+      "text": "Hem de onda etbedenin günahlarının bedeninden Mesih’in sünnetiyle soyunup elle olmamış sünnetle sünnet edildiniz;"
+    },
+    {
+      "v": 12,
+      "text": "Vaftizde onunla birlikte gömüldünüz ve bunda da onu ölüler arasından dirilten Allah’ın işlemesinin imanı aracılığıyla onunla birlikte dirildiniz."
+    },
+    {
+      "v": 13,
+      "text": "Ve, siz günahlarınızda ve etbedeninizin sünnetsizliğinde ölüyken, o sizi onunla birlikte diri etti, tüm suçlarınızı bağışladı;"
+    },
+    {
+      "v": 14,
+      "text": "Bize karşı ve aleyhimizde olan kanunların el yazısını sildi, ve onu çarmıhına mıhlayıp ortadan kaldırdı;"
+    },
+    {
+      "v": 15,
+      "text": "Ve yönetimleri ve kudretleri yağma edip onları bunda yendi, onları açıkça serdi."
+    },
+    {
+      "v": 16,
+      "text": "Bu nedenle yiyecekte, yahut içecekte, yahut bayram, yahut yeni ay, yahut Şabat günleri konusunda hiçbir adam sizi yargılamasın;"
+    },
+    {
+      "v": 17,
+      "text": "Bunlar gelecek şeylerin gölgesidir, ama beden Mesih’tendir."
+    },
+    {
+      "v": 18,
+      "text": "İsteyerek alçakgönüllülük edip meleklere tapınan, görmemiş şeylere dahil eden, kendi etbedensel aklıyla boş yere kabaran,"
+    },
+    {
+      "v": 19,
+      "text": "Ve Baş’a tutunmayan hiçbir adam sizi ödülünüzden yoksun bırakmasın; tüm beden, eklemler ve bağlar aracılığıyla bundan beslenip birleştirilerek Allah’ın sağladığı büyümeyle büyür."
+    },
+    {
+      "v": 20,
+      "text": "Bunun için eğer Mesih’le birlikte dünyanın temel ilkelerine öldünüzse, dünyada yaşayanlar gibi niçin kurallara uyuyorsunuz?"
+    },
+    {
+      "v": 21,
+      "text": "(Tutma, tatma, dokunma;"
+    },
+    {
+      "v": 22,
+      "text": "Bunların hepsi kullanıldıkça yok olurlar;) bunlar insanların emirlerine ve öğretilerine göredir."
+    },
+    {
+      "v": 23,
+      "text": "Gerçi gönüllü tapınmada, alçak gönüllülükte ve bedene şefkat etmemekte bunların bilgece bir görünüşü vardır; etbedenin doyurulması için bir onurda değillerdir."
+    }
+  ]
+}

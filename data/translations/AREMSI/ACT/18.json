@@ -1,1 +1,119 @@
-{"t":"AREMS","b":"ACT","c":18,"content":[{"v":1,"text":"Bundan sonra Pavlus Atina’dan ayrılıp Korint’e geldi;"},{"v":2,"text":"Ve orada Pontus doğumlu Akvila adında bir Yahudi buldu, eşi Priskila ile birlikte İtalya’dan yeni gelmişti; (çünkü Klavdios tüm Yahudiler’in Roma’dan gitmelerini emretmişti;) ve onların yanına gitti."},{"v":3,"text":"Ve aynı sanattan olduğu için onlarla kalıp çalıştı; çünkü meslekleri çadırcılıktı."},{"v":4,"text":"Ve her Şabat havrada tartışıyor, ve Yahudiler’le Yunanlılar’ı inandırıyordu."},{"v":5,"text":"Ve Silas’la Timoteos Makedonya’dan gelince, Pavlus ruhta zorlanıp İsa’nın Mesih olduğuna ilişkin Yahudiler’e tanıklık ediyordu."},{"v":6,"text":"Ve onlar birbirlerine karşı koyup küfredince, giysilerini silkerek onlara, Kanınız kendi başınıza olsun, dedi; ben temizim; bundan böyle Centiller’e gideceğim."},{"v":7,"text":"Ve oradan ayrılıp Yustus adında, Allah’a tapan birinin evine gitti, onun evi havraya bitişikti."},{"v":8,"text":"Ve havranın baş yöneticisi olan Krispus tüm ev halkıyla birlikte Rab’be iman etti; Korintliler’den birçoğu da işitip iman etti, ve vaftiz oldu."},{"v":9,"text":"O zaman Rab geceleyin Pavlus’a görüm yoluyla, Korkma, dedi, ama konuş, ve susma;"},{"v":10,"text":"Çünkü ben seninle beraberim, ve seni incitmek için senin üzerine hiçbir adam el atmayacaktır; çünkü bu kentte çok halkım var."},{"v":11,"text":"Ve onların arasında Allah’ın sözünü öğreterek orada bir buçuk yıl kaldı."},{"v":12,"text":"Ve Gallio Ahaya valisiyken Yahudiler hep birlikte Pavlus’a karşı ayaklandılar, ve onu yargı yerine götürdüler,"},{"v":13,"text":"Bu adam yasaya aykırı bir biçimde Allah’a tapsınlar diye insanları kandırıyor, dediler."},{"v":14,"text":"Ve Pavlus ağzını açmaktayken Gallio Yahudiler’e dedi ki, Ey siz Yahudiler, konu bir haksızlık ya da şerir iffetsizlikle ilgili olsaydı, size katlanmam gerekirdi;"},{"v":15,"text":"Ama sorun sözler, adlar ve kendi yasanızla ilgili ise, buna kendiniz bakın; çünkü ben böyle şeylerin hâkimi olmak istemem."},{"v":16,"text":"Ve onları yargı yerinden kovdu."},{"v":17,"text":"O zaman tüm Yunanlılar havranın baş yöneticisi olan Sostenis’i yakalayıp yargı kürsüsünün önünde dövdüler. Gallio ise bu şeylerden hiçbirine aldırmadı."},{"v":18,"text":"Ve bundan sonra Pavlus bir süre daha orada kaldı, ve sonra, kardeşlerle vedalaşıp Suriye’ye gitmek üzere gemiyle yola çıktı, Priskila ile Akvila da kendisiyle beraberdi; bir adağı olduğu için Kenhrea’da saçlarını kestirmişti."},{"v":19,"text":"Ve Efes’e geldi, ve onları orada bıraktı; ama kendisi havraya giderek Yahudiler’le tartıştı."},{"v":20,"text":"Onlar, yanlarında daha uzun bir süre kalmasını istedilerse de kendisi bunu uygun görmedi;"},{"v":21,"text":"Ama onlara veda edip, Gelecek olan bayramı Yeruşalim’de mutlaka tutmam gerek, dedi; ama Allah dilerse yanınıza yine döneceğim. Ve Efes’ten denize açıldı."},{"v":22,"text":"Ve Sezariye’ye varınca çıkıp kiliseyi selamladı, sonra Antakya’ya indi."},{"v":23,"text":"Ve bir süre orada kaldıktan sonra yola çıktı, ve sırayla Galatya ve Frikya bölgelerini dolaşarak tüm öğrencileri güçlendirdi."},{"v":24,"text":"Ve İskenderiye doğumlu Apollos adında bir Yahudi, üstün bir konuşma yeteneği ve Yazılar’da kuvvetli olan bir adam, Efes’e geldi."},{"v":25,"text":"Bu adam Rab’bin yolunda eğitilmişti; ve yalnız Yahya’nın vaftizini bilerek ateşli bir ruhla konuşuyor ve Rab’bin şeylerini incelikle öğretiyordu."},{"v":26,"text":"Ve havrada cesaretle konuşmaya başladı; Priskila ile Akvila onu dinleyince, kendisini yanlarına alarak Allah’ın yolunu ona daha doğru biçimde açıkladılar."},{"v":27,"text":"Ve Ahaya’ya gitmek isteyince kardeşler onu kabul etsinler diye öğrencilere öğüt vererek bir mektup yazdılar; o da oraya varınca, inayet aracılığıyla iman etmiş olanlara çok yardım etti;"},{"v":28,"text":"Çünkü Yazılar aracılığıyla İsa’nın Mesih olduğunu göstererek güçlü bir şekilde, hem de herkesin önünde, Yahudiler’i ikna etti."}]}
+{
+  "t": "AREMS",
+  "b": "ACT",
+  "c": 18,
+  "content": [
+    {
+      "v": 1,
+      "text": "Bundan sonra Pavlus Atina’dan ayrılıp Korint’e geldi;"
+    },
+    {
+      "v": 2,
+      "text": "Ve orada Pontus doğumlu Akvila adında bir Yahudi buldu, eşi Priskila ile birlikte İtalya’dan yeni gelmişti; (çünkü Klavdios tüm Yahudiler’in Roma’dan gitmelerini emretmişti;) ve onların yanına gitti."
+    },
+    {
+      "v": 3,
+      "text": "Ve aynı sanattan olduğu için onlarla kalıp çalıştı; çünkü meslekleri çadırcılıktı."
+    },
+    {
+      "v": 4,
+      "text": "Ve her Şabat havrada tartışıyor, ve Yahudiler’le Yunanlılar’ı inandırıyordu."
+    },
+    {
+      "v": 5,
+      "text": "Ve Silas’la Timoteos Makedonya’dan gelince, Pavlus ruhta zorlanıp İsa’nın Mesih olduğuna ilişkin Yahudiler’e tanıklık ediyordu."
+    },
+    {
+      "v": 6,
+      "text": "Ve onlar birbirlerine karşı koyup küfredince, giysilerini silkerek onlara, Kanınız kendi başınıza olsun, dedi; ben temizim; bundan böyle Centiller’e gideceğim."
+    },
+    {
+      "v": 7,
+      "text": "Ve oradan ayrılıp Yustus adında, Allah’a tapan birinin evine gitti, onun evi havraya bitişikti."
+    },
+    {
+      "v": 8,
+      "text": "Ve havranın baş yöneticisi olan Krispus tüm ev halkıyla birlikte Rab’be iman etti; Korintliler’den birçoğu da işitip iman etti, ve vaftiz oldu."
+    },
+    {
+      "v": 9,
+      "text": "O zaman Rab geceleyin Pavlus’a görüm yoluyla, Korkma, dedi, ama konuş, ve susma;"
+    },
+    {
+      "v": 10,
+      "text": "Çünkü ben seninle beraberim, ve seni incitmek için senin üzerine hiçbir adam el atmayacaktır; çünkü bu kentte çok halkım var."
+    },
+    {
+      "v": 11,
+      "text": "Ve onların arasında Allah’ın sözünü öğreterek orada bir buçuk yıl kaldı."
+    },
+    {
+      "v": 12,
+      "text": "Ve Gallio Ahaya valisiyken Yahudiler hep birlikte Pavlus’a karşı ayaklandılar, ve onu yargı yerine götürdüler,"
+    },
+    {
+      "v": 13,
+      "text": "Bu adam yasaya aykırı bir biçimde Allah’a tapsınlar diye insanları kandırıyor, dediler."
+    },
+    {
+      "v": 14,
+      "text": "Ve Pavlus ağzını açmaktayken Gallio Yahudiler’e dedi ki, Ey siz Yahudiler, konu bir haksızlık ya da şerir iffetsizlikle ilgili olsaydı, size katlanmam gerekirdi;"
+    },
+    {
+      "v": 15,
+      "text": "Ama sorun sözler, adlar ve kendi yasanızla ilgili ise, buna kendiniz bakın; çünkü ben böyle şeylerin hakimi olmak istemem."
+    },
+    {
+      "v": 16,
+      "text": "Ve onları yargı yerinden kovdu."
+    },
+    {
+      "v": 17,
+      "text": "O zaman tüm Yunanlılar havranın baş yöneticisi olan Sostenis’i yakalayıp yargı kürsüsünün önünde dövdüler. Gallio ise bu şeylerden hiçbirine aldırmadı."
+    },
+    {
+      "v": 18,
+      "text": "Ve bundan sonra Pavlus bir süre daha orada kaldı, ve sonra, kardeşlerle vedalaşıp Suriye’ye gitmek üzere gemiyle yola cıktı, Priskila ile Akvila da kendisiyle beraberdi; bir adağı olduğu için Kenhrea’da saçlarını kestirmişti."
+    },
+    {
+      "v": 19,
+      "text": "Ve Efes’e geldi, ve onları orada bıraktı; ama kendisi havraya giderek Yahudiler’le tartıştı."
+    },
+    {
+      "v": 20,
+      "text": "Onlar, yanlarında daha uzun bir süre kalmasını istedilerse de kendisi bunu uygun görmedi;"
+    },
+    {
+      "v": 21,
+      "text": "Ama onlara veda edip, Gelecek olan bayramı Yeruşalim’de mutlaka tutmam gerek, dedi; ama Allah dilerse yanınıza yine döneceğim. Ve Efes’ten denize açıldı."
+    },
+    {
+      "v": 22,
+      "text": "Ve Sezariye’ye varınca çıkıp kiliseyi selamladı, sonra Antakya’ya indi."
+    },
+    {
+      "v": 23,
+      "text": "Ve bir süre orada kaldıktan sonra yola cıktı, ve sırayla Galatya ve Frikya bölgelerini dolaşarak tüm öğrencileri güçlendirdi."
+    },
+    {
+      "v": 24,
+      "text": "Ve İskenderiye doğumlu Apollos adında bir Yahudi, üstun bir konuşma yeteneği ve Yazılar’da kuvvetli olan bir adam, Efes’e geldi."
+    },
+    {
+      "v": 25,
+      "text": "Bu adam Rab’bin yolunda eğitilmişti; ve yalnız Yahya’nın vaftizini bilerek ateşli bir ruhla konuşuyor ve Rab’bin şeylerini incelikle öğretiyordu."
+    },
+    {
+      "v": 26,
+      "text": "Ve havrada cesaretle konuşmaya başladı; Priskila ile Akvila onu dinleyince, kendisini yanlarına alarak Allah’ın yolunu ona daha doğru biçimde açıkladılar."
+    },
+    {
+      "v": 27,
+      "text": "Ve Ahaya’ya gitmek isteyince kardeşler onu kabul etsinler diye öğrencilere öğüt vererek bir mektup yazdılar; o da oraya varınca, inayet aracılığıyla iman etmiş olanlara çok yardım etti;"
+    },
+    {
+      "v": 28,
+      "text": "Çünkü Yazılar aracılığıyla İsa’nın Mesih olduğunu göstererek güçlü bir şekilde, hem de herkesin önünde, Yahudiler’i ikna etti."
+    }
+  ]
+}

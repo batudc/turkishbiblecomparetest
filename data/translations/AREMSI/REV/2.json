@@ -1,1 +1,123 @@
-{"t":"AREMS","b":"REV","c":2,"content":[{"v":1,"text":"Efes kilisesinin meleğine yaz; Yedi yıldızı sağ elinde tutan, yedi altın kandilliğin ortasında yürüyen, şöyle diyor:"},{"v":2,"text":"Senin işlerini, ve emeğini, ve sabrını, ve kötülere nasıl dayanamadığını biliyorum; ve elçi değilken elçi olduklarını söyleyenleri sınadın, ve onları yalancı buldun;"},{"v":3,"text":"Ve dayandın, ve sabırlısın, ve benim adım uğruna emek verdin, ve yorulmadın."},{"v":4,"text":"Ama sana karşı bir şeyim var, çünkü ilk sevgini bıraktın."},{"v":5,"text":"Onun için nereden düştüğünü hatırla, ve tövbe et, ve önceki işleri yap; yoksa sana tez gelirim, ve senin kandilliğini yerinden kaldırırım, eğer tövbe etmezsen."},{"v":6,"text":"Ama sende şu var ki, Nikolailer’in işlerinden nefret edersin, ben de onlardan nefret ederim."},{"v":7,"text":"Kulağı olan, Ruh’un kiliselere ne dediğini işitsin; Galip gelene, Allah’ın cenneti ortasında bulunan hayat ağacından yemeyi vereceğim."},{"v":8,"text":"Ve Smyrna’daki kilisenin meleğine yaz; Ölmüş ve dirilmiş olan O ilk ve son, şöyle diyor:"},{"v":9,"text":"Senin işlerini, ve sıkıntını, ve fakirliğini biliyorum, yine de zenginsin, ve Yahudi değil, ancak Şeytan’ın havrası iken kendilerine Yahudi diyenlerin küfrünü biliyorum."},{"v":10,"text":"Çekeceğin şeylerden korkma; işte, iblis, sınanasınız diye, sizden bazılarını hapse atacak; ve on gün süreyle sıkıntı çekeceksiniz; ölüme dek sadık ol, ve sana hayat tacını vereceğim."},{"v":11,"text":"Kulağı olan, Ruh’un kiliselere ne dediğini işitsin; Galip gelen ikinci ölümden zarar görmeyecektir."},{"v":12,"text":"Ve Pergamos’taki kilisenin meleğine yaz; İki ağızlı keskin kılıcı olan şöyle diyor:"},{"v":13,"text":"İşlerini ve nerede oturduğunu biliyorum, yani Şeytan’ın tahtı bulunduğu yerde; ve adımı sıkı tutuyorsun, ve aranızda, Şeytan’ın oturduğu"},{"v":14,"text":"yerde öldürülen sadık şehidim Antipas’ın günlerinde bile imanımı inkâr etmedin."},{"v":15,"text":"Ama sana karşı birkaç şeyim var, çünkü orada Balam’ın öğretisini tutan kimselerin var, o ki, putlara sunulan kurbanlarını yemeleri, ve fuhuş yapmaları için İsrail çocuklarının önüne tökez atmayı Balak’a öğretti."},{"v":16,"text":"Böylece Nikolailer’in öğretisini tutan kimselerin de var, ki o şeyden nefret ederim."},{"v":17,"text":"Tövbe et; yoksa sana tez gelirim, ve onlara karşı ağzımın kılıcıyla savaşırım."},{"v":18,"text":"Kulağı olan, Ruh’un kiliselere ne dediğini işitsin; Galip gelene, saklı mandan yemeyi vereceğim, ve ona beyaz bir taş vereceğim, ve bu taşta, alandan başka hiçbir adamın bilmediği, yazılı yeni bir ad."},{"v":19,"text":"Ve Tiyatira’daki kilisenin meleğine yaz; Gözleri ateşin alevi gibi olan, ve ayakları saf pirince benzeyen Allah’ın Oğlu, şöyle diyor:"},{"v":20,"text":"Senin işlerini, ve sevgini, ve hizmetini, ve imanını, ve sabrını, ve işlerini, ve sonrakilerin öncekilerden daha çok olduğunu biliyorum."},{"v":21,"text":"Ama sana karşı birkaç şeyim var, çünkü kendine peygamber deyip kullarıma fuhuş yapmayı, ve putlara kurban edilen şeyleri yemeyi öğretip saptırsın diye Yezabel kadını bırakıyorsun."},{"v":22,"text":"Ve fuhşundan tövbe etmesi için ona bir süre tanıdım; ve tövbe etmedi."},{"v":23,"text":"İşte, onu bir yatağa, ve onunla zina edenleri, kendi işlerinden tövbe etmezlerse, büyük sıkıntıya atacağım."},{"v":24,"text":"Ve onun çocuklarını ölümle öldüreceğim; ve tüm kiliseler gönülleri ve yürekleri araştıranın ben olduğumu bilecekler; ve her birinize işlerinize göre vereceğim."},{"v":25,"text":"Ama size, ve Tiyatira’da bulunan diğerlerine, bu öğretiyi tutmayanların, onların dediği gibi Şeytan’ın derinliklerini bilmeyenlerin"},{"v":26,"text":"hepsine diyorum; Üzerinize başka yük koymayacağım."},{"v":27,"text":"Ama sizde olanı ben gelinceye dek sıkı tutun."},{"v":28,"text":"Ve galip gelene, ve işlerimi sona kadar tutana uluslar üzerinde kudret vereceğim;"},{"v":29,"text":"Ve onları demir çomakla güdecektir; çömlekçi kapları gibi parçalanacaklar; nasıl ki ben de Babam’dan aldım."}]}
+{
+  "t": "AREMS",
+  "b": "REV",
+  "c": 2,
+  "content": [
+    {
+      "v": 1,
+      "text": "Efes kilisesinin meleğine yaz; Yedi yıldızı sağ elinde tutan, yedi altın kandilliğin ortasında yürüyen, şöyle diyor:"
+    },
+    {
+      "v": 2,
+      "text": "Senin işlerini, ve emeğini, ve sabrını, ve kötülere nasıl dayanamadığını biliyorum; ve elçi değilken elçi olduklarını söyleyenleri sınadın, ve onları yalancı buldun;"
+    },
+    {
+      "v": 3,
+      "text": "Ve dayandın, ve sabırlısın, ve benim adım uğruna emek verdin, ve yorulmadın."
+    },
+    {
+      "v": 4,
+      "text": "Ama sana karşı bir şeyim var, çünkü ilk sevgini bıraktın."
+    },
+    {
+      "v": 5,
+      "text": "Onun için nereden düştüğünü hatırla, ve tövbe et, ve önceki işleri yap; yoksa sana tez gelirim, ve senin kandilliğini yerinden kaldırırım, eğer tövbe etmezsen."
+    },
+    {
+      "v": 6,
+      "text": "Ama sende şu var ki, Nikolailer’in işlerinden nefret edersin, ben de onlardan nefret ederim."
+    },
+    {
+      "v": 7,
+      "text": "Kulağı olan, Ruh’un kiliselere ne dediğini işitsin; Galip gelene, Allah’ın cenneti ortasında bulunan hayat ağacından yemeyi vereceğim."
+    },
+    {
+      "v": 8,
+      "text": "Ve Smyrna’daki kilisenin meleğine yaz; Ölmüş ve dirilmiş olan o ilk ve son, şöyle diyor:"
+    },
+    {
+      "v": 9,
+      "text": "Senin işlerini, ve sıkıntını, ve fakirliğini biliyorum, yine de zenginsin, ve Yahudi değil, ancak Şeytan’ın havrası iken kendilerine Yahudi diyenlerin küfrünü biliyorum."
+    },
+    {
+      "v": 10,
+      "text": "Çekeceğin şeylerden korkma; işte, iblis, sınanasınız diye, sizden bazılarını hapse atacak; ve on gün süreyle sıkıntı çekeceksiniz; ölüme dek sadık ol, ve sana hayat tacını vereceğim."
+    },
+    {
+      "v": 11,
+      "text": "Kulağı olan, Ruh’un kiliselere ne dediğini işitsin; Galip gelen ikinci ölümden zarar görmeyecektir."
+    },
+    {
+      "v": 12,
+      "text": "Ve Pergamos’taki kilisenin meleğine yaz; İki ağızlı keskin kılıcı olan şöyle diyor:"
+    },
+    {
+      "v": 13,
+      "text": "İşlerini ve nerede oturduğunu biliyorum, yani Şeytan’ın tahtı bulunduğu yerde; ve adımı sıkı tutuyorsun, ve aranızda, Şeytan’ın oturduğu yerde öldürülen sadık şehidim Antipas’ın günlerinde bile imanımı inkar etmedin."
+    },
+    {
+      "v": 14,
+      "text": "Ama sana karşı birkaç şeyim var, çünkü orada Balam’ın öğretisini tutan kimselerin var, o ki, putlara sunulan kurbanlarını yemeleri, ve fuhuş yapmaları için İsrail çocuklarının önüne tökez atmayı Balak’a öğretti."
+    },
+    {
+      "v": 15,
+      "text": "Böylece Nikolailer’in öğretisini tutan kimselerin de var, ki o şeyden nefret ederim."
+    },
+    {
+      "v": 16,
+      "text": "Tövbe et; yoksa sana tez gelirim, ve onlara karşı ağzımın kılıcıyla savaşırım."
+    },
+    {
+      "v": 17,
+      "text": "Kulağı olan, Ruh’un kiliselere ne dediğini işitsin; Galip gelene, saklı mandan yemeyi vereceğim, ve ona beyaz bir taş vereceğim, ve bu taşta, alandan başka hiçbir adamın bilmediği, yazılı yeni bir ad."
+    },
+    {
+      "v": 18,
+      "text": "Ve Tiyatira’daki kilisenin meleğine yaz; Gözleri ateşin alevi gibi olan, ve ayakları saf pirince benzeyen Allah’ın Oğlu, şöyle diyor:"
+    },
+    {
+      "v": 19,
+      "text": "Senin işlerini, ve sevgini, ve hizmetini, ve imanını, ve sabrını, ve işlerini, ve sonrakilerin öncekilerden daha çok olduğunu biliyorum."
+    },
+    {
+      "v": 20,
+      "text": "Ama sana karşı birkaç şeyim var, çünkü kendine peygamber deyip kullarıma fuhuş yapmayı, ve putlara kurban edilen şeyleri yemeyi öğretip saptırsın diye Yezabel kadını bırakıyorsun."
+    },
+    {
+      "v": 21,
+      "text": "Ve fuhşundan tövbe etmesi için ona bir süre tanıdım; ve tövbe etmedi."
+    },
+    {
+      "v": 22,
+      "text": "İşte, onu bir yatağa, ve onunla zina edenleri, kendi işlerinden tövbe etmezlerse, büyük sıkıntıya atacağım."
+    },
+    {
+      "v": 23,
+      "text": "Ve onun çocuklarını ölümle öldüreceğim; ve tüm kiliseler gönülleri ve yürekleri araştıranın ben olduğumu bilecekler; ve her birinize işlerinize göre vereceğim."
+    },
+    {
+      "v": 24,
+      "text": "Ama size, ve Tiyatira’da bulunan diğerlerine, bu öğretiyi tutmayanların, onların dediği gibi Şeytan’ın derinliklerini bilmeyenlerin hepsine diyorum; Üzerinize başka yük koymayacağım."
+    },
+    {
+      "v": 25,
+      "text": "Ama sizde olanı ben gelinceye dek sıkı tutun."
+    },
+    {
+      "v": 26,
+      "text": "Ve galip gelene, ve işlerimi sona kadar tutana uluslar üzerinde kudret vereceğim;"
+    },
+    {
+      "v": 27,
+      "text": "Ve onları demir çomakla güdecektir; çömlekçi kapları gibi parçalanacaklar; nasıl ki ben de Babam’dan aldım."
+    },
+    {
+      "v": 28,
+      "text": "Ve ona sabah yıldızını vereceğim."
+    },
+    {
+      "v": 29,
+      "text": "Kulağı olan, Ruh’un kiliselere ne dediğini işitsin."
+    }
+  ]
+}

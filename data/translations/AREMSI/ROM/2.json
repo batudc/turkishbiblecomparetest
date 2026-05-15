@@ -1,1 +1,123 @@
-{"t":"AREMS","b":"ROM","c":2,"content":[{"v":1,"text":"Bu nedenle, ey yargılayan adam, kim olursan ol, özürlü değilsin; çünkü başkasını yargıladığın şeyde kendini mahkûm ediyorsun; çünkü sen, ey yargılayan, aynı şeyleri yapıyorsun."},{"v":2,"text":"Ama bu gibi şeyleri yapanlara karşı Allah’ın yargısının gerçeğe göre olduğunu biliyoruz."},{"v":3,"text":"Ve bu gibi şeyleri yapanları yargılayan, ve aynısını yapan ey adam, Allah’ın yargısından kaçıp kurtulacağını mı sanıyorsun?"},{"v":4,"text":"Ya da Allah’ın iyiliğinin seni tövbeye yönelttiğini bilmeyerek, O’nun iyiliğinin ve sabrının ve katlanışının bolluğunu hor mu görüyorsun?"},{"v":5,"text":"Ama inatçılığına ve tövbesiz yüreğine göre, Allah’ın gazabı ve adil yargısının açıklanacağı gazap günü için kendine karşı gazap biriktiriyorsun."},{"v":6,"text":"O her adama işlerine göre karşılık verecektir:"},{"v":7,"text":"İyilik etmekte sabırla devam ederek yücelik ve saygınlık ve ölümsüzlüğü arayanlara sonsuz yaşam;"},{"v":8,"text":"Ama sürtüşmeci olup gerçeğe itaat etmeyenlere, haksızlığa ise itaat edenlere öfke ve gazap,"},{"v":9,"text":"Kötülük yapan her adamın canına, önce Yahudi’nin, hem de Centil’in, sıkıntı ve elem;"},{"v":10,"text":"Ama iyilik eden her adama, önce Yahudi’ye, hem de Centil’e, yücelik, saygınlık, ve esenlik."},{"v":11,"text":"Çünkü Allah indinde şahsa bakmak yoktur;"},{"v":12,"text":"Çünkü yasa olmadan kaç kişi günah işlemişse, yasa olmadan mahvolacaklar; ve yasada kaç kişi günah işlemişse, yasayla yargılanacaklar;"},{"v":13,"text":"(Çünkü Allah katında adil kişiler yasanın duyucuları değildir, ancak yasanın uygulayıcıları aklanacaklar."},{"v":14,"text":"Çünkü yasaya sahip olmayan Centiller, tabiatla yasanın gereklerini yaptıklarında, yasaya sahip olmadan kendileri için yasadırlar;"},{"v":15,"text":"Onlar yüreklerinde yazılı olan yasanın işini gösterirler, onların vicdanı da tanıklık eder, düşünceleri de onları ya suçlar, ya da savunur;)"},{"v":16,"text":"Allah’ın İsa Mesih aracılığıyla insanların sırlarını benim İncil’ime göre yargılayacağı günde."},{"v":17,"text":"İşte, sen Yahudi adını taşıyorsun, ve yasaya dayanıyorsun, ve Allah’la övünüyorsun,"},{"v":18,"text":"Ve O’nun isteğini biliyorsun, ve yasadan eğitilmiş olarak daha âlâ olan şeyleri beğeniyorsun;"},{"v":19,"text":"Ve yasada bilginin ve gerçeğin suretine sahip olarak körlerin kılavuzu, karanlıkta kalanların ışığı,"},{"v":20,"text":"Akılsızların eğiticisi, çocukların öğretmeni olduğuna inanıyorsun."},{"v":21,"text":"Bunun için başkasına öğreten sen, kendine öğretmez misin? Bir adamın çalmaması gerek, diye vaaz eden sen, çalar mısın?"},{"v":22,"text":"Bir adamın zina etmemesi gerek, diyen sen, zina eder misin? Putlardan tiksinen sen, tapınakları yağma eder misin?"},{"v":23,"text":"Yasayla övünen sen, yasaya karşı suç işlemekle Allah’ı aşağılar mısın?"},{"v":24,"text":"Çünkü, yazılmış olduğu gibi, sizin yüzünüzden Centiller arasında Allah’ın adına küfrediliyor."},{"v":25,"text":"Çünkü eğer yasayı tutarsan, gerçekten sünnetliliğin yararı var, ama yasaya karşı suç işleyen biriysen, senin sünnetliliğin sünnetsizlik olur."},{"v":26,"text":"Bunun için eğer sünnetsizlik yasanın doğruluğunu tutarsa, onun sünnetsizliği sünnetlilik sayılmayacak mı?"},{"v":27,"text":"Ve tabiattan olan sünnetsizlik eğer yasayı yerine getirirse, seni, yani harf ve sünnetlilikle yasayı çiğneyeni yargılamayacak mı?"},{"v":28,"text":"Çünkü dıştan Yahudi olan Yahudi değildir, ne de et bedende dıştan olan sünnetlilik sünnetliliktir;"},{"v":29,"text":"Ama içten Yahudi olan Yahudi’dir, sünnetlilik de harfta değil, ruhtadır, ama yüreğin sünnetliliğidir; onun övgüsü insanlardan değil, ama Allah’tandır."}]}
+{
+  "t": "AREMS",
+  "b": "ROM",
+  "c": 2,
+  "content": [
+    {
+      "v": 1,
+      "text": "Bu nedenle, ey yargılayan adam, kim olursan ol, özürlü değilsin; çünkü başkasını yargıladığın şeyde kendini mahkum ediyorsun; çünkü sen, ey yargılayan, aynı şeyleri yapıyorsun."
+    },
+    {
+      "v": 2,
+      "text": "Ama bu gibi şeyleri yapanlara karşı Allah’ın yargısının gerçeğe göre olduğunu biliyoruz."
+    },
+    {
+      "v": 3,
+      "text": "Ve bu gibi şeyleri yapanları yargılayan, ve aynısını yapan ey adam, Allah’ın yargısından kaçıp kurtulacağını mı sanıyorsun?"
+    },
+    {
+      "v": 4,
+      "text": "Ya da Allah’ın iyiliğinin seni tövbeye yönelttiğini bilmeyerek, onun iyiliğinin ve sabrının ve katlanışının bolluğunu hor mu görüyorsun?"
+    },
+    {
+      "v": 5,
+      "text": "Ama inatçılığına ve tövbesiz yüreğine göre, Allah’ın adil yargısının açıklanacağı gazap günü için kendine karşı gazap biriktiriyorsun."
+    },
+    {
+      "v": 6,
+      "text": "O her adama işlerine göre karşılık verecektir:"
+    },
+    {
+      "v": 7,
+      "text": "İyilik etmekte sabırla devam ederek yücelik ve saygınlık ve ölümsüzlüğü arayanlara sonsuz yaşam;"
+    },
+    {
+      "v": 8,
+      "text": "Ama sürtüşmeci olup gerçeğe itaat etmeyenlere, haksızlığa ise itaat edenlere öfke ve gazap,"
+    },
+    {
+      "v": 9,
+      "text": "Kötülük yapan her adamın canına, önce Yahudi’nin, hem de Centil’in, sıkıntı ve elem;"
+    },
+    {
+      "v": 10,
+      "text": "Ama iyilik eden her adama, önce Yahudi’ye, hem de Centil’e, yücelik, saygınlık, ve esenlik."
+    },
+    {
+      "v": 11,
+      "text": "Çünkü Allah indinde şahsa bakmak yoktur;"
+    },
+    {
+      "v": 12,
+      "text": "Çünkü yasa olmadan kaç kişi günah işlemişse, yasa olmadan mahvolacaklar; ve yasada kaç kişi günah işlemişse, yasayla yargılanacaklar;"
+    },
+    {
+      "v": 13,
+      "text": "(Çünkü Allah katında adil kişiler yasanın duyucuları değildir, ancak yasanın uygulayıcılar aklanacaklar."
+    },
+    {
+      "v": 14,
+      "text": "Çünkü yasaya sahip olmayan Centiller, tabiatla yasanın gereklerini yaptıklarında, yasaya sahip olmadan kendileri için yasadırlar;"
+    },
+    {
+      "v": 15,
+      "text": "Onlar yüreklerinde yazılı olan yasanın işini gösterirler, onların vicdanı da tanıklık eder, düşünceleri de onları ya suçlar, ya da savunur;)"
+    },
+    {
+      "v": 16,
+      "text": "Allah’ın İsa Mesih aracılığıyla insanların gizli şeylerini benim İncilim’e göre yargılayacağı günde."
+    },
+    {
+      "v": 17,
+      "text": "İşte, sen Yahudi adını taşıyorsun, ve yasaya dayanıyorsun, ve Allah’la övünüyorsun,"
+    },
+    {
+      "v": 18,
+      "text": "Ve onun isteğini biliyorsun, ve yasadan eğitilmiş olarak üstün olan şeyleri beğeniyorsun;"
+    },
+    {
+      "v": 19,
+      "text": "Ve yasada bilginin ve gerçeğin suretine sahip olarak körlerin kılavuzu, karanlıkta kalanların ışığı,"
+    },
+    {
+      "v": 20,
+      "text": "Akılsızların eğiticisi, çocukların öğretmeni olduğuna inanıyorsun."
+    },
+    {
+      "v": 21,
+      "text": "Bunun için başkasına öğreten sen, kendine öğretmez misin? bir adamın çalmaması gerek, diye vaaz eden sen, çalar mısın?"
+    },
+    {
+      "v": 22,
+      "text": "Bir adamın zina etmemesi gerek, diyen sen, zina eder misin? putlardan tiksinen sen, tapınakları yağma eder misin?"
+    },
+    {
+      "v": 23,
+      "text": "Yasayla övünen sen, yasaya karşı suç işlemekle Allah’ı aşağılar mısın?"
+    },
+    {
+      "v": 24,
+      "text": "Çünkü, yazılmış olduğu gibi, sizin yüzünüzden Centiller arasında Allah’ın adına küfrediliyor."
+    },
+    {
+      "v": 25,
+      "text": "Çünkü eğer yasayı tutarsan, gerçekten sünnetliliğin yararı var, ama yasaya karşı suç işleyen biriysen, senin sünnetliliğin sünnetsizlik olur."
+    },
+    {
+      "v": 26,
+      "text": "Bunun için eğer sünnetsizlik yasanın doğruluğunu tutarsa, onun sünnetsizliği sünnetlilik sayılmayacak mı?"
+    },
+    {
+      "v": 27,
+      "text": "Ve tabiattan olan sünnetsizlik eğer yasayı yerine getirirse, seni, yani harf ve sünnetlilikle yasayı çiğneyeni yargılamayacak mı?"
+    },
+    {
+      "v": 28,
+      "text": "Çünkü dıştan Yahudi olan Yahudi değildir, ne de etbedende dıştan olan sünnetlilik sünnetliliktir;"
+    },
+    {
+      "v": 29,
+      "text": "Ama içten Yahudi olan Yahudi’dir, sünnetlilik de harfta değil, ruhtadır, yüreğin sünnetliliğidir; onun övgüsü insanlardan değil, Allah’tandır."
+    }
+  ]
+}

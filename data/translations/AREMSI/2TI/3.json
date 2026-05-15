@@ -1,1 +1,75 @@
-{"t":"AREMS","b":"2TI","c":3,"content":[{"v":1,"text":"Bunu da bil ki, son günlerde tehlikeli vakitler gelecektir."},{"v":2,"text":"Çünkü insanlar kendilerini seven, cimri, övünen, gururlu, küfürbaz, ana baba sözü dinlemez, nankör, kutsallıktan yoksun,"},{"v":3,"text":"Doğal sevgiden yoksun, uzlaşmaz, iftiracı, nefsini zapt edemez, azgın, iyi olanları hor gören,"},{"v":4,"text":"Hain, inatçı, kibirli, Allah’tan çok zevki seven;"},{"v":5,"text":"Takva suretini gösteren, ama kudretini inkâr edenler olacaklar; böylelerinden yüz çevir."},{"v":6,"text":"Çünkü evlerin içine sokulup günahlarla yüklenmiş, çeşit çeşit tutkulardan götürülmüş,"},{"v":7,"text":"Her zaman öğrenen ve hiç gerçek bilgisine gelemeyen şaşkın kadınları esir eden kimseler bunlardandır."},{"v":8,"text":"Şimdi Yannes ile Yambres nasıl Musa’ya karşı durdularsa, bunlar da böylece gerçeğe karşı dururlar; akılları bozuk, iman konusunda merdut"},{"v":9,"text":"adamlardır."},{"v":10,"text":"Ama daha ileri gitmeyecekler; çünkü onların akılsızlığı nasıl belli olduysa, bunlarınki de tüm insanlara belli olacaktır."},{"v":11,"text":"Ama sen benim öğretimi, gidişimi, niyetimi, imanımı, katlanışımı, sevgimi, sabrımı,"},{"v":12,"text":"Antakya’da, İkonium’da, Listra’da çektiğim zulüm ve acıları, tam bildin; ne zulümlere katlandım! Ama Rab beni hepsinden azat etti."},{"v":13,"text":"Evet, ve Mesih İsa’da takvayla yaşamak isteyenlerin hepsi zulüm görecek."},{"v":14,"text":"Ama kötü adamlar ile baştan çıkaranlar, aldatarak ve aldanarak kötülükte daha ileri gidecekler."},{"v":15,"text":"Ama sen kimden öğrendiğini bilerek, öğrendiğin ve güvendiğin şeylerde kal;"},{"v":16,"text":"Ve Mesih İsa’ya olan iman aracılığıyla kurtuluş için seni bilge kılmaya gücü yeten Kutsal Yazılar’ı çocukluğundan beri bildin."},{"v":17,"text":"Her Yazı Allah’ın esinlemesiyle verilir, ve öğreti, azarlama, düzeltme, doğrulukta eğitme için faydalıdır;"}]}
+{
+  "t": "AREMS",
+  "b": "2TI",
+  "c": 3,
+  "content": [
+    {
+      "v": 1,
+      "text": "Bunu da bil ki, son günlerde tehlikeli vakitler gelecektir."
+    },
+    {
+      "v": 2,
+      "text": "Çünkü insanlar kendilerini seven, cimri, övünen, gururlu, küfürbaz, ana baba sözü dinlemez, nankör, kutsallıktan yoksun,"
+    },
+    {
+      "v": 3,
+      "text": "Doğal sevgiden yoksun, uzlaşmaz, iftiracı, nefsini zaptedemez, azgın, iyi olanları hor gören,"
+    },
+    {
+      "v": 4,
+      "text": "Hain, inatçı, kibirli, Allah’tan çok zevki seven;"
+    },
+    {
+      "v": 5,
+      "text": "Takva suretini gösteren, ama kudretini inkar edenler olacaklar; bunlardan yüz çevir."
+    },
+    {
+      "v": 6,
+      "text": "Çünkü evlerin içine sokulup günahlarla yüklenmiş, çeşit çeşit tutkulardan götürülmüş,"
+    },
+    {
+      "v": 7,
+      "text": "Her zaman öğrenen ve hiç gerçek bilgisine gelemeyen şaşkın kadınları esir eden kimseler bunlardandır."
+    },
+    {
+      "v": 8,
+      "text": "Şimdi Yannes ile Yambres nasıl Musa’ya karşı durdularsa, bunlar da böylece gerçeğe karşı dururlar; akılları bozuk, iman konusunda merdut adamlardır."
+    },
+    {
+      "v": 9,
+      "text": "Ama daha ileri gitmeyecekler; çünkü onların akılsızlığı nasıl belli olduysa, bunlarınki de tüm insanlara belli olacaktır."
+    },
+    {
+      "v": 10,
+      "text": "Ama sen benim öğretimi, gidişimi, niyetimi, imanımı, katlanışımı, sevgimi, sabrımı,"
+    },
+    {
+      "v": 11,
+      "text": "Antakya’da, İkonium’da, Listra’da çektiğim zulüm ve acıları, tam bildin; ne zulümlere katlandım! ama Rab beni hepsinden azat etti."
+    },
+    {
+      "v": 12,
+      "text": "Evet, ve Mesih İsa’da takvayla yaşamak isteyenlerin hepsi zulüm görecek."
+    },
+    {
+      "v": 13,
+      "text": "Ama kötü adamlar ile baştan çıkaranlar, aldatarak ve aldanarak kötülükte daha ileri gidecekler."
+    },
+    {
+      "v": 14,
+      "text": "Ama sen kimden öğrendiğini bilerek, öğrendiğin ve güvendiğin şeylerde kal;"
+    },
+    {
+      "v": 15,
+      "text": "Ve Mesih İsa’ya olan iman aracılığıyla kurtuluş için seni bilge kılmaya gücü yeten kutsal Yazılar’ı çocukluğundan beri bildin."
+    },
+    {
+      "v": 16,
+      "text": "Her Yazı Allah’ın esinlemesiyle verilir, ve öğreti, azarlama, düzeltme, doğrulukta eğitme için faydalıdır;"
+    },
+    {
+      "v": 17,
+      "text": "Öyle ki, Allah adamı yetkin, tüm iyi işlere hazırlanmış olsun."
+    }
+  ]
+}
