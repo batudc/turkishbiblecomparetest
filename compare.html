@@ -811,6 +811,49 @@
       height: 0;
     }
 
+    /* Book reading mode — verses flow as continuous inline text */
+    #okuyucu_layout.layout-book .verse {
+      display: inline;
+      margin: 0;
+      gap: 0;
+    }
+    #okuyucu_layout.layout-book .vn {
+      display: inline;
+      font-size: 7px;
+      font-weight: 700;
+      vertical-align: super;
+      line-height: 0;
+      padding: 0;
+      min-width: 0;
+      margin-right: 1px;
+      color: var(--gold);
+      opacity: 0.75;
+    }
+    #okuyucu_layout.layout-book .vt {
+      display: inline;
+    }
+    #okuyucu_layout.layout-book .chapter {
+      padding: 1.2rem 1.4rem 2rem;
+    }
+    #okuyucu_layout.layout-book .chapter-num {
+      display: block;
+      margin-bottom: 0.75rem;
+    }
+    #okuyucu_layout.layout-book .section-head {
+      display: block;
+      margin-top: 1rem;
+      margin-bottom: 0.25rem;
+    }
+    /* small breathing space after each verse so words don't run together */
+    #okuyucu_layout.layout-book .verse::after {
+      content: ' ';
+    }
+    /* hide-vn / hide-heads must override layout-book display:inline */
+    body.hide-vn #okuyucu_layout.layout-book .vn { display: none; }
+    body.hide-vn #okuyucu_layout.layout-book .chapter-num { display: none; }
+    body.hide-heads #okuyucu_layout.layout-book .section-head { display: none; }
+    body.hide-heads #okuyucu_layout.layout-book .chapter-title { display: none; }
+
     /* ===== PANELS ===== */
     .panel {
       position: fixed;
@@ -1618,6 +1661,7 @@
       <label class="panel-option active"><input type="radio" name="layout" value="cols" checked> Sütun</label>
       <label class="panel-option"><input type="radio" name="layout" value="rows"> Satır</label>
       <label class="panel-option"><input type="radio" name="layout" value="grid"> Sütun ve Satır</label>
+      <label class="panel-option"><input type="radio" name="layout" value="book"> Kitap Görünümü</label>
     </div>
   </div>
 </div>
@@ -1706,8 +1750,8 @@
   const SEL1866_NOTE  = 'Selim Efendi / W. Schauffler tercümesi (1866–77); Tevrat, Mezmurlar, Yeşaya ve Yeni Ahit\'in tüm kitaplarını kapsamaktadır. Bu bölüm bu tercümede mevcut değil.';
   const HAKK_NT_BOOKS = new Set(['MAT','MRK','LUK','JHN','ACT','ROM','1CO','2CO','GAL','EPH','PHP','COL','1TH','2TH','1TI','2TI','TIT','PHM','HEB','JAS','1PE','2PE','1JN','2JN','3JN','JUD','REV']);
   const HAKK_NOTE     = 'Halk Dilinde Kutsal Kitap\'ın Eski Ahit bölümü yakında eklenecektir.';
-  const HKTN_BOOKS    = new Set(['MAT','MRK','LUK','JHN']);
-  const HKTN_NOTE     = 'Ekümenik Kutsal Kitap hem Eski Ahit hem de Yeni Ahit\'i kapsamaktadır. Diğer kitaplar yakında eklenecektir.';
+  const HKTN_BOOKS    = new Set(['MAT','MRK','LUK','JHN','ACT','ROM','1CO','2CO','GAL','EPH','PHP','COL','1TH','2TH','1TI','2TI','TIT','PHM','HEB','JAS','1PE','2PE','1JN','2JN','3JN','JUD','REV']);
+  const HKTN_NOTE     = 'Ekümenik Kutsal Kitap hem Eski Ahit hem de Yeni Ahit\'i kapsamaktadır. Eski Ahit kitapları yakında eklenecektir.';
   const NSH1739_BOOKS = new Set(['GEN']);
   const NSH1739_NOTE  = 'NSH1739 çevirisi yalnızca Yaratılış kitabının ilk 4 bölümünü kapsamaktadır.';
   const MEZ1669_BOOKS = new Set(['PSA']);
@@ -1813,7 +1857,7 @@
       { id:'KMEYA',    name:'Kitab-ı Mukaddes',                      year:1941, loaded:true  },
       { id:'TCL02',    name:'Yeni Çeviri',                           year:2001, loaded:true  },
       { id:'AREMSI',   name:'FONDATSİYA "AR EM Sİ"',                 year:2007, loaded:true  },
-      { id:'HKTN',     name:'Ekümenik Kutsal Kitap',                  year:2007, loaded:false  },
+      { id:'HKTN',     name:'Ekümenik Kutsal Kitap',                  year:2007, loaded:true   },
       { id:'YTC',      name:'Yorumsuz Türkçe Çeviri',                 year:2023, loaded:true  },
       { id:'HAKK',     name:'Halk Dilinde Kutsal Kitap',              year:2024, loaded:true  },
     ],
@@ -2168,6 +2212,8 @@
       const { cols } = calcGrid(n);
       container.classList.add('layout-grid');
       container.style.setProperty('--grid-cols', cols);
+    } else if (layoutMode === 'book') {
+      container.classList.add('layout-book');
     }
     // default ('cols') keeps no extra class
 
