@@ -1578,6 +1578,7 @@
       <button class="hdr-btn" id="btn-share" title="Bağlantıyı paylaş">Paylaş</button>
       <div id="header-links">
         <a href="index.html">Ana Sayfa</a>
+        <a href="interlinear.html">Dil İnceleme</a>
         <a href="#">Hakkımızda</a>
         <a href="#">Yardım</a>
       </div>
@@ -1642,6 +1643,7 @@
     <div class="panel-row-group">
       <label class="panel-option active" id="toggle-vn"><input type="checkbox" id="chk-vn" checked> Ayet numaralarını göster</label>
       <label class="panel-option active" id="toggle-heads"><input type="checkbox" id="chk-heads" checked> Bölüm başlıklarını göster</label>
+      <label class="panel-option" id="toggle-book"><input type="checkbox" id="chk-book"> Kitap Görünümü</label>
     </div>
   </div>
   <div class="panel-section">
@@ -1661,7 +1663,6 @@
       <label class="panel-option active"><input type="radio" name="layout" value="cols" checked> Sütun</label>
       <label class="panel-option"><input type="radio" name="layout" value="rows"> Satır</label>
       <label class="panel-option"><input type="radio" name="layout" value="grid"> Sütun ve Satır</label>
-      <label class="panel-option"><input type="radio" name="layout" value="book"> Kitap Görünümü</label>
     </div>
   </div>
 </div>
@@ -2206,13 +2207,14 @@
       });
     const n   = ids.length;
 
-    if (layoutMode === 'rows') {
+    const effectiveLayout = document.getElementById('chk-book')?.checked ? 'book' : layoutMode;
+    if (effectiveLayout === 'rows') {
       container.classList.add('layout-rows');
-    } else if (layoutMode === 'grid' && n > 1) {
+    } else if (effectiveLayout === 'grid' && n > 1) {
       const { cols } = calcGrid(n);
       container.classList.add('layout-grid');
       container.style.setProperty('--grid-cols', cols);
-    } else if (layoutMode === 'book') {
+    } else if (effectiveLayout === 'book') {
       container.classList.add('layout-book');
     }
     // default ('cols') keeps no extra class
@@ -2770,6 +2772,8 @@
   document.querySelectorAll('input[name="layout"]').forEach(r => {
     r.addEventListener('change', () => {
       layoutMode = r.value;
+      const chkBook = document.getElementById('chk-book');
+      if (chkBook) { chkBook.checked = false; document.getElementById('toggle-book').classList.remove('active'); }
       document.querySelectorAll('#panel-style .panel-option').forEach(o =>
         o.classList.toggle('active', o.querySelector('input')?.checked));
       rebuildColumns();
@@ -2831,6 +2835,10 @@
     document.body.classList.toggle('hide-vn', !e.target.checked));
   document.getElementById('chk-heads').addEventListener('change', e =>
     document.body.classList.toggle('hide-heads', !e.target.checked));
+  document.getElementById('chk-book').addEventListener('change', e => {
+    document.getElementById('toggle-book').classList.toggle('active', e.target.checked);
+    rebuildColumns();
+  });
 
   // ── Button wiring ─────────────────────────────────────────────────────
   document.getElementById('btn-books').addEventListener('click', function(e) {

@@ -1,0 +1,1126 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Dil İnceleme — Kutsal Kitap Forum</title>
+  <link href="https://fonts.googleapis.com/css2?family=Cardo:ital@0;1&family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Source+Sans+3:wght@400;500;600&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg:          #0f0f0e;
+      --bg2:         #1a1917;
+      --bg3:         #242320;
+      --bg4:         #2c2a27;
+      --text:        #f0e8d8;
+      --text2:       #9a8f80;
+      --text3:       #5a524a;
+      --gold:        #b89a2a;
+      --gold-light:  #d4b84a;
+      --gold-dim:    rgba(184,154,42,0.13);
+      --border:      rgba(255,255,255,0.07);
+      --border2:     rgba(255,255,255,0.12);
+      --accent-blue: #6090b8;
+      --accent-green:#5e9668;
+      --sidebar-bg:  #0d1a25;
+      --sidebar-bdr: rgba(184,146,42,0.15);
+    }
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    html, body {
+      height: 100%; overflow: hidden;
+      background: var(--bg); color: var(--text);
+      font-family: 'Source Sans 3', 'Segoe UI', system-ui, sans-serif;
+      font-size: 14px; line-height: 1.5;
+    }
+
+    /* ── PAGE SHELL ─────────────────────────────────── */
+    .shell {
+      display: flex; flex-direction: column;
+      height: 100%; overflow: hidden;
+    }
+
+    /* ── HEADER ─────────────────────────────────────── */
+    .hdr {
+      flex-shrink: 0; z-index: 200;
+      display: flex; align-items: center; gap: 10px;
+      height: 46px; padding: 0 18px;
+      background: var(--bg2); border-bottom: 1px solid var(--border);
+    }
+    .hdr-logo {
+      display: flex; align-items: center; gap: 8px;
+      text-decoration: none; color: inherit;
+    }
+    .hdr-logo img { height: 24px; }
+    .hdr-logo-name {
+      font-family: 'EB Garamond', Georgia, serif;
+      font-size: 15px; opacity: 0.8; letter-spacing: 0.01em;
+    }
+    .hdr-sep { width: 1px; height: 18px; background: var(--border2); margin: 0 4px; }
+    .hdr-page {
+      font-family: 'EB Garamond', Georgia, serif;
+      font-size: 16px; color: var(--gold-light); letter-spacing: 0.015em;
+    }
+    .hdr-space { flex: 1; }
+    .hdr-back {
+      font-size: 12.5px; color: var(--text2);
+      text-decoration: none; padding: 4px 10px;
+      border: 1px solid transparent; border-radius: 4px;
+      transition: color .15s, border-color .15s;
+    }
+    .hdr-back:hover { color: var(--text); border-color: var(--border2); }
+
+    /* ── NAV BAR ─────────────────────────────────────── */
+    .nav-bar {
+      flex-shrink: 0;
+      display: flex; align-items: center; gap: 8px;
+      padding: 9px 18px; flex-wrap: wrap;
+      background: var(--bg2); border-bottom: 1px solid var(--border);
+      z-index: 190;
+    }
+    .nav-lbl {
+      font-size: 10.5px; font-weight: 600; letter-spacing: 0.09em;
+      text-transform: uppercase; color: var(--text3);
+    }
+    select.ns {
+      background: var(--bg3); color: var(--text);
+      border: 1px solid var(--border2); border-radius: 5px;
+      padding: 4px 28px 4px 10px; font-size: 13px;
+      font-family: inherit; cursor: pointer; outline: none;
+      appearance: none;
+      background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='6'%3E%3Cpath d='M0 0l5 6 5-6z' fill='%236a6050'/%3E%3C/svg%3E");
+      background-repeat: no-repeat; background-position: right 8px center;
+      transition: border-color .15s;
+    }
+    select.ns:focus, select.ns:hover { border-color: var(--gold); }
+    .nav-arrow {
+      background: var(--bg3); color: var(--text2);
+      border: 1px solid var(--border2); border-radius: 5px;
+      padding: 4px 9px; font-size: 15px; cursor: pointer;
+      line-height: 1; transition: color .15s, border-color .15s;
+    }
+    .nav-arrow:hover { color: var(--text); border-color: var(--gold); }
+    .nav-arrow:disabled { opacity: 0.25; cursor: default; pointer-events: none; }
+    .nav-vsep { width: 1px; height: 18px; background: var(--border); margin: 0 4px; }
+    .nav-right { margin-left: auto; display: flex; gap: 6px; align-items: center; }
+    .tog {
+      font-size: 11.5px; cursor: pointer;
+      padding: 3px 10px; border-radius: 4px;
+      border: 1px solid var(--border2);
+      background: var(--bg3); color: var(--text2);
+      transition: color .15s, border-color .15s, background .15s;
+    }
+    .tog.on { color: var(--gold-light); border-color: rgba(184,154,42,0.4); background: var(--gold-dim); }
+
+    /* ── READER WRAPPER (content + sidebar) ─────────── */
+    .reader-wrapper {
+      flex: 1; display: flex; flex-direction: row;
+      overflow: hidden; min-height: 0;
+    }
+
+    /* ── SCROLLABLE CONTENT ──────────────────────────── */
+    .scroll-area {
+      flex: 1; overflow-y: auto;
+      overscroll-behavior-y: none;
+      padding: 28px 24px 80px;
+    }
+
+    .ch-title {
+      font-family: 'EB Garamond', Georgia, serif;
+      font-size: 30px; font-weight: 400;
+      color: var(--gold-light); letter-spacing: -0.01em;
+      margin-bottom: 30px;
+      padding-bottom: 14px;
+      border-bottom: 1px solid var(--border);
+    }
+
+    /* ── VERSE BLOCK ─────────────────────────────────── */
+    .vb { margin-bottom: 28px; }
+    .vb-num {
+      font-size: 10px; font-weight: 700; letter-spacing: 0.1em;
+      color: var(--gold); opacity: 0.65;
+      display: inline-block; margin-bottom: 6px;
+    }
+    .words { display: flex; flex-wrap: wrap; gap: 4px 5px; align-items: flex-start; }
+
+    /* ── WORD TOKEN ──────────────────────────────────── */
+    .wt {
+      display: inline-flex; flex-direction: column;
+      align-items: center; gap: 2px;
+      padding: 7px 8px 6px;
+      background: rgba(255,255,255,0.025);
+      border: 1px solid rgba(255,255,255,0.07);
+      border-radius: 5px; text-align: center;
+      cursor: pointer; min-width: 46px;
+      transition: background .12s, border-color .12s, transform .1s;
+      user-select: none;
+    }
+    .wt:hover {
+      background: rgba(184,154,42,0.07);
+      border-color: rgba(184,154,42,0.25);
+      transform: translateY(-1px);
+    }
+    .wt.active {
+      background: rgba(184,154,42,0.12);
+      border-color: rgba(184,154,42,0.5);
+      box-shadow: 0 0 0 1px rgba(184,154,42,0.2);
+    }
+    .wt.var { border-color: rgba(90,130,180,0.25); background: rgba(90,130,180,0.04); }
+    .wt.var:hover { background: rgba(90,130,180,0.1); border-color: rgba(90,130,180,0.45); }
+    .wt.var.active { background: rgba(90,130,180,0.15); border-color: rgba(90,130,180,0.6); }
+
+    .wt-g  { font-family: 'Cardo','GFS Didot',Georgia,serif; font-size: 18px; line-height: 1.15; color: var(--text); }
+    .wt-tr { font-size: 10px; font-style: italic; color: var(--text2); line-height: 1; }
+    .wt-st { font-size: 9.5px; font-weight: 700; color: var(--gold); opacity: 0.85; line-height: 1; }
+    .wt-gl { font-size: 10px; color: var(--accent-green); line-height: 1.1; max-width: 88px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+    .wt-cx { font-size: 10px; color: var(--accent-blue); line-height: 1.1; max-width: 88px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+    .wt-mp { font-size: 9px; color: var(--text3); line-height: 1; }
+    /* visibility controlled by body classes — hide by default if no class */
+    body:not(.show-tr) .wt-tr { display: none; }
+    body:not(.show-st) .wt-st { display: none; }
+    body:not(.show-gl) .wt-gl { display: none; }
+    body:not(.show-cx) .wt-cx { display: none; }
+    body:not(.show-mp) .wt-mp { display: none; }
+    .wt-vbadge { font-size: 8px; color: #6a8cb0; line-height: 1; opacity: 0.75; }
+
+    /* ── SETTINGS PANEL ─────────────────────────────── */
+    #settings-btn {
+      display: flex; align-items: center; gap: 5px;
+      font-size: 12px; cursor: pointer;
+      padding: 4px 11px; border-radius: 4px;
+      border: 1px solid var(--border2);
+      background: var(--bg3); color: var(--text2);
+      transition: color .15s, border-color .15s, background .15s;
+    }
+    #settings-btn:hover, #settings-btn.open {
+      color: var(--gold-light);
+      border-color: rgba(184,154,42,0.4);
+      background: var(--gold-dim);
+    }
+    #settings-btn svg { flex-shrink: 0; transition: transform .4s; }
+    #settings-btn.open svg { transform: rotate(60deg); }
+
+    #settings-overlay {
+      display: none;
+      position: fixed; inset: 0; z-index: 500;
+    }
+    #settings-overlay.open { display: block; }
+
+    #settings-panel {
+      position: absolute;
+      top: 92px; right: 18px;
+      width: 290px;
+      background: #111210;
+      border: 1px solid rgba(184,154,42,0.2);
+      border-radius: 10px;
+      box-shadow: 0 8px 32px rgba(0,0,0,0.55), 0 2px 8px rgba(0,0,0,0.4);
+      overflow: hidden;
+      animation: panelIn .15s cubic-bezier(.2,0,.2,1);
+    }
+    @keyframes panelIn {
+      from { opacity: 0; transform: translateY(-6px) scale(.98); }
+      to   { opacity: 1; transform: none; }
+    }
+
+    .sp-header {
+      padding: 12px 16px 10px;
+      border-bottom: 1px solid rgba(255,255,255,0.07);
+      display: flex; align-items: center; justify-content: space-between;
+    }
+    .sp-header-title {
+      font-size: 11px; font-weight: 700; letter-spacing: 0.12em;
+      text-transform: uppercase; color: rgba(184,154,42,0.6);
+    }
+    .sp-header-close {
+      background: none; border: none; cursor: pointer;
+      color: var(--text3); font-size: 16px; line-height: 1; padding: 2px 4px;
+      border-radius: 3px; transition: color .15s;
+    }
+    .sp-header-close:hover { color: var(--text); }
+
+    .sp-rows { padding: 8px 0 12px; }
+
+    .sp-row {
+      display: flex; align-items: center;
+      padding: 9px 16px; gap: 12px;
+      transition: background .1s;
+    }
+    .sp-row:hover { background: rgba(255,255,255,0.03); }
+
+    .sp-row-info { flex: 1; min-width: 0; }
+    .sp-row-label {
+      font-size: 13px; color: var(--text); line-height: 1.2;
+    }
+    .sp-row-desc {
+      font-size: 10.5px; color: var(--text3); margin-top: 1px; line-height: 1.3;
+    }
+    .sp-row-sample {
+      font-size: 10px; margin-top: 3px; line-height: 1;
+    }
+
+    /* pill toggle switch */
+    .sw { position: relative; width: 36px; height: 20px; flex-shrink: 0; }
+    .sw input { opacity: 0; width: 0; height: 0; position: absolute; }
+    .sw-track {
+      position: absolute; inset: 0; border-radius: 10px;
+      background: rgba(255,255,255,0.1);
+      border: 1px solid rgba(255,255,255,0.12);
+      transition: background .2s, border-color .2s;
+      cursor: pointer;
+    }
+    .sw-track::after {
+      content: ''; position: absolute;
+      top: 2px; left: 2px;
+      width: 14px; height: 14px; border-radius: 50%;
+      background: rgba(255,255,255,0.35);
+      transition: transform .2s cubic-bezier(.4,0,.2,1), background .2s;
+    }
+    .sw input:checked + .sw-track {
+      background: rgba(184,154,42,0.35);
+      border-color: rgba(184,154,42,0.5);
+    }
+    .sw input:checked + .sw-track::after {
+      transform: translateX(16px);
+      background: var(--gold-light);
+    }
+
+    /* divider */
+    .sp-divider {
+      height: 1px; background: rgba(255,255,255,0.05);
+      margin: 4px 0;
+    }
+
+    /* ── SIDEBAR PANEL ───────────────────────────────── */
+    #strongs-panel {
+      width: 0; overflow: hidden;
+      flex-shrink: 0;
+      transition: width 0.28s cubic-bezier(0.4, 0, 0.2, 1);
+      background: var(--sidebar-bg);
+      display: flex; flex-direction: column;
+    }
+    #strongs-panel.open {
+      width: 360px;
+      border-left: 1px solid var(--sidebar-bdr);
+    }
+
+    .sp-inner {
+      width: 360px; /* fixed inner width so content doesn't squeeze during animation */
+      display: flex; flex-direction: column;
+      height: 100%;
+    }
+
+    /* title bar */
+    .sp-titlebar {
+      flex-shrink: 0;
+      padding: 11px 16px 10px;
+      border-bottom: 1px solid var(--sidebar-bdr);
+      display: flex; align-items: flex-start; justify-content: space-between;
+      gap: 12px;
+    }
+    .sp-title-left { display: flex; flex-direction: column; gap: 2px; }
+    .sp-label {
+      font-size: 8.5px; font-weight: 700; letter-spacing: 0.2em;
+      text-transform: uppercase; color: rgba(184,146,42,0.55);
+      font-family: 'Source Sans 3', sans-serif;
+    }
+    .sp-word-display {
+      font-family: 'Cardo', Georgia, serif;
+      font-size: 22px; line-height: 1.1; color: var(--text);
+    }
+    .sp-translit {
+      font-size: 12px; font-style: italic; color: var(--text2); margin-top: 1px;
+    }
+    .sp-close {
+      background: none; border: none; cursor: pointer;
+      color: var(--text3); font-size: 18px; padding: 2px 4px;
+      border-radius: 3px; line-height: 1;
+      transition: color .15s, background .15s;
+      flex-shrink: 0; margin-top: 2px;
+    }
+    .sp-close:hover { color: var(--text); background: rgba(255,255,255,0.07); }
+
+    /* body */
+    .sp-body {
+      flex: 1; overflow-y: auto;
+      overscroll-behavior-y: none;
+      padding: 14px 16px 24px;
+      display: flex; flex-direction: column; gap: 16px;
+    }
+
+    /* section */
+    .sp-section { display: flex; flex-direction: column; gap: 6px; }
+    .sp-section-title {
+      font-size: 9px; font-weight: 700; letter-spacing: 0.18em;
+      text-transform: uppercase; color: var(--text3);
+      padding-bottom: 4px;
+      border-bottom: 1px solid var(--border);
+    }
+
+    /* strong number badge */
+    .sp-strongs-badge {
+      display: inline-flex; align-items: center; gap: 6px;
+    }
+    .sp-strongs-num {
+      font-size: 20px; font-weight: 700;
+      color: var(--gold); letter-spacing: 0.02em;
+      line-height: 1;
+    }
+    .sp-strongs-link {
+      font-size: 11px; color: var(--accent-blue);
+      text-decoration: none; opacity: 0.8;
+      border-bottom: 1px solid rgba(96,144,184,0.3);
+      transition: opacity .15s;
+    }
+    .sp-strongs-link:hover { opacity: 1; }
+
+    /* lexical entry */
+    .sp-lexical {
+      font-family: 'Cardo', Georgia, serif;
+      font-size: 17px; color: var(--text);
+    }
+    .sp-gloss {
+      font-size: 14px; color: var(--text);
+      line-height: 1.5;
+    }
+    .sp-translation {
+      font-size: 13px; color: var(--accent-blue);
+      font-style: italic; line-height: 1.5;
+    }
+
+    /* morphology grid */
+    .sp-morph-grid {
+      display: grid; grid-template-columns: auto 1fr;
+      gap: 4px 12px;
+    }
+    .sp-morph-key {
+      font-size: 11px; color: var(--text3);
+      font-weight: 600; letter-spacing: 0.04em;
+      align-self: start; padding-top: 1px;
+    }
+    .sp-morph-val {
+      font-size: 12px; color: var(--text);
+      line-height: 1.45;
+    }
+    .sp-morph-code {
+      font-size: 10px; color: var(--text3);
+      font-family: monospace;
+      margin-top: 2px; display: block;
+    }
+
+    /* pronunciation */
+    .sp-pronunc {
+      font-size: 13px; color: var(--text2);
+      font-style: italic; line-height: 1.4;
+    }
+    .sp-phonetic {
+      font-size: 11px; color: var(--text3); line-height: 1;
+    }
+
+    /* POS + origin row */
+    .sp-meta-row {
+      display: flex; flex-wrap: wrap; gap: 4px 10px;
+    }
+    .sp-tag {
+      font-size: 11px; padding: 2px 7px; border-radius: 3px;
+      background: rgba(255,255,255,0.05);
+      border: 1px solid var(--border2);
+      color: var(--text2); line-height: 1.5;
+    }
+
+    /* definition paragraphs */
+    .sp-def-text {
+      font-size: 13px; color: var(--text);
+      line-height: 1.65;
+    }
+    .sp-def-text + .sp-def-text { margin-top: 8px; }
+    .sp-origin {
+      font-size: 12px; color: var(--text2);
+      line-height: 1.5; font-style: italic;
+    }
+
+    /* NASB usage */
+    .sp-nasb {
+      font-size: 12px; color: var(--text2); line-height: 1.55;
+    }
+    .sp-nasb-label {
+      font-size: 10px; font-weight: 600; letter-spacing: 0.07em;
+      color: var(--text3); text-transform: uppercase;
+      display: block; margin-bottom: 3px;
+    }
+
+    /* variant note */
+    .sp-variant-note {
+      font-size: 11.5px; color: #6a8cb0;
+      background: rgba(90,130,180,0.08);
+      border: 1px solid rgba(90,130,180,0.2);
+      border-radius: 5px; padding: 8px 10px;
+      line-height: 1.5;
+    }
+
+    /* loading state in panel */
+    .sp-loading { color: var(--text3); font-size: 12px; font-style: italic; }
+
+    /* empty state */
+    .sp-empty { color: var(--text3); font-style: italic; font-size: 13px; }
+
+    /* ── LOADING / EMPTY STATES ──────────────────────── */
+    .state { padding: 60px 0; color: var(--text3); text-align: center; font-style: italic; }
+
+    /* ── LEGEND ──────────────────────────────────────── */
+    .legend {
+      margin-top: 48px; padding: 14px 18px;
+      background: var(--bg2); border: 1px solid var(--border);
+      border-radius: 7px;
+      display: flex; flex-wrap: wrap; gap: 12px 22px;
+    }
+    .li { display: flex; align-items: center; gap: 6px; font-size: 11.5px; color: var(--text2); }
+    .li-dot { width: 9px; height: 9px; border-radius: 50%; flex-shrink: 0; }
+
+    /* ── MOBILE OVERLAY ──────────────────────────────── */
+    @media (max-width: 700px) {
+      #strongs-panel.open { width: 100%; position: absolute; right: 0; top: 92px; bottom: 0; z-index: 300; }
+      .sp-inner { width: 100%; }
+    }
+  </style>
+</head>
+<body>
+<div class="shell">
+
+  <!-- HEADER -->
+  <header class="hdr">
+    <a class="hdr-logo" href="index.html">
+      <img src="brand_assets/logo.png" alt="Kutsal Kitap Forum">
+      <span class="hdr-logo-name">Kutsal Kitap Forum</span>
+    </a>
+    <div class="hdr-sep"></div>
+    <span class="hdr-page">Dil İnceleme</span>
+    <div class="hdr-space"></div>
+    <a class="hdr-back" href="compare.html">← Karşılaştır</a>
+  </header>
+
+  <!-- NAV -->
+  <nav class="nav-bar">
+    <span class="nav-lbl">Kitap</span>
+    <select class="ns" id="sel-book"></select>
+    <div class="nav-vsep"></div>
+    <span class="nav-lbl">Bölüm</span>
+    <button class="nav-arrow" id="btn-prev">‹</button>
+    <select class="ns" id="sel-ch"></select>
+    <button class="nav-arrow" id="btn-next">›</button>
+    <div class="nav-right">
+      <button id="settings-btn" title="Gösterim ayarları">
+        <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+          <circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1-2.83 2.83l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-4 0v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83-2.83l.06-.06A1.65 1.65 0 0 0 4.68 15a1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1 0-4h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 2.83-2.83l.06.06A1.65 1.65 0 0 0 9 4.68a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 4 0v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 2.83l-.06.06A1.65 1.65 0 0 0 19.4 9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 0 4h-.09a1.65 1.65 0 0 0-1.51 1z"/>
+        </svg>
+        Ayarlar
+      </button>
+    </div>
+  </nav>
+
+  <!-- READER WRAPPER -->
+  <div class="reader-wrapper">
+
+    <!-- MAIN SCROLL AREA -->
+    <div class="scroll-area" id="scroll-area">
+      <div class="state" id="state">Lütfen kitap ve bölüm seçin.</div>
+    </div>
+
+    <!-- STRONGS SIDEBAR PANEL -->
+    <div id="strongs-panel">
+      <div class="sp-inner">
+        <div class="sp-titlebar">
+          <div class="sp-title-left">
+            <span class="sp-label">Strong's Sözlüğü</span>
+            <span class="sp-word-display" id="sp-word">—</span>
+            <span class="sp-translit" id="sp-translit"></span>
+          </div>
+          <button class="sp-close" id="sp-close" title="Kapat">✕</button>
+        </div>
+        <div class="sp-body" id="sp-body">
+          <div class="sp-empty">Bir kelimeye tıklayın.</div>
+        </div>
+      </div>
+    </div>
+
+  </div><!-- /.reader-wrapper -->
+</div><!-- /.shell -->
+
+<!-- SETTINGS OVERLAY -->
+<div id="settings-overlay">
+  <div id="settings-panel">
+    <div class="sp-header">
+      <span class="sp-header-title">Gösterim Seçenekleri</span>
+      <button class="sp-header-close" id="settings-close">✕</button>
+    </div>
+    <div class="sp-rows">
+
+      <div class="sp-row">
+        <div class="sp-row-info">
+          <div class="sp-row-label">Yunanca</div>
+          <div class="sp-row-desc">Sözcüğün Yunanca formu</div>
+          <div class="sp-row-sample" style="color:#f0e8d8;font-family:'Cardo',serif;font-size:15px;">ἀγαπάω</div>
+        </div>
+        <label class="sw">
+          <input type="checkbox" id="sw-greek" checked disabled>
+          <span class="sw-track"></span>
+        </label>
+      </div>
+
+      <div class="sp-divider"></div>
+
+      <div class="sp-row">
+        <div class="sp-row-info">
+          <div class="sp-row-label">Transliterasyon</div>
+          <div class="sp-row-desc">Latin harfleriyle okunuşu</div>
+          <div class="sp-row-sample" style="color:#9a8f80;font-style:italic;">agapaó</div>
+        </div>
+        <label class="sw">
+          <input type="checkbox" id="sw-tr">
+          <span class="sw-track"></span>
+        </label>
+      </div>
+
+      <div class="sp-row">
+        <div class="sp-row-info">
+          <div class="sp-row-label">Strong's Numarası</div>
+          <div class="sp-row-desc">Sözlük referans numarası</div>
+          <div class="sp-row-sample" style="color:#b89a2a;font-weight:700;">G25</div>
+        </div>
+        <label class="sw">
+          <input type="checkbox" id="sw-st">
+          <span class="sw-track"></span>
+        </label>
+      </div>
+
+      <div class="sp-row">
+        <div class="sp-row-info">
+          <div class="sp-row-label">Sözlük Anlamı</div>
+          <div class="sp-row-desc">Strong's sözlük tanımı</div>
+          <div class="sp-row-sample" style="color:#5e9668;">to love</div>
+        </div>
+        <label class="sw">
+          <input type="checkbox" id="sw-gl">
+          <span class="sw-track"></span>
+        </label>
+      </div>
+
+      <div class="sp-row">
+        <div class="sp-row-info">
+          <div class="sp-row-label">Bağlamsal Çeviri</div>
+          <div class="sp-row-desc">Bu ayette nasıl çevrildiği</div>
+          <div class="sp-row-sample" style="color:#6090b8;">loved</div>
+        </div>
+        <label class="sw">
+          <input type="checkbox" id="sw-cx">
+          <span class="sw-track"></span>
+        </label>
+      </div>
+
+      <div class="sp-row">
+        <div class="sp-row-info">
+          <div class="sp-row-label">Morfoloji</div>
+          <div class="sp-row-desc">Dilbilgisi kodu</div>
+          <div class="sp-row-sample" style="color:#5a524a;">V-AAI-3S</div>
+        </div>
+        <label class="sw">
+          <input type="checkbox" id="sw-mp">
+          <span class="sw-track"></span>
+        </label>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<script>
+const BOOKS = [
+  {c:'MAT',n:'Matta',ch:28},          {c:'MRK',n:'Markos',ch:16},
+  {c:'LUK',n:'Luka',ch:24},           {c:'JHN',n:'Yuhanna',ch:21},
+  {c:'ACT',n:'Elçilerin İşleri',ch:28},{c:'ROM',n:'Romalılar',ch:16},
+  {c:'1CO',n:'1. Korintliler',ch:16}, {c:'2CO',n:'2. Korintliler',ch:13},
+  {c:'GAL',n:'Galatyalılar',ch:6},    {c:'EPH',n:'Efesliler',ch:6},
+  {c:'PHP',n:'Filipililer',ch:4},     {c:'COL',n:'Koloseliler',ch:4},
+  {c:'1TH',n:'1. Selanikliler',ch:5}, {c:'2TH',n:'2. Selanikliler',ch:3},
+  {c:'1TI',n:'1. Timoteos',ch:6},     {c:'2TI',n:'2. Timoteos',ch:4},
+  {c:'TIT',n:'Titus',ch:3},           {c:'PHM',n:'Filemon',ch:1},
+  {c:'HEB',n:'İbraniler',ch:13},      {c:'JAS',n:'Yakup',ch:5},
+  {c:'1PE',n:'1. Petrus',ch:5},       {c:'2PE',n:'2. Petrus',ch:3},
+  {c:'1JN',n:'1. Yuhanna',ch:5},      {c:'2JN',n:'2. Yuhanna',ch:1},
+  {c:'3JN',n:'3. Yuhanna',ch:1},      {c:'JUD',n:'Yahuda',ch:1},
+  {c:'REV',n:'Vahiy',ch:22},
+];
+
+// ── Morphology parser ─────────────────────────────────────────────
+const POS_LABELS = {
+  N:'İsim', V:'Fiil', A:'Sıfat', T:'Tanımlık', P:'Zamir', ADV:'Zarf',
+  CONJ:'Bağlaç', PREP:'Edat', PRT:'Parçacık', INJ:'Ünlem',
+  HEB:'İbranice', ARAM:'Aramice',
+};
+const CASE_L = { N:'Yalın (Nominative)', G:'İyelik (Genitive)', D:'Yönelme (Dative)', A:'Belirtme (Accusative)', V:'Seslenme (Vocative)' };
+const NUM_L  = { S:'Tekil', P:'Çoğul' };
+const GEN_L  = { M:'Eril', F:'Dişil', N:'Nötr' };
+const TENSE_L= { P:'Geniş (Present)', I:'Geçmiş-süregelen (Imperfect)', F:'Gelecek (Future)', A:'Geçmiş (Aorist)', R:'Mükemmel (Perfect)', L:'Artık-mükemmel (Pluperfect)', '2':'2. ' };
+const VOICE_L= { A:'Etken (Active)', M:'Orta (Middle)', P:'Edilgen (Passive)', E:'Orta/Edilgen', D:'Orta Depon', O:'Edilgen Depon', N:'Orta/Edilgen Depon', Q:'Orta Depon veya Edilgen', X:'Belirsiz' };
+const MOOD_L = { I:'Bildirme (Indicative)', S:'Dilek (Subjunctive)', O:'İstek (Optative)', D:'Emir (Imperative)', N:'Mastar (Infinitive)', P:'Ortaç (Participle)', R:'Katılımsallaştırıcı' };
+const PERS_L = { '1':'1.','2':'2.','3':'3.' };
+
+function parseMorph(code) {
+  if (!code) return [];
+  const rows = [];
+  const parts = code.split('-');
+  const pos = parts[0];
+
+  const posLabel = POS_LABELS[pos];
+  if (posLabel) rows.push(['Sözcük türü', posLabel]);
+  else rows.push(['Sözcük türü', pos]);
+
+  if (pos === 'V' && parts.length >= 2) {
+    // Verb: T-V-M[-PS]
+    const tvm = parts[1] || '';
+    // tvm can be like AAI, PAP, etc.
+    // Some have compound tense like 2AAI
+    let offset = 0;
+    if (tvm[0] === '2') { rows.push(['Tip','2. ' + (TENSE_L[tvm[1]] || tvm[1])]); offset = 1; }
+    else rows.push(['Zaman', TENSE_L[tvm[0]] || tvm[0]]);
+    rows.push(['Çatı', VOICE_L[tvm[offset+1]] || tvm[offset+1]]);
+    rows.push(['Kip', MOOD_L[tvm[offset+2]] || tvm[offset+2]]);
+    // person-number in parts[2]
+    if (parts[2]) {
+      const ps = parts[2];
+      rows.push(['Şahıs', (PERS_L[ps[0]]||ps[0]) + ' şahıs']);
+      rows.push(['Sayı', NUM_L[ps[1]] || ps[1]]);
+    }
+  } else if ((pos === 'N' || pos === 'A' || pos === 'T') && parts[1]) {
+    const cng = parts[1];
+    rows.push(['Durum', CASE_L[cng[0]] || cng[0]]);
+    rows.push(['Sayı',  NUM_L[cng[1]]  || cng[1]]);
+    rows.push(['Cins',  GEN_L[cng[2]]  || cng[2]]);
+  } else if (pos === 'P' && parts[1]) {
+    const cng = parts[1];
+    if (CASE_L[cng[0]]) rows.push(['Durum', CASE_L[cng[0]]]);
+    if (NUM_L[cng[1]])  rows.push(['Sayı',  NUM_L[cng[1]]]);
+    if (GEN_L[cng[2]])  rows.push(['Cins',  GEN_L[cng[2]]]);
+  }
+
+  return rows;
+}
+
+// ── UI state ──────────────────────────────────────────────────────
+const selBook    = document.getElementById('sel-book');
+const selCh      = document.getElementById('sel-ch');
+const btnPrev    = document.getElementById('btn-prev');
+const btnNext    = document.getElementById('btn-next');
+const scrollArea = document.getElementById('scroll-area');
+const panel      = document.getElementById('strongs-panel');
+const spWord     = document.getElementById('sp-word');
+const spTranslit = document.getElementById('sp-translit');
+const spBody     = document.getElementById('sp-body');
+
+let book = 'JHN', chap = 1;
+let activeToken = null;
+let lexicon = null;        // map: numeric id → entry object, loaded async
+
+// ── Load lexicon in background ────────────────────────────────────
+(async () => {
+  try {
+    const r = await fetch('data/strongs/greek.json');
+    if (!r.ok) return;
+    const arr = await r.json();
+    lexicon = {};
+    arr.forEach(e => { lexicon[e.id] = e; });
+  } catch { /* lexicon stays null; panel uses fallback data */ }
+})();
+
+// Populate book dropdown
+BOOKS.forEach(b => {
+  const o = document.createElement('option');
+  o.value = b.c; o.textContent = b.n;
+  selBook.appendChild(o);
+});
+
+function populateCh(max) {
+  selCh.innerHTML = '';
+  for (let i = 1; i <= max; i++) {
+    const o = document.createElement('option');
+    o.value = i; o.textContent = i;
+    selCh.appendChild(o);
+  }
+}
+
+// ── Strong's panel ────────────────────────────────────────────────
+function openStrongs(tokenEl, wordData) {
+  if (activeToken && activeToken !== tokenEl) activeToken.classList.remove('active');
+  if (activeToken === tokenEl) {
+    tokenEl.classList.remove('active');
+    activeToken = null;
+    panel.classList.remove('open');
+    return;
+  }
+  activeToken = tokenEl;
+  tokenEl.classList.add('active');
+  panel.classList.add('open');
+
+  // Resolve lexicon entry
+  const numId = wordData.st ? parseInt(wordData.st.replace('G', ''), 10) : null;
+  const lex   = (lexicon && numId) ? lexicon[numId] : null;
+
+  // Header: prefer lexicon word, fall back to token data
+  spWord.textContent     = (lex && lex.word) || wordData.l || wordData.w || '—';
+  spTranslit.textContent = (lex && lex.translit) || wordData.tr || '';
+
+  const frag = document.createDocumentFragment();
+
+  // ── Strong's number ──
+  const secSt = makeSection('Strong\'s Numarası');
+  if (wordData.st) {
+    const badge = document.createElement('div');
+    badge.className = 'sp-strongs-badge';
+    const num = document.createElement('span');
+    num.className = 'sp-strongs-num';
+    num.textContent = wordData.st;
+    badge.appendChild(num);
+    // pronunciation
+    if (lex && lex.pronunc) {
+      const pr = document.createElement('span');
+      pr.className = 'sp-pronunc';
+      pr.textContent = lex.pronunc;
+      badge.appendChild(pr);
+    }
+    secSt.appendChild(badge);
+    if (lex && lex.phonetic) {
+      const ph = document.createElement('div');
+      ph.className = 'sp-phonetic';
+      ph.textContent = lex.phonetic;
+      secSt.appendChild(ph);
+    }
+  } else {
+    const em = document.createElement('div');
+    em.className = 'sp-empty';
+    em.textContent = 'Strong\'s numarası yok';
+    secSt.appendChild(em);
+  }
+  frag.appendChild(secSt);
+
+  // ── Sözcük türü + Köken ──
+  const posText    = (lex && lex.pos)    || null;
+  const originText = (lex && lex.origin) || null;
+  if (posText || originText) {
+    const secMeta = makeSection('Sözcük Türü & Köken');
+    if (posText) {
+      const tag = document.createElement('span');
+      tag.className = 'sp-tag';
+      tag.textContent = posText;
+      secMeta.appendChild(tag);
+    }
+    if (originText) {
+      const orig = document.createElement('div');
+      orig.className = 'sp-origin';
+      orig.textContent = originText;
+      secMeta.appendChild(orig);
+    }
+    frag.appendChild(secMeta);
+  }
+
+  // ── Tanım ──
+  const hasLexDef = lex && (lex.short_def || lex.nas_def);
+  const secDef = makeSection('Tanım');
+  if (lex && lex.short_def) {
+    const d = document.createElement('div');
+    d.className = 'sp-def-text';
+    d.textContent = lex.short_def;
+    secDef.appendChild(d);
+  } else if (lex && lex.nas_def) {
+    const d = document.createElement('div');
+    d.className = 'sp-def-text';
+    d.textContent = lex.nas_def;
+    secDef.appendChild(d);
+  } else if (wordData.gl) {
+    // fallback to token gloss
+    const d = document.createElement('div');
+    d.className = 'sp-def-text';
+    d.textContent = wordData.gl;
+    secDef.appendChild(d);
+    if (wordData.tx && wordData.tx !== wordData.gl) {
+      const tx = document.createElement('div');
+      tx.className = 'sp-translation';
+      tx.textContent = wordData.tx;
+      secDef.appendChild(tx);
+    }
+  }
+  if (secDef.children.length > 1) frag.appendChild(secDef); // >1 = has content beyond title
+
+  // ── Strong's Exhaustive Concordance ──
+  if (lex && lex.strongs_def) {
+    const secSC = makeSection('Strong\'s Concordance');
+    const d = document.createElement('div');
+    d.className = 'sp-def-text';
+    d.textContent = lex.strongs_def;
+    secSC.appendChild(d);
+    frag.appendChild(secSC);
+  }
+
+  // ── KJV Kullanım ──
+  if (lex && lex.kjv) {
+    const secKjv = makeSection('KJV Çevirisi');
+    const d = document.createElement('div');
+    d.className = 'sp-def-text';
+    d.textContent = lex.kjv;
+    secKjv.appendChild(d);
+    frag.appendChild(secKjv);
+  }
+
+  // ── NASB Kullanım ──
+  if (lex && lex.nasb) {
+    const secNasb = makeSection('NASB Kullanımı');
+    const d = document.createElement('div');
+    d.className = 'sp-nasb';
+    d.textContent = lex.nasb;
+    secNasb.appendChild(d);
+    frag.appendChild(secNasb);
+  }
+
+  // ── Bu Ayette ──
+  if (wordData.cx && wordData.cx !== '-') {
+    const secCx = makeSection('Bu Ayette');
+    const cx = document.createElement('div');
+    cx.className = 'sp-gloss';
+    cx.textContent = '“' + wordData.cx + '”';
+    secCx.appendChild(cx);
+    frag.appendChild(secCx);
+  }
+
+  // ── Morfoloji ──
+  const morphRows = parseMorph(wordData.mp);
+  if (morphRows.length) {
+    const secMp = makeSection('Morfoloji');
+    const grid = document.createElement('div');
+    grid.className = 'sp-morph-grid';
+    morphRows.forEach(([k, v]) => {
+      const kEl = document.createElement('div'); kEl.className = 'sp-morph-key'; kEl.textContent = k;
+      const vEl = document.createElement('div'); vEl.className = 'sp-morph-val'; vEl.textContent = v;
+      grid.appendChild(kEl); grid.appendChild(vEl);
+    });
+    const raw = document.createElement('span');
+    raw.className = 'sp-morph-code';
+    raw.textContent = wordData.mp;
+    grid.appendChild(document.createElement('div'));
+    grid.appendChild(raw);
+    secMp.appendChild(grid);
+    frag.appendChild(secMp);
+  }
+
+  // ── Metindeki Form ──
+  if (wordData.w && wordData.w !== (wordData.l || '')) {
+    const secSf = makeSection('Metindeki Form');
+    const sf = document.createElement('div');
+    sf.className = 'sp-lexical';
+    sf.textContent = wordData.w;
+    secSf.appendChild(sf);
+    frag.appendChild(secSf);
+  }
+
+  // ── Varyant notu ──
+  if (wordData.var) {
+    const note = document.createElement('div');
+    note.className = 'sp-variant-note';
+    note.textContent = 'Bu kelime bazı el yazmalarında bulunmayan bir metin varyantıdır.';
+    frag.appendChild(note);
+  }
+
+  spBody.innerHTML = '';
+  spBody.appendChild(frag);
+  spBody.scrollTop = 0;
+}
+
+function makeSection(title) {
+  const sec = document.createElement('div');
+  sec.className = 'sp-section';
+  const t = document.createElement('div');
+  t.className = 'sp-section-title';
+  t.textContent = title;
+  sec.appendChild(t);
+  return sec;
+}
+
+function closePanel() {
+  panel.classList.remove('open');
+  if (activeToken) { activeToken.classList.remove('active'); activeToken = null; }
+}
+
+document.getElementById('sp-close').addEventListener('click', closePanel);
+
+// ── Load chapter ──────────────────────────────────────────────────
+async function load(b, c) {
+  book = b; chap = c;
+  const meta = BOOKS.find(x => x.c === b);
+  populateCh(meta.ch);
+  selBook.value = b; selCh.value = c;
+  btnPrev.disabled = c <= 1;
+  btnNext.disabled = c >= meta.ch;
+
+  closePanel();
+  scrollArea.innerHTML = '<div class="state">Yükleniyor…</div>';
+  history.pushState({b,c}, '', `?book=${b}&chapter=${c}`);
+  document.title = `${meta.n} ${c} — Dil İnceleme`;
+
+  try {
+    const r = await fetch(`data/interlinear/${b}/${c}.json`);
+    if (!r.ok) throw 0;
+    render(await r.json(), meta.n, c);
+  } catch {
+    scrollArea.innerHTML = '<div class="state">Bu bölüm yüklenemedi.</div>';
+  }
+}
+
+// ── Render ────────────────────────────────────────────────────────
+function render(data, bookName, c) {
+  const f = document.createDocumentFragment();
+
+  const h = document.createElement('h1');
+  h.className = 'ch-title';
+  h.textContent = `${bookName} ${c}`;
+  f.appendChild(h);
+
+  for (const v of data.verses) {
+    const vb = document.createElement('div');
+    vb.className = 'vb';
+
+    const vn = document.createElement('div');
+    vn.className = 'vb-num';
+    vn.textContent = v.v;
+    vb.appendChild(vn);
+
+    const wd = document.createElement('div');
+    wd.className = 'words';
+    v.words.forEach(w => {
+      const el = token(w);
+      el.addEventListener('click', () => openStrongs(el, w));
+      wd.appendChild(el);
+    });
+    vb.appendChild(wd);
+    f.appendChild(vb);
+  }
+
+  const leg = document.createElement('div');
+  leg.className = 'legend';
+  leg.innerHTML = `
+    <div class="li"><div class="li-dot" style="background:#e8dfc4"></div>Yunanca (lexical)</div>
+    <div class="li"><div class="li-dot" style="background:#9a8f80"></div>Transliterasyon</div>
+    <div class="li"><div class="li-dot" style="background:#b89a2a"></div>Strong's numarası</div>
+    <div class="li"><div class="li-dot" style="background:#5e9668"></div>Sözlük anlamı</div>
+    <div class="li"><div class="li-dot" style="background:#6090b8"></div>Bağlamsal çeviri</div>
+    <div class="li"><div class="li-dot" style="background:#3a5070;border:1px solid #6a8cb0"></div>Metin varyantı</div>
+  `;
+  f.appendChild(leg);
+
+  scrollArea.innerHTML = '';
+  scrollArea.appendChild(f);
+}
+
+function token(w) {
+  const el = document.createElement('div');
+  el.className = 'wt' + (w.var ? ' var' : '');
+
+  const g = document.createElement('div');
+  g.className = 'wt-g';
+  g.textContent = w.l || w.w;
+  el.appendChild(g);
+
+  if (w.tr) {
+    const tr = document.createElement('div');
+    tr.className = 'wt-tr';
+    tr.textContent = w.tr;
+    el.appendChild(tr);
+  }
+  if (w.st) {
+    const st = document.createElement('div');
+    st.className = 'wt-st';
+    st.textContent = w.st;
+    el.appendChild(st);
+  }
+  if (w.gl) {
+    const gl = document.createElement('div');
+    gl.className = 'wt-gl';
+    gl.textContent = w.gl;
+    el.appendChild(gl);
+  }
+  if (w.cx && w.cx !== '-') {
+    const cx = document.createElement('div');
+    cx.className = 'wt-cx';
+    cx.textContent = w.cx;
+    el.appendChild(cx);
+  }
+  if (w.mp) {
+    const mp = document.createElement('div');
+    mp.className = 'wt-mp';
+    mp.textContent = w.mp;
+    el.appendChild(mp);
+  }
+  if (w.var) {
+    const b = document.createElement('div');
+    b.className = 'wt-vbadge';
+    b.textContent = 'varyant';
+    el.appendChild(b);
+  }
+  return el;
+}
+
+// ── Controls ──────────────────────────────────────────────────────
+selBook.addEventListener('change', () => load(selBook.value, 1));
+selCh.addEventListener('change',   () => load(book, +selCh.value));
+btnPrev.addEventListener('click',  () => load(book, chap - 1));
+btnNext.addEventListener('click',  () => load(book, chap + 1));
+
+window.addEventListener('popstate', e => { if (e.state) load(e.state.b, e.state.c); });
+
+// ── Settings panel ────────────────────────────────────────────────
+const ROWS = [
+  { id: 'sw-tr', cls: 'show-tr', def: true  },
+  { id: 'sw-st', cls: 'show-st', def: true  },
+  { id: 'sw-gl', cls: 'show-gl', def: true  },
+  { id: 'sw-cx', cls: 'show-cx', def: true  },
+  { id: 'sw-mp', cls: 'show-mp', def: true  },
+];
+const PREFS_KEY = 'dil-inceleme-prefs';
+function loadPrefs() { try { return JSON.parse(localStorage.getItem(PREFS_KEY)) || {}; } catch { return {}; } }
+function savePrefs(p) { localStorage.setItem(PREFS_KEY, JSON.stringify(p)); }
+
+function applyPrefs() {
+  const prefs = loadPrefs();
+  ROWS.forEach(({ id, cls, def }) => {
+    const on = prefs[id] !== undefined ? prefs[id] : def;
+    document.body.classList.toggle(cls, on);
+    const chk = document.getElementById(id);
+    if (chk) chk.checked = on;
+  });
+}
+
+ROWS.forEach(({ id, cls }) => {
+  const chk = document.getElementById(id);
+  if (!chk) return;
+  chk.addEventListener('change', () => {
+    document.body.classList.toggle(cls, chk.checked);
+    const prefs = loadPrefs(); prefs[id] = chk.checked; savePrefs(prefs);
+  });
+});
+
+const settingsBtn     = document.getElementById('settings-btn');
+const settingsOverlay = document.getElementById('settings-overlay');
+function openSettings()  { settingsOverlay.classList.add('open');    settingsBtn.classList.add('open'); }
+function closeSettings() { settingsOverlay.classList.remove('open'); settingsBtn.classList.remove('open'); }
+settingsBtn.addEventListener('click', e => {
+  e.stopPropagation();
+  settingsOverlay.classList.contains('open') ? closeSettings() : openSettings();
+});
+document.getElementById('settings-close').addEventListener('click', closeSettings);
+settingsOverlay.addEventListener('click', e => {
+  if (!document.getElementById('settings-panel').contains(e.target)) closeSettings();
+});
+
+// ── Init ─────────────────────────────────────────────────────────
+applyPrefs();
+const p = new URLSearchParams(location.search);
+const initBook = BOOKS.find(b => b.c === p.get('book'))?.c || 'JHN';
+const initCh   = Math.max(1, parseInt(p.get('chapter') || '1', 10));
+load(initBook, initCh);
+</script>
+</body>
+</html>
