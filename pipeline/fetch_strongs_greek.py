@@ -36,6 +36,13 @@ _WS  = re.compile(r'\s+')
 def strip(s):
     return _WS.sub(' ', _TAG.sub('', s)).strip()
 
+def clean_x(s):
+    """Remove Strong's concordance 'X ' notation from comma-separated lists."""
+    if not s:
+        return s
+    parts = s.split(',')
+    return ', '.join(re.sub(r'^X\s+', '', p.strip()).strip() for p in parts)
+
 # ── Parse one Strong's page ────────────────────────────────────────
 def parse_page(num: int, html: str) -> dict:
     entry = {'id': num}
@@ -64,7 +71,7 @@ def parse_page(num: int, html: str) -> dict:
         pat = rf'<span class="tophdg">{label}.*?</span>(.*?)(?=<br|<span class="tophdg"|<div)'
         m = re.search(pat, body, re.DOTALL | re.IGNORECASE)
         if m:
-            val = strip(m.group(1))
+            val = clean_x(strip(m.group(1)))
             if val:
                 entry[key] = val
 
@@ -80,8 +87,7 @@ def parse_page(num: int, html: str) -> dict:
     m = re.search(r"Strong's Exhaustive Concordance</div>(.*?)(?=<div class=\"vheading2\"|$)",
                   body, re.DOTALL | re.IGNORECASE)
     if m:
-        sec = strip(m.group(1))
-        # remove "see GREEK/HEBREW ..." trailing refs
+        sec = clean_x(strip(m.group(1)))
         sec = re.sub(r'\s*see (GREEK|HEBREW)\s+\S+', '', sec).strip()
         if sec:
             entry['strongs_def'] = sec
