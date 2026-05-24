@@ -218,10 +218,7 @@
       <div class="contact-form" id="form-wrapper">
         <p class="form-title">Mesaj Gönderin</p>
         <p class="form-sub">Tüm alanları doldurarak mesajınızı iletebilirsiniz. Geri bildirimleriniz platformun geliştirilmesine doğrudan katkı sağlar.</p>
-        <form id="contact-form" action="https://formsubmit.co/kutsalkitapinceleme@gmail.com" method="POST">
-          <input type="hidden" name="_next" value="https://kutsalkitapinceleme.com/iletisim.html?sent=1">
-          <input type="hidden" name="_subject" value="Kutsal Kitap İnceleme — İletişim Formu">
-          <input type="hidden" name="_captcha" value="false">
+        <form id="contact-form" novalidate>
           <div class="form-grid">
             <div class="form-group">
               <label class="form-label" for="name">Ad Soyad</label>
@@ -295,10 +292,37 @@
   </footer>
 
   <script>
-    if (new URLSearchParams(location.search).get('sent') === '1') {
-      document.getElementById('contact-form').style.display = 'none';
-      document.getElementById('form-success').classList.add('visible');
-    }
+    document.getElementById('contact-form').addEventListener('submit', function(e) {
+      e.preventDefault();
+      const name    = document.getElementById('name').value.trim();
+      const email   = document.getElementById('email').value.trim();
+      const subject = document.getElementById('subject').value.trim() || 'İletişim Formu';
+      const message = document.getElementById('message').value.trim();
+
+      if (!name || !email || !message) {
+        alert('Lütfen ad, e-posta ve mesaj alanlarını doldurun.');
+        return;
+      }
+
+      const body = [
+        'Ad Soyad: ' + name,
+        'E-posta: ' + email,
+        '',
+        message
+      ].join('\n');
+
+      const mailto = 'mailto:kutsalkitapinceleme@gmail.com'
+        + '?subject=' + encodeURIComponent('[KKİ] ' + subject)
+        + '&body='    + encodeURIComponent(body);
+
+      window.location.href = mailto;
+
+      // Show success after a brief moment (email client opens in background)
+      setTimeout(function() {
+        document.getElementById('contact-form').style.display = 'none';
+        document.getElementById('form-success').classList.add('visible');
+      }, 800);
+    });
   </script>
 </body>
 </html>
