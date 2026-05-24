@@ -55,7 +55,7 @@
       align-items: center;
       gap: 0;
       height: 70px;
-      padding: 0 14px;
+      padding: 0 0 0 14px;
     }
 
     #logo {
@@ -128,6 +128,7 @@
       align-items: center;
       gap: 6px;
       margin-left: auto;
+      margin-right: auto;
       flex-shrink: 0;
     }
 
@@ -166,21 +167,15 @@
     .hdr-nav-arrow:hover { background: rgba(184,146,42,0.18); border-color: rgba(184,146,42,0.35); color: var(--gold-light); }
 
     #header-links {
-      margin-left: 10px;
-      display: flex;
-      align-items: center;
-      gap: 0;
+      display: flex; align-items: center; gap: 2.5rem;
       flex-shrink: 0;
+      padding: 0 3rem 0 2.5rem;
     }
     #header-links a {
-      font-size: 11px;
-      color: rgba(247,241,232,0.25);
-      text-decoration: none;
-      padding: 0 8px;
-      border-right: 1px solid rgba(255,255,255,0.08);
-      transition: color 0.12s;
+      font-size: 0.78rem; font-weight: 500; letter-spacing: 0.1em; text-transform: uppercase;
+      color: rgba(247,241,232,0.55); text-decoration: none;
+      transition: color 0.2s ease;
     }
-    #header-links a:last-child { border-right: none; }
     #header-links a:hover { color: var(--gold-light); }
 
 
@@ -504,8 +499,8 @@
       padding: 20px 18px 200vh;
       font-family: 'EB Garamond', Georgia, serif;
       color: var(--ink);
-      font-size: 14.5px;
-      line-height: 1.72;
+      font-size: 17px;
+      line-height: 1.78;
     }
 
     /* Chapter block */
@@ -569,8 +564,8 @@
     }
 
     .vt {
-      font-size: 14px;
-      line-height: 1.75;
+      font-size: 16.5px;
+      line-height: 1.78;
       color: #1a1611;
       font-variant-numeric: oldstyle-nums;
     }
@@ -753,10 +748,10 @@
     body.theme-sepia .vt { color: #2c1f0e; }
 
     /* ===== FONT SIZES ===== */
-    body.fz-small  .col-content { font-size: 12px;   line-height: 1.65; }
-    body.fz-large  .col-content { font-size: 17px;   line-height: 1.78; }
-    body.fz-small  .vt          { font-size: 11.5px; }
-    body.fz-large  .vt          { font-size: 16.5px; }
+    body.fz-small  .col-content { font-size: 14.5px;  line-height: 1.72; }
+    body.fz-large  .col-content { font-size: 20px;    line-height: 1.82; }
+    body.fz-small  .vt          { font-size: 14px; }
+    body.fz-large  .vt          { font-size: 19.5px; }
 
     /* ===== HIDE VERSE/CHAPTER NUMBERS ===== */
     body.hide-vn .vn          { display: none; }
@@ -1573,14 +1568,11 @@
       <button class="hdr-btn" id="btn-translations" title="Çevirileri yönet">Çeviri <span style="opacity:.4;font-size:9px;">▾</span></button>
       <button class="hdr-btn" id="btn-style" title="Görünüm ayarları">Görünüm <span style="opacity:.4;font-size:9px;">▾</span></button>
       <button class="hdr-btn" id="btn-commentary" title="Bölüm yorumu">Yorum <span style="opacity:.4;font-size:9px;">▾</span></button>
-      <button class="hdr-btn" id="btn-top" title="Başa dön">↑ Yukarı</button>
-      <button class="hdr-btn" id="btn-share" title="Bağlantıyı paylaş">Paylaş</button>
-      <div id="header-links">
-        <a href="index.html">Ana Sayfa</a>
-        <a href="interlinear.html">Dil İnceleme</a>
-        <a href="#">Hakkımızda</a>
-        <a href="#">Yardım</a>
-      </div>
+    </div>
+    <div id="header-links">
+      <a href="index.html">Karşılaştır</a>
+      <a href="interlinear.html">Dil İnceleme</a>
+      <a href="search.html">Ayet Ara</a>
     </div>
   </div>
 
@@ -2748,13 +2740,31 @@
   })();
 
   // ── Style panel ───────────────────────────────────────────────────────
+  function applyCompareTheme(val) {
+    document.body.classList.remove('theme-dark','theme-sepia');
+    if (val === 'dark')  document.body.classList.add('theme-dark');
+    if (val === 'sepia') document.body.classList.add('theme-sepia');
+  }
+  function syncStyleActive() {
+    document.querySelectorAll('#panel-style .panel-option').forEach(o =>
+      o.classList.toggle('active', o.querySelector('input')?.checked));
+  }
+
+  // Load saved theme on init
+  (function() {
+    const saved = localStorage.getItem('pref-theme');
+    if (saved && saved !== 'light') {
+      applyCompareTheme(saved);
+      const r = document.querySelector(`input[name="theme"][value="${saved}"]`);
+      if (r) { r.checked = true; syncStyleActive(); }
+    }
+  })();
+
   document.querySelectorAll('input[name="theme"]').forEach(r => {
     r.addEventListener('change', () => {
-      document.body.classList.remove('theme-dark','theme-sepia');
-      if (r.value === 'dark')  document.body.classList.add('theme-dark');
-      if (r.value === 'sepia') document.body.classList.add('theme-sepia');
-      document.querySelectorAll('#panel-style .panel-option').forEach(o =>
-        o.classList.toggle('active', o.querySelector('input')?.checked));
+      applyCompareTheme(r.value);
+      localStorage.setItem('pref-theme', r.value);
+      syncStyleActive();
     });
   });
 

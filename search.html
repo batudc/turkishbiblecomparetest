@@ -52,7 +52,21 @@
       align-items: center;
       gap: 0;
       height: 70px;
-      padding: 0 14px;
+      padding: 0 0 0 14px;
+      position: relative;
+    }
+    #progress-bar-wrap {
+      position: absolute; bottom: 0; left: 0; right: 0;
+      height: 2px;
+      background: rgba(255,255,255,0.04);
+      overflow: hidden;
+      pointer-events: none;
+    }
+    #progress-bar {
+      height: 100%;
+      background: linear-gradient(90deg, var(--gold), var(--gold-light));
+      width: 0%;
+      transition: width 0.25s ease;
     }
 
     #logo {
@@ -104,167 +118,108 @@
 
     #header-controls {
       display: flex; align-items: center; gap: 6px;
-      margin-left: auto; flex-shrink: 0;
+      margin-left: auto; margin-right: auto; flex-shrink: 0;
     }
-
     .hdr-btn {
       padding: 6px 13px;
       background: rgba(255,255,255,0.05);
       border: 1px solid rgba(255,255,255,0.1);
       border-radius: 3px;
       color: rgba(247,241,232,0.6);
-      font-size: 12px; font-family: 'Jost', sans-serif;
-      font-weight: 400; cursor: pointer; white-space: nowrap;
+      font-size: 12px; font-family: 'Jost', sans-serif; font-weight: 400;
+      cursor: pointer; white-space: nowrap; line-height: 1.5;
       transition: background 0.12s, color 0.12s, border-color 0.12s;
-      line-height: 1.5;
     }
     .hdr-btn:hover { background: rgba(184,146,42,0.12); border-color: rgba(184,146,42,0.3); color: var(--gold-light); }
-    .hdr-btn:active { background: rgba(184,146,42,0.06); }
-
     #header-links {
-      margin-left: 10px;
-      display: flex; align-items: center; gap: 0; flex-shrink: 0;
+      display: flex; align-items: center; gap: 2.5rem;
+      flex-shrink: 0; padding: 0 3rem 0 2.5rem;
     }
     #header-links a {
-      font-size: 11px; color: rgba(247,241,232,0.25);
-      text-decoration: none; padding: 0 8px;
-      border-right: 1px solid rgba(255,255,255,0.08);
-      transition: color 0.12s;
+      font-size: 0.78rem; font-weight: 500; letter-spacing: 0.1em; text-transform: uppercase;
+      color: rgba(247,241,232,0.55); text-decoration: none;
+      transition: color 0.2s ease;
     }
-    #header-links a:last-child { border-right: none; }
     #header-links a:hover { color: var(--gold-light); }
 
-    /* ── Sub-bar (filters + stats) ── */
-    #sub-bar {
-      flex-shrink: 0;
-      background: #0a1a28;
-      border-bottom: 1px solid rgba(255,255,255,0.06);
-      display: flex;
-      align-items: center;
-      gap: 0;
-      height: 40px;
-      padding: 0 14px;
-      overflow: hidden;
+    /* Panel dropdown */
+    .panel {
+      position: fixed; z-index: 400;
+      background: #111f2c;
+      border: 1px solid rgba(184,146,42,0.22);
+      border-radius: 3px;
+      box-shadow: 0 12px 40px rgba(0,0,0,0.6);
+      display: none; flex-direction: column;
+      font-family: 'Jost', sans-serif;
+      min-width: 220px;
     }
+    .panel.open { display: flex; }
+    #panel-translations { width: 300px; max-height: 70vh; overflow: hidden; }
+    #trans-cat-list { flex: 1; overflow-y: auto; min-height: 0; }
+    .trans-cat { border-bottom: 1px solid rgba(255,255,255,0.05); }
+    .trans-cat:last-child { border-bottom: none; }
+    .trans-cat-header { display: flex; align-items: center; gap: 0; padding: 0 10px 0 0; min-height: 38px; }
+    .trans-cat-toggle {
+      flex: 1; display: flex; align-items: center; gap: 7px;
+      background: none; border: none; color: rgba(247,241,232,0.78);
+      font-family: 'Jost', sans-serif; font-size: 11.5px; font-weight: 500;
+      cursor: pointer; padding: 0 8px 0 14px; min-height: 38px; text-align: left;
+      transition: color 0.1s, background 0.1s;
+    }
+    .trans-cat-toggle:hover { color: var(--gold-light); background: rgba(184,146,42,0.05); }
+    .trans-cat-arrow { font-size: 8px; color: rgba(247,241,232,0.25); transition: transform 0.18s cubic-bezier(0.4,0,0.2,1); flex-shrink: 0; margin-right: 1px; }
+    .trans-cat.open .trans-cat-arrow { transform: rotate(180deg); }
+    .trans-cat-count { font-size: 8.5px; color: rgba(247,241,232,0.22); font-weight: 400; letter-spacing: 0.01em; margin-left: auto; flex-shrink: 0; }
+    .trans-cat-count.has-sel { color: rgba(184,146,42,0.7); }
+    .trans-cat-selall {
+      padding: 3px 10px; background: rgba(255,255,255,0.04);
+      border: 1px solid rgba(255,255,255,0.08); border-radius: 2px;
+      color: rgba(247,241,232,0.35); font-family: 'Jost', sans-serif;
+      font-size: 9px; font-weight: 500; letter-spacing: 0.05em;
+      cursor: pointer; white-space: nowrap; flex-shrink: 0;
+      transition: background 0.12s, color 0.12s, border-color 0.12s;
+    }
+    .trans-cat-selall:hover { background: rgba(184,146,42,0.12); border-color: rgba(184,146,42,0.3); color: var(--gold-light); }
+    .trans-cat-selall.all-on { background: rgba(184,146,42,0.15); border-color: rgba(184,146,42,0.4); color: var(--gold-light); }
+    .trans-cat-body { display: none; background: rgba(0,0,0,0.1); }
+    .trans-cat.open .trans-cat-body { display: block; }
+    .trans-item {
+      display: flex; align-items: center; gap: 9px;
+      padding: 6px 14px; border-bottom: 1px solid rgba(255,255,255,0.04);
+      cursor: pointer; transition: background 0.1s; user-select: none;
+    }
+    .trans-item:last-child { border-bottom: none; }
+    .trans-item:hover { background: rgba(184,146,42,0.07); }
+    .trans-item.unavailable { opacity: 0.35; cursor: default; pointer-events: none; }
+    .trans-item input[type="checkbox"] { accent-color: var(--gold-light); flex-shrink: 0; cursor: pointer; }
+    .trans-abbr { font-size: 9px; font-weight: 700; letter-spacing: 0.08em; color: var(--gold-light); min-width: 72px; flex-shrink: 0; }
+    .trans-meta { flex: 1; min-width: 0; }
+    .trans-name { font-size: 11px; color: rgba(247,241,232,0.75); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+    .trans-year { font-size: 9px; color: rgba(247,241,232,0.28); letter-spacing: 0.06em; }
 
-    #sub-stats {
-      display: flex;
-      align-items: center;
-      gap: 14px;
-      flex-shrink: 0;
-      margin-right: 20px;
+    /* ── Header stats ── */
+    #header-stats {
+      display: flex; align-items: center; gap: 10px;
+      flex-shrink: 0; margin-left: 18px;
     }
     #result-count {
       font-size: 11px;
-      color: rgba(184,146,42,0.75);
+      color: rgba(184,146,42,0.8);
       font-weight: 600;
       letter-spacing: 0.04em;
       white-space: nowrap;
     }
     #scan-status {
       font-size: 10px;
-      color: rgba(247,241,232,0.3);
-      letter-spacing: 0.04em;
+      color: rgba(247,241,232,0.35);
+      letter-spacing: 0.03em;
       white-space: nowrap;
     }
-    #scan-status.scanning { color: rgba(184,146,42,0.5); animation: pulse 1.2s ease-in-out infinite; }
+    #scan-status.scanning { color: rgba(184,146,42,0.55); animation: pulse 1.2s ease-in-out infinite; }
 
     @keyframes pulse { 0%,100%{opacity:1} 50%{opacity:.4} }
 
-    #progress-bar-wrap {
-      width: 80px; height: 2px;
-      background: rgba(255,255,255,0.06);
-      border-radius: 1px; overflow: hidden;
-      flex-shrink: 0;
-    }
-    #progress-bar {
-      height: 100%;
-      background: linear-gradient(90deg, var(--gold), var(--gold-light));
-      width: 0%;
-      transition: width 0.25s ease;
-      border-radius: 1px;
-    }
 
-    .sub-divider {
-      width: 1px; height: 20px;
-      background: rgba(255,255,255,0.07);
-      margin: 0 14px; flex-shrink: 0;
-    }
-
-    .scope-btn {
-      padding: 3px 10px;
-      background: none;
-      border: 1px solid transparent;
-      border-radius: 2px;
-      color: rgba(247,241,232,0.3);
-      font-size: 10px; font-weight: 600;
-      font-family: 'Jost', sans-serif;
-      letter-spacing: 0.08em; text-transform: uppercase;
-      cursor: pointer;
-      transition: background 0.12s, color 0.12s, border-color 0.12s;
-    }
-    .scope-btn.active {
-      background: rgba(184,146,42,0.12);
-      border-color: rgba(184,146,42,0.3);
-      color: var(--gold-light);
-    }
-    .scope-btn:hover:not(.active) { color: rgba(247,241,232,0.6); }
-
-    #trans-filter-wrap {
-      display: flex;
-      align-items: center;
-      gap: 4px;
-      overflow-x: auto;
-      scrollbar-width: none;
-      flex: 1;
-      min-width: 0;
-    }
-    #trans-filter-wrap::-webkit-scrollbar { display: none; }
-
-    .trans-chip {
-      display: flex;
-      align-items: center;
-      gap: 5px;
-      padding: 3px 9px;
-      background: rgba(255,255,255,0.04);
-      border: 1px solid rgba(255,255,255,0.08);
-      border-radius: 2px;
-      cursor: pointer;
-      white-space: nowrap;
-      transition: background 0.12s, border-color 0.12s;
-      flex-shrink: 0;
-    }
-    .trans-chip.active {
-      background: rgba(184,146,42,0.1);
-      border-color: rgba(184,146,42,0.28);
-    }
-    .trans-chip input[type="checkbox"] { display: none; }
-    .trans-chip-dot {
-      width: 5px; height: 5px;
-      border-radius: 50%;
-      border: 1px solid rgba(255,255,255,0.2);
-      flex-shrink: 0;
-      transition: background 0.12s, border-color 0.12s;
-    }
-    .trans-chip.active .trans-chip-dot {
-      background: var(--gold);
-      border-color: var(--gold);
-    }
-    .trans-chip-label {
-      font-size: 9.5px;
-      font-weight: 600;
-      letter-spacing: 0.08em;
-      text-transform: uppercase;
-      color: rgba(247,241,232,0.3);
-      transition: color 0.12s;
-    }
-    .trans-chip.active .trans-chip-label { color: rgba(184,146,42,0.85); }
-    .trans-chip-hits {
-      font-size: 8.5px;
-      color: rgba(247,241,232,0.2);
-      font-weight: 500;
-    }
-    .trans-chip.active .trans-chip-hits { color: rgba(184,146,42,0.5); }
 
     /* ── Results area ── */
     #results-area {
@@ -411,6 +366,100 @@
     }
     .show-more-btn:hover { background: rgba(184,146,42,0.08); color: rgba(184,146,42,0.7); }
 
+    /* Panel sections — exact match with compare & interlinear */
+    .panel-section { padding: 10px 14px 12px; border-bottom: 1px solid rgba(255,255,255,0.06); }
+    .panel-section:last-child { border-bottom: none; }
+    .panel-section-title { font-size: 8.5px; font-weight: 700; letter-spacing: 0.2em; text-transform: uppercase; color: rgba(184,146,42,0.55); margin-bottom: 9px; }
+    .panel-row-group { display: flex; flex-direction: column; gap: 2px; }
+    .panel-option {
+      display: flex; align-items: center; gap: 8px;
+      padding: 4px 6px; border-radius: 2px; cursor: pointer;
+      font-size: 11.5px; color: rgba(247,241,232,0.65);
+      transition: background 0.1s, color 0.1s; user-select: none;
+    }
+    .panel-option:hover { background: rgba(184,146,42,0.1); color: var(--gold-light); }
+    .panel-option input { accent-color: var(--gold); cursor: pointer; flex-shrink: 0; }
+    .panel-option.active { color: rgba(247,241,232,0.95); }
+
+    /* Presets bar */
+    #trans-presets-bar {
+      display: flex; flex-wrap: wrap; gap: 5px;
+      padding: 10px 12px 9px;
+      border-bottom: 1px solid rgba(255,255,255,0.07);
+      flex-shrink: 0;
+    }
+    .preset-btn {
+      padding: 3px 10px;
+      background: rgba(255,255,255,0.05); border: 1px solid rgba(255,255,255,0.1);
+      border-radius: 10px; color: rgba(247,241,232,0.5);
+      font-family: 'Jost', sans-serif; font-size: 10px; font-weight: 500;
+      letter-spacing: 0.04em; cursor: pointer; white-space: nowrap;
+      transition: background 0.12s, color 0.12s, border-color 0.12s;
+    }
+    .preset-btn:hover { background: rgba(184,146,42,0.12); border-color: rgba(184,146,42,0.3); color: var(--gold-light); }
+    .preset-btn.active { background: rgba(184,146,42,0.2); border-color: rgba(184,146,42,0.55); color: var(--gold-light); }
+
+    /* Bulk bar */
+    #trans-bulk-bar {
+      display: flex; gap: 5px;
+      padding: 0 12px 9px;
+      border-bottom: 1px solid rgba(255,255,255,0.07);
+      flex-shrink: 0;
+    }
+    .bulk-btn {
+      flex: 1; padding: 4px 8px;
+      background: rgba(255,255,255,0.04); border: 1px solid rgba(255,255,255,0.08);
+      border-radius: 4px; color: rgba(247,241,232,0.4);
+      font-family: 'Jost', sans-serif; font-size: 9.5px; font-weight: 500;
+      letter-spacing: 0.06em; text-transform: uppercase; cursor: pointer;
+      transition: background 0.12s, color 0.12s, border-color 0.12s;
+    }
+    .bulk-btn:hover { background: rgba(255,255,255,0.08); border-color: rgba(255,255,255,0.18); color: rgba(247,241,232,0.75); }
+
+    /* Trans-subcat indent — match compare */
+    .trans-subcat-label { font-size: 7.5px; font-weight: 700; letter-spacing: 0.22em; text-transform: uppercase; color: rgba(184,146,42,0.4); padding: 7px 14px 3px 22px; background: rgba(0,0,0,0.08); }
+
+    /* Font-size scaling for search results */
+    body.fz-small .rr-text { font-size: 12.5px; }
+    body.fz-small .rr-ref { font-size: 9.5px; }
+    body.fz-small .book-heading-name { font-size: 13.5px; }
+    body.fz-large .rr-text { font-size: 16.5px; }
+    body.fz-large .rr-ref { font-size: 12px; }
+    body.fz-large .book-heading-name { font-size: 17px; }
+
+    /* Theme overrides — only the results area changes, outer chrome always stays dark */
+    #results-area { background: var(--navy-deep); }
+
+    body.theme-light #results-area  { background: #F7F1E8; }
+    body.theme-light .result-row    { color: #2C2416; }
+    body.theme-light .result-row:hover { background: rgba(44,36,22,0.06); }
+    body.theme-light .book-heading  { background: rgba(0,0,0,0.05); border-bottom-color: rgba(184,146,42,0.15); }
+    body.theme-light .book-heading-name { color: #2C2416; }
+    body.theme-light .rr-text       { color: rgba(44,36,22,0.72); }
+    body.theme-light .rr-ref        { color: var(--gold); }
+    body.theme-light .rr-tid        { color: rgba(44,36,22,0.4); background: rgba(44,36,22,0.06); border-color: rgba(44,36,22,0.1); }
+    body.theme-light #state-idle    { color: rgba(44,36,22,0.25); }
+    body.theme-light #state-idle h2 { color: rgba(44,36,22,0.35); }
+    body.theme-light #state-idle p  { color: rgba(44,36,22,0.3); }
+    body.theme-light #state-no-results h3 { color: rgba(44,36,22,0.4); }
+    body.theme-light #state-no-results p  { color: rgba(44,36,22,0.3); }
+
+    body.theme-sepia #results-area  { background: #f0e6d0; }
+    body.theme-sepia .result-row    { color: #2c1f0e; }
+    body.theme-sepia .result-row:hover { background: rgba(44,31,14,0.06); }
+    body.theme-sepia .book-heading  { background: rgba(0,0,0,0.05); border-bottom-color: rgba(184,146,42,0.15); }
+    body.theme-sepia .book-heading-name { color: #2c1f0e; }
+    body.theme-sepia .rr-text       { color: rgba(44,31,14,0.72); }
+    body.theme-sepia .rr-ref        { color: var(--gold); }
+    body.theme-sepia .rr-tid        { color: rgba(44,31,14,0.4); background: rgba(44,31,14,0.06); border-color: rgba(44,31,14,0.1); }
+    body.theme-sepia #state-idle    { color: rgba(44,36,22,0.25); }
+    body.theme-sepia #state-idle h2 { color: rgba(44,36,22,0.35); }
+    body.theme-sepia #state-idle p  { color: rgba(44,36,22,0.3); }
+    body.theme-sepia #state-no-results h3 { color: rgba(44,36,22,0.4); }
+    body.theme-sepia #state-no-results p  { color: rgba(44,36,22,0.3); }
+
+    body.theme-dark #results-area   { background: #0e1e2c; }
+
     /* ===== MOBILE ===== */
     @media (max-width: 640px) {
       #header {
@@ -434,37 +483,11 @@
         font-size: 11.5px;
       }
 
-      /* Sub-bar: wrap to two rows */
-      #sub-bar {
-        height: auto;
-        flex-wrap: wrap;
-        padding: 6px 10px;
-        gap: 6px;
-      }
-      #sub-stats {
-        width: 100%;
-        margin-right: 0;
-        order: -1;
-      }
-      #scope-tabs {
-        order: 1;
-        flex-shrink: 0;
-      }
-      #chip-list {
-        order: 2;
-        overflow-x: auto;
-        -webkit-overflow-scrolling: touch;
-        scrollbar-width: none;
-        flex-wrap: nowrap;
-      }
-      #chip-list::-webkit-scrollbar { display: none; }
+      #header-stats { display: none; }
 
       /* Results: full width, more padding */
       .sr-item { padding: 9px 12px; gap: 8px; }
-      .sr-ref {
-        min-width: 70px;
-        font-size: 9.5px;
-      }
+      .sr-ref { min-width: 70px; font-size: 9.5px; }
       .sr-text { font-size: 12.5px; }
     }
   </style>
@@ -488,30 +511,22 @@
       <input id="search-input" type="text" placeholder="arama yapın…" autocomplete="off" />
     </div>
 
-    <div id="header-controls">
-      <a href="compare.html" class="hdr-btn">← Karşılaştır</a>
-      <div id="header-links">
-        <a href="index.html">Ana Sayfa</a>
-        <a href="#">Hakkımızda</a>
-        <a href="#">Yardım</a>
-      </div>
-    </div>
-  </div>
-
-  <!-- ===== SUB-BAR: stats + scope + translation chips ===== -->
-  <div id="sub-bar">
-    <div id="sub-stats">
+    <div id="header-stats">
       <span id="result-count"></span>
       <span id="scan-status"></span>
-      <div id="progress-bar-wrap"><div id="progress-bar"></div></div>
     </div>
-    <div class="sub-divider"></div>
-    <button class="scope-btn active" data-scope="all">Tümü</button>
-    <button class="scope-btn" data-scope="nt">Yeni Ahit</button>
-    <button class="scope-btn" data-scope="ot">Eski Ahit</button>
-    <div class="sub-divider"></div>
-    <div id="trans-filter-wrap"></div>
+    <div id="header-controls">
+      <button class="hdr-btn" id="btn-translations" title="Çevirileri seçin">Çeviri <span style="opacity:.4;font-size:9px;">&#9660;</span></button>
+      <button class="hdr-btn" id="btn-gorunum">Görünüm <span style="opacity:.4;font-size:9px;">&#9660;</span></button>
+    </div>
+    <div id="header-links">
+      <a href="compare.html">Karşılaştır</a>
+      <a href="interlinear.html">Dil İnceleme</a>
+      <a href="search.html">Ayet Ara</a>
+    </div>
+    <div id="progress-bar-wrap"><div id="progress-bar"></div></div>
   </div>
+
 
   <!-- ===== RESULTS AREA ===== -->
   <div id="results-area">
@@ -531,6 +546,36 @@
   </div>
 
 </div><!-- #layout -->
+
+<!-- TRANSLATION PANEL -->
+<div class="panel" id="panel-translations">
+  <div id="trans-presets-bar"></div>
+  <div id="trans-bulk-bar">
+    <button class="bulk-btn" id="bulk-sel-all">Tümünü Seç</button>
+    <button class="bulk-btn" id="bulk-desel-all">Tümünü Kaldır</button>
+  </div>
+  <div id="trans-cat-list"></div>
+</div>
+
+<!-- GÖRÜNÜM PANEL -->
+<div class="panel" id="panel-gorunum">
+  <div class="panel-section">
+    <div class="panel-section-title">Tema</div>
+    <div class="panel-row-group">
+      <label class="panel-option active"><input type="radio" name="sr-theme" value="light" checked> Açık</label>
+      <label class="panel-option"><input type="radio" name="sr-theme" value="sepia"> Parşömen</label>
+      <label class="panel-option"><input type="radio" name="sr-theme" value="dark"> Koyu</label>
+    </div>
+  </div>
+  <div class="panel-section">
+    <div class="panel-section-title">Yazı Boyutu</div>
+    <div class="panel-row-group">
+      <label class="panel-option"><input type="radio" name="sr-fontsize" value="small"> Küçük</label>
+      <label class="panel-option active"><input type="radio" name="sr-fontsize" value="normal" checked> Normal</label>
+      <label class="panel-option"><input type="radio" name="sr-fontsize" value="large"> Büyük</label>
+    </div>
+  </div>
+</div>
 
 <script>
 // ── Constants ──────────────────────────────────────────────────────────────
@@ -718,41 +763,165 @@ let showLimits   = {};   // bookName → number shown
 
 const SHOW_STEP  = 40;
 
-// ── Translation chips ──────────────────────────────────────────────────────
-function buildTransChips() {
-  const wrap = document.getElementById('trans-filter-wrap');
-  const allLoaded = ALL_LOADED_TIDS;
-  wrap.innerHTML = allLoaded.map(tid => {
-    const t = ALL_TRANS[tid];
-    const on = activeTids.includes(tid);
-    return `<label class="trans-chip ${on ? 'active' : ''}" data-tid="${tid}" title="${escHtml(t.name)}">
-      <input type="checkbox" ${on ? 'checked' : ''} />
-      <span class="trans-chip-dot"></span>
-      <span class="trans-chip-label">${escHtml(tid)}</span>
-      <span class="trans-chip-hits" id="chip-hits-${tid}"></span>
-    </label>`;
-  }).join('');
+// ── Translation panel ──────────────────────────────────────────────────────
+const TRANS_CATEGORIES = [
+  { id: 'ottoman', label: 'Osmanlı Türkçesi',
+    subcats: [
+      { label: 'Tam Kutsal Kitap', ids: ['ALI1665','JDK1827','TUR1852-57','SEL1866-77','KM1886','KMEYA'] },
+      { label: 'Yeni Antlaşma',    ids: ['KIE1819'] },
+      { label: 'Kısmi',            ids: ['SEA1666','MEZ1669','NSH1739'] },
+    ]
+  },
+  { id: 'modern', label: 'Modern Türkçe',
+    subcats: [
+      { label: 'Tam Kutsal Kitap', ids: ['TCL02','AREMSI','HKTN','YTC','HAKK'] },
+      { label: 'Yeni Antlaşma',    ids: ['YYY1987','CAN','KKDEU','BGT','COS','TTT'] },
+      { label: 'Kısmi',            ids: ['TSV','OTR2019'] },
+    ]
+  },
+  { id: 'english', label: 'English',
+    subcats: [ { label: null, ids: ['ESV'] } ]
+  },
+  { id: 'heretical', label: 'Sapkın Tercümeler',
+    subcats: [ { label: null, ids: ['NWT2008','NWT2025'] } ]
+  },
+];
 
-  wrap.querySelectorAll('.trans-chip').forEach(chip => {
-    chip.addEventListener('click', e => {
-      e.preventDefault(); // stop browser from toggling the checkbox a second time
-      const tid    = chip.dataset.tid;
-      const cb     = chip.querySelector('input');
-      const nowOn  = !activeTids.includes(tid);
-      cb.checked   = nowOn;
-      chip.classList.toggle('active', nowOn);
-      if (nowOn) activeTids.push(tid);
-      else       activeTids = activeTids.filter(t => t !== tid);
-      reSearch();
-    });
+let openPanelId = null;
+function togglePanel(panelId, triggerEl) {
+  if (openPanelId === panelId) { closeNavPanel(); return; }
+  closeNavPanel();
+  const p = document.getElementById(panelId);
+  const rect = triggerEl.getBoundingClientRect();
+  p.style.top   = (rect.bottom + 4) + 'px';
+  p.style.right = Math.max(4, window.innerWidth - rect.right) + 'px';
+  p.style.left  = 'auto';
+  p.classList.add('open');
+  openPanelId = panelId;
+}
+function closeNavPanel() {
+  if (openPanelId) {
+    document.getElementById(openPanelId).classList.remove('open');
+    openPanelId = null;
+  }
+}
+document.addEventListener('click', e => {
+  if (!e.target.closest('.panel') && !e.target.closest('.hdr-btn')) closeNavPanel();
+});
+
+function _catIds(cat) {
+  return cat.subcats.flatMap(sc => sc.ids).filter(id => ALL_TRANS[id] && ALL_TRANS[id].loaded);
+}
+
+function updatePanelCounts() {
+  document.querySelectorAll('.trans-cat[data-cat-id]').forEach(catEl => {
+    const cat = TRANS_CATEGORIES.find(c => c.id === catEl.dataset.catId);
+    if (!cat) return;
+    const loaded = _catIds(cat);
+    const selCount = loaded.filter(id => activeTids.includes(id)).length;
+    const countEl = catEl.querySelector('.trans-cat-count');
+    if (countEl) {
+      countEl.textContent = selCount > 0 ? (selCount + '/' + loaded.length) : loaded.length;
+      countEl.classList.toggle('has-sel', selCount > 0);
+    }
+    const selAllBtn = catEl.querySelector('.trans-cat-selall');
+    if (selAllBtn) {
+      const allOn = loaded.length > 0 && loaded.every(id => activeTids.includes(id));
+      selAllBtn.classList.toggle('all-on', allOn);
+      selAllBtn.textContent = allOn ? 'Bırak' : 'Tümü';
+    }
   });
 }
 
-function updateChipHits() {
-  for (const [tid, count] of Object.entries(hitsByTid)) {
-    const el = document.getElementById(`chip-hits-${tid}`);
-    if (el) el.textContent = count > 0 ? count : '';
-  }
+function buildTransPanel() {
+  const listEl = document.getElementById('trans-cat-list');
+  if (!listEl) return;
+  listEl.innerHTML = '';
+  TRANS_CATEGORIES.forEach(cat => {
+    const loaded = _catIds(cat);
+    if (!loaded.length) return;
+    const selCount = loaded.filter(id => activeTids.includes(id)).length;
+    const catEl = document.createElement('div');
+    catEl.className = 'trans-cat';
+    catEl.dataset.catId = cat.id;
+
+    const header = document.createElement('div');
+    header.className = 'trans-cat-header';
+
+    const toggle = document.createElement('button');
+    toggle.className = 'trans-cat-toggle';
+    const countHtml = selCount > 0
+      ? '<span class="trans-cat-count has-sel">' + selCount + '/' + loaded.length + '</span>'
+      : '<span class="trans-cat-count">' + loaded.length + '</span>';
+    toggle.innerHTML = '<span class="trans-cat-arrow">&#9660;</span><span class="trans-cat-name">' + cat.label + '</span>' + countHtml;
+    toggle.addEventListener('click', () => catEl.classList.toggle('open'));
+
+    const selAllBtn = document.createElement('button');
+    selAllBtn.className = 'trans-cat-selall';
+    const allOn = loaded.length > 0 && loaded.every(id => activeTids.includes(id));
+    selAllBtn.textContent = allOn ? 'Bırak' : 'Tümü';
+    selAllBtn.classList.toggle('all-on', allOn);
+    selAllBtn.addEventListener('click', e => {
+      e.stopPropagation();
+      const nowAllOn = loaded.every(id => activeTids.includes(id));
+      if (nowAllOn) {
+        activeTids = activeTids.filter(id => !loaded.includes(id));
+      } else {
+        loaded.forEach(id => { if (!activeTids.includes(id)) activeTids.push(id); });
+      }
+      updatePanelCounts();
+      reSearch();
+    });
+
+    header.appendChild(toggle);
+    header.appendChild(selAllBtn);
+    catEl.appendChild(header);
+
+    const body = document.createElement('div');
+    body.className = 'trans-cat-body';
+    cat.subcats.forEach(sc => {
+      if (sc.label) {
+        const labelEl = document.createElement('div');
+        labelEl.className = 'trans-subcat-label';
+        labelEl.textContent = sc.label;
+        body.appendChild(labelEl);
+      }
+      sc.ids.forEach(tid => {
+        const t = ALL_TRANS[tid];
+        if (!t) return;
+        const item = document.createElement('div');
+        item.className = 'trans-item' + (t.loaded ? '' : ' unavailable');
+        const checked = activeTids.includes(tid);
+        const cb = document.createElement('input');
+        cb.type = 'checkbox';
+        cb.checked = checked;
+        cb.dataset.tid = tid;
+        if (!t.loaded) cb.disabled = true;
+        const abbr = document.createElement('div');
+        abbr.className = 'trans-abbr';
+        abbr.textContent = tid;
+        const meta = document.createElement('div');
+        meta.className = 'trans-meta';
+        meta.innerHTML = '<div class="trans-name">' + escHtml(t.name) + '</div><div class="trans-year">' + t.year + (!t.loaded ? ' — yakında' : '') + '</div>';
+        item.appendChild(cb);
+        item.appendChild(abbr);
+        item.appendChild(meta);
+        if (t.loaded) {
+          item.addEventListener('click', () => {
+            const nowOn = !activeTids.includes(tid);
+            cb.checked = nowOn;
+            if (nowOn) activeTids.push(tid);
+            else activeTids = activeTids.filter(x => x !== tid);
+            updatePanelCounts();
+            reSearch();
+          });
+        }
+        body.appendChild(item);
+      });
+    });
+    catEl.appendChild(body);
+    listEl.appendChild(catEl);
+  });
 }
 
 // ── Re-run search or just re-render if no active query ────────────────────
@@ -762,24 +931,12 @@ function reSearch() {
   else renderResults();
 }
 
-// ── Scope tabs ─────────────────────────────────────────────────────────────
-document.querySelectorAll('.scope-btn').forEach(btn => {
-  btn.addEventListener('click', () => {
-    document.querySelectorAll('.scope-btn').forEach(b => b.classList.remove('active'));
-    btn.classList.add('active');
-    scopeFilter = btn.dataset.scope;
-    reSearch();
-  });
-});
-
 // ── Render ─────────────────────────────────────────────────────────────────
 function renderResults() {
   const idleEl   = document.getElementById('state-idle');
   const noResEl  = document.getElementById('state-no-results');
   const listEl   = document.getElementById('results-list');
   const countEl  = document.getElementById('result-count');
-
-  updateChipHits();
 
   const scopeBooks = scopeFilter === 'nt' ? new Set(NT_BOOKS)
                    : scopeFilter === 'ot' ? new Set(OT_BOOKS)
@@ -1082,8 +1239,145 @@ qEl.addEventListener('keydown', e => {
   }
 });
 
+// ── Presets ────────────────────────────────────────────────────────────────
+const ALL_TRANS_IDS_ORDERED = [
+  ...Object.values(TRANSLATIONS.bibleFull), ...Object.values(TRANSLATIONS.ntFull),
+  ...Object.values(TRANSLATIONS.ntPartial), ...Object.values(TRANSLATIONS.otPartial),
+  ...Object.values(TRANSLATIONS.heretical), ...Object.values(TRANSLATIONS.english)
+].map(t => t.id);
+
+function getFavorites() { try { return JSON.parse(localStorage.getItem('kkf_favs') || '[]'); } catch { return []; } }
+
+const HERETICAL_ID_SET = new Set(['NWT2008','NWT2025']);
+const ENGLISH_ID_SET   = new Set(['ESV']);
+
+const SEARCH_PRESETS = [
+  { id:'favoriler', label:'⭐ Favoriler',  ids: () => getFavorites().filter(id => ALL_TRANS[id]?.loaded) },
+  { id:'modern',   label:'Modern',    ids: () => ['TCL02','YTC','TTT','HAKK','KMEYA'] },
+  { id:'tarihi',   label:'Tarihi',    ids: () => ['ALI1665','KIE1819','JDK1827','TUR1852-57','SEL1866-77','KM1886'] },
+  { id:'yeniant',  label:'Yeni Ant.', ids: () => ['KIE1819','YYY1987','CAN','KKDEU','BGT','COS','TTT'] },
+  { id:'tamkitap', label:'Tam Kitap', ids: () => ['ALI1665','JDK1827','KM1886','KMEYA','TCL02','AREMSI','HKTN','YTC','HAKK'] },
+  { id:'1940plus', label:'1940 Sonrası', ids: () => ALL_TRANS_IDS_ORDERED.filter(id => !HERETICAL_ID_SET.has(id) && !ENGLISH_ID_SET.has(id) && ALL_TRANS[id]?.year > 1940 && ALL_TRANS[id]?.loaded) },
+];
+
+function syncPresetHighlights() {
+  document.querySelectorAll('.preset-btn[data-preset]').forEach(btn => {
+    const p = SEARCH_PRESETS.find(x => x.id === btn.dataset.preset);
+    if (!p) return;
+    const ids = p.ids().filter(id => ALL_TRANS[id]?.loaded);
+    btn.classList.toggle('active', ids.length > 0 && ids.every(id => activeTids.includes(id)));
+  });
+}
+
+function buildPresetsBar() {
+  const bar = document.getElementById('trans-presets-bar');
+  if (!bar) return;
+  bar.innerHTML = '';
+  SEARCH_PRESETS.forEach(p => {
+    const btn = document.createElement('button');
+    btn.className = 'preset-btn';
+    btn.dataset.preset = p.id;
+    btn.textContent = p.label;
+    btn.addEventListener('click', () => {
+      const ids = p.ids().filter(id => ALL_TRANS[id]?.loaded);
+      const allOn = ids.every(id => activeTids.includes(id));
+      if (allOn) {
+        activeTids = activeTids.filter(id => !ids.includes(id));
+      } else {
+        activeTids = ids.slice();
+      }
+      buildTransPanel();
+      syncPresetHighlights();
+      reSearch();
+    });
+    bar.appendChild(btn);
+  });
+  syncPresetHighlights();
+}
+
+// Bulk bar
+document.getElementById('bulk-sel-all').addEventListener('click', () => {
+  activeTids = ALL_LOADED_TIDS.slice();
+  buildTransPanel();
+  syncPresetHighlights();
+  reSearch();
+});
+document.getElementById('bulk-desel-all').addEventListener('click', () => {
+  activeTids = [];
+  buildTransPanel();
+  syncPresetHighlights();
+  reSearch();
+});
+
+// ── Panel button wiring ────────────────────────────────────────────────────
+document.getElementById('btn-translations').addEventListener('click', function(e) {
+  e.stopPropagation();
+  togglePanel('panel-translations', this);
+});
+document.getElementById('btn-gorunum').addEventListener('click', function(e) {
+  e.stopPropagation();
+  togglePanel('panel-gorunum', this);
+});
+
+// ── Görünüm: theme ─────────────────────────────────────────────────────────
+function syncGorunumActive() {
+  const cur = document.querySelector('input[name="sr-theme"]:checked');
+  document.querySelectorAll('label.panel-option').forEach(l => {
+    const inp = l.querySelector('input[name="sr-theme"]');
+    if (inp) l.classList.toggle('active', inp === cur);
+  });
+}
+function applySrTheme(val) {
+  document.body.classList.remove('theme-light', 'theme-sepia', 'theme-dark');
+  if (val === 'dark')  document.body.classList.add('theme-dark');
+  if (val === 'sepia') document.body.classList.add('theme-sepia');
+  // 'light' = no extra class needed (theme-light class added for result area overrides)
+  if (val === 'light') document.body.classList.add('theme-light');
+}
+(function() {
+  const saved = localStorage.getItem('pref-theme') || 'light';
+  applySrTheme(saved);
+  const r = document.querySelector('input[name="sr-theme"][value="' + saved + '"]');
+  if (r) { r.checked = true; syncGorunumActive(); }
+})();
+document.querySelectorAll('input[name="sr-theme"]').forEach(r => {
+  r.addEventListener('change', () => {
+    applySrTheme(r.value);
+    localStorage.setItem('pref-theme', r.value);
+    syncGorunumActive();
+  });
+});
+
+// ── Görünüm: font size ─────────────────────────────────────────────────────
+function syncFzActive() {
+  const cur = document.querySelector('input[name="sr-fontsize"]:checked');
+  document.querySelectorAll('label.panel-option').forEach(l => {
+    const inp = l.querySelector('input[name="sr-fontsize"]');
+    if (inp) l.classList.toggle('active', inp === cur);
+  });
+}
+function applySrFz(val) {
+  document.body.classList.remove('fz-small', 'fz-large');
+  if (val === 'small') document.body.classList.add('fz-small');
+  if (val === 'large') document.body.classList.add('fz-large');
+}
+(function() {
+  const saved = localStorage.getItem('pref-fz') || 'normal';
+  applySrFz(saved);
+  const r = document.querySelector('input[name="sr-fontsize"][value="' + saved + '"]');
+  if (r) { r.checked = true; syncFzActive(); }
+})();
+document.querySelectorAll('input[name="sr-fontsize"]').forEach(r => {
+  r.addEventListener('change', () => {
+    applySrFz(r.value);
+    localStorage.setItem('pref-fz', r.value);
+    syncFzActive();
+  });
+});
+
 // ── Init ───────────────────────────────────────────────────────────────────
-buildTransChips();
+buildPresetsBar();
+buildTransPanel();
 renderResults();
 
 if (initQ.trim().length >= 2) {

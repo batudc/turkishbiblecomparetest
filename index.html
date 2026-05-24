@@ -7,7 +7,7 @@
   <script src="https://cdn.tailwindcss.com"></script>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,600&family=Jost:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,600&family=EB+Garamond:wght@400;500;600&family=Jost:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
   <style>
     :root {
       --navy:       #1B3A54;
@@ -47,37 +47,43 @@
     /* ===================== NAV ===================== */
     nav {
       position: fixed; top: 0; left: 0; right: 0; z-index: 100;
-      padding: 0 3rem; height: 68px;
-      display: flex; align-items: center; justify-content: space-between;
-      background: rgba(247, 241, 232, 0.92);
-      backdrop-filter: blur(12px);
-      border-bottom: 1px solid rgba(27, 58, 84, 0.1);
-      transition: background 0.3s ease;
+      padding: 0 0 0 14px; height: 70px;
+      display: flex; align-items: center;
+      background: #08141F;
+      border-bottom: 1px solid rgba(184,146,42,0.15);
     }
-    .nav-logo { display: flex; align-items: center; gap: 0.75rem; text-decoration: none; }
-    .nav-logo img { height: 36px; width: auto; }
+    .nav-logo { display: flex; align-items: center; gap: 9px; text-decoration: none; flex-shrink: 0; margin-right: 18px; }
+    .nav-logo img { height: 32px; width: auto; filter: brightness(0) invert(1); opacity: 0.82; }
     .nav-logo-text {
-      font-family: 'Jost', sans-serif; font-size: 0.75rem; font-weight: 700;
-      letter-spacing: 0.12em; text-transform: uppercase; color: var(--navy); line-height: 1.3;
+      font-family: 'EB Garamond', Georgia, serif; font-size: 18px; font-weight: 500;
+      color: var(--cream); line-height: 1.15; letter-spacing: -0.01em;
     }
-    .nav-links { display: flex; align-items: center; gap: 2.5rem; list-style: none; }
+    .nav-search-wrap {
+      flex: 1; max-width: 480px; position: relative;
+    }
+    .nav-search-wrap svg {
+      position: absolute; left: 10px; top: 50%; transform: translateY(-50%);
+      width: 14px; height: 14px; color: rgba(255,255,255,0.3); pointer-events: none;
+    }
+    .nav-search-input {
+      width: 100%; padding: 8px 12px 8px 32px;
+      background: rgba(255,255,255,0.08); border: 1px solid rgba(255,255,255,0.12);
+      border-radius: 3px; color: #fff; font-size: 13px;
+      font-family: 'Jost', sans-serif;
+      outline: none; transition: background 0.15s, border-color 0.15s;
+    }
+    .nav-search-input::placeholder { color: rgba(255,255,255,0.3); }
+    .nav-search-input:focus { background: rgba(255,255,255,0.12); border-color: rgba(255,255,255,0.25); }
+    .nav-links {
+      display: flex; align-items: center; gap: 2.5rem; list-style: none;
+      margin-left: auto; padding: 0 3rem 0 2.5rem;
+    }
     .nav-links a {
       font-size: 0.78rem; font-weight: 500; letter-spacing: 0.1em; text-transform: uppercase;
-      color: var(--navy); text-decoration: none; opacity: 0.75;
-      transition: opacity 0.2s ease, color 0.2s ease;
+      color: rgba(247,241,232,0.55); text-decoration: none;
+      transition: color 0.2s ease;
     }
-    .nav-links a:hover { opacity: 1; color: var(--gold); }
-    .nav-links a.nav-highlight {
-      opacity: 1; color: var(--gold); font-weight: 600;
-    }
-    .nav-cta {
-      font-size: 0.78rem; font-weight: 600; letter-spacing: 0.12em; text-transform: uppercase;
-      background: var(--navy); color: var(--cream); padding: 0.55rem 1.4rem;
-      border: none; cursor: pointer; text-decoration: none;
-      transition: background 0.2s ease, transform 0.15s ease;
-    }
-    .nav-cta:hover { background: var(--navy-mid); transform: translateY(-1px); }
-    .nav-cta:active { transform: translateY(0); }
+    .nav-links a:hover { color: var(--gold-light); }
 
     /* ===================== HERO ===================== */
     .hero {
@@ -223,7 +229,7 @@
     .section-label::before { content: ''; width: 28px; height: 1px; background: currentColor; flex-shrink: 0; }
     .section-heading { font-size: clamp(2.5rem, 4vw, 4rem); color: var(--navy-deep); margin-bottom: 1.25rem; }
     .section-sub { font-size: 1rem; line-height: 1.75; color: var(--stone); max-width: 520px; }
-    .tools-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 2rem; }
+    .tools-grid { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 2rem; }
 
     .tool-card {
       border: 1.5px solid rgba(27,58,84,0.12); position: relative; overflow: hidden;
@@ -248,6 +254,29 @@
       background: radial-gradient(ellipse 80% 80% at 10% 110%, rgba(38,77,107,0.6) 0%, transparent 60%),
                   radial-gradient(ellipse 60% 60% at 90% 20%, rgba(184,146,42,0.1) 0%, transparent 60%);
     }
+    .tool-card.ara .tool-card-header::before {
+      background: radial-gradient(ellipse 80% 80% at 50% 120%, rgba(184,146,42,0.18) 0%, transparent 60%),
+                  radial-gradient(ellipse 50% 50% at 10% 10%, rgba(38,77,107,0.4) 0%, transparent 60%);
+    }
+    .mini-search-bar {
+      display: flex; align-items: center; gap: 0.5rem;
+      background: rgba(255,255,255,0.08); border: 1px solid rgba(255,255,255,0.12);
+      padding: 0.55rem 0.9rem; margin-bottom: 0.75rem;
+    }
+    .mini-search-bar svg { color: rgba(212,170,86,0.7); flex-shrink: 0; }
+    .mini-search-bar span { font-size: 0.78rem; color: rgba(253,250,246,0.55); font-family: 'Jost',sans-serif; }
+    .mini-search-result {
+      border-bottom: 1px solid rgba(255,255,255,0.05); padding: 0.55rem 0;
+      display: grid; grid-template-columns: 38px 1fr; gap: 0.5rem; align-items: start;
+    }
+    .mini-search-result:last-child { border-bottom: none; }
+    .mini-sr-abbr {
+      font-family: 'Jost',sans-serif; font-size: 0.55rem; font-weight: 700;
+      color: var(--gold-light); letter-spacing: 0.1em; padding-top: 0.1rem;
+    }
+    .mini-sr-ref { font-size: 0.6rem; color: rgba(253,250,246,0.35); margin-bottom: 0.15rem; font-family:'Jost',sans-serif; }
+    .mini-sr-text { font-size: 0.78rem; color: rgba(253,250,246,0.72); font-family:'Cormorant Garamond',serif; line-height: 1.4; }
+    .mini-sr-text mark { background: rgba(184,146,42,0.25); color: var(--gold-light); padding: 0.05em; }
     .tool-number {
       font-family: 'Cormorant Garamond', serif; font-size: 5rem; font-weight: 300;
       color: rgba(253,250,246,0.06); position: absolute; top: 0.5rem; right: 1.5rem; line-height: 1;
@@ -368,6 +397,7 @@
       .hero { grid-template-columns: 1fr; }
       .hero-right { display: none; }
       .tools-grid { grid-template-columns: 1fr; }
+      @media (min-width: 700px) and (max-width: 1100px) { .tools-grid { grid-template-columns: 1fr 1fr; } }
       nav { padding: 0 1.5rem; }
       .nav-links { display: none; }
       .tools-section { padding-left: 1.5rem; padding-right: 1.5rem; }
@@ -381,14 +411,19 @@
   <nav>
     <a href="index.html" class="nav-logo">
       <img src="brand_assets/logo.png" alt="Kutsal Kitap İnceleme" />
-      <span class="nav-logo-text">Kutsal Kitap<br>İnceleme</span>
+      <div class="nav-logo-text">Kutsal Kitap İnceleme</div>
     </a>
+    <form class="nav-search-wrap" action="search.html" method="get" role="search">
+      <svg viewBox="0 0 14 14" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round">
+        <circle cx="5.5" cy="5.5" r="4"/><line x1="9" y1="9" x2="13" y2="13"/>
+      </svg>
+      <input class="nav-search-input" type="text" name="q" placeholder="arama yapın…" autocomplete="off" />
+    </form>
     <ul class="nav-links">
-      <li><a href="compare.html" class="nav-highlight">Karşılaştır</a></li>
-      <li><a href="interlinear.html" class="nav-highlight">Dil İnceleme</a></li>
+      <li><a href="compare.html">Karşılaştır</a></li>
+      <li><a href="interlinear.html">Dil İnceleme</a></li>
       <li><a href="search.html">Ayet Ara</a></li>
     </ul>
-    <a href="compare.html" class="nav-cta">Karşılaştır →</a>
   </nav>
 
   <!-- ===== HERO ===== -->
@@ -471,26 +506,24 @@
   <!-- ===== MARQUEE ===== -->
   <div class="marquee-strip" aria-hidden="true">
     <div class="marquee-inner">
-      <span class="marquee-item"><span class="marquee-dot"></span>Kutsal Kitap 2009</span>
-      <span class="marquee-item"><span class="marquee-dot"></span>Yeni Çeviri 2015</span>
-      <span class="marquee-item"><span class="marquee-dot"></span>Türkçe Çeviri 2016</span>
-      <span class="marquee-item"><span class="marquee-dot"></span>1941 Tarihî Çeviri</span>
-      <span class="marquee-item"><span class="marquee-dot"></span>Kitabı Mukaddes 1891</span>
-      <span class="marquee-item"><span class="marquee-dot"></span>İbranice · Yunanca · Türkçe</span>
-      <span class="marquee-item"><span class="marquee-dot"></span>Strong's Sözlüğü</span>
-      <span class="marquee-item"><span class="marquee-dot"></span>Kelime Köken Analizi</span>
+      <span class="marquee-item"><span class="marquee-dot"></span>Osmanlı Türkçesi Çevirileri</span>
+      <span class="marquee-item"><span class="marquee-dot"></span>Modern Türkçe Çevirileri</span>
+      <span class="marquee-item"><span class="marquee-dot"></span>İngilizce Çeviriler</span>
+      <span class="marquee-item"><span class="marquee-dot"></span>Antik Diller</span>
       <span class="marquee-item"><span class="marquee-dot"></span>Ayet Karşılaştırma</span>
       <span class="marquee-item"><span class="marquee-dot"></span>Dil İnceleme</span>
-      <span class="marquee-item"><span class="marquee-dot"></span>Kutsal Kitap 2009</span>
-      <span class="marquee-item"><span class="marquee-dot"></span>Yeni Çeviri 2015</span>
-      <span class="marquee-item"><span class="marquee-dot"></span>Türkçe Çeviri 2016</span>
-      <span class="marquee-item"><span class="marquee-dot"></span>1941 Tarihî Çeviri</span>
-      <span class="marquee-item"><span class="marquee-dot"></span>Kitabı Mukaddes 1891</span>
-      <span class="marquee-item"><span class="marquee-dot"></span>İbranice · Yunanca · Türkçe</span>
-      <span class="marquee-item"><span class="marquee-dot"></span>Strong's Sözlüğü</span>
       <span class="marquee-item"><span class="marquee-dot"></span>Kelime Köken Analizi</span>
+      <span class="marquee-item"><span class="marquee-dot"></span>Strong's Sözlüğü</span>
+      <span class="marquee-item"><span class="marquee-dot"></span>Ayet Arama</span>
+      <span class="marquee-item"><span class="marquee-dot"></span>Osmanlı Türkçesi Çevirileri</span>
+      <span class="marquee-item"><span class="marquee-dot"></span>Modern Türkçe Çevirileri</span>
+      <span class="marquee-item"><span class="marquee-dot"></span>İngilizce Çeviriler</span>
+      <span class="marquee-item"><span class="marquee-dot"></span>Antik Diller</span>
       <span class="marquee-item"><span class="marquee-dot"></span>Ayet Karşılaştırma</span>
       <span class="marquee-item"><span class="marquee-dot"></span>Dil İnceleme</span>
+      <span class="marquee-item"><span class="marquee-dot"></span>Kelime Köken Analizi</span>
+      <span class="marquee-item"><span class="marquee-dot"></span>Strong's Sözlüğü</span>
+      <span class="marquee-item"><span class="marquee-dot"></span>Ayet Arama</span>
     </div>
   </div>
 
@@ -500,7 +533,7 @@
       <div class="tools-header">
         <p class="label-text section-label reveal">Araçlar</p>
         <div style="display:grid;grid-template-columns:1fr 1fr;gap:3rem;margin-top:0;">
-          <h2 class="display section-heading reveal" style="margin-bottom:0;">İki Güçlü<br><em style="font-style:italic;color:var(--gold);">Araştırma Aracı</em></h2>
+          <h2 class="display section-heading reveal" style="margin-bottom:0;">Üç Güçlü<br><em style="font-style:italic;color:var(--gold);">Araştırma Aracı</em></h2>
           <p class="section-sub reveal" style="align-self:flex-end;">Türkçe Kutsal Kitap'ı hem farklı çeviriler arasında karşılaştırarak hem de özgün dilde kelime kelime inceleyerek çok katmanlı anlayışa ulaşın.</p>
         </div>
       </div>
@@ -547,8 +580,8 @@
           <div class="tool-card-header">
             <span class="tool-number">02</span>
             <span class="tool-tag">Dil İnceleme</span>
-            <h3 class="tool-card-title">İbranice & Yunanca<br><em>Köklerine İn</em></h3>
-            <p class="tool-card-subtitle">Her kelimeye tıklayın, Strong's sözlüğünde kökenini görün. İbranice ve Yunanca metni Türkçe karşılıklarıyla yan yana inceleyin.</p>
+            <h3 class="tool-card-title">İbranice & Koine Grekçe<br><em>Köklerine İn</em></h3>
+            <p class="tool-card-subtitle">Her kelimeye tıklayın, Strong's sözlüğünde kökenini görün. İbranice ve Koine Grekçe metni Türkçe karşılıklarıyla yan yana inceleyin.</p>
             <div class="tool-preview">
               <div class="mini-interlinear">
                 <div class="mini-word-strip">
@@ -584,12 +617,49 @@
           </div>
           <div class="tool-card-body">
             <ul class="tool-features">
-              <li>İbranice ve Yunanca interlineer metin</li>
-              <li>Strong's numaralı tam sözlük — 8.700+ İbranice, 5.600+ Yunanca</li>
+              <li>İbranice ve Koine Grekçe interlineer metin</li>
+              <li>Strong's numaralı tam sözlük — 8.700+ İbranice, 5.600+ Koine Grekçe</li>
               <li>Türkçe çevirideki kelime kullanımları ve ayet referansları</li>
               <li>Köken analizi: kökler, ekler, çekim biçimleri</li>
             </ul>
             <span class="tool-cta">Dil İncelemeye Başla →</span>
+          </div>
+        </a>
+
+        <!-- AYET ARA CARD -->
+        <a href="search.html" class="tool-card ara reveal" tabindex="0">
+          <div class="tool-card-header">
+            <span class="tool-number">03</span>
+            <span class="tool-tag">Ayet Ara</span>
+            <h3 class="tool-card-title">Tüm Çevirilerde<br><em>Ayet Ara</em></h3>
+            <p class="tool-card-subtitle">Bir kelime ya da ifadeyi tüm Türkçe çevirilerde aynı anda arayın. Her çevirinin o kelimeyi nasıl aktardığını anında görün.</p>
+            <div class="tool-preview">
+              <div class="mini-search-bar">
+                <svg width="12" height="12" viewBox="0 0 16 16" fill="none"><circle cx="6.5" cy="6.5" r="5" stroke="currentColor" stroke-width="1.5"/><path d="M10.5 10.5L14 14" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+                <span>iman…</span>
+              </div>
+              <div class="mini-search-result">
+                <div class="mini-sr-abbr">TCL02</div>
+                <div><div class="mini-sr-ref">Romalılar 5:1</div><div class="mini-sr-text"><mark>iman</mark> yoluyla aklanmış olduğumuzdan…</div></div>
+              </div>
+              <div class="mini-search-result">
+                <div class="mini-sr-abbr">KMEYA</div>
+                <div><div class="mini-sr-ref">Romalılar 5:1</div><div class="mini-sr-text"><mark>iman</mark> ile sâlih kılındığımızdan…</div></div>
+              </div>
+              <div class="mini-search-result">
+                <div class="mini-sr-abbr">YTC</div>
+                <div><div class="mini-sr-ref">Romalılar 5:1</div><div class="mini-sr-text"><mark>iman</mark> aracılığıyla aklandığımız için…</div></div>
+              </div>
+            </div>
+          </div>
+          <div class="tool-card-body">
+            <ul class="tool-features">
+              <li>Tüm Türkçe çevirilerde eş zamanlı arama</li>
+              <li>Kelime, ifade ve kısmi eşleşme desteği</li>
+              <li>Sonuçları çeviri bazında filtreleyin</li>
+              <li>Her sonuçtan doğrudan karşılaştırma ekranına geçin</li>
+            </ul>
+            <span class="tool-cta">Ayet Aramaya Başla →</span>
           </div>
         </a>
 
@@ -633,43 +703,122 @@
     const SHOWCASE_VERSES = [
       {book:'JHN', ch:3, v:16, label:'Yuhanna 3:16',     ot:false},
       {book:'PSA', ch:23, v:1,  label:'Mezmur 23:1',      ot:true},
-      {book:'GEN', ch:1, v:1,   label:'Yaratılış 1:1',    ot:true},
-      {book:'ROM', ch:8, v:28,  label:'Romalılar 8:28',   ot:false},
-      {book:'ISA', ch:53, v:5,  label:'Yeşaya 53:5',      ot:true},
-      {book:'PRO', ch:3, v:5,   label:'Özdeyişler 3:5',   ot:true},
+      {book:'GEN', ch:1, v:1,   label:'Yaratilis 1:1',    ot:true},
+      {book:'ROM', ch:8, v:28,  label:'Romalilar 8:28',   ot:false},
+      {book:'ISA', ch:53, v:5,  label:'Yesaya 53:5',      ot:true},
+      {book:'PRO', ch:3, v:5,   label:'Ozdeyisler 3:5',   ot:true},
       {book:'MAT', ch:5, v:3,   label:'Matta 5:3',        ot:false},
       {book:'JHN', ch:1, v:1,   label:'Yuhanna 1:1',      ot:false},
       {book:'PHP', ch:4, v:13,  label:'Filipililer 4:13', ot:false},
       {book:'REV', ch:21, v:4,  label:'Vahiy 21:4',       ot:false}
     ];
+    const VERSE_DATA = {
+      'JHN_3_16': {
+        'ALI1665': 'zira Allah Teala alemi ta o kadar sevdi ki kendi Biricik Oglunu ihsan eyledi ta ki ona iman getiren helak olmaya illak ebeden hayy ola',
+        'KMEYA': 'Zira Allah dunyayi oyle sevdi ki, biricik Oglunu verdi; ta ki, ona iman eden her adam helak olmasin, ancak ebedi hayati olsun.',
+        'TCL02': 'Cunku Tanri dunyayi o kadar cok sevdi ki, biricik Oglu\'nu verdi. Oyle ki, O\'na iman edenlerin hicbiri mahvolmasin, hepsi sonsuz yasama kavusun.'
+      },
+      'PSA_23_1': {
+        'ALI1665': 'Davudun mezmurudur Beni guden Allah Tealadır bana nesne eksik olmaz',
+        'KMEYA': 'Davudun Mezmurudur. RAB cobanımdir; benim eksigim olmaz.',
+        'TCL02': 'RAB cobanımdir, Eksigim olmaz.'
+      },
+      'GEN_1_1': {
+        'ALI1665': 'Ibtidada Bari Teala gokleri ve yeri yaratmistir',
+        'KMEYA': 'BASLANGIÇTA Allah gokleri ve yeri yaratti.',
+        'TCL02': 'Baslangicta Tanri gogu ve yeri yaratti.'
+      },
+      'ROM_8_28': {
+        'ALI1665': 'pes biliriz ki her nesne Allahi sevenlere iylige musaiddir ki onun takdirine gore meduvv oldular',
+        'KMEYA': 'Ve Allahi sevenlere, kendi muradina gore davet olunanlara, butun seylerin birlikte iyilik icin isletigini biliriz.',
+        'TCL02': 'Tanri\'nin, kendisini sevenlerle, amaci uyarinca cagrilmis olanlarla birlikte her durumda iyilik icin etkin oldugunu biliriz.'
+      },
+      'ISA_53_5': {
+        'ALI1665': 'o ise bizim isyanımız icin yaralandi ve gunahlarimiz icin zebunlanmis selamımızın taziri onun uzerinde ve onun beresi bize dermandir',
+        'KMEYA': 'Fakat gunahlarimizdan oturu o yaralandi, fesatlarimizdan oturu o zedelendi; selaametimiz icin olan ceza onun uzerine indi; ve onun beresilé biz sifa bulduk.',
+        'TCL02': 'Oysa, bizim isyanlarimiz yuzunden onun bedeni desildí, Bizim suclarimiz yuzunden o eziyet cekti. Esenligimiz icin gerekli olan ceza Ona verildi. Bizler onun yaralaríyla sifa bulduk.'
+      },
+      'PRO_3_5': {
+        'ALI1665': 'cumle kalbin ile Allah Tealaya mutevekkil ol ve kendi aklina dayanma',
+        'KMEYA': 'Butun yuregínle RABBE guven, Ve kendi anlayisina dayanma;',
+        'TCL02': 'RAB\'be guven butun yureginle, Kendi aklina bel baglama.'
+      },
+      'MAT_5_3': {
+        'ALI1665': 'Ne mutlu ruhani fukara zira melekutullah onlarındır',
+        'KMEYA': 'Ne mutlu ruhta fakir olanlara; cunku goklerin melekutu onlarıdır.',
+        'TCL02': 'Ne mutlu ruhta yoksul olanlara! Cunku Goklerin Egemenligí onlarındır.'
+      },
+      'JHN_1_1': {
+        'ALI1665': 'Ezelden Kelam var idi ve Kelam Allah Tealanin katinda idi ve ol Kelam bizzat Allah idi',
+        'KMEYA': 'KELAM baslangiçta var idi, ve Kelam Allah nezdinde idi, ve Kelam Allah idi.',
+        'TCL02': 'Baslangiçta Soz vardi. Soz Tanri\'yla birlikteydi ve Soz Tanri\'ydı.'
+      },
+      'PHP_4_13': {
+        'ALI1665': 'bana takviyye veren Hazret-i Mesih ile her seye kadirim',
+        'KMEYA': 'Beni kuvvetlendirende her seyi yapabilirim.',
+        'TCL02': 'Beni guclendirenin araciligiyla her seyi yapabilirim.'
+      },
+      'REV_21_4': {
+        'ALI1665': 've Cenab-i Izzet onlarin gozlerinden her yasini silecektir artik olum olmaya ve artik ne yas ne feryad ne zahmet ola zira evvelki seyler gecmislerdir',
+        'KMEYA': 've gozlerinden butun gozyaslarini silecek; ve artik olum olmiyacak; ve artik matem ve aglayi ve aci da olmiyacak; cunku evelki seyler gectiler, dedi.',
+        'TCL02': 'Onlarin gozlerinden butun yaslari silecek. Artik olum olmayacak. Artik ne yas, ne aglayi, ne de istırap olacak. Cunku onceki duzen ortadan kalkti.'
+      }
+    };
+
+    function renderComp(verse, translations, data) {
+      const body = document.getElementById('live-comp-body');
+      if (!body) return;
+      const key = verse.book + '_' + verse.ch + '_' + verse.v;
+      body.innerHTML = translations.map(function(t) {
+        const text = (data[key] && data[key][t.code]) ? data[key][t.code] : null;
+        return '<div class="comp-entry">'
+          + '<div class="comp-translation-name"><span class="comp-badge">' + t.code + '</span> ' + t.name + '</div>'
+          + '<p class="comp-verse-text">' + (text ? '“' + text + '”' : '—') + '</p>'
+          + '</div>';
+      }).join('');
+    }
+
     async function loadLiveVerse() {
       const verse = SHOWCASE_VERSES[Math.floor(Math.random() * SHOWCASE_VERSES.length)];
       document.getElementById('live-verse-ref').textContent = verse.label;
       const origLang = verse.ot
-        ? {code:'BHS',  name:'İbranice',     year:'OT'}
-        : {code:'NA27', name:'Koine Grekçe', year:'NT'};
+        ? {code:'BHS',  name:'Ibranice',     year:'OT'}
+        : {code:'NA27', name:'Koine Grekcé', year:'NT'};
       const translations = [
         {code:'ALI1665',name:'Ali Ufki',       year:'1665'},
-        {code:'KMEYA',  name:'Kitabı Mukaddes',year:'1891'},
+        {code:'KMEYA',  name:'Kitabi Mukaddes',year:'1891'},
         {code:'TCL02',  name:'Kutsal Kitap',   year:'2009'},
         origLang
       ];
-      const results = await Promise.all(translations.map(async t => {
+
+      // Render immediately from fallback data
+      renderComp(verse, translations, VERSE_DATA);
+
+      // Silently try to fetch live data and update
+      if (location.protocol === 'http:' || location.protocol === 'https:') {
         try {
-          const r = await fetch(`data/translations/${t.code}/${verse.book}/${verse.ch}.json`);
-          const d = await r.json();
-          const item = (d.content || []).find(i => i.v === verse.v);
-          return {t, text: item ? item.text : null};
-        } catch(e) { return {t, text: null}; }
-      }));
-      const body = document.getElementById('live-comp-body');
-      if (!body) return;
-      body.innerHTML = results.map(({t, text}) =>
-        `<div class=”comp-entry”>
-          <div class=”comp-translation-name”><span class=”comp-badge”>${t.code}</span> ${t.name}</div>
-          <p class=”comp-verse-text”>${text ? '”' + text + '”' : '—'}</p>
-        </div>`
-      ).join('');
+          const results = await Promise.all(translations.map(async function(t) {
+            try {
+              const r = await fetch('data/translations/' + t.code + '/' + verse.book + '/' + verse.ch + '.json');
+              if (!r.ok) return {t: t, text: null};
+              const d = await r.json();
+              const item = (d.content || []).find(function(i) { return i.v === verse.v; });
+              return {t: t, text: item ? item.text : null};
+            } catch(e) { return {t: t, text: null}; }
+          }));
+          const body = document.getElementById('live-comp-body');
+          if (!body) return;
+          const anyLive = results.some(function(r) { return r.text; });
+          if (anyLive) {
+            body.innerHTML = results.map(function(r) {
+              return '<div class="comp-entry">'
+                + '<div class="comp-translation-name"><span class="comp-badge">' + r.t.code + '</span> ' + r.t.name + '</div>'
+                + '<p class="comp-verse-text">' + (r.text ? '“' + r.text + '”' : '—') + '</p>'
+                + '</div>';
+            }).join('');
+          }
+        } catch(e) { /* fallback already shown */ }
+      }
     }
     loadLiveVerse();
 
@@ -685,10 +834,6 @@
     }, { threshold: 0.1 });
     reveals.forEach(el => observer.observe(el));
 
-    const nav = document.querySelector('nav');
-    window.addEventListener('scroll', () => {
-      nav.style.background = window.scrollY > 40 ? 'rgba(247,241,232,0.97)' : 'rgba(247,241,232,0.92)';
-    }, { passive: true });
   </script>
 </body>
 </html>

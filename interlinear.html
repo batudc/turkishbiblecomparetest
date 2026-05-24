@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Dil İnceleme — Kutsal Kitap İnceleme</title>
-  <link href="https://fonts.googleapis.com/css2?family=Cardo:ital@0;1&family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Source+Sans+3:wght@400;500;600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Cardo:ital@0;1&family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Jost:wght@300;400;500;600;700&family=Source+Sans+3:wght@400;500;600&display=swap" rel="stylesheet">
   <style>
     :root {
       --bg:          #0f0f0e;
@@ -38,48 +38,51 @@
       height: 100%; overflow: hidden;
     }
 
-    /* ── HEADER ─────────────────────────────────────── */
-    .hdr {
+    /* ── UNIFIED HEADER ─────────────────────────────── */
+    #header {
       flex-shrink: 0; z-index: 200;
-      display: flex; align-items: center; gap: 10px;
-      height: 46px; padding: 0 18px;
-      background: var(--bg2); border-bottom: 1px solid var(--border);
+      background: #08141F;
+      border-bottom: 1px solid rgba(184,146,42,0.15);
+      display: flex; align-items: center; gap: 0;
+      height: 70px; padding: 0 0 0 14px;
     }
-    .hdr-logo {
-      display: flex; align-items: center; gap: 8px;
-      text-decoration: none; color: inherit;
+    #logo {
+      display: flex; align-items: center; gap: 9px;
+      text-decoration: none; color: inherit; flex-shrink: 0; margin-right: 18px;
     }
-    .hdr-logo img { height: 24px; }
-    .hdr-logo-name {
+    #logo img { height: 32px; width: auto; filter: brightness(0) invert(1); opacity: 0.82; }
+    #logo-text {
       font-family: 'EB Garamond', Georgia, serif;
-      font-size: 15px; opacity: 0.8; letter-spacing: 0.01em;
+      font-size: 18px; font-weight: 500;
+      color: #F7F1E8; line-height: 1.15; letter-spacing: -0.01em;
     }
-    .hdr-sep { width: 1px; height: 18px; background: var(--border2); margin: 0 4px; }
-    .hdr-page {
-      font-family: 'EB Garamond', Georgia, serif;
-      font-size: 16px; color: var(--gold-light); letter-spacing: 0.015em;
+    #search-wrap { flex: 1; max-width: 480px; position: relative; }
+    #search-wrap svg {
+      position: absolute; left: 10px; top: 50%; transform: translateY(-50%);
+      width: 14px; height: 14px; color: rgba(255,255,255,0.3); pointer-events: none;
     }
-    .hdr-space { flex: 1; }
-    .hdr-back {
-      font-size: 12.5px; color: var(--text2);
-      text-decoration: none; padding: 4px 10px;
-      border: 1px solid transparent; border-radius: 4px;
-      transition: color .15s, border-color .15s;
+    #search-input {
+      width: 100%; padding: 8px 12px 8px 32px;
+      background: rgba(255,255,255,0.08); border: 1px solid rgba(255,255,255,0.12);
+      border-radius: 3px; color: #fff; font-size: 13px;
+      font-family: 'Jost', sans-serif; outline: none;
+      transition: background 0.15s, border-color 0.15s;
     }
-    .hdr-back:hover { color: var(--text); border-color: var(--border2); }
-
-    /* ── NAV BAR ─────────────────────────────────────── */
-    .nav-bar {
-      flex-shrink: 0;
-      display: flex; align-items: center; gap: 8px;
-      padding: 9px 18px; flex-wrap: wrap;
-      background: var(--bg2); border-bottom: 1px solid var(--border);
-      z-index: 190;
+    #search-input::placeholder { color: rgba(255,255,255,0.3); }
+    #search-input:focus { background: rgba(255,255,255,0.12); border-color: rgba(255,255,255,0.25); }
+    #header-controls {
+      display: flex; align-items: center; gap: 6px;
+      margin-left: auto; margin-right: auto; flex-shrink: 0;
     }
-    .nav-lbl {
-      font-size: 10.5px; font-weight: 600; letter-spacing: 0.09em;
-      text-transform: uppercase; color: var(--text3);
+    #header-links {
+      display: flex; align-items: center; gap: 2.5rem;
+      flex-shrink: 0; padding: 0 3rem 0 2.5rem;
     }
+    #header-links a {
+      font-size: 0.78rem; font-weight: 500; letter-spacing: 0.1em; text-transform: uppercase;
+      color: rgba(247,241,232,0.55); text-decoration: none; transition: color 0.2s ease;
+    }
+    #header-links a:hover { color: var(--gold-light); }
     /* ── NAV BUTTONS (match compare.html .hdr-btn) ──────────────── */
     .hdr-btn {
       padding: 6px 13px;
@@ -88,7 +91,7 @@
       border-radius: 3px;
       color: rgba(247,241,232,0.6);
       font-size: 12px;
-      font-family: 'Source Sans 3', sans-serif;
+      font-family: 'Jost', sans-serif;
       font-weight: 400;
       cursor: pointer;
       white-space: nowrap;
@@ -101,18 +104,18 @@
     /* ── NAV DROPDOWN PANELS ─────────────────────────────────────── */
     .panel {
       position: fixed; z-index: 400;
-      background: var(--bg3);
-      border: 1px solid rgba(184,154,42,0.22);
-      border-radius: 4px;
-      box-shadow: 0 12px 40px rgba(0,0,0,0.7), 0 2px 8px rgba(0,0,0,0.4);
+      background: #111f2c;
+      border: 1px solid rgba(184,146,42,0.22);
+      border-radius: 3px;
+      box-shadow: 0 12px 40px rgba(0,0,0,0.6);
       display: none; flex-direction: column;
-      font-family: 'Source Sans 3', sans-serif;
+      font-family: 'Jost', sans-serif;
       min-width: 220px;
     }
     .panel.open { display: flex; }
     .panel-section {
       padding: 10px 14px 12px;
-      border-bottom: 1px solid var(--border);
+      border-bottom: 1px solid rgba(255,255,255,0.06);
     }
     .panel-section:last-child { border-bottom: none; }
     .panel-section-title {
@@ -132,24 +135,97 @@
     }
     .book-btn {
       padding: 5px 7px; background: transparent; border: none;
-      color: var(--text2); font-size: 10.5px;
-      font-family: 'Source Sans 3', sans-serif; cursor: pointer;
+      color: rgba(247,241,232,0.6); font-size: 10.5px;
+      font-family: 'Jost', sans-serif; cursor: pointer;
       text-align: left; border-radius: 2px;
       transition: background 0.1s, color 0.1s;
       white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
     }
-    .book-btn:hover { background: var(--gold-dim); color: var(--gold-light); }
-    .book-btn.active { color: var(--gold-light); font-weight: 600; background: rgba(184,154,42,0.08); }
+    .book-btn:hover { background: rgba(184,146,42,0.12); color: #d4b84a; }
+    .book-btn.active { color: #d4b84a; font-weight: 600; background: rgba(184,146,42,0.07); }
     .nav-arrow {
-      background: var(--bg3); color: var(--text2);
-      border: 1px solid var(--border2); border-radius: 5px;
-      padding: 4px 9px; font-size: 15px; cursor: pointer;
-      line-height: 1; transition: color .15s, border-color .15s;
+      width: 26px; height: 26px;
+      background: rgba(184,146,42,0.06); border: 1px solid rgba(184,146,42,0.15);
+      border-radius: 3px; color: rgba(247,241,232,0.4);
+      font-size: 13px; cursor: pointer;
+      display: flex; align-items: center; justify-content: center;
+      transition: background 0.12s;
     }
-    .nav-arrow:hover { color: var(--text); border-color: var(--gold); }
+    .nav-arrow:hover { background: rgba(184,146,42,0.18); border-color: rgba(184,146,42,0.35); color: var(--gold-light); }
     .nav-arrow:disabled { opacity: 0.25; cursor: default; pointer-events: none; }
     .nav-vsep { width: 1px; height: 18px; background: var(--border); margin: 0 4px; }
     .nav-right { margin-left: auto; display: flex; gap: 6px; align-items: center; }
+
+    /* ── PANEL ROW OPTIONS (Görünüm panel) ──────────────────────────── */
+    .panel-row-group { display: flex; flex-direction: column; gap: 2px; }
+    .panel-option {
+      display: flex; align-items: center; gap: 8px;
+      padding: 4px 6px; border-radius: 2px; cursor: pointer;
+      font-size: 11.5px; color: rgba(247,241,232,0.65);
+      transition: background 0.1s, color 0.1s; user-select: none;
+    }
+    .panel-option:hover { background: rgba(184,146,42,0.1); color: #d4b84a; }
+    .panel-option input { accent-color: #b89a2a; cursor: pointer; flex-shrink: 0; }
+    .panel-option.active { color: rgba(247,241,232,0.95); }
+
+    /* ── TEMA OVERRIDES ──────────────────────────────────────────────── */
+    /* Koyu — matches compare's dark theme exactly (#0e1e2c content bg) */
+    body.theme-dark .scroll-area { background: #0e1e2c; color: #d4c9b8; }
+    body.theme-dark .wt { background: rgba(255,255,255,0.03); border-color: rgba(255,255,255,0.08); }
+    body.theme-dark .wt:hover { background: rgba(184,154,42,0.08); border-color: rgba(184,154,42,0.28); }
+    body.theme-dark .wt.active { background: rgba(184,154,42,0.13); border-color: rgba(184,154,42,0.5); }
+    body.theme-dark .wt-g  { color: #d4c9b8; }
+    body.theme-dark .wt-tr { color: #9a8f80; }
+    body.theme-dark .wt-st { color: #b89a2a; }
+    body.theme-dark .wt-gl { color: #5e9668; }
+    body.theme-dark .wt-cx { color: #6090b8; }
+    body.theme-dark .wt-mp { color: #5a524a; }
+    body.theme-dark .vb-num { color: #b89a2a; }
+
+    /* Parşömen — matches compare's sepia exactly */
+    body.theme-sepia .scroll-area { background: #f0e6d0; color: #2c1f0e; }
+    body.theme-sepia .wt { background: rgba(44,31,14,0.04); border-color: rgba(44,31,14,0.1); }
+    body.theme-sepia .wt:hover { background: rgba(138,106,16,0.1); border-color: rgba(138,106,16,0.3); }
+    body.theme-sepia .wt.active { background: rgba(138,106,16,0.16); border-color: rgba(138,106,16,0.45); }
+    body.theme-sepia .wt-g  { color: #2c1f0e; }
+    body.theme-sepia .wt-tr { color: #6b5840; }
+    body.theme-sepia .wt-st { color: #8a6a10; }
+    body.theme-sepia .wt-gl { color: #3a6040; }
+    body.theme-sepia .wt-cx { color: #3a6080; }
+    body.theme-sepia .wt-mp { color: #9a8060; }
+    body.theme-sepia .vb-num { color: #8a6a10; }
+
+    /* Açık — matches compare's default cream exactly */
+    body.theme-light .scroll-area { background: #F7F1E8; color: #2C2416; }
+    body.theme-light .wt { background: rgba(44,36,22,0.04); border-color: rgba(44,36,22,0.1); }
+    body.theme-light .wt:hover { background: rgba(122,92,8,0.09); border-color: rgba(122,92,8,0.25); }
+    body.theme-light .wt.active { background: rgba(122,92,8,0.14); border-color: rgba(122,92,8,0.42); }
+    body.theme-light .wt-g  { color: #2C2416; }
+    body.theme-light .wt-tr { color: #6b5840; }
+    body.theme-light .wt-st { color: #7a5c08; }
+    body.theme-light .wt-gl { color: #2a5030; }
+    body.theme-light .wt-cx { color: #2a5070; }
+    body.theme-light .wt-mp { color: #9a8068; }
+    body.theme-light .vb-num { color: #7a5c08; }
+
+    /* ── YAZI BOYUTU ─────────────────────────────────────────────────── */
+    /* Küçük = old Normal */
+    body.fz-small .wt-g       { font-size: 18px; }
+    body.fz-small .wt-g.heb   { font-size: 20px; }
+    body.fz-small .wt-tr      { font-size: 10px; }
+    body.fz-small .wt-st      { font-size: 9.5px; }
+    body.fz-small .wt-gl      { font-size: 10px; }
+    body.fz-small .wt-cx      { font-size: 10px; }
+    body.fz-small .wt-mp      { font-size: 9px; }
+    /* Büyük = new bigger */
+    body.fz-large .wt-g       { font-size: 26px; }
+    body.fz-large .wt-g.heb   { font-size: 28px; }
+    body.fz-large .wt-tr      { font-size: 13px; }
+    body.fz-large .wt-st      { font-size: 12.5px; }
+    body.fz-large .wt-gl      { font-size: 13px; max-width: 114px; }
+    body.fz-large .wt-cx      { font-size: 13px; max-width: 114px; }
+    body.fz-large .wt-mp      { font-size: 11.5px; }
+
     .tog {
       font-size: 11.5px; cursor: pointer;
       padding: 3px 10px; border-radius: 4px;
@@ -173,12 +249,14 @@
     }
 
     .ch-title {
-      font-family: 'EB Garamond', Georgia, serif;
-      font-size: 30px; font-weight: 400;
-      color: var(--gold-light); letter-spacing: -0.01em;
-      margin-bottom: 30px;
-      padding-bottom: 14px;
-      border-bottom: 1px solid var(--border);
+      font-family: 'Jost', sans-serif;
+      font-size: 11px; font-weight: 700;
+      letter-spacing: 0.14em; text-transform: uppercase;
+      color: #d4b84a;
+      background: #1B3A54;
+      margin: -28px -24px 24px;
+      padding: 9px 24px;
+      border-bottom: 1px solid rgba(184,146,42,0.2);
     }
 
     /* ── VERSE BLOCK ─────────────────────────────────── */
@@ -235,13 +313,13 @@
     .wt.var.active { background: rgba(55,95,175,0.24); border-color: rgba(90,145,215,1); box-shadow: 0 0 0 1px rgba(90,145,215,0.3); }
     .wt-vbadge { display: none; }
 
-    .wt-g  { font-family: 'Cardo','GFS Didot',Georgia,serif; font-size: 18px; line-height: 1.15; color: var(--text); }
-    .wt-g.heb { font-family: 'Cardo','Ezra SIL','SBL Hebrew',serif; font-size: 20px; direction: rtl; unicode-bidi: embed; }
-    .wt-tr { font-size: 10px; font-style: italic; color: var(--text2); line-height: 1; }
-    .wt-st { font-size: 9.5px; font-weight: 700; color: var(--gold); opacity: 0.85; line-height: 1; }
-    .wt-gl { font-size: 10px; color: var(--accent-green); line-height: 1.1; max-width: 88px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
-    .wt-cx { font-size: 10px; color: var(--accent-blue); line-height: 1.1; max-width: 88px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
-    .wt-mp { font-size: 9px; color: var(--text3); line-height: 1; }
+    .wt-g  { font-family: 'Cardo','GFS Didot',Georgia,serif; font-size: 22px; line-height: 1.15; color: var(--text); }
+    .wt-g.heb { font-family: 'Cardo','Ezra SIL','SBL Hebrew',serif; font-size: 24px; direction: rtl; unicode-bidi: embed; }
+    .wt-tr { font-size: 11.5px; font-style: italic; color: var(--text2); line-height: 1; }
+    .wt-st { font-size: 11px; font-weight: 700; color: var(--gold); opacity: 0.85; line-height: 1; }
+    .wt-gl { font-size: 11.5px; color: var(--accent-green); line-height: 1.1; max-width: 100px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+    .wt-cx { font-size: 11.5px; color: var(--accent-blue); line-height: 1.1; max-width: 100px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+    .wt-mp { font-size: 10px; color: var(--text3); line-height: 1; }
     /* visibility controlled by body classes */
     body:not(.show-tr) .wt-tr { display: none; }
     body:not(.show-st) .wt-st { display: none; }
@@ -250,19 +328,6 @@
     body:not(.show-mp) .wt-mp { display: none; }
 
     /* ── SETTINGS PANEL ─────────────────────────────── */
-    #settings-btn {
-      display: flex; align-items: center; gap: 5px;
-      font-size: 12px; cursor: pointer;
-      padding: 4px 11px; border-radius: 4px;
-      border: 1px solid var(--border2);
-      background: var(--bg3); color: var(--text2);
-      transition: color .15s, border-color .15s, background .15s;
-    }
-    #settings-btn:hover, #settings-btn.open {
-      color: var(--gold-light);
-      border-color: rgba(184,154,42,0.4);
-      background: var(--gold-dim);
-    }
     #settings-btn svg { flex-shrink: 0; transition: transform .4s; }
     #settings-btn.open svg { transform: rotate(60deg); }
 
@@ -273,19 +338,9 @@
     #settings-overlay.open { display: block; }
 
     #settings-panel {
-      position: absolute;
-      top: 92px; right: 18px;
+      position: fixed;
       width: 290px;
-      background: #111210;
-      border: 1px solid rgba(184,154,42,0.2);
-      border-radius: 10px;
-      box-shadow: 0 8px 32px rgba(0,0,0,0.55), 0 2px 8px rgba(0,0,0,0.4);
       overflow: hidden;
-      animation: panelIn .15s cubic-bezier(.2,0,.2,1);
-    }
-    @keyframes panelIn {
-      from { opacity: 0; transform: translateY(-6px) scale(.98); }
-      to   { opacity: 1; transform: none; }
     }
 
     .sp-header {
@@ -361,12 +416,12 @@
       width: 0; overflow: hidden;
       flex-shrink: 0;
       transition: width 0.28s cubic-bezier(0.4, 0, 0.2, 1);
-      background: var(--sidebar-bg);
+      background: #0d1a25;
       display: flex; flex-direction: column;
     }
     #strongs-panel.open {
       width: 360px;
-      border-left: 1px solid var(--sidebar-bdr);
+      border-left: 1px solid rgba(184,146,42,0.15);
     }
 
     .sp-inner {
@@ -379,7 +434,7 @@
     .sp-titlebar {
       flex-shrink: 0;
       padding: 11px 16px 10px;
-      border-bottom: 1px solid var(--sidebar-bdr);
+      border-bottom: 1px solid rgba(184,146,42,0.15);
       display: flex; align-items: flex-start; justify-content: space-between;
       gap: 12px;
     }
@@ -578,33 +633,31 @@
 <div class="shell">
 
   <!-- HEADER -->
-  <header class="hdr">
-    <a class="hdr-logo" href="index.html">
-      <img src="brand_assets/logo.png" alt="Kutsal Kitap İnceleme">
-      <span class="hdr-logo-name">Kutsal Kitap İnceleme</span>
+  <div id="header">
+    <a href="index.html" id="logo">
+      <img src="brand_assets/logo.png" alt="Kutsal Kitap İnceleme" />
+      <div id="logo-text">Kutsal Kitap İnceleme</div>
     </a>
-    <div class="hdr-sep"></div>
-    <span class="hdr-page">Dil İnceleme</span>
-    <div class="hdr-space"></div>
-    <a class="hdr-back" href="compare.html">← Karşılaştır</a>
-  </header>
-
-  <!-- NAV -->
-  <nav class="nav-bar">
-    <button class="hdr-btn" id="btn-books" title="Kitap seçin">Yuhanna <span style="opacity:.4;font-size:9px;">▾</span></button>
-    <div class="nav-vsep"></div>
-    <button class="nav-arrow" id="btn-prev">‹</button>
-    <button class="hdr-btn" id="btn-chapter" title="Bölüm seçin" style="min-width:80px;text-align:center;">1. Bölüm</button>
-    <button class="nav-arrow" id="btn-next">›</button>
-    <div class="nav-right">
-      <button id="settings-btn" title="Gösterim ayarları">
-        <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
-          <circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1-2.83 2.83l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-4 0v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83-2.83l.06-.06A1.65 1.65 0 0 0 4.68 15a1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1 0-4h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 2.83-2.83l.06.06A1.65 1.65 0 0 0 9 4.68a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 4 0v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 2.83l-.06.06A1.65 1.65 0 0 0 19.4 9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 0 4h-.09a1.65 1.65 0 0 0-1.51 1z"/>
-        </svg>
-        Ayarlar
-      </button>
+    <form id="search-wrap" action="search.html" method="get" role="search">
+      <svg viewBox="0 0 14 14" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round">
+        <circle cx="5.5" cy="5.5" r="4"/><line x1="9" y1="9" x2="13" y2="13"/>
+      </svg>
+      <input id="search-input" type="text" name="q" placeholder="arama yapın…" autocomplete="off" />
+    </form>
+    <div id="header-controls">
+      <button class="hdr-btn" id="btn-books" title="Kitap seçin">Yuhanna <span style="opacity:.4;font-size:9px;">▾</span></button>
+      <button class="nav-arrow" id="btn-prev">‹</button>
+      <button class="hdr-btn" id="btn-chapter" title="Bölüm seçin" style="min-width:80px;text-align:center;">1. Bölüm</button>
+      <button class="nav-arrow" id="btn-next">›</button>
+      <button class="hdr-btn" id="settings-btn" title="Görünüm seçenekleri">Görünüm <span style="opacity:.4;font-size:9px;">▾</span></button>
+      <button class="hdr-btn" id="btn-ayarlar" title="Gösterim seçenekleri">Ayarlar <span style="opacity:.4;font-size:9px;">▾</span></button>
     </div>
-  </nav>
+    <div id="header-links">
+      <a href="compare.html">Karşılaştır</a>
+      <a href="interlinear.html">Dil İnceleme</a>
+      <a href="search.html">Ayet Ara</a>
+    </div>
+  </div>
 
   <!-- READER WRAPPER -->
   <div class="reader-wrapper">
@@ -658,9 +711,29 @@
   </div>
 </div>
 
+<!-- GORUNUM PANEL -->
+<div class="panel" id="panel-gorunum">
+  <div class="panel-section">
+    <div class="panel-section-title">Tema</div>
+    <div class="panel-row-group">
+      <label class="panel-option active"><input type="radio" name="il-theme" value="light" checked> Açık</label>
+      <label class="panel-option"><input type="radio" name="il-theme" value="sepia"> Parşömen</label>
+      <label class="panel-option"><input type="radio" name="il-theme" value="dark"> Koyu</label>
+    </div>
+  </div>
+  <div class="panel-section">
+    <div class="panel-section-title">Yazı Boyutu</div>
+    <div class="panel-row-group">
+      <label class="panel-option"><input type="radio" name="il-fontsize" value="small"> Küçük</label>
+      <label class="panel-option active"><input type="radio" name="il-fontsize" value="normal" checked> Normal</label>
+      <label class="panel-option"><input type="radio" name="il-fontsize" value="large"> Büyük</label>
+    </div>
+  </div>
+</div>
+
 <!-- SETTINGS OVERLAY -->
 <div id="settings-overlay">
-  <div id="settings-panel">
+  <div id="settings-panel" class="panel open">
     <div class="sp-header">
       <span class="sp-header-title">Gösterim Seçenekleri</span>
       <button class="sp-header-close" id="settings-close">✕</button>
@@ -746,7 +819,7 @@
       <div class="sp-row">
         <div class="sp-row-info">
           <div class="sp-row-label" style="color:#7baee0;">Textus Receptus Varyantları</div>
-          <div class="sp-row-desc">TR'de olan, diğer el yazmalarında bulunmayan kelimeler</div>
+          <div class="sp-row-desc">Textus Receptus'ta var olan, diğer el yazmalarında bulunmayan kelimeler</div>
           <div class="sp-row-sample">
             <span style="display:inline-block;background:rgba(65,115,200,0.75);color:#c5d9f7;font-size:8px;font-weight:800;letter-spacing:.06em;padding:1px 5px;border-radius:3px;">TR</span>
           </div>
@@ -2323,12 +2396,69 @@ ROWS.forEach(({ id, cls }) => {
   });
 });
 
+// ── Görünüm panel (theme + font size) ────────────────────────────
 const settingsBtn     = document.getElementById('settings-btn');
-const settingsOverlay = document.getElementById('settings-overlay');
-function openSettings()  { settingsOverlay.classList.add('open');    settingsBtn.classList.add('open'); }
-function closeSettings() { settingsOverlay.classList.remove('open'); settingsBtn.classList.remove('open'); }
-settingsBtn.addEventListener('click', e => {
+settingsBtn.addEventListener('click', function(e) {
   e.stopPropagation();
+  togglePanel('panel-gorunum', this);
+});
+
+function applyIlTheme(val) {
+  document.body.classList.remove('theme-light', 'theme-sepia', 'theme-dark');
+  if (val === 'light') document.body.classList.add('theme-light');
+  if (val === 'sepia') document.body.classList.add('theme-sepia');
+  if (val === 'dark')  document.body.classList.add('theme-dark');
+}
+
+function syncGorunumActive() {
+  document.querySelectorAll('#panel-gorunum .panel-option').forEach(o =>
+    o.classList.toggle('active', o.querySelector('input')?.checked));
+}
+
+// Load saved theme on init
+(function() {
+  const saved = localStorage.getItem('pref-theme') || 'light';
+  applyIlTheme(saved);
+  const r = document.querySelector(`input[name="il-theme"][value="${saved}"]`);
+  if (r) { r.checked = true; syncGorunumActive(); }
+})();
+
+document.querySelectorAll('input[name="il-theme"]').forEach(r => {
+  r.addEventListener('change', () => {
+    applyIlTheme(r.value);
+    localStorage.setItem('pref-theme', r.value);
+    syncGorunumActive();
+  });
+});
+
+document.querySelectorAll('input[name="il-fontsize"]').forEach(r => {
+  r.addEventListener('change', () => {
+    document.body.classList.remove('fz-small', 'fz-large');
+    if (r.value === 'small') document.body.classList.add('fz-small');
+    if (r.value === 'large') document.body.classList.add('fz-large');
+    syncGorunumActive();
+  });
+});
+
+// ── Ayarlar panel (display toggles) ──────────────────────────────
+const settingsOverlay = document.getElementById('settings-overlay');
+const btnAyarlar = document.getElementById('btn-ayarlar');
+function openSettings() {
+  const rect = btnAyarlar.getBoundingClientRect();
+  const sp = document.getElementById('settings-panel');
+  sp.style.top = (rect.bottom + 4) + 'px';
+  let left = rect.left;
+  if (left + 290 > window.innerWidth - 8) left = window.innerWidth - 290 - 8;
+  sp.style.left = Math.max(4, left) + 'px';
+  settingsOverlay.classList.add('open');
+  btnAyarlar.style.background = 'rgba(184,146,42,0.12)';
+  btnAyarlar.style.borderColor = 'rgba(184,146,42,0.3)';
+  btnAyarlar.style.color = 'var(--gold-light)';
+}
+function closeSettings() { settingsOverlay.classList.remove('open'); btnAyarlar.style.background = ''; btnAyarlar.style.borderColor = ''; btnAyarlar.style.color = ''; }
+btnAyarlar.addEventListener('click', e => {
+  e.stopPropagation();
+  closeNavPanel();
   settingsOverlay.classList.contains('open') ? closeSettings() : openSettings();
 });
 document.getElementById('settings-close').addEventListener('click', closeSettings);
