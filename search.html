@@ -468,6 +468,10 @@
       .sr-text { font-size: 12.5px; }
     }
   </style>
+  <script>
+    window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); };
+  </script>
+  <script defer src="/_vercel/insights/script.js"></script>
 </head>
 <body>
 <div id="layout">
@@ -533,7 +537,7 @@
 </div><!-- #layout -->
 
 <script>
-// ── Constants ──────────────────────────────────────────────────────────────
+// ── Constants ──────────────────────────────────────────────────��───────────
 const SEA_BOOKS      = new Set(['MAT','MRK','EPH','PHM','1JN']);
 const BGT_BOOKS      = new Set(['MAT','MRK','LUK','JHN','ACT','ROM','1CO','2CO','GAL','EPH','PHP','COL','1TH','2TH','1TI','2TI','TIT','PHM','HEB','JAS','1PE','2PE','1JN','2JN','3JN','JUD','REV']);
 const TSV_BOOKS      = new Set(['PRO']);
@@ -673,7 +677,7 @@ function isTransAvailableForBook(tid, bookCode) {
   return true;
 }
 
-// ── Helpers ────────────────────────────────────────────────────────────────
+// ── Helpers ───────────────────────────────────────────────���────────────────
 function normTr(s) {
   return s
     .replace(/İ/g, 'i')
