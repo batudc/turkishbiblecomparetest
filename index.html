@@ -331,40 +331,16 @@
 
 
     /* ===================== FOOTER ===================== */
-    footer {
-      background: var(--navy-deep); padding: 0 4.5rem;
-      position: relative; overflow: hidden;
-    }
-    footer::before {
-      content: ''; position: absolute; top: 0; left: 4.5rem; right: 4.5rem; height: 1px;
-      background: linear-gradient(to right, transparent, rgba(184,146,42,0.35), rgba(184,146,42,0.35), transparent);
-    }
-    .footer-inner {
-      max-width: 1300px; margin: 0 auto;
-      display: flex; align-items: flex-start; justify-content: space-between;
-      padding: 4rem 0 3.5rem;
-      gap: 4rem;
-    }
-    .footer-brand { flex: 1; max-width: 340px; }
-    .footer-brand img { height: 36px; margin-bottom: 1.25rem; filter: brightness(0) invert(1); opacity: 0.75; }
-    .footer-tagline {
-      font-family: 'Cormorant Garamond', serif; font-size: 1.05rem; font-style: italic;
-      line-height: 1.65; color: rgba(253,250,246,0.38); max-width: 260px;
-    }
-    .footer-nav { display: flex; gap: 4rem; }
-    .footer-col-title { font-size: 0.6rem; font-weight: 700; letter-spacing: 0.2em; text-transform: uppercase; color: var(--gold); margin-bottom: 1.25rem; }
-    .footer-links { list-style: none; display: flex; flex-direction: column; gap: 0.85rem; }
-    .footer-links a {
-      font-size: 0.85rem; color: rgba(253,250,246,0.45); text-decoration: none;
-      transition: color 0.2s, transform 0.2s; display: inline-block;
-    }
-    .footer-links a:hover { color: var(--gold-light); transform: translateX(3px); }
-    .footer-bottom {
-      max-width: 1300px; margin: 0 auto; padding: 1.5rem 0 2rem;
-      border-top: 1px solid rgba(253,250,246,0.06);
-      display: flex; align-items: center; justify-content: space-between;
-    }
-    .footer-copy { font-size: 0.7rem; color: rgba(253,250,246,0.2); letter-spacing: 0.08em; }
+    footer { background: var(--navy-deep); border-top: 1px solid rgba(184,146,42,0.1); padding: 3rem 4.5rem; }
+    .footer-inner { max-width: 1300px; margin: 0 auto; display: grid; grid-template-columns: 2fr 1fr 1fr; gap: 3rem; }
+    .footer-brand img { height: 40px; margin-bottom: 1rem; filter: brightness(0) invert(1); opacity: 0.8; }
+    .footer-tagline { font-size: 0.82rem; line-height: 1.65; color: rgba(253,250,246,0.4); max-width: 220px; }
+    .footer-col-title { font-size: 0.65rem; font-weight: 700; letter-spacing: 0.18em; text-transform: uppercase; color: rgba(253,250,246,0.35); margin-bottom: 1.25rem; }
+    .footer-links { list-style: none; display: flex; flex-direction: column; gap: 0.7rem; }
+    .footer-links a { font-size: 0.82rem; color: rgba(253,250,246,0.5); text-decoration: none; transition: color 0.2s; }
+    .footer-links a:hover { color: var(--gold-light); }
+    .footer-bottom { max-width: 1300px; margin: 2.5rem auto 0; padding-top: 1.5rem; border-top: 1px solid rgba(253,250,246,0.06); display: flex; align-items: center; justify-content: space-between; }
+    .footer-copy { font-size: 0.72rem; color: rgba(253,250,246,0.25); letter-spacing: 0.05em; }
 
     /* ===================== ANIMATIONS ===================== */
     @keyframes fadeUp { from { opacity: 0; transform: translateY(24px); } to { opacity: 1; transform: translateY(0); } }
@@ -385,8 +361,7 @@
       nav { padding: 0 1.5rem; }
       .nav-links { display: none; }
       .tools-section { padding-left: 1.5rem; padding-right: 1.5rem; }
-      .footer-inner { flex-direction: column; gap: 2.5rem; }
-      .footer-nav { gap: 2.5rem; }
+      .footer-inner { grid-template-columns: 1fr 1fr; }
     }
   </style>
 </head>
@@ -399,10 +374,9 @@
       <span class="nav-logo-text">Kutsal Kitap<br>İnceleme</span>
     </a>
     <ul class="nav-links">
-      <li><a href="#meals">Çeviriler</a></li>
       <li><a href="compare.html" class="nav-highlight">Karşılaştır</a></li>
       <li><a href="interlinear.html" class="nav-highlight">Dil İnceleme</a></li>
-      <li><a href="#hakkinda">Hakkında</a></li>
+      <li><a href="search.html">Ayet Ara</a></li>
     </ul>
     <a href="compare.html" class="nav-cta">Karşılaştır →</a>
   </nav>
@@ -615,29 +589,27 @@
     <div class="footer-inner">
       <div class="footer-brand">
         <img src="brand_assets/logo.png" alt="Kutsal Kitap İnceleme" />
-        <p class="footer-tagline">Türkçe Kutsal Kitap'ı özgün dillerinde ve çeviriler arasında karşılaştırmalı inceleyin.</p>
+        <p class="footer-tagline">Türkçe Kutsal Kitap çevirilerini karşılaştırın ve özgün dilde inceleyin.</p>
       </div>
-      <nav class="footer-nav">
-        <div>
-          <p class="footer-col-title">Araçlar</p>
-          <ul class="footer-links">
-            <li><a href="compare.html">Karşılaştırma</a></li>
-            <li><a href="interlinear.html">Dil İnceleme</a></li>
-            <li><a href="search.html">Ayet Ara</a></li>
-          </ul>
-        </div>
-        <div>
-          <p class="footer-col-title">Hakkında</p>
-          <ul class="footer-links">
-            <li><a href="#">Biz Kimiz</a></li>
-            <li><a href="#">İletişim</a></li>
-            <li><a href="#">Gizlilik</a></li>
-          </ul>
-        </div>
-      </nav>
+      <div>
+        <p class="footer-col-title">Araçlar</p>
+        <ul class="footer-links">
+          <li><a href="compare.html">Karşılaştırma</a></li>
+          <li><a href="interlinear.html">Dil İnceleme</a></li>
+          <li><a href="search.html">Ayet Ara</a></li>
+        </ul>
+      </div>
+      <div>
+        <p class="footer-col-title">Hakkında</p>
+        <ul class="footer-links">
+          <li><a href="#">Biz Kimiz</a></li>
+          <li><a href="#">İletişim</a></li>
+          <li><a href="#">Gizlilik</a></li>
+        </ul>
+      </div>
     </div>
     <div class="footer-bottom">
-      <p class="footer-copy">© 2026 Kutsal Kitap İnceleme</p>
+      <p class="footer-copy">© 2026 Kutsal Kitap İnceleme. Tüm hakları saklıdır.</p>
       <p class="footer-copy">Sevgiyle inşa edildi</p>
     </div>
   </footer>
