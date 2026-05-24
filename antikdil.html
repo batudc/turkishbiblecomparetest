@@ -25,10 +25,8 @@
       --sidebar-bdr: rgba(184,146,42,0.15);
     }
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
-    html { height: 100%; }
-    body {
-      min-height: 100%; overflow-y: auto;
-      display: flex; flex-direction: column;
+    html, body {
+      height: 100%; overflow: hidden;
       background: var(--bg); color: var(--text);
       font-family: 'Source Sans 3', 'Segoe UI', system-ui, sans-serif;
       font-size: 14px; line-height: 1.5;
@@ -37,7 +35,7 @@
     /* ── PAGE SHELL ─────────────────────────────────── */
     .shell {
       display: flex; flex-direction: column;
-      flex: 1; min-height: 0; overflow: hidden;
+      height: 100%; overflow: hidden;
     }
 
     /* ── UNIFIED HEADER ─────────────────────────────── */
