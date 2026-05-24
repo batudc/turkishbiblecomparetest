@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Gizlilik Politikası — Kutsal Kitap İnceleme</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,600&family=Jost:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  <style>
+    :root {
+      --navy:       #1B3A54;
+      --navy-deep:  #0F2437;
+      --navy-mid:   #264D6B;
+      --cream:      #F7F1E8;
+      --parchment:  #EDE4D3;
+      --gold:       #B8922A;
+      --gold-light: #D4AA56;
+      --stone:      #8A8070;
+      --ink:        #2C2416;
+      --white:      #FDFAF6;
+    }
+
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; }
+    body { font-family: 'Jost', sans-serif; background: var(--cream); color: var(--navy-deep); overflow-x: hidden; }
+    body::before {
+      content: ''; position: fixed; inset: 0;
+      background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 512 512' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.75' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.035'/%3E%3C/svg%3E");
+      pointer-events: none; z-index: 9999; opacity: 0.6;
+    }
+    .display { font-family: 'Cormorant Garamond', Georgia, serif; letter-spacing: -0.02em; line-height: 1.05; }
+    .label-text { font-family: 'Jost', sans-serif; font-size: 0.7rem; letter-spacing: 0.18em; text-transform: uppercase; font-weight: 600; }
+
+    /* NAV */
+    nav {
+      position: fixed; top: 0; left: 0; right: 0; z-index: 100;
+      padding: 0 0 0 14px; height: 70px;
+      display: flex; align-items: center;
+      background: #08141F;
+      border-bottom: 1px solid rgba(184,146,42,0.15);
+    }
+    .nav-logo { display: flex; align-items: center; gap: 9px; text-decoration: none; flex-shrink: 0; margin-right: 18px; }
+    .nav-logo img { height: 32px; width: auto; filter: brightness(0) invert(1); opacity: 0.82; }
+    .nav-logo-text { font-family: 'EB Garamond', Georgia, serif; font-size: 18px; font-weight: 500; color: var(--cream); line-height: 1.15; letter-spacing: -0.01em; }
+    .nav-search-wrap { flex: 1; max-width: 480px; position: relative; }
+    .nav-search-wrap svg { position: absolute; left: 10px; top: 50%; transform: translateY(-50%); width: 14px; height: 14px; color: rgba(255,255,255,0.3); pointer-events: none; }
+    .nav-search-input { width: 100%; padding: 8px 12px 8px 32px; background: rgba(255,255,255,0.08); border: 1px solid rgba(255,255,255,0.12); border-radius: 3px; color: #fff; font-size: 13px; font-family: 'Jost', sans-serif; outline: none; transition: background 0.15s, border-color 0.15s; }
+    .nav-search-input::placeholder { color: rgba(255,255,255,0.3); }
+    .nav-search-input:focus { background: rgba(255,255,255,0.12); border-color: rgba(255,255,255,0.25); }
+    .nav-links { display: flex; align-items: center; gap: 2.5rem; list-style: none; margin-left: auto; padding: 0 3rem 0 2.5rem; }
+    .nav-links a { font-size: 0.78rem; font-weight: 500; letter-spacing: 0.1em; text-transform: uppercase; color: rgba(247,241,232,0.55); text-decoration: none; transition: color 0.2s ease; }
+    .nav-links a:hover { color: var(--gold-light); }
+
+    /* PAGE HERO */
+    .page-hero { background: var(--navy-deep); padding: 9rem 4.5rem 6rem; position: relative; overflow: hidden; }
+    .page-hero::before {
+      content: ''; position: absolute; inset: 0;
+      background: radial-gradient(ellipse 70% 80% at 0% 100%, rgba(184,146,42,0.1) 0%, transparent 60%),
+                  radial-gradient(ellipse 50% 60% at 100% 0%, rgba(38,77,107,0.5) 0%, transparent 60%);
+    }
+    .page-hero-inner { max-width: 1300px; margin: 0 auto; position: relative; z-index: 1; }
+    .page-label { color: var(--gold-light); margin-bottom: 1.5rem; display: flex; align-items: center; gap: 0.75rem; }
+    .page-label::before { content: ''; width: 28px; height: 1px; background: currentColor; }
+    .page-title { font-size: clamp(3rem, 6vw, 6rem); color: var(--white); max-width: 700px; }
+    .page-title em { color: var(--gold-light); font-style: italic; }
+    .page-meta { font-size: 0.75rem; color: rgba(253,250,246,0.35); margin-top: 2rem; letter-spacing: 0.1em; }
+
+    /* CONTENT */
+    .privacy-section { padding: 6rem 4.5rem; }
+    .privacy-inner { max-width: 1300px; margin: 0 auto; display: grid; grid-template-columns: 240px 1fr; gap: 6rem; align-items: start; }
+
+    /* SIDEBAR TOC */
+    .toc { position: sticky; top: 90px; }
+    .toc-title { font-size: 0.65rem; font-weight: 700; letter-spacing: 0.18em; text-transform: uppercase; color: var(--gold); margin-bottom: 1.25rem; }
+    .toc-list { list-style: none; display: flex; flex-direction: column; gap: 0.1rem; }
+    .toc-list a { font-size: 0.82rem; color: var(--stone); text-decoration: none; padding: 0.45rem 0.75rem; display: block; border-left: 2px solid transparent; transition: color 0.2s, border-color 0.2s; }
+    .toc-list a:hover, .toc-list a.active { color: var(--navy-deep); border-left-color: var(--gold); }
+
+    /* PROSE */
+    .prose { max-width: 720px; }
+    .prose-section { margin-bottom: 4rem; padding-bottom: 4rem; border-bottom: 1px solid rgba(27,58,84,0.08); }
+    .prose-section:last-child { border-bottom: none; margin-bottom: 0; padding-bottom: 0; }
+    .prose-num { font-family: 'Cormorant Garamond', serif; font-size: 0.9rem; font-weight: 600; color: var(--gold); letter-spacing: 0.1em; margin-bottom: 0.5rem; }
+    .prose-heading { font-family: 'Cormorant Garamond', serif; font-size: 2rem; font-weight: 600; color: var(--navy-deep); margin-bottom: 1.5rem; line-height: 1.2; }
+    .prose p { font-size: 0.95rem; line-height: 1.85; color: var(--stone); margin-bottom: 1.1rem; }
+    .prose p:last-child { margin-bottom: 0; }
+    .prose ul { margin: 1.1rem 0 1.1rem 0; padding: 0; list-style: none; display: flex; flex-direction: column; gap: 0.6rem; }
+    .prose ul li { font-size: 0.92rem; line-height: 1.7; color: var(--stone); padding-left: 1.5rem; position: relative; }
+    .prose ul li::before { content: ''; position: absolute; left: 0; top: 0.65em; width: 6px; height: 6px; border: 1px solid var(--gold); background: transparent; }
+    .prose strong { color: var(--navy-deep); font-weight: 600; }
+    .prose a { color: var(--gold); text-decoration: none; border-bottom: 1px solid rgba(184,146,42,0.3); transition: border-color 0.2s; }
+    .prose a:hover { border-color: var(--gold); }
+    .highlight-box { background: var(--parchment); border-left: 3px solid var(--gold); padding: 1.25rem 1.5rem; margin: 1.5rem 0; }
+    .highlight-box p { font-size: 0.88rem; color: var(--navy); margin: 0; }
+
+    /* FOOTER */
+    footer { background: var(--navy-deep); border-top: 1px solid rgba(184,146,42,0.1); padding: 3rem 4.5rem; }
+    .footer-inner { max-width: 1300px; margin: 0 auto; display: grid; grid-template-columns: 2fr 1fr 1fr; gap: 3rem; }
+    .footer-brand img { height: 40px; margin-bottom: 1rem; filter: brightness(0) invert(1); opacity: 0.8; }
+    .footer-tagline { font-size: 0.82rem; line-height: 1.65; color: rgba(253,250,246,0.4); max-width: 220px; }
+    .footer-col-title { font-size: 0.65rem; font-weight: 700; letter-spacing: 0.18em; text-transform: uppercase; color: rgba(253,250,246,0.35); margin-bottom: 1.25rem; }
+    .footer-links { list-style: none; display: flex; flex-direction: column; gap: 0.7rem; }
+    .footer-links a { font-size: 0.82rem; color: rgba(253,250,246,0.5); text-decoration: none; transition: color 0.2s; }
+    .footer-links a:hover { color: var(--gold-light); }
+    .footer-bottom { max-width: 1300px; margin: 2.5rem auto 0; padding-top: 1.5rem; border-top: 1px solid rgba(253,250,246,0.06); display: flex; align-items: center; justify-content: space-between; }
+    .footer-copy { font-size: 0.72rem; color: rgba(253,250,246,0.25); letter-spacing: 0.05em; }
+
+    @media (max-width: 1024px) {
+      nav { padding: 0 1.5rem; }
+      .nav-links { display: none; }
+      .page-hero, .privacy-section { padding-left: 1.5rem; padding-right: 1.5rem; }
+      .privacy-inner { grid-template-columns: 1fr; gap: 3rem; }
+      .toc { display: none; }
+      .footer-inner { grid-template-columns: 1fr 1fr; }
+    }
+  </style>
+</head>
+<body>
+
+  <nav>
+    <a href="anasayfa.html" class="nav-logo">
+      <img src="brand_assets/logo.png" alt="Kutsal Kitap İnceleme" />
+      <div class="nav-logo-text">Kutsal Kitap İnceleme</div>
+    </a>
+    <form class="nav-search-wrap" action="arama.html" method="get" role="search">
+      <svg viewBox="0 0 14 14" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round">
+        <circle cx="5.5" cy="5.5" r="4"/><line x1="9" y1="9" x2="13" y2="13"/>
+      </svg>
+      <input class="nav-search-input" type="text" name="q" placeholder="arama yapın…" autocomplete="off" />
+    </form>
+    <ul class="nav-links">
+      <li><a href="karsilastirma.html">Karşılaştır</a></li>
+      <li><a href="antikdil.html">Dil İnceleme</a></li>
+      <li><a href="arama.html">Ayet Ara</a></li>
+    </ul>
+  </nav>
+
+  <section class="page-hero">
+    <div class="page-hero-inner">
+      <p class="label-text page-label">Yasal</p>
+      <h1 class="display page-title">Gizlilik<br><em>Politikası</em></h1>
+      <p class="page-meta">Son güncelleme: Ocak 2026</p>
+    </div>
+  </section>
+
+  <section class="privacy-section">
+    <div class="privacy-inner">
+
+      <aside class="toc">
+        <p class="toc-title">İçindekiler</p>
+        <ul class="toc-list">
+          <li><a href="#s1">1. Genel Bilgi</a></li>
+          <li><a href="#s2">2. Toplanan Veriler</a></li>
+          <li><a href="#s3">3. Verilerin Kullanımı</a></li>
+          <li><a href="#s4">4. Çerezler</a></li>
+          <li><a href="#s5">5. Üçüncü Taraflar</a></li>
+          <li><a href="#s6">6. Veri Güvenliği</a></li>
+          <li><a href="#s7">7. Haklarınız</a></li>
+          <li><a href="#s8">8. İletişim</a></li>
+        </ul>
+      </aside>
+
+      <div class="prose">
+
+        <div class="prose-section" id="s1">
+          <p class="prose-num">01</p>
+          <h2 class="prose-heading">Genel Bilgi</h2>
+          <p>Kutsal Kitap İnceleme ("Platform"), kullanıcıların gizliliğine saygı duyar ve kişisel verilerin korunmasını ön planda tutar. Bu Gizlilik Politikası, platformun hangi verileri topladığını, bu verilerin nasıl kullanıldığını ve korunduğunu açıklamaktadır.</p>
+          <p>Platformu kullanmaya devam ederek bu politikayı okuduğunuzu ve kabul ettiğinizi onaylamış olursunuz. Politika değişikliklerinde bu sayfayı güncellemeye devam edeceğiz.</p>
+          <div class="highlight-box">
+            <p><strong>Özet:</strong> Platformumuzu kullanmak için herhangi bir hesap açmanız gerekmez. Kişisel veri toplamamızı mümkün olduğunca sınırlı tutuyoruz.</p>
+          </div>
+        </div>
+
+        <div class="prose-section" id="s2">
+          <p class="prose-num">02</p>
+          <h2 class="prose-heading">Toplanan Veriler</h2>
+          <p>Platform, yalnızca aşağıdaki durumlarda veri toplar:</p>
+          <ul>
+            <li><strong>İletişim formu:</strong> Ad, e-posta adresi ve mesaj içeriği — yalnızca size yanıt vermek amacıyla saklanır.</li>
+            <li><strong>Otomatik günlükler:</strong> IP adresi, tarayıcı türü, ziyaret edilen sayfalar ve ziyaret süresi gibi standart sunucu günlükleri.</li>
+            <li><strong>Çerezler:</strong> Oturum çerezleri ve tercih ayarları. Detaylar için 4. bölüme bakınız.</li>
+          </ul>
+          <p>Platform hesap sistemi içermemektedir. Herhangi bir kullanıcı profili veya kayıt işlemi yapılmamaktadır.</p>
+        </div>
+
+        <div class="prose-section" id="s3">
+          <p class="prose-num">03</p>
+          <h2 class="prose-heading">Verilerin Kullanımı</h2>
+          <p>Toplanan veriler yalnızca şu amaçlarla kullanılmaktadır:</p>
+          <ul>
+            <li>İletişim formundan gelen mesajlara yanıt vermek</li>
+            <li>Platform performansını ve kullanılabilirliğini iyileştirmek</li>
+            <li>Teknik hataları tespit etmek ve gidermek</li>
+            <li>Platformun güvenliğini sağlamak</li>
+          </ul>
+          <p>Verileriniz hiçbir koşulda üçüncü taraflara satılmaz veya kiralanmaz.</p>
+        </div>
+
+        <div class="prose-section" id="s4">
+          <p class="prose-num">04</p>
+          <h2 class="prose-heading">Çerezler</h2>
+          <p>Platform, temel işlevselliği desteklemek için minimum düzeyde çerez kullanabilir. Bu çerezler aşağıdaki kategorilere ayrılır:</p>
+          <ul>
+            <li><strong>Zorunlu çerezler:</strong> Platformun doğru çalışması için gereklidir. Devre dışı bırakılamaz.</li>
+            <li><strong>Tercih çerezleri:</strong> Dil ve görünüm ayarlarınızı hatırlamak için kullanılır.</li>
+            <li><strong>Analitik çerezler:</strong> Ziyaret istatistiklerini toplamak için kullanılabilir. Bu çerezleri tarayıcı ayarlarınızdan devre dışı bırakabilirsiniz.</li>
+          </ul>
+          <p>Tarayıcınızın ayarlarından çerezleri yönetebilir veya silebilirsiniz. Bazı çerezlerin devre dışı bırakılması platformun belirli özelliklerini etkileyebilir.</p>
+        </div>
+
+        <div class="prose-section" id="s5">
+          <p class="prose-num">05</p>
+          <h2 class="prose-heading">Üçüncü Taraflar</h2>
+          <p>Platform, aşağıdaki üçüncü taraf hizmetlerden yararlanabilir:</p>
+          <ul>
+            <li><strong>Google Fonts:</strong> Yazı tiplerinin sunulması amacıyla Google'ın sunucularına istek gönderilir.</li>
+            <li><strong>Barındırma sağlayıcısı:</strong> Platform verileri güvenli sunucularda barındırılmaktadır.</li>
+          </ul>
+          <p>Bu hizmetlerin kendi gizlilik politikaları bulunmaktadır. Kutsal Kitap İnceleme, üçüncü taraf hizmetlerin veri uygulamalarından sorumlu değildir.</p>
+        </div>
+
+        <div class="prose-section" id="s6">
+          <p class="prose-num">06</p>
+          <h2 class="prose-heading">Veri Güvenliği</h2>
+          <p>Verilerinizin güvenliğini sağlamak için endüstri standardı önlemler uygulanmaktadır:</p>
+          <ul>
+            <li>HTTPS şifreli bağlantı ile veri iletimi</li>
+            <li>Sunucu erişiminin yetkilendirilmiş personelle sınırlı tutulması</li>
+            <li>Düzenli güvenlik güncellemeleri</li>
+          </ul>
+          <p>Hiçbir sistem %100 güvenli değildir. Veri güvenliğine ilişkin bir endişeniz varsa lütfen bizimle iletişime geçin.</p>
+        </div>
+
+        <div class="prose-section" id="s7">
+          <p class="prose-num">07</p>
+          <h2 class="prose-heading">Haklarınız</h2>
+          <p>İlgili veri koruma mevzuatı kapsamında aşağıdaki haklara sahipsiniz:</p>
+          <ul>
+            <li>Hakkınızda tutulan verilere erişme hakkı</li>
+            <li>Yanlış verilerin düzeltilmesini talep etme hakkı</li>
+            <li>Verilerinizin silinmesini talep etme hakkı</li>
+            <li>Veri işleme faaliyetlerine itiraz etme hakkı</li>
+          </ul>
+          <p>Bu haklarınızı kullanmak için <a href="iletisim.html">İletişim</a> sayfamız üzerinden bize ulaşabilirsiniz.</p>
+        </div>
+
+        <div class="prose-section" id="s8">
+          <p class="prose-num">08</p>
+          <h2 class="prose-heading">İletişim</h2>
+          <p>Bu Gizlilik Politikası hakkında sorularınız veya talepleriniz için:</p>
+          <ul>
+            <li><strong>E-posta:</strong> gizlilik@kutsalkitapinceleme.com</li>
+            <li><strong>İletişim formu:</strong> <a href="iletisim.html">iletisim.html</a></li>
+          </ul>
+          <p>Talebinizi aldıktan sonra en geç 30 gün içinde yanıt vermeye çalışacağız.</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="footer-inner">
+      <div class="footer-brand">
+        <img src="brand_assets/logo.png" alt="Kutsal Kitap İnceleme" />
+        <p class="footer-tagline">Türkçe Kutsal Kitap çevirilerini karşılaştırın ve özgün dilde inceleyin.</p>
+      </div>
+      <div>
+        <p class="footer-col-title">Araçlar</p>
+        <ul class="footer-links">
+          <li><a href="karsilastirma.html">Karşılaştırma</a></li>
+          <li><a href="antikdil.html">Dil İnceleme</a></li>
+          <li><a href="arama.html">Ayet Ara</a></li>
+        </ul>
+      </div>
+      <div>
+        <p class="footer-col-title">Hakkında</p>
+        <ul class="footer-links">
+          <li><a href="hakkimizda.html">Biz Kimiz</a></li>
+          <li><a href="iletisim.html">İletişim</a></li>
+          <li><a href="gizlilik.html">Gizlilik</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p class="footer-copy">© 2026 Kutsal Kitap İnceleme. Tüm hakları saklıdır.</p>
+      <p class="footer-copy">Sevgiyle inşa edildi</p>
+    </div>
+  </footer>
+
+  <script>
+    const nav = document.querySelector('nav');
+    window.addEventListener('scroll', () => {
+      nav.style.background = window.scrollY > 40 ? 'rgba(247,241,232,0.97)' : 'rgba(247,241,232,0.92)';
+    }, { passive: true });
+
+    // Highlight active TOC item on scroll
+    const sections = document.querySelectorAll('.prose-section[id]');
+    const tocLinks = document.querySelectorAll('.toc-list a');
+    window.addEventListener('scroll', () => {
+      let current = '';
+      sections.forEach(s => { if (window.scrollY >= s.offsetTop - 120) current = s.id; });
+      tocLinks.forEach(a => {
+        a.classList.toggle('active', a.getAttribute('href') === '#' + current);
+      });
+    }, { passive: true });
+  </script>
+</body>
+</html>

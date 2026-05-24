@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>İletişim — Kutsal Kitap İnceleme</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,600&family=Jost:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  <style>
+    :root {
+      --navy:       #1B3A54;
+      --navy-deep:  #0F2437;
+      --navy-mid:   #264D6B;
+      --cream:      #F7F1E8;
+      --parchment:  #EDE4D3;
+      --gold:       #B8922A;
+      --gold-light: #D4AA56;
+      --stone:      #8A8070;
+      --ink:        #2C2416;
+      --white:      #FDFAF6;
+    }
+
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; }
+    body { font-family: 'Jost', sans-serif; background: var(--cream); color: var(--navy-deep); overflow-x: hidden; }
+    body::before {
+      content: ''; position: fixed; inset: 0;
+      background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 512 512' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.75' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.035'/%3E%3C/svg%3E");
+      pointer-events: none; z-index: 9999; opacity: 0.6;
+    }
+    .display { font-family: 'Cormorant Garamond', Georgia, serif; letter-spacing: -0.02em; line-height: 1.05; }
+    .label-text { font-family: 'Jost', sans-serif; font-size: 0.7rem; letter-spacing: 0.18em; text-transform: uppercase; font-weight: 600; }
+
+    /* NAV */
+    nav {
+      position: fixed; top: 0; left: 0; right: 0; z-index: 100;
+      padding: 0 0 0 14px; height: 70px;
+      display: flex; align-items: center;
+      background: #08141F;
+      border-bottom: 1px solid rgba(184,146,42,0.15);
+    }
+    .nav-logo { display: flex; align-items: center; gap: 9px; text-decoration: none; flex-shrink: 0; margin-right: 18px; }
+    .nav-logo img { height: 32px; width: auto; filter: brightness(0) invert(1); opacity: 0.82; }
+    .nav-logo-text { font-family: 'EB Garamond', Georgia, serif; font-size: 18px; font-weight: 500; color: var(--cream); line-height: 1.15; letter-spacing: -0.01em; }
+    .nav-search-wrap { flex: 1; max-width: 480px; position: relative; }
+    .nav-search-wrap svg { position: absolute; left: 10px; top: 50%; transform: translateY(-50%); width: 14px; height: 14px; color: rgba(255,255,255,0.3); pointer-events: none; }
+    .nav-search-input { width: 100%; padding: 8px 12px 8px 32px; background: rgba(255,255,255,0.08); border: 1px solid rgba(255,255,255,0.12); border-radius: 3px; color: #fff; font-size: 13px; font-family: 'Jost', sans-serif; outline: none; transition: background 0.15s, border-color 0.15s; }
+    .nav-search-input::placeholder { color: rgba(255,255,255,0.3); }
+    .nav-search-input:focus { background: rgba(255,255,255,0.12); border-color: rgba(255,255,255,0.25); }
+    .nav-links { display: flex; align-items: center; gap: 2.5rem; list-style: none; margin-left: auto; padding: 0 3rem 0 2.5rem; }
+    .nav-links a { font-size: 0.78rem; font-weight: 500; letter-spacing: 0.1em; text-transform: uppercase; color: rgba(247,241,232,0.55); text-decoration: none; transition: color 0.2s ease; }
+    .nav-links a:hover { color: var(--gold-light); }
+
+    /* PAGE HERO */
+    .page-hero { background: var(--navy-deep); padding: 9rem 4.5rem 6rem; position: relative; overflow: hidden; }
+    .page-hero::before {
+      content: ''; position: absolute; inset: 0;
+      background: radial-gradient(ellipse 70% 80% at 0% 100%, rgba(184,146,42,0.1) 0%, transparent 60%),
+                  radial-gradient(ellipse 50% 60% at 100% 0%, rgba(38,77,107,0.5) 0%, transparent 60%);
+    }
+    .page-hero-inner { max-width: 1300px; margin: 0 auto; position: relative; z-index: 1; }
+    .page-label { color: var(--gold-light); margin-bottom: 1.5rem; display: flex; align-items: center; gap: 0.75rem; }
+    .page-label::before { content: ''; width: 28px; height: 1px; background: currentColor; }
+    .page-title { font-size: clamp(3rem, 6vw, 6rem); color: var(--white); max-width: 700px; }
+    .page-title em { color: var(--gold-light); font-style: italic; }
+    .page-lead { font-size: 1.05rem; line-height: 1.8; color: rgba(253,250,246,0.55); max-width: 560px; margin-top: 2rem; }
+
+    /* CONTACT LAYOUT */
+    .contact-section { padding: 6rem 4.5rem; }
+    .contact-inner { max-width: 1300px; margin: 0 auto; display: grid; grid-template-columns: 1fr 1.6fr; gap: 6rem; align-items: start; }
+
+    /* CONTACT INFO */
+    .info-label { color: var(--gold); margin-bottom: 1rem; display: flex; align-items: center; gap: 0.75rem; }
+    .info-label::before { content: ''; width: 28px; height: 1px; background: currentColor; }
+    .info-heading { font-size: clamp(2rem, 3.5vw, 3.25rem); color: var(--navy-deep); margin-bottom: 2rem; }
+    .info-heading em { color: var(--gold); font-style: italic; }
+    .info-desc { font-size: 0.95rem; line-height: 1.8; color: var(--stone); margin-bottom: 2.5rem; }
+    .info-items { display: flex; flex-direction: column; gap: 1.5rem; }
+    .info-item { display: flex; align-items: flex-start; gap: 1rem; }
+    .info-icon { width: 40px; height: 40px; border: 1px solid rgba(184,146,42,0.3); display: flex; align-items: center; justify-content: center; flex-shrink: 0; }
+    .info-icon svg { width: 16px; height: 16px; color: var(--gold); }
+    .info-item-label { font-size: 0.65rem; font-weight: 700; letter-spacing: 0.16em; text-transform: uppercase; color: var(--gold); margin-bottom: 0.3rem; }
+    .info-item-value { font-size: 0.9rem; color: var(--navy-deep); }
+
+    /* FORM */
+    .contact-form { background: var(--white); border: 1px solid rgba(27,58,84,0.1); padding: 3rem; position: relative; }
+    .contact-form::before { content: ''; position: absolute; top: 0; left: 0; right: 0; height: 3px; background: linear-gradient(to right, var(--gold), var(--gold-light)); }
+    .form-title { font-family: 'Cormorant Garamond', serif; font-size: 1.75rem; font-weight: 600; color: var(--navy-deep); margin-bottom: 0.5rem; }
+    .form-sub { font-size: 0.85rem; color: var(--stone); margin-bottom: 2.5rem; line-height: 1.6; }
+    .form-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 1.25rem; margin-bottom: 1.25rem; }
+    .form-group { display: flex; flex-direction: column; gap: 0.5rem; }
+    .form-group.full { grid-column: 1 / -1; }
+    .form-label { font-size: 0.65rem; font-weight: 700; letter-spacing: 0.16em; text-transform: uppercase; color: var(--navy); }
+    .form-input, .form-select, .form-textarea {
+      font-family: 'Jost', sans-serif; font-size: 0.88rem; color: var(--navy-deep);
+      background: var(--cream); border: 1px solid rgba(27,58,84,0.15);
+      padding: 0.85rem 1rem; outline: none; transition: border-color 0.2s;
+      width: 100%;
+    }
+    .form-input:focus, .form-select:focus, .form-textarea:focus { border-color: var(--gold); }
+    .form-textarea { resize: vertical; min-height: 140px; line-height: 1.6; }
+    .form-select { appearance: none; background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8' viewBox='0 0 12 8'%3E%3Cpath d='M1 1l5 5 5-5' stroke='%238A8070' stroke-width='1.5' fill='none'/%3E%3C/svg%3E"); background-repeat: no-repeat; background-position: right 1rem center; cursor: pointer; }
+    .form-submit {
+      display: inline-flex; align-items: center; gap: 0.6rem; margin-top: 0.5rem;
+      font-family: 'Jost', sans-serif; font-size: 0.78rem; font-weight: 600; letter-spacing: 0.12em; text-transform: uppercase;
+      background: var(--navy); color: var(--cream); border: none; padding: 1rem 2.5rem; cursor: pointer;
+      transition: background 0.2s, transform 0.15s; width: 100%;
+      justify-content: center;
+    }
+    .form-submit:hover { background: var(--navy-mid); transform: translateY(-2px); }
+    .form-submit:active { transform: translateY(0); }
+    .form-note { font-size: 0.72rem; color: var(--stone); text-align: center; margin-top: 1rem; line-height: 1.5; }
+
+    /* SUCCESS STATE */
+    .form-success { display: none; text-align: center; padding: 3rem 2rem; }
+    .form-success.visible { display: block; }
+    .success-icon { width: 56px; height: 56px; border: 1.5px solid var(--gold); margin: 0 auto 1.5rem; display: flex; align-items: center; justify-content: center; }
+    .success-title { font-family: 'Cormorant Garamond', serif; font-size: 1.75rem; font-weight: 600; color: var(--navy-deep); margin-bottom: 0.75rem; }
+    .success-desc { font-size: 0.9rem; color: var(--stone); line-height: 1.65; }
+
+    /* FOOTER */
+    footer { background: var(--navy-deep); border-top: 1px solid rgba(184,146,42,0.1); padding: 3rem 4.5rem; }
+    .footer-inner { max-width: 1300px; margin: 0 auto; display: grid; grid-template-columns: 2fr 1fr 1fr; gap: 3rem; }
+    .footer-brand img { height: 40px; margin-bottom: 1rem; filter: brightness(0) invert(1); opacity: 0.8; }
+    .footer-tagline { font-size: 0.82rem; line-height: 1.65; color: rgba(253,250,246,0.4); max-width: 220px; }
+    .footer-col-title { font-size: 0.65rem; font-weight: 700; letter-spacing: 0.18em; text-transform: uppercase; color: rgba(253,250,246,0.35); margin-bottom: 1.25rem; }
+    .footer-links { list-style: none; display: flex; flex-direction: column; gap: 0.7rem; }
+    .footer-links a { font-size: 0.82rem; color: rgba(253,250,246,0.5); text-decoration: none; transition: color 0.2s; }
+    .footer-links a:hover { color: var(--gold-light); }
+    .footer-bottom { max-width: 1300px; margin: 2.5rem auto 0; padding-top: 1.5rem; border-top: 1px solid rgba(253,250,246,0.06); display: flex; align-items: center; justify-content: space-between; }
+    .footer-copy { font-size: 0.72rem; color: rgba(253,250,246,0.25); letter-spacing: 0.05em; }
+
+    @media (max-width: 1024px) {
+      nav { padding: 0 1.5rem; }
+      .nav-links { display: none; }
+      .page-hero, .contact-section { padding-left: 1.5rem; padding-right: 1.5rem; }
+      .contact-inner { grid-template-columns: 1fr; gap: 3rem; }
+      .form-grid { grid-template-columns: 1fr; }
+      .footer-inner { grid-template-columns: 1fr 1fr; }
+    }
+  </style>
+</head>
+<body>
+
+  <nav>
+    <a href="anasayfa.html" class="nav-logo">
+      <img src="brand_assets/logo.png" alt="Kutsal Kitap İnceleme" />
+      <div class="nav-logo-text">Kutsal Kitap İnceleme</div>
+    </a>
+    <form class="nav-search-wrap" action="arama.html" method="get" role="search">
+      <svg viewBox="0 0 14 14" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round">
+        <circle cx="5.5" cy="5.5" r="4"/><line x1="9" y1="9" x2="13" y2="13"/>
+      </svg>
+      <input class="nav-search-input" type="text" name="q" placeholder="arama yapın…" autocomplete="off" />
+    </form>
+    <ul class="nav-links">
+      <li><a href="karsilastirma.html">Karşılaştır</a></li>
+      <li><a href="antikdil.html">Dil İnceleme</a></li>
+      <li><a href="arama.html">Ayet Ara</a></li>
+    </ul>
+  </nav>
+
+  <section class="page-hero">
+    <div class="page-hero-inner">
+      <p class="label-text page-label">Bize Ulaşın</p>
+      <h1 class="display page-title"><em>İletişim</em></h1>
+      <p class="page-lead">Öneri, hata bildirimi veya iş birliği talepleriniz için aşağıdaki formu doldurabilir ya da doğrudan e-posta gönderebilirsiniz.</p>
+    </div>
+  </section>
+
+  <section class="contact-section">
+    <div class="contact-inner">
+
+      <div>
+        <p class="label-text info-label">Ulaşmanın Yolları</p>
+        <h2 class="display info-heading">Birlikte<br><em>Konuşalım</em></h2>
+        <p class="info-desc">Her türlü geri bildirim ve sorunuzu memnuniyetle karşılıyoruz. Genellikle 1–3 iş günü içinde yanıt vermeye çalışıyoruz.</p>
+        <div class="info-items">
+          <div class="info-item">
+            <div class="info-icon">
+              <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round">
+                <rect x="1" y="3" width="14" height="10" rx="1"/><path d="M1 4l7 5 7-5"/>
+              </svg>
+            </div>
+            <div>
+              <p class="info-item-label">E-posta</p>
+              <p class="info-item-value">iletisim@kutsalkitapinceleme.com</p>
+            </div>
+          </div>
+          <div class="info-item">
+            <div class="info-icon">
+              <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round">
+                <circle cx="8" cy="8" r="7"/><path d="M8 4v4l2.5 2.5"/>
+              </svg>
+            </div>
+            <div>
+              <p class="info-item-label">Yanıt Süresi</p>
+              <p class="info-item-value">1–3 iş günü</p>
+            </div>
+          </div>
+          <div class="info-item">
+            <div class="info-icon">
+              <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round">
+                <path d="M8 1C5.24 1 3 3.24 3 6c0 4 5 9 5 9s5-5 5-9c0-2.76-2.24-5-5-5z"/><circle cx="8" cy="6" r="1.5"/>
+              </svg>
+            </div>
+            <div>
+              <p class="info-item-label">Konum</p>
+              <p class="info-item-value">İstanbul, Türkiye</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="contact-form" id="form-wrapper">
+        <p class="form-title">Mesaj Gönderin</p>
+        <p class="form-sub">Tüm alanları doldurarak mesajınızı iletebilirsiniz. Geri bildirimleriniz platformun geliştirilmesine doğrudan katkı sağlar.</p>
+        <form id="contact-form" novalidate>
+          <div class="form-grid">
+            <div class="form-group">
+              <label class="form-label" for="name">Ad Soyad</label>
+              <input class="form-input" type="text" id="name" name="name" placeholder="Adınız Soyadınız" required />
+            </div>
+            <div class="form-group">
+              <label class="form-label" for="email">E-posta</label>
+              <input class="form-input" type="email" id="email" name="email" placeholder="ornek@email.com" required />
+            </div>
+            <div class="form-group full">
+              <label class="form-label" for="subject">Konu</label>
+              <select class="form-select form-input" id="subject" name="subject">
+                <option value="">Konu seçin…</option>
+                <option>Hata Bildirimi</option>
+                <option>Öneri / Geri Bildirim</option>
+                <option>İş Birliği Talebi</option>
+                <option>Çeviri Verisi Hakkında</option>
+                <option>Diğer</option>
+              </select>
+            </div>
+            <div class="form-group full">
+              <label class="form-label" for="message">Mesaj</label>
+              <textarea class="form-textarea" id="message" name="message" placeholder="Mesajınızı buraya yazın…" required></textarea>
+            </div>
+          </div>
+          <button type="submit" class="form-submit">
+            <svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M1 7h12M7 1l6 6-6 6" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            Mesajı Gönder
+          </button>
+          <p class="form-note">Kişisel verileriniz yalnızca bu iletişim amacıyla kullanılır. <a href="gizlilik.html" style="color:var(--gold);text-decoration:none;">Gizlilik Politikası</a></p>
+        </form>
+        <div class="form-success" id="form-success">
+          <div class="success-icon">
+            <svg width="22" height="22" viewBox="0 0 22 22" fill="none"><path d="M3 11l6 6L19 5" stroke="#B8922A" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </div>
+          <p class="success-title">Mesajınız İletildi</p>
+          <p class="success-desc">Geri bildiriminiz için teşekkür ederiz. En kısa sürede size dönüş yapacağız.</p>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <footer>
+    <div class="footer-inner">
+      <div class="footer-brand">
+        <img src="brand_assets/logo.png" alt="Kutsal Kitap İnceleme" />
+        <p class="footer-tagline">Türkçe Kutsal Kitap çevirilerini karşılaştırın ve özgün dilde inceleyin.</p>
+      </div>
+      <div>
+        <p class="footer-col-title">Araçlar</p>
+        <ul class="footer-links">
+          <li><a href="karsilastirma.html">Karşılaştırma</a></li>
+          <li><a href="antikdil.html">Dil İnceleme</a></li>
+          <li><a href="arama.html">Ayet Ara</a></li>
+        </ul>
+      </div>
+      <div>
+        <p class="footer-col-title">Hakkında</p>
+        <ul class="footer-links">
+          <li><a href="hakkimizda.html">Biz Kimiz</a></li>
+          <li><a href="iletisim.html">İletişim</a></li>
+          <li><a href="gizlilik.html">Gizlilik</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p class="footer-copy">© 2026 Kutsal Kitap İnceleme. Tüm hakları saklıdır.</p>
+      <p class="footer-copy">Sevgiyle inşa edildi</p>
+    </div>
+  </footer>
+
+  <script>
+    const nav = document.querySelector('nav');
+    window.addEventListener('scroll', () => {
+      nav.style.background = window.scrollY > 40 ? 'rgba(247,241,232,0.97)' : 'rgba(247,241,232,0.92)';
+    }, { passive: true });
+
+    document.getElementById('contact-form').addEventListener('submit', function(e) {
+      e.preventDefault();
+      document.getElementById('contact-form').style.display = 'none';
+      document.getElementById('form-success').classList.add('visible');
+    });
+  </script>
+</body>
+</html>
