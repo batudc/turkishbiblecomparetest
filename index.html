@@ -209,6 +209,10 @@
     }
     .tools-inner { max-width: 1300px; margin: 0 auto; position: relative; z-index: 1; }
     .tools-header { margin-bottom: 4rem; }
+    .section-label { color: var(--gold); display: flex; align-items: center; gap: 0.75rem; margin-bottom: 1.25rem; }
+    .section-label::before { content: ''; width: 28px; height: 1px; background: currentColor; flex-shrink: 0; }
+    .section-heading { font-size: clamp(2.5rem, 4vw, 4rem); color: var(--navy-deep); margin-bottom: 1.25rem; }
+    .section-sub { font-size: 1rem; line-height: 1.75; color: var(--stone); max-width: 520px; }
     .tools-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 2rem; }
 
     .tool-card {
@@ -325,122 +329,6 @@
     .tool-cta.gold-cta { color: var(--gold); border-color: var(--gold); }
     .tool-cta.gold-cta:hover { background: var(--gold); color: var(--navy-deep); }
 
-    /* ===================== TRANSLATIONS SECTION ===================== */
-    .section { padding: 6rem 4.5rem; }
-    .section-inner { max-width: 1300px; margin: 0 auto; }
-    .section-label {
-      color: var(--gold); display: flex; align-items: center; gap: 0.75rem; margin-bottom: 1.25rem;
-    }
-    .section-label::before { content: ''; width: 28px; height: 1px; background: currentColor; flex-shrink: 0; }
-    .section-heading { font-size: clamp(2.5rem, 4vw, 4rem); color: var(--navy-deep); margin-bottom: 1.25rem; }
-    .section-sub { font-size: 1rem; line-height: 1.75; color: var(--stone); max-width: 520px; }
-
-    .translations-grid {
-      display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.5px; margin-top: 4rem;
-      background: rgba(27,58,84,0.1); border: 1.5px solid rgba(27,58,84,0.1);
-    }
-    .trans-card {
-      background: var(--white); padding: 2rem; position: relative; overflow: hidden;
-      transition: transform 0.3s cubic-bezier(0.34,1.56,0.64,1), box-shadow 0.3s ease; cursor: pointer;
-    }
-    .trans-card::before {
-      content: ''; position: absolute; top: 0; left: 0; right: 0; height: 2px;
-      background: var(--gold); transform: scaleX(0); transform-origin: left; transition: transform 0.3s ease;
-    }
-    .trans-card:hover { transform: translateY(-4px); box-shadow: 0 12px 40px rgba(15,36,55,0.12); z-index: 1; }
-    .trans-card:hover::before { transform: scaleX(1); }
-    .trans-card:focus-visible { outline: 2px solid var(--gold); outline-offset: 2px; }
-    .trans-abbr { display: inline-block; font-family: 'Jost', sans-serif; font-size: 1.5rem; font-weight: 700; letter-spacing: 0.06em; color: var(--navy); margin-bottom: 0.3rem; }
-    .trans-year { display: block; font-size: 0.62rem; font-weight: 600; letter-spacing: 0.18em; text-transform: uppercase; color: var(--gold); margin-bottom: 1rem; }
-    .trans-name { font-family: 'Cormorant Garamond', serif; font-size: 1.2rem; font-weight: 600; color: var(--navy-deep); line-height: 1.35; margin-bottom: 0.75rem; }
-    .trans-desc { font-size: 0.82rem; line-height: 1.65; color: var(--stone); }
-    .trans-tag { display: inline-block; margin-top: 1.25rem; padding: 0.28rem 0.7rem; border: 1px solid rgba(27,58,84,0.15); font-size: 0.6rem; font-weight: 700; letter-spacing: 0.14em; text-transform: uppercase; color: var(--navy); }
-    .trans-tag.modern { border-color: rgba(184,146,42,0.3); color: var(--gold); }
-    .trans-tag.classic { border-color: rgba(27,58,84,0.2); color: var(--navy-mid); }
-    .trans-card .bg-letter { position: absolute; bottom: -0.5rem; right: 0.75rem; font-family: 'Cormorant Garamond', serif; font-size: 6rem; font-weight: 700; color: rgba(27,58,84,0.035); line-height: 1; pointer-events: none; user-select: none; }
-
-    /* ===================== HOW IT WORKS ===================== */
-    .how-section {
-      background: var(--navy-deep); padding: 7rem 4.5rem; position: relative; overflow: hidden;
-    }
-    .how-section::before { content: ''; position: absolute; top: -20%; left: -10%; width: 60%; height: 80%; background: radial-gradient(ellipse, rgba(184,146,42,0.06) 0%, transparent 70%); pointer-events: none; }
-    .how-section::after { content: ''; position: absolute; bottom: -10%; right: -5%; width: 50%; height: 70%; background: radial-gradient(ellipse, rgba(38,77,107,0.3) 0%, transparent 70%); pointer-events: none; }
-    .how-inner { max-width: 1300px; margin: 0 auto; position: relative; z-index: 1; }
-    .how-header { display: grid; grid-template-columns: 1fr 1fr; gap: 4rem; margin-bottom: 5rem; }
-    .how-label { color: var(--gold); }
-    .how-heading { font-size: clamp(2.5rem, 4vw, 4rem); color: var(--white); }
-    .how-desc { font-size: 1rem; line-height: 1.75; color: rgba(253,250,246,0.55); align-self: end; }
-    .steps { display: grid; grid-template-columns: repeat(3, 1fr); gap: 0; position: relative; }
-    .steps::before {
-      content: ''; position: absolute; top: 2rem; left: calc(100%/6); right: calc(100%/6); height: 1px;
-      background: linear-gradient(to right, transparent, rgba(184,146,42,0.3), rgba(184,146,42,0.3), transparent);
-    }
-    .step { padding: 0 2.5rem 0 0; position: relative; }
-    .step-num {
-      width: 4rem; height: 4rem; border: 1px solid rgba(184,146,42,0.3);
-      display: flex; align-items: center; justify-content: center;
-      font-family: 'Cormorant Garamond', serif; font-size: 1.5rem; font-weight: 600;
-      color: var(--gold-light); margin-bottom: 2rem; position: relative; background: var(--navy-deep);
-    }
-    .step-title { font-family: 'Cormorant Garamond', serif; font-size: 1.6rem; font-weight: 600; color: var(--white); margin-bottom: 0.75rem; line-height: 1.2; }
-    .step-desc { font-size: 0.88rem; line-height: 1.75; color: rgba(253,250,246,0.5); }
-
-    /* ===================== COMPARISON DEMO ===================== */
-    .demo-section { padding: 7rem 4.5rem; background: var(--parchment); position: relative; overflow: hidden; }
-    .demo-section::before { content: ''; position: absolute; inset: 0; background: radial-gradient(ellipse 80% 60% at 50% 100%, rgba(184,146,42,0.06) 0%, transparent 60%); }
-    .demo-inner { max-width: 1300px; margin: 0 auto; position: relative; z-index: 1; }
-    .demo-layout { display: grid; grid-template-columns: 1fr 2fr; gap: 5rem; margin-top: 4rem; align-items: start; }
-    .demo-heading { font-size: clamp(2rem, 3.5vw, 3.25rem); color: var(--navy-deep); margin-bottom: 1.25rem; }
-    .demo-desc { font-size: 0.9rem; line-height: 1.75; color: var(--stone); margin-bottom: 2.5rem; }
-    .feature-list { list-style: none; display: flex; flex-direction: column; gap: 1rem; }
-    .feature-list li { display: flex; align-items: flex-start; gap: 0.75rem; font-size: 0.85rem; line-height: 1.5; color: var(--navy-deep); }
-    .feature-list li::before {
-      content: ''; width: 16px; height: 16px; border: 1px solid var(--gold); flex-shrink: 0; margin-top: 0.1rem;
-      background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Cpath d='M3 8l3.5 3.5L13 4' stroke='%23B8922A' stroke-width='1.5' fill='none' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E") center/12px no-repeat;
-    }
-    .demo-panel {
-      background: var(--white); border: 1px solid rgba(27,58,84,0.1);
-      box-shadow: 0 4px 8px rgba(15,36,55,0.04), 0 16px 48px rgba(15,36,55,0.08), 0 32px 80px rgba(15,36,55,0.06);
-    }
-    .demo-panel-header { padding: 1rem 1.5rem; border-bottom: 1px solid rgba(27,58,84,0.08); display: flex; align-items: center; justify-content: space-between; background: rgba(237,228,211,0.3); }
-    .demo-panel-verse { font-family: 'Cormorant Garamond', serif; font-size: 1rem; font-weight: 600; color: var(--navy); }
-    .demo-panel-controls { display: flex; gap: 0.5rem; }
-    .dot { width: 8px; height: 8px; border-radius: 50%; background: rgba(27,58,84,0.15); }
-    .dot.active { background: var(--gold); }
-    .demo-verse-row { display: grid; grid-template-columns: 80px 1fr; border-bottom: 1px solid rgba(27,58,84,0.06); transition: background 0.2s; }
-    .demo-verse-row:last-child { border-bottom: none; }
-    .demo-verse-row:hover { background: rgba(237,228,211,0.2); }
-    .demo-abbr-col { padding: 1.25rem 1rem; border-right: 1px solid rgba(27,58,84,0.06); display: flex; flex-direction: column; align-items: center; justify-content: flex-start; gap: 0.4rem; background: rgba(247,241,232,0.5); }
-    .demo-abbr { font-family: 'Jost', sans-serif; font-size: 0.75rem; font-weight: 700; letter-spacing: 0.08em; color: var(--navy); }
-    .demo-year { font-size: 0.58rem; color: var(--stone); letter-spacing: 0.1em; }
-    .demo-text-col { padding: 1.25rem 1.5rem; }
-    .demo-verse { font-family: 'Cormorant Garamond', serif; font-size: 1rem; line-height: 1.7; color: var(--navy-deep); }
-    .demo-verse mark { background: rgba(184,146,42,0.15); color: inherit; padding: 0.05em 0.1em; }
-
-    /* ===================== CTA SECTION ===================== */
-    .cta-section { padding: 8rem 4.5rem; background: var(--navy-deep); position: relative; overflow: hidden; text-align: center; }
-    .cta-section::before { content: ''; position: absolute; top: 50%; left: 50%; transform: translate(-50%,-50%); width: 800px; height: 800px; background: radial-gradient(ellipse, rgba(184,146,42,0.08) 0%, transparent 70%); pointer-events: none; }
-    .cta-section::after { content: ''; position: absolute; inset: 0; background: radial-gradient(ellipse 40% 50% at 10% 50%, rgba(38,77,107,0.3) 0%, transparent 60%), radial-gradient(ellipse 40% 50% at 90% 50%, rgba(38,77,107,0.3) 0%, transparent 60%); pointer-events: none; }
-    .cta-inner { position: relative; z-index: 1; }
-    .cta-label { color: var(--gold); margin-bottom: 1.5rem; }
-    .cta-heading { font-size: clamp(3rem, 5vw, 5rem); color: var(--white); margin-bottom: 1.5rem; }
-    .cta-heading em { color: var(--gold-light); }
-    .cta-sub { font-size: 1rem; line-height: 1.75; color: rgba(253,250,246,0.55); max-width: 500px; margin: 0 auto 3rem; }
-    .cta-actions { display: flex; gap: 1rem; justify-content: center; align-items: center; }
-    .btn-outline {
-      display: inline-flex; align-items: center;
-      font-family: 'Jost', sans-serif; font-size: 0.78rem; font-weight: 500;
-      letter-spacing: 0.1em; text-transform: uppercase;
-      color: rgba(253,250,246,0.6); border: 1px solid rgba(253,250,246,0.2);
-      padding: 0.85rem 2rem; text-decoration: none; cursor: pointer; background: transparent;
-      transition: color 0.2s, border-color 0.2s, transform 0.15s;
-    }
-    .btn-outline:hover { color: var(--white); border-color: rgba(253,250,246,0.5); transform: translateY(-2px); }
-    .btn-outline:active { transform: translateY(0); }
-    .deco-bracket { position: absolute; opacity: 0.04; color: var(--white); }
-    .deco-bracket svg { width: 200px; height: 200px; }
-    .deco-br-tl { top: 3rem; left: 3rem; }
-    .deco-br-br { bottom: 3rem; right: 3rem; transform: rotate(180deg); }
 
     /* ===================== FOOTER ===================== */
     footer { background: var(--navy-deep); border-top: 1px solid rgba(184,146,42,0.1); padding: 3rem 4.5rem; }
@@ -470,11 +358,9 @@
       .hero { grid-template-columns: 1fr; }
       .hero-right { display: none; }
       .tools-grid { grid-template-columns: 1fr; }
-      .how-header { grid-template-columns: 1fr; gap: 2rem; }
-      .demo-layout { grid-template-columns: 1fr; gap: 3rem; }
       nav { padding: 0 1.5rem; }
       .nav-links { display: none; }
-      .section, .tools-section, .how-section, .demo-section, .cta-section { padding-left: 1.5rem; padding-right: 1.5rem; }
+      .tools-section { padding-left: 1.5rem; padding-right: 1.5rem; }
       .footer-inner { grid-template-columns: 1fr 1fr; }
     }
   </style>
@@ -698,168 +584,6 @@
     </div>
   </section>
 
-  <!-- ===== TRANSLATIONS ===== -->
-  <section class="section" id="meals" style="background:var(--cream);">
-    <div class="section-inner">
-      <div style="display:grid;grid-template-columns:1fr 1fr;gap:4rem;margin-bottom:0;">
-        <div>
-          <p class="label-text section-label reveal">Mevcut Çeviriler</p>
-          <h2 class="display section-heading reveal">Türkçe Kutsal<br>Kitap <em style="font-style:italic;color:var(--gold);">Çevirileri</em></h2>
-        </div>
-        <div style="display:flex;align-items:flex-end;">
-          <p class="section-sub reveal">Osmanlı döneminden günümüze uzanan Türkçe Kutsal Kitap çevirilerini keşfedin. Her çeviri, kendi döneminin dil anlayışını ve teolojik yaklaşımını yansıtır.</p>
-        </div>
-      </div>
-
-      <div class="translations-grid" id="meals-grid">
-        <div class="trans-card reveal" tabindex="0">
-          <span class="trans-abbr">TCL02</span>
-          <span class="trans-year">2009</span>
-          <h3 class="trans-name">Kutsal Kitap</h3>
-          <p class="trans-desc">Türkiye İncil Kilisesi ve Yeni Yaşam Yayınları tarafından hazırlanan çağdaş Türkçe çeviri.</p>
-          <span class="trans-tag modern">Modern</span>
-          <div class="bg-letter">K</div>
-        </div>
-        <div class="trans-card reveal" tabindex="0">
-          <span class="trans-abbr">YÇ</span>
-          <span class="trans-year">2015</span>
-          <h3 class="trans-name">Yeni Çeviri</h3>
-          <p class="trans-desc">Akademik bir heyet tarafından özgün dillerden yapılan güncel ve titiz bir Türkçe çeviri.</p>
-          <span class="trans-tag modern">Modern</span>
-          <div class="bg-letter">Y</div>
-        </div>
-        <div class="trans-card reveal" tabindex="0">
-          <span class="trans-abbr">TÇ</span>
-          <span class="trans-year">2016</span>
-          <h3 class="trans-name">Türkçe Çeviri</h3>
-          <p class="trans-desc">Anlaşılır, akıcı Türkçesiyle öne çıkan, kilise topluluklarında yaygın olarak kullanılan çeviri.</p>
-          <span class="trans-tag modern">Modern</span>
-          <div class="bg-letter">T</div>
-        </div>
-        <div class="trans-card reveal" tabindex="0">
-          <span class="trans-abbr">HKTN</span>
-          <span class="trans-year">1941</span>
-          <h3 class="trans-name">Tarihî Türkçe Çeviri</h3>
-          <p class="trans-desc">Cumhuriyet dönemi Türkçesiyle hazırlanmış; dönemin dilsel özelliklerini taşıyan önemli bir tarihî çeviri.</p>
-          <span class="trans-tag classic">Klasik</span>
-          <div class="bg-letter">T</div>
-        </div>
-        <div class="trans-card reveal" tabindex="0">
-          <span class="trans-abbr">KMEYA</span>
-          <span class="trans-year">1891</span>
-          <h3 class="trans-name">Kitabı Mukaddes</h3>
-          <p class="trans-desc">Osmanlı Türkçesiyle hazırlanmış; Türkçe Kutsal Kitap tarihindeki en köklü ve en eski çevirilerden biri.</p>
-          <span class="trans-tag classic">Osmanlı</span>
-          <div class="bg-letter">K</div>
-        </div>
-        <div class="trans-card reveal" tabindex="0">
-          <span class="trans-abbr">AREMSI</span>
-          <span class="trans-year">Çağdaş</span>
-          <h3 class="trans-name">Sade Türkçe</h3>
-          <p class="trans-desc">Herkesin kolayca anlayabileceği sade ve açık bir dille kaleme alınmış çağdaş çeviriler serisi.</p>
-          <span class="trans-tag modern">Güncel</span>
-          <div class="bg-letter">S</div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- ===== HOW IT WORKS ===== -->
-  <section class="how-section">
-    <div class="how-inner">
-      <div class="how-header">
-        <div>
-          <p class="label-text how-label reveal" style="display:flex;align-items:center;gap:.75rem;"><span style="display:inline-block;width:28px;height:1px;background:currentColor;flex-shrink:0;"></span> Nasıl Çalışır</p>
-          <h2 class="display how-heading reveal">Üç Adımda<br><em style="font-style:italic;color:var(--gold-light);">Karşılaştır</em></h2>
-        </div>
-        <div style="display:flex;align-items:flex-end;">
-          <p class="how-desc reveal">Karmaşık arayüzler olmadan, hızlı ve verimli bir inceleme deneyimi. Dilediğiniz ayette, dilediğiniz çeviriler arasında anlık analiz yapın.</p>
-        </div>
-      </div>
-      <div class="steps">
-        <div class="step reveal">
-          <div class="step-num">1</div>
-          <h3 class="step-title">Ayet Seçin</h3>
-          <p class="step-desc">Kitap, bölüm ve ayet numarasını girin ya da arama çubuğunu kullanarak doğrudan istediğiniz ayete gidin.</p>
-        </div>
-        <div class="step reveal">
-          <div class="step-num">2</div>
-          <h3 class="step-title">Çevirileri Belirleyin</h3>
-          <p class="step-desc">Karşılaştırmak istediğiniz çevirileri seçin. Modern, klasik veya tarihi çeviriler arasından dilediğinizi tercih edebilirsiniz.</p>
-        </div>
-        <div class="step reveal">
-          <div class="step-num">3</div>
-          <h3 class="step-title">Derinlemesine İnceleyin</h3>
-          <p class="step-desc">Yan yana görüntüleyin, kelime farklarını vurgulayın; Dil İnceleme aracıyla İbranice ve Yunanca köklerle derinlemesine analiz yapın.</p>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- ===== COMPARISON DEMO ===== -->
-  <section class="demo-section">
-    <div class="demo-inner">
-      <p class="label-text section-label reveal">Karşılaştırma Paneli</p>
-      <div class="demo-layout">
-        <div class="demo-text">
-          <h2 class="display demo-heading reveal">Ayeti Derinlemesine <em style="font-style:italic;color:var(--gold);">İnceleyin</em></h2>
-          <p class="demo-desc reveal">Her çevirinin kelime tercihleri, üslup farklılıkları ve teolojik nüansları yan yana görüntüleyin. Hangi çeviri özgün dile ne kadar sadık?</p>
-          <ul class="feature-list reveal">
-            <li>Kelime bazında fark vurgulama</li>
-            <li>Modern ve Osmanlı çevirileri karşılaştırması</li>
-            <li>İbranice ve Yunanca köken analizi</li>
-            <li>Karşılaştırmayı paylaş veya dışa aktar</li>
-          </ul>
-        </div>
-
-        <div class="demo-panel reveal">
-          <div class="demo-panel-header">
-            <span class="demo-panel-verse">Mezmur 23:1 — "RAB Çobanımdır"</span>
-            <div class="demo-panel-controls">
-              <div class="dot active"></div><div class="dot"></div><div class="dot"></div>
-            </div>
-          </div>
-          <div>
-            <div class="demo-verse-row">
-              <div class="demo-abbr-col"><span class="demo-abbr">TCL02</span><span class="demo-year">2009</span></div>
-              <div class="demo-text-col"><p class="demo-verse">"<mark>RAB</mark> çobanımdır, <mark>eksiğim olmaz</mark>."</p></div>
-            </div>
-            <div class="demo-verse-row">
-              <div class="demo-abbr-col"><span class="demo-abbr">KMEYA</span><span class="demo-year">1891</span></div>
-              <div class="demo-text-col"><p class="demo-verse">"<mark>RAB</mark> çobanımdır; <mark>benim eksiğim olmaz</mark>."</p></div>
-            </div>
-            <div class="demo-verse-row">
-              <div class="demo-abbr-col"><span class="demo-abbr">HKTN</span><span class="demo-year">1941</span></div>
-              <div class="demo-text-col"><p class="demo-verse">"<mark>Rabb</mark> çobanımdır <mark>hiçbir şeye gereksinim duymam</mark>."</p></div>
-            </div>
-            <div class="demo-verse-row">
-              <div class="demo-abbr-col"><span class="demo-abbr">YTC</span><span class="demo-year">2016</span></div>
-              <div class="demo-text-col"><p class="demo-verse">"<mark>Yahve</mark> benim çobanımdır, <mark>hiç eksiğim olmaz</mark>."</p></div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- ===== CTA ===== -->
-  <section class="cta-section" id="hakkinda">
-    <div class="deco-bracket deco-br-tl" aria-hidden="true">
-      <svg viewBox="0 0 200 200" fill="none"><path d="M20 20h160v160" stroke="white" stroke-width="2"/><path d="M40 40h120v120" stroke="white" stroke-width="1"/><line x1="20" y1="20" x2="40" y2="40" stroke="white" stroke-width="1"/></svg>
-    </div>
-    <div class="deco-bracket deco-br-br" aria-hidden="true">
-      <svg viewBox="0 0 200 200" fill="none"><path d="M20 20h160v160" stroke="white" stroke-width="2"/><path d="M40 40h120v120" stroke="white" stroke-width="1"/><line x1="20" y1="20" x2="40" y2="40" stroke="white" stroke-width="1"/></svg>
-    </div>
-    <div class="cta-inner">
-      <p class="label-text cta-label" style="display:flex;align-items:center;justify-content:center;gap:.75rem;"><span style="display:inline-block;width:28px;height:1px;background:currentColor;"></span> Hemen Başlayın <span style="display:inline-block;width:28px;height:1px;background:currentColor;"></span></p>
-      <h2 class="display cta-heading">İncelemenize<br><em>Derinlik</em> Katın</h2>
-      <p class="cta-sub">Türkçe Kutsal Kitap çevirilerini karşılaştırın, İbranice ve Yunanca kelimelerin kökenini keşfedin. Tamamen ücretsiz.</p>
-      <div class="cta-actions">
-        <a href="compare.html" class="btn-primary" style="font-size:0.82rem;padding:1rem 2.25rem;">Karşılaştırmaya Başla</a>
-        <a href="interlinear.html" class="btn-outline">Dil İnceleme →</a>
-      </div>
-    </div>
-  </section>
 
   <!-- ===== FOOTER ===== -->
   <footer>
