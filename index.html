@@ -398,7 +398,7 @@
         Kutsal<br>Kelamı<br><em>İnceleyin</em>
       </h1>
       <p class="hero-sub fade-up delay-3">
-        Türkçe çeviriler arasında ayet ayet karşılaştırın; İbranice ve Yunanca kelimelerin kökenine ve anlamına inin. Her ayeti özgün dilinde, tüm derinliğiyle keşfedin.
+        Türkçe çeviriler arasında ayet ayet karşılaştırın; İbranice ve Koine Grekçe kelimelerin kökenine ve anlamına inin. Her ayeti özgün dilinde, tüm derinliğiyle keşfedin.
       </p>
       <div class="hero-actions fade-up delay-4">
         <a href="compare.html" class="btn-primary">
@@ -442,11 +442,11 @@
             <p class="comp-verse-text">…</p>
           </div>
           <div class="comp-entry" style="opacity:0.4;pointer-events:none;">
-            <div class="comp-translation-name"><span class="comp-badge">KMEYA</span> Kitabı Mukaddes</div>
+            <div class="comp-translation-name"><span class="comp-badge">ALI1665</span> Ali Ufki</div>
             <p class="comp-verse-text">…</p>
           </div>
           <div class="comp-entry" style="opacity:0.4;pointer-events:none;">
-            <div class="comp-translation-name"><span class="comp-badge">HKTN</span> Tarihî Çeviri</div>
+            <div class="comp-translation-name"><span class="comp-badge">NA27</span> Koine Grekçe</div>
             <p class="comp-verse-text">…</p>
           </div>
         </div>
@@ -617,26 +617,29 @@
   <script>
     // ===== DYNAMIC LIVE COMPARISON =====
     const SHOWCASE_VERSES = [
-      {book:'JHN', ch:3, v:16, label:'Yuhanna 3:16'},
-      {book:'PSA', ch:23, v:1,  label:'Mezmur 23:1'},
-      {book:'GEN', ch:1, v:1,   label:'Yaratılış 1:1'},
-      {book:'ROM', ch:8, v:28,  label:'Romalılar 8:28'},
-      {book:'ISA', ch:53, v:5,  label:'Yeşaya 53:5'},
-      {book:'PRO', ch:3, v:5,   label:'Özdeyişler 3:5'},
-      {book:'MAT', ch:5, v:3,   label:'Matta 5:3'},
-      {book:'JHN', ch:1, v:1,   label:'Yuhanna 1:1'},
-      {book:'PHP', ch:4, v:13,  label:'Filipililer 4:13'},
-      {book:'REV', ch:21, v:4,  label:'Vahiy 21:4'}
-    ];
-    const LIVE_TRANSLATIONS = [
-      {code:'TCL02', name:'Kutsal Kitap',    year:'2009'},
-      {code:'KMEYA', name:'Kitabı Mukaddes', year:'1891'},
-      {code:'HKTN',  name:'Tarihî Çeviri',   year:'1941'}
+      {book:'JHN', ch:3, v:16, label:'Yuhanna 3:16',     ot:false},
+      {book:'PSA', ch:23, v:1,  label:'Mezmur 23:1',      ot:true},
+      {book:'GEN', ch:1, v:1,   label:'Yaratılış 1:1',    ot:true},
+      {book:'ROM', ch:8, v:28,  label:'Romalılar 8:28',   ot:false},
+      {book:'ISA', ch:53, v:5,  label:'Yeşaya 53:5',      ot:true},
+      {book:'PRO', ch:3, v:5,   label:'Özdeyişler 3:5',   ot:true},
+      {book:'MAT', ch:5, v:3,   label:'Matta 5:3',        ot:false},
+      {book:'JHN', ch:1, v:1,   label:'Yuhanna 1:1',      ot:false},
+      {book:'PHP', ch:4, v:13,  label:'Filipililer 4:13', ot:false},
+      {book:'REV', ch:21, v:4,  label:'Vahiy 21:4',       ot:false}
     ];
     async function loadLiveVerse() {
       const verse = SHOWCASE_VERSES[Math.floor(Math.random() * SHOWCASE_VERSES.length)];
       document.getElementById('live-verse-ref').textContent = verse.label;
-      const results = await Promise.all(LIVE_TRANSLATIONS.map(async t => {
+      const origLang = verse.ot
+        ? {code:'BHS',  name:'İbranice',     year:'OT'}
+        : {code:'NA27', name:'Koine Grekçe', year:'NT'};
+      const translations = [
+        {code:'TCL02',  name:'Kutsal Kitap', year:'2009'},
+        {code:'ALI1665',name:'Ali Ufki',     year:'1665'},
+        origLang
+      ];
+      const results = await Promise.all(translations.map(async t => {
         try {
           const r = await fetch(`data/translations/${t.code}/${verse.book}/${verse.ch}.json`);
           const d = await r.json();
@@ -647,9 +650,9 @@
       const body = document.getElementById('live-comp-body');
       if (!body) return;
       body.innerHTML = results.map(({t, text}) =>
-        `<div class="comp-entry">
-          <div class="comp-translation-name"><span class="comp-badge">${t.code}</span> ${t.name}</div>
-          <p class="comp-verse-text">${text ? '“' + text + '”' : '—'}</p>
+        `<div class=”comp-entry”>
+          <div class=”comp-translation-name”><span class=”comp-badge”>${t.code}</span> ${t.name}</div>
+          <p class=”comp-verse-text”>${text ? '”' + text + '”' : '—'}</p>
         </div>`
       ).join('');
     }
