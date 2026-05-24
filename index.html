@@ -83,6 +83,7 @@
     .hero {
       min-height: 100vh;
       display: grid; grid-template-columns: 1fr 1fr;
+      align-items: stretch;
       padding-top: 68px; position: relative; overflow: hidden;
     }
     .hero-bg-left {
@@ -142,7 +143,7 @@
 
     .hero-right {
       background: var(--cream); display: flex; align-items: center; justify-content: center;
-      padding: 5rem 3rem; position: relative; overflow: hidden;
+      padding: 7rem 3.5rem 5rem; position: relative;
     }
     .hero-right::before {
       content: ''; position: absolute; inset: 0;
@@ -160,30 +161,30 @@
     /* Floating comparison card */
     .comparison-card {
       background: var(--white); border: 1px solid rgba(27, 58, 84, 0.1);
-      width: 100%; max-width: 440px; position: relative; z-index: 1;
+      width: 100%; max-width: 460px; position: relative; z-index: 1;
       box-shadow: 0 2px 4px rgba(15,36,55,0.04), 0 8px 24px rgba(15,36,55,0.08), 0 24px 64px rgba(15,36,55,0.1);
       animation: float 6s ease-in-out infinite;
     }
-    @keyframes float { 0%,100% { transform: translateY(0); } 50% { transform: translateY(-6px); } }
+    @keyframes float { 0%,100% { transform: translateY(0); } 50% { transform: translateY(-8px); } }
     .comp-header {
-      padding: 0.85rem 1.1rem; border-bottom: 1px solid rgba(27,58,84,0.08);
+      padding: 1rem 1.25rem; border-bottom: 1px solid rgba(27,58,84,0.08);
       display: flex; align-items: center; justify-content: space-between;
     }
-    .comp-title { font-family: 'Jost', sans-serif; font-size: 0.62rem; font-weight: 700; letter-spacing: 0.16em; text-transform: uppercase; color: var(--stone); }
-    .comp-verse-ref { font-family: 'Cormorant Garamond', serif; font-size: 0.88rem; font-weight: 600; color: var(--gold); }
+    .comp-title { font-family: 'Jost', sans-serif; font-size: 0.65rem; font-weight: 700; letter-spacing: 0.16em; text-transform: uppercase; color: var(--stone); }
+    .comp-verse-ref { font-family: 'Cormorant Garamond', serif; font-size: 0.9rem; font-weight: 600; color: var(--gold); }
     .comp-body { padding: 0; }
     .comp-entry {
-      padding: 0.85rem 1.1rem; border-bottom: 1px solid rgba(27,58,84,0.06); transition: background 0.2s;
+      padding: 1rem 1.25rem; border-bottom: 1px solid rgba(27,58,84,0.06); transition: background 0.2s;
     }
     .comp-entry:last-child { border-bottom: none; }
     .comp-entry:hover { background: rgba(237,228,211,0.3); }
     .comp-translation-name {
-      font-size: 0.58rem; font-weight: 700; letter-spacing: 0.14em; text-transform: uppercase;
-      color: var(--gold); margin-bottom: 0.4rem; display: flex; align-items: center; gap: 0.5rem;
+      font-size: 0.62rem; font-weight: 700; letter-spacing: 0.16em; text-transform: uppercase;
+      color: var(--gold); margin-bottom: 0.45rem; display: flex; align-items: center; gap: 0.5rem;
     }
     .comp-translation-name::after { content: ''; flex: 1; height: 1px; background: rgba(184,146,42,0.2); }
-    .comp-verse-text { font-family: 'Cormorant Garamond', serif; font-size: 0.95rem; line-height: 1.6; color: var(--navy-deep); }
-    .comp-badge { display: inline-block; padding: 0.15rem 0.5rem; background: rgba(27,58,84,0.06); font-size: 0.56rem; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; color: var(--navy); }
+    .comp-verse-text { font-family: 'Cormorant Garamond', serif; font-size: 1rem; line-height: 1.65; color: var(--navy-deep); }
+    .comp-badge { display: inline-block; padding: 0.2rem 0.6rem; background: rgba(27,58,84,0.06); font-size: 0.58rem; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; color: var(--navy); }
 
     /* ===================== MARQUEE STRIP ===================== */
     .marquee-strip {
