@@ -185,7 +185,7 @@
             </div>
             <div>
               <p class="info-item-label">E-posta</p>
-              <p class="info-item-value">iletisim@kutsalkitapinceleme.com</p>
+              <p class="info-item-value">kutsalkitapinceleme@gmail.com</p>
             </div>
           </div>
           <div class="info-item">
@@ -290,15 +290,39 @@
   </footer>
 
   <script>
-    const nav = document.querySelector('nav');
-    window.addEventListener('scroll', () => {
-      nav.style.background = window.scrollY > 40 ? 'rgba(247,241,232,0.97)' : 'rgba(247,241,232,0.92)';
-    }, { passive: true });
-
-    document.getElementById('contact-form').addEventListener('submit', function(e) {
+    document.getElementById('contact-form').addEventListener('submit', async function(e) {
       e.preventDefault();
-      document.getElementById('contact-form').style.display = 'none';
-      document.getElementById('form-success').classList.add('visible');
+      const btn = this.querySelector('.form-submit');
+      btn.disabled = true;
+      btn.textContent = 'Gönderiliyor…';
+
+      const data = {
+        name:    document.getElementById('name').value,
+        email:   document.getElementById('email').value,
+        subject: document.getElementById('subject').value,
+        message: document.getElementById('message').value,
+      };
+
+      try {
+        const res = await fetch('https://formsubmit.co/ajax/kutsalkitapinceleme@gmail.com', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json', 'Accept': 'application/json' },
+          body: JSON.stringify(data),
+        });
+        const json = await res.json();
+        if (json.success === 'true' || json.success === true) {
+          document.getElementById('contact-form').style.display = 'none';
+          document.getElementById('form-success').classList.add('visible');
+        } else {
+          btn.disabled = false;
+          btn.innerHTML = '<svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M1 7h12M7 1l6 6-6 6" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg> Mesajı Gönder';
+          alert('Gönderim başarısız oldu, lütfen tekrar deneyin.');
+        }
+      } catch (err) {
+        btn.disabled = false;
+        btn.innerHTML = '<svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M1 7h12M7 1l6 6-6 6" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg> Mesajı Gönder';
+        alert('Bağlantı hatası, lütfen tekrar deneyin.');
+      }
     });
   </script>
 </body>
