@@ -438,11 +438,15 @@
         </div>
         <div class="comp-body" id="live-comp-body">
           <div class="comp-entry" style="opacity:0.4;pointer-events:none;">
-            <div class="comp-translation-name"><span class="comp-badge">TCL02</span> Kutsal Kitap</div>
+            <div class="comp-translation-name"><span class="comp-badge">ALI1665</span> Ali Ufki</div>
             <p class="comp-verse-text">…</p>
           </div>
           <div class="comp-entry" style="opacity:0.4;pointer-events:none;">
-            <div class="comp-translation-name"><span class="comp-badge">ALI1665</span> Ali Ufki</div>
+            <div class="comp-translation-name"><span class="comp-badge">KMEYA</span> Kitabı Mukaddes</div>
+            <p class="comp-verse-text">…</p>
+          </div>
+          <div class="comp-entry" style="opacity:0.4;pointer-events:none;">
+            <div class="comp-translation-name"><span class="comp-badge">TCL02</span> Kutsal Kitap</div>
             <p class="comp-verse-text">…</p>
           </div>
           <div class="comp-entry" style="opacity:0.4;pointer-events:none;">
@@ -635,8 +639,9 @@
         ? {code:'BHS',  name:'İbranice',     year:'OT'}
         : {code:'NA27', name:'Koine Grekçe', year:'NT'};
       const translations = [
-        {code:'TCL02',  name:'Kutsal Kitap', year:'2009'},
-        {code:'ALI1665',name:'Ali Ufki',     year:'1665'},
+        {code:'ALI1665',name:'Ali Ufki',       year:'1665'},
+        {code:'KMEYA',  name:'Kitabı Mukaddes',year:'1891'},
+        {code:'TCL02',  name:'Kutsal Kitap',   year:'2009'},
         origLang
       ];
       const results = await Promise.all(translations.map(async t => {
