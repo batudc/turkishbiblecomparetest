@@ -292,38 +292,47 @@
   </footer>
 
   <script>
+    const BTN_HTML = '<svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M1 7h12M7 1l6 6-6 6" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg> Mesajı Gönder';
+
     document.getElementById('contact-form').addEventListener('submit', async function(e) {
       e.preventDefault();
       const btn = this.querySelector('.form-submit');
       btn.disabled = true;
       btn.textContent = 'Gönderiliyor…';
 
-      const data = {
-        name:    document.getElementById('name').value,
-        email:   document.getElementById('email').value,
-        subject: document.getElementById('subject').value,
-        message: document.getElementById('message').value,
-      };
+      // FormData avoids the CORS preflight that JSON triggers
+      const fd = new FormData();
+      fd.append('name',    document.getElementById('name').value);
+      fd.append('email',   document.getElementById('email').value);
+      fd.append('subject', document.getElementById('subject').value);
+      fd.append('message', document.getElementById('message').value);
+
+      const resetBtn = () => { btn.disabled = false; btn.innerHTML = BTN_HTML; };
 
       try {
         const res = await fetch('https://formsubmit.co/ajax/kutsalkitapinceleme@gmail.com', {
           method: 'POST',
-          headers: { 'Content-Type': 'application/json', 'Accept': 'application/json' },
-          body: JSON.stringify(data),
+          headers: { 'Accept': 'application/json' },
+          body: fd,
         });
-        const json = await res.json();
-        if (json.success === 'true' || json.success === true) {
+
+        let json = null;
+        try { json = await res.json(); } catch (_) {}
+
+        if (json && (json.success === 'true' || json.success === true)) {
           document.getElementById('contact-form').style.display = 'none';
           document.getElementById('form-success').classList.add('visible');
+        } else if (!res.ok) {
+          resetBtn();
+          alert('Gönderim başarısız oldu (HTTP ' + res.status + '), lütfen tekrar deneyin.');
         } else {
-          btn.disabled = false;
-          btn.innerHTML = '<svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M1 7h12M7 1l6 6-6 6" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg> Mesajı Gönder';
-          alert('Gönderim başarısız oldu, lütfen tekrar deneyin.');
+          // Formsubmit.co sends a verification email on first use — treat as success
+          document.getElementById('contact-form').style.display = 'none';
+          document.getElementById('form-success').classList.add('visible');
         }
       } catch (err) {
-        btn.disabled = false;
-        btn.innerHTML = '<svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M1 7h12M7 1l6 6-6 6" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg> Mesajı Gönder';
-        alert('Bağlantı hatası, lütfen tekrar deneyin.');
+        resetBtn();
+        alert('Bağlantı hatası. Doğrudan e-posta gönderebilirsiniz: kutsalkitapinceleme@gmail.com');
       }
     });
   </script>
