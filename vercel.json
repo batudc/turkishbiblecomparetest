@@ -1,3 +1,7 @@
 {
-  "version": 2
+  "redirects": [
+    { "source": "/compare.html",     "destination": "/karsilastirma.html", "permanent": true },
+    { "source": "/interlinear.html", "destination": "/antikdil.html",      "permanent": true },
+    { "source": "/search.html",      "destination": "/arama.html",         "permanent": true }
+  ]
 }

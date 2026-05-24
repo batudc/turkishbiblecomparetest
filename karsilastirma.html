@@ -1,0 +1,3988 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Karşılaştır — Kutsal Kitap İnceleme</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Jost:wght@300;400;500;600&family=Noto+Serif+Hebrew:wght@400;500&family=Cardo:ital,wght@0,400;0,700;1,400&family=GFS+Didot&family=Noto+Serif:ital,wght@0,400;0,700;1,400&family=Crimson+Pro:ital,wght@0,400;0,600;1,400&family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400&family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Lora:ital,wght@0,400;0,600;1,400&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;1,8..60,400&display=swap" rel="stylesheet" />
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --navy-deep:  #0F2437;
+      --navy:       #1B3A54;
+      --navy-mid:   #264D6B;
+      --cream:      #F7F1E8;
+      --parchment:  #EDE4D3;
+      --gold:       #B8922A;
+      --gold-light: #D4AA56;
+      --stone:      #8A8070;
+      --ink:        #2C2416;
+    }
+
+    html, body {
+      width: 100%;
+      height: 100%;
+      overflow: hidden;
+      font-family: 'Jost', Helvetica, Arial, sans-serif;
+      font-size: 12px;
+      color: var(--ink);
+      background-color: var(--navy-deep);
+    }
+
+    /* Custom scrollbar */
+    ::-webkit-scrollbar { width: 0.45em; height: 0.45em; }
+    ::-webkit-scrollbar-track { background: transparent; }
+    ::-webkit-scrollbar-thumb { background: rgba(184,146,42,0.25); border-radius: 0; }
+    ::-webkit-scrollbar-thumb:hover { background: rgba(184,146,42,0.45); }
+
+    /* ===== FULL LAYOUT ===== */
+    #layout {
+      width: 100%;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+    }
+
+    /* ===== HEADER ===== */
+    #header {
+      flex-shrink: 0;
+      background: #08141F;
+      border-bottom: 1px solid rgba(184,146,42,0.15);
+      display: flex;
+      align-items: center;
+      gap: 0;
+      height: 70px;
+      padding: 0 0 0 14px;
+    }
+
+    #logo {
+      display: flex;
+      align-items: center;
+      gap: 9px;
+      text-decoration: none;
+      flex-shrink: 0;
+      margin-right: 18px;
+    }
+    #logo img {
+      height: 32px;
+      width: auto;
+      filter: brightness(0) invert(1);
+      opacity: 0.82;
+    }
+    #logo-text {
+      font-family: 'EB Garamond', Georgia, serif;
+      font-size: 18px;
+      font-weight: 500;
+      color: var(--cream);
+      line-height: 1.15;
+      letter-spacing: -0.01em;
+    }
+    #logo-text small {
+      display: block;
+      font-family: 'Jost', sans-serif;
+      font-size: 9.5px;
+      font-weight: 400;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+      color: rgba(184,146,42,0.6);
+    }
+
+    #search-wrap {
+      flex: 1;
+      max-width: 480px;
+      position: relative;
+    }
+    #search-wrap svg {
+      position: absolute;
+      left: 10px;
+      top: 50%;
+      transform: translateY(-50%);
+      width: 14px;
+      height: 14px;
+      color: rgba(255,255,255,0.3);
+      pointer-events: none;
+    }
+    #search-input {
+      width: 100%;
+      padding: 8px 12px 8px 32px;
+      background: rgba(255,255,255,0.08);
+      border: 1px solid rgba(255,255,255,0.12);
+      border-radius: 3px;
+      color: #fff;
+      font-size: 13px;
+      font-family: 'Jost', sans-serif;
+      outline: none;
+      transition: background 0.15s, border-color 0.15s;
+    }
+    #search-input::placeholder { color: rgba(255,255,255,0.3); }
+    #search-input:focus {
+      background: rgba(255,255,255,0.12);
+      border-color: rgba(255,255,255,0.25);
+    }
+
+    #header-controls {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      margin-left: auto;
+      margin-right: auto;
+      flex-shrink: 0;
+    }
+
+    .hdr-btn {
+      padding: 6px 13px;
+      background: rgba(255,255,255,0.05);
+      border: 1px solid rgba(255,255,255,0.1);
+      border-radius: 3px;
+      color: rgba(247,241,232,0.6);
+      font-size: 12px;
+      font-family: 'Jost', sans-serif;
+      font-weight: 400;
+      cursor: pointer;
+      white-space: nowrap;
+      transition: background 0.12s, color 0.12s, border-color 0.12s;
+      line-height: 1.5;
+    }
+    .hdr-btn:hover { background: rgba(184,146,42,0.12); border-color: rgba(184,146,42,0.3); color: var(--gold-light); }
+    .hdr-btn:active { background: rgba(184,146,42,0.06); }
+    .hdr-btn:focus-visible { outline: 1px solid var(--gold); outline-offset: 1px; }
+
+    .hdr-nav-arrow {
+      width: 26px;
+      height: 26px;
+      background: rgba(184,146,42,0.06);
+      border: 1px solid rgba(184,146,42,0.15);
+      border-radius: 3px;
+      color: rgba(247,241,232,0.4);
+      font-size: 13px;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: background 0.12s;
+    }
+    .hdr-nav-arrow:hover { background: rgba(184,146,42,0.18); border-color: rgba(184,146,42,0.35); color: var(--gold-light); }
+
+    #header-links {
+      display: flex; align-items: center; gap: 2.5rem;
+      flex-shrink: 0;
+      padding: 0 3rem 0 2.5rem;
+    }
+    #header-links a {
+      font-size: 0.78rem; font-weight: 500; letter-spacing: 0.1em; text-transform: uppercase;
+      color: rgba(247,241,232,0.55); text-decoration: none;
+      transition: color 0.2s ease;
+    }
+    #header-links a:hover { color: var(--gold-light); }
+
+
+    /* ===== READER WRAPPER + SIDEBAR ===== */
+    #reader-wrapper {
+      flex: 1;
+      display: flex;
+      flex-direction: row;
+      overflow: hidden;
+      min-height: 0;
+    }
+
+    #sidebar-panel {
+      width: 0;
+      overflow: hidden;
+      transition: width 0.28s cubic-bezier(0.4, 0, 0.2, 1);
+      background: #0d1a25;
+      display: flex;
+      flex-direction: column;
+      flex-shrink: 0;
+    }
+    #sidebar-panel.open {
+      width: 460px;
+      border-left: 1px solid rgba(184,146,42,0.15);
+    }
+
+    #sidebar-tabs {
+      flex-shrink: 0;
+      display: flex;
+      background: #08141F;
+      border-bottom: 1px solid rgba(184,146,42,0.15);
+      padding: 0 8px;
+    }
+    .sidebar-tab {
+      padding: 8px 14px;
+      background: none;
+      border: none;
+      border-bottom: 2px solid transparent;
+      color: rgba(247,241,232,0.4);
+      font-family: 'Jost', sans-serif;
+      font-size: 10.5px;
+      font-weight: 600;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      cursor: pointer;
+      white-space: nowrap;
+      transition: color 0.15s, border-color 0.15s;
+    }
+    .sidebar-tab:hover { color: var(--gold-light); }
+    .sidebar-tab.active { color: var(--gold-light); border-bottom-color: var(--gold); }
+
+    #sidebar-sections {
+      flex: 1;
+      overflow: hidden;
+      position: relative;
+    }
+    .sidebar-section {
+      display: none;
+      flex-direction: column;
+      position: absolute;
+      inset: 0;
+      overflow: hidden;
+    }
+    .sidebar-section.active { display: flex; }
+
+    #commentary-title-bar {
+      flex-shrink: 0;
+      padding: 10px 14px 9px;
+      border-bottom: 1px solid rgba(184,146,42,0.2);
+    }
+    #commentary-title {
+      display: block;
+      font-size: 8.5px;
+      font-weight: 700;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      color: rgba(184,146,42,0.55);
+      margin-bottom: 2px;
+      font-family: 'Jost', sans-serif;
+    }
+    #commentary-source {
+      font-size: 10px;
+      color: rgba(247,241,232,0.35);
+      font-style: italic;
+      font-family: 'Jost', sans-serif;
+    }
+    #commentary-body {
+      overflow-y: auto;
+      overscroll-behavior-y: none;
+      padding: 10px 14px 16px;
+      flex: 1;
+    }
+    #commentary-loading {
+      font-size: 11px;
+      color: rgba(247,241,232,0.35);
+      padding: 8px 0;
+      font-family: 'Jost', sans-serif;
+    }
+    #commentary-intro {
+      font-size: 11.5px;
+      line-height: 1.65;
+      color: rgba(247,241,232,0.6);
+      font-style: italic;
+      border-bottom: 1px solid rgba(255,255,255,0.06);
+      padding-bottom: 10px;
+      margin-bottom: 10px;
+    }
+    #commentary-intro:empty { display: none; }
+    .comm-note {
+      margin-bottom: 10px;
+      padding-bottom: 10px;
+      border-bottom: 1px solid rgba(255,255,255,0.05);
+    }
+    .comm-note:last-child { border-bottom: none; margin-bottom: 0; }
+    .comm-ref {
+      font-size: 9.5px;
+      font-weight: 700;
+      letter-spacing: 0.06em;
+      color: var(--gold-light);
+      margin-bottom: 4px;
+      font-family: 'Jost', sans-serif;
+    }
+    .comm-text {
+      font-size: 11.5px;
+      line-height: 1.65;
+      color: rgba(247,241,232,0.75);
+    }
+    .comm-text em { color: rgba(247,241,232,0.95); font-style: italic; }
+    .xref-link {
+      color: var(--gold-light);
+      text-decoration-line: underline;
+      text-decoration-style: dotted;
+      text-decoration-color: rgba(184,146,42,0.45);
+      cursor: default;
+    }
+    .xref-link:hover {
+      color: var(--gold);
+      text-decoration-style: solid;
+      text-decoration-color: var(--gold);
+    }
+    #xref-tooltip {
+      position: fixed;
+      z-index: 700;
+      background: #112030;
+      border: 1px solid rgba(184,146,42,0.3);
+      border-radius: 4px;
+      padding: 9px 13px 10px;
+      max-width: 260px;
+      pointer-events: none;
+      opacity: 0;
+      transition: opacity 0.14s ease;
+      box-shadow: 0 8px 24px rgba(0,0,0,0.45);
+    }
+    #xref-tooltip.visible { opacity: 1; }
+    .xref-tt-ref {
+      font-family: 'Jost', sans-serif;
+      font-size: 9px;
+      font-weight: 700;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: var(--gold-light);
+      margin-bottom: 6px;
+    }
+    .xref-tt-text {
+      font-family: 'EB Garamond', Georgia, serif;
+      font-size: 13px;
+      line-height: 1.6;
+      color: rgba(247,241,232,0.82);
+      white-space: normal;
+    }
+    #default-trans-row {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      padding: 7px 12px 7px;
+      border-bottom: 1px solid rgba(255,255,255,0.06);
+      flex-shrink: 0;
+    }
+    #default-trans-row label {
+      font-family: 'Jost', sans-serif;
+      font-size: 9px;
+      font-weight: 600;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: rgba(247,241,232,0.35);
+      flex-shrink: 0;
+      white-space: nowrap;
+    }
+    #default-trans-sel {
+      font-size: 11px;
+      font-family: 'Jost', sans-serif;
+      background: rgba(255,255,255,0.05);
+      border: 1px solid rgba(255,255,255,0.1);
+      border-radius: 3px;
+      color: rgba(247,241,232,0.72);
+      padding: 2px 5px;
+      flex: 1;
+      min-width: 0;
+      cursor: pointer;
+    }
+    #default-trans-sel:focus { outline: none; border-color: rgba(184,146,42,0.5); }
+    #commentary-empty {
+      font-size: 11px;
+      color: rgba(247,241,232,0.3);
+      padding: 8px 0;
+      font-family: 'Jost', sans-serif;
+    }
+    #btn-commentary.comm-open {
+      background: rgba(184,146,42,0.15);
+      border-color: rgba(184,146,42,0.4);
+      color: var(--gold-light);
+    }
+
+    /* ===== READER LAYOUT ===== */
+    #okuyucu_layout {
+      flex: 1;
+      display: flex;
+      overflow: hidden;
+      background: var(--navy-deep);
+      gap: 2px;
+      padding: 2px;
+    }
+
+    /* ===== TRANSLATION COLUMN ===== */
+    .col {
+      flex: 1;
+      min-width: 0;
+      display: flex;
+      flex-direction: column;
+      overflow: hidden;
+    }
+
+    .col-header {
+      flex-shrink: 0;
+      background: var(--navy);
+      border-bottom: 1px solid rgba(184,146,42,0.2);
+      padding: 5px 12px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      cursor: grab;
+      user-select: none;
+      transition: background 0.12s;
+    }
+    .col-header:active { cursor: grabbing; }
+    .col-header:hover { background: rgba(27,58,84,0.9); }
+    .col-abbr {
+      font-family: 'Jost', sans-serif;
+      font-size: 10.5px;
+      font-weight: 700;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+      color: var(--gold-light);
+    }
+    .col-drag-handle {
+      opacity: 0.35;
+      margin-right: 7px;
+      font-size: 11px;
+      line-height: 1;
+      letter-spacing: 0.05em;
+      color: var(--gold-light);
+      flex-shrink: 0;
+    }
+    .col-header:hover .col-drag-handle { opacity: 0.7; }
+    /* Drop indicator: vertical line on left or right edge of target column */
+    .col.drop-left  { box-shadow: -3px 0 0 0 var(--gold); }
+    .col.drop-right { box-shadow:  3px 0 0 0 var(--gold); }
+    /* Dragged column fades */
+    .col.col-dragging { opacity: 0.35; }
+
+    /* ===== COLUMN INFO POPUP ===== */
+    #col-info-popup {
+      position: fixed;
+      z-index: 250;
+      background: #0f1f2e;
+      border: 1px solid rgba(184,146,42,0.3);
+      border-radius: 3px;
+      box-shadow: 0 10px 36px rgba(0,0,0,0.7), 0 0 0 1px rgba(184,146,42,0.06);
+      padding: 14px 16px 13px;
+      min-width: 200px;
+      max-width: 300px;
+      display: none;
+      font-family: 'Jost', sans-serif;
+    }
+    #col-info-popup.open { display: block; }
+    .cip-abbr {
+      font-size: 8.5px;
+      font-weight: 700;
+      letter-spacing: 0.2em;
+      color: var(--gold);
+      text-transform: uppercase;
+      margin-bottom: 5px;
+    }
+    .cip-name {
+      font-family: 'EB Garamond', serif;
+      font-size: 15.5px;
+      color: var(--cream);
+      line-height: 1.3;
+      margin-bottom: 3px;
+    }
+    .cip-year {
+      font-size: 9px;
+      color: rgba(184,146,42,0.6);
+      letter-spacing: 0.1em;
+      margin-bottom: 10px;
+    }
+    .cip-credit {
+      font-size: 10.5px;
+      color: rgba(247,241,232,0.45);
+      line-height: 1.65;
+      border-top: 1px solid rgba(255,255,255,0.06);
+      padding-top: 9px;
+    }
+
+    /* Column content — the actual reading pane */
+    .col-content {
+      flex: 1;
+      overflow-y: auto;
+      position: relative;
+      background: var(--cream);
+      padding: 20px 18px 200vh;
+      font-family: 'EB Garamond', Georgia, serif;
+      color: var(--ink);
+      font-size: 17px;
+      line-height: 1.78;
+    }
+
+    /* Chapter block */
+    .chapter {
+      margin-bottom: 32px;
+    }
+
+    .chapter-num {
+      font-family: 'EB Garamond', serif;
+      font-size: 52px;
+      font-weight: 400;
+      line-height: 1;
+      color: var(--navy);
+      margin-bottom: 2px;
+      letter-spacing: -0.02em;
+    }
+
+    .chapter-title {
+      font-family: 'Jost', sans-serif;
+      font-size: 9px;
+      font-weight: 600;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      color: var(--stone);
+      margin-bottom: 14px;
+      padding-bottom: 8px;
+      border-bottom: 1px solid rgba(27,58,84,0.12);
+    }
+
+    /* Section heading within chapter */
+    .section-head {
+      font-family: 'Jost', sans-serif;
+      font-size: 8.5px;
+      font-weight: 600;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      color: var(--gold);
+      margin: 16px 0 8px;
+    }
+
+    /* Verse */
+    .verse {
+      display: flex;
+      gap: 5px;
+      align-items: baseline;
+      margin-bottom: 2px;
+    }
+
+    .vn {
+      font-family: 'Jost', sans-serif;
+      font-size: 8.5px;
+      font-weight: 700;
+      color: var(--gold);
+      min-width: 14px;
+      flex-shrink: 0;
+      padding-top: 0.18em;
+      line-height: 1.72;
+      letter-spacing: 0.05em;
+      text-align: right;
+      opacity: 0.7;
+    }
+
+    .vt {
+      font-size: 16.5px;
+      line-height: 1.78;
+      color: #1a1611;
+      font-variant-numeric: oldstyle-nums;
+    }
+
+    /* Footnote / italicized phrases */
+    .vt em {
+      font-style: italic;
+      color: #3a3025;
+    }
+
+    /* Greek columns (NA27 / SBLGNT, LXX) */
+    :root { --gk-font: 'New York', ui-serif, 'Cardo', Georgia, serif; }
+    .col[data-greek] .col-content {
+      font-family: var(--gk-font);
+      font-size: 15px;
+      line-height: 2.0;
+    }
+    .col[data-greek] .vt {
+      font-size: 15px;
+      line-height: 2.0;
+    }
+
+    /* Greek font picker */
+    .gkfp-wrap {
+      position: relative;
+      padding: 4px 8px 8px;
+    }
+    .gkfp-btn {
+      width: 100%;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      padding: 7px 10px;
+      background: rgba(255,255,255,0.04);
+      border: 1px solid rgba(184,146,42,0.25);
+      border-radius: 3px;
+      cursor: pointer;
+      user-select: none;
+      transition: border-color 0.15s, background 0.15s;
+    }
+    .gkfp-btn:hover { border-color: rgba(184,146,42,0.55); background: rgba(184,146,42,0.07); }
+    .gkfp-btn .gkfp-preview-text {
+      font-size: 17px;
+      color: rgba(247,241,232,0.9);
+      line-height: 1;
+      font-family: var(--gk-font);
+      font-style: italic;
+      flex-shrink: 0;
+      min-width: 60px;
+    }
+    .gkfp-btn .gkfp-label {
+      flex: 1;
+      font-size: 11px;
+      color: rgba(247,241,232,0.65);
+      text-align: left;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+    .gkfp-btn .gkfp-arrow {
+      font-size: 9px;
+      color: rgba(247,241,232,0.35);
+      flex-shrink: 0;
+    }
+    .gkfp-dropdown {
+      display: none;
+      position: absolute;
+      left: 8px; right: 8px;
+      top: calc(100% - 4px);
+      background: #161a1f;
+      border: 1px solid rgba(184,146,42,0.3);
+      border-radius: 3px;
+      z-index: 9999;
+      max-height: 260px;
+      overflow-y: auto;
+      box-shadow: 0 8px 24px rgba(0,0,0,0.55);
+    }
+    .gkfp-dropdown.open { display: block; }
+    .gkfp-option {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      padding: 8px 10px;
+      cursor: pointer;
+      border-bottom: 1px solid rgba(255,255,255,0.04);
+      transition: background 0.1s;
+    }
+    .gkfp-option:last-child { border-bottom: none; }
+    .gkfp-option:hover { background: rgba(184,146,42,0.1); }
+    .gkfp-option.selected { background: rgba(184,146,42,0.15); }
+    .gkfp-option .go-preview {
+      font-size: 16px;
+      color: rgba(247,241,232,0.9);
+      line-height: 1;
+      min-width: 60px;
+      flex-shrink: 0;
+    }
+    .gkfp-option .go-name {
+      font-size: 11px;
+      color: rgba(247,241,232,0.55);
+      font-family: 'Jost', sans-serif;
+    }
+    .gkfp-option.selected .go-name { color: rgba(247,241,232,0.9); }
+
+    /* RTL columns (Hebrew / ancient language texts) */
+    .col[data-rtl] .col-content {
+      direction: rtl;
+      font-family: 'Noto Serif Hebrew', 'SBL Hebrew', 'Ezra SIL', serif;
+      font-size: 15px;
+      line-height: 2.1;
+    }
+    .col[data-rtl] .vt {
+      font-size: 15px;
+      line-height: 2.1;
+    }
+    .col[data-rtl] .vn {
+      direction: ltr;
+      text-align: left;
+      order: 1;
+      padding-right: 0;
+      padding-left: 4px;
+    }
+
+    /* Quote blocks */
+    blockquote.verse-quote {
+      margin: 8px 0 8px 18px;
+      padding-left: 10px;
+      border-left: 2px solid rgba(0,0,0,0.12);
+      font-style: italic;
+    }
+
+    /* ===== LOADING / UNAVAILABLE STATES ===== */
+    .col-loading, .col-unavailable {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100%;
+      font-family: 'Jost', sans-serif;
+      font-size: 11px;
+      color: var(--stone);
+      letter-spacing: 0.08em;
+      text-align: center;
+      padding: 20px;
+    }
+
+    .col-note {
+      display: flex;
+      align-items: flex-start;
+      justify-content: center;
+      height: 100%;
+      padding: 64px 28px 30px;
+    }
+    .col-note p {
+      font-family: 'EB Garamond', Georgia, serif;
+      font-size: 13.5px;
+      color: var(--stone);
+      text-align: center;
+      line-height: 1.72;
+      max-width: 380px;
+      font-style: italic;
+    }
+    .col-loading::after {
+      content: 'Yükleniyor…';
+      animation: pulse 1.2s ease-in-out infinite;
+    }
+    @keyframes pulse { 0%,100%{opacity:.4} 50%{opacity:1} }
+
+    /* ===== DARK THEME ===== */
+    body.theme-dark .col-content {
+      background: #0e1e2c;
+      color: #d4c9b8;
+    }
+    body.theme-dark .vt { color: #c8bba8; }
+    body.theme-dark .vt em { color: #a89880; }
+    body.theme-dark .chapter-num { color: #5a8ab0; }
+    body.theme-dark .col-header { background: #0b1824; border-bottom-color: rgba(184,146,42,0.15); }
+
+    /* ===== SEPIA THEME ===== */
+    body.theme-sepia .col-content { background: #f0e6d0; }
+    body.theme-sepia .vt { color: #2c1f0e; }
+
+    /* ===== FONT SIZES ===== */
+    body.fz-small  .col-content { font-size: 14.5px;  line-height: 1.72; }
+    body.fz-large  .col-content { font-size: 20px;    line-height: 1.82; }
+    body.fz-small  .vt          { font-size: 14px; }
+    body.fz-large  .vt          { font-size: 19.5px; }
+
+    /* ===== HIDE VERSE/CHAPTER NUMBERS ===== */
+    body.hide-vn .vn          { display: none; }
+    body.hide-vn .chapter-num { display: none; }
+
+    /* ===== HIDE SECTION HEADINGS ===== */
+    body.hide-heads .section-head { display: none; }
+    body.hide-heads .chapter-title { display: none; }
+
+    /* ===== VERSE HOVER / SELECTION ===== */
+    .verse {
+      border-radius: 2px;
+      cursor: default;
+      transition: background 0.08s;
+    }
+    .verse.v-hover {
+      background: rgba(184, 146, 42, 0.13);
+    }
+    .verse.v-selected {
+      background: rgba(15, 36, 55, 0.13);
+    }
+    .verse.v-selected .vn {
+      color: var(--navy);
+      opacity: 1;
+    }
+    body.theme-dark .verse.v-hover    { background: rgba(184, 146, 42, 0.18); }
+    body.theme-dark .verse.v-selected { background: rgba(90, 138, 176, 0.22); }
+    body.theme-dark .verse.v-selected .vn { color: #7ab0d4; opacity: 1; }
+
+    /* ===== LAYOUT MODES ===== */
+    /* Grid mode */
+    #okuyucu_layout.layout-grid {
+      display: grid;
+      grid-template-columns: repeat(var(--grid-cols, 3), 1fr);
+      grid-auto-rows: 1fr;
+    }
+    #okuyucu_layout.layout-grid .col { min-height: 0; }
+
+    /* Rows mode — each translation gets an equal horizontal band, scrolls internally */
+    #okuyucu_layout.layout-rows {
+      flex-direction: column;
+      overflow: hidden;
+    }
+    #okuyucu_layout.layout-rows .col {
+      flex: 1;
+      min-height: 0;
+      width: 100%;
+    }
+    #okuyucu_layout.layout-rows .col-content {
+      overflow-y: auto;
+      flex: 1;
+      height: 0;
+    }
+
+    /* Book reading mode — verses flow as continuous inline text */
+    #okuyucu_layout.layout-book .verse {
+      display: inline;
+      margin: 0;
+      gap: 0;
+    }
+    #okuyucu_layout.layout-book .vn {
+      display: inline;
+      font-size: 7px;
+      font-weight: 700;
+      vertical-align: super;
+      line-height: 0;
+      padding: 0;
+      min-width: 0;
+      margin-right: 1px;
+      color: var(--gold);
+      opacity: 0.75;
+    }
+    #okuyucu_layout.layout-book .vt {
+      display: inline;
+    }
+    #okuyucu_layout.layout-book .chapter {
+      padding: 1.2rem 1.4rem 2rem;
+    }
+    #okuyucu_layout.layout-book .chapter-num {
+      display: block;
+      margin-bottom: 0.75rem;
+    }
+    #okuyucu_layout.layout-book .section-head {
+      display: block;
+      margin-top: 1rem;
+      margin-bottom: 0.25rem;
+    }
+    /* small breathing space after each verse so words don't run together */
+    #okuyucu_layout.layout-book .verse::after {
+      content: ' ';
+    }
+    /* hide-vn / hide-heads must override layout-book display:inline */
+    body.hide-vn #okuyucu_layout.layout-book .vn { display: none; }
+    body.hide-vn #okuyucu_layout.layout-book .chapter-num { display: none; }
+    body.hide-heads #okuyucu_layout.layout-book .section-head { display: none; }
+    body.hide-heads #okuyucu_layout.layout-book .chapter-title { display: none; }
+
+    /* ===== PANELS ===== */
+    .panel {
+      position: fixed;
+      z-index: 200;
+      background: #111f2c;
+      border: 1px solid rgba(184,146,42,0.22);
+      border-radius: 3px;
+      box-shadow: 0 12px 40px rgba(0,0,0,0.6);
+      display: none;
+      flex-direction: column;
+      font-family: 'Jost', sans-serif;
+      min-width: 220px;
+    }
+    .panel.open { display: flex; }
+
+    .panel-section {
+      padding: 10px 14px 12px;
+      border-bottom: 1px solid rgba(255,255,255,0.06);
+    }
+    .panel-section:last-child { border-bottom: none; }
+
+    .panel-section-title {
+      font-size: 8.5px;
+      font-weight: 700;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      color: rgba(184,146,42,0.55);
+      margin-bottom: 9px;
+    }
+
+    .panel-row-group {
+      display: flex;
+      flex-direction: column;
+      gap: 2px;
+    }
+
+    .panel-option {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      padding: 4px 6px;
+      border-radius: 2px;
+      cursor: pointer;
+      font-size: 11.5px;
+      color: rgba(247,241,232,0.65);
+      transition: background 0.1s, color 0.1s;
+      user-select: none;
+    }
+    .panel-option:hover { background: rgba(184,146,42,0.1); color: var(--gold-light); }
+    .panel-option input { accent-color: var(--gold); cursor: pointer; flex-shrink: 0; }
+    .panel-option.active { color: rgba(247,241,232,0.95); }
+
+    /* ===== BOOK PANEL ===== */
+    #panel-books { width: 380px; }
+    #panel-books .panel-section { padding: 8px 10px 10px; }
+
+    .books-testament-label {
+      font-size: 8px;
+      font-weight: 700;
+      letter-spacing: 0.22em;
+      text-transform: uppercase;
+      color: rgba(184,146,42,0.5);
+      padding: 6px 4px 4px;
+    }
+
+    .books-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      gap: 1px;
+    }
+
+    .book-btn {
+      padding: 5px 7px;
+      background: transparent;
+      border: none;
+      color: rgba(247,241,232,0.6);
+      font-size: 10.5px;
+      font-family: 'Jost', sans-serif;
+      cursor: pointer;
+      text-align: left;
+      border-radius: 2px;
+      transition: background 0.1s, color 0.1s;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+    .book-btn:hover { background: rgba(184,146,42,0.12); color: var(--gold-light); }
+    .book-btn.active { color: var(--gold-light); font-weight: 600; background: rgba(184,146,42,0.07); }
+
+    /* ===== TRANSLATION PANEL ===== */
+    #panel-translations { width: 300px; max-height: 70vh; }
+
+    /* Preset category buttons */
+    #trans-presets-bar {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 5px;
+      padding: 10px 12px 9px;
+      border-bottom: 1px solid rgba(255,255,255,0.07);
+    }
+    .preset-btn {
+      padding: 3px 10px;
+      background: rgba(255,255,255,0.05);
+      border: 1px solid rgba(255,255,255,0.1);
+      border-radius: 10px;
+      color: rgba(247,241,232,0.5);
+      font-family: 'Jost', sans-serif;
+      font-size: 10px;
+      font-weight: 500;
+      letter-spacing: 0.04em;
+      cursor: pointer;
+      white-space: nowrap;
+      transition: background 0.12s, color 0.12s, border-color 0.12s;
+    }
+    .preset-btn:hover {
+      background: rgba(184,146,42,0.12);
+      border-color: rgba(184,146,42,0.3);
+      color: var(--gold-light);
+    }
+    .preset-btn.active {
+      background: rgba(184,146,42,0.2);
+      border-color: rgba(184,146,42,0.55);
+      color: var(--gold-light);
+    }
+
+    /* Favorite star button inside each translation row */
+    .fav-star {
+      background: none;
+      border: none;
+      color: rgba(255,255,255,0.2);
+      font-size: 13px;
+      cursor: pointer;
+      padding: 0 2px;
+      line-height: 1;
+      flex-shrink: 0;
+      transition: color 0.12s, transform 0.1s;
+    }
+    .fav-star:hover { color: var(--gold-light); transform: scale(1.2); }
+    .fav-star.fav-on { color: var(--gold); }
+
+    #trans-bulk-bar {
+      display: flex;
+      gap: 5px;
+      padding: 0 12px 9px;
+      border-bottom: 1px solid rgba(255,255,255,0.07);
+    }
+    .bulk-btn {
+      flex: 1;
+      padding: 4px 8px;
+      background: rgba(255,255,255,0.04);
+      border: 1px solid rgba(255,255,255,0.08);
+      border-radius: 4px;
+      color: rgba(247,241,232,0.4);
+      font-family: 'Jost', sans-serif;
+      font-size: 9.5px;
+      font-weight: 500;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+      cursor: pointer;
+      transition: background 0.12s, color 0.12s, border-color 0.12s;
+    }
+    .bulk-btn:hover {
+      background: rgba(255,255,255,0.08);
+      border-color: rgba(255,255,255,0.18);
+      color: rgba(247,241,232,0.75);
+    }
+
+    .trans-item {
+      display: flex;
+      align-items: center;
+      gap: 9px;
+      padding: 6px 14px;
+      border-bottom: 1px solid rgba(255,255,255,0.04);
+      cursor: pointer;
+      transition: background 0.1s;
+      user-select: none;
+    }
+    .trans-item:last-child { border-bottom: none; }
+    .trans-item:hover { background: rgba(184,146,42,0.07); }
+    .trans-item.unavailable { opacity: 0.35; cursor: default; pointer-events: none; }
+    .trans-item input[type="checkbox"] { accent-color: var(--gold); flex-shrink: 0; cursor: pointer; }
+
+    .trans-abbr {
+      font-size: 9px;
+      font-weight: 700;
+      letter-spacing: 0.08em;
+      color: var(--gold-light);
+      min-width: 72px;
+      flex-shrink: 0;
+    }
+    .trans-meta { flex: 1; min-width: 0; }
+    .trans-name {
+      font-size: 11px;
+      color: rgba(247,241,232,0.75);
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+    .trans-year { font-size: 9px; color: rgba(247,241,232,0.28); letter-spacing: 0.06em; }
+
+    .trans-group-label {
+      font-size: 8px;
+      font-weight: 700;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      color: rgba(184,146,42,0.5);
+      padding: 8px 14px 4px;
+      background: rgba(0,0,0,0.15);
+    }
+
+    /* ===== TRANSLATION CATEGORY ACCORDION ===== */
+    #panel-translations { overflow: hidden; }
+    #trans-presets-bar { flex-shrink: 0; }
+    #trans-cat-list { flex: 1; overflow-y: auto; min-height: 0; }
+
+    .trans-cat { border-bottom: 1px solid rgba(255,255,255,0.05); }
+    .trans-cat:last-child { border-bottom: none; }
+
+    .trans-cat-header {
+      display: flex;
+      align-items: center;
+      gap: 0;
+      padding: 0 10px 0 0;
+      min-height: 38px;
+    }
+
+    .trans-cat-toggle {
+      flex: 1;
+      display: flex;
+      align-items: center;
+      gap: 7px;
+      background: none;
+      border: none;
+      color: rgba(247,241,232,0.78);
+      font-family: 'Jost', sans-serif;
+      font-size: 11.5px;
+      font-weight: 500;
+      cursor: pointer;
+      padding: 0 8px 0 14px;
+      min-height: 38px;
+      text-align: left;
+      transition: color 0.1s, background 0.1s;
+    }
+    .trans-cat-toggle:hover { color: var(--gold-light); background: rgba(184,146,42,0.05); }
+
+    .trans-cat-arrow {
+      font-size: 8px;
+      color: rgba(247,241,232,0.25);
+      transition: transform 0.18s cubic-bezier(0.4,0,0.2,1);
+      flex-shrink: 0;
+      margin-right: 1px;
+    }
+    .trans-cat.open .trans-cat-arrow { transform: rotate(180deg); }
+
+    .trans-cat-count {
+      font-size: 8.5px;
+      color: rgba(247,241,232,0.22);
+      font-weight: 400;
+      letter-spacing: 0.01em;
+      margin-left: auto;
+      flex-shrink: 0;
+    }
+    .trans-cat-count.has-sel { color: rgba(184,146,42,0.7); }
+
+    .trans-cat-selall {
+      padding: 3px 10px;
+      background: rgba(255,255,255,0.04);
+      border: 1px solid rgba(255,255,255,0.08);
+      border-radius: 2px;
+      color: rgba(247,241,232,0.35);
+      font-family: 'Jost', sans-serif;
+      font-size: 9px;
+      font-weight: 500;
+      letter-spacing: 0.05em;
+      cursor: pointer;
+      white-space: nowrap;
+      flex-shrink: 0;
+      transition: background 0.12s, color 0.12s, border-color 0.12s;
+    }
+    .trans-cat-selall:hover {
+      background: rgba(184,146,42,0.12);
+      border-color: rgba(184,146,42,0.3);
+      color: var(--gold-light);
+    }
+    .trans-cat-selall.all-on {
+      background: rgba(184,146,42,0.15);
+      border-color: rgba(184,146,42,0.4);
+      color: var(--gold-light);
+    }
+
+    .trans-cat-body { display: none; background: rgba(0,0,0,0.1); }
+    .trans-cat.open .trans-cat-body { display: block; }
+
+    .trans-subcat-label {
+      font-size: 7.5px;
+      font-weight: 700;
+      letter-spacing: 0.22em;
+      text-transform: uppercase;
+      color: rgba(184,146,42,0.4);
+      padding: 7px 14px 3px 22px;
+      background: rgba(0,0,0,0.08);
+    }
+
+
+    /* ===== HERETICAL WARNING MODAL ===== */
+    #heretical-overlay {
+      position: fixed;
+      inset: 0;
+      z-index: 9998;
+      background: rgba(0,0,0,0.72);
+      opacity: 0;
+      pointer-events: none;
+      transition: opacity 0.22s ease;
+    }
+    #heretical-overlay.hw-visible {
+      opacity: 1;
+      pointer-events: auto;
+    }
+    #heretical-warning {
+      position: fixed;
+      top: 50%; left: 50%;
+      z-index: 9999;
+      width: min(480px, 90vw);
+      transform: translate(-50%, -48%) scale(0.93);
+      opacity: 0;
+      pointer-events: none;
+      transition: transform 0.28s cubic-bezier(0.34,1.4,0.64,1), opacity 0.22s ease;
+      background: linear-gradient(160deg, #1e0505 0%, #2e0a0a 100%);
+      border: 1px solid rgba(180,30,30,0.45);
+      box-shadow: 0 24px 64px rgba(0,0,0,0.8), 0 0 0 1px rgba(180,30,30,0.1);
+      padding: 32px 30px 26px;
+    }
+    #heretical-warning.hw-visible {
+      transform: translate(-50%, -50%) scale(1);
+      opacity: 1;
+      pointer-events: auto;
+    }
+    #hw-icon {
+      width: 44px;
+      height: 44px;
+      border-radius: 50%;
+      background: rgba(180,30,30,0.18);
+      border: 1px solid rgba(180,30,30,0.45);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 20px;
+      margin: 0 auto 18px;
+    }
+    #hw-title {
+      font-family: 'Jost', sans-serif;
+      font-size: 10px;
+      font-weight: 700;
+      letter-spacing: 0.22em;
+      text-transform: uppercase;
+      color: #e05555;
+      text-align: center;
+      margin-bottom: 14px;
+    }
+    #hw-text {
+      font-family: 'EB Garamond', Georgia, serif;
+      font-size: 14.5px;
+      color: rgba(240,210,210,0.78);
+      line-height: 1.65;
+      text-align: center;
+      margin-bottom: 24px;
+    }
+    #hw-actions {
+      display: flex;
+      gap: 10px;
+      justify-content: center;
+    }
+    .hw-btn {
+      font-family: 'Jost', sans-serif;
+      font-size: 9.5px;
+      font-weight: 600;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      padding: 7px 20px;
+      border: 1px solid;
+      cursor: pointer;
+      transition: background 0.15s, border-color 0.15s;
+    }
+    #hw-btn-dismiss {
+      color: rgba(240,210,210,0.5);
+      border-color: rgba(240,210,210,0.15);
+      background: transparent;
+    }
+    #hw-btn-dismiss:hover { background: rgba(240,210,210,0.07); }
+    #hw-btn-remove {
+      color: #e05555;
+      border-color: rgba(180,30,30,0.5);
+      background: rgba(180,30,30,0.12);
+    }
+    #hw-btn-remove:hover { background: rgba(180,30,30,0.24); }
+
+    /* ===== SEARCH RESULTS ===== */
+    #search-results {
+      position: fixed;
+      z-index: 300;
+      background: #111f2c;
+      border: 1px solid rgba(184,146,42,0.22);
+      border-top: 2px solid rgba(184,146,42,0.4);
+      border-radius: 0 0 4px 4px;
+      box-shadow: 0 20px 60px rgba(0,0,0,0.75);
+      max-height: 72vh;
+      overflow-y: auto;
+      display: none;
+      font-family: 'Jost', sans-serif;
+      min-width: 360px;
+    }
+    #search-results.open { display: block; }
+
+    .sr-warning {
+      padding: 14px 16px;
+      color: rgba(184,146,42,0.8);
+      font-size: 11px;
+      letter-spacing: 0.04em;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+    .sr-header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 7px 14px;
+      border-bottom: 1px solid rgba(255,255,255,0.07);
+      background: rgba(0,0,0,0.25);
+      position: sticky;
+      top: 0;
+      z-index: 2;
+    }
+    .sr-count {
+      font-size: 9px;
+      color: rgba(247,241,232,0.3);
+      letter-spacing: 0.08em;
+    }
+    .sr-scan-btn {
+      font-size: 9px;
+      font-weight: 600;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: var(--gold-light);
+      background: rgba(184,146,42,0.1);
+      border: 1px solid rgba(184,146,42,0.28);
+      padding: 3px 10px;
+      cursor: pointer;
+      font-family: 'Jost', sans-serif;
+      transition: background 0.15s;
+    }
+    .sr-scan-btn:hover { background: rgba(184,146,42,0.22); }
+    .sr-scan-btn:disabled { opacity: 0.4; cursor: not-allowed; }
+    .sr-empty {
+      padding: 28px 20px;
+      text-align: center;
+      color: rgba(247,241,232,0.28);
+      font-size: 11px;
+      line-height: 1.8;
+      letter-spacing: 0.04em;
+    }
+    .sr-trans-label {
+      font-size: 8px;
+      font-weight: 700;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      color: rgba(184,146,42,0.5);
+      padding: 7px 14px 4px;
+      background: rgba(0,0,0,0.2);
+      position: sticky;
+      top: 32px;
+      z-index: 1;
+    }
+    .sr-result {
+      display: flex;
+      align-items: baseline;
+      gap: 10px;
+      padding: 7px 14px;
+      border-bottom: 1px solid rgba(255,255,255,0.03);
+      cursor: pointer;
+      transition: background 0.1s;
+    }
+    .sr-result:hover { background: rgba(184,146,42,0.09); }
+    .sr-ref {
+      font-size: 9px;
+      font-weight: 600;
+      color: var(--gold-light);
+      letter-spacing: 0.04em;
+      white-space: nowrap;
+      flex-shrink: 0;
+      min-width: 90px;
+    }
+    .sr-text {
+      font-family: 'EB Garamond', Georgia, serif;
+      font-size: 13px;
+      color: rgba(247,241,232,0.6);
+      line-height: 1.5;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+    .sr-text mark {
+      background: rgba(184,146,42,0.35);
+      color: var(--gold-light);
+      border-radius: 1px;
+      padding: 0 1px;
+    }
+    .sr-more {
+      padding: 5px 14px 8px;
+      font-size: 9px;
+      color: rgba(247,241,232,0.2);
+      letter-spacing: 0.06em;
+    }
+    .sr-progress {
+      padding: 8px 14px;
+      font-size: 9px;
+      color: rgba(184,146,42,0.45);
+      letter-spacing: 0.06em;
+      text-align: center;
+      border-bottom: 1px solid rgba(255,255,255,0.05);
+      animation: pulse 1.2s ease-in-out infinite;
+    }
+
+    /* ===== MOBILE TRANSLATION TABS ===== */
+    #mobile-col-tabs {
+      display: none;
+    }
+
+    /* ===== PANEL BACKDROP ===== */
+    #panel-backdrop {
+      display: none;
+      position: fixed;
+      inset: 0;
+      background: rgba(0,0,0,0.5);
+      z-index: 199;
+    }
+    #panel-backdrop.visible { display: block; }
+
+    /* ===== MOBILE BREAKPOINT ===== */
+    @media (max-width: 640px) {
+
+      /* — Header — */
+      #header {
+        height: 50px;
+        padding: 0 10px;
+        gap: 5px;
+      }
+      #logo { margin-right: 4px; }
+      #logo img { height: 26px; }
+      #logo-text { display: none; }
+      #search-wrap { display: none; }
+      #btn-top, #btn-share, #header-links { display: none; }
+
+      .hdr-btn {
+        padding: 0 10px;
+        height: 34px;
+        font-size: 11.5px;
+      }
+      .hdr-nav-arrow {
+        width: 34px;
+        height: 34px;
+        font-size: 16px;
+      }
+
+      /* — Translation tab bar — */
+      #mobile-col-tabs {
+        display: flex;
+        flex-shrink: 0;
+        background: #0d1e2d;
+        border-bottom: 1px solid rgba(184,146,42,0.18);
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
+        scrollbar-width: none;
+      }
+      #mobile-col-tabs::-webkit-scrollbar { display: none; }
+
+      .mob-tab {
+        flex-shrink: 0;
+        padding: 0 16px;
+        height: 36px;
+        background: none;
+        border: none;
+        border-bottom: 2px solid transparent;
+        color: rgba(247,241,232,0.4);
+        font-family: 'Jost', sans-serif;
+        font-size: 11px;
+        font-weight: 600;
+        letter-spacing: 0.1em;
+        text-transform: uppercase;
+        cursor: pointer;
+        transition: color 0.15s, border-color 0.15s;
+        white-space: nowrap;
+      }
+      .mob-tab.active {
+        color: var(--gold-light);
+        border-bottom-color: var(--gold);
+      }
+
+      /* — Single-column reader — */
+      .col { display: none !important; }
+      .col.mob-visible { display: flex !important; }
+
+      /* — Panels: full-width bottom sheet — */
+      .panel {
+        left: 0 !important;
+        right: 0 !important;
+        bottom: 0 !important;
+        top: auto !important;
+        width: 100% !important;
+        max-width: 100% !important;
+        max-height: 75vh;
+        overflow-y: auto;
+        border-radius: 14px 14px 0 0;
+        border-left: none;
+        border-right: none;
+        border-bottom: none;
+      }
+
+      /* Wider book grid on mobile */
+      #panel-books { width: 100% !important; }
+      .books-grid { grid-template-columns: 1fr 1fr 1fr 1fr; }
+      .book-btn { font-size: 11.5px; padding: 7px 5px; }
+
+      /* Wider translation panel */
+      #panel-translations { width: 100% !important; max-height: 65vh; }
+      .trans-item { padding: 9px 14px; }
+
+      /* Wider chapter panel */
+      #panel-chapter { width: 100% !important; }
+
+      /* Sidebar: slide up from bottom on mobile */
+      #sidebar-panel.open {
+        width: 100% !important;
+        position: fixed;
+        inset: auto 0 0 0;
+        height: 75vh;
+        border-left: none;
+        border-top: 1px solid rgba(184,146,42,0.25);
+        border-radius: 14px 14px 0 0;
+        z-index: 190;
+      }
+    }
+    /* ===== KIE1819 INLINE GLOSS TOOLTIPS ===== */
+    .kie-gloss-word {
+      cursor: pointer;
+      text-decoration: underline;
+      text-decoration-style: dotted;
+      text-underline-offset: 3px;
+      text-decoration-color: rgba(44,36,22,0.4);
+    }
+    body.theme-dark .kie-gloss-word  { text-decoration-color: rgba(200,187,168,0.4); }
+    body.theme-sepia .kie-gloss-word { text-decoration-color: rgba(44,31,14,0.4); }
+    .kie-gloss-word:hover {
+      text-decoration-color: rgba(44,36,22,0.75);
+      background: rgba(184,146,42,0.08);
+    }
+
+    #kie-tooltip {
+      position: fixed;
+      z-index: 700;
+      background: #f9f4ec;
+      border: 1px solid rgba(44,36,22,0.18);
+      border-radius: 4px;
+      padding: 8px 13px 9px;
+      font-family: 'Jost', sans-serif;
+      font-size: 12px;
+      line-height: 1.5;
+      color: #2c2416;
+      box-shadow: 0 6px 22px rgba(0,0,0,0.18), 0 1px 4px rgba(0,0,0,0.1);
+      pointer-events: none;
+      opacity: 0;
+      transition: opacity 0.14s ease;
+      white-space: nowrap;
+      max-width: 320px;
+    }
+    #kie-tooltip.visible { opacity: 1; }
+    #kie-tooltip .kie-tt-word {
+      font-family: 'EB Garamond', serif;
+      font-size: 14px;
+      font-weight: 600;
+      color: #1B3A54;
+      margin-right: 4px;
+    }
+    #kie-tooltip .kie-tt-sep {
+      color: rgba(44,36,22,0.35);
+      margin: 0 3px;
+    }
+    #kie-tooltip .kie-tt-gloss {
+      color: #3d2e1a;
+    }
+  </style>
+  <script defer src="/_vercel/insights/script.js"></script>
+  <script defer src="/_vercel/speed-insights/script.js"></script>
+</head>
+<body>
+<div id="layout">
+
+  <!-- ===== HEADER ===== -->
+  <div id="header">
+    <a href="index.html" id="logo">
+      <img src="brand_assets/logo.png" alt="Kutsal Kitap İnceleme" />
+      <div id="logo-text">
+        Kutsal Kitap İnceleme
+      </div>
+    </a>
+
+    <div id="search-wrap">
+      <svg viewBox="0 0 14 14" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round">
+        <circle cx="5.5" cy="5.5" r="4"/><line x1="9" y1="9" x2="13" y2="13"/>
+      </svg>
+      <input id="search-input" type="text" placeholder="arama yapın…" autocomplete="off" />
+    </div>
+
+    <div id="header-controls">
+      <button class="hdr-btn" id="btn-books" title="Kitap seçin">Yuhanna <span style="opacity:.4;font-size:9px;">▾</span></button>
+      <button class="hdr-nav-arrow" id="btn-prev-ch" title="Önceki bölüm">‹</button>
+      <button class="hdr-btn" id="btn-chapter" title="Bölüm seçin" style="min-width:80px;text-align:center;">1. Bölüm</button>
+      <button class="hdr-nav-arrow" id="btn-next-ch" title="Sonraki bölüm">›</button>
+      <button class="hdr-btn" id="btn-translations" title="Çevirileri yönet">Çeviri <span style="opacity:.4;font-size:9px;">▾</span></button>
+      <button class="hdr-btn" id="btn-style" title="Görünüm ayarları">Görünüm <span style="opacity:.4;font-size:9px;">▾</span></button>
+      <button class="hdr-btn" id="btn-commentary" title="Bölüm yorumu">Yorum <span style="opacity:.4;font-size:9px;">▾</span></button>
+    </div>
+    <div id="header-links">
+      <a href="index.html">Karşılaştır</a>
+      <a href="antikdil.html">Dil İnceleme</a>
+      <a href="arama.html">Ayet Ara</a>
+    </div>
+  </div>
+
+  <!-- Mobile translation tab bar (hidden on desktop) -->
+  <div id="mobile-col-tabs"></div>
+
+  <!-- ===== READER WRAPPER (columns + sidebar) ===== -->
+  <div id="reader-wrapper">
+    <div id="okuyucu_layout">
+      <!-- columns built dynamically by rebuildColumns() -->
+    </div><!-- /#okuyucu_layout -->
+
+    <!-- ===== SIDEBAR PANEL ===== -->
+    <div id="sidebar-panel">
+      <div id="sidebar-tabs">
+        <button class="sidebar-tab active" data-section="commentary">📖 Yorum</button>
+        <!-- future tabs: Harita, Notlarım, vb. -->
+      </div>
+      <div id="sidebar-sections">
+        <div class="sidebar-section active" id="sidebar-section-commentary">
+          <div id="commentary-title-bar">
+            <span id="commentary-title">Yorum</span>
+            <span id="commentary-source">Açıklamalı Kutsal Kitap</span>
+          </div>
+          <div id="commentary-body">
+            <div id="commentary-pre-space"></div>
+            <div id="commentary-loading" style="display:none">Yükleniyor…</div>
+            <div id="commentary-intro"></div>
+            <div id="commentary-notes"></div>
+            <div id="commentary-empty" style="display:none">Bu bölüm için yorum bulunamadı.</div>
+            <div id="commentary-post-space"></div>
+          </div>
+        </div>
+      </div>
+    </div><!-- /#sidebar-panel -->
+  </div><!-- /#reader-wrapper -->
+</div><!-- /#layout -->
+
+<!-- ===== PANEL: STYLE ===== -->
+<div class="panel" id="panel-style">
+  <div class="panel-section">
+    <div class="panel-section-title">Tema</div>
+    <div class="panel-row-group">
+      <label class="panel-option active"><input type="radio" name="theme" value="light" checked> Açık</label>
+      <label class="panel-option"><input type="radio" name="theme" value="sepia"> Parşömen</label>
+      <label class="panel-option"><input type="radio" name="theme" value="dark"> Koyu</label>
+    </div>
+  </div>
+  <div class="panel-section">
+    <div class="panel-section-title">Yazı Boyutu</div>
+    <div class="panel-row-group">
+      <label class="panel-option"><input type="radio" name="fontsize" value="small"> Küçük</label>
+      <label class="panel-option active"><input type="radio" name="fontsize" value="normal" checked> Normal</label>
+      <label class="panel-option"><input type="radio" name="fontsize" value="large"> Büyük</label>
+    </div>
+  </div>
+  <div class="panel-section">
+    <div class="panel-section-title">Görünüm</div>
+    <div class="panel-row-group">
+      <label class="panel-option active" id="toggle-vn"><input type="checkbox" id="chk-vn" checked> Ayet numaralarını göster</label>
+      <label class="panel-option active" id="toggle-heads"><input type="checkbox" id="chk-heads" checked> Bölüm başlıklarını göster</label>
+      <label class="panel-option" id="toggle-book"><input type="checkbox" id="chk-book"> Kitap Görünümü</label>
+    </div>
+  </div>
+  <div class="panel-section">
+    <div class="panel-section-title">Yunanca Yazı Tipi</div>
+    <div class="gkfp-wrap" id="gkfp-wrap">
+      <div class="gkfp-btn" id="gkfp-btn">
+        <span class="gkfp-preview-text" id="gkfp-preview-text">Ἀρχή</span>
+        <span class="gkfp-label" id="gkfp-label">New York</span>
+        <span class="gkfp-arrow">▾</span>
+      </div>
+      <div class="gkfp-dropdown" id="gkfp-dropdown"></div>
+    </div>
+  </div>
+  <div class="panel-section">
+    <div class="panel-section-title">Düzen</div>
+    <div class="panel-row-group">
+      <label class="panel-option active"><input type="radio" name="layout" value="cols" checked> Sütun</label>
+      <label class="panel-option"><input type="radio" name="layout" value="rows"> Satır</label>
+      <label class="panel-option"><input type="radio" name="layout" value="grid"> Sütun ve Satır</label>
+    </div>
+  </div>
+</div>
+
+<!-- ===== PANEL: CHAPTERS ===== -->
+<div class="panel" id="panel-chapters">
+  <div class="panel-section" style="padding:8px 10px 12px;max-height:60vh;overflow-y:auto;">
+    <div class="panel-section-title" id="ch-panel-label">Yuhanna — Bölümler</div>
+    <div class="books-grid" id="chapters-grid"></div>
+  </div>
+</div>
+
+<!-- ===== PANEL: BOOKS ===== -->
+<div class="panel" id="panel-books">
+  <div class="panel-section" style="max-height:65vh;overflow-y:auto;padding:8px 10px 12px;">
+    <div class="books-testament-label">Eski Antlaşma</div>
+    <div class="books-grid" id="books-ot"></div>
+    <div class="books-testament-label" style="margin-top:10px;">Yeni Antlaşma</div>
+    <div class="books-grid" id="books-nt"></div>
+  </div>
+</div>
+
+<!-- ===== PANEL: TRANSLATIONS ===== -->
+<div class="panel" id="panel-translations">
+  <div id="trans-presets-bar"><!-- populated by JS --></div>
+  <div id="default-trans-row">
+    <label for="default-trans-sel">Atıf Çevirisi</label>
+    <select id="default-trans-sel"><option value="">— Seçin —</option></select>
+  </div>
+  <div id="trans-cat-list"><!-- populated by buildTransCategories() --></div>
+</div>
+
+<!-- ===== SEARCH RESULTS PANEL ===== -->
+<div id="search-results"></div>
+
+<!-- ===== COLUMN INFO POPUP ===== -->
+<div id="col-info-popup">
+  <div class="cip-abbr"></div>
+  <div class="cip-name"></div>
+  <div class="cip-year"></div>
+  <div class="cip-credit"></div>
+</div>
+
+<!-- ===== HERETICAL WARNING MODAL ===== -->
+<div id="heretical-overlay"></div>
+<div id="heretical-warning">
+  <div id="hw-icon">⚠</div>
+  <div id="hw-title">Güvenilmez Kaynak</div>
+  <div id="hw-text">
+    <strong id="hw-trans-name"></strong>, güvenilir bir çeviri değildir.
+    Bu tercüme sapkın bir öğretiyi temsil etmekte olup Kutsal Kitap metinlerini
+    tahrif ettiği bilinmektedir. Karşılaştırma amacıyla görüntüleyebilirsiniz;
+    ancak öğretici kaynak olarak kullanılması tavsiye edilmez.
+  </div>
+  <div id="hw-actions">
+    <button class="hw-btn" id="hw-btn-remove">Kaldır</button>
+    <button class="hw-btn" id="hw-btn-dismiss">Anladım, Göster</button>
+  </div>
+</div>
+
+<div id="kie-tooltip"><span class="kie-tt-word"></span><span class="kie-tt-sep"> : </span><span class="kie-tt-gloss"></span></div>
+<div id="xref-tooltip"><div class="xref-tt-ref"></div><div class="xref-tt-text"></div></div>
+
+<script>
+  // ── Static data ───────────────────────────────────────────────────────
+  const SEA_BOOKS = new Set(['MAT','MRK','EPH','PHM','1JN']);
+  const SEA_NOTE  = 'Seaman\'ın meâlinin Türkçesi düşük kaliteli olduğu için cildin Matta, Markos, Efesliler, Filemon ve 1. Yuhanna mektubu dışındaki diğer kitaplarının transkripsiyonu yayınlanmamıştır, yayınlandığı taktirde burada paylaşılacaktır.';
+  const BGT_NT_BOOKS = new Set(['MAT','MRK','LUK','JHN','ACT','ROM','1CO','2CO','GAL','EPH','PHP','COL','1TH','2TH','1TI','2TI','TIT','PHM','HEB','JAS','1PE','2PE','1JN','2JN','3JN','JUD','REV']);
+  const BGT_BOOKS = BGT_NT_BOOKS;
+  const BGT_NOTE  = 'İncil BG Türkçe çevirisi yalnızca Yeni Ahit kitaplarını kapsamaktadır.';
+  const TSV_BOOKS = new Set(['PRO']);
+  const TSV_NOTE  = 'Türk Standart Versiyon şu an için yalnızca Süleyman\'ın Özdeyişleri\'ni kapsamaktadır.';
+  const KKDEU_NT_BOOKS = new Set(['MAT','MRK','LUK','JHN','ACT','ROM','1CO','2CO','GAL','EPH','PHP','COL','1TH','2TH','1TI','2TI','TIT','PHM','HEB','JAS','1PE','2PE','1JN','2JN','3JN','JUD','REV']);
+  const KKDEU_NOTE = 'Kutsal Kitap ve Deuterakanonik çevirisi yalnızca Yeni Ahit kitaplarını kapsamaktadır.';
+  const TTT_NT_BOOKS = new Set(['MAT','MRK','LUK','JHN','ACT','ROM','1CO','2CO','GAL','EPH','PHP','COL','1TH','2TH','1TI','2TI','TIT','PHM','HEB','JAS','1PE','2PE','1JN','2JN','3JN','JUD','REV']);
+  const TTT_NOTE = 'Temel Türkçe Tercüme çevirisi yalnızca Yeni Ahit kitaplarını kapsamaktadır.';
+  const KIE1819_NT_BOOKS = new Set(['MAT','MRK','LUK','JHN','ACT','ROM','1CO','2CO','GAL','EPH','PHP','COL','1TH','2TH','1TI','2TI','TIT','PHM','HEB','JAS','1PE','2PE','1JN','2JN','3JN','JUD','REV']);
+  const KIE1819_NOTE = 'Yeni Ahit (Ali Bey, J.D. Kieffer) çevirisi yalnızca Yeni Ahit kitaplarını kapsamaktadır.';
+  const CAN_NT_BOOKS = new Set(['MAT','MRK','LUK','JHN','ACT','ROM','1CO','2CO','GAL','EPH','PHP','COL','1TH','2TH','1TI','2TI','TIT','PHM','HEB','JAS','1PE','2PE','1JN','2JN','3JN','JUD','REV']);
+  const CAN_NOTE     = 'Kutsal İncil (Bünyamin Candemir) çevirisi yalnızca Yeni Ahit kitaplarını kapsamaktadır.';
+  const COS_NT_BOOKS = new Set(['MAT','MRK','LUK','JHN','ACT','ROM','1CO','2CO','GAL','EPH','PHP','COL','1TH','2TH','1TI','2TI','TIT','PHM','HEB','JAS','1PE','2PE','1JN','2JN','3JN','JUD','REV','PRO']);
+  const COS_NOTE     = 'İncil: Sevinç Getirici Haber (Thomas Cosmades) çevirisi yalnızca Süleyman\'ın Özdeyişleri ve Yeni Ahit kitaplarını kapsamaktadır.';
+  const TUR1852_BOOKS = new Set(['GEN','PSA','MAT','MRK','LUK','JHN','ACT','ROM','1CO','2CO','GAL','EPH','PHP','COL','1TH','2TH','1TI','2TI','TIT','PHM','HEB','JAS','1PE','2PE','1JN','2JN','3JN','JUD','REV']);
+  const TUR1852_NOTE  = 'Türabi Efendi / J.W. Redhouse tercümesi (1852–57); Yaratılış, Mezmurlar ve Yeni Ahit\'in tüm kitaplarını kapsamaktadır. Bu bölüm bu tercümede mevcut değil.';
+  const SEL1866_BOOKS = new Set(['GEN','EXO','LEV','NUM','DEU','PSA','ISA','MAT','MRK','LUK','JHN','ACT','ROM','1CO','2CO','GAL','EPH','PHP','COL','1TH','2TH','1TI','2TI','TIT','PHM','HEB','JAS','1PE','2PE','1JN','2JN','3JN','JUD','REV']);
+  const SEL1866_NOTE  = 'Selim Efendi / W. Schauffler tercümesi (1866–77); Tevrat, Mezmurlar, Yeşaya ve Yeni Ahit\'in tüm kitaplarını kapsamaktadır. Bu bölüm bu tercümede mevcut değil.';
+  const HAKK_NT_BOOKS = new Set(['MAT','MRK','LUK','JHN','ACT','ROM','1CO','2CO','GAL','EPH','PHP','COL','1TH','2TH','1TI','2TI','TIT','PHM','HEB','JAS','1PE','2PE','1JN','2JN','3JN','JUD','REV']);
+  const HAKK_NOTE     = 'Halk Dilinde Kutsal Kitap\'ın Eski Ahit bölümü yakında eklenecektir.';
+  const HKTN_BOOKS    = new Set(['MAT','MRK','LUK','JHN','ACT','ROM','1CO','2CO','GAL','EPH','PHP','COL','1TH','2TH','1TI','2TI','TIT','PHM','HEB','JAS','1PE','2PE','1JN','2JN','3JN','JUD','REV']);
+  const HKTN_NOTE     = 'Ekümenik Kutsal Kitap hem Eski Ahit hem de Yeni Ahit\'i kapsamaktadır. Eski Ahit kitapları yakında eklenecektir.';
+  const NSH1739_BOOKS = new Set(['GEN']);
+  const NSH1739_NOTE  = 'NSH1739 çevirisi yalnızca Yaratılış kitabının ilk 4 bölümünü kapsamaktadır.';
+  const MEZ1669_BOOKS = new Set(['PSA']);
+  const MEZ1669_NOTE  = 'MEZ1669 çevirisi yalnızca Mezmurlar kitabının ilk 14 bölümünü kapsamaktadır.';
+  const YYY1987_NT_BOOKS = new Set(['MAT','MRK','LUK','JHN','ACT','ROM','1CO','2CO','GAL','EPH','PHP','COL','1TH','2TH','1TI','2TI','TIT','PHM','HEB','JAS','1PE','2PE','1JN','2JN','3JN','JUD','REV']);
+  const YYY1987_NOTE  = 'İncil: Müjde (1987) çevirisi yalnızca Yeni Antlaşma kitaplarını kapsamaktadır.';
+  const BHS_BOOKS = new Set([
+    'GEN','EXO','LEV','NUM','DEU','JOS','JDG','RUT','1SA','2SA',
+    '1KI','2KI','1CH','2CH','EZR','NEH','EST','JOB','PSA','PRO',
+    'ECC','SNG','ISA','JER','LAM','EZK','DAN','HOS','JOL','AMO',
+    'OBA','JON','MIC','NAH','HAB','ZEP','HAG','ZEC','MAL',
+  ]);
+  const BHS_NOTE  = 'İbranice Eski Antlaşma metni yalnızca Eski Antlaşma kitaplarını kapsamaktadır.';
+  const NA27_NOTE = 'Yunanca Yeni Antlaşma metni (SBLGNT) yalnızca Yeni Antlaşma kitaplarını kapsamaktadır.';
+  const LXX_NOTE  = 'Septuagint (LXX) metni yalnızca Eski Antlaşma kitaplarını kapsamaktadır.';
+
+  const CHAPTER_COUNTS = {
+    'Yaratılış':50,'Mısır\'dan Çıkış':40,'Levililer':27,'Çölde Sayım':36,
+    'Yasa\'nın Tekrarı':34,'Yeşu':24,'Hakimler':21,'Rut':4,
+    '1. Samuel':31,'2. Samuel':24,'1. Krallar':22,'2. Krallar':25,
+    '1. Tarihler':29,'2. Tarihler':36,'Ezra':10,'Nehemya':13,'Ester':10,
+    'Eyüp':42,'Mezmurlar':150,'Süleyman\'ın Özdeyişleri':31,'Vaiz':12,
+    'Ezgiler Ezgisi':8,'Yeşaya':66,'Yeremya':52,'Ağıtlar':5,'Hezekiel':48,
+    'Daniel':12,'Hoşea':14,'Yoel':3,'Amos':9,'Ovadya':1,'Yunus':4,
+    'Mika':7,'Nahum':3,'Habakkuk':3,'Zefanya':3,'Hagay':2,'Zekeriya':14,'Malaki':4,
+    'Matta':28,'Markos':16,'Luka':24,'Yuhanna':21,'Elçilerin İşleri':28,
+    'Romalılar':16,'1. Korintliler':16,'2. Korintliler':13,'Galatyalılar':6,
+    'Efesliler':6,'Filipililer':4,'Koloseliler':4,'1. Selanikliler':5,
+    '2. Selanikliler':3,'1. Timoteos':6,'2. Timoteos':4,'Titus':3,'Filemon':1,
+    'İbraniler':13,'Yakup':5,'1. Petrus':5,'2. Petrus':3,
+    '1. Yuhanna':5,'2. Yuhanna':1,'3. Yuhanna':1,'Yahuda':1,'Vahiy':22,
+  };
+
+  const OT_BOOKS = [
+    'Yaratılış','Mısır\'dan Çıkış','Levililer','Çölde Sayım','Yasa\'nın Tekrarı',
+    'Yeşu','Hakimler','Rut','1. Samuel','2. Samuel','1. Krallar','2. Krallar',
+    '1. Tarihler','2. Tarihler','Ezra','Nehemya','Ester','Eyüp','Mezmurlar',
+    'Süleyman\'ın Özdeyişleri','Vaiz','Ezgiler Ezgisi','Yeşaya','Yeremya',
+    'Ağıtlar','Hezekiel','Daniel','Hoşea','Yoel','Amos','Ovadya','Yunus',
+    'Mika','Nahum','Habakkuk','Zefanya','Hagay','Zekeriya','Malaki'
+  ];
+  const NT_BOOKS = [
+    'Matta','Markos','Luka','Yuhanna','Elçilerin İşleri','Romalılar',
+    '1. Korintliler','2. Korintliler','Galatyalılar','Efesliler','Filipililer',
+    'Koloseliler','1. Selanikliler','2. Selanikliler','1. Timoteos','2. Timoteos',
+    'Titus','Filemon','İbraniler','Yakup','1. Petrus','2. Petrus',
+    '1. Yuhanna','2. Yuhanna','3. Yuhanna','Yahuda','Vahiy'
+  ];
+
+  const TRANS_CREDITS = {
+    'ALI1665':      'Mütercim: Mehmed Ali Bey. Bilinen en eski Türkçe tam İncil el yazması (yakl. 1665).',
+    'JDK1827':      'Mütercim: J.D. Kieffer. British & Foreign Bible Society yayını, 1827.',
+    'TUR1852-57':   'Mütercimler: Türabi Efendi & J.W. Redhouse. BFBS yayını, 1852–57.',
+    'SEL1866-77':   'Mütercimler: Selim Efendi & W. Schauffler. American Bible Society yayını, 1866–77.',
+    'KM1886':       'ABS & BFBS ortak yayını. Osmanlıca Latin harfli baskı, 1886.',
+    'KMEYA':        'Kitabı Mukaddes Şirketi, 1941. Türkiye\'de en yaygın kullanılan standart baskı.',
+    'TCL02':        'Kitabı Mukaddes Şirketi & Yeni Yaşam Yayınları, 2001.',
+    'AREMSI':       'Fondatsiya "AR EM Sİ", 2007. Orta Asya Türkçesi etkili çeviri.',
+    'HKTN':         'Ekümenik ekip çevirisi, 2007. Hem Protestan hem Katolik geleneğini yansıtır.',
+    'YTC':          'Yorumsuz Türkçe Çeviri, 2023. Kaynak metne yüksek bağlılık önceliğiyle hazırlanmıştır.',
+    'HAKK':         'Halk Dilinde Kutsal Kitap, 2024. Günümüz sade Türkçesiyle hazırlanmıştır.',
+    'KIE1819':      'Mütercimler: Ali Bey & J.D. Kieffer. BFBS yayını, 1819.',
+    'YYY1987':      'Kilise kullanımı için hazırlanmış Yeni Ahit çevirisi, 1987.',
+    'CAN':          'Mütercim: Bünyamin Candemir. Yeni Ahit çevirisi, 2003.',
+    'KKDEU':        'Kutsal Kitap ve Deuterakanonik kitaplar dahil ekümenik Yeni Ahit çevirisi, 2003.',
+    'BGT':          'İncil BG Türkçe. Yeni Ahit çevirisi, 2004.',
+    'COS':          'Mütercim: Thomas Cosmades. Süleyman\'ın Özdeyişleri ve Yeni Ahit, 2010.',
+    'TTT':          'Temel Türkçe Tercüme. Yeni Ahit çevirisi, 2023.',
+    'SEA1666':      'Mütercim: William Seaman. 17. yüzyıl Osmanlı Türkçesiyle Yeni Ahit, 1666.',
+    'OTR2019':      'Bible Old Translation Revision, 2019.',
+    'MEZ1669':      'Mütercim: Ali Bey. Osmanlıca manzum mezmurlar, 1669.',
+    'NSH1739':      'Mütercim: N. Şröder. Tekvin\'in ilk bölümleri, 1739.',
+    'TSV':          'Türk Standart Versiyon. Süleyman\'ın Özdeyişleri çevirisi, 2009.',
+    'NWT2008':      '⚠ Yehova Şahitleri (JW.org) çevirisi. Metni sapkın öğretiye uyarlamaktadır.',
+    'NWT2025':      '⚠ Yehova Şahitleri (JW.org) güncelleme baskısı, 2025. Metni sapkın öğretiye uyarlamaktadır.',
+    'ESV':          'English Standard Version. Crossway yayını, 2001. Amerikan Evanjelik Protestan çevirisi.',
+    'KJV':          'King James Version (Authorized Version). 1611. İngilizce Kutsal Kitabın klasik çevirisi.',
+    'NKJV':         'New King James Version. Thomas Nelson yayını, 1982. KJV dilinin modernize edilmiş hâli.',
+    'NIV':          'New International Version. Biblica yayını, 1978 (rev. 2011). Geniş çaplı Evanjelik çeviri.',
+    'NLT':          'New Living Translation. Tyndale House yayını, 1996 (rev. 2015). Düşünce-düşünce çevirisi.',
+    'NET':          'New English Translation (NET Bible). Biblical Press Foundation, 2005. Kapsamlı dipnotlu çeviri.',
+    'CSB':          'Christian Standard Bible. Holman Bible Publishers yayını, 2017. Optimal Denklik yaklaşımı.',
+    'LSB':          'Legacy Standard Bible. Three Sixteen Publishing, 2021. NASB kökenli, sözcük-sözcük çevirisi.',
+    'BHS':          'Biblia Hebraica Stuttgartensia (BHS) temelinde Westminster Leningrad Kodeksi (MS 1008). Niqqud ve te\'amim işaretleriyle tam noktalı Masoretik metin. Kamu malı dijital kaynak (WLC). Eski Antlaşmanın asıl İbranice metni.',
+    'NA27':         'SBL Greek New Testament (SBLGNT, 2010). Nestle-Aland ve diğer eleştirel edisyonlar temel alınarak hazırlanmış, tam vurgulu (politonik) Yeni Antlaşma Yunancası. Society of Biblical Literature tarafından serbest erişime açılmıştır.',
+    'LXX':          'Septuaginta (LXX). İbrani kutsal yazılarının Yunanca çevirisi, MÖ 3.–1. yy. Yetmiş İki Çevirmen geleneğine dayanan ve ilk Hristiyanların kullandığı metin. Rahlfs eleştirel baskısı temel alınmıştır. 151. Mezmur dahil.',
+    'VULG':         'Vulgata Latina (Klementine baskısı, 1592). Aziz Hieronymus tarafından MS 382–405 yılları arasında hazırlanan Latince Kutsal Kitap çevirisi. Orta Çağ Kilisesinin resmî standart metni; Eski Antlaşma İbranice ve Yunancadan, Yeni Antlaşma Yunancadan çevrilmiştir. Ester ve Daniel kitaplarında Deuterokanonik bölümler dahildir.',
+  };
+
+  const TRANSLATIONS = {
+    ancient: [
+      { id:'BHS',  name:'Biblia Hebraica Stuttgartensia',        year:1008, yearLabel:'MS 1008 (Leningrad Kodeksi)',      rtl:true,   loaded:true },
+      { id:'LXX',  name:'Septuaginta (LXX)',                     year:-200,  yearLabel:'MÖ 3.–1. yy. (Rahlfs LXX)',         greek:true, loaded:true },
+      { id:'VULG', name:'Vulgata Latina',                         year:405,  yearLabel:'MS 405 (Hieronymus / Klementine)',                loaded:true },
+      { id:'NA27', name:'SBL Yunanca Yeni Antlaşma (SBLGNT)',    year:400,  yearLabel:'SBLGNT 2010 (Politonik Yunanca)',    greek:true, loaded:true },
+    ],
+    bibleFull: [
+      { id:'ALI1665',  name:'Ali Bey El Yazması',                    year:1665, loaded:true  },
+      { id:'JDK1827',  name:'Eski Ahit (J.D. Kieffer)',              year:1827, loaded:true  },
+      { id:'TUR1852-57', name:'Türabi Efendi / J.W. Redhouse',        year:1852, loaded:true  },
+      { id:'SEL1866-77', name:'Selim Efendi / W. Schauffler',        year:1866, loaded:true  },
+      { id:'KM1886',   name:'Kitab-ı Mukaddes 1886',                 year:1886, loaded:true  },
+      { id:'KMEYA',    name:'Kitab-ı Mukaddes',                      year:1941, loaded:true  },
+      { id:'TCL02',    name:'Yeni Çeviri',                           year:2001, loaded:true  },
+      { id:'AREMSI',   name:'FONDATSİYA "AR EM Sİ"',                 year:2007, loaded:true  },
+      { id:'HKTN',     name:'Ekümenik Kutsal Kitap',                  year:2007, loaded:true   },
+      { id:'YTC',      name:'Yorumsuz Türkçe Çeviri',                 year:2023, loaded:true  },
+      { id:'HAKK',     name:'Halk Dilinde Kutsal Kitap',              year:2024, loaded:true  },
+    ],
+    ntFull: [
+      { id:'KIE1819',  name:'Yeni Ahit (Ali Bey, J.D. Kieffer)',     year:1819, loaded:true  },
+      { id:'YYY1987',  name:'İncil: Müjde (1987)',                    year:1987, loaded:true  },
+      { id:'CAN',      name:'Kutsal İncil (Bünyamin Candemir)',      year:2003, loaded:true  },
+      { id:'KKDEU',    name:'Kutsal Kitap ve Deuterakanonik',        year:2003, loaded:true  },
+      { id:'BGT',      name:'İncil BG Türkçe',                       year:2004, loaded:true  },
+      { id:'COS',      name:'İncil: Sevinç Getirici Haber',         year:2010, loaded:true  },
+      { id:'TTT',      name:'Temel Türkçe Tercüme',                  year:2023, loaded:true  },
+    ],
+    ntPartial: [
+      { id:'SEA1666',  name:'İncil-i Mukaddes (W. Seaman)',          year:1666, loaded:true  },
+      { id:'OTR2019',  name:'Bible Old Translation Revision',        year:2019, loaded:false },
+    ],
+    otPartial: [
+      { id:'MEZ1669',  name:'Ali Bey\'in Musiki Mezmurları',        year:1669, loaded:true  },
+      { id:'NSH1739',  name:'Tekvin (N. Şröder)',                    year:1739, loaded:true  },
+      { id:'TSV',      name:'Türk Standart Versiyon',                year:2009, loaded:true  },
+    ],
+    heretical: [
+      { id:'NWT2008',   name:'Yeni Dünya Çevirisi',                   year:2008, loaded:true  },
+      { id:'NWT2025',   name:'Yeni Dünya Çevirisi (2025)',            year:2025, loaded:true  },
+    ],
+    english: [
+      { id:'KJV',       name:'King James Version',                    year:1611, loaded:true  },
+      { id:'NKJV',      name:'New King James Version',                year:1982, loaded:true  },
+      { id:'ESV',       name:'English Standard Version',              year:2001, loaded:true  },
+      { id:'NIV',       name:'New International Version',             year:2011, loaded:true  },
+      { id:'NLT',       name:'New Living Translation',                year:2015, loaded:true  },
+      { id:'NET',       name:'New English Translation',               year:2005, loaded:true  },
+      { id:'CSB',       name:'Christian Standard Bible',              year:2017, loaded:true  },
+      { id:'LSB',       name:'Legacy Standard Bible',                 year:2021, loaded:true  },
+    ],
+  };
+
+  // Flat lookup: id → translation metadata
+  const ALL_TRANS = {};
+  const TRANS_ORDER = [...TRANSLATIONS.ancient, ...TRANSLATIONS.bibleFull, ...TRANSLATIONS.ntFull, ...TRANSLATIONS.ntPartial, ...TRANSLATIONS.otPartial, ...TRANSLATIONS.heretical, ...TRANSLATIONS.english]
+    .sort((a, b) => a.year - b.year)
+    .map(t => { ALL_TRANS[t.id] = t; return t.id; });
+
+  const BOOK_CODES = {
+    'Matta':'MAT','Markos':'MRK','Luka':'LUK','Yuhanna':'JHN',
+    'Elçilerin İşleri':'ACT','Romalılar':'ROM','1. Korintliler':'1CO',
+    '2. Korintliler':'2CO','Galatyalılar':'GAL','Efesliler':'EPH',
+    'Filipililer':'PHP','Koloseliler':'COL','1. Selanikliler':'1TH',
+    '2. Selanikliler':'2TH','1. Timoteos':'1TI','2. Timoteos':'2TI',
+    'Titus':'TIT','Filemon':'PHM','İbraniler':'HEB','Yakup':'JAS',
+    '1. Petrus':'1PE','2. Petrus':'2PE','1. Yuhanna':'1JN',
+    '2. Yuhanna':'2JN','3. Yuhanna':'3JN','Yahuda':'JUD','Vahiy':'REV',
+    'Yaratılış':'GEN','Mısır\'dan Çıkış':'EXO','Levililer':'LEV',
+    'Çölde Sayım':'NUM','Yasa\'nın Tekrarı':'DEU','Yeşu':'JOS',
+    'Hakimler':'JDG','Rut':'RUT','1. Samuel':'1SA','2. Samuel':'2SA',
+    '1. Krallar':'1KI','2. Krallar':'2KI','1. Tarihler':'1CH',
+    '2. Tarihler':'2CH','Ezra':'EZR','Nehemya':'NEH','Ester':'EST',
+    'Eyüp':'JOB','Mezmurlar':'PSA','Süleyman\'ın Özdeyişleri':'PRO',
+    'Vaiz':'ECC','Ezgiler Ezgisi':'SNG','Yeşaya':'ISA','Yeremya':'JER',
+    'Ağıtlar':'LAM','Hezekiel':'EZK','Daniel':'DAN','Hoşea':'HOS',
+    'Yoel':'JOL','Amos':'AMO','Ovadya':'OBA','Yunus':'JON','Mika':'MIC',
+    'Nahum':'NAH','Habakkuk':'HAB','Zefanya':'ZEP','Hagay':'HAG',
+    'Zekeriya':'ZEC','Malaki':'MAL'
+  };
+
+  // ── Persistence helpers (defined early, before state init) ────────────
+  function _lsGet(k)    { try { return localStorage.getItem(k); } catch { return null; } }
+  function _lsSet(k, v) { try { localStorage.setItem(k, v); }    catch {} }
+  function getFavorites()     { try { return JSON.parse(_lsGet('kkf_favs') || '[]'); } catch { return []; } }
+  function saveFavorites(ids) { _lsSet('kkf_favs', JSON.stringify(ids)); }
+
+  // ── App state ─────────────────────────────────────────────────────────
+  let currentBook    = _lsGet('kkf_book')  || 'Yuhanna';
+  let currentChapter = parseInt(_lsGet('kkf_chap') || '1', 10) || 1;
+  let layoutMode     = 'cols'; // 'cols' | 'rows' | 'grid'
+  // User-defined column order — array of translation IDs; null = use default TRANS_ORDER
+  let colOrder = (() => { try { return JSON.parse(_lsGet('kkf_col_order') || 'null'); } catch { return null; } })();
+  // Default translation for cross-reference navigation
+  let defaultTrans = _lsGet('kkf_default_trans') || null;
+
+  // Init translations: saved state → favorites → default
+  const _initTrans = (() => {
+    try {
+      const t = JSON.parse(_lsGet('kkf_trans') || 'null');
+      if (Array.isArray(t) && t.length > 0) return t;
+    } catch {}
+    const favs = getFavorites();
+    return favs.length > 0 ? favs : ['TCL02', 'KMEYA'];
+  })();
+  const selectedTranslations = new Set(_initTrans);
+  // Validate against known IDs (in case saved data has stale entries)
+  selectedTranslations.forEach(id => { if (!ALL_TRANS[id]) selectedTranslations.delete(id); });
+  if (selectedTranslations.size === 0) { selectedTranslations.add('TCL02'); selectedTranslations.add('KMEYA'); }
+  if (!BOOK_CODES[currentBook]) currentBook = 'Yuhanna';
+
+  // Chapter data cache — key: `${tid}|${bookCode}|${chap}` → verse array
+  const chapterCache = new Map();
+
+  // Search state
+  const searchState = { query: '', scanning: false, timer: null };
+
+  // ── Translation availability helper ──────────────────────────────────
+  function isTransAvailableForBook(tid, bookCode) {
+    if (tid === 'SEA1666'     && !SEA_BOOKS.has(bookCode))       return false;
+    if (tid === 'BGT'         && !BGT_BOOKS.has(bookCode))       return false;
+    if (tid === 'TSV'         && !TSV_BOOKS.has(bookCode))       return false;
+    if (tid === 'KKDEU'       && !KKDEU_NT_BOOKS.has(bookCode))  return false;
+    if (tid === 'TTT'         && !TTT_NT_BOOKS.has(bookCode))    return false;
+    if (tid === 'CAN'         && !CAN_NT_BOOKS.has(bookCode))    return false;
+    if (tid === 'COS'         && !COS_NT_BOOKS.has(bookCode))    return false;
+    if (tid === 'KIE1819'     && !KIE1819_NT_BOOKS.has(bookCode)) return false;
+    if (tid === 'TUR1852-57'  && !TUR1852_BOOKS.has(bookCode))   return false;
+    if (tid === 'SEL1866-77'  && !SEL1866_BOOKS.has(bookCode))   return false;
+    if (tid === 'HAKK'        && !HAKK_NT_BOOKS.has(bookCode))   return false;
+    if (tid === 'HKTN'        && !HKTN_BOOKS.has(bookCode))      return false;
+    if (tid === 'NSH1739'     && !NSH1739_BOOKS.has(bookCode))   return false;
+    if (tid === 'MEZ1669'     && !MEZ1669_BOOKS.has(bookCode))   return false;
+    if (tid === 'YYY1987'     && !YYY1987_NT_BOOKS.has(bookCode)) return false;
+    return true;
+  }
+
+  // ── Grid calculation ──────────────────────────────────────────────────
+  function calcGrid(n) {
+    if (n <= 1) return { cols: 1, rows: 1 };
+    for (let c = Math.ceil(Math.sqrt(n)); c <= n; c++) {
+      const r = Math.ceil(n / c);
+      if (c > r) return { cols: c, rows: r };
+      if (c === r && n % c === 0) return { cols: c, rows: r };
+    }
+    return { cols: n, rows: 1 };
+  }
+
+  // ── Sync engine ───────────────────────────────────────────────────────
+  let versePos = [], verseNums = [], v1offset = [];
+  let leader = null, leaderTimer = null;
+
+  const claimLeadership = col => { leader = col; clearTimeout(leaderTimer); };
+  const scheduleRelease = () => {
+    clearTimeout(leaderTimer);
+    leaderTimer = setTimeout(() => { leader = null; }, 120);
+  };
+
+  function getCols() {
+    return Array.from(document.querySelectorAll('.col-content'));
+  }
+
+  function reinitSync() {
+    requestAnimationFrame(() => {
+      const cols = getCols();
+      versePos = cols.map(col => {
+        const map = {};
+        col.querySelectorAll('.verse[data-v]').forEach(v => {
+          const n = parseInt(v.dataset.v, 10);
+          if (!isNaN(n) && !(n in map)) map[n] = v.offsetTop;
+        });
+        return map;
+      });
+      verseNums = versePos.map(m => Object.keys(m).map(Number).sort((a, b) => a - b));
+      v1offset  = versePos.map((pos, i) => pos[verseNums[i]?.[0]] ?? 0);
+    });
+  }
+
+  function getPosition(cols, colIdx) {
+    const logical = cols[colIdx].scrollTop - v1offset[colIdx];
+    const nums = verseNums[colIdx];
+    const pos  = versePos[colIdx];
+    if (logical < 0) return { logical, verse: null, fraction: 0 };
+    let verse = nums[0], nextVerse = null;
+    for (let i = 0; i < nums.length; i++) {
+      if (pos[nums[i]] - v1offset[colIdx] <= logical + 1) {
+        verse = nums[i]; nextVerse = nums[i + 1] ?? null;
+      } else break;
+    }
+    let fraction = 0;
+    if (nextVerse !== null) {
+      const h = pos[nextVerse] - pos[verse];
+      if (h > 0) fraction = Math.min(1, (logical - (pos[verse] - v1offset[colIdx])) / h);
+    }
+    return { logical: null, verse, fraction };
+  }
+
+  function applyPosition(cols, colIdx, logical, verse, fraction) {
+    if (logical !== null) {
+      cols[colIdx].scrollTop = Math.max(0, v1offset[colIdx] + logical);
+      return;
+    }
+    const pos  = versePos[colIdx];
+    const nums = verseNums[colIdx];
+    let v = verse;
+    if (!(v in pos)) {
+      v = nums.reduce((best, n) =>
+        Math.abs(n - verse) < Math.abs(best - verse) ? n : best, nums[0]);
+      fraction = 0;
+    }
+    const vIdx     = nums.indexOf(v);
+    const verseTop = pos[v] ?? 0;
+    if (vIdx >= 0 && vIdx + 1 < nums.length) {
+      cols[colIdx].scrollTop = verseTop + fraction * (pos[nums[vIdx + 1]] - verseTop);
+    } else {
+      cols[colIdx].scrollTop = verseTop;
+    }
+  }
+
+  function attachSyncListeners() {
+    getCols().forEach(col => {
+      col.addEventListener('wheel',      () => claimLeadership(col), { passive: true });
+      col.addEventListener('touchstart', () => claimLeadership(col), { passive: true });
+      col.addEventListener('scroll', () => {
+        if (leader !== col) return;
+        scheduleRelease();
+        const cols = getCols();
+        const idx  = cols.indexOf(col);
+        if (idx === -1) return;
+        const { logical, verse, fraction } = getPosition(cols, idx);
+        cols.forEach((target, tIdx) => {
+          if (target === col) return;
+          applyPosition(cols, tIdx, logical, verse, fraction);
+        });
+        scheduleCommentaryScroll(verse);
+      }, { passive: true });
+    });
+  }
+
+  // ── Column rendering ──────────────────────────────────────────────────
+  // KIE1819 gloss parser — wraps annotated Ottoman words in tooltip spans.
+  // Handles: all language prefixes (Ar., Fa., E.Tü., Yun., Aram., İbr., Osm., etc.), numbered glosses, (alt) forms, < > :: = delimiters.
+  // Word group uses [^\s.]+ to prevent matching partial lang prefixes (e.g. E. in E.Yun.) as words.
+  // Optional (?:\s*<\s*)? handles "word < LANG. form" format where < leads the annotation.
+  const KIE_GLOSS_RE = /([^\s.]+?)(?:\s*<\s*)?((?:[A-Zİ][a-zğüşöçı]*\.)+(?:\/(?:[A-Zİ][a-zğüşöçı]*\.)+)?\s+(?:[^\s=\[(<>]+|\([^)]+\))+(?:\s+\[[^\]]+\])?(?:\s*\([^)]+\))?(?:(?:\s*=\s*(?:\d+\.\s+)?[^\s,;]+(?:\s*\([^)]+\))?(?:[,;]\s+(?:\d+\.\s+)?[^\s,;]+(?:\s*\([^)]+\))?)*|\s*[<>]\s*(?:\S+\.\s+\S+|\S+)(?:\s*=\s*[^\s,;]+(?:[,;]\s+[^\s,;]+)*)?|\s*::\s*(?:\S+\.\s+\S+|\S+)(?:\s*=\s*[^\s,;]+(?:[,;]\s+[^\s,;]+)*)?)(?:\s*(?:[<>]|::)\s*(?:\S+\.\s+\S+|\S+)(?:\s*=\s*[^\s,;]+(?:[,;]\s+[^\s,;]+)*)?)*)?)/g;
+
+  function parseKieGlosses(text) {
+    // Escape < > & in gloss values so the cleanup passes below don't corrupt data-gloss attributes.
+    // dataset.gloss decodes &lt; back to < for the tooltip display.
+    text = text.replace(KIE_GLOSS_RE, (_, word, gloss) => {
+      const safe = gloss.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
+      return `<span class="kie-gloss-word" data-gloss="${safe}">${word}</span>`;
+    });
+    // Strip remaining annotation chain markers that weren't consumed by the main regex.
+    // Safe: < > in data-gloss are &lt; &gt; and won't be matched by [<>].
+    text = text.replace(/\s+[<>]\s+(?:(?:[A-Zİ][a-zğüşöçı]*\.)+\s+)?[^\s<>&:;,+\[\]"]+(?:\s*=\s*[^\s<>&:;,+\[\]"]+(?:[,;]\s*[^\s<>&:;,+\[\]"]+)*)*/g, '');
+    text = text.replace(/\s+::\s+(?:(?:[A-Zİ][a-zğüşöçı]*\.)+\s+)?[^\s<>&:;,+\[\]"]+(?:\s*=\s*[^\s<>&:;,+\[\]"]+(?:[,;]\s*[^\s<>&:;,+\[\]"]+)*)*/g, '');
+    return text;
+  }
+
+  function renderChapter(container, data, chapterFallback, translationId) {
+    const chDiv = document.createElement('div');
+    chDiv.className = 'chapter';
+    const chNum = data.c ?? chapterFallback ?? currentChapter;
+    chDiv.innerHTML = `<div class="chapter-num">${chNum}</div>${data.title ? `<div class="chapter-title">${data.title}</div>` : ''}`;
+    const verses = data.content.filter(item => !item.section);
+    const isKie = translationId === 'KIE1819';
+    data.content.forEach((item, idx) => {
+      if (item.section) {
+        const s = document.createElement('div');
+        s.className = 'section-head';
+        s.textContent = item.section;
+        chDiv.appendChild(s);
+      } else {
+        const v = document.createElement('div');
+        v.className = 'verse';
+        v.dataset.v = String(item.v);
+        const verseIdx = verses.indexOf(item);
+        const nextVerse = verses[verseIdx + 1];
+        const rangeEnd = nextVerse ? nextVerse.v - 1 : null;
+        const vnLabel = (rangeEnd && rangeEnd > item.v) ? `${item.v}-${rangeEnd}` : String(item.v);
+        const verseText = isKie ? parseKieGlosses(item.text) : item.text;
+        v.innerHTML = `<span class="vn">${vnLabel}</span><span class="vt">${verseText}</span>`;
+        chDiv.appendChild(v);
+      }
+    });
+    container.innerHTML = '';
+    container.appendChild(chDiv);
+  }
+
+  const TRANS_NOTES = {
+    'SEA1666':    [SEA_BOOKS,       SEA_NOTE],
+    'BGT':        [BGT_BOOKS,       BGT_NOTE],
+    'TSV':        [TSV_BOOKS,       TSV_NOTE],
+    'KKDEU':      [KKDEU_NT_BOOKS,  KKDEU_NOTE],
+    'TTT':        [TTT_NT_BOOKS,    TTT_NOTE],
+    'CAN':        [CAN_NT_BOOKS,    CAN_NOTE],
+    'COS':        [COS_NT_BOOKS,    COS_NOTE],
+    'KIE1819':    [KIE1819_NT_BOOKS,KIE1819_NOTE],
+    'TUR1852-57': [TUR1852_BOOKS,   TUR1852_NOTE],
+    'SEL1866-77': [SEL1866_BOOKS,   SEL1866_NOTE],
+    'HAKK':       [HAKK_NT_BOOKS,   HAKK_NOTE],
+    'HKTN':       [HKTN_BOOKS,      HKTN_NOTE],
+    'NSH1739':    [NSH1739_BOOKS,   NSH1739_NOTE],
+    'MEZ1669':    [MEZ1669_BOOKS,   MEZ1669_NOTE],
+    'YYY1987':    [YYY1987_NT_BOOKS, YYY1987_NOTE],
+    'BHS':        [BHS_BOOKS,       BHS_NOTE],
+    'LXX':        [BHS_BOOKS,       LXX_NOTE],
+    'NA27':       [BGT_NT_BOOKS,    NA27_NOTE],
+  };
+
+  async function loadColumn(colEl, translationId, bookCode, chapter) {
+    const container = colEl.querySelector('.col-content');
+    if (!container) return;
+    container.innerHTML = '<div class="col-loading"></div>';
+    try {
+      const res = await fetch(`data/translations/${translationId}/${bookCode}/${chapter}.json`, { cache: 'no-cache' });
+      if (!res.ok) throw new Error('not found');
+      const data = await res.json();
+      // Cache for search
+      chapterCache.set(`${translationId}|${bookCode}|${chapter}`, data.content ?? []);
+      renderChapter(container, data, chapter, translationId);
+    } catch {
+      const entry = TRANS_NOTES[translationId];
+      if (entry && !entry[0].has(bookCode)) {
+        container.innerHTML = `<div class="col-note"><p>${entry[1]}</p></div>`;
+      } else {
+        container.innerHTML = `<div class="col-note"><p>Bu bölüm bu tercümede mevcut değil.</p></div>`;
+      }
+    }
+    reinitSync();
+  }
+
+  function loadAll() {
+    clearVerseState();
+    getCols().forEach(c => { c.scrollTop = 0; });
+    const bookCode = BOOK_CODES[currentBook] ?? 'JHN';
+    document.querySelectorAll('.col[data-translation]').forEach(colEl => {
+      loadColumn(colEl, colEl.dataset.translation, bookCode, currentChapter);
+    });
+  }
+
+  // ── Rebuild columns ───────────────────────────────────────────────────
+  function rebuildColumns() {
+    leader = null;
+    const container = document.getElementById('okuyucu_layout');
+    container.innerHTML = '';
+    container.className = '';
+    container.style.removeProperty('--grid-cols');
+
+    const bookCode = BOOK_CODES[currentBook] ?? 'JHN';
+    const ids = Array.from(selectedTranslations)
+      .filter(tid => isTransAvailableForBook(tid, bookCode))
+      .sort((a, b) => {
+        if (colOrder) {
+          const ai = colOrder.indexOf(a), bi = colOrder.indexOf(b);
+          if (ai !== -1 && bi !== -1) return ai - bi;
+          if (ai !== -1) return -1;
+          if (bi !== -1) return 1;
+        }
+        return TRANS_ORDER.indexOf(a) - TRANS_ORDER.indexOf(b);
+      });
+    const n   = ids.length;
+
+    const effectiveLayout = document.getElementById('chk-book')?.checked ? 'book' : layoutMode;
+    if (effectiveLayout === 'rows') {
+      container.classList.add('layout-rows');
+    } else if (effectiveLayout === 'grid' && n > 1) {
+      const { cols } = calcGrid(n);
+      container.classList.add('layout-grid');
+      container.style.setProperty('--grid-cols', cols);
+    } else if (effectiveLayout === 'book') {
+      container.classList.add('layout-book');
+    }
+    // default ('cols') keeps no extra class
+
+    ids.forEach(tid => {
+      const meta = ALL_TRANS[tid] || { name: tid, year: '' };
+      const col  = document.createElement('div');
+      col.className = 'col';
+      col.dataset.translation = tid;
+      if (meta.rtl)   col.dataset.rtl    = 'true';
+      if (meta.greek) col.dataset.greek  = 'true';
+      col.innerHTML = `
+        <div class="col-header" data-tid="${tid}" draggable="true">
+          <span class="col-drag-handle" aria-hidden="true">⠿</span>
+          <span class="col-abbr">${tid}</span>
+        </div>
+        <div class="col-content"></div>`;
+      container.appendChild(col);
+    });
+
+    attachSyncListeners();
+    attachDragHandlers();
+    loadAll();
+  }
+
+  // ── Column drag-and-drop reordering ───────────────────────────────────
+  function attachDragHandlers() {
+    const container = document.getElementById('okuyucu_layout');
+    let dragSrc = null;
+
+    container.querySelectorAll('.col').forEach(col => {
+      const hdr = col.querySelector('.col-header');
+
+      hdr.addEventListener('dragstart', e => {
+        dragSrc = col;
+        col.classList.add('col-dragging');
+        e.dataTransfer.effectAllowed = 'move';
+        e.dataTransfer.setData('text/plain', col.dataset.translation);
+      });
+
+      hdr.addEventListener('dragend', () => {
+        dragSrc = null;
+        container.querySelectorAll('.col').forEach(c => {
+          c.classList.remove('col-dragging', 'drop-left', 'drop-right');
+        });
+      });
+
+      col.addEventListener('dragover', e => {
+        if (!dragSrc || dragSrc === col) return;
+        e.preventDefault();
+        e.dataTransfer.dropEffect = 'move';
+        const rect = col.getBoundingClientRect();
+        const mid  = rect.left + rect.width / 2;
+        container.querySelectorAll('.col').forEach(c => c.classList.remove('drop-left', 'drop-right'));
+        col.classList.add(e.clientX < mid ? 'drop-left' : 'drop-right');
+      });
+
+      col.addEventListener('dragleave', e => {
+        if (!col.contains(e.relatedTarget)) {
+          col.classList.remove('drop-left', 'drop-right');
+        }
+      });
+
+      col.addEventListener('drop', e => {
+        e.preventDefault();
+        if (!dragSrc || dragSrc === col) return;
+        const rect = col.getBoundingClientRect();
+        const mid  = rect.left + rect.width / 2;
+        const insertBefore = e.clientX < mid;
+
+        // Reorder in DOM
+        if (insertBefore) {
+          container.insertBefore(dragSrc, col);
+        } else {
+          container.insertBefore(dragSrc, col.nextSibling);
+        }
+
+        // Persist new order
+        const newOrder = Array.from(container.querySelectorAll('.col[data-translation]'))
+          .map(c => c.dataset.translation);
+        colOrder = newOrder;
+        _lsSet('kkf_col_order', JSON.stringify(newOrder));
+
+        col.classList.remove('drop-left', 'drop-right');
+      });
+    });
+  }
+
+  // ── Panel helpers ─────────────────────────────────────────────────────
+  let openPanelId = null;
+
+  function togglePanel(panelId, triggerEl) {
+    if (openPanelId === panelId) { closePanel(); return; }
+    closePanel();
+    const panel = document.getElementById(panelId);
+    const rect  = triggerEl.getBoundingClientRect();
+    panel.style.top   = (rect.bottom + 4) + 'px';
+    panel.style.right = Math.max(4, window.innerWidth - rect.right) + 'px';
+    panel.style.left  = 'auto';
+    panel.classList.add('open');
+    openPanelId = panelId;
+  }
+
+  function closePanel() {
+    if (openPanelId) {
+      document.getElementById(openPanelId).classList.remove('open');
+      openPanelId = null;
+    }
+  }
+
+  document.addEventListener('click', e => {
+    if (!e.target.closest('.panel') && !e.target.closest('.hdr-btn')) closePanel();
+  });
+
+  // ── Build chapter panel ───────────────────────────────────────────────
+  function buildChapters(book) {
+    const grid  = document.getElementById('chapters-grid');
+    const label = document.getElementById('ch-panel-label');
+    const total = CHAPTER_COUNTS[book] ?? 1;
+    label.textContent = book + ' — Bölümler';
+    grid.innerHTML = '';
+    for (let i = 1; i <= total; i++) {
+      const btn = document.createElement('button');
+      btn.className = 'book-btn' + (i === currentChapter ? ' active' : '');
+      btn.textContent = i + '. Bölüm';
+      btn.addEventListener('click', () => {
+        currentChapter = i;
+        document.getElementById('btn-chapter').textContent = i + '. Bölüm';
+        grid.querySelectorAll('.book-btn').forEach(x => x.classList.remove('active'));
+        btn.classList.add('active');
+        closePanel();
+        loadAll();
+        saveState();
+      });
+      grid.appendChild(btn);
+    }
+  }
+  buildChapters(currentBook);
+
+  // ── Build book panels ─────────────────────────────────────────────────
+  function buildBooks(containerId, books) {
+    const el = document.getElementById(containerId);
+    books.forEach(b => {
+      const btn = document.createElement('button');
+      btn.className = 'book-btn' + (b === currentBook ? ' active' : '');
+      btn.textContent = b;
+      btn.addEventListener('click', () => {
+        currentBook = b;
+        currentChapter = 1;
+        document.getElementById('btn-books').childNodes[0].textContent = b + ' ';
+        document.getElementById('btn-chapter').textContent = '1. Bölüm';
+        document.getElementById('books-nt').querySelectorAll('.book-btn').forEach(x => x.classList.remove('active'));
+        document.getElementById('books-ot').querySelectorAll('.book-btn').forEach(x => x.classList.remove('active'));
+        btn.classList.add('active');
+        buildChapters(b);
+        closePanel();
+        loadAll();
+        saveState();
+      });
+      el.appendChild(btn);
+    });
+  }
+  buildBooks('books-ot', OT_BOOKS);
+  buildBooks('books-nt', NT_BOOKS);
+
+  // ── Build translation panel — category accordion ─────────────────────
+  const HERETICAL_ID_SET = new Set(TRANSLATIONS.heretical.map(t => t.id));
+
+  const TRANS_CATEGORIES = [
+    {
+      id: 'ottoman', label: 'Osmanlı Türkçesi',
+      subcats: [
+        { label: 'Tam Kutsal Kitap', ids: ['ALI1665','JDK1827','TUR1852-57','SEL1866-77','KM1886','KMEYA'] },
+        { label: 'Yeni Antlaşma',    ids: ['KIE1819'] },
+        { label: 'Kısmi',            ids: ['SEA1666','MEZ1669','NSH1739'] },
+      ]
+    },
+    {
+      id: 'modern', label: 'Modern Türkçe',
+      subcats: [
+        { label: 'Tam Kutsal Kitap', ids: ['TCL02','AREMSI','HKTN','YTC','HAKK'] },
+        { label: 'Yeni Antlaşma',    ids: ['YYY1987','CAN','KKDEU','BGT','COS','TTT'] },
+        { label: 'Kısmi',            ids: ['TSV','OTR2019'] },
+      ]
+    },
+    {
+      id: 'ancient', label: 'Eski Çağlar',
+      subcats: [ { label: null, ids: ['BHS','LXX','VULG','NA27'] } ]
+    },
+    {
+      id: 'english', label: 'English',
+      subcats: [ { label: null, ids: ['KJV','NKJV','ESV','NIV','NLT','NET','CSB','LSB'] } ]
+    },
+    {
+      id: 'heretical', label: 'Sapkın Türkçe Tercümeler',
+      subcats: [ { label: null, ids: ['NWT2008','NWT2025'] } ]
+    },
+  ];
+
+  function _catAllIds(cat) {
+    return cat.subcats.flatMap(sc => sc.ids).filter(id => ALL_TRANS[id]);
+  }
+
+  function updateCatCounts() {
+    document.querySelectorAll('.trans-cat[data-cat-id]').forEach(catEl => {
+      const cat = TRANS_CATEGORIES.find(c => c.id === catEl.dataset.catId);
+      if (!cat) return;
+      const loaded = _catAllIds(cat).filter(id => ALL_TRANS[id]?.loaded);
+      const selCount = loaded.filter(id => selectedTranslations.has(id)).length;
+      const countEl = catEl.querySelector('.trans-cat-count');
+      if (countEl) {
+        countEl.textContent = selCount > 0 ? `${selCount}/${loaded.length}` : loaded.length;
+        countEl.classList.toggle('has-sel', selCount > 0);
+      }
+      const selAllBtn = catEl.querySelector('.trans-cat-selall');
+      if (selAllBtn) {
+        const allOn = loaded.length > 0 && loaded.every(id => selectedTranslations.has(id));
+        selAllBtn.classList.toggle('all-on', allOn);
+        selAllBtn.textContent = allOn ? 'Bırak' : 'Tümü';
+      }
+    });
+  }
+
+  function buildTransItem(tid) {
+    const t = ALL_TRANS[tid];
+    if (!t) return null;
+    const isHeretical = HERETICAL_ID_SET.has(tid);
+    const item = document.createElement('div');
+    item.className = 'trans-item' + (t.loaded ? '' : ' unavailable');
+    const checked = selectedTranslations.has(t.id);
+    item.innerHTML = `
+      <input type="checkbox" ${checked ? 'checked' : ''} ${t.loaded ? '' : 'disabled'}
+             data-tid="${t.id}"${isHeretical ? ' data-heretical="true"' : ''}>
+      <div class="trans-abbr">${t.id}</div>
+      <div class="trans-meta">
+        <div class="trans-name">${t.name}</div>
+        <div class="trans-year">${t.yearLabel ?? t.year}${!t.loaded ? ' — yakında' : ''}</div>
+      </div>`;
+    const star = document.createElement('button');
+    star.className = 'fav-star' + (getFavorites().includes(t.id) ? ' fav-on' : '');
+    star.dataset.tid = t.id;
+    star.textContent = '★';
+    star.title = getFavorites().includes(t.id) ? 'Favorilerden çıkar' : 'Favorilere ekle';
+    star.addEventListener('click', e => { e.stopPropagation(); toggleFavorite(t.id); });
+    item.appendChild(star);
+    if (t.loaded) {
+      item.querySelector('input').addEventListener('change', e => {
+        if (e.target.checked) selectedTranslations.add(t.id);
+        else selectedTranslations.delete(t.id);
+        rebuildColumns();
+        triggerSearch();
+        saveState();
+        syncPresetHighlights();
+        updateCatCounts();
+      });
+    }
+    return item;
+  }
+
+  function buildTransCategories() {
+    const listEl = document.getElementById('trans-cat-list');
+    listEl.innerHTML = '';
+    TRANS_CATEGORIES.forEach(cat => {
+      const loaded = _catAllIds(cat).filter(id => ALL_TRANS[id]?.loaded);
+      const selCount = loaded.filter(id => selectedTranslations.has(id)).length;
+
+      const catEl = document.createElement('div');
+      catEl.className = 'trans-cat';
+      catEl.dataset.catId = cat.id;
+
+      // Header
+      const header = document.createElement('div');
+      header.className = 'trans-cat-header';
+
+      const toggle = document.createElement('button');
+      toggle.className = 'trans-cat-toggle';
+      toggle.innerHTML = `<span class="trans-cat-arrow">▾</span><span class="trans-cat-name">${cat.label}</span><span class="trans-cat-count${selCount > 0 ? ' has-sel' : ''}">${selCount > 0 ? `${selCount}/${loaded.length}` : loaded.length}</span>`;
+      toggle.addEventListener('click', () => catEl.classList.toggle('open'));
+
+      const selAllBtn = document.createElement('button');
+      selAllBtn.className = 'trans-cat-selall';
+      const allOn0 = loaded.length > 0 && loaded.every(id => selectedTranslations.has(id));
+      selAllBtn.textContent = allOn0 ? 'Bırak' : 'Tümü';
+      selAllBtn.classList.toggle('all-on', allOn0);
+      selAllBtn.title = 'Bu kategorideki tüm çevirileri seç / bırak';
+      selAllBtn.addEventListener('click', e => {
+        e.stopPropagation();
+        const allNowOn = loaded.every(id => selectedTranslations.has(id));
+        if (allNowOn) {
+          loaded.forEach(id => selectedTranslations.delete(id));
+        } else {
+          loaded.forEach(id => selectedTranslations.add(id));
+          // Show heretical warning for category-level selection
+          if (cat.id === 'heretical' && window._hereticShowWarning && loaded.length > 0) {
+            window._hereticShowWarning(loaded[0], true);
+          }
+        }
+        syncTranslationUI();
+        rebuildColumns();
+        triggerSearch();
+        saveState();
+        syncPresetHighlights();
+        updateCatCounts();
+      });
+
+      header.appendChild(toggle);
+      header.appendChild(selAllBtn);
+      catEl.appendChild(header);
+
+      // Body
+      const body = document.createElement('div');
+      body.className = 'trans-cat-body';
+      cat.subcats.forEach(sc => {
+        if (sc.label) {
+          const labelEl = document.createElement('div');
+          labelEl.className = 'trans-subcat-label';
+          labelEl.textContent = sc.label;
+          body.appendChild(labelEl);
+        }
+        sc.ids.forEach(id => {
+          const item = buildTransItem(id);
+          if (item) body.appendChild(item);
+        });
+      });
+      catEl.appendChild(body);
+      listEl.appendChild(catEl);
+    });
+  }
+  buildTransCategories();
+
+  // ── Translation state management ──────────────────────────────────────
+  // Non-heretical loaded translations (used for bulk select/deselect)
+  const BULK_TRANS = [...TRANSLATIONS.ancient, ...TRANSLATIONS.bibleFull, ...TRANSLATIONS.ntFull,
+                      ...TRANSLATIONS.ntPartial, ...TRANSLATIONS.otPartial]
+    .filter(t => t.loaded);
+
+  // All loaded translations including heretical/english
+  const ALL_LOADED_TRANS = [...TRANSLATIONS.ancient, ...TRANSLATIONS.bibleFull, ...TRANSLATIONS.ntFull,
+    ...TRANSLATIONS.ntPartial, ...TRANSLATIONS.otPartial,
+    ...TRANSLATIONS.heretical, ...TRANSLATIONS.english]
+    .filter(t => t.loaded);
+
+  // Sync ALL checkboxes from selectedTranslations (single source of truth)
+  function syncTranslationUI() {
+    document.querySelectorAll('#panel-translations input[type="checkbox"][data-tid]').forEach(cb => {
+      cb.checked = selectedTranslations.has(cb.dataset.tid);
+    });
+    updateCatCounts();
+    syncSelectAllBar();
+  }
+
+  function syncSelectAllBar() {} // kept as no-op; called in places we don't want to remove
+
+  // ── Save / restore state ───────────────────────────────────────────────
+  function saveState() {
+    _lsSet('kkf_book',  currentBook);
+    _lsSet('kkf_chap',  String(currentChapter));
+    _lsSet('kkf_trans', JSON.stringify([...selectedTranslations]));
+  }
+
+  // ── Favorites ─────────────────────────────────────────────────────────
+  function toggleFavorite(tid) {
+    const favs = getFavorites();
+    const idx  = favs.indexOf(tid);
+    if (idx >= 0) favs.splice(idx, 1); else favs.push(tid);
+    saveFavorites(favs);
+    updateFavoriteStars();
+    syncPresetHighlights();
+    updateDefaultTransSelect();
+  }
+  function updateFavoriteStars() {
+    const favs = getFavorites();
+    document.querySelectorAll('.fav-star').forEach(btn => {
+      const on = favs.includes(btn.dataset.tid);
+      btn.classList.toggle('fav-on', on);
+      btn.title = on ? 'Favorilerden çıkar' : 'Favorilere ekle';
+    });
+  }
+
+  // ── Category presets ──────────────────────────────────────────────────
+  const HERETICAL_IDS = new Set(TRANSLATIONS.heretical.map(t => t.id));
+  const ENGLISH_IDS   = new Set(TRANSLATIONS.english.map(t => t.id));
+
+  const PRESETS = [
+    { id:'favoriler', label:'⭐ Favoriler',  ids: () => getFavorites() },
+    { id:'modern',    label:'Modern',        ids: () => ['TCL02','YTC','TTT','HAKK','KMEYA'] },
+    { id:'tarihi',    label:'Tarihi',        ids: () => ['ALI1665','KIE1819','JDK1827','TUR1852-57','SEL1866-77','KM1886'] },
+    { id:'yeniant',   label:'Yeni Ant.',     ids: () => ['KIE1819','YYY1987','CAN','KKDEU','BGT','COS','TTT'] },
+    { id:'tamkitap',  label:'Tam Kitap',     ids: () => ['ALI1665','JDK1827','KM1886','KMEYA','TCL02','AREMSI','YTC','HAKK'] },
+    { id:'1940plus',  label:'1940 Sonrası',  ids: () => TRANS_ORDER.filter(id => !HERETICAL_IDS.has(id) && !ENGLISH_IDS.has(id) && ALL_TRANS[id]?.year > 1940 && ALL_TRANS[id]?.loaded) },
+  ];
+
+  function applyPreset(preset) {
+    const ids = preset.ids().filter(id => ALL_TRANS[id]?.loaded);
+    if (ids.length === 0) return;
+    const allOn = ids.every(id => selectedTranslations.has(id));
+    selectedTranslations.clear();
+    if (!allOn) ids.forEach(id => selectedTranslations.add(id));
+    syncTranslationUI();
+    rebuildColumns();
+    triggerSearch();
+    saveState();
+    syncPresetHighlights();
+  }
+
+  function syncPresetHighlights() {
+    document.querySelectorAll('.preset-btn[data-preset]').forEach(btn => {
+      const p = PRESETS.find(x => x.id === btn.dataset.preset);
+      if (!p) return;
+      const ids = p.ids().filter(id => ALL_TRANS[id]?.loaded);
+      btn.classList.toggle('active', ids.length > 0 && ids.every(id => selectedTranslations.has(id)));
+    });
+  }
+
+  function buildPresetsBar() {
+    const bar = document.getElementById('trans-presets-bar');
+    bar.innerHTML = '';
+    PRESETS.forEach(p => {
+      const btn = document.createElement('button');
+      btn.className    = 'preset-btn';
+      btn.dataset.preset = p.id;
+      btn.textContent  = p.label;
+      btn.addEventListener('click', () => applyPreset(p));
+      bar.appendChild(btn);
+    });
+    syncPresetHighlights();
+  }
+  buildPresetsBar();
+
+
+  // ── Heretical warning banner ──────────────────────────────────────────
+  (function() {
+    const hOverlay  = document.getElementById('heretical-overlay');
+    const hWarning  = document.getElementById('heretical-warning');
+    const hName     = document.getElementById('hw-trans-name');
+    const hBtnDismiss = document.getElementById('hw-btn-dismiss');
+    const hBtnRemove  = document.getElementById('hw-btn-remove');
+    let hActiveTid    = null;
+    let _removeAllMode = false; // true when triggered from category "Tümü" button
+
+    function showHereticWarning(tid, removeAll) {
+      hActiveTid    = tid;
+      _removeAllMode = removeAll || false;
+      hName.textContent = ALL_TRANS[tid]?.name ?? tid;
+      hOverlay.classList.add('hw-visible');
+      hWarning.classList.add('hw-visible');
+    }
+    function hideHereticWarning() {
+      hOverlay.classList.remove('hw-visible');
+      hWarning.classList.remove('hw-visible');
+      hActiveTid    = null;
+      _removeAllMode = false;
+    }
+
+    hOverlay.addEventListener('click', hideHereticWarning);
+    hBtnDismiss.addEventListener('click', hideHereticWarning);
+    hBtnRemove.addEventListener('click', () => {
+      if (hActiveTid) {
+        if (_removeAllMode) {
+          // Remove every heretical translation added by category "Tümü"
+          HERETICAL_ID_SET.forEach(id => selectedTranslations.delete(id));
+        } else {
+          selectedTranslations.delete(hActiveTid);
+        }
+        syncTranslationUI();
+        rebuildColumns();
+        triggerSearch();
+        updateCatCounts();
+      }
+      hideHereticWarning();
+    });
+
+    // Attach warning trigger to heretical checkboxes (identified by data-heretical attribute)
+    document.querySelectorAll('#panel-translations input[type="checkbox"][data-heretical]').forEach(cb => {
+      cb.addEventListener('change', e => {
+        if (e.target.checked) showHereticWarning(e.target.dataset.tid, false);
+        else hideHereticWarning();
+      });
+    });
+
+    // Expose so the category "Tümü" button can trigger the warning
+    window._hereticShowWarning = (tid, removeAll) => showHereticWarning(tid, removeAll);
+  })();
+
+  // ── KIE1819 gloss tooltip ─────────────────────────────────────────────
+  (function() {
+    const tooltip  = document.getElementById('kie-tooltip');
+    const ttWord   = tooltip.querySelector('.kie-tt-word');
+    const ttGloss  = tooltip.querySelector('.kie-tt-gloss');
+    let activeWord = null;
+
+    function showAt(wordEl) {
+      ttWord.textContent  = wordEl.textContent;
+      ttGloss.textContent = wordEl.dataset.gloss;
+      // Off-screen first so we can measure actual width
+      tooltip.style.left = '-9999px';
+      tooltip.style.top  = '-9999px';
+      tooltip.classList.add('visible');
+
+      requestAnimationFrame(() => {
+        const wr = wordEl.getBoundingClientRect();
+        const tr = tooltip.getBoundingClientRect();
+        let left = wr.left + wr.width / 2 - tr.width / 2;
+        let top  = wr.top - tr.height - 7;
+        // Clamp within viewport
+        left = Math.max(8, Math.min(left, window.innerWidth  - tr.width  - 8));
+        if (top < 6) top = wr.bottom + 7; // flip below if too close to top
+        tooltip.style.left = left + 'px';
+        tooltip.style.top  = top  + 'px';
+      });
+    }
+
+    function hide() {
+      tooltip.classList.remove('visible');
+      activeWord = null;
+    }
+
+    document.addEventListener('click', e => {
+      const word = e.target.closest('.kie-gloss-word');
+      if (word) {
+        e.stopPropagation();
+        if (activeWord === word) { hide(); return; }
+        activeWord = word;
+        showAt(word);
+      } else {
+        hide();
+      }
+    });
+
+    // Also hide when scrolling the column
+    document.addEventListener('scroll', hide, true);
+  })();
+
+  // ── Style panel ───────────────────────────────────────────────────────
+  function applyCompareTheme(val) {
+    document.body.classList.remove('theme-dark','theme-sepia');
+    if (val === 'dark')  document.body.classList.add('theme-dark');
+    if (val === 'sepia') document.body.classList.add('theme-sepia');
+  }
+  function syncStyleActive() {
+    document.querySelectorAll('#panel-style .panel-option').forEach(o =>
+      o.classList.toggle('active', o.querySelector('input')?.checked));
+  }
+
+  // Load saved theme on init
+  (function() {
+    const saved = localStorage.getItem('pref-theme');
+    if (saved && saved !== 'light') {
+      applyCompareTheme(saved);
+      const r = document.querySelector(`input[name="theme"][value="${saved}"]`);
+      if (r) { r.checked = true; syncStyleActive(); }
+    }
+  })();
+
+  document.querySelectorAll('input[name="theme"]').forEach(r => {
+    r.addEventListener('change', () => {
+      applyCompareTheme(r.value);
+      localStorage.setItem('pref-theme', r.value);
+      syncStyleActive();
+    });
+  });
+
+  document.querySelectorAll('input[name="fontsize"]').forEach(r => {
+    r.addEventListener('change', () => {
+      document.body.classList.remove('fz-small','fz-large');
+      if (r.value === 'small') document.body.classList.add('fz-small');
+      if (r.value === 'large') document.body.classList.add('fz-large');
+      document.querySelectorAll('#panel-style .panel-option').forEach(o =>
+        o.classList.toggle('active', o.querySelector('input')?.checked));
+    });
+  });
+
+  document.querySelectorAll('input[name="layout"]').forEach(r => {
+    r.addEventListener('change', () => {
+      layoutMode = r.value;
+      const chkBook = document.getElementById('chk-book');
+      if (chkBook) { chkBook.checked = false; document.getElementById('toggle-book').classList.remove('active'); }
+      document.querySelectorAll('#panel-style .panel-option').forEach(o =>
+        o.classList.toggle('active', o.querySelector('input')?.checked));
+      rebuildColumns();
+    });
+  });
+
+  // ── Greek font picker ─────────────────────────────────────────────────
+  const GK_FONTS = [
+    { key: 'new-york',    label: 'New York',          stack: "'New York', ui-serif, 'Cardo', Georgia, serif" },
+    { key: 'cardo',       label: 'Cardo',             stack: "'Cardo', Georgia, serif" },
+    { key: 'gfs-didot',   label: 'GFS Didot',         stack: "'GFS Didot', Georgia, serif" },
+    { key: 'eb-garamond', label: 'EB Garamond',       stack: "'EB Garamond', Georgia, serif" },
+    { key: 'noto-serif',  label: 'Noto Serif',        stack: "'Noto Serif', Georgia, serif" },
+    { key: 'crimson-pro', label: 'Crimson Pro',       stack: "'Crimson Pro', Georgia, serif" },
+    { key: 'cormorant',   label: 'Cormorant Garamond',stack: "'Cormorant Garamond', Georgia, serif" },
+    { key: 'playfair',    label: 'Playfair Display',  stack: "'Playfair Display', Georgia, serif" },
+    { key: 'lora',        label: 'Lora',              stack: "'Lora', Georgia, serif" },
+    { key: 'source-serif',label: 'Source Serif 4',    stack: "'Source Serif 4', Georgia, serif" },
+  ];
+  const GK_PREVIEW = 'Ἀρχή';
+
+  function applyGkFont(key) {
+    const f = GK_FONTS.find(x => x.key === key) || GK_FONTS[0];
+    document.documentElement.style.setProperty('--gk-font', f.stack);
+    document.getElementById('gkfp-preview-text').style.fontFamily = f.stack;
+    document.getElementById('gkfp-label').textContent = f.label;
+    document.querySelectorAll('#gkfp-dropdown .gkfp-option').forEach(o =>
+      o.classList.toggle('selected', o.dataset.key === key));
+  }
+
+  (function buildGkPicker() {
+    const dropdown = document.getElementById('gkfp-dropdown');
+    GK_FONTS.forEach(f => {
+      const div = document.createElement('div');
+      div.className = 'gkfp-option';
+      div.dataset.key = f.key;
+      div.innerHTML = `<span class="go-preview" style="font-family:${f.stack}">${GK_PREVIEW}</span><span class="go-name">${f.label}</span>`;
+      div.addEventListener('click', () => {
+        applyGkFont(f.key);
+        _lsSet('gkFont', f.key);
+        dropdown.classList.remove('open');
+      });
+      dropdown.appendChild(div);
+    });
+
+    const btn = document.getElementById('gkfp-btn');
+    btn.addEventListener('click', e => {
+      e.stopPropagation();
+      dropdown.classList.toggle('open');
+    });
+    document.addEventListener('click', () => dropdown.classList.remove('open'));
+    dropdown.addEventListener('click', e => e.stopPropagation());
+  })();
+
+  const savedGkFont = _lsGet('gkFont') || 'new-york';
+  applyGkFont(savedGkFont);
+
+  document.getElementById('chk-vn').addEventListener('change', e =>
+    document.body.classList.toggle('hide-vn', !e.target.checked));
+  document.getElementById('chk-heads').addEventListener('change', e =>
+    document.body.classList.toggle('hide-heads', !e.target.checked));
+  document.getElementById('chk-book').addEventListener('change', e => {
+    document.getElementById('toggle-book').classList.toggle('active', e.target.checked);
+    rebuildColumns();
+  });
+
+  // ── Button wiring ─────────────────────────────────────────────────────
+  document.getElementById('btn-books').addEventListener('click', function(e) {
+    e.stopPropagation(); togglePanel('panel-books', this);
+  });
+  document.getElementById('btn-chapter').addEventListener('click', function(e) {
+    e.stopPropagation(); togglePanel('panel-chapters', this);
+  });
+  document.getElementById('btn-translations').addEventListener('click', function(e) {
+    e.stopPropagation(); togglePanel('panel-translations', this);
+  });
+  document.getElementById('btn-style').addEventListener('click', function(e) {
+    e.stopPropagation(); togglePanel('panel-style', this);
+  });
+  document.getElementById('btn-commentary').addEventListener('click', function() {
+    const sidebar = document.getElementById('sidebar-panel');
+    const isOpening = !sidebar.classList.contains('open');
+    sidebar.classList.toggle('open');
+    this.classList.toggle('comm-open', isOpening);
+    if (isOpening) loadCommentary(currentBook, currentChapter);
+  });
+
+  // Re-measure verse positions after sidebar width transition (open or close).
+  // The sidebar changes column widths → text reflows → verse offsetTops change →
+  // sync measurements must be refreshed or column alignment breaks.
+  document.getElementById('sidebar-panel').addEventListener('transitionend', e => {
+    if (e.propertyName === 'width') reinitSync();
+  });
+  document.getElementById('btn-top')?.addEventListener('click', () => {
+    getCols().forEach(c => c.scrollTo({ top: 0, behavior: 'smooth' }));
+  });
+  document.getElementById('btn-share')?.addEventListener('click', () => {
+    navigator.clipboard?.writeText(window.location.href);
+  });
+
+  // ── Chapter nav ───────────────────────────────────────────────────────
+  function setChapter(n) {
+    const total = CHAPTER_COUNTS[currentBook] ?? 1;
+    currentChapter = Math.max(1, Math.min(n, total));
+    document.getElementById('btn-chapter').textContent = currentChapter + '. Bölüm';
+    document.getElementById('chapters-grid').querySelectorAll('.book-btn').forEach((b, i) =>
+      b.classList.toggle('active', i + 1 === currentChapter));
+  }
+  const ALL_BOOKS = [...OT_BOOKS, ...NT_BOOKS];
+  function navigateToBook(bookName, chapterNum) {
+    currentBook = bookName;
+    document.getElementById('btn-books').childNodes[0].textContent = bookName + ' ';
+    ['books-ot', 'books-nt'].forEach(id =>
+      document.getElementById(id).querySelectorAll('.book-btn').forEach(b =>
+        b.classList.toggle('active', b.textContent === bookName)));
+    buildChapters(bookName);
+    setChapter(chapterNum);
+    loadAll();
+    saveState();
+    _maybeReloadCommentary();
+  }
+  document.getElementById('btn-prev-ch')?.addEventListener('click', () => {
+    if (currentChapter > 1) { setChapter(currentChapter - 1); loadAll(); saveState(); _maybeReloadCommentary(); }
+    else {
+      const idx = ALL_BOOKS.indexOf(currentBook);
+      if (idx > 0) navigateToBook(ALL_BOOKS[idx - 1], CHAPTER_COUNTS[ALL_BOOKS[idx - 1]] ?? 1);
+    }
+  });
+  document.getElementById('btn-next-ch')?.addEventListener('click', () => {
+    const total = CHAPTER_COUNTS[currentBook] ?? 1;
+    if (currentChapter < total) { setChapter(currentChapter + 1); loadAll(); saveState(); _maybeReloadCommentary(); }
+    else {
+      const idx = ALL_BOOKS.indexOf(currentBook);
+      if (idx < ALL_BOOKS.length - 1) navigateToBook(ALL_BOOKS[idx + 1], 1);
+    }
+  });
+
+  // ── Verse hover & selection ───────────────────────────────────────────
+  let hoveredVerse   = null;  // verse label string e.g. "3" or "3-5"
+  const selectedVerses = new Set();
+
+  function parseVerseLabel(label) {
+    const s = String(label).trim();
+    const m = s.match(/^(\d+)-(\d+)$/);
+    if (m) {
+      const lo = parseInt(m[1], 10), hi = parseInt(m[2], 10);
+      const nums = [];
+      for (let i = lo; i <= hi; i++) nums.push(i);
+      return nums;
+    }
+    const n = parseInt(s, 10);
+    return isNaN(n) ? [] : [n];
+  }
+
+  function verseLabelsOverlap(a, b) {
+    const setA = new Set(parseVerseLabel(a));
+    return parseVerseLabel(b).some(n => setA.has(n));
+  }
+
+  function highlightVerse(label, cls, on) {
+    document.querySelectorAll('.verse[data-v]').forEach(el => {
+      if (verseLabelsOverlap(label, el.dataset.v)) el.classList.toggle(cls, on);
+    });
+  }
+
+  function clearVerseState() {
+    if (hoveredVerse !== null) highlightVerse(hoveredVerse, 'v-hover', false);
+    selectedVerses.forEach(label => highlightVerse(label, 'v-selected', false));
+    hoveredVerse = null;
+    selectedVerses.clear();
+  }
+
+  const verseArea = document.getElementById('okuyucu_layout');
+
+  verseArea.addEventListener('mouseover', e => {
+    const verse = e.target.closest('.verse[data-v]');
+    const next  = verse ? verse.dataset.v : null;
+    if (next === hoveredVerse) return;
+    if (hoveredVerse !== null) highlightVerse(hoveredVerse, 'v-hover', false);
+    hoveredVerse = next;
+    if (hoveredVerse !== null) highlightVerse(hoveredVerse, 'v-hover', true);
+  });
+
+  verseArea.addEventListener('mouseleave', () => {
+    if (hoveredVerse !== null) highlightVerse(hoveredVerse, 'v-hover', false);
+    hoveredVerse = null;
+  });
+
+  verseArea.addEventListener('click', e => {
+    const verse = e.target.closest('.verse[data-v]');
+    if (!verse) return;
+    const label = verse.dataset.v;
+    if (selectedVerses.has(label)) {
+      selectedVerses.delete(label);
+      highlightVerse(label, 'v-selected', false);
+    } else {
+      selectedVerses.add(label);
+      highlightVerse(label, 'v-selected', true);
+      const vNum = parseInt(String(label).split('-')[0], 10);
+      if (!isNaN(vNum)) scrollCommentaryToVerse(vNum);
+    }
+  });
+
+  // ── Verse reference parser ────────────────────────────────────────────
+  // Normalise a book-name fragment for lookup (strip accents, spaces, dots)
+  function normB(s) {
+    return s.toLowerCase()
+      .replace(/[\s.'`\-]/g, '')
+      .replace(/İ|ı|I/g,'i').replace(/ş/g,'s').replace(/ğ/g,'g')
+      .replace(/ö/g,'o').replace(/ü/g,'u').replace(/ç/g,'c')
+      .replace(/â/g,'a').replace(/î/g,'i').replace(/û/g,'u');
+  }
+
+  const _VR_RAW = [
+    ['GEN',['gen','genesis','yar','yaratis','yaratilis']],
+    ['EXO',['exo','ex','exod','exodus','cik','cikis','misirdancikis','misirdan']],
+    ['LEV',['lev','leviticus','levililer']],
+    ['NUM',['num','numbers','say','sayim','coldesayim']],
+    ['DEU',['deu','deut','deuteronomy','yas','yasanintekrari','tesniye']],
+    ['JOS',['jos','josh','joshua','yesu','yos']],
+    ['JDG',['jdg','judg','judges','hak','hakimler']],
+    ['RUT',['rut','ruth']],
+    ['1SA',['1sa','1sam','1samuel']],
+    ['2SA',['2sa','2sam','2samuel']],
+    ['1KI',['1ki','1kgs','1kings','1kr','1krallar']],
+    ['2KI',['2ki','2kgs','2kings','2kr','2krallar']],
+    ['1CH',['1ch','1chr','1chronicles','1ta','1tarihler']],
+    ['2CH',['2ch','2chr','2chronicles','2ta','2tarihler']],
+    ['EZR',['ezr','ezra']],
+    ['NEH',['neh','nehemiah','nehemya']],
+    ['EST',['est','esther','ester']],
+    ['JOB',['job','eyu','eyup','eyub']],
+    ['PSA',['ps','psa','psalm','psalms','mez','mezmurlar']],
+    ['PRO',['prov','pro','proverbs','suz','ozdeyisler','suleymanin']],
+    ['ECC',['ecc','eccl','ecclesiastes','vai','vaiz']],
+    ['SNG',['song','sos','sng','ezgilerezgisi','ezgiler','guzelsar']],
+    ['ISA',['isa','isaiah','yesaya','ysa']],
+    ['JER',['jer','jeremiah','yeremya','yer']],
+    ['LAM',['lam','lamentations','agitlar','agi']],
+    ['EZK',['ezk','ezek','ezekiel','hezekiel','hez']],
+    ['DAN',['dan','daniel']],
+    ['HOS',['hos','hosea','hosea']],
+    ['JOL',['jol','joel','yoel']],
+    ['AMO',['amo','amos']],
+    ['OBA',['oba','obad','obadiah','ova','ovadya']],
+    ['JON',['jon','jonah','yun','yunus']],
+    ['MIC',['mic','micah','mik','mika']],
+    ['NAH',['nah','nahum']],
+    ['HAB',['hab','habakkuk']],
+    ['ZEP',['zep','zeph','zephaniah','zef','zefanya']],
+    ['HAG',['hag','haggai','hagay']],
+    ['ZEC',['zec','zech','zechariah','zek','zekeriya']],
+    ['MAL',['mal','malachi','malaki']],
+    ['MAT',['mat','matt','mt','matthew','matta']],
+    ['MRK',['mrk','mk','mar','mark','markos']],
+    ['LUK',['luk','lk','luke','luka']],
+    ['JHN',['jhn','jn','joh','john','yuh','yuhanna']],
+    ['ACT',['act','acts','elc','elcilerin','elcilerinisleri']],
+    ['ROM',['rom','romans','romalilar']],
+    ['1CO',['1co','1cor','1corinthians','1ko','1korintliler']],
+    ['2CO',['2co','2cor','2corinthians','2ko','2korintliler']],
+    ['GAL',['gal','galatians','galatiyalilar','galatya']],
+    ['EPH',['eph','ephesians','efe','efesliler']],
+    ['PHP',['php','phil','philippians','fil','filipililer']],
+    ['COL',['col','colossians','kol','koloseliler']],
+    ['1TH',['1th','1thes','1thess','1thessalonians','1se','1selanikliler']],
+    ['2TH',['2th','2thes','2thess','2thessalonians','2se','2selanikliler']],
+    ['1TI',['1ti','1tim','1timothy','1timoteos']],
+    ['2TI',['2ti','2tim','2timothy','2timoteos']],
+    ['TIT',['tit','titus']],
+    ['PHM',['phm','phlm','philemon','flm','filemon']],
+    ['HEB',['heb','hebrews','ibr','ibraniler']],
+    ['JAS',['jas','james','yak','yakup']],
+    ['1PE',['1pe','1pet','1peter','1petrus']],
+    ['2PE',['2pe','2pet','2peter','2petrus']],
+    ['1JN',['1jn','1joh','1john','1yuh','1yuhanna']],
+    ['2JN',['2jn','2joh','2john','2yuh','2yuhanna']],
+    ['3JN',['3jn','3joh','3john','3yuh','3yuhanna']],
+    ['JUD',['jud','jude','yah','yahuda']],
+    ['REV',['rev','revelation','vah','vahiy']],
+  ];
+  const _VR_MAP = {};
+  _VR_RAW.forEach(([code, names]) => names.forEach(n => { _VR_MAP[normB(n)] = code; }));
+
+  function _editDist(a, b) {
+    if (a === b) return 0;
+    const m = a.length, n = b.length;
+    if (!m) return n; if (!n) return m;
+    let prev = Array.from({length: n+1}, (_,i) => i);
+    for (let i = 1; i <= m; i++) {
+      const cur = [i];
+      for (let j = 1; j <= n; j++)
+        cur[j] = a[i-1]===b[j-1] ? prev[j-1] : 1+Math.min(prev[j],cur[j-1],prev[j-1]);
+      prev = cur;
+    }
+    return prev[n];
+  }
+
+  function _lookupBook(raw) {
+    const norm = normB(raw);
+    if (!norm) return null;
+    // Exact
+    if (_VR_MAP[norm]) return _VR_MAP[norm];
+    // Prefix: input is a prefix of a known key (min 2 chars)
+    if (norm.length >= 2) {
+      let best = null, bestLen = 0;
+      for (const key of Object.keys(_VR_MAP)) {
+        if (key.startsWith(norm) && norm.length > bestLen) { best = _VR_MAP[key]; bestLen = norm.length; }
+      }
+      if (best) return best;
+    }
+    // Fuzzy: allow 1 edit for short names, 2 for longer
+    let bestCode = null, bestDist = Infinity;
+    const maxErr = norm.length <= 4 ? 1 : 2;
+    for (const [key, code] of Object.entries(_VR_MAP)) {
+      if (Math.abs(key.length - norm.length) > maxErr) continue;
+      const d = _editDist(norm, key);
+      if (d < bestDist && d <= maxErr) { bestDist = d; bestCode = code; }
+    }
+    return bestCode;
+  }
+
+  // Parse "yuh 3:16", "john 3 16", "1jn3:16", "jhn. 3,16", etc.
+  // Returns {bookCode, chap, verse} or null.
+  function parseVerseRef(raw) {
+    // Tokenise: split on separators, also split alpha-digit boundaries
+    const s = raw.trim()
+      .replace(/[,;:]/g, ' ')
+      .replace(/\./g,  ' ')
+      .replace(/([a-zA-ZğüşıöçĞÜŞİÖÇ])(\d)/g, '$1 $2')
+      .replace(/(\d)([a-zA-ZğüşıöçĞÜŞİÖÇ])/g, '$1 $2')
+      .replace(/\s+/g, ' ').trim();
+
+    const tokens = s.split(' ').filter(Boolean);
+    if (tokens.length < 2) return null;
+
+    // Last two pure-number tokens → verse, chapter
+    const numIdx = tokens.reduce((a, t, i) => (/^\d+$/.test(t) ? [...a, i] : a), []);
+    if (numIdx.length < 2) return null;
+
+    const versePos = numIdx[numIdx.length - 1];
+    const chapPos  = numIdx[numIdx.length - 2];
+    const verse = parseInt(tokens[versePos], 10);
+    const chap  = parseInt(tokens[chapPos],  10);
+    if (verse < 1 || chap < 1) return null;
+
+    // Book = all tokens before chapPos, joined (handles "1 john", "song of solomon")
+    const bookStr = tokens.slice(0, chapPos).join('');
+    if (!bookStr) return null;
+
+    const bookCode = _lookupBook(bookStr);
+    return bookCode ? { bookCode, chap, verse } : null;
+  }
+
+  // Navigate to bookCode/chap and scroll+highlight verse once columns load
+  function goToVerse(bookCode, chap, verse) {
+    const bookName = BOOK_CODES_REV[bookCode];
+    if (!bookName) return false;
+    navigateToBook(bookName, chap);
+    // Poll until verse elements appear (columns load asynchronously)
+    let tries = 25;
+    const label = String(verse);
+    const poll = () => {
+      const el = Array.from(document.querySelectorAll('.verse[data-v]'))
+                      .find(v => verseLabelsOverlap(label, v.dataset.v));
+      if (el) {
+        el.scrollIntoView({ behavior: 'smooth', block: 'center' });
+        selectedVerses.clear();
+        document.querySelectorAll('.verse').forEach(v => v.classList.remove('v-selected'));
+        selectedVerses.add(label);
+        highlightVerse(label, 'v-selected', true);
+      } else if (--tries > 0) {
+        setTimeout(poll, 120);
+      }
+    };
+    setTimeout(poll, 80);
+    return true;
+  }
+
+  // ── Search engine ─────────────────────────────────────────────────────
+  function normTr(s) {
+    // Replace İ before toLowerCase — JS's toLowerCase('İ') yields 'i̇' (2 chars)
+    return s
+      .replace(/İ/g, 'i')
+      .toLowerCase()
+      .replace(/â/g, 'a').replace(/Â/g, 'a')
+      .replace(/î/g, 'i').replace(/Î/g, 'i')
+      .replace(/û/g, 'u').replace(/Û/g, 'u')
+      .replace(/ş/g, 's')
+      .replace(/ğ/g, 'g')
+      .replace(/ç/g, 'c');
+  }
+
+  function escHtml(s) {
+    return s.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
+  }
+
+  function highlightMatch(text, normQ) {
+    const normText = normTr(text);
+    const idx = normText.indexOf(normQ);
+    if (idx < 0) return escHtml(text);
+    const before = escHtml(text.slice(0, idx));
+    const matched = escHtml(text.slice(idx, idx + normQ.length));
+    const after   = escHtml(text.slice(idx + normQ.length));
+    return `${before}<mark>${matched}</mark>${after}`;
+  }
+
+  function searchInCache(normQ) {
+    const results = {};
+    for (const [key, verses] of chapterCache) {
+      const [tid, bookCode, chapStr] = key.split('|');
+      if (!selectedTranslations.has(tid)) continue;
+      for (const v of verses) {
+        if (!v.text) continue;
+        if (normTr(v.text).includes(normQ)) {
+          if (!results[tid]) results[tid] = [];
+          results[tid].push({ bookCode, chap: parseInt(chapStr, 10), v: v.v, text: v.text });
+        }
+      }
+    }
+    return results;
+  }
+
+  const srEl = document.getElementById('search-results');
+
+  function positionSearchResults() {
+    const wrap = document.getElementById('search-wrap');
+    if (!wrap) return;
+    const r = wrap.getBoundingClientRect();
+    srEl.style.left  = r.left + 'px';
+    srEl.style.top   = (r.bottom + 4) + 'px';
+    srEl.style.width = Math.max(r.width, 400) + 'px';
+  }
+
+  function renderSearchResults(normQ, results, scanned) {
+    const tids = Object.keys(results);
+    const totalHits = tids.reduce((s, t) => s + results[t].length, 0);
+    const MAX_PER_TRANS = 15;
+
+    let html = `<div class="sr-header">
+      <span class="sr-count">${totalHits > 0 ? totalHits + ' sonuç' : 'Sonuç bulunamadı'}</span>
+      ${!scanned ? `<button class="sr-scan-btn" id="sr-scan-btn">Tümünü Tara</button>` : ''}
+    </div>`;
+
+    if (tids.length === 0) {
+      html += `<div class="sr-empty">Görüntülenen bölümlerde eşleşme yok.<br>${!scanned ? 'Tüm kitabı taramak için "Tümünü Tara" düğmesine tıklayın.' : ''}</div>`;
+    } else {
+      for (const tid of tids) {
+        const hits = results[tid];
+        const transName = ALL_TRANS[tid]?.name ?? tid;
+        html += `<div class="sr-trans-label">${escHtml(transName)}</div>`;
+        const shown = hits.slice(0, MAX_PER_TRANS);
+        for (const h of shown) {
+          const bookName = BOOK_CODES_REV?.[h.bookCode] ?? h.bookCode;
+          const ref = `${escHtml(bookName)} ${h.chap}:${h.v}`;
+          html += `<div class="sr-result" data-tid="${escHtml(tid)}" data-book="${escHtml(h.bookCode)}" data-chap="${h.chap}" data-v="${h.v}">
+            <span class="sr-ref">${ref}</span>
+            <span class="sr-text">${highlightMatch(h.text, normQ)}</span>
+          </div>`;
+        }
+        if (hits.length > MAX_PER_TRANS) {
+          html += `<div class="sr-more">+ ${hits.length - MAX_PER_TRANS} sonuç daha</div>`;
+        }
+      }
+    }
+
+    positionSearchResults();
+    srEl.innerHTML = html;
+    srEl.classList.add('open');
+
+    document.getElementById('sr-scan-btn')?.addEventListener('click', () => {
+      scanCurrentBook(normQ);
+    });
+
+    srEl.querySelectorAll('.sr-result').forEach(row => {
+      row.addEventListener('click', () => {
+        const { tid, book, chap, v } = row.dataset;
+        const bookName = BOOK_CODES_REV?.[book] ?? book;
+        if (bookName !== currentBook) navigateToBook(bookName, parseInt(chap, 10));
+        else if (parseInt(chap, 10) !== currentChapter) { setChapter(parseInt(chap, 10)); loadAll(); }
+        srEl.classList.remove('open');
+        requestAnimationFrame(() => {
+          const target = document.querySelector(`.verse[data-v="${v}"]`);
+          target?.scrollIntoView({ behavior: 'smooth', block: 'center' });
+        });
+      });
+    });
+  }
+
+  async function scanCurrentBook(normQ) {
+    if (searchState.scanning) return;
+    searchState.scanning = true;
+
+    const bookCode = BOOK_CODES[currentBook];
+    const totalCh  = CHAPTER_COUNTS[currentBook] ?? 1;
+    const selTids  = [...selectedTranslations].filter(tid => isTransAvailableForBook(tid, bookCode));
+
+    srEl.innerHTML = `<div class="sr-progress">Tüm bölümler taranıyor…</div>`;
+    srEl.classList.add('open');
+    positionSearchResults();
+
+    const fetches = [];
+    for (const tid of selTids) {
+      for (let ch = 1; ch <= totalCh; ch++) {
+        const key = `${tid}|${bookCode}|${ch}`;
+        if (chapterCache.has(key)) continue;
+        fetches.push(
+          fetch(`data/translations/${tid}/${bookCode}/${ch}.json`)
+            .then(r => r.ok ? r.json() : null)
+            .then(d => { if (d) chapterCache.set(key, d.content ?? []); })
+            .catch(() => {})
+        );
+      }
+    }
+
+    await Promise.all(fetches);
+    searchState.scanning = false;
+
+    const results = searchInCache(normQ);
+    renderSearchResults(normQ, results, true);
+  }
+
+  function triggerSearch() {
+    const raw  = document.getElementById('search-input')?.value ?? '';
+    const normQ = normTr(raw.trim());
+    if (normQ.length < 2) {
+      srEl.classList.remove('open');
+      return;
+    }
+    const results = searchInCache(normQ);
+    renderSearchResults(normQ, results, false);
+  }
+
+  document.getElementById('search-input')?.addEventListener('input', () => {
+    clearTimeout(searchState.timer);
+    searchState.timer = setTimeout(triggerSearch, 300);
+  });
+
+  document.getElementById('search-input')?.addEventListener('keydown', e => {
+    if (e.key === 'Enter') {
+      const q = e.target.value.trim();
+      if (!q) return;
+      // Check for verse reference first
+      const ref = parseVerseRef(q);
+      if (ref && goToVerse(ref.bookCode, ref.chap, ref.verse)) {
+        srEl.classList.remove('open');
+        e.target.value = '';
+        return;
+      }
+      // Otherwise open search page
+      if (q.length >= 2) {
+        const tids = [...selectedTranslations].join(',');
+        window.open(`arama.html?q=${encodeURIComponent(q)}&t=${encodeURIComponent(tids)}`, '_blank');
+      }
+    }
+  });
+
+  document.addEventListener('click', e => {
+    if (!srEl.contains(e.target) && e.target.id !== 'search-input') {
+      srEl.classList.remove('open');
+    }
+  });
+
+  window.addEventListener('resize', () => {
+    if (srEl.classList.contains('open')) positionSearchResults();
+  });
+
+  // Build reverse book code lookup once (bookCode → bookName)
+  const BOOK_CODES_REV = Object.fromEntries(
+    Object.entries(BOOK_CODES).map(([name, code]) => [code, name])
+  );
+
+  // ── URL param restore (from search page links) ────────────────────────
+  (function() {
+    const p = new URLSearchParams(location.search);
+    const b = p.get('b');
+    const c = parseInt(p.get('c') || '0', 10);
+    const t = p.get('t');
+    const v = p.get('v');
+
+    if (t) {
+      const tids = t.split(',').filter(id => ALL_TRANS[id]);
+      // Replace default selection with URL-specified translations
+      selectedTranslations.clear();
+      tids.forEach(id => selectedTranslations.add(id));
+      syncTranslationUI();
+    }
+
+    if (b && BOOK_CODES[b]) {
+      currentBook = b;
+      document.getElementById('btn-books').childNodes[0].textContent = b + ' ';
+      ['books-ot','books-nt'].forEach(id => {
+        document.getElementById(id)?.querySelectorAll('.book-btn').forEach(btn =>
+          btn.classList.toggle('active', btn.textContent === b));
+      });
+      buildChapters(b);
+      if (c > 0) setChapter(c);
+    }
+
+    if (v) {
+      // Scroll to verse after columns load
+      const targetV = v;
+      const origLoadAll = window._loadAllHook;
+      const scrollOnce = () => {
+        requestAnimationFrame(() => {
+          const el = document.querySelector(`.verse[data-v="${targetV}"]`);
+          if (el) {
+            el.scrollIntoView({ behavior: 'smooth', block: 'center' });
+            el.classList.add('v-selected');
+          }
+        });
+      };
+      setTimeout(scrollOnce, 800);
+    }
+  })();
+
+  // ── Initial build — sync header to restored state ────────────────────
+  document.getElementById('btn-books').childNodes[0].textContent = currentBook + ' ';
+  document.getElementById('btn-chapter').textContent = currentChapter + '. Bölüm';
+  buildChapters(currentBook);
+  rebuildColumns();
+
+  // ── Mobile: translation tab bar + swipe ──────────────────────────────
+  const mobileTabBar = document.getElementById('mobile-col-tabs');
+  let mobActiveIdx = 0;
+
+  function isMobile() { return window.innerWidth <= 640; }
+
+  function buildMobileColTabs() {
+    mobileTabBar.innerHTML = '';
+    if (!isMobile()) return;
+    const cols = Array.from(document.querySelectorAll('#okuyucu_layout .col'));
+    if (mobActiveIdx >= cols.length) mobActiveIdx = 0;
+    cols.forEach((col, i) => {
+      const tid = col.dataset.translation || '';
+      const btn = document.createElement('button');
+      btn.className = 'mob-tab' + (i === mobActiveIdx ? ' active' : '');
+      btn.textContent = tid;
+      btn.addEventListener('click', () => setMobileActiveCol(i));
+      mobileTabBar.appendChild(btn);
+    });
+    applyMobileVisibility();
+  }
+
+  function setMobileActiveCol(idx) {
+    mobActiveIdx = idx;
+    applyMobileVisibility();
+    const tabs = mobileTabBar.querySelectorAll('.mob-tab');
+    tabs.forEach((t, i) => t.classList.toggle('active', i === idx));
+    if (tabs[idx]) tabs[idx].scrollIntoView({ inline: 'nearest', block: 'nearest' });
+  }
+
+  function applyMobileVisibility() {
+    if (!isMobile()) return;
+    document.querySelectorAll('#okuyucu_layout .col')
+      .forEach((c, i) => c.classList.toggle('mob-visible', i === mobActiveIdx));
+  }
+
+  // Watch for column changes (rebuildColumns clears #okuyucu_layout)
+  new MutationObserver(() => {
+    mobActiveIdx = 0;
+    setTimeout(buildMobileColTabs, 0);
+  }).observe(document.getElementById('okuyucu_layout'), { childList: true });
+
+  // Swipe left/right on reader to switch columns
+  (function() {
+    const reader = document.getElementById('okuyucu_layout');
+    let startX = 0, startY = 0;
+    reader.addEventListener('touchstart', e => {
+      startX = e.touches[0].clientX;
+      startY = e.touches[0].clientY;
+    }, { passive: true });
+    reader.addEventListener('touchend', e => {
+      if (!isMobile()) return;
+      const dx = e.changedTouches[0].clientX - startX;
+      const dy = e.changedTouches[0].clientY - startY;
+      if (Math.abs(dx) < 40 || Math.abs(dx) < Math.abs(dy) * 1.5) return;
+      const total = document.querySelectorAll('#okuyucu_layout .col').length;
+      if (total < 2) return;
+      const next = dx < 0
+        ? Math.min(mobActiveIdx + 1, total - 1)
+        : Math.max(mobActiveIdx - 1, 0);
+      if (next !== mobActiveIdx) setMobileActiveCol(next);
+    }, { passive: true });
+  })();
+
+  // Panel backdrop (bottom-sheet overlay on mobile)
+  const backdrop = document.createElement('div');
+  backdrop.id = 'panel-backdrop';
+  document.body.appendChild(backdrop);
+  backdrop.addEventListener('click', closePanel);
+
+  // Watch panels for .open class changes → show/hide backdrop
+  document.querySelectorAll('.panel').forEach(panel => {
+    new MutationObserver(() => {
+      if (!isMobile()) return;
+      const anyOpen = !!document.querySelector('.panel.open');
+      backdrop.classList.toggle('visible', anyOpen);
+    }).observe(panel, { attributes: true, attributeFilter: ['class'] });
+  });
+
+  // ── Commentary verse-sync helpers ────────────────────────────────────
+  function _parseNoteVerse(ref) {
+    // ref examples: "1:1", "1:3-5", "3", "1-3"
+    let s = ref;
+    if (s.includes(':')) s = s.split(':')[1];
+    const m = s.trim().match(/^(\d+)/);
+    return m ? parseInt(m[1], 10) : null;
+  }
+
+  let _commSyncRAF = null;
+  let _commSyncVerse = null;
+  let _commLeading = false, _commLeadTimer = null;
+
+  // RAF-throttled: fires at most once per frame, tracks topmost column verse in real time
+  function scheduleCommentaryScroll(verseNum) {
+    if (verseNum == null || _commLeading) return;
+    _commSyncVerse = verseNum;
+    if (_commSyncRAF) return;
+    _commSyncRAF = requestAnimationFrame(() => {
+      _commSyncRAF = null;
+      if (_commSyncVerse != null) {
+        scrollCommentaryToVerse(_commSyncVerse);
+        _commSyncVerse = null;
+      }
+    });
+  }
+
+  function scrollCommentaryToVerse(verseNum) {
+    const sidebar = document.getElementById('sidebar-panel');
+    if (!sidebar.classList.contains('open')) return;
+    const body = document.getElementById('commentary-body');
+    if (!body) return;
+    const notes = Array.from(body.querySelectorAll('.comm-note[data-verse]'));
+    if (!notes.length) return;
+
+    // Last note whose verse is <= verseNum — don't jump ahead of reading position
+    let target = null;
+    for (const note of notes) {
+      if (parseInt(note.dataset.verse, 10) <= verseNum) target = note;
+      else break;
+    }
+
+    if (!target) { body.scrollTop = 0; return; }
+
+    // Reset to 0 first so getBoundingClientRect gives positions relative to the
+    // body's top edge, independent of any prior scroll state.
+    // #commentary-body is position:static so offsetParent chains are unreliable;
+    // the reset+measure approach is the only robust option.
+    body.scrollTop = 0;
+    body.scrollTop = Math.max(0,
+      target.getBoundingClientRect().top - body.getBoundingClientRect().top);
+  }
+
+  // ── Sidebar tab switching ─────────────────────────────────────────────
+  document.querySelectorAll('.sidebar-tab').forEach(tab => {
+    tab.addEventListener('click', () => {
+      const section = tab.dataset.section;
+      document.querySelectorAll('.sidebar-tab').forEach(t => t.classList.remove('active'));
+      document.querySelectorAll('.sidebar-section').forEach(s => s.classList.remove('active'));
+      tab.classList.add('active');
+      document.getElementById(`sidebar-section-${section}`)?.classList.add('active');
+    });
+  });
+
+  // ── Commentary panel ─────────────────────────────────────────────────
+  let _commCache = {};  // key: "BOOK|chap" → data
+
+  async function loadCommentary(bookName, chap) {
+    const bookCode = BOOK_CODES[bookName];
+    if (!bookCode) return;
+    const key = `${bookCode}|${chap}`;
+    const introEl = document.getElementById('commentary-intro');
+    const notesEl = document.getElementById('commentary-notes');
+    const emptyEl = document.getElementById('commentary-empty');
+    const loadEl  = document.getElementById('commentary-loading');
+    const titleEl = document.getElementById('commentary-title');
+
+    titleEl.textContent = `${bookName} ${chap}. Bölüm — Yorum`;
+    introEl.textContent  = '';
+    notesEl.innerHTML   = '';
+    emptyEl.style.display = 'none';
+    document.getElementById('commentary-body').scrollTop = 0;
+
+    if (_commCache[key]) {
+      renderCommentary(_commCache[key]);
+      return;
+    }
+
+    loadEl.style.display = 'block';
+    try {
+      const res = await fetch(`data/commentary/${bookCode}/${chap}.json`);
+      if (!res.ok) throw new Error('not found');
+      const data = await res.json();
+      _commCache[key] = data;
+      loadEl.style.display = 'none';
+      renderCommentary(data);
+    } catch {
+      loadEl.style.display = 'none';
+      emptyEl.style.display = 'block';
+    }
+  }
+
+  // ── Cross-reference linkification ────────────────────────────────────
+  const XREF_BOOKS = {
+    'Eyüp.':'Eyüp',    // longer first so it matches before 'Eyü.'
+    'Mat.':'Matta',    'Mar.':'Markos',      'Luk.':'Luka',       'Yu.':'Yuhanna',
+    'Elç.':'Elçilerin İşleri',
+    'Rom.':'Romalılar',
+    '1Ko.':'1. Korintliler',  '2Ko.':'2. Korintliler',
+    'Gal.':'Galatyalılar',    'Ef.':'Efesliler',
+    'Flp.':'Filipililer',     'Kol.':'Koloseliler',
+    '1Se.':'1. Selanikliler', '2Se.':'2. Selanikliler',
+    '1Ti.':'1. Timoteos',     '2Ti.':'2. Timoteos',     '2ti.':'2. Timoteos',
+    'Tit.':'Titus',   'Flm.':'Filemon',    'İbr.':'İbraniler',  'Yak.':'Yakup',
+    '1Pe.':'1. Petrus',  '2Pe.':'2. Petrus',
+    '1Yu.':'1. Yuhanna', '2Yu.':'2. Yuhanna', '3Yu.':'3. Yuhanna',
+    'Yah.':'Yahuda',  'Va.':'Vahiy',       'Vai.':'Vahiy',
+    'Yar.':'Yaratılış', "Çık.":"Mısır'dan Çıkış", 'Lev.':'Levililer',
+    'Say.':'Çölde Sayım', "Yas.":"Yasa'nın Tekrarı",
+    'Yşu.':'Yeşu',    'Hak.':'Hakimler',   'Rut.':'Rut',
+    '1Sa.':'1. Samuel',  '2Sa.':'2. Samuel',
+    '1Kr.':'1. Krallar', '2Kr.':'2. Krallar',
+    '1Ta.':'1. Tarihler','2Ta.':'2. Tarihler',
+    'Ezr.':'Ezra',    'Neh.':'Nehemya',    'Est.':'Ester',
+    "Eyü.":'Eyüp',    'Mez.':'Mezmurlar',
+    "Özd.":"Süleyman'ın Özdeyişleri", 'Ezg.':'Ezgiler Ezgisi',
+    'Yşa.':'Yeşaya',  'Yer.':'Yeremya',    'Ağı.':'Ağıtlar',
+    'Hez.':'Hezekiel','Dan.':'Daniel',     'Hoş.':'Hoşea',
+    'Yoe.':'Yoel',    'Amo.':'Amos',       'Ova.':'Ovadya',
+    'Yun.':'Yunus',   'Mik.':'Mika',       'Nah.':'Nahum',
+    'Hab.':'Habakkuk','Sef.':'Zefanya',    'Hag.':'Hagay',
+    'Zek.':'Zekeriya','Mal.':'Malaki',
+  };
+
+  const _xrefAbbrs = Object.keys(XREF_BOOKS).sort((a, b) => b.length - a.length);
+  const XREF_RE = new RegExp(
+    '(' + _xrefAbbrs.map(k => k.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')).join('|') + ')' +
+    '\\s*(\\d+):(\\d+)(?:[–\\-](\\d+))?',
+    'g'
+  );
+
+  function linkifyXrefs(html) {
+    return html.replace(XREF_RE, (match, abbr, chap, vFrom) => {
+      const bookName = XREF_BOOKS[abbr];
+      if (!bookName) return match;
+      const safeBook = bookName.replace(/'/g, '&#39;').replace(/"/g, '&quot;');
+      return `<span class="xref-link" data-book="${safeBook}" data-chap="${chap}" data-verse="${vFrom}">${match}</span>`;
+    });
+  }
+
+  function openXref(bookName, chap, verse) {
+    if (!BOOK_CODES[bookName]) return;
+    const tid = (defaultTrans && ALL_TRANS[defaultTrans]?.loaded) ? defaultTrans
+              : [...selectedTranslations][0];
+    // Ensure the target translation is visible
+    if (tid && !selectedTranslations.has(tid)) {
+      selectedTranslations.add(tid);
+      syncTranslationUI();
+      rebuildColumns();
+      saveState();
+    }
+    if (bookName !== currentBook || chap !== currentChapter) {
+      navigateToBook(bookName, chap);
+    }
+    let tries = 25;
+    const label = String(verse);
+    const poll = () => {
+      let el = tid
+        ? document.querySelector(`.col[data-translation="${tid}"] .verse[data-v="${label}"]`)
+        : null;
+      if (!el) el = Array.from(document.querySelectorAll('.verse[data-v]'))
+                          .find(v => verseLabelsOverlap(label, v.dataset.v));
+      if (el) {
+        el.scrollIntoView({ behavior: 'smooth', block: 'center' });
+        selectedVerses.clear();
+        document.querySelectorAll('.verse').forEach(v => v.classList.remove('v-selected'));
+        selectedVerses.add(label);
+        highlightVerse(label, 'v-selected', true);
+      } else if (--tries > 0) {
+        setTimeout(poll, 120);
+      }
+    };
+    setTimeout(poll, 80);
+  }
+
+  // Default translation select — populated from favorites
+  function updateDefaultTransSelect() {
+    const sel = document.getElementById('default-trans-sel');
+    if (!sel) return;
+    const favs = getFavorites().filter(id => ALL_TRANS[id]?.loaded);
+    const pool = favs.length > 0 ? favs : TRANS_ORDER.filter(id => ALL_TRANS[id]?.loaded);
+    sel.innerHTML = '<option value="">— Seçin —</option>' +
+      pool.map(id => {
+        const meta = ALL_TRANS[id];
+        const sel_ = id === defaultTrans ? ' selected' : '';
+        return `<option value="${id}"${sel_}>${id} — ${meta?.name || id}</option>`;
+      }).join('');
+  }
+  updateDefaultTransSelect();
+
+  document.getElementById('default-trans-sel')?.addEventListener('change', e => {
+    defaultTrans = e.target.value || null;
+    _lsSet('kkf_default_trans', defaultTrans || '');
+  });
+
+  // Cross-ref hover tooltip
+  (function() {
+    const tooltip = document.getElementById('xref-tooltip');
+    const ttRef   = tooltip.querySelector('.xref-tt-ref');
+    const ttText  = tooltip.querySelector('.xref-tt-text');
+    let activeEl  = null;
+    let _timer    = null;
+
+    function positionAt(el) {
+      tooltip.style.left = '-9999px';
+      tooltip.style.top  = '-9999px';
+      requestAnimationFrame(() => {
+        const er = el.getBoundingClientRect();
+        const tr = tooltip.getBoundingClientRect();
+        let left = er.left + er.width / 2 - tr.width / 2;
+        let top  = er.top - tr.height - 8;
+        left = Math.max(8, Math.min(left, window.innerWidth - tr.width - 8));
+        if (top < 6) top = er.bottom + 8;
+        tooltip.style.left = left + 'px';
+        tooltip.style.top  = top  + 'px';
+      });
+    }
+
+    async function show(el) {
+      const bookName = el.dataset.book;
+      const chap     = parseInt(el.dataset.chap, 10);
+      const verse    = parseInt(el.dataset.verse, 10);
+      const bookCode = BOOK_CODES[bookName];
+      if (!bookCode) return;
+
+      const tid = (defaultTrans && ALL_TRANS[defaultTrans]?.loaded)
+        ? defaultTrans
+        : [...selectedTranslations][0] || TRANS_ORDER.find(id => ALL_TRANS[id]?.loaded);
+      if (!tid) return;
+
+      const cacheKey = `${tid}|${bookCode}|${chap}`;
+      let verses = chapterCache.get(cacheKey);
+      if (!verses) {
+        try {
+          const res  = await fetch(`data/translations/${tid}/${bookCode}/${chap}.json`);
+          if (!res.ok) throw new Error();
+          const data = await res.json();
+          verses = data.content ?? [];
+          chapterCache.set(cacheKey, verses);
+        } catch { return; }
+      }
+
+      const items = verses.filter(v => v.v != null);
+      let target = items.find(v => v.v === verse);
+      if (!target && items.length) {
+        target = items.reduce((best, v) =>
+          Math.abs(v.v - verse) < Math.abs(best.v - verse) ? v : best, items[0]);
+      }
+      if (!target || activeEl !== el) return;
+
+      ttRef.textContent  = `${el.textContent}  ·  ${tid}`;
+      ttText.textContent = target.text;
+      tooltip.classList.add('visible');
+      positionAt(el);
+    }
+
+    function hide() {
+      tooltip.classList.remove('visible');
+      activeEl = null;
+      clearTimeout(_timer);
+    }
+
+    const notes = document.getElementById('commentary-notes');
+    notes.addEventListener('mouseover', e => {
+      const xref = e.target.closest('.xref-link');
+      if (!xref || xref === activeEl) return;
+      clearTimeout(_timer);
+      activeEl = xref;
+      _timer = setTimeout(() => show(xref), 100);
+    });
+    notes.addEventListener('mouseout', e => {
+      if (!e.target.closest('.xref-link') || !e.relatedTarget?.closest('.xref-link')) hide();
+    });
+  })();
+
+  function renderCommentary(data) {
+    const introEl = document.getElementById('commentary-intro');
+    const notesEl = document.getElementById('commentary-notes');
+    const emptyEl = document.getElementById('commentary-empty');
+
+    introEl.textContent = data.intro || '';
+    notesEl.innerHTML = '';
+
+    if (!data.notes || data.notes.length === 0) {
+      emptyEl.style.display = 'block';
+      return;
+    }
+
+    data.notes.forEach(note => {
+      const div = document.createElement('div');
+      div.className = 'comm-note';
+      const vn = _parseNoteVerse(note.ref);
+      if (vn !== null) div.dataset.verse = vn;
+      const ref = document.createElement('div');
+      ref.className = 'comm-ref';
+      ref.textContent = note.ref.includes(':') ? note.ref.split(':')[1].trim() : note.ref;
+      const text = document.createElement('div');
+      text.className = 'comm-text';
+      // Italicize terms that appear in italics on source site (quoted with apostrophes)
+      text.innerHTML = linkifyXrefs(note.text
+        .replace(/([A-ZÇĞİÖŞÜa-zçğışöşü][^\.\!\?]{2,30}?) (Bkz\.|bkz\.|Krş\.|krş\.)/g, '<em>$1</em> $2')
+        .replace(/\bBkz\. /g, '<span style="color:rgba(184,146,42,0.7)">Bkz. </span>')
+        .replace(/\bbkz\. /g, '<span style="color:rgba(184,146,42,0.7)">bkz. </span>'));
+      div.appendChild(ref);
+      div.appendChild(text);
+      notesEl.appendChild(div);
+    });
+
+    // Size the pre-space, then sync commentary to current column position.
+    updateCommentaryPreSpace();
+
+    function _currentColVerse() {
+      const cols = getCols();
+      let verse = verseNums[0]?.[0] ?? 1;
+      if (cols.length && versePos[0] && Object.keys(versePos[0]).length) {
+        const pos = getPosition(cols, 0);
+        if (pos.verse != null) verse = pos.verse;
+      }
+      return verse;
+    }
+
+    // Immediate sync (double-RAF so pre-space height is in layout).
+    requestAnimationFrame(() => requestAnimationFrame(() => {
+      if (_commLeading) return;
+      scrollCommentaryToVerse(_currentColVerse());
+    }));
+
+    // The sidebar animates from width:0 → width:460px (0.28s). While it's
+    // narrow, text wraps more heavily → note heights are inflated → the
+    // scroll position lands one note too far. Re-sync once the animation ends
+    // with the final, correct layout.
+    const _sidebarEl = document.getElementById('sidebar-panel');
+    function _onSidebarOpen(e) {
+      if (e.propertyName !== 'width') return;
+      _sidebarEl.removeEventListener('transitionend', _onSidebarOpen);
+      if (!_sidebarEl.classList.contains('open')) return;
+      updateCommentaryPreSpace();
+      if (!_commLeading) scrollCommentaryToVerse(_currentColVerse());
+    }
+    _sidebarEl.addEventListener('transitionend', _onSidebarOpen);
+  }
+
+  function updateCommentaryPreSpace() {
+    const body = document.getElementById('commentary-body');
+    const pre  = document.getElementById('commentary-pre-space');
+    const post = document.getElementById('commentary-post-space');
+    if (!body) return;
+    const H = body.clientHeight;
+    if (pre) pre.style.height = '0px';
+    if (post) {
+      // Post-space must be exactly (H - lastNoteHeight) so the furthest the
+      // user can scroll is the last note's top edge flush with the panel top —
+      // no blank space below the last note is ever reachable.
+      const notes    = body.querySelectorAll('.comm-note');
+      const lastNote = notes[notes.length - 1];
+      const lastH    = lastNote ? lastNote.getBoundingClientRect().height : 0;
+      post.style.height = Math.max(0, H - lastH) + 'px';
+    }
+  }
+
+  window.addEventListener('resize', updateCommentaryPreSpace);
+
+  // Commentary body → reading columns reverse sync
+  (function() {
+    const body = document.getElementById('commentary-body');
+
+    // Find the note whose label (top edge) has most recently crossed the viewport top.
+    // "Last note whose top ≤ bodyRect.top + 1" — switches verse exactly when the next
+    // note's label scrolls to the top, not when the previous note's body scrolls away.
+    function topNoteAtViewport() {
+      const bodyRect = body.getBoundingClientRect();
+      const notes = Array.from(body.querySelectorAll('.comm-note[data-verse]'));
+      let found = null;
+      for (const note of notes) {
+        if (note.getBoundingClientRect().top <= bodyRect.top + 1) found = note;
+        else break;
+      }
+      return { found, bodyRect, notes };
+    }
+
+    function syncColsToCommentary() {
+      const sidebar = document.getElementById('sidebar-panel');
+      if (!sidebar.classList.contains('open')) return;
+      const { found, bodyRect, notes } = topNoteAtViewport();
+      if (!found) {
+        // Spacer area visible — sync to first verse
+        if (verseNums[0]?.length) {
+          const cols = getCols();
+          cols.forEach((col, idx) => applyPosition(cols, idx, null, verseNums[0][0], 0));
+        }
+        return;
+      }
+      const verseNum = parseInt(found.dataset.verse, 10);
+      if (isNaN(verseNum)) return;
+      const cols = getCols();
+      cols.forEach((col, idx) => applyPosition(cols, idx, null, verseNum, 0));
+    }
+
+    function scheduleSettle() {
+      clearTimeout(_commLeadTimer);
+      _commLeadTimer = setTimeout(() => {
+        _commLeading = false;
+        // One-shot post-scroll settle: sync columns after commentary comes to rest
+        // Skip if a column is currently leading (forward sync is active)
+        requestAnimationFrame(() => {
+          if (leader === null) syncColsToCommentary();
+        });
+      }, 350);
+    }
+
+    body.addEventListener('wheel', () => {
+      _commLeading = true;
+      scheduleSettle();
+    }, { passive: true });
+    body.addEventListener('touchstart', () => {
+      _commLeading = true;
+      clearTimeout(_commLeadTimer);
+    }, { passive: true });
+    body.addEventListener('touchend', () => { scheduleSettle(); }, { passive: true });
+
+    body.addEventListener('scroll', () => {
+      if (!_commLeading) return;
+      const sidebar = document.getElementById('sidebar-panel');
+      if (!sidebar.classList.contains('open')) return;
+      syncColsToCommentary();
+    }, { passive: true });
+  })();
+
+  // Reload commentary when book/chapter changes if sidebar is open
+  function _maybeReloadCommentary() {
+    if (document.getElementById('sidebar-panel').classList.contains('open')) {
+      loadCommentary(currentBook, currentChapter);
+    }
+  }
+
+  // ── Column info popup ────────────────────────────────────────────────
+  (function() {
+    const popup  = document.getElementById('col-info-popup');
+    let openTid  = null;
+
+    function showColInfo(tid, headerEl) {
+      const meta   = ALL_TRANS[tid] || { name: tid, year: '' };
+      const credit = TRANS_CREDITS[tid] || '';
+      popup.querySelector('.cip-abbr').textContent = tid;
+      popup.querySelector('.cip-name').textContent = meta.name;
+      popup.querySelector('.cip-year').textContent = meta.yearLabel || (meta.year ? String(meta.year) : '');
+      const creditEl = popup.querySelector('.cip-credit');
+      creditEl.textContent  = credit;
+      creditEl.style.display = credit ? '' : 'none';
+      popup.classList.add('open');
+      openTid = tid;
+
+      requestAnimationFrame(() => {
+        const rect = headerEl.getBoundingClientRect();
+        const pw   = popup.offsetWidth || 260;
+        let   left = rect.left + (rect.width - pw) / 2;
+        left = Math.max(6, Math.min(left, window.innerWidth - pw - 6));
+        popup.style.left = left + 'px';
+        popup.style.top  = (rect.bottom + 5) + 'px';
+      });
+    }
+
+    function hideColInfo() { popup.classList.remove('open'); openTid = null; }
+
+    document.getElementById('okuyucu_layout').addEventListener('click', e => {
+      const hdr = e.target.closest('.col-header[data-tid]');
+      if (!hdr) return;
+      const tid = hdr.dataset.tid;
+      if (openTid === tid) { hideColInfo(); return; }
+      showColInfo(tid, hdr);
+    });
+
+    document.addEventListener('click', e => {
+      if (!openTid) return;
+      if (!popup.contains(e.target) && !e.target.closest('.col-header')) hideColInfo();
+    });
+  })();
+
+  // Resize: re-evaluate tabs and strip mob-visible on desktop
+  window.addEventListener('resize', () => {
+    buildMobileColTabs();
+    if (!isMobile()) {
+      document.querySelectorAll('#okuyucu_layout .col')
+        .forEach(c => c.classList.remove('mob-visible'));
+      backdrop.classList.remove('visible');
+    }
+  });
+</script>
+</body>
+</html>
