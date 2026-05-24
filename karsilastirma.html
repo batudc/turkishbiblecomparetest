@@ -1539,7 +1539,19 @@
     #kie-tooltip .kie-tt-gloss {
       color: #3d2e1a;
     }
-  </style>
+  
+    footer { background: #08141F; padding: 4rem 4.5rem 2.5rem; }
+    .footer-inner { max-width: 1300px; margin: 0 auto; display: grid; grid-template-columns: 2fr 1fr 1fr; gap: 3rem; }
+    .footer-brand img { height: 40px; margin-bottom: 1rem; filter: brightness(0) invert(1); opacity: 0.8; }
+    .footer-tagline { font-size: 0.82rem; line-height: 1.65; color: rgba(253,250,246,0.4); max-width: 220px; }
+    .footer-col-title { font-size: 0.65rem; font-weight: 700; letter-spacing: 0.18em; text-transform: uppercase; color: rgba(253,250,246,0.35); margin-bottom: 1.25rem; }
+    .footer-links { list-style: none; display: flex; flex-direction: column; gap: 0.7rem; }
+    .footer-links a { font-size: 0.82rem; color: rgba(253,250,246,0.5); text-decoration: none; transition: color 0.2s; }
+    .footer-links a:hover { color: var(--gold-light, #d4a843); }
+    .footer-bottom { max-width: 1300px; margin: 2.5rem auto 0; padding-top: 1.5rem; border-top: 1px solid rgba(253,250,246,0.06); display: flex; align-items: center; justify-content: space-between; }
+    .footer-copy { font-size: 0.72rem; color: rgba(253,250,246,0.25); letter-spacing: 0.05em; }
+    @media (max-width: 1024px) { .footer-inner { grid-template-columns: 1fr 1fr; } }
+</style>
   <script defer src="/_vercel/insights/script.js"></script>
   <script defer src="/_vercel/speed-insights/script.js"></script>
 </head>
@@ -3984,5 +3996,35 @@
     }
   });
 </script>
+
+  <footer>
+    <div class="footer-inner">
+      <div class="footer-brand">
+        <img src="brand_assets/logo.png" alt="Kutsal Kitap İnceleme" />
+        <p class="footer-tagline">Türkçe Kutsal Kitap çevirilerini karşılaştırın ve özgün dilde inceleyin.</p>
+      </div>
+      <div>
+        <p class="footer-col-title">Araçlar</p>
+        <ul class="footer-links">
+          <li><a href="karsilastirma.html">Karşılaştırma</a></li>
+          <li><a href="antikdil.html">Dil İnceleme</a></li>
+          <li><a href="arama.html">Ayet Ara</a></li>
+        </ul>
+      </div>
+      <div>
+        <p class="footer-col-title">Hakkında</p>
+        <ul class="footer-links">
+          <li><a href="hakkimizda.html">Biz Kimiz</a></li>
+          <li><a href="iletisim.html">İletişim</a></li>
+          <li><a href="gizlilik.html">Gizlilik</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p class="footer-copy">© 2026 Kutsal Kitap İnceleme. Tüm hakları saklıdır.</p>
+      <p class="footer-copy">Sevgiyle inşa edildi</p>
+    </div>
+  </footer>
+
 </body>
 </html>
