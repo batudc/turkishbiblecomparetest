@@ -1,35 +1,64 @@
 {
-  "1": {
-    "4": "“Yizreel”: “Tanrı ekecek” ya da “Tanrı dağıtacak” anlamına gelir.",
-    "6": "“Lo-Ruhama”: “Merhamete ermeyecek” anlamına gelir.",
-    "9": "“Lo-Ammi”: “Halkım değil” anlamına gelir."
-  },
-  "2": {
-    "15": "“Akor”: “Sıkıntı” anlamına gelir.",
-    "16": "“Efendim”: İbranice “Baalım”. Burada bir söz sanatı var. Baal hem bir ilahın adı hem de “Koca”, “Efendi” anlamlarına gelir."
+  "3": {
+    "1": "Üzüm pestilleri putlara sunulurdu.",
+    "2": "“On beş şekel”: Yaklaşık 170 gr."
   },
   "6": {
-    "7": "“Adam Kenti'nde”: “Adem gibi”, “Adam gibi” ya da “Adam Kenti gibi” anlamlarına da gelebilir."
+    "7": "“Adam Kenti'nde”: “Adem gibi”, “Adam gibi” ya da “Adam Kenti gibi” anlamlarına da gelebilir.",
+    "6": "Bkz. Mat.9:13; 12:7"
+  },
+  "8": {
+    "13": "Bkz. Yer.14:10"
   },
   "4": {
     "7": "Masoretik metin “Onların onurunu utanca çevireceğim”, Süryanice ve bazı eski İbrani din bilginlerine göre “Onurumu utanca çevirecekler”.",
     "8": "“Günahlarıyla”: İbranice sözcük hem “Günah” hem de “Günah sunusu” anlamına gelir (bkz. Lev.6:25-30",
     "15": "Gilgal ve Beytaven (Beytel) Tanrı'nın benimsemediği tapınma merkezleriydi."
   },
-  "3": {
-    "1": "Üzüm pestilleri putlara sunulurdu.",
-    "2": "“On beş şekel”: Yaklaşık 170 gr."
+  "2": {
+    "15": "“Akor”: “Sıkıntı” anlamına gelir. — Bkz. Yşu.7:24-26",
+    "16": "“Efendim”: İbranice “Baalım”. Burada bir söz sanatı var. Baal hem bir ilahın adı hem de “Koca”, “Efendi” anlamlarına gelir.",
+    "23": "Bkz. Rom.9:25; 1Pe.2:10"
+  },
+  "11": {
+    "1": "Bkz. Çık.4:22; Mat.2:15",
+    "8": "Bkz. Yas.29:23"
+  },
+  "1": {
+    "4": "“Yizreel”: “Tanrı ekecek” ya da “Tanrı dağıtacak” anlamına gelir. — Bkz. 2Kr.10:11",
+    "6": "“Lo-Ruhama”: “Merhamete ermeyecek” anlamına gelir.",
+    "9": "“Lo-Ammi”: “Halkım değil” anlamına gelir.",
+    "1": "Bkz. 2Kr.15:1-7; 2Ta.26:1-23 — Bkz. 2Kr.15:32-38; 2Ta.27:1-8 — Bkz. 2Kr.16:1-20; 2Ta.28:1-27 — Bkz. 2Kr.14:23-29",
+    "10": "Bkz. Rom.9:26"
+  },
+  "12": {
+    "3": "Bkz. Yar.25:26 — Bkz. Yar.32:24-26",
+    "4": "Bkz. Yar.28:10-22",
+    "9": "Bkz. Lev.23:42-43",
+    "12": "Bkz. Yar.29:1-20",
+    "13": "Bkz. Çık.12:50-51"
+  },
+  "10": {
+    "8": "“Aven”: “Kötülük” anlamına gelir (bkz. 4:15). — Bkz. Luk.23:30; Va.6:16",
+    "9": "Bkz. Hâk.19:1-30",
+    "12": "Bkz. Yer.4:3"
   },
   "14": {
     "2": "“Kurban”: İbranice “Boğa”."
   },
-  "10": {
-    "8": "“Aven”: “Kötülük” anlamına gelir (bkz. 4:15)."
+  "9": {
+    "6": "“Mof”: Memfis diye de bilinir.",
+    "7": "Bkz. Luk.21:22",
+    "9": "Bkz. Hâk.19:1-30",
+    "10": "Bkz. Say.25:1-5"
+  },
+  "13": {
+    "5": "Bkz. Yas.8:11-17",
+    "10": "Bkz. 1Sa.8:5-6",
+    "11": "Bkz. 1Sa.10:17-24 — Bkz. 1Sa.15:26",
+    "14": "Bkz. 1Ko.15:55"
   },
   "7": {
     "14": "“Kendilerini yaralıyor” ya da “toplanıyor”."
-  },
-  "9": {
-    "6": "“Mof”: Memfis diye de bilinir."
   }
 }

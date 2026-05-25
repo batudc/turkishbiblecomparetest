@@ -1,40 +1,26 @@
 {
-  "3": {
-    "3": "“Altmış arşın”: Yaklaşık 27 m.",
-    "4": "“Yüz yirmi arşın”: Yaklaşık 54 m.",
-    "8": "“Yirmi arşın”: Yaklaşık 9 m.",
-    "9": "“Elli şekel”: Yaklaşık 575 gr.",
-    "11": "“Beş arşın”: Yaklaşık 2.3 m.",
-    "15": "“Otuz beş arşın”: Yaklaşık 15.8 m.",
-    "16": "“Gerdanlığa benzer” ya da “İç odada”.",
-    "17": "“Yakin”: “Pekiştirir” anlamına gelir."
-  },
-  "2": {
-    "8": "“Algum”: Ne çeşit ağaç olduğu bilinmiyor. Bir tür ardıç ağacı olduğu sanılıyor.",
-    "10": "“Yirmi bin kor bulgur”: Yaklaşık 3 500 ton."
+  "8": {
+    "18": "“Dört yüz elli talant”: Yaklaşık 15.5 ton.",
+    "13": "Bkz. Say.28:9-15"
   },
   "6": {
     "5": "“İçinde bulunacağım”: İbranice “Adım orada bulunacak”. Benzer ifadeler 6:6,20'de de geçer.",
     "13": "“Beş arşın”: Yaklaşık 2.3 m.",
     "33": "“Sana ait olduğunu”: İbranice “Senin adınla çağrıldığını.”",
-    "42": "“Kulun Davut'a yaptığın iyilikleri anımsa” ya da “Kulun Davut'un yaptığı iyilikleri anımsa”."
+    "42": "“Kulun Davut'a yaptığın iyilikleri anımsa” ya da “Kulun Davut'un yaptığı iyilikleri anımsa”.",
+    "4": "Bkz. 2Sa.7:1-13; 1Ta.17:1-12",
+    "16": "Bkz. 1Kr.2:4",
+    "18": "Bkz. 2Ta.2:6",
+    "20": "Bkz. Yas.12:11"
   },
   "1": {
-    "16": "“Keve”: Büyük bir olasılıkla “Kilikya”, yani “Çukurova bölgesi”.",
-    "17": "“Altı yüz şekel”: Yaklaşık 6.9 kg."
-  },
-  "13": {
-    "5": "“Bozulmaz bir antlaşma”: İbranice “Tuz antlaşması”."
-  },
-  "8": {
-    "18": "“Dört yüz elli talant”: Yaklaşık 15.5 ton."
-  },
-  "12": {
-    "1": "“İsrail”, yani “Yahuda”."
-  },
-  "15": {
-    "8": "Bazı Vulgata elyazmaları “Peygamber Odet'in oğlu Azarya'nın”, Masoretik metin “Peygamber Odet'in” (bkz. 15:1).",
-    "17": "“İsrail”, yani “Yahuda”."
+    "16": "“Keve”: Büyük bir olasılıkla “Kilikya”, yani “Çukurova bölgesi”. — Bkz. Yas.17:16",
+    "17": "“Altı yüz şekel”: Yaklaşık 6.9 kg.",
+    "4": "Bkz. 2Sa.6:1-17; 1Ta.13:5-14",
+    "5": "Bkz. Çık.38:1-7",
+    "9": "Bkz. Yar.13:16; 28:14",
+    "14": "Bkz. 1Kr.4:26",
+    "15": "Bkz. Yas.17:17"
   },
   "9": {
     "9": "“120 talant”: Yaklaşık 4.1 ton.",
@@ -42,66 +28,162 @@
     "13": "“666 talant”: Yaklaşık 23 ton.",
     "15": "“Altı yüz şekel”: Yaklaşık 6.9 kg.",
     "16": "“Üç yüz şekel”: Yaklaşık 3.5 kg.",
-    "21": "“Tarşiş'e” ya da “Uzun yola”."
+    "21": "“Tarşiş'e” ya da “Uzun yola”.",
+    "1": "Bkz. Mat.12:42; Luk.11:31",
+    "25": "Bkz. 1Kr.4:26",
+    "26": "Bkz. Yar.15:18; 1Kr.4:21",
+    "27": "Bkz. Yas.17:17",
+    "28": "Bkz. Yas.17:16"
   },
-  "17": {
-    "6": "“RAB"
+  "11": {
+    "15": "Bkz. 1Kr.12:31 — Bkz. Lev.17:7"
+  },
+  "2": {
+    "8": "“Algum”: Ne çeşit ağaç olduğu bilinmiyor. Bir tür ardıç ağacı olduğu sanılıyor.",
+    "10": "“Yirmi bin kor bulgur”: Yaklaşık 3 500 ton.",
+    "6": "Bkz. 1Kr.8:27; 2Ta.6:18"
+  },
+  "5": {
+    "1": "Bkz. 2Sa.8:11; 1Ta.18:11",
+    "2": "Bkz. 2Sa.6:12-15; 1Ta.15:25-28",
+    "10": "Bkz. Yas.10:5",
+    "13": "Bkz. 1Ta.16:34; 2Ta.7:3; Ezr.3:11; Mez.100:5; 106:1; 107:1; 118:1; 136:1; Yer.33:11 — Bkz. Çık.40:34-35"
+  },
+  "13": {
+    "5": "“Bozulmaz bir antlaşma”: İbranice “Tuz antlaşması”."
+  },
+  "3": {
+    "3": "“Altmış arşın”: Yaklaşık 27 m.",
+    "4": "“Yüz yirmi arşın”: Yaklaşık 54 m.",
+    "8": "“Yirmi arşın”: Yaklaşık 9 m. — Bkz. Çık.26:33-34",
+    "9": "“Elli şekel”: Yaklaşık 575 gr.",
+    "11": "“Beş arşın”: Yaklaşık 2.3 m.",
+    "15": "“Otuz beş arşın”: Yaklaşık 15.8 m.",
+    "16": "“Gerdanlığa benzer” ya da “İç odada”.",
+    "17": "“Yakin”: “Pekiştirir” anlamına gelir.",
+    "10": "Bkz. Çık.25:18-20",
+    "14": "Bkz. Çık.26:31"
+  },
+  "4": {
+    "1": "“Yirmi arşın”: Yaklaşık 9 m. — Bkz. Çık.27:1-2",
+    "2": "“Beş arşın”: Yaklaşık 2.3 m.",
+    "3": "“Bir arşın”: Yaklaşık 45 cm.",
+    "5": "“Üç bin bat”: Yaklaşık 66 000 lt.",
+    "6": "Bkz. Çık.30:17-21",
+    "7": "Bkz. Çık.25:31-40",
+    "8": "Bkz. Çık.25:23-30"
+  },
+  "7": {
+    "1": "Bkz. Lev.9:23-24",
+    "3": "Bkz. 1Ta.16:34; 2Ta.5:13; Ezr.3:11; Mez.100:5; 106:1; 107:1; 118:1; 136:1; Yer.33:11",
+    "18": "Bkz. 1Kr.2:4"
+  },
+  "15": {
+    "8": "Bazı Vulgata elyazmaları “Peygamber Odet'in oğlu Azarya'nın”, Masoretik metin “Peygamber Odet'in” (bkz. 15:1).",
+    "17": "“İsrail”, yani “Yahuda”."
   },
   "19": {
     "8": "“İsrail”, yani “Yahuda”."
   },
-  "23": {
-    "2": "“İsrail”, yani “Yahuda”."
-  },
-  "20": {
-    "1": "Septuaginta “Meunlular”, Masoretik metin “Ammonlular” (bkz. 26:7).",
-    "26": "“Beraka”: “Övgü” ya da “Kutsama” anlamına gelir.",
-    "36": "“Tarşiş'e gidecek gemiler” ya da “Uzun yol gemileri”.",
-    "37": "“Tarşiş'e” ya da “Uzun yola”."
-  },
-  "26": {
-    "1": "“Uzziya”: Azarya diye de bilinir."
-  },
-  "25": {
-    "6": "“Yüz talant”: Yaklaşık 3.45 ton.",
-    "23": "“Yehoahaz”: Ahazya diye de bilinir.",
-    "28": "“Yahuda Kenti”, yani “Yeruşalim”."
-  },
-  "4": {
-    "1": "“Yirmi arşın”: Yaklaşık 9 m.",
-    "2": "“Beş arşın”: Yaklaşık 2.3 m.",
-    "3": "“Bir arşın”: Yaklaşık 45 cm.",
-    "5": "“Üç bin bat”: Yaklaşık 66 000 lt."
-  },
-  "30": {
-    "20": "“Bağışladı”: İbranice “Sağlığa kavuşturdu” (bkz. 7:14)."
-  },
-  "22": {
-    "2": "2Kr.8:26, bazı Septuaginta elyazmaları ve Süryanice “Yirmi iki”, Masoretik metin “Kırk iki”."
-  },
   "21": {
     "2": "“İsrail”, yani “Yahuda”.",
-    "17": "“Yehoahaz”: Ahazya diye de bilinir."
+    "17": "“Yehoahaz”: Ahazya diye de bilinir.",
+    "7": "Bkz. 1Kr.11:36; 15:4; 2Kr.8:19; Mez.132:17",
+    "8": "Bkz. Yar.27:40"
+  },
+  "22": {
+    "2": "2Kr.8:26, bazı Septuaginta elyazmaları ve Süryanice “Yirmi iki”, Masoretik metin “Kırk iki”.",
+    "6": "Bkz. 2Kr.9:15-16"
+  },
+  "10": {
+    "16": "Bkz. 2Sa.20:1"
+  },
+  "18": {
+    "16": "Bkz. Say.27:17; Hez.34:5; Zek.10:2; Mat.9:36; Mar.6:34"
+  },
+  "23": {
+    "2": "“İsrail”, yani “Yahuda”.",
+    "3": "Bkz. 2Sa.7:12"
+  },
+  "26": {
+    "1": "“Uzziya”: Azarya diye de bilinir.",
+    "18": "Bkz. Çık.30:7-8; Say.3:10",
+    "23": "Bkz. Yşa.6:1"
   },
   "27": {
     "5": "“Yüz talant”: Yaklaşık 3.45 ton."
   },
   "28": {
-    "19": "“İsrail”, yani “Yahuda”."
+    "19": "“İsrail”, yani “Yahuda”.",
+    "5": "Bkz. 2Kr.16:5; Yşa.7:1",
+    "27": "Bkz. Yşa.14:28"
   },
-  "35": {
-    "18": "“İsrail”, yani “Yahuda”."
+  "17": {
+    "6": "“RAB"
   },
-  "33": {
-    "19": "Masoretik metin “Hozay'ın”, bir İbranice elyazması ve Septuaginta “Bilicilerin”."
+  "31": {
+    "4": "Bkz. Say.18:12-13; 21"
+  },
+  "25": {
+    "6": "“Yüz talant”: Yaklaşık 3.45 ton.",
+    "23": "“Yehoahaz”: Ahazya diye de bilinir.",
+    "28": "“Yahuda Kenti”, yani “Yeruşalim”.",
+    "4": "Bkz. Yas.24:16; Hez.18:20"
   },
   "24": {
-    "20": "“Zekeriya'nın üzerine indi”: İbranice “Zekeriya'yı kuşandı”.",
-    "23": "“Yıl sonunda”: O çağda kullanılan iki ayrı takvime göre ya “Sonbahar” ya da “İlkbahar” olabilir."
+    "20": "“Zekeriya'nın üzerine indi”: İbranice “Zekeriya'yı kuşandı”. — Bkz. Mat.23:35; Luk.11:51; İbr.11:37",
+    "23": "“Yıl sonunda”: O çağda kullanılan iki ayrı takvime göre ya “Sonbahar” ya da “İlkbahar” olabilir.",
+    "6": "Bkz. Çık.30:11-16"
+  },
+  "20": {
+    "1": "Septuaginta “Meunlular”, Masoretik metin “Ammonlular” (bkz. 26:7).",
+    "26": "“Beraka”: “Övgü” ya da “Kutsama” anlamına gelir.",
+    "36": "“Tarşiş'e gidecek gemiler” ya da “Uzun yol gemileri”.",
+    "37": "“Tarşiş'e” ya da “Uzun yola”.",
+    "7": "Bkz. Yşa.41:8; Yak.2:23",
+    "10": "Bkz. Yas.2:4-19",
+    "15": "Bkz. Yas.20:1-4"
+  },
+  "34": {
+    "1": "Bkz. Yer.3:6",
+    "4": "Bkz. 2Kr.21:3; 2Ta.33:3",
+    "5": "Bkz. 1Kr.13:2"
+  },
+  "30": {
+    "20": "“Bağışladı”: İbranice “Sağlığa kavuşturdu” (bkz. 7:14).",
+    "2": "Bkz. Say.9:9-11"
+  },
+  "35": {
+    "18": "“İsrail”, yani “Yahuda”.",
+    "4": "Bkz. 2Ta.8:14",
+    "13": "Bkz. Çık.12:8-9",
+    "15": "Bkz. 1Ta.25:1",
+    "17": "Bkz. Çık.12:1-20"
+  },
+  "32": {
+    "31": "Bkz. 2Kr.20:10-11; Yşa.38:7-8"
   },
   "36": {
-    "3": "“Yüz talant”: Yaklaşık 3.45 ton.",
-    "21": "“Şabat yılları”: RAB",
-    "22": "“Koreş”: Tarihsel kayıtlarda “Keyhüsrev” diye de geçer."
+    "3": "“Yüz talant”: Yaklaşık 3.45 ton. — Bkz. Yer.22:11-12",
+    "21": "“Şabat yılları”: RAB — Bkz. Yer.25:11; 29:10",
+    "22": "“Koreş”: Tarihsel kayıtlarda “Keyhüsrev” diye de geçer.",
+    "5": "Bkz. Yer.22:18-19; 26:1-6; 35:1-19",
+    "6": "Bkz. Yer.25:1-38; 36:1-32; 45:1-5; Dan.1:1-2",
+    "10": "Bkz. Yer.22:24-30; 24:1-10; 29:1-2; Hez.17:12 — Bkz. Yer.37:1; Hez.17:13",
+    "11": "Bkz. Yer.27:1-22; 28:1-17",
+    "13": "Bkz. Hez.17:15",
+    "16": "Bkz. Mat.5:12; Luk.6:23; Elç.7:52-53",
+    "17": "Bkz. Yer.21:1-10; 34:1-5",
+    "23": "Bkz. Yşa.44:28"
+  },
+  "12": {
+    "1": "“İsrail”, yani “Yahuda”.",
+    "9": "Bkz. 1Kr.10:16-17; 2Ta.9:15-16"
+  },
+  "33": {
+    "19": "Masoretik metin “Hozay'ın”, bir İbranice elyazması ve Septuaginta “Bilicilerin”.",
+    "2": "Bkz. Yer.15:4",
+    "4": "Bkz. 2Sa.7:13",
+    "7": "Bkz. 1Kr.9:3-5; 2Ta.7:12-18"
   }
 }
