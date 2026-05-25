@@ -141,7 +141,33 @@
       .form-grid { grid-template-columns: 1fr; }
       .footer-inner { grid-template-columns: 1fr 1fr; }
     }
-  </style>
+  
+    @media (max-width: 640px) {
+      nav { padding: 0 1rem; height: 60px; }
+      .nav-logo-text { display: none; }
+      .nav-search-wrap { max-width: none; }
+      .nav-links { display: none; }
+
+      /* Page hero padding */
+      .page-hero { padding: 7rem 1.25rem 3rem; }
+      .page-hero-title { font-size: clamp(2.2rem, 9vw, 3.2rem); }
+      .page-content { padding: 2.5rem 1.25rem; }
+
+      /* Footer */
+      footer { padding: 2.5rem 1.25rem 1.5rem; }
+      .footer-inner { grid-template-columns: 1fr; gap: 2rem; }
+      .footer-bottom { flex-direction: column; gap: 0.35rem; text-align: center; }
+    }
+
+    @media (max-width: 640px) {
+      .contact-section { padding: 3rem 1.25rem; }
+      .contact-inner { grid-template-columns: 1fr; gap: 2.5rem; }
+      .contact-form { padding: 1.75rem 1.25rem; }
+      .form-grid { grid-template-columns: 1fr; }
+      .page-hero { padding: 7rem 1.25rem 3rem; }
+      .page-title { font-size: clamp(2.2rem, 9vw, 3.2rem); }
+    }
+</style>
 </head>
 <body>
 

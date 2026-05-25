@@ -405,7 +405,45 @@
       .tools-section { padding-left: 1.5rem; padding-right: 1.5rem; }
       .footer-inner { grid-template-columns: 1fr 1fr; }
     }
-  </style>
+  
+    @media (max-width: 640px) {
+      /* Nav */
+      nav { padding: 0 1rem; height: 60px; }
+      .nav-logo-text { display: none; }
+      .nav-search-wrap { max-width: none; }
+      nav svg { left: 8px; }
+
+      /* Hero */
+      .hero { grid-template-columns: 1fr; min-height: auto; }
+      .hero-bg-left { padding: 5rem 1.25rem 2.5rem; }
+      .hero-right { display: none; }
+      .hero-headline { font-size: clamp(2.6rem, 10vw, 3.5rem); }
+      .hero-sub { margin-bottom: 2rem; font-size: 0.9rem; }
+      .hero-actions { flex-direction: column; align-items: stretch; }
+      .btn-primary, .btn-secondary { justify-content: center; text-align: center; }
+      .hero-stats { flex-wrap: wrap; gap: 1.25rem 2.5rem; margin-top: 2rem; padding-top: 1.75rem; }
+      .stat-num { font-size: 1.75rem; }
+
+      /* Tools section */
+      .tools-section { padding: 3rem 1.25rem; }
+      .tools-header > div { grid-template-columns: 1fr !important; gap: 1rem !important; }
+      .section-heading { font-size: clamp(1.9rem, 7vw, 2.5rem); }
+      .tools-grid { grid-template-columns: 1fr; gap: 1.25rem; }
+      .tool-card-header { padding: 1.75rem 1.25rem 1.5rem; }
+      .tool-card-body { padding: 1.25rem; }
+
+      /* Force-show reveal elements (scroll trigger unreliable on mobile) */
+      .reveal { opacity: 1 !important; transform: none !important; transition: none !important; }
+
+      /* Marquee */
+      .marquee-inner { animation-duration: 18s; }
+
+      /* Footer */
+      footer { padding: 2.5rem 1.25rem 1.5rem; }
+      .footer-inner { grid-template-columns: 1fr; gap: 2rem; }
+      .footer-bottom { flex-direction: column; gap: 0.35rem; text-align: center; }
+    }
+</style>
   <script defer src="/_vercel/insights/script.js"></script>
   <script defer src="/_vercel/speed-insights/script.js"></script>
 </head>
