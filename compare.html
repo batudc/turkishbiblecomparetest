@@ -1539,6 +1539,55 @@
     #kie-tooltip .kie-tt-gloss {
       color: #3d2e1a;
     }
+
+    /* ===== ALI1665 ERRATA STAR & TOOLTIP ===== */
+    .errata-star {
+      display: inline;
+      background: none;
+      border: none;
+      cursor: pointer;
+      color: var(--gold);
+      font-size: 13px;
+      line-height: 1;
+      padding: 0 1px;
+      vertical-align: super;
+      font-family: 'Jost', sans-serif;
+      font-weight: 900;
+      opacity: 1;
+      transition: opacity 0.12s, color 0.12s;
+    }
+    .errata-star:hover { color: var(--gold-light); opacity: 0.8; }
+    .errata-star:focus-visible { outline: 1px solid var(--gold); outline-offset: 1px; }
+
+    #errata-tooltip {
+      position: fixed;
+      z-index: 800;
+      background: #0d1a26;
+      border: 1px solid rgba(184,146,42,0.35);
+      border-radius: 4px;
+      padding: 10px 14px 12px;
+      max-width: 320px;
+      pointer-events: none;
+      opacity: 0;
+      transition: opacity 0.15s ease;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.55);
+    }
+    #errata-tooltip.visible { opacity: 1; pointer-events: auto; }
+    .errata-tt-label {
+      font-size: 8px;
+      font-weight: 700;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      color: rgba(184,146,42,0.7);
+      margin-bottom: 7px;
+      font-family: 'Jost', sans-serif;
+    }
+    .errata-tt-text {
+      font-family: 'EB Garamond', Georgia, serif;
+      font-size: 13.5px;
+      line-height: 1.65;
+      color: rgba(247,241,232,0.82);
+    }
   </style>
   <script defer src="/_vercel/insights/script.js"></script>
   <script defer src="/_vercel/speed-insights/script.js"></script>
@@ -1718,6 +1767,7 @@
 
 <div id="kie-tooltip"><span class="kie-tt-word"></span><span class="kie-tt-sep"> : </span><span class="kie-tt-gloss"></span></div>
 <div id="xref-tooltip"><div class="xref-tt-ref"></div><div class="xref-tt-text"></div></div>
+<div id="errata-tooltip"><div class="errata-tt-label">El yazması notu · 1665</div><div class="errata-tt-text"></div></div>
 
 <script>
   // ── Static data ───────────────────────────────────────────────────────
@@ -1953,6 +2003,19 @@
   // Search state
   const searchState = { query: '', scanning: false, timer: null };
 
+  // ── Errata data cache (ALI1665) ───────────────────────────────────────
+  const errataCache = {};
+  async function getErrataData(bookCode) {
+    if (bookCode in errataCache) return errataCache[bookCode];
+    try {
+      const res = await fetch(`data/errata/ALI1665_${bookCode}.json`);
+      errataCache[bookCode] = res.ok ? await res.json() : null;
+    } catch {
+      errataCache[bookCode] = null;
+    }
+    return errataCache[bookCode];
+  }
+
   // ── Translation availability helper ──────────────────────────────────
   function isTransAvailableForBook(tid, bookCode) {
     if (tid === 'SEA1666'     && !SEA_BOOKS.has(bookCode))       return false;
@@ -2096,7 +2159,7 @@
     return text;
   }
 
-  function renderChapter(container, data, chapterFallback, translationId) {
+  function renderChapter(container, data, chapterFallback, translationId, chapterErrata) {
     const chDiv = document.createElement('div');
     chDiv.className = 'chapter';
     const chNum = data.c ?? chapterFallback ?? currentChapter;
@@ -2119,6 +2182,15 @@
         const vnLabel = (rangeEnd && rangeEnd > item.v) ? `${item.v}-${rangeEnd}` : String(item.v);
         const verseText = isKie ? parseKieGlosses(item.text) : item.text;
         v.innerHTML = `<span class="vn">${vnLabel}</span><span class="vt">${verseText}</span>`;
+        const errataNote = chapterErrata?.[String(item.v)];
+        if (errataNote) {
+          const star = document.createElement('button');
+          star.className = 'errata-star';
+          star.textContent = '*';
+          star.title = 'El yazması notu (1665)';
+          star.dataset.note = errataNote;
+          v.querySelector('.vt').appendChild(star);
+        }
         chDiv.appendChild(v);
       }
     });
@@ -2151,13 +2223,18 @@
     const container = colEl.querySelector('.col-content');
     if (!container) return;
     container.innerHTML = '<div class="col-loading"></div>';
+    let chapterErrata = null;
+    if (translationId === 'ALI1665') {
+      const errataData = await getErrataData(bookCode);
+      chapterErrata = errataData ? (errataData[String(chapter)] ?? null) : null;
+    }
     try {
       const res = await fetch(`data/translations/${translationId}/${bookCode}/${chapter}.json`, { cache: 'no-cache' });
       if (!res.ok) throw new Error('not found');
       const data = await res.json();
       // Cache for search
       chapterCache.set(`${translationId}|${bookCode}|${chapter}`, data.content ?? []);
-      renderChapter(container, data, chapter, translationId);
+      renderChapter(container, data, chapter, translationId, chapterErrata);
     } catch {
       const entry = TRANS_NOTES[translationId];
       if (entry && !entry[0].has(bookCode)) {
@@ -2738,6 +2815,44 @@
     });
 
     // Also hide when scrolling the column
+    document.addEventListener('scroll', hide, true);
+  })();
+
+  // ── ALI1665 Errata tooltip ────────────────────────────────────────────
+  (() => {
+    const tip = document.getElementById('errata-tooltip');
+    const tipText = tip.querySelector('.errata-tt-text');
+    let activeStar = null;
+
+    function showAt(star) {
+      tipText.textContent = star.dataset.note;
+      tip.classList.add('visible');
+      requestAnimationFrame(() => {
+        const rect = star.getBoundingClientRect();
+        const tipW = tip.offsetWidth || 320;
+        const tipH = tip.offsetHeight || 80;
+        let left = rect.left;
+        let top  = rect.bottom + 7;
+        if (left + tipW > window.innerWidth - 8) left = window.innerWidth - tipW - 8;
+        if (left < 8) left = 8;
+        if (top + tipH > window.innerHeight - 8) top = rect.top - tipH - 7;
+        tip.style.left = left + 'px';
+        tip.style.top  = top  + 'px';
+      });
+    }
+    function hide() { tip.classList.remove('visible'); activeStar = null; }
+
+    document.addEventListener('click', e => {
+      const star = e.target.closest('.errata-star');
+      if (star) {
+        e.stopPropagation();
+        if (activeStar === star) { hide(); return; }
+        activeStar = star;
+        showAt(star);
+      } else if (!e.target.closest('#errata-tooltip')) {
+        hide();
+      }
+    });
     document.addEventListener('scroll', hide, true);
   })();
 
