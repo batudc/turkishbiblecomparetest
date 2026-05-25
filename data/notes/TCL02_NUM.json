@@ -1,75 +1,82 @@
 {
-  "7": {
-    "13": "\"130 kutsal yerin şekeli\": Yaklaşık 1.3 kg. Aynı ifade 19,25,31,37,43,49,55,61,67,73,79,85 ayetlerinde de geçer. / \"Yetmiş şekel\": Yaklaşık 700 gr. Aynı ifade 19,25,31,37,43,49,55,61,67,73,79,85 ayetlerinde de geçer.",
-    "14": "\"On şekel\": Yaklaşık 100 gr. Aynı ifade 20,26,32,38,44,50,56,62,68,74,80,86 ayetlerinde de geçer.",
-    "85": "\"2 400 kutsal yerin şekeli\": Yaklaşık 24 kg.",
-    "86": "\"120 şekel\": Yaklaşık 1.2 kg.",
-    "89": "\"Bağışlanma Kapağı\" diye çevrilen İbranice Kapporet"
-  },
-  "4": {
-    "3": "\"Hizmet etmeye\": İbranice \"Savaşta görev almak\" anlamına da gelebilir. Aynı ifade şu ayetlerde geçiyor: 4:23,30,34-35,38-39,42-43 ve 8:24,25.",
-    "6": "\"Deri\": Yunus balığı derisi olabilir."
-  },
   "3": {
-    "47": "\"Beş kutsal yerin şekeli\": Yaklaşık 50 gr. gümüş. / \"Yirmi gera\": Yaklaşık 10 gr. gümüş.",
-    "50": "\"1 365 kutsal yerin şekeli\": Yaklaşık 13.7 kg."
+    "3": "“Kâhin”: Tanrı ile insanlar arasında aracılık yapan ve Tanrı'ya kurban sunmak gibi dinsel işlerle uğraşan görevli. Kâhinin büyücülük, falcılık, sihirbazlık, gaipten haber vermek gibi işlerle uğraşması söz konusu değildi. Bu uygulamalar Yas.18:9-14",
+    "47": "“Beş kutsal yerin şekeli”: Yaklaşık 50 gr. gümüş.",
+    "50": "“1 365 kutsal yerin şekeli”: Yaklaşık 13.7 kg."
   },
   "5": {
-    "15": "\"Onda bir efa arpa unu\": Yaklaşık 1.5 kg."
+    "15": "“Onda bir efa arpa unu”: Yaklaşık 1.5 kg."
   },
   "1": {
-    "50": "\"Levha Sandığı\": Antlaşma Sandığı diye de bilinir."
+    "1": "“Buluşma Çadırı”: İnsanların Tanrı'ya danıştıkları yer (bkz. Çık.33:7-10).",
+    "50": "“Levha Sandığı”: Antlaşma Sandığı diye de bilinir."
   },
-  "13": {
-    "16": "Hoşea \"Kurtuluş\", Yeşu \"RAB",
-    "22": "\"Soan Kenti\": Tanis Kenti olduğu sanılıyor.",
-    "24": "\"Eşkol\": \"Salkım\" anlamına gelir."
+  "7": {
+    "13": "“130 kutsal yerin şekeli”: Yaklaşık 1.3 kg. Aynı ifade 19,25,31,37,43,49,55,61,67,73,79,85 ayetlerinde de geçer.",
+    "14": "“On şekel”: Yaklaşık 100 gr. Aynı ifade 20,26,32,38,44,50,56,62,68,74,80,86 ayetlerinde de geçer.",
+    "85": "“2 400 kutsal yerin şekeli”: Yaklaşık 24 kg.",
+    "86": "“120 şekel”: Yaklaşık 1.2 kg.",
+    "89": "“Bağışlanma Kapağı” diye çevrilen İbranice Kapporet"
+  },
+  "4": {
+    "3": "“Hizmet etmeye”: İbranice “Savaşta görev almak” anlamına da gelebilir. Aynı ifade şu ayetlerde geçiyor: 4:23,30,34-35,38-39,42-43 ve 8:24,25.",
+    "6": "“Deri”: Yunus balığı derisi olabilir.",
+    "25": "“Deri”: Yunus balığı derisi olabilir."
   },
   "11": {
-    "3": "\"Tavera\": \"Yangın\" anlamına gelir.",
-    "31": "\"İki arşın\": Yaklaşık 90 cm.",
-    "32": "\"On homer\": Yaklaşık 2 200 litrelik bir ölçek.",
-    "34": "\"Kivrot-Hattaava\": \"Özlem mezarları\" anlamına gelir."
-  },
-  "20": {
-    "13": "\"Meriva\": \"Çıkışma\" anlamına gelir."
-  },
-  "18": {
-    "16": "\"Beş kutsal yerin şekeli\": Yaklaşık 50 gr.",
-    "19": "\"Bozulmaz bir antlaşmadır\": İbranice \"Tuz antlaşmasıdır\"."
-  },
-  "21": {
-    "3": "\"Horma\": \"Büsbütün yok etmek\" ya da \"Koşulsuz adamak\" anlamına gelir.",
-    "16": "\"Beer\": \"Kuyu\" anlamına gelir."
-  },
-  "28": {
-    "5": "\"Onda iki efa\": Yaklaşık 2.6 kg. Aynı ifade 12,20-21,28-29 ayetlerinde de geçer.",
-    "12": "\"Onda üç efa\": Yaklaşık 3.9 kg. Aynı ifade 20-21,28-29 ayetlerinde de geçer.",
-    "14": "\"Yarım hin\": Yaklaşık 1.8 lt. / \"Üçte bir hin\": Yaklaşık 1.2 lt. / \"Dörtte bir hin\": Yaklaşık 0.9 lt."
+    "3": "“Tavera”: “Yangın” anlamına gelir.",
+    "31": "“İki arşın”: Yaklaşık 90 cm.",
+    "32": "“On homer”: Yaklaşık 2 200 litrelik bir ölçek.",
+    "34": "“Kivrot-Hattaava”: “Özlem mezarları” anlamına gelir."
   },
   "15": {
-    "4": "\"Dörtte bir hin\": Yaklaşık 0.9 lt. / \"Onda bir efa\": Yaklaşık 1.3 kg.",
-    "6": "\"Üçte bir hin\": Yaklaşık 1.2 lt. / \"Onda iki efa\": Yaklaşık 2.6 kg.",
-    "9": "\"Yarım hin\": Yaklaşık 1.8 lt. / \"Onda üç efa\": Yaklaşık 3.9 kg."
+    "4": "“Dörtte bir hin”: Yaklaşık 0.9 lt.",
+    "6": "“Üçte bir hin”: Yaklaşık 1.2 lt.",
+    "9": "“Yarım hin”: Yaklaşık 1.8 lt."
+  },
+  "21": {
+    "3": "“Horma”: “Büsbütün yok etmek” ya da “Koşulsuz adamak” anlamına gelir.",
+    "16": "“Beer”: “Kuyu” anlamına gelir."
+  },
+  "20": {
+    "13": "“Meriva”: “Çıkışma” anlamına gelir."
+  },
+  "18": {
+    "16": "“Beş kutsal yerin şekeli”: Yaklaşık 50 gr.",
+    "19": "“Bozulmaz bir antlaşmadır”: İbranice “Tuz antlaşmasıdır”."
+  },
+  "29": {
+    "3": "“Onda üç efa”: Yaklaşık 3.9 kg. Aynı ifade 9,14-15 ayetlerinde de geçer."
+  },
+  "13": {
+    "16": "Hoşea “Kurtuluş”, Yeşu “RAB",
+    "22": "“Soan Kenti”: Tanis Kenti olduğu sanılıyor.",
+    "24": "“Eşkol”: “Salkım” anlamına gelir."
   },
   "24": {
-    "17": "\"Önder\": İbranice \"Asa\".",
-    "24": "\"Kittim\": Bugünkü Kıbrıs."
-  },
-  "33": {
-    "45": "\"İyim,\" yani \"İye-Haavarim\"."
-  },
-  "32": {
-    "41": "\"Havvot-Yair\": \"Yair'in yerleşim birimleri\" anlamına gelir."
+    "17": "“Önder”: İbranice “Asa”.",
+    "24": "“Kittim”: Bugünkü Kıbrıs."
   },
   "31": {
-    "52": "\"16 750 şekel\": Yaklaşık 190 kg."
+    "52": "“16 750 şekel”: Yaklaşık 190 kg."
+  },
+  "33": {
+    "45": "“İyim,” yani “İye-Haavarim”."
+  },
+  "32": {
+    "41": "“Havvot-Yair”: “Yair'in yerleşim birimleri” anlamına gelir."
   },
   "34": {
-    "11": "\"Kinneret Gölü,\" yani \"Celile Gölü\"."
+    "11": "“Kinneret Gölü,” yani “Celile Gölü”."
+  },
+  "28": {
+    "5": "“Dörtte bir hin”: Yaklaşık 0.9 lt.",
+    "9": "“Onda iki efa”: Yaklaşık 2.6 kg. Aynı ifade 12,20-21,28-29 ayetlerinde de geçer.",
+    "12": "“Onda üç efa”: Yaklaşık 3.9 kg. Aynı ifade 20-21,28-29 ayetlerinde de geçer.",
+    "14": "“Yarım hin”: Yaklaşık 1.8 lt."
   },
   "35": {
-    "4": "\"Bin arşın\": Yaklaşık 450 m.",
-    "5": "\"İki bin arşın\": Yaklaşık 900 m."
+    "4": "“Bin arşın”: Yaklaşık 450 m.",
+    "5": "“İki bin arşın”: Yaklaşık 900 m."
   }
 }

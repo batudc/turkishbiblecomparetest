@@ -1,33 +1,35 @@
 {
-  "2": {
-    "8": "Olası metin \"Gözbebeğime\", Masoretik metin \"Gözbebeğine\"."
-  },
-  "6": {
-    "1": "\"Ruhudur\" ya da \"rüzgarıdır\"."
-  },
   "5": {
-    "2": "\"Yirmi arşın\": Yaklaşık 9 m. / \"On arşın\": Yaklaşık 4.5 m.",
-    "6": "\"Ölçü kabı\": İbranice \"Efa\", yaklaşık 22 litrelik bir ölçek.",
-    "11": "\"Şinar,\" yani \"Babil\"."
+    "2": "“Yirmi arşın”: Yaklaşık 9 m.",
+    "6": "“Ölçü kabı”: İbranice “Efa”, yaklaşık 22 litrelik bir ölçek.",
+    "11": "“Şinar,” yani “Babil”."
   },
   "8": {
-    "25": "\"Kent kapılarınızda\": Eski zamanlarda mahkeme kent kapısında yapılırdı."
-  },
-  "3": {
-    "9": "\"Gözü\" ya da \"yüzü\".",
-    "12": "\"Dal\": Mesih'in adlarından biri."
-  },
-  "14": {
-    "3": "\"Yıkıma\" ya da \"lanete\".",
-    "21": "\"Tüccar\" ya da \"Kenanlı\"."
-  },
-  "11": {
-    "13": "Masoretik metin \"Çömlekçiye\", Süryanice \"Hazineye\"."
+    "16": "“Kent kapılarınızda”: Eski zamanlarda mahkeme kent kapısında yapılırdı."
   },
   "10": {
-    "3": "\"Önderleri\": İbranice \"Tekeleri\"."
+    "3": "“Önderleri”: İbranice “Tekeleri”."
+  },
+  "11": {
+    "13": "Masoretik metin “Çömlekçiye”, Süryanice “Hazineye”."
+  },
+  "6": {
+    "5": "“Ruhudur” ya da “rüzgarıdır”.",
+    "14": "Süryanice “Helday” (bkz.6:10"
   },
   "13": {
-    "5": "Olası metin \"Gençliğimden beri hep tarlada çalıştım\", Masoretik metin \"Çünkü bir adam beni gençliğimde köle olarak satın aldı\"."
+    "5": "Olası metin “Gençliğimden beri hep tarlada çalıştım”, Masoretik metin “Çünkü bir adam beni gençliğimde köle olarak satın aldı”."
+  },
+  "2": {
+    "8": "Olası metin “Gözbebeğime”, Masoretik metin “Gözbebeğine”."
+  },
+  "14": {
+    "11": "“Yıkıma” ya da “lanete”.",
+    "21": "“Tüccar” ya da “Kenanlı”."
+  },
+  "3": {
+    "2": "Süryanice “RAB",
+    "8": "“Dal”: Mesih'in adlarından biri.",
+    "9": "“Gözü” ya da “yüzü”."
   }
 }

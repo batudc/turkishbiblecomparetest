@@ -1,107 +1,113 @@
 {
+  "6": {
+    "10": "“Tıkalı”: İbranice “Sünnetsiz*”."
+  },
   "7": {
-    "3": "\"Kalmanızı sağlarım\" ya da \"sizinle kalırım\".",
-    "18": "\"Gök Kraliçesi\": Babilliler'in tanrıçası İştar."
+    "3": "“Kalmanızı sağlarım” ya da “sizinle kalırım”.",
+    "18": "“Gök Kraliçesi”: Babilliler'in tanrıçası İştar."
   },
   "4": {
-    "4": "\"Kendinizi RAB"
+    "4": "“Kendinizi RAB"
   },
   "2": {
-    "10": "\"Kedar\": İsrail'in doğusundaki ülkeleri temsil ediyor.",
-    "11": "\"Görkemini\": Bazı eski İbrani din bilginlerine göre \"Görkemimi\".",
-    "16": "\"Nof\": Memfis diye de bilinir.",
-    "18": "\"Şihor\": Nil'in kollarından biri olduğu sanılıyor."
+    "10": "“Kittim”: Kıbrıs ve İsrail'in batısındaki başka ülkeleri temsil ediyor.",
+    "11": "“Görkemini”: Bazı eski İbrani din bilginlerine göre “Görkemimi”.",
+    "16": "“Nof”: Memfis diye de bilinir.",
+    "18": "“Şihor”: Nil'in kollarından biri olduğu sanılıyor."
   },
-  "6": {
-    "10": "\"Tıkalı\": İbranice \"Sünnetsiz*\"."
-  },
-  "1": {
-    "12": "İbranice \"Badem\" ve \"Gözlemekteyim\" sözcükleri birbirini çağrıştırıyor.",
-    "14": "İbranice \"Kaynayan\" ve \"Salıverilecek\" sözcükleri birbirini çağrıştırıyor."
+  "15": {
+    "14": "Septuaginta “Köle edeceğim”, Masoretik metin “Geçireceğim” (bkz. 17:4"
   },
   "9": {
-    "26": "\"Zülüflerini\" ya da \"sakallarının uçlarını\"."
+    "26": "“Zülüflerini” ya da “sakallarının uçlarını”."
+  },
+  "1": {
+    "11": "İbranice “Badem” ve “Gözlemekteyim” sözcükleri birbirini çağrıştırıyor.",
+    "13": "İbranice “Kaynayan” ve “Salıverilecek” sözcükleri birbirini çağrıştırıyor."
+  },
+  "11": {
+    "15": "Septuaginta “Adaklar”, Masoretik metin “Birçokları”."
+  },
+  "19": {
+    "2": "“Harsit”: “Kırık çömlek parçaları” anlamına gelir."
   },
   "10": {
     "11": "Bu ayet Aramice yazılmıştır."
   },
-  "11": {
-    "15": "Septuaginta \"Adaklar\", Masoretik metin \"Birçokları\"."
-  },
-  "22": {
-    "11": "\"Şallum\": Yehoahaz diye de bilinir (bkz. 2Kr.23:29– 30).",
-    "23": "Septuaginta, Süryanice, Vulgata \"İnleyeceksin\", Masoretik metin \"Acınacaksın\"."
-  },
   "20": {
-    "3": "\"Magor-Missaviv\": \"Her yer dehşet içinde\" anlamına gelir. Aynı ifade 20:10'da da geçer."
-  },
-  "27": {
-    "8": "Targum, Süryanice \"Onun eline teslim edene dek\", Masoretik metin \"Onun eliyle yok edilişi tamamlanana dek\"."
-  },
-  "23": {
-    "6": "\"Yahve sidkenu\": \"RAB"
+    "3": "“Magor-Missaviv”: “Her yer dehşet içinde” anlamına gelir. Aynı ifade 20:10'da da geçer."
   },
   "25": {
-    "23": "\"Zülüflerini\" ya da \"sakallarının uçlarını\".",
-    "26": "\"Şeşak\": Babil'i simgeleyen şifreli bir söz."
+    "23": "“Zülüflerini” ya da “sakallarının uçlarını”.",
+    "26": "“Şeşak”: Babil'i simgeleyen şifreli bir söz."
   },
-  "32": {
-    "9": "\"On yedi şekel\": Yaklaşık 200 gr.",
-    "18": "\"İnsana\" ya da \"kuşağa\"."
+  "23": {
+    "5": "“Dal”: Mesih'in adlarından biri.",
+    "6": "“Yahve sidkenu”: “RAB"
+  },
+  "27": {
+    "8": "Targum, Süryanice “Onun eline teslim edene dek”, Masoretik metin “Onun eliyle yok edilişi tamamlanana dek”."
   },
   "31": {
-    "32": "\"Kocası\" ya da \"efendisi\"."
+    "32": "“Kocası” ya da “efendisi”."
+  },
+  "22": {
+    "11": "“Şallum”: Yehoahaz diye de bilinir (bkz. 2Kr.23:29– 30).",
+    "23": "“Lübnan”: Yeruşalim'de bir sarayın adı olduğu sanılıyor."
+  },
+  "32": {
+    "9": "“On yedi şekel”: Yaklaşık 200 gr.",
+    "18": "“İnsana” ya da “kuşağa”."
   },
   "33": {
-    "5": "Olası metin \"Kildaniler\", Masoretik metin \"Kildaniler'le\".",
-    "15": "\"Dal\": Mesih'in adlarından biri.",
-    "16": "\"Yahve sidkenu\": \"RAB"
-  },
-  "42": {
-    "1": "Septuaginta \"Azarya\", Masoretik metin \"Yezanya\" (bkz. 43:2)."
+    "5": "Olası metin “Kildaniler”, Masoretik metin “Kildaniler'le”.",
+    "15": "“Dal”: Mesih'in adlarından biri.",
+    "16": "“Yahve sidkenu”: “RAB"
   },
   "38": {
-    "10": "Olası metin \"Üç\", Masoretik metin \"Otuz\"."
+    "10": "Olası metin “Üç”, Masoretik metin “Otuz”."
   },
-  "43": {
-    "12": "Septuaginta, Süryanice, Vulgata \"Yakacak\", Masoretik metin \"Yakacağım\"."
-  },
-  "44": {
-    "1": "\"Nof\": Memfis diye de bilinir.",
-    "17": "\"Gök Kraliçesi\": Babilliler'in tanrıçası İştar."
-  },
-  "40": {
-    "5": "Süryanice \"Burada kalırsan\", Masoretik metin \"Dönmedi ve\"."
+  "39": {
+    "3": "Yer.38:28"
   },
   "41": {
-    "9": "Septuaginta \"Büyüktü\", Masoretik metin \"Gedalya'nın aracılığıyla\"."
+    "9": "Septuaginta “Büyüktü”, Masoretik metin “Gedalya'nın aracılığıyla”."
   },
-  "47": {
-    "4": "\"Kaftor\": Bugünkü Girit."
+  "42": {
+    "1": "Septuaginta “Azarya”, Masoretik metin “Yezanya” (bkz. 43:2)."
   },
-  "49": {
-    "16": "\"Kaya\": İbranice \"Sela\". \"Kaya\" anlamına gelen Sela, Edom'un başkentinin adıydı.",
-    "32": "\"Zülüflerini\" ya da \"sakallarının uçlarını\"."
+  "40": {
+    "5": "Süryanice “Burada kalırsan”, Masoretik metin “Dönmedi ve”."
+  },
+  "43": {
+    "12": "Septuaginta, Süryanice, Vulgata “Yakacak”, Masoretik metin “Yakacağım”."
   },
   "46": {
-    "14": "\"Nof\": Memfis diye de bilinir.",
-    "15": "Olası metin \"İlahın Apis neden kaçtı? Boğan neden ayakta kalamadı? Çünkü RAB",
-    "25": "\"No\": Tebes diye de bilinir."
+    "14": "“Nof”: Memfis diye de bilinir.",
+    "15": "“Apis”: Mısırlılar'ın boğa şeklindeki güç ilahı.",
+    "25": "“No”: Tebes diye de bilinir."
   },
   "50": {
-    "21": "Meratayim \"İki kat isyan\", Pekot \"Ceza\" anlamına gelir."
+    "21": "Meratayim “İki kat isyan”, Pekot “Ceza” anlamına gelir."
   },
-  "48": {
-    "2": "Heşbon \"Düzen kurmak\", Madmen \"Susturmak\" sözcüklerini çağrıştırıyor.",
-    "6": "Septuaginta \"Yaban eşeği\", Masoretik metin \"Ilgın ağacı\".",
-    "32": "\"Göl,\" yani \"Lut Gölü\"."
-  },
-  "51": {
-    "1": "\"Lev-Kamay\": \"Düşmanın yüreği\" anlamına gelen Kildan ülkesini simgeleyen şifreli bir söz.",
-    "41": "\"Şeşak\": Babil'i simgeleyen şifreli bir söz."
+  "47": {
+    "4": "“Kaftor”: Bugünkü Girit."
   },
   "52": {
-    "21": "\"On sekiz arşın\": Yaklaşık 8.1 m. / \"On iki arşın\": Yaklaşık 5.4 m.",
-    "22": "\"Beş arşın\": Yaklaşık 2.3 m."
+    "21": "“On sekiz arşın”: Yaklaşık 8.1 m.",
+    "22": "“Beş arşın”: Yaklaşık 2.3 m."
+  },
+  "48": {
+    "2": "Heşbon “Düzen kurmak”, Madmen “Susturmak” sözcüklerini çağrıştırıyor.",
+    "6": "Septuaginta “Yaban eşeği”, Masoretik metin “Ilgın ağacı”.",
+    "32": "“Göl,” yani “Lut Gölü”."
+  },
+  "49": {
+    "16": "“Kaya”: İbranice “Sela”. “Kaya” anlamına gelen Sela, Edom'un başkentinin adıydı.",
+    "32": "“Zülüflerini” ya da “sakallarının uçlarını”."
+  },
+  "51": {
+    "1": "“Lev-Kamay”: “Düşmanın yüreği” anlamına gelen Kildan ülkesini simgeleyen şifreli bir söz.",
+    "41": "“Şeşak”: Babil'i simgeleyen şifreli bir söz."
   }
 }

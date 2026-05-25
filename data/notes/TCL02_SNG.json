@@ -1,23 +1,23 @@
 {
-  "2": {
-    "1": "\"Şaron\" verimli bir kıyı bölgesiydi.",
-    "16": "\"Gezinir\": İbranice \"Sürü otlatır\"."
-  },
-  "4": {
-    "4": "\"Kakma taşlarla\" ya da \"Silahhane olarak\". İbranice sözcüğün anlamı kesin olarak bilinmiyor."
-  },
   "7": {
-    "9": "Septuaginta, Vulgata \"Dudaklarına, dişlerine\", Masoretik metin \"Uyuyanların dudaklarına\".",
-    "11": "\"Köylerde\" ya da \"Kına çalıları arasında\"."
+    "9": "Septuaginta, Vulgata “Dudaklarına, dişlerine”, Masoretik metin “Uyuyanların dudaklarına”.",
+    "11": "“Köylerde” ya da “Kına çalıları arasında”."
+  },
+  "6": {
+    "2": "“Gezinmek” ya da “Sürü otlatmak”.",
+    "3": "“Gezinip” ya da “Sürü otlatıp”.",
+    "4": "“Tirsa”: İsrail'in kuzey krallığındaki ilk başkenti. “Hoş, güzel” anlamına gelir.",
+    "13": "“Mahanayim oyunu”: “İki grup halinde oynanan bir oyun” anlamına gelebilir."
+  },
+  "2": {
+    "1": "“Şaron” verimli bir kıyı bölgesiydi.",
+    "16": "“Gezinir”: İbranice “Sürü otlatır”."
   },
   "1": {
     "7": "Eski çağlarda kadının örtünmesi fahişe olduğunu gösterirdi.",
-    "12": "\"Divandayken\" ya da \"Sofradayken\"."
+    "12": "“Divandayken” ya da “Sofradayken”."
   },
-  "6": {
-    "2": "\"Gezinmek\" ya da \"Sürü otlatmak\".",
-    "3": "\"Gezinip\" ya da \"Sürü otlatıp\".",
-    "4": "\"Tirsa\": İsrail'in kuzey krallığındaki ilk başkenti. \"Hoş, güzel\" anlamına gelir.",
-    "13": "\"Mahanayim oyunu\": \"İki grup halinde oynanan bir oyun\" anlamına gelebilir."
+  "4": {
+    "4": "“Kakma taşlarla” ya da “Silahhane olarak”. İbranice sözcüğün anlamı kesin olarak bilinmiyor."
   }
 }

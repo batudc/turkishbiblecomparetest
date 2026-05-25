@@ -1,55 +1,74 @@
 {
-  "8": {
-    "45": "\"Petrus\": Birçok Grekçe elyazmasında, \"Petrus ve yanındakiler\" diye geçer."
-  },
   "4": {
-    "44": "\"Yahudiye'deki\": Birçok Grekçe elyazmasında, \"Celile'deki\" diye geçer."
+    "44": "“Yahudiye'deki”: Birçok Grekçe elyazmasında, “Celile'deki” diye geçer."
   },
   "3": {
-    "32": "\"Salmon\": Bazı Grekçe elyazmalarında, \"Sala\" diye geçer.",
-    "33": "\"Ram oğlu\": Bazı Grekçe elyazmalarında, \"Admin oğlu, Arni oğlu\" diye geçer."
-  },
-  "2": {
-    "29": "\"Artık ben, kulun huzur içinde ölebilirim\": Grekçe \"Kulunu şimdi esenlikle salıveriyorsun\"."
+    "32": "“Salmon”: Bazı Grekçe elyazmalarında, “Sala” diye geçer.",
+    "33": "“Ram oğlu”: Bazı Grekçe elyazmalarında, “Admin oğlu, Arni oğlu” diye geçer."
   },
   "1": {
-    "66": "\"Rab\": Grekçe \"Rab'bin eli\"."
-  },
-  "13": {
-    "21": "\"Ölçek\": Grekçe \"Saton"
-  },
-  "9": {
-    "56": "Bazı Grekçe elyazmalarında 54-56 ayetleri şöyle geçer: … \" ).replace('’', Rab, İlyas'ın yaptığı gibi, bunları yok etmek için bir buyrukla gökten ateş yağdırmamızı ister misin?’ dediler. / Ama İsa dönüp onları azarladı ve şöyle dedi: ).replace('’', Siz hangi ruha ait olduğunuzu bilmiyorsunuz. / Çünkü İnsanoğlu insanları yok etmeye değil, kurtarmaya geldi.’ Sonra…\""
-  },
-  "16": {
-    "6": "\"Ölçek\": Grekçe \"Batos",
-    "7": "\"Ölçek\": Grekçe \"Koros",
-    "8": "\"Işıkta yürüyenlerden\": Grekçe \"Işık oğullarından\".",
-    "9": "\"Dünyanın aldatıcı serveti\": Grekçe \"Haksızlık mamonu\". Aramice",
-    "24": "\"Para\": Grekçe \"Mamon"
-  },
-  "11": {
-    "41": "\"Kaplarınızın içindekini\": Grekçe \"İçtekileri\"."
-  },
-  "15": {
-    "18": "\"Tanrı'ya\": Grekçe \"Göğe\"."
-  },
-  "10": {
-    "1": "\"Yetmiş\": Bazı Grekçe elyazmalarında \"Yetmiş iki\"."
+    "66": "“Rab”: Grekçe “Rab'bin eli”.",
+    "69": "“Güçlü bir kurtarıcı”: Grekçe “Bir kurtuluş boynuzu”. (Boynuz, güç simgesidir.)",
+    "78": "“Doğan Güneş”: Mesih (bkz."
   },
   "12": {
-    "25": "\"Ömrünü bir anlık\" ya da \"boyunu bir arşın\".",
-    "38": "\"Nöbet\": Bkz. Sözlük, \"Saat\".",
+    "25": "“Ömrünü bir anlık” ya da “boyunu bir arşın”.",
+    "38": "“Nöbet”: Bkz. Sözlük, “Saat”.",
     "50": "Bu ayette İsa vaftiz diye çarmıhtaki ölümünden söz etmektedir.",
-    "59": "\"Kuruş\": Grekçe \"Lepton"
+    "59": "“Kuruş”: Grekçe “Lepton"
+  },
+  "10": {
+    "1": "“Yetmiş”: Bazı Grekçe elyazmalarında “Yetmiş iki”."
+  },
+  "11": {
+    "41": "“Kaplarınızın içindekini”: Grekçe “İçtekileri”."
+  },
+  "9": {
+    "30": "“Ayrılış”: Ölüm.",
+    "56": "Bazı Grekçe elyazmalarında 54-56 ayetleri şöyle geçer: … “ ‘Rab, İlyas'ın yaptığı gibi, bunları yok etmek için bir buyrukla gökten ateş yağdırmamızı ister misin?’ dediler."
+  },
+  "8": {
+    "45": "“Petrus”: Birçok Grekçe elyazmasında, “Petrus ve yanındakiler” diye geçer."
+  },
+  "13": {
+    "21": "“Ölçek”: Grekçe “Saton"
+  },
+  "14": {
+    "25": "“Biri bana gelip de babasını, annesini, karısını, çocuklarını, kardeşlerini, hatta kendi canını bile gözden çıkarmazsa”: Grekçe “Biri bana gelip de babasından, annesinden, karısından, çocuklarından, kardeşlerinden, hatta kendi canından bile nefret etmezse”."
+  },
+  "15": {
+    "18": "“Tanrı'ya”: Grekçe “Göğe”."
+  },
+  "2": {
+    "6": "“Han” ya da “konuk odası”. Aynı sözcük Luk.22:11",
+    "22": "“Arınma günleri”: Lev.12:1-4",
+    "29": "“Artık ben, kulun huzur içinde ölebilirim”: Grekçe “Kulunu şimdi esenlikle salıveriyorsun”."
+  },
+  "20": {
+    "3": "“Yahya'nın vaftiz etme yetkisi Tanrı'dan”: Grekçe “Yahya'nın vaftizi gökten”. 5. ayette de “Tanrı'dan” diye çevrilen sözcük Grekçe “Gökten” diye geçer.",
+    "42": "“Ayaklarının altına serinceye dek”: Grekçe “Ayaklarına tabure yapıncaya dek”."
   },
   "22": {
-    "16": "\"Yetkinliğe erişeceği\": Grekçe \"Tamamlanacağı\"."
+    "16": "“Yetkinliğe erişeceği”: Grekçe “Tamamlanacağı”."
   },
-  "21": {
-    "32": "\"Kuşak\" ya da \"soy\"."
+  "17": {
+    "35": "Bazı Grekçe elyazmaları, “Tarlada bulunan iki kişiden biri alınacak, öbürü bırakılacak” sözlerini de içerir (bkz. Mat.24:40"
+  },
+  "16": {
+    "6": "“Ölçek”: Grekçe “Batos",
+    "7": "“Ölçek”: Grekçe “Koros",
+    "8": "“Işıkta yürüyenlerden”: Grekçe “Işık oğullarından”.",
+    "9": "“Dünyanın aldatıcı serveti”: Grekçe “Haksızlık mamonu”. Aramice",
+    "13": "“Para”: Grekçe “Mamon"
   },
   "24": {
-    "13": "\"Altmış ok atımı\": Yaklaşık 11 km."
+    "13": "“Altmış ok atımı”: Yaklaşık 11 km."
+  },
+  "23": {
+    "16": "Birçok Grekçe elyazması, “Pilatus'un her Fısıh Bayramı'nda onlar için bir kişi salıvermesi gerekiyordu” sözlerini de içerir."
+  },
+  "21": {
+    "2": "“Bakır para”: Grekçe “Lepton",
+    "32": "“Kuşak” ya da “soy”."
   }
 }

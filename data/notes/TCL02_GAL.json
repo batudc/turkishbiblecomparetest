@@ -1,17 +1,20 @@
 {
-  "3": {
-    "23": "\"Böylece aklanmış sayıldı\": Grekçe \"Ve ona doğruluk sayıldı\".",
-    "4": "\"İmanla aklanan yaşayacaktır\" ya da \"Doğru kişi imanla yaşayacaktır\".",
-    "19": "\"İbrahim'in soyundan olan Kişi\": Grekçe \"Tohum\", yani İsa Mesih.",
-    "22": "\"Mesih'e olan imana\" ya da \"Mesih'in sadakatine\"."
-  },
   "6": {
-    "14": "\"O'nun çarmıhı aracılığıyla dünya benim için ölüdür\": Grekçe \"Bunun (ya da O'nun) aracılığıyla dünya benim için çarmıha gerilmiştir\"."
+    "14": "“O'nun çarmıhı aracılığıyla dünya benim için ölüdür”: Grekçe “Bunun (ya da O'nun) aracılığıyla dünya benim için çarmıha gerilmiştir”."
   },
   "5": {
-    "5": "\"Aklanmanın verdiği umudun\" ya da \"doğruluğa kavuşma umudunun\"."
+    "5": "“Aklanmanın verdiği umudun” ya da “doğruluğa kavuşma umudunun”."
   },
   "4": {
-    "6": "\"Abba\": Aramice / \"Yüreklerinize\": Birçok Grekçe elyazmasında, \"Yüreklerimize\" diye geçer."
+    "6": "“Abba”: Aramice"
+  },
+  "1": {
+    "15": "“İnsanlara”: Grekçe “Ete ve kana”."
+  },
+  "3": {
+    "6": "“Böylece aklanmış sayıldı”: Grekçe “Ve ona doğruluk sayıldı”.",
+    "11": "“İmanla aklanan yaşayacaktır” ya da “Doğru kişi imanla yaşayacaktır”.",
+    "19": "“İbrahim'in soyundan olan Kişi”: Grekçe “Tohum”, yani İsa Mesih.",
+    "22": "“Mesih'e olan imana” ya da “Mesih'in sadakatine”."
   }
 }

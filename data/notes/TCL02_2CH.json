@@ -1,104 +1,107 @@
 {
   "3": {
-    "3": "\"Altmış arşın\": Yaklaşık 27 m. / \"Yirmi arşın\": Yaklaşık 9 m.",
-    "4": "\"Yüz yirmi arşın\": Yaklaşık 54 m.",
-    "9": "\"Elli şekel\": Yaklaşık 575 gr.",
-    "11": "\"Beş arşın\": Yaklaşık 2.3 m.",
-    "15": "\"Otuz beş arşın\": Yaklaşık 15.8 m.",
-    "16": "\"Gerdanlığa benzer\" ya da \"İç odada\".",
-    "17": "\"Yakin\": \"Pekiştirir\" anlamına gelir. / \"Boaz\": \"Güç O'ndadır (Tanrı'dadır)\" anlamına gelebilir."
-  },
-  "4": {
-    "2": "\"Beş arşın\": Yaklaşık 2.3 m. / \"Otuz arşın\": Yaklaşık 13.5 m.",
-    "3": "\"Bir arşın\": Yaklaşık 45 cm.",
-    "5": "\"Üç bin bat\": Yaklaşık 66 000 lt."
-  },
-  "8": {
-    "18": "\"Dört yüz elli talant\": Yaklaşık 15.5 ton."
+    "3": "“Altmış arşın”: Yaklaşık 27 m.",
+    "4": "“Yüz yirmi arşın”: Yaklaşık 54 m.",
+    "8": "“Yirmi arşın”: Yaklaşık 9 m.",
+    "9": "“Elli şekel”: Yaklaşık 575 gr.",
+    "11": "“Beş arşın”: Yaklaşık 2.3 m.",
+    "15": "“Otuz beş arşın”: Yaklaşık 15.8 m.",
+    "16": "“Gerdanlığa benzer” ya da “İç odada”.",
+    "17": "“Yakin”: “Pekiştirir” anlamına gelir."
   },
   "2": {
-    "8": "\"Algum\": Ne çeşit ağaç olduğu bilinmiyor. Bir tür ardıç ağacı olduğu sanılıyor.",
-    "10": "\"Yirmi bin kor bulgur\": Yaklaşık 3 500 ton. / \"Yirmi bin kor arpa\": Yaklaşık 2 900 ton. / \"Yirmi bin bat\": Yaklaşık 440 000 lt."
-  },
-  "1": {
-    "16": "\"Keve\": Büyük bir olasılıkla \"Kilikya\", yani \"Çukurova bölgesi\".",
-    "17": "\"Altı yüz şekel\": Yaklaşık 6.9 kg. / \"Yüz elli şekel\": Yaklaşık 1.7 kg."
-  },
-  "9": {
-    "9": "\"120 talant\": Yaklaşık 4.1 ton.",
-    "10": "\"Algum\": Ne çeşit ağaç olduğu bilinmiyor. Bir tür ardıç ağacı olduğu sanılıyor.",
-    "13": "\"666 talant\": Yaklaşık 23 ton.",
-    "15": "\"Altı yüz şekel\": Yaklaşık 6.9 kg.",
-    "16": "\"Üç yüz şekel\": Yaklaşık 3.5 kg.",
-    "21": "\"Tarşiş'e\" ya da \"Uzun yola\". / \"Türlü maymunlarla\" ya da \"Maymunlar ve tavuskuşlarıyla\"."
-  },
-  "15": {
-    "8": "Bazı Vulgata elyazmaları \"Peygamber Odet'in oğlu Azarya'nın\", Masoretik metin \"Peygamber Odet'in\" (bkz. 15:1).",
-    "17": "\"İsrail\", yani \"Yahuda\"."
-  },
-  "13": {
-    "5": "\"Bozulmaz bir antlaşma\": İbranice \"Tuz antlaşması\"."
-  },
-  "17": {
-    "6": "\"RAB"
-  },
-  "12": {
-    "1": "\"İsrail\", yani \"Yahuda\"."
-  },
-  "20": {
-    "1": "Septuaginta \"Meunlular\", Masoretik metin \"Ammonlular\" (bkz. 26:7).",
-    "26": "\"Beraka\": \"Övgü\" ya da \"Kutsama\" anlamına gelir.",
-    "36": "\"Tarşiş'e gidecek gemiler\" ya da \"Uzun yol gemileri\".",
-    "37": "\"Tarşiş'e\" ya da \"Uzun yola\"."
-  },
-  "19": {
-    "8": "\"İsrail\", yani \"Yahuda\". / \"Bunlar Yeruşalim'de yaşadılar\" ya da \"Yeruşalim'e döndüler\"."
-  },
-  "22": {
-    "2": "2Kr.8:26, bazı Septuaginta elyazmaları ve Süryanice \"Yirmi iki\", Masoretik metin \"Kırk iki\"."
+    "8": "“Algum”: Ne çeşit ağaç olduğu bilinmiyor. Bir tür ardıç ağacı olduğu sanılıyor.",
+    "10": "“Yirmi bin kor bulgur”: Yaklaşık 3 500 ton."
   },
   "6": {
-    "5": "\"İçinde bulunacağım\": İbranice \"Adım orada bulunacak\". Benzer ifadeler 6:6,20'de de geçer.",
-    "13": "\"Beş arşın\": Yaklaşık 2.3 m. / \"Üç arşın\": Yaklaşık 1.4 m.",
-    "33": "\"Sana ait olduğunu\": İbranice \"Senin adınla çağrıldığını.\"",
-    "42": "\"Kulun Davut'a yaptığın iyilikleri anımsa\" ya da \"Kulun Davut'un yaptığı iyilikleri anımsa\"."
+    "5": "“İçinde bulunacağım”: İbranice “Adım orada bulunacak”. Benzer ifadeler 6:6,20'de de geçer.",
+    "13": "“Beş arşın”: Yaklaşık 2.3 m.",
+    "33": "“Sana ait olduğunu”: İbranice “Senin adınla çağrıldığını.”",
+    "42": "“Kulun Davut'a yaptığın iyilikleri anımsa” ya da “Kulun Davut'un yaptığı iyilikleri anımsa”."
   },
-  "25": {
-    "6": "\"Yüz talant\": Yaklaşık 3.45 ton.",
-    "23": "\"Yehoahaz\": Ahazya diye de bilinir. / \"Dört yüz arşın\": Yaklaşık 180 m.",
-    "28": "\"Yahuda Kenti\", yani \"Yeruşalim\"."
+  "1": {
+    "16": "“Keve”: Büyük bir olasılıkla “Kilikya”, yani “Çukurova bölgesi”.",
+    "17": "“Altı yüz şekel”: Yaklaşık 6.9 kg."
+  },
+  "13": {
+    "5": "“Bozulmaz bir antlaşma”: İbranice “Tuz antlaşması”."
+  },
+  "8": {
+    "18": "“Dört yüz elli talant”: Yaklaşık 15.5 ton."
+  },
+  "12": {
+    "1": "“İsrail”, yani “Yahuda”."
+  },
+  "15": {
+    "8": "Bazı Vulgata elyazmaları “Peygamber Odet'in oğlu Azarya'nın”, Masoretik metin “Peygamber Odet'in” (bkz. 15:1).",
+    "17": "“İsrail”, yani “Yahuda”."
+  },
+  "9": {
+    "9": "“120 talant”: Yaklaşık 4.1 ton.",
+    "10": "“Algum”: Ne çeşit ağaç olduğu bilinmiyor. Bir tür ardıç ağacı olduğu sanılıyor.",
+    "13": "“666 talant”: Yaklaşık 23 ton.",
+    "15": "“Altı yüz şekel”: Yaklaşık 6.9 kg.",
+    "16": "“Üç yüz şekel”: Yaklaşık 3.5 kg.",
+    "21": "“Tarşiş'e” ya da “Uzun yola”."
+  },
+  "17": {
+    "6": "“RAB"
+  },
+  "19": {
+    "8": "“İsrail”, yani “Yahuda”."
   },
   "23": {
-    "2": "\"İsrail\", yani \"Yahuda\"."
+    "2": "“İsrail”, yani “Yahuda”."
   },
-  "21": {
-    "2": "\"İsrail\", yani \"Yahuda\".",
-    "17": "\"Yehoahaz\": Ahazya diye de bilinir."
-  },
-  "27": {
-    "5": "\"Yüz talant\": Yaklaşık 3.45 ton. / \"On bin kor buğday\": Yaklaşık 1 800 ton. / \"On bin kor arpa\": Yaklaşık 1 500 ton."
+  "20": {
+    "1": "Septuaginta “Meunlular”, Masoretik metin “Ammonlular” (bkz. 26:7).",
+    "26": "“Beraka”: “Övgü” ya da “Kutsama” anlamına gelir.",
+    "36": "“Tarşiş'e gidecek gemiler” ya da “Uzun yol gemileri”.",
+    "37": "“Tarşiş'e” ya da “Uzun yola”."
   },
   "26": {
-    "1": "\"Uzziya\": Azarya diye de bilinir."
+    "1": "“Uzziya”: Azarya diye de bilinir."
   },
-  "24": {
-    "37": "\"Zekeriya'nın üzerine indi\": İbranice \"Zekeriya'yı kuşandı\".",
-    "23": "\"Yıl sonunda\": O çağda kullanılan iki ayrı takvime göre ya \"Sonbahar\" ya da \"İlkbahar\" olabilir."
+  "25": {
+    "6": "“Yüz talant”: Yaklaşık 3.45 ton.",
+    "23": "“Yehoahaz”: Ahazya diye de bilinir.",
+    "28": "“Yahuda Kenti”, yani “Yeruşalim”."
   },
-  "28": {
-    "19": "\"İsrail\", yani \"Yahuda\"."
+  "4": {
+    "1": "“Yirmi arşın”: Yaklaşık 9 m.",
+    "2": "“Beş arşın”: Yaklaşık 2.3 m.",
+    "3": "“Bir arşın”: Yaklaşık 45 cm.",
+    "5": "“Üç bin bat”: Yaklaşık 66 000 lt."
   },
   "30": {
-    "20": "\"Bağışladı\": İbranice \"Sağlığa kavuşturdu\" (bkz. 7:14)."
+    "20": "“Bağışladı”: İbranice “Sağlığa kavuşturdu” (bkz. 7:14)."
   },
-  "33": {
-    "19": "Masoretik metin \"Hozay'ın\", bir İbranice elyazması ve Septuaginta \"Bilicilerin\"."
+  "22": {
+    "2": "2Kr.8:26, bazı Septuaginta elyazmaları ve Süryanice “Yirmi iki”, Masoretik metin “Kırk iki”."
+  },
+  "21": {
+    "2": "“İsrail”, yani “Yahuda”.",
+    "17": "“Yehoahaz”: Ahazya diye de bilinir."
+  },
+  "27": {
+    "5": "“Yüz talant”: Yaklaşık 3.45 ton."
+  },
+  "28": {
+    "19": "“İsrail”, yani “Yahuda”."
   },
   "35": {
-    "18": "\"İsrail\", yani \"Yahuda\"."
+    "18": "“İsrail”, yani “Yahuda”."
+  },
+  "33": {
+    "19": "Masoretik metin “Hozay'ın”, bir İbranice elyazması ve Septuaginta “Bilicilerin”."
+  },
+  "24": {
+    "20": "“Zekeriya'nın üzerine indi”: İbranice “Zekeriya'yı kuşandı”.",
+    "23": "“Yıl sonunda”: O çağda kullanılan iki ayrı takvime göre ya “Sonbahar” ya da “İlkbahar” olabilir."
   },
   "36": {
-    "10": "\"Şabat yılları\": RAB",
-    "22": "\"Koreş\": Tarihsel kayıtlarda \"Keyhüsrev\" diye de geçer."
+    "3": "“Yüz talant”: Yaklaşık 3.45 ton.",
+    "21": "“Şabat yılları”: RAB",
+    "22": "“Koreş”: Tarihsel kayıtlarda “Keyhüsrev” diye de geçer."
   }
 }

@@ -1,53 +1,52 @@
 {
-  "2": {
-    "23": "\"Kaftor\": Bugünkü Girit."
-  },
   "5": {
-    "10": "\"Kuşağa\" ya da \"Kişiye\"."
+    "10": "“Kuşağa” ya da “Kişiye”."
   },
   "7": {
-    "20": "\"Eşekarısı\": İbranice sözcüğün anlamı kesin bilinmiyor. Dehşet ya da bir çeşit hastalık anlamına da gelebilir."
-  },
-  "6": {
-    "29": "\"Tanrımız RAB"
+    "20": "“Eşekarısı”: İbranice sözcüğün anlamı kesin bilinmiyor. Dehşet ya da bir çeşit hastalık anlamına da gelebilir."
   },
   "3": {
-    "11": "\"Dokuz arşın\": Yaklaşık 4 m. / \"Dört arşın\": Yaklaşık 1.8 m.",
-    "14": "\"Havvot-Yair\": \"Yair'in yerleşim birimleri\" anlamına gelir."
+    "11": "“Dokuz arşın”: Yaklaşık 4 m.",
+    "14": "“Havvot-Yair”: “Yair'in yerleşim birimleri” anlamına gelir."
   },
-  "11": {
-    "10": "\"Zorlukla\": İbranice \"Ayağınızla\"."
+  "6": {
+    "4": "“Tanrımız RAB"
   },
   "9": {
-    "34": "\"Kivrot-Hattaava\": \"Özlem mezarları\" anlamına gelir."
+    "22": "“Kivrot-Hattaava”: “Özlem mezarları” anlamına gelir."
   },
   "10": {
-    "16": "\"Yüreklerinizi RAB"
+    "16": "“Yüreklerinizi RAB"
+  },
+  "2": {
+    "23": "“Kaftor”: Bugünkü Girit."
+  },
+  "11": {
+    "10": "“Zorlukla”: İbranice “Ayağınızla”."
   },
   "18": {
-    "31": "Falcı sözcüğü İbranice'deki 3 ayrı terimin karşılığı olarak kullanılıyor. Bu 3 terim falcılığın değişik türlerini içerir."
+    "10": "Falcı sözcüğü İbranice'deki 3 ayrı terimin karşılığı olarak kullanılıyor. Bu 3 terim falcılığın değişik türlerini içerir."
   },
   "23": {
-    "18": "\"Erkeğin\": İbranice \"Köpeğin\"."
+    "18": "“Erkeğin”: İbranice “Köpeğin”."
   },
   "25": {
-    "14": "\"Ölçü\": İbranice \"Efa\", yaklaşık 22 litrelik bir ölçek."
-  },
-  "33": {
-    "5": "\"Dürüst\" anlamına gelen",
-    "26": "\"Kralı oldu\" ya da \"Kralıydı\".",
-    "12": "\"Kucağında\": İbranice \"Omuzlar arasında\"."
-  },
-  "32": {
-    "8": "Masoretik metin \"İsrailoğulları\", Septuaginta \"Tanrı'nın melekleri\", Kumran \"Tanrı'nın oğulları\".",
-    "15": "\"Dürüst\" anlamına gelen / İsrail halkına verilen bir addır.",
-    "31": "\"Kayamız\": \"Tanrımız\".",
-    "44": "\"Hoşea\": Yeşu'nun öbür adı."
+    "14": "“Ölçü”: İbranice “Efa”, yaklaşık 22 litrelik bir ölçek."
   },
   "29": {
-    "19": "\"Herkes\": İbranice \"Hem yaş, hem kuru\"."
+    "19": "“Herkes”: İbranice “Hem yaş, hem kuru”."
   },
   "30": {
-    "6": "\"Yüreğini değiştirecek\": İbranice \"Yüreğini sünnet edecek\"."
+    "6": "“Yüreğini değiştirecek”: İbranice “Yüreğini sünnet edecek”."
+  },
+  "33": {
+    "5": "“Dürüst” anlamına gelen",
+    "12": "“Kucağında”: İbranice “Omuzlar arasında”."
+  },
+  "32": {
+    "8": "Masoretik metin “İsrailoğulları”, Septuaginta “Tanrı'nın melekleri”, Kumran “Tanrı'nın oğulları”.",
+    "15": "“Dürüst” anlamına gelen",
+    "31": "“Kayamız”: “Tanrımız”.",
+    "44": "“Hoşea”: Yeşu'nun öbür adı."
   }
 }

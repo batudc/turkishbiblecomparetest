@@ -1,121 +1,151 @@
 {
-  "2": {
-    "2": "\"Meshettiği krala\": İbranice \"Meshettiğine\".",
-    "15": "Masoretik metin \"Kıracaksın\", Septuaginta, Süryanice \"Güdeceksin\"."
-  },
   "3": {
-    "2": "\"Sela\": Müzikte duruş ifade eden bir terim olduğu sanılıyor."
+    "2": "“Sela”: Müzikte duruş ifade eden bir terim olduğu sanılıyor."
   },
   "9": {
-    "16": "\"Higayon\": Anlamı kesin olarak bilinmeyen bir müzik terimi."
+    "16": "“Higayon”: Anlamı kesin olarak bilinmeyen bir müzik terimi."
   },
-  "19": {
-    "14": "\"Kurtarıcım benim\": Kurtarıcı diye çevrilen İbranice \"Goel\" sözcüğü \"Yakın akraba\" anlamına gelir (bkz."
+  "2": {
+    "2": "“Meshettiği krala”: İbranice “Meshettiğine”.",
+    "9": "Masoretik metin “Kıracaksın”, Septuaginta, Süryanice “Güdeceksin”."
+  },
+  "7": {
+    "0": "“Şigayon”: Anlamı tam olarak bilinmeyen bir müzik terimi."
+  },
+  "6": {
+    "0": "“Sekiz telli sazlarla”: İbranice “Sekizinciye göre”, anlamı kesin olarak bilinmiyor."
+  },
+  "12": {
+    "0": "“Sekiz telli sazlarla”: İbranice “Sekizinciye göre”, anlamı kesin olarak bilinmiyor."
+  },
+  "8": {
+    "0": "“Gittit”: Bir müzik terimi ya da üzüm sıkma mevsiminde okunan bir ilahi olabilir.",
+    "5": "“Nerdeyse bir tanrı yaptın onu” (bkz.Yar.1:26-28"
   },
   "16": {
-    "10": "\"Sadık kulunun çürümesine izin vermezsin\" ya da \"Sadık kulunun ölüm çukurunu görmesine izin vermezsin\"."
+    "0": "“Miktam”: Bir edebiyat ya da müzik terimi.",
+    "10": "“Sadık kulunun çürümesine izin vermezsin” ya da “Sadık kulunun ölüm çukurunu görmesine izin vermezsin”."
+  },
+  "19": {
+    "14": "“Kurtarıcım benim”: Kurtarıcı diye çevrilen İbranice “Goel” sözcüğü “Yakın akraba” anlamına gelir (bkz."
+  },
+  "32": {
+    "0": "“Maskil”: Anlamı tam olarak bilinmeyen bir müzik veya edebiyat terimi. “Didaktik şiir” anlamına gelebilir."
   },
   "29": {
-    "9": "\"Geyikleri doğurtur\" ya da \"Yabanıl fıstık ağaçlarını eğer\"."
-  },
-  "45": {
-    "4": "Olası metin \"Gerçek ve adalet uğruna\", Masoretik metin \"Gerçek ve alçakgönüllülük, adalet uğruna\"."
-  },
-  "48": {
-    "2": "\"Safon\": İlah Baal'ın oturduğu sanılan bir dağ."
+    "9": "“Geyikleri doğurtur” ya da “Yabanıl fıstık ağaçlarını eğer”."
   },
   "47": {
-    "7": "\"Maskil\": Anlamı tam olarak bilinmeyen bir müzik veya edebiyat terimi. \"Didaktik şiir\" anlamına gelebilir."
-  },
-  "49": {
-    "11": "Septuaginta, Targum, Süryanice \"Mezarları, sonsuza dek evleri, kuşaklar boyu konutları olacak\", Masoretik metin \" ).replace('’', Evlerimiz sonsuza dek kalacak’ diye düşünüyorlar\"."
+    "7": "“Maskil”: Anlamı tam olarak bilinmeyen bir müzik veya edebiyat terimi. “Didaktik şiir” anlamına gelebilir."
   },
   "46": {
-    "9": "\"Kalkanları\" ya da \"Savaş arabalarını\"."
+    "0": "“Tiz sesliler”: İbranice “Alamot”, anlamı tam olarak bilinmeyen bir müzik terimi.",
+    "9": "“Kalkanları” ya da “Savaş arabalarını”."
   },
-  "58": {
-    "1": "\"Yöneticiler\" ya da \"Dilsizler\"."
+  "49": {
+    "11": "Septuaginta, Targum, Süryanice “Mezarları, sonsuza dek evleri, kuşaklar boyu konutları olacak”, Masoretik metin “ ‘Evlerimiz sonsuza dek kalacak’ diye düşünüyorlar”."
+  },
+  "45": {
+    "4": "Olası metin “Gerçek ve adalet uğruna”, Masoretik metin “Gerçek ve alçakgönüllülük, adalet uğruna”.",
+    "6": "“Ey Tanrı, tahtın sonsuzluklar boyunca kalıcıdır” ya da “Tanrı'nın sana armağan ettiği krallık sonsuzluklar boyunca kalıcıdır”."
+  },
+  "48": {
+    "2": "“Safon”: İlah Baal'ın oturduğu sanılan bir dağ."
+  },
+  "53": {
+    "0": "“Mahalat”: Bir müzik terimi, büyük olasılıkla “Nefesli sazlar”."
   },
   "60": {
-    "4": "\"Okçulara karşı\" ya da \"Doğruluk uğruna\".",
-    "8": "\"Çarığımı fırlatacağım\": Eski törelere göre çarığın fırlatılması, bir yerin sahiplenilmesi anlamına geliyordu."
+    "4": "“Okçulara karşı” ya da “Doğruluk uğruna”.",
+    "8": "“Çarığımı fırlatacağım”: Eski törelere göre çarığın fırlatılması, bir yerin sahiplenilmesi anlamına geliyordu."
   },
-  "68": {
-    "4": "\"Çölleri geçecek biniciye yol hazırlayın\" ya da \"Bulutlara binmiş olana ezgiler sunun\".",
-    "30": "Bu dizede geçen \"Hayvan\" Mısır'ı, \"Buzağılarla boğalar\" ise irili ufaklı ulusları simgelemektedir."
+  "58": {
+    "1": "“Yöneticiler” ya da “Dilsizler”."
   },
   "65": {
-    "1": "Septuaginta, Süryanice \"Seni övgü bekliyor\", Masoretik metin \"Senin için sessizlik övgü\"."
-  },
-  "73": {
-    "4": "\"Onlar acı nedir bilmezler, bedenleri sağlıklı ve semizdir\" ya da \"Ölürken acı çekmezler, bedenleri semizdir\"."
-  },
-  "74": {
-    "16": "\"Ay\": İbranice \"Işık\". Ayı ya da yıldızları kastediyor."
-  },
-  "75": {
-    "1": "\"Sen yakınsın\": İbranice \"Adın yakındır\".",
-    "5": "\"Başınızı\": İbranice \"Boynuzunuzu\" (Boynuz güç simgesidir)."
+    "1": "Septuaginta, Süryanice “Seni övgü bekliyor”, Masoretik metin “Senin için sessizlik övgü”."
   },
   "72": {
-    "5": "Septuaginta \"Kral kuşaklar boyunca yaşasın\", Masoretik metin \"Kuşaklar boyunca senden korksunlar.\""
+    "5": "Septuaginta “Kral kuşaklar boyunca yaşasın”, Masoretik metin “Kuşaklar boyunca senden korksunlar.”"
+  },
+  "68": {
+    "4": "“Çölleri geçecek biniciye yol hazırlayın” ya da “Bulutlara binmiş olana ezgiler sunun”.",
+    "30": "Bu dizede geçen “Hayvan” Mısır'ı, “Buzağılarla boğalar” ise irili ufaklı ulusları simgelemektedir."
   },
   "76": {
-    "2": "\"Şalem,\" yani \"Yeruşalim\"."
+    "2": "“Şalem,” yani “Yeruşalim”."
   },
-  "78": {
-    "12": "\"Soan\": Tanis olduğu sanılıyor.",
-    "25": "\"Meleklerin\" ya da \"Güçlülerin\".",
-    "61": "Bu ayette geçen \"Kudret\" ve \"Görkem\" sözcükleri Antlaşma Sandığı'nı kastetmektedir."
+  "73": {
+    "4": "“Onlar acı nedir bilmezler, bedenleri sağlıklı ve semizdir” ya da “Ölürken acı çekmezler, bedenleri semizdir”."
+  },
+  "74": {
+    "16": "“Ay”: İbranice “Işık”. Ayı ya da yıldızları kastediyor."
   },
   "82": {
-    "1": "\"Tanrısal kurulda\" ya da \"Yargıçlar topluluğunda\"."
+    "1": "“Tanrısal kurulda” ya da “Yargıçlar topluluğunda”."
   },
   "81": {
-    "7": "\"Meriva\": \"Çıkışma\" anlamına gelir (bkz. Çık.17:7)."
+    "7": "“Meriva”: “Çıkışma” anlamına gelir (bkz. Çık.17:7)."
+  },
+  "78": {
+    "12": "“Soan”: Tanis olduğu sanılıyor.",
+    "25": "“Meleklerin” ya da “Güçlülerin”.",
+    "61": "Bu ayette geçen “Kudret” ve “Görkem” sözcükleri Antlaşma Sandığı'nı kastetmektedir."
   },
   "87": {
-    "4": "\"Rahav\": Mısır'ı simgeliyor."
+    "4": "“Rahav”: Mısır'ı simgeliyor."
+  },
+  "75": {
+    "1": "“Sen yakınsın”: İbranice “Adın yakındır”.",
+    "4": "“Başınızı”: İbranice “Boynuzunuzu” (Boynuz güç simgesidir)."
   },
   "89": {
-    "10": "\"Rahav\": Deniz, deniz canavarı ya da Mısır gibi güçlü düşmanları kastediyor.",
-    "22": "\"Haraca bağlayamayacak\" ya da \"Aldatamayacak\"."
-  },
-  "104": {
-    "4": "\"Rüzgarları kendine haberci, yıldırımları hizmetkâr eden sensin\" ya da \"Meleklerini rüzgarlar, hizmetkârlarını ateş alevleri yapan sensin\"."
+    "10": "“Rahav”: Deniz, deniz canavarı ya da Mısır gibi güçlü düşmanları kastediyor.",
+    "22": "“Haraca bağlayamayacak” ya da “Aldatamayacak”."
   },
   "100": {
-    "3": "\"Biz de O'nunuz\" ya da \"Kendimiz değil\"."
-  },
-  "108": {
-    "9": "\"Çarığımı fırlatacağım\": Eski törelere göre çarığın fırlatılması, bir yerin sahiplenilmesi anlamına geliyordu."
-  },
-  "110": {
-    "1": "\"Ayaklarının altına serinceye dek\": İbranice \"Ayaklarına tabure yapıncaya dek\"."
+    "3": "“Biz de O'nunuz” ya da “Kendimiz değil”."
   },
   "107": {
-    "3": "\"Güneyden\": İbranice \"Denizden\"."
+    "3": "“Güneyden”: İbranice “Denizden”."
   },
   "109": {
-    "19": "Bazı uzmanlara göre bu ayetler Davut'un düşmanlarının konuşmasıdır."
+    "6": "Bazı uzmanlara göre bu ayetler Davut'un düşmanlarının konuşmasıdır."
+  },
+  "108": {
+    "9": "“Çarığımı fırlatacağım”: Eski törelere göre çarığın fırlatılması, bir yerin sahiplenilmesi anlamına geliyordu."
+  },
+  "110": {
+    "1": "“Ayaklarının altına serinceye dek”: İbranice “Ayaklarına tabure yapıncaya dek”."
+  },
+  "95": {
+    "8": "“Meriva”: “Çıkışma” anlamına gelir (bkz. Çık.17:7).",
+    "11": "“Huzur diyarıma,” yani “Vaat edilen toprağa” (bkz. Say.14:26-35"
+  },
+  "104": {
+    "4": "“Rüzgarları kendine haberci, yıldırımları hizmetkâr eden sensin” ya da “Meleklerini rüzgarlar, hizmetkârlarını ateş alevleri yapan sensin”."
   },
   "116": {
-    "15": "\"Değerlidir\" ya da \"Acıdır\"."
+    "10": "“İman ettim, ‘Büyük acı çekiyorum’ dediğim zaman bile” ya da “İman ettim, bu nedenle konuştum. Büyük acı çekiyorum” (bkz. 2Ko.4:13",
+    "15": "“Değerlidir” ya da “Acıdır”."
   },
-  "118": {
-    "13": "Septuaginta, Süryanice \"İtilip kakıldım\", Masoretik metin \"Beni itip kaktın\".",
-    "27": "\"İplerle bağlayın bayram kurbanını\" ya da \"Elinizde dallarla bayramı kutlayın\"."
+  "120": {
+    "0": "“Hac İlahisi”: Fısıh, Hasat, Çardak bayramlarını kutlamak için Yeruşalim'e çıkarken söylenen ezgi."
   },
   "119": {
-    "37": "\"Boş şeylerden\" ya da \"Değersiz putlardan\"."
-  },
-  "127": {
-    "5": "\"Kent kapısında\": Eski zamanlarda mahkeme kent kapısında yapılırdı."
+    "37": "“Boş şeylerden” ya da “Değersiz putlardan”."
   },
   "126": {
-    "1": "\"RAB"
+    "1": "“RAB"
+  },
+  "118": {
+    "13": "Septuaginta, Süryanice “İtilip kakıldım”, Masoretik metin “Beni itip kaktın”.",
+    "27": "“İplerle bağlayın bayram kurbanını” ya da “Elinizde dallarla bayramı kutlayın”."
+  },
+  "127": {
+    "5": "“Kent kapısında”: Eski zamanlarda mahkeme kent kapısında yapılırdı."
   },
   "147": {
-    "10": "\"Yiğitliğinden\": İbranice \"Bacaklarından\"."
+    "10": "“Yiğitliğinden”: İbranice “Bacaklarından”."
   }
 }

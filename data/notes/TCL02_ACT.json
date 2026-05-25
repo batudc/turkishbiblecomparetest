@@ -1,67 +1,89 @@
 {
+  "8": {
+    "27": "O çağda Etiyopya krallığı bugünkü Sudan'ın ve Etiyopya'nın bazı bölgelerini kapsıyordu.",
+    "36": "Bazı Grekçe elyazmaları, “Filipus, ‘Bütün yüreğinle iman edersen, vaftiz olabilirsin’ dedi. Hadım da, ‘İman ediyorum ki, İsa Mesih Tanrı'nın Oğlu'dur’ dedi” sözlerini de içerir."
+  },
   "5": {
-    "3": "\"Şeytan'a uydun\": Grekçe \"Şeytan senin yüreğini doldurdu\"."
+    "3": "“Şeytan'a uydun”: Grekçe “Şeytan senin yüreğini doldurdu”."
   },
   "3": {
-    "16": "\"Aracılığıyla etkin olan\": Grekçe \"Aracılığıyla olan\"."
+    "16": "“Aracılığıyla etkin olan”: Grekçe “Aracılığıyla olan”."
   },
   "1": {
-    "12": "\"Yaklaşık bir kilometre\": Grekçe \"Bir Şabat Günü yolculuğu\". Yahudi din kurallarına göre Şabat Günü 2 000 arşından (yaklaşık 1 050 m.) fazla yol gitmek yasaktı."
+    "1": "“İlk kitabım”: İncil'in Luka kısmı.",
+    "12": "“Yaklaşık bir kilometre”: Grekçe “Bir Şabat Günü yolculuğu”. Yahudi din kurallarına göre Şabat Günü 2 000 arşından (yaklaşık 1 050 m.) fazla yol gitmek yasaktı."
   },
-  "7": {
-    "43": "\"Refan\": Refan ya da Remfan, Satürn gezegeniyle ilgili olan ve eski çağlarda bazı Filistinli halkların taptığı bir ilahtı.",
-    "5": "\"Tanıklık Çadırı\": İsrailliler'in, Buluşma Çadırı diye de bilinen taşınabilir tapınağı. Tanrı'nın Musa aracılığıyla halkına verdiği, On Buyruk'un yazıldığı taş levhalar bu çadırda bulunurdu.",
-    "10": "\"Yürekleri ve kulakları sünnet edilmemiş olanlar\": Tanrı'ya yürekten bağlı olmayan, O'nun sözünü dinlemeyen kişiler."
+  "2": {
+    "34": "“Ayaklarının altına serinceye dek”: Grekçe “Ayaklarına tabure yapıncaya dek”."
   },
   "6": {
-    "2": "\"Maddi işlerle uğraşmamız\" ya da \"sofralara hizmet etmemiz\"."
+    "2": "“Maddi işlerle uğraşmamız” ya da “sofralara hizmet etmemiz”."
   },
-  "8": {
-    "27": "O çağda Etiyopya krallığı bugünkü Sudan'ın ve Etiyopya'nın bazı bölgelerini kapsıyordu."
-  },
-  "11": {
-    "21": "\"Rab'bin gücü\": Grekçe \"Rab'bin eli\"."
-  },
-  "15": {
-    "14": "\"Kendine ait olacak\": Grekçe \"Kendi adı için\"."
-  },
-  "14": {
-    "12": "\"Zeus\": Grekler'in inanışına göre en büyük ilah. / \"Hermes\": Grekler'in inanışına göre, Zeus'un özel yardımcısı ve sözcüsü olan ilah."
-  },
-  "17": {
-    "18": "\"Epikürcü\": Grek filozofu Epikür'ün (İ.Ö. 341-270) öğretisini benimseyen kişi. Bu öğretiye göre ruh, beden gibi ölümlüdür, yeryüzündeki yaşamdan başka yaşam yoktur. Kişinin, mutluluğu ataraksiyada (ruh dinginliğinde) araması gereklidir. / \"Stoacı\": Kişinin, mutluluğu ancak bütün acılar ve zevklerden kaçınmakla bulabileceğini savunan Grek filozofu Zenon'un (İ.Ö.?335-?263) öğretilerini benimseyen kişi.",
-    "19": "\"Ares Tepesi Kurulu\": Grekçe \"Areopagos"
-  },
-  "18": {
-    "6": "\" ).replace('’', Başınıza geleceklerin sorumlusu sizsiniz!’ dedi. ).replace('’', Sorumluluk benden gitti.’ \": Grekçe \" ).replace('’', Kanınız başınıza!’ dedi. ).replace('’', Ben temizim.’ \""
-  },
-  "21": {
-    "38": "\"Tedhişçi\": Grekçe \"Hançerli\", şiddet yanlısı milliyetçi bir Yahudi partisinin üyelerine verilen ad."
+  "4": {
+    "27": "“Gücün”: Grekçe “Elin”.",
+    "34": "“Buyruğuna verirlerdi”: Grekçe “Ayaklarının dibine koyarlardı”. (Benzeri bir deyim 4:36-37"
   },
   "10": {
-    "30": "\"Üç gün\": Grekçe \"Dördüncü gün\". O çağda insanlar günleri hesaplarken yaşadıkları günü de sayarlardı.",
-    "45": "\"Yahudi\": Grekçe \"Sünnetlilikten olan\"."
+    "30": "“Üç gün”: Grekçe “Dördüncü gün”. O çağda insanlar günleri hesaplarken yaşadıkları günü de sayarlardı.",
+    "45": "“Yahudi”: Grekçe “Sünnetlilikten olan”."
   },
-  "19": {
-    "24": "\"Artemis\": Grekler'in önemli bir tanrıçası; Artemis'in ya da Latince adıyla Diana'nın en büyük tapınağı Efes Kenti'ndeydi.",
-    "38": "\"Yargıçlar\": Grekçe \"Valiler\"."
+  "14": {
+    "12": "“Zeus”: Grekler'in inanışına göre en büyük ilah."
+  },
+  "17": {
+    "18": "“Epikürcü”: Grek filozofu Epikür'ün (İ.Ö. 341-270) öğretisini benimseyen kişi. Bu öğretiye göre ruh, beden gibi ölümlüdür, yeryüzündeki yaşamdan başka yaşam yoktur. Kişinin, mutluluğu ataraksiyada (ruh dinginliğinde) araması gereklidir.",
+    "19": "“Ares Tepesi Kurulu”: Grekçe “Areopagos"
+  },
+  "15": {
+    "14": "“Kendine ait olacak”: Grekçe “Kendi adı için”.",
+    "17": "“Bana ait olan”: Grekçe “Üzerlerinde adımın anıldığı”.",
+    "33": "Bazı Grekçe elyazmaları, “Ama Silas orada kalmaya karar verdi” sözlerini de içerir."
+  },
+  "18": {
+    "6": "“ ‘Başınıza geleceklerin sorumlusu sizsiniz!’ dedi. ‘Sorumluluk benden gitti.’ ”: Grekçe “ ‘Kanınız başınıza!’ dedi. ‘Ben temizim.’ ”"
+  },
+  "7": {
+    "43": "“Refan”: Refan ya da Remfan, Satürn gezegeniyle ilgili olan ve eski çağlarda bazı Filistinli halkların taptığı bir ilahtı.",
+    "44": "“Tanıklık Çadırı”: İsrailliler'in, Buluşma Çadırı diye de bilinen taşınabilir tapınağı. Tanrı'nın Musa aracılığıyla halkına verdiği, On Buyruk'un yazıldığı taş levhalar bu çadırda bulunurdu.",
+    "51": "“Yürekleri ve kulakları sünnet edilmemiş olanlar”: Tanrı'ya yürekten bağlı olmayan, O'nun sözünü dinlemeyen kişiler."
+  },
+  "11": {
+    "21": "“Rab'bin gücü”: Grekçe “Rab'bin eli”.",
+    "25": "“Mesihçiler”: Mesih"
+  },
+  "21": {
+    "38": "“Tedhişçi”: Grekçe “Hançerli”, şiddet yanlısı milliyetçi bir Yahudi partisinin üyelerine verilen ad."
+  },
+  "13": {
+    "17": "“Onlara katlandı”: Bazı Grekçe elyazmalarında “Onları besledi”."
   },
   "20": {
     "2": "Burada Yunanistan sözcüğünün Roma İmparatorluğu'nun ili Ahaya için kullanıldığı sanılıyor.",
-    "9": "\"İkinci\": Grekçe \"Üçüncü\". (Zemin kat birinci kat sayılırdı).",
-    "26": "\"Kimsenin uğrayacağı cezadan sorumlu değilim\": Grekçe \"Herkesin kanından temizim\"."
-  },
-  "26": {
-    "28": "\"Mesihçi\": Mesih"
+    "9": "“İkinci”: Grekçe “Üçüncü”. (Zemin kat birinci kat sayılırdı).",
+    "26": "“Kimsenin uğrayacağı cezadan sorumlu değilim”: Grekçe “Herkesin kanından temizim”."
   },
   "25": {
-    "13": "\"Berniki\": Agrippa'nın kızkardeşi.",
-    "21": "\"İmparator\": Grekçe \"Sevastos / \"İmparator'a\": Grekçe \"Sezar'a"
+    "13": "“Berniki”: Agrippa'nın kızkardeşi.",
+    "21": "“İmparator”: Grekçe “Sevastos"
+  },
+  "28": {
+    "28": "Bazı Grekçe elyazmaları, “Pavlus'un bu sözlerinden sonra Yahudiler kendi aralarında şiddetle tartışarak oradan ayrıldılar” sözlerini de içerir."
+  },
+  "24": {
+    "6": "Bazı Grekçe elyazmaları, “Ve kendi yasamıza göre yargılamak istedik. Ne var ki, komutan Lisias gelip kaba kuvvet kullanarak onu elimizden aldı götürdü. Onu suçlayanların sana başvurmalarını buyurdu” sözlerini de içerir."
+  },
+  "26": {
+    "28": "“Mesihçi”: Mesih"
   },
   "27": {
-    "1": "\"Avgustus\": Grekçe \"Sevastos",
-    "17": "\"Sirte Körfezi\": Libya'nın kuzeybatı kıyılarında yer yer çok sığ olan körfez.",
-    "27": "\"İyon Denizi\": Grekçe \"Adriya Denizi",
-    "28": "\"Yirmi kulaç\": Yaklaşık 36 m. (bkz. Birimler Cetveli). / \"On beş kulaç\": Yaklaşık 27 m. (bkz. Birimler Cetveli)."
+    "1": "“Avgustus”: Grekçe “Sevastos",
+    "9": "“Oruç günü”: Yahudiler'in Eylül ya da Ekim ayında kutladıkları bayram. Günümüzde Yom Kippur olarak bilinir (bkz. Lev.16:29-34).",
+    "17": "“Sirte Körfezi”: Libya'nın kuzeybatı kıyılarında yer yer çok sığ olan körfez.",
+    "27": "“İyon Denizi”: Grekçe “Adriya Denizi",
+    "28": "“Yirmi kulaç”: Yaklaşık 36 m. (bkz. Birimler Cetveli)."
+  },
+  "19": {
+    "24": "“Artemis”: Grekler'in önemli bir tanrıçası; Artemis'in ya da Latince adıyla Diana'nın en büyük tapınağı Efes Kenti'ndeydi.",
+    "38": "“Yargıçlar”: Grekçe “Valiler”."
   }
 }

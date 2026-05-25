@@ -1,54 +1,55 @@
 {
-  "6": {
-    "26": "\"Çünkü fahişe yüzünden insan bir lokma ekmeğe muhtaç kalır\" ya da \"Çünkü fahişenin ücreti ancak bir somun ekmektir\"."
-  },
   "3": {
-    "10": "\"Tıka basa\" ya da \"Tahılla\"."
+    "10": "“Tıka basa” ya da “Tahılla”."
   },
-  "12": {
-    "27": "\"İşini bitirmez\": İbranice \"Avını pişirmez\"."
-  },
-  "13": {
-    "15": "Septuaginta, Süryanice, Vulgata \"Yıkıma götürür\", Masoretik metin \"Sürer\" ya da \"Çetindir\".",
-    "24": "\"Özenle\" ya da \"Zamanında\" veya \"Erkenden\"."
+  "10": {
+    "10": "Masoretik metin “Çenesi düşük ahmak da yıkıma uğrar” (bkz.10:8"
   },
   "11": {
-    "16": "\"Onur\" sözcüğünden sonra Septuaginta'da şu tümceler geçiyor: \"Ama doğruluktan nefret eden kadın onursuzluk tahtıdır. Tembeller servetten yoksun olur.\""
+    "16": "“Onur” sözcüğünden sonra Septuaginta'da şu tümceler geçiyor: “Ama doğruluktan nefret eden kadın onursuzluk tahtıdır. Tembeller servetten yoksun olur.”"
+  },
+  "12": {
+    "27": "“İşini bitirmez”: İbranice “Avını pişirmez”."
+  },
+  "13": {
+    "15": "Septuaginta, Süryanice, Vulgata “Yıkıma götürür”, Masoretik metin “Sürer” ya da “Çetindir”.",
+    "24": "“Özenle” ya da “Zamanında” veya “Erkenden”."
   },
   "14": {
-    "9": "\"Suç sunusuyla\" ya da \"Suçla\".",
-    "24": "\"Akılsızlarsa ahmaklıklarıyla tanınır\" ya da \"Akılsızların çelengiyse ahmaklıktır\"."
-  },
-  "18": {
-    "24": "\"Yıkıma götüren dostlar vardır\" ya da \"Çok dostu olan yıkıma gider\"."
-  },
-  "22": {
-    "20": "\"Otuz söz\" ya da \"Değerli sözler\".",
-    "21": "Ayetleri 1'den 30'a kadar gruplara ayıran bu numaralar Masoretik metinde geçmemektedir."
-  },
-  "23": {
-    "11": "\"Velisi\": İbranice sözcük \"Goel\" hem yakınlık, hem de kurtarıcılığı vurguluyor."
+    "9": "“Suç sunusuyla” ya da “Suçla”.",
+    "24": "“Akılsızlarsa ahmaklıklarıyla tanınır” ya da “Akılsızların çelengiyse ahmaklıktır”."
   },
   "15": {
-    "4": "\"Yaşam verir\": İbranice \"Yaşam ağacı\".",
-    "26": "\"Temiz düşüncelerden hoşnut kalır\" ya da \"Tatlı sözler temizdir\"."
+    "4": "“Yaşam verir”: İbranice “Yaşam ağacı”.",
+    "26": "“Temiz düşüncelerden hoşnut kalır” ya da “Tatlı sözler temizdir”."
+  },
+  "22": {
+    "20": "“Otuz söz” ya da “Değerli sözler”."
+  },
+  "18": {
+    "24": "“Yıkıma götüren dostlar vardır” ya da “Çok dostu olan yıkıma gider”."
+  },
+  "6": {
+    "26": "“Çünkü fahişe yüzünden insan bir lokma ekmeğe muhtaç kalır” ya da “Çünkü fahişenin ücreti ancak bir somun ekmektir”."
   },
   "25": {
-    "11": "\"Elma\" ya da \"Kayısı\".",
-    "15": "\"En güçlü direnci\": İbranice \"Kemiği\".",
-    "22": "\"Onu utanca boğarsın\": İbranice \"Başına kor yığarsın.\""
-  },
-  "24": {
-    "5": "Olası metin \"Bilgelik güçten, bilgi kaba kuvvetten üstündür\" (bkz. Septuaginta), Masoretik metin \"Bilge güçlü olur, bilgi sahibi gücünü artırır.\"",
-    "26": "\"Dürüst yanıt gerçek dostluğun işaretidir\": İbranice \"Dürüst yanıt veren dudakları öper.\""
+    "11": "“Elma” ya da “Kayısı”.",
+    "15": "“En güçlü direnci”: İbranice “Kemiği”.",
+    "22": "“Onu utanca boğarsın”: İbranice “Başına kor yığarsın.”"
   },
   "30": {
-    "1": "\"Bu adam şöyle diyor: ).replace('’', Yoruldum, ey Tanrım, yoruldum ve tükendim’ \" ya da \"Bu adam İtiel'e, İtiel'e ve Ukkal'a şöyle diyor\".",
-    "31": "\"Tazı\" ya da \"Horoz\" veya \"Savaş atı\". İbranice sözcüğün anlamı tam bilinmiyor.",
-    "32": "\"Dur ve düşün\": İbranice \"Elini ağzına koy\"."
+    "1": "“Bu adam şöyle diyor: ‘Yoruldum, ey Tanrım, yoruldum ve tükendim’ ” ya da “Bu adam İtiel'e, İtiel'e ve Ukkal'a şöyle diyor”.",
+    "31": "“Tazı” ya da “Horoz” veya “Savaş atı”. İbranice sözcüğün anlamı tam bilinmiyor.",
+    "32": "“Dur ve düşün”: İbranice “Elini ağzına koy”."
   },
   "31": {
-    "9": "ayetleri akrostiş biçimde yazılmıştır. Yani her satır sırayla İbranice alfabenin değişik bir harfiyle başlar.",
-    "21": "\"İki kat\" ya da \"Kırmızı\"."
+    "21": "“İki kat” ya da “Kırmızı”."
+  },
+  "24": {
+    "5": "Olası metin “Bilgelik güçten, bilgi kaba kuvvetten üstündür” (bkz. Septuaginta), Masoretik metin “Bilge güçlü olur, bilgi sahibi gücünü artırır.”",
+    "26": "“Dürüst yanıt gerçek dostluğun işaretidir”: İbranice “Dürüst yanıt veren dudakları öper.”"
+  },
+  "23": {
+    "11": "“Velisi”: İbranice sözcük “Goel” hem yakınlık, hem de kurtarıcılığı vurguluyor."
   }
 }
