@@ -1575,6 +1575,23 @@
     }
     .notes-star:hover { color: #7dcfcf; opacity: 0.8; }
     .notes-star:focus-visible { outline: 1px solid #4db8b8; outline-offset: 1px; }
+    .net-star {
+      display: inline;
+      background: none;
+      border: none;
+      cursor: pointer;
+      color: #a78bfa;
+      font-size: 11px;
+      line-height: 1;
+      padding: 0 1px;
+      vertical-align: super;
+      font-family: 'Jost', sans-serif;
+      font-weight: 700;
+      opacity: 1;
+      transition: opacity 0.12s, color 0.12s;
+    }
+    .net-star:hover { color: #c4b5fd; opacity: 0.8; }
+    .net-star:focus-visible { outline: 1px solid #a78bfa; outline-offset: 1px; }
 
     #errata-tooltip {
       position: fixed;
@@ -1583,7 +1600,7 @@
       border: 1px solid rgba(184,146,42,0.35);
       border-radius: 4px;
       padding: 10px 14px 12px;
-      max-width: 320px;
+      max-width: 420px;
       pointer-events: none;
       opacity: 0;
       transition: opacity 0.15s ease;
@@ -2046,6 +2063,19 @@
     return notesCache[bookCode];
   }
 
+  // ── Notes cache (NET) ─────────────────────────────────────────────────
+  const netNotesCache = {};
+  async function getNETNotes(bookCode) {
+    if (bookCode in netNotesCache) return netNotesCache[bookCode];
+    try {
+      const res = await fetch(`data/notes/NET_${bookCode}.json`);
+      netNotesCache[bookCode] = res.ok ? await res.json() : null;
+    } catch {
+      netNotesCache[bookCode] = null;
+    }
+    return netNotesCache[bookCode];
+  }
+
   // ── Translation availability helper ──────────────────────────────────
   function isTransAvailableForBook(tid, bookCode) {
     if (tid === 'SEA1666'     && !SEA_BOOKS.has(bookCode))       return false;
@@ -2189,7 +2219,7 @@
     return text;
   }
 
-  function renderChapter(container, data, chapterFallback, translationId, chapterErrata, chapterNotes) {
+  function renderChapter(container, data, chapterFallback, translationId, chapterErrata, chapterNotes, chapterNetNotes) {
     const chDiv = document.createElement('div');
     chDiv.className = 'chapter';
     const chNum = data.c ?? chapterFallback ?? currentChapter;
@@ -2230,6 +2260,16 @@
           btn.title = 'Dipnot (TCL02)';
           btn.dataset.note = notesNote;
           btn.dataset.label = 'Dipnot · Yeni Çeviri';
+          v.querySelector('.vt').appendChild(btn);
+        }
+        const netNote = chapterNetNotes?.[String(item.v)];
+        if (netNote) {
+          const btn = document.createElement('button');
+          btn.className = 'net-star';
+          btn.textContent = '‡';
+          btn.title = 'Translator note (NET)';
+          btn.dataset.note = netNote;
+          btn.dataset.label = 'Translator Note · NET';
           v.querySelector('.vt').appendChild(btn);
         }
         chDiv.appendChild(v);
@@ -2274,13 +2314,18 @@
       const notesData = await getTCL02Notes(bookCode);
       chapterNotes = notesData ? (notesData[String(chapter)] ?? null) : null;
     }
+    let chapterNetNotes = null;
+    if (translationId === 'NET') {
+      const netData = await getNETNotes(bookCode);
+      chapterNetNotes = netData ? (netData[String(chapter)] ?? null) : null;
+    }
     try {
       const res = await fetch(`data/translations/${translationId}/${bookCode}/${chapter}.json`, { cache: 'no-cache' });
       if (!res.ok) throw new Error('not found');
       const data = await res.json();
       // Cache for search
       chapterCache.set(`${translationId}|${bookCode}|${chapter}`, data.content ?? []);
-      renderChapter(container, data, chapter, translationId, chapterErrata, chapterNotes);
+      renderChapter(container, data, chapter, translationId, chapterErrata, chapterNotes, chapterNetNotes);
     } catch {
       const entry = TRANS_NOTES[translationId];
       if (entry && !entry[0].has(bookCode)) {
@@ -2891,7 +2936,7 @@
     function hide() { tip.classList.remove('visible'); activeStar = null; }
 
     document.addEventListener('click', e => {
-      const star = e.target.closest('.errata-star, .notes-star');
+      const star = e.target.closest('.errata-star, .notes-star, .net-star');
       if (star) {
         e.stopPropagation();
         if (activeStar === star) { hide(); return; }
