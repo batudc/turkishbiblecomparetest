@@ -1,42 +1,370 @@
 {
-  "2": {
-    "1": "tn Heb “In the seventh [month], on the twenty-first day of the month.”sn The seventh month was the month Tishri, according to the modern (Julian) calendar October 17, 520 b.c. The twenty-first day of Tishri marked the seventh day of the Feast of Tabernacles (Num 29:32-34). It also coincided with the date 440 years earlier (960 b.c.) when Solomon finished building his temple (1 Kgs 6:38; 8:2). | tc Heb “the word of the Lord came by the hand of Haggai the prophet, saying.” The MT has בְּיַד (bÿyad, “by the hand of” = “through” [so NAB, NIV, NLT] as in 1:1, 3); the Murabba’at Dead Sea text reads אֶל (’el, “to”), perhaps because the following command is given to the prophet.",
-    "2": "tn Heb “say to”; NAB “Tell this to.” | tn Many English versions have “Joshua (the) son of Jehozadak the high priest,” but this is subject to misunderstanding. See the note on the name “Jehozadak” at the end of v. 1.",
-    "3": "tn Heb “this house in its earlier splendor”; NAB, NIV, NRSV “in its former glory.”sn Solomon’s temple was demolished in 586 b.c., 66 years prior to Haggai’s time. There surely would have been some older people who remembered the former splendor of that magnificent structure and who lamented the contrast to the small, unimpressive temple they were building (see Ezra 3:8-13).",
-    "4": "tn Heb “and take heart.” Although emphatic, the repetition of the verb is redundant in contemporary English style and has been left untranslated. | tn Heb “the people of the land” (עַם הָאָרֶץ, ’am ha’arets); this is a technical term referring to free citizens as opposed to slaves.",
-    "5": "sn My spirit. It is theologically anachronistic to understand “spirit” here in the NT sense as a reference to the Holy Spirit, the third person of the Trinity; nevertheless during this postexilic period the conceptual groundwork was being laid for the doctrine of the Holy Spirit later revealed in the NT. | tc The MT of v. 5 reads “with the word which I cut with you when you went out from Egypt and my spirit [which] stands in your midst, do not fear.” BHS proposes emending “with the word” to זֹאת הַבְּרִית (zo’t habbÿrit, “this is the covenant”) at the beginning of the verse. The proposed emendation makes excellent sense and is expected with the verb כָּרַת (karat, “cut” or “make” a covenant), but it has no textual support. Most English versions (including the present translation) therefore follow the MT here.",
-    "6": "tc The difficult MT reading עוֹד אַחַת מְעַט הִיא (’od ’akhat mÿ’at hi’, “yet once, it is little”; cf. NAB “One moment yet, a little while”) appears as “yet once” in the LXX, omitting the last two Hebrew words. However, the point being made is that the anticipated action is imminent; thus the repetition provides emphasis. | tn Or “the heavens.” The same Hebrew word, שָׁמַיִם (shamayim), may be translated “sky” or “heavens” depending on the context. Although many English versions translate the term as “heavens” here, the other three elements present in this context (earth, sea, dry ground) suggest “sky” is in view.",
-    "7": "tn Heb “all the nations.” | tn Though the subject here is singular (חֶמְדַּה, khemdah; “desire”), the preceding plural predicate mandates a collective subject, “desired (things)” or, better, an emendation to a plural form, חֲמֻדֹת (khamudot, “desirable [things],” hence “treasures”). Cf. ASV “the precious things”; NASB “the wealth”; NRSV “the treasure.” In the OT context this has no direct reference to the coming of the Messiah.",
-    "9": "tn Heb “greater will be the latter splendor of this house than the former”; NAB “greater will be the future glory.” | tn In the Hebrew text there is an implicit play on words in the clause “in this place [i.e., Jerusalem] I will give peace”: in יְרוּשָׁלַיִם (yÿrushalayim) there will be שָׁלוֹם (shalom).",
-    "10": "sn The twenty-fourth day of the ninth month of Darius’ second year was Kislev 24 or December 18, 520 b.c. | tn Heb “the word of the Lord came to Haggai the prophet, saying.” This Hebrew expression is slightly different from the one in 1:1, 3; 2:1.",
-    "11": "tn Heb “Ask the priests a torah, saying”; KJV “concerning the law”; NAB “for a decision”; NCV “for a teaching”; NRSV “for a ruling.”",
-    "12": "sn This is probably not an appeal to the Torah (i.e., the Pentateuch) as such but to a priestly ruling (known in postbiblical Judaism as a pÿsaq din). There is, however, a Mosaic law that provides the basis for the priestly ruling (Lev 6:27).",
-    "13": "tn Heb “unclean of a person,” a euphemism for “unclean because of a dead person”; see Lev 21:11; Num 6:6. Cf. NAB “unclean from contact with a corpse.”",
-    "14": "tn Heb “so this people, and so this nation before me.” In this context “people” and “nation” refer to the same set of individuals; the repetition is emphatic. Cf. CEV “this entire nation.” | sn The point here is that the Jews cannot be made holy by unholy fellowship with their pagan neighbors; instead, they and their worship will become corrupted by such associations.",
-    "15": "tn Heb “and now set your heart from this day and upward.” The juxtaposition of מָעְלָה (ma’lah, “upward”) with the following מִטֶּרֶם (mitterem, “before”) demands a look to the past. Cf. ASV “consider from this day and backward.” | sn Before one stone was laid on another in the Lord’s temple is best taken as referring to the laying of the present temple’s foundation, sixteen years earlier (536 b.c.; see Ezra 3:8). Cf. NCV “before you started laying stones”; TEV “before you started to rebuild”; NLT “before you began to lay (started laying CEV) the foundation.”",
-    "16": "tn Heb “from their being,” idiomatic for “from the time they were then,” or “since the time.” Cf. KJV “Since those days were.”",
-    "17": "tn Heb “you, all the work of your hands”; NRSV “you and all the products of your toil”; NIV “all the work of your hands.” | tn Heb “and there was not with you.” The context favors the idea that the harvests were so poor that the people took care of only themselves, leaving no offering for the Lord. Cf. KJV and many English versions “yet ye turned not to me,” understanding the phrase to refer to the people’s repentance rather than their failure to bring offerings.",
-    "18": "tn Heb “set your heart.” A similar expression occurs in v. 15. | sn The twenty-fourth day of the ninth month was Kislev 24 or December 18, 520. See v. 10. Here the reference is to “today,” the day the oracle is being delivered. | sn The day work…was resumed. This does not refer to the initial founding of the Jerusalem temple in 536 b.c. but to the renewal of construction three months earlier (see 1:15). This is clear from the situation described in v. 19 which accords with the food scarcities of that time already detailed in Hag 1:10-11. | tn Heb “set your heart.” A similar expression occurs in v. 15 and at the beginning of this verse.",
-    "20": "tn Heb “and the word of the Lord came a second time to Haggai.” This Hebrew expression is like the one in 2:10 and is slightly different from the one in 1:1, 3; 2:1. | sn Again, the twenty-fourth day of the month was Kislev 24 or December 18, 520 b.c. See v. 10.",
-    "21": "tn The participle here suggests an imminent undertaking of action (cf. NRSV, TEV, NLT “I am about to”). The overall language of the passage is eschatological, but eschatology finds its roots in the present. | tn See the note on the word “sky” in 2:6. Most English translations render the Hebrew term as “heavens” here.",
-    "22": "tn Heb “the kingdoms of the nations.” Cf. KJV “the kingdoms of the heathen”; NIV, NLT “foreign kingdoms.” | tn Heb “and horses and their riders will go down, a man with a sword his brother”; KJV “every one by the sword of his brother.”",
-    "23": "sn The expression on that day appears as a technical eschatological term in a number of other OT passages (cf., e.g., Isa 2:11, 17, 20; 3:7, 18; Amos 8:3, 9; Hos 2:18, 21). | sn My servant. The collocation of “servant” and “chosen” bears strong messianic overtones. See the so-called “Servant Songs” and other messianic texts in Isaiah (Isa 41:8; 42:1; 44:4; 49:7). | sn The noun signet ring, used also to describe Jehoiachin (Jer 22:24-30), refers to a ring seal worn by a king or other important person and used as his signature. Zerubbabel was a grandson of King Jehoiachin (1 Chr 3:17-19; Matt 1:12); God once pronounced that none of Jehoiachin’s immediate descendants would rule (Jer 22:24-30), but here he reverses that judgment. Zerubbabel never ascended to such a lofty position of rulership; he is rather a prototype of the Messiah who would sit on David’s throne. | tn The repetition of the formula “says the Lord who rules over all” in v. 23 emphasizes the solemn and divine nature of the promise."
-  },
   "1": {
-    "1": "sn The first day of the sixth month was Elul 1 according to the Jewish calendar; August 29, 520 b.c. according to the modern (Julian) calendar. | sn King Darius is the Persian king Darius Hystaspes who ruled from 522-486 b.c. | tn Heb “the word of the Lord came by the hand of Haggai the prophet” (בְּיַד־חַגַּי, bÿyad-khaggay). This suggests that the prophet is only an instrument of the Lord; the Lord is to be viewed as the true author (see 1:3; 2:1; Mal 1:1). | tn The typical translation “Joshua (the) son of Jehozadak, the high priest” (cf. ASV, NASB, NIV, NRSV) can be understood to mean that Jehozadak was high priest. However, Zech 3:1, 8 clearly indicates that Joshua was high priest (see also Ezra 5:1-2; cf. NAB). The same potential misunderstanding occurs in Hag 1:12, 14 and 2:2, where the same solution has been employed in the translation.",
-    "2": "sn The epithet Lord who rules over all occurs frequently as a divine title throughout Haggai (see 1:5, 7, 9, 14; 2:4, 6, 7, 8, 9, 11, 23). This name (יְהוָה צְבָאוֹת, yÿhvah tsÿva’ot), traditionally translated “Lord of hosts” (so KJV, NAB, NASB; cf. NIV, NLT “Lord Almighty”; NCV, CEV “Lord All-Powerful”), emphasizes the majestic sovereignty of the Lord, an especially important concept in the postexilic world of great human empires and rulers. For a thorough study of the divine title, see T. N. D. Mettinger, In Search of God, 123-57. | tn Heb “the time has not come, the time for the house of the Lord to be built” (similar KJV). A number of English versions refer to “rebuilding” (so NAB, NCV, NRSV, TEV, NLT) since the reconstruction of Solomon’s temple is actually in view.",
-    "3": "tn Heb “and the word of the Lord came by the hand of Haggai the prophet, saying.” Cf. the similar expression in v. 1 and the note there.",
-    "4": "sn Richly paneled houses. Paneling is otherwise known in the OT only in connection with the temple (1 Kgs 6:9) and the royal palace (2 Kgs 7:3, 7). It implies decoration and luxury (cf. NCV “fancy houses”; TEV “well-built houses”; NLT “luxurious houses”). The impropriety of the people living in such lavish accommodations while the temple lay unfinished is striking. | tn Heb “Is it time for you, [yes] you, to live in paneled houses, while this house is in ruins”; NASB “lies desolate”; NIV “remains a ruin.”",
-    "5": "tn Heb “Set your heart upon your ways” (see 2:15, 18); traditionally “Consider your ways” (so KJV, ASV, NAB, NASB).",
-    "6": "tn Some translate “pockets” (so NLT) but the Hebrew word צְרוֹר (tsÿror) refers to a bag, pouch, or purse of money (BDB 865 s.v. צְרוֹר; HALOT 1054 s.v. צְרוֹר 1). Because coinage had been invented by the Persians and was thus in use in Haggai’s day, this likely is a money bag or purse rather than pouches or pockets in the clothing. Since in contemporary English “purse” (so NASB, NIV, NCV) could be understood as a handbag, the present translation uses “money bags.”",
-    "7": "tn Heb “Set your heart upon your ways”; see v. 5.",
-    "8": "tn Heb “and build the house” (so NIV, NRSV), with “house” referring specifically to the temple here. | sn The temple was built primarily of stone, so the timber here refers to interior paneling (see v. 4) and perhaps to scaffolding (see Ezra 5:8; 6:4). | tn The Hebrew verb אֶכָּבְדָ (’ekkavda) appears to be a defectively written cohortative (“that I may be glorified”). The cohortatives (note that the preceding אֶרְצֶה, ’ertseh, “I will be pleased,” may also be taken as cohortative) indicate purpose/result (cf. NIV, NRSV “so that”; CEV “so”) following the imperatives of v. 8a (“go up,” “bring back,” “build”).",
-    "9": "tn Heb “look!” (הִנֵּה, hinneh). The term, an interjection, draws attention to the point being made. | tn Heb “I blew it away” (so NRSV, TEV, NLT). The imagery here suggests that human achievements are so fragile and temporal that a mere breath from God can destroy them (see Ezek 22:20, 21; and Isa 40:7 with נָשַׁב, nashav). | tn Heb “and each of you runs to his own house”; NIV “is busy with”; TEV “is busy working on”; NCV “work hard for.”",
-    "10": "tn The Hebrew text has “over you” (so KJV), but this is redundant in contemporary English and has been left untranslated. | sn This linkage of human sin to natural disaster is reminiscent of the curse brought upon the earth by Adam’s disobedience (Gen 3:17-19; see Rom 8:20-22).",
-    "11": "tn Heb “all the labor of hands” (similar KJV, NASB, NIV); cf. NAB “all that is produced by hand.”",
-    "12": "tn Many English versions have “Joshua [the] son of Jehozadak, the high priest,” but this is subject to misunderstanding. See the note on the name “Jehozadak” at the end of v. 1. | tn Heb “all the remnant of the people.” The Hebrew phrase שְׁאֵרִית הָעָם (shÿ’erit ha’am) in this postexilic context is used as a technical term to refer to the returned remnant (see Ezra 9:14; Isa 10:20-22; 11:11, 16; Jer 23:3; 31:7; and many other passages). Cf. TEV “all the people who had returned from the exile in Babylonia.” | tn Heb “heard the voice of”; NAB “listened to the voice of.” | tn Heb “and according to the words of Haggai the prophet just as the Lord their God sent him.” Some English versions (e.g., NAB, NIV, NCV) take the last clause as causal: “because the Lord their God had sent him.” | tn Heb “and the people feared from before the Lord”; NASB “showed reverence for the Lord.”",
-    "13": "tn Heb “Haggai, the messenger of the Lord, said by the message of the Lord to the people.” The Hebrew is highly repetitive; in keeping with contemporary English style this has been simplified in the translation.",
-    "14": "tn Heb “stirred up” (as in many English versions). Only one verb appears in the Hebrew text, but the translation “energized and encouraged” brings out its sense in this context. Cf. TEV “inspired”; NLT “sparked the enthusiasm of”; CEV “made everyone eager to work.”sn It was God who initiated the rebuilding by providing the people with motivation and ability. | tn Heb “the spirit of Zerubbabel” (so NAB, NIV, NRSV). | tn Heb “the spirit of Joshua son of Jehozadak, the high priest” (as in many English versions), but this is subject to misunderstanding. See the note on the name “Jehozadak” at the end of v. 1. | tn Heb “and the spirit of all the remnant of the people.” The Hebrew phrase שְׁאֵרִית הָעָם (shÿ’erit ha’am) in this postexilic context is used as a technical term to refer to the returned remnant; see the note on the phrase “the whole remnant of the people” in v. 12.",
-    "15": "sn The twenty-fourth day of the sixth month of King Darius’ second year was September 21, 520 b.c., twenty-three days after the original command by Haggai to rebuild (1:1). The text does not state the reason for the delay, but it may have resulted from the pressing need to bring in the late summer harvest."
+    "1": [
+      {
+        "anchor": "On the first day of the sixth month",
+        "note": "sn The first day of the sixth month was Elul 1 according to the Jewish calendar; August 29, 520 b.c. according to the modern (Julian) calendar."
+      },
+      {
+        "anchor": "of King Darius’",
+        "note": "sn King Darius is the Persian king Darius Hystaspes who ruled from 522-486 b.c."
+      },
+      {
+        "anchor": "spoke this message through the prophet Haggai",
+        "note": "tn Heb “the word of the Lord came by the hand of Haggai the prophet” (בְּיַד־חַגַּי, bÿyad-khaggay). This suggests that the prophet is only an instrument of the Lord; the Lord is to be viewed as the true author (see 1:3; 2:1; Mal 1:1)."
+      },
+      {
+        "anchor": "to Zerubbabel son of Shealtiel, governor of Judah, and to the high priest Joshua son of Jehozadak:",
+        "note": "tn The typical translation “Joshua (the) son of Jehozadak, the high priest” (cf. ASV, NASB, NIV, NRSV) can be understood to mean that Jehozadak was high priest. However, Zech 3:1, 8 clearly indicates that Joshua was high priest (see also Ezra 5:1-2; cf. NAB). The same potential misunderstanding occurs in Hag 1:12, 14 and 2:2, where the same solution has been employed in the translation."
+      }
+    ],
+    "2": [
+      {
+        "anchor": "who rules over all",
+        "note": "sn The epithet Lord who rules over all occurs frequently as a divine title throughout Haggai (see 1:5, 7, 9, 14; 2:4, 6, 7, 8, 9, 11, 23). This name (יְהוָה צְבָאוֹת, yÿhvah tsÿva’ot), traditionally translated “Lord of hosts” (so KJV, NAB, NASB; cf. NIV, NLT “Lord Almighty”; NCV, CEV “Lord All-Powerful”), emphasizes the majestic sovereignty of the Lord, an especially important concept in the postexilic world of great human empires and rulers. For a thorough study of the divine title, see T. N. D. Mettinger, In Search of God, 123-57."
+      },
+      {
+        "anchor": "’s temple has not yet come.’”",
+        "note": "tn Heb “the time has not come, the time for the house of the Lord to be built” (similar KJV). A number of English versions refer to “rebuilding” (so NAB, NCV, NRSV, TEV, NLT) since the reconstruction of Solomon’s temple is actually in view."
+      }
+    ],
+    "3": [
+      {
+        "anchor": "spoke through the prophet Haggai as follows:",
+        "note": "tn Heb “and the word of the Lord came by the hand of Haggai the prophet, saying.” Cf. the similar expression in v. 1 and the note there."
+      }
+    ],
+    "4": [
+      {
+        "anchor": "“Is it right for you to live in richly paneled houses",
+        "note": "sn Richly paneled houses. Paneling is otherwise known in the OT only in connection with the temple (1 Kgs 6:9) and the royal palace (2 Kgs 7:3, 7). It implies decoration and luxury (cf. NCV “fancy houses”; TEV “well-built houses”; NLT “luxurious houses”). The impropriety of the people living in such lavish accommodations while the temple lay unfinished is striking."
+      },
+      {
+        "anchor": "while my temple is in ruins?",
+        "note": "tn Heb “Is it time for you, [yes] you, to live in paneled houses, while this house is in ruins”; NASB “lies desolate”; NIV “remains a ruin.”"
+      }
+    ],
+    "5": [
+      {
+        "anchor": "who rules over all says: ‘Think carefully about what you are doing.",
+        "note": "tn Heb “Set your heart upon your ways” (see 2:15, 18); traditionally “Consider your ways” (so KJV, ASV, NAB, NASB)."
+      }
+    ],
+    "6": [
+      {
+        "anchor": "You have planted much, but have harvested little. You eat, but are never filled. You drink, but are still thirsty. You put on clothes, but are not warm. Those who earn wages end up with holes in their money bags.’”",
+        "note": "tn Some translate “pockets” (so NLT) but the Hebrew word צְרוֹר (tsÿror) refers to a bag, pouch, or purse of money (BDB 865 s.v. צְרוֹר; HALOT 1054 s.v. צְרוֹר 1). Because coinage had been invented by the Persians and was thus in use in Haggai’s day, this likely is a money bag or purse rather than pouches or pockets in the clothing. Since in contemporary English “purse” (so NASB, NIV, NCV) could be understood as a handbag, the present translation uses “money bags.”"
+      }
+    ],
+    "7": [
+      {
+        "anchor": "who rules over all says: ‘Pay close attention to these things also.",
+        "note": "tn Heb “Set your heart upon your ways”; see v. 5."
+      }
+    ],
+    "8": [
+      {
+        "anchor": "Go up to the hill country and bring back timber to build",
+        "note": "tn Heb “and build the house” (so NIV, NRSV), with “house” referring specifically to the temple here."
+      },
+      {
+        "anchor": "the temple.",
+        "note": "sn The temple was built primarily of stone, so the timber here refers to interior paneling (see v. 4) and perhaps to scaffolding (see Ezra 5:8; 6:4)."
+      },
+      {
+        "anchor": "Then I will be pleased and honored,’",
+        "note": "tn The Hebrew verb אֶכָּבְדָ (’ekkavda) appears to be a defectively written cohortative (“that I may be glorified”). The cohortatives (note that the preceding אֶרְצֶה, ’ertseh, “I will be pleased,” may also be taken as cohortative) indicate purpose/result (cf. NIV, NRSV “so that”; CEV “so”) following the imperatives of v. 8a (“go up,” “bring back,” “build”)."
+      }
+    ],
+    "9": [
+      {
+        "anchor": "‘You expected a large harvest, but instead",
+        "note": "tn Heb “look!” (הִנֵּה, hinneh). The term, an interjection, draws attention to the point being made."
+      },
+      {
+        "anchor": "there was little, and when you brought it home it disappeared right away.",
+        "note": "tn Heb “I blew it away” (so NRSV, TEV, NLT). The imagery here suggests that human achievements are so fragile and temporal that a mere breath from God can destroy them (see Ezek 22:20, 21; and Isa 40:7 with נָשַׁב, nashav)."
+      },
+      {
+        "anchor": "who rules over all. ‘Because my temple remains in ruins, thanks to each of you favoring his own house!",
+        "note": "tn Heb “and each of you runs to his own house”; NIV “is busy with”; TEV “is busy working on”; NCV “work hard for.”"
+      }
+    ],
+    "10": [
+      {
+        "anchor": "This is why the sky",
+        "note": "tn The Hebrew text has “over you” (so KJV), but this is redundant in contemporary English and has been left untranslated."
+      },
+      {
+        "anchor": "has held back its dew and the earth its produce.",
+        "note": "sn This linkage of human sin to natural disaster is reminiscent of the curse brought upon the earth by Adam’s disobedience (Gen 3:17-19; see Rom 8:20-22)."
+      }
+    ],
+    "11": [
+      {
+        "anchor": "Moreover, I have called for a drought that will affect the fields, the hill country, the grain, new wine, fresh olive oil, and everything that grows from the ground; it also will harm people, animals, and everything they produce.’”",
+        "note": "tn Heb “all the labor of hands” (similar KJV, NASB, NIV); cf. NAB “all that is produced by hand.”"
+      }
+    ],
+    "12": [
+      {
+        "anchor": "Then Zerubbabel son of Shealtiel and the high priest Joshua son of Jehozadak,",
+        "note": "tn Many English versions have “Joshua [the] son of Jehozadak, the high priest,” but this is subject to misunderstanding. See the note on the name “Jehozadak” at the end of v. 1."
+      },
+      {
+        "anchor": "along with the whole remnant of the people,",
+        "note": "tn Heb “all the remnant of the people.” The Hebrew phrase שְׁאֵרִית הָעָם (shÿ’erit ha’am) in this postexilic context is used as a technical term to refer to the returned remnant (see Ezra 9:14; Isa 10:20-22; 11:11, 16; Jer 23:3; 31:7; and many other passages). Cf. TEV “all the people who had returned from the exile in Babylonia.”"
+      },
+      {
+        "anchor": "obeyed",
+        "note": "tn Heb “heard the voice of”; NAB “listened to the voice of.”"
+      },
+      {
+        "anchor": "their God had instructed him,",
+        "note": "tn Heb “and according to the words of Haggai the prophet just as the Lord their God sent him.” Some English versions (e.g., NAB, NIV, NCV) take the last clause as causal: “because the Lord their God had sent him.”"
+      },
+      {
+        "anchor": ".",
+        "note": "tn Heb “and the people feared from before the Lord”; NASB “showed reverence for the Lord.”"
+      }
+    ],
+    "13": [
+      {
+        "anchor": "’s word to the people:",
+        "note": "tn Heb “Haggai, the messenger of the Lord, said by the message of the Lord to the people.” The Hebrew is highly repetitive; in keeping with contemporary English style this has been simplified in the translation."
+      }
+    ],
+    "14": [
+      {
+        "anchor": "energized and encouraged",
+        "note": "tn Heb “stirred up” (as in many English versions). Only one verb appears in the Hebrew text, but the translation “energized and encouraged” brings out its sense in this context. Cf. TEV “inspired”; NLT “sparked the enthusiasm of”; CEV “made everyone eager to work.”sn It was God who initiated the rebuilding by providing the people with motivation and ability."
+      },
+      {
+        "anchor": "Zerubbabel",
+        "note": "tn Heb “the spirit of Zerubbabel” (so NAB, NIV, NRSV)."
+      },
+      {
+        "anchor": "son of Shealtiel, governor of Judah, the high priest Joshua son of Jehozadak,",
+        "note": "tn Heb “the spirit of Joshua son of Jehozadak, the high priest” (as in many English versions), but this is subject to misunderstanding. See the note on the name “Jehozadak” at the end of v. 1."
+      },
+      {
+        "anchor": "and the whole remnant of the people.",
+        "note": "tn Heb “and the spirit of all the remnant of the people.” The Hebrew phrase שְׁאֵרִית הָעָם (shÿ’erit ha’am) in this postexilic context is used as a technical term to refer to the returned remnant; see the note on the phrase “the whole remnant of the people” in v. 12."
+      }
+    ],
+    "15": [
+      {
+        "anchor": "This took place on the twenty-fourth day of the sixth month of King Darius’ second year.",
+        "note": "sn The twenty-fourth day of the sixth month of King Darius’ second year was September 21, 520 b.c., twenty-three days after the original command by Haggai to rebuild (1:1). The text does not state the reason for the delay, but it may have resulted from the pressing need to bring in the late summer harvest."
+      }
+    ]
+  },
+  "2": {
+    "1": [
+      {
+        "anchor": "On the twenty-first day of the seventh month,",
+        "note": "tn Heb “In the seventh [month], on the twenty-first day of the month.”sn The seventh month was the month Tishri, according to the modern (Julian) calendar October 17, 520 b.c. The twenty-first day of Tishri marked the seventh day of the Feast of Tabernacles (Num 29:32-34). It also coincided with the date 440 years earlier (960 b.c.) when Solomon finished building his temple (1 Kgs 6:38; 8:2)."
+      },
+      {
+        "anchor": "spoke again through the prophet Haggai:",
+        "note": "tc Heb “the word of the Lord came by the hand of Haggai the prophet, saying.” The MT has בְּיַד (bÿyad, “by the hand of” = “through” [so NAB, NIV, NLT] as in 1:1, 3); the Murabba’at Dead Sea text reads אֶל (’el, “to”), perhaps because the following command is given to the prophet."
+      }
+    ],
+    "2": [
+      {
+        "anchor": "“Ask the following questions to",
+        "note": "tn Heb “say to”; NAB “Tell this to.”"
+      },
+      {
+        "anchor": "Zerubbabel son of Shealtiel, governor of Judah, the high priest Joshua son of Jehozadak,",
+        "note": "tn Many English versions have “Joshua (the) son of Jehozadak the high priest,” but this is subject to misunderstanding. See the note on the name “Jehozadak” at the end of v. 1."
+      }
+    ],
+    "3": [
+      {
+        "anchor": "‘Who among you survivors saw the former splendor of this temple?",
+        "note": "tn Heb “this house in its earlier splendor”; NAB, NIV, NRSV “in its former glory.”sn Solomon’s temple was demolished in 586 b.c., 66 years prior to Haggai’s time. There surely would have been some older people who remembered the former splendor of that magnificent structure and who lamented the contrast to the small, unimpressive temple they were building (see Ezra 3:8-13)."
+      }
+    ],
+    "4": [
+      {
+        "anchor": ". ‘Take heart, Joshua son of Jehozadak, the high priest, and",
+        "note": "tn Heb “and take heart.” Although emphatic, the repetition of the verb is redundant in contemporary English style and has been left untranslated."
+      },
+      {
+        "anchor": "all you citizens of the land,’",
+        "note": "tn Heb “the people of the land” (עַם הָאָרֶץ, ’am ha’arets); this is a technical term referring to free citizens as opposed to slaves."
+      }
+    ],
+    "5": [
+      {
+        "anchor": "‘Do not fear, because I made a promise to your ancestors when they left Egypt, and my spirit",
+        "note": "sn My spirit. It is theologically anachronistic to understand “spirit” here in the NT sense as a reference to the Holy Spirit, the third person of the Trinity; nevertheless during this postexilic period the conceptual groundwork was being laid for the doctrine of the Holy Spirit later revealed in the NT."
+      },
+      {
+        "anchor": "even now testifies to you.’",
+        "note": "tc The MT of v. 5 reads “with the word which I cut with you when you went out from Egypt and my spirit [which] stands in your midst, do not fear.” BHS proposes emending “with the word” to זֹאת הַבְּרִית (zo’t habbÿrit, “this is the covenant”) at the beginning of the verse. The proposed emendation makes excellent sense and is expected with the verb כָּרַת (karat, “cut” or “make” a covenant), but it has no textual support. Most English versions (including the present translation) therefore follow the MT here."
+      }
+    ],
+    "6": [
+      {
+        "anchor": "who rules over all says: ‘In just a little while",
+        "note": "tc The difficult MT reading עוֹד אַחַת מְעַט הִיא (’od ’akhat mÿ’at hi’, “yet once, it is little”; cf. NAB “One moment yet, a little while”) appears as “yet once” in the LXX, omitting the last two Hebrew words. However, the point being made is that the anticipated action is imminent; thus the repetition provides emphasis."
+      },
+      {
+        "anchor": "I will once again shake the sky",
+        "note": "tn Or “the heavens.” The same Hebrew word, שָׁמַיִם (shamayim), may be translated “sky” or “heavens” depending on the context. Although many English versions translate the term as “heavens” here, the other three elements present in this context (earth, sea, dry ground) suggest “sky” is in view."
+      }
+    ],
+    "7": [
+      {
+        "anchor": "I will also shake up all the nations, and they",
+        "note": "tn Heb “all the nations.”"
+      },
+      {
+        "anchor": "will offer their treasures;",
+        "note": "tn Though the subject here is singular (חֶמְדַּה, khemdah; “desire”), the preceding plural predicate mandates a collective subject, “desired (things)” or, better, an emendation to a plural form, חֲמֻדֹת (khamudot, “desirable [things],” hence “treasures”). Cf. ASV “the precious things”; NASB “the wealth”; NRSV “the treasure.” In the OT context this has no direct reference to the coming of the Messiah."
+      }
+    ],
+    "9": [
+      {
+        "anchor": "‘The future splendor of this temple will be greater than that of former times,’",
+        "note": "tn Heb “greater will be the latter splendor of this house than the former”; NAB “greater will be the future glory.”"
+      },
+      {
+        "anchor": "who rules over all declares, ‘and in this place I will give peace.’”",
+        "note": "tn In the Hebrew text there is an implicit play on words in the clause “in this place [i.e., Jerusalem] I will give peace”: in יְרוּשָׁלַיִם (yÿrushalayim) there will be שָׁלוֹם (shalom)."
+      }
+    ],
+    "10": [
+      {
+        "anchor": "On the twenty-fourth day of the ninth month of Darius’ second year,",
+        "note": "sn The twenty-fourth day of the ninth month of Darius’ second year was Kislev 24 or December 18, 520 b.c."
+      },
+      {
+        "anchor": "spoke again to the prophet Haggai:",
+        "note": "tn Heb “the word of the Lord came to Haggai the prophet, saying.” This Hebrew expression is slightly different from the one in 1:1, 3; 2:1."
+      }
+    ],
+    "11": [
+      {
+        "anchor": "who rules over all says, ‘Ask the priests about the law.",
+        "note": "tn Heb “Ask the priests a torah, saying”; KJV “concerning the law”; NAB “for a decision”; NCV “for a teaching”; NRSV “for a ruling.”"
+      }
+    ],
+    "12": [
+      {
+        "anchor": "If someone carries holy meat in a fold of his garment and that fold touches bread, a boiled dish, wine, olive oil, or any other food, will that item become holy?’”",
+        "note": "sn This is probably not an appeal to the Torah (i.e., the Pentateuch) as such but to a priestly ruling (known in postbiblical Judaism as a pÿsaq din). There is, however, a Mosaic law that provides the basis for the priestly ruling (Lev 6:27)."
+      }
+    ],
+    "13": [
+      {
+        "anchor": "Then Haggai asked, “If a person who is ritually unclean because of touching a dead body",
+        "note": "tn Heb “unclean of a person,” a euphemism for “unclean because of a dead person”; see Lev 21:11; Num 6:6. Cf. NAB “unclean from contact with a corpse.”"
+      }
+    ],
+    "14": [
+      {
+        "anchor": "Then Haggai responded, “‘The people of this nation are unclean in my sight,’",
+        "note": "tn Heb “so this people, and so this nation before me.” In this context “people” and “nation” refer to the same set of individuals; the repetition is emphatic. Cf. CEV “this entire nation.”"
+      },
+      {
+        "anchor": ". ‘And so is all their effort; everything they offer is also unclean.",
+        "note": "sn The point here is that the Jews cannot be made holy by unholy fellowship with their pagan neighbors; instead, they and their worship will become corrupted by such associations."
+      }
+    ],
+    "15": [
+      {
+        "anchor": "Now therefore reflect carefully on the recent past,",
+        "note": "tn Heb “and now set your heart from this day and upward.” The juxtaposition of מָעְלָה (ma’lah, “upward”) with the following מִטֶּרֶם (mitterem, “before”) demands a look to the past. Cf. ASV “consider from this day and backward.”"
+      },
+      {
+        "anchor": "’s temple.",
+        "note": "sn Before one stone was laid on another in the Lord’s temple is best taken as referring to the laying of the present temple’s foundation, sixteen years earlier (536 b.c.; see Ezra 3:8). Cf. NCV “before you started laying stones”; TEV “before you started to rebuild”; NLT “before you began to lay (started laying CEV) the foundation.”"
+      }
+    ],
+    "16": [
+      {
+        "anchor": "From that time",
+        "note": "tn Heb “from their being,” idiomatic for “from the time they were then,” or “since the time.” Cf. KJV “Since those days were.”"
+      }
+    ],
+    "17": [
+      {
+        "anchor": "I struck all the products of your labor",
+        "note": "tn Heb “you, all the work of your hands”; NRSV “you and all the products of your toil”; NIV “all the work of your hands.”"
+      },
+      {
+        "anchor": "with blight, disease, and hail, and yet you brought nothing to me,’",
+        "note": "tn Heb “and there was not with you.” The context favors the idea that the harvests were so poor that the people took care of only themselves, leaving no offering for the Lord. Cf. KJV and many English versions “yet ye turned not to me,” understanding the phrase to refer to the people’s repentance rather than their failure to bring offerings."
+      }
+    ],
+    "18": [
+      {
+        "anchor": "‘Think carefully about the past:",
+        "note": "tn Heb “set your heart.” A similar expression occurs in v. 15."
+      },
+      {
+        "anchor": "from today, the twenty-fourth day of the ninth month,",
+        "note": "sn The twenty-fourth day of the ninth month was Kislev 24 or December 18, 520. See v. 10. Here the reference is to “today,” the day the oracle is being delivered."
+      },
+      {
+        "anchor": "was resumed,",
+        "note": "sn The day work…was resumed. This does not refer to the initial founding of the Jerusalem temple in 536 b.c. but to the renewal of construction three months earlier (see 1:15). This is clear from the situation described in v. 19 which accords with the food scarcities of that time already detailed in Hag 1:10-11."
+      },
+      {
+        "anchor": "think about it.",
+        "note": "tn Heb “set your heart.” A similar expression occurs in v. 15 and at the beginning of this verse."
+      }
+    ],
+    "20": [
+      {
+        "anchor": "spoke again to Haggai",
+        "note": "tn Heb “and the word of the Lord came a second time to Haggai.” This Hebrew expression is like the one in 2:10 and is slightly different from the one in 1:1, 3; 2:1."
+      },
+      {
+        "anchor": "on the twenty-fourth day of the month:",
+        "note": "sn Again, the twenty-fourth day of the month was Kislev 24 or December 18, 520 b.c. See v. 10."
+      }
+    ],
+    "21": [
+      {
+        "anchor": "Tell Zerubbabel governor of Judah: ‘I am ready",
+        "note": "tn The participle here suggests an imminent undertaking of action (cf. NRSV, TEV, NLT “I am about to”). The overall language of the passage is eschatological, but eschatology finds its roots in the present."
+      },
+      {
+        "anchor": "to shake the sky",
+        "note": "tn See the note on the word “sky” in 2:6. Most English translations render the Hebrew term as “heavens” here."
+      }
+    ],
+    "22": [
+      {
+        "anchor": "I will overthrow royal thrones and shatter the might of earthly kingdoms.",
+        "note": "tn Heb “the kingdoms of the nations.” Cf. KJV “the kingdoms of the heathen”; NIV, NLT “foreign kingdoms.”"
+      },
+      {
+        "anchor": "I will overthrow chariots and those who ride them, and horses and their riders will fall as people kill one another.",
+        "note": "tn Heb “and horses and their riders will go down, a man with a sword his brother”; KJV “every one by the sword of his brother.”"
+      }
+    ],
+    "23": [
+      {
+        "anchor": "On that day,’",
+        "note": "sn The expression on that day appears as a technical eschatological term in a number of other OT passages (cf., e.g., Isa 2:11, 17, 20; 3:7, 18; Amos 8:3, 9; Hos 2:18, 21)."
+      },
+      {
+        "anchor": "who rules over all, ‘I will take you, Zerubbabel son of Shealtiel, my servant,’",
+        "note": "sn My servant. The collocation of “servant” and “chosen” bears strong messianic overtones. See the so-called “Servant Songs” and other messianic texts in Isaiah (Isa 41:8; 42:1; 44:4; 49:7)."
+      },
+      {
+        "anchor": ", ‘and I will make you like a signet ring,",
+        "note": "sn The noun signet ring, used also to describe Jehoiachin (Jer 22:24-30), refers to a ring seal worn by a king or other important person and used as his signature. Zerubbabel was a grandson of King Jehoiachin (1 Chr 3:17-19; Matt 1:12); God once pronounced that none of Jehoiachin’s immediate descendants would rule (Jer 22:24-30), but here he reverses that judgment. Zerubbabel never ascended to such a lofty position of rulership; he is rather a prototype of the Messiah who would sit on David’s throne."
+      },
+      {
+        "anchor": "who rules over all.”",
+        "note": "tn The repetition of the formula “says the Lord who rules over all” in v. 23 emphasizes the solemn and divine nature of the promise."
+      }
+    ]
   }
 }

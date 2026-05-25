@@ -1,109 +1,904 @@
 {
-  "5": {
-    "1": "tn Or “Do not speak harshly to an older man.” | tn No verb “speak” is stated in this clause, but it continues the sense of the preceding.",
-    "3": "sn The word honor here carries the double meaning of respect and financial support. This Greek word can imply both senses, and both are intended in this context. | tn Grk “the real widows,” “those who are really widows.”",
-    "4": "tn Or “to practice their religion.” | tn Or “and so make some repayment to their parents”; Grk “and to give back recompense to their parents.” | tn Grk “for this is pleasing in the sight of God.”",
-    "5": "tn Or “left all alone.”",
-    "6": "tn For “is dead even” the Greek text reads “has died.”",
-    "7": "tn Here καί (kai) has not been translated because of differences between Greek and English style. | tn Grk “and command these things.”",
-    "8": "tn That is, “his own relatives.”",
-    "9": "sn This list was an official enrollment, apparently with a formal pledge to continue as a widow and serve the Lord in that way (cf. v. 12). It was either (1) the list of “true widows” who were given support by the church or (2) a smaller group of older women among the supported widows who were qualified for special service (perhaps to orphans, other widows, the sick, etc.). Most commentators understand it to be the former, since a special group is not indicated clearly. See G. W. Knight, Pastoral Epistles, 222-23 for discussion. | tn Grk “let a widow be enrolled if she has reached not less than sixty years.” | tn Or “a woman married only once,” “was devoted solely to her husband” (see the note on “wife” in 1 Tim 3:2; also 1 Tim 3:12; Titus 1:6).",
-    "10": "tn Grk “if she raised children.” The phrase “if she raised children” begins a series of conditional clauses running to the end of the verse. These provide specific examples of her good works (v. 10a). | tn Grk “followed after every good work.”",
-    "11": "tn Grk “refuse younger widows.” | tn With a single verb and object, this clause means “pursue sensuous desires in opposition to Christ.”",
-    "12": "tn Grk “incurring judgment because they reject their first faith.”sn The pledge refers most likely to a vow not to remarry undertaken when a widow is put on the list (cf. 1 Tim 5:9).",
-    "13": "tn L&N 15.23 suggests the meaning, “to move about from place to place, with significant changes in direction – ‘to travel about, to wander about.’” | tn Or “idle.” The whole clause (“going around from house to house, they learn to be lazy”) reverses the order of the Greek. The present participle περιερχόμεναι (periercomenai) may be taken as temporal (“while going around”), instrumental (“by going around”) or result (“with the result that they go around”). | tn Grk “saying the things that are unnecessary.” Or perhaps “talking about things that are none of their business.”",
-    "14": "tn Grk “for the sake of reviling.”",
-    "15": "tn Grk “wandered away after Satan.”",
-    "16": "tc Most witnesses (D Ψ Ï sy) have πιστὸς ἤ (pisto\" h) before πιστή (pisth), with the resultant meaning “if a believing man or woman.” But such looks to be a motivated reading, perhaps to bring some parity to the responsibilities of men and women listed here, and as a way of harmonizing with v. 4. Further, most of the earliest and best witnesses (א A C F G P 048 33 81 1175 1739 1881 co) lack the πιστὸς ἤ, strengthening the preference for the shorter reading. | tn Grk “has widows.” | tn Grk “the real widows,” “those who are really widows.”",
-    "17": "tn Grk “who lead well.” | tn Or “deserving.” | tn Like the similar use of “honor” in v. 3, this phrase denotes both respect and remuneration: “honor plus honorarium.” | tn Or “in preaching”; Grk “in word.”",
-    "18": "sn A quotation from Deut 25:4. | sn A quotation from Luke 10:7.",
-    "19": "sn An allusion to Deut 17:6, 19:15.",
-    "20": "sn As a continuation of v. 19, this refers to elders who sin, not to sinning believers more generally. | tn Or “censured.” The Greek word implies exposing someone’s sin in order to bring correction. | tn “Before all” probably refers to the whole congregation, not just all the elders; “the rest” is more likely to denote the remaining elders. | tn Grk “that the rest may have fear.”",
-    "21": "tn Grk “doing nothing according to partiality.”",
-    "22": "tn In context “laying hands on anyone” refers to ordination or official installation of someone as an elder. | tn Grk “and do not share in the sins of others.”",
-    "23": "tn Grk “for the sake of your stomach.” | sn This verse gives parenthetical advice to Timothy, to clarify what it means to keep pure (5:22c). Verse 24 resumes the instructions about elders.",
-    "24": "tn Grk “they [the sins] follow after others.”"
+  "6": {
+    "1": [
+      {
+        "anchor": "Those who are under the yoke as slaves",
+        "note": "tn Traditionally, “servants.” Though δοῦλος (doulos) is normally translated “servant,” the word does not bear the connotation of a free individual serving another. BDAG notes that “‘servant’ for ‘slave’ is largely confined to Biblical transl. and early American times…in normal usage at the present time the two words are carefully distinguished” (BDAG 260 s.v.). The most accurate translation is “bondservant” (sometimes found in the ASV for δοῦλος), in that it often indicates one who sells himself into slavery to another. But as this is archaic, few today understand its force."
+      },
+      {
+        "anchor": "must regard their own masters as deserving of full respect. This will prevent",
+        "note": "tn Grk “that the name…may not be slandered” (a continuation of the preceding sentence)."
+      },
+      {
+        "anchor": "the name of God and Christian teaching",
+        "note": "tn Grk “the teaching.”"
+      },
+      {
+        "anchor": "from being discredited.",
+        "note": "tn Or “slandered.”"
+      }
+    ],
+    "2": [
+      {
+        "anchor": "Teach them and exhort them about these things.",
+        "note": "tn Grk “these things teach and exhort.”"
+      }
+    ],
+    "3": [
+      {
+        "anchor": "If someone spreads false teachings",
+        "note": "tn Grk “teaches other doctrines,” (different from apostolic teaching, cf. 1 Tim 1:3)."
+      }
+    ],
+    "5": [
+      {
+        "anchor": "and constant bickering by people corrupted in their minds and deprived of the truth, who suppose that godliness",
+        "note": "tc Although most witnesses, including some early versions and fathers (D2 Ψ Ï sy Cyp Lcf Ambst), have ἀφίστασο ἀπὸ τῶν τοιούτων (afistaso apo’ twn toioutwn, “stay away from such things!”) after εὐσεβείαν (eusebeian, “godliness”; thus, “who suppose that godliness is a way of making a profit; stay away from such things!”), there seems to be little good reason for this clause’s omission in some of the oldest and best witnesses (א A D* F G 048 6 33 81 1175 1739 1881 lat co). It is likely that it crept into the text early, perhaps as a marginal comment, but it should not be considered authentic in light of the strong external evidence against it."
+      }
+    ],
+    "7": [
+      {
+        "anchor": "For we have brought nothing into this world and so",
+        "note": "tc The Greek conjunction ὅτι usually means “because,” but here it takes the sense “so that” (see BDAG 732 s.v. 5.c). This unusual sense led to textual variation as scribes attempted to correct what appeared to be an error: D* and a few versional witnesses read ἀληθές ὅτι (“it is true that”), and א2 D2 Ψ Ï read δῆλον ὅτι (“it is clear that”). Thus the simple conjunction is preferred on internal as well as external grounds, supported by א* A F G 33 81 1739 1881 pc."
+      }
+    ],
+    "8": [
+      {
+        "anchor": "But if we have food and shelter, we will be satisfied with that.",
+        "note": "tn Grk “with these.”"
+      }
+    ],
+    "10": [
+      {
+        "anchor": "For the love of money is the root",
+        "note": "tn This could be taken to mean “a root,” but the phrase “of all evils” clearly makes it definite. This seems to be not entirely true to life (some evils are unrelated to love of money), but it should be read as a case of hyperbole (exaggeration to make a point more strongly)."
+      },
+      {
+        "anchor": "of all evils.",
+        "note": "tn Many translations render this “of all kinds of evil,” especially to allow for the translation “a root” along with it. But there is no parallel for taking a construction like this to mean “all kinds of” or “every kind of.” The normal sense is “all evils.”"
+      }
+    ],
+    "11": [
+      {
+        "anchor": "But you, as a person dedicated to God,",
+        "note": "tn Grk “O man of God.”"
+      },
+      {
+        "anchor": "keep away from all that.",
+        "note": "tn Grk “flee these things.”"
+      }
+    ],
+    "12": [
+      {
+        "anchor": "Compete well",
+        "note": "tn This phrase literally means “compete in the good competition of the faith,” using words that may refer to a race or to a boxing or wrestling match: “run the good race” or “fight the good fight.” The similar phrase in 1 Tim 1:18 uses a military picture and is more literally “war the good warfare.”"
+      },
+      {
+        "anchor": "for the faith and lay hold of that eternal life you were called for and made your good confession",
+        "note": "sn At some point in Timothy’s life, he publicly acknowledged Jesus as the resurrected Lord, perhaps either at his baptism or his ordination as a minister of the gospel. With this reminder of the historical moment of his good confession, Timothy is encouraged to remain steadfast in his faith and to finish his life as a minister in the same way it began (see G. W. Knight, Pastoral Epistles [NIGTC], 264-65)."
+      },
+      {
+        "anchor": "for",
+        "note": "tn Grk “confessed the good confession.”"
+      }
+    ],
+    "13": [
+      {
+        "anchor": "I charge you",
+        "note": "tc ‡ Most witnesses, some of them important (א2 A D H 1881 Ï lat sy bo), have σοι (soi, “you”) after παραγγέλλω (parangellw, “I charge [you]”), a predictable variant because the personal pronoun is demanded by the sense of the passage (and was added in the translation because of English requirements). Hence, the omission is the harder reading, and the addition of σοι is one of clarification. Further, the shorter reading is found in several important witnesses, such as א* F G Ψ 6 33 1739 pc. Thus, both internally and externally the shorter reading is preferred. NA 27 places σοι in brackets, indicating some doubts as to its authenticity.tn Grk “I charge.”"
+      },
+      {
+        "anchor": "before God who gives life to all things and Christ Jesus who made his good confession",
+        "note": "tn Grk “testified the good confession.”sn Jesus’ good confession was his affirmative answer to Pilate’s question “Are you the king of the Jews?” (see Matt 27:11, Mark 15:2, Luke 23:3, John 18:33-37)."
+      }
+    ],
+    "14": [
+      {
+        "anchor": "to obey",
+        "note": "tn The Greek word τηρέω (threw, traditionally translated “keep”) in this context connotes preservation of and devotion to an object as well as obedience."
+      },
+      {
+        "anchor": "this command",
+        "note": "tn Grk “the command.”sn The command refers to the duties laid upon Timothy for his ministry in Ephesus (1 Tim 1:3-20; 6:2c-5)."
+      }
+    ],
+    "15": [
+      {
+        "anchor": "– whose appearing",
+        "note": "tn Grk “which.” All of 1 Tim 6:15 is a relative clause which refers back to “appearing” in v.14. The phrase “whose appearing” was supplied to clarify this connection."
+      }
+    ],
+    "17": [
+      {
+        "anchor": "Command those who are rich in this world’s goods",
+        "note": "tn Grk “in the present age.”"
+      },
+      {
+        "anchor": "not to be haughty or to set their hope on riches, which are uncertain,",
+        "note": "tn Grk “in uncertainty.”"
+      }
+    ],
+    "18": [
+      {
+        "anchor": "Tell them to do good,",
+        "note": "tn Grk “to do good” (the continuation of 6:17). Because of the length and complexity of the Greek sentence, a new sentence was started at the beginning of v. 18."
+      },
+      {
+        "anchor": "to be rich in good deeds, to be generous givers, sharing with others.",
+        "note": "tn Grk “to be generous,” “sharing.”"
+      }
+    ],
+    "19": [
+      {
+        "anchor": "In this way they will save up",
+        "note": "tn Grk “saving up” (the continuation of 6:18). Because of the length and complexity of the Greek sentence, a new sentence was started at the beginning of v. 19."
+      },
+      {
+        "anchor": "a treasure for themselves as a firm foundation",
+        "note": "tn Grk “treasuring up a good foundation.”"
+      },
+      {
+        "anchor": "for the future and so lay hold of",
+        "note": "tn Grk “that they may lay hold of.”"
+      }
+    ],
+    "20": [
+      {
+        "anchor": "O Timothy, protect what has been entrusted to you. Avoid",
+        "note": "tn Grk “avoiding.” Because of the length and complexity of the Greek sentence, a new sentence was started here in the translation."
+      },
+      {
+        "anchor": "the profane chatter and absurdities",
+        "note": "tn Or “contradictions.”"
+      },
+      {
+        "anchor": "of so-called “knowledge.”",
+        "note": "tn Grk “the falsely named knowledge.”"
+      }
+    ],
+    "21": [
+      {
+        "anchor": "By professing it, some have strayed from the faith.",
+        "note": "tn Grk “have deviated concerning the faith.”"
+      },
+      {
+        "anchor": "Grace be with you all.",
+        "note": "tc Most witnesses (א2 D1 Ψ Ï sy) conclude this letter with ἀμήν (amhn, “amen”). Such a conclusion is routinely added by scribes to NT books because a few of these books originally had such an ending (cf. Rom 16:27; Gal 6:18; Jude 25). A majority of Greek witnesses have the concluding ἀμήν in every NT book except Acts, James, and 3 John (and even in these books, ἀμήν is found in some witnesses). It is thus a predictable variant. Further, the earliest and best witnesses (א* A D* F G 33 81 1739* 1881 it sa) lack the particle, indicating that the letter concluded with “Grace be with you all.”tn Grk “with you” (but the Greek pronoun indicates the meaning is plural here)."
+      }
+    ]
   },
   "2": {
-    "1": "tn Or “petitions.” | tn Grk “all men”; but here ἀνθρώπων (anqrwpwn) is used generically, referring to both men and women.",
-    "2": "tn For “even for kings” the Greek says simply “for kings.”",
-    "3": "tn Grk “this”; the referent (such prayer for all, referring to vv. 1-2) is specified in the translation for clarity.",
-    "4": "tn Grk “who wants…” (but showing why such prayer is pleasing to God). | tn Grk “all men”; but here ἀνθρώπους (anqrwpous) is used generically, referring to both men and women.",
-    "5": "tn Traditionally this word (μεσίτης, mesith\") is rendered “mediator,” but this conveys a wrong impression in contemporary English. Jesus was not a mediator, for example, who worked for compromise between opposing parties. Instead he was the only one able to go between man and God to enable them to have a relationship, but entirely on God’s terms. | tn Grk “one mediator between God and mankind, the human, Christ Jesus.”",
-    "6": "sn Revealing God’s purpose at his appointed time is a difficult expression without clear connection to the preceding, literally “a testimony at the proper time.” This may allude to testimony about Christ’s atoning work given by Paul and others (as v. 7 mentions). But it seems more likely to identify Christ’s death itself as a testimony to God’s gracious character (as vv. 3-4 describe). This testimony was planned from all eternity, but now has come to light at the time God intended, in the work of Christ. See 2 Tim 1:9-10; Titus 2:11-14; 3:4-7 for similar ideas.",
-    "7": "tc Most mss (א* D2 H 33vid Ï) have ἐν Χριστῷ (en Cristw) after λέγω (legw) to read “I am telling the truth in Christ,” but this is probably an assimilation to Rom 9:1. Further, the witnesses that lack this phrase are early, important, and well distributed (א2 A D* F G P Ψ 6 81 1175 1739 1881 al sy co). It is difficult to explain the shorter reading if it is not original.",
-    "8": "tn The word translated “men” here (ἀνήρ, anhr) refers to adult males, not people in general. Note the command given to “the women” in v. 9. | sn To pray. In this verse Paul resumes and concludes the section about prayer begun in 2:1-2. 1 Tim 2:3-7 described God’s concern for all people as the motive for such prayer. | sn Paul uses a common ancient posture in prayer (lifting up holy hands) as a figure of speech for offering requests from a holy life (without anger or dispute).",
-    "9": "tc ‡ Most witnesses have καὶ τάς (kai tas; so D1 Ψ 1881 Ï) or simply καί (א2 D* F G 6 365 1739 pc) after ὡσαύτως (Jwsautw\"). A few important witnesses lack such words (א* A H P 33 81 1175 pc). The evidence is for the most part along “party” lines, with the shortest reading being found in the Alexandrian text, the conjunction in the Western, and the longest reading in the Byzantine tradition. Externally, the shortest reading is preferred. However, there is a good chance of homoiomeson or homoioteleuton in which case καί or καὶ τάς could have accidentally been omitted (note the αι [ai] and αι ας [ai as] in the word that follows, written here in uncial script): wsautwskaigunaikas/ wsautwskaitasgunaikas. Nevertheless, since both the καί and καὶ τάς are predictable variants, intended to fill out the meaning of the text, the shortest reading seems best able to explain the rise of the others. NA27 has the καί in brackets, indicating doubts as to its authenticity. | tn Grk “to adorn themselves.” Grammatically the phrase “to adorn themselves” continues the author’s words in v. 8: “I want…likewise the women to adorn themselves.” | tn This word and its cognates are used frequently in the Pastoral Epistles. It means “moderation,” “sobriety,” “decency,” “sensibleness,” or “sound judgment.” | tn Literally a continuation of v. 9a, “not with braided hair…” Because of the length and complexity of the Greek sentence, a new sentence was started here in the translation.",
-    "11": "tn Or “receive instruction.”",
-    "12": "sn But I do not allow. Although the Greek conjunction δέ (de) can have a simple connective force (“and”), it is best to take it as contrastive here: Verse 11 gives a positive statement (that is to say, that a woman should learn). This was a radical and liberating departure from the Jewish view that women were not to learn the law. | tn According to BDAG 150 s.v. αὐθεντέω this Greek verb means “to assume a stance of independent authority, give orders to, dictate to” (cf. JB “tell a man what to do”). | tn Grk “but to be in quietness.” The phrase ἐν ἡσυχίᾳ (en Jhsucia) is used in Greek literature either of absolute silence or of a quiet demeanor.",
-    "14": "tn This phrase uses a compound form of the same verb as in v. 14a: “deceived” vs. “deceived out, completely deceived.” The two verbs could be synonymous, but because of the close contrast in this context, it seems that a stronger meaning is intended for the second verb. | tn Grk “has come to be in transgression” (with an emphasis on the continuing consequences of that fall).",
-    "15": "tn Or “But she will be preserved through childbearing,” or “But she will be saved in spite of childbearing.” This verse is notoriously difficult to interpret, though there is general agreement about one point: Verse 15 is intended to lessen the impact of vv. 13-14. There are several interpretive possibilities here, though the first three can be readily dismissed (cf. D. Moo, “1 Timothy 2:11-15: Meaning and Significance,” TJ 1 [1980]: 70-73). (1) Christian women will be saved, but only if they bear children. This view is entirely unlikely for it lays a condition on Christian women that goes beyond grace, is unsupported elsewhere in scripture, and is explicitly against Paul’s and Jesus’ teaching on both marriage and salvation (cf. Matt 19:12; 1 Cor 7:8-9, 26-27, 34-35; 1 Tim 5:3-10). (2) Despite the curse, Christian women will be kept safe when bearing children. This view also is unlikely, both because it has little to do with the context and because it is not true to life (especially life in the ancient world with its high infant mortality rate). (3) Despite the sin of Eve and the results to her progeny, she would be saved through the childbirth – that is, through the birth of the Messiah, as promised in the protevangelium (Gen 3:15). This view sees the singular “she” as referring first to Eve and then to all women (note the change from singular to plural in this verse). Further, it works well in the context. However, there are several problems with it: [a] The future tense (σωθήσηται, swqhshtai) is unnatural if referring to the protevangelium or even to the historical fact of the Messiah’s birth; [b] that only women are singled out as recipients of salvation seems odd since the birth of the Messiah was necessary for the salvation of both women and men; [c] as ingenious as this view is, its very ingenuity is its downfall, for it is overly subtle; and [d] the term τεκνογονία (teknogonia) refers to the process of childbirth rather than the product. And since it is the person of the Messiah (the product of the birth) that saves us, the term is unlikely to be used in the sense given it by those who hold this view. There are three other views that have greater plausibility: (4) This may be a somewhat veiled reference to the curse of Gen 3:16 in order to clarify that though the woman led the man into transgression (v. 14b), she will be saved spiritually despite this physical reminder of her sin. The phrase is literally “through childbearing,” but this does not necessarily denote means or instrument here. Instead it may show attendant circumstance (probably with a concessive force): “with, though accompanied by” (cf. BDAG 224 s.v. δία A.3.c; Rom 2:27; 2 Cor 2:4; 1 Tim 4:14). (5) “It is not through active teaching and ruling activities that Christian women will be saved, but through faithfulness to their proper role, exemplified in motherhood” (Moo, 71). In this view τεκνογονία is seen as a synecdoche in which child-rearing and other activities of motherhood are involved. Thus, one evidence (though clearly not an essential evidence) of a woman’s salvation may be seen in her decision to function in this role. (6) The verse may point to some sort of proverbial expression now lost, in which “saved” means “delivered” and in which this deliverance was from some of the devastating effects of the role reversal that took place in Eden. The idea of childbearing, then, is a metonymy of part for the whole that encompasses the woman’s submission again to the leadership of the man, though it has no specific soteriological import (but it certainly would have to do with the outworking of redemption). | tn There is a shift to the plural here (Grk “if they continue”), but it still refers to the woman in a simple shift from generic singular to generic plural."
-  },
-  "3": {
-    "1": "tn Grk “the saying,” referring to the following citation (see 1 Tim 1:15; 4:9; 2 Tim 2:11; Titus 3:8 for other occurrences of this phrase). | tn Grk “aspires to oversight.”",
-    "2": "tn Or “bishop.”sn Although some see the article with overseer as indicating a single leader at the top of the ecclesiastical structure (thus taking the article as monadic), this is hardly necessary. It is naturally taken generically (referring to the class of leaders known as overseers) and, in fact, finds precedent in 2:11-12 (“a woman,” “a man”), 2:15 (“she”). Paul almost casually changes between singular and plural in both chapters. | tn Or “a man married only once,” “devoted solely to his wife” (see 1 Tim 3:12; 5:9; Titus 1:6). The meaning of this phrase is disputed. It is frequently understood to refer to the marital status of the church leader, excluding from leadership those who are (1) unmarried, (2) polygamous, (3) divorced, or (4) remarried after being widowed. A different interpretation is reflected in the NEB’s translation “faithful to his one wife.”",
-    "4": "tn Grk “having children in submission with all dignity.” The last phrase, “keep his children in control without losing his dignity,” may refer to the children rather than the parent: “having children who are obedient and respectful.”",
-    "6": "tn Grk “that he may not become arrogant.” | tn Grk “the judgment of the devil,” which could also mean “the judgment that the devil incurred.” But see 1 Tim 1:20 for examples of the danger Paul seems to have in mind.",
-    "7": "tn Or “have a good reputation with”; Grk “have a good testimony from.” | tn Grk “the ones outside.” | tn Or “be trapped like the devil was”; Grk “fall into the trap of the devil.” The parallel in 2 Tim 2:26 supports the rendering given in the text.",
-    "8": "tn Or “respectable, honorable, of serious demeanor.” | tn Or “insincere,” “deceitful”; Grk “speaking double.” | tn Grk “not devoted to much wine.”",
-    "9": "sn The mystery of the faith is a reference to the revealed truths of the Christian faith.",
-    "11": "tn Or “also deaconesses.” The Greek word here is γυναῖκας (gunaika\") which literally means “women” or “wives.” It is possible that this refers to women who serve as deacons, “deaconesses.” The evidence is as follows: (1) The immediate context refers to deacons; (2) the author mentions nothing about wives in his section on elder qualifications (1 Tim 3:1-7); (3) it would seem strange to have requirements placed on deacons’ wives without corresponding requirements placed on elders’ wives; and (4) elsewhere in the NT, there seems to be room for seeing women in this role (cf. Rom 16:1 and the comments there). The translation “wives” – referring to the wives of the deacons – is probably to be preferred, though, for the following reasons: (1) It would be strange for the author to discuss women deacons right in the middle of the qualifications for male deacons; more naturally they would be addressed by themselves. (2) The author seems to indicate clearly in the next verse that women are not deacons: “Deacons must be husbands of one wife.” (3) Most of the qualifications given for deacons elsewhere do not appear here. Either the author has truncated the requirements for women deacons, or he is not actually referring to women deacons; the latter seems to be the more natural understanding. (4) The principle given in 1 Tim 2:12 appears to be an overarching principle for church life which seems implicitly to limit the role of deacon to men. Nevertheless, a decision in this matter is difficult, and our conclusions must be regarded as tentative.",
-    "12": "tn Or “men married only once,” “devoted solely to their wives” (see the note on “wife” in 1 Tim 3:2; also 1 Tim 5:9; Titus 1:6).",
-    "13": "sn The statement those who have served well as deacons gain a good standing for themselves is reminiscent of Jesus’ teaching (Matt 20:26-28; Mark 10:43-45) that the one who wishes to be great must be a servant (διάκονος [diakonos], used here of deacons) of all, just as the Son of Man came not to be served but to serve (διακονέω [diakonew], as in 1 Tim 3:10, 13). | sn In the phrase the faith that is in Christ Jesus, the term faith seems to mean “what Christians believe, Christian truth,” rather than personal trust in Christ. So the whole phrase could mean that others will come to place greater confidence in them regarding Christian truth; but the word “confidence” is much more likely to refer to their own boldness to act on the truth of their convictions.",
-    "14": "tn Grk “these things.” sn These instructions refer to the instructions about local church life, given in 1 Tim 2:1–3:13.",
-    "15": "tn Grk “how it is necessary to behave.” | tn Grk “which is” (but the relative clause shows the reason for such conduct).",
-    "16": "tn Grk “confessedly, admittedly, most certainly.” | tn Grk “great is the mystery of [our] religion,” or “great is the mystery of godliness.” The word “mystery” denotes a secret previously hidden in God, but now revealed and made widely known (cf. Rom 16:25; 1 Cor 2:7; 4:1; Eph 1:9; 3:3, 4, 9; 6:19; Col 1:26-27; 4:3). “Religion” (εὐσέβεια, eusebeia) is a word used frequently in the pastorals with a range of meanings: (1) a certain attitude toward God – “devotion, reverence”; (2) the conduct that befits that attitude – “godliness, piety”; and (3) the whole system of belief and approach to God that forms the basis for such attitude and conduct – “religion, creed.” See BDAG 412-13 s.v.; 2 Tim 3:5; 4 Macc 9:6-7, 29-30; 15:1-3; 17:7. So the following creedal statements are illustrations of the great truths that the church is charged with protecting (v. 15). | tc The Byzantine text along with a few other witnesses (אc Ac C2 D2 Ψ [88 pc] 1739 1881 Ï vgms) read θεός (qeos, “God”) for ὅς (Jos, “who”). Most significant among these witnesses is 1739; the second correctors of some of the other mss tend to conform to the medieval standard, the Byzantine text, and add no independent voice to the discussion. A few mss have ὁ θεός (so 88 pc), a reading that is a correction on the anarthrous θεός. On the other side, the masculine relative pronoun ὅς is strongly supported by א* A* C* F G 33 365 pc Did Epiph. Significantly, D* and virtually the entire Latin tradition read the neuter relative pronoun, ὅ (Jo, “which”), a reading that indirectly supports ὅς since it could not easily have been generated if θεός had been in the text. Thus, externally, there is no question as to what should be considered original: The Alexandrian and Western traditions are decidedly in favor of ὅς. Internally, the evidence is even stronger. What scribe would change θεός to ὅς intentionally? “Who” is not only a theologically pale reading by comparison; it also is much harder (since the relative pronoun has no obvious antecedent, probably the reason for the neuter pronoun of the Western tradition). Intrinsically, the rest of 3:16, beginning with ὅς, appears to form a six-strophed hymn. As such, it is a text that is seemingly incorporated into the letter without syntactical connection. Hence, not only should we not look for an antecedent for ὅς (as is often done by commentators), but the relative pronoun thus is not too hard a reading (or impossible, as Dean Burgon believed). Once the genre is taken into account, the relative pronoun fits neatly into the author’s style (cf. also Col 1:15; Phil 2:6 for other places in which the relative pronoun begins a hymn, as was often the case in poetry of the day). On the other hand, with θεός written as a nomen sacrum, it would have looked very much like the relative pronoun: q-=s vs. os. Thus, it may have been easy to confuse one for the other. This, of course, does not solve which direction the scribes would go, although given their generally high Christology and the bland and ambiguous relative pronoun, it is doubtful that they would have replaced θεός with ὅς. How then should we account for θεός? It appears that sometime after the 2nd century the θεός reading came into existence, either via confusion with ὅς or as an intentional alteration to magnify Christ and clear up the syntax at the same time. Once it got in, this theologically rich reading was easily able to influence all the rest of the mss it came in contact with (including mss already written, such as א A C D). That this reading did not arise until after the 2nd century is evident from the Western reading, ὅ. The neuter relative pronoun is certainly a “correction” of ὅς, conforming the gender to that of the neuter μυστήριον (musthrion, “mystery”). What is significant in this reading is (1) since virtually all the Western witnesses have either the masculine or neuter relative pronoun, the θεός reading was apparently unknown to them in the 2nd century (when the “Western” text seems to have originated, though its place of origination was most likely in the east); they thus supply strong indirect evidence of ὅς outside of Egypt in the 2nd century; (2) even 2nd century scribes were liable to misunderstand the genre, feeling compelled to alter the masculine relative pronoun because it appeared to them to be too harsh. The evidence, therefore, for ὅς is quite compelling, both externally and internally. As TCGNT 574 notes, “no uncial (in the first hand) earlier than the eighth or ninth century (Ψ) supports θεός; all ancient versions presuppose ὅς or ὅ; and no patristic writer prior to the last third of the fourth century testifies to the reading θεός.” Thus, the cries of certain groups that θεός has to be original must be seen as special pleading in this case. To argue that heretics tampered with the text here is self-defeating, for most of the Western fathers who quoted the verse with the relative pronoun were quite orthodox, strongly affirming the deity of Christ. They would have dearly loved such a reading as θεός. Further, had heretics introduced a variant to θεός, a far more natural choice would have been Χριστός (Cristos, “Christ”) or κύριος (kurios, “Lord”), since the text is self-evidently about Christ, but it is not self-evidently a proclamation of his deity. (See ExSyn 341-42, for a summary discussion on this issue and additional bibliographic references.)tn Grk “who.”sn This passage has been typeset as poetry because many scholars regard this passage as poetic or hymnic. These terms are used broadly to refer to the genre of writing, not to the content. There are two broad criteria for determining if a passage is poetic or hymnic: “(a) stylistic: a certain rhythmical lilt when the passages are read aloud, the presence of parallelismus membrorum (i.e., an arrangement into couplets), the semblance of some metre, and the presence of rhetorical devices such as alliteration, chiasmus, and antithesis; and (b) linguistic: an unusual vocabulary, particularly the presence of theological terms, which is different from the surrounding context” (P. T. O’Brien, Philippians [NIGTC], 188-89). Classifying a passage as hymnic or poetic is important because understanding this genre can provide keys to interpretation. However, not all scholars agree that the above criteria are present in this passage, so the decision to typeset it as poetry should be viewed as a tentative decision about its genre. | tn Or “in spirit.”"
-  },
-  "1": {
-    "1": "tn Grk “Paul.” The word “from” is not in the Greek text, but has been supplied to indicate the sender of the letter. | sn God our Savior. Use of the title “Savior” for God the Father is characteristic of 1 Timothy, 2 Timothy, and Titus. It occurs six times in these letters, but only twice elsewhere in the NT. However, it occurs commonly in the OT, especially in Isaiah. It emphasizes the Father as the initiator and source of salvation.",
-    "3": "map For location see JP1-D2; JP2-D2; JP3-D2; JP4-D2. | tn This word implies authoritative instruction: “direct, command, give orders” (cf. 1 Tim 4:11; 5:7; 6:13, 17). See BDAG 760 s.v. παραγγέλλω. | tn Grk “to teach other doctrines,” different from apostolic teaching (cf. 1 Tim 6:3).",
-    "4": "sn Myths and interminable genealogies. These myths were legendary tales characteristic of the false teachers in Ephesus and Crete. See parallels in 1 Tim 4:7; 2 Tim 4:4; and Titus 1:14. They were perhaps built by speculation from the patriarchal narratives in the OT; hence the connection with genealogies and with wanting to be teachers of the law (v. 7). | tc A few Western mss (D* latt Ir) read οἰκοδομήν (oikodomhn, “[God’s] edification”) rather than οἰκονομίαν (oikonomian, “[God’s] redemptive plan”), which is read by the earliest and best witnesses.tn More literally, “the administration of God that is by faith.”sn God’s redemptive plan. The basic word (οἰκονομία, oikonomia) denotes the work of a household steward or manager or the arrangement under which he works: “household management.” As a theological term it is used of the order or arrangement by which God brings redemption through Christ (God’s “dispensation, plan of salvation” [Eph 1:10; 3:9]) or of human responsibility to pass on the message of that salvation (“stewardship, commission” [1 Cor 9:17; Eph 3:2; Col 1:25]). Here the former is in view (see the summary of God’s plan in 1 Tim 2:3-6; 2 Tim 1:9-10; Titus 3:4-7), and Paul notes the response people must make to God’s arrangement: It is “in faith” or “by faith.”",
-    "5": "tn Grk “the instruction,” referring to orthodox Christian teaching and ministry in general, in contrast to that of the false teachers mentioned in 1:3-4. | tn Grk “love from a pure heart and a good conscience and a sincere faith.”",
-    "7": "tn The Greek reinforces this negation: “understand neither what they are saying nor the things they insist on…”",
-    "9": "sn Law. There is no definite article (“the”) with this word in Greek and so the inherent quality of the OT law as such is in view. But the OT law is still in mind, since the types of sinful people surveyed in vv. 9b-11a follow the general outline of sins prohibited in the Decalogue.",
-    "10": "tn On this term BDAG 135 s.v. ἀρσενοκοίτης states, “a male who engages in sexual activity w. a pers. of his own sex, pederast 1 Cor 6:9…of one who assumes the dominant role in same-sex activity, opp. μαλακός…1 Ti 1:10; Pol 5:3. Cp. Ro 1:27.” L&N 88.280 states, “a male partner in homosexual intercourse – ‘homosexual.’…It is possible that ἀρσενοκοίτης in certain contexts refers to the active male partner in homosexual intercourse in contrast with μαλακός, the passive male partner” (cf. 1 Cor 6:9). Since there is a distinction in contemporary usage between sexual orientation and actual behavior, the qualification “practicing” was supplied in the translation, following the emphasis in BDAG.",
-    "11": "tn A continuation of the preceding idea: Grk “teaching, according to the gospel.” This use of the law is in accord with the gospel entrusted to Paul (cf. Rom 7:7-16; Gal 3:23-26). Because of the length and complexity of the Greek sentence, a new sentence was started here in the translation. | tn Grk “the gospel of the glory of the blessed God.” | tn Grk “with which I was entrusted.” The translation is more in line with contemporary English style.",
-    "13": "tn Or “violent,” “cruel.”",
-    "14": "tn Grk “with faith and love in Christ Jesus.”",
-    "15": "tn Grk “the saying,” referring to the following citation (see 1 Tim 3:1; 4:9; 2 Tim 2:11; Titus 3:8 for other occurrences of this phrase). | tn Grk “of whom I am the first.”",
-    "16": "tn Grk “but because of this I was treated with mercy, so that…” | tn Grk “in me first,” making the connection with the last phrase of v. 15.",
-    "17": "tn Or more literally, “king of the ages.” | tc Most later witnesses (א2 D1 Hc Ψ 1881 Ï) have “wise” (σόφῳ, swfw) here (thus, “the only wise God”), while the earlier and better witnesses (א* A D* F G H* 33 1739 lat co) lack this adjective. Although it could be argued that the longer reading is harder since it does not as emphatically affirm monotheism, it is more likely that scribes borrowed σόφῳ from Rom 16:27 where μόνῳ σόφῳ θεῷ (monw sofw qew, “the only wise God”) is textually solid. | tn Grk “unto the ages of the ages,” an emphatic way of speaking about eternity in Greek.",
-    "18": "sn This charge refers to the task Paul described to Timothy in vv. 3-7 above. | sn The prophecies once spoken about you were apparently spoken at Timothy’s ordination (cf. 1 Tim 4:14) and perhaps spoke of what God would do through him. Thus they can encourage him in his work, as the next clause says. | tn Grk “that by them you might fight…” (a reference to the prophecies which can encourage him in his work).",
-    "19": "tn In Greek this continues the same sentence from v. 18, a participle showing the means by which Timothy will accomplish his task: Grk “fight the good fight, holding firmly…”",
-    "20": "sn The expression handed over to Satan refers to an act of discipline mentioned by Paul here and in 1 Cor 5:5, with a remedial goal, not a punitive one. The Greek word translated taught in this verse is used of “discipline, training of children” to lead them to correct behavior."
-  },
-  "6": {
-    "1": "tn Traditionally, “servants.” Though δοῦλος (doulos) is normally translated “servant,” the word does not bear the connotation of a free individual serving another. BDAG notes that “‘servant’ for ‘slave’ is largely confined to Biblical transl. and early American times…in normal usage at the present time the two words are carefully distinguished” (BDAG 260 s.v.). The most accurate translation is “bondservant” (sometimes found in the ASV for δοῦλος), in that it often indicates one who sells himself into slavery to another. But as this is archaic, few today understand its force. | tn Grk “that the name…may not be slandered” (a continuation of the preceding sentence). | tn Grk “the teaching.” | tn Or “slandered.”",
-    "2": "tn Or “think the less of them”; Grk “despise them,” “look down on them.” | tn Or “those who devote themselves to service are faithful and dearly loved” (referring to slaves who serve them). | tn Grk “these things teach and exhort.”",
-    "3": "tn Grk “teaches other doctrines,” (different from apostolic teaching, cf. 1 Tim 1:3).",
-    "5": "tc Although most witnesses, including some early versions and fathers (D2 Ψ Ï sy Cyp Lcf Ambst), have ἀφίστασο ἀπὸ τῶν τοιούτων (afistaso apo’ twn toioutwn, “stay away from such things!”) after εὐσεβείαν (eusebeian, “godliness”; thus, “who suppose that godliness is a way of making a profit; stay away from such things!”), there seems to be little good reason for this clause’s omission in some of the oldest and best witnesses (א A D* F G 048 6 33 81 1175 1739 1881 lat co). It is likely that it crept into the text early, perhaps as a marginal comment, but it should not be considered authentic in light of the strong external evidence against it.",
-    "7": "tc The Greek conjunction ὅτι usually means “because,” but here it takes the sense “so that” (see BDAG 732 s.v. 5.c). This unusual sense led to textual variation as scribes attempted to correct what appeared to be an error: D* and a few versional witnesses read ἀληθές ὅτι (“it is true that”), and א2 D2 Ψ Ï read δῆλον ὅτι (“it is clear that”). Thus the simple conjunction is preferred on internal as well as external grounds, supported by א* A F G 33 81 1739 1881 pc.",
-    "8": "tn Grk “with these.”",
-    "10": "tn This could be taken to mean “a root,” but the phrase “of all evils” clearly makes it definite. This seems to be not entirely true to life (some evils are unrelated to love of money), but it should be read as a case of hyperbole (exaggeration to make a point more strongly). | tn Many translations render this “of all kinds of evil,” especially to allow for the translation “a root” along with it. But there is no parallel for taking a construction like this to mean “all kinds of” or “every kind of.” The normal sense is “all evils.”",
-    "11": "tn Grk “O man of God.” | tn Grk “flee these things.”",
-    "12": "tn This phrase literally means “compete in the good competition of the faith,” using words that may refer to a race or to a boxing or wrestling match: “run the good race” or “fight the good fight.” The similar phrase in 1 Tim 1:18 uses a military picture and is more literally “war the good warfare.” | sn At some point in Timothy’s life, he publicly acknowledged Jesus as the resurrected Lord, perhaps either at his baptism or his ordination as a minister of the gospel. With this reminder of the historical moment of his good confession, Timothy is encouraged to remain steadfast in his faith and to finish his life as a minister in the same way it began (see G. W. Knight, Pastoral Epistles [NIGTC], 264-65). | tn Grk “confessed the good confession.”",
-    "13": "tc ‡ Most witnesses, some of them important (א2 A D H 1881 Ï lat sy bo), have σοι (soi, “you”) after παραγγέλλω (parangellw, “I charge [you]”), a predictable variant because the personal pronoun is demanded by the sense of the passage (and was added in the translation because of English requirements). Hence, the omission is the harder reading, and the addition of σοι is one of clarification. Further, the shorter reading is found in several important witnesses, such as א* F G Ψ 6 33 1739 pc. Thus, both internally and externally the shorter reading is preferred. NA 27 places σοι in brackets, indicating some doubts as to its authenticity.tn Grk “I charge.” | tn Grk “testified the good confession.”sn Jesus’ good confession was his affirmative answer to Pilate’s question “Are you the king of the Jews?” (see Matt 27:11, Mark 15:2, Luke 23:3, John 18:33-37).",
-    "14": "tn The Greek word τηρέω (threw, traditionally translated “keep”) in this context connotes preservation of and devotion to an object as well as obedience. | tn Grk “the command.”sn The command refers to the duties laid upon Timothy for his ministry in Ephesus (1 Tim 1:3-20; 6:2c-5).",
-    "15": "tn Grk “which.” All of 1 Tim 6:15 is a relative clause which refers back to “appearing” in v.14. The phrase “whose appearing” was supplied to clarify this connection.",
-    "17": "tn Grk “in the present age.” | tn Grk “in uncertainty.”",
-    "18": "tn Grk “to do good” (the continuation of 6:17). Because of the length and complexity of the Greek sentence, a new sentence was started at the beginning of v. 18. | tn Grk “to be generous,” “sharing.”",
-    "19": "tn Grk “saving up” (the continuation of 6:18). Because of the length and complexity of the Greek sentence, a new sentence was started at the beginning of v. 19. | tn Grk “treasuring up a good foundation.” | tn Grk “that they may lay hold of.”",
-    "20": "tn Grk “avoiding.” Because of the length and complexity of the Greek sentence, a new sentence was started here in the translation. | tn Or “contradictions.” | tn Grk “the falsely named knowledge.”",
-    "21": "tn Grk “have deviated concerning the faith.” | tc Most witnesses (א2 D1 Ψ Ï sy) conclude this letter with ἀμήν (amhn, “amen”). Such a conclusion is routinely added by scribes to NT books because a few of these books originally had such an ending (cf. Rom 16:27; Gal 6:18; Jude 25). A majority of Greek witnesses have the concluding ἀμήν in every NT book except Acts, James, and 3 John (and even in these books, ἀμήν is found in some witnesses). It is thus a predictable variant. Further, the earliest and best witnesses (א* A D* F G 33 81 1739* 1881 it sa) lack the particle, indicating that the letter concluded with “Grace be with you all.”tn Grk “with you” (but the Greek pronoun indicates the meaning is plural here)."
+    "1": [
+      {
+        "anchor": "First of all, then, I urge that requests,",
+        "note": "tn Or “petitions.”"
+      },
+      {
+        "anchor": "prayers, intercessions, and thanks be offered on behalf of all people,",
+        "note": "tn Grk “all men”; but here ἀνθρώπων (anqrwpwn) is used generically, referring to both men and women."
+      }
+    ],
+    "2": [
+      {
+        "anchor": "even for kings",
+        "note": "tn For “even for kings” the Greek says simply “for kings.”"
+      }
+    ],
+    "3": [
+      {
+        "anchor": "Such prayer for all",
+        "note": "tn Grk “this”; the referent (such prayer for all, referring to vv. 1-2) is specified in the translation for clarity."
+      }
+    ],
+    "4": [
+      {
+        "anchor": "since he wants",
+        "note": "tn Grk “who wants…” (but showing why such prayer is pleasing to God)."
+      },
+      {
+        "anchor": "all people",
+        "note": "tn Grk “all men”; but here ἀνθρώπους (anqrwpous) is used generically, referring to both men and women."
+      }
+    ],
+    "5": [
+      {
+        "anchor": "For there is one God and one intermediary",
+        "note": "tn Traditionally this word (μεσίτης, mesith\") is rendered “mediator,” but this conveys a wrong impression in contemporary English. Jesus was not a mediator, for example, who worked for compromise between opposing parties. Instead he was the only one able to go between man and God to enable them to have a relationship, but entirely on God’s terms."
+      },
+      {
+        "anchor": "between God and humanity, Christ Jesus, himself human,",
+        "note": "tn Grk “one mediator between God and mankind, the human, Christ Jesus.”"
+      }
+    ],
+    "6": [
+      {
+        "anchor": "who gave himself as a ransom for all, revealing God’s purpose at his appointed time.",
+        "note": "sn Revealing God’s purpose at his appointed time is a difficult expression without clear connection to the preceding, literally “a testimony at the proper time.” This may allude to testimony about Christ’s atoning work given by Paul and others (as v. 7 mentions). But it seems more likely to identify Christ’s death itself as a testimony to God’s gracious character (as vv. 3-4 describe). This testimony was planned from all eternity, but now has come to light at the time God intended, in the work of Christ. See 2 Tim 1:9-10; Titus 2:11-14; 3:4-7 for similar ideas."
+      }
+    ],
+    "7": [
+      {
+        "anchor": "For this I was appointed a preacher and apostle – I am telling the truth;",
+        "note": "tc Most mss (א* D2 H 33vid Ï) have ἐν Χριστῷ (en Cristw) after λέγω (legw) to read “I am telling the truth in Christ,” but this is probably an assimilation to Rom 9:1. Further, the witnesses that lack this phrase are early, important, and well distributed (א2 A D* F G P Ψ 6 81 1175 1739 1881 al sy co). It is difficult to explain the shorter reading if it is not original."
+      }
+    ],
+    "8": [
+      {
+        "anchor": "So I want the men",
+        "note": "tn The word translated “men” here (ἀνήρ, anhr) refers to adult males, not people in general. Note the command given to “the women” in v. 9."
+      },
+      {
+        "anchor": "to pray",
+        "note": "sn To pray. In this verse Paul resumes and concludes the section about prayer begun in 2:1-2. 1 Tim 2:3-7 described God’s concern for all people as the motive for such prayer."
+      },
+      {
+        "anchor": "in every place, lifting up holy hands",
+        "note": "sn Paul uses a common ancient posture in prayer (lifting up holy hands) as a figure of speech for offering requests from a holy life (without anger or dispute)."
+      }
+    ],
+    "9": [
+      {
+        "anchor": "Likewise",
+        "note": "tc ‡ Most witnesses have καὶ τάς (kai tas; so D1 Ψ 1881 Ï) or simply καί (א2 D* F G 6 365 1739 pc) after ὡσαύτως (Jwsautw\"). A few important witnesses lack such words (א* A H P 33 81 1175 pc). The evidence is for the most part along “party” lines, with the shortest reading being found in the Alexandrian text, the conjunction in the Western, and the longest reading in the Byzantine tradition. Externally, the shortest reading is preferred. However, there is a good chance of homoiomeson or homoioteleuton in which case καί or καὶ τάς could have accidentally been omitted (note the αι [ai] and αι ας [ai as] in the word that follows, written here in uncial script): wsautwskaigunaikas/ wsautwskaitasgunaikas. Nevertheless, since both the καί and καὶ τάς are predictable variants, intended to fill out the meaning of the text, the shortest reading seems best able to explain the rise of the others. NA27 has the καί in brackets, indicating doubts as to its authenticity."
+      },
+      {
+        "anchor": "the women are to dress",
+        "note": "tn Grk “to adorn themselves.” Grammatically the phrase “to adorn themselves” continues the author’s words in v. 8: “I want…likewise the women to adorn themselves.”"
+      },
+      {
+        "anchor": "in suitable apparel, with modesty and self-control.",
+        "note": "tn This word and its cognates are used frequently in the Pastoral Epistles. It means “moderation,” “sobriety,” “decency,” “sensibleness,” or “sound judgment.”"
+      },
+      {
+        "anchor": "Their adornment must not be",
+        "note": "tn Literally a continuation of v. 9a, “not with braided hair…” Because of the length and complexity of the Greek sentence, a new sentence was started here in the translation."
+      }
+    ],
+    "11": [
+      {
+        "anchor": "A woman must learn",
+        "note": "tn Or “receive instruction.”"
+      }
+    ],
+    "12": [
+      {
+        "anchor": "But I do not allow",
+        "note": "sn But I do not allow. Although the Greek conjunction δέ (de) can have a simple connective force (“and”), it is best to take it as contrastive here: Verse 11 gives a positive statement (that is to say, that a woman should learn). This was a radical and liberating departure from the Jewish view that women were not to learn the law."
+      },
+      {
+        "anchor": "a woman to teach or exercise authority",
+        "note": "tn According to BDAG 150 s.v. αὐθεντέω this Greek verb means “to assume a stance of independent authority, give orders to, dictate to” (cf. JB “tell a man what to do”)."
+      },
+      {
+        "anchor": "over a man. She must remain quiet.",
+        "note": "tn Grk “but to be in quietness.” The phrase ἐν ἡσυχίᾳ (en Jhsucia) is used in Greek literature either of absolute silence or of a quiet demeanor."
+      }
+    ],
+    "14": [
+      {
+        "anchor": "And Adam was not deceived, but the woman, because she was fully deceived,",
+        "note": "tn This phrase uses a compound form of the same verb as in v. 14a: “deceived” vs. “deceived out, completely deceived.” The two verbs could be synonymous, but because of the close contrast in this context, it seems that a stronger meaning is intended for the second verb."
+      },
+      {
+        "anchor": "fell into transgression.",
+        "note": "tn Grk “has come to be in transgression” (with an emphasis on the continuing consequences of that fall)."
+      }
+    ],
+    "15": [
+      {
+        "anchor": "But she will be delivered through childbearing,",
+        "note": "tn Or “But she will be preserved through childbearing,” or “But she will be saved in spite of childbearing.” This verse is notoriously difficult to interpret, though there is general agreement about one point: Verse 15 is intended to lessen the impact of vv. 13-14. There are several interpretive possibilities here, though the first three can be readily dismissed (cf. D. Moo, “1 Timothy 2:11-15: Meaning and Significance,” TJ 1 [1980]: 70-73). (1) Christian women will be saved, but only if they bear children. This view is entirely unlikely for it lays a condition on Christian women that goes beyond grace, is unsupported elsewhere in scripture, and is explicitly against Paul’s and Jesus’ teaching on both marriage and salvation (cf. Matt 19:12; 1 Cor 7:8-9, 26-27, 34-35; 1 Tim 5:3-10). (2) Despite the curse, Christian women will be kept safe when bearing children. This view also is unlikely, both because it has little to do with the context and because it is not true to life (especially life in the ancient world with its high infant mortality rate). (3) Despite the sin of Eve and the results to her progeny, she would be saved through the childbirth – that is, through the birth of the Messiah, as promised in the protevangelium (Gen 3:15). This view sees the singular “she” as referring first to Eve and then to all women (note the change from singular to plural in this verse). Further, it works well in the context. However, there are several problems with it: [a] The future tense (σωθήσηται, swqhshtai) is unnatural if referring to the protevangelium or even to the historical fact of the Messiah’s birth; [b] that only women are singled out as recipients of salvation seems odd since the birth of the Messiah was necessary for the salvation of both women and men; [c] as ingenious as this view is, its very ingenuity is its downfall, for it is overly subtle; and [d] the term τεκνογονία (teknogonia) refers to the process of childbirth rather than the product. And since it is the person of the Messiah (the product of the birth) that saves us, the term is unlikely to be used in the sense given it by those who hold this view. There are three other views that have greater plausibility: (4) This may be a somewhat veiled reference to the curse of Gen 3:16 in order to clarify that though the woman led the man into transgression (v. 14b), she will be saved spiritually despite this physical reminder of her sin. The phrase is literally “through childbearing,” but this does not necessarily denote means or instrument here. Instead it may show attendant circumstance (probably with a concessive force): “with, though accompanied by” (cf. BDAG 224 s.v. δία A.3.c; Rom 2:27; 2 Cor 2:4; 1 Tim 4:14). (5) “It is not through active teaching and ruling activities that Christian women will be saved, but through faithfulness to their proper role, exemplified in motherhood” (Moo, 71). In this view τεκνογονία is seen as a synecdoche in which child-rearing and other activities of motherhood are involved. Thus, one evidence (though clearly not an essential evidence) of a woman’s salvation may be seen in her decision to function in this role. (6) The verse may point to some sort of proverbial expression now lost, in which “saved” means “delivered” and in which this deliverance was from some of the devastating effects of the role reversal that took place in Eden. The idea of childbearing, then, is a metonymy of part for the whole that encompasses the woman’s submission again to the leadership of the man, though it has no specific soteriological import (but it certainly would have to do with the outworking of redemption)."
+      },
+      {
+        "anchor": "if she",
+        "note": "tn There is a shift to the plural here (Grk “if they continue”), but it still refers to the woman in a simple shift from generic singular to generic plural."
+      }
+    ]
   },
   "4": {
-    "1": "tn Or “desert the faith by occupying themselves.” | tn Grk “teachings of demons” (speaking of the source of these doctrines).",
-    "2": "tn Grk “in the hypocrisy of liars.” | tn Or “branded.” The Greek verb καυστηριάζω (kausthriazw) can be used to refer either to the cause (“brand”) or the effect (“seared”).sn Consciences are seared. The precise meaning of this phrase is somewhat debated. Three primary interpretations are (1) the consciences of these false teachers are “branded” with Satan’s mark to indicate ownership, (2) their consciences are “branded” with a penal mark to show they are lawbreakers, or (3) their consciences have been “seared” (i.e., totally burnt and desensitized) so that they are unable to notice the difference between right and wrong. See G. W. Knight, Pastoral Epistles (NIGTC), 189.",
-    "4": "tn Grk “nothing.”",
-    "6": "tn Grk “brothers,” but the Greek word may be used for “brothers and sisters” or “fellow Christians” as here (cf. BDAG 18 s.v. ἀδελφός 1, where considerable nonbiblical evidence for the plural ἀδελφοί [adelfoi] meaning “brothers and sisters” is cited). | sn By pointing out…you have followed. This verse gives a theme statement for what follows in the chapter about Timothy’s ministry. The situation in Ephesus requires him to be a good servant of Christ, and he will do that by sound teaching and by living an exemplary life himself.",
-    "7": "sn Those myths refer to legendary tales characteristic of the false teachers in Ephesus and Crete. See parallels in 1 Tim 1:4; 2 Tim 4:4; and Titus 1:14. | tn Grk “the godless and old-wifely myths.”",
-    "8": "tn Grk “bodily training” (using the noun form of the verb “train” in v. 7b).",
-    "9": "tn Grk “the saying.”sn This saying. The literal phrase “the saying” refers to the preceding citation. See 1 Tim 1:15; 3:1; 2 Tim 2:11; Titus 3:8 for other occurrences of this phrase.",
-    "10": "tn Grk “for toward this,” denoting purpose. The conjunction “for” gives confirmation or emphasis to 1 Tim 4:8-9. | tc A number of mss (א2 D 0241vid 1739 1881 Ï latt sy co) read ὀνειδιζόμεθα (oneidizomeqa, “suffer reproach”), while the reading behind the translation (ἀγωνιζόμεθα, agwnizomeqa) is supported by א* A C F G K Ψ 33 1175 al. The reading from the verb ἀγωνίζομαι (agwnizomai) has slightly better external credentials, but this verb is found in the corpus Paulinum five other times, twice in the Pastorals (1 Tim 6:12; 2 Tim 4:7). The verb ὀνειδίζω (oneidizw) occurs only once in Paul (Rom 15:3), not at all in the Pastorals. In this instance, transcriptional and intrinsic evidence might seem to be opposed to each other. In such cases, the external evidence should be given more weight. With some hesitation, ἀγωνιζόμεθα is preferred. | tn The plural Greek term ἀνθρώπων (anqrwpwn) is used here in a generic sense, referring to both men and women, and is thus translated “people.”",
-    "12": "tn Or “faith.”",
-    "13": "tn Grk “reading.” sn The public reading of scripture refers to reading the scripture out loud in the church services. In a context where many were illiterate and few could afford private copies of scripture, such public reading was especially important.",
-    "14": "tn Grk “in you.” | tn Grk “which was given to you through prophecy.” Here as in 2:15 the preposition “through” denotes not “means” but accompanying circumstances: “accompanied by prophecy.”sn These prophetic words perhaps spoke of what God would do through Timothy in his ministry (cf. 1 Tim 1:18). | tn Grk “with the imposition of the hands of the presbytery” (i.e., the council of elders).",
-    "15": "tn Grk “that your progress may be evident to all.”",
-    "16": "tn Grk “about yourself and your teaching.”"
+    "1": [
+      {
+        "anchor": "Now the Spirit explicitly says that in the later times some will desert the faith and occupy themselves",
+        "note": "tn Or “desert the faith by occupying themselves.”"
+      },
+      {
+        "anchor": "with deceiving spirits and demonic teachings,",
+        "note": "tn Grk “teachings of demons” (speaking of the source of these doctrines)."
+      }
+    ],
+    "2": [
+      {
+        "anchor": "influenced by the hypocrisy of liars",
+        "note": "tn Grk “in the hypocrisy of liars.”"
+      },
+      {
+        "anchor": "whose consciences are seared.",
+        "note": "tn Or “branded.” The Greek verb καυστηριάζω (kausthriazw) can be used to refer either to the cause (“brand”) or the effect (“seared”).sn Consciences are seared. The precise meaning of this phrase is somewhat debated. Three primary interpretations are (1) the consciences of these false teachers are “branded” with Satan’s mark to indicate ownership, (2) their consciences are “branded” with a penal mark to show they are lawbreakers, or (3) their consciences have been “seared” (i.e., totally burnt and desensitized) so that they are unable to notice the difference between right and wrong. See G. W. Knight, Pastoral Epistles (NIGTC), 189."
+      }
+    ],
+    "4": [
+      {
+        "anchor": "For every creation of God is good and no food",
+        "note": "tn Grk “nothing.”"
+      }
+    ],
+    "6": [
+      {
+        "anchor": "By pointing out such things to the brothers and sisters,",
+        "note": "tn Grk “brothers,” but the Greek word may be used for “brothers and sisters” or “fellow Christians” as here (cf. BDAG 18 s.v. ἀδελφός 1, where considerable nonbiblical evidence for the plural ἀδελφοί [adelfoi] meaning “brothers and sisters” is cited)."
+      },
+      {
+        "anchor": "you will be a good servant of Christ Jesus, having nourished yourself on the words of the faith and of the good teaching that you have followed.",
+        "note": "sn By pointing out…you have followed. This verse gives a theme statement for what follows in the chapter about Timothy’s ministry. The situation in Ephesus requires him to be a good servant of Christ, and he will do that by sound teaching and by living an exemplary life himself."
+      }
+    ],
+    "7": [
+      {
+        "anchor": "But reject those myths",
+        "note": "sn Those myths refer to legendary tales characteristic of the false teachers in Ephesus and Crete. See parallels in 1 Tim 1:4; 2 Tim 4:4; and Titus 1:14."
+      },
+      {
+        "anchor": "fit only for the godless and gullible,",
+        "note": "tn Grk “the godless and old-wifely myths.”"
+      }
+    ],
+    "8": [
+      {
+        "anchor": "For “physical exercise",
+        "note": "tn Grk “bodily training” (using the noun form of the verb “train” in v. 7b)."
+      }
+    ],
+    "9": [
+      {
+        "anchor": "This saying",
+        "note": "tn Grk “the saying.”sn This saying. The literal phrase “the saying” refers to the preceding citation. See 1 Tim 1:15; 3:1; 2 Tim 2:11; Titus 3:8 for other occurrences of this phrase."
+      }
+    ],
+    "10": [
+      {
+        "anchor": "In fact this is why",
+        "note": "tn Grk “for toward this,” denoting purpose. The conjunction “for” gives confirmation or emphasis to 1 Tim 4:8-9."
+      },
+      {
+        "anchor": "we work hard and struggle,",
+        "note": "tc A number of mss (א2 D 0241vid 1739 1881 Ï latt sy co) read ὀνειδιζόμεθα (oneidizomeqa, “suffer reproach”), while the reading behind the translation (ἀγωνιζόμεθα, agwnizomeqa) is supported by א* A C F G K Ψ 33 1175 al. The reading from the verb ἀγωνίζομαι (agwnizomai) has slightly better external credentials, but this verb is found in the corpus Paulinum five other times, twice in the Pastorals (1 Tim 6:12; 2 Tim 4:7). The verb ὀνειδίζω (oneidizw) occurs only once in Paul (Rom 15:3), not at all in the Pastorals. In this instance, transcriptional and intrinsic evidence might seem to be opposed to each other. In such cases, the external evidence should be given more weight. With some hesitation, ἀγωνιζόμεθα is preferred."
+      },
+      {
+        "anchor": "because we have set our hope on the living God, who is the Savior of all people,",
+        "note": "tn The plural Greek term ἀνθρώπων (anqrwpwn) is used here in a generic sense, referring to both men and women, and is thus translated “people.”"
+      }
+    ],
+    "12": [
+      {
+        "anchor": "Let no one look down on you because you are young, but set an example for the believers in your speech, conduct, love, faithfulness,",
+        "note": "tn Or “faith.”"
+      }
+    ],
+    "13": [
+      {
+        "anchor": "Until I come, give attention to the public reading of scripture,",
+        "note": "tn Grk “reading.” sn The public reading of scripture refers to reading the scripture out loud in the church services. In a context where many were illiterate and few could afford private copies of scripture, such public reading was especially important."
+      }
+    ],
+    "14": [
+      {
+        "anchor": "Do not neglect the spiritual gift you have,",
+        "note": "tn Grk “in you.”"
+      },
+      {
+        "anchor": "given to you and confirmed by prophetic words",
+        "note": "tn Grk “which was given to you through prophecy.” Here as in 2:15 the preposition “through” denotes not “means” but accompanying circumstances: “accompanied by prophecy.”sn These prophetic words perhaps spoke of what God would do through Timothy in his ministry (cf. 1 Tim 1:18)."
+      },
+      {
+        "anchor": "when the elders laid hands on you.",
+        "note": "tn Grk “with the imposition of the hands of the presbytery” (i.e., the council of elders)."
+      }
+    ],
+    "15": [
+      {
+        "anchor": "Take pains with these things; be absorbed in them, so that everyone will see your progress.",
+        "note": "tn Grk “that your progress may be evident to all.”"
+      }
+    ],
+    "16": [
+      {
+        "anchor": "Be conscientious about how you live and what you teach.",
+        "note": "tn Grk “about yourself and your teaching.”"
+      }
+    ]
+  },
+  "5": {
+    "1": [
+      {
+        "anchor": "Do not address an older man harshly",
+        "note": "tn Or “Do not speak harshly to an older man.”"
+      },
+      {
+        "anchor": "but appeal to him as a father. Speak to younger men as brothers,",
+        "note": "tn No verb “speak” is stated in this clause, but it continues the sense of the preceding."
+      }
+    ],
+    "3": [
+      {
+        "anchor": "Honor",
+        "note": "sn The word honor here carries the double meaning of respect and financial support. This Greek word can imply both senses, and both are intended in this context."
+      },
+      {
+        "anchor": "widows who are truly in need.",
+        "note": "tn Grk “the real widows,” “those who are really widows.”"
+      }
+    ],
+    "4": [
+      {
+        "anchor": "But if a widow has children or grandchildren, they should first learn to fulfill their duty",
+        "note": "tn Or “to practice their religion.”"
+      },
+      {
+        "anchor": "toward their own household and so repay their parents what is owed them.",
+        "note": "tn Or “and so make some repayment to their parents”; Grk “and to give back recompense to their parents.”"
+      },
+      {
+        "anchor": "For this is what pleases God.",
+        "note": "tn Grk “for this is pleasing in the sight of God.”"
+      }
+    ],
+    "5": [
+      {
+        "anchor": "But the widow who is truly in need, and completely on her own,",
+        "note": "tn Or “left all alone.”"
+      }
+    ],
+    "6": [
+      {
+        "anchor": "But the one who lives for pleasure is dead even",
+        "note": "tn For “is dead even” the Greek text reads “has died.”"
+      }
+    ],
+    "7": [
+      {
+        "anchor": "Reinforce",
+        "note": "tn Here καί (kai) has not been translated because of differences between Greek and English style."
+      },
+      {
+        "anchor": "these commands,",
+        "note": "tn Grk “and command these things.”"
+      }
+    ],
+    "8": [
+      {
+        "anchor": "But if someone does not provide for his own,",
+        "note": "tn That is, “his own relatives.”"
+      }
+    ],
+    "9": [
+      {
+        "anchor": "No widow should be put on the list",
+        "note": "sn This list was an official enrollment, apparently with a formal pledge to continue as a widow and serve the Lord in that way (cf. v. 12). It was either (1) the list of “true widows” who were given support by the church or (2) a smaller group of older women among the supported widows who were qualified for special service (perhaps to orphans, other widows, the sick, etc.). Most commentators understand it to be the former, since a special group is not indicated clearly. See G. W. Knight, Pastoral Epistles, 222-23 for discussion."
+      },
+      {
+        "anchor": "unless",
+        "note": "tn Grk “let a widow be enrolled if she has reached not less than sixty years.”"
+      },
+      {
+        "anchor": "she is at least sixty years old, was the wife of one husband,",
+        "note": "tn Or “a woman married only once,” “was devoted solely to her husband” (see the note on “wife” in 1 Tim 3:2; also 1 Tim 3:12; Titus 1:6)."
+      }
+    ],
+    "10": [
+      {
+        "anchor": "and has a reputation for good works: as one who has raised children,",
+        "note": "tn Grk “if she raised children.” The phrase “if she raised children” begins a series of conditional clauses running to the end of the verse. These provide specific examples of her good works (v. 10a)."
+      },
+      {
+        "anchor": "practiced hospitality, washed the feet of the saints, helped those in distress – as one who has exhibited all kinds of good works.",
+        "note": "tn Grk “followed after every good work.”"
+      }
+    ],
+    "11": [
+      {
+        "anchor": "But do not accept younger widows on the list,",
+        "note": "tn Grk “refuse younger widows.”"
+      },
+      {
+        "anchor": "because their passions may lead them away from Christ",
+        "note": "tn With a single verb and object, this clause means “pursue sensuous desires in opposition to Christ.”"
+      }
+    ],
+    "12": [
+      {
+        "anchor": "and so incur judgment for breaking their former pledge.",
+        "note": "tn Grk “incurring judgment because they reject their first faith.”sn The pledge refers most likely to a vow not to remarry undertaken when a widow is put on the list (cf. 1 Tim 5:9)."
+      }
+    ],
+    "13": [
+      {
+        "anchor": "And besides that, going around",
+        "note": "tn L&N 15.23 suggests the meaning, “to move about from place to place, with significant changes in direction – ‘to travel about, to wander about.’”"
+      },
+      {
+        "anchor": "from house to house they learn to be lazy,",
+        "note": "tn Or “idle.” The whole clause (“going around from house to house, they learn to be lazy”) reverses the order of the Greek. The present participle περιερχόμεναι (periercomenai) may be taken as temporal (“while going around”), instrumental (“by going around”) or result (“with the result that they go around”)."
+      },
+      {
+        "anchor": "and they are not only lazy, but also gossips and busybodies, talking about things they should not.",
+        "note": "tn Grk “saying the things that are unnecessary.” Or perhaps “talking about things that are none of their business.”"
+      }
+    ],
+    "14": [
+      {
+        "anchor": "So I want younger women to marry, raise children, and manage a household, in order to give the adversary no opportunity to vilify us.",
+        "note": "tn Grk “for the sake of reviling.”"
+      }
+    ],
+    "15": [
+      {
+        "anchor": "For some have already wandered away to follow Satan.",
+        "note": "tn Grk “wandered away after Satan.”"
+      }
+    ],
+    "16": [
+      {
+        "anchor": "If a believing woman",
+        "note": "tc Most witnesses (D Ψ Ï sy) have πιστὸς ἤ (pisto\" h) before πιστή (pisth), with the resultant meaning “if a believing man or woman.” But such looks to be a motivated reading, perhaps to bring some parity to the responsibilities of men and women listed here, and as a way of harmonizing with v. 4. Further, most of the earliest and best witnesses (א A C F G P 048 33 81 1175 1739 1881 co) lack the πιστὸς ἤ, strengthening the preference for the shorter reading."
+      },
+      {
+        "anchor": "has widows in her family,",
+        "note": "tn Grk “has widows.”"
+      },
+      {
+        "anchor": "let her help them. The church should not be burdened, so that it may help the widows who are truly in need.",
+        "note": "tn Grk “the real widows,” “those who are really widows.”"
+      }
+    ],
+    "17": [
+      {
+        "anchor": "Elders who provide effective leadership",
+        "note": "tn Grk “who lead well.”"
+      },
+      {
+        "anchor": "must be counted worthy",
+        "note": "tn Or “deserving.”"
+      },
+      {
+        "anchor": "of double honor,",
+        "note": "tn Like the similar use of “honor” in v. 3, this phrase denotes both respect and remuneration: “honor plus honorarium.”"
+      },
+      {
+        "anchor": "especially those who work hard in speaking",
+        "note": "tn Or “in preaching”; Grk “in word.”"
+      }
+    ],
+    "18": [
+      {
+        "anchor": ",”",
+        "note": "sn A quotation from Deut 25:4."
+      },
+      {
+        "anchor": "and, “The worker deserves his pay.”",
+        "note": "sn A quotation from Luke 10:7."
+      }
+    ],
+    "19": [
+      {
+        "anchor": ".",
+        "note": "sn An allusion to Deut 17:6, 19:15."
+      }
+    ],
+    "20": [
+      {
+        "anchor": "Those guilty of sin",
+        "note": "sn As a continuation of v. 19, this refers to elders who sin, not to sinning believers more generally."
+      },
+      {
+        "anchor": "must be rebuked",
+        "note": "tn Or “censured.” The Greek word implies exposing someone’s sin in order to bring correction."
+      },
+      {
+        "anchor": "before all,",
+        "note": "tn “Before all” probably refers to the whole congregation, not just all the elders; “the rest” is more likely to denote the remaining elders."
+      },
+      {
+        "anchor": "as a warning to the rest.",
+        "note": "tn Grk “that the rest may have fear.”"
+      }
+    ],
+    "21": [
+      {
+        "anchor": "Before God and Christ Jesus and the elect angels, I solemnly charge you to carry out these commands without prejudice or favoritism of any kind.",
+        "note": "tn Grk “doing nothing according to partiality.”"
+      }
+    ],
+    "22": [
+      {
+        "anchor": "Do not lay hands on anyone",
+        "note": "tn In context “laying hands on anyone” refers to ordination or official installation of someone as an elder."
+      },
+      {
+        "anchor": "hastily and so identify with the sins of others.",
+        "note": "tn Grk “and do not share in the sins of others.”"
+      }
+    ],
+    "23": [
+      {
+        "anchor": "(Stop drinking just water, but use a little wine for your digestion",
+        "note": "tn Grk “for the sake of your stomach.”"
+      },
+      {
+        "anchor": "and your frequent illnesses.)",
+        "note": "sn This verse gives parenthetical advice to Timothy, to clarify what it means to keep pure (5:22c). Verse 24 resumes the instructions about elders."
+      }
+    ],
+    "24": [
+      {
+        "anchor": "The sins of some people are obvious, going before them into judgment, but for others, they show up later.",
+        "note": "tn Grk “they [the sins] follow after others.”"
+      }
+    ]
+  },
+  "3": {
+    "1": [
+      {
+        "anchor": "This saying",
+        "note": "tn Grk “the saying,” referring to the following citation (see 1 Tim 1:15; 4:9; 2 Tim 2:11; Titus 3:8 for other occurrences of this phrase)."
+      },
+      {
+        "anchor": "is trustworthy: “If someone aspires to the office of overseer,",
+        "note": "tn Grk “aspires to oversight.”"
+      }
+    ],
+    "2": [
+      {
+        "anchor": "The overseer",
+        "note": "tn Or “bishop.”sn Although some see the article with overseer as indicating a single leader at the top of the ecclesiastical structure (thus taking the article as monadic), this is hardly necessary. It is naturally taken generically (referring to the class of leaders known as overseers) and, in fact, finds precedent in 2:11-12 (“a woman,” “a man”), 2:15 (“she”). Paul almost casually changes between singular and plural in both chapters."
+      },
+      {
+        "anchor": "then must be above reproach, the husband of one wife,",
+        "note": "tn Or “a man married only once,” “devoted solely to his wife” (see 1 Tim 3:12; 5:9; Titus 1:6). The meaning of this phrase is disputed. It is frequently understood to refer to the marital status of the church leader, excluding from leadership those who are (1) unmarried, (2) polygamous, (3) divorced, or (4) remarried after being widowed. A different interpretation is reflected in the NEB’s translation “faithful to his one wife.”"
+      }
+    ],
+    "4": [
+      {
+        "anchor": "He must manage his own household well and keep his children in control without losing his dignity.",
+        "note": "tn Grk “having children in submission with all dignity.” The last phrase, “keep his children in control without losing his dignity,” may refer to the children rather than the parent: “having children who are obedient and respectful.”"
+      }
+    ],
+    "6": [
+      {
+        "anchor": "He must not be a recent convert or he may become arrogant",
+        "note": "tn Grk “that he may not become arrogant.”"
+      },
+      {
+        "anchor": "and fall into the punishment that the devil will exact.",
+        "note": "tn Grk “the judgment of the devil,” which could also mean “the judgment that the devil incurred.” But see 1 Tim 1:20 for examples of the danger Paul seems to have in mind."
+      }
+    ],
+    "7": [
+      {
+        "anchor": "And he must be well thought of by",
+        "note": "tn Or “have a good reputation with”; Grk “have a good testimony from.”"
+      },
+      {
+        "anchor": "those outside the faith,",
+        "note": "tn Grk “the ones outside.”"
+      },
+      {
+        "anchor": "so that he may not fall into disgrace and be caught by the devil’s trap.",
+        "note": "tn Or “be trapped like the devil was”; Grk “fall into the trap of the devil.” The parallel in 2 Tim 2:26 supports the rendering given in the text."
+      }
+    ],
+    "8": [
+      {
+        "anchor": "Deacons likewise must be dignified,",
+        "note": "tn Or “respectable, honorable, of serious demeanor.”"
+      },
+      {
+        "anchor": "not two-faced,",
+        "note": "tn Or “insincere,” “deceitful”; Grk “speaking double.”"
+      },
+      {
+        "anchor": "not given to excessive drinking,",
+        "note": "tn Grk “not devoted to much wine.”"
+      }
+    ],
+    "9": [
+      {
+        "anchor": "holding to the mystery of the faith",
+        "note": "sn The mystery of the faith is a reference to the revealed truths of the Christian faith."
+      }
+    ],
+    "11": [
+      {
+        "anchor": "Likewise also their wives",
+        "note": "tn Or “also deaconesses.” The Greek word here is γυναῖκας (gunaika\") which literally means “women” or “wives.” It is possible that this refers to women who serve as deacons, “deaconesses.” The evidence is as follows: (1) The immediate context refers to deacons; (2) the author mentions nothing about wives in his section on elder qualifications (1 Tim 3:1-7); (3) it would seem strange to have requirements placed on deacons’ wives without corresponding requirements placed on elders’ wives; and (4) elsewhere in the NT, there seems to be room for seeing women in this role (cf. Rom 16:1 and the comments there). The translation “wives” – referring to the wives of the deacons – is probably to be preferred, though, for the following reasons: (1) It would be strange for the author to discuss women deacons right in the middle of the qualifications for male deacons; more naturally they would be addressed by themselves. (2) The author seems to indicate clearly in the next verse that women are not deacons: “Deacons must be husbands of one wife.” (3) Most of the qualifications given for deacons elsewhere do not appear here. Either the author has truncated the requirements for women deacons, or he is not actually referring to women deacons; the latter seems to be the more natural understanding. (4) The principle given in 1 Tim 2:12 appears to be an overarching principle for church life which seems implicitly to limit the role of deacon to men. Nevertheless, a decision in this matter is difficult, and our conclusions must be regarded as tentative."
+      }
+    ],
+    "12": [
+      {
+        "anchor": "Deacons must be husbands of one wife",
+        "note": "tn Or “men married only once,” “devoted solely to their wives” (see the note on “wife” in 1 Tim 3:2; also 1 Tim 5:9; Titus 1:6)."
+      }
+    ],
+    "13": [
+      {
+        "anchor": "For those who have served well as deacons gain a good standing for themselves",
+        "note": "sn The statement those who have served well as deacons gain a good standing for themselves is reminiscent of Jesus’ teaching (Matt 20:26-28; Mark 10:43-45) that the one who wishes to be great must be a servant (διάκονος [diakonos], used here of deacons) of all, just as the Son of Man came not to be served but to serve (διακονέω [diakonew], as in 1 Tim 3:10, 13)."
+      },
+      {
+        "anchor": "and great boldness in the faith that is in Christ Jesus.",
+        "note": "sn In the phrase the faith that is in Christ Jesus, the term faith seems to mean “what Christians believe, Christian truth,” rather than personal trust in Christ. So the whole phrase could mean that others will come to place greater confidence in them regarding Christian truth; but the word “confidence” is much more likely to refer to their own boldness to act on the truth of their convictions."
+      }
+    ],
+    "14": [
+      {
+        "anchor": "I hope to come to you soon, but I am writing these instructions",
+        "note": "tn Grk “these things.” sn These instructions refer to the instructions about local church life, given in 1 Tim 2:1–3:13."
+      }
+    ],
+    "15": [
+      {
+        "anchor": "in case I am delayed, to let you know how people ought to conduct themselves",
+        "note": "tn Grk “how it is necessary to behave.”"
+      },
+      {
+        "anchor": "in the household of God, because it is",
+        "note": "tn Grk “which is” (but the relative clause shows the reason for such conduct)."
+      }
+    ],
+    "16": [
+      {
+        "anchor": "vindicated by the Spirit,",
+        "note": "tn Or “in spirit.”"
+      }
+    ]
+  },
+  "1": {
+    "1": [
+      {
+        "anchor": "From Paul,",
+        "note": "tn Grk “Paul.” The word “from” is not in the Greek text, but has been supplied to indicate the sender of the letter."
+      },
+      {
+        "anchor": "an apostle of Christ Jesus by the command of God our Savior",
+        "note": "sn God our Savior. Use of the title “Savior” for God the Father is characteristic of 1 Timothy, 2 Timothy, and Titus. It occurs six times in these letters, but only twice elsewhere in the NT. However, it occurs commonly in the OT, especially in Isaiah. It emphasizes the Father as the initiator and source of salvation."
+      }
+    ],
+    "3": [
+      {
+        "anchor": "As I urged you when I was leaving for Macedonia, stay on in Ephesus",
+        "note": "map For location see JP1-D2; JP2-D2; JP3-D2; JP4-D2."
+      },
+      {
+        "anchor": "to instruct",
+        "note": "tn This word implies authoritative instruction: “direct, command, give orders” (cf. 1 Tim 4:11; 5:7; 6:13, 17). See BDAG 760 s.v. παραγγέλλω."
+      },
+      {
+        "anchor": "certain people not to spread false teachings,",
+        "note": "tn Grk “to teach other doctrines,” different from apostolic teaching (cf. 1 Tim 6:3)."
+      }
+    ],
+    "4": [
+      {
+        "anchor": "nor to occupy themselves with myths and interminable genealogies.",
+        "note": "sn Myths and interminable genealogies. These myths were legendary tales characteristic of the false teachers in Ephesus and Crete. See parallels in 1 Tim 4:7; 2 Tim 4:4; and Titus 1:14. They were perhaps built by speculation from the patriarchal narratives in the OT; hence the connection with genealogies and with wanting to be teachers of the law (v. 7)."
+      },
+      {
+        "anchor": "Such things promote useless speculations rather than God’s redemptive plan",
+        "note": "tc A few Western mss (D* latt Ir) read οἰκοδομήν (oikodomhn, “[God’s] edification”) rather than οἰκονομίαν (oikonomian, “[God’s] redemptive plan”), which is read by the earliest and best witnesses.tn More literally, “the administration of God that is by faith.”sn God’s redemptive plan. The basic word (οἰκονομία, oikonomia) denotes the work of a household steward or manager or the arrangement under which he works: “household management.” As a theological term it is used of the order or arrangement by which God brings redemption through Christ (God’s “dispensation, plan of salvation” [Eph 1:10; 3:9]) or of human responsibility to pass on the message of that salvation (“stewardship, commission” [1 Cor 9:17; Eph 3:2; Col 1:25]). Here the former is in view (see the summary of God’s plan in 1 Tim 2:3-6; 2 Tim 1:9-10; Titus 3:4-7), and Paul notes the response people must make to God’s arrangement: It is “in faith” or “by faith.”"
+      }
+    ],
+    "5": [
+      {
+        "anchor": "But the aim of our instruction",
+        "note": "tn Grk “the instruction,” referring to orthodox Christian teaching and ministry in general, in contrast to that of the false teachers mentioned in 1:3-4."
+      },
+      {
+        "anchor": "is love that comes from a pure heart, a good conscience, and a sincere faith.",
+        "note": "tn Grk “love from a pure heart and a good conscience and a sincere faith.”"
+      }
+    ],
+    "7": [
+      {
+        "anchor": "They want to be teachers of the law, but they do not understand what they are saying or the things they insist on so confidently.",
+        "note": "tn The Greek reinforces this negation: “understand neither what they are saying nor the things they insist on…”"
+      }
+    ],
+    "9": [
+      {
+        "anchor": "realizing that law",
+        "note": "sn Law. There is no definite article (“the”) with this word in Greek and so the inherent quality of the OT law as such is in view. But the OT law is still in mind, since the types of sinful people surveyed in vv. 9b-11a follow the general outline of sins prohibited in the Decalogue."
+      }
+    ],
+    "10": [
+      {
+        "anchor": "sexually immoral people, practicing homosexuals,",
+        "note": "tn On this term BDAG 135 s.v. ἀρσενοκοίτης states, “a male who engages in sexual activity w. a pers. of his own sex, pederast 1 Cor 6:9…of one who assumes the dominant role in same-sex activity, opp. μαλακός…1 Ti 1:10; Pol 5:3. Cp. Ro 1:27.” L&N 88.280 states, “a male partner in homosexual intercourse – ‘homosexual.’…It is possible that ἀρσενοκοίτης in certain contexts refers to the active male partner in homosexual intercourse in contrast with μαλακός, the passive male partner” (cf. 1 Cor 6:9). Since there is a distinction in contemporary usage between sexual orientation and actual behavior, the qualification “practicing” was supplied in the translation, following the emphasis in BDAG."
+      }
+    ],
+    "11": [
+      {
+        "anchor": "This",
+        "note": "tn A continuation of the preceding idea: Grk “teaching, according to the gospel.” This use of the law is in accord with the gospel entrusted to Paul (cf. Rom 7:7-16; Gal 3:23-26). Because of the length and complexity of the Greek sentence, a new sentence was started here in the translation."
+      },
+      {
+        "anchor": "accords with the glorious gospel of the blessed God",
+        "note": "tn Grk “the gospel of the glory of the blessed God.”"
+      },
+      {
+        "anchor": "that was entrusted to me.",
+        "note": "tn Grk “with which I was entrusted.” The translation is more in line with contemporary English style."
+      }
+    ],
+    "13": [
+      {
+        "anchor": "even though I was formerly a blasphemer and a persecutor, and an arrogant",
+        "note": "tn Or “violent,” “cruel.”"
+      }
+    ],
+    "14": [
+      {
+        "anchor": "and our Lord’s grace was abundant, bringing faith and love in Christ Jesus.",
+        "note": "tn Grk “with faith and love in Christ Jesus.”"
+      }
+    ],
+    "15": [
+      {
+        "anchor": "This saying",
+        "note": "tn Grk “the saying,” referring to the following citation (see 1 Tim 3:1; 4:9; 2 Tim 2:11; Titus 3:8 for other occurrences of this phrase)."
+      },
+      {
+        "anchor": "is trustworthy and deserves full acceptance: “Christ Jesus came into the world to save sinners” – and I am the worst of them!",
+        "note": "tn Grk “of whom I am the first.”"
+      }
+    ],
+    "16": [
+      {
+        "anchor": "But here is why I was treated with mercy: so that",
+        "note": "tn Grk “but because of this I was treated with mercy, so that…”"
+      },
+      {
+        "anchor": "in me as the worst,",
+        "note": "tn Grk “in me first,” making the connection with the last phrase of v. 15."
+      }
+    ],
+    "17": [
+      {
+        "anchor": "Now to the eternal king,",
+        "note": "tn Or more literally, “king of the ages.”"
+      },
+      {
+        "anchor": "immortal, invisible, the only",
+        "note": "tc Most later witnesses (א2 D1 Hc Ψ 1881 Ï) have “wise” (σόφῳ, swfw) here (thus, “the only wise God”), while the earlier and better witnesses (א* A D* F G H* 33 1739 lat co) lack this adjective. Although it could be argued that the longer reading is harder since it does not as emphatically affirm monotheism, it is more likely that scribes borrowed σόφῳ from Rom 16:27 where μόνῳ σόφῳ θεῷ (monw sofw qew, “the only wise God”) is textually solid."
+      },
+      {
+        "anchor": "God, be honor and glory forever and ever!",
+        "note": "tn Grk “unto the ages of the ages,” an emphatic way of speaking about eternity in Greek."
+      }
+    ],
+    "18": [
+      {
+        "anchor": "I put this charge",
+        "note": "sn This charge refers to the task Paul described to Timothy in vv. 3-7 above."
+      },
+      {
+        "anchor": "before you, Timothy my child, in keeping with the prophecies once spoken about you,",
+        "note": "sn The prophecies once spoken about you were apparently spoken at Timothy’s ordination (cf. 1 Tim 4:14) and perhaps spoke of what God would do through him. Thus they can encourage him in his work, as the next clause says."
+      },
+      {
+        "anchor": "in order that with such encouragement",
+        "note": "tn Grk “that by them you might fight…” (a reference to the prophecies which can encourage him in his work)."
+      }
+    ],
+    "19": [
+      {
+        "anchor": "To do this",
+        "note": "tn In Greek this continues the same sentence from v. 18, a participle showing the means by which Timothy will accomplish his task: Grk “fight the good fight, holding firmly…”"
+      }
+    ],
+    "20": [
+      {
+        "anchor": "Among these are Hymenaeus and Alexander, whom I handed over to Satan",
+        "note": "sn The expression handed over to Satan refers to an act of discipline mentioned by Paul here and in 1 Cor 5:5, with a remedial goal, not a punitive one. The Greek word translated taught in this verse is used of “discipline, training of children” to lead them to correct behavior."
+      }
+    ]
   }
 }

@@ -1,197 +1,2378 @@
 {
-  "1": {
-    "1": "tn Grk “Paul.” The word “from” is not in the Greek text, but has been supplied to indicate the sender of the letter. | map For location see JP1-C2; JP2-C2; JP3-C2; JP4-C2. | tn Or “are throughout Achaia.”",
-    "2": "tn Grk “Grace to you and peace.”",
-    "3": "tn There is no verb in the Greek text; either the optative (“be”) or the indicative (“is”) can be supplied. The meaning of the term εὐλογητός (euloghtos) and the author’s intention at this point in the epistle must both come into play to determine which is the preferred nuance. εὐλογητός as an adjective can mean either that one is praised or that one is blessed, that is, in a place of favor and benefit. The meaning “blessed” would be more naturally paired with an indicative verb and would suggest that blessedness is an intrinsic part of God’s character. The meaning “praised” would be more naturally paired with an optative verb and would suggest that God ought to be praised. Pauline style in the epistles generally moves from statements to obligations, expressing the reality first and then the believer’s necessary response. When considered as a whole, although a decision is difficult, the general Pauline style of beginning with statements and moving to obligations argues for the indicative. Cf. also Eph 1:3; 1 Pet 1:3.",
-    "4": "tn Or “our trials”; traditionally, “our affliction.” The term θλῖψις (qliyi\") refers to trouble (including persecution) that involves direct suffering (L&N 22.2). | tn Or “any trials”; traditionally, “any affliction.”",
-    "5": "tn This Greek word translated “sufferings” here (πάθημα, paqhma) is a different one than the one Paul uses for his own afflictions/persecutions (θλῖψις, qliyi\") in v. 4. | tn I.e., suffering incurred by Paul as a consequence of his relationship to Christ. The genitive could be considered to have a causative nuance here. | tn Traditionally, “abound” (here and throughout this section). | tn The words “to you” are not in the Greek text, but are implied by the statements in the following verse.",
-    "6": "tn Or “are troubled.”",
-    "7": "tn Grk “as you are sharers in.” | tn Grk “will be sharers in.”",
-    "8": "tn Grk “brothers,” but the Greek word may be used for “brothers and sisters” or “fellow Christians” as here (cf. BDAG 18 s.v. ἀδελφός 1., where considerable nonbiblical evidence for the plural ἀδελφοί [adelfoi] meaning “brothers and sisters” is cited). | tn Grk “Asia”; in the NT this always refers to the Roman province of Asia, made up of about one-third of the west and southwest end of modern Asia Minor. Asia lay to the west of the region of Phrygia and Galatia. The words “the province of” are supplied to indicate to the modern reader that this does not refer to the continent of Asia.",
-    "9": "tn Grk “we ourselves had the sentence of death within ourselves.” Here ἀπόκριμα (apokrima) is being used figuratively; no actual official verdict had been given, but in light of all the difficulties that Paul and his colleagues had suffered, it seemed to them as though such an official verdict had been rendered against them (L&N 56.26). | tn Or “might not put confidence in ourselves.”",
-    "10": "tn Because of the length and complexity of the Greek sentence, the relative clause “who delivered us…” was made a separate sentence in the translation. | tn Grk “deliver us, on whom we have set our hope.” | tc Several important witnesses, especially Alexandrian (Ì46 B D* 0121 0243 1739 1881 pc Did), lack ὅτι ({oti, “that”) here, while others, most notably Western (D1 F G 104 630 1505 pc ar b syh Or Ambst), lack ἔτι (eti, “yet”). Most mss, including important Alexandrians (א A C D2 Ψ 33 Ï f t vg), have the full expression ὅτι καὶ ἔτι ({oti kai eti). Although the predominantly Alexandrian reading has much to commend it, the fact that either ὅτι or ἔτι has been dropped, while the καί has been retained, suggests that the original wording had ὅτι καὶ ἔτι, and that either particle dropped out intentionally for stylistic reasons. (F and G have the order καί ὅτι, suggesting that in their archetype the ἔτι was unintentionally dropped due to homoioteleuton.) If, however, ὅτι is not authentic, v. 10b should be translated “We have set our hope on him, and he will deliver us again.” Overall, a decision is difficult, but preference should be given to ὅτι καὶ ἔτι.",
-    "11": "tn Grk “so that thanks may be given by many.” The words “to God” are not in the Greek text, but are implied. The passive construction has been converted to an active one for clarity, in keeping with contemporary English style.",
-    "12": "tn Or “for boasting.” | tc Two viable variants exist at this place in the text: ἁγιότητι (Jagiothti, “holiness”) vs. ἁπλότητι (Japlothti, “pure motives”). A confusion of letters could well have produced the variant (TCGNT 507): In uncial script the words would have been written agiothti and aplothti. This, however, does not explain which reading created the other. Overall ἁπλότητι, though largely a Western-Byzantine reading (א2 D F G Ï lat sy), is better suited to the context; it is also a Pauline word while ἁγιότης (Jagioth\") is not. It also best explains the rise of the other variants, πραότητι (praothti, “gentleness”) and {σπλάγχνοις} (splancnoi\", “compassion”). On the other hand, the external evidence in favor of ἁγιότητι is extremely strong (Ì46 א* A B C K P Ψ 0121 0243 33 81 1739 1881 al co). This diversity of mss provides excellent evidence for authenticity, but because of the internal evidence listed above, ἁπλότητι is to be preferred, albeit only slightly.tn Or “sincerity.” The two terms translated “pure motives” (ἁπλότης, Japloth\") and “sincerity” (εἰλικρίνεια, eilikrineia) are close synonyms. | tn Grk “pure motives and sincerity of God.” | tn Or “not by worldly wisdom.” | tn Or “and especially.”",
-    "13": "tn Grk “than the things.” | tn Grk “to the end,” a Greek idiom for “fully,” “totally,” “completely.”",
-    "14": "tn Grk “that we are your boast even as you are our boast.” | tc ‡ On the wording “the Lord Jesus” (τοῦ κυρίου ᾿Ιησοῦ, tou kuriou Ihsou) there is some variation in the extant witnesses: ἡμῶν (Jhmwn, “our”) is found after κυρίου in several significant witnesses (א B F G P 0121 0243 6 33 81 1739 1881 2464 al lat co); the pronoun is lacking from Ì46vid A C D Ψ Ï. Although in Paul “our Lord Jesus Christ” is a common expression, “our Lord Jesus” is relatively infrequent (cf., e.g., Rom 16:20; 2 Cor 1:14; 1 Thess 2:19; 3:11, 13; 2 Thess 1:8, 12). “The Lord Jesus” occurs about as often as “our Lord Jesus” (cf. 1 Cor 11:23; 16:23; 2 Cor 4:14; 11:31; Eph 1:15; 1 Thess 4:2; 2 Thess 1:7; Phlm 5). Thus, on balance, since scribes would tend to expand on the text, it is probably best to consider the shorter reading as authentic. NA27 places the pronoun in brackets, indicating doubt as to its authenticity.",
-    "15": "tn Grk “a second grace,” “a second favor” (used figuratively of a second visit by Paul).",
-    "16": "tn Grk “come again.”",
-    "17": "tn The Greek construction anticipates a negative answer. This is indicated in the translation by the ‘tag’ question “did I?” at the end of the sentence. | tn Grk “the things that I plan, do I plan (them).” | tn Grk “according to the flesh.” | tn Grk “so that with me there should be.”",
-    "19": "sn Silvanus is usually considered to be the same person as Silas (L&N 93.340).",
-    "21": "tn Or “strengthens.” | tn Grk “But he who establishes us together with you in Christ and anointed us is God.”",
-    "22": "tn Or “first installment,” “pledge,” “deposit.”sn Down payment. The Greek word ἀρραβών (arrabwn) denotes the first payment or first installment of money or goods which serves as a guarantee or pledge for the completion of the transaction. In the NT the term is used only figuratively of the Holy Spirit as the down payment of the blessings promised by God (it occurs later in 2 Cor 5:5, and also in Eph 1:14). In the “already – not yet” scheme of the NT the possession of the Spirit now by believers (“already”) can be viewed as a guarantee that God will give them the balance of the promised blessings in the future (“not yet”).",
-    "23": "tn Grk “I call upon God as witness against my soul.” Normally this implies an appeal for help (L&N 33.176). | tn Here φειδόμενος (feidomeno\") has been translated as a telic participle. | sn Paul had promised to come again to visit (see 2 Cor 1:15, 24) but explains here why he had changed his plans.map For location see JP1-C2; JP2-C2; JP3-C2; JP4-C2.",
-    "24": "tn Or “because you stand firm in the faith.”"
-  },
-  "9": {
-    "1": "tn Or “it is superfluous.” | tn Or “this ministry,” “this contribution.”",
-    "2": "tn The words “to help” are not in the Greek text but are implied. | tn Grk “concerning which I keep boasting to the Macedonians about you.” A new sentence was started here and the translation was simplified by removing the relative clause and repeating the antecedent “this eagerness of yours.” | tn The words “to give” are not in the Greek text, but are implied. | tn The words “to participate” are not in the Greek text but are implied. | sn Most of them is a reference to the Macedonians (cf. v. 4).",
-    "3": "tn This verb has been translated as an epistolary aorist. | tn That is, ready with the collection for the saints.",
-    "4": "tn Or “be disgraced”; Grk “be put to shame.” | tn Grk “by this confidence”; the words “we had in you” are not in the Greek text, but are supplied as a necessary clarification for the English reader.",
-    "5": "tn Grk “the blessing.” | tn Grk “a blessing.” | tn Grk “as a covetousness”; that is, a gift given grudgingly or under compulsion.",
-    "6": "tn Or “bountifully”; so also in the next occurrence in the verse.",
-    "7": "tn Or “must do.” The words “of you” and “should give” are not in the Greek text, which literally reads, “Each one just as he has decided in his heart.” The missing words are an ellipsis; these or similar phrases must be supplied for the English reader. | tn Or “in his mind.” | tn Or “not from regret”; Grk “not out of grief.” | tn Or “not out of a sense of duty”; Grk “from necessity.”",
-    "8": "tn Or “abound.” | tn Or “so that by having enough.” The Greek participle can be translated as a participle of cause (“because you have enough”) or means (“by having enough”). | tn Or “abound.”",
-    "9": "sn He in the quotation refers to the righteous person. | sn A quotation from Ps 112:9.",
-    "10": "tn Grk “he”; the referent (God) has been specified in the translation for clarity.",
-    "11": "tn Grk “in every way for every generosity,” or “he will always make you rich enough to be generous at all times” (L&N 57.29).",
-    "12": "tn Or “not only supplying.”",
-    "13": "tn Or “proof,” or perhaps “testing” (NRSV). | tn Or “ministry.” | tn Or “your partnership”; Grk “your fellowship.”",
-    "14": "tn Grk “the extraordinary grace of God to you”; the point is that God has given or shown grace to the Corinthians.",
-    "15": "tn “Let us thank God for his gift which cannot be described with words” (L&N 33.202)."
-  },
-  "6": {
-    "1": "tn Or “receive the grace of God uselessly.”",
-    "2": "sn A quotation from Isa 49:8.",
-    "3": "tn The word “anyone” is not in the Greek text, but is implied. Direct objects in Greek were often omitted when clear from the context. | tn Other interpretations of the first part of 2 Cor 6:3 are possible. The phrase could also mean, “not putting an obstacle in the way of anyone” (L&N 22.14), or “giving no one in anything a cause to sin” (L&N 88.307).",
-    "4": "tn Or “ministers.” | tn Or “we have commended ourselves by all things.” | tn Or “in trouble and suffering.”",
-    "5": "tn Or “rebellions” (uprisings in open defiance of civil authority). | tn Usually κόποις (kopois) has been translated as “labors” or “hard work,” but see Matt 26:10 where it means “trouble”; “distress” (L&N 22.7). In this context with so many other terms denoting suffering and difficulty, such a meaning is preferable.",
-    "6": "tn Or “by holiness of spirit.” | tn Or “sincere.”",
-    "7": "tn Grk “by the word of truth”; understanding ἀληθείας (alhqeias) as an attributive genitive (“truthful word”). | tn Or “speech.” In this context it is more likely that λόγος (logos) refers to Paul’s message (thus “teaching”) than to his speech in general. | tn The phrase “for the right hand and for the left” possibly refers to a combination of an offensive weapon (a sword for the right hand) and a defensive weapon (a shield for the left).",
-    "8": "tn Or “regarded as deceivers.”",
-    "9": "tn Grk “disciplined,” but in this context probably a reference to scourging prior to execution (yet the execution is not carried out).",
-    "11": "tn Grk “our mouth has been open to you,” an idiom for openness in communication.",
-    "12": "tn Grk “You are not restricted by us.”",
-    "13": "tn The word “my” is not in the Greek text but is implied. | tn The words “to us” are not in the Greek text but are implied.",
-    "14": "tn Or “Do not be mismatched.”",
-    "15": "sn The Greek term Βελιάρ (Beliar) is a spelling variant for Βελιάλ (Belial, see Judg 20:13 LXX). It occurs only here in the NT. Beliar is a reference to Satan.",
-    "16": "tc Most witnesses, including some important ones (Ì46 א2 C D2 F G Ψ 0209 Ï lat sy Tert), read ὑμεῖς…ἐστε (Jumei\"…este, “you are”) instead of ἡμεῖς…ἐσμεν (Jhmei\"…esmen, “we are”) here, but several other early and important mss (א* B D* L P 0243 6 33 81 326 365 1175 1739 1881 2464 co Cl Or) have ἡμεῖς…ἐσμεν. The external evidence is somewhat in favor of the first person pronoun and verb; the internal evidence weighs in even stronger. In light of the parallel in 1 Cor 3:16, where Paul uses ἐστε (“you are the temple of God”), as well as the surrounding context here in which the second person verb or pronoun is used in vv. 14, 17, and 18, the second person reading seems obviously motivated. The first person reading can explain the rise of the other reading, but the reverse is not as easily done. Consequently, the first person reading of ἡμεῖς…ἐσμεν has all the credentials of authenticity. | tn Or “live among them,” “live with them.” sn I will live in them. The OT text that lies behind this passage (Lev 26:11-12) speaks of God dwelling in the midst of his people. The Greek preposition en in the phrase en autoi\" (“in them”) can also have that meaning (“among” or “with”). However, Paul appears to be extending the imagery here to involve God (as the Spirit) dwelling in his people, since he calls believers “the temple of the living God” in the previous clause, imagery he uses elsewhere in his writings (1 Cor 3:16; Eph 2:21-22). | sn A quotation from Lev 26:12; also similar to Jer 32:38; Ezek 37:27.",
-    "17": "sn A quotation from Isa 52:11. | tn Or “will receive.” | sn A paraphrased quotation from Ezek 20:41.",
-    "18": "sn A paraphrased quotation from 2 Sam 7:14 and Isa 43:6. | tn Traditionally, “the Lord Almighty.” BDAG 755 s.v. παντοκράτωρ states, “the Almighty, All-Powerful, Omnipotent (One) only of God…κύριος π. (oft. LXX) 2 Cor 6:18.”"
-  },
-  "10": {
-    "1": "tn The Greek pronoun (“you”) is plural. | tn The word “personally” is supplied to reflect the force of the Greek intensive pronoun αὐτός (autos) at the beginning of the verse. | tn Or “leniency and clemency.” D. Walker, “Paul’s Offer of Leniency of Christ (2 Corinthians 10:1): Populist Ideology and Rhetoric in a Pauline Letter Fragment (2 Cor 10:1-13:10)” (Ph.D. diss., University of Chicago, 1998), argues for this alternative translation for three main reasons: (1) When the two Greek nouns πραΰτης and ἐπιείκεια (prauth\" and ejpieikeia) are used together, 90% of the time the nuance is “leniency and clemency.” (2) “Leniency and clemency” has a military connotation, which is precisely what appears in the following verses. (3) 2 Cor 10-13 speaks of Paul’s sparing use of his authority, which points to the nuance of “leniency and clemency.” | tn Or “who lack confidence.” | tn Or “when face to face with.” | tn Or “but bold.”",
-    "2": "tn Grk “consider us as walking.” | tn Grk “according to the flesh.”",
-    "3": "tn Grk “we walk.” | tn Grk “in the flesh.” | tn Grk “according to the flesh.”",
-    "4": "tn Grk “are not fleshly [weapons].” The repetition of the word “warfare” does not occur in the Greek text, but is supplied for clarity. | tn Or “but (are) divinely powerful,” “but they have divine power,” or “but are powerful for God’s [service]”; Grk “but are powerful to God.” | sn Ultimately Paul is referring here to the false arguments of his opponents, calling them figuratively “strongholds.” This Greek word (ὀχύρωμα, ocurwma) is used only here in the NT. | tn Or “speculations.”",
-    "5": "tn The phrase “every arrogant obstacle” could be translated simply “all arrogance” (so L&N 88.207). | tn Grk “to the obedience of Christ”; but since Χριστοῦ (Cristou) is clearly an objective genitive here, it is better to translate “to make it obey Christ.”",
-    "6": "tn Or “punish all disobedience.”",
-    "7": "tn The phrase is close to a recognized idiom for judging based on outward appearances (L&N 30.120). Some translators see a distinction, however, and translate 2 Cor 10:7a as “Look at what is in front of your eyes,” that is, the obvious facts of the case (so NRSV).",
-    "8": "tn The word “us” is not in the Greek text but is supplied. Indirect objects in Greek were often omitted when clear from the context, and must be supplied for the modern English reader. | tn Grk “I will not be put to shame,” “I will not be ashamed.” The words “of doing so” are supplied to clarify for the reader that Paul will not be ashamed of boasting somewhat more about the authority the Lord gave him (beginning of v. 8).",
-    "10": "tn Or “unimpressive.” | tn Or “is contemptible”; Grk “is despised.”",
-    "11": "tn Grk “what we are in word.”",
-    "12": "tn Or “they are unintelligent.”",
-    "13": "tn Or “boast excessively.” The phrase εἰς τὰ ἄμετρα (ei\" ta ametra) is an idiom; literally it means “into that which is not measured,” that is, a point on a scale that goes beyond what might be expected (L&N 78.27). | tn The words “will confine our boasting” are not in the Greek text, but the reference to boasting must be repeated from the previous clause to clarify for the modern reader what is being limited. | tn Grk “according to the measure of the rule which God has apportioned to us as a measure”; for the translation used in the text see L&N 37.100.",
-    "14": "tn Grk “with the gospel of Christ,” but since Χριστοῦ (Cristou) is clearly an objective genitive here, it is better to translate “with the gospel about Christ.”",
-    "15": "tn Or “boast excessively.” The phrase εἰς τὰ ἄμετρα (ei\" ta ametra) is an idiom; literally it means “into that which is not measured,” that is, a point on a scale that goes beyond what might be expected (L&N 78.27). | tn Or “in the labors.” | tn Grk “but we have the hope.” | tn Or “greatly enlarged.” | tn That is, Paul’s work might be greatly expanded within the area of activity assigned to him by God.",
-    "17": "tn The traditional translation (“let the one who boasts boast in the Lord”) can be understood as merely permissive by the English reader, but the Greek verb καυχάσθω (kaucasqw) is a third person imperative.sn A quotation from Jer 9:24 (also quoted in 1 Cor 1:31)."
+  "2": {
+    "1": [
+      {
+        "anchor": "So",
+        "note": "tc Although usually δέ (de, “now”; found in א A C D1 F G Ψ 0285 Ï lat) should take precedent over γάρ (gar) in textually disputed places in the corpus Paulinum, the credentials for γάρ here are not easily dismissed (Ì46 B 0223 0243 33 1739 1881 al); here it is the preferred reading, albeit slightly."
+      },
+      {
+        "anchor": "I made up my own mind",
+        "note": "tn Or “I decided this for myself.”"
+      },
+      {
+        "anchor": "not to pay you another painful visit.",
+        "note": "tn Grk “not to come to you again in sorrow.”sn Paul was not speaking absolutely about not making another visit, but meant he did not want to come to the Corinthians again until the conflict he mentioned in 2 Cor 2:4-11 was settled."
+      }
+    ],
+    "2": [
+      {
+        "anchor": "For if I make you sad, who would be left to make me glad",
+        "note": "tn Or “to cheer me up.” L&N 25.131 translates this “For if I were to make you sad, who would be left to cheer me up?”"
+      }
+    ],
+    "3": [
+      {
+        "anchor": "And I wrote this very thing to you,",
+        "note": "tn The words “to you” are not in the Greek text but are implied."
+      },
+      {
+        "anchor": "so that when I came",
+        "note": "sn So that when I came. Regarding this still future visit by Paul, see 2 Cor 12:14; 13:1."
+      }
+    ],
+    "4": [
+      {
+        "anchor": "For out of great distress and anguish of heart I wrote to you with many tears, not to make you sad, but to let you know the love that I have especially for you.",
+        "note": "tn Or “the love that I have in great measure for you.”"
+      }
+    ],
+    "5": [
+      {
+        "anchor": "But if anyone has caused sadness, he has not saddened me alone, but to some extent (not to exaggerate)",
+        "note": "tn Or “(not to say too much)”; Grk “(not to burden you [with words]).”"
+      }
+    ],
+    "7": [
+      {
+        "anchor": "so that now instead",
+        "note": "tn Grk “so that on the other hand.”"
+      },
+      {
+        "anchor": "you should rather forgive and comfort him.",
+        "note": "tn The word “him” is not in the Greek text but is supplied. Direct objects in Greek were often omitted and must be supplied from the context."
+      },
+      {
+        "anchor": "This will keep him from being overwhelmed by excessive grief to the point of despair.",
+        "note": "tn Grk “comfort him, lest somehow such a person be swallowed up by excessive grief,” an idiom for a person being so overcome with grief as to despair or give up completely (L&N 25.285). In this context of excessive grief or regret for past sins, “overwhelmed” is a good translation since contemporary English idiom speaks of someone “overwhelmed by grief.” Because of the length of the Greek sentence and the difficulty of expressing a negative purpose/result clause in English, a new sentence was started here in the translation."
+      }
+    ],
+    "8": [
+      {
+        "anchor": "Therefore I urge you to reaffirm your love for him.",
+        "note": "tn Or “I urge you to show that your love for him is real.”"
+      }
+    ],
+    "9": [
+      {
+        "anchor": "For this reason also I wrote you:",
+        "note": "tn The word “you” is not in the Greek text, but is implied (as an understood direct object)."
+      },
+      {
+        "anchor": "to test you to see",
+        "note": "tn Grk “to know the proof of you,” that is, to know if the Corinthians’ obedience to Paul as an apostle was genuine (L&N 72.7)."
+      }
+    ],
+    "11": [
+      {
+        "anchor": "so that we may not be exploited",
+        "note": "tn Or “be taken advantage of.”"
+      }
+    ],
+    "12": [
+      {
+        "anchor": "Now when I arrived in Troas",
+        "note": "sn Troas was a city and region in the northwest corner of Asia Minor."
+      },
+      {
+        "anchor": "to proclaim the gospel of Christ, even though the Lord had opened",
+        "note": "tn This has been translated as a concessive participle (“even though”). The passive construction (“a door of opportunity had been opened for me by the Lord”) has been converted to an active one in the translation for clarity."
+      },
+      {
+        "anchor": "a door of opportunity",
+        "note": "tn Grk “a door”; the phrase ἀνοίγω θύραν (anoigw quran, “to open a door”) is an idiom meaning “to make possible some opportunity” (L&N 71.9)."
+      }
+    ],
+    "13": [
+      {
+        "anchor": "I had no relief in my spirit,",
+        "note": "tn Or “I had no peace of mind.”"
+      },
+      {
+        "anchor": "because I did not find my brother Titus there. So I said good-bye to them",
+        "note": "tn Or “I took my leave of them.”"
+      },
+      {
+        "anchor": "and set out",
+        "note": "tn Since this refers to the outset of a journey, the aorist ἐξῆλθον (exhlqon) is taken ingressively."
+      }
+    ],
+    "14": [
+      {
+        "anchor": "But thanks be to God who always leads us in triumphal procession",
+        "note": "tn Or “who always causes us to triumph.”"
+      },
+      {
+        "anchor": "in Christ",
+        "note": "tn Or “in the Messiah.”"
+      },
+      {
+        "anchor": "and who makes known",
+        "note": "tn Or “who reveals.”"
+      }
+    ],
+    "16": [
+      {
+        "anchor": "to the latter an odor",
+        "note": "tn The same Greek word (ὀσμή, osmh) translated “odor” here (in relation to the stench of death) has been translated “fragrance” in 2:14 and in the next phrase of the present verse. The word itself can describe a smell or odor either agreeable or disagreeable depending on the context (L&N 79.45)."
+      },
+      {
+        "anchor": "from death to death, but to the former a fragrance from life to life. And who is adequate for these things?",
+        "note": "sn These things refer to the things Paul is doing in his apostolic ministry."
+      }
+    ],
+    "17": [
+      {
+        "anchor": "For we are not like so many others, hucksters who peddle the word of God for profit,",
+        "note": "tn The participle καπηλεύοντες (kaphleuonte\") refers to those engaged in retail business, but with the negative connotations of deceptiveness and greed – “to peddle for profit,” “to huckster” (L&N 57.202). In the translation a noun form (“hucksters”) has been used in combination with the English verb “peddle…for profit” to convey the negative connotations of this term."
+      },
+      {
+        "anchor": "but we are speaking in Christ before",
+        "note": "tn Or “in the presence of.”"
+      },
+      {
+        "anchor": "God as persons of sincerity,",
+        "note": "tn Or “persons of pure motives.”"
+      }
+    ]
   },
   "7": {
-    "1": "tn Or “purify ourselves.” | tn Grk “from every defilement of the flesh.” | tn Grk “accomplishing.” The participle has been translated as a finite verb due to considerations of contemporary English style, and “thus” has been supplied to indicate that it represents a result of the previous cleansing. | tn Grk “in the fear of God.”",
-    "2": "tn The phrase “in your hearts” is not in the Greek text, but is implied. | tn “We have ruined no one” may refer to financial loss (“we have caused no one to suffer financial loss”) but it may also refer to the undermining of faith (“we have corrupted no one’s faith,”). Both options are mentioned in L&N 20.23. | tn Or “we have taken advantage of no one.”",
-    "3": "sn See 2 Cor 1:4-7. | tn The words “with you” are not in the Greek text, but are implied.",
-    "4": "tn Grk “great is my boasting.” | tn Or “comfort.” | tn Grk “I am overflowing with joy in all our suffering”; the words “in the midst of” are not in the Greek text but are supplied to clarify that Paul is not rejoicing in the suffering itself, but in his relationship with the Corinthians in the midst of all his suffering.",
-    "5": "tn Grk “our flesh.”",
-    "6": "tn Or “comforts,” “consoles.” | tn Or “comforted,” “consoled.”",
-    "7": "tn Because of the length and complexity of this Greek sentence, a new sentence was started here in the translation by supplying the phrase “We were encouraged.” | tn Or “comfort,” “consolation.” | tn Grk “by the encouragement with which he was encouraged by you.” The passive construction was translated as an active one in keeping with contemporary English style, and the repeated word “encouraged” was replaced in the translation by “gave” to avoid redundancy in the translation. | tn Or “your grieving,” “your deep sorrow.” | tn Or “your zeal.”",
-    "8": "tn Grk “if I grieved you.” | sn My letter. Paul is referring to the “severe” letter mentioned in 2 Cor 2:4. | tn Grk “I do not regret”; direct objects in Greek must often be supplied from the context. Here one could simply supply “it,” but since Paul is referring to the effects of his previous letter, clarity is improved if “having written it” is supplied. | tn Grk “I did regret”; the direct object “it” must be supplied from the context. | tc A few important mss (Ì46c B D* it sa) lack γάρ (gar, “for”), while the majority of witnesses have it (א C D1 F G Ψ 0243 33 1739 1881 Ï sy bo). Even though Ì46* omits γάρ, it has the same sense (viz., a subordinate clause) because it reads the participle βλέπων (blepwn, “seeing”; the Vulgate does the same). A decision is difficult because although the overwhelming external evidence is on the side of the conjunction, the lack of γάρ is a significantly harder reading, for the whole clause is something of an anacoluthon. Without the conjunction, the sentence reads more harshly. This would fit with Paul’s “vehemence of spirit” (A. T. Robertson, A Grammar of the Greek New Testament, 435) that is found especially in 2 Corinthians and Galatians. However, the mss that omit the conjunction are prone to such tendencies at times. In this instance, the conjunction should probably stand. | tn Grk “my letter grieved you.”",
-    "9": "tn Grk “were grieved” (so also twice later in the verse). | tn Grk “corresponding to God,” that is, corresponding to God’s will (κατὰ θεόν, kata qeon). The same phrase occurs in vv. 10 and 11. | tn Grk “so that you did not suffer loss.”",
-    "11": "tn Grk “this very thing, to be grieved.” | tn The words “of yourselves” are not in the Greek text but are implied. | sn What indignation refers to the Corinthians’ indignation at the offender. | tn Or “what zeal.” | sn That is, punishment for the offender.",
-    "12": "tn Grk “but in order that your eagerness on our behalf might be revealed to you.”",
-    "13": "tn Or “all of you have put his mind at ease.”",
-    "14": "tn Grk “I have not been put to shame”; the words “by you” are not in the Greek text but are implied. | tn Grk “just as we spoke everything to you in truth.” | tn The words “about you” are not in the Greek text but are implied.",
-    "15": "tn Or “is all the more.”"
+    "1": [
+      {
+        "anchor": "Therefore, since we have these promises, dear friends, let us cleanse ourselves",
+        "note": "tn Or “purify ourselves.”"
+      },
+      {
+        "anchor": "from everything that could defile the body",
+        "note": "tn Grk “from every defilement of the flesh.”"
+      },
+      {
+        "anchor": "and the spirit, and thus accomplish",
+        "note": "tn Grk “accomplishing.” The participle has been translated as a finite verb due to considerations of contemporary English style, and “thus” has been supplied to indicate that it represents a result of the previous cleansing."
+      },
+      {
+        "anchor": "holiness out of reverence for God.",
+        "note": "tn Grk “in the fear of God.”"
+      }
+    ],
+    "2": [
+      {
+        "anchor": "Make room for us in your hearts;",
+        "note": "tn The phrase “in your hearts” is not in the Greek text, but is implied."
+      },
+      {
+        "anchor": "we have wronged no one, we have ruined no one,",
+        "note": "tn “We have ruined no one” may refer to financial loss (“we have caused no one to suffer financial loss”) but it may also refer to the undermining of faith (“we have corrupted no one’s faith,”). Both options are mentioned in L&N 20.23."
+      },
+      {
+        "anchor": "we have exploited no one.",
+        "note": "tn Or “we have taken advantage of no one.”"
+      }
+    ],
+    "3": [
+      {
+        "anchor": "I do not say this to condemn you, for I told you before",
+        "note": "sn See 2 Cor 1:4-7."
+      },
+      {
+        "anchor": "that you are in our hearts so that we die together and live together with you.",
+        "note": "tn The words “with you” are not in the Greek text, but are implied."
+      }
+    ],
+    "4": [
+      {
+        "anchor": "I have great confidence in you; I take great pride",
+        "note": "tn Grk “great is my boasting.”"
+      },
+      {
+        "anchor": "on your behalf. I am filled with encouragement;",
+        "note": "tn Or “comfort.”"
+      },
+      {
+        "anchor": "I am overflowing with joy in the midst of",
+        "note": "tn Grk “I am overflowing with joy in all our suffering”; the words “in the midst of” are not in the Greek text but are supplied to clarify that Paul is not rejoicing in the suffering itself, but in his relationship with the Corinthians in the midst of all his suffering."
+      }
+    ],
+    "5": [
+      {
+        "anchor": "For even when we came into Macedonia, our body",
+        "note": "tn Grk “our flesh.”"
+      }
+    ],
+    "6": [
+      {
+        "anchor": "But God, who encourages",
+        "note": "tn Or “comforts,” “consoles.”"
+      },
+      {
+        "anchor": "the downhearted, encouraged",
+        "note": "tn Or “comforted,” “consoled.”"
+      }
+    ],
+    "7": [
+      {
+        "anchor": "We were encouraged",
+        "note": "tn Because of the length and complexity of this Greek sentence, a new sentence was started here in the translation by supplying the phrase “We were encouraged.”"
+      },
+      {
+        "anchor": "not only by his arrival, but also by the encouragement",
+        "note": "tn Or “comfort,” “consolation.”"
+      },
+      {
+        "anchor": "you gave",
+        "note": "tn Grk “by the encouragement with which he was encouraged by you.” The passive construction was translated as an active one in keeping with contemporary English style, and the repeated word “encouraged” was replaced in the translation by “gave” to avoid redundancy in the translation."
+      },
+      {
+        "anchor": "him, as he reported to us your longing, your mourning,",
+        "note": "tn Or “your grieving,” “your deep sorrow.”"
+      },
+      {
+        "anchor": "your deep concern",
+        "note": "tn Or “your zeal.”"
+      }
+    ],
+    "8": [
+      {
+        "anchor": "For even if I made you sad",
+        "note": "tn Grk “if I grieved you.”"
+      },
+      {
+        "anchor": "by my letter,",
+        "note": "sn My letter. Paul is referring to the “severe” letter mentioned in 2 Cor 2:4."
+      },
+      {
+        "anchor": "I do not regret having written it",
+        "note": "tn Grk “I do not regret”; direct objects in Greek must often be supplied from the context. Here one could simply supply “it,” but since Paul is referring to the effects of his previous letter, clarity is improved if “having written it” is supplied."
+      },
+      {
+        "anchor": "(even though I did regret it,",
+        "note": "tn Grk “I did regret”; the direct object “it” must be supplied from the context."
+      },
+      {
+        "anchor": "for",
+        "note": "tc A few important mss (Ì46c B D* it sa) lack γάρ (gar, “for”), while the majority of witnesses have it (א C D1 F G Ψ 0243 33 1739 1881 Ï sy bo). Even though Ì46* omits γάρ, it has the same sense (viz., a subordinate clause) because it reads the participle βλέπων (blepwn, “seeing”; the Vulgate does the same). A decision is difficult because although the overwhelming external evidence is on the side of the conjunction, the lack of γάρ is a significantly harder reading, for the whole clause is something of an anacoluthon. Without the conjunction, the sentence reads more harshly. This would fit with Paul’s “vehemence of spirit” (A. T. Robertson, A Grammar of the Greek New Testament, 435) that is found especially in 2 Corinthians and Galatians. However, the mss that omit the conjunction are prone to such tendencies at times. In this instance, the conjunction should probably stand."
+      },
+      {
+        "anchor": "I see that my letter made you sad,",
+        "note": "tn Grk “my letter grieved you.”"
+      }
+    ],
+    "9": [
+      {
+        "anchor": "Now I rejoice, not because you were made sad,",
+        "note": "tn Grk “were grieved” (so also twice later in the verse)."
+      },
+      {
+        "anchor": "but because you were made sad to the point of repentance. For you were made sad as God intended,",
+        "note": "tn Grk “corresponding to God,” that is, corresponding to God’s will (κατὰ θεόν, kata qeon). The same phrase occurs in vv. 10 and 11."
+      },
+      {
+        "anchor": "so that you were not harmed",
+        "note": "tn Grk “so that you did not suffer loss.”"
+      }
+    ],
+    "11": [
+      {
+        "anchor": "For see what this very thing, this sadness",
+        "note": "tn Grk “this very thing, to be grieved.”"
+      },
+      {
+        "anchor": "as God intended, has produced in you: what eagerness, what defense of yourselves,",
+        "note": "tn The words “of yourselves” are not in the Greek text but are implied."
+      },
+      {
+        "anchor": "what indignation,",
+        "note": "sn What indignation refers to the Corinthians’ indignation at the offender."
+      },
+      {
+        "anchor": "what alarm, what longing, what deep concern,",
+        "note": "tn Or “what zeal.”"
+      },
+      {
+        "anchor": "what punishment!",
+        "note": "sn That is, punishment for the offender."
+      }
+    ],
+    "12": [
+      {
+        "anchor": "So then, even though I wrote to you, it was not on account of the one who did wrong, or on account of the one who was wronged, but to reveal to you your eagerness on our behalf",
+        "note": "tn Grk “but in order that your eagerness on our behalf might be revealed to you.”"
+      }
+    ],
+    "13": [
+      {
+        "anchor": "Therefore we have been encouraged. And in addition to our own encouragement, we rejoiced even more at the joy of Titus, because all of you have refreshed his spirit.",
+        "note": "tn Or “all of you have put his mind at ease.”"
+      }
+    ],
+    "14": [
+      {
+        "anchor": "For if I have boasted to him about anything concerning you, I have not been embarrassed by you,",
+        "note": "tn Grk “I have not been put to shame”; the words “by you” are not in the Greek text but are implied."
+      },
+      {
+        "anchor": "but just as everything we said to you was true,",
+        "note": "tn Grk “just as we spoke everything to you in truth.”"
+      },
+      {
+        "anchor": "so our boasting to Titus about you",
+        "note": "tn The words “about you” are not in the Greek text but are implied."
+      }
+    ],
+    "15": [
+      {
+        "anchor": "And his affection for you is much greater",
+        "note": "tn Or “is all the more.”"
+      }
+    ]
   },
-  "12": {
-    "1": "tn Grk “Boasting is necessary.”",
-    "4": "sn In the NT, paradise is mentioned three times. In Luke 23:43 it refers to the abode of the righteous dead. In Rev 2:7 it refers to the restoration of Edenic paradise predicted in Isa 51:3 and Ezek 36:35. The reference here in 2 Cor 12:4 is probably to be translated as parallel to the mention of the “third heaven” in v. 2. Assuming that the “first heaven” would be atmospheric heaven (the sky) and “second heaven” the more distant stars and planets, “third heaven” would refer to the place where God dwells. This is much more likely than some variation on the seven heavens mentioned in the pseudepigraphic book 2 Enoch and in other nonbiblical and rabbinic works. | tn Or “things that cannot be put into words.” | tn Grk “a man.”",
-    "6": "tn Or “speaking.” | tn Or “may think of.”",
-    "7": "tc Most mss (Ì46 D Ψ 1881 Ï) lack διό (dio, “Therefore”), but the widespread distribution and quality of mss which include it (א A B F G 0243 33 81 1175 1739 pc) argues for its authenticity. Internally, its case is equally strong in that its inclusion is grammatically rough (διό is hardly necessary to convey purpose, especially since Paul uses ἵνα [{ina, “so that”] next). | tn Or “to harass.” | tn The phrase “so that I might not become arrogant” is repeated here because it occurs in the Greek text two times in the verse. Although redundant, it is repeated because of the emphatic nature of its affirmation.",
-    "9": "tn Here καί (kai) has been translated as “but” because of the contrast implicit in the context. | tn Or “is sufficient.” | tc The majority of later mss (א2 Ac D1 Ψ 0243 0278 33 1739 1881 Ï) as well as some versional witnesses include the pronoun “my” here, but the omission of the pronoun has excellent external support (Ì46vid א* A* B D* F G latt). Scribes probably added the pronoun for clarity, making the obvious referent explicit. This would also make “power” more parallel with “my grace.” Though the original text probably did not include “my,” scribes who added the word were following the sense of Paul’s statement.tn The pronoun “my” was supplied in the translation to clarify the sense of Paul’s expression. | tn Or “my power comes to full strength.” | tn “Most gladly,” a comparative form used with superlative meaning and translated as such. | tn Or “may rest on.”",
-    "10": "tn Or “I take delight in.” | tn Or “calamities.”",
-    "11": "tn Or “I am in no way inferior.”",
-    "12": "tn Or “patience,” “endurance.” | tn Or “and miracles.”",
-    "13": "tn Grk “For in what respect.”",
-    "14": "tn Grk “children ought not,” but this might give the impression that children are not supposed to support sick or aging parents in need of help. That is not what Paul is saying. His point is that children should not have to pay their parent’s way.",
-    "15": "tn Grk “souls.”",
-    "17": "tn The Greek construction anticipates a negative answer, indicated by the ‘tag’ question “have I?” at the end of the clause. The question is rhetorical.",
-    "18": "tn The words “to visit you” are not in the Greek text but are implied. Direct objects were often omitted in Greek when clear from the context, and must be supplied for the modern reader. | tn Grk “the.” | tn The Greek construction anticipates a negative answer, indicated by the ‘tag’ question “did he?” at the end of the clause. | tn Grk “[Did we not walk] in the same tracks?” This is an idiom that means to imitate someone else or to behave as they do. Paul’s point is that he and Titus have conducted themselves in the same way toward the Corinthians. If Titus did not take advantage of the Corinthians, then neither did Paul.",
-    "19": "tc The reading “all this time” (πάλαι, palai) is found in several early and important Alexandrian and Western witnesses including א* A B F G 0243 6 33 81 365 1175 1739 1881 lat; the reading πάλιν (palin, “again”) is read by א2 D Ψ 0278 Ï sy bo; the reading οὐ πάλαι (ou palai) is read by Ì46, making the question even more emphatic. The reading of Ì46 could only have arisen from πάλαι. The reading πάλιν is significantly easier (“are you once again thinking that we are defending ourselves?”), for it softens Paul’s tone considerably. It thus seems to be a motivated reading and cannot easily explain the rise of πάλαι. Further, πάλαι has considerable support in the Alexandrian and Western witnesses, rendering it virtually certain as the original wording here. | tn Or “for your strengthening”; Grk “for your edification.”",
-    "20": "tn Grk “and I will be found by you.” The passive construction has been converted to an active one in the translation. | tn The words “I am afraid that” are not repeated in the Greek text, but are needed for clarity. | tn Or “intense anger, hostility.”",
-    "21": "tn The words “I am afraid that” are not repeated in the Greek text from v. 20, but are needed for clarity. | tn Or “I will mourn over.”"
+  "6": {
+    "1": [
+      {
+        "anchor": "Now because we are fellow workers, we also urge you not to receive the grace of God in vain.",
+        "note": "tn Or “receive the grace of God uselessly.”"
+      }
+    ],
+    "2": [
+      {
+        "anchor": ".”",
+        "note": "sn A quotation from Isa 49:8."
+      }
+    ],
+    "3": [
+      {
+        "anchor": "We do not give anyone",
+        "note": "tn The word “anyone” is not in the Greek text, but is implied. Direct objects in Greek were often omitted when clear from the context."
+      },
+      {
+        "anchor": "an occasion for taking an offense in anything,",
+        "note": "tn Other interpretations of the first part of 2 Cor 6:3 are possible. The phrase could also mean, “not putting an obstacle in the way of anyone” (L&N 22.14), or “giving no one in anything a cause to sin” (L&N 88.307)."
+      }
+    ],
+    "4": [
+      {
+        "anchor": "But as God’s servants,",
+        "note": "tn Or “ministers.”"
+      },
+      {
+        "anchor": "we have commended ourselves in every way,",
+        "note": "tn Or “we have commended ourselves by all things.”"
+      },
+      {
+        "anchor": "with great endurance, in persecutions,",
+        "note": "tn Or “in trouble and suffering.”"
+      }
+    ],
+    "5": [
+      {
+        "anchor": "in beatings, in imprisonments, in riots,",
+        "note": "tn Or “rebellions” (uprisings in open defiance of civil authority)."
+      },
+      {
+        "anchor": "in troubles,",
+        "note": "tn Usually κόποις (kopois) has been translated as “labors” or “hard work,” but see Matt 26:10 where it means “trouble”; “distress” (L&N 22.7). In this context with so many other terms denoting suffering and difficulty, such a meaning is preferable."
+      }
+    ],
+    "6": [
+      {
+        "anchor": "by purity, by knowledge, by patience, by benevolence, by the Holy Spirit,",
+        "note": "tn Or “by holiness of spirit.”"
+      },
+      {
+        "anchor": "by genuine",
+        "note": "tn Or “sincere.”"
+      }
+    ],
+    "7": [
+      {
+        "anchor": "by truthful",
+        "note": "tn Grk “by the word of truth”; understanding ἀληθείας (alhqeias) as an attributive genitive (“truthful word”)."
+      },
+      {
+        "anchor": "teaching,",
+        "note": "tn Or “speech.” In this context it is more likely that λόγος (logos) refers to Paul’s message (thus “teaching”) than to his speech in general."
+      },
+      {
+        "anchor": "by the power of God, with weapons of righteousness both for the right hand and for the left,",
+        "note": "tn The phrase “for the right hand and for the left” possibly refers to a combination of an offensive weapon (a sword for the right hand) and a defensive weapon (a shield for the left)."
+      }
+    ],
+    "8": [
+      {
+        "anchor": "through glory and dishonor, through slander and praise; regarded as impostors,",
+        "note": "tn Or “regarded as deceivers.”"
+      }
+    ],
+    "9": [
+      {
+        "anchor": "as unknown, and yet well-known; as dying and yet – see! – we continue to live; as those who are scourged",
+        "note": "tn Grk “disciplined,” but in this context probably a reference to scourging prior to execution (yet the execution is not carried out)."
+      }
+    ],
+    "11": [
+      {
+        "anchor": "We have spoken freely to you,",
+        "note": "tn Grk “our mouth has been open to you,” an idiom for openness in communication."
+      }
+    ],
+    "12": [
+      {
+        "anchor": "Our affection for you is not restricted,",
+        "note": "tn Grk “You are not restricted by us.”"
+      }
+    ],
+    "13": [
+      {
+        "anchor": "Now as a fair exchange – I speak as to my",
+        "note": "tn The word “my” is not in the Greek text but is implied."
+      },
+      {
+        "anchor": "children – open wide your hearts to us",
+        "note": "tn The words “to us” are not in the Greek text but are implied."
+      }
+    ],
+    "14": [
+      {
+        "anchor": "Do not become partners",
+        "note": "tn Or “Do not be mismatched.”"
+      }
+    ],
+    "15": [
+      {
+        "anchor": "And what agreement does Christ have with Beliar?",
+        "note": "sn The Greek term Βελιάρ (Beliar) is a spelling variant for Βελιάλ (Belial, see Judg 20:13 LXX). It occurs only here in the NT. Beliar is a reference to Satan."
+      }
+    ],
+    "16": [
+      {
+        "anchor": "And what mutual agreement does the temple of God have with idols? For we are",
+        "note": "tc Most witnesses, including some important ones (Ì46 א2 C D2 F G Ψ 0209 Ï lat sy Tert), read ὑμεῖς…ἐστε (Jumei\"…este, “you are”) instead of ἡμεῖς…ἐσμεν (Jhmei\"…esmen, “we are”) here, but several other early and important mss (א* B D* L P 0243 6 33 81 326 365 1175 1739 1881 2464 co Cl Or) have ἡμεῖς…ἐσμεν. The external evidence is somewhat in favor of the first person pronoun and verb; the internal evidence weighs in even stronger. In light of the parallel in 1 Cor 3:16, where Paul uses ἐστε (“you are the temple of God”), as well as the surrounding context here in which the second person verb or pronoun is used in vv. 14, 17, and 18, the second person reading seems obviously motivated. The first person reading can explain the rise of the other reading, but the reverse is not as easily done. Consequently, the first person reading of ἡμεῖς…ἐσμεν has all the credentials of authenticity."
+      },
+      {
+        "anchor": "I will live in them",
+        "note": "tn Or “live among them,” “live with them.” sn I will live in them. The OT text that lies behind this passage (Lev 26:11-12) speaks of God dwelling in the midst of his people. The Greek preposition en in the phrase en autoi\" (“in them”) can also have that meaning (“among” or “with”). However, Paul appears to be extending the imagery here to involve God (as the Spirit) dwelling in his people, since he calls believers “the temple of the living God” in the previous clause, imagery he uses elsewhere in his writings (1 Cor 3:16; Eph 2:21-22)."
+      },
+      {
+        "anchor": ".”",
+        "note": "sn A quotation from Lev 26:12; also similar to Jer 32:38; Ezek 37:27."
+      }
+    ],
+    "17": [
+      {
+        "anchor": ",",
+        "note": "sn A quotation from Isa 52:11."
+      },
+      {
+        "anchor": "and I will welcome",
+        "note": "tn Or “will receive.”"
+      },
+      {
+        "anchor": ",",
+        "note": "sn A paraphrased quotation from Ezek 20:41."
+      }
+    ],
+    "18": [
+      {
+        "anchor": ",”",
+        "note": "sn A paraphrased quotation from 2 Sam 7:14 and Isa 43:6."
+      },
+      {
+        "anchor": "says the All-Powerful Lord.",
+        "note": "tn Traditionally, “the Lord Almighty.” BDAG 755 s.v. παντοκράτωρ states, “the Almighty, All-Powerful, Omnipotent (One) only of God…κύριος π. (oft. LXX) 2 Cor 6:18.”"
+      }
+    ]
   },
-  "13": {
-    "1": "tn The word “visit” is not in the Greek text, but is implied. | tn Grk “By the mouth.” | sn A quotation from Deut 19:15 (also quoted in Matt 18:16; 1 Tim 5:19).",
-    "2": "tn The word “anyone” is not in the Greek text but is implied.",
-    "3": "tn Grk “who.” Because of the length and complexity of the Greek sentence, a new sentence was started here in the translation.",
-    "5": "tn Or “unless indeed you are disqualified.”",
-    "6": "tn Or “that we are not disqualified.”",
-    "7": "tn Or “that we may appear to be approved.” | tn Or “what is good.” | tn Or “even if we appear disapproved.”",
-    "9": "tn Or “fully equipped.”",
-    "10": "tn Grk “when I am present,” but in the context of Paul’s third (upcoming) visit to Corinth, this is better translated as “when I arrive.” | tn The words “with you” are not in the Greek text, but are implied.",
-    "11": "tn Grk “brothers.” See note on the phrase “brothers and sisters” in 1:8.",
-    "12": "sn The versification of vv. 12 and 13 in the NET Bible (so also NRSV, NLT) is according to the versification in the NA27 and UBS4 editions of the Greek text. Some translations, however, break the material up into three verses, i.e., 12-14 (NKJV, NASB, NIV). The same material has been translated in each case; the only difference is the versification of that material.",
-    "13": "tn Or “communion.” | tc Most witnesses, especially later ones (א2 D Ψ Ï lat sy bo), conclude this letter with ἀμήν (amhn, “amen”), while several early and important mss (Ì46 א* A B F G 0243 6 33 630 1175 1739 1881 pc sa) lack the particle. Such a conclusion is routinely added by scribes to NT books because a few of these books originally had such an ending (cf. Rom 16:27; Gal 6:18; Jude 25). A majority of Greek witnesses have the concluding ἀμήν in every NT book except Acts, James, and 3 John (and even in these books, ἀμήν is found in some witnesses). It is thus a predictable variant. That so many diverse witnesses lacked the word here is strong testimony to its absence for the original text of 2 Corinthians."
-  },
-  "3": {
-    "1": "tn The Greek construction anticipates a negative reply (“No, we do not”) which is indicated in the translation by the ‘tag’ at the end, “do we?”",
-    "2": "tn That is, “letter of recommendation.”",
-    "3": "tn Or “making plain.” | tn Grk “cared for by us,” an expression that could refer either to the writing or the delivery of the letter (BDAG 229 s.v. διακονέω 1). Since the following phrase refers to the writing of the letter, and since the previous verse speaks of this “letter” being “written on our [Paul’s and his companions’] hearts” it is more probable that the phrase “cared for by us” refers to the delivery of the letter (in the person of Paul and his companions). | sn An allusion to Exod 24:12; 31:18; 34:1; Deut 9:10-11.",
-    "5": "tn Or “competent.” | tn Or “competence.”",
-    "6": "tn Or “competent.” | sn This new covenant is promised in Jer 31:31-34; 32:40.",
-    "7": "tn Grk “on stones”; but since this is clearly an allusion to the tablets of the Decalogue (see 2 Cor 3:3) the word “tablets” was supplied in the translation to make the connection clear. | tn Grk “so that the sons of Israel.” | sn The glory of his face. When Moses came down from Mt. Sinai with the tablets of the Decalogue, the people were afraid to approach him because his face was so radiant (Exod 34:29-30). | tn The words “a glory” are not in the Greek text, but the reference to “glory” has been repeated from the previous clause for clarity. | tn Or “which was transitory.” Traditionally this phrase is translated as “which was fading away.” The verb καταργέω in the corpus Paulinum uniformly has the meaning “to render inoperative, ineffective”; the same nuance is appropriate here. The glory of Moses’ face was rendered ineffective by the veil Moses wore. For discussion of the meaning of this verb in this context, see S. J. Hafemann, Paul, Moses, and the History of Israel (WUNT 81), 301-13. A similar translation has been adopted in the two other occurrences of the verb in this paragraph in vv. 11 and 13.",
-    "8": "tn Grk “how will not rather the ministry of the Spirit be with glory?”",
-    "9": "tn Grk “the ministry of condemnation”; translated as an objective genitive, “the ministry that produced condemnation.” | tn Grk “the ministry of righteousness”; translated as an objective genitive, “the ministry that produces righteousness.” | tn Traditionally, “abound.”",
-    "10": "tn Grk “in this case.” | tn The words “of what replaced it” are not in the Greek text, but have been supplied to clarify the meaning.",
-    "11": "tn Or “what was fading away.” See note on “which was made ineffective” in v. 7. | tn Or “through” (διά, dia). | tn Or “what is permanent.”",
-    "12": "tn Or “we employ great openness of speech.”",
-    "13": "tn Grk “the sons of Israel.” | tn Or “from gazing intently.” | tn Or “end.” The word τέλος (telos) can mean both “a point of time marking the end of a duration, end, termination, cessation” and “the goal toward which a movement is being directed, end, goal, outcome” (see BDAG 998-999 s.v.). The translation accepts the interpretation that Moses covered the glory of his face with the veil to prevent Israel from being judged by the glory of God (see S. J. Hafemann, Paul, Moses, and the History of Israel [WUNT 81], 347-62); in this case the latter meaning for τέλος is more appropriate. | tn Or “was fading away”; Grk “on the result of what was made ineffective.” The referent (glory) has been specified in the translation for clarity. See note on “which was made ineffective” in v. 7.",
-    "14": "tn Grk “their minds were hardened.” | tn Grk “the same veil remains at the reading of the old covenant”; the phrase “they hear” has been introduced (“when they hear the old covenant read”) to make the link with the “Israelites” (v. 13) whose minds were closed (v. 14a) more obvious to the reader. | tn Or “only in Christ is it eliminated.”",
-    "15": "tn Grk “their heart.”",
-    "16": "tn Or perhaps “when(ever) he turns,” referring to Moses. | sn An allusion to Exod 34:34. The entire verse may refer to Moses, viewing him as a type portraying the Jewish convert to Christianity in Paul’s day.",
-    "17": "tn Grk “where the Spirit of the Lord is”; the word “present” is supplied to specify that the presence of the Lord’s Spirit is emphasized rather than the mere existence of the Lord’s Spirit.",
-    "18": "tn Or “we all with unveiled faces beholding the glory of the Lord as in a mirror.” | tn Grk “from glory to glory.” | tn Grk “just as from.” | tn Grk “from the Lord, the Spirit”; the genitive πνεύματος (pneumato\") has been translated as a genitive of apposition."
-  },
-  "11": {
-    "2": "tn That is, to Christ. | tn Or “chaste.”",
-    "3": "tn Grk “I fear lest somehow.” | tn Or “the snake.” | tn Or “craftiness.” | tn Or “corrupted,” “seduced.” | tc Although most mss (א2 H Ψ 0121 0243 1739 1881 Ï) lack “and pure” (καὶ τῆς ἁγνότητος, kai th\" Jagnothto\"; Grk “and purity”) several important and early witnesses (Ì46 א* B D[2] F G 33 81 104 pc ar r co) retain these words. Their presence in such mss across such a wide geographical distribution argues for their authenticity. The omission from the majority of mss can be explained by haplography, since the -τητος ending of ἁγνότητος is identical to the ending of ἁπλότητος (Japlothto\", “sincerity”) three words back (ἁπλότητος καὶ τῆς ἁγνότητος); further, since the meanings of “sincerity” and “purity” are similar they might seem redundant. A copyist would scarcely notice the omission because Paul’s statement still makes sense without “and from purity.”",
-    "4": "tn Or “preaches.” | tn Grk “another Jesus whom we have not proclaimed.” | tn Grk “a different spirit which you did not receive.” | tn Grk “a different gospel which you did not accept.” | tn Or “you endure it very well.”",
-    "5": "tn The implicit irony in Paul’s remark is brought out well by the TEV: “I do not think that I am the least bit inferior to those very special so-called ‘apostles’ of yours!”sn The ‘super-apostles’ refers either (1) to the original apostles (the older interpretation) or (2) more probably, to Paul’s opponents in Corinth, in which case the designation is ironic.",
-    "6": "sn Unskilled in speaking means not professionally trained as a rhetorician.",
-    "7": "sn Paul is referring to humbling himself to the point of doing manual labor to support himself. | tn Or “preached.”",
-    "8": "sn That is, serve them free of charge (cf. the end of v. 7).",
-    "9": "tn Grk “you, and when.” A new sentence was started here in the translation. | tn If the participle ἐλθόντες (elqonte\") is taken as temporal rather than adjectival, the translation would be, “for the brothers, when they came from Macedonia, fully supplied my needs” (similar to NASB). | tn Grk “needs, and I kept.” A new sentence was started here in the translation.",
-    "10": "tn That is, that Paul offers the gospel free of charge to the Corinthians (see 2 Cor 11:7). | tn Or “silenced.”",
-    "11": "tn Grk “God knows!” The words “I do” are supplied for clarity. Direct objects were often omitted in Greek when clear from the context.",
-    "12": "tn Grk “an opportunity, so that they may be found just like us.”",
-    "13": "tn Or “dishonest.” | tn Or “workers, masquerading.”",
-    "14": "tn Or “Satan himself masquerades.”",
-    "15": "tn Or “also masquerade.” | tn Or “their works.”",
-    "16": "tn Or “am foolish.”",
-    "17": "tn Grk “with this confidence of boasting.” The genitive καυχήσεως (kauchsew\") has been translated as an attributed genitive (the noun in the genitive gives an attribute of the noun modified). | tn Or “say with the Lord’s authority.”",
-    "18": "sn Many is a reference to Paul’s opponents. | tn Grk “according to the flesh.”",
-    "19": "tn Or “you tolerate.”",
-    "20": "tn Or “you tolerate.” | tn See L&N 88.212.",
-    "21": "tn Or “my shame.” | sn It seems best, in context, to see the statement we were too weak for that as a parenthetical and ironic comment by Paul on his physical condition (weakness or sickness) while he was with the Corinthians (cf. 2 Cor 12:7-10; Gal 4:15). | tn The words “to boast about” are not in the Greek text, but are implied. Direct objects were often omitted in Greek when clear from the context, and this phrase serves as the direct object of the preceding verb. | tn Grk “I also dare”; the words “to boast about the same thing” are not in the Greek text, but are implied. Direct objects were often omitted in Greek when clear from the context, and this phrase serves as the direct object of the preceding verb.",
-    "24": "tn Grk “forty less one”; this was a standard sentence. “Lashes” is supplied to clarify for the modern reader what is meant.",
-    "25": "sn Beaten with a rod refers to the Roman punishment of admonitio according to BDAG 902 s.v. ῥαβδίζω. Acts 16:22 describes one of these occasions in Philippi; in this case it was administered by the city magistrates, who had wide powers in a military colony. | sn Received a stoning. See Acts 14:19, where this incident is described.",
-    "26": "tn Or “bandits.” The word normally refers more to highwaymen (“robbers”) but can also refer to insurrectionists or revolutionaries (“bandits”). | tn Or “desert.”",
-    "27": "tn The two different words for labor are translated “in hard work and toil” by L&N 42.48. | tn Grk “in cold and nakedness.” Paul does not mean complete nakedness, however, which would have been repugnant to a Jew; he refers instead to the lack of sufficient clothing, especially in cold weather. A related word is used to 1 Cor 4:11, also in combination with experiencing hunger and thirst.",
-    "28": "sn Apart from other things. Paul refers here either (1) to the external sufferings just mentioned, or (2) he refers to other things he has left unmentioned. | tn “Anxious concern,” so translated in L&N 25.224.",
-    "29": "tn Or “who is caused to stumble.”",
-    "30": "tn Grk “If boasting is necessary.” | tn Or “about the things related to my weakness.”",
-    "32": "tn Grk “ethnarch.”sn The governor was an official called an ethnarch who was appointed to rule over a particular area or constituency on behalf of a king. | tn Grk “the city of the Damascenes.” | tn Or “to seize,” “to catch.”",
-    "33": "tn In Acts 9:25 the same basket used in Paul’s escape is called a σπυρίς (spuri\"), a basket larger than a κόφινος (kofinos). It was very likely made out of rope, so the translation “rope-basket” is used."
+  "8": {
+    "1": [
+      {
+        "anchor": "Now we make known to you, brothers and sisters,",
+        "note": "tn Grk “brothers.” See note on the phrase “brothers and sisters” in 1:8."
+      }
+    ],
+    "2": [
+      {
+        "anchor": "that during a severe ordeal of suffering, their abundant joy and their extreme poverty have overflowed in the wealth",
+        "note": "tn Or “riches.”"
+      }
+    ],
+    "3": [
+      {
+        "anchor": "For I testify, they gave according to their means and beyond their means. They did so voluntarily,",
+        "note": "tn Or “spontaneously.”"
+      }
+    ],
+    "4": [
+      {
+        "anchor": "begging us with great earnestness for the blessing and fellowship of helping",
+        "note": "tn Or “of ministering to.”"
+      }
+    ],
+    "6": [
+      {
+        "anchor": "Thus",
+        "note": "tn A new sentence was started here in the translation and the word “thus” was supplied to indicate that it expresses the result of the previous clause."
+      },
+      {
+        "anchor": "we urged",
+        "note": "tn Or “we exhorted.”"
+      },
+      {
+        "anchor": "Titus that, just as he had previously begun this work,",
+        "note": "tn The words “this work” are not in the Greek text but are implied. Direct objects in Greek were often omitted and must be supplied from the context."
+      },
+      {
+        "anchor": "so also he should complete this act of kindness",
+        "note": "tn Grk “this grace.”"
+      }
+    ],
+    "7": [
+      {
+        "anchor": "But as you excel",
+        "note": "tn Grk “as you abound.”"
+      },
+      {
+        "anchor": "in everything – in faith, in speech, in knowledge, and in all eagerness and in the love from us that is in you",
+        "note": "tc The reading “the love from us that is in you” is very difficult in this context, for Paul is here enumerating the Corinthians’ attributes: How is it possible for them to excel “in the love from us that is in you”? Most likely, because of this difficulty, several early scribes, as well as most later ones (א C D F G Ψ [33] Ï lat), altered the text to read “your love for us” (so NIV; Grk ἐξ ὑμῶν ἐν ἡμῖν ἀγάπῃ [ex Jumwn en Jhmin agaph]). The reading ἐξ ἡμῶν ἐν ὑμῖν ἀγάπῃ (ex Jhmwn en Jumin agaph) is found, however, in excellent and early witnesses (Ì46 B 0243 6 104 630 1175 1739 1881 co). As the harder reading it explains the rise of the other reading. What, then, is the force of “in the love from us that is in you”? Most likely, Paul is commending the Corinthians for excelling in deriving some inspiration from the apostles’ love for them."
+      },
+      {
+        "anchor": "– make sure that you excel",
+        "note": "tn Grk “you abound.”"
+      },
+      {
+        "anchor": "in this act of kindness",
+        "note": "tn Grk “this grace.”"
+      }
+    ],
+    "8": [
+      {
+        "anchor": "I am not saying this as a command, but I am testing the genuineness of your love by comparison with the eagerness of others.",
+        "note": "tn Grk “by means of the eagerness of others.”"
+      }
+    ],
+    "9": [
+      {
+        "anchor": "For you know the grace",
+        "note": "tn Or “generosity.”"
+      }
+    ],
+    "10": [
+      {
+        "anchor": "So here is my opinion on this matter: It is to your advantage, since you",
+        "note": "tn Grk “who.”"
+      }
+    ],
+    "11": [
+      {
+        "anchor": "to finish what you started,",
+        "note": "tn Grk “and now also complete the doing.”"
+      },
+      {
+        "anchor": "so that just as you wanted to do it eagerly,",
+        "note": "tn Grk “just as the eagerness to want [it].”"
+      },
+      {
+        "anchor": "you can also complete it",
+        "note": "tn Grk “so also it might be completed.” The passive construction was converted to an active one in the translation in keeping with contemporary English style."
+      },
+      {
+        "anchor": "according to your means.",
+        "note": "tn Grk “completed from what you have.”"
+      }
+    ],
+    "12": [
+      {
+        "anchor": "For if the eagerness is present, the gift itself",
+        "note": "tn The words “the gift itself” are not in the Greek text but are implied. Translators often supply an English phrase like “it is” (NASB) but in the context, Paul is clearly referring to the collection Titus was to oversee (2 Cor 8:4-7). Therefore there is no reason not to specify the referent (the gift) more narrowly for clarity."
+      }
+    ],
+    "14": [
+      {
+        "anchor": "At the present time, your abundance will meet their need,",
+        "note": "tn Or “their lack.”"
+      }
+    ],
+    "15": [
+      {
+        "anchor": "The one who gathered",
+        "note": "tn The word “gathered” is not in the Greek text, but is implied (so also for the second occurrence of the word later in the verse)."
+      },
+      {
+        "anchor": ".”",
+        "note": "sn A quotation from Exod 16:18."
+      }
+    ],
+    "16": [
+      {
+        "anchor": "But thanks be to God who put in the heart of Titus the same devotion",
+        "note": "tn Or “eagerness.”"
+      }
+    ],
+    "17": [
+      {
+        "anchor": "because he not only accepted our request, but since he was very eager,",
+        "note": "tn The comparative form of this adjective is used here with elative meaning."
+      },
+      {
+        "anchor": "he is coming",
+        "note": "tn This verb has been translated as an epistolary aorist."
+      },
+      {
+        "anchor": "to you of his own accord.",
+        "note": "tn Or “of his own free will.”"
+      }
+    ],
+    "18": [
+      {
+        "anchor": "And we are sending",
+        "note": "tn This verb has been translated as an epistolary aorist."
+      },
+      {
+        "anchor": "along with him the brother who is praised by all the churches for his work in spreading the gospel.",
+        "note": "tn Grk “the brother of whom the praise in the gospel [is] throughout all the churches.”"
+      }
+    ],
+    "19": [
+      {
+        "anchor": "In addition,",
+        "note": "tn Grk “gospel, and not only this, but.” Here a new sentence was started in the translation."
+      },
+      {
+        "anchor": "this brother",
+        "note": "tn Grk “he”; the referent (the brother mentioned in v. 18) has been specified in the translation for clarity."
+      },
+      {
+        "anchor": "has also been chosen by the churches as our traveling companion as we administer this generous gift",
+        "note": "tn That is, the offering or collection being taken to assist impoverished Christians."
+      },
+      {
+        "anchor": "to the glory of the Lord himself and to show our readiness to help.",
+        "note": "tn The words “to help” are not in the Greek text but are implied (see L&N 25.68)."
+      }
+    ],
+    "20": [
+      {
+        "anchor": "We did this",
+        "note": "tn “This” refers to sending the brother mentioned in 2 Cor 8:18 to Corinth along with Titus. The words “We did this” have no equivalent in the Greek text, but are necessary to maintain the thought flow in English. The Greek participle that begins v. 20 continues the sentence begun in v. 18 which concerns the sending of the other brother mentioned there."
+      }
+    ],
+    "21": [
+      {
+        "anchor": ".",
+        "note": "sn An allusion to Prov 3:4."
+      }
+    ],
+    "22": [
+      {
+        "anchor": "And we are sending",
+        "note": "tn This verb has been translated as an epistolary aorist."
+      }
+    ],
+    "23": [
+      {
+        "anchor": "If there is any question",
+        "note": "tn Grk “If concerning Titus” (εἴτε ὑπὲρ Τίτου, eite Juper Titou); the Greek sentence opens with an ellipsis which must be supplied: If [there is any question] about Titus.”"
+      },
+      {
+        "anchor": "about Titus, he is my partner and fellow worker among you; if there is any question about our brothers, they are messengers",
+        "note": "tn Grk “apostles.”"
+      }
+    ],
+    "24": [
+      {
+        "anchor": "Therefore show",
+        "note": "tc The sense of this translation is attested by the fact that most of the later mss, along with several early and important ones (א C D2 Ψ 0225 0243 1739 1881 Ï lat), have the imperative verb ἐνδείξασθε (ejndeixasqe) in place of the participle ἐνδεικνύμενοι (endeiknumenoi), which is found in B D* F G 33 pc. Since an imperatival participle is more Hebraic in style, many scribes would not have understood the idiom as easily and would have been likely to change the participle to an imperative (so TCGNT 513-14). But there is no good reason why scribes would change the imperative into a participle. Thus, ἐνδεικνύμενοι is almost surely the wording of the original text.tn In the Greek text ἐνδεικνύμενοι (endeiknumenoi) is a present participle which is translated as an imperative verb (see BDF §468; ExSyn 650-52)."
+      },
+      {
+        "anchor": "them openly before the churches the proof of your love and of our pride in you.",
+        "note": "tn Or “our boasting about you.”"
+      }
+    ]
   },
   "5": {
-    "1": "sn The expression the tent we live in refers to “our earthly house, our body.” Paul uses the metaphor of the physical body as a house or tent, the residence of the immaterial part of a person. | tn Or “destroyed.”",
-    "2": "tn Or “dwelling place.” | tn Or “to be clothed with.”",
-    "3": "tc ‡ Some mss read “taken off” (ἐκδυσάμενοι, ekdusamenoi) instead of “put on” (ἐνδυσάμενοι, endusamenoi). This alternative reading would change the emphasis of the verse from putting on “our heavenly house” to taking off “our earthly house” (see the following note regarding the specification of the referent). The difference between the two readings is one letter (ν or κ), either of which may be mistaken for the other especially when written in uncial script. ἐνδυσάμενοι enjoys strong support from the Alexandrian text (Ì46 א B C 33 1739 1881), Byzantine witnesses, versions (lat sy co), and Clement of Alexandria. The Western text is the only texttype to differ: D*,c reads ἐκδυσάμενοι, as does ar fc Mcion Tert Spec; F and G read εκλ for εκδ which indirectly aligns them with D (and was surely due to confusion of letters in uncial script). Thus “put on” has the oldest and best external attestation by far. Internal evidence also favors this reading. At first glance, it may seem that “after we have put on our heavenly house we will not be found naked” is an obvious statement; the scribe of D may have thought so and changed the participle. But v. 3 seems parenthetical (so A. Plummer, Second Corinthians [ICC], 147), and the idea that “we do not want to be unclothed but clothed” is repeated in v. 4 with an explanatory “for.” This concept also shows up in v. 2 with the phrase “we desire to put on.” So the context can be construed to argue for “put on” as the original reading. B. M. Metzger argues against the reading of NA27, stating that ἐκδυσάμενοι is “an early alteration to avoid apparent tautology” (TCGNT 511; so also Plummer, 148). In addition, the reading ἐνδυσάμενοι fits the Pauline pattern of equivalence between apodosis and protasis that is found often enough in his conditional clauses. Thus, “put on” has the mark of authenticity and should be considered original. | tn Grk “it”; the referent (the “heavenly dwelling” of the previous verse) has been specified in the translation for clarity.",
-    "4": "sn See the note in 5:1 on the phrase the tent we live in. | tn Or “we are burdened.”",
-    "5": "tn Grk “for this very thing.” | tn Or “first installment,” “pledge,” “deposit” (see the note on the phrase “down payment” in 1:22).",
-    "6": "tn Grk “we know that being at home in the body”; an idiom for being alive (L&N 23.91).",
-    "7": "tn Grk “we walk.”",
-    "8": "tn Or “be absent.”",
-    "9": "tn Grk “whether we are at home” [in the body]; an idiom for being alive (L&N 23.91). | tn Grk “to be pleasing to him.”",
-    "10": "sn The judgment seat (βῆμα, bhma) was a raised platform mounted by steps and sometimes furnished with a seat, used by officials in addressing an assembly or making pronouncements, often on judicial matters. The judgment seat was a common item in Greco-Roman culture, often located in the agora, the public square or marketplace in the center of a city. Use of the term in reference to Christ’s judgment would be familiar to Paul’s 1st century readers. | tn Or “whether good or bad.”",
-    "11": "tn Or “because we know what it means to fear the Lord.” | tn The present tense of πείθομεν (peiqomen) has been translated as a conative present. | tn Grk “men”; but ἄνθρωπος (anqrwpo\") is generic here since clearly both men and women are in view (Paul did not attempt to win only men to the gospel he preached). | tn Or “clearly evident.” BDAG 1048 s.v. φανερόω 2.b.β has “θεῷ πεφανερώμεθα we are well known to God 2 Cor 5:11a, cp. 11b; 11:6 v.l.”",
-    "12": "tn The present tense of συνιστάνομεν (sunistanomen) has been translated as a conative present. | tn Or “to boast about us.” | tn Or “who boast.” | tn Or “in what is seen.”",
-    "14": "tn The phrase ἡ ἀγάπη τοῦ Χριστοῦ (Jh agaph tou Cristou, “the love of Christ”) could be translated as either objective genitive (“our love for Christ”) or subjective genitive (“Christ’s love for us”). Either is grammatically possible, but with the reference to Christ’s death for all in the following clauses, a subjective genitive (“Christ’s love for us”) is more likely. | tn Grk “one”; the referent (Christ) has been specified in the translation for clarity.",
-    "15": "tn Or “but for him who died and was raised for them.”",
-    "16": "tn Grk “we know.” | tn Grk “no one according to the flesh.” | tn Grk “we have known Christ according to the flesh.”",
-    "17": "tn Grk “old things have passed away.” | tc Most mss have the words τὰ πάντα (ta panta, “all things”; cf. KJV “behold, all things are become new”), some after καίνα (kaina, “new”; D2 K L P Ψ 104 326 945 2464 pm) and others before it (6 33 81 614 630 1241 1505 1881 pm). The reading without τὰ πάντα, however, has excellent support from both the Western and Alexandrian texttypes (Ì46 א B C D* F G 048 0243 365 629 1175 1739 pc co), and the different word order of the phrase which includes it (“all things new” or “new all things”) in the ms tradition indicates its secondary character. This secondary addition may have taken place because of assimilation to τὰ δὲ πάντα (ta de panta, “and all [these] things”) that begins the following verse. | tn Grk “new things have come [about].”",
-    "19": "tn Or “he has entrusted to us.”",
-    "20": "tn Or “as though God were begging.” | tn Or “we beg you.”",
-    "21": "tn Grk “He”; the referent (God) has been specified in the translation for clarity. | sn The one who did not know sin is a reference to Jesus Christ. | sn That is, “in Christ.”"
+    "1": [
+      {
+        "anchor": "For we know that if our earthly house, the tent we live in,",
+        "note": "sn The expression the tent we live in refers to “our earthly house, our body.” Paul uses the metaphor of the physical body as a house or tent, the residence of the immaterial part of a person."
+      },
+      {
+        "anchor": "is dismantled,",
+        "note": "tn Or “destroyed.”"
+      }
+    ],
+    "2": [
+      {
+        "anchor": "For in this earthly house",
+        "note": "tn Or “dwelling place.”"
+      },
+      {
+        "anchor": "we groan, because we desire to put on",
+        "note": "tn Or “to be clothed with.”"
+      }
+    ],
+    "3": [
+      {
+        "anchor": "if indeed, after we have put on",
+        "note": "tc ‡ Some mss read “taken off” (ἐκδυσάμενοι, ekdusamenoi) instead of “put on” (ἐνδυσάμενοι, endusamenoi). This alternative reading would change the emphasis of the verse from putting on “our heavenly house” to taking off “our earthly house” (see the following note regarding the specification of the referent). The difference between the two readings is one letter (ν or κ), either of which may be mistaken for the other especially when written in uncial script. ἐνδυσάμενοι enjoys strong support from the Alexandrian text (Ì46 א B C 33 1739 1881), Byzantine witnesses, versions (lat sy co), and Clement of Alexandria. The Western text is the only texttype to differ: D*,c reads ἐκδυσάμενοι, as does ar fc Mcion Tert Spec; F and G read εκλ for εκδ which indirectly aligns them with D (and was surely due to confusion of letters in uncial script). Thus “put on” has the oldest and best external attestation by far. Internal evidence also favors this reading. At first glance, it may seem that “after we have put on our heavenly house we will not be found naked” is an obvious statement; the scribe of D may have thought so and changed the participle. But v. 3 seems parenthetical (so A. Plummer, Second Corinthians [ICC], 147), and the idea that “we do not want to be unclothed but clothed” is repeated in v. 4 with an explanatory “for.” This concept also shows up in v. 2 with the phrase “we desire to put on.” So the context can be construed to argue for “put on” as the original reading. B. M. Metzger argues against the reading of NA27, stating that ἐκδυσάμενοι is “an early alteration to avoid apparent tautology” (TCGNT 511; so also Plummer, 148). In addition, the reading ἐνδυσάμενοι fits the Pauline pattern of equivalence between apodosis and protasis that is found often enough in his conditional clauses. Thus, “put on” has the mark of authenticity and should be considered original."
+      },
+      {
+        "anchor": "our heavenly house,",
+        "note": "tn Grk “it”; the referent (the “heavenly dwelling” of the previous verse) has been specified in the translation for clarity."
+      }
+    ],
+    "4": [
+      {
+        "anchor": "For we groan while we are in this tent,",
+        "note": "sn See the note in 5:1 on the phrase the tent we live in."
+      },
+      {
+        "anchor": "since we are weighed down,",
+        "note": "tn Or “we are burdened.”"
+      }
+    ],
+    "5": [
+      {
+        "anchor": "Now the one who prepared us for this very purpose",
+        "note": "tn Grk “for this very thing.”"
+      },
+      {
+        "anchor": "is God, who gave us the Spirit as a down payment.",
+        "note": "tn Or “first installment,” “pledge,” “deposit” (see the note on the phrase “down payment” in 1:22)."
+      }
+    ],
+    "6": [
+      {
+        "anchor": "Therefore we are always full of courage, and we know that as long as we are alive here on earth",
+        "note": "tn Grk “we know that being at home in the body”; an idiom for being alive (L&N 23.91)."
+      }
+    ],
+    "7": [
+      {
+        "anchor": "for we live",
+        "note": "tn Grk “we walk.”"
+      }
+    ],
+    "8": [
+      {
+        "anchor": "Thus we are full of courage and would prefer to be away",
+        "note": "tn Or “be absent.”"
+      }
+    ],
+    "9": [
+      {
+        "anchor": "So then whether we are alive",
+        "note": "tn Grk “whether we are at home” [in the body]; an idiom for being alive (L&N 23.91)."
+      },
+      {
+        "anchor": "or away, we make it our ambition to please him.",
+        "note": "tn Grk “to be pleasing to him.”"
+      }
+    ],
+    "10": [
+      {
+        "anchor": "For we must all appear before the judgment seat of Christ,",
+        "note": "sn The judgment seat (βῆμα, bhma) was a raised platform mounted by steps and sometimes furnished with a seat, used by officials in addressing an assembly or making pronouncements, often on judicial matters. The judgment seat was a common item in Greco-Roman culture, often located in the agora, the public square or marketplace in the center of a city. Use of the term in reference to Christ’s judgment would be familiar to Paul’s 1st century readers."
+      },
+      {
+        "anchor": "so that each one may be paid back according to what he has done while in the body, whether good or evil.",
+        "note": "tn Or “whether good or bad.”"
+      }
+    ],
+    "11": [
+      {
+        "anchor": "Therefore, because we know the fear of the Lord,",
+        "note": "tn Or “because we know what it means to fear the Lord.”"
+      },
+      {
+        "anchor": "we try to persuade",
+        "note": "tn The present tense of πείθομεν (peiqomen) has been translated as a conative present."
+      },
+      {
+        "anchor": "people,",
+        "note": "tn Grk “men”; but ἄνθρωπος (anqrwpo\") is generic here since clearly both men and women are in view (Paul did not attempt to win only men to the gospel he preached)."
+      },
+      {
+        "anchor": "but we are well known",
+        "note": "tn Or “clearly evident.” BDAG 1048 s.v. φανερόω 2.b.β has “θεῷ πεφανερώμεθα we are well known to God 2 Cor 5:11a, cp. 11b; 11:6 v.l.”"
+      }
+    ],
+    "12": [
+      {
+        "anchor": "We are not trying to commend",
+        "note": "tn The present tense of συνιστάνομεν (sunistanomen) has been translated as a conative present."
+      },
+      {
+        "anchor": "ourselves to you again, but are giving you an opportunity to be proud of us,",
+        "note": "tn Or “to boast about us.”"
+      },
+      {
+        "anchor": "so that you may be able to answer those who take pride",
+        "note": "tn Or “who boast.”"
+      },
+      {
+        "anchor": "in outward appearance",
+        "note": "tn Or “in what is seen.”"
+      }
+    ],
+    "14": [
+      {
+        "anchor": "For the love of Christ",
+        "note": "tn The phrase ἡ ἀγάπη τοῦ Χριστοῦ (Jh agaph tou Cristou, “the love of Christ”) could be translated as either objective genitive (“our love for Christ”) or subjective genitive (“Christ’s love for us”). Either is grammatically possible, but with the reference to Christ’s death for all in the following clauses, a subjective genitive (“Christ’s love for us”) is more likely."
+      },
+      {
+        "anchor": "controls us, since we have concluded this, that Christ",
+        "note": "tn Grk “one”; the referent (Christ) has been specified in the translation for clarity."
+      }
+    ],
+    "15": [
+      {
+        "anchor": "And he died for all so that those who live should no longer live for themselves but for him who died for them and was raised.",
+        "note": "tn Or “but for him who died and was raised for them.”"
+      }
+    ],
+    "16": [
+      {
+        "anchor": "So then from now on we acknowledge",
+        "note": "tn Grk “we know.”"
+      },
+      {
+        "anchor": "no one from an outward human point of view.",
+        "note": "tn Grk “no one according to the flesh.”"
+      },
+      {
+        "anchor": "Even though we have known Christ from such a human point of view,",
+        "note": "tn Grk “we have known Christ according to the flesh.”"
+      }
+    ],
+    "17": [
+      {
+        "anchor": "So then, if anyone is in Christ, he is a new creation; what is old has passed away",
+        "note": "tn Grk “old things have passed away.”"
+      },
+      {
+        "anchor": "– look, what is new",
+        "note": "tc Most mss have the words τὰ πάντα (ta panta, “all things”; cf. KJV “behold, all things are become new”), some after καίνα (kaina, “new”; D2 K L P Ψ 104 326 945 2464 pm) and others before it (6 33 81 614 630 1241 1505 1881 pm). The reading without τὰ πάντα, however, has excellent support from both the Western and Alexandrian texttypes (Ì46 א B C D* F G 048 0243 365 629 1175 1739 pc co), and the different word order of the phrase which includes it (“all things new” or “new all things”) in the ms tradition indicates its secondary character. This secondary addition may have taken place because of assimilation to τὰ δὲ πάντα (ta de panta, “and all [these] things”) that begins the following verse."
+      },
+      {
+        "anchor": "has come!",
+        "note": "tn Grk “new things have come [about].”"
+      }
+    ],
+    "19": [
+      {
+        "anchor": "In other words, in Christ God was reconciling the world to himself, not counting people’s trespasses against them, and he has given us",
+        "note": "tn Or “he has entrusted to us.”"
+      }
+    ],
+    "20": [
+      {
+        "anchor": "Therefore we are ambassadors for Christ, as though God were making His plea",
+        "note": "tn Or “as though God were begging.”"
+      },
+      {
+        "anchor": "through us. We plead with you",
+        "note": "tn Or “we beg you.”"
+      }
+    ],
+    "21": [
+      {
+        "anchor": "God",
+        "note": "tn Grk “He”; the referent (God) has been specified in the translation for clarity."
+      },
+      {
+        "anchor": "made the one who did not know sin",
+        "note": "sn The one who did not know sin is a reference to Jesus Christ."
+      },
+      {
+        "anchor": "to be sin for us, so that in him",
+        "note": "sn That is, “in Christ.”"
+      }
+    ]
+  },
+  "4": {
+    "1": [
+      {
+        "anchor": "Therefore, since we have this ministry, just as God has shown us mercy,",
+        "note": "tn Grk “just as we have been shown mercy”; ἠλεήθημεν (hlehqhmen) has been translated as a “divine passive” which is a circumlocution for God as the active agent. For clarity this was converted to an active construction with God as subject in the translation."
+      },
+      {
+        "anchor": "we do not become discouraged.",
+        "note": "tn Or “we do not lose heart.”"
+      }
+    ],
+    "2": [
+      {
+        "anchor": "But we have rejected",
+        "note": "tn L&N 13.156; the word can also mean “to assert opposition to,” thus here “we have denounced” (L&N 33.220)."
+      },
+      {
+        "anchor": "shameful hidden deeds,",
+        "note": "tn Grk “the hidden things [deeds] of shame”; here αἰσχύνης (aiscunh\") has been translated as an attributive genitive."
+      },
+      {
+        "anchor": "not behaving",
+        "note": "tn Or “not conducting ourselves”; Grk “not walking” (a common NT idiom for conduct, way of life, or behavior)."
+      },
+      {
+        "anchor": "with deceptiveness",
+        "note": "tn Or “craftiness.”"
+      }
+    ],
+    "4": [
+      {
+        "anchor": "among whom the god of this age has blinded the minds of those who do not believe",
+        "note": "tn Or “of unbelievers.”"
+      },
+      {
+        "anchor": "so they would not see the light of the glorious gospel",
+        "note": "tn Grk “the gospel of the glory”; δόξης (doxhs) has been translated as an attributive genitive."
+      },
+      {
+        "anchor": "of Christ,",
+        "note": "tn Or “so that the light of the gospel of the glory of Christ would not be evident to them” (L&N 28.37)."
+      }
+    ],
+    "5": [
+      {
+        "anchor": "For we do not proclaim",
+        "note": "tn Or “preach.”"
+      },
+      {
+        "anchor": "ourselves, but Jesus Christ as Lord, and ourselves as your slaves",
+        "note": "tn Traditionally, “servants.” Though δοῦλος (doulos) is normally translated “servant,” the word does not bear the connotation of a free individual serving another. BDAG notes that “‘servant’ for ‘slave’ is largely confined to Biblical transl. and early American times…in normal usage at the present time the two words are carefully distinguished” (BDAG 260 s.v.). The most accurate translation is “bondservant” (sometimes found in the ASV for δοῦλος), in that it often indicates one who sells himself into slavery to another. But as this is archaic, few today understand its force."
+      }
+    ],
+    "6": [
+      {
+        "anchor": ",”",
+        "note": "sn An allusion to Gen 1:3; see also Isa 9:2."
+      },
+      {
+        "anchor": "is the one who shined in our hearts to give us the light of the glorious knowledge",
+        "note": "tn Grk “the light of the knowledge of the glory”; δόξης (doxhs) has been translated as an attributive genitive."
+      },
+      {
+        "anchor": "of God in the face of Christ.",
+        "note": "tc ‡ Most witnesses, including several early and important ones (Ì46 א C H Ψ 0209 1739c Ï sy), read ᾿Ιησοῦ Χριστοῦ (Ihsou Cristou, “Jesus Christ”), while other important witnesses, especially of the Western text (D F G 0243 630 1739* 1881 lat Ambst), have Χριστοῦ ᾿Ιησοῦ. The reading with just Χριστοῦ is found in A B 33 {sa} Tert {Or Ath Chr}. Even though the witnesses for the shorter reading are not numerous, they are weighty. And in light of the natural scribal proclivity to fill out the text, particularly with reference to divine names, as well as the discrepancy among the witnesses as to the order of the names, the simple reading Χριστοῦ seems to be the best candidate for authenticity. NA27 reads ᾿Ιησοῦ Χριστοῦ with ᾿Ιησοῦ in brackets, indicating doubts as to its authenticity."
+      }
+    ],
+    "7": [
+      {
+        "anchor": "But we have this treasure in clay jars, so that the extraordinary power",
+        "note": "tn Grk “the surpassingness of the power”; δυνάμεως (dunamew\") has been translated as an attributed genitive (“extraordinary power”)."
+      }
+    ],
+    "8": [
+      {
+        "anchor": "We are experiencing trouble on every side,",
+        "note": "tn Grk “we are hard pressed [by crowds] on every side.”"
+      },
+      {
+        "anchor": "but are not crushed; we are perplexed,",
+        "note": "tn Or “at a loss.”"
+      }
+    ],
+    "9": [
+      {
+        "anchor": "we are persecuted, but not abandoned;",
+        "note": "tn Or “forsaken.”"
+      },
+      {
+        "anchor": "we are knocked down,",
+        "note": "tn Or “badly hurt.” It is possible to interpret καταβαλλόμενοι (kataballomenoi) here as “badly hurt”: “[we are] badly hurt, but not destroyed” (L&N 20.21)."
+      }
+    ],
+    "10": [
+      {
+        "anchor": "always carrying around in our body the death of Jesus,",
+        "note": "tn The first clause of 2 Cor 4:10 is elliptical and apparently refers to the fact that Paul was constantly in danger of dying in the same way Jesus died (by violence at least). According to L&N 23.99 it could be translated, “at all times we live in the constant threat of being killed as Jesus was.”"
+      },
+      {
+        "anchor": "so that the life of Jesus may also be made visible",
+        "note": "tn Or “may also be revealed.”"
+      }
+    ],
+    "11": [
+      {
+        "anchor": "For we who are alive are constantly being handed over to death for Jesus’ sake, so that the life of Jesus may also be made visible",
+        "note": "tn Or “may also be revealed.”"
+      },
+      {
+        "anchor": "in our mortal body.",
+        "note": "tn Grk “mortal flesh.”"
+      }
+    ],
+    "12": [
+      {
+        "anchor": "As a result,",
+        "note": "tn Or “So then.”"
+      },
+      {
+        "anchor": "death is at work in us, but life is at work in you.",
+        "note": "tn Grk “death is at work in us, but life in you”; the phrase “is at work in” is repeated in the translation for clarity."
+      }
+    ],
+    "13": [
+      {
+        "anchor": "But since we have the same spirit of faith as that shown in",
+        "note": "tn Grk “spirit of faith according to.”"
+      },
+      {
+        "anchor": ",”",
+        "note": "sn A quotation from Ps 116:10."
+      }
+    ],
+    "14": [
+      {
+        "anchor": "We do so",
+        "note": "tn Grk “speak, because.” A new sentence was started here in the translation, with the words “We do so” supplied to preserve the connection with the preceding statement."
+      },
+      {
+        "anchor": "because we know that the one who raised up Jesus",
+        "note": "tc ‡ Several important witnesses (א C D F G Ψ 1881), as well as the Byzantine text, add κύριον (kurion) here, changing the reading to “the Lord Jesus.” Although the external evidence in favor of the shorter reading is slim, the witnesses are important, early, and diverse (Ì46 B [0243 33] 629 [630] 1175* [1739] pc r sa). Very likely scribes with pietistic motives added the word κύριον, as they were prone to do, thus compounding this title for the Lord."
+      }
+    ],
+    "15": [
+      {
+        "anchor": "For all these things are for your sake, so that the grace that is including",
+        "note": "tn Or “that is abounding to.”"
+      },
+      {
+        "anchor": "more and more people may cause thanksgiving to increase",
+        "note": "tn Or “to abound.”"
+      }
+    ],
+    "16": [
+      {
+        "anchor": "Therefore we do not despair,",
+        "note": "tn Or “do not lose heart.”"
+      },
+      {
+        "anchor": "but even if our physical body",
+        "note": "tn Grk “our outer man.”"
+      },
+      {
+        "anchor": "is wearing away, our inner person",
+        "note": "tn Grk “our inner [man].”"
+      }
+    ],
+    "17": [
+      {
+        "anchor": "For our momentary, light suffering",
+        "note": "tn Grk “momentary lightness of affliction.”"
+      }
+    ]
+  },
+  "3": {
+    "1": [
+      {
+        "anchor": "Are we beginning to commend ourselves again? We don’t need letters of recommendation to you or from you as some other people do, do we?",
+        "note": "tn The Greek construction anticipates a negative reply (“No, we do not”) which is indicated in the translation by the ‘tag’ at the end, “do we?”"
+      }
+    ],
+    "2": [
+      {
+        "anchor": "You yourselves are our letter,",
+        "note": "tn That is, “letter of recommendation.”"
+      }
+    ],
+    "3": [
+      {
+        "anchor": "revealing",
+        "note": "tn Or “making plain.”"
+      },
+      {
+        "anchor": "that you are a letter of Christ, delivered by us,",
+        "note": "tn Grk “cared for by us,” an expression that could refer either to the writing or the delivery of the letter (BDAG 229 s.v. διακονέω 1). Since the following phrase refers to the writing of the letter, and since the previous verse speaks of this “letter” being “written on our [Paul’s and his companions’] hearts” it is more probable that the phrase “cared for by us” refers to the delivery of the letter (in the person of Paul and his companions)."
+      },
+      {
+        "anchor": "on stone tablets",
+        "note": "sn An allusion to Exod 24:12; 31:18; 34:1; Deut 9:10-11."
+      }
+    ],
+    "5": [
+      {
+        "anchor": "Not that we are adequate",
+        "note": "tn Or “competent.”"
+      },
+      {
+        "anchor": "in ourselves to consider anything as if it were coming from ourselves, but our adequacy",
+        "note": "tn Or “competence.”"
+      }
+    ],
+    "6": [
+      {
+        "anchor": "who made us adequate",
+        "note": "tn Or “competent.”"
+      },
+      {
+        "anchor": "to be servants of a new covenant",
+        "note": "sn This new covenant is promised in Jer 31:31-34; 32:40."
+      }
+    ],
+    "7": [
+      {
+        "anchor": "But if the ministry that produced death – carved in letters on stone tablets",
+        "note": "tn Grk “on stones”; but since this is clearly an allusion to the tablets of the Decalogue (see 2 Cor 3:3) the word “tablets” was supplied in the translation to make the connection clear."
+      },
+      {
+        "anchor": "– came with glory, so that the Israelites",
+        "note": "tn Grk “so that the sons of Israel.”"
+      },
+      {
+        "anchor": "could not keep their eyes fixed on the face of Moses because of the glory of his face",
+        "note": "sn The glory of his face. When Moses came down from Mt. Sinai with the tablets of the Decalogue, the people were afraid to approach him because his face was so radiant (Exod 34:29-30)."
+      },
+      {
+        "anchor": "(a glory",
+        "note": "tn The words “a glory” are not in the Greek text, but the reference to “glory” has been repeated from the previous clause for clarity."
+      },
+      {
+        "anchor": "which was made ineffective),",
+        "note": "tn Or “which was transitory.” Traditionally this phrase is translated as “which was fading away.” The verb καταργέω in the corpus Paulinum uniformly has the meaning “to render inoperative, ineffective”; the same nuance is appropriate here. The glory of Moses’ face was rendered ineffective by the veil Moses wore. For discussion of the meaning of this verb in this context, see S. J. Hafemann, Paul, Moses, and the History of Israel (WUNT 81), 301-13. A similar translation has been adopted in the two other occurrences of the verb in this paragraph in vv. 11 and 13."
+      }
+    ],
+    "8": [
+      {
+        "anchor": "how much more glorious will the ministry of the Spirit be?",
+        "note": "tn Grk “how will not rather the ministry of the Spirit be with glory?”"
+      }
+    ],
+    "9": [
+      {
+        "anchor": "For if there was glory in the ministry that produced condemnation,",
+        "note": "tn Grk “the ministry of condemnation”; translated as an objective genitive, “the ministry that produced condemnation.”"
+      },
+      {
+        "anchor": "how much more does the ministry that produces righteousness",
+        "note": "tn Grk “the ministry of righteousness”; translated as an objective genitive, “the ministry that produces righteousness.”"
+      },
+      {
+        "anchor": "excel",
+        "note": "tn Traditionally, “abound.”"
+      }
+    ],
+    "10": [
+      {
+        "anchor": "For indeed, what had been glorious now",
+        "note": "tn Grk “in this case.”"
+      },
+      {
+        "anchor": "has no glory because of the tremendously greater glory of what replaced it.",
+        "note": "tn The words “of what replaced it” are not in the Greek text, but have been supplied to clarify the meaning."
+      }
+    ],
+    "11": [
+      {
+        "anchor": "For if what was made ineffective",
+        "note": "tn Or “what was fading away.” See note on “which was made ineffective” in v. 7."
+      },
+      {
+        "anchor": "came with",
+        "note": "tn Or “through” (διά, dia)."
+      },
+      {
+        "anchor": "glory, how much more has what remains",
+        "note": "tn Or “what is permanent.”"
+      }
+    ],
+    "12": [
+      {
+        "anchor": "Therefore, since we have such a hope, we behave with great boldness,",
+        "note": "tn Or “we employ great openness of speech.”"
+      }
+    ],
+    "13": [
+      {
+        "anchor": "and not like Moses who used to put a veil over his face to keep the Israelites",
+        "note": "tn Grk “the sons of Israel.”"
+      },
+      {
+        "anchor": "from staring",
+        "note": "tn Or “from gazing intently.”"
+      },
+      {
+        "anchor": "at the result",
+        "note": "tn Or “end.” The word τέλος (telos) can mean both “a point of time marking the end of a duration, end, termination, cessation” and “the goal toward which a movement is being directed, end, goal, outcome” (see BDAG 998-999 s.v.). The translation accepts the interpretation that Moses covered the glory of his face with the veil to prevent Israel from being judged by the glory of God (see S. J. Hafemann, Paul, Moses, and the History of Israel [WUNT 81], 347-62); in this case the latter meaning for τέλος is more appropriate."
+      },
+      {
+        "anchor": "of the glory that was made ineffective.",
+        "note": "tn Or “was fading away”; Grk “on the result of what was made ineffective.” The referent (glory) has been specified in the translation for clarity. See note on “which was made ineffective” in v. 7."
+      }
+    ],
+    "14": [
+      {
+        "anchor": "But their minds were closed.",
+        "note": "tn Grk “their minds were hardened.”"
+      },
+      {
+        "anchor": "For to this very day, the same veil remains when they hear the old covenant read.",
+        "note": "tn Grk “the same veil remains at the reading of the old covenant”; the phrase “they hear” has been introduced (“when they hear the old covenant read”) to make the link with the “Israelites” (v. 13) whose minds were closed (v. 14a) more obvious to the reader."
+      },
+      {
+        "anchor": "It has not been removed because only in Christ is it taken away.",
+        "note": "tn Or “only in Christ is it eliminated.”"
+      }
+    ],
+    "15": [
+      {
+        "anchor": "But until this very day whenever Moses is read, a veil lies over their minds,",
+        "note": "tn Grk “their heart.”"
+      }
+    ],
+    "16": [
+      {
+        "anchor": "but when one",
+        "note": "tn Or perhaps “when(ever) he turns,” referring to Moses."
+      },
+      {
+        "anchor": ".",
+        "note": "sn An allusion to Exod 34:34. The entire verse may refer to Moses, viewing him as a type portraying the Jewish convert to Christianity in Paul’s day."
+      }
+    ],
+    "17": [
+      {
+        "anchor": "Now the Lord is the Spirit, and where the Spirit of the Lord is present,",
+        "note": "tn Grk “where the Spirit of the Lord is”; the word “present” is supplied to specify that the presence of the Lord’s Spirit is emphasized rather than the mere existence of the Lord’s Spirit."
+      }
+    ],
+    "18": [
+      {
+        "anchor": "And we all, with unveiled faces reflecting the glory of the Lord,",
+        "note": "tn Or “we all with unveiled faces beholding the glory of the Lord as in a mirror.”"
+      },
+      {
+        "anchor": "are being transformed into the same image from one degree of glory to another,",
+        "note": "tn Grk “from glory to glory.”"
+      },
+      {
+        "anchor": "which is from",
+        "note": "tn Grk “just as from.”"
+      },
+      {
+        "anchor": "the Lord, who is the Spirit.",
+        "note": "tn Grk “from the Lord, the Spirit”; the genitive πνεύματος (pneumato\") has been translated as a genitive of apposition."
+      }
+    ]
+  },
+  "1": {
+    "1": [
+      {
+        "anchor": "From Paul,",
+        "note": "tn Grk “Paul.” The word “from” is not in the Greek text, but has been supplied to indicate the sender of the letter."
+      },
+      {
+        "anchor": "an apostle of Christ Jesus by the will of God, and Timothy our brother, to the church of God that is in Corinth,",
+        "note": "map For location see JP1-C2; JP2-C2; JP3-C2; JP4-C2."
+      },
+      {
+        "anchor": "with all the saints who are in all Achaia.",
+        "note": "tn Or “are throughout Achaia.”"
+      }
+    ],
+    "2": [
+      {
+        "anchor": "Grace and peace to you",
+        "note": "tn Grk “Grace to you and peace.”"
+      }
+    ],
+    "3": [
+      {
+        "anchor": "Blessed is",
+        "note": "tn There is no verb in the Greek text; either the optative (“be”) or the indicative (“is”) can be supplied. The meaning of the term εὐλογητός (euloghtos) and the author’s intention at this point in the epistle must both come into play to determine which is the preferred nuance. εὐλογητός as an adjective can mean either that one is praised or that one is blessed, that is, in a place of favor and benefit. The meaning “blessed” would be more naturally paired with an indicative verb and would suggest that blessedness is an intrinsic part of God’s character. The meaning “praised” would be more naturally paired with an optative verb and would suggest that God ought to be praised. Pauline style in the epistles generally moves from statements to obligations, expressing the reality first and then the believer’s necessary response. When considered as a whole, although a decision is difficult, the general Pauline style of beginning with statements and moving to obligations argues for the indicative. Cf. also Eph 1:3; 1 Pet 1:3."
+      }
+    ],
+    "4": [
+      {
+        "anchor": "who comforts us in all our troubles",
+        "note": "tn Or “our trials”; traditionally, “our affliction.” The term θλῖψις (qliyi\") refers to trouble (including persecution) that involves direct suffering (L&N 22.2)."
+      },
+      {
+        "anchor": "so that we may be able to comfort those experiencing any trouble",
+        "note": "tn Or “any trials”; traditionally, “any affliction.”"
+      }
+    ],
+    "5": [
+      {
+        "anchor": "For just as the sufferings",
+        "note": "tn This Greek word translated “sufferings” here (πάθημα, paqhma) is a different one than the one Paul uses for his own afflictions/persecutions (θλῖψις, qliyi\") in v. 4."
+      },
+      {
+        "anchor": "of Christ",
+        "note": "tn I.e., suffering incurred by Paul as a consequence of his relationship to Christ. The genitive could be considered to have a causative nuance here."
+      },
+      {
+        "anchor": "overflow",
+        "note": "tn Traditionally, “abound” (here and throughout this section)."
+      },
+      {
+        "anchor": "toward us, so also our comfort through Christ overflows to you.",
+        "note": "tn The words “to you” are not in the Greek text, but are implied by the statements in the following verse."
+      }
+    ],
+    "6": [
+      {
+        "anchor": "But if we are afflicted,",
+        "note": "tn Or “are troubled.”"
+      }
+    ],
+    "7": [
+      {
+        "anchor": "And our hope for you is steadfast because we know that as you share in",
+        "note": "tn Grk “as you are sharers in.”"
+      },
+      {
+        "anchor": "our sufferings, so also you will share in",
+        "note": "tn Grk “will be sharers in.”"
+      }
+    ],
+    "8": [
+      {
+        "anchor": "For we do not want you to be unaware, brothers and sisters,",
+        "note": "tn Grk “brothers,” but the Greek word may be used for “brothers and sisters” or “fellow Christians” as here (cf. BDAG 18 s.v. ἀδελφός 1., where considerable nonbiblical evidence for the plural ἀδελφοί [adelfoi] meaning “brothers and sisters” is cited)."
+      },
+      {
+        "anchor": "regarding the affliction that happened to us in the province of Asia,",
+        "note": "tn Grk “Asia”; in the NT this always refers to the Roman province of Asia, made up of about one-third of the west and southwest end of modern Asia Minor. Asia lay to the west of the region of Phrygia and Galatia. The words “the province of” are supplied to indicate to the modern reader that this does not refer to the continent of Asia."
+      }
+    ],
+    "9": [
+      {
+        "anchor": "Indeed we felt as if the sentence of death had been passed against us,",
+        "note": "tn Grk “we ourselves had the sentence of death within ourselves.” Here ἀπόκριμα (apokrima) is being used figuratively; no actual official verdict had been given, but in light of all the difficulties that Paul and his colleagues had suffered, it seemed to them as though such an official verdict had been rendered against them (L&N 56.26)."
+      },
+      {
+        "anchor": "so that we would not trust in ourselves",
+        "note": "tn Or “might not put confidence in ourselves.”"
+      }
+    ],
+    "10": [
+      {
+        "anchor": "He",
+        "note": "tn Because of the length and complexity of the Greek sentence, the relative clause “who delivered us…” was made a separate sentence in the translation."
+      },
+      {
+        "anchor": "delivered us from so great a risk of death, and he will deliver us. We have set our hope on him",
+        "note": "tn Grk “deliver us, on whom we have set our hope.”"
+      },
+      {
+        "anchor": "that",
+        "note": "tc Several important witnesses, especially Alexandrian (Ì46 B D* 0121 0243 1739 1881 pc Did), lack ὅτι ({oti, “that”) here, while others, most notably Western (D1 F G 104 630 1505 pc ar b syh Or Ambst), lack ἔτι (eti, “yet”). Most mss, including important Alexandrians (א A C D2 Ψ 33 Ï f t vg), have the full expression ὅτι καὶ ἔτι ({oti kai eti). Although the predominantly Alexandrian reading has much to commend it, the fact that either ὅτι or ἔτι has been dropped, while the καί has been retained, suggests that the original wording had ὅτι καὶ ἔτι, and that either particle dropped out intentionally for stylistic reasons. (F and G have the order καί ὅτι, suggesting that in their archetype the ἔτι was unintentionally dropped due to homoioteleuton.) If, however, ὅτι is not authentic, v. 10b should be translated “We have set our hope on him, and he will deliver us again.” Overall, a decision is difficult, but preference should be given to ὅτι καὶ ἔτι."
+      }
+    ],
+    "11": [
+      {
+        "anchor": "as you also join in helping us by prayer, so that many people may give thanks to God",
+        "note": "tn Grk “so that thanks may be given by many.” The words “to God” are not in the Greek text, but are implied. The passive construction has been converted to an active one for clarity, in keeping with contemporary English style."
+      }
+    ],
+    "12": [
+      {
+        "anchor": "For our reason for confidence",
+        "note": "tn Or “for boasting.”"
+      },
+      {
+        "anchor": "is this: the testimony of our conscience, that with pure motives",
+        "note": "tc Two viable variants exist at this place in the text: ἁγιότητι (Jagiothti, “holiness”) vs. ἁπλότητι (Japlothti, “pure motives”). A confusion of letters could well have produced the variant (TCGNT 507): In uncial script the words would have been written agiothti and aplothti. This, however, does not explain which reading created the other. Overall ἁπλότητι, though largely a Western-Byzantine reading (א2 D F G Ï lat sy), is better suited to the context; it is also a Pauline word while ἁγιότης (Jagioth\") is not. It also best explains the rise of the other variants, πραότητι (praothti, “gentleness”) and {σπλάγχνοις} (splancnoi\", “compassion”). On the other hand, the external evidence in favor of ἁγιότητι is extremely strong (Ì46 א* A B C K P Ψ 0121 0243 33 81 1739 1881 al co). This diversity of mss provides excellent evidence for authenticity, but because of the internal evidence listed above, ἁπλότητι is to be preferred, albeit only slightly.tn Or “sincerity.” The two terms translated “pure motives” (ἁπλότης, Japloth\") and “sincerity” (εἰλικρίνεια, eilikrineia) are close synonyms."
+      },
+      {
+        "anchor": "and sincerity which are from God",
+        "note": "tn Grk “pure motives and sincerity of God.”"
+      },
+      {
+        "anchor": "– not by human wisdom",
+        "note": "tn Or “not by worldly wisdom.”"
+      },
+      {
+        "anchor": "but by the grace of God – we conducted ourselves in the world, and all the more",
+        "note": "tn Or “and especially.”"
+      }
+    ],
+    "13": [
+      {
+        "anchor": "For we do not write you anything other than what",
+        "note": "tn Grk “than the things.”"
+      },
+      {
+        "anchor": "you can read and also understand. But I hope that you will understand completely",
+        "note": "tn Grk “to the end,” a Greek idiom for “fully,” “totally,” “completely.”"
+      }
+    ],
+    "14": [
+      {
+        "anchor": "just as also you have partly understood us, that we are your source of pride just as you also are ours",
+        "note": "tn Grk “that we are your boast even as you are our boast.”"
+      },
+      {
+        "anchor": "in the day of the Lord Jesus.",
+        "note": "tc ‡ On the wording “the Lord Jesus” (τοῦ κυρίου ᾿Ιησοῦ, tou kuriou Ihsou) there is some variation in the extant witnesses: ἡμῶν (Jhmwn, “our”) is found after κυρίου in several significant witnesses (א B F G P 0121 0243 6 33 81 1739 1881 2464 al lat co); the pronoun is lacking from Ì46vid A C D Ψ Ï. Although in Paul “our Lord Jesus Christ” is a common expression, “our Lord Jesus” is relatively infrequent (cf., e.g., Rom 16:20; 2 Cor 1:14; 1 Thess 2:19; 3:11, 13; 2 Thess 1:8, 12). “The Lord Jesus” occurs about as often as “our Lord Jesus” (cf. 1 Cor 11:23; 16:23; 2 Cor 4:14; 11:31; Eph 1:15; 1 Thess 4:2; 2 Thess 1:7; Phlm 5). Thus, on balance, since scribes would tend to expand on the text, it is probably best to consider the shorter reading as authentic. NA27 places the pronoun in brackets, indicating doubt as to its authenticity."
+      }
+    ],
+    "15": [
+      {
+        "anchor": "And with this confidence I intended to come to you first so that you would get a second opportunity to see us,",
+        "note": "tn Grk “a second grace,” “a second favor” (used figuratively of a second visit by Paul)."
+      }
+    ],
+    "16": [
+      {
+        "anchor": "and through your help to go on into Macedonia and then from Macedonia to come back",
+        "note": "tn Grk “come again.”"
+      }
+    ],
+    "17": [
+      {
+        "anchor": "Therefore when I was planning to do this, I did not do so without thinking about what I was doing, did I?",
+        "note": "tn The Greek construction anticipates a negative answer. This is indicated in the translation by the ‘tag’ question “did I?” at the end of the sentence."
+      },
+      {
+        "anchor": "Or do I make my plans",
+        "note": "tn Grk “the things that I plan, do I plan (them).”"
+      },
+      {
+        "anchor": "according to mere human standards",
+        "note": "tn Grk “according to the flesh.”"
+      },
+      {
+        "anchor": "so that I would be saying",
+        "note": "tn Grk “so that with me there should be.”"
+      }
+    ],
+    "19": [
+      {
+        "anchor": "For the Son of God, Jesus Christ, the one who was proclaimed among you by us – by me and Silvanus",
+        "note": "sn Silvanus is usually considered to be the same person as Silas (L&N 93.340)."
+      }
+    ],
+    "21": [
+      {
+        "anchor": "But it is God who establishes",
+        "note": "tn Or “strengthens.”"
+      },
+      {
+        "anchor": "us together with you in Christ and who anointed us,",
+        "note": "tn Grk “But he who establishes us together with you in Christ and anointed us is God.”"
+      }
+    ],
+    "22": [
+      {
+        "anchor": "who also sealed us and gave us the Spirit in our hearts as a down payment.",
+        "note": "tn Or “first installment,” “pledge,” “deposit.”sn Down payment. The Greek word ἀρραβών (arrabwn) denotes the first payment or first installment of money or goods which serves as a guarantee or pledge for the completion of the transaction. In the NT the term is used only figuratively of the Holy Spirit as the down payment of the blessings promised by God (it occurs later in 2 Cor 5:5, and also in Eph 1:14). In the “already – not yet” scheme of the NT the possession of the Spirit now by believers (“already”) can be viewed as a guarantee that God will give them the balance of the promised blessings in the future (“not yet”)."
+      }
+    ],
+    "23": [
+      {
+        "anchor": "Now I appeal to God as my witness,",
+        "note": "tn Grk “I call upon God as witness against my soul.” Normally this implies an appeal for help (L&N 33.176)."
+      },
+      {
+        "anchor": "that to spare",
+        "note": "tn Here φειδόμενος (feidomeno\") has been translated as a telic participle."
+      },
+      {
+        "anchor": "you I did not come again to Corinth.",
+        "note": "sn Paul had promised to come again to visit (see 2 Cor 1:15, 24) but explains here why he had changed his plans.map For location see JP1-C2; JP2-C2; JP3-C2; JP4-C2."
+      }
+    ],
+    "24": [
+      {
+        "anchor": "I do not mean that we rule over your faith, but we are workers with you for your joy, because by faith you stand firm.",
+        "note": "tn Or “because you stand firm in the faith.”"
+      }
+    ]
+  },
+  "10": {
+    "1": [
+      {
+        "anchor": "Now I, Paul, appeal to you",
+        "note": "tn The Greek pronoun (“you”) is plural."
+      },
+      {
+        "anchor": "personally",
+        "note": "tn The word “personally” is supplied to reflect the force of the Greek intensive pronoun αὐτός (autos) at the beginning of the verse."
+      },
+      {
+        "anchor": "by the meekness and gentleness",
+        "note": "tn Or “leniency and clemency.” D. Walker, “Paul’s Offer of Leniency of Christ (2 Corinthians 10:1): Populist Ideology and Rhetoric in a Pauline Letter Fragment (2 Cor 10:1-13:10)” (Ph.D. diss., University of Chicago, 1998), argues for this alternative translation for three main reasons: (1) When the two Greek nouns πραΰτης and ἐπιείκεια (prauth\" and ejpieikeia) are used together, 90% of the time the nuance is “leniency and clemency.” (2) “Leniency and clemency” has a military connotation, which is precisely what appears in the following verses. (3) 2 Cor 10-13 speaks of Paul’s sparing use of his authority, which points to the nuance of “leniency and clemency.”"
+      },
+      {
+        "anchor": "of Christ (I who am meek",
+        "note": "tn Or “who lack confidence.”"
+      },
+      {
+        "anchor": "when present among",
+        "note": "tn Or “when face to face with.”"
+      },
+      {
+        "anchor": "you, but am full of courage",
+        "note": "tn Or “but bold.”"
+      }
+    ],
+    "2": [
+      {
+        "anchor": "now I ask that when I am present I may not have to be bold with the confidence that (I expect) I will dare to use against some who consider us to be behaving",
+        "note": "tn Grk “consider us as walking.”"
+      },
+      {
+        "anchor": "according to human standards.",
+        "note": "tn Grk “according to the flesh.”"
+      }
+    ],
+    "3": [
+      {
+        "anchor": "For though we live",
+        "note": "tn Grk “we walk.”"
+      },
+      {
+        "anchor": "as human beings,",
+        "note": "tn Grk “in the flesh.”"
+      },
+      {
+        "anchor": "we do not wage war according to human standards,",
+        "note": "tn Grk “according to the flesh.”"
+      }
+    ],
+    "4": [
+      {
+        "anchor": "for the weapons of our warfare are not human weapons,",
+        "note": "tn Grk “are not fleshly [weapons].” The repetition of the word “warfare” does not occur in the Greek text, but is supplied for clarity."
+      },
+      {
+        "anchor": "but are made powerful by God",
+        "note": "tn Or “but (are) divinely powerful,” “but they have divine power,” or “but are powerful for God’s [service]”; Grk “but are powerful to God.”"
+      },
+      {
+        "anchor": "for tearing down strongholds.",
+        "note": "sn Ultimately Paul is referring here to the false arguments of his opponents, calling them figuratively “strongholds.” This Greek word (ὀχύρωμα, ocurwma) is used only here in the NT."
+      },
+      {
+        "anchor": "We tear down arguments",
+        "note": "tn Or “speculations.”"
+      }
+    ],
+    "5": [
+      {
+        "anchor": "and every arrogant obstacle",
+        "note": "tn The phrase “every arrogant obstacle” could be translated simply “all arrogance” (so L&N 88.207)."
+      },
+      {
+        "anchor": "that is raised up against the knowledge of God, and we take every thought captive to make it obey",
+        "note": "tn Grk “to the obedience of Christ”; but since Χριστοῦ (Cristou) is clearly an objective genitive here, it is better to translate “to make it obey Christ.”"
+      }
+    ],
+    "6": [
+      {
+        "anchor": "We are also ready to punish every act of disobedience,",
+        "note": "tn Or “punish all disobedience.”"
+      }
+    ],
+    "7": [
+      {
+        "anchor": "You are looking at outward appearances.",
+        "note": "tn The phrase is close to a recognized idiom for judging based on outward appearances (L&N 30.120). Some translators see a distinction, however, and translate 2 Cor 10:7a as “Look at what is in front of your eyes,” that is, the obvious facts of the case (so NRSV)."
+      }
+    ],
+    "8": [
+      {
+        "anchor": "For if I boast somewhat more about our authority that the Lord gave us",
+        "note": "tn The word “us” is not in the Greek text but is supplied. Indirect objects in Greek were often omitted when clear from the context, and must be supplied for the modern English reader."
+      },
+      {
+        "anchor": "for building you up and not for tearing you down, I will not be ashamed of doing so.",
+        "note": "tn Grk “I will not be put to shame,” “I will not be ashamed.” The words “of doing so” are supplied to clarify for the reader that Paul will not be ashamed of boasting somewhat more about the authority the Lord gave him (beginning of v. 8)."
+      }
+    ],
+    "10": [
+      {
+        "anchor": "because some say, “His letters are weighty and forceful, but his physical presence is weak",
+        "note": "tn Or “unimpressive.”"
+      },
+      {
+        "anchor": "and his speech is of no account.”",
+        "note": "tn Or “is contemptible”; Grk “is despised.”"
+      }
+    ],
+    "11": [
+      {
+        "anchor": "Let such a person consider this: What we say",
+        "note": "tn Grk “what we are in word.”"
+      }
+    ],
+    "12": [
+      {
+        "anchor": "For we would not dare to classify or compare ourselves with some of those who recommend themselves. But when they measure themselves by themselves and compare themselves with themselves, they are without understanding.",
+        "note": "tn Or “they are unintelligent.”"
+      }
+    ],
+    "13": [
+      {
+        "anchor": "But we will not boast beyond certain limits,",
+        "note": "tn Or “boast excessively.” The phrase εἰς τὰ ἄμετρα (ei\" ta ametra) is an idiom; literally it means “into that which is not measured,” that is, a point on a scale that goes beyond what might be expected (L&N 78.27)."
+      },
+      {
+        "anchor": "but will confine our boasting",
+        "note": "tn The words “will confine our boasting” are not in the Greek text, but the reference to boasting must be repeated from the previous clause to clarify for the modern reader what is being limited."
+      },
+      {
+        "anchor": "according to the limits of the work to which God has appointed us,",
+        "note": "tn Grk “according to the measure of the rule which God has apportioned to us as a measure”; for the translation used in the text see L&N 37.100."
+      }
+    ],
+    "14": [
+      {
+        "anchor": "For we were not overextending ourselves, as though we did not reach as far as you, because we were the first to reach as far as you with the gospel about Christ.",
+        "note": "tn Grk “with the gospel of Christ,” but since Χριστοῦ (Cristou) is clearly an objective genitive here, it is better to translate “with the gospel about Christ.”"
+      }
+    ],
+    "15": [
+      {
+        "anchor": "Nor do we boast beyond certain limits",
+        "note": "tn Or “boast excessively.” The phrase εἰς τὰ ἄμετρα (ei\" ta ametra) is an idiom; literally it means “into that which is not measured,” that is, a point on a scale that goes beyond what might be expected (L&N 78.27)."
+      },
+      {
+        "anchor": "in the work",
+        "note": "tn Or “in the labors.”"
+      },
+      {
+        "anchor": "done by others, but we hope",
+        "note": "tn Grk “but we have the hope.”"
+      },
+      {
+        "anchor": "that as your faith continues to grow, our work may be greatly expanded",
+        "note": "tn Or “greatly enlarged.”"
+      },
+      {
+        "anchor": "among you according to our limits,",
+        "note": "tn That is, Paul’s work might be greatly expanded within the area of activity assigned to him by God."
+      }
+    ],
+    "17": [
+      {
+        "anchor": ".",
+        "note": "tn The traditional translation (“let the one who boasts boast in the Lord”) can be understood as merely permissive by the English reader, but the Greek verb καυχάσθω (kaucasqw) is a third person imperative.sn A quotation from Jer 9:24 (also quoted in 1 Cor 1:31)."
+      }
+    ]
+  },
+  "11": {
+    "2": [
+      {
+        "anchor": "For I am jealous for you with godly jealousy, because I promised you in marriage to one husband,",
+        "note": "tn That is, to Christ."
+      },
+      {
+        "anchor": "to present you as a pure",
+        "note": "tn Or “chaste.”"
+      }
+    ],
+    "3": [
+      {
+        "anchor": "But I am afraid that",
+        "note": "tn Grk “I fear lest somehow.”"
+      },
+      {
+        "anchor": "just as the serpent",
+        "note": "tn Or “the snake.”"
+      },
+      {
+        "anchor": "deceived Eve by his treachery,",
+        "note": "tn Or “craftiness.”"
+      },
+      {
+        "anchor": "your minds may be led astray",
+        "note": "tn Or “corrupted,” “seduced.”"
+      },
+      {
+        "anchor": "from a sincere and pure",
+        "note": "tc Although most mss (א2 H Ψ 0121 0243 1739 1881 Ï) lack “and pure” (καὶ τῆς ἁγνότητος, kai th\" Jagnothto\"; Grk “and purity”) several important and early witnesses (Ì46 א* B D[2] F G 33 81 104 pc ar r co) retain these words. Their presence in such mss across such a wide geographical distribution argues for their authenticity. The omission from the majority of mss can be explained by haplography, since the -τητος ending of ἁγνότητος is identical to the ending of ἁπλότητος (Japlothto\", “sincerity”) three words back (ἁπλότητος καὶ τῆς ἁγνότητος); further, since the meanings of “sincerity” and “purity” are similar they might seem redundant. A copyist would scarcely notice the omission because Paul’s statement still makes sense without “and from purity.”"
+      }
+    ],
+    "4": [
+      {
+        "anchor": "For if someone comes and proclaims",
+        "note": "tn Or “preaches.”"
+      },
+      {
+        "anchor": "another Jesus different from the one we proclaimed,",
+        "note": "tn Grk “another Jesus whom we have not proclaimed.”"
+      },
+      {
+        "anchor": "or if you receive a different spirit than the one you received,",
+        "note": "tn Grk “a different spirit which you did not receive.”"
+      },
+      {
+        "anchor": "or a different gospel than the one you accepted,",
+        "note": "tn Grk “a different gospel which you did not accept.”"
+      },
+      {
+        "anchor": "you put up with it well enough!",
+        "note": "tn Or “you endure it very well.”"
+      }
+    ],
+    "5": [
+      {
+        "anchor": "For I consider myself not at all inferior to those “super-apostles.”",
+        "note": "tn The implicit irony in Paul’s remark is brought out well by the TEV: “I do not think that I am the least bit inferior to those very special so-called ‘apostles’ of yours!”sn The ‘super-apostles’ refers either (1) to the original apostles (the older interpretation) or (2) more probably, to Paul’s opponents in Corinth, in which case the designation is ironic."
+      }
+    ],
+    "6": [
+      {
+        "anchor": "And even if I am unskilled",
+        "note": "sn Unskilled in speaking means not professionally trained as a rhetorician."
+      }
+    ],
+    "7": [
+      {
+        "anchor": "Or did I commit a sin by humbling myself",
+        "note": "sn Paul is referring to humbling himself to the point of doing manual labor to support himself."
+      },
+      {
+        "anchor": "so that you could be exalted, because I proclaimed",
+        "note": "tn Or “preached.”"
+      }
+    ],
+    "8": [
+      {
+        "anchor": "I robbed other churches by receiving support from them so that I could serve you!",
+        "note": "sn That is, serve them free of charge (cf. the end of v. 7)."
+      }
+    ],
+    "9": [
+      {
+        "anchor": "When",
+        "note": "tn Grk “you, and when.” A new sentence was started here in the translation."
+      },
+      {
+        "anchor": "I was with you and was in need, I was not a burden to anyone, for the brothers who came from Macedonia fully supplied my needs.",
+        "note": "tn If the participle ἐλθόντες (elqonte\") is taken as temporal rather than adjectival, the translation would be, “for the brothers, when they came from Macedonia, fully supplied my needs” (similar to NASB)."
+      },
+      {
+        "anchor": "I",
+        "note": "tn Grk “needs, and I kept.” A new sentence was started here in the translation."
+      }
+    ],
+    "10": [
+      {
+        "anchor": "As the truth of Christ is in me, this boasting of mine",
+        "note": "tn That is, that Paul offers the gospel free of charge to the Corinthians (see 2 Cor 11:7)."
+      },
+      {
+        "anchor": "will not be stopped",
+        "note": "tn Or “silenced.”"
+      }
+    ],
+    "11": [
+      {
+        "anchor": "Why? Because I do not love you? God knows I do!",
+        "note": "tn Grk “God knows!” The words “I do” are supplied for clarity. Direct objects were often omitted in Greek when clear from the context."
+      }
+    ],
+    "12": [
+      {
+        "anchor": "And what I am doing I will continue to do, so that I may eliminate any opportunity for those who want a chance to be regarded as our equals",
+        "note": "tn Grk “an opportunity, so that they may be found just like us.”"
+      }
+    ],
+    "13": [
+      {
+        "anchor": "For such people are false apostles, deceitful",
+        "note": "tn Or “dishonest.”"
+      },
+      {
+        "anchor": "workers, disguising themselves",
+        "note": "tn Or “workers, masquerading.”"
+      }
+    ],
+    "14": [
+      {
+        "anchor": "And no wonder, for even Satan disguises himself",
+        "note": "tn Or “Satan himself masquerades.”"
+      }
+    ],
+    "15": [
+      {
+        "anchor": "Therefore it is not surprising his servants also disguise themselves",
+        "note": "tn Or “also masquerade.”"
+      },
+      {
+        "anchor": "as servants of righteousness, whose end will correspond to their actions.",
+        "note": "tn Or “their works.”"
+      }
+    ],
+    "16": [
+      {
+        "anchor": "I say again, let no one think that I am a fool.",
+        "note": "tn Or “am foolish.”"
+      }
+    ],
+    "17": [
+      {
+        "anchor": "What I am saying with this boastful confidence",
+        "note": "tn Grk “with this confidence of boasting.” The genitive καυχήσεως (kauchsew\") has been translated as an attributed genitive (the noun in the genitive gives an attribute of the noun modified)."
+      },
+      {
+        "anchor": "I do not say the way the Lord would.",
+        "note": "tn Or “say with the Lord’s authority.”"
+      }
+    ],
+    "18": [
+      {
+        "anchor": "Since many",
+        "note": "sn Many is a reference to Paul’s opponents."
+      },
+      {
+        "anchor": "are boasting according to human standards,",
+        "note": "tn Grk “according to the flesh.”"
+      }
+    ],
+    "19": [
+      {
+        "anchor": "For since you are so wise, you put up with",
+        "note": "tn Or “you tolerate.”"
+      }
+    ],
+    "20": [
+      {
+        "anchor": "For you put up with",
+        "note": "tn Or “you tolerate.”"
+      },
+      {
+        "anchor": "it if someone makes slaves of you, if someone exploits you, if someone takes advantage of you, if someone behaves arrogantly",
+        "note": "tn See L&N 88.212."
+      }
+    ],
+    "21": [
+      {
+        "anchor": "(To my disgrace",
+        "note": "tn Or “my shame.”"
+      },
+      {
+        "anchor": "I must say that we were too weak for that!)",
+        "note": "sn It seems best, in context, to see the statement we were too weak for that as a parenthetical and ironic comment by Paul on his physical condition (weakness or sickness) while he was with the Corinthians (cf. 2 Cor 12:7-10; Gal 4:15)."
+      },
+      {
+        "anchor": "But whatever anyone else dares to boast about",
+        "note": "tn The words “to boast about” are not in the Greek text, but are implied. Direct objects were often omitted in Greek when clear from the context, and this phrase serves as the direct object of the preceding verb."
+      },
+      {
+        "anchor": "(I am speaking foolishly), I also dare to boast about the same thing.",
+        "note": "tn Grk “I also dare”; the words “to boast about the same thing” are not in the Greek text, but are implied. Direct objects were often omitted in Greek when clear from the context, and this phrase serves as the direct object of the preceding verb."
+      }
+    ],
+    "24": [
+      {
+        "anchor": "Five times I received from the Jews forty lashes less one.",
+        "note": "tn Grk “forty less one”; this was a standard sentence. “Lashes” is supplied to clarify for the modern reader what is meant."
+      }
+    ],
+    "25": [
+      {
+        "anchor": "Three times I was beaten with a rod.",
+        "note": "sn Beaten with a rod refers to the Roman punishment of admonitio according to BDAG 902 s.v. ῥαβδίζω. Acts 16:22 describes one of these occasions in Philippi; in this case it was administered by the city magistrates, who had wide powers in a military colony."
+      },
+      {
+        "anchor": "Once I received a stoning.",
+        "note": "sn Received a stoning. See Acts 14:19, where this incident is described."
+      }
+    ],
+    "26": [
+      {
+        "anchor": "I have been on journeys many times, in dangers from rivers, in dangers from robbers,",
+        "note": "tn Or “bandits.” The word normally refers more to highwaymen (“robbers”) but can also refer to insurrectionists or revolutionaries (“bandits”)."
+      },
+      {
+        "anchor": "in dangers from my own countrymen, in dangers from Gentiles, in dangers in the city, in dangers in the wilderness,",
+        "note": "tn Or “desert.”"
+      }
+    ],
+    "27": [
+      {
+        "anchor": "in hard work and toil,",
+        "note": "tn The two different words for labor are translated “in hard work and toil” by L&N 42.48."
+      },
+      {
+        "anchor": "through many sleepless nights, in hunger and thirst, many times without food, in cold and without enough clothing.",
+        "note": "tn Grk “in cold and nakedness.” Paul does not mean complete nakedness, however, which would have been repugnant to a Jew; he refers instead to the lack of sufficient clothing, especially in cold weather. A related word is used to 1 Cor 4:11, also in combination with experiencing hunger and thirst."
+      }
+    ],
+    "28": [
+      {
+        "anchor": "Apart from other things,",
+        "note": "sn Apart from other things. Paul refers here either (1) to the external sufferings just mentioned, or (2) he refers to other things he has left unmentioned."
+      },
+      {
+        "anchor": "there is the daily pressure on me of my anxious concern",
+        "note": "tn “Anxious concern,” so translated in L&N 25.224."
+      }
+    ],
+    "29": [
+      {
+        "anchor": "Who is weak, and I am not weak? Who is led into sin,",
+        "note": "tn Or “who is caused to stumble.”"
+      }
+    ],
+    "30": [
+      {
+        "anchor": "If I must boast,",
+        "note": "tn Grk “If boasting is necessary.”"
+      },
+      {
+        "anchor": "I will boast about the things that show my weakness.",
+        "note": "tn Or “about the things related to my weakness.”"
+      }
+    ],
+    "32": [
+      {
+        "anchor": "In Damascus, the governor",
+        "note": "tn Grk “ethnarch.”sn The governor was an official called an ethnarch who was appointed to rule over a particular area or constituency on behalf of a king."
+      },
+      {
+        "anchor": "under King Aretas was guarding the city of Damascus",
+        "note": "tn Grk “the city of the Damascenes.”"
+      },
+      {
+        "anchor": "in order to arrest",
+        "note": "tn Or “to seize,” “to catch.”"
+      }
+    ],
+    "33": [
+      {
+        "anchor": "but I was let down in a rope-basket",
+        "note": "tn In Acts 9:25 the same basket used in Paul’s escape is called a σπυρίς (spuri\"), a basket larger than a κόφινος (kofinos). It was very likely made out of rope, so the translation “rope-basket” is used."
+      }
+    ]
+  },
+  "13": {
+    "1": [
+      {
+        "anchor": "This is the third time I am coming to visit",
+        "note": "tn The word “visit” is not in the Greek text, but is implied."
+      },
+      {
+        "anchor": "By the testimony",
+        "note": "tn Grk “By the mouth.”"
+      },
+      {
+        "anchor": ".",
+        "note": "sn A quotation from Deut 19:15 (also quoted in Matt 18:16; 1 Tim 5:19)."
+      }
+    ],
+    "2": [
+      {
+        "anchor": "I said before when I was present the second time and now, though absent, I say again to those who sinned previously and to all the rest, that if I come again, I will not spare anyone,",
+        "note": "tn The word “anyone” is not in the Greek text but is implied."
+      }
+    ],
+    "3": [
+      {
+        "anchor": "since you are demanding proof that Christ is speaking through me. He",
+        "note": "tn Grk “who.” Because of the length and complexity of the Greek sentence, a new sentence was started here in the translation."
+      }
+    ],
+    "5": [
+      {
+        "anchor": "Put yourselves to the test to see if you are in the faith; examine yourselves! Or do you not recognize regarding yourselves that Jesus Christ is in you – unless, indeed, you fail the test!",
+        "note": "tn Or “unless indeed you are disqualified.”"
+      }
+    ],
+    "6": [
+      {
+        "anchor": "And I hope that you will realize that we have not failed the test!",
+        "note": "tn Or “that we are not disqualified.”"
+      }
+    ],
+    "7": [
+      {
+        "anchor": "Now we pray to God that you may not do anything wrong, not so that we may appear to have passed the test,",
+        "note": "tn Or “that we may appear to be approved.”"
+      },
+      {
+        "anchor": "but so that you may do what is right",
+        "note": "tn Or “what is good.”"
+      },
+      {
+        "anchor": "even if we may appear to have failed the test.",
+        "note": "tn Or “even if we appear disapproved.”"
+      }
+    ],
+    "9": [
+      {
+        "anchor": "For we rejoice whenever we are weak, but you are strong. And we pray for this: that you may become fully qualified.",
+        "note": "tn Or “fully equipped.”"
+      }
+    ],
+    "10": [
+      {
+        "anchor": "Because of this I am writing these things while absent, so that when I arrive",
+        "note": "tn Grk “when I am present,” but in the context of Paul’s third (upcoming) visit to Corinth, this is better translated as “when I arrive.”"
+      },
+      {
+        "anchor": "I may not have to deal harshly with you",
+        "note": "tn The words “with you” are not in the Greek text, but are implied."
+      }
+    ],
+    "11": [
+      {
+        "anchor": "Finally, brothers and sisters,",
+        "note": "tn Grk “brothers.” See note on the phrase “brothers and sisters” in 1:8."
+      }
+    ],
+    "12": [
+      {
+        "anchor": "",
+        "note": "sn The versification of vv. 12 and 13 in the NET Bible (so also NRSV, NLT) is according to the versification in the NA27 and UBS4 editions of the Greek text. Some translations, however, break the material up into three verses, i.e., 12-14 (NKJV, NASB, NIV). The same material has been translated in each case; the only difference is the versification of that material."
+      }
+    ],
+    "13": [
+      {
+        "anchor": "The grace of the Lord Jesus Christ and the love of God and the fellowship",
+        "note": "tn Or “communion.”"
+      },
+      {
+        "anchor": "of the Holy Spirit be with you all.",
+        "note": "tc Most witnesses, especially later ones (א2 D Ψ Ï lat sy bo), conclude this letter with ἀμήν (amhn, “amen”), while several early and important mss (Ì46 א* A B F G 0243 6 33 630 1175 1739 1881 pc sa) lack the particle. Such a conclusion is routinely added by scribes to NT books because a few of these books originally had such an ending (cf. Rom 16:27; Gal 6:18; Jude 25). A majority of Greek witnesses have the concluding ἀμήν in every NT book except Acts, James, and 3 John (and even in these books, ἀμήν is found in some witnesses). It is thus a predictable variant. That so many diverse witnesses lacked the word here is strong testimony to its absence for the original text of 2 Corinthians."
+      }
+    ]
+  },
+  "9": {
+    "1": [
+      {
+        "anchor": "For it is not necessary",
+        "note": "tn Or “it is superfluous.”"
+      },
+      {
+        "anchor": "for me to write you about this service",
+        "note": "tn Or “this ministry,” “this contribution.”"
+      }
+    ],
+    "2": [
+      {
+        "anchor": "because I know your eagerness to help.",
+        "note": "tn The words “to help” are not in the Greek text but are implied."
+      },
+      {
+        "anchor": "I keep boasting to the Macedonians about this eagerness of yours,",
+        "note": "tn Grk “concerning which I keep boasting to the Macedonians about you.” A new sentence was started here and the translation was simplified by removing the relative clause and repeating the antecedent “this eagerness of yours.”"
+      },
+      {
+        "anchor": "that Achaia has been ready to give",
+        "note": "tn The words “to give” are not in the Greek text, but are implied."
+      },
+      {
+        "anchor": "since last year, and your zeal to participate",
+        "note": "tn The words “to participate” are not in the Greek text but are implied."
+      },
+      {
+        "anchor": "has stirred up most of them.",
+        "note": "sn Most of them is a reference to the Macedonians (cf. v. 4)."
+      }
+    ],
+    "3": [
+      {
+        "anchor": "But I am sending",
+        "note": "tn This verb has been translated as an epistolary aorist."
+      },
+      {
+        "anchor": "these brothers so that our boasting about you may not be empty in this case, so that you may be ready",
+        "note": "tn That is, ready with the collection for the saints."
+      }
+    ],
+    "4": [
+      {
+        "anchor": "For if any of the Macedonians should come with me and find that you are not ready to give, we would be humiliated",
+        "note": "tn Or “be disgraced”; Grk “be put to shame.”"
+      },
+      {
+        "anchor": "(not to mention you) by this confidence we had in you.",
+        "note": "tn Grk “by this confidence”; the words “we had in you” are not in the Greek text, but are supplied as a necessary clarification for the English reader."
+      }
+    ],
+    "5": [
+      {
+        "anchor": "Therefore I thought it necessary to urge these brothers to go to you in advance and to arrange ahead of time the generous contribution",
+        "note": "tn Grk “the blessing.”"
+      },
+      {
+        "anchor": "you had promised, so this may be ready as a generous gift",
+        "note": "tn Grk “a blessing.”"
+      },
+      {
+        "anchor": "and not as something you feel forced to do.",
+        "note": "tn Grk “as a covetousness”; that is, a gift given grudgingly or under compulsion."
+      }
+    ],
+    "6": [
+      {
+        "anchor": "My point is this: The person who sows sparingly will also reap sparingly, and the person who sows generously",
+        "note": "tn Or “bountifully”; so also in the next occurrence in the verse."
+      }
+    ],
+    "7": [
+      {
+        "anchor": "Each one of you should give",
+        "note": "tn Or “must do.” The words “of you” and “should give” are not in the Greek text, which literally reads, “Each one just as he has decided in his heart.” The missing words are an ellipsis; these or similar phrases must be supplied for the English reader."
+      },
+      {
+        "anchor": "just as he has decided in his heart,",
+        "note": "tn Or “in his mind.”"
+      },
+      {
+        "anchor": "not reluctantly",
+        "note": "tn Or “not from regret”; Grk “not out of grief.”"
+      },
+      {
+        "anchor": "or under compulsion,",
+        "note": "tn Or “not out of a sense of duty”; Grk “from necessity.”"
+      }
+    ],
+    "8": [
+      {
+        "anchor": "And God is able to make all grace overflow",
+        "note": "tn Or “abound.”"
+      },
+      {
+        "anchor": "to you so that because you have enough",
+        "note": "tn Or “so that by having enough.” The Greek participle can be translated as a participle of cause (“because you have enough”) or means (“by having enough”)."
+      },
+      {
+        "anchor": "of everything in every way at all times, you will overflow",
+        "note": "tn Or “abound.”"
+      }
+    ],
+    "9": [
+      {
+        "anchor": "He",
+        "note": "sn He in the quotation refers to the righteous person."
+      },
+      {
+        "anchor": ".”",
+        "note": "sn A quotation from Ps 112:9."
+      }
+    ],
+    "10": [
+      {
+        "anchor": "Now God",
+        "note": "tn Grk “he”; the referent (God) has been specified in the translation for clarity."
+      }
+    ],
+    "11": [
+      {
+        "anchor": "You will be enriched in every way so that you may be generous on every occasion,",
+        "note": "tn Grk “in every way for every generosity,” or “he will always make you rich enough to be generous at all times” (L&N 57.29)."
+      }
+    ],
+    "12": [
+      {
+        "anchor": "because the service of this ministry is not only providing for",
+        "note": "tn Or “not only supplying.”"
+      }
+    ],
+    "13": [
+      {
+        "anchor": "Through the evidence",
+        "note": "tn Or “proof,” or perhaps “testing” (NRSV)."
+      },
+      {
+        "anchor": "of this service",
+        "note": "tn Or “ministry.”"
+      },
+      {
+        "anchor": "they will glorify God because of your obedience to your confession in the gospel of Christ and the generosity of your sharing",
+        "note": "tn Or “your partnership”; Grk “your fellowship.”"
+      }
+    ],
+    "14": [
+      {
+        "anchor": "And in their prayers on your behalf they long for you because of the extraordinary grace God has shown to you.",
+        "note": "tn Grk “the extraordinary grace of God to you”; the point is that God has given or shown grace to the Corinthians."
+      }
+    ],
+    "15": [
+      {
+        "anchor": "Thanks be to God for his indescribable gift!",
+        "note": "tn “Let us thank God for his gift which cannot be described with words” (L&N 33.202)."
+      }
+    ]
+  },
+  "12": {
+    "1": [
+      {
+        "anchor": "It is necessary to go on boasting.",
+        "note": "tn Grk “Boasting is necessary.”"
+      }
+    ],
+    "4": [
+      {
+        "anchor": "was caught up into paradise",
+        "note": "sn In the NT, paradise is mentioned three times. In Luke 23:43 it refers to the abode of the righteous dead. In Rev 2:7 it refers to the restoration of Edenic paradise predicted in Isa 51:3 and Ezek 36:35. The reference here in 2 Cor 12:4 is probably to be translated as parallel to the mention of the “third heaven” in v. 2. Assuming that the “first heaven” would be atmospheric heaven (the sky) and “second heaven” the more distant stars and planets, “third heaven” would refer to the place where God dwells. This is much more likely than some variation on the seven heavens mentioned in the pseudepigraphic book 2 Enoch and in other nonbiblical and rabbinic works."
+      },
+      {
+        "anchor": "and heard things too sacred to be put into words,",
+        "note": "tn Or “things that cannot be put into words.”"
+      },
+      {
+        "anchor": "things that a person",
+        "note": "tn Grk “a man.”"
+      }
+    ],
+    "6": [
+      {
+        "anchor": "For even if I wish to boast, I will not be a fool, for I would be telling",
+        "note": "tn Or “speaking.”"
+      },
+      {
+        "anchor": "the truth, but I refrain from this so that no one may regard",
+        "note": "tn Or “may think of.”"
+      }
+    ],
+    "7": [
+      {
+        "anchor": "even because of the extraordinary character of the revelations. Therefore,",
+        "note": "tc Most mss (Ì46 D Ψ 1881 Ï) lack διό (dio, “Therefore”), but the widespread distribution and quality of mss which include it (א A B F G 0243 33 81 1175 1739 pc) argues for its authenticity. Internally, its case is equally strong in that its inclusion is grammatically rough (διό is hardly necessary to convey purpose, especially since Paul uses ἵνα [{ina, “so that”] next)."
+      },
+      {
+        "anchor": "so that I would not become arrogant, a thorn in the flesh was given to me, a messenger of Satan to trouble",
+        "note": "tn Or “to harass.”"
+      },
+      {
+        "anchor": "me – so that I would not become arrogant.",
+        "note": "tn The phrase “so that I might not become arrogant” is repeated here because it occurs in the Greek text two times in the verse. Although redundant, it is repeated because of the emphatic nature of its affirmation."
+      }
+    ],
+    "9": [
+      {
+        "anchor": "But",
+        "note": "tn Here καί (kai) has been translated as “but” because of the contrast implicit in the context."
+      },
+      {
+        "anchor": "he said to me, “My grace is enough",
+        "note": "tn Or “is sufficient.”"
+      },
+      {
+        "anchor": "for you, for my",
+        "note": "tc The majority of later mss (א2 Ac D1 Ψ 0243 0278 33 1739 1881 Ï) as well as some versional witnesses include the pronoun “my” here, but the omission of the pronoun has excellent external support (Ì46vid א* A* B D* F G latt). Scribes probably added the pronoun for clarity, making the obvious referent explicit. This would also make “power” more parallel with “my grace.” Though the original text probably did not include “my,” scribes who added the word were following the sense of Paul’s statement.tn The pronoun “my” was supplied in the translation to clarify the sense of Paul’s expression."
+      },
+      {
+        "anchor": "power is made perfect",
+        "note": "tn Or “my power comes to full strength.”"
+      },
+      {
+        "anchor": "in weakness.” So then, I will boast most gladly",
+        "note": "tn “Most gladly,” a comparative form used with superlative meaning and translated as such."
+      },
+      {
+        "anchor": "about my weaknesses, so that the power of Christ may reside in",
+        "note": "tn Or “may rest on.”"
+      }
+    ],
+    "10": [
+      {
+        "anchor": "Therefore I am content with",
+        "note": "tn Or “I take delight in.”"
+      },
+      {
+        "anchor": "weaknesses, with insults, with troubles, with persecutions and difficulties",
+        "note": "tn Or “calamities.”"
+      }
+    ],
+    "11": [
+      {
+        "anchor": "I have become a fool. You yourselves forced me to do it, for I should have been commended by you. For I lack nothing in comparison",
+        "note": "tn Or “I am in no way inferior.”"
+      }
+    ],
+    "12": [
+      {
+        "anchor": "Indeed, the signs of an apostle were performed among you with great perseverance",
+        "note": "tn Or “patience,” “endurance.”"
+      },
+      {
+        "anchor": "by signs and wonders and powerful deeds.",
+        "note": "tn Or “and miracles.”"
+      }
+    ],
+    "13": [
+      {
+        "anchor": "For how",
+        "note": "tn Grk “For in what respect.”"
+      }
+    ],
+    "14": [
+      {
+        "anchor": "Look, for the third time I am ready to come to you, and I will not be a burden to you, because I do not want your possessions, but you. For children should not have",
+        "note": "tn Grk “children ought not,” but this might give the impression that children are not supposed to support sick or aging parents in need of help. That is not what Paul is saying. His point is that children should not have to pay their parent’s way."
+      }
+    ],
+    "15": [
+      {
+        "anchor": "Now I will most gladly spend and be spent for your lives!",
+        "note": "tn Grk “souls.”"
+      }
+    ],
+    "17": [
+      {
+        "anchor": "I have not taken advantage of you through anyone I have sent to you, have I?",
+        "note": "tn The Greek construction anticipates a negative answer, indicated by the ‘tag’ question “have I?” at the end of the clause. The question is rhetorical."
+      }
+    ],
+    "18": [
+      {
+        "anchor": "I urged Titus to visit you",
+        "note": "tn The words “to visit you” are not in the Greek text but are implied. Direct objects were often omitted in Greek when clear from the context, and must be supplied for the modern reader."
+      },
+      {
+        "anchor": "and I sent our",
+        "note": "tn Grk “the.”"
+      },
+      {
+        "anchor": "brother along with him. Titus did not take advantage of you, did he?",
+        "note": "tn The Greek construction anticipates a negative answer, indicated by the ‘tag’ question “did he?” at the end of the clause."
+      },
+      {
+        "anchor": "Did we not conduct ourselves in the same spirit? Did we not behave in the same way?",
+        "note": "tn Grk “[Did we not walk] in the same tracks?” This is an idiom that means to imitate someone else or to behave as they do. Paul’s point is that he and Titus have conducted themselves in the same way toward the Corinthians. If Titus did not take advantage of the Corinthians, then neither did Paul."
+      }
+    ],
+    "19": [
+      {
+        "anchor": "Have you been thinking all this time",
+        "note": "tc The reading “all this time” (πάλαι, palai) is found in several early and important Alexandrian and Western witnesses including א* A B F G 0243 6 33 81 365 1175 1739 1881 lat; the reading πάλιν (palin, “again”) is read by א2 D Ψ 0278 Ï sy bo; the reading οὐ πάλαι (ou palai) is read by Ì46, making the question even more emphatic. The reading of Ì46 could only have arisen from πάλαι. The reading πάλιν is significantly easier (“are you once again thinking that we are defending ourselves?”), for it softens Paul’s tone considerably. It thus seems to be a motivated reading and cannot easily explain the rise of πάλαι. Further, πάλαι has considerable support in the Alexandrian and Western witnesses, rendering it virtually certain as the original wording here."
+      },
+      {
+        "anchor": "that we have been defending ourselves to you? We are speaking in Christ before God, and everything we do, dear friends, is to build you up.",
+        "note": "tn Or “for your strengthening”; Grk “for your edification.”"
+      }
+    ],
+    "20": [
+      {
+        "anchor": "For I am afraid that somehow when I come I will not find you what I wish, and you will find me",
+        "note": "tn Grk “and I will be found by you.” The passive construction has been converted to an active one in the translation."
+      },
+      {
+        "anchor": "not what you wish. I am afraid that",
+        "note": "tn The words “I am afraid that” are not repeated in the Greek text, but are needed for clarity."
+      },
+      {
+        "anchor": "somehow there may be quarreling, jealousy, intense anger, selfish ambition,",
+        "note": "tn Or “intense anger, hostility.”"
+      }
+    ],
+    "21": [
+      {
+        "anchor": "I am afraid that",
+        "note": "tn The words “I am afraid that” are not repeated in the Greek text from v. 20, but are needed for clarity."
+      },
+      {
+        "anchor": "when I come again, my God may humiliate me before you, and I will grieve for",
+        "note": "tn Or “I will mourn over.”"
+      }
+    ]
   }
 }
