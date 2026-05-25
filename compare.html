@@ -1540,7 +1540,7 @@
       color: #3d2e1a;
     }
 
-    /* ===== ALI1665 ERRATA STAR & TOOLTIP ===== */
+    /* ===== VERSE ANNOTATION STARS & TOOLTIP ===== */
     .errata-star {
       display: inline;
       background: none;
@@ -1558,6 +1558,23 @@
     }
     .errata-star:hover { color: var(--gold-light); opacity: 0.8; }
     .errata-star:focus-visible { outline: 1px solid var(--gold); outline-offset: 1px; }
+    .notes-star {
+      display: inline;
+      background: none;
+      border: none;
+      cursor: pointer;
+      color: #4db8b8;
+      font-size: 11px;
+      line-height: 1;
+      padding: 0 1px;
+      vertical-align: super;
+      font-family: 'Jost', sans-serif;
+      font-weight: 700;
+      opacity: 1;
+      transition: opacity 0.12s, color 0.12s;
+    }
+    .notes-star:hover { color: #7dcfcf; opacity: 0.8; }
+    .notes-star:focus-visible { outline: 1px solid #4db8b8; outline-offset: 1px; }
 
     #errata-tooltip {
       position: fixed;
@@ -1767,7 +1784,7 @@
 
 <div id="kie-tooltip"><span class="kie-tt-word"></span><span class="kie-tt-sep"> : </span><span class="kie-tt-gloss"></span></div>
 <div id="xref-tooltip"><div class="xref-tt-ref"></div><div class="xref-tt-text"></div></div>
-<div id="errata-tooltip"><div class="errata-tt-label">El yazması notu · 1665</div><div class="errata-tt-text"></div></div>
+<div id="errata-tooltip"><div class="errata-tt-label"></div><div class="errata-tt-text"></div></div>
 
 <script>
   // ── Static data ───────────────────────────────────────────────────────
@@ -2016,6 +2033,19 @@
     return errataCache[bookCode];
   }
 
+  // ── Notes cache (TCL02) ───────────────────────────────────────────────
+  const notesCache = {};
+  async function getTCL02Notes(bookCode) {
+    if (bookCode in notesCache) return notesCache[bookCode];
+    try {
+      const res = await fetch(`data/notes/TCL02_${bookCode}.json`);
+      notesCache[bookCode] = res.ok ? await res.json() : null;
+    } catch {
+      notesCache[bookCode] = null;
+    }
+    return notesCache[bookCode];
+  }
+
   // ── Translation availability helper ──────────────────────────────────
   function isTransAvailableForBook(tid, bookCode) {
     if (tid === 'SEA1666'     && !SEA_BOOKS.has(bookCode))       return false;
@@ -2159,7 +2189,7 @@
     return text;
   }
 
-  function renderChapter(container, data, chapterFallback, translationId, chapterErrata) {
+  function renderChapter(container, data, chapterFallback, translationId, chapterErrata, chapterNotes) {
     const chDiv = document.createElement('div');
     chDiv.className = 'chapter';
     const chNum = data.c ?? chapterFallback ?? currentChapter;
@@ -2189,7 +2219,18 @@
           star.textContent = '*';
           star.title = 'El yazması notu (1665)';
           star.dataset.note = errataNote;
+          star.dataset.label = 'El yazması notu · 1665';
           v.querySelector('.vt').appendChild(star);
+        }
+        const notesNote = chapterNotes?.[String(item.v)];
+        if (notesNote) {
+          const btn = document.createElement('button');
+          btn.className = 'notes-star';
+          btn.textContent = '†';
+          btn.title = 'Dipnot (TCL02)';
+          btn.dataset.note = notesNote;
+          btn.dataset.label = 'Dipnot · Yeni Çeviri';
+          v.querySelector('.vt').appendChild(btn);
         }
         chDiv.appendChild(v);
       }
@@ -2228,13 +2269,18 @@
       const errataData = await getErrataData(bookCode);
       chapterErrata = errataData ? (errataData[String(chapter)] ?? null) : null;
     }
+    let chapterNotes = null;
+    if (translationId === 'TCL02') {
+      const notesData = await getTCL02Notes(bookCode);
+      chapterNotes = notesData ? (notesData[String(chapter)] ?? null) : null;
+    }
     try {
       const res = await fetch(`data/translations/${translationId}/${bookCode}/${chapter}.json`, { cache: 'no-cache' });
       if (!res.ok) throw new Error('not found');
       const data = await res.json();
       // Cache for search
       chapterCache.set(`${translationId}|${bookCode}|${chapter}`, data.content ?? []);
-      renderChapter(container, data, chapter, translationId, chapterErrata);
+      renderChapter(container, data, chapter, translationId, chapterErrata, chapterNotes);
     } catch {
       const entry = TRANS_NOTES[translationId];
       if (entry && !entry[0].has(bookCode)) {
@@ -2821,10 +2867,12 @@
   // ── ALI1665 Errata tooltip ────────────────────────────────────────────
   (() => {
     const tip = document.getElementById('errata-tooltip');
+    const tipLabel = tip.querySelector('.errata-tt-label');
     const tipText = tip.querySelector('.errata-tt-text');
     let activeStar = null;
 
     function showAt(star) {
+      tipLabel.textContent = star.dataset.label || '';
       tipText.textContent = star.dataset.note;
       tip.classList.add('visible');
       requestAnimationFrame(() => {
@@ -2843,7 +2891,7 @@
     function hide() { tip.classList.remove('visible'); activeStar = null; }
 
     document.addEventListener('click', e => {
-      const star = e.target.closest('.errata-star');
+      const star = e.target.closest('.errata-star, .notes-star');
       if (star) {
         e.stopPropagation();
         if (activeStar === star) { hide(); return; }
