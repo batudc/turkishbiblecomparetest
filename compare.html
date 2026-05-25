@@ -1592,6 +1592,32 @@
     }
     .net-star:hover { color: #c4b5fd; opacity: 0.8; }
     .net-star:focus-visible { outline: 1px solid #a78bfa; outline-offset: 1px; }
+    .niv-star, .nlt-star, .esv-star, .ttt-star {
+      display: inline;
+      background: none;
+      border: none;
+      cursor: pointer;
+      font-size: 11px;
+      line-height: 1;
+      padding: 0 1px;
+      vertical-align: super;
+      font-family: 'Jost', sans-serif;
+      font-weight: 700;
+      opacity: 1;
+      transition: opacity 0.12s, color 0.12s;
+    }
+    .niv-star { color: #38bdf8; }
+    .niv-star:hover { color: #7dd3fc; opacity: 0.8; }
+    .niv-star:focus-visible { outline: 1px solid #38bdf8; outline-offset: 1px; }
+    .nlt-star { color: #fb923c; }
+    .nlt-star:hover { color: #fdba74; opacity: 0.8; }
+    .nlt-star:focus-visible { outline: 1px solid #fb923c; outline-offset: 1px; }
+    .esv-star { color: #6ee7b7; }
+    .esv-star:hover { color: #a7f3d0; opacity: 0.8; }
+    .esv-star:focus-visible { outline: 1px solid #6ee7b7; outline-offset: 1px; }
+    .ttt-star { color: #fbbf24; }
+    .ttt-star:hover { color: #fde68a; opacity: 0.8; }
+    .ttt-star:focus-visible { outline: 1px solid #fbbf24; outline-offset: 1px; }
 
     #errata-tooltip {
       position: fixed;
@@ -2063,18 +2089,27 @@
     return notesCache[bookCode];
   }
 
-  // ── Notes cache (NET) ─────────────────────────────────────────────────
-  const netNotesCache = {};
-  async function getNETNotes(bookCode) {
-    if (bookCode in netNotesCache) return netNotesCache[bookCode];
+  // ── Inline notes cache (NET, NIV, NLT, ESV, TTT) ─────────────────────
+  const inlineNotesCache = {};
+  async function getInlineNotes(trans, bookCode) {
+    const key = `${trans}_${bookCode}`;
+    if (key in inlineNotesCache) return inlineNotesCache[key];
     try {
-      const res = await fetch(`data/notes/NET_${bookCode}.json`);
-      netNotesCache[bookCode] = res.ok ? await res.json() : null;
+      const res = await fetch(`data/notes/${trans}_${bookCode}.json`);
+      inlineNotesCache[key] = res.ok ? await res.json() : null;
     } catch {
-      netNotesCache[bookCode] = null;
+      inlineNotesCache[key] = null;
     }
-    return netNotesCache[bookCode];
+    return inlineNotesCache[key];
   }
+
+  const INLINE_NOTES_CONFIG = {
+    NET: { cls: 'net-star',  symbol: '‡', label: 'Translator Note · NET' },
+    NIV: { cls: 'niv-star',  symbol: '†', label: 'Footnote · NIV' },
+    NLT: { cls: 'nlt-star',  symbol: '†', label: 'Footnote · NLT' },
+    ESV: { cls: 'esv-star',  symbol: '†', label: 'Footnote · ESV' },
+    TTT: { cls: 'ttt-star',  symbol: '†', label: 'Dipnot · TTT' },
+  };
 
   // ── Translation availability helper ──────────────────────────────────
   function isTransAvailableForBook(tid, bookCode) {
@@ -2219,7 +2254,7 @@
     return text;
   }
 
-  function renderChapter(container, data, chapterFallback, translationId, chapterErrata, chapterNotes, chapterNetNotes) {
+  function renderChapter(container, data, chapterFallback, translationId, chapterErrata, chapterNotes, chapterExtraNotes) {
     const chDiv = document.createElement('div');
     chDiv.className = 'chapter';
     const chNum = data.c ?? chapterFallback ?? currentChapter;
@@ -2262,11 +2297,15 @@
           btn.dataset.label = 'Dipnot · Yeni Çeviri';
           v.querySelector('.vt').appendChild(btn);
         }
-        const netNotes = chapterNetNotes?.[String(item.v)];
-        if (netNotes) {
+        if (chapterExtraNotes) {
           const vtEl = v.querySelector('.vt');
-          for (const {anchor, note} of netNotes) {
-            insertNetNote(vtEl, anchor, note);
+          for (const {cls, symbol, label, verseData} of chapterExtraNotes) {
+            const vNotes = verseData?.[String(item.v)];
+            if (vNotes) {
+              for (const {anchor, note} of vNotes) {
+                insertInlineNote(vtEl, anchor, note, cls, symbol, label);
+              }
+            }
           }
         }
         chDiv.appendChild(v);
@@ -2276,13 +2315,13 @@
     container.appendChild(chDiv);
   }
 
-  function insertNetNote(vtEl, anchor, noteText) {
+  function insertInlineNote(vtEl, anchor, noteText, cls, symbol, label) {
     const btn = document.createElement('button');
-    btn.className = 'net-star';
-    btn.textContent = '‡';
-    btn.title = 'Translator note (NET)';
+    btn.className = cls;
+    btn.textContent = symbol;
+    btn.title = label;
     btn.dataset.note = noteText;
-    btn.dataset.label = 'Translator Note · NET';
+    btn.dataset.label = label;
 
     if (!anchor) { vtEl.appendChild(btn); return; }
 
@@ -2348,10 +2387,12 @@
       const notesData = await getTCL02Notes(bookCode);
       chapterNotes = notesData ? (notesData[String(chapter)] ?? null) : null;
     }
-    let chapterNetNotes = null;
-    if (translationId === 'NET') {
-      const netData = await getNETNotes(bookCode);
-      chapterNetNotes = netData ? (netData[String(chapter)] ?? null) : null;
+    const chapterExtraNotes = [];
+    const inlineCfg = INLINE_NOTES_CONFIG[translationId];
+    if (inlineCfg) {
+      const notesData = await getInlineNotes(translationId, bookCode);
+      const verseData = notesData ? (notesData[String(chapter)] ?? null) : null;
+      if (verseData) chapterExtraNotes.push({ ...inlineCfg, verseData });
     }
     try {
       const res = await fetch(`data/translations/${translationId}/${bookCode}/${chapter}.json`, { cache: 'no-cache' });
@@ -2359,7 +2400,7 @@
       const data = await res.json();
       // Cache for search
       chapterCache.set(`${translationId}|${bookCode}|${chapter}`, data.content ?? []);
-      renderChapter(container, data, chapter, translationId, chapterErrata, chapterNotes, chapterNetNotes);
+      renderChapter(container, data, chapter, translationId, chapterErrata, chapterNotes, chapterExtraNotes.length ? chapterExtraNotes : null);
     } catch {
       const entry = TRANS_NOTES[translationId];
       if (entry && !entry[0].has(bookCode)) {
@@ -2970,7 +3011,7 @@
     function hide() { tip.classList.remove('visible'); activeStar = null; }
 
     document.addEventListener('click', e => {
-      const star = e.target.closest('.errata-star, .notes-star, .net-star');
+      const star = e.target.closest('.errata-star, .notes-star, .net-star, .niv-star, .nlt-star, .esv-star, .ttt-star');
       if (star) {
         e.stopPropagation();
         if (activeStar === star) { hide(); return; }
