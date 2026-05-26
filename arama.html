@@ -131,6 +131,61 @@
       transition: background 0.12s, color 0.12s, border-color 0.12s;
     }
     .hdr-btn:hover { background: rgba(184,146,42,0.12); border-color: rgba(184,146,42,0.3); color: var(--gold-light); }
+    /* ===== GUIDED TOUR ===== */
+    #btn-tour {
+      margin-left: 6px;
+      border-color: rgba(184,146,42,0.22) !important;
+      color: rgba(247,241,232,0.55) !important;
+      font-size: 15px !important;
+      min-width: 0; padding: 0 9px !important;
+    }
+    #btn-tour:hover { color: var(--gold-light) !important; border-color: rgba(184,146,42,0.45) !important; background: rgba(184,146,42,0.08) !important; }
+    #tour-click-block {
+      display: none; position: fixed; inset: 0;
+      z-index: 9980; pointer-events: all; cursor: pointer;
+    }
+    #tour-spotlight {
+      display: none; position: fixed; z-index: 9985;
+      border-radius: 5px; pointer-events: none;
+      box-shadow: 0 0 0 9999px rgba(8,20,31,0.84);
+      outline: 1.5px solid rgba(184,146,42,0.55);
+      transition: top .3s cubic-bezier(.4,0,.2,1), left .3s cubic-bezier(.4,0,.2,1),
+                  width .3s cubic-bezier(.4,0,.2,1), height .3s cubic-bezier(.4,0,.2,1);
+    }
+    #tour-tooltip {
+      display: none; position: fixed; z-index: 9992;
+      width: 290px; background: #0c1a27;
+      border: 1px solid rgba(184,146,42,0.32); border-radius: 7px;
+      padding: 16px 18px 14px;
+      box-shadow: 0 12px 40px rgba(0,0,0,0.65), 0 0 0 1px rgba(184,146,42,0.07);
+      pointer-events: all; user-select: none;
+      transition: top .3s cubic-bezier(.4,0,.2,1), left .3s cubic-bezier(.4,0,.2,1);
+    }
+    #tour-close {
+      position: absolute; top: 10px; right: 12px;
+      background: none; border: none; color: rgba(247,241,232,0.3);
+      font-size: 17px; cursor: pointer; line-height: 1; padding: 2px 4px; transition: color .12s;
+    }
+    #tour-close:hover { color: rgba(247,241,232,0.65); }
+    #tour-step-label { font-size: 10px; font-weight: 600; letter-spacing: .1em; text-transform: uppercase; color: var(--gold); margin-bottom: 7px; }
+    #tour-title-text { font-family: 'EB Garamond', Georgia, serif; font-size: 17px; font-weight: 600; color: #F7F1E8; margin-bottom: 8px; line-height: 1.25; }
+    #tour-desc-text { font-size: 12px; color: rgba(247,241,232,0.68); line-height: 1.62; margin-bottom: 14px; }
+    #tour-actions { display: flex; align-items: center; justify-content: space-between; gap: 8px; }
+    #tour-prev, #tour-next {
+      background: none; border: 1px solid rgba(184,146,42,0.28); color: var(--gold-light);
+      font-size: 11px; font-weight: 500; padding: 5px 13px; border-radius: 3px;
+      cursor: pointer; flex-shrink: 0; transition: background .12s, border-color .12s;
+    }
+    #tour-prev:hover, #tour-next:hover { background: rgba(184,146,42,0.1); border-color: rgba(184,146,42,0.5); }
+    #tour-prev:disabled { opacity: .28; cursor: not-allowed; }
+    #tour-next.tour-finish { background: rgba(184,146,42,0.14); border-color: rgba(184,146,42,0.5); }
+    #tour-dots { display: flex; gap: 6px; align-items: center; }
+    .tour-dot {
+      width: 5px; height: 5px; border-radius: 50%; background: rgba(184,146,42,0.22);
+      cursor: pointer; transition: background .15s, transform .15s; border: none; padding: 0; flex-shrink: 0;
+    }
+    .tour-dot.active { background: var(--gold); transform: scale(1.4); }
+    .tour-dot:hover { background: rgba(184,146,42,0.5); }
     #header-links {
       display: flex; align-items: center; gap: 2.5rem;
       flex-shrink: 0; padding: 0 3rem 0 2.5rem;
@@ -520,6 +575,7 @@
     <div id="header-controls">
       <button class="hdr-btn" id="btn-translations" title="Çevirileri seçin">Çeviri <span style="opacity:.4;font-size:9px;">&#9660;</span></button>
       <button class="hdr-btn" id="btn-gorunum">Görünüm <span style="opacity:.4;font-size:9px;">&#9660;</span></button>
+      <button class="hdr-btn" id="btn-tour" title="Site turunu başlat">?</button>
     </div>
     <div id="header-links">
       <a href="karsilastirma.html">Karşılaştır</a>
@@ -576,6 +632,20 @@
       <label class="panel-option active"><input type="radio" name="sr-fontsize" value="normal" checked> Normal</label>
       <label class="panel-option"><input type="radio" name="sr-fontsize" value="large"> Büyük</label>
     </div>
+  </div>
+</div>
+
+<div id="tour-click-block"></div>
+<div id="tour-spotlight"></div>
+<div id="tour-tooltip">
+  <button id="tour-close">×</button>
+  <div id="tour-step-label"></div>
+  <div id="tour-title-text"></div>
+  <div id="tour-desc-text"></div>
+  <div id="tour-actions">
+    <button id="tour-prev">← Geri</button>
+    <div id="tour-dots"></div>
+    <button id="tour-next">İleri →</button>
   </div>
 </div>
 
@@ -1387,6 +1457,121 @@ if (initQ.trim().length >= 2) {
 } else {
   qEl.focus();
 }
+
+  // ===== GUIDED TOUR =====
+  const TOUR_STEPS = [
+    {
+      sel: '#search-wrap',
+      title: 'Arama Kutusu',
+      desc: 'Herhangi bir kelime veya ifade yazın. Türkçe karakter duyarsızlığı (ş→s, ğ→g) ve Osmanlıca hat işaretleri (â→a) otomatik eşleştirilir.',
+      pos: 'bottom',
+    },
+    {
+      sel: '#btn-translations',
+      title: 'Çeviri Seçimi',
+      desc: 'Aramanın hangi çevirilerde yapılacağını seçin. Daha fazla çeviri seçmek daha kapsamlı sonuçlar sağlar.',
+      pos: 'bottom',
+    },
+    {
+      sel: '#header-stats',
+      title: 'Sonuç Sayacı',
+      desc: 'Toplam bulunan ayet sayısı ve tarama durumu burada görüntülenir. Tarama tamamlanmadan sonuçlar aşamalı olarak listelenir.',
+      pos: 'bottom',
+    },
+    {
+      sel: '#results-area',
+      title: 'Sonuçlar',
+      desc: 'Eşleşen ayetler kitap ve bölüme göre gruplandırılır. Bir ayete tıklayarak karşılaştırma sayfasında o bölümü açabilirsiniz.',
+      pos: 'top',
+    },
+    {
+      sel: '#btn-gorunum',
+      title: 'Görünüm',
+      desc: 'Tema ve yazı boyutu tercihlerinizi buradan ayarlayın.',
+      pos: 'bottom',
+    },
+  ];
+
+  let _tourStep = 0, _tourActive = false;
+
+  function _tourGetEl(step) {
+    if (step.sel) return document.querySelector(step.sel);
+    if (step.trySelectors) { for (const s of step.trySelectors) { const el = document.querySelector(s); if (el) return el; } }
+    return null;
+  }
+
+  function _tourSpotlight(el) {
+    const spot = document.getElementById('tour-spotlight'), P = 8;
+    if (!el) {
+      const cx=window.innerWidth/2, cy=window.innerHeight/2;
+      spot.style.cssText+=`;left:${cx-70}px;top:${cy-35}px;width:140px;height:70px`; return null;
+    }
+    const r = el.getBoundingClientRect();
+    spot.style.left=(r.left-P)+'px'; spot.style.top=(r.top-P)+'px';
+    spot.style.width=(r.width+P*2)+'px'; spot.style.height=(r.height+P*2)+'px';
+    return r;
+  }
+
+  function _tourPosition(spotRect, pos, fallbackPos) {
+    const tip=document.getElementById('tour-tooltip');
+    const TW=290, GAP=14, TH=tip.offsetHeight||160;
+    const VPW=window.innerWidth, VPH=window.innerHeight;
+    const eff=(!spotRect&&fallbackPos)?fallbackPos:pos;
+    let top, left;
+    if (eff==='center'||!spotRect){top=(VPH-TH)/2;left=(VPW-TW)/2;}
+    else {
+      left=spotRect.left+spotRect.width/2-TW/2;
+      if(eff==='top'){top=spotRect.top-TH-GAP;if(top<16)top=spotRect.bottom+GAP;}
+      else{top=spotRect.bottom+GAP;if(top+TH>VPH-16)top=spotRect.top-TH-GAP;}
+    }
+    left=Math.max(12,Math.min(left,VPW-TW-12));
+    top=Math.max(12,Math.min(top,VPH-TH-12));
+    tip.style.left=left+'px'; tip.style.top=top+'px';
+  }
+
+  function _tourRender(idx) {
+    const step=TOUR_STEPS[idx], total=TOUR_STEPS.length;
+    document.getElementById('tour-step-label').textContent=`${idx+1}  /  ${total}`;
+    document.getElementById('tour-title-text').textContent=step.title;
+    document.getElementById('tour-desc-text').textContent=step.desc;
+    const prevBtn=document.getElementById('tour-prev'), nextBtn=document.getElementById('tour-next');
+    prevBtn.disabled=idx===0;
+    const isLast=idx===total-1;
+    nextBtn.textContent=isLast?'Tamamla ✓':'İleri →';
+    nextBtn.className=isLast?'tour-finish':'';
+    document.querySelectorAll('.tour-dot').forEach((d,i)=>d.classList.toggle('active',i===idx));
+    const el=_tourGetEl(step), spotRect=_tourSpotlight(el);
+    requestAnimationFrame(()=>_tourPosition(spotRect,step.pos,step.fallbackPos));
+  }
+
+  function _startTour() {
+    if(_tourActive){_endTour();return;} _tourActive=true; _tourStep=0;
+    document.getElementById('tour-click-block').style.display='block';
+    document.getElementById('tour-spotlight').style.display='block';
+    document.getElementById('tour-tooltip').style.display='block';
+    const dotsEl=document.getElementById('tour-dots'); dotsEl.innerHTML='';
+    TOUR_STEPS.forEach((_,i)=>{
+      const d=document.createElement('button');
+      d.className='tour-dot'+(i===0?' active':'');
+      d.addEventListener('click',e=>{e.stopPropagation();_tourRender(i);_tourStep=i;});
+      dotsEl.appendChild(d);
+    });
+    _tourRender(0);
+  }
+
+  function _endTour() {
+    _tourActive=false;
+    document.getElementById('tour-click-block').style.display='none';
+    document.getElementById('tour-spotlight').style.display='none';
+    document.getElementById('tour-tooltip').style.display='none';
+  }
+
+  document.getElementById('btn-tour').addEventListener('click',_startTour);
+  document.getElementById('tour-close').addEventListener('click',_endTour);
+  document.getElementById('tour-prev').addEventListener('click',()=>{if(_tourStep>0){_tourStep--;_tourRender(_tourStep);}});
+  document.getElementById('tour-next').addEventListener('click',()=>{if(_tourStep<TOUR_STEPS.length-1){_tourStep++;_tourRender(_tourStep);}else _endTour();});
+  document.getElementById('tour-click-block').addEventListener('click',()=>{if(_tourStep<TOUR_STEPS.length-1){_tourStep++;_tourRender(_tourStep);}else _endTour();});
+  document.addEventListener('keydown',e=>{if(!_tourActive)return;if(e.key==='Escape')_endTour();else if(e.key==='ArrowRight'&&_tourStep<TOUR_STEPS.length-1){_tourStep++;_tourRender(_tourStep);}else if(e.key==='ArrowLeft'&&_tourStep>0){_tourStep--;_tourRender(_tourStep);}});
 </script>
 </body>
 </html>
