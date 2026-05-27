@@ -725,9 +725,12 @@
       #header-links {
         display: flex;
         flex-shrink: 0;
-        padding: 0 0 0 10px;
-        margin-left: 8px;
-        border-left: 1px solid rgba(184,146,42,0.2);
+        order: -1;
+        padding: 0 10px 0 0;
+        margin-left: 0;
+        margin-right: 8px;
+        border-left: none;
+        border-right: 1px solid rgba(184,146,42,0.2);
         gap: 10px;
         white-space: nowrap;
         align-items: center;
@@ -750,6 +753,12 @@
         overflow-y: auto;
       }
       .sp-inner { width: 100% !important; }
+    }
+    /* ===== MEDIUM SCREENS (iPhone landscape, small tablets) ===== */
+    @media (max-width: 960px) {
+      #logo-text { display: none; }
+      #header-links { padding: 0 0.75rem 0 0.75rem; gap: 1.25rem; }
+      #header-links a { font-size: 0.7rem; }
     }
     /* ===== LANDSCAPE MOBILE ===== */
     @media (max-width: 640px) and (orientation: landscape) {

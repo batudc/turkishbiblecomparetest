@@ -405,6 +405,27 @@
       .tools-section { padding-left: 1.5rem; padding-right: 1.5rem; }
       .footer-inner { grid-template-columns: 1fr 1fr; }
     }
+
+    @media (max-width: 640px) {
+      /* Hero padding */
+      .hero-bg-left { padding: 3rem 1.5rem 3.5rem; }
+
+      /* Buttons: stack vertically; primary full-width, secondary compact */
+      .hero-actions { flex-direction: column; align-items: stretch; gap: 0.75rem; }
+      .btn-primary { justify-content: center; }
+      .btn-secondary { width: fit-content; padding: 0.65rem 1.5rem; }
+
+      /* Stats: 2x2 grid */
+      .hero-stats { display: grid; grid-template-columns: 1fr 1fr; gap: 1.5rem 2rem; }
+
+      /* Footer: single column */
+      footer { padding: 3rem 1.5rem 2rem; }
+      .footer-inner { grid-template-columns: 1fr; gap: 2rem; }
+      .footer-bottom { flex-direction: column; align-items: flex-start; gap: 0.4rem; }
+
+      /* Nav */
+      nav { padding: 0 1rem; }
+    }
   </style>
   <script defer src="/_vercel/insights/script.js"></script>
   <script defer src="/_vercel/speed-insights/script.js"></script>
