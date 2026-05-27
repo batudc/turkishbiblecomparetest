@@ -83,6 +83,7 @@
       color: rgba(247,241,232,0.55); text-decoration: none; transition: color 0.2s ease;
     }
     #header-links a:hover { color: var(--gold-light); }
+    #header-row2 { display: contents; }
     /* ── NAV BUTTONS (match karsilastirma.html .hdr-btn) ──────────────── */
     .hdr-btn {
       padding: 6px 13px;
@@ -167,6 +168,10 @@
     }
     .tour-dot.active { background: var(--gold); transform: scale(1.4); }
     .tour-dot:hover { background: rgba(184,146,42,0.5); }
+    #tour-cursor { position:fixed; pointer-events:none; z-index:9995; display:none; transform:translate(-4px,-2px); transition:left 0.38s cubic-bezier(0.4,0,0.2,1), top 0.38s cubic-bezier(0.4,0,0.2,1); filter:drop-shadow(0 2px 4px rgba(0,0,0,0.5)); }
+    #tour-cursor-ripple { position:fixed; pointer-events:none; z-index:9994; width:38px; height:38px; border-radius:50%; border:2px solid rgba(184,146,42,0.75); display:none; transform:translate(-50%,-50%); }
+    @keyframes _tourCursorClick { 0%,100%{transform:translate(-4px,-2px) scale(1)} 45%{transform:translate(-4px,-2px) scale(0.78)} }
+    @keyframes _tourCursorRipple { 0%{transform:translate(-50%,-50%) scale(0.1);opacity:1} 100%{transform:translate(-50%,-50%) scale(2.6);opacity:0} }
 
     /* ── NAV DROPDOWN PANELS ─────────────────────────────────────── */
     .panel {
@@ -693,17 +698,41 @@
 
     @media (max-width: 640px) {
       /* Header */
-      #header { height: 50px; padding: 0 8px; gap: 4px; }
+      #header { height: auto; padding: 5px 8px 4px; gap: 6px; flex-wrap: wrap; align-items: center; }
+      #logo { margin-right: 0; padding: 3px 0; flex-shrink: 0; }
       #logo-text { display: none; }
-      #logo img { height: 26px; }
-      #search-wrap { display: none; }
+      #logo img { height: 24px; }
+      #search-wrap { display: block; flex: 1; min-width: 80px; max-width: none; }
+      #search-input { padding: 6px 10px 6px 28px; font-size: 12px; }
+      #search-wrap svg { width: 12px; height: 12px; left: 8px; }
+      #header-row2 {
+        flex: 0 0 100%;
+        display: flex;
+        overflow-x: auto;
+        scrollbar-width: none;
+        -webkit-overflow-scrolling: touch;
+        align-items: center;
+        padding: 4px 0;
+        border-top: 1px solid rgba(184,146,42,0.12);
+        gap: 0;
+      }
+      #header-row2::-webkit-scrollbar { display: none; }
+      #header-controls { display: flex; flex-wrap: nowrap; gap: 3px; flex-shrink: 0; margin: 0; }
+      #header-links {
+        display: flex;
+        flex-shrink: 0;
+        padding: 0 0 0 10px;
+        margin-left: 8px;
+        border-left: 1px solid rgba(184,146,42,0.2);
+        gap: 10px;
+        white-space: nowrap;
+        align-items: center;
+      }
+      #header-links a { font-size: 9.5px; letter-spacing: 0.07em; }
 
       /* Shrink all header buttons */
-      .hdr-btn {
-        padding: 0 8px; height: 32px;
-        font-size: 10.5px; letter-spacing: 0.04em;
-      }
-      .nav-arrow { width: 30px; height: 30px; font-size: 16px; }
+      .hdr-btn { padding: 0 8px; height: 28px; font-size: 10.5px; letter-spacing: 0.04em; flex-shrink: 0; }
+      .nav-arrow { width: 28px; height: 28px; font-size: 14px; flex-shrink: 0; }
 
       /* Book label: truncate */
       #btn-books { max-width: 80px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
@@ -744,6 +773,13 @@
         border-radius: 14px 14px 0 0;
       }
     }
+    /* ===== LANDSCAPE MOBILE ===== */
+    @media (max-width: 640px) and (orientation: landscape) {
+      #header { flex-wrap: nowrap; height: 44px; padding: 0 8px; gap: 4px; }
+      #logo { padding: 0; }
+      #search-wrap { flex: 0 0 90px; max-width: 90px; }
+      #header-row2 { flex: 1; border-top: none; padding: 0; height: 44px; min-width: 0; }
+    }
 
   </style>
   <script defer src="/_vercel/insights/script.js"></script>
@@ -764,19 +800,21 @@
       </svg>
       <input id="search-input" type="text" name="q" placeholder="arama yapın…" autocomplete="off" />
     </form>
-    <div id="header-controls">
-      <button class="hdr-btn" id="btn-books" title="Kitap seçin">Yuhanna <span style="opacity:.4;font-size:9px;">▾</span></button>
-      <button class="nav-arrow" id="btn-prev">‹</button>
-      <button class="hdr-btn" id="btn-chapter" title="Bölüm seçin" style="min-width:80px;text-align:center;">1. Bölüm</button>
-      <button class="nav-arrow" id="btn-next">›</button>
-      <button class="hdr-btn" id="settings-btn" title="Görünüm seçenekleri">Görünüm <span style="opacity:.4;font-size:9px;">▾</span></button>
-      <button class="hdr-btn" id="btn-ayarlar" title="Gösterim seçenekleri">Ayarlar <span style="opacity:.4;font-size:9px;">▾</span></button>
-      <button class="hdr-btn" id="btn-tour" title="Site turunu başlat">?</button>
-    </div>
-    <div id="header-links">
-      <a href="karsilastirma.html">Karşılaştır</a>
-      <a href="antikdil.html">Dil İnceleme</a>
-      <a href="arama.html">Ayet Ara</a>
+    <div id="header-row2">
+      <div id="header-controls">
+        <button class="hdr-btn" id="btn-books" title="Kitap seçin">Yuhanna <span style="opacity:.4;font-size:9px;">▾</span></button>
+        <button class="nav-arrow" id="btn-prev">‹</button>
+        <button class="hdr-btn" id="btn-chapter" title="Bölüm seçin" style="min-width:80px;text-align:center;">1. Bölüm</button>
+        <button class="nav-arrow" id="btn-next">›</button>
+        <button class="hdr-btn" id="settings-btn" title="Görünüm seçenekleri">Görünüm <span style="opacity:.4;font-size:9px;">▾</span></button>
+        <button class="hdr-btn" id="btn-ayarlar" title="Gösterim seçenekleri">Ayarlar <span style="opacity:.4;font-size:9px;">▾</span></button>
+        <button class="hdr-btn" id="btn-tour" title="Site turunu başlat">?</button>
+      </div>
+      <div id="header-links">
+        <a href="karsilastirma.html">Karşılaştır</a>
+        <a href="antikdil.html">Dil İnceleme</a>
+        <a href="arama.html">Ayet Ara</a>
+      </div>
     </div>
   </div>
 
@@ -957,6 +995,8 @@
 
 <div id="tour-click-block"></div>
 <div id="tour-spotlight"></div>
+<div id="tour-cursor"><svg width="20" height="24" viewBox="0 0 20 24" fill="none"><path d="M3.5 1.5L3.5 20.5L7.5 16.5L10 23L12.5 22L10 15.5L17.5 15.5Z" fill="white" stroke="#111" stroke-width="1.3" stroke-linejoin="round" stroke-linecap="round"/></svg></div>
+<div id="tour-cursor-ripple"></div>
 <div id="tour-tooltip">
   <button id="tour-close">×</button>
   <div id="tour-step-label"></div>
@@ -1128,7 +1168,7 @@ function closeNavPanel() {
 }
 
 document.addEventListener('click', e => {
-  if (!e.target.closest('.panel') && !e.target.closest('.hdr-btn')) closeNavPanel();
+  if (!_tourActive && !e.target.closest('.panel') && !e.target.closest('.hdr-btn')) closeNavPanel();
 });
 
 function buildChapters(meta) {
@@ -2613,6 +2653,36 @@ load(initBook, initCh);
   let _tourElevated = [];
   let _tourSpOpen = false; // strongs panel opened during tour
 
+  function _tourCursorClick(getEl, delay, action) {
+    setTimeout(() => {
+      if (!_tourActive) return;
+      const el = typeof getEl === 'function' ? getEl() : getEl;
+      if (!el) return;
+      const r = el.getBoundingClientRect();
+      if (!r.width && !r.height) return;
+      const cur = document.getElementById('tour-cursor');
+      cur.style.display = 'block';
+      cur.style.left = (r.left + r.width / 2) + 'px';
+      cur.style.top  = (r.top  + r.height / 2) + 'px';
+    }, delay);
+    setTimeout(() => {
+      if (!_tourActive) return;
+      const el = typeof getEl === 'function' ? getEl() : getEl;
+      if (!el) return;
+      const r = el.getBoundingClientRect();
+      if (!r.width && !r.height) return;
+      const cx = r.left + r.width / 2, cy = r.top + r.height / 2;
+      const cur = document.getElementById('tour-cursor');
+      cur.style.animation = 'none'; cur.offsetHeight; cur.style.animation = '_tourCursorClick 0.22s ease-out';
+      const rip = document.getElementById('tour-cursor-ripple');
+      rip.style.left = cx + 'px'; rip.style.top = cy + 'px';
+      rip.style.display = 'block'; rip.style.animation = 'none'; rip.offsetHeight;
+      rip.style.animation = '_tourCursorRipple 0.52s ease-out forwards';
+      setTimeout(() => { rip.style.display = 'none'; }, 540);
+      if (action) action();
+    }, delay + 400);
+  }
+
   function _tourCleanup() {
     closeNavPanel();
     _tourElevated.forEach(el => { el.style.zIndex = ''; });
@@ -2625,6 +2695,10 @@ load(initBook, initCh);
     }
     const so = document.getElementById('settings-panel');
     if (so) so.style.zIndex = '';
+    const cur = document.getElementById('tour-cursor');
+    if (cur) { cur.style.display = 'none'; cur.style.left = '-100px'; cur.style.top = '-100px'; cur.style.transform = 'translate(-4px,-2px)'; }
+    const rip = document.getElementById('tour-cursor-ripple');
+    if (rip) rip.style.display = 'none';
   }
 
   const TOUR_STEPS = [
@@ -2635,48 +2709,30 @@ load(initBook, initCh);
       pos: 'bottom',
     },
     {
-      sel: '#btn-books',
-      title: 'Kitap Seçimi',
-      desc: 'İncelemek istediğiniz kitabı seçin. Eski Ahit (İbranice) ve Yeni Ahit (Yunanca) metinleri ayrı kategorilerdedir.',
-      pos: 'bottom',
-    },
-    {
-      sel: '#btn-chapter',
-      title: 'Bölüm Navigasyonu',
-      desc: 'İncelemek istediğiniz bölüme gidin. ‹ › oklarıyla bölümler arasında hızlıca ileri-geri geçiş yapabilirsiniz.',
-      pos: 'bottom',
-    },
-    {
       sel: '#scroll-area',
       title: 'Satır Satır Kelime Analizi',
       desc: 'Her Yunanca/İbranice kelime; Türkçe anlamı, transliterasyon ve Strong numarasıyla birlikte satır satır gösterilir.',
       pos: 'top',
     },
     {
-      sel: '#strongs-panel',
+      sel: '#scroll-area .wt',
       title: 'Strong\'s Sözlüğü',
       desc: 'Herhangi bir kelimeye tıkladığınızda bu panelde kökü, anlam alanı, morfoloji tablosu ve kullanım istatistikleri görüntülenir.',
-      pos: 'left',
-      onEnter() {
-        document.querySelector('#scroll-area .wt')?.click();
-        const sp = document.getElementById('strongs-panel');
-        if (sp) {
-          _tourSpOpen = true;
-          const topPx = document.getElementById('header')?.getBoundingClientRect().bottom || 48;
-          Object.assign(sp.style, { position:'fixed', right:'0', top:topPx+'px',
-            bottom:'0', width:'360px', zIndex:'9991', display:'flex', flexDirection:'column', overflow:'hidden' });
-        }
-      },
-    },
-    {
-      sel: '#panel-gorunum',
-      title: 'Görünüm',
-      desc: 'Tema ve yazı boyutu tercihlerinizi buradan ayarlayın.',
       pos: 'bottom',
       onEnter() {
-        togglePanel('panel-gorunum', document.getElementById('settings-btn'));
-        const p = document.getElementById('panel-gorunum');
-        p.style.zIndex = '9991'; _tourElevated.push(p);
+        _tourCursorClick(() => document.querySelector('#scroll-area .wt'), 500, () => {
+          document.querySelector('#scroll-area .wt')?.click();
+        });
+        setTimeout(() => {
+          if (!_tourActive) return;
+          const sp = document.getElementById('strongs-panel');
+          if (sp) {
+            _tourSpOpen = true;
+            const topPx = document.getElementById('header')?.getBoundingClientRect().bottom || 48;
+            Object.assign(sp.style, { position:'fixed', right:'0', top:topPx+'px',
+              bottom:'0', width:'360px', zIndex:'9991', display:'flex', flexDirection:'column', overflow:'hidden' });
+          }
+        }, 1000);
       },
     },
     {
@@ -2687,6 +2743,12 @@ load(initBook, initCh);
       onEnter() {
         openSettings();
         document.getElementById('settings-panel').style.zIndex = '9991';
+        _tourCursorClick(() => document.getElementById('sw-st')?.closest('label')?.querySelector('.sw-track'), 600, () => {
+          document.getElementById('sw-st')?.click();
+        });
+        _tourCursorClick(() => document.getElementById('sw-st')?.closest('label')?.querySelector('.sw-track'), 1600, () => {
+          document.getElementById('sw-st')?.click();
+        });
       },
     },
   ];

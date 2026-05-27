@@ -177,7 +177,7 @@
       transition: color 0.2s ease;
     }
     #header-links a:hover { color: var(--gold-light); }
-
+    #header-row2 { display: contents; }
 
     /* ===== READER WRAPPER + SIDEBAR ===== */
     #reader-wrapper {
@@ -1392,26 +1392,45 @@
 
       /* — Header — */
       #header {
-        height: 50px;
-        padding: 0 10px;
-        gap: 5px;
+        height: auto;
+        padding: 5px 10px 4px;
+        gap: 6px;
+        flex-wrap: wrap;
+        align-items: center;
       }
-      #logo { margin-right: 4px; }
-      #logo img { height: 26px; }
+      #logo { margin-right: 0; padding: 3px 0; }
+      #logo img { height: 24px; }
       #logo-text { display: none; }
-      #search-wrap { display: none; }
-      #btn-top, #btn-share, #header-links { display: none; }
-
-      .hdr-btn {
-        padding: 0 10px;
-        height: 34px;
-        font-size: 11.5px;
+      #search-wrap { display: block; flex: 1; min-width: 80px; max-width: none; }
+      #search-input { padding: 6px 10px 6px 28px; font-size: 12px; }
+      #search-wrap svg { width: 12px; height: 12px; left: 8px; }
+      #btn-top, #btn-share { display: none; }
+      #header-row2 {
+        flex: 0 0 100%;
+        display: flex;
+        overflow-x: auto;
+        scrollbar-width: none;
+        -webkit-overflow-scrolling: touch;
+        align-items: center;
+        padding: 4px 0;
+        border-top: 1px solid rgba(184,146,42,0.12);
+        gap: 0;
       }
-      .hdr-nav-arrow {
-        width: 34px;
-        height: 34px;
-        font-size: 16px;
+      #header-row2::-webkit-scrollbar { display: none; }
+      #header-controls { display: flex; flex-wrap: nowrap; gap: 3px; flex-shrink: 0; margin: 0; }
+      #header-links {
+        display: flex;
+        flex-shrink: 0;
+        padding: 0 0 0 10px;
+        margin-left: 8px;
+        border-left: 1px solid rgba(184,146,42,0.2);
+        gap: 10px;
+        white-space: nowrap;
+        align-items: center;
       }
+      #header-links a { font-size: 9.5px; letter-spacing: 0.07em; }
+      .hdr-btn { padding: 0 8px; height: 28px; font-size: 10.5px; flex-shrink: 0; }
+      .hdr-nav-arrow { width: 28px; height: 28px; font-size: 14px; flex-shrink: 0; }
 
       /* — Translation tab bar — */
       #mobile-col-tabs {
@@ -1490,6 +1509,13 @@
         border-radius: 14px 14px 0 0;
         z-index: 190;
       }
+    }
+    /* ===== LANDSCAPE MOBILE ===== */
+    @media (max-width: 640px) and (orientation: landscape) {
+      #header { flex-wrap: nowrap; height: 44px; padding: 0 10px; gap: 5px; }
+      #logo { padding: 0; }
+      #search-wrap { flex: 0 0 90px; max-width: 90px; }
+      #header-row2 { flex: 1; border-top: none; padding: 0; height: 44px; min-width: 0; }
     }
     /* ===== KIE1819 INLINE GLOSS TOOLTIPS ===== */
     .kie-gloss-word {
@@ -1690,6 +1716,11 @@
     }
     .tour-dot.active { background: var(--gold); transform: scale(1.4); }
     .tour-dot:hover { background: rgba(184,146,42,0.5); }
+    @keyframes _tourDragHint { 0%,100%{transform:translateX(0)} 25%{transform:translateX(22px)} 65%{transform:translateX(-10px)} }
+    #tour-cursor { position:fixed; pointer-events:none; z-index:9995; display:none; transform:translate(-4px,-2px); transition:left 0.38s cubic-bezier(0.4,0,0.2,1), top 0.38s cubic-bezier(0.4,0,0.2,1); filter:drop-shadow(0 2px 4px rgba(0,0,0,0.5)); }
+    #tour-cursor-ripple { position:fixed; pointer-events:none; z-index:9994; width:38px; height:38px; border-radius:50%; border:2px solid rgba(184,146,42,0.75); display:none; transform:translate(-50%,-50%); }
+    @keyframes _tourCursorClick { 0%,100%{transform:translate(-4px,-2px) scale(1)} 45%{transform:translate(-4px,-2px) scale(0.78)} }
+    @keyframes _tourCursorRipple { 0%{transform:translate(-50%,-50%) scale(0.1);opacity:1} 100%{transform:translate(-50%,-50%) scale(2.6);opacity:0} }
 
     .niv-star, .nlt-star, .esv-star, .ttt-star {
       display: inline;
@@ -1770,20 +1801,22 @@
       <input id="search-input" type="text" placeholder="arama yapın…" autocomplete="off" />
     </div>
 
-    <div id="header-controls">
-      <button class="hdr-btn" id="btn-books" title="Kitap seçin">Yuhanna <span style="opacity:.4;font-size:9px;">▾</span></button>
-      <button class="hdr-nav-arrow" id="btn-prev-ch" title="Önceki bölüm">‹</button>
-      <button class="hdr-btn" id="btn-chapter" title="Bölüm seçin" style="min-width:80px;text-align:center;">1. Bölüm</button>
-      <button class="hdr-nav-arrow" id="btn-next-ch" title="Sonraki bölüm">›</button>
-      <button class="hdr-btn" id="btn-translations" title="Çevirileri yönet">Çeviri <span style="opacity:.4;font-size:9px;">▾</span></button>
-      <button class="hdr-btn" id="btn-style" title="Görünüm ayarları">Görünüm <span style="opacity:.4;font-size:9px;">▾</span></button>
-      <button class="hdr-btn" id="btn-commentary" title="Bölüm yorumu">Yorum <span style="opacity:.4;font-size:9px;">▾</span></button>
-      <button class="hdr-btn" id="btn-tour" title="Site turunu başlat">?</button>
-    </div>
-    <div id="header-links">
-      <a href="anasayfa.html">Karşılaştır</a>
-      <a href="antikdil.html">Dil İnceleme</a>
-      <a href="arama.html">Ayet Ara</a>
+    <div id="header-row2">
+      <div id="header-controls">
+        <button class="hdr-btn" id="btn-books" title="Kitap seçin">Yuhanna <span style="opacity:.4;font-size:9px;">▾</span></button>
+        <button class="hdr-nav-arrow" id="btn-prev-ch" title="Önceki bölüm">‹</button>
+        <button class="hdr-btn" id="btn-chapter" title="Bölüm seçin" style="min-width:80px;text-align:center;">1. Bölüm</button>
+        <button class="hdr-nav-arrow" id="btn-next-ch" title="Sonraki bölüm">›</button>
+        <button class="hdr-btn" id="btn-translations" title="Çevirileri yönet">Çeviri <span style="opacity:.4;font-size:9px;">▾</span></button>
+        <button class="hdr-btn" id="btn-style" title="Görünüm ayarları">Görünüm <span style="opacity:.4;font-size:9px;">▾</span></button>
+        <button class="hdr-btn" id="btn-commentary" title="Bölüm yorumu">Yorum <span style="opacity:.4;font-size:9px;">▾</span></button>
+        <button class="hdr-btn" id="btn-tour" title="Site turunu başlat">?</button>
+      </div>
+      <div id="header-links">
+        <a href="karsilastirma.html">Karşılaştır</a>
+        <a href="antikdil.html">Dil İnceleme</a>
+        <a href="arama.html">Ayet Ara</a>
+      </div>
     </div>
   </div>
 
@@ -1932,6 +1965,8 @@
 <!-- ===== TOUR OVERLAY ===== -->
 <div id="tour-click-block"></div>
 <div id="tour-spotlight"></div>
+<div id="tour-cursor"><svg width="20" height="24" viewBox="0 0 20 24" fill="none"><path d="M3.5 1.5L3.5 20.5L7.5 16.5L10 23L12.5 22L10 15.5L17.5 15.5Z" fill="white" stroke="#111" stroke-width="1.3" stroke-linejoin="round" stroke-linecap="round"/></svg></div>
+<div id="tour-cursor-ripple"></div>
 <div id="tour-tooltip">
   <button id="tour-close">×</button>
   <div id="tour-step-label"></div>
@@ -1969,8 +2004,6 @@
   const SEL1866_NOTE  = 'Selim Efendi / W. Schauffler tercümesi (1866–77); Tevrat, Mezmurlar, Yeşaya ve Yeni Ahit\'in tüm kitaplarını kapsamaktadır. Bu bölüm bu tercümede mevcut değil.';
   const HAKK_NT_BOOKS = new Set(['MAT','MRK','LUK','JHN','ACT','ROM','1CO','2CO','GAL','EPH','PHP','COL','1TH','2TH','1TI','2TI','TIT','PHM','HEB','JAS','1PE','2PE','1JN','2JN','3JN','JUD','REV']);
   const HAKK_NOTE     = 'Halk Dilinde Kutsal Kitap\'ın Eski Ahit bölümü yakında eklenecektir.';
-  const HKTN_BOOKS    = new Set(['MAT','MRK','LUK','JHN','ACT','ROM','1CO','2CO','GAL','EPH','PHP','COL','1TH','2TH','1TI','2TI','TIT','PHM','HEB','JAS','1PE','2PE','1JN','2JN','3JN','JUD','REV']);
-  const HKTN_NOTE     = 'Ekümenik Kutsal Kitap hem Eski Ahit hem de Yeni Ahit\'i kapsamaktadır. Eski Ahit kitapları yakında eklenecektir.';
   const NSH1739_BOOKS = new Set(['GEN']);
   const NSH1739_NOTE  = 'NSH1739 çevirisi yalnızca Yaratılış kitabının ilk 4 bölümünü kapsamaktadır.';
   const MEZ1669_BOOKS = new Set(['PSA']);
@@ -2239,7 +2272,6 @@
     if (tid === 'TUR1852-57'  && !TUR1852_BOOKS.has(bookCode))   return false;
     if (tid === 'SEL1866-77'  && !SEL1866_BOOKS.has(bookCode))   return false;
     if (tid === 'HAKK'        && !HAKK_NT_BOOKS.has(bookCode))   return false;
-    if (tid === 'HKTN'        && !HKTN_BOOKS.has(bookCode))      return false;
     if (tid === 'NSH1739'     && !NSH1739_BOOKS.has(bookCode))   return false;
     if (tid === 'MEZ1669'     && !MEZ1669_BOOKS.has(bookCode))   return false;
     if (tid === 'YYY1987'     && !YYY1987_NT_BOOKS.has(bookCode)) return false;
@@ -2477,7 +2509,6 @@
     'TUR1852-57': [TUR1852_BOOKS,   TUR1852_NOTE],
     'SEL1866-77': [SEL1866_BOOKS,   SEL1866_NOTE],
     'HAKK':       [HAKK_NT_BOOKS,   HAKK_NOTE],
-    'HKTN':       [HKTN_BOOKS,      HKTN_NOTE],
     'NSH1739':    [NSH1739_BOOKS,   NSH1739_NOTE],
     'MEZ1669':    [MEZ1669_BOOKS,   MEZ1669_NOTE],
     'YYY1987':    [YYY1987_NT_BOOKS, YYY1987_NOTE],
@@ -2665,6 +2696,8 @@
     panel.style.left  = 'auto';
     panel.classList.add('open');
     openPanelId = panelId;
+    const pr = panel.getBoundingClientRect();
+    if (pr.left < 4) { panel.style.right = 'auto'; panel.style.left = '4px'; }
   }
 
   function closePanel() {
@@ -2675,7 +2708,7 @@
   }
 
   document.addEventListener('click', e => {
-    if (!e.target.closest('.panel') && !e.target.closest('.hdr-btn')) closePanel();
+    if (!_tourActive && !e.target.closest('.panel') && !e.target.closest('.hdr-btn')) closePanel();
   });
 
   // ── Build chapter panel ───────────────────────────────────────────────
@@ -3781,19 +3814,28 @@
     }
 
     if (v) {
-      // Scroll to verse after columns load
-      const targetV = v;
-      const origLoadAll = window._loadAllHook;
-      const scrollOnce = () => {
-        requestAnimationFrame(() => {
-          const el = document.querySelector(`.verse[data-v="${targetV}"]`);
-          if (el) {
+      // Poll all columns until their verse elements appear, then scroll each independently
+      const targetV = String(v);
+      let tries = 50;
+      const scrolled = new WeakSet();
+      const pollScroll = () => {
+        const matches = Array.from(document.querySelectorAll('.verse[data-v]'))
+                             .filter(n => verseLabelsOverlap(targetV, n.dataset.v));
+        matches.forEach(el => {
+          if (!scrolled.has(el)) {
+            scrolled.add(el);
             el.scrollIntoView({ behavior: 'smooth', block: 'center' });
-            el.classList.add('v-selected');
           }
         });
+        if (matches.length > 0) {
+          selectedVerses.clear();
+          document.querySelectorAll('.verse').forEach(n => n.classList.remove('v-selected'));
+          selectedVerses.add(targetV);
+          highlightVerse(targetV, 'v-selected', true);
+        }
+        if (--tries > 0) setTimeout(pollScroll, 120);
       };
-      setTimeout(scrollOnce, 800);
+      setTimeout(pollScroll, 200);
     }
   })();
 
@@ -4385,54 +4427,204 @@
   let _tourElevated = [];
   let _tourSbOpen = false, _tourSbStyle = '';
 
+  function _tourCursorClick(getEl, delay, action) {
+    setTimeout(() => {
+      if (!_tourActive) return;
+      const el = typeof getEl === 'function' ? getEl() : getEl;
+      if (!el) return;
+      const r = el.getBoundingClientRect();
+      if (!r.width && !r.height) return;
+      const cur = document.getElementById('tour-cursor');
+      cur.style.display = 'block';
+      cur.style.left = (r.left + Math.min(r.width * 0.35, 18)) + 'px';
+      cur.style.top  = (r.top  + Math.min(r.height * 0.35, 10)) + 'px';
+    }, delay);
+    setTimeout(() => {
+      if (!_tourActive) return;
+      const el = typeof getEl === 'function' ? getEl() : getEl;
+      if (!el) return;
+      const r = el.getBoundingClientRect();
+      if (!r.width && !r.height) return;
+      const cx = r.left + Math.min(r.width * 0.35, 18), cy = r.top + Math.min(r.height * 0.35, 10);
+      const cur = document.getElementById('tour-cursor');
+      cur.style.animation = 'none'; cur.offsetHeight; cur.style.animation = '_tourCursorClick 0.22s ease-out';
+      const rip = document.getElementById('tour-cursor-ripple');
+      rip.style.left = cx + 'px'; rip.style.top = cy + 'px';
+      rip.style.display = 'block'; rip.style.animation = 'none'; rip.offsetHeight;
+      rip.style.animation = '_tourCursorRipple 0.52s ease-out forwards';
+      setTimeout(() => { rip.style.display = 'none'; }, 540);
+      if (action) action();
+    }, delay + 400);
+  }
+
+  function _tourCursorDrag(getEl, delay) {
+    let sx, sy;
+    setTimeout(() => {
+      if (!_tourActive) return;
+      const el = typeof getEl === 'function' ? getEl() : getEl;
+      if (!el) return;
+      const r = el.getBoundingClientRect();
+      sx = r.left + r.width / 2; sy = r.top + r.height / 2;
+      const cur = document.getElementById('tour-cursor');
+      cur.style.display = 'block'; cur.style.left = sx + 'px'; cur.style.top = sy + 'px';
+      el.style.animation = '_tourDragHint 0.9s cubic-bezier(0.4,0,0.2,1)';
+    }, delay);
+    setTimeout(() => { if (!_tourActive || sx == null) return; const cur = document.getElementById('tour-cursor'); cur.style.left = (sx + 58) + 'px'; }, delay + 390);
+    setTimeout(() => { if (!_tourActive || sx == null) return; const cur = document.getElementById('tour-cursor'); cur.style.left = (sx - 12) + 'px'; }, delay + 700);
+    setTimeout(() => {
+      if (!_tourActive) return;
+      const el = typeof getEl === 'function' ? getEl() : getEl;
+      if (el) el.style.animation = '';
+      if (sx != null) { const cur = document.getElementById('tour-cursor'); cur.style.left = sx + 'px'; }
+    }, delay + 1000);
+  }
+
   function _tourCleanup() {
     closePanel();
     _tourElevated.forEach(el => { el.style.zIndex = ''; });
     _tourElevated = [];
+    document.querySelectorAll('.fav-star').forEach(s => { s.style.color = ''; s.style.transform = ''; });
+    const favBtn = document.querySelector('.preset-btn[data-preset="favoriler"]');
+    if (favBtn) favBtn.style.boxShadow = '';
+    document.querySelectorAll('.col-header').forEach(h => { h.style.animation = ''; h.style.transform = ''; });
+    document.getElementById('col-info-popup')?.classList.remove('open');
     if (_tourSbOpen) {
       const sb = document.getElementById('sidebar-panel');
+      sb.style.transition = '';
       sb.setAttribute('style', _tourSbStyle);
       sb.classList.remove('open');
       document.getElementById('btn-commentary').classList.remove('comm-open');
       _tourSbOpen = false;
     }
+    document.querySelectorAll('#okuyucu_layout .col').forEach(c => { c.style.transform = ''; c.style.transition = ''; });
+    const cur = document.getElementById('tour-cursor');
+    if (cur) {
+      cur.style.display = 'none'; cur.style.left = '-100px'; cur.style.top = '-100px';
+      cur.style.transform = 'translate(-4px,-2px)';
+      cur.innerHTML = '<svg width="20" height="24" viewBox="0 0 20 24" fill="none"><path d="M3.5 1.5L3.5 20.5L7.5 16.5L10 23L12.5 22L10 15.5L17.5 15.5Z" fill="white" stroke="#111" stroke-width="1.3" stroke-linejoin="round" stroke-linecap="round"/></svg>';
+    }
+    const rip = document.getElementById('tour-cursor-ripple');
+    if (rip) rip.style.display = 'none';
   }
 
   const TOUR_STEPS = [
     {
       sel: '#search-wrap',
       title: 'Ayet Ara',
-      desc: 'Bir kelime veya ayet referansı (ör. Yuh 3:16) yazarak tüm yüklü çevirilerde anında arama yapın.',
+      desc: 'Bir kelime veya ayet referansı (ör. Yuh 3:16) yazarak tüm çevirilerde anında arama yapın.',
       pos: 'bottom',
     },
     {
-      sel: '#btn-books',
-      title: 'Kitap Seçimi',
-      desc: 'Kutsal Kitap\'ın herhangi bir kitabına buradan gidin. Eski Ahit, Yeni Ahit ve şiir kitapları ayrı kategorilere ayrılmıştır.',
-      pos: 'bottom',
-    },
-    {
-      sel: '#btn-chapter',
-      title: 'Bölüm Navigasyonu',
-      desc: 'İncelemek istediğiniz bölümü seçin. ‹ › oklarıyla bölümler arasında da hızlıca geçiş yapabilirsiniz.',
-      pos: 'bottom',
-    },
-    {
-      sel: '#panel-translations',
+      sel: '#btn-translations',
       title: 'Çeviri Yönetimi',
-      desc: 'Yan yana görmek istediğiniz çevirileri seçin ve favorilerinizi oluşturun. Türkçe, İngilizce ve tarihi çeviriler dahil 30\'dan fazla seçenek mevcuttur.',
-      pos: 'bottom',
+      desc: 'Yan yana görmek istediğiniz çevirileri seçin. Türkçe, İngilizce ve tarihi çeviriler dahil 30\'dan fazla seçenek mevcuttur.',
+      pos: 'bottom-screen',
       onEnter() {
         togglePanel('panel-translations', document.getElementById('btn-translations'));
         const p = document.getElementById('panel-translations');
         p.style.zIndex = '9991'; _tourElevated.push(p);
+        _tourCursorClick(() => document.querySelector('.trans-cat[data-cat-id="modern"] .trans-cat-toggle'), 400, () => {
+          const modernCat = document.querySelector('.trans-cat[data-cat-id="modern"]');
+          if (modernCat && !modernCat.classList.contains('open')) modernCat.querySelector('.trans-cat-toggle')?.click();
+        });
+        _tourCursorClick(() => document.querySelector('input[data-tid="TCL02"]')?.closest('.trans-item')?.querySelector('.trans-name'), 1200, () => {
+          const cb = document.querySelector('input[data-tid="TCL02"]'); if (cb && !cb.checked) cb.click();
+        });
+        _tourCursorClick(() => document.querySelector('input[data-tid="AREMSI"]')?.closest('.trans-item')?.querySelector('.trans-name'), 1900, () => {
+          const cb = document.querySelector('input[data-tid="AREMSI"]'); if (cb && !cb.checked) cb.click();
+        });
+        _tourCursorClick(() => document.querySelector('input[data-tid="HKTN"]')?.closest('.trans-item')?.querySelector('.trans-name'), 2600, () => {
+          const cb = document.querySelector('input[data-tid="HKTN"]'); if (cb && !cb.checked) cb.click();
+        });
       },
     },
     {
-      trySelectors: ['.col-header'],
+      sel: '#btn-translations',
+      title: 'Favori Çeviriler',
+      desc: 'Her çevirinin yanındaki ★ simgesine tıklayarak sık kullandığınız seti kaydedin. "⭐ Favoriler" önayarıyla bu sete tek tıkla dönebilirsiniz.',
+      pos: 'bottom-screen',
+      onEnter() {
+        togglePanel('panel-translations', document.getElementById('btn-translations'));
+        const p = document.getElementById('panel-translations');
+        p.style.zIndex = '9991'; _tourElevated.push(p);
+        setTimeout(() => {
+          saveFavorites([]);
+          document.querySelectorAll('.fav-star').forEach(b => { b.classList.remove('fav-on'); b.title = 'Favorilere ekle'; });
+        }, 300);
+        _tourCursorClick(() => document.querySelector('.fav-star[data-tid="TCL02"]'), 700, () => {
+          document.querySelector('.fav-star[data-tid="TCL02"]')?.click();
+        });
+        _tourCursorClick(() => document.querySelector('.fav-star[data-tid="AREMSI"]'), 1400, () => {
+          document.querySelector('.fav-star[data-tid="AREMSI"]')?.click();
+        });
+        _tourCursorClick(() => document.querySelector('.fav-star[data-tid="HKTN"]'), 2100, () => {
+          document.querySelector('.fav-star[data-tid="HKTN"]')?.click();
+        });
+      },
+    },
+    {
+      sel: '#okuyucu_layout',
       title: 'Karşılaştırma Sütunları',
       desc: 'Her sütun aynı bölümü farklı bir çeviride gösterir. Sütun başlığını sürükleyerek yeniden sıralayabilir, başlığa tıklayarak çeviri kaynağını görüntüleyebilirsiniz.',
-      pos: 'bottom',
+      pos: 'bottom-screen',
+      onEnter() {
+        const ARROW = '<svg width="20" height="24" viewBox="0 0 20 24" fill="none"><path d="M3.5 1.5L3.5 20.5L7.5 16.5L10 23L12.5 22L10 15.5L17.5 15.5Z" fill="white" stroke="#111" stroke-width="1.3" stroke-linejoin="round" stroke-linecap="round"/></svg>';
+        const GRAB  = '<svg width="20" height="22" viewBox="0 0 20 22" fill="none"><rect x="3" y="10" width="13" height="10" rx="3" fill="white" stroke="#111" stroke-width="1.2"/><path d="M4 10V6.5a1.5 1.5 0 0 1 3 0V10M7.5 10V5a1.5 1.5 0 0 1 3 0V10M11 10V6.5a1.5 1.5 0 0 1 3 0V10" fill="white" stroke="#111" stroke-width="1.2" stroke-linecap="round"/><path d="M3 13C2 12.5 1 13 1 14.5S2 17 3 17" stroke="#111" stroke-width="1.2" stroke-linecap="round"/></svg>';
+        // Phase 1: grab cursor appears on first column header
+        setTimeout(() => {
+          if (!_tourActive) return;
+          const cols = document.querySelectorAll('#okuyucu_layout .col[data-translation]');
+          if (!cols.length) return;
+          const r = cols[0].querySelector('.col-header').getBoundingClientRect();
+          const cur = document.getElementById('tour-cursor');
+          cur.innerHTML = GRAB; cur.style.transform = 'translate(-10px,-10px)';
+          cur.style.display = 'block';
+          cur.style.left = (r.left + r.width / 2) + 'px';
+          cur.style.top  = (r.top  + r.height / 2) + 'px';
+        }, 600);
+        // Phase 2: cursor slides to col1 AND both columns animate toward each other
+        setTimeout(() => {
+          if (!_tourActive) return;
+          const cols = Array.from(document.querySelectorAll('#okuyucu_layout .col[data-translation]'));
+          if (cols.length < 2) return;
+          const r0 = cols[0].getBoundingClientRect(), r1 = cols[1].getBoundingClientRect();
+          const delta = r1.left - r0.left;
+          document.getElementById('tour-cursor').style.left = (r1.left + r1.width / 2) + 'px';
+          cols[0].style.transition = 'transform 0.38s cubic-bezier(0.4,0,0.2,1)';
+          cols[1].style.transition = 'transform 0.38s cubic-bezier(0.4,0,0.2,1)';
+          cols[0].style.transform = `translateX(${delta}px)`;
+          cols[1].style.transform = `translateX(${-delta}px)`;
+        }, 950);
+        // Phase 3: reset transforms, swap DOM, restore arrow cursor
+        setTimeout(() => {
+          if (!_tourActive) return;
+          const container = document.getElementById('okuyucu_layout');
+          const cols = Array.from(container.querySelectorAll('.col[data-translation]'));
+          if (cols.length < 2) return;
+          cols[0].style.transition = 'none'; cols[0].style.transform = '';
+          cols[1].style.transition = 'none'; cols[1].style.transform = '';
+          container.insertBefore(cols[1], cols[0]);
+          const newOrder = Array.from(container.querySelectorAll('.col[data-translation]')).map(c => c.dataset.translation);
+          colOrder = newOrder; _lsSet('kkf_col_order', JSON.stringify(newOrder));
+          const cur = document.getElementById('tour-cursor');
+          cur.innerHTML = ARROW; cur.style.transform = 'translate(-4px,-2px)';
+        }, 1380);
+        // Phase 4: drop ripple
+        setTimeout(() => {
+          if (!_tourActive) return;
+          const cur = document.getElementById('tour-cursor');
+          const cx = parseFloat(cur.style.left), cy = parseFloat(cur.style.top);
+          const rip = document.getElementById('tour-cursor-ripple');
+          rip.style.left = cx + 'px'; rip.style.top = cy + 'px';
+          rip.style.display = 'block'; rip.style.animation = 'none'; rip.offsetHeight;
+          rip.style.animation = '_tourCursorRipple 0.52s ease-out forwards';
+          setTimeout(() => { rip.style.display = 'none'; }, 540);
+        }, 1430);
+        // Phase 5: cursor clicks the col-abbr text (center of translation name)
+        _tourCursorClick(() => document.querySelector('.col-header[data-tid] .col-abbr'), 2300, () => {
+          document.querySelector('.col-header[data-tid]')?.click();
+        });
+      },
     },
     {
       trySelectors: ['.notes-star','.net-star','.niv-star','.nlt-star','.esv-star','.ttt-star','.errata-star'],
@@ -4467,7 +4659,7 @@
           _tourSbOpen = true;
         }
         const topPx = document.getElementById('header')?.getBoundingClientRect().bottom || 48;
-        Object.assign(sb.style, { position:'fixed', right:'0', top:topPx+'px',
+        Object.assign(sb.style, { transition:'none', position:'fixed', right:'0', top:topPx+'px',
           bottom:'0', width:'460px', zIndex:'9991', display:'flex', flexDirection:'column', overflow:'hidden' });
       },
     },
@@ -4495,6 +4687,7 @@
     const eff=(!spotRect&&fallbackPos)?fallbackPos:pos;
     let top, left;
     if (eff==='center'||!spotRect) { top=(VPH-TH)/2; left=(VPW-TW)/2; }
+    else if (eff==='bottom-screen') { top=VPH-TH-24; left=spotRect.left+spotRect.width/2-TW/2; }
     else if (eff==='left') { left=spotRect.left-TW-GAP; top=spotRect.top+(spotRect.height-TH)/2; if(left<12)left=spotRect.right+GAP; }
     else {
       left=spotRect.left+spotRect.width/2-TW/2;
