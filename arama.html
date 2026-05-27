@@ -521,25 +521,19 @@
 
     /* ===== MOBILE ===== */
     @media (max-width: 640px) {
-      /* — Compact single-row header — */
-      #header { height: 44px; padding: 0 10px; gap: 6px; flex-wrap: nowrap; align-items: center; }
-      #logo { margin-right: 0; padding: 0; flex-shrink: 0; }
+      /* — Row 1: always-visible 44px bar — */
+      #header { height: auto; padding: 0 10px; gap: 0; flex-wrap: wrap; align-items: center; }
+      #logo { flex: 0 0 auto; margin-right: 8px; padding: 0; min-height: 44px; display: flex; align-items: center; }
       #logo img { height: 24px; }
       #logo-text { display: none; }
-      #search-wrap { flex: 1; min-width: 0; max-width: none; }
+      #search-wrap { flex: 1; min-width: 0; max-width: none; min-height: 44px; display: flex; align-items: center; }
       #search-input { padding: 6px 10px 6px 28px; font-size: 12px; }
       #search-wrap svg { width: 12px; height: 12px; left: 8px; }
-
-      /* Hide stats, controls, links, progress bar from main header row */
       #header-stats { display: none; }
-      #header-controls { display: none !important; }
-      #header-links { display: none; }
       #progress-bar-wrap { flex: 0 0 100%; }
 
-      /* — Expand button in compact header — */
-      #mob-expand-wrap {
-        display: flex; align-items: center; flex-shrink: 0;
-      }
+      /* Expand button */
+      #mob-expand-wrap { display: flex; align-items: center; flex-shrink: 0; min-height: 44px; margin-left: 6px; }
       .mob-expand {
         width: 30px; height: 30px; background: none;
         border: 1px solid rgba(184,146,42,0.35); border-radius: 4px;
@@ -549,29 +543,26 @@
       }
       .mob-expand.active { background: rgba(184,146,42,0.12); border-color: rgba(184,146,42,0.5); }
 
-      /* — Mobile dropdown menu — */
-      #mob-menu {
-        position: fixed; top: 44px; left: 0; right: 0;
-        background: #0c1a27; border-bottom: 1px solid rgba(184,146,42,0.2);
-        z-index: 200; box-shadow: 0 8px 24px rgba(0,0,0,0.55); overflow: hidden;
+      /* Row 2: nav links (hidden by default, shown when expanded) */
+      #header-links {
+        display: none; gap: 20px; padding: 8px 2px; margin: 0;
+        border-top: 1px solid rgba(184,146,42,0.12); align-items: center; flex: 0 0 100%;
       }
-      #mob-menu.open { display: block; }
-      .mob-menu-row {
-        display: block; width: 100%; background: none; border: none;
-        border-bottom: 1px solid rgba(184,146,42,0.07);
-        color: var(--cream); font-family: 'Jost', sans-serif;
-        font-size: 13px; font-weight: 500; letter-spacing: 0.04em;
-        text-align: left; padding: 13px 16px; cursor: pointer; transition: background 0.1s;
+      #header.mob-expanded #header-links { display: flex; }
+      #header-links a { font-size: 10px; letter-spacing: 0.08em; color: rgba(247,241,232,0.6); }
+      #header-links a:hover { color: var(--gold-light); }
+
+      /* Row 3: control buttons (hidden by default, shown when expanded) */
+      #header-controls {
+        display: none; flex-wrap: wrap; gap: 5px;
+        padding: 6px 2px 9px; margin: 0;
+        border-top: 1px solid rgba(184,146,42,0.08); flex: 0 0 100%;
       }
-      .mob-menu-row:active { background: rgba(184,146,42,0.09); }
-      .mob-menu-sep { height: 1px; background: rgba(184,146,42,0.15); margin: 4px 0; }
-      .mob-menu-links { display: flex; gap: 20px; padding: 11px 16px 13px; }
-      .mob-menu-links a {
-        color: rgba(247,241,232,0.45); text-decoration: none; font-family: 'Jost', sans-serif;
-        font-size: 10.5px; letter-spacing: 0.08em; text-transform: uppercase; font-weight: 600;
-        transition: color 0.12s;
-      }
-      .mob-menu-links a:hover { color: var(--gold-light); }
+      #header.mob-expanded #header-controls { display: flex; }
+      .hdr-btn { padding: 0 10px; height: 30px; font-size: 11px; flex-shrink: 0; }
+
+      /* mob-menu no longer used */
+      #mob-menu { display: none !important; }
 
       /* Results: full width */
       .sr-item { padding: 9px 12px; gap: 8px; }
@@ -738,25 +729,25 @@
       <input id="search-input" type="text" placeholder="arama yapın…" autocomplete="off" />
     </div>
 
+    <!-- Mobile-only expand button (hidden on desktop via CSS) -->
+    <div id="mob-expand-wrap">
+      <button id="mob-expand-btn" class="mob-expand" title="Tüm seçenekler" aria-expanded="false">▾</button>
+    </div>
+
     <div id="header-stats">
       <span id="result-count"></span>
       <span id="scan-status"></span>
-    </div>
-    <div id="header-controls">
-      <button class="hdr-btn" id="btn-translations" title="Çevirileri seçin">Çeviri <span style="opacity:.4;font-size:9px;">&#9660;</span></button>
-      <button class="hdr-btn" id="btn-filtreler">Filtre<span id="flt-badge"></span> <span style="opacity:.4;font-size:9px;">&#9660;</span></button>
-      <button class="hdr-btn" id="btn-gorunum">Görünüm <span style="opacity:.4;font-size:9px;">&#9660;</span></button>
-      <button class="hdr-btn" id="btn-tour" title="Site turunu başlat">?</button>
     </div>
     <div id="header-links">
       <a href="karsilastirma.html">Karşılaştır</a>
       <a href="antikdil.html">Dil İnceleme</a>
       <a href="arama.html">Ayet Ara</a>
     </div>
-
-    <!-- Mobile-only expand button (hidden on desktop via CSS) -->
-    <div id="mob-expand-wrap">
-      <button id="mob-expand-btn" class="mob-expand" title="Tüm seçenekler" aria-expanded="false">▾</button>
+    <div id="header-controls">
+      <button class="hdr-btn" id="btn-translations" title="Çevirileri seçin">Çeviri <span style="opacity:.4;font-size:9px;">&#9660;</span></button>
+      <button class="hdr-btn" id="btn-filtreler">Filtre<span id="flt-badge"></span> <span style="opacity:.4;font-size:9px;">&#9660;</span></button>
+      <button class="hdr-btn" id="btn-gorunum">Görünüm <span style="opacity:.4;font-size:9px;">&#9660;</span></button>
+      <button class="hdr-btn" id="btn-tour" title="Site turunu başlat">?</button>
     </div>
     <div id="progress-bar-wrap"><div id="progress-bar"></div></div>
   </div>
@@ -2011,15 +2002,14 @@ if (initQ.trim().length >= 2) {
   // ── Mobile expand menu ────────────────────────────────────────────────────
   (function setupMobileMenu() {
     const expandBtn = document.getElementById('mob-expand-btn');
-    const menu      = document.getElementById('mob-menu');
-    if (!expandBtn || !menu) return;
+    const header    = document.getElementById('header');
+    if (!expandBtn || !header) return;
 
     let menuOpen = false;
 
     window.closeMobMenu = function() {
-      if (!menuOpen) return;
       menuOpen = false;
-      menu.classList.remove('open');
+      header.classList.remove('mob-expanded');
       expandBtn.innerHTML = '▾';
       expandBtn.classList.remove('active');
       expandBtn.setAttribute('aria-expanded', 'false');
@@ -2027,23 +2017,32 @@ if (initQ.trim().length >= 2) {
 
     expandBtn.addEventListener('click', e => {
       e.stopPropagation();
-      menuOpen = !menuOpen;
       if (menuOpen) {
-        menu.classList.add('open');
+        window.closeMobMenu();
+      } else {
+        menuOpen = true;
+        header.classList.add('mob-expanded');
         expandBtn.innerHTML = '▴';
         expandBtn.classList.add('active');
         expandBtn.setAttribute('aria-expanded', 'true');
-      } else {
-        window.closeMobMenu();
       }
     });
 
     document.addEventListener('touchmove', () => { if (menuOpen) window.closeMobMenu(); }, { passive: true });
     window.addEventListener('scroll', () => { if (menuOpen) window.closeMobMenu(); }, { passive: true });
-    document.addEventListener('click', e => {
-      if (menuOpen && !e.target.closest('#mob-menu') && !e.target.closest('#mob-expand-btn')) {
-        window.closeMobMenu();
-      }
+  })();
+
+  // ── Swipe-down to dismiss bottom sheet panels ──────────────────────────
+  (function addSwipeDismiss() {
+    function onSwipe(el, cb) {
+      let y0 = 0;
+      el.addEventListener('touchstart', e => { y0 = e.touches[0].clientY; }, { passive: true });
+      el.addEventListener('touchend', e => {
+        if (e.changedTouches[0].clientY - y0 > 55) cb();
+      }, { passive: true });
+    }
+    document.querySelectorAll('.panel').forEach(p => {
+      onSwipe(p, () => { if (typeof closePanel === 'function') closePanel(); });
     });
   })();
 </script>
