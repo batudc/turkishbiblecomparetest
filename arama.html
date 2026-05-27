@@ -120,6 +120,10 @@
       display: flex; align-items: center; gap: 6px;
       margin-left: auto; margin-right: auto; flex-shrink: 0;
     }
+
+    /* Mobile-only elements — hidden on desktop */
+    #mob-expand-wrap { display: none; }
+    #mob-menu { display: none; }
     .hdr-btn {
       padding: 6px 13px;
       background: rgba(255,255,255,0.05);
@@ -517,46 +521,59 @@
 
     /* ===== MOBILE ===== */
     @media (max-width: 640px) {
-      #header {
-        height: auto;
-        padding: 5px 10px 0;
-        gap: 6px;
-        flex-wrap: wrap;
-      }
-      #logo { margin-right: 4px; flex: 0 0 auto; padding: 3px 0; }
-      #logo img { height: 26px; }
+      /* — Compact single-row header — */
+      #header { height: 44px; padding: 0 10px; gap: 6px; flex-wrap: nowrap; align-items: center; }
+      #logo { margin-right: 0; padding: 0; flex-shrink: 0; }
+      #logo img { height: 24px; }
       #logo-text { display: none; }
+      #search-wrap { flex: 1; min-width: 0; max-width: none; }
+      #search-input { padding: 6px 10px 6px 28px; font-size: 12px; }
+      #search-wrap svg { width: 12px; height: 12px; left: 8px; }
 
-      #search-wrap {
-        flex: 1 1 auto;
-        min-width: 0;
-        max-width: none;
-        padding: 3px 0;
-      }
-
+      /* Hide stats, controls, links, progress bar from main header row */
       #header-stats { display: none; }
+      #header-controls { display: none !important; }
+      #header-links { display: none; }
+      #progress-bar-wrap { flex: 0 0 100%; }
 
-      /* Controls stay in row 1 */
-      #header-controls { flex: 0 0 auto; display: flex; gap: 5px; align-items: center; }
-
-      /* Nav links: compact second row */
-      #header-links {
-        display: flex;
-        flex: 0 0 100%;
-        gap: 1.5rem;
-        padding: 5px 0 5px;
-        border-top: 1px solid rgba(184,146,42,0.1);
-        align-items: center;
+      /* — Expand button in compact header — */
+      #mob-expand-wrap {
+        display: flex; align-items: center; flex-shrink: 0;
       }
-      #header-links a { font-size: 9.5px; letter-spacing: 0.07em; color: rgba(247,241,232,0.55); }
-
-      .hdr-btn {
-        padding: 0 10px;
-        height: 34px;
-        font-size: 11.5px;
+      .mob-expand {
+        width: 30px; height: 30px; background: none;
+        border: 1px solid rgba(184,146,42,0.35); border-radius: 4px;
+        color: var(--gold-light); font-size: 13px; line-height: 1;
+        display: flex; align-items: center; justify-content: center;
+        cursor: pointer; flex-shrink: 0; transition: background 0.12s, border-color 0.12s;
       }
+      .mob-expand.active { background: rgba(184,146,42,0.12); border-color: rgba(184,146,42,0.5); }
 
-      /* Results: full width, more padding */
+      /* — Mobile dropdown menu — */
+      #mob-menu {
+        position: fixed; top: 44px; left: 0; right: 0;
+        background: #0c1a27; border-bottom: 1px solid rgba(184,146,42,0.2);
+        z-index: 200; box-shadow: 0 8px 24px rgba(0,0,0,0.55); overflow: hidden;
+      }
+      #mob-menu.open { display: block; }
+      .mob-menu-row {
+        display: block; width: 100%; background: none; border: none;
+        border-bottom: 1px solid rgba(184,146,42,0.07);
+        color: var(--cream); font-family: 'Jost', sans-serif;
+        font-size: 13px; font-weight: 500; letter-spacing: 0.04em;
+        text-align: left; padding: 13px 16px; cursor: pointer; transition: background 0.1s;
+      }
+      .mob-menu-row:active { background: rgba(184,146,42,0.09); }
+      .mob-menu-sep { height: 1px; background: rgba(184,146,42,0.15); margin: 4px 0; }
+      .mob-menu-links { display: flex; gap: 20px; padding: 11px 16px 13px; }
+      .mob-menu-links a {
+        color: rgba(247,241,232,0.45); text-decoration: none; font-family: 'Jost', sans-serif;
+        font-size: 10.5px; letter-spacing: 0.08em; text-transform: uppercase; font-weight: 600;
+        transition: color 0.12s;
+      }
+      .mob-menu-links a:hover { color: var(--gold-light); }
+
+      /* Results: full width */
       .sr-item { padding: 9px 12px; gap: 8px; }
       .sr-ref { min-width: 70px; font-size: 9.5px; }
       .sr-text { font-size: 12.5px; }
@@ -736,7 +753,25 @@
       <a href="antikdil.html">Dil İnceleme</a>
       <a href="arama.html">Ayet Ara</a>
     </div>
+
+    <!-- Mobile-only expand button (hidden on desktop via CSS) -->
+    <div id="mob-expand-wrap">
+      <button id="mob-expand-btn" class="mob-expand" title="Tüm seçenekler" aria-expanded="false">▾</button>
+    </div>
     <div id="progress-bar-wrap"><div id="progress-bar"></div></div>
+  </div>
+
+  <!-- Mobile dropdown menu (hidden until expanded) -->
+  <div id="mob-menu" role="menu">
+    <button class="mob-menu-row" id="mob-row-translations" onclick="event.stopPropagation(); closeMobMenu(); document.getElementById('btn-translations').click()">Çeviri ▾</button>
+    <button class="mob-menu-row" id="mob-row-filtreler" onclick="event.stopPropagation(); closeMobMenu(); document.getElementById('btn-filtreler').click()">Filtre ▾</button>
+    <button class="mob-menu-row" id="mob-row-gorunum" onclick="event.stopPropagation(); closeMobMenu(); document.getElementById('btn-gorunum').click()">Görünüm ▾</button>
+    <div class="mob-menu-sep"></div>
+    <div class="mob-menu-links">
+      <a href="karsilastirma.html">Karşılaştır</a>
+      <a href="antikdil.html">Dil İnceleme</a>
+      <a href="arama.html">Ayet Ara</a>
+    </div>
   </div>
 
 
@@ -1972,6 +2007,45 @@ if (initQ.trim().length >= 2) {
   document.getElementById('tour-next').addEventListener('click',()=>{if(_tourStep<TOUR_STEPS.length-1){_tourStep++;_tourRender(_tourStep);}else _endTour();});
   document.getElementById('tour-click-block').addEventListener('click',()=>{if(_tourStep<TOUR_STEPS.length-1){_tourStep++;_tourRender(_tourStep);}else _endTour();});
   document.addEventListener('keydown',e=>{if(!_tourActive)return;if(e.key==='Escape')_endTour();else if(e.key==='ArrowRight'&&_tourStep<TOUR_STEPS.length-1){_tourStep++;_tourRender(_tourStep);}else if(e.key==='ArrowLeft'&&_tourStep>0){_tourStep--;_tourRender(_tourStep);}});
+
+  // ── Mobile expand menu ────────────────────────────────────────────────────
+  (function setupMobileMenu() {
+    const expandBtn = document.getElementById('mob-expand-btn');
+    const menu      = document.getElementById('mob-menu');
+    if (!expandBtn || !menu) return;
+
+    let menuOpen = false;
+
+    window.closeMobMenu = function() {
+      if (!menuOpen) return;
+      menuOpen = false;
+      menu.classList.remove('open');
+      expandBtn.innerHTML = '▾';
+      expandBtn.classList.remove('active');
+      expandBtn.setAttribute('aria-expanded', 'false');
+    };
+
+    expandBtn.addEventListener('click', e => {
+      e.stopPropagation();
+      menuOpen = !menuOpen;
+      if (menuOpen) {
+        menu.classList.add('open');
+        expandBtn.innerHTML = '▴';
+        expandBtn.classList.add('active');
+        expandBtn.setAttribute('aria-expanded', 'true');
+      } else {
+        window.closeMobMenu();
+      }
+    });
+
+    document.addEventListener('touchmove', () => { if (menuOpen) window.closeMobMenu(); }, { passive: true });
+    window.addEventListener('scroll', () => { if (menuOpen) window.closeMobMenu(); }, { passive: true });
+    document.addEventListener('click', e => {
+      if (menuOpen && !e.target.closest('#mob-menu') && !e.target.closest('#mob-expand-btn')) {
+        window.closeMobMenu();
+      }
+    });
+  })();
 </script>
 </body>
 </html>
