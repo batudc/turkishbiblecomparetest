@@ -2856,6 +2856,8 @@ load(initBook, initCh);
     document.getElementById('tour-click-block').style.display='none';
     document.getElementById('tour-spotlight').style.display='none';
     document.getElementById('tour-tooltip').style.display='none';
+    const btn = document.getElementById('mob-expand-btn');
+    if (btn) { btn.style.pointerEvents = 'none'; setTimeout(() => { btn.style.pointerEvents = ''; }, 400); }
   }
 
   document.getElementById('btn-tour').addEventListener('click',_startTour);
@@ -2913,24 +2915,36 @@ load(initBook, initCh);
   // ── Smooth drag-to-dismiss for bottom sheet panels ──────────────────────
   (function addSwipeDismiss() {
     function makeBottomSheetDraggable(el, closeFn) {
-      let startY = 0, dragging = false;
+      let startX = 0, startY = 0, dragging = false;
       el.addEventListener('touchstart', e => {
+        startX = e.touches[0].clientX;
         startY = e.touches[0].clientY;
         dragging = true;
         el.style.transition = 'none';
       }, { passive: true });
       el.addEventListener('touchmove', e => {
         if (!dragging) return;
-        const dy = e.touches[0].clientY - startY;
-        if (dy > 0) el.style.transform = 'translateY(' + dy + 'px)';
+        const landscape = window.innerWidth > window.innerHeight;
+        if (landscape) {
+          const dx = e.touches[0].clientX - startX;
+          if (dx > 0) el.style.transform = 'translateX(' + dx + 'px)';
+        } else {
+          const dy = e.touches[0].clientY - startY;
+          if (dy > 0) el.style.transform = 'translateY(' + dy + 'px)';
+        }
       }, { passive: true });
       el.addEventListener('touchend', e => {
         if (!dragging) return;
         dragging = false;
-        const dy = e.changedTouches[0].clientY - startY;
+        const landscape = window.innerWidth > window.innerHeight;
         el.style.transition = 'transform 0.28s cubic-bezier(0.4,0,0.2,1)';
-        if (dy > 60) {
-          el.style.transform = 'translateY(' + el.offsetHeight + 'px)';
+        const dx = e.changedTouches[0].clientX - startX;
+        const dy = e.changedTouches[0].clientY - startY;
+        const delta = landscape ? dx : dy;
+        const dist  = landscape ? el.offsetWidth : el.offsetHeight;
+        const axis  = landscape ? 'translateX' : 'translateY';
+        if (delta > 60) {
+          el.style.transform = axis + '(' + dist + 'px)';
           setTimeout(() => {
             el.style.transition = 'none';
             el.style.visibility = 'hidden';
@@ -2939,7 +2953,7 @@ load(initBook, initCh);
             requestAnimationFrame(() => { el.style.visibility = ''; el.style.transition = ''; });
           }, 280);
         } else {
-          el.style.transform = 'translateY(0)';
+          el.style.transform = axis + '(0)';
           setTimeout(() => { el.style.transform = ''; el.style.transition = ''; }, 280);
         }
       }, { passive: true });
