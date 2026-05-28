@@ -1867,6 +1867,7 @@
       <a href="karsilastirma.html">Karşılaştır</a>
       <a href="antikdil.html">Dil İnceleme</a>
       <a href="arama.html">Ayet Ara</a>
+      <a href="compare.html" style="opacity:0.45;font-size:0.68rem;letter-spacing:0.08em;" title="Switch to English">EN</a>
     </div>
 
     <div id="header-controls">
@@ -2261,7 +2262,7 @@
   // ── App state ─────────────────────────────────────────────────────────
   let currentBook    = _lsGet('kkf_book')  || 'Yuhanna';
   let currentChapter = parseInt(_lsGet('kkf_chap') || '1', 10) || 1;
-  let layoutMode     = 'cols'; // 'cols' | 'rows' | 'grid'
+  let layoutMode     = _lsGet('kkf_layout') || 'cols'; // 'cols' | 'rows' | 'grid'
   // User-defined column order — array of translation IDs; null = use default TRANS_ORDER
   let colOrder = (() => { try { return JSON.parse(_lsGet('kkf_col_order') || 'null'); } catch { return null; } })();
   // Default translation for cross-reference navigation
@@ -2631,6 +2632,14 @@
       }
     }
     reinitSync();
+    // Restore saved scroll verse after first load (only on the same chapter)
+    const savedVerse = _lsGet('kkf_verse');
+    if (savedVerse && String(chapter) === _lsGet('kkf_chap')) {
+      requestAnimationFrame(() => {
+        const verseEl = container.querySelector(`.verse[data-v="${savedVerse}"]`);
+        if (verseEl) container.scrollTop = verseEl.offsetTop;
+      });
+    }
   }
 
   function loadAll() {
@@ -2694,6 +2703,10 @@
 
     attachSyncListeners();
     attachDragHandlers();
+    // Save scroll position on scroll stop
+    container.querySelectorAll('.col-content').forEach(cc => {
+      cc.addEventListener('scroll', _saveScrollVerse, { passive: true });
+    });
     loadAll();
   }
 
@@ -3070,6 +3083,26 @@
     _lsSet('kkf_book',  currentBook);
     _lsSet('kkf_chap',  String(currentChapter));
     _lsSet('kkf_trans', JSON.stringify([...selectedTranslations]));
+    _lsSet('kkf_layout', layoutMode);
+    const fzEl = document.querySelector('input[name="fontsize"]:checked');
+    if (fzEl) _lsSet('kkf_fz', fzEl.value);
+    _lsSet('kkf_vn',        document.getElementById('chk-vn')?.checked        ? '1' : '0');
+    _lsSet('kkf_heads',     document.getElementById('chk-heads')?.checked     ? '1' : '0');
+    _lsSet('kkf_hidetname', document.getElementById('chk-hide-tname')?.checked ? '1' : '0');
+  }
+
+  // Save scroll position (top visible verse) — called on scroll stop
+  let _scrollSaveTimer = null;
+  function _saveScrollVerse() {
+    clearTimeout(_scrollSaveTimer);
+    _scrollSaveTimer = setTimeout(() => {
+      const cols = getCols();
+      if (!cols.length) return;
+      const col = cols[typeof mobActiveIdx !== 'undefined' ? (mobActiveIdx || 0) : 0] || cols[0];
+      const colTop = col.getBoundingClientRect().top;
+      const topEl = Array.from(col.querySelectorAll('.verse[data-v]')).find(v => v.getBoundingClientRect().top >= colTop);
+      if (topEl) _lsSet('kkf_verse', topEl.dataset.v);
+    }, 300);
   }
 
   // ── Favorites ─────────────────────────────────────────────────────────
@@ -3332,7 +3365,12 @@
       document.querySelectorAll('#panel-style .panel-option').forEach(o =>
         o.classList.toggle('active', o.querySelector('input')?.checked));
       rebuildColumns();
+      saveState();
     });
+  });
+
+  document.querySelectorAll('input[name="fontsize"]').forEach(r => {
+    r.addEventListener('change', () => saveState());
   });
 
   // ── Greek font picker ─────────────────────────────────────────────────
@@ -3386,18 +3424,62 @@
   const savedGkFont = _lsGet('gkFont') || 'new-york';
   applyGkFont(savedGkFont);
 
-  document.getElementById('chk-vn').addEventListener('change', e =>
-    document.body.classList.toggle('hide-vn', !e.target.checked));
-  document.getElementById('chk-heads').addEventListener('change', e =>
-    document.body.classList.toggle('hide-heads', !e.target.checked));
+  document.getElementById('chk-vn').addEventListener('change', e => {
+    document.body.classList.toggle('hide-vn', !e.target.checked);
+    document.getElementById('toggle-vn').classList.toggle('active', e.target.checked);
+    saveState();
+  });
+  document.getElementById('chk-heads').addEventListener('change', e => {
+    document.body.classList.toggle('hide-heads', !e.target.checked);
+    document.getElementById('toggle-heads').classList.toggle('active', e.target.checked);
+    saveState();
+  });
   document.getElementById('chk-book').addEventListener('change', e => {
     document.getElementById('toggle-book').classList.toggle('active', e.target.checked);
     rebuildColumns();
+    saveState();
   });
   document.getElementById('chk-hide-tname').addEventListener('change', e => {
     document.body.classList.toggle('hide-trans-names', e.target.checked);
     document.getElementById('toggle-hide-tname').classList.toggle('active', e.target.checked);
+    saveState();
   });
+
+  // Restore saved Görünüm settings on load
+  (function _restoreViewSettings() {
+    // Font size
+    const savedFz = _lsGet('kkf_fz');
+    if (savedFz && savedFz !== 'normal') {
+      const r = document.querySelector(`input[name="fontsize"][value="${savedFz}"]`);
+      if (r) { r.checked = true; document.body.classList.add(`fz-${savedFz}`); }
+    }
+    // Layout mode (already loaded into layoutMode var; wire the radio)
+    if (layoutMode && layoutMode !== 'cols') {
+      const r = document.querySelector(`input[name="layout"][value="${layoutMode}"]`);
+      if (r) r.checked = true;
+    }
+    // Verse numbers
+    if (_lsGet('kkf_vn') === '0') {
+      const chk = document.getElementById('chk-vn');
+      if (chk) { chk.checked = false; document.body.classList.add('hide-vn'); }
+      document.getElementById('toggle-vn')?.classList.remove('active');
+    }
+    // Section headings
+    if (_lsGet('kkf_heads') === '0') {
+      const chk = document.getElementById('chk-heads');
+      if (chk) { chk.checked = false; document.body.classList.add('hide-heads'); }
+      document.getElementById('toggle-heads')?.classList.remove('active');
+    }
+    // Hide translation name
+    if (_lsGet('kkf_hidetname') === '1') {
+      const chk = document.getElementById('chk-hide-tname');
+      if (chk) { chk.checked = true; document.body.classList.add('hide-trans-names'); }
+      document.getElementById('toggle-hide-tname')?.classList.add('active');
+    }
+    // Sync all panel-option active states
+    document.querySelectorAll('#panel-style .panel-option, #panel-gorunum .panel-option').forEach(o =>
+      o.classList.toggle('active', o.querySelector('input')?.checked ?? false));
+  })();
 
   // ── Button wiring ─────────────────────────────────────────────────────
   document.getElementById('btn-books').addEventListener('click', function(e) {

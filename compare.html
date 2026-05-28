@@ -9,12 +9,12 @@
   <link rel="icon" type="image/x-icon" href="/favicon.ico">
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-  <title>Karşılaştır — Kutsal Kitap İnceleme</title>
+  <title>Compare — Holy Bible Study</title>
   <meta name="description" content="Compare multiple Turkish Bible translations side by side. Study verses in TCL, KMEYA, YTC, HADİ and other translations simultaneously.">
   <meta name="robots" content="index, follow">
   <link rel="canonical" href="https://www.kutsalkitapinceleme.com/compare.html">
   <meta property="og:type" content="website">
-  <meta property="og:site_name" content="Kutsal Kitap İnceleme">
+  <meta property="og:site_name" content="Holy Bible Study">
   <meta property="og:title" content="Compare — Turkish Bible Translation Comparison">
   <meta property="og:description" content="Compare multiple Turkish Bible translations side by side. Study verses in TCL, KMEYA, YTC, HADİ and other translations simultaneously.">
   <meta property="og:url" content="https://www.kutsalkitapinceleme.com/compare.html">
@@ -269,7 +269,16 @@
       flex-shrink: 0;
       padding: 10px 14px 9px;
       border-bottom: 1px solid rgba(184,146,42,0.2);
+      display: flex; align-items: center; flex-wrap: wrap; gap: 4px;
     }
+    .comm-lang-btn {
+      background: none; border: 1px solid rgba(184,146,42,0.25);
+      border-radius: 3px; color: rgba(184,146,42,0.5);
+      font-size: 9px; font-weight: 700; letter-spacing: 0.1em;
+      padding: 2px 6px; cursor: pointer; transition: all 0.15s;
+    }
+    .comm-lang-btn.active { background: rgba(184,146,42,0.18); color: var(--gold-light); border-color: rgba(184,146,42,0.5); }
+    .comm-lang-btn:hover { color: var(--gold-light); }
     #commentary-title {
       display: block;
       font-size: 8.5px;
@@ -1844,9 +1853,9 @@
   <!-- ===== HEADER ===== -->
   <div id="header">
     <a href="index.html" id="logo">
-      <img src="brand_assets/logo.png" alt="Kutsal Kitap İnceleme" />
+      <img src="brand_assets/logo.png" alt="Holy Bible Study" />
       <div id="logo-text">
-        Kutsal Kitap İnceleme
+        Holy Bible Study
       </div>
     </a>
 
@@ -1859,41 +1868,42 @@
 
     <!-- Mobile-only compact controls (hidden on desktop via CSS) -->
     <div id="mob-compact-controls">
-      <button id="mob-prev-ch" class="mob-ch-arrow" title="Önceki bölüm">‹</button>
-      <button id="mob-next-ch" class="mob-ch-arrow" title="Sonraki bölüm">›</button>
-      <button id="mob-expand-btn" class="mob-expand" title="Tüm seçenekler" aria-expanded="false">▾</button>
+      <button id="mob-prev-ch" class="mob-ch-arrow" title="Previous chapter">‹</button>
+      <button id="mob-next-ch" class="mob-ch-arrow" title="Next chapter">›</button>
+      <button id="mob-expand-btn" class="mob-expand" title="All options" aria-expanded="false">▾</button>
     </div>
 
     <div id="header-links">
-      <a href="compare.html">Karşılaştır</a>
-      <a href="interlinear.html">Dil İnceleme</a>
-      <a href="search.html">Ayet Ara</a>
+      <a href="compare.html">Compare</a>
+      <a href="interlinear.html">Language Study</a>
+      <a href="search.html">Search</a>
+      <a href="karsilastirma.html" style="opacity:0.45;font-size:0.68rem;letter-spacing:0.08em;" title="Switch to Turkish">TR</a>
     </div>
 
     <div id="header-controls">
-      <button class="hdr-btn" id="btn-books" title="Kitap seçin">Yuhanna <span style="opacity:.4;font-size:9px;">▾</span></button>
-      <button class="hdr-nav-arrow" id="btn-prev-ch" title="Önceki bölüm">‹</button>
-      <button class="hdr-btn" id="btn-chapter" title="Bölüm seçin" style="min-width:80px;text-align:center;">1. Bölüm</button>
-      <button class="hdr-nav-arrow" id="btn-next-ch" title="Sonraki bölüm">›</button>
-      <button class="hdr-btn" id="btn-translations" title="Çevirileri yönet">Çeviri <span style="opacity:.4;font-size:9px;">▾</span></button>
-      <button class="hdr-btn" id="btn-style" title="Görünüm ayarları">Görünüm <span style="opacity:.4;font-size:9px;">▾</span></button>
-      <button class="hdr-btn" id="btn-commentary" title="Bölüm yorumu">Yorum <span style="opacity:.4;font-size:9px;">▾</span></button>
+      <button class="hdr-btn" id="btn-books" title="Select book">John <span style="opacity:.4;font-size:9px;">▾</span></button>
+      <button class="hdr-nav-arrow" id="btn-prev-ch" title="Previous chapter">‹</button>
+      <button class="hdr-btn" id="btn-chapter" title="Select chapter" style="min-width:80px;text-align:center;">Ch. 1</button>
+      <button class="hdr-nav-arrow" id="btn-next-ch" title="Next chapter">›</button>
+      <button class="hdr-btn" id="btn-translations" title="Manage translations">Translations <span style="opacity:.4;font-size:9px;">▾</span></button>
+      <button class="hdr-btn" id="btn-style" title="View options">View <span style="opacity:.4;font-size:9px;">▾</span></button>
+      <button class="hdr-btn" id="btn-commentary" title="Chapter commentary">Commentary <span style="opacity:.4;font-size:9px;">▾</span></button>
       <button class="hdr-btn" id="btn-tour" title="Site turunu başlat">?</button>
     </div>
   </div>
 
   <!-- Mobile dropdown menu (hidden until expanded) -->
   <div id="mob-menu" role="menu">
-    <button class="mob-menu-row" id="mob-row-books" onclick="event.stopPropagation(); closeMobMenu(); document.getElementById('btn-books').click()">Kitap ▾</button>
-    <button class="mob-menu-row" id="mob-row-chapter" onclick="event.stopPropagation(); closeMobMenu(); document.getElementById('btn-chapter').click()">Bölüm ▾</button>
-    <button class="mob-menu-row" id="mob-row-translations" onclick="event.stopPropagation(); closeMobMenu(); document.getElementById('btn-translations').click()">Çeviri ▾</button>
-    <button class="mob-menu-row" id="mob-row-style" onclick="event.stopPropagation(); closeMobMenu(); document.getElementById('btn-style').click()">Görünüm ▾</button>
+    <button class="mob-menu-row" id="mob-row-books" onclick="event.stopPropagation(); closeMobMenu(); document.getElementById('btn-books').click()">Book ▾</button>
+    <button class="mob-menu-row" id="mob-row-chapter" onclick="event.stopPropagation(); closeMobMenu(); document.getElementById('btn-chapter').click()">Chapter ▾</button>
+    <button class="mob-menu-row" id="mob-row-translations" onclick="event.stopPropagation(); closeMobMenu(); document.getElementById('btn-translations').click()">Translations ▾</button>
+    <button class="mob-menu-row" id="mob-row-style" onclick="event.stopPropagation(); closeMobMenu(); document.getElementById('btn-style').click()">View ▾</button>
     <button class="mob-menu-row" id="mob-row-commentary" onclick="event.stopPropagation(); closeMobMenu(); document.getElementById('btn-commentary').click()">Yorum ▾</button>
     <div class="mob-menu-sep"></div>
     <div class="mob-menu-links">
-      <a href="compare.html">Karşılaştır</a>
-      <a href="interlinear.html">Dil İnceleme</a>
-      <a href="search.html">Ayet Ara</a>
+      <a href="compare.html">Compare</a>
+      <a href="interlinear.html">Language Study</a>
+      <a href="search.html">Search</a>
     </div>
   </div>
 
@@ -1915,15 +1925,19 @@
       <div id="sidebar-sections">
         <div class="sidebar-section active" id="sidebar-section-commentary">
           <div id="commentary-title-bar">
-            <span id="commentary-title">Yorum</span>
+            <span id="commentary-title">Commentary</span>
+            <div id="comm-lang-toggle" style="display:flex;gap:4px;margin-left:auto;margin-right:6px;">
+              <button id="comm-lang-en" class="comm-lang-btn active" title="English commentary">EN</button>
+              <button id="comm-lang-tr" class="comm-lang-btn" title="Turkish commentary">TR</button>
+            </div>
             <span id="commentary-source">Açıklamalı Kutsal Kitap</span>
           </div>
           <div id="commentary-body">
             <div id="commentary-pre-space"></div>
-            <div id="commentary-loading" style="display:none">Yükleniyor…</div>
+            <div id="commentary-loading" style="display:none">Loading…</div>
             <div id="commentary-intro"></div>
             <div id="commentary-notes"></div>
-            <div id="commentary-empty" style="display:none">Bu bölüm için yorum bulunamadı.</div>
+            <div id="commentary-empty" style="display:none">No commentary found for this chapter.</div>
             <div id="commentary-post-space"></div>
           </div>
         </div>
@@ -1951,16 +1965,16 @@
     </div>
   </div>
   <div class="panel-section">
-    <div class="panel-section-title">Görünüm</div>
+    <div class="panel-section-title">View</div>
     <div class="panel-row-group">
-      <label class="panel-option active" id="toggle-vn"><input type="checkbox" id="chk-vn" checked> Ayet numaralarını göster</label>
-      <label class="panel-option active" id="toggle-heads"><input type="checkbox" id="chk-heads" checked> Bölüm başlıklarını göster</label>
-      <label class="panel-option" id="toggle-book"><input type="checkbox" id="chk-book"> Kitap Görünümü</label>
-      <label class="panel-option" id="toggle-hide-tname"><input type="checkbox" id="chk-hide-tname"> Çeviri adını gizle</label>
+      <label class="panel-option active" id="toggle-vn"><input type="checkbox" id="chk-vn" checked> Show verse numbers</label>
+      <label class="panel-option active" id="toggle-heads"><input type="checkbox" id="chk-heads" checked> Show section headings</label>
+      <label class="panel-option" id="toggle-book"><input type="checkbox" id="chk-book"> Book view</label>
+      <label class="panel-option" id="toggle-hide-tname"><input type="checkbox" id="chk-hide-tname"> Hide translation name</label>
     </div>
   </div>
   <div class="panel-section">
-    <div class="panel-section-title">Yunanca Yazı Tipi</div>
+    <div class="panel-section-title">Greek Font</div>
     <div class="gkfp-wrap" id="gkfp-wrap">
       <div class="gkfp-btn" id="gkfp-btn">
         <span class="gkfp-preview-text" id="gkfp-preview-text">Ἀρχή</span>
@@ -1971,11 +1985,11 @@
     </div>
   </div>
   <div class="panel-section">
-    <div class="panel-section-title">Düzen</div>
+    <div class="panel-section-title">Layout</div>
     <div class="panel-row-group">
-      <label class="panel-option active"><input type="radio" name="layout" value="cols" checked> Sütun</label>
-      <label class="panel-option"><input type="radio" name="layout" value="rows"> Satır</label>
-      <label class="panel-option"><input type="radio" name="layout" value="grid"> Sütun ve Satır</label>
+      <label class="panel-option active"><input type="radio" name="layout" value="cols" checked> Columns</label>
+      <label class="panel-option"><input type="radio" name="layout" value="rows"> Rows</label>
+      <label class="panel-option"><input type="radio" name="layout" value="grid"> Grid</label>
     </div>
   </div>
 </div>
@@ -2077,9 +2091,9 @@
   const COS_NT_BOOKS = new Set(['MAT','MRK','LUK','JHN','ACT','ROM','1CO','2CO','GAL','EPH','PHP','COL','1TH','2TH','1TI','2TI','TIT','PHM','HEB','JAS','1PE','2PE','1JN','2JN','3JN','JUD','REV','PRO']);
   const COS_NOTE     = 'İncil: Sevinç Getirici Haber (Thomas Cosmades) çevirisi yalnızca Süleyman\'ın Özdeyişleri ve Yeni Ahit kitaplarını kapsamaktadır.';
   const TUR1852_BOOKS = new Set(['GEN','PSA','MAT','MRK','LUK','JHN','ACT','ROM','1CO','2CO','GAL','EPH','PHP','COL','1TH','2TH','1TI','2TI','TIT','PHM','HEB','JAS','1PE','2PE','1JN','2JN','3JN','JUD','REV']);
-  const TUR1852_NOTE  = 'Türabi Efendi / J.W. Redhouse tercümesi (1852–57); Yaratılış, Mezmurlar ve Yeni Ahit\'in tüm kitaplarını kapsamaktadır. Bu bölüm bu tercümede mevcut değil.';
+  const TUR1852_NOTE  = 'Türabi Efendi / J.W. Redhouse tercümesi (1852–57); Yaratılış, Mezmurlar ve Yeni Ahit\'in tüm kitaplarını kapsamaktadır. This chapter is not available in this translation.';
   const SEL1866_BOOKS = new Set(['GEN','EXO','LEV','NUM','DEU','PSA','ISA','MAT','MRK','LUK','JHN','ACT','ROM','1CO','2CO','GAL','EPH','PHP','COL','1TH','2TH','1TI','2TI','TIT','PHM','HEB','JAS','1PE','2PE','1JN','2JN','3JN','JUD','REV']);
-  const SEL1866_NOTE  = 'Selim Efendi / W. Schauffler tercümesi (1866–77); Tevrat, Mezmurlar, Yeşaya ve Yeni Ahit\'in tüm kitaplarını kapsamaktadır. Bu bölüm bu tercümede mevcut değil.';
+  const SEL1866_NOTE  = 'Selim Efendi / W. Schauffler tercümesi (1866–77); Tevrat, Mezmurlar, Yeşaya ve Yeni Ahit\'in tüm kitaplarını kapsamaktadır. This chapter is not available in this translation.';
   const HAKK_NT_BOOKS = new Set(['MAT','MRK','LUK','JHN','ACT','ROM','1CO','2CO','GAL','EPH','PHP','COL','1TH','2TH','1TI','2TI','TIT','PHM','HEB','JAS','1PE','2PE','1JN','2JN','3JN','JUD','REV']);
   const HAKK_NOTE     = 'Halk Dilinde Kutsal Kitap\'ın Eski Ahit bölümü yakında eklenecektir.';
   const NSH1739_BOOKS = new Set(['GEN']);
@@ -2262,7 +2276,7 @@
   // ── App state ─────────────────────────────────────────────────────────
   let currentBook    = _lsGet('kkf_book')  || 'Yuhanna';
   let currentChapter = parseInt(_lsGet('kkf_chap') || '1', 10) || 1;
-  let layoutMode     = 'cols'; // 'cols' | 'rows' | 'grid'
+  let layoutMode     = _lsGet('kkf_layout') || 'cols'; // 'cols' | 'rows' | 'grid'
   // User-defined column order — array of translation IDs; null = use default TRANS_ORDER
   let colOrder = (() => { try { return JSON.parse(_lsGet('kkf_col_order') || 'null'); } catch { return null; } })();
   // Default translation for cross-reference navigation
@@ -2275,12 +2289,12 @@
       if (Array.isArray(t) && t.length > 0) return t;
     } catch {}
     const favs = getFavorites();
-    return favs.length > 0 ? favs : ['TCL02', 'KMEYA'];
+    return favs.length > 0 ? favs : ['ESV', 'KJV'];
   })();
   const selectedTranslations = new Set(_initTrans);
   // Validate against known IDs (in case saved data has stale entries)
   selectedTranslations.forEach(id => { if (!ALL_TRANS[id]) selectedTranslations.delete(id); });
-  if (selectedTranslations.size === 0) { selectedTranslations.add('TCL02'); selectedTranslations.add('KMEYA'); }
+  if (selectedTranslations.size === 0) { selectedTranslations.add('ESV'); selectedTranslations.add('KJV'); }
   if (!BOOK_CODES[currentBook]) currentBook = 'Yuhanna';
 
   // Chapter data cache — key: `${tid}|${bookCode}|${chap}` → verse array
@@ -2630,10 +2644,17 @@
       if (entry && !entry[0].has(bookCode)) {
         container.innerHTML = `<div class="col-note"><p>${entry[1]}</p></div>`;
       } else {
-        container.innerHTML = `<div class="col-note"><p>Bu bölüm bu tercümede mevcut değil.</p></div>`;
+        container.innerHTML = `<div class="col-note"><p>This chapter is not available in this translation.</p></div>`;
       }
     }
     reinitSync();
+    const savedVerse = _lsGet('kkf_verse');
+    if (savedVerse && String(chapter) === _lsGet('kkf_chap')) {
+      requestAnimationFrame(() => {
+        const verseEl = container.querySelector(`.verse[data-v="${savedVerse}"]`);
+        if (verseEl) container.scrollTop = verseEl.offsetTop;
+      });
+    }
   }
 
   function loadAll() {
@@ -2697,6 +2718,9 @@
 
     attachSyncListeners();
     attachDragHandlers();
+    container.querySelectorAll('.col-content').forEach(cc => {
+      cc.addEventListener('scroll', _saveScrollVerse, { passive: true });
+    });
     loadAll();
   }
 
@@ -3069,6 +3093,25 @@
     _lsSet('kkf_book',  currentBook);
     _lsSet('kkf_chap',  String(currentChapter));
     _lsSet('kkf_trans', JSON.stringify([...selectedTranslations]));
+    _lsSet('kkf_layout', layoutMode);
+    const fzEl = document.querySelector('input[name="fontsize"]:checked');
+    if (fzEl) _lsSet('kkf_fz', fzEl.value);
+    _lsSet('kkf_vn',        document.getElementById('chk-vn')?.checked        ? '1' : '0');
+    _lsSet('kkf_heads',     document.getElementById('chk-heads')?.checked     ? '1' : '0');
+    _lsSet('kkf_hidetname', document.getElementById('chk-hide-tname')?.checked ? '1' : '0');
+  }
+
+  let _scrollSaveTimer = null;
+  function _saveScrollVerse() {
+    clearTimeout(_scrollSaveTimer);
+    _scrollSaveTimer = setTimeout(() => {
+      const cols = getCols();
+      if (!cols.length) return;
+      const col = cols[typeof mobActiveIdx !== 'undefined' ? (mobActiveIdx || 0) : 0] || cols[0];
+      const colTop = col.getBoundingClientRect().top;
+      const topEl = Array.from(col.querySelectorAll('.verse[data-v]')).find(v => v.getBoundingClientRect().top >= colTop);
+      if (topEl) _lsSet('kkf_verse', topEl.dataset.v);
+    }, 300);
   }
 
   // ── Favorites ─────────────────────────────────────────────────────────
@@ -3331,7 +3374,12 @@
       document.querySelectorAll('#panel-style .panel-option').forEach(o =>
         o.classList.toggle('active', o.querySelector('input')?.checked));
       rebuildColumns();
+      saveState();
     });
+  });
+
+  document.querySelectorAll('input[name="fontsize"]').forEach(r => {
+    r.addEventListener('change', () => saveState());
   });
 
   // ── Greek font picker ─────────────────────────────────────────────────
@@ -3385,18 +3433,55 @@
   const savedGkFont = _lsGet('gkFont') || 'new-york';
   applyGkFont(savedGkFont);
 
-  document.getElementById('chk-vn').addEventListener('change', e =>
-    document.body.classList.toggle('hide-vn', !e.target.checked));
-  document.getElementById('chk-heads').addEventListener('change', e =>
-    document.body.classList.toggle('hide-heads', !e.target.checked));
+  document.getElementById('chk-vn').addEventListener('change', e => {
+    document.body.classList.toggle('hide-vn', !e.target.checked);
+    document.getElementById('toggle-vn').classList.toggle('active', e.target.checked);
+    saveState();
+  });
+  document.getElementById('chk-heads').addEventListener('change', e => {
+    document.body.classList.toggle('hide-heads', !e.target.checked);
+    document.getElementById('toggle-heads').classList.toggle('active', e.target.checked);
+    saveState();
+  });
   document.getElementById('chk-book').addEventListener('change', e => {
     document.getElementById('toggle-book').classList.toggle('active', e.target.checked);
     rebuildColumns();
+    saveState();
   });
   document.getElementById('chk-hide-tname').addEventListener('change', e => {
     document.body.classList.toggle('hide-trans-names', e.target.checked);
     document.getElementById('toggle-hide-tname').classList.toggle('active', e.target.checked);
+    saveState();
   });
+
+  (function _restoreViewSettings() {
+    const savedFz = _lsGet('kkf_fz');
+    if (savedFz && savedFz !== 'normal') {
+      const r = document.querySelector(`input[name="fontsize"][value="${savedFz}"]`);
+      if (r) { r.checked = true; document.body.classList.add(`fz-${savedFz}`); }
+    }
+    if (layoutMode && layoutMode !== 'cols') {
+      const r = document.querySelector(`input[name="layout"][value="${layoutMode}"]`);
+      if (r) r.checked = true;
+    }
+    if (_lsGet('kkf_vn') === '0') {
+      const chk = document.getElementById('chk-vn');
+      if (chk) { chk.checked = false; document.body.classList.add('hide-vn'); }
+      document.getElementById('toggle-vn')?.classList.remove('active');
+    }
+    if (_lsGet('kkf_heads') === '0') {
+      const chk = document.getElementById('chk-heads');
+      if (chk) { chk.checked = false; document.body.classList.add('hide-heads'); }
+      document.getElementById('toggle-heads')?.classList.remove('active');
+    }
+    if (_lsGet('kkf_hidetname') === '1') {
+      const chk = document.getElementById('chk-hide-tname');
+      if (chk) { chk.checked = true; document.body.classList.add('hide-trans-names'); }
+      document.getElementById('toggle-hide-tname')?.classList.add('active');
+    }
+    document.querySelectorAll('#panel-style .panel-option, #panel-gorunum .panel-option').forEach(o =>
+      o.classList.toggle('active', o.querySelector('input')?.checked ?? false));
+  })();
 
   // ── Button wiring ─────────────────────────────────────────────────────
   document.getElementById('btn-books').addEventListener('click', function(e) {
@@ -3426,6 +3511,20 @@
     this.classList.toggle('comm-open', isOpening);
     if (isOpening) loadCommentary(currentBook, currentChapter);
   });
+
+  // Commentary language toggle (EN / TR)
+  let commLang = localStorage.getItem('kki_comm_lang') || 'en';
+  function _applyCommLang(lang) {
+    commLang = lang;
+    localStorage.setItem('kki_comm_lang', lang);
+    document.getElementById('comm-lang-en').classList.toggle('active', lang === 'en');
+    document.getElementById('comm-lang-tr').classList.toggle('active', lang === 'tr');
+    const sidebar = document.getElementById('sidebar-panel');
+    if (sidebar?.classList.contains('open')) loadCommentary(currentBook, currentChapter);
+  }
+  document.getElementById('comm-lang-en')?.addEventListener('click', e => { e.stopPropagation(); _applyCommLang('en'); });
+  document.getElementById('comm-lang-tr')?.addEventListener('click', e => { e.stopPropagation(); _applyCommLang('tr'); });
+  _applyCommLang(commLang); // restore on load
 
   // Re-measure verse positions after sidebar width transition (open or close).
   // The sidebar changes column widths → text reflows → verse offsetTops change →

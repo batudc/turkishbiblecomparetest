@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="tr">
+<html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -9,12 +9,12 @@
   <link rel="icon" type="image/x-icon" href="/favicon.ico">
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-  <title>Arama — Kutsal Kitap İnceleme</title>
+  <title>Search — Holy Bible Study</title>
   <meta name="description" content="Search verses across multiple Turkish Bible translations. Find any passage or topic quickly with our powerful search engine.">
   <meta name="robots" content="index, follow">
   <link rel="canonical" href="https://www.kutsalkitapinceleme.com/search.html">
   <meta property="og:type" content="website">
-  <meta property="og:site_name" content="Kutsal Kitap İnceleme">
+  <meta property="og:site_name" content="Holy Bible Study">
   <meta property="og:title" content="Search — Turkish Bible Verse Search">
   <meta property="og:description" content="Search verses across multiple Turkish Bible translations. Find any passage or topic quickly with our powerful search engine.">
   <meta property="og:url" content="https://www.kutsalkitapinceleme.com/search.html">
@@ -749,7 +749,7 @@
       Aramaya devam etmek istiyor musunuz?
     </div>
     <div id="modal-actions">
-      <button class="modal-btn" id="modal-btn-rechoose">Çevirileri Yeniden Seç</button>
+      <button class="modal-btn" id="modal-btn-rechoose">Çevirileri Yeniden Select</button>
       <button class="modal-btn" id="modal-btn-continue">Yine de Devam Et</button>
     </div>
   </div>
@@ -760,7 +760,7 @@
   <!-- ===== HEADER — same as compare.html ===== -->
   <div id="header">
     <a href="index.html" id="logo">
-      <img src="brand_assets/logo.png" alt="Kutsal Kitap İnceleme" />
+      <img src="brand_assets/logo.png" alt="Holy Bible Study" />
       <div id="logo-text">
         Kutsal Kitap İnceleme
       </div>
@@ -770,7 +770,7 @@
       <svg viewBox="0 0 14 14" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round">
         <circle cx="5.5" cy="5.5" r="4"/><line x1="9" y1="9" x2="13" y2="13"/>
       </svg>
-      <input id="search-input" type="text" placeholder="arama yapın…" autocomplete="off" />
+      <input id="search-input" type="text" placeholder="Search the Bible…" autocomplete="off" />
     </div>
 
     <!-- Mobile-only expand button (hidden on desktop via CSS) -->
@@ -783,9 +783,9 @@
       <span id="scan-status"></span>
     </div>
     <div id="header-links">
-      <a href="compare.html">Karşılaştır</a>
-      <a href="interlinear.html">Dil İnceleme</a>
-      <a href="search.html">Ayet Ara</a>
+      <a href="compare.html">Compare</a>
+      <a href="interlinear.html">Language Study</a>
+      <a href="search.html">Search</a>
     </div>
     <div id="header-controls">
       <button class="hdr-btn" id="btn-translations" title="Çevirileri seçin">Çeviri <span style="opacity:.4;font-size:9px;">&#9660;</span></button>
@@ -803,9 +803,9 @@
     <button class="mob-menu-row" id="mob-row-gorunum" onclick="event.stopPropagation(); closeMobMenu(); document.getElementById('btn-gorunum').click()">Görünüm ▾</button>
     <div class="mob-menu-sep"></div>
     <div class="mob-menu-links">
-      <a href="compare.html">Karşılaştır</a>
-      <a href="interlinear.html">Dil İnceleme</a>
-      <a href="search.html">Ayet Ara</a>
+      <a href="compare.html">Compare</a>
+      <a href="interlinear.html">Language Study</a>
+      <a href="search.html">Search</a>
     </div>
   </div>
 
@@ -821,7 +821,7 @@
       <p>Türkçe çevirilerin tamamında arama yapın. Türkçe karakter duyarsızlığı desteklenmektedir (ş → s, ğ → g, ç → c) ve Osmanlıca hat işaretleri otomatik eşleştirilir (â → a, î → i, û → u).</p>
     </div>
     <div id="state-no-results">
-      <h3>Sonuç bulunamadı</h3>
+      <h3>No results found</h3>
       <p>Farklı bir kelime deneyin ya da daha fazla çeviri seçin.</p>
     </div>
     <div id="results-list"></div>
@@ -833,8 +833,8 @@
 <div class="panel" id="panel-translations">
   <div id="trans-presets-bar"></div>
   <div id="trans-bulk-bar">
-    <button class="bulk-btn" id="bulk-sel-all">Tümünü Seç</button>
-    <button class="bulk-btn" id="bulk-desel-all">Tümünü Kaldır</button>
+    <button class="bulk-btn" id="bulk-sel-all">Tümünü Select</button>
+    <button class="bulk-btn" id="bulk-desel-all">Remove All</button>
   </div>
   <div id="trans-cat-list"></div>
 </div>
@@ -873,7 +873,7 @@
   <div class="panel-section">
     <div class="panel-section-title">Eşleşme</div>
     <div class="panel-row-group">
-      <label class="panel-option active"><input type="radio" name="flt-match" value="partial" checked> Kısmi <span class="flt-match-desc">— aramayı içeren tüm sonuçlar</span></label>
+      <label class="panel-option active"><input type="radio" name="flt-match" value="partial" checked> Kısmi <span class="flt-match-desc">— aramayı içeren tüm resultslar</span></label>
       <label class="panel-option"><input type="radio" name="flt-match" value="exact"> Tam Kelime <span class="flt-match-desc">— aramanın tam karşılığı</span></label>
       <label class="panel-option"><input type="radio" name="flt-match" value="similar"> Benzer <span class="flt-match-desc">— ek almış biçimleri de dahil et</span></label>
     </div>
@@ -881,7 +881,7 @@
   <div class="panel-section">
     <div class="panel-section-title" style="display:flex;justify-content:space-between;align-items:center;">
       <span>Kitap</span>
-      <button id="flt-books-clear">Temizle</button>
+      <button id="flt-books-clear">Clear</button>
     </div>
     <div id="flt-books-list"></div>
   </div>
@@ -1403,7 +1403,7 @@ function renderResults() {
   if (booksWithHits.length === 0 && !scanning) {
     noResEl.style.display = 'flex';
     listEl.style.display  = 'none';
-    countEl.textContent   = '0 sonuç';
+    countEl.textContent   = '0 results';
     return;
   }
 
@@ -1421,7 +1421,7 @@ function renderResults() {
     html += `<div class="book-section">
       <div class="book-heading">
         <span class="book-heading-name">${escHtml(bn)}</span>
-        <span class="book-heading-count">${rows.length} sonuç</span>
+        <span class="book-heading-count">${rows.length} results</span>
       </div>`;
 
     for (const r of shown) {
@@ -1436,7 +1436,7 @@ function renderResults() {
     if (rows.length > limit) {
       html += `<div class="show-more-row">
         <button class="show-more-btn" data-book="${escHtml(bn)}">
-          ${rows.length - limit} sonuç daha göster
+          ${rows.length - limit} results daha göster
         </button>
       </div>`;
     }
@@ -1445,7 +1445,7 @@ function renderResults() {
   }
 
   listEl.innerHTML = html;
-  countEl.textContent = totalVisible > 0 ? `${totalVisible} sonuç` : '';
+  countEl.textContent = totalVisible > 0 ? `${totalVisible} results` : '';
 
   listEl.querySelectorAll('.show-more-btn').forEach(btn => {
     btn.addEventListener('click', () => {
@@ -1902,8 +1902,8 @@ if (initQ.trim().length >= 2) {
     },
     {
       sel: '#panel-translations',
-      title: 'Çeviri Seçimi',
-      desc: 'Aramanın hangi çevirilerde yapılacağını seçin. Daha fazla çeviri seçmek daha kapsamlı sonuçlar sağlar.',
+      title: 'Çeviri Selectimi',
+      desc: 'Aramanın hangi çevirilerde yapılacağını seçin. Daha fazla çeviri seçmek daha kapsamlı resultslar sağlar.',
       pos: 'bottom',
       onEnter() {
         togglePanel('panel-translations', document.getElementById('btn-translations'));
@@ -1914,7 +1914,7 @@ if (initQ.trim().length >= 2) {
     {
       sel: '#header-stats',
       title: 'Sonuç Sayacı',
-      desc: 'Toplam bulunan ayet sayısı ve tarama durumu burada görüntülenir. Tarama tamamlanmadan sonuçlar aşamalı olarak listelenir.',
+      desc: 'Toplam bulunan ayet sayısı ve tarama durumu burada görüntülenir. Tarama tamamlanmadan resultslar aşamalı olarak listelenir.',
       pos: 'bottom',
     },
     {
