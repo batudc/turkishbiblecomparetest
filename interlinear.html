@@ -421,8 +421,11 @@
       width: 290px;
       overflow: hidden;
     }
-    @media (max-width: 640px), (max-height: 640px) and (pointer: coarse) {
-      #settings-panel { overflow-y: auto !important; max-height: calc(100vh - 60px); width: 100% !important; }
+    @media (max-width: 640px) {
+      #settings-panel { overflow-y: auto !important; max-height: 72vh; width: 100% !important; }
+    }
+    @media (max-height: 640px) and (pointer: coarse) {
+      #settings-panel { overflow-y: auto !important; max-height: 85vh; }
     }
 
     .sp-header {
