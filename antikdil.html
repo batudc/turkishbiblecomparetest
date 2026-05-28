@@ -186,6 +186,9 @@
       display: none; flex-direction: column;
       font-family: 'Jost', sans-serif;
       min-width: 220px;
+      max-height: calc(100vh - 60px);
+      overflow-y: auto;
+      -webkit-overflow-scrolling: touch;
     }
     .panel.open { display: flex; }
     .panel-section {
@@ -2894,11 +2897,6 @@ load(initBook, initCh);
         const openPanelEl = document.querySelector('.panel.open');
         if (openPanelEl) {
           if (typeof closeNavPanel === 'function') closeNavPanel();
-          return;
-        }
-        const strongs = document.getElementById('strongs-panel');
-        if (strongs?.classList.contains('open')) {
-          closePanel();
           return;
         }
         window.closeMobMenu();

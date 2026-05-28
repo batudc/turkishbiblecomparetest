@@ -865,6 +865,9 @@
       flex-direction: column;
       font-family: 'Jost', sans-serif;
       min-width: 220px;
+      max-height: calc(100vh - 60px);
+      overflow-y: auto;
+      -webkit-overflow-scrolling: touch;
     }
     .panel.open { display: flex; }
 
@@ -4851,15 +4854,6 @@
         const openPanelEl = document.querySelector('.panel.open');
         if (openPanelEl) {
           if (typeof closePanel === 'function') closePanel();
-          return;
-        }
-        const sidebar = document.getElementById('sidebar-panel');
-        if (sidebar?.classList.contains('open')) {
-          sidebar.style.transition = 'none';
-          sidebar.style.visibility = 'hidden';
-          sidebar.classList.remove('open');
-          document.getElementById('btn-commentary')?.classList.remove('comm-open');
-          requestAnimationFrame(() => { sidebar.style.visibility = ''; sidebar.style.transition = ''; });
           return;
         }
         window.closeMobMenu();

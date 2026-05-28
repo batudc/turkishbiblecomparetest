@@ -864,6 +864,9 @@
       flex-direction: column;
       font-family: 'Jost', sans-serif;
       min-width: 220px;
+      max-height: calc(100vh - 60px);
+      overflow-y: auto;
+      -webkit-overflow-scrolling: touch;
     }
     .panel.open { display: flex; }
 
@@ -4850,22 +4853,12 @@
     expandBtn.addEventListener('click', e => {
       e.stopPropagation();
       if (menuOpen) {
-        // 1st click closes open panel (if any) without closing header
+        // Close open nav panel first; yorum/strongs close via drag or their own button
         const openPanelEl = document.querySelector('.panel.open');
         if (openPanelEl) {
           if (typeof closePanel === 'function') closePanel();
           return;
         }
-        const sidebar = document.getElementById('sidebar-panel');
-        if (sidebar?.classList.contains('open')) {
-          sidebar.style.transition = 'none';
-          sidebar.style.visibility = 'hidden';
-          sidebar.classList.remove('open');
-          document.getElementById('btn-commentary')?.classList.remove('comm-open');
-          requestAnimationFrame(() => { sidebar.style.visibility = ''; sidebar.style.transition = ''; });
-          return;
-        }
-        // 2nd click (no panel open) closes header
         window.closeMobMenu();
       } else {
         menuOpen = true;

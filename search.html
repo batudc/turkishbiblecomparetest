@@ -213,6 +213,9 @@
       display: none; flex-direction: column;
       font-family: 'Jost', sans-serif;
       min-width: 220px;
+      max-height: calc(100vh - 60px);
+      overflow-y: auto;
+      -webkit-overflow-scrolling: touch;
     }
     .panel.open { display: flex; }
     #panel-translations { width: 300px; max-height: 70vh; overflow: hidden; }
