@@ -420,6 +420,10 @@
       width: 290px;
       overflow: hidden;
     }
+    /* Mobile (portrait + landscape): settings panel must scroll */
+    @media (max-width: 640px), (max-height: 640px) and (pointer: coarse) {
+      #settings-panel { overflow-y: auto !important; max-height: calc(100vh - 60px); width: 100% !important; }
+    }
 
     .sp-header {
       padding: 12px 16px 10px;

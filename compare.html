@@ -769,11 +769,11 @@
     body.hide-trans-names .col-header { display: none; }
     body.hide-trans-names .vn[data-tid]::before {
       content: attr(data-tid) "\00a0";
-      font-size: 0.65em;
-      font-weight: 500;
-      letter-spacing: 0.07em;
+      font-size: 0.8em;
+      font-weight: 600;
+      letter-spacing: 0.06em;
       text-transform: uppercase;
-      opacity: 0.42;
+      opacity: 0.65;
       vertical-align: 0.05em;
     }
 
@@ -3938,13 +3938,10 @@
     let syncVerse = null;
     if (cols.length > 0 && mobActiveIdx < cols.length) {
       const col = cols[mobActiveIdx];
-      let best = null, bestDist = Infinity;
-      col.querySelectorAll('.verse[data-v]').forEach(v => {
-        const rect = v.getBoundingClientRect();
-        const dist = Math.abs(rect.top);
-        if (dist < bestDist) { bestDist = dist; best = parseInt(v.dataset.v, 10); }
-      });
-      if (best !== null) syncVerse = best;
+      const colTop = col.getBoundingClientRect().top;
+      const verses = Array.from(col.querySelectorAll('.verse[data-v]'));
+      const topVerse = verses.find(v => v.getBoundingClientRect().top >= colTop);
+      if (topVerse) syncVerse = parseInt(topVerse.dataset.v, 10);
     }
 
     if (isRows) idx = Math.floor(idx / 2) * 2;
