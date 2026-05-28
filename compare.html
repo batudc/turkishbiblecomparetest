@@ -2698,7 +2698,6 @@
   let openPanelId = null;
 
   function togglePanel(panelId, triggerEl) {
-    if (typeof window.closeMobMenu === 'function') window.closeMobMenu();
     if (openPanelId === panelId) { closePanel(); return; }
     closePanel();
     const panel = document.getElementById(panelId);

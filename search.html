@@ -1140,7 +1140,6 @@ const TRANS_CATEGORIES = [
 
 let openPanelId = null;
 function togglePanel(panelId, triggerEl) {
-  if (typeof window.closeMobMenu === 'function') window.closeMobMenu();
   if (openPanelId === panelId) { closeNavPanel(); return; }
   closeNavPanel();
   const p = document.getElementById(panelId);
