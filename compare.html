@@ -1468,12 +1468,24 @@
       .col { display: none !important; }
       .col.mob-visible { display: flex !important; }
 
+      /* — Rows layout on mobile: show 2 columns stacked at half height — */
+      #okuyucu_layout.layout-rows { flex-direction: column; overflow: hidden; height: calc(100dvh - 80px); }
+      #okuyucu_layout.layout-rows .col { display: none !important; }
+      #okuyucu_layout.layout-rows .col.mob-visible {
+        display: flex !important; flex: none !important;
+        height: 50% !important; min-height: 0; overflow: hidden;
+      }
+      #okuyucu_layout.layout-rows .col-content {
+        overflow-y: auto; -webkit-overflow-scrolling: touch;
+      }
+
       /* Regular panels: drop down from header */
       .panel {
         display: flex !important; flex-direction: column;
         top: 44px !important; left: 0 !important; right: 0 !important; bottom: auto !important;
         width: 100% !important; max-width: 100% !important;
         max-height: 70vh; overflow-y: auto;
+        -webkit-overflow-scrolling: touch; overscroll-behavior: contain;
         border-radius: 0 0 12px 12px !important;
         border-top: none !important; border-left: none !important; border-right: none !important;
         border-bottom: 1px solid rgba(184,146,42,0.15) !important;
@@ -3887,17 +3899,50 @@
   }
 
   function setMobileActiveCol(idx) {
-    mobActiveIdx = idx;
+    const outerCols = document.querySelectorAll('#okuyucu_layout .col');
+    const cols = getCols();
+    const isRows = isMobile() && layoutMode === 'rows';
+
+    let syncVerse = null, syncFrac = 0;
+    if (cols.length > 0 && mobActiveIdx < cols.length) {
+      try { const p = getPosition(cols, mobActiveIdx); if (p.verse !== null) { syncVerse = p.verse; syncFrac = p.fraction; } } catch(_) {}
+    }
+
+    if (isRows) {
+      idx = Math.floor(idx / 2) * 2;
+      mobActiveIdx = Math.max(0, Math.min(Math.max(0, outerCols.length - 2), idx));
+    } else {
+      mobActiveIdx = Math.max(0, Math.min(outerCols.length - 1, idx));
+    }
+
     applyMobileVisibility();
+
+    if (syncVerse !== null && cols.length > 0) {
+      const toSync = isRows ? [mobActiveIdx, mobActiveIdx + 1] : [mobActiveIdx];
+      toSync.forEach(i => {
+        if (i < cols.length) try { applyPosition(cols, i, null, syncVerse, syncFrac); } catch(_) {}
+      });
+    }
+
     const tabs = mobileTabBar.querySelectorAll('.mob-tab');
-    tabs.forEach((t, i) => t.classList.toggle('active', i === idx));
-    if (tabs[idx]) tabs[idx].scrollIntoView({ inline: 'nearest', block: 'nearest' });
+    tabs.forEach((t, i) => {
+      const active = isRows ? (i === mobActiveIdx || i === mobActiveIdx + 1) : i === mobActiveIdx;
+      t.classList.toggle('active', active);
+    });
+    const anchor = tabs[mobActiveIdx];
+    if (anchor) anchor.scrollIntoView({ inline: 'nearest', block: 'nearest' });
   }
 
   function applyMobileVisibility() {
     if (!isMobile()) return;
+    const isRows = layoutMode === 'rows';
     document.querySelectorAll('#okuyucu_layout .col')
-      .forEach((c, i) => c.classList.toggle('mob-visible', i === mobActiveIdx));
+      .forEach((c, i) => {
+        const visible = isRows
+          ? (i === mobActiveIdx || i === mobActiveIdx + 1)
+          : i === mobActiveIdx;
+        c.classList.toggle('mob-visible', visible);
+      });
   }
 
   // Watch for column changes (rebuildColumns clears #okuyucu_layout)
@@ -3924,9 +3969,10 @@
       if (Math.abs(dx) < 40 || Math.abs(dx) < Math.abs(dy) * 1.5) return;
       const total = document.querySelectorAll('#okuyucu_layout .col').length;
       if (total < 2) return;
+      const step = (layoutMode === 'rows') ? 2 : 1;
       const next = dx < 0
-        ? Math.min(mobActiveIdx + 1, total - 1)
-        : Math.max(mobActiveIdx - 1, 0);
+        ? Math.min(mobActiveIdx + step, total - 1)
+        : Math.max(mobActiveIdx - step, 0);
       if (next !== mobActiveIdx) setMobileActiveCol(next);
     }, { passive: true });
   })();
