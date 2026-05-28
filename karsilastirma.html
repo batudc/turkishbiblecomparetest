@@ -2911,8 +2911,6 @@
   }
 
   // ── Offline caching ───────────────────────────────────────────────────────
-  const CHAPTER_COUNTS = {"1CH":29,"1CO":16,"1JN":5,"1KI":22,"1PE":5,"1SA":31,"1TH":5,"1TI":6,"2CH":36,"2CO":13,"2JN":1,"2KI":25,"2PE":3,"2SA":24,"2TH":3,"2TI":4,"3JN":1,"ACT":28,"AMO":9,"COL":4,"DAN":12,"DEU":34,"ECC":12,"EPH":6,"EST":10,"EXO":40,"EZK":48,"EZR":10,"GAL":6,"GEN":50,"HAB":3,"HAG":2,"HEB":13,"HOS":14,"ISA":66,"JAS":5,"JDG":21,"JER":52,"JHN":21,"JOB":42,"JOL":3,"JON":4,"JOS":24,"JUD":1,"LAM":5,"LEV":27,"LUK":24,"MAL":4,"MAT":28,"MIC":7,"MRK":16,"NAH":3,"NEH":13,"NUM":36,"OBA":1,"PHM":1,"PHP":4,"PRO":31,"PSA":150,"REV":22,"ROM":16,"RUT":4,"SNG":8,"TIT":3,"ZEC":14,"ZEP":3};
-
   const _cachedTids = new Set(JSON.parse(localStorage.getItem('kki_cached_tids') || '[]'));
 
   function _markCached(tid) {
