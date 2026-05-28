@@ -2037,6 +2037,11 @@ if (initQ.trim().length >= 2) {
     expandBtn.addEventListener('click', e => {
       e.stopPropagation();
       if (menuOpen) {
+        const openPanelEl = document.querySelector('.panel.open');
+        if (openPanelEl) {
+          if (typeof closeNavPanel === 'function') closeNavPanel();
+          return;
+        }
         window.closeMobMenu();
       } else {
         menuOpen = true;
