@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="tr">
+<html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -9,12 +9,12 @@
   <link rel="icon" type="image/x-icon" href="/favicon.ico">
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-  <title>Dil İnceleme — Kutsal Kitap İnceleme</title>
+  <title>Interlinear — Holy Bible Study</title>
   <meta name="description" content="Türkçe çeviri ile orijinal Yunanca metni satır satır karşılaştıran interlinear Kutsal Kitap görünümü. Her kelimeyi Strong numarasıyla inceleyin.">
   <meta name="robots" content="index, follow">
-  <link rel="canonical" href="https://www.kutsalkitapinceleme.com/interlinear.html">
+  <link rel="canonical" href="https://www.kutsalkitapinceleme.com/interlinear-en.html">
   <meta property="og:type" content="website">
-  <meta property="og:site_name" content="Kutsal Kitap İnceleme">
+  <meta property="og:site_name" content="Holy Bible Study">
   <meta property="og:title" content="Interlinear — Türkçe-Yunanca Paralel Kutsal Kitap">
   <meta property="og:description" content="Türkçe çeviri ile orijinal Yunanca metni satır satır karşılaştıran interlinear Kutsal Kitap görünümü. Her kelimeyi Strong numarasıyla inceleyin.">
   <meta property="og:url" content="https://www.kutsalkitapinceleme.com/interlinear.html">
@@ -839,8 +839,8 @@
   <!-- HEADER -->
   <div id="header">
     <a href="index.html" id="logo">
-      <img src="brand_assets/logo.png" alt="Kutsal Kitap İnceleme" />
-      <div id="logo-text">Kutsal Kitap İnceleme</div>
+      <img src="brand_assets/logo.png" alt="Holy Bible Study" />
+      <div id="logo-text">Holy Bible Study</div>
     </a>
     <form id="search-wrap" action="search.html" method="get" role="search">
       <svg viewBox="0 0 14 14" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round">
@@ -850,9 +850,9 @@
     </form>
     <!-- Mobile-only compact controls (hidden on desktop via CSS) -->
     <div id="mob-compact-controls">
-      <button id="mob-prev-ch" class="mob-ch-arrow" title="Önceki bölüm">‹</button>
-      <button id="mob-next-ch" class="mob-ch-arrow" title="Sonraki bölüm">›</button>
-      <button id="mob-expand-btn" class="mob-expand" title="Tüm seçenekler" aria-expanded="false">▾</button>
+      <button id="mob-prev-ch" class="mob-ch-arrow" title="Previous chapter">‹</button>
+      <button id="mob-next-ch" class="mob-ch-arrow" title="Next chapter">›</button>
+      <button id="mob-expand-btn" class="mob-expand" title="All options" aria-expanded="false">▾</button>
     </div>
 
         <div id="header-links">
@@ -866,22 +866,22 @@
     </div>
 
     <div id="header-controls">
-      <button class="hdr-btn" id="btn-books" title="Kitap seçin">Yuhanna <span style="opacity:.4;font-size:9px;">▾</span></button>
+      <button class="hdr-btn" id="btn-books" title="Select book">John <span style="opacity:.4;font-size:9px;">▾</span></button>
       <button class="nav-arrow" id="btn-prev">‹</button>
       <button class="hdr-btn" id="btn-chapter" title="Bölüm seçin" style="min-width:80px;text-align:center;">1. Bölüm</button>
       <button class="nav-arrow" id="btn-next">›</button>
-      <button class="hdr-btn" id="settings-btn" title="Görünüm seçenekleri">Görünüm <span style="opacity:.4;font-size:9px;">▾</span></button>
-      <button class="hdr-btn" id="btn-ayarlar" title="Gösterim seçenekleri">Ayarlar <span style="opacity:.4;font-size:9px;">▾</span></button>
+      <button class="hdr-btn" id="settings-btn" title="View options">View <span style="opacity:.4;font-size:9px;">▾</span></button>
+      <button class="hdr-btn" id="btn-ayarlar" title="Settings">Settings <span style="opacity:.4;font-size:9px;">▾</span></button>
       <button class="hdr-btn" id="btn-tour" title="Site turunu başlat">?</button>
     </div>
   </div>
 
   <!-- Mobile dropdown menu (hidden until expanded) -->
   <div id="mob-menu" role="menu">
-    <button class="mob-menu-row" id="mob-row-books" onclick="event.stopPropagation(); closeMobMenu(); document.getElementById('btn-books').click()">Kitap ▾</button>
-    <button class="mob-menu-row" id="mob-row-chapter" onclick="event.stopPropagation(); closeMobMenu(); document.getElementById('btn-chapter').click()">Bölüm ▾</button>
-    <button class="mob-menu-row" id="mob-row-style" onclick="event.stopPropagation(); closeMobMenu(); document.getElementById('settings-btn').click()">Görünüm ▾</button>
-    <button class="mob-menu-row" id="mob-row-ayarlar" onclick="event.stopPropagation(); closeMobMenu(); document.getElementById('btn-ayarlar').click()">Ayarlar ▾</button>
+    <button class="mob-menu-row" id="mob-row-books" onclick="event.stopPropagation(); closeMobMenu(); document.getElementById('btn-books').click()">Book ▾</button>
+    <button class="mob-menu-row" id="mob-row-chapter" onclick="event.stopPropagation(); closeMobMenu(); document.getElementById('btn-chapter').click()">Chapter ▾</button>
+    <button class="mob-menu-row" id="mob-row-style" onclick="event.stopPropagation(); closeMobMenu(); document.getElementById('settings-btn').click()">View ▾</button>
+    <button class="mob-menu-row" id="mob-row-ayarlar" onclick="event.stopPropagation(); closeMobMenu(); document.getElementById('btn-ayarlar').click()">Settings ▾</button>
     <div class="mob-menu-sep"></div>
     <div class="mob-menu-links">
       <a href="compare.html">Karşılaştır</a>
@@ -906,8 +906,8 @@
             <div class="sp-top-row">
               <span class="sp-label">Strong's Sözlüğü</span>
               <div class="sp-lang-toggle">
-                <button class="sp-lang-btn" data-lang="en">EN</button>
-                <button class="sp-lang-btn active" data-lang="tr">TR</button>
+                <button class="sp-lang-btn active" data-lang="en">EN</button>
+                <button class="sp-lang-btn" data-lang="tr">TR</button>
               </div>
             </div>
             <span class="sp-word-display" id="sp-word">—</span>
@@ -973,7 +973,7 @@
 
       <div class="sp-row">
         <div class="sp-row-info">
-          <div class="sp-row-label">Yunanca</div>
+          <div class="sp-row-label">Greek</div>
           <div class="sp-row-desc">Sözcüğün Yunanca formu</div>
           <div class="sp-row-sample" style="color:#f0e8d8;font-family:'Cardo',serif;font-size:15px;">ἀγαπάω</div>
         </div>
@@ -987,7 +987,7 @@
 
       <div class="sp-row">
         <div class="sp-row-info">
-          <div class="sp-row-label">Transliterasyon</div>
+          <div class="sp-row-label">Transliteration</div>
           <div class="sp-row-desc">Latin harfleriyle okunuşu</div>
           <div class="sp-row-sample" style="color:#9a8f80;font-style:italic;">agapaó</div>
         </div>
@@ -999,7 +999,7 @@
 
       <div class="sp-row">
         <div class="sp-row-info">
-          <div class="sp-row-label">Strong's Numarası</div>
+          <div class="sp-row-label">Strong's Number</div>
           <div class="sp-row-desc">Sözlük referans numarası</div>
           <div class="sp-row-sample" style="color:#b89a2a;font-weight:700;">G25</div>
         </div>
@@ -1011,7 +1011,7 @@
 
       <div class="sp-row">
         <div class="sp-row-info">
-          <div class="sp-row-label">Sözlük Anlamı</div>
+          <div class="sp-row-label">Dictionary Meaning</div>
           <div class="sp-row-desc">Strong's sözlük tanımı</div>
           <div class="sp-row-sample" style="color:#5e9668;">to love</div>
         </div>
@@ -1023,7 +1023,7 @@
 
       <div class="sp-row">
         <div class="sp-row-info">
-          <div class="sp-row-label">Bağlamsal Çeviri</div>
+          <div class="sp-row-label">Contextual Translation</div>
           <div class="sp-row-desc">Bu ayette nasıl çevrildiği</div>
           <div class="sp-row-sample" style="color:#6090b8;">loved</div>
         </div>
@@ -1035,7 +1035,7 @@
 
       <div class="sp-row">
         <div class="sp-row-info">
-          <div class="sp-row-label">Morfoloji</div>
+          <div class="sp-row-label">Morphology</div>
           <div class="sp-row-desc">Dilbilgisi kodu</div>
           <div class="sp-row-sample" style="color:#5a524a;">V-AAI-3S</div>
         </div>
@@ -1203,7 +1203,7 @@ let kmeya_Usage     = null;   // same for KMEYA
 let tcl02VerseIndex = null;   // {G2316: {Tanrı: ["MAT.1.1", ...], ...}, ...}
 let kmeyaVerseIndex = null;   // same for KMEYA
 const verseChapterCache = {}; // "TCL02:MAT.1" → {1: "text", 2: "text", ...}
-let panelLang = 'tr';
+let panelLang = 'en';
 let lastOpenToken = null;
 let lastOpenWord  = null;
 let lastOpenVerse = null;
@@ -2543,12 +2543,12 @@ function render(data, bookName, c) {
   leg.className = 'legend';
   leg.innerHTML = isHeb ? `
     <div class="li"><div class="li-dot" style="background:#e8dfc4"></div>İbranice</div>
-    <div class="li"><div class="li-dot" style="background:#9a8f80"></div>Transliterasyon</div>
+    <div class="li"><div class="li-dot" style="background:#9a8f80"></div>Transliteration</div>
     <div class="li"><div class="li-dot" style="background:#b89a2a"></div>Strong's numarası</div>
     <div class="li"><div class="li-dot" style="background:#6090b8"></div>Bağlamsal çeviri</div>
   ` : `
     <div class="li"><div class="li-dot" style="background:#e8dfc4"></div>Yunanca (lexical)</div>
-    <div class="li"><div class="li-dot" style="background:#9a8f80"></div>Transliterasyon</div>
+    <div class="li"><div class="li-dot" style="background:#9a8f80"></div>Transliteration</div>
     <div class="li"><div class="li-dot" style="background:#b89a2a"></div>Strong's numarası</div>
     <div class="li"><div class="li-dot" style="background:#5e9668"></div>Sözlük anlamı</div>
     <div class="li"><div class="li-dot" style="background:#6090b8"></div>Bağlamsal çeviri</div>

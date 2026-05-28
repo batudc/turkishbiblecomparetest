@@ -827,7 +827,18 @@
       #header-links a { font-size: 0.7rem; }
     }
 
-  </style>
+  
+    /* Language toggle in nav */
+    .lang-toggle { display:flex; gap:2px; align-items:center; margin-left:8px; }
+    .lang-toggle-btn {
+      background:none; border:1px solid rgba(184,146,42,0.25); border-radius:3px;
+      color:rgba(247,241,232,0.4); font-size:9px; font-weight:700; letter-spacing:0.1em;
+      padding:2px 6px; cursor:pointer; transition:all 0.15s; font-family:inherit;
+    }
+    .lang-toggle-btn:hover { color:var(--gold-light,#e8c96a); border-color:rgba(184,146,42,0.5); }
+    .lang-toggle-btn.lang-active { color:var(--gold-light,#e8c96a); background:rgba(184,146,42,0.12); border-color:rgba(184,146,42,0.5); }
+
+    </style>
   <script defer src="/_vercel/insights/script.js"></script>
   <script defer src="/_vercel/speed-insights/script.js"></script>
 </head>
@@ -853,10 +864,14 @@
       <button id="mob-expand-btn" class="mob-expand" title="Tüm seçenekler" aria-expanded="false">▾</button>
     </div>
 
-    <div id="header-links">
+        <div id="header-links">
       <a href="karsilastirma.html">Karşılaştır</a>
       <a href="antikdil.html">Dil İnceleme</a>
       <a href="arama.html">Ayet Ara</a>
+      <div class="lang-toggle">
+      <button class="lang-toggle-btn" data-lang-switch="tr">TR</button>
+      <button class="lang-toggle-btn" data-lang-switch="en">EN</button>
+    </div>
     </div>
 
     <div id="header-controls">

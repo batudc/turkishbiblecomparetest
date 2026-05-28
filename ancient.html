@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="tr">
+<html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -9,20 +9,20 @@
   <link rel="icon" type="image/x-icon" href="/favicon.ico">
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-  <title>Dil İnceleme — Kutsal Kitap İnceleme</title>
-  <meta name="description" content="Türkçe çeviri ile orijinal Yunanca metni satır satır karşılaştıran interlinear Kutsal Kitap görünümü. Her kelimeyi Strong numarasıyla inceleyin.">
+  <title>Language Study — Holy Bible Study</title>
+  <meta name="description" content="Study Hebrew and Greek words in their original biblical context using Strong's numbers. Deep word analysis and root exploration.">
   <meta name="robots" content="index, follow">
-  <link rel="canonical" href="https://www.kutsalkitapinceleme.com/interlinear.html">
+  <link rel="canonical" href="https://www.kutsalkitapinceleme.com/ancient.html">
   <meta property="og:type" content="website">
-  <meta property="og:site_name" content="Kutsal Kitap İnceleme">
-  <meta property="og:title" content="Interlinear — Türkçe-Yunanca Paralel Kutsal Kitap">
-  <meta property="og:description" content="Türkçe çeviri ile orijinal Yunanca metni satır satır karşılaştıran interlinear Kutsal Kitap görünümü. Her kelimeyi Strong numarasıyla inceleyin.">
-  <meta property="og:url" content="https://www.kutsalkitapinceleme.com/interlinear.html">
+  <meta property="og:site_name" content="Holy Bible Study">
+  <meta property="og:title" content="Language Study — Hebrew and Greek Bible Word Analysis">
+  <meta property="og:description" content="Study Hebrew and Greek words in their original biblical context using Strong's numbers. Deep word analysis and root exploration.">
+  <meta property="og:url" content="https://www.kutsalkitapinceleme.com/antikdil.html">
   <meta property="og:image" content="https://www.kutsalkitapinceleme.com/icons/icon-512x512.png">
   <meta property="og:locale" content="tr_TR">
   <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="Interlinear — Türkçe-Yunanca Paralel Kutsal Kitap">
-  <meta name="twitter:description" content="Türkçe çeviri ile orijinal Yunanca metni satır satır karşılaştıran interlinear Kutsal Kitap görünümü. Her kelimeyi Strong numarasıyla inceleyin.">
+  <meta name="twitter:title" content="Language Study — Hebrew and Greek Bible Word Analysis">
+  <meta name="twitter:description" content="Study Hebrew and Greek words in their original biblical context using Strong's numbers. Deep word analysis and root exploration.">
   <meta name="twitter:image" content="https://www.kutsalkitapinceleme.com/icons/icon-512x512.png">
   <link href="https://fonts.googleapis.com/css2?family=Cardo:ital@0;1&family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Jost:wght@300;400;500;600;700&family=Source+Sans+3:wght@400;500;600&display=swap" rel="stylesheet">
   <style>
@@ -107,7 +107,7 @@
       color: rgba(247,241,232,0.55); text-decoration: none; transition: color 0.2s ease;
     }
     #header-links a:hover { color: var(--gold-light); }
-    /* ── NAV BUTTONS (match compare.html .hdr-btn) ──────────────── */
+    /* ── NAV BUTTONS (match karsilastirma.html .hdr-btn) ──────────────── */
     .hdr-btn {
       padding: 6px 13px;
       background: rgba(255,255,255,0.05);
@@ -124,7 +124,6 @@
     }
     .hdr-btn:hover { background: rgba(184,146,42,0.12); border-color: rgba(184,146,42,0.3); color: var(--gold-light); }
     .hdr-btn:active { background: rgba(184,146,42,0.06); }
-
     /* ===== GUIDED TOUR ===== */
     #btn-tour {
       margin-left: 6px;
@@ -441,9 +440,12 @@
       width: 290px;
       overflow: hidden;
     }
+    /* Mobile (portrait + landscape): settings panel must scroll */
+    /* Portrait mobile: full-width sheet */
     @media (max-width: 640px) {
       #settings-panel { overflow-y: auto !important; max-height: 72vh; width: 100% !important; }
     }
+    /* Landscape mobile: keep 290px width, just add scroll */
     @media (max-height: 640px) and (pointer: coarse) {
       #settings-panel { overflow-y: auto !important; max-height: 85vh; }
     }
@@ -728,10 +730,7 @@
     .li-dot { width: 9px; height: 9px; border-radius: 50%; flex-shrink: 0; }
 
     /* ── MOBILE OVERLAY ──────────────────────────────── */
-    @media (max-width: 700px) {
-      #strongs-panel.open { width: 100%; position: absolute; right: 0; top: 92px; bottom: 0; z-index: 300; }
-      .sp-inner { width: 100%; }
-    }
+
     @media (max-width: 640px) {
       /* — Row 1: always-visible 44px bar — */
       #header { height: auto; padding: 0 10px; gap: 0; flex-wrap: wrap; align-items: center; }
@@ -793,6 +792,9 @@
       }
       .sp-inner { width: 100% !important; }
 
+      /* Interlinear grid: allow horizontal scroll */
+      #verse-content-wrap { overflow-x: auto; -webkit-overflow-scrolling: touch; }
+
       /* Regular panels: drop down from header */
       .panel {
         display: flex !important; flex-direction: column;
@@ -811,6 +813,12 @@
         pointer-events: auto;
         transition: visibility 0s 0s, opacity 0.18s cubic-bezier(0.4,0,0.2,1), transform 0.18s cubic-bezier(0.4,0,0.2,1);
       }
+
+      /* Verse list sidebar: full width bottom sheet on mobile */
+      #verse-list-panel {
+        position: fixed !important; inset: auto 0 0 0 !important;
+        width: 100% !important; height: 60vh; border-radius: 14px 14px 0 0;
+      }
     }
     /* ===== MEDIUM SCREENS (iPhone landscape, small tablets) ===== */
     @media (min-width: 641px) and (max-width: 960px) {
@@ -818,6 +826,7 @@
       #header-links { padding: 0 0.75rem 0 0.75rem; gap: 1.25rem; }
       #header-links a { font-size: 0.7rem; }
     }
+
   
     /* Language toggle in nav */
     .lang-toggle { display:flex; gap:2px; align-items:center; margin-left:8px; }
@@ -838,11 +847,11 @@
 
   <!-- HEADER -->
   <div id="header">
-    <a href="index.html" id="logo">
-      <img src="brand_assets/logo.png" alt="Kutsal Kitap İnceleme" />
-      <div id="logo-text">Kutsal Kitap İnceleme</div>
+    <a href="anasayfa.html" id="logo">
+      <img src="brand_assets/logo.png" alt="Holy Bible Study" />
+      <div id="logo-text">Holy Bible Study</div>
     </a>
-    <form id="search-wrap" action="search.html" method="get" role="search">
+    <form id="search-wrap" action="arama.html" method="get" role="search">
       <svg viewBox="0 0 14 14" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round">
         <circle cx="5.5" cy="5.5" r="4"/><line x1="9" y1="9" x2="13" y2="13"/>
       </svg>
@@ -850,9 +859,9 @@
     </form>
     <!-- Mobile-only compact controls (hidden on desktop via CSS) -->
     <div id="mob-compact-controls">
-      <button id="mob-prev-ch" class="mob-ch-arrow" title="Önceki bölüm">‹</button>
-      <button id="mob-next-ch" class="mob-ch-arrow" title="Sonraki bölüm">›</button>
-      <button id="mob-expand-btn" class="mob-expand" title="Tüm seçenekler" aria-expanded="false">▾</button>
+      <button id="mob-prev-ch" class="mob-ch-arrow" title="Previous chapter">‹</button>
+      <button id="mob-next-ch" class="mob-ch-arrow" title="Next chapter">›</button>
+      <button id="mob-expand-btn" class="mob-expand" title="All options" aria-expanded="false">▾</button>
     </div>
 
         <div id="header-links">
@@ -866,27 +875,27 @@
     </div>
 
     <div id="header-controls">
-      <button class="hdr-btn" id="btn-books" title="Kitap seçin">Yuhanna <span style="opacity:.4;font-size:9px;">▾</span></button>
+      <button class="hdr-btn" id="btn-books" title="Select book">John <span style="opacity:.4;font-size:9px;">▾</span></button>
       <button class="nav-arrow" id="btn-prev">‹</button>
       <button class="hdr-btn" id="btn-chapter" title="Bölüm seçin" style="min-width:80px;text-align:center;">1. Bölüm</button>
       <button class="nav-arrow" id="btn-next">›</button>
-      <button class="hdr-btn" id="settings-btn" title="Görünüm seçenekleri">Görünüm <span style="opacity:.4;font-size:9px;">▾</span></button>
-      <button class="hdr-btn" id="btn-ayarlar" title="Gösterim seçenekleri">Ayarlar <span style="opacity:.4;font-size:9px;">▾</span></button>
+      <button class="hdr-btn" id="settings-btn" title="View options">View <span style="opacity:.4;font-size:9px;">▾</span></button>
+      <button class="hdr-btn" id="btn-ayarlar" title="Settings">Settings <span style="opacity:.4;font-size:9px;">▾</span></button>
       <button class="hdr-btn" id="btn-tour" title="Site turunu başlat">?</button>
     </div>
   </div>
 
   <!-- Mobile dropdown menu (hidden until expanded) -->
   <div id="mob-menu" role="menu">
-    <button class="mob-menu-row" id="mob-row-books" onclick="event.stopPropagation(); closeMobMenu(); document.getElementById('btn-books').click()">Kitap ▾</button>
-    <button class="mob-menu-row" id="mob-row-chapter" onclick="event.stopPropagation(); closeMobMenu(); document.getElementById('btn-chapter').click()">Bölüm ▾</button>
-    <button class="mob-menu-row" id="mob-row-style" onclick="event.stopPropagation(); closeMobMenu(); document.getElementById('settings-btn').click()">Görünüm ▾</button>
-    <button class="mob-menu-row" id="mob-row-ayarlar" onclick="event.stopPropagation(); closeMobMenu(); document.getElementById('btn-ayarlar').click()">Ayarlar ▾</button>
+    <button class="mob-menu-row" id="mob-row-books" onclick="event.stopPropagation(); closeMobMenu(); document.getElementById('btn-books').click()">Book ▾</button>
+    <button class="mob-menu-row" id="mob-row-chapter" onclick="event.stopPropagation(); closeMobMenu(); document.getElementById('btn-chapter').click()">Chapter ▾</button>
+    <button class="mob-menu-row" id="mob-row-style" onclick="event.stopPropagation(); closeMobMenu(); document.getElementById('settings-btn').click()">View ▾</button>
+    <button class="mob-menu-row" id="mob-row-ayarlar" onclick="event.stopPropagation(); closeMobMenu(); document.getElementById('btn-ayarlar').click()">Settings ▾</button>
     <div class="mob-menu-sep"></div>
     <div class="mob-menu-links">
-      <a href="compare.html">Karşılaştır</a>
-      <a href="interlinear.html">Dil İnceleme</a>
-      <a href="search.html">Ayet Ara</a>
+      <a href="karsilastirma.html">Karşılaştır</a>
+      <a href="antikdil.html">Dil İnceleme</a>
+      <a href="arama.html">Ayet Ara</a>
     </div>
   </div>
 
@@ -906,8 +915,8 @@
             <div class="sp-top-row">
               <span class="sp-label">Strong's Sözlüğü</span>
               <div class="sp-lang-toggle">
-                <button class="sp-lang-btn" data-lang="en">EN</button>
-                <button class="sp-lang-btn active" data-lang="tr">TR</button>
+                <button class="sp-lang-btn active" data-lang="en">EN</button>
+                <button class="sp-lang-btn" data-lang="tr">TR</button>
               </div>
             </div>
             <span class="sp-word-display" id="sp-word">—</span>
@@ -973,7 +982,7 @@
 
       <div class="sp-row">
         <div class="sp-row-info">
-          <div class="sp-row-label">Yunanca</div>
+          <div class="sp-row-label">Greek</div>
           <div class="sp-row-desc">Sözcüğün Yunanca formu</div>
           <div class="sp-row-sample" style="color:#f0e8d8;font-family:'Cardo',serif;font-size:15px;">ἀγαπάω</div>
         </div>
@@ -987,7 +996,7 @@
 
       <div class="sp-row">
         <div class="sp-row-info">
-          <div class="sp-row-label">Transliterasyon</div>
+          <div class="sp-row-label">Transliteration</div>
           <div class="sp-row-desc">Latin harfleriyle okunuşu</div>
           <div class="sp-row-sample" style="color:#9a8f80;font-style:italic;">agapaó</div>
         </div>
@@ -999,7 +1008,7 @@
 
       <div class="sp-row">
         <div class="sp-row-info">
-          <div class="sp-row-label">Strong's Numarası</div>
+          <div class="sp-row-label">Strong's Number</div>
           <div class="sp-row-desc">Sözlük referans numarası</div>
           <div class="sp-row-sample" style="color:#b89a2a;font-weight:700;">G25</div>
         </div>
@@ -1011,7 +1020,7 @@
 
       <div class="sp-row">
         <div class="sp-row-info">
-          <div class="sp-row-label">Sözlük Anlamı</div>
+          <div class="sp-row-label">Dictionary Meaning</div>
           <div class="sp-row-desc">Strong's sözlük tanımı</div>
           <div class="sp-row-sample" style="color:#5e9668;">to love</div>
         </div>
@@ -1023,7 +1032,7 @@
 
       <div class="sp-row">
         <div class="sp-row-info">
-          <div class="sp-row-label">Bağlamsal Çeviri</div>
+          <div class="sp-row-label">Contextual Translation</div>
           <div class="sp-row-desc">Bu ayette nasıl çevrildiği</div>
           <div class="sp-row-sample" style="color:#6090b8;">loved</div>
         </div>
@@ -1035,7 +1044,7 @@
 
       <div class="sp-row">
         <div class="sp-row-info">
-          <div class="sp-row-label">Morfoloji</div>
+          <div class="sp-row-label">Morphology</div>
           <div class="sp-row-desc">Dilbilgisi kodu</div>
           <div class="sp-row-sample" style="color:#5a524a;">V-AAI-3S</div>
         </div>
@@ -1065,7 +1074,6 @@
   </div>
 </div>
 
-<!-- ===== TOUR OVERLAY ===== -->
 <div id="tour-click-block"></div>
 <div id="tour-spotlight"></div>
 <div id="tour-cursor"><svg width="20" height="24" viewBox="0 0 20 24" fill="none"><path d="M3.5 1.5L3.5 20.5L7.5 16.5L10 23L12.5 22L10 15.5L17.5 15.5Z" fill="white" stroke="#111" stroke-width="1.3" stroke-linejoin="round" stroke-linecap="round"/></svg></div>
@@ -1203,7 +1211,7 @@ let kmeya_Usage     = null;   // same for KMEYA
 let tcl02VerseIndex = null;   // {G2316: {Tanrı: ["MAT.1.1", ...], ...}, ...}
 let kmeyaVerseIndex = null;   // same for KMEYA
 const verseChapterCache = {}; // "TCL02:MAT.1" → {1: "text", 2: "text", ...}
-let panelLang = 'tr';
+let panelLang = 'en';
 let lastOpenToken = null;
 let lastOpenWord  = null;
 let lastOpenVerse = null;
@@ -1214,7 +1222,7 @@ let kmeyaVerseCache = {};
 // Maps verse_num → word array for the currently loaded chapter
 let currentVerseWords = {};
 
-// ── Nav dropdown panels (matches compare.html pattern) ────────────
+// ── Nav dropdown panels (matches karsilastirma.html pattern) ────────────
 let openPanelId = null;
 
 function togglePanel(panelId, triggerEl) {
@@ -1226,7 +1234,6 @@ function togglePanel(panelId, triggerEl) {
   p.style.left = rect.left + 'px';
   p.style.right = 'auto';
   p.classList.add('open');
-  // Clamp after open so panel stays within viewport
   const overflow = (rect.left + p.offsetWidth) - (window.innerWidth - 8);
   if (overflow > 0) p.style.left = Math.max(4, rect.left - overflow) + 'px';
   openPanelId = panelId;
@@ -2542,13 +2549,13 @@ function render(data, bookName, c) {
   const leg = document.createElement('div');
   leg.className = 'legend';
   leg.innerHTML = isHeb ? `
-    <div class="li"><div class="li-dot" style="background:#e8dfc4"></div>İbranice</div>
-    <div class="li"><div class="li-dot" style="background:#9a8f80"></div>Transliterasyon</div>
+    <div class="li"><div class="li-dot" style="background:#e8dfc4"></div>Hebrew</div>
+    <div class="li"><div class="li-dot" style="background:#9a8f80"></div>Transliteration</div>
     <div class="li"><div class="li-dot" style="background:#b89a2a"></div>Strong's numarası</div>
     <div class="li"><div class="li-dot" style="background:#6090b8"></div>Bağlamsal çeviri</div>
   ` : `
     <div class="li"><div class="li-dot" style="background:#e8dfc4"></div>Yunanca (lexical)</div>
-    <div class="li"><div class="li-dot" style="background:#9a8f80"></div>Transliterasyon</div>
+    <div class="li"><div class="li-dot" style="background:#9a8f80"></div>Transliteration</div>
     <div class="li"><div class="li-dot" style="background:#b89a2a"></div>Strong's numarası</div>
     <div class="li"><div class="li-dot" style="background:#5e9668"></div>Sözlük anlamı</div>
     <div class="li"><div class="li-dot" style="background:#6090b8"></div>Bağlamsal çeviri</div>
@@ -2732,7 +2739,7 @@ load(initBook, initCh);
   // ===== GUIDED TOUR =====
   let _tourStep = 0, _tourActive = false;
   let _tourElevated = [];
-  let _tourSpOpen = false;
+  let _tourSpOpen = false; // strongs panel opened during tour
 
   function _tourCursorClick(getEl, delay, action) {
     setTimeout(() => {
@@ -2952,6 +2959,7 @@ load(initBook, initCh);
       }
     });
 
+    // Chapter arrow shortcuts
     document.getElementById('mob-prev-ch')?.addEventListener('click', () => document.getElementById('btn-prev')?.click());
     document.getElementById('mob-next-ch')?.addEventListener('click', () => document.getElementById('btn-next')?.click());
 
