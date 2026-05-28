@@ -2931,7 +2931,13 @@ load(initBook, initCh);
         el.style.transition = 'transform 0.28s cubic-bezier(0.4,0,0.2,1)';
         if (dy > 60) {
           el.style.transform = 'translateY(' + el.offsetHeight + 'px)';
-          setTimeout(() => { closeFn(); el.style.transform = ''; el.style.transition = ''; }, 280);
+          setTimeout(() => {
+            el.style.transition = 'none';
+            el.style.visibility = 'hidden';
+            el.style.transform = '';
+            closeFn();
+            requestAnimationFrame(() => { el.style.visibility = ''; el.style.transition = ''; });
+          }, 280);
         } else {
           el.style.transform = 'translateY(0)';
           setTimeout(() => { el.style.transform = ''; el.style.transition = ''; }, 280);
