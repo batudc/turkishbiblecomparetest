@@ -1067,6 +1067,15 @@
     .trans-item:last-child { border-bottom: none; }
     .trans-item:hover { background: rgba(184,146,42,0.07); }
     .trans-item.unavailable { opacity: 0.35; cursor: default; pointer-events: none; }
+    .trans-dl-btn {
+      flex-shrink: 0; background: none; border: none; cursor: pointer;
+      font-size: 13px; opacity: 0.35; padding: 2px 3px; border-radius: 3px;
+      transition: opacity 0.15s, color 0.15s; color: var(--text2);
+    }
+    .trans-dl-btn:hover { opacity: 0.8; }
+    .trans-dl-btn.cached { color: #4caf77; opacity: 0.7; }
+    .trans-dl-btn.loading { opacity: 0.6; animation: spin 1.2s linear infinite; }
+    @keyframes spin { to { transform: rotate(360deg); } }
     .trans-item input[type="checkbox"] { accent-color: var(--gold); flex-shrink: 0; cursor: pointer; }
 
     .trans-abbr {
@@ -2888,6 +2897,34 @@
     });
   }
 
+  // ── Offline caching ───────────────────────────────────────────────────────
+  const CHAPTER_COUNTS = {"1CH":29,"1CO":16,"1JN":5,"1KI":22,"1PE":5,"1SA":31,"1TH":5,"1TI":6,"2CH":36,"2CO":13,"2JN":1,"2KI":25,"2PE":3,"2SA":24,"2TH":3,"2TI":4,"3JN":1,"ACT":28,"AMO":9,"COL":4,"DAN":12,"DEU":34,"ECC":12,"EPH":6,"EST":10,"EXO":40,"EZK":48,"EZR":10,"GAL":6,"GEN":50,"HAB":3,"HAG":2,"HEB":13,"HOS":14,"ISA":66,"JAS":5,"JDG":21,"JER":52,"JHN":21,"JOB":42,"JOL":3,"JON":4,"JOS":24,"JUD":1,"LAM":5,"LEV":27,"LUK":24,"MAL":4,"MAT":28,"MIC":7,"MRK":16,"NAH":3,"NEH":13,"NUM":36,"OBA":1,"PHM":1,"PHP":4,"PRO":31,"PSA":150,"REV":22,"ROM":16,"RUT":4,"SNG":8,"TIT":3,"ZEC":14,"ZEP":3};
+
+  const _cachedTids = new Set(JSON.parse(localStorage.getItem('kki_cached_tids') || '[]'));
+
+  function _markCached(tid) {
+    _cachedTids.add(tid);
+    localStorage.setItem('kki_cached_tids', JSON.stringify([..._cachedTids]));
+    document.querySelectorAll(`.trans-dl-btn[data-tid="${tid}"]`).forEach(b => {
+      b.textContent = '✓'; b.classList.replace('loading', 'cached'); b.title = 'Çevrimdışı kullanıma hazır';
+    });
+  }
+
+  function cacheTranslation(tid, btn) {
+    if (!('serviceWorker' in navigator) || !navigator.serviceWorker.controller) {
+      alert('Servis çalışanı henüz hazır değil, sayfayı yenileyin.'); return;
+    }
+    btn.textContent = '↻'; btn.classList.add('loading'); btn.title = 'İndiriliyor…';
+    const books = Object.entries(CHAPTER_COUNTS).map(([code, chapters]) => ({ code, chapters }));
+    navigator.serviceWorker.controller.postMessage({ type: 'CACHE_TRANSLATION', tid, books });
+    navigator.serviceWorker.addEventListener('message', function handler(e) {
+      if (e.data?.type === 'CACHE_DONE' && e.data.tid === tid) {
+        navigator.serviceWorker.removeEventListener('message', handler);
+        _markCached(tid);
+      }
+    });
+  }
+
   function buildTransItem(tid) {
     const t = ALL_TRANS[tid];
     if (!t) return null;
@@ -2910,6 +2947,16 @@
     star.title = getFavorites().includes(t.id) ? 'Favorilerden çıkar' : 'Favorilere ekle';
     star.addEventListener('click', e => { e.stopPropagation(); toggleFavorite(t.id); });
     item.appendChild(star);
+    if (t.loaded) {
+      const dlBtn = document.createElement('button');
+      const isCached = _cachedTids.has(t.id);
+      dlBtn.className = 'trans-dl-btn' + (isCached ? ' cached' : '');
+      dlBtn.dataset.tid = t.id;
+      dlBtn.textContent = isCached ? '✓' : '⬇';
+      dlBtn.title = isCached ? 'Çevrimdışı kullanıma hazır' : 'Çevrimdışı kullanım için indir';
+      dlBtn.addEventListener('click', e => { e.stopPropagation(); if (!isCached) cacheTranslation(t.id, dlBtn); });
+      item.appendChild(dlBtn);
+    }
     if (t.loaded) {
       item.querySelector('input').addEventListener('change', e => {
         if (e.target.checked) selectedTranslations.add(t.id);
