@@ -1524,6 +1524,18 @@
         border-left: none; border-top: 1px solid rgba(184,146,42,0.25);
         border-radius: 14px 14px 0 0; z-index: 190;
       }
+
+      /* Satır + Yorum open: 3-way split — 2 parts translations, 1 part yorum */
+      body:has(#sidebar-panel.open) #okuyucu_layout.layout-rows {
+        height: calc(66dvh - 52px);
+      }
+      body:has(#sidebar-panel.open) #okuyucu_layout.layout-rows .col.mob-visible {
+        height: 50%;
+      }
+      body:has(#sidebar-panel.open) #sidebar-panel.open {
+        height: calc(34dvh - 28px);
+        border-radius: 0;
+      }
     }
     /* ===== MEDIUM SCREENS (iPhone landscape, small tablets) ===== */
     @media (min-width: 641px) and (max-width: 960px) {

@@ -923,7 +923,7 @@
 
 <!-- SETTINGS OVERLAY -->
 <div id="settings-overlay">
-  <div id="settings-panel" class="panel open">
+  <div id="settings-panel" class="panel">
     <div class="sp-header">
       <span class="sp-header-title">Gösterim Seçenekleri</span>
       <button class="sp-header-close" id="settings-close">✕</button>
@@ -2660,11 +2660,17 @@ function openSettings() {
   if (left + 290 > window.innerWidth - 8) left = window.innerWidth - 290 - 8;
   sp.style.left = Math.max(4, left) + 'px';
   settingsOverlay.classList.add('open');
+  sp.classList.add('open');
   btnAyarlar.style.background = 'rgba(184,146,42,0.12)';
   btnAyarlar.style.borderColor = 'rgba(184,146,42,0.3)';
   btnAyarlar.style.color = 'var(--gold-light)';
 }
-function closeSettings() { settingsOverlay.classList.remove('open'); btnAyarlar.style.background = ''; btnAyarlar.style.borderColor = ''; btnAyarlar.style.color = ''; }
+function closeSettings() {
+  const sp = document.getElementById('settings-panel');
+  settingsOverlay.classList.remove('open');
+  sp.classList.remove('open');
+  btnAyarlar.style.background = ''; btnAyarlar.style.borderColor = ''; btnAyarlar.style.color = '';
+}
 btnAyarlar.addEventListener('click', e => {
   e.stopPropagation();
   closeNavPanel();
