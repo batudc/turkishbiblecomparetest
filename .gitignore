@@ -5,6 +5,9 @@
 *.png
 # Keep brand assets
 !brand_assets/*.png
+# Keep PWA icons and favicons
+!icons/*.png
+!favicon-*.png
 
 # OCR source files
 yyy ocr.txt
