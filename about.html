@@ -3,6 +3,9 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="manifest" href="/manifest.json">
+  <meta name="theme-color" content="#0d1b26">
+  <link rel="apple-touch-icon" href="/icons/icon-180x180.png">
   <title>Biz Kimiz — Kutsal Kitap İnceleme</title>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -267,6 +270,12 @@
     window.addEventListener('scroll', () => {
       nav.style.background = window.scrollY > 40 ? 'rgba(247,241,232,0.97)' : 'rgba(247,241,232,0.92)';
     }, { passive: true });
+  </script>
+
+  <script>
+    if ("serviceWorker" in navigator) {
+      navigator.serviceWorker.register("/sw.js");
+    }
   </script>
 </body>
 </html>
