@@ -4800,8 +4800,11 @@
         }
         const sidebar = document.getElementById('sidebar-panel');
         if (sidebar?.classList.contains('open')) {
+          sidebar.style.transition = 'none';
+          sidebar.style.visibility = 'hidden';
           sidebar.classList.remove('open');
           document.getElementById('btn-commentary')?.classList.remove('comm-open');
+          requestAnimationFrame(() => { sidebar.style.visibility = ''; sidebar.style.transition = ''; });
           return;
         }
         // 2nd click (no panel open) closes header

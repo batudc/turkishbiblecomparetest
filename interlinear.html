@@ -2423,8 +2423,11 @@ function makeSection(title) {
 }
 
 function closePanel() {
+  panel.style.transition = 'none';
+  panel.style.visibility = 'hidden';
   panel.classList.remove('open');
   if (activeToken) { activeToken.classList.remove('active'); activeToken = null; }
+  requestAnimationFrame(() => { panel.style.visibility = ''; panel.style.transition = ''; });
 }
 
 document.getElementById('sp-close').addEventListener('click', closePanel);
@@ -2888,8 +2891,7 @@ load(initBook, initCh);
         }
         const strongs = document.getElementById('strongs-panel');
         if (strongs?.classList.contains('open')) {
-          strongs.classList.remove('open');
-          document.getElementById('panel-backdrop')?.classList.remove('visible');
+          closePanel();
           return;
         }
         window.closeMobMenu();
