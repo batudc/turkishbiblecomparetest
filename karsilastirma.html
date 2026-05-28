@@ -1069,13 +1069,17 @@
     .trans-item:hover { background: rgba(184,146,42,0.07); }
     .trans-item.unavailable { opacity: 0.35; cursor: default; pointer-events: none; }
     .trans-dl-btn {
-      flex-shrink: 0; background: none; border: none; cursor: pointer;
-      font-size: 13px; opacity: 0.35; padding: 2px 3px; border-radius: 3px;
-      transition: opacity 0.15s, color 0.15s; color: var(--text2);
+      flex-shrink: 0; background: none;
+      border: 1px solid rgba(184,146,42,0.2);
+      border-radius: 4px; cursor: pointer;
+      font-size: 10px; font-weight: 700; letter-spacing: 0.05em;
+      padding: 2px 5px; color: rgba(184,146,42,0.4);
+      transition: color 0.15s, border-color 0.15s, transform 0.1s;
+      line-height: 1.4;
     }
-    .trans-dl-btn:hover { opacity: 0.8; }
-    .trans-dl-btn.cached { color: #4caf77; opacity: 0.7; }
-    .trans-dl-btn.loading { opacity: 0.6; animation: spin 1.2s linear infinite; }
+    .trans-dl-btn:hover { color: var(--gold-light); border-color: rgba(184,146,42,0.6); transform: scale(1.05); }
+    .trans-dl-btn.cached { color: #4caf77; border-color: rgba(76,175,119,0.5); }
+    .trans-dl-btn.loading { opacity: 0.6; border-color: rgba(184,146,42,0.3); animation: spin 1.2s linear infinite; }
     @keyframes spin { to { transform: rotate(360deg); } }
     .trans-item input[type="checkbox"] { accent-color: var(--gold); flex-shrink: 0; cursor: pointer; }
 
@@ -1875,13 +1879,14 @@
       <button id="mob-expand-btn" class="mob-expand" title="Tüm seçenekler" aria-expanded="false">▾</button>
     </div>
 
-        <div id="header-links">
+            <div id="header-links">
       <a href="karsilastirma.html">Karşılaştır</a>
       <a href="antikdil.html">Dil İnceleme</a>
       <a href="arama.html">Ayet Ara</a>
       <div class="lang-toggle">
       <button class="lang-toggle-btn" data-lang-switch="tr">TR</button>
       <button class="lang-toggle-btn" data-lang-switch="en">EN</button>
+    </div>
     </div>
     </div>
 
@@ -2932,7 +2937,7 @@
     _cachedTids.add(tid);
     localStorage.setItem('kki_cached_tids', JSON.stringify([..._cachedTids]));
     document.querySelectorAll(`.trans-dl-btn[data-tid="${tid}"]`).forEach(b => {
-      b.textContent = '✓'; b.classList.replace('loading', 'cached'); b.title = 'Çevrimdışı kullanıma hazır';
+      b.textContent = '✓'; b.classList.remove('loading'); b.classList.add('cached'); b.title = 'Çevrimdışı kullanıma hazır';
     });
   }
 
@@ -2940,7 +2945,7 @@
     if (!('serviceWorker' in navigator) || !navigator.serviceWorker.controller) {
       alert('Servis çalışanı henüz hazır değil, sayfayı yenileyin.'); return;
     }
-    btn.textContent = '↻'; btn.classList.add('loading'); btn.title = 'İndiriliyor…';
+    btn.textContent = '○'; btn.classList.add('loading'); btn.title = 'İndiriliyor…';
     const books = Object.entries(CHAPTER_COUNTS).map(([code, chapters]) => ({ code, chapters }));
     navigator.serviceWorker.controller.postMessage({ type: 'CACHE_TRANSLATION', tid, books });
     navigator.serviceWorker.addEventListener('message', function handler(e) {
@@ -2978,7 +2983,7 @@
       const isCached = _cachedTids.has(t.id);
       dlBtn.className = 'trans-dl-btn' + (isCached ? ' cached' : '');
       dlBtn.dataset.tid = t.id;
-      dlBtn.textContent = isCached ? '✓' : '⬇';
+      dlBtn.textContent = isCached ? '✓' : '↓';
       dlBtn.title = isCached ? 'Çevrimdışı kullanıma hazır' : 'Çevrimdışı kullanım için indir';
       dlBtn.addEventListener('click', e => { e.stopPropagation(); if (!isCached) cacheTranslation(t.id, dlBtn); });
       item.appendChild(dlBtn);

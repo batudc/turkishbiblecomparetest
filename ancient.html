@@ -864,13 +864,14 @@
       <button id="mob-expand-btn" class="mob-expand" title="All options" aria-expanded="false">▾</button>
     </div>
 
-        <div id="header-links">
-      <a href="karsilastirma.html">Karşılaştır</a>
-      <a href="antikdil.html">Dil İnceleme</a>
-      <a href="arama.html">Ayet Ara</a>
+            <div id="header-links">
+      <a href="compare.html">Compare</a>
+      <a href="ancient.html">Language Study</a>
+      <a href="search.html">Search</a>
       <div class="lang-toggle">
       <button class="lang-toggle-btn" data-lang-switch="tr">TR</button>
       <button class="lang-toggle-btn" data-lang-switch="en">EN</button>
+    </div>
     </div>
     </div>
 
@@ -954,7 +955,7 @@
 <!-- GORUNUM PANEL -->
 <div class="panel" id="panel-gorunum">
   <div class="panel-section">
-    <div class="panel-section-title">Tema</div>
+    <div class="panel-section-title">Theme</div>
     <div class="panel-row-group">
       <label class="panel-option active"><input type="radio" name="il-theme" value="light" checked> Açık</label>
       <label class="panel-option"><input type="radio" name="il-theme" value="sepia"> Parşömen</label>
@@ -962,11 +963,11 @@
     </div>
   </div>
   <div class="panel-section">
-    <div class="panel-section-title">Yazı Boyutu</div>
+    <div class="panel-section-title">Font Size</div>
     <div class="panel-row-group">
       <label class="panel-option"><input type="radio" name="il-fontsize" value="small"> Küçük</label>
       <label class="panel-option active"><input type="radio" name="il-fontsize" value="normal" checked> Normal</label>
-      <label class="panel-option"><input type="radio" name="il-fontsize" value="large"> Büyük</label>
+      <label class="panel-option"><input type="radio" name="il-fontsize" value="large"> Large</label>
     </div>
   </div>
 </div>
@@ -2497,7 +2498,7 @@ async function load(b, c) {
   });
 
   closePanel();
-  scrollArea.innerHTML = '<div class="state">Yükleniyor…</div>';
+  scrollArea.innerHTML = '<div class="state">Loading…</div>';
   history.pushState({b,c}, '', `?book=${b}&chapter=${c}`);
   document.title = `${meta.n} ${c} — Dil İnceleme`;
 

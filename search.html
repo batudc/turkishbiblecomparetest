@@ -794,13 +794,14 @@
       <span id="result-count"></span>
       <span id="scan-status"></span>
     </div>
-        <div id="header-links">
+            <div id="header-links">
       <a href="compare.html">Compare</a>
       <a href="ancient.html">Language Study</a>
       <a href="search.html">Search</a>
       <div class="lang-toggle">
       <button class="lang-toggle-btn" data-lang-switch="tr">TR</button>
       <button class="lang-toggle-btn" data-lang-switch="en">EN</button>
+    </div>
     </div>
     </div>
     <div id="header-controls">
@@ -814,9 +815,9 @@
 
   <!-- Mobile dropdown menu (hidden until expanded) -->
   <div id="mob-menu" role="menu">
-    <button class="mob-menu-row" id="mob-row-translations" onclick="event.stopPropagation(); closeMobMenu(); document.getElementById('btn-translations').click()">Çeviri ▾</button>
+    <button class="mob-menu-row" id="mob-row-translations" onclick="event.stopPropagation(); closeMobMenu(); document.getElementById('btn-translations').click()">Translations ▾</button>
     <button class="mob-menu-row" id="mob-row-filtreler" onclick="event.stopPropagation(); closeMobMenu(); document.getElementById('btn-filtreler').click()">Filtre ▾</button>
-    <button class="mob-menu-row" id="mob-row-gorunum" onclick="event.stopPropagation(); closeMobMenu(); document.getElementById('btn-gorunum').click()">Görünüm ▾</button>
+    <button class="mob-menu-row" id="mob-row-gorunum" onclick="event.stopPropagation(); closeMobMenu(); document.getElementById('btn-gorunum').click()">View ▾</button>
     <div class="mob-menu-sep"></div>
     <div class="mob-menu-links">
       <a href="compare.html">Compare</a>
@@ -858,7 +859,7 @@
 <!-- GÖRÜNÜM PANEL -->
 <div class="panel" id="panel-gorunum">
   <div class="panel-section">
-    <div class="panel-section-title">Tema</div>
+    <div class="panel-section-title">Theme</div>
     <div class="panel-row-group">
       <label class="panel-option active"><input type="radio" name="sr-theme" value="light" checked> Açık</label>
       <label class="panel-option"><input type="radio" name="sr-theme" value="sepia"> Parşömen</label>
@@ -866,11 +867,11 @@
     </div>
   </div>
   <div class="panel-section">
-    <div class="panel-section-title">Yazı Boyutu</div>
+    <div class="panel-section-title">Font Size</div>
     <div class="panel-row-group">
       <label class="panel-option"><input type="radio" name="sr-fontsize" value="small"> Küçük</label>
       <label class="panel-option active"><input type="radio" name="sr-fontsize" value="normal" checked> Normal</label>
-      <label class="panel-option"><input type="radio" name="sr-fontsize" value="large"> Büyük</label>
+      <label class="panel-option"><input type="radio" name="sr-fontsize" value="large"> Large</label>
     </div>
   </div>
 </div>
@@ -1297,7 +1298,7 @@ function buildTransPanel() {
         abbr.textContent = tid;
         const meta = document.createElement('div');
         meta.className = 'trans-meta';
-        meta.innerHTML = '<div class="trans-name">' + escHtml(t.name) + '</div><div class="trans-year">' + t.year + (!t.loaded ? ' — yakında' : '') + '</div>';
+        meta.innerHTML = '<div class="trans-name">' + escHtml(t.name) + '</div><div class="trans-year">' + t.year + (!t.loaded ? ' — coming soon' : '') + '</div>';
         item.appendChild(cb);
         item.appendChild(abbr);
         item.appendChild(meta);

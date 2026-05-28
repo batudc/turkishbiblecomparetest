@@ -5,8 +5,6 @@
     'compare.html':       { lang: 'en', partner: 'karsilastirma.html' },
     'antikdil.html':      { lang: 'tr', partner: 'ancient.html' },
     'ancient.html':       { lang: 'en', partner: 'antikdil.html' },
-    'interlinear.html':   { lang: 'tr', partner: 'interlinear-en.html' },
-    'interlinear-en.html':{ lang: 'en', partner: 'interlinear.html' },
     'arama.html':         { lang: 'tr', partner: 'search.html' },
     'search.html':        { lang: 'en', partner: 'arama.html' },
   };

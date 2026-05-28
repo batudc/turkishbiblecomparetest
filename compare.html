@@ -762,7 +762,7 @@
       font-style: italic;
     }
     .col-loading::after {
-      content: 'Yükleniyor…';
+      content: 'Loading…';
       animation: pulse 1.2s ease-in-out infinite;
     }
     @keyframes pulse { 0%,100%{opacity:.4} 50%{opacity:1} }
@@ -1080,13 +1080,17 @@
     .trans-item.unavailable { opacity: 0.35; cursor: default; pointer-events: none; }
     .trans-item input[type="checkbox"] { accent-color: var(--gold); flex-shrink: 0; cursor: pointer; }
     .trans-dl-btn {
-      flex-shrink: 0; background: none; border: none; cursor: pointer;
-      font-size: 13px; opacity: 0.35; padding: 2px 3px; border-radius: 3px;
-      transition: opacity 0.15s, color 0.15s; color: var(--text2);
+      flex-shrink: 0; background: none;
+      border: 1px solid rgba(184,146,42,0.2);
+      border-radius: 4px; cursor: pointer;
+      font-size: 10px; font-weight: 700; letter-spacing: 0.05em;
+      padding: 2px 5px; color: rgba(184,146,42,0.4);
+      transition: color 0.15s, border-color 0.15s, transform 0.1s;
+      line-height: 1.4;
     }
-    .trans-dl-btn:hover { opacity: 0.8; }
-    .trans-dl-btn.cached { color: #4caf77; opacity: 0.7; }
-    .trans-dl-btn.loading { opacity: 0.6; animation: spin 1.2s linear infinite; }
+    .trans-dl-btn:hover { color: var(--gold-light); border-color: rgba(184,146,42,0.6); transform: scale(1.05); }
+    .trans-dl-btn.cached { color: #4caf77; border-color: rgba(76,175,119,0.5); }
+    .trans-dl-btn.loading { opacity: 0.6; border-color: rgba(184,146,42,0.3); animation: spin 1.2s linear infinite; }
     @keyframes spin { to { transform: rotate(360deg); } }
 
     .trans-abbr {
@@ -1885,13 +1889,14 @@
       <button id="mob-expand-btn" class="mob-expand" title="All options" aria-expanded="false">▾</button>
     </div>
 
-        <div id="header-links">
+            <div id="header-links">
       <a href="compare.html">Compare</a>
       <a href="ancient.html">Language Study</a>
       <a href="search.html">Search</a>
       <div class="lang-toggle">
       <button class="lang-toggle-btn" data-lang-switch="tr">TR</button>
       <button class="lang-toggle-btn" data-lang-switch="en">EN</button>
+    </div>
     </div>
     </div>
 
@@ -1913,7 +1918,7 @@
     <button class="mob-menu-row" id="mob-row-chapter" onclick="event.stopPropagation(); closeMobMenu(); document.getElementById('btn-chapter').click()">Chapter ▾</button>
     <button class="mob-menu-row" id="mob-row-translations" onclick="event.stopPropagation(); closeMobMenu(); document.getElementById('btn-translations').click()">Translations ▾</button>
     <button class="mob-menu-row" id="mob-row-style" onclick="event.stopPropagation(); closeMobMenu(); document.getElementById('btn-style').click()">View ▾</button>
-    <button class="mob-menu-row" id="mob-row-commentary" onclick="event.stopPropagation(); closeMobMenu(); document.getElementById('btn-commentary').click()">Yorum ▾</button>
+    <button class="mob-menu-row" id="mob-row-commentary" onclick="event.stopPropagation(); closeMobMenu(); document.getElementById('btn-commentary').click()">Commentary ▾</button>
     <div class="mob-menu-sep"></div>
     <div class="mob-menu-links">
       <a href="compare.html">Compare</a>
@@ -1964,7 +1969,7 @@
 <!-- ===== PANEL: STYLE ===== -->
 <div class="panel" id="panel-style">
   <div class="panel-section">
-    <div class="panel-section-title">Tema</div>
+    <div class="panel-section-title">Theme</div>
     <div class="panel-row-group">
       <label class="panel-option active"><input type="radio" name="theme" value="light" checked> Açık</label>
       <label class="panel-option"><input type="radio" name="theme" value="sepia"> Parşömen</label>
@@ -1972,11 +1977,11 @@
     </div>
   </div>
   <div class="panel-section">
-    <div class="panel-section-title">Yazı Boyutu</div>
+    <div class="panel-section-title">Font Size</div>
     <div class="panel-row-group">
       <label class="panel-option"><input type="radio" name="fontsize" value="small"> Küçük</label>
       <label class="panel-option active"><input type="radio" name="fontsize" value="normal" checked> Normal</label>
-      <label class="panel-option"><input type="radio" name="fontsize" value="large"> Büyük</label>
+      <label class="panel-option"><input type="radio" name="fontsize" value="large"> Large</label>
     </div>
   </div>
   <div class="panel-section">
@@ -2012,7 +2017,7 @@
 <!-- ===== PANEL: CHAPTERS ===== -->
 <div class="panel" id="panel-chapters">
   <div class="panel-section" style="padding:8px 10px 12px;max-height:60vh;overflow-y:auto;">
-    <div class="panel-section-title" id="ch-panel-label">Yuhanna — Bölümler</div>
+    <div class="panel-section-title" id="ch-panel-label">John — Chapters</div>
     <div class="books-grid" id="chapters-grid"></div>
   </div>
 </div>
@@ -2032,7 +2037,7 @@
   <div id="trans-presets-bar"><!-- populated by JS --></div>
   <div id="default-trans-row">
     <label for="default-trans-sel">Atıf Çevirisi</label>
-    <select id="default-trans-sel"><option value="">— Seçin —</option></select>
+    <select id="default-trans-sel"><option value="">— Select —</option></select>
   </div>
   <div id="trans-cat-list"><!-- populated by buildTransCategories() --></div>
 </div>
@@ -2055,7 +2060,7 @@
   <div id="hw-title">Güvenilmez Kaynak</div>
   <div id="hw-text">
     <strong id="hw-trans-name"></strong>, güvenilir bir çeviri değildir.
-    Bu tercüme sapkın bir öğretiyi temsil etmekte olup Kutsal Kitap metinlerini
+    This translation represents a heretical teaching and alters biblical text
     tahrif ettiği bilinmektedir. Karşılaştırma amacıyla görüntüleyebilirsiniz;
     ancak öğretici kaynak olarak kullanılması tavsiye edilmez.
   </div>
@@ -2089,43 +2094,43 @@
 <script>
   // ── Static data ───────────────────────────────────────────────────────
   const SEA_BOOKS = new Set(['MAT','MRK','EPH','PHM','1JN']);
-  const SEA_NOTE  = 'Seaman\'ın meâlinin Türkçesi düşük kaliteli olduğu için cildin Matta, Markos, Efesliler, Filemon ve 1. Yuhanna mektubu dışındaki diğer kitaplarının transkripsiyonu yayınlanmamıştır, yayınlandığı taktirde burada paylaşılacaktır.';
+  const SEA_NOTE  = 'The quality of Seaman\'s Ottoman Turkish is low; only Matthew, Mark, Eph, Phil, Col, Heb, and Jas are available here.';
   const BGT_NT_BOOKS = new Set(['MAT','MRK','LUK','JHN','ACT','ROM','1CO','2CO','GAL','EPH','PHP','COL','1TH','2TH','1TI','2TI','TIT','PHM','HEB','JAS','1PE','2PE','1JN','2JN','3JN','JUD','REV']);
   const BGT_BOOKS = BGT_NT_BOOKS;
-  const BGT_NOTE  = 'İncil BG Türkçe çevirisi yalnızca Yeni Ahit kitaplarını kapsamaktadır.';
+  const BGT_NOTE  = 'İncil BG Türkçe covers only New Testament books.';
   const TSV_BOOKS = new Set(['PRO']);
-  const TSV_NOTE  = 'Türk Standart Versiyon şu an için yalnızca Süleyman\'ın Özdeyişleri\'ni kapsamaktadır.';
+  const TSV_NOTE  = 'Türk Standart Versiyon currently covers only Proverbs.';
   const KKDEU_NT_BOOKS = new Set(['MAT','MRK','LUK','JHN','ACT','ROM','1CO','2CO','GAL','EPH','PHP','COL','1TH','2TH','1TI','2TI','TIT','PHM','HEB','JAS','1PE','2PE','1JN','2JN','3JN','JUD','REV']);
-  const KKDEU_NOTE = 'Kutsal Kitap ve Deuterakanonik çevirisi yalnızca Yeni Ahit kitaplarını kapsamaktadır.';
+  const KKDEU_NOTE = 'Kutsal Kitap ve Deuterakanonik covers only New Testament books.';
   const TTT_NT_BOOKS = new Set(['MAT','MRK','LUK','JHN','ACT','ROM','1CO','2CO','GAL','EPH','PHP','COL','1TH','2TH','1TI','2TI','TIT','PHM','HEB','JAS','1PE','2PE','1JN','2JN','3JN','JUD','REV']);
-  const TTT_NOTE = 'Temel Türkçe Tercüme çevirisi yalnızca Yeni Ahit kitaplarını kapsamaktadır.';
+  const TTT_NOTE = 'Temel Türkçe Tercüme covers only New Testament books.';
   const KIE1819_NT_BOOKS = new Set(['MAT','MRK','LUK','JHN','ACT','ROM','1CO','2CO','GAL','EPH','PHP','COL','1TH','2TH','1TI','2TI','TIT','PHM','HEB','JAS','1PE','2PE','1JN','2JN','3JN','JUD','REV']);
-  const KIE1819_NOTE = 'Yeni Ahit (Ali Bey, J.D. Kieffer) çevirisi yalnızca Yeni Ahit kitaplarını kapsamaktadır.';
+  const KIE1819_NOTE = 'Yeni Ahit (Ali Bey, J.D. Kieffer) covers only New Testament books.';
   const CAN_NT_BOOKS = new Set(['MAT','MRK','LUK','JHN','ACT','ROM','1CO','2CO','GAL','EPH','PHP','COL','1TH','2TH','1TI','2TI','TIT','PHM','HEB','JAS','1PE','2PE','1JN','2JN','3JN','JUD','REV']);
-  const CAN_NOTE     = 'Kutsal İncil (Bünyamin Candemir) çevirisi yalnızca Yeni Ahit kitaplarını kapsamaktadır.';
+  const CAN_NOTE     = 'Kutsal İncil (Bünyamin Candemir) covers only New Testament books.';
   const COS_NT_BOOKS = new Set(['MAT','MRK','LUK','JHN','ACT','ROM','1CO','2CO','GAL','EPH','PHP','COL','1TH','2TH','1TI','2TI','TIT','PHM','HEB','JAS','1PE','2PE','1JN','2JN','3JN','JUD','REV','PRO']);
-  const COS_NOTE     = 'İncil: Sevinç Getirici Haber (Thomas Cosmades) çevirisi yalnızca Süleyman\'ın Özdeyişleri ve Yeni Ahit kitaplarını kapsamaktadır.';
+  const COS_NOTE     = 'İncil: Sevinç Getirici Haber (Thomas Cosmades) covers Proverbs and New Testament.';
   const TUR1852_BOOKS = new Set(['GEN','PSA','MAT','MRK','LUK','JHN','ACT','ROM','1CO','2CO','GAL','EPH','PHP','COL','1TH','2TH','1TI','2TI','TIT','PHM','HEB','JAS','1PE','2PE','1JN','2JN','3JN','JUD','REV']);
-  const TUR1852_NOTE  = 'Türabi Efendi / J.W. Redhouse tercümesi (1852–57); Yaratılış, Mezmurlar ve Yeni Ahit\'in tüm kitaplarını kapsamaktadır. This chapter is not available in this translation.';
+  const TUR1852_NOTE  = 'Türabi Efendi / J.W. Redhouse (1852–57) covers Genesis, Psalms, and the New Testament.';
   const SEL1866_BOOKS = new Set(['GEN','EXO','LEV','NUM','DEU','PSA','ISA','MAT','MRK','LUK','JHN','ACT','ROM','1CO','2CO','GAL','EPH','PHP','COL','1TH','2TH','1TI','2TI','TIT','PHM','HEB','JAS','1PE','2PE','1JN','2JN','3JN','JUD','REV']);
-  const SEL1866_NOTE  = 'Selim Efendi / W. Schauffler tercümesi (1866–77); Tevrat, Mezmurlar, Yeşaya ve Yeni Ahit\'in tüm kitaplarını kapsamaktadır. This chapter is not available in this translation.';
+  const SEL1866_NOTE  = 'Selim Efendi / W. Schauffler (1866–77) covers the Torah, Psalms, Isaiah, and the New Testament.';
   const HAKK_NT_BOOKS = new Set(['MAT','MRK','LUK','JHN','ACT','ROM','1CO','2CO','GAL','EPH','PHP','COL','1TH','2TH','1TI','2TI','TIT','PHM','HEB','JAS','1PE','2PE','1JN','2JN','3JN','JUD','REV']);
-  const HAKK_NOTE     = 'Halk Dilinde Kutsal Kitap\'ın Eski Ahit bölümü yakında eklenecektir.';
+  const HAKK_NOTE     = 'The Old Testament portion of Halk Dilinde Kutsal Kitap will be added soon.';
   const NSH1739_BOOKS = new Set(['GEN']);
-  const NSH1739_NOTE  = 'NSH1739 çevirisi yalnızca Yaratılış kitabının ilk 4 bölümünü kapsamaktadır.';
+  const NSH1739_NOTE  = 'NSH1739 covers only the first 4 chapters of Genesis.';
   const MEZ1669_BOOKS = new Set(['PSA']);
-  const MEZ1669_NOTE  = 'MEZ1669 çevirisi yalnızca Mezmurlar kitabının ilk 14 bölümünü kapsamaktadır.';
+  const MEZ1669_NOTE  = 'MEZ1669 covers only the first 14 chapters of Psalms.';
   const YYY1987_NT_BOOKS = new Set(['MAT','MRK','LUK','JHN','ACT','ROM','1CO','2CO','GAL','EPH','PHP','COL','1TH','2TH','1TI','2TI','TIT','PHM','HEB','JAS','1PE','2PE','1JN','2JN','3JN','JUD','REV']);
-  const YYY1987_NOTE  = 'İncil: Müjde (1987) çevirisi yalnızca Yeni Antlaşma kitaplarını kapsamaktadır.';
+  const YYY1987_NOTE  = 'İncil: Müjde (1987) covers only New Testament books.';
   const BHS_BOOKS = new Set([
     'GEN','EXO','LEV','NUM','DEU','JOS','JDG','RUT','1SA','2SA',
     '1KI','2KI','1CH','2CH','EZR','NEH','EST','JOB','PSA','PRO',
     'ECC','SNG','ISA','JER','LAM','EZK','DAN','HOS','JOL','AMO',
     'OBA','JON','MIC','NAH','HAB','ZEP','HAG','ZEC','MAL',
   ]);
-  const BHS_NOTE  = 'İbranice Eski Antlaşma metni yalnızca Eski Antlaşma kitaplarını kapsamaktadır.';
-  const NA27_NOTE = 'Yunanca Yeni Antlaşma metni (SBLGNT) yalnızca Yeni Antlaşma kitaplarını kapsamaktadır.';
-  const LXX_NOTE  = 'Septuagint (LXX) metni yalnızca Eski Antlaşma kitaplarını kapsamaktadır.';
+  const BHS_NOTE  = 'The Hebrew Old Testament (BHS) covers only Old Testament books.';
+  const NA27_NOTE = 'The Greek New Testament (SBLGNT) covers only New Testament books.';
+  const LXX_NOTE  = 'The Septuagint (LXX) covers only Old Testament books.';
 
   const CHAPTER_COUNTS = {
     'Yaratılış':50,'Mısır\'dan Çıkış':40,'Levililer':27,'Çölde Sayım':36,
@@ -2161,51 +2166,51 @@
   ];
 
   const TRANS_CREDITS = {
-    'ALI1665':      'Mütercim: Mehmed Ali Bey. Bilinen en eski Türkçe tam İncil el yazması (yakl. 1665).',
-    'JDK1827':      'Mütercim: J.D. Kieffer. British & Foreign Bible Society yayını, 1827.',
-    'TUR1852-57':   'Mütercimler: Türabi Efendi & J.W. Redhouse. BFBS yayını, 1852–57.',
-    'SEL1866-77':   'Mütercimler: Selim Efendi & W. Schauffler. American Bible Society yayını, 1866–77.',
-    'KM1886':       'ABS & BFBS ortak yayını. Osmanlıca Latin harfli baskı, 1886.',
-    'KMEYA':        'Kitabı Mukaddes Şirketi, 1941. Türkiye\'de en yaygın kullanılan standart baskı.',
-    'TCL02':        'Kitabı Mukaddes Şirketi & Yeni Yaşam Yayınları, 2001.',
-    'AREMSI':       'Fondatsiya "AR EM Sİ", 2007. Orta Asya Türkçesi etkili çeviri.',
-    'HKTN':         'Ekümenik ekip çevirisi, 2007. Hem Protestan hem Katolik geleneğini yansıtır.',
-    'YTC':          'Yorumsuz Türkçe Çeviri, 2023. Kaynak metne yüksek bağlılık önceliğiyle hazırlanmıştır.',
-    'HAKK':         'Halk Dilinde Kutsal Kitap, 2024. Günümüz sade Türkçesiyle hazırlanmıştır.',
-    'KIE1819':      'Mütercimler: Ali Bey & J.D. Kieffer. BFBS yayını, 1819.',
-    'YYY1987':      'Kilise kullanımı için hazırlanmış Yeni Ahit çevirisi, 1987.',
-    'CAN':          'Mütercim: Bünyamin Candemir. Yeni Ahit çevirisi, 2003.',
-    'KKDEU':        'Kutsal Kitap ve Deuterakanonik kitaplar dahil ekümenik Yeni Ahit çevirisi, 2003.',
-    'BGT':          'İncil BG Türkçe. Yeni Ahit çevirisi, 2004.',
-    'COS':          'Mütercim: Thomas Cosmades. Süleyman\'ın Özdeyişleri ve Yeni Ahit, 2010.',
-    'TTT':          'Temel Türkçe Tercüme. Yeni Ahit çevirisi, 2023.',
-    'SEA1666':      'Mütercim: William Seaman. 17. yüzyıl Osmanlı Türkçesiyle Yeni Ahit, 1666.',
+    'ALI1665':      'Translator: Mehmed Ali Bey. The oldest known complete Turkish Bible manuscript (c. 1665).',
+    'JDK1827':      'Translator: J.D. Kieffer. Published by the British & Foreign Bible Society, 1827.',
+    'TUR1852-57':   'Translators: Türabi Efendi & J.W. Redhouse. BFBS edition, 1852–57.',
+    'SEL1866-77':   'Translators: Selim Efendi & W. Schauffler. American Bible Society edition, 1866–77.',
+    'KM1886':       'Joint ABS & BFBS edition. Ottoman Turkish in Latin script, 1886.',
+    'KMEYA':        'Kitabı Mukaddes Şirketi, 1941. The most widely used standard edition in Turkey.',
+    'TCL02':        'Kitabı Mukaddes Şirketi & Yeni Yaşam Yayınları, 2001. Modern Turkish.',
+    'AREMSI':       'Fondatsiya "AR EM Sİ", 2007. Translation with Central Asian Turkish influence.',
+    'HKTN':         'Ecumenical team translation, 2007. Reflects both Protestant and Catholic traditions.',
+    'YTC':          'Yorumsuz Türkçe Çeviri, 2023. Prepared with high fidelity to the source text.',
+    'HAKK':         'Halk Dilinde Kutsal Kitap, 2024. Prepared in plain, contemporary Turkish.',
+    'KIE1819':      'Translators: Ali Bey & J.D. Kieffer. Published by BFBS, 1819.',
+    'YYY1987':      'New Testament translation prepared for church use, 1987.',
+    'CAN':          'Translator: Bünyamin Candemir. New Testament translation, 2003.',
+    'KKDEU':        'Ecumenical New Testament including Deuterocanonical books, 2003.',
+    'BGT':          'İncil BG Türkçe. New Testament translation, 2004.',
+    'COS':          'Translator: Thomas Cosmades. Proverbs and New Testament, 2010.',
+    'TTT':          'Temel Türkçe Tercüme. New Testament translation, 2023.',
+    'SEA1666':      'Translator: William Seaman. New Testament in 17th-century Ottoman Turkish, 1666.',
     'OTR2019':      'Bible Old Translation Revision, 2019.',
-    'MEZ1669':      'Mütercim: Ali Bey. Osmanlıca manzum mezmurlar, 1669.',
-    'NSH1739':      'Mütercim: N. Şröder. Tekvin\'in ilk bölümleri, 1739.',
-    'TSV':          'Türk Standart Versiyon. Süleyman\'ın Özdeyişleri çevirisi, 2009.',
-    'NWT2008':      '⚠ Yehova Şahitleri (JW.org) çevirisi. Metni sapkın öğretiye uyarlamaktadır.',
-    'NWT2025':      '⚠ Yehova Şahitleri (JW.org) güncelleme baskısı, 2025. Metni sapkın öğretiye uyarlamaktadır.',
-    'ESV':          'English Standard Version. Crossway yayını, 2001. Amerikan Evanjelik Protestan çevirisi.',
-    'KJV':          'King James Version (Authorized Version). 1611. İngilizce Kutsal Kitabın klasik çevirisi.',
-    'NKJV':         'New King James Version. Thomas Nelson yayını, 1982. KJV dilinin modernize edilmiş hâli.',
-    'NIV':          'New International Version. Biblica yayını, 1978 (rev. 2011). Geniş çaplı Evanjelik çeviri.',
-    'NLT':          'New Living Translation. Tyndale House yayını, 1996 (rev. 2015). Düşünce-düşünce çevirisi.',
-    'NET':          'New English Translation (NET Bible). Biblical Press Foundation, 2005. Kapsamlı dipnotlu çeviri.',
-    'CSB':          'Christian Standard Bible. Holman Bible Publishers yayını, 2017. Optimal Denklik yaklaşımı.',
-    'LSB':          'Legacy Standard Bible. Three Sixteen Publishing, 2021. NASB kökenli, sözcük-sözcük çevirisi.',
-    'BHS':          'Biblia Hebraica Stuttgartensia (BHS) temelinde Westminster Leningrad Kodeksi (MS 1008). Niqqud ve te\'amim işaretleriyle tam noktalı Masoretik metin. Kamu malı dijital kaynak (WLC). Eski Antlaşmanın asıl İbranice metni.',
-    'NA27':         'SBL Greek New Testament (SBLGNT, 2010). Nestle-Aland ve diğer eleştirel edisyonlar temel alınarak hazırlanmış, tam vurgulu (politonik) Yeni Antlaşma Yunancası. Society of Biblical Literature tarafından serbest erişime açılmıştır.',
-    'LXX':          'Septuaginta (LXX). İbrani kutsal yazılarının Yunanca çevirisi, MÖ 3.–1. yy. Yetmiş İki Çevirmen geleneğine dayanan ve ilk Hristiyanların kullandığı metin. Rahlfs eleştirel baskısı temel alınmıştır. 151. Mezmur dahil.',
-    'VULG':         'Vulgata Latina (Klementine baskısı, 1592). Aziz Hieronymus tarafından MS 382–405 yılları arasında hazırlanan Latince Kutsal Kitap çevirisi. Orta Çağ Kilisesinin resmî standart metni; Eski Antlaşma İbranice ve Yunancadan, Yeni Antlaşma Yunancadan çevrilmiştir. Ester ve Daniel kitaplarında Deuterokanonik bölümler dahildir.',
+    'MEZ1669':      'Translator: Ali Bey. Psalms in Ottoman verse form, 1669.',
+    'NSH1739':      'Translator: N. Şröder. Early chapters of Genesis, 1739.',
+    'TSV':          'Türk Standart Versiyon. Translation of Proverbs, 2009.',
+    'NWT2008':      '⚠ Jehovah\'s Witnesses (JW.org) translation. Alters text to fit heterodox doctrine.',
+    'NWT2025':      '⚠ Jehovah\'s Witnesses (JW.org) revised edition, 2025. Alters text to fit heterodox doctrine.',
+    'ESV':          'English Standard Version. Crossway, 2001. Essentially literal American evangelical translation.',
+    'KJV':          'King James Version (Authorized Version). 1611. The classic English Bible translation.',
+    'NKJV':         'New King James Version. Thomas Nelson, 1982. A modernised update of the KJV language.',
+    'NIV':          'New International Version. Biblica, 1978 (rev. 2011). Broadly used evangelical translation.',
+    'NLT':          'New Living Translation. Tyndale House, 1996 (rev. 2015). Thought-for-thought rendering.',
+    'NET':          'New English Translation (NET Bible). Biblical Press Foundation, 2005. Noted for extensive study notes.',
+    'CSB':          'Christian Standard Bible. Holman Bible Publishers, 2017. Optimal equivalence approach.',
+    'LSB':          'Legacy Standard Bible. Three Sixteen Publishing, 2021. Word-for-word, NASB heritage.',
+    'BHS':          'Westminster Leningrad Codex (AD 1008). Fully pointed Masoretic text. The primary Hebrew text of the Old Testament. Public domain digital source (WLC).',
+    'NA27':         'SBL Greek New Testament (SBLGNT, 2010). Fully accented (polytonic) Greek New Testament based on Nestle-Aland and other critical editions. Released open-access by the Society of Biblical Literature.',
+    'LXX':          'Septuaginta (LXX). Greek translation of the Hebrew scriptures, 3rd–1st century BC. The text used by early Christians, in the tradition of the Seventy-Two Translators. Based on the Rahlfs critical edition. Includes Psalm 151.',
+    'VULG':         'Vulgata Latina (Clementine edition, 1592). The Latin Bible translated by Saint Jerome, AD 382–405. The official standard text of the medieval Church; Old Testament from Hebrew and Greek, New Testament from Greek. Includes Deuterocanonical sections in Esther and Daniel.',
   };
 
   const TRANSLATIONS = {
     ancient: [
-      { id:'BHS',  name:'Biblia Hebraica Stuttgartensia',        year:1008, yearLabel:'MS 1008 (Leningrad Kodeksi)',      rtl:true,   loaded:true },
+      { id:'BHS',  name:'Biblia Hebraica Stuttgartensia',        year:1008, yearLabel:'AD 1008 (Leningrad Codex)',      rtl:true,   loaded:true },
       { id:'LXX',  name:'Septuaginta (LXX)',                     year:-200,  yearLabel:'MÖ 3.–1. yy. (Rahlfs LXX)',         greek:true, loaded:true },
-      { id:'VULG', name:'Vulgata Latina',                         year:405,  yearLabel:'MS 405 (Hieronymus / Klementine)',                loaded:true },
-      { id:'NA27', name:'SBL Yunanca Yeni Antlaşma (SBLGNT)',    year:400,  yearLabel:'SBLGNT 2010 (Politonik Yunanca)',    greek:true, loaded:true },
+      { id:'VULG', name:'Vulgata Latina',                         year:405,  yearLabel:'AD 405 (Jerome / Clementine)',                loaded:true },
+      { id:'NA27', name:'SBL Greek New Testament (SBLGNT)',    year:400,  yearLabel:'SBLGNT 2010 (Polytonic Greek)',    greek:true, loaded:true },
     ],
     bibleFull: [
       { id:'ALI1665',  name:'Ali Bey El Yazması',                    year:1665, loaded:true  },
@@ -2536,9 +2541,9 @@
           const star = document.createElement('button');
           star.className = 'errata-star';
           star.textContent = '*';
-          star.title = 'El yazması notu (1665)';
+          star.title = 'Manuscript note (1665)';
           star.dataset.note = errataNote;
-          star.dataset.label = 'El yazması notu · 1665';
+          star.dataset.label = 'Manuscript note · 1665';
           v.querySelector('.vt').appendChild(star);
         }
         const notesNote = chapterNotes?.[String(item.v)];
@@ -2548,7 +2553,7 @@
           btn.textContent = '†';
           btn.title = 'Dipnot (TCL02)';
           btn.dataset.note = notesNote;
-          btn.dataset.label = 'Dipnot · Yeni Çeviri';
+          btn.dataset.label = 'Footnote · Yeni Çeviri';
           v.querySelector('.vt').appendChild(btn);
         }
         if (chapterExtraNotes) {
@@ -2835,15 +2840,15 @@
     const grid  = document.getElementById('chapters-grid');
     const label = document.getElementById('ch-panel-label');
     const total = CHAPTER_COUNTS[book] ?? 1;
-    label.textContent = book + ' — Bölümler';
+    label.textContent = book + ' — Chapters';
     grid.innerHTML = '';
     for (let i = 1; i <= total; i++) {
       const btn = document.createElement('button');
       btn.className = 'book-btn' + (i === currentChapter ? ' active' : '');
-      btn.textContent = i + '. Bölüm';
+      btn.textContent = i + '. Chapter';
       btn.addEventListener('click', () => {
         currentChapter = i;
-        document.getElementById('btn-chapter').textContent = i + '. Bölüm';
+        document.getElementById('btn-chapter').textContent = i + '. Chapter';
         grid.querySelectorAll('.book-btn').forEach(x => x.classList.remove('active'));
         btn.classList.add('active');
         closePanel();
@@ -2866,7 +2871,7 @@
         currentBook = b;
         currentChapter = 1;
         document.getElementById('btn-books').childNodes[0].textContent = b + ' ';
-        document.getElementById('btn-chapter').textContent = '1. Bölüm';
+        document.getElementById('btn-chapter').textContent = 'Ch. 1';
         document.getElementById('books-nt').querySelectorAll('.book-btn').forEach(x => x.classList.remove('active'));
         document.getElementById('books-ot').querySelectorAll('.book-btn').forEach(x => x.classList.remove('active'));
         btn.classList.add('active');
@@ -2886,31 +2891,31 @@
 
   const TRANS_CATEGORIES = [
     {
-      id: 'ottoman', label: 'Osmanlı Türkçesi',
-      subcats: [
-        { label: 'Tam Kutsal Kitap', ids: ['ALI1665','JDK1827','TUR1852-57','SEL1866-77','KM1886','KMEYA'] },
-        { label: 'Yeni Antlaşma',    ids: ['KIE1819'] },
-        { label: 'Kısmi',            ids: ['SEA1666','MEZ1669','NSH1739'] },
-      ]
-    },
-    {
-      id: 'modern', label: 'Modern Türkçe',
-      subcats: [
-        { label: 'Tam Kutsal Kitap', ids: ['TCL02','AREMSI','HKTN','YTC','HAKK'] },
-        { label: 'Yeni Antlaşma',    ids: ['YYY1987','CAN','KKDEU','BGT','COS','TTT'] },
-        { label: 'Kısmi',            ids: ['TSV','OTR2019'] },
-      ]
-    },
-    {
-      id: 'ancient', label: 'Eski Çağlar',
-      subcats: [ { label: null, ids: ['BHS','LXX','VULG','NA27'] } ]
-    },
-    {
       id: 'english', label: 'English',
       subcats: [ { label: null, ids: ['KJV','NKJV','ESV','NIV','NLT','NET','CSB','LSB'] } ]
     },
     {
-      id: 'heretical', label: 'Sapkın Türkçe Tercümeler',
+      id: 'ancient', label: 'Ancient Sources',
+      subcats: [ { label: null, ids: ['BHS','LXX','VULG','NA27'] } ]
+    },
+    {
+      id: 'modern', label: 'Modern Turkish',
+      subcats: [
+        { label: 'Full Bible',        ids: ['TCL02','AREMSI','HKTN','YTC','HAKK'] },
+        { label: 'New Testament',     ids: ['YYY1987','CAN','KKDEU','BGT','COS','TTT'] },
+        { label: 'Partial',           ids: ['TSV','OTR2019'] },
+      ]
+    },
+    {
+      id: 'ottoman', label: 'Ottoman Turkish',
+      subcats: [
+        { label: 'Full Bible',        ids: ['ALI1665','JDK1827','TUR1852-57','SEL1866-77','KM1886','KMEYA'] },
+        { label: 'New Testament',     ids: ['KIE1819'] },
+        { label: 'Partial',           ids: ['SEA1666','MEZ1669','NSH1739'] },
+      ]
+    },
+    {
+      id: 'heretical', label: 'Other Translations',
       subcats: [ { label: null, ids: ['NWT2008','NWT2025'] } ]
     },
   ];
@@ -2934,7 +2939,7 @@
       if (selAllBtn) {
         const allOn = loaded.length > 0 && loaded.every(id => selectedTranslations.has(id));
         selAllBtn.classList.toggle('all-on', allOn);
-        selAllBtn.textContent = allOn ? 'Bırak' : 'Tümü';
+        selAllBtn.textContent = allOn ? 'Remove' : 'All';
       }
     });
   }
@@ -2944,14 +2949,14 @@
     _cachedTids.add(tid);
     localStorage.setItem('kki_cached_tids', JSON.stringify([..._cachedTids]));
     document.querySelectorAll(`.trans-dl-btn[data-tid="${tid}"]`).forEach(b => {
-      b.textContent = '✓'; b.classList.replace('loading', 'cached'); b.title = 'Çevrimdışı kullanıma hazır';
+      b.textContent = '✓'; b.classList.remove('loading'); b.classList.add('cached'); b.title = 'Available offline';
     });
   }
   function cacheTranslation(tid, btn) {
     if (!('serviceWorker' in navigator) || !navigator.serviceWorker.controller) {
-      alert('Servis çalışanı henüz hazır değil, sayfayı yenileyin.'); return;
+      alert('Service worker not ready yet — please refresh the page.'); return;
     }
-    btn.textContent = '↻'; btn.classList.add('loading'); btn.title = 'İndiriliyor…';
+    btn.textContent = '○'; btn.classList.add('loading'); btn.title = 'Downloading…';
     const books = Object.entries(CHAPTER_COUNTS).map(([code, chapters]) => ({ code, chapters }));
     navigator.serviceWorker.controller.postMessage({ type: 'CACHE_TRANSLATION', tid, books });
     navigator.serviceWorker.addEventListener('message', function handler(e) {
@@ -2975,13 +2980,13 @@
       <div class="trans-abbr">${t.id}</div>
       <div class="trans-meta">
         <div class="trans-name">${t.name}</div>
-        <div class="trans-year">${t.yearLabel ?? t.year}${!t.loaded ? ' — yakında' : ''}</div>
+        <div class="trans-year">${t.yearLabel ?? t.year}${!t.loaded ? ' — coming soon' : ''}</div>
       </div>`;
     const star = document.createElement('button');
     star.className = 'fav-star' + (getFavorites().includes(t.id) ? ' fav-on' : '');
     star.dataset.tid = t.id;
     star.textContent = '★';
-    star.title = getFavorites().includes(t.id) ? 'Favorilerden çıkar' : 'Favorilere ekle';
+    star.title = getFavorites().includes(t.id) ? 'Remove from favourites' : 'Add to favourites';
     star.addEventListener('click', e => { e.stopPropagation(); toggleFavorite(t.id); });
     item.appendChild(star);
     if (t.loaded) {
@@ -2989,8 +2994,8 @@
       const isCached = _cachedTids.has(t.id);
       dlBtn.className = 'trans-dl-btn' + (isCached ? ' cached' : '');
       dlBtn.dataset.tid = t.id;
-      dlBtn.textContent = isCached ? '✓' : '⬇';
-      dlBtn.title = isCached ? 'Çevrimdışı kullanıma hazır' : 'Çevrimdışı kullanım için indir';
+      dlBtn.textContent = isCached ? '✓' : '↓';
+      dlBtn.title = isCached ? 'Available offline' : 'Download for offline use';
       dlBtn.addEventListener('click', e => { e.stopPropagation(); if (!isCached) cacheTranslation(t.id, dlBtn); });
       item.appendChild(dlBtn);
     }
@@ -3031,9 +3036,9 @@
       const selAllBtn = document.createElement('button');
       selAllBtn.className = 'trans-cat-selall';
       const allOn0 = loaded.length > 0 && loaded.every(id => selectedTranslations.has(id));
-      selAllBtn.textContent = allOn0 ? 'Bırak' : 'Tümü';
+      selAllBtn.textContent = allOn0 ? 'Remove' : 'All';
       selAllBtn.classList.toggle('all-on', allOn0);
-      selAllBtn.title = 'Bu kategorideki tüm çevirileri seç / bırak';
+      selAllBtn.title = 'Select / deselect all in this category';
       selAllBtn.addEventListener('click', e => {
         e.stopPropagation();
         const allNowOn = loaded.every(id => selectedTranslations.has(id));
@@ -3143,7 +3148,7 @@
     document.querySelectorAll('.fav-star').forEach(btn => {
       const on = favs.includes(btn.dataset.tid);
       btn.classList.toggle('fav-on', on);
-      btn.title = on ? 'Favorilerden çıkar' : 'Favorilere ekle';
+      btn.title = on ? 'Remove from favourites' : 'Add to favourites';
     });
   }
 
@@ -3152,12 +3157,12 @@
   const ENGLISH_IDS   = new Set(TRANSLATIONS.english.map(t => t.id));
 
   const PRESETS = [
-    { id:'favoriler', label:'⭐ Favoriler',  ids: () => getFavorites() },
-    { id:'modern',    label:'Modern',        ids: () => ['TCL02','YTC','TTT','HAKK','KMEYA'] },
-    { id:'tarihi',    label:'Tarihi',        ids: () => ['ALI1665','KIE1819','JDK1827','TUR1852-57','SEL1866-77','KM1886'] },
-    { id:'yeniant',   label:'Yeni Ant.',     ids: () => ['KIE1819','YYY1987','CAN','KKDEU','BGT','COS','TTT'] },
-    { id:'tamkitap',  label:'Tam Kitap',     ids: () => ['ALI1665','JDK1827','KM1886','KMEYA','TCL02','AREMSI','YTC','HAKK'] },
-    { id:'1940plus',  label:'1940 Sonrası',  ids: () => TRANS_ORDER.filter(id => !HERETICAL_IDS.has(id) && !ENGLISH_IDS.has(id) && ALL_TRANS[id]?.year > 1940 && ALL_TRANS[id]?.loaded) },
+    { id:'favoriler', label:'⭐ Favourites',  ids: () => getFavorites() },
+    { id:'english',   label:'English',        ids: () => ['ESV','KJV','NIV','NKJV','NLT','NET','CSB','LSB'].filter(id => ALL_TRANS[id]?.loaded) },
+    { id:'ancient',   label:'Ancient',        ids: () => ['BHS','LXX','VULG','NA27'].filter(id => ALL_TRANS[id]?.loaded) },
+    { id:'modern',    label:'Modern TR',      ids: () => ['TCL02','YTC','TTT','HAKK','KMEYA'] },
+    { id:'tarihi',    label:'Historical TR',  ids: () => ['ALI1665','KIE1819','JDK1827','TUR1852-57','SEL1866-77','KM1886'] },
+    { id:'tamkitap',  label:'Full Bible TR',  ids: () => ['ALI1665','JDK1827','KM1886','KMEYA','TCL02','AREMSI','YTC','HAKK'] },
   ];
 
   function applyPreset(preset) {
@@ -3557,7 +3562,7 @@
   function setChapter(n) {
     const total = CHAPTER_COUNTS[currentBook] ?? 1;
     currentChapter = Math.max(1, Math.min(n, total));
-    document.getElementById('btn-chapter').textContent = currentChapter + '. Bölüm';
+    document.getElementById('btn-chapter').textContent = currentChapter + '. Chapter';
     document.getElementById('chapters-grid').querySelectorAll('.book-btn').forEach((b, i) =>
       b.classList.toggle('active', i + 1 === currentChapter));
   }
@@ -3893,12 +3898,12 @@
     const MAX_PER_TRANS = 15;
 
     let html = `<div class="sr-header">
-      <span class="sr-count">${totalHits > 0 ? totalHits + ' sonuç' : 'Sonuç bulunamadı'}</span>
-      ${!scanned ? `<button class="sr-scan-btn" id="sr-scan-btn">Tümünü Tara</button>` : ''}
+      <span class="sr-count">${totalHits > 0 ? totalHits + ' results' : 'No results'}</span>
+      ${!scanned ? `<button class="sr-scan-btn" id="sr-scan-btn">Scan All</button>` : ''}
     </div>`;
 
     if (tids.length === 0) {
-      html += `<div class="sr-empty">Görüntülenen bölümlerde eşleşme yok.<br>${!scanned ? 'Tüm kitabı taramak için "Tümünü Tara" düğmesine tıklayın.' : ''}</div>`;
+      html += `<div class="sr-empty">No matches in displayed chapters.<br>${!scanned ? 'Click "Scan All" to search the entire book.' : ''}</div>`;
     } else {
       for (const tid of tids) {
         const hits = results[tid];
@@ -3914,7 +3919,7 @@
           </div>`;
         }
         if (hits.length > MAX_PER_TRANS) {
-          html += `<div class="sr-more">+ ${hits.length - MAX_PER_TRANS} sonuç daha</div>`;
+          html += `<div class="sr-more">+ ${hits.length - MAX_PER_TRANS} more</div>`;
         }
       }
     }
@@ -3950,7 +3955,7 @@
     const totalCh  = CHAPTER_COUNTS[currentBook] ?? 1;
     const selTids  = [...selectedTranslations].filter(tid => isTransAvailableForBook(tid, bookCode));
 
-    srEl.innerHTML = `<div class="sr-progress">Tüm bölümler taranıyor…</div>`;
+    srEl.innerHTML = `<div class="sr-progress">Scanning all chapters…</div>`;
     srEl.classList.add('open');
     positionSearchResults();
 
@@ -4080,7 +4085,7 @@
 
   // ── Initial build — sync header to restored state ────────────────────
   document.getElementById('btn-books').childNodes[0].textContent = currentBook + ' ';
-  document.getElementById('btn-chapter').textContent = currentChapter + '. Bölüm';
+  document.getElementById('btn-chapter').textContent = currentChapter + '. Chapter';
   buildChapters(currentBook);
   rebuildColumns();
 
@@ -4281,7 +4286,7 @@
     const loadEl  = document.getElementById('commentary-loading');
     const titleEl = document.getElementById('commentary-title');
 
-    titleEl.textContent = `${bookName} ${chap}. Bölüm — Yorum`;
+    titleEl.textContent = `${bookName} ${chap} — Commentary`;
     introEl.textContent  = '';
     notesEl.innerHTML   = '';
     emptyEl.style.display = 'none';
@@ -4395,7 +4400,7 @@
     if (!sel) return;
     const favs = getFavorites().filter(id => ALL_TRANS[id]?.loaded);
     const pool = favs.length > 0 ? favs : TRANS_ORDER.filter(id => ALL_TRANS[id]?.loaded);
-    sel.innerHTML = '<option value="">— Seçin —</option>' +
+    sel.innerHTML = '<option value="">— Select —</option>' +
       pool.map(id => {
         const meta = ALL_TRANS[id];
         const sel_ = id === defaultTrans ? ' selected' : '';
@@ -4790,14 +4795,14 @@
   const TOUR_STEPS = [
     {
       sel: '#search-wrap',
-      title: 'Ayet Ara',
-      desc: 'Bir kelime veya ayet referansı (ör. Yuh 3:16) yazarak tüm çevirilerde anında arama yapın.',
+      title: 'Search Verses',
+      desc: 'Type a word or verse reference (e.g. John 3:16) to instantly search across all translations.',
       pos: 'bottom',
     },
     {
       sel: '#btn-translations',
-      title: 'Çeviri Yönetimi',
-      desc: 'Yan yana görmek istediğiniz çevirileri seçin. Türkçe, İngilizce ve tarihi çeviriler dahil 30\'dan fazla seçenek mevcuttur.',
+      title: 'Translation Management',
+      desc: 'Select the translations you want to compare side by side. Over 30 options including English, Turkish and historical sources.',
       pos: 'bottom-screen',
       onEnter() {
         togglePanel('panel-translations', document.getElementById('btn-translations'));
@@ -4820,8 +4825,8 @@
     },
     {
       sel: '#btn-translations',
-      title: 'Favori Çeviriler',
-      desc: 'Her çevirinin yanındaki ★ simgesine tıklayarak sık kullandığınız seti kaydedin. "⭐ Favoriler" önayarıyla bu sete tek tıkla dönebilirsiniz.',
+      title: 'Favourite Translations',
+      desc: 'Click ★ next to any translation to save your favourite set. The "⭐ Favourites" preset brings it back in one click.',
       pos: 'bottom-screen',
       onEnter() {
         togglePanel('panel-translations', document.getElementById('btn-translations'));
@@ -4829,7 +4834,7 @@
         p.style.zIndex = '9991'; _tourElevated.push(p);
         setTimeout(() => {
           saveFavorites([]);
-          document.querySelectorAll('.fav-star').forEach(b => { b.classList.remove('fav-on'); b.title = 'Favorilere ekle'; });
+          document.querySelectorAll('.fav-star').forEach(b => { b.classList.remove('fav-on'); b.title = 'Add to favourites'; });
         }, 300);
         _tourCursorClick(() => document.querySelector('.fav-star[data-tid="TCL02"]'), 700, () => {
           document.querySelector('.fav-star[data-tid="TCL02"]')?.click();
@@ -4844,8 +4849,8 @@
     },
     {
       sel: '#okuyucu_layout',
-      title: 'Karşılaştırma Sütunları',
-      desc: 'Her sütun aynı bölümü farklı bir çeviride gösterir. Sütun başlığını sürükleyerek yeniden sıralayabilir, başlığa tıklayarak çeviri kaynağını görüntüleyebilirsiniz.',
+      title: 'Comparison Columns',
+      desc: 'Each column shows the same chapter in a different translation. Drag a column header to reorder; click the header to view the source details.',
       pos: 'bottom-screen',
       onEnter() {
         const ARROW = '<svg width="20" height="24" viewBox="0 0 20 24" fill="none"><path d="M3.5 1.5L3.5 20.5L7.5 16.5L10 23L12.5 22L10 15.5L17.5 15.5Z" fill="white" stroke="#111" stroke-width="1.3" stroke-linejoin="round" stroke-linecap="round"/></svg>';
@@ -4909,14 +4914,14 @@
     {
       trySelectors: ['.notes-star','.net-star','.niv-star','.nlt-star','.esv-star','.ttt-star','.errata-star'],
       title: 'Dipnot ve Notlar',
-      desc: '† ‡ * simgeleri ayet içinde dipnot veya çevirmen notu bulunan kelimeleri işaret eder. Simgeye tıkladığınızda kaynağı ve açıklaması görüntülenir.',
+      desc: '† ‡ * symbols mark footnotes or translator notes inside a verse. Click the symbol to see the source and explanation.',
       pos: 'top',
       fallbackPos: 'center',
     },
     {
       sel: '#panel-style',
-      title: 'Görünüm Ayarları',
-      desc: 'Açık, Parşömen veya Koyu temayı, yazı boyutunu ve sütun düzenini buradan özelleştirin.',
+      title: 'View Settings',
+      desc: 'Customise the Light, Sepia or Dark theme, font size and column layout from here.',
       pos: 'bottom',
       onEnter() {
         togglePanel('panel-style', document.getElementById('btn-style'));
@@ -4926,8 +4931,8 @@
     },
     {
       sel: '#sidebar-panel',
-      title: 'Bölüm Yorumu',
-      desc: 'Her bölüm için uzman yorumlarına erişin. Yorum paneli, okuduğunuz bölüme göre otomatik olarak güncellenir.',
+      title: 'Chapter Commentary',
+      desc: 'Access expert commentary for each chapter. The commentary panel updates automatically as you navigate.',
       pos: 'left',
       onEnter() {
         const sb = document.getElementById('sidebar-panel');
@@ -4994,7 +4999,7 @@
     const prevBtn=document.getElementById('tour-prev'), nextBtn=document.getElementById('tour-next');
     prevBtn.disabled=idx===0;
     const isLast=idx===total-1;
-    nextBtn.textContent=isLast?'Tamamla ✓':'İleri →';
+    nextBtn.textContent=isLast?'Done ✓':'Next →';
     nextBtn.className=isLast?'tour-finish':'';
     document.querySelectorAll('.tour-dot').forEach((d,i)=>d.classList.toggle('active',i===idx));
     if (step.onEnter) {
