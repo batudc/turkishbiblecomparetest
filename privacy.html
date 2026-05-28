@@ -1,9 +1,30 @@
 <!DOCTYPE html>
-<html lang="tr">
+<html lang="en">
 <head>
   <meta charset="UTF-8" />
+  <script src="/lang-switch.js"></script>
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Gizlilik Politikası — Kutsal Kitap İnceleme</title>
+  <link rel="manifest" href="/manifest.json">
+  <meta name="theme-color" content="#0d1b26">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/x-icon" href="/favicon.ico">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <title>Privacy Policy — Holy Bible Study</title>
+  <meta name="description" content="Holy Bible Study platformunun gizlilik politikası ve kullanım şartları.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://www.kutsalkitapinceleme.com/privacy.html">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Holy Bible Study">
+  <meta property="og:title" content="Privacy Policy — Holy Bible Study">
+  <meta property="og:description" content="Holy Bible Study platformunun gizlilik politikası ve kullanım şartları.">
+  <meta property="og:url" content="https://www.kutsalkitapinceleme.com/gizlilik.html">
+  <meta property="og:image" content="https://www.kutsalkitapinceleme.com/icons/icon-512x512.png">
+  <meta property="og:locale" content="en_US">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Privacy Policy — Holy Bible Study">
+  <meta name="twitter:description" content="Holy Bible Study platformunun gizlilik politikası ve kullanım şartları.">
+  <meta name="twitter:image" content="https://www.kutsalkitapinceleme.com/icons/icon-512x512.png">
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,600&family=Jost:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
@@ -35,20 +56,22 @@
     /* NAV */
     nav {
       position: fixed; top: 0; left: 0; right: 0; z-index: 100;
-      padding: 0 3rem; height: 68px;
-      display: flex; align-items: center; justify-content: space-between;
-      background: rgba(247,241,232,0.92); backdrop-filter: blur(12px);
-      border-bottom: 1px solid rgba(27,58,84,0.1); transition: background 0.3s ease;
+      padding: 0 0 0 14px; height: 70px;
+      display: flex; align-items: center;
+      background: #08141F;
+      border-bottom: 1px solid rgba(184,146,42,0.15);
     }
-    .nav-logo { display: flex; align-items: center; gap: 0.75rem; text-decoration: none; }
-    .nav-logo img { height: 36px; width: auto; }
-    .nav-logo-text { font-family: 'Jost', sans-serif; font-size: 0.75rem; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; color: var(--navy); line-height: 1.3; }
-    .nav-links { display: flex; align-items: center; gap: 2.5rem; list-style: none; }
-    .nav-links a { font-size: 0.78rem; font-weight: 500; letter-spacing: 0.1em; text-transform: uppercase; color: var(--navy); text-decoration: none; opacity: 0.75; transition: opacity 0.2s, color 0.2s; }
-    .nav-links a:hover { opacity: 1; color: var(--gold); }
-    .nav-links a.nav-highlight { opacity: 1; color: var(--gold); font-weight: 600; }
-    .nav-cta { font-size: 0.78rem; font-weight: 600; letter-spacing: 0.12em; text-transform: uppercase; background: var(--navy); color: var(--cream); padding: 0.55rem 1.4rem; border: none; cursor: pointer; text-decoration: none; transition: background 0.2s, transform 0.15s; }
-    .nav-cta:hover { background: var(--navy-mid); transform: translateY(-1px); }
+    .nav-logo { display: flex; align-items: center; gap: 9px; text-decoration: none; flex-shrink: 0; margin-right: 18px; }
+    .nav-logo img { height: 32px; width: auto; filter: brightness(0) invert(1); opacity: 0.82; }
+    .nav-logo-text { font-family: 'EB Garamond', Georgia, serif; font-size: 18px; font-weight: 500; color: var(--cream); line-height: 1.15; letter-spacing: -0.01em; }
+    .nav-search-wrap { flex: 1; max-width: 480px; position: relative; }
+    .nav-search-wrap svg { position: absolute; left: 10px; top: 50%; transform: translateY(-50%); width: 14px; height: 14px; color: rgba(255,255,255,0.3); pointer-events: none; }
+    .nav-search-input { width: 100%; padding: 8px 12px 8px 32px; background: rgba(255,255,255,0.08); border: 1px solid rgba(255,255,255,0.12); border-radius: 3px; color: #fff; font-size: 13px; font-family: 'Jost', sans-serif; outline: none; transition: background 0.15s, border-color 0.15s; }
+    .nav-search-input::placeholder { color: rgba(255,255,255,0.3); }
+    .nav-search-input:focus { background: rgba(255,255,255,0.12); border-color: rgba(255,255,255,0.25); }
+    .nav-links { display: flex; align-items: center; gap: 2.5rem; list-style: none; margin-left: auto; padding: 0 3rem 0 2.5rem; }
+    .nav-links a { font-size: 0.78rem; font-weight: 500; letter-spacing: 0.1em; text-transform: uppercase; color: rgba(247,241,232,0.55); text-decoration: none; transition: color 0.2s ease; }
+    .nav-links a:hover { color: var(--gold-light); }
 
     /* PAGE HERO */
     .page-hero { background: var(--navy-deep); padding: 9rem 4.5rem 6rem; position: relative; overflow: hidden; }
@@ -114,28 +137,69 @@
       .toc { display: none; }
       .footer-inner { grid-template-columns: 1fr 1fr; }
     }
+  
+    @media (max-width: 640px) {
+      nav { padding: 0 1rem; height: 60px; }
+      .nav-logo-text { display: none; }
+      .nav-search-wrap { max-width: none; }
+      .nav-links { display: none; }
+
+      /* Page hero padding */
+      .page-hero { padding: 7rem 1.25rem 3rem; }
+      .page-hero-title { font-size: clamp(2.2rem, 9vw, 3.2rem); }
+      .page-content { padding: 2.5rem 1.25rem; }
+
+      /* Footer */
+      footer { padding: 2.5rem 1.25rem 1.5rem; }
+      .footer-inner { grid-template-columns: 1fr; gap: 2rem; }
+      .footer-bottom { flex-direction: column; gap: 0.35rem; text-align: center; }
+    }
+
+    @media (max-width: 640px) {
+      .privacy-section { padding: 3rem 1.25rem; }
+      .privacy-inner { grid-template-columns: 1fr; gap: 2.5rem; }
+      .toc { display: none; }
+      .page-hero { padding: 7rem 1.25rem 3rem; }
+      .page-title { font-size: clamp(2.2rem, 9vw, 3.2rem); }
+    }
+
+    .nav-lang-switch { display: flex; gap: 4px; align-items: center; margin-left: 8px; }
+    .nav-lang-btn {
+      background: none; border: 1px solid rgba(255,255,255,0.15); border-radius: 3px;
+      color: rgba(255,255,255,0.35); font-size: 9px; font-weight: 700; letter-spacing: 0.1em;
+      padding: 2px 6px; cursor: pointer; transition: all 0.15s; font-family: inherit;
+    }
+    .nav-lang-btn:hover { color: var(--gold-light, #e8c96a); border-color: rgba(184,146,42,0.5); }
+    .nav-lang-btn.lang-active { color: var(--gold-light, #e8c96a); background: rgba(184,146,42,0.12); border-color: rgba(184,146,42,0.5); }
   </style>
 </head>
 <body>
 
   <nav>
-    <a href="index.html" class="nav-logo">
-      <img src="brand_assets/logo.png" alt="Kutsal Kitap İnceleme" />
-      <span class="nav-logo-text">Kutsal Kitap<br>İnceleme</span>
+    <a href="anasayfa.html" class="nav-logo">
+      <img src="brand_assets/logo.png" alt="Holy Bible Study" />
+      <div class="nav-logo-text">Holy Bible Study</div>
     </a>
+    <form class="nav-search-wrap" action="arama.html" method="get" role="search">
+      <svg viewBox="0 0 14 14" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round">
+        <circle cx="5.5" cy="5.5" r="4"/><line x1="9" y1="9" x2="13" y2="13"/>
+      </svg>
+      <input class="nav-search-input" type="text" name="q" placeholder="Search…" autocomplete="off" />
+    </form>
     <ul class="nav-links">
-      <li><a href="karsilastirma.html" class="nav-highlight">Karşılaştır</a></li>
-      <li><a href="antikdil.html" class="nav-highlight">Dil İnceleme</a></li>
-      <li><a href="arama.html">Ayet Ara</a></li>
+      <li><a href="compare.html">Compare</a></li>
+      <li><a href="ancient.html">Language Study</a></li>
+      <li><a href="search.html">Search</a></li>
+    
+      <li class="nav-lang-switch"><button data-lang-switch="tr" class="nav-lang-btn">TR</button><button data-lang-switch="en" class="nav-lang-btn">EN</button></li>
     </ul>
-    <a href="karsilastirma.html" class="nav-cta">Karşılaştır →</a>
   </nav>
 
   <section class="page-hero">
     <div class="page-hero-inner">
       <p class="label-text page-label">Yasal</p>
-      <h1 class="display page-title">Gizlilik<br><em>Politikası</em></h1>
-      <p class="page-meta">Son güncelleme: Ocak 2026</p>
+      <h1 class="display page-title">Privacy<br><em>Policy</em></h1>
+      <p class="page-meta">Last updated: Ocak 2026</p>
     </div>
   </section>
 
@@ -148,11 +212,11 @@
           <li><a href="#s1">1. Genel Bilgi</a></li>
           <li><a href="#s2">2. Toplanan Veriler</a></li>
           <li><a href="#s3">3. Verilerin Kullanımı</a></li>
-          <li><a href="#s4">4. Çerezler</a></li>
+          <li><a href="#s4">4. Cookies</a></li>
           <li><a href="#s5">5. Üçüncü Taraflar</a></li>
           <li><a href="#s6">6. Veri Güvenliği</a></li>
           <li><a href="#s7">7. Haklarınız</a></li>
-          <li><a href="#s8">8. İletişim</a></li>
+          <li><a href="#s8">8. Contact</a></li>
         </ul>
       </aside>
 
@@ -161,7 +225,7 @@
         <div class="prose-section" id="s1">
           <p class="prose-num">01</p>
           <h2 class="prose-heading">Genel Bilgi</h2>
-          <p>Kutsal Kitap İnceleme ("Platform"), kullanıcıların gizliliğine saygı duyar ve kişisel verilerin korunmasını ön planda tutar. Bu Gizlilik Politikası, platformun hangi verileri topladığını, bu verilerin nasıl kullanıldığını ve korunduğunu açıklamaktadır.</p>
+          <p>Holy Bible Study ("Platform"), kullanıcıların gizliliğine saygı duyar ve kişisel verilerin korunmasını ön planda tutar. Bu Privacy Policy, platformun hangi verileri topladığını, bu verilerin nasıl kullanıldığını ve korunduğunu açıklamaktadır.</p>
           <p>Platformu kullanmaya devam ederek bu politikayı okuduğunuzu ve kabul ettiğinizi onaylamış olursunuz. Politika değişikliklerinde bu sayfayı güncellemeye devam edeceğiz.</p>
           <div class="highlight-box">
             <p><strong>Özet:</strong> Platformumuzu kullanmak için herhangi bir hesap açmanız gerekmez. Kişisel veri toplamamızı mümkün olduğunca sınırlı tutuyoruz.</p>
@@ -173,9 +237,9 @@
           <h2 class="prose-heading">Toplanan Veriler</h2>
           <p>Platform, yalnızca aşağıdaki durumlarda veri toplar:</p>
           <ul>
-            <li><strong>İletişim formu:</strong> Ad, e-posta adresi ve mesaj içeriği — yalnızca size yanıt vermek amacıyla saklanır.</li>
+            <li><strong>Contact formu:</strong> Ad, e-posta adresi ve mesaj içeriği — yalnızca size yanıt vermek amacıyla saklanır.</li>
             <li><strong>Otomatik günlükler:</strong> IP adresi, tarayıcı türü, ziyaret edilen sayfalar ve ziyaret süresi gibi standart sunucu günlükleri.</li>
-            <li><strong>Çerezler:</strong> Oturum çerezleri ve tercih ayarları. Detaylar için 4. bölüme bakınız.</li>
+            <li><strong>Cookies:</strong> Oturum çerezleri ve tercih ayarları. Detaylar için 4. bölüme bakınız.</li>
           </ul>
           <p>Platform hesap sistemi içermemektedir. Herhangi bir kullanıcı profili veya kayıt işlemi yapılmamaktadır.</p>
         </div>
@@ -185,7 +249,7 @@
           <h2 class="prose-heading">Verilerin Kullanımı</h2>
           <p>Toplanan veriler yalnızca şu amaçlarla kullanılmaktadır:</p>
           <ul>
-            <li>İletişim formundan gelen mesajlara yanıt vermek</li>
+            <li>Contact formundan gelen mesajlara yanıt vermek</li>
             <li>Platform performansını ve kullanılabilirliğini iyileştirmek</li>
             <li>Teknik hataları tespit etmek ve gidermek</li>
             <li>Platformun güvenliğini sağlamak</li>
@@ -195,7 +259,7 @@
 
         <div class="prose-section" id="s4">
           <p class="prose-num">04</p>
-          <h2 class="prose-heading">Çerezler</h2>
+          <h2 class="prose-heading">Cookies</h2>
           <p>Platform, temel işlevselliği desteklemek için minimum düzeyde çerez kullanabilir. Bu çerezler aşağıdaki kategorilere ayrılır:</p>
           <ul>
             <li><strong>Zorunlu çerezler:</strong> Platformun doğru çalışması için gereklidir. Devre dışı bırakılamaz.</li>
@@ -213,7 +277,7 @@
             <li><strong>Google Fonts:</strong> Yazı tiplerinin sunulması amacıyla Google'ın sunucularına istek gönderilir.</li>
             <li><strong>Barındırma sağlayıcısı:</strong> Platform verileri güvenli sunucularda barındırılmaktadır.</li>
           </ul>
-          <p>Bu hizmetlerin kendi gizlilik politikaları bulunmaktadır. Kutsal Kitap İnceleme, üçüncü taraf hizmetlerin veri uygulamalarından sorumlu değildir.</p>
+          <p>Bu hizmetlerin kendi gizlilik politikaları bulunmaktadır. Holy Bible Study, üçüncü taraf hizmetlerin veri uygulamalarından sorumlu değildir.</p>
         </div>
 
         <div class="prose-section" id="s6">
@@ -238,16 +302,16 @@
             <li>Verilerinizin silinmesini talep etme hakkı</li>
             <li>Veri işleme faaliyetlerine itiraz etme hakkı</li>
           </ul>
-          <p>Bu haklarınızı kullanmak için <a href="contact.html">İletişim</a> sayfamız üzerinden bize ulaşabilirsiniz.</p>
+          <p>Bu haklarınızı kullanmak için <a href="iletisim.html">Contact</a> sayfamız üzerinden bize ulaşabilirsiniz.</p>
         </div>
 
         <div class="prose-section" id="s8">
           <p class="prose-num">08</p>
-          <h2 class="prose-heading">İletişim</h2>
-          <p>Bu Gizlilik Politikası hakkında sorularınız veya talepleriniz için:</p>
+          <h2 class="prose-heading">Contact</h2>
+          <p>Bu Privacy Policy hakkında sorularınız veya talepleriniz için:</p>
           <ul>
-            <li><strong>E-posta:</strong> gizlilik@kutsalkitapinceleme.com</li>
-            <li><strong>İletişim formu:</strong> <a href="contact.html">contact.html</a></li>
+            <li><strong>E-posta:</strong> kutsalkitapinceleme@gmail.com</li>
+            <li><strong>Contact formu:</strong> <a href="iletisim.html">iletisim.html</a></li>
           </ul>
           <p>Talebinizi aldıktan sonra en geç 30 gün içinde yanıt vermeye çalışacağız.</p>
         </div>
@@ -259,37 +323,33 @@
   <footer>
     <div class="footer-inner">
       <div class="footer-brand">
-        <img src="brand_assets/logo.png" alt="Kutsal Kitap İnceleme" />
-        <p class="footer-tagline">Türkçe Kutsal Kitap çevirilerini karşılaştırın ve özgün dilde inceleyin.</p>
+        <img src="brand_assets/logo.png" alt="Holy Bible Study" />
+        <p class="footer-tagline">Compare Turkish Bible translations and study them in the original languages.</p>
       </div>
       <div>
-        <p class="footer-col-title">Araçlar</p>
+        <p class="footer-col-title">Tools</p>
         <ul class="footer-links">
-          <li><a href="karsilastirma.html">Karşılaştırma</a></li>
-          <li><a href="antikdil.html">Dil İnceleme</a></li>
-          <li><a href="arama.html">Ayet Ara</a></li>
+          <li><a href="compare.html">Compare</a></li>
+          <li><a href="ancient.html">Language Study</a></li>
+          <li><a href="search.html">Search</a></li>
         </ul>
       </div>
       <div>
-        <p class="footer-col-title">Hakkında</p>
+        <p class="footer-col-title">About</p>
         <ul class="footer-links">
-          <li><a href="hakkimizda.html">Biz Kimiz</a></li>
-          <li><a href="iletisim.html">İletişim</a></li>
-          <li><a href="gizlilik.html">Gizlilik</a></li>
+          <li><a href="hakkimizda.html">About Us</a></li>
+          <li><a href="iletisim.html">Contact</a></li>
+          <li><a href="privacy.html">Privacy</a></li>
         </ul>
       </div>
     </div>
     <div class="footer-bottom">
-      <p class="footer-copy">© 2026 Kutsal Kitap İnceleme. Tüm hakları saklıdır.</p>
-      <p class="footer-copy">Sevgiyle inşa edildi</p>
+      <p class="footer-copy">© 2026 Holy Bible Study. All rights reserved.</p>
+      <p class="footer-copy">Built with care</p>
     </div>
   </footer>
 
   <script>
-    const nav = document.querySelector('nav');
-    window.addEventListener('scroll', () => {
-      nav.style.background = window.scrollY > 40 ? 'rgba(247,241,232,0.97)' : 'rgba(247,241,232,0.92)';
-    }, { passive: true });
 
     // Highlight active TOC item on scroll
     const sections = document.querySelectorAll('.prose-section[id]');
@@ -301,6 +361,12 @@
         a.classList.toggle('active', a.getAttribute('href') === '#' + current);
       });
     }, { passive: true });
+  </script>
+
+  <script>
+    if ("serviceWorker" in navigator) {
+      navigator.serviceWorker.register("/sw.js");
+    }
   </script>
 </body>
 </html>

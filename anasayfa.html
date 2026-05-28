@@ -2,6 +2,7 @@
 <html lang="tr">
 <head>
   <meta charset="UTF-8" />
+  <script src="/lang-switch.js"></script>
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="manifest" href="/manifest.json">
   <meta name="theme-color" content="#0d1b26">
@@ -463,7 +464,16 @@
       .footer-inner { grid-template-columns: 1fr; gap: 2rem; }
       .footer-bottom { flex-direction: column; gap: 0.35rem; text-align: center; }
     }
-</style>
+
+    .nav-lang-switch { display: flex; gap: 4px; align-items: center; margin-left: 8px; }
+    .nav-lang-btn {
+      background: none; border: 1px solid rgba(255,255,255,0.15); border-radius: 3px;
+      color: rgba(255,255,255,0.35); font-size: 9px; font-weight: 700; letter-spacing: 0.1em;
+      padding: 2px 6px; cursor: pointer; transition: all 0.15s; font-family: inherit;
+    }
+    .nav-lang-btn:hover { color: var(--gold-light, #e8c96a); border-color: rgba(184,146,42,0.5); }
+    .nav-lang-btn.lang-active { color: var(--gold-light, #e8c96a); background: rgba(184,146,42,0.12); border-color: rgba(184,146,42,0.5); }
+  </style>
   <script defer src="/_vercel/insights/script.js"></script>
   <script defer src="/_vercel/speed-insights/script.js"></script>
 </head>
@@ -485,6 +495,8 @@
       <li><a href="karsilastirma.html">Karşılaştır</a></li>
       <li><a href="antikdil.html">Dil İnceleme</a></li>
       <li><a href="arama.html">Ayet Ara</a></li>
+    
+      <li class="nav-lang-switch"><button data-lang-switch="tr" class="nav-lang-btn">TR</button><button data-lang-switch="en" class="nav-lang-btn">EN</button></li>
     </ul>
   </nav>
 

@@ -1,12 +1,13 @@
 <!DOCTYPE html>
-<html lang="tr">
+<html lang="en">
 <head>
   <meta charset="UTF-8" />
+  <script src="/lang-switch.js"></script>
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="manifest" href="/manifest.json">
   <meta name="theme-color" content="#0d1b26">
   <link rel="apple-touch-icon" href="/apple-touch-icon.png">
-  <title>Biz Kimiz — Kutsal Kitap İnceleme</title>
+  <title>About Us — Holy Bible Study</title>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,600&family=Jost:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
@@ -136,29 +137,40 @@
       .mission-grid, .values-grid, .team-grid { grid-template-columns: 1fr; }
       .footer-inner { grid-template-columns: 1fr 1fr; }
     }
+  
+    .nav-lang-switch { display: flex; gap: 4px; align-items: center; margin-left: 8px; }
+    .nav-lang-btn {
+      background: none; border: 1px solid rgba(255,255,255,0.15); border-radius: 3px;
+      color: rgba(255,255,255,0.35); font-size: 9px; font-weight: 700; letter-spacing: 0.1em;
+      padding: 2px 6px; cursor: pointer; transition: all 0.15s; font-family: inherit;
+    }
+    .nav-lang-btn:hover { color: var(--gold-light, #e8c96a); border-color: rgba(184,146,42,0.5); }
+    .nav-lang-btn.lang-active { color: var(--gold-light, #e8c96a); background: rgba(184,146,42,0.12); border-color: rgba(184,146,42,0.5); }
   </style>
 </head>
 <body>
 
   <nav>
     <a href="index.html" class="nav-logo">
-      <img src="brand_assets/logo.png" alt="Kutsal Kitap İnceleme" />
-      <span class="nav-logo-text">Kutsal Kitap<br>İnceleme</span>
+      <img src="brand_assets/logo.png" alt="Holy Bible Study" />
+      <span class="nav-logo-text">Holy Bible<br>Study</span>
     </a>
     <ul class="nav-links">
-      <li><a href="karsilastirma.html" class="nav-highlight">Karşılaştır</a></li>
-      <li><a href="antikdil.html" class="nav-highlight">Dil İnceleme</a></li>
-      <li><a href="arama.html">Ayet Ara</a></li>
+      <li><a href="compare.html" class="nav-highlight">Compare</a></li>
+      <li><a href="ancient.html" class="nav-highlight">Language Study</a></li>
+      <li><a href="search.html">Search</a></li>
+    
+      <li class="nav-lang-switch"><button data-lang-switch="tr" class="nav-lang-btn">TR</button><button data-lang-switch="en" class="nav-lang-btn">EN</button></li>
     </ul>
-    <a href="karsilastirma.html" class="nav-cta">Karşılaştır →</a>
+    <a href="compare.html" class="nav-cta">Compare →</a>
   </nav>
 
   <!-- HERO -->
   <section class="page-hero">
     <div class="page-hero-inner">
-      <p class="label-text page-label">Hakkımızda</p>
-      <h1 class="display page-title">Biz<br><em>Kimiz</em></h1>
-      <p class="page-lead">Kutsal Kitap İnceleme; Türkçe Kutsal Kitap çevirilerini karşılaştırmak ve özgün İbranice ile Yunanca metni herkes için erişilebilir kılmak amacıyla kurulmuş bağımsız bir araştırma platformudur.</p>
+      <p class="label-text page-label">About Us</p>
+      <h1 class="display page-title">Who<br><em>We Are</em></h1>
+      <p class="page-lead">Holy Bible Study is an independent research platform built to make Turkish Bible translation comparison and the original Hebrew and Greek texts accessible to everyone.</p>
     </div>
   </section>
 
@@ -167,17 +179,17 @@
     <div class="content-inner">
       <div class="mission-grid">
         <div>
-          <p class="label-text mission-label">Misyonumuz</p>
-          <h2 class="display mission-heading">Kutsal Metni<br><em>Derinlemesine</em><br>Anlamak</h2>
+          <p class="label-text mission-label">Our Mission</p>
+          <h2 class="display mission-heading">Understanding<br><em>Scripture</em><br>Deeply</h2>
           <div class="mission-body">
-            <p>Kutsal Kitap İnceleme, okuyucuların Türkçe Kutsal Kitap çevirileri arasındaki farklılıkları keşfetmelerine ve İbranice ile Yunanca özgün metinlere ulaşmalarına olanak tanıyan dijital bir araştırma platformudur.</p>
-            <p>Osmanlı döneminden günümüze uzanan yüzlerce yıllık çeviri mirasını tek bir çatı altında sunarak her okuyucunun kendi dilinde, kendi hızında derinlemesine inceleme yapabilmesini hedefliyoruz.</p>
-            <p>Platformumuz; akademisyenler, ilahiyat öğrencileri, din görevlileri ve meraklı bireyler için tasarlanmıştır. Tüm araçlarımız tamamen ücretsizdir.</p>
+            <p>Holy Bible Study is a digital research platform that lets readers explore differences between Turkish Bible translations and access original Hebrew and Greek texts.</p>
+            <p>We bring together centuries of translation heritage — from the Ottoman era to the present day — so every reader can study at their own pace.</p>
+            <p>Our platform is designed for scholars, theology students, clergy and curious individuals. All tools are completely free.</p>
           </div>
         </div>
         <div class="mission-aside">
-          <p class="aside-quote">"Söz başlangıçta vardı, Söz Tanrı'yla birlikteydi ve Söz Tanrı'ydı."</p>
-          <p class="aside-source">Yuhanna 1:1 — TCL02</p>
+          <p class="aside-quote">"In the beginning was the Word, and the Word was with God, and the Word was God."</p>
+          <p class="aside-source">John 1:1 — ESV</p>
         </div>
       </div>
     </div>
@@ -186,22 +198,22 @@
   <!-- DEĞERLER -->
   <section class="content-section values-section">
     <div class="content-inner">
-      <h2 class="display values-heading">Temel<br><em>Değerlerimiz</em></h2>
+      <h2 class="display values-heading">Our Core<br><em>Values</em></h2>
       <div class="values-grid">
         <div class="value-card">
           <div class="value-num">01</div>
-          <h3 class="value-title">Doğruluk</h3>
-          <p class="value-desc">Tüm çeviri verileri özgün kaynaklardan derlenir. Hiçbir metin tahrif edilmez veya bağlamından koparılmaz.</p>
+          <h3 class="value-title">Accuracy</h3>
+          <p class="value-desc">All translation data is drawn from primary sources. No text is altered or taken out of context.</p>
         </div>
         <div class="value-card">
           <div class="value-num">02</div>
-          <h3 class="value-title">Erişilebilirlik</h3>
-          <p class="value-desc">Platform tamamen ücretsizdir. İbranice veya Yunanca bilgisi olmaksızın özgün dili keşfetmek mümkündür.</p>
+          <h3 class="value-title">Accessibility</h3>
+          <p class="value-desc">The platform is entirely free. You can explore the original languages without any knowledge of Hebrew or Greek.</p>
         </div>
         <div class="value-card">
           <div class="value-num">03</div>
-          <h3 class="value-title">Tarafsızlık</h3>
-          <p class="value-desc">Hiçbir çeviri diğerinden üstün gösterilmez. Her metin kendi bağlamında ve dil anlayışında sunulur.</p>
+          <h3 class="value-title">Neutrality</h3>
+          <p class="value-desc">No translation is ranked above another. Each text is presented in its own context and linguistic framework.</p>
         </div>
       </div>
     </div>
@@ -210,26 +222,26 @@
   <!-- EKİP -->
   <section class="content-section">
     <div class="content-inner">
-      <p class="label-text team-label">Arkasındakiler</p>
-      <h2 class="display team-heading">Ekibimizle<br><em>Tanışın</em></h2>
+      <p class="label-text team-label">Behind the Project</p>
+      <h2 class="display team-heading">Meet the<br><em>Team</em></h2>
       <div class="team-grid">
         <div class="team-card">
           <div class="team-avatar"><span>B</span></div>
           <p class="team-name">İsim Soyisim</p>
-          <p class="team-role">Kurucu &amp; Geliştirici</p>
-          <p class="team-bio">Platform kurucusu. Türkçe Kutsal Kitap çevirileri ve özgün dil araştırmaları üzerine çalışmaktadır.</p>
+          <p class="team-role">Founder &amp; Developer</p>
+          <p class="team-bio">Platform founder. Works on Turkish Bible translation research and original-language studies.</p>
         </div>
         <div class="team-card">
           <div class="team-avatar"><span>A</span></div>
           <p class="team-name">İsim Soyisim</p>
-          <p class="team-role">İlahiyat Danışmanı</p>
-          <p class="team-bio">İbranice ve Yunanca metinlerin doğruluğu ile teolojik içeriklerin denetiminden sorumludur.</p>
+          <p class="team-role">Theology Adviser</p>
+          <p class="team-bio">Responsible for verifying the accuracy of Hebrew and Greek texts and reviewing theological content.</p>
         </div>
         <div class="team-card">
           <div class="team-avatar"><span>M</span></div>
           <p class="team-name">İsim Soyisim</p>
-          <p class="team-role">İçerik &amp; Veri</p>
-          <p class="team-bio">Çeviri verilerinin derlenmesi, düzeltilmesi ve güncel tutulması süreçlerini yönetmektedir.</p>
+          <p class="team-role">Content &amp; Data</p>
+          <p class="team-bio">Manages the collection, correction and maintenance of translation data.</p>
         </div>
       </div>
     </div>
@@ -239,23 +251,23 @@
   <footer>
     <div class="footer-inner">
       <div class="footer-brand">
-        <img src="brand_assets/logo.png" alt="Kutsal Kitap İnceleme" />
-        <p class="footer-tagline">Türkçe Kutsal Kitap çevirilerini karşılaştırın ve özgün dilde inceleyin.</p>
+        <img src="brand_assets/logo.png" alt="Holy Bible Study" />
+        <p class="footer-tagline">Compare Turkish Bible translations and study them in the original languages.</p>
       </div>
       <div>
-        <p class="footer-col-title">Araçlar</p>
+        <p class="footer-col-title">Tools</p>
         <ul class="footer-links">
-          <li><a href="karsilastirma.html">Karşılaştırma</a></li>
-          <li><a href="antikdil.html">Dil İnceleme</a></li>
-          <li><a href="arama.html">Ayet Ara</a></li>
+          <li><a href="compare.html">Compare</a></li>
+          <li><a href="ancient.html">Language Study</a></li>
+          <li><a href="search.html">Search</a></li>
         </ul>
       </div>
       <div>
-        <p class="footer-col-title">Hakkında</p>
+        <p class="footer-col-title">About</p>
         <ul class="footer-links">
-          <li><a href="hakkimizda.html">Biz Kimiz</a></li>
-          <li><a href="iletisim.html">İletişim</a></li>
-          <li><a href="gizlilik.html">Gizlilik</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="privacy.html">Privacy</a></li>
         </ul>
       </div>
     </div>

@@ -7,6 +7,15 @@
     'ancient.html':       { lang: 'en', partner: 'antikdil.html' },
     'arama.html':         { lang: 'tr', partner: 'search.html' },
     'search.html':        { lang: 'en', partner: 'arama.html' },
+    'hakkimizda.html':    { lang: 'tr', partner: 'about.html' },
+    'about.html':         { lang: 'en', partner: 'hakkimizda.html' },
+    'iletisim.html':      { lang: 'tr', partner: 'contact.html' },
+    'contact.html':       { lang: 'en', partner: 'iletisim.html' },
+    'gizlilik.html':      { lang: 'tr', partner: 'privacy.html' },
+    'privacy.html':       { lang: 'en', partner: 'gizlilik.html' },
+    // Homepages — redirect to EN landing when preference is EN
+    'index.html':         { lang: 'tr', partner: 'compare.html' },
+    'anasayfa.html':      { lang: 'tr', partner: 'compare.html' },
   };
 
   const page = location.pathname.split('/').pop() || 'index.html';
