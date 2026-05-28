@@ -4830,8 +4830,6 @@
     document.getElementById('mob-prev-ch')?.addEventListener('click', () => document.getElementById('btn-prev-ch')?.click());
     document.getElementById('mob-next-ch')?.addEventListener('click', () => document.getElementById('btn-next-ch')?.click());
 
-    document.addEventListener('touchmove', () => { if (menuOpen) window.closeMobMenu(); }, { passive: true });
-    window.addEventListener('scroll', () => { if (menuOpen) window.closeMobMenu(); }, { passive: true });
   })();
 
   // ── Smooth drag-to-dismiss for bottom sheet panels ──────────────────────

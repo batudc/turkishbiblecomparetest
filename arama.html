@@ -2051,8 +2051,6 @@ if (initQ.trim().length >= 2) {
       }
     });
 
-    document.addEventListener('touchmove', () => { if (menuOpen) window.closeMobMenu(); }, { passive: true });
-    window.addEventListener('scroll', () => { if (menuOpen) window.closeMobMenu(); }, { passive: true });
   })();
 
   // ── Swipe-down to dismiss bottom sheet panels ──────────────────────────

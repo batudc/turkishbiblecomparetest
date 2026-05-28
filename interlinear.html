@@ -2907,8 +2907,6 @@ load(initBook, initCh);
     document.getElementById('mob-prev-ch')?.addEventListener('click', () => document.getElementById('btn-prev')?.click());
     document.getElementById('mob-next-ch')?.addEventListener('click', () => document.getElementById('btn-next')?.click());
 
-    document.addEventListener('touchmove', () => { if (menuOpen) window.closeMobMenu(); }, { passive: true });
-    window.addEventListener('scroll', () => { if (menuOpen) window.closeMobMenu(); }, { passive: true });
   })();
 
   // ── Swipe-down to dismiss bottom sheet panels ──────────────────────────
