@@ -8,6 +8,7 @@
 # Keep PWA icons and favicons
 !icons/*.png
 !favicon-*.png
+!apple-touch-icon.png
 
 # OCR source files
 yyy ocr.txt
