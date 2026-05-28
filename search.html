@@ -551,7 +551,7 @@
         border-top: 1px solid rgba(184,146,42,0.12); align-items: center; flex: 0 0 100%;
       }
       #header.mob-expanded #header-links { display: flex; }
-      #header-links a { font-size: 10px; letter-spacing: 0.08em; color: rgba(247,241,232,0.6); }
+      #header-links a { font-size: 13px; letter-spacing: 0.05em; color: rgba(247,241,232,0.82); }
       #header-links a:hover { color: var(--gold-light); }
 
       /* Row 3: control buttons (hidden by default, shown when expanded) */
@@ -565,6 +565,24 @@
 
       /* mob-menu no longer used */
       #mob-menu { display: none !important; }
+
+      /* Regular panels: drop down from header */
+      .panel {
+        display: flex !important; flex-direction: column;
+        top: 44px !important; left: 0 !important; right: 0 !important; bottom: auto !important;
+        width: 100% !important; max-width: 100% !important;
+        max-height: 70vh; overflow-y: auto;
+        border-radius: 0 0 12px 12px !important;
+        border-top: none !important; border-left: none !important; border-right: none !important;
+        border-bottom: 1px solid rgba(184,146,42,0.15) !important;
+        visibility: hidden; opacity: 0; transform: translateY(-10px); pointer-events: none;
+        transition: visibility 0s 0.18s, opacity 0.18s cubic-bezier(0.4,0,0.2,1), transform 0.18s cubic-bezier(0.4,0,0.2,1);
+      }
+      .panel.open {
+        visibility: visible !important; opacity: 1 !important; transform: translateY(0) !important;
+        pointer-events: auto;
+        transition: visibility 0s 0s, opacity 0.18s cubic-bezier(0.4,0,0.2,1), transform 0.18s cubic-bezier(0.4,0,0.2,1);
+      }
 
       /* Results: full width */
       .sr-item { padding: 9px 12px; gap: 8px; }
@@ -1122,6 +1140,7 @@ const TRANS_CATEGORIES = [
 
 let openPanelId = null;
 function togglePanel(panelId, triggerEl) {
+  if (typeof window.closeMobMenu === 'function') window.closeMobMenu();
   if (openPanelId === panelId) { closeNavPanel(); return; }
   closeNavPanel();
   const p = document.getElementById(panelId);
@@ -2028,18 +2047,7 @@ if (initQ.trim().length >= 2) {
   })();
 
   // ── Swipe-down to dismiss bottom sheet panels ──────────────────────────
-  (function addSwipeDismiss() {
-    function onSwipe(el, cb) {
-      let y0 = 0;
-      el.addEventListener('touchstart', e => { y0 = e.touches[0].clientY; }, { passive: true });
-      el.addEventListener('touchend', e => {
-        if (e.changedTouches[0].clientY - y0 > 55) cb();
-      }, { passive: true });
-    }
-    document.querySelectorAll('.panel').forEach(p => {
-      onSwipe(p, () => { if (typeof closePanel === 'function') closePanel(); });
-    });
-  })();
+  // Panels now drop from header — no swipe dismiss needed for .panel
 </script>
 </body>
 </html>

@@ -1417,12 +1417,12 @@
 
       /* — Expanded rows: hidden by default — */
       #header-links {
-        display: none; gap: 20px; padding: 8px 2px; margin: 0;
+        display: none; gap: 20px; padding: 10px 4px; margin: 0;
         border-top: 1px solid rgba(184,146,42,0.12); border-right: none; border-left: none;
         align-items: center; flex: 0 0 100%;
       }
       #header.mob-expanded #header-links { display: flex; }
-      #header-links a { font-size: 10px; letter-spacing: 0.08em; color: rgba(247,241,232,0.6); }
+      #header-links a { font-size: 13px; letter-spacing: 0.05em; color: rgba(247,241,232,0.82); }
       #header-links a:hover { color: var(--gold-light); }
 
       /* Row 3: control buttons (no ch-arrows) */
@@ -1460,11 +1460,22 @@
       .col.mob-visible { display: flex !important; }
 
       /* — Panels: full-width bottom sheet — */
+      /* Regular panels: drop down from header */
       .panel {
-        left: 0 !important; right: 0 !important; bottom: 0 !important; top: auto !important;
-        width: 100% !important; max-width: 100% !important; max-height: 75vh;
-        overflow-y: auto; border-radius: 14px 14px 0 0;
-        border-left: none; border-right: none; border-bottom: none;
+        display: flex !important; flex-direction: column;
+        top: 44px !important; left: 0 !important; right: 0 !important; bottom: auto !important;
+        width: 100% !important; max-width: 100% !important;
+        max-height: 70vh; overflow-y: auto;
+        border-radius: 0 0 12px 12px !important;
+        border-top: none !important; border-left: none !important; border-right: none !important;
+        border-bottom: 1px solid rgba(184,146,42,0.15) !important;
+        visibility: hidden; opacity: 0; transform: translateY(-10px); pointer-events: none;
+        transition: visibility 0s 0.18s, opacity 0.18s cubic-bezier(0.4,0,0.2,1), transform 0.18s cubic-bezier(0.4,0,0.2,1);
+      }
+      .panel.open {
+        visibility: visible !important; opacity: 1 !important; transform: translateY(0) !important;
+        pointer-events: auto;
+        transition: visibility 0s 0s, opacity 0.18s cubic-bezier(0.4,0,0.2,1), transform 0.18s cubic-bezier(0.4,0,0.2,1);
       }
       #panel-books { width: 100% !important; }
       .books-grid { grid-template-columns: 1fr 1fr 1fr 1fr; }
@@ -1473,9 +1484,9 @@
       .trans-item { padding: 9px 14px; }
       #panel-chapter { width: 100% !important; }
 
-      /* Sidebar: 1/3-height bottom sheet on mobile */
+      /* Yorum sidebar: bottom sheet, 2/5 height */
       #sidebar-panel.open {
-        width: 100% !important; position: fixed; inset: auto 0 0 0; height: 33vh;
+        width: 100% !important; position: fixed; inset: auto 0 0 0; height: 40vh;
         border-left: none; border-top: 1px solid rgba(184,146,42,0.25);
         border-radius: 14px 14px 0 0; z-index: 190;
       }
@@ -2677,6 +2688,7 @@
   let openPanelId = null;
 
   function togglePanel(panelId, triggerEl) {
+    if (typeof window.closeMobMenu === 'function') window.closeMobMenu();
     if (openPanelId === panelId) { closePanel(); return; }
     closePanel();
     const panel = document.getElementById(panelId);
@@ -4788,21 +4800,37 @@
     window.addEventListener('scroll', () => { if (menuOpen) window.closeMobMenu(); }, { passive: true });
   })();
 
-  // ── Swipe-down to dismiss bottom sheet panels ──────────────────────────
+  // ── Smooth drag-to-dismiss for bottom sheet panels ──────────────────────
   (function addSwipeDismiss() {
-    function onSwipe(el, cb) {
-      let y0 = 0;
-      el.addEventListener('touchstart', e => { y0 = e.touches[0].clientY; }, { passive: true });
+    function makeBottomSheetDraggable(el, closeFn) {
+      let startY = 0, dragging = false;
+      el.addEventListener('touchstart', e => {
+        startY = e.touches[0].clientY;
+        dragging = true;
+        el.style.transition = 'none';
+      }, { passive: true });
+      el.addEventListener('touchmove', e => {
+        if (!dragging) return;
+        const dy = e.touches[0].clientY - startY;
+        if (dy > 0) el.style.transform = 'translateY(' + dy + 'px)';
+      }, { passive: true });
       el.addEventListener('touchend', e => {
-        if (e.changedTouches[0].clientY - y0 > 55) cb();
+        if (!dragging) return;
+        dragging = false;
+        const dy = e.changedTouches[0].clientY - startY;
+        el.style.transition = 'transform 0.28s cubic-bezier(0.4,0,0.2,1)';
+        if (dy > 60) {
+          el.style.transform = 'translateY(' + el.offsetHeight + 'px)';
+          setTimeout(() => { el.style.transform = ''; el.style.transition = ''; closeFn(); }, 280);
+        } else {
+          el.style.transform = 'translateY(0)';
+          setTimeout(() => { el.style.transform = ''; el.style.transition = ''; }, 280);
+        }
       }, { passive: true });
     }
-    document.querySelectorAll('.panel').forEach(p => {
-      onSwipe(p, () => { if (typeof closePanel === 'function') closePanel(); });
-    });
     const sidebar = document.getElementById('sidebar-panel');
     if (sidebar) {
-      onSwipe(sidebar, () => {
+      makeBottomSheetDraggable(sidebar, () => {
         sidebar.classList.remove('open');
         document.getElementById('btn-commentary')?.classList.remove('comm-open');
       });
