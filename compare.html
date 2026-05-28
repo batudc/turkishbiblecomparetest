@@ -765,6 +765,18 @@
     body.hide-heads .section-head { display: none; }
     body.hide-heads .chapter-title { display: none; }
 
+    /* ===== HIDE TRANSLATION NAME (inline before verse number) ===== */
+    body.hide-trans-names .col-header { display: none; }
+    body.hide-trans-names .vn[data-tid]::before {
+      content: attr(data-tid) "\00a0";
+      font-size: 0.65em;
+      font-weight: 500;
+      letter-spacing: 0.07em;
+      text-transform: uppercase;
+      opacity: 0.42;
+      vertical-align: 0.05em;
+    }
+
     /* ===== VERSE HOVER / SELECTION ===== */
     .verse {
       border-radius: 2px;
@@ -1903,6 +1915,7 @@
       <label class="panel-option active" id="toggle-vn"><input type="checkbox" id="chk-vn" checked> Ayet numaralarını göster</label>
       <label class="panel-option active" id="toggle-heads"><input type="checkbox" id="chk-heads" checked> Bölüm başlıklarını göster</label>
       <label class="panel-option" id="toggle-book"><input type="checkbox" id="chk-book"> Kitap Görünümü</label>
+      <label class="panel-option" id="toggle-hide-tname"><input type="checkbox" id="chk-hide-tname"> Çeviri adını gizle</label>
     </div>
   </div>
   <div class="panel-section">
@@ -2447,7 +2460,7 @@
         const rangeEnd = nextVerse ? nextVerse.v - 1 : null;
         const vnLabel = (rangeEnd && rangeEnd > item.v) ? `${item.v}-${rangeEnd}` : String(item.v);
         const verseText = isKie ? parseKieGlosses(item.text) : item.text;
-        v.innerHTML = `<span class="vn">${vnLabel}</span><span class="vt">${verseText}</span>`;
+        v.innerHTML = `<span class="vn" data-tid="${translationId}">${vnLabel}</span><span class="vt">${verseText}</span>`;
         const errataNote = chapterErrata?.[String(item.v)];
         if (errataNote) {
           const star = document.createElement('button');
@@ -3304,6 +3317,10 @@
   document.getElementById('chk-book').addEventListener('change', e => {
     document.getElementById('toggle-book').classList.toggle('active', e.target.checked);
     rebuildColumns();
+  });
+  document.getElementById('chk-hide-tname').addEventListener('change', e => {
+    document.body.classList.toggle('hide-trans-names', e.target.checked);
+    document.getElementById('toggle-hide-tname').classList.toggle('active', e.target.checked);
   });
 
   // ── Button wiring ─────────────────────────────────────────────────────
