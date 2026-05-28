@@ -3906,24 +3906,31 @@
     const cols = getCols();
     const isRows = isMobile() && layoutMode === 'rows';
 
-    let syncVerse = null, syncFrac = 0;
+    let syncVerse = null;
     if (cols.length > 0 && mobActiveIdx < cols.length) {
-      try { const p = getPosition(cols, mobActiveIdx); if (p.verse !== null) { syncVerse = p.verse; syncFrac = p.fraction; } } catch(_) {}
+      const col = cols[mobActiveIdx];
+      let best = null, bestDist = Infinity;
+      col.querySelectorAll('.verse[data-v]').forEach(v => {
+        const rect = v.getBoundingClientRect();
+        const dist = Math.abs(rect.top);
+        if (dist < bestDist) { bestDist = dist; best = parseInt(v.dataset.v, 10); }
+      });
+      if (best !== null) syncVerse = best;
     }
 
-    if (isRows) {
-      idx = Math.floor(idx / 2) * 2;
-      mobActiveIdx = Math.max(0, Math.min(Math.max(0, outerCols.length - 2), idx));
-    } else {
-      mobActiveIdx = Math.max(0, Math.min(outerCols.length - 1, idx));
-    }
+    if (isRows) idx = Math.floor(idx / 2) * 2;
+    mobActiveIdx = Math.max(0, Math.min(outerCols.length - 1, idx));
 
     applyMobileVisibility();
 
-    if (syncVerse !== null && cols.length > 0) {
-      const toSync = isRows ? [mobActiveIdx, mobActiveIdx + 1] : [mobActiveIdx];
-      toSync.forEach(i => {
-        if (i < cols.length) try { applyPosition(cols, i, null, syncVerse, syncFrac); } catch(_) {}
+    if (syncVerse !== null) {
+      requestAnimationFrame(() => {
+        const toSync = isRows ? [mobActiveIdx, mobActiveIdx + 1] : [mobActiveIdx];
+        toSync.forEach(i => {
+          if (i >= cols.length) return;
+          const verseEl = cols[i].querySelector(`.verse[data-v="${syncVerse}"]`);
+          if (verseEl) cols[i].scrollTop = verseEl.offsetTop;
+        });
       });
     }
 
