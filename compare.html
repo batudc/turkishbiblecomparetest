@@ -3307,6 +3307,14 @@
   document.getElementById('btn-commentary').addEventListener('click', function() {
     const sidebar = document.getElementById('sidebar-panel');
     const isOpening = !sidebar.classList.contains('open');
+    if (!isOpening && window.matchMedia('(max-width: 640px)').matches) {
+      sidebar.style.transition = 'none';
+      sidebar.style.visibility = 'hidden';
+      sidebar.classList.remove('open');
+      this.classList.remove('comm-open');
+      requestAnimationFrame(() => { sidebar.style.visibility = ''; sidebar.style.transition = ''; });
+      return;
+    }
     sidebar.classList.toggle('open');
     this.classList.toggle('comm-open', isOpening);
     if (isOpening) loadCommentary(currentBook, currentChapter);
