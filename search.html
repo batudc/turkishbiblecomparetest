@@ -989,6 +989,32 @@ const BOOK_CODES = {
   'Zekeriya':'ZEC','Malaki':'MAL'
 };
 const BOOK_CODES_REV = Object.fromEntries(Object.entries(BOOK_CODES).map(([k,v])=>[v,k]));
+
+const BOOK_DISPLAY_EN = {
+  'Yaratılış':'Genesis',"Mısır'dan Çıkış":'Exodus','Levililer':'Leviticus',
+  'Çölde Sayım':'Numbers',"Yasa'nın Tekrarı":'Deuteronomy','Yeşu':'Joshua',
+  'Hakimler':'Judges','Rut':'Ruth','1. Samuel':'1 Samuel','2. Samuel':'2 Samuel',
+  '1. Krallar':'1 Kings','2. Krallar':'2 Kings','1. Tarihler':'1 Chronicles',
+  '2. Tarihler':'2 Chronicles','Ezra':'Ezra','Nehemya':'Nehemiah','Ester':'Esther',
+  'Eyüp':'Job','Mezmurlar':'Psalms',"Süleyman'ın Özdeyişleri":'Proverbs',
+  'Vaiz':'Ecclesiastes','Ezgiler Ezgisi':'Song of Solomon','Yeşaya':'Isaiah',
+  'Yeremya':'Jeremiah','Ağıtlar':'Lamentations','Hezekiel':'Ezekiel',
+  'Daniel':'Daniel','Hoşea':'Hosea','Yoel':'Joel','Amos':'Amos',
+  'Ovadya':'Obadiah','Yunus':'Jonah','Mika':'Micah','Nahum':'Nahum',
+  'Habakkuk':'Habakkuk','Zefanya':'Zephaniah','Hagay':'Haggai',
+  'Zekeriya':'Zechariah','Malaki':'Malachi',
+  'Matta':'Matthew','Markos':'Mark','Luka':'Luke','Yuhanna':'John',
+  'Elçilerin İşleri':'Acts','Romalılar':'Romans','1. Korintliler':'1 Corinthians',
+  '2. Korintliler':'2 Corinthians','Galatyalılar':'Galatians','Efesliler':'Ephesians',
+  'Filipililer':'Philippians','Koloseliler':'Colossians',
+  '1. Selanikliler':'1 Thessalonians','2. Selanikliler':'2 Thessalonians',
+  '1. Timoteos':'1 Timothy','2. Timoteos':'2 Timothy','Titus':'Titus',
+  'Filemon':'Philemon','İbraniler':'Hebrews','Yakup':'James',
+  '1. Petrus':'1 Peter','2. Petrus':'2 Peter','1. Yuhanna':'1 John',
+  '2. Yuhanna':'2 John','3. Yuhanna':'3 John','Yahuda':'Jude','Vahiy':'Revelation'
+};
+function displayBook(b) { return BOOK_DISPLAY_EN[b] || b; }
+
 const NT_CODE_SET = new Set(NT_BOOKS.map(n => BOOK_CODES[n]));
 
 const TRANSLATIONS = {
@@ -1157,27 +1183,12 @@ const SHOW_STEP  = 40;
 // ── Translation panel ──────────────────────────────────────────────────────
 const TRANS_CATEGORIES = [
   { id: 'english', label: 'English',
-    subcats: [ { label: null, ids: ['KJV','NKJV','ESV','NIV','NLT','NET','CSB','LSB'] } ]
-  },
-  { id: 'ancient', label: 'Ancient Sources',
-    subcats: [ { label: null, ids: ['BHS','LXX','VULG','NA27'] } ]
-  },
-  { id: 'modern', label: 'Modern Turkish',
     subcats: [
-      { label: 'Full Bible',    ids: ['TCL02','AREMSI','HKTN','YTC','HAKK'] },
-      { label: 'New Testament', ids: ['YYY1987','CAN','KKDEU','BGT','COS','TTT'] },
-      { label: 'Partial',       ids: ['TSV','OTR2019'] },
+      { label: 'Favourites',          ids: [] },  // User-populated
+      { label: 'Millennials (Modern)', ids: ['ESV','NIV','NLT','NET','CSB','LSB'] },
+      { label: 'Word by Word',        ids: ['KJV','NKJV','ESV','LSB'] },
+      { label: 'Meaning to Meaning',  ids: ['NIV','NLT','NET','CSB'] },
     ]
-  },
-  { id: 'ottoman', label: 'Ottoman Turkish',
-    subcats: [
-      { label: 'Full Bible',    ids: ['ALI1665','JDK1827','TUR1852-57','SEL1866-77','KM1886','KMEYA'] },
-      { label: 'New Testament', ids: ['KIE1819'] },
-      { label: 'Partial',       ids: ['SEA1666','MEZ1669','NSH1739'] },
-    ]
-  },
-  { id: 'heretical', label: 'Other Translations',
-    subcats: [ { label: null, ids: ['NWT2008','NWT2025'] } ]
   },
 ];
 
@@ -1718,12 +1729,10 @@ const HERETICAL_ID_SET = new Set(['NWT2008','NWT2025']);
 const ENGLISH_ID_SET   = new Set(['KJV','NKJV','ESV','NIV','NLT','NET','CSB','LSB']);
 
 const SEARCH_PRESETS = [
-  { id:'favoriler', label:'⭐ Favourites', ids: () => getFavorites().filter(id => ALL_TRANS[id]?.loaded) },
-  { id:'english',   label:'English',      ids: () => ['ESV','KJV','NIV','NKJV','NLT','NET','CSB','LSB'].filter(id => ALL_TRANS[id]?.loaded) },
-  { id:'ancient',   label:'Ancient',      ids: () => ['BHS','LXX','VULG','NA27'].filter(id => ALL_TRANS[id]?.loaded) },
-  { id:'modern',    label:'Modern TR',    ids: () => ['TCL02','YTC','TTT','HAKK','KMEYA'] },
-  { id:'tarihi',    label:'Historical TR',ids: () => ['ALI1665','KIE1819','JDK1827','TUR1852-57','SEL1866-77','KM1886'] },
-  { id:'tamkitap',  label:'Full Bible TR', ids: () => ['ALI1665','JDK1827','KM1886','KMEYA','TCL02','AREMSI','HKTN','YTC','HAKK'] },
+  { id:'favoriler', label:'⭐ Favourites', ids: () => getFavorites().filter(id => ALL_TRANS[id]?.loaded && ENGLISH_ID_SET.has(id)) },
+  { id:'millennials', label:'Millennials', ids: () => ['ESV','NIV','NLT','NET','CSB','LSB'].filter(id => ALL_TRANS[id]?.loaded) },
+  { id:'wordword',    label:'Word by Word', ids: () => ['KJV','NKJV','ESV','LSB'].filter(id => ALL_TRANS[id]?.loaded) },
+  { id:'meaning',     label:'Meaning to Meaning', ids: () => ['NIV','NLT','NET','CSB'].filter(id => ALL_TRANS[id]?.loaded) },
 ];
 
 function syncPresetHighlights() {
