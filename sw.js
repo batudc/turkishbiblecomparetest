@@ -1,19 +1,20 @@
-const SHELL_CACHE = 'kki-shell-v2';
-const DATA_CACHE  = 'kki-data-v1';   // never busted — data files don't change
+const SHELL_CACHE = 'kki-shell-v3';  // bumped: removed deleted interlinear.html
+const DATA_CACHE  = 'kki-data-v1';
 
 const SHELL_FILES = [
   '/',
   '/index.html',
+  '/anasayfa.html',
   '/karsilastirma.html',
+  '/compare.html',
   '/antikdil.html',
-  '/interlinear.html',
+  '/ancient.html',
   '/arama.html',
   '/search.html',
-  '/compare.html',
+  '/lang-switch.js',
   '/icons/icon-192x192.png',
   '/icons/icon-512x512.png',
   '/apple-touch-icon.png',
-  // Essential data index files — tiny, needed on every load
   '/data/books.json',
   '/data/index.json',
 ];
