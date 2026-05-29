@@ -834,7 +834,7 @@
         <line x1="33" y1="33" x2="48" y2="48"/>
       </svg>
       <h2>Kelime veya ifade arayın</h2>
-      <p>Türkçe çevirilerin tamamında arama yapın. Türkçe karakter duyarsızlığı desteklenmektedir (ş → s, ğ → g, ç → c) ve Osmanlıca hat işaretleri otomatik eşleştirilir (â → a, î → i, û → u).</p>
+      <p>Search across all Bible translations. Turkish diacritic-insensitive matching is supported (ş → s, ğ → g, ç → c) and Ottoman accent marks are automatically normalised (â → a, î → i, û → u).</p>
     </div>
     <div id="state-no-results">
       <h3>No results found</h3>
@@ -996,7 +996,7 @@ const TRANSLATIONS = {
     { id:'BHS',  name:'Biblia Hebraica Stuttgartensia', year:1008, loaded:true },
     { id:'LXX',  name:'Septuaginta (LXX)',              year:-200,  loaded:true },
     { id:'VULG', name:'Vulgata Latina',                  year:405,  loaded:true },
-    { id:'NA27', name:'SBL Yunanca Yeni Antlaşma',      year:400,  loaded:true },
+    { id:'NA27', name:'SBL Greek New Testament',      year:400,  loaded:true },
   ],
   bibleFull: [
     { id:'ALI1665',    name:'Ali Bey El Yazması',              year:1665, loaded:true  },
@@ -1159,14 +1159,14 @@ const TRANS_CATEGORIES = [
   { id: 'ottoman', label: 'Osmanlı Türkçesi',
     subcats: [
       { label: 'Tam Kutsal Kitap', ids: ['ALI1665','JDK1827','TUR1852-57','SEL1866-77','KM1886','KMEYA'] },
-      { label: 'Yeni Antlaşma',    ids: ['KIE1819'] },
+      { label: 'New Testament',    ids: ['KIE1819'] },
       { label: 'Kısmi',            ids: ['SEA1666','MEZ1669','NSH1739'] },
     ]
   },
   { id: 'modern', label: 'Modern Türkçe',
     subcats: [
       { label: 'Tam Kutsal Kitap', ids: ['TCL02','AREMSI','HKTN','YTC','HAKK'] },
-      { label: 'Yeni Antlaşma',    ids: ['YYY1987','CAN','KKDEU','BGT','COS','TTT'] },
+      { label: 'New Testament',    ids: ['YYY1987','CAN','KKDEU','BGT','COS','TTT'] },
       { label: 'Kısmi',            ids: ['TSV','OTR2019'] },
     ]
   },
@@ -1339,7 +1339,7 @@ function buildBooksPanel() {
   const scopeArr = scopeFilter === 'nt' ? NT_BOOKS : scopeFilter === 'ot' ? OT_BOOKS : null;
   const groups = scopeArr
     ? [{ label: null, books: scopeArr }]
-    : [{ label: 'Eski Ahit', books: OT_BOOKS }, { label: 'Yeni Antlaşma', books: NT_BOOKS }];
+    : [{ label: 'Old Testament', books: OT_BOOKS }, { label: 'New Testament', books: NT_BOOKS }];
   groups.forEach(g => {
     if (g.label) {
       const lbl = document.createElement('div');
@@ -1918,7 +1918,7 @@ if (initQ.trim().length >= 2) {
     },
     {
       sel: '#panel-translations',
-      title: 'Çeviri Selectimi',
+      title: 'Translation Selection',
       desc: 'Aramanın hangi çevirilerde yapılacağını seçin. Daha fazla çeviri seçmek daha kapsamlı resultslar sağlar.',
       pos: 'bottom',
       onEnter() {

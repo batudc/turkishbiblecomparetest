@@ -877,7 +877,7 @@
     <div id="header-controls">
       <button class="hdr-btn" id="btn-books" title="Select book">John <span style="opacity:.4;font-size:9px;">▾</span></button>
       <button class="nav-arrow" id="btn-prev">‹</button>
-      <button class="hdr-btn" id="btn-chapter" title="Bölüm seçin" style="min-width:80px;text-align:center;">1. Bölüm</button>
+      <button class="hdr-btn" id="btn-chapter" title="Select chapter" style="min-width:80px;text-align:center;">Ch. 1</button>
       <button class="nav-arrow" id="btn-next">›</button>
       <button class="hdr-btn" id="settings-btn" title="View options">View <span style="opacity:.4;font-size:9px;">▾</span></button>
       <button class="hdr-btn" id="btn-ayarlar" title="Settings">Settings <span style="opacity:.4;font-size:9px;">▾</span></button>
@@ -936,7 +936,7 @@
 <!-- CHAPTER PANEL -->
 <div class="panel" id="panel-chapters">
   <div class="panel-section" style="padding:8px 10px 12px;max-height:60vh;overflow-y:auto;">
-    <div class="panel-section-title" id="ch-panel-label">Yuhanna — Bölümler</div>
+    <div class="panel-section-title" id="ch-panel-label">John — Chapters</div>
     <div class="books-grid" id="chapters-grid"></div>
   </div>
 </div>
@@ -946,7 +946,7 @@
   <div class="panel-section" style="max-height:65vh;overflow-y:auto;padding:8px 10px 12px;">
     <div class="books-testament-label">Eski Antlaşma</div>
     <div class="books-grid" id="books-ot"></div>
-    <div class="books-testament-label" style="margin-top:10px;">Yeni Antlaşma</div>
+    <div class="books-testament-label" style="margin-top:10px;">New Testament</div>
     <div class="books-grid" id="books-nt"></div>
   </div>
 </div>
@@ -956,15 +956,15 @@
   <div class="panel-section">
     <div class="panel-section-title">Theme</div>
     <div class="panel-row-group">
-      <label class="panel-option active"><input type="radio" name="il-theme" value="light" checked> Açık</label>
-      <label class="panel-option"><input type="radio" name="il-theme" value="sepia"> Parşömen</label>
-      <label class="panel-option"><input type="radio" name="il-theme" value="dark"> Koyu</label>
+      <label class="panel-option active"><input type="radio" name="il-theme" value="light" checked> Light</label>
+      <label class="panel-option"><input type="radio" name="il-theme" value="sepia"> Sepia</label>
+      <label class="panel-option"><input type="radio" name="il-theme" value="dark"> Dark</label>
     </div>
   </div>
   <div class="panel-section">
     <div class="panel-section-title">Font Size</div>
     <div class="panel-row-group">
-      <label class="panel-option"><input type="radio" name="il-fontsize" value="small"> Küçük</label>
+      <label class="panel-option"><input type="radio" name="il-fontsize" value="small"> Small</label>
       <label class="panel-option active"><input type="radio" name="il-fontsize" value="normal" checked> Normal</label>
       <label class="panel-option"><input type="radio" name="il-fontsize" value="large"> Large</label>
     </div>
@@ -975,7 +975,7 @@
 <div id="settings-overlay">
   <div id="settings-panel" class="panel">
     <div class="sp-header">
-      <span class="sp-header-title">Gösterim Seçenekleri</span>
+      <span class="sp-header-title">Display Options</span>
       <button class="sp-header-close" id="settings-close">✕</button>
     </div>
     <div class="sp-rows">
@@ -983,7 +983,7 @@
       <div class="sp-row">
         <div class="sp-row-info">
           <div class="sp-row-label">Greek</div>
-          <div class="sp-row-desc">Sözcüğün Yunanca formu</div>
+          <div class="sp-row-desc">The Greek/Hebrew word form</div>
           <div class="sp-row-sample" style="color:#f0e8d8;font-family:'Cardo',serif;font-size:15px;">ἀγαπάω</div>
         </div>
         <label class="sw">
@@ -997,7 +997,7 @@
       <div class="sp-row">
         <div class="sp-row-info">
           <div class="sp-row-label">Transliteration</div>
-          <div class="sp-row-desc">Latin harfleriyle okunuşu</div>
+          <div class="sp-row-desc">Pronunciation in Latin letters</div>
           <div class="sp-row-sample" style="color:#9a8f80;font-style:italic;">agapaó</div>
         </div>
         <label class="sw">
@@ -1009,7 +1009,7 @@
       <div class="sp-row">
         <div class="sp-row-info">
           <div class="sp-row-label">Strong's Number</div>
-          <div class="sp-row-desc">Sözlük referans numarası</div>
+          <div class="sp-row-desc">Dictionary reference number</div>
           <div class="sp-row-sample" style="color:#b89a2a;font-weight:700;">G25</div>
         </div>
         <label class="sw">
@@ -1021,7 +1021,7 @@
       <div class="sp-row">
         <div class="sp-row-info">
           <div class="sp-row-label">Dictionary Meaning</div>
-          <div class="sp-row-desc">Strong's sözlük tanımı</div>
+          <div class="sp-row-desc">Strong's dictionary definition</div>
           <div class="sp-row-sample" style="color:#5e9668;">to love</div>
         </div>
         <label class="sw">
@@ -1033,7 +1033,7 @@
       <div class="sp-row">
         <div class="sp-row-info">
           <div class="sp-row-label">Contextual Translation</div>
-          <div class="sp-row-desc">Bu ayette nasıl çevrildiği</div>
+          <div class="sp-row-desc">How it is translated in this verse</div>
           <div class="sp-row-sample" style="color:#6090b8;">loved</div>
         </div>
         <label class="sw">
@@ -1045,7 +1045,7 @@
       <div class="sp-row">
         <div class="sp-row-info">
           <div class="sp-row-label">Morphology</div>
-          <div class="sp-row-desc">Dilbilgisi kodu</div>
+          <div class="sp-row-desc">Grammar / morphology code</div>
           <div class="sp-row-sample" style="color:#5a524a;">V-AAI-3S</div>
         </div>
         <label class="sw">
@@ -1058,8 +1058,8 @@
 
       <div class="sp-row">
         <div class="sp-row-info">
-          <div class="sp-row-label" style="color:#7baee0;">Textus Receptus Varyantları</div>
-          <div class="sp-row-desc">Textus Receptus'ta var olan, diğer el yazmalarında bulunmayan kelimeler</div>
+          <div class="sp-row-label" style="color:#7baee0;">Textus Receptus Variants</div>
+          <div class="sp-row-desc">Words present in the Textus Receptus but absent from other manuscripts</div>
           <div class="sp-row-sample">
             <span style="display:inline-block;background:rgba(65,115,200,0.75);color:#c5d9f7;font-size:8px;font-weight:800;letter-spacing:.06em;padding:1px 5px;border-radius:3px;">TR</span>
           </div>
@@ -1092,42 +1092,42 @@
 
 <script>
 const BOOKS_OT = [
-  {c:'GEN',n:'Yaratılış',ch:50},           {c:'EXO',n:"Mısır'dan Çıkış",ch:40},
-  {c:'LEV',n:'Levililer',ch:27},            {c:'NUM',n:'Çölde Sayım',ch:36},
-  {c:'DEU',n:"Yasa'nın Tekrarı",ch:34},    {c:'JOS',n:'Yeşu',ch:24},
-  {c:'JDG',n:'Hakimler',ch:21},             {c:'RUT',n:'Rut',ch:4},
-  {c:'1SA',n:'1. Samuel',ch:31},            {c:'2SA',n:'2. Samuel',ch:24},
-  {c:'1KI',n:'1. Krallar',ch:22},           {c:'2KI',n:'2. Krallar',ch:25},
-  {c:'1CH',n:'1. Tarihler',ch:29},          {c:'2CH',n:'2. Tarihler',ch:36},
-  {c:'EZR',n:'Ezra',ch:10},                {c:'NEH',n:'Nehemya',ch:13},
-  {c:'EST',n:'Ester',ch:10},               {c:'JOB',n:'Eyüp',ch:42},
-  {c:'PSA',n:'Mezmurlar',ch:150},           {c:'PRO',n:"Süleyman'ın Özdeyişleri",ch:31},
-  {c:'ECC',n:'Vaiz',ch:12},                {c:'SNG',n:'Ezgiler Ezgisi',ch:8},
-  {c:'ISA',n:'Yeşaya',ch:66},              {c:'JER',n:'Yeremya',ch:52},
-  {c:'LAM',n:'Ağıtlar',ch:5},              {c:'EZK',n:'Hezekiel',ch:48},
-  {c:'DAN',n:'Daniel',ch:12},              {c:'HOS',n:'Hoşea',ch:14},
-  {c:'JOL',n:'Yoel',ch:3},                {c:'AMO',n:'Amos',ch:9},
-  {c:'OBA',n:'Ovadya',ch:1},               {c:'JON',n:'Yunus',ch:4},
-  {c:'MIC',n:'Mika',ch:7},                {c:'NAH',n:'Nahum',ch:3},
-  {c:'HAB',n:'Habakkuk',ch:3},             {c:'ZEP',n:'Zefanya',ch:3},
-  {c:'HAG',n:'Hagay',ch:2},               {c:'ZEC',n:'Zekeriya',ch:14},
-  {c:'MAL',n:'Malaki',ch:4},
+  {c:'GEN',n:'Genesis',ch:50},           {c:'EXO',n:'Exodus',ch:40},
+  {c:'LEV',n:'Leviticus',ch:27},            {c:'NUM',n:'Numbers',ch:36},
+  {c:'DEU',n:'Deuteronomy',ch:34},          {c:'JOS',n:'Joshua',ch:24},
+  {c:'JDG',n:'Judges',ch:21},               {c:'RUT',n:'Ruth',ch:4},
+  {c:'1SA',n:'1 Samuel',ch:31},             {c:'2SA',n:'2 Samuel',ch:24},
+  {c:'1KI',n:'1 Kings',ch:22},              {c:'2KI',n:'2 Kings',ch:25},
+  {c:'1CH',n:'1 Chronicles',ch:29},         {c:'2CH',n:'2 Chronicles',ch:36},
+  {c:'EZR',n:'Ezra',ch:10},                 {c:'NEH',n:'Nehemiah',ch:13},
+  {c:'EST',n:'Esther',ch:10},               {c:'JOB',n:'Job',ch:42},
+  {c:'PSA',n:'Psalms',ch:150},              {c:'PRO',n:'Proverbs',ch:31},
+  {c:'ECC',n:'Ecclesiastes',ch:12},         {c:'SNG',n:'Song of Solomon',ch:8},
+  {c:'ISA',n:'Isaiah',ch:66},               {c:'JER',n:'Jeremiah',ch:52},
+  {c:'LAM',n:'Lamentations',ch:5},          {c:'EZK',n:'Ezekiel',ch:48},
+  {c:'DAN',n:'Daniel',ch:12},               {c:'HOS',n:'Hosea',ch:14},
+  {c:'JOL',n:'Joel',ch:3},                  {c:'AMO',n:'Amos',ch:9},
+  {c:'OBA',n:'Obadiah',ch:1},               {c:'JON',n:'Jonah',ch:4},
+  {c:'MIC',n:'Micah',ch:7},                 {c:'NAH',n:'Nahum',ch:3},
+  {c:'HAB',n:'Habakkuk',ch:3},              {c:'ZEP',n:'Zephaniah',ch:3},
+  {c:'HAG',n:'Haggai',ch:2},               {c:'ZEC',n:'Zechariah',ch:14},
+  {c:'MAL',n:'Malachi',ch:4},
 ];
 const BOOKS_NT = [
-  {c:'MAT',n:'Matta',ch:28},               {c:'MRK',n:'Markos',ch:16},
-  {c:'LUK',n:'Luka',ch:24},                {c:'JHN',n:'Yuhanna',ch:21},
-  {c:'ACT',n:'Elçilerin İşleri',ch:28},    {c:'ROM',n:'Romalılar',ch:16},
-  {c:'1CO',n:'1. Korintliler',ch:16},      {c:'2CO',n:'2. Korintliler',ch:13},
-  {c:'GAL',n:'Galatyalılar',ch:6},         {c:'EPH',n:'Efesliler',ch:6},
-  {c:'PHP',n:'Filipililer',ch:4},          {c:'COL',n:'Koloseliler',ch:4},
-  {c:'1TH',n:'1. Selanikliler',ch:5},      {c:'2TH',n:'2. Selanikliler',ch:3},
-  {c:'1TI',n:'1. Timoteos',ch:6},          {c:'2TI',n:'2. Timoteos',ch:4},
-  {c:'TIT',n:'Titus',ch:3},               {c:'PHM',n:'Filemon',ch:1},
-  {c:'HEB',n:'İbraniler',ch:13},           {c:'JAS',n:'Yakup',ch:5},
-  {c:'1PE',n:'1. Petrus',ch:5},            {c:'2PE',n:'2. Petrus',ch:3},
-  {c:'1JN',n:'1. Yuhanna',ch:5},           {c:'2JN',n:'2. Yuhanna',ch:1},
-  {c:'3JN',n:'3. Yuhanna',ch:1},           {c:'JUD',n:'Yahuda',ch:1},
-  {c:'REV',n:'Vahiy',ch:22},
+  {c:'MAT',n:'Matthew',ch:28},             {c:'MRK',n:'Mark',ch:16},
+  {c:'LUK',n:'Luke',ch:24},                 {c:'JHN',n:'John',ch:21},
+  {c:'ACT',n:'Acts',ch:28},                 {c:'ROM',n:'Romans',ch:16},
+  {c:'1CO',n:'1 Corinthians',ch:16},        {c:'2CO',n:'2 Corinthians',ch:13},
+  {c:'GAL',n:'Galatians',ch:6},             {c:'EPH',n:'Ephesians',ch:6},
+  {c:'PHP',n:'Philippians',ch:4},           {c:'COL',n:'Colossians',ch:4},
+  {c:'1TH',n:'1 Thessalonians',ch:5},       {c:'2TH',n:'2 Thessalonians',ch:3},
+  {c:'1TI',n:'1 Timothy',ch:6},             {c:'2TI',n:'2 Timothy',ch:4},
+  {c:'TIT',n:'Titus',ch:3},                 {c:'PHM',n:'Philemon',ch:1},
+  {c:'HEB',n:'Hebrews',ch:13},              {c:'JAS',n:'James',ch:5},
+  {c:'1PE',n:'1 Peter',ch:5},               {c:'2PE',n:'2 Peter',ch:3},
+  {c:'1JN',n:'1 John',ch:5},               {c:'2JN',n:'2 John',ch:1},
+  {c:'3JN',n:'3 John',ch:1},               {c:'JUD',n:'Jude',ch:1},
+  {c:'REV',n:'Revelation',ch:22},
 ];
 const BOOKS = [...BOOKS_OT, ...BOOKS_NT];
 
@@ -1253,12 +1253,12 @@ document.addEventListener('click', e => {
 function buildChapters(meta) {
   const grid  = document.getElementById('chapters-grid');
   const label = document.getElementById('ch-panel-label');
-  label.textContent = meta.n + ' — Bölümler';
+  label.textContent = meta.n + ' — Chapters';
   grid.innerHTML = '';
   for (let i = 1; i <= meta.ch; i++) {
     const btn = document.createElement('button');
     btn.className = 'book-btn' + (i === chap ? ' active' : '');
-    btn.textContent = i + '. Bölüm';
+    btn.textContent = 'Ch. ' + i;
     btn.addEventListener('click', () => {
       grid.querySelectorAll('.book-btn').forEach(x => x.classList.remove('active'));
       btn.classList.add('active');
@@ -1293,7 +1293,7 @@ function updateNavButtons() {
   const btnBooks   = document.getElementById('btn-books');
   const btnChapter = document.getElementById('btn-chapter');
   btnBooks.childNodes[0].textContent = meta.n + ' ';
-  btnChapter.textContent = chap + '. Bölüm';
+  btnChapter.textContent = 'Ch. ' + chap;
 }
 
 // Build book grids on first open
@@ -2798,8 +2798,8 @@ load(initBook, initCh);
     },
     {
       sel: '#scroll-area',
-      title: 'Satır Satır Kelime Analizi',
-      desc: 'Her Yunanca/İbranice kelime; Türkçe anlamı, transliterasyon ve Strong numarasıyla birlikte satır satır gösterilir.',
+      title: 'Word-by-Word Analysis',
+      desc: 'Every Greek/Hebrew word is displayed line by line with its English meaning, transliteration and Strong\'s number.',
       pos: 'top',
     },
     {
@@ -2826,7 +2826,7 @@ load(initBook, initCh);
     {
       sel: '#settings-panel',
       title: 'Gösterim Seçenekleri',
-      desc: 'Transliterasyon, Türkçe anlam, Strong numarası ve morfoloji satırlarını açıp kapatarak görünümü özelleştirin.',
+      desc: 'Customise the view by toggling transliteration, dictionary meaning, Strong\'s number and morphology rows on or off.',
       pos: 'bottom',
       onEnter() {
         openSettings();

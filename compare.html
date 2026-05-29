@@ -1972,7 +1972,7 @@
               <button id="comm-lang-en" class="comm-lang-btn active" title="English commentary">EN</button>
               <button id="comm-lang-tr" class="comm-lang-btn" title="Turkish commentary">TR</button>
             </div>
-            <span id="commentary-source">Açıklamalı Kutsal Kitap</span>
+            <span id="commentary-source">Commentary</span>
           </div>
           <div id="commentary-body">
             <div id="commentary-pre-space"></div>
@@ -1993,15 +1993,15 @@
   <div class="panel-section">
     <div class="panel-section-title">Theme</div>
     <div class="panel-row-group">
-      <label class="panel-option active"><input type="radio" name="theme" value="light" checked> Açık</label>
-      <label class="panel-option"><input type="radio" name="theme" value="sepia"> Parşömen</label>
-      <label class="panel-option"><input type="radio" name="theme" value="dark"> Koyu</label>
+      <label class="panel-option active"><input type="radio" name="theme" value="light" checked> Light</label>
+      <label class="panel-option"><input type="radio" name="theme" value="sepia"> Sepia</label>
+      <label class="panel-option"><input type="radio" name="theme" value="dark"> Dark</label>
     </div>
   </div>
   <div class="panel-section">
     <div class="panel-section-title">Font Size</div>
     <div class="panel-row-group">
-      <label class="panel-option"><input type="radio" name="fontsize" value="small"> Küçük</label>
+      <label class="panel-option"><input type="radio" name="fontsize" value="small"> Small</label>
       <label class="panel-option active"><input type="radio" name="fontsize" value="normal" checked> Normal</label>
       <label class="panel-option"><input type="radio" name="fontsize" value="large"> Large</label>
     </div>
@@ -2049,7 +2049,7 @@
   <div class="panel-section" style="max-height:65vh;overflow-y:auto;padding:8px 10px 12px;">
     <div class="books-testament-label">Eski Antlaşma</div>
     <div class="books-grid" id="books-ot"></div>
-    <div class="books-testament-label" style="margin-top:10px;">Yeni Antlaşma</div>
+    <div class="books-testament-label" style="margin-top:10px;">New Testament</div>
     <div class="books-grid" id="books-nt"></div>
   </div>
 </div>
@@ -2337,6 +2337,32 @@
   // Validate against known IDs (in case saved data has stale entries)
   selectedTranslations.forEach(id => { if (!ALL_TRANS[id]) selectedTranslations.delete(id); });
   if (selectedTranslations.size === 0) { selectedTranslations.add('ESV'); selectedTranslations.add('KJV'); }
+
+  // English display names for book selection UI (internal keys stay Turkish)
+  const BOOK_DISPLAY_EN = {
+    'Yaratılış':'Genesis',"Mısır'dan Çıkış":'Exodus','Levililer':'Leviticus',
+    'Çölde Sayım':'Numbers',"Yasa'nın Tekrarı":'Deuteronomy','Yeşu':'Joshua',
+    'Hakimler':'Judges','Rut':'Ruth','1. Samuel':'1 Samuel','2. Samuel':'2 Samuel',
+    '1. Krallar':'1 Kings','2. Krallar':'2 Kings','1. Tarihler':'1 Chronicles',
+    '2. Tarihler':'2 Chronicles','Ezra':'Ezra','Nehemya':'Nehemiah','Ester':'Esther',
+    'Eyüp':'Job','Mezmurlar':'Psalms',"Süleyman'ın Özdeyişleri":'Proverbs',
+    'Vaiz':'Ecclesiastes','Ezgiler Ezgisi':'Song of Solomon','Yeşaya':'Isaiah',
+    'Yeremya':'Jeremiah','Ağıtlar':'Lamentations','Hezekiel':'Ezekiel',
+    'Daniel':'Daniel','Hoşea':'Hosea','Yoel':'Joel','Amos':'Amos',
+    'Ovadya':'Obadiah','Yunus':'Jonah','Mika':'Micah','Nahum':'Nahum',
+    'Habakkuk':'Habakkuk','Zefanya':'Zephaniah','Hagay':'Haggai',
+    'Zekeriya':'Zechariah','Malaki':'Malachi',
+    'Matta':'Matthew','Markos':'Mark','Luka':'Luke','Yuhanna':'John',
+    'Elçilerin İşleri':'Acts','Romalılar':'Romans','1. Korintliler':'1 Corinthians',
+    '2. Korintliler':'2 Corinthians','Galatyalılar':'Galatians','Efesliler':'Ephesians',
+    'Filipililer':'Philippians','Koloseliler':'Colossians',
+    '1. Selanikliler':'1 Thessalonians','2. Selanikliler':'2 Thessalonians',
+    '1. Timoteos':'1 Timothy','2. Timoteos':'2 Timothy','Titus':'Titus',
+    'Filemon':'Philemon','İbraniler':'Hebrews','Yakup':'James',
+    '1. Petrus':'1 Peter','2. Petrus':'2 Peter','1. Yuhanna':'1 John',
+    '2. Yuhanna':'2 John','3. Yuhanna':'3 John','Yahuda':'Jude','Vahiy':'Revelation'
+  };
+  function displayBook(b) { return BOOK_DISPLAY_EN[b] || b; }
   if (!BOOK_CODES[currentBook]) currentBook = 'Yuhanna';
 
   // Chapter data cache — key: `${tid}|${bookCode}|${chap}` → verse array
@@ -2862,7 +2888,7 @@
     const grid  = document.getElementById('chapters-grid');
     const label = document.getElementById('ch-panel-label');
     const total = CHAPTER_COUNTS[book] ?? 1;
-    label.textContent = book + ' — Chapters';
+    label.textContent = displayBook(book) + ' — Chapters';
     grid.innerHTML = '';
     for (let i = 1; i <= total; i++) {
       const btn = document.createElement('button');
@@ -2892,7 +2918,7 @@
       btn.addEventListener('click', () => {
         currentBook = b;
         currentChapter = 1;
-        document.getElementById('btn-books').childNodes[0].textContent = b + ' ';
+        document.getElementById('btn-books').childNodes[0].textContent = displayBook(b) + ' ';
         document.getElementById('btn-chapter').textContent = 'Ch. 1';
         document.getElementById('books-nt').querySelectorAll('.book-btn').forEach(x => x.classList.remove('active'));
         document.getElementById('books-ot').querySelectorAll('.book-btn').forEach(x => x.classList.remove('active'));
@@ -3591,7 +3617,7 @@
   const ALL_BOOKS = [...OT_BOOKS, ...NT_BOOKS];
   function navigateToBook(bookName, chapterNum) {
     currentBook = bookName;
-    document.getElementById('btn-books').childNodes[0].textContent = bookName + ' ';
+    document.getElementById('btn-books').childNodes[0].textContent = displayBook(bookName) + ' ';
     ['books-ot', 'books-nt'].forEach(id =>
       document.getElementById(id).querySelectorAll('.book-btn').forEach(b =>
         b.classList.toggle('active', b.textContent === bookName)));
@@ -4070,7 +4096,7 @@
 
     if (b && BOOK_CODES[b]) {
       currentBook = b;
-      document.getElementById('btn-books').childNodes[0].textContent = b + ' ';
+      document.getElementById('btn-books').childNodes[0].textContent = displayBook(b) + ' ';
       ['books-ot','books-nt'].forEach(id => {
         document.getElementById(id)?.querySelectorAll('.book-btn').forEach(btn =>
           btn.classList.toggle('active', btn.textContent === b));
