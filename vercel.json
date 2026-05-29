@@ -1,11 +1,6 @@
 {
   "redirects": [
-    { "source": "/compare.html",     "destination": "/karsilastirma.html", "permanent": true },
-    { "source": "/interlinear.html", "destination": "/antikdil.html",      "permanent": true },
-    { "source": "/search.html",      "destination": "/arama.html",         "permanent": true },
-    { "source": "/about.html",       "destination": "/hakkimizda.html",    "permanent": true },
-    { "source": "/contact.html",     "destination": "/iletisim.html",      "permanent": true },
-    { "source": "/privacy.html",     "destination": "/gizlilik.html",      "permanent": true },
-    { "source": "/index.html",       "destination": "/anasayfa.html",      "permanent": true }
+    { "source": "/interlinear.html",    "destination": "/ancient.html", "permanent": true },
+    { "source": "/interlinear-en.html", "destination": "/ancient.html", "permanent": true }
   ]
 }
