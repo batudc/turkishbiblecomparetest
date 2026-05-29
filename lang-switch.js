@@ -1,5 +1,9 @@
 // Language preference — runs on every page before content renders
 (function() {
+  // Safe localStorage wrappers (throws in Safari private mode / blocked storage)
+  function lsGet(k) { try { return localStorage.getItem(k); } catch(_) { return null; } }
+  function lsSet(k, v) { try { localStorage.setItem(k, v); } catch(_) {} }
+
   const MAP = {
     // Homepages
     'index.html':         { lang: 'en', partner: 'anasayfa.html' },
@@ -20,28 +24,28 @@
     'privacy.html':       { lang: 'en', partner: 'gizlilik.html' },
   };
 
-  const page = location.pathname.split('/').pop() || 'index.html';
-  const info = MAP[page];
+  var page = location.pathname.split('/').pop() || 'index.html';
+  var info = MAP[page];
   if (!info) return;
 
-  const pref = localStorage.getItem('kki_lang');
+  var pref = lsGet('kki_lang');
   if (pref && pref !== info.lang) {
     location.replace(info.partner + location.search);
     return;
   }
 
   window._setLang = function(lang) {
-    localStorage.setItem('kki_lang', lang);
-    const cur = location.pathname.split('/').pop() || 'index.html';
-    const inf = MAP[cur];
+    lsSet('kki_lang', lang);
+    var cur = location.pathname.split('/').pop() || 'index.html';
+    var inf = MAP[cur];
     if (inf && inf.lang !== lang) location.href = inf.partner + location.search;
   };
 
   document.addEventListener('DOMContentLoaded', function() {
-    document.querySelectorAll('[data-lang-switch]').forEach(btn => {
-      const target = btn.dataset.langSwitch;
+    document.querySelectorAll('[data-lang-switch]').forEach(function(btn) {
+      var target = btn.dataset.langSwitch;
       btn.classList.toggle('lang-active', target === (pref || info.lang));
-      btn.addEventListener('click', () => window._setLang(target));
+      btn.addEventListener('click', function() { window._setLang(target); });
     });
   });
 })();
