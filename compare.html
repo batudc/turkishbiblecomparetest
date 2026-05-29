@@ -1581,6 +1581,30 @@
         border-radius: 0;
       }
     }
+
+    /* ===== LANDSCAPE MOBILE: 2 columns side-by-side ===== */
+    @media (max-height: 640px) and (pointer: coarse) {
+      #mobile-col-tabs {
+        display: flex !important; flex-shrink: 0; background: #0d1e2d;
+        border-bottom: 1px solid rgba(184,146,42,0.18);
+        overflow-x: auto; -webkit-overflow-scrolling: touch; scrollbar-width: none;
+      }
+      #mobile-col-tabs::-webkit-scrollbar { display: none; }
+      .mob-tab {
+        flex-shrink: 0; padding: 0 14px; height: 32px; background: none; border: none;
+        border-bottom: 2px solid transparent; color: rgba(247,241,232,0.4);
+        font-family: 'Jost', sans-serif; font-size: 10px; font-weight: 600;
+        letter-spacing: 0.1em; text-transform: uppercase; cursor: pointer;
+        transition: color 0.15s, border-color 0.15s; white-space: nowrap;
+      }
+      .mob-tab.active { color: var(--gold-light); border-bottom-color: var(--gold); }
+      /* Hide all columns then show 2 visible ones at 50% width */
+      .col { display: none !important; }
+      .col.mob-visible {
+        display: flex !important; flex: none !important;
+        width: 50% !important; min-width: 0;
+      }
+    }
     /* ===== MEDIUM SCREENS (iPhone landscape, small tablets) ===== */
     @media (min-width: 641px) and (max-width: 960px) {
       #logo-text { display: none; }
@@ -4091,7 +4115,11 @@
   const mobileTabBar = document.getElementById('mobile-col-tabs');
   let mobActiveIdx = 0;
 
-  function isMobile() { return window.innerWidth <= 640; }
+  function isLandscapeMobile() {
+    return window.innerHeight <= 640 && window.innerWidth > 640
+      && matchMedia('(pointer: coarse)').matches;
+  }
+  function isMobile() { return window.innerWidth <= 640 || isLandscapeMobile(); }
 
   function buildMobileColTabs() {
     mobileTabBar.innerHTML = '';
@@ -4112,7 +4140,7 @@
   function setMobileActiveCol(idx) {
     const outerCols = document.querySelectorAll('#okuyucu_layout .col');
     const cols = getCols();
-    const isRows = isMobile() && layoutMode === 'rows';
+    const isRows = isMobile() && (layoutMode === 'rows' || isLandscapeMobile());
 
     let syncVerse = null;
     if (cols.length > 0 && mobActiveIdx < cols.length) {
@@ -4150,7 +4178,7 @@
 
   function applyMobileVisibility() {
     if (!isMobile()) return;
-    const isRows = layoutMode === 'rows';
+    const isRows = layoutMode === 'rows' || isLandscapeMobile();
     document.querySelectorAll('#okuyucu_layout .col')
       .forEach((c, i) => {
         const visible = isRows
@@ -4169,6 +4197,12 @@
   // Bootstrap mobile tabs for the initial columns (observer misses the first rebuildColumns call)
   setTimeout(buildMobileColTabs, 0);
 
+  // Rebuild tabs + re-apply visibility on orientation change
+  window.addEventListener('resize', () => {
+    buildMobileColTabs();
+    applyMobileVisibility();
+  }, { passive: true });
+
   // Swipe left/right on reader to switch columns
   (function() {
     const reader = document.getElementById('okuyucu_layout');
@@ -4184,7 +4218,7 @@
       if (Math.abs(dx) < 40 || Math.abs(dx) < Math.abs(dy) * 1.5) return;
       const total = document.querySelectorAll('#okuyucu_layout .col').length;
       if (total < 2) return;
-      const step = (layoutMode === 'rows') ? 2 : 1;
+      const step = (layoutMode === 'rows' || isLandscapeMobile()) ? 2 : 1;
       const next = dx < 0
         ? Math.min(mobActiveIdx + step, total - 1)
         : Math.max(mobActiveIdx - step, 0);
