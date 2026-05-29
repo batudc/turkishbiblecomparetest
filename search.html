@@ -758,7 +758,7 @@
       <strong id="modal-count"></strong> çeviri ile arama yapıyorsunuz.
       Bu kadar fazla kaynakta tarama yapmak
       <strong>30–40 saniye</strong> sürebilir.<br><br>
-      Aramaya devam etmek istiyor musunuz?
+      Do you want to continue searching?
     </div>
     <div id="modal-actions">
       <button class="modal-btn" id="modal-btn-rechoose">Çevirileri Yeniden Select</button>
@@ -787,7 +787,7 @@
 
     <!-- Mobile-only expand button (hidden on desktop via CSS) -->
     <div id="mob-expand-wrap">
-      <button id="mob-expand-btn" class="mob-expand" title="Tüm seçenekler" aria-expanded="false">▾</button>
+      <button id="mob-expand-btn" class="mob-expand" title="All options" aria-expanded="false">▾</button>
     </div>
 
     <div id="header-stats">
@@ -804,10 +804,10 @@
         </div>
     </div>
     <div id="header-controls">
-      <button class="hdr-btn" id="btn-translations" title="Çevirileri seçin">Çeviri <span style="opacity:.4;font-size:9px;">&#9660;</span></button>
-      <button class="hdr-btn" id="btn-filtreler">Filtre<span id="flt-badge"></span> <span style="opacity:.4;font-size:9px;">&#9660;</span></button>
-      <button class="hdr-btn" id="btn-gorunum">Görünüm <span style="opacity:.4;font-size:9px;">&#9660;</span></button>
-      <button class="hdr-btn" id="btn-tour" title="Site turunu başlat">?</button>
+      <button class="hdr-btn" id="btn-translations" title="Select translations">Translations <span style="opacity:.4;font-size:9px;">&#9660;</span></button>
+      <button class="hdr-btn" id="btn-filtreler">Filter<span id="flt-badge"></span> <span style="opacity:.4;font-size:9px;">&#9660;</span></button>
+      <button class="hdr-btn" id="btn-gorunum">View <span style="opacity:.4;font-size:9px;">&#9660;</span></button>
+      <button class="hdr-btn" id="btn-tour" title="Start tour">?</button>
     </div>
     <div id="progress-bar-wrap"><div id="progress-bar"></div></div>
   </div>
@@ -815,7 +815,7 @@
   <!-- Mobile dropdown menu (hidden until expanded) -->
   <div id="mob-menu" role="menu">
     <button class="mob-menu-row" id="mob-row-translations" onclick="event.stopPropagation(); closeMobMenu(); document.getElementById('btn-translations').click()">Translations ▾</button>
-    <button class="mob-menu-row" id="mob-row-filtreler" onclick="event.stopPropagation(); closeMobMenu(); document.getElementById('btn-filtreler').click()">Filtre ▾</button>
+    <button class="mob-menu-row" id="mob-row-filtreler" onclick="event.stopPropagation(); closeMobMenu(); document.getElementById('btn-filtreler').click()">Filter ▾</button>
     <button class="mob-menu-row" id="mob-row-gorunum" onclick="event.stopPropagation(); closeMobMenu(); document.getElementById('btn-gorunum').click()">View ▾</button>
     <div class="mob-menu-sep"></div>
     <div class="mob-menu-links">
@@ -833,12 +833,12 @@
         <circle cx="22" cy="22" r="16"/>
         <line x1="33" y1="33" x2="48" y2="48"/>
       </svg>
-      <h2>Kelime veya ifade arayın</h2>
+      <h2>Search for a word or phrase</h2>
       <p>Search across all Bible translations. Turkish diacritic-insensitive matching is supported (ş → s, ğ → g, ç → c) and Ottoman accent marks are automatically normalised (â → a, î → i, û → u).</p>
     </div>
     <div id="state-no-results">
       <h3>No results found</h3>
-      <p>Farklı bir kelime deneyin ya da daha fazla çeviri seçin.</p>
+      <p>Try a different word or select more translations.</p>
     </div>
     <div id="results-list"></div>
   </div>
@@ -849,7 +849,7 @@
 <div class="panel" id="panel-translations">
   <div id="trans-presets-bar"></div>
   <div id="trans-bulk-bar">
-    <button class="bulk-btn" id="bulk-sel-all">Tümünü Select</button>
+    <button class="bulk-btn" id="bulk-sel-all">Select All</button>
     <button class="bulk-btn" id="bulk-desel-all">Remove All</button>
   </div>
   <div id="trans-cat-list"></div>
@@ -860,15 +860,15 @@
   <div class="panel-section">
     <div class="panel-section-title">Theme</div>
     <div class="panel-row-group">
-      <label class="panel-option active"><input type="radio" name="sr-theme" value="light" checked> Açık</label>
-      <label class="panel-option"><input type="radio" name="sr-theme" value="sepia"> Parşömen</label>
-      <label class="panel-option"><input type="radio" name="sr-theme" value="dark"> Koyu</label>
+      <label class="panel-option active"><input type="radio" name="sr-theme" value="light" checked> Light</label>
+      <label class="panel-option"><input type="radio" name="sr-theme" value="sepia"> Sepia</label>
+      <label class="panel-option"><input type="radio" name="sr-theme" value="dark"> Dark</label>
     </div>
   </div>
   <div class="panel-section">
     <div class="panel-section-title">Font Size</div>
     <div class="panel-row-group">
-      <label class="panel-option"><input type="radio" name="sr-fontsize" value="small"> Küçük</label>
+      <label class="panel-option"><input type="radio" name="sr-fontsize" value="small"> Small</label>
       <label class="panel-option active"><input type="radio" name="sr-fontsize" value="normal" checked> Normal</label>
       <label class="panel-option"><input type="radio" name="sr-fontsize" value="large"> Large</label>
     </div>
@@ -879,24 +879,24 @@
 <!-- FİLTRELER PANEL -->
 <div class="panel" id="panel-filtreler">
   <div class="panel-section">
-    <div class="panel-section-title">Kapsam</div>
+    <div class="panel-section-title">Scope</div>
     <div class="panel-row-group">
-      <label class="panel-option active"><input type="radio" name="flt-scope" value="all" checked> Tüm Kitaplar</label>
-      <label class="panel-option"><input type="radio" name="flt-scope" value="ot"> Eski Ahit</label>
-      <label class="panel-option"><input type="radio" name="flt-scope" value="nt"> Yeni Antlaşma</label>
+      <label class="panel-option active"><input type="radio" name="flt-scope" value="all" checked> All Books</label>
+      <label class="panel-option"><input type="radio" name="flt-scope" value="ot"> Old Testament</label>
+      <label class="panel-option"><input type="radio" name="flt-scope" value="nt"> New Testament</label>
     </div>
   </div>
   <div class="panel-section">
-    <div class="panel-section-title">Eşleşme</div>
+    <div class="panel-section-title">Match</div>
     <div class="panel-row-group">
-      <label class="panel-option active"><input type="radio" name="flt-match" value="partial" checked> Kısmi <span class="flt-match-desc">— aramayı içeren tüm resultslar</span></label>
-      <label class="panel-option"><input type="radio" name="flt-match" value="exact"> Tam Kelime <span class="flt-match-desc">— aramanın tam karşılığı</span></label>
-      <label class="panel-option"><input type="radio" name="flt-match" value="similar"> Benzer <span class="flt-match-desc">— ek almış biçimleri de dahil et</span></label>
+      <label class="panel-option active"><input type="radio" name="flt-match" value="partial" checked> Partial <span class="flt-match-desc">— all results containing the term</span></label>
+      <label class="panel-option"><input type="radio" name="flt-match" value="exact"> Exact Word <span class="flt-match-desc">— exact match only</span></label>
+      <label class="panel-option"><input type="radio" name="flt-match" value="similar"> Similar <span class="flt-match-desc">— include inflected forms</span></label>
     </div>
   </div>
   <div class="panel-section">
     <div class="panel-section-title" style="display:flex;justify-content:space-between;align-items:center;">
-      <span>Kitap</span>
+      <span>Book Filter</span>
       <button id="flt-books-clear">Clear</button>
     </div>
     <div id="flt-books-list"></div>
@@ -911,7 +911,7 @@
   <div id="tour-title-text"></div>
   <div id="tour-desc-text"></div>
   <div id="tour-actions">
-    <button id="tour-prev">← Geri</button>
+    <button id="tour-prev">← Back</button>
     <div id="tour-dots"></div>
     <button id="tour-next">İleri →</button>
   </div>

@@ -1925,7 +1925,7 @@
     <div id="header-controls">
       <button class="hdr-btn" id="btn-books" title="Select book">John <span style="opacity:.4;font-size:9px;">▾</span></button>
       <button class="hdr-nav-arrow" id="btn-prev-ch" title="Previous chapter">‹</button>
-      <button class="hdr-btn" id="btn-chapter" title="Select chapter" style="min-width:80px;text-align:center;">Ch. 1</button>
+      <button class="hdr-btn" id="btn-chapter" title="Select chapter" style="min-width:80px;text-align:center;">Chapter 1</button>
       <button class="hdr-nav-arrow" id="btn-next-ch" title="Next chapter">›</button>
       <button class="hdr-btn" id="btn-translations" title="Manage translations">Translations <span style="opacity:.4;font-size:9px;">▾</span></button>
       <button class="hdr-btn" id="btn-style" title="View options">View <span style="opacity:.4;font-size:9px;">▾</span></button>
@@ -2893,7 +2893,7 @@
     for (let i = 1; i <= total; i++) {
       const btn = document.createElement('button');
       btn.className = 'book-btn' + (i === currentChapter ? ' active' : '');
-      btn.textContent = i + '. Chapter';
+      btn.textContent = 'Chapter ' + i;
       btn.addEventListener('click', () => {
         currentChapter = i;
         document.getElementById('btn-chapter').textContent = i + '. Chapter';
@@ -2914,12 +2914,12 @@
     books.forEach(b => {
       const btn = document.createElement('button');
       btn.className = 'book-btn' + (b === currentBook ? ' active' : '');
-      btn.textContent = b;
+      btn.textContent = displayBook(b);
       btn.addEventListener('click', () => {
         currentBook = b;
         currentChapter = 1;
         document.getElementById('btn-books').childNodes[0].textContent = displayBook(b) + ' ';
-        document.getElementById('btn-chapter').textContent = 'Ch. 1';
+        document.getElementById('btn-chapter').textContent = 'Chapter 1';
         document.getElementById('books-nt').querySelectorAll('.book-btn').forEach(x => x.classList.remove('active'));
         document.getElementById('books-ot').querySelectorAll('.book-btn').forEach(x => x.classList.remove('active'));
         btn.classList.add('active');
@@ -3610,7 +3610,7 @@
   function setChapter(n) {
     const total = CHAPTER_COUNTS[currentBook] ?? 1;
     currentChapter = Math.max(1, Math.min(n, total));
-    document.getElementById('btn-chapter').textContent = currentChapter + '. Chapter';
+    document.getElementById('btn-chapter').textContent = 'Chapter ' + currentChapter;
     document.getElementById('chapters-grid').querySelectorAll('.book-btn').forEach((b, i) =>
       b.classList.toggle('active', i + 1 === currentChapter));
   }
@@ -4133,7 +4133,7 @@
 
   // ── Initial build — sync header to restored state ────────────────────
   document.getElementById('btn-books').childNodes[0].textContent = currentBook + ' ';
-  document.getElementById('btn-chapter').textContent = currentChapter + '. Chapter';
+  document.getElementById('btn-chapter').textContent = 'Chapter ' + currentChapter;
   buildChapters(currentBook);
   rebuildColumns();
 

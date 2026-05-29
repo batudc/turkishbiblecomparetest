@@ -877,7 +877,7 @@
     <div id="header-controls">
       <button class="hdr-btn" id="btn-books" title="Select book">John <span style="opacity:.4;font-size:9px;">▾</span></button>
       <button class="nav-arrow" id="btn-prev">‹</button>
-      <button class="hdr-btn" id="btn-chapter" title="Select chapter" style="min-width:80px;text-align:center;">Ch. 1</button>
+      <button class="hdr-btn" id="btn-chapter" title="Select chapter" style="min-width:80px;text-align:center;">Chapter 1</button>
       <button class="nav-arrow" id="btn-next">›</button>
       <button class="hdr-btn" id="settings-btn" title="View options">View <span style="opacity:.4;font-size:9px;">▾</span></button>
       <button class="hdr-btn" id="btn-ayarlar" title="Settings">Settings <span style="opacity:.4;font-size:9px;">▾</span></button>
@@ -1258,7 +1258,7 @@ function buildChapters(meta) {
   for (let i = 1; i <= meta.ch; i++) {
     const btn = document.createElement('button');
     btn.className = 'book-btn' + (i === chap ? ' active' : '');
-    btn.textContent = 'Ch. ' + i;
+    btn.textContent = 'Chapter ' + i;
     btn.addEventListener('click', () => {
       grid.querySelectorAll('.book-btn').forEach(x => x.classList.remove('active'));
       btn.classList.add('active');
@@ -1293,7 +1293,7 @@ function updateNavButtons() {
   const btnBooks   = document.getElementById('btn-books');
   const btnChapter = document.getElementById('btn-chapter');
   btnBooks.childNodes[0].textContent = meta.n + ' ';
-  btnChapter.textContent = 'Ch. ' + chap;
+  btnChapter.textContent = 'Chapter ' + chap;
 }
 
 // Build book grids on first open
