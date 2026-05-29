@@ -1156,24 +1156,27 @@ const SHOW_STEP  = 40;
 
 // ── Translation panel ──────────────────────────────────────────────────────
 const TRANS_CATEGORIES = [
-  { id: 'ottoman', label: 'Osmanlı Türkçesi',
-    subcats: [
-      { label: 'Tam Kutsal Kitap', ids: ['ALI1665','JDK1827','TUR1852-57','SEL1866-77','KM1886','KMEYA'] },
-      { label: 'New Testament',    ids: ['KIE1819'] },
-      { label: 'Kısmi',            ids: ['SEA1666','MEZ1669','NSH1739'] },
-    ]
-  },
-  { id: 'modern', label: 'Modern Türkçe',
-    subcats: [
-      { label: 'Tam Kutsal Kitap', ids: ['TCL02','AREMSI','HKTN','YTC','HAKK'] },
-      { label: 'New Testament',    ids: ['YYY1987','CAN','KKDEU','BGT','COS','TTT'] },
-      { label: 'Kısmi',            ids: ['TSV','OTR2019'] },
-    ]
-  },
   { id: 'english', label: 'English',
-    subcats: [ { label: null, ids: ['ESV'] } ]
+    subcats: [ { label: null, ids: ['KJV','NKJV','ESV','NIV','NLT','NET','CSB','LSB'] } ]
   },
-  { id: 'heretical', label: 'Sapkın Tercümeler',
+  { id: 'ancient', label: 'Ancient Sources',
+    subcats: [ { label: null, ids: ['BHS','LXX','VULG','NA27'] } ]
+  },
+  { id: 'modern', label: 'Modern Turkish',
+    subcats: [
+      { label: 'Full Bible',    ids: ['TCL02','AREMSI','HKTN','YTC','HAKK'] },
+      { label: 'New Testament', ids: ['YYY1987','CAN','KKDEU','BGT','COS','TTT'] },
+      { label: 'Partial',       ids: ['TSV','OTR2019'] },
+    ]
+  },
+  { id: 'ottoman', label: 'Ottoman Turkish',
+    subcats: [
+      { label: 'Full Bible',    ids: ['ALI1665','JDK1827','TUR1852-57','SEL1866-77','KM1886','KMEYA'] },
+      { label: 'New Testament', ids: ['KIE1819'] },
+      { label: 'Partial',       ids: ['SEA1666','MEZ1669','NSH1739'] },
+    ]
+  },
+  { id: 'heretical', label: 'Other Translations',
     subcats: [ { label: null, ids: ['NWT2008','NWT2025'] } ]
   },
 ];
@@ -1221,7 +1224,7 @@ function updatePanelCounts() {
     if (selAllBtn) {
       const allOn = loaded.length > 0 && loaded.every(id => activeTids.includes(id));
       selAllBtn.classList.toggle('all-on', allOn);
-      selAllBtn.textContent = allOn ? 'Bırak' : 'Tümü';
+      selAllBtn.textContent = allOn ? 'Remove' : 'All';
     }
   });
 }
@@ -1252,7 +1255,7 @@ function buildTransPanel() {
     const selAllBtn = document.createElement('button');
     selAllBtn.className = 'trans-cat-selall';
     const allOn = loaded.length > 0 && loaded.every(id => activeTids.includes(id));
-    selAllBtn.textContent = allOn ? 'Bırak' : 'Tümü';
+    selAllBtn.textContent = allOn ? 'Remove' : 'All';
     selAllBtn.classList.toggle('all-on', allOn);
     selAllBtn.addEventListener('click', e => {
       e.stopPropagation();
@@ -1712,15 +1715,15 @@ const ALL_TRANS_IDS_ORDERED = [
 function getFavorites() { try { return JSON.parse(localStorage.getItem('kkf_favs') || '[]'); } catch { return []; } }
 
 const HERETICAL_ID_SET = new Set(['NWT2008','NWT2025']);
-const ENGLISH_ID_SET   = new Set(['ESV']);
+const ENGLISH_ID_SET   = new Set(['KJV','NKJV','ESV','NIV','NLT','NET','CSB','LSB']);
 
 const SEARCH_PRESETS = [
-  { id:'favoriler', label:'⭐ Favoriler',  ids: () => getFavorites().filter(id => ALL_TRANS[id]?.loaded) },
-  { id:'modern',   label:'Modern',    ids: () => ['TCL02','YTC','TTT','HAKK','KMEYA'] },
-  { id:'tarihi',   label:'Tarihi',    ids: () => ['ALI1665','KIE1819','JDK1827','TUR1852-57','SEL1866-77','KM1886'] },
-  { id:'yeniant',  label:'Yeni Ant.', ids: () => ['KIE1819','YYY1987','CAN','KKDEU','BGT','COS','TTT'] },
-  { id:'tamkitap', label:'Tam Kitap', ids: () => ['ALI1665','JDK1827','KM1886','KMEYA','TCL02','AREMSI','HKTN','YTC','HAKK'] },
-  { id:'1940plus', label:'1940 Sonrası', ids: () => ALL_TRANS_IDS_ORDERED.filter(id => !HERETICAL_ID_SET.has(id) && !ENGLISH_ID_SET.has(id) && ALL_TRANS[id]?.year > 1940 && ALL_TRANS[id]?.loaded) },
+  { id:'favoriler', label:'⭐ Favourites', ids: () => getFavorites().filter(id => ALL_TRANS[id]?.loaded) },
+  { id:'english',   label:'English',      ids: () => ['ESV','KJV','NIV','NKJV','NLT','NET','CSB','LSB'].filter(id => ALL_TRANS[id]?.loaded) },
+  { id:'ancient',   label:'Ancient',      ids: () => ['BHS','LXX','VULG','NA27'].filter(id => ALL_TRANS[id]?.loaded) },
+  { id:'modern',    label:'Modern TR',    ids: () => ['TCL02','YTC','TTT','HAKK','KMEYA'] },
+  { id:'tarihi',    label:'Historical TR',ids: () => ['ALI1665','KIE1819','JDK1827','TUR1852-57','SEL1866-77','KM1886'] },
+  { id:'tamkitap',  label:'Full Bible TR', ids: () => ['ALI1665','JDK1827','KM1886','KMEYA','TCL02','AREMSI','HKTN','YTC','HAKK'] },
 ];
 
 function syncPresetHighlights() {
