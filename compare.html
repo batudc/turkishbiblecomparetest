@@ -2352,34 +2352,7 @@
   function getFavorites()     { try { return JSON.parse(_lsGet('kkf_favs') || '[]'); } catch { return []; } }
   function saveFavorites(ids) { _lsSet('kkf_favs', JSON.stringify(ids)); }
 
-  // ── App state ─────────────────────────────────────────────────────────
-  // Translate stored book name to English if it came from the Turkish page
-  let currentBook = (function() {
-    var b = _lsGet('kkf_book') || 'John';
-    return BOOK_DISPLAY_EN[b] || b; // convert Turkish→English if needed
-  })();
-  let currentChapter = parseInt(_lsGet('kkf_chap') || '1', 10) || 1;
-  let layoutMode     = _lsGet('kkf_layout') || 'cols'; // 'cols' | 'rows' | 'grid'
-  // User-defined column order — array of translation IDs; null = use default TRANS_ORDER
-  let colOrder = (() => { try { return JSON.parse(_lsGet('kkf_col_order') || 'null'); } catch { return null; } })();
-  // Default translation for cross-reference navigation
-  let defaultTrans = _lsGet('kkf_default_trans') || null;
-
-  // Init translations: saved state → favorites → default
-  const _initTrans = (() => {
-    try {
-      const t = JSON.parse(_lsGet('kkf_trans') || 'null');
-      if (Array.isArray(t) && t.length > 0) return t;
-    } catch {}
-    const favs = getFavorites();
-    return favs.length > 0 ? favs : ['ESV', 'KJV'];
-  })();
-  const selectedTranslations = new Set(_initTrans);
-  // Validate against known IDs (in case saved data has stale entries)
-  selectedTranslations.forEach(id => { if (!ALL_TRANS[id]) selectedTranslations.delete(id); });
-  if (selectedTranslations.size === 0) { selectedTranslations.add('ESV'); selectedTranslations.add('KJV'); }
-
-  // English display names for book selection UI (internal keys stay Turkish)
+  // English display names for book selection UI — defined FIRST so state init can use it
   const BOOK_DISPLAY_EN = {
     'Yaratılış':'Genesis',"Mısır'dan Çıkış":'Exodus','Levililer':'Leviticus',
     'Çölde Sayım':'Numbers',"Yasa'nın Tekrarı":'Deuteronomy','Yeşu':'Joshua',
@@ -2404,6 +2377,31 @@
     '2. Yuhanna':'2 John','3. Yuhanna':'3 John','Yahuda':'Jude','Vahiy':'Revelation'
   };
   function displayBook(b) { return BOOK_DISPLAY_EN[b] || b; }
+
+  // ── App state ─────────────────────────────────────────────────────────
+  // Translate stored book name to English if it came from the Turkish page
+  let currentBook = (function() {
+    var b = _lsGet('kkf_book') || 'John';
+    return BOOK_DISPLAY_EN[b] || b;
+  })();
+  let currentChapter = parseInt(_lsGet('kkf_chap') || '1', 10) || 1;
+  let layoutMode     = _lsGet('kkf_layout') || 'cols';
+  let colOrder = (() => { try { return JSON.parse(_lsGet('kkf_col_order') || 'null'); } catch { return null; } })();
+  let defaultTrans = _lsGet('kkf_default_trans') || null;
+
+  // Init translations: saved state → favorites → default
+  const _initTrans = (() => {
+    try {
+      const t = JSON.parse(_lsGet('kkf_trans') || 'null');
+      if (Array.isArray(t) && t.length > 0) return t;
+    } catch {}
+    const favs = getFavorites();
+    return favs.length > 0 ? favs : ['ESV', 'KJV'];
+  })();
+  const selectedTranslations = new Set(_initTrans);
+  selectedTranslations.forEach(id => { if (!ALL_TRANS[id]) selectedTranslations.delete(id); });
+  if (selectedTranslations.size === 0) { selectedTranslations.add('ESV'); selectedTranslations.add('KJV'); }
+
   if (!BOOK_CODES[currentBook]) currentBook = 'John';
 
   // Chapter data cache — key: `${tid}|${bookCode}|${chap}` → verse array
