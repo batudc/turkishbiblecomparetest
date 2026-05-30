@@ -4709,14 +4709,32 @@
       const sourceEl = document.getElementById('commentary-source');
       if (data.source) sourceEl.textContent = data.source;
 
-      // Book Overview
+      // Book Overview — supports both plain string and structured object
       const bookBody = document.getElementById('comm-sect-book-body');
       if (data.book_intro) {
         bookBody.innerHTML = '';
-        const p = document.createElement('p');
-        p.className = 'comm-text'; p.style.lineHeight = '1.7';
-        p.textContent = data.book_intro;
-        bookBody.appendChild(p);
+        if (typeof data.book_intro === 'string') {
+          const p = document.createElement('p');
+          p.className = 'comm-text'; p.style.lineHeight = '1.7';
+          p.textContent = data.book_intro;
+          bookBody.appendChild(p);
+        } else {
+          // Object: { "Section Title": "text...", ... }
+          Object.entries(data.book_intro).forEach(([title, text]) => {
+            if (!text) return;
+            const section = document.createElement('div');
+            section.style.cssText = 'margin-bottom:12px;padding-bottom:12px;border-bottom:1px solid rgba(255,255,255,0.05)';
+            const h = document.createElement('div');
+            h.style.cssText = 'font-size:9px;font-weight:700;letter-spacing:0.12em;text-transform:uppercase;color:rgba(184,146,42,0.7);font-family:Jost,sans-serif;margin-bottom:5px';
+            h.textContent = title;
+            const p = document.createElement('p');
+            p.className = 'comm-text'; p.style.lineHeight = '1.7'; p.style.margin = '0';
+            p.textContent = text;
+            section.appendChild(h);
+            section.appendChild(p);
+            bookBody.appendChild(section);
+          });
+        }
       }
 
       // Chapter Overview
