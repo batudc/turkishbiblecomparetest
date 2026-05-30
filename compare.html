@@ -350,6 +350,44 @@
       text-decoration-style: solid;
       text-decoration-color: var(--gold);
     }
+    /* ── Commentary section accordion ── */
+    .comm-section { margin-bottom: 6px; border: 1px solid rgba(184,146,42,0.12); border-radius: 4px; overflow: hidden; }
+    .comm-section-hdr {
+      display: flex; align-items: center; gap: 6px;
+      padding: 7px 10px; cursor: pointer;
+      background: rgba(184,146,42,0.06);
+      user-select: none;
+    }
+    .comm-section-hdr:hover { background: rgba(184,146,42,0.11); }
+    .comm-section-arrow {
+      font-size: 8px; color: rgba(184,146,42,0.5);
+      transition: transform 0.2s; flex-shrink: 0;
+    }
+    .comm-section.open .comm-section-arrow { transform: rotate(90deg); }
+    .comm-section-label {
+      font-size: 8.5px; font-weight: 700; letter-spacing: 0.18em;
+      text-transform: uppercase; color: rgba(184,146,42,0.65);
+      font-family: 'Jost', sans-serif;
+    }
+    .comm-section-body { display: none; padding: 10px 12px; }
+    .comm-section.open .comm-section-body { display: block; }
+    .comm-passage {
+      margin-bottom: 12px; padding-bottom: 12px;
+      border-bottom: 1px solid rgba(255,255,255,0.05);
+    }
+    .comm-passage:last-child { border-bottom: none; margin-bottom: 0; }
+    .comm-passage-ref {
+      font-size: 9px; font-weight: 700; letter-spacing: 0.08em;
+      color: var(--gold-light); font-family: 'Jost', sans-serif; margin-bottom: 2px;
+    }
+    .comm-passage-title {
+      font-size: 11px; font-weight: 600; font-style: italic;
+      color: rgba(247,241,232,0.85); margin-bottom: 5px;
+    }
+    .comm-source-tag {
+      font-size: 9px; color: rgba(247,241,232,0.25); font-style: italic;
+      font-family: 'Jost', sans-serif; margin-bottom: 10px;
+    }
     #xref-tooltip {
       position: fixed;
       z-index: 700;
@@ -1977,8 +2015,45 @@
           <div id="commentary-body">
             <div id="commentary-pre-space"></div>
             <div id="commentary-loading" style="display:none">Loading…</div>
-            <div id="commentary-intro"></div>
-            <div id="commentary-notes"></div>
+
+            <!-- New 4-section layout (EN commentary) -->
+            <div id="comm-sections" style="display:none">
+              <div id="comm-sect-book" class="comm-section">
+                <div class="comm-section-hdr" onclick="this.closest('.comm-section').classList.toggle('open')">
+                  <span class="comm-section-arrow">▶</span>
+                  <span class="comm-section-label">Book Overview</span>
+                </div>
+                <div class="comm-section-body" id="comm-sect-book-body"></div>
+              </div>
+              <div id="comm-sect-chapter" class="comm-section open">
+                <div class="comm-section-hdr" onclick="this.closest('.comm-section').classList.toggle('open')">
+                  <span class="comm-section-arrow">▶</span>
+                  <span class="comm-section-label">Chapter Overview</span>
+                </div>
+                <div class="comm-section-body" id="comm-sect-chapter-body"></div>
+              </div>
+              <div id="comm-sect-passages" class="comm-section open">
+                <div class="comm-section-hdr" onclick="this.closest('.comm-section').classList.toggle('open')">
+                  <span class="comm-section-arrow">▶</span>
+                  <span class="comm-section-label">Passage Notes</span>
+                </div>
+                <div class="comm-section-body" id="comm-sect-passages-body"></div>
+              </div>
+              <div id="comm-sect-verses" class="comm-section open">
+                <div class="comm-section-hdr" onclick="this.closest('.comm-section').classList.toggle('open')">
+                  <span class="comm-section-arrow">▶</span>
+                  <span class="comm-section-label">Verse Notes</span>
+                </div>
+                <div class="comm-section-body" id="comm-sect-verses-body"></div>
+              </div>
+            </div>
+
+            <!-- Legacy layout (TR commentary) -->
+            <div id="comm-legacy">
+              <div id="commentary-intro"></div>
+              <div id="commentary-notes"></div>
+            </div>
+
             <div id="commentary-empty" style="display:none">No commentary found for this chapter.</div>
             <div id="commentary-post-space"></div>
           </div>
@@ -4374,18 +4449,24 @@
   async function loadCommentary(bookName, chap) {
     const bookCode = BOOK_CODES[bookName];
     if (!bookCode) return;
-    const key = `${bookCode}|${chap}`;
-    const introEl = document.getElementById('commentary-intro');
-    const notesEl = document.getElementById('commentary-notes');
+    const lang = commLang || 'en';
+    const key = `${lang}|${bookCode}|${chap}`;
     const emptyEl = document.getElementById('commentary-empty');
     const loadEl  = document.getElementById('commentary-loading');
     const titleEl = document.getElementById('commentary-title');
+    const sourceEl = document.getElementById('commentary-source');
 
-    titleEl.textContent = `${bookName} ${chap} — Commentary`;
-    introEl.textContent  = '';
-    notesEl.innerHTML   = '';
+    titleEl.textContent = `${bookName} ${chap}`;
     emptyEl.style.display = 'none';
     document.getElementById('commentary-body').scrollTop = 0;
+
+    // clear both layouts
+    document.getElementById('commentary-intro').textContent = '';
+    document.getElementById('commentary-notes').innerHTML = '';
+    document.getElementById('comm-sect-book-body').innerHTML = '';
+    document.getElementById('comm-sect-chapter-body').innerHTML = '';
+    document.getElementById('comm-sect-passages-body').innerHTML = '';
+    document.getElementById('comm-sect-verses-body').innerHTML = '';
 
     if (_commCache[key]) {
       renderCommentary(_commCache[key]);
@@ -4393,8 +4474,9 @@
     }
 
     loadEl.style.display = 'block';
+    const folder = lang === 'en' ? 'commentary-en' : 'commentary';
     try {
-      const res = await fetch(`data/commentary/${bookCode}/${chap}.json`);
+      const res = await fetch(`data/${folder}/${bookCode}/${chap}.json`);
       if (!res.ok) throw new Error('not found');
       const data = await res.json();
       _commCache[key] = data;
@@ -4576,51 +4658,116 @@
       clearTimeout(_timer);
     }
 
-    const notes = document.getElementById('commentary-notes');
-    notes.addEventListener('mouseover', e => {
-      const xref = e.target.closest('.xref-link');
-      if (!xref || xref === activeEl) return;
-      clearTimeout(_timer);
-      activeEl = xref;
-      _timer = setTimeout(() => show(xref), 100);
-    });
-    notes.addEventListener('mouseout', e => {
-      if (!e.target.closest('.xref-link') || !e.relatedTarget?.closest('.xref-link')) hide();
+    // attach xref tooltip to both legacy notes and new verse notes section
+    ['commentary-notes', 'comm-sect-verses-body'].forEach(id => {
+      const el = document.getElementById(id);
+      if (!el) return;
+      el.addEventListener('mouseover', e => {
+        const xref = e.target.closest('.xref-link');
+        if (!xref || xref === activeEl) return;
+        clearTimeout(_timer);
+        activeEl = xref;
+        _timer = setTimeout(() => show(xref), 100);
+      });
+      el.addEventListener('mouseout', e => {
+        if (!e.target.closest('.xref-link') || !e.relatedTarget?.closest('.xref-link')) hide();
+      });
     });
   })();
 
+  function _buildNoteEl(note) {
+    const div = document.createElement('div');
+    div.className = 'comm-note';
+    const vn = _parseNoteVerse(note.ref);
+    if (vn !== null) div.dataset.verse = vn;
+    const ref = document.createElement('div');
+    ref.className = 'comm-ref';
+    ref.textContent = note.ref.includes(':') ? note.ref.split(':')[1].trim() : note.ref;
+    const text = document.createElement('div');
+    text.className = 'comm-text';
+    text.innerHTML = linkifyXrefs(note.text
+      .replace(/([A-ZÇĞİÖŞÜa-zçğışöşü][^\.\!\?]{2,30}?) (Bkz\.|bkz\.|Krş\.|krş\.)/g, '<em>$1</em> $2')
+      .replace(/\bBkz\. /g, '<span style="color:rgba(184,146,42,0.7)">Bkz. </span>')
+      .replace(/\bbkz\. /g, '<span style="color:rgba(184,146,42,0.7)">bkz. </span>'));
+    div.appendChild(ref);
+    div.appendChild(text);
+    return div;
+  }
+
   function renderCommentary(data) {
-    const introEl = document.getElementById('commentary-intro');
-    const notesEl = document.getElementById('commentary-notes');
-    const emptyEl = document.getElementById('commentary-empty');
+    const emptyEl  = document.getElementById('commentary-empty');
+    const sections = document.getElementById('comm-sections');
+    const legacy   = document.getElementById('comm-legacy');
+    const isNew    = !!(data.book_intro || data.chapter_intro || data.passages);
 
-    introEl.textContent = data.intro || '';
-    notesEl.innerHTML = '';
+    // Show the right layout
+    sections.style.display = isNew    ? '' : 'none';
+    legacy.style.display   = isNew    ? 'none' : '';
 
-    if (!data.notes || data.notes.length === 0) {
-      emptyEl.style.display = 'block';
-      return;
+    if (isNew) {
+      // ── New 4-section format ──────────────────────────────────────────
+      const sourceEl = document.getElementById('commentary-source');
+      if (data.source) sourceEl.textContent = data.source;
+
+      // Book Overview
+      const bookBody = document.getElementById('comm-sect-book-body');
+      if (data.book_intro) {
+        bookBody.innerHTML = '';
+        const p = document.createElement('p');
+        p.className = 'comm-text'; p.style.lineHeight = '1.7';
+        p.textContent = data.book_intro;
+        bookBody.appendChild(p);
+      }
+
+      // Chapter Overview
+      const chapBody = document.getElementById('comm-sect-chapter-body');
+      if (data.chapter_intro) {
+        chapBody.innerHTML = '';
+        const p = document.createElement('p');
+        p.className = 'comm-text'; p.style.lineHeight = '1.7';
+        p.textContent = data.chapter_intro;
+        chapBody.appendChild(p);
+      }
+
+      // Passage Notes
+      const passBody = document.getElementById('comm-sect-passages-body');
+      passBody.innerHTML = '';
+      (data.passages || []).forEach(p => {
+        const wrap = document.createElement('div');
+        wrap.className = 'comm-passage';
+        const refEl = document.createElement('div');
+        refEl.className = 'comm-passage-ref';
+        refEl.textContent = p.ref;
+        const titleEl = document.createElement('div');
+        titleEl.className = 'comm-passage-title';
+        titleEl.textContent = p.title;
+        const textEl = document.createElement('div');
+        textEl.className = 'comm-text'; textEl.style.lineHeight = '1.7';
+        textEl.textContent = p.text;
+        wrap.appendChild(refEl);
+        wrap.appendChild(titleEl);
+        wrap.appendChild(textEl);
+        passBody.appendChild(wrap);
+      });
+
+      // Verse Notes
+      const versBody = document.getElementById('comm-sect-verses-body');
+      versBody.innerHTML = '';
+      (data.notes || []).forEach(note => versBody.appendChild(_buildNoteEl(note)));
+
+      const hasContent = data.book_intro || data.chapter_intro ||
+                         (data.passages?.length) || (data.notes?.length);
+      if (!hasContent) emptyEl.style.display = 'block';
+
+    } else {
+      // ── Legacy format (TR) ────────────────────────────────────────────
+      const introEl = document.getElementById('commentary-intro');
+      const notesEl = document.getElementById('commentary-notes');
+      introEl.textContent = data.intro || '';
+      notesEl.innerHTML = '';
+      if (!data.notes || data.notes.length === 0) { emptyEl.style.display = 'block'; return; }
+      data.notes.forEach(note => notesEl.appendChild(_buildNoteEl(note)));
     }
-
-    data.notes.forEach(note => {
-      const div = document.createElement('div');
-      div.className = 'comm-note';
-      const vn = _parseNoteVerse(note.ref);
-      if (vn !== null) div.dataset.verse = vn;
-      const ref = document.createElement('div');
-      ref.className = 'comm-ref';
-      ref.textContent = note.ref.includes(':') ? note.ref.split(':')[1].trim() : note.ref;
-      const text = document.createElement('div');
-      text.className = 'comm-text';
-      // Italicize terms that appear in italics on source site (quoted with apostrophes)
-      text.innerHTML = linkifyXrefs(note.text
-        .replace(/([A-ZÇĞİÖŞÜa-zçğışöşü][^\.\!\?]{2,30}?) (Bkz\.|bkz\.|Krş\.|krş\.)/g, '<em>$1</em> $2')
-        .replace(/\bBkz\. /g, '<span style="color:rgba(184,146,42,0.7)">Bkz. </span>')
-        .replace(/\bbkz\. /g, '<span style="color:rgba(184,146,42,0.7)">bkz. </span>'));
-      div.appendChild(ref);
-      div.appendChild(text);
-      notesEl.appendChild(div);
-    });
 
     // Size the pre-space, then sync commentary to current column position.
     updateCommentaryPreSpace();

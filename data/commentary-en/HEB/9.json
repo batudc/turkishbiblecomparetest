@@ -1,0 +1,44 @@
+{
+  "source": "ESV Study Bible (Crossway) — Placeholder for testing only",
+  "book_intro": "The Epistle to the Hebrews presents Jesus Christ as the fulfillment and surpassing of everything the Old Testament pointed toward — a greater high priest, a better covenant, and the perfect sacrifice. Written to Jewish Christians facing pressure to return to Judaism, the letter argues from Scripture that Christ is superior to angels, Moses, the Levitical priesthood, and the old covenant itself. The author's identity is unknown; the sophisticated Greek and elaborate use of Levitical typology place it among the New Testament's most theologically rich documents.",
+  "chapter_intro": "Chapter 9 offers the most detailed treatment of the old covenant's worship in the letter, describing the tabernacle's two chambers and their furnishings, the annual Day of Atonement ritual, and the theological significance of blood in covenant-making and purification. Against this backdrop, Christ's self-offering is shown to be definitively superior: he entered not a hand-made sanctuary but the very presence of God, not with the blood of animals but with his own blood, obtaining not temporary but eternal redemption.",
+  "passages": [
+    {
+      "ref": "9:1–10",
+      "title": "The Earthly Tabernacle and Its Limitations",
+      "text": "The tabernacle is described not to glorify it but to highlight what it could not accomplish. The outer court (the Holy Place) could be entered regularly; the inner court (the Most Holy Place) only once a year, only by the high priest, only with blood. This restriction was itself a symbolic statement: 'the way into the holy places is not yet opened' (v.8). The earthly system was always a placeholder."
+    },
+    {
+      "ref": "9:11–14",
+      "title": "Christ's Superior Sacrifice",
+      "text": "In contrast to the annual, repeated offerings of the old order, Christ 'through his own blood … secured an eternal redemption.' The argument from lesser to greater: if the blood of bulls and goats could cleanse ceremonially, how much more will the blood of Christ — who offered himself through the eternal Spirit — cleanse the conscience from dead works to serve the living God?"
+    },
+    {
+      "ref": "9:15–28",
+      "title": "The New Covenant Ratified by Death",
+      "text": "A covenant (diathēkē) can also mean 'will' or 'testament,' and this double meaning is exploited: a will only comes into force at death. Christ's death both ratifies the new covenant and releases its inheritance. He appeared 'once for all at the end of the ages to put away sin by the sacrifice of himself' — in contrast to the high priest who entered year after year. Christ will appear a second time, not to deal with sin again but to bring salvation to those waiting for him."
+    }
+  ],
+  "notes": [
+    {
+      "ref": "9:5",
+      "text": "Of these things we cannot now speak in detail — A deliberate limitation: the author's goal is not a comprehensive typological commentary but a focused argument about Christ's priesthood."
+    },
+    {
+      "ref": "9:9",
+      "text": "symbolic for the present age — The entire tabernacle system was a parable in material form, pointing beyond itself to the heavenly realities."
+    },
+    {
+      "ref": "9:14",
+      "text": "through the eternal Spirit — The Spirit was the divine power by which Christ, as the sinless human high priest, offered himself. This is the Spirit's role in the atonement."
+    },
+    {
+      "ref": "9:22",
+      "text": "without the shedding of blood there is no forgiveness — A summary principle of OT sacrifice. Life is in the blood (Lev 17:11); substitutionary death is the means of covering sin."
+    },
+    {
+      "ref": "9:27–28",
+      "text": "Just as it is appointed for man to die once … so Christ — The typological correspondence: one human death leads to judgment; Christ's one death removes sin and leads to salvation at his return."
+    }
+  ]
+}

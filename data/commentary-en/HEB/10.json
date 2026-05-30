@@ -1,0 +1,44 @@
+{
+  "source": "ESV Study Bible (Crossway) — Placeholder for testing only",
+  "book_intro": "The Epistle to the Hebrews presents Jesus Christ as the fulfillment and surpassing of everything the Old Testament pointed toward — a greater high priest, a better covenant, and the perfect sacrifice. Written to Jewish Christians facing pressure to return to Judaism, the letter argues from Scripture that Christ is superior to angels, Moses, the Levitical priesthood, and the old covenant itself. The author's identity is unknown; the sophisticated Greek and elaborate use of Levitical typology place it among the New Testament's most theologically rich documents.",
+  "chapter_intro": "Chapter 10 brings the long argument about priesthood and sacrifice to its conclusion and then applies it with urgency. The old covenant sacrifices, repeated endlessly, could never perfect worshipers — their very repetition proved their insufficiency. Christ's single, self-offered sacrifice has achieved what they could not: the permanent, full removal of sin. The second half pivots to three sharp exhortations (hold fast, stir one another up, do not forsake assembly) and a third major warning against willful, deliberate sin after receiving the knowledge of the truth.",
+  "passages": [
+    {
+      "ref": "10:1–18",
+      "title": "One Offering, Perfected Forever",
+      "text": "The argument from Ps 40:6–8 ('sacrifices and offerings you have not desired … I have come to do your will') is decisive: God himself, within the old covenant scriptures, declared that animal sacrifice was never his ultimate desire. The Son's coming to do the Father's will replaces and fulfills the whole sacrificial order. The proof that the work is complete: Christ sat down. When the Spirit confirms through Jer 31 that sins are forgiven, the author concludes: 'where there is forgiveness of these, there is no longer any offering for sin' (v.18)."
+    },
+    {
+      "ref": "10:19–25",
+      "title": "Three Exhortations",
+      "text": "The doctrinal argument now funds three pastoral imperatives: (1) draw near in full assurance of faith — the way into God's presence is open through Christ's flesh; (2) hold fast the confession without wavering — God is faithful to his promises; (3) stir up one another to love and good works, especially through meeting together. The assembly is the primary context in which perseverance is sustained and apostasy is resisted."
+    },
+    {
+      "ref": "10:26–31",
+      "title": "Third Warning: Willful Sin",
+      "text": "The third major warning is the most severe: if we go on sinning deliberately after receiving the knowledge of the truth, there no longer remains a sacrifice for sins — only fearful expectation of judgment. The logic is not about ordinary post-conversion sin (which the letter elsewhere addresses) but about the deliberate, settled rejection of Christ, the one sacrifice. To do so is to 'trample the Son of God underfoot' and 'outrage the Spirit of grace.'"
+    }
+  ],
+  "notes": [
+    {
+      "ref": "10:1",
+      "text": "the law has but a shadow of the good things to come — Restatement of the shadow-reality contrast from ch. 8. Shadows are real, but they are not the substance."
+    },
+    {
+      "ref": "10:10",
+      "text": "once for all — hapax again (cf. 7:27; 9:12). The adverb is the theological hinge: Christ's sacrifice will not and need not be repeated."
+    },
+    {
+      "ref": "10:14",
+      "text": "perfected for all time those who are being sanctified — Justification (perfected) and sanctification (being sanctified) are both grounded in the single sacrifice."
+    },
+    {
+      "ref": "10:25",
+      "text": "not neglecting to meet together — The gathering of the ekklēsia is not optional; it is the primary environment for mutual encouragement and accountability in the faith."
+    },
+    {
+      "ref": "10:31",
+      "text": "It is a fearful thing to fall into the hands of the living God — The God who has acted in grace is the same God before whom all apostates must finally stand."
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "source": "ESV Study Bible (Crossway) — Placeholder for testing only",
+  "book_intro": "The Epistle to the Hebrews presents Jesus Christ as the fulfillment and surpassing of everything the Old Testament pointed toward — a greater high priest, a better covenant, and the perfect sacrifice. Written to Jewish Christians facing pressure to return to Judaism, the letter argues from Scripture that Christ is superior to angels, Moses, the Levitical priesthood, and the old covenant itself. The author's identity is unknown; the sophisticated Greek and elaborate use of Levitical typology place it among the New Testament's most theologically rich documents.",
+  "chapter_intro": "Chapter 8 draws the thesis statement of the entire letter ('the point in what we are saying is this') and grounds it in two ways: Christ ministers in the true, heavenly tabernacle, of which the earthly was a copy and shadow; and he mediates a better covenant, enacted on better promises. The chapter closes with a sweeping quotation of Jer 31:31–34 — the longest OT quotation in the NT — announcing that the new covenant renders the old obsolete.",
+  "passages": [
+    {
+      "ref": "8:1–6",
+      "title": "The Heavenly Sanctuary and Better Ministry",
+      "text": "The 'point' (kephalion) is a summary and climax: we have such a high priest, seated at the right hand of the Majesty on high, a minister in the true tent. The earthly tabernacle was constructed according to the pattern shown to Moses on Sinai (Exod 25:40), which the author reads as evidence that it was always a copy of the heavenly reality. Christ ministers in the reality; Levitical priests served only in the shadow."
+    },
+    {
+      "ref": "8:7–13",
+      "title": "The New Covenant Supersedes the Old",
+      "text": "Jer 31:31–34 is cited in full, and its logic is made explicit: God promised a 'new' covenant, which implies the first was inadequate. The new covenant is characterized by internalized law, an unbroken relationship ('I will be their God'), universal knowledge of God, and full, final forgiveness. By citing Jeremiah, the author shows that the old covenant's obsolescence was anticipated within the old covenant itself."
+    }
+  ],
+  "notes": [
+    {
+      "ref": "8:1",
+      "text": "seated at the right hand of the throne — The priestly work is complete enough for the high priest to sit. In the earthly tabernacle, there was no chair in the holy of holies — the work was never done."
+    },
+    {
+      "ref": "8:5",
+      "text": "copy and shadow — The earthly system was pedagogical, not ultimate. A shadow points to the substance but is not the substance itself."
+    },
+    {
+      "ref": "8:6",
+      "text": "mediator of a better covenant — The word 'mediator' (mesitēs) in Greek law referred to an arbitrator who stood between parties to a contract. Christ is the guarantee that the covenant terms will be kept — on both sides."
+    },
+    {
+      "ref": "8:12",
+      "text": "I will remember their sins no more — This is the capstone promise of the new covenant. God's 'forgetting' is not cognitive failure but a judicial act: the sins are not counted, not held against the forgiven."
+    },
+    {
+      "ref": "8:13",
+      "text": "what is becoming obsolete and growing old is ready to vanish away — The present tenses may suggest the letter was written while the temple was still standing, but its end was imminent."
+    }
+  ]
+}

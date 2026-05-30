@@ -1,0 +1,39 @@
+{
+  "source": "ESV Study Bible (Crossway) — Placeholder for testing only",
+  "book_intro": "The Epistle to the Hebrews presents Jesus Christ as the fulfillment and surpassing of everything the Old Testament pointed toward — a greater high priest, a better covenant, and the perfect sacrifice. Written to Jewish Christians facing pressure to return to Judaism, the letter argues from Scripture that Christ is superior to angels, Moses, the Levitical priesthood, and the old covenant itself. The author's identity is unknown; the sophisticated Greek and elaborate use of Levitical typology place it among the New Testament's most theologically rich documents.",
+  "chapter_intro": "The letter opens with a majestic declaration: God, who spoke through the prophets, has now spoken his final and definitive word through the Son. The chapter establishes Christ's supremacy over angels through a chain of seven Old Testament citations, showing that the Son holds a title, a throne, and a role no angel could ever claim.",
+  "passages": [
+    {
+      "ref": "1:1–3",
+      "title": "God's Final Word Through the Son",
+      "text": "The opening three verses are among the most compressed and exalted in all of Scripture. The Son is described as heir of all things, agent of creation, radiance of God's glory, and exact imprint of his nature — a cluster of terms that assert both his divine identity and his unique mediating role. The phrase 'upholds the universe by the word of his power' echoes Stoic cosmological language but redirects it: the sustainer of all things is not an impersonal logos but the Son who also accomplished purification for sins."
+    },
+    {
+      "ref": "1:4–14",
+      "title": "Superior to the Angels",
+      "text": "Seven Old Testament quotations — drawn from Psalms, 2 Samuel, and Deuteronomy — demonstrate that no angel has ever been addressed as Son, invited to sit at God's right hand, or given a throne that lasts forever. Angels worship and serve; the Son reigns. The contrast sets the stage for the first warning: if the word spoken through angels (the Mosaic law, cf. Gal 3:19) demanded obedience, how much more does the word spoken through the Son?"
+    }
+  ],
+  "notes": [
+    {
+      "ref": "1:1",
+      "text": "Long ago … many times and in many ways — The varied modes of OT revelation (visions, dreams, types, ceremonies) are now superseded by a single, definitive mode: the Son himself."
+    },
+    {
+      "ref": "1:2",
+      "text": "these last days — The eschatological era inaugurated by Christ's coming. The Son is the heir of all things, a reference to Ps 2:8 ('I will give you the nations as your inheritance')."
+    },
+    {
+      "ref": "1:3",
+      "text": "exact imprint of his nature — The Greek charakter (stamp, impression) implies a perfect representation, not a copy. The Son shows us exactly what God is like."
+    },
+    {
+      "ref": "1:5",
+      "text": "You are my Son — Ps 2:7, cited here as applying to the exalted, enthroned Christ, not merely his eternal generation. The Father's declaration marks the Son's inauguration as messianic King."
+    },
+    {
+      "ref": "1:13",
+      "text": "Sit at my right hand — Ps 110:1, the most-quoted OT text in the NT. The posture of sitting — as opposed to angels who stand — signals completed, authoritative rule."
+    }
+  ]
+}

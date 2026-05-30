@@ -1,0 +1,39 @@
+{
+  "source": "ESV Study Bible (Crossway) — Placeholder for testing only",
+  "book_intro": "The Epistle to the Hebrews presents Jesus Christ as the fulfillment and surpassing of everything the Old Testament pointed toward — a greater high priest, a better covenant, and the perfect sacrifice. Written to Jewish Christians facing pressure to return to Judaism, the letter argues from Scripture that Christ is superior to angels, Moses, the Levitical priesthood, and the old covenant itself. The author's identity is unknown; the sophisticated Greek and elaborate use of Levitical typology place it among the New Testament's most theologically rich documents.",
+  "chapter_intro": "Chapter 5 defines the qualifications of a high priest — human solidarity with sinners, and divine appointment — and shows that Jesus meets both. He was 'in every respect tempted as we are,' and he was appointed by the Father with the oath of Ps 110:4: 'You are a priest forever after the order of Melchizedek.' The chapter closes with the sharpest rebuke in the letter: the readers, who by now ought to be teachers, have become dull of hearing and still need milk rather than solid food.",
+  "passages": [
+    {
+      "ref": "5:1–10",
+      "title": "The Qualifications of the Son as High Priest",
+      "text": "Every high priest is taken from humanity and appointed for humanity — both criteria are met in the Son who became flesh (ch. 2) and was appointed by the Father (Ps 2:7; 110:4). The vivid language of 'prayers and supplications, with loud cries and tears' in v.7 draws the reader into Gethsemane and Golgotha: the Son's priestly obedience was wrought through the most agonizing human experience."
+    },
+    {
+      "ref": "5:11–14",
+      "title": "Warning: Spiritual Immaturity",
+      "text": "The transition from Christology to warning is abrupt — and intentional. The exposition of Melchizedek is 'hard to explain,' but the reason is not the material itself; it is the readers' dull spiritual hearing. Those who should be teachers need someone to teach them the ABCs again. The metaphor of milk vs. solid food contrasts immature faith with the trained discernment that comes through practice."
+    }
+  ],
+  "notes": [
+    {
+      "ref": "5:2",
+      "text": "deal gently — The Greek metriopathein means to moderate one's emotions: not indifferent to sin, but not crushingly harsh either. An angry or contemptuous high priest could not represent sinners before God."
+    },
+    {
+      "ref": "5:5–6",
+      "text": "Two OT citations — Ps 2:7 (Son) and Ps 110:4 (priest) — establish that Christ holds both royal and priestly offices, each by divine appointment, not human ambition."
+    },
+    {
+      "ref": "5:7",
+      "text": "he was heard because of his reverence — The Father did not spare Christ from death (Phil 2:8), but he heard the prayer of submission and raised him. Reverence (eulabeia) denotes godly fear, not dread."
+    },
+    {
+      "ref": "5:9",
+      "text": "made perfect — Not moral improvement (he was sinless), but completion of the qualifications needed for priesthood: he passed through suffering, death, and resurrection."
+    },
+    {
+      "ref": "5:12",
+      "text": "though by this time you ought to be teachers — Time in the faith does not automatically produce maturity. Spiritual growth requires ongoing engagement with the word."
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "source": "ESV Study Bible (Crossway) — Placeholder for testing only",
+  "book_intro": "The Epistle to the Hebrews presents Jesus Christ as the fulfillment and surpassing of everything the Old Testament pointed toward — a greater high priest, a better covenant, and the perfect sacrifice. Written to Jewish Christians facing pressure to return to Judaism, the letter argues from Scripture that Christ is superior to angels, Moses, the Levitical priesthood, and the old covenant itself. The author's identity is unknown; the sophisticated Greek and elaborate use of Levitical typology place it among the New Testament's most theologically rich documents.",
+  "chapter_intro": "The closing chapter shifts from sustained theological argument to practical exhortation. Love for strangers and those in prison, the sanctity of marriage, contentment and freedom from the love of money, respect for leaders, and the unchanging Christ who is 'the same yesterday and today and forever' — all of these are grounded in who Jesus is and what he has done. The final paragraph echoes the priestly and sacrificial themes of the letter: we have an altar, we go outside the camp to Jesus bearing his reproach, and we offer continual sacrifices of praise.",
+  "passages": [
+    {
+      "ref": "13:1–6",
+      "title": "Brotherly Love and Contentment",
+      "text": "The first six verses cover three pairs: (1) love for fellow believers and hospitality to strangers — reinforced by the example of Abraham (Gen 18); (2) solidarity with those imprisoned for the faith; (3) marriage honored by fidelity, and money handled with contentment grounded in God's promise never to leave or forsake (Deut 31:6). Contentment is not a personality type; it is the practical outworking of trust in God's provision."
+    },
+    {
+      "ref": "13:7–17",
+      "title": "Jesus, the Same Yesterday, Today, and Forever",
+      "text": "The readers are to remember their former leaders (v.7) and submit to current ones (v.17), but the fixed point between those two calls is Christ himself, who does not change. The warning against 'diverse and strange teachings' (v.9) likely refers to Jewish food regulations that some were using to supplement or replace confidence in Christ's once-for-all sacrifice. We have an altar, not a table of offerings: the Lord's cross, where Jesus suffered outside the gate."
+    },
+    {
+      "ref": "13:20–21",
+      "title": "The Benediction",
+      "text": "The closing benediction is theologically rich: it addresses God as the God of peace (contrast with Sinai's terror); it recalls the resurrection (the great shepherd was brought back from the dead); it grounds the blessing in 'the blood of the eternal covenant'; and it asks that God would equip the readers to do his will — to finish the race — through Jesus Christ, to whom be glory."
+    }
+  ],
+  "notes": [
+    {
+      "ref": "13:2",
+      "text": "do not neglect to show hospitality to strangers — The allusion to Abraham (Gen 18) reminds readers that the stranger welcomed might be an angel — or, christologically, a messenger of God."
+    },
+    {
+      "ref": "13:5",
+      "text": "I will never leave you nor forsake you — A quotation combining Deut 31:6 and Josh 1:5. The double negative in the Greek is emphatic: I will most certainly not leave you."
+    },
+    {
+      "ref": "13:8",
+      "text": "Jesus Christ is the same yesterday and today and forever — A creedal-like formulation asserting the immutability of Christ against teachers offering 'new' supplements to the gospel."
+    },
+    {
+      "ref": "13:12–13",
+      "text": "outside the gate … outside the camp — Jesus was crucified outside Jerusalem's walls, fulfilling the typology of Lev 16, where the sin offering was burned 'outside the camp.' Bearing his reproach means following him outside social respectability."
+    },
+    {
+      "ref": "13:20–21",
+      "text": "the God of peace … through the blood of the eternal covenant — The peace we enjoy with God is not cheap; it was purchased by the blood that ratified the new covenant. Every blessing flows from that sacrifice."
+    }
+  ]
+}

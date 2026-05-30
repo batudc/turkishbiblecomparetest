@@ -1,0 +1,39 @@
+{
+  "source": "ESV Study Bible (Crossway) — Placeholder for testing only",
+  "book_intro": "The Epistle to the Hebrews presents Jesus Christ as the fulfillment and surpassing of everything the Old Testament pointed toward — a greater high priest, a better covenant, and the perfect sacrifice. Written to Jewish Christians facing pressure to return to Judaism, the letter argues from Scripture that Christ is superior to angels, Moses, the Levitical priesthood, and the old covenant itself. The author's identity is unknown; the sophisticated Greek and elaborate use of Levitical typology place it among the New Testament's most theologically rich documents.",
+  "chapter_intro": "Having established Christ's superiority to angels, the author now compares him to Moses — a far more sensitive claim for Jewish readers who revered Moses above all figures. Jesus is greater: Moses was faithful as a servant in God's house; the Son is faithful as a Son over God's house. The second half of the chapter applies the warning of Ps 95 ('Today, if you hear his voice, do not harden your hearts') to the readers, calling them to exhort one another daily against the deceitfulness of sin.",
+  "passages": [
+    {
+      "ref": "3:1–6",
+      "title": "Jesus Greater Than Moses",
+      "text": "Moses was the supreme human mediator of the old covenant — lawgiver, intercessor, friend of God. Yet the comparison only highlights the Son's greater dignity: the builder of a house is greater than the house itself, and the Son rules over the household of which Moses was only a member."
+    },
+    {
+      "ref": "3:7–19",
+      "title": "Warning from the Wilderness Generation",
+      "text": "The wilderness generation heard God's voice at Kadesh-barnea (Num 14) and refused to enter the land, hardening their hearts in unbelief. They did not fail through ignorance — they had seen the exodus miracles — but through 'an evil, unbelieving heart.' The warning to the readers is that the same pattern can repeat: exposure to the gospel's wonders does not make one immune to apostasy."
+    }
+  ],
+  "notes": [
+    {
+      "ref": "3:1",
+      "text": "holy brothers — First use of adelphoi ('brothers/sisters') for the recipients. 'Holy' indicates their set-apart status in Christ, not personal sinlessness."
+    },
+    {
+      "ref": "3:2",
+      "text": "faithful to him who appointed him, as Moses also was — The comparison honors Moses rather than denigrating him; it then shows the Son's greater role."
+    },
+    {
+      "ref": "3:6",
+      "text": "if indeed we hold fast — The conditional 'if' does not introduce doubt about God's preservation but issues a genuine call to persevering faith."
+    },
+    {
+      "ref": "3:13",
+      "text": "exhort one another every day — Apostasy rarely happens in isolation. The community's daily encouragement is a key means of grace against hardening."
+    },
+    {
+      "ref": "3:19",
+      "text": "they were unable to enter because of unbelief — The Israelites' failure was not physical inability but moral-spiritual: persistent, deliberate unbelief in God's promises."
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "source": "ESV Study Bible (Crossway) — Placeholder for testing only",
+  "book_intro": "The Epistle to the Hebrews presents Jesus Christ as the fulfillment and surpassing of everything the Old Testament pointed toward — a greater high priest, a better covenant, and the perfect sacrifice. Written to Jewish Christians facing pressure to return to Judaism, the letter argues from Scripture that Christ is superior to angels, Moses, the Levitical priesthood, and the old covenant itself. The author's identity is unknown; the sophisticated Greek and elaborate use of Levitical typology place it among the New Testament's most theologically rich documents.",
+  "chapter_intro": "Chapter 6 contains the most debated passage in Hebrews — the warning against apostasy in vv.4–8. Those who have been enlightened, tasted the heavenly gift, and shared in the Holy Spirit, yet fall away, cannot be renewed to repentance. The author immediately expresses confidence that the readers are not in this category (vv.9–12), then grounds assurance in God's immutable oath to Abraham, which finds its fulfillment in Christ our high priest who has entered as our forerunner.",
+  "passages": [
+    {
+      "ref": "6:1–3",
+      "title": "Press On to Maturity",
+      "text": "The call to leave the 'elementary doctrine of Christ' does not mean abandoning the basics but building on them. The six listed foundations (repentance, faith, baptismal instruction, laying on of hands, resurrection, eternal judgment) correspond roughly to what an early catechumen would learn — important, but not the endpoint of Christian understanding."
+    },
+    {
+      "ref": "6:4–8",
+      "title": "The Warning Against Apostasy",
+      "text": "The five participial phrases in vv.4–5 ('once enlightened … tasted … shared … tasted … and have fallen away') describe someone who has had genuine and deep engagement with the realities of the new covenant. The impossibility of renewing them to repentance is not a statement about God's willingness but about the logic of apostasy: to repudiate Christ after such experience is to put him to open shame again, which cannot be undone by a second crucifixion."
+    },
+    {
+      "ref": "6:13–20",
+      "title": "The Anchor of God's Oath",
+      "text": "Against the terror of the warning, the author plants two immovable anchors: God's promise and God's oath (vv.17–18). Since God cannot lie, those who have fled to Christ have a hope that is 'a sure and steadfast anchor of the soul, a hope that enters into the inner place behind the curtain' — the heavenly holy of holies, where our forerunner Jesus has already gone."
+    }
+  ],
+  "notes": [
+    {
+      "ref": "6:4",
+      "text": "once enlightened — The language is consistently experiential and genuine. This is not a description of mere intellectual exposure but of real encounter with the Spirit's work."
+    },
+    {
+      "ref": "6:6",
+      "text": "crucifying once again the Son of God — Apostasy is a public, final repudiation that aligns the defector with those who crucified Christ, not merely a lapse in behavior."
+    },
+    {
+      "ref": "6:9",
+      "text": "we feel sure of better things — The pastoral turn is important. The warnings are not because the author believes the readers have apostatized, but to prevent them from doing so."
+    },
+    {
+      "ref": "6:17",
+      "text": "God's unchangeable purpose … guaranteed with an oath — Two immutable things: God's nature (he cannot lie) and his explicit oath. Our hope rests on both."
+    },
+    {
+      "ref": "6:19",
+      "text": "an anchor of the soul — The anchor metaphor was common in Hellenistic letters as a symbol of hope; here it is transformed: the anchor holds not to the sea floor below, but to the heavenly sanctuary above."
+    }
+  ]
+}

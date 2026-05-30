@@ -1,0 +1,44 @@
+{
+  "source": "ESV Study Bible (Crossway) — Placeholder for testing only",
+  "book_intro": "The Epistle to the Hebrews presents Jesus Christ as the fulfillment and surpassing of everything the Old Testament pointed toward — a greater high priest, a better covenant, and the perfect sacrifice. Written to Jewish Christians facing pressure to return to Judaism, the letter argues from Scripture that Christ is superior to angels, Moses, the Levitical priesthood, and the old covenant itself. The author's identity is unknown; the sophisticated Greek and elaborate use of Levitical typology place it among the New Testament's most theologically rich documents.",
+  "chapter_intro": "The great 'faith chapter' of Scripture defines faith not as subjective feeling but as 'the assurance of things hoped for, the conviction of things not seen' — a confident orientation toward God's promises that shapes how one lives now. The author surveys the whole sweep of OT history, showing that from Abel to the prophets, every act of obedience and endurance was an exercise of this forward-looking, promise-anchored faith. The chapter ends with a stunning claim: 'they would not be made perfect apart from us.'",
+  "passages": [
+    {
+      "ref": "11:1–3",
+      "title": "Faith Defined and Its Cosmic Scope",
+      "text": "The definition in v.1 is not an abstract philosophical statement but a pastoral one, shaped by the readers' situation: they are tempted to abandon hope in what they cannot yet see. Faith is the present, settled confidence that God's promised future is as real as anything visible. The cosmic example — the universe was created by God's word — grounds faith's object: the God who made everything from nothing can be trusted to keep his promises."
+    },
+    {
+      "ref": "11:4–38",
+      "title": "The Cloud of Witnesses",
+      "text": "The enumeration moves from Abel (pre-flood) through Abraham and Sarah (patriarch), Moses (exodus), Rahab (conquest), the judges and kings, and finally to unnamed martyrs. Each figure is commended not for achievement but for faith in God's promises — even when those promises were not yet fulfilled in their lifetimes. The martyrs of vv.35–38 are particularly striking: faith did not always produce deliverance, yet their endurance was equally commended."
+    },
+    {
+      "ref": "11:39–40",
+      "title": "Together They Receive the Promise",
+      "text": "All these heroes 'did not receive what was promised.' This is the hinge between ch. 11 and ch. 12: they waited for what we have now received. The whole OT narrative was incomplete without the coming of Christ and the age of fulfillment. New covenant believers do not merely look back at those saints; we are part of the same story, together being made perfect."
+    }
+  ],
+  "notes": [
+    {
+      "ref": "11:1",
+      "text": "assurance … conviction — The Greek hypostasis (assurance) conveys something solid, a foundation; elenchos (conviction) is legal — the proof of what cannot be seen in court."
+    },
+    {
+      "ref": "11:6",
+      "text": "without faith it is impossible to please him — Not works, not ritual, not ancestry — faith in God's existence and his rewarding of those who seek him is the sine qua non of approach to God."
+    },
+    {
+      "ref": "11:13",
+      "text": "strangers and exiles on the earth — The patriarchs' willingness to live as aliens signals that their true homeland was never Canaan but the heavenly city (v.16)."
+    },
+    {
+      "ref": "11:35",
+      "text": "others were tortured, refusing to accept release — Faith sometimes leads to martyrdom, not rescue. The 'better resurrection' they hoped for surpasses any earthly deliverance."
+    },
+    {
+      "ref": "11:40",
+      "text": "apart from us they should not be made perfect — The OT saints, great as they were, anticipated a fulfillment they could not themselves complete. That fulfillment is the new covenant in Christ."
+    }
+  ]
+}

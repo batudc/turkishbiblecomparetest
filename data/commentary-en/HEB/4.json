@@ -1,0 +1,44 @@
+{
+  "source": "ESV Study Bible (Crossway) — Placeholder for testing only",
+  "book_intro": "The Epistle to the Hebrews presents Jesus Christ as the fulfillment and surpassing of everything the Old Testament pointed toward — a greater high priest, a better covenant, and the perfect sacrifice. Written to Jewish Christians facing pressure to return to Judaism, the letter argues from Scripture that Christ is superior to angels, Moses, the Levitical priesthood, and the old covenant itself. The author's identity is unknown; the sophisticated Greek and elaborate use of Levitical typology place it among the New Testament's most theologically rich documents.",
+  "chapter_intro": "The 'rest' promised in Ps 95 — and earlier in the land promise to Israel — remains open, the author argues, because Joshua's conquest did not exhaust it. A Sabbath rest still awaits the people of God, and the way to enter it is the same as it always was: faith in God's word. The chapter closes with a transitional paragraph that reintroduces the theme of the great high priest, this time emphasizing his empathy: he was tempted in every way, yet without sin, and therefore we can approach with confidence.",
+  "passages": [
+    {
+      "ref": "4:1–11",
+      "title": "The Sabbath Rest Remains",
+      "text": "The argument is intricate: God's rest was established at creation (Gen 2:2), yet Ps 95 — written centuries after Joshua's conquest — still says 'today.' This implies the rest was not yet entered, and it remains available 'today' to those who receive the promise with faith. The Christian Sabbath-rest is entered in part through faith now and fully in eschatological completion."
+    },
+    {
+      "ref": "4:12–13",
+      "title": "The Living and Active Word",
+      "text": "A parenthetical but vital warning: God's word lays bare the state of every soul. The image of a two-edged sword cutting between soul and spirit, joints and marrow, is not anatomical analysis but a description of Scripture's ability to expose the true condition of the heart — including whether one's faith is genuine or merely nominal."
+    },
+    {
+      "ref": "4:14–16",
+      "title": "Draw Near with Confidence",
+      "text": "The exhortation to 'hold fast our confession' and 'draw near with confidence' flows from the character of our high priest: he has passed through the heavens (entered God's presence as our forerunner) and was tempted as we are, yet without sin. His sinlessness means he sympathizes without being contaminated; his priestly intercession means mercy and grace are available precisely when we need them."
+    }
+  ],
+  "notes": [
+    {
+      "ref": "4:2",
+      "text": "the message they heard did not benefit them — The word was preached to the wilderness generation, but it was not 'mixed with faith' by those who heard it. Hearing the gospel is not the same as believing it."
+    },
+    {
+      "ref": "4:9",
+      "text": "a Sabbath rest — The Greek sabbatismos appears only here in the NT. It carries overtones of the ultimate Sabbath — the eschatological rest inaugurated by Christ's work."
+    },
+    {
+      "ref": "4:12",
+      "text": "living and active — The word of God is not a static artifact but a living agent. 'Active' (energēs) means at work, effective, operational."
+    },
+    {
+      "ref": "4:15",
+      "text": "tempted as we are, yet without sin — The 'yet' is crucial. Jesus' sinlessness does not diminish his sympathy; it deepens it. He faced every pull toward sin without ever yielding."
+    },
+    {
+      "ref": "4:16",
+      "text": "throne of grace — Not a throne of judgment (which it might be for sinners), but grace — because the one who sits on it is also our high priest and advocate."
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "source": "ESV Study Bible (Crossway) — Placeholder for testing only",
+  "book_intro": "The Epistle to the Hebrews presents Jesus Christ as the fulfillment and surpassing of everything the Old Testament pointed toward — a greater high priest, a better covenant, and the perfect sacrifice. Written to Jewish Christians facing pressure to return to Judaism, the letter argues from Scripture that Christ is superior to angels, Moses, the Levitical priesthood, and the old covenant itself. The author's identity is unknown; the sophisticated Greek and elaborate use of Levitical typology place it among the New Testament's most theologically rich documents.",
+  "chapter_intro": "Chapter 2 opens with the first of five major warnings in Hebrews: do not drift from what you have heard. The author then addresses the apparent puzzle of Ps 8 — if all things are subjected to humanity, why do we not yet see it? — and resolves it Christologically: we see Jesus, made lower than angels through suffering, now crowned with glory. The chapter ends with one of the most tender statements in the letter: Jesus is a merciful and faithful high priest precisely because he shared our flesh and blood.",
+  "passages": [
+    {
+      "ref": "2:1–4",
+      "title": "First Warning: Do Not Drift",
+      "text": "The logic runs from lesser to greater: if the law delivered through angels carried penalties for disobedience, a much greater penalty awaits those who neglect the salvation announced by the Lord and confirmed by eyewitnesses and signs. The word 'neglect' (amelēsantes) is significant — apostasy here begins not with violent rejection but with careless inattention."
+    },
+    {
+      "ref": "2:5–9",
+      "title": "Psalm 8 and the Humiliated-then-Crowned Son",
+      "text": "Ps 8 celebrated humanity's God-given dominion over creation, yet that dominion is manifestly not yet realized. The author's move is striking: the psalm is fulfilled representatively in Jesus, the true Human, who was briefly made lower than angels in his suffering and death but is now crowned. His death was 'for everyone' — the atonement has universal scope even as its benefits are received by faith."
+    },
+    {
+      "ref": "2:10–18",
+      "title": "The Pioneer Made Perfect Through Suffering",
+      "text": "The incarnation was not incidental but necessary. To destroy the power of death, the Son had to share in flesh and blood; to make propitiation, he had to be like his brothers in every respect. The term 'pioneer' (archēgos) suggests a pathfinder who blazes the trail that others follow — an image developed more fully in Heb 12:2."
+    }
+  ],
+  "notes": [
+    {
+      "ref": "2:1",
+      "text": "drift away — The Greek parrheō pictures cargo slipping downstream past a harbor. Apostasy is often less a dramatic defection than a slow, imperceptible drift."
+    },
+    {
+      "ref": "2:3",
+      "text": "declared to us by those who heard — The author places himself in the second generation of believers, confirming that the letter was not written by an eyewitness apostle."
+    },
+    {
+      "ref": "2:9",
+      "text": "taste death for everyone — The universal language ('everyone') affirms the sufficiency of Christ's atoning work, though the preceding context focuses on the 'sons' brought to glory."
+    },
+    {
+      "ref": "2:11",
+      "text": "not ashamed to call them brothers — Remarkable condescension: the Son, who alone is Son by nature, counts the adopted children as his siblings, citing Ps 22:22."
+    },
+    {
+      "ref": "2:17",
+      "text": "merciful and faithful high priest — The first full statement of the book's central category. Mercy comes from shared suffering; faithfulness from sinless obedience."
+    }
+  ]
+}

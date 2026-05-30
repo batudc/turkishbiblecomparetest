@@ -1,0 +1,44 @@
+{
+  "source": "ESV Study Bible (Crossway) — Placeholder for testing only",
+  "book_intro": "The Epistle to the Hebrews presents Jesus Christ as the fulfillment and surpassing of everything the Old Testament pointed toward — a greater high priest, a better covenant, and the perfect sacrifice. Written to Jewish Christians facing pressure to return to Judaism, the letter argues from Scripture that Christ is superior to angels, Moses, the Levitical priesthood, and the old covenant itself. The author's identity is unknown; the sophisticated Greek and elaborate use of Levitical typology place it among the New Testament's most theologically rich documents.",
+  "chapter_intro": "Chapter 7 is the theological center of Hebrews. The mysterious figure of Melchizedek, introduced in Gen 14 and recalled in Ps 110:4, becomes the basis for demonstrating that Jesus holds a priesthood categorically different from — and superior to — the Levitical order. Because Melchizedek appears in Genesis without genealogy, birth, or death, he serves as a type of the Son whose priesthood is 'by the power of an indestructible life.' The chapter argues that the very existence of a Melchizedekan priesthood implies the inadequacy of the Levitical system.",
+  "passages": [
+    {
+      "ref": "7:1–10",
+      "title": "The Greatness of Melchizedek",
+      "text": "Three details from Gen 14 establish Melchizedek's greatness: (1) Abraham, the ancestor of Levi, paid tithes to him; (2) Melchizedek blessed Abraham, and the lesser is always blessed by the greater; (3) unlike Levitical priests, Melchizedek has no recorded genealogy, birth, or death — making him a 'type' of the eternal Son."
+    },
+    {
+      "ref": "7:11–19",
+      "title": "The Law Brought Nothing to Perfection",
+      "text": "The clinching argument: if perfection had been attainable through the Levitical priesthood, there would have been no need for God to promise a different kind of priest in Ps 110:4. The very existence of that prophecy is proof that the old system was preliminary. A change of priesthood entails a change of law — the whole Mosaic system is superseded, not merely supplemented."
+    },
+    {
+      "ref": "7:20–28",
+      "title": "A Priest by Oath and Forever",
+      "text": "Levitical priests were appointed without an oath; Christ was appointed with the Father's sworn oath (Ps 110:4). Levitical priests were many and mortal; Christ is one and holds his priesthood permanently. Levitical priests offered sacrifice daily; Christ offered himself once for all. He is exactly the kind of high priest we need: holy, innocent, unstained, and now exalted above the heavens."
+    }
+  ],
+  "notes": [
+    {
+      "ref": "7:2",
+      "text": "king of righteousness … king of peace — The Hebrew meaning of Melchizedek's name and city (Salem = shalom) are taken as more than coincidence: they anticipate the Messianic King who brings both righteousness and peace."
+    },
+    {
+      "ref": "7:3",
+      "text": "without father or mother or genealogy — The argument is from the silence of the Genesis text, which the author takes as theologically significant: Melchizedek's unrecorded life typifies the eternal Son."
+    },
+    {
+      "ref": "7:11",
+      "text": "perfection — The Greek teleiōsis here means 'bringing to the goal,' accomplishing final atonement and access to God. The Levitical system could never do this permanently; it required endless repetition."
+    },
+    {
+      "ref": "7:25",
+      "text": "lives to make intercession — The present tense is deliberate: Christ's priestly ministry did not end at the cross. He currently intercedes for his people in the presence of the Father."
+    },
+    {
+      "ref": "7:27",
+      "text": "once for all — hapax, a single decisive, unrepeatable act. This word will anchor the argument of chapters 9–10."
+    }
+  ]
+}
