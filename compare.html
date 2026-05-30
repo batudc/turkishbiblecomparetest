@@ -2172,19 +2172,19 @@
   };
 
   const OT_BOOKS = [
-    'Yaratılış','Mısır\'dan Çıkış','Levililer','Çölde Sayım','Yasa\'nın Tekrarı',
-    'Yeşu','Hakimler','Rut','1. Samuel','2. Samuel','1. Krallar','2. Krallar',
-    '1. Tarihler','2. Tarihler','Ezra','Nehemya','Ester','Eyüp','Mezmurlar',
-    'Süleyman\'ın Özdeyişleri','Vaiz','Ezgiler Ezgisi','Yeşaya','Yeremya',
-    'Ağıtlar','Hezekiel','Daniel','Hoşea','Yoel','Amos','Ovadya','Yunus',
-    'Mika','Nahum','Habakkuk','Zefanya','Hagay','Zekeriya','Malaki'
+    'Genesis','Exodus','Leviticus','Numbers','Deuteronomy',
+    'Joshua','Judges','Ruth','1 Samuel','2 Samuel','1 Kings','2 Kings',
+    '1 Chronicles','2 Chronicles','Ezra','Nehemiah','Esther','Job','Psalms',
+    'Proverbs','Ecclesiastes','Song of Solomon','Isaiah','Jeremiah',
+    'Lamentations','Ezekiel','Daniel','Hosea','Joel','Amos','Obadiah','Jonah',
+    'Micah','Nahum','Habakkuk','Zephaniah','Haggai','Zechariah','Malachi'
   ];
   const NT_BOOKS = [
-    'Matta','Markos','Luka','Yuhanna','Elçilerin İşleri','Romalılar',
-    '1. Korintliler','2. Korintliler','Galatyalılar','Efesliler','Filipililer',
-    'Koloseliler','1. Selanikliler','2. Selanikliler','1. Timoteos','2. Timoteos',
-    'Titus','Filemon','İbraniler','Yakup','1. Petrus','2. Petrus',
-    '1. Yuhanna','2. Yuhanna','3. Yuhanna','Yahuda','Vahiy'
+    'Matthew','Mark','Luke','John','Acts','Romans',
+    '1 Corinthians','2 Corinthians','Galatians','Ephesians','Philippians',
+    'Colossians','1 Thessalonians','2 Thessalonians','1 Timothy','2 Timothy',
+    'Titus','Philemon','Hebrews','James','1 Peter','2 Peter',
+    '1 John','2 John','3 John','Jude','Revelation'
   ];
 
   const TRANS_CREDITS = {
@@ -2288,6 +2288,27 @@
     .map(t => { ALL_TRANS[t.id] = t; return t.id; });
 
   const BOOK_CODES = {
+    // English names
+    'Matthew':'MAT','Mark':'MRK','Luke':'LUK','John':'JHN',
+    'Acts':'ACT','Romans':'ROM','1 Corinthians':'1CO',
+    '2 Corinthians':'2CO','Galatians':'GAL','Ephesians':'EPH',
+    'Philippians':'PHP','Colossians':'COL','1 Thessalonians':'1TH',
+    '2 Thessalonians':'2TH','1 Timothy':'1TI','2 Timothy':'2TI',
+    'Titus':'TIT','Philemon':'PHM','Hebrews':'HEB','James':'JAS',
+    '1 Peter':'1PE','2 Peter':'2PE','1 John':'1JN',
+    '2 John':'2JN','3 John':'3JN','Jude':'JUD','Revelation':'REV',
+    'Genesis':'GEN','Exodus':'EXO','Leviticus':'LEV',
+    'Numbers':'NUM','Deuteronomy':'DEU','Joshua':'JOS',
+    'Judges':'JDG','Ruth':'RUT','1 Samuel':'1SA','2 Samuel':'2SA',
+    '1 Kings':'1KI','2 Kings':'2KI','1 Chronicles':'1CH',
+    '2 Chronicles':'2CH','Ezra':'EZR','Nehemiah':'NEH','Esther':'EST',
+    'Job':'JOB','Psalms':'PSA','Proverbs':'PRO',
+    'Ecclesiastes':'ECC','Song of Solomon':'SNG','Isaiah':'ISA','Jeremiah':'JER',
+    'Lamentations':'LAM','Ezekiel':'EZK','Daniel':'DAN','Hosea':'HOS',
+    'Joel':'JOL','Amos':'AMO','Obadiah':'OBA','Jonah':'JON','Micah':'MIC',
+    'Nahum':'NAH','Habakkuk':'HAB','Zephaniah':'ZEP','Haggai':'HAG',
+    'Zechariah':'ZEC','Malachi':'MAL',
+    // Turkish names (for backwards compatibility)
     'Matta':'MAT','Markos':'MRK','Luka':'LUK','Yuhanna':'JHN',
     'Elçilerin İşleri':'ACT','Romalılar':'ROM','1. Korintliler':'1CO',
     '2. Korintliler':'2CO','Galatyalılar':'GAL','Efesliler':'EPH',
