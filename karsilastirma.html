@@ -4445,7 +4445,7 @@
     const sel = document.getElementById('default-trans-sel');
     if (!sel) return;
     const favs = getFavorites().filter(id => ALL_TRANS[id]?.loaded);
-    const pool = favs.length > 0 ? favs : TRANS_ORDER.filter(id => ALL_TRANS[id]?.loaded);
+    const pool = (favs.length > 0 ? favs : TRANS_ORDER.filter(id => ALL_TRANS[id]?.loaded)).slice().sort((a, b) => a.localeCompare(b));
     sel.innerHTML = '<option value="">— Seçin —</option>' +
       pool.map(id => {
         const meta = ALL_TRANS[id];
