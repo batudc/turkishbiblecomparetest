@@ -2979,12 +2979,7 @@
   const TRANS_CATEGORIES = [
     {
       id: 'english', label: 'English',
-      subcats: [
-        { label: 'Favourites',           ids: [] },
-        { label: 'Millennials (Modern)', ids: ['ESV','NIV','NLT','NET','CSB','LSB'] },
-        { label: 'Word by Word',         ids: ['KJV','NKJV','ESV','LSB'] },
-        { label: 'Meaning to Meaning',   ids: ['NIV','NLT','NET','CSB'] },
-      ]
+      subcats: [ { label: null, ids: ['KJV','NKJV','ESV','NIV','NLT','NET','CSB','LSB'] } ]
     },
     {
       id: 'ancient', label: 'Ancient Sources',
@@ -3249,12 +3244,10 @@
   const ENGLISH_IDS   = new Set(TRANSLATIONS.english.map(t => t.id));
 
   const PRESETS = [
-    { id:'favoriler', label:'⭐ Favourites',  ids: () => getFavorites() },
-    { id:'english',   label:'English',        ids: () => ['ESV','KJV','NIV','NKJV','NLT','NET','CSB','LSB'].filter(id => ALL_TRANS[id]?.loaded) },
-    { id:'ancient',   label:'Ancient',        ids: () => ['BHS','LXX','VULG','NA27'].filter(id => ALL_TRANS[id]?.loaded) },
-    { id:'modern',    label:'Modern TR',      ids: () => ['TCL02','YTC','TTT','HAKK','KMEYA'] },
-    { id:'tarihi',    label:'Historical TR',  ids: () => ['ALI1665','KIE1819','JDK1827','TUR1852-57','SEL1866-77','KM1886'] },
-    { id:'tamkitap',  label:'Full Bible TR',  ids: () => ['ALI1665','JDK1827','KM1886','KMEYA','TCL02','AREMSI','YTC','HAKK'] },
+    { id:'favoriler',   label:'⭐ Favourites',      ids: () => getFavorites().filter(id => ALL_TRANS[id]?.loaded) },
+    { id:'millennials', label:'Millennials',         ids: () => ['ESV','NIV','NLT','NET','CSB','LSB'].filter(id => ALL_TRANS[id]?.loaded) },
+    { id:'wordword',    label:'Word by Word',        ids: () => ['KJV','NKJV','ESV','LSB'].filter(id => ALL_TRANS[id]?.loaded) },
+    { id:'meaning',     label:'Meaning to Meaning',  ids: () => ['NIV','NLT','NET','CSB'].filter(id => ALL_TRANS[id]?.loaded) },
   ];
 
   function applyPreset(preset) {
