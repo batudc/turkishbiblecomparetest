@@ -2977,15 +2977,40 @@
   const HERETICAL_ID_SET = new Set(TRANSLATIONS.heretical.map(t => t.id));
 
   const TRANS_CATEGORIES = [
-  { id: 'english', label: 'English',
-    subcats: [
-      { label: 'Favourites',          ids: [] },  // User-populated
-      { label: 'Millennials (Modern)', ids: ['ESV','NIV','NLT','NET','CSB','LSB'] },
-      { label: 'Word by Word',        ids: ['KJV','NKJV','ESV','LSB'] },
-      { label: 'Meaning to Meaning',  ids: ['NIV','NLT','NET','CSB'] },
-    ]
-  },
-];
+    {
+      id: 'english', label: 'English',
+      subcats: [
+        { label: 'Favourites',           ids: [] },
+        { label: 'Millennials (Modern)', ids: ['ESV','NIV','NLT','NET','CSB','LSB'] },
+        { label: 'Word by Word',         ids: ['KJV','NKJV','ESV','LSB'] },
+        { label: 'Meaning to Meaning',   ids: ['NIV','NLT','NET','CSB'] },
+      ]
+    },
+    {
+      id: 'ancient', label: 'Ancient Sources',
+      subcats: [ { label: null, ids: ['BHS','LXX','VULG','NA27'] } ]
+    },
+    {
+      id: 'modern', label: 'Modern Turkish',
+      subcats: [
+        { label: 'Full Bible',     ids: ['TCL02','AREMSI','HKTN','YTC','HAKK'] },
+        { label: 'New Testament',  ids: ['YYY1987','CAN','KKDEU','BGT','COS','TTT'] },
+        { label: 'Partial',        ids: ['TSV','OTR2019'] },
+      ]
+    },
+    {
+      id: 'ottoman', label: 'Ottoman Turkish',
+      subcats: [
+        { label: 'Full Bible',     ids: ['ALI1665','JDK1827','TUR1852-57','SEL1866-77','KM1886','KMEYA'] },
+        { label: 'New Testament',  ids: ['KIE1819'] },
+        { label: 'Partial',        ids: ['SEA1666','MEZ1669','NSH1739'] },
+      ]
+    },
+    {
+      id: 'heretical', label: 'Other',
+      subcats: [ { label: null, ids: ['NWT2008','NWT2025'] } ]
+    },
+  ];
 
   function _catAllIds(cat) {
     return cat.subcats.flatMap(sc => sc.ids).filter(id => ALL_TRANS[id]);
