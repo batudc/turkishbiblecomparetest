@@ -2302,7 +2302,34 @@
   function saveFavorites(ids) { _lsSet('kkf_favs', JSON.stringify(ids)); }
 
   // ── App state ─────────────────────────────────────────────────────────
-  let currentBook    = _lsGet('kkf_book')  || 'Yuhanna';
+  // EN→TR map to convert book name if user came from the English page
+  var EN_TO_TR = {
+    'Genesis':'Yaratılış','Exodus':"Mısır'dan Çıkış",'Leviticus':'Levililer',
+    'Numbers':'Çölde Sayım','Deuteronomy':"Yasa'nın Tekrarı",'Joshua':'Yeşu',
+    'Judges':'Hakimler','Ruth':'Rut','1 Samuel':'1. Samuel','2 Samuel':'2. Samuel',
+    '1 Kings':'1. Krallar','2 Kings':'2. Krallar','1 Chronicles':'1. Tarihler',
+    '2 Chronicles':'2. Tarihler','Ezra':'Ezra','Nehemiah':'Nehemya','Esther':'Ester',
+    'Job':'Eyüp','Psalms':'Mezmurlar','Proverbs':"Süleyman'ın Özdeyişleri",
+    'Ecclesiastes':'Vaiz','Song of Solomon':'Ezgiler Ezgisi','Isaiah':'Yeşaya',
+    'Jeremiah':'Yeremya','Lamentations':'Ağıtlar','Ezekiel':'Hezekiel',
+    'Daniel':'Daniel','Hosea':'Hoşea','Joel':'Yoel','Amos':'Amos',
+    'Obadiah':'Ovadya','Jonah':'Yunus','Micah':'Mika','Nahum':'Nahum',
+    'Habakkuk':'Habakkuk','Zephaniah':'Zefanya','Haggai':'Hagay',
+    'Zechariah':'Zekeriya','Malachi':'Malaki',
+    'Matthew':'Matta','Mark':'Markos','Luke':'Luka','John':'Yuhanna',
+    'Acts':'Elçilerin İşleri','Romans':'Romalılar','1 Corinthians':'1. Korintliler',
+    '2 Corinthians':'2. Korintliler','Galatians':'Galatyalılar','Ephesians':'Efesliler',
+    'Philippians':'Filipililer','Colossians':'Koloseliler',
+    '1 Thessalonians':'1. Selanikliler','2 Thessalonians':'2. Selanikliler',
+    '1 Timothy':'1. Timoteos','2 Timothy':'2. Timoteos','Titus':'Titus',
+    'Philemon':'Filemon','Hebrews':'İbraniler','James':'Yakup',
+    '1 Peter':'1. Petrus','2 Peter':'2. Petrus','1 John':'1. Yuhanna',
+    '2 John':'2. Yuhanna','3 John':'3. Yuhanna','Jude':'Yahuda','Revelation':'Vahiy'
+  };
+  let currentBook = (function() {
+    var b = _lsGet('kkf_book') || 'Yuhanna';
+    return EN_TO_TR[b] || b; // convert English→Turkish if needed
+  })();
   let currentChapter = parseInt(_lsGet('kkf_chap') || '1', 10) || 1;
   let layoutMode     = _lsGet('kkf_layout') || 'cols'; // 'cols' | 'rows' | 'grid'
   // User-defined column order — array of translation IDs; null = use default TRANS_ORDER

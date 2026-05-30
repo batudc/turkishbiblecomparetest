@@ -2353,7 +2353,11 @@
   function saveFavorites(ids) { _lsSet('kkf_favs', JSON.stringify(ids)); }
 
   // ── App state ─────────────────────────────────────────────────────────
-  let currentBook    = _lsGet('kkf_book')  || 'John';
+  // Translate stored book name to English if it came from the Turkish page
+  let currentBook = (function() {
+    var b = _lsGet('kkf_book') || 'John';
+    return BOOK_DISPLAY_EN[b] || b; // convert Turkish→English if needed
+  })();
   let currentChapter = parseInt(_lsGet('kkf_chap') || '1', 10) || 1;
   let layoutMode     = _lsGet('kkf_layout') || 'cols'; // 'cols' | 'rows' | 'grid'
   // User-defined column order — array of translation IDs; null = use default TRANS_ORDER
@@ -4149,7 +4153,7 @@
   })();
 
   // ── Initial build — sync header to restored state ────────────────────
-  document.getElementById('btn-books').childNodes[0].textContent = currentBook + ' ';
+  document.getElementById('btn-books').childNodes[0].textContent = displayBook(currentBook) + ' ';
   document.getElementById('btn-chapter').textContent = 'Chapter ' + currentChapter;
   buildChapters(currentBook);
   rebuildColumns();
