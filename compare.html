@@ -2337,7 +2337,7 @@
   function saveFavorites(ids) { _lsSet('kkf_favs', JSON.stringify(ids)); }
 
   // ── App state ─────────────────────────────────────────────────────────
-  let currentBook    = _lsGet('kkf_book')  || 'Yuhanna';
+  let currentBook    = _lsGet('kkf_book')  || 'John';
   let currentChapter = parseInt(_lsGet('kkf_chap') || '1', 10) || 1;
   let layoutMode     = _lsGet('kkf_layout') || 'cols'; // 'cols' | 'rows' | 'grid'
   // User-defined column order — array of translation IDs; null = use default TRANS_ORDER
@@ -2384,7 +2384,7 @@
     '2. Yuhanna':'2 John','3. Yuhanna':'3 John','Yahuda':'Jude','Vahiy':'Revelation'
   };
   function displayBook(b) { return BOOK_DISPLAY_EN[b] || b; }
-  if (!BOOK_CODES[currentBook]) currentBook = 'Yuhanna';
+  if (!BOOK_CODES[currentBook]) currentBook = 'John';
 
   // Chapter data cache — key: `${tid}|${bookCode}|${chap}` → verse array
   const chapterCache = new Map();
