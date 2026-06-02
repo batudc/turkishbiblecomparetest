@@ -2032,13 +2032,7 @@
                 </div>
                 <div class="comm-section-body" id="comm-sect-chapter-body"></div>
               </div>
-              <div id="comm-sect-passages" class="comm-section open">
-                <div class="comm-section-hdr" onclick="this.closest('.comm-section').classList.toggle('open')">
-                  <span class="comm-section-arrow">▶</span>
-                  <span class="comm-section-label">Passage Notes</span>
-                </div>
-                <div class="comm-section-body" id="comm-sect-passages-body"></div>
-              </div>
+
               <div id="comm-sect-verses" class="comm-section open">
                 <div class="comm-section-hdr" onclick="this.closest('.comm-section').classList.toggle('open')">
                   <span class="comm-section-arrow">▶</span>
@@ -4465,7 +4459,7 @@
     document.getElementById('commentary-notes').innerHTML = '';
     document.getElementById('comm-sect-book-body').innerHTML = '';
     document.getElementById('comm-sect-chapter-body').innerHTML = '';
-    document.getElementById('comm-sect-passages-body').innerHTML = '';
+    // comm-sect-passages removed — passages now rendered inside chapter body
     document.getElementById('comm-sect-verses-body').innerHTML = '';
 
     if (_commCache[key]) {
@@ -4737,36 +4731,38 @@
         }
       }
 
-      // Chapter Overview
+      // Chapter Overview — passages styled as ref + bold title + body text
       const chapBody = document.getElementById('comm-sect-chapter-body');
-      if (data.chapter_intro) {
-        chapBody.innerHTML = '';
+      chapBody.innerHTML = '';
+      const passages = data.passages || [];
+      if (passages.length > 0) {
+        passages.forEach(p => {
+          const wrap = document.createElement('div');
+          wrap.className = 'comm-passage';
+          // Reference line e.g. "Heb. 1:1–4"
+          const refEl = document.createElement('div');
+          refEl.className = 'comm-passage-ref';
+          refEl.textContent = p.ref;
+          // Title line e.g. "Jesus Is Superior to Angelic Beings."
+          const titleEl = document.createElement('div');
+          titleEl.className = 'comm-passage-title';
+          titleEl.textContent = p.title;
+          // Body text
+          const textEl = document.createElement('div');
+          textEl.className = 'comm-text'; textEl.style.lineHeight = '1.7';
+          textEl.textContent = p.text;
+          wrap.appendChild(refEl);
+          wrap.appendChild(titleEl);
+          if (p.text) wrap.appendChild(textEl);
+          chapBody.appendChild(wrap);
+        });
+      } else if (data.chapter_intro) {
+        // Fallback: plain text intro if no structured passages
         const p = document.createElement('p');
         p.className = 'comm-text'; p.style.lineHeight = '1.7';
         p.textContent = data.chapter_intro;
         chapBody.appendChild(p);
       }
-
-      // Passage Notes
-      const passBody = document.getElementById('comm-sect-passages-body');
-      passBody.innerHTML = '';
-      (data.passages || []).forEach(p => {
-        const wrap = document.createElement('div');
-        wrap.className = 'comm-passage';
-        const refEl = document.createElement('div');
-        refEl.className = 'comm-passage-ref';
-        refEl.textContent = p.ref;
-        const titleEl = document.createElement('div');
-        titleEl.className = 'comm-passage-title';
-        titleEl.textContent = p.title;
-        const textEl = document.createElement('div');
-        textEl.className = 'comm-text'; textEl.style.lineHeight = '1.7';
-        textEl.textContent = p.text;
-        wrap.appendChild(refEl);
-        wrap.appendChild(titleEl);
-        wrap.appendChild(textEl);
-        passBody.appendChild(wrap);
-      });
 
       // Verse Notes
       const versBody = document.getElementById('comm-sect-verses-body');
@@ -4774,7 +4770,7 @@
       (data.notes || []).forEach(note => versBody.appendChild(_buildNoteEl(note)));
 
       const hasContent = data.book_intro || data.chapter_intro ||
-                         (data.passages?.length) || (data.notes?.length);
+                         passages.length || (data.notes?.length);
       if (!hasContent) emptyEl.style.display = 'block';
 
     } else {
