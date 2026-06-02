@@ -340,6 +340,20 @@
       text-decoration-style: solid;
       text-decoration-color: var(--gold);
     }
+    /* ── Commentary section accordion (ESV sources) ── */
+    .comm-section { margin-bottom: 6px; border: 1px solid rgba(184,146,42,0.12); border-radius: 4px; overflow: hidden; }
+    .comm-section-hdr { display: flex; align-items: center; gap: 6px; padding: 7px 10px; cursor: pointer; background: rgba(184,146,42,0.06); user-select: none; }
+    .comm-section-hdr:hover { background: rgba(184,146,42,0.11); }
+    .comm-section-arrow { font-size: 8px; color: rgba(184,146,42,0.5); transition: transform 0.2s; flex-shrink: 0; }
+    .comm-section.open .comm-section-arrow { transform: rotate(90deg); }
+    .comm-section-label { font-size: 8.5px; font-weight: 700; letter-spacing: 0.18em; text-transform: uppercase; color: rgba(184,146,42,0.65); font-family: 'Jost', sans-serif; }
+    .comm-section-body { display: none; padding: 10px 12px; }
+    .comm-section.open .comm-section-body { display: block; }
+    .comm-passage { margin-bottom: 12px; padding-bottom: 12px; border-bottom: 1px solid rgba(255,255,255,0.05); }
+    .comm-passage:last-child { border-bottom: none; margin-bottom: 0; }
+    .comm-passage-ref { font-size: 9px; font-weight: 700; letter-spacing: 0.08em; color: var(--gold-light); font-family: 'Jost', sans-serif; margin-bottom: 2px; }
+    .comm-passage-title { font-size: 11px; font-weight: 600; font-style: italic; color: rgba(247,241,232,0.85); margin-bottom: 5px; }
+    #comm-sect-verses-body { overflow-y: auto; max-height: calc(100vh - 320px); overscroll-behavior-y: contain; }
     #xref-tooltip {
       position: fixed;
       z-index: 700;
@@ -1919,7 +1933,7 @@
       <button class="hdr-nav-arrow" id="btn-next-ch" title="Sonraki bölüm">›</button>
       <button class="hdr-btn" id="btn-translations" title="Çevirileri yönet">Çeviri <span style="opacity:.4;font-size:9px;">▾</span></button>
       <button class="hdr-btn" id="btn-style" title="Görünüm ayarları">Görünüm <span style="opacity:.4;font-size:9px;">▾</span></button>
-      <button class="hdr-btn" id="btn-commentary" title="Bölüm yorumu">Yorum <span style="opacity:.4;font-size:9px;">▾</span></button>
+      <button class="hdr-btn" id="btn-commentary" title="Bölüm yorumu">Notlar <span style="opacity:.4;font-size:9px;">▾</span></button>
       <button class="hdr-btn" id="btn-tour" title="Site turunu başlat">?</button>
     </div>
   </div>
@@ -1930,7 +1944,7 @@
     <button class="mob-menu-row" id="mob-row-chapter" onclick="event.stopPropagation(); closeMobMenu(); document.getElementById('btn-chapter').click()">Bölüm ▾</button>
     <button class="mob-menu-row" id="mob-row-translations" onclick="event.stopPropagation(); closeMobMenu(); document.getElementById('btn-translations').click()">Çeviri ▾</button>
     <button class="mob-menu-row" id="mob-row-style" onclick="event.stopPropagation(); closeMobMenu(); document.getElementById('btn-style').click()">Görünüm ▾</button>
-    <button class="mob-menu-row" id="mob-row-commentary" onclick="event.stopPropagation(); closeMobMenu(); document.getElementById('btn-commentary').click()">Yorum ▾</button>
+    <button class="mob-menu-row" id="mob-row-commentary" onclick="event.stopPropagation(); closeMobMenu(); document.getElementById('btn-commentary').click()">Notlar ▾</button>
     <div class="mob-menu-sep"></div>
     <div class="mob-menu-links">
       <a href="karsilastirma.html">Karşılaştır</a>
@@ -1951,20 +1965,55 @@
     <!-- ===== SIDEBAR PANEL ===== -->
     <div id="sidebar-panel">
       <div id="sidebar-tabs">
-        <button class="sidebar-tab active" data-section="commentary">📖 Yorum</button>
+        <button class="sidebar-tab active" data-section="commentary">📖 Notlar</button>
         <!-- future tabs: Harita, Notlarım, vb. -->
       </div>
       <div id="sidebar-sections">
         <div class="sidebar-section active" id="sidebar-section-commentary">
           <div id="commentary-title-bar">
-            <span id="commentary-title">Yorum</span>
-            <span id="commentary-source">Açıklamalı Kutsal Kitap</span>
+            <span id="commentary-title">Notlar</span>
+            <div id="comm-src-toggle" style="display:flex;gap:4px;margin-left:auto;margin-right:6px;flex-wrap:wrap;">
+              <button class="comm-lang-btn comm-src-btn" data-src="akkit" title="AKKİT Açıklamalı Kutsal Kitap">AKKİT</button>
+              <button class="comm-lang-btn comm-src-btn" data-src="esv-tr" title="ESV Global Study Bible (Türkçe)">ESV TR</button>
+              <button class="comm-lang-btn comm-src-btn" data-src="esv-en" title="ESV Global Study Bible (İngilizce)">ESV EN</button>
+            </div>
+            <span id="commentary-source"></span>
           </div>
           <div id="commentary-body">
             <div id="commentary-pre-space"></div>
             <div id="commentary-loading" style="display:none">Yükleniyor…</div>
-            <div id="commentary-intro"></div>
-            <div id="commentary-notes"></div>
+
+            <!-- 4-section layout (ESV EN / ESV TR) -->
+            <div id="comm-sections" style="display:none">
+              <div id="comm-sect-book" class="comm-section">
+                <div class="comm-section-hdr" onclick="this.closest('.comm-section').classList.toggle('open')">
+                  <span class="comm-section-arrow">▶</span>
+                  <span class="comm-section-label">Kitap Özeti</span>
+                </div>
+                <div class="comm-section-body" id="comm-sect-book-body"></div>
+              </div>
+              <div id="comm-sect-chapter" class="comm-section">
+                <div class="comm-section-hdr" onclick="this.closest('.comm-section').classList.toggle('open')">
+                  <span class="comm-section-arrow">▶</span>
+                  <span class="comm-section-label">Bölüm Özeti</span>
+                </div>
+                <div class="comm-section-body" id="comm-sect-chapter-body"></div>
+              </div>
+              <div id="comm-sect-verses" class="comm-section open">
+                <div class="comm-section-hdr" onclick="this.closest('.comm-section').classList.toggle('open')">
+                  <span class="comm-section-arrow">▶</span>
+                  <span class="comm-section-label">Ayet Notları</span>
+                </div>
+                <div class="comm-section-body" id="comm-sect-verses-body"><div id="verses-post-space"></div></div>
+              </div>
+            </div>
+
+            <!-- Legacy layout (AKKİT) -->
+            <div id="comm-legacy">
+              <div id="commentary-intro"></div>
+              <div id="commentary-notes"></div>
+            </div>
+
             <div id="commentary-empty" style="display:none">Bu bölüm için yorum bulunamadı.</div>
             <div id="commentary-post-space"></div>
           </div>
@@ -4285,27 +4334,21 @@
   function scrollCommentaryToVerse(verseNum) {
     const sidebar = document.getElementById('sidebar-panel');
     if (!sidebar.classList.contains('open')) return;
-    const body = document.getElementById('commentary-body');
-    if (!body) return;
-    const notes = Array.from(body.querySelectorAll('.comm-note[data-verse]'));
+    const versesBody = document.getElementById('comm-sect-verses-body');
+    const scrollEl = (versesBody && versesBody.offsetParent !== null) ? versesBody
+                   : document.getElementById('commentary-body');
+    if (!scrollEl) return;
+    const notes = Array.from(scrollEl.querySelectorAll('.comm-note[data-verse]'));
     if (!notes.length) return;
-
-    // Last note whose verse is <= verseNum — don't jump ahead of reading position
     let target = null;
     for (const note of notes) {
       if (parseInt(note.dataset.verse, 10) <= verseNum) target = note;
       else break;
     }
-
-    if (!target) { body.scrollTop = 0; return; }
-
-    // Reset to 0 first so getBoundingClientRect gives positions relative to the
-    // body's top edge, independent of any prior scroll state.
-    // #commentary-body is position:static so offsetParent chains are unreliable;
-    // the reset+measure approach is the only robust option.
-    body.scrollTop = 0;
-    body.scrollTop = Math.max(0,
-      target.getBoundingClientRect().top - body.getBoundingClientRect().top);
+    if (!target) { scrollEl.scrollTop = 0; return; }
+    scrollEl.scrollTop = 0;
+    scrollEl.scrollTop = Math.max(0,
+      target.getBoundingClientRect().top - scrollEl.getBoundingClientRect().top);
   }
 
   // ── Sidebar tab switching ─────────────────────────────────────────────
@@ -4319,38 +4362,64 @@
     });
   });
 
+  // ── Commentary source picker ─────────────────────────────────────────
+  const COMM_SOURCES = {
+    'akkit':  { folder: 'commentary',        label: 'AKKİT',                      newFormat: false },
+    'esv-tr': { folder: 'commentary-tr-esv', label: 'ESV Global Study Bible (TR)', newFormat: true  },
+    'esv-en': { folder: 'commentary-en',     label: 'ESV Global Study Bible',      newFormat: true  },
+  };
+  let commSource = localStorage.getItem('kki_comm_source') || 'akkit';
+  if (!COMM_SOURCES[commSource]) commSource = 'akkit';
+
+  function _applyCommSource(src) {
+    if (!COMM_SOURCES[src]) return;
+    commSource = src;
+    localStorage.setItem('kki_comm_source', src);
+    document.querySelectorAll('.comm-src-btn').forEach(b =>
+      b.classList.toggle('active', b.dataset.src === src));
+    const sidebar = document.getElementById('sidebar-panel');
+    if (sidebar?.classList.contains('open')) loadCommentary(currentBook, currentChapter);
+  }
+  document.querySelectorAll('.comm-src-btn').forEach(btn =>
+    btn.addEventListener('click', e => { e.stopPropagation(); _applyCommSource(btn.dataset.src); }));
+  _applyCommSource(commSource);
+
   // ── Commentary panel ─────────────────────────────────────────────────
-  let _commCache = {};  // key: "BOOK|chap" → data
+  let _commCache = {};
 
   async function loadCommentary(bookName, chap) {
     const bookCode = BOOK_CODES[bookName];
     if (!bookCode) return;
-    const key = `${bookCode}|${chap}`;
+    const src  = commSource || 'akkit';
+    const meta = COMM_SOURCES[src] || COMM_SOURCES['akkit'];
+    const key  = `${src}|${bookCode}|${chap}`;
     const introEl = document.getElementById('commentary-intro');
     const notesEl = document.getElementById('commentary-notes');
     const emptyEl = document.getElementById('commentary-empty');
     const loadEl  = document.getElementById('commentary-loading');
     const titleEl = document.getElementById('commentary-title');
+    const sourceEl = document.getElementById('commentary-source');
 
-    titleEl.textContent = `${bookName} ${chap}. Bölüm — Yorum`;
-    introEl.textContent  = '';
+    titleEl.textContent = `${bookName} ${chap}. Bölüm`;
+    if (sourceEl) sourceEl.textContent = meta.label;
+    introEl.textContent = '';
     notesEl.innerHTML   = '';
     emptyEl.style.display = 'none';
     document.getElementById('commentary-body').scrollTop = 0;
 
     if (_commCache[key]) {
-      renderCommentary(_commCache[key]);
+      renderCommentary(_commCache[key], meta.newFormat);
       return;
     }
 
     loadEl.style.display = 'block';
     try {
-      const res = await fetch(`data/commentary/${bookCode}/${chap}.json`);
+      const res = await fetch(`data/${meta.folder}/${bookCode}/${chap}.json`);
       if (!res.ok) throw new Error('not found');
       const data = await res.json();
       _commCache[key] = data;
       loadEl.style.display = 'none';
-      renderCommentary(data);
+      renderCommentary(data, meta.newFormat);
     } catch {
       loadEl.style.display = 'none';
       emptyEl.style.display = 'block';
@@ -4527,51 +4596,98 @@
       clearTimeout(_timer);
     }
 
-    const notes = document.getElementById('commentary-notes');
-    notes.addEventListener('mouseover', e => {
-      const xref = e.target.closest('.xref-link');
-      if (!xref || xref === activeEl) return;
-      clearTimeout(_timer);
-      activeEl = xref;
-      _timer = setTimeout(() => show(xref), 100);
-    });
-    notes.addEventListener('mouseout', e => {
-      if (!e.target.closest('.xref-link') || !e.relatedTarget?.closest('.xref-link')) hide();
+    ['commentary-notes', 'comm-sect-verses-body'].forEach(id => {
+      const el = document.getElementById(id);
+      if (!el) return;
+      el.addEventListener('mouseover', e => {
+        const xref = e.target.closest('.xref-link');
+        if (!xref || xref === activeEl) return;
+        clearTimeout(_timer);
+        activeEl = xref;
+        _timer = setTimeout(() => show(xref), 100);
+      });
+      el.addEventListener('mouseout', e => {
+        if (!e.target.closest('.xref-link') || !e.relatedTarget?.closest('.xref-link')) hide();
+      });
     });
   })();
 
-  function renderCommentary(data) {
-    const introEl = document.getElementById('commentary-intro');
-    const notesEl = document.getElementById('commentary-notes');
-    const emptyEl = document.getElementById('commentary-empty');
+  function _buildNoteEl(note) {
+    const div = document.createElement('div');
+    div.className = 'comm-note';
+    const vn = _parseNoteVerse(note.ref);
+    if (vn !== null) div.dataset.verse = vn;
+    const ref = document.createElement('div');
+    ref.className = 'comm-ref';
+    ref.textContent = note.ref.includes(':') ? note.ref.split(':')[1].trim() : note.ref;
+    const text = document.createElement('div');
+    text.className = 'comm-text';
+    text.innerHTML = linkifyXrefs(note.text
+      .replace(/([A-ZÇĞİÖŞÜa-zçğışöşü][^\.\!\?]{2,30}?) (Bkz\.|bkz\.|Krş\.|krş\.)/g, '<em>$1</em> $2')
+      .replace(/\bBkz\. /g, '<span style="color:rgba(184,146,42,0.7)">Bkz. </span>')
+      .replace(/\bbkz\. /g, '<span style="color:rgba(184,146,42,0.7)">bkz. </span>'));
+    div.appendChild(ref);
+    div.appendChild(text);
+    return div;
+  }
 
-    introEl.textContent = data.intro || '';
-    notesEl.innerHTML = '';
+  function renderCommentary(data, isNew) {
+    const emptyEl  = document.getElementById('commentary-empty');
+    const sections = document.getElementById('comm-sections');
+    const legacy   = document.getElementById('comm-legacy');
+    if (isNew === undefined) isNew = !!(data.book_intro || data.chapter_intro || data.passages);
 
-    if (!data.notes || data.notes.length === 0) {
-      emptyEl.style.display = 'block';
-      return;
+    sections.style.display = isNew ? '' : 'none';
+    legacy.style.display   = isNew ? 'none' : '';
+
+    if (isNew) {
+      // Book Overview
+      const bookBody = document.getElementById('comm-sect-book-body');
+      bookBody.innerHTML = '';
+      if (data.book_intro) {
+        if (typeof data.book_intro === 'string') {
+          const p = document.createElement('p'); p.className = 'comm-text'; p.style.lineHeight = '1.7'; p.textContent = data.book_intro; bookBody.appendChild(p);
+        } else {
+          Object.entries(data.book_intro).forEach(([title, text]) => {
+            if (!text) return;
+            const s = document.createElement('div'); s.style.cssText = 'margin-bottom:12px;padding-bottom:12px;border-bottom:1px solid rgba(255,255,255,0.05)';
+            const h = document.createElement('div'); h.style.cssText = 'font-size:9px;font-weight:700;letter-spacing:0.12em;text-transform:uppercase;color:rgba(184,146,42,0.7);font-family:Jost,sans-serif;margin-bottom:5px'; h.textContent = title;
+            const p = document.createElement('p'); p.className = 'comm-text'; p.style.cssText = 'line-height:1.7;margin:0'; p.textContent = text;
+            s.appendChild(h); s.appendChild(p); bookBody.appendChild(s);
+          });
+        }
+      }
+      // Chapter Overview — passages styled as ref + title + body
+      const chapBody = document.getElementById('comm-sect-chapter-body');
+      chapBody.innerHTML = '';
+      const passages = data.passages || [];
+      if (passages.length > 0) {
+        passages.forEach(p => {
+          const wrap = document.createElement('div'); wrap.className = 'comm-passage';
+          const refEl = document.createElement('div'); refEl.className = 'comm-passage-ref'; refEl.textContent = p.ref;
+          const titleEl = document.createElement('div'); titleEl.className = 'comm-passage-title'; titleEl.textContent = p.title;
+          const textEl = document.createElement('div'); textEl.className = 'comm-text'; textEl.style.lineHeight = '1.7'; textEl.textContent = p.text;
+          wrap.appendChild(refEl); wrap.appendChild(titleEl); if (p.text) wrap.appendChild(textEl);
+          chapBody.appendChild(wrap);
+        });
+      } else if (data.chapter_intro) {
+        const p = document.createElement('p'); p.className = 'comm-text'; p.style.lineHeight = '1.7'; p.textContent = data.chapter_intro; chapBody.appendChild(p);
+      }
+      // Verse Notes
+      const versBody = document.getElementById('comm-sect-verses-body');
+      versBody.innerHTML = '';
+      (data.notes || []).forEach(note => versBody.appendChild(_buildNoteEl(note)));
+      const postSpace = document.createElement('div'); postSpace.id = 'verses-post-space'; versBody.appendChild(postSpace);
+      if (!data.book_intro && !data.chapter_intro && !passages.length && !data.notes?.length) emptyEl.style.display = 'block';
+    } else {
+      // Legacy AKKİT format
+      const introEl = document.getElementById('commentary-intro');
+      const notesEl = document.getElementById('commentary-notes');
+      introEl.textContent = data.intro || '';
+      notesEl.innerHTML = '';
+      if (!data.notes || data.notes.length === 0) { emptyEl.style.display = 'block'; return; }
+      data.notes.forEach(note => notesEl.appendChild(_buildNoteEl(note)));
     }
-
-    data.notes.forEach(note => {
-      const div = document.createElement('div');
-      div.className = 'comm-note';
-      const vn = _parseNoteVerse(note.ref);
-      if (vn !== null) div.dataset.verse = vn;
-      const ref = document.createElement('div');
-      ref.className = 'comm-ref';
-      ref.textContent = note.ref.includes(':') ? note.ref.split(':')[1].trim() : note.ref;
-      const text = document.createElement('div');
-      text.className = 'comm-text';
-      // Italicize terms that appear in italics on source site (quoted with apostrophes)
-      text.innerHTML = linkifyXrefs(note.text
-        .replace(/([A-ZÇĞİÖŞÜa-zçğışöşü][^\.\!\?]{2,30}?) (Bkz\.|bkz\.|Krş\.|krş\.)/g, '<em>$1</em> $2')
-        .replace(/\bBkz\. /g, '<span style="color:rgba(184,146,42,0.7)">Bkz. </span>')
-        .replace(/\bbkz\. /g, '<span style="color:rgba(184,146,42,0.7)">bkz. </span>'));
-      div.appendChild(ref);
-      div.appendChild(text);
-      notesEl.appendChild(div);
-    });
 
     // Size the pre-space, then sync commentary to current column position.
     updateCommentaryPreSpace();
@@ -4608,6 +4724,16 @@
   }
 
   function updateCommentaryPreSpace() {
+    const versesBody = document.getElementById('comm-sect-verses-body');
+    const postSpace  = document.getElementById('verses-post-space');
+    if (versesBody && versesBody.offsetParent !== null && postSpace) {
+      const H = versesBody.clientHeight;
+      const notes    = versesBody.querySelectorAll('.comm-note');
+      const lastNote = notes[notes.length - 1];
+      const lastH    = lastNote ? lastNote.getBoundingClientRect().height : 0;
+      postSpace.style.height = Math.max(0, H - lastH) + 'px';
+      return;
+    }
     const body = document.getElementById('commentary-body');
     const pre  = document.getElementById('commentary-pre-space');
     const post = document.getElementById('commentary-post-space');
@@ -4615,9 +4741,6 @@
     const H = body.clientHeight;
     if (pre) pre.style.height = '0px';
     if (post) {
-      // Post-space must be exactly (H - lastNoteHeight) so the furthest the
-      // user can scroll is the last note's top edge flush with the panel top —
-      // no blank space below the last note is ever reachable.
       const notes    = body.querySelectorAll('.comm-note');
       const lastNote = notes[notes.length - 1];
       const lastH    = lastNote ? lastNote.getBoundingClientRect().height : 0;

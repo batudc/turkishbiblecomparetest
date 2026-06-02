@@ -1973,7 +1973,7 @@
       <button class="hdr-nav-arrow" id="btn-next-ch" title="Next chapter">›</button>
       <button class="hdr-btn" id="btn-translations" title="Manage translations">Translations <span style="opacity:.4;font-size:9px;">▾</span></button>
       <button class="hdr-btn" id="btn-style" title="View options">View <span style="opacity:.4;font-size:9px;">▾</span></button>
-      <button class="hdr-btn" id="btn-commentary" title="Chapter commentary">Commentary <span style="opacity:.4;font-size:9px;">▾</span></button>
+      <button class="hdr-btn" id="btn-commentary" title="Chapter commentary">Study Notes <span style="opacity:.4;font-size:9px;">▾</span></button>
       <button class="hdr-btn" id="btn-tour" title="Site turunu başlat">?</button>
     </div>
   </div>
@@ -1984,7 +1984,7 @@
     <button class="mob-menu-row" id="mob-row-chapter" onclick="event.stopPropagation(); closeMobMenu(); document.getElementById('btn-chapter').click()">Chapter ▾</button>
     <button class="mob-menu-row" id="mob-row-translations" onclick="event.stopPropagation(); closeMobMenu(); document.getElementById('btn-translations').click()">Translations ▾</button>
     <button class="mob-menu-row" id="mob-row-style" onclick="event.stopPropagation(); closeMobMenu(); document.getElementById('btn-style').click()">View ▾</button>
-    <button class="mob-menu-row" id="mob-row-commentary" onclick="event.stopPropagation(); closeMobMenu(); document.getElementById('btn-commentary').click()">Commentary ▾</button>
+    <button class="mob-menu-row" id="mob-row-commentary" onclick="event.stopPropagation(); closeMobMenu(); document.getElementById('btn-commentary').click()">Study Notes ▾</button>
     <div class="mob-menu-sep"></div>
     <div class="mob-menu-links">
       <a href="compare.html">Compare</a>
@@ -2005,18 +2005,19 @@
     <!-- ===== SIDEBAR PANEL ===== -->
     <div id="sidebar-panel">
       <div id="sidebar-tabs">
-        <button class="sidebar-tab active" data-section="commentary">📖 Yorum</button>
+        <button class="sidebar-tab active" data-section="commentary">📖 Study Notes</button>
         <!-- future tabs: Harita, Notlarım, vb. -->
       </div>
       <div id="sidebar-sections">
         <div class="sidebar-section active" id="sidebar-section-commentary">
           <div id="commentary-title-bar">
-            <span id="commentary-title">Commentary</span>
-            <div id="comm-lang-toggle" style="display:flex;gap:4px;margin-left:auto;margin-right:6px;">
-              <button id="comm-lang-en" class="comm-lang-btn active" title="English commentary">EN</button>
-              <button id="comm-lang-tr" class="comm-lang-btn" title="Turkish commentary">TR</button>
+            <span id="commentary-title">Study Notes</span>
+            <div id="comm-src-toggle" style="display:flex;gap:4px;margin-left:auto;margin-right:6px;flex-wrap:wrap;">
+              <button class="comm-lang-btn comm-src-btn" data-src="esv-en" title="ESV Global Study Bible (English)">ESV EN</button>
+              <button class="comm-lang-btn comm-src-btn" data-src="akkit" title="AKKİT Açıklamalı Kutsal Kitap">AKKİT</button>
+              <button class="comm-lang-btn comm-src-btn" data-src="esv-tr" title="ESV Global Study Bible (Türkçe)">ESV TR</button>
             </div>
-            <span id="commentary-source">Commentary</span>
+            <span id="commentary-source"></span>
           </div>
           <div id="commentary-body">
             <div id="commentary-pre-space"></div>
@@ -3691,19 +3692,28 @@
     if (isOpening) loadCommentary(currentBook, currentChapter);
   });
 
-  // Commentary language toggle (EN / TR)
-  let commLang = localStorage.getItem('kki_comm_lang') || 'en';
-  function _applyCommLang(lang) {
-    commLang = lang;
-    localStorage.setItem('kki_comm_lang', lang);
-    document.getElementById('comm-lang-en').classList.toggle('active', lang === 'en');
-    document.getElementById('comm-lang-tr').classList.toggle('active', lang === 'tr');
+  // Commentary source picker: esv-en | akkit | esv-tr
+  const COMM_SOURCES = {
+    'esv-en': { folder: 'commentary-en',     label: 'ESV Global Study Bible', newFormat: true  },
+    'akkit':  { folder: 'commentary',         label: 'AKKİT',                  newFormat: false },
+    'esv-tr': { folder: 'commentary-tr-esv',  label: 'ESV Global Study Bible (TR)', newFormat: true  },
+  };
+  let commSource = localStorage.getItem('kki_comm_source') || 'esv-en';
+  // backwards-compat: migrate old kki_comm_lang pref
+  if (!COMM_SOURCES[commSource]) commSource = 'esv-en';
+
+  function _applyCommSource(src) {
+    if (!COMM_SOURCES[src]) return;
+    commSource = src;
+    localStorage.setItem('kki_comm_source', src);
+    document.querySelectorAll('.comm-src-btn').forEach(b =>
+      b.classList.toggle('active', b.dataset.src === src));
     const sidebar = document.getElementById('sidebar-panel');
     if (sidebar?.classList.contains('open')) loadCommentary(currentBook, currentChapter);
   }
-  document.getElementById('comm-lang-en')?.addEventListener('click', e => { e.stopPropagation(); _applyCommLang('en'); });
-  document.getElementById('comm-lang-tr')?.addEventListener('click', e => { e.stopPropagation(); _applyCommLang('tr'); });
-  _applyCommLang(commLang); // restore on load
+  document.querySelectorAll('.comm-src-btn').forEach(btn =>
+    btn.addEventListener('click', e => { e.stopPropagation(); _applyCommSource(btn.dataset.src); }));
+  _applyCommSource(commSource);
 
   // Re-measure verse positions after sidebar width transition (open or close).
   // The sidebar changes column widths → text reflows → verse offsetTops change →
@@ -4450,14 +4460,16 @@
   async function loadCommentary(bookName, chap) {
     const bookCode = BOOK_CODES[bookName];
     if (!bookCode) return;
-    const lang = commLang || 'en';
-    const key = `${lang}|${bookCode}|${chap}`;
+    const src  = commSource || 'esv-en';
+    const meta = COMM_SOURCES[src] || COMM_SOURCES['esv-en'];
+    const key  = `${src}|${bookCode}|${chap}`;
     const emptyEl = document.getElementById('commentary-empty');
     const loadEl  = document.getElementById('commentary-loading');
     const titleEl = document.getElementById('commentary-title');
     const sourceEl = document.getElementById('commentary-source');
 
     titleEl.textContent = `${bookName} ${chap}`;
+    if (sourceEl) sourceEl.textContent = meta.label;
     emptyEl.style.display = 'none';
     document.getElementById('commentary-body').scrollTop = 0;
 
@@ -4466,23 +4478,22 @@
     document.getElementById('commentary-notes').innerHTML = '';
     document.getElementById('comm-sect-book-body').innerHTML = '';
     document.getElementById('comm-sect-chapter-body').innerHTML = '';
-    // comm-sect-passages removed — passages now rendered inside chapter body
     document.getElementById('comm-sect-verses-body').innerHTML = '';
 
     if (_commCache[key]) {
-      renderCommentary(_commCache[key]);
+      renderCommentary(_commCache[key], meta.newFormat);
       return;
     }
 
     loadEl.style.display = 'block';
-    const folder = lang === 'en' ? 'commentary-en' : 'commentary';
+    const folder = meta.folder;
     try {
       const res = await fetch(`data/${folder}/${bookCode}/${chap}.json`);
       if (!res.ok) throw new Error('not found');
       const data = await res.json();
       _commCache[key] = data;
       loadEl.style.display = 'none';
-      renderCommentary(data);
+      renderCommentary(data, meta.newFormat);
     } catch {
       loadEl.style.display = 'none';
       emptyEl.style.display = 'block';
@@ -4695,11 +4706,12 @@
     return div;
   }
 
-  function renderCommentary(data) {
+  function renderCommentary(data, isNew) {
     const emptyEl  = document.getElementById('commentary-empty');
     const sections = document.getElementById('comm-sections');
     const legacy   = document.getElementById('comm-legacy');
-    const isNew    = !!(data.book_intro || data.chapter_intro || data.passages);
+    // isNew passed explicitly from loadCommentary; fall back to data-based detection
+    if (isNew === undefined) isNew = !!(data.book_intro || data.chapter_intro || data.passages);
 
     // Show the right layout
     sections.style.display = isNew    ? '' : 'none';
