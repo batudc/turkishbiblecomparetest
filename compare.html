@@ -268,18 +268,38 @@
 
     #commentary-title-bar {
       flex-shrink: 0;
-      padding: 10px 14px 9px;
+      padding: 10px 14px 0;
       border-bottom: 1px solid rgba(184,146,42,0.2);
-      display: flex; align-items: center; flex-wrap: wrap; gap: 4px;
     }
-    .comm-lang-btn {
-      background: none; border: 1px solid rgba(184,146,42,0.25);
-      border-radius: 3px; color: rgba(184,146,42,0.5);
-      font-size: 9px; font-weight: 700; letter-spacing: 0.1em;
-      padding: 2px 6px; cursor: pointer; transition: all 0.15s;
+    #commentary-title-top {
+      display: flex; align-items: center; gap: 6px;
+      margin-bottom: 6px;
     }
-    .comm-lang-btn.active { background: rgba(184,146,42,0.18); color: var(--gold-light); border-color: rgba(184,146,42,0.5); }
-    .comm-lang-btn:hover { color: var(--gold-light); }
+    #comm-src-row {
+      display: flex; gap: 6px; flex-wrap: wrap;
+      padding-bottom: 8px;
+    }
+    .comm-src-btn {
+      padding: 3px 10px;
+      background: rgba(255,255,255,0.05);
+      border: 1px solid rgba(255,255,255,0.1);
+      border-radius: 10px;
+      color: rgba(247,241,232,0.5);
+      font-family: 'Jost', sans-serif;
+      font-size: 10px; font-weight: 500; letter-spacing: 0.04em;
+      cursor: pointer; white-space: nowrap;
+      transition: background 0.12s, color 0.12s, border-color 0.12s;
+    }
+    .comm-src-btn:hover {
+      background: rgba(184,146,42,0.12);
+      border-color: rgba(184,146,42,0.3);
+      color: var(--gold-light);
+    }
+    .comm-src-btn.active {
+      background: rgba(184,146,42,0.2);
+      border-color: rgba(184,146,42,0.55);
+      color: var(--gold-light);
+    }
     #commentary-title {
       display: block;
       font-size: 8.5px;
@@ -2011,13 +2031,15 @@
       <div id="sidebar-sections">
         <div class="sidebar-section active" id="sidebar-section-commentary">
           <div id="commentary-title-bar">
-            <span id="commentary-title">Study Notes</span>
-            <div id="comm-src-toggle" style="display:flex;gap:4px;margin-left:auto;margin-right:6px;flex-wrap:wrap;">
-              <button class="comm-lang-btn comm-src-btn" data-src="esv-en" title="ESV Global Study Bible (English)">ESV EN</button>
-              <button class="comm-lang-btn comm-src-btn" data-src="akkit" title="AKKİT Açıklamalı Kutsal Kitap">AKKİT</button>
-              <button class="comm-lang-btn comm-src-btn" data-src="esv-tr" title="ESV Global Study Bible (Türkçe)">ESV TR</button>
+            <div id="commentary-title-top">
+              <span id="commentary-title">Study Notes</span>
+              <span id="commentary-source" style="font-size:9px;color:rgba(247,241,232,0.3);font-style:italic;font-family:'Jost',sans-serif;margin-left:4px;"></span>
             </div>
-            <span id="commentary-source"></span>
+            <div id="comm-src-row">
+              <button class="comm-src-btn" data-src="esv-en">ESV EN</button>
+              <button class="comm-src-btn" data-src="akkit">AKKİT</button>
+              <button class="comm-src-btn" data-src="esv-tr">ESV TR</button>
+            </div>
           </div>
           <div id="commentary-body">
             <div id="commentary-pre-space"></div>
