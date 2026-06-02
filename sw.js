@@ -1,5 +1,5 @@
 const SHELL_CACHE = 'kki-shell-v4';  // bumped: lang-switch.js localStorage fix
-const DATA_CACHE  = 'kki-data-v2';  // bumped: updated commentary-en JSON structure
+const DATA_CACHE  = 'kki-data-v3';  // bumped: updated commentary-en JSON structure
 
 const SHELL_FILES = [
   '/',
