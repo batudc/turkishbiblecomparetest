@@ -1,87 +1,52 @@
 {
   "source": "ESV Global Study Bible (Crossway) — Türkçe çeviri — Lisans kapsamında kullanılmaktadır",
   "book_intro": {
-    "Yazar, Tarih ve Alıcılar": "İbraniler Mektubu'nun yazarı bilinmemektedir. Pavlus, Apollos ve başkaları önerilmiştir. Mektup, Yahudi Hristiyan okuyuculara hitap etmekte olup onları eski antlaşma pratiklerine dönmekten caydırmak amacıyla kaleme alınmıştır. M.S. 70 öncesine, muhtemelen 60'lı yıllara tarihlendirilebilir.",
-    "Tema": "İsa Mesih; meleklerden, Musa'dan, Levililer kâhinliğinden ve eski antlaşmanın kendisinden üstündür. Mektup, İsa'nın hem gerçek Oğul hem de ebedi Başkâhin olarak sunduğu kurtuluşun mükemmeliyetini ortaya koymaktadır.",
-    "Amaç ve Arka Plan": "Okuyucular baskı altında imandan uzaklaşma tehlikesiyle karşı karşıyaydı. Yazar, İsa'nın kurtuluş bakımından her şeyin üzerinde olduğunu kanıtlayarak onları imanlarında sebat etmeye çağırmaktadır.",
-    "Temel Temalar": "İsa'nın üstünlüğü; imanla dayanma; ikazlar; göksel tapınak ve daha iyi antlaşma; Eski Antlaşma'nın yerine getirilmesi.",
-    "Anahat": "1:1–2:18 Meleklerden Üstün Oğul | 3:1–10:18 Musa Şeriatından Üstün Başkâhin | 10:19–12:29 İmana ve Sebata Çağrı | 13:1–25 Son Öğütler"
+    "Author, Date & Recipients": "Yazar, Tarih ve Alıcılar\n\nİbranilerin yazarı bilinmemektedir. Timoteos'u tanıyordu (13:23). İsa'nın görgü tanığı değildi (bkz. 2:1, 3). Mektup muhtemelen MS 70 'ten önce yazılmıştı. İlk el yazmaları, daha önce Yahudi dinine çekilmiş olan Yahudi Hristiyanların yanı sıra Yahudi olmayan Hristiyanlara da yazıldığı eski varsayımını yansıtan \"İbranilere\" başlığını taşır. Yazar okurlarını tanıyordu ve onları tekrar görmek istiyordu (13:19).",
+    "Theme": "Tema\n\nİsa Mesih herhangi bir melek, rahip veya eski antlaşma uygulamasından daha büyüktür. Hristiyanlar, İsa'nın getirdiği büyük kurtuluşu terk etmemelidir. Mesih'te bulunan gerçek dinlenmeye inançla tutunmalı ve kilisedeki diğerlerini de aynısını yapmaya teşvik etmelidirler.",
+    "Purpose & Background": "QUERY LENGTH LIMIT EXCEEDED. MAX ALLOWED QUERY : 500 CHARS",
+    "Key Themes": "QUERY LENGTH LIMIT EXCEEDED. MAX ALLOWED QUERY : 500 CHARS",
+    "Outline": "Taslak\n\nİsa Melek Varlıklardan Üstündür (1:1 -2:18)\nİsa Mozaik Yasasından Üstündür (3:1 -10:18)\nİman ve Dayanıklılığa Çağrı (10:19-12:29)\nSonuç Teşvik ve Açıklamalar (13:1 -25)"
   },
-  "chapter_intro": "İsa Musa Şeriatından Üstündür.",
+  "chapter_intro": "İsa Mozaik Yasasından Üstündür.: İsa'nın Mozaik yasasının aracılarından (melekler, 2:2) daha üstün olduğu sonucuna varan yazar, şimdi İsa'nın Musa'ya (3:1 -6), Aaronic yüksek rahipliğine (4: 14 -7: 28), eski antlaşmaya (8:1 -13) ve Mozaik kurbanlarına (9:1 -10:18) üstünlüğünü kuruyor. Bu bölüm, Hristiyan azmi için üç öğüt içermektedir (3:7 - 4:13; 5:11–6:12; 10:19–39).",
   "passages": [
     {
       "ref": "3:1–10:18",
-      "title": "İsa Musa Şeriatından Üstündür.",
-      "text": "Yazar, İsa'nın yasanın aracılarına (melekler, 2:2) üstünlüğünü kanıtladıktan sonra O'nun Musa'ya (3:1–6), Harunî kâhinliğe (4:14–7:28), eski antlaşmaya (8:1–13) ve Musa'nın kurbanlarına (9:1–10:18) üstünlüğünü ortaya koyar."
-    },
-    {
-      "ref": "3:1–10:18",
-      "title": "İsa Musa Şeriatından Üstündür.",
-      "text": ""
-    },
-    {
-      "ref": "3:1–10:18",
-      "title": "İsa Musa Şeriatından Üstündür.",
-      "text": ""
-    },
-    {
-      "ref": "3:1–10:18",
-      "title": "İsa Musa Şeriatından Üstündür.",
-      "text": ""
-    },
-    {
-      "ref": "3:1–10:18",
-      "title": "İsa Musa Şeriatından Üstündür.",
-      "text": ""
-    },
-    {
-      "ref": "3:1–10:18",
-      "title": "İsa Musa Şeriatından Üstündür.",
-      "text": ""
-    },
-    {
-      "ref": "3:1–10:18",
-      "title": "İsa Musa Şeriatından Üstündür.",
-      "text": ""
-    },
-    {
-      "ref": "3:1–10:18",
-      "title": "İsa Musa Şeriatından Üstündür.",
-      "text": ""
+      "title": "İsa Mozaik Yasasından Üstündür.",
+      "text": "İsa'nın Mozaik yasasının arabulucularından (melekler, 2:2) daha üstün olduğu sonucuna varan yazar, şimdi İsa'nın Musa'ya (3:1 -6), Aaronic yüksek rahipliğine (4: 14 -7: 28), eski antlaşmaya (8:1 -13) ve Mozaik kurbanlarına (9:1 -10: 18) üstünlüğünü kuruyor. Bu bölüm, Hristiyan azmi için üç öğüt içermektedir (3:7 - 4:13; 5:11–6:12; 10:19–39)."
     }
   ],
   "notes": [
     {
-      "ref": "İbr. 3:1",
-      "text": "Kutsal kardeşler: İnanlıları adlandıran ilk kardeşlik ifadesi. Göksel çağrının ortağı: İmanlılar, Mesih'in krallığına çağrılmıştır."
+      "ref": "Heb. 3:1",
+      "text": "Bu nedenle. İsa'nın yüksek rahipliği ışığında (2:17). kutsal kardeşler. Tanrı'nın ailesinin üyeleri (3:12; 10:19; 13:22); “azizler” veya kutsanmış olanlar olarak da adlandırılır (13:24). göksel çağrı. Başka bir yerde “göksel ”, Tanrı'nın mükemmel düzenini (8:5; 9:23) ve Tanrı ile gelecekteki yaşamı (11:16; 12:22) tanımlar.“ Aramak ”için bkz. 2:11 ve 9:15. İsa,“ gönderilen kişi ”olduğu için bir elçidir (bkz. Luka 4:18). İtirafımız. Hıristiyan inancının içeriği (bkz. İbraniler 4:14; 10:23)."
     },
     {
-      "ref": "İbr. 3:3–6",
-      "text": "Ev ve ev sahibi zıtlığı: Musa evin içinde güvenilir bir hizmetkârdı; Mesih ise evin sahibidir. Bu, Mesih'in Musa'dan üstünlüğünü ikna edici biçimde ortaya koyar."
+      "ref": "Heb. 3:3–6",
+      "text": "daha fazla ihtişam. Musa'nın büyük sadakatine rağmen, İsa üstündür. ev. Tanrı'nın Oğlu olarak İsa'nın Tanrı'nın evinde ayrıcalıklı bir yeri vardır (1 Tarihler 17:14). Musa o evde değerli bir hizmetçi olarak kalır (Num. 12:7)."
     },
     {
-      "ref": "İbr. 3:6",
-      "text": "Eğer cesaretimizi ve ümidimizi... korursak: İmanda sebat, kurtuluşun koşulu değil, kanıtıdır. Gerçek bir imanlı sonuna kadar dayanır."
+      "ref": "Heb. 3:6",
+      "text": "Mesih, “meshedilmiş olan” anlamına gelen “Mesih” in Yunanca karşılığıdır (bkz. 1:9). biz onun eviyiz."
     },
     {
-      "ref": "İbr. 3:7–4:13",
-      "text": "Mezmur 95'ten alınan uzun alıntı, çölde isyan eden kuşağı örnek göstererek okuyucuları Tanrı'nın sesini duyan bugün imanla itaat etmeye çağırır."
+      "ref": "Heb. 3:7–4:13",
+      "text": "İsa ve Musa'nın (3:1 -6) zıtlığı, takipçilerinin yanıtlarının karşılaştırılmasına yol açar."
     },
     {
-      "ref": "İbr. 3:7–11",
-      "text": "Bugün sesimi duyarsanız yüreklerinizi nasırlaştırmayın: Sina'daki halk Tanrı'nın sesini duymuş; ancak inanmamıştır. İman, duymanın ötesinde güvenmeyi gerektirir."
+      "ref": "Heb. 3:7–11",
+      "text": "Bu nedenle yazar, Ps. 95:7 -11 ’den alıntı yaparak, Musa'nın sadakatini Musa'nın gününün inançsız halkıyla karşılaştırır. İbraniler bu mezmuru Kutsal Ruh'a bağlar (Markos 12:36; Elçilerin İşleri 1:16' yı karşılaştırın)."
     },
     {
-      "ref": "İbr. 3:12–13",
-      "text": "Günahın aldatıcılığıyla yürekleri nasırlaşmasın: Dinden dönüş dramatik bir redden çok inancın yavaş aşınmasıyla başlar. Topluluğun günlük teşviki bu tehlikeye karşı en önemli güvencedir."
+      "ref": "Heb. 3:12–13",
+      "text": "Mezmur 95 'e dayanarak İbraniler, sertleşmiş, günahkar bir kalbin inançsızlığının kişinin düşmesine neden olmasına izin vermemeye karşı uyarır (“ yüz çevirin, terk edin ”; Luka 8:13; 1 Tim. 4:1' i karşılaştırın). “bugün” olarak adlandırıldığı sürece. \"Tanrı'nın dünya tarihi için kurtarıcı planları açısından kilise, Tanrı'nın geldiği, konuştuğu ve gittiği özel bir anda yaşar ve inananlar onun dönüşünü bekler - inanç bu saatte çağrılır."
     },
     {
-      "ref": "İbr. 3:14",
-      "text": "Başlangıçtaki güveni sonuna kadar koruduğumuz takdirde: Sebat, sahici imanın özelliğidir."
+      "ref": "Heb. 3:14",
+      "text": "QUERY LENGTH LIMIT EXCEEDED. MAX ALLOWED QUERY : 500 CHARS"
     },
     {
-      "ref": "İbr. 3:15–19",
-      "text": "İman etmeme yüzünden giremedi: Halkın başarısızlığı bedensel bir yetersizlik değil, manevi ve ahlaki bir başarısızlıktı; inatla, kasıtlı bir imansızlıktı."
+      "ref": "Heb. 3:15–19",
+      "text": "Yine Ps. 95:7 -8 'den alıntı yapan yazar, göç kuşağının başarısızlığından birkaç puan alır (özellikle bkz. Örn. 17:1 -7; Num. 14:20–38). Tanrı'nın kurtuluşuna ve göçte birçok mucizeye tanık oldular, ancak yine de itaatsizlik ve inançsızlık içinde yanıt verdiler, bu yüzden Vaat Edilen Toprakların geri kalanına giremediler."
     }
   ]
 }
