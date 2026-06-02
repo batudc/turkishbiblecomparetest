@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Holy Bible Study - Site Structure</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: #0d1b26;
+      color: #f7f1e8;
+      padding: 40px 20px;
+    }
+    .container { max-width: 1400px; margin: 0 auto; }
+    h1 {
+      text-align: center;
+      margin-bottom: 50px;
+      font-size: 2.5rem;
+      color: #e8c96a;
+    }
+    .section {
+      margin-bottom: 60px;
+      background: rgba(255,255,255,0.03);
+      padding: 30px;
+      border-radius: 8px;
+      border: 1px solid rgba(184,146,42,0.2);
+    }
+    .section-title {
+      font-size: 1.5rem;
+      color: #e8c96a;
+      margin-bottom: 25px;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+    .pages-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 20px;
+    }
+    .page-card {
+      background: linear-gradient(135deg, rgba(184,146,42,0.1) 0%, rgba(184,146,42,0.05) 100%);
+      border: 2px solid rgba(184,146,42,0.3);
+      border-radius: 8px;
+      padding: 20px;
+      transition: all 0.3s ease;
+      position: relative;
+    }
+    .page-card:hover {
+      border-color: #e8c96a;
+      background: linear-gradient(135deg, rgba(184,146,42,0.2) 0%, rgba(184,146,42,0.1) 100%);
+      transform: translateY(-4px);
+    }
+    .page-pair {
+      display: flex;
+      gap: 15px;
+      align-items: center;
+    }
+    .page-box {
+      flex: 1;
+      background: rgba(13,27,38,0.6);
+      border-radius: 6px;
+      padding: 12px;
+      text-align: center;
+      font-weight: 600;
+    }
+    .page-box.en {
+      border-left: 4px solid #4caf77;
+      color: #90ee90;
+    }
+    .page-box.tr {
+      border-left: 4px solid #e8c96a;
+      color: #e8c96a;
+    }
+    .arrow {
+      color: rgba(232,201,106,0.5);
+      font-size: 1.2rem;
+      flex-shrink: 0;
+    }
+    .label {
+      font-size: 0.75rem;
+      color: rgba(247,241,232,0.6);
+      margin-top: 8px;
+      font-style: italic;
+    }
+    .legend {
+      display: flex;
+      gap: 30px;
+      margin-top: 30px;
+      padding-top: 20px;
+      border-top: 1px solid rgba(184,146,42,0.2);
+      flex-wrap: wrap;
+    }
+    .legend-item {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      font-size: 0.9rem;
+    }
+    .legend-color {
+      width: 12px;
+      height: 12px;
+      border-radius: 2px;
+    }
+    .text-center { text-align: center; }
+    .note {
+      background: rgba(76,175,119,0.1);
+      border-left: 3px solid #4caf77;
+      padding: 15px;
+      border-radius: 4px;
+      margin-top: 20px;
+      font-size: 0.9rem;
+      line-height: 1.6;
+    }
+    .deleted {
+      background: rgba(244,67,54,0.1);
+      border-left: 3px solid #f44336;
+      padding: 15px;
+      border-radius: 4px;
+      margin-top: 20px;
+      font-size: 0.9rem;
+      line-height: 1.6;
+      color: rgba(247,241,232,0.7);
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 20px;
+    }
+    th, td {
+      padding: 12px;
+      text-align: left;
+      border-bottom: 1px solid rgba(184,146,42,0.2);
+    }
+    th {
+      background: rgba(184,146,42,0.1);
+      color: #e8c96a;
+      font-weight: 600;
+    }
+    td {
+      font-size: 0.95rem;
+    }
+    .code {
+      background: rgba(0,0,0,0.3);
+      padding: 2px 6px;
+      border-radius: 3px;
+      font-family: 'Courier New', monospace;
+      font-size: 0.85rem;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>🗺️ Site Structure & Language Routing</h1>
+
+    <!-- HOMEPAGES -->
+    <div class="section">
+      <div class="section-title">📍 Homepages</div>
+      <div class="pages-grid">
+        <div class="page-card">
+          <div class="page-pair">
+            <div class="page-box en">index.html</div>
+            <div class="arrow">↔</div>
+            <div class="page-box tr">anasayfa.html</div>
+          </div>
+          <div class="label">Language preference sets route between these</div>
+        </div>
+      </div>
+      <div class="note">
+        <strong>Default behavior:</strong> Users land on index.html (English homepage) first. If they select Turkish (TR button), they're sent to anasayfa.html and preference is saved.
+      </div>
+    </div>
+
+    <!-- READER PAGES -->
+    <div class="section">
+      <div class="section-title">📖 Reader Pages (Compare & Search)</div>
+      <div class="pages-grid">
+        <div class="page-card">
+          <div class="page-pair">
+            <div class="page-box en">compare.html</div>
+            <div class="arrow">↔</div>
+            <div class="page-box tr">karsilastirma.html</div>
+          </div>
+          <div class="label">View & compare translations side-by-side</div>
+        </div>
+        <div class="page-card">
+          <div class="page-pair">
+            <div class="page-box en">ancient.html</div>
+            <div class="arrow">↔</div>
+            <div class="page-box tr">antikdil.html</div>
+          </div>
+          <div class="label">Word Study - Hebrew/Greek original languages</div>
+        </div>
+        <div class="page-card">
+          <div class="page-pair">
+            <div class="page-box en">search.html</div>
+            <div class="arrow">↔</div>
+            <div class="page-box tr">arama.html</div>
+          </div>
+          <div class="label">Search verses across all translations</div>
+        </div>
+      </div>
+      <div class="note">
+        <strong>How it works:</strong> User selects a language preference via the EN/TR toggle in the header. lang-switch.js (in &lt;head&gt;) reads their preference and redirects to the matching language version. If they visit a page in the "wrong" language, they're instantly redirected.
+      </div>
+    </div>
+
+    <!-- INFO PAGES -->
+    <div class="section">
+      <div class="section-title">ℹ️ Information Pages</div>
+      <div class="pages-grid">
+        <div class="page-card">
+          <div class="page-pair">
+            <div class="page-box en">about.html</div>
+            <div class="arrow">↔</div>
+            <div class="page-box tr">hakkimizda.html</div>
+          </div>
+          <div class="label">Mission, values, team</div>
+        </div>
+        <div class="page-card">
+          <div class="page-pair">
+            <div class="page-box en">contact.html</div>
+            <div class="arrow">↔</div>
+            <div class="page-box tr">iletisim.html</div>
+          </div>
+          <div class="label">Contact form & support</div>
+        </div>
+        <div class="page-card">
+          <div class="page-pair">
+            <div class="page-box en">privacy.html</div>
+            <div class="arrow">↔</div>
+            <div class="page-box tr">gizlilik.html</div>
+          </div>
+          <div class="label">Privacy policy</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ROUTING LOGIC -->
+    <div class="section">
+      <div class="section-title">🔄 Language Routing Logic (lang-switch.js)</div>
+      <table>
+        <thead>
+          <tr>
+            <th>User Action</th>
+            <th>Saved Preference</th>
+            <th>Current Page</th>
+            <th>What Happens</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>First visit, no preference</td>
+            <td>null</td>
+            <td>index.html</td>
+            <td>Shows English page, can select TR button to switch</td>
+          </tr>
+          <tr>
+            <td>Clicks TR toggle button</td>
+            <td>tr</td>
+            <td>index.html</td>
+            <td>Saves pref, redirects to anasayfa.html</td>
+          </tr>
+          <tr>
+            <td>Navigates to karsilastirma.html</td>
+            <td>en</td>
+            <td>karsilastirma.html</td>
+            <td>Pref says "en", page is "tr" → redirects to compare.html</td>
+          </tr>
+          <tr>
+            <td>Navigates to compare.html</td>
+            <td>tr</td>
+            <td>compare.html</td>
+            <td>Pref says "tr", page is "en" → redirects to karsilastirma.html</td>
+          </tr>
+          <tr>
+            <td>Uses browser back button</td>
+            <td>en</td>
+            <td>Any page</td>
+            <td>No redirect, shows the page they navigated from</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <!-- DELETED PAGES -->
+    <div class="section">
+      <div class="section-title">🗑️ Deleted Pages (Redirects Only)</div>
+      <table>
+        <thead>
+          <tr>
+            <th>Old URL</th>
+            <th>Redirects To</th>
+            <th>Reason</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><span class="code">/interlinear.html</span></td>
+            <td><span class="code">/ancient.html</span></td>
+            <td>Consolidated English pages (interlinear was duplicate of ancient)</td>
+          </tr>
+          <tr>
+            <td><span class="code">/interlinear-en.html</span></td>
+            <td><span class="code">/ancient.html</span></td>
+            <td>Consolidated English pages</td>
+          </tr>
+        </tbody>
+      </table>
+      <div class="deleted">
+        <strong>⚠️ Important:</strong> These deleted files have been removed from git tracking and vercel.json. Vercel handles the 301 redirects. Old bookmarks or links to these pages will be forwarded to /ancient.html.
+      </div>
+    </div>
+
+    <!-- DEPLOYMENT -->
+    <div class="section">
+      <div class="section-title">🚀 Deployment & Caching</div>
+      <div class="note">
+        <strong>Vercel:</strong> Hosts all HTML files directly (no server-side redirects for living pages). Service Worker (sw.js) handles offline caching.<br><br>
+        <strong>Service Worker:</strong> Precaches app shell (v4), caches translation data (v1) on first read.<br><br>
+        <strong>Browser Cache:</strong> May be stale after updates. Users can hard-refresh (Cmd+Shift+R / Ctrl+Shift+R) to clear.
+      </div>
+    </div>
+
+    <!-- NAVIGATION FLOW -->
+    <div class="section">
+      <div class="section-title">➡️ Navigation Flow</div>
+      <svg viewBox="0 0 800 400" style="width: 100%; border: 1px solid rgba(184,146,42,0.2); border-radius: 8px; background: rgba(0,0,0,0.2); padding: 20px;">
+        <!-- Homepages -->
+        <rect x="20" y="20" width="120" height="60" fill="rgba(76,175,119,0.2)" stroke="#4caf77" stroke-width="2" rx="4"/>
+        <text x="80" y="55" text-anchor="middle" fill="#4caf77" font-weight="bold">index.html</text>
+
+        <rect x="160" y="20" width="120" height="60" fill="rgba(232,201,106,0.2)" stroke="#e8c96a" stroke-width="2" rx="4"/>
+        <text x="220" y="55" text-anchor="middle" fill="#e8c96a" font-weight="bold">anasayfa.html</text>
+
+        <!-- Arrow -->
+        <path d="M 140 50 L 160 50" stroke="rgba(232,201,106,0.5)" stroke-width="2" marker-end="url(#arrowhead)"/>
+        <text x="150" y="40" text-anchor="middle" fill="rgba(247,241,232,0.6)" font-size="12">lang-switch</text>
+
+        <!-- Reader pages -->
+        <rect x="20" y="150" width="100" height="60" fill="rgba(76,175,119,0.2)" stroke="#4caf77" stroke-width="2" rx="4"/>
+        <text x="70" y="185" text-anchor="middle" fill="#4caf77" font-weight="bold" font-size="13">compare</text>
+
+        <rect x="140" y="150" width="100" height="60" fill="rgba(232,201,106,0.2)" stroke="#e8c96a" stroke-width="2" rx="4"/>
+        <text x="190" y="185" text-anchor="middle" fill="#e8c96a" font-weight="bold" font-size="13">karsilastirma</text>
+
+        <path d="M 120 180 L 140 180" stroke="rgba(232,201,106,0.5)" stroke-width="2"/>
+        <path d="M 140 180 L 120 180" stroke="rgba(232,201,106,0.5)" stroke-width="2"/>
+
+        <!-- Info pages -->
+        <rect x="260" y="150" width="100" height="60" fill="rgba(76,175,119,0.2)" stroke="#4caf77" stroke-width="2" rx="4"/>
+        <text x="310" y="185" text-anchor="middle" fill="#4caf77" font-weight="bold" font-size="13">about</text>
+
+        <rect x="380" y="150" width="100" height="60" fill="rgba(232,201,106,0.2)" stroke="#e8c96a" stroke-width="2" rx="4"/>
+        <text x="430" y="185" text-anchor="middle" fill="#e8c96a" font-weight="bold" font-size="13">hakkimizda</text>
+
+        <!-- User preference -->
+        <text x="50" y="320" fill="#e8c96a" font-weight="bold" font-size="14">User saves: "en" or "tr"</text>
+        <text x="50" y="350" fill="rgba(247,241,232,0.7)" font-size="12">→ Redirects to matching language version</text>
+
+        <!-- Arrow marker definition -->
+        <defs>
+          <marker id="arrowhead" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
+            <polygon points="0 0, 10 3, 0 6" fill="rgba(232,201,106,0.5)"/>
+          </marker>
+        </defs>
+      </svg>
+    </div>
+
+    <!-- LEGEND -->
+    <div class="legend">
+      <div class="legend-item">
+        <div class="legend-color" style="background: #4caf77;"></div>
+        <span>English Pages</span>
+      </div>
+      <div class="legend-item">
+        <div class="legend-color" style="background: #e8c96a;"></div>
+        <span>Turkish Pages</span>
+      </div>
+      <div class="legend-item">
+        <div class="legend-color" style="background: #f44336;"></div>
+        <span>Deleted (Redirected)</span>
+      </div>
+    </div>
+
+  </div>
+</body>
+</html>

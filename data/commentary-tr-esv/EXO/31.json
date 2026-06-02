@@ -1,0 +1,37 @@
+{
+  "source": "ESV Global Study Bible (Crossway) — Türkçe çeviri — DeepL translator — Lisans kapsamında kullanılmaktadır",
+  "book_intro": {
+    "Timeline": "",
+    "Author and Date": "Exodus (meaning exit) is best understood to have been written primarily by Moses, like the rest of the Pentateuch, though some details (such as the narrative of his death in Deuteronomy 34) were clearly added at a later time. It also appears that some language and references were updated for later readers. There is no consensus among scholars as to the date when the events of the exodus took place. A common view is that the exodus occurred in c. 1446 b.c. This is based on the calculation of 480 years from Israel's departure from Egypt to the fourth year of Solomon's reign (c. 966 b.c.; see 1 Kings 6:1). However, because Exodus 1:11 depicts Israel working on a city called Raamses, some scholars believe that this would suggest that the exodus occurred during the reign of Raamses II in Egypt (c. 1279-1213 b.c.), possibly around 1260 b.c. (see note on 1 Kings 6:1).",
+    "Theme": "The overarching theme of Exodus is the fulfillment of God's promises to the patriarchs. The success of the exodus must be credited to the power and purpose of God, who remembers his promises, punishes sin, and forgives the repentant. The book highlights Moses' faithfulness and prayerfulness.",
+    "Key Themes": "Covenant promises. The events and instructions in Exodus are described as the Lord remembering his covenant promises to Abraham (2:24; 3:6; 14-17; 6:2-8). The promises extend to both Abraham's descendants and all the nations of the world (Gen. 12:1-3). They include land (which Israel will inhabit), numerous offspring (which will secure their ongoing identity), and blessing (God cares for them and other nations). The fulfillment of these promises is rooted in Israel's covenant relationship with the Lord (Gen. 17:7-8).\nCovenant mediator. Moses mediates between the Lord and his people. Through Moses the Lord reveals his purposes to Israel and sustains the covenant relationship.\nCovenant presence. God's presence with his people is highlighted throughout the book of Exodus.",
+    "Outline": "Exodus of Israel from Egypt (1:1-18:27)\nSetting: Israel in Egypt (1:1-2:25)\nCall of Moses (3:1-4:31)\nMoses and Aaron: initial request (5:1-7:7)\nPlagues and exodus (7:8-15:21)\nJourney (15:22-18:27)\nCovenant at Sinai (19:1-40:38)\nSetting: Sinai (19:1-25)\nCovenant words and rules (20:1-23:33)\nCovenant confirmed (24:1-18)\nInstructions for the tabernacle (25:1-31:17)\nMoses receives the tablets (31:18)\nCovenant breach, intercession, and renewal (32:1-34:35)\nTabernacle: preparation for the presence (35:1-40:38)",
+    "The Journey to Mount Sinai": "1446 b.c.\n\nScholars disagree about the precise route of the exodus, but most agree that Mount Sinai is the site that today is called Jebel Musa (\"Mountain of Moses\")."
+  },
+  "chapter_intro": "Covenant at Sinai.",
+  "passages": [
+    {
+      "ref": "Ex. 19:1–40:38",
+      "title": "Covenant at Sinai.",
+      "text": "The second half of Exodus focuses on the events at Mount Sinai and the content of the law revealed to Moses."
+    }
+  ],
+  "notes": [
+    {
+      "ref": "Ex. 31:3–5",
+      "text": "Bezalel is described as being filled . . . with the Spirit of God, which means that he has been equipped to fulfill the particular task to which he was called (vv. 3b–4; compare 28:3; 35:31; Deut. 34:9; Mic. 3:8; Luke 1:15, 41; Acts 2:4; Eph. 5:18)."
+    },
+    {
+      "ref": "Ex. 31:12–17",
+      "text": "Remembering the Sabbath by keeping it holy is central to Israel’s life as the people of God. Observance of the Sabbath relates both to creation (v. 17), which Israel shares with all mankind, and to God’s special choice of Israel (vv. 13, 16). The form of the Sabbath commandment in Exodus (20:8–11) stresses the first, while the form in Deuteronomy (Deut. 5:12–15) stresses the second."
+    },
+    {
+      "ref": "Ex. 31:14–15",
+      "text": "It is unclear exactly what is meant by being cut off from among his people (see 12:15 and note; compare Lev. 17:10; Num. 9:13). Sometimes, as here, the judgment appears to include death at the hand of the congregation. At other times, the person is killed directly by the Lord (see Ex. 30:38; Lev. 10:1–3) or suffers some other kind of separation from covenant benefits."
+    },
+    {
+      "ref": "31:18",
+      "text": "Moses Receives the Tablets. The Lord gives Moses the tablets of the testimony (the Ten Commandments), for which he had called him up to the mountain (24:12)."
+    }
+  ]
+}

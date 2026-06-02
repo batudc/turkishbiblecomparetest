@@ -1,84 +1,84 @@
 {
-  "source": "ESV Global Study Bible (Crossway) — Türkçe çeviri — Lisans kapsamında kullanılmaktadır",
+  "source": "ESV Global Study Bible (Crossway) — Türkçe çeviri — DeepL translator — Lisans kapsamında kullanılmaktadır",
   "book_intro": {
-    "Author, Date & Recipients": "Yazar, Tarih ve Alıcılar\n\nİbranilerin yazarı bilinmemektedir. Timoteos'u tanıyordu (13:23). İsa'nın görgü tanığı değildi (bkz. 2:1, 3). Mektup muhtemelen MS 70 'ten önce yazılmıştı. İlk el yazmaları, daha önce Yahudi dinine çekilmiş olan Yahudi Hristiyanların yanı sıra Yahudi olmayan Hristiyanlara da yazıldığı eski varsayımını yansıtan \"İbranilere\" başlığını taşır. Yazar okurlarını tanıyordu ve onları tekrar görmek istiyordu (13:19).",
-    "Theme": "Tema\n\nİsa Mesih herhangi bir melek, rahip veya eski antlaşma uygulamasından daha büyüktür. Hristiyanlar, İsa'nın getirdiği büyük kurtuluşu terk etmemelidir. Mesih'te bulunan gerçek dinlenmeye inançla tutunmalı ve kilisedeki diğerlerini de aynısını yapmaya teşvik etmelidirler.",
-    "Purpose & Background": "QUERY LENGTH LIMIT EXCEEDED. MAX ALLOWED QUERY : 500 CHARS",
-    "Key Themes": "QUERY LENGTH LIMIT EXCEEDED. MAX ALLOWED QUERY : 500 CHARS",
-    "Outline": "Taslak\n\nİsa Melek Varlıklardan Üstündür (1:1 -2:18)\nİsa Mozaik Yasasından Üstündür (3:1 -10:18)\nİman ve Dayanıklılığa Çağrı (10:19-12:29)\nSonuç Teşvik ve Açıklamalar (13:1 -25)"
+    "Author, Date & Recipients": "Author, Date, and Recipients\n\nThe author of Hebrews is unknown. He knew Timothy (13:23). He was not an eyewitness of Jesus (see 2:1, 3). The letter was probably written before a.d. 70. Early manuscripts bear the title \"To the Hebrews,\" which reflects the ancient assumption that it was written to Jewish Christians as well as Gentile Christians who previously had been drawn to the Jewish religion. The author knew his readers and wanted to see them again (13:19).",
+    "Theme": "Theme\n\nJesus Christ is greater than any angel, priest, or old covenant practice. Christians must not forsake the great salvation that Jesus has brought about. They must hold on by faith to the true rest found in Christ, and they must encourage others in the church to do the same.",
+    "Purpose & Background": "Purpose, Occasion, and Background\n\nHebrews has two primary purposes: to encourage Christians to endure, and to warn them not to abandon their faith in Christ. These warning passages appear throughout the book (2:1-4; 3:7-4:13; 5:11-6:12; 10:19-39; 12:1-29). The author encourages faithfulness, love, and sound doctrine. He does so by carefully teaching the OT in light of God's revelation in Jesus Christ.\n\nThe author shows the superiority of Christ and his new covenant over angels, Moses, the OT priesthood, and the OT sacrificial system. These are so inferior to Christ that it is futile to return to them—or to go anywhere else. Rather, believers should hold fast to their faith, because that faith is grounded in the most superior revelation.\n\nThe background of such exhortations must have been the readers' need to continue enduring amid persecution and the trials of life (e.g., ch. 12). They appear to have grown less attentive to Christian instruction (5:11-14), and some apparently have ceased regular attendance at their meetings (10:25). The author reminds them of their past faithfulness and love despite persecution (10:32-34).\n\nUltimately, the author's words of encouragement and exhortation are rooted in his teaching about Jesus Christ. The Son of God became the heavenly high priest, who offered himself as a sacrifice once for all. Christ obtained salvation for all who approach him in faith (6:1; 11:6; compare 4:2), and such faith perseveres until it receives the promised eternal reward (6:12; 10:22; 38-39).",
+    "Key Themes": "Key Themes\n\nJesus is fully God and fully man (1:1-14; 2:5-18).\nJesus, the Son of God, reveals God the Father. He is the creator and he sustains all creation (1:1-14).\nJesus is the eternal high priest. As a man, he sympathizes with human weaknesses, and he offered himself as the perfect sacrifice for sin (1:3; 2:10-18; 4:15-16; 9:11-10:19).\nJesus is superior to angels, to Moses, to the Mosaic covenant, to the earthly tabernacle, and to the priesthood (1:4-2:18; 3:1-6; 5:1-10; 7:1-10:18).\nAll humanity faces eternal judgment for sin (4:12-13; 9:27-28; 10:26-31).\nFaith is necessary to please God and to participate in his eternal salvation. Faith requires confidence about the unseen realities of God and his promises. Such faith produces perseverance (6:1; 10:22; 38-39; 11:1-40).\nPerseverance is necessary in the Christian life; believers are warned against a lack of endurance (2:1-4; 3:7-4:13; 10:19-39; 12:1-29).\nGod's promises are trustworthy, including his promise of eternal salvation (6:13-20).\nWith the coming of Jesus Christ, the last days have begun. They will be completed when he returns (1:2; 9:9-28; 12:22-29).",
+    "Outline": "Outline\n\nJesus Is Superior to Angelic Beings (1:1-2:18)\nJesus Is Superior to the Mosaic Law (3:1-10:18)\nCall to Faith and Endurance (10:19-12:29)\nConcluding Encouragements and Remarks (13:1-25)"
   },
-  "chapter_intro": "QUERY LENGTH LIMIT EXCEEDED. MAX ALLOWED QUERY : 500 CHARS",
+  "chapter_intro": "Chapter 2 opens with the first of five major warnings in Hebrews: do not drift from what you have heard. The author then addresses the apparent puzzle of Ps 8 — if all things are subjected to humanity, why do we not yet see it? — and resolves it Christologically: we see Jesus, made lower than angels through suffering, now crowned with glory. The chapter ends with one of the most tender statements in the letter: Jesus is a merciful and faithful high priest precisely because he shared our flesh and blood.",
   "passages": [
     {
       "ref": "Heb. 1:1–2:18",
-      "title": "İsa Melek Varlıklardan Üstündür.",
-      "text": "İsa'nın kimliği (1: 1 -4) meleklere üstünlüğünü gösterir. Bu üstünlük, Tanrı'nın Oğlu olarak benzersizliğini (1:5 -14) ve İnsanın Oğlu olarak insanlığını içerir. Her ikisi de kurtuluşun mükemmel kurucusudur (2:5 -18)."
+      "title": "Jesus Is Superior to Angelic Beings.",
+      "text": "Jesus’ identity (1:1–4) shows his superiority to angels. This superiority includes his uniqueness as Son of God (1:5–14) and his humanity as Son of Man. Because of both he is the perfect founder of salvation (2:5–18)."
     }
   ],
   "notes": [
     {
       "ref": "Heb. 2:1–4",
-      "text": "Bu uyarı, okuyucuyu Rab'bin kendisi tarafından ilan edilen, insan görgü tanıkları tarafından onaylanan ve Tanrı'nın gücü tarafından doğrulanan daha büyük kurtuluşa kulak vermeye çağırır. Uyarı, küçükten (Mozaik yasası kapsamındaki cezalar; v. 2) büyüğe (daha büyük kurtuluşu ihmal etme tehlikesi; v. 3 -4) doğru ilerler."
+      "text": "This warning calls the reader to pay heed to the greater salvation which was declared by the Lord himself, attested by human eyewitnesses, and authenticated by God’s power. The warning proceeds from the lesser (punishments under the Mosaic law; v. 2) to the greater (the danger of neglecting the greater salvation; vv. 3–4)."
     },
     {
       "ref": "Heb. 2:2",
-      "text": "Melekler tarafından bildirilen mesaj Mozaik yasasıdır (bkz. Yasanın Tekrarı 33:2; Elçilerin İşleri 7:53; Gal. 3:19). Güvenilir. Mesih'teki vahiy üstün olsa da, yazar Mozaik yasasının önemini azaltmaz."
+      "text": "The message declared by angels is the Mosaic law (see Deut. 33:2; Acts 7:53; Gal. 3:19). reliable. Even though the revelation in Christ is superior, the author does not diminish the importance of the Mosaic law."
     },
     {
       "ref": "Heb. 2:3",
-      "text": "nasıl kaçacağız? Mozaik yasası, ona uymadığı için “intikam” ile geldiyse (v. 2), o zaman kesinlikle Rab tarafından ilan edilen daha büyük kurtuluş, onu ihmal edenler için daha tehlikeli bir intikamla gelir."
+      "text": "how shall we escape? If the Mosaic law came with “retribution” for failure to obey it (v. 2), then surely the greater salvation announced by the Lord comes with more dangerous retribution for those who neglect it."
     },
     {
       "ref": "Heb. 2:4",
-      "text": "İşaretler, harikalar ve mucizeler terimleri anlam olarak örtüşür. Acts 2:22 ve 2 Cor. 12:12 'de birlikte görünürler (kontrast 2 Thess. 2:9). Yunanca hediye kelimesi “dağıtımlar” anlamına gelebilir. ”Kendi iradesine göre dağıtılmış muhtemelen manevi armağanlara ve bu ayette anlatılan Tanrı'nın diğer tüm eserlerine atıfta bulunur."
+      "text": "The terms signs, wonders, and miracles overlap in meaning. They appear together in Acts 2:22 and 2 Cor. 12:12 (contrast 2 Thess. 2:9). The Greek word for gifts can mean “distributions.” Distributed according to his will probably refers to the spiritual gifts and to all the other works of God described in this verse."
     },
     {
       "ref": "Heb. 2:5–18",
-      "text": "İsa da meleklerden üstündür, çünkü İnsanoğlu olarak dünya ona tabidir, ancak bu henüz tam olarak açıklanmamıştır (vv. 5 -9). İsa'nın kurban acısı ve ölümü, onun insanlığa katılmasını gerektiriyordu (vv. 10 -18)."
+      "text": "Jesus is also superior to angels since, as Son of Man, the world is subjected to him, though this has yet to be fully revealed (vv. 5–9). Jesus’ sacrificial suffering and death required him to partake of humanity (vv. 10–18)."
     },
     {
       "ref": "Heb. 2:5",
-      "text": "Çünkü argümanın 1:5 -14 ve 2: 2 -4 arasında devam ettiğini gösterir. “İnsanoğlunun” (v. 6) meleklere, yani gelecek dünyaya verilmeyen dünya çapında yönetim sorumlulukları vardır. Tanrı'nın kurtuluştaki tüm amaçlarının yerine getirileceği gelecek çağ. Yazar gelecekteki bir kurtuluştan bahsediyor (bkz. 9:27–28 'deki not), ancak “son günler” çoktan başladı (1:2)."
+      "text": "For indicates that the argument continues from 1:5–14 and 2:2–4. The “son of man” (v. 6) has responsibilities of worldwide rule not given to angels. the world to come. The future age when all of God’s purposes in salvation will be fulfilled. The author is speaking of a future salvation (see note on 9:27–28), though the “last days” have already begun (1:2)."
     },
     {
       "ref": "Heb. 2:7",
-      "text": "Onu sen yarattın. Bazıları, Mezmur 8 'den alıntı yaparak İbranilerin yazarının genel olarak insan ırkına atıfta bulunduğunu düşünüyor. Diğerleri, onun gerçek İnsanoğlu İsa'dan biraz daha aşağı bir şekilde bahsettiğini düşünüyor. Bu, genel olarak insanlığa atıfta bulunuyorsa, o zaman inananların, dünyevi yaşamları boyunca, meleklerden biraz daha düşük statü ve yetkiye sahip oldukları anlamına gelir. Yazar İsa'ya atıfta bulunursa, bu onun dünyevi ıstırabında, İsa'nın ilahi doğasının geçici olarak gizlendiği anlamına gelir (Phil. 2:6 -8’ i karşılaştırın)."
+      "text": "You made him. Some think the author of Hebrews, quoting Psalm 8, refers to the human race in general. Others think he refers to Jesus, the true Son of Man. for a little while lower. If this refers to mankind in general, then it means that believers, during their earthly lives, are slightly lower in status and authority than angels. If the writer refers to Jesus, it means that, in his earthly suffering, Jesus’ divine nature was temporarily obscured (compare Phil. 2:6–8)."
     },
     {
       "ref": "Heb. 2:8",
-      "text": "QUERY LENGTH LIMIT EXCEEDED. MAX ALLOWED QUERY : 500 CHARS"
+      "text": "Putting everything in subjection to him echoes Gen. 1:28, where God put everything under the stewardship of Adam and Eve (Gen. 1:26–28). But if Jesus, the true representative of humanity, is specifically in view, then it means that the “world to come” (Heb. 2:5) is subjected to Jesus, indicating his superiority to angels in his authority to rule the world. This also implies that he rules the angels themselves, since nothing is outside his control. However, at present believers do not see the entire world subject either to human beings or to Christ. This raises the question, What has happened to God’s plan to put everything in subjection under man (or under Christ)?"
     },
     {
       "ref": "Heb. 2:9",
-      "text": "QUERY LENGTH LIMIT EXCEEDED. MAX ALLOWED QUERY : 500 CHARS"
+      "text": "But we see him. All interpreters agree that this refers to Jesus (compare notes on vv. 7, 8). The phrase little while and the sequence of events in vv. 7–8 (compare Ps. 8:5–6) show that, after first being made lower than the angels, Jesus was crowned and exalted. Jesus’ suffering of death was the reason for his being crowned with glory and honor. He tasted death as a work of God’s grace on behalf of everyone (that is, all who follow him; Heb. 9:15; 28; 10:39). Jesus. This is the first mention of Jesus’ name in Hebrews (see 3:1; 4:14; etc.; “Christ” first appears in 3:6). Though the human race generally did not fulfill God’s plan to put everything on earth under man’s feet (2:6–8), there is one man who is fulfilling God’s great plan, and that is Jesus."
     },
     {
       "ref": "Heb. 2:10",
-      "text": "QUERY LENGTH LIMIT EXCEEDED. MAX ALLOWED QUERY : 500 CHARS"
+      "text": "he, for whom and by whom all things exist. God the Father. many sons. The followers of the one unique Son of God are adopted into the newly redeemed human family (see “brothers,” vv. 11–12; and “children,” v. 13; also 12:5–8). founder. The Greek can designate either an originator or a leader (see 12:2). The concept of making perfect applies in Hebrews both to Jesus himself (5:9; 7:28) and to his work in sanctifying his followers (10:14; 12:23). The author is not suggesting that Jesus was sinful (compare 4:15; 7:26), but that as Jesus lived his life, his maturity and experience deepened, always with full obedience to the Father."
     },
     {
       "ref": "Heb. 2:11",
-      "text": "takdis edilenler. İsa'nın kurbanlarıyla amaçları için ayrılan gerçek takipçileri (10:10; 14; 13:12). Onlara kardeş demekten utanmaz. Ortak bir yaşam kaynağını paylaştıkları için aynı ailenin üyeleridirler."
+      "text": "those who are sanctified. Jesus’ true followers, who are set apart for his purposes by his sacrifice (10:10; 14; 13:12). he is not ashamed to call them brothers. Since they share a common source of life, they are members of the same family."
     },
     {
       "ref": "Heb. 2:12",
-      "text": "Bu ayet Ps. 22:22 'den alıntıdır. Mezmur, İsa'nın ölümünden (Mezmur 22:1, 16 -18) ve dirilişinden (Mezmur 22:19–24) bahseder. Cennette kurtarılanların hepsi."
+      "text": "This verse quotes from Ps. 22:22. The psalm speaks of Jesus’ death (Ps. 22:1, 16–18) and resurrection (Ps. 22:19–24). congregation. All the redeemed in heaven."
     },
     {
       "ref": "Heb. 2:13",
-      "text": "Bu ayette ikinci atıf açıkça Yeşaya 8:18 'den gelmektedir. İlki Isa. 8:17' den uyarlanmıştır."
+      "text": "The second citation in this verse clearly comes from Isa. 8:18. The first likely is adapted from Isa. 8:17."
     },
     {
       "ref": "Heb. 2:14–15",
-      "text": "Bir insan Kurtarıcısı gerekliydi, çünkü insanlar (çocuklar) Tanrı'nın gazabını taşıyan ve onu lehine çeviren bir fedakarlığa ihtiyaç duyarlar (bkz. ayet 17 'deki not). Ayrıca sempatik bir yüksek rahibe ihtiyaçları vardır (vv. 17 -18). et ve kanı paylaşırlar. İsa, tıpkı “çocuklar” ve başkâhin gibi (bkz. 5:1 -2), ölüm gücüne sahip olan tamamen insandı. Tanrı nihayetinde yaşam ve ölüme hükmeder (Deut. 32:39; Ps. 90:3; 139:16), ancak Şeytan bu gücü iddia eder."
+      "text": "A human Savior was necessary, because human beings (children) need a sacrifice that bears God’s wrath and turns it to favor (see note on v. 17). They also need a sympathetic high priest (vv. 17–18). share in flesh and blood. Jesus was fully human, just like the “children” and the high priest (see 5:1–2). the one who has the power of death. God ultimately rules over life and death (Deut. 32:39; Ps. 90:3; 139:16), but Satan claims that power."
     },
     {
       "ref": "Heb. 2:17",
-      "text": "olmalıydı. İsa her bakımdan (günah hariç) tamamen insan olmadıkça, inananları baş rahipleri olarak temsil edemezdi. İsa, insanlık adına başkâhin olarak hizmet edebilmek için insan olmalıdır. Günahı iptal eden ve Tanrı'nın gazabını tatmin eden kefaret verici bir kurban (Deut. 21:8; Ps. 25: 11; 78: 38; Rom. 3: 25 'teki nota bakınız)."
+      "text": "had to be. Unless Jesus became fully human in every respect (except for sin), he could not represent believers as their high priest. Jesus must be human in order to serve as high priest on behalf of humanity. propitiation. An atoning sacrifice that cancels sin and satisfies God’s wrath (compare Deut. 21:8; Ps. 25:11; 78:38; see note on Rom. 3:25)."
     },
     {
       "ref": "Heb. 2:18",
-      "text": "acı çekti. İsa'nın bir insan olarak çektiği acılar, özellikle ölümü (vv. 9 -10). İsa, başkâhin olarak her yönden ayartıldı ve yine de günah işlemedi (4:15; ayrıca 7:26)."
+      "text": "suffered. Jesus’ sufferings as a human, especially his death (vv. 9–10). tempted. Jesus, as high priest, was tempted in every way and yet did not sin (4:15; also 7:26)."
     }
   ]
 }

@@ -1,0 +1,57 @@
+{
+  "source": "ESV Global Study Bible (Crossway) — Türkçe çeviri — DeepL translator — Lisans kapsamında kullanılmaktadır",
+  "book_intro": {
+    "Timeline": "",
+    "Author and Date": "Exodus (meaning exit) is best understood to have been written primarily by Moses, like the rest of the Pentateuch, though some details (such as the narrative of his death in Deuteronomy 34) were clearly added at a later time. It also appears that some language and references were updated for later readers. There is no consensus among scholars as to the date when the events of the exodus took place. A common view is that the exodus occurred in c. 1446 b.c. This is based on the calculation of 480 years from Israel's departure from Egypt to the fourth year of Solomon's reign (c. 966 b.c.; see 1 Kings 6:1). However, because Exodus 1:11 depicts Israel working on a city called Raamses, some scholars believe that this would suggest that the exodus occurred during the reign of Raamses II in Egypt (c. 1279-1213 b.c.), possibly around 1260 b.c. (see note on 1 Kings 6:1).",
+    "Theme": "The overarching theme of Exodus is the fulfillment of God's promises to the patriarchs. The success of the exodus must be credited to the power and purpose of God, who remembers his promises, punishes sin, and forgives the repentant. The book highlights Moses' faithfulness and prayerfulness.",
+    "Key Themes": "Covenant promises. The events and instructions in Exodus are described as the Lord remembering his covenant promises to Abraham (2:24; 3:6; 14-17; 6:2-8). The promises extend to both Abraham's descendants and all the nations of the world (Gen. 12:1-3). They include land (which Israel will inhabit), numerous offspring (which will secure their ongoing identity), and blessing (God cares for them and other nations). The fulfillment of these promises is rooted in Israel's covenant relationship with the Lord (Gen. 17:7-8).\nCovenant mediator. Moses mediates between the Lord and his people. Through Moses the Lord reveals his purposes to Israel and sustains the covenant relationship.\nCovenant presence. God's presence with his people is highlighted throughout the book of Exodus.",
+    "Outline": "Exodus of Israel from Egypt (1:1-18:27)\nSetting: Israel in Egypt (1:1-2:25)\nCall of Moses (3:1-4:31)\nMoses and Aaron: initial request (5:1-7:7)\nPlagues and exodus (7:8-15:21)\nJourney (15:22-18:27)\nCovenant at Sinai (19:1-40:38)\nSetting: Sinai (19:1-25)\nCovenant words and rules (20:1-23:33)\nCovenant confirmed (24:1-18)\nInstructions for the tabernacle (25:1-31:17)\nMoses receives the tablets (31:18)\nCovenant breach, intercession, and renewal (32:1-34:35)\nTabernacle: preparation for the presence (35:1-40:38)",
+    "The Journey to Mount Sinai": "1446 b.c.\n\nScholars disagree about the precise route of the exodus, but most agree that Mount Sinai is the site that today is called Jebel Musa (\"Mountain of Moses\")."
+  },
+  "chapter_intro": "Covenant at Sinai.",
+  "passages": [
+    {
+      "ref": "Ex. 19:1–40:38",
+      "title": "Covenant at Sinai.",
+      "text": "The second half of Exodus focuses on the events at Mount Sinai and the content of the law revealed to Moses."
+    }
+  ],
+  "notes": [
+    {
+      "ref": "24:1–18",
+      "text": "Covenant Confirmed. This section describes three different aspects of the covenant being confirmed: (1) Moses leads the people of Israel in sacrificing to the Lord and in reconfirming the covenant (vv. 3–8); (2) Moses, Aaron and his sons, and the elders worship the Lord and share a meal in his presence (vv. 1–2, 9–11); and (3) Moses and Joshua go further up the mountain, so that Moses can enter the cloud of the Lord’s presence (vv. 12–18)."
+    },
+    {
+      "ref": "Ex. 24:1–2",
+      "text": "The rules about who can enter the Lord’s presence on Mount Sinai will prepare Israel for the similar rules regarding the tabernacle."
+    },
+    {
+      "ref": "Ex. 24:4",
+      "text": "This is one of three references in Exodus to Moses writing (also 34:28) or being commanded to write (17:14)."
+    },
+    {
+      "ref": "Ex. 24:5",
+      "text": "Burnt offerings (10:25; 18:12) and peace offerings (20:24) have already been mentioned in Exodus, but the Lord had not yet given full instructions concerning them."
+    },
+    {
+      "ref": "Ex. 24:6–8",
+      "text": "Throwing blood . . . against the altar and on the people probably signifies cleansing and atonement. The blood links the altar and the people, symbolizing the union of God and Israel in the covenant."
+    },
+    {
+      "ref": "Ex. 24:7",
+      "text": "The Book of the Covenant apparently refers to both the Ten Commandments (20:1–21) and the commands and rules that follow (20:22–23:33)."
+    },
+    {
+      "ref": "Ex. 24:9–11",
+      "text": "The men saw the God of Israel and remained unharmed. According to 33:20, “man shall not see [God] and live,” so the “seeing” here was something different. Compare 33:23, which perhaps describes a partial vision of God (see notes on John 1:18; Rev. 22:4). The clear surface they saw under his feet may indicate that this is all they saw of God."
+    },
+    {
+      "ref": "Ex. 24:13–14",
+      "text": "This is the first time Joshua is referred to as Moses’ assistant (also 33:11; Josh. 1:1). Hur helped Aaron hold up Moses’ hands during the battle with Amalek (Ex. 17:10–12)."
+    },
+    {
+      "ref": "Ex. 24:17–18",
+      "text": "like a devouring fire. God’s presence is often signified by fire (see also 3:2; 13:21–22; 19:18; 40:38; compare Deut. 9:3). Moses is able to enter the cloud of God’s presence; he is the one with whom God has chosen to meet and therefore he will not be destroyed (see Ex. 24:9–11)."
+    }
+  ]
+}

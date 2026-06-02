@@ -1,0 +1,57 @@
+{
+  "source": "ESV Global Study Bible (Crossway) — Türkçe çeviri — DeepL translator — Lisans kapsamında kullanılmaktadır",
+  "book_intro": {
+    "Timeline": "",
+    "Author and Date": "Exodus (meaning exit) is best understood to have been written primarily by Moses, like the rest of the Pentateuch, though some details (such as the narrative of his death in Deuteronomy 34) were clearly added at a later time. It also appears that some language and references were updated for later readers. There is no consensus among scholars as to the date when the events of the exodus took place. A common view is that the exodus occurred in c. 1446 b.c. This is based on the calculation of 480 years from Israel's departure from Egypt to the fourth year of Solomon's reign (c. 966 b.c.; see 1 Kings 6:1). However, because Exodus 1:11 depicts Israel working on a city called Raamses, some scholars believe that this would suggest that the exodus occurred during the reign of Raamses II in Egypt (c. 1279-1213 b.c.), possibly around 1260 b.c. (see note on 1 Kings 6:1).",
+    "Theme": "The overarching theme of Exodus is the fulfillment of God's promises to the patriarchs. The success of the exodus must be credited to the power and purpose of God, who remembers his promises, punishes sin, and forgives the repentant. The book highlights Moses' faithfulness and prayerfulness.",
+    "Key Themes": "Covenant promises. The events and instructions in Exodus are described as the Lord remembering his covenant promises to Abraham (2:24; 3:6; 14-17; 6:2-8). The promises extend to both Abraham's descendants and all the nations of the world (Gen. 12:1-3). They include land (which Israel will inhabit), numerous offspring (which will secure their ongoing identity), and blessing (God cares for them and other nations). The fulfillment of these promises is rooted in Israel's covenant relationship with the Lord (Gen. 17:7-8).\nCovenant mediator. Moses mediates between the Lord and his people. Through Moses the Lord reveals his purposes to Israel and sustains the covenant relationship.\nCovenant presence. God's presence with his people is highlighted throughout the book of Exodus.",
+    "Outline": "Exodus of Israel from Egypt (1:1-18:27)\nSetting: Israel in Egypt (1:1-2:25)\nCall of Moses (3:1-4:31)\nMoses and Aaron: initial request (5:1-7:7)\nPlagues and exodus (7:8-15:21)\nJourney (15:22-18:27)\nCovenant at Sinai (19:1-40:38)\nSetting: Sinai (19:1-25)\nCovenant words and rules (20:1-23:33)\nCovenant confirmed (24:1-18)\nInstructions for the tabernacle (25:1-31:17)\nMoses receives the tablets (31:18)\nCovenant breach, intercession, and renewal (32:1-34:35)\nTabernacle: preparation for the presence (35:1-40:38)",
+    "The Journey to Mount Sinai": "1446 b.c.\n\nScholars disagree about the precise route of the exodus, but most agree that Mount Sinai is the site that today is called Jebel Musa (\"Mountain of Moses\")."
+  },
+  "chapter_intro": "Covenant at Sinai.",
+  "passages": [
+    {
+      "ref": "Ex. 19:1–40:38",
+      "title": "Covenant at Sinai.",
+      "text": "The second half of Exodus focuses on the events at Mount Sinai and the content of the law revealed to Moses."
+    }
+  ],
+  "notes": [
+    {
+      "ref": "Ex. 30:1–10",
+      "text": "The altar for burning incense is similar to the altar for burnt offering (27:1–8), except that it is smaller and is overlaid with pure gold (30:3). It is one of the three items in the Holy Place."
+    },
+    {
+      "ref": "Ex. 30:6–8",
+      "text": "The altar is to be placed in the Holy Place before the veil that separates it from the Most Holy Place and the ark of the testimony (v. 6; see illustration of the tabernacle tent)."
+    },
+    {
+      "ref": "Ex. 30:9",
+      "text": "Like all the other tabernacle rules, the rule against offering unauthorized incense emphasizes God’s holiness (see vv. 34–38; Lev. 10:1–3)."
+    },
+    {
+      "ref": "Ex. 30:11–16",
+      "text": "Every person counted in a census is to give half a shekel for the service of the tabernacle. It is an offering to the Lord, either as a ransom or to make atonement for your lives."
+    },
+    {
+      "ref": "Ex. 30:12",
+      "text": "The ransom given with the census will prevent a plague. This warns Israel not to let pride in their great numbers replace their dependence on the Lord. Such pride in numbers appears to have been the reason for the Lord’s judgment against David’s census (see 2 Sam. 24:1–17; 1 Chron. 21:1–17)."
+    },
+    {
+      "ref": "Ex. 30:17–21",
+      "text": "The basin of bronze is for the priests to wash themselves before serving in the tabernacle. It is in the courtyard (see illustration of the tabernacle and its court). The basin may also have been used to wash the sacrifices (Lev. 1:9)."
+    },
+    {
+      "ref": "Ex. 30:20–21",
+      "text": "so that they may not die. See note on 28:35."
+    },
+    {
+      "ref": "Ex. 30:22–38",
+      "text": "This section gives instructions for making the anointing oil and incense. Since the oil is to consecrate the elements of the tabernacle and the priests, and the incense is to be burned inside the Holy Place, each is to be treated as holy and must not be used for any other purpose."
+    },
+    {
+      "ref": "Ex. 30:33–38",
+      "text": "shall be cut off from his people. See note on 12:15."
+    }
+  ]
+}
