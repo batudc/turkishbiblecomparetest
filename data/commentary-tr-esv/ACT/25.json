@@ -1,41 +1,41 @@
 {
-  "book_intro": "",
-  "chapter_intro": "",
+  "book_intro": "Elçilerin İşleri, Luka İncili'nin devamı niteliğindedir. Her ikisi de elçi Pavlus'la birlikte seyahat eden bir hekim olan Luka tarafından yazılmıştır. Elçilerin İşleri Pavlus'un ev hapsinde Sezar'ın huzurunda yargılanmayı beklerken, MS 62 yılında sona erer. Birçok bilgin Elçilerin İşleri'nin o zaman yazıldığını varsayar, çünkü Pavlus'un savunmasını, salıverilmesini ve müjdeyi daha fazla duyurmasını kaydetmez.\n\nKutsal Ruh imanlıları Müjde'yi hem Yahudiler hem de diğer uluslar arasında duyurmaları için güçlendirir. Bunu yaparak kiliseyi kurarlar. Kilise, Tanrı'nın zamanın başlangıcından beri verdiği vaatlerin yerine gelmesidir.\n\nLuka'nın Müjde'yi yazma amacı (bkz. Luka 1:3-4) Elçilerin İşleri için de geçerlidir: Mesih'in dirilişinden sonra ilk kilisenin \"düzenli\" bir anlatımını yapmak. İki ciltlik eserini Teofilos'a ithaf eden Luka, onun kendisine öğretilenler konusunda \"kesinliğe\" sahip olmasını istemiştir.\n\nElçilerin İşleri ilk kilisenin Müjde'nin gerçekliğine tanıklığını anlatır; bu tema ilk olarak 1:8'de işlenmiştir:\n\nElçilerin İşleri kitabı müjdenin Yeruşalim'den Roma'ya yayılışını kaydeder, böylece dirilmiş olan Mesih'in Elçilerin İşleri 1:8'de elçilerine söylediği sözler yerine getirilmiş olur.",
+  "chapter_intro": "Caesarea'daki Tanık.",
   "passages": [
     {
       "ref": "Acts 24:1–26:32",
-      "title": "",
-      "text": ""
+      "title": "Caesarea'daki Tanık.",
+      "text": "Pavlus Sezariye'de iki yıldan uzun bir süre tutuklu kaldı. Valiler Felix ve Festus ile Yahudi kralı Agrippa II tarafından resmi olarak dinlendi. Festus onu yargılanmak üzere Yeruşalim'e götürmeye karar verdiğinde, Pavlus Roma'da imparatorun huzurunda yargılanmayı talep etti."
     }
   ],
   "notes": [
     {
       "ref": "Acts 25:2",
-      "text": ""
+      "text": "Başkâhinler ve önde gelen kişiler muhtemelen Sanhedrin'i kastetmektedir."
     },
     {
       "ref": "Acts 25:4",
-      "text": ""
+      "text": "Festus, herhangi bir duruşmanın Sezariye'deki karargâhında yapılmasında ısrar ederek Pavlus'u istemeden de olsa korudu."
     },
     {
       "ref": "Acts 25:9–11",
-      "text": ""
+      "text": "Pavlus Festus'un kendisini Yahudilere teslim edeceğinden korkuyordu. Bir Roma vatandaşı olarak davasını Sezar'a götürme hakkına sahipti. Meseleyi valinin elinden almak için bu hakkını kullandı (M.S. 59). \"Sezar\", M.S. 54-68 yılları arasında hüküm süren imparator Neron Sezar'dı. İlk beş yılı nispeten barışçıl geçti. Ondan sonra giderek daha zalim ve mantıksız hale geldi."
     },
     {
       "ref": "Acts 25:12",
-      "text": ""
+      "text": "Zor veya olağandışı durumlarda, Romalı yöneticiler genellikle yüksek rütbeli memurlardan oluşan bir danışma kuruluna veya konseye danışırdı."
     },
     {
       "ref": "Acts 25:13",
-      "text": ""
+      "text": "Kral Agrippa, I. Hirodes Agrippa'nın oğlu (bkz. 12:1; 24:24 ile ilgili notlar) ve Büyük Hirodes'in torununun torunu (bkz. Matta 2:1 ile ilgili not) olan II. Agrippa'ydı. Başta Yahudi olmayanlar olmak üzere birkaç küçük bölgeyi yönetiyordu. İmparator Claudius, Agrippa II'ye Yeruşalim'deki tapınağın yönetimini vermişti. Ayrıca ona başkâhini atama hakkını da vermişti. Bernice onun kız kardeşi ve sürekli arkadaşıydı."
     },
     {
       "ref": "Acts 25:18",
-      "text": ""
+      "text": "... sandığım gibi bir suçlama getirmedi. Festus Pavlus'un Roma yasalarını çiğnemediği sonucuna varır. Festus'a göre bu sadece dinsel bir tartışmaydı."
     },
     {
       "ref": "Acts 25:23–26:32",
-      "text": ""
+      "text": "Pavlus'un üç \"savunma\" konuşması arasında (22; 24; 26. bölümler), Agrippa'nın önündeki bu konuşma müjdenin en ayrıntılı açıklamasını verir."
     }
   ],
   "source": "ESV Global Study Bible (Crossway) — Used under license"

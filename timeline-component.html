@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Interactive Bible Timeline</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+      padding: 40px 20px;
+      min-height: 100vh;
+    }
+
+    .timeline-container {
+      max-width: 900px;
+      margin: 0 auto;
+      background: white;
+      border-radius: 12px;
+      padding: 40px;
+      box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1);
+    }
+
+    .timeline-title {
+      text-align: center;
+      font-size: 28px;
+      font-weight: 700;
+      color: #2c3e50;
+      margin-bottom: 10px;
+      letter-spacing: -0.5px;
+    }
+
+    .timeline-subtitle {
+      text-align: center;
+      font-size: 14px;
+      color: #7f8c8d;
+      margin-bottom: 40px;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+    }
+
+    /* Horizontal Timeline */
+    .timeline {
+      position: relative;
+      padding: 20px 0;
+    }
+
+    .timeline::before {
+      content: '';
+      position: absolute;
+      top: 50%;
+      left: 0;
+      right: 0;
+      height: 3px;
+      background: linear-gradient(to right, #3498db 0%, #2ecc71 50%, #e74c3c 100%);
+      transform: translateY(-50%);
+      z-index: 1;
+    }
+
+    .timeline-events {
+      display: flex;
+      justify-content: space-between;
+      gap: 20px;
+      position: relative;
+      z-index: 2;
+    }
+
+    .timeline-event {
+      flex: 1;
+      text-align: center;
+      cursor: pointer;
+      transition: all 0.3s ease;
+    }
+
+    .timeline-event:hover {
+      transform: translateY(-5px);
+    }
+
+    .timeline-marker {
+      width: 24px;
+      height: 24px;
+      border-radius: 50%;
+      background: white;
+      border: 3px solid #3498db;
+      margin: 0 auto 12px;
+      transition: all 0.3s ease;
+      box-shadow: 0 2px 8px rgba(52, 152, 219, 0.2);
+    }
+
+    .timeline-event:nth-child(2) .timeline-marker {
+      border-color: #2ecc71;
+    }
+
+    .timeline-event:nth-child(3) .timeline-marker {
+      border-color: #f39c12;
+    }
+
+    .timeline-event:nth-child(4) .timeline-marker {
+      border-color: #e74c3c;
+    }
+
+    .timeline-event:hover .timeline-marker {
+      width: 32px;
+      height: 32px;
+      box-shadow: 0 4px 16px rgba(52, 152, 219, 0.4);
+      background: #ecf0f1;
+    }
+
+    .timeline-year {
+      font-size: 16px;
+      font-weight: 700;
+      color: #2c3e50;
+      margin-bottom: 6px;
+    }
+
+    .timeline-label {
+      font-size: 12px;
+      color: #7f8c8d;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      transition: color 0.3s ease;
+    }
+
+    .timeline-event:hover .timeline-label {
+      color: #3498db;
+    }
+
+    .timeline-popup {
+      display: none;
+      position: absolute;
+      bottom: 100%;
+      left: 50%;
+      transform: translateX(-50%);
+      background: #2c3e50;
+      color: white;
+      padding: 12px 16px;
+      border-radius: 8px;
+      font-size: 12px;
+      white-space: nowrap;
+      z-index: 10;
+      margin-bottom: 10px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+      animation: popIn 0.2s ease;
+    }
+
+    .timeline-popup::after {
+      content: '';
+      position: absolute;
+      top: 100%;
+      left: 50%;
+      transform: translateX(-50%);
+      border: 6px solid transparent;
+      border-top-color: #2c3e50;
+    }
+
+    .timeline-event:hover .timeline-popup {
+      display: block;
+    }
+
+    @keyframes popIn {
+      from {
+        opacity: 0;
+        transform: translateX(-50%) translateY(10px);
+      }
+      to {
+        opacity: 1;
+        transform: translateX(-50%) translateY(0);
+      }
+    }
+
+    /* Details Section */
+    .timeline-details {
+      margin-top: 50px;
+      padding-top: 30px;
+      border-top: 2px solid #ecf0f1;
+    }
+
+    .detail-item {
+      margin-bottom: 24px;
+      padding: 16px;
+      background: #f8f9fa;
+      border-left: 4px solid #3498db;
+      border-radius: 4px;
+      transition: all 0.3s ease;
+    }
+
+    .detail-item:nth-child(2) {
+      border-left-color: #2ecc71;
+    }
+
+    .detail-item:nth-child(3) {
+      border-left-color: #f39c12;
+    }
+
+    .detail-item:nth-child(4) {
+      border-left-color: #e74c3c;
+    }
+
+    .detail-item:hover {
+      background: #fff;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    }
+
+    .detail-year {
+      font-size: 14px;
+      font-weight: 700;
+      color: #3498db;
+      margin-bottom: 6px;
+    }
+
+    .detail-item:nth-child(2) .detail-year {
+      color: #2ecc71;
+    }
+
+    .detail-item:nth-child(3) .detail-year {
+      color: #f39c12;
+    }
+
+    .detail-item:nth-child(4) .detail-year {
+      color: #e74c3c;
+    }
+
+    .detail-event {
+      font-size: 14px;
+      color: #2c3e50;
+      line-height: 1.6;
+      font-weight: 500;
+    }
+
+    .detail-description {
+      font-size: 13px;
+      color: #7f8c8d;
+      margin-top: 6px;
+      line-height: 1.5;
+    }
+  </style>
+</head>
+<body>
+  <div class="timeline-container">
+    <h1 class="timeline-title">Gospel of Matthew Timeline</h1>
+    <p class="timeline-subtitle">Key Events in Jesus' Ministry</p>
+    
+    <div class="timeline">
+      <div class="timeline-events">
+        <div class="timeline-event">
+          <div class="timeline-popup">ca. 5-4 BC</div>
+          <div class="timeline-marker"></div>
+          <div class="timeline-year">Birth</div>
+          <div class="timeline-label">Jesus born</div>
+        </div>
+        
+        <div class="timeline-event">
+          <div class="timeline-popup">ca. 26-27 AD</div>
+          <div class="timeline-marker"></div>
+          <div class="timeline-year">Ministry Begins</div>
+          <div class="timeline-label">Baptism & Temptation</div>
+        </div>
+        
+        <div class="timeline-event">
+          <div class="timeline-popup">ca. 26-30 AD</div>
+          <div class="timeline-marker"></div>
+          <div class="timeline-year">Public Ministry</div>
+          <div class="timeline-label">Teaching & Miracles</div>
+        </div>
+        
+        <div class="timeline-event">
+          <div class="timeline-popup">ca. 30 AD</div>
+          <div class="timeline-marker"></div>
+          <div class="timeline-year">Crucifixion</div>
+          <div class="timeline-label">Resurrection</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="timeline-details">
+      <div class="detail-item">
+        <div class="detail-year">ca. 5-4 BC — Birth of Jesus</div>
+        <div class="detail-event">Jesus is born in Bethlehem during the reign of King Herod</div>
+        <div class="detail-description">Matthew traces Jesus' genealogy and records the visit of the Magi from the East, establishing Jesus as the promised Messiah from the line of David.</div>
+      </div>
+
+      <div class="detail-item">
+        <div class="detail-year">ca. 26-27 AD — Beginning of Ministry</div>
+        <div class="detail-event">Jesus is baptized by John and tempted in the wilderness</div>
+        <div class="detail-description">Jesus is identified as God's Son and declares the kingdom of heaven is at hand. He gathers his first disciples (Peter, Andrew, James, and John).</div>
+      </div>
+
+      <div class="detail-item">
+        <div class="detail-year">ca. 26-30 AD — Public Ministry</div>
+        <div class="detail-event">Jesus teaches and performs miracles throughout Judea and Galilee</div>
+        <div class="detail-description">Jesus delivers the Sermon on the Mount, performs miracles demonstrating his authority, and prepares his disciples through teaching. The kingdom of heaven is manifested through his works.</div>
+      </div>
+
+      <div class="detail-item">
+        <div class="detail-year">ca. 30 AD — Death & Resurrection</div>
+        <div class="detail-event">Jesus is crucified and rises from the dead on the third day</div>
+        <div class="detail-description">Jesus fulfills the prophecies of his suffering and establishes his kingdom through his resurrection. He commissions his disciples to make disciples of all nations.</div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
