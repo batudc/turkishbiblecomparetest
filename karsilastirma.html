@@ -357,6 +357,7 @@
       color: rgba(247,241,232,0.75);
     }
     .comm-text em { color: rgba(247,241,232,0.95); font-style: italic; }
+    .comm-text strong { color: rgba(247,241,232,0.98); font-weight: 700; font-style: normal; }
     .xref-link {
       color: var(--gold-light);
       text-decoration-line: underline;
@@ -382,6 +383,16 @@
     .comm-passage:last-child { border-bottom: none; margin-bottom: 0; }
     .comm-passage-ref { font-size: 9px; font-weight: 700; letter-spacing: 0.08em; color: var(--gold-light); font-family: 'Jost', sans-serif; margin-bottom: 2px; }
     .comm-passage-title { font-size: 11px; font-weight: 600; font-style: italic; color: rgba(247,241,232,0.85); margin-bottom: 5px; }
+    .timeline-compact { margin: 0 0 20px 0; padding: 15px 0; border-bottom: 1px solid rgba(255,255,255,0.1); }
+    .timeline-compact-item { display: flex; align-items: center; margin-bottom: 12px; gap: 12px; }
+    .timeline-compact-item:last-child { margin-bottom: 0; }
+    .timeline-compact-marker { min-width: 8px; width: 8px; height: 8px; border-radius: 50%; background: var(--gold-light); flex-shrink: 0; }
+    .timeline-compact-year { font-size: 10px; font-weight: 700; color: var(--gold-light); min-width: 60px; flex-shrink: 0; }
+    .timeline-compact-text { font-size: 11px; color: rgba(247,241,232,0.9); line-height: 1.5; }
+    .comm-category-header { font-size: 11px; font-weight: 800; letter-spacing: 0.12em; text-transform: uppercase; color: var(--gold-light); font-family: 'Jost', sans-serif; margin-bottom: 10px; display: flex; align-items: center; gap: 10px; }
+    .comm-category-header::before { content: '▪'; font-size: 9px; color: var(--gold-light); }
+    .comm-list-item { margin-left: 14px; margin-bottom: 8px; position: relative; padding-left: 10px; line-height: 1.6; }
+    .comm-list-item::before { content: '-'; position: absolute; left: 0; color: var(--gold-light); font-weight: 700; }
     #comm-sect-verses-body { overflow-y: auto; max-height: calc(100vh - 320px); overscroll-behavior-y: contain; }
     #xref-tooltip {
       position: fixed;
@@ -1947,7 +1958,7 @@
     </div>
     <div id="header-links">
       <a href="karsilastirma.html">Karşılaştır</a>
-      <a href="antikdil.html">Dil İnceleme</a>
+      <a id="word-study-link-nav" href="antikdil.html">Dil İnceleme</a>
       <a href="arama.html">Ayet Ara</a>
       <div class="lang-toggle">
       <button class="lang-toggle-btn" data-lang-switch="tr">TR</button>
@@ -1977,7 +1988,7 @@
     <div class="mob-menu-sep"></div>
     <div class="mob-menu-links">
       <a href="karsilastirma.html">Karşılaştır</a>
-      <a href="antikdil.html">Dil İnceleme</a>
+      <a id="word-study-link-mob" href="antikdil.html">Dil İnceleme</a>
       <a href="arama.html">Ayet Ara</a>
     </div>
   </div>
@@ -2411,6 +2422,7 @@
     return EN_TO_TR[b] || b; // convert English→Turkish if needed
   })();
   let currentChapter = parseInt(_lsGet('kkf_chap') || '1', 10) || 1;
+  let lastClickedVerse = null;
   let layoutMode     = _lsGet('kkf_layout') || 'cols'; // 'cols' | 'rows' | 'grid'
   // User-defined column order — array of translation IDs; null = use default TRANS_ORDER
   let colOrder = (() => { try { return JSON.parse(_lsGet('kkf_col_order') || 'null'); } catch { return null; } })();
@@ -2963,9 +2975,11 @@
       btn.textContent = i + '. Bölüm';
       btn.addEventListener('click', () => {
         currentChapter = i;
+        lastClickedVerse = null;
         document.getElementById('btn-chapter').textContent = i + '. Bölüm';
         grid.querySelectorAll('.book-btn').forEach(x => x.classList.remove('active'));
         btn.classList.add('active');
+        updateWordStudyLink();
         closePanel();
         loadAll();
         saveState();
@@ -2974,6 +2988,7 @@
     }
   }
   buildChapters(currentBook);
+  updateWordStudyLink();
 
   // ── Build book panels ─────────────────────────────────────────────────
   function buildBooks(containerId, books) {
@@ -2985,12 +3000,14 @@
       btn.addEventListener('click', () => {
         currentBook = b;
         currentChapter = 1;
+        lastClickedVerse = null;
         document.getElementById('btn-books').childNodes[0].textContent = b + ' ';
         document.getElementById('btn-chapter').textContent = '1. Bölüm';
         document.getElementById('books-nt').querySelectorAll('.book-btn').forEach(x => x.classList.remove('active'));
         document.getElementById('books-ot').querySelectorAll('.book-btn').forEach(x => x.classList.remove('active'));
         btn.classList.add('active');
         buildChapters(b);
+        updateWordStudyLink();
         closePanel();
         loadAll();
         saveState();
@@ -3671,12 +3688,23 @@
   });
 
   // ── Chapter nav ───────────────────────────────────────────────────────
+  function updateWordStudyLink() {
+    const code = BOOK_CODES[currentBook] ?? 'JHN';
+    const verseParam = lastClickedVerse ? `&verse=${lastClickedVerse}` : '';
+    const href = `antikdil.html?book=${code}&chapter=${currentChapter}${verseParam}`;
+    const a1 = document.getElementById('word-study-link-nav');
+    const a2 = document.getElementById('word-study-link-mob');
+    if (a1) a1.href = href;
+    if (a2) a2.href = href;
+  }
+
   function setChapter(n) {
     const total = CHAPTER_COUNTS[currentBook] ?? 1;
     currentChapter = Math.max(1, Math.min(n, total));
     document.getElementById('btn-chapter').textContent = currentChapter + '. Bölüm';
     document.getElementById('chapters-grid').querySelectorAll('.book-btn').forEach((b, i) =>
       b.classList.toggle('active', i + 1 === currentChapter));
+    updateWordStudyLink();
   }
   const ALL_BOOKS = [...OT_BOOKS, ...NT_BOOKS];
   function navigateToBook(bookName, chapterNum) {
@@ -3762,15 +3790,16 @@
     const verse = e.target.closest('.verse[data-v]');
     if (!verse) return;
     const label = verse.dataset.v;
+    const vNum = parseInt(String(label).split('-')[0], 10);
     if (selectedVerses.has(label)) {
       selectedVerses.delete(label);
       highlightVerse(label, 'v-selected', false);
     } else {
       selectedVerses.add(label);
       highlightVerse(label, 'v-selected', true);
-      const vNum = parseInt(String(label).split('-')[0], 10);
       if (!isNaN(vNum)) scrollCommentaryToVerse(vNum);
     }
+    if (!isNaN(vNum)) { lastClickedVerse = vNum; updateWordStudyLink(); }
   });
 
   // ── Verse reference parser ────────────────────────────────────────────
@@ -4439,6 +4468,7 @@
     document.getElementById('commentary-body').scrollTop = 0;
 
     if (_commCache[key]) {
+      _commCache[key]._bookCode = bookCode;
       renderCommentary(_commCache[key], meta.newFormat);
       return;
     }
@@ -4448,6 +4478,7 @@
       const res = await fetch(`data/${meta.folder}/${bookCode}/${chap}.json`);
       if (!res.ok) throw new Error('not found');
       const data = await res.json();
+      data._bookCode = bookCode;
       _commCache[key] = data;
       loadEl.style.display = 'none';
       renderCommentary(data, meta.newFormat);
@@ -4653,7 +4684,16 @@
     ref.textContent = note.ref.includes(':') ? note.ref.split(':')[1].trim() : note.ref;
     const text = document.createElement('div');
     text.className = 'comm-text';
-    text.innerHTML = linkifyXrefs(note.text
+    // Bold rendering: AKKİT uses **phrase** markers; ESV uses leading-phrase-before-period heuristic
+    let noteHtml = note.text;
+    if (noteHtml.includes('**')) {
+      // AKKİT: convert **phrase** → <strong>phrase</strong>
+      noteHtml = noteHtml.replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>');
+    } else {
+      // ESV EN/TR: bold the leading scripture phrase (short phrase before ". Capital")
+      noteHtml = noteHtml.replace(/^(.{3,60}?)\. ([A-ZÇĞİÖŞÜ"'])/, '<strong>$1.</strong> $2');
+    }
+    text.innerHTML = linkifyXrefs(noteHtml
       .replace(/([A-ZÇĞİÖŞÜa-zçğışöşü][^\.\!\?]{2,30}?) (Bkz\.|bkz\.|Krş\.|krş\.)/g, '<em>$1</em> $2')
       .replace(/\bBkz\. /g, '<span style="color:rgba(184,146,42,0.7)">Bkz. </span>')
       .replace(/\bbkz\. /g, '<span style="color:rgba(184,146,42,0.7)">bkz. </span>'));
@@ -4676,13 +4716,108 @@
       const bookBody = document.getElementById('comm-sect-book-body');
       bookBody.innerHTML = '';
       if (data.book_intro) {
+        // Timeline for Matthew book overview — FIRST ELEMENT
+        if (data._bookCode === 'MAT') {
+          const timeline = document.createElement('div');
+          timeline.className = 'timeline-compact';
+          const items = [
+            { year: 'M.Ö. ~ 5', text: 'İsa\'nın doğumu' },
+            { year: 'M.S. ~ 28–33', text: 'İsa\'nın hizmeti, ölümü ve dirilişi' },
+            { year: 'M.S. ~ 55–65', text: 'Matta Müjdesinin Yazılışı' }
+          ];
+          items.forEach(item => {
+            const div = document.createElement('div');
+            div.className = 'timeline-compact-item';
+            const marker = document.createElement('div');
+            marker.className = 'timeline-compact-marker';
+            const year = document.createElement('div');
+            year.className = 'timeline-compact-year';
+            year.textContent = item.year;
+            const text = document.createElement('div');
+            text.className = 'timeline-compact-text';
+            text.textContent = item.text;
+            div.appendChild(marker);
+            div.appendChild(year);
+            div.appendChild(text);
+            timeline.appendChild(div);
+          });
+          bookBody.appendChild(timeline);
+        }
+
+        // Then render intro text with improved category headers
         if (typeof data.book_intro === 'string') {
-          const p = document.createElement('p'); p.className = 'comm-text'; p.style.lineHeight = '1.7'; p.textContent = data.book_intro; bookBody.appendChild(p);
+          // Parse string format with headers followed by body/items
+          const sections = data.book_intro.split(/\n\n+/).filter(s => s.trim());
+          const headerKeywords = ['Anahtar Temalar', 'Key Themes', 'Anahatlar', 'Outline', 'Ana Hatlar', 'Tema', 'Theme', 'Amaç', 'Purpose'];
+
+          let i = 0;
+          while (i < sections.length) {
+            const title = sections[i]?.trim();
+            if (!title) { i++; continue; }
+
+            // Check if this is a header that has multiple items below it
+            const isMultiItemHeader = headerKeywords.some(kw => title.includes(kw) || title === kw);
+
+            let bodyText = '';
+            let itemsCount = 0;
+
+            if (isMultiItemHeader) {
+              // Collect all items until next header
+              i++;
+              while (i < sections.length) {
+                const item = sections[i].trim();
+                // Check if this looks like a new header (short line without numbers/parens)
+                if (item.length < 50 && !item.match(/[\(\)\d\-]/)) {
+                  break; // Found next header
+                }
+                bodyText += (bodyText ? '\n\n' : '') + item;
+                itemsCount++;
+                i++;
+              }
+            } else {
+              // Regular header-body pair
+              i++;
+              bodyText = sections[i]?.trim() || '';
+              i++;
+            }
+
+            if (!bodyText) continue;
+
+            const section = document.createElement('div');
+            section.style.cssText = 'margin-bottom:14px;padding-bottom:12px;border-bottom:1px solid rgba(255,255,255,0.05)';
+            const h = document.createElement('div');
+            h.className = 'comm-category-header';
+            h.textContent = title;
+            section.appendChild(h);
+
+            // Check if this section should be displayed as a list
+            const isListSection = title.includes('Themes') || title.includes('Temalar') ||
+                                title.includes('Outline') || title.includes('Anahatlar') ||
+                                title.includes('Key') || title.includes('Anahtar');
+
+            if (isListSection) {
+              // Split items and render as list
+              const items = bodyText.split('\n\n').filter(item => item.trim());
+              items.forEach(item => {
+                const li = document.createElement('div');
+                li.className = 'comm-list-item comm-text';
+                li.textContent = item.trim();
+                section.appendChild(li);
+              });
+            } else {
+              // Regular paragraph
+              const p = document.createElement('p');
+              p.className = 'comm-text'; p.style.cssText = 'line-height:1.7;margin:0'; p.textContent = bodyText;
+              section.appendChild(p);
+            }
+
+            bookBody.appendChild(section);
+          }
         } else {
           Object.entries(data.book_intro).forEach(([title, text]) => {
             if (!text) return;
-            const s = document.createElement('div'); s.style.cssText = 'margin-bottom:12px;padding-bottom:12px;border-bottom:1px solid rgba(255,255,255,0.05)';
-            const h = document.createElement('div'); h.style.cssText = 'font-size:9px;font-weight:700;letter-spacing:0.12em;text-transform:uppercase;color:rgba(184,146,42,0.7);font-family:Jost,sans-serif;margin-bottom:5px'; h.textContent = title;
+            const s = document.createElement('div'); s.style.cssText = 'margin-bottom:14px;padding-bottom:12px;border-bottom:1px solid rgba(255,255,255,0.05)';
+            const h = document.createElement('div'); h.className = 'comm-category-header'; h.textContent = title;
             const p = document.createElement('p'); p.className = 'comm-text'; p.style.cssText = 'line-height:1.7;margin:0'; p.textContent = text;
             s.appendChild(h); s.appendChild(p); bookBody.appendChild(s);
           });

@@ -1,5 +1,5 @@
-const SHELL_CACHE = 'kki-shell-v4';  // bumped: lang-switch.js localStorage fix
-const DATA_CACHE  = 'kki-data-v5';  // bumped: updated commentary-en JSON structure
+const SHELL_CACHE = 'kki-shell-v5';  // bumped: word study link fixes (verse tracking, consistent update)
+const DATA_CACHE  = 'kki-data-v11'; // bumped: ESV EN notes reclassified (range-verse notes moved from passages to notes)
 
 const SHELL_FILES = [
   '/',

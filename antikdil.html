@@ -2508,6 +2508,18 @@ async function load(b, c) {
     ]);
     if (!r.ok) throw 0;
     render(await r.json(), meta.n, c);
+    if (pendingScrollVerse > 0) {
+      const v = pendingScrollVerse;
+      pendingScrollVerse = 0;
+      const target = scrollArea.querySelector(`.vb[data-v="${v}"]`);
+      if (target) {
+        setTimeout(() => {
+          target.scrollIntoView({ behavior: 'smooth', block: 'center' });
+          target.classList.add('flash');
+          setTimeout(() => target.classList.remove('flash'), 1500);
+        }, 150);
+      }
+    }
   } catch {
     scrollArea.innerHTML = '<div class="state">Bu bölüm yüklenemedi.</div>';
   }
@@ -2528,6 +2540,7 @@ function render(data, bookName, c) {
   for (const v of data.verses) {
     const vb = document.createElement('div');
     vb.className = 'vb';
+    vb.dataset.v = v.v;
     currentVerseWords[v.v] = v.words;
 
     const vn = document.createElement('div');
@@ -2734,6 +2747,7 @@ applyPrefs();
 const p = new URLSearchParams(location.search);
 const initBook = BOOKS.find(b => b.c === p.get('book'))?.c || 'JHN';
 const initCh   = Math.max(1, parseInt(p.get('chapter') || '1', 10));
+let pendingScrollVerse = Math.max(0, parseInt(p.get('verse') || '0', 10));
 load(initBook, initCh);
 
   // ===== GUIDED TOUR =====
