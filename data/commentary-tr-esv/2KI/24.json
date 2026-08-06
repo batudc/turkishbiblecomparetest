@@ -1,24 +1,26 @@
 {
-  "source": "ESV Global Study Bible (Crossway) — Türkçe çeviri — DeepL translator — Lisans kapsamında kullanılmaktadır",
+  "source": "ESV Global Study Bible (Crossway) — Türkçe çeviri — Google Translate — Lisans kapsamında kullanılmaktadır",
   "book_intro": "Blue Letter Bible bakanlığı ve BLB Enstitüsü, Kutsal Yazıların tahrif edilemezliğine olan kesin inancı da içeren tarihsel, muhafazakar Hristiyan inancına bağlıdır. BLB tarafından sağlanan metin ve ses içeriği çeşitli Evanjelik gelenekleri temsil ettiğinden, kaynak materyallerde aktarılan tüm fikir ve ilkelerin bu bakanlık tarafından toplamda onaylanması gerekmez.\n\nBlue Letter Kutsal Kitap çalışma araçları Kutsal Kitap'ı okumayı, araştırmayı ve çalışmayı kolay ve ödüllendirici hale getirir.\n\nBlue Letter Bible 501(c)(3) kar amacı gütmeyen bir kuruluştur\n\nTercih ettiğiniz Kutsal Kitap çevirilerinin sırasını Kutsal Kitaplar Sekmesi'nden Sürüm Seçici'ye (bu açılır pencere) kopyalayabilir veya tam tersini yapabilirsiniz. Kutsal Kitaplar Sekmesi, Kutsal Kitap sayfalarındaki Araçlar özelliğinde bulunur:\n\nNot: MLA artık atıf standartlarının bir parçası olarak URL'yi zorunlu tutmamaktadır. Bireysel eğitmenler veya editörler yine de URL'lerin kullanılmasını isteyebilir.\n\nHata: Parolalar en az 6 karakterden oluşmalıdır\n\nHata: Kullanıcı adları yalnızca harf, rakam, nokta, tire veya alt çizgi içermelidir\n\nParolalar en az 6 karakterden oluşmalıdır.\n\t\t\t\t\t\t\tKullanıcı adları yalnızca harf, rakam, nokta, tire veya alt çizgi içermelidir.\n\nKaydolduğunuz için teşekkür ederiz. Verdiğiniz adrese bir doğrulama e-postası gönderildi.\n\nOrtaklığınız tüm yaptıklarımızı mümkün kılıyor. Bugün dua ederek bir destek hediyesi vermeyi düşünür müsünüz?",
-  "chapter_intro": "",
-  "passages": [],
-  "notes": [
-    {
-      "ref": "2 Kings 24:2",
-      "text": "And the Lord sent against him bands. See 23:26–27."
-    },
-    {
-      "ref": "2 Kings 24:5",
-      "text": "Chronicles of the Kings. See note on 1 Kings 14:19."
-    },
+  "passages": [
     {
       "ref": "2 Kings 24:8–17",
-      "text": "Jehoiachin. Babylon’s withdrawal from Palestine in 601 b.c. turned out to be temporary. Jehoiakim’s rebellion brought the Babylonian army to the gates of Jerusalem at the end of 598. The city surrendered in March 597 b.c. By this time Jehoiachin was king. Significant deportations followed (on deportation as an imperial tactic, see note on 15:27–31). Although 1–2 Kings does not mention this, the prophet Ezekiel was among the exiles. His prophetic ministry began a few years later in Babylon (Ezek. 1:2–3)."
+      "title": "2 Krallar 24:8–17",
+      "text": "**Yehoyakin**. Babil'in MÖ 601'de Filistin'den çekilmesi. geçici olduğu ortaya çıktı. Yehoyakim'in isyanı, 598 yılının sonlarında Babil ordusunu Kudüs'ün kapılarına kadar getirdi. Şehir, M.Ö. 597 yılının Mart ayında teslim oldu. Bu sırada Yehoyakin kraldı. Bunu önemli sürgünler takip etti (imparatorluk taktiği olarak sürgün hakkında, bkz. 15:27-31'deki not). Her ne kadar 1-2 Kral bundan bahsetmese de sürgünler arasında Hezekiel peygamber de vardı. Onun peygamberlik hizmeti birkaç yıl sonra Babil'de başladı (Hez. 1:2–3)."
     },
     {
       "ref": "2 Kings 24:18–25:7",
-      "text": "Jehoiachin’s uncle Mattaniah ruled next, under the name of Zedekiah. He was under Babylonian control. Jeremiah 27:1 and 28:1 suggest that from early in his reign he was plotting a revolt, and eventually he rebelled. A two-year siege of Jerusalem followed. The city eventually fell in 587 or 586 b.c. Zedekiah fled, but was captured (see also note on 2 Chron. 36:11–16)."
+      "title": "2 Krallar 24:18–25:7",
+      "text": "Yehoyakin'in amcası Mattanya, **Sidkiya** adı altında hüküm sürdü. Babil kontrolü altındaydı. Yeremya 27:1 ve 28:1, hükümdarlığının ilk zamanlarından itibaren bir isyan planladığını ve sonunda **isyan ettiğini** öne sürüyor. Bunu iki yıl süren Kudüs kuşatması izledi. Şehir sonunda MÖ 587 veya 586'da düştü. Sidkiya kaçtı ama yakalandı (ayrıca bkz. 2 Tarihler 36:11-16 ile ilgili not)."
+    }
+  ],
+  "notes": [
+    {
+      "ref": "2 Kings 24:2",
+      "text": "**Ve Rab onun üzerine çeteler gönderdi**. Bkz. 23:26–27."
+    },
+    {
+      "ref": "2 Kings 24:5",
+      "text": "**Kralların Günlükleri**. 1. Krallar 14:19 ile ilgili nota bakın."
     }
   ]
 }

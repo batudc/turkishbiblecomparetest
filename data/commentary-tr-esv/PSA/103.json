@@ -1,44 +1,48 @@
 {
-  "source": "ESV Global Study Bible (Crossway) — Türkçe çeviri — DeepL translator — Lisans kapsamında kullanılmaktadır",
+  "source": "ESV Global Study Bible (Crossway) — Türkçe çeviri — Google Translate — Lisans kapsamında kullanılmaktadır",
   "book_intro": "Blue Letter Bible bakanlığı ve BLB Enstitüsü, Kutsal Yazıların tahrif edilemezliğine olan kesin inancı da içeren tarihsel, muhafazakar Hristiyan inancına bağlıdır. BLB tarafından sağlanan metin ve ses içeriği çeşitli Evanjelik gelenekleri temsil ettiğinden, kaynak materyallerde aktarılan tüm fikir ve ilkelerin bu bakanlık tarafından toplamda onaylanması gerekmez.\n\nBlue Letter Kutsal Kitap çalışma araçları Kutsal Kitap'ı okumayı, araştırmayı ve çalışmayı kolay ve ödüllendirici hale getirir.\n\nBlue Letter Bible 501(c)(3) kar amacı gütmeyen bir kuruluştur\n\nTercih ettiğiniz Kutsal Kitap çevirilerinin sırasını Kutsal Kitaplar Sekmesi'nden Sürüm Seçici'ye (bu açılır pencere) kopyalayabilir ya da tam tersini yapabilirsiniz. Kutsal Kitaplar Sekmesi, Kutsal Kitap sayfalarındaki Araçlar özelliğinde bulunur:\n\nNot: MLA artık atıf standartlarının bir parçası olarak URL'yi zorunlu tutmamaktadır. Bireysel eğitmenler veya editörler yine de URL'lerin kullanılmasını isteyebilir.\n\nHata: Parolalar en az 6 karakterden oluşmalıdır\n\nHata: Kullanıcı adları yalnızca harf, rakam, nokta, tire veya alt çizgi içermelidir\n\nParolalar en az 6 karakterden oluşmalıdır.\n\t\t\t\t\t\t\tKullanıcı adları yalnızca harf, rakam, nokta, tire veya alt çizgi içermelidir.\n\nKaydolduğunuz için teşekkür ederiz. Verdiğiniz adrese bir doğrulama e-postası gönderildi.\n\nOrtaklığınız tüm yaptıklarımızı mümkün kılıyor. Bugün dua ederek bir destek hediyesi vermeyi düşünür müsünüz?",
-  "chapter_intro": "",
-  "passages": [],
-  "notes": [
-    {
-      "ref": "Ps. 103",
-      "text": "Psalm . This is a hymn of praise, celebrating the Lord’s abundant goodness and love for his people. It is the first of four psalms reflecting on God’s dealings with his people from creation to exile. Psalm 103 introduces the sequence by recalling that Israel’s survival in Moses’ time was due to God’s steadfast love. It begins with each individual singer exhorting his or her own soul to bless the Lord. It then lists the benefits that the soul should be careful not to forget. The crowning benefit is God’s enduring love to the descendants of the faithful, which leads the worshipers to encourage all the angelic hosts and all creation to join in blessing the Lord. These benefits come to the individual but benefit the wider community as well (vv. 6–14; 17–18)."
-    },
+  "passages": [
     {
       "ref": "Ps. 103:1–2",
-      "text": "Each member of the worshiping congregation urges himself to bless the Lord, that is, to speak well of God for his abundant generosity. Thus forget not all his benefits is a crucial step in blessing the Lord. The body of the psalm lists these benefits in order to bring each singer to gratitude."
-    },
-    {
-      "ref": "Ps. 103:3",
-      "text": "Heals often refers to curing someone from a physical sickness, but it can also be used as a metaphor for restoring the moral and spiritual life (e.g., Isa. 6:10; 53:5; Jer. 3:22; Hos. 14:4). Since it is in parallel with forgives, the metaphorical use may be intended here. Thus iniquity is like diseases, which weaken and corrupt. It is God’s mercy that takes them away. These sentiments reflect David’s own experience of God’s forgiveness (see 2 Samuel 12; Psalm 51)."
-    },
-    {
-      "ref": "Ps. 103:6",
-      "text": "Righteousness and justice are the blessings of protection from those who might cause harm (see 33:5; 97:2; Deut. 16:18; Isa. 5:7). The Lord extends these blessings to all who are oppressed, but especially to his own people (see Ps. 146:7)."
-    },
-    {
-      "ref": "Ps. 103:7",
-      "text": "The Lord’s acts reveal his enduring commitment to his people. That is, they express his ways."
+      "title": "Ps. 103:1–2",
+      "text": "İbadet eden cemaatin her bir üyesi, **Rab'bi takdis etmeye**, yani O'nun cömert cömertliği için Tanrı hakkında iyi söz etmeye ısrar eder. Bu nedenle, **onun tüm yararlarını unutmayın**, Rab'bi kutsamak için çok önemli bir adımdır. Mezmurun ana kısmı, her şarkıcıyı şükranla buluşturmak için bu faydaları listeliyor."
     },
     {
       "ref": "Ps. 103:8–13",
-      "text": "The language of these verses (slow to anger, steadfast love, shows compassion) recalls Ex. 34:6, where the Lord proclaims his own name."
-    },
-    {
-      "ref": "Ps. 103:14",
-      "text": "he knows our frame. The Lord remembers the limitations of the human perspective (dust is not eternal or all-knowing). He is patient with his people."
+      "title": "Ps. 103:8–13",
+      "text": "Bu ayetlerin dili (**geç öfkelenme**, **kararlı sevgi**, **merhamet gösterir**) Örn. 34:6 Rab'bin kendi adını duyurduğu yer."
     },
     {
       "ref": "Ps. 103:17–18",
-      "text": "the steadfast love of the Lord is from everlasting to everlasting. See 25:6; 100:5. Those who fear him (compare 103:11, 13) are the same as those who keep his covenant and remember to do his commandments. They are the faithful who believe the promises and obey the commands (Ex. 19:5; Deut. 7:9; see John 14:15, 21). The faithful expect that God sets his saving love on their children’s children. This is a great privilege: though their lives are short and appear almost insignificant, they may still contribute to the future well-being of God’s people by their godly and prayerful parenting."
+      "title": "Ps. 103:17–18",
+      "text": "**Rab'bin sarsılmaz sevgisi ezelden ebede kadardır**. Bakınız 25:6; 100:5 . **Ondan korkanlar** (103:11, 13 ile karşılaştırın) **antlaşmasını tutan ve emirlerini yerine getirmeyi hatırlayanlarla** aynıdır. Onlar, vaatlere inanan ve emirlere itaat eden sadık kişilerdir (Çık. 19:5; Yas. 7:9; bkz. Yuhanna 14:15, 21). İnançlılar, Tanrı'nın kurtarıcı sevgisini **çocuklarının çocuklarına** vermesini bekler. Bu büyük bir ayrıcalıktır: Hayatları kısa olmasına ve neredeyse önemsiz görünmesine rağmen, dindar ve duacı ebeveynlikleriyle Tanrı'nın halkının gelecekteki refahına hâlâ katkıda bulunabilirler."
     },
     {
       "ref": "Ps. 103:20–22",
-      "text": "After listing all these benefits, the psalm returns to urging various creatures to bless the Lord, echoing vv. 1–2. He addresses the angels and mighty ones and even the material creation (all his works, in all places of his dominion; compare v. 19). The overflow of goodness and steadfast love that God’s works reveal compels his people to call on the angels and all of nature (see 19:1) to join in their celebration."
+      "title": "Ps. 103:20–22",
+      "text": "Tüm bu faydaları sıraladıktan sonra mezmur, çeşitli yaratıkları **Rab'bi kutsamaya** teşvik etmeye geri döner ve ayetleri tekrarlar. 1–2 . O, **meleklere**, **güçlülere** ve hatta maddi yaratılışa hitap eder (**hakimiyetinin her yerindeki tüm eserleri**; bkz. ayet 19). Tanrı'nın işlerinin ortaya çıkardığı iyilik ve sarsılmaz sevginin taşması, halkını, melekleri ve tüm doğayı (bkz. 19:1) bu kutlamalara katılmaya çağırmaya zorlar."
+    }
+  ],
+  "notes": [
+    {
+      "ref": "Ps. 103",
+      "text": "**Mezmur** . Bu, Rab'bin bol iyiliğini ve halkına olan sevgisini kutlayan bir övgü ilahisidir. Tanrı'nın yaratılışından sürgüne kadar halkıyla olan ilişkilerini yansıtan dört mezmurdan ilkidir. Mezmur 103, Musa'nın zamanında İsrail'in hayatta kalmasının Tanrı'nın sarsılmaz sevgisinden kaynaklandığını hatırlatarak bu sırayı başlatır. Bu, her şarkıcının kendi ruhunu Rab'bi kutsamaya teşvik etmesiyle başlar. Daha sonra ruhun unutmamaya dikkat etmesi gereken faydaları sıralıyor. En önemli fayda, Tanrı'nın sadıkların torunlarına olan kalıcı sevgisidir; bu, ibadet edenlerin tüm melek ordularını ve tüm yaratılışı Rab'bi kutsamaya katılmaya teşvik etmesine yol açar. Bu faydalar bireye gelir ama aynı zamanda daha geniş bir topluluğa da yarar sağlar (6-14 ayetler; 17-18 ayetler)."
+    },
+    {
+      "ref": "Ps. 103:3",
+      "text": "**İyileşmek** çoğu zaman bir kişiyi fiziksel bir hastalıktan kurtarmak anlamına gelir, ancak aynı zamanda ahlaki ve ruhsal yaşamın yeniden sağlanması için bir metafor olarak da kullanılabilir (örneğin, İşaya 6:10; 53:5; Yeremya 3:22; Hoş. 14:4). **Affeder** ile paralellik gösterdiği için burada mecazi bir kullanım kastedilmiş olabilir. Dolayısıyla **kötülük**, zayıflatan ve yozlaştıran **hastalıklara** benzer. Onları uzaklaştıran Allah'ın rahmetidir. Bu duygular Davut'un Tanrı'nın bağışlamasına ilişkin kendi deneyimini yansıtır (bkz. 2 Samuel 12; Mezmur 51)."
+    },
+    {
+      "ref": "Ps. 103:6",
+      "text": "**Doğruluk** ve **adalet**, zarar verebilecek kişilerden korunmanın nimetleridir (bkz. 33:5; 97:2; Yas. 16:18; Yeşaya 5:7). Rab bu bereketleri **mazlum** herkese, özellikle de kendi halkına yayar (bkz. Mezmur 146:7)."
+    },
+    {
+      "ref": "Ps. 103:7",
+      "text": "Rab'bin **eylemleri**, O'nun halkına olan kalıcı bağlılığını ortaya koyar. Yani onun **yollarını** ifade ediyorlar."
+    },
+    {
+      "ref": "Ps. 103:14",
+      "text": "** çerçevemizi biliyor**. Rab, insan perspektifinin sınırlamalarını **hatırlar** (**toz** sonsuz veya her şeyi bilen değildir). Halkına karşı sabırlıdır."
     }
   ]
 }

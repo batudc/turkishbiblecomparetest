@@ -1,44 +1,48 @@
 {
-  "source": "ESV Global Study Bible (Crossway) — Türkçe çeviri — DeepL translator — Lisans kapsamında kullanılmaktadır",
+  "source": "ESV Global Study Bible (Crossway) — Türkçe çeviri — Google Translate — Lisans kapsamında kullanılmaktadır",
   "book_intro": "Blue Letter Bible bakanlığı ve BLB Enstitüsü, Kutsal Yazıların tahrif edilemezliğine olan kesin inancı da içeren tarihsel, muhafazakar Hristiyan inancına bağlıdır. BLB tarafından sağlanan metin ve ses içeriği çeşitli Evanjelik gelenekleri temsil ettiğinden, kaynak materyallerde aktarılan tüm fikir ve ilkelerin bu bakanlık tarafından toplamda onaylanması gerekmez.\n\nBlue Letter Kutsal Kitap çalışma araçları Kutsal Kitap'ı okumayı, araştırmayı ve çalışmayı kolay ve ödüllendirici hale getirir.\n\nBlue Letter Bible 501(c)(3) kar amacı gütmeyen bir kuruluştur\n\nTercih ettiğiniz Kutsal Kitap çevirilerinin sırasını Kutsal Kitaplar Sekmesi'nden Sürüm Seçici'ye (bu açılır pencere) kopyalayabilir ya da tam tersini yapabilirsiniz. Kutsal Kitaplar Sekmesi, Kutsal Kitap sayfalarındaki Araçlar özelliğinde bulunur:\n\nNot: MLA artık atıf standartlarının bir parçası olarak URL'yi zorunlu tutmamaktadır. Bireysel eğitmenler veya editörler yine de URL'lerin kullanılmasını isteyebilir.\n\nHata: Parolalar en az 6 karakterden oluşmalıdır\n\nHata: Kullanıcı adları yalnızca harf, rakam, nokta, tire veya alt çizgi içermelidir\n\nParolalar en az 6 karakterden oluşmalıdır.\n\t\t\t\t\t\t\tKullanıcı adları yalnızca harf, rakam, nokta, tire veya alt çizgi içermelidir.\n\nKaydolduğunuz için teşekkür ederiz. Verdiğiniz adrese bir doğrulama e-postası gönderildi.\n\nOrtaklığınız tüm yaptıklarımızı mümkün kılıyor. Bugün dua ederek bir destek hediyesi vermeyi düşünür müsünüz?",
-  "chapter_intro": "",
-  "passages": [],
-  "notes": [
-    {
-      "ref": "Ps. 16",
-      "text": "Psalm . When the faithful sing Psalm 16, they entrust themselves to the Lord. They experience confidence and contentment in his care. The psalm uses imagery from Israel’s allocation of the land under Joshua (vv. 5–6) to express contentment in this life. It also looks forward to everlasting life in God’s presence (vv. 9–11)."
-    },
+  "passages": [
     {
       "ref": "Ps. 16:1–2",
-      "text": "The Lord is the only one on whom the psalmist relies for well-being (no good apart from you, v. 2)."
-    },
-    {
-      "ref": "Ps. 16:3",
-      "text": "The saints are those who have embraced their privilege as God’s people. Since God has declared them holy, they live in a holy way."
-    },
-    {
-      "ref": "Ps. 16:4",
-      "text": "Those who run after another god are idolaters, including unfaithful Israelites. Their names probably refers to the names of the false gods being worshiped."
+      "title": "Ps. 16:1–2",
+      "text": "Mezmur yazarının refahı için güvendiği tek kişi Rab'dir (**senin dışında hiçbir iyilik yoktur**, ayet 2)."
     },
     {
       "ref": "Ps. 16:5–6",
-      "text": "The psalmist is satisfied with the Lord and his provision. The terms portion, lot, lines, and inheritance recall the allocation of the Promised Land into tribal and family plots."
+      "title": "Ps. 16:5–6",
+      "text": "Mezmur yazarı Rab'den ve O'nun düzenlemesinden memnundur. **Pazar**, **parti**, **satırlar** ve **miras** terimleri Vaat Edilen Toprakların kabile ve aile arazilerine tahsisini hatırlatır."
     },
     {
       "ref": "Ps. 16:7–8",
-      "text": "God’s presence is seen in the moral instruction the psalmist receives (v. 7). It gives him assurance of stability (v. 8). The psalmist’s heart instructs him during the night, as he thinks about God’s word (compare 1:2)."
+      "title": "Ps. 16:7–8",
+      "text": "Tanrı'nın varlığı, mezmur yazarının aldığı ahlaki eğitimde görülmektedir (ayet 7). Bu ona istikrar güvencesi verir (ayet 8). Mezmur yazarının **yüreği**, **gece** boyunca Tanrı'nın sözü hakkında düşünürken ona talimat verir (1:2 ile karşılaştırın)."
     },
     {
       "ref": "Ps. 16:9–11",
-      "text": "The psalm is cultivating the hope of everlasting glory for the faithful, with the resurrection of Jesus (the ultimate holy one) as the first step in bringing this hope to fulfillment (compare Acts 2:25–28; Rom. 8:23; 1 Cor. 15:23)."
+      "title": "Ps. 16:9–11",
+      "text": "Mezmur, bu umudun gerçekleşmesinin ilk adımı olarak İsa'nın (en son **kutsal olan**) dirilişiyle, sadıklar için sonsuz yücelik umudunu geliştirmektedir (Elçilerin İşleri 2:25–28; Romalılar 8:23; 1 Korintliler 15:23 ile karşılaştırın)."
+    }
+  ],
+  "notes": [
+    {
+      "ref": "Ps. 16",
+      "text": "**Mezmur** . Sadıklar Mezmur 16'yı söylediğinde kendilerini Rab'be emanet ederler. Onun bakımına güven ve memnuniyet duyuyorlar. Mezmur, bu yaşamdaki memnuniyeti ifade etmek için İsrail'in Yeşu döneminde (5-6. ayetler) toprak tahsisine ilişkin tasvirleri kullanır. Aynı zamanda Tanrı'nın huzurunda sonsuz yaşamı da sabırsızlıkla beklemektedir (9-11 ayetler)."
+    },
+    {
+      "ref": "Ps. 16:3",
+      "text": "**Azizler**, Tanrı'nın halkı olma ayrıcalıklarını benimsemiş olanlardır. Allah onları kutsal kıldığı için kutsal bir şekilde yaşarlar."
+    },
+    {
+      "ref": "Ps. 16:4",
+      "text": "**Başka bir tanrının peşinden koşanlar**, sadakatsiz İsrailliler de dahil olmak üzere putperestlerdir. **Onların adları** muhtemelen tapınılan sahte tanrıların adlarına gönderme yapıyor."
     },
     {
       "ref": "Ps. 16:10",
-      "text": "Sheol. See note on 6:5. Here it is likely the abode of the wicked."
+      "text": "**Sheol**. 6:5 ile ilgili nota bakınız. Burası muhtemelen kötülerin meskenidir."
     },
     {
       "ref": "Ps. 16:11",
-      "text": "path of life. The covenant provides a “path” by which one walks toward life in all its fullness (Prov. 6:23; 10:17; Matt. 7:14). This is what the Lord makes known to his followers. To enjoy God’s presence is the goal of the covenant (compare Ex. 33:14–15; Num. 6:24–26). The word pleasures is related to “pleasant places” (Ps. 16:6). The pleasure that the psalmist has begun in this life will reach its fullness in the world to come (forevermore)."
+      "text": "**yaşam yolu**. Antlaşma, kişinin hayata tüm doluluğuyla yürüyeceği bir “yol” sağlar (Özdeyişler 6:23; 10:17; Matta 7:14). Rab'bin takipçilerine **bildirdiği** şey budur. Tanrı'nın **varlığının** tadını çıkarmak antlaşmanın amacıdır (Çık. 33:14–15; Sayım. 6:24–26 ile karşılaştırın). **Zevkler** sözcüğü “hoş yerlerle” ilgilidir (Mezmur 16:6). Mezmur yazarının bu hayatta başlattığı zevk, öbür dünyada (**sonsuza kadar**) doyuma ulaşacaktır."
     }
   ]
 }

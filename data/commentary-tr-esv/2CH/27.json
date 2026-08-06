@@ -1,24 +1,26 @@
 {
-  "source": "ESV Global Study Bible (Crossway) — Türkçe çeviri — DeepL translator — Lisans kapsamında kullanılmaktadır",
+  "source": "ESV Global Study Bible (Crossway) — Türkçe çeviri — Google Translate — Lisans kapsamında kullanılmaktadır",
   "book_intro": "Blue Letter Bible bakanlığı ve BLB Enstitüsü, Kutsal Yazıların tahrif edilemezliğine olan kesin inancı da içeren tarihsel, muhafazakar Hristiyan inancına bağlıdır. BLB tarafından sağlanan metin ve ses içeriği çeşitli Evanjelik gelenekleri temsil ettiğinden, kaynak materyallerde aktarılan tüm fikir ve ilkelerin bu bakanlık tarafından toplamda onaylanması gerekmez.\n\nBlue Letter Kutsal Kitap çalışma araçları Kutsal Kitap'ı okumayı, araştırmayı ve çalışmayı kolay ve ödüllendirici hale getirir.\n\nBlue Letter Bible 501(c)(3) kar amacı gütmeyen bir kuruluştur\n\nTercih ettiğiniz Kutsal Kitap çevirilerinin sırasını Kutsal Kitaplar Sekmesi'nden Sürüm Seçici'ye (bu açılır pencere) kopyalayabilir veya tam tersini yapabilirsiniz. Kutsal Kitaplar Sekmesi, Kutsal Kitap sayfalarındaki Araçlar özelliğinde bulunur:\n\nNot: MLA artık atıf standartlarının bir parçası olarak URL'yi zorunlu tutmamaktadır. Bireysel eğitmenler veya editörler yine de URL'lerin kullanılmasını isteyebilir.\n\nHata: Parolalar en az 6 karakterden oluşmalıdır\n\nHata: Kullanıcı adları yalnızca harf, rakam, nokta, tire veya alt çizgi içermelidir\n\nŞifreler en az 6 karakterden oluşmalıdır.\n\t\t\t\t\t\t\tKullanıcı adları yalnızca harf, rakam, nokta, tire veya alt çizgi içermelidir.\n\nKaydolduğunuz için teşekkür ederiz. Verdiğiniz adrese bir doğrulama e-postası gönderildi.\n\nOrtaklığınız tüm yaptıklarımızı mümkün kılıyor. Bugün dua ederek bir destek hediyesi vermeyi düşünür müsünüz?",
-  "chapter_intro": "",
-  "passages": [],
-  "notes": [
+  "passages": [
     {
       "ref": "27:1–9",
-      "text": "Jotham. The account of Jotham’s reign (750–735 b.c., including 10 years as co-regent with Uzziah) shows that his military success and power were due to his faithfulness to God (v. 6)."
-    },
-    {
-      "ref": "2 Chron. 27:2",
-      "text": "Corrupt practices probably refers to worship at the high places (see note on 2 Kings 15:34–35)."
+      "title": "Jotham.",
+      "text": "Jotham'ın saltanatına (M.Ö. 750-735, Uzziah'la birlikte naip olarak geçirdiği 10 yıl da dahil) ilişkin kayıt, onun askeri başarısının ve gücünün Tanrı'ya olan sadakatinden kaynaklandığını gösterir (ayet 6)."
     },
     {
       "ref": "2 Chron. 27:3b–6",
-      "text": "Ophel. The higher part of the area between the Temple Mount and the city of David (33:14; Neh. 3:26). Ammonites. See 2 Chron. 26:8."
+      "title": "2 Kron. 27:3b–6",
+      "text": "**Ophel**. Tapınak Dağı ile Davut şehri arasındaki bölgenin yüksek kısmı (33:14; Neh. 3:26). **Amonitler**. Bkz. 2 Kron. 26:8 ."
+    }
+  ],
+  "notes": [
+    {
+      "ref": "2 Chron. 27:2",
+      "text": "**Yolsuzluk uygulamaları** muhtemelen yüksek yerlerdeki ibadetle ilgilidir (bkz. 2. Krallar 15:34–35 ile ilgili not)."
     },
     {
       "ref": "2 Chron. 27:7",
-      "text": "His wars may include the beginning of the “Syro-Ephraimite War” (see 2 Kings 15:37 and note)."
+      "text": "**Onun savaşları** “Suriye-Efrayim Savaşı”nın başlangıcını içerebilir (bkz. 2. Krallar 15:37 ve not)."
     }
   ]
 }

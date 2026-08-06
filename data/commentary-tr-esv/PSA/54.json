@@ -1,24 +1,26 @@
 {
-  "source": "ESV Global Study Bible (Crossway) — Türkçe çeviri — DeepL translator — Lisans kapsamında kullanılmaktadır",
+  "source": "ESV Global Study Bible (Crossway) — Türkçe çeviri — Google Translate — Lisans kapsamında kullanılmaktadır",
   "book_intro": "Blue Letter Bible bakanlığı ve BLB Enstitüsü, Kutsal Yazıların tahrif edilemezliğine olan kesin inancı da içeren tarihsel, muhafazakar Hristiyan inancına bağlıdır. BLB tarafından sağlanan metin ve ses içeriği çeşitli Evanjelik gelenekleri temsil ettiğinden, kaynak materyallerde aktarılan tüm fikir ve ilkelerin bu bakanlık tarafından toplamda onaylanması gerekmez.\n\nBlue Letter Kutsal Kitap çalışma araçları Kutsal Kitap'ı okumayı, araştırmayı ve çalışmayı kolay ve ödüllendirici hale getirir.\n\nBlue Letter Bible 501(c)(3) kar amacı gütmeyen bir kuruluştur\n\nTercih ettiğiniz Kutsal Kitap çevirilerinin sırasını Kutsal Kitaplar Sekmesi'nden Sürüm Seçici'ye (bu açılır pencere) kopyalayabilir ya da tam tersini yapabilirsiniz. Kutsal Kitaplar Sekmesi, Kutsal Kitap sayfalarındaki Araçlar özelliğinde bulunur:\n\nNot: MLA artık atıf standartlarının bir parçası olarak URL'yi zorunlu tutmamaktadır. Bireysel eğitmenler veya editörler yine de URL'lerin kullanılmasını isteyebilir.\n\nHata: Parolalar en az 6 karakterden oluşmalıdır\n\nHata: Kullanıcı adları yalnızca harf, rakam, nokta, tire veya alt çizgi içermelidir\n\nParolalar en az 6 karakterden oluşmalıdır.\n\t\t\t\t\t\t\tKullanıcı adları yalnızca harf, rakam, nokta, tire veya alt çizgi içermelidir.\n\nKaydolduğunuz için teşekkür ederiz. Verdiğiniz adrese bir doğrulama e-postası gönderildi.\n\nOrtaklığınız tüm yaptıklarımızı mümkün kılıyor. Bugün dua ederek bir destek hediyesi vermeyi düşünür müsünüz?",
-  "chapter_intro": "",
-  "passages": [],
-  "notes": [
-    {
-      "ref": "Ps. 54",
-      "text": "Psalm . This is an individual lament, asking for God’s help against those who threaten the lives of the faithful. The title connects the song to the events of 1 Sam. 23:19, where the Ziphites, among whom David was hiding, promised to hand David over to Saul. The psalm focuses on God’s protection."
-    },
+  "passages": [
     {
       "ref": "Ps. 54:1–3",
-      "text": "The psalm opens by describing the circumstances: ruthless men, who have no respect for God (they do not set God before themselves) seek my life. In such a case the proper appeal is to God’s name (vv. 1, 6; God’s name can be an image for his personal presence)."
-    },
-    {
-      "ref": "Ps. 54:3",
-      "text": "strangers. The Ziphites, who belong to Judah, are acting like Gentiles in opposing God’s faithful."
+      "title": "Ps. 54:1–3",
+      "text": "Mezmur şu koşulları açıklayarak açılıyor: Tanrı'ya saygısı olmayan ** acımasız adamlar** (**Tanrı'yı ​​önlerine koymazlar**) **canımı arıyorlar**. Böyle bir durumda asıl başvuru Tanrı'nın **ismine** yapılır (1, 6 ayetler; Tanrı'nın adı, O'nun kişisel mevcudiyetinin bir simgesi olabilir)."
     },
     {
       "ref": "Ps. 54:6–7",
-      "text": "The worshiper looks forward to continued enjoyment of God’s presence and favor. The freewill offering is a kind of peace offering (Lev. 7:16), which celebrates God’s goodness with a meal in his presence. The schemes of the ruthless cannot keep the faithful away from God forever."
+      "title": "Ps. 54:6–7",
+      "text": "İbadet eden kişi, Tanrı'nın varlığının ve lütfunun tadını çıkarmaya devam etmeyi sabırsızlıkla bekler. **Özgür irade sunusu**, Tanrı'nın iyiliğini, O'nun huzurunda yenen bir yemekle kutlayan bir tür esenlik sunusudur (Lev. 7:16). Acımasızların oyunları müminleri sonsuza kadar Allah'tan uzaklaştıramaz."
+    }
+  ],
+  "notes": [
+    {
+      "ref": "Ps. 54",
+      "text": "**Mezmur** . Bu, müminlerin hayatını tehdit edenlere karşı Allah'tan yardım isteyen bireysel bir ağıttır. Başlık, şarkıyı 1 Sam'in olaylarına bağlıyor. 23:19 Davut'un aralarında saklandığı Zifliler Davut'u Saul'a teslim edeceklerine söz verdiler. Mezmur Tanrı’nın korumasına odaklanır."
+    },
+    {
+      "ref": "Ps. 54:3",
+      "text": "**yabancılar**. Yahuda'ya ait olan Zifliler, Tanrı'nın sadıklarına karşı çıkarak diğer uluslar gibi davranıyorlar."
     }
   ]
 }

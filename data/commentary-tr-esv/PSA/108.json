@@ -1,28 +1,32 @@
 {
-  "source": "ESV Global Study Bible (Crossway) — Türkçe çeviri — DeepL translator — Lisans kapsamında kullanılmaktadır",
+  "source": "ESV Global Study Bible (Crossway) — Türkçe çeviri — Google Translate — Lisans kapsamında kullanılmaktadır",
   "book_intro": "Blue Letter Bible bakanlığı ve BLB Enstitüsü, Kutsal Yazıların tahrif edilemezliğine olan kesin inancı da içeren tarihsel, muhafazakar Hristiyan inancına bağlıdır. BLB tarafından sağlanan metin ve ses içeriği çeşitli Evanjelik gelenekleri temsil ettiğinden, kaynak materyallerde aktarılan tüm fikir ve ilkelerin bu bakanlık tarafından toplamda onaylanması gerekmez.\n\nBlue Letter Kutsal Kitap çalışma araçları Kutsal Kitap'ı okumayı, araştırmayı ve çalışmayı kolay ve ödüllendirici hale getirir.\n\nBlue Letter Bible 501(c)(3) kar amacı gütmeyen bir kuruluştur\n\nTercih ettiğiniz Kutsal Kitap çevirilerinin sırasını Kutsal Kitaplar Sekmesi'nden Sürüm Seçici'ye (bu açılır pencere) kopyalayabilir ya da tam tersini yapabilirsiniz. Kutsal Kitaplar Sekmesi, Kutsal Kitap sayfalarındaki Araçlar özelliğinde bulunur:\n\nNot: MLA artık atıf standartlarının bir parçası olarak URL'yi zorunlu tutmamaktadır. Bireysel eğitmenler veya editörler yine de URL'lerin kullanılmasını isteyebilir.\n\nHata: Parolalar en az 6 karakterden oluşmalıdır\n\nHata: Kullanıcı adları yalnızca harf, rakam, nokta, tire veya alt çizgi içermelidir\n\nParolalar en az 6 karakterden oluşmalıdır.\n\t\t\t\t\t\t\tKullanıcı adları yalnızca harf, rakam, nokta, tire veya alt çizgi içermelidir.\n\nKaydolduğunuz için teşekkür ederiz. Verdiğiniz adrese bir doğrulama e-postası gönderildi.\n\nOrtaklığınız tüm yaptıklarımızı mümkün kılıyor. Bugün dua ederek bir destek hediyesi vermeyi düşünür müsünüz?",
-  "chapter_intro": "",
-  "passages": [],
-  "notes": [
-    {
-      "ref": "Ps. 108",
-      "text": "Psalm . It seems that David composed this community lament using material from two other psalms. Verses 1–5 are from 57:7–11 and 108:6–13 are from 60:5–12. In the midst of a dangerous situation, the singers express their confident hope of thanking God “among the peoples” (108:3)."
-    },
+  "passages": [
     {
       "ref": "Ps. 108:1–4",
-      "text": "See 57:7–10. The opening section expresses confidence (my heart is steadfast). The basis for the confidence is God’s steadfast love and faithfulness (Ex. 34:6)."
+      "title": "Ps. 108:1–4",
+      "text": "Bkz. 57:7–10. Açılış bölümü güveni ifade eder (**kalbim kararlıdır**). Güvenin temeli, Tanrı'nın **sadık sevgisi** ve **sadakatidir** (Çık. 34:6)."
     },
     {
       "ref": "Ps. 108:5–6",
-      "text": "The next section is a general prayer, be exalted, with a more specific plea that your beloved ones may be delivered."
+      "title": "Ps. 108:5–6",
+      "text": "Bir sonraki bölüm, **yüceltilsin** şeklindeki genel bir duadır ve **sevdiklerinizin kurtarılması** için daha spesifik bir ricadır."
     },
     {
       "ref": "Ps. 108:7–9",
-      "text": "As with 60:6–8, these verses seem to recall an oracle (God has promised) that gives God’s plan for Israel’s place in the world."
+      "title": "Ps. 108:7–9",
+      "text": "60:6-8'de olduğu gibi, bu ayetler Tanrı'nın İsrail'in dünyadaki yeri hakkındaki planını veren bir kehaneti (**Tanrı'nın vaat ettiğini**) hatırlatıyor gibi görünüyor."
     },
     {
       "ref": "Ps. 108:10–13",
-      "text": "This comes from 60:9–12. Part of the background of Psalm 60 is a campaign against Edom."
+      "title": "Ps. 108:10–13",
+      "text": "Bu, 60:9–12'den gelir. Mezmur 60'ın arka planının bir kısmı **Edom**'a karşı yürütülen kampanyadır."
+    }
+  ],
+  "notes": [
+    {
+      "ref": "Ps. 108",
+      "text": "**Mezmur** . Davud'un bu topluluk ağıtını diğer iki mezmurdan alınan materyalleri kullanarak yazdığı anlaşılıyor. 1-5. ayetler 57:7-11 ayetlerinden, 108:6-13 ayetleri ise 60:5-12 ayetlerindendir. Tehlikeli bir durumun ortasında şarkıcılar, \"halklar arasında\" (108:3) Tanrı'ya şükretme konusundaki emin umutlarını dile getiriyorlar."
     }
   ]
 }

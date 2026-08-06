@@ -1,24 +1,27 @@
 {
-  "source": "ESV Global Study Bible (Crossway) — Türkçe çeviri — DeepL translator — Lisans kapsamında kullanılmaktadır",
+  "source": "ESV Global Study Bible (Crossway) — Türkçe çeviri — Google Translate — Lisans kapsamında kullanılmaktadır",
   "book_intro": "Blue Letter Bible bakanlığı ve BLB Enstitüsü, Kutsal Yazıların tahrif edilemezliğine olan kesin inancı da içeren tarihsel, muhafazakar Hristiyan inancına bağlıdır. BLB tarafından sağlanan metin ve ses içeriği çeşitli Evanjelik gelenekleri temsil ettiğinden, kaynak materyallerde aktarılan tüm fikir ve ilkelerin bu bakanlık tarafından toplamda onaylanması gerekmez.\n\nBlue Letter Kutsal Kitap çalışma araçları Kutsal Kitap'ı okumayı, araştırmayı ve çalışmayı kolay ve ödüllendirici hale getirir.\n\nBlue Letter Bible 501(c)(3) kar amacı gütmeyen bir kuruluştur\n\nTercih ettiğiniz Kutsal Kitap çevirilerinin sırasını Kutsal Kitaplar Sekmesi'nden Sürüm Seçici'ye (bu açılır pencere) kopyalayabilir ya da tam tersini yapabilirsiniz. Kutsal Kitaplar Sekmesi, Kutsal Kitap sayfalarındaki Araçlar özelliğinde bulunur:\n\nNot: MLA artık atıf standartlarının bir parçası olarak URL'yi zorunlu tutmamaktadır. Bireysel eğitmenler veya editörler yine de URL'lerin kullanılmasını isteyebilir.\n\nHata: Parolalar en az 6 karakterden oluşmalıdır\n\nHata: Kullanıcı adları yalnızca harf, rakam, nokta, tire veya alt çizgi içermelidir\n\nParolalar en az 6 karakterden oluşmalıdır.\n\t\t\t\t\t\t\tKullanıcı adları yalnızca harf, rakam, nokta, tire veya alt çizgi içermelidir.\n\nKaydolduğunuz için teşekkür ederiz. Verdiğiniz adrese bir doğrulama e-postası gönderildi.\n\nOrtaklığınız tüm yaptıklarımızı mümkün kılıyor. Bugün dua ederek bir destek hediyesi vermeyi düşünür müsünüz?",
-  "chapter_intro": "",
-  "passages": [],
-  "notes": [
-    {
-      "ref": "Ps. 24",
-      "text": "Psalm . This psalm seems to be intended for public worship—perhaps a celebration remembering how David brought the ark of the Lord into Jerusalem (2 Samuel 6)."
-    },
+  "passages": [
     {
       "ref": "Ps. 24:1–2",
-      "text": "The Lord is the one who founded the world, where human beings dwell. Humans dwell on the land, rather than on the seas (compare Gen. 1:9–10). In 1 Cor. 10:26, Paul quotes Ps. 24:1 to explain that, since God owns everything, the believer may eat any kind of food with a clear conscience."
+      "title": "Ps. 24:1–2",
+      "text": "Rab, insanların **yaşadığı** dünyayı **kurandır**. İnsanlar **denizlerde** ziyade karada yaşarlar (Yaratılış 1:9–10 ile karşılaştırın). 1 Kor. 10:26, Pavlus Mezmur'dan alıntı yapıyor. 24:1, her şeyin sahibi Tanrı olduğundan, inanlının her türlü yiyeceği vicdan rahatlığıyla yiyebileceğini açıklamak için."
     },
     {
       "ref": "Ps. 24:3–6",
-      "text": "Every Israelite has the right to attend worship at the sanctuary (the hill of the Lord, his holy place), but not everyone will really receive blessing, and not everyone will enjoy the status of righteousness. God expects the Israelites to show by behavior that they truly are his people (vv. 4, 6). This is a recurring theme in the OT: see 15:1–5; 51:16–19; Prov. 15:8; Isa. 1:11–17."
+      "title": "Ps. 24:3–6",
+      "text": "Her İsraillinin kutsal alandaki (**Rab'bin tepesi**, **kutsal yeri**) ibadete katılma hakkı vardır, ancak herkes gerçekten **kutsama** almayacak ve herkes **doğruluk** statüsüne sahip olamayacaktır. Tanrı, İsraillilerin davranışlarıyla gerçekten Kendi halkı olduklarını göstermelerini bekler (4, 6 ayetler). Bu, Eski Antlaşma'da tekrarlanan bir temadır: bkz. 15:1–5; 51:16–19; Prov. 15:8; İsa. 1:11–17 ."
     },
     {
       "ref": "Ps. 24:7–10",
-      "text": "The people bearing the ark announce God’s presence in the ark, seeking entry into his sanctuary (v. 7). The people inside the sanctuary reply, Who is this King of glory? The people bearing the ark then say who the Lord is (The Lord, strong and mighty, the Lord, mighty in battle!) and then repeat the request for entry (v. 9)."
+      "title": "Ps. 24:7–10",
+      "text": "Sandığı taşıyan insanlar, Tanrı'nın gemideki varlığını duyururlar ve O'nun mabedine girmeyi isterler (ayet 7). Kutsal alandaki insanlar şöyle yanıt verir: **Bu görkemli Kral kim?** Sandığı taşıyan insanlar daha sonra Rab'bin kim olduğunu söylerler (**Rab, güçlü ve kudretli, Rab, savaşta kudretlidir!**) ve ardından giriş talebini tekrarlar (ayet 9)."
+    }
+  ],
+  "notes": [
+    {
+      "ref": "Ps. 24",
+      "text": "**Mezmur** . Bu mezmurun halka açık tapınma amaçlı olduğu anlaşılıyor; belki de Davut'un Rab'bin sandığını Yeruşalim'e nasıl getirdiğini hatırlatan bir kutlama (2 Samuel 6)."
     }
   ]
 }

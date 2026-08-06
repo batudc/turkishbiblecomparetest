@@ -1,48 +1,51 @@
 {
-  "source": "ESV Global Study Bible (Crossway) — Türkçe çeviri — DeepL translator — Lisans kapsamında kullanılmaktadır",
+  "source": "ESV Global Study Bible (Crossway) — Türkçe çeviri — Google Translate — Lisans kapsamında kullanılmaktadır",
   "book_intro": "Blue Letter Bible bakanlığı ve BLB Enstitüsü, Kutsal Yazıların tahrif edilemezliğine olan kesin inancı da içeren tarihsel, muhafazakar Hristiyan inancına bağlıdır. BLB tarafından sağlanan metin ve ses içeriği çeşitli Evanjelik gelenekleri temsil ettiğinden, kaynak materyallerde aktarılan tüm fikir ve ilkelerin bu bakanlık tarafından toplamda onaylanması gerekmez.\n\nBlue Letter Kutsal Kitap çalışma araçları Kutsal Kitap'ı okumayı, araştırmayı ve çalışmayı kolay ve ödüllendirici hale getirir.\n\nBlue Letter Bible 501(c)(3) kar amacı gütmeyen bir kuruluştur\n\nTercih ettiğiniz Kutsal Kitap çevirilerinin sırasını Kutsal Kitaplar Sekmesi'nden Sürüm Seçici'ye (bu açılır pencere) kopyalayabilir ya da tam tersini yapabilirsiniz. Kutsal Kitaplar Sekmesi, Kutsal Kitap sayfalarındaki Araçlar özelliğinde bulunur:\n\nNot: MLA artık atıf standartlarının bir parçası olarak URL'yi zorunlu tutmamaktadır. Bireysel eğitmenler veya editörler yine de URL'lerin kullanılmasını isteyebilir.\n\nHata: Parolalar en az 6 karakterden oluşmalıdır\n\nHata: Kullanıcı adları yalnızca harf, rakam, nokta, tire veya alt çizgi içermelidir\n\nParolalar en az 6 karakterden oluşmalıdır.\n\t\t\t\t\t\t\tKullanıcı adları yalnızca harf, rakam, nokta, tire veya alt çizgi içermelidir.\n\nKaydolduğunuz için teşekkür ederiz. Verdiğiniz adrese bir doğrulama e-postası gönderildi.\n\nOrtaklığınız tüm yaptıklarımızı mümkün kılıyor. Bugün dua ederek bir destek hediyesi vermeyi düşünür müsünüz?",
-  "chapter_intro": "",
-  "passages": [],
-  "notes": [
-    {
-      "ref": "Ps. 9",
-      "text": "Psalm . Psalms 9–10 together follow a basically acrostic pattern, with the first word of each line beginning with successive letters of the Hebrew alphabet. The acrostic is not perfect, however. Several letters of the alphabet are missing or are out of order. Both psalms say that God cares about those who are “oppressed” (9:9; 10:18); both mention “times of trouble” (9:9; 10:1); both call on God to “arise” (9:19; 10:12); and both are sure that God will not “forget the afflicted” (9:12; 10:12). The key difference between the two psalms is that Psalm 9 is full of praise and thanks while Psalm 10 is mostly a lament."
-    },
-    {
-      "ref": "Ps. 9:1",
-      "text": "with my whole heart. The biblical ideal is for people to love and praise God (compare Deut. 6:5), both in private and in public."
-    },
+  "passages": [
     {
       "ref": "Ps. 9:3–6",
-      "text": "The psalm recalls God’s protection of his people from evil nations. When an Israelite sings of his just cause, he should think about why God chose Israel: God chose Israel to be a light to the Gentiles through their faithfulness to God (compare v. 11)."
-    },
-    {
-      "ref": "Ps. 9:10",
-      "text": "To know God’s name, to put trust in him, and to seek him are all ideals in the OT, even though the people of Israel often fell short of those ideals."
-    },
-    {
-      "ref": "Ps. 9:11",
-      "text": "Tell among the peoples his deeds. God called Abram and Israel to be a blessing to the whole world (Gen. 12:3). Israel should long for the time when the Gentiles would receive that blessing. Compare Rom. 15:8–12."
-    },
-    {
-      "ref": "Ps. 9:12",
-      "text": "Mindful of them, namely, of the oppressed people of Israel (v. 9), whose blood God avenges when the Gentiles spill it unjustly."
+      "title": "Ps. 9:3–6",
+      "text": "Mezmur, Tanrı'nın halkını kötü uluslardan koruduğunu hatırlatır. Bir İsrailli kendi **haklı davasını** söylediğinde, Tanrı'nın neden İsrail'i seçtiğini düşünmelidir: Tanrı, Yahudi olmayanlara, Tanrı'ya olan sadakatleri sayesinde bir ışık olması için İsrail'i seçmiştir (11. ayetle karşılaştırın)."
     },
     {
       "ref": "Ps. 9:13–14",
-      "text": "The song now becomes a prayer for deliverance from affliction. The result of God’s answer to the prayer will be further praise in worship."
+      "title": "Ps. 9:13–14",
+      "text": "Şarkı artık sıkıntıdan kurtulmak için bir duaya dönüşüyor. Tanrı'nın duaya cevabının sonucu ibadette daha fazla övgü olacaktır."
     },
     {
       "ref": "Ps. 9:15–18",
-      "text": "God defends the poor by defeating their oppressors. The wicked (vv. 16, 17) are those Gentiles who oppose God’s purposes (vv. 15, 17). The needy and poor are the people of Israel who are threatened (v. 18)."
+      "title": "Ps. 9:15–18",
+      "text": "Allah, zalimleri mağlup ederek fakirleri korur. **Kötüler** (16, 17 ayetler), Tanrı'nın amaçlarına karşı çıkan Yahudi olmayanlardır (15, 17 ayetler). **Muhtaç** ve **fakir**, tehdit altındaki İsrail halkıdır (ayet 18)."
+    }
+  ],
+  "notes": [
+    {
+      "ref": "Ps. 9",
+      "text": "**Mezmur** . 9-10. Mezmurlar temelde akrostiş bir kalıp izler; her satırın ilk kelimesi İbrani alfabesinin ardışık harfleriyle başlar. Ancak akrostiş mükemmel değil. Alfabenin bazı harfleri eksik veya bozuk. Her iki mezmur da Tanrı'nın “ezilenlerle” ilgilendiğini söyler (9:9; 10:18); her ikisi de “sıkıntılı zamanlar”dan söz ediyor (9:9; 10:1); her ikisi de Tanrı'yı ​​\"kalkmaya\" çağırıyor (9:19; 10:12); ve her ikisi de Tanrı'nın \"mazlumları unutmayacağından\" emindir (9:12; 10:12). İki Mezmur arasındaki temel fark, Mezmur 9'un övgü ve teşekkürle dolu olması, Mezmur 10'un ise çoğunlukla ağıt olmasıdır."
+    },
+    {
+      "ref": "Ps. 9:1",
+      "text": "**tüm kalbimle**. Kutsal Kitap'taki ideal, insanların hem özel hem de kamusal alanda Tanrı'yı ​​sevmesi ve övmesidir (Yasa'nın Tekrarı 6:5 ile karşılaştırın)."
+    },
+    {
+      "ref": "Ps. 9:10",
+      "text": "Tanrı'nın **adını** bilmek, ona **güvenmek** ve onu **aramak**, İsrail halkı çoğu zaman bu ideallerin gerisinde kalsa da, Eski Antlaşma'daki ideallerdir."
+    },
+    {
+      "ref": "Ps. 9:11",
+      "text": "**İnsanlara onun yaptıklarını anlatın**. Tanrı, Avram ve İsrail'i tüm dünya için bir bereket olmaya çağırdı (Yaratılış 12:3). İsrail, Yahudi olmayanların bu nimeti alacağı zamanı özlemle beklemelidir. Rom'u karşılaştırın. 15:8–12 ."
+    },
+    {
+      "ref": "Ps. 9:12",
+      "text": "**Onların**, yani Yahudi olmayanlar haksız yere döktüğünde Tanrı'nın **kanını** aldığı mazlum İsrail halkının (ayet 9) farkında olun."
     },
     {
       "ref": "Ps. 9:17",
-      "text": "Sheol. See note on 6:5."
+      "text": "**Sheol**. 6:5 ile ilgili nota bakınız."
     },
     {
       "ref": "Ps. 9:18",
-      "text": "not . . . forgotten. Compare “not forget,” v. 12. This is in contrast to those who forget God (v. 17)."
+      "text": "**değil. . . unutuldu**. “Unutma” ayet 12'yi karşılaştırın. Bu, Allah'ı unutanların tersinedir (ayet 17)."
     }
   ]
 }

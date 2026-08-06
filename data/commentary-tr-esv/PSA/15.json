@@ -1,28 +1,29 @@
 {
-  "source": "ESV Global Study Bible (Crossway) — Türkçe çeviri — DeepL translator — Lisans kapsamında kullanılmaktadır",
+  "source": "ESV Global Study Bible (Crossway) — Türkçe çeviri — Google Translate — Lisans kapsamında kullanılmaktadır",
   "book_intro": "Blue Letter Bible bakanlığı ve BLB Enstitüsü, Kutsal Yazıların tahrif edilemezliğine olan kesin inancı da içeren tarihsel, muhafazakar Hristiyan inancına bağlıdır. BLB tarafından sağlanan metin ve ses içeriği çeşitli Evanjelik gelenekleri temsil ettiğinden, kaynak materyallerde aktarılan tüm fikir ve ilkelerin bu bakanlık tarafından toplamda onaylanması gerekmez.\n\nBlue Letter Kutsal Kitap çalışma araçları Kutsal Kitap'ı okumayı, araştırmayı ve çalışmayı kolay ve ödüllendirici hale getirir.\n\nBlue Letter Bible 501(c)(3) kar amacı gütmeyen bir kuruluştur\n\nTercih ettiğiniz Kutsal Kitap çevirilerinin sırasını Kutsal Kitaplar Sekmesi'nden Sürüm Seçici'ye (bu açılır pencere) kopyalayabilir ya da tam tersini yapabilirsiniz. Kutsal Kitaplar Sekmesi, Kutsal Kitap sayfalarındaki Araçlar özelliğinde bulunur:\n\nNot: MLA artık atıf standartlarının bir parçası olarak URL'yi zorunlu tutmamaktadır. Bireysel eğitmenler veya editörler yine de URL'lerin kullanılmasını isteyebilir.\n\nHata: Parolalar en az 6 karakterden oluşmalıdır\n\nHata: Kullanıcı adları yalnızca harf, rakam, nokta, tire veya alt çizgi içermelidir\n\nParolalar en az 6 karakterden oluşmalıdır.\n\t\t\t\t\t\t\tKullanıcı adları yalnızca harf, rakam, nokta, tire veya alt çizgi içermelidir.\n\nKaydolduğunuz için teşekkür ederiz. Verdiğiniz adrese bir doğrulama e-postası gönderildi.\n\nOrtaklığınız tüm yaptıklarımızı mümkün kılıyor. Bugün dua ederek bir destek hediyesi vermeyi düşünür müsünüz?",
-  "chapter_intro": "",
-  "passages": [],
+  "passages": [
+    {
+      "ref": "Ps. 15:2–5",
+      "title": "Ps. 15:2–5",
+      "text": "Bu ayetler, **kusursuzca yürüyen** ve **doğru olanı yapan** kişinin nasıl bir insan olduğuna dair spesifik örnekler vermektedir. Böyle bir kişi iman kardeşlerinin iyiliğiyle ilgilenir."
+    }
+  ],
   "notes": [
     {
       "ref": "Ps. 15",
-      "text": "Psalm . This hymn celebrates the ideal worshiper of the Lord. The singers do not claim to have achieved these character qualities. They simply yearn to have them more and more."
+      "text": "**Mezmur** . Bu ilahi, Rab'be ideal tapan kişiyi kutluyor. Şarkıcılar bu karakter niteliklerine ulaştıklarını iddia etmiyorlar. Onlara giderek daha fazla sahip olmayı arzuluyorlar."
     },
     {
       "ref": "Ps. 15:1",
-      "text": "The tent (compare 27:4–6) and holy hill describe the sanctuary where God is especially present with his people. To sojourn or dwell there is to be a welcomed guest in God’s house (compare 61:4; 65:4)."
-    },
-    {
-      "ref": "Ps. 15:2–5",
-      "text": "These verses give specific examples of the kind of person who walks blamelessly and does what is right. Such a person is concerned about the well-being of fellow believers."
+      "text": "**Çadır** (27:4–6 ile karşılaştırın) ve**kutsal tepe**, Tanrı'nın özellikle halkıyla birlikte bulunduğu kutsal alanı tanımlar. **Kalmak** veya **ikamet etmek** için Tanrı'nın evinde hoş karşılanan bir misafirin olması gerekir (61:4; 65:4 ile karşılaştırın)."
     },
     {
       "ref": "Ps. 15:4",
-      "text": "A vile person is the Israelite who rejects covenant life (compare Jer. 6:30, “rejected”). Those who fear the Lord are those who embrace the covenant."
+      "text": "**Kötü kişi**, antlaşmaya dayalı yaşamı reddeden İsraillidir (Yer. 6:30, “reddedilen” ile karşılaştırın). **Rab'den korkanlar**, antlaşmaya sarılanlardır."
     },
     {
       "ref": "Ps. 15:5",
-      "text": "does not put out his money at interest. When the law forbids Israelites to charge interest to fellow Israelites, it is referring to private loans to a neighbor rather than commercial transactions. In such cases, Israelites are forbidden to charge interest to their fellow Israelites (see Deut. 23:19–20, “your brother”), but they may charge interest to a foreigner. This psalm seems to suggest that the ideal person deals generously and fairly with all people, whether they are fellow Israelites or not. He goes beyond what the law requires."
+      "text": "**parasını faize yatırmaz**. Yasa İsraillilerin İsraillilerden faiz almasını yasakladığında, bu ticari işlemlerden ziyade komşulara verilen özel kredilere atıfta bulunuyor. Bu gibi durumlarda İsraillilerin İsrailli kardeşlerinden faiz almaları yasaktır (bkz. Yas. 23:19–20, “kardeşiniz”), ancak bir yabancıdan faiz alabilirler. Bu mezmur, ideal kişinin, İsrailoğulları olsun ya da olmasın, tüm insanlara cömert ve adil davrandığını öne sürüyor gibi görünüyor. Kanunun gerektirdiğinin ötesine geçiyor."
     }
   ]
 }

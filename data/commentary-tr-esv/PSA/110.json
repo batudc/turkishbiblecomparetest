@@ -1,28 +1,30 @@
 {
-  "source": "ESV Global Study Bible (Crossway) — Türkçe çeviri — DeepL translator — Lisans kapsamında kullanılmaktadır",
+  "source": "ESV Global Study Bible (Crossway) — Türkçe çeviri — Google Translate — Lisans kapsamında kullanılmaktadır",
   "book_intro": "Blue Letter Bible bakanlığı ve BLB Enstitüsü, Kutsal Yazıların tahrif edilemezliğine olan kesin inancı da içeren tarihsel, muhafazakar Hristiyan inancına bağlıdır. BLB tarafından sağlanan metin ve ses içeriği çeşitli Evanjelik gelenekleri temsil ettiğinden, kaynak materyallerde aktarılan tüm fikir ve ilkelerin bu bakanlık tarafından toplamda onaylanması gerekmez.\n\nBlue Letter Kutsal Kitap çalışma araçları Kutsal Kitap'ı okumayı, araştırmayı ve çalışmayı kolay ve ödüllendirici hale getirir.\n\nBlue Letter Bible 501(c)(3) kar amacı gütmeyen bir kuruluştur\n\nTercih ettiğiniz Kutsal Kitap çevirilerinin sırasını Kutsal Kitaplar Sekmesi'nden Sürüm Seçici'ye (bu açılır pencere) kopyalayabilir ya da tam tersini yapabilirsiniz. Kutsal Kitaplar Sekmesi, Kutsal Kitap sayfalarındaki Araçlar özelliğinde bulunur:\n\nNot: MLA artık atıf standartlarının bir parçası olarak URL'yi zorunlu tutmamaktadır. Bireysel eğitmenler veya editörler yine de URL'lerin kullanılmasını isteyebilir.\n\nHata: Parolalar en az 6 karakterden oluşmalıdır\n\nHata: Kullanıcı adları yalnızca harf, rakam, nokta, tire veya alt çizgi içermelidir\n\nParolalar en az 6 karakterden oluşmalıdır.\n\t\t\t\t\t\t\tKullanıcı adları yalnızca harf, rakam, nokta, tire veya alt çizgi içermelidir.\n\nKaydolduğunuz için teşekkür ederiz. Verdiğiniz adrese bir doğrulama e-postası gönderildi.\n\nOrtaklığınız tüm yaptıklarımızı mümkün kılıyor. Bugün dua ederek bir destek hediyesi vermeyi düşünür müsünüz?",
-  "chapter_intro": "",
-  "passages": [],
-  "notes": [
-    {
-      "ref": "Ps. 110",
-      "text": "Psalm . This is a royal psalm (see also Psalms 2; 18; 20–21; 45; 72; 101; 132; 144). Like Psalms 2 and 72, it goes well beyond the achievements of any merely human heir of David and thus looks forward to the Messiah. The people of Israel sang this song to celebrate God’s promises to David, to yearn for the day when the Gentiles receive the light (through the Messiah), and to pledge to be faithful to their calling until that great day."
-    },
-    {
-      "ref": "Ps. 110:1",
-      "text": "The psalm opens with an oracle from the Lord to the Davidic king (my Lord). Sit at my right hand. This is the position of honor (see 1 Kings 2:19; Ps. 45:9). Jesus, as the reigning messianic king, is likewise seated at “God’s right hand” (Matt. 26:64; Acts 2:32–35; Eph. 1:20; Heb. 1:3; etc.). make your enemies your footstool. See also 1 Kings 5:3. God will subdue these enemies, making them subject to the authority of the Davidic king (see Ps. 2:8; 72:8–11; Isa. 11:1–10)."
-    },
+  "passages": [
     {
       "ref": "Ps. 110:2–4",
-      "text": "The next section looks to the Davidic king’s successful rule over God’s people, even under threat from hostile forces: Rule in the midst of your enemies!"
-    },
-    {
-      "ref": "Ps. 110:4",
-      "text": "a priest forever after the order of Melchizedek. Melchizedek was king of Salem (Jerusalem) and a priest of God Most High (Gen. 14:18–20). He met Abraham after a battle, blessed him, and received a tithe from him. The Davidic king is to be like him, probably in the sense that he is both a king and a priest, which were two distinct offices in Israel."
+      "title": "Ps. 110:2–4",
+      "text": "Bir sonraki bölüm, Davut kralının, düşman güçlerin tehdidi altında bile Tanrı'nın halkı üzerindeki başarılı yönetimini ele alıyor: **Düşmanlarınızın ortasında yönetin!**"
     },
     {
       "ref": "Ps. 110:5–7",
-      "text": "The final section takes up a common messianic theme of the OT. The ultimate heir of David will conquer the Gentile leaders, so that all people can serve their new king, the Messiah (see Isa. 11:4)."
+      "title": "Ps. 110:5–7",
+      "text": "Son bölüm, Eski Antlaşma'nın ortak mesih temasını ele alıyor. Davut'un nihai varisi, Yahudi olmayan liderleri yenecek, böylece tüm insanlar yeni kralları Mesih'e hizmet edebilecek (bkz. Yeşaya 11:4)."
+    }
+  ],
+  "notes": [
+    {
+      "ref": "Ps. 110",
+      "text": "**Mezmur** . Bu bir kraliyet mezmurudur (ayrıca bkz. Mezmurlar 2; 18; 20–21; 45; 72; 101; 132; 144). Mezmur 2 ve 72 gibi, Davut'un herhangi bir insan varisinin başarılarının çok ötesine geçer ve bu nedenle Mesih'i sabırsızlıkla beklemektedir. İsrail halkı bu şarkıyı, Tanrı'nın Davut'a verdiği sözleri kutlamak, Yahudi olmayan ulusların (Mesih aracılığıyla) ışığı alacakları günü özlemek ve o büyük güne kadar çağrılarına sadık kalacaklarına söz vermek için söylediler."
+    },
+    {
+      "ref": "Ps. 110:1",
+      "text": "Mezmur, **Rab'den** Davud kralına (**Rabbim**) bir kehanetle açılıyor. **Sağ tarafıma otur**. Bu onurlu bir konumdur (bkz. 1. Krallar 2:19; Mezmur 45:9). İsa, hüküm süren mesih kralı olarak aynı şekilde \"Tanrı'nın sağında\" oturmaktadır (Mat. 26:64; Elçilerin İşleri 2:32-35; Efes. 1:20; İbraniler 1:3; vb.). **düşmanlarınızı tabureniz yapın**. Ayrıca bkz. 1 Krallar 5:3. Tanrı bu düşmanlara boyun eğdirecek ve onları Davut kralının otoritesine tabi kılacaktır (bkz. Mezmur 2:8; 72:8–11; İşaya 11:1–10)."
+    },
+    {
+      "ref": "Ps. 110:4",
+      "text": "**Melchizedek'in tarikatından sonra sonsuza kadar bir rahip**. Melkisedek, Salem'in (Kudüs) kralıydı ve Yüce Tanrı'nın bir rahibiydi (Yaratılış 14:18–20). İbrahim'le bir savaştan sonra karşılaştı, onu kutsadı ve ondan ondalık bir pay aldı. Davut kralı, muhtemelen İsrail'de iki farklı makam olan hem kral hem de rahip olması anlamında onun gibi olmalıdır."
     }
   ]
 }

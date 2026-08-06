@@ -1,36 +1,37 @@
 {
-  "source": "ESV Global Study Bible (Crossway) — Türkçe çeviri — DeepL translator — Lisans kapsamında kullanılmaktadır",
+  "source": "ESV Global Study Bible (Crossway) — Türkçe çeviri — Google Translate — Lisans kapsamında kullanılmaktadır",
   "book_intro": "Blue Letter Bible bakanlığı ve BLB Enstitüsü, Kutsal Yazıların tahrif edilemezliğine olan kesin inancı da içeren tarihsel, muhafazakar Hristiyan inancına bağlıdır. BLB tarafından sağlanan metin ve ses içeriği çeşitli Evanjelik gelenekleri temsil ettiğinden, kaynak materyallerde aktarılan tüm fikir ve ilkelerin bu bakanlık tarafından toplamda onaylanması gerekmez.\n\nBlue Letter Kutsal Kitap çalışma araçları Kutsal Kitap'ı okumayı, araştırmayı ve çalışmayı kolay ve ödüllendirici hale getirir.\n\nBlue Letter Bible 501(c)(3) kar amacı gütmeyen bir kuruluştur\n\nTercih ettiğiniz Kutsal Kitap çevirilerinin sırasını Kutsal Kitaplar Sekmesi'nden Sürüm Seçici'ye (bu açılır pencere) kopyalayabilir ya da tam tersini yapabilirsiniz. Kutsal Kitaplar Sekmesi, Kutsal Kitap sayfalarındaki Araçlar özelliğinde bulunur:\n\nNot: MLA artık atıf standartlarının bir parçası olarak URL'yi zorunlu tutmamaktadır. Bireysel eğitmenler veya editörler yine de URL'lerin kullanılmasını isteyebilir.\n\nHata: Parolalar en az 6 karakterden oluşmalıdır\n\nHata: Kullanıcı adları yalnızca harf, rakam, nokta, tire veya alt çizgi içermelidir\n\nParolalar en az 6 karakterden oluşmalıdır.\n\t\t\t\t\t\t\tKullanıcı adları yalnızca harf, rakam, nokta, tire veya alt çizgi içermelidir.\n\nKaydolduğunuz için teşekkür ederiz. Verdiğiniz adrese bir doğrulama e-postası gönderildi.\n\nOrtaklığınız tüm yaptıklarımızı mümkün kılıyor. Bugün dua ederek bir destek hediyesi vermeyi düşünür müsünüz?",
-  "chapter_intro": "",
-  "passages": [],
+  "passages": [
+    {
+      "ref": "Ps. 12:1–2",
+      "title": "Ps. 12:1–2",
+      "text": "Açıklanan **yalanların** belirli türleri, **dalkavuk dudaklar** ve samimiyetsiz konuşmadır (**çifte kalp**). Bu tür insanlar kazanç uğruna başkalarını manipüle ederler (ayet 2)."
+    }
+  ],
   "notes": [
     {
       "ref": "Ps. 12",
-      "text": "Psalm . This is a community lament, describing a time when liars are in positions of authority."
-    },
-    {
-      "ref": "Ps. 12:1–2",
-      "text": "The particular kinds of lies described are flattering lips and insincere speech (a double heart). Such people manipulate others for the sake of gain (v. 2)."
+      "text": "**Mezmur** . Bu, yalancıların otorite pozisyonlarında olduğu bir zamanı anlatan bir topluluk ağıtıdır."
     },
     {
       "ref": "Ps. 12:3",
-      "text": "cut off. By removing them from his people (see Lev. 20:3)."
+      "text": "**kesildi**. Onları halkının arasından uzaklaştırarak (bkz. Lev. 20:3)."
     },
     {
       "ref": "Ps. 12:5",
-      "text": "True Israelites will not oppress the poor and needy but will care for them (see Deut. 15:11; 24:14). When the poor are oppressed, God takes action (compare Ps. 9:18)."
+      "text": "Gerçek İsrailliler **fakir** ve **muhtaçlara** baskı yapmayacak, ancak onlarla ilgileneceklerdir (bkz. Tesniye 15:11; 24:14). Yoksullar baskı altına alındığında Tanrı harekete geçer (Mezmur 9:18 ile karşılaştırın)."
     },
     {
       "ref": "Ps. 12:6",
-      "text": "God’s words are pure, refined, and purified; they are free of the impurities of lies, flattery, or insincerity (see v. 2)."
+      "text": "Tanrı'nın **sözleri** **saf**, **saflaştırılmış** ve **saflaştırılmıştır**; yalan, dalkavukluk veya samimiyetsizlik gibi kirliliklerden uzaktırlar (bkz. ayet 2)."
     },
     {
       "ref": "Ps. 12:7",
-      "text": "Them probably refers to the poor and needy (v. 5) and the godly (v. 1)."
+      "text": "**Onlar** muhtemelen fakir ve muhtaçlara (ayet 5) ve dindarlara (ayet 1) atıfta bulunuyor."
     },
     {
       "ref": "Ps. 12:8",
-      "text": "This final verse describes again the conditions described in vv. 1–2. Ending on this somber note reminds the faithful of their constant dependence on God."
+      "text": "Bu son ayet yine 4. ayette anlatılan koşulları anlatmaktadır. 1–2 . Bu kasvetli notla bitirmek, inananlara sürekli olarak Tanrı'ya bağımlı olduklarını hatırlatır."
     }
   ]
 }

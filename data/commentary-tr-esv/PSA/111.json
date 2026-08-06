@@ -1,36 +1,37 @@
 {
-  "source": "ESV Global Study Bible (Crossway) — Türkçe çeviri — DeepL translator — Lisans kapsamında kullanılmaktadır",
+  "source": "ESV Global Study Bible (Crossway) — Türkçe çeviri — Google Translate — Lisans kapsamında kullanılmaktadır",
   "book_intro": "Blue Letter Bible bakanlığı ve BLB Enstitüsü, Kutsal Yazıların tahrif edilemezliğine olan kesin inancı da içeren tarihsel, muhafazakar Hristiyan inancına bağlıdır. BLB tarafından sağlanan metin ve ses içeriği çeşitli Evanjelik gelenekleri temsil ettiğinden, kaynak materyallerde aktarılan tüm fikir ve ilkelerin bu bakanlık tarafından toplamda onaylanması gerekmez.\n\nBlue Letter Kutsal Kitap çalışma araçları Kutsal Kitap'ı okumayı, araştırmayı ve çalışmayı kolay ve ödüllendirici hale getirir.\n\nBlue Letter Bible 501(c)(3) kar amacı gütmeyen bir kuruluştur\n\nTercih ettiğiniz Kutsal Kitap çevirilerinin sırasını Kutsal Kitaplar Sekmesi'nden Sürüm Seçici'ye (bu açılır pencere) kopyalayabilir ya da tam tersini yapabilirsiniz. Kutsal Kitaplar Sekmesi, Kutsal Kitap sayfalarındaki Araçlar özelliğinde bulunur:\n\nNot: MLA artık atıf standartlarının bir parçası olarak URL'yi zorunlu tutmamaktadır. Bireysel eğitmenler veya editörler yine de URL'lerin kullanılmasını isteyebilir.\n\nHata: Parolalar en az 6 karakterden oluşmalıdır\n\nHata: Kullanıcı adları yalnızca harf, rakam, nokta, tire veya alt çizgi içermelidir\n\nParolalar en az 6 karakterden oluşmalıdır.\n\t\t\t\t\t\t\tKullanıcı adları yalnızca harf, rakam, nokta, tire veya alt çizgi içermelidir.\n\nKaydolduğunuz için teşekkür ederiz. Verdiğiniz adrese bir doğrulama e-postası gönderildi.\n\nOrtaklığınız tüm yaptıklarımızı mümkün kılıyor. Bugün dua ederek bir destek hediyesi vermeyi düşünür müsünüz?",
-  "chapter_intro": "",
-  "passages": [],
+  "passages": [
+    {
+      "ref": "Ps. 111:7–8",
+      "title": "Ps. 111:7–8",
+      "text": "Tanrı'nın **talimatları** (talimatlar; bkz. 19:8; 119:4), O'nun sevgisini ve sadakatini, **ellerinin eserleri** kadar ifade eder."
+    }
+  ],
   "notes": [
     {
       "ref": "Ps. 111",
-      "text": "Psalm . This hymn of praise celebrates the great works the Lord has done for his people. He has called them to be his own, and has cared for and protected them. Singing the psalm reminds the people of these deeds and encourages them to respond with a “fear of the Lord” (v. 10). Psalms 111–112 go together. Psalm 111:10 closes with the reference to the “fear of the Lord” and Ps. 112:1 begins with “the man who fears the Lord.”"
+      "text": "**Mezmur** . Bu övgü ilahisi, Rab'bin halkı için yaptığı büyük işleri kutluyor. Onları kendisine ait olmaya çağırmış, onlarla ilgilenmiş ve korumuştur. Mezmur söylemek insanlara bu eylemleri hatırlatır ve onları “Rab korkusuyla” karşılık vermeye teşvik eder (ayet 10). Mezmur 111–112 birlikte gelir. Mezmur 111:10, “Rab korkusuna” ve Mezmurlara değinerek sona ermektedir. 112:1 “Rab'den korkan adam”la başlıyor."
     },
     {
       "ref": "Ps. 111:2",
-      "text": "works (see vv. 6, 7). These are God’s deeds in creation (e.g., 8:3; 6; 104:24), and especially in redeeming his people (e.g., 145:9; Ex. 34:10; Deut. 3:24; Dan. 9:14)."
+      "text": "**çalışır** (bkz. ayetler 6, 7). Bunlar, Tanrı'nın yaratılıştaki (örneğin, 8:3; 6; 104:24) ve özellikle de halkını kurtarmaktaki (örneğin, 145:9; Çıkış 34:10; Yas. 3:24; Dan. 9:14) eylemleridir."
     },
     {
       "ref": "Ps. 111:3",
-      "text": "his righteousness endures forever. See 119:142; Isa. 51:8. God shows his righteousness, his uprightness, and his faithfulness to his promises in his great deeds. See note on Ps. 112:3."
+      "text": "**onun doğruluğu sonsuza kadar sürer**. Bkz. 119:142; İsa. 51:8 . Allah, büyük işleriyle doğruluğunu, doğruluğunu ve vaatlerine olan bağlılığını gösterir. Ps.'deki nota bakınız. 112:3 ."
     },
     {
       "ref": "Ps. 111:4",
-      "text": "gracious and merciful. See Ex. 34:6."
+      "text": "**zarif ve merhametli**. Örn. 34:6 ."
     },
     {
       "ref": "Ps. 111:5",
-      "text": "remembers his covenant. See notes on 25:6–7; 105:8. Just as God “remembers,” so should his people remember (111:4)."
+      "text": "**antlaşmasını hatırlıyor**. 25:6–7 ile ilgili notlara bakınız; 105:8 . Tanrı nasıl “hatırlıyorsa”, halkının da öyle hatırlaması gerekir (111:4)."
     },
     {
       "ref": "Ps. 111:6",
-      "text": "This describes the taking of the Promised Land."
-    },
-    {
-      "ref": "Ps. 111:7–8",
-      "text": "God’s precepts (instructions; see 19:8; 119:4) express his love and faithfulness as much as the works of his hands do."
+      "text": "Bu, Vaat Edilen Toprakların ele geçirilmesini anlatıyor."
     }
   ]
 }

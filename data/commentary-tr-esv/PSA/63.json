@@ -1,32 +1,35 @@
 {
-  "source": "ESV Global Study Bible (Crossway) — Türkçe çeviri — DeepL translator — Lisans kapsamında kullanılmaktadır",
+  "source": "ESV Global Study Bible (Crossway) — Türkçe çeviri — Google Translate — Lisans kapsamında kullanılmaktadır",
   "book_intro": "Blue Letter Bible bakanlığı ve BLB Enstitüsü, Kutsal Yazıların tahrif edilemezliğine olan kesin inancı da içeren tarihsel, muhafazakar Hristiyan inancına bağlıdır. BLB tarafından sağlanan metin ve ses içeriği çeşitli Evanjelik gelenekleri temsil ettiğinden, kaynak materyallerde aktarılan tüm fikir ve ilkelerin bu bakanlık tarafından toplamda onaylanması gerekmez.\n\nBlue Letter Kutsal Kitap çalışma araçları Kutsal Kitap'ı okumayı, araştırmayı ve çalışmayı kolay ve ödüllendirici hale getirir.\n\nBlue Letter Bible 501(c)(3) kar amacı gütmeyen bir kuruluştur\n\nTercih ettiğiniz Kutsal Kitap çevirilerinin sırasını Kutsal Kitaplar Sekmesi'nden Sürüm Seçici'ye (bu açılır pencere) kopyalayabilir ya da tam tersini yapabilirsiniz. Kutsal Kitaplar Sekmesi, Kutsal Kitap sayfalarındaki Araçlar özelliğinde bulunur:\n\nNot: MLA artık atıf standartlarının bir parçası olarak URL'yi zorunlu tutmamaktadır. Bireysel eğitmenler veya editörler yine de URL'lerin kullanılmasını isteyebilir.\n\nHata: Parolalar en az 6 karakterden oluşmalıdır\n\nHata: Kullanıcı adları yalnızca harf, rakam, nokta, tire veya alt çizgi içermelidir\n\nParolalar en az 6 karakterden oluşmalıdır.\n\t\t\t\t\t\t\tKullanıcı adları yalnızca harf, rakam, nokta, tire veya alt çizgi içermelidir.\n\nKaydolduğunuz için teşekkür ederiz. Verdiğiniz adrese bir doğrulama e-postası gönderildi.\n\nOrtaklığınız tüm yaptıklarımızı mümkün kılıyor. Bugün dua ederek bir destek hediyesi vermeyi düşünür müsünüz?",
-  "chapter_intro": "",
-  "passages": [],
-  "notes": [
-    {
-      "ref": "Ps. 63",
-      "text": "Psalm . This psalm opens as if it were a lament, yet it is mainly a song of confident expectation. The psalm helps God’s people gain confidence during times of trouble. It expresses confidence that they will be able to return to the sanctuary to worship God. The highest privilege a human can enjoy is to be a welcome member of the worshiping congregation. The references to “my soul” (vv. 1, 5, 8) express personal devotion to God."
-    },
+  "passages": [
     {
       "ref": "Ps. 63:1–2",
-      "text": "The song opens with passionate expressions of longing for God: earnestly I seek, my soul thirsts, my flesh faints. The singer misses his experience of God in public worship. The sanctuary is the place of corporate worship, and God’s glory is his special presence there with his people (see note on 26:4–8)."
+      "title": "Ps. 63:1–2",
+      "text": "Şarkı, Tanrı'ya olan özlemin tutkulu ifadeleriyle açılıyor: **Cidden arıyorum**,** ruhum susuyor**, **benim bayılıyor**. Şarkıcı, halka açık ibadetlerde Tanrı deneyimini özlüyor. **Mabed** toplu ibadetin yeridir ve Tanrı'nın **şanı**, orada halkıyla birlikte orada bulunmasıdır (bkz. 26:4-8 ile ilgili not)."
     },
     {
       "ref": "Ps. 63:3–4",
-      "text": "The past tense remembering of v. 2 becomes a future expectation: my lips will praise you, I will bless you, I will lift up my hands. This happens because your steadfast love is better than life."
-    },
-    {
-      "ref": "Ps. 63:6",
-      "text": "in the watches of the night. The singer deals with sleeplessness by meditating on God."
+      "title": "Ps. 63:3–4",
+      "text": "2. ayetin geçmiş zaman hatırlanması gelecek beklentisine dönüşür: **dudaklarım seni övecek**, **Seni kutsayacağım**, **Ellerimi kaldıracağım**. Bunun olmasının nedeni **sadık aşkınızın hayattan daha iyi olmasıdır**."
     },
     {
       "ref": "Ps. 63:9–11",
-      "text": "The song explains where the troubles came from: those who seek to destroy my life. For David, these were Israelites who rebelled against God’s choice of David as king (see the title). David, and those who respect his kingship, will not fall prey to these enemies but will rejoice in God."
+      "title": "Ps. 63:9–11",
+      "text": "Şarkı, sorunların nereden geldiğini açıklıyor: **Hayatımı mahvetmek isteyenler**. Davut'a göre bunlar, Tanrı'nın Davut'u kral olarak seçmesine karşı isyan eden İsrailoğullarıydı (başlığa bakın). Davut ve onun krallığına saygı duyanlar bu düşmanların tuzağına düşmeyecek, Tanrı'ya sevinecekler."
+    }
+  ],
+  "notes": [
+    {
+      "ref": "Ps. 63",
+      "text": "**Mezmur** . Bu mezmur sanki bir ağıtmış gibi açılıyor ama esas olarak kendinden emin bir beklentinin şarkısı. Mezmur, Tanrı’nın halkının sıkıntılı zamanlarda güven kazanmasına yardım eder. Tanrı'ya ibadet etmek için tapınağa geri dönebileceklerine dair güveni ifade eder. Bir insanın sahip olabileceği en büyük ayrıcalık, ibadet eden cemaatin hoş karşılanan bir üyesi olmaktır. “Canım”dan (vv. 1, 5, 8) yapılan atıflar, Tanrı'ya olan kişisel bağlılığı ifade eder."
+    },
+    {
+      "ref": "Ps. 63:6",
+      "text": "**gecenin saatlerinde**. Şarkıcı, Tanrı üzerine meditasyon yaparak uykusuzluğun üstesinden geliyor."
     },
     {
       "ref": "Ps. 63:10",
-      "text": "The enemies of God’s people will become a portion for jackals, a grim description of dead bodies lying unburied after a battle."
+      "text": "Tanrı'nın halkının düşmanları **çakalların payına** dönüşecek; bu, savaştan sonra gömülmeden yatan cesetlerin kasvetli bir tanımı."
     }
   ]
 }

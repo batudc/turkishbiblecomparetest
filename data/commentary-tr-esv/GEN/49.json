@@ -1,70 +1,64 @@
 {
-  "source": "ESV Global Study Bible (Crossway) — Türkçe çeviri — DeepL translator — Lisans kapsamında kullanılmaktadır",
+  "source": "ESV Global Study Bible (Crossway) — Türkçe çeviri — Google Translate — Lisans kapsamında kullanılmaktadır",
   "book_intro": "Yazar, Tarih ve Alıcılar\n\nGeleneksel olarak Musa'nın Yaratılış'ın ve Pentatök'ün geri kalanının yazarı olduğu kabul edilir (bkz. Çölde Sayım 33:2; Yasa'nın Tekrarı 31:24; Yuhanna 5:46). Elbette Musa Yaratılış'ta anlatılan olaylardan çok daha sonra yaşamıştır. Muhtemelen, daha önceki olaylarla ilgili hikayeler aktarıldı ve Musa hepsini bir araya getirdi.\n\nİlk dinleyiciler Musa'nın çölde önderlik ettiği İsrailliler olmalıdır. Bugünkü okuyucular için Yaratılış, Kutsal Kitap'ın geri kalanına temel bir giriş niteliğindedir. Haklı olarak başlangıçlar kitabı olarak adlandırılır.\n\nTema\n\nYaratılış'ın teması yaratılış, günah ve yeniden yaratılıştır. Tanrı dünyayı çok iyi yaratmış, ama insanın itaatsizliği yüzünden önce onu lanetlemiş, sonra da tufanla yok etmiştir. Tufandan sonraki yeni dünya da insanın günahı yüzünden bozulmuştur (bölüm 11). Tanrı İbrahim'i özel bir amaç için seçti. Onun ailesi aracılığıyla bütün uluslar kutsanacaktı (12:1-3). Tanrı'nın amacı eninde sonunda İbrahim'in soyu aracılığıyla yerine gelecektir (bölüm 49).\n\nAnahtar Temalar\n\nRab Tanrı insanları yeryüzündeki temsilcileri olarak görevlendirir. Yeryüzüne bakmalı ve diğer canlıları yönetmelidirler (1:1-2:25).\n\nİlk erkek ve kadın -Adem ve Havva- Tanrı'nın yeryüzündeki temsilcileri olarak hareket etmek yerine yılanı dinler ve onun öğütlerine uyarlar. Onların itaatsizliği tüm insanlık ve yaratılan tüm dünya için yıkıcı sonuçlar doğurur (3:1-24; 6:5-6).\n\nTanrı, Havva'nın soyunun insanlığı yılanın kontrolünden kurtaracağını lütufkâr bir şekilde duyurur (3:15). Yaratılış daha sonra İsrail halkı olacak bir ailenin tarihini izlemeye başlar. Bu ailenin Tanrı'yla özel bir ilişkisi vardır ve düşmüş insanlık için bir bereket kaynağı olacaktır (12:1-3).\n\nAdem'in itaatsizliğinin bir sonucu olarak, toprakla olan eşsiz ilişkisi bozulur, bu da ağır işlere ve daha sonra tufan ve kıtlığa neden olur. Ancak Adem'den gelen özel aile de zorluklardan kurtulmayı sağlar (3:17-19; 5:29; 50:19-21).\n\nHavva'nın cezası çocuk doğurma acısına odaklanırken (3:16), kadınlar eşsiz aile soyunun devam etmesinde önemli bir rol oynarlar. Tanrı'nın yardımıyla kısırlığın bile üstesinden gelinir (11:30; 21:1-7; 25:21; 38:1-30).\n\nİnsan doğasının bozulması ailelerin parçalanmasına neden olur (4:1-16; 13:5-8; 25:22-23; 27:41-45; 37:2-35). Yaratılış aile çatışmalarının gerçekliğini gösterse de, seçilmiş ailenin bireysel üyeleri de bu çatışmaların çözümüne yardımcı olabilir (13:8-11; 33:1-11; 45:1-28; 50:15-21).\n\nKötüler Aden'den sürgün edilir ve yeryüzüne dağılır (3:22-24; 4:12-16; 11:9), ancak Tanrı seçilmiş halkına karşı naziktir ve onlara kendilerine ait bir ülke vaat eder (12:1-2; 7; 15:7-21; 28:13-14; 50:24).\n\nTanrı, yozlaşması nedeniyle neredeyse tüm insan ırkını yok etmeye hazırdır (6:7; 11-12; 18:17-33), ancak yine de dünyasının doğru insanlar tarafından doldurulmasını ister (1:28; 9:1; 15:1-5; 35:11).\n\nAnahatlar\n\nİlkçağ Tarihi (1:1-11:26)\n\nTanrı'nın yeri ve göğü yaratması ve düzenlemesi (1:1-2:3)\n\nDünya'nın ilk insanları (2:4-4:26)\n\nAdem'in soyundan gelenler (5:1-6:8)\n\nNuh'un soyundan gelenler (6:9-9:29)\n\nNuh'un oğullarının soyundan gelenler (10:1-11:9)\n\nŞem'in soyundan gelenler (11:10-26)\n\nPatriyarkal Tarih (11:27-50:26)\n\nTerah'ın soyundan gelenler (11:27-25:18)\n\nİshak'ın soyundan gelenler (25:19-37:1)\n\nYakup'un soyundan gelenler (37:2-50:26)\n\nYaratılış Zamanında Yakın Doğu\n\nc. M.Ö. 2000.\n\nYaratılış kitabı, medeniyetin başlangıcından Yakup'un (İsrail'in) ailesinin Mısır'a yerleşmesine kadar eski Yakın Doğu'daki olayları anlatır. Yaratılış hikâyeleri Mısır, Asur, Babil ve Elam gibi dünyanın en eski uluslarından bazılarının arasında geçmektedir.",
   "chapter_intro": "Patriarchal History.",
-  "passages": [
-    {
-      "ref": "Gen. 11:27–50:26",
-      "title": "Patriarchal History.",
-      "text": "The story now moves from the general survey of humanity to the specific family from which Israel comes."
-    }
-  ],
+  "passages": [],
   "notes": [
     {
       "ref": "Gen. 49:1–2",
-      "text": "After blessing Joseph and his two sons, Jacob summons all his other sons together to tell them what will happen in the days to come (or “in the latter days”; see note on Isa. 2:2)."
+      "text": "Yakup, Yusuf ve iki oğlunu kutsadıktan sonra diğer **oğullarını** bir araya toplayarak onlara **gelecek günlerde** (veya \"son günlerde\"; bkz. İşaya 2:2 ile ilgili not) neler olacağını anlatır."
     },
     {
       "ref": "Gen. 49:3–4",
-      "text": "Reuben’s special standing as the firstborn is taken away because of his shocking behavior with Jacob’s concubine, Bilhah (35:22–23)."
+      "text": "**Reuben'in** **ilk doğan** olarak özel konumu, Yakup'un cariyesi Bilhah'a (35:22–23) karşı gösterdiği şok edici davranış nedeniyle ortadan kalkar."
     },
     {
       "ref": "Gen. 49:5–7",
-      "text": "Jacob’s statement regarding Simeon and Levi centers on their violent behavior (see ch. 34). Their descendants will be scattered throughout the other tribes (49:7). This will prevent them from bringing destruction on the whole nation. Fulfilling this prophecy, the Levites, as the priestly tribe, receive 48 cities distributed throughout the other tribes (Num. 18:23–24; 35:1–8; Josh. 21:1–45) and the Simeonites are assigned land within the territory of Judah (Josh. 19:1–9)."
+      "text": "Jacob'ın **Simeon ve Levi** ile ilgili açıklaması onların şiddet içeren davranışlarına odaklanıyor (bkz. Bölüm 34). Onların torunları diğer kabilelere dağılacak (49:7). Bu onların tüm ulusa yıkım getirmesini önleyecektir. Bu kehaneti yerine getiren kâhin kabilesi olarak Levililer, diğer kabilelere dağıtılmış 48 şehir alırlar (Say. 18:23–24; 35:1–8; Yeşu. 21:1–45) ve Şimeonlulara Yahuda sınırları içinde toprak tahsis edilir (Yeşu. 19:1–9)."
     },
     {
       "ref": "Gen. 49:8–12",
-      "text": "As with the other blessings, Jacob sees the descendants of Judah in the light of Judah’s own personal qualities. The nations will bring “tribute” (money or other gifts) and pledge their obedience to one of his descendants. Jacob thus predicts the great empire of David, and the greater kingdom of Jesus Christ, the second David. Abraham’s blessing will come to the Gentiles as Christ includes them in his kingdom. To emphasize Judah’s future royal status, he is compared to a lion, and one of his descendants will hold a scepter and a ruler’s staff. If the phrase until tribute comes to him is taken to mean “until Shiloh comes” (see esv footnote), then it could refer to the departure of the ark of the covenant from Shiloh, when the tribe of Judah (in the person of David) replaced the tribe of Ephraim as Israel’s leading tribe (see Ps. 78:59–72, which summarizes the events in 1–2 Samuel). The royal line of Judah culminates with Jesus Christ (Matt. 1:1–16)."
+      "text": "Diğer nimetlerde olduğu gibi Yakub, **Yahuda**'nın soyundan gelenleri de Yahuda'nın kendi kişisel nitelikleri ışığında görüyor. Milletler \"haraç\" (para veya başka hediyeler) getirecek ve onun soyundan birine **itaat** sözü verecekler. Böylece Yakup, Davut'un büyük imparatorluğunu ve ikinci Davut olan İsa Mesih'in daha büyük krallığını önceden bildirir. Mesih onları krallığına dahil ettiğinde, İbrahim'in bereketi Yahudi olmayanlara gelecektir. Yahuda'nın gelecekteki kraliyet statüsünü vurgulamak için bir **aslanla** karşılaştırılıyor ve onun soyundan gelenlerden biri bir **asa** ve bir **hükümdar asası** tutacak. Eğer **haraç kendisine gelinceye kadar** ifadesi \"Şilo gelinceye kadar\" (bkz. esv dipnotu) anlamında alınırsa, bu, Yahuda kabilesinin (Davut'un şahsında) İsrail'in önde gelen kabilesi olarak Efrayim kabilesinin yerini aldığı zaman, antlaşma sandığının Şiloh'dan ayrılışına atıfta bulunabilir (bkz. Mez. 78:59-72, 1-2 Samuel'deki olayları özetleyen). Yahuda'nın kraliyet soyu İsa Mesih'le doruğa ulaşır (Mat. 1:1–16)."
     },
     {
       "ref": "Gen. 49:13",
-      "text": "Zebulun is listed here before Issachar, although Issachar was born before Zebulun (30:17–20). at the shore of the sea. Since Zebulun’s territory did not actually extend to the Mediterranean Sea (see Josh. 19:10–16), Jacob’s remarks are difficult to interpret. haven for ships. Major trading routes from the coast, which lay about 10 miles (16 km) to the west, ran through the region of Zebulun, and Zebulunites were involved in the coastal commerce of exporting and importing. And, if “Sidon” refers to Phoenicia in general, then the statement that his border shall be at Sidon is appropriate."
+      "text": "**Zevulun** burada İssakar'dan önce listelenmiştir, ancak İssakar Zebulun'dan önce doğmuştur (30:17–20). **deniz kıyısında**. Zebulun'un toprakları aslında Akdeniz'e kadar uzanmadığı için (bkz. Yeşu 19:10-16), Yakup'un sözlerini yorumlamak zordur. **gemiler için cennettir**. Kıyıdan yaklaşık 10 mil (16 km) batıya doğru uzanan ana ticaret yolları Zevulun bölgesinden geçiyordu ve Zebulunlular kıyıdaki ihracat ve ithalat ticaretiyle ilgileniyorlardı. Ve eğer “Sidon” genel olarak Fenike'yi kastediyorsa, **sınırının Sidon'da olacağı** ifadesi uygundur."
     },
     {
       "ref": "Gen. 49:14–15",
-      "text": "Although Jacob’s blessing of Issachar emphasizes the strength of his descendants, it also indicates that like a donkey they will be forced to work for others."
+      "text": "Yakup'un **İssakar**'ı kutsaması onun soyunun gücünü vurgulasa da, aynı zamanda onların bir **eşek** gibi başkaları için çalışmaya zorlanacaklarını da gösterir."
     },
     {
       "ref": "Gen. 49:16–18",
-      "text": "Jacob sees in Dan and his descendants both positive and negative qualities. Their snakelike behavior is later seen in their assault on the unsuspecting inhabitants of Laish (Judges 18). Dan shall judge. The name “Dan” is a play on the Hebrew word “judge” (see Gen. 30:6). I wait for your salvation, O Lord. Jacob’s pronouncements are interrupted here by a brief prayer that shows his concern for his descendants. Without divine help they will not survive."
+      "text": "Jacob, **Dan**'da ve onun soyundan gelenlerde hem olumlu hem de olumsuz nitelikler görüyor. Yılan benzeri davranışları daha sonra Laish'in hiçbir şeyden haberi olmayan sakinlerine yönelik saldırılarında görüldü (Yargıçlar 18). **Dan yargılayacak**. “Dan” ismi İbranice “yargıç” kelimesinin bir oyunudur (bkz. Yaratılış 30:6). **Kurtuluşunu bekliyorum, ya Rab**. Yakup'un açıklamaları burada, soyundan gelenlerle ilgilendiğini gösteren kısa bir dua ile kesiliyor. İlahi yardım olmadan hayatta kalamazlar."
     },
     {
       "ref": "Gen. 49:19",
-      "text": "The descendants of Gad will become skillful warriors to defend their land, in the region of Gilead east of the Jordan River."
+      "text": "**Gad**'ın torunları, Ürdün Nehri'nin doğusundaki Gilead bölgesindeki topraklarını savunacak yetenekli savaşçılar olacaklar."
     },
     {
       "ref": "Gen. 49:20",
-      "text": "Asher’s descendants will enjoy success. Their territory along the coastal plain of Acco will provide fertile land and harbors for trade."
+      "text": "**Asher'in** torunları başarının tadını çıkaracak. Acco'nun kıyı ovası boyunca uzanan toprakları ticaret için verimli topraklar ve limanlar sağlayacak."
     },
     {
       "ref": "Gen. 49:21",
-      "text": "Compared to a graceful doe, the tribe of Naphtali will flourish amid the rich natural resources of upper Galilee."
+      "text": "Zarif bir **geyik** ile karşılaştırıldığında, **Naftali** kabilesi Yukarı Celile'nin zengin doğal kaynaklarının ortasında gelişecektir."
     },
     {
       "ref": "Gen. 49:22–26",
-      "text": "Jacob reserves his longest blessing for Joseph, confirming his special standing. The references to God (using a variety of divine titles), along with the emphasis on blessing, give this pronouncement an added dimension. Joseph has survived, sustained by the Mighty One of Jacob. Jacob prays that Joseph’s descendants will experience blessings that exceed those given to Abraham and Isaac."
+      "text": "Yakup, özel konumunu teyit ederek en uzun kutsamasını **Yusuf**'a ayırıyor. Tanrı'ya yapılan atıflar (çeşitli ilahi unvanlar kullanılarak) ve bereket vurgusu bu açıklamaya ilave bir boyut kazandırmaktadır. Yusuf, **Yakup'un Kudretlisi** tarafından desteklenerek hayatta kaldı. Yakup, Yusuf'un soyundan gelenlerin, İbrahim ve İshak'a verilen nimetlerin ötesinde nimetler yaşamaları için dua ediyor."
     },
     {
       "ref": "Gen. 49:27",
-      "text": "Using the image of a wolf, Jacob reveals that the descendants of Benjamin will be aggressive warriors (e.g., 1 Chron. 8:40; 12:2)."
+      "text": "Jacob, bir **kurt** imajını kullanarak, **Benjamin**'in soyundan gelenlerin saldırgan savaşçılar olacağını ortaya koyuyor (örneğin, 1 Tarihler 8:40; 12:2)."
     },
     {
       "ref": "Gen. 49:29–50:14",
-      "text": "Jacob’s desire to be buried in Hebron shows his belief that, as God has promised, the future for his descendants will be in Canaan rather than in Egypt."
+      "text": "Yakup'un El Halil'e gömülme arzusu, Tanrı'nın vaat ettiği gibi, soyunun geleceğinin Mısır yerine Kenan'da olacağına olan inancını gösteriyor."
     },
     {
       "ref": "Gen. 49:29–33",
-      "text": "In his final instruction to his sons, Jacob asks to be buried with his fathers in the cave Abraham purchased from Ephron the Hittite (see ch. 23). The burials of Abraham and Isaac are recounted in 25:8–10 and 35:27–29. While Jacob says that Rebekah and Leah were also buried at Machpelah (49:30), this information is not recorded elsewhere in Genesis. was gathered to his people. This phrase, commonly used in connection with dying, seems to reflect a belief in being reunited with others in the afterlife."
+      "text": "Yakup, oğullarına verdiği son talimatta, İbrahim'in **Hitit Efron'dan** satın aldığı **mağaraya** **babalarıyla** gömülmeyi ister (bkz. bölüm 23). **İbrahim** ve **İshak**'ın cenazeleri 25:8–10 ve 35:27–29'da anlatılmaktadır. Yakup, **Rebekah** ve **Leah**'ın da **Machpelah**'ta (49:30) gömüldüğünü söylese de, bu bilgi Yaratılış kitabının başka bir yerinde kaydedilmemiştir. **halkının yanına toplandı**. Genellikle ölümle bağlantılı olarak kullanılan bu tabir, ahirette başkalarıyla yeniden bir araya gelineceğine olan inancı yansıtıyor gibi görünüyor."
     }
   ]
 }

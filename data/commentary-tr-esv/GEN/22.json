@@ -1,66 +1,60 @@
 {
-  "source": "ESV Global Study Bible (Crossway) — Türkçe çeviri — DeepL translator — Lisans kapsamında kullanılmaktadır",
+  "source": "ESV Global Study Bible (Crossway) — Türkçe çeviri — Google Translate — Lisans kapsamında kullanılmaktadır",
   "book_intro": "Yazar, Tarih ve Alıcılar\n\nGeleneksel olarak Musa'nın Yaratılış'ın ve Pentatök'ün geri kalanının yazarı olduğu kabul edilir (bkz. Çölde Sayım 33:2; Yasa'nın Tekrarı 31:24; Yuhanna 5:46). Elbette Musa Yaratılış'ta anlatılan olaylardan çok daha sonra yaşamıştır. Muhtemelen, daha önceki olaylarla ilgili hikayeler aktarıldı ve Musa hepsini bir araya getirdi.\n\nİlk dinleyiciler Musa'nın çölde önderlik ettiği İsrailliler olmalıdır. Bugünkü okuyucular için Yaratılış, Kutsal Kitap'ın geri kalanına temel bir giriş niteliğindedir. Haklı olarak başlangıçlar kitabı olarak adlandırılır.\n\nTema\n\nYaratılış'ın teması yaratılış, günah ve yeniden yaratılıştır. Tanrı dünyayı çok iyi yaratmış, ama insanın itaatsizliği yüzünden önce onu lanetlemiş, sonra da tufanla yok etmiştir. Tufandan sonraki yeni dünya da insanın günahı yüzünden bozulmuştur (bölüm 11). Tanrı İbrahim'i özel bir amaç için seçti. Onun ailesi aracılığıyla bütün uluslar kutsanacaktı (12:1-3). Tanrı'nın amacı eninde sonunda İbrahim'in soyu aracılığıyla yerine gelecektir (bölüm 49).\n\nAnahtar Temalar\n\nRab Tanrı insanları yeryüzündeki temsilcileri olarak görevlendirir. Yeryüzüne bakmalı ve diğer canlıları yönetmelidirler (1:1-2:25).\n\nİlk erkek ve kadın -Adem ve Havva- Tanrı'nın yeryüzündeki temsilcileri olarak hareket etmek yerine yılanı dinler ve onun öğütlerine uyarlar. Onların itaatsizliği tüm insanlık ve yaratılan tüm dünya için yıkıcı sonuçlar doğurur (3:1-24; 6:5-6).\n\nTanrı, Havva'nın soyunun insanlığı yılanın kontrolünden kurtaracağını lütufkâr bir şekilde duyurur (3:15). Yaratılış daha sonra İsrail halkı olacak bir ailenin tarihini izlemeye başlar. Bu ailenin Tanrı'yla özel bir ilişkisi vardır ve düşmüş insanlık için bir bereket kaynağı olacaktır (12:1-3).\n\nAdem'in itaatsizliğinin bir sonucu olarak, toprakla olan eşsiz ilişkisi bozulur, bu da ağır işlere ve daha sonra tufan ve kıtlığa neden olur. Ancak Adem'den gelen özel aile de zorluklardan kurtulmayı sağlar (3:17-19; 5:29; 50:19-21).\n\nHavva'nın cezası çocuk doğurma acısına odaklanırken (3:16), kadınlar eşsiz aile soyunun devam etmesinde önemli bir rol oynarlar. Tanrı'nın yardımıyla kısırlığın bile üstesinden gelinir (11:30; 21:1-7; 25:21; 38:1-30).\n\nİnsan doğasının bozulması ailelerin parçalanmasına neden olur (4:1-16; 13:5-8; 25:22-23; 27:41-45; 37:2-35). Yaratılış aile çatışmalarının gerçekliğini gösterse de, seçilmiş ailenin bireysel üyeleri de bu çatışmaların çözümüne yardımcı olabilir (13:8-11; 33:1-11; 45:1-28; 50:15-21).\n\nKötüler Aden'den sürgün edilir ve yeryüzüne dağılır (3:22-24; 4:12-16; 11:9), ancak Tanrı seçilmiş halkına karşı naziktir ve onlara kendilerine ait bir ülke vaat eder (12:1-2; 7; 15:7-21; 28:13-14; 50:24).\n\nTanrı, yozlaşması nedeniyle neredeyse tüm insan ırkını yok etmeye hazırdır (6:7; 11-12; 18:17-33), ancak yine de dünyasının doğru insanlar tarafından doldurulmasını ister (1:28; 9:1; 15:1-5; 35:11).\n\nAnahatlar\n\nİlkçağ Tarihi (1:1-11:26)\n\nTanrı'nın yeri ve göğü yaratması ve düzenlemesi (1:1-2:3)\n\nDünya'nın ilk insanları (2:4-4:26)\n\nAdem'in soyundan gelenler (5:1-6:8)\n\nNuh'un soyundan gelenler (6:9-9:29)\n\nNuh'un oğullarının soyundan gelenler (10:1-11:9)\n\nŞem'in soyundan gelenler (11:10-26)\n\nPatriyarkal Tarih (11:27-50:26)\n\nTerah'ın soyundan gelenler (11:27-25:18)\n\nİshak'ın soyundan gelenler (25:19-37:1)\n\nYakup'un soyundan gelenler (37:2-50:26)\n\nYaratılış Zamanında Yakın Doğu\n\nc. M.Ö. 2000.\n\nYaratılış kitabı, medeniyetin başlangıcından Yakup'un (İsrail'in) ailesinin Mısır'a yerleşmesine kadar eski Yakın Doğu'daki olayları anlatır. Yaratılış hikâyeleri Mısır, Asur, Babil ve Elam gibi dünyanın en eski uluslarından bazılarının arasında geçmektedir.",
   "chapter_intro": "Patriarchal History.",
-  "passages": [
-    {
-      "ref": "Gen. 11:27–50:26",
-      "title": "Patriarchal History.",
-      "text": "The story now moves from the general survey of humanity to the specific family from which Israel comes."
-    }
-  ],
+  "passages": [],
   "notes": [
     {
       "ref": "Gen. 22:1–19",
-      "text": "The conditional promises of 12:1–3 are now unconditionally guaranteed as a result of Abraham’s preparedness to sacrifice his son. Put to the test, Abraham displays remarkable trust in God. James 2:21–22 says that Abraham’s actions here “completed” the faith he had already expressed (see Gen. 15:6)."
+      "text": "İbrahim'in oğlunu kurban etmeye hazır olmasının bir sonucu olarak, 12:1-3'teki koşullu vaatler artık koşulsuz olarak garanti altına alınmıştır. Teste tabi tutulan İbrahim, Tanrı'ya olağanüstü bir güven gösterdi. Yakup 2:21–22, İbrahim'in buradaki eylemlerinin, daha önce ifade etmiş olduğu imanı “tamamladığını” söyler (bkz. Yaratılış 15:6)."
     },
     {
       "ref": "Gen. 22:1",
-      "text": "God tested Abraham. While it is not unknown for God to test individuals, testing must be clearly distinguished from tempting. God does not tempt anyone to do evil (James 1:13). He does, however, test people’s commitment to him (e.g., Ex. 15:25; 16:4)."
+      "text": "**Tanrı İbrahim'i sınadı**. Tanrı'nın bireyleri sınaması bilinmeyen bir şey olmasa da, denemeyi ayartmaktan açıkça ayırmak gerekir. Tanrı kimseyi kötülük yapmaya ayartmaz (Yakup 1:13). Ancak insanların kendisine olan bağlılığını test eder (örneğin, Çıkış 15:25; 16:4)."
     },
     {
       "ref": "Gen. 22:2",
-      "text": "your only son Isaac, whom you love. With Ishmael’s departure from Abraham’s household, Isaac had become Abraham’s cherished only son. land of Moriah. According to 2 Chron. 3:1, Solomon constructed the temple on Mount Moriah in Jerusalem. While Genesis 22 does not specify that the sacrifice of Isaac took place at or near Jerusalem, v. 14 may imply such a connection. A burnt offering involved the entire sacrifice being consumed by fire."
+      "text": "**sevdiğiniz tek oğlunuz İshak**. İsmail'in İbrahim'in evinden ayrılmasıyla İshak, İbrahim'in çok değer verdiği tek oğlu olmuştu. **Moriah ülkesi**. 2 Chron'a göre. 3:1 Süleyman, Yeruşalim'deki Moriah Dağı'ndaki tapınağı inşa etti. Yaratılış 22, İshak'ın kurban edilmesinin Kudüs'te veya yakınında gerçekleştiğini belirtmese de, ayet 14 böyle bir bağlantıyı ima edebilir. **Yakmalık sunu**, kurbanın tamamının ateş tarafından yakılmasını içeriyordu."
     },
     {
       "ref": "Gen. 22:3",
-      "text": "Abraham rose early in the morning. Abraham promptly responds to the challenge placed before him."
+      "text": "**İbrahim sabah erkenden kalktı**. İbrahim kendisine yöneltilen meydan okumaya hemen yanıt verdi."
     },
     {
       "ref": "Gen. 22:4",
-      "text": "On the third day. It requires about two days to travel on foot from Beersheba to Jerusalem, a distance of about 45 miles (72 km). Elsewhere, two days represents the time set aside to prepare for a special encounter with God on the third day (see Ex. 19:11)."
+      "text": "**Üçüncü günde**. Yaklaşık 45 mil (72 km) uzaklıktaki Beerşeba'dan Kudüs'e yürüyerek gitmek yaklaşık iki gün sürer. Başka yerlerde iki gün, üçüncü gün Tanrı ile özel bir karşılaşmaya hazırlanmak için ayrılan zamanı temsil eder (bkz. Çıkış 19:11)."
     },
     {
       "ref": "Gen. 22:5–8",
-      "text": "I and the boy will . . . come again to you. While Abraham is committed to sacrificing Isaac, he believes that both of them will return (see Heb. 11:17–19). God will provide . . . the lamb. It is unclear whether Abraham is speaking ironically here (Isaac is the “lamb”), or whether he is expressing faith that somehow God will preserve his son."
+      "text": "**Ben ve oğlan yapacağız. . . tekrar yanınıza geldim**. İbrahim, İshak'ı kurban etmeye kararlı olsa da her ikisinin de geri döneceğine inanıyor (bkz. İbraniler 11:17–19). **Tanrı sağlayacaktır. . . kuzu**. İbrahim'in burada ironik bir şekilde mi konuştuğu (İshak \"kuzu\") yoksa Tanrı'nın oğlunu bir şekilde koruyacağına olan inancını mı ifade ettiği belli değil."
     },
     {
       "ref": "Gen. 22:11",
-      "text": "the angel of the Lord. See note on 16:7. The repetition of the name Abraham, Abraham underscores the urgency of the intervention (compare 22:1)."
+      "text": "**Rab'bin meleği**. 16:7 ile ilgili nota bakınız. **İbrahim, İbrahim** isminin tekrarı müdahalenin aciliyetinin altını çizmektedir (22:1 ile karşılaştırın)."
     },
     {
       "ref": "Gen. 22:12",
-      "text": "now I know that you fear God. While Abraham’s faith was the means by which God counted him as righteous (15:6), that faith is now “active along with his works” and is “completed by his works” (James 2:21–23). His faith resulted in obedience."
+      "text": "**Artık Tanrı'dan korktuğunuzu biliyorum**. İbrahim'in imanı, Tanrı'nın onu doğru saymasının aracı olsa da (15:6), bu iman artık \"onun işleriyle birlikte etkindir\" ve \"onun işleriyle tamamlanmıştır\" (Yakup 2:21-23). İmanı itaatle sonuçlandı."
     },
     {
       "ref": "Gen. 22:13",
-      "text": "God provides a ram to be sacrificed as a burnt offering. In Genesis such sacrifices are associated with solemn promises made by God (see 8:20–22). instead of his son. The fact that a ram died in the place of Isaac suggests the principle of substitutionary atonement, especially the substitutionary death of Christ on the cross, as “the Lamb of God, who takes away the sin of the world” (John 1:29)."
+      "text": "Tanrı, **yakmalık sunu** olarak kurban edilmek üzere bir koç sağlar. Yaratılış'ta bu tür fedakarlıklar Tanrı'nın verdiği ciddi vaatlerle ilişkilendirilir (bkz. 8:20-22). **oğlunun yerine**. İshak'ın yerine bir **koç**'un ölmesi, vekaleten kefaret ilkesini, özellikle de \"dünyanın günahını ortadan kaldıran Tanrı Kuzusu\" olarak Mesih'in çarmıhtaki vekalet ölümünü akla getirir (Yuhanna 1:29)."
     },
     {
       "ref": "Gen. 22:14",
-      "text": "The Lord will provide. The belief developed (as it is said to this day) that God would provide the sacrifice necessary to atone for sin. The mount of the Lord probably refers to the hill on which the temple was later built in Jerusalem."
+      "text": "**Rab sağlayacaktır**. Tanrı'nın günahın kefareti için gereken kurbanı sağlayacağına dair inanç gelişti (**bugüne kadar söylendiği gibi**). **Rab'bin Dağı** muhtemelen daha sonra Yeruşalim'de tapınağın inşa edildiği tepeyi ifade ediyor."
     },
     {
       "ref": "Gen. 22:15–18",
-      "text": "By myself I have sworn. The oath concentrates on a single descendant of Abraham who will overcome his enemies and bring blessing to all the nations of the earth (v. 18). This oath to Abraham comes to fulfillment in Jesus Christ (Acts 3:25–26; Gal. 3:16)."
+      "text": "**Kendi başıma yemin ettim**. Yemin, **düşmanlarını** yenecek ve **dünyanın tüm uluslarına** bereket getirecek olan İbrahim'in tek bir soyundan gelmektedir (ayet 18). İbrahim'e verilen bu yemin İsa Mesih'te yerine gelecektir (Elçilerin İşleri 3:25–26; Gal. 3:16)."
     },
     {
       "ref": "Gen. 22:16–17",
-      "text": "because you . . . have not withheld your son, your only son. Abraham’s actions prove his faith (see Rom. 4:3, 22–23; Gal. 3:6)."
+      "text": "**çünkü sen . . . oğlunu, tek oğlunu esirgemedin**. İbrahim'in eylemleri onun imanını kanıtlar (bkz. Romalılar 4:3, 22–23; Gal. 3:6)."
     },
     {
       "ref": "Gen. 22:24",
-      "text": "concubine. See note on 25:5–6."
+      "text": "**cariye**. 25:5–6 ile ilgili nota bakınız."
     }
   ]
 }

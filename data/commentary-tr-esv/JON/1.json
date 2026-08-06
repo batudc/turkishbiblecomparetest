@@ -1,56 +1,57 @@
 {
-  "source": "ESV Global Study Bible (Crossway) — Türkçe çeviri — DeepL translator — Lisans kapsamında kullanılmaktadır",
+  "source": "ESV Global Study Bible (Crossway) — Türkçe çeviri — Google Translate — Lisans kapsamında kullanılmaktadır",
   "book_intro": "Yazar ve Tarih\n\nYunus, İsrail'de (kuzey krallığı) M.Ö. 782'den 753'e kadar hüküm süren Yarovam II'nin (2.Krallar 14:23-28) barış ve refah dolu döneminde peygamberlik etti.\n\nGenel Bakış\n\nRab Yunus'u, Asur'un büyük kenti Ninova'ya gidip orada yargı bildirmesi için çağırdı. Yunus, Yafa limanından muhtemelen Batı Akdeniz kıyılarında bulunan Tarşiş'e yelken açarak Rab'bin çağrısından kaçmaya çalıştı. Sonunda Rab'be itaat etti ve karayoluyla Ninova'ya gitti.\n\nTema\n\nYunus'taki ana tema, Tanrı'nın merhametinin sınırsız olduğu, sadece \"bizimle\" (Yunus ve İsrailliler) sınırlı olmadığı, aynı zamanda \"onlar\" (putperest denizciler ve Ninovalılar) için de mevcut olduğudur.\n\nAnahtar Temalar\n\nTanrı yeryüzündeki tüm olaylar üzerinde egemen bir kontrole sahiptir.\n\nTanrı mesajını uluslara ulaştırmaya kararlıdır.\n\nİnsanların genel olarak günahtan, özel olarak da benmerkezcilik ve ikiyüzlülükten tövbe etmeleri gerekir.\n\nTanrı, insanlar tövbe ettiklerinde onları bağışlayacağını vaat eder.\n\nAnahatlar\n\nYunus'un öyküsü yedi bölümden oluşur ve ilk üç bölüm ikinci üç bölümle paraleldir. Final bölümü hikayenin doruk noktası olarak tek başına duruyor:\n\nA. Yunus'un görevlendirilmesi ve kaçışı (1:1-3)\n\nB. Yunus ve putperest denizciler (1:4-16)\n\nC. Yunus'un minnettar duası (1:17-2:10)\n\nA'. Yunus'un yeniden görevlendirilmesi ve itaat etmesi (3:1-3a)\n\nB'. Yunus ve putperest Ninovalılar (3:3b-10)\n\nC'. Yunus'un öfkeli duası (4:1-4)\n\nD. Yunus'un merhamet dersi (4:5-11)\n\nYunus'un Ortaya Çıkışı\n\nc. M.Ö. 760.\n\nYunus, İsrail Kralı Yarovam II'nin refah içinde yaşadığı dönemde peygamberlik etti (2Kr.14:23-28). Bu dönemde Asurlular imparatorluğun başka yerlerindeki işlerle meşguldü ve Yarovam II'nin Suriye'nin büyük bir bölümünü İsrail'in eline geçirmesine izin verdiler. Rab Yunus'u, Asur'un büyük kenti Ninova'ya gidip orası hakkında yargı bildirmesi için çağırdı. Yunus, muhtemelen Batı Akdeniz'de bulunan Tarşiş'e yelken açarak Rab'bin çağrısından kaçmaya çalıştı. Sonunda Rab'be itaat etti ve Asur İmparatorluğu'nun kalbindeki Ninova'ya gitti.",
   "chapter_intro": "Jonah’s Commissioning and Flight.",
   "passages": [
     {
       "ref": "1:1–3",
-      "title": "Jonah’s Commissioning and Flight.",
-      "text": "This episode records Jonah’s call to prophesy and his flight from that call. Two questions drive the plot: (1) What will happen to the Ninevites? and (2) What will happen to Jonah?"
+      "title": "Jonah'ın Hizmete Alınması ve Uçuşu.",
+      "text": "Bu bölümde Yunus'un peygamberliğe çağrısını ve bu çağrıdan kaçışını kaydediyoruz. Olay örgüsünü iki soru yönlendiriyor: (1) Ninovalılara ne olacak? ve (2) Yunus'a ne olacak?"
     },
     {
       "ref": "Jonah 1:4–16",
-      "title": "Jonah and the Pagan Sailors.",
-      "text": "These verses tell of Jonah’s encounter with pagan sailors. It raises the question, Who truly fears the Lord—Jonah, or the pagans? At the beginning and end the sailors “fear” (vv. 5, 16); in the middle Jonah claims to “fear” the Lord (v. 9) while the sailors actually fear (v. 10a)."
+      "title": "Yunus ve Pagan Denizciler.",
+      "text": "Bu ayetler Yunus'un pagan denizcilerle karşılaşmasını anlatır. Bu şu soruyu gündeme getiriyor: Rab'den gerçekten kim korkar; Yunus'tan mı yoksa putperestlerden mi? Başlangıçta ve sonda denizciler “korkuyor” (5, 16 ayetler); ortada Yunus Rab'den “korktuğunu” iddia ederken (ayet 9) denizciler aslında korkuyor (ayet 10a)."
+    },
+    {
+      "ref": "Jonah 1:9–10",
+      "title": "Yunus 1:9–10",
+      "text": "**denizi yarattı**. Tanrı, Yunus'un kaçmak için kullanmaya çalıştığı denizleri yarattı. Yunus artık Tanrı'nın varlığından kaçamayacağını biliyor (ayet 3)."
     },
     {
       "ref": "Jonah 1:17–2:10",
-      "title": "Jonah’s Grateful Prayer.",
-      "text": "Jonah’s prayer (2:2b–9) is framed by an introduction (1:17–2:2a) and a conclusion (2:10)."
+      "title": "Yunus'un Minnettar Duası.",
+      "text": "Yunus'un duası (2:2b–9) bir giriş (1:17–2:2a) ve bir sonuç (2:10) ile çerçevelenmiştir."
     }
   ],
   "notes": [
     {
       "ref": "Jonah 1:1",
-      "text": "Son of Amittai means “son of my faithfulness.” Jonah will remain the object of God’s faithful love."
+      "text": "**Amittai'nin Oğlu** \"sadakatimin oğlu\" anlamına gelir. Yunus, Tanrı'nın sadık sevgisinin hedefi olmaya devam edecek."
     },
     {
       "ref": "Jonah 1:2",
-      "text": "Nineveh was on the east bank of the Tigris River, more than 500 miles (805 km) northeast of Israel. Great is used 14 times in Jonah. Nineveh was an important city (see 3:3). evil. The Ninevites were evil, and they were headed for disaster (see esv footnote)."
+      "text": "**Ninova**, Dicle Nehri'nin doğu kıyısında, İsrail'in 500 milden (805 km) fazla kuzeydoğusundaydı. Yunus'ta **Harika** sözcüğü 14 kez kullanılıyor. Ninova önemli bir **şehir**di (bkz. 3:3). **kötülük**. Ninovalılar kötüydü ve felakete doğru gidiyorlardı (bkz. esv dipnotu)."
     },
     {
       "ref": "Jonah 1:3",
-      "text": "Tarshish was somewhere in the western Mediterranean—the opposite direction from Nineveh. From the presence of the Lord is repeated to emphasize Jonah’s reason for going to Tarshish. Went down is also a euphemism for death (e.g., Gen. 37:35). Each step away from the presence of the Lord is one step closer to “going down” to death."
+      "text": "**Tarşiş** Batı Akdeniz'de bir yerdeydi; Ninova'nın tam tersi yönünde. **Rab'bin huzurundan** sözü Yunus'un Tarşiş'e gitme nedenini vurgulamak için tekrarlanıyor. **Aşağı inmek** aynı zamanda ölüm için kullanılan bir örtmecedir (örneğin, Yaratılış 37:35). Rabbin huzurundan uzaklaşılan her adım, ölüme “inmeye” bir adım daha yaklaşmaktadır."
     },
     {
       "ref": "Jonah 1:6",
-      "text": "Arise, call out echoes God’s command in v. 2. not perish. A pagan, not Jonah, is concerned that people not die."
-    },
-    {
-      "ref": "Jonah 1:9–10",
-      "text": "made the sea. God created the very seas Jonah tries to use to flee. Jonah knows now that he cannot escape God’s presence (v. 3)."
+      "text": "**Kalk, seslen** ayeti Tanrı'nın 2. ayetteki emrini yansıtır. **yok olmaz**. Yunus değil, bir pagan insanların ölmemesinden endişe ediyor."
     },
     {
       "ref": "Jonah 1:15",
-      "text": "The sailors’ actions are in harmony with God’s. As God had hurled the wind onto the sea (vv. 4–5) to start the storm, the sailors now hurl Jonah into the sea to stop the storm (v. 12)."
+      "text": "Denizcilerin eylemleri Tanrı'nın eylemleriyle uyumludur. Tanrı, fırtınayı başlatmak için rüzgarı denize **fırlattığı** (4-5 ayetler) gibi, denizciler şimdi de fırtınayı durdurmak için **Yunus**'u denize fırlatıyorlar (ayet 12)."
     },
     {
       "ref": "Jonah 1:16",
-      "text": "feared the Lord exceedingly. What started as a general fear (v. 5) grew into an intense fear (v. 10) and matured into the fear—that is, the reverent worship—of the Lord (v. 16)."
+      "text": "**Rab'den fazlasıyla korkuyordu**. Genel bir korku olarak başlayan şey (ayet 5), yoğun bir korkuya (ayet 10) dönüştü ve olgunlaşarak Rab'be yönelik korkuya, yani saygılı ibadete (ayet 16) dönüştü."
     },
     {
       "ref": "Jonah 1:17",
-      "text": "appointed. This is the first of four uses of “appoint” that highlight God’s sovereign control over creation (compare 4:6–8). Fish is a general word for a sea creature, which cannot be identified further. However, a large whale such as a sperm whale could easily swallow a man whole. three days and three nights. This likely describes the actual number of days, or parts of three days (compare 1 Sam. 30:12; 2 Kings 20:5, 8). The number three has associations with return from death or near-death. Perhaps this is why Jesus compared the time between his own death and resurrection to Jonah’s time in the fish (Matt. 12:40)."
+      "text": "**atandı**. Bu, Tanrı'nın yaratılış üzerindeki egemen kontrolünü vurgulayan \"atama\" sözcüğünün dört kullanımından ilkidir (4:6-8 ile karşılaştırın). **Balık**, tanımı daha fazla yapılamayan deniz canlıları için kullanılan genel bir kelimedir. Ancak ispermeçet balinası gibi büyük bir balina, bir insanı bütünüyle kolayca yutabilir. **üç gün üç gece**. Bu muhtemelen gerçek gün sayısını veya üç günün bölümlerini açıklamaktadır (1 Sam. 30:12; 2 Krallar 20:5, 8 ile karşılaştırın). Üç rakamının ölümden dönüş ya da ölüme yakınlık ile ilişkileri vardır. Belki de İsa'nın kendi ölümü ile dirilişi arasındaki süreyi Yunus'un balıkta geçirdiği zamanla karşılaştırmasının nedeni budur (Mat. 12:40)."
     }
   ]
 }

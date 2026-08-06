@@ -1,32 +1,34 @@
 {
-  "source": "ESV Global Study Bible (Crossway) — Türkçe çeviri — DeepL translator — Lisans kapsamında kullanılmaktadır",
+  "source": "ESV Global Study Bible (Crossway) — Türkçe çeviri — Google Translate — Lisans kapsamında kullanılmaktadır",
   "book_intro": "Blue Letter Bible bakanlığı ve BLB Enstitüsü, Kutsal Yazıların tahrif edilemezliğine olan kesin inancı da içeren tarihsel, muhafazakar Hristiyan inancına bağlıdır. BLB tarafından sağlanan metin ve ses içeriği çeşitli Evanjelik gelenekleri temsil ettiğinden, kaynak materyallerde aktarılan tüm fikir ve ilkelerin bu bakanlık tarafından toplamda onaylanması gerekmez.\n\nBlue Letter Kutsal Kitap çalışma araçları Kutsal Kitap'ı okumayı, araştırmayı ve çalışmayı kolay ve ödüllendirici hale getirir.\n\nBlue Letter Bible 501(c)(3) kar amacı gütmeyen bir kuruluştur\n\nTercih ettiğiniz Kutsal Kitap çevirilerinin sırasını Kutsal Kitaplar Sekmesi'nden Sürüm Seçici'ye (bu açılır pencere) kopyalayabilir veya tam tersini yapabilirsiniz. Kutsal Kitaplar Sekmesi, Kutsal Kitap sayfalarındaki Araçlar özelliğinde bulunur:\n\nNot: MLA artık atıf standartlarının bir parçası olarak URL'yi zorunlu tutmamaktadır. Bireysel eğitmenler veya editörler yine de URL'lerin kullanılmasını isteyebilir.\n\nHata: Parolalar en az 6 karakterden oluşmalıdır\n\nHata: Kullanıcı adları yalnızca harf, rakam, nokta, tire veya alt çizgi içermelidir\n\nŞifreler en az 6 karakterden oluşmalıdır.\n\t\t\t\t\t\t\tKullanıcı adları yalnızca harf, rakam, nokta, tire veya alt çizgi içermelidir.\n\nKaydolduğunuz için teşekkür ederiz. Verdiğiniz adrese bir doğrulama e-postası gönderildi.\n\nOrtaklığınız tüm yaptıklarımızı mümkün kılıyor. Bugün dua ederek bir destek hediyesi vermeyi düşünür müsünüz?",
-  "chapter_intro": "",
-  "passages": [],
-  "notes": [
-    {
-      "ref": "2 Chron. 4:1",
-      "text": "Solomon’s altar stood outside the temple, perhaps in front of the temple entrance, just as Moses’ altar had stood before the entrance of the tabernacle (Ex. 40:6)."
-    },
+  "passages": [
     {
       "ref": "2 Chron. 4:2–6",
-      "text": "On various details of the temple, see notes on 1 Kings 7:23–47. The sea was a large, circular water tank, outside the southeast corner of the temple (2 Chron. 4:10). The priests used it for their ceremonial cleansing before they entered the temple (v. 6). It corresponded to the bronze basin that had stood between the entrance to the tabernacle and the Mosaic altar (Ex. 30:18–21). 3,000 baths. First Kings 7:26 reads “two thousand baths.” The difference may be due to a copyist’s error. The twelve oxen, three facing each of four directions, probably signified the tribes of Israel. They would be a reminder of how the tribes encamped, three on each side, around the four sides of the tabernacle in the wilderness (see Num. 2:1–31)."
-    },
-    {
-      "ref": "2 Chron. 4:2",
-      "text": "ten cubits . . . thirty cubits. See note on 1 Kings 7:23."
-    },
-    {
-      "ref": "2 Chron. 4:9",
-      "text": "the court of the priests. A feature that also corresponds to the tabernacle; see Ex. 27:9–19."
+      "title": "2 Kron. 4:2–6",
+      "text": "Tapınağın çeşitli ayrıntıları için 1. Krallar 7:23–47 ile ilgili notlara bakın. **Deniz**, tapınağın güneydoğu köşesinin dışında, büyük, dairesel bir su deposuydu (2 Tarihler 4:10). Rahipler bunu tapınağa girmeden önce törensel temizlikleri için kullandılar (ayet 6). Bu, çadırın girişi ile Mozaik sunağı arasında duran bronz tekneye karşılık geliyordu (Çık. 30:18–21). **3.000 banyo**. Birinci Krallar 7:26'da \"iki bin banyo\" yazıyor. Aradaki fark kopyacının hatasından kaynaklanıyor olabilir. Üçü dört yöne bakan **on iki öküz** muhtemelen İsrail kabilelerini simgeliyordu. Bunlar, çölde çadırın dört yanında, her iki tarafta üçer adet olmak üzere kabilelerin nasıl kamp kurduğunu hatırlatacaklardı (bkz. Sayılar 2:1–31)."
     },
     {
       "ref": "2 Chron. 4:11b–22",
-      "text": "The bronze vessels and furnishings were in the temple entrance and court, while those inside (the place of greater holiness) were of gold. The golden altar was for burning incense (see Ex. 30:1–10; 1 Chron. 28:18). The Most Holy Place was separated from the Holy Place by inner doors . . . of gold as well as the veil (2 Chron. 3:14)."
+      "title": "2 Kron. 4:11b–22",
+      "text": "**Bronz** kaplar ve mobilyalar tapınağın girişinde ve avlusundayken, içeridekiler (daha büyük kutsallık yeri) **altından**dı. **Altın sunak** buhur yakmak içindi (bkz. Örn. 30:1–10; 1 Tarihler 28:18). **En Kutsal Yer** Kutsal Yer'den **iç kapılarla ayrılmıştı. . . altından** ve perdeden (2 Tarihler 3:14)."
+    }
+  ],
+  "notes": [
+    {
+      "ref": "2 Chron. 4:1",
+      "text": "Süleyman'ın sunağı tapınağın dışında, belki de tapınağın girişinin önünde duruyordu, tıpkı Musa'nın sunağının çadırın girişinden önce durduğu gibi (Çık. 40:6)."
+    },
+    {
+      "ref": "2 Chron. 4:2",
+      "text": "**on arşın. . . otuz arşın**. 1. Krallar 7:23 ile ilgili nota bakın."
+    },
+    {
+      "ref": "2 Chron. 4:9",
+      "text": "**rahiplerin mahkemesi**. Aynı zamanda çadıra da karşılık gelen bir özellik; bkz. 27:9–19 ."
     },
     {
       "ref": "2 Chron. 4:19",
-      "text": "Solomon made all the vessels. See note on 1 Kings 7:48–51."
+      "text": "**Süleyman bütün kapları yaptı**. 1. Krallar 7:48–51 ile ilgili nota bakınız."
     }
   ]
 }

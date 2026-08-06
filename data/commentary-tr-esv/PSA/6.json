@@ -1,36 +1,37 @@
 {
-  "source": "ESV Global Study Bible (Crossway) — Türkçe çeviri — DeepL translator — Lisans kapsamında kullanılmaktadır",
+  "source": "ESV Global Study Bible (Crossway) — Türkçe çeviri — Google Translate — Lisans kapsamında kullanılmaktadır",
   "book_intro": "Blue Letter Bible bakanlığı ve BLB Enstitüsü, Kutsal Yazıların tahrif edilemezliğine olan kesin inancı da içeren tarihsel, muhafazakar Hristiyan inancına bağlıdır. BLB tarafından sağlanan metin ve ses içeriği çeşitli Evanjelik gelenekleri temsil ettiğinden, kaynak materyallerde aktarılan tüm fikir ve ilkelerin bu bakanlık tarafından toplamda onaylanması gerekmez.\n\nBlue Letter Kutsal Kitap çalışma araçları Kutsal Kitap'ı okumayı, araştırmayı ve çalışmayı kolay ve ödüllendirici hale getirir.\n\nBlue Letter Bible 501(c)(3) kar amacı gütmeyen bir kuruluştur\n\nTercih ettiğiniz Kutsal Kitap çevirilerinin sırasını Kutsal Kitaplar Sekmesi'nden Sürüm Seçici'ye (bu açılır pencere) kopyalayabilir ya da tam tersini yapabilirsiniz. Kutsal Kitaplar Sekmesi, Kutsal Kitap sayfalarındaki Araçlar özelliğinde bulunur:\n\nNot: MLA artık atıf standartlarının bir parçası olarak URL'yi zorunlu tutmamaktadır. Bireysel eğitmenler veya editörler yine de URL'lerin kullanılmasını isteyebilir.\n\nHata: Parolalar en az 6 karakterden oluşmalıdır\n\nHata: Kullanıcı adları yalnızca harf, rakam, nokta, tire veya alt çizgi içermelidir\n\nParolalar en az 6 karakterden oluşmalıdır.\n\t\t\t\t\t\t\tKullanıcı adları yalnızca harf, rakam, nokta, tire veya alt çizgi içermelidir.\n\nKaydolduğunuz için teşekkür ederiz. Verdiğiniz adrese bir doğrulama e-postası gönderildi.\n\nOrtaklığınız tüm yaptıklarımızı mümkün kılıyor. Bugün dua ederek bir destek hediyesi vermeyi düşünür müsünüz?",
-  "chapter_intro": "",
-  "passages": [],
+  "passages": [
+    {
+      "ref": "Ps. 6:1–5",
+      "title": "Ps. 6:1–5",
+      "text": "Bu ayetlerde hastalık gibi hayatı tehdit eden bir durum anlatılmaktadır. Bu durum, Tanrı'nın bazı belirli günahlardan hoşnutsuzluğundan kaynaklanmıştır. Mezmur, insanların bu gibi durumlarda kaygılarını Tanrı'ya doğru şekilde ifade edebilmeleri için bir yol sağlar."
+    }
+  ],
   "notes": [
     {
       "ref": "Ps. 6",
-      "text": "Psalm . An individual lament from David. It describes a person whose hard circumstances have led him to see his sins and to repent. Thus, it is often considered one of the “penitential” Psalms (compare Psalms 32; 38; 51; 130; 143)."
-    },
-    {
-      "ref": "Ps. 6:1–5",
-      "text": "These verses describe a life-threatening situation, such as a sickness. The situation has arisen from God’s displeasure at some particular sins. The psalm provides a way for people to properly express their concerns to God in such circumstances."
+      "text": "**Mezmur** . David'den bireysel bir ağıt. Zor koşullar nedeniyle günahlarını görüp tövbe eden bir kişiyi anlatır. Bu nedenle, genellikle “tövbe” Mezmurlarından biri olarak kabul edilir (Mezmurlar 32; 38; 51; 130; 143 ile karşılaştırın)."
     },
     {
       "ref": "Ps. 6:4",
-      "text": "for the sake of your steadfast love. Those who are repentant appeal to God’s love and mercy, and not to their own well-doing."
+      "text": "**sadık sevginiz uğruna**. Tövbe edenler kendi iyiliklerini değil, Allah'ın sevgisini ve merhametini ararlar."
     },
     {
       "ref": "Ps. 6:5",
-      "text": "If Sheol refers to the grave here, the idea is that the dead do not have the privilege of praising God in public worship."
+      "text": "Eğer **Şeol** burada mezardan bahsediyorsa, buradaki fikir, ölülerin halka açık ibadetlerde Tanrı'yı ​​yüceltme ayrıcalığına sahip olmadığıdır."
     },
     {
       "ref": "Ps. 6:8",
-      "text": "Depart from me, all you workers of evil seems to be spoken to those who would take advantage of the singer’s distress. But if the Lord has heard, then these enemies have no real power. See Luke 13:27."
+      "text": "**Benden ayrılın, siz kötülük işçileri** şarkıcının sıkıntısından yararlanacak olanlara söylenmiş gibi görünüyor. Ama eğer **Rab duyduysa**, o zaman bu düşmanların gerçek bir gücü yoktur. Bkz. Luka 13:27."
     },
     {
       "ref": "Ps. 6:9",
-      "text": "When the Lord hears the plea and prayer (vv. 1–5), he forgives."
+      "text": "Rab **yakarışı** ve **duayı** (1-5. ayetler) duyduğunda affeder."
     },
     {
       "ref": "Ps. 6:10",
-      "text": "There is a reversal here: the singer’s bones and soul were troubled (vv. 2–3), but now the enemies will be greatly troubled."
+      "text": "Burada bir tersine dönüş var: Şarkıcının kemikleri ve ruhu sorunluydu (2-3 ayetler), ama şimdi **düşmanlar** **büyük ölçüde dertli** olacak."
     }
   ]
 }

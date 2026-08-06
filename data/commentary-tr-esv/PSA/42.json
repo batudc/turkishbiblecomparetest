@@ -1,20 +1,22 @@
 {
-  "source": "ESV Global Study Bible (Crossway) — Türkçe çeviri — DeepL translator — Lisans kapsamında kullanılmaktadır",
+  "source": "ESV Global Study Bible (Crossway) — Türkçe çeviri — Google Translate — Lisans kapsamında kullanılmaktadır",
   "book_intro": "Blue Letter Bible bakanlığı ve BLB Enstitüsü, Kutsal Yazıların tahrif edilemezliğine olan kesin inancı da içeren tarihsel, muhafazakar Hristiyan inancına bağlıdır. BLB tarafından sağlanan metin ve ses içeriği çeşitli Evanjelik gelenekleri temsil ettiğinden, kaynak materyallerde aktarılan tüm fikir ve ilkelerin bu bakanlık tarafından toplamda onaylanması gerekmez.\n\nBlue Letter Kutsal Kitap çalışma araçları Kutsal Kitap'ı okumayı, araştırmayı ve çalışmayı kolay ve ödüllendirici hale getirir.\n\nBlue Letter Bible 501(c)(3) kar amacı gütmeyen bir kuruluştur\n\nTercih ettiğiniz Kutsal Kitap çevirilerinin sırasını Kutsal Kitaplar Sekmesi'nden Sürüm Seçici'ye (bu açılır pencere) kopyalayabilir ya da tam tersini yapabilirsiniz. Kutsal Kitaplar Sekmesi, Kutsal Kitap sayfalarındaki Araçlar özelliğinde bulunur:\n\nNot: MLA artık atıf standartlarının bir parçası olarak URL'yi zorunlu tutmamaktadır. Bireysel eğitmenler veya editörler yine de URL'lerin kullanılmasını isteyebilir.\n\nHata: Parolalar en az 6 karakterden oluşmalıdır\n\nHata: Kullanıcı adları yalnızca harf, rakam, nokta, tire veya alt çizgi içermelidir\n\nParolalar en az 6 karakterden oluşmalıdır.\n\t\t\t\t\t\t\tKullanıcı adları yalnızca harf, rakam, nokta, tire veya alt çizgi içermelidir.\n\nKaydolduğunuz için teşekkür ederiz. Verdiğiniz adrese bir doğrulama e-postası gönderildi.\n\nOrtaklığınız tüm yaptıklarımızı mümkün kılıyor. Bugün dua ederek bir destek hediyesi vermeyi düşünür müsünüz?",
-  "chapter_intro": "",
-  "passages": [],
-  "notes": [
+  "passages": [
     {
       "ref": "Ps. 42–43",
-      "text": "Psalms . While each of these psalms can be taken separately, Psalms 42–43 go well together as a song with three stanzas: they share a refrain (42:5; 11; 43:5); 43:2 is almost the same as 42:9; and they both express the longing to return to God’s presence in the sanctuary (42:2; 43:3–4). The singer laments his circumstances, which keep him from attending worship and enjoying God’s presence at the central sanctuary."
+      "title": "Ps. 42–43",
+      "text": "**Mezmurlar** . Bu mezmurların her biri ayrı ayrı alınabilse de, 42-43. Mezmurlar üç kıtadan oluşan bir şarkı olarak birbirine çok yakışıyor: bir nakarat paylaşıyorlar (42:5; 11; 43:5); 43:2, 42:9 ile hemen hemen aynıdır; ve her ikisi de mabette Tanrı'nın huzuruna dönme özlemini ifade ediyorlar (42:2; 43:3-4). Şarkıcı, kendisini ibadete katılmaktan ve merkezi tapınakta Tanrı'nın varlığının tadını çıkarmaktan alıkoyan koşullarından yakınıyor."
     },
     {
       "ref": "Ps. 42:1–5",
-      "text": "The song begins with an expression of longing for God himself, using the image of thirst: As a deer pants for flowing streams. For the faithful, the answer to this longing comes in public worship (appear before God at the sanctuary; see Ex. 23:17)."
+      "title": "Ps. 42:1–5",
+      "text": "Şarkı, susuzluk imgesini kullanarak Tanrı'ya duyulan özlemin bir ifadesiyle başlıyor: **Akan derelere giden bir geyiğin pantolonu gibi**. İnananlar için bu özlemin yanıtı halka açık ibadette gelir (kutsal alanda **Tanrı'nın huzuruna çıkmak**; bkz. Çıkış 23:17)."
     },
     {
       "ref": "Ps. 42:6–11",
-      "text": "The second stanza sharpens the description of the singer’s situation. He is in the land of Jordan and of Hermon, far from the sanctuary in Jerusalem. He knows that God is not literally absent (v. 6), but he also feels that the sanctuary is where he meets God most fully. This stanza ends, like the first, with self-encouragement."
+      "title": "Ps. 42:6–11",
+      "text": "İkinci kıta şarkıcının durumunun tanımını keskinleştiriyor. O, Kudüs'teki kutsal yerden uzakta, **Ürdün ve Hermon diyarında** bulunuyor. Tanrı'nın kelimenin tam anlamıyla yok olmadığını biliyor (ayet 6), ama aynı zamanda kutsal alanın Tanrı'yla en iyi şekilde buluştuğu yer olduğunu da hissediyor. Bu dörtlük, ilki gibi, kendini cesaretlendirmeyle bitiyor."
     }
-  ]
+  ],
+  "notes": []
 }

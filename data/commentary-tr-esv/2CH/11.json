@@ -1,36 +1,41 @@
 {
-  "source": "ESV Global Study Bible (Crossway) — Türkçe çeviri — DeepL translator — Lisans kapsamında kullanılmaktadır",
+  "source": "ESV Global Study Bible (Crossway) — Türkçe çeviri — Google Translate — Lisans kapsamında kullanılmaktadır",
   "book_intro": "Blue Letter Bible bakanlığı ve BLB Enstitüsü, Kutsal Yazıların tahrif edilemezliğine olan kesin inancı da içeren tarihsel, muhafazakar Hristiyan inancına bağlıdır. BLB tarafından sağlanan metin ve ses içeriği çeşitli Evanjelik gelenekleri temsil ettiğinden, kaynak materyallerde aktarılan tüm fikir ve ilkelerin bu bakanlık tarafından toplamda onaylanması gerekmez.\n\nBlue Letter Kutsal Kitap çalışma araçları Kutsal Kitap'ı okumayı, araştırmayı ve çalışmayı kolay ve ödüllendirici hale getirir.\n\nBlue Letter Bible 501(c)(3) kar amacı gütmeyen bir kuruluştur\n\nTercih ettiğiniz Kutsal Kitap çevirilerinin sırasını Kutsal Kitaplar Sekmesi'nden Sürüm Seçici'ye (bu açılır pencere) kopyalayabilir veya tam tersini yapabilirsiniz. Kutsal Kitaplar Sekmesi, Kutsal Kitap sayfalarındaki Araçlar özelliğinde bulunur:\n\nNot: MLA artık atıf standartlarının bir parçası olarak URL'yi zorunlu tutmamaktadır. Bireysel eğitmenler veya editörler yine de URL'lerin kullanılmasını isteyebilir.\n\nHata: Parolalar en az 6 karakterden oluşmalıdır\n\nHata: Kullanıcı adları yalnızca harf, rakam, nokta, tire veya alt çizgi içermelidir\n\nŞifreler en az 6 karakterden oluşmalıdır.\n\t\t\t\t\t\t\tKullanıcı adları yalnızca harf, rakam, nokta, tire veya alt çizgi içermelidir.\n\nKaydolduğunuz için teşekkür ederiz. Verdiğiniz adrese bir doğrulama e-postası gönderildi.\n\nOrtaklığınız tüm yaptıklarımızı mümkün kılıyor. Bugün dua ederek bir destek hediyesi vermeyi düşünür müsünüz?",
-  "chapter_intro": "",
-  "passages": [],
-  "notes": [
+  "passages": [
     {
       "ref": "2 Chron. 11:1–12:16",
-      "text": "Rehoboam’s reign shows the themes of judgment and restoration (7:13–14) being acted out in the life of the kingdom."
-    },
-    {
-      "ref": "2 Chron. 11:4",
-      "text": "your relatives. Despite their rebellion, the northern tribes did not cease to be part of “all Israel.” they listened to the word of the Lord. See note on 1 Kings 12:24."
+      "title": "2 Kron. 11:1–12:16",
+      "text": "Rehoboam'ın hükümdarlığı, hüküm ve onarım temalarının (7:13-14) krallık yaşamında hayata geçirildiğini gösterir."
     },
     {
       "ref": "2 Chron. 11:5–23",
-      "text": "This information comes from a source other than 1–2 Kings. It illustrates the blessings that come to the southern kingdom (Judah) as they obey the word of the Lord (2 Chron. 11:4). Meanwhile, Jeroboam leads the northerners (Israel) into spiritual unfaithfulness."
+      "title": "2 Kron. 11:5–23",
+      "text": "Bu bilgi 1-2 Kings dışında bir kaynaktan geliyor. Bu, Rab'bin sözüne itaat eden güney krallığına (Yahuda) gelen bereketleri göstermektedir (2 Tarihler 11:4). Bu sırada Yarovam kuzeylileri (İsrail) manevi sadakatsizliğe sürükler."
     },
     {
       "ref": "2 Chron. 11:5–12",
-      "text": "The fortified cities covered the eastern, southern, and western approaches to Judah. They were probably intended as a defense against Egypt, which was Jeroboam’s ally. They did not prove effective against Shishak (12:4)."
+      "title": "2 Kron. 11:5–12",
+      "text": "**Müstahkem şehirler** Yahuda'nın doğu, güney ve batı yaklaşımlarını kapsıyordu. Muhtemelen Yeroboam'ın müttefiki olan Mısır'a karşı bir savunma amaçlıydılar. Şişak'a karşı etkili olamadılar (12:4)."
     },
     {
       "ref": "2 Chron. 11:13–17",
-      "text": "Jeroboam created a new religion in Bethel and Dan. This cult mixed what God revealed to Moses with other practices. Jeroboam hoped to keep his people from going to sacrifice in Jerusalem. He feared they would support Judah’s king if they went there to worship (1 Kings 12:26–33)."
-    },
-    {
-      "ref": "2 Chron. 11:17",
-      "text": "Rehoboam’s and Judah’s commitment to faithful worship and obedience to God’s law lasted only three years (see 12:1)."
+      "title": "2 Kron. 11:13–17",
+      "text": "Yarovam Beytel ve Dan'da yeni bir din yarattı. Bu tarikat, Tanrı'nın Musa'ya vahyettiği şeyleri diğer uygulamalarla karıştırıyordu. Yarovam halkının Yeruşalim'e kurban kesmeye gitmesini engellemeyi umuyordu. Yahuda'ya tapınmak için giderlerse kralını destekleyeceklerinden korkuyordu (1. Krallar 12:26-33)."
     },
     {
       "ref": "2 Chron. 11:18–23",
-      "text": "The growth of Rehoboam’s family is a sign of God’s blessing on him. These details must refer to the whole of his 17-year reign, and not just the three-year period of faithfulness to God’s law."
+      "title": "2 Kron. 11:18–23",
+      "text": "Rehoboam'ın ailesinin büyümesi, Tanrı'nın onu bereketlediğinin bir işaretidir. Bu ayrıntılar, yalnızca Tanrı’nın kanununa sadık kaldığı üç yıllık süreyi değil, 17 yıllık hükümdarlığının tamamını kapsamalıdır."
+    }
+  ],
+  "notes": [
+    {
+      "ref": "2 Chron. 11:4",
+      "text": "**akrabalarınız**. İsyanlarına rağmen kuzeydeki kabileler “tüm İsrail”in bir parçası olmaktan vazgeçmediler. **Rab'bin sözünü dinlediler**. 1. Krallar 12:24 ile ilgili nota bakın."
+    },
+    {
+      "ref": "2 Chron. 11:17",
+      "text": "Rehoboam ve Yahuda'nın sadakatle tapınma ve Tanrı'nın kanununa itaat konusundaki bağlılıkları yalnızca **üç yıl** sürdü (bkz. 12:1)."
     }
   ]
 }

@@ -1,52 +1,59 @@
 {
-  "source": "ESV Global Study Bible (Crossway) — Türkçe çeviri — DeepL translator — Lisans kapsamında kullanılmaktadır",
+  "source": "ESV Global Study Bible (Crossway) — Türkçe çeviri — Google Translate — Lisans kapsamında kullanılmaktadır",
   "book_intro": "Blue Letter Bible bakanlığı ve BLB Enstitüsü, Kutsal Yazıların tahrif edilemezliğine olan kesin inancı da içeren tarihsel, muhafazakar Hristiyan inancına bağlıdır. BLB tarafından sağlanan metin ve ses içeriği çeşitli Evanjelik gelenekleri temsil ettiğinden, kaynak materyallerde aktarılan tüm fikir ve ilkelerin bu bakanlık tarafından toplamda onaylanması gerekmez.\n\nBlue Letter Kutsal Kitap çalışma araçları Kutsal Kitap'ı okumayı, araştırmayı ve çalışmayı kolay ve ödüllendirici hale getirir.\n\nBlue Letter Bible 501(c)(3) kar amacı gütmeyen bir kuruluştur\n\nTercih ettiğiniz Kutsal Kitap çevirilerinin sırasını Kutsal Kitaplar Sekmesi'nden Sürüm Seçici'ye (bu açılır pencere) kopyalayabilir ya da tam tersini yapabilirsiniz. Kutsal Kitaplar Sekmesi, Kutsal Kitap sayfalarındaki Araçlar özelliğinde bulunur:\n\nNot: MLA artık atıf standartlarının bir parçası olarak URL'yi zorunlu tutmamaktadır. Bireysel eğitmenler veya editörler yine de URL'lerin kullanılmasını isteyebilir.\n\nHata: Parolalar en az 6 karakterden oluşmalıdır\n\nHata: Kullanıcı adları yalnızca harf, rakam, nokta, tire veya alt çizgi içermelidir\n\nParolalar en az 6 karakterden oluşmalıdır.\n\t\t\t\t\t\t\tKullanıcı adları yalnızca harf, rakam, nokta, tire veya alt çizgi içermelidir.\n\nKaydolduğunuz için teşekkür ederiz. Verdiğiniz adrese bir doğrulama e-postası gönderildi.\n\nOrtaklığınız tüm yaptıklarımızı mümkün kılıyor. Bugün dua ederek bir destek hediyesi vermeyi düşünür müsünüz?",
-  "chapter_intro": "",
-  "passages": [],
-  "notes": [
-    {
-      "ref": "Ps. 139",
-      "text": "Psalm . The closing request of this hymn (“search me, O God, and know my heart”) echoes the opening statement. This highlights the psalm’s theme: God’s knowledge of his people."
-    },
+  "passages": [
     {
       "ref": "Ps. 139:1–6",
-      "text": "Verse 1 states the theme of the psalm (you have searched me and known me). Verses 2–6 develop that further as a general assertion: God knows all of my activities, all of my words, even my inmost thoughts."
-    },
-    {
-      "ref": "Ps. 139:5",
-      "text": "lay your hand upon me. A gentle, reassuring gesture."
+      "title": "Ps. 139:1–6",
+      "text": "1. ayet mezmurun temasını belirtir (**beni araştırdın ve tanıdın**). 2-6. Ayetler bunu genel bir iddia olarak daha da geliştirir: Tanrı benim tüm faaliyetlerimi, tüm sözlerimi, hatta en derin düşüncelerimi bile bilir."
     },
     {
       "ref": "Ps. 139:7–12",
-      "text": "The next section makes it clear that there is no way the singer can escape such knowledge. There is nowhere in the universe that God will not be present to lead and hold the believer, and nowhere too dark for God to see him. Some have supposed that the impulse to flee comes from a guilty conscience, but this is unlikely: these verses take delight in the fact that God will “lead” him, an entirely positive benefit."
+      "title": "Ps. 139:7–12",
+      "text": "Bir sonraki bölüm, şarkıcının bu tür bilgilerden kaçmasının hiçbir yolu olmadığını açıkça ortaya koyuyor. Evrende Tanrı'nın inanlıyı **yönlendirmek** ve **tutmak** için bulunmayacağı hiçbir yer yoktur ve Tanrı'nın onu göremeyeceği kadar **karanlık** hiçbir yer yoktur. Bazıları **kaçma** dürtüsünün suçluluk duygusundan kaynaklandığını varsaymıştır, ancak bu pek olası değildir: bu ayetler Tanrı'nın kendisine “yöneteceği” gerçeğinden zevk almaktadır, bu tamamen olumlu bir faydadır."
     },
     {
       "ref": "Ps. 139:8–9",
-      "text": "These verses use two pairs of opposites: heaven and Sheol; the wings of the morning and the uttermost parts of the sea. This indicates that everything in between is included."
+      "title": "Ps. 139:8–9",
+      "text": "Bu ayetlerde iki çift karşıtlık kullanılıyor: **cennet** ve **cehennem**; **sabahın kanatları** ve **denizin en uç kısımları**. Bu aradaki her şeyin dahil olduğunu gösterir."
     },
     {
       "ref": "Ps. 139:13–16",
-      "text": "These verses illustrate the point of vv. 11–12 by describing a particular “dark place” where the Lord saw and cared for the singer, namely, his mother’s womb. God was active as the unformed substance (embryo) grew and developed. God is the one who formed my inward parts and knitted me together."
-    },
-    {
-      "ref": "Ps. 139:14",
-      "text": "I am fearfully and wonderfully made. If the esv text is followed, the statement helps the worshiper to marvel over the mysterious process of a developing baby. The esv footnote translation, “I am fearfully set apart,” takes the word to be the term for God setting his people apart (Ex. 8:22; Ps. 4:3) or making a distinction between them and those who are not his people (Ex. 9:4; 11:7; 33:16)."
-    },
-    {
-      "ref": "Ps. 139:15",
-      "text": "in the depths of the earth. As a parallel to in secret, this would be a poetic expression for the darkness and secrecy of the womb."
+      "title": "Ps. 139:13–16",
+      "text": "Bu ayetler ayetin amacını göstermektedir. 11–12, Rab'bin şarkıcıyı gördüğü ve onunla ilgilendiği belirli bir \"karanlık yeri\", yani **annesinin rahmini** tanımlayarak. **Biçimlenmemiş madde** (embriyo) büyüyüp geliştikçe Tanrı aktifti. **İçimi oluşturan** ve **beni ören** Allah'tır."
     },
     {
       "ref": "Ps. 139:17–18",
-      "text": "These verses provide the right response to the vast extent of God’s thoughts. Verse 18 seems to picture the hopelessness of trying to count God’s thoughts: the number is so large that one would fall asleep attempting it."
+      "title": "Ps. 139:17–18",
+      "text": "Bu ayetler Tanrı'nın **düşüncelerinin** geniş kapsamına doğru yanıtı sağlar. 18. ayet, Tanrı'nın düşüncelerini **saymaya** çalışmanın umutsuzluğunu tasvir ediyor gibi görünüyor: Sayı o kadar büyük ki, kişi bunu yapmaya çalışırken uykuya dalar."
     },
     {
       "ref": "Ps. 139:19–22",
-      "text": "The wicked person, who joins with men of blood, who speak against God with malicious intent, is someone who actively opposes God."
+      "title": "Ps. 139:19–22",
+      "text": "**Kötü** kişi, **kötü niyetle** Tanrı'nın **aleyhine konuşan** **kan adamlarına** katılan, Tanrı'ya aktif olarak karşı çıkan kişidir."
     },
     {
       "ref": "Ps. 139:23–24",
-      "text": "In view of these reflections, the members of the congregation invite God to continue his work of searching and knowing their hearts. God will expose any grievous way (character traits or actions that leads to grief) and will lead the faithful in the way everlasting (the way that leads to eternal life)."
+      "title": "Ps. 139:23–24",
+      "text": "Cemaatin üyeleri bu düşünceleri göz önünde bulundurarak Tanrı'yı, yüreklerini araştırma ve bilme işine devam etmeye davet ediyor. Tanrı, her türlü **üzücü yolu** (karakter özellikleri veya kedere yol açan eylemler) ortaya çıkaracak ve sadıkları **sonsuz yola** (sonsuz hayata götüren yola) yönlendirecektir."
+    }
+  ],
+  "notes": [
+    {
+      "ref": "Ps. 139",
+      "text": "**Mezmur** . Bu ilahinin kapanış isteği (“beni ara, Ey Tanrım ve yüreğimi bil”) açılış cümlesini tekrarlıyor. Bu, mezmurun temasını vurguluyor: Tanrı’nın, halkı hakkındaki bilgisi."
+    },
+    {
+      "ref": "Ps. 139:5",
+      "text": "**elini üzerime koy**. Nazik, güven verici bir jest."
+    },
+    {
+      "ref": "Ps. 139:14",
+      "text": "**Korku dolu ve harika yaratılmışım**. Esv metni takip edilirse, bu ifade ibadet eden kişinin gelişen bir bebeğin gizemli sürecine hayran kalmasına yardımcı olur. Esv dipnot tercümesi, \"Korkuyla ayrılıyorum\" sözcüğü, Tanrı'nın halkını ayırması (Çık. 8:22; Mezmur 4:3) ya da onlarla kendi halkı olmayanlar arasında ayrım yapması (Çık. 9:4; 11:7; 33:16) anlamına gelen bir terim olarak ele alınır."
+    },
+    {
+      "ref": "Ps. 139:15",
+      "text": "**yeryüzünün derinliklerinde**. **Gizli**'ye paralel olarak bu, rahmin karanlığına ve gizliliğine yönelik şiirsel bir ifade olacaktır."
     }
   ]
 }

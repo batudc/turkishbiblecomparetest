@@ -1,60 +1,65 @@
 {
-  "source": "ESV Global Study Bible (Crossway) — Türkçe çeviri — DeepL translator — Lisans kapsamında kullanılmaktadır",
+  "source": "ESV Global Study Bible (Crossway) — Türkçe çeviri — Google Translate — Lisans kapsamında kullanılmaktadır",
   "book_intro": "Blue Letter Bible bakanlığı ve BLB Enstitüsü, Kutsal Yazıların tahrif edilemezliğine olan kesin inancı da içeren tarihsel, muhafazakar Hristiyan inancına bağlıdır. BLB tarafından sağlanan metin ve ses içeriği çeşitli Evanjelik gelenekleri temsil ettiğinden, kaynak materyallerde aktarılan tüm fikir ve ilkelerin bu bakanlık tarafından toplamda onaylanması gerekmez.\n\nBlue Letter Kutsal Kitap çalışma araçları Kutsal Kitap'ı okumayı, araştırmayı ve çalışmayı kolay ve ödüllendirici hale getirir.\n\nBlue Letter Bible 501(c)(3) kar amacı gütmeyen bir kuruluştur\n\nTercih ettiğiniz Kutsal Kitap çevirilerinin sırasını Kutsal Kitaplar Sekmesi'nden Sürüm Seçici'ye (bu açılır pencere) kopyalayabilir veya tam tersini yapabilirsiniz. Kutsal Kitaplar Sekmesi, Kutsal Kitap sayfalarındaki Araçlar özelliğinde bulunur:\n\nNot: MLA artık atıf standartlarının bir parçası olarak URL'yi zorunlu tutmamaktadır. Bireysel eğitmenler veya editörler yine de URL'lerin kullanılmasını isteyebilir.\n\nHata: Parolalar en az 6 karakterden oluşmalıdır\n\nHata: Kullanıcı adları yalnızca harf, rakam, nokta, tire veya alt çizgi içermelidir\n\nParolalar en az 6 karakterden oluşmalıdır.\n\t\t\t\t\t\t\tKullanıcı adları yalnızca harf, rakam, nokta, tire veya alt çizgi içermelidir.\n\nKaydolduğunuz için teşekkür ederiz. Verdiğiniz adrese bir doğrulama e-postası gönderildi.\n\nOrtaklığınız tüm yaptıklarımızı mümkün kılıyor. Bugün dua ederek bir destek hediyesi vermeyi düşünür müsünüz?",
-  "chapter_intro": "",
-  "passages": [],
-  "notes": [
+  "passages": [
     {
       "ref": "2 Sam 13:1–20:26",
-      "text": "Nathan had warned David of “evil . . . out of your own house” (12:11) as a result of his sin with Bathsheba. Chapters 13–20 show how this prophecy comes true. Absalom kills his half brother Amnon to avenge the rape of his sister, but is eventually pardoned by David. Absalom then forms a conspiracy and declares himself king, but the rebellion is put down and Absalom is killed. In the aftermath there is an attempt by a group of Benjaminites to withdraw from Israel."
-    },
-    {
-      "ref": "2 Sam 13:1",
-      "text": "After a time suggests that some time has passed since the end of ch. 12."
+      "title": "2 Sam 13:1–20:26",
+      "text": "Nathan, Bathsheba'ya karşı işlediği günahın bir sonucu olarak Davut'u \"kötülüğü... evinizden çıkın\" (12:11) konusunda uyarmıştı. 13-20. Bölümler bu kehanetin nasıl gerçekleştiğini gösteriyor. Absalom, kız kardeşine tecavüzün intikamını almak için üvey kardeşi Amnon'u öldürür, ancak sonunda David tarafından affedilir. Absalom daha sonra bir komplo kurar ve kendisini kral ilan eder, ancak isyan bastırılır ve Absalom öldürülür. Sonrasında bir grup Benyaminlinin İsrail'den çekilme girişimi var."
     },
     {
       "ref": "2 Sam 13:1–2",
-      "text": "Tamar was Absalom’s full sister and the half sister of Amnon, David’s eldest son. he made himself ill. Amnon’s “love” could better be described as lust."
-    },
-    {
-      "ref": "2 Sam 13:3",
-      "text": "The term crafty is normally translated “wise” or “skillful.” Here, however, it is used in a negative sense."
+      "title": "2 Sam 13:1–2",
+      "text": "**Tamar**, Absalom'un öz kız kardeşi ve Davut'un en büyük oğlu Amnon'un üvey kız kardeşiydi. **kendini hasta etti**. Amnon'un \"aşkını\" şehvet olarak tanımlamak daha doğru olur."
     },
     {
       "ref": "2 Sam 13:6–8",
-      "text": "cakes. Perhaps something considered helpful for the sick."
+      "title": "2 Sam 13:6–8",
+      "text": "**kekler**. Belki hastalar için yararlı olduğu düşünülen bir şey."
     },
     {
       "ref": "2 Sam 13:12–13",
-      "text": "such a thing is not done in Israel. Intercourse between brother and sister, even half brother and half sister, was forbidden in Lev. 18:9. he will not withhold me from you. Perhaps Tamar is saying that David would be willing to bend the rules, or perhaps she is just trying to escape."
+      "title": "2 Sam 13:12–13",
+      "text": "**İsrail'de böyle bir şey yapılmaz**. Lev'de erkek ve kız kardeş arasındaki, hatta üvey erkek ve üvey kız kardeş arasındaki ilişki yasaktı. 18:9 . **beni senden esirgemeyecek**. Belki Tamar, David'in kuralları esnetmeye istekli olacağını söylüyor ya da belki de sadece kaçmaya çalışıyor."
     },
     {
       "ref": "2 Sam 13:15–17",
-      "text": "Then Amnon hated her. Having succeeded in seducing Tamar, Amnon’s professed love for her quickly turned to hatred. this wrong . . . is greater than the other. If a man seduced an unmarried woman, he had to marry her unless her father refused (Ex. 22:16). Having harmed Tamar, Amnon had a responsibility toward her. Put this woman out. Amnon’s hatred and contempt of his sister is expressed by his final refusal to heed her wishes or even use her name."
+      "title": "2 Sam 13:15–17",
+      "text": "**Sonra Amnon ondan nefret ediyordu**. Tamar'ı baştan çıkarmayı başaran Amnon'un ona duyduğu aşk hızla nefrete dönüştü. **bu yanlış. . . diğerinden daha büyüktür**. Bir adam evli olmayan bir kadını baştan çıkardıysa, babası reddetmediği sürece onunla evlenmek zorundaydı (Çık. 22:16). Tamar'a zarar veren Amnon'un ona karşı bir sorumluluğu vardı. **Bu kadını dışarı çıkarın**. Amnon'un kız kardeşine olan nefreti ve küçümsemesi, onun isteklerine kulak vermeyi ve hatta onun adını kullanmayı nihai olarak reddetmesiyle ifade edilir."
+    }
+  ],
+  "notes": [
+    {
+      "ref": "2 Sam 13:1",
+      "text": "**Bir süre sonra** bölümün sonundan bu yana biraz zaman geçtiğini gösteriyor. 12."
+    },
+    {
+      "ref": "2 Sam 13:3",
+      "text": "**Kurnaz** terimi normalde \"bilge\" veya \"becerikli\" olarak çevrilir. Ancak burada olumsuz anlamda kullanılmıştır."
     },
     {
       "ref": "2 Sam 13:19",
-      "text": "Putting ashes (or dirt) on one’s head and tearing one’s clothes were expressions of grief or humiliation."
+      "text": "Birinin başına **kül** (ya da toprak) sürmek ve giysilerini yırtmak, üzüntünün ya da aşağılanmanın ifadesiydi."
     },
     {
       "ref": "2 Sam 13:20",
-      "text": "Following her rape by Amnon, Absalom advised Tamar to not take this to heart. But Absalom himself did take it to heart (vv. 23–29)."
+      "text": "Amnon'un tecavüzüne uğramasının ardından Absalom, Tamar'a **buna aldırış etmemesini** tavsiye etti. Ancak Absalom bunu ciddiye aldı (23-29 ayetler)."
     },
     {
       "ref": "2 Sam 13:21",
-      "text": "David was very angry, but he did not do anything to punish Amnon. He showed favoritism toward his eldest son (3:2; see also esv footnote), which caused many of the later problems in David’s family (see 1 Kings 1:6). Because of his sin with Bathsheba, David had lost his moral courage and wisdom."
+      "text": "David **çok kızgındı** ama Amnon'u cezalandırmak için hiçbir şey yapmadı. En büyük oğlunu kayırıyordu (3:2; ayrıca bkz. esv dipnotu), bu da Davut'un ailesinde daha sonra birçok soruna neden oldu (bkz. 1. Krallar 1:6). Davut, Batşeba'ya karşı işlediği günah nedeniyle ahlaki cesaretini ve bilgeliğini kaybetmişti."
     },
     {
       "ref": "2 Sam 13:23",
-      "text": "As seen in 1 Samuel 25, sheepshearing was a time of feasting. Absalom invited David to the festivities, probably guessing that he would decline, in order to mask his true intentions. If he had started out by inviting Amnon, it could have seemed suspicious."
+      "text": "1 Samuel 25'te görüldüğü gibi koyun kırkma bir ziyafet zamanıydı. Absalom, gerçek niyetini gizlemek için muhtemelen reddedeceğini tahmin ederek Davut'u şenliklere davet etti. Eğer işe Amnon'u davet ederek başlasaydı şüpheli görünebilirdi."
     },
     {
       "ref": "2 Sam 13:29",
-      "text": "The king’s sons seem to have normally ridden mules. Absalom even rides one into battle (18:9)."
+      "text": "Kralın oğulları normalde katırlara biniyormuş gibi görünüyor. Absalom insanı savaşa bile götürür (18:9)."
     },
     {
       "ref": "2 Sam 13:37",
-      "text": "Talmai was Absalom’s maternal grandfather (3:3)."
+      "text": "**Talmai**, Absalom'un anne tarafından büyükbabasıydı (3:3)."
     }
   ]
 }

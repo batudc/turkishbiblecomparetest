@@ -1,28 +1,32 @@
 {
-  "source": "ESV Global Study Bible (Crossway) — Türkçe çeviri — DeepL translator — Lisans kapsamında kullanılmaktadır",
+  "source": "ESV Global Study Bible (Crossway) — Türkçe çeviri — Google Translate — Lisans kapsamında kullanılmaktadır",
   "book_intro": "Blue Letter Bible bakanlığı ve BLB Enstitüsü, Kutsal Yazıların tahrif edilemezliğine olan kesin inancı da içeren tarihsel, muhafazakar Hristiyan inancına bağlıdır. BLB tarafından sağlanan metin ve ses içeriği çeşitli Evanjelik gelenekleri temsil ettiğinden, kaynak materyallerde aktarılan tüm fikir ve ilkelerin bu bakanlık tarafından toplamda onaylanması gerekmez.\n\nBlue Letter Kutsal Kitap çalışma araçları Kutsal Kitap'ı okumayı, araştırmayı ve çalışmayı kolay ve ödüllendirici hale getirir.\n\nBlue Letter Bible 501(c)(3) kar amacı gütmeyen bir kuruluştur\n\nTercih ettiğiniz Kutsal Kitap çevirilerinin sırasını Kutsal Kitaplar Sekmesi'nden Sürüm Seçici'ye (bu açılır pencere) kopyalayabilir veya tam tersini yapabilirsiniz. Kutsal Kitaplar Sekmesi, Kutsal Kitap sayfalarındaki Araçlar özelliğinde bulunur:\n\nNot: MLA artık atıf standartlarının bir parçası olarak URL'yi zorunlu tutmamaktadır. Bireysel eğitmenler veya editörler yine de URL'lerin kullanılmasını isteyebilir.\n\nHata: Parolalar en az 6 karakterden oluşmalıdır\n\nHata: Kullanıcı adları yalnızca harf, rakam, nokta, tire veya alt çizgi içermelidir\n\nParolalar en az 6 karakterden oluşmalıdır.\n\t\t\t\t\t\t\tKullanıcı adları yalnızca harf, rakam, nokta, tire veya alt çizgi içermelidir.\n\nKaydolduğunuz için teşekkür ederiz. Verdiğiniz adrese bir doğrulama e-postası gönderildi.\n\nOrtaklığınız tüm yaptıklarımızı mümkün kılıyor. Bugün dua ederek bir destek hediyesi vermeyi düşünür müsünüz?",
-  "chapter_intro": "",
-  "passages": [],
-  "notes": [
+  "passages": [
     {
       "ref": "2 Kings 25:8–12",
-      "text": "A few weeks after the fall of Jerusalem, the full vengeance of the Babylonian king came upon the city."
+      "title": "2 Krallar 25:8–12",
+      "text": "**Kudüs**'ün düşüşünden birkaç hafta sonra, Babil kralının intikamı şehrin üzerine geldi."
     },
     {
       "ref": "2 Kings 25:13–14",
-      "text": "Pillars of bronze that were in the house of the Lord begins a detailed list of temple furnishings (vv. 13–17) carried off by the Babylonians for the value of their metal."
-    },
-    {
-      "ref": "2 Kings 25:21",
-      "text": "Almost all hope is gone in the summary statement, So Judah was taken into exile out of its land. But the land is still “its land,” holding out the promise of a future return."
+      "title": "2 Krallar 25:13–14",
+      "text": "**Rab'bin evinde bulunan bronz sütunlar**, Babilliler tarafından metallerinin değeri karşılığında götürülen tapınak mobilyalarının (13-17. ayetler) ayrıntılı bir listesinin başlangıcıdır."
     },
     {
       "ref": "2 Kings 25:22–26",
-      "text": "Gedaliah, the new governor of the territory that once was Judah, was the grandson of King Josiah’s secretary Shaphan. His assassination caused a general flight to Egypt."
+      "title": "2 Krallar 25:22–26",
+      "text": "Bir zamanlar Yahuda olan bölgenin yeni **valisi** **Gedalya**, Kral Yoşiya'nın sekreteri **Şafan**'ın torunuydu. Suikast, **Mısır**'a genel bir kaçışa neden oldu."
     },
     {
       "ref": "2 Kings 25:27–30",
-      "text": "Evil-merodach was Nebuchadnezzar’s son and successor. His release of the Judean king from prison in 561 b.c. gives the reader some hope that there is still a future for the Davidic line."
+      "title": "2 Krallar 25:27–30",
+      "text": "**Evil-merodach**, Nebuchadnezzar'ın oğlu ve halefiydi. Yahudiye kralını MÖ 561'de hapishaneden serbest bırakması. okuyucuya Davud soyunun hâlâ bir geleceği olduğuna dair umut veriyor."
+    }
+  ],
+  "notes": [
+    {
+      "ref": "2 Kings 25:21",
+      "text": "Özet açıklamada neredeyse tüm umutlar tükendi, **Böylece Yahuda kendi topraklarından sürgüne götürüldü**. Ancak toprak hâlâ “kendi toprağıdır” ve gelecekteki bir geri dönüş vaadini taşır."
     }
   ]
 }

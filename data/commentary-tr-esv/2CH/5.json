@@ -1,32 +1,36 @@
 {
-  "source": "ESV Global Study Bible (Crossway) — Türkçe çeviri — DeepL translator — Lisans kapsamında kullanılmaktadır",
+  "source": "ESV Global Study Bible (Crossway) — Türkçe çeviri — Google Translate — Lisans kapsamında kullanılmaktadır",
   "book_intro": "Blue Letter Bible bakanlığı ve BLB Enstitüsü, Kutsal Yazıların tahrif edilemezliğine olan kesin inancı da içeren tarihsel, muhafazakar Hristiyan inancına bağlıdır. BLB tarafından sağlanan metin ve ses içeriği çeşitli Evanjelik gelenekleri temsil ettiğinden, kaynak materyallerde aktarılan tüm fikir ve ilkelerin bu bakanlık tarafından toplamda onaylanması gerekmez.\n\nBlue Letter Kutsal Kitap çalışma araçları Kutsal Kitap'ı okumayı, araştırmayı ve çalışmayı kolay ve ödüllendirici hale getirir.\n\nBlue Letter Bible 501(c)(3) kar amacı gütmeyen bir kuruluştur\n\nTercih ettiğiniz Kutsal Kitap çevirilerinin sırasını Kutsal Kitaplar Sekmesi'nden Sürüm Seçici'ye (bu açılır pencere) kopyalayabilir veya tam tersini yapabilirsiniz. Kutsal Kitaplar Sekmesi, Kutsal Kitap sayfalarındaki Araçlar özelliğinde bulunur:\n\nNot: MLA artık atıf standartlarının bir parçası olarak URL'yi zorunlu tutmamaktadır. Bireysel eğitmenler veya editörler yine de URL'lerin kullanılmasını isteyebilir.\n\nHata: Parolalar en az 6 karakterden oluşmalıdır\n\nHata: Kullanıcı adları yalnızca harf, rakam, nokta, tire veya alt çizgi içermelidir\n\nŞifreler en az 6 karakterden oluşmalıdır.\n\t\t\t\t\t\t\tKullanıcı adları yalnızca harf, rakam, nokta, tire veya alt çizgi içermelidir.\n\nKaydolduğunuz için teşekkür ederiz. Verdiğiniz adrese bir doğrulama e-postası gönderildi.\n\nOrtaklığınız tüm yaptıklarımızı mümkün kılıyor. Bugün dua ederek bir destek hediyesi vermeyi düşünür müsünüz?",
-  "chapter_intro": "",
-  "passages": [],
-  "notes": [
+  "passages": [
     {
       "ref": "5:2–7:22",
-      "text": "The Dedication of the Temple. The Chronicler’s account of the dedication of the temple is much longer than his description of its construction (77 verses compared to 40), since he is more concerned with the meaning of the temple than with its physical structure. He describes two appearances of the Lord (5:14; 7:1–3), Solomon’s great prayer of dedication (6:14–42), and God’s message to Solomon (7:12–22)."
+      "title": "Tapınağın Adanması.",
+      "text": "Chronicler'ın tapınağın adanmasına ilişkin açıklaması, tapınağın inşasına ilişkin açıklamasından çok daha uzundur (40'a kıyasla 77 ayet), çünkü o, tapınağın fiziksel yapısından çok anlamı ile ilgilenmektedir. Rab'bin iki görünüşünü (5:14; 7:1–3), Süleyman'ın büyük adanma duasını (6:14–42) ve Tanrı'nın Süleyman'a mesajını (7:12–22) anlatır."
     },
     {
       "ref": "2 Chron. 5:2–3",
-      "text": "the feast that is in the seventh month. The Feast of Booths (see Lev. 23:33–43). The temple was completed in the eighth month of Solomon’s eleventh year (959 or 952 b.c.; see 1 Kings 6:38)."
-    },
-    {
-      "ref": "2 Chron. 5:5",
-      "text": "Moses’ tent of meeting and its holy vessels were brought up from Gibeon (1:3) to join the ark. Similarly, the Levitical priests Asaph, Heman, and Jeduthun (5:12; see 1 Chron. 16:37, 42) were united for this ceremony. From now on all of Israel’s worship would be focused on the Jerusalem temple."
+      "title": "2 Kron. 5:2–3",
+      "text": "**yedinci ayda olan bayram**. Çardak Bayramı (bkz. Lev. 23:33–43). Tapınak Süleyman'ın on birinci yılının sekizinci ayında tamamlandı (MÖ 959 veya 952; bkz. 1 Krallar 6:38)."
     },
     {
       "ref": "2 Chron. 5:7–9",
-      "text": "The priests completed the transfer of the ark, since only they could enter the Most Holy Place. When the Chronicler said that the ark was there to this day, he was probably quoting from one of his historical sources. The ark was apparently destroyed along with the first temple and never replaced."
-    },
-    {
-      "ref": "2 Chron. 5:10",
-      "text": "The ark had once contained the jar of manna and Aaron’s rod (Heb. 9:4; see Ex. 16:32–34; Num. 17:10–11), but now it held only the two tablets inscribed with the Ten Commandments."
+      "title": "2 Kron. 5:7–9",
+      "text": "**Rahipler** sandığın transferini tamamladılar çünkü **En Kutsal Yere** yalnızca onlar girebildi. Tarihçi, sandığın **bugüne kadar orada** olduğunu söylediğinde muhtemelen tarihi kaynaklarından birinden alıntı yapıyordu. Sandık, görünüşe göre ilk tapınakla birlikte yok edildi ve asla yerine yenisi konmadı."
     },
     {
       "ref": "2 Chron. 5:11–14",
-      "text": "The appearance of the cloud and the inability of the priests even to stand to minister in God’s presence signified that God was taking up residence in his temple (see also 7:3). This recalls the appearance of the glory cloud in the tabernacle and over the tent of meeting (Ex. 40:34–35)."
+      "title": "2 Kron. 5:11–14",
+      "text": "Bulutun ortaya çıkması ve rahiplerin Tanrı'nın huzurunda **hizmet etmeye bile hazır olmadıkları**, Tanrı'nın kendi tapınağında ikamet etmeye başladığı anlamına geliyordu (ayrıca bkz. 7:3). Bu, çadırdaki ve buluşma çadırının üzerindeki ihtişam bulutunun görünüşünü hatırlatıyor (Çık. 40:34–35)."
+    }
+  ],
+  "notes": [
+    {
+      "ref": "2 Chron. 5:5",
+      "text": "Musa'nın **buluşma çadırı** ve onun **kutsal kapları** gemiye katılmak üzere Gibeon'dan getirildi (1:3). Benzer şekilde, **Levi rahipleri** Asaf, Heman ve Jeduthun (5:12; bkz. 1 Tarihler 16:37, 42) bu tören için bir araya gelmişti. Artık İsrail'in tüm ibadetleri Kudüs tapınağına odaklanacaktı."
+    },
+    {
+      "ref": "2 Chron. 5:10",
+      "text": "Sandık bir zamanlar man kavanozunu ve Harun'un asasını içeriyordu (İbraniler 9:4; bkz. Mısır'dan Çıkış 16:32–34; Sayılar 17:10–11), fakat şimdi içinde yalnızca On Emir'in yazılı olduğu **iki tablet** bulunuyordu."
     }
   ]
 }

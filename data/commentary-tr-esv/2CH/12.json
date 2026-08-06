@@ -1,40 +1,43 @@
 {
-  "source": "ESV Global Study Bible (Crossway) — Türkçe çeviri — DeepL translator — Lisans kapsamında kullanılmaktadır",
+  "source": "ESV Global Study Bible (Crossway) — Türkçe çeviri — Google Translate — Lisans kapsamında kullanılmaktadır",
   "book_intro": "Blue Letter Bible bakanlığı ve BLB Enstitüsü, Kutsal Yazıların tahrif edilemezliğine olan kesin inancı da içeren tarihsel, muhafazakar Hristiyan inancına bağlıdır. BLB tarafından sağlanan metin ve ses içeriği çeşitli Evanjelik gelenekleri temsil ettiğinden, kaynak materyallerde aktarılan tüm fikir ve ilkelerin bu bakanlık tarafından toplamda onaylanması gerekmez.\n\nBlue Letter Kutsal Kitap çalışma araçları Kutsal Kitap'ı okumayı, araştırmayı ve çalışmayı kolay ve ödüllendirici hale getirir.\n\nBlue Letter Bible 501(c)(3) kar amacı gütmeyen bir kuruluştur\n\nTercih ettiğiniz Kutsal Kitap çevirilerinin sırasını Kutsal Kitaplar Sekmesi'nden Sürüm Seçici'ye (bu açılır pencere) kopyalayabilir veya tam tersini yapabilirsiniz. Kutsal Kitaplar Sekmesi, Kutsal Kitap sayfalarındaki Araçlar özelliğinde bulunur:\n\nNot: MLA artık atıf standartlarının bir parçası olarak URL'yi zorunlu tutmamaktadır. Bireysel eğitmenler veya editörler yine de URL'lerin kullanılmasını isteyebilir.\n\nHata: Parolalar en az 6 karakterden oluşmalıdır\n\nHata: Kullanıcı adları yalnızca harf, rakam, nokta, tire veya alt çizgi içermelidir\n\nŞifreler en az 6 karakterden oluşmalıdır.\n\t\t\t\t\t\t\tKullanıcı adları yalnızca harf, rakam, nokta, tire veya alt çizgi içermelidir.\n\nKaydolduğunuz için teşekkür ederiz. Verdiğiniz adrese bir doğrulama e-postası gönderildi.\n\nOrtaklığınız tüm yaptıklarımızı mümkün kılıyor. Bugün dua ederek bir destek hediyesi vermeyi düşünür müsünüz?",
-  "chapter_intro": "",
-  "passages": [],
-  "notes": [
-    {
-      "ref": "2 Chron. 12:1",
-      "text": "That Rehoboam and his people abandoned the law of the Lord is the same as abandoning God himself (v. 5). Likewise, Jesus said that the person who truly loved him would obey his commandments (John 14:21)."
-    },
-    {
-      "ref": "2 Chron. 12:2",
-      "text": "Unfaithful is an important term in Chronicles (see note on 1 Chron. 2:3–8). The Egyptian invasion is described as being God’s punishment for sin. Shishak is Sheshonq I, who ruled 945–924 b.c. The fifth year of King Rehoboam would be 925 b.c. (see note on 1 Kings 14:25–26)."
-    },
-    {
-      "ref": "2 Chron. 12:5",
-      "text": "You abandoned me, so I have abandoned you. See 1 Chron. 28:9; 2 Chron. 15:2."
-    },
+  "passages": [
     {
       "ref": "2 Chron. 12:6–8",
-      "text": "humbled themselves. See 7:14. The partial deliverance was intended to bring the people of Judah closer to the Lord. This would have reminded the first readers of Chronicles of their own circumstances: they were subject to the Persian kings, yet free to worship the Lord (see Ezra 9:8–9)."
+      "title": "2 Kron. 12:6–8",
+      "text": "**kendilerini alçalttı**. 7:14'e bakınız. Kısmi **kurtuluş**, Yahuda halkını Rab'be yaklaştırmayı amaçlıyordu. Bu, Tarihler'in ilk okuyucularına kendi durumlarını hatırlatabilirdi: Pers krallarına tabiydiler ama yine de Rab'be ibadet etmekte özgürlerdi (bkz. Ezra 9:8-9)."
     },
     {
       "ref": "2 Chron. 12:9–11",
-      "text": "The treasures of the temple and palace were surrendered as tribute to Shishak king of Egypt, so that he would not attack the city."
-    },
-    {
-      "ref": "2 Chron. 12:12",
-      "text": "when he humbled himself the wrath of the Lord turned from him. For the Chronicler, this is the key point to remember about Rehoboam’s reign."
-    },
-    {
-      "ref": "2 Chron. 12:14",
-      "text": "Whereas 1 Kings 14:22 blames the people for “doing evil,” the Chronicler makes this charge against Rehoboam and adds that he did not set his heart to seek the Lord (compare 2 Chron. 11:16)."
+      "title": "2 Kron. 12:9–11",
+      "text": "Tapınak ve sarayın hazineleri, şehre saldırmaması için **Mısır Kralı Şişak**'a haraç olarak teslim edildi."
     },
     {
       "ref": "2 Chron. 12:15–16",
-      "text": "These verses generally follow 1 Kings 14:29–31 but specify that historical records from Shemaiah and Iddo contributed to the Chronicler’s sources (see note on 1 Kings 14:19)."
+      "title": "2 Kron. 12:15–16",
+      "text": "Bu ayetler genellikle 1. Krallar 14:29–31'i takip eder ancak **Şemaya** ve **Iddo**'daki tarihi kayıtların Chronicler'ın kaynaklarına katkıda bulunduğunu belirtir (1. Krallar 14:19 ile ilgili nota bakın)."
+    }
+  ],
+  "notes": [
+    {
+      "ref": "2 Chron. 12:1",
+      "text": "Rehoboam ve halkının **Rab'bin yasasını terk etmesi**, Tanrı'nın kendisini terk etmesiyle aynı şeydir (ayet 5). Benzer şekilde İsa, kendisini gerçekten seven kişinin emirlerine itaat edeceğini söyledi (Yuhanna 14:21)."
+    },
+    {
+      "ref": "2 Chron. 12:2",
+      "text": "**Sadakatsiz**, Tarihler'de önemli bir terimdir (bkz. 1 Tarihler 2:3–8 ile ilgili not). Mısır istilası, Tanrı'nın günaha verdiği ceza olarak tanımlanıyor. **Şişak**, M.Ö. 945-924 yılları arasında hüküm süren I. Şeşonk'tur. **Kral Rehoboam'ın beşinci yılı** M.Ö. 925 olacaktır. (bkz. 1. Krallar 14:25–26 ile ilgili not)."
+    },
+    {
+      "ref": "2 Chron. 12:5",
+      "text": "**Sen beni terk ettin, ben de seni terk ettim**. 1 Kron'a bakın. 28:9; 2 Kron. 15:2 ."
+    },
+    {
+      "ref": "2 Chron. 12:12",
+      "text": "**kendini alçalttığında Rab'bin gazabı ondan döndü**. Tarihçi için Rehoboam'ın saltanatı hakkında hatırlanması gereken kilit nokta budur."
+    },
+    {
+      "ref": "2 Chron. 12:14",
+      "text": "1. Krallar 14:22, insanları \"kötülük yapmakla\" suçlarken, Tarihçi bu suçlamayı Rehoboam'a yöneltiyor ve **Rab'bi aramaya yüreğini koymadığını** ekliyor (2 Tarihler 11:16 ile karşılaştırın)."
     }
   ]
 }

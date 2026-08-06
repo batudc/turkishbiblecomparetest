@@ -1,40 +1,45 @@
 {
-  "source": "ESV Global Study Bible (Crossway) — Türkçe çeviri — DeepL translator — Lisans kapsamında kullanılmaktadır",
+  "source": "ESV Global Study Bible (Crossway) — Türkçe çeviri — Google Translate — Lisans kapsamında kullanılmaktadır",
   "book_intro": "Blue Letter Bible bakanlığı ve BLB Enstitüsü, Kutsal Yazıların tahrif edilemezliğine olan kesin inancı da içeren tarihsel, muhafazakar Hristiyan inancına bağlıdır. BLB tarafından sağlanan metin ve ses içeriği çeşitli Evanjelik gelenekleri temsil ettiğinden, kaynak materyallerde aktarılan tüm fikir ve ilkelerin bu bakanlık tarafından toplamda onaylanması gerekmez.\n\nBlue Letter Kutsal Kitap çalışma araçları Kutsal Kitap'ı okumayı, araştırmayı ve çalışmayı kolay ve ödüllendirici hale getirir.\n\nBlue Letter Bible 501(c)(3) kar amacı gütmeyen bir kuruluştur\n\nTercih ettiğiniz Kutsal Kitap çevirilerinin sırasını Kutsal Kitaplar Sekmesi'nden Sürüm Seçici'ye (bu açılır pencere) kopyalayabilir ya da tam tersini yapabilirsiniz. Kutsal Kitaplar Sekmesi, Kutsal Kitap sayfalarındaki Araçlar özelliğinde bulunur:\n\nNot: MLA artık atıf standartlarının bir parçası olarak URL'yi zorunlu tutmamaktadır. Bireysel eğitmenler veya editörler yine de URL'lerin kullanılmasını isteyebilir.\n\nHata: Parolalar en az 6 karakterden oluşmalıdır\n\nHata: Kullanıcı adları yalnızca harf, rakam, nokta, tire veya alt çizgi içermelidir\n\nParolalar en az 6 karakterden oluşmalıdır.\n\t\t\t\t\t\t\tKullanıcı adları yalnızca harf, rakam, nokta, tire veya alt çizgi içermelidir.\n\nKaydolduğunuz için teşekkür ederiz. Verdiğiniz adrese bir doğrulama e-postası gönderildi.\n\nOrtaklığınız tüm yaptıklarımızı mümkün kılıyor. Bugün dua ederek bir destek hediyesi vermeyi düşünür müsünüz?",
-  "chapter_intro": "",
-  "passages": [],
-  "notes": [
-    {
-      "ref": "Ps. 18",
-      "text": "Psalm . This royal psalm celebrates the way God has shown his love to his people by giving them the Davidic monarchy and by preserving David through many dangers (see v. 50). The text of the psalm is almost identical to David’s personal expression of gratitude to the Lord in 2 Samuel 22."
-    },
+  "passages": [
     {
       "ref": "Ps. 18:1–3",
-      "text": "The opening verses summarize the theme of the psalm: David has found the Lord to be a reliable defender against his enemies."
+      "title": "Ps. 18:1–3",
+      "text": "Açılış ayetleri mezmurun temasını özetliyor: Davut, Rab'bin düşmanlarına karşı güvenilir bir savunucu olduğunu gördü."
     },
     {
       "ref": "Ps. 18:7–19",
-      "text": "God in his heavenly fortress suddenly takes notice of David’s need and quickly comes to his aid."
+      "title": "Ps. 18:7–19",
+      "text": "Tanrı, gökteki kalesinde aniden Davut'un ihtiyacını fark eder ve hemen yardımına koşar."
     },
     {
       "ref": "Ps. 18:20–30",
-      "text": "David claims that he has faithfully kept the ways of the Lord (v. 21), and thus God has rewarded him (vv. 20, 24). These claims are not self-righteous; the ways, rules, and statutes of the Lord (v. 22) include provisions for receiving forgiveness of sins."
-    },
-    {
-      "ref": "Ps. 18:30",
-      "text": "The esv footnote (substituting “blameless” for perfect) suggests that following the Lord’s blameless way (see v. 21) is what enables a man to become blameless (vv. 23, 25)."
+      "title": "Ps. 18:20–30",
+      "text": "Davut, sadakatle **Rab'bin yollarını izlediğini** (ayet 21) ve böylece Tanrı'nın onu **ödüllendirdiğini** iddia eder (ayetler 20, 24). Bu iddialar kendini beğenmiş değildir; Rab'bin yolları, **kuralları** ve **kanunları** (ayet 22) günahların bağışlanmasıyla ilgili hükümleri içerir."
     },
     {
       "ref": "Ps. 18:31–45",
-      "text": "David’s rescue (vv. 16–19) came by way of his military skill, which was itself God’s gift."
+      "title": "Ps. 18:31–45",
+      "text": "Davut'un kurtarılması (16-19 ayetler), bizzat Tanrı'nın armağanı olan askeri becerisi sayesinde gerçekleşti."
     },
     {
       "ref": "Ps. 18:46–50",
-      "text": "David’s expectation that he will praise the Lord among the nations (v. 49; see Rom. 15:9) returns readers to the call of Abram, in whom the nations were to find blessing (Gen. 12:1–3)."
+      "title": "Ps. 18:46–50",
+      "text": "Davut'un, Rab'bi **uluslar arasında** **öveceği** beklentisi (ayet 49; bkz. Romalılar 15:9), okuyucuları, ulusların bereket bulacağı Avram'ın çağrısına geri döndürür (Yaratılış 12:1–3)."
+    }
+  ],
+  "notes": [
+    {
+      "ref": "Ps. 18",
+      "text": "**Mezmur** . Bu kraliyet mezmuru, Tanrı'nın halkına Davut monarşisini vererek ve Davut'u birçok tehlikeye karşı koruyarak sevgisini nasıl gösterdiğini kutlar (bkz. ayet 50). Mezmurun metni, Davut'un 2 Samuel 22'de Rab'be kişisel şükran ifadesiyle neredeyse aynıdır."
+    },
+    {
+      "ref": "Ps. 18:30",
+      "text": "Esv dipnotunda (**kusursuz** yerine \"kusursuz\" ifadesi kullanılmıştır) Rab'bin kusursuz yolunu izlemenin (bkz. ayet 21) bir insanın suçsuz olmasını sağlayan şey olduğu (23, 25. ayetler) öne sürülmektedir."
     },
     {
       "ref": "Ps. 18:50",
-      "text": "salvation. David’s victories are part of God’s commitment to his people and to the whole world. Steadfast love to . . . David and his offspring forever echoes 2 Sam. 7:12–16."
+      "text": "**kurtuluş**. Davut'un zaferleri Tanrı'nın halkına ve tüm dünyaya olan bağlılığının bir parçasıdır. <b>Sadık sevgim. . . David ve onun soyundan gelenler sonsuza dek 2 Sam'i yankılıyor. 7:12–16 ."
     }
   ]
 }

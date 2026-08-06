@@ -1,20 +1,22 @@
 {
-  "source": "ESV Global Study Bible (Crossway) — Türkçe çeviri — DeepL translator — Lisans kapsamında kullanılmaktadır",
+  "source": "ESV Global Study Bible (Crossway) — Türkçe çeviri — Google Translate — Lisans kapsamında kullanılmaktadır",
   "book_intro": "Blue Letter Bible bakanlığı ve BLB Enstitüsü, Kutsal Yazıların tahrif edilemezliğine olan kesin inancı da içeren tarihsel, muhafazakar Hristiyan inancına bağlıdır. BLB tarafından sağlanan metin ve ses içeriği çeşitli Evanjelik gelenekleri temsil ettiğinden, kaynak materyallerde aktarılan tüm fikir ve ilkelerin bu bakanlık tarafından toplamda onaylanması gerekmez.\n\nBlue Letter Kutsal Kitap çalışma araçları Kutsal Kitap'ı okumayı, araştırmayı ve çalışmayı kolay ve ödüllendirici hale getirir.\n\nBlue Letter Bible 501(c)(3) kar amacı gütmeyen bir kuruluştur\n\nTercih ettiğiniz Kutsal Kitap çevirilerinin sırasını Kutsal Kitaplar Sekmesi'nden Sürüm Seçici'ye (bu açılır pencere) kopyalayabilir ya da tam tersini yapabilirsiniz. Kutsal Kitaplar Sekmesi, Kutsal Kitap sayfalarındaki Araçlar özelliğinde bulunur:\n\nNot: MLA artık atıf standartlarının bir parçası olarak URL'yi zorunlu tutmamaktadır. Bireysel eğitmenler veya editörler yine de URL'lerin kullanılmasını isteyebilir.\n\nHata: Parolalar en az 6 karakterden oluşmalıdır\n\nHata: Kullanıcı adları yalnızca harf, rakam, nokta, tire veya alt çizgi içermelidir\n\nParolalar en az 6 karakterden oluşmalıdır.\n\t\t\t\t\t\t\tKullanıcı adları yalnızca harf, rakam, nokta, tire veya alt çizgi içermelidir.\n\nKaydolduğunuz için teşekkür ederiz. Verdiğiniz adrese bir doğrulama e-postası gönderildi.\n\nOrtaklığınız tüm yaptıklarımızı mümkün kılıyor. Bugün dua ederek bir destek hediyesi vermeyi düşünür müsünüz?",
-  "chapter_intro": "",
-  "passages": [],
-  "notes": [
-    {
-      "ref": "Ps. 83",
-      "text": "Psalm . This is a community lament, responding to a situation in which God’s people are threatened by Gentile enemies (vv. 6–8) who aim to destroy them. The psalm asks that God will make these enemies fail miserably, be put to shame, and perish—so that they might come to know the Lord. It is possible (see note on vv. 9–18) that the psalm assumes that Israel must defend themselves, and the prayer is for military victory. Christians use this psalm rightly when they ask God to defeat the enemies of their faith in such a way that even those enemies might come to seek God’s name."
-    },
+  "passages": [
     {
       "ref": "Ps. 83:1–8",
-      "text": "The first section describes the Gentile coalition and their evil, crafty plans: let us wipe them out as a nation; let the name of Israel be remembered no more! Facing this danger, the people urge God, do not keep silence."
+      "title": "Ps. 83:1–8",
+      "text": "İlk bölüm Yahudi olmayan koalisyonu ve onların kötü, **kurnaz planlarını** anlatıyor: **Onları bir ulus olarak yok edelim;** **İsrail'in adı artık anılmasın!** Bu tehlikeyle karşı karşıya kalan halk Tanrı'ya **susmamasını** tavsiye ediyor."
     },
     {
       "ref": "Ps. 83:9–18",
-      "text": "The basic request is that these enemies would utterly fail in their scheme. The ultimate reason for Israel’s existence is to serve God’s purpose of restoring true worship and authentic human life among all mankind. Therefore it is really for the good of these hostile Gentiles that they fail in their plan to destroy Israel."
+      "title": "Ps. 83:9–18",
+      "text": "Temel istek, bu düşmanların planlarında tamamen başarısızlığa uğramalarıdır. İsrail'in varoluşunun nihai nedeni, Tanrı'nın tüm insanlık arasında gerçek tapınmayı ve gerçek insan yaşamını yeniden tesis etme amacına hizmet etmektir. Bu nedenle İsrail'i yok etme planlarında başarısız olmaları aslında bu düşman Yahudi olmayanların iyiliği içindir."
+    }
+  ],
+  "notes": [
+    {
+      "ref": "Ps. 83",
+      "text": "**Mezmur** . Bu, Tanrı'nın halkının, onları yok etmeyi amaçlayan Yahudi olmayan düşmanlar (6-8. ayetler) tarafından tehdit edildiği bir duruma yanıt veren bir topluluk ağıttır. Mezmur, Rab'bi tanıyabilsinler diye, Tanrı'nın bu düşmanları sefilce başarısızlığa uğratmasını, utandırmasını ve yok etmesini ister. Mezmurun İsrail'in kendisini savunması gerektiğini ve duanın askeri zafer için olduğunu varsayması mümkündür (bkz. 9-18. ayetlerdeki not). Hıristiyanlar, Tanrı'dan inançlarının düşmanlarını öyle bir şekilde yenmesini isterken bu mezmuru doğru bir şekilde kullanırlar; böylece bu düşmanlar bile Tanrı'nın adını aramaya gelebilirler."
     }
   ]
 }

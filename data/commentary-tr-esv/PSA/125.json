@@ -1,24 +1,26 @@
 {
-  "source": "ESV Global Study Bible (Crossway) — Türkçe çeviri — DeepL translator — Lisans kapsamında kullanılmaktadır",
+  "source": "ESV Global Study Bible (Crossway) — Türkçe çeviri — Google Translate — Lisans kapsamında kullanılmaktadır",
   "book_intro": "Blue Letter Bible bakanlığı ve BLB Enstitüsü, Kutsal Yazıların tahrif edilemezliğine olan kesin inancı da içeren tarihsel, muhafazakar Hristiyan inancına bağlıdır. BLB tarafından sağlanan metin ve ses içeriği çeşitli Evanjelik gelenekleri temsil ettiğinden, kaynak materyallerde aktarılan tüm fikir ve ilkelerin bu bakanlık tarafından toplamda onaylanması gerekmez.\n\nBlue Letter Kutsal Kitap çalışma araçları Kutsal Kitap'ı okumayı, araştırmayı ve çalışmayı kolay ve ödüllendirici hale getirir.\n\nBlue Letter Bible 501(c)(3) kar amacı gütmeyen bir kuruluştur\n\nTercih ettiğiniz Kutsal Kitap çevirilerinin sırasını Kutsal Kitaplar Sekmesi'nden Sürüm Seçici'ye (bu açılır pencere) kopyalayabilir ya da tam tersini yapabilirsiniz. Kutsal Kitaplar Sekmesi, Kutsal Kitap sayfalarındaki Araçlar özelliğinde bulunur:\n\nNot: MLA artık atıf standartlarının bir parçası olarak URL'yi zorunlu tutmamaktadır. Bireysel eğitmenler veya editörler yine de URL'lerin kullanılmasını isteyebilir.\n\nHata: Parolalar en az 6 karakterden oluşmalıdır\n\nHata: Kullanıcı adları yalnızca harf, rakam, nokta, tire veya alt çizgi içermelidir\n\nParolalar en az 6 karakterden oluşmalıdır.\n\t\t\t\t\t\t\tKullanıcı adları yalnızca harf, rakam, nokta, tire veya alt çizgi içermelidir.\n\nKaydolduğunuz için teşekkür ederiz. Verdiğiniz adrese bir doğrulama e-postası gönderildi.\n\nOrtaklığınız tüm yaptıklarımızı mümkün kılıyor. Bugün dua ederek bir destek hediyesi vermeyi düşünür müsünüz?",
-  "chapter_intro": "",
-  "passages": [],
-  "notes": [
-    {
-      "ref": "Ps. 125",
-      "text": "Psalm . This psalm assures the Lord’s people that remaining loyal to him really is worthwhile. It is possible that some of Zion’s citizens might become unfaithful, but the Lord will publicly vindicate those who remain faithful. Like Psalm 122, this psalm stresses the ideal of what Jerusalem should be."
-    },
+  "passages": [
     {
       "ref": "Ps. 125:1–2",
-      "text": "the mountains surround Jerusalem. The hills on which Jerusalem sits are a little lower than the hills around it, so that one can picture the surrounding hills as a wall. This serves as an image of the Lord’s protection, as he surrounds his people like a high wall."
-    },
-    {
-      "ref": "Ps. 125:3",
-      "text": "The scepter of wickedness is kingly power held by Israelites who do not serve God and his people (the righteous). The Lord intends to protect his city, not simply from enemies outside the walls (v. 2) but from enemies within. shall not rest on the land. God will not allow the unrighteous to rule over his people forever."
+      "title": "Ps. 125:1–2",
+      "text": "** dağlar Kudüs'ü çevreliyor**. Kudüs'ün üzerinde bulunduğu tepeler, çevresindeki tepelerden biraz daha alçak olduğundan çevredeki tepeler duvar gibi gözükebilir. Bu, Rab'bin, halkını yüksek bir duvar gibi **çevrelediği** için korumasının bir simgesi olarak hizmet ediyor."
     },
     {
       "ref": "Ps. 125:4–5",
-      "text": "The Lord really does reward the faithful (v. 4), and he really does remove the unfaithful (v. 5) from his people. Peace will certainly be upon Israel when God so visibly validates the truthfulness of his word and when his people embrace it."
+      "title": "Ps. 125:4–5",
+      "text": "Rab gerçekten sadık olanları ödüllendirir (ayet 4) ve sadakatsizleri (ayet 5) gerçekten halkından uzaklaştırır. Tanrı, sözünün doğruluğunu açıkça onayladığında ve halkı onu benimsediğinde **barış** kesinlikle İsrail'in üzerine olacaktır."
+    }
+  ],
+  "notes": [
+    {
+      "ref": "Ps. 125",
+      "text": "**Mezmur** . Bu mezmur, Rabbin halkına, O'na vefalı kalmanın gerçekten değerli olduğuna dair güvence verir. Siyon vatandaşlarından bazılarının sadakatsiz olması mümkündür, ancak Rab, sadık kalanları herkesin önünde haklı çıkaracaktır. Mezmur 122 gibi bu mezmur da Yeruşalim'in ne olması gerektiği idealini vurguluyor."
+    },
+    {
+      "ref": "Ps. 125:3",
+      "text": "**Kötülük asası**, Tanrı'ya ve onun kavmine (**dürüst**) hizmet etmeyen İsrailoğullarının elinde tuttuğu krallık gücüdür. Rab, şehrini sadece surların dışındaki düşmanlardan değil (ayet 2) aynı zamanda içerideki düşmanlardan da korumayı amaçlamaktadır. **karada dinlenmeyecek**. Tanrı, adaletsizlerin halkını sonsuza kadar yönetmesine izin vermeyecektir."
     }
   ]
 }

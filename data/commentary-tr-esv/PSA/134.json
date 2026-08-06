@@ -1,20 +1,21 @@
 {
-  "source": "ESV Global Study Bible (Crossway) — Türkçe çeviri — DeepL translator — Lisans kapsamında kullanılmaktadır",
+  "source": "ESV Global Study Bible (Crossway) — Türkçe çeviri — Google Translate — Lisans kapsamında kullanılmaktadır",
   "book_intro": "Blue Letter Bible bakanlığı ve BLB Enstitüsü, Kutsal Yazıların tahrif edilemezliğine olan kesin inancı da içeren tarihsel, muhafazakar Hristiyan inancına bağlıdır. BLB tarafından sağlanan metin ve ses içeriği çeşitli Evanjelik gelenekleri temsil ettiğinden, kaynak materyallerde aktarılan tüm fikir ve ilkelerin bu bakanlık tarafından toplamda onaylanması gerekmez.\n\nBlue Letter Kutsal Kitap çalışma araçları Kutsal Kitap'ı okumayı, araştırmayı ve çalışmayı kolay ve ödüllendirici hale getirir.\n\nBlue Letter Bible 501(c)(3) kar amacı gütmeyen bir kuruluştur\n\nTercih ettiğiniz Kutsal Kitap çevirilerinin sırasını Kutsal Kitaplar Sekmesi'nden Sürüm Seçici'ye (bu açılır pencere) kopyalayabilir ya da tam tersini yapabilirsiniz. Kutsal Kitaplar Sekmesi, Kutsal Kitap sayfalarındaki Araçlar özelliğinde bulunur:\n\nNot: MLA artık atıf standartlarının bir parçası olarak URL'yi zorunlu tutmamaktadır. Bireysel eğitmenler veya editörler yine de URL'lerin kullanılmasını isteyebilir.\n\nHata: Parolalar en az 6 karakterden oluşmalıdır\n\nHata: Kullanıcı adları yalnızca harf, rakam, nokta, tire veya alt çizgi içermelidir\n\nParolalar en az 6 karakterden oluşmalıdır.\n\t\t\t\t\t\t\tKullanıcı adları yalnızca harf, rakam, nokta, tire veya alt çizgi içermelidir.\n\nKaydolduğunuz için teşekkür ederiz. Verdiğiniz adrese bir doğrulama e-postası gönderildi.\n\nOrtaklığınız tüm yaptıklarımızı mümkün kılıyor. Bugün dua ederek bir destek hediyesi vermeyi düşünür müsünüz?",
-  "chapter_intro": "",
-  "passages": [],
+  "passages": [
+    {
+      "ref": "Ps. 134:1–2",
+      "title": "Ps. 134:1–2",
+      "text": "**Rab'bin hizmetkarları** unvanı Levililere yöneliktir ( 1 Krallar 8:10–11 ; 1 Tarihler 9:33 ). İbadet eden cemaat onları **ellerini kaldırmaya** ve ** Rab'bi kutsamaya** çağırıyor (bkz. Mezmur 28:2)."
+    }
+  ],
   "notes": [
     {
       "ref": "Ps. 134",
-      "text": "Psalm . This final Song of Ascents is geared toward a special worship occasion, perhaps the opening or closing of a festival."
-    },
-    {
-      "ref": "Ps. 134:1–2",
-      "text": "The title servants of the Lord is addressed to the Levites (1 Kings 8:10–11; 1 Chron. 9:33). The worshiping congregation calls on them to lift up their hands and bless the Lord (see Ps. 28:2)."
+      "text": "**Mezmur** . Bu son Yükseliş Şarkısı, özel bir ibadet etkinliğine, belki de bir festivalin açılışına veya kapanışına yöneliktir."
     },
     {
       "ref": "Ps. 134:3",
-      "text": "The priests then say to each of the worshipers, May the Lord bless you from Zion (that is, “from the place where you have been worshiping”)."
+      "text": "Rahipler daha sonra ibadet edenlerin her birine, **Rab sizi** **Siyon'dan** (yani “ibadet ettiğiniz yerden”) kutsasın diyorlar."
     }
   ]
 }

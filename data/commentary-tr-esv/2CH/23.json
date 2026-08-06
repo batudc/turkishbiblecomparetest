@@ -1,44 +1,50 @@
 {
-  "source": "ESV Global Study Bible (Crossway) — Türkçe çeviri — DeepL translator — Lisans kapsamında kullanılmaktadır",
+  "source": "ESV Global Study Bible (Crossway) — Türkçe çeviri — Google Translate — Lisans kapsamında kullanılmaktadır",
   "book_intro": "Blue Letter Bible bakanlığı ve BLB Enstitüsü, Kutsal Yazıların tahrif edilemezliğine olan kesin inancı da içeren tarihsel, muhafazakar Hristiyan inancına bağlıdır. BLB tarafından sağlanan metin ve ses içeriği çeşitli Evanjelik gelenekleri temsil ettiğinden, kaynak materyallerde aktarılan tüm fikir ve ilkelerin bu bakanlık tarafından toplamda onaylanması gerekmez.\n\nBlue Letter Kutsal Kitap çalışma araçları Kutsal Kitap'ı okumayı, araştırmayı ve çalışmayı kolay ve ödüllendirici hale getirir.\n\nBlue Letter Bible 501(c)(3) kar amacı gütmeyen bir kuruluştur\n\nTercih ettiğiniz Kutsal Kitap çevirilerinin sırasını Kutsal Kitaplar Sekmesi'nden Sürüm Seçici'ye (bu açılır pencere) kopyalayabilir veya tam tersini yapabilirsiniz. Kutsal Kitaplar Sekmesi, Kutsal Kitap sayfalarındaki Araçlar özelliğinde bulunur:\n\nNot: MLA artık atıf standartlarının bir parçası olarak URL'yi zorunlu tutmamaktadır. Bireysel eğitmenler veya editörler yine de URL'lerin kullanılmasını isteyebilir.\n\nHata: Parolalar en az 6 karakterden oluşmalıdır\n\nHata: Kullanıcı adları yalnızca harf, rakam, nokta, tire veya alt çizgi içermelidir\n\nŞifreler en az 6 karakterden oluşmalıdır.\n\t\t\t\t\t\t\tKullanıcı adları yalnızca harf, rakam, nokta, tire veya alt çizgi içermelidir.\n\nKaydolduğunuz için teşekkür ederiz. Verdiğiniz adrese bir doğrulama e-postası gönderildi.\n\nOrtaklığınız tüm yaptıklarımızı mümkün kılıyor. Bugün dua ederek bir destek hediyesi vermeyi düşünür müsünüz?",
-  "chapter_intro": "",
-  "passages": [],
-  "notes": [
+  "passages": [
     {
       "ref": "23:1–24:27",
-      "text": "Joash. Joash’s rule marks the restoration of the throne from the usurper, Queen Athaliah, to the rightful Davidic king. It also marks Judah’s return to its covenant commitment to the Lord (23:16). Spiritual reforms take place in large part through the influence of the high priest Jehoiada, who is Joash’s uncle and becomes his counselor. Things begin going badly, however, after Jehoiada’s death. Joash is the first of three kings (followed by Amaziah and Uzziah) whose reigns begin on a positive note but end in failure or disgrace because they reject godly advice."
+      "title": "Joash.",
+      "text": "Yoaş'ın hükümdarlığı, tahtın gaspçı Kraliçe Athaliah'tan gerçek Davut kralına geri verilmesine işaret ediyor. Bu aynı zamanda Yahuda'nın Rab'be olan antlaşma bağlılığına geri dönüşünü de işaret eder (23:16). Ruhi reformlar büyük ölçüde Joash'ın amcası ve danışmanı olan başrahip Yehoiada'nın etkisiyle gerçekleşiyor. Ancak Yehoiada’nın ölümünden sonra işler kötü gitmeye başlar. Yoaş, hükümdarlıkları olumlu bir şekilde başlayıp, tanrısal öğütleri reddettikleri için başarısızlık veya utançla sonuçlanan üç kraldan ilkidir (ardından Amatsya ve Uzziah gelir)."
     },
     {
       "ref": "2 Chron. 23:1–21",
-      "text": "Mainly from 2 Kings 11:4–20. Numerous differences reflect the Chronicler’s particular concerns."
+      "title": "2 Kron. 23:1–21",
+      "text": "Esas olarak 2 Kral 11:4–20'den. Çok sayıda farklılık Chronicler'ın özel kaygılarını yansıtıyor."
     },
     {
       "ref": "2 Chron. 23:1b–2",
-      "text": "The Chronicler emphasizes the role of the Levites (see also vv. 5–8) and the heads of fathers’ houses, as well as military figures, in the uprising."
-    },
-    {
-      "ref": "2 Chron. 23:3",
-      "text": "The assembly was a representative body of the nation’s leaders. Wise kings sought its advice and support (see 1 Chron. 13:2; 29:1; 2 Chron. 30:2). The covenant with the king probably included the arrangement for Jehoiada to supervise Joash until he reached adulthood (see 24:4). Let him reign, as the Lord spoke. The coup was in keeping with God’s promise to preserve David’s line (see 1 Chron. 17:14; 2 Chron. 6:10)."
-    },
-    {
-      "ref": "2 Chron. 23:4",
-      "text": "This is the thing that you shall do. See note on 2 Kings 11:5–8."
+      "title": "2 Kron. 23:1b–2",
+      "text": "The Chronicler, ayaklanmada **Levililerin** (ayrıca bkz. 5-8 ayetler) ve **babalar evi reislerinin** ve askeri şahsiyetlerin rolünü vurguluyor."
     },
     {
       "ref": "2 Chron. 23:5–6",
-      "text": "All the people participated in the coup, but they remained in the courts and did not enter the temple."
+      "title": "2 Kron. 23:5–6",
+      "text": "**Tüm halk** darbeye katıldı ama onlar **mahkemelerde** kaldılar ve tapınağa girmediler."
     },
     {
       "ref": "2 Chron. 23:8–9",
-      "text": "The coup was timed to take place during the changing of the guards on the Sabbath, to bring the maximum number of armed men into the temple precincts without arousing suspicion. the spears and . . . shields. See note on 2 Kings 11:10."
-    },
-    {
-      "ref": "2 Chron. 23:11",
-      "text": "the testimony. See note on 2 Kings 11:12."
+      "title": "2 Kron. 23:8–9",
+      "text": "Darbe, şüphe uyandırmadan maksimum sayıda silahlı adamı tapınak bölgesine getirmek için Şabat günü muhafızların değişimi sırasında gerçekleşecek şekilde zamanlanmıştı. **mızraklar ve . . . kalkanlar**. 2 Krallar 11:10 ile ilgili nota bakın."
     },
     {
       "ref": "2 Chron. 23:13–15",
-      "text": "The pillar is probably either Boaz or Jachin, the pillars at the temple entrance (3:17; see note on 2 Kings 11:14)."
+      "title": "2 Kron. 23:13–15",
+      "text": "**Sütun** muhtemelen tapınağın girişindeki sütunlar olan Boaz veya Jachin'dir (3:17; bkz. 2 Krallar 11:14 ile ilgili not)."
+    }
+  ],
+  "notes": [
+    {
+      "ref": "2 Chron. 23:3",
+      "text": "**Meclis** ulusun liderlerini temsil eden bir organdı. Bilge krallar onun tavsiyesini ve desteğini aradılar (bkz. 1 Tarihler 13:2; 29:1; 2 Tarihler 30:2). **Kralla yapılan antlaşma** muhtemelen Yehoiada'nın Yoaş'ı yetişkinliğe ulaşana kadar denetlemesi için yapılan düzenlemeyi de içeriyordu (bkz. 24:4). **Rab'bin söylediği gibi hüküm sürmesine izin verin**. Darbe, Tanrı'nın Davut'un soyunu koruma vaadiyle uyumluydu (bkz. 1 Tarihler 17:14; 2 Tarihler 6:10)."
+    },
+    {
+      "ref": "2 Chron. 23:4",
+      "text": "**Yapmanız gereken şey budur**. 2 Krallar 11:5–8 ile ilgili nota bakın."
+    },
+    {
+      "ref": "2 Chron. 23:11",
+      "text": "**ifade**. 2 Krallar 11:12 ile ilgili nota bakın."
     }
   ]
 }

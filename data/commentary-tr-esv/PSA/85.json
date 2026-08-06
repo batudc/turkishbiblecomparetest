@@ -1,32 +1,36 @@
 {
-  "source": "ESV Global Study Bible (Crossway) — Türkçe çeviri — DeepL translator — Lisans kapsamında kullanılmaktadır",
+  "source": "ESV Global Study Bible (Crossway) — Türkçe çeviri — Google Translate — Lisans kapsamında kullanılmaktadır",
   "book_intro": "Blue Letter Bible bakanlığı ve BLB Enstitüsü, Kutsal Yazıların tahrif edilemezliğine olan kesin inancı da içeren tarihsel, muhafazakar Hristiyan inancına bağlıdır. BLB tarafından sağlanan metin ve ses içeriği çeşitli Evanjelik gelenekleri temsil ettiğinden, kaynak materyallerde aktarılan tüm fikir ve ilkelerin bu bakanlık tarafından toplamda onaylanması gerekmez.\n\nBlue Letter Kutsal Kitap çalışma araçları Kutsal Kitap'ı okumayı, araştırmayı ve çalışmayı kolay ve ödüllendirici hale getirir.\n\nBlue Letter Bible 501(c)(3) kar amacı gütmeyen bir kuruluştur\n\nTercih ettiğiniz Kutsal Kitap çevirilerinin sırasını Kutsal Kitaplar Sekmesi'nden Sürüm Seçici'ye (bu açılır pencere) kopyalayabilir ya da tam tersini yapabilirsiniz. Kutsal Kitaplar Sekmesi, Kutsal Kitap sayfalarındaki Araçlar özelliğinde bulunur:\n\nNot: MLA artık atıf standartlarının bir parçası olarak URL'yi zorunlu tutmamaktadır. Bireysel eğitmenler veya editörler yine de URL'lerin kullanılmasını isteyebilir.\n\nHata: Parolalar en az 6 karakterden oluşmalıdır\n\nHata: Kullanıcı adları yalnızca harf, rakam, nokta, tire veya alt çizgi içermelidir\n\nParolalar en az 6 karakterden oluşmalıdır.\n\t\t\t\t\t\t\tKullanıcı adları yalnızca harf, rakam, nokta, tire veya alt çizgi içermelidir.\n\nKaydolduğunuz için teşekkür ederiz. Verdiğiniz adrese bir doğrulama e-postası gönderildi.\n\nOrtaklığınız tüm yaptıklarımızı mümkün kılıyor. Bugün dua ederek bir destek hediyesi vermeyi düşünür müsünüz?",
-  "chapter_intro": "",
-  "passages": [],
-  "notes": [
-    {
-      "ref": "Ps. 85",
-      "text": "Psalm . This is a community lament. It occurs at a time when God has shown his displeasure over his people’s unfaithfulness, perhaps by withholding fruitfulness from the land (vv. 1, 12). The people singing this are seeking forgiveness for the whole people (“us”), asking God to show the steadfast love and faithfulness he proclaimed in Ex. 34:6. Because God is righteous (Ps. 85:10–11, 13)—that is, reliable about his promises—the psalm closes with confidence."
-    },
+  "passages": [
     {
       "ref": "Ps. 85:1–3",
-      "text": "The verbs in this section are all past tense, looking back to what God has done for the people. Forgave the iniquity recalls Ex. 34:7. Turned from your hot anger (see Ex. 32:12) implies that God forgave his people after they repented of serious unfaithfulness. God has done this in the past for his people, because he is exceedingly kind."
+      "title": "Ps. 85:1–3",
+      "text": "Bu bölümdeki fiillerin tümü geçmiş zaman kipi olup, Tanrı'nın insanlar için yaptıklarına bakmaktadır. **Kötülüğü affettim**, Eski'yi anımsıyor. 34:7 . **Sıcak öfkenizden döndü** (bkz. Mısır'dan Çıkış 32:12), Tanrı'nın, ciddi sadakatsizliklerinden tövbe eden halkını affettiğini ima eder. Tanrı bunu geçmişte halkı için yaptı, çünkü O son derece naziktir."
     },
     {
       "ref": "Ps. 85:4–7",
-      "text": "The next section appeals to the compassion God has claimed and shown, asking him to restore us again, that is, put away your indignation toward us. For God to be angry with us forever would be contrary to this revealed character. Therefore the people pray, show us your steadfast love (proclaimed in Ex. 34:6), and grant us your salvation."
+      "title": "Ps. 85:4–7",
+      "text": "Bir sonraki bölüm, Tanrı'nın talep ettiği ve gösterdiği şefkate hitap ediyor ve ondan **bizi yeniden diriltmesini**, yani **bize karşı öfkenizi bir kenara bırakmasını** istiyor. Tanrı'nın **bize sonsuza kadar kızması** bu vahyedilmiş karaktere aykırı olacaktır. Bu nedenle insanlar dua ediyor, **bize sarsılmaz sevginizi gösterin** (Çık. 34:6'da duyuruluyor) ve **bize kurtuluşunuzu bağışlayın**."
     },
     {
       "ref": "Ps. 85:8–9",
-      "text": "Now the members of the congregation declare their patience in watching for God to act on their prayer. The song has shifted from the plural “we” to the singular “I”: let me hear. Each member is thus making this pledge. There is confidence that God will speak peace to his people, that is, he will agree to the reconciliation they have asked for in vv. 4–7. At the same time, the psalmist prays, let them not turn back to folly. The people who are appealing to God’s kindness should make sure that their repentance is genuine."
-    },
-    {
-      "ref": "Ps. 85:9",
-      "text": "glory may dwell in our land. The “glory” is God’s special presence with his people (see note on 63:1–2); see Ex. 24:16 for the same expression."
+      "title": "Ps. 85:8–9",
+      "text": "Şimdi cemaatin üyeleri Tanrı'nın dualarının yerine gelmesini sabırla beklediğini beyan ediyorlar. Şarkı çoğul \"biz\"den tekil \"ben\"e geçti: **duyayım**. Böylece her üye bu sözü veriyor. Tanrı'nın **halkına barış konuşacağına**, yani onların vv'de istedikleri uzlaşmayı kabul edeceğine dair güven vardır. 4–7 . Mezmur yazarı aynı zamanda **ahmaklığa dönmesinler** diye dua eder. Allah'ın lütfuna başvuran kimseler, tevbelerinin samimi olduğundan emin olmalıdırlar."
     },
     {
       "ref": "Ps. 85:10–13",
-      "text": "The psalm closes with confidence that God will hear their prayer and give them what they ask. Steadfast love and faithfulness meet, that is, in God they are in harmony. God’s righteousness here is his reliability in keeping his promises (especially to his people), and therefore it guarantees the peace (see v. 8). They kiss each other like the affectionate greeting of relatives (e.g., Gen. 29:13; 45:15)."
+      "title": "Ps. 85:10–13",
+      "text": "Mezmur, Tanrı'nın dualarını duyacağına ve onlara istediklerini vereceğine güvenerek bitiyor. **Sadık sevgi ve sadakat buluşur**, yani Tanrı'da uyum içindedirler. Buradaki Tanrı'nın **doğruluğu**, verdiği sözleri (özellikle halkına) tutma konusundaki güvenilirliğidir ve bu nedenle **barışı** garanti eder (bkz. ayet 8). Akrabaların sevgi dolu selamları gibi **birbirlerini öperler** (örneğin, Yaratılış 29:13; 45:15)."
+    }
+  ],
+  "notes": [
+    {
+      "ref": "Ps. 85",
+      "text": "**Mezmur** . Bu bir toplumsal ağıttır. Bu, Tanrı'nın halkının sadakatsizliğinden duyduğu hoşnutsuzluğu, belki de toprağın bereketini engelleyerek gösterdiği bir zamanda meydana gelir (vv. 1, 12). Bu şarkıyı söyleyen insanlar tüm halk (“biz”) için bağışlanma diliyor ve Tanrı'dan Ex. 34:6 . Tanrı adil olduğundan (Mezmur 85:10–11, 13), yani vaatleri konusunda güvenilir olduğundan mezmur güvenle biter."
+    },
+    {
+      "ref": "Ps. 85:9",
+      "text": "**ülkemizde zafer yaşayabilir**. \"İzzet\", Tanrı'nın halkıyla birlikte özel mevcudiyetidir (bkz. 63:1-2 ile ilgili not); bkz. Aynı ifade için 24:16."
     }
   ]
 }

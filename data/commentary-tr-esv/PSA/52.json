@@ -1,24 +1,27 @@
 {
-  "source": "ESV Global Study Bible (Crossway) — Türkçe çeviri — DeepL translator — Lisans kapsamında kullanılmaktadır",
+  "source": "ESV Global Study Bible (Crossway) — Türkçe çeviri — Google Translate — Lisans kapsamında kullanılmaktadır",
   "book_intro": "Blue Letter Bible bakanlığı ve BLB Enstitüsü, Kutsal Yazıların tahrif edilemezliğine olan kesin inancı da içeren tarihsel, muhafazakar Hristiyan inancına bağlıdır. BLB tarafından sağlanan metin ve ses içeriği çeşitli Evanjelik gelenekleri temsil ettiğinden, kaynak materyallerde aktarılan tüm fikir ve ilkelerin bu bakanlık tarafından toplamda onaylanması gerekmez.\n\nBlue Letter Kutsal Kitap çalışma araçları Kutsal Kitap'ı okumayı, araştırmayı ve çalışmayı kolay ve ödüllendirici hale getirir.\n\nBlue Letter Bible 501(c)(3) kar amacı gütmeyen bir kuruluştur\n\nTercih ettiğiniz Kutsal Kitap çevirilerinin sırasını Kutsal Kitaplar Sekmesi'nden Sürüm Seçici'ye (bu açılır pencere) kopyalayabilir ya da tam tersini yapabilirsiniz. Kutsal Kitaplar Sekmesi, Kutsal Kitap sayfalarındaki Araçlar özelliğinde bulunur:\n\nNot: MLA artık atıf standartlarının bir parçası olarak URL'yi zorunlu tutmamaktadır. Bireysel eğitmenler veya editörler yine de URL'lerin kullanılmasını isteyebilir.\n\nHata: Parolalar en az 6 karakterden oluşmalıdır\n\nHata: Kullanıcı adları yalnızca harf, rakam, nokta, tire veya alt çizgi içermelidir\n\nParolalar en az 6 karakterden oluşmalıdır.\n\t\t\t\t\t\t\tKullanıcı adları yalnızca harf, rakam, nokta, tire veya alt çizgi içermelidir.\n\nKaydolduğunuz için teşekkür ederiz. Verdiğiniz adrese bir doğrulama e-postası gönderildi.\n\nOrtaklığınız tüm yaptıklarımızı mümkün kılıyor. Bugün dua ederek bir destek hediyesi vermeyi düşünür müsünüz?",
-  "chapter_intro": "",
-  "passages": [],
-  "notes": [
-    {
-      "ref": "Ps. 52",
-      "text": "Psalm . The faithful develop confidence in God’s care and protection, particularly when surrounded by ruthless enemies. The title sets the psalm during David’s flight from Saul (1 Sam. 21:1–7), which led to Doeg’s slaughtering the priests who had helped David (1 Sam. 22:9–19). Doeg is thus an example of the enemies the faithful might face."
-    },
+  "passages": [
     {
       "ref": "Ps. 52:1–4",
-      "text": "The enemy’s speech (boast, tongue, lying, words) is lies used to plot the destruction of the faithful. The enduring steadfast love of God is the answer to such evil (compare v. 8)."
+      "title": "Ps. 52:1–4",
+      "text": "Düşmanın konuşması (**övünme**, **dil**, **yalan**, **sözler**) müminlerin **yok edilmesini** planlamak için kullanılan yalanlardır. **Tanrı'nın kalıcı sevgisi** bu kötülüğe yanıttır (8. ayetle karşılaştırın)."
     },
     {
       "ref": "Ps. 52:5–7",
-      "text": "The righteous person who will trust in God (unlike the enemy, v. 7) is confident that he is always safe."
+      "title": "Ps. 52:5–7",
+      "text": "Tanrı'ya güvenecek **dürüst** kişi (düşmanın aksine, ayet 7) her zaman güvende olduğundan emindir."
     },
     {
       "ref": "Ps. 52:8–9",
-      "text": "In contrast to the wicked who are “uprooted” (v. 5), the godly will be a green olive tree (an image of vitality and fruitfulness, see Jer. 11:16). While the enemy trusts in the abundance of his riches (Ps. 52:7), the faithful trust in the steadfast love of God forever and ever. The faithful wait for God to vindicate his name by protecting those who trust in him."
+      "title": "Ps. 52:8–9",
+      "text": "\"Kökünden sökülen\" kötülerin aksine (ayet 5), **Tanrı'ya inananlar** **yeşil bir zeytin ağacı** olacaktır (canlılık ve bereketin simgesi, bkz. Yeremya 11:16). Düşman, zenginliğinin çokluğuna güvenirken (Mez. 52:7), sadık olanlar **sonsuza kadar Tanrı'nın sarsılmaz sevgisine güvenirler**. Sadıklar, Tanrı'nın kendisine güvenenleri koruyarak **adını** haklı çıkarmasını **beklerler**."
+    }
+  ],
+  "notes": [
+    {
+      "ref": "Ps. 52",
+      "text": "**Mezmur** . İnananlar, özellikle de acımasız düşmanlarla çevrelendiklerinde, Tanrı'nın bakımına ve korumasına güven geliştirirler. Başlık, Davut'un Saul'dan kaçışı (1 Sam. 21:1–7) sırasındaki mezmurları belirler; bu, Doeg'in Davut'a yardım eden rahipleri katletmesine yol açar (1 Sam. 22:9–19). Dolayısıyla Doeg, sadıkların karşılaşabileceği düşmanların bir örneğidir."
     }
   ]
 }

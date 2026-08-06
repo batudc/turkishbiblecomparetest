@@ -1,32 +1,34 @@
 {
-  "source": "ESV Global Study Bible (Crossway) — Türkçe çeviri — DeepL translator — Lisans kapsamında kullanılmaktadır",
+  "source": "ESV Global Study Bible (Crossway) — Türkçe çeviri — Google Translate — Lisans kapsamında kullanılmaktadır",
   "book_intro": "Blue Letter Bible bakanlığı ve BLB Enstitüsü, Kutsal Yazıların tahrif edilemezliğine olan kesin inancı da içeren tarihsel, muhafazakar Hristiyan inancına bağlıdır. BLB tarafından sağlanan metin ve ses içeriği çeşitli Evanjelik gelenekleri temsil ettiğinden, kaynak materyallerde aktarılan tüm fikir ve ilkelerin bu bakanlık tarafından toplamda onaylanması gerekmez.\n\nBlue Letter Kutsal Kitap çalışma araçları Kutsal Kitap'ı okumayı, araştırmayı ve çalışmayı kolay ve ödüllendirici hale getirir.\n\nBlue Letter Bible 501(c)(3) kar amacı gütmeyen bir kuruluştur\n\nTercih ettiğiniz Kutsal Kitap çevirilerinin sırasını Kutsal Kitaplar Sekmesi'nden Sürüm Seçici'ye (bu açılır pencere) kopyalayabilir ya da tam tersini yapabilirsiniz. Kutsal Kitaplar Sekmesi, Kutsal Kitap sayfalarındaki Araçlar özelliğinde bulunur:\n\nNot: MLA artık atıf standartlarının bir parçası olarak URL'yi zorunlu tutmamaktadır. Bireysel eğitmenler veya editörler yine de URL'lerin kullanılmasını isteyebilir.\n\nHata: Parolalar en az 6 karakterden oluşmalıdır\n\nHata: Kullanıcı adları yalnızca harf, rakam, nokta, tire veya alt çizgi içermelidir\n\nParolalar en az 6 karakterden oluşmalıdır.\n\t\t\t\t\t\t\tKullanıcı adları yalnızca harf, rakam, nokta, tire veya alt çizgi içermelidir.\n\nKaydolduğunuz için teşekkür ederiz. Verdiğiniz adrese bir doğrulama e-postası gönderildi.\n\nOrtaklığınız tüm yaptıklarımızı mümkün kılıyor. Bugün dua ederek bir destek hediyesi vermeyi düşünür müsünüz?",
-  "chapter_intro": "",
-  "passages": [],
-  "notes": [
-    {
-      "ref": "Ps. 75",
-      "text": "Psalm . This is a hymn of praise. It thanks God for the wondrous deeds he has done for Israel. It celebrates the fact that he is the judge of all the earth. He will, in his own time, put down the wicked and lift up the faithful."
-    },
-    {
-      "ref": "Ps. 75:1",
-      "text": "The subject (we) is Israel. They are the ones to whom God’s name is near, and they are the people for whom God has done his wondrous deeds (e.g., the plagues of Egypt, the crossing of the Jordan River, defeating enemies)."
-    },
+  "passages": [
     {
       "ref": "Ps. 75:2–5",
-      "text": "judge. God’s judgment will be with equity. This fairness preserves the stability of God’s creation order (pillars)."
-    },
-    {
-      "ref": "Ps. 75:4",
-      "text": "Do not lift up your horn. The horn is a symbol of power. To lift it up is to make a public assertion of power. God warns the ungodly not to do this."
+      "title": "Ps. 75:2–5",
+      "text": "**yargıç**. Tanrı'nın hükmü **adaletle** olacaktır. Bu adalet, Tanrı'nın yaratılış düzeninin (**sütunlar**) istikrarını korur."
     },
     {
       "ref": "Ps. 75:6–8",
-      "text": "This section takes up the idea of lifting up from vv. 4–5. Ultimately it is God who executes judgment, putting down one and lifting up another."
+      "title": "Ps. 75:6–8",
+      "text": "Bu bölüm vv'den **yükseltme** fikrini ele alıyor. 4–5 . Nihayetinde **birini indirip diğerini kaldırarak hükmü uygulayan** Tanrı'dır."
+    }
+  ],
+  "notes": [
+    {
+      "ref": "Ps. 75",
+      "text": "**Mezmur** . Bu bir övgü ilahisidir. İsrail için yaptığı harika işler için Tanrı'ya şükrediyor. Onun tüm dünyanın yargıcı olduğu gerçeğini kutluyor. O, zamanı geldiğinde kötüleri yere serecek ve sadıkları ayağa kaldıracaktır."
+    },
+    {
+      "ref": "Ps. 75:1",
+      "text": "Konu (**biz**) İsrail'dir. Onlar, Allah'ın ** isminin kendilerine yakın olduğu** kimselerdir ve onlar, Allah'ın kendileri için **harika işler** yaptığı kimselerdir (örneğin, Mısır'daki belalar, Ürdün Nehri'nin geçmesi, düşmanların mağlup edilmesi)."
+    },
+    {
+      "ref": "Ps. 75:4",
+      "text": "** Kornanızı kaldırmayın**. Boynuz gücün sembolüdür. Onu kaldırmak, kamuya açık bir güç iddiasında bulunmaktır. Allah, kafirleri bunu yapmamaları konusunda uyarmaktadır."
     },
     {
       "ref": "Ps. 75:10",
-      "text": "God promises that he will lift up the horns of the righteous (see note on v. 4). To cut off the horns is to render powerless and to humiliate, which is what he will do to the wicked."
+      "text": "Tanrı, **doğruların boynuzlarını** kaldıracağını vaat ediyor (bkz. ayet 4'teki not). **Boynuzları** **kesmek**, güçsüz bırakmak ve aşağılamak demektir ki, kötülere yapacağı da budur."
     }
   ]
 }

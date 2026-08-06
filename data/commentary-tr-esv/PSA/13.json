@@ -1,28 +1,29 @@
 {
-  "source": "ESV Global Study Bible (Crossway) — Türkçe çeviri — DeepL translator — Lisans kapsamında kullanılmaktadır",
+  "source": "ESV Global Study Bible (Crossway) — Türkçe çeviri — Google Translate — Lisans kapsamında kullanılmaktadır",
   "book_intro": "Blue Letter Bible bakanlığı ve BLB Enstitüsü, Kutsal Yazıların tahrif edilemezliğine olan kesin inancı da içeren tarihsel, muhafazakar Hristiyan inancına bağlıdır. BLB tarafından sağlanan metin ve ses içeriği çeşitli Evanjelik gelenekleri temsil ettiğinden, kaynak materyallerde aktarılan tüm fikir ve ilkelerin bu bakanlık tarafından toplamda onaylanması gerekmez.\n\nBlue Letter Kutsal Kitap çalışma araçları Kutsal Kitap'ı okumayı, araştırmayı ve çalışmayı kolay ve ödüllendirici hale getirir.\n\nBlue Letter Bible 501(c)(3) kar amacı gütmeyen bir kuruluştur\n\nTercih ettiğiniz Kutsal Kitap çevirilerinin sırasını Kutsal Kitaplar Sekmesi'nden Sürüm Seçici'ye (bu açılır pencere) kopyalayabilir ya da tam tersini yapabilirsiniz. Kutsal Kitaplar Sekmesi, Kutsal Kitap sayfalarındaki Araçlar özelliğinde bulunur:\n\nNot: MLA artık atıf standartlarının bir parçası olarak URL'yi zorunlu tutmamaktadır. Bireysel eğitmenler veya editörler yine de URL'lerin kullanılmasını isteyebilir.\n\nHata: Parolalar en az 6 karakterden oluşmalıdır\n\nHata: Kullanıcı adları yalnızca harf, rakam, nokta, tire veya alt çizgi içermelidir\n\nParolalar en az 6 karakterden oluşmalıdır.\n\t\t\t\t\t\t\tKullanıcı adları yalnızca harf, rakam, nokta, tire veya alt çizgi içermelidir.\n\nKaydolduğunuz için teşekkür ederiz. Verdiğiniz adrese bir doğrulama e-postası gönderildi.\n\nOrtaklığınız tüm yaptıklarımızı mümkün kılıyor. Bugün dua ederek bir destek hediyesi vermeyi düşünür müsünüz?",
-  "chapter_intro": "",
-  "passages": [],
+  "passages": [
+    {
+      "ref": "Ps. 13:5–6",
+      "title": "Ps. 13:5–6",
+      "text": "Tanrı'nın İsrail'le yaptığı antlaşmada (Çıkış 34:6) açıklandığı gibi, Tanrı'nın ** sarsılmaz sevgisine** güven, **kurtuluş** konusunda güvenilir bir beklentiye yol açar. Ps'yi karşılaştırın. 3:2 ve not ."
+    }
+  ],
   "notes": [
     {
       "ref": "Ps. 13",
-      "text": "Psalm . This is an individual lament. The worshiper is on the verge of despair."
+      "text": "**Mezmur** . Bu bireysel bir ağıttır. İbadet eden umutsuzluğun eşiğindedir."
     },
     {
       "ref": "Ps. 13:1",
-      "text": "How long? The question, repeated four times, is not asking for information but is expressing despair. If this psalm were a sermon, it would explain that the abandonment described here (forget, hide . . . face) is only apparent. But a song, whose goal is to describe feelings, does not need the same level of precision as a sermon."
+      "text": "**Ne kadar**? Dört kez tekrarlanan soru bilgi istemek değil, çaresizliği ifade etmektir. Eğer bu mezmur bir vaaz olsaydı, burada anlatılan terkedişin (**unut**, **sakla... yüzünü**) yalnızca görünürde olduğunu açıklayabilirdi. Ancak amacı duyguları anlatmak olan bir şarkının bir vaazla aynı düzeyde kesinliğe ihtiyacı yoktur."
     },
     {
       "ref": "Ps. 13:2",
-      "text": "The enemy is typically one who hates. The enemy’s hatred of the singer’s faithfulness leads him to gloat over the singer’s misfortunes."
+      "text": "**Düşman** genellikle nefret eden kişidir. Düşmanın şarkıcının sadakatine duyduğu nefret, onu şarkıcının talihsizliklerinden zevk almaya yöneltiyor."
     },
     {
       "ref": "Ps. 13:3",
-      "text": "For God to consider and answer would be for him to relieve the singer’s circumstances."
-    },
-    {
-      "ref": "Ps. 13:5–6",
-      "text": "Confidence in the steadfast love of God, as revealed in his covenant with Israel (Ex. 34:6), leads to a trusting expectation of salvation. Compare Ps. 3:2 and note."
+      "text": "Tanrı'nın **düşünmesi ve yanıtlaması**, şarkıcının durumunu hafifletmesi anlamına gelecektir."
     }
   ]
 }

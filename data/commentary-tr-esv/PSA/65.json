@@ -1,24 +1,27 @@
 {
-  "source": "ESV Global Study Bible (Crossway) — Türkçe çeviri — DeepL translator — Lisans kapsamında kullanılmaktadır",
+  "source": "ESV Global Study Bible (Crossway) — Türkçe çeviri — Google Translate — Lisans kapsamında kullanılmaktadır",
   "book_intro": "Blue Letter Bible bakanlığı ve BLB Enstitüsü, Kutsal Yazıların tahrif edilemezliğine olan kesin inancı da içeren tarihsel, muhafazakar Hristiyan inancına bağlıdır. BLB tarafından sağlanan metin ve ses içeriği çeşitli Evanjelik gelenekleri temsil ettiğinden, kaynak materyallerde aktarılan tüm fikir ve ilkelerin bu bakanlık tarafından toplamda onaylanması gerekmez.\n\nBlue Letter Kutsal Kitap çalışma araçları Kutsal Kitap'ı okumayı, araştırmayı ve çalışmayı kolay ve ödüllendirici hale getirir.\n\nBlue Letter Bible 501(c)(3) kar amacı gütmeyen bir kuruluştur\n\nTercih ettiğiniz Kutsal Kitap çevirilerinin sırasını Kutsal Kitaplar Sekmesi'nden Sürüm Seçici'ye (bu açılır pencere) kopyalayabilir ya da tam tersini yapabilirsiniz. Kutsal Kitaplar Sekmesi, Kutsal Kitap sayfalarındaki Araçlar özelliğinde bulunur:\n\nNot: MLA artık atıf standartlarının bir parçası olarak URL'yi zorunlu tutmamaktadır. Bireysel eğitmenler veya editörler yine de URL'lerin kullanılmasını isteyebilir.\n\nHata: Parolalar en az 6 karakterden oluşmalıdır\n\nHata: Kullanıcı adları yalnızca harf, rakam, nokta, tire veya alt çizgi içermelidir\n\nParolalar en az 6 karakterden oluşmalıdır.\n\t\t\t\t\t\t\tKullanıcı adları yalnızca harf, rakam, nokta, tire veya alt çizgi içermelidir.\n\nKaydolduğunuz için teşekkür ederiz. Verdiğiniz adrese bir doğrulama e-postası gönderildi.\n\nOrtaklığınız tüm yaptıklarımızı mümkün kılıyor. Bugün dua ederek bir destek hediyesi vermeyi düşünür müsünüz?",
-  "chapter_intro": "",
-  "passages": [],
-  "notes": [
-    {
-      "ref": "Ps. 65",
-      "text": "Psalm . This is a thanksgiving for a fruitful harvest (vv. 9–13), which has come because of God’s faithfulness to his covenant promises (vv. 1–8)."
-    },
+  "passages": [
     {
       "ref": "65:1–4",
-      "text": "These verses describe public worship at the central sanctuary. They celebrate God’s unlimited kindness and mercy to his people (you atone for our transgressions). The holiness of God’s temple brings delight to his people."
+      "title": "65:1–4",
+      "text": "Bu ayetler merkezi tapınaktaki toplu ibadeti anlatır. Tanrı'nın halkına karşı sınırsız nezaketini ve merhametini kutluyorlar (**suçlarımızın kefaretisiniz**). Tanrı'nın tapınağının **kutsallığı** halkına sevinç verir."
     },
     {
       "ref": "Ps. 65:5–8",
-      "text": "This section recalls the awesome deeds God has done for his people. The special focus is creation, which ties in well with the celebration of a fruitful harvest. The OT often expresses the truth that God as Creator is the hope of all the ends of the earth. He is the one true God whom all mankind should worship."
+      "title": "Ps. 65:5–8",
+      "text": "Bu bölümde Tanrı'nın halkı için yaptığı **harika işler** anlatılmaktadır. Özel odak noktası, verimli bir hasadın kutlanmasıyla iyi bir şekilde bağlantılı olan yaratımdır. Eski Antlaşma sıklıkla Tanrı'nın Yaratıcı olarak **dünyanın tüm uçlarının umudu** olduğu gerçeğini ifade eder. O, tüm insanlığın tapınması gereken tek gerçek Tanrı'dır."
     },
     {
       "ref": "Ps. 65:9–13",
-      "text": "The psalmist imagines what the ground itself would feel under God’s blessing. This is a land producing abundantly for man and beast."
+      "title": "Ps. 65:9–13",
+      "text": "Mezmur yazarı, Tanrı’nın bereketi altında toprağın nasıl hissedeceğini hayal ediyor. Burası insan ve hayvan için bol ürün veren bir ülke."
+    }
+  ],
+  "notes": [
+    {
+      "ref": "Ps. 65",
+      "text": "**Mezmur** . Bu, Tanrı'nın antlaşma vaatlerine (1-8 ayetler) sadık kalmasından dolayı gelen verimli bir hasat için bir şükrandır (9-13 ayetler)."
     }
   ]
 }

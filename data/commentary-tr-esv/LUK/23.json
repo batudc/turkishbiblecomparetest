@@ -1,146 +1,148 @@
 {
-  "source": "ESV Global Study Bible (Crossway) — Türkçe çeviri — DeepL translator — Lisans kapsamında kullanılmaktadır",
+  "source": "ESV Global Study Bible (Crossway) — Türkçe çeviri — Google Translate — Lisans kapsamında kullanılmaktadır",
   "book_intro": "Yazar, Tarih ve Alıcılar\n\nLuka bir doktordu (Kol. 4:14) ve elçi Pavlus'un yol arkadaşıydı. Bu İncil'i ve onun devamı olan Elçilerin İşleri kitabını yazmıştır. Luka-Elçilerin İşleri'nin olası en erken tarihi, Luka'nın Elçilerin İşleri 28'de kaydettiği olaylardan hemen sonradır ki, bu da yaklaşık M.S. 62 yılıdır. Hem Luka hem de Elçilerin İşleri hakkında başka bir şey bilinmeyen \"Teofilos \"a (Luka 1:3; Elçilerin İşleri 1:1) hitaben yazılmıştır. Luka'nın geniş dinleyici kitlesi öncelikle Teofilus gibi İsa hakkında \"öğretilmiş\" (Luka 1:4) olan Yahudi olmayan Hıristiyanlardan oluşuyordu.\n\nTema\n\nMüjde hem Yahudiler hem de Yahudi olmayanlar içindir, çünkü İsa, Eski Antlaşma'da peygamberlik edildiği ve Tanrı'nın İsa'nın yaşamı, ölümü ve dirilişindeki kurtarıcı faaliyetinde görüldüğü gibi Tanrı'nın vaat ettiği kişidir. Luka'nın okuyucularının aldığı Hıristiyan gelenekleri doğrudur; Tanrı'nın Oğlu İsa Mesih'e iman ederek, O'nu izleyen herkese vereceği vaat edilen Kutsal Ruh'u alacaklardır.\n\nAmaç\n\nLuka'nın yazarken muhtemelen birkaç amacı vardı: (1) okuyucularını kendilerine öğretilenlerin doğruluğu konusunda temin etmek; (2) İsrail'in İsa'yı reddetmesinin ve Yahudi olmayanların Tanrı'nın krallığına girmesinin Tanrı'nın planının bir parçası olduğunu anlamalarına yardımcı olmak; (3) İsa'nın bedensel dönüşünün hemen olacağını değil, dirilişi ile dönüşü arasında bir dönem olacağını öğrettiğini açıklığa kavuşturmak; ve (4) Roma gibi herhangi bir dünyevi güçten korkmamaları gerektiğini vurgulamak.\n\nAnahtar Temalar\n\nTanrı'nın tarih üzerindeki egemen yönetimi (13:33; 22:22; 42).\n\nTanrı'nın Egemenliği'nin gelişi ve gerçek varlığı (henüz tamamlanmamış olsa da) (11:2; 17:20-21; 21:34-36).\n\nİsa ve takipçileri için Kutsal Ruh'un gelişi ve varlığı (1:15-17; 35; 2:25-27; 3:16; 22; 4:1; 18; 24:49).\n\nİlklerin sonuncu ve sonuncuların ilk olduğu, gururluların alçaltıldığı ve alçakgönüllülerin yüceltildiği dünyada meydana gelen büyük değişim (1:48; 6:20-26; 13:30; 14:11).\n\nİnanlılar duayla dolu bir yaşam sürmeli ve sahip oldukları mallarla iyi bir kâhyalık yapmalıdırlar (6:12; 9:28-29; 11:1-4; 12:33-34; 18:1; 22:40).\n\nZenginlik tehlikesi (6:20-26; 8:14; 12:13-21; 16:10-13; 19-31).\n\nAnahatlar\n\nÖnsöz (1:1-4)\n\nBebeklik Anlatısı (1:5-2:52)\n\nİsa'nın Hizmeti İçin Hazırlık (3:1-4:15)\n\nİsa'nın Celile'deki Hizmeti (4:16-9:50)\n\nYeruşalim'e Yolculuk (9:51-19:27)\n\nİsa'nın Yeruşalim'deki Hizmeti (19:28-21:38)\n\nİsa'nın Acı Çekmesi ve Ölümü (22:1-23:56)\n\nİsa'nın Dirilişi (24:1-53)\n\nLuka'nın Ortamı\n\nLuka kitabındaki olayların neredeyse tamamı, kabaca kuzeyde Caesarea Philippi'den güneyde Beersheba'ya kadar uzanan bir bölge olan Filistin çevresinde geçer. Bu süre zarfında bölge Roma İmparatorluğu tarafından yönetilmekteydi. Başlangıç bölümleri İsa'nın, Hirodes'in Romalılar tarafından kral olarak atandığı Yahudiye'de doğumunu çevreleyen olayları anlatır. Kapanış bölümleri İsa'nın ölümü, dirilişi ve Pontius Pilatus ile Antipas ve Filipus tetrarklarının yönetimi sırasında göğe yükselişiyle sona erer.",
   "chapter_intro": "The Suffering and Death of Jesus.",
   "passages": [
     {
-      "ref": "Luke 22:1–23:56",
-      "title": "The Suffering and Death of Jesus.",
-      "text": "As Jesus’ death draws near, the scene shifts from the temple area to the city of Jerusalem. The emphasis shifts from Jesus’ teachings to events surrounding his death."
+      "ref": "Luke 23:1–5",
+      "title": "Luka 23:1–5",
+      "text": "Yalnızca Roma birini ölüme mahkum edebilirdi (Yuhanna 18:31), bu nedenle Sanhedrin İsa'yı Pilatus'a getirdi. Suçlamalar artık dinsel (“küfür”) olmaktan çıkıp siyasi suçlamalara dönüştü (Luka 23:2)."
+    },
+    {
+      "ref": "Luke 23:4–5",
+      "title": "Luka 23:4–5",
+      "text": "Bu ayetler Luka'ya özgüdür ve İsa'nın masumiyetini vurgulamaktadır. Pilatus'un **Hiçbir suçluluk duymuyorum** kararı vv'de tekrarlanıyor. 14–16 ve 22 . **onlar**. Başrahipler ve kalabalıklar."
+    },
+    {
+      "ref": "Luke 23:6–16",
+      "title": "Luka 23:6–16",
+      "text": "Bu açıklama yalnızca Luka'da bulunur (Elçilerin İşleri 4:27-28 ile karşılaştırın). Hem Pilatus hem de Hirodes Antipas İsa'yı suçsuz buldu (Luka 23:15)."
+    },
+    {
+      "ref": "Luke 23:27–31",
+      "title": "Luka 23:27–31",
+      "text": "İsa Zech'ten alıntı yapıyor. 12:10–14 . **günler geliyor**. Bakınız Luka 19:43; 21:6; 22–24 . **“Ne mutlu kısır olanlara**.**”** Bkz. 21:23'teki not. O günlerde çocuk sahibi olmamakla ilgili \"azarlanma\" (bkz. 1:25) bir nimet olacaktır. **\"Bize güvenin**.**\"** Hos'u karşılaştırın. 10:8; Vahiy 6:16. **yeşil . . . kuru**. Eğer Tanrı masum oğlunu (“yeşil” orman) esirgemediyse, Romalıların gazabını günahkâr bir ulusun (“kuru” orman) üzerine salmasına izin vermesi ne kadar daha kötü olacak?"
+    },
+    {
+      "ref": "Luke 23:39–43",
+      "title": "Luka 23:39–43",
+      "text": "Bu malzeme yalnızca Luka'da görülür. **Asılmış**, “çarmıha gerilmiş” kelimesinin eşanlamlısıdır (bkz. Elçilerin İşleri 5:30; ayrıca Yas. 21:22–23). **İsa, krallığına geldiğinde beni hatırla** hem bir rica hem de bir iman itirafıdır. **Cennet**, Tanrı'nın meskeni ve doğruların ebedi evi olan cennetin başka bir adıdır (bkz. 2 Korintliler 12:3)."
+    },
+    {
+      "ref": "Luke 23:44–45",
+      "title": "Luka 23:44–45",
+      "text": "**altıncı saat civarında. . . dokuzuncu saate kadar**. Öğleden 15.00'e kadar. (Mat. 27:45; Markos 15:33 ile karşılaştırın). **Karanlık** ağıtı (Amos 8:9–10) ve ilahi yargıyı (Çık. 10:21–23) temsil eder. Burada hem gerçek (**güneşin ışığı söndü**) hem de mecazi, muhtemelen İsa'nın halkı için Tanrı'nın gazabını taşıdığını gösteriyor (Yoel 2:2; Amos 5:18, 20; Zeph. 1:15 ile karşılaştırın). Aynı zamanda Tanrı'nın, Oğlunu çarmıha gerdiği için insanlık hakkındaki yargısını da ifade eder. Karanlığın nedeni güneş tutulması değildi (bkz. Matta 27:45 ile ilgili not). Kutsal Yer'den En Kutsal Yer'e giden **perde** **ikiye bölünmüştü** (bkz. Matta 27:51 ile ilgili not); bkz. İsa'nın Zamanındaki Herod Tapınağı."
+    },
+    {
+      "ref": "Luke 23:50–51",
+      "title": "Luka 23:50–51",
+      "text": "**Yusuf adında bir adam**. Matt hakkındaki nota bakınız. 27:57–60 . Dört İncil'de de geçen bu olay dışında kim olduğu bilinmiyor. **Arimathea**'nin yeri kesin değildir, ancak bazıları onu Ramah (veya Ramathaim-Zophim; bkz. 1 Sam. 1:19) olarak tanımlar. **Yahudi kasabasından** ifadesi, Luka'nın okuyucularının Yahudi olmayanlar olduğunu ima eder (bkz. Luka 1:26). **konseyin bir üyesi**. Sanhedrin. **İyi ve doğru bir adam** (1:6; 2:25 ile karşılaştırın) ve **Tanrı'nın krallığını aramak**, Yusuf'un bir inanlı olduğunu ima eder (Matta 27:57, onu \"İsa'nın bir öğrencisi\" olarak adlandırır)."
     }
   ],
   "notes": [
     {
-      "ref": "Luke 23:1–5",
-      "text": "Only Rome could sentence someone to death (John 18:31), so the Sanhedrin brought Jesus to Pilate. The charges are now changed from religious (“blasphemy”) to political ones (Luke 23:2)."
-    },
-    {
       "ref": "Luke 23:1",
-      "text": "the whole company of them. The “assembly” (Sanhedrin) of 22:66. before Pilate. See 3:1. Normally the seat of the Roman government in Judea was Caesarea, not Jerusalem. Pilate was in Jerusalem at Passover to prevent rebellious activities. The Gospels suggest that Pilate was willing to execute Jesus because of his desire to maintain public calm. Jewish sources considered Pilate’s reign to have been quite harsh, charging him with greed and cruelty (see 13:1). Josephus mentions Pilate bringing pagan Roman troops into Jerusalem and taking temple funds to build an aqueduct."
+      "text": "**tüm şirket**. 22:66'daki “toplantı” (Sanhedrin). **Pilatus'tan önce**. Bakınız 3:1. Normalde Roma hükümetinin Yahudiye'deki merkezi Kudüs değil Kayserya'ydı. Pilatus, isyankar faaliyetleri önlemek için Fısıh Bayramı'nda Yeruşalim'deydi. İnciller, Pilatus'un halkın huzurunu koruma arzusu nedeniyle İsa'yı idam etmeye istekli olduğunu öne sürüyor. Yahudi kaynakları Pilatus'un saltanatının oldukça sert olduğunu ve onu açgözlülük ve zulümle suçladığını düşünüyorlardı (bkz. 13:1). Josephus, Pilatus'un pagan Roma birliklerini Yeruşalim'e getirdiğinden ve bir su kemeri inşa etmek için tapınak fonlarını aldığından bahseder."
     },
     {
       "ref": "Luke 23:2",
-      "text": "began to accuse him. That is, bring formal charges against him. The religious reasons for Jesus’ condemnation would be of little interest to Rome, so the Sanhedrin changes them to political charges. The first charge, misleading our nation, involves seducing the nation away from loyalty to Rome. The second, forbidding . . . tribute to Caesar, is clearly false (see 20:20–26). The third is that he himself is Christ, a king (compare John 18:33, 36, 37). Jesus’ claims to kingship would be a direct challenge to Caesar."
+      "text": "**onu** **suçlamaya başladı**. Yani ona karşı resmi suçlamalarda bulunun. İsa'nın mahkûm edilmesinin dini nedenleri Roma'nın pek ilgisini çekmeyeceğinden, Sanhedrin bunları siyasi suçlamalara dönüştürdü. **Milletimizi yanıltmak** şeklindeki ilk suçlama, milleti Roma'ya bağlılıktan uzaklaştırmayı içeriyor. İkincisi, **yasaklamak. . . Sezar'a verilen haraç açıkça yanlıştır (bkz. 20:20-26). Üçüncüsü, <b>kendisinin bir kral olan Mesih olmasıdır** (Yuhanna 18:33, 36, 37 ile karşılaştırın). İsa'nın krallık iddiaları Sezar'a doğrudan bir meydan okuma olacaktı."
     },
     {
       "ref": "Luke 23:3",
-      "text": "Ignoring the first two charges, Pilate focuses on the third and asks, Are you the King of the Jews? Jesus’ answer, You have said so, repeats his earlier reply (see note on 22:70)."
-    },
-    {
-      "ref": "Luke 23:4–5",
-      "text": "These verses are unique to Luke and emphasize Jesus’ innocence. Pilate’s verdict I find no guilt is repeated in vv. 14–16 and 22. they. The chief priests and crowds."
-    },
-    {
-      "ref": "Luke 23:6–16",
-      "text": "This account is found only in Luke (compare Acts 4:27–28). Both Pilate and Herod Antipas found Jesus innocent (Luke 23:15)."
+      "text": "Pilatus ilk iki suçlamayı göz ardı ederek üçüncüye odaklanır ve sorar: **Yahudilerin Kralı mısın?** İsa'nın **Öyle söyledin** cevabı, daha önceki cevabını tekrarlar (bkz. 22:70'deki not)."
     },
     {
       "ref": "Luke 23:7",
-      "text": "On Herod Antipas, see notes on 3:1; Matt. 14:1."
+      "text": "**Herod** Antipas hakkında, 3:1 ile ilgili notlara bakınız; Mat. 14:1 ."
     },
     {
       "ref": "Luke 23:9",
-      "text": "Jesus made no answer. Jesus’ silence fulfills Isa. 53:7. It places the responsibility for his death squarely on his accusers."
+      "text": "İsa **hiçbir yanıt vermedi**. İsa’nın sessizliği İsa’yı tatmin ediyor. 53:7 . Ölümünün sorumluluğunu doğrudan kendisini suçlayanların üzerine yüklüyor."
     },
     {
       "ref": "Luke 23:11",
-      "text": "Herod and his soldiers dressed Jesus in splendid clothing (compare Mark 15:17–20) to mock his claim to kingship."
+      "text": "Hirodes ve askerleri, krallık iddiasıyla dalga geçmek için İsa'ya **muhteşem giysiler** giydirdiler (Markos 15:17–20 ile karşılaştırın)."
     },
     {
       "ref": "Luke 23:14",
-      "text": "did not find this man guilty. For the second time, Pilate acknowledges Jesus’ innocence."
+      "text": "**bu adamı suçlu bulmadık**. Pilatus ikinci kez İsa'nın masumiyetini kabul eder."
     },
     {
       "ref": "Luke 23:18",
-      "text": "they. The chief priests, the rulers, and the people who have been stirred up by them. Away with this man, and release . . . Barabbas assumes knowledge of the custom of releasing a prisoner at the Passover (see Matt. 27:15; Mark 15:6; and the esv footnote on Luke 23:16). “Away with him” essentially means “crucify him” (compare John 19:15; see also Luke 23:21). Barabbas was a notorious criminal who had committed robbery, treason, and murder."
+      "text": "**onlar**. Başkâhinler, yöneticiler ve onların kışkırttığı halk. <b>Bu adamdan uzaklaşın ve . . . Barabbas, Fısıh'ta bir mahkumun serbest bırakılması geleneği hakkında bilgi sahibi olduğunu varsayar (bkz. Matta 27:15; Markos 15:6; ve Luka 23:16'daki esv dipnotu). \"Ondan uzaklaşın\" aslında \"onu çarmıha germek\" anlamına gelir (Yuhanna 19:15 ile karşılaştırın; ayrıca bkz. Luka 23:21). Barabbas soygun, ihanet ve cinayet işleyen kötü şöhretli bir suçluydu."
     },
     {
       "ref": "Luke 23:22",
-      "text": "For the third time Pilate affirms Jesus’ innocence (compare vv. 4, 14–15)."
+      "text": "Pilatus **üçüncü kez** İsa'nın masumiyetini doğrular (4, 14-15 ayetlerle karşılaştırın)."
     },
     {
       "ref": "Luke 23:25",
-      "text": "Luke emphasizes that choosing Barabbas involved releasing one guilty of insurrection and murder and condemning Jesus. he delivered Jesus over to their will. See 9:44; 18:32; 24:7. Pilate gave in to the wishes of the crowd. He condemned Jesus to crucifixion, the Roman means of executing criminals convicted of high treason."
+      "text": "Luka, Barabbas'ı seçmenin, **isyan ve cinayetten** suçlu olan birini serbest bırakmayı ve İsa'yı kınamayı gerektirdiğini vurguluyor. **İsa'yı onların iradesine teslim etti**. 9:44'e bakın; 18:32; 24:7 . Pilatus kalabalığın isteklerine boyun eğdi. İsa'yı, Roma'nın vatana ihanetten suçlu bulunan suçluları infaz etme yöntemi olan çarmıha gerilmeye mahkum etti."
     },
     {
       "ref": "Luke 23:26",
-      "text": "they (the Roman soldiers) . . . seized one Simon of Cyrene. Cyrene was a region in North Africa with a large Jewish population. Simon was likely a Jew who had traveled to Jerusalem for the Passover. See notes on Mark 15:21; Acts 13:1. Since he already had been scourged (see notes on Matt. 27:26; Mark 15:15; John 19:1), Jesus’ physical condition may have prevented him from carrying the cross."
-    },
-    {
-      "ref": "Luke 23:27–31",
-      "text": "Jesus quotes from Zech. 12:10–14. the days are coming. See Luke 19:43; 21:6; 22–24. “Blessed are the barren.” See note on 21:23. In those days, the “reproach” of childlessness (see 1:25) will be a blessing. “Fall on us.” Compare Hos. 10:8; Rev. 6:16. green . . . dry. If God did not spare his innocent son (“green” wood), how much worse will it be when he allows the Romans to unleash his wrath on a sinful nation (“dry” wood)?"
+      "text": "**onlar** (Romalı askerler)** . . . Cyrene'li Simon'u ele geçirdi**. Cyrene, Kuzey Afrika'da büyük bir Yahudi nüfusunun yaşadığı bir bölgeydi. Simon muhtemelen Fısıh Bayramı için Yeruşalim'e seyahat eden bir Yahudiydi. Markos 15:21 ile ilgili notlara bakınız; Elçilerin İşleri 13:1 . Zaten kırbaçlanmış olduğundan (bkz. Matta 27:26; Markos 15:15; Yuhanna 19:1 ile ilgili notlar), İsa'nın fiziksel durumu onun **haçı** taşımasına engel olmuş olabilir."
     },
     {
       "ref": "Luke 23:32",
-      "text": "Two others . . . criminals fulfills the prophecy of Isa. 53:12."
+      "text": "<b>İki kişi daha . . . suçlular İsa'nın kehanetini yerine getiriyor. 53:12 ."
     },
     {
       "ref": "Luke 23:33",
-      "text": "The Skull. In Matthew it is also called Golgotha, a transliteration of the Aramaic word for “skull.” See notes on Matt. 27:33; John 19:17. In Matt. 27:38 and Mark 15:27 the criminals are called “robbers”; see note on Matt. 27:38."
+      "text": "**Kafatası**. Matta'da buna aynı zamanda Aramice \"kafatası\" anlamına gelen kelimenin harf çevirisi olan Golgotha ​​da denir. Matt hakkındaki notlara bakın. 27:33; Yuhanna 19:17. Matt'te. 27:38 ve Markos 15:27 **suçlulara** “soyguncu” deniyor; Matt hakkındaki nota bakınız. 27:38 ."
     },
     {
       "ref": "Luke 23:34",
-      "text": "They cast lots to divide his garments is a clear reference to Ps. 22:18. Casting lots was sometimes used in the OT to discover God’s will, but here it is a form of gambling by the Roman guards. Father, forgive them, for they know not what they do. Jesus follows his own teaching about loving one’s enemies (see Luke 6:35). His death was the basis upon which those who crucified him could be forgiven (Isa. 53:12). “They know not what they do” does not take away the responsibility of the religious or political leaders for Jesus’ death, but it shows that they did not fully understand the horrible evil that they were doing in crucifying the “Holy and Righteous One” (Acts 3:14)."
+      "text": "**Giysilerini bölmek için kura çektiler**, Ps.'ye açık bir göndermedir. 22:18 . Eski Antlaşma'da kura çekmek bazen Tanrı'nın iradesini ortaya çıkarmak için kullanılırdı, ancak burada bu, Romalı muhafızlar tarafından oynanan bir tür kumardır. **Baba, onları affet çünkü ne yaptıklarını bilmiyorlar**. İsa, kişinin düşmanlarını sevmesi konusunda kendi öğretisini takip ediyor (bkz. Luka 6:35). Onun ölümü, onu çarmıha gerenlerin affedilebilmesinin temeliydi (Yeşaya 53:12). \"Ne yaptıklarını bilmiyorlar\" ifadesi dini veya siyasi liderlerin İsa'nın ölümündeki sorumluluğunu ortadan kaldırmaz, ancak onların \"Kutsal ve Adil Olanı\" çarmıha gererken yaptıkları korkunç kötülüğü tam olarak anlamadıklarını gösterir (Elçilerin İşleri 3:14)."
     },
     {
       "ref": "Luke 23:35",
-      "text": "Luke contrasts the behavior of the Jewish crowds (the people stood by; compare v. 48) and the Sanhedrin (but the rulers scoffed). The highest levels of Israel’s establishment seek one more opportunity to insult Jesus. He saved others; let him save himself. Compare Ps. 22:7–8. This is the first of three similar taunts (see Luke 23:37, 39). Christ of God. Christ means “Messiah” or “Anointed One.”"
+      "text": "Luka, Yahudi kalabalıkların (**halk yanında durdu**; karşılaştırın ayet 48) ve Sanhedrin'in (**ancak yöneticiler alay etti**) davranışlarını karşılaştırıyor. İsrail kurumunun en üst kademeleri İsa'ya hakaret etmek için bir fırsat daha arıyor. **Başkalarını kurtardı; bırakın kendini kurtarsın**. Ps'yi karşılaştırın. 22:7–8 . Bu, benzer üç alaydan ilkidir (bkz. Luka 23:37, 39). **Tanrı'nın Mesih'i**. Mesih, “Mesih” veya “Meshedilmiş Kişi” anlamına gelir."
     },
     {
       "ref": "Luke 23:36",
-      "text": "The soldiers also mocked him . . . offering him sour wine. This “wine vinegar” was the ordinary wine soldiers drank. Giving him a drink would keep him alive and continue his suffering."
+      "text": "**Askerler** **ayrıca onunla alay ettiler. . . ona ekşi şarap ikram ediyor**. Bu “şarap sirkesi” askerlerin içtiği sıradan şaraptı. Ona bir içki vermek onu hayatta tutacak ve acı çekmeye devam edecektir."
     },
     {
       "ref": "Luke 23:38",
-      "text": "It was customary for the charge against an executed person to be displayed prominently (inscription; see notes on Matt. 27:37; Mark 15:26; John 19:20). Over him suggests the cross was shaped like a lowercase “t.” Jesus was crucified on political grounds for claiming to be the Messiah, the King of the Jews."
-    },
-    {
-      "ref": "Luke 23:39–43",
-      "text": "This material occurs only in Luke. Hanged is a synonym for “crucified” (see Acts 5:30; also Deut. 21:22–23). Jesus, remember me when you come into your kingdom is both a plea and a confession of faith. Paradise is another name for heaven, the dwelling place of God and eternal home of the righteous (see 2 Cor. 12:3)."
-    },
-    {
-      "ref": "Luke 23:44–45",
-      "text": "about the sixth hour . . . until the ninth hour. Noon until 3:00 p.m. (compare Matt. 27:45; Mark 15:33). Darkness represents lament (Amos 8:9–10) and divine judgment (Ex. 10:21–23). Here it is both literal (the sun’s light failed) and figurative, probably signifying that Jesus was bearing God’s wrath for his people (compare Joel 2:2; Amos 5:18, 20; Zeph. 1:15). It also expresses God’s judgment upon humanity for crucifying his Son. The darkness was not caused by a solar eclipse (see note on Matt. 27:45). The curtain leading from the Holy Place into the Most Holy Place was torn in two (see note on Matt. 27:51); see Herod’s Temple in the Time of Jesus."
+      "text": "İdam edilen bir kişiye yöneltilen suçlamanın belirgin bir şekilde sergilenmesi gelenekti (**yazıt**; bkz. Matta 27:37; Markos 15:26; Yuhanna 19:20 ile ilgili notlar). **Üstünde** haçın küçük \"t\" harfi şeklinde olduğu anlaşılıyor. İsa, **Yahudilerin Kralı** Mesih olduğunu iddia ettiği için siyasi gerekçelerle çarmıha gerildi."
     },
     {
       "ref": "Luke 23:46",
-      "text": "I commit my spirit! Jesus’ own human spirit returned to the presence of God the Father (see note on John 19:30; also see Ps. 31:5; Eccles. 12:7; Acts 7:59). having said this he breathed his last. See note on John 10:17."
+      "text": "**Ruhumu teslim ediyorum!** İsa'nın kendi insan ruhu, Baba Tanrı'nın huzuruna geri döndü (bkz. Yuhanna 19:30 ile ilgili not; ayrıca bkz. Mezmur 31:5; Vaiz. 12:7; Elçilerin İşleri 7:59). **bunu söyledikten sonra son nefesini verdi**. Yuhanna 10:17 ile ilgili nota bakın."
     },
     {
       "ref": "Luke 23:47",
-      "text": "A centurion is a Roman officer in charge of a hundred men. Certainly this man was innocent. A final expression of Jesus’ innocence (compare v. 41; Matt. 27:54; Mark 15:39)."
+      "text": "**Yüzbaşı** yüz adamdan sorumlu Romalı bir subaydır. **Kesinlikle bu adam masumdu**. İsa'nın masumiyetinin son bir ifadesi (41. ayetle karşılaştırın; Matta 27:54; Markos 15:39)."
     },
     {
       "ref": "Luke 23:48",
-      "text": "beating their breasts. A sign of grief and repentance (compare 18:13)."
+      "text": "**göğüslerini dövüyorlar**. Bir keder ve tövbe işareti (18:13 ile karşılaştırın)."
     },
     {
       "ref": "Luke 23:49",
-      "text": "all his acquaintances. Jesus’ relatives, friends, and disciples. The women (see 8:1–3) are singled out because of their role in the resurrection account (23:55–56; 24:1–12; see John 19:25–27 and note on John 19:25)."
-    },
-    {
-      "ref": "Luke 23:50–51",
-      "text": "a man named Joseph. See note on Matt. 27:57–60. He is unknown except for this incident, recorded in all four Gospels. The location of Arimathea is not certain, though some identify it as Ramah (or Ramathaim-Zophim; see 1 Sam. 1:19). From the Jewish town implies that Luke’s readers were Gentiles (see Luke 1:26). a member of the council. The Sanhedrin. A good and righteous man (compare 1:6; 2:25) and looking for the kingdom of God imply that Joseph was a believer (Matt. 27:57 calls him “a disciple of Jesus”)."
+      "text": "**tüm tanıdıkları**. İsa'nın akrabaları, arkadaşları ve öğrencileri. ** Kadınlar** (bkz. 8:1–3) diriliş kaydındaki rolleri nedeniyle seçilmiştir (23:55–56; 24:1–12; bkz. Yuhanna 19:25–27 ve Yuhanna 19:25 ile ilgili not)."
     },
     {
       "ref": "Luke 23:52",
-      "text": "went to Pilate and asked. As a member of the Sanhedrin, Joseph had greater access to the governor. His request would raise less suspicion and hostility than if Jesus’ family or the disciples had asked."
+      "text": "**Pilatus'a gitti ve sordu**. Sanhedrin'in bir üyesi olarak Yusuf'un valiye erişimi daha fazlaydı. Onun isteği, İsa'nın ailesinin ya da öğrencilerinin sormasına kıyasla daha az şüphe ve düşmanlık uyandıracaktı."
     },
     {
       "ref": "Luke 23:53",
-      "text": "Then he took it down. Joseph supervised the removal of Jesus’ body from the cross. a tomb cut in stone. Joseph’s own tomb (Matt. 27:60; see note on Mark 15:46). Thus Jesus is buried in a rich man’s tomb (fulfilling Isa. 53:9). where no one had . . . been laid. Compare John 19:41."
+      "text": "**Sonra onu kaldırdı**. Yusuf, İsa'nın bedeninin çarmıhtan indirilmesine nezaret etti. **taşa oyulmuş bir mezar**. Joseph'in kendi mezarı (Mat. 27:60; bkz. Markos 15:46 ile ilgili not). Böylece İsa zengin bir adamın mezarına gömüldü (Yeşaya 53:9 yerine geliyor). **hiç kimsenin olmadığı bir yerde. . . döşendi**. Yuhanna 19:41'i karşılaştırın."
     },
     {
       "ref": "Luke 23:54",
-      "text": "The day of Preparation was the day before the Sabbath, Friday (see notes on John 19:14; 19:31; 19:42)."
+      "text": "**Hazırlık günü**, **Şabat**'tan önceki gündü, yani Cuma (Yuhanna 19:14; 19:31; 19:42 ile ilgili notlara bakın)."
     },
     {
       "ref": "Luke 23:55",
-      "text": "The women . . . followed and saw the tomb, so that they could return to it later (see 24:1)."
+      "text": "<b>Kadınlar . . . daha sonra geri dönebilsinler diye mezarı takip edip gördüler (bkz. 24:1)."
     },
     {
       "ref": "Luke 23:56",
-      "text": "Because they thought the body was not properly prepared, the women (whom Mark 16:1 identifies as “Mary Magdalene, Mary the mother of James, and Salome”) prepared spices and ointments."
+      "text": "Vücudun uygun şekilde hazırlanmadığını düşündükleri için kadınlar (Markos 16:1'de \"Mecdelli Meryem, Yakup'un annesi Meryem ve Salome\" olarak tanımlanır) **baharatlar ve merhemler hazırladılar**."
     }
   ]
 }

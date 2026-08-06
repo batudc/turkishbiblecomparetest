@@ -1,100 +1,103 @@
 {
-  "source": "ESV Global Study Bible (Crossway) — Türkçe çeviri — DeepL translator — Lisans kapsamında kullanılmaktadır",
+  "source": "ESV Global Study Bible (Crossway) — Türkçe çeviri — Google Translate — Lisans kapsamında kullanılmaktadır",
   "book_intro": "Blue Letter Bible bakanlığı ve BLB Enstitüsü, Kutsal Yazıların tahrif edilemezliğine olan kesin inancı da içeren tarihsel, muhafazakar Hristiyan inancına bağlıdır. BLB tarafından sağlanan metin ve ses içeriği çeşitli Evanjelik gelenekleri temsil ettiğinden, kaynak materyallerde aktarılan tüm fikir ve ilkelerin bu bakanlık tarafından toplamda onaylanması gerekmez.\n\nBlue Letter Kutsal Kitap çalışma araçları Kutsal Kitap'ı okumayı, araştırmayı ve çalışmayı kolay ve ödüllendirici hale getirir.\n\nBlue Letter Bible 501(c)(3) kar amacı gütmeyen bir kuruluştur\n\nTercih ettiğiniz Kutsal Kitap çevirilerinin sırasını Kutsal Kitaplar Sekmesi'nden Sürüm Seçici'ye (bu açılır pencere) kopyalayabilir ya da tam tersini yapabilirsiniz. Kutsal Kitaplar Sekmesi, Kutsal Kitap sayfalarındaki Araçlar özelliğinde bulunur:\n\nNot: MLA artık atıf standartlarının bir parçası olarak URL'yi zorunlu tutmamaktadır. Bireysel eğitmenler veya editörler yine de URL'lerin kullanılmasını isteyebilir.\n\nHata: Parolalar en az 6 karakterden oluşmalıdır\n\nHata: Kullanıcı adları yalnızca harf, rakam, nokta, tire veya alt çizgi içermelidir\n\nParolalar en az 6 karakterden oluşmalıdır.\n\t\t\t\t\t\t\tKullanıcı adları yalnızca harf, rakam, nokta, tire veya alt çizgi içermelidir.\n\nKaydolduğunuz için teşekkür ederiz. Verdiğiniz adrese bir doğrulama e-postası gönderildi.\n\nOrtaklığınız tüm yaptıklarımızı mümkün kılıyor. Bugün dua ederek bir destek hediyesi vermeyi düşünür müsünüz?",
-  "chapter_intro": "",
-  "passages": [],
-  "notes": [
-    {
-      "ref": "Ps. 119",
-      "text": "Psalm . This psalm celebrates the gift of God’s law as the perfect guide for life. Its theme is echoed in Psalm 19 and in such wisdom psalms as 1 and 112. It is the longest psalm (and the longest chapter in the Bible, longer than many of the books) and the most carefully structured. By singing and praying this psalm, one expresses heartfelt admiration to God, who has so lovingly provided the law as a great gift for his people. One also voices a deep desire that one’s personal life would reflect the loveliness and goodness of the law. The psalm is in an acrostic pattern (see esv footnote at 119:1). There are 22 stanzas of eight verses each, following the 22 letters of the Hebrew alphabet in order. Within a stanza, the first word of each verse begins with the letter for that stanza. The psalm uses a number of terms for God’s covenantal revelation: “law” (v. 1, instruction); “testimonies” (v. 2, what God solemnly declares to be his will); “precepts” (v. 4, what God has appointed to be done); “statutes” (v. 5, what the divine Lawgiver has laid down); “commandments” (v. 6, what God has commanded); “rules” (v. 7, what the divine Judge has ruled to be right); “word” (v. 9, what God has spoken)."
-    },
-    {
-      "ref": "Ps. 119:1",
-      "text": "Blessed. See note on 1:1. blameless. See note on 15:2–5."
-    },
-    {
-      "ref": "Ps. 119:2",
-      "text": "seek. See vv. 10, 45, 94, 155. with their whole heart. See v. 10 and Deut. 4:29."
-    },
-    {
-      "ref": "Ps. 119:5",
-      "text": "The goal of the whole psalm is that each member of the congregation would share in this desire."
-    },
-    {
-      "ref": "Ps. 119:18",
-      "text": "Open my eyes. Give me insight beyond my abilities. wondrous things out of your law. Probably the great deeds recorded there and what they reveal of God himself (see v. 27; Ex. 3:20; Josh. 3:5; Ps. 78:32; 145:5)."
-    },
-    {
-      "ref": "Ps. 119:21",
-      "text": "insolent, accursed ones. In the psalm, these are Israelites who reject the covenant, who wander from God’s commandments. See vv. 51; 69; 78; 85; 122; 86:14."
-    },
-    {
-      "ref": "Ps. 119:23",
-      "text": "princes. In this psalm, these are rulers among God’s people. They might use their power to control the faithful. See vv. 84, 86–87, 121–122, 134, 150, 157, 161."
-    },
-    {
-      "ref": "Ps. 119:32",
-      "text": "enlarge my heart. Or “make my heart broad.” See 1 Kings 4:29, where “breadth of heart or mind” is an expanded ability to understand God’s truth."
-    },
-    {
-      "ref": "Ps. 119:36",
-      "text": "Incline my heart. As in v. 5, the singer knows that God must supply the deepest motivation; see v. 112; also 141:4; 1 Kings 8:58."
-    },
-    {
-      "ref": "Ps. 119:41",
-      "text": "steadfast love. A recurring theme of the psalm (vv. 64, 76, 88, 124, 149, 159). It is the genuine experience of God’s grace and mercy that inspires the faithful to seek his moral guidance (see notes on 25:6–7; 25:8–11). salvation. See note on 3:2."
-    },
-    {
-      "ref": "Ps. 119:57",
-      "text": "my portion. See note on 16:5–6."
-    },
+  "passages": [
     {
       "ref": "Ps. 119:59–60",
-      "text": "When I think on my ways. The believer considers his own character and conduct, in order to bring them into greater obedience to God’s commandments."
+      "title": "Ps. 119:59–60",
+      "text": "**Yollarım üzerinde düşündüğümde**. Mümin, Allah'ın emirlerine daha fazla itaat etmesini sağlamak için kendi karakterini ve davranışlarını göz önünde bulundurur."
     },
     {
       "ref": "Ps. 119:76–77",
-      "text": "steadfast love . . . mercy. See Ex. 34:6."
-    },
-    {
-      "ref": "Ps. 119:83",
-      "text": "like a wineskin in the smoke. An unused wineskin, hanging in the rafters, becomes shriveled by the smoke. It is an image of one’s health “drying up.”"
+      "title": "Ps. 119:76–77",
+      "text": "**kararlı aşk. . . merhamet**. Örn. 34:6 ."
     },
     {
       "ref": "Ps. 119:98–100",
-      "text": "wiser . . . more understanding . . . understand more. Because, in the setting of the psalm, neither my enemies nor my teachers nor the aged attend carefully to God’s word."
+      "title": "Ps. 119:98–100",
+      "text": "**daha akıllı. . . daha anlayışlı. . . daha fazlasını anlayın**. Çünkü mezmurun sahnelenmesinde ne **düşmanlarım**, ne **öğretmenlerim** ne de ** yaşlılar** Tanrı'nın sözüne dikkatle kulak verirler."
+    }
+  ],
+  "notes": [
+    {
+      "ref": "Ps. 119",
+      "text": "**Mezmur** . Bu mezmur, yaşam için mükemmel bir rehber olan Tanrı'nın kanun armağanını kutluyor. Bu tema Mezmur 19'da ve 1 ve 112. gibi bilgelik mezmurlarında da yankılanmaktadır. Bu, en uzun mezmurdur (ve İncil'deki en uzun bölümdür, birçok kitaptan daha uzundur) ve en dikkatli şekilde yapılandırılmıştır. Kişi bu mezmuru söyleyerek ve dua ederek, yasayı halkına büyük bir hediye olarak büyük bir sevgiyle sağlayan Tanrı'ya olan içten hayranlığını ifade eder. Kişi aynı zamanda kişisel yaşamının yasanın güzelliğini ve iyiliğini yansıtması yönündeki derin arzusunu da dile getiriyor. Mezmur akrostiş şeklindedir (bkz. 119:1'deki esv dipnotu). İbrani alfabesinin 22 harfini takip eden, her biri sekiz ayetten oluşan 22 kıta vardır. Bir kıtada her ayetin ilk kelimesi o kıtanın harfiyle başlar. Mezmur, Tanrı'nın antlaşma vahiyi için bir dizi terim kullanır: \"yasa\" (ayet 1, talimat); “tanıklıklar” (ayet 2, Tanrı'nın kendi iradesi olduğunu ciddiyetle beyan ettiği şeyler); “kurallar” (ayet 4, Tanrı'nın yapılmasını emrettiği şeyler); “kanunlar” (ayet 5, ilahi Kanun Koyucunun ortaya koyduğu şeyler); “emirler” (ayet 6, Tanrı'nın emrettiği); “kurallar” (ayet 7, ilahi Yargıcın doğru olduğuna hükmettiği şeyler); “söz” (ayet 9, Tanrı'nın söylediği şey)."
+    },
+    {
+      "ref": "Ps. 119:1",
+      "text": "**Kutsanmış**. 1:1'deki nota bakınız. **suçsuz**. 15:2–5 ile ilgili nota bakınız."
+    },
+    {
+      "ref": "Ps. 119:2",
+      "text": "**arayın**. Bkz. vv. 10, 45, 94, 155. **tüm kalpleriyle**. Bkz. ayet 10 ve Tesniye. 4:29."
+    },
+    {
+      "ref": "Ps. 119:5",
+      "text": "Bütün mezmurun amacı cemaatin her üyesinin bu arzuyu paylaşmasıdır."
+    },
+    {
+      "ref": "Ps. 119:18",
+      "text": "**Gözlerimi aç**. Bana yeteneklerimin ötesinde bir fikir ver. **yasalarınızın dışında harika şeyler**. Muhtemelen orada kaydedilen büyük işler ve bizzat Tanrı'nın açığa vurduğu şeyler (bkz. ayet 27; Çıkış 3:20; Yeşu. 3:5; Mezmur 78:32; 145:5)."
+    },
+    {
+      "ref": "Ps. 119:21",
+      "text": "**küstah, lanetli olanlar**. Mezmurda bunlar, antlaşmayı reddeden, Tanrı'nın emirlerinden sapan İsrailoğullarıdır. Bkz. vv. 51; 69; 78; 85; 122; 86:14 ."
+    },
+    {
+      "ref": "Ps. 119:23",
+      "text": "**prensler**. Bu mezmurda bunlar, Tanrı’nın halkı arasındaki hükümdarlardır. Güçlerini sadıkları kontrol etmek için kullanabilirler. Bkz. vv. 84, 86–87, 121–122, 134, 150, 157, 161."
+    },
+    {
+      "ref": "Ps. 119:32",
+      "text": "**kalbimi genişlet**. Veya “kalbimi genişlet.” 1. Krallar 4:29'a bakın; burada \"yüreğin veya zihnin genişliği\", Tanrı'nın hakikatini anlama konusunda genişletilmiş bir yetenektir."
+    },
+    {
+      "ref": "Ps. 119:36",
+      "text": "**Kalbimi eğdir**. 5. ayette olduğu gibi şarkıcı, en derin motivasyonu Tanrı'nın sağlaması gerektiğini biliyor; bkz. v.112; ayrıca 141:4; 1 Krallar 8:58 ."
+    },
+    {
+      "ref": "Ps. 119:41",
+      "text": "**kararlı aşk**. Mezmurun yinelenen teması (64, 76, 88, 124, 149, 159 ayetler). İnanlıları O'nun ahlaki rehberliğini aramaya teşvik eden şey, Tanrı'nın lütfunun ve merhametinin gerçek deneyimidir (bkz. 25:6–7; 25:8–11 ile ilgili notlar). **kurtuluş**. 3:2'deki nota bakınız."
+    },
+    {
+      "ref": "Ps. 119:57",
+      "text": "**benim payıma**. 16:5–6 ile ilgili nota bakınız."
+    },
+    {
+      "ref": "Ps. 119:83",
+      "text": "**duman içindeki şarap tulumu gibi**. Kirişlerde asılı duran kullanılmamış bir şarap tulumu dumandan büzüşüyor. Bu, kişinin sağlığının “kuruduğunun” bir görüntüsüdür."
     },
     {
       "ref": "Ps. 119:105",
-      "text": "lamp . . . light. See note on 112:4."
+      "text": "**lamba . . . ışık**. 112:4 ile ilgili nota bakınız."
     },
     {
       "ref": "Ps. 119:113",
-      "text": "double-minded. See 1 Kings 18:21. These are people who should be devoted to the Lord but who allow their loyalties to be divided. The strong terms hate and love refer not so much to emotions as to deliberate rejection and obedience. See Ps. 119:158; see also v. 118, where this reflects God’s own attitude."
+      "text": "**iki fikirli**. 1. Krallar 18:21'e bakın. Bunlar Rabbine bağlı olması gereken ama sadakatlerinin bölünmesine izin veren insanlardır. Güçlü **nefret** ve **sevgi** terimleri duygulara değil, kasıtlı reddetme ve itaate gönderme yapar. Bkz. 119:158; ayrıca bkz. ayet 118, burada bu, Tanrı'nın kendi tutumunu yansıtmaktadır."
     },
     {
       "ref": "Ps. 119:126",
-      "text": "time for the Lord to act. When God’s law has been broken by his own people and they seem to get away with it, it seems that God is inactive. This is a prayer that he would prove his own justice for the sake of his faithful."
+      "text": "**Rab'bin harekete geçme zamanı**. Tanrı'nın **yasası kendi halkı tarafından çiğnendiğinde** ve onlar bundan paçayı sıyırmış gibi göründüğünde, Tanrı hareketsiz görünüyor. Bu onun müminlerinin uğruna kendi adaletini ispat etmesi için yaptığı bir duadır."
     },
     {
       "ref": "Ps. 119:129",
-      "text": "wonderful. Far beyond merely human in their origin and excellence (see 139:6)."
+      "text": "**harika**. Kökeni ve mükemmelliği bakımından sadece insanın çok ötesindedir (bkz. 139:6)."
     },
     {
       "ref": "Ps. 119:130",
-      "text": "The unfolding of your words. As they are pondered, explained, and understood, they give insight and understanding."
+      "text": "**Sözlerinizin ortaya çıkışı**. Düşünüldükçe, açıklandıkça ve anlaşıldıkça içgörü ve anlayış verirler."
     },
     {
       "ref": "Ps. 119:155",
-      "text": "For they do not seek implies that the cause is not God’s stinginess but their refusal."
+      "text": "**Aramıyorlar** ifadesi, sebebin Allah'ın cimriliği değil, onların inkârı olduğunu ima etmektedir."
     },
     {
       "ref": "Ps. 119:168",
-      "text": "all my ways are before you. God is well aware of every detail of one’s life. This is good motivation to keep a clear conscience (Eccles. 12:14; Matt. 12:36; Acts 24:15–16)."
+      "text": "**tüm yollarım senin önünde**. Allah, insanın hayatının her ayrıntısını çok iyi bilendir. Bu, vicdanınızı temiz tutmak için iyi bir motivasyondur (Eccles. 12:14; Matta 12:36; Elçilerin İşleri 24:15–16)."
     },
     {
       "ref": "Ps. 119:176",
-      "text": "I have gone astray like a lost sheep. A humble person praying this recognizes his need for God’s grace, forgiveness, and steadfast love (see note on v. 41). He asks God to seek him. One who has received this grace will not easily forget God’s commandments."
+      "text": "**Kayıp bir koyun gibi yoldan saptım**. Bu şekilde dua eden alçakgönüllü bir kişi, Tanrı'nın lütfuna, bağışlayıcılığına ve sarsılmaz sevgisine olan ihtiyacının farkına varır (bkz. ayet 41'deki not). Tanrı'dan onu **aramasını** ister. Bu lütfu alan kişi, Tanrı'nın **emirlerini** kolayca **unutmayacaktır**."
     }
   ]
 }

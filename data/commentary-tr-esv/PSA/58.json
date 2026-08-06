@@ -1,28 +1,30 @@
 {
-  "source": "ESV Global Study Bible (Crossway) — Türkçe çeviri — DeepL translator — Lisans kapsamında kullanılmaktadır",
+  "source": "ESV Global Study Bible (Crossway) — Türkçe çeviri — Google Translate — Lisans kapsamında kullanılmaktadır",
   "book_intro": "Blue Letter Bible bakanlığı ve BLB Enstitüsü, Kutsal Yazıların tahrif edilemezliğine olan kesin inancı da içeren tarihsel, muhafazakar Hristiyan inancına bağlıdır. BLB tarafından sağlanan metin ve ses içeriği çeşitli Evanjelik gelenekleri temsil ettiğinden, kaynak materyallerde aktarılan tüm fikir ve ilkelerin bu bakanlık tarafından toplamda onaylanması gerekmez.\n\nBlue Letter Kutsal Kitap çalışma araçları Kutsal Kitap'ı okumayı, araştırmayı ve çalışmayı kolay ve ödüllendirici hale getirir.\n\nBlue Letter Bible 501(c)(3) kar amacı gütmeyen bir kuruluştur\n\nTercih ettiğiniz Kutsal Kitap çevirilerinin sırasını Kutsal Kitaplar Sekmesi'nden Sürüm Seçici'ye (bu açılır pencere) kopyalayabilir ya da tam tersini yapabilirsiniz. Kutsal Kitaplar Sekmesi, Kutsal Kitap sayfalarındaki Araçlar özelliğinde bulunur:\n\nNot: MLA artık atıf standartlarının bir parçası olarak URL'yi zorunlu tutmamaktadır. Bireysel eğitmenler veya editörler yine de URL'lerin kullanılmasını isteyebilir.\n\nHata: Parolalar en az 6 karakterden oluşmalıdır\n\nHata: Kullanıcı adları yalnızca harf, rakam, nokta, tire veya alt çizgi içermelidir\n\nParolalar en az 6 karakterden oluşmalıdır.\n\t\t\t\t\t\t\tKullanıcı adları yalnızca harf, rakam, nokta, tire veya alt çizgi içermelidir.\n\nKaydolduğunuz için teşekkür ederiz. Verdiğiniz adrese bir doğrulama e-postası gönderildi.\n\nOrtaklığınız tüm yaptıklarımızı mümkün kılıyor. Bugün dua ederek bir destek hediyesi vermeyi düşünür müsünüz?",
-  "chapter_intro": "",
-  "passages": [],
-  "notes": [
-    {
-      "ref": "Ps. 58",
-      "text": "Psalm . This is a community lament that God’s people sing when they are confronted with injustice among their own rulers. Singing this in worship (1) helps the faithful to pray more earnestly for godly leadership; (2) helps form in the leaders themselves a true moral compass for their leadership; and (3) celebrates the prospect that—one day, sooner or later—God will vindicate his justice in the world, and those who trust him will rejoice exceedingly."
-    },
-    {
-      "ref": "Ps. 58:1",
-      "text": "You gods (or “mighty lords”; see esv footnote) can refer to human rulers to whom God gives power (compare Ex. 15:15, “leaders”; Job 41:25, “mighty”; Ezek. 32:21, “chiefs”)."
-    },
+  "passages": [
     {
       "ref": "Ps. 58:3–5",
-      "text": "The song calls these unjust rulers wicked. This term, when applied to an Israelite, describes someone who does not honor God. They are Israelites who are using their position to squeeze the life out of their fellow Israelites (employing lies as well as “violence,” v. 2). By doing this they destroy the community, every bit as much as the venom of a dangerous serpent destroys the one it bites."
-    },
-    {
-      "ref": "Ps. 58:6",
-      "text": "teeth in their mouths, fangs of the young lions. The verse is a prayer that these evildoers may no longer have their present power to do harm."
+      "title": "Ps. 58:3–5",
+      "text": "Şarkı bu adaletsiz hükümdarları **kötü** olarak adlandırıyor. Bu terim bir İsrailli için kullanıldığında Tanrı'yı ​​onurlandırmayan birini tanımlar. Onlar, konumlarını İsrailli kardeşlerinin canını sıkmak için kullanan İsraillilerdir (hem \"şiddet\"in yanı sıra yalana da başvurmaktadırlar, ayet 2). Bunu yaparak, tehlikeli bir **yılanın** zehrinin ısırdığını yok ettiği kadar, onlar da topluluğu yok ederler."
     },
     {
       "ref": "Ps. 58:10–11",
-      "text": "God loves to see his creation functioning properly, which is why he loves justice. The righteous may suffer now, but they can know that one day God will bring justice in the world (see Gal. 6:9)."
+      "title": "Ps. 58:10–11",
+      "text": "Tanrı, yarattıklarının düzgün işlediğini görmekten hoşlanır, bu yüzden adaleti sever. **Doğru kişiler** şimdi acı çekebilir, ancak Tanrı'nın bir gün dünyaya adaleti getireceğini bilebilir (bkz. Gal. 6:9)."
+    }
+  ],
+  "notes": [
+    {
+      "ref": "Ps. 58",
+      "text": "**Mezmur** . Bu, Tanrı'nın halkının kendi yöneticileri arasında adaletsizlikle karşılaştıklarında söylediği bir topluluk ağıtıdır. İbadet sırasında bunu söylemek (1), imanlıların tanrısal liderlik için daha ciddiyetle dua etmelerine yardımcı olur; (2) liderlerin kendi içlerinde, liderlikleri için gerçek bir ahlaki pusula oluşturmalarına yardımcı olur; ve (3) Tanrı'nın er ya da geç bir gün dünyada adaletini haklı çıkaracağı ve O'na güvenenlerin fazlasıyla sevineceği beklentisini kutluyor."
+    },
+    {
+      "ref": "Ps. 58:1",
+      "text": "**Siz tanrılar** (ya da \"güçlü efendiler\"; bkz. esv dipnotu) Tanrı'nın güç verdiği insan yöneticilere atıfta bulunabilir (karşılaştırın Çıkış 15:15, \"liderler\"; Eyüp 41:25, \"güçlü\"; Hez. 32:21, \"reisler\")."
+    },
+    {
+      "ref": "Ps. 58:6",
+      "text": "**ağızlarında dişler**, **genç aslanların dişleri**. Ayet, bu zalimlerin artık mevcut zarar verme güçlerinin kalmaması için bir duadır."
     }
   ]
 }

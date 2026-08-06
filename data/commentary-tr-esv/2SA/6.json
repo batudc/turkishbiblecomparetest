@@ -1,44 +1,51 @@
 {
-  "source": "ESV Global Study Bible (Crossway) — Türkçe çeviri — DeepL translator — Lisans kapsamında kullanılmaktadır",
+  "source": "ESV Global Study Bible (Crossway) — Türkçe çeviri — Google Translate — Lisans kapsamında kullanılmaktadır",
   "book_intro": "Blue Letter Bible bakanlığı ve BLB Enstitüsü, Kutsal Yazıların tahrif edilemezliğine olan kesin inancı da içeren tarihsel, muhafazakar Hristiyan inancına bağlıdır. BLB tarafından sağlanan metin ve ses içeriği çeşitli Evanjelik gelenekleri temsil ettiğinden, kaynak materyallerde aktarılan tüm fikir ve ilkelerin bu bakanlık tarafından toplamda onaylanması gerekmez.\n\nBlue Letter Kutsal Kitap çalışma araçları Kutsal Kitap'ı okumayı, araştırmayı ve çalışmayı kolay ve ödüllendirici hale getirir.\n\nBlue Letter Bible 501(c)(3) kar amacı gütmeyen bir kuruluştur\n\nTercih ettiğiniz Kutsal Kitap çevirilerinin sırasını Kutsal Kitaplar Sekmesi'nden Sürüm Seçici'ye (bu açılır pencere) kopyalayabilir veya tam tersini yapabilirsiniz. Kutsal Kitaplar Sekmesi, Kutsal Kitap sayfalarındaki Araçlar özelliğinde bulunur:\n\nNot: MLA artık atıf standartlarının bir parçası olarak URL'yi zorunlu tutmamaktadır. Bireysel eğitmenler veya editörler yine de URL'lerin kullanılmasını isteyebilir.\n\nHata: Parolalar en az 6 karakterden oluşmalıdır\n\nHata: Kullanıcı adları yalnızca harf, rakam, nokta, tire veya alt çizgi içermelidir\n\nParolalar en az 6 karakterden oluşmalıdır.\n\t\t\t\t\t\t\tKullanıcı adları yalnızca harf, rakam, nokta, tire veya alt çizgi içermelidir.\n\nKaydolduğunuz için teşekkür ederiz. Verdiğiniz adrese bir doğrulama e-postası gönderildi.\n\nOrtaklığınız tüm yaptıklarımızı mümkün kılıyor. Bugün dua ederek bir destek hediyesi vermeyi düşünür müsünüz?",
-  "chapter_intro": "",
-  "passages": [],
-  "notes": [
+  "passages": [
     {
       "ref": "2 Sam 6:1–23",
-      "text": "Jerusalem would not only be the political capital of a united Israel. It would be the religious center as well."
+      "title": "2 Sam 6:1–23",
+      "text": "Kudüs yalnızca birleşik bir İsrail'in siyasi başkenti olmayacaktı. Burası aynı zamanda dini merkez olacak."
     },
     {
       "ref": "2 Sam 6:1–2",
-      "text": "Baale-judah was called Kiriath-jearim in earlier times (1 Sam. 7:1). the Lord of hosts who sits enthroned on the cherubim. See note on 1 Sam. 4:3–4."
+      "title": "2 Sam 6:1–2",
+      "text": "**Baale-judah**'a eski zamanlarda Kiriath-jearim deniyordu (1 Sam. 7:1). **Kerubilerin üzerinde tahtta oturan orduların Rabbi**. 1 Sam hakkındaki nota bakınız. 4:3–4 ."
     },
     {
       "ref": "2 Sam 6:3–4",
-      "text": "They carried the ark on a new cart. Presumably this refers to a ritually clean cart. But God had commanded that the ark be carried by Levites, using poles placed through rings on the sides of the ark (see Ex. 25:14–15; Num. 4:15; 7:8–9; Deut. 31:9)."
-    },
-    {
-      "ref": "2 Sam 6:5",
-      "text": "Before the Lord, as in Ex. 28:29, means that the Lord himself was present above the ark (see note on 1 Sam. 4:3–4). Both 2 Sam. 6:5–15 and 1 Sam. 4:1–7:2 show that the ark was not just a symbol of God’s presence. Wherever the ark was, God manifested his presence in a special way, so the ark should not be treated lightly. with songs . . . cymbals. Music is part of worship in most societies, and it was an important part of Israelite worship. lyres and harps and tambourines. The lyre was basically a sound box with arms in a U-shape supporting a bar across the top. The lyre seems to have been considered the premier instrument. The harp was similar to today’s concert harp. The tambourine was similar to the modern tambourine, but without the small cymbals. The Hebrew word translated castanets appears only here in the Bible."
+      "title": "2 Sam 6:3–4",
+      "text": "**Gemiyi** **yeni bir araba** üzerinde taşıdılar. Muhtemelen bu, ritüel olarak temiz bir arabaya atıfta bulunmaktadır. Ancak Tanrı, geminin, geminin yanlarındaki halkalara yerleştirilen sırıklar kullanılarak Levililer tarafından taşınmasını emretmişti (bkz. Mısır'dan Çıkış 25:14–15; Sayım. 4:15; 7:8–9; Yas. 31:9)."
     },
     {
       "ref": "2 Sam 6:6–11",
-      "text": "and God struck him down (v. 7). Touching the ark was a direct violation of God’s law (Num. 4:15). Even though Uzzah touched the ark to prevent it from falling, he and those with him were wrong to transport it on a cart rather than having the Levites carry it on poles (see note on 2 Sam. 6:3–4). afraid of the Lord. This incident was a dramatic reminder to David of God’s holiness and of the necessity of approaching God only according to his revealed instruction."
+      "title": "2 Sam 6:6–11",
+      "text": "**ve Tanrı onu vurdu** (ayet 7). Sandığa dokunmak Tanrı'nın kanununun doğrudan ihlaliydi (Say. 4:15). Her ne kadar Uzza sandığın düşmesini önlemek için dokunmuş olsa da, o ve beraberindekiler onu direkler üzerinde Levililerin taşıması yerine arabada taşımakla hata yapmışlardı (bkz. 2 Sam. 6:3-4 ile ilgili not). **Rab'den korkuyor**. Bu olay Davut'a, Tanrı'nın kutsallığını ve Tanrı'ya yalnızca onun vahyedilen talimatına göre yaklaşmanın gerekliliğini dramatik bir şekilde hatırlattı."
     },
     {
       "ref": "2 Sam 6:12–15",
-      "text": "those who bore the ark. This time the ark is carried properly (v. 13; 1 Chron. 15:12–15). The text may indicate that only one sacrifice was offered at the beginning of the journey, when they had gone six steps. But some interpreters think it means that David sacrificed every six steps. he sacrificed. Here and in 2 Sam. 6:17 it is doubtful that David himself killed all the animals, but it was done at his direction. David’s ephod was the simple linen robe worn by priests (see 1 Sam. 2:18). The ram’s horn was an instrument used especially for signaling."
-    },
-    {
-      "ref": "2 Sam 6:14",
-      "text": "David danced before the Lord. The term for “dancing” in vv. 14 and 16 does not appear elsewhere in Scripture. It seems to describe a whirling dance. Dancing expresses joy (compare Ex. 15:20–21; Ps. 30:11) and can be a part of jubilant worship (see Ps. 149:3; 150:4)."
+      "title": "2 Sam 6:12–15",
+      "text": "**gemiyi taşıyanlar**. Bu sefer gemi düzgün bir şekilde taşınıyor (ayet 13; 1 Tarihler 15:12–15). Metin, yolculuğun başlangıcında, **altı adım gittiklerinde** yalnızca bir kurbanın sunulduğunu gösteriyor olabilir. Ancak bazı tercümanlar bunun David'in her altı adımda bir fedakarlık yaptığı anlamına geldiğini düşünüyor. **fedakarlık yaptı**. Burada ve 2 Sam'de. 6:17 Bütün hayvanları Davut'un kendisinin öldürdüğü şüphelidir, ama bu onun talimatıyla yapıldı. Davut'un **efod**'u rahipler tarafından giyilen basit keten elbiseydi (bkz. 1 Sam. 2:18). Koçun **boynuzu** özellikle sinyal vermek için kullanılan bir aletti."
     },
     {
       "ref": "2 Sam 6:16–19",
-      "text": "Michal . . . despised him in her heart. Michal is identified not as David’s wife but as the daughter of Saul. She shares Saul’s lack of spiritual understanding. She should have been rejoicing with David. The tent corresponds to the tabernacle of Exodus 26."
+      "title": "2 Sam 6:16–19",
+      "text": "**Michal . . . onu yüreğinde küçümsedi**. Mikal, Davut'un karısı olarak değil, **Saul'un kızı** olarak tanımlanıyor. O da Saul'un ruhi anlayış eksikliğini paylaşıyor. David'le birlikte seviniyor olmalıydı. **Çadır** Çıkış 26'nın çadırına karşılık gelir."
     },
     {
       "ref": "2 Sam 6:20–23",
-      "text": "Michal’s sarcastic comment, “How the king of Israel honored himself today,” suggests she felt he should have worn his royal robes. Michal’s remark about David uncovering himself seems to be an expression of Michal’s contempt for David rather than a statement of fact. had no child. The text does not say what caused Michal’s childlessness. It could have been God’s judgment of Michal for her contempt toward David, or the natural result of the rift between Michal and David."
+      "title": "2 Sam 6:20–23",
+      "text": "Michal'in \"**İsrail kralı bugün kendini nasıl onurlandırdı**\" şeklindeki alaycı yorumu, onun kraliyet cübbesini giymesi gerektiğini hissettiğini gösteriyor. Michal'in David'in **kendini ortaya çıkarması** hakkındaki sözleri, bir gerçeğin ifadesinden ziyade Michal'in David'e duyduğu küçümsemenin bir ifadesi gibi görünüyor. **çocuğu yoktu**. Metin, Michal'in çocuksuzluğuna neyin sebep olduğunu söylemiyor. Bu, Tanrı'nın Mikal'in Davut'u küçümsemesi nedeniyle verdiği yargı ya da Mikal ile Davut arasındaki anlaşmazlığın doğal sonucu olabilirdi."
+    }
+  ],
+  "notes": [
+    {
+      "ref": "2 Sam 6:5",
+      "text": "**Rabbin önünde**, Örn. 28:29, Rab'bin kendisinin sandığın üzerinde mevcut olduğu anlamına gelir (bkz. 1 Sam. 4:3-4 ile ilgili not). Her ikisi de 2 Sam. 6:5–15 ve 1 Sam. 4:1–7:2, sandığın yalnızca Tanrı'nın varlığının bir simgesi olmadığını gösteriyor. Sandık nerede olursa olsun, Tanrı varlığını özel bir şekilde gösterdi, bu nedenle gemiye hafife alınmamalıdır. **şarkılarla. . . ziller**. Müzik çoğu toplumda ibadetin bir parçasıdır ve İsrailoğullarının ibadetinin önemli bir parçasıydı. **lir ve arp** **ve** **tef**. Lir temelde U şeklinde kolları olan ve üst kısmında bir çubuğu destekleyen bir ses kutusuydu. Lir, önde gelen enstrüman olarak kabul ediliyor gibi görünüyor. Arp günümüzün konser arpına benziyordu. Tef, modern teflere benziyordu ancak küçük zilleri yoktu. **Kastanyet** olarak tercüme edilen İbranice kelime yalnızca burada İncil'de geçmektedir."
+    },
+    {
+      "ref": "2 Sam 6:14",
+      "text": "**Davut Rabbin önünde dans etti**. Vv'de “dans etmek” için kullanılan terim. 14 ve 16 Kutsal Yazıların başka bir yerinde geçmez. Dönen bir dansı anlatıyor gibi görünüyor. Dans etmek neşeyi ifade eder (Çık. 15:20–21; Mezmur 30:11 ile karşılaştırın) ve coşkulu tapınmanın bir parçası olabilir (bkz. Mezmur 149:3; 150:4)."
     }
   ]
 }

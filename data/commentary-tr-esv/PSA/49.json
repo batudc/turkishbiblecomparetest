@@ -1,24 +1,27 @@
 {
-  "source": "ESV Global Study Bible (Crossway) — Türkçe çeviri — DeepL translator — Lisans kapsamında kullanılmaktadır",
+  "source": "ESV Global Study Bible (Crossway) — Türkçe çeviri — Google Translate — Lisans kapsamında kullanılmaktadır",
   "book_intro": "Blue Letter Bible bakanlığı ve BLB Enstitüsü, Kutsal Yazıların tahrif edilemezliğine olan kesin inancı da içeren tarihsel, muhafazakar Hristiyan inancına bağlıdır. BLB tarafından sağlanan metin ve ses içeriği çeşitli Evanjelik gelenekleri temsil ettiğinden, kaynak materyallerde aktarılan tüm fikir ve ilkelerin bu bakanlık tarafından toplamda onaylanması gerekmez.\n\nBlue Letter Kutsal Kitap çalışma araçları Kutsal Kitap'ı okumayı, araştırmayı ve çalışmayı kolay ve ödüllendirici hale getirir.\n\nBlue Letter Bible 501(c)(3) kar amacı gütmeyen bir kuruluştur\n\nTercih ettiğiniz Kutsal Kitap çevirilerinin sırasını Kutsal Kitaplar Sekmesi'nden Sürüm Seçici'ye (bu açılır pencere) kopyalayabilir ya da tam tersini yapabilirsiniz. Kutsal Kitaplar Sekmesi, Kutsal Kitap sayfalarındaki Araçlar özelliğinde bulunur:\n\nNot: MLA artık atıf standartlarının bir parçası olarak URL'yi zorunlu tutmamaktadır. Bireysel eğitmenler veya editörler yine de URL'lerin kullanılmasını isteyebilir.\n\nHata: Parolalar en az 6 karakterden oluşmalıdır\n\nHata: Kullanıcı adları yalnızca harf, rakam, nokta, tire veya alt çizgi içermelidir\n\nParolalar en az 6 karakterden oluşmalıdır.\n\t\t\t\t\t\t\tKullanıcı adları yalnızca harf, rakam, nokta, tire veya alt çizgi içermelidir.\n\nKaydolduğunuz için teşekkür ederiz. Verdiğiniz adrese bir doğrulama e-postası gönderildi.\n\nOrtaklığınız tüm yaptıklarımızı mümkün kılıyor. Bugün dua ederek bir destek hediyesi vermeyi düşünür müsünüz?",
-  "chapter_intro": "",
-  "passages": [],
-  "notes": [
-    {
-      "ref": "Ps. 49",
-      "text": "Psalm . This is a wisdom psalm. In particular, it addresses the confusion that the faithful often feel when they encounter trouble even while unfaithful people seem to get along so well. Is not God expected to show his favor for the faithful in how he treats them? The answer is that God will distinguish between the faithful and the unfaithful in what happens to them when they die (vv. 12, 20). Verses 12 and 20 are very similar, the key difference being in the words translated “remain” and “understanding,” which sound almost the same in Hebrew. The element of understanding makes the difference. Those who sing this psalm will want to continue living faithfully. They will be strengthened against the temptation either to despair or to give up and join the unfaithful. See also Psalms 37 and 73."
-    },
+  "passages": [
     {
       "ref": "Ps. 49:1–4",
-      "text": "The terms wisdom and understanding are used in the Wisdom Books to describe genuine spiritual perception. It is the ability to approach life from God’s perspective."
+      "title": "Ps. 49:1–4",
+      "text": "**Bilgelik** ve **anlayış** terimleri Bilgelik Kitaplarında gerçek ruhsal algıyı tanımlamak için kullanılır. Hayata Allah’ın bakış açısıyla yaklaşma yeteneğidir."
     },
     {
       "ref": "Ps. 49:5–12",
-      "text": "After presenting the puzzle (vv. 5–6), the song reminds all its singers that every single person has the same end, death (vv. 7–12). The point about all dying is made in two ways: in vv. 7–9, no one can bribe death; in vv. 10–12, both the wise (who embraces God’s covenant) and the fool (who stupidly rejects God’s covenant) die."
+      "title": "Ps. 49:5–12",
+      "text": "Bulmacayı sunduktan sonra (5-6 ayetler), şarkı tüm şarkıcılarına her insanın aynı sonla, ölümle (7-12 ayetler) karşılaştığını hatırlatır. Tüm ölümlerle ilgili nokta iki şekilde vurgulanıyor: vv. 7-9, hiç kimse ölüme rüşvet veremez; vv'de. 10–12, hem bilge (Tanrı'nın antlaşmasını benimseyen) hem de aptal (Tanrı'nın antlaşmasını aptalca reddeden) ölür."
     },
     {
       "ref": "Ps. 49:13–20",
-      "text": "God treats these two groups differently when they die. The unfaithful are like sheep . . . appointed for Sheol, while God will ransom the faithful person’s soul from the power of Sheol (vv. 14–15). Sheol represents the grim place of destruction for the wicked, and not simply the grave (see note on 6:5)."
+      "title": "Ps. 49:13–20",
+      "text": "Allah bu iki gruba öldüklerinde farklı muamele etmektedir. Sadakatsizler **koyun gibidir. . . Cehennem** için atanırken, Tanrı sadık kişinin **ruhunu ölüler diyarının gücünden fidye olarak kurtaracaktır** (14-15 ayetler). Cehennem, kötüler için sadece mezarı değil, korkunç yıkım yerini temsil eder (bkz. 6:5 ile ilgili not)."
+    }
+  ],
+  "notes": [
+    {
+      "ref": "Ps. 49",
+      "text": "**Mezmur** . Bu bir bilgelik mezmuru. Özellikle, sadakatsiz insanlar çok iyi anlaşır gibi görünseler de, sadıkların sorunlarla karşılaştıklarında sıklıkla hissettikleri kafa karışıklığını giderir. Tanrı'nın imanlılara olan muamelesiyle onlara olan lütfunu göstermesi beklenmiyor mu? Cevap şu: Tanrı, sadık olanlar ile olmayanlar arasında, öldüklerinde başlarına ne geleceği konusunda ayrım yapacaktır (12, 20 ayetler). 12. ve 20. ayetler çok benzer; temel fark, İbranice'de neredeyse aynı sese sahip olan \"kalmak\" ve \"anlamak\" olarak tercüme edilen kelimelerdedir. Anlama unsuru fark yaratır. Bu mezmuru söyleyenler sadakatle yaşamaya devam etmek isteyeceklerdir. Umutsuzluğa düşme veya pes edip sadakatsizlere katılma ayartmasına karşı güçlenecekler. Ayrıca bkz. Mezmurlar 37 ve 73."
     }
   ]
 }

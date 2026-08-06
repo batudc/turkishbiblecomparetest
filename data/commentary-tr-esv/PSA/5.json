@@ -1,40 +1,42 @@
 {
-  "source": "ESV Global Study Bible (Crossway) — Türkçe çeviri — DeepL translator — Lisans kapsamında kullanılmaktadır",
+  "source": "ESV Global Study Bible (Crossway) — Türkçe çeviri — Google Translate — Lisans kapsamında kullanılmaktadır",
   "book_intro": "Blue Letter Bible bakanlığı ve BLB Enstitüsü, Kutsal Yazıların tahrif edilemezliğine olan kesin inancı da içeren tarihsel, muhafazakar Hristiyan inancına bağlıdır. BLB tarafından sağlanan metin ve ses içeriği çeşitli Evanjelik gelenekleri temsil ettiğinden, kaynak materyallerde aktarılan tüm fikir ve ilkelerin bu bakanlık tarafından toplamda onaylanması gerekmez.\n\nBlue Letter Kutsal Kitap çalışma araçları Kutsal Kitap'ı okumayı, araştırmayı ve çalışmayı kolay ve ödüllendirici hale getirir.\n\nBlue Letter Bible 501(c)(3) kar amacı gütmeyen bir kuruluştur\n\nTercih ettiğiniz Kutsal Kitap çevirilerinin sırasını Kutsal Kitaplar Sekmesi'nden Sürüm Seçici'ye (bu açılır pencere) kopyalayabilir ya da tam tersini yapabilirsiniz. Kutsal Kitaplar Sekmesi, Kutsal Kitap sayfalarındaki Araçlar özelliğinde bulunur:\n\nNot: MLA artık atıf standartlarının bir parçası olarak URL'yi zorunlu tutmamaktadır. Bireysel eğitmenler veya editörler yine de URL'lerin kullanılmasını isteyebilir.\n\nHata: Parolalar en az 6 karakterden oluşmalıdır\n\nHata: Kullanıcı adları yalnızca harf, rakam, nokta, tire veya alt çizgi içermelidir\n\nParolalar en az 6 karakterden oluşmalıdır.\n\t\t\t\t\t\t\tKullanıcı adları yalnızca harf, rakam, nokta, tire veya alt çizgi içermelidir.\n\nKaydolduğunuz için teşekkür ederiz. Verdiğiniz adrese bir doğrulama e-postası gönderildi.\n\nOrtaklığınız tüm yaptıklarımızı mümkün kılıyor. Bugün dua ederek bir destek hediyesi vermeyi düşünür müsünüz?",
-  "chapter_intro": "",
-  "passages": [],
-  "notes": [
-    {
-      "ref": "Ps. 5",
-      "text": "Psalm . This individual lament from David is the first psalm that prays for the downfall of one’s enemies. Such Psalms relate to situations where one is faced with bloodthirsty and deceitful persecutors."
-    },
-    {
-      "ref": "Ps. 5:2",
-      "text": "my King and my God. Even a king such as David should be subject to God’s divine kingship."
-    },
-    {
-      "ref": "Ps. 5:3",
-      "text": "I prepare a sacrifice for you. The mention of the morning, and of the Lord’s house (v. 7), suggests this is describing the regular morning sacrifice in the temple. The faithful worshiper receives assurance and expresses personal consecration when he offers his sacrifices."
-    },
+  "passages": [
     {
       "ref": "Ps. 5:4–6",
-      "text": "The singer praises God for loving what is right."
-    },
-    {
-      "ref": "Ps. 5:7",
-      "text": "Abundance of your steadfast love comes from Ex. 34:6, the basic confession of OT faith."
-    },
-    {
-      "ref": "Ps. 5:9",
-      "text": "Paul refers to this verse in Rom. 3:13 as he explains that both Jews and Gentiles are under the power of sin."
-    },
-    {
-      "ref": "Ps. 5:10",
-      "text": "Let them fall . . . cast them out describes the judgment that must fall on those who persecute the godly. for they have rebelled against you. To harm the godly is to attack God himself."
+      "title": "Ps. 5:4–6",
+      "text": "Şarkıcı, doğru olanı sevdiği için Tanrı'ya şükrediyor."
     },
     {
       "ref": "Ps. 5:11–12",
-      "text": "The psalm closes by expressing the assurance enjoyed by the faithful."
+      "title": "Ps. 5:11–12",
+      "text": "Mezmur, sadıkların sahip olduğu güvenceyi ifade ederek sona eriyor."
+    }
+  ],
+  "notes": [
+    {
+      "ref": "Ps. 5",
+      "text": "**Mezmur** . Davut'un bu bireysel ağıtı, kişinin düşmanlarının yıkılması için dua eden ilk mezmurdur. Bu tür Mezmurlar kişinin kana susamış ve hilekar zalimlerle karşı karşıya kaldığı durumlarla ilgilidir."
+    },
+    {
+      "ref": "Ps. 5:2",
+      "text": "**Kralım ve Tanrım**. Davut gibi bir kral bile Tanrı’nın ilahi krallığına tabi olmalıdır."
+    },
+    {
+      "ref": "Ps. 5:3",
+      "text": "**Senin için bir kurban hazırlıyorum**. **Sabah**'tan ve Rab'bin evinden söz edilmesi (ayet 7), bunun tapınaktaki olağan sabah kurbanını tanımladığını akla getirir. Sadık ibadet eden kişi, kurbanlarını sunarken güvence alır ve kendini adadığını ifade eder."
+    },
+    {
+      "ref": "Ps. 5:7",
+      "text": "**Sadık sevginizin bolluğu** Eski sevgilinizden geliyor. 34:6, Eski Antlaşma imanının temel itirafı."
+    },
+    {
+      "ref": "Ps. 5:9",
+      "text": "Pavlus Rom'da bu ayete değiniyor. 3:13 hem Yahudilerin hem de Yahudi olmayanların günahın gücü altında olduğunu açıklarken."
+    },
+    {
+      "ref": "Ps. 5:10",
+      "text": "**Bırakın düşsünler. . . onları dışarı at**, dindarlara zulmedenlere verilecek hükmü anlatır. **çünkü sana isyan ettiler**. Dindarlara zarar vermek Tanrı'nın kendisine saldırmak demektir."
     }
   ]
 }

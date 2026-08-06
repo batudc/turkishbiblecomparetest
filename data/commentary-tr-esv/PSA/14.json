@@ -1,32 +1,33 @@
 {
-  "source": "ESV Global Study Bible (Crossway) — Türkçe çeviri — DeepL translator — Lisans kapsamında kullanılmaktadır",
+  "source": "ESV Global Study Bible (Crossway) — Türkçe çeviri — Google Translate — Lisans kapsamında kullanılmaktadır",
   "book_intro": "Blue Letter Bible bakanlığı ve BLB Enstitüsü, Kutsal Yazıların tahrif edilemezliğine olan kesin inancı da içeren tarihsel, muhafazakar Hristiyan inancına bağlıdır. BLB tarafından sağlanan metin ve ses içeriği çeşitli Evanjelik gelenekleri temsil ettiğinden, kaynak materyallerde aktarılan tüm fikir ve ilkelerin bu bakanlık tarafından toplamda onaylanması gerekmez.\n\nBlue Letter Kutsal Kitap çalışma araçları Kutsal Kitap'ı okumayı, araştırmayı ve çalışmayı kolay ve ödüllendirici hale getirir.\n\nBlue Letter Bible 501(c)(3) kar amacı gütmeyen bir kuruluştur\n\nTercih ettiğiniz Kutsal Kitap çevirilerinin sırasını Kutsal Kitaplar Sekmesi'nden Sürüm Seçici'ye (bu açılır pencere) kopyalayabilir ya da tam tersini yapabilirsiniz. Kutsal Kitaplar Sekmesi, Kutsal Kitap sayfalarındaki Araçlar özelliğinde bulunur:\n\nNot: MLA artık atıf standartlarının bir parçası olarak URL'yi zorunlu tutmamaktadır. Bireysel eğitmenler veya editörler yine de URL'lerin kullanılmasını isteyebilir.\n\nHata: Parolalar en az 6 karakterden oluşmalıdır\n\nHata: Kullanıcı adları yalnızca harf, rakam, nokta, tire veya alt çizgi içermelidir\n\nParolalar en az 6 karakterden oluşmalıdır.\n\t\t\t\t\t\t\tKullanıcı adları yalnızca harf, rakam, nokta, tire veya alt çizgi içermelidir.\n\nKaydolduğunuz için teşekkür ederiz. Verdiğiniz adrese bir doğrulama e-postası gönderildi.\n\nOrtaklığınız tüm yaptıklarımızı mümkün kılıyor. Bugün dua ederek bir destek hediyesi vermeyi düşünür müsünüz?",
-  "chapter_intro": "",
-  "passages": [],
+  "passages": [
+    {
+      "ref": "Ps. 14:5–6",
+      "title": "Ps. 14:5–6",
+      "text": "Bu tür tehditler karşısında (ayet 4) sadık kişiler, antlaşmanın Tanrısının (**Rab**) onların sığınağı olduğunu hatırlamalıdır. Onları koruyacak ve zalimleri mağlup edecektir."
+    }
+  ],
   "notes": [
     {
       "ref": "Ps. 14",
-      "text": "Psalm . This is a community lament. Humans in general do not seek after God and thus they treat God’s people cruelly. Compare Psalm 53."
+      "text": "**Mezmur** . Bu bir toplumsal ağıttır. İnsanlar genel olarak Tanrı'yı ​​aramazlar ve bu nedenle Tanrı'nın halkına zalimce davranırlar. Mezmur 53'ü karşılaştırın."
     },
     {
       "ref": "Ps. 14:1",
-      "text": "A fool is someone who stubbornly rejects wisdom. there is no God. Godless fools believe that God takes no interest in human affairs and will not judge people for their deeds."
+      "text": "**Aptal**, bilgeliği inatla reddeden kişidir. **Tanrı yoktur**. Tanrısız aptallar, Tanrı'nın insani olaylarla ilgilenmediğine ve insanları yaptıklarına göre yargılamayacağına inanırlar."
     },
     {
       "ref": "Ps. 14:3",
-      "text": "The word all in this verse refers to the Gentiles described in v. 2, and v. 4 reveals that they oppose God’s people. Paul adapts the Greek Septuagint translation of vv. 1–3 in Rom. 3:10–12 as part of his argument that “all, both Jews and Greeks, are under sin” (Rom. 3:9)."
+      "text": "Bu ayetteki **hepsi** kelimesi, 2. ayette anlatılan Yahudi olmayanlara atıfta bulunur ve 4. ayet, onların Tanrı'nın halkına karşı olduklarını ortaya koyar. Pavlus vv'nin Yunanca Septuagint çevirisini uyarlıyor. Roma'da 1-3. 3:10–12, \"hem Yahudiler hem de Yunanlılar, herkes günah altındadır\" şeklindeki argümanının bir parçası olarak (Romalılar 3:9)."
     },
     {
       "ref": "Ps. 14:4",
-      "text": "To eat up my people is to consume their wealth and freedom, and possibly even their lives (see Mic. 3:1–3)."
-    },
-    {
-      "ref": "Ps. 14:5–6",
-      "text": "In the face of such threats (v. 4) the faithful must remember that the God of the covenant (Lord) is their refuge. He will protect them and defeat the evildoers."
+      "text": "**Halkımı yemek**, onların zenginliklerini ve özgürlüklerini, hatta belki de hayatlarını tüketmek demektir (bkz. Mik. 3:1–3)."
     },
     {
       "ref": "Ps. 14:7",
-      "text": "The people pray that God will rescue them and promote their well-being. Their prayer concludes with firm hope (when, not if)."
+      "text": "İnsanlar Tanrı'nın onları kurtarması ve refahlarını artırması için dua ediyor. Duaları sağlam bir umutla sona eriyor (**ne zaman**, eğer değil)."
     }
   ]
 }

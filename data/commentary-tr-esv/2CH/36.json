@@ -1,36 +1,42 @@
 {
-  "source": "ESV Global Study Bible (Crossway) — Türkçe çeviri — DeepL translator — Lisans kapsamında kullanılmaktadır",
+  "source": "ESV Global Study Bible (Crossway) — Türkçe çeviri — Google Translate — Lisans kapsamında kullanılmaktadır",
   "book_intro": "Blue Letter Bible bakanlığı ve BLB Enstitüsü, Kutsal Yazıların tahrif edilemezliğine olan kesin inancı da içeren tarihsel, muhafazakar Hristiyan inancına bağlıdır. BLB tarafından sağlanan metin ve ses içeriği çeşitli Evanjelik gelenekleri temsil ettiğinden, kaynak materyallerde aktarılan tüm fikir ve ilkelerin bu bakanlık tarafından toplamda onaylanması gerekmez.\n\nBlue Letter Kutsal Kitap çalışma araçları Kutsal Kitap'ı okumayı, araştırmayı ve çalışmayı kolay ve ödüllendirici hale getirir.\n\nBlue Letter Bible 501(c)(3) kar amacı gütmeyen bir kuruluştur\n\nTercih ettiğiniz Kutsal Kitap çevirilerinin sırasını Kutsal Kitaplar Sekmesi'nden Sürüm Seçici'ye (bu açılır pencere) kopyalayabilir veya tam tersini yapabilirsiniz. Kutsal Kitaplar Sekmesi, Kutsal Kitap sayfalarındaki Araçlar özelliğinde bulunur:\n\nNot: MLA artık atıf standartlarının bir parçası olarak URL'yi zorunlu tutmamaktadır. Bireysel eğitmenler veya editörler yine de URL'lerin kullanılmasını isteyebilir.\n\nHata: Parolalar en az 6 karakterden oluşmalıdır\n\nHata: Kullanıcı adları yalnızca harf, rakam, nokta, tire veya alt çizgi içermelidir\n\nŞifreler en az 6 karakterden oluşmalıdır.\n\t\t\t\t\t\t\tKullanıcı adları yalnızca harf, rakam, nokta, tire veya alt çizgi içermelidir.\n\nKaydolduğunuz için teşekkür ederiz. Verdiğiniz adrese bir doğrulama e-postası gönderildi.\n\nOrtaklığınız tüm yaptıklarımızı mümkün kılıyor. Bugün dua ederek bir destek hediyesi vermeyi düşünür müsünüz?",
-  "chapter_intro": "",
-  "passages": [],
-  "notes": [
+  "passages": [
     {
       "ref": "36:1–21",
-      "text": "The Last Four Kings. Compare 2 Kings 23:31–25:21. The Chronicler summarizes the reigns of Judah’s last four kings. Because they abandon the covenant after Josiah’s death, all four will go into exile, as will the people. Yet the exile will be a positive time of purification; the book concludes with a new act of God’s grace, declared through a pagan king (2 Chron. 36:22–23)."
+      "title": "Son Dört Kral.",
+      "text": "2 Kral 23:31–25:21'i karşılaştırın. Chronicler, Yahuda'nın son dört kralının hükümdarlık dönemlerini özetliyor. Yoşiya'nın ölümünden sonra antlaşmayı terk ettikleri için dördü de halk gibi sürgüne gidecek. Ancak sürgün olumlu bir arınma zamanı olacaktır; kitap, pagan bir kral aracılığıyla ilan edilen, Tanrı'nın lütfunun yeni bir eylemiyle sona ermektedir (2 Tarihler 36:22–23)."
     },
     {
       "ref": "2 Chron. 36:1–4",
-      "text": "Pharaoh Neco II asserted control over Judah after Josiah’s death. The “people of the land” who made Jehoahaz king probably hoped he would continue Josiah’s opposition to Egypt. Neco removed Jehoahaz in favor of Eliakim, whom he renamed Jehoiakim as a mark of his authority over him. The tribute that Neco imposed on the land was a tax charged to those who had supported Jehoahaz (2 Kings 23:35)."
+      "title": "2 Kron. 36:1–4",
+      "text": "Firavun II. Neko, Yoşiya'nın ölümünden sonra Yahuda'nın kontrolünü ele geçirdi. **Yehoahaz**'ı kral yapan \"ülke halkı\" muhtemelen onun Yoşiya'nın Mısır'a karşı muhalefetini sürdüreceğini umuyordu. Neco, Yehoahaz'ı görevden alıp **Eliakim**'i seçti ve kendisi üzerindeki otoritesinin bir işareti olarak ona **Yehoiakim** adını verdi. Neko'nun **ülkeye** uyguladığı **haraç**, Yehoahaz'ı destekleyenlerden alınan bir vergiydi (2 Krallar 23:35)."
     },
     {
       "ref": "2 Chron. 36:5–8",
-      "text": "Jehoiakim’s reign (609–598 b.c.) was marked by a return to idolatry (Jer. 25:1–7) and the king’s persecution of the prophets (Jer. 26:20–24; 36:20–31). Following his victory over Pharaoh Neco at Carchemish (605 b.c.), Nebuchadnezzar besieged Jerusalem (2 Kings 24:1) and carried off some of its citizens and some of the temple vessels to Babylon (2 Chron. 36:7; Dan. 1:1–2). This may have been the occasion when Nebuchadnezzar bound him in chains to take him to Babylon, taking control over Jehoiakim. Jehoiakim later rebelled against the Babylonians, and in 598 b.c. Nebuchadnezzar again attacked Jerusalem, just after Jehoiakim’s death."
+      "title": "2 Kron. 36:5–8",
+      "text": "Yehoyakim'in saltanatı (MÖ 609-598), putperestliğe dönüş (Yer. 25:1-7) ve kralın peygamberlere zulmü (Yer. 26:20-24; 36:20-31) ile işaretlendi. Karkamış'ta Firavun Neko'ya karşı kazandığı zaferin ardından (MÖ 605), **Nebuchadnezzar** Yeruşalim'i kuşattı (2 Krallar 24:1) ve bazı yurttaşlarıyla tapınak kaplarının bir kısmını Babil'e götürdü (2 Tarihler 36:7; Dan. 1:1–2). Bu, Nebukadnessar'ın **Babil'e götürmek için onu zincirlere bağlayıp** Yehoyakim'in kontrolünü ele geçirmesi olayı olabilir. Yehoyakim daha sonra Babillilere isyan etti ve M.Ö. 598'de. Nebukadnessar, Yehoyakim'in ölümünden hemen sonra Yeruşalim'e yeniden saldırdı."
     },
     {
       "ref": "2 Chron. 36:9–10",
-      "text": "The reign of Jehoiachin lasted only for the duration of the siege. Then he was exiled to Babylon. Brother here means “relative”; Zedekiah was Jehoiachin’s uncle."
+      "title": "2 Kron. 36:9–10",
+      "text": "**Yehoyakin**'in hükümdarlığı yalnızca kuşatma süresince sürdü. Daha sonra Babil'e sürgüne gönderildi. **Kardeş** burada “akraba” anlamına geliyor; **Sidkiya**, Yehoyakin'in amcasıydı."
     },
     {
       "ref": "2 Chron. 36:11–16",
-      "text": "The reign of Zedekiah (597–586 b.c.) ended in rebellion, a siege of almost two years, the destruction of Jerusalem and the temple, and the deportation of its leading citizens (see Jer. 52:28–30 and note for additional information about Jerusalem’s final days). Zedekiah’s reign represented the height of disobedience to God, with the king leading the way and the people becoming exceedingly unfaithful (see note on 1 Chron. 2:3–8). Their mocking rejection of the prophets (see Jer. 25:4) meant they refused to repent. Now there was no remedy (literally, “no healing”; see 2 Chron. 7:14) against God’s wrath (see 34:25 and note on 2 Kings 24:18–25:7)."
+      "title": "2 Kron. 36:11–16",
+      "text": "**Sidkiya**'nın hükümdarlığı (M.Ö. 597-586) isyanla, neredeyse iki yıl süren kuşatmayla, Yeruşalim'in ve mabedin yıkılmasıyla ve önde gelen vatandaşlarının sınır dışı edilmesiyle sona erdi (bkz. Yeruşalim 52:28-30 ve Yeruşalim'in son günleri hakkında ek bilgi için not). Sidkiya'nın hükümdarlığı, kralın önderlik ettiği ve halkın **aşırı derecede sadakatsiz** olduğu Tanrı'ya itaatsizliğin doruğunu temsil ediyordu (bkz. 1 Tarihler 2:3–8 ile ilgili not). **Peygamberleri** **alaycı** bir şekilde reddetmeleri (bkz. Yeremya 25:4), tövbe etmeyi reddetmeleri anlamına geliyordu. Artık Tanrı'nın **gazabına** karşı **hiçbir çare** (kelimenin tam anlamıyla \"şifa yok\"; bkz. 2 Tarihler 7:14) yoktu (bkz. 34:25 ve 2 Krallar 24:18–25:7 ile ilgili not)."
     },
     {
       "ref": "2 Chron. 36:19–21",
-      "text": "they burned the house of God. Compare 2 Kings 25:8–12. The land lying desolate while the exiles pay for their sins is a covenant curse (Lev. 26:34–35, 43). It is also an opportunity for the land to recuperate and prepare to receive a purified people (see Lev. 26:44–45). seventy years. See Jer. 25:11; 29:10."
+      "title": "2 Kron. 36:19–21",
+      "text": "**Tanrı'nın evini yaktılar**. 2 Kral 25:8–12'yi karşılaştırın. Sürgünler günahlarının bedelini öderken **ıssız** kalan topraklar bir antlaşma lanetidir (Lev. 26:34–35, 43). Bu aynı zamanda toprağın toparlanması ve arınmış bir halkı kabul etmeye hazırlanması için de bir fırsattır (bkz. Lev. 26:44-45). **yetmiş yıl**. Jer'e bakın. 25:11; 29:10."
     },
     {
       "ref": "36:22–23",
-      "text": "Restoration. From Ezra 1:1–3a. Israel’s history has resumed through God’s gracious initiative. to build him a house. The words of Cyrus recall David’s charge to Solomon about the temple (1 Chron. 22:6, 18–19) and God’s dynastic promise to David (1 Chron. 17:12; 22:10; 2 Chron. 6:9–10). Let him go up is an invitation to a restored people with a restored temple (1 Chron. 9:2–34) to respond to the Davidic covenant with obedient faith and worship."
+      "title": "Restorasyon.",
+      "text": "Ezra 1:1–3a'dan. İsrail'in tarihi, Tanrı'nın lütufkar girişimiyle yeniden başladı. **ona bir ev inşa etmek**. **Koros**'un sözleri Davut'un Süleyman'a tapınakla ilgili suçlamasını (1 Tarihler 22:6, 18–19) ve Tanrı'nın Davut'a verdiği hanedan vaadini (1 Tarihler 17:12; 22:10; 2 Tarihler 6:9–10) hatırlatır. **Bırakın yukarı çıksın**, restore edilmiş bir tapınağa sahip olan (1 Tarihler 9:2–34) restore edilmiş bir halka, Davud'la yapılan antlaşmaya itaatkâr bir iman ve ibadetle karşılık vermeleri için yapılan bir davettir."
     }
-  ]
+  ],
+  "notes": []
 }

@@ -1,28 +1,31 @@
 {
-  "source": "ESV Global Study Bible (Crossway) — Türkçe çeviri — DeepL translator — Lisans kapsamında kullanılmaktadır",
+  "source": "ESV Global Study Bible (Crossway) — Türkçe çeviri — Google Translate — Lisans kapsamında kullanılmaktadır",
   "book_intro": "Blue Letter Bible bakanlığı ve BLB Enstitüsü, Kutsal Yazıların tahrif edilemezliğine olan kesin inancı da içeren tarihsel, muhafazakar Hristiyan inancına bağlıdır. BLB tarafından sağlanan metin ve ses içeriği çeşitli Evanjelik gelenekleri temsil ettiğinden, kaynak materyallerde aktarılan tüm fikir ve ilkelerin bu bakanlık tarafından toplamda onaylanması gerekmez.\n\nBlue Letter Kutsal Kitap çalışma araçları Kutsal Kitap'ı okumayı, araştırmayı ve çalışmayı kolay ve ödüllendirici hale getirir.\n\nBlue Letter Bible 501(c)(3) kar amacı gütmeyen bir kuruluştur\n\nTercih ettiğiniz Kutsal Kitap çevirilerinin sırasını Kutsal Kitaplar Sekmesi'nden Sürüm Seçici'ye (bu açılır pencere) kopyalayabilir ya da tam tersini yapabilirsiniz. Kutsal Kitaplar Sekmesi, Kutsal Kitap sayfalarındaki Araçlar özelliğinde bulunur:\n\nNot: MLA artık atıf standartlarının bir parçası olarak URL'yi zorunlu tutmamaktadır. Bireysel eğitmenler veya editörler yine de URL'lerin kullanılmasını isteyebilir.\n\nHata: Parolalar en az 6 karakterden oluşmalıdır\n\nHata: Kullanıcı adları yalnızca harf, rakam, nokta, tire veya alt çizgi içermelidir\n\nParolalar en az 6 karakterden oluşmalıdır.\n\t\t\t\t\t\t\tKullanıcı adları yalnızca harf, rakam, nokta, tire veya alt çizgi içermelidir.\n\nKaydolduğunuz için teşekkür ederiz. Verdiğiniz adrese bir doğrulama e-postası gönderildi.\n\nOrtaklığınız tüm yaptıklarımızı mümkün kılıyor. Bugün dua ederek bir destek hediyesi vermeyi düşünür müsünüz?",
-  "chapter_intro": "",
-  "passages": [],
-  "notes": [
-    {
-      "ref": "Ps. 91",
-      "text": "Psalm . This tender psalm describes the confidence that the believer may have through all types of dangers and challenges."
-    },
+  "passages": [
     {
       "ref": "Ps. 91:1–2",
-      "text": "The Lord is a secure defense (shelter, shadow, refuge, fortress) for those who take refuge in him."
+      "title": "Ps. 91:1–2",
+      "text": "Rab, kendisine sığınanlar için güvenli bir savunmadır (**barınak**, **gölge**, **sığınak**, **kale**)."
     },
     {
       "ref": "Ps. 91:3–8",
-      "text": "These verses list the benefits that come to those who trust in the Lord. The snare of the fowler (v. 3) seems to be a metaphor for the schemes of those who hate the faithful. Pestilence (vv. 3, 6) and destruction are diseases that God sends on his enemies or his unfaithful people (see Ex. 5:3; 9:15). The terror and arrow, together with a thousand may fall, envision God’s people under attack. Psalm 91:8 notes that God sends plagues and battles as recompense on the wicked (whether Gentile or Israelite). In such times, the faithful can trust God not to judge them as he does the wicked."
-    },
-    {
-      "ref": "Ps. 91:10",
-      "text": "The mention of a plague recalls the plagues that fell on Egypt (see Gen. 12:17; Ex. 11:1). As happened then, the faithful are safe in a time of God’s judgment."
+      "title": "Ps. 91:3–8",
+      "text": "Bu ayetler Rab'be güvenenlerin elde edeceği yararları sıralamaktadır. **Kuşçu tuzağı** (ayet 3), müminlerden nefret edenlerin entrikaları için bir metafor gibi görünüyor. **Veba** (3, 6 ayetler) ve **yıkım**, Tanrı'nın düşmanlarına veya sadakatsiz halkına gönderdiği hastalıklardır (bkz. Mısır'dan Çıkış 5:3; 9:15). **Terör** ve **ok**, **bin kişinin düşmesiyle** birlikte, Tanrı'nın halkının saldırı altında olduğunu tasavvur ediyor. Mezmur 91:8, Tanrı'nın (ister Yahudi olmayan ister İsrailli olsun) **kötülere** **ödün olarak** vebalar ve savaşlar gönderdiğini belirtir. Böyle zamanlarda sadık kişiler Tanrı'nın kendilerini kötülere yaptığı gibi yargılamayacağına güvenebilirler."
     },
     {
       "ref": "Ps. 91:14–16",
-      "text": "The psalm closes by laying out what trust in God looks like (holds fast to me in love, knows my name, and calls to God) and by repeating God’s pledge to care for his faithful ones (deliver, protect, answer, be with him in trouble, rescue, honor). Such a person will have long life (probably implying eternal life; see note on 23:5–6) and will enjoy God’s salvation."
+      "title": "Ps. 91:14–16",
+      "text": "Mezmur, Tanrı'ya olan güvenin neye benzediğini anlatarak (**sevgiyle bana sarılan**, **adımı biliyor** ve **Tanrı'ya sesleniyor**) ve Tanrı'nın sadık olanlarıyla ilgilenme vaadini tekrarlayarak (**teslim et**, **koru**, **cevap**, **başında belada ol**, **kurtarma**, **onur**). Böyle bir kişi **uzun bir ömre** sahip olacak (muhtemelen sonsuz yaşamı ima ediyor; bkz. 23:5-6 ile ilgili not) ve Tanrı'nın **kurtuluşundan** yararlanacaktır."
+    }
+  ],
+  "notes": [
+    {
+      "ref": "Ps. 91",
+      "text": "**Mezmur** . Bu şefkatli mezmur, inanlının her türlü tehlike ve zorluk karşısında sahip olabileceği güveni anlatır."
+    },
+    {
+      "ref": "Ps. 91:10",
+      "text": "Bir **vebadan** söz edilmesi, Mısır'ın başına gelen belaları hatırlatıyor (bkz. Yaratılış 12:17; Mısır'dan Çıkış 11:1). O zaman olduğu gibi, sadıklar Tanrı'nın hükmü zamanında güvendedirler."
     }
   ]
 }

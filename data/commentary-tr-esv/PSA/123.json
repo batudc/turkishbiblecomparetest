@@ -1,20 +1,22 @@
 {
-  "source": "ESV Global Study Bible (Crossway) — Türkçe çeviri — DeepL translator — Lisans kapsamında kullanılmaktadır",
+  "source": "ESV Global Study Bible (Crossway) — Türkçe çeviri — Google Translate — Lisans kapsamında kullanılmaktadır",
   "book_intro": "Blue Letter Bible bakanlığı ve BLB Enstitüsü, Kutsal Yazıların tahrif edilemezliğine olan kesin inancı da içeren tarihsel, muhafazakar Hristiyan inancına bağlıdır. BLB tarafından sağlanan metin ve ses içeriği çeşitli Evanjelik gelenekleri temsil ettiğinden, kaynak materyallerde aktarılan tüm fikir ve ilkelerin bu bakanlık tarafından toplamda onaylanması gerekmez.\n\nBlue Letter Kutsal Kitap çalışma araçları Kutsal Kitap'ı okumayı, araştırmayı ve çalışmayı kolay ve ödüllendirici hale getirir.\n\nBlue Letter Bible 501(c)(3) kar amacı gütmeyen bir kuruluştur\n\nTercih ettiğiniz Kutsal Kitap çevirilerinin sırasını Kutsal Kitaplar Sekmesi'nden Sürüm Seçici'ye (bu açılır pencere) kopyalayabilir ya da tam tersini yapabilirsiniz. Kutsal Kitaplar Sekmesi, Kutsal Kitap sayfalarındaki Araçlar özelliğinde bulunur:\n\nNot: MLA artık atıf standartlarının bir parçası olarak URL'yi zorunlu tutmamaktadır. Bireysel eğitmenler veya editörler yine de URL'lerin kullanılmasını isteyebilir.\n\nHata: Parolalar en az 6 karakterden oluşmalıdır\n\nHata: Kullanıcı adları yalnızca harf, rakam, nokta, tire veya alt çizgi içermelidir\n\nParolalar en az 6 karakterden oluşmalıdır.\n\t\t\t\t\t\t\tKullanıcı adları yalnızca harf, rakam, nokta, tire veya alt çizgi içermelidir.\n\nKaydolduğunuz için teşekkür ederiz. Verdiğiniz adrese bir doğrulama e-postası gönderildi.\n\nOrtaklığınız tüm yaptıklarımızı mümkün kılıyor. Bugün dua ederek bir destek hediyesi vermeyi düşünür müsünüz?",
-  "chapter_intro": "",
-  "passages": [],
-  "notes": [
-    {
-      "ref": "Ps. 123",
-      "text": "Psalm . This is a community lament, as the references to “we” and “us” show. In this Song of Ascents (see note on Psalm 120), the faithful pilgrims feel themselves to be the objects of scorn and contempt. The psalm goes beyond simply asking for a safe journey. It seeks relief from the scorn."
-    },
+  "passages": [
     {
       "ref": "Ps. 123:1–2",
-      "text": "The first section describes the way God’s faithful look toward God for help. The image of servants looking to a master and a maidservant to a mistress is that of waiting patiently and trustingly for God to act."
+      "title": "Ps. 123:1–2",
+      "text": "İlk bölüm, Tanrı'nın sadıklarının yardım için Tanrı'ya nasıl baktığını anlatıyor. Bir **efendiye** bakan **hizmetçilerin** ve bir **metrese** bakan bir **hizmetçinin** imajı, Tanrı'nın harekete geçmesini sabırla ve güvenle beklemenin imajıdır."
     },
     {
       "ref": "Ps. 123:3–4",
-      "text": "The wait for mercy (v. 2) becomes a prayer, have mercy upon us. The mercy desired is relief from those who show contempt and scorn toward the faithful pilgrims."
+      "title": "Ps. 123:3–4",
+      "text": "Merhameti beklemek (ayet 2) duaya dönüşür, **bize merhamet et**. Arzulanan merhamet, sadık hacılara karşı **aşağılama** ve **aşağılama** gösterenlerin kurtuluşudur."
+    }
+  ],
+  "notes": [
+    {
+      "ref": "Ps. 123",
+      "text": "**Mezmur** . Bu, “biz” ve “bize” göndermelerinin de gösterdiği gibi, bir toplumsal ağıttır. Bu Yükseliş Şarkısında (Mezmur 120 ile ilgili nota bakınız), sadık hacılar kendilerini küçümseme ve küçümseme nesneleri olarak hissederler. Mezmur sadece güvenli bir yolculuk istemenin ötesine geçer. Aşağılamadan kurtulmayı istiyor."
     }
   ]
 }

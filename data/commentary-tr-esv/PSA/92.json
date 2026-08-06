@@ -1,32 +1,35 @@
 {
-  "source": "ESV Global Study Bible (Crossway) — Türkçe çeviri — DeepL translator — Lisans kapsamında kullanılmaktadır",
+  "source": "ESV Global Study Bible (Crossway) — Türkçe çeviri — Google Translate — Lisans kapsamında kullanılmaktadır",
   "book_intro": "Blue Letter Bible bakanlığı ve BLB Enstitüsü, Kutsal Yazıların tahrif edilemezliğine olan kesin inancı da içeren tarihsel, muhafazakar Hristiyan inancına bağlıdır. BLB tarafından sağlanan metin ve ses içeriği çeşitli Evanjelik gelenekleri temsil ettiğinden, kaynak materyallerde aktarılan tüm fikir ve ilkelerin bu bakanlık tarafından toplamda onaylanması gerekmez.\n\nBlue Letter Kutsal Kitap çalışma araçları Kutsal Kitap'ı okumayı, araştırmayı ve çalışmayı kolay ve ödüllendirici hale getirir.\n\nBlue Letter Bible 501(c)(3) kar amacı gütmeyen bir kuruluştur\n\nTercih ettiğiniz Kutsal Kitap çevirilerinin sırasını Kutsal Kitaplar Sekmesi'nden Sürüm Seçici'ye (bu açılır pencere) kopyalayabilir ya da tam tersini yapabilirsiniz. Kutsal Kitaplar Sekmesi, Kutsal Kitap sayfalarındaki Araçlar özelliğinde bulunur:\n\nNot: MLA artık atıf standartlarının bir parçası olarak URL'yi zorunlu tutmamaktadır. Bireysel eğitmenler veya editörler yine de URL'lerin kullanılmasını isteyebilir.\n\nHata: Parolalar en az 6 karakterden oluşmalıdır\n\nHata: Kullanıcı adları yalnızca harf, rakam, nokta, tire veya alt çizgi içermelidir\n\nParolalar en az 6 karakterden oluşmalıdır.\n\t\t\t\t\t\t\tKullanıcı adları yalnızca harf, rakam, nokta, tire veya alt çizgi içermelidir.\n\nKaydolduğunuz için teşekkür ederiz. Verdiğiniz adrese bir doğrulama e-postası gönderildi.\n\nOrtaklığınız tüm yaptıklarımızı mümkün kılıyor. Bugün dua ederek bir destek hediyesi vermeyi düşünür müsünüz?",
-  "chapter_intro": "",
-  "passages": [],
-  "notes": [
-    {
-      "ref": "Ps. 92",
-      "text": "Psalm . This is a hymn of thanks and praise to God, specifically celebrating the blessing of the Sabbath in Israel. The Sabbath was a day of rest and for community worship (Lev. 23:3). The title (“A Song for the Sabbath”), the references to morning and evening worship (Ps. 92:2), to the musical instruments used in worship (v. 3), and to the temple (v. 13) all reveal that worship is the focus of the psalm."
-    },
+  "passages": [
     {
       "ref": "Ps. 92:1–5",
-      "text": "One of the most basic acts of Sabbath worship is celebrating God’s greatness in creation and his goodness toward the faithful. The songs honor God for what he has revealed about himself, recalling Ex. 34:5–7, where God explained his name. God’s work and works are the great deeds he has done in creating the world and in caring for his people."
+      "title": "Ps. 92:1–5",
+      "text": "Şabat ibadetinin en temel eylemlerinden biri, Tanrı'nın yaratılıştaki büyüklüğünü ve sadıklara karşı iyiliğini kutlamaktır. Şarkılar, kendisi hakkında açıkladığı şeyler nedeniyle Tanrı'yı ​​onurlandırıyor ve Ex'i hatırlatıyor. 34:5–7, burada Tanrı kendi **adını** açıkladı. Tanrı'nın **işi** ve **işleri**, O'nun dünyayı yaratırken ve halkına bakarken yaptığı büyük işlerdir."
     },
     {
       "ref": "Ps. 92:6–11",
-      "text": "This section draws a contrast between the members of the people who are unfaithful to the covenant (called stupid, fool, wicked, God’s enemies, and evildoers, vv. 6–9) and those who love and trust the Lord (the “I” singing the psalm). The unfaithful fail to understand that, no matter how they might flourish for the moment, God’s will alone prevails in the end."
-    },
-    {
-      "ref": "Ps. 92:9",
-      "text": "perish . . . scattered. Like “destruction” (v. 7), these terms describe the judgment on the wicked as if it is a defeat in battle."
-    },
-    {
-      "ref": "Ps. 92:10",
-      "text": "exalted my horn. See note on 75:4. The wild ox was known for its strength, and its horns were effective for goring (see 22:21; Deut. 33:17)."
+      "title": "Ps. 92:6–11",
+      "text": "Bu bölüm, antlaşmaya sadık olmayan halk üyeleri (**aptal**, **aptal**, **kötü**, Tanrı'nın **düşmanları** ve **kötülük yapanlar**, 6-9 ayetler olarak anılırlar) ile Rab'bi seven ve güvenenler (mezmur söyleyen “ben”) arasında bir karşıtlık ortaya koyar. Sadakatsizler, o an için ne kadar **gelişirlerse gelişsinler** sonunda yalnızca Allah'ın iradesinin galip geleceğini anlayamazlar."
     },
     {
       "ref": "Ps. 92:12–15",
-      "text": "See Heb. 4:9. The faithful flourish like the palm tree, that is, the long-lived and stately date palm; see Ps. 92:14). They flourish in the courts of our God, which describes abiding in God’s presence (see 23:6) as opposed to the temporary “flourishing” of the evildoers (92:7), who “are doomed to destruction” (v. 7)."
+      "title": "Ps. 92:12–15",
+      "text": "Heb'e bakın. 4:9 . Müminler **hurma ağacı gibi**, yani uzun ömürlü ve görkemli hurma ağacı gibi gelişirler; bkz. 92:14). Onlar, Tanrımızın saraylarında **gösterirler**; bu, \"helak olmaya mahkûm olan\" (ayet 7) kötülük yapanların geçici \"gösterişine\" (92:7) karşıt olarak, Tanrı'nın huzurunda kalmayı (bkz. 23:6) anlatır."
+    }
+  ],
+  "notes": [
+    {
+      "ref": "Ps. 92",
+      "text": "**Mezmur** . Bu, özellikle İsrail'de Şabat'ın kutsamasını kutlayan, Tanrı'ya şükran ve övgü ilahisidir. Şabat bir dinlenme ve toplu ibadet günüydü (Lev. 23:3). Başlık (“Şabat Günü Şarkısı”), sabah ve akşam ibadetlerine (Mezmur 92:2), ibadette kullanılan müzik aletlerine (ayet 3) ve tapınağa (ayet 13) yapılan atıfların tümü, ibadetin mezmurun odak noktası olduğunu ortaya koymaktadır."
+    },
+    {
+      "ref": "Ps. 92:9",
+      "text": "**yok olmak. . . dağınık**. “Yıkım” (ayet 7) gibi, bu terimler de kötülerin yargılanmasını sanki savaşta bir yenilgiymiş gibi tanımlar."
+    },
+    {
+      "ref": "Ps. 92:10",
+      "text": "**kornamı yüceltti**. 75:4 ile ilgili nota bakınız. **Yaban öküzü** gücüyle biliniyordu ve boynuzları boynuzlamada etkiliydi (bkz. 22:21; Yas. 33:17)."
     }
   ]
 }

@@ -1,24 +1,26 @@
 {
-  "source": "ESV Global Study Bible (Crossway) — Türkçe çeviri — DeepL translator — Lisans kapsamında kullanılmaktadır",
+  "source": "ESV Global Study Bible (Crossway) — Türkçe çeviri — Google Translate — Lisans kapsamında kullanılmaktadır",
   "book_intro": "Blue Letter Bible bakanlığı ve BLB Enstitüsü, Kutsal Yazıların tahrif edilemezliğine olan kesin inancı da içeren tarihsel, muhafazakar Hristiyan inancına bağlıdır. BLB tarafından sağlanan metin ve ses içeriği çeşitli Evanjelik gelenekleri temsil ettiğinden, kaynak materyallerde aktarılan tüm fikir ve ilkelerin bu bakanlık tarafından toplamda onaylanması gerekmez.\n\nBlue Letter Kutsal Kitap çalışma araçları Kutsal Kitap'ı okumayı, araştırmayı ve çalışmayı kolay ve ödüllendirici hale getirir.\n\nBlue Letter Bible 501(c)(3) kar amacı gütmeyen bir kuruluştur\n\nTercih ettiğiniz Kutsal Kitap çevirilerinin sırasını Kutsal Kitaplar Sekmesi'nden Sürüm Seçici'ye (bu açılır pencere) kopyalayabilir ya da tam tersini yapabilirsiniz. Kutsal Kitaplar Sekmesi, Kutsal Kitap sayfalarındaki Araçlar özelliğinde bulunur:\n\nNot: MLA artık atıf standartlarının bir parçası olarak URL'yi zorunlu tutmamaktadır. Bireysel eğitmenler veya editörler yine de URL'lerin kullanılmasını isteyebilir.\n\nHata: Parolalar en az 6 karakterden oluşmalıdır\n\nHata: Kullanıcı adları yalnızca harf, rakam, nokta, tire veya alt çizgi içermelidir\n\nParolalar en az 6 karakterden oluşmalıdır.\n\t\t\t\t\t\t\tKullanıcı adları yalnızca harf, rakam, nokta, tire veya alt çizgi içermelidir.\n\nKaydolduğunuz için teşekkür ederiz. Verdiğiniz adrese bir doğrulama e-postası gönderildi.\n\nOrtaklığınız tüm yaptıklarımızı mümkün kılıyor. Bugün dua ederek bir destek hediyesi vermeyi düşünür müsünüz?",
-  "chapter_intro": "",
-  "passages": [],
-  "notes": [
+  "passages": [
     {
       "ref": "Ps. 21:1–7",
-      "text": "These verses are addressed to the Lord (you) about the king (he), celebrating the military success prayed for in Psalm 20. The psalm assumes that the king is faithful to the Lord; it is not intended to endorse sinful plans."
-    },
-    {
-      "ref": "Ps. 21:7",
-      "text": "not be moved. Compare 10:6 and 15:5."
+      "title": "Ps. 21:1–7",
+      "text": "Bu ayetler, Mezmur 20'de dua edilen askeri başarıyı kutlayan kral (**o**) hakkında Rab'be (**size**) hitap etmektedir. Mezmur, kralın Rab'be sadık olduğunu varsayar; günahkar planları onaylama amacı taşımaz."
     },
     {
       "ref": "Ps. 21:8–12",
-      "text": "When the king (you) lives by the Davidic ideal, God takes hostility against the king as hostility against himself. Thus the godly king is the tool of God’s wrath."
+      "title": "Ps. 21:8–12",
+      "text": "Kral (**siz**) Davut idealine göre yaşadığında, Tanrı krala karşı düşmanlığı kendisine karşı düşmanlık olarak algılar. Dolayısıyla dindar kral, Tanrı'nın **gazabının** aracıdır."
+    }
+  ],
+  "notes": [
+    {
+      "ref": "Ps. 21:7",
+      "text": "**taşınamaz**. 10:6 ve 15:5'i karşılaştırın."
     },
     {
       "ref": "Ps. 21:13",
-      "text": "As in 18:46, the Lord is exalted when he shows his power by making the faithful king successful."
+      "text": "18:46'da olduğu gibi, Rab, sadık kralı başarılı kılarak gücünü gösterdiğinde **yüceltilir**."
     }
   ]
 }

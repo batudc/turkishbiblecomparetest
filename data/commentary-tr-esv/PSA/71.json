@@ -1,40 +1,44 @@
 {
-  "source": "ESV Global Study Bible (Crossway) — Türkçe çeviri — DeepL translator — Lisans kapsamında kullanılmaktadır",
+  "source": "ESV Global Study Bible (Crossway) — Türkçe çeviri — Google Translate — Lisans kapsamında kullanılmaktadır",
   "book_intro": "Blue Letter Bible bakanlığı ve BLB Enstitüsü, Kutsal Yazıların tahrif edilemezliğine olan kesin inancı da içeren tarihsel, muhafazakar Hristiyan inancına bağlıdır. BLB tarafından sağlanan metin ve ses içeriği çeşitli Evanjelik gelenekleri temsil ettiğinden, kaynak materyallerde aktarılan tüm fikir ve ilkelerin bu bakanlık tarafından toplamda onaylanması gerekmez.\n\nBlue Letter Kutsal Kitap çalışma araçları Kutsal Kitap'ı okumayı, araştırmayı ve çalışmayı kolay ve ödüllendirici hale getirir.\n\nBlue Letter Bible 501(c)(3) kar amacı gütmeyen bir kuruluştur\n\nTercih ettiğiniz Kutsal Kitap çevirilerinin sırasını Kutsal Kitaplar Sekmesi'nden Sürüm Seçici'ye (bu açılır pencere) kopyalayabilir ya da tam tersini yapabilirsiniz. Kutsal Kitaplar Sekmesi, Kutsal Kitap sayfalarındaki Araçlar özelliğinde bulunur:\n\nNot: MLA artık atıf standartlarının bir parçası olarak URL'yi zorunlu tutmamaktadır. Bireysel eğitmenler veya editörler yine de URL'lerin kullanılmasını isteyebilir.\n\nHata: Parolalar en az 6 karakterden oluşmalıdır\n\nHata: Kullanıcı adları yalnızca harf, rakam, nokta, tire veya alt çizgi içermelidir\n\nParolalar en az 6 karakterden oluşmalıdır.\n\t\t\t\t\t\t\tKullanıcı adları yalnızca harf, rakam, nokta, tire veya alt çizgi içermelidir.\n\nKaydolduğunuz için teşekkür ederiz. Verdiğiniz adrese bir doğrulama e-postası gönderildi.\n\nOrtaklığınız tüm yaptıklarımızı mümkün kılıyor. Bugün dua ederek bir destek hediyesi vermeyi düşünür müsünüz?",
-  "chapter_intro": "",
-  "passages": [],
-  "notes": [
-    {
-      "ref": "Ps. 71",
-      "text": "Psalm . This is another individual lament, suited to a faithful person in danger from enemies who take advantage of any weakness or distress (vv. 9–11). These enemies could be foreign or Israelite."
-    },
+  "passages": [
     {
       "ref": "Ps. 71:1–3",
-      "text": "God’s righteousness is his faithfulness to keep his promises. This is the basis for hope (see vv. 15, 16, 19, 24)."
-    },
-    {
-      "ref": "Ps. 71:4",
-      "text": "The wicked are unjust and cruel men who oppose true faith in God. They look for any opening to do harm to the faithful (vv. 4, 10–11)."
+      "title": "Ps. 71:1–3",
+      "text": "Tanrı'nın **doğruluğu**, verdiği sözleri tutma konusundaki sadakatidir. Umudun temeli budur (bkz. 15, 16, 19, 24 ayetler)."
     },
     {
       "ref": "Ps. 71:5–6",
-      "text": "from my youth . . . from before my birth . . . from my mother’s womb. The Israelites came into the world as members of Abraham’s family, the recipients of God’s promises. These believers learn to trace God’s work in their lives back to before they were even born."
-    },
-    {
-      "ref": "Ps. 71:9",
-      "text": "Do not cast me off in the time of old age. The benefits of the covenant are not automatic. They are for those who are faithful to its conditions."
+      "title": "Ps. 71:5–6",
+      "text": "**gençliğimden beri. . . doğumumun öncesinden beri. . . annemin rahminden**. İsrailliler, Tanrı'nın vaatlerinin alıcıları olan İbrahim'in ailesinin üyeleri olarak dünyaya geldiler. Bu inananlar, Tanrı'nın hayatlarındaki çalışmalarının izini daha doğmadan önceye kadar sürmeyi öğrenirler."
     },
     {
       "ref": "Ps. 71:14–16",
-      "text": "The singer promises to hope continually. He leaves to God the timing of the answer to his appeals for help (vv. 12–13). He also looks forward to sharing his story of God’s righteous acts with his fellow worshipers."
-    },
-    {
-      "ref": "Ps. 71:18",
-      "text": "The singer asks God to make his life long. He wants to live to proclaim your might to another generation."
+      "title": "Ps. 71:14–16",
+      "text": "Şarkıcı**sürekli umut etmeye** söz veriyor. Yardım çağrılarına verilecek yanıtın zamanlamasını Tanrı'ya bırakır (12-13 ayetler). Ayrıca Tanrı'nın **doğru eylemlerine** ilişkin öyküsünü iman kardeşleriyle paylaşmayı da sabırsızlıkla bekliyor."
     },
     {
       "ref": "Ps. 71:22–24",
-      "text": "The singer looks forward to joyful songs in worship. He expects to talk of God’s righteous help all the day long (wherever he is)."
+      "title": "Ps. 71:22–24",
+      "text": "Şarkıcı ibadet sırasında neşeli şarkıları sabırsızlıkla bekliyor. Gün boyu (nerede olursa olsun) Tanrı'nın **doğru yardımından bahsetmeyi** bekliyor."
+    }
+  ],
+  "notes": [
+    {
+      "ref": "Ps. 71",
+      "text": "**Mezmur** . Bu, herhangi bir zayıflık veya sıkıntıdan yararlanan düşmanlar tarafından tehlike altında olan sadık bir kişiye uygun başka bir bireysel ağıttır (9-11 ayetler). Bu düşmanlar yabancı ya da İsrailli olabilir."
+    },
+    {
+      "ref": "Ps. 71:4",
+      "text": "**Kötüler**, Tanrı'ya olan gerçek inanca karşı çıkan **adaletsiz ve zalim** adamlardır. İnançlılara zarar verecek herhangi bir açıklık ararlar (4, 10-11 ayetler)."
+    },
+    {
+      "ref": "Ps. 71:9",
+      "text": "**Yaşlılık döneminde beni** **devre dışı bırakmayın**. Sözleşmenin yararları otomatik değildir. Şartlarına sadık olanlar içindir."
+    },
+    {
+      "ref": "Ps. 71:18",
+      "text": "Şarkıcı, Tanrı'dan ömrünü uzun kılmasını istiyor. **Gücünüzü başka bir nesle duyurmak** için yaşamak istiyor."
     }
   ]
 }

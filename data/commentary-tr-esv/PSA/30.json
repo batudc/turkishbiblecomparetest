@@ -1,32 +1,37 @@
 {
-  "source": "ESV Global Study Bible (Crossway) — Türkçe çeviri — DeepL translator — Lisans kapsamında kullanılmaktadır",
+  "source": "ESV Global Study Bible (Crossway) — Türkçe çeviri — Google Translate — Lisans kapsamında kullanılmaktadır",
   "book_intro": "Blue Letter Bible bakanlığı ve BLB Enstitüsü, Kutsal Yazıların tahrif edilemezliğine olan kesin inancı da içeren tarihsel, muhafazakar Hristiyan inancına bağlıdır. BLB tarafından sağlanan metin ve ses içeriği çeşitli Evanjelik gelenekleri temsil ettiğinden, kaynak materyallerde aktarılan tüm fikir ve ilkelerin bu bakanlık tarafından toplamda onaylanması gerekmez.\n\nBlue Letter Kutsal Kitap çalışma araçları Kutsal Kitap'ı okumayı, araştırmayı ve çalışmayı kolay ve ödüllendirici hale getirir.\n\nBlue Letter Bible 501(c)(3) kar amacı gütmeyen bir kuruluştur\n\nTercih ettiğiniz Kutsal Kitap çevirilerinin sırasını Kutsal Kitaplar Sekmesi'nden Sürüm Seçici'ye (bu açılır pencere) kopyalayabilir ya da tam tersini yapabilirsiniz. Kutsal Kitaplar Sekmesi, Kutsal Kitap sayfalarındaki Araçlar özelliğinde bulunur:\n\nNot: MLA artık atıf standartlarının bir parçası olarak URL'yi zorunlu tutmamaktadır. Bireysel eğitmenler veya editörler yine de URL'lerin kullanılmasını isteyebilir.\n\nHata: Parolalar en az 6 karakterden oluşmalıdır\n\nHata: Kullanıcı adları yalnızca harf, rakam, nokta, tire veya alt çizgi içermelidir\n\nParolalar en az 6 karakterden oluşmalıdır.\n\t\t\t\t\t\t\tKullanıcı adları yalnızca harf, rakam, nokta, tire veya alt çizgi içermelidir.\n\nKaydolduğunuz için teşekkür ederiz. Verdiğiniz adrese bir doğrulama e-postası gönderildi.\n\nOrtaklığınız tüm yaptıklarımızı mümkün kılıyor. Bugün dua ederek bir destek hediyesi vermeyi düşünür müsünüz?",
-  "chapter_intro": "",
-  "passages": [],
-  "notes": [
-    {
-      "ref": "Ps. 30",
-      "text": "Psalm . According to the title, David composed Psalm 30 for the temple’s dedication (which took place after David died, 1 Kings 8:63). The psalm’s theme is one of personal thanksgiving for God’s repeated care and deliverance over a lifetime. The psalm is based on David’s experience, and the worshipers can liken their own experiences to his."
-    },
+  "passages": [
     {
       "ref": "Ps. 30:1–3",
-      "text": "I will extol you. The singer is led to praise God by three experiences: deliverance from the attacks of the foes, answered prayer in desperate circumstances, and rescue from approaching death."
+      "title": "Ps. 30:1–3",
+      "text": "**Seni öveceğim**. Şarkıcıyı üç deneyim Tanrı'ya şükretmeye yöneltiyor: **düşmanların** saldırılarından kurtulmak, çaresiz durumlarda duaya cevap vermek ve yaklaşan ölümden kurtarmak."
     },
     {
       "ref": "Ps. 30:4–5",
-      "text": "The singer urges his fellow worshipers to join him, to sing praises and give thanks. Though there is indeed weeping in the lives of the faithful, it comes to an end. Morning stands for the time when God gives relief (compare 90:14)."
+      "title": "Ps. 30:4–5",
+      "text": "Şarkıcı, iman kardeşlerini kendisine katılmaya, **şarkı söylemeye** ve **şükranlarını sunmaya** teşvik ediyor. Her ne kadar müminlerin hayatlarında **ağlama** olsa da, artık sona ermektedir. **Sabah**, Tanrı'nın rahatlık sağladığı zamanı ifade eder (90:14 ile karşılaştırın)."
     },
     {
       "ref": "Ps. 30:6–7",
-      "text": "It is God who makes the believer’s mountain stand strong (a picture of unshakable security). If the Lord should remove his care, the faithful are undone."
+      "title": "Ps. 30:6–7",
+      "text": "Müminin **dağını** sağlam (sarsılmaz bir güvenlik tablosu) kılan Allah'tır. Eğer Rab onun ilgisini çekerse, sadıkların işi biter."
     },
     {
       "ref": "Ps. 30:8–10",
-      "text": "The mere prolonging of earthly days is not the goal of deliverance. The faithful live to praise God, to tell of his faithfulness."
+      "title": "Ps. 30:8–10",
+      "text": "Kurtuluşun amacı yalnızca dünyevi günlerin uzatılması değildir. İnananlar Tanrı'ya **övmek** ve O'nun **sadakatini** anlatmak için yaşarlar."
     },
     {
       "ref": "Ps. 30:11–12",
-      "text": "My glory is a poetical term in Psalms for one’s whole being (see 16:9; 108:1)."
+      "title": "Ps. 30:11–12",
+      "text": "**Benim görkemim** Mezmurlarda kişinin bütün varlığını ifade eden şiirsel bir terimdir (bkz. 16:9; 108:1)."
+    }
+  ],
+  "notes": [
+    {
+      "ref": "Ps. 30",
+      "text": "**Mezmur** . Başlığa göre Davut, tapınağın adanması için Mezmur 30'u besteledi (bu, Davut öldükten sonra gerçekleşti, 1 Krallar 8:63). Mezmurun teması, Tanrı'nın bir ömür boyunca tekrarlanan bakımı ve kurtarışı için kişisel şükranlardan biridir. Mezmur Davut'un deneyimine dayanmaktadır ve tapınanlar kendi deneyimlerini onunkine benzetebilirler."
     }
   ]
 }

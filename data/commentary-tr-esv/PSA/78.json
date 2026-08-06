@@ -1,40 +1,47 @@
 {
-  "source": "ESV Global Study Bible (Crossway) — Türkçe çeviri — DeepL translator — Lisans kapsamında kullanılmaktadır",
+  "source": "ESV Global Study Bible (Crossway) — Türkçe çeviri — Google Translate — Lisans kapsamında kullanılmaktadır",
   "book_intro": "Blue Letter Bible bakanlığı ve BLB Enstitüsü, Kutsal Yazıların tahrif edilemezliğine olan kesin inancı da içeren tarihsel, muhafazakar Hristiyan inancına bağlıdır. BLB tarafından sağlanan metin ve ses içeriği çeşitli Evanjelik gelenekleri temsil ettiğinden, kaynak materyallerde aktarılan tüm fikir ve ilkelerin bu bakanlık tarafından toplamda onaylanması gerekmez.\n\nBlue Letter Kutsal Kitap çalışma araçları Kutsal Kitap'ı okumayı, araştırmayı ve çalışmayı kolay ve ödüllendirici hale getirir.\n\nBlue Letter Bible 501(c)(3) kar amacı gütmeyen bir kuruluştur\n\nTercih ettiğiniz Kutsal Kitap çevirilerinin sırasını Kutsal Kitaplar Sekmesi'nden Sürüm Seçici'ye (bu açılır pencere) kopyalayabilir ya da tam tersini yapabilirsiniz. Kutsal Kitaplar Sekmesi, Kutsal Kitap sayfalarındaki Araçlar özelliğinde bulunur:\n\nNot: MLA artık atıf standartlarının bir parçası olarak URL'yi zorunlu tutmamaktadır. Bireysel eğitmenler veya editörler yine de URL'lerin kullanılmasını isteyebilir.\n\nHata: Parolalar en az 6 karakterden oluşmalıdır\n\nHata: Kullanıcı adları yalnızca harf, rakam, nokta, tire veya alt çizgi içermelidir\n\nParolalar en az 6 karakterden oluşmalıdır.\n\t\t\t\t\t\t\tKullanıcı adları yalnızca harf, rakam, nokta, tire veya alt çizgi içermelidir.\n\nKaydolduğunuz için teşekkür ederiz. Verdiğiniz adrese bir doğrulama e-postası gönderildi.\n\nOrtaklığınız tüm yaptıklarımızı mümkün kılıyor. Bugün dua ederek bir destek hediyesi vermeyi düşünür müsünüz?",
-  "chapter_intro": "",
-  "passages": [],
-  "notes": [
-    {
-      "ref": "Ps. 78",
-      "text": "Psalm . This is a historical psalm (compare Psalms 105; 106), recalling events from Israel’s past. It shows how God persevered with his people, even when they disbelieved, and how he cleansed them by removing unbelievers from their midst. The emphasis is on the people as a whole and their obligation to embrace the covenant faithfully in each generation. Terms for “remember” and “forget” run through the psalm (78:7, 11, 35, 42; see v. 39, where God remembers). The psalmist hopes that those who sing this will never again forget. The psalm opens with its purpose statement (vv. 1–8), followed by several episodes of sin and unbelief. Each new section begins with “they sinned” or “they rebelled” (vv. 17, 32, 40, 56). The final section focuses on David as one of God’s great gifts to Israel (vv. 65–72)."
-    },
+  "passages": [
     {
       "ref": "Ps. 78:1–8",
-      "text": "The parable and dark sayings (v. 2) are not secret teachings. They are things that we have heard and known (v. 3), which must be passed on to the coming generation (v. 4). The OT describes the people of God as those whom God has chosen to receive his particular revelation (testimony and law, v. 5), which they have a responsibility to teach to their children, that the next generation might know God’s law (vv. 5–6; see Deut. 6:6–9). This teaching will help them not to be stubborn and rebellious (Ps. 78:8)."
+      "title": "Ps. 78:1–8",
+      "text": "**Mesel** ve **karanlık sözler** (ayet 2) gizli öğretiler değildir. Bunlar **duyduğumuz ve bildiğimiz şeylerdir** (ayet 3), bunların **gelecek nesle** (ayet 4) aktarılması gerekir. Eski Antlaşma, Tanrı'nın halkını, Tanrı'nın kendi özel vahiylerini (**tanıklık** ve **yasa**, ayet 5) almak için seçtiği kişiler olarak tanımlar; onların bu vahyi **çocuklarına öğretme** sorumluluğuna sahip oldukları, **gelecek neslin Tanrı'nın yasasını bilebileceği** (vv. 5–6; bkz. Tesniye 6:6–9). Bu öğreti onların **inatçı** ve **asi** olmamalarına yardımcı olacaktır (Mez. 78:8)."
     },
     {
       "ref": "Ps. 78:9–16",
-      "text": "The first historical section recounts an otherwise unknown incident in which the Ephraimites . . . turned back on the day of battle. Presumably this was a battle in which all Israel was expected to participate, each tribe serving the others because of their bond as God’s people. Their failure, then, was not simply a failure in patriotism but also in brotherhood and faith. They did not keep God’s covenant because they forgot God’s works."
+      "title": "Ps. 78:9–16",
+      "text": "İlk tarihsel bölüm, başka türlü bilinmeyen bir olayı anlatıyor: **Efrayimliler. . . savaş gününde geri döndü**. Muhtemelen bu, tüm İsrail'in katılmasının beklendiği bir savaştı; her kabile, Tanrı'nın halkı olarak aralarındaki bağ nedeniyle diğerlerine hizmet ediyordu. O halde onların başarısızlığı sadece vatanseverlikteki başarısızlık değil, aynı zamanda kardeşlik ve inançtaki başarısızlıktı. **Tanrı'nın antlaşmasını** yerine getirmediler çünkü Tanrı'nın **işlerini** **unuttular**."
     },
     {
       "ref": "Ps. 78:17–31",
-      "text": "In spite of the deeds the people had seen, yet they sinned still more against God."
+      "title": "Ps. 78:17–31",
+      "text": "İnsanlar, gördükleri bütün eylemlere rağmen, **Tanrı'ya karşı daha da çok günah işlediler**."
     },
     {
       "ref": "Ps. 78:32–39",
-      "text": "The mighty works of God described in vv. 9–31 should have been enough reason for the people to be faithful, but they were not (v. 32). This section focuses on the many judgments the Lord used to lead his people to repent. When he killed them, they sought him; they repented and sought God earnestly, yet their repentance was not deep and sincere (v. 36), so it did not last (v. 37; see v. 8). However, God did not destroy them because he is compassionate. He atoned for their iniquity (v. 38). He accepted their sacrifices and forgave them."
+      "title": "Ps. 78:32–39",
+      "text": "Tanrı'nın kudretli işleri vv'de anlatılmıştır. 9–31, insanların sadık olması için yeterli neden olmalıydı, ancak öyle değildi (ayet 32). Bu bölüm Rab'bin halkını tövbe etmeye yönlendirmek için kullandığı birçok hüküm üzerinde yoğunlaşmaktadır. **Onları öldürdüğünde onu aradılar; tövbe ettiler ve içtenlikle Tanrı'yı ​​aradılar**, ancak tövbeleri derin ve samimi değildi (ayet 36), dolayısıyla uzun sürmedi (ayet 37; bkz. ayet 8). Ancak Tanrı, **merhametli** olduğu için **onları yok etmedi**. **Kötülüklerinin kefaretini ödedi** (ayet 38). Kurbanlarını kabul etti ve onları bağışladı."
     },
     {
       "ref": "Ps. 78:40–55",
-      "text": "The next section goes back to the exodus, describing all the plagues God brought against the Egyptian oppressors (vv. 42–53). This is followed by a brief summary of the conquest of the Promised Land (vv. 54–55). God’s people continued to rebel because they did not remember his power or the day when he redeemed them from the foe (see 77:15)."
+      "title": "Ps. 78:40–55",
+      "text": "Bir sonraki bölüm, Tanrı'nın Mısırlı zalimlere karşı getirdiği tüm belaları anlatan göçe geri dönüyor (42-53 ayetler). Bunu Vaat Edilmiş Toprakların fethinin kısa bir özeti takip ediyor (54-55. ayetler). Tanrı'nın halkı, **O'nun gücünü veya kendilerini düşmandan kurtardığı günü hatırlamadıkları için** isyan etmeye devam etti (bkz. 77:15)."
     },
     {
       "ref": "Ps. 78:56–64",
-      "text": "These verses describe the time of the judges, leading up to the capture of the ark and the death of Eli and his sons (vv. 60–64; see 1 Samuel 4). Just as before, they tested and rebelled against the Most High, and provoked him to anger. The Lord utterly rejected many of the Israelites for their unbelief."
+      "title": "Ps. 78:56–64",
+      "text": "Bu ayetler, sandığın ele geçirilmesine ve Eli ile oğullarının ölümüne kadar uzanan hakimlerin zamanını anlatır (60-64 ayetler; bkz. 1 Samuel 4). Daha önce olduğu gibi, **Yüceler Yücesi'ni sınadılar ve ona isyan ettiler** ve **onu öfkelendirmeye kışkırttılar**. Rab, İsrailoğullarının çoğunu inançsızlıklarından dolayı **tamamen reddetti**."
     },
     {
       "ref": "Ps. 78:65–72",
-      "text": "God graciously answered Israel’s recurring pattern of sin by raising up David to be their king. the Lord awoke as from sleep. This is a bold image, conveying what the believer can feel when God stirs himself from apparent inactivity to take action on behalf of his suffering people (see 35:23; 44:23). The action that God took was to install a king. David was taken from the sheepfolds. The king is ideally a shepherd of his people (see 2 Sam. 5:2), caring for them, protecting them, and leading them in faithfulness to the covenant. David at his best did his work with upright heart and skillful hand, though he had his own moral failures."
+      "title": "Ps. 78:65–72",
+      "text": "Tanrı, Davut'u kral olarak yetiştirerek İsrail'in tekrar eden günahlarına lütufla karşılık verdi. **Rab uykudan uyanır gibi uyandı**. Bu, Tanrı acı çeken halkı adına harekete geçmek için görünürdeki hareketsizlikten kendisini kurtardığında inanlının neler hissedebileceğini aktaran cesur bir görüntüdür (bkz. 35:23; 44:23). Tanrı'nın gerçekleştirdiği eylem bir kral atamaktı. Davut **ağıllardan** alındı. Kral ideal olarak halkının bir **çobanıdır** (bkz. 2 Sam. 5:2), onlarla ilgilenir, onları korur ve antlaşmaya sadık kalarak onları yönlendirir. David, kendi ahlaki başarısızlıklarına rağmen işini **dürüst bir yürekle** ve **yetenekli ellerle** yaptı."
+    }
+  ],
+  "notes": [
+    {
+      "ref": "Ps. 78",
+      "text": "**Mezmur** . Bu, İsrail'in geçmişindeki olayları hatırlatan tarihi bir mezmurdur (Mezmur 105; 106 ile karşılaştırın). Allah'ın, inkar ettikleri zaman bile kavmine karşı nasıl sebat ettiğini ve kâfirleri aralarından çıkararak onları nasıl temizlediğini gösterir. Vurgu, bir bütün olarak insanlara ve onların antlaşmayı her nesilde sadakatle benimseme yükümlülüklerinedir. Mezmurda \"hatırlamak\" ve \"unutmak\" terimleri geçmektedir (78:7, 11, 35, 42; bkz. Tanrı'nın hatırladığı ayet 39). Mezmur yazarı, bu ilahiyi söyleyenlerin bir daha asla unutmayacağını umuyor. Mezmur, amacının açıklanmasıyla (1-8. ayetler) açılıyor ve ardından birkaç günah ve inançsızlık bölümü geliyor. Her yeni bölüm “günah işlediler” veya “isyan ettiler” ifadesiyle başlar (17, 32, 40, 56 ayetler). Son bölüm, Tanrı'nın İsrail'e en büyük armağanlarından biri olarak Davut'a odaklanıyor (65-72 ayetler)."
     }
   ]
 }

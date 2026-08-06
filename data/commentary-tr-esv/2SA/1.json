@@ -1,72 +1,81 @@
 {
-  "source": "ESV Global Study Bible (Crossway) — Türkçe çeviri — DeepL translator — Lisans kapsamında kullanılmaktadır",
+  "source": "ESV Global Study Bible (Crossway) — Türkçe çeviri — Google Translate — Lisans kapsamında kullanılmaktadır",
   "book_intro": "Blue Letter Bible bakanlığı ve BLB Enstitüsü, Kutsal Yazıların tahrif edilemezliğine olan kesin inancı da içeren tarihsel, muhafazakar Hristiyan inancına bağlıdır. BLB tarafından sağlanan metin ve ses içeriği çeşitli Evanjelik gelenekleri temsil ettiğinden, kaynak materyallerde aktarılan tüm fikir ve ilkelerin bu bakanlık tarafından toplamda onaylanması gerekmez.\n\nBlue Letter Kutsal Kitap çalışma araçları Kutsal Kitap'ı okumayı, araştırmayı ve çalışmayı kolay ve ödüllendirici hale getirir.\n\nBlue Letter Bible 501(c)(3) kar amacı gütmeyen bir kuruluştur\n\nTercih ettiğiniz Kutsal Kitap çevirilerinin sırasını Kutsal Kitaplar Sekmesi'nden Sürüm Seçici'ye (bu açılır pencere) kopyalayabilir veya tam tersini yapabilirsiniz. Kutsal Kitaplar Sekmesi, Kutsal Kitap sayfalarındaki Araçlar özelliğinde bulunur:\n\nNot: MLA artık atıf standartlarının bir parçası olarak URL'yi zorunlu tutmamaktadır. Bireysel eğitmenler veya editörler yine de URL'lerin kullanılmasını isteyebilir.\n\nHata: Parolalar en az 6 karakterden oluşmalıdır\n\nHata: Kullanıcı adları yalnızca harf, rakam, nokta, tire veya alt çizgi içermelidir\n\nParolalar en az 6 karakterden oluşmalıdır.\n\t\t\t\t\t\t\tKullanıcı adları yalnızca harf, rakam, nokta, tire veya alt çizgi içermelidir.\n\nKaydolduğunuz için teşekkür ederiz. Verdiğiniz adrese bir doğrulama e-postası gönderildi.\n\nOrtaklığınız tüm yaptıklarımızı mümkün kılıyor. Bugün dua ederek bir destek hediyesi vermeyi düşünür müsünüz?",
-  "chapter_intro": "",
-  "passages": [],
-  "notes": [
+  "passages": [
+    {
+      "ref": "2 Sam 1:1–20:26",
+      "title": "Kral Davut'un hikayesi.",
+      "text": "2 Samuel'in çoğu, Davut'un önce Yahuda'da, sonra da tüm İsrail'de krallığa yükselişini anlatıyor. Davut'un uğraşmak zorunda kaldığı sorunların çoğu kendi günahlarından kaynaklanıyordu."
+    },
     {
       "ref": "2 Sam 1:1–27",
-      "text": "The book begins where 1 Samuel ends, with the death of King Saul and his sons at Mount Gilboa. David, who is in Ziklag, hears of Saul’s death. But instead of rejoicing that his enemy is dead, he mourns Saul’s death and executes the man who claims to have killed Saul."
+      "title": "2 Sam 1:1–27",
+      "text": "Kitap, 1. Samuel'in bittiği yerde, Kral Saul ve oğullarının Gilboa Dağı'nda ölmesiyle başlıyor. Ziklag'da bulunan Davut, Saul'un öldüğünü duyar. Ancak düşmanının ölümüne sevinmek yerine Saul'un ölümüne üzülür ve Saul'u öldürdüğünü iddia eden adamı idam eder."
     },
     {
       "ref": "2 Sam 1:1–2",
-      "text": "An Amalekite man (see v. 8) arrives to report the events of 1 Samuel 31. The torn clothes and dirt are signs of mourning."
+      "title": "2 Sam 1:1–2",
+      "text": "Amalekli bir adam (bkz. ayet 8) 1 Samuel 31'de yaşanan olayları bildirmek için gelir. Yırtık **kıyafetler** ve **kir** yasın işaretleridir."
     },
     {
       "ref": "2 Sam 1:6–10",
-      "text": "So I stood beside him and killed him (v. 10). The narrator in 1 Samuel 31 said that Saul killed himself. This man is lying to gain favor with the person most likely to replace Saul as king."
-    },
-    {
-      "ref": "2 Sam 1:12",
-      "text": "David and his men fasted in mourning. After this summary statement, the story resumes the actual dialogue between David and the young man who told of Saul’s death."
-    },
-    {
-      "ref": "2 Sam 1:14",
-      "text": "How is it you were not afraid . . . to destroy the Lord’s anointed? See note on 1 Sam. 24:6. As a sojourner subject to the laws of Israel (Lev. 24:22), the Amalekite should have respected Saul as his king (as did Saul’s armor-bearer; 1 Sam. 31:4–5). David himself had refrained from killing Saul (1 Samuel 24; 26)."
-    },
-    {
-      "ref": "2 Sam 1:15",
-      "text": "Go, execute him. David believed the Amalekite’s story (but see note on vv. 6–10). On that basis he had him executed. David’s action shows he had no part in Saul’s death."
-    },
-    {
-      "ref": "2 Sam 1:16",
-      "text": "Your blood be on your head means that the Amalekite (not David) is responsible for his own death (see Josh. 2:19; 1 Kings 2:32, 37; Ezek. 33:4)."
+      "title": "2 Sam 1:6–10",
+      "text": "**Ben de onun yanında durdum ve onu öldürdüm** (ayet 10). 1 Samuel 31'deki anlatıcı Saul'un kendini öldürdüğünü söyledi. Bu adam, Saul'un yerini alması en muhtemel kişinin gözüne girmek için yalan söylüyor."
     },
     {
       "ref": "2 Sam 1:17–27",
-      "text": "And David lamented. Though terribly wronged by Saul, David chose to remember him in a generous way."
+      "title": "2 Sam 1:17–27",
+      "text": "**Ve David yakındı**. Davut, Saul tarafından büyük bir haksızlığa uğramış olsa da, onu cömert bir şekilde hatırlamayı seçti."
+    }
+  ],
+  "notes": [
+    {
+      "ref": "2 Sam 1:12",
+      "text": "Davut ve adamları yas tutarak **oruç tuttular**. Bu özet açıklamanın ardından öykü, Davut ile Saul'un ölümünü anlatan genç adam arasındaki gerçek diyaloğu sürdürür."
+    },
+    {
+      "ref": "2 Sam 1:14",
+      "text": "**Nasıl oldu da korkmadın? . . Rab'bin meshettiği kişiyi yok etmek için mi?** 1 Sam ile ilgili nota bakın. 24:6 . İsrail kanunlarına tabi bir misafir olarak (Lev. 24:22), Amaleklilerin Saul'a kralı olarak saygı duyması gerekirdi (Saul'un silah taşıyıcısının yaptığı gibi; 1 Sam. 31:4-5). Davut'un kendisi Saul'u öldürmekten kaçınmıştı (1 Samuel 24; 26)."
+    },
+    {
+      "ref": "2 Sam 1:15",
+      "text": "**Git, onu idam et**. Davut Amaleklilerin öyküsüne inandı (ancak 6-10. ayetlerle ilgili nota bakın). Bu temelde onu idam ettirdi. Davut'un davranışı onun Saul'un ölümünde hiçbir payı olmadığını gösteriyor."
+    },
+    {
+      "ref": "2 Sam 1:16",
+      "text": "**Kanınız başınızın üzerinde olsun**, kendi ölümünden Amaleklilerin (Davut'un değil) sorumlu olduğu anlamına gelir (bkz. Yeşu. 2:19; 1. Krallar 2:32, 37; Hez. 33:4)."
     },
     {
       "ref": "2 Sam 1:18",
-      "text": "It should be taught refers to the lament that follows. Compare the heading of Psalm 60, “A Miktam of David; for instruction.” The Book of Jashar is a non-biblical written source."
+      "text": "**Öğretilmelidir** ise aşağıdaki ağıtlara gönderme yapıyor. Mezmur 60'ın başlığı olan \"Davud'un Miktam'ı; talimat için\" ile karşılaştırın. **Yaşar Kitabı** İncil dışı yazılı bir kaynaktır."
     },
     {
       "ref": "2 Sam 1:19",
-      "text": "How the mighty have fallen! This is the theme line of David’s lament for Saul and Jonathan, repeated in vv. 25, 27."
+      "text": "**Güçlüler nasıl da düştü!** Bu, Davut'un Saul ve Yonatan için yazdığı ağıtın tema çizgisidir ve ayette tekrarlanmıştır. 25, 27."
     },
     {
       "ref": "2 Sam 1:20",
-      "text": "Gath and Ashkelon are Philistine cities. David does not want the Philistines to rejoice over Saul’s death."
+      "text": "**Gat** ve **Aşkelon** Filist şehirleridir. Davut, Filistlilerin Saul'un ölümüne sevinmesini istemiyor."
     },
     {
       "ref": "2 Sam 1:21",
-      "text": "let there be no dew or rain . . . nor fields of offerings! David wishes for lack of blessing on the place where Saul and Jonathan died. The line the shield of the mighty was defiled is paralleled by the next line, the shield of Saul, not anointed with oil (that is, “not in proper condition,” since leather shields were treated with oil)."
+      "text": "**çiy veya yağmur olmamasına izin verin. . . ne de adak alanları!** Davut, Saul ve Yonatan'ın öldüğü yerin bereketlenmemesini diliyor. **Güçlülerin kalkanı kirlendi** satırı, bir sonraki satırla paraleldir: **Saul'un kalkanı, yağla yağlanmamıştır** (yani, deri kalkanlar yağla işlendiğinden \"uygun durumda değildir\")."
     },
     {
       "ref": "2 Sam 1:22",
-      "text": "Blood and fat are often used as a word pair to refer to the whole of a sacrifice. For bow of Jonathan, see 1 Sam. 20:18–23."
+      "text": "**Kan** ve **yağ** genellikle bir kurbanın tamamına atıfta bulunmak için kelime çifti olarak kullanılır. **Jonathan'ın yayı** için bkz. 1 Sam. 20:18–23 ."
     },
     {
       "ref": "2 Sam 1:23",
-      "text": "In life and in death . . . not divided. In 1 Samuel 14 Jonathan acted without his father’s knowledge and readily criticized him, and they disagreed over David (see especially 1 Sam. 22:8). Yet they apparently maintained a relationship, eventually fighting and dying together for Israel."
+      "text": "**Hayatta ve ölümde . . . bölünmemiş**. 1 Samuel 14'te Jonathan babasının bilgisi olmadan hareket etti ve onu hemen eleştirdi ve Davut konusunda fikir ayrılığına düştüler (özellikle bkz. 1 Sam. 22:8). Yine de görünüşe göre ilişkilerini sürdürdüler ve sonunda İsrail için birlikte savaşıp öldüler."
     },
     {
       "ref": "2 Sam 1:24",
-      "text": "Scarlet cloth, colored with a dye made from the dried bodies of an insect, was a sign of prosperity (Prov. 31:21)."
+      "text": "Bir böceğin kurumuş gövdelerinden yapılan bir boyayla renklendirilen **kırmızı** kumaş, refahın bir işaretiydi (Özd. 31:21)."
     },
     {
       "ref": "2 Sam 1:26",
-      "text": "surpassing the love of women. David’s remark does not carry any sexual overtones. Rather, he is calling attention to Jonathan’s self-denial in giving up any right to the throne of Israel (1 Sam. 23:17). Jonathan loved and supported David as the Lord’s choice to succeed his father Saul. He even risked his life for David (1 Sam. 20:30–33)."
+      "text": "**kadınların sevgisini aşmak**. David'in sözleri herhangi bir cinsel ima taşımıyor. Daha ziyade Yonatan'ın İsrail tahtına ilişkin herhangi bir haktan vazgeçerek kendini inkar etmesine dikkat çekiyor (1 Sam. 23:17). Yonatan, babası Saul'un yerine geçmek üzere Rab'bin seçimi olarak Davut'u sevdi ve destekledi. Hatta Davut için hayatını bile riske attı (1 Sam. 20:30-33)."
     }
   ]
 }

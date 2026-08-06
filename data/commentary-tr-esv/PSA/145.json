@@ -1,64 +1,69 @@
 {
-  "source": "ESV Global Study Bible (Crossway) — Türkçe çeviri — DeepL translator — Lisans kapsamında kullanılmaktadır",
+  "source": "ESV Global Study Bible (Crossway) — Türkçe çeviri — Google Translate — Lisans kapsamında kullanılmaktadır",
   "book_intro": "Blue Letter Bible bakanlığı ve BLB Enstitüsü, Kutsal Yazıların tahrif edilemezliğine olan kesin inancı da içeren tarihsel, muhafazakar Hristiyan inancına bağlıdır. BLB tarafından sağlanan metin ve ses içeriği çeşitli Evanjelik gelenekleri temsil ettiğinden, kaynak materyallerde aktarılan tüm fikir ve ilkelerin bu bakanlık tarafından toplamda onaylanması gerekmez.\n\nBlue Letter Kutsal Kitap çalışma araçları Kutsal Kitap'ı okumayı, araştırmayı ve çalışmayı kolay ve ödüllendirici hale getirir.\n\nBlue Letter Bible 501(c)(3) kar amacı gütmeyen bir kuruluştur\n\nTercih ettiğiniz Kutsal Kitap çevirilerinin sırasını Kutsal Kitaplar Sekmesi'nden Sürüm Seçici'ye (bu açılır pencere) kopyalayabilir ya da tam tersini yapabilirsiniz. Kutsal Kitaplar Sekmesi, Kutsal Kitap sayfalarındaki Araçlar özelliğinde bulunur:\n\nNot: MLA artık atıf standartlarının bir parçası olarak URL'yi zorunlu tutmamaktadır. Bireysel eğitmenler veya editörler yine de URL'lerin kullanılmasını isteyebilir.\n\nHata: Parolalar en az 6 karakterden oluşmalıdır\n\nHata: Kullanıcı adları yalnızca harf, rakam, nokta, tire veya alt çizgi içermelidir\n\nParolalar en az 6 karakterden oluşmalıdır.\n\t\t\t\t\t\t\tKullanıcı adları yalnızca harf, rakam, nokta, tire veya alt çizgi içermelidir.\n\nKaydolduğunuz için teşekkür ederiz. Verdiğiniz adrese bir doğrulama e-postası gönderildi.\n\nOrtaklığınız tüm yaptıklarımızı mümkün kılıyor. Bugün dua ederek bir destek hediyesi vermeyi düşünür müsünüz?",
-  "chapter_intro": "",
-  "passages": [],
-  "notes": [
-    {
-      "ref": "Ps. 145",
-      "text": "Psalm . This is the last of David’s psalms. This hymn praises the Lord for his goodness and generosity toward his creatures, especially his people. One remarkable feature is the way it uses so many different words for “praising”: “extol”; “bless”; “praise”; “commend”; “declare”; “meditate”; “speak”; “pour forth”; “sing aloud”; and “give thanks.” Further, there are repeated terms for the enduring nature of this praise: “forever and ever”; the “generations”; and “everlasting.” This psalm basically follows an acrostic pattern, but it lacks one verse (between vv. 13–14). The esv includes the “missing” verse (v. 13b), but in square brackets due to its uncertainty."
-    },
+  "passages": [
     {
       "ref": "Ps. 145:1–3",
-      "text": "The psalm has a theme of joy and celebration. Each member of the congregation pledges himself to this (I will)."
-    },
-    {
-      "ref": "Ps. 145:3",
-      "text": "his greatness is unsearchable. That is, the human mind cannot fully describe or comprehend it."
+      "title": "Ps. 145:1–3",
+      "text": "Mezmurun sevinç ve kutlama teması vardır. Cemaatin her üyesi buna söz verir (**yapacağım**)."
     },
     {
       "ref": "Ps. 145:4–7",
-      "text": "God’s great deeds have protected his people and have produced the conditions in which they can flourish in true faithfulness."
-    },
-    {
-      "ref": "Ps. 145:4",
-      "text": "This is the biblical pattern for households, and the Passover makes this a ritual."
+      "title": "Ps. 145:4–7",
+      "text": "Tanrı'nın büyük işleri, halkını korudu ve onların gerçek sadakatle gelişebilecekleri koşulları yarattı."
     },
     {
       "ref": "Ps. 145:8–9",
-      "text": "These two verses fill out the idea of God’s goodness and righteousness."
-    },
-    {
-      "ref": "Ps. 145:8",
-      "text": "See Ex. 34:6. slow to anger. Showing wrath is not God’s preferred option. He gives humans time to repent."
-    },
-    {
-      "ref": "Ps. 145:9",
-      "text": "God’s grace came to Israel in a special way through the covenant, but it was never meant to be for them alone."
+      "title": "Ps. 145:8–9",
+      "text": "Bu iki ayet Tanrı’nın iyiliği ve doğruluğu fikrini tamamlıyor."
     },
     {
       "ref": "Ps. 145:10–13a",
-      "text": "The psalmist celebrates the wonder of being part of God’s kingdom. God’s people are to see his kingship as a gift of his goodness, not a burden."
+      "title": "Ps. 145:10–13a",
+      "text": "Mezmur yazarı, Tanrı'nın **krallığının** bir parçası olmanın harikasını kutluyor. Tanrı'nın halkı, onun krallığını bir yük değil, iyiliğinin bir armağanı olarak görmelidir."
     },
     {
       "ref": "Ps. 145:13b–20",
-      "text": "Building on vv. 8–9, these verses develop the notion of God’s kindness to all his creatures (vv. 15–17). His chosen people (vv. 18–20), specifically those who call on him in truth, are treated particularly well."
+      "title": "Ps. 145:13b–20",
+      "text": "Vv'de inşa ediliyor. 8-9'da bu ayetler, Tanrı'nın tüm yaratıklarına karşı şefkatli olduğu fikrini geliştirir (15-17 ayetler). Seçtiği insanlara (18-20 ayetler), özellikle de **ona hakikatle seslenenlere** özellikle iyi davranılıyor."
+    }
+  ],
+  "notes": [
+    {
+      "ref": "Ps. 145",
+      "text": "**Mezmur** . Bu Davut'un mezmurlarının sonuncusudur. Bu ilahi, Tanrı'yı ​​yaratıklarına, özellikle de halkına karşı olan iyiliği ve cömertliği için övüyor. Dikkate değer özelliklerden biri, “övmek” için pek çok farklı kelime kullanmasıdır: “övmek”; “kutsa”; \"övmek\"; “övgü”; \"ilan etmek\"; “meditasyon yapmak”; \"konuşmak\"; “dökün”; “yüksek sesle şarkı söyle”; ve \"teşekkür ederim.\" Dahası, bu övgünün kalıcı doğasına ilişkin tekrarlanan terimler vardır: \"sonsuza kadar\"; “nesiller”; ve \"sonsuz\". Bu mezmur temelde akrostiş bir kalıp izlemektedir, ancak bir ayeti yoktur (13-14 ayetler arası). Esv, “eksik” ayeti (v. 13b) içermektedir, ancak belirsizlik nedeniyle köşeli parantez içindedir."
+    },
+    {
+      "ref": "Ps. 145:3",
+      "text": "**Onun büyüklüğü aranamaz**. Yani insan aklı onu tam olarak anlatamaz ve kavrayamaz."
+    },
+    {
+      "ref": "Ps. 145:4",
+      "text": "Bu, hane halkı için İncil'deki kalıptır ve Fısıh bunu bir ritüel haline getirir."
+    },
+    {
+      "ref": "Ps. 145:8",
+      "text": "Örn. 34:6 . **yavaş öfkelenir**. Öfke göstermek Tanrı’nın tercih ettiği seçenek değildir. İnsanlara tövbe etmeleri için zaman verir."
+    },
+    {
+      "ref": "Ps. 145:9",
+      "text": "Tanrı'nın lütfu İsrail'e antlaşma aracılığıyla özel bir şekilde geldi, ancak bu hiçbir zaman yalnızca onlara yönelik olmayacaktı."
     },
     {
       "ref": "Ps. 145:13b",
-      "text": "faithful. See Deut. 7:9; Ps. 93:5; Isa. 49:7. The second line is the same as the second line of Ps. 145:17. Kind means that the Lord shows covenant love. This supplies the “missing” acrostic segment (see note on Psalm 145)."
+      "text": "**sadık**. Bkz. Deut. 7:9; Ps. 93:5; İsa. 49:7 . İkinci satır Ps'nin ikinci satırıyla aynıdır. 145:17 . **Nazik**, Rab'bin antlaşma sevgisini göstermesi anlamına gelir. Bu, “eksik” akrostiş bölümünü tamamlar (bkz. Mezmur 145 ile ilgili not)."
     },
     {
       "ref": "Ps. 145:14",
-      "text": "In view of vv. 18–20, all who are falling (and who are bowed down) would apply to the faithful (see 37:24)."
+      "text": "Vv'nin görünümünde. 18–20, **düşen herkes** (ve **eğilenler**) sadıklara başvuracaktır (bkz. 37:24)."
     },
     {
       "ref": "Ps. 145:20",
-      "text": "The English brings out the mirror pattern of the Hebrew: verb (preserves), then object (all who love him); object (all the wicked), then verb (he will destroy). The verbs and objects are the opposites of each other."
+      "text": "İngilizce İbranicenin ayna kalıbını ortaya çıkarıyor: fiil (**korur**), sonra nesne (**onu seven herkes**); nesne (**tüm kötüler**), ardından fiil (**yok edecek**). Fiiller ve nesneler birbirinin zıttıdır."
     },
     {
       "ref": "Ps. 145:21",
-      "text": "The psalm looks forward to praising God forever for his goodness. It closes with a wish that every creature might join in the praise."
+      "text": "Mezmur, Tanrı'yı ​​iyiliğinden dolayı sonsuza kadar övmeyi sabırsızlıkla bekliyor. Her yaratığın bu övgüye katılması temennisiyle son bulur."
     }
   ]
 }

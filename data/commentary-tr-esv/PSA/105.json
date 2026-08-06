@@ -1,56 +1,62 @@
 {
-  "source": "ESV Global Study Bible (Crossway) — Türkçe çeviri — DeepL translator — Lisans kapsamında kullanılmaktadır",
+  "source": "ESV Global Study Bible (Crossway) — Türkçe çeviri — Google Translate — Lisans kapsamında kullanılmaktadır",
   "book_intro": "Blue Letter Bible bakanlığı ve BLB Enstitüsü, Kutsal Yazıların tahrif edilemezliğine olan kesin inancı da içeren tarihsel, muhafazakar Hristiyan inancına bağlıdır. BLB tarafından sağlanan metin ve ses içeriği çeşitli Evanjelik gelenekleri temsil ettiğinden, kaynak materyallerde aktarılan tüm fikir ve ilkelerin bu bakanlık tarafından toplamda onaylanması gerekmez.\n\nBlue Letter Kutsal Kitap çalışma araçları Kutsal Kitap'ı okumayı, araştırmayı ve çalışmayı kolay ve ödüllendirici hale getirir.\n\nBlue Letter Bible 501(c)(3) kar amacı gütmeyen bir kuruluştur\n\nTercih ettiğiniz Kutsal Kitap çevirilerinin sırasını Kutsal Kitaplar Sekmesi'nden Sürüm Seçici'ye (bu açılır pencere) kopyalayabilir ya da tam tersini yapabilirsiniz. Kutsal Kitaplar Sekmesi, Kutsal Kitap sayfalarındaki Araçlar özelliğinde bulunur:\n\nNot: MLA artık atıf standartlarının bir parçası olarak URL'yi zorunlu tutmamaktadır. Bireysel eğitmenler veya editörler yine de URL'lerin kullanılmasını isteyebilir.\n\nHata: Parolalar en az 6 karakterden oluşmalıdır\n\nHata: Kullanıcı adları yalnızca harf, rakam, nokta, tire veya alt çizgi içermelidir\n\nParolalar en az 6 karakterden oluşmalıdır.\n\t\t\t\t\t\t\tKullanıcı adları yalnızca harf, rakam, nokta, tire veya alt çizgi içermelidir.\n\nKaydolduğunuz için teşekkür ederiz. Verdiğiniz adrese bir doğrulama e-postası gönderildi.\n\nOrtaklığınız tüm yaptıklarımızı mümkün kılıyor. Bugün dua ederek bir destek hediyesi vermeyi düşünür müsünüz?",
-  "chapter_intro": "",
-  "passages": [],
-  "notes": [
-    {
-      "ref": "Ps. 105",
-      "text": "Psalm . Psalm 105 is a historical psalm, like Psalms 78 and 106. It is a celebration of God’s faithful dealings with his people. It particularly remembers episodes from the Pentateuch in which the people interacted with powerful foreigners who might have harmed them: Abimelech (Genesis 20), Potiphar (Genesis 39–41), and Pharaoh (Exodus 7–14). The tone of Psalm 105 is one of gratitude (vv. 1–6). Each member of the singing congregation should recognize that he has benefited from all these great deeds that God has done. Each one should embrace his calling to live as a member of God’s holy people (vv. 43–45). Verses 28–36 recount eight of the 10 plagues sent upon the Egyptians, leaving out the fifth and sixth (Ex. 9:1–12). The psalm mentions the ninth plague first (Ps. 105:28), and has the third and fourth in reverse order (v. 31). The psalm focuses on events in the Exodus story that display God’s faithfulness."
-    },
+  "passages": [
     {
       "ref": "Ps. 105:1–6",
-      "text": "The congregation is invited to celebrate what the Lord has done. Gratitude comes from remembering the wondrous works that the Lord has done, particularly those on behalf of his people, the offspring of Abraham (see Gen. 15:5; 13; 18; 17:7)."
-    },
-    {
-      "ref": "Ps. 105:1",
-      "text": "call upon his name. An expression for seeking the Lord in public worship (see Gen. 4:26; 12:8)."
+      "title": "Ps. 105:1–6",
+      "text": "Cemaat Rabbin yaptıklarını kutlamaya davet edilir. Minnettarlık, Rab'bin **yaptığı** harikulade işleri, özellikle de kendi halkı, yani İbrahim'in soyu</b> adına olanları hatırlamaktan kaynaklanır (bkz. Yaratılış 15:5; 13; 18; 17:7)."
     },
     {
       "ref": "Ps. 105:7–11",
-      "text": "The next section describes in general what the Lord has done. He has displayed his judgments . . . in all the earth, and he “remembers his covenant forever.” The rest of the psalm will give specific examples to support this claim."
-    },
-    {
-      "ref": "Ps. 105:8",
-      "text": "remembers his covenant forever. For this expression, see 111:5; Ex. 2:24; Lev. 26:42; Jer. 14:21. For God remembering, see note on Ps. 25:6–7. a thousand generations. See Ex. 34:7 and Deut. 7:9; see note on Ps. 100:5."
-    },
-    {
-      "ref": "Ps. 105:10",
-      "text": "Everlasting covenant refers to the promise that Israel will possess the land and remain as God’s people (see Gen. 17:7, 19)."
+      "title": "Ps. 105:7–11",
+      "text": "Bir sonraki bölümde genel olarak Rab'bin ne yaptığı anlatılmaktadır. **Yargılarını sergiledi. . . tüm dünyada** ve o “antlaşmasını sonsuza kadar hatırlayacaktır.” Mezmurun geri kalanında bu iddiayı destekleyecek spesifik örnekler verilecektir."
     },
     {
       "ref": "Ps. 105:12–15",
-      "text": "God watches over his people. The first specific example of this comes from Genesis 20, when Abraham stayed in Gerar. When the king of Gerar took Sarah to be his wife, it would seem to have put at risk God’s promise to give Abraham a son from Sarah. But God protected the promise."
-    },
-    {
-      "ref": "Ps. 105:15",
-      "text": "anointed ones. God specially selected Abraham and his offspring to be his people."
+      "title": "Ps. 105:12–15",
+      "text": "Tanrı, halkını gözetliyor. Bunun ilk spesifik örneği Yaratılış 20'de İbrahim'in Gerar'da kaldığı zamandan gelir. Gerar kralının Sara'yı karısı olarak alması, Tanrı'nın İbrahim'e Sara'dan bir oğul verme vaadini tehlikeye atmış gibi görünüyor. Ama Tanrı vaadini korudu."
     },
     {
       "ref": "Ps. 105:16–17",
-      "text": "famine. See Gen. 41:57; 42:5. The psalm sees Joseph’s troubles with the eye of faith, saying that God had sent Joseph (see Gen. 45:5). Joseph was sold into slavery and rose to power in Egypt as an expression of God’s faithful care for his people during the famine."
+      "title": "Ps. 105:16–17",
+      "text": "**kıtlık**. Bkz. Yaratılış 41:57; 42:5 . Mezmur, Yusuf'un sıkıntılarını iman gözüyle görür ve Yusuf'u Tanrı'nın gönderdiğini söyler (bkz. Yaratılış 45:5). Yusuf köle olarak satıldı ve Tanrı'nın kıtlık sırasında halkına gösterdiği sadakatin bir ifadesi olarak Mısır'da iktidara geldi."
     },
     {
       "ref": "Ps. 105:24–38",
-      "text": "The next section recounts events from the book of Exodus, focusing on how God used Moses to lead the people out of Egypt, as he had promised (see Gen. 15:13–16)."
-    },
-    {
-      "ref": "Ps. 105:36",
-      "text": "the firstborn. The tenth and climactic plague (Ex. 12:29–30). See also Ps. 78:51. For the “firstborn” as the firstfruits of all their strength, see Gen. 49:3 and Deut. 21:17."
+      "title": "Ps. 105:24–38",
+      "text": "Bir sonraki bölümde Mısır'dan Çıkış kitabındaki olaylar anlatılıyor ve Tanrı'nın söz verdiği gibi insanları Mısır'dan çıkarmak için Musa'yı nasıl kullandığına odaklanılıyor (bkz. Yaratılış 15:13-16)."
     },
     {
       "ref": "Ps. 105:42–45",
-      "text": "The final section rushes ahead from the events of Exodus to the time of Joshua, recalling that God remembered his holy promise to establish his people in the land."
+      "title": "Ps. 105:42–45",
+      "text": "Son bölüm Mısır'dan Çıkış olaylarından Yeşu zamanına doğru hızla ilerliyor ve Tanrı'nın bu topraklarda halkını kurma konusundaki kutsal vaadini hatırladığını hatırlatıyor."
+    }
+  ],
+  "notes": [
+    {
+      "ref": "Ps. 105",
+      "text": "**Mezmur** . Mezmur 105, Mezmur 78 ve 106 gibi tarihi bir mezmurdur. Bu, Tanrı'nın halkıyla olan sadık ilişkilerinin bir kutlamasıdır. Özellikle Pentateuch'tan insanların kendilerine zarar vermiş olabilecek güçlü yabancılarla etkileşime girdiği bölümleri hatırlıyor: Abimelech (Yaratılış 20), Potiphar (Yaratılış 39–41) ve Firavun (Çıkış 7–14). Mezmur 105'in üslubu şükran havasındadır (1-6. ayetler). Şarkı söyleyen cemaatin her üyesi, Tanrı'nın gerçekleştirdiği tüm bu büyük işlerden kendisinin de yararlandığının bilincinde olmalıdır. Herkes Tanrı'nın kutsal halkının bir üyesi olarak yaşama çağrısını benimsemelidir (43-45 ayetler). 28-36. ayetler Mısırlılara gönderilen 10 beladan sekizini anlatırken beşinci ve altıncıyı dışarıda bırakır (Çık. 9:1-12). Mezmur ilk olarak dokuzuncu beladan bahseder (Mezmur 105:28) ve üçüncü ve dördüncüsü ters sıradadır (ayet 31). Mezmur, Mısır'dan Çıkış öyküsünde Tanrı'nın sadakatini gösteren olaylara odaklanır."
+    },
+    {
+      "ref": "Ps. 105:1",
+      "text": "**adını çağırın**. Rab'bi toplu ibadette aramanın bir ifadesi (bkz. Yaratılış 4:26; 12:8)."
+    },
+    {
+      "ref": "Ps. 105:8",
+      "text": "**antlaşmasını sonsuza kadar hatırlar**. Bu ifade için bkz. 111:5; Eski. 2:24; Lev. 26:42; Jer. 14:21 . Tanrı'yı ​​hatırlamak için bkz. 25:6–7 . **bin nesil**. Örn. 34:7 ve Yas. 7:9; Ps'deki nota bakınız. 100:5 ."
+    },
+    {
+      "ref": "Ps. 105:10",
+      "text": "**Sonsuz antlaşma**, İsrail'in bu topraklara sahip olacağı ve Tanrı'nın halkı olarak kalacağı vaadini ifade eder (bkz. Yaratılış 17:7, 19)."
+    },
+    {
+      "ref": "Ps. 105:15",
+      "text": "**meshedilmiş olanlar**. Tanrı, İbrahim'i ve onun soyunu kendi halkı olarak özel olarak seçti."
+    },
+    {
+      "ref": "Ps. 105:36",
+      "text": "**ilk doğan**. Onuncu ve doruğa ulaşan veba (Örn. 12:29–30). Ayrıca bkz. 78:51 . **Tüm güçlerinin ilk ürünü** olan “ilk doğanlar” için bkz. Yaratılış 49:3 ve Yas. 21:17 ."
     }
   ]
 }

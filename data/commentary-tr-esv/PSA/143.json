@@ -1,32 +1,36 @@
 {
-  "source": "ESV Global Study Bible (Crossway) — Türkçe çeviri — DeepL translator — Lisans kapsamında kullanılmaktadır",
+  "source": "ESV Global Study Bible (Crossway) — Türkçe çeviri — Google Translate — Lisans kapsamında kullanılmaktadır",
   "book_intro": "Blue Letter Bible bakanlığı ve BLB Enstitüsü, Kutsal Yazıların tahrif edilemezliğine olan kesin inancı da içeren tarihsel, muhafazakar Hristiyan inancına bağlıdır. BLB tarafından sağlanan metin ve ses içeriği çeşitli Evanjelik gelenekleri temsil ettiğinden, kaynak materyallerde aktarılan tüm fikir ve ilkelerin bu bakanlık tarafından toplamda onaylanması gerekmez.\n\nBlue Letter Kutsal Kitap çalışma araçları Kutsal Kitap'ı okumayı, araştırmayı ve çalışmayı kolay ve ödüllendirici hale getirir.\n\nBlue Letter Bible 501(c)(3) kar amacı gütmeyen bir kuruluştur\n\nTercih ettiğiniz Kutsal Kitap çevirilerinin sırasını Kutsal Kitaplar Sekmesi'nden Sürüm Seçici'ye (bu açılır pencere) kopyalayabilir ya da tam tersini yapabilirsiniz. Kutsal Kitaplar Sekmesi, Kutsal Kitap sayfalarındaki Araçlar özelliğinde bulunur:\n\nNot: MLA artık atıf standartlarının bir parçası olarak URL'yi zorunlu tutmamaktadır. Bireysel eğitmenler veya editörler yine de URL'lerin kullanılmasını isteyebilir.\n\nHata: Parolalar en az 6 karakterden oluşmalıdır\n\nHata: Kullanıcı adları yalnızca harf, rakam, nokta, tire veya alt çizgi içermelidir\n\nParolalar en az 6 karakterden oluşmalıdır.\n\t\t\t\t\t\t\tKullanıcı adları yalnızca harf, rakam, nokta, tire veya alt çizgi içermelidir.\n\nKaydolduğunuz için teşekkür ederiz. Verdiğiniz adrese bir doğrulama e-postası gönderildi.\n\nOrtaklığınız tüm yaptıklarımızı mümkün kılıyor. Bugün dua ederek bir destek hediyesi vermeyi düşünür müsünüz?",
-  "chapter_intro": "",
-  "passages": [],
-  "notes": [
-    {
-      "ref": "Ps. 143",
-      "text": "Psalm . This individual lament is a penitential psalm. The person’s troubles make him aware of his own sins."
-    },
+  "passages": [
     {
       "ref": "Ps. 143:1–2",
-      "text": "The opening cry for help asks God to give ear to my pleas for mercy. Hence v. 2 prays, enter not into judgment with your servant, for no one living is righteous before you. The term “righteous” is commonly used to describe the people of God in general. Here, however, the idea seems to be “qualified to stand in God’s presence,” and not even the faithful are that in themselves."
-    },
-    {
-      "ref": "Ps. 143:4",
-      "text": "When the spirit or “soul” faints, the person is at the end of his strength."
+      "title": "Ps. 143:1–2",
+      "text": "Yardım için açılış çığlığı, Tanrı'dan **merhamet ricalarıma kulak vermesini** ister. Bu nedenle ayet 2, **hizmetkarınızla yargılamaya girmeyin, çünkü sizden önce yaşayan hiç kimse** **doğru değildir** diye dua eder. “Adil” terimi genellikle Tanrı'nın halkını genel olarak tanımlamak için kullanılır. Ancak burada fikir \"Tanrı'nın huzurunda durmaya yeterli\" gibi görünüyor ve sadık olanlar bile kendi başlarına öyle değil."
     },
     {
       "ref": "Ps. 143:5–6",
-      "text": "Being at the end of his strength need not mean that he gives up. Instead, if he can remember the days of old, he will find in himself fresh courage to stretch out his hands to God. The weary soul thirsts for God as its source of energy."
+      "title": "Ps. 143:5–6",
+      "text": "Gücünün sonuna gelmiş olması pes ettiği anlamına gelmez. Bunun yerine, eğer **eski günleri hatırlayabilirse**, ellerini Tanrı'ya **uzatmak** için kendi içinde taze bir cesaret bulacaktır. Yorgun ruh, enerji kaynağı olarak Tanrı'ya susamıştır."
     },
     {
       "ref": "Ps. 143:7–8",
-      "text": "The situation is still desperate. Therefore he asks, answer me quickly. He wants to hear in the morning of God’s steadfast love. He also prays for moral guidance: make me know the way I should go. Lift up my soul expresses deep dependence."
+      "title": "Ps. 143:7–8",
+      "text": "Durum hâlâ umutsuz. Bu nedenle **bana çabuk cevap ver** diye soruyor. Sabahleyin Tanrı'nın **sadık sevgisini** duymak istiyor. Ayrıca ahlaki rehberlik için de dua ediyor: **gitmem gereken yolu bana bildir**. **Lift up my soul** derin bağımlılığı ifade eder."
     },
     {
       "ref": "Ps. 143:9–12",
-      "text": "The prayer closes by expressing trust in a number of ways: I have fled to you for refuge, you are my God, and the expectation based on God’s steadfast love. For your name’s sake means “for the sake of your good reputation,” particularly God’s reputation for faithfulness to his promises."
+      "title": "Ps. 143:9–12",
+      "text": "Dua, güvenin çeşitli şekillerde ifade edilmesiyle sona erer: **Sığınmak için sana kaçtım**, **sen benim Tanrımsın** ve Tanrı'nın **sadık sevgisine** dayanan beklenti. **Adınız uğruna**, \"iyi itibarınız uğruna\", özellikle de Tanrı'nın vaatlerine sadık kalmasıyla ilgili itibarı anlamına gelir."
+    }
+  ],
+  "notes": [
+    {
+      "ref": "Ps. 143",
+      "text": "**Mezmur** . Bu bireysel ağıt bir tövbe mezmurudur. Kişinin yaşadığı sıkıntılar, kendi günahlarının farkına varmasını sağlar."
+    },
+    {
+      "ref": "Ps. 143:4",
+      "text": "**Ruh** veya \"ruh\" **bayıldığında** kişi gücünün sonuna gelmiştir."
     }
   ]
 }

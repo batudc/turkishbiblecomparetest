@@ -1,40 +1,45 @@
 {
-  "source": "ESV Global Study Bible (Crossway) — Türkçe çeviri — DeepL translator — Lisans kapsamında kullanılmaktadır",
+  "source": "ESV Global Study Bible (Crossway) — Türkçe çeviri — Google Translate — Lisans kapsamında kullanılmaktadır",
   "book_intro": "Blue Letter Bible bakanlığı ve BLB Enstitüsü, Kutsal Yazıların tahrif edilemezliğine olan kesin inancı da içeren tarihsel, muhafazakar Hristiyan inancına bağlıdır. BLB tarafından sağlanan metin ve ses içeriği çeşitli Evanjelik gelenekleri temsil ettiğinden, kaynak materyallerde aktarılan tüm fikir ve ilkelerin bu bakanlık tarafından toplamda onaylanması gerekmez.\n\nBlue Letter Kutsal Kitap çalışma araçları Kutsal Kitap'ı okumayı, araştırmayı ve çalışmayı kolay ve ödüllendirici hale getirir.\n\nBlue Letter Bible 501(c)(3) kar amacı gütmeyen bir kuruluştur\n\nTercih ettiğiniz Kutsal Kitap çevirilerinin sırasını Kutsal Kitaplar Sekmesi'nden Sürüm Seçici'ye (bu açılır pencere) kopyalayabilir veya tam tersini yapabilirsiniz. Kutsal Kitaplar Sekmesi, Kutsal Kitap sayfalarındaki Araçlar özelliğinde bulunur:\n\nNot: MLA artık atıf standartlarının bir parçası olarak URL'yi zorunlu tutmamaktadır. Bireysel eğitmenler veya editörler yine de URL'lerin kullanılmasını isteyebilir.\n\nHata: Parolalar en az 6 karakterden oluşmalıdır\n\nHata: Kullanıcı adları yalnızca harf, rakam, nokta, tire veya alt çizgi içermelidir\n\nŞifreler en az 6 karakterden oluşmalıdır.\n\t\t\t\t\t\t\tKullanıcı adları yalnızca harf, rakam, nokta, tire veya alt çizgi içermelidir.\n\nKaydolduğunuz için teşekkür ederiz. Verdiğiniz adrese bir doğrulama e-postası gönderildi.\n\nOrtaklığınız tüm yaptıklarımızı mümkün kılıyor. Bugün dua ederek bir destek hediyesi vermeyi düşünür müsünüz?",
-  "chapter_intro": "",
-  "passages": [],
-  "notes": [
+  "passages": [
     {
       "ref": "33:1–20",
-      "text": "Manasseh. Compare 2 Kings 21:1–10, 17–18. Kings presents Manasseh as the worst of Judah’s kings, whose sins make the exile inevitable. Chronicles presents him as an example of forgiveness and restoration."
-    },
-    {
-      "ref": "2 Chron. 33:1",
-      "text": "fifty-five years. 697–642 b.c., probably including a co-regency of 10 years with Hezekiah."
+      "title": "Manaşşe.",
+      "text": "2 Kral 21:1–10, 17–18'i karşılaştırın. Krallar, Manaşşe'yi, günahları sürgünü kaçınılmaz kılan Yahuda krallarının en kötüsü olarak sunar. Chronicles onu bağışlamanın ve yenilenmenin bir örneği olarak sunuyor."
     },
     {
       "ref": "2 Chron. 33:2–9",
-      "text": "These verses largely reproduce 2 Kings 21:2–9 (see notes)."
-    },
-    {
-      "ref": "2 Chron. 33:10",
-      "text": "The Lord spoke to Manasseh and to his people. Compare 2 Kings 21:10–15. But they paid no attention. Manasseh and his people are like Judah’s final generation (2 Chron. 36:15–16)."
+      "title": "2 Kron. 33:2–9",
+      "text": "Bu ayetler büyük ölçüde 2 Krallar 21:2–9'u tekrarlamaktadır (bkz. notlar)."
     },
     {
       "ref": "2 Chron. 33:12–13",
-      "text": "Compare 7:14."
+      "title": "2 Kron. 33:12–13",
+      "text": "7:14'ü karşılaştırın."
     },
     {
       "ref": "2 Chron. 33:15–17",
-      "text": "Manasseh’s reform involved removing the pagan religious symbols that he himself had put in place (vv. 3, 7). The reform centered on the temple, and little if any of it extended beyond Jerusalem. Meanwhile, the people continued to worship at the high places, rather than at the temple. Manasseh removed the idols (v. 15), but it is not stated that he destroyed them. Amon would later put the idols back to use. Later still, the good king Josiah would destroy them (34:4–7)."
-    },
-    {
-      "ref": "2 Chron. 33:19",
-      "text": "faithlessness. See note on 1 Chron. 2:3–8."
+      "title": "2 Kron. 33:15–17",
+      "text": "Manaşşe'nin reformu, kendisinin yerleştirdiği pagan dini sembollerinin kaldırılmasını içeriyordu (3, 7. ayetler). Reform mabede odaklanıyordu ve çok az kısmı Kudüs'ün ötesine uzanıyordu. Bu arada halk tapınak yerine yüksek yerlerde ibadet etmeye devam etti. Manaşşe putları kaldırdı (ayet 15), ancak onları yok ettiği belirtilmedi. Amon daha sonra putları tekrar kullanıma sunacaktı. Daha sonra iyi kral Yoşiya onları yok edecekti (34:4-7)."
     },
     {
       "ref": "33:21–25",
-      "text": "Amon. Compare 2 Kings 21:19–24. During his brief reign (642–640 b.c.), Amon did not humble himself. Instead he incurred guilt more and more."
+      "title": "Amon.",
+      "text": "2 Kral 21:19–24'ü karşılaştırın. Kısa saltanatı sırasında (M.Ö. 642-640), Amon **kendini alçakgönüllü kılmadı**. Bunun yerine **giderek daha fazla suçluluk duygusuna maruz kaldı**."
+    }
+  ],
+  "notes": [
+    {
+      "ref": "2 Chron. 33:1",
+      "text": "**elli beş yıl**. MÖ 697–642 muhtemelen Hizkiya ile 10 yıllık ortak vekillik de dahil."
+    },
+    {
+      "ref": "2 Chron. 33:10",
+      "text": "**Rab, Manaşşe ve halkıyla konuştu**. 2 Kral 21:10–15'i karşılaştırın. **Fakat hiç dikkat etmediler**. Manaşşe ve halkı Yahuda'nın son nesli gibidir (2 Tarihler 36:15–16)."
+    },
+    {
+      "ref": "2 Chron. 33:19",
+      "text": "**sadakatsizlik**. 1 Kron hakkındaki nota bakın. 2:3–8 ."
     }
   ]
 }

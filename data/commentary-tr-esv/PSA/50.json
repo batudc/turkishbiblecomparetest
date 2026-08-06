@@ -1,28 +1,31 @@
 {
-  "source": "ESV Global Study Bible (Crossway) — Türkçe çeviri — DeepL translator — Lisans kapsamında kullanılmaktadır",
+  "source": "ESV Global Study Bible (Crossway) — Türkçe çeviri — Google Translate — Lisans kapsamında kullanılmaktadır",
   "book_intro": "Blue Letter Bible bakanlığı ve BLB Enstitüsü, Kutsal Yazıların tahrif edilemezliğine olan kesin inancı da içeren tarihsel, muhafazakar Hristiyan inancına bağlıdır. BLB tarafından sağlanan metin ve ses içeriği çeşitli Evanjelik gelenekleri temsil ettiğinden, kaynak materyallerde aktarılan tüm fikir ve ilkelerin bu bakanlık tarafından toplamda onaylanması gerekmez.\n\nBlue Letter Kutsal Kitap çalışma araçları Kutsal Kitap'ı okumayı, araştırmayı ve çalışmayı kolay ve ödüllendirici hale getirir.\n\nBlue Letter Bible 501(c)(3) kar amacı gütmeyen bir kuruluştur\n\nTercih ettiğiniz Kutsal Kitap çevirilerinin sırasını Kutsal Kitaplar Sekmesi'nden Sürüm Seçici'ye (bu açılır pencere) kopyalayabilir ya da tam tersini yapabilirsiniz. Kutsal Kitaplar Sekmesi, Kutsal Kitap sayfalarındaki Araçlar özelliğinde bulunur:\n\nNot: MLA artık atıf standartlarının bir parçası olarak URL'yi zorunlu tutmamaktadır. Bireysel eğitmenler veya editörler yine de URL'lerin kullanılmasını isteyebilir.\n\nHata: Parolalar en az 6 karakterden oluşmalıdır\n\nHata: Kullanıcı adları yalnızca harf, rakam, nokta, tire veya alt çizgi içermelidir\n\nParolalar en az 6 karakterden oluşmalıdır.\n\t\t\t\t\t\t\tKullanıcı adları yalnızca harf, rakam, nokta, tire veya alt çizgi içermelidir.\n\nKaydolduğunuz için teşekkür ederiz. Verdiğiniz adrese bir doğrulama e-postası gönderildi.\n\nOrtaklığınız tüm yaptıklarımızı mümkün kılıyor. Bugün dua ederek bir destek hediyesi vermeyi düşünür müsünüz?",
-  "chapter_intro": "",
-  "passages": [],
-  "notes": [
-    {
-      "ref": "Ps. 50",
-      "text": "Psalm . Through this psalm the worshipers announce God’s standards for living as part of his covenant people. The God who summons the earth (v. 1) plans to judge his own people (v. 4). He particularly warns all who presume that the sacrificial system is a way to satisfy God without having a living relationship with him."
-    },
+  "passages": [
     {
       "ref": "Ps. 50:1–6",
-      "text": "The Lord, the God of Israel, is the Mighty One, who made and rules heaven and earth. So when he speaks and summons the earth, he has the right to expect all mankind to pay attention. He especially expects it from Israel, his faithful ones, who made a covenant with him by sacrifice (v. 5; see Ex. 24:8)."
+      "title": "Ps. 50:1–6",
+      "text": "İsrail'in Tanrısı **Rab**, göğü ve yeri yaratan ve yöneten** Güçlü Olan'dır**. Dolayısıyla o, **konuştuğunda ve dünyayı çağırdığında**, tüm insanlığın dikkat etmesini beklemek hakkına sahiptir. Bunu özellikle kendisiyle **kurban yoluyla** bir antlaşma yapan İsrail'den, yani sadık kullarından bekliyor (ayet 5; bkz. Çıkış 24:8)."
     },
     {
       "ref": "Ps. 50:7–15",
-      "text": "God’s people must realize that he does not depend upon sacrifices in any way (v. 8) since he owns the entire world (vv. 10–13). God wants his people to offer a sacrifice of thanksgiving and to perform vows (v. 14), both of which are kinds of peace offerings (Lev. 7:11–12, 16). Membership in God’s people is about being welcome in his presence (Ps. 50:14), depending on him (v. 15), and dealing justly with others (vv. 19–20, 23)."
+      "title": "Ps. 50:7–15",
+      "text": "Tanrı'nın halkı, O'nun tüm dünyanın sahibi olduğundan (10-13. ayetler) hiçbir şekilde **kurbanlara** bağlı olmadığının farkına varmalıdır (ayet 8). Tanrı, halkının bir **şükran kurbanı** sunmasını ve **adaklar** (ayet 14) yerine getirmesini ister; bunların her ikisi de bir tür esenlik sunularıdır (Lev. 7:11–12, 16). Tanrı'nın halkına üye olmak, O'nun huzurunda hoş karşılanmak (Mezmur 50:14), O'na güvenmek (ayet 15) ve başkalarına adil davranmak (ayetler 19–20, 23) ile ilgilidir."
     },
     {
       "ref": "Ps. 50:16–22",
-      "text": "The wicked here are members of the covenant people who despise the privileges and responsibilities of the covenant (vv. 16–17). The covenant should have connected them with all of God’s people to tell the world of God’s greatness, but instead they use their tongues for destructive purposes (vv. 18–20)."
+      "title": "Ps. 50:16–22",
+      "text": "Buradaki **kötüler**, antlaşmanın ayrıcalıklarını ve sorumluluklarını küçümseyen antlaşmalı kişilerin üyeleridir (16-17 ayetler). Antlaşmanın, dünyaya Tanrı'nın büyüklüğünü anlatmak için onları Tanrı'nın tüm halkıyla bağlantılandırması gerekiyordu, ancak bunun yerine dillerini yıkıcı amaçlar için kullanıyorlar (18-20 ayetler)."
+    }
+  ],
+  "notes": [
+    {
+      "ref": "Ps. 50",
+      "text": "**Mezmur** . Bu mezmur aracılığıyla tapınanlar, Tanrı'nın, antlaşma halkının bir parçası olarak yaşama standartlarını duyururlar. Dünyayı çağıran Tanrı (ayet 1) kendi halkını yargılamayı planlıyor (ayet 4). Kurban sisteminin Tanrı ile canlı bir ilişki kurmadan onu tatmin etmenin bir yolu olduğunu düşünen herkesi özellikle uyarıyor."
     },
     {
       "ref": "Ps. 50:23",
-      "text": "Membership in God’s favored people should mean joyful delight in God’s presence (thanksgiving as his sacrifice), and a just and kind life in fellowship with God’s people (orders his way rightly)."
+      "text": "Tanrı'nın ayrıcalıklı halkına üye olmak, Tanrı'nın huzurunda sevinçli bir zevk (**onun kurbanı olarak şükran**) ve Tanrı'nın halkıyla paydaşlık içinde adil ve nazik bir yaşam (**onun yolunu doğru şekilde emreder**) anlamına gelmelidir."
     }
   ]
 }

@@ -1,24 +1,27 @@
 {
-  "source": "ESV Global Study Bible (Crossway) — Türkçe çeviri — DeepL translator — Lisans kapsamında kullanılmaktadır",
+  "source": "ESV Global Study Bible (Crossway) — Türkçe çeviri — Google Translate — Lisans kapsamında kullanılmaktadır",
   "book_intro": "Blue Letter Bible bakanlığı ve BLB Enstitüsü, Kutsal Yazıların tahrif edilemezliğine olan kesin inancı da içeren tarihsel, muhafazakar Hristiyan inancına bağlıdır. BLB tarafından sağlanan metin ve ses içeriği çeşitli Evanjelik gelenekleri temsil ettiğinden, kaynak materyallerde aktarılan tüm fikir ve ilkelerin bu bakanlık tarafından toplamda onaylanması gerekmez.\n\nBlue Letter Kutsal Kitap çalışma araçları Kutsal Kitap'ı okumayı, araştırmayı ve çalışmayı kolay ve ödüllendirici hale getirir.\n\nBlue Letter Bible 501(c)(3) kar amacı gütmeyen bir kuruluştur\n\nTercih ettiğiniz Kutsal Kitap çevirilerinin sırasını Kutsal Kitaplar Sekmesi'nden Sürüm Seçici'ye (bu açılır pencere) kopyalayabilir ya da tam tersini yapabilirsiniz. Kutsal Kitaplar Sekmesi, Kutsal Kitap sayfalarındaki Araçlar özelliğinde bulunur:\n\nNot: MLA artık atıf standartlarının bir parçası olarak URL'yi zorunlu tutmamaktadır. Bireysel eğitmenler veya editörler yine de URL'lerin kullanılmasını isteyebilir.\n\nHata: Parolalar en az 6 karakterden oluşmalıdır\n\nHata: Kullanıcı adları yalnızca harf, rakam, nokta, tire veya alt çizgi içermelidir\n\nParolalar en az 6 karakterden oluşmalıdır.\n\t\t\t\t\t\t\tKullanıcı adları yalnızca harf, rakam, nokta, tire veya alt çizgi içermelidir.\n\nKaydolduğunuz için teşekkür ederiz. Verdiğiniz adrese bir doğrulama e-postası gönderildi.\n\nOrtaklığınız tüm yaptıklarımızı mümkün kılıyor. Bugün dua ederek bir destek hediyesi vermeyi düşünür müsünüz?",
-  "chapter_intro": "",
-  "passages": [],
-  "notes": [
-    {
-      "ref": "Ps. 56",
-      "text": "Psalm . Many take this to be an individual lament, but it could also be a psalm of anticipated thanksgiving. The description of troubles and prayer changes into gratitude that God has heard and will act, as he has acted in the past. The specific troubles arise from people who aim to hurt the faithful singer, as is common with lament psalms. The title links the psalm with the events of 1 Sam. 21:10–15."
-    },
+  "passages": [
     {
       "ref": "Ps. 56:1–4",
-      "text": "The singer’s situation can be seen in the repetition of trample and attack. His response is seen in the repetition of trust. This enables those who sing the psalm to rightly respond when they are afraid."
+      "title": "Ps. 56:1–4",
+      "text": "Şarkıcının durumu **ezilme** ve **saldırı** tekrarlarında görülebilir. Onun tepkisi **güvenin** tekrarında görülüyor. Bu, mezmur söyleyenlerin **korktuklarında** doğru tepki vermelerini sağlar."
     },
     {
       "ref": "Ps. 56:8–11",
-      "text": "God keeps account of the tears of his faithful ones. He is for those who trust in him."
+      "title": "Ps. 56:8–11",
+      "text": "Tanrı, sadık kullarının **gözyaşlarının** hesabını tutar. O, kendisine güvenenlerin **içindir**."
     },
     {
       "ref": "Ps. 56:12–13",
-      "text": "The singer expresses his confidence that, if “God is for him” (v. 9), it is as good as done: God has delivered his soul from death."
+      "title": "Ps. 56:12–13",
+      "text": "Şarkıcı, eğer \"Tanrı onun içindir\" (ayet 9) ise bunun yapılmış kadar iyi olduğuna olan güvenini ifade eder: Tanrı onun ruhunu ölümden **kurtarmıştır**."
+    }
+  ],
+  "notes": [
+    {
+      "ref": "Ps. 56",
+      "text": "**Mezmur** . Birçoğu bunu bireysel bir ağıt olarak görüyor, ancak aynı zamanda beklenen şükran gününün bir mezmuru da olabilir. Belaların ve duanın anlatılması, Allah'ın geçmişte yaptığı gibi işittiği ve harekete geçeceğine şükretmeye dönüşür. Ağıt mezmurlarında yaygın olduğu gibi, sadık şarkıcıya zarar vermeyi amaçlayan kişilerden belirli sorunlar ortaya çıkar. Başlık, mezmuru 1 Sam'in olaylarıyla ilişkilendiriyor. 21:10–15 ."
     }
   ]
 }

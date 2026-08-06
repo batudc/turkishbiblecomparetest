@@ -1,44 +1,50 @@
 {
-  "source": "ESV Global Study Bible (Crossway) — Türkçe çeviri — DeepL translator — Lisans kapsamında kullanılmaktadır",
+  "source": "ESV Global Study Bible (Crossway) — Türkçe çeviri — Google Translate — Lisans kapsamında kullanılmaktadır",
   "book_intro": "Blue Letter Bible bakanlığı ve BLB Enstitüsü, Kutsal Yazıların tahrif edilemezliğine olan kesin inancı da içeren tarihsel, muhafazakar Hristiyan inancına bağlıdır. BLB tarafından sağlanan metin ve ses içeriği çeşitli Evanjelik gelenekleri temsil ettiğinden, kaynak materyallerde aktarılan tüm fikir ve ilkelerin bu bakanlık tarafından toplamda onaylanması gerekmez.\n\nBlue Letter Kutsal Kitap çalışma araçları Kutsal Kitap'ı okumayı, araştırmayı ve çalışmayı kolay ve ödüllendirici hale getirir.\n\nBlue Letter Bible 501(c)(3) kar amacı gütmeyen bir kuruluştur\n\nTercih ettiğiniz Kutsal Kitap çevirilerinin sırasını Kutsal Kitaplar Sekmesi'nden Sürüm Seçici'ye (bu açılır pencere) kopyalayabilir ya da tam tersini yapabilirsiniz. Kutsal Kitaplar Sekmesi, Kutsal Kitap sayfalarındaki Araçlar özelliğinde bulunur:\n\nNot: MLA artık atıf standartlarının bir parçası olarak URL'yi zorunlu tutmamaktadır. Bireysel eğitmenler veya editörler yine de URL'lerin kullanılmasını isteyebilir.\n\nHata: Parolalar en az 6 karakterden oluşmalıdır\n\nHata: Kullanıcı adları yalnızca harf, rakam, nokta, tire veya alt çizgi içermelidir\n\nParolalar en az 6 karakterden oluşmalıdır.\n\t\t\t\t\t\t\tKullanıcı adları yalnızca harf, rakam, nokta, tire veya alt çizgi içermelidir.\n\nKaydolduğunuz için teşekkür ederiz. Verdiğiniz adrese bir doğrulama e-postası gönderildi.\n\nOrtaklığınız tüm yaptıklarımızı mümkün kılıyor. Bugün dua ederek bir destek hediyesi vermeyi düşünür müsünüz?",
-  "chapter_intro": "",
-  "passages": [],
-  "notes": [
-    {
-      "ref": "Ps. 25",
-      "text": "Psalm . In this lament, individual members of the worshiping assembly ask God for help in their various troubles. While the psalm expresses faith in God’s kindness, it does not end in the confident way of most laments (vv. 16–22). The psalm also includes penitential elements, as the worshipers confess their sins and pray for forgiveness (vv. 6–7, 11, 18). There are echoes of Pentateuch promises, showing that the godly in Israel were to view the Sinai covenant as a gracious one."
-    },
-    {
-      "ref": "Ps. 25:1",
-      "text": "I lift up my soul means “I direct my desire” (compare 24:4; 86:4; 143:8)."
-    },
+  "passages": [
     {
       "ref": "Ps. 25:2–3",
-      "text": "These worshipers, who see themselves as being among the faithful (I trust . . . wait for you), expect that their hope in the Lord has a worthy basis, so that they will not be put to shame."
+      "title": "Ps. 25:2–3",
+      "text": "Kendilerini sadıklar arasında gören bu ibadetçiler (**İnanıyorum ki... sizi bekliyorum**), **utanmayacakları** için Rab'be olan umutlarının değerli bir temele sahip olmasını beklerler."
     },
     {
       "ref": "Ps. 25:4–5",
-      "text": "Those who trust in the Lord seek his guidance. They want to learn what manner of life (ways, paths) pleases him and how his commands apply to their specific circumstances."
+      "title": "Ps. 25:4–5",
+      "text": "Rab'be güvenenler O'nun rehberliğini ararlar. Hangi yaşam tarzının (**yollar**, **yollar**) onu memnun ettiğini ve emirlerinin kendi özel koşullarına nasıl uygulanacağını öğrenmek istiyorlar."
     },
     {
       "ref": "Ps. 25:6–7",
-      "text": "The terms mercy, steadfast love, sins, and transgressions remind one of Ex. 34:6–7, which tells Israel of God’s gracious intentions toward them. For God to remember something is for him to attend to it in order to act (compare Ps. 8:4; 9:12; 20:3). The faithful ask God to attend to them in mercy rather than according to their sins (compare 79:8)."
+      "title": "Ps. 25:6–7",
+      "text": "**Merhamet**, **kararlı sevgi**, **günahlar** ve **günahlar** terimleri birine Eski'yi hatırlatır. 34:6–7, İsrail'e Tanrı'nın onlara yönelik lütufkar niyetlerini anlatır. Tanrı'nın bir şeyi **hatırlaması**, harekete geçmek için onunla ilgilenmesi anlamına gelir (Mezmur 8:4; 9:12; 20:3 ile karşılaştırın). İnananlar Tanrı'dan günahlarına göre değil, merhametle kendilerine yardım etmesini isterler (79:8 ile karşılaştırın)."
     },
     {
       "ref": "Ps. 25:8–11",
-      "text": "This section celebrates the way in which God forgives his people and guides them in moral growth. As the people keep God’s covenant, they will come to know the forgiveness and guidance that it graciously offers."
+      "title": "Ps. 25:8–11",
+      "text": "Bu bölüm, Tanrı'nın halkını nasıl affettiğini ve onlara ahlaki gelişim konusunda nasıl rehberlik ettiğini kutluyor. İnsanlar Tanrı'nın ahdine **tuttukça**, bu ahdin nezaketle sunduğu bağışlanmayı ve rehberliği öğrenecekler."
     },
     {
       "ref": "Ps. 25:12–15",
-      "text": "Verse 12 focuses on the particular person (the man) who fears the Lord. Such a person will know God’s guidance, blessing, and friendship (compare 55:14; Prov. 3:32)."
+      "title": "Ps. 25:12–15",
+      "text": "12. ayet, **Rab'den korkan** belirli bir kişiye (**adam**) odaklanır. Böyle bir kişi, Tanrı'nın rehberliğini, bereketini ve **dostluğunu** bilecektir (55:14; Özd. 3:32 ile karşılaştırın)."
     },
     {
       "ref": "Ps. 25:16–21",
-      "text": "The psalmist prays for deliverance from the affliction, trouble, and foes that threaten (vv. 17–19). He can pray with confidence because his sins are forgiven (v. 18b). The virtues of integrity and uprightness are God’s means of protecting his people."
+      "title": "Ps. 25:16–21",
+      "text": "Mezmur yazarı, **sıkıntıdan**, **sıkıntıdan** ve tehdit eden **düşmanlardan** kurtulmak için dua eder (17-19 ayetler). **Günahları** bağışlandığı için güvenle dua edebilir (ayet 18b). **Doğruluk** ve **dürüstlük** erdemleri, Tanrı'nın halkını koruma aracıdır."
+    }
+  ],
+  "notes": [
+    {
+      "ref": "Ps. 25",
+      "text": "**Mezmur** . Bu ağıtta ibadet eden meclisin bireysel üyeleri, çeşitli sıkıntılarında Allah'tan yardım dilerler. Mezmur, Tanrı'nın iyiliğine olan inancı ifade etse de, ağıtların çoğunun kendinden emin bir şekilde bitmiyor (16-22 ayetler). Mezmur aynı zamanda ibadet edenlerin günahlarını itiraf edip bağışlanma için dua etmeleri nedeniyle tövbe unsurlarını da içerir (6-7, 11, 18 ayetler). İsrail'deki dindarların Sina antlaşmasını lütufkar bir antlaşma olarak görmesi gerektiğini gösteren Pentateuch'un vaatlerinin yankıları var."
+    },
+    {
+      "ref": "Ps. 25:1",
+      "text": "**Ruhumu kaldırıyorum**, \"arzumu yönlendiriyorum\" anlamına gelir (24:4; 86:4; 143:8 ile karşılaştırın)."
     },
     {
       "ref": "Ps. 25:22",
-      "text": "Redeem generally means rescue and protect, especially in relation to Israel (see 44:26; 130:7–8) or a faithful worshiper (see 34:22; 55:18)."
+      "text": "**Kurtarma** genellikle, özellikle **İsrail** (bkz. 44:26; 130:7–8) veya sadık bir ibadetçi (bkz. 34:22; 55:18) ile ilgili olarak kurtarmak ve korumak anlamına gelir."
     }
   ]
 }

@@ -1,36 +1,41 @@
 {
-  "source": "ESV Global Study Bible (Crossway) — Türkçe çeviri — DeepL translator — Lisans kapsamında kullanılmaktadır",
+  "source": "ESV Global Study Bible (Crossway) — Türkçe çeviri — Google Translate — Lisans kapsamında kullanılmaktadır",
   "book_intro": "Blue Letter Bible bakanlığı ve BLB Enstitüsü, Kutsal Yazıların tahrif edilemezliğine olan kesin inancı da içeren tarihsel, muhafazakar Hristiyan inancına bağlıdır. BLB tarafından sağlanan metin ve ses içeriği çeşitli Evanjelik gelenekleri temsil ettiğinden, kaynak materyallerde aktarılan tüm fikir ve ilkelerin bu bakanlık tarafından toplamda onaylanması gerekmez.\n\nBlue Letter Kutsal Kitap çalışma araçları Kutsal Kitap'ı okumayı, araştırmayı ve çalışmayı kolay ve ödüllendirici hale getirir.\n\nBlue Letter Bible 501(c)(3) kar amacı gütmeyen bir kuruluştur\n\nTercih ettiğiniz Kutsal Kitap çevirilerinin sırasını Kutsal Kitaplar Sekmesi'nden Sürüm Seçici'ye (bu açılır pencere) kopyalayabilir ya da tam tersini yapabilirsiniz. Kutsal Kitaplar Sekmesi, Kutsal Kitap sayfalarındaki Araçlar özelliğinde bulunur:\n\nNot: MLA artık atıf standartlarının bir parçası olarak URL'yi zorunlu tutmamaktadır. Bireysel eğitmenler veya editörler yine de URL'lerin kullanılmasını isteyebilir.\n\nHata: Parolalar en az 6 karakterden oluşmalıdır\n\nHata: Kullanıcı adları yalnızca harf, rakam, nokta, tire veya alt çizgi içermelidir\n\nParolalar en az 6 karakterden oluşmalıdır.\n\t\t\t\t\t\t\tKullanıcı adları yalnızca harf, rakam, nokta, tire veya alt çizgi içermelidir.\n\nKaydolduğunuz için teşekkür ederiz. Verdiğiniz adrese bir doğrulama e-postası gönderildi.\n\nOrtaklığınız tüm yaptıklarımızı mümkün kılıyor. Bugün dua ederek bir destek hediyesi vermeyi düşünür müsünüz?",
-  "chapter_intro": "",
-  "passages": [],
-  "notes": [
-    {
-      "ref": "Ps. 90",
-      "text": "Psalm . This community lament relates to some unspecified disaster (vv. 13, 15). It asks God to have pity on his people and bless them. The title credits the psalm to Moses. The psalm pictures Israel around the time of Deuteronomy, as they were about to cross the Jordan River and enter the Promised Land. Their parents had followed Moses out of Egypt, through the parted Red Sea—and yet they rebelled, so God swore that they would not enter the land (Num. 14:20–36). For the Israelites to accomplish their mission and for God to establish the work of their hands (Ps. 90:17), the people need to embrace the covenant and live in faith toward God. Those who sing this should see themselves as the heirs of that generation, seeking God’s blessing so that they can carry out their mission."
-    },
+  "passages": [
     {
       "ref": "Ps. 90:1–2",
-      "text": "The Lord is the dwelling place, that is, the home and refuge, for his people in all generations because he himself is eternal."
+      "title": "Ps. 90:1–2",
+      "text": "Rab, **tüm nesiller boyunca** halkının **mesken yeridir**, yani evi ve sığınağıdır çünkü kendisi sonsuzdur."
     },
     {
       "ref": "Ps. 90:3–6",
-      "text": "In contrast to God’s eternity, human life—even the longest imaginable (a thousand years)—is insignificantly brief (a watch in the night, a flood, a dream, grass). See v. 10; 103:15–18; James 1:11. The psalm recalls God’s sentence in Eden on Adam and Eve’s sin (Ps. 90:3); the short life spans of humans are due to sin’s entry into the world."
+      "title": "Ps. 90:3–6",
+      "text": "Tanrı'nın sonsuzluğunun aksine, insan yaşamı - hayal edilebilecek en uzun süre bile (**bin yıl**) - önemsiz derecede kısadır (**gece nöbeti**, **sel**,** rüya**, **çimen**). Bkz. ayet 10; 103:15–18; Yakup 1:11. Mezmur, Tanrı'nın Aden'de Adem ile Havva'nın günahına ilişkin hükmünü hatırlatır (Mezmur 90:3); İnsanların kısa ömürleri günahın dünyaya girmesinden kaynaklanmaktadır."
     },
     {
       "ref": "Ps. 90:7–11",
-      "text": "God’s people reflect on the unfaithfulness of past generations. They harbored iniquities and secret sins, which resulted in God’s anger and wrath. The whole body of God’s people suffers from the presence and influence of its unfaithful members. God’s judgments that remove the unfaithful from his people are hard even for the faithful to endure. Hence the whole people experience toil and trouble during their brief lives."
-    },
-    {
-      "ref": "Ps. 90:12",
-      "text": "teach us to number our days. In view of the psalm’s theme, this refers especially to the ability to make the most of one’s days, since they are so few. The heart of wisdom would enable the faithful to live by the right priorities."
+      "title": "Ps. 90:7–11",
+      "text": "Tanrı’nın halkı geçmiş nesillerin sadakatsizliği üzerinde düşünüyor. **Kötülükler** ve **gizli günahlar** beslediler; bu da Tanrı'nın **öfke** ve **gazabıyla** sonuçlandı. Tanrı'nın halkının tamamı, sadakatsiz üyelerinin varlığından ve etkisinden dolayı acı çekiyor. Tanrı'nın sadakatsizleri halkından uzaklaştıran hükümlerine sadık olanlar için bile katlanmak zordur. Dolayısıyla tüm insanlar kısa hayatları boyunca ** zahmet ve sıkıntı** yaşarlar."
     },
     {
       "ref": "Ps. 90:13–15",
-      "text": "Return, that is, come back to us, turn from your anger (as in Ex. 32:12). in the morning. Probably a metaphor for the time when God will make his steadfast love clear to his people."
+      "title": "Ps. 90:13–15",
+      "text": "**Geri dönün**, yani bize geri dönün, öfkenizden dönün (Çık. 32:12'deki gibi). **sabah**. Muhtemelen Tanrı'nın, halkına sarsılmaz sevgisini açıklayacağı zamanın bir metaforu."
     },
     {
       "ref": "Ps. 90:16–17",
-      "text": "Let your work be shown, that is, display your love toward your people in great deeds of power that enable them to flourish. to their children. God made his covenant with Abraham and with his offspring (who must themselves embrace the covenant). The OT faithful seek the continuation of the people through their own faithful children (see 78:3–8; 103:17; 145:4)."
+      "title": "Ps. 90:16–17",
+      "text": "** Çalışmalarınızın gösterilmesine izin verin**, yani halkınıza olan sevginizi, onların gelişmesini sağlayacak büyük güç eylemleriyle gösterin. **çocuklarına**. Tanrı, İbrahim'le ve onun soyundan gelenlerle (onların da antlaşmayı kabul etmesi gereken) antlaşmasını yaptı. Eski Antlaşma'ya sadık olanlar, halkın devamını kendi sadık çocukları aracılığıyla ararlar (bkz. 78:3–8; 103:17; 145:4)."
+    }
+  ],
+  "notes": [
+    {
+      "ref": "Ps. 90",
+      "text": "**Mezmur** . Bu topluluk ağıtı belirsiz bir felaketle ilgilidir (13, 15. ayetler). Tanrı'dan, halkına merhamet etmesini ve onları kutsamasını ister. Başlık, mezmurun Musa'ya atfedildiğini gösteriyor. Mezmur, İsrail'in Tesniye zamanında Ürdün Nehri'ni geçip Vaat Edilmiş Topraklara girmek üzereyken resmedilir. Anne babaları Musa'yı bölünmüş Kızıldeniz boyunca Mısır'dan çıkarmışlardı ama yine de isyan ettiler, bu yüzden Tanrı onların bu ülkeye girmeyeceklerine yemin etti (Say. 14:20-36). İsrailoğullarının görevlerini yerine getirmeleri ve Tanrı'nın ellerinin işini sağlamlaştırması için (Mezmur 90:17), halkın antlaşmayı benimsemesi ve Tanrı'ya olan imanla yaşaması gerekir. Bu şarkıyı söyleyenler kendilerini o neslin mirasçıları olarak görmeli ve görevlerini yerine getirebilmek için Tanrı'nın bereketini aramalıdırlar."
+    },
+    {
+      "ref": "Ps. 90:12",
+      "text": "**bize günlerimizi numaralandırmayı öğretin**. Mezmurun teması göz önüne alındığında, bu, özellikle az sayıda gün olduğundan, kişinin günlerini en iyi şekilde değerlendirebilmesine işaret eder. **Bilgeliğin kalbi** sadık kişilerin doğru önceliklere göre yaşamasını sağlayacaktır."
     }
   ]
 }

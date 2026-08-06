@@ -1,32 +1,36 @@
 {
-  "source": "ESV Global Study Bible (Crossway) — Türkçe çeviri — DeepL translator — Lisans kapsamında kullanılmaktadır",
+  "source": "ESV Global Study Bible (Crossway) — Türkçe çeviri — Google Translate — Lisans kapsamında kullanılmaktadır",
   "book_intro": "Blue Letter Bible bakanlığı ve BLB Enstitüsü, Kutsal Yazıların tahrif edilemezliğine olan kesin inancı da içeren tarihsel, muhafazakar Hristiyan inancına bağlıdır. BLB tarafından sağlanan metin ve ses içeriği çeşitli Evanjelik gelenekleri temsil ettiğinden, kaynak materyallerde aktarılan tüm fikir ve ilkelerin bu bakanlık tarafından toplamda onaylanması gerekmez.\n\nBlue Letter Kutsal Kitap çalışma araçları Kutsal Kitap'ı okumayı, araştırmayı ve çalışmayı kolay ve ödüllendirici hale getirir.\n\nBlue Letter Bible 501(c)(3) kar amacı gütmeyen bir kuruluştur\n\nTercih ettiğiniz Kutsal Kitap çevirilerinin sırasını Kutsal Kitaplar Sekmesi'nden Sürüm Seçici'ye (bu açılır pencere) kopyalayabilir ya da tam tersini yapabilirsiniz. Kutsal Kitaplar Sekmesi, Kutsal Kitap sayfalarındaki Araçlar özelliğinde bulunur:\n\nNot: MLA artık atıf standartlarının bir parçası olarak URL'yi zorunlu tutmamaktadır. Bireysel eğitmenler veya editörler yine de URL'lerin kullanılmasını isteyebilir.\n\nHata: Parolalar en az 6 karakterden oluşmalıdır\n\nHata: Kullanıcı adları yalnızca harf, rakam, nokta, tire veya alt çizgi içermelidir\n\nParolalar en az 6 karakterden oluşmalıdır.\n\t\t\t\t\t\t\tKullanıcı adları yalnızca harf, rakam, nokta, tire veya alt çizgi içermelidir.\n\nKaydolduğunuz için teşekkür ederiz. Verdiğiniz adrese bir doğrulama e-postası gönderildi.\n\nOrtaklığınız tüm yaptıklarımızı mümkün kılıyor. Bugün dua ederek bir destek hediyesi vermeyi düşünür müsünüz?",
-  "chapter_intro": "",
-  "passages": [],
-  "notes": [
-    {
-      "ref": "Ps. 77",
-      "text": "Psalm . This is a community lament. By referring to God’s “anger” (v. 9) the psalm acknowledges that the reason for the trouble may be some fault in the people (see Psalms 74; 79; 80). The repeated key words here are “remember” and “meditate” (77:3, 6, 11–12). The psalm moves from remembering and meditating on God (as the one who has made promises to his people), to remembering and meditating on how things once were better, to remembering and meditating on God’s mighty deeds of old that build confidence for his people’s future."
-    },
+  "passages": [
     {
       "ref": "Ps. 77:1–3",
-      "text": "This section describes earnest prayer coming from a troubled heart. My hand is stretched out (to God) in a common posture of prayer (see 88:9; Job 11:13; 1 Tim. 2:8). The psalmist prays in private moments (in the night; see Ps. 77:4) as well as in public worship."
+      "title": "Ps. 77:1–3",
+      "text": "Bu bölümde sorunlu bir yürekten gelen samimi dua anlatılmaktadır. **Ellerim ortak bir dua duruşuyla (Tanrı'ya) uzanıyor** (bkz. 88:9; Eyüp 11:13; 1 Tim. 2:8). Mezmur yazarı, toplu ibadetin yanı sıra özel anlarında da (**gece**; bkz. Mezmur 77:4) dua eder."
     },
     {
       "ref": "Ps. 77:4–9",
-      "text": "The agonizing question that keeps the singer awake at night (vv. 4–6) is whether God will spurn his people forever (vv. 7–9)."
+      "title": "Ps. 77:4–9",
+      "text": "Şarkıcıyı geceleri uyanık tutan ızdırap verici soru (4-6 ayetler), Tanrı'nın halkını **sonsuza kadar** (7-9 ayetler) **reddedip reddedmeyeceğidir**."
     },
     {
       "ref": "Ps. 77:7–9",
-      "text": "It does not offend God when his troubled people raise these questions. The answer is found in Ex. 34:6, which describes the enduring goodness of God toward his people. If God abounds in steadfast love, then it cannot cease. The key matter is the last line: has he done this in anger? God’s anger is a response to his people’s unfaithfulness, and will remain only if they refuse to repent."
+      "title": "Ps. 77:7–9",
+      "text": "Sorunlu halkının bu soruları sorması Tanrı'yı ​​rahatsız etmez. Cevap Ex'te bulunur. 34:6, Tanrı'nın halkına karşı gösterdiği kalıcı iyiliği anlatır. Eğer Tanrı'nın ** sarsılmaz sevgisi** varsa, o zaman bu sona eremez. Önemli olan son satır: **bunu <b>öfkeyle** mi yaptı? Tanrı'nın öfkesi, halkının sadakatsizliğine bir yanıttır ve yalnızca tövbe etmeyi reddederlerse devam edecektir."
     },
     {
       "ref": "Ps. 77:10–20",
-      "text": "I will appeal . . . to the years of the right hand of the Most High. This section focuses on God’s great deeds of the past, especially in the exodus and in the wilderness. If God did these things for his people before (deeds, wonders, work, and mighty deeds, vv. 11–12) to make known his might among the peoples (v. 14), he certainly has the power to do them again. This song helps God’s people to refresh their hope and renew their commitment to being a holy people. They are to be an attractive advertisement of the true God to the rest of the world."
+      "title": "Ps. 77:10–20",
+      "text": "**İtiraz edeceğim. . .** **Yüceler Yücesi'nin sağ elinin yıllarına**. Bu bölüm Tanrı'nın geçmişte, özellikle de göç ve çölde yaptığı büyük işlere odaklanıyor. Eğer Tanrı bunları daha önce halkı için yaptıysa (**işler**, **harikalar**, **işler** ve **büyük işler**, 11–12 ayetler), **kuvvetini halklar arasında** duyurmak için (ayet 14), kesinlikle bunları tekrar yapma gücüne sahiptir. Bu şarkı, Tanrı'nın halkının umudunu tazelemesine ve kutsal bir halk olma konusundaki kararlılığını yenilemesine yardımcı olur. Bunlar gerçek Tanrının dünyanın geri kalanına çekici bir reklamı olacak."
+    }
+  ],
+  "notes": [
+    {
+      "ref": "Ps. 77",
+      "text": "**Mezmur** . Bu bir toplumsal ağıttır. Mezmur, Tanrı'nın “öfkesine” (ayet 9) atıfta bulunarak, sıkıntının nedeninin insanlardaki bir hata olabileceğini kabul eder (bkz. Mezmurlar 74; 79; 80). Burada tekrarlanan anahtar kelimeler “hatırlamak” ve “düşünmek”tir (77:3, 6, 11–12). Mezmur, Tanrı'yı ​​(halkına vaatlerde bulunan kişi olarak) hatırlamak ve meditasyon yapmaktan, bir zamanlar işlerin nasıl daha iyi olduğunu hatırlamaya ve meditasyon yapmaya, Tanrı'nın halkının geleceği için güven inşa eden eski kudretli işlerini hatırlamaya ve meditasyon yapmaya doğru ilerliyor."
     },
     {
       "ref": "Ps. 77:20",
-      "text": "flock. For the image of God’s people as sheep, and God as their Shepherd, see notes on 23:1; 74:1–3."
+      "text": "**sürü**. Tanrı'nın halkının koyun ve Tanrı'nın da onların Çobanı olduğu tasviri için bkz. 23:1 ile ilgili notlar; 74:1–3 ."
     }
   ]
 }

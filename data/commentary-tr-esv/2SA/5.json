@@ -1,44 +1,49 @@
 {
-  "source": "ESV Global Study Bible (Crossway) — Türkçe çeviri — DeepL translator — Lisans kapsamında kullanılmaktadır",
+  "source": "ESV Global Study Bible (Crossway) — Türkçe çeviri — Google Translate — Lisans kapsamında kullanılmaktadır",
   "book_intro": "Blue Letter Bible bakanlığı ve BLB Enstitüsü, Kutsal Yazıların tahrif edilemezliğine olan kesin inancı da içeren tarihsel, muhafazakar Hristiyan inancına bağlıdır. BLB tarafından sağlanan metin ve ses içeriği çeşitli Evanjelik gelenekleri temsil ettiğinden, kaynak materyallerde aktarılan tüm fikir ve ilkelerin bu bakanlık tarafından toplamda onaylanması gerekmez.\n\nBlue Letter Kutsal Kitap çalışma araçları Kutsal Kitap'ı okumayı, araştırmayı ve çalışmayı kolay ve ödüllendirici hale getirir.\n\nBlue Letter Bible 501(c)(3) kar amacı gütmeyen bir kuruluştur\n\nTercih ettiğiniz Kutsal Kitap çevirilerinin sırasını Kutsal Kitaplar Sekmesi'nden Sürüm Seçici'ye (bu açılır pencere) kopyalayabilir veya tam tersini yapabilirsiniz. Kutsal Kitaplar Sekmesi, Kutsal Kitap sayfalarındaki Araçlar özelliğinde bulunur:\n\nNot: MLA artık atıf standartlarının bir parçası olarak URL'yi zorunlu tutmamaktadır. Bireysel eğitmenler veya editörler yine de URL'lerin kullanılmasını isteyebilir.\n\nHata: Parolalar en az 6 karakterden oluşmalıdır\n\nHata: Kullanıcı adları yalnızca harf, rakam, nokta, tire veya alt çizgi içermelidir\n\nParolalar en az 6 karakterden oluşmalıdır.\n\t\t\t\t\t\t\tKullanıcı adları yalnızca harf, rakam, nokta, tire veya alt çizgi içermelidir.\n\nKaydolduğunuz için teşekkür ederiz. Verdiğiniz adrese bir doğrulama e-postası gönderildi.\n\nOrtaklığınız tüm yaptıklarımızı mümkün kılıyor. Bugün dua ederek bir destek hediyesi vermeyi düşünür müsünüz?",
-  "chapter_intro": "",
-  "passages": [],
-  "notes": [
-    {
-      "ref": "2 Sam 5:1",
-      "text": "we are your bone and flesh. Even though there is a distinct division between Judah and the rest of Israel, they still recognize each other as family (compare “brothers,” 2:26–27)."
-    },
+  "passages": [
     {
       "ref": "2 Sam 5:6–13",
-      "text": "The account of David’s kingship over all of Israel starts with his capture of the Jebusite city of Jerusalem, on the boundary between Judah and Benjamin. Jerusalem had not been controlled by any one tribe, and thus it was both symbolically and geographically better suited to be the capital of all Israel than Hebron, which was in central Judah. Jerusalem was the “Salem” of which Melchizedek was king (Gen. 14:18). It had been too strong to be conquered when the Israelites first entered Canaan (Josh. 15:63). The stronghold of Zion was on the western slope of the Kidron Valley above the city’s water source, the spring of Gihon. According to 1 Chron. 11:6, Joab led the attack by entering through the water shaft and was made David’s chief commander because of his success."
+      "title": "2 Sam 5:6–13",
+      "text": "Davut'un tüm İsrail üzerindeki krallığına ilişkin kayıt, Yahuda ile Benyamin arasındaki sınırda bulunan Yevuslular şehri Kudüs'ü ele geçirmesiyle başlar. Kudüs herhangi bir kabile tarafından kontrol edilmiyordu ve bu nedenle hem sembolik hem de coğrafi olarak tüm İsrail'in başkenti olmaya Yahuda'nın merkezinde bulunan El Halil'den daha uygundu. Kudüs, Melkisedek'in kralı olduğu \"Salem\"di (Yaratılış 14:18). İsrailoğulları Kenan'a ilk girdiğinde fethedilemeyecek kadar güçlüydü (Yeşu 15:63). **Zion'un kalesi**, Kidron Vadisi'nin batı yamacında, şehrin su kaynağı olan Gihon kaynağının yukarısındaydı. 1 Chron'a göre. 11:6 Joab su kuyusundan girerek saldırıyı yönetti ve başarısından dolayı Davut'un başkomutanı oldu."
     },
     {
       "ref": "2 Sam 5:6–8",
-      "text": "the blind and the lame will ward you off. The Jebusites probably meant that the fortifications were so strong that the city needed no able-bodied defenders. The blind and the lame shall not come into the house may mean that the Jebusites were not allowed at David’s court."
-    },
-    {
-      "ref": "2 Sam 5:8",
-      "text": "water shaft. See note on vv. 6–13."
-    },
-    {
-      "ref": "2 Sam 5:9",
-      "text": "The Millo (see 1 Kings 9:15; 1 Chron. 11:8) was a series of terrace walls, built on a steep slope, that supported the fill dirt behind it to create level areas. Houses were built on these artificial platforms and connected by narrow staircases. During heavy rains, the fill became heavy and increased the pressure on the terrace walls. These required regular maintenance, lest the houses fall down the steep slope and the city disintegrate."
-    },
-    {
-      "ref": "2 Sam 5:11",
-      "text": "Hiram king of Tyre provides David with cedars to build his house. Tyre was a trading empire. It was important to them to keep the inland trade route from Israel to Egypt open to their merchants."
+      "title": "2 Sam 5:6–8",
+      "text": "**kör ve topal seni uzak tutacak**. Yevuslular muhtemelen surların o kadar güçlü olduğunu ve şehrin sağlam savunuculara ihtiyaç duymadığını kastediyordu. **Kör ve topallar eve girmeyecek**, Yevusluların Davut'un sarayına girmesine izin verilmediği anlamına gelebilir."
     },
     {
       "ref": "2 Sam 5:13–14",
-      "text": "This is a summary statement about David’s kingship in Jerusalem (compare 3:2–5). It does not mean that these sons were all born before 5:17."
+      "title": "2 Sam 5:13–14",
+      "text": "Bu, Davut'un Yeruşalim'deki krallığı hakkında özet bir ifadedir (3:2–5 ile karşılaştırın). Bu, bu oğulların hepsinin 5:17'den önce doğduğu anlamına gelmez."
     },
     {
       "ref": "2 Sam 5:17–21",
-      "text": "Until now the Philistines may have considered David to be a paid soldier fighting for them (1 Samuel 27). But when David becomes king over Israel (that is, both Israel and Judah) and even captures Jerusalem, they realize he is a threat. went down to the stronghold. This is probably toward the Philistine country. The Valley of Rephaim is the valley leading toward Jerusalem from the southwest. “Baal” in Baal-perazim is here a common noun meaning “lord.” The Philistines left their idols there (2 Sam. 5:21) is a reversal of 1 Samuel 4, where the Philistines carried off the ark of the covenant. According to 1 Chron. 14:12, David had these idols burned."
+      "title": "2 Sam 5:17–21",
+      "text": "Şu ana kadar **Filistliler** Davut'u kendileri için savaşan ücretli bir asker olarak görüyor olabilirler (1 Samuel 27). Ancak Davut **İsrail'in** (yani hem İsrail'in hem de Yahuda'nın) kralı olduğunda ve hatta Kudüs'ü ele geçirdiğinde, onun bir tehdit olduğunun farkına varırlar. **kaleye indi**. Bu muhtemelen Filistin ülkesine doğru. **Rephaim Vadisi**, güneybatıdan Kudüs'e doğru uzanan vadidir. **Baal-perazim** dilindeki \"Baal\" burada \"efendi\" anlamına gelen ortak bir isimdir. **Filistliler putlarını orada bıraktılar** (2 Sam. 5:21), Filistlilerin antlaşma sandığını götürdüğü 1 Samuel 4'ün tam tersidir. 1 Chron'a göre. 14:12 Davut bu putları yaktırdı."
     },
     {
       "ref": "2 Sam 5:22–25",
-      "text": "It may be that the sound of marching was a distinct sound caused by the Lord that frightened the Philistines (as in 2 Kings 7:6). Another possibility is that the Philistines knew the sound was of trees, so David used it as cover for his attack. He drove the Philistines out of the central hill country."
+      "title": "2 Sam 5:22–25",
+      "text": "**Yürüyüş sesi**, Filistlileri korkutan, Rab'bin çıkardığı belirgin bir ses olabilir (2. Krallar 7:6'da olduğu gibi). Diğer bir olasılık da Filistlilerin sesin **ağaçlardan** geldiğini bilmeleriydi, bu yüzden Davut bunu saldırısı için kılıf olarak kullanmıştı. Filistlileri merkezi dağlık bölgeden kovdu."
+    }
+  ],
+  "notes": [
+    {
+      "ref": "2 Sam 5:1",
+      "text": "**biz sizin kemiğiniz ve etiniz**. Yahuda ve İsrail'in geri kalanı arasında belirgin bir ayrım olsa da onlar hâlâ birbirlerini aile olarak tanıyorlar (\"kardeşler\" ile karşılaştırın, 2:26-27)."
+    },
+    {
+      "ref": "2 Sam 5:8",
+      "text": "**su şaftı**. Vv ile ilgili nota bakın. 6–13 ."
+    },
+    {
+      "ref": "2 Sam 5:9",
+      "text": "**Millo** (bkz. 1. Krallar 9:15; 1 Tarihler 11:8), dik bir yamaç üzerine inşa edilmiş ve düz alanlar oluşturmak için arkasındaki dolgu toprağını destekleyen bir dizi teras duvarıydı. Evler bu yapay platformlar üzerine inşa ediliyor ve birbirine dar merdivenlerle bağlanıyordu. Yoğun yağışlarda dolgu ağırlaşarak teras duvarlarındaki baskıyı artırdı. Evlerin dik yokuştan aşağı düşmesini ve şehrin parçalanmasını önlemek için bunların düzenli bakımı gerekiyordu."
+    },
+    {
+      "ref": "2 Sam 5:11",
+      "text": "**Sur kralı Hiram**, Davut'a evini inşa etmesi için sedir ağacı sağlar. Tire bir ticaret imparatorluğuydu. İsrail'den Mısır'a kadar olan iç ticaret yolunu tüccarlara açık tutmak onlar için önemliydi."
     }
   ]
 }

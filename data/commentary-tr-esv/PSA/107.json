@@ -1,40 +1,46 @@
 {
-  "source": "ESV Global Study Bible (Crossway) — Türkçe çeviri — DeepL translator — Lisans kapsamında kullanılmaktadır",
+  "source": "ESV Global Study Bible (Crossway) — Türkçe çeviri — Google Translate — Lisans kapsamında kullanılmaktadır",
   "book_intro": "Blue Letter Bible bakanlığı ve BLB Enstitüsü, Kutsal Yazıların tahrif edilemezliğine olan kesin inancı da içeren tarihsel, muhafazakar Hristiyan inancına bağlıdır. BLB tarafından sağlanan metin ve ses içeriği çeşitli Evanjelik gelenekleri temsil ettiğinden, kaynak materyallerde aktarılan tüm fikir ve ilkelerin bu bakanlık tarafından toplamda onaylanması gerekmez.\n\nBlue Letter Kutsal Kitap çalışma araçları Kutsal Kitap'ı okumayı, araştırmayı ve çalışmayı kolay ve ödüllendirici hale getirir.\n\nBlue Letter Bible 501(c)(3) kar amacı gütmeyen bir kuruluştur\n\nTercih ettiğiniz Kutsal Kitap çevirilerinin sırasını Kutsal Kitaplar Sekmesi'nden Sürüm Seçici'ye (bu açılır pencere) kopyalayabilir ya da tam tersini yapabilirsiniz. Kutsal Kitaplar Sekmesi, Kutsal Kitap sayfalarındaki Araçlar özelliğinde bulunur:\n\nNot: MLA artık atıf standartlarının bir parçası olarak URL'yi zorunlu tutmamaktadır. Bireysel eğitmenler veya editörler yine de URL'lerin kullanılmasını isteyebilir.\n\nHata: Parolalar en az 6 karakterden oluşmalıdır\n\nHata: Kullanıcı adları yalnızca harf, rakam, nokta, tire veya alt çizgi içermelidir\n\nParolalar en az 6 karakterden oluşmalıdır.\n\t\t\t\t\t\t\tKullanıcı adları yalnızca harf, rakam, nokta, tire veya alt çizgi içermelidir.\n\nKaydolduğunuz için teşekkür ederiz. Verdiğiniz adrese bir doğrulama e-postası gönderildi.\n\nOrtaklığınız tüm yaptıklarımızı mümkün kılıyor. Bugün dua ederek bir destek hediyesi vermeyi düşünür müsünüz?",
-  "chapter_intro": "",
-  "passages": [],
-  "notes": [
-    {
-      "ref": "Ps. 107",
-      "text": "Psalm . With this psalm the members of the community call one another to give thanks for God’s enduring “steadfast love.” He has shown this to the people as a whole but also to individual members. The distinctive feature of this psalm is its four accounts of people in distress (“some,” vv. 4, 10, 17, 23), whom God rescued. Because the psalm concerns gratitude for Judah’s return from exile (v. 3), it is likely that these four accounts describe the activities of the Judahites in their exile. After the initial invitation to “give thanks to the Lord” (v. 1), the psalm describes how each of the four groups cried to the Lord in their trouble, and he delivered them. The psalm calls on them to thank the Lord."
-    },
+  "passages": [
     {
       "ref": "Ps. 107:1–3",
-      "text": "The opening section states the purpose of the psalm (the call to give thanks to the Lord) and the theme (his steadfast love endures forever). The specific occasion is that God has redeemed his people and gathered them in from the lands (that is, from exile; see 106:47)."
+      "title": "Ps. 107:1–3",
+      "text": "Açılış bölümünde mezmurun amacı (**Rab'be şükretmeye** çağrı) ve tema (**O'nun sarsılmaz sevgisi sonsuza dek sürer**) belirtilir. Özel durum, Tanrı'nın halkını **kurtarması** ve onları **ülkelerden** (yani sürgünden; bkz. 106:47) **toplamasıdır**."
     },
     {
       "ref": "Ps. 107:4–9",
-      "text": "This is the first group of those who were banished from the land as a result of the exile. Some of the exiles wandered in desert wastes, such as the Sinai Desert (see 106:14; Deut. 32:10). finding no way to a city to dwell in. Their proper home was the Promised Land, but God had sent them away. When they cried to the Lord, God delivered them, bringing them to a city to dwell in."
+      "title": "Ps. 107:4–9",
+      "text": "Bu, sürgün sonucu topraklardan sürülenlerin ilk grubudur. Sürgünlerden **bazıları** Sina Çölü gibi **çöl çorak topraklarında dolaşıyordu** (bkz. 106:14; Yas. 32:10). **yerleşecek bir şehre giden yolu bulamamak**. Onların asıl evi Vaat Edilmiş Topraklardı ama Tanrı onları göndermişti. **Rab'be feryat ettiklerinde**, Tanrı onları **teslim etti** ve onları **yerleşecekleri bir şehre** getirdi."
     },
     {
       "ref": "Ps. 107:10–16",
-      "text": "The next group of exiles sat in darkness and in the shadow of death. These people suffered as captives (prisoners) and forced laborers (hard labor, v. 12) because they had rebelled against the words of God. But even though they rejected God’s covenant by their rebellion, God still heard and rescued them (v. 14; see v. 10)."
+      "title": "Ps. 107:10–16",
+      "text": "Bir sonraki sürgün grubu** karanlıkta ve ölümün gölgesinde oturuyordu**. Bu insanlar tutsak (**mahkum**) ve zorunlu işçi (**ağır çalışma**, ayet 12) olarak acı çektiler çünkü **Tanrı'nın sözlerine karşı isyan etmişlerdi**. Ancak isyan ederek Tanrı'nın antlaşmasını reddetmiş olsalar bile, Tanrı yine de onları duydu ve kurtardı (ayet 14; bkz. ayet 10)."
     },
     {
       "ref": "Ps. 107:17–22",
-      "text": "Some of the exiles were fools through their sinful ways. Their own folly, which resulted from their turning away from God, brought on their affliction. Nevertheless God heard and relieved them when they cried to the Lord in their trouble. Healed them is not merely physical but includes their return to the Promised Land."
+      "title": "Ps. 107:17–22",
+      "text": "Sürgünlerden **bazıları** **günahkar yolları yüzünden aptaldılar**. Allah'tan yüz çevirmelerinden kaynaklanan kendi akılsızlıkları, onlara **mutsuzluk** getirdi. Yine de, **sıkıntılar içinde Rab'be yakardıklarında** Tanrı onları duydu ve rahatlattı. **Onları iyileştirmek** yalnızca fiziksel değildir, aynı zamanda Vaat Edilmiş Topraklara dönüşlerini de içerir."
     },
     {
       "ref": "Ps. 107:23–32",
-      "text": "The fourth group consisted of sailors caught in a storm. If these were exiles, they were sailing in the service of a foreign king. As the storm increased in its fury, they cried to the Lord in their trouble, and God made the storm be still. These people have returned to the Promised Land, where they can extol God in the congregation."
+      "title": "Ps. 107:23–32",
+      "text": "Dördüncü grup fırtınaya yakalanan denizcilerden oluşuyordu. Eğer bunlar sürgünse, yabancı bir kralın hizmetinde yelken açıyorlardı. Fırtınanın şiddeti arttıkça, **sıkıntı içinde Rabb'e yakardılar** ve Tanrı **fırtınayı dindirdi**. Bu insanlar, cemaatte **Tanrı'yı ​​yüceltebilecekleri** Vaat Edilmiş Topraklara geri döndüler."
     },
     {
       "ref": "Ps. 107:33–42",
-      "text": "God displayed his righteousness by restoring Judah after the exile."
+      "title": "Ps. 107:33–42",
+      "text": "Tanrı, sürgünden sonra Yahuda'yı yeniden dirilterek doğruluğunu gösterdi."
+    }
+  ],
+  "notes": [
+    {
+      "ref": "Ps. 107",
+      "text": "**Mezmur** . Bu mezmurla topluluğun üyeleri birbirlerine Tanrı’nın kalıcı “sadık sevgisi” için şükretmeye sesleniyorlar. Bunu bir bütün olarak insanlara ve aynı zamanda bireysel üyelere de gösterdi. Bu mezmurun ayırt edici özelliği, Tanrı'nın kurtardığı, sıkıntı içindeki insanlardan (“bazıları,” ayetler 4, 10, 17, 23) bahseden dört kayıttır. Mezmur, Yahuda'nın sürgünden dönüşüne duyulan şükranla ilgili olduğundan (ayet 3), bu dört kaydın Yahudalıların sürgündeki faaliyetlerini anlatması muhtemeldir. Mezmur, \"Rab'be şükredin\" (ayet 1) yönündeki ilk davetin ardından, dört grubun her birinin, sıkıntı içinde Rab'be nasıl ağladığını ve Rab'bin onları kurtardığını anlatır. Mezmur onları Rab'be şükretmeye çağırıyor."
     },
     {
       "ref": "Ps. 107:43",
-      "text": "The final verse invites whoever is wise (that is, those who desire to live in a godly way) to attend to these things. They are to pay attention to the many ways in which God has displayed his steadfast love. Knowing God’s love will increase one’s wisdom."
+      "text": "Son ayet, **akıllı olanları** (yani Allah yolunda yaşamak isteyenler) **bunlarla ilgilenmeye** davet ediyor. Tanrı'nın **sadık sevgisini** gösterdiği birçok yola dikkat etmeleri gerekir. Allah’ın sevgisini bilmek kişinin bilgeliğini artıracaktır."
     }
   ]
 }

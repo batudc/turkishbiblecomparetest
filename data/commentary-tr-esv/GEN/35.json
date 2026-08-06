@@ -1,82 +1,76 @@
 {
-  "source": "ESV Global Study Bible (Crossway) — Türkçe çeviri — DeepL translator — Lisans kapsamında kullanılmaktadır",
+  "source": "ESV Global Study Bible (Crossway) — Türkçe çeviri — Google Translate — Lisans kapsamında kullanılmaktadır",
   "book_intro": "Yazar, Tarih ve Alıcılar\n\nGeleneksel olarak Musa'nın Yaratılış'ın ve Pentatök'ün geri kalanının yazarı olduğu kabul edilir (bkz. Çölde Sayım 33:2; Yasa'nın Tekrarı 31:24; Yuhanna 5:46). Elbette Musa Yaratılış'ta anlatılan olaylardan çok daha sonra yaşamıştır. Muhtemelen, daha önceki olaylarla ilgili hikayeler aktarıldı ve Musa hepsini bir araya getirdi.\n\nİlk dinleyiciler Musa'nın çölde önderlik ettiği İsrailliler olmalıdır. Bugünkü okuyucular için Yaratılış, Kutsal Kitap'ın geri kalanına temel bir giriş niteliğindedir. Haklı olarak başlangıçlar kitabı olarak adlandırılır.\n\nTema\n\nYaratılış'ın teması yaratılış, günah ve yeniden yaratılıştır. Tanrı dünyayı çok iyi yaratmış, ama insanın itaatsizliği yüzünden önce onu lanetlemiş, sonra da tufanla yok etmiştir. Tufandan sonraki yeni dünya da insanın günahı yüzünden bozulmuştur (bölüm 11). Tanrı İbrahim'i özel bir amaç için seçti. Onun ailesi aracılığıyla bütün uluslar kutsanacaktı (12:1-3). Tanrı'nın amacı eninde sonunda İbrahim'in soyu aracılığıyla yerine gelecektir (bölüm 49).\n\nAnahtar Temalar\n\nRab Tanrı insanları yeryüzündeki temsilcileri olarak görevlendirir. Yeryüzüne bakmalı ve diğer canlıları yönetmelidirler (1:1-2:25).\n\nİlk erkek ve kadın -Adem ve Havva- Tanrı'nın yeryüzündeki temsilcileri olarak hareket etmek yerine yılanı dinler ve onun öğütlerine uyarlar. Onların itaatsizliği tüm insanlık ve yaratılan tüm dünya için yıkıcı sonuçlar doğurur (3:1-24; 6:5-6).\n\nTanrı, Havva'nın soyunun insanlığı yılanın kontrolünden kurtaracağını lütufkâr bir şekilde duyurur (3:15). Yaratılış daha sonra İsrail halkı olacak bir ailenin tarihini izlemeye başlar. Bu ailenin Tanrı'yla özel bir ilişkisi vardır ve düşmüş insanlık için bir bereket kaynağı olacaktır (12:1-3).\n\nAdem'in itaatsizliğinin bir sonucu olarak, toprakla olan eşsiz ilişkisi bozulur, bu da ağır işlere ve daha sonra tufan ve kıtlığa neden olur. Ancak Adem'den gelen özel aile de zorluklardan kurtulmayı sağlar (3:17-19; 5:29; 50:19-21).\n\nHavva'nın cezası çocuk doğurma acısına odaklanırken (3:16), kadınlar eşsiz aile soyunun devam etmesinde önemli bir rol oynarlar. Tanrı'nın yardımıyla kısırlığın bile üstesinden gelinir (11:30; 21:1-7; 25:21; 38:1-30).\n\nİnsan doğasının bozulması ailelerin parçalanmasına neden olur (4:1-16; 13:5-8; 25:22-23; 27:41-45; 37:2-35). Yaratılış aile çatışmalarının gerçekliğini gösterse de, seçilmiş ailenin bireysel üyeleri de bu çatışmaların çözümüne yardımcı olabilir (13:8-11; 33:1-11; 45:1-28; 50:15-21).\n\nKötüler Aden'den sürgün edilir ve yeryüzüne dağılır (3:22-24; 4:12-16; 11:9), ancak Tanrı seçilmiş halkına karşı naziktir ve onlara kendilerine ait bir ülke vaat eder (12:1-2; 7; 15:7-21; 28:13-14; 50:24).\n\nTanrı, yozlaşması nedeniyle neredeyse tüm insan ırkını yok etmeye hazırdır (6:7; 11-12; 18:17-33), ancak yine de dünyasının doğru insanlar tarafından doldurulmasını ister (1:28; 9:1; 15:1-5; 35:11).\n\nAnahatlar\n\nİlkçağ Tarihi (1:1-11:26)\n\nTanrı'nın yeri ve göğü yaratması ve düzenlemesi (1:1-2:3)\n\nDünya'nın ilk insanları (2:4-4:26)\n\nAdem'in soyundan gelenler (5:1-6:8)\n\nNuh'un soyundan gelenler (6:9-9:29)\n\nNuh'un oğullarının soyundan gelenler (10:1-11:9)\n\nŞem'in soyundan gelenler (11:10-26)\n\nPatriyarkal Tarih (11:27-50:26)\n\nTerah'ın soyundan gelenler (11:27-25:18)\n\nİshak'ın soyundan gelenler (25:19-37:1)\n\nYakup'un soyundan gelenler (37:2-50:26)\n\nYaratılış Zamanında Yakın Doğu\n\nc. M.Ö. 2000.\n\nYaratılış kitabı, medeniyetin başlangıcından Yakup'un (İsrail'in) ailesinin Mısır'a yerleşmesine kadar eski Yakın Doğu'daki olayları anlatır. Yaratılış hikâyeleri Mısır, Asur, Babil ve Elam gibi dünyanın en eski uluslarından bazılarının arasında geçmektedir.",
   "chapter_intro": "Patriarchal History.",
-  "passages": [
-    {
-      "ref": "Gen. 11:27–50:26",
-      "title": "Patriarchal History.",
-      "text": "The story now moves from the general survey of humanity to the specific family from which Israel comes."
-    }
-  ],
+  "passages": [],
   "notes": [
     {
       "ref": "Gen. 35:1–29",
-      "text": "Jacob moves by stages from Shechem to Bethel, eventually coming to Hebron, where his father Isaac is still alive. Transformed by the experiences of Bethel and Peniel, Jacob is now ready to assume his role as the one through whom God’s promises to Abraham will be continued."
+      "text": "Yakup aşama aşama Şekem'den Beytel'e taşınır ve sonunda babası İshak'ın hâlâ hayatta olduğu Hebron'a gelir. Beytel ve Peniel'in deneyimleriyle dönüşüme uğrayan Yakup, artık Tanrı'nın İbrahim'e verdiği vaatlerin sürdürüleceği kişi rolünü üstlenmeye hazır."
     },
     {
       "ref": "Gen. 35:1",
-      "text": "Jacob had only set up a pillar at Bethel when God appeared to him (28:18). By returning to Bethel and building an altar there, Jacob acknowledges that God has been faithful to him (see 28:20–22)."
+      "text": "Yakup, Tanrı ona göründüğünde henüz Beytel'de bir sütun dikmişti (28:18). Yakup, **Beytel**'e dönüp orada bir sunak inşa ederek Tanrı'nın kendisine sadık olduğunu kabul etmiş olur (bkz. 28:20–22)."
     },
     {
       "ref": "Gen. 35:2–3",
-      "text": "Jacob prepares his household for entering God’s presence: Bethel is the “house of God.” They must rid themselves of foreign gods, as emphasized in the first of the Ten Commandments (Ex. 20:3). Rachel’s theft of her father’s household gods suggests that polytheistic beliefs existed within Jacob’s household. These must be abandoned. Jacob’s household must purify themselves (Gen. 35:2). This may explain Jacob’s final instruction to change garments (v. 2; see Ex. 19:10)."
+      "text": "Yakup ev halkını Tanrı'nın huzuruna çıkmaya hazırlıyor: **Beytel** \"Tanrı'nın evidir.\" On Emir'in ilkinde vurgulandığı gibi (Çık. 20:3) kendilerini **yabancı tanrılardan** kurtarmaları gerekir. Rachel'ın babasının ev tanrılarını çalması, Yakup'un evinde çok tanrılı inançların var olduğunu gösteriyor. Bunlardan vazgeçilmesi gerekiyor. Yakup'un evinin kendisini **arındırması** gerekir (Yaratılış 35:2). Bu, Yakup'un **giysileri** değiştirme konusundaki son talimatını açıklayabilir (ayet 2; bkz. Mısır'dan Çıkış 19:10)."
     },
     {
       "ref": "Gen. 35:4",
-      "text": "It is not clear whether the rings that were in their ears were worn by the people or by the foreign gods. Some ancient Near Eastern evidence indicates that idols could have earrings. Jacob probably buried these cultic objects."
+      "text": "**Kulaklarındaki yüzüklerin** insanlar tarafından mı yoksa yabancı tanrılar tarafından mı takıldığı belli değil. Bazı eski Yakın Doğu kanıtları putların küpeleri olabileceğini gösteriyor. Jacob muhtemelen bu kült objeleri gömdü."
     },
     {
       "ref": "Gen. 35:5",
-      "text": "a terror from God. While the nature of this terror is unknown, other passages in Genesis record how the fear of God is used to protect the patriarchs (e.g., 20:8; 26:28–29). Jacob’s fears (34:30) are answered by God’s protection, in spite of Simeon and Levi’s excessive revenge (34:25)."
+      "text": "**Tanrı'dan gelen bir terör**. Bu terörün doğası bilinmemekle birlikte, Yaratılış kitabındaki diğer pasajlar, Tanrı korkusunun ataları korumak için nasıl kullanıldığını kaydeder (örneğin, 20:8; 26:28-29). Yakup'un korkuları (34:30), Şimeon ve Levi'nin aşırı intikamına rağmen (34:25) Tanrı'nın korumasıyla yanıtlanır."
     },
     {
       "ref": "Gen. 35:6",
-      "text": "Luz (that is, Bethel). See note on 28:19."
+      "text": "**Luz (yani Beytel)**. 28:19'daki nota bakınız."
     },
     {
       "ref": "Gen. 35:8",
-      "text": "Deborah, Rebekah’s nurse, was mentioned in 24:59, though not by name. Deborah’s presence with Jacob may suggest that Rebekah had sent her to him in connection with her promise to bring Jacob back home (27:45)."
+      "text": "**Rebekah'nın hemşiresi Deborah**, ismen olmasa da 24:59'da geçiyordu. Deborah'nın Yakup'la birlikte bulunması, Rebekah'nın onu, Yakup'u eve geri getirme vaadiyle bağlantılı olarak gönderdiğini akla getirebilir (27:45)."
     },
     {
       "ref": "Gen. 35:9",
-      "text": "blessed him. This not only confirms the blessing of 32:29 but also makes Jacob equal to Abraham and Isaac (see 24:1; 25:11)."
+      "text": "**onu kutsadı**. Bu sadece 32:29'un bereketini doğrulamakla kalmıyor, aynı zamanda Yakup'u İbrahim ve İshak'la eşit kılıyor (bkz. 24:1; 25:11)."
     },
     {
       "ref": "Gen. 35:10",
-      "text": "On the change of Jacob’s name to Israel, see note on 32:28."
+      "text": "Yakub'un isminin **İsrail** olarak değiştirilmesi hakkında bkz. 32:28 ile ilgili not."
     },
     {
       "ref": "Gen. 35:11–12",
-      "text": "God’s second statement emphasizes that Jacob is now heir to the divine promises given to Abraham and Isaac. kings shall come from your own body. The promise of royal descendants is first given to Abraham in 17:6. This theme will reappear in Joseph’s dreams (37:6–10), showing that the ultimate fulfillment of the promise will come through Jacob’s descendants. The land that I gave. The divine promise of the land is renewed to include Jacob and his descendants."
+      "text": "Tanrı'nın ikinci açıklaması, Yakup'un artık İbrahim ve İshak'a verilen ilahi vaatlerin mirasçısı olduğunu vurguluyor. **krallar sizin kendi vücudunuzdan çıkacak**. Kraliyet soyundan geleceklerin vaadi ilk kez 17:6'da İbrahim'e verildi. Bu tema Yusuf'un rüyalarında yeniden ortaya çıkacak (37:6-10), vaadin nihai olarak yerine getirilmesinin Yakup'un soyundan geleceğini gösterecek. **Verdiğim arazi**. Ülkenin ilahi vaadi, Yakup ve onun soyundan gelenleri kapsayacak şekilde yenilendi."
     },
     {
       "ref": "Gen. 35:14–15",
-      "text": "pillar. See note on 28:18. drink offering. This is the only mention in Genesis of such an offering. Later references suggest that wine was used (e.g., Num. 15:1–10)."
+      "text": "**sütun**. 28:18'deki nota bakınız. **içecek teklifi**. Yaratılış kitabında böyle bir sunudan bahsedilen tek şey budur. Daha sonraki referanslar şarabın kullanıldığını öne sürüyor (örneğin Sayılar 15:1–10)."
     },
     {
       "ref": "Gen. 35:16–20",
-      "text": "Rachel dies while giving birth. The name that Rachel gives her newborn son, Ben-oni, is potentially ambiguous (see esv footnote). Jacob changes the name to make its meaning certain. Benjamin means “son of my right hand.”"
+      "text": "**Rachel** doğum yaparken ölür. Rachel'ın yeni doğan oğlu **Ben-oni**'ye verdiği isim muhtemelen belirsizdir (bkz. esv dipnotu). Jacob, anlamını kesinleştirmek için adı değiştirir. **Benjamin** \"sağ elimin oğlu\" anlamına gelir."
     },
     {
       "ref": "Gen. 35:18",
-      "text": "her soul was departing. This is one place in the OT where the Hebrew word translated “soul” refers to what gives life to the body."
+      "text": "**ruhu ayrılıyordu**. Burası, Eski Antlaşma'da \"can\" olarak tercüme edilen İbranice kelimenin, bedene hayat veren şeyi ifade ettiği yerlerden biridir."
     },
     {
       "ref": "Gen. 35:22–23",
-      "text": "Reuben went and lay with Bilhah his father’s concubine. While Reuben’s action may have been prompted by lust, it challenged Jacob’s position as head of the household. Jacob later denies Reuben the inheritance due him as the firstborn (49:3–4)."
+      "text": "**Reuben gidip babasının cariyesi Bilhah'la yattı**. Reuben'in eylemi şehvetten kaynaklanıyor olsa da, bu durum Yakup'un evin reisi olarak konumuna meydan okuyordu. Yakup daha sonra Reuben'in ilk doğan çocuk olarak kendisine miras kaldığını reddeder (49:3-4)."
     },
     {
       "ref": "Gen. 35:26",
-      "text": "These were the sons of Jacob who were born to him in Paddan-aram. Strictly speaking (see vv. 16–20), Benjamin was not born in Paddan-aram, but this is a general summary statement."
+      "text": "**Bunlar Yakup'un Paddan-aram'da doğan oğullarıydı**. Açıkça konuşursak (bkz. 16-20. ayetler), Benjamin Paddan-aram'da doğmadı ama bu genel bir özet ifadedir."
     },
     {
       "ref": "Gen. 35:27",
-      "text": "Mamre, or Kiriath-arba (that is, Hebron). See notes on 13:18; 23:2."
+      "text": "**Mamre veya Kiriat-arba (yani El Halil)**. 13:18 ile ilgili notlara bakınız; 23:2 ."
     },
     {
       "ref": "Gen. 35:28–29",
-      "text": "In spite of hinting that he would soon die in 27:1–2, Isaac has remained alive during Jacob’s 20 years of exile in Paddan-aram."
+      "text": "27:1-2'de yakında öleceğini ima etmesine rağmen İshak, Yakup'un Paddan-aram'daki 20 yıllık sürgünü sırasında hayatta kaldı."
     }
   ]
 }

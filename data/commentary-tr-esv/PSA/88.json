@@ -1,28 +1,32 @@
 {
-  "source": "ESV Global Study Bible (Crossway) — Türkçe çeviri — DeepL translator — Lisans kapsamında kullanılmaktadır",
+  "source": "ESV Global Study Bible (Crossway) — Türkçe çeviri — Google Translate — Lisans kapsamında kullanılmaktadır",
   "book_intro": "Blue Letter Bible bakanlığı ve BLB Enstitüsü, Kutsal Yazıların tahrif edilemezliğine olan kesin inancı da içeren tarihsel, muhafazakar Hristiyan inancına bağlıdır. BLB tarafından sağlanan metin ve ses içeriği çeşitli Evanjelik gelenekleri temsil ettiğinden, kaynak materyallerde aktarılan tüm fikir ve ilkelerin bu bakanlık tarafından toplamda onaylanması gerekmez.\n\nBlue Letter Kutsal Kitap çalışma araçları Kutsal Kitap'ı okumayı, araştırmayı ve çalışmayı kolay ve ödüllendirici hale getirir.\n\nBlue Letter Bible 501(c)(3) kar amacı gütmeyen bir kuruluştur\n\nTercih ettiğiniz Kutsal Kitap çevirilerinin sırasını Kutsal Kitaplar Sekmesi'nden Sürüm Seçici'ye (bu açılır pencere) kopyalayabilir ya da tam tersini yapabilirsiniz. Kutsal Kitaplar Sekmesi, Kutsal Kitap sayfalarındaki Araçlar özelliğinde bulunur:\n\nNot: MLA artık atıf standartlarının bir parçası olarak URL'yi zorunlu tutmamaktadır. Bireysel eğitmenler veya editörler yine de URL'lerin kullanılmasını isteyebilir.\n\nHata: Parolalar en az 6 karakterden oluşmalıdır\n\nHata: Kullanıcı adları yalnızca harf, rakam, nokta, tire veya alt çizgi içermelidir\n\nParolalar en az 6 karakterden oluşmalıdır.\n\t\t\t\t\t\t\tKullanıcı adları yalnızca harf, rakam, nokta, tire veya alt çizgi içermelidir.\n\nKaydolduğunuz için teşekkür ederiz. Verdiğiniz adrese bir doğrulama e-postası gönderildi.\n\nOrtaklığınız tüm yaptıklarımızı mümkün kılıyor. Bugün dua ederek bir destek hediyesi vermeyi düşünür müsünüz?",
-  "chapter_intro": "",
-  "passages": [],
-  "notes": [
-    {
-      "ref": "Ps. 88",
-      "text": "Psalm . This is an individual lament. It is suited for a person who is so overwhelmed with troubles that even his friends shun him, and who suspects that the Lord has shunned him as well. The psalm does not specify the troubles, only that they feel like God’s punishment. Most laments close on a confidant note, but Psalm 88 has no explicit statement of confidence. However, there is insistent appeal to God (v. 1, “day and night”; v. 9, “every day”; v. 13, “in the morning”). The psalm instills a tough faith in its singers by reminding them to keep turning to God (the “God of my salvation,” v. 1), even during times when it seems that God does not answer."
-    },
+  "passages": [
     {
       "ref": "Ps. 88:1–2",
-      "text": "The psalm reflects an ongoing (day and night) and urgent (I cry out, my cry) circumstance."
+      "title": "Ps. 88:1–2",
+      "text": "Mezmur devam eden (**gündüz ve gece**) ve acil (**çığlık atıyorum**, **ağlamam**) bir durumu yansıtıyor."
     },
     {
       "ref": "Ps. 88:3–9",
-      "text": "The next section describes the trouble in general terms, focusing more on the feelings (my soul is full of troubles) than on the external circumstances. Your wrath lies heavy upon me. That is, “it feels like I am dying, and worse than that, dying under your wrath, with no hope either now or ever.” The members of the singing congregation are learning to keep coming to the Lord, even when they feel this way."
+      "title": "Ps. 88:3–9",
+      "text": "Bir sonraki bölüm, dış koşullardan çok duygulara (**ruhum sorunlarla dolu**) odaklanarak sorunu genel hatlarıyla anlatıyor. **Gazabınız üzerime ağır geliyor**. Yani, \"Ölüyormuşum gibi geliyor, daha da kötüsü, senin gazabın altında ölüyorum, ne şimdi ne de gelecekte hiçbir umudum yok.\" Şarkı söyleyen cemaatin üyeleri, böyle hissetseler bile Rab'be gelmeye devam etmeyi öğreniyorlar."
     },
     {
       "ref": "Ps. 88:10–12",
-      "text": "The mention of dying under God’s wrath (vv. 3–7) leads to the question: Do you work wonders for the dead? If one were to die under God’s wrath, then he could not anticipate any experience of God’s wonders, or any chance to praise him."
+      "title": "Ps. 88:10–12",
+      "text": "Tanrı'nın gazabı altında ölmekten söz edilmesi (3-7. ayetler) şu soruyu akla getiriyor: **Ölüler için harikalar yaratıyor musun?** Eğer kişi Tanrı'nın gazabı altında ölürse, o zaman Tanrı'nın harikalarını deneyimleyeceğini ya da O'nu övme şansını tahmin edemez."
     },
     {
       "ref": "Ps. 88:13–18",
-      "text": "Darkness is the last word in the psalm. Yet the faithful know that there is no alternative but to keep seeking the Lord in prayer."
+      "title": "Ps. 88:13–18",
+      "text": "**Karanlık** mezmurun son sözüdür. Ancak iman edenler Rab'bi duayla aramayı sürdürmekten başka alternatif olmadığını biliyorlar."
+    }
+  ],
+  "notes": [
+    {
+      "ref": "Ps. 88",
+      "text": "**Mezmur** . Bu bireysel bir ağıttır. Bu, sıkıntılardan bunalmış, arkadaşlarının bile ondan uzak durduğu, Rabbinin de kendisini dışladığından şüphelenen bir insana yakışır. Mezmur sıkıntıları belirtmez, sadece bunların Tanrı'nın cezası gibi hissettirdiğini belirtir. Ağıtların çoğu sırdaş bir notla sona eriyor, ancak Mezmur 88'de açık bir güven beyanı yok. Ancak Tanrı'ya ısrarla başvuru vardır (ayet 1, “gündüz ve gece”; ayet 9, “her gün”; ayet 13, “sabah”). Mezmur, Tanrı'nın cevap vermiyor gibi göründüğü zamanlarda bile, Tanrı'ya (\"Kurtuluşumun Tanrısı\" ayet 1) dönmeye devam etmelerini hatırlatarak şarkıcılarına güçlü bir inanç aşılar."
     }
   ]
 }

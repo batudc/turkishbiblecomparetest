@@ -1,52 +1,61 @@
 {
-  "source": "ESV Global Study Bible (Crossway) — Türkçe çeviri — DeepL translator — Lisans kapsamında kullanılmaktadır",
+  "source": "ESV Global Study Bible (Crossway) — Türkçe çeviri — Google Translate — Lisans kapsamında kullanılmaktadır",
   "book_intro": "Blue Letter Bible bakanlığı ve BLB Enstitüsü, Kutsal Yazıların tahrif edilemezliğine olan kesin inancı da içeren tarihsel, muhafazakar Hristiyan inancına bağlıdır. BLB tarafından sağlanan metin ve ses içeriği çeşitli Evanjelik gelenekleri temsil ettiğinden, kaynak materyallerde aktarılan tüm fikir ve ilkelerin bu bakanlık tarafından toplamda onaylanması gerekmez.\n\nBlue Letter Kutsal Kitap çalışma araçları Kutsal Kitap'ı okumayı, araştırmayı ve çalışmayı kolay ve ödüllendirici hale getirir.\n\nBlue Letter Bible 501(c)(3) kar amacı gütmeyen bir kuruluştur\n\nTercih ettiğiniz Kutsal Kitap çevirilerinin sırasını Kutsal Kitaplar Sekmesi'nden Sürüm Seçici'ye (bu açılır pencere) kopyalayabilir ya da tam tersini yapabilirsiniz. Kutsal Kitaplar Sekmesi, Kutsal Kitap sayfalarındaki Araçlar özelliğinde bulunur:\n\nNot: MLA artık atıf standartlarının bir parçası olarak URL'yi zorunlu tutmamaktadır. Bireysel eğitmenler veya editörler yine de URL'lerin kullanılmasını isteyebilir.\n\nHata: Parolalar en az 6 karakterden oluşmalıdır\n\nHata: Kullanıcı adları yalnızca harf, rakam, nokta, tire veya alt çizgi içermelidir\n\nParolalar en az 6 karakterden oluşmalıdır.\n\t\t\t\t\t\t\tKullanıcı adları yalnızca harf, rakam, nokta, tire veya alt çizgi içermelidir.\n\nKaydolduğunuz için teşekkür ederiz. Verdiğiniz adrese bir doğrulama e-postası gönderildi.\n\nOrtaklığınız tüm yaptıklarımızı mümkün kılıyor. Bugün dua ederek bir destek hediyesi vermeyi düşünür müsünüz?",
-  "chapter_intro": "",
-  "passages": [],
-  "notes": [
-    {
-      "ref": "Ps. 89",
-      "text": "Psalm . This is a community lament, but with a distinctive flavor. The people celebrate the Davidic kingship as God’s special gift to his people, but they also mourn the distress into which they have fallen. They interpret that distress as God’s wrath against his anointed king. They pray earnestly for God to bless his people by blessing their king with wisdom, goodness, and might."
-    },
+  "passages": [
     {
       "ref": "Ps. 89:1–4",
-      "text": "In raising up David and his descendants to be kings for his people, God has displayed his steadfast love and faithfulness. These words, which recall Ex. 34:6, appear throughout the psalm (Ps. 89:1, 2, 14, 24, 28 [see esv footnote], 33, 49). Verses 3–4 refer to the events of 2 Sam. 7:8–16, God’s promise to David to establish his offspring forever. Because the promise is rooted in God’s enduring love for his people, and because it is a covenant, the term “forever” is important. If the covenant is forever, then why has humiliation come (Ps. 89:38–45)? But “forever” also means they can offer this prayer confidently, knowing that God will be true to his own word."
+      "title": "Ps. 89:1–4",
+      "text": "Tanrı, Davut'u ve onun soyundan gelenleri halkının kralları olmaları için yetiştirerek **sadık sevgisini** ve **sadıklığını** gösterdi. Ex'i hatırlatan bu kelimeler. 34:6, Mezmurun tamamında görülür (Mezmur 89:1, 2, 14, 24, 28 [bkz. esv dipnotu], 33, 49). 3-4. Ayetler 2 Sam'deki olaylara atıfta bulunur. 7:8–16, Tanrı'nın Davut'a **soyunu sonsuza dek yaşatacağı** vaadi. Vaat, Tanrı'nın halkına duyduğu kalıcı sevgiye dayandığından ve bu bir **antlaşma** olduğundan, \"sonsuza kadar\" terimi önemlidir. Eğer antlaşma sonsuza kadar sürecekse, o zaman neden aşağılanma geldi (Mez. 89:38–45)? Ancak \"sonsuza kadar\", aynı zamanda Tanrı'nın kendi sözüne sadık kalacağını bilerek bu duayı güvenle kılabilecekleri anlamına da gelir."
     },
     {
       "ref": "Ps. 89:8–10",
-      "text": "God is more mighty than any other being. He governs even the raging of the sea; to the people of that day, the sea represented humanly unmanageable chaos."
+      "title": "Ps. 89:8–10",
+      "text": "Tanrı diğer varlıklardan daha **kudretlidir**. **Denizin öfkesini** bile yönetir; O zamanın insanlarına göre deniz, insan eliyle yönetilemeyen kaosu temsil ediyordu."
     },
     {
       "ref": "Ps. 89:13–14",
-      "text": "The pairing of God’s hand and his right hand refers to his power for the sake of his own people (see 74:11; 138:7)."
+      "title": "Ps. 89:13–14",
+      "text": "Tanrı'nın **eli** ile sağ elinin</b> eşleştirilmesi, O'nun kendi halkının yararına olan gücüne işaret eder (bkz. 74:11; 138:7)."
     },
     {
       "ref": "Ps. 89:15–18",
-      "text": "God has given his people a special place in his plan for the world. They are exalted, and God pledges his strength on their behalf."
+      "title": "Ps. 89:15–18",
+      "text": "Tanrı, dünyayla ilgili planında halkına özel bir yer vermiştir. Onlar **yüceltilmişlerdir** ve Tanrı onlar adına **gücünü** taahhüt etmektedir."
     },
     {
       "ref": "Ps. 89:19–37",
-      "text": "The mention of the king’s role in Israel (v. 18) leads to the story of how David and his heirs came to be the royal family (1 Sam. 16:1–13) and what promises God made to them (2 Sam. 7:4–17)."
-    },
-    {
-      "ref": "Ps. 89:19",
-      "text": "Your godly one most likely refers to Nathan, who received God’s instructions by night in a vision (see 2 Sam. 7:17)."
+      "title": "Ps. 89:19–37",
+      "text": "Kralın İsrail'deki rolünden söz edilmesi (ayet 18), Davut ve mirasçılarının nasıl kraliyet ailesi haline geldiklerinin (1 Sam. 16:1-13) ve Tanrı'nın onlara ne vaat ettiğinin (2 Sam. 7:4-17) öyküsüne yol açar."
     },
     {
       "ref": "Ps. 89:24–25",
-      "text": "steadfast love. See v. 33; 2 Sam. 7:15. For hand and right hand, see Ps. 89:13, where it is God’s hand. The king also serves the people as God’s representative."
+      "title": "Ps. 89:24–25",
+      "text": "** sarsılmaz aşk**. Bkz. 33. cilt; 2 Sam. 7:15. **El** ve **sağ el** için bkz. 89:13 , burada Tanrı'nın elidir. Kral aynı zamanda Tanrı’nın temsilcisi olarak halka hizmet eder."
     },
     {
       "ref": "Ps. 89:26–28",
-      "text": "Father . . . firstborn. See 2 Sam. 7:14. Just as Israel is God’s “firstborn” (Ex. 4:22), so the king is the firstborn as he represents the people (see note on Ps. 2:7)."
+      "title": "Ps. 89:26–28",
+      "text": "** Baba . . . ilk doğan**. 2 Sam'e bakınız. 7:14. Tıpkı İsrail'in Tanrı'nın \"ilk oğlu\" olması (Çık. 4:22) gibi, kral da halkı temsil ettiği için ilk doğandır (Mezmur 2:7'deki nota bakın)."
     },
     {
       "ref": "Ps. 89:38–45",
-      "text": "It looks and feels as if God has not kept his promises to the house of David (and thus to his people). This section repeats words from the preceding parts of the psalm to stress the feeling of betrayal. God’s anointed (v. 38) was his special choice (v. 20), but now God is full of wrath against him. The covenant (v. 39) should have meant security (v. 34), but God has renounced it. The king’s “right hand” (v. 42) should govern even the rivers (v. 25), but now God has exalted the right hand of his foes. David’s throne (v. 44) was to endure as long as the sun (vv. 29, 36), but now God has cast it to the ground. Rather than David’s heir being “the highest of the kings of the earth” (v. 27), now all the Gentiles triumph over him and his people (vv. 40–43). Although things seem bleak, the psalm is not hopeless. The current hardship may be God’s punishment of the king for unfaithfulness, and so it is a call to repentance."
+      "title": "Ps. 89:38–45",
+      "text": "Sanki Tanrı Davut'un evine (ve dolayısıyla halkına) verdiği sözleri tutmamış gibi görünüyor ve hissediliyor. Bu bölümde ihanet duygusunu vurgulamak için mezmurun önceki bölümlerindeki sözler tekrarlanıyor. Tanrı'nın **meshedilmiş** olması (ayet 38) onun özel seçimiydi (ayet 20), fakat şimdi Tanrı ona karşı gazapla doludur. **Antlaşma** (ayet 39) güvenlik anlamına gelmeliydi (ayet 34), ancak Tanrı bundan **feragat etti**. Kralın \"sağ eli\" (ayet 42) nehirleri bile yönetmeli (ayet 25), ancak şimdi Tanrı **düşmanlarının sağ elini yüceltmiştir**. Davut'un **tahtı** (ayet 44) güneş kadar uzun süre dayanacaktı (ayetler 29, 36), ama şimdi Tanrı onu yere **attı**. Davut'un mirasçısının \"dünya krallarının en yükseği\" olması yerine (ayet 27), artık tüm Yahudi olmayanlar ona ve halkına karşı zafer kazanıyor (40-43 ayetler). Her ne kadar işler kasvetli görünse de, mezmur umutsuz değildir. Şu anki zorluk, Tanrı'nın kralı sadakatsizliğinden dolayı cezalandırması olabilir ve dolayısıyla bu bir tövbe çağrısıdır."
     },
     {
       "ref": "Ps. 89:46–51",
-      "text": "There is great comfort in the promise of an enduring Davidic house. The people can be confident that their present low condition is not the end of their story. The appeal is to God’s steadfast love and faithfulness (v. 49, see note on vv. 1–4) as expressed in his oath to David (v. 24)."
+      "title": "Ps. 89:46–51",
+      "text": "Davud'un kalıcı bir evinin vaadinde büyük bir teselli vardır. İnsanlar mevcut düşük durumlarının hikayelerinin sonu olmadığından emin olabilirler. Çağrı, Tanrı'nın Davut'a verdiği yeminde (ayet 24) ifade edildiği gibi, **sadık sevgisine** ve **sadakatine** (ayet 49, bkz. ayetler 1-4 ile ilgili not) yöneliktir."
+    }
+  ],
+  "notes": [
+    {
+      "ref": "Ps. 89",
+      "text": "**Mezmur** . Bu bir toplumsal ağıt ama kendine özgü bir tadı var. İnsanlar Davut'un krallığını Tanrı'nın kendi halkına özel bir hediyesi olarak kutluyor, ama aynı zamanda içine düştükleri sıkıntının da yasını tutuyorlar. Bu sıkıntıyı, Tanrı'nın meshedilmiş kralına karşı duyduğu gazap olarak yorumluyorlar. Tanrı'nın, krallarını bilgelik, iyilik ve kudretle kutsayarak halkını kutsaması için içtenlikle dua ederler."
+    },
+    {
+      "ref": "Ps. 89:19",
+      "text": "**Sizin dindar olanınız** büyük ihtimalle geceleyin bir **görümde** Tanrı'nın talimatlarını alan Nathan'dan bahsediyor (bkz. 2 Sam. 7:17)."
     }
   ]
 }

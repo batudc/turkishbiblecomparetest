@@ -1,44 +1,51 @@
 {
-  "source": "ESV Global Study Bible (Crossway) — Türkçe çeviri — DeepL translator — Lisans kapsamında kullanılmaktadır",
+  "source": "ESV Global Study Bible (Crossway) — Türkçe çeviri — Google Translate — Lisans kapsamında kullanılmaktadır",
   "book_intro": "Blue Letter Bible bakanlığı ve BLB Enstitüsü, Kutsal Yazıların tahrif edilemezliğine olan kesin inancı da içeren tarihsel, muhafazakar Hristiyan inancına bağlıdır. BLB tarafından sağlanan metin ve ses içeriği çeşitli Evanjelik gelenekleri temsil ettiğinden, kaynak materyallerde aktarılan tüm fikir ve ilkelerin bu bakanlık tarafından toplamda onaylanması gerekmez.\n\nBlue Letter Kutsal Kitap çalışma araçları Kutsal Kitap'ı okumayı, araştırmayı ve çalışmayı kolay ve ödüllendirici hale getirir.\n\nBlue Letter Bible 501(c)(3) kar amacı gütmeyen bir kuruluştur\n\nTercih ettiğiniz Kutsal Kitap çevirilerinin sırasını Kutsal Kitaplar Sekmesi'nden Sürüm Seçici'ye (bu açılır pencere) kopyalayabilir veya tam tersini yapabilirsiniz. Kutsal Kitaplar Sekmesi, Kutsal Kitap sayfalarındaki Araçlar özelliğinde bulunur:\n\nNot: MLA artık atıf standartlarının bir parçası olarak URL'yi zorunlu tutmamaktadır. Bireysel eğitmenler veya editörler yine de URL'lerin kullanılmasını isteyebilir.\n\nHata: Parolalar en az 6 karakterden oluşmalıdır\n\nHata: Kullanıcı adları yalnızca harf, rakam, nokta, tire veya alt çizgi içermelidir\n\nŞifreler en az 6 karakterden oluşmalıdır.\n\t\t\t\t\t\t\tKullanıcı adları yalnızca harf, rakam, nokta, tire veya alt çizgi içermelidir.\n\nKaydolduğunuz için teşekkür ederiz. Verdiğiniz adrese bir doğrulama e-postası gönderildi.\n\nOrtaklığınız tüm yaptıklarımızı mümkün kılıyor. Bugün dua ederek bir destek hediyesi vermeyi düşünür müsünüz?",
-  "chapter_intro": "",
-  "passages": [],
-  "notes": [
+  "passages": [
+    {
+      "ref": "2 Chron. 10:1–36:23",
+      "title": "Sürgüne kadar Yahuda Krallığı.",
+      "text": "Süleyman'ın ölümünden sonra ulusun kuzey ve güneye bölünmesinin ardından Chronicles neredeyse yalnızca güneydeki Yahuda krallığıyla ilgileniyor. 1-2 Kralın aksine, kuzey krallığının tarihi Chronicler tarafından yalnızca Yahuda'nın tarihini etkilediği için ele alınır. Tarihçi, kuzeydeki kabilelerin hala İsrail'e ait olduğunu anladı, ancak güney krallığına odaklandı çünkü bu krallık, Rab tarafından özel olarak seçilen kral Davut'un torunları tarafından yönetiliyordu."
+    },
     {
       "ref": "10:1–12:16",
-      "text": "Rehoboam. The reign of Rehoboam (931–915 b.c.) is dominated by the division of the kingdom and the consequences thereof. While Rehoboam fails as a leader, he is also an example of repentance and obedience, leading to the restoration of blessing."
+      "title": "Rehoboam.",
+      "text": "Rehoboam'ın hükümdarlığı (M.Ö. 931-915) krallığın bölünmesi ve bunun sonuçlarıyla şekillendi. Rehoboam bir lider olarak başarısız olsa da, aynı zamanda bereketin yeniden sağlanmasına yol açan bir tövbe ve itaat örneğidir."
     },
     {
       "ref": "2 Chron. 10:1–19",
-      "text": "From 1 Kings 12:1–19. Various people were to blame for the division of Israel into the northern and southern kingdoms. Solomon (2 Chron. 10:4, 10, 11) and Jeroboam (13:6–7) both contributed to the difficulties through their disobedience. Here the focus is on Rehoboam’s foolishness in alienating the northern tribes. At the same time, the author notes that this was a turn of affairs brought about by God (10:15)."
-    },
+      "title": "2 Kron. 10:1–19",
+      "text": "1. Krallar 12:1–19'dan. İsrail'in kuzey ve güney krallıklarına bölünmesinden çeşitli kişiler sorumluydu. Süleyman (2 Tarihler 10:4, 10, 11) ve Yeroboam (13:6–7) itaatsizlikleriyle zorluklara katkıda bulundular. Burada odak noktası Rehoboam'ın kuzey kabilelerini yabancılaştırma konusundaki aptallığıdır. Yazar aynı zamanda bunun **Tanrı'nın yarattığı bir olay** olduğunu da belirtiyor (10:15)."
+    }
+  ],
+  "notes": [
     {
       "ref": "2 Chron. 10:1",
-      "text": "Shechem. See note on 1 Kings 12:1."
+      "text": "**Şekem**. 1. Krallar 12:1 ile ilgili nota bakın."
     },
     {
       "ref": "2 Chron. 10:2",
-      "text": "Jeroboam. See 1 Kings 11:26–40."
+      "text": "**Yeroboam**. 1. Krallar 11:26–40'a bakın."
     },
     {
       "ref": "2 Chron. 10:4",
-      "text": "Your father made our yoke heavy. See note on 1 Kings 12:4."
+      "text": "**Babanız boyunduruğumuzu ağırlaştırdı**. 1. Krallar 12:4 ile ilgili nota bakın."
     },
     {
       "ref": "2 Chron. 10:7",
-      "text": "Speak good words appears to mean “make an agreement” (see 2 Kings 25:28–29)."
+      "text": "**Güzel sözler söyle** \"anlaşma yapmak\" anlamına geliyor gibi görünüyor (bkz. 2 Krallar 25:28–29)."
     },
     {
       "ref": "2 Chron. 10:10",
-      "text": "My little finger. See note on 1 Kings 12:10–11."
+      "text": "**Küçük parmağım**. 1. Krallar 12:10–11 ile ilgili nota bakın."
     },
     {
       "ref": "2 Chron. 10:16",
-      "text": "This rejection of the house of David is in sharp contrast to the declaration of loyalty in 1 Chron. 12:18."
+      "text": "**Davut**'un evinin bu şekilde reddedilmesi, 1 Tarih'teki sadakat beyanıyla keskin bir tezat oluşturuyor. 12:18 ."
     },
     {
       "ref": "2 Chron. 10:18",
-      "text": "Hadoram, Solomon’s taskmaster, was also called “Adoram” (see note on 1 Kings 12:18) or “Adoniram” (1 Kings 4:6; 5:14)."
+      "text": "Süleyman'ın angarya şefi **Hadoram**'a aynı zamanda \"Adoram\" (1. Krallar 12:18 ile ilgili nota bakın) veya \"Adoniram\" (1. Krallar 4:6; 5:14) da deniyordu."
     }
   ]
 }

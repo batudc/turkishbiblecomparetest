@@ -1,52 +1,61 @@
 {
-  "source": "ESV Global Study Bible (Crossway) — Türkçe çeviri — DeepL translator — Lisans kapsamında kullanılmaktadır",
+  "source": "ESV Global Study Bible (Crossway) — Türkçe çeviri — Google Translate — Lisans kapsamında kullanılmaktadır",
   "book_intro": "Blue Letter Bible bakanlığı ve BLB Enstitüsü, Kutsal Yazıların tahrif edilemezliğine olan kesin inancı da içeren tarihsel, muhafazakar Hristiyan inancına bağlıdır. BLB tarafından sağlanan metin ve ses içeriği çeşitli Evanjelik gelenekleri temsil ettiğinden, kaynak materyallerde aktarılan tüm fikir ve ilkelerin bu bakanlık tarafından toplamda onaylanması gerekmez.\n\nBlue Letter Kutsal Kitap çalışma araçları Kutsal Kitap'ı okumayı, araştırmayı ve çalışmayı kolay ve ödüllendirici hale getirir.\n\nBlue Letter Bible 501(c)(3) kar amacı gütmeyen bir kuruluştur\n\nTercih ettiğiniz Kutsal Kitap çevirilerinin sırasını Kutsal Kitaplar Sekmesi'nden Sürüm Seçici'ye (bu açılır pencere) kopyalayabilir ya da tam tersini yapabilirsiniz. Kutsal Kitaplar Sekmesi, Kutsal Kitap sayfalarındaki Araçlar özelliğinde bulunur:\n\nNot: MLA artık atıf standartlarının bir parçası olarak URL'yi zorunlu tutmamaktadır. Bireysel eğitmenler veya editörler yine de URL'lerin kullanılmasını isteyebilir.\n\nHata: Parolalar en az 6 karakterden oluşmalıdır\n\nHata: Kullanıcı adları yalnızca harf, rakam, nokta, tire veya alt çizgi içermelidir\n\nParolalar en az 6 karakterden oluşmalıdır.\n\t\t\t\t\t\t\tKullanıcı adları yalnızca harf, rakam, nokta, tire veya alt çizgi içermelidir.\n\nKaydolduğunuz için teşekkür ederiz. Verdiğiniz adrese bir doğrulama e-postası gönderildi.\n\nOrtaklığınız tüm yaptıklarımızı mümkün kılıyor. Bugün dua ederek bir destek hediyesi vermeyi düşünür müsünüz?",
-  "chapter_intro": "",
-  "passages": [],
-  "notes": [
-    {
-      "ref": "Ps. 68",
-      "text": "Psalm . This is a celebration of God’s continued care and protection. It remembers how God led his people through the wilderness into their inheritance. The celebration does not stop with Israel, however. It recognizes that defeating Gentile kingdoms “who delight in war” is an opportunity for Gentiles to come to worship the true God."
-    },
+  "passages": [
     {
       "ref": "Ps. 68:1–3",
-      "text": "Verse 1 adapts the words of Num. 10:35, related to moving the ark in the wilderness. From the psalm’s perspective, the ark was headed to its destination on Zion. This brings the happy promise that the wicked (those who reject God’s covenant) shall perish before God. The righteous (those who embrace the covenant) shall be glad, because God is carrying out his purpose of reversing the effects of sin in the world."
+      "title": "Ps. 68:1–3",
+      "text": "Ayet 1, Num'un sözlerini uyarlar. 10:35, geminin çölde taşınmasıyla ilgili. Mezmurun bakış açısına göre gemi Sion'daki varış noktasına doğru gidiyordu. Bu, **kötülerin** (Tanrı'nın antlaşmasını reddedenlerin)** Tanrı'nın önünde yok olacağına dair mutlu vaadi getiriyor. <b>Doğru olanlar** (antlaşmayı kabul edenler) **sevinecekler**, çünkü Tanrı, günahın dünyadaki etkilerini tersine çevirme amacını yerine getiriyor."
     },
     {
       "ref": "Ps. 68:4–6",
-      "text": "The faithful are to sing to God because he has shown himself kind, especially to helpless people (fatherless; widows, see 146:9; Deut. 10:18; solitary; prisoners)."
+      "title": "Ps. 68:4–6",
+      "text": "Sadık kişiler **Tanrı'ya ilahiler söylemeli** çünkü O, özellikle çaresiz insanlara (**babasızlar**; **dullar**, bkz. 146:9; Yas. 10:18; **yalnız**; **mahkumlar**) karşı nazik davranmıştır."
     },
     {
       "ref": "Ps. 68:7–10",
-      "text": "These verses recall the way God led his people through the wilderness, from Sinai to his inheritance (Canaan, now the land of Israel). There God’s flock (his people) found a dwelling."
+      "title": "Ps. 68:7–10",
+      "text": "Bu ayetler, Tanrı'nın, **çölden** geçerek, **Sina**'dan kendi mirasına (Kenan, şimdi İsrail ülkesi) kadar halkını nasıl yönlendirdiğini hatırlatır. Tanrı'nın **sürüsü** (halkı) orada **bir mesken buldu**."
     },
     {
       "ref": "Ps. 68:11–14",
-      "text": "This section describes what happens when the Almighty scatters Gentile kings on behalf of his people. The Lord brought great victories even when Israelites who were able would not fight (v. 13, some men would even lie among the sheepfolds instead of endure the hardships of battle; see Judg. 5:16). The wings of a dove covered with silver, its pinions with shimmering gold describes enjoying wealth and beauty under God’s care."
+      "title": "Ps. 68:11–14",
+      "text": "Bu bölüm, **Her Şeye Gücü Yeten** Yahudi olmayan **kralları** halkı adına dağıttığında ne olacağını anlatır. Rab, savaşma gücü olmayan İsrailoğullarına bile büyük zaferler kazandırdı (ayet 13, bazı **erkekler** savaşın zorluklarına katlanmak yerine ağılların arasında bile yatıyordu; bkz. Yargıç 5:16). **Gümüşle kaplı güvercin kanatları, kanatları parlak altınla kaplıdır**, Tanrı'nın koruması altında zenginliğin ve güzelliğin tadını çıkarmayı anlatır."
     },
     {
       "ref": "Ps. 68:15–18",
-      "text": "The ark’s destination is the “sanctuary” on Mount Zion, the mountain of God."
-    },
-    {
-      "ref": "Ps. 68:18",
-      "text": "Receiving gifts among men describes the conqueror taking valuables from the defeated."
+      "title": "Ps. 68:15–18",
+      "text": "Geminin varış noktası, **Tanrı'nın dağı** Sion Dağı'ndaki “kutsal yer”dir."
     },
     {
       "ref": "Ps. 68:19–23",
-      "text": "The salvation here involves military victories (strike the heads; strike your feet in their blood)."
+      "title": "Ps. 68:19–23",
+      "text": "Buradaki **kurtuluş** askeri zaferleri içerir (**kafalara vurun**;** onların kanına bulanmış ayaklarınızı vurun**)."
     },
     {
       "ref": "Ps. 68:24–27",
-      "text": "These verses describe a procession of Israelites, which consists of singers, followed by virgins playing tambourines, with the musicians last. They enter into the sanctuary in a worship setting. The tribes of Benjamin, Judah, Zebulun, and Naphtali probably represent the whole of Israel."
+      "title": "Ps. 68:24–27",
+      "text": "Bu ayetler, **şarkıcılar**, ardından **tef çalan bakireler** ve **en sonda müzisyenler**'den oluşan bir İsrailoğulları **alayını** anlatır. Bir ibadet ortamında **kutsal alana** girerler. **Benyamin**, **Yahuda**, **Zebulun** ve **Naftali** kabileleri muhtemelen İsrail'in tamamını temsil ediyor."
     },
     {
       "ref": "Ps. 68:28–31",
-      "text": "The defeat of the Gentile enemies (here described as fierce wild animals) is a good thing. Their greedy and bloody intentions (v. 30) are stopped. As a result of their defeat, they and others will come to worship the true God (vv. 29, 31). kings shall bear gifts to you. These are Gentile kings. God’s presence in his temple at Jerusalem will draw Gentiles to the light (see 1 Kings 8:41–43; Isa. 2:1–5). See notes on Ps. 67:4–5; Isa. 2:1–5."
+      "title": "Ps. 68:28–31",
+      "text": "Yahudi olmayan düşmanların (burada vahşi vahşi hayvanlar olarak tanımlanıyor) yenilgiye uğratılması iyi bir şeydir. Onların açgözlü ve kanlı niyetleri (ayet 30) durdurulur. Yenilgilerinin bir sonucu olarak, onlar ve diğerleri gerçek Tanrı'ya tapınmaya gelecekler (29, 31 ayetler). **krallar sana hediyeler verecek**. Bunlar Yahudi olmayan krallardır. Tanrı'nın Yeruşalim'deki tapınağındaki varlığı Yahudi olmayanları ışığa çekecektir (bkz. 1. Krallar 8:41–43; Yeşaya 2:1–5). Ps'deki notlara bakınız. 67:4–5; İsa. 2:1–5 ."
     },
     {
       "ref": "Ps. 68:32–35",
-      "text": "All the Gentile kingdoms of the earth are urged to sing to God."
+      "title": "Ps. 68:32–35",
+      "text": "**Yeryüzündeki tüm Yahudi olmayan krallıkların** **Tanrı'ya şarkı söylemeleri** teşvik ediliyor."
+    }
+  ],
+  "notes": [
+    {
+      "ref": "Ps. 68",
+      "text": "**Mezmur** . Bu, Tanrı'nın sürekli bakımının ve korumasının bir kutlamasıdır. Tanrı'nın halkını çölden geçerek mirasına nasıl yönlendirdiğini hatırlıyor. Ancak kutlama İsrail'le bitmiyor. “Savaştan zevk alan” Yahudi olmayan krallıkların yenilgiye uğratılmasının, Yahudi olmayanların gerçek Tanrı'ya tapınmaları için bir fırsat olduğunu kabul ediyor."
+    },
+    {
+      "ref": "Ps. 68:18",
+      "text": "**Erkekler arasında hediye almak**, fatihlerin mağluplardan değerli eşyalarını almasını anlatır."
     }
   ]
 }

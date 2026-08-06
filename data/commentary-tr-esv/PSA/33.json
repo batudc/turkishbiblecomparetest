@@ -1,28 +1,32 @@
 {
-  "source": "ESV Global Study Bible (Crossway) — Türkçe çeviri — DeepL translator — Lisans kapsamında kullanılmaktadır",
+  "source": "ESV Global Study Bible (Crossway) — Türkçe çeviri — Google Translate — Lisans kapsamında kullanılmaktadır",
   "book_intro": "Blue Letter Bible bakanlığı ve BLB Enstitüsü, Kutsal Yazıların tahrif edilemezliğine olan kesin inancı da içeren tarihsel, muhafazakar Hristiyan inancına bağlıdır. BLB tarafından sağlanan metin ve ses içeriği çeşitli Evanjelik gelenekleri temsil ettiğinden, kaynak materyallerde aktarılan tüm fikir ve ilkelerin bu bakanlık tarafından toplamda onaylanması gerekmez.\n\nBlue Letter Kutsal Kitap çalışma araçları Kutsal Kitap'ı okumayı, araştırmayı ve çalışmayı kolay ve ödüllendirici hale getirir.\n\nBlue Letter Bible 501(c)(3) kar amacı gütmeyen bir kuruluştur\n\nTercih ettiğiniz Kutsal Kitap çevirilerinin sırasını Kutsal Kitaplar Sekmesi'nden Sürüm Seçici'ye (bu açılır pencere) kopyalayabilir ya da tam tersini yapabilirsiniz. Kutsal Kitaplar Sekmesi, Kutsal Kitap sayfalarındaki Araçlar özelliğinde bulunur:\n\nNot: MLA artık atıf standartlarının bir parçası olarak URL'yi zorunlu tutmamaktadır. Bireysel eğitmenler veya editörler yine de URL'lerin kullanılmasını isteyebilir.\n\nHata: Parolalar en az 6 karakterden oluşmalıdır\n\nHata: Kullanıcı adları yalnızca harf, rakam, nokta, tire veya alt çizgi içermelidir\n\nParolalar en az 6 karakterden oluşmalıdır.\n\t\t\t\t\t\t\tKullanıcı adları yalnızca harf, rakam, nokta, tire veya alt çizgi içermelidir.\n\nKaydolduğunuz için teşekkür ederiz. Verdiğiniz adrese bir doğrulama e-postası gönderildi.\n\nOrtaklığınız tüm yaptıklarımızı mümkün kılıyor. Bugün dua ederek bir destek hediyesi vermeyi düşünür müsünüz?",
-  "chapter_intro": "",
-  "passages": [],
-  "notes": [
-    {
-      "ref": "Ps. 33",
-      "text": "Psalm . This is a hymn of praise to the God who made all things, who rules all things for his own purposes, and who has chosen a people to be his own and to bless the whole world. Many of its themes come from Genesis. The psalm flows from a call to praise God, to several reasons for praise, to a closing filled with glad and peaceful hope."
-    },
+  "passages": [
     {
       "ref": "Ps. 33:1–3",
-      "text": "The new song (see 40:3; 98:1; Isa. 42:10; Rev. 5:9) may describe a response to a new experience of God’s grace."
+      "title": "Ps. 33:1–3",
+      "text": "** Yeni şarkı** (bkz. 40:3; 98:1; İşaya 42:10; Va. 5:9), Tanrı'nın lütfunun yeni deneyimine bir yanıtı tanımlayabilir."
     },
     {
       "ref": "Ps. 33:4–9",
-      "text": "The first reason for praise is God’s word (vv. 4, 6, 9). It is upright, expressing God’s righteous motives (vv. 4–5), and it is spoken by the God who made everything (vv. 6–9). See Gen. 1:1–2:3, where each time God spoke, what he commanded came to be."
+      "title": "Ps. 33:4–9",
+      "text": "Övgü için ilk neden Tanrı'nın **sözüdür** (4, 6, 9 ayetler). **Doğru** olup, Tanrı'nın doğru amaçlarını ifade eder (4-5 ayetler) ve her şeyi yaratan Tanrı tarafından söylenir (6-9 ayetler). Bkz. Yaratılış 1:1–2:3, burada Tanrı her **konuştuğunda**, onun **emir ettiği** şey gerçekleşti."
     },
     {
       "ref": "Ps. 33:10–12",
-      "text": "The second reason for praise is that no power can oppose God successfully, because they all derive their being and power from God. people whom he has chosen as his heritage. The descendants of Abraham have been called by God to teach the whole world about him (Gen. 12:1–3). Blessed by God, thus they bless."
+      "title": "Ps. 33:10–12",
+      "text": "İkinci övgü nedeni ise hiçbir gücün Allah'a karşı başarılı bir şekilde karşı çıkamamasıdır. Çünkü hepsi varlıklarını ve güçlerini Allah'tan almaktadır. **miras olarak seçtiği kişiler**. İbrahim'in torunları, Tanrı tarafından tüm dünyaya onun hakkında bilgi vermeleri için çağrılmıştır (Yaratılış 12:1-3). Allah tarafından bereketlendiler, böylece bereketlendiler."
     },
     {
       "ref": "Ps. 33:20–22",
-      "text": "As the faithful understand the greatness and wonder of God, they are strengthened to rest their souls on the Lord. They are confident that God’s plans will succeed."
+      "title": "Ps. 33:20–22",
+      "text": "İnananlar, Tanrı'nın büyüklüğünü ve harikasını anladıkça, ruhlarını Rab'be emanet etme konusunda güçlenirler. Tanrı’nın planlarının başarılı olacağına inanıyorlar."
+    }
+  ],
+  "notes": [
+    {
+      "ref": "Ps. 33",
+      "text": "**Mezmur** . Bu, her şeyi yaratan, her şeyi kendi amaçları doğrultusunda yöneten, kendisine ait olması ve tüm dünyayı kutsaması için bir halk seçen Tanrı'ya övgü dolu bir ilahidir. Temalarının çoğu Yaratılış'tan geliyor. Mezmur, Tanrı'yı ​​övme çağrısından, çeşitli övgü nedenlerine, mutlu ve huzurlu umutla dolu bir kapanışa kadar akar."
     }
   ]
 }

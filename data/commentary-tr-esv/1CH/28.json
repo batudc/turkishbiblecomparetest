@@ -1,36 +1,40 @@
 {
-  "source": "ESV Global Study Bible (Crossway) — Used under license",
+  "source": "ESV Global Study Bible (Crossway) — Türkçe çeviri — Google Translate — Lisans kapsamında kullanılmaktadır",
   "book_intro": "Blue Letter Bible bakanlığı ve BLB Enstitüsü, Kutsal Yazıların tahrif edilemezliğine olan kesin inancı içeren tarihsel, muhafazakar Hristiyan inancına bağlıdır. BLB tarafından sağlanan metin ve ses içeriği çeşitli Evanjelik gelenekleri temsil ettiğinden, kaynak materyallerde aktarılan tüm fikir ve ilkelerin bu bakanlık tarafından toplamda onaylanması gerekmez.\n\nBlue Letter Kutsal Kitap çalışma araçları Kutsal Kitap'ı okumayı, araştırmayı ve çalışmayı kolay ve ödüllendirici hale getirir.\n\nBlue Letter Bible 501(c)(3) kar amacı gütmeyen bir kuruluştur\n\nTercih ettiğiniz Kutsal Kitap çevirilerinin sırasını Kutsal Kitaplar Sekmesi'nden Sürüm Seçici'ye (bu açılır pencere) kopyalayabilir veya tam tersini yapabilirsiniz. Kutsal Kitaplar Sekmesi, Kutsal Kitap sayfalarındaki Araçlar özelliğinde bulunur:\n\nNot: MLA artık atıf standartlarının bir parçası olarak URL'yi zorunlu tutmamaktadır. Bireysel eğitmenler veya editörler yine de URL'lerin kullanılmasını isteyebilir.\n\nHata: Parolalar en az 6 karakterden oluşmalıdır\n\nHata: Kullanıcı adları yalnızca harf, rakam, nokta, tire veya alt çizgi içermelidir\n\nParolalar en az 6 karakterden oluşmalıdır.\n\t\t\t\t\t\t\tKullanıcı adları yalnızca harf, rakam, nokta, tire veya alt çizgi içermelidir.\n\nKaydolduğunuz için teşekkür ederiz. Verdiğiniz adrese bir doğrulama e-postası gönderildi.\n\nOrtaklığınız tüm yaptıklarımızı mümkün kılıyor. Bugün dua ederek bir destek hediyesi vermeyi düşünür müsünüz?",
-  "chapter_intro": "",
-  "passages": [],
-  "notes": [
+  "passages": [
     {
       "ref": "1 Chron 28:1–21",
-      "text": "This section resumes in a public setting David’s private exhortation to Solomon in ch. 22. The audience (28:1) consists of the leaders listed in ch. 27, along with David’s leading soldiers (see 11:10–12:40)."
+      "title": "1 Tarihler 28:1–21",
+      "text": "Bu bölüm, halka açık bir ortamda David'in Solomon'a özel öğüdünün devamı niteliğindedir. 22. Dinleyiciler (28:1), Bölüm'de sıralanan liderlerden oluşur. 27, Davut'un önde gelen askerleriyle birlikte (bkz. 11:10–12:40)."
     },
     {
       "ref": "1 Chron 28:4–5",
-      "text": "Solomon is the only OT king after David said to have been chosen by God."
-    },
-    {
-      "ref": "1 Chron 28:6",
-      "text": "Solomon . . . shall build my house. See 17:11–14; 22:9–10."
-    },
-    {
-      "ref": "1 Chron 28:7,  9",
-      "text": "1 Chron 28:7, 9 The establishment of Solomon’s kingdom depends on his obedience to Yahweh. He will be obedient in building the temple, but will fail to serve God with a whole heart (see 1 Kings 11:4)."
+      "title": "1 Tarihler 28:4–5",
+      "text": "**Süleyman**, Davut'tan sonra Tanrı tarafından **seçildiği** söylenen tek eski Antlaşma kralıdır."
     },
     {
       "ref": "1 Chron 28:11–19",
-      "text": "The gold and silver temple vessels (vv. 14–17) were later removed by the Babylonians (2 Chron. 36:18) but were then returned by the Persians, after the exile (Ezra 1:7–11). Their presence in the postexilic temple, in the days when the Chronicler was writing, were a sign of God’s covenant faithfulness to his people."
-    },
-    {
-      "ref": "1 Chron 28:19",
-      "text": "in writing from the hand of the Lord. David may be claiming prophetic inspiration for his temple plans (compare 2 Chron. 29:25). Or, he may be making a stronger claim: that God actually gave him the temple plans in writing (compare Ex. 24:12; 31:18)."
+      "title": "1 Tarihler 28:11–19",
+      "text": "Altın ve gümüş tapınak kapları (14-17 ayetler) daha sonra Babilliler tarafından kaldırıldı (2 Tarihler 36:18), ancak sürgünden sonra Persler tarafından geri verildi (Ezra 1:7-11). Tarihçi'nin yazdığı günlerde, sürgün sonrası tapınakta bulunmaları, Tanrı'nın halkına olan antlaşmaya bağlılığının bir işaretiydi."
     },
     {
       "ref": "1 Chron 28:20–21",
-      "text": "David charges Solomon in public, just as he had previously done in private (22:11–13)."
+      "title": "1 Tarihler 28:20–21",
+      "text": "Davud, daha önce özel hayatında yaptığı gibi halka açık alanda da Süleyman'a suç duyurusunda bulunuyor (22:11-13)."
+    }
+  ],
+  "notes": [
+    {
+      "ref": "1 Chron 28:6",
+      "text": "**Süleyman . . . evimi inşa edeceğim**. Bkz. 17:11–14; 22:9–10 ."
+    },
+    {
+      "ref": "1 Chron 28:7,  9",
+      "text": "Süleyman'ın krallığının kurulması onun Yahveh'ye olan itaatine bağlıdır. Tapınağı inşa ederken itaatkar olacak, ancak Tanrı'ya **tüm yüreğiyle** hizmet etmekte başarısız olacaktır (bkz. 1. Krallar 11:4)."
+    },
+    {
+      "ref": "1 Chron 28:19",
+      "text": "**Rab'bin elinden yazılı olarak**. Davud, tapınak planları için peygamberlik niteliğinde ilham aldığını iddia ediyor olabilir (2 Tarihler 29:25 ile karşılaştırın). Ya da daha güçlü bir iddiada bulunabilir: Tanrı'nın kendisine tapınak planlarını yazılı olarak verdiğini söylüyor (Çık. 24:12; 31:18 ile karşılaştırın)."
     }
   ]
 }

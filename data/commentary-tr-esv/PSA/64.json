@@ -1,20 +1,22 @@
 {
-  "source": "ESV Global Study Bible (Crossway) — Türkçe çeviri — DeepL translator — Lisans kapsamında kullanılmaktadır",
+  "source": "ESV Global Study Bible (Crossway) — Türkçe çeviri — Google Translate — Lisans kapsamında kullanılmaktadır",
   "book_intro": "Blue Letter Bible bakanlığı ve BLB Enstitüsü, Kutsal Yazıların tahrif edilemezliğine olan kesin inancı da içeren tarihsel, muhafazakar Hristiyan inancına bağlıdır. BLB tarafından sağlanan metin ve ses içeriği çeşitli Evanjelik gelenekleri temsil ettiğinden, kaynak materyallerde aktarılan tüm fikir ve ilkelerin bu bakanlık tarafından toplamda onaylanması gerekmez.\n\nBlue Letter Kutsal Kitap çalışma araçları Kutsal Kitap'ı okumayı, araştırmayı ve çalışmayı kolay ve ödüllendirici hale getirir.\n\nBlue Letter Bible 501(c)(3) kar amacı gütmeyen bir kuruluştur\n\nTercih ettiğiniz Kutsal Kitap çevirilerinin sırasını Kutsal Kitaplar Sekmesi'nden Sürüm Seçici'ye (bu açılır pencere) kopyalayabilir ya da tam tersini yapabilirsiniz. Kutsal Kitaplar Sekmesi, Kutsal Kitap sayfalarındaki Araçlar özelliğinde bulunur:\n\nNot: MLA artık atıf standartlarının bir parçası olarak URL'yi zorunlu tutmamaktadır. Bireysel eğitmenler veya editörler yine de URL'lerin kullanılmasını isteyebilir.\n\nHata: Parolalar en az 6 karakterden oluşmalıdır\n\nHata: Kullanıcı adları yalnızca harf, rakam, nokta, tire veya alt çizgi içermelidir\n\nParolalar en az 6 karakterden oluşmalıdır.\n\t\t\t\t\t\t\tKullanıcı adları yalnızca harf, rakam, nokta, tire veya alt çizgi içermelidir.\n\nKaydolduğunuz için teşekkür ederiz. Verdiğiniz adrese bir doğrulama e-postası gönderildi.\n\nOrtaklığınız tüm yaptıklarımızı mümkün kılıyor. Bugün dua ederek bir destek hediyesi vermeyi düşünür müsünüz?",
-  "chapter_intro": "",
-  "passages": [],
-  "notes": [
-    {
-      "ref": "Ps. 64",
-      "text": "Psalm . This individual lament shares with Psalm 63 a confidence in God’s victory over those who bring troubles on the righteous. The psalm has two parts: a request for help against deadly schemes (64:1–6), and confident expectation that God will fight on behalf of his faithful (vv. 7–10). God gives victory as instruction for mankind (v. 9) and to bring joy to the godly (v. 10)."
-    },
+  "passages": [
     {
       "ref": "Ps. 64:1–6",
-      "text": "The psalmist makes three requests (hear my voice, preserve my life, hide me) and describes his enemies and their wicked schemes. The enemy is made up of wicked people (v. 2) who use bitter words (vv. 3–4), which become snares (v. 5). This could be referring either to lies that cause disagreement or slander that destroys reputations."
+      "title": "Ps. 64:1–6",
+      "text": "Mezmur yazarı üç ricada bulunur (**sesimi duy**, **hayatımı koru**, **sakla**) ve düşmanlarını ve onların kötü planlarını anlatır. **Düşman**, **tuzak** (v. 5) haline gelen **acı sözler** (vv. 3-4) kullanan **kötü** insanlardan (ayet 2) oluşur. Bu, anlaşmazlığa yol açan yalanlar ya da itibarı zedeleyen iftiralar anlamına gelebilir."
     },
     {
       "ref": "Ps. 64:7–10",
-      "text": "Those who shoot their bitter words like arrows aimed at the innocent (vv. 3–4) will find that God shoots his arrow at them. God brings them down as they deserve (v. 8), with their own tongues turned against them. The people see what God has done, and it makes them think about who he is (all mankind fears)."
+      "title": "Ps. 64:7–10",
+      "text": "Acı sözlerini masumlara yönelik oklar gibi fırlatanlar (3-4. ayetler), **Tanrı'nın okunu onlara attığını** göreceklerdir. Allah, onları hak ettikleri şekilde (ayet 8), **kendi dilleri kendilerine karşı çevrilmiş halde** alaşağı eder. İnsanlar Tanrı'nın **ne yaptığını** görüyor ve bu onların O'nun kim olduğunu düşünmelerini sağlıyor (**tüm insanlık korkuyor**)."
+    }
+  ],
+  "notes": [
+    {
+      "ref": "Ps. 64",
+      "text": "**Mezmur** . Bu bireysel ağıt, Mezmur 63'le, Tanrı'nın doğruların başına bela getirenlere karşı kazanacağı zafere duyulan güveni paylaşıyor. Mezmur iki bölümden oluşur: Ölümcül planlara karşı yardım talebi (64:1-6) ve Tanrı'nın sadıkları adına savaşacağına dair kendinden emin beklenti (7-10 ayetler). Tanrı zaferi insanlığa bir talimat olarak (ayet 9) ve dindarlara sevinç vermek için verir (ayet 10)."
     }
   ]
 }

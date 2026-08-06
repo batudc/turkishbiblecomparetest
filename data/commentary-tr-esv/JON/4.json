@@ -1,43 +1,44 @@
 {
-  "source": "ESV Global Study Bible (Crossway) — Türkçe çeviri — DeepL translator — Lisans kapsamında kullanılmaktadır",
+  "source": "ESV Global Study Bible (Crossway) — Türkçe çeviri — Google Translate — Lisans kapsamında kullanılmaktadır",
   "book_intro": "Yazar ve Tarih\n\nYunus, İsrail'de (kuzey krallığı) M.Ö. 782'den 753'e kadar hüküm süren Yarovam II'nin (2.Krallar 14:23-28) barış ve refah dolu döneminde peygamberlik etti.\n\nGenel Bakış\n\nRab Yunus'u, Asur'un büyük kenti Ninova'ya gidip orada yargı bildirmesi için çağırdı. Yunus, Yafa limanından muhtemelen Batı Akdeniz kıyılarında bulunan Tarşiş'e yelken açarak Rab'bin çağrısından kaçmaya çalıştı. Sonunda Rab'be itaat etti ve karayoluyla Ninova'ya gitti.\n\nTema\n\nYunus'taki ana tema, Tanrı'nın merhametinin sınırsız olduğu, sadece \"bizimle\" (Yunus ve İsrailliler) sınırlı olmadığı, aynı zamanda \"onlar\" (putperest denizciler ve Ninovalılar) için de mevcut olduğudur.\n\nAnahtar Temalar\n\nTanrı yeryüzündeki tüm olaylar üzerinde egemen bir kontrole sahiptir.\n\nTanrı mesajını uluslara ulaştırmaya kararlıdır.\n\nİnsanların genel olarak günahtan, özel olarak da benmerkezcilik ve ikiyüzlülükten tövbe etmeleri gerekir.\n\nTanrı, insanlar tövbe ettiklerinde onları bağışlayacağını vaat eder.\n\nAnahatlar\n\nYunus'un öyküsü yedi bölümden oluşur ve ilk üç bölüm ikinci üç bölümle paraleldir. Final bölümü hikayenin doruk noktası olarak tek başına duruyor:\n\nA. Yunus'un görevlendirilmesi ve kaçışı (1:1-3)\n\nB. Yunus ve putperest denizciler (1:4-16)\n\nC. Yunus'un minnettar duası (1:17-2:10)\n\nA'. Yunus'un yeniden görevlendirilmesi ve itaat etmesi (3:1-3a)\n\nB'. Yunus ve putperest Ninovalılar (3:3b-10)\n\nC'. Yunus'un öfkeli duası (4:1-4)\n\nD. Yunus'un merhamet dersi (4:5-11)\n\nYunus'un Ortaya Çıkışı\n\nc. M.Ö. 760.\n\nYunus, İsrail Kralı Yarovam II'nin refah içinde yaşadığı dönemde peygamberlik etti (2Kr.14:23-28). Bu dönemde Asurlular imparatorluğun başka yerlerindeki işlerle meşguldü ve Yarovam II'nin Suriye'nin büyük bir bölümünü İsrail'in eline geçirmesine izin verdiler. Rab Yunus'u, Asur'un büyük kenti Ninova'ya gidip orası hakkında yargı bildirmesi için çağırdı. Yunus, muhtemelen Batı Akdeniz'de bulunan Tarşiş'e yelken açarak Rab'bin çağrısından kaçmaya çalıştı. Sonunda Rab'be itaat etti ve Asur İmparatorluğu'nun kalbindeki Ninova'ya gitti.",
   "chapter_intro": "Jonah’s Angry Prayer.",
   "passages": [
     {
       "ref": "Jonah 4:1–4",
-      "title": "Jonah’s Angry Prayer.",
-      "text": "The sixth episode parallels the third (1:17–2:10) and focuses on Jonah’s self-centeredness and hypocrisy. Both episodes have the same structure: (1) Jonah “prayed to the Lord” (1:17–2:1a and 4:1–2a); (2) Jonah’s prayer (2:1b–9 and 4:2b–3); and (3) “the Lord spoke/said” (2:10 and 4:4)."
+      "title": "Yunus'un Kızgın Duası.",
+      "text": "Altıncı bölüm üçüncü bölüme (1:17–2:10) paraleldir ve Yunus'un benmerkezciliğine ve ikiyüzlülüğüne odaklanır. Her iki bölüm de aynı yapıya sahiptir: (1) Yunus \"Rab'be dua etti\" (1:17–2:1a ve 4:1–2a); (2) Yunus'un duası (2:1b–9 ve 4:2b–3); ve (3) “Rab konuştu/dedi” (2:10 ve 4:4)."
     },
     {
       "ref": "Jonah 4:5–11",
-      "title": "Jonah’s Lesson about Compassion.",
-      "text": "The seventh and final episode has no parallel and thus stands out as the climax of the story."
+      "title": "Yunus'un Şefkatle İlgili Dersi.",
+      "text": "Yedinci ve son bölüm hiçbir paralelliğe sahip olmadığı için hikayenin doruk noktası olarak öne çıkıyor."
+    },
+    {
+      "ref": "Jonah 4:10–11",
+      "title": "Yunus 4:10–11",
+      "text": "**yok oldu**. Sonunda Yunus bir şeyin yok olmasından duyduğu endişeyi dile getiriyor. Ne yazık ki, **120.000** kişi değil, yalnızca bitkiler **sağ elini sol elini ayırt edemiyor**, bu da onların ahlaki ve manevi konularda eğitim almadıkları anlamına geliyor."
     }
   ],
   "notes": [
     {
       "ref": "Jonah 4:1",
-      "text": "it displeased Jonah exceedingly. In the previous episode (see 3:10) the pagans got rid of their “evil” and God got rid of the “disaster” he had threatened. The pagans are in harmony with God, but Jonah is not. He is now characterized by “displeasure” (or “evil”)."
+      "text": "** bu durum Yunus'u fazlasıyla rahatsız etti**. Önceki bölümde (bkz. 3:10) paganlar kendi \"kötülüklerinden\" kurtulmuşlardı ve Tanrı da tehdit ettiği \"felaketten\" kurtulmuştu. Putperestler Tanrı'yla uyum içindedir ama Yunus değildir. Artık \"hoşnutsuzluk\" (veya \"kötülük\") ile karakterize ediliyor."
     },
     {
       "ref": "Jonah 4:2",
-      "text": "This is Jonah’s second prayer. The repetition of prayed to the Lord (see 2:1) invites the reader to compare the two. gracious God . . . relenting from disaster. Ironically, this great confession of God’s compassionate nature (see Ex. 34:6–7; Ps. 145:8) is the cause of Jonah’s anger. When Jonah received steadfast love, it filled him with thanksgiving (Jonah 2:8). When God extended the same love to the Ninevites, it filled Jonah with anger."
+      "text": "Bu Yunus'un ikinci duasıdır. **Rab'be dua edildi** ifadesinin tekrarı (bkz. 2:1) okuyucuyu ikisini karşılaştırmaya davet ediyor. **merhametli Tanrım. . . felaketten vazgeçmek**. İroniktir ki, Tanrı'nın şefkatli doğasına ilişkin bu büyük itiraf (bkz. Mısır'dan Çıkış 34:6–7; Mezmur 145:8) Yunus'un öfkesinin nedenidir. Yunus **sadık sevgiyi** aldığında bu onu şükran duygusuyla doldurdu (Yunus 2:8). Tanrı aynı sevgiyi Ninovalılara da gösterdiğinde bu Yunus'u öfkelendirdi."
     },
     {
       "ref": "Jonah 4:3",
-      "text": "My life translates the Hebrew for “my soul,” and to live translates the Hebrew for “my life.” These two expressions occur in Jonah’s first prayer, where he is grateful that his “life” was brought up from the pit (2:6) and that his fainting “life/soul” was revived (2:7). When God extends the same mercy to the Ninevites, Jonah wishes his “life” and “soul” to be taken."
+      "text": "**Hayatım** İbranice'de \"ruhum\" anlamına gelir ve **yaşamak** da İbranice'de \"hayatım\" anlamına gelir. Bu iki ifade Yunus'un, \"hayatı\"nın çukurdan çıkarılmasına (2:6) ve bayılmakta olan \"hayatının/ruhunun\" yeniden canlanmasına (2:7) şükran duyduğu ilk duasında geçmektedir. Tanrı aynı merhameti Ninovalılara da gösterdiğinde Yunus “hayatının” ve “ruhunun” alınmasını diliyor."
     },
     {
       "ref": "Jonah 4:6",
-      "text": "the Lord God appointed. This is the second use of the verb “appoint” (see note on 1:17). Discomfort (or “evil”; see esv footnote and note on 1:2) refers both to Jonah’s outer “discomfort” and to his inner “evil.” Jonah was exceedingly glad. The grammar of this phrase is identical to that at the beginning of 4:1 (“It displeased Jonah exceedingly”). This highlights the contrast between Jonah’s anger at the salvation of the Ninevites and his joy at his own salvation."
+      "text": "**Rab Tanrı atadı**. Bu, “tayin etmek” fiilinin ikinci kullanımıdır (bkz. 1:17 ile ilgili not). **Rahatsızlık** (veya \"kötülük\"; bkz. esv dipnotu ve 1:2 ile ilgili not) Yunus'un hem dışsal \"rahatsızlığına\" hem de içsel \"kötülüğüne\" işaret eder. **Yunus son derece memnun oldu**. Bu ifadenin dilbilgisi 4:1'in başındakiyle aynıdır (\"Yunus'u fazlasıyla rahatsız etti\"). Bu, Yunus'un Ninevelilerin kurtuluşuna duyduğu öfke ile kendi kurtuluşuna duyduğu sevinç arasındaki zıtlığı vurguluyor."
     },
     {
       "ref": "Jonah 4:9",
-      "text": "angry for the plant. God questions the justice of Jonah’s anger over the destruction of the plant (v. 4)."
-    },
-    {
-      "ref": "Jonah 4:10–11",
-      "text": "perished. Finally Jonah expresses concern over something perishing. Sadly, it is only the plant, not the 120,000 people who do not know their right hand from their left, which means that they were untaught regarding moral or spiritual issues."
+      "text": "**bitkiye kızgınım**. Tanrı, Yunus'un bitkinin yok edilmesinden duyduğu öfkenin haklılığını sorguluyor (ayet 4)."
     }
   ]
 }

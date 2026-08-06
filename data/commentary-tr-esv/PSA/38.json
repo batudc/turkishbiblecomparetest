@@ -1,24 +1,27 @@
 {
-  "source": "ESV Global Study Bible (Crossway) — Türkçe çeviri — DeepL translator — Lisans kapsamında kullanılmaktadır",
+  "source": "ESV Global Study Bible (Crossway) — Türkçe çeviri — Google Translate — Lisans kapsamında kullanılmaktadır",
   "book_intro": "Blue Letter Bible bakanlığı ve BLB Enstitüsü, Kutsal Yazıların tahrif edilemezliğine olan kesin inancı da içeren tarihsel, muhafazakar Hristiyan inancına bağlıdır. BLB tarafından sağlanan metin ve ses içeriği çeşitli Evanjelik gelenekleri temsil ettiğinden, kaynak materyallerde aktarılan tüm fikir ve ilkelerin bu bakanlık tarafından toplamda onaylanması gerekmez.\n\nBlue Letter Kutsal Kitap çalışma araçları Kutsal Kitap'ı okumayı, araştırmayı ve çalışmayı kolay ve ödüllendirici hale getirir.\n\nBlue Letter Bible 501(c)(3) kar amacı gütmeyen bir kuruluştur\n\nTercih ettiğiniz Kutsal Kitap çevirilerinin sırasını Kutsal Kitaplar Sekmesi'nden Sürüm Seçici'ye (bu açılır pencere) kopyalayabilir ya da tam tersini yapabilirsiniz. Kutsal Kitaplar Sekmesi, Kutsal Kitap sayfalarındaki Araçlar özelliğinde bulunur:\n\nNot: MLA artık atıf standartlarının bir parçası olarak URL'yi zorunlu tutmamaktadır. Bireysel eğitmenler veya editörler yine de URL'lerin kullanılmasını isteyebilir.\n\nHata: Parolalar en az 6 karakterden oluşmalıdır\n\nHata: Kullanıcı adları yalnızca harf, rakam, nokta, tire veya alt çizgi içermelidir\n\nParolalar en az 6 karakterden oluşmalıdır.\n\t\t\t\t\t\t\tKullanıcı adları yalnızca harf, rakam, nokta, tire veya alt çizgi içermelidir.\n\nKaydolduğunuz için teşekkür ederiz. Verdiğiniz adrese bir doğrulama e-postası gönderildi.\n\nOrtaklığınız tüm yaptıklarımızı mümkün kılıyor. Bugün dua ederek bir destek hediyesi vermeyi düşünür müsünüz?",
-  "chapter_intro": "",
-  "passages": [],
-  "notes": [
-    {
-      "ref": "Ps. 38",
-      "text": "Psalm . In this lament the singer lays his troubles before God, fully realizing that those troubles result from his own sin. The psalm describes anguish of body and mind, desertion by friends, and how the singer’s folly has made him vulnerable to enemies. The title associates the psalm with the “memorial offering” (see note on Lev. 2:1–3)."
-    },
+  "passages": [
     {
       "ref": "Ps. 38:1–8",
-      "text": "The singer acknowledges that he deserves his anguish because of his sin (anger, wrath, v. 1; because of, vv. 3, 5, 8)."
+      "title": "Ps. 38:1–8",
+      "text": "Şarkıcı, günahından dolayı ıstırabını hak ettiğini kabul ediyor (**öfke**, **öfke**, ayet 1; **çünkü**, 3, 5, 8 ayetler)."
     },
     {
       "ref": "Ps. 38:9–14",
-      "text": "The singer’s friends and companions stand aloof (v. 11), thus adding loneliness to helplessness (vv. 10–11). This leaves him vulnerable to those who seek his life (vv. 12–14)."
+      "title": "Ps. 38:9–14",
+      "text": "Şarkıcının **arkadaşları ve arkadaşları uzak duruyor** (ayet 11), böylece çaresizliğin üzerine yalnızlık ekleniyor (10-11 ayetler). Bu, onu **hayatını** isteyenlere karşı savunmasız bırakıyor (12-14 ayetler)."
     },
     {
       "ref": "Ps. 38:15–22",
-      "text": "The singer shows true faith in confessing his sin (v. 18) and in calling the Lord his salvation (v. 22)."
+      "title": "Ps. 38:15–22",
+      "text": "Şarkıcı, günahını itiraf ederek (ayet 18) ve Rab'bi **kurtuluşu** olarak adlandırarak (ayet 22) gerçek imanını gösterir."
+    }
+  ],
+  "notes": [
+    {
+      "ref": "Ps. 38",
+      "text": "**Mezmur** . Bu ağıtta şarkıcı, sıkıntılarını Tanrı'nın huzuruna koyar ve bu sıkıntıların kendi günahından kaynaklandığının tamamen farkına varır. Mezmur, bedensel ve zihinsel acıyı, arkadaşlarının terk etmesini ve şarkıcının çılgınlığının onu düşmanlara karşı nasıl savunmasız hale getirdiğini anlatıyor. Başlık, mezmuru “anma sunusu” ile ilişkilendirmektedir (bkz. Lev. 2:1–3 ile ilgili not)."
     }
   ]
 }

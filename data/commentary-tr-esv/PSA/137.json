@@ -1,24 +1,27 @@
 {
-  "source": "ESV Global Study Bible (Crossway) — Türkçe çeviri — DeepL translator — Lisans kapsamında kullanılmaktadır",
+  "source": "ESV Global Study Bible (Crossway) — Türkçe çeviri — Google Translate — Lisans kapsamında kullanılmaktadır",
   "book_intro": "Blue Letter Bible bakanlığı ve BLB Enstitüsü, Kutsal Yazıların tahrif edilemezliğine olan kesin inancı da içeren tarihsel, muhafazakar Hristiyan inancına bağlıdır. BLB tarafından sağlanan metin ve ses içeriği çeşitli Evanjelik gelenekleri temsil ettiğinden, kaynak materyallerde aktarılan tüm fikir ve ilkelerin bu bakanlık tarafından toplamda onaylanması gerekmez.\n\nBlue Letter Kutsal Kitap çalışma araçları Kutsal Kitap'ı okumayı, araştırmayı ve çalışmayı kolay ve ödüllendirici hale getirir.\n\nBlue Letter Bible 501(c)(3) kar amacı gütmeyen bir kuruluştur\n\nTercih ettiğiniz Kutsal Kitap çevirilerinin sırasını Kutsal Kitaplar Sekmesi'nden Sürüm Seçici'ye (bu açılır pencere) kopyalayabilir ya da tam tersini yapabilirsiniz. Kutsal Kitaplar Sekmesi, Kutsal Kitap sayfalarındaki Araçlar özelliğinde bulunur:\n\nNot: MLA artık atıf standartlarının bir parçası olarak URL'yi zorunlu tutmamaktadır. Bireysel eğitmenler veya editörler yine de URL'lerin kullanılmasını isteyebilir.\n\nHata: Parolalar en az 6 karakterden oluşmalıdır\n\nHata: Kullanıcı adları yalnızca harf, rakam, nokta, tire veya alt çizgi içermelidir\n\nParolalar en az 6 karakterden oluşmalıdır.\n\t\t\t\t\t\t\tKullanıcı adları yalnızca harf, rakam, nokta, tire veya alt çizgi içermelidir.\n\nKaydolduğunuz için teşekkür ederiz. Verdiğiniz adrese bir doğrulama e-postası gönderildi.\n\nOrtaklığınız tüm yaptıklarımızı mümkün kılıyor. Bugün dua ederek bir destek hediyesi vermeyi düşünür müsünüz?",
-  "chapter_intro": "",
-  "passages": [],
-  "notes": [
-    {
-      "ref": "Ps. 137",
-      "text": "Psalm . This community lament remembers the Babylonian captivity. It provides words by which the returned exiles can express their loyalty to Jerusalem and pray that God would punish those who gloat over its destruction. This psalm is notable for the intensity of its final wish (v. 9). It is a prayer that the Babylonians, who had smashed Israelite infants, should be punished appropriately."
-    },
+  "passages": [
     {
       "ref": "Ps. 137:1–3",
-      "text": "The opening section recalls the captivity by the waters of Babylon (the Euphrates River), where the Babylonian captors had required of us songs. The songs of Zion would be sacred songs (such as the psalms). Apparently the captors wanted the Judeans to sing them for entertainment rather than for worship."
+      "title": "Ps. 137:1–3",
+      "text": "Açılış bölümü, Babillilerin **bizden şarkılar talep ettiği** **Babil sularındaki** (Fırat Nehri) esareti hatırlatıyor. **Zion şarkıları** kutsal şarkılar olacaktır (mezmurlar gibi). Görünüşe göre onu kaçıranlar Yahudiyelilerin ibadet için değil eğlence için şarkı söylemesini istiyorlardı."
     },
     {
       "ref": "Ps. 137:4–6",
-      "text": "To a faithful Judean, the request of v. 3 would be like asking him to forget . . . Jerusalem, which would be an act of treachery against God, his covenant, and his people. His prayer is that if he should consent to such disloyalty, the very right hand that would play the lyre would instead forget its skill, and the tongue that might sing would instead stick to the roof of my mouth."
+      "title": "Ps. 137:4–6",
+      "text": "Sadık bir Yahudiyeli için ayet 3'teki talep, ondan **unutmasını istemek gibi olurdu. . . Kudüs**, bu Tanrı'ya, O'nun antlaşmasına ve halkına ihanet anlamına gelir. Onun duası, eğer böyle bir sadakatsizliğe razı olursa, lir çalan **sağ elin** bunun yerine **becerisini unutması** ve şarkı söyleyebilen **dilin** bunun yerine **ağzımın damağına yapışması**dır."
     },
     {
       "ref": "Ps. 137:7–9",
-      "text": "The recollection of these hurtful taunts leads to a prayer that God will remember the deeds of his people’s enemies. These are represented here by the Edomites and the daughter of Babylon. The Edomites took great delight in destroying Jerusalem completely. The Babylonians had been excessively violent against the helpless in Jerusalem."
+      "title": "Ps. 137:7–9",
+      "text": "Bu incitici alayların hatırlanması, Tanrı'nın, halkının düşmanlarının yaptıklarını **hatırlaması** için dua etmeye yol açıyor. Bunlar burada **Edomitler** ve **Babil'in kızı** tarafından temsil edilmektedir. Edomlular Yeruşalim'in tamamen yok edilmesinden büyük keyif aldılar. Babilliler Yeruşalim'deki çaresizlere karşı aşırı şiddet uygulamışlardı."
+    }
+  ],
+  "notes": [
+    {
+      "ref": "Ps. 137",
+      "text": "**Mezmur** . Bu cemaat ağıtı Babil esaretini anıyor. Geri dönen sürgünlerin Yeruşalim'e olan bağlılıklarını ifade edebilecekleri ve Tanrı'nın, onun yıkılmasından övünenleri cezalandırması için dua edebilecekleri sözler sağlar. Bu mezmur, son dileğinin yoğunluğu açısından dikkate değerdir (ayet 9). İsrailli bebekleri parçalayan Babillilerin uygun şekilde cezalandırılması için bir duadır."
     }
   ]
 }

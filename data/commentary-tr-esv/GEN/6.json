@@ -1,54 +1,50 @@
 {
-  "source": "ESV Global Study Bible (Crossway) — Türkçe çeviri — DeepL translator — Lisans kapsamında kullanılmaktadır",
+  "source": "ESV Global Study Bible (Crossway) — Türkçe çeviri — Google Translate — Lisans kapsamında kullanılmaktadır",
   "book_intro": "Yazar, Tarih ve Alıcılar\n\nGeleneksel olarak Musa'nın Yaratılış'ın ve Pentatök'ün geri kalanının yazarı olduğu kabul edilir (bkz. Çölde Sayım 33:2; Yasa'nın Tekrarı 31:24; Yuhanna 5:46). Elbette Musa Yaratılış'ta anlatılan olaylardan çok daha sonra yaşamıştır. Muhtemelen, daha önceki olaylarla ilgili hikayeler aktarıldı ve Musa hepsini bir araya getirdi.\n\nİlk dinleyiciler Musa'nın çölde önderlik ettiği İsrailliler olmalıdır. Bugünkü okuyucular için Yaratılış, Kutsal Kitap'ın geri kalanına temel bir giriş niteliğindedir. Haklı olarak başlangıçlar kitabı olarak adlandırılır.\n\nTema\n\nYaratılış'ın teması yaratılış, günah ve yeniden yaratılıştır. Tanrı dünyayı çok iyi yaratmış, ama insanın itaatsizliği yüzünden önce onu lanetlemiş, sonra da tufanla yok etmiştir. Tufandan sonraki yeni dünya da insanın günahı yüzünden bozulmuştur (bölüm 11). Tanrı İbrahim'i özel bir amaç için seçti. Onun ailesi aracılığıyla bütün uluslar kutsanacaktı (12:1-3). Tanrı'nın amacı eninde sonunda İbrahim'in soyu aracılığıyla yerine gelecektir (bölüm 49).\n\nAnahtar Temalar\n\nRab Tanrı insanları yeryüzündeki temsilcileri olarak görevlendirir. Yeryüzüne bakmalı ve diğer canlıları yönetmelidirler (1:1-2:25).\n\nİlk erkek ve kadın -Adem ve Havva- Tanrı'nın yeryüzündeki temsilcileri olarak hareket etmek yerine yılanı dinler ve onun öğütlerine uyarlar. Onların itaatsizliği tüm insanlık ve yaratılan tüm dünya için yıkıcı sonuçlar doğurur (3:1-24; 6:5-6).\n\nTanrı, Havva'nın soyunun insanlığı yılanın kontrolünden kurtaracağını lütufkâr bir şekilde duyurur (3:15). Yaratılış daha sonra İsrail halkı olacak bir ailenin tarihini izlemeye başlar. Bu ailenin Tanrı'yla özel bir ilişkisi vardır ve düşmüş insanlık için bir bereket kaynağı olacaktır (12:1-3).\n\nAdem'in itaatsizliğinin bir sonucu olarak, toprakla olan eşsiz ilişkisi bozulur, bu da ağır işlere ve daha sonra tufan ve kıtlığa neden olur. Ancak Adem'den gelen özel aile de zorluklardan kurtulmayı sağlar (3:17-19; 5:29; 50:19-21).\n\nHavva'nın cezası çocuk doğurma acısına odaklanırken (3:16), kadınlar eşsiz aile soyunun devam etmesinde önemli bir rol oynarlar. Tanrı'nın yardımıyla kısırlığın bile üstesinden gelinir (11:30; 21:1-7; 25:21; 38:1-30).\n\nİnsan doğasının bozulması ailelerin parçalanmasına neden olur (4:1-16; 13:5-8; 25:22-23; 27:41-45; 37:2-35). Yaratılış aile çatışmalarının gerçekliğini gösterse de, seçilmiş ailenin bireysel üyeleri de bu çatışmaların çözümüne yardımcı olabilir (13:8-11; 33:1-11; 45:1-28; 50:15-21).\n\nKötüler Aden'den sürgün edilir ve yeryüzüne dağılır (3:22-24; 4:12-16; 11:9), ancak Tanrı seçilmiş halkına karşı naziktir ve onlara kendilerine ait bir ülke vaat eder (12:1-2; 7; 15:7-21; 28:13-14; 50:24).\n\nTanrı, yozlaşması nedeniyle neredeyse tüm insan ırkını yok etmeye hazırdır (6:7; 11-12; 18:17-33), ancak yine de dünyasının doğru insanlar tarafından doldurulmasını ister (1:28; 9:1; 15:1-5; 35:11).\n\nAnahatlar\n\nİlkçağ Tarihi (1:1-11:26)\n\nTanrı'nın yeri ve göğü yaratması ve düzenlemesi (1:1-2:3)\n\nDünya'nın ilk insanları (2:4-4:26)\n\nAdem'in soyundan gelenler (5:1-6:8)\n\nNuh'un soyundan gelenler (6:9-9:29)\n\nNuh'un oğullarının soyundan gelenler (10:1-11:9)\n\nŞem'in soyundan gelenler (11:10-26)\n\nPatriyarkal Tarih (11:27-50:26)\n\nTerah'ın soyundan gelenler (11:27-25:18)\n\nİshak'ın soyundan gelenler (25:19-37:1)\n\nYakup'un soyundan gelenler (37:2-50:26)\n\nYaratılış Zamanında Yakın Doğu\n\nc. M.Ö. 2000.\n\nYaratılış kitabı, medeniyetin başlangıcından Yakup'un (İsrail'in) ailesinin Mısır'a yerleşmesine kadar eski Yakın Doğu'daki olayları anlatır. Yaratılış hikâyeleri Mısır, Asur, Babil ve Elam gibi dünyanın en eski uluslarından bazılarının arasında geçmektedir.",
   "chapter_intro": "Primeval History.",
   "passages": [
     {
-      "ref": "Gen. 1:1–11:26",
-      "title": "Primeval History.",
-      "text": "Genesis 1–11 surveys the history of the world before Abraham, while chs. 12–50 focus on one main family. There are no real parallels to chs. 12–50 in the literature of other ancient civilizations. However, other ancient stories do exist about both creation and the flood. These stories stand in sharp contrast to the biblical account. Generally they depict creation as a great struggle, often involving conflict between the gods. For example, they claim that the flood was sent because the gods could not stand the noise made by human beings but were unable to control it in any other way. Genesis disproves such stories by its teachings. There is only one God, whose word is almighty. He spoke the world into being. The sun and moon are not gods in their own right but are created by the one God. It is human sin that prompts the flood. These principles in Genesis 1–11 run through the rest of Scripture."
+      "ref": "Gen. 6:9–9:29",
+      "title": "Nuh'un Torunları.",
+      "text": "6–9. Bölümler, dünyanın yenilenmesine yol açan bir tufanı anlatır; bu, 1:1–2:3'teki yaratılış kaydını hatırlatır. Ancak topraklar temizlenirken ve Tanrı yeni bir başlangıcı mümkün kılarken insan doğası değişmedi. Bu, bu bölümlerin son ayetlerinde açıkça görülmektedir (9:20–29)."
     }
   ],
   "notes": [
     {
       "ref": "Gen. 6:1–2",
-      "text": "Although God had commanded mankind to multiply (1:28), their increasing numbers led to increasing wickedness on the earth. The problem was worsened by the joining of the sons of God and the daughters of man. Scholars have proposed at least two interpretations of this passage: (1) fallen angels were marrying the daughters of man; (2) male descendants of Seth were marrying the ungodly female descendants of Cain. However one interprets the passage, it is clear that the relationships described here involved sexual sin, as men saw and took any women they wanted."
+      "text": "Her ne kadar Tanrı insanlığa **çoğalmasını** emretmiş olsa da (1:28), onların sayısının artması yeryüzünde kötülüğün artmasına yol açtı. Sorun, **Tanrı'nın oğulları** ile **insan kızlarının** birleşmesiyle daha da kötüleşti. Akademisyenler bu pasajın en az iki yorumunu öne sürdüler: (1) düşmüş melekler insan kızlarıyla evleniyordu; (2) Şit'in erkek torunları, Kayin'in tanrısız kadın torunlarıyla evleniyordu. Pasaj nasıl yorumlanırsa yorumlansın, burada anlatılan ilişkilerin cinsel günah içerdiği açıktır; çünkü erkekler istedikleri kadını **gördüler** ve **aldılar**."
     },
     {
       "ref": "Gen. 6:3",
-      "text": "God announces that because of the immoral nature of people, their days shall be 120 years. This could mean either that the lives of human beings will no longer exceed 120 years, or that the flood will come in 120 years."
+      "text": "Allah, insanların ahlaksız doğaları nedeniyle **günlerinin 120 yıl** olacağını bildirmektedir. Bu, ya insan ömrünün artık 120 yılı geçmeyeceği ya da 120 yıl sonra tufanın geleceği anlamına gelebilir."
     },
     {
       "ref": "Gen. 6:4",
-      "text": "The meaning of Nephilim is not clear. The only other OT occurrence of the term is in Num. 13:33, where the Israelite spies use it to describe a group living in Canaan. The Nephilim were mighty men or warriors and, as such, may well have contributed to the violence that filled the earth (see Gen. 6:13)."
+      "text": "**Nefilim**'in anlamı açık değildir. Terimin diğer tek OT oluşumu Num'dadır. 13:33, İsrailli casuslar bunu Kenan'da yaşayan bir grubu tanımlamak için kullanıyor. Nefilimler **güçlü adamlar** veya savaşçılardı ve bu nedenle dünyayı dolduran şiddete pekala katkıda bulunmuş olabilirler (bkz. Yaratılış 6:13)."
     },
     {
       "ref": "Gen. 6:6–7",
-      "text": "The Hebrew word for regretted is sometimes translated “repent” and sometimes as “feel sorrow” or “be grieved.” God is grieved over his creation, which he at first saw as very good (1:31) but which is now filled with sin (see note on 1 Sam. 15:29)."
-    },
-    {
-      "ref": "Gen. 6:9–9:29",
-      "text": "Noah’s Descendants. Chapters 6–9 describe a flood that leads to a renewal of the earth—a reminder of the creation account of 1:1–2:3. But while the land is cleansed and God makes a new start possible, human nature has not changed. This is clearly seen in the final verses of these chapters (9:20–29)."
+      "text": "**Pişmanlık** anlamına gelen İbranice kelime bazen \"tövbe etmek\", bazen de \"üzüntü duymak\" veya \"kederlenmek\" olarak çevrilir. Tanrı, ilk başta çok iyi olarak gördüğü (1:31) ama şimdi günahla dolu olan (1 Sam. 15:29'daki nota bakınız) yaratılışından dolayı **üzünmektedir**."
     },
     {
       "ref": "Gen. 6:9",
-      "text": "Noah’s personal righteousness explains why he is warned about the forthcoming deluge. Blameless conveys the idea of being without evident fault, though not necessarily sinless. walked with God. See note on 5:22–24."
+      "text": "Nuh'un kişisel doğruluğu, yaklaşan tufan hakkında neden uyarıldığını açıklıyor. **Kusursuz**, mutlaka günahsız olmasa da, bariz bir hatasının olmadığı fikrini aktarır. **Tanrı ile yürüdüm**. 5:22–24'teki nota bakınız."
     },
     {
       "ref": "Gen. 6:11–12",
-      "text": "In contrast to Noah, the earth was corrupt in God’s sight. These verses confirm vv. 1–7. Here the emphasis is on the violence that fills the earth. Compare “bondage to corruption” (Rom. 8:21): the creation suffers because of mankind’s sin."
+      "text": "Nuh'un aksine, **Tanrı'nın gözünde yeryüzü yozlaşmıştı**. Bu ayetler vv'yi doğrulamaktadır. 1–7 . Burada dünyayı dolduran **şiddete** vurgu yapılıyor. \"Köleliği yozlaşmayla\" karşılaştırın (Romalılar 8:21): Yaratılış, insanlığın günahı yüzünden acı çekiyor."
     },
     {
       "ref": "Gen. 6:15",
-      "text": "In modern measurements, the ark would have been around 450 feet (140 m) long, 75 feet (23 m) wide, and 45 feet (14 m) high, displacing about 43,000 tons (about 39 million kg). The inside capacity would have been 1.4 million cubic feet (39,644 cubic m), with an approximate total deck area of 95,700 square feet (8,891 square m)."
+      "text": "Modern ölçümlere göre, gemi yaklaşık 450 fit (140 m) uzunluğunda, 75 fit (23 m) genişliğinde ve 45 fit (14 m) yüksekliğinde olacak ve yaklaşık 43.000 ton (yaklaşık 39 milyon kg) yer değiştirecekti. İç kapasite 1,4 milyon fit küp (39,644 m3) ve yaklaşık toplam güverte alanı 95,700 fit kare (8,891 m2) olacaktı."
     },
     {
       "ref": "Gen. 6:17",
-      "text": "Everything that is on the earth shall die. This does not necessarily mean that the flood had to cover the whole earth. Since the geographical perspective of ancient people was more limited, it is possible that the flood, while universal from their viewpoint, did not cover the entire globe. Genesis implies that prior to the Tower of Babel incident (see 11:1–9), people had not yet spread throughout the earth. Many interpreters argue that a huge regional flood may have been all that was necessary for God to destroy all humans. The expression “all the earth” (7:3; compare 8:9, “the whole earth”) does not exclude such a possibility. Later, “all the earth” came to Joseph to buy grain (41:57); here, “all the earth” clearly refers to the eastern Mediterranean seaboard. To support the view that the flood did in fact cover the entire globe, other interpreters point out that the text says “all the high mountains under the whole heaven were covered” (7:19) and that the water was “fifteen cubits” above the tops of the mountains. If “the mountains of Ararat” (8:4) refers to the range that includes present-day Mount Ararat in Turkey (elevation 16,854 feet or 5,137 m), the amount of water necessary to cover it would be at least 16,854 feet above sea level."
+      "text": "**Yeryüzündeki her şey ölecek**. Bu, tufanın mutlaka tüm dünyayı kaplaması gerektiği anlamına gelmez. Eski insanların coğrafi bakış açısı daha sınırlı olduğundan, tufan onların bakış açısına göre evrensel olsa da tüm dünyayı kapsamamış olabilir. Yaratılış, Babil Kulesi olayından önce (bkz. 11:1-9) insanların henüz yeryüzüne yayılmadığını ima eder. Birçok yorumcu, Tanrı'nın tüm insanları yok etmesi için gereken tek şeyin büyük bir bölgesel tufan olabileceğini öne sürüyor. “Bütün dünya” ifadesi (7:3; karşılaştırın 8:9, “tüm dünya”) böyle bir olasılığı dışlamaz. Daha sonra \"tüm dünya\" tahıl satın almak için Yusuf'a geldi (41:57); burada “tüm dünya” açıkça doğu Akdeniz kıyısını kastediyor. Tufan'ın aslında tüm yerküreyi kapladığı görüşünü desteklemek için diğer yorumcular, metinde \"göğün altındaki tüm yüksek dağların kaplandığını\" (7:19) ve suyun dağların tepelerinden \"on beş arşın\" yüksekte olduğunu belirtiyorlar. Eğer \"Ararat dağları\" (8:4), Türkiye'deki günümüz Ağrı Dağı'nı da kapsayan bölgeyi kastediyorsa (yükseklik 16.854 fit veya 5.137 m), burayı kaplamak için gereken su miktarı deniz seviyesinden en az 16.854 fit yüksekte olacaktır."
     },
     {
       "ref": "Gen. 6:18–22",
-      "text": "God indicates that he will establish a covenant with Noah (see note on 9:9–11)."
+      "text": "Tanrı, Nuh'la bir **antlaşma** yapacağını belirtir (9:9-11 ile ilgili nota bakınız)."
     }
   ]
 }

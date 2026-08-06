@@ -1,32 +1,40 @@
 {
-  "source": "ESV Global Study Bible (Crossway) — Türkçe çeviri — DeepL translator — Lisans kapsamında kullanılmaktadır",
+  "source": "ESV Global Study Bible (Crossway) — Türkçe çeviri — Google Translate — Lisans kapsamında kullanılmaktadır",
   "book_intro": "Blue Letter Bible bakanlığı ve BLB Enstitüsü, Kutsal Yazıların tahrif edilemezliğine olan kesin inancı da içeren tarihsel, muhafazakar Hristiyan inancına bağlıdır. BLB tarafından sağlanan metin ve ses içeriği çeşitli Evanjelik gelenekleri temsil ettiğinden, kaynak materyallerde aktarılan tüm fikir ve ilkelerin bu bakanlık tarafından toplamda onaylanması gerekmez.\n\nBlue Letter Kutsal Kitap çalışma araçları Kutsal Kitap'ı okumayı, araştırmayı ve çalışmayı kolay ve ödüllendirici hale getirir.\n\nBlue Letter Bible 501(c)(3) kar amacı gütmeyen bir kuruluştur\n\nTercih ettiğiniz Kutsal Kitap çevirilerinin sırasını Kutsal Kitaplar Sekmesi'nden Sürüm Seçici'ye (bu açılır pencere) kopyalayabilir veya tam tersini yapabilirsiniz. Kutsal Kitaplar Sekmesi, Kutsal Kitap sayfalarındaki Araçlar özelliğinde bulunur:\n\nNot: MLA artık atıf standartlarının bir parçası olarak URL'yi zorunlu tutmamaktadır. Bireysel eğitmenler veya editörler yine de URL'lerin kullanılmasını isteyebilir.\n\nHata: Parolalar en az 6 karakterden oluşmalıdır\n\nHata: Kullanıcı adları yalnızca harf, rakam, nokta, tire veya alt çizgi içermelidir\n\nParolalar en az 6 karakterden oluşmalıdır.\n\t\t\t\t\t\t\tKullanıcı adları yalnızca harf, rakam, nokta, tire veya alt çizgi içermelidir.\n\nKaydolduğunuz için teşekkür ederiz. Verdiğiniz adrese bir doğrulama e-postası gönderildi.\n\nOrtaklığınız tüm yaptıklarımızı mümkün kılıyor. Bugün dua ederek bir destek hediyesi vermeyi düşünür müsünüz?",
-  "chapter_intro": "",
-  "passages": [],
-  "notes": [
+  "passages": [
     {
-      "ref": "2 Kings 22:2",
-      "text": "Josiah is the ideal king who does not turn from the Mosaic law to the right or to the left (Deut. 17:20). His faithfulness to God is even greater than that of David and Hezekiah (2 Kings 23:21–25)."
+      "ref": "2 Kings 22:1–23:30",
+      "title": "Josiah.",
+      "text": "Yoşiya uzun zamandır beklenen iyi bir kraldır (bkz. 1. Krallar 13:2). Pek çok önemli iş yapar ama Yahuda'nın kaderini değiştirmek için artık çok geçtir."
     },
     {
       "ref": "2 Kings 22:3–7",
-      "text": "the king sent Shaphan. Like Joash in 12:1–16, Josiah’s initial concern is simply to repair the temple, not to reform its worship. In fact, the reforms introduced by Joash some 200 years previously are still in place. The doorkeepers still collect the money for temple repairs, and the secretary and the high priest still count and distribute the money to the men in charge of the work."
-    },
-    {
-      "ref": "2 Kings 22:8",
-      "text": "I have found the Book of the Law. The phrase “Book of the Law” may refer to all or part of the Pentateuch. Most scholars think a portion of Deuteronomy was discovered, which was read to the king and provided the basis for his actions. This written Law had been available to the kings of Israel and Judah in previous years (see 1 Kings 2:3; 2 Kings 10:31; 14:6; 18:6), but it was evidently lost or concealed during the long and wicked reign of Manasseh."
+      "title": "2 Krallar 22:3–7",
+      "text": "**kral Şafan'ı gönderdi**. 12:1-16'daki Yoaş gibi, Yoşiya'nın da ilk kaygısı tapınmayı yeniden düzenlemek değil, yalnızca tapınağı onarmaktır. Aslında Joash'un yaklaşık 200 yıl önce uygulamaya koyduğu reformlar hâlâ yürürlükte. Kapıcılar hâlâ tapınağın onarımı için **para** topluyorlar ve **sekreter** ve başrahip hâlâ parayı sayıp işten sorumlu adamlara dağıtıyorlar."
     },
     {
       "ref": "2 Kings 22:11–13",
-      "text": "Brought up in a royal court that had disobeyed God for 57 years, Josiah did not know the Lord’s demands. As soon as he became aware, he tore his clothes in grief and despair (compare 5:7–8; 6:30) and sent officials to inquire of the Lord."
+      "title": "2 Krallar 22:11–13",
+      "text": "57 yıldır Tanrı'ya itaatsizlik eden bir kraliyet sarayında büyüyen Yoşiya, Rabbin taleplerini bilmiyordu. Farkına varır varmaz, üzüntü ve çaresizlik içinde **elbiselerini yırttı** (5:7–8; 6:30 ile karşılaştırın) ve **Rab'be danışmak** için memurlar gönderdi."
     },
     {
       "ref": "2 Kings 22:14–16",
-      "text": "The officials (v. 11) consulted an otherwise unknown prophetess named Huldah. Her words confirm what is already known from the unnamed prophets of 21:10–15: the Lord is going to bring disaster on Jerusalem and its people."
+      "title": "2 Krallar 22:14–16",
+      "text": "Yetkililer (ayet 11), başka türlü bilinmeyen **Huldah** adında bir **peygambere** danıştı. Onun sözleri, 21:10–15'teki isimsiz peygamberlerden zaten bilinenleri doğruluyor: Rab, Yeruşalim ve halkının üzerine **felaket getirecek**."
+    }
+  ],
+  "notes": [
+    {
+      "ref": "2 Kings 22:2",
+      "text": "Yoşiya, Musa kanunundan **sağa veya sola** sapmayan ideal kraldır (Tesniye 17:20). Onun Tanrı'ya olan sadakati **Davut** ve Hizkiya'nınkinden bile daha fazladır (2. Krallar 23:21–25)."
+    },
+    {
+      "ref": "2 Kings 22:8",
+      "text": "**Kanun Kitabını buldum**. “Yasa Kitabı” ifadesi Pentateuch'un tamamına veya bir kısmına atıfta bulunabilir. Çoğu bilim adamı Tesniye'nin bir bölümünün keşfedildiğini, bunun krala okunduğunu ve onun eylemlerine temel oluşturduğunu düşünüyor. Bu yazılı Kanun daha önceki yıllarda İsrail ve Yahuda krallarının kullanımına açıktı (bkz. 1. Krallar 2:3; 2. Krallar 10:31; 14:6; 18:6), fakat Manasse'nin uzun ve kötü hükümdarlığı sırasında açıkça kaybolmuş veya gizlenmişti."
     },
     {
       "ref": "2 Kings 22:20",
-      "text": "Because Josiah has humbled himself before the Lord, he will die before the terrible events prophesied in 21:12–14 and 22:15–17 occur."
+      "text": "Yoşiya, Rab'bin önünde kendini alçalttığı için, 21:12–14 ve 22:15–17'de kehanet edilen korkunç olaylar gerçekleşmeden ölecek."
     }
   ]
 }

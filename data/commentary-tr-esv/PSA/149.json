@@ -1,24 +1,26 @@
 {
-  "source": "ESV Global Study Bible (Crossway) — Türkçe çeviri — DeepL translator — Lisans kapsamında kullanılmaktadır",
+  "source": "ESV Global Study Bible (Crossway) — Türkçe çeviri — Google Translate — Lisans kapsamında kullanılmaktadır",
   "book_intro": "Blue Letter Bible bakanlığı ve BLB Enstitüsü, Kutsal Yazıların tahrif edilemezliğine olan kesin inancı da içeren tarihsel, muhafazakar Hristiyan inancına bağlıdır. BLB tarafından sağlanan metin ve ses içeriği çeşitli Evanjelik gelenekleri temsil ettiğinden, kaynak materyallerde aktarılan tüm fikir ve ilkelerin bu bakanlık tarafından toplamda onaylanması gerekmez.\n\nBlue Letter Kutsal Kitap çalışma araçları Kutsal Kitap'ı okumayı, araştırmayı ve çalışmayı kolay ve ödüllendirici hale getirir.\n\nBlue Letter Bible 501(c)(3) kar amacı gütmeyen bir kuruluştur\n\nTercih ettiğiniz Kutsal Kitap çevirilerinin sırasını Kutsal Kitaplar Sekmesi'nden Sürüm Seçici'ye (bu açılır pencere) kopyalayabilir ya da tam tersini yapabilirsiniz. Kutsal Kitaplar Sekmesi, Kutsal Kitap sayfalarındaki Araçlar özelliğinde bulunur:\n\nNot: MLA artık atıf standartlarının bir parçası olarak URL'yi zorunlu tutmamaktadır. Bireysel eğitmenler veya editörler yine de URL'lerin kullanılmasını isteyebilir.\n\nHata: Parolalar en az 6 karakterden oluşmalıdır\n\nHata: Kullanıcı adları yalnızca harf, rakam, nokta, tire veya alt çizgi içermelidir\n\nParolalar en az 6 karakterden oluşmalıdır.\n\t\t\t\t\t\t\tKullanıcı adları yalnızca harf, rakam, nokta, tire veya alt çizgi içermelidir.\n\nKaydolduğunuz için teşekkür ederiz. Verdiğiniz adrese bir doğrulama e-postası gönderildi.\n\nOrtaklığınız tüm yaptıklarımızı mümkün kılıyor. Bugün dua ederek bir destek hediyesi vermeyi düşünür müsünüz?",
-  "chapter_intro": "",
-  "passages": [],
-  "notes": [
-    {
-      "ref": "Ps. 149",
-      "text": "Psalm . This psalm calls on God’s people to praise the Lord for their special privileges."
-    },
+  "passages": [
     {
       "ref": "Ps. 149:1–4",
-      "text": "The members of the worshiping congregation call one another to praise the Lord, and to sing to him a new song. The tone is one of jubilant gladness. God’s people call him their Maker and their King, and know that he takes pleasure in his people. This idea would be unbearably arrogant if the Lord himself had not declared it (147:11; see Ex. 19:5); the psalm also clarifies that the full benefit (salvation) comes to the humble."
-    },
-    {
-      "ref": "Ps. 149:6",
-      "text": "This verse is startling, with the high praises of God . . . in their throats and two-edged swords in their hands (an unexpected element in corporate worship!)."
+      "title": "Ps. 149:1–4",
+      "text": "İbadet eden cemaatin üyeleri birbirlerini **Rab'be hamt etmek** ve O'na **yeni bir şarkı** söylemek için çağırırlar. Ses tonu sevinçli bir mutluluktur. Tanrı'nın halkı onu **Yaratıcısı** ve **Kralları** olarak adlandırıyor ve onun **halkından zevk aldığını** biliyor. Eğer Rabb'in kendisi bunu beyan etmemiş olsaydı, bu fikir dayanılmaz derecede kibirli olurdu (147:11; bkz. Çıkış 19:5); Mezmur aynı zamanda tam faydanın (**kurtuluşun**) **alçakgönüllü**'ye geldiğini de açıklığa kavuşturur."
     },
     {
       "ref": "Ps. 149:7–9",
-      "text": "The faithful will do God’s work of bringing vengeance on the nations (assuming that they refuse the invitation to “praise the name of the Lord,” 148:13)."
+      "title": "Ps. 149:7–9",
+      "text": "Sadıklar, Tanrı'nın **uluslardan intikam alma** işini yapacaklardır (\"Rab'bin adını övme\" davetini reddettiklerini varsayarsak,\" 148:13)."
+    }
+  ],
+  "notes": [
+    {
+      "ref": "Ps. 149",
+      "text": "**Mezmur** . Bu mezmur, Tanrı'nın halkını özel ayrıcalıklarından dolayı Rab'be şükretmeye çağırıyor."
+    },
+    {
+      "ref": "Ps. 149:6",
+      "text": "Allah'ın büyük övgülerini içeren bu ayet şaşırtıcıdır. . . boğazlarında</b> ve **ellerinde iki ucu keskin kılıçlar** (toplu ibadette beklenmedik bir unsur!)."
     }
   ]
 }

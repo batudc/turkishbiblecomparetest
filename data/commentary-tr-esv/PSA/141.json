@@ -1,28 +1,32 @@
 {
-  "source": "ESV Global Study Bible (Crossway) — Türkçe çeviri — DeepL translator — Lisans kapsamında kullanılmaktadır",
+  "source": "ESV Global Study Bible (Crossway) — Türkçe çeviri — Google Translate — Lisans kapsamında kullanılmaktadır",
   "book_intro": "Blue Letter Bible bakanlığı ve BLB Enstitüsü, Kutsal Yazıların tahrif edilemezliğine olan kesin inancı da içeren tarihsel, muhafazakar Hristiyan inancına bağlıdır. BLB tarafından sağlanan metin ve ses içeriği çeşitli Evanjelik gelenekleri temsil ettiğinden, kaynak materyallerde aktarılan tüm fikir ve ilkelerin bu bakanlık tarafından toplamda onaylanması gerekmez.\n\nBlue Letter Kutsal Kitap çalışma araçları Kutsal Kitap'ı okumayı, araştırmayı ve çalışmayı kolay ve ödüllendirici hale getirir.\n\nBlue Letter Bible 501(c)(3) kar amacı gütmeyen bir kuruluştur\n\nTercih ettiğiniz Kutsal Kitap çevirilerinin sırasını Kutsal Kitaplar Sekmesi'nden Sürüm Seçici'ye (bu açılır pencere) kopyalayabilir ya da tam tersini yapabilirsiniz. Kutsal Kitaplar Sekmesi, Kutsal Kitap sayfalarındaki Araçlar özelliğinde bulunur:\n\nNot: MLA artık atıf standartlarının bir parçası olarak URL'yi zorunlu tutmamaktadır. Bireysel eğitmenler veya editörler yine de URL'lerin kullanılmasını isteyebilir.\n\nHata: Parolalar en az 6 karakterden oluşmalıdır\n\nHata: Kullanıcı adları yalnızca harf, rakam, nokta, tire veya alt çizgi içermelidir\n\nParolalar en az 6 karakterden oluşmalıdır.\n\t\t\t\t\t\t\tKullanıcı adları yalnızca harf, rakam, nokta, tire veya alt çizgi içermelidir.\n\nKaydolduğunuz için teşekkür ederiz. Verdiğiniz adrese bir doğrulama e-postası gönderildi.\n\nOrtaklığınız tüm yaptıklarımızı mümkün kılıyor. Bugün dua ederek bir destek hediyesi vermeyi düşünür müsünüz?",
-  "chapter_intro": "",
-  "passages": [],
-  "notes": [
-    {
-      "ref": "Ps. 141",
-      "text": "Psalm . This is an individual lament, a prayer that God will protect the faithful person against all insincerity and compromise."
-    },
+  "passages": [
     {
       "ref": "Ps. 141:1–2",
-      "text": "The singer asks God to give ear to my voice when I call to you! His prayer is compared to incense and the evening sacrifice, acts performed in worship."
+      "title": "Ps. 141:1–2",
+      "text": "Şarkıcı, **Sana seslendiğimde Tanrı'dan sesime kulak vermesini** diler! Onun **duası**, ibadet amacıyla yapılan **tütsü** ve akşam **kurbanına** benzetilir."
     },
     {
       "ref": "Ps. 141:3–5",
-      "text": "The singer may be tempted to avoid danger by joining the men who work iniquity; he asks God to help him avoid all such temptation. This prayer reveals great insight into how a person in such circumstances would actually feel."
+      "title": "Ps. 141:3–5",
+      "text": "Şarkıcı, **kötülük yapan adamlara** katılarak tehlikeden kaçınma cazibesine kapılabilir; Tanrı'dan bu tür ayartmalardan kaçınmasına yardım etmesini ister. Bu dua, bir kişinin bu gibi durumlarda gerçekte nasıl hissedeceğine dair büyük bir fikir verir."
     },
     {
       "ref": "Ps. 141:6–7",
-      "text": "As the esv footnote explains, the Hebrew here is difficult. The main point is that eventually God will bring his judgment upon the judges. Then the faithful person will be vindicated, and the unfaithful might even learn wisdom."
+      "title": "Ps. 141:6–7",
+      "text": "Esv dipnotunun da açıkladığı gibi, İbranice burada zordur. Asıl nokta, eninde sonunda Tanrı'nın **yargıçlara** hükmünü vereceğidir. O zaman sadık kişi haklı çıkacak ve sadakatsiz kişi bilgeliği bile öğrenebilir."
     },
     {
       "ref": "Ps. 141:8–10",
-      "text": "The prayer that God would keep me from falling prey to their schemes becomes a prayer that the wicked would fall into their own nets."
+      "title": "Ps. 141:8–10",
+      "text": "Tanrı'nın beni onların planlarına yem olmaktan **koruması** için dua, **kötülerin** kendi ağlarına düşmeleri için yapılan bir duaya dönüşür."
+    }
+  ],
+  "notes": [
+    {
+      "ref": "Ps. 141",
+      "text": "**Mezmur** . Bu bireysel bir ağıttır, Allah'ın mümin insanı her türlü samimiyetsizlikten ve tavizden koruması için yapılan bir duadır."
     }
   ]
 }

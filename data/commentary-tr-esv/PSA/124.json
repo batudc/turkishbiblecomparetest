@@ -1,24 +1,26 @@
 {
-  "source": "ESV Global Study Bible (Crossway) — Türkçe çeviri — DeepL translator — Lisans kapsamında kullanılmaktadır",
+  "source": "ESV Global Study Bible (Crossway) — Türkçe çeviri — Google Translate — Lisans kapsamında kullanılmaktadır",
   "book_intro": "Blue Letter Bible bakanlığı ve BLB Enstitüsü, Kutsal Yazıların tahrif edilemezliğine olan kesin inancı da içeren tarihsel, muhafazakar Hristiyan inancına bağlıdır. BLB tarafından sağlanan metin ve ses içeriği çeşitli Evanjelik gelenekleri temsil ettiğinden, kaynak materyallerde aktarılan tüm fikir ve ilkelerin bu bakanlık tarafından toplamda onaylanması gerekmez.\n\nBlue Letter Kutsal Kitap çalışma araçları Kutsal Kitap'ı okumayı, araştırmayı ve çalışmayı kolay ve ödüllendirici hale getirir.\n\nBlue Letter Bible 501(c)(3) kar amacı gütmeyen bir kuruluştur\n\nTercih ettiğiniz Kutsal Kitap çevirilerinin sırasını Kutsal Kitaplar Sekmesi'nden Sürüm Seçici'ye (bu açılır pencere) kopyalayabilir ya da tam tersini yapabilirsiniz. Kutsal Kitaplar Sekmesi, Kutsal Kitap sayfalarındaki Araçlar özelliğinde bulunur:\n\nNot: MLA artık atıf standartlarının bir parçası olarak URL'yi zorunlu tutmamaktadır. Bireysel eğitmenler veya editörler yine de URL'lerin kullanılmasını isteyebilir.\n\nHata: Parolalar en az 6 karakterden oluşmalıdır\n\nHata: Kullanıcı adları yalnızca harf, rakam, nokta, tire veya alt çizgi içermelidir\n\nParolalar en az 6 karakterden oluşmalıdır.\n\t\t\t\t\t\t\tKullanıcı adları yalnızca harf, rakam, nokta, tire veya alt çizgi içermelidir.\n\nKaydolduğunuz için teşekkür ederiz. Verdiğiniz adrese bir doğrulama e-postası gönderildi.\n\nOrtaklığınız tüm yaptıklarımızı mümkün kılıyor. Bugün dua ederek bir destek hediyesi vermeyi düşünür müsünüz?",
-  "chapter_intro": "",
-  "passages": [],
-  "notes": [
-    {
-      "ref": "Ps. 124",
-      "text": "Psalm . This is a thanksgiving hymn for the community, for a time when God’s people have been under threat but have been delivered. The deliverance allows them to continue journeying to Jerusalem (see note on 122:6–9; and note on Psalm 120 on the Songs of Ascents)."
-    },
+  "passages": [
     {
       "ref": "Ps. 124:1–5",
-      "text": "The first section describes a situation in which people (apparently Gentiles) rose up against us (that is, against Israel)."
+      "title": "Ps. 124:1–5",
+      "text": "İlk bölüm, **insanların** (görünüşe göre Yahudi olmayanların) **bize (yani İsrail'e) karşı ayaklandığı** bir durumu anlatıyor."
     },
     {
       "ref": "Ps. 124:6–7",
-      "text": "We have escaped like a bird from the snare of the fowlers. That is, unexpectedly."
+      "title": "Ps. 124:6–7",
+      "text": "**Kuşçuların tuzağından kuş gibi kaçtık**. Yani beklenmedik bir şekilde."
+    }
+  ],
+  "notes": [
+    {
+      "ref": "Ps. 124",
+      "text": "**Mezmur** . Bu, Tanrı'nın halkının tehdit altında olduğu ancak kurtarıldığı bir dönem için topluluk için bir şükran ilahisidir. Kurtuluş onların Kudüs'e yolculuklarına devam etmelerini sağlar (bkz. 122:6-9 ile ilgili not; ve Yükseliş Şarkıları ile ilgili Mezmur 120 ile ilgili not)."
     },
     {
       "ref": "Ps. 124:8",
-      "text": "The psalm closes with its basic point, that our help is in the name of the Lord (that is, his personal presence; see Deut. 12:11)."
+      "text": "Mezmur temel noktasıyla, **yardımımızın Rab'bin adıyla olduğu** (yani O'nun kişisel varlığı; bkz. Yas. 12:11) ile sona ermektedir."
     }
   ]
 }

@@ -1,28 +1,31 @@
 {
-  "source": "ESV Global Study Bible (Crossway) — Türkçe çeviri — DeepL translator — Lisans kapsamında kullanılmaktadır",
+  "source": "ESV Global Study Bible (Crossway) — Türkçe çeviri — Google Translate — Lisans kapsamında kullanılmaktadır",
   "book_intro": "Blue Letter Bible bakanlığı ve BLB Enstitüsü, Kutsal Yazıların tahrif edilemezliğine olan kesin inancı da içeren tarihsel, muhafazakar Hristiyan inancına bağlıdır. BLB tarafından sağlanan metin ve ses içeriği çeşitli Evanjelik gelenekleri temsil ettiğinden, kaynak materyallerde aktarılan tüm fikir ve ilkelerin bu bakanlık tarafından toplamda onaylanması gerekmez.\n\nBlue Letter Kutsal Kitap çalışma araçları Kutsal Kitap'ı okumayı, araştırmayı ve çalışmayı kolay ve ödüllendirici hale getirir.\n\nBlue Letter Bible 501(c)(3) kar amacı gütmeyen bir kuruluştur\n\nTercih ettiğiniz Kutsal Kitap çevirilerinin sırasını Kutsal Kitaplar Sekmesi'nden Sürüm Seçici'ye (bu açılır pencere) kopyalayabilir ya da tam tersini yapabilirsiniz. Kutsal Kitaplar Sekmesi, Kutsal Kitap sayfalarındaki Araçlar özelliğinde bulunur:\n\nNot: MLA artık atıf standartlarının bir parçası olarak URL'yi zorunlu tutmamaktadır. Bireysel eğitmenler veya editörler yine de URL'lerin kullanılmasını isteyebilir.\n\nHata: Parolalar en az 6 karakterden oluşmalıdır\n\nHata: Kullanıcı adları yalnızca harf, rakam, nokta, tire veya alt çizgi içermelidir\n\nParolalar en az 6 karakterden oluşmalıdır.\n\t\t\t\t\t\t\tKullanıcı adları yalnızca harf, rakam, nokta, tire veya alt çizgi içermelidir.\n\nKaydolduğunuz için teşekkür ederiz. Verdiğiniz adrese bir doğrulama e-postası gönderildi.\n\nOrtaklığınız tüm yaptıklarımızı mümkün kılıyor. Bugün dua ederek bir destek hediyesi vermeyi düşünür müsünüz?",
-  "chapter_intro": "",
-  "passages": [],
-  "notes": [
-    {
-      "ref": "Ps. 28",
-      "text": "Psalm . This is a lament, a cry for help during the threat posed by evildoers. The threat is probably to the whole community (vv. 8–9), which each of the faithful is personally involved in (thus the references to “I,” “me,” and “my” throughout)."
-    },
+  "passages": [
     {
       "ref": "Ps. 28:1–2",
-      "text": "The situation is desperate. To be like those who go down to the pit is probably to be like those who suffer divine judgment (see 30:3; 9; 88:4; 143:7)."
-    },
-    {
-      "ref": "Ps. 28:2",
-      "text": "most holy sanctuary. This is the “innermost sanctuary” (see esv footnote), the place mentioned in 1 Kings 6:16."
+      "title": "Ps. 28:1–2",
+      "text": "Durum umutsuz. **Kuyuya inenler gibi** olmak muhtemelen ilahi yargıya maruz kalanlar gibi olmaktır (bkz. 30:3; 9; 88:4; 143:7)."
     },
     {
       "ref": "Ps. 28:3–5",
-      "text": "The wicked here are not simply people who commit sins, for even the faithful do that (see 32:6). The wicked are those who oppose God and his people with deceit and treachery (evil is in their hearts). Note the contrast between their work and the work of their hands (that is, of the wicked), and God’s works and the work of his hands."
+      "title": "Ps. 28:3–5",
+      "text": "Buradaki **kötüler** sadece günah işleyen insanlar değildir, çünkü sadık olanlar bile bunu yapar (bkz. 32:6). Kötüler, hile ve ihanetle Tanrı'ya ve halkına karşı çıkanlardır (**kötülük onların kalplerindedir**). **Onların işi** ile **ellerinin işi** (yani kötülerin işi) ile Tanrı'nın **işleri** ve **ellerinin işi** arasındaki zıtlığa dikkat edin."
     },
     {
       "ref": "Ps. 28:6–9",
-      "text": "The psalm ends with confidence that God will protect his people and his anointed (the Davidic king, who represents and embodies the whole people; see 2:8)."
+      "title": "Ps. 28:6–9",
+      "text": "The psalm ends with confidence that God will protect his **people** and his **anointed** (the Davidic king, who represents and embodies the whole people; see 2:8 )."
+    }
+  ],
+  "notes": [
+    {
+      "ref": "Ps. 28",
+      "text": "**Mezmur** . Bu bir ağıttır, zalimlerin oluşturduğu tehdit karşısında bir imdat çığlığıdır. Tehdit muhtemelen inançlıların her birinin kişisel olarak dahil olduğu tüm topluluğa yöneliktir (8-9 ayetler) (bu nedenle baştan sona \"ben\", \"ben\" ve \"benim\" ifadeleri)."
+    },
+    {
+      "ref": "Ps. 28:2",
+      "text": "**en kutsal tapınak**. Burası 1. Krallar 6:16'da bahsedilen \"en içteki kutsal alan\"dır (esv dipnotuna bakın)."
     }
   ]
 }

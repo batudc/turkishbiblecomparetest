@@ -1,44 +1,51 @@
 {
-  "source": "ESV Global Study Bible (Crossway) — Türkçe çeviri — DeepL translator — Lisans kapsamında kullanılmaktadır",
+  "source": "ESV Global Study Bible (Crossway) — Türkçe çeviri — Google Translate — Lisans kapsamında kullanılmaktadır",
   "book_intro": "Blue Letter Bible bakanlığı ve BLB Enstitüsü, Kutsal Yazıların tahrif edilemezliğine olan kesin inancı da içeren tarihsel, muhafazakar Hristiyan inancına bağlıdır. BLB tarafından sağlanan metin ve ses içeriği çeşitli Evanjelik gelenekleri temsil ettiğinden, kaynak materyallerde aktarılan tüm fikir ve ilkelerin bu bakanlık tarafından toplamda onaylanması gerekmez.\n\nBlue Letter Kutsal Kitap çalışma araçları Kutsal Kitap'ı okumayı, araştırmayı ve çalışmayı kolay ve ödüllendirici hale getirir.\n\nBlue Letter Bible 501(c)(3) kar amacı gütmeyen bir kuruluştur\n\nTercih ettiğiniz Kutsal Kitap çevirilerinin sırasını Kutsal Kitaplar Sekmesi'nden Sürüm Seçici'ye (bu açılır pencere) kopyalayabilir ya da tam tersini yapabilirsiniz. Kutsal Kitaplar Sekmesi, Kutsal Kitap sayfalarındaki Araçlar özelliğinde bulunur:\n\nNot: MLA artık atıf standartlarının bir parçası olarak URL'yi zorunlu tutmamaktadır. Bireysel eğitmenler veya editörler yine de URL'lerin kullanılmasını isteyebilir.\n\nHata: Parolalar en az 6 karakterden oluşmalıdır\n\nHata: Kullanıcı adları yalnızca harf, rakam, nokta, tire veya alt çizgi içermelidir\n\nParolalar en az 6 karakterden oluşmalıdır.\n\t\t\t\t\t\t\tKullanıcı adları yalnızca harf, rakam, nokta, tire veya alt çizgi içermelidir.\n\nKaydolduğunuz için teşekkür ederiz. Verdiğiniz adrese bir doğrulama e-postası gönderildi.\n\nOrtaklığınız tüm yaptıklarımızı mümkün kılıyor. Bugün dua ederek bir destek hediyesi vermeyi düşünür müsünüz?",
-  "chapter_intro": "",
-  "passages": [],
-  "notes": [
-    {
-      "ref": "Ps. 102",
-      "text": "Psalm . The title, “A Prayer of one afflicted,” makes it clear that this is an individual lament. At the same time, it is certainly not individualistic: the “I” who sings this (vv. 1–11, 23–24) sees himself as a member of a community, Zion (vv. 12–22). His own well-being is ultimately bound up with the promised well-being of God’s people. The psalm also contrasts the shortness of human life (v. 3, “my days pass away”; v. 11, “I wither away”; vv. 23–24) with God’s enduring life (vv. 12, 25–28). The psalm is suited for one like Job, whose troubles seem to be unexplained. Even God’s “indignation and anger” (v. 10) do not appear to be directed toward any specific sin. Those singing this prayer need to trust in God’s ultimate purposes for the whole people of God and look forward to participation in that blessedness (vv. 13, 21–22, 28)."
-    },
+  "passages": [
     {
       "ref": "Ps. 102:1–2",
-      "text": "The psalm opens on a note of bold urgency. The cry is desperate, and the singer wants God to respond speedily. He fears that God may continue to hide his face from me (see note on 13:1; see 30:7; 44:24; 69:17; 88:14; 143:7). The faithful can present their troubles to God with confidence."
+      "title": "Ps. 102:1–2",
+      "text": "Mezmur cesur bir aciliyet notuyla açılıyor. **Çığlık** çaresizdir ve şarkıcı Tanrı'nın **hızlı** yanıt vermesini ister. Tanrı'nın yüzünü benden **gizlemeye** devam etmesinden</b> korkuyor (bkz. 13:1 ile ilgili not; bkz. 30:7; 44:24; 69:17; 88:14; 143:7). Mümin, sıkıntılarını Allah'a güvenle sunabilir."
     },
     {
       "ref": "Ps. 102:3–11",
-      "text": "The singer focuses on his sense of discouragement: bones burn, heart is struck down, forget to eat my bread, loud groaning, my bones cling to my flesh. These images describe what it feels like to be consumed by sorrow, which has withering effects on one’s body. A person feeling such things inevitably senses his own mortality: his days pass away like smoke (v. 3; that is, quickly) and are like an evening shadow (v. 11; that is, soon gone)."
+      "title": "Ps. 102:3–11",
+      "text": "Şarkıcı, cesaretsizliğine odaklanıyor: **kemiklerim yanıyor**, **kalbim çarpıyor**, **ekmeğimi yemeyi unut**, **yüksek sesle inliyor**, **kemiklerim etime yapışıyor**. Bu görüntüler, kişinin bedeni üzerinde soldurucu etkileri olan üzüntü tarafından tüketilmenin nasıl bir his olduğunu anlatıyor. Bu tür şeyleri hisseden kişi kaçınılmaz olarak kendi ölümlülüğünü de hisseder: **Günleri duman gibi geçip gider** (ayet 3; yani hızla) ve **akşam gölgesi gibidir** (ayet 11; yani kısa sürede yok olur)."
     },
     {
       "ref": "Ps. 102:12–17",
-      "text": "The enduring reign of God (enthroned forever, remembered throughout all generations) brings about the ultimate success of his saving purposes in the world (v. 15). Since God does not despise their prayer, the afflicted can be assured that their momentary grieving is part of a larger scheme."
+      "title": "Ps. 102:12–17",
+      "text": "Tanrı'nın kalıcı hükümdarlığı (**sonsuza kadar tahta çıkan**, **tüm nesiller boyunca hatırlanan**), O'nun dünyadaki kurtarma amaçlarının nihai başarısını sağlar (ayet 15). Tanrı **onların duasını küçümsemediği** için, acı çekenlere, anlık acılarının daha büyük bir planın parçası olduğundan emin olunabilir."
     },
     {
       "ref": "Ps. 102:18–22",
-      "text": "The days of Zion’s glory lie in the future, in the time of a generation to come. They will need this record of God’s promises and faithfulness to his people of all eras. The time will come when God’s people will reflect on how God looked down . . . to hear and will lift their voices to declare in Zion the name of the Lord. Apparently the Gentiles will also celebrate (see v. 15)."
+      "title": "Ps. 102:18–22",
+      "text": "Zion'un ihtişamlı günleri gelecekte, **gelecek neslin** zamanında yatıyor. Tanrı’nın tüm çağlarda halkına verdiği vaatlerin ve sadakatinin bu kaydına ihtiyaçları olacak. Tanrı'nın halkının, Tanrı'nın **nasıl baktığını düşüneceği zaman gelecek. . . duyacaklar** ve **Rab'bin adını Siyon'da duyurmak** için seslerini yükseltecekler. Görünüşe göre Yahudi olmayanlar da kutlama yapacak (bkz. ayet 15)."
     },
     {
       "ref": "Ps. 102:23–24",
-      "text": "The person who feels what vv. 3–11 describes is keenly aware of his own mortality. It seems like the troubles will shorten his life even further. The prayer is that the God whose years endure throughout all generations would preserve the life of his faithful ones, so that they may see Zion’s wonderful future."
+      "title": "Ps. 102:23–24",
+      "text": "Neyi hisseden kişi vv. 3-11, kendi ölümünün son derece farkında olduğunu anlatıyor. Yaşanan sıkıntılar ömrünü daha da kısaltacak gibi görünüyor. Dua, **yılları tüm nesillere dayanan** Tanrı'nın, Sion'un muhteşem geleceğini görebilmeleri için sadık kullarının yaşamını korumasıdır."
     },
     {
       "ref": "Ps. 102:25–28",
-      "text": "The psalm finishes with words addressed to God, focusing on his everlasting being and purpose. Though the earth and heavens will perish and will all wear out like a garment, God will remain. Thus the psalm closes with confidence, expecting God to keep his promises to many faithful generations descended from today’s faithful (v. 28)."
+      "title": "Ps. 102:25–28",
+      "text": "Mezmur, Tanrı'ya hitap eden, O'nun sonsuz varlığına ve amacına odaklanan sözlerle biter. Yer ve gökler **yok olacak** ve **bir elbise gibi yıpranacak** olsa da, Tanrı **kalacak**. Böylece mezmur, Tanrı'nın günümüzün sadıklarından gelen birçok sadık nesile verdiği sözleri tutmasını bekleyerek güvenle sona ermektedir (ayet 28)."
     },
     {
       "ref": "Ps. 102:25–27",
-      "text": "See note on Heb. 1:10–12."
+      "title": "Ps. 102:25–27",
+      "text": "İbranice'ye ilişkin nota bakınız. 1:10–12 ."
+    }
+  ],
+  "notes": [
+    {
+      "ref": "Ps. 102",
+      "text": "**Mezmur** . “Bir mazlumun duası” başlığı bunun bireysel bir ağıt olduğunu açıkça ortaya koyuyor. Aynı zamanda kesinlikle bireyci de değildir: Bunu söyleyen “ben” (1-11, 23-24. ayetler) kendisini bir topluluğun, Zion'un (12-22. ayetler) bir üyesi olarak görmektedir. Onun kendi iyiliği, nihai olarak Tanrı’nın halkının vaat edilen iyiliğine bağlıdır. Mezmur aynı zamanda insan yaşamının kısalığını (ayet 3, \"günlerim uçup gidiyor\"; ayet 11, \"soluyorum\"; ayet 23-24) Tanrı'nın kalıcı yaşamıyla (ayet 12, 25-28) karşılaştırır. Mezmur, sorunları açıklanamaz görünen Eyüp gibi biri için uygundur. Tanrı'nın \"öfkesi ve öfkesi\" (ayet 10) bile herhangi bir spesifik günaha yönelikmiş gibi görünmüyor. Bu duayı söyleyenlerin, Tanrı'nın tüm halkı için nihai amaçlarına güvenmeleri ve bu kutsanmışlığa katılmayı sabırsızlıkla beklemeleri gerekir (13, 21-22, 28 ayetler)."
     },
     {
       "ref": "Ps. 102:28",
-      "text": "children . . . offspring. The Lord, who is everlasting, can ensure that the descendants of his servants will dwell secure, that is, will enjoy God’s love and Zion’s future."
+      "text": "**çocuklar . . . yavru**. Sonsuz olan Rab, **hizmetkarlarının** soyunun **güvende yaşamasını**, yani Tanrı'nın sevgisinden ve Siyon'un geleceğinden keyif almasını sağlayabilir."
     }
   ]
 }

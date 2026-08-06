@@ -1,20 +1,22 @@
 {
-  "source": "ESV Global Study Bible (Crossway) — Türkçe çeviri — DeepL translator — Lisans kapsamında kullanılmaktadır",
+  "source": "ESV Global Study Bible (Crossway) — Türkçe çeviri — Google Translate — Lisans kapsamında kullanılmaktadır",
   "book_intro": "Blue Letter Bible bakanlığı ve BLB Enstitüsü, Kutsal Yazıların tahrif edilemezliğine olan kesin inancı da içeren tarihsel, muhafazakar Hristiyan inancına bağlıdır. BLB tarafından sağlanan metin ve ses içeriği çeşitli Evanjelik gelenekleri temsil ettiğinden, kaynak materyallerde aktarılan tüm fikir ve ilkelerin bu bakanlık tarafından toplamda onaylanması gerekmez.\n\nBlue Letter Kutsal Kitap çalışma araçları Kutsal Kitap'ı okumayı, araştırmayı ve çalışmayı kolay ve ödüllendirici hale getirir.\n\nBlue Letter Bible 501(c)(3) kar amacı gütmeyen bir kuruluştur\n\nTercih ettiğiniz Kutsal Kitap çevirilerinin sırasını Kutsal Kitaplar Sekmesi'nden Sürüm Seçici'ye (bu açılır pencere) kopyalayabilir veya tam tersini yapabilirsiniz. Kutsal Kitaplar Sekmesi, Kutsal Kitap sayfalarındaki Araçlar özelliğinde bulunur:\n\nNot: MLA artık atıf standartlarının bir parçası olarak URL'yi zorunlu tutmamaktadır. Bireysel eğitmenler veya editörler yine de URL'lerin kullanılmasını isteyebilir.\n\nHata: Parolalar en az 6 karakterden oluşmalıdır\n\nHata: Kullanıcı adları yalnızca harf, rakam, nokta, tire veya alt çizgi içermelidir\n\nŞifreler en az 6 karakterden oluşmalıdır.\n\t\t\t\t\t\t\tKullanıcı adları yalnızca harf, rakam, nokta, tire veya alt çizgi içermelidir.\n\nKaydolduğunuz için teşekkür ederiz. Verdiğiniz adrese bir doğrulama e-postası gönderildi.\n\nOrtaklığınız tüm yaptıklarımızı mümkün kılıyor. Bugün dua ederek bir destek hediyesi vermeyi düşünür müsünüz?",
-  "chapter_intro": "",
-  "passages": [],
-  "notes": [
+  "passages": [
     {
       "ref": "14:2–16:14",
-      "text": "Asa. The Chronicler’s account of Asa’s reign (910–869 b.c.) is much longer and more complex than that given in the earlier history (1 Kings 15:9–24). Asa’s reign begins well but ends badly, as trust in God and obedience to the prophetic word give way to dependence on human alliances and rejection of God’s prophet."
+      "title": "Asa.",
+      "text": "Chronicler'ın Asa'nın saltanatına (M.Ö. 910-869) ilişkin anlatımı, daha önceki tarihlerde verilenlerden çok daha uzun ve daha karmaşıktır (1. Krallar 15:9-24). Asa'nın hükümdarlığı iyi başlıyor ama kötü bitiyor; Tanrı'ya güven ve peygamberlik sözüne itaat, yerini insan ittifaklarına bağımlılığa ve Tanrı'nın peygamberini reddetmeye bırakıyor."
     },
     {
       "ref": "2 Chron. 14:2–8",
-      "text": "Asa begins his reign by rooting out idolatry and commanding Judah to seek the Lord. The high places were local sites usually associated with pagan worship (see Deut. 12:2–3). Asherim. Poles representing the fertility goddess Asherah. Building projects, a large army, and peace are typical blessings for faithfulness in Chronicles (compare 2 Chron. 11:5–12; 13:3; 17:10)."
-    },
+      "title": "2 Kron. 14:2–8",
+      "text": "Asa, putperestliğin kökünü kazıyarak ve Yahuda'ya **Rab'bi aramasını** emrederek saltanatına başlar. **Yüksek yerler** genellikle pagan ibadetiyle ilişkilendirilen yerel yerlerdi (bkz. Tesniye 12:2–3). **Aşerim**. Doğurganlık tanrıçası Asherah'ı temsil eden direkler. İnşaat projeleri, büyük bir ordu ve barış, Tarihler'de sadakat için tipik nimetlerdir (2 Tarihler 11:5–12; 13:3; 17:10 ile karşılaştırın)."
+    }
+  ],
+  "notes": [
     {
       "ref": "2 Chron. 14:9",
-      "text": "Zerah the Ethiopian. Literally “the Cushite,” from modern Sudan (see 12:3; 16:8). Possibly a general in the service of Pharaoh Osorkon I, son of Shoshenq I (12:2). A million men is literally “a thousand thousands.” An alternative translation is “a thousand units.” This is more than double the size of Asa’s army (14:8). Mareshah. One of Rehoboam’s fortified cities on the southwestern border (11:8)."
+      "text": "**Etiyopyalı Zerah**. Kelimenin tam anlamıyla modern Sudan'dan “Kuşlu” (bkz. 12:3; 16:8). Muhtemelen I. Shoshenq'in oğlu Firavun Osorkon I'in hizmetinde olan bir general (12:2). **Bir milyon erkek** kelimenin tam anlamıyla \"bin binlerce\" anlamına gelir. Alternatif bir çeviri ise “bin birim”dir. Bu, Asa'nın ordusunun iki katından fazladır (14:8). **Mareşah**. Rehoboam'ın güneybatı sınırındaki surlu şehirlerinden biri (11:8)."
     }
   ]
 }

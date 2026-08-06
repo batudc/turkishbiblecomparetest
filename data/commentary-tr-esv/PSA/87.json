@@ -1,20 +1,22 @@
 {
-  "source": "ESV Global Study Bible (Crossway) — Türkçe çeviri — DeepL translator — Lisans kapsamında kullanılmaktadır",
+  "source": "ESV Global Study Bible (Crossway) — Türkçe çeviri — Google Translate — Lisans kapsamında kullanılmaktadır",
   "book_intro": "Blue Letter Bible bakanlığı ve BLB Enstitüsü, Kutsal Yazıların tahrif edilemezliğine olan kesin inancı da içeren tarihsel, muhafazakar Hristiyan inancına bağlıdır. BLB tarafından sağlanan metin ve ses içeriği çeşitli Evanjelik gelenekleri temsil ettiğinden, kaynak materyallerde aktarılan tüm fikir ve ilkelerin bu bakanlık tarafından toplamda onaylanması gerekmez.\n\nBlue Letter Kutsal Kitap çalışma araçları Kutsal Kitap'ı okumayı, araştırmayı ve çalışmayı kolay ve ödüllendirici hale getirir.\n\nBlue Letter Bible 501(c)(3) kar amacı gütmeyen bir kuruluştur\n\nTercih ettiğiniz Kutsal Kitap çevirilerinin sırasını Kutsal Kitaplar Sekmesi'nden Sürüm Seçici'ye (bu açılır pencere) kopyalayabilir ya da tam tersini yapabilirsiniz. Kutsal Kitaplar Sekmesi, Kutsal Kitap sayfalarındaki Araçlar özelliğinde bulunur:\n\nNot: MLA artık atıf standartlarının bir parçası olarak URL'yi zorunlu tutmamaktadır. Bireysel eğitmenler veya editörler yine de URL'lerin kullanılmasını isteyebilir.\n\nHata: Parolalar en az 6 karakterden oluşmalıdır\n\nHata: Kullanıcı adları yalnızca harf, rakam, nokta, tire veya alt çizgi içermelidir\n\nParolalar en az 6 karakterden oluşmalıdır.\n\t\t\t\t\t\t\tKullanıcı adları yalnızca harf, rakam, nokta, tire veya alt çizgi içermelidir.\n\nKaydolduğunuz için teşekkür ederiz. Verdiğiniz adrese bir doğrulama e-postası gönderildi.\n\nOrtaklığınız tüm yaptıklarımızı mümkün kılıyor. Bugün dua ederek bir destek hediyesi vermeyi düşünür müsünüz?",
-  "chapter_intro": "",
-  "passages": [],
-  "notes": [
-    {
-      "ref": "Ps. 87",
-      "text": "Psalm . This is a psalm celebrating Zion as the chosen city of God. It looks forward to people of all nations—even nations that have been Israel’s enemies—becoming citizens of this city (carrying forward the ideas of 86:9)."
-    },
+  "passages": [
     {
       "ref": "Ps. 87:1–3",
-      "text": "The opening section describes Zion, the capital of God’s people, as the city God founded, the city whose gates the Lord loves, the city of God. Its location on the holy mount shows why it is so glorious: it is the place of the temple, where God’s people meet him."
+      "title": "Ps. 87:1–3",
+      "text": "Açılış bölümünde, Tanrı'nın halkının başkenti Zion, Tanrı'nın **kurduğu** şehir, kapılarını Rab'bin **sevdiği** şehir, **Tanrı'nın şehri** olarak anlatılıyor. **Kutsal dağdaki** konumu, neden bu kadar **görkemli** olduğunu gösteriyor: burası, Tanrı'nın halkının O'nunla buluştuğu tapınağın yeridir."
     },
     {
       "ref": "Ps. 87:4–6",
-      "text": "The second section is startling. One expects a reference to those who know me, but the list is composed of Gentile nations. Yet, the Most High himself will establish Zion, in order to allow the peoples to be treated as born in her, as Israelites. When the people of God sing this psalm, they stay focused on their God-given purpose, to be a light for the Gentiles; see note on 86:8–10."
+      "title": "Ps. 87:4–6",
+      "text": "İkinci bölüm ise şaşırtıcı. **Beni tanıyanlara** atıfta bulunulması bekleniyor, ancak liste Yahudi olmayan uluslardan oluşuyor. Yine de, **halklara** İsrailliler gibi **kendisinde doğmuş** muamelesi yapılmasına izin vermek için <b>Yüceler Yücesi'nin kendisi Zion'u kuracaktır. Tanrı'nın halkı bu mezmuru söylerken, Tanrı tarafından verilen amaçlarına, yani Yahudi olmayanlara ışık olmaya odaklanırlar; 86:8-10 ile ilgili nota bakınız."
+    }
+  ],
+  "notes": [
+    {
+      "ref": "Ps. 87",
+      "text": "**Mezmur** . Bu, Sion'un Tanrı'nın seçilmiş şehri olduğunu kutlayan bir mezmurdur. Tüm milletlerden insanların, hatta İsrail'in düşmanı olan milletlerin bile bu şehrin vatandaşları olmasını (86:9'un fikirlerini sürdürerek) sabırsızlıkla beklemektedir."
     }
   ]
 }

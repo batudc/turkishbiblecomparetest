@@ -1,24 +1,25 @@
 {
-  "source": "ESV Global Study Bible (Crossway) — Türkçe çeviri — DeepL translator — Lisans kapsamında kullanılmaktadır",
+  "source": "ESV Global Study Bible (Crossway) — Türkçe çeviri — Google Translate — Lisans kapsamında kullanılmaktadır",
   "book_intro": "Blue Letter Bible bakanlığı ve BLB Enstitüsü, Kutsal Yazıların tahrif edilemezliğine olan kesin inancı da içeren tarihsel, muhafazakar Hristiyan inancına bağlıdır. BLB tarafından sağlanan metin ve ses içeriği çeşitli Evanjelik gelenekleri temsil ettiğinden, kaynak materyallerde aktarılan tüm fikir ve ilkelerin bu bakanlık tarafından toplamda onaylanması gerekmez.\n\nBlue Letter Kutsal Kitap çalışma araçları Kutsal Kitap'ı okumayı, araştırmayı ve çalışmayı kolay ve ödüllendirici hale getirir.\n\nBlue Letter Bible 501(c)(3) kar amacı gütmeyen bir kuruluştur\n\nTercih ettiğiniz Kutsal Kitap çevirilerinin sırasını Kutsal Kitaplar Sekmesi'nden Sürüm Seçici'ye (bu açılır pencere) kopyalayabilir ya da tam tersini yapabilirsiniz. Kutsal Kitaplar Sekmesi, Kutsal Kitap sayfalarındaki Araçlar özelliğinde bulunur:\n\nNot: MLA artık atıf standartlarının bir parçası olarak URL'yi zorunlu tutmamaktadır. Bireysel eğitmenler veya editörler yine de URL'lerin kullanılmasını isteyebilir.\n\nHata: Parolalar en az 6 karakterden oluşmalıdır\n\nHata: Kullanıcı adları yalnızca harf, rakam, nokta, tire veya alt çizgi içermelidir\n\nParolalar en az 6 karakterden oluşmalıdır.\n\t\t\t\t\t\t\tKullanıcı adları yalnızca harf, rakam, nokta, tire veya alt çizgi içermelidir.\n\nKaydolduğunuz için teşekkür ederiz. Verdiğiniz adrese bir doğrulama e-postası gönderildi.\n\nOrtaklığınız tüm yaptıklarımızı mümkün kılıyor. Bugün dua ederek bir destek hediyesi vermeyi düşünür müsünüz?",
-  "chapter_intro": "",
-  "passages": [],
+  "passages": [
+    {
+      "ref": "Ps. 59:11–17",
+      "title": "Ps. 59:11–17",
+      "text": "Temel talep, Tanrı'nın bu insanlara öyle bir hüküm vermesidir ki, hem İsrail'deki (**halkım**, ayet 11) hem de başka yerlerdeki (**dünyanın öbür ucuna kadar**, ayet 13) tüm insanlar adil, sevgi dolu ve kudretli bir Tanrı'nın Yakup'u yönettiğini ve sadıklarını koruduğunu bilsinler."
+    }
+  ],
   "notes": [
     {
       "ref": "Ps. 59",
-      "text": "Psalm . This is an individual lament, seeking God’s protection from enemies who threaten the faithful person’s life. The title connects the psalm to 1 Sam. 19:11, where David escaped from Saul’s men through a window. The psalm is geared for the particular case in which the hostility is “for no fault of mine” (Ps. 59:4). The song has two sections (vv. 1–10, 11–17). The first section is a cry for help, and the second section expresses confidence that God will protect the singer."
+      "text": "**Mezmur** . Bu, mümin kişinin hayatını tehdit eden düşmanlardan Allah'a sığınan bireysel bir ağıttır. Başlık, mezmuru 1 Sam'e bağlar. 19:11, Davut'un Saul'un adamlarından bir pencereden kaçtığı yer. Mezmur, düşmanlığın “benim hatam olmadığı” (Mezmur 59:4) olduğu özel duruma yöneliktir. Şarkının iki bölümü var (1-10, 11-17. ayetler). İlk bölüm bir yardım çığlığı, ikinci bölüm ise Tanrı'nın şarkıcıyı koruyacağına olan güveni ifade ediyor."
     },
     {
       "ref": "Ps. 59:5",
-      "text": "Nations (see v. 8) usually refers to Gentiles. The title, however, sets the psalm in a situation in which the enemies are Israelites. The psalm describes these Israelites who sought to kill David as acting like Gentiles (see note on 54:3)."
+      "text": "**Milletler** (bkz. ayet 8) genellikle Yahudi olmayanları ifade eder. Ancak başlık, mezmuru düşmanların İsrailliler olduğu bir duruma yerleştiriyor. Mezmur, Davut'u öldürmeye çalışan bu İsraillilerin Yahudi olmayanlar gibi davrandıklarını anlatır (bkz. 54:3 ile ilgili not)."
     },
     {
       "ref": "Ps. 59:6",
-      "text": "The singer’s enemies are howling like dogs, prowling about the city like a pack of semi-wild scavengers. Thus they posed a danger to any human who might venture out alone in the evening. But God is greater than these enemies. He can easily thwart their schemes (vv. 8–10)."
-    },
-    {
-      "ref": "Ps. 59:11–17",
-      "text": "The basic request is that God will bring judgment on these people in such a way that all people, both in Israel (my people, v. 11) and elsewhere (to the ends of the earth, v. 13), may know that a just, loving, and mighty God rules over Jacob and protects his faithful."
+      "text": "Şarkıcının düşmanları **köpekler gibi uluyor**, bir grup yarı vahşi çöpçü gibi **şehirde sinsice dolaşıyor**. Bu nedenle **akşamları** tek başına dışarı çıkmayı göze alan her insan için tehlike oluşturuyorlardı. Ama Allah bu düşmanlardan daha büyüktür. Onların planlarını kolayca bozabilir (8-10 ayetler)."
     }
   ]
 }

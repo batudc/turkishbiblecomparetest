@@ -1,28 +1,31 @@
 {
-  "source": "ESV Global Study Bible (Crossway) — Türkçe çeviri — DeepL translator — Lisans kapsamında kullanılmaktadır",
+  "source": "ESV Global Study Bible (Crossway) — Türkçe çeviri — Google Translate — Lisans kapsamında kullanılmaktadır",
   "book_intro": "Blue Letter Bible bakanlığı ve BLB Enstitüsü, Kutsal Yazıların tahrif edilemezliğine olan kesin inancı da içeren tarihsel, muhafazakar Hristiyan inancına bağlıdır. BLB tarafından sağlanan metin ve ses içeriği çeşitli Evanjelik gelenekleri temsil ettiğinden, kaynak materyallerde aktarılan tüm fikir ve ilkelerin bu bakanlık tarafından toplamda onaylanması gerekmez.\n\nBlue Letter Kutsal Kitap çalışma araçları Kutsal Kitap'ı okumayı, araştırmayı ve çalışmayı kolay ve ödüllendirici hale getirir.\n\nBlue Letter Bible 501(c)(3) kar amacı gütmeyen bir kuruluştur\n\nTercih ettiğiniz Kutsal Kitap çevirilerinin sırasını Kutsal Kitaplar Sekmesi'nden Sürüm Seçici'ye (bu açılır pencere) kopyalayabilir ya da tam tersini yapabilirsiniz. Kutsal Kitaplar Sekmesi, Kutsal Kitap sayfalarındaki Araçlar özelliğinde bulunur:\n\nNot: MLA artık atıf standartlarının bir parçası olarak URL'yi zorunlu tutmamaktadır. Bireysel eğitmenler veya editörler yine de URL'lerin kullanılmasını isteyebilir.\n\nHata: Parolalar en az 6 karakterden oluşmalıdır\n\nHata: Kullanıcı adları yalnızca harf, rakam, nokta, tire veya alt çizgi içermelidir\n\nParolalar en az 6 karakterden oluşmalıdır.\n\t\t\t\t\t\t\tKullanıcı adları yalnızca harf, rakam, nokta, tire veya alt çizgi içermelidir.\n\nKaydolduğunuz için teşekkür ederiz. Verdiğiniz adrese bir doğrulama e-postası gönderildi.\n\nOrtaklığınız tüm yaptıklarımızı mümkün kılıyor. Bugün dua ederek bir destek hediyesi vermeyi düşünür müsünüz?",
-  "chapter_intro": "",
-  "passages": [],
-  "notes": [
-    {
-      "ref": "Ps. 36",
-      "text": "Psalm . This is a lament that reflects on the wicked and on the steadfast love of the Lord. It concludes with a prayer that God will protect his people from the attacks of the wicked."
-    },
+  "passages": [
     {
       "ref": "Ps. 36:1–4",
-      "text": "The wicked person has no fear of God before his eyes (see Rom. 3:18). He does evil and plans evil. He particularly schemes to bring trouble to others, especially the godly."
+      "title": "Ps. 36:1–4",
+      "text": "**Kötü kişinin** **gözleri önünde Tanrı korkusu yoktur** (bkz. Romalılar 3:18). Kötülük yapar ve kötülük planlar. Özellikle başkalarına, özellikle de dindarlara sorun çıkarmak için planlar yapıyor."
     },
     {
       "ref": "Ps. 36:5–9",
-      "text": "The pairing of God’s steadfast love and faithfulness recalls Ex. 34:6, describing God’s kindness. Righteousness and judgments express God’s enduring commitment to act kindly toward his creatures and to save them. In view of this, people can take refuge under his wings and can be welcome guests at his table."
-    },
-    {
-      "ref": "Ps. 36:9",
-      "text": "The fountain of life refreshes and sustains life; see Prov. 10:11; 13:14. To see light means to experience life (e.g., Job 33:28; Ps. 49:19)."
+      "title": "Ps. 36:5–9",
+      "text": "Tanrı'nın **sadık sevgisi** ile **sadakatinin** eşleştirilmesi Örn. 34:6, Tanrı'nın iyiliğini anlatıyor. **Doğruluk** ve **yargılar**, Tanrı'nın yaratıklarına karşı nazik davranma ve onları **kurtarma** konusundaki kalıcı kararlılığını ifade eder. Bunun ışığında insanlar onun **kanatlarının altına** **sığınabilir** ve onun masasına misafir olarak kabul edilebilirler."
     },
     {
       "ref": "Ps. 36:10–12",
-      "text": "The psalm ends with an appeal to God’s reliable love for his faithful ones (those who know you, that is, the upright of heart)."
+      "title": "Ps. 36:10–12",
+      "text": "Mezmur, Tanrı'nın sadık kullarına (**seni tanıyanlara**, yani **doğru yüreklilere**) duyduğu güvenilir sevgiye bir çağrıyla sona erer."
+    }
+  ],
+  "notes": [
+    {
+      "ref": "Ps. 36",
+      "text": "**Mezmur** . Bu, kötülere ve Rab'bin sarsılmaz sevgisine yansıyan bir ağıttır. Tanrı'nın halkını kötülerin saldırılarından koruyacağı duasıyla sona eriyor."
+    },
+    {
+      "ref": "Ps. 36:9",
+      "text": "**Hayat çeşmesi** hayatı tazeler ve sürdürür; bkz. 10:11; 13:14 . **Işığı görmek** hayatı deneyimlemek anlamına gelir (örneğin, Eyüp 33:28; Mezmur 49:19)."
     }
   ]
 }

@@ -1,28 +1,32 @@
 {
-  "source": "ESV Global Study Bible (Crossway) — Türkçe çeviri — DeepL translator — Lisans kapsamında kullanılmaktadır",
+  "source": "ESV Global Study Bible (Crossway) — Türkçe çeviri — Google Translate — Lisans kapsamında kullanılmaktadır",
   "book_intro": "Blue Letter Bible bakanlığı ve BLB Enstitüsü, Kutsal Yazıların tahrif edilemezliğine olan kesin inancı da içeren tarihsel, muhafazakar Hristiyan inancına bağlıdır. BLB tarafından sağlanan metin ve ses içeriği çeşitli Evanjelik gelenekleri temsil ettiğinden, kaynak materyallerde aktarılan tüm fikir ve ilkelerin bu bakanlık tarafından toplamda onaylanması gerekmez.\n\nBlue Letter Kutsal Kitap çalışma araçları Kutsal Kitap'ı okumayı, araştırmayı ve çalışmayı kolay ve ödüllendirici hale getirir.\n\nBlue Letter Bible 501(c)(3) kar amacı gütmeyen bir kuruluştur\n\nTercih ettiğiniz Kutsal Kitap çevirilerinin sırasını Kutsal Kitaplar Sekmesi'nden Sürüm Seçici'ye (bu açılır pencere) kopyalayabilir ya da tam tersini yapabilirsiniz. Kutsal Kitaplar Sekmesi, Kutsal Kitap sayfalarındaki Araçlar özelliğinde bulunur:\n\nNot: MLA artık atıf standartlarının bir parçası olarak URL'yi zorunlu tutmamaktadır. Bireysel eğitmenler veya editörler yine de URL'lerin kullanılmasını isteyebilir.\n\nHata: Parolalar en az 6 karakterden oluşmalıdır\n\nHata: Kullanıcı adları yalnızca harf, rakam, nokta, tire veya alt çizgi içermelidir\n\nParolalar en az 6 karakterden oluşmalıdır.\n\t\t\t\t\t\t\tKullanıcı adları yalnızca harf, rakam, nokta, tire veya alt çizgi içermelidir.\n\nKaydolduğunuz için teşekkür ederiz. Verdiğiniz adrese bir doğrulama e-postası gönderildi.\n\nOrtaklığınız tüm yaptıklarımızı mümkün kılıyor. Bugün dua ederek bir destek hediyesi vermeyi düşünür müsünüz?",
-  "chapter_intro": "",
-  "passages": [],
-  "notes": [
-    {
-      "ref": "Ps. 44",
-      "text": "Psalm . This is a hymn for times when God’s people as a whole have suffered some great calamity at the hands of their enemies. When the worshiping congregation sings this, they remind themselves of their privileged standing with God, of their obligation to faith and holiness, and of God’s unfailing loyalty to his purpose for them."
-    },
+  "passages": [
     {
       "ref": "Ps. 44:1–8",
-      "text": "The song opens by recalling the ways God has favored his people over the Gentiles in the past (vv. 2, 7). The people recognize that God’s special provision, not their own abilities, is responsible for their well-being (vv. 3, 6). They should boast in God and give thanks to his name forever (v. 8)."
+      "title": "Ps. 44:1–8",
+      "text": "Şarkı, Tanrı'nın geçmişte kendi halkını Yahudi olmayanlara karşı nasıl ayrıcalıklı kıldığını hatırlatarak açılıyor (2, 7. ayetler). İnsanlar, kendi refahlarından kendi yeteneklerinin değil, Tanrı'nın özel hükmünün sorumlu olduğunun bilincindedir (3, 6 ayetler). Tanrı'yla övünmeli ve O'nun **ismine sonsuza kadar** **şükretmelidirler** (ayet 8)."
     },
     {
       "ref": "Ps. 44:9–16",
-      "text": "In light of this past (vv. 1–8), the current situation is difficult to understand. God has apparently rejected his people (v. 9), no longer giving them success against their foes (v. 11)."
+      "title": "Ps. 44:9–16",
+      "text": "Bu geçmişin ışığında (1-8. ayetler), mevcut durumu anlamak zordur. Görünüşe göre Tanrı, halkını **reddetmiş** (ayet 9), artık onlara düşmanlarına karşı başarı vermiyor (ayet 11)."
     },
     {
       "ref": "Ps. 44:17–22",
-      "text": "The pain of the situation is especially sharp because the community claims not to have forgotten God or to have been false to his covenant (v. 17). They acknowledge that if they had done so, God would know it and would be right to discipline them. The community is not, however, claiming absolute sinlessness."
+      "title": "Ps. 44:17–22",
+      "text": "Durumun acısı özellikle keskin çünkü topluluk Tanrı'yı ​​**unutmadığını** veya O'nun **antlaşmasını** yerine getirmediğini iddia ediyor (ayet 17). Eğer bunu yapsalardı, Tanrı'nın bunu bileceğini ve onları cezalandırmanın doğru olacağını kabul ediyorlar. Ancak topluluk mutlak günahsızlığı iddia etmiyor."
     },
     {
       "ref": "Ps. 44:23–26",
-      "text": "Remembering God’s history with his people strengthens the community to pray for his aid in the present. The last word is a request for God to redeem (see note on 25:22), for the sake of his steadfast love—a request that God is sure to honor."
+      "title": "Ps. 44:23–26",
+      "text": "Tanrı'nın halkıyla olan geçmişini hatırlamak, toplumun günümüzde O'nun yardımı için dua etme gücünü güçlendirir. Son söz, Tanrı'nın **sadık sevgisi** uğruna **kurtarması** için bir ricadır (bkz. 25:22 ile ilgili not). Bu, Tanrı'nın mutlaka yerine getireceği bir ricadır."
+    }
+  ],
+  "notes": [
+    {
+      "ref": "Ps. 44",
+      "text": "**Mezmur** . Bu, Tanrı'nın halkının bir bütün olarak düşmanlarının elinde büyük bir felakete uğradığı zamanlara yönelik bir ilahidir. İbadet eden cemaat bunu söylediğinde, kendilerine Tanrı'nın önündeki ayrıcalıklı konumlarını, imana ve kutsallığa olan yükümlülüklerini ve Tanrı'nın kendileri için olan amacına olan şaşmaz vefasını hatırlatır."
     }
   ]
 }

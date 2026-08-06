@@ -1,52 +1,58 @@
 {
-  "source": "ESV Global Study Bible (Crossway) — Türkçe çeviri — DeepL translator — Lisans kapsamında kullanılmaktadır",
+  "source": "ESV Global Study Bible (Crossway) — Türkçe çeviri — Google Translate — Lisans kapsamında kullanılmaktadır",
   "book_intro": "Blue Letter Bible bakanlığı ve BLB Enstitüsü, Kutsal Yazıların tahrif edilemezliğine olan kesin inancı da içeren tarihsel, muhafazakar Hristiyan inancına bağlıdır. BLB tarafından sağlanan metin ve ses içeriği çeşitli Evanjelik gelenekleri temsil ettiğinden, kaynak materyallerde aktarılan tüm fikir ve ilkelerin bu bakanlık tarafından toplamda onaylanması gerekmez.\n\nBlue Letter Kutsal Kitap çalışma araçları Kutsal Kitap'ı okumayı, araştırmayı ve çalışmayı kolay ve ödüllendirici hale getirir.\n\nBlue Letter Bible 501(c)(3) kar amacı gütmeyen bir kuruluştur\n\nTercih ettiğiniz Kutsal Kitap çevirilerinin sırasını Kutsal Kitaplar Sekmesi'nden Sürüm Seçici'ye (bu açılır pencere) kopyalayabilir ya da tam tersini yapabilirsiniz. Kutsal Kitaplar Sekmesi, Kutsal Kitap sayfalarındaki Araçlar özelliğinde bulunur:\n\nNot: MLA artık atıf standartlarının bir parçası olarak URL'yi zorunlu tutmamaktadır. Bireysel eğitmenler veya editörler yine de URL'lerin kullanılmasını isteyebilir.\n\nHata: Parolalar en az 6 karakterden oluşmalıdır\n\nHata: Kullanıcı adları yalnızca harf, rakam, nokta, tire veya alt çizgi içermelidir\n\nParolalar en az 6 karakterden oluşmalıdır.\n\t\t\t\t\t\t\tKullanıcı adları yalnızca harf, rakam, nokta, tire veya alt çizgi içermelidir.\n\nKaydolduğunuz için teşekkür ederiz. Verdiğiniz adrese bir doğrulama e-postası gönderildi.\n\nOrtaklığınız tüm yaptıklarımızı mümkün kılıyor. Bugün dua ederek bir destek hediyesi vermeyi düşünür müsünüz?",
-  "chapter_intro": "",
-  "passages": [],
-  "notes": [
-    {
-      "ref": "Ps. 69",
-      "text": "Psalm . This is an individual lament. A faithful Israelite is suffering for wrongs he has done (v. 5). Attackers take advantage of his suffering and make it worse (v. 26). In his role as representative for the people of God, David wrote this psalm to show the ideal response to such trials."
-    },
+  "passages": [
     {
       "ref": "Ps. 69:4–5",
-      "text": "hate me without cause. This is not a claim of total innocence; the psalm acknowledges that the singer is not perfect (the wrongs I have done are not hidden from you). Rather, it is a claim that the singer has not done harm to the particular people who attack him with lies. By quoting this psalm, John 15:25 presents Jesus as the perfect faithful Israelite, who may expect the unfaithful to hate him."
-    },
-    {
-      "ref": "Ps. 69:6",
-      "text": "The singer knows his sin could result in some of the faithful (those who hope in you) being scorned. He prays that this will not happen."
+      "title": "Ps. 69:4–5",
+      "text": "**hate me without cause**. This is not a claim of total innocence; mezmur, şarkıcının mükemmel olmadığını kabul ediyor (**yaptığım yanlışlar senden gizli değil**). Daha ziyade, şarkıcının kendisine **yalanlarla** **saldıran** kişilere zarar vermediği iddiasıdır. Yuhanna 15:25, bu mezmurdan alıntı yaparak İsa'yı, sadakatsizlerin ondan nefret etmesini bekleyebilecek kusursuz ve sadık bir İsrailli olarak tanıtıyor."
     },
     {
       "ref": "Ps. 69:9–12",
-      "text": "Reproach means to despise or insult. This idea was introduced in v. 7 and dominates this section."
-    },
-    {
-      "ref": "Ps. 69:9",
-      "text": "zeal for your house has consumed me. In John 2:17, Jesus’ disciples remember this text after Jesus has driven the livestock merchants and money-changers out of the temple. Jesus embodies the ideal faithful member of God’s people, as the Davidic kings were supposed to do. the reproaches of those who reproach you have fallen on me. In Rom. 15:3, Paul applies this text to Jesus; he saw Jesus as the ideal covenant member who was willing to suffer reproach for the sake of God’s truth."
+      "title": "Ps. 69:9–12",
+      "text": "**Kınama** küçümsemek veya hakaret etmek anlamına gelir. Bu fikir 7. ciltte ortaya atılmıştır ve bu bölüme hakimdir."
     },
     {
       "ref": "Ps. 69:13–18",
-      "text": "my prayer is to you, answer me, hide not your face, draw near. The singer’s case is desperate, and he urgently needs God’s help. The prayer echoes Ex. 34:6, appealing to what God has revealed about himself: the abundance of your steadfast love and faithfulness (Ps. 69:13) and steadfast love and mercy (v. 16)."
-    },
-    {
-      "ref": "Ps. 69:21",
-      "text": "for my thirst they gave me sour wine to drink. John 19:28–29 uses these words in connection with one of Jesus’ last statements on the cross (see also Matt. 27:34, 48; Mark 15:23, 36; Luke 23:36). The sour wine would have been the cheap beverage that the soldiers used to satisfy their thirst. But Jesus felt forsaken by God (Mark 15:34), and his thirst must have been far more severe than anything this drink was meant for. When Jesus received it, he briefly prolonged his life (and his agony), and perhaps moistened his lips enough finally to cry out, “It is finished!” (John 19:30)."
+      "title": "Ps. 69:13–18",
+      "text": "**duam sanadır**, **bana cevap ver**, **yüzünü saklama**, **yaklaş**. Şarkıcının durumu umutsuz ve acilen Tanrı'nın yardımına ihtiyacı var. Dua Ex'i yansıtıyor. 34:6, Tanrı'nın kendisi hakkında açıkladığı şeye değinerek: **sadık sevginizin bolluğu** ve **sadıklığınızın** (Mezm. 69:13) ve **sadık sevginizin** ve **merhametinin** (ayet 16)."
     },
     {
       "ref": "Ps. 69:22–23",
-      "text": "In Rom. 11:9–10, Paul cites this curse to explain why his fellow Jews who reject the message of Christ have been hardened. He also explains why the curse is not final: it is a “partial hardening,” which will be relieved if and when they repent (Rom. 11:23–25)."
-    },
-    {
-      "ref": "Ps. 69:25",
-      "text": "In Acts 1:20, this text is applied to Judas, who had taken part in destroying Jesus, who was the perfect embodiment of this psalm."
+      "title": "Ps. 69:22–23",
+      "text": "Rom'da. 11:9–10 Pavlus, Mesih'in mesajını reddeden Yahudi kardeşlerinin neden katılaştığını açıklamak için bu laneti aktarıyor. Ayrıca lanetin neden nihai olmadığını da açıklıyor: Bu, tövbe etmeleri durumunda hafifleyecek olan \"kısmi bir sertleşmedir\" (Romalılar 11:23–25)."
     },
     {
       "ref": "Ps. 69:29–33",
-      "text": "The writer promises to magnify God with public thanksgiving when God saves him from his enemies (set me on high)."
+      "title": "Ps. 69:29–33",
+      "text": "Yazar, Tanrı onu düşmanlarından kurtardığında (**beni yücelttiğinde**) Tanrı'yı ​​halka açık bir **şükran** ile **yücelteceğine** söz verir."
     },
     {
       "ref": "Ps. 69:34–36",
-      "text": "All creation praises God. God is committed to populating Zion with the faithful offspring of his (faithful) servants. God intends for the whole world to be able to praise him. He intends for Zion to set an example of faithfulness for the rest of the world. Zion cannot do this when evil persons corrupt others."
+      "title": "Ps. 69:34–36",
+      "text": "Bütün yaratılış Allah'ı över. Tanrı, **Siyon**'u kendi</b> (sadık) **hizmetkarlarının** sadık çocuklarıyla doldurmaya kararlıdır. Tanrı tüm dünyanın kendisini övebilmesini istiyor. Zion'un dünyanın geri kalanına sadakat konusunda bir örnek oluşturmasını amaçlıyor. Kötü insanlar başkalarını yozlaştırırken Zion bunu yapamaz."
+    }
+  ],
+  "notes": [
+    {
+      "ref": "Ps. 69",
+      "text": "**Mezmur** . Bu bireysel bir ağıttır. Sadık bir İsrailli yaptığı yanlışların acısını çekiyor (ayet 5). Saldırganlar onun çektiği acıdan yararlanır ve durumu daha da kötüleştirir (ayet 26). Davut, Tanrı halkının temsilcisi olarak bu tür denemelere verilecek ideal yanıtı göstermek için bu mezmuru yazdı."
+    },
+    {
+      "ref": "Ps. 69:6",
+      "text": "Şarkıcı, işlediği günahın bazı sadıkların (**size umut bağlayanların**) küçümsenmesine yol açabileceğini biliyor. Bunun olmaması için dua ediyor."
+    },
+    {
+      "ref": "Ps. 69:9",
+      "text": "**Evin için gösterdiğin çaba beni tüketti**. Yuhanna 2:17'de İsa'nın öğrencileri, İsa hayvan tüccarlarını ve sarrafları tapınaktan kovduktan sonra bu metni hatırlıyorlar. İsa, Davut krallarının yapması gerektiği gibi, Tanrı'nın halkının ideal sadık üyesini temsil ediyordu. **Sana sitem edenlerin sitemleri bana düştü**. Rom'da. 15:3, Pavlus bu metni İsa'ya uygular; İsa'yı, Tanrı'nın hakikati uğruna kınanmaya katlanmaya hazır ideal bir antlaşma üyesi olarak gördü."
+    },
+    {
+      "ref": "Ps. 69:21",
+      "text": "**susuzluğum için bana içmem için ekşi şarap verdiler**. Yuhanna 19:28–29 bu sözleri İsa'nın çarmıhtaki son açıklamalarından biriyle bağlantılı olarak kullanır (ayrıca bkz. Matta 27:34, 48; Markos 15:23, 36; Luka 23:36). Ekşi şarap, askerlerin susuzluklarını gidermek için kullandıkları ucuz içecek olurdu. Ancak İsa, Tanrı tarafından terk edildiğini hissetti (Markos 15:34) ve onun susuzluğu, bu içeceğin amacından çok daha şiddetli olmalıydı. İsa onu aldığında, kısa bir süreliğine ömrünü (ve ıstırabını) uzattı ve belki de sonunda \"Bitti!\" diye bağıracak kadar dudaklarını ıslattı. (Yuhanna 19:30)."
+    },
+    {
+      "ref": "Ps. 69:25",
+      "text": "Elçilerin İşleri 1:20'de bu metin, bu mezmurun mükemmel bir örneği olan İsa'nın yok edilmesinde rol oynayan Yahuda'ya uygulanır."
     }
   ]
 }

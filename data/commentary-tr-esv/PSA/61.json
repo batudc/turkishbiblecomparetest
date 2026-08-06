@@ -1,24 +1,26 @@
 {
-  "source": "ESV Global Study Bible (Crossway) — Türkçe çeviri — DeepL translator — Lisans kapsamında kullanılmaktadır",
+  "source": "ESV Global Study Bible (Crossway) — Türkçe çeviri — Google Translate — Lisans kapsamında kullanılmaktadır",
   "book_intro": "Blue Letter Bible bakanlığı ve BLB Enstitüsü, Kutsal Yazıların tahrif edilemezliğine olan kesin inancı da içeren tarihsel, muhafazakar Hristiyan inancına bağlıdır. BLB tarafından sağlanan metin ve ses içeriği çeşitli Evanjelik gelenekleri temsil ettiğinden, kaynak materyallerde aktarılan tüm fikir ve ilkelerin bu bakanlık tarafından toplamda onaylanması gerekmez.\n\nBlue Letter Kutsal Kitap çalışma araçları Kutsal Kitap'ı okumayı, araştırmayı ve çalışmayı kolay ve ödüllendirici hale getirir.\n\nBlue Letter Bible 501(c)(3) kar amacı gütmeyen bir kuruluştur\n\nTercih ettiğiniz Kutsal Kitap çevirilerinin sırasını Kutsal Kitaplar Sekmesi'nden Sürüm Seçici'ye (bu açılır pencere) kopyalayabilir ya da tam tersini yapabilirsiniz. Kutsal Kitaplar Sekmesi, Kutsal Kitap sayfalarındaki Araçlar özelliğinde bulunur:\n\nNot: MLA artık atıf standartlarının bir parçası olarak URL'yi zorunlu tutmamaktadır. Bireysel eğitmenler veya editörler yine de URL'lerin kullanılmasını isteyebilir.\n\nHata: Parolalar en az 6 karakterden oluşmalıdır\n\nHata: Kullanıcı adları yalnızca harf, rakam, nokta, tire veya alt çizgi içermelidir\n\nParolalar en az 6 karakterden oluşmalıdır.\n\t\t\t\t\t\t\tKullanıcı adları yalnızca harf, rakam, nokta, tire veya alt çizgi içermelidir.\n\nKaydolduğunuz için teşekkür ederiz. Verdiğiniz adrese bir doğrulama e-postası gönderildi.\n\nOrtaklığınız tüm yaptıklarımızı mümkün kılıyor. Bugün dua ederek bir destek hediyesi vermeyi düşünür müsünüz?",
-  "chapter_intro": "",
-  "passages": [],
-  "notes": [
-    {
-      "ref": "Ps. 61",
-      "text": "Psalm . This psalm could be considered both an individual lament and a communal lament. It asks for God’s help in times of trouble. Verses 6–7 tie royal well-being to the well-being of the whole people. Verse 8 looks forward to acts of public worship as the proper reaction to the help for which the psalm prays."
-    },
+  "passages": [
     {
       "ref": "Ps. 61:1–3",
-      "text": "As the congregation sings this, they imagine themselves in all kinds of places (the end of the earth) and circumstances (when my heart is faint) in which they feel needy and in danger. In such times, God is a reliable refuge and strong tower."
-    },
-    {
-      "ref": "Ps. 61:4",
-      "text": "To dwell in God’s tent is to be his welcome guest in worship (see 23:6; 27:4)."
+      "title": "Ps. 61:1–3",
+      "text": "Cemaat bunu söylerken kendilerini muhtaç ve tehlikede hissettikleri her türlü yerde (**dünyanın sonu**) ve koşullarda (**kalbim baygınken**) hayal ediyorlar. Böyle zamanlarda Tanrı güvenilir bir **sığınak** ve **güçlü bir kuledir**."
     },
     {
       "ref": "Ps. 61:6–7",
-      "text": "If God will prolong the life of the king, and appoint steadfast love and faithfulness to watch over him (see Prov. 20:28), then God’s people may rest secure in his blessing."
+      "title": "Ps. 61:6–7",
+      "text": "Eğer Tanrı **kralın ömrünü uzatırsa** ve **ona göz kulak olmak için sarsılmaz sevgi ve sadakat atayacaksa** (bkz. Özdeyişler 20:28), o zaman Tanrı'nın halkı onun bereketiyle güven içinde yatabilir."
+    }
+  ],
+  "notes": [
+    {
+      "ref": "Ps. 61",
+      "text": "**Mezmur** . Bu mezmur hem bireysel bir ağıt hem de toplumsal bir ağıt olarak değerlendirilebilir. Zor anlarında Allah'tan yardım ister. 6-7. Ayetler kraliyet refahını tüm halkın refahına bağlar. 8. ayet, mezmurun dua ettiği yardıma uygun tepki olarak toplu ibadet eylemlerini sabırsızlıkla beklemektedir."
+    },
+    {
+      "ref": "Ps. 61:4",
+      "text": "Tanrı'nın **çadırında** **yerleşmek**, ibadette O'nun hoş karşılanan konuğu olmaktır (bkz. 23:6; 27:4)."
     }
   ]
 }

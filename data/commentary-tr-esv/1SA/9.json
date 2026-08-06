@@ -1,36 +1,41 @@
 {
-  "source": "ESV Global Study Bible (Crossway) — Türkçe çeviri — DeepL translator — Lisans kapsamında kullanılmaktadır",
+  "source": "ESV Global Study Bible (Crossway) — Türkçe çeviri — Google Translate — Lisans kapsamında kullanılmaktadır",
   "book_intro": "Blue Letter Bible bakanlığı ve BLB Enstitüsü, Kutsal Yazıların tahrif edilemezliğine olan kesin inancı da içeren tarihsel, muhafazakar Hristiyan inancına bağlıdır. BLB tarafından sağlanan metin ve ses içeriği çeşitli Evanjelik gelenekleri temsil ettiğinden, kaynak materyallerde aktarılan tüm fikir ve ilkelerin bu bakanlık tarafından toplamda onaylanması gerekmez.\n\nBlue Letter Kutsal Kitap çalışma araçları Kutsal Kitap'ı okumayı, araştırmayı ve çalışmayı kolay ve ödüllendirici hale getirir.\n\nBlue Letter Bible 501(c)(3) kar amacı gütmeyen bir kuruluştur\n\nTercih ettiğiniz Kutsal Kitap çevirilerinin sırasını Kutsal Kitaplar Sekmesi'nden Sürüm Seçici'ye (bu açılır pencere) kopyalayabilir veya tam tersini yapabilirsiniz. Kutsal Kitaplar Sekmesi, Kutsal Kitap sayfalarındaki Araçlar özelliğinde bulunur:\n\nNot: MLA artık atıf standartlarının bir parçası olarak URL'yi zorunlu tutmamaktadır. Bireysel eğitmenler veya editörler yine de URL'lerin kullanılmasını isteyebilir.\n\nHata: Parolalar en az 6 karakterden oluşmalıdır\n\nHata: Kullanıcı adları yalnızca harf, rakam, nokta, tire veya alt çizgi içermelidir\n\nParolalar en az 6 karakterden oluşmalıdır.\n\t\t\t\t\t\t\tKullanıcı adları yalnızca harf, rakam, nokta, tire veya alt çizgi içermelidir.\n\nKaydolduğunuz için teşekkür ederiz. Verdiğiniz adrese bir doğrulama e-postası gönderildi.\n\nOrtaklığınız tüm yaptıklarımızı mümkün kılıyor. Bugün dua ederek bir destek hediyesi vermeyi düşünür müsünüz?",
-  "chapter_intro": "",
-  "passages": [],
+  "passages": [
+    {
+      "ref": "1 Sam 9:1–15:35",
+      "title": "Saul'un Hikayesi.",
+      "text": "Tüm İsrail'in ilk kralı olan Saul iyi başlıyor. Fakat bir kral olarak başarısız oluyor çünkü Tanrı'nın Samuel aracılığıyla gelen sözüne itaat etmiyor."
+    }
+  ],
   "notes": [
     {
       "ref": "1 Sam 9:2",
-      "text": "Saul seems to be the ideal candidate for king, with a striking physical appearance. From his shoulders upward he was taller than any of the people. See also 10:23."
+      "text": "Saul, çarpıcı fiziksel görünümüyle ideal bir kral adayı gibi görünüyor. **Omuzlarından yukarısı tüm insanlardan daha uzundu**. Ayrıca bkz. 10:23."
     },
     {
       "ref": "1 Sam 9:3–8",
-      "text": "Saul’s father sends him in search of some lost donkeys. Just as Saul is about to give up the search, God intervenes through Saul’s servant. The servant suggests that they inquire of a local man of God (that is, a “seer”; v. 9). The servant just happens to have some silver with him, which would provide the customary present for the seer (compare 1 Kings 14:3; 2 Kings 8:8)."
+      "text": "Saul'un babası onu kayıp **eşekleri** aramaya gönderir. Tam Saul aramaktan vazgeçmek üzereyken Tanrı, Saul'un hizmetkarı aracılığıyla müdahale eder. Hizmetçi, yerel bir **Tanrı adamına** (yani bir \"gören\"; ayet 9) danışmalarını önerir. Hizmetçinin yanında, kahin için geleneksel **hediyeyi** sağlayacak bir miktar **gümüş** vardır (1. Krallar 14:3; 2. Krallar 8:8 ile karşılaştırın)."
     },
     {
       "ref": "1 Sam 9:9",
-      "text": "Inquire refers to seeking guidance from the Lord, either through a prophet or by lots (compare 10:22; 2 Kings 22:13; Jer. 21:2). It could also refer to inquiring of pagan gods (2 Kings 1:2). Seer, prophet, and “man of God” (1 Sam. 9:6) are used almost interchangeably in the OT."
+      "text": "**Sorgulamak**, bir peygamber aracılığıyla ya da kura yoluyla Rab'den rehberlik aramayı ifade eder (10:22; 2. Krallar 22:13; Yer. 21:2 ile karşılaştırın). Aynı zamanda pagan tanrılarının araştırılması anlamına da gelebilir (2 Krallar 1:2). **Gören**, **peygamber** ve \"Tanrı adamı\" (1 Sam. 9:6) Eski Antlaşma'da neredeyse birbirinin yerine kullanılmaktadır."
     },
     {
       "ref": "1 Sam 9:12",
-      "text": "As they prepared to enter Canaan, the Israelites were told to destroy all the “high places” of the Canaanites (Num. 33:52). However, worship of the Lord at such places was allowed before the time of the temple (1 Kings 3:2, 4). Such worship sites were often built on hills or mountains to represent the power of the Lord (or of a pagan deity). After the temple was built, worship at these high places was no longer acceptable (2 Kings 23:15)."
+      "text": "Kenan ülkesine girmeye hazırlanırken İsraillilere, Kenanlıların tüm \"yüksek yerlerini\" yok etmeleri söylendi (Say. 33:52). Ancak bu tür yerlerde Rab'be tapınılmasına tapınağın zamanından önce de izin veriliyordu (1. Krallar 3:2, 4). Bu tür ibadet yerleri genellikle Rab'bin (veya pagan bir tanrının) gücünü temsil etmek için tepeler veya dağlar üzerine inşa edilirdi. Tapınak inşa edildikten sonra bu yüksek yerlerde ibadet artık kabul edilemezdi (2 Krallar 23:15)."
     },
     {
       "ref": "1 Sam 9:16",
-      "text": "you shall anoint him. The king was the Lord’s “anointed one,” a term that can also be translated “messiah.”"
+      "text": "**onu meshedeceksin**. Kral, Rab'bin \"meshedilmiş kişisi\" idi; bu terim aynı zamanda \"mesih\" olarak da tercüme edilebilir."
     },
     {
       "ref": "1 Sam 9:20–21",
-      "text": "for whom is all that is desirable in Israel? As king, why should Saul concern himself with donkeys when he will receive the choicest things of the land (see 8:11–17)? However, Samuel’s question could also be seen as a criticism, since it can be translated, “For whom is all the desire of Israel?” In making Saul its king, Israel gets what it desires (ch. 8). Am I not . . . from the least . . . the humblest of all the clans? Saul’s emphasis on his low status indicates that he understands this question in the former, positive sense."
+      "text": "**İsrail'de arzu edilen her şey kimin için?** Kral olarak Saul, ülkenin en seçkin şeylerini alacakken neden eşeklerle ilgilensin ki (bkz. 8:11–17 )? Ancak Samuel'in sorusu aynı zamanda bir eleştiri olarak da görülebilir çünkü şu şekilde tercüme edilebilir: \"İsrail'in tüm arzusu kimin için?\" İsrail, Saul'u kral yaparak istediğini elde eder (bölüm 8). **Değil miyim? . . en azından. . . klanların en mütevazısı** mı? Saul'un düşük statüsüne vurgu yapması, bu soruyu ilk olumlu anlamda anladığını gösteriyor."
     },
     {
       "ref": "1 Sam 9:24",
-      "text": "the cook took up the leg. The leg was the priest’s portion (Ex. 29:27). Saul is told in 1 Sam. 10:4 to accept bread that probably was originally intended as an offering and would have been eaten by the priests (see Num. 18:8). These are indications of the sacredness of his kingship."
+      "text": "**aşçı bacağını aldı**. Bacak rahibin payıydı (Çık. 29:27). Saul'a 1 Sam'de anlatılıyor. 10:4 muhtemelen başlangıçta bir sunu olarak düşünülen ve kâhinler tarafından yenecek olan ekmeği kabul etmek için (bkz. Sayılar 18:8). Bunlar onun krallığının kutsallığının göstergeleridir."
     }
   ]
 }

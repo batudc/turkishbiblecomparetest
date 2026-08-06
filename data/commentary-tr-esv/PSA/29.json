@@ -1,24 +1,27 @@
 {
-  "source": "ESV Global Study Bible (Crossway) — Türkçe çeviri — DeepL translator — Lisans kapsamında kullanılmaktadır",
+  "source": "ESV Global Study Bible (Crossway) — Türkçe çeviri — Google Translate — Lisans kapsamında kullanılmaktadır",
   "book_intro": "Blue Letter Bible bakanlığı ve BLB Enstitüsü, Kutsal Yazıların tahrif edilemezliğine olan kesin inancı da içeren tarihsel, muhafazakar Hristiyan inancına bağlıdır. BLB tarafından sağlanan metin ve ses içeriği çeşitli Evanjelik gelenekleri temsil ettiğinden, kaynak materyallerde aktarılan tüm fikir ve ilkelerin bu bakanlık tarafından toplamda onaylanması gerekmez.\n\nBlue Letter Kutsal Kitap çalışma araçları Kutsal Kitap'ı okumayı, araştırmayı ve çalışmayı kolay ve ödüllendirici hale getirir.\n\nBlue Letter Bible 501(c)(3) kar amacı gütmeyen bir kuruluştur\n\nTercih ettiğiniz Kutsal Kitap çevirilerinin sırasını Kutsal Kitaplar Sekmesi'nden Sürüm Seçici'ye (bu açılır pencere) kopyalayabilir ya da tam tersini yapabilirsiniz. Kutsal Kitaplar Sekmesi, Kutsal Kitap sayfalarındaki Araçlar özelliğinde bulunur:\n\nNot: MLA artık atıf standartlarının bir parçası olarak URL'yi zorunlu tutmamaktadır. Bireysel eğitmenler veya editörler yine de URL'lerin kullanılmasını isteyebilir.\n\nHata: Parolalar en az 6 karakterden oluşmalıdır\n\nHata: Kullanıcı adları yalnızca harf, rakam, nokta, tire veya alt çizgi içermelidir\n\nParolalar en az 6 karakterden oluşmalıdır.\n\t\t\t\t\t\t\tKullanıcı adları yalnızca harf, rakam, nokta, tire veya alt çizgi içermelidir.\n\nKaydolduğunuz için teşekkür ederiz. Verdiğiniz adrese bir doğrulama e-postası gönderildi.\n\nOrtaklığınız tüm yaptıklarımızı mümkün kılıyor. Bugün dua ederek bir destek hediyesi vermeyi düşünür müsünüz?",
-  "chapter_intro": "",
-  "passages": [],
-  "notes": [
-    {
-      "ref": "Ps. 29",
-      "text": "Psalm . This is a hymn of praise to God for his awesome power. A thunderstorm serves as a visible representation of God’s majestic voice. It seems reasonable to suppose that setting the psalm in a thunderstorm deliberately places Yahweh over Baal, the storm-god widely worshiped in Syria-Palestine. God created the phenomena of nature. They serve his purposes and demonstrate his wisdom, glory, faithfulness, and even his love."
-    },
+  "passages": [
     {
       "ref": "Ps. 29:1–2",
-      "text": "The psalm begins by urging the heavenly beings or angels to ascribe to the Lord glory and strength, that is, to acknowledge that these things are true of God, and that he deserves admiration for them."
+      "title": "Ps. 29:1–2",
+      "text": "Mezmur, **göksel varlıkları** veya melekleri **Rab'bin yüceliğini ve gücünü atfetmeye**, yani bu şeylerin Tanrı için doğru olduğunu ve O'nun bunlara hayranlığı hak ettiğini kabul etmeye teşvik ederek başlar."
     },
     {
       "ref": "Ps. 29:3–9",
-      "text": "The thunderstorm represents of the voice of the Lord. The reader should imagine a magnificent storm coming eastward from the Mediterranean and sweeping through Israel, from the northern end (Sirion) to the southern end (Kadesh). The faithful, worshiping in the temple in Jerusalem, see the storm’s awesome power. They know that the voice of the Lord is even more powerful, and even more full of majesty. Hence their responsive cry, Glory!"
+      "title": "Ps. 29:3–9",
+      "text": "Fırtına **Rab'bin sesini** temsil eder. Okuyucu, Akdeniz'den doğuya doğru gelen ve kuzey ucundan (**Sirion**) güney ucuna (**Kadesh**) kadar İsrail'i kasıp kavuran muhteşem bir fırtına hayal etmelidir. Kudüs'teki **tapınakta** ibadet eden sadıklar, fırtınanın müthiş gücünü görüyor. **Rab'bin sesinin** çok daha **güçlü** ve çok daha **görkem dolu** olduğunu biliyorlar. Bu yüzden karşılık veren çığlıkları şu: **Şan!**"
     },
     {
       "ref": "Ps. 29:10–11",
-      "text": "The temple (v. 9) is the place where God sits enthroned (9:11; 22:3) as king forever, especially over his people. The word for flood here is used elsewhere only of Noah’s flood (Gen. 6:17). Just as in that great flood, God’s power makes distinctions between the faithful and the unfaithful."
+      "title": "Ps. 29:10–11",
+      "text": "Tapınak (ayet 9), Tanrı'nın, özellikle halkının üzerinde **sonsuza kadar kral** olarak **tahtta oturduğu** (9:11; 22:3) yerdir. Buradaki **tufan** sözcüğü başka yerlerde yalnızca Nuh'un tufanı için kullanılıyor (Yaratılış 6:17). Tıpkı o büyük tufan gibi, Allah'ın kudreti mü'min ile kâfir arasında ayrım yapmaktadır."
+    }
+  ],
+  "notes": [
+    {
+      "ref": "Ps. 29",
+      "text": "**Mezmur** . Bu, muhteşem gücünden dolayı Tanrı'ya övgü dolu bir ilahidir. Fırtına, Tanrı'nın görkemli sesinin görünür bir temsili olarak hizmet eder. Mezmurun fırtınaya yerleştirilmesinin Yahveh'yi kasıtlı olarak Suriye-Filistin'de yaygın olarak tapınılan fırtına tanrısı Baal'in üzerine koyduğunu varsaymak mantıklı görünüyor. Tanrı doğa olaylarını yarattı. O’nun amaçlarına hizmet ederler ve onun bilgeliğini, görkemini, sadakatini ve hatta sevgisini gösterirler."
     }
   ]
 }

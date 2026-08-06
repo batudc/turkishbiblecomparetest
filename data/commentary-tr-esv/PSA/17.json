@@ -1,36 +1,38 @@
 {
-  "source": "ESV Global Study Bible (Crossway) — Türkçe çeviri — DeepL translator — Lisans kapsamında kullanılmaktadır",
+  "source": "ESV Global Study Bible (Crossway) — Türkçe çeviri — Google Translate — Lisans kapsamında kullanılmaktadır",
   "book_intro": "Blue Letter Bible bakanlığı ve BLB Enstitüsü, Kutsal Yazıların tahrif edilemezliğine olan kesin inancı da içeren tarihsel, muhafazakar Hristiyan inancına bağlıdır. BLB tarafından sağlanan metin ve ses içeriği çeşitli Evanjelik gelenekleri temsil ettiğinden, kaynak materyallerde aktarılan tüm fikir ve ilkelerin bu bakanlık tarafından toplamda onaylanması gerekmez.\n\nBlue Letter Kutsal Kitap çalışma araçları Kutsal Kitap'ı okumayı, araştırmayı ve çalışmayı kolay ve ödüllendirici hale getirir.\n\nBlue Letter Bible 501(c)(3) kar amacı gütmeyen bir kuruluştur\n\nTercih ettiğiniz Kutsal Kitap çevirilerinin sırasını Kutsal Kitaplar Sekmesi'nden Sürüm Seçici'ye (bu açılır pencere) kopyalayabilir ya da tam tersini yapabilirsiniz. Kutsal Kitaplar Sekmesi, Kutsal Kitap sayfalarındaki Araçlar özelliğinde bulunur:\n\nNot: MLA artık atıf standartlarının bir parçası olarak URL'yi zorunlu tutmamaktadır. Bireysel eğitmenler veya editörler yine de URL'lerin kullanılmasını isteyebilir.\n\nHata: Parolalar en az 6 karakterden oluşmalıdır\n\nHata: Kullanıcı adları yalnızca harf, rakam, nokta, tire veya alt çizgi içermelidir\n\nParolalar en az 6 karakterden oluşmalıdır.\n\t\t\t\t\t\t\tKullanıcı adları yalnızca harf, rakam, nokta, tire veya alt çizgi içermelidir.\n\nKaydolduğunuz için teşekkür ederiz. Verdiğiniz adrese bir doğrulama e-postası gönderildi.\n\nOrtaklığınız tüm yaptıklarımızı mümkün kılıyor. Bugün dua ederek bir destek hediyesi vermeyi düşünür müsünüz?",
-  "chapter_intro": "",
-  "passages": [],
-  "notes": [
-    {
-      "ref": "Ps. 17",
-      "text": "Psalm . This is an individual lament, dealing especially with cases in which a person considers himself unjustly accused of wrong (compare Psalm 7). The psalm is a prayer for vindication, and it ends with a feeling of confidence (compare Psalm 16)."
-    },
+  "passages": [
     {
       "ref": "Ps. 17:3–5",
-      "text": "The singer proclaims his innocence (tried, visited, tested), and he recounts his efforts to stay pure."
-    },
-    {
-      "ref": "Ps. 17:8",
-      "text": "apple of your eye. See Deut. 32:10; Prov. 7:2."
-    },
-    {
-      "ref": "Ps. 17:10",
-      "text": "The singer cannot appeal to the attackers’ pity or remorse, since they close their hearts to such feelings. Instead, they speak arrogantly."
+      "title": "Ps. 17:3–5",
+      "text": "Şarkıcı masum olduğunu ilan ediyor (**denendi**, **ziyaret edildi**, **test edildi**) ve saf kalma çabalarını anlatıyor."
     },
     {
       "ref": "Ps. 17:13–14",
-      "text": "Amid such threats, when it seems unlikely that the attacker will repent (v. 10), the proper response is prayer for the enemy’s defeat."
+      "title": "Ps. 17:13–14",
+      "text": "Bu tür tehditlerin ortasında, saldırganın tövbe etmesi pek mümkün görünmediğinde (ayet 10), doğru yanıt, düşmanın yenilgisi için dua etmektir."
+    }
+  ],
+  "notes": [
+    {
+      "ref": "Ps. 17",
+      "text": "**Mezmur** . Bu, özellikle bir kişinin kendisini haksız yere suçlanmakla itham ettiği durumlarla ilgili bireysel bir ağıttır (Mezmur 7 ile karşılaştırın). Mezmur bir haklılık duasıdır ve bir güven duygusuyla sona erer (Mezmur 16 ile karşılaştırın)."
+    },
+    {
+      "ref": "Ps. 17:8",
+      "text": "**gözbebeğiniz**. Bkz. Deut. 32:10; Prov. 7:2 ."
+    },
+    {
+      "ref": "Ps. 17:10",
+      "text": "Şarkıcı, saldırganların **acımasına** veya pişmanlığına hitap edemiyor çünkü onlar bu tür duygulara **kalplerini kapatıyorlar**. Bunun yerine **kibirli konuşuyorlar**."
     },
     {
       "ref": "Ps. 17:14",
-      "text": "The text describes these attackers as people whose only reward is in this life (their treasure and their children). They leave all their wealth behind when they die. This contrasts with the expectation of the faithful (v. 15)."
+      "text": "Metin, bu saldırganları, tek ödülü bu hayatta olan insanlar (**hazineleri** ve **çocukları**) olarak tanımlıyor. Öldüklerinde tüm servetlerini arkalarında bırakırlar. Bu, sadıkların beklentisiyle çelişmektedir (ayet 15)."
     },
     {
       "ref": "Ps. 17:15",
-      "text": "behold your face. Compare 11:7; Rev. 22:4. when I awake. The beholding and the satisfaction refer to the everlasting bliss that the godly look for in the general resurrection."
+      "text": "**yüzünüze bakın**. 11:7'yi karşılaştırın; Vahiy 22:4 . **uyandığımda**. Görmek ve tatmin olmak, tanrısal kişilerin genel dirilişte aradıkları sonsuz mutluluğa işaret eder."
     }
   ]
 }

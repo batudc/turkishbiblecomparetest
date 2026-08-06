@@ -1,28 +1,31 @@
 {
-  "source": "ESV Global Study Bible (Crossway) — Türkçe çeviri — DeepL translator — Lisans kapsamında kullanılmaktadır",
+  "source": "ESV Global Study Bible (Crossway) — Türkçe çeviri — Google Translate — Lisans kapsamında kullanılmaktadır",
   "book_intro": "Blue Letter Bible bakanlığı ve BLB Enstitüsü, Kutsal Yazıların tahrif edilemezliğine olan kesin inancı da içeren tarihsel, muhafazakar Hristiyan inancına bağlıdır. BLB tarafından sağlanan metin ve ses içeriği çeşitli Evanjelik gelenekleri temsil ettiğinden, kaynak materyallerde aktarılan tüm fikir ve ilkelerin bu bakanlık tarafından toplamda onaylanması gerekmez.\n\nBlue Letter Kutsal Kitap çalışma araçları Kutsal Kitap'ı okumayı, araştırmayı ve çalışmayı kolay ve ödüllendirici hale getirir.\n\nBlue Letter Bible 501(c)(3) kar amacı gütmeyen bir kuruluştur\n\nTercih ettiğiniz Kutsal Kitap çevirilerinin sırasını Kutsal Kitaplar Sekmesi'nden Sürüm Seçici'ye (bu açılır pencere) kopyalayabilir ya da tam tersini yapabilirsiniz. Kutsal Kitaplar Sekmesi, Kutsal Kitap sayfalarındaki Araçlar özelliğinde bulunur:\n\nNot: MLA artık atıf standartlarının bir parçası olarak URL'yi zorunlu tutmamaktadır. Bireysel eğitmenler veya editörler yine de URL'lerin kullanılmasını isteyebilir.\n\nHata: Parolalar en az 6 karakterden oluşmalıdır\n\nHata: Kullanıcı adları yalnızca harf, rakam, nokta, tire veya alt çizgi içermelidir\n\nParolalar en az 6 karakterden oluşmalıdır.\n\t\t\t\t\t\t\tKullanıcı adları yalnızca harf, rakam, nokta, tire veya alt çizgi içermelidir.\n\nKaydolduğunuz için teşekkür ederiz. Verdiğiniz adrese bir doğrulama e-postası gönderildi.\n\nOrtaklığınız tüm yaptıklarımızı mümkün kılıyor. Bugün dua ederek bir destek hediyesi vermeyi düşünür müsünüz?",
-  "chapter_intro": "",
-  "passages": [],
-  "notes": [
-    {
-      "ref": "Ps. 120",
-      "text": "Psalm . Psalm 120 is the first of the “Songs of Ascents” (Psalms 120–134). This diverse group includes individual and corporate laments, songs of confidence, thanksgiving hymns, a song celebrating Zion, wisdom psalms, a royal psalm, and a psalm for worship. Since Jerusalem has a high elevation, those coming to worship had to ascend to get there. These songs were sung during the climb to Jerusalem (122:4; see 1 Kings 12:28; Zech. 14:16). Psalm 120 is an individual lament, sung by someone living away from Israel (v. 5). Deceitful people are stirring up war, while the psalmist prefers peace. It is possible that the psalm originated during the exile, when God told his people to seek the “welfare” (or “peace”) of the city to which they were sent (Jer. 29:7). Worship in Jerusalem, both for the singer and for the Gentiles, is the key to such peace (Ps. 120:5–7; see Isa. 2:3–4)."
-    },
+  "passages": [
     {
       "ref": "Ps. 120:1–2",
-      "text": "The psalm opens by remembering that there have been times of distress in the past, and each time I called to the Lord, he answered me with rescue. People with lying lips and a deceitful tongue are causing the distress."
+      "title": "Ps. 120:1–2",
+      "text": "Mezmur, geçmişte **sıkıntılı** zamanların yaşandığını ve **Rab'be her seslendiğimde**** bana yanıt vererek** kurtarıldığını hatırlayarak açılıyor. **Yalancı dudakları** ve **aldatıcı dili** olan kişiler bu sıkıntıya neden oluyor."
     },
     {
       "ref": "Ps. 120:3–4",
-      "text": "The psalm now addresses the person who is causing the trouble."
+      "title": "Ps. 120:3–4",
+      "text": "Mezmur şimdi soruna neden olan kişiye hitap ediyor."
     },
     {
       "ref": "Ps. 120:5–7",
-      "text": "The psalmist reflects on the larger situation. The people among whom he dwells are Gentiles, who do not know God’s word. The ideal Israelite exile is for peace, seeking it for the city in which he is exiled (in Jer. 29:7 this is “welfare,” see esv footnote on Jer. 29:11)."
+      "title": "Ps. 120:5–7",
+      "text": "Mezmur yazarı daha geniş bir durum üzerinde düşünüyor. Aralarında yaşadığı halk, Tanrı'nın sözünü bilmeyen Yahudi olmayanlardır. İdeal İsrailli sürgünü **barış içindir**, sürgün edildiği şehir için barışı arar (Yeremya 29:7'de bu “refahtır”, bkz. Yeremya 29:11'deki esv dipnotu)."
+    }
+  ],
+  "notes": [
+    {
+      "ref": "Ps. 120",
+      "text": "**Mezmur** . Mezmur 120, “Yükseliş Şarkıları”nın ilkidir (Mezmur 120–134). Bu çeşitli grupta bireysel ve kurumsal ağıtlar, güven şarkıları, şükran günü ilahileri, Siyon'u kutlayan bir şarkı, bilgelik mezmurları, kraliyet mezmurları ve ibadet için bir mezmur yer alır. Kudüs yüksek bir rakıma sahip olduğundan ibadete gelenler oraya ulaşmak için yukarı çıkmak zorunda kalıyordu. Bu şarkılar Yeruşalim'e tırmanış sırasında söylendi (122:4; bkz. 1. Krallar 12:28; Zek. 14:16). Mezmur 120, İsrail'den uzakta yaşayan birinin söylediği bireysel bir ağıttır (ayet 5). Hilekar insanlar savaşı kışkırtırken, Mezmur yazarı barışı tercih ediyor. Mezmurun, Tanrı'nın halkına gönderildikleri şehrin \"refahını\" (veya \"huzurunu\") aramalarını söylediği sürgün sırasında ortaya çıkmış olması mümkündür (Yer. 29:7). Hem şarkıcı hem de Yahudi olmayanlar için Yeruşalim'deki ibadet böyle bir barışın anahtarıdır (Mez. 120:5–7; bkz. Yeşaya 2:3–4)."
     },
     {
       "ref": "Ps. 120:5",
-      "text": "To sojourn is to live as a resident alien, not as a native-born citizen. Meshech was a people on the southeastern edge of the Black Sea (see note on Ezek. 27:13), while Kedar was a people dwelling in the Arabian desert. These two names probably represent the Gentile world into which God’s people have been scattered."
+      "text": "**Kısa süre**, yerli bir vatandaş olarak değil, yerleşik bir yabancı olarak yaşamaktır. **Meşeh**, Karadeniz'in güneydoğu kıyısında yaşayan bir halktı (bkz. Hezek. 27:13 ile ilgili not), **Kedar** ise Arap çölünde yaşayan bir halktı. Bu iki isim muhtemelen Tanrı'nın halkının dağıldığı Yahudi olmayan dünyayı temsil ediyor."
     }
   ]
 }

@@ -1,24 +1,27 @@
 {
-  "source": "ESV Global Study Bible (Crossway) — Used under license",
+  "source": "ESV Global Study Bible (Crossway) — Türkçe çeviri — Google Translate — Lisans kapsamında kullanılmaktadır",
   "book_intro": "Blue Letter Bible bakanlığı ve BLB Enstitüsü, Kutsal Yazıların tahrif edilemezliğine olan kesin inancı içeren tarihsel, muhafazakar Hristiyan inancına bağlıdır. BLB tarafından sağlanan metin ve ses içeriği çeşitli Evanjelik gelenekleri temsil ettiğinden, kaynak materyallerde aktarılan tüm fikir ve ilkelerin bu bakanlık tarafından toplamda onaylanması gerekmez.\n\nBlue Letter Kutsal Kitap çalışma araçları Kutsal Kitap'ı okumayı, araştırmayı ve çalışmayı kolay ve ödüllendirici hale getirir.\n\nBlue Letter Bible 501(c)(3) kar amacı gütmeyen bir kuruluştur\n\nTercih ettiğiniz Kutsal Kitap çevirilerinin sırasını Kutsal Kitaplar Sekmesi'nden Sürüm Seçici'ye (bu açılır pencere) kopyalayabilir veya tam tersini yapabilirsiniz. Kutsal Kitaplar Sekmesi, Kutsal Kitap sayfalarındaki Araçlar özelliğinde bulunur:\n\nNot: MLA artık atıf standartlarının bir parçası olarak URL'yi zorunlu tutmamaktadır. Bireysel eğitmenler veya editörler yine de URL'lerin kullanılmasını isteyebilir.\n\nHata: Parolalar en az 6 karakterden oluşmalıdır\n\nHata: Kullanıcı adları yalnızca harf, rakam, nokta, tire veya alt çizgi içermelidir\n\nParolalar en az 6 karakterden oluşmalıdır.\n\t\t\t\t\t\t\tKullanıcı adları yalnızca harf, rakam, nokta, tire veya alt çizgi içermelidir.\n\nKaydolduğunuz için teşekkür ederiz. Verdiğiniz adrese bir doğrulama e-postası gönderildi.\n\nOrtaklığınız tüm yaptıklarımızı mümkün kılıyor. Bugün dua ederek bir destek hediyesi vermeyi düşünür müsünüz?",
-  "chapter_intro": "",
-  "passages": [],
-  "notes": [
+  "passages": [
     {
       "ref": "1 Chron 23:1–27:34",
-      "text": "23-27. bölümlerde Davut dini, askeri ve siyasi önderlik yaparak Süleyman'ın yönetimine hazırlanmaya devam eder."
-    },
-    {
-      "ref": "1 Chron 23:3",
-      "text": "A legitimate census of the Levites, as in Num. 4:1–3 (see 1 Chron. 21:1–17 and notes on 1 Chronicles 21:1–17). The age of beginning service (thirty . . . and upward) was later lowered to 20 (23:24, 27). 38,000. The Hebrew word here for “thousand” may denote “groups” or “units” of unknown size."
+      "title": "1 Tarihler 23:1–27:34",
+      "text": "Chs'de. 23–27 Davut dini, askeri ve siyasi liderlik sağlayarak Süleyman'ın yönetimine hazırlanmaya devam ediyor."
     },
     {
       "ref": "1 Chron 23:6–23",
-      "text": "David organizes the Levites according to their traditional clans: the Gershonites (vv. 7–11), the Kohathites (vv. 12–20), and the Merarites (vv. 21–23)."
+      "title": "1 Tarihler 23:6–23",
+      "text": "Davut, Levilileri geleneksel klanlarına göre düzenler: Gerşonlular (7-11. ayetler), Kohatlılar (12-20. ayetler) ve Merarililer (21-23. ayetler)."
     },
     {
       "ref": "1 Chron 23:24–32",
-      "text": "David appears as the successor to Moses (see Numbers 4) as he defines the Levites’ duties in relation to the temple."
+      "title": "1 Tarihler 23:24–32",
+      "text": "Davut, Levililerin tapınakla ilgili görevlerini tanımlarken Musa'nın halefi olarak görünmektedir (bkz. Sayılar 4)."
+    }
+  ],
+  "notes": [
+    {
+      "ref": "1 Chron 23:3",
+      "text": "Num'da olduğu gibi Levililerin meşru bir sayımı. 4:1–3 (bkz. 1 Tarihler 21:1–17 ve 1 Tarihler 21:1–17 ile ilgili notlar). Hizmete başlama yaşı (**otuz... ve üzeri**) daha sonra 20'ye (23:24, 27) düşürüldü. **38.000**. Buradaki “bin” anlamına gelen İbranice sözcük, boyutu bilinmeyen “grupları” veya “birimleri” ifade ediyor olabilir."
     }
   ]
 }

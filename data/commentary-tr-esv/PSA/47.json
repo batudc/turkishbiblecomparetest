@@ -1,24 +1,27 @@
 {
-  "source": "ESV Global Study Bible (Crossway) — Türkçe çeviri — DeepL translator — Lisans kapsamında kullanılmaktadır",
+  "source": "ESV Global Study Bible (Crossway) — Türkçe çeviri — Google Translate — Lisans kapsamında kullanılmaktadır",
   "book_intro": "Blue Letter Bible bakanlığı ve BLB Enstitüsü, Kutsal Yazıların tahrif edilemezliğine olan kesin inancı da içeren tarihsel, muhafazakar Hristiyan inancına bağlıdır. BLB tarafından sağlanan metin ve ses içeriği çeşitli Evanjelik gelenekleri temsil ettiğinden, kaynak materyallerde aktarılan tüm fikir ve ilkelerin bu bakanlık tarafından toplamda onaylanması gerekmez.\n\nBlue Letter Kutsal Kitap çalışma araçları Kutsal Kitap'ı okumayı, araştırmayı ve çalışmayı kolay ve ödüllendirici hale getirir.\n\nBlue Letter Bible 501(c)(3) kar amacı gütmeyen bir kuruluştur\n\nTercih ettiğiniz Kutsal Kitap çevirilerinin sırasını Kutsal Kitaplar Sekmesi'nden Sürüm Seçici'ye (bu açılır pencere) kopyalayabilir ya da tam tersini yapabilirsiniz. Kutsal Kitaplar Sekmesi, Kutsal Kitap sayfalarındaki Araçlar özelliğinde bulunur:\n\nNot: MLA artık atıf standartlarının bir parçası olarak URL'yi zorunlu tutmamaktadır. Bireysel eğitmenler veya editörler yine de URL'lerin kullanılmasını isteyebilir.\n\nHata: Parolalar en az 6 karakterden oluşmalıdır\n\nHata: Kullanıcı adları yalnızca harf, rakam, nokta, tire veya alt çizgi içermelidir\n\nParolalar en az 6 karakterden oluşmalıdır.\n\t\t\t\t\t\t\tKullanıcı adları yalnızca harf, rakam, nokta, tire veya alt çizgi içermelidir.\n\nKaydolduğunuz için teşekkür ederiz. Verdiğiniz adrese bir doğrulama e-postası gönderildi.\n\nOrtaklığınız tüm yaptıklarımızı mümkün kılıyor. Bugün dua ederek bir destek hediyesi vermeyi düşünür müsünüz?",
-  "chapter_intro": "",
-  "passages": [],
-  "notes": [
-    {
-      "ref": "Ps. 47",
-      "text": "Psalm . This psalm celebrates God’s rule over all the earth (see note on 5:2). The promises to Abraham (47:9), that all peoples will be blessed in him (Gen. 12:3), are founded on the fact that there is only one true God. All mankind owes him love and loyalty."
-    },
+  "passages": [
     {
       "ref": "Ps. 47:1–4",
-      "text": "The Lord loves Israel and gave them their heritage. They hold this special place in order to show all peoples how to fear and love God. God’s subduing of the Canaanites is not his final word for the Gentiles."
+      "title": "Ps. 47:1–4",
+      "text": "Rab İsrail'i **seviyor** ve onlara **miraslarını** verdi. **Tüm insanlara** Tanrı'dan nasıl korkulacağını ve sevileceğini göstermek için bu özel yere sahiptirler. Tanrı'nın Kenanlıları boyunduruk altına alması, Yahudi olmayanlara söylediği son söz değildir."
     },
     {
       "ref": "Ps. 47:5–7",
-      "text": "This probably looks back to the ark going to reside in Jerusalem. Second Samuel 6:15 tells of how the ark was made to go up with a shout (see Psalm 24)."
+      "title": "Ps. 47:5–7",
+      "text": "Bu muhtemelen Kudüs'te ikamet edecek olan gemiye benziyor. İkinci Samuel 6:15, sandığın nasıl **bir çığlıkla yukarıya doğru** kaldırıldığını anlatır (bkz. Mezmur 24)."
     },
     {
       "ref": "Ps. 47:8–9",
-      "text": "The psalm looks forward to the day when the Gentile princes of the peoples gather for worship as the people of the God of Abraham, that is, the people to whom the blessing of Abraham has finally come."
+      "title": "Ps. 47:8–9",
+      "text": "Mezmur, Yahudi olmayan <b>halkların prenslerinin, İbrahim'in Tanrısının halkı olarak, yani İbrahim'in bereketinin sonunda ulaştığı halk olarak tapınmak için toplanacağı günü sabırsızlıkla bekliyor."
+    }
+  ],
+  "notes": [
+    {
+      "ref": "Ps. 47",
+      "text": "**Mezmur** . Bu mezmur, Tanrı'nın tüm dünya üzerindeki egemenliğini kutlar (bkz. 5:2 ile ilgili not). İbrahim'e verilen, tüm halkların onda kutsanacağı (Yaratılış 12:3) vaatleri, yalnızca tek bir gerçek Tanrı'nın olduğu gerçeğine dayanmaktadır. Bütün insanlığın ona sevgi ve sadakat borcu vardır."
     }
   ]
 }

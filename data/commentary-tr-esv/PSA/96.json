@@ -1,32 +1,36 @@
 {
-  "source": "ESV Global Study Bible (Crossway) — Türkçe çeviri — DeepL translator — Lisans kapsamında kullanılmaktadır",
+  "source": "ESV Global Study Bible (Crossway) — Türkçe çeviri — Google Translate — Lisans kapsamında kullanılmaktadır",
   "book_intro": "Blue Letter Bible bakanlığı ve BLB Enstitüsü, Kutsal Yazıların tahrif edilemezliğine olan kesin inancı da içeren tarihsel, muhafazakar Hristiyan inancına bağlıdır. BLB tarafından sağlanan metin ve ses içeriği çeşitli Evanjelik gelenekleri temsil ettiğinden, kaynak materyallerde aktarılan tüm fikir ve ilkelerin bu bakanlık tarafından toplamda onaylanması gerekmez.\n\nBlue Letter Kutsal Kitap çalışma araçları Kutsal Kitap'ı okumayı, araştırmayı ve çalışmayı kolay ve ödüllendirici hale getirir.\n\nBlue Letter Bible 501(c)(3) kar amacı gütmeyen bir kuruluştur\n\nTercih ettiğiniz Kutsal Kitap çevirilerinin sırasını Kutsal Kitaplar Sekmesi'nden Sürüm Seçici'ye (bu açılır pencere) kopyalayabilir ya da tam tersini yapabilirsiniz. Kutsal Kitaplar Sekmesi, Kutsal Kitap sayfalarındaki Araçlar özelliğinde bulunur:\n\nNot: MLA artık atıf standartlarının bir parçası olarak URL'yi zorunlu tutmamaktadır. Bireysel eğitmenler veya editörler yine de URL'lerin kullanılmasını isteyebilir.\n\nHata: Parolalar en az 6 karakterden oluşmalıdır\n\nHata: Kullanıcı adları yalnızca harf, rakam, nokta, tire veya alt çizgi içermelidir\n\nParolalar en az 6 karakterden oluşmalıdır.\n\t\t\t\t\t\t\tKullanıcı adları yalnızca harf, rakam, nokta, tire veya alt çizgi içermelidir.\n\nKaydolduğunuz için teşekkür ederiz. Verdiğiniz adrese bir doğrulama e-postası gönderildi.\n\nOrtaklığınız tüm yaptıklarımızı mümkün kılıyor. Bugün dua ederek bir destek hediyesi vermeyi düşünür müsünüz?",
-  "chapter_intro": "",
-  "passages": [],
-  "notes": [
-    {
-      "ref": "Ps. 96",
-      "text": "Psalm . God’s kingship over all creation means that all people should love and worship him. The psalm has three sections, each beginning with a command (“sing,” v. 1; “ascribe,” v. 7; “say,” v. 10), and each mentioning the Gentiles. God called Israel to be a means of blessing for all mankind, bringing them knowledge of the true God. This psalm appears in 1 Chron. 16:23–33, indicating that the people sang a version of it when David brought the ark to Jerusalem."
-    },
+  "passages": [
     {
       "ref": "Ps. 96:1–6",
-      "text": "The psalm begins by calling the inhabitants of all the earth to sing to the Lord. It asks them to sing to the Lord, bless his name, and tell of his salvation. This describes Israelite worship in God’s sanctuary. Here the Gentiles are invited to join in (see also vv. 8–9)."
-    },
-    {
-      "ref": "Ps. 96:1",
-      "text": "new song. See note on 33:1–3."
+      "title": "Ps. 96:1–6",
+      "text": "Mezmur, **tüm dünyanın** sakinlerini **Rab'be şarkı söylemeye** çağırarak başlıyor. Onlardan **Rab'be şarkı söylemelerini**, **adını kutsamasını** ve **onun kurtuluşunu anlatmalarını** ister. Bu, İsraillilerin Tanrı'nın **mabedindeki** ibadetini anlatır. Burada Yahudi olmayanlar da katılmaya davet ediliyor (ayrıca bkz. 8-9 ayetler)."
     },
     {
       "ref": "Ps. 96:4–5",
-      "text": "The psalmist explains to the Gentiles that there is only one God truly worthy of worship. The words gods and worthless idols sound alike in Hebrew, providing a play on words. An English paraphrase might be, “these mighty beings are mighty useless!”"
+      "title": "Ps. 96:4–5",
+      "text": "Mezmur yazarı Yahudi olmayanlara gerçekten tapınılmaya değer tek bir Tanrı'nın olduğunu açıklar. **Tanrılar** ve **değersiz putlar** kelimeleri İbranice'de birbirine benziyor ve bir kelime oyunu sağlıyor. İngilizce bir ifade şu olabilir: \"Bu kudretli varlıklar son derece işe yaramaz!\""
     },
     {
       "ref": "Ps. 96:7–9",
-      "text": "These verses develop the thought of v. 7, inviting the Gentiles into his courts to worship. The OT describes a future era, when the Gentiles receive the light, by picturing them coming to the Jerusalem temple (see Isa. 2:2–3). Their uncleanness (see Isa. 52:1) can be cured by conversion, and then they too will be welcome in God’s house."
+      "title": "Ps. 96:7–9",
+      "text": "Bu ayetler, Yahudi olmayanları ibadete **mahkemelerine** davet ederek 7. ayetteki düşünceyi geliştirir. Eski Antlaşma, Yahudi olmayanların Kudüs tapınağına geldiklerini resmederek ışığı alacakları gelecekteki bir dönemi anlatır (bkz. Yeşaya 2:2–3). Onların pisliği (bkz. Yeşaya 52:1) din değiştirerek iyileştirilebilir ve o zaman onlar da Tanrı'nın evinde hoş karşılanacaklardır."
     },
     {
       "ref": "Ps. 96:10–13",
-      "text": "The Gentiles addressed throughout this psalm (see vv. 1, 7) are to spread the news among their fellow Gentiles (among the nations, v. 10; see v. 3) that the Lord reigns! The universal rule (will judge) of the one true God is good news to those who will acknowledge his kingship. When all kinds of people gladly receive God’s rule, the rest of the creation (the heavens, the earth, the sea, and the field with all their inhabitants, and the trees of the forest) will all celebrate (be glad, rejoice, roar, exult, and sing for joy). See note on Rom. 8:20–21."
+      "title": "Ps. 96:10–13",
+      "text": "Bu mezmur boyunca hitap edilen Yahudi olmayanlar, diğer Yahudi olmayanlar arasında (**uluslar arasında**, ayet 10; bkz. ayet 3) **Rab'bin hüküm sürdüğü** haberini yaymalıdırlar! Tek gerçek Tanrı'nın evrensel kuralı (**yargılayacak**), O'nun krallığını kabul edenler için iyi bir haberdir. Her türden insan Tanrı'nın yönetimini memnuniyetle kabul ettiğinde, yaratılışın geri kalanı (**gökyüzü**, **yer**,**deniz** ve **tarla** ile tüm sakinleri ve **ormanın ağaçları**) hepsi bunu kutlayacak (**sevinecek**, **sevinecek**, **kükreyecek**, **coşacak** ve **sevinçle şarkı söyleyin**). Rom hakkındaki nota bakınız. 8:20–21 ."
+    }
+  ],
+  "notes": [
+    {
+      "ref": "Ps. 96",
+      "text": "**Mezmur** . Tanrı'nın tüm yaratıklar üzerindeki krallığı, tüm insanların onu sevmesi ve ona tapınması gerektiği anlamına gelir. Mezmur üç bölümden oluşur; her biri bir emirle başlar (\"şarkı söyle\", ayet 1; \"yaz\", ayet 7; \"söyle\", ayet 10) ve her biri Yahudi olmayanlardan söz eder. Tanrı, İsrail'i tüm insanlık için bir bereket aracı olmaya ve onlara gerçek Tanrı'nın bilgisini getirmeye çağırdı. Bu mezmur 1 Tarihte yer almaktadır. 16:23–33, Davut sandığı Yeruşalim'e getirdiğinde halkın bu şarkının bir versiyonunu söylediğini belirtiyor."
+    },
+    {
+      "ref": "Ps. 96:1",
+      "text": "**yeni şarkı**. 33:1–3'teki nota bakınız."
     }
   ]
 }

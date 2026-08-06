@@ -1,28 +1,32 @@
 {
-  "source": "ESV Global Study Bible (Crossway) — Türkçe çeviri — DeepL translator — Lisans kapsamında kullanılmaktadır",
+  "source": "ESV Global Study Bible (Crossway) — Türkçe çeviri — Google Translate — Lisans kapsamında kullanılmaktadır",
   "book_intro": "Blue Letter Bible bakanlığı ve BLB Enstitüsü, Kutsal Yazıların tahrif edilemezliğine olan kesin inancı da içeren tarihsel, muhafazakar Hristiyan inancına bağlıdır. BLB tarafından sağlanan metin ve ses içeriği çeşitli Evanjelik gelenekleri temsil ettiğinden, kaynak materyallerde aktarılan tüm fikir ve ilkelerin bu bakanlık tarafından toplamda onaylanması gerekmez.\n\nBlue Letter Kutsal Kitap çalışma araçları Kutsal Kitap'ı okumayı, araştırmayı ve çalışmayı kolay ve ödüllendirici hale getirir.\n\nBlue Letter Bible 501(c)(3) kar amacı gütmeyen bir kuruluştur\n\nTercih ettiğiniz Kutsal Kitap çevirilerinin sırasını Kutsal Kitaplar Sekmesi'nden Sürüm Seçici'ye (bu açılır pencere) kopyalayabilir ya da tam tersini yapabilirsiniz. Kutsal Kitaplar Sekmesi, Kutsal Kitap sayfalarındaki Araçlar özelliğinde bulunur:\n\nNot: MLA artık atıf standartlarının bir parçası olarak URL'yi zorunlu tutmamaktadır. Bireysel eğitmenler veya editörler yine de URL'lerin kullanılmasını isteyebilir.\n\nHata: Parolalar en az 6 karakterden oluşmalıdır\n\nHata: Kullanıcı adları yalnızca harf, rakam, nokta, tire veya alt çizgi içermelidir\n\nParolalar en az 6 karakterden oluşmalıdır.\n\t\t\t\t\t\t\tKullanıcı adları yalnızca harf, rakam, nokta, tire veya alt çizgi içermelidir.\n\nKaydolduğunuz için teşekkür ederiz. Verdiğiniz adrese bir doğrulama e-postası gönderildi.\n\nOrtaklığınız tüm yaptıklarımızı mümkün kılıyor. Bugün dua ederek bir destek hediyesi vermeyi düşünür müsünüz?",
-  "chapter_intro": "",
-  "passages": [],
-  "notes": [
-    {
-      "ref": "Ps. 66",
-      "text": "Psalm . This is a thanksgiving for God’s answer to the prayer of one particular member of God’s people. The first half (vv. 1–12) describes God’s deeds for that particular person in the context of his commitment to the people as a whole."
-    },
+  "passages": [
     {
       "ref": "Ps. 66:1–4",
-      "text": "These opening verses begin with a universal call (Shout for joy to God, all the earth) and end by declaring how all the earth worships the true God. Nature honors its Creator (see 19:1–6), and the OT often expresses the hope that one day all mankind will do so as well (e.g., 117:1)."
+      "title": "Ps. 66:1–4",
+      "text": "Bu açılış ayetleri evrensel bir çağrıyla başlar (**Tanrı'ya, tüm dünyaya sevinçle haykırın**) ve **tüm dünyanın** gerçek Tanrı'ya nasıl tapındığını ilan ederek sona erer. Doğa, Yaratıcısını onurlandırır (bkz. 19:1-6) ve Eski Antlaşma sıklıkla, bir gün tüm insanlığın da aynısını yapacağı umudunu dile getirir (örneğin, 117:1)."
     },
     {
       "ref": "Ps. 66:5–7",
-      "text": "Since Israel exists to bring God’s light to the world (Ex. 19:5–6), what God has done for Israel he has done for all peoples—he is awesome in his deeds toward the children of man. Verses 8–12 of Psalm 66 continue to develop this thought as it calls all peoples to bless Israel’s God."
+      "title": "Ps. 66:5–7",
+      "text": "İsrail, Tanrı'nın ışığını dünyaya getirmek için var olduğundan (Çık. 19:5–6), Tanrı, İsrail için yaptıklarını tüm halklar için yapmıştır; **insan çocuklarına karşı yaptığı işlerde muhteşemdir**. Mezmur 66'nın 8-12. ayetleri, tüm insanları İsrail'in Tanrısını kutsamaya çağırarak bu düşünceyi geliştirmeye devam ediyor."
     },
     {
       "ref": "Ps. 66:13–15",
-      "text": "The focus now shifts from Israel as a whole to a particular worshiper (I). A person in Israel (including sojourners) could make a vow to the Lord in a time of need. He could fulfill the vow with burnt offerings or vow offerings (perform my vows); see Lev. 22:18 and Num. 15:3. The psalm presents such offerings as joyful occasions."
+      "title": "Ps. 66:13–15",
+      "text": "Odak noktası artık bir bütün olarak İsrail'den belirli bir ibadetçiye (**I**) kayıyor. İsrail'deki bir kişi (misafirler dahil) ihtiyaç anında Rab'be adak sunabilir. Yemini **yakılan sunularla** veya adak sunularıyla yerine getirebilir (**yeminlerimi yerine getir**); Lev'e bakınız. 22:18 ve Num. 15:3 . Mezmur bu tür sunuları sevinçli olaylar olarak sunar."
     },
     {
       "ref": "Ps. 66:16–20",
-      "text": "The OT insists that each person must individually profess faith in God. Thus each one would have some report of what God has done for his soul (and not just for the people as a whole). To have cherished iniquity in my heart is to long for what is vile and abhorrent to God. In this context it means actually praying for God’s help to commit sin. Therefore the psalm does not imply that absolute sinlessness is a condition for answered prayer."
+      "title": "Ps. 66:16–20",
+      "text": "Eski Antlaşma, her kişinin bireysel olarak Tanrı'ya iman ettiğini beyan etmesi gerektiği konusunda ısrar eder. Böylece her biri, Tanrı'nın kendi **ruhu** için (ve yalnızca bir bütün olarak insanlar için değil) **neler** yaptığına dair bir rapora sahip olacaktı. **Kalbimde** kötülüğe **değer vermek**, Tanrı'ya göre aşağılık ve tiksindirici olanı özlemek demektir. Bu bağlamda aslında günah işlemek için Tanrı'nın yardımına dua etmek anlamına gelir. Bu nedenle mezmur, mutlak günahsızlığın duanın kabul edilmesinin bir koşulu olduğunu ima etmez."
+    }
+  ],
+  "notes": [
+    {
+      "ref": "Ps. 66",
+      "text": "**Mezmur** . Bu, Tanrı'nın halkının belirli bir üyesinin duasına Tanrı'nın verdiği yanıt için bir şükrandır. İlk yarı (1-12 ayetler), bir bütün olarak insanlara olan bağlılığı bağlamında Tanrı'nın o kişi için yaptıklarını anlatır."
     }
   ]
 }

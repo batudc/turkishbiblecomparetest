@@ -1,28 +1,31 @@
 {
-  "source": "ESV Global Study Bible (Crossway) — Türkçe çeviri — DeepL translator — Lisans kapsamında kullanılmaktadır",
+  "source": "ESV Global Study Bible (Crossway) — Türkçe çeviri — Google Translate — Lisans kapsamında kullanılmaktadır",
   "book_intro": "Blue Letter Bible bakanlığı ve BLB Enstitüsü, Kutsal Yazıların tahrif edilemezliğine olan kesin inancı da içeren tarihsel, muhafazakar Hristiyan inancına bağlıdır. BLB tarafından sağlanan metin ve ses içeriği çeşitli Evanjelik gelenekleri temsil ettiğinden, kaynak materyallerde aktarılan tüm fikir ve ilkelerin bu bakanlık tarafından toplamda onaylanması gerekmez.\n\nBlue Letter Kutsal Kitap çalışma araçları Kutsal Kitap'ı okumayı, araştırmayı ve çalışmayı kolay ve ödüllendirici hale getirir.\n\nBlue Letter Bible 501(c)(3) kar amacı gütmeyen bir kuruluştur\n\nTercih ettiğiniz Kutsal Kitap çevirilerinin sırasını Kutsal Kitaplar Sekmesi'nden Sürüm Seçici'ye (bu açılır pencere) kopyalayabilir ya da tam tersini yapabilirsiniz. Kutsal Kitaplar Sekmesi, Kutsal Kitap sayfalarındaki Araçlar özelliğinde bulunur:\n\nNot: MLA artık atıf standartlarının bir parçası olarak URL'yi zorunlu tutmamaktadır. Bireysel eğitmenler veya editörler yine de URL'lerin kullanılmasını isteyebilir.\n\nHata: Parolalar en az 6 karakterden oluşmalıdır\n\nHata: Kullanıcı adları yalnızca harf, rakam, nokta, tire veya alt çizgi içermelidir\n\nParolalar en az 6 karakterden oluşmalıdır.\n\t\t\t\t\t\t\tKullanıcı adları yalnızca harf, rakam, nokta, tire veya alt çizgi içermelidir.\n\nKaydolduğunuz için teşekkür ederiz. Verdiğiniz adrese bir doğrulama e-postası gönderildi.\n\nOrtaklığınız tüm yaptıklarımızı mümkün kılıyor. Bugün dua ederek bir destek hediyesi vermeyi düşünür müsünüz?",
-  "chapter_intro": "",
-  "passages": [],
-  "notes": [
-    {
-      "ref": "Ps. 95",
-      "text": "Psalm . This psalm encourages its singers to learn from the rebellion of a previous generation. They should faithfully heed God’s “voice” (vv. 7–8). The psalm sees the Israelites’ grumbling against Moses at Meribah and Massah as an early indication of their persistent unbelief, which caused them to refuse to enter the land. The psalm has two parts. The first is a celebration of God’s kingship and the privilege that his people enjoy as they worship him (vv. 1–7a). The second is a warning not to repeat the rebellion of their ancestors (vv. 7b–11)."
-    },
+  "passages": [
     {
       "ref": "Ps. 95:1–7a",
-      "text": "The singers invite one another to the great privilege of worshiping the Lord, the great God, the great King above all gods. The marvel of being Israel is that such a majestic King has pledged himself to his people, making them the sheep of his hand (see note on 74:1–3)."
+      "title": "Ps. 95:1–7a",
+      "text": "Şarkıcılar birbirlerini **Rab'be**, ** büyük Tanrı**'ya, **tüm tanrıların üzerindeki büyük Kral'a** ibadet etme ayrıcalığına davet ediyorlar. İsrail olmanın harikası, böylesine görkemli bir Kralın kendisini halkına adaması ve onları **kendi koyunları** haline getirmesidir (bkz. 74:1-3 ile ilgili not)."
     },
     {
       "ref": "Ps. 95:7b–11",
-      "text": "Since worship includes the priests reading and explaining the Scriptures, the worshipers will hear his voice, but they must then believe and obey their great King. This section focuses on the inner self, the heart, where one accepts or rejects the grace of the covenant."
+      "title": "Ps. 95:7b–11",
+      "text": "İbadet, rahiplerin Kutsal Yazıları okumasını ve açıklamasını içerdiğinden, ibadet edenler **onun sesini duyacaklardır**, ancak o zaman büyük Krallarına inanmaları ve itaat etmeleri gerekir. Bu bölüm, kişinin antlaşmanın lütfunu kabul ettiği veya reddettiği iç benliğe, **kalbe** odaklanır."
     },
     {
       "ref": "Ps. 95:7b–8",
-      "text": "Today. There is a strong connection between the day on which the congregation sings and the day at Massah, when their ancestors disbelieved. do not harden your hearts. The biblical writers use “heart” for the central core of the person’s thoughts, feelings, and choices (see Prov. 4:23). To “harden the heart” is to make it dull and unresponsive to God, and thus to strengthen it in disbelief."
+      "title": "Ps. 95:7b–8",
+      "text": "**Bugün**. Cemaatin ilahi söylediği gün ile atalarının inkar ettiği **Massa günü** arasında güçlü bir bağlantı vardır.**kalplerinizi katılaştırmayın**. Kutsal Kitap yazarları “yüreği” kişinin düşüncelerinin, duygularının ve seçimlerinin merkezi özü olarak kullanırlar (bkz. Özdeyiş 4:23). \"Kalbi katılaştırmak\", onu köreltmek, Allah'a karşı duyarsız hale getirmek ve böylece onu küfürde güçlendirmek demektir."
+    }
+  ],
+  "notes": [
+    {
+      "ref": "Ps. 95",
+      "text": "**Mezmur** . Bu mezmur, şarkıcılarını önceki neslin isyanından ders almaya teşvik ediyor. Tanrı’nın “sesine” (7-8 ayetler) sadakatle kulak vermelidirler. Mezmur, İsraillilerin Meribah ve Massah'ta Musa'ya karşı homurdanmalarını, onların ülkeye girmeyi reddetmelerine neden olan ısrarlı inançsızlıklarının erken bir göstergesi olarak görüyor. Mezmurun iki bölümü vardır. Birincisi, Tanrı'nın krallığının ve halkının ona tapınırken sahip olduğu ayrıcalıkların kutlanmasıdır (1-7a ayetler). İkincisi, atalarının isyanını tekrarlamamaları konusunda bir uyarıdır (7b-11 ayetler)."
     },
     {
       "ref": "Ps. 95:11",
-      "text": "They shall not enter my rest. In the wilderness context, the “rest” is specifically the land (see Deut. 12:9; finally secured during David’s reign, see 2 Sam. 7:1, 11). Since the singing congregation is already in the land, it seems that the psalm is using “rest” as an image of enjoying God’s presence forever (much as Heb. 4:1, 11 does)."
+      "text": "**Dinlenme ortamıma giremeyecekler**. Çöl bağlamında, “geri kalan” özellikle topraktır (bkz. Yas. 12:9; nihayet Davut'un hükümdarlığı sırasında güvence altına alınan, bkz. 2 Sam. 7:1, 11). Şarkı söyleyen cemaat zaten ülkede olduğundan, mezmurun \"dinlenmeyi\" Tanrı'nın varlığının sonsuza dek tadını çıkarmanın bir simgesi olarak kullandığı anlaşılıyor (İbraniler 4:1, 11'in yaptığı gibi)."
     }
   ]
 }

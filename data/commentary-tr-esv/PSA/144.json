@@ -1,36 +1,41 @@
 {
-  "source": "ESV Global Study Bible (Crossway) — Türkçe çeviri — DeepL translator — Lisans kapsamında kullanılmaktadır",
+  "source": "ESV Global Study Bible (Crossway) — Türkçe çeviri — Google Translate — Lisans kapsamında kullanılmaktadır",
   "book_intro": "Blue Letter Bible bakanlığı ve BLB Enstitüsü, Kutsal Yazıların tahrif edilemezliğine olan kesin inancı da içeren tarihsel, muhafazakar Hristiyan inancına bağlıdır. BLB tarafından sağlanan metin ve ses içeriği çeşitli Evanjelik gelenekleri temsil ettiğinden, kaynak materyallerde aktarılan tüm fikir ve ilkelerin bu bakanlık tarafından toplamda onaylanması gerekmez.\n\nBlue Letter Kutsal Kitap çalışma araçları Kutsal Kitap'ı okumayı, araştırmayı ve çalışmayı kolay ve ödüllendirici hale getirir.\n\nBlue Letter Bible 501(c)(3) kar amacı gütmeyen bir kuruluştur\n\nTercih ettiğiniz Kutsal Kitap çevirilerinin sırasını Kutsal Kitaplar Sekmesi'nden Sürüm Seçici'ye (bu açılır pencere) kopyalayabilir ya da tam tersini yapabilirsiniz. Kutsal Kitaplar Sekmesi, Kutsal Kitap sayfalarındaki Araçlar özelliğinde bulunur:\n\nNot: MLA artık atıf standartlarının bir parçası olarak URL'yi zorunlu tutmamaktadır. Bireysel eğitmenler veya editörler yine de URL'lerin kullanılmasını isteyebilir.\n\nHata: Parolalar en az 6 karakterden oluşmalıdır\n\nHata: Kullanıcı adları yalnızca harf, rakam, nokta, tire veya alt çizgi içermelidir\n\nParolalar en az 6 karakterden oluşmalıdır.\n\t\t\t\t\t\t\tKullanıcı adları yalnızca harf, rakam, nokta, tire veya alt çizgi içermelidir.\n\nKaydolduğunuz için teşekkür ederiz. Verdiğiniz adrese bir doğrulama e-postası gönderildi.\n\nOrtaklığınız tüm yaptıklarımızı mümkün kılıyor. Bugün dua ederek bir destek hediyesi vermeyi düşünür müsünüz?",
-  "chapter_intro": "",
-  "passages": [],
-  "notes": [
-    {
-      "ref": "Ps. 144",
-      "text": "Psalm . This royal psalm asks God to give victory to the reigning heir of David. The “I” in vv. 1–11 is the Davidic king. God’s promise to David’s house has tied the well-being of the whole nation to the faithfulness of the king."
-    },
+  "passages": [
     {
       "ref": "Ps. 144:1–2",
-      "text": "This psalm begins by reviewing how God has equipped the king to fight for the sake of the people. As the leader of God’s people, the singer has found the Lord to be his stronghold and deliverer, who subdues peoples under me."
+      "title": "Ps. 144:1–2",
+      "text": "Bu mezmur, Tanrı'nın kralı halkın iyiliği için savaşması için nasıl donattığını anlatarak başlıyor. Tanrı'nın halkının lideri olarak şarkıcı, Rab'bi kendi **kalesi** ve **altımdaki halklara boyun eğdiren** **kurtarıcısı** olarak görüyor."
     },
     {
       "ref": "Ps. 144:3–4",
-      "text": "The king does not take God’s help for granted. He knows that if God should regard him, it is a kindness on God’s part. The king and the people he serves are like a breath; their lives quickly pass by."
+      "title": "Ps. 144:3–4",
+      "text": "Kral, Tanrı'nın yardımını hafife almıyor. Eğer Tanrı'nın **ona saygı göstermesi** gerekiyorsa, bunun Tanrı'nın bir lütfu olduğunu biliyor. Kral ve hizmet ettiği insanlar **bir nefes gibidir**; hayatları hızla geçip gidiyor."
     },
     {
       "ref": "Ps. 144:5–8",
-      "text": "The psalm moves on to request: rescue me and deliver me . . . from the hand of foreigners. This suggests that the psalm is especially suited to a time when the king must lead the people in war."
+      "title": "Ps. 144:5–8",
+      "text": "Mezmur şu ricaya devam ediyor: **Beni kurtar ve teslim et. . . yabancıların elinden**. Bu, mezmurun özellikle kralın savaşta halka liderlik etmesi gereken bir zamana uygun olduğunu gösteriyor."
     },
     {
       "ref": "Ps. 144:9–11",
-      "text": "Once God has given the deliverance of vv. 5–8, the king will lead the people in public thanks."
-    },
-    {
-      "ref": "Ps. 144:10",
-      "text": "Victory can also be translated “salvation.” The requested victory furthers God’s purpose for his people."
+      "title": "Ps. 144:9–11",
+      "text": "Tanrı vv'nin kurtuluşunu verdikten sonra. 5–8, kral halka teşekkür ederek halka önderlik edecek."
     },
     {
       "ref": "Ps. 144:12–15",
-      "text": "The closing section shows the purpose of the fight, namely, to protect God’s people so that they can flourish under God’s blessing. They recognize that such blessings are God’s generous gift."
+      "title": "Ps. 144:12–15",
+      "text": "Kapanış bölümü mücadelenin amacını, yani Tanrı'nın halkını koruyarak Tanrı'nın bereketi altında gelişebilmelerini gösteriyor. **Bu tür nimetlerin** Tanrı'nın cömert bir armağanı olduğunun farkındalar."
+    }
+  ],
+  "notes": [
+    {
+      "ref": "Ps. 144",
+      "text": "**Mezmur** . Bu kraliyet mezmuru, Tanrı'dan Davut'un hüküm süren varisine zafer vermesini ister. Vv'deki “ben”. 1-11 Davut kralıdır. Tanrı'nın Davut'un evine verdiği söz, tüm ulusun refahını kralın sadakatine bağladı."
+    },
+    {
+      "ref": "Ps. 144:10",
+      "text": "**Zafer** aynı zamanda \"kurtuluş\" olarak da tercüme edilebilir. Talep edilen zafer, Tanrı'nın halkıyla ilgili amacını daha da ileriye taşıyor."
     }
   ]
 }

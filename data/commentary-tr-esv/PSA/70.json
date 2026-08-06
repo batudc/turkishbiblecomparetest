@@ -1,20 +1,22 @@
 {
-  "source": "ESV Global Study Bible (Crossway) — Türkçe çeviri — DeepL translator — Lisans kapsamında kullanılmaktadır",
+  "source": "ESV Global Study Bible (Crossway) — Türkçe çeviri — Google Translate — Lisans kapsamında kullanılmaktadır",
   "book_intro": "Blue Letter Bible bakanlığı ve BLB Enstitüsü, Kutsal Yazıların tahrif edilemezliğine olan kesin inancı da içeren tarihsel, muhafazakar Hristiyan inancına bağlıdır. BLB tarafından sağlanan metin ve ses içeriği çeşitli Evanjelik gelenekleri temsil ettiğinden, kaynak materyallerde aktarılan tüm fikir ve ilkelerin bu bakanlık tarafından toplamda onaylanması gerekmez.\n\nBlue Letter Kutsal Kitap çalışma araçları Kutsal Kitap'ı okumayı, araştırmayı ve çalışmayı kolay ve ödüllendirici hale getirir.\n\nBlue Letter Bible 501(c)(3) kar amacı gütmeyen bir kuruluştur\n\nTercih ettiğiniz Kutsal Kitap çevirilerinin sırasını Kutsal Kitaplar Sekmesi'nden Sürüm Seçici'ye (bu açılır pencere) kopyalayabilir ya da tam tersini yapabilirsiniz. Kutsal Kitaplar Sekmesi, Kutsal Kitap sayfalarındaki Araçlar özelliğinde bulunur:\n\nNot: MLA artık atıf standartlarının bir parçası olarak URL'yi zorunlu tutmamaktadır. Bireysel eğitmenler veya editörler yine de URL'lerin kullanılmasını isteyebilir.\n\nHata: Parolalar en az 6 karakterden oluşmalıdır\n\nHata: Kullanıcı adları yalnızca harf, rakam, nokta, tire veya alt çizgi içermelidir\n\nParolalar en az 6 karakterden oluşmalıdır.\n\t\t\t\t\t\t\tKullanıcı adları yalnızca harf, rakam, nokta, tire veya alt çizgi içermelidir.\n\nKaydolduğunuz için teşekkür ederiz. Verdiğiniz adrese bir doğrulama e-postası gönderildi.\n\nOrtaklığınız tüm yaptıklarımızı mümkün kılıyor. Bugün dua ederek bir destek hediyesi vermeyi düşünür müsünüz?",
-  "chapter_intro": "",
-  "passages": [],
-  "notes": [
-    {
-      "ref": "Ps. 70",
-      "text": "Psalm . This short psalm is an individual lament, an urgent prayer for rescue from gloating enemies. The psalm is very similar to 40:14–16. The title specifies the psalm as “for the memorial offering” (see note on Psalm 38)."
-    },
+  "passages": [
     {
       "ref": "Ps. 70:1–3",
-      "text": "The threat comes from those who seek my life, who delight in my hurt, and who say, “Aha, Aha!” They are eager to hurt the faithful and then rejoice over their defeat. The enemies could be powerful, unfaithful Israelites, or they could be foreigners who seek to make God’s people worship other gods."
+      "title": "Ps. 70:1–3",
+      "text": "Tehdit, **canımı arayan**, **incinişimden zevk alan** ve **\"Aha, Aha!\" diyenlerden geliyor.** Onlar sadıkları incitmek ve sonra yenilgilerine sevinmek için can atıyorlar. Düşmanlar güçlü, sadakatsiz İsrailliler olabilir ya da Tanrı'nın halkının başka tanrılara tapınmasını isteyen yabancılar olabilir."
     },
     {
       "ref": "Ps. 70:4–5",
-      "text": "Who seek you contrasts with “who seek my life” (v. 2). Hasten echoes “make haste” (v. 1), while help and deliverer look back to “deliver” and “help” (v. 1)."
+      "title": "Ps. 70:4–5",
+      "text": "**Seni arayanlar** \"hayatımı arayanlar\" (ayet 2) ile tezat oluşturuyor. **Acele** \"acele et\" (v. 1) ifadesini tekrarlarken, **yardım** ve **teslim eden** \"teslim et\" ve \"yardım\" (v. 1) sözcüklerini tekrarlar."
+    }
+  ],
+  "notes": [
+    {
+      "ref": "Ps. 70",
+      "text": "**Mezmur** . Bu kısa mezmur kişisel bir ağıttır, zevk alan düşmanlardan kurtulmak için acil bir duadır. Mezmur 40:14–16'ya çok benzer. Başlık, mezmurun “anma sunuları için” olduğunu belirtir (bkz. Mezmur 38 ile ilgili not)."
     }
   ]
 }

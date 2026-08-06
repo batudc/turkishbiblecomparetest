@@ -1,32 +1,36 @@
 {
-  "source": "ESV Global Study Bible (Crossway) — Türkçe çeviri — DeepL translator — Lisans kapsamında kullanılmaktadır",
+  "source": "ESV Global Study Bible (Crossway) — Türkçe çeviri — Google Translate — Lisans kapsamında kullanılmaktadır",
   "book_intro": "Blue Letter Bible bakanlığı ve BLB Enstitüsü, Kutsal Yazıların tahrif edilemezliğine olan kesin inancı da içeren tarihsel, muhafazakar Hristiyan inancına bağlıdır. BLB tarafından sağlanan metin ve ses içeriği çeşitli Evanjelik gelenekleri temsil ettiğinden, kaynak materyallerde aktarılan tüm fikir ve ilkelerin bu bakanlık tarafından toplamda onaylanması gerekmez.\n\nBlue Letter Kutsal Kitap çalışma araçları Kutsal Kitap'ı okumayı, araştırmayı ve çalışmayı kolay ve ödüllendirici hale getirir.\n\nBlue Letter Bible 501(c)(3) kar amacı gütmeyen bir kuruluştur\n\nTercih ettiğiniz Kutsal Kitap çevirilerinin sırasını Kutsal Kitaplar Sekmesi'nden Sürüm Seçici'ye (bu açılır pencere) kopyalayabilir ya da tam tersini yapabilirsiniz. Kutsal Kitaplar Sekmesi, Kutsal Kitap sayfalarındaki Araçlar özelliğinde bulunur:\n\nNot: MLA artık atıf standartlarının bir parçası olarak URL'yi zorunlu tutmamaktadır. Bireysel eğitmenler veya editörler yine de URL'lerin kullanılmasını isteyebilir.\n\nHata: Parolalar en az 6 karakterden oluşmalıdır\n\nHata: Kullanıcı adları yalnızca harf, rakam, nokta, tire veya alt çizgi içermelidir\n\nParolalar en az 6 karakterden oluşmalıdır.\n\t\t\t\t\t\t\tKullanıcı adları yalnızca harf, rakam, nokta, tire veya alt çizgi içermelidir.\n\nKaydolduğunuz için teşekkür ederiz. Verdiğiniz adrese bir doğrulama e-postası gönderildi.\n\nOrtaklığınız tüm yaptıklarımızı mümkün kılıyor. Bugün dua ederek bir destek hediyesi vermeyi düşünür müsünüz?",
-  "chapter_intro": "",
-  "passages": [],
-  "notes": [
-    {
-      "ref": "Ps. 62",
-      "text": "Psalm . God’s people sing this psalm for encouragement as they are oppressed by powerful, wealthy people. In such a situation, it would be easy to despair, or else to seek security in power and wealth rather than in God."
-    },
+  "passages": [
     {
       "ref": "Ps. 62:1–2",
-      "text": "God alone. God is the only reliable hope. The psalm contrasts God’s salvation and the kind that comes through unjust means (see v. 10, “put no trust in extortion”)."
+      "title": "Ps. 62:1–2",
+      "text": "**Yalnızca Tanrı**. Tek güvenilir umut Tanrı’dır. Mezmur, Tanrı'nın **kurtuluşu** ile adaletsiz yollardan gelen kurtuluşu karşılaştırır (bkz. ayet 10, \"gasplara güvenmeyin\")."
     },
     {
       "ref": "Ps. 62:3–4",
-      "text": "The next section speaks to those who attack a man, particularly through lies and injustice. The question how long is not asking for information but is expressing despair (compare 13:1)."
+      "title": "Ps. 62:3–4",
+      "text": "Bir sonraki bölüm, özellikle yalanlar ve adaletsizlik yoluyla **bir erkeğe saldıran** kişilerle ilgilidir. **Ne kadar süre** sorusu bilgi istemek değil, umutsuzluğu ifade etmektir (13:1 ile karşılaştırın)."
     },
     {
       "ref": "Ps. 62:8–10",
-      "text": "After speaking to his own soul (vv. 5–7), the singer now addresses the whole congregation (O people). He urges them to trust in God and to find in him a refuge. They should refuse to participate in the methods of the attackers (put no trust in extortion). Humans are together lighter than a breath, so any merely human effort will fail to achieve lasting good."
+      "title": "Ps. 62:8–10",
+      "text": "Kendi ruhuyla konuştuktan sonra (5-7 ayetler), şarkıcı şimdi tüm cemaate hitap ediyor (**Ey insanlar**). Onları Tanrı'ya güvenmeye ve O'na bir **sığınak** bulmaya teşvik ediyor. Saldırganların yöntemlerine katılmayı reddetmelidirler (**gasplara güvenmemelidirler**). İnsanlar **birlikte bir nefesten daha hafiftir**, bu nedenle yalnızca insanların gösterdiği herhangi bir çaba, kalıcı iyiliğe ulaşmakta başarısız olacaktır."
     },
     {
       "ref": "Ps. 62:11–12",
-      "text": "To say once . . . twice is to indicate that the idea is certain. God has the power to carry out his will, and because of his steadfast love, his people can trust him to do that."
+      "title": "Ps. 62:11–12",
+      "text": "**bir kez söylemek için. . . iki kez** fikrin kesin olduğunu belirtmektir. Tanrı, iradesini yerine getirme **gücüne** sahiptir ve **sadık sevgisi** nedeniyle, halkı bunu yapması konusunda O'na güvenebilir."
+    }
+  ],
+  "notes": [
+    {
+      "ref": "Ps. 62",
+      "text": "**Mezmur** . Tanrı'nın halkı, güçlü ve zengin insanlar tarafından baskı altına alınırken bu mezmuru cesaretlendirmek için söylüyor. Böyle bir durumda ümitsizliğe kapılmak ya da güvenliği Allah'tan ziyade güç ve zenginlikte aramak daha kolaydır."
     },
     {
       "ref": "Ps. 62:12",
-      "text": "render to a man according to his work. In the final judgment, believers’ deeds will show the reality of their faith (see Matt. 12:33–37; 16:27; John 5:28–29; James 1:12; Rev. 20:13)."
+      "text": "**bir kişiye yaptığı işe göre hizmet verin**. Nihai kararda, inanlıların eylemleri imanlarının gerçekliğini gösterecektir (bkz. Matta 12:33–37; 16:27; Yuhanna 5:28–29; Yakup 1:12; Vahiy 20:13)."
     }
   ]
 }

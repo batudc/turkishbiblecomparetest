@@ -1,28 +1,31 @@
 {
-  "source": "ESV Global Study Bible (Crossway) — Türkçe çeviri — DeepL translator — Lisans kapsamında kullanılmaktadır",
+  "source": "ESV Global Study Bible (Crossway) — Türkçe çeviri — Google Translate — Lisans kapsamında kullanılmaktadır",
   "book_intro": "Blue Letter Bible bakanlığı ve BLB Enstitüsü, Kutsal Yazıların tahrif edilemezliğine olan kesin inancı da içeren tarihsel, muhafazakar Hristiyan inancına bağlıdır. BLB tarafından sağlanan metin ve ses içeriği çeşitli Evanjelik gelenekleri temsil ettiğinden, kaynak materyallerde aktarılan tüm fikir ve ilkelerin bu bakanlık tarafından toplamda onaylanması gerekmez.\n\nBlue Letter Kutsal Kitap çalışma araçları Kutsal Kitap'ı okumayı, araştırmayı ve çalışmayı kolay ve ödüllendirici hale getirir.\n\nBlue Letter Bible 501(c)(3) kar amacı gütmeyen bir kuruluştur\n\nTercih ettiğiniz Kutsal Kitap çevirilerinin sırasını Kutsal Kitaplar Sekmesi'nden Sürüm Seçici'ye (bu açılır pencere) kopyalayabilir ya da tam tersini yapabilirsiniz. Kutsal Kitaplar Sekmesi, Kutsal Kitap sayfalarındaki Araçlar özelliğinde bulunur:\n\nNot: MLA artık atıf standartlarının bir parçası olarak URL'yi zorunlu tutmamaktadır. Bireysel eğitmenler veya editörler yine de URL'lerin kullanılmasını isteyebilir.\n\nHata: Parolalar en az 6 karakterden oluşmalıdır\n\nHata: Kullanıcı adları yalnızca harf, rakam, nokta, tire veya alt çizgi içermelidir\n\nParolalar en az 6 karakterden oluşmalıdır.\n\t\t\t\t\t\t\tKullanıcı adları yalnızca harf, rakam, nokta, tire veya alt çizgi içermelidir.\n\nKaydolduğunuz için teşekkür ederiz. Verdiğiniz adrese bir doğrulama e-postası gönderildi.\n\nOrtaklığınız tüm yaptıklarımızı mümkün kılıyor. Bugün dua ederek bir destek hediyesi vermeyi düşünür müsünüz?",
-  "chapter_intro": "",
-  "passages": [],
-  "notes": [
-    {
-      "ref": "Ps. 86",
-      "text": "Psalm . This is an individual lament in a situation in which “a band of insolent men seek my life” (v. 14). The psalm confesses that the Lord is “good and forgiving” (v. 5), acknowledging that the singer’s own sins may have contributed to his enemies’ plans. The psalmist explicitly grounds his request in Ex. 34:6, a fundamental confessional statement of the OT (Ps. 86:15; see vv. 5, 13). This is the only psalm of David in Book 3 of the Psalms."
-    },
+  "passages": [
     {
       "ref": "Ps. 86:1–7",
-      "text": "The beginning of the psalm is a general call for help, without specifying the nature of the trouble. The person praying offers reasons that God should answer (see for in vv. 2–5). The first reason is the genuineness of his faith (v. 2); second is the earnestness with which he prays, relying on the Lord, not other gods (vv. 3–4); and third is the crucial confession of God’s benevolent character, as revealed in the Pentateuch (v. 5)."
+      "title": "Ps. 86:1–7",
+      "text": "Mezmurun başlangıcı, **sorunun** niteliğini belirtmeden, genel bir yardım çağrısıdır. Dua eden kişi, Tanrı'nın cevap vermesi gereken nedenleri sunar (2-5. ayetlerdeki **için**'e bakın). İlk sebep, imanının içtenliğidir (ayet 2); ikincisi, diğer tanrılara değil, Rab'be güvenerek dua ederken gösterdiği ciddiyettir (3-4 ayetler); ve üçüncüsü, Pentateuch'ta (ayet 5) açıklandığı gibi, Tanrı'nın yardımsever karakterinin önemli itirafıdır."
     },
     {
       "ref": "Ps. 86:8–10",
-      "text": "The psalm moves from there is none like you who is worthy of worship among the gods (that is, the angels and other heavenly beings), to you alone are God. This is why all the nations you have made shall come and worship before you. All human beings were made to know and love the one true God. God called Abraham so that his family would be the vehicle of bringing this knowledge to the rest of mankind (Gen. 12:3)."
-    },
-    {
-      "ref": "Ps. 86:11",
-      "text": "Teach me your way. See 25:12; 27:11 (and note on 25:4–5). The Bible regularly pictures the moral course of one’s life as a “way” or path, and one’s conduct as a “walk” or journey."
+      "title": "Ps. 86:8–10",
+      "text": "Mezmur, **tanrılar arasında** (yani melekler ve diğer göksel varlıklar) ibadete layık olan **senin gibisi yoktur**'dan, **yalnızca Tanrı sensin**'e geçer. Bu nedenle **yarattığın tüm uluslar gelip senin önünde tapınacaklar**. Bütün insanlar tek gerçek Tanrı'yı ​​tanıyıp sevmek için yaratıldılar. Tanrı, ailesinin bu bilgiyi insanlığın geri kalanına ulaştırmanın aracı olması için İbrahim'i çağırdı (Yaratılış 12:3)."
     },
     {
       "ref": "Ps. 86:14–17",
-      "text": "The last section of the psalm explains the source of the trouble: insolent men and a band of ruthless men. These people do not set you before them (that is, they have no respect for God). Therefore it is not surprising that they seek the faithful one’s life. But the faithful have not sinned, so they have no reason to worry that God will abandon them to enemies as a punishment. God is merciful and gracious, and therefore his faithful ones can trust him to forgive and to guard. The singer is bold and finishes by repeating his request."
+      "title": "Ps. 86:14–17",
+      "text": "Mezmurun son bölümü sorunun kaynağını açıklıyor: **küstah adamlar** ve **acımasız adamlardan oluşan bir grup**. Bu insanlar **seni önlerine koymuyorlar** (yani Allah'a saygıları yok). Bu nedenle müminlerin **canını** istemeleri şaşırtıcı değildir. Ancak iman edenler günah işlememişlerdir, dolayısıyla Tanrı'nın onları bir ceza olarak düşmanların eline bırakacağından endişe etmeleri için hiçbir neden yoktur. Tanrı **merhametli ve lütufkârdır** ve bu nedenle sadık olanları bağışlayacağına ve koruyacağına güvenebilir. Şarkıcı cesur ve isteğini tekrarlayarak bitiriyor."
+    }
+  ],
+  "notes": [
+    {
+      "ref": "Ps. 86",
+      "text": "**Mezmur** . Bu, “bir grup küstah adamın canımı aradığı” (ayet 14) bir durumda bireysel bir ağıttır. Mezmur, Rab'bin \"iyi ve bağışlayıcı\" olduğunu itiraf eder (ayet 5), şarkıcının kendi günahlarının, düşmanlarının planlarına katkıda bulunmuş olabileceğini kabul eder. Mezmur yazarı, isteğini açıkça Örn. 34:6, Eski Antlaşma'nın temel itiraf beyanıdır (Mezmur 86:15; bkz. 5, 13 ayetler). Bu, Mezmurlar'ın 3. Kitabındaki Davut'un tek mezmurudur."
+    },
+    {
+      "ref": "Ps. 86:11",
+      "text": "** Bana kendi yöntemini öğret**. 25:12'ye bakın; 27:11 (ve 25:4-5 ile ilgili not). Kutsal Kitap düzenli olarak kişinin yaşamının ahlaki gidişatını bir “yol” veya patika, davranışını ise bir “yürüyüş” veya yolculuk olarak tasvir eder."
     }
   ]
 }

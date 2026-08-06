@@ -1,24 +1,27 @@
 {
-  "source": "ESV Global Study Bible (Crossway) — Türkçe çeviri — DeepL translator — Lisans kapsamında kullanılmaktadır",
+  "source": "ESV Global Study Bible (Crossway) — Türkçe çeviri — Google Translate — Lisans kapsamında kullanılmaktadır",
   "book_intro": "Blue Letter Bible bakanlığı ve BLB Enstitüsü, Kutsal Yazıların tahrif edilemezliğine olan kesin inancı da içeren tarihsel, muhafazakar Hristiyan inancına bağlıdır. BLB tarafından sağlanan metin ve ses içeriği çeşitli Evanjelik gelenekleri temsil ettiğinden, kaynak materyallerde aktarılan tüm fikir ve ilkelerin bu bakanlık tarafından toplamda onaylanması gerekmez.\n\nBlue Letter Kutsal Kitap çalışma araçları Kutsal Kitap'ı okumayı, araştırmayı ve çalışmayı kolay ve ödüllendirici hale getirir.\n\nBlue Letter Bible 501(c)(3) kar amacı gütmeyen bir kuruluştur\n\nTercih ettiğiniz Kutsal Kitap çevirilerinin sırasını Kutsal Kitaplar Sekmesi'nden Sürüm Seçici'ye (bu açılır pencere) kopyalayabilir ya da tam tersini yapabilirsiniz. Kutsal Kitaplar Sekmesi, Kutsal Kitap sayfalarındaki Araçlar özelliğinde bulunur:\n\nNot: MLA artık atıf standartlarının bir parçası olarak URL'yi zorunlu tutmamaktadır. Bireysel eğitmenler veya editörler yine de URL'lerin kullanılmasını isteyebilir.\n\nHata: Parolalar en az 6 karakterden oluşmalıdır\n\nHata: Kullanıcı adları yalnızca harf, rakam, nokta, tire veya alt çizgi içermelidir\n\nParolalar en az 6 karakterden oluşmalıdır.\n\t\t\t\t\t\t\tKullanıcı adları yalnızca harf, rakam, nokta, tire veya alt çizgi içermelidir.\n\nKaydolduğunuz için teşekkür ederiz. Verdiğiniz adrese bir doğrulama e-postası gönderildi.\n\nOrtaklığınız tüm yaptıklarımızı mümkün kılıyor. Bugün dua ederek bir destek hediyesi vermeyi düşünür müsünüz?",
-  "chapter_intro": "",
-  "passages": [],
-  "notes": [
-    {
-      "ref": "Ps. 32",
-      "text": "Psalm . This is usually classified as a thanksgiving hymn. Worshipers thank God for the joy of having their sins forgiven. Since the psalm is about confession and forgiveness it can also be classified as a penitential psalm (see Psalms 6; 38 and note; 51; 130; 143)."
-    },
+  "passages": [
     {
       "ref": "Ps. 32:1–2",
-      "text": "On blessed, see note on 1:1. The terms transgression, forgiven, sin, and iniquity all echo Ex.34:6–7, which is a key passage about God’s kindness and mercy toward those who receive his covenant. No one needs to force God to show mercy. Rather, the faithful confess their sins because they believe God is merciful."
+      "title": "Ps. 32:1–2",
+      "text": "**Kutsanmış** hakkında 1:1 ile ilgili nota bakın. **İhlal**, **bağışlanmış**, **günah** ve **kötülük** terimlerinin tümü Örn. 34:6–7, bu, Tanrı'nın, antlaşmasını kabul edenlere karşı olan iyiliği ve merhametiyle ilgili önemli bir pasajdır. Hiç kimsenin Allah'ı merhamet göstermeye zorlamasına gerek yok. Aksine müminler, Tanrı'nın merhametli olduğuna inandıkları için günahlarını itiraf ederler."
     },
     {
       "ref": "Ps. 32:3–5",
-      "text": "Only those who are forgiven are truly happy. When the psalmist kept silent, refusing to confess his sins, God’s hand was heavy upon him. But this was merciful because it led him to confess his sin (vv. 3–4)."
+      "title": "Ps. 32:3–5",
+      "text": "Yalnızca affedilenler gerçekten mutludur. Mezmur yazarı günahlarını itiraf etmeyi reddederek **sessiz kaldığında**, Tanrı'nın<b> eli ona ağır geldi. Ancak bu merhametliydi çünkü günahını itiraf etmesine yol açtı (3-4. ayetler)."
     },
     {
       "ref": "Ps. 32:6–11",
-      "text": "Therefore. The conclusion for everyone who is godly is to offer prayer (of confession) at a time when God may be found. The psalmist is warning against being foolish and waiting indefinitely (see v. 9) before seeking the Lord."
+      "title": "Ps. 32:6–11",
+      "text": "**Bu nedenle**. **Tanrı'ya sadık olan herkes** için sonuç, **Tanrı'nın bulunabileceği** bir zamanda ** dua etmek** (itiraf) etmektir. Mezmur yazarı, aptal olmaya ve Rab'bi aramadan önce sonsuza kadar beklemeye (bkz. ayet 9) karşı uyarıyor."
+    }
+  ],
+  "notes": [
+    {
+      "ref": "Ps. 32",
+      "text": "**Mezmur** . Bu genellikle şükran günü ilahisi olarak sınıflandırılır. İbadet edenler, günahlarının affedilmesinin sevinci için Tanrı’ya şükrediyorlar. Mezmur itiraf ve bağışlamayla ilgili olduğundan aynı zamanda tövbe mezmurları olarak da sınıflandırılabilir (bkz. Mezmurlar 6; 38 ve not ; 51; 130; 143)."
     }
   ]
 }

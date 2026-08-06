@@ -1,24 +1,27 @@
 {
-  "source": "ESV Global Study Bible (Crossway) — Türkçe çeviri — DeepL translator — Lisans kapsamında kullanılmaktadır",
+  "source": "ESV Global Study Bible (Crossway) — Türkçe çeviri — Google Translate — Lisans kapsamında kullanılmaktadır",
   "book_intro": "Blue Letter Bible bakanlığı ve BLB Enstitüsü, Kutsal Yazıların tahrif edilemezliğine olan kesin inancı da içeren tarihsel, muhafazakar Hristiyan inancına bağlıdır. BLB tarafından sağlanan metin ve ses içeriği çeşitli Evanjelik gelenekleri temsil ettiğinden, kaynak materyallerde aktarılan tüm fikir ve ilkelerin bu bakanlık tarafından toplamda onaylanması gerekmez.\n\nBlue Letter Kutsal Kitap çalışma araçları Kutsal Kitap'ı okumayı, araştırmayı ve çalışmayı kolay ve ödüllendirici hale getirir.\n\nBlue Letter Bible 501(c)(3) kar amacı gütmeyen bir kuruluştur\n\nTercih ettiğiniz Kutsal Kitap çevirilerinin sırasını Kutsal Kitaplar Sekmesi'nden Sürüm Seçici'ye (bu açılır pencere) kopyalayabilir ya da tam tersini yapabilirsiniz. Kutsal Kitaplar Sekmesi, Kutsal Kitap sayfalarındaki Araçlar özelliğinde bulunur:\n\nNot: MLA artık atıf standartlarının bir parçası olarak URL'yi zorunlu tutmamaktadır. Bireysel eğitmenler veya editörler yine de URL'lerin kullanılmasını isteyebilir.\n\nHata: Parolalar en az 6 karakterden oluşmalıdır\n\nHata: Kullanıcı adları yalnızca harf, rakam, nokta, tire veya alt çizgi içermelidir\n\nParolalar en az 6 karakterden oluşmalıdır.\n\t\t\t\t\t\t\tKullanıcı adları yalnızca harf, rakam, nokta, tire veya alt çizgi içermelidir.\n\nKaydolduğunuz için teşekkür ederiz. Verdiğiniz adrese bir doğrulama e-postası gönderildi.\n\nOrtaklığınız tüm yaptıklarımızı mümkün kılıyor. Bugün dua ederek bir destek hediyesi vermeyi düşünür müsünüz?",
-  "chapter_intro": "",
-  "passages": [],
-  "notes": [
-    {
-      "ref": "Ps. 98",
-      "text": "Psalm . This hymn celebrates God’s universal kingship (v. 6) by referring to the “marvelous things” and “salvation” that the Gentiles have seen God accomplish on behalf of his people. God has worked salvation (rescue from evil) for Israel, which all the ends of the earth have seen (vv. 1–3). All people in the earth should join Israel’s celebration, because God is their rightful king, too (vv. 4–6). The material creation should join all mankind in jubilant praise of the one true God, as they look forward to his rule (vv. 7–9)."
-    },
+  "passages": [
     {
       "ref": "Ps. 98:1–3",
-      "text": "The term salvation appears in each of these verses. It describes God’s great deeds for the sake of his people as a whole. He provides protection from their enemies and creates the conditions in which faithfulness can flourish. God has done these great deeds to the house of Israel, but the benefit is not limited to them: All the ends of the earth have seen the salvation of our God."
+      "title": "Ps. 98:1–3",
+      "text": "Bu ayetlerin her birinde **kurtuluş** terimi geçmektedir. Tanrı'nın bir bütün olarak halkının iyiliği için yaptığı büyük işleri anlatır. Düşmanlarına karşı koruma sağlar ve sadakatin gelişebileceği koşulları yaratır. Tanrı, **İsrail halkına** bu büyük işleri yaptı, ancak yararları bunlarla sınırlı değil: **Dünyanın her yeri Tanrımız'ın kurtuluşunu gördü**."
     },
     {
       "ref": "Ps. 98:4–6",
-      "text": "These verses address all the earth, that is, all people, wherever they live. What God has done for Israel (vv. 1–3) is for the sake of bringing the light to the whole world."
+      "title": "Ps. 98:4–6",
+      "text": "Bu ayetler **tüm yeryüzüne**, yani nerede yaşarsa yaşasın tüm insanlara hitap etmektedir. Tanrı'nın İsrail için yaptığı şey (1-3. ayetler) tüm dünyaya ışık getirmek içindir."
     },
     {
       "ref": "Ps. 98:7–9",
-      "text": "The invitation is extended to the human inhabitants of the world (the world and those who dwell in it) to include even the sea and all that fills it, the rivers, and the hills. The entire creation, human and otherwise, can rejoice at the prospect of God’s just rule (to judge here is to administer justice through a just rule)."
+      "title": "Ps. 98:7–9",
+      "text": "Davet, **denizi** ve **onu dolduran her şeyi**, **nehirleri** ve **tepeleri** de kapsayacak şekilde dünyanın insan sakinlerine (**dünya ve içinde yaşayanlar**) kadar uzanıyor. Tüm yaratılış, insanlar ve diğer varlıklar, Tanrı'nın adil yönetimi ihtimaline sevinebilir (burada **yargılamak**, adaleti adil bir kural aracılığıyla uygulamaktır)."
+    }
+  ],
+  "notes": [
+    {
+      "ref": "Ps. 98",
+      "text": "**Mezmur** . Bu ilahi, Yahudi olmayanların, Tanrı'nın halkı adına gerçekleştirdiğine inandığı \"harika şeylere\" ve \"kurtuluş\"a atıfta bulunarak, Tanrı'nın evrensel krallığını (ayet 6) övüyor. Tanrı İsrail için dünyanın dört bir yanından görülen kurtuluşu (kötülükten kurtuluşu) sağladı (1-3 ayetler). Yeryüzündeki tüm insanlar İsrail'in kutlamalarına katılmalıdır çünkü Tanrı onların da gerçek kralıdır (4-6 ayetler). Maddi yaratılış, O'nun yönetimini sabırsızlıkla bekleyen tek gerçek Tanrı'ya coşkuyla övgüler yağdıran tüm insanlığa katılmalıdır (7-9 ayetler)."
     }
   ]
 }

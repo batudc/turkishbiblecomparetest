@@ -1,36 +1,40 @@
 {
-  "source": "ESV Global Study Bible (Crossway) — Türkçe çeviri — DeepL translator — Lisans kapsamında kullanılmaktadır",
+  "source": "ESV Global Study Bible (Crossway) — Türkçe çeviri — Google Translate — Lisans kapsamında kullanılmaktadır",
   "book_intro": "Blue Letter Bible bakanlığı ve BLB Enstitüsü, Kutsal Yazıların tahrif edilemezliğine olan kesin inancı da içeren tarihsel, muhafazakar Hristiyan inancına bağlıdır. BLB tarafından sağlanan metin ve ses içeriği çeşitli Evanjelik gelenekleri temsil ettiğinden, kaynak materyallerde aktarılan tüm fikir ve ilkelerin bu bakanlık tarafından toplamda onaylanması gerekmez.\n\nBlue Letter Kutsal Kitap çalışma araçları Kutsal Kitap'ı okumayı, araştırmayı ve çalışmayı kolay ve ödüllendirici hale getirir.\n\nBlue Letter Bible 501(c)(3) kar amacı gütmeyen bir kuruluştur\n\nTercih ettiğiniz Kutsal Kitap çevirilerinin sırasını Kutsal Kitaplar Sekmesi'nden Sürüm Seçici'ye (bu açılır pencere) kopyalayabilir ya da tam tersini yapabilirsiniz. Kutsal Kitaplar Sekmesi, Kutsal Kitap sayfalarındaki Araçlar özelliğinde bulunur:\n\nNot: MLA artık atıf standartlarının bir parçası olarak URL'yi zorunlu tutmamaktadır. Bireysel eğitmenler veya editörler yine de URL'lerin kullanılmasını isteyebilir.\n\nHata: Parolalar en az 6 karakterden oluşmalıdır\n\nHata: Kullanıcı adları yalnızca harf, rakam, nokta, tire veya alt çizgi içermelidir\n\nParolalar en az 6 karakterden oluşmalıdır.\n\t\t\t\t\t\t\tKullanıcı adları yalnızca harf, rakam, nokta, tire veya alt çizgi içermelidir.\n\nKaydolduğunuz için teşekkür ederiz. Verdiğiniz adrese bir doğrulama e-postası gönderildi.\n\nOrtaklığınız tüm yaptıklarımızı mümkün kılıyor. Bugün dua ederek bir destek hediyesi vermeyi düşünür müsünüz?",
-  "chapter_intro": "",
-  "passages": [],
-  "notes": [
-    {
-      "ref": "Ps. 116",
-      "text": "Psalm . This is a hymn of personal thanksgiving for God’s care. The specific circumstance is a narrow escape from death (vv. 3, 8–9, 15). The psalm shows that such thanksgiving for a very personal blessing is properly offered in public worship."
-    },
+  "passages": [
     {
       "ref": "Ps. 116:1–4",
-      "text": "The people of Israel are urged to love the Lord in response to his covenant blessings (because he has heard my voice)."
-    },
-    {
-      "ref": "Ps. 116:3",
-      "text": "The snares of death and the pangs of Sheol are probably the same thing. He was on the brink of dying (see vv. 8, 15)."
-    },
-    {
-      "ref": "Ps. 116:4",
-      "text": "Called on the name of the Lord often refers to a public prayer (see Gen. 4:26; 12:8; Ps. 105:1), which is likely the case here (compare 116:13). Thus the request was made in a worship service."
+      "title": "Ps. 116:1–4",
+      "text": "İsrail halkına, O'nun antlaşma bereketlerine yanıt olarak **Rab'bi sevmeleri** teşvik ediliyor (**çünkü o benim sesimi duydu**)."
     },
     {
       "ref": "Ps. 116:5–7",
-      "text": "The answer to the urgent prayer leads to reflection on God’s character, namely, that he is gracious, merciful (see Ex. 34:6), and righteous (that is, reliably faithful). Celebrating this experience makes these notions all the more real to the believer."
+      "title": "Ps. 116:5–7",
+      "text": "Acil duaya verilen yanıt, Tanrı'nın karakteri, yani O'nun **lütufkar**, **merhametli** (bkz. Mısır'dan Çıkış 34:6) ve **doğru** (yani güvenilir bir şekilde sadık) olduğu üzerine düşünmeye yol açar. Bu deneyimi kutlamak, bu kavramları inanan kişi için daha da gerçek hale getirir."
     },
     {
       "ref": "Ps. 116:8–11",
-      "text": "death, tears, stumbling. These cover a wider variety of circumstances than simply the death of one’s body. This may be the psalmist’s invitation to the singers to apply the psalm more generally to experiences of need. The psalm also shows the thankful person how to make good use of the deliverance: I will walk before the Lord (that is, in love, faith, and obedience toward him)."
+      "title": "Ps. 116:8–11",
+      "text": "**ölüm**, **gözyaşları**, **tökezleme**. Bunlar, kişinin bedeninin ölümünden daha geniş bir yelpazedeki koşulları kapsar. Bu, mezmur yazarının şarkıcılara mezmurları daha genel olarak ihtiyaç deneyimlerine uygulamaları yönündeki daveti olabilir. Mezmur aynı zamanda minnettar kişiye kurtuluştan nasıl en iyi şekilde yararlanabileceğini de gösterir: **Rabbin önünde yürüyeceğim** (yani sevgiyle, imanla ve O'na itaatle)."
     },
     {
       "ref": "Ps. 116:12–19",
-      "text": "What shall I render to the Lord for all his benefits to me? The answer is, acts of public worship. The personal deliverance is a benefit to the whole people, and the entire congregation shares in giving thanks (see Rom. 12:15)."
+      "title": "Ps. 116:12–19",
+      "text": "**Rabbin bana sağladığı tüm faydalar karşılığında ona ne vermeliyim?** Cevap, halka açık ibadet eylemleridir. Kişisel kurtuluş tüm halkın yararınadır ve tüm cemaat şükretmeye katılır (bkz. Romalılar 12:15)."
+    }
+  ],
+  "notes": [
+    {
+      "ref": "Ps. 116",
+      "text": "**Mezmur** . Bu, Tanrı’nın ilgisine karşı kişisel bir şükran ilahisidir. Özel durum, ölümden kıl payı kurtulmaktır (vv. 3, 8-9, 15). Mezmur, son derece kişisel bir nimet için böyle bir şükran gününün, halka açık tapınmada uygun şekilde sunulduğunu gösterir."
+    },
+    {
+      "ref": "Ps. 116:3",
+      "text": "**Ölüm tuzakları** ve **cehennemin acısı** muhtemelen aynı şeydir. Ölümün eşiğindeydi (bkz. 8, 15 ayetler)."
+    },
+    {
+      "ref": "Ps. 116:4",
+      "text": "**Rab'bin adıyla çağrılmak** çoğu zaman halka açık bir duaya atıfta bulunur (bkz. Yaratılış 4:26; 12:8; Mezmur 105:1), burada da muhtemelen durum böyledir (116:13 ile karşılaştırın). Bu nedenle talep bir ibadet töreninde yapıldı."
     }
   ]
 }

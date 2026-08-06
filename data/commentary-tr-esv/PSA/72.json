@@ -1,40 +1,45 @@
 {
-  "source": "ESV Global Study Bible (Crossway) — Türkçe çeviri — DeepL translator — Lisans kapsamında kullanılmaktadır",
+  "source": "ESV Global Study Bible (Crossway) — Türkçe çeviri — Google Translate — Lisans kapsamında kullanılmaktadır",
   "book_intro": "Blue Letter Bible bakanlığı ve BLB Enstitüsü, Kutsal Yazıların tahrif edilemezliğine olan kesin inancı da içeren tarihsel, muhafazakar Hristiyan inancına bağlıdır. BLB tarafından sağlanan metin ve ses içeriği çeşitli Evanjelik gelenekleri temsil ettiğinden, kaynak materyallerde aktarılan tüm fikir ve ilkelerin bu bakanlık tarafından toplamda onaylanması gerekmez.\n\nBlue Letter Kutsal Kitap çalışma araçları Kutsal Kitap'ı okumayı, araştırmayı ve çalışmayı kolay ve ödüllendirici hale getirir.\n\nBlue Letter Bible 501(c)(3) kar amacı gütmeyen bir kuruluştur\n\nTercih ettiğiniz Kutsal Kitap çevirilerinin sırasını Kutsal Kitaplar Sekmesi'nden Sürüm Seçici'ye (bu açılır pencere) kopyalayabilir ya da tam tersini yapabilirsiniz. Kutsal Kitaplar Sekmesi, Kutsal Kitap sayfalarındaki Araçlar özelliğinde bulunur:\n\nNot: MLA artık atıf standartlarının bir parçası olarak URL'yi zorunlu tutmamaktadır. Bireysel eğitmenler veya editörler yine de URL'lerin kullanılmasını isteyebilir.\n\nHata: Parolalar en az 6 karakterden oluşmalıdır\n\nHata: Kullanıcı adları yalnızca harf, rakam, nokta, tire veya alt çizgi içermelidir\n\nParolalar en az 6 karakterden oluşmalıdır.\n\t\t\t\t\t\t\tKullanıcı adları yalnızca harf, rakam, nokta, tire veya alt çizgi içermelidir.\n\nKaydolduğunuz için teşekkür ederiz. Verdiğiniz adrese bir doğrulama e-postası gönderildi.\n\nOrtaklığınız tüm yaptıklarımızı mümkün kılıyor. Bugün dua ederek bir destek hediyesi vermeyi düşünür müsünüz?",
-  "chapter_intro": "",
-  "passages": [],
-  "notes": [
-    {
-      "ref": "Ps. 72",
-      "text": "Psalm . The last psalm of Book 2 is a royal psalm. It is a prayer that David’s heirs might be faithful kings. That means ruling God’s people well, protecting the poor and needy, and bringing blessing to all nations of the earth. Like Psalm 2, this song looks forward to a worldwide rule that embraces in full what the Messiah will accomplish. The OT anticipates the ultimate heir of David, who will take the throne and bring God’s light to all nations (see Isa. 2:1–5; 11:1–10)."
-    },
+  "passages": [
     {
       "ref": "Ps. 72:1–4",
-      "text": "justice, righteousness, judge. The ideal Davidic king must provide justice for all Israelites. He also must be an example for the people in his faithfulness to God. The psalm begins, then, with a prayer for the character and rule of the Davidic king, knowing that God must give him righteousness and justice to rule (judge)."
+      "title": "Ps. 72:1–4",
+      "text": "**adalet**, **doğruluk**, **yargıç**. İdeal Davut kralı tüm İsrailoğullarına adalet sağlamalıdır. Aynı zamanda Allah'a olan bağlılığıyla da insanlara örnek olmalıdır. O halde mezmur, Davut kralının karakteri ve yönetimi için bir dua ile başlar; Tanrı'nın ona hükmetmesi (yargıç) için doğruluk ve adalet vermesi gerektiğini bilir."
     },
     {
       "ref": "Ps. 72:5–7",
-      "text": "while the sun endures, till the moon be no more (that is, always). This span of time suggests that this psalm ultimately refers to the Messiah. May they fear you. “They” may be God’s people (vv. 1–4), or people in general (vv. 8–11). In either case, the heir of David serves as God’s representative to the people, and is to be honored and obeyed."
+      "title": "Ps. 72:5–7",
+      "text": "**Güneş var olduğu sürece**, **ay yok olana kadar** (yani her zaman). Bu zaman aralığı, bu mezmurun sonuçta Mesih'ten söz ettiğini gösteriyor. **Senden korksunlar**. “Onlar” Tanrı'nın halkı (1-4. ayetler) veya genel olarak insanlar (8-11. ayetler) olabilir. Her iki durumda da Davut'un varisi, Tanrı'nın halk nezdindeki temsilcisi olarak hizmet eder ve onurlandırılmalı ve itaat edilmelidir."
     },
     {
       "ref": "Ps. 72:8–11",
-      "text": "By submitting to the Davidic king, the Gentile kings bring themselves and their peoples under God’s own rule (see note on 2:12)."
-    },
-    {
-      "ref": "Ps. 72:8",
-      "text": "See Zech. 9:10."
+      "title": "Ps. 72:8–11",
+      "text": "Yahudi olmayan krallar, Davud kralına teslim olarak kendilerini ve halklarını Tanrı'nın kendi yönetimi altına almış olurlar (bkz. 2:12 ile ilgili not)."
     },
     {
       "ref": "Ps. 72:12–14",
-      "text": "These verses emphasize the needy, the poor, and the weak (see vv. 2–4). These are the people most easily subjected to oppression and violence by those in power. precious is their blood in his sight. The Davidic king will not allow the powerful to harm the defenseless."
-    },
-    {
-      "ref": "Ps. 72:17",
-      "text": "be blessed in him, all nations. This closely follows Gen. 22:18, speaking of the Messiah (see note on Gen. 22:15–18)."
+      "title": "Ps. 72:12–14",
+      "text": "Bu ayetler **muhtaç**ları, **yoksulları** ve **zayıfları** vurgulamaktadır (bkz. ayetler 2-4). Bunlar iktidardakiler tarafından en kolay **baskı ve şiddete** maruz kalan insanlardır. **onların kanı onun gözünde değerlidir**. Davut kralı, güçlülerin savunmasızlara zarar vermesine izin vermeyecek."
     },
     {
       "ref": "Ps. 72:18–20",
-      "text": "may the whole earth be filled with his glory. That is, may the whole earth be the sanctuary where God makes his presence known (see note on Isa. 6:3)."
+      "title": "Ps. 72:18–20",
+      "text": "**tüm dünya onun görkemiyle dolsun**. Yani, tüm dünya Tanrı'nın varlığını bildirdiği kutsal alan olsun (bkz. İşaya 6:3 ile ilgili not)."
+    }
+  ],
+  "notes": [
+    {
+      "ref": "Ps. 72",
+      "text": "**Mezmur** . 2. Kitabın son mezmuru bir kraliyet mezmurudur. Davut'un mirasçılarının sadık krallar olması için yapılan bir duadır. Bu, Tanrı'nın halkını iyi yönetmek, yoksulları ve muhtaçları korumak ve dünyadaki tüm uluslara bereket getirmek anlamına gelir. Mezmur 2 gibi bu şarkı da Mesih'in başaracaklarını bütünüyle kapsayan dünya çapında bir kuralı sabırsızlıkla bekliyor. Eski Antlaşma, tahtı alacak ve Tanrı'nın ışığını tüm uluslara getirecek olan Davut'un nihai mirasçısını öngörüyor (bkz. Yeşaya 2:1–5; 11:1–10)."
+    },
+    {
+      "ref": "Ps. 72:8",
+      "text": "Zech'e bakın. 9:10."
+    },
+    {
+      "ref": "Ps. 72:17",
+      "text": "**Tüm uluslar onun sayesinde kutsansın**. Bu, Mesih'ten bahseden Yaratılış 22:18'i yakından takip eder (bkz. Yaratılış 22:15-18 ile ilgili not)."
     }
   ]
 }
