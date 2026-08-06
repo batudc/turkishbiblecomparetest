@@ -1537,20 +1537,30 @@ PHP 4:13
 ISA 40:31`;
 
   try {
-    const resp = await fetch('https://api.anthropic.com/v1/messages', {
-      method: 'POST',
-      headers: {
-        'x-api-key': _aiKey,
-        'anthropic-version': '2023-06-01',
-        'anthropic-dangerous-allow-browser': 'true',
-        'content-type': 'application/json',
-      },
-      body: JSON.stringify({
-        model: 'claude-haiku-4-5-20251001',
-        max_tokens: 150,
-        messages: [{ role: 'user', content: prompt }]
-      })
-    });
+    const proxyUrl  = '/api/claude';
+    const directUrl = 'https://api.anthropic.com/v1/messages';
+    const payload   = { model: 'claude-haiku-4-5-20251001', max_tokens: 150, messages: [{ role: 'user', content: prompt }] };
+
+    let resp;
+    try {
+      resp = await fetch(proxyUrl, {
+        method: 'POST',
+        headers: { 'content-type': 'application/json' },
+        body: JSON.stringify({ ...payload, __apiKey: _aiKey }),
+      });
+      if (resp.status === 404) throw new Error('proxy-not-found');
+    } catch {
+      resp = await fetch(directUrl, {
+        method: 'POST',
+        headers: {
+          'x-api-key': _aiKey,
+          'anthropic-version': '2023-06-01',
+          'anthropic-dangerous-allow-browser': 'true',
+          'content-type': 'application/json',
+        },
+        body: JSON.stringify(payload),
+      });
+    }
 
     if (!resp.ok) {
       let msg = `API error (${resp.status})`;
