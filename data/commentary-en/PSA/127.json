@@ -1,20 +1,23 @@
 {
   "source": "ESV Global Study Bible (Crossway) — Used under license",
   "book_intro": "The Blue Letter Bible ministry and the BLB Institute hold to the historical, conservative Christian faith, which includes a firm belief in the inerrancy of Scripture. Since the text and audio content provided by BLB represent a range of evangelical traditions, all of the ideas and principles conveyed in the resource materials are not necessarily affirmed, in total, by this ministry.\n\nBlue Letter Bible study tools make reading, searching and studying the Bible easy and rewarding.\n\nBlue Letter Bible is a 501(c)(3) nonprofit organization\n\nYou can copy the order of your preferred Bible translations from the Bibles Tab to the  Version Picker (this popup) or vice versa. The Bibles Tab is found in the Tools feature on Bible pages:\n\nNote: MLA no longer requires the URL as part of their citation standard. Individual instructors or editors may still require the use of URLs.\n\nError: Passwords should have at least 6 characters\n\nError: Usernames should only contain letters, numbers, dots, dashes, or underscores\n\nPasswords should have at least 6 characters.\n\t\t\t\t\t\t\tUsernames should only contain letters, numbers, dots, dashes, or underscores.\n\nThank you for registering. A verification email has been sent to the address you provided.\n\nYour partnership makes all we do possible. Would you prayerfully consider a gift of support today?",
-  "chapter_intro": "",
-  "passages": [],
-  "notes": [
-    {
-      "ref": "Ps. 127",
-      "text": "Psalm . The basic theme of this wisdom psalm is that without the Lord’s blessing, all human toil is worthless. This is seen clearly in vv. 1–2, and is implied in vv. 3–5, where the faithful are to see their children as the Lord’s gift. This psalm, along with Psalm 72, is attributed to Solomon. Psalms 127–128 are wisdom poems within the Songs of Ascents."
-    },
+  "passages": [
     {
       "ref": "Ps. 127:1–2",
-      "text": "Those who build a house must labor on it, and certainly the watchman of a city must stay awake. At the same time, they must carry out their efforts in faith, trusting God to make the work beneficial. Likewise the farmer must be diligent (compare 128:2), but he must practice his diligence in faith, receiving the sleep that God wants to give to his beloved. The psalm promotes hard work, but such diligence should not be the result of greed or restless anxiety (see notes on Prov. 10:22; 23:4–5). The Sabbath commandment (Ex. 20:8–11) is a gift enabling God’s people to live by faith. It requires them to rest from their labors as they trust the Lord for their future well-being."
+      "title": "Ps. 127:1–2",
+      "text": "**Those who build** a house must **labor** on it, and certainly the **watchman** of a **city** must stay **awake**. At the same time, they must carry out their efforts in faith, trusting God to make the work beneficial. Likewise the farmer must be diligent (compare 128:2 ), but he must practice his diligence in faith, receiving the **sleep** that God wants to give **to his beloved**. The psalm promotes hard work, but such diligence should not be the result of greed or restless anxiety (see notes on Prov. 10:22 ; 23:4–5 ). The Sabbath commandment ( Ex. 20:8–11 ) is a gift enabling God’s people to live by faith. It requires them to rest from their labors as they trust the Lord for their future well-being."
     },
     {
       "ref": "Ps. 127:3–5",
-      "text": "the children of one’s youth. The children are now grown up and are standing with their father when he speaks with his enemies in the gate. The gate was the place where legal disputes were settled (see note on Ruth 4:1–2)."
+      "title": "Ps. 127:3–5",
+      "text": "**the children of one’s youth**. The children are now grown up and are standing with their father **when he speaks with his enemies in the gate**. The gate was the place where legal disputes were settled (see note on Ruth 4:1–2 )."
     }
-  ]
+  ],
+  "notes": [
+    {
+      "ref": "Ps. 127",
+      "text": "**Psalm** . The basic theme of this wisdom psalm is that without the Lord’s blessing, all human toil is worthless. This is seen clearly in vv. 1–2 , and is implied in vv. 3–5 , where the faithful are to see their children as the Lord’s gift. This psalm, along with Psalm 72 , is attributed to Solomon. Psalms 127–128 are wisdom poems within the Songs of Ascents."
+    }
+  ],
+  "chapter_intro": "Ps. 127:1–2"
 }

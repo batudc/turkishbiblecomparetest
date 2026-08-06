@@ -1,27 +1,30 @@
 {
+  "source": "ESV Global Study Bible (Crossway) — Türkçe çeviri — Google Translate — Lisans kapsamında kullanılmaktadır",
   "book_intro": "Blue Letter Bible bakanlığı ve BLB Enstitüsü, Kutsal Yazıların tahrif edilemezliğine olan kesin inancı da içeren tarihsel, muhafazakar Hristiyan inancına bağlıdır. BLB tarafından sağlanan metin ve ses içeriği çeşitli Evanjelik gelenekleri temsil ettiğinden, kaynak materyallerde aktarılan tüm fikir ve ilkelerin bu bakanlık tarafından toplamda onaylanması gerekmez.\n\nBlue Letter Kutsal Kitap çalışma araçları Kutsal Kitap'ı okumayı, araştırmayı ve çalışmayı kolay ve ödüllendirici hale getirir.\n\nBlue Letter Bible 501(c)(3) kar amacı gütmeyen bir kuruluştur\n\nTercih ettiğiniz Kutsal Kitap çevirilerinin sırasını Kutsal Kitaplar Sekmesi'nden Sürüm Seçici'ye (bu açılır pencere) kopyalayabilir veya tam tersini yapabilirsiniz. Kutsal Kitaplar Sekmesi, Kutsal Kitap sayfalarındaki Araçlar özelliğinde bulunur:\n\nNot: MLA artık atıf standartlarının bir parçası olarak URL'yi zorunlu tutmamaktadır. Bireysel eğitmenler veya editörler yine de URL'lerin kullanılmasını isteyebilir.\n\nHata: Parolalar en az 6 karakterden oluşmalıdır\n\nHata: Kullanıcı adları yalnızca harf, rakam, nokta, tire veya alt çizgi içermelidir\n\nParolalar en az 6 karakterden oluşmalıdır.\n\t\t\t\t\t\t\tKullanıcı adları yalnızca harf, rakam, nokta, tire veya alt çizgi içermelidir.\n\nKaydolduğunuz için teşekkür ederiz. Verdiğiniz adrese bir doğrulama e-postası gönderildi.\n\nOrtaklığınız tüm yaptıklarımızı mümkün kılıyor. Bugün dua ederek bir destek hediyesi vermeyi düşünür müsünüz?",
-  "passages": [],
-  "notes": [
+  "passages": [
     {
       "ref": "1 Cor. 2:1–5",
-      "text": ""
+      "title": "1 Kor. 2:1–5",
+      "text": "**değil. . . yüce bir konuşma veya bilgelik ile**. Pavlus Yunan retoriğinden kaçındı. Bunun yerine haç mesajına odaklandı. Korintosluların insan habercilere değil, Mesih'e güvenmelerini istiyordu."
     },
     {
       "ref": "1 Cor. 2:6–10",
-      "text": ""
-    },
+      "title": "1 Kor. 2:6–10",
+      "text": "Tanrı'nın Ruhu, Tanrı'nın derin şeyleri ile insan kalbi arasındaki boşluğu doldurur ve insanları çarmıhın mesajını anlamaya nezaketle hazırlar. Ayrıca bkz. 4. cilt."
+    }
+  ],
+  "notes": [
     {
       "ref": "1 Cor. 2:6",
-      "text": ""
+      "text": "**bu çağın hükümdarları**. Muhtemelen Yahudi başrahipleri ve İsa'yı ölüme mahkum eden Romalı vekil Pilatus gibi dünyevi yöneticiler (bkz. ayet 8). Sembolik olarak İsa’ya inanmayan tüm yöneticileri de kapsar."
     },
     {
       "ref": "1 Cor. 2:7",
-      "text": ""
+      "text": "**Tanrı'nın gizli ve saklı bilgeliği** Mesih'e odaklanır. Bu, Tanrı'nın **çağlar öncesinden** (\"dünyanın kuruluşundan önce\"; Efes. 1:4) sonsuzluğa (1 Korintliler 2:9; Vahiy 11:15) kadar olan kurtuluş planlarını içerir. Pavlus'un vaaz ettiği her şeyi içerir (Elçilerin İşleri 20:27)."
     },
     {
       "ref": "1 Cor. 2:13",
-      "text": ""
+      "text": "Her Hıristiyan **ruhani** bir kişidir, yani Kutsal Ruh tarafından yönlendirilen ve güçlendirilen kişidir; ayrıca bkz. Rom. 8:9; 2 Kor. 3:16–18; Ef. 1:13 . Öte yandan inanmayanlar, Tanrı'nın öğretisini anlayacak manevi yetenekten yoksundurlar (1 Korintliler 2:14)."
     }
-  ],
-  "source": "ESV Global Study Bible (Crossway) — Used under license"
+  ]
 }

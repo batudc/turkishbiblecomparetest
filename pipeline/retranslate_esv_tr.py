@@ -92,6 +92,9 @@ def translate(text: str) -> str:
 def needs_translation(notes: list) -> bool:
     if not notes:
         return False
+    # Also retranslate if any note has empty text
+    if any(not n.get('text', '').strip() for n in notes):
+        return True
     sample = ' '.join(n.get('text', '') for n in notes[:5])
     return is_english(sample)
 

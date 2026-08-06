@@ -1,24 +1,27 @@
 {
   "source": "ESV Global Study Bible (Crossway) — Used under license",
   "book_intro": "The Blue Letter Bible ministry and the BLB Institute hold to the historical, conservative Christian faith, which includes a firm belief in the inerrancy of Scripture. Since the text and audio content provided by BLB represent a range of evangelical traditions, all of the ideas and principles conveyed in the resource materials are not necessarily affirmed, in total, by this ministry.\n\nBlue Letter Bible study tools make reading, searching and studying the Bible easy and rewarding.\n\nBlue Letter Bible is a 501(c)(3) nonprofit organization\n\nYou can copy the order of your preferred Bible translations from the Bibles Tab to the  Version Picker (this popup) or vice versa. The Bibles Tab is found in the Tools feature on Bible pages:\n\nNote: MLA no longer requires the URL as part of their citation standard. Individual instructors or editors may still require the use of URLs.\n\nError: Passwords should have at least 6 characters\n\nError: Usernames should only contain letters, numbers, dots, dashes, or underscores\n\nPasswords should have at least 6 characters.\n\t\t\t\t\t\t\tUsernames should only contain letters, numbers, dots, dashes, or underscores.\n\nThank you for registering. A verification email has been sent to the address you provided.\n\nYour partnership makes all we do possible. Would you prayerfully consider a gift of support today?",
-  "chapter_intro": "",
-  "passages": [],
-  "notes": [
-    {
-      "ref": "Ps. 61",
-      "text": "Psalm . This psalm could be considered both an individual lament and a communal lament. It asks for God’s help in times of trouble. Verses 6–7 tie royal well-being to the well-being of the whole people. Verse 8 looks forward to acts of public worship as the proper reaction to the help for which the psalm prays."
-    },
+  "passages": [
     {
       "ref": "Ps. 61:1–3",
-      "text": "As the congregation sings this, they imagine themselves in all kinds of places (the end of the earth) and circumstances (when my heart is faint) in which they feel needy and in danger. In such times, God is a reliable refuge and strong tower."
-    },
-    {
-      "ref": "Ps. 61:4",
-      "text": "To dwell in God’s tent is to be his welcome guest in worship (see 23:6; 27:4)."
+      "title": "Ps. 61:1–3",
+      "text": "As the congregation sings this, they imagine themselves in all kinds of places (**the end of the earth**) and circumstances (**when my heart is faint**) in which they feel needy and in danger. In such times, God is a reliable **refuge** and **strong tower**."
     },
     {
       "ref": "Ps. 61:6–7",
-      "text": "If God will prolong the life of the king, and appoint steadfast love and faithfulness to watch over him (see Prov. 20:28), then God’s people may rest secure in his blessing."
+      "title": "Ps. 61:6–7",
+      "text": "If God will **prolong the life of the king**, and **appoint steadfast love and faithfulness to watch over him** (see Prov. 20:28 ), then God’s people may rest secure in his blessing."
     }
-  ]
+  ],
+  "notes": [
+    {
+      "ref": "Ps. 61",
+      "text": "**Psalm** . This psalm could be considered both an individual lament and a communal lament. It asks for God’s help in times of trouble. Verses 6–7 tie royal well-being to the well-being of the whole people. Verse 8 looks forward to acts of public worship as the proper reaction to the help for which the psalm prays."
+    },
+    {
+      "ref": "Ps. 61:4",
+      "text": "To **dwell in** God’s **tent** is to be his welcome guest in worship (see 23:6 ; 27:4 )."
+    }
+  ],
+  "chapter_intro": "Ps. 61:1–3"
 }

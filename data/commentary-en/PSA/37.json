@@ -1,40 +1,44 @@
 {
   "source": "ESV Global Study Bible (Crossway) — Used under license",
   "book_intro": "The Blue Letter Bible ministry and the BLB Institute hold to the historical, conservative Christian faith, which includes a firm belief in the inerrancy of Scripture. Since the text and audio content provided by BLB represent a range of evangelical traditions, all of the ideas and principles conveyed in the resource materials are not necessarily affirmed, in total, by this ministry.\n\nBlue Letter Bible study tools make reading, searching and studying the Bible easy and rewarding.\n\nBlue Letter Bible is a 501(c)(3) nonprofit organization\n\nYou can copy the order of your preferred Bible translations from the Bibles Tab to the  Version Picker (this popup) or vice versa. The Bibles Tab is found in the Tools feature on Bible pages:\n\nNote: MLA no longer requires the URL as part of their citation standard. Individual instructors or editors may still require the use of URLs.\n\nError: Passwords should have at least 6 characters\n\nError: Usernames should only contain letters, numbers, dots, dashes, or underscores\n\nPasswords should have at least 6 characters.\n\t\t\t\t\t\t\tUsernames should only contain letters, numbers, dots, dashes, or underscores.\n\nThank you for registering. A verification email has been sent to the address you provided.\n\nYour partnership makes all we do possible. Would you prayerfully consider a gift of support today?",
-  "chapter_intro": "",
-  "passages": [],
-  "notes": [
-    {
-      "ref": "Ps. 37",
-      "text": "Psalm . This can be called a wisdom psalm because it reflects on themes normally dealt with in the Bible’s Wisdom Literature, particularly in Proverbs. It addresses the issue of why godless people often prosper. It shows that it really is better to stay loyal to the Lord—a loyalty expressed in contentment, honesty, and generosity. In his own good time, the Lord will make a clear distinction between the godless and the faithful. Meanwhile, the faithful must wait patiently."
-    },
-    {
-      "ref": "Ps. 37:1",
-      "text": "Because they know that the Lord will eventually bring justice, the faithful should not fret (see note on v. 9)."
-    },
-    {
-      "ref": "Ps. 37:4",
-      "text": "The Lord will give the faithful the desires of their heart, that is, he will give them what their heart longs for. It is safe to say this, because as the faithful delight in the Lord, their hearts will desire the right things (see vv. 16, 31)."
-    },
-    {
-      "ref": "Ps. 37:9",
-      "text": "The contrast between the two outcomes, those who shall be cut off and those who shall inherit the land, recurs throughout the psalm (vv. 11, 22, 28–29, 34). See also Prov. 2:21–22. “Cut off” describes the “future of the wicked” (Ps. 37:38), which likely refers to the afterlife."
-    },
-    {
-      "ref": "Ps. 37:11",
-      "text": "Psalm 37 is concerned with ultimate outcomes, not simply the benefits of this present world. This accounts for why Jesus uses the first half of this verse in the third beatitude (Matt. 5:5): Jesus’ beatitudes describe benefits that are to be fully enjoyed at the last day."
-    },
+  "passages": [
     {
       "ref": "Ps. 37:12–20",
-      "text": "The wicked person may hatch all manner of schemes against the righteous person (v. 12), but the faithful can live in contentment, even with little (v. 16; see Prov. 15:16; 16:8). They are confident that God knows the days of the blameless (Ps. 37:18) and will see to it that the wicked will perish, unfulfilled (v. 20)."
+      "title": "Ps. 37:12–20",
+      "text": "The **wicked** person may hatch all manner of schemes **against the righteous** person (v. 12 ), but the faithful can live in contentment, even with **little** (v. 16 ; see Prov. 15:16 ; 16:8 ). They are confident that God knows **the days of the blameless** ( Ps. 37:18 ) and will see to it that **the wicked will perish**, unfulfilled (v. 20 )."
     },
     {
       "ref": "Ps. 37:21–31",
-      "text": "The contented person is free to give generously to the needy (do good, v. 27). Without such contentment one might be greedy and envious, or else be fearful about becoming poor. He knows his steps . . . are established by the Lord (v. 23), and thus even though he fall (probably, “suffer material hardship”) he can recover, for the Lord upholds his hand (v. 24). Verse 25 does not deny that there may be temporary setbacks for the righteous. The focus is on the ultimate outcome."
+      "title": "Ps. 37:21–31",
+      "text": "The contented person is free to give generously to the needy (**do good**, v. 27 ). Without such contentment one might be greedy and envious, or else be fearful about becoming poor. He knows his **steps . . . are established by the Lord** (v. 23 ), and thus even **though he fall** (probably, “suffer material hardship”) he can recover, **for the Lord upholds his hand** (v. 24 ). Verse 25 does not deny that there may be temporary setbacks for the **righteous**. The focus is on the ultimate outcome."
     },
     {
       "ref": "Ps. 37:32–40",
-      "text": "This final section assures the faithful that the Lord will not abandon them to the power of the wicked (vv. 32–33). He will ensure that both the righteous and the wicked receive their proper reward in due time (probably in the world to come, vv. 37–38; see note on v. 9)."
+      "title": "Ps. 37:32–40",
+      "text": "This final section assures the faithful that **the Lord will not abandon** them to the **power** of the **wicked** (vv. 32–33 ). He will ensure that both the righteous and the wicked receive their proper reward in due time (probably in the world to come, vv. 37–38 ; see note on v. 9 )."
     }
-  ]
+  ],
+  "notes": [
+    {
+      "ref": "Ps. 37",
+      "text": "**Psalm** . This can be called a wisdom psalm because it reflects on themes normally dealt with in the Bible’s Wisdom Literature, particularly in Proverbs . It addresses the issue of why godless people often prosper. It shows that it really is better to stay loyal to the Lord—a loyalty expressed in contentment, honesty, and generosity. In his own good time, the Lord will make a clear distinction between the godless and the faithful. Meanwhile, the faithful must wait patiently."
+    },
+    {
+      "ref": "Ps. 37:1",
+      "text": "Because they know that the Lord will eventually bring justice, the faithful should not **fret** (see note on v. 9 )."
+    },
+    {
+      "ref": "Ps. 37:4",
+      "text": "The Lord will give the faithful **the desires of** their** heart**, that is, he will give them what their heart longs for. It is safe to say this, because as the faithful delight in the Lord, their hearts will desire the right things (see vv. 16 , 31 )."
+    },
+    {
+      "ref": "Ps. 37:9",
+      "text": "The contrast between the two outcomes, those who **shall be cut off** and those who **shall inherit the land**, recurs throughout the psalm (vv. 11 , 22 , 28–29 , 34 ). See also Prov. 2:21–22 . “Cut off” describes the “future of the wicked” ( Ps. 37:38 ), which likely refers to the afterlife."
+    },
+    {
+      "ref": "Ps. 37:11",
+      "text": "Psalm 37 is concerned with ultimate outcomes, not simply the benefits of this present world. This accounts for why Jesus uses the first half of this verse in the third beatitude ( Matt. 5:5 ): Jesus’ beatitudes describe benefits that are to be fully enjoyed at the last day."
+    }
+  ],
+  "chapter_intro": "Ps. 37:12–20"
 }

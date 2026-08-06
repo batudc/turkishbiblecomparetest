@@ -1,28 +1,33 @@
 {
   "source": "ESV Global Study Bible (Crossway) — Used under license",
   "book_intro": "The Blue Letter Bible ministry and the BLB Institute hold to the historical, conservative Christian faith, which includes a firm belief in the inerrancy of Scripture. Since the text and audio content provided by BLB represent a range of evangelical traditions, all of the ideas and principles conveyed in the resource materials are not necessarily affirmed, in total, by this ministry.\n\nBlue Letter Bible study tools make reading, searching and studying the Bible easy and rewarding.\n\nBlue Letter Bible is a 501(c)(3) nonprofit organization\n\nYou can copy the order of your preferred Bible translations from the Bibles Tab to the  Version Picker (this popup) or vice versa. The Bibles Tab is found in the Tools feature on Bible pages:\n\nNote: MLA no longer requires the URL as part of their citation standard. Individual instructors or editors may still require the use of URLs.\n\nError: Passwords should have at least 6 characters\n\nError: Usernames should only contain letters, numbers, dots, dashes, or underscores\n\nPasswords should have at least 6 characters.\n\t\t\t\t\t\t\tUsernames should only contain letters, numbers, dots, dashes, or underscores.\n\nThank you for registering. A verification email has been sent to the address you provided.\n\nYour partnership makes all we do possible. Would you prayerfully consider a gift of support today?",
-  "chapter_intro": "",
-  "passages": [],
-  "notes": [
-    {
-      "ref": "Ps. 79",
-      "text": "Psalm . This is a community lament. It was occasioned by a great disaster, most likely the destruction of Jerusalem by Babylon. It has many similarities to Psalm 74. It recounts the violence and unbelief of the Gentile conquerors and asks God how long he intends to allow such things. Running through the psalm is a recognition that Israel should themselves be faithful to the covenant that they expect God to honor."
-    },
+  "passages": [
     {
       "ref": "Ps. 79:1–4",
-      "text": "The first section chillingly describes the destruction that the nations (probably Babylon and its allies) have brought on God’s inheritance, that is, the land where his people dwell. They have defiled your holy temple, treating something holy as unclean, which is an act of violence against God. God’s people were supposed to be an advertisement to the Gentiles of how great and good Yahweh is, but instead they have become a taunt to our neighbors."
+      "title": "Ps. 79:1–4",
+      "text": "The first section chillingly describes the destruction that the **nations** (probably Babylon and its allies) have brought on God’s **inheritance**, that is, the land where his people dwell. **They have defiled your holy temple**, treating something holy as unclean, which is an act of violence against God. God’s people were supposed to be an advertisement to the Gentiles of how great and good Yahweh is, but instead they **have become a taunt to our neighbors**."
     },
     {
       "ref": "Ps. 79:5–7",
-      "text": "The right question is not, “How long will you let us suffer like this?” After all, they suffer because God is angry about their unfaithfulness. Rather, the question is, “How long will you allow the nations, who do not know you, to get away with what they have done?” Even though Jacob (that is, Israel) has been unfaithful, the Israelites still belong to the Lord."
+      "title": "Ps. 79:5–7",
+      "text": "The right question is not, “How long will you let us suffer like this?” After all, they suffer because God is **angry** about their unfaithfulness. Rather, the question is, “How long will you allow the **nations**, who **do not know you**, to get away with what they have done?” Even though **Jacob** (that is, Israel) has been unfaithful, the Israelites still belong to the Lord."
     },
     {
       "ref": "Ps. 79:8–10",
-      "text": "The singer now faces the basic problem: God’s people have been untrue to him and must seek his forgiveness. The psalm weaves two themes together. The first is the understandable desire for relief (we are brought very low; deliver us). The second is the desire, born of true faith, for God’s honor in the world (for the glory of your name, for your name’s sake, why should the nations say?). God’s reputation is tied to his people’s well-being, and their well-being cannot be separated from their faithfulness."
+      "title": "Ps. 79:8–10",
+      "text": "The singer now faces the basic problem: God’s people have been untrue to him and must seek his forgiveness. The psalm weaves two themes together. The first is the understandable desire for relief (**we are brought very low**;** deliver us**). The second is the desire, born of true faith, for God’s honor in the world (**for the glory of your name**,** for your name’s sake**,** why should the nations say**?). God’s reputation is tied to his people’s well-being, and their well-being cannot be separated from their faithfulness."
     },
     {
       "ref": "Ps. 79:11–13",
-      "text": "Verses 8–10 prayed for forgiveness. Here, the effect of that forgiveness is that God will preserve those of his people who are doomed to die. Verse 13 looks forward to the granting of forgiveness, and pledges that we your people . . . will give thanks to you forever."
+      "title": "Ps. 79:11–13",
+      "text": "Verses 8–10 prayed for forgiveness. Here, the effect of that forgiveness is that God will **preserve those** of his people who are **doomed to die**. Verse 13 looks forward to the granting of forgiveness, and pledges that **we your people . . . will give thanks to you forever**."
     }
-  ]
+  ],
+  "notes": [
+    {
+      "ref": "Ps. 79",
+      "text": "**Psalm** . This is a community lament. It was occasioned by a great disaster, most likely the destruction of Jerusalem by Babylon. It has many similarities to Psalm 74 . It recounts the violence and unbelief of the Gentile conquerors and asks God how long he intends to allow such things. Running through the psalm is a recognition that Israel should themselves be faithful to the covenant that they expect God to honor."
+    }
+  ],
+  "chapter_intro": "Ps. 79:1–4"
 }

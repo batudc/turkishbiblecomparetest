@@ -1,28 +1,30 @@
 {
   "source": "ESV Global Study Bible (Crossway) — Used under license",
   "book_intro": "The Blue Letter Bible ministry and the BLB Institute hold to the historical, conservative Christian faith, which includes a firm belief in the inerrancy of Scripture. Since the text and audio content provided by BLB represent a range of evangelical traditions, all of the ideas and principles conveyed in the resource materials are not necessarily affirmed, in total, by this ministry.\n\nBlue Letter Bible study tools make reading, searching and studying the Bible easy and rewarding.\n\nBlue Letter Bible is a 501(c)(3) nonprofit organization\n\nYou can copy the order of your preferred Bible translations from the Bibles Tab to the  Version Picker (this popup) or vice versa. The Bibles Tab is found in the Tools feature on Bible pages:\n\nNote: MLA no longer requires the URL as part of their citation standard. Individual instructors or editors may still require the use of URLs.\n\nError: Passwords should have at least 6 characters\n\nError: Usernames should only contain letters, numbers, dots, dashes, or underscores\n\nPasswords should have at least 6 characters.\n\t\t\t\t\t\t\tUsernames should only contain letters, numbers, dots, dashes, or underscores.\n\nThank you for registering. A verification email has been sent to the address you provided.\n\nYour partnership makes all we do possible. Would you prayerfully consider a gift of support today?",
-  "chapter_intro": "",
-  "passages": [],
+  "passages": [
+    {
+      "ref": "Ps. 13:5–6",
+      "title": "Ps. 13:5–6",
+      "text": "Confidence in the** steadfast love** of God, as revealed in his covenant with Israel ( Ex. 34:6 ), leads to a trusting expectation of **salvation**. Compare Ps. 3:2 and note ."
+    }
+  ],
   "notes": [
     {
       "ref": "Ps. 13",
-      "text": "Psalm . This is an individual lament. The worshiper is on the verge of despair."
+      "text": "**Psalm** . This is an individual lament. The worshiper is on the verge of despair."
     },
     {
       "ref": "Ps. 13:1",
-      "text": "How long? The question, repeated four times, is not asking for information but is expressing despair. If this psalm were a sermon, it would explain that the abandonment described here (forget, hide . . . face) is only apparent. But a song, whose goal is to describe feelings, does not need the same level of precision as a sermon."
+      "text": "**How long**? The question, repeated four times, is not asking for information but is expressing despair. If this psalm were a sermon, it would explain that the abandonment described here (**forget**, **hide . . . face**) is only apparent. But a song, whose goal is to describe feelings, does not need the same level of precision as a sermon."
     },
     {
       "ref": "Ps. 13:2",
-      "text": "The enemy is typically one who hates. The enemy’s hatred of the singer’s faithfulness leads him to gloat over the singer’s misfortunes."
+      "text": "The **enemy** is typically one who hates. The enemy’s hatred of the singer’s faithfulness leads him to gloat over the singer’s misfortunes."
     },
     {
       "ref": "Ps. 13:3",
-      "text": "For God to consider and answer would be for him to relieve the singer’s circumstances."
-    },
-    {
-      "ref": "Ps. 13:5–6",
-      "text": "Confidence in the steadfast love of God, as revealed in his covenant with Israel (Ex. 34:6), leads to a trusting expectation of salvation. Compare Ps. 3:2 and note."
+      "text": "For God to **consider and answer** would be for him to relieve the singer’s circumstances."
     }
-  ]
+  ],
+  "chapter_intro": "Ps. 13:5–6"
 }

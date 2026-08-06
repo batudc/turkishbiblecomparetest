@@ -1,7 +1,60 @@
 {
   "source": "ESV Global Study Bible (Crossway) — Used under license",
   "book_intro": "The Blue Letter Bible ministry and the BLB Institute hold to the historical, conservative Christian faith, which includes a firm belief in the inerrancy of Scripture. Since the text and audio content provided by BLB represent a range of evangelical traditions, all of the ideas and principles conveyed in the resource materials are not necessarily affirmed, in total, by this ministry.\n\nBlue Letter Bible study tools make reading, searching and studying the Bible easy and rewarding.\n\nBlue Letter Bible is a 501(c)(3) nonprofit organization\n\nYou can copy the order of your preferred Bible translations from the Bibles Tab to the  Version Picker (this popup) or vice versa. The Bibles Tab is found in the Tools feature on Bible pages:\n\nNote: MLA no longer requires the URL as part of their citation standard. Individual instructors or editors may still require the use of URLs.\n\nError: Passwords should have at least 6 characters\n\nError: Usernames should only contain letters, numbers, dots, dashes, or underscores\n\nPasswords should have at least 6 characters.\n\t\t\t\t\t\t\tUsernames should only contain letters, numbers, dots, dashes, or underscores.\n\nThank you for registering. A verification email has been sent to the address you provided.\n\nYour partnership makes all we do possible. Would you prayerfully consider a gift of support today?",
-  "chapter_intro": "",
-  "passages": [],
-  "notes": []
+  "passages": [
+    {
+      "ref": "1:1–2:6",
+      "title": "God Is Light and Christ Is the Way.",
+      "text": "John begins by emphasizing Christ’s deity, incarnation, saving death, and continuing ministry. He also stresses God’s nature as “light” ( 1:5 ) and the darkness of human sin."
+    },
+    {
+      "ref": "1 John 1:1–4",
+      "title": "1 John 1:1–4",
+      "text": "Several first-person plural references (“we,” “our,” “us”) highlight the eyewitness testimony of John and other early Christians."
+    },
+    {
+      "ref": "1 John 1:5–10",
+      "title": "1 John 1:5–10",
+      "text": "“God is light” (v. 5 ) reflects the OT, where “light” symbolizes both knowledge and purity (see notes on John 1:4–5 ; 8:12 )."
+    }
+  ],
+  "notes": [
+    {
+      "ref": "1 John 1:1",
+      "text": "**From the beginning** likely refers to Christ’s existence before the dawn of time (see John 1:1 ). The Greek OT uses the same expression about the Lord and the Promised One in Hab. 1:12 and Mic. 5:1 . **seen . . . looked upon . . . touched**. John was an eyewitness to the physical and historical reality of Jesus’ life on earth."
+    },
+    {
+      "ref": "1 John 1:2",
+      "text": "**made manifest**. Jesus was publicly seen and known. He was sent from and revealed by God. **Life . . . eternal life** refers to the nature and quality of life in fellowship with God (see John 5:24 ). It was revealed in the life of Christ and then experienced by Christians."
+    },
+    {
+      "ref": "1 John 1:3",
+      "text": "**proclaim**. The purpose of this proclamation is not just forgiveness of people’s sins. It is **that you** (other believers) **too may have fellowship with us**. Believers also have fellowship** with the Father and with his Son**."
+    },
+    {
+      "ref": "1 John 1:4",
+      "text": "**writing . . . so that**. One of 1 John ’s goals is to promote **joy**. It is difficult to decide between “our joy” ( esv text) and “your joy” ( esv footnote). Very early and reliable manuscripts exist with each reading (the only difference is one letter in Greek). “Our” probably includes the readers (with the sense “all of our”; compare v. 3 )."
+    },
+    {
+      "ref": "1 John 1:6",
+      "text": "**If we say**. John may be summarizing what some were falsely claiming. If God is light (v. 5 ), then those who **walk in darkness** do not walk with God, no matter what they say."
+    },
+    {
+      "ref": "1 John 1:7",
+      "text": "**Walk in the light** means to reflect God’s perfection (see v. 5 ) in daily life. It includes both correct doctrine (truth) and moral purity (holiness). This phrase also implies that when Christians “walk in the light” their lives will not be characterized by hidden sins, lies, or deception."
+    },
+    {
+      "ref": "1 John 1:8",
+      "text": "**have no sin**. See note on 3:9–10 . **we deceive ourselves**. Some sin remains in every Christian’s life (“have” is present tense)."
+    },
+    {
+      "ref": "1 John 1:9",
+      "text": "Christians must **confess** (their) **sins**, first to receive salvation and then to stay in fellowship with God and one another (v. 3 )."
+    },
+    {
+      "ref": "1 John 1:10",
+      "text": "**have not sinned**. See note on 3:9–10 . **his word is not in us**. Until a person recognizes sin and the need for salvation, the gospel has not changed him."
+    }
+  ],
+  "chapter_intro": "God Is Light and Christ Is the Way."
 }

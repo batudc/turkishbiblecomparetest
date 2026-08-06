@@ -1,28 +1,33 @@
 {
   "source": "ESV Global Study Bible (Crossway) — Used under license",
   "book_intro": "The Blue Letter Bible ministry and the BLB Institute hold to the historical, conservative Christian faith, which includes a firm belief in the inerrancy of Scripture. Since the text and audio content provided by BLB represent a range of evangelical traditions, all of the ideas and principles conveyed in the resource materials are not necessarily affirmed, in total, by this ministry.\n\nBlue Letter Bible study tools make reading, searching and studying the Bible easy and rewarding.\n\nBlue Letter Bible is a 501(c)(3) nonprofit organization\n\nYou can copy the order of your preferred Bible translations from the Bibles Tab to the  Version Picker (this popup) or vice versa. The Bibles Tab is found in the Tools feature on Bible pages:\n\nNote: MLA no longer requires the URL as part of their citation standard. Individual instructors or editors may still require the use of URLs.\n\nError: Passwords should have at least 6 characters\n\nError: Usernames should only contain letters, numbers, dots, dashes, or underscores\n\nPasswords should have at least 6 characters.\n\t\t\t\t\t\t\tUsernames should only contain letters, numbers, dots, dashes, or underscores.\n\nThank you for registering. A verification email has been sent to the address you provided.\n\nYour partnership makes all we do possible. Would you prayerfully consider a gift of support today?",
-  "chapter_intro": "",
-  "passages": [],
-  "notes": [
-    {
-      "ref": "Ps. 141",
-      "text": "Psalm . This is an individual lament, a prayer that God will protect the faithful person against all insincerity and compromise."
-    },
+  "passages": [
     {
       "ref": "Ps. 141:1–2",
-      "text": "The singer asks God to give ear to my voice when I call to you! His prayer is compared to incense and the evening sacrifice, acts performed in worship."
+      "title": "Ps. 141:1–2",
+      "text": "The singer asks God to **give ear to my voice when I call to you!** His **prayer** is compared to **incense** and the evening **sacrifice**, acts performed in worship."
     },
     {
       "ref": "Ps. 141:3–5",
-      "text": "The singer may be tempted to avoid danger by joining the men who work iniquity; he asks God to help him avoid all such temptation. This prayer reveals great insight into how a person in such circumstances would actually feel."
+      "title": "Ps. 141:3–5",
+      "text": "The singer may be tempted to avoid danger by joining the **men who work iniquity**; he asks God to help him avoid all such temptation. This prayer reveals great insight into how a person in such circumstances would actually feel."
     },
     {
       "ref": "Ps. 141:6–7",
-      "text": "As the esv footnote explains, the Hebrew here is difficult. The main point is that eventually God will bring his judgment upon the judges. Then the faithful person will be vindicated, and the unfaithful might even learn wisdom."
+      "title": "Ps. 141:6–7",
+      "text": "As the esv footnote explains, the Hebrew here is difficult. The main point is that eventually God will bring his judgment upon the **judges**. Then the faithful person will be vindicated, and the unfaithful might even learn wisdom."
     },
     {
       "ref": "Ps. 141:8–10",
-      "text": "The prayer that God would keep me from falling prey to their schemes becomes a prayer that the wicked would fall into their own nets."
+      "title": "Ps. 141:8–10",
+      "text": "The prayer that God would **keep me** from falling prey to their schemes becomes a prayer that the **wicked** would **fall into their own nets**."
     }
-  ]
+  ],
+  "notes": [
+    {
+      "ref": "Ps. 141",
+      "text": "**Psalm** . This is an individual lament, a prayer that God will protect the faithful person against all insincerity and compromise."
+    }
+  ],
+  "chapter_intro": "Ps. 141:1–2"
 }

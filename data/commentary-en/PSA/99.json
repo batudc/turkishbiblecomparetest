@@ -1,28 +1,31 @@
 {
   "source": "ESV Global Study Bible (Crossway) — Used under license",
   "book_intro": "The Blue Letter Bible ministry and the BLB Institute hold to the historical, conservative Christian faith, which includes a firm belief in the inerrancy of Scripture. Since the text and audio content provided by BLB represent a range of evangelical traditions, all of the ideas and principles conveyed in the resource materials are not necessarily affirmed, in total, by this ministry.\n\nBlue Letter Bible study tools make reading, searching and studying the Bible easy and rewarding.\n\nBlue Letter Bible is a 501(c)(3) nonprofit organization\n\nYou can copy the order of your preferred Bible translations from the Bibles Tab to the  Version Picker (this popup) or vice versa. The Bibles Tab is found in the Tools feature on Bible pages:\n\nNote: MLA no longer requires the URL as part of their citation standard. Individual instructors or editors may still require the use of URLs.\n\nError: Passwords should have at least 6 characters\n\nError: Usernames should only contain letters, numbers, dots, dashes, or underscores\n\nPasswords should have at least 6 characters.\n\t\t\t\t\t\t\tUsernames should only contain letters, numbers, dots, dashes, or underscores.\n\nThank you for registering. A verification email has been sent to the address you provided.\n\nYour partnership makes all we do possible. Would you prayerfully consider a gift of support today?",
-  "chapter_intro": "",
-  "passages": [],
-  "notes": [
-    {
-      "ref": "Ps. 99",
-      "text": "Psalm . This is another hymn celebrating God’s kingship over all his creation. The focus is on his exalted holiness (vv. 3, 5, 9) and the amazing fact that he has made a way for his people to come into his presence without danger. Although the emphasis falls specifically on Israel, the element of universal hope for the Gentiles is also pres­ent (see vv. 2–3)."
-    },
+  "passages": [
     {
       "ref": "Ps. 99:1–5",
-      "text": "The first section stresses the stunning majesty of God’s kingship. It also emphasizes the proper human response (let the peoples tremble; let them praise your great and awesome name; exalt the Lord; worship). This universal God has established his just and gracious rule in Jacob. Among his chosen people, the perfect kingship of God is supposed to be on display. The place of worship (the sanctuary) is God’s footstool (see 132:7; 1 Chron. 28:2). This is in keeping with the royal image, where God the universal sovereign is the acknowledged king over his people."
-    },
-    {
-      "ref": "Ps. 99:4",
-      "text": "The might of this king is directed entirely toward good and pure ends: he loves justice. He combines absolute might with absolute right."
+      "title": "Ps. 99:1–5",
+      "text": "The first section stresses the stunning majesty of God’s kingship. It also emphasizes the proper human response (**let the peoples tremble**; **let them** **praise your great and awesome name**; **exalt the Lord**; **worship**). This universal God has established his just and gracious rule in **Jacob**. Among his chosen people, the perfect kingship of God is supposed to be on display. The place of worship (the sanctuary) is God’s **footstool** (see 132:7 ; 1 Chron. 28:2 ). This is in keeping with the royal image, where God the universal sovereign is the acknowledged king over his people."
     },
     {
       "ref": "Ps. 99:6–9",
-      "text": "These verses explore the wonder of being God’s people, whom he actually welcomes into his presence. In mentioning Moses, Aaron, and Samuel, the psalm reminds its singers of how these men were God’s gifts to lead his people. Those who worship at his holy mountain can be sure that God has preserved his people through servants like these. He has called each of his people to a similar life of faith and obedience."
+      "title": "Ps. 99:6–9",
+      "text": "These verses explore the wonder of being God’s people, whom he actually welcomes into his presence. In mentioning **Moses**, **Aaron**, and **Samuel**, the psalm reminds its singers of how these men were God’s gifts to lead his people. Those who **worship at his holy mountain** can be sure that God has preserved his people through servants like these. He has called each of his people to a similar life of faith and obedience."
+    }
+  ],
+  "notes": [
+    {
+      "ref": "Ps. 99",
+      "text": "**Psalm** . This is another hymn celebrating God’s kingship over all his creation. The focus is on his exalted holiness (vv. 3 , 5 , 9 ) and the amazing fact that he has made a way for his people to come into his presence without danger. Although the emphasis falls specifically on Israel, the element of universal hope for the Gentiles is also pres­ent (see vv. 2–3 )."
+    },
+    {
+      "ref": "Ps. 99:4",
+      "text": "The **might** of this king is directed entirely toward good and pure ends: he **loves justice**. He combines absolute might with absolute right."
     },
     {
       "ref": "Ps. 99:8",
-      "text": "God is a forgiving God, as he himself says in Ex. 34:7. His people, even the best of them (Moses, Aaron, and Samuel; Ps. 99:6), rely on this, not on their own moral excellence."
+      "text": "God is a** forgiving God**, as he himself says in Ex. 34:7 . His people, even the best of **them** (Moses, Aaron, and Samuel; Ps. 99:6 ), rely on this, not on their own moral excellence."
     }
-  ]
+  ],
+  "chapter_intro": "Ps. 99:1–5"
 }

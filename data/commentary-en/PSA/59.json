@@ -1,24 +1,26 @@
 {
   "source": "ESV Global Study Bible (Crossway) — Used under license",
   "book_intro": "The Blue Letter Bible ministry and the BLB Institute hold to the historical, conservative Christian faith, which includes a firm belief in the inerrancy of Scripture. Since the text and audio content provided by BLB represent a range of evangelical traditions, all of the ideas and principles conveyed in the resource materials are not necessarily affirmed, in total, by this ministry.\n\nBlue Letter Bible study tools make reading, searching and studying the Bible easy and rewarding.\n\nBlue Letter Bible is a 501(c)(3) nonprofit organization\n\nYou can copy the order of your preferred Bible translations from the Bibles Tab to the  Version Picker (this popup) or vice versa. The Bibles Tab is found in the Tools feature on Bible pages:\n\nNote: MLA no longer requires the URL as part of their citation standard. Individual instructors or editors may still require the use of URLs.\n\nError: Passwords should have at least 6 characters\n\nError: Usernames should only contain letters, numbers, dots, dashes, or underscores\n\nPasswords should have at least 6 characters.\n\t\t\t\t\t\t\tUsernames should only contain letters, numbers, dots, dashes, or underscores.\n\nThank you for registering. A verification email has been sent to the address you provided.\n\nYour partnership makes all we do possible. Would you prayerfully consider a gift of support today?",
-  "chapter_intro": "",
-  "passages": [],
+  "passages": [
+    {
+      "ref": "Ps. 59:11–17",
+      "title": "Ps. 59:11–17",
+      "text": "The basic request is that God will bring judgment on these people in such a way that all people, both in Israel (**my people**, v. 11 ) and elsewhere (**to the ends of the earth**, v. 13 ), **may know that** a just, loving, and mighty God rules over Jacob and protects his faithful."
+    }
+  ],
   "notes": [
     {
       "ref": "Ps. 59",
-      "text": "Psalm . This is an individual lament, seeking God’s protection from enemies who threaten the faithful person’s life. The title connects the psalm to 1 Sam. 19:11, where David escaped from Saul’s men through a window. The psalm is geared for the particular case in which the hostility is “for no fault of mine” (Ps. 59:4). The song has two sections (vv. 1–10, 11–17). The first section is a cry for help, and the second section expresses confidence that God will protect the singer."
+      "text": "**Psalm** . This is an individual lament, seeking God’s protection from enemies who threaten the faithful person’s life. The title connects the psalm to 1 Sam. 19:11 , where David escaped from Saul’s men through a window. The psalm is geared for the particular case in which the hostility is “for no fault of mine” ( Ps. 59:4 ). The song has two sections (vv. 1–10 , 11–17 ). The first section is a cry for help, and the second section expresses confidence that God will protect the singer."
     },
     {
       "ref": "Ps. 59:5",
-      "text": "Nations (see v. 8) usually refers to Gentiles. The title, however, sets the psalm in a situation in which the enemies are Israelites. The psalm describes these Israelites who sought to kill David as acting like Gentiles (see note on 54:3)."
+      "text": "**Nations** (see v. 8 ) usually refers to Gentiles. The title, however, sets the psalm in a situation in which the enemies are Israelites. The psalm describes these Israelites who sought to kill David as acting like Gentiles (see note on 54:3 )."
     },
     {
       "ref": "Ps. 59:6",
-      "text": "The singer’s enemies are howling like dogs, prowling about the city like a pack of semi-wild scavengers. Thus they posed a danger to any human who might venture out alone in the evening. But God is greater than these enemies. He can easily thwart their schemes (vv. 8–10)."
-    },
-    {
-      "ref": "Ps. 59:11–17",
-      "text": "The basic request is that God will bring judgment on these people in such a way that all people, both in Israel (my people, v. 11) and elsewhere (to the ends of the earth, v. 13), may know that a just, loving, and mighty God rules over Jacob and protects his faithful."
+      "text": "The singer’s enemies are **howling like dogs**, **prowling about the city** like a pack of semi-wild scavengers. Thus they posed a danger to any human who might venture out alone in the **evening**. But God is greater than these enemies. He can easily thwart their schemes (vv. 8–10 )."
     }
-  ]
+  ],
+  "chapter_intro": "Ps. 59:11–17"
 }

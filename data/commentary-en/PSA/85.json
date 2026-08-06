@@ -1,32 +1,37 @@
 {
   "source": "ESV Global Study Bible (Crossway) — Used under license",
   "book_intro": "The Blue Letter Bible ministry and the BLB Institute hold to the historical, conservative Christian faith, which includes a firm belief in the inerrancy of Scripture. Since the text and audio content provided by BLB represent a range of evangelical traditions, all of the ideas and principles conveyed in the resource materials are not necessarily affirmed, in total, by this ministry.\n\nBlue Letter Bible study tools make reading, searching and studying the Bible easy and rewarding.\n\nBlue Letter Bible is a 501(c)(3) nonprofit organization\n\nYou can copy the order of your preferred Bible translations from the Bibles Tab to the  Version Picker (this popup) or vice versa. The Bibles Tab is found in the Tools feature on Bible pages:\n\nNote: MLA no longer requires the URL as part of their citation standard. Individual instructors or editors may still require the use of URLs.\n\nError: Passwords should have at least 6 characters\n\nError: Usernames should only contain letters, numbers, dots, dashes, or underscores\n\nPasswords should have at least 6 characters.\n\t\t\t\t\t\t\tUsernames should only contain letters, numbers, dots, dashes, or underscores.\n\nThank you for registering. A verification email has been sent to the address you provided.\n\nYour partnership makes all we do possible. Would you prayerfully consider a gift of support today?",
-  "chapter_intro": "",
-  "passages": [],
-  "notes": [
-    {
-      "ref": "Ps. 85",
-      "text": "Psalm . This is a community lament. It occurs at a time when God has shown his displeasure over his people’s unfaithfulness, perhaps by withholding fruitfulness from the land (vv. 1, 12). The people singing this are seeking forgiveness for the whole people (“us”), asking God to show the steadfast love and faithfulness he proclaimed in Ex. 34:6. Because God is righteous (Ps. 85:10–11, 13)—that is, reliable about his promises—the psalm closes with confidence."
-    },
+  "passages": [
     {
       "ref": "Ps. 85:1–3",
-      "text": "The verbs in this section are all past tense, looking back to what God has done for the people. Forgave the iniquity recalls Ex. 34:7. Turned from your hot anger (see Ex. 32:12) implies that God forgave his people after they repented of serious unfaithfulness. God has done this in the past for his people, because he is exceedingly kind."
+      "title": "Ps. 85:1–3",
+      "text": "The verbs in this section are all past tense, looking back to what God has done for the people. **Forgave the iniquity** recalls Ex. 34:7 . **Turned from your hot anger** (see Ex. 32:12 ) implies that God forgave his people after they repented of serious unfaithfulness. God has done this in the past for his people, because he is exceedingly kind."
     },
     {
       "ref": "Ps. 85:4–7",
-      "text": "The next section appeals to the compassion God has claimed and shown, asking him to restore us again, that is, put away your indignation toward us. For God to be angry with us forever would be contrary to this revealed character. Therefore the people pray, show us your steadfast love (proclaimed in Ex. 34:6), and grant us your salvation."
+      "title": "Ps. 85:4–7",
+      "text": "The next section appeals to the compassion God has claimed and shown, asking him to **restore us again**, that is, **put away your indignation toward us**. For God to **be angry with us forever** would be contrary to this revealed character. Therefore the people pray, **show us your steadfast love** (proclaimed in Ex. 34:6 ), **and grant us your salvation**."
     },
     {
       "ref": "Ps. 85:8–9",
-      "text": "Now the members of the congregation declare their patience in watching for God to act on their prayer. The song has shifted from the plural “we” to the singular “I”: let me hear. Each member is thus making this pledge. There is confidence that God will speak peace to his people, that is, he will agree to the reconciliation they have asked for in vv. 4–7. At the same time, the psalmist prays, let them not turn back to folly. The people who are appealing to God’s kindness should make sure that their repentance is genuine."
-    },
-    {
-      "ref": "Ps. 85:9",
-      "text": "glory may dwell in our land. The “glory” is God’s special presence with his people (see note on 63:1–2); see Ex. 24:16 for the same expression."
+      "title": "Ps. 85:8–9",
+      "text": "Now the members of the congregation declare their patience in watching for God to act on their prayer. The song has shifted from the plural “we” to the singular “I”: **let me hear**. Each member is thus making this pledge. There is confidence that God **will speak peace to his people**, that is, he will agree to the reconciliation they have asked for in vv. 4–7 . At the same time, the psalmist prays, **let them not turn back to folly**. The people who are appealing to God’s kindness should make sure that their repentance is genuine."
     },
     {
       "ref": "Ps. 85:10–13",
-      "text": "The psalm closes with confidence that God will hear their prayer and give them what they ask. Steadfast love and faithfulness meet, that is, in God they are in harmony. God’s righteousness here is his reliability in keeping his promises (especially to his people), and therefore it guarantees the peace (see v. 8). They kiss each other like the affectionate greeting of relatives (e.g., Gen. 29:13; 45:15)."
+      "title": "Ps. 85:10–13",
+      "text": "The psalm closes with confidence that God will hear their prayer and give them what they ask. **Steadfast love and faithfulness meet**, that is, in God they are in harmony. God’s **righteousness** here is his reliability in keeping his promises (especially to his people), and therefore it guarantees the **peace** (see v. 8 ). They **kiss each other** like the affectionate greeting of relatives (e.g., Gen. 29:13 ; 45:15 )."
     }
-  ]
+  ],
+  "notes": [
+    {
+      "ref": "Ps. 85",
+      "text": "**Psalm** . This is a community lament. It occurs at a time when God has shown his displeasure over his people’s unfaithfulness, perhaps by withholding fruitfulness from the land (vv. 1 , 12 ). The people singing this are seeking forgiveness for the whole people (“us”), asking God to show the steadfast love and faithfulness he proclaimed in Ex. 34:6 . Because God is righteous ( Ps. 85:10–11 , 13 )—that is, reliable about his promises—the psalm closes with confidence."
+    },
+    {
+      "ref": "Ps. 85:9",
+      "text": "**glory may dwell in our land**. The “glory” is God’s special presence with his people (see note on 63:1–2 ); see Ex. 24:16 for the same expression."
+    }
+  ],
+  "chapter_intro": "Ps. 85:1–3"
 }

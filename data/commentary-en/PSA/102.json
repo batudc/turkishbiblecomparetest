@@ -1,44 +1,52 @@
 {
   "source": "ESV Global Study Bible (Crossway) — Used under license",
   "book_intro": "The Blue Letter Bible ministry and the BLB Institute hold to the historical, conservative Christian faith, which includes a firm belief in the inerrancy of Scripture. Since the text and audio content provided by BLB represent a range of evangelical traditions, all of the ideas and principles conveyed in the resource materials are not necessarily affirmed, in total, by this ministry.\n\nBlue Letter Bible study tools make reading, searching and studying the Bible easy and rewarding.\n\nBlue Letter Bible is a 501(c)(3) nonprofit organization\n\nYou can copy the order of your preferred Bible translations from the Bibles Tab to the  Version Picker (this popup) or vice versa. The Bibles Tab is found in the Tools feature on Bible pages:\n\nNote: MLA no longer requires the URL as part of their citation standard. Individual instructors or editors may still require the use of URLs.\n\nError: Passwords should have at least 6 characters\n\nError: Usernames should only contain letters, numbers, dots, dashes, or underscores\n\nPasswords should have at least 6 characters.\n\t\t\t\t\t\t\tUsernames should only contain letters, numbers, dots, dashes, or underscores.\n\nThank you for registering. A verification email has been sent to the address you provided.\n\nYour partnership makes all we do possible. Would you prayerfully consider a gift of support today?",
-  "chapter_intro": "",
-  "passages": [],
-  "notes": [
-    {
-      "ref": "Ps. 102",
-      "text": "Psalm . The title, “A Prayer of one afflicted,” makes it clear that this is an individual lament. At the same time, it is certainly not individualistic: the “I” who sings this (vv. 1–11, 23–24) sees himself as a member of a community, Zion (vv. 12–22). His own well-being is ultimately bound up with the promised well-being of God’s people. The psalm also contrasts the shortness of human life (v. 3, “my days pass away”; v. 11, “I wither away”; vv. 23–24) with God’s enduring life (vv. 12, 25–28). The psalm is suited for one like Job, whose troubles seem to be unexplained. Even God’s “indignation and anger” (v. 10) do not appear to be directed toward any specific sin. Those singing this prayer need to trust in God’s ultimate purposes for the whole people of God and look forward to participation in that blessedness (vv. 13, 21–22, 28)."
-    },
+  "passages": [
     {
       "ref": "Ps. 102:1–2",
-      "text": "The psalm opens on a note of bold urgency. The cry is desperate, and the singer wants God to respond speedily. He fears that God may continue to hide his face from me (see note on 13:1; see 30:7; 44:24; 69:17; 88:14; 143:7). The faithful can present their troubles to God with confidence."
+      "title": "Ps. 102:1–2",
+      "text": "The psalm opens on a note of bold urgency. The **cry** is desperate, and the singer wants God to respond **speedily**. He fears that God may continue to **hide** his** face from me** (see note on 13:1 ; see 30:7 ; 44:24 ; 69:17 ; 88:14 ; 143:7 ). The faithful can present their troubles to God with confidence."
     },
     {
       "ref": "Ps. 102:3–11",
-      "text": "The singer focuses on his sense of discouragement: bones burn, heart is struck down, forget to eat my bread, loud groaning, my bones cling to my flesh. These images describe what it feels like to be consumed by sorrow, which has withering effects on one’s body. A person feeling such things inevitably senses his own mortality: his days pass away like smoke (v. 3; that is, quickly) and are like an evening shadow (v. 11; that is, soon gone)."
+      "title": "Ps. 102:3–11",
+      "text": "The singer focuses on his sense of discouragement: **bones burn**, **heart is struck down**, **forget to eat my bread**, **loud groaning**, **my bones cling to my flesh**. These images describe what it feels like to be consumed by sorrow, which has withering effects on one’s body. A person feeling such things inevitably senses his own mortality: his **days pass away like smoke** (v. 3 ; that is, quickly) and **are like an evening shadow** (v. 11 ; that is, soon gone)."
     },
     {
       "ref": "Ps. 102:12–17",
-      "text": "The enduring reign of God (enthroned forever, remembered throughout all generations) brings about the ultimate success of his saving purposes in the world (v. 15). Since God does not despise their prayer, the afflicted can be assured that their momentary grieving is part of a larger scheme."
+      "title": "Ps. 102:12–17",
+      "text": "The enduring reign of God (**enthroned forever**, **remembered throughout all generations**) brings about the ultimate success of his saving purposes in the world (v. 15 ). Since God **does not despise their prayer**, the afflicted can be assured that their momentary grieving is part of a larger scheme."
     },
     {
       "ref": "Ps. 102:18–22",
-      "text": "The days of Zion’s glory lie in the future, in the time of a generation to come. They will need this record of God’s promises and faithfulness to his people of all eras. The time will come when God’s people will reflect on how God looked down . . . to hear and will lift their voices to declare in Zion the name of the Lord. Apparently the Gentiles will also celebrate (see v. 15)."
+      "title": "Ps. 102:18–22",
+      "text": "The days of Zion’s glory lie in the future, in the time of **a generation to come**. They will need this record of God’s promises and faithfulness to his people of all eras. The time will come when God’s people will reflect on how God **looked down . . . to hear** and will lift their voices to **declare in Zion the name of the Lord**. Apparently the Gentiles will also celebrate (see v. 15 )."
     },
     {
       "ref": "Ps. 102:23–24",
-      "text": "The person who feels what vv. 3–11 describes is keenly aware of his own mortality. It seems like the troubles will shorten his life even further. The prayer is that the God whose years endure throughout all generations would preserve the life of his faithful ones, so that they may see Zion’s wonderful future."
+      "title": "Ps. 102:23–24",
+      "text": "The person who feels what vv. 3–11 describes is keenly aware of his own mortality. It seems like the troubles will shorten his life even further. The prayer is that the God **whose years endure throughout all generations** would preserve the life of his faithful ones, so that they may see Zion’s wonderful future."
     },
     {
       "ref": "Ps. 102:25–28",
-      "text": "The psalm finishes with words addressed to God, focusing on his everlasting being and purpose. Though the earth and heavens will perish and will all wear out like a garment, God will remain. Thus the psalm closes with confidence, expecting God to keep his promises to many faithful generations descended from today’s faithful (v. 28)."
+      "title": "Ps. 102:25–28",
+      "text": "The psalm finishes with words addressed to God, focusing on his everlasting being and purpose. Though the earth and heavens **will perish** and **will all wear out like a garment**, God **will remain**. Thus the psalm closes with confidence, expecting God to keep his promises to many faithful generations descended from today’s faithful (v. 28 )."
     },
     {
       "ref": "Ps. 102:25–27",
-      "text": "See note on Heb. 1:10–12."
+      "title": "Ps. 102:25–27",
+      "text": "See note on Heb. 1:10–12 ."
+    }
+  ],
+  "notes": [
+    {
+      "ref": "Ps. 102",
+      "text": "**Psalm** . The title, “A Prayer of one afflicted,” makes it clear that this is an individual lament. At the same time, it is certainly not individualistic: the “I” who sings this (vv. 1–11 , 23–24 ) sees himself as a member of a community, Zion (vv. 12–22 ). His own well-being is ultimately bound up with the promised well-being of God’s people. The psalm also contrasts the shortness of human life (v. 3 , “my days pass away”; v. 11 , “I wither away”; vv. 23–24 ) with God’s enduring life (vv. 12 , 25–28 ). The psalm is suited for one like Job, whose troubles seem to be unexplained. Even God’s “indignation and anger” (v. 10 ) do not appear to be directed toward any specific sin. Those singing this prayer need to trust in God’s ultimate purposes for the whole people of God and look forward to participation in that blessedness (vv. 13 , 21–22 , 28 )."
     },
     {
       "ref": "Ps. 102:28",
-      "text": "children . . . offspring. The Lord, who is everlasting, can ensure that the descendants of his servants will dwell secure, that is, will enjoy God’s love and Zion’s future."
+      "text": "**children . . . offspring**. The Lord, who is everlasting, can ensure that the descendants of his **servants** will **dwell secure**, that is, will enjoy God’s love and Zion’s future."
     }
-  ]
+  ],
+  "chapter_intro": "Ps. 102:1–2"
 }

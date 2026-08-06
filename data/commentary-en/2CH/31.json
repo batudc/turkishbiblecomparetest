@@ -1,32 +1,36 @@
 {
   "source": "ESV Global Study Bible (Crossway) — Used under license",
   "book_intro": "The Blue Letter Bible ministry and the BLB Institute hold to the historical, conservative Christian faith, which includes a firm belief in the inerrancy of Scripture. Since the text and audio content provided by BLB represent a range of evangelical traditions, all of the ideas and principles conveyed in the resource materials are not necessarily affirmed, in total, by this ministry.\n\nBlue Letter Bible study tools make reading, searching and studying the Bible easy and rewarding.\n\nBlue Letter Bible is a 501(c)(3) nonprofit organization\n\nYou can copy the order of your preferred Bible translations from the Bibles Tab to the  Version Picker (this popup) or vice versa. The Bibles Tab is found in the Tools feature on Bible pages:\n\nNote: MLA no longer requires the URL as part of their citation standard. Individual instructors or editors may still require the use of URLs.\n\nError: Passwords should have at least 6 characters\n\nError: Usernames should only contain letters, numbers, dots, dashes, or underscores\n\nPasswords should have at least 6 characters.\n\t\t\t\t\t\t\tUsernames should only contain letters, numbers, dots, dashes, or underscores.\n\nThank you for registering. A verification email has been sent to the address you provided.\n\nYour partnership makes all we do possible. Would you prayerfully consider a gift of support today?",
-  "chapter_intro": "",
-  "passages": [],
-  "notes": [
-    {
-      "ref": "2 Chron. 31:1",
-      "text": "all Israel. The festival united Judah and Israel and led to a popular movement to end pagan worship."
-    },
+  "passages": [
     {
       "ref": "2 Chron. 31:2–21",
-      "text": "The final stage in Hezekiah’s reforms is the restoration of the temple services, which evidently ceased when Ahaz closed the temple (28:24). This requires reorganization of the priests and Levites (31:2). It also requires that the people resume their tithes and offerings (vv. 4–19). Because of Hezekiah’s faithful leadership in these reforms, the Lord blesses the nation (vv. 10, 21)."
-    },
-    {
-      "ref": "2 Chron. 31:3",
-      "text": "Hezekiah leads with the example of his own generosity, as David did before (1 Chron. 29:2–5)."
+      "title": "2 Chron. 31:2–21",
+      "text": "The final stage in Hezekiah’s reforms is the restoration of the temple services, which evidently ceased when Ahaz closed the temple ( 28:24 ). This requires reorganization of the priests and Levites ( 31:2 ). It also requires that the people resume their tithes and offerings (vv. 4–19 ). Because of Hezekiah’s faithful leadership in these reforms, the Lord blesses the nation (vv. 10 , 21 )."
     },
     {
       "ref": "2 Chron. 31:5–6",
-      "text": "The firstfruits were for the priests (Num. 18:12–13) and the tithes were for the Levites (Num. 18:21, 24)."
-    },
-    {
-      "ref": "2 Chron. 31:7",
-      "text": "The gathering of food lasts from the grain harvest in the third month (May–June, the Feast of Weeks or Pentecost) until the fruit and vine harvest in the seventh month (September–October, the Feast of Ingathering or Tabernacles). On these occasions and at Passover, all Israelite men were to come to the temple (Ex. 23:16–17)."
+      "title": "2 Chron. 31:5–6",
+      "text": "The **firstfruits** were for the priests ( Num. 18:12–13 ) and the tithes were for the Levites ( Num. 18:21 , 24 )."
     },
     {
       "ref": "2 Chron. 31:16–18",
-      "text": "Distribution of food was made to priests and their families, including provision for males from three years old, the age by which they had been weaned."
+      "title": "2 Chron. 31:16–18",
+      "text": "Distribution of food was made to **priests** and their families, including provision for **males from three years old**, the age by which they had been weaned."
     }
-  ]
+  ],
+  "notes": [
+    {
+      "ref": "2 Chron. 31:1",
+      "text": "**all Israel**. The festival united Judah and Israel and led to a popular movement to end pagan worship."
+    },
+    {
+      "ref": "2 Chron. 31:3",
+      "text": "Hezekiah leads with the example of his own generosity, as David did before ( 1 Chron. 29:2–5 )."
+    },
+    {
+      "ref": "2 Chron. 31:7",
+      "text": "The gathering of food lasts from the grain harvest in **the third month** (May–June, the Feast of Weeks or Pentecost) until the fruit and vine harvest in **the seventh month** (September–October, the Feast of Ingathering or Tabernacles). On these occasions and at Passover, all Israelite men were to come to the temple ( Ex. 23:16–17 )."
+    }
+  ],
+  "chapter_intro": "2 Chron. 31:2–21"
 }

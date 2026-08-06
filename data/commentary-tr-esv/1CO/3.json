@@ -1,39 +1,43 @@
 {
+  "source": "ESV Global Study Bible (Crossway) — Türkçe çeviri — Google Translate — Lisans kapsamında kullanılmaktadır",
   "book_intro": "Blue Letter Bible bakanlığı ve BLB Enstitüsü, Kutsal Yazıların tahrif edilemezliğine olan kesin inancı da içeren tarihsel, muhafazakar Hristiyan inancına bağlıdır. BLB tarafından sağlanan metin ve ses içeriği çeşitli Evanjelik gelenekleri temsil ettiğinden, kaynak materyallerde aktarılan tüm fikir ve ilkelerin bu bakanlık tarafından toplamda onaylanması gerekmez.\n\nBlue Letter Kutsal Kitap çalışma araçları Kutsal Kitap'ı okumayı, araştırmayı ve çalışmayı kolay ve ödüllendirici hale getirir.\n\nBlue Letter Bible 501(c)(3) kar amacı gütmeyen bir kuruluştur\n\nTercih ettiğiniz Kutsal Kitap çevirilerinin sırasını Kutsal Kitaplar Sekmesi'nden Sürüm Seçici'ye (bu açılır pencere) kopyalayabilir veya tam tersini yapabilirsiniz. Kutsal Kitaplar Sekmesi, Kutsal Kitap sayfalarındaki Araçlar özelliğinde bulunur:\n\nNot: MLA artık atıf standartlarının bir parçası olarak URL'yi zorunlu tutmamaktadır. Bireysel eğitmenler veya editörler yine de URL'lerin kullanılmasını isteyebilir.\n\nHata: Parolalar en az 6 karakterden oluşmalıdır\n\nHata: Kullanıcı adları yalnızca harf, rakam, nokta, tire veya alt çizgi içermelidir\n\nParolalar en az 6 karakterden oluşmalıdır.\n\t\t\t\t\t\t\tKullanıcı adları yalnızca harf, rakam, nokta, tire veya alt çizgi içermelidir.\n\nKaydolduğunuz için teşekkür ederiz. Verdiğiniz adrese bir doğrulama e-postası gönderildi.\n\nOrtaklığınız tüm yaptıklarımızı mümkün kılıyor. Bugün dua ederek bir destek hediyesi vermeyi düşünür müsünüz?",
-  "passages": [],
-  "notes": [
+  "passages": [
     {
       "ref": "1 Cor. 3:1–3",
-      "text": ""
-    },
-    {
-      "ref": "1 Cor. 3:2",
-      "text": ""
-    },
-    {
-      "ref": "1 Cor. 3:8",
-      "text": ""
-    },
-    {
-      "ref": "1 Cor. 3:12",
-      "text": ""
+      "title": "1 Kor. 3:1–3",
+      "text": "**Et** Kutsal Yazılarda farklı anlamlara gelebilir. Pavlus'un mektuplarında genellikle arınmamış insan doğasından, onun arzularından ve tipik davranışlarından söz edilir."
     },
     {
       "ref": "1 Cor. 3:14–15",
-      "text": ""
-    },
-    {
-      "ref": "1 Cor. 3:16",
-      "text": ""
+      "title": "1 Kor. 3:14–15",
+      "text": "**ödül. . . . kayıp . . . kaydedildi. . . sanki ateşten geçiyormuş gibi**. Ayrıca bkz. ayet 8 ve 4:4–5. İsa'ya inananlar zaten imanla aklanmıştır (Romalılar 5:1). Kıyamet gününde mahkûm edilmeyecekler (Yuhanna 5:24; Romalılar 8:1), ama Tanrı yine de onların işlerini yargılayacak (Romalılar 14:10–12; 2 Korintliler 5:10) ve onları buna göre ödüllendirecek (Mat. 6:1–6; 16; 18; 10:41–42)."
     },
     {
       "ref": "1 Cor. 3:21–23",
-      "text": ""
+      "title": "1 Kor. 3:21–23",
+      "text": "**kimsenin erkeklerle övünmesine izin vermeyin**. Kibir Korint'te bölünmeye neden olur (4:6, 18). Korintosluların kendilerini vaftiz eden liderlere değil, Tanrı'ya ait olduklarını öğrenmeleri gerekiyor (1:13-17)."
+    }
+  ],
+  "notes": [
+    {
+      "ref": "1 Cor. 3:2",
+      "text": "**hazır değil**. Pavlus ruhen olgunlaşmamış Hıristiyanlara ileri düzeyde öğretim vermenin tehlikeli olduğunu düşünüyor."
+    },
+    {
+      "ref": "1 Cor. 3:8",
+      "text": "**emeğine göre ücret**. Vv ile ilgili nota bakın. 14–15 ."
+    },
+    {
+      "ref": "1 Cor. 3:12",
+      "text": "**Altın, gümüş, değerli taşlar**, **tahta**, ** saman** ve **saman**'dan farklı olarak, nihai karardan sonra hayatta kalacak şeyleri sembolize eder. Hıristiyanların Mesih'e benzer bir inanç ve itaatle (10-11. ayetler) yaptıkları işler hayatta kalacak ve ödüllendirilecektir. “Bedenle” (ayet 1) veya Kutsal Yazılara itaatsizlikle (4:6) yapılan iş geçerli olmayacaktır."
+    },
+    {
+      "ref": "1 Cor. 3:16",
+      "text": "**Tapınak** ve Tanrı'nın meskeni hakkında bkz. 1. Krallar 6:1–38."
     },
     {
       "ref": "1 Cor. 3:21",
-      "text": ""
+      "text": "**Her şey senindir**, bunların Tanrı tarafından halkının yararı için verildiği anlamına gelir."
     }
-  ],
-  "source": "ESV Global Study Bible (Crossway) — Used under license"
+  ]
 }

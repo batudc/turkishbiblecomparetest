@@ -1,20 +1,23 @@
 {
   "source": "ESV Global Study Bible (Crossway) — Used under license",
   "book_intro": "The Blue Letter Bible ministry and the BLB Institute hold to the historical, conservative Christian faith, which includes a firm belief in the inerrancy of Scripture. Since the text and audio content provided by BLB represent a range of evangelical traditions, all of the ideas and principles conveyed in the resource materials are not necessarily affirmed, in total, by this ministry.\n\nBlue Letter Bible study tools make reading, searching and studying the Bible easy and rewarding.\n\nBlue Letter Bible is a 501(c)(3) nonprofit organization\n\nYou can copy the order of your preferred Bible translations from the Bibles Tab to the  Version Picker (this popup) or vice versa. The Bibles Tab is found in the Tools feature on Bible pages:\n\nNote: MLA no longer requires the URL as part of their citation standard. Individual instructors or editors may still require the use of URLs.\n\nError: Passwords should have at least 6 characters\n\nError: Usernames should only contain letters, numbers, dots, dashes, or underscores\n\nPasswords should have at least 6 characters.\n\t\t\t\t\t\t\tUsernames should only contain letters, numbers, dots, dashes, or underscores.\n\nThank you for registering. A verification email has been sent to the address you provided.\n\nYour partnership makes all we do possible. Would you prayerfully consider a gift of support today?",
-  "chapter_intro": "",
-  "passages": [],
-  "notes": [
-    {
-      "ref": "Ps. 130",
-      "text": "Psalm . This is an individual lament, expressing repentance and trust in God’s mercy. The psalm climbs from “out of the depths” of misery over one’s sin, to confession of it (vv. 3–4), to hope (vv. 5–6) and assurance (vv. 7–8). The ideal Israel is a people where every member readily acknowledges dependence on God’s mercy and grace."
-    },
+  "passages": [
     {
       "ref": "Ps. 130:3–4",
-      "text": "If God should mark iniquities (as if he kept them in a record book), no one, not even the faithful who are singing this, could stand. And yet with the Lord there is forgiveness (compare 86:5; 103:3; Dan. 9:9). This is why he may be feared (that is, worshiped and served in loving reverence)."
+      "title": "Ps. 130:3–4",
+      "text": "If God **should mark iniquities** (as if he kept them in a record book), no one, not even the faithful who are singing this, **could stand**. And yet **with** the Lord **there is forgiveness** (compare 86:5 ; 103:3 ; Dan. 9:9 ). This is why he **may be feared** (that is, worshiped and served in loving reverence)."
     },
     {
       "ref": "Ps. 130:5–8",
-      "text": "His word in this context probably refers to the word of forgiveness connected with the sacrifices (e.g., Lev. 4:21)."
+      "title": "Ps. 130:5–8",
+      "text": "** His word** in this context probably refers to the word of forgiveness connected with the sacrifices (e.g., Lev. 4:21 )."
     }
-  ]
+  ],
+  "notes": [
+    {
+      "ref": "Ps. 130",
+      "text": "**Psalm** . This is an individual lament, expressing repentance and trust in God’s mercy. The psalm climbs from “out of the depths” of misery over one’s sin, to confession of it (vv. 3–4 ), to hope (vv. 5–6 ) and assurance (vv. 7–8 ). The ideal Israel is a people where every member readily acknowledges dependence on God’s mercy and grace."
+    }
+  ],
+  "chapter_intro": "Ps. 130:3–4"
 }

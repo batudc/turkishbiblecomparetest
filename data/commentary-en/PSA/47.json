@@ -1,24 +1,28 @@
 {
   "source": "ESV Global Study Bible (Crossway) — Used under license",
   "book_intro": "The Blue Letter Bible ministry and the BLB Institute hold to the historical, conservative Christian faith, which includes a firm belief in the inerrancy of Scripture. Since the text and audio content provided by BLB represent a range of evangelical traditions, all of the ideas and principles conveyed in the resource materials are not necessarily affirmed, in total, by this ministry.\n\nBlue Letter Bible study tools make reading, searching and studying the Bible easy and rewarding.\n\nBlue Letter Bible is a 501(c)(3) nonprofit organization\n\nYou can copy the order of your preferred Bible translations from the Bibles Tab to the  Version Picker (this popup) or vice versa. The Bibles Tab is found in the Tools feature on Bible pages:\n\nNote: MLA no longer requires the URL as part of their citation standard. Individual instructors or editors may still require the use of URLs.\n\nError: Passwords should have at least 6 characters\n\nError: Usernames should only contain letters, numbers, dots, dashes, or underscores\n\nPasswords should have at least 6 characters.\n\t\t\t\t\t\t\tUsernames should only contain letters, numbers, dots, dashes, or underscores.\n\nThank you for registering. A verification email has been sent to the address you provided.\n\nYour partnership makes all we do possible. Would you prayerfully consider a gift of support today?",
-  "chapter_intro": "",
-  "passages": [],
-  "notes": [
-    {
-      "ref": "Ps. 47",
-      "text": "Psalm . This psalm celebrates God’s rule over all the earth (see note on 5:2). The promises to Abraham (47:9), that all peoples will be blessed in him (Gen. 12:3), are founded on the fact that there is only one true God. All mankind owes him love and loyalty."
-    },
+  "passages": [
     {
       "ref": "Ps. 47:1–4",
-      "text": "The Lord loves Israel and gave them their heritage. They hold this special place in order to show all peoples how to fear and love God. God’s subduing of the Canaanites is not his final word for the Gentiles."
+      "title": "Ps. 47:1–4",
+      "text": "The Lord **loves** Israel and gave them their **heritage**. They hold this special place in order to show **all peoples** how to fear and love God. God’s subduing of the Canaanites is not his final word for the Gentiles."
     },
     {
       "ref": "Ps. 47:5–7",
-      "text": "This probably looks back to the ark going to reside in Jerusalem. Second Samuel 6:15 tells of how the ark was made to go up with a shout (see Psalm 24)."
+      "title": "Ps. 47:5–7",
+      "text": "This probably looks back to the ark going to reside in Jerusalem. Second Samuel 6:15 tells of how the ark was made to go **up with a shout** (see Psalm 24 )."
     },
     {
       "ref": "Ps. 47:8–9",
-      "text": "The psalm looks forward to the day when the Gentile princes of the peoples gather for worship as the people of the God of Abraham, that is, the people to whom the blessing of Abraham has finally come."
+      "title": "Ps. 47:8–9",
+      "text": "The psalm looks forward to the day when the Gentile **princes of the peoples gather** for worship **as the people of the God of Abraham**, that is, the people to whom the blessing of Abraham has finally come."
     }
-  ]
+  ],
+  "notes": [
+    {
+      "ref": "Ps. 47",
+      "text": "**Psalm** . This psalm celebrates God’s rule over all the earth (see note on 5:2 ). The promises to Abraham ( 47:9 ), that all peoples will be blessed in him ( Gen. 12:3 ), are founded on the fact that there is only one true God. All mankind owes him love and loyalty."
+    }
+  ],
+  "chapter_intro": "Ps. 47:1–4"
 }

@@ -1,28 +1,34 @@
 {
   "source": "ESV Global Study Bible (Crossway) — Used under license",
   "book_intro": "The Blue Letter Bible ministry and the BLB Institute hold to the historical, conservative Christian faith, which includes a firm belief in the inerrancy of Scripture. Since the text and audio content provided by BLB represent a range of evangelical traditions, all of the ideas and principles conveyed in the resource materials are not necessarily affirmed, in total, by this ministry.\n\nBlue Letter Bible study tools make reading, searching and studying the Bible easy and rewarding.\n\nBlue Letter Bible is a 501(c)(3) nonprofit organization\n\nYou can copy the order of your preferred Bible translations from the Bibles Tab to the  Version Picker (this popup) or vice versa. The Bibles Tab is found in the Tools feature on Bible pages:\n\nNote: MLA no longer requires the URL as part of their citation standard. Individual instructors or editors may still require the use of URLs.\n\nError: Passwords should have at least 6 characters\n\nError: Usernames should only contain letters, numbers, dots, dashes, or underscores\n\nPasswords should have at least 6 characters.\n\t\t\t\t\t\t\tUsernames should only contain letters, numbers, dots, dashes, or underscores.\n\nThank you for registering. A verification email has been sent to the address you provided.\n\nYour partnership makes all we do possible. Would you prayerfully consider a gift of support today?",
-  "chapter_intro": "",
-  "passages": [],
-  "notes": [
-    {
-      "ref": "Ps. 5",
-      "text": "Psalm . This individual lament from David is the first psalm that prays for the downfall of one’s enemies. Such Psalms relate to situations where one is faced with bloodthirsty and deceitful persecutors."
-    },
-    {
-      "ref": "Ps. 5:2",
-      "text": "my King and my God. Even a king such as David should be subject to God’s divine kingship."
-    },
-    {
-      "ref": "Ps. 5:3",
-      "text": "I prepare a sacrifice for you. The mention of the morning, and of the Lord’s house (v. 7), suggests this is describing the regular morning sacrifice in the temple. The faithful worshiper receives assurance and expresses personal consecration when he offers his sacrifices."
-    },
+  "passages": [
     {
       "ref": "Ps. 5:4–6",
+      "title": "Ps. 5:4–6",
       "text": "The singer praises God for loving what is right."
     },
     {
+      "ref": "Ps. 5:11–12",
+      "title": "Ps. 5:11–12",
+      "text": "The psalm closes by expressing the assurance enjoyed by the faithful."
+    }
+  ],
+  "notes": [
+    {
+      "ref": "Ps. 5",
+      "text": "**Psalm** . This individual lament from David is the first psalm that prays for the downfall of one’s enemies. Such Psalms relate to situations where one is faced with bloodthirsty and deceitful persecutors."
+    },
+    {
+      "ref": "Ps. 5:2",
+      "text": "**my King and my God**. Even a king such as David should be subject to God’s divine kingship."
+    },
+    {
+      "ref": "Ps. 5:3",
+      "text": "**I prepare a sacrifice for you**. The mention of the **morning**, and of the Lord’s house (v. 7 ), suggests this is describing the regular morning sacrifice in the temple. The faithful worshiper receives assurance and expresses personal consecration when he offers his sacrifices."
+    },
+    {
       "ref": "Ps. 5:7",
-      "text": "Abundance of your steadfast love comes from Ex. 34:6, the basic confession of OT faith."
+      "text": "**Abundance of your steadfast love** comes from Ex. 34:6 , the basic confession of OT faith."
     },
     {
       "ref": "Ps. 5:9",
@@ -30,11 +36,8 @@
     },
     {
       "ref": "Ps. 5:10",
-      "text": "Let them fall . . . cast them out describes the judgment that must fall on those who persecute the godly. for they have rebelled against you. To harm the godly is to attack God himself."
-    },
-    {
-      "ref": "Ps. 5:11–12",
-      "text": "The psalm closes by expressing the assurance enjoyed by the faithful."
+      "text": "**Let them fall . . . cast them out** describes the judgment that must fall on those who persecute the godly. **for they have rebelled against you**. To harm the godly is to attack God himself."
     }
-  ]
+  ],
+  "chapter_intro": "Ps. 5:4–6"
 }

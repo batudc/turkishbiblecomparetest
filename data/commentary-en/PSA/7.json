@@ -1,24 +1,27 @@
 {
   "source": "ESV Global Study Bible (Crossway) — Used under license",
   "book_intro": "The Blue Letter Bible ministry and the BLB Institute hold to the historical, conservative Christian faith, which includes a firm belief in the inerrancy of Scripture. Since the text and audio content provided by BLB represent a range of evangelical traditions, all of the ideas and principles conveyed in the resource materials are not necessarily affirmed, in total, by this ministry.\n\nBlue Letter Bible study tools make reading, searching and studying the Bible easy and rewarding.\n\nBlue Letter Bible is a 501(c)(3) nonprofit organization\n\nYou can copy the order of your preferred Bible translations from the Bibles Tab to the  Version Picker (this popup) or vice versa. The Bibles Tab is found in the Tools feature on Bible pages:\n\nNote: MLA no longer requires the URL as part of their citation standard. Individual instructors or editors may still require the use of URLs.\n\nError: Passwords should have at least 6 characters\n\nError: Usernames should only contain letters, numbers, dots, dashes, or underscores\n\nPasswords should have at least 6 characters.\n\t\t\t\t\t\t\tUsernames should only contain letters, numbers, dots, dashes, or underscores.\n\nThank you for registering. A verification email has been sent to the address you provided.\n\nYour partnership makes all we do possible. Would you prayerfully consider a gift of support today?",
-  "chapter_intro": "",
-  "passages": [],
-  "notes": [
-    {
-      "ref": "Ps. 7",
-      "text": "Psalm . The title of this individual lament from David refers to an otherwise unknown incident in his life when a man of Benjamin (the tribe of Saul) slandered David. The psalm enables those who have been unfairly criticized (vv. 3–5) and persecuted to call on God for help."
-    },
+  "passages": [
     {
       "ref": "Ps. 7:1–2",
-      "text": "Amid desperate circumstances, David express trust (my God, refuge)."
+      "title": "Ps. 7:1–2",
+      "text": "Amid desperate circumstances, David express trust (**my God**, **refuge**)."
     },
     {
       "ref": "Ps. 7:6–11",
-      "text": "The singers see their requests as part of the larger picture: God is a righteous judge (v. 11), to whom all the peoples of mankind are accountable (vv. 7, 8). In the Psalms, God is often described as “judging” on behalf of the innocent and oppressed."
+      "title": "Ps. 7:6–11",
+      "text": "The singers see their requests as part of the larger picture: God is a **righteous judge** (v. 11 ), to whom all the **peoples** of mankind are accountable (vv. 7 , 8 ). In the Psalms, God is often described as “judging” on behalf of the innocent and oppressed."
+    }
+  ],
+  "notes": [
+    {
+      "ref": "Ps. 7",
+      "text": "**Psalm** . The title of this individual lament from David refers to an otherwise unknown incident in his life when a man of Benjamin (the tribe of Saul) slandered David. The psalm enables those who have been unfairly criticized (vv. 3–5 ) and persecuted to call on God for help."
     },
     {
       "ref": "Ps. 7:17",
-      "text": "The Lord’s righteousness and his status as the Most High (see vv. 6–11) lead to thanksgiving and praise."
+      "text": "The Lord’s **righteousness** and his status as **the Most High** (see vv. 6–11 ) lead to thanksgiving and praise."
     }
-  ]
+  ],
+  "chapter_intro": "Ps. 7:1–2"
 }

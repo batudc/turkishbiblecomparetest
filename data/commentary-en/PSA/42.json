@@ -1,20 +1,23 @@
 {
   "source": "ESV Global Study Bible (Crossway) — Used under license",
   "book_intro": "The Blue Letter Bible ministry and the BLB Institute hold to the historical, conservative Christian faith, which includes a firm belief in the inerrancy of Scripture. Since the text and audio content provided by BLB represent a range of evangelical traditions, all of the ideas and principles conveyed in the resource materials are not necessarily affirmed, in total, by this ministry.\n\nBlue Letter Bible study tools make reading, searching and studying the Bible easy and rewarding.\n\nBlue Letter Bible is a 501(c)(3) nonprofit organization\n\nYou can copy the order of your preferred Bible translations from the Bibles Tab to the  Version Picker (this popup) or vice versa. The Bibles Tab is found in the Tools feature on Bible pages:\n\nNote: MLA no longer requires the URL as part of their citation standard. Individual instructors or editors may still require the use of URLs.\n\nError: Passwords should have at least 6 characters\n\nError: Usernames should only contain letters, numbers, dots, dashes, or underscores\n\nPasswords should have at least 6 characters.\n\t\t\t\t\t\t\tUsernames should only contain letters, numbers, dots, dashes, or underscores.\n\nThank you for registering. A verification email has been sent to the address you provided.\n\nYour partnership makes all we do possible. Would you prayerfully consider a gift of support today?",
-  "chapter_intro": "",
-  "passages": [],
-  "notes": [
+  "passages": [
     {
       "ref": "Ps. 42–43",
-      "text": "Psalms . While each of these psalms can be taken separately, Psalms 42–43 go well together as a song with three stanzas: they share a refrain (42:5; 11; 43:5); 43:2 is almost the same as 42:9; and they both express the longing to return to God’s presence in the sanctuary (42:2; 43:3–4). The singer laments his circumstances, which keep him from attending worship and enjoying God’s presence at the central sanctuary."
+      "title": "Ps. 42–43",
+      "text": "**Psalms** . While each of these psalms can be taken separately, Psalms 42–43 go well together as a song with three stanzas: they share a refrain ( 42:5 ; 11 ; 43:5 ); 43:2 is almost the same as 42:9 ; and they both express the longing to return to God’s presence in the sanctuary ( 42:2 ; 43:3–4 ). The singer laments his circumstances, which keep him from attending worship and enjoying God’s presence at the central sanctuary."
     },
     {
       "ref": "Ps. 42:1–5",
-      "text": "The song begins with an expression of longing for God himself, using the image of thirst: As a deer pants for flowing streams. For the faithful, the answer to this longing comes in public worship (appear before God at the sanctuary; see Ex. 23:17)."
+      "title": "Ps. 42:1–5",
+      "text": "The song begins with an expression of longing for God himself, using the image of thirst: **As a deer pants for flowing streams**. For the faithful, the answer to this longing comes in public worship (**appear before God** at the sanctuary; see Ex. 23:17 )."
     },
     {
       "ref": "Ps. 42:6–11",
-      "text": "The second stanza sharpens the description of the singer’s situation. He is in the land of Jordan and of Hermon, far from the sanctuary in Jerusalem. He knows that God is not literally absent (v. 6), but he also feels that the sanctuary is where he meets God most fully. This stanza ends, like the first, with self-encouragement."
+      "title": "Ps. 42:6–11",
+      "text": "The second stanza sharpens the description of the singer’s situation. He is in **the land of Jordan and of Hermon**, far from the sanctuary in Jerusalem. He knows that God is not literally absent (v. 6 ), but he also feels that the sanctuary is where he meets God most fully. This stanza ends, like the first, with self-encouragement."
     }
-  ]
+  ],
+  "notes": [],
+  "chapter_intro": "Ps. 42–43"
 }

@@ -1,28 +1,31 @@
 {
   "source": "ESV Global Study Bible (Crossway) — Used under license",
   "book_intro": "The Blue Letter Bible ministry and the BLB Institute hold to the historical, conservative Christian faith, which includes a firm belief in the inerrancy of Scripture. Since the text and audio content provided by BLB represent a range of evangelical traditions, all of the ideas and principles conveyed in the resource materials are not necessarily affirmed, in total, by this ministry.\n\nBlue Letter Bible study tools make reading, searching and studying the Bible easy and rewarding.\n\nBlue Letter Bible is a 501(c)(3) nonprofit organization\n\nYou can copy the order of your preferred Bible translations from the Bibles Tab to the  Version Picker (this popup) or vice versa. The Bibles Tab is found in the Tools feature on Bible pages:\n\nNote: MLA no longer requires the URL as part of their citation standard. Individual instructors or editors may still require the use of URLs.\n\nError: Passwords should have at least 6 characters\n\nError: Usernames should only contain letters, numbers, dots, dashes, or underscores\n\nPasswords should have at least 6 characters.\n\t\t\t\t\t\t\tUsernames should only contain letters, numbers, dots, dashes, or underscores.\n\nThank you for registering. A verification email has been sent to the address you provided.\n\nYour partnership makes all we do possible. Would you prayerfully consider a gift of support today?",
-  "chapter_intro": "",
-  "passages": [],
-  "notes": [
+  "passages": [
     {
       "ref": "1 Cor. 2:1–5",
-      "text": "not . . . with lofty speech or wisdom. Paul avoided Greek rhetoric. Instead he focused on the message of the cross. He wanted the Corinthians to trust in Christ, not in human messengers."
+      "title": "1 Cor. 2:1–5",
+      "text": "**not . . . with lofty speech or wisdom**. Paul avoided Greek rhetoric. Instead he focused on the message of the cross. He wanted the Corinthians to trust in Christ, not in human messengers."
     },
     {
       "ref": "1 Cor. 2:6–10",
-      "text": "God’s Spirit bridges the gap between the deep things of God and the human heart, graciously preparing human beings to understand the message of the cross. See also v. 4."
-    },
+      "title": "1 Cor. 2:6–10",
+      "text": "God’s Spirit bridges the gap between the deep things of God and the human heart, graciously preparing human beings to understand the message of the cross. See also v. 4 ."
+    }
+  ],
+  "notes": [
     {
       "ref": "1 Cor. 2:6",
-      "text": "rulers of this age. Probably earthly rulers like the Jewish chief priests and the Roman procurator Pilate, who sentenced Jesus to die (see v. 8). Symbolically, it also includes all rulers who do not believe in Jesus."
+      "text": "**rulers of this age**. Probably earthly rulers like the Jewish chief priests and the Roman procurator Pilate, who sentenced Jesus to die (see v. 8 ). Symbolically, it also includes all rulers who do not believe in Jesus."
     },
     {
       "ref": "1 Cor. 2:7",
-      "text": "The secret and hidden wisdom of God centers on Christ. It includes God’s plans for salvation from before the ages (“before the foundation of the world”; Eph. 1:4) to eternity (1 Cor. 2:9; Rev. 11:15). It includes everything Paul preaches (Acts 20:27)."
+      "text": "The **secret and hidden wisdom of God** centers on Christ. It includes God’s plans for salvation from **before the ages** (“before the foundation of the world”; Eph. 1:4 ) to eternity ( 1 Cor. 2:9 ; Rev. 11:15 ). It includes everything Paul preaches ( Acts 20:27 )."
     },
     {
       "ref": "1 Cor. 2:13",
-      "text": "Every Christian is a spiritual person, that is, one who is led and empowered by the Holy Spirit; see also Rom. 8:9; 2 Cor. 3:16–18; Eph. 1:13. Unbelievers, on the other hand, lack the spiritual ability to understand God’s teaching (1 Cor. 2:14)."
+      "text": "Every Christian is a **spiritual** person, that is, one who is led and empowered by the Holy Spirit; see also Rom. 8:9 ; 2 Cor. 3:16–18 ; Eph. 1:13 . Unbelievers, on the other hand, lack the spiritual ability to understand God’s teaching ( 1 Cor. 2:14 )."
     }
-  ]
+  ],
+  "chapter_intro": "1 Cor. 2:1–5"
 }

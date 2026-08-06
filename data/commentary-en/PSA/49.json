@@ -1,24 +1,28 @@
 {
   "source": "ESV Global Study Bible (Crossway) — Used under license",
   "book_intro": "The Blue Letter Bible ministry and the BLB Institute hold to the historical, conservative Christian faith, which includes a firm belief in the inerrancy of Scripture. Since the text and audio content provided by BLB represent a range of evangelical traditions, all of the ideas and principles conveyed in the resource materials are not necessarily affirmed, in total, by this ministry.\n\nBlue Letter Bible study tools make reading, searching and studying the Bible easy and rewarding.\n\nBlue Letter Bible is a 501(c)(3) nonprofit organization\n\nYou can copy the order of your preferred Bible translations from the Bibles Tab to the  Version Picker (this popup) or vice versa. The Bibles Tab is found in the Tools feature on Bible pages:\n\nNote: MLA no longer requires the URL as part of their citation standard. Individual instructors or editors may still require the use of URLs.\n\nError: Passwords should have at least 6 characters\n\nError: Usernames should only contain letters, numbers, dots, dashes, or underscores\n\nPasswords should have at least 6 characters.\n\t\t\t\t\t\t\tUsernames should only contain letters, numbers, dots, dashes, or underscores.\n\nThank you for registering. A verification email has been sent to the address you provided.\n\nYour partnership makes all we do possible. Would you prayerfully consider a gift of support today?",
-  "chapter_intro": "",
-  "passages": [],
-  "notes": [
-    {
-      "ref": "Ps. 49",
-      "text": "Psalm . This is a wisdom psalm. In particular, it addresses the confusion that the faithful often feel when they encounter trouble even while unfaithful people seem to get along so well. Is not God expected to show his favor for the faithful in how he treats them? The answer is that God will distinguish between the faithful and the unfaithful in what happens to them when they die (vv. 12, 20). Verses 12 and 20 are very similar, the key difference being in the words translated “remain” and “understanding,” which sound almost the same in Hebrew. The element of understanding makes the difference. Those who sing this psalm will want to continue living faithfully. They will be strengthened against the temptation either to despair or to give up and join the unfaithful. See also Psalms 37 and 73."
-    },
+  "passages": [
     {
       "ref": "Ps. 49:1–4",
-      "text": "The terms wisdom and understanding are used in the Wisdom Books to describe genuine spiritual perception. It is the ability to approach life from God’s perspective."
+      "title": "Ps. 49:1–4",
+      "text": "The terms **wisdom** and **understanding** are used in the Wisdom Books to describe genuine spiritual perception. It is the ability to approach life from God’s perspective."
     },
     {
       "ref": "Ps. 49:5–12",
-      "text": "After presenting the puzzle (vv. 5–6), the song reminds all its singers that every single person has the same end, death (vv. 7–12). The point about all dying is made in two ways: in vv. 7–9, no one can bribe death; in vv. 10–12, both the wise (who embraces God’s covenant) and the fool (who stupidly rejects God’s covenant) die."
+      "title": "Ps. 49:5–12",
+      "text": "After presenting the puzzle (vv. 5–6 ), the song reminds all its singers that every single person has the same end, death (vv. 7–12 ). The point about all dying is made in two ways: in vv. 7–9 , no one can bribe death; in vv. 10–12 , both the wise (who embraces God’s covenant) and the fool (who stupidly rejects God’s covenant) die."
     },
     {
       "ref": "Ps. 49:13–20",
-      "text": "God treats these two groups differently when they die. The unfaithful are like sheep . . . appointed for Sheol, while God will ransom the faithful person’s soul from the power of Sheol (vv. 14–15). Sheol represents the grim place of destruction for the wicked, and not simply the grave (see note on 6:5)."
+      "title": "Ps. 49:13–20",
+      "text": "God treats these two groups differently when they die. The unfaithful are **like sheep . . . appointed for Sheol**, while** God will ransom** the faithful person’s **soul from the power of Sheol** (vv. 14–15 ). Sheol represents the grim place of destruction for the wicked, and not simply the grave (see note on 6:5 )."
     }
-  ]
+  ],
+  "notes": [
+    {
+      "ref": "Ps. 49",
+      "text": "**Psalm** . This is a wisdom psalm. In particular, it addresses the confusion that the faithful often feel when they encounter trouble even while unfaithful people seem to get along so well. Is not God expected to show his favor for the faithful in how he treats them? The answer is that God will distinguish between the faithful and the unfaithful in what happens to them when they die (vv. 12 , 20 ). Verses 12 and 20 are very similar, the key difference being in the words translated “remain” and “understanding,” which sound almost the same in Hebrew. The element of understanding makes the difference. Those who sing this psalm will want to continue living faithfully. They will be strengthened against the temptation either to despair or to give up and join the unfaithful. See also Psalms 37 and 73 ."
+    }
+  ],
+  "chapter_intro": "Ps. 49:1–4"
 }

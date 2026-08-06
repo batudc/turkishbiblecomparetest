@@ -1,44 +1,50 @@
 {
   "source": "ESV Global Study Bible (Crossway) — Used under license",
   "book_intro": "The Blue Letter Bible ministry and the BLB Institute hold to the historical, conservative Christian faith, which includes a firm belief in the inerrancy of Scripture. Since the text and audio content provided by BLB represent a range of evangelical traditions, all of the ideas and principles conveyed in the resource materials are not necessarily affirmed, in total, by this ministry.\n\nBlue Letter Bible study tools make reading, searching and studying the Bible easy and rewarding.\n\nBlue Letter Bible is a 501(c)(3) nonprofit organization\n\nYou can copy the order of your preferred Bible translations from the Bibles Tab to the  Version Picker (this popup) or vice versa. The Bibles Tab is found in the Tools feature on Bible pages:\n\nNote: MLA no longer requires the URL as part of their citation standard. Individual instructors or editors may still require the use of URLs.\n\nError: Passwords should have at least 6 characters\n\nError: Usernames should only contain letters, numbers, dots, dashes, or underscores\n\nPasswords should have at least 6 characters.\n\t\t\t\t\t\t\tUsernames should only contain letters, numbers, dots, dashes, or underscores.\n\nThank you for registering. A verification email has been sent to the address you provided.\n\nYour partnership makes all we do possible. Would you prayerfully consider a gift of support today?",
-  "chapter_intro": "",
-  "passages": [],
-  "notes": [
+  "passages": [
     {
       "ref": "2 Chron. 24:1–27",
-      "text": "Loosely adapted from 2 Kings 11:21–12:21, supplemented with the Chronicler’s own material (see 2 Chron. 24:27)."
-    },
-    {
-      "ref": "2 Chron. 24:2",
-      "text": "Joash did what was right. See note on 2 Kings 12:2–3."
-    },
-    {
-      "ref": "2 Chron. 24:3",
-      "text": "got for him two wives. Jehoiada acts to ensure that the Davidic line will continue after being nearly destroyed by Athaliah."
-    },
-    {
-      "ref": "2 Chron. 24:4",
-      "text": "restore. Athaliah and her family had defiled and damaged the temple (v. 7)."
+      "title": "2 Chron. 24:1–27",
+      "text": "Loosely adapted from 2 Kings 11:21–12:21 , supplemented with the Chronicler’s own material (see 2 Chron. 24:27 )."
     },
     {
       "ref": "2 Chron. 24:5–6,  9",
-      "text": "2 Chron. 24:5–6, 9 repair the house of your God. See note on 2 Kings 12:4–5."
+      "title": "2 Chron. 24:5–6,  9",
+      "text": "**repair the house of your God**. See note on 2 Kings 12:4–5 ."
     },
     {
       "ref": "2 Chron. 24:8–11",
-      "text": "all the people rejoiced and brought their tax. See 1 Chron. 29:6–9. The Chronicler wants his readers to see God’s service at the temple not as a burden but as a joyful duty (see Ex. 36:2–7)."
-    },
-    {
-      "ref": "2 Chron. 24:14",
-      "text": "The revival of temple worship lasted all the days of Jehoiada. After Jehoiada dies and is no longer there to guide him, Joash becomes spiritually unfaithful."
+      "title": "2 Chron. 24:8–11",
+      "text": "**all the people rejoiced and brought their tax**. See 1 Chron. 29:6–9 . The Chronicler wants his readers to see God’s service at the temple not as a burden but as a joyful duty (see Ex. 36:2–7 )."
     },
     {
       "ref": "2 Chron. 24:15–22",
-      "text": "Jehoiada’s burial among the kings is unique for a high priest. the king listened to them. Without Jehoiada’s influence, Joash follows evil advice."
+      "title": "2 Chron. 24:15–22",
+      "text": "Jehoiada’s burial **among the kings** is unique for a high priest. **the king listened to them**. Without Jehoiada’s influence, Joash follows evil advice."
     },
     {
       "ref": "2 Chron. 24:23–27",
+      "title": "2 Chron. 24:23–27",
       "text": "Judah’s defeat by the smaller Syrian army is a sign of divine judgment."
     }
-  ]
+  ],
+  "notes": [
+    {
+      "ref": "2 Chron. 24:2",
+      "text": "**Joash did what was right**. See note on 2 Kings 12:2–3 ."
+    },
+    {
+      "ref": "2 Chron. 24:3",
+      "text": "**got for him two wives**. Jehoiada acts to ensure that the Davidic line will continue after being nearly destroyed by Athaliah."
+    },
+    {
+      "ref": "2 Chron. 24:4",
+      "text": "**restore**. Athaliah and her family had defiled and damaged the temple (v. 7 )."
+    },
+    {
+      "ref": "2 Chron. 24:14",
+      "text": "The revival of temple worship lasted **all the days of Jehoiada**. After Jehoiada dies and is no longer there to guide him, Joash becomes spiritually unfaithful."
+    }
+  ],
+  "chapter_intro": "2 Chron. 24:1–27"
 }

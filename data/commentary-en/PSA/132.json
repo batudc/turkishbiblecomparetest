@@ -1,32 +1,37 @@
 {
   "source": "ESV Global Study Bible (Crossway) — Used under license",
   "book_intro": "The Blue Letter Bible ministry and the BLB Institute hold to the historical, conservative Christian faith, which includes a firm belief in the inerrancy of Scripture. Since the text and audio content provided by BLB represent a range of evangelical traditions, all of the ideas and principles conveyed in the resource materials are not necessarily affirmed, in total, by this ministry.\n\nBlue Letter Bible study tools make reading, searching and studying the Bible easy and rewarding.\n\nBlue Letter Bible is a 501(c)(3) nonprofit organization\n\nYou can copy the order of your preferred Bible translations from the Bibles Tab to the  Version Picker (this popup) or vice versa. The Bibles Tab is found in the Tools feature on Bible pages:\n\nNote: MLA no longer requires the URL as part of their citation standard. Individual instructors or editors may still require the use of URLs.\n\nError: Passwords should have at least 6 characters\n\nError: Usernames should only contain letters, numbers, dots, dashes, or underscores\n\nPasswords should have at least 6 characters.\n\t\t\t\t\t\t\tUsernames should only contain letters, numbers, dots, dashes, or underscores.\n\nThank you for registering. A verification email has been sent to the address you provided.\n\nYour partnership makes all we do possible. Would you prayerfully consider a gift of support today?",
-  "chapter_intro": "",
-  "passages": [],
-  "notes": [
-    {
-      "ref": "Ps. 132",
-      "text": "Psalm . The theme of this royal psalm is God’s covenant with David’s house to establish the dynasty for the good of the people and, eventually, of the whole world (2 Sam. 7:4–16). The psalm expresses confidence in these promises and asks the Lord to carry out his purpose (Ps. 132:1, 8–9). As a Song of Ascents, the psalm recalls how David’s dynasty is to ensure the stability of the nation, especially of Jerusalem (compare Psalm 122)."
-    },
+  "passages": [
     {
       "ref": "Ps. 132:1–5",
-      "text": "The psalm opens with a request that God will remember (see note on 25:6–7) all that David did to prepare the temple (see 2 Sam. 7:2; 1 Chron. 22:2–19). The prayer expresses the feeling that such sacrifice and hard work ought not be wasted."
+      "title": "Ps. 132:1–5",
+      "text": "The psalm opens with a request that God will **remember** (see note on 25:6–7 ) all that David did to prepare the temple (see 2 Sam. 7:2 ; 1 Chron. 22:2–19 ). The prayer expresses the feeling that such sacrifice and hard work ought not be wasted."
     },
     {
       "ref": "Ps. 132:6–7",
-      "text": "The pilgrims come from various villages in Judah to worship at his footstool (see 1 Chron. 28:2; Ps. 99:5)."
+      "title": "Ps. 132:6–7",
+      "text": "The pilgrims come from various villages in Judah to **worship at his footstool** (see 1 Chron. 28:2 ; Ps. 99:5 )."
     },
     {
       "ref": "Ps. 132:8–10",
-      "text": "The worshipers pray that God will be present in his chosen resting place. Imagining the scene in Jerusalem, the worshipers pray that Israel will be true to its calling. do not turn away the face of your anointed one. The worshipers pray that God would continue showing favor to David’s heirs, so that Israel would remain a secure home for the faithful."
+      "title": "Ps. 132:8–10",
+      "text": "The worshipers pray that God will be present in his chosen **resting place**. Imagining the scene in Jerusalem, the worshipers pray that Israel will be true to its calling. **do** **not turn away the face of your** **anointed one**. The worshipers pray that God would continue showing favor to David’s heirs, so that Israel would remain a secure home for the faithful."
     },
     {
       "ref": "Ps. 132:11–18",
-      "text": "swore to David. This promise is God’s answer to the prayer of vv. 8–10. God promised to preserve the dynasty, and expects the individual heirs of David to be faithful to the covenant."
+      "title": "Ps. 132:11–18",
+      "text": "**swore to David**. This promise is God’s answer to the prayer of vv. 8–10 . God promised to preserve the dynasty, and expects the individual heirs of David to be faithful to the **covenant**."
+    }
+  ],
+  "notes": [
+    {
+      "ref": "Ps. 132",
+      "text": "**Psalm** . The theme of this royal psalm is God’s covenant with David’s house to establish the dynasty for the good of the people and, eventually, of the whole world ( 2 Sam. 7:4–16 ). The psalm expresses confidence in these promises and asks the Lord to carry out his purpose ( Ps. 132:1 , 8–9 ). As a Song of Ascents, the psalm recalls how David’s dynasty is to ensure the stability of the nation, especially of Jerusalem (compare Psalm 122 )."
     },
     {
       "ref": "Ps. 132:18",
       "text": "These words, sung during the exile, declare by faith that God would again fulfill his promises and raise up a new David."
     }
-  ]
+  ],
+  "chapter_intro": "Ps. 132:1–5"
 }

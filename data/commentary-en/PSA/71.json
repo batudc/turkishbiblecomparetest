@@ -1,40 +1,45 @@
 {
   "source": "ESV Global Study Bible (Crossway) — Used under license",
   "book_intro": "The Blue Letter Bible ministry and the BLB Institute hold to the historical, conservative Christian faith, which includes a firm belief in the inerrancy of Scripture. Since the text and audio content provided by BLB represent a range of evangelical traditions, all of the ideas and principles conveyed in the resource materials are not necessarily affirmed, in total, by this ministry.\n\nBlue Letter Bible study tools make reading, searching and studying the Bible easy and rewarding.\n\nBlue Letter Bible is a 501(c)(3) nonprofit organization\n\nYou can copy the order of your preferred Bible translations from the Bibles Tab to the  Version Picker (this popup) or vice versa. The Bibles Tab is found in the Tools feature on Bible pages:\n\nNote: MLA no longer requires the URL as part of their citation standard. Individual instructors or editors may still require the use of URLs.\n\nError: Passwords should have at least 6 characters\n\nError: Usernames should only contain letters, numbers, dots, dashes, or underscores\n\nPasswords should have at least 6 characters.\n\t\t\t\t\t\t\tUsernames should only contain letters, numbers, dots, dashes, or underscores.\n\nThank you for registering. A verification email has been sent to the address you provided.\n\nYour partnership makes all we do possible. Would you prayerfully consider a gift of support today?",
-  "chapter_intro": "",
-  "passages": [],
-  "notes": [
-    {
-      "ref": "Ps. 71",
-      "text": "Psalm . This is another individual lament, suited to a faithful person in danger from enemies who take advantage of any weakness or distress (vv. 9–11). These enemies could be foreign or Israelite."
-    },
+  "passages": [
     {
       "ref": "Ps. 71:1–3",
-      "text": "God’s righteousness is his faithfulness to keep his promises. This is the basis for hope (see vv. 15, 16, 19, 24)."
-    },
-    {
-      "ref": "Ps. 71:4",
-      "text": "The wicked are unjust and cruel men who oppose true faith in God. They look for any opening to do harm to the faithful (vv. 4, 10–11)."
+      "title": "Ps. 71:1–3",
+      "text": "God’s **righteousness** is his faithfulness to keep his promises. This is the basis for hope (see vv. 15 , 16 , 19 , 24 )."
     },
     {
       "ref": "Ps. 71:5–6",
-      "text": "from my youth . . . from before my birth . . . from my mother’s womb. The Israelites came into the world as members of Abraham’s family, the recipients of God’s promises. These believers learn to trace God’s work in their lives back to before they were even born."
-    },
-    {
-      "ref": "Ps. 71:9",
-      "text": "Do not cast me off in the time of old age. The benefits of the covenant are not automatic. They are for those who are faithful to its conditions."
+      "title": "Ps. 71:5–6",
+      "text": "**from my youth . . . from before my birth . . . from my mother’s womb**. The Israelites came into the world as members of Abraham’s family, the recipients of God’s promises. These believers learn to trace God’s work in their lives back to before they were even born."
     },
     {
       "ref": "Ps. 71:14–16",
-      "text": "The singer promises to hope continually. He leaves to God the timing of the answer to his appeals for help (vv. 12–13). He also looks forward to sharing his story of God’s righteous acts with his fellow worshipers."
-    },
-    {
-      "ref": "Ps. 71:18",
-      "text": "The singer asks God to make his life long. He wants to live to proclaim your might to another generation."
+      "title": "Ps. 71:14–16",
+      "text": "The singer promises to** hope continually**. He leaves to God the timing of the answer to his appeals for help (vv. 12–13 ). He also looks forward to sharing his story of God’s **righteous acts** with his fellow worshipers."
     },
     {
       "ref": "Ps. 71:22–24",
-      "text": "The singer looks forward to joyful songs in worship. He expects to talk of God’s righteous help all the day long (wherever he is)."
+      "title": "Ps. 71:22–24",
+      "text": "The singer looks forward to joyful songs in worship. He expects to **talk of** God’s **righteous help all the day long** (wherever he is)."
     }
-  ]
+  ],
+  "notes": [
+    {
+      "ref": "Ps. 71",
+      "text": "**Psalm** . This is another individual lament, suited to a faithful person in danger from enemies who take advantage of any weakness or distress (vv. 9–11 ). These enemies could be foreign or Israelite."
+    },
+    {
+      "ref": "Ps. 71:4",
+      "text": "The **wicked** are **unjust and cruel** men who oppose true faith in God. They look for any opening to do harm to the faithful (vv. 4 , 10–11 )."
+    },
+    {
+      "ref": "Ps. 71:9",
+      "text": "**Do not** **cast** **me** **off in the time of old age**. The benefits of the covenant are not automatic. They are for those who are faithful to its conditions."
+    },
+    {
+      "ref": "Ps. 71:18",
+      "text": "The singer asks God to make his life long. He wants to live to **proclaim your might to another generation**."
+    }
+  ],
+  "chapter_intro": "Ps. 71:1–3"
 }

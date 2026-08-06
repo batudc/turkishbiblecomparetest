@@ -1,44 +1,52 @@
 {
   "source": "ESV Global Study Bible (Crossway) — Used under license",
   "book_intro": "The Blue Letter Bible ministry and the BLB Institute hold to the historical, conservative Christian faith, which includes a firm belief in the inerrancy of Scripture. Since the text and audio content provided by BLB represent a range of evangelical traditions, all of the ideas and principles conveyed in the resource materials are not necessarily affirmed, in total, by this ministry.\n\nBlue Letter Bible study tools make reading, searching and studying the Bible easy and rewarding.\n\nBlue Letter Bible is a 501(c)(3) nonprofit organization\n\nYou can copy the order of your preferred Bible translations from the Bibles Tab to the  Version Picker (this popup) or vice versa. The Bibles Tab is found in the Tools feature on Bible pages:\n\nNote: MLA no longer requires the URL as part of their citation standard. Individual instructors or editors may still require the use of URLs.\n\nError: Passwords should have at least 6 characters\n\nError: Usernames should only contain letters, numbers, dots, dashes, or underscores\n\nPasswords should have at least 6 characters.\n\t\t\t\t\t\t\tUsernames should only contain letters, numbers, dots, dashes, or underscores.\n\nThank you for registering. A verification email has been sent to the address you provided.\n\nYour partnership makes all we do possible. Would you prayerfully consider a gift of support today?",
-  "chapter_intro": "",
-  "passages": [],
-  "notes": [
+  "passages": [
+    {
+      "ref": "2 Chron. 10:1–36:23",
+      "title": "The Kingdom of Judah down to the Exile.",
+      "text": "After the death of Solomon, and following the division of the nation into north and south, Chronicles deals almost exclusively with the southern kingdom of Judah. In contrast to 1–2 Kings, the history of the northern kingdom is considered by the Chronicler only as it affects that of Judah. The Chronicler understood that the northern tribes still belonged to Israel, but he focused on the southern kingdom, since it was ruled by the descendants of David, the king specially chosen by the Lord."
+    },
     {
       "ref": "10:1–12:16",
-      "text": "Rehoboam. The reign of Rehoboam (931–915 b.c.) is dominated by the division of the kingdom and the consequences thereof. While Rehoboam fails as a leader, he is also an example of repentance and obedience, leading to the restoration of blessing."
+      "title": "Rehoboam.",
+      "text": "The reign of Rehoboam (931–915 b.c. ) is dominated by the division of the kingdom and the consequences thereof. While Rehoboam fails as a leader, he is also an example of repentance and obedience, leading to the restoration of blessing."
     },
     {
       "ref": "2 Chron. 10:1–19",
-      "text": "From 1 Kings 12:1–19. Various people were to blame for the division of Israel into the northern and southern kingdoms. Solomon (2 Chron. 10:4, 10, 11) and Jeroboam (13:6–7) both contributed to the difficulties through their disobedience. Here the focus is on Rehoboam’s foolishness in alienating the northern tribes. At the same time, the author notes that this was a turn of affairs brought about by God (10:15)."
-    },
+      "title": "2 Chron. 10:1–19",
+      "text": "From 1 Kings 12:1–19 . Various people were to blame for the division of Israel into the northern and southern kingdoms. Solomon ( 2 Chron. 10:4 , 10 , 11 ) and Jeroboam ( 13:6–7 ) both contributed to the difficulties through their disobedience. Here the focus is on Rehoboam’s foolishness in alienating the northern tribes. At the same time, the author notes that this was a **turn of affairs brought about by God** ( 10:15 )."
+    }
+  ],
+  "notes": [
     {
       "ref": "2 Chron. 10:1",
-      "text": "Shechem. See note on 1 Kings 12:1."
+      "text": "**Shechem**. See note on 1 Kings 12:1 ."
     },
     {
       "ref": "2 Chron. 10:2",
-      "text": "Jeroboam. See 1 Kings 11:26–40."
+      "text": "**Jeroboam**. See 1 Kings 11:26–40 ."
     },
     {
       "ref": "2 Chron. 10:4",
-      "text": "Your father made our yoke heavy. See note on 1 Kings 12:4."
+      "text": "**Your father made our yoke heavy**. See note on 1 Kings 12:4 ."
     },
     {
       "ref": "2 Chron. 10:7",
-      "text": "Speak good words appears to mean “make an agreement” (see 2 Kings 25:28–29)."
+      "text": "**Speak good words** appears to mean “make an agreement” (see 2 Kings 25:28–29 )."
     },
     {
       "ref": "2 Chron. 10:10",
-      "text": "My little finger. See note on 1 Kings 12:10–11."
+      "text": "**My little finger**. See note on 1 Kings 12:10–11 ."
     },
     {
       "ref": "2 Chron. 10:16",
-      "text": "This rejection of the house of David is in sharp contrast to the declaration of loyalty in 1 Chron. 12:18."
+      "text": "This rejection of the house of **David** is in sharp contrast to the declaration of loyalty in 1 Chron. 12:18 ."
     },
     {
       "ref": "2 Chron. 10:18",
-      "text": "Hadoram, Solomon’s taskmaster, was also called “Adoram” (see note on 1 Kings 12:18) or “Adoniram” (1 Kings 4:6; 5:14)."
+      "text": "**Hadoram**, Solomon’s taskmaster, was also called “Adoram” (see note on 1 Kings 12:18 ) or “Adoniram” ( 1 Kings 4:6 ; 5:14 )."
     }
-  ]
+  ],
+  "chapter_intro": "The Kingdom of Judah down to the Exile."
 }

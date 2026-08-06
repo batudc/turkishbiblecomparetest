@@ -1,28 +1,32 @@
 {
   "source": "ESV Global Study Bible (Crossway) — Used under license",
   "book_intro": "The Blue Letter Bible ministry and the BLB Institute hold to the historical, conservative Christian faith, which includes a firm belief in the inerrancy of Scripture. Since the text and audio content provided by BLB represent a range of evangelical traditions, all of the ideas and principles conveyed in the resource materials are not necessarily affirmed, in total, by this ministry.\n\nBlue Letter Bible study tools make reading, searching and studying the Bible easy and rewarding.\n\nBlue Letter Bible is a 501(c)(3) nonprofit organization\n\nYou can copy the order of your preferred Bible translations from the Bibles Tab to the  Version Picker (this popup) or vice versa. The Bibles Tab is found in the Tools feature on Bible pages:\n\nNote: MLA no longer requires the URL as part of their citation standard. Individual instructors or editors may still require the use of URLs.\n\nError: Passwords should have at least 6 characters\n\nError: Usernames should only contain letters, numbers, dots, dashes, or underscores\n\nPasswords should have at least 6 characters.\n\t\t\t\t\t\t\tUsernames should only contain letters, numbers, dots, dashes, or underscores.\n\nThank you for registering. A verification email has been sent to the address you provided.\n\nYour partnership makes all we do possible. Would you prayerfully consider a gift of support today?",
-  "chapter_intro": "",
-  "passages": [],
-  "notes": [
-    {
-      "ref": "Ps. 120",
-      "text": "Psalm . Psalm 120 is the first of the “Songs of Ascents” (Psalms 120–134). This diverse group includes individual and corporate laments, songs of confidence, thanksgiving hymns, a song celebrating Zion, wisdom psalms, a royal psalm, and a psalm for worship. Since Jerusalem has a high elevation, those coming to worship had to ascend to get there. These songs were sung during the climb to Jerusalem (122:4; see 1 Kings 12:28; Zech. 14:16). Psalm 120 is an individual lament, sung by someone living away from Israel (v. 5). Deceitful people are stirring up war, while the psalmist prefers peace. It is possible that the psalm originated during the exile, when God told his people to seek the “welfare” (or “peace”) of the city to which they were sent (Jer. 29:7). Worship in Jerusalem, both for the singer and for the Gentiles, is the key to such peace (Ps. 120:5–7; see Isa. 2:3–4)."
-    },
+  "passages": [
     {
       "ref": "Ps. 120:1–2",
-      "text": "The psalm opens by remembering that there have been times of distress in the past, and each time I called to the Lord, he answered me with rescue. People with lying lips and a deceitful tongue are causing the distress."
+      "title": "Ps. 120:1–2",
+      "text": "The psalm opens by remembering that there have been times of **distress** in the past, and each time **I called to the Lord**,** he answered me** with rescue. People with **lying lips** and a **deceitful tongue** are causing the distress."
     },
     {
       "ref": "Ps. 120:3–4",
+      "title": "Ps. 120:3–4",
       "text": "The psalm now addresses the person who is causing the trouble."
     },
     {
       "ref": "Ps. 120:5–7",
-      "text": "The psalmist reflects on the larger situation. The people among whom he dwells are Gentiles, who do not know God’s word. The ideal Israelite exile is for peace, seeking it for the city in which he is exiled (in Jer. 29:7 this is “welfare,” see esv footnote on Jer. 29:11)."
+      "title": "Ps. 120:5–7",
+      "text": "The psalmist reflects on the larger situation. The people among whom he dwells are Gentiles, who do not know God’s word. The ideal Israelite exile is **for peace**, seeking it for the city in which he is exiled (in Jer. 29:7 this is “welfare,” see esv footnote on Jer. 29:11 )."
+    }
+  ],
+  "notes": [
+    {
+      "ref": "Ps. 120",
+      "text": "**Psalm** . Psalm 120 is the first of the “Songs of Ascents” ( Psalms 120–134 ). This diverse group includes individual and corporate laments, songs of confidence, thanksgiving hymns, a song celebrating Zion, wisdom psalms, a royal psalm, and a psalm for worship. Since Jerusalem has a high elevation, those coming to worship had to ascend to get there. These songs were sung during the climb to Jerusalem ( 122:4 ; see 1 Kings 12:28 ; Zech. 14:16 ). Psalm 120 is an individual lament, sung by someone living away from Israel (v. 5 ). Deceitful people are stirring up war, while the psalmist prefers peace. It is possible that the psalm originated during the exile, when God told his people to seek the “welfare” (or “peace”) of the city to which they were sent ( Jer. 29:7 ). Worship in Jerusalem, both for the singer and for the Gentiles, is the key to such peace ( Ps. 120:5–7 ; see Isa. 2:3–4 )."
     },
     {
       "ref": "Ps. 120:5",
-      "text": "To sojourn is to live as a resident alien, not as a native-born citizen. Meshech was a people on the southeastern edge of the Black Sea (see note on Ezek. 27:13), while Kedar was a people dwelling in the Arabian desert. These two names probably represent the Gentile world into which God’s people have been scattered."
+      "text": "To **sojourn** is to live as a resident alien, not as a native-born citizen. **Meshech** was a people on the southeastern edge of the Black Sea (see note on Ezek. 27:13 ), while **Kedar** was a people dwelling in the Arabian desert. These two names probably represent the Gentile world into which God’s people have been scattered."
     }
-  ]
+  ],
+  "chapter_intro": "Ps. 120:1–2"
 }

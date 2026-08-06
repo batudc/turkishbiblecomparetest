@@ -1,20 +1,35 @@
 {
   "source": "ESV Global Study Bible (Crossway) — Used under license",
   "book_intro": "The Blue Letter Bible ministry and the BLB Institute hold to the historical, conservative Christian faith, which includes a firm belief in the inerrancy of Scripture. Since the text and audio content provided by BLB represent a range of evangelical traditions, all of the ideas and principles conveyed in the resource materials are not necessarily affirmed, in total, by this ministry.\n\nBlue Letter Bible study tools make reading, searching and studying the Bible easy and rewarding.\n\nBlue Letter Bible is a 501(c)(3) nonprofit organization\n\nYou can copy the order of your preferred Bible translations from the Bibles Tab to the  Version Picker (this popup) or vice versa. The Bibles Tab is found in the Tools feature on Bible pages:\n\nNote: MLA no longer requires the URL as part of their citation standard. Individual instructors or editors may still require the use of URLs.\n\nError: Passwords should have at least 6 characters\n\nError: Usernames should only contain letters, numbers, dots, dashes, or underscores\n\nPasswords should have at least 6 characters.\n\t\t\t\t\t\t\tUsernames should only contain letters, numbers, dots, dashes, or underscores.\n\nThank you for registering. A verification email has been sent to the address you provided.\n\nYour partnership makes all we do possible. Would you prayerfully consider a gift of support today?",
-  "chapter_intro": "",
-  "passages": [],
+  "passages": [
+    {
+      "ref": "Ps. 119:59–60",
+      "title": "Ps. 119:59–60",
+      "text": "**When I think on my ways**. The believer considers his own character and conduct, in order to bring them into greater obedience to God’s commandments."
+    },
+    {
+      "ref": "Ps. 119:76–77",
+      "title": "Ps. 119:76–77",
+      "text": "**steadfast love . . . mercy**. See Ex. 34:6 ."
+    },
+    {
+      "ref": "Ps. 119:98–100",
+      "title": "Ps. 119:98–100",
+      "text": "**wiser . . . more understanding . . . understand more**. Because, in the setting of the psalm, neither **my enemies** nor **my teachers** nor** the aged** attend carefully to God’s word."
+    }
+  ],
   "notes": [
     {
       "ref": "Ps. 119",
-      "text": "Psalm . This psalm celebrates the gift of God’s law as the perfect guide for life. Its theme is echoed in Psalm 19 and in such wisdom psalms as 1 and 112. It is the longest psalm (and the longest chapter in the Bible, longer than many of the books) and the most carefully structured. By singing and praying this psalm, one expresses heartfelt admiration to God, who has so lovingly provided the law as a great gift for his people. One also voices a deep desire that one’s personal life would reflect the loveliness and goodness of the law. The psalm is in an acrostic pattern (see esv footnote at 119:1). There are 22 stanzas of eight verses each, following the 22 letters of the Hebrew alphabet in order. Within a stanza, the first word of each verse begins with the letter for that stanza. The psalm uses a number of terms for God’s covenantal revelation: “law” (v. 1, instruction); “testimonies” (v. 2, what God solemnly declares to be his will); “precepts” (v. 4, what God has appointed to be done); “statutes” (v. 5, what the divine Lawgiver has laid down); “commandments” (v. 6, what God has commanded); “rules” (v. 7, what the divine Judge has ruled to be right); “word” (v. 9, what God has spoken)."
+      "text": "**Psalm** . This psalm celebrates the gift of God’s law as the perfect guide for life. Its theme is echoed in Psalm 19 and in such wisdom psalms as 1 and 112. It is the longest psalm (and the longest chapter in the Bible, longer than many of the books) and the most carefully structured. By singing and praying this psalm, one expresses heartfelt admiration to God, who has so lovingly provided the law as a great gift for his people. One also voices a deep desire that one’s personal life would reflect the loveliness and goodness of the law. The psalm is in an acrostic pattern (see esv footnote at 119:1 ). There are 22 stanzas of eight verses each, following the 22 letters of the Hebrew alphabet in order. Within a stanza, the first word of each verse begins with the letter for that stanza. The psalm uses a number of terms for God’s covenantal revelation: “law” (v. 1 , instruction); “testimonies” (v. 2 , what God solemnly declares to be his will); “precepts” (v. 4 , what God has appointed to be done); “statutes” (v. 5 , what the divine Lawgiver has laid down); “commandments” (v. 6 , what God has commanded); “rules” (v. 7 , what the divine Judge has ruled to be right); “word” (v. 9 , what God has spoken)."
     },
     {
       "ref": "Ps. 119:1",
-      "text": "Blessed. See note on 1:1. blameless. See note on 15:2–5."
+      "text": "**Blessed**. See note on 1:1 . **blameless**. See note on 15:2–5 ."
     },
     {
       "ref": "Ps. 119:2",
-      "text": "seek. See vv. 10, 45, 94, 155. with their whole heart. See v. 10 and Deut. 4:29."
+      "text": "**seek**. See vv. 10 , 45 , 94 , 155 . **with their whole heart**. See v. 10 and Deut. 4:29 ."
     },
     {
       "ref": "Ps. 119:5",
@@ -22,79 +37,68 @@
     },
     {
       "ref": "Ps. 119:18",
-      "text": "Open my eyes. Give me insight beyond my abilities. wondrous things out of your law. Probably the great deeds recorded there and what they reveal of God himself (see v. 27; Ex. 3:20; Josh. 3:5; Ps. 78:32; 145:5)."
+      "text": "**Open my eyes**. Give me insight beyond my abilities. **wondrous things out of your law**. Probably the great deeds recorded there and what they reveal of God himself (see v. 27 ; Ex. 3:20 ; Josh. 3:5 ; Ps. 78:32 ; 145:5 )."
     },
     {
       "ref": "Ps. 119:21",
-      "text": "insolent, accursed ones. In the psalm, these are Israelites who reject the covenant, who wander from God’s commandments. See vv. 51; 69; 78; 85; 122; 86:14."
+      "text": "**insolent, accursed ones**. In the psalm, these are Israelites who reject the covenant, who wander from God’s commandments. See vv. 51 ; 69 ; 78 ; 85 ; 122 ; 86:14 ."
     },
     {
       "ref": "Ps. 119:23",
-      "text": "princes. In this psalm, these are rulers among God’s people. They might use their power to control the faithful. See vv. 84, 86–87, 121–122, 134, 150, 157, 161."
+      "text": "**princes**. In this psalm, these are rulers among God’s people. They might use their power to control the faithful. See vv. 84 , 86–87 , 121–122 , 134 , 150 , 157 , 161 ."
     },
     {
       "ref": "Ps. 119:32",
-      "text": "enlarge my heart. Or “make my heart broad.” See 1 Kings 4:29, where “breadth of heart or mind” is an expanded ability to understand God’s truth."
+      "text": "**enlarge my heart**. Or “make my heart broad.” See 1 Kings 4:29 , where “breadth of heart or mind” is an expanded ability to understand God’s truth."
     },
     {
       "ref": "Ps. 119:36",
-      "text": "Incline my heart. As in v. 5, the singer knows that God must supply the deepest motivation; see v. 112; also 141:4; 1 Kings 8:58."
+      "text": "**Incline my heart**. As in v. 5 , the singer knows that God must supply the deepest motivation; see v. 112 ; also 141:4 ; 1 Kings 8:58 ."
     },
     {
       "ref": "Ps. 119:41",
-      "text": "steadfast love. A recurring theme of the psalm (vv. 64, 76, 88, 124, 149, 159). It is the genuine experience of God’s grace and mercy that inspires the faithful to seek his moral guidance (see notes on 25:6–7; 25:8–11). salvation. See note on 3:2."
+      "text": "**steadfast love**. A recurring theme of the psalm (vv. 64 , 76 , 88 , 124 , 149 , 159 ). It is the genuine experience of God’s grace and mercy that inspires the faithful to seek his moral guidance (see notes on 25:6–7 ; 25:8–11 ). **salvation**. See note on 3:2 ."
     },
     {
       "ref": "Ps. 119:57",
-      "text": "my portion. See note on 16:5–6."
-    },
-    {
-      "ref": "Ps. 119:59–60",
-      "text": "When I think on my ways. The believer considers his own character and conduct, in order to bring them into greater obedience to God’s commandments."
-    },
-    {
-      "ref": "Ps. 119:76–77",
-      "text": "steadfast love . . . mercy. See Ex. 34:6."
+      "text": "**my portion**. See note on 16:5–6 ."
     },
     {
       "ref": "Ps. 119:83",
-      "text": "like a wineskin in the smoke. An unused wineskin, hanging in the rafters, becomes shriveled by the smoke. It is an image of one’s health “drying up.”"
-    },
-    {
-      "ref": "Ps. 119:98–100",
-      "text": "wiser . . . more understanding . . . understand more. Because, in the setting of the psalm, neither my enemies nor my teachers nor the aged attend carefully to God’s word."
+      "text": "**like a wineskin in the smoke**. An unused wineskin, hanging in the rafters, becomes shriveled by the smoke. It is an image of one’s health “drying up.”"
     },
     {
       "ref": "Ps. 119:105",
-      "text": "lamp . . . light. See note on 112:4."
+      "text": "**lamp . . . light**. See note on 112:4 ."
     },
     {
       "ref": "Ps. 119:113",
-      "text": "double-minded. See 1 Kings 18:21. These are people who should be devoted to the Lord but who allow their loyalties to be divided. The strong terms hate and love refer not so much to emotions as to deliberate rejection and obedience. See Ps. 119:158; see also v. 118, where this reflects God’s own attitude."
+      "text": "**double-minded**. See 1 Kings 18:21 . These are people who should be devoted to the Lord but who allow their loyalties to be divided. The strong terms **hate** and **love** refer not so much to emotions as to deliberate rejection and obedience. See Ps. 119:158 ; see also v. 118 , where this reflects God’s own attitude."
     },
     {
       "ref": "Ps. 119:126",
-      "text": "time for the Lord to act. When God’s law has been broken by his own people and they seem to get away with it, it seems that God is inactive. This is a prayer that he would prove his own justice for the sake of his faithful."
+      "text": "**time for the Lord to act**. When God’s **law has been broken** by his own people and they seem to get away with it, it seems that God is inactive. This is a prayer that he would prove his own justice for the sake of his faithful."
     },
     {
       "ref": "Ps. 119:129",
-      "text": "wonderful. Far beyond merely human in their origin and excellence (see 139:6)."
+      "text": "**wonderful**. Far beyond merely human in their origin and excellence (see 139:6 )."
     },
     {
       "ref": "Ps. 119:130",
-      "text": "The unfolding of your words. As they are pondered, explained, and understood, they give insight and understanding."
+      "text": "**The unfolding of your words**. As they are pondered, explained, and understood, they give insight and understanding."
     },
     {
       "ref": "Ps. 119:155",
-      "text": "For they do not seek implies that the cause is not God’s stinginess but their refusal."
+      "text": "**For they do not seek** implies that the cause is not God’s stinginess but their refusal."
     },
     {
       "ref": "Ps. 119:168",
-      "text": "all my ways are before you. God is well aware of every detail of one’s life. This is good motivation to keep a clear conscience (Eccles. 12:14; Matt. 12:36; Acts 24:15–16)."
+      "text": "**all my ways are before you**. God is well aware of every detail of one’s life. This is good motivation to keep a clear conscience ( Eccles. 12:14 ; Matt. 12:36 ; Acts 24:15–16 )."
     },
     {
       "ref": "Ps. 119:176",
-      "text": "I have gone astray like a lost sheep. A humble person praying this recognizes his need for God’s grace, forgiveness, and steadfast love (see note on v. 41). He asks God to seek him. One who has received this grace will not easily forget God’s commandments."
+      "text": "**I have gone astray like a lost sheep**. A humble person praying this recognizes his need for God’s grace, forgiveness, and steadfast love (see note on v. 41 ). He asks God to **seek** him. One who has received this grace will not easily **forget** God’s **commandments**."
     }
-  ]
+  ],
+  "chapter_intro": "Ps. 119:59–60"
 }

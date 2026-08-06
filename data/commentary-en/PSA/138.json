@@ -1,28 +1,32 @@
 {
   "source": "ESV Global Study Bible (Crossway) — Used under license",
   "book_intro": "The Blue Letter Bible ministry and the BLB Institute hold to the historical, conservative Christian faith, which includes a firm belief in the inerrancy of Scripture. Since the text and audio content provided by BLB represent a range of evangelical traditions, all of the ideas and principles conveyed in the resource materials are not necessarily affirmed, in total, by this ministry.\n\nBlue Letter Bible study tools make reading, searching and studying the Bible easy and rewarding.\n\nBlue Letter Bible is a 501(c)(3) nonprofit organization\n\nYou can copy the order of your preferred Bible translations from the Bibles Tab to the  Version Picker (this popup) or vice versa. The Bibles Tab is found in the Tools feature on Bible pages:\n\nNote: MLA no longer requires the URL as part of their citation standard. Individual instructors or editors may still require the use of URLs.\n\nError: Passwords should have at least 6 characters\n\nError: Usernames should only contain letters, numbers, dots, dashes, or underscores\n\nPasswords should have at least 6 characters.\n\t\t\t\t\t\t\tUsernames should only contain letters, numbers, dots, dashes, or underscores.\n\nThank you for registering. A verification email has been sent to the address you provided.\n\nYour partnership makes all we do possible. Would you prayerfully consider a gift of support today?",
-  "chapter_intro": "",
-  "passages": [],
-  "notes": [
-    {
-      "ref": "Ps. 138",
-      "text": "Psalm . This psalm offers thanks to God for signs of his constant care."
-    },
+  "passages": [
     {
       "ref": "138:1–3",
-      "text": "The opening section explains the theme: I give you thanks because on the day I called, you answered me."
-    },
-    {
-      "ref": "Ps. 138:1",
-      "text": "Since the setting is worship in the temple, gods most likely refers to angels."
+      "title": "138:1–3",
+      "text": "The opening section explains the theme: **I give you thanks** because **on the day I called, you answered me**."
     },
     {
       "ref": "Ps. 138:4–6",
-      "text": "The God to whom the singer had prayed is the universal Lord, to whom all the Gentiles will one day come in worship (all the kings of the earth shall give you thanks). Yet he regards the lowly person."
+      "title": "Ps. 138:4–6",
+      "text": "The God to whom the singer had prayed is the universal Lord, to whom all the Gentiles will one day come in worship (**all the kings of the earth shall give you thanks**). Yet **he regards the lowly** person."
     },
     {
       "ref": "Ps. 138:7–8",
+      "title": "Ps. 138:7–8",
       "text": "The psalm closes by telling of God’s constant care for each of his faithful. As God has begun to care for the singer, so he will continue to do so all throughout the singer’s life."
     }
-  ]
+  ],
+  "notes": [
+    {
+      "ref": "Ps. 138",
+      "text": "**Psalm** . This psalm offers thanks to God for signs of his constant care."
+    },
+    {
+      "ref": "Ps. 138:1",
+      "text": "Since the setting is worship in the temple, **gods** most likely refers to angels."
+    }
+  ],
+  "chapter_intro": "138:1–3"
 }

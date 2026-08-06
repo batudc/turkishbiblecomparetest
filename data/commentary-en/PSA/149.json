@@ -1,24 +1,27 @@
 {
   "source": "ESV Global Study Bible (Crossway) — Used under license",
   "book_intro": "The Blue Letter Bible ministry and the BLB Institute hold to the historical, conservative Christian faith, which includes a firm belief in the inerrancy of Scripture. Since the text and audio content provided by BLB represent a range of evangelical traditions, all of the ideas and principles conveyed in the resource materials are not necessarily affirmed, in total, by this ministry.\n\nBlue Letter Bible study tools make reading, searching and studying the Bible easy and rewarding.\n\nBlue Letter Bible is a 501(c)(3) nonprofit organization\n\nYou can copy the order of your preferred Bible translations from the Bibles Tab to the  Version Picker (this popup) or vice versa. The Bibles Tab is found in the Tools feature on Bible pages:\n\nNote: MLA no longer requires the URL as part of their citation standard. Individual instructors or editors may still require the use of URLs.\n\nError: Passwords should have at least 6 characters\n\nError: Usernames should only contain letters, numbers, dots, dashes, or underscores\n\nPasswords should have at least 6 characters.\n\t\t\t\t\t\t\tUsernames should only contain letters, numbers, dots, dashes, or underscores.\n\nThank you for registering. A verification email has been sent to the address you provided.\n\nYour partnership makes all we do possible. Would you prayerfully consider a gift of support today?",
-  "chapter_intro": "",
-  "passages": [],
-  "notes": [
-    {
-      "ref": "Ps. 149",
-      "text": "Psalm . This psalm calls on God’s people to praise the Lord for their special privileges."
-    },
+  "passages": [
     {
       "ref": "Ps. 149:1–4",
-      "text": "The members of the worshiping congregation call one another to praise the Lord, and to sing to him a new song. The tone is one of jubilant gladness. God’s people call him their Maker and their King, and know that he takes pleasure in his people. This idea would be unbearably arrogant if the Lord himself had not declared it (147:11; see Ex. 19:5); the psalm also clarifies that the full benefit (salvation) comes to the humble."
-    },
-    {
-      "ref": "Ps. 149:6",
-      "text": "This verse is startling, with the high praises of God . . . in their throats and two-edged swords in their hands (an unexpected element in corporate worship!)."
+      "title": "Ps. 149:1–4",
+      "text": "The members of the worshiping congregation call one another to **praise the Lord**, and to **sing to** him **a new song**. The tone is one of jubilant gladness. God’s people call him their **Maker** and their **King**, and know that he **takes pleasure in his people**. This idea would be unbearably arrogant if the Lord himself had not declared it ( 147:11 ; see Ex. 19:5 ); the psalm also clarifies that the full benefit (**salvation**) comes to the **humble**."
     },
     {
       "ref": "Ps. 149:7–9",
-      "text": "The faithful will do God’s work of bringing vengeance on the nations (assuming that they refuse the invitation to “praise the name of the Lord,” 148:13)."
+      "title": "Ps. 149:7–9",
+      "text": "The faithful will do God’s work of bringing **vengeance on the nations** (assuming that they refuse the invitation to “praise the name of the L ord ,” 148:13 )."
     }
-  ]
+  ],
+  "notes": [
+    {
+      "ref": "Ps. 149",
+      "text": "**Psalm** . This psalm calls on God’s people to praise the Lord for their special privileges."
+    },
+    {
+      "ref": "Ps. 149:6",
+      "text": "This verse is startling, with the **high praises of God . . . in their throats** and **two-edged swords in their hands** (an unexpected element in corporate worship!)."
+    }
+  ],
+  "chapter_intro": "Ps. 149:1–4"
 }

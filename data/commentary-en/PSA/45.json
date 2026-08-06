@@ -1,32 +1,37 @@
 {
   "source": "ESV Global Study Bible (Crossway) — Used under license",
   "book_intro": "The Blue Letter Bible ministry and the BLB Institute hold to the historical, conservative Christian faith, which includes a firm belief in the inerrancy of Scripture. Since the text and audio content provided by BLB represent a range of evangelical traditions, all of the ideas and principles conveyed in the resource materials are not necessarily affirmed, in total, by this ministry.\n\nBlue Letter Bible study tools make reading, searching and studying the Bible easy and rewarding.\n\nBlue Letter Bible is a 501(c)(3) nonprofit organization\n\nYou can copy the order of your preferred Bible translations from the Bibles Tab to the  Version Picker (this popup) or vice versa. The Bibles Tab is found in the Tools feature on Bible pages:\n\nNote: MLA no longer requires the URL as part of their citation standard. Individual instructors or editors may still require the use of URLs.\n\nError: Passwords should have at least 6 characters\n\nError: Usernames should only contain letters, numbers, dots, dashes, or underscores\n\nPasswords should have at least 6 characters.\n\t\t\t\t\t\t\tUsernames should only contain letters, numbers, dots, dashes, or underscores.\n\nThank you for registering. A verification email has been sent to the address you provided.\n\nYour partnership makes all we do possible. Would you prayerfully consider a gift of support today?",
-  "chapter_intro": "",
-  "passages": [],
-  "notes": [
-    {
-      "ref": "Ps. 45",
-      "text": "Psalm . This hymn celebrates a royal wedding. It is impossible to be sure for which king in David’s line the song was first composed, but it does not matter. After 2 Sam. 7:11–16, the line of David was the appointed channel through which God would bless his people and carry out his mission to the whole world."
-    },
-    {
-      "ref": "Ps. 45:1",
-      "text": "The words of this song are addressed to the king."
-    },
+  "passages": [
     {
       "ref": "Ps. 45:2–9",
-      "text": "These words speak to the king, praising him for his appearance and gracious speech (v. 2), military power (v. 3), and commitment to promoting justice (vv. 4–7a). These ideals are what lead to God’s blessing for the king, and to the king’s own respected position in the world (vv. 7b–9)."
+      "title": "Ps. 45:2–9",
+      "text": "These words speak to the king, praising him for his appearance and gracious speech (v. 2 ), military power (v. 3 ), and commitment to promoting justice (vv. 4–7a ). These ideals are what lead to God’s blessing for the king, and to the king’s own respected position in the world (vv. 7b–9 )."
     },
     {
       "ref": "Ps. 45:6–7",
-      "text": "Your throne, O God. The song now speaks to God about his throne. This refers to the throne that the heir of David occupies. The psalm goes on to describe the divine ideals for a king’s reign (scepter of uprightness)."
+      "title": "Ps. 45:6–7",
+      "text": "**Your throne, O God**. The song now speaks to God about his throne. This refers to the throne that the heir of David occupies. The psalm goes on to describe the divine ideals for a king’s reign (**scepter of uprightness**)."
     },
     {
       "ref": "Ps. 45:10–12",
-      "text": "The song turns to the bride (O daughter). Her loyalty now is to her husband (the king), no longer to her father’s house. The reference to her people can simply mean the people of her hometown (e.g., 1 Sam. 9:12–13)."
+      "title": "Ps. 45:10–12",
+      "text": "The song turns to the bride (**O daughter**). Her loyalty now is to her husband (**the king**), no longer to her **father’s house**. The reference to her **people** can simply mean the people of her hometown (e.g., 1 Sam. 9:12–13 )."
     },
     {
       "ref": "Ps. 45:16–17",
-      "text": "The song speaks of the king’s enduring line. The marriage of a Davidic king is not a private matter. It is crucial for the fulfilling of God’s promises, not simply to Israel but to the nations."
+      "title": "Ps. 45:16–17",
+      "text": "The song speaks of the king’s enduring line. The marriage of a Davidic king is not a private matter. It is crucial for the fulfilling of God’s promises, not simply to Israel but to the **nations**."
     }
-  ]
+  ],
+  "notes": [
+    {
+      "ref": "Ps. 45",
+      "text": "**Psalm** . This hymn celebrates a royal wedding. It is impossible to be sure for which king in David’s line the song was first composed, but it does not matter. After 2 Sam. 7:11–16 , the line of David was the appointed channel through which God would bless his people and carry out his mission to the whole world."
+    },
+    {
+      "ref": "Ps. 45:1",
+      "text": "The words of this song are addressed **to the king**."
+    }
+  ],
+  "chapter_intro": "Ps. 45:2–9"
 }

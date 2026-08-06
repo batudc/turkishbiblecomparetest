@@ -1,32 +1,36 @@
 {
   "source": "ESV Global Study Bible (Crossway) — Used under license",
   "book_intro": "The Blue Letter Bible ministry and the BLB Institute hold to the historical, conservative Christian faith, which includes a firm belief in the inerrancy of Scripture. Since the text and audio content provided by BLB represent a range of evangelical traditions, all of the ideas and principles conveyed in the resource materials are not necessarily affirmed, in total, by this ministry.\n\nBlue Letter Bible study tools make reading, searching and studying the Bible easy and rewarding.\n\nBlue Letter Bible is a 501(c)(3) nonprofit organization\n\nYou can copy the order of your preferred Bible translations from the Bibles Tab to the  Version Picker (this popup) or vice versa. The Bibles Tab is found in the Tools feature on Bible pages:\n\nNote: MLA no longer requires the URL as part of their citation standard. Individual instructors or editors may still require the use of URLs.\n\nError: Passwords should have at least 6 characters\n\nError: Usernames should only contain letters, numbers, dots, dashes, or underscores\n\nPasswords should have at least 6 characters.\n\t\t\t\t\t\t\tUsernames should only contain letters, numbers, dots, dashes, or underscores.\n\nThank you for registering. A verification email has been sent to the address you provided.\n\nYour partnership makes all we do possible. Would you prayerfully consider a gift of support today?",
-  "chapter_intro": "",
-  "passages": [],
-  "notes": [
-    {
-      "ref": "Ps. 63",
-      "text": "Psalm . This psalm opens as if it were a lament, yet it is mainly a song of confident expectation. The psalm helps God’s people gain confidence during times of trouble. It expresses confidence that they will be able to return to the sanctuary to worship God. The highest privilege a human can enjoy is to be a welcome member of the worshiping congregation. The references to “my soul” (vv. 1, 5, 8) express personal devotion to God."
-    },
+  "passages": [
     {
       "ref": "Ps. 63:1–2",
-      "text": "The song opens with passionate expressions of longing for God: earnestly I seek, my soul thirsts, my flesh faints. The singer misses his experience of God in public worship. The sanctuary is the place of corporate worship, and God’s glory is his special presence there with his people (see note on 26:4–8)."
+      "title": "Ps. 63:1–2",
+      "text": "The song opens with passionate expressions of longing for God: **earnestly I seek**,** my soul thirsts**, **my flesh faints**. The singer misses his experience of God in public worship. The **sanctuary** is the place of corporate worship, and God’s **glory** is his special presence there with his people (see note on 26:4–8 )."
     },
     {
       "ref": "Ps. 63:3–4",
-      "text": "The past tense remembering of v. 2 becomes a future expectation: my lips will praise you, I will bless you, I will lift up my hands. This happens because your steadfast love is better than life."
-    },
-    {
-      "ref": "Ps. 63:6",
-      "text": "in the watches of the night. The singer deals with sleeplessness by meditating on God."
+      "title": "Ps. 63:3–4",
+      "text": "The past tense remembering of v. 2 becomes a future expectation: **my lips will praise you**, **I will bless you**, **I will lift up my hands**. This happens **because your steadfast love is better than life**."
     },
     {
       "ref": "Ps. 63:9–11",
-      "text": "The song explains where the troubles came from: those who seek to destroy my life. For David, these were Israelites who rebelled against God’s choice of David as king (see the title). David, and those who respect his kingship, will not fall prey to these enemies but will rejoice in God."
+      "title": "Ps. 63:9–11",
+      "text": "The song explains where the troubles came from: **those who seek to destroy my life**. For David, these were Israelites who rebelled against God’s choice of David as king (see the title). David, and those who respect his kingship, will not fall prey to these enemies but will rejoice in God."
+    }
+  ],
+  "notes": [
+    {
+      "ref": "Ps. 63",
+      "text": "**Psalm** . This psalm opens as if it were a lament, yet it is mainly a song of confident expectation. The psalm helps God’s people gain confidence during times of trouble. It expresses confidence that they will be able to return to the sanctuary to worship God. The highest privilege a human can enjoy is to be a welcome member of the worshiping congregation. The references to “my soul” (vv. 1 , 5 , 8 ) express personal devotion to God."
+    },
+    {
+      "ref": "Ps. 63:6",
+      "text": "**in the watches of the night**. The singer deals with sleeplessness by meditating on God."
     },
     {
       "ref": "Ps. 63:10",
-      "text": "The enemies of God’s people will become a portion for jackals, a grim description of dead bodies lying unburied after a battle."
+      "text": "The enemies of God’s people will become a **portion for jackals**, a grim description of dead bodies lying unburied after a battle."
     }
-  ]
+  ],
+  "chapter_intro": "Ps. 63:1–2"
 }

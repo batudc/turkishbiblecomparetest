@@ -1,28 +1,31 @@
 {
   "source": "ESV Global Study Bible (Crossway) — Used under license",
   "book_intro": "The Blue Letter Bible ministry and the BLB Institute hold to the historical, conservative Christian faith, which includes a firm belief in the inerrancy of Scripture. Since the text and audio content provided by BLB represent a range of evangelical traditions, all of the ideas and principles conveyed in the resource materials are not necessarily affirmed, in total, by this ministry.\n\nBlue Letter Bible study tools make reading, searching and studying the Bible easy and rewarding.\n\nBlue Letter Bible is a 501(c)(3) nonprofit organization\n\nYou can copy the order of your preferred Bible translations from the Bibles Tab to the  Version Picker (this popup) or vice versa. The Bibles Tab is found in the Tools feature on Bible pages:\n\nNote: MLA no longer requires the URL as part of their citation standard. Individual instructors or editors may still require the use of URLs.\n\nError: Passwords should have at least 6 characters\n\nError: Usernames should only contain letters, numbers, dots, dashes, or underscores\n\nPasswords should have at least 6 characters.\n\t\t\t\t\t\t\tUsernames should only contain letters, numbers, dots, dashes, or underscores.\n\nThank you for registering. A verification email has been sent to the address you provided.\n\nYour partnership makes all we do possible. Would you prayerfully consider a gift of support today?",
-  "chapter_intro": "",
-  "passages": [],
-  "notes": [
+  "passages": [
     {
       "ref": "2 Sam 4:2–3",
-      "text": "Beeroth is about 2 miles (3.2 km) south of Gibeon. It is one of the cities that tricked Joshua into making a treaty with them (Josh. 9:17). The Beerothites had probably fled to Gittaim when Saul put the Gibeonites to death (see 2 Sam. 21:1). Apparently after that the Benjaminites (Neh. 11:33), including Rimmon and his family, came to live there."
+      "title": "2 Sam 4:2–3",
+      "text": "**Beeroth** is about 2 miles (3.2 km) south of Gibeon. It is one of the cities that tricked Joshua into making a treaty with them ( Josh. 9:17 ). The Beerothites had probably **fled to Gittaim** when Saul put the Gibeonites to death (see 2 Sam. 21:1 ). Apparently after that the Benjaminites ( Neh. 11:33 ), including **Rimmon** and his family, came to live there."
     },
     {
+      "ref": "2 Sam 4:10–11",
+      "title": "2 Sam 4:10–11",
+      "text": "This refers to the incident in 1:13–16 . The Amalekite had at least given the excuse that Saul had requested his own death, but Ish-bosheth’s death was outright murder."
+    }
+  ],
+  "notes": [
+    {
       "ref": "2 Sam 4:4",
-      "text": "The information about Mephibosheth is probably put here to show why there was no move to make him king after Ish-bosheth’s death. He was still a child, and he was crippled. Apparently his real name was “Merib-baal” (1 Chron. 8:34). Because “baal” could mean “lord” in general, the name probably referred to the Lord of Israel (as in 2 Sam. 5:20). At some point, to avoid using the name of the god Baal, in Samuel he is referred to as “Mephibosheth.” Similarly, Saul’s son Ish-bosheth is called “Eshbaal” in 1 Chron. 8:33, but “Ish-bosheth” in Samuel. Jerubbaal (that is, Gideon; Judg. 6:32) is called “Jerubbesheth” in 2 Sam. 11:21."
+      "text": "The information about **Mephibosheth** is probably put here to show why there was no move to make him king after Ish-bosheth’s death. He was still a child, and he was **crippled**. Apparently his real name was “Merib-baal” ( 1 Chron. 8:34 ). Because “baal” could mean “lord” in general, the name probably referred to the Lord of Israel (as in 2 Sam. 5:20 ). At some point, to avoid using the name of the god Baal, in Samuel he is referred to as “Mephibosheth.” Similarly, Saul’s son Ish-bosheth is called “Eshbaal” in 1 Chron. 8:33 , but “Ish-bosheth” in Samuel. Jerubbaal (that is, Gideon; Judg. 6:32 ) is called “Jerubbesheth” in 2 Sam. 11:21 ."
     },
     {
       "ref": "2 Sam 4:7",
       "text": "This verse is an expansion of the previous verse."
     },
     {
-      "ref": "2 Sam 4:10–11",
-      "text": "This refers to the incident in 1:13–16. The Amalekite had at least given the excuse that Saul had requested his own death, but Ish-bosheth’s death was outright murder."
-    },
-    {
       "ref": "2 Sam 4:12",
-      "text": "Unlike the case of Joab, there is no problem with executing the killers of Ish-bosheth. For hanging a body after death, see 21:6 and Josh. 10:26."
+      "text": "Unlike the case of Joab, there is no problem with executing the killers of Ish-bosheth. For hanging a body after death, see 21:6 and Josh. 10:26 ."
     }
-  ]
+  ],
+  "chapter_intro": "2 Sam 4:2–3"
 }

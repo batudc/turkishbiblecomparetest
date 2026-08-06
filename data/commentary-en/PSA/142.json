@@ -1,24 +1,28 @@
 {
   "source": "ESV Global Study Bible (Crossway) — Used under license",
   "book_intro": "The Blue Letter Bible ministry and the BLB Institute hold to the historical, conservative Christian faith, which includes a firm belief in the inerrancy of Scripture. Since the text and audio content provided by BLB represent a range of evangelical traditions, all of the ideas and principles conveyed in the resource materials are not necessarily affirmed, in total, by this ministry.\n\nBlue Letter Bible study tools make reading, searching and studying the Bible easy and rewarding.\n\nBlue Letter Bible is a 501(c)(3) nonprofit organization\n\nYou can copy the order of your preferred Bible translations from the Bibles Tab to the  Version Picker (this popup) or vice versa. The Bibles Tab is found in the Tools feature on Bible pages:\n\nNote: MLA no longer requires the URL as part of their citation standard. Individual instructors or editors may still require the use of URLs.\n\nError: Passwords should have at least 6 characters\n\nError: Usernames should only contain letters, numbers, dots, dashes, or underscores\n\nPasswords should have at least 6 characters.\n\t\t\t\t\t\t\tUsernames should only contain letters, numbers, dots, dashes, or underscores.\n\nThank you for registering. A verification email has been sent to the address you provided.\n\nYour partnership makes all we do possible. Would you prayerfully consider a gift of support today?",
-  "chapter_intro": "",
-  "passages": [],
-  "notes": [
-    {
-      "ref": "Ps. 142",
-      "text": "Psalm . This individual lament is a companion to Psalm 57. It is also similar to Psalms 140–141, with the faithful person praying for protection from persecutors."
-    },
+  "passages": [
     {
       "ref": "Ps. 142:1–2",
-      "text": "The words here express earnest prayer in the face of danger: cry out, plead for mercy, pour out my complaint, and tell my trouble. Each of these acts is directed toward the Lord."
+      "title": "Ps. 142:1–2",
+      "text": "The words here express earnest prayer in the face of danger: **cry out**, **plead for mercy**, **pour out my complaint**, and **tell my trouble**. Each of these acts is directed toward the Lord."
     },
     {
       "ref": "Ps. 142:3–4",
+      "title": "Ps. 142:3–4",
       "text": "These verses express what people often feel when being threatened: out of energy, beset by dangers, confused, and painfully alone."
     },
     {
       "ref": "Ps. 142:5–7",
-      "text": "The final section ties the whole psalm together. Cry to you echoes v. 1, while you are my refuge echoes v. 4; and I am brought very low summarizes vv. 3–4. This section enables the faithful to pray with boldness and with confidence in the Lord’s unflagging care."
+      "title": "Ps. 142:5–7",
+      "text": "The final section ties the whole psalm together. **Cry to you** echoes v. 1 , while **you are my refuge** echoes v. 4 ; and **I am brought very low** summarizes vv. 3–4 . This section enables the faithful to pray with boldness and with confidence in the Lord’s unflagging care."
     }
-  ]
+  ],
+  "notes": [
+    {
+      "ref": "Ps. 142",
+      "text": "**Psalm** . This individual lament is a companion to Psalm 57 . It is also similar to Psalms 140–141 , with the faithful person praying for protection from persecutors."
+    }
+  ],
+  "chapter_intro": "Ps. 142:1–2"
 }

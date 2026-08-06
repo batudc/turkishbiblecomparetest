@@ -1,52 +1,59 @@
 {
   "source": "ESV Global Study Bible (Crossway) — Used under license",
   "book_intro": "The Blue Letter Bible ministry and the BLB Institute hold to the historical, conservative Christian faith, which includes a firm belief in the inerrancy of Scripture. Since the text and audio content provided by BLB represent a range of evangelical traditions, all of the ideas and principles conveyed in the resource materials are not necessarily affirmed, in total, by this ministry.\n\nBlue Letter Bible study tools make reading, searching and studying the Bible easy and rewarding.\n\nBlue Letter Bible is a 501(c)(3) nonprofit organization\n\nYou can copy the order of your preferred Bible translations from the Bibles Tab to the  Version Picker (this popup) or vice versa. The Bibles Tab is found in the Tools feature on Bible pages:\n\nNote: MLA no longer requires the URL as part of their citation standard. Individual instructors or editors may still require the use of URLs.\n\nError: Passwords should have at least 6 characters\n\nError: Usernames should only contain letters, numbers, dots, dashes, or underscores\n\nPasswords should have at least 6 characters.\n\t\t\t\t\t\t\tUsernames should only contain letters, numbers, dots, dashes, or underscores.\n\nThank you for registering. A verification email has been sent to the address you provided.\n\nYour partnership makes all we do possible. Would you prayerfully consider a gift of support today?",
-  "chapter_intro": "",
-  "passages": [],
-  "notes": [
-    {
-      "ref": "Ps. 69",
-      "text": "Psalm . This is an individual lament. A faithful Israelite is suffering for wrongs he has done (v. 5). Attackers take advantage of his suffering and make it worse (v. 26). In his role as representative for the people of God, David wrote this psalm to show the ideal response to such trials."
-    },
+  "passages": [
     {
       "ref": "Ps. 69:4–5",
-      "text": "hate me without cause. This is not a claim of total innocence; the psalm acknowledges that the singer is not perfect (the wrongs I have done are not hidden from you). Rather, it is a claim that the singer has not done harm to the particular people who attack him with lies. By quoting this psalm, John 15:25 presents Jesus as the perfect faithful Israelite, who may expect the unfaithful to hate him."
-    },
-    {
-      "ref": "Ps. 69:6",
-      "text": "The singer knows his sin could result in some of the faithful (those who hope in you) being scorned. He prays that this will not happen."
+      "title": "Ps. 69:4–5",
+      "text": "**hate me without cause**. This is not a claim of total innocence; the psalm acknowledges that the singer is not perfect (**the wrongs I have done are not hidden from you**). Rather, it is a claim that the singer has not done harm to the particular people who **attack** him **with lies**. By quoting this psalm, John 15:25 presents Jesus as the perfect faithful Israelite, who may expect the unfaithful to hate him."
     },
     {
       "ref": "Ps. 69:9–12",
-      "text": "Reproach means to despise or insult. This idea was introduced in v. 7 and dominates this section."
-    },
-    {
-      "ref": "Ps. 69:9",
-      "text": "zeal for your house has consumed me. In John 2:17, Jesus’ disciples remember this text after Jesus has driven the livestock merchants and money-changers out of the temple. Jesus embodies the ideal faithful member of God’s people, as the Davidic kings were supposed to do. the reproaches of those who reproach you have fallen on me. In Rom. 15:3, Paul applies this text to Jesus; he saw Jesus as the ideal covenant member who was willing to suffer reproach for the sake of God’s truth."
+      "title": "Ps. 69:9–12",
+      "text": "**Reproach** means to despise or insult. This idea was introduced in v. 7 and dominates this section."
     },
     {
       "ref": "Ps. 69:13–18",
-      "text": "my prayer is to you, answer me, hide not your face, draw near. The singer’s case is desperate, and he urgently needs God’s help. The prayer echoes Ex. 34:6, appealing to what God has revealed about himself: the abundance of your steadfast love and faithfulness (Ps. 69:13) and steadfast love and mercy (v. 16)."
-    },
-    {
-      "ref": "Ps. 69:21",
-      "text": "for my thirst they gave me sour wine to drink. John 19:28–29 uses these words in connection with one of Jesus’ last statements on the cross (see also Matt. 27:34, 48; Mark 15:23, 36; Luke 23:36). The sour wine would have been the cheap beverage that the soldiers used to satisfy their thirst. But Jesus felt forsaken by God (Mark 15:34), and his thirst must have been far more severe than anything this drink was meant for. When Jesus received it, he briefly prolonged his life (and his agony), and perhaps moistened his lips enough finally to cry out, “It is finished!” (John 19:30)."
+      "title": "Ps. 69:13–18",
+      "text": "**my prayer is to you**, **answer me**, **hide not your face**, **draw near**. The singer’s case is desperate, and he urgently needs God’s help. The prayer echoes Ex. 34:6 , appealing to what God has revealed about himself: **the abundance of your steadfast love** and **faithfulness** ( Ps. 69:13 ) and **steadfast love** and **mercy** (v. 16 )."
     },
     {
       "ref": "Ps. 69:22–23",
-      "text": "In Rom. 11:9–10, Paul cites this curse to explain why his fellow Jews who reject the message of Christ have been hardened. He also explains why the curse is not final: it is a “partial hardening,” which will be relieved if and when they repent (Rom. 11:23–25)."
-    },
-    {
-      "ref": "Ps. 69:25",
-      "text": "In Acts 1:20, this text is applied to Judas, who had taken part in destroying Jesus, who was the perfect embodiment of this psalm."
+      "title": "Ps. 69:22–23",
+      "text": "In Rom. 11:9–10 , Paul cites this curse to explain why his fellow Jews who reject the message of Christ have been hardened. He also explains why the curse is not final: it is a “partial hardening,” which will be relieved if and when they repent ( Rom. 11:23–25 )."
     },
     {
       "ref": "Ps. 69:29–33",
-      "text": "The writer promises to magnify God with public thanksgiving when God saves him from his enemies (set me on high)."
+      "title": "Ps. 69:29–33",
+      "text": "The writer promises to **magnify** God with public **thanksgiving** when God saves him from his enemies (**set** **me on high**)."
     },
     {
       "ref": "Ps. 69:34–36",
-      "text": "All creation praises God. God is committed to populating Zion with the faithful offspring of his (faithful) servants. God intends for the whole world to be able to praise him. He intends for Zion to set an example of faithfulness for the rest of the world. Zion cannot do this when evil persons corrupt others."
+      "title": "Ps. 69:34–36",
+      "text": "All creation praises God. God is committed to populating **Zion** with the faithful **offspring of his** (faithful) **servants**. God intends for the whole world to be able to praise him. He intends for Zion to set an example of faithfulness for the rest of the world. Zion cannot do this when evil persons corrupt others."
     }
-  ]
+  ],
+  "notes": [
+    {
+      "ref": "Ps. 69",
+      "text": "**Psalm** . This is an individual lament. A faithful Israelite is suffering for wrongs he has done (v. 5 ). Attackers take advantage of his suffering and make it worse (v. 26 ). In his role as representative for the people of God, David wrote this psalm to show the ideal response to such trials."
+    },
+    {
+      "ref": "Ps. 69:6",
+      "text": "The singer knows his sin could result in some of the faithful (**those who hope in you**) being scorned. He prays that this will not happen."
+    },
+    {
+      "ref": "Ps. 69:9",
+      "text": "**zeal for your house has consumed me**. In John 2:17 , Jesus’ disciples remember this text after Jesus has driven the livestock merchants and money-changers out of the temple. Jesus embodies the ideal faithful member of God’s people, as the Davidic kings were supposed to do. **the reproaches of those who reproach you have fallen on me**. In Rom. 15:3 , Paul applies this text to Jesus; he saw Jesus as the ideal covenant member who was willing to suffer reproach for the sake of God’s truth."
+    },
+    {
+      "ref": "Ps. 69:21",
+      "text": "**for my thirst they gave me sour wine to drink**. John 19:28–29 uses these words in connection with one of Jesus’ last statements on the cross (see also Matt. 27:34 , 48 ; Mark 15:23 , 36 ; Luke 23:36 ). The sour wine would have been the cheap beverage that the soldiers used to satisfy their thirst. But Jesus felt forsaken by God ( Mark 15:34 ), and his thirst must have been far more severe than anything this drink was meant for. When Jesus received it, he briefly prolonged his life (and his agony), and perhaps moistened his lips enough finally to cry out, “It is finished!” ( John 19:30 )."
+    },
+    {
+      "ref": "Ps. 69:25",
+      "text": "In Acts 1:20 , this text is applied to Judas, who had taken part in destroying Jesus, who was the perfect embodiment of this psalm."
+    }
+  ],
+  "chapter_intro": "Ps. 69:4–5"
 }

@@ -1,32 +1,41 @@
 {
   "source": "ESV Global Study Bible (Crossway) — Used under license",
   "book_intro": "The Blue Letter Bible ministry and the BLB Institute hold to the historical, conservative Christian faith, which includes a firm belief in the inerrancy of Scripture. Since the text and audio content provided by BLB represent a range of evangelical traditions, all of the ideas and principles conveyed in the resource materials are not necessarily affirmed, in total, by this ministry.\n\nBlue Letter Bible study tools make reading, searching and studying the Bible easy and rewarding.\n\nBlue Letter Bible is a 501(c)(3) nonprofit organization\n\nYou can copy the order of your preferred Bible translations from the Bibles Tab to the  Version Picker (this popup) or vice versa. The Bibles Tab is found in the Tools feature on Bible pages:\n\nNote: MLA no longer requires the URL as part of their citation standard. Individual instructors or editors may still require the use of URLs.\n\nError: Passwords should have at least 6 characters\n\nError: Usernames should only contain letters, numbers, dots, dashes, or underscores\n\nPasswords should have at least 6 characters.\n\t\t\t\t\t\t\tUsernames should only contain letters, numbers, dots, dashes, or underscores.\n\nThank you for registering. A verification email has been sent to the address you provided.\n\nYour partnership makes all we do possible. Would you prayerfully consider a gift of support today?",
-  "chapter_intro": "",
-  "passages": [],
-  "notes": [
+  "passages": [
+    {
+      "ref": "2 Kings 21:1–26",
+      "title": "Manasseh and Amon.",
+      "text": "Even through the bad times, the Lord has been faithful to Judah because of his promise to David. Throughout chs. 16–20 it is suggested that Judah will eventually go into exile, just like Israel. As the wicked Manasseh begins his reign, these hints of disaster become prophetic announcements of judgment."
+    },
     {
       "ref": "2 Kings 21:1–9",
-      "text": "Manasseh is the very worst of the Judean kings. He participates in everything that has been corrupted in the religion of Israel and adds to it despicable practices of the nations."
-    },
-    {
-      "ref": "2 Kings 21:8",
-      "text": "For the feet of Israel to wander . . . out of the land would be for the people to go into exile. The authors make it clear that Judah will go into exile because of its own unfaithfulness rather than because of any weakness on God’s part."
-    },
-    {
-      "ref": "2 Kings 21:12",
-      "text": "ears . . . will tingle. People will react when they hear of the disaster that happens to Jerusalem and Judah (compare Deut. 2:25; Isa. 32:11)."
-    },
-    {
-      "ref": "2 Kings 21:13",
-      "text": "the measuring line . . . the plumb line. The city will be assessed by the divine architect (compare the use of the measuring line in Isa. 34:11; Lam. 2:8) and will be condemned."
+      "title": "2 Kings 21:1–9",
+      "text": "**Manasseh** is the very worst of the Judean kings. He participates in everything that has been corrupted in the religion of Israel and adds to it **despicable practices of the nations**."
     },
     {
       "ref": "2 Kings 21:17–18",
-      "text": "Manasseh’s burial site was outside the part of Jerusalem where previous kings were buried. The garden of Uzza was perhaps an enclosure on the Temple Mount dedicated to the Arabian goddess al-Uzza, identified with Venus. It could also have been an enclosure at the southern end of the Kidron Valley, just outside the city walls, where there was a “king’s garden” (25:4; Neh. 3:15). On the Chronicles of the Kings, see note on 1 Kings 14:19."
+      "title": "2 Kings 21:17–18",
+      "text": "Manasseh’s burial site was outside the part of Jerusalem where previous kings were buried. The **garden of Uzza** was perhaps an enclosure on the Temple Mount dedicated to the Arabian goddess al-Uzza, identified with Venus. It could also have been an enclosure at the southern end of the Kidron Valley, just outside the city walls, where there was a “king’s garden” ( 25:4 ; Neh. 3:15 ). On the **Chronicles of the Kings**, see note on 1 Kings 14:19 ."
     },
     {
       "ref": "2 Kings 21:19–26",
-      "text": "Amon. See note on 2 Chron. 33:21–25."
+      "title": "2 Kings 21:19–26",
+      "text": "**Amon**. See note on 2 Chron. 33:21–25 ."
     }
-  ]
+  ],
+  "notes": [
+    {
+      "ref": "2 Kings 21:8",
+      "text": "For the **feet of Israel to wander . . . out of the land** would be for the people to go into exile. The authors make it clear that Judah will go into exile because of its own unfaithfulness rather than because of any weakness on God’s part."
+    },
+    {
+      "ref": "2 Kings 21:12",
+      "text": "**ears . . . will tingle**. People will react when they hear of the **disaster** that happens to **Jerusalem and Judah** (compare Deut. 2:25 ; Isa. 32:11 )."
+    },
+    {
+      "ref": "2 Kings 21:13",
+      "text": "**the measuring line . . . the plumb line**. The city will be assessed by the divine architect (compare the use of the measuring line in Isa. 34:11 ; Lam. 2:8 ) and will be condemned."
+    }
+  ],
+  "chapter_intro": "Manasseh and Amon."
 }

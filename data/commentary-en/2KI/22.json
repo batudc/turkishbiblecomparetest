@@ -1,32 +1,41 @@
 {
   "source": "ESV Global Study Bible (Crossway) — Used under license",
   "book_intro": "The Blue Letter Bible ministry and the BLB Institute hold to the historical, conservative Christian faith, which includes a firm belief in the inerrancy of Scripture. Since the text and audio content provided by BLB represent a range of evangelical traditions, all of the ideas and principles conveyed in the resource materials are not necessarily affirmed, in total, by this ministry.\n\nBlue Letter Bible study tools make reading, searching and studying the Bible easy and rewarding.\n\nBlue Letter Bible is a 501(c)(3) nonprofit organization\n\nYou can copy the order of your preferred Bible translations from the Bibles Tab to the  Version Picker (this popup) or vice versa. The Bibles Tab is found in the Tools feature on Bible pages:\n\nNote: MLA no longer requires the URL as part of their citation standard. Individual instructors or editors may still require the use of URLs.\n\nError: Passwords should have at least 6 characters\n\nError: Usernames should only contain letters, numbers, dots, dashes, or underscores\n\nPasswords should have at least 6 characters.\n\t\t\t\t\t\t\tUsernames should only contain letters, numbers, dots, dashes, or underscores.\n\nThank you for registering. A verification email has been sent to the address you provided.\n\nYour partnership makes all we do possible. Would you prayerfully consider a gift of support today?",
-  "chapter_intro": "",
-  "passages": [],
-  "notes": [
+  "passages": [
     {
-      "ref": "2 Kings 22:2",
-      "text": "Josiah is the ideal king who does not turn from the Mosaic law to the right or to the left (Deut. 17:20). His faithfulness to God is even greater than that of David and Hezekiah (2 Kings 23:21–25)."
+      "ref": "2 Kings 22:1–23:30",
+      "title": "Josiah.",
+      "text": "Josiah is a long-awaited good king (see 1 Kings 13:2 ). He does many significant deeds, but it comes too late to change Judah’s fate."
     },
     {
       "ref": "2 Kings 22:3–7",
-      "text": "the king sent Shaphan. Like Joash in 12:1–16, Josiah’s initial concern is simply to repair the temple, not to reform its worship. In fact, the reforms introduced by Joash some 200 years previously are still in place. The doorkeepers still collect the money for temple repairs, and the secretary and the high priest still count and distribute the money to the men in charge of the work."
-    },
-    {
-      "ref": "2 Kings 22:8",
-      "text": "I have found the Book of the Law. The phrase “Book of the Law” may refer to all or part of the Pentateuch. Most scholars think a portion of Deuteronomy was discovered, which was read to the king and provided the basis for his actions. This written Law had been available to the kings of Israel and Judah in previous years (see 1 Kings 2:3; 2 Kings 10:31; 14:6; 18:6), but it was evidently lost or concealed during the long and wicked reign of Manasseh."
+      "title": "2 Kings 22:3–7",
+      "text": "**the king sent Shaphan**. Like Joash in 12:1–16 , Josiah’s initial concern is simply to repair the temple, not to reform its worship. In fact, the reforms introduced by Joash some 200 years previously are still in place. The doorkeepers still collect the **money** for temple repairs, and the **secretary** and the high priest still count and distribute the money to the men in charge of the work."
     },
     {
       "ref": "2 Kings 22:11–13",
-      "text": "Brought up in a royal court that had disobeyed God for 57 years, Josiah did not know the Lord’s demands. As soon as he became aware, he tore his clothes in grief and despair (compare 5:7–8; 6:30) and sent officials to inquire of the Lord."
+      "title": "2 Kings 22:11–13",
+      "text": "Brought up in a royal court that had disobeyed God for 57 years, Josiah did not know the Lord’s demands. As soon as he became aware, **he tore his clothes** in grief and despair (compare 5:7–8 ; 6:30 ) and sent officials to **inquire of the Lord**."
     },
     {
       "ref": "2 Kings 22:14–16",
-      "text": "The officials (v. 11) consulted an otherwise unknown prophetess named Huldah. Her words confirm what is already known from the unnamed prophets of 21:10–15: the Lord is going to bring disaster on Jerusalem and its people."
+      "title": "2 Kings 22:14–16",
+      "text": "The officials (v. 11 ) consulted an otherwise unknown **prophetess** named **Huldah**. Her words confirm what is already known from the unnamed prophets of 21:10–15 : the Lord is going to **bring disaster** on Jerusalem and its people."
+    }
+  ],
+  "notes": [
+    {
+      "ref": "2 Kings 22:2",
+      "text": "Josiah is the ideal king who does not **turn** from the Mosaic law **to the right or to the left** ( Deut. 17:20 ). His faithfulness to God is even greater than that of **David** and Hezekiah ( 2 Kings 23:21–25 )."
+    },
+    {
+      "ref": "2 Kings 22:8",
+      "text": "**I have found the Book of the Law**. The phrase “Book of the Law” may refer to all or part of the Pentateuch. Most scholars think a portion of Deuteronomy was discovered, which was read to the king and provided the basis for his actions. This written Law had been available to the kings of Israel and Judah in previous years (see 1 Kings 2:3 ; 2 Kings 10:31 ; 14:6 ; 18:6 ), but it was evidently lost or concealed during the long and wicked reign of Manasseh."
     },
     {
       "ref": "2 Kings 22:20",
       "text": "Because Josiah has humbled himself before the Lord, he will die before the terrible events prophesied in 21:12–14 and 22:15–17 occur."
     }
-  ]
+  ],
+  "chapter_intro": "Josiah."
 }

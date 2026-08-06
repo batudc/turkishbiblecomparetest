@@ -1,28 +1,32 @@
 {
   "source": "ESV Global Study Bible (Crossway) — Used under license",
   "book_intro": "The Blue Letter Bible ministry and the BLB Institute hold to the historical, conservative Christian faith, which includes a firm belief in the inerrancy of Scripture. Since the text and audio content provided by BLB represent a range of evangelical traditions, all of the ideas and principles conveyed in the resource materials are not necessarily affirmed, in total, by this ministry.\n\nBlue Letter Bible study tools make reading, searching and studying the Bible easy and rewarding.\n\nBlue Letter Bible is a 501(c)(3) nonprofit organization\n\nYou can copy the order of your preferred Bible translations from the Bibles Tab to the  Version Picker (this popup) or vice versa. The Bibles Tab is found in the Tools feature on Bible pages:\n\nNote: MLA no longer requires the URL as part of their citation standard. Individual instructors or editors may still require the use of URLs.\n\nError: Passwords should have at least 6 characters\n\nError: Usernames should only contain letters, numbers, dots, dashes, or underscores\n\nPasswords should have at least 6 characters.\n\t\t\t\t\t\t\tUsernames should only contain letters, numbers, dots, dashes, or underscores.\n\nThank you for registering. A verification email has been sent to the address you provided.\n\nYour partnership makes all we do possible. Would you prayerfully consider a gift of support today?",
-  "chapter_intro": "",
-  "passages": [],
-  "notes": [
-    {
-      "ref": "Ps. 91",
-      "text": "Psalm . This tender psalm describes the confidence that the believer may have through all types of dangers and challenges."
-    },
+  "passages": [
     {
       "ref": "Ps. 91:1–2",
-      "text": "The Lord is a secure defense (shelter, shadow, refuge, fortress) for those who take refuge in him."
+      "title": "Ps. 91:1–2",
+      "text": "The Lord is a secure defense (**shelter**, **shadow**, **refuge**, **fortress**) for those who take refuge in him."
     },
     {
       "ref": "Ps. 91:3–8",
-      "text": "These verses list the benefits that come to those who trust in the Lord. The snare of the fowler (v. 3) seems to be a metaphor for the schemes of those who hate the faithful. Pestilence (vv. 3, 6) and destruction are diseases that God sends on his enemies or his unfaithful people (see Ex. 5:3; 9:15). The terror and arrow, together with a thousand may fall, envision God’s people under attack. Psalm 91:8 notes that God sends plagues and battles as recompense on the wicked (whether Gentile or Israelite). In such times, the faithful can trust God not to judge them as he does the wicked."
-    },
-    {
-      "ref": "Ps. 91:10",
-      "text": "The mention of a plague recalls the plagues that fell on Egypt (see Gen. 12:17; Ex. 11:1). As happened then, the faithful are safe in a time of God’s judgment."
+      "title": "Ps. 91:3–8",
+      "text": "These verses list the benefits that come to those who trust in the Lord. The **snare of the fowler** (v. 3 ) seems to be a metaphor for the schemes of those who hate the faithful. **Pestilence** (vv. 3 , 6 ) and **destruction** are diseases that God sends on his enemies or his unfaithful people (see Ex. 5:3 ; 9:15 ). The **terror** and **arrow**, together with **a thousand may fall**, envision God’s people under attack. Psalm 91:8 notes that God sends plagues and battles as **recompense** on the **wicked** (whether Gentile or Israelite). In such times, the faithful can trust God not to judge them as he does the wicked."
     },
     {
       "ref": "Ps. 91:14–16",
-      "text": "The psalm closes by laying out what trust in God looks like (holds fast to me in love, knows my name, and calls to God) and by repeating God’s pledge to care for his faithful ones (deliver, protect, answer, be with him in trouble, rescue, honor). Such a person will have long life (probably implying eternal life; see note on 23:5–6) and will enjoy God’s salvation."
+      "title": "Ps. 91:14–16",
+      "text": "The psalm closes by laying out what trust in God looks like (**holds fast to me in love**, **knows my name**, and **calls to** God) and by repeating God’s pledge to care for his faithful ones (**deliver**, **protect**, **answer**, **be with him in trouble**, **rescue**, **honor**). Such a person will have **long life** (probably implying eternal life; see note on 23:5–6 ) and will enjoy God’s **salvation**."
     }
-  ]
+  ],
+  "notes": [
+    {
+      "ref": "Ps. 91",
+      "text": "**Psalm** . This tender psalm describes the confidence that the believer may have through all types of dangers and challenges."
+    },
+    {
+      "ref": "Ps. 91:10",
+      "text": "The mention of a **plague** recalls the plagues that fell on Egypt (see Gen. 12:17 ; Ex. 11:1 ). As happened then, the faithful are safe in a time of God’s judgment."
+    }
+  ],
+  "chapter_intro": "Ps. 91:1–2"
 }

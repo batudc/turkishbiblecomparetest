@@ -1,44 +1,51 @@
 {
   "source": "ESV Global Study Bible (Crossway) — Used under license",
   "book_intro": "The Blue Letter Bible ministry and the BLB Institute hold to the historical, conservative Christian faith, which includes a firm belief in the inerrancy of Scripture. Since the text and audio content provided by BLB represent a range of evangelical traditions, all of the ideas and principles conveyed in the resource materials are not necessarily affirmed, in total, by this ministry.\n\nBlue Letter Bible study tools make reading, searching and studying the Bible easy and rewarding.\n\nBlue Letter Bible is a 501(c)(3) nonprofit organization\n\nYou can copy the order of your preferred Bible translations from the Bibles Tab to the  Version Picker (this popup) or vice versa. The Bibles Tab is found in the Tools feature on Bible pages:\n\nNote: MLA no longer requires the URL as part of their citation standard. Individual instructors or editors may still require the use of URLs.\n\nError: Passwords should have at least 6 characters\n\nError: Usernames should only contain letters, numbers, dots, dashes, or underscores\n\nPasswords should have at least 6 characters.\n\t\t\t\t\t\t\tUsernames should only contain letters, numbers, dots, dashes, or underscores.\n\nThank you for registering. A verification email has been sent to the address you provided.\n\nYour partnership makes all we do possible. Would you prayerfully consider a gift of support today?",
-  "chapter_intro": "",
-  "passages": [],
-  "notes": [
+  "passages": [
     {
       "ref": "23:1–24:27",
-      "text": "Joash. Joash’s rule marks the restoration of the throne from the usurper, Queen Athaliah, to the rightful Davidic king. It also marks Judah’s return to its covenant commitment to the Lord (23:16). Spiritual reforms take place in large part through the influence of the high priest Jehoiada, who is Joash’s uncle and becomes his counselor. Things begin going badly, however, after Jehoiada’s death. Joash is the first of three kings (followed by Amaziah and Uzziah) whose reigns begin on a positive note but end in failure or disgrace because they reject godly advice."
+      "title": "Joash.",
+      "text": "Joash’s rule marks the restoration of the throne from the usurper, Queen Athaliah, to the rightful Davidic king. It also marks Judah’s return to its covenant commitment to the Lord ( 23:16 ). Spiritual reforms take place in large part through the influence of the high priest Jehoiada, who is Joash’s uncle and becomes his counselor. Things begin going badly, however, after Jehoiada’s death. Joash is the first of three kings (followed by Amaziah and Uzziah) whose reigns begin on a positive note but end in failure or disgrace because they reject godly advice."
     },
     {
       "ref": "2 Chron. 23:1–21",
-      "text": "Mainly from 2 Kings 11:4–20. Numerous differences reflect the Chronicler’s particular concerns."
+      "title": "2 Chron. 23:1–21",
+      "text": "Mainly from 2 Kings 11:4–20 . Numerous differences reflect the Chronicler’s particular concerns."
     },
     {
       "ref": "2 Chron. 23:1b–2",
-      "text": "The Chronicler emphasizes the role of the Levites (see also vv. 5–8) and the heads of fathers’ houses, as well as military figures, in the uprising."
-    },
-    {
-      "ref": "2 Chron. 23:3",
-      "text": "The assembly was a representative body of the nation’s leaders. Wise kings sought its advice and support (see 1 Chron. 13:2; 29:1; 2 Chron. 30:2). The covenant with the king probably included the arrangement for Jehoiada to supervise Joash until he reached adulthood (see 24:4). Let him reign, as the Lord spoke. The coup was in keeping with God’s promise to preserve David’s line (see 1 Chron. 17:14; 2 Chron. 6:10)."
-    },
-    {
-      "ref": "2 Chron. 23:4",
-      "text": "This is the thing that you shall do. See note on 2 Kings 11:5–8."
+      "title": "2 Chron. 23:1b–2",
+      "text": "The Chronicler emphasizes the role of the **Levites** (see also vv. 5–8 ) and the **heads of fathers’ houses**, as well as military figures, in the uprising."
     },
     {
       "ref": "2 Chron. 23:5–6",
-      "text": "All the people participated in the coup, but they remained in the courts and did not enter the temple."
+      "title": "2 Chron. 23:5–6",
+      "text": "**All the people** participated in the coup, but they remained **in the courts** and did not enter the temple."
     },
     {
       "ref": "2 Chron. 23:8–9",
-      "text": "The coup was timed to take place during the changing of the guards on the Sabbath, to bring the maximum number of armed men into the temple precincts without arousing suspicion. the spears and . . . shields. See note on 2 Kings 11:10."
-    },
-    {
-      "ref": "2 Chron. 23:11",
-      "text": "the testimony. See note on 2 Kings 11:12."
+      "title": "2 Chron. 23:8–9",
+      "text": "The coup was timed to take place during the changing of the guards on the Sabbath, to bring the maximum number of armed men into the temple precincts without arousing suspicion. **the spears and . . . shields**. See note on 2 Kings 11:10 ."
     },
     {
       "ref": "2 Chron. 23:13–15",
-      "text": "The pillar is probably either Boaz or Jachin, the pillars at the temple entrance (3:17; see note on 2 Kings 11:14)."
+      "title": "2 Chron. 23:13–15",
+      "text": "The **pillar** is probably either Boaz or Jachin, the pillars at the temple entrance ( 3:17 ; see note on 2 Kings 11:14 )."
     }
-  ]
+  ],
+  "notes": [
+    {
+      "ref": "2 Chron. 23:3",
+      "text": "**The assembly** was a representative body of the nation’s leaders. Wise kings sought its advice and support (see 1 Chron. 13:2 ; 29:1 ; 2 Chron. 30:2 ). The **covenant with the king** probably included the arrangement for Jehoiada to supervise Joash until he reached adulthood (see 24:4 ). **Let him reign, as the Lord spoke**. The coup was in keeping with God’s promise to preserve David’s line (see 1 Chron. 17:14 ; 2 Chron. 6:10 )."
+    },
+    {
+      "ref": "2 Chron. 23:4",
+      "text": "**This is the thing that you shall do**. See note on 2 Kings 11:5–8 ."
+    },
+    {
+      "ref": "2 Chron. 23:11",
+      "text": "**the** **testimony**. See note on 2 Kings 11:12 ."
+    }
+  ],
+  "chapter_intro": "Joash."
 }

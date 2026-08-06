@@ -1,28 +1,43 @@
 {
   "source": "ESV Global Study Bible (Crossway) — Used under license",
   "book_intro": "The Blue Letter Bible ministry and the BLB Institute hold to the historical, conservative Christian faith, which includes a firm belief in the inerrancy of Scripture. Since the text and audio content provided by BLB represent a range of evangelical traditions, all of the ideas and principles conveyed in the resource materials are not necessarily affirmed, in total, by this ministry.\n\nBlue Letter Bible study tools make reading, searching and studying the Bible easy and rewarding.\n\nBlue Letter Bible is a 501(c)(3) nonprofit organization\n\nYou can copy the order of your preferred Bible translations from the Bibles Tab to the  Version Picker (this popup) or vice versa. The Bibles Tab is found in the Tools feature on Bible pages:\n\nNote: MLA no longer requires the URL as part of their citation standard. Individual instructors or editors may still require the use of URLs.\n\nError: Passwords should have at least 6 characters\n\nError: Usernames should only contain letters, numbers, dots, dashes, or underscores\n\nPasswords should have at least 6 characters.\n\t\t\t\t\t\t\tUsernames should only contain letters, numbers, dots, dashes, or underscores.\n\nThank you for registering. A verification email has been sent to the address you provided.\n\nYour partnership makes all we do possible. Would you prayerfully consider a gift of support today?",
-  "chapter_intro": "",
-  "passages": [],
-  "notes": [
+  "passages": [
+    {
+      "ref": "1 Chron 1:1–9:44",
+      "title": "A Genealogical Presentation of the Tribes of Israel.",
+      "text": "The genealogies of chs. 1–9 are intended to show the Chronicler’s generation, now existing as the small province of Yehud (Judah) in the Persian Empire, that they are still God’s people Israel and retain their central place in God’s purposes. They are traced from Adam ( 1:1 ), through the tribes of Israel (chs. 2–8 ), to the community of Judean exiles restored from captivity in Babylon ( 9:2–34 ). The genealogies have been structured to show how the Chronicler conceived of Israel:"
+    },
     {
       "ref": "1:1–54",
-      "text": "Adam to Esau. This first genealogy begins with Adam, the first human, then focuses on Isaac’s son Esau and the kings who descended from him."
+      "title": "Adam to Esau.",
+      "text": "This first genealogy begins with Adam, the first human, then focuses on Isaac’s son Esau and the kings who descended from him."
     },
     {
       "ref": "1 Chron 1:1–4",
-      "text": "From Genesis 5. Israel’s direct ancestral link with Adam means Israel is the focus of God’s purpose from creation."
+      "title": "1 Chron 1:1–4",
+      "text": "From Genesis 5 . Israel’s direct ancestral link with **Adam** means Israel is the focus of God’s purpose from creation."
     },
     {
       "ref": "1 Chron 1:5–27",
-      "text": "From Gen. 10:1–29; 11:10–32. Israel is located within the nations, which are also God’s creation and part of his purpose for Israel. The line continues through Abraham, who received covenantal promises (1 Chron. 16:16; 2 Chron. 20:7)."
+      "title": "1 Chron 1:5–27",
+      "text": "From Gen. 10:1–29 ; 11:10–32 . Israel is located within the nations, which are also God’s creation and part of his purpose for Israel. The line continues through **Abraham**, who received covenantal promises ( 1 Chron. 16:16 ; 2 Chron. 20:7 )."
     },
     {
       "ref": "1 Chron 1:28–34",
-      "text": "From Gen. 25:1–4, 12–16. The concubine (1 Chron. 1:32) could have the status of a wife."
+      "title": "1 Chron 1:28–34",
+      "text": "From Gen. 25:1–4 , 12–16 . The **concubine** ( 1 Chron. 1:32 ) could have the status of a wife."
     },
     {
       "ref": "1 Chron 1:35–54",
-      "text": "From Gen. 36:10–14, 20–28, 31–43. The descendants of Esau and the sons of Seir (the Edomites) are grouped together because both inhabited Edom. The latter would often be in conflict with Judah (2 Chron. 20:10; 21:8; 25:5–13; 28:17)."
+      "title": "1 Chron 1:35–54",
+      "text": "From Gen. 36:10–14 , 20–28 , 31–43 . The descendants of **Esau** and the** sons of Seir** (the Edomites) are grouped together because both inhabited Edom. The latter would often be in conflict with Judah ( 2 Chron. 20:10 ; 21:8 ; 25:5–13 ; 28:17 )."
+    },
+    {
+      "ref": "1 Chron 1",
+      "title": "The United Kingdom of David and Solomon.",
+      "text": "Chron. 10:1–2 Chron. 9:31 The second major section of 1–2 Chronicles concerns the reigns of David and Solomon over Israel. Their rule is presented as a unity; David makes the essential preparations for what Solomon completes."
     }
-  ]
+  ],
+  "notes": [],
+  "chapter_intro": "A Genealogical Presentation of the Tribes of Israel."
 }

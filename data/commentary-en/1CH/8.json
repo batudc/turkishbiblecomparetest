@@ -1,24 +1,28 @@
 {
   "source": "ESV Global Study Bible (Crossway) — Used under license",
   "book_intro": "The Blue Letter Bible ministry and the BLB Institute hold to the historical, conservative Christian faith, which includes a firm belief in the inerrancy of Scripture. Since the text and audio content provided by BLB represent a range of evangelical traditions, all of the ideas and principles conveyed in the resource materials are not necessarily affirmed, in total, by this ministry.\n\nBlue Letter Bible study tools make reading, searching and studying the Bible easy and rewarding.\n\nBlue Letter Bible is a 501(c)(3) nonprofit organization\n\nYou can copy the order of your preferred Bible translations from the Bibles Tab to the  Version Picker (this popup) or vice versa. The Bibles Tab is found in the Tools feature on Bible pages:\n\nNote: MLA no longer requires the URL as part of their citation standard. Individual instructors or editors may still require the use of URLs.\n\nError: Passwords should have at least 6 characters\n\nError: Usernames should only contain letters, numbers, dots, dashes, or underscores\n\nPasswords should have at least 6 characters.\n\t\t\t\t\t\t\tUsernames should only contain letters, numbers, dots, dashes, or underscores.\n\nThank you for registering. A verification email has been sent to the address you provided.\n\nYour partnership makes all we do possible. Would you prayerfully consider a gift of support today?",
-  "chapter_intro": "",
-  "passages": [],
-  "notes": [
+  "passages": [
     {
       "ref": "8:1–40",
-      "text": "The Tribe of Benjamin. A second, more detailed genealogy of this tribe has little in common with the earlier list (7:6–12) and serves a different function. Judah and Benjamin formed the core of the community in Jerusalem and Judah after the exile (see Ezra 1:5; Neh. 11:4–9). Most details in this section are probably from preexilic sources."
+      "title": "The Tribe of Benjamin.",
+      "text": "A second, more detailed genealogy of this tribe has little in common with the earlier list ( 7:6–12 ) and serves a different function. Judah and Benjamin formed the core of the community in Jerusalem and Judah after the exile (see Ezra 1:5 ; Neh. 11:4–9 ). Most details in this section are probably from preexilic sources."
     },
     {
       "ref": "1 Chron 8:1–7",
-      "text": "These are the descendants of the famous judge Ehud (Judg. 3:15), who settled in the Benjaminite city of Geba (see 1 Kings 15:22) before their removal to Manahath (probably in Judah)."
+      "title": "1 Chron 8:1–7",
+      "text": "These are the descendants of the famous judge **Ehud** ( Judg. 3:15 ), who settled in the Benjaminite city of **Geba** (see 1 Kings 15:22 ) before their removal to **Manahath** (probably in Judah)."
     },
     {
       "ref": "1 Chron 8:8–27",
-      "text": "These are the descendants of Elpaal, who led a westward expansion into the coastal plain (vv. 12–13) and settled in Jerusalem (v. 28)."
+      "title": "1 Chron 8:8–27",
+      "text": "These are the descendants of **Elpaal**, who led a westward expansion into the coastal plain (vv. 12–13 ) and settled in Jerusalem (v. 28 )."
     },
     {
       "ref": "1 Chron 8:29–40",
-      "text": "This is the genealogy of the most famous Benjaminite family, Saul and his descendants, through 15 generations. (Ner, in 1 Sam. 14:50, has the same name as Saul’s ancestor.) The first section of the list is probably of early preexilic origin, since it contains names that would have been unacceptable in later times because of possible pagan connections (Baal, 1 Chron. 8:30; Eshbaal, v. 33, is known elsewhere as Ishbosheth, 2 Sam. 2:8; and Merib-baal, 1 Chron. 8:34, is known as Mephibosheth, 2 Sam. 4:4; see note on 2 Sam. 4:4)."
+      "title": "1 Chron 8:29–40",
+      "text": "This is the genealogy of the most famous Benjaminite family, **Saul** and his descendants, through 15 generations. (Ner, in 1 Sam. 14:50 , has the same name as Saul’s ancestor.) The first section of the list is probably of early preexilic origin, since it contains names that would have been unacceptable in later times because of possible pagan connections (**Baal**, 1 Chron. 8:30 ; **Eshbaal**, v. 33 , is known elsewhere as Ishbosheth, 2 Sam. 2:8 ; and **Merib-baal**, 1 Chron. 8:34 , is known as Mephibosheth, 2 Sam. 4:4 ; see note on 2 Sam. 4:4 )."
     }
-  ]
+  ],
+  "notes": [],
+  "chapter_intro": "The Tribe of Benjamin."
 }

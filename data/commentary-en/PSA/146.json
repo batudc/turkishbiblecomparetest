@@ -1,28 +1,32 @@
 {
   "source": "ESV Global Study Bible (Crossway) — Used under license",
   "book_intro": "The Blue Letter Bible ministry and the BLB Institute hold to the historical, conservative Christian faith, which includes a firm belief in the inerrancy of Scripture. Since the text and audio content provided by BLB represent a range of evangelical traditions, all of the ideas and principles conveyed in the resource materials are not necessarily affirmed, in total, by this ministry.\n\nBlue Letter Bible study tools make reading, searching and studying the Bible easy and rewarding.\n\nBlue Letter Bible is a 501(c)(3) nonprofit organization\n\nYou can copy the order of your preferred Bible translations from the Bibles Tab to the  Version Picker (this popup) or vice versa. The Bibles Tab is found in the Tools feature on Bible pages:\n\nNote: MLA no longer requires the URL as part of their citation standard. Individual instructors or editors may still require the use of URLs.\n\nError: Passwords should have at least 6 characters\n\nError: Usernames should only contain letters, numbers, dots, dashes, or underscores\n\nPasswords should have at least 6 characters.\n\t\t\t\t\t\t\tUsernames should only contain letters, numbers, dots, dashes, or underscores.\n\nThank you for registering. A verification email has been sent to the address you provided.\n\nYour partnership makes all we do possible. Would you prayerfully consider a gift of support today?",
-  "chapter_intro": "",
-  "passages": [],
-  "notes": [
-    {
-      "ref": "Ps. 146",
-      "text": "Psalm . Because God rules everything, his suffering people can have hope."
-    },
+  "passages": [
     {
       "ref": "Ps. 146:1–2",
-      "text": "The whole congregation receives the invitation, Praise the Lord, and then each member applies it to himself (Praise the Lord, O my soul)."
+      "title": "Ps. 146:1–2",
+      "text": "The whole congregation receives the invitation, **Praise the Lord**, and then each member applies it to himself (**Praise the Lord, O my soul**)."
     },
     {
       "ref": "Ps. 146:3–4",
-      "text": "It is useless to put one’s trust in princes, who are mortals. Governments and armies have their proper place, but their merely human power is not ultimately decisive in the world that God rules."
+      "title": "Ps. 146:3–4",
+      "text": "It is useless to put one’s **trust in princes**, who are mortals. Governments and armies have their proper place, but their merely human power is not ultimately decisive in the world that God rules."
     },
     {
       "ref": "Ps. 146:5–9",
-      "text": "Yahweh, the God of Jacob, is the one who made heaven and earth, the sea, and all that is in them (words from Ex. 20:11). Verses 7–9 of Psalm 146 list groups of weak people (oppressed, hungry, prisoners, the blind, bowed down, sojourners, widow, fatherless), probably God’s own faithful."
+      "title": "Ps. 146:5–9",
+      "text": "Yahweh, **the God of Jacob**, is the one **who made heaven and earth, the sea, and all that is in them** (words from Ex. 20:11 ). Verses 7–9 of Psalm 146 list groups of weak people (**oppressed**, **hungry**, **prisoners**, **the blind**, **bowed down**, **sojourners**, **widow**, **fatherless**), probably God’s own faithful."
+    }
+  ],
+  "notes": [
+    {
+      "ref": "Ps. 146",
+      "text": "**Psalm** . Because God rules everything, his suffering people can have hope."
     },
     {
       "ref": "Ps. 146:10",
-      "text": "Because the Lord will reign forever (Ex. 15:18; Ps. 29:10), God’s people should praise him now."
+      "text": "Because **the** **Lord will reign forever** ( Ex. 15:18 ; Ps. 29:10 ), God’s people should **praise** him now."
     }
-  ]
+  ],
+  "chapter_intro": "Ps. 146:1–2"
 }

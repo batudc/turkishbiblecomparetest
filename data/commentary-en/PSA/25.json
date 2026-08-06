@@ -1,44 +1,51 @@
 {
   "source": "ESV Global Study Bible (Crossway) — Used under license",
   "book_intro": "The Blue Letter Bible ministry and the BLB Institute hold to the historical, conservative Christian faith, which includes a firm belief in the inerrancy of Scripture. Since the text and audio content provided by BLB represent a range of evangelical traditions, all of the ideas and principles conveyed in the resource materials are not necessarily affirmed, in total, by this ministry.\n\nBlue Letter Bible study tools make reading, searching and studying the Bible easy and rewarding.\n\nBlue Letter Bible is a 501(c)(3) nonprofit organization\n\nYou can copy the order of your preferred Bible translations from the Bibles Tab to the  Version Picker (this popup) or vice versa. The Bibles Tab is found in the Tools feature on Bible pages:\n\nNote: MLA no longer requires the URL as part of their citation standard. Individual instructors or editors may still require the use of URLs.\n\nError: Passwords should have at least 6 characters\n\nError: Usernames should only contain letters, numbers, dots, dashes, or underscores\n\nPasswords should have at least 6 characters.\n\t\t\t\t\t\t\tUsernames should only contain letters, numbers, dots, dashes, or underscores.\n\nThank you for registering. A verification email has been sent to the address you provided.\n\nYour partnership makes all we do possible. Would you prayerfully consider a gift of support today?",
-  "chapter_intro": "",
-  "passages": [],
-  "notes": [
-    {
-      "ref": "Ps. 25",
-      "text": "Psalm . In this lament, individual members of the worshiping assembly ask God for help in their various troubles. While the psalm expresses faith in God’s kindness, it does not end in the confident way of most laments (vv. 16–22). The psalm also includes penitential elements, as the worshipers confess their sins and pray for forgiveness (vv. 6–7, 11, 18). There are echoes of Pentateuch promises, showing that the godly in Israel were to view the Sinai covenant as a gracious one."
-    },
-    {
-      "ref": "Ps. 25:1",
-      "text": "I lift up my soul means “I direct my desire” (compare 24:4; 86:4; 143:8)."
-    },
+  "passages": [
     {
       "ref": "Ps. 25:2–3",
-      "text": "These worshipers, who see themselves as being among the faithful (I trust . . . wait for you), expect that their hope in the Lord has a worthy basis, so that they will not be put to shame."
+      "title": "Ps. 25:2–3",
+      "text": "These worshipers, who see themselves as being among the faithful (**I trust . . . wait for you**), expect that their hope in the Lord has a worthy basis, so that they will **not be put to shame**."
     },
     {
       "ref": "Ps. 25:4–5",
-      "text": "Those who trust in the Lord seek his guidance. They want to learn what manner of life (ways, paths) pleases him and how his commands apply to their specific circumstances."
+      "title": "Ps. 25:4–5",
+      "text": "Those who trust in the Lord seek his guidance. They want to learn what manner of life (**ways**, **paths**) pleases him and how his commands apply to their specific circumstances."
     },
     {
       "ref": "Ps. 25:6–7",
-      "text": "The terms mercy, steadfast love, sins, and transgressions remind one of Ex. 34:6–7, which tells Israel of God’s gracious intentions toward them. For God to remember something is for him to attend to it in order to act (compare Ps. 8:4; 9:12; 20:3). The faithful ask God to attend to them in mercy rather than according to their sins (compare 79:8)."
+      "title": "Ps. 25:6–7",
+      "text": "The terms **mercy**, **steadfast love**, **sins**, and **transgressions** remind one of Ex. 34:6–7 , which tells Israel of God’s gracious intentions toward them. For God to **remember** something is for him to attend to it in order to act (compare Ps. 8:4 ; 9:12 ; 20:3 ). The faithful ask God to attend to them in mercy rather than according to their sins (compare 79:8 )."
     },
     {
       "ref": "Ps. 25:8–11",
-      "text": "This section celebrates the way in which God forgives his people and guides them in moral growth. As the people keep God’s covenant, they will come to know the forgiveness and guidance that it graciously offers."
+      "title": "Ps. 25:8–11",
+      "text": "This section celebrates the way in which God forgives his people and guides them in moral growth. As the people **keep** God’s** covenant**, they will come to know the forgiveness and guidance that it graciously offers."
     },
     {
       "ref": "Ps. 25:12–15",
-      "text": "Verse 12 focuses on the particular person (the man) who fears the Lord. Such a person will know God’s guidance, blessing, and friendship (compare 55:14; Prov. 3:32)."
+      "title": "Ps. 25:12–15",
+      "text": "Verse 12 focuses on the particular person (**the man**) who **fears the Lord**. Such a person will know God’s guidance, blessing, and **friendship** (compare 55:14 ; Prov. 3:32 )."
     },
     {
       "ref": "Ps. 25:16–21",
-      "text": "The psalmist prays for deliverance from the affliction, trouble, and foes that threaten (vv. 17–19). He can pray with confidence because his sins are forgiven (v. 18b). The virtues of integrity and uprightness are God’s means of protecting his people."
+      "title": "Ps. 25:16–21",
+      "text": "The psalmist prays for deliverance from the **affliction**, **trouble**, and **foes** that threaten (vv. 17–19 ). He can pray with confidence because his **sins** are forgiven (v. 18b ). The virtues of **integrity** and **uprightness** are God’s means of protecting his people."
+    }
+  ],
+  "notes": [
+    {
+      "ref": "Ps. 25",
+      "text": "**Psalm** . In this lament, individual members of the worshiping assembly ask God for help in their various troubles. While the psalm expresses faith in God’s kindness, it does not end in the confident way of most laments (vv. 16–22 ). The psalm also includes penitential elements, as the worshipers confess their sins and pray for forgiveness (vv. 6–7 , 11 , 18 ). There are echoes of Pentateuch promises, showing that the godly in Israel were to view the Sinai covenant as a gracious one."
+    },
+    {
+      "ref": "Ps. 25:1",
+      "text": "**I lift up my soul** means “I direct my desire” (compare 24:4 ; 86:4 ; 143:8 )."
     },
     {
       "ref": "Ps. 25:22",
-      "text": "Redeem generally means rescue and protect, especially in relation to Israel (see 44:26; 130:7–8) or a faithful worshiper (see 34:22; 55:18)."
+      "text": "**Redeem** generally means rescue and protect, especially in relation to **Israel** (see 44:26 ; 130:7–8 ) or a faithful worshiper (see 34:22 ; 55:18 )."
     }
-  ]
+  ],
+  "chapter_intro": "Ps. 25:2–3"
 }

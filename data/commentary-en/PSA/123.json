@@ -1,20 +1,23 @@
 {
   "source": "ESV Global Study Bible (Crossway) — Used under license",
   "book_intro": "The Blue Letter Bible ministry and the BLB Institute hold to the historical, conservative Christian faith, which includes a firm belief in the inerrancy of Scripture. Since the text and audio content provided by BLB represent a range of evangelical traditions, all of the ideas and principles conveyed in the resource materials are not necessarily affirmed, in total, by this ministry.\n\nBlue Letter Bible study tools make reading, searching and studying the Bible easy and rewarding.\n\nBlue Letter Bible is a 501(c)(3) nonprofit organization\n\nYou can copy the order of your preferred Bible translations from the Bibles Tab to the  Version Picker (this popup) or vice versa. The Bibles Tab is found in the Tools feature on Bible pages:\n\nNote: MLA no longer requires the URL as part of their citation standard. Individual instructors or editors may still require the use of URLs.\n\nError: Passwords should have at least 6 characters\n\nError: Usernames should only contain letters, numbers, dots, dashes, or underscores\n\nPasswords should have at least 6 characters.\n\t\t\t\t\t\t\tUsernames should only contain letters, numbers, dots, dashes, or underscores.\n\nThank you for registering. A verification email has been sent to the address you provided.\n\nYour partnership makes all we do possible. Would you prayerfully consider a gift of support today?",
-  "chapter_intro": "",
-  "passages": [],
-  "notes": [
-    {
-      "ref": "Ps. 123",
-      "text": "Psalm . This is a community lament, as the references to “we” and “us” show. In this Song of Ascents (see note on Psalm 120), the faithful pilgrims feel themselves to be the objects of scorn and contempt. The psalm goes beyond simply asking for a safe journey. It seeks relief from the scorn."
-    },
+  "passages": [
     {
       "ref": "Ps. 123:1–2",
-      "text": "The first section describes the way God’s faithful look toward God for help. The image of servants looking to a master and a maidservant to a mistress is that of waiting patiently and trustingly for God to act."
+      "title": "Ps. 123:1–2",
+      "text": "The first section describes the way God’s faithful look toward God for help. The image of **servants** looking to a **master** and a **maidservant** to a **mistress** is that of waiting patiently and trustingly for God to act."
     },
     {
       "ref": "Ps. 123:3–4",
-      "text": "The wait for mercy (v. 2) becomes a prayer, have mercy upon us. The mercy desired is relief from those who show contempt and scorn toward the faithful pilgrims."
+      "title": "Ps. 123:3–4",
+      "text": "The wait for mercy (v. 2 ) becomes a prayer, **have mercy upon us**. The mercy desired is relief from those who show **contempt** and **scorn** toward the faithful pilgrims."
     }
-  ]
+  ],
+  "notes": [
+    {
+      "ref": "Ps. 123",
+      "text": "**Psalm** . This is a community lament, as the references to “we” and “us” show. In this Song of Ascents (see note on Psalm 120 ), the faithful pilgrims feel themselves to be the objects of scorn and contempt. The psalm goes beyond simply asking for a safe journey. It seeks relief from the scorn."
+    }
+  ],
+  "chapter_intro": "Ps. 123:1–2"
 }

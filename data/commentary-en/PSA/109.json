@@ -1,48 +1,54 @@
 {
   "source": "ESV Global Study Bible (Crossway) — Used under license",
   "book_intro": "The Blue Letter Bible ministry and the BLB Institute hold to the historical, conservative Christian faith, which includes a firm belief in the inerrancy of Scripture. Since the text and audio content provided by BLB represent a range of evangelical traditions, all of the ideas and principles conveyed in the resource materials are not necessarily affirmed, in total, by this ministry.\n\nBlue Letter Bible study tools make reading, searching and studying the Bible easy and rewarding.\n\nBlue Letter Bible is a 501(c)(3) nonprofit organization\n\nYou can copy the order of your preferred Bible translations from the Bibles Tab to the  Version Picker (this popup) or vice versa. The Bibles Tab is found in the Tools feature on Bible pages:\n\nNote: MLA no longer requires the URL as part of their citation standard. Individual instructors or editors may still require the use of URLs.\n\nError: Passwords should have at least 6 characters\n\nError: Usernames should only contain letters, numbers, dots, dashes, or underscores\n\nPasswords should have at least 6 characters.\n\t\t\t\t\t\t\tUsernames should only contain letters, numbers, dots, dashes, or underscores.\n\nThank you for registering. A verification email has been sent to the address you provided.\n\nYour partnership makes all we do possible. Would you prayerfully consider a gift of support today?",
-  "chapter_intro": "",
-  "passages": [],
-  "notes": [
-    {
-      "ref": "Ps. 109",
-      "text": "Psalm . This is an individual lament. A faithful Israelite is being attacked in return for the good he has done to his attackers (vv. 1–5). He prays that his accusers would receive what they deserve (vv. 6–20). The psalm closes with a prayer that appeals to God’s “steadfast love” (vv. 21–31). The tone and content of this psalm recalls Psalm 69. A major difference is that the sufferer in Psalm 69 acknowledges that wrongs he has done have played a role in his troubles, while the sufferer in Psalm 109 professes innocence. In both psalms the “enemies” are influential Israelites who are unfaithful to the covenant."
-    },
+  "passages": [
     {
       "ref": "Ps. 109:1–5",
-      "text": "The opening section describes the situation. People attack the singer without cause. The psalm offers the right response: I give myself to prayer. This includes prayers for his enemies in the past (compare 35:13) and prayers for God’s help in the present."
-    },
-    {
-      "ref": "Ps. 109:1",
-      "text": "Be not silent. That is, “Do not let people think that you are accepting of evil” (see 28:1)."
-    },
-    {
-      "ref": "Ps. 109:5",
-      "text": "they reward me evil for good. The Bible instructs believers not to return evil for evil (Prov. 20:22; 24:29; see Rom. 12:21; 1 Thess. 5:15); obviously, then, they should never return evil for good."
+      "title": "Ps. 109:1–5",
+      "text": "The opening section describes the situation. People **attack** the singer **without cause**. The psalm offers the right response: **I give myself to prayer**. This includes prayers for his enemies in the past (compare 35:13 ) and prayers for God’s help in the present."
     },
     {
       "ref": "Ps. 109:6–20",
-      "text": "The psalmist asks God to defend him by bringing on his enemies the troubles they deserve. The wicked man and accuser (v. 6) have opened wicked . . . mouths (v. 2) against the psalmist, and they accuse him. The psalmist is asking that they suffer the same fate. See v. 12 with v. 16; see also v. 17. As with Psalm 69, one must recall that the people being cursed are grievous sinners. They are covenant members who are unfaithful to the covenant. They will use whatever means they can to oppress the faithful. It can also be assumed that they have refused to repent (see notes on 5:10; 35:4–8)."
-    },
-    {
-      "ref": "Ps. 109:8",
-      "text": "may another take his office. That is, his “office of oversight” (see Num. 3:32; 1 Chron. 26:30; Ezek. 44:11), a responsible position among the people of God."
+      "title": "Ps. 109:6–20",
+      "text": "The psalmist asks God to defend him by bringing on his enemies the troubles they deserve. The **wicked man** and **accuser** (v. 6 ) have opened **wicked . . . mouths** (v. 2 ) against the psalmist, and they accuse him. The psalmist is asking that they suffer the same fate. See v. 12 with v. 16 ; see also v. 17 . As with Psalm 69 , one must recall that the people being cursed are grievous sinners. They are covenant members who are unfaithful to the covenant. They will use whatever means they can to oppress the faithful. It can also be assumed that they have refused to repent (see notes on 5:10 ; 35:4–8 )."
     },
     {
       "ref": "Ps. 109:9–12",
-      "text": "children . . . wife. The man’s early death (v. 8) would leave his family in poverty (contrast 37:25). See also Ex. 34:7 (“visiting the iniquity of the fathers on the children”). A person’s sin makes others suffer, especially those closest to him."
-    },
-    {
-      "ref": "Ps. 109:16",
-      "text": "did not remember to show kindness. This is the explanation for the punishment prayed for in v. 12. The surest evidence of a person’s faith in God is his kindness to those who are most vulnerable (the poor and needy and the brokenhearted). The cursed person seeks to harm and take advantage of them instead."
+      "title": "Ps. 109:9–12",
+      "text": "**children . . . wife**. The man’s early death (v. 8 ) would leave his family in poverty (contrast 37:25 ). See also Ex. 34:7 (“visiting the iniquity of the fathers on the children”). A person’s sin makes others suffer, especially those closest to him."
     },
     {
       "ref": "Ps. 109:21–29",
-      "text": "The psalmist asks for God’s protection from the attacks. He also asks that the accusers be disgraced (v. 29), that is, be unable to continue intimidating and harming. The singer appeals to God’s steadfast love (vv. 21, 26) and to his own powerlessness (vv. 22–25)."
+      "title": "Ps. 109:21–29",
+      "text": "The psalmist asks for God’s protection from the attacks. He also asks that the **accusers** be disgraced (v. 29 ), that is, be unable to continue intimidating and harming. The singer appeals to God’s **steadfast love** (vv. 21 , 26 ) and to his own powerlessness (vv. 22–25 )."
     },
     {
       "ref": "Ps. 109:30–31",
-      "text": "The psalm closes with hope. The singer is confident that soon he will give great thanks to the Lord in public worship."
+      "title": "Ps. 109:30–31",
+      "text": "The psalm closes with hope. The singer is confident that soon he will **give great thanks to the Lord** in public worship."
     }
-  ]
+  ],
+  "notes": [
+    {
+      "ref": "Ps. 109",
+      "text": "**Psalm** . This is an individual lament. A faithful Israelite is being attacked in return for the good he has done to his attackers (vv. 1–5 ). He prays that his accusers would receive what they deserve (vv. 6–20 ). The psalm closes with a prayer that appeals to God’s “steadfast love” (vv. 21–31 ). The tone and content of this psalm recalls Psalm 69 . A major difference is that the sufferer in Psalm 69 acknowledges that wrongs he has done have played a role in his troubles, while the sufferer in Psalm 109 professes innocence. In both psalms the “enemies” are influential Israelites who are unfaithful to the covenant."
+    },
+    {
+      "ref": "Ps. 109:1",
+      "text": "**Be not silent**. That is, “Do not let people think that you are accepting of evil” (see 28:1 )."
+    },
+    {
+      "ref": "Ps. 109:5",
+      "text": "**they reward me evil for good**. The Bible instructs believers not to return evil for evil ( Prov. 20:22 ; 24:29 ; see Rom. 12:21 ; 1 Thess. 5:15 ); obviously, then, they should never return evil for good."
+    },
+    {
+      "ref": "Ps. 109:8",
+      "text": "**may another take his office**. That is, his “office of oversight” (see Num. 3:32 ; 1 Chron. 26:30 ; Ezek. 44:11 ), a responsible position among the people of God."
+    },
+    {
+      "ref": "Ps. 109:16",
+      "text": "**did not remember to show kindness**. This is the explanation for the punishment prayed for in v. 12 . The surest evidence of a person’s faith in God is his kindness to those who are most vulnerable (**the poor and needy and the brokenhearted**). The cursed person seeks to harm and take advantage of them instead."
+    }
+  ],
+  "chapter_intro": "Ps. 109:1–5"
 }

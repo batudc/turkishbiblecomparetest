@@ -1,28 +1,32 @@
 {
   "source": "ESV Global Study Bible (Crossway) — Used under license",
   "book_intro": "The Blue Letter Bible ministry and the BLB Institute hold to the historical, conservative Christian faith, which includes a firm belief in the inerrancy of Scripture. Since the text and audio content provided by BLB represent a range of evangelical traditions, all of the ideas and principles conveyed in the resource materials are not necessarily affirmed, in total, by this ministry.\n\nBlue Letter Bible study tools make reading, searching and studying the Bible easy and rewarding.\n\nBlue Letter Bible is a 501(c)(3) nonprofit organization\n\nYou can copy the order of your preferred Bible translations from the Bibles Tab to the  Version Picker (this popup) or vice versa. The Bibles Tab is found in the Tools feature on Bible pages:\n\nNote: MLA no longer requires the URL as part of their citation standard. Individual instructors or editors may still require the use of URLs.\n\nError: Passwords should have at least 6 characters\n\nError: Usernames should only contain letters, numbers, dots, dashes, or underscores\n\nPasswords should have at least 6 characters.\n\t\t\t\t\t\t\tUsernames should only contain letters, numbers, dots, dashes, or underscores.\n\nThank you for registering. A verification email has been sent to the address you provided.\n\nYour partnership makes all we do possible. Would you prayerfully consider a gift of support today?",
-  "chapter_intro": "",
-  "passages": [],
-  "notes": [
-    {
-      "ref": "Ps. 122",
-      "text": "Psalm . This psalm celebrates Zion as God’s chosen city (compare Psalms 46; 48; 76; 87), and the privilege of going there on a pilgrimage (compare Psalm 84). Not only is “the house of the Lord” there, but so are “the thrones of the house of David.”"
-    },
+  "passages": [
     {
       "ref": "Ps. 122:1–2",
-      "text": "The song begins by remembering (they said is past tense) the invitation to go to Jerusalem for worship (the house of the Lord). The person has now arrived (our feet have been standing). The anticipation (I was glad) is now to be fulfilled."
+      "title": "Ps. 122:1–2",
+      "text": "The song begins by remembering (**they said** is past tense) the invitation to go to Jerusalem for worship (**the house of the Lord**). The person has now arrived (**our feet have been standing**). The anticipation (**I was glad**) is now to be fulfilled."
     },
     {
       "ref": "Ps. 122:3–5",
-      "text": "The singer looks around Jerusalem. Bound firmly together probably compares the physical coziness of the city to the sense of unity the pilgrim expects to find there."
-    },
-    {
-      "ref": "Ps. 122:4",
-      "text": "decreed. See Deut. 12:5."
+      "title": "Ps. 122:3–5",
+      "text": "The singer looks around Jerusalem. **Bound firmly together** probably compares the physical coziness of the city to the sense of unity the pilgrim expects to find there."
     },
     {
       "ref": "Ps. 122:6–9",
-      "text": "In light of what Jerusalem should be, the psalm ends by urging God’s people to seek the conditions that will make that a reality: the peace of Jerusalem."
+      "title": "Ps. 122:6–9",
+      "text": "In light of what Jerusalem should be, the psalm ends by urging God’s people to seek the conditions that will make that a reality: **the peace of Jerusalem**."
     }
-  ]
+  ],
+  "notes": [
+    {
+      "ref": "Ps. 122",
+      "text": "**Psalm** . This psalm celebrates Zion as God’s chosen city (compare Psalms 46 ; 48 ; 76 ; 87 ), and the privilege of going there on a pilgrimage (compare Psalm 84 ). Not only is “the house of the L ord ” there, but so are “the thrones of the house of David.”"
+    },
+    {
+      "ref": "Ps. 122:4",
+      "text": "**decreed**. See Deut. 12:5 ."
+    }
+  ],
+  "chapter_intro": "Ps. 122:1–2"
 }

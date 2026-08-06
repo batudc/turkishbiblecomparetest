@@ -1,103 +1,107 @@
 {
   "source": "ESV Global Study Bible (Crossway) — Used under license",
-  "book_intro": "Author, Date, and Recipients\n\nLuke was a physician (Col. 4:14) and a travel companion of the apostle Paul. He wrote this Gospel and its sequel, the book of Acts. The earliest possible date of Luke–Acts is immediately after the events that Luke recorded in Acts 28, which would have been c. a.d. 62. Both Luke and Acts are addressed to \"Theophilus\" (Luke 1:3; Acts 1:1), about whom nothing more is known. Luke's broader audience consisted primarily of Gentile Christians like Theophilus who had already \"been taught\" (Luke 1:4) about Jesus.\n\nTheme\n\nThe gospel is for all, Jews and Gentiles alike, since Jesus is the promised one of God as prophesied in the OT and as seen in God's saving activity in Jesus' life, death, and resurrection. The Christian traditions Luke's readers have received are true; by believing in Jesus Christ, the Son of God, they will receive the promised Holy Spirit whom he gives to all who follow him.\n\nPurpose\n\nLuke probably had several goals in writing: (1) to assure his readers of the truth of what they had been taught; (2) to help them understand how Israel's rejection of Jesus and the Gentiles' entrance into the kingdom of God are part of God's plan; (3) to clarify that Jesus did not teach that his bodily return would come immediately but that there would be a period between his resurrection and his return; and (4) to emphasize that they need not fear any mere earthly power such as Rome.\n\nKey Themes\n\nGod's sovereign rule over history (13:33; 22:22; 42).\n\nThe arrival and actual presence (though not yet the completion) of the kingdom of God (11:2; 17:20-21; 21:34-36).\n\nThe coming and presence of the Holy Spirit for Jesus and his followers (1:15-17; 35; 2:25-27; 3:16; 22; 4:1; 18; 24:49).\n\nThe great reversal taking place in the world, in which the first are becoming last and the last are becoming first, the proud are being brought low and the humble are being exalted (1:48; 6:20-26; 13:30; 14:11).\n\nBelievers are to live a life of prayer and practice good stewardship with their possessions (6:12; 9:28-29; 11:1-4; 12:33-34; 18:1; 22:40).\n\nThe danger of riches (6:20-26; 8:14; 12:13-21; 16:10-13; 19-31).\n\nOutline\n\nThe Prologue (1:1-4)\n\nThe Infancy Narrative (1:5-2:52)\n\nPreparation for the Ministry of Jesus (3:1-4:15)\n\nThe Ministry of Jesus in Galilee (4:16-9:50)\n\nThe Journey to Jerusalem (9:51-19:27)\n\nThe Ministry of Jesus in Jerusalem (19:28-21:38)\n\nThe Suffering and Death of Jesus (22:1-23:56)\n\nThe Resurrection of Jesus (24:1-53)\n\nThe Setting of Luke\n\nThe events in the book of Luke take place almost entirely within the vicinity of Palestine, an area extending roughly from Caesarea Philippi in the north to Beersheba in the south. During this time it was ruled by the Roman Empire. The opening chapters describe events surrounding Jesus' birth in Judea, where Herod had been appointed king by the Romans. The closing chapters end with Jesus' death, resurrection, and ascension during the rule of Pontius Pilate and the tetrarchs Antipas and Philip.\n\nThe ESV Global Study Bible\n\nCopyright",
+  "book_intro": "Author, Date, and Recipients\n\nLuke was a physician (Col. 4:14) and a travel companion of the apostle Paul. He wrote this Gospel and its sequel, the book of Acts. The earliest possible date of Luke–Acts is immediately after the events that Luke recorded in Acts 28, which would have been c. a.d. 62. Both Luke and Acts are addressed to \"Theophilus\" (Luke 1:3; Acts 1:1), about whom nothing more is known. Luke's broader audience consisted primarily of Gentile Christians like Theophilus who had already \"been taught\" (Luke 1:4) about Jesus.\n\nTheme\n\nThe gospel is for all, Jews and Gentiles alike, since Jesus is the promised one of God as prophesied in the OT and as seen in God's saving activity in Jesus' life, death, and resurrection. The Christian traditions Luke's readers have received are true; by believing in Jesus Christ, the Son of God, they will receive the promised Holy Spirit whom he gives to all who follow him.\n\nPurpose\n\nLuke probably had several goals in writing: (1) to assure his readers of the truth of what they had been taught; (2) to help them understand how Israel's rejection of Jesus and the Gentiles' entrance into the kingdom of God are part of God's plan; (3) to clarify that Jesus did not teach that his bodily return would come immediately but that there would be a period between his resurrection and his return; and (4) to emphasize that they need not fear any mere earthly power such as Rome.\n\nKey Themes\n\nGod's sovereign rule over history (13:33; 22:22; 42).\n\nThe arrival and actual presence (though not yet the completion) of the kingdom of God (11:2; 17:20-21; 21:34-36).\n\nThe coming and presence of the Holy Spirit for Jesus and his followers (1:15-17; 35; 2:25-27; 3:16; 22; 4:1; 18; 24:49).\n\nThe great reversal taking place in the world, in which the first are becoming last and the last are becoming first, the proud are being brought low and the humble are being exalted (1:48; 6:20-26; 13:30; 14:11).\n\nBelievers are to live a life of prayer and practice good stewardship with their possessions (6:12; 9:28-29; 11:1-4; 12:33-34; 18:1; 22:40).\n\nThe danger of riches (6:20-26; 8:14; 12:13-21; 16:10-13; 19-31).\n\nOutline\n\nThe Prologue (1:1-4)\n\nThe Infancy Narrative (1:5-2:52)\n\nPreparation for the Ministry of Jesus (3:1-4:15)\n\nThe Ministry of Jesus in Galilee (4:16-9:50)\n\nThe Journey to Jerusalem (9:51-19:27)\n\nThe Ministry of Jesus in Jerusalem (19:28-21:38)\n\nThe Suffering and Death of Jesus (22:1-23:56)\n\nThe Resurrection of Jesus (24:1-53)\n\nThe Setting of Luke\n\nThe events in the book of Luke take place almost entirely within the vicinity of Palestine, an area extending roughly from Caesarea Philippi in the north to Beersheba in the south. During this time it was ruled by the Roman Empire. The opening chapters describe events surrounding Jesus' birth in Judea, where Herod had been appointed king by the Romans. The closing chapters end with Jesus' death, resurrection, and ascension during the rule of Pontius Pilate and the tetrarchs Antipas and Philip.",
   "chapter_intro": "Preparation for the Ministry of Jesus.",
   "passages": [
     {
-      "ref": "Luke 3:1–4:15",
-      "title": "Preparation for the Ministry of Jesus.",
-      "text": "Luke describes John the Baptist’s ministry of preparation for Jesus (3:1–20). Then the focus shifts to Jesus himself (3:21–4:15)."
+      "ref": "Luke 4:3–4",
+      "title": "Luke 4:3–4",
+      "text": "**command this stone . . . bread**. Satan tempted Jesus to use his power to satisfy his own desires rather than trusting in God to supply all that he needed during this temptation. Jesus’ reply tells what the people of Israel should have learned in the wilderness: **“Man shall not live by bread alone”** ( Deut. 8:3 ). Satisfying one’s feeling of need for food is not as important as trusting and obeying God."
+    },
+    {
+      "ref": "Luke 4:5–8",
+      "title": "Luke 4:5–8",
+      "text": "**And the devil took him up** introduces another temptation but does not imply that the temptations occurred in this order (compare Matt. 4:1–11 ). **all this authority and their glory . . .** **has been delivered to me**. Though in some sense Satan is the “ruler of this world” ( John 12:31 ; see 1 John 5:19 ), his claim here should not be accepted as fully true, for all authority belongs to God (see Rom. 13:1–4 ; Ps. 24:1 ). This is a temptation to break the first commandment ( Ex. 20:3 )."
+    },
+    {
+      "ref": "Luke 4:9–12",
+      "title": "Luke 4:9–12",
+      "text": "The next temptation takes place on the **pinnacle of the temple**, the southeastern corner of the Temple Mount, overlooking the Kidron Valley (see note on Matt. 4:5 ). **“He will . . . guard you**.**”** This time the Devil quotes Scripture ( Ps. 91:11–12 ), but the psalmist did not mean that a person should try to force God to protect him. Jesus replies, **“You shall not put the Lord your God to the test”** ( Deut. 6:16 )."
+    },
+    {
+      "ref": "Luke 4:13–15",
+      "title": "Luke 4:13–15",
+      "text": "**Jesus returned in the power of the Spirit to Galilee**. For the connection between “power” and “Spirit,” see note on 1:16–17 . That Luke describes Jesus as **being glorified by all** shows Luke’s strong belief in Jesus’ deity."
     },
     {
       "ref": "Luke 4:16–9:50",
       "title": "The Ministry of Jesus in Galilee.",
-      "text": "Except for 8:26–39, this next section of Luke takes place in Galilee."
+      "text": "Except for 8:26–39 , this next section of Luke takes place in Galilee."
+    },
+    {
+      "ref": "Luke 4:16–5:16",
+      "title": "Luke 4:16–5:16",
+      "text": "Jesus began his ministry by preaching in his hometown of Nazareth. Soon thereafter he was preaching in many places, healing many people, and calling disciples to work with him."
+    },
+    {
+      "ref": "Luke 4:18–19",
+      "title": "Luke 4:18–19",
+      "text": "**The Spirit of the Lord is upon me**. Jesus claims to be the messianic servant of the Lord who is speaking in Isaiah 61 (see Luke 4:21 ). Jesus’ mission involves proclaiming **good news to the poor** (see 6:20 ) and **liberty to the captives** (“liberty” elsewhere in Luke– Acts refers to forgiveness of sins). **Sight to the blind** includes both physically and spiritually blind. **Liberty** for **those who are oppressed** includes healing the sick, casting out demons, forgiving sins, and teachings on social justice. **Proclaim the year of the Lord’s favor** quotes Isa. 61:2 , but the Year of Jubilee ( Lev. 25:10 ) is also in view."
+    },
+    {
+      "ref": "Luke 4:25–27",
+      "title": "Luke 4:25–27",
+      "text": "The examples Jesus cites from the ministries of **Elijah** and** Elisha** show that, when Israel rejects God’s prophets, God sends them elsewhere, even to Gentiles."
+    },
+    {
+      "ref": "Luke 4:28–29",
+      "title": "Luke 4:28–29",
+      "text": "**Throw him down the cliff** describes one method of stoning. Like other NT stoning incidents, which usually involved throwing rocks, this is a mob activity. Under Roman rule, only government officials could carry out a death penalty."
+    },
+    {
+      "ref": "Luke 4:42–44",
+      "title": "Luke 4:42–44",
+      "text": "Luke often refers to what **must** be, emphasizing the necessity of God’s plan being fulfilled. **The kingdom of God** refers to his reign in people’s hearts, not to geographical territory."
     }
   ],
   "notes": [
     {
       "ref": "Luke 4:2",
-      "text": "forty days. Jesus’ 40 days of fasting in the wilderness corresponds to Israel’s 40 years of testing in the wilderness (Deut. 8:2–3). Moses also fasted and prayed for 40 days and nights on two occasions (Ex. 24:18; 34:28). Fasting was a means of focusing on prayer. Being tempted indicates Jesus was tempted the entire 40 days and that the three temptations mentioned marked the end of the temptations. devil. He is God’s supreme enemy."
-    },
-    {
-      "ref": "Luke 4:3–4",
-      "text": "command this stone . . . bread. Satan tempted Jesus to use his power to satisfy his own desires rather than trusting in God to supply all that he needed during this temptation. Jesus’ reply tells what the people of Israel should have learned in the wilderness: “Man shall not live by bread alone” (Deut. 8:3). Satisfying one’s feeling of need for food is not as important as trusting and obeying God."
-    },
-    {
-      "ref": "Luke 4:5–8",
-      "text": "And the devil took him up introduces another temptation but does not imply that the temptations occurred in this order (compare Matt. 4:1–11). all this authority and their glory . . . has been delivered to me. Though in some sense Satan is the “ruler of this world” (John 12:31; see 1 John 5:19), his claim here should not be accepted as fully true, for all authority belongs to God (see Rom. 13:1–4; Ps. 24:1). This is a temptation to break the first commandment (Ex. 20:3)."
-    },
-    {
-      "ref": "Luke 4:9–12",
-      "text": "The next temptation takes place on the pinnacle of the temple, the southeastern corner of the Temple Mount, overlooking the Kidron Valley (see note on Matt. 4:5). “He will . . . guard you.” This time the Devil quotes Scripture (Ps. 91:11–12), but the psalmist did not mean that a person should try to force God to protect him. Jesus replies, “You shall not put the Lord your God to the test” (Deut. 6:16)."
-    },
-    {
-      "ref": "Luke 4:13–15",
-      "text": "Jesus returned in the power of the Spirit to Galilee. For the connection between “power” and “Spirit,” see note on 1:16–17. That Luke describes Jesus as being glorified by all shows Luke’s strong belief in Jesus’ deity."
-    },
-    {
-      "ref": "Luke 4:16–5:16",
-      "text": "Jesus began his ministry by preaching in his hometown of Nazareth. Soon thereafter he was preaching in many places, healing many people, and calling disciples to work with him."
+      "text": "**forty days**. Jesus’ 40 days of fasting in the wilderness corresponds to Israel’s 40 years of testing in the wilderness ( Deut. 8:2–3 ). Moses also fasted and prayed for 40 days and nights on two occasions ( Ex. 24:18 ; 34:28 ). Fasting was a means of focusing on prayer. **Being tempted** indicates Jesus was tempted the entire 40 days and that the three temptations mentioned marked the end of the temptations. **devil**. He is God’s supreme enemy."
     },
     {
       "ref": "Luke 4:16",
-      "text": "as was his custom. Jesus faithfully attended services at the synagogue. Synagogues usually had large rooms with bench seating along the wall (see The Synagogue and Jewish Worship). There is evidence from some synagogues of a special decorative seat called the “Seat of Moses” (see note on Matt. 23:2). Sabbath services at a synagogue involved singing, Scripture and prayer readings, a sermon based on the weekly Scripture reading, and a priestly blessing. Those who did not follow accepted belief and practice were sometimes “put out of the synagogue” (John 9:22)."
+      "text": "**as was his custom**. Jesus faithfully attended services at the **synagogue**. Synagogues usually had large rooms with bench seating along the wall (see The Synagogue and Jewish Worship ). There is evidence from some synagogues of a special decorative seat called the “Seat of Moses” (see note on Matt. 23:2 ). Sabbath services at a synagogue involved singing, Scripture and prayer readings, a sermon based on the weekly Scripture reading, and a priestly blessing. Those who did not follow accepted belief and practice were sometimes “put out of the synagogue” ( John 9:22 )."
     },
     {
       "ref": "Luke 4:17",
-      "text": "He . . . found the place. Jesus chooses to read Isa. 61:1–2a, but also quotes from Isa. 58:6."
-    },
-    {
-      "ref": "Luke 4:18–19",
-      "text": "The Spirit of the Lord is upon me. Jesus claims to be the messianic servant of the Lord who is speaking in Isaiah 61 (see Luke 4:21). Jesus’ mission involves proclaiming good news to the poor (see 6:20) and liberty to the captives (“liberty” elsewhere in Luke–Acts refers to forgiveness of sins). Sight to the blind includes both physically and spiritually blind. Liberty for those who are oppressed includes healing the sick, casting out demons, forgiving sins, and teachings on social justice. Proclaim the year of the Lord’s favor quotes Isa. 61:2, but the Year of Jubilee (Lev. 25:10) is also in view."
+      "text": "**He . . . found the place**. Jesus chooses to read Isa. 61:1–2a , but also quotes from Isa. 58:6 ."
     },
     {
       "ref": "Luke 4:24",
-      "text": "The word Truly occurs more than 70 times in the Gospels, emphasizing the truth of Jesus’ words."
-    },
-    {
-      "ref": "Luke 4:25–27",
-      "text": "The examples Jesus cites from the ministries of Elijah and Elisha show that, when Israel rejects God’s prophets, God sends them elsewhere, even to Gentiles."
-    },
-    {
-      "ref": "Luke 4:28–29",
-      "text": "Throw him down the cliff describes one method of stoning. Like other NT stoning incidents, which usually involved throwing rocks, this is a mob activity. Under Roman rule, only government officials could carry out a death penalty."
+      "text": "The word** Truly** occurs more than 70 times in the Gospels, emphasizing the truth of Jesus’ words."
     },
     {
       "ref": "Luke 4:30",
-      "text": "passing through their midst. Luke does not explain how Jesus escaped, but it seems to have been miraculous."
+      "text": "**passing through their midst**. Luke does not explain how Jesus escaped, but it seems to have been miraculous."
     },
     {
       "ref": "Luke 4:32",
-      "text": "his word possessed authority. The rabbis merely cited other rabbis’ opinions; Jesus’ teachings had authority of their own (see Matt. 5:22)."
+      "text": "**his word possessed authority**. The rabbis merely cited other rabbis’ opinions; Jesus’ teachings had authority of their own (see Matt. 5:22 )."
     },
     {
       "ref": "Luke 4:34",
-      "text": "I know who you are. The demons know who Jesus is (v. 41) but they do not put their personal trust in him (see also note on Mark 1:23–25)."
+      "text": "**I know who you are**. The demons know who Jesus is (v. 41 ) but they do not put their personal trust in him (see also note on Mark 1:23–25 )."
     },
     {
       "ref": "Luke 4:35",
-      "text": "Be silent. Compare v. 41."
+      "text": "**Be silent**. Compare v. 41 ."
     },
     {
       "ref": "Luke 4:36",
-      "text": "they were all amazed. Jesus’ triumph over demons was a clear indication that God’s kingdom was breaking into the present age in a new and decisive way (see note on Matt. 12:28)."
+      "text": "**they were all amazed**. Jesus’ triumph over demons was a clear indication that God’s kingdom was breaking into the present age in a new and decisive way (see note on Matt. 12:28 )."
     },
     {
       "ref": "Luke 4:38",
-      "text": "Simon was also called “Peter” (6:14)."
+      "text": "**Simon** was also called “Peter” ( 6:14 )."
     },
     {
       "ref": "Luke 4:40",
-      "text": "the sun was setting. See note on Mark 1:32–34. every one of them. Though it was late, Jesus did not perform a “group healing” but paid individual attention to each person."
+      "text": "**the sun was setting**. See note on Mark 1:32–34 . **every one of them**. Though it was late, Jesus did not perform a “group healing” but paid individual attention to each person."
     },
     {
       "ref": "Luke 4:41",
-      "text": "And demons also. Luke clearly distinguishes between the casting out of demons and healing (compare 13:10–17)."
-    },
-    {
-      "ref": "Luke 4:42–44",
-      "text": "Luke often refers to what must be, emphasizing the necessity of God’s plan being fulfilled. The kingdom of God refers to his reign in people’s hearts, not to geographical territory."
+      "text": "**And demons also**. Luke clearly distinguishes between the casting out of demons and healing (compare 13:10–17 )."
     }
   ]
 }

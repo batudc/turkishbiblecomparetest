@@ -1,32 +1,38 @@
 {
   "source": "ESV Global Study Bible (Crossway) — Used under license",
   "book_intro": "The Blue Letter Bible ministry and the BLB Institute hold to the historical, conservative Christian faith, which includes a firm belief in the inerrancy of Scripture. Since the text and audio content provided by BLB represent a range of evangelical traditions, all of the ideas and principles conveyed in the resource materials are not necessarily affirmed, in total, by this ministry.\n\nBlue Letter Bible study tools make reading, searching and studying the Bible easy and rewarding.\n\nBlue Letter Bible is a 501(c)(3) nonprofit organization\n\nYou can copy the order of your preferred Bible translations from the Bibles Tab to the  Version Picker (this popup) or vice versa. The Bibles Tab is found in the Tools feature on Bible pages:\n\nNote: MLA no longer requires the URL as part of their citation standard. Individual instructors or editors may still require the use of URLs.\n\nError: Passwords should have at least 6 characters\n\nError: Usernames should only contain letters, numbers, dots, dashes, or underscores\n\nPasswords should have at least 6 characters.\n\t\t\t\t\t\t\tUsernames should only contain letters, numbers, dots, dashes, or underscores.\n\nThank you for registering. A verification email has been sent to the address you provided.\n\nYour partnership makes all we do possible. Would you prayerfully consider a gift of support today?",
-  "chapter_intro": "",
-  "passages": [],
-  "notes": [
-    {
-      "ref": "Ps. 35",
-      "text": "Psalm . This psalm shows how the faithful should pray when they know that hateful people are seeking to harm them. It explains the persecutors’ evil schemes and asks God to fight on behalf of his faithful ones."
-    },
+  "passages": [
     {
       "ref": "Ps. 35:4–8",
-      "text": "The faithful pray that the schemes of the pursuers would fail, and that the pursuers themselves would suffer disappointment, humiliation, and destruction. It is proper for God’s people to pray this prayer since the pursuers devise evil (v. 4) without cause (vv. 7, 19). The prayer is not a vindictive response to personal injury but an appeal based on faith."
+      "title": "Ps. 35:4–8",
+      "text": "The faithful pray that the schemes of the pursuers would fail, and that the pursuers themselves would suffer disappointment, humiliation, and destruction. It is proper for God’s people to pray this prayer since the pursuers **devise evil** (v. 4 ) **without cause** (vv. 7 , 19 ). The prayer is not a vindictive response to personal injury but an appeal based on faith."
     },
     {
       "ref": "Ps. 35:9–10",
+      "title": "Ps. 35:9–10",
       "text": "The song looks forward to joy and gratitude when its request is answered."
     },
     {
       "ref": "Ps. 35:19–21",
-      "text": "The pursuers scheme (wink the eye), particularly against the hardworking faithful (those who are quiet in the land). In John 15:25 Jesus uses Ps. 35:19 (hate me without cause; see also 69:4) to portray himself as the quintessential innocent sufferer and to imply that his followers may expect the same treatment."
+      "title": "Ps. 35:19–21",
+      "text": "The pursuers scheme (**wink the eye**), particularly against the hardworking faithful (**those who are quiet in the land**). In John 15:25 Jesus uses Ps. 35:19 (**hate me without cause**; see also 69:4 ) to portray himself as the quintessential innocent sufferer and to imply that his followers may expect the same treatment."
     },
     {
       "ref": "Ps. 35:22–26",
-      "text": "Asking God to be not silent (as if he were indifferent toward evil) but awake and rouse yourself (as if he were asleep) shows how urgent the singer feels the situation to be. God’s righteousness, as often in the OT, is his faithfulness in keeping his promises (also v. 28)."
+      "title": "Ps. 35:22–26",
+      "text": "Asking God to** be not silent** (as if he were indifferent toward evil) but **awake and rouse yourself** (as if he were asleep) shows how urgent the singer feels the situation to be. God’s **righteousness**, as often in the OT, is his faithfulness in keeping his promises (also v. 28 )."
     },
     {
       "ref": "Ps. 35:27–28",
-      "text": "The song’s high point is the prospect of telling all the faithful (those who delight in my righteousness) of God’s faithfulness (v. 28; see vv. 9–10, 18)."
+      "title": "Ps. 35:27–28",
+      "text": "The song’s high point is the prospect of telling all the faithful (**those who delight in my righteousness**) of God’s faithfulness (v. 28 ; see vv. 9–10 , 18 )."
     }
-  ]
+  ],
+  "notes": [
+    {
+      "ref": "Ps. 35",
+      "text": "**Psalm** . This psalm shows how the faithful should pray when they know that hateful people are seeking to harm them. It explains the persecutors’ evil schemes and asks God to fight on behalf of his faithful ones."
+    }
+  ],
+  "chapter_intro": "Ps. 35:4–8"
 }

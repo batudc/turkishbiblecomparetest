@@ -90,8 +90,12 @@ def fetch_page(book_abbrev: str, chap: int) -> str | None:
         return None
 
 
-def clean_text(html_fragment: str) -> str:
-    """Strip HTML tags, decode entities, normalize whitespace."""
+def clean_text(html_fragment: str, preserve_em: bool = False) -> str:
+    """Strip HTML tags, decode entities, normalize whitespace.
+    If preserve_em=True, converts <em>...</em> to **...** before stripping."""
+    if preserve_em:
+        # Convert <em> to bold markers before stripping all other tags
+        html_fragment = re.sub(r'<em>(.*?)</em>', r'**\1**', html_fragment, flags=re.DOTALL)
     text = re.sub(r'<[^>]+>', ' ', html_fragment)
     text = htmlmod.unescape(text)
     text = re.sub(r'\s+', ' ', text).strip()
@@ -105,7 +109,7 @@ def parse_chapter(raw: str, chap: int) -> dict:
     intro = ' '.join(clean_text(p) for p in intro_parts).strip() if intro_parts else ''
 
     # Commentary notes (.notp divs)
-    # Structure: <div class="notp"><strong>REF</strong> body text with <em> and <a> tags</div>
+    # Structure: <div class="notp"><strong>REF</strong> <em>scripture phrase</em> body text</div>
     note_divs = re.findall(r'<div class="notp">(.*?)</div>', raw, re.DOTALL)
 
     notes = []
@@ -119,7 +123,8 @@ def parse_chapter(raw: str, chap: int) -> dict:
             ref = str(chap)
             body_html = div
 
-        body = clean_text(body_html)
+        # preserve_em=True keeps <em>phrase</em> as **phrase** for bold rendering
+        body = clean_text(body_html, preserve_em=True)
         if body:
             notes.append({'ref': ref, 'text': body})
 

@@ -1,76 +1,99 @@
 {
   "source": "ESV Global Study Bible (Crossway) — Used under license",
-  "book_intro": "Author, Date, and Recipients\n\nThis is a personal letter from the apostle Paul to Philemon, a wealthy Christian from Colossae. It was also intended for reading to the entire church that met in Philemon's home. It was probably written c. a.d. 62, while Paul was in prison following his voyage to Rome (Acts 27-28).\n\nTheme\n\nThe theme of Paul's letter is the power of the gospel to transform individual lives (v. 11) and human relationships (v. 16). Onesimus had experienced that transforming power in his life (\"formerly he was useless\" but \"now he is indeed useful\" v. 11). Paul therefore urged his friend Philemon to form a new relationship with Onesimus, his runaway slave.\n\nPurpose\n\nApparently, during Paul's three-year ministry in Ephesus (a.d. 52-55), Philemon heard the gospel and was saved. He began serving Christ in the Colossian community. He opened his home for a group of Christians to meet there regularly.\n\nAt some point, Onesimus, one of Philemon's bondservants, fled to Rome. Before he left, he possibly had stolen money or property from Philemon. While in Rome, Onesimus came into contact with Paul and became a Christian. As he grew in Christ, he was a great help to Paul during Paul's imprisonment.\n\nAs much as Paul would like to have retained the services of Onesimus, Paul knew that Onesimus's wrongdoing against his master Philemon needed to be addressed. He wrote this letter urging Philemon to appreciate the transformation that had occurred in Onesimus. Paul asked Philemon to receive Onesimus back not merely as a bondservant but as a \"beloved brother\" (v. 16).\n\nIt is difficult to know if Paul sought Onesimus's full freedom. It is clear, however, that he was seeking a transformed relationship between bondservant and master. This new relationship would defy all of the ingrained status distinctions of the surrounding Greek and Roman culture. It would have been difficult for the kind of servitude practiced by Rome to survive in the atmosphere of Christian love exemplified by the letter. On first-century forms of servitude, see the esv Preface.\n\nThis simplified letter is in the form of letters that people ordinarily write, in contrast to the more stylized and literary five-part format of most NT epistles. The letter is a masterpiece of persuasion as Paul seeks a favorable reception for the returning bondservant, where normally one might expect the master to be vindictive.\n\nPaul's strategy follows that prescribed by Greek and Roman rhetoricians of the day: begin by building rapport and goodwill with an audience (vv. 4-10), then lay out the facts in a way that will convince the mind or intellect (vv. 11-19), and finally appeal to the emotions of the audience (vv. 20-21).\n\nKey Themes\n\nReconciliation is the theme of this letter. Onesimus is reconciled to God. He is in the process of being reconciled to a fellow believer.\n\nThe basis for Paul's appeal to Philemon is the supreme Christian virtue of love. Paul praises Philemon for the love he has shown not just to him but to all the believers in that area.\n\nOutline\n\nGreetings (vv. 1-3)\n\nThanksgiving and Prayer (vv. 4-7)\n\nPaul's Appeal to Philemon for Onesimus (vv. 8-20)\n\nPersonal Remarks and Greetings (vv. 21-25)\n\nThe ESV Global Study Bible\n\nCopyright",
-  "chapter_intro": "",
-  "passages": [],
-  "notes": [
+  "book_intro": "Author, Date, and Recipients\n\nThis is a personal letter from the apostle Paul to Philemon, a wealthy Christian from Colossae. It was also intended for reading to the entire church that met in Philemon's home. It was probably written c. a.d. 62, while Paul was in prison following his voyage to Rome (Acts 27-28).\n\nTheme\n\nThe theme of Paul's letter is the power of the gospel to transform individual lives (v. 11) and human relationships (v. 16). Onesimus had experienced that transforming power in his life (\"formerly he was useless\" but \"now he is indeed useful\" v. 11). Paul therefore urged his friend Philemon to form a new relationship with Onesimus, his runaway slave.\n\nPurpose\n\nApparently, during Paul's three-year ministry in Ephesus (a.d. 52-55), Philemon heard the gospel and was saved. He began serving Christ in the Colossian community. He opened his home for a group of Christians to meet there regularly.\n\nAt some point, Onesimus, one of Philemon's bondservants, fled to Rome. Before he left, he possibly had stolen money or property from Philemon. While in Rome, Onesimus came into contact with Paul and became a Christian. As he grew in Christ, he was a great help to Paul during Paul's imprisonment.\n\nAs much as Paul would like to have retained the services of Onesimus, Paul knew that Onesimus's wrongdoing against his master Philemon needed to be addressed. He wrote this letter urging Philemon to appreciate the transformation that had occurred in Onesimus. Paul asked Philemon to receive Onesimus back not merely as a bondservant but as a \"beloved brother\" (v. 16).\n\nIt is difficult to know if Paul sought Onesimus's full freedom. It is clear, however, that he was seeking a transformed relationship between bondservant and master. This new relationship would defy all of the ingrained status distinctions of the surrounding Greek and Roman culture. It would have been difficult for the kind of servitude practiced by Rome to survive in the atmosphere of Christian love exemplified by the letter. On first-century forms of servitude, see the esv Preface.\n\nThis simplified letter is in the form of letters that people ordinarily write, in contrast to the more stylized and literary five-part format of most NT epistles. The letter is a masterpiece of persuasion as Paul seeks a favorable reception for the returning bondservant, where normally one might expect the master to be vindictive.\n\nPaul's strategy follows that prescribed by Greek and Roman rhetoricians of the day: begin by building rapport and goodwill with an audience (vv. 4-10), then lay out the facts in a way that will convince the mind or intellect (vv. 11-19), and finally appeal to the emotions of the audience (vv. 20-21).\n\nKey Themes\n\nReconciliation is the theme of this letter. Onesimus is reconciled to God. He is in the process of being reconciled to a fellow believer.\n\nThe basis for Paul's appeal to Philemon is the supreme Christian virtue of love. Paul praises Philemon for the love he has shown not just to him but to all the believers in that area.\n\nOutline\n\nGreetings (vv. 1-3)\n\nThanksgiving and Prayer (vv. 4-7)\n\nPaul's Appeal to Philemon for Onesimus (vv. 8-20)\n\nPersonal Remarks and Greetings (vv. 21-25)",
+  "passages": [
     {
-      "ref": "Philem. 1",
-      "text": "On Timothy, see Introduction to 1 Timothy."
+      "ref": "Philem. 1–3",
+      "title": "Greetings.",
+      "text": "The beginning of this letter follows Paul’s typical style, but it is addressed to a person rather than an entire community of believers."
     },
     {
-      "ref": "Philem. 2",
-      "text": "Apphia may have been Philemon’s wife. Archippus may have been Philemon’s son. He may have had a significant ministry in Colossae (see Col. 4:17). the church in your house. The early Christians met in private homes. Philemon opened his home in Colossae (Col. 4:15; see note on 1 Cor. 16:19)."
+      "ref": "Philem. 4–7",
+      "title": "Thanksgiving and Prayer.",
+      "text": "Before Paul makes his appeal, he expresses his gratitude for Philemon (vv. 4–5 ) and describes how he prays for him (vv. 6–7 )."
     },
     {
-      "ref": "Philem. 6",
-      "text": "Sharing as used here includes the ideas of generosity, partnership, and fellowship. These result from the common faith and common life that believers have in Christ. Paul lays the groundwork for his appeal to Philemon on behalf of Onesimus. knowledge of every good thing. That is, a deep awareness and experience of the blessings of Christ."
-    },
-    {
-      "ref": "Philem. 7",
-      "text": "hearts. See note on v. 12."
+      "ref": "Philem. 8–20",
+      "title": "Paul’s Appeal to Philemon for Onesimus.",
+      "text": "Paul makes his appeal by first describing the remarkable change that has happened to Onesimus (vv. 8–12 ). He explains how helpful Onesimus would be to him in his imprisonment (vv. 13–14 ). Paul then suggests that God has been sovereignly involved in this situation, so that Philemon may receive Onesimus back now as a fellow Christian (vv. 15–16 ). Onesimus will therefore be all the more useful to Philemon. He concludes with a direct appeal that Philemon receive Onesimus back as he would receive Paul himself (vv. 17–20 )."
     },
     {
       "ref": "Philem. 8–9",
-      "text": "Bold suggests a “frankness” or “openness” to speak freely about difficult matters. an old man. Paul may have been 60 or older."
-    },
-    {
-      "ref": "Philem. 10",
-      "text": "The name Onesimus means “useful” or “profitable.” This name was frequently given to bondservants. Onesimus is also mentioned in Col. 4:9 as accompanying Tychicus with the letter to the Colossians."
-    },
-    {
-      "ref": "Philem. 11",
-      "text": "useless . . . useful. The play on words describes the “before and after” of Onesimus’s conversion. By stealing from Philemon and running away, Onesimus had become “useless.” Having repented and become obedient to Christ, Onesimus had now become “useful” both to Paul and to Philemon."
-    },
-    {
-      "ref": "Philem. 12",
-      "text": "my very heart. Not the common word for heart, but literally “internal organs” (especially the stomach and intestines). The word indicates affection, intimacy, and deep love (see vv. 7, 20; Phil. 2:1; Col. 3:12)."
-    },
-    {
-      "ref": "Philem. 15",
-      "text": "why he was parted from you. God is understood to be sovereignly behind the events. It is like Joseph’s remark to his brothers that “it was not you who sent me here, but God” (Gen. 45:8)."
-    },
-    {
-      "ref": "Philem. 16",
-      "text": "no longer as a bondservant. Paul expects an entirely transformed relationship between Philemon and Onesimus based on the fact that Onesimus was now Philemon’s beloved brother."
-    },
-    {
-      "ref": "Philem. 17",
-      "text": "Partner is from the same root word as “sharing” in v. 6."
+      "title": "Philem. 8–9",
+      "text": "**Bold** suggests a “frankness” or “openness” to speak freely about difficult matters. **an old man**. Paul may have been 60 or older."
     },
     {
       "ref": "Philem. 18–19",
-      "text": "If he has wronged you suggests that Onesimus probably took money from Philemon when he ran away. Roman society expected brutal punishment of runaway slaves or bondservants, at times resulting in death. (Regarding servitude in Roman society, see notes on 1 Cor. 7:21 and Eph. 6:5, and the esv Preface.) I, Paul, write this with my own hand. Although Paul was probably dictating the letter to Timothy (see Philem. 1), Paul signs his own name. This action gives his personal guarantee that he will repay any loss Philemon has experienced because of Onesimus’s actions. This is a remarkable offer, considering that Paul was a prisoner at the time. owing me even your own self. A reference to the fact that Philemon was converted through Paul’s ministry. Philemon “owed” Paul his eternal life. The debt that Onesimus owed to Philemon, therefore, was tiny by comparison."
+      "title": "Philem. 18–19",
+      "text": "**If he has wronged you** suggests that Onesimus probably took money from Philemon when he ran away. Roman society expected brutal punishment of runaway slaves or bondservants, at times resulting in death. (Regarding servitude in Roman society, see notes on 1 Cor. 7:21 and Eph. 6:5 , and the esv Preface .) **I, Paul, write this with my own hand**. Although Paul was probably dictating the letter to Timothy (see Philem. 1 ), Paul signs his own name. This action gives his personal guarantee that he **will repay** any loss Philemon has experienced because of Onesimus’s actions. This is a remarkable offer, considering that Paul was a prisoner at the time. **owing me even your own self**. A reference to the fact that Philemon was converted through Paul’s ministry. Philemon “owed” Paul his eternal life. The debt that Onesimus owed to Philemon, therefore, was tiny by comparison."
+    },
+    {
+      "ref": "Philem. 21–25",
+      "title": "Personal Remarks and Greetings.",
+      "text": "Paul concludes the letter by sharing his plans to travel to Colossae (vv. 21–22 ). He also sends greetings from various coworkers in Rome (vv. 23–25 )."
+    }
+  ],
+  "notes": [
+    {
+      "ref": "Philem. 1",
+      "text": "On **Timothy**, see Introduction to 1 Timothy ."
+    },
+    {
+      "ref": "Philem. 2",
+      "text": "**Apphia** may have been Philemon’s wife. **Archippus** may have been Philemon’s son. He may have had a significant ministry in Colossae (see Col. 4:17 ). **the church in your house**. The early Christians met in private homes. Philemon opened his home in Colossae ( Col. 4:15 ; see note on 1 Cor. 16:19 )."
+    },
+    {
+      "ref": "Philem. 6",
+      "text": "**Sharing** as used here includes the ideas of generosity, partnership, and fellowship. These result from the common faith and common life that believers have in Christ. Paul lays the groundwork for his appeal to Philemon on behalf of Onesimus. **knowledge of every good thing**. That is, a deep awareness and experience of the blessings of Christ."
+    },
+    {
+      "ref": "Philem. 7",
+      "text": "**hearts**. See note on v. 12 ."
+    },
+    {
+      "ref": "Philem. 10",
+      "text": "The name **Onesimus** means “useful” or “profitable.” This name was frequently given to bondservants. Onesimus is also mentioned in Col. 4:9 as accompanying Tychicus with the letter to the Colossians."
+    },
+    {
+      "ref": "Philem. 11",
+      "text": "**useless . . . useful**. The play on words describes the “before and after” of Onesimus’s conversion. By stealing from Philemon and running away, Onesimus had become “useless.” Having repented and become obedient to Christ, Onesimus had now become “useful” both to Paul and to Philemon."
+    },
+    {
+      "ref": "Philem. 12",
+      "text": "**my very heart**. Not the common word for heart, but literally “internal organs” (especially the stomach and intestines). The word indicates affection, intimacy, and deep love (see vv. 7 , 20 ; Phil. 2:1 ; Col. 3:12 )."
+    },
+    {
+      "ref": "Philem. 15",
+      "text": "**why he was parted from you**. God is understood to be sovereignly behind the events. It is like Joseph’s remark to his brothers that “it was not you who sent me here, but God” ( Gen. 45:8 )."
+    },
+    {
+      "ref": "Philem. 16",
+      "text": "**no longer as a bondservant**. Paul expects an entirely transformed relationship between Philemon and Onesimus based on the fact that Onesimus was now Philemon’s **beloved brother**."
+    },
+    {
+      "ref": "Philem. 17",
+      "text": "**Partner** is from the same root word as “sharing” in v. 6 ."
     },
     {
       "ref": "Philem. 20",
-      "text": "Refresh my heart in Christ. See note on v. 12."
+      "text": "**Refresh my heart in Christ**. See note on v. 12 ."
     },
     {
       "ref": "Philem. 21",
-      "text": "Even more could suggest freeing Onesimus or perhaps sending Onesimus back to minister to Paul (compare vv. 13–14). Paul may have deliberately given Philemon the freedom to decide which course of action would be best."
+      "text": "**Even more** could suggest freeing Onesimus or perhaps sending Onesimus back to minister to Paul (compare vv. 13–14 ). Paul may have deliberately given Philemon the freedom to decide which course of action would be best."
     },
     {
       "ref": "Philem. 22",
-      "text": "prepare a guest room for me. Paul hopes to be released from prison and come to Colossae for a visit."
+      "text": "**prepare a guest room for me**. Paul hopes to be released from prison and come to Colossae for a visit."
     },
     {
       "ref": "Philem. 23",
-      "text": "Epaphras is one of Philemon’s fellow Colossians. God had used him to plant the church in Colossae (Col. 1:7; 4:12). fellow prisoner. The circumstances of Epaphras’s arrest are unknown."
+      "text": "**Epaphras** is one of Philemon’s fellow Colossians . God had used him to plant the church in Colossae ( Col. 1:7 ; 4:12 ). **fellow prisoner**. The circumstances of Epaphras’s arrest are unknown."
     },
     {
       "ref": "Philem. 24",
-      "text": "Mark, Aristarchus, Demas, and Luke are also named in Col. 4:10, 14. For Mark, see Acts 12:12. For Aristarchus, see Acts 19:29. Demas later was drawn away by worldly pursuits and deserted Paul (2 Tim. 4:10). Luke is almost certainly the one who authored the Gospel of Luke and Acts (see 2 Tim. 4:11). Luke was apparently with Paul throughout his two-year imprisonment in Caesarea and also during his two-year Roman imprisonment."
+      "text": "**Mark, Aristarchus, Demas, and Luke** are also named in Col. 4:10 , 14 . For Mark, see Acts 12:12 . For Aristarchus, see Acts 19:29 . Demas later was drawn away by worldly pursuits and deserted Paul ( 2 Tim. 4:10 ). Luke is almost certainly the one who authored the Gospel of Luke and Acts (see 2 Tim. 4:11 ). Luke was apparently with Paul throughout his two-year imprisonment in Caesarea and also during his two-year Roman imprisonment."
     }
-  ]
+  ],
+  "chapter_intro": "Greetings."
 }

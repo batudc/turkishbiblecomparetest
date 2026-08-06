@@ -1,24 +1,27 @@
 {
   "source": "ESV Global Study Bible (Crossway) — Used under license",
   "book_intro": "The Blue Letter Bible ministry and the BLB Institute hold to the historical, conservative Christian faith, which includes a firm belief in the inerrancy of Scripture. Since the text and audio content provided by BLB represent a range of evangelical traditions, all of the ideas and principles conveyed in the resource materials are not necessarily affirmed, in total, by this ministry.\n\nBlue Letter Bible study tools make reading, searching and studying the Bible easy and rewarding.\n\nBlue Letter Bible is a 501(c)(3) nonprofit organization\n\nYou can copy the order of your preferred Bible translations from the Bibles Tab to the  Version Picker (this popup) or vice versa. The Bibles Tab is found in the Tools feature on Bible pages:\n\nNote: MLA no longer requires the URL as part of their citation standard. Individual instructors or editors may still require the use of URLs.\n\nError: Passwords should have at least 6 characters\n\nError: Usernames should only contain letters, numbers, dots, dashes, or underscores\n\nPasswords should have at least 6 characters.\n\t\t\t\t\t\t\tUsernames should only contain letters, numbers, dots, dashes, or underscores.\n\nThank you for registering. A verification email has been sent to the address you provided.\n\nYour partnership makes all we do possible. Would you prayerfully consider a gift of support today?",
-  "chapter_intro": "",
-  "passages": [],
-  "notes": [
-    {
-      "ref": "Ps. 41",
-      "text": "Psalm . This is a lament in which a person has fulfilled his responsibilities to the poor and yet is suffering severely. He prays for God’s help and vindication."
-    },
+  "passages": [
     {
       "ref": "Ps. 41:1–3",
-      "text": "The person who considers the poor is kind to them because they are fellow members of God’s people (usually “the poor” in the OT refers specifically to the poor in Israel). God honors the person who shows such kindness. He delivers him, protects him and, more specifically, sustains him on his sickbed."
-    },
-    {
-      "ref": "Ps. 41:9",
-      "text": "One expects enemies to be treacherous, but here the pain of betrayal comes from his close friend, who had received only kindness and who has now lifted his heel against the singer (see John 13:18)."
+      "title": "Ps. 41:1–3",
+      "text": "The person **who considers the poor** is kind to them because they are fellow members of God’s people (usually “the poor” in the OT refers specifically to the poor in Israel). God honors the person who shows such kindness. He **delivers him**, **protects him** and, more specifically, **sustains him on his sickbed**."
     },
     {
       "ref": "Ps. 41:11–12",
-      "text": "The singer returns to the faith described in vv. 1–3. Because of his faith, he can be confident that God will continue to honor his integrity, specifically his kindness to the poor (v. 1)."
+      "title": "Ps. 41:11–12",
+      "text": "The singer returns to the faith described in vv. 1–3 . Because of his faith, he can be confident that God will continue to honor his **integrity**, specifically his kindness to the poor (v. 1 )."
     }
-  ]
+  ],
+  "notes": [
+    {
+      "ref": "Ps. 41",
+      "text": "**Psalm** . This is a lament in which a person has fulfilled his responsibilities to the poor and yet is suffering severely. He prays for God’s help and vindication."
+    },
+    {
+      "ref": "Ps. 41:9",
+      "text": "One expects enemies to be treacherous, but here the pain of betrayal comes from his **close friend**, who had received only kindness and who has now **lifted his heel against** the singer (see John 13:18 )."
+    }
+  ],
+  "chapter_intro": "Ps. 41:1–3"
 }

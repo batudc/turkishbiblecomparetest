@@ -1,28 +1,31 @@
 {
   "source": "ESV Global Study Bible (Crossway) — Used under license",
   "book_intro": "The Blue Letter Bible ministry and the BLB Institute hold to the historical, conservative Christian faith, which includes a firm belief in the inerrancy of Scripture. Since the text and audio content provided by BLB represent a range of evangelical traditions, all of the ideas and principles conveyed in the resource materials are not necessarily affirmed, in total, by this ministry.\n\nBlue Letter Bible study tools make reading, searching and studying the Bible easy and rewarding.\n\nBlue Letter Bible is a 501(c)(3) nonprofit organization\n\nYou can copy the order of your preferred Bible translations from the Bibles Tab to the  Version Picker (this popup) or vice versa. The Bibles Tab is found in the Tools feature on Bible pages:\n\nNote: MLA no longer requires the URL as part of their citation standard. Individual instructors or editors may still require the use of URLs.\n\nError: Passwords should have at least 6 characters\n\nError: Usernames should only contain letters, numbers, dots, dashes, or underscores\n\nPasswords should have at least 6 characters.\n\t\t\t\t\t\t\tUsernames should only contain letters, numbers, dots, dashes, or underscores.\n\nThank you for registering. A verification email has been sent to the address you provided.\n\nYour partnership makes all we do possible. Would you prayerfully consider a gift of support today?",
-  "chapter_intro": "",
-  "passages": [],
-  "notes": [
-    {
-      "ref": "Ps. 58",
-      "text": "Psalm . This is a community lament that God’s people sing when they are confronted with injustice among their own rulers. Singing this in worship (1) helps the faithful to pray more earnestly for godly leadership; (2) helps form in the leaders themselves a true moral compass for their leadership; and (3) celebrates the prospect that—one day, sooner or later—God will vindicate his justice in the world, and those who trust him will rejoice exceedingly."
-    },
-    {
-      "ref": "Ps. 58:1",
-      "text": "You gods (or “mighty lords”; see esv footnote) can refer to human rulers to whom God gives power (compare Ex. 15:15, “leaders”; Job 41:25, “mighty”; Ezek. 32:21, “chiefs”)."
-    },
+  "passages": [
     {
       "ref": "Ps. 58:3–5",
-      "text": "The song calls these unjust rulers wicked. This term, when applied to an Israelite, describes someone who does not honor God. They are Israelites who are using their position to squeeze the life out of their fellow Israelites (employing lies as well as “violence,” v. 2). By doing this they destroy the community, every bit as much as the venom of a dangerous serpent destroys the one it bites."
-    },
-    {
-      "ref": "Ps. 58:6",
-      "text": "teeth in their mouths, fangs of the young lions. The verse is a prayer that these evildoers may no longer have their present power to do harm."
+      "title": "Ps. 58:3–5",
+      "text": "The song calls these unjust rulers **wicked**. This term, when applied to an Israelite, describes someone who does not honor God. They are Israelites who are using their position to squeeze the life out of their fellow Israelites (employing **lies** as well as “violence,” v. 2 ). By doing this they destroy the community, every bit as much as the **venom** of a dangerous **serpent** destroys the one it bites."
     },
     {
       "ref": "Ps. 58:10–11",
-      "text": "God loves to see his creation functioning properly, which is why he loves justice. The righteous may suffer now, but they can know that one day God will bring justice in the world (see Gal. 6:9)."
+      "title": "Ps. 58:10–11",
+      "text": "God loves to see his creation functioning properly, which is why he loves justice. The **righteous** may suffer now, but they can know that one day God will bring justice in the world (see Gal. 6:9 )."
     }
-  ]
+  ],
+  "notes": [
+    {
+      "ref": "Ps. 58",
+      "text": "**Psalm** . This is a community lament that God’s people sing when they are confronted with injustice among their own rulers. Singing this in worship (1) helps the faithful to pray more earnestly for godly leadership; (2) helps form in the leaders themselves a true moral compass for their leadership; and (3) celebrates the prospect that—one day, sooner or later—God will vindicate his justice in the world, and those who trust him will rejoice exceedingly."
+    },
+    {
+      "ref": "Ps. 58:1",
+      "text": "**You gods** (or “mighty lords”; see esv footnote) can refer to human rulers to whom God gives power (compare Ex. 15:15 , “leaders”; Job 41:25 , “mighty”; Ezek. 32:21 , “chiefs”)."
+    },
+    {
+      "ref": "Ps. 58:6",
+      "text": "**teeth in their mouths**, **fangs of the young lions**. The verse is a prayer that these evildoers may no longer have their present power to do harm."
+    }
+  ],
+  "chapter_intro": "Ps. 58:3–5"
 }

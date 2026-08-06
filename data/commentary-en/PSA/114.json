@@ -1,24 +1,28 @@
 {
   "source": "ESV Global Study Bible (Crossway) — Used under license",
   "book_intro": "The Blue Letter Bible ministry and the BLB Institute hold to the historical, conservative Christian faith, which includes a firm belief in the inerrancy of Scripture. Since the text and audio content provided by BLB represent a range of evangelical traditions, all of the ideas and principles conveyed in the resource materials are not necessarily affirmed, in total, by this ministry.\n\nBlue Letter Bible study tools make reading, searching and studying the Bible easy and rewarding.\n\nBlue Letter Bible is a 501(c)(3) nonprofit organization\n\nYou can copy the order of your preferred Bible translations from the Bibles Tab to the  Version Picker (this popup) or vice versa. The Bibles Tab is found in the Tools feature on Bible pages:\n\nNote: MLA no longer requires the URL as part of their citation standard. Individual instructors or editors may still require the use of URLs.\n\nError: Passwords should have at least 6 characters\n\nError: Usernames should only contain letters, numbers, dots, dashes, or underscores\n\nPasswords should have at least 6 characters.\n\t\t\t\t\t\t\tUsernames should only contain letters, numbers, dots, dashes, or underscores.\n\nThank you for registering. A verification email has been sent to the address you provided.\n\nYour partnership makes all we do possible. Would you prayerfully consider a gift of support today?",
-  "chapter_intro": "",
-  "passages": [],
-  "notes": [
-    {
-      "ref": "Ps. 114",
-      "text": "Psalm . This hymn of praise celebrates the special status of Israel in God’s plan. All of nature obeys the Lord, and yet he has chosen little Israel to be his own. He exerts his power on their behalf. The psalm uses lively personification, describing the Red Sea and Jordan River as if they fled from God; the mountains as skipping like lambs; and the earth as trembling at God’s presence."
-    },
+  "passages": [
     {
       "ref": "Ps. 114:1–2",
-      "text": "The opening section recalls the exodus (when Israel went out from Egypt) and its consequence: Judah became God’s sanctuary, and Israel became God’s dominion; that is, Israel is the holy place where God rules."
+      "title": "Ps. 114:1–2",
+      "text": "The opening section recalls the exodus (**when Israel went out from Egypt**) and its consequence: **Judah became** God’s **sanctuary**, and Israel became God’s **dominion**; that is, Israel is the holy place where God rules."
     },
     {
       "ref": "Ps. 114:3–6",
-      "text": "God parted the Red sea (Ex. 14:21–22) and later the Jordan River (Josh. 3:15–17; see Josh. 4:21–24) for the sake of his people."
+      "title": "Ps. 114:3–6",
+      "text": "God parted the Red **sea** ( Ex. 14:21–22 ) and later the **Jordan** River ( Josh. 3:15–17 ; see Josh. 4:21–24 ) for the sake of his people."
     },
     {
       "ref": "Ps. 114:7–8",
-      "text": "turns the rock into a pool. There are two events like this in the Pentateuch, Ex. 17:6 and Num. 20:8–13 (see Deut. 8:15). In both cases God showed his power over nature in order to care for his people."
+      "title": "Ps. 114:7–8",
+      "text": "**turns the rock into a pool**. There are two events like this in the Pentateuch, Ex. 17:6 and Num. 20:8–13 (see Deut. 8:15 ). In both cases God showed his power over nature in order to care for his people."
     }
-  ]
+  ],
+  "notes": [
+    {
+      "ref": "Ps. 114",
+      "text": "**Psalm** . This hymn of praise celebrates the special status of Israel in God’s plan. All of nature obeys the Lord, and yet he has chosen little Israel to be his own. He exerts his power on their behalf. The psalm uses lively personification, describing the Red Sea and Jordan River as if they fled from God; the mountains as skipping like lambs; and the earth as trembling at God’s presence."
+    }
+  ],
+  "chapter_intro": "Ps. 114:1–2"
 }

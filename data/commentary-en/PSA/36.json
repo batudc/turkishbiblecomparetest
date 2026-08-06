@@ -1,28 +1,32 @@
 {
   "source": "ESV Global Study Bible (Crossway) — Used under license",
   "book_intro": "The Blue Letter Bible ministry and the BLB Institute hold to the historical, conservative Christian faith, which includes a firm belief in the inerrancy of Scripture. Since the text and audio content provided by BLB represent a range of evangelical traditions, all of the ideas and principles conveyed in the resource materials are not necessarily affirmed, in total, by this ministry.\n\nBlue Letter Bible study tools make reading, searching and studying the Bible easy and rewarding.\n\nBlue Letter Bible is a 501(c)(3) nonprofit organization\n\nYou can copy the order of your preferred Bible translations from the Bibles Tab to the  Version Picker (this popup) or vice versa. The Bibles Tab is found in the Tools feature on Bible pages:\n\nNote: MLA no longer requires the URL as part of their citation standard. Individual instructors or editors may still require the use of URLs.\n\nError: Passwords should have at least 6 characters\n\nError: Usernames should only contain letters, numbers, dots, dashes, or underscores\n\nPasswords should have at least 6 characters.\n\t\t\t\t\t\t\tUsernames should only contain letters, numbers, dots, dashes, or underscores.\n\nThank you for registering. A verification email has been sent to the address you provided.\n\nYour partnership makes all we do possible. Would you prayerfully consider a gift of support today?",
-  "chapter_intro": "",
-  "passages": [],
-  "notes": [
-    {
-      "ref": "Ps. 36",
-      "text": "Psalm . This is a lament that reflects on the wicked and on the steadfast love of the Lord. It concludes with a prayer that God will protect his people from the attacks of the wicked."
-    },
+  "passages": [
     {
       "ref": "Ps. 36:1–4",
-      "text": "The wicked person has no fear of God before his eyes (see Rom. 3:18). He does evil and plans evil. He particularly schemes to bring trouble to others, especially the godly."
+      "title": "Ps. 36:1–4",
+      "text": "The **wicked** person has **no fear of God before his eyes** (see Rom. 3:18 ). He does evil and plans evil. He particularly schemes to bring trouble to others, especially the godly."
     },
     {
       "ref": "Ps. 36:5–9",
-      "text": "The pairing of God’s steadfast love and faithfulness recalls Ex. 34:6, describing God’s kindness. Righteousness and judgments express God’s enduring commitment to act kindly toward his creatures and to save them. In view of this, people can take refuge under his wings and can be welcome guests at his table."
-    },
-    {
-      "ref": "Ps. 36:9",
-      "text": "The fountain of life refreshes and sustains life; see Prov. 10:11; 13:14. To see light means to experience life (e.g., Job 33:28; Ps. 49:19)."
+      "title": "Ps. 36:5–9",
+      "text": "The pairing of God’s **steadfast love** and **faithfulness** recalls Ex. 34:6 , describing God’s kindness. **Righteousness** and **judgments** express God’s enduring commitment to act kindly toward his creatures and to **save** them. In view of this, people can **take refuge** under his **wings** and can be welcome guests at his table."
     },
     {
       "ref": "Ps. 36:10–12",
-      "text": "The psalm ends with an appeal to God’s reliable love for his faithful ones (those who know you, that is, the upright of heart)."
+      "title": "Ps. 36:10–12",
+      "text": "The psalm ends with an appeal to God’s reliable love for his faithful ones (**those who know you**, that is, **the upright of heart**)."
     }
-  ]
+  ],
+  "notes": [
+    {
+      "ref": "Ps. 36",
+      "text": "**Psalm** . This is a lament that reflects on the wicked and on the steadfast love of the Lord. It concludes with a prayer that God will protect his people from the attacks of the wicked."
+    },
+    {
+      "ref": "Ps. 36:9",
+      "text": "The **fountain of life** refreshes and sustains life; see Prov. 10:11 ; 13:14 . To **see light** means to experience life (e.g., Job 33:28 ; Ps. 49:19 )."
+    }
+  ],
+  "chapter_intro": "Ps. 36:1–4"
 }

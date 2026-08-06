@@ -1,32 +1,38 @@
 {
   "source": "ESV Global Study Bible (Crossway) — Used under license",
   "book_intro": "The Blue Letter Bible ministry and the BLB Institute hold to the historical, conservative Christian faith, which includes a firm belief in the inerrancy of Scripture. Since the text and audio content provided by BLB represent a range of evangelical traditions, all of the ideas and principles conveyed in the resource materials are not necessarily affirmed, in total, by this ministry.\n\nBlue Letter Bible study tools make reading, searching and studying the Bible easy and rewarding.\n\nBlue Letter Bible is a 501(c)(3) nonprofit organization\n\nYou can copy the order of your preferred Bible translations from the Bibles Tab to the  Version Picker (this popup) or vice versa. The Bibles Tab is found in the Tools feature on Bible pages:\n\nNote: MLA no longer requires the URL as part of their citation standard. Individual instructors or editors may still require the use of URLs.\n\nError: Passwords should have at least 6 characters\n\nError: Usernames should only contain letters, numbers, dots, dashes, or underscores\n\nPasswords should have at least 6 characters.\n\t\t\t\t\t\t\tUsernames should only contain letters, numbers, dots, dashes, or underscores.\n\nThank you for registering. A verification email has been sent to the address you provided.\n\nYour partnership makes all we do possible. Would you prayerfully consider a gift of support today?",
-  "chapter_intro": "",
-  "passages": [],
-  "notes": [
+  "passages": [
     {
       "ref": "13:1–16:43",
-      "text": "David’s Transfer of the Ark of the Covenant to Jerusalem. The ark signified the Mosaic covenant. It also symbolized God’s presence on earth. It had been neglected throughout Saul’s reign, being kept in the village of Kiriath-jearim (13:3, 5). The Chronicler departs from his source’s order (2 Samuel 5–6) to present David’s first attempt to retrieve the ark (1 Chron. 13:5–14 = 2 Sam. 6:1–11); he places this event before David’s establishment of his home and family in Jerusalem and his defeat of the Philistines (1 Chron. 14:1–17 = 2 Sam. 5:11–25). He changes the order of these events to show that David’s true priority is his commitment to God."
+      "title": "David’s Transfer of the Ark of the Covenant to Jerusalem.",
+      "text": "The ark signified the Mosaic covenant. It also symbolized God’s presence on earth. It had been neglected throughout Saul’s reign, being kept in the village of Kiriath-jearim ( 13:3 , 5 ). The Chronicler departs from his source’s order ( 2 Samuel 5–6 ) to present David’s first attempt to retrieve the ark ( 1 Chron. 13:5–14 = 2 Sam. 6:1–11 ); he places this event before David’s establishment of his home and family in Jerusalem and his defeat of the Philistines ( 1 Chron. 14:1–17 = 2 Sam. 5:11–25 ). He changes the order of these events to show that David’s true priority is his commitment to God."
     },
     {
       "ref": "1 Chron 13:1–4",
-      "text": "David’s consultation shows a concern with national unity and a desire to involve the people in national issues. we did not seek it. See “seek my face,” 2 Chron. 7:14. To “seek” the ark would mean caring for it rightly as the focus of worship. “Seeking God” will emerge as a major theme in Chronicles. During David’s reign there will be an improvement in the people’s commitment to God, compared to their level of commitment during the days of Saul."
+      "title": "1 Chron 13:1–4",
+      "text": "David’s consultation shows a concern with national unity and a desire to involve the people in national issues. **we did not seek it**. See “seek my face,” 2 Chron. 7:14 . To “seek” the ark would mean caring for it rightly as the focus of worship. “Seeking God” will emerge as a major theme in Chronicles. During David’s reign there will be an improvement in the people’s commitment to God, compared to their level of commitment during the **days of Saul**."
     },
     {
       "ref": "1 Chron 13:5–6",
-      "text": "People from all over Israel participated in retrieving the ark: from the Nile of Egypt to Lebo-hamath in the far northeast. Compare the boundaries of the Promised Land, Gen. 15:18. On who sits enthroned above the cherubim, see note on 1 Sam. 4:3–4."
+      "title": "1 Chron 13:5–6",
+      "text": "People from all over Israel participated in retrieving the ark: **from the Nile of Egypt to Lebo-hamath** in the far northeast. Compare the boundaries of the Promised Land, Gen. 15:18 . On **who sits enthroned above the cherubim**, see note on 1 Sam. 4:3–4 ."
     },
     {
       "ref": "1 Chron 13:7–12",
-      "text": "The Levites were to carry the ark on poles (Ex. 25:12–15; see note on 2 Sam. 6:3–4). Transporting the ark by cart (1 Chron. 13:7), as the Philistines had done (1 Samuel 6), demonstrated a lack of reverence for the sacred object of God’s presence and for the Law of Moses. Uzzah intended well, but he disobeyed the Lord by touching the ark (see Num. 4:15; also note on 2 Sam. 6:6–11)."
-    },
-    {
-      "ref": "1 Chron 13:8",
-      "text": "On David . . . celebrating before God with various instruments, see note on 2 Sam. 6:5."
+      "title": "1 Chron 13:7–12",
+      "text": "The Levites were to carry the ark on poles ( Ex. 25:12–15 ; see note on 2 Sam. 6:3–4 ). Transporting the ark by **cart** ( 1 Chron. 13:7 ), as the Philistines had done ( 1 Samuel 6 ), demonstrated a lack of reverence for the sacred object of God’s presence and for the Law of Moses. **Uzzah** intended well, but he disobeyed the Lord by touching the ark (see Num. 4:15 ; also note on 2 Sam. 6:6–11 )."
     },
     {
       "ref": "1 Chron 13:13–14",
-      "text": "Obed-edom was probably a foreigner, particularly if Gittite (a resident of Gath) means that he was a Philistine."
+      "title": "1 Chron 13:13–14",
+      "text": "**Obed-edom** was probably a foreigner, particularly if **Gittite** (a resident of Gath) means that he was a Philistine."
     }
-  ]
+  ],
+  "notes": [
+    {
+      "ref": "1 Chron 13:8",
+      "text": "On **David . . . celebrating before God** with various instruments, see note on 2 Sam. 6:5 ."
+    }
+  ],
+  "chapter_intro": "David’s Transfer of the Ark of the Covenant to Jerusalem."
 }

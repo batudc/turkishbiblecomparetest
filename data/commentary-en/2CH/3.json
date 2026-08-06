@@ -1,44 +1,49 @@
 {
   "source": "ESV Global Study Bible (Crossway) — Used under license",
   "book_intro": "The Blue Letter Bible ministry and the BLB Institute hold to the historical, conservative Christian faith, which includes a firm belief in the inerrancy of Scripture. Since the text and audio content provided by BLB represent a range of evangelical traditions, all of the ideas and principles conveyed in the resource materials are not necessarily affirmed, in total, by this ministry.\n\nBlue Letter Bible study tools make reading, searching and studying the Bible easy and rewarding.\n\nBlue Letter Bible is a 501(c)(3) nonprofit organization\n\nYou can copy the order of your preferred Bible translations from the Bibles Tab to the  Version Picker (this popup) or vice versa. The Bibles Tab is found in the Tools feature on Bible pages:\n\nNote: MLA no longer requires the URL as part of their citation standard. Individual instructors or editors may still require the use of URLs.\n\nError: Passwords should have at least 6 characters\n\nError: Usernames should only contain letters, numbers, dots, dashes, or underscores\n\nPasswords should have at least 6 characters.\n\t\t\t\t\t\t\tUsernames should only contain letters, numbers, dots, dashes, or underscores.\n\nThank you for registering. A verification email has been sent to the address you provided.\n\nYour partnership makes all we do possible. Would you prayerfully consider a gift of support today?",
-  "chapter_intro": "",
-  "passages": [],
-  "notes": [
+  "passages": [
     {
       "ref": "3:1–5:1",
-      "text": "Solomon’s Building of the Temple. The temple is to be a fit place for God to dwell among his people."
+      "title": "Solomon’s Building of the Temple.",
+      "text": "The temple is to be a fit place for God to dwell among his people."
     },
     {
       "ref": "2 Chron. 3:1–17",
-      "text": "The Chronicler’s actual account of the construction of the temple is much briefer than the account in 1 Kings 6. The temple did not function as a place of congregational worship. Only priests would have been admitted to the temple itself. Only on the Day of Atonement could the high priest enter the Most Holy Place."
-    },
-    {
-      "ref": "2 Chron. 3:1",
-      "text": "Mount Zion is identified here with Mount Moriah, where Abraham was commanded to offer Isaac (Gen. 22:2)."
-    },
-    {
-      "ref": "2 Chron. 3:2",
-      "text": "Compare 1 Kings 6:1. Depending on which chronology is followed, this may have been in either 966 or 959 b.c."
-    },
-    {
-      "ref": "2 Chron. 3:4",
-      "text": "120 cubits. The Septuagint and other ancient versions of the OT suggest that the vestibule was actually 20 cubits (30 feet/9.1 m) high. The Hebrew text lacks the word “cubits,” so the precise height is uncertain."
-    },
-    {
-      "ref": "2 Chron. 3:6",
-      "text": "Parvaim. Possibly a place in northeastern Arabia."
+      "title": "2 Chron. 3:1–17",
+      "text": "The Chronicler’s actual account of the construction of the temple is much briefer than the account in 1 Kings 6 . The temple did not function as a place of congregational worship. Only priests would have been admitted to the temple itself. Only on the Day of Atonement could the high priest enter the Most Holy Place."
     },
     {
       "ref": "2 Chron. 3:8–13",
-      "text": "The Most Holy Place was the secret, cube-shaped room in which the ark of the covenant would be finally deposited (5:7). The cherubim were angelic beings that combined human and animal features (see Ezek. 10:14; 41:18–19). On the temple construction, see note on 1 Kings 6:14–35."
-    },
-    {
-      "ref": "2 Chron. 3:14",
-      "text": "The inclusion of the veil connected the temple with the Mosaic tabernacle (Ex. 26:31–35)."
+      "title": "2 Chron. 3:8–13",
+      "text": "The **Most Holy Place** was the secret, cube-shaped room in which the ark of the covenant would be finally deposited ( 5:7 ). The **cherubim** were angelic beings that combined human and animal features (see Ezek. 10:14 ; 41:18–19 ). On the temple construction, see note on 1 Kings 6:14–35 ."
     },
     {
       "ref": "2 Chron. 3:15–17",
-      "text": "thirty-five cubits high. Probably the combined heights of the pillars (see note on 1 Kings 7:15–21; see 1 Kings 7:15; 2 Kings 25:17). Jachin (“he establishes”); Boaz (“in him is strength”)."
+      "title": "2 Chron. 3:15–17",
+      "text": "**thirty-five cubits high**. Probably the combined heights of the pillars (see note on 1 Kings 7:15–21 ; see 1 Kings 7:15 ; 2 Kings 25:17 ). **Jachin** (“he establishes”); **Boaz** (“in him is strength”)."
     }
-  ]
+  ],
+  "notes": [
+    {
+      "ref": "2 Chron. 3:1",
+      "text": "Mount Zion is identified here with **Mount Moriah**, where Abraham was commanded to offer Isaac ( Gen. 22:2 )."
+    },
+    {
+      "ref": "2 Chron. 3:2",
+      "text": "Compare 1 Kings 6:1 . Depending on which chronology is followed, this may have been in either 966 or 959 b.c."
+    },
+    {
+      "ref": "2 Chron. 3:4",
+      "text": "**120 cubits**. The Septuagint and other ancient versions of the OT suggest that the **vestibule** was actually 20 cubits (30 feet/9.1 m) high. The Hebrew text lacks the word “cubits,” so the precise height is uncertain."
+    },
+    {
+      "ref": "2 Chron. 3:6",
+      "text": "**Parvaim**. Possibly a place in northeastern Arabia."
+    },
+    {
+      "ref": "2 Chron. 3:14",
+      "text": "The inclusion of the **veil** connected the temple with the Mosaic tabernacle ( Ex. 26:31–35 )."
+    }
+  ],
+  "chapter_intro": "Solomon’s Building of the Temple."
 }

@@ -1,24 +1,28 @@
 {
   "source": "ESV Global Study Bible (Crossway) — Used under license",
   "book_intro": "The Blue Letter Bible ministry and the BLB Institute hold to the historical, conservative Christian faith, which includes a firm belief in the inerrancy of Scripture. Since the text and audio content provided by BLB represent a range of evangelical traditions, all of the ideas and principles conveyed in the resource materials are not necessarily affirmed, in total, by this ministry.\n\nBlue Letter Bible study tools make reading, searching and studying the Bible easy and rewarding.\n\nBlue Letter Bible is a 501(c)(3) nonprofit organization\n\nYou can copy the order of your preferred Bible translations from the Bibles Tab to the  Version Picker (this popup) or vice versa. The Bibles Tab is found in the Tools feature on Bible pages:\n\nNote: MLA no longer requires the URL as part of their citation standard. Individual instructors or editors may still require the use of URLs.\n\nError: Passwords should have at least 6 characters\n\nError: Usernames should only contain letters, numbers, dots, dashes, or underscores\n\nPasswords should have at least 6 characters.\n\t\t\t\t\t\t\tUsernames should only contain letters, numbers, dots, dashes, or underscores.\n\nThank you for registering. A verification email has been sent to the address you provided.\n\nYour partnership makes all we do possible. Would you prayerfully consider a gift of support today?",
-  "chapter_intro": "",
-  "passages": [],
-  "notes": [
-    {
-      "ref": "Ps. 137",
-      "text": "Psalm . This community lament remembers the Babylonian captivity. It provides words by which the returned exiles can express their loyalty to Jerusalem and pray that God would punish those who gloat over its destruction. This psalm is notable for the intensity of its final wish (v. 9). It is a prayer that the Babylonians, who had smashed Israelite infants, should be punished appropriately."
-    },
+  "passages": [
     {
       "ref": "Ps. 137:1–3",
-      "text": "The opening section recalls the captivity by the waters of Babylon (the Euphrates River), where the Babylonian captors had required of us songs. The songs of Zion would be sacred songs (such as the psalms). Apparently the captors wanted the Judeans to sing them for entertainment rather than for worship."
+      "title": "Ps. 137:1–3",
+      "text": "The opening section recalls the captivity **by the waters of Babylon** (the Euphrates River), where the Babylonian captors had **required of us songs**. The **songs of Zion** would be sacred songs (such as the psalms). Apparently the captors wanted the Judeans to sing them for entertainment rather than for worship."
     },
     {
       "ref": "Ps. 137:4–6",
-      "text": "To a faithful Judean, the request of v. 3 would be like asking him to forget . . . Jerusalem, which would be an act of treachery against God, his covenant, and his people. His prayer is that if he should consent to such disloyalty, the very right hand that would play the lyre would instead forget its skill, and the tongue that might sing would instead stick to the roof of my mouth."
+      "title": "Ps. 137:4–6",
+      "text": "To a faithful Judean, the request of v. 3 would be like asking him to **forget . . . Jerusalem**, which would be an act of treachery against God, his covenant, and his people. His prayer is that if he should consent to such disloyalty, the very **right hand** that would play the lyre would instead **forget its skill**, and the **tongue** that might sing would instead **stick to the roof of my mouth**."
     },
     {
       "ref": "Ps. 137:7–9",
-      "text": "The recollection of these hurtful taunts leads to a prayer that God will remember the deeds of his people’s enemies. These are represented here by the Edomites and the daughter of Babylon. The Edomites took great delight in destroying Jerusalem completely. The Babylonians had been excessively violent against the helpless in Jerusalem."
+      "title": "Ps. 137:7–9",
+      "text": "The recollection of these hurtful taunts leads to a prayer that God will **remember** the deeds of his people’s enemies. These are represented here by the **Edomites** and the **daughter of Babylon**. The Edomites took great delight in destroying Jerusalem completely. The Babylonians had been excessively violent against the helpless in Jerusalem."
     }
-  ]
+  ],
+  "notes": [
+    {
+      "ref": "Ps. 137",
+      "text": "**Psalm** . This community lament remembers the Babylonian captivity. It provides words by which the returned exiles can express their loyalty to Jerusalem and pray that God would punish those who gloat over its destruction. This psalm is notable for the intensity of its final wish (v. 9 ). It is a prayer that the Babylonians, who had smashed Israelite infants, should be punished appropriately."
+    }
+  ],
+  "chapter_intro": "Ps. 137:1–3"
 }

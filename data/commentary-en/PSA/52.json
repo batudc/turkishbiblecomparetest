@@ -1,24 +1,28 @@
 {
   "source": "ESV Global Study Bible (Crossway) — Used under license",
   "book_intro": "The Blue Letter Bible ministry and the BLB Institute hold to the historical, conservative Christian faith, which includes a firm belief in the inerrancy of Scripture. Since the text and audio content provided by BLB represent a range of evangelical traditions, all of the ideas and principles conveyed in the resource materials are not necessarily affirmed, in total, by this ministry.\n\nBlue Letter Bible study tools make reading, searching and studying the Bible easy and rewarding.\n\nBlue Letter Bible is a 501(c)(3) nonprofit organization\n\nYou can copy the order of your preferred Bible translations from the Bibles Tab to the  Version Picker (this popup) or vice versa. The Bibles Tab is found in the Tools feature on Bible pages:\n\nNote: MLA no longer requires the URL as part of their citation standard. Individual instructors or editors may still require the use of URLs.\n\nError: Passwords should have at least 6 characters\n\nError: Usernames should only contain letters, numbers, dots, dashes, or underscores\n\nPasswords should have at least 6 characters.\n\t\t\t\t\t\t\tUsernames should only contain letters, numbers, dots, dashes, or underscores.\n\nThank you for registering. A verification email has been sent to the address you provided.\n\nYour partnership makes all we do possible. Would you prayerfully consider a gift of support today?",
-  "chapter_intro": "",
-  "passages": [],
-  "notes": [
-    {
-      "ref": "Ps. 52",
-      "text": "Psalm . The faithful develop confidence in God’s care and protection, particularly when surrounded by ruthless enemies. The title sets the psalm during David’s flight from Saul (1 Sam. 21:1–7), which led to Doeg’s slaughtering the priests who had helped David (1 Sam. 22:9–19). Doeg is thus an example of the enemies the faithful might face."
-    },
+  "passages": [
     {
       "ref": "Ps. 52:1–4",
-      "text": "The enemy’s speech (boast, tongue, lying, words) is lies used to plot the destruction of the faithful. The enduring steadfast love of God is the answer to such evil (compare v. 8)."
+      "title": "Ps. 52:1–4",
+      "text": "The enemy’s speech (**boast**, **tongue**, **lying**, **words**) is lies used to plot the **destruction** of the faithful. The enduring **steadfast love of God** is the answer to such evil (compare v. 8 )."
     },
     {
       "ref": "Ps. 52:5–7",
-      "text": "The righteous person who will trust in God (unlike the enemy, v. 7) is confident that he is always safe."
+      "title": "Ps. 52:5–7",
+      "text": "The **righteous** person who will trust in God (unlike the enemy, v. 7 ) is confident that he is always safe."
     },
     {
       "ref": "Ps. 52:8–9",
-      "text": "In contrast to the wicked who are “uprooted” (v. 5), the godly will be a green olive tree (an image of vitality and fruitfulness, see Jer. 11:16). While the enemy trusts in the abundance of his riches (Ps. 52:7), the faithful trust in the steadfast love of God forever and ever. The faithful wait for God to vindicate his name by protecting those who trust in him."
+      "title": "Ps. 52:8–9",
+      "text": "In contrast to the wicked who are “uprooted” (v. 5 ), **the godly** will be **a green olive tree** (an image of vitality and fruitfulness, see Jer. 11:16 ). While the enemy trusts in the abundance of his riches ( Ps. 52:7 ), the faithful **trust in the steadfast love of God forever and ever**. The faithful **wait for** God to vindicate his **name** by protecting those who trust in him."
     }
-  ]
+  ],
+  "notes": [
+    {
+      "ref": "Ps. 52",
+      "text": "**Psalm** . The faithful develop confidence in God’s care and protection, particularly when surrounded by ruthless enemies. The title sets the psalm during David’s flight from Saul ( 1 Sam. 21:1–7 ), which led to Doeg’s slaughtering the priests who had helped David ( 1 Sam. 22:9–19 ). Doeg is thus an example of the enemies the faithful might face."
+    }
+  ],
+  "chapter_intro": "Ps. 52:1–4"
 }

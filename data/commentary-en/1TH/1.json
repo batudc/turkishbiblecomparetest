@@ -1,28 +1,41 @@
 {
   "source": "ESV Global Study Bible (Crossway) — Used under license",
   "book_intro": "The Blue Letter Bible ministry and the BLB Institute hold to the historical, conservative Christian faith, which includes a firm belief in the inerrancy of Scripture. Since the text and audio content provided by BLB represent a range of evangelical traditions, all of the ideas and principles conveyed in the resource materials are not necessarily affirmed, in total, by this ministry.\n\nBlue Letter Bible study tools make reading, searching and studying the Bible easy and rewarding.\n\nBlue Letter Bible is a 501(c)(3) nonprofit organization\n\nYou can copy the order of your preferred Bible translations from the Bibles Tab to the  Version Picker (this popup) or vice versa. The Bibles Tab is found in the Tools feature on Bible pages:\n\nNote: MLA no longer requires the URL as part of their citation standard. Individual instructors or editors may still require the use of URLs.\n\nError: Passwords should have at least 6 characters\n\nError: Usernames should only contain letters, numbers, dots, dashes, or underscores\n\nPasswords should have at least 6 characters.\n\t\t\t\t\t\t\tUsernames should only contain letters, numbers, dots, dashes, or underscores.\n\nThank you for registering. A verification email has been sent to the address you provided.\n\nYour partnership makes all we do possible. Would you prayerfully consider a gift of support today?",
-  "chapter_intro": "",
-  "passages": [],
-  "notes": [
+  "passages": [
     {
-      "ref": "1 Thess. 1:3",
-      "text": "faith . . . love . . . hope. A common Pauline pattern (see 5:8; Rom. 5:2–5; 1 Cor. 13:13; Gal. 5:5–6; Eph. 4:2–5). The prominent final position here belongs to hope. This seems fitting in a letter so concerned with the end times (1 Thess. 1:10; 2:12; 19–20; 3:13; 4:13–18; 5:1–11; 23–24)."
+      "ref": "1 Thess. 1:1",
+      "title": "Opening.",
+      "text": "**Silvanus** and **Timothy** worked with Paul during his second missionary journey. Silvanus, or Silas, was a Judean Christian ( Acts 15:22 ) who joined Paul after he separated from Barnabas ( Acts 15:39–40 ). Timothy, from Lystra in south Galatia, was a son of a Jewish mother and Greek father. He became partners with Paul when Paul passed through his hometown early on his second missionary journey (see Acts 16:1–4 ). Timothy has returned from a visit to the Thessalonian church ( 1 Thess. 3:6 ). His report is Paul’s major source of information as he writes. While Silas and Timothy are included as co-senders, Paul was clearly the main author (see 2:18 ; 3:5 ; 5:27 ). **Grace . . . and peace**. See note on Rom. 1:7 ."
     },
     {
-      "ref": "1 Thess. 1:4",
-      "text": "brothers loved by God. God’s love is the ultimate reason for their election (Eph. 1:4–5; compare Rom. 1:7). Chosen (literally, “elected”) refers to God’s sovereign act of appointing people for eternal life (see notes on Eph. 1:4; 1:5; 1:11). Because of his experience of fellowship with them, Paul is confident the Thessalonians are among the chosen (see 1 Thess. 1:5–10 and note). Therefore he can reassure them that they are forever secure."
+      "ref": "1 Thess. 1:2–3:13",
+      "title": "Thanksgiving and Encouragement.",
+      "text": "It is typical for Paul to include a word of thanksgiving near the beginning of his letters ( 1:2–3 ). He goes on to offer encouragement ( 1:4–2:16 ) and to seek to clear up any possible misunderstanding resulting from his non-arrival at Thessalonica ( 2:17–3:13 )."
     },
     {
       "ref": "1 Thess. 1:5–10",
-      "text": "because. Paul bases his confidence that the Thessalonians are elect on two things: the authenticity and authority of those preaching the gospel to them (v. 5) and the nature of their response to the gospel (vv. 6–10)."
-    },
-    {
-      "ref": "1 Thess. 1:6",
-      "text": "for you received the word in much affliction. See Acts 17:5–9; 1 Thess. 2:14. When people take a stand of faith in God, they should expect to encounter difficulties as a result (see Rom. 8:17–18; 1 Pet. 4:12–14)."
+      "title": "1 Thess. 1:5–10",
+      "text": "**because**. Paul bases his confidence that the Thessalonians are elect on two things: the authenticity and authority of those preaching the gospel to them (v. 5 ) and the nature of their response to the gospel (vv. 6–10 )."
     },
     {
       "ref": "1 Thess. 1:9–10",
-      "text": "wait for his Son. The first of many references to the second coming in this letter (see 2:12; 19–20; 3:13; 4:13–18; 5:1–11; 23–24). whom he raised from the dead. See 4:13–18. delivers us from the wrath to come. See 5:1–11."
+      "title": "1 Thess. 1:9–10",
+      "text": "**wait for his Son**. The first of many references to the second coming in this letter (see 2:12 ; 19–20 ; 3:13 ; 4:13–18 ; 5:1–11 ; 23–24 ). **whom he raised from the dead**. See 4:13–18 . **delivers us from the wrath to come**. See 5:1–11 ."
     }
-  ]
+  ],
+  "notes": [
+    {
+      "ref": "1 Thess. 1:3",
+      "text": "**faith . . . love . . . hope**. A common Pauline pattern (see 5:8 ; Rom. 5:2–5 ; 1 Cor. 13:13 ; Gal. 5:5–6 ; Eph. 4:2–5 ). The prominent final position here belongs to hope. This seems fitting in a letter so concerned with the end times ( 1 Thess. 1:10 ; 2:12 ; 19–20 ; 3:13 ; 4:13–18 ; 5:1–11 ; 23–24 )."
+    },
+    {
+      "ref": "1 Thess. 1:4",
+      "text": "**brothers loved by God**. God’s love is the ultimate reason for their election ( Eph. 1:4–5 ; compare Rom. 1:7 ). **Chosen** (literally, “elected”) refers to God’s sovereign act of appointing people for eternal life (see notes on Eph. 1:4 ; 1:5 ; 1:11 ). Because of his experience of fellowship with them, Paul is confident the Thessalonians are among the chosen (see 1 Thess. 1:5–10 and note ). Therefore he can reassure them that they are forever secure."
+    },
+    {
+      "ref": "1 Thess. 1:6",
+      "text": "**for you received the word in much affliction**. See Acts 17:5–9 ; 1 Thess. 2:14 . When people take a stand of faith in God, they should expect to encounter difficulties as a result (see Rom. 8:17–18 ; 1 Pet. 4:12–14 )."
+    }
+  ],
+  "chapter_intro": "Opening."
 }

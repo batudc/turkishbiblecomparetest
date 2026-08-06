@@ -1,48 +1,55 @@
 {
   "source": "ESV Global Study Bible (Crossway) — Used under license",
   "book_intro": "The Blue Letter Bible ministry and the BLB Institute hold to the historical, conservative Christian faith, which includes a firm belief in the inerrancy of Scripture. Since the text and audio content provided by BLB represent a range of evangelical traditions, all of the ideas and principles conveyed in the resource materials are not necessarily affirmed, in total, by this ministry.\n\nBlue Letter Bible study tools make reading, searching and studying the Bible easy and rewarding.\n\nBlue Letter Bible is a 501(c)(3) nonprofit organization\n\nYou can copy the order of your preferred Bible translations from the Bibles Tab to the  Version Picker (this popup) or vice versa. The Bibles Tab is found in the Tools feature on Bible pages:\n\nNote: MLA no longer requires the URL as part of their citation standard. Individual instructors or editors may still require the use of URLs.\n\nError: Passwords should have at least 6 characters\n\nError: Usernames should only contain letters, numbers, dots, dashes, or underscores\n\nPasswords should have at least 6 characters.\n\t\t\t\t\t\t\tUsernames should only contain letters, numbers, dots, dashes, or underscores.\n\nThank you for registering. A verification email has been sent to the address you provided.\n\nYour partnership makes all we do possible. Would you prayerfully consider a gift of support today?",
-  "chapter_intro": "",
-  "passages": [],
-  "notes": [
-    {
-      "ref": "Ps. 135",
-      "text": "Psalm . God’s people are called to praise him for his majestic power, displayed in his deeds on their behalf."
-    },
+  "passages": [
     {
       "ref": "Ps. 135:1–4",
-      "text": "The psalm begins by calling the worshiping community to praise the Lord. The term servants of the Lord could be the Levitical attendants. It is more likely the faithful gathered for worship in the house of the Lord (the temple). The reason for the praise: For the Lord has chosen Jacob for himself."
-    },
-    {
-      "ref": "Ps. 135:1",
-      "text": "In the Psalms, the name of the Lord, which refers to his character, inspires praise, love, trust, and hope."
+      "title": "Ps. 135:1–4",
+      "text": "The psalm begins by calling the worshiping community to **praise the Lord**. The term **servants of the Lord** could be the Levitical attendants. It is more likely the faithful gathered for worship in the **house of the Lord** (the temple). The reason for the praise: **For the Lord has chosen Jacob for himself**."
     },
     {
       "ref": "Ps. 135:5–7",
-      "text": "The psalm moves to another reason to praise the Lord: he is great and is above all gods. This means that whatever the Lord pleases, he does, and there is no power that can stop him. He it is, rather than the gods of other nations, who controls the weather (clouds, rain, wind)."
+      "title": "Ps. 135:5–7",
+      "text": "The psalm moves to another reason to praise the Lord: he **is great** and **is above all gods**. This means that **whatever the Lord pleases, he does**, and there is no power that can stop him. **He it is**, rather than the gods of other nations, who controls the weather (**clouds**, **rain**, **wind**)."
     },
     {
       "ref": "Ps. 135:8–12",
-      "text": "The Lord has displayed his great power and his enduring love in the history of Israel. These verses mention the exodus from Egypt and the conquest of the Promised Land. The defeat of Sihon and Og (Num. 21:21–35) was the first taste of victory for the post-exodus generation of Israel, and it strengthened their faith."
+      "title": "Ps. 135:8–12",
+      "text": "The Lord has displayed his great power and his enduring love in the history of Israel. These verses mention the exodus from Egypt and the conquest of the Promised Land. The defeat of **Sihon** and **Og** ( Num. 21:21–35 ) was the first taste of victory for the post-exodus generation of Israel, and it strengthened their faith."
     },
     {
       "ref": "Ps. 135:13–14",
-      "text": "Verse 13 recalls Ex. 3:15. God’s name signifies his continuing faithfulness to his people."
-    },
-    {
-      "ref": "Ps. 135:13",
-      "text": "Renown could also be translated “remembrance.”"
+      "title": "Ps. 135:13–14",
+      "text": "Verse 13 recalls Ex. 3:15 . God’s **name** signifies his continuing faithfulness to his people."
     },
     {
       "ref": "Ps. 135:15–18",
+      "title": "Ps. 135:15–18",
       "text": "This adapts the words of 115:4–8 to contrast the God who has chosen and cared for Israel with the useless gods of the Gentiles."
     },
     {
       "ref": "Ps. 135:19–21",
-      "text": "The only fitting response to such a great God is for the various members of the worshiping company (the house of Israel, the house of Aaron, the house of Levi, and those who fear the Lord) to bless the Lord."
+      "title": "Ps. 135:19–21",
+      "text": "The only fitting response to such a great God is for the various members of the worshiping company (the **house of Israel**, the **house of Aaron**, the **house of Levi**, and those **who fear the Lord**) to **bless the Lord**."
+    }
+  ],
+  "notes": [
+    {
+      "ref": "Ps. 135",
+      "text": "**Psalm** . God’s people are called to praise him for his majestic power, displayed in his deeds on their behalf."
+    },
+    {
+      "ref": "Ps. 135:1",
+      "text": "In the Psalms, **the name of the Lord**, which refers to his character, inspires praise, love, trust, and hope."
+    },
+    {
+      "ref": "Ps. 135:13",
+      "text": "**Renown** could also be translated “remembrance.”"
     },
     {
       "ref": "Ps. 135:21",
-      "text": "Blessed be. The passive form of “bless,” v. 19. The mention of Zion and Jerusalem is a reminder that this is where the whole people gathered to worship in the OT era. It is where God made his “name” dwell (Deut. 12:1–7)."
+      "text": "**Blessed be**. The passive form of “bless,” v. 19 . The mention of **Zion** and **Jerusalem** is a reminder that this is where the whole people gathered to worship in the OT era. It is where God made his “name” dwell ( Deut. 12:1–7 )."
     }
-  ]
+  ],
+  "chapter_intro": "Ps. 135:1–4"
 }

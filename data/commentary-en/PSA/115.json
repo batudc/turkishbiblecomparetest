@@ -1,36 +1,40 @@
 {
   "source": "ESV Global Study Bible (Crossway) — Used under license",
   "book_intro": "The Blue Letter Bible ministry and the BLB Institute hold to the historical, conservative Christian faith, which includes a firm belief in the inerrancy of Scripture. Since the text and audio content provided by BLB represent a range of evangelical traditions, all of the ideas and principles conveyed in the resource materials are not necessarily affirmed, in total, by this ministry.\n\nBlue Letter Bible study tools make reading, searching and studying the Bible easy and rewarding.\n\nBlue Letter Bible is a 501(c)(3) nonprofit organization\n\nYou can copy the order of your preferred Bible translations from the Bibles Tab to the  Version Picker (this popup) or vice versa. The Bibles Tab is found in the Tools feature on Bible pages:\n\nNote: MLA no longer requires the URL as part of their citation standard. Individual instructors or editors may still require the use of URLs.\n\nError: Passwords should have at least 6 characters\n\nError: Usernames should only contain letters, numbers, dots, dashes, or underscores\n\nPasswords should have at least 6 characters.\n\t\t\t\t\t\t\tUsernames should only contain letters, numbers, dots, dashes, or underscores.\n\nThank you for registering. A verification email has been sent to the address you provided.\n\nYour partnership makes all we do possible. Would you prayerfully consider a gift of support today?",
-  "chapter_intro": "",
-  "passages": [],
-  "notes": [
-    {
-      "ref": "Ps. 115",
-      "text": "Psalm . This is a hymn urging God’s people to trust and worship the Lord alone. He alone is worthy of their deepest loyalty. There is always the temptation to turn to the gods of other nations. The congregation must understand how hopeless it is to serve such false deities."
-    },
+  "passages": [
     {
       "ref": "Ps. 115:1–8",
-      "text": "Only the Lord deserves glory (that is, honor). This is true because of his steadfast love and faithfulness (see Ex. 34:6). It is also true because he is in the heavens (where he rules over all, see Ps. 113:4–5), and in his sovereign power he does all that he pleases (see 135:6; Isa. 46:10), unlike the impotent gods of the Gentiles (Ps. 115:4–8)."
-    },
-    {
-      "ref": "Ps. 115:2",
-      "text": "Why should the nations say? Israel’s calling includes making God’s name known among the Gentiles (see Josh. 4:24; 1 Kings 8:41–43). More than their own self-esteem is at stake here. If the Gentiles think that God is weak or absent, they will not receive God’s light."
-    },
-    {
-      "ref": "Ps. 115:3",
-      "text": "The confession that God does all that he pleases answers the Gentiles’ taunt (v. 2). In Dan. 4:35 and Jonah 1:14 Gentiles themselves confess this to be true."
+      "title": "Ps. 115:1–8",
+      "text": "Only the Lord deserves **glory** (that is, honor). This is true because of his **steadfast love** and **faithfulness** (see Ex. 34:6 ). It is also true because he **is in the heavens** (where he rules over all, see Ps. 113:4–5 ), and in his sovereign power **he does all that he pleases** (see 135:6 ; Isa. 46:10 ), unlike the impotent gods of the Gentiles ( Ps. 115:4–8 )."
     },
     {
       "ref": "Ps. 115:4–8",
-      "text": "This satirical passage exposes the folly of worshiping idols (compare 135:15–18; Isa. 44:9–20). Many Bible passages explain that idols are merely the work of human hands and therefore unworthy of human worship (e.g., Deut. 4:28; 27:15; 31:29; 2 Kings 19:18; Isa. 2:8). If these gods are unworthy of Israel’s worship, it is a tragedy that the Gentiles both make them and then become like them."
+      "title": "Ps. 115:4–8",
+      "text": "This satirical passage exposes the folly of worshiping **idols** (compare 135:15–18 ; Isa. 44:9–20 ). Many Bible passages explain that idols are merely **the work of human hands** and therefore unworthy of human worship (e.g., Deut. 4:28 ; 27:15 ; 31:29 ; 2 Kings 19:18 ; Isa. 2:8 ). If these gods are unworthy of Israel’s worship, it is a tragedy that the Gentiles both **make them** and then **become like them**."
     },
     {
       "ref": "Ps. 115:14–15",
-      "text": "Verse 14 echoes Deut. 1:11, which anticipated that God’s people would increase through their children. Psalm 115:15 echoes Gen. 1:28, 31; God called Israel in order to give them the privileges that Adam had forfeited."
+      "title": "Ps. 115:14–15",
+      "text": "Verse 14 echoes Deut. 1:11 , which anticipated that God’s people would **increase** through their **children**. Psalm 115:15 echoes Gen. 1:28 , 31 ; God called Israel in order to give them the privileges that Adam had forfeited."
+    }
+  ],
+  "notes": [
+    {
+      "ref": "Ps. 115",
+      "text": "**Psalm** . This is a hymn urging God’s people to trust and worship the Lord alone. He alone is worthy of their deepest loyalty. There is always the temptation to turn to the gods of other nations. The congregation must understand how hopeless it is to serve such false deities."
+    },
+    {
+      "ref": "Ps. 115:2",
+      "text": "**Why should the nations say**? Israel’s calling includes making God’s name known among the Gentiles (see Josh. 4:24 ; 1 Kings 8:41–43 ). More than their own self-esteem is at stake here. If the Gentiles think that God is weak or absent, they will not receive God’s light."
+    },
+    {
+      "ref": "Ps. 115:3",
+      "text": "The confession that God **does all that he pleases** answers the Gentiles’ taunt (v. 2 ). In Dan. 4:35 and Jonah 1:14 Gentiles themselves confess this to be true."
     },
     {
       "ref": "Ps. 115:17",
-      "text": "The dead do not praise the Lord. See notes on 6:5 and 88:10–12."
+      "text": "**The dead do not praise the Lord**. See notes on 6:5 and 88:10–12 ."
     }
-  ]
+  ],
+  "chapter_intro": "Ps. 115:1–8"
 }

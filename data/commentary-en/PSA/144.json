@@ -1,36 +1,42 @@
 {
   "source": "ESV Global Study Bible (Crossway) — Used under license",
   "book_intro": "The Blue Letter Bible ministry and the BLB Institute hold to the historical, conservative Christian faith, which includes a firm belief in the inerrancy of Scripture. Since the text and audio content provided by BLB represent a range of evangelical traditions, all of the ideas and principles conveyed in the resource materials are not necessarily affirmed, in total, by this ministry.\n\nBlue Letter Bible study tools make reading, searching and studying the Bible easy and rewarding.\n\nBlue Letter Bible is a 501(c)(3) nonprofit organization\n\nYou can copy the order of your preferred Bible translations from the Bibles Tab to the  Version Picker (this popup) or vice versa. The Bibles Tab is found in the Tools feature on Bible pages:\n\nNote: MLA no longer requires the URL as part of their citation standard. Individual instructors or editors may still require the use of URLs.\n\nError: Passwords should have at least 6 characters\n\nError: Usernames should only contain letters, numbers, dots, dashes, or underscores\n\nPasswords should have at least 6 characters.\n\t\t\t\t\t\t\tUsernames should only contain letters, numbers, dots, dashes, or underscores.\n\nThank you for registering. A verification email has been sent to the address you provided.\n\nYour partnership makes all we do possible. Would you prayerfully consider a gift of support today?",
-  "chapter_intro": "",
-  "passages": [],
-  "notes": [
-    {
-      "ref": "Ps. 144",
-      "text": "Psalm . This royal psalm asks God to give victory to the reigning heir of David. The “I” in vv. 1–11 is the Davidic king. God’s promise to David’s house has tied the well-being of the whole nation to the faithfulness of the king."
-    },
+  "passages": [
     {
       "ref": "Ps. 144:1–2",
-      "text": "This psalm begins by reviewing how God has equipped the king to fight for the sake of the people. As the leader of God’s people, the singer has found the Lord to be his stronghold and deliverer, who subdues peoples under me."
+      "title": "Ps. 144:1–2",
+      "text": "This psalm begins by reviewing how God has equipped the king to fight for the sake of the people. As the leader of God’s people, the singer has found the Lord to be his **stronghold** and **deliverer**, who **subdues peoples under me**."
     },
     {
       "ref": "Ps. 144:3–4",
-      "text": "The king does not take God’s help for granted. He knows that if God should regard him, it is a kindness on God’s part. The king and the people he serves are like a breath; their lives quickly pass by."
+      "title": "Ps. 144:3–4",
+      "text": "The king does not take God’s help for granted. He knows that if God should **regard him**, it is a kindness on God’s part. The king and the people he serves are **like a breath**; their lives quickly pass by."
     },
     {
       "ref": "Ps. 144:5–8",
-      "text": "The psalm moves on to request: rescue me and deliver me . . . from the hand of foreigners. This suggests that the psalm is especially suited to a time when the king must lead the people in war."
+      "title": "Ps. 144:5–8",
+      "text": "The psalm moves on to request: **rescue me and deliver me . . . from the hand of foreigners**. This suggests that the psalm is especially suited to a time when the king must lead the people in war."
     },
     {
       "ref": "Ps. 144:9–11",
-      "text": "Once God has given the deliverance of vv. 5–8, the king will lead the people in public thanks."
-    },
-    {
-      "ref": "Ps. 144:10",
-      "text": "Victory can also be translated “salvation.” The requested victory furthers God’s purpose for his people."
+      "title": "Ps. 144:9–11",
+      "text": "Once God has given the deliverance of vv. 5–8 , the king will lead the people in public thanks."
     },
     {
       "ref": "Ps. 144:12–15",
-      "text": "The closing section shows the purpose of the fight, namely, to protect God’s people so that they can flourish under God’s blessing. They recognize that such blessings are God’s generous gift."
+      "title": "Ps. 144:12–15",
+      "text": "The closing section shows the purpose of the fight, namely, to protect God’s people so that they can flourish under God’s blessing. They recognize that **such blessings** are God’s generous gift."
     }
-  ]
+  ],
+  "notes": [
+    {
+      "ref": "Ps. 144",
+      "text": "**Psalm** . This royal psalm asks God to give victory to the reigning heir of David. The “I” in vv. 1–11 is the Davidic king. God’s promise to David’s house has tied the well-being of the whole nation to the faithfulness of the king."
+    },
+    {
+      "ref": "Ps. 144:10",
+      "text": "**Victory** can also be translated “salvation.” The requested victory furthers God’s purpose for his people."
+    }
+  ],
+  "chapter_intro": "Ps. 144:1–2"
 }

@@ -1,32 +1,37 @@
 {
   "source": "ESV Global Study Bible (Crossway) — Used under license",
   "book_intro": "The Blue Letter Bible ministry and the BLB Institute hold to the historical, conservative Christian faith, which includes a firm belief in the inerrancy of Scripture. Since the text and audio content provided by BLB represent a range of evangelical traditions, all of the ideas and principles conveyed in the resource materials are not necessarily affirmed, in total, by this ministry.\n\nBlue Letter Bible study tools make reading, searching and studying the Bible easy and rewarding.\n\nBlue Letter Bible is a 501(c)(3) nonprofit organization\n\nYou can copy the order of your preferred Bible translations from the Bibles Tab to the  Version Picker (this popup) or vice versa. The Bibles Tab is found in the Tools feature on Bible pages:\n\nNote: MLA no longer requires the URL as part of their citation standard. Individual instructors or editors may still require the use of URLs.\n\nError: Passwords should have at least 6 characters\n\nError: Usernames should only contain letters, numbers, dots, dashes, or underscores\n\nPasswords should have at least 6 characters.\n\t\t\t\t\t\t\tUsernames should only contain letters, numbers, dots, dashes, or underscores.\n\nThank you for registering. A verification email has been sent to the address you provided.\n\nYour partnership makes all we do possible. Would you prayerfully consider a gift of support today?",
-  "chapter_intro": "",
-  "passages": [],
-  "notes": [
-    {
-      "ref": "Ps. 62",
-      "text": "Psalm . God’s people sing this psalm for encouragement as they are oppressed by powerful, wealthy people. In such a situation, it would be easy to despair, or else to seek security in power and wealth rather than in God."
-    },
+  "passages": [
     {
       "ref": "Ps. 62:1–2",
-      "text": "God alone. God is the only reliable hope. The psalm contrasts God’s salvation and the kind that comes through unjust means (see v. 10, “put no trust in extortion”)."
+      "title": "Ps. 62:1–2",
+      "text": "**God alone**. God is the only reliable hope. The psalm contrasts God’s **salvation** and the kind that comes through unjust means (see v. 10 , “put no trust in extortion”)."
     },
     {
       "ref": "Ps. 62:3–4",
-      "text": "The next section speaks to those who attack a man, particularly through lies and injustice. The question how long is not asking for information but is expressing despair (compare 13:1)."
+      "title": "Ps. 62:3–4",
+      "text": "The next section speaks to those who **attack a man**, particularly through lies and injustice. The question **how long** is not asking for information but is expressing despair (compare 13:1 )."
     },
     {
       "ref": "Ps. 62:8–10",
-      "text": "After speaking to his own soul (vv. 5–7), the singer now addresses the whole congregation (O people). He urges them to trust in God and to find in him a refuge. They should refuse to participate in the methods of the attackers (put no trust in extortion). Humans are together lighter than a breath, so any merely human effort will fail to achieve lasting good."
+      "title": "Ps. 62:8–10",
+      "text": "After speaking to his own soul (vv. 5–7 ), the singer now addresses the whole congregation (**O people**). He urges them to trust in God and to find in him a **refuge**. They should refuse to participate in the methods of the attackers (**put no trust in extortion**). Humans are **together lighter than a breath**, so any merely human effort will fail to achieve lasting good."
     },
     {
       "ref": "Ps. 62:11–12",
-      "text": "To say once . . . twice is to indicate that the idea is certain. God has the power to carry out his will, and because of his steadfast love, his people can trust him to do that."
+      "title": "Ps. 62:11–12",
+      "text": "To say **once . . . twice** is to indicate that the idea is certain. God has the **power** to carry out his will, and because of his **steadfast love**, his people can trust him to do that."
+    }
+  ],
+  "notes": [
+    {
+      "ref": "Ps. 62",
+      "text": "**Psalm** . God’s people sing this psalm for encouragement as they are oppressed by powerful, wealthy people. In such a situation, it would be easy to despair, or else to seek security in power and wealth rather than in God."
     },
     {
       "ref": "Ps. 62:12",
-      "text": "render to a man according to his work. In the final judgment, believers’ deeds will show the reality of their faith (see Matt. 12:33–37; 16:27; John 5:28–29; James 1:12; Rev. 20:13)."
+      "text": "**render to a man according to his work**. In the final judgment, believers’ deeds will show the reality of their faith (see Matt. 12:33–37 ; 16:27 ; John 5:28–29 ; James 1:12 ; Rev. 20:13 )."
     }
-  ]
+  ],
+  "chapter_intro": "Ps. 62:1–2"
 }

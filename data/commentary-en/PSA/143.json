@@ -1,32 +1,37 @@
 {
   "source": "ESV Global Study Bible (Crossway) — Used under license",
   "book_intro": "The Blue Letter Bible ministry and the BLB Institute hold to the historical, conservative Christian faith, which includes a firm belief in the inerrancy of Scripture. Since the text and audio content provided by BLB represent a range of evangelical traditions, all of the ideas and principles conveyed in the resource materials are not necessarily affirmed, in total, by this ministry.\n\nBlue Letter Bible study tools make reading, searching and studying the Bible easy and rewarding.\n\nBlue Letter Bible is a 501(c)(3) nonprofit organization\n\nYou can copy the order of your preferred Bible translations from the Bibles Tab to the  Version Picker (this popup) or vice versa. The Bibles Tab is found in the Tools feature on Bible pages:\n\nNote: MLA no longer requires the URL as part of their citation standard. Individual instructors or editors may still require the use of URLs.\n\nError: Passwords should have at least 6 characters\n\nError: Usernames should only contain letters, numbers, dots, dashes, or underscores\n\nPasswords should have at least 6 characters.\n\t\t\t\t\t\t\tUsernames should only contain letters, numbers, dots, dashes, or underscores.\n\nThank you for registering. A verification email has been sent to the address you provided.\n\nYour partnership makes all we do possible. Would you prayerfully consider a gift of support today?",
-  "chapter_intro": "",
-  "passages": [],
-  "notes": [
-    {
-      "ref": "Ps. 143",
-      "text": "Psalm . This individual lament is a penitential psalm. The person’s troubles make him aware of his own sins."
-    },
+  "passages": [
     {
       "ref": "Ps. 143:1–2",
-      "text": "The opening cry for help asks God to give ear to my pleas for mercy. Hence v. 2 prays, enter not into judgment with your servant, for no one living is righteous before you. The term “righteous” is commonly used to describe the people of God in general. Here, however, the idea seems to be “qualified to stand in God’s presence,” and not even the faithful are that in themselves."
-    },
-    {
-      "ref": "Ps. 143:4",
-      "text": "When the spirit or “soul” faints, the person is at the end of his strength."
+      "title": "Ps. 143:1–2",
+      "text": "The opening cry for help asks God to **give ear to my pleas for mercy**. Hence v. 2 prays, **enter not into judgment with your servant, for no one living** **is righteous before you**. The term “righteous” is commonly used to describe the people of God in general. Here, however, the idea seems to be “qualified to stand in God’s presence,” and not even the faithful are that in themselves."
     },
     {
       "ref": "Ps. 143:5–6",
-      "text": "Being at the end of his strength need not mean that he gives up. Instead, if he can remember the days of old, he will find in himself fresh courage to stretch out his hands to God. The weary soul thirsts for God as its source of energy."
+      "title": "Ps. 143:5–6",
+      "text": "Being at the end of his strength need not mean that he gives up. Instead, if he can **remember the days of old**, he will find in himself fresh courage to **stretch out** his **hands to** God. The weary **soul thirsts for** God as its source of energy."
     },
     {
       "ref": "Ps. 143:7–8",
-      "text": "The situation is still desperate. Therefore he asks, answer me quickly. He wants to hear in the morning of God’s steadfast love. He also prays for moral guidance: make me know the way I should go. Lift up my soul expresses deep dependence."
+      "title": "Ps. 143:7–8",
+      "text": "The situation is still desperate. Therefore he asks, **answer me quickly**. He wants to **hear in the morning of** God’s **steadfast love**. He also prays for moral guidance: **make me know the way I should go**. **Lift up my soul** expresses deep dependence."
     },
     {
       "ref": "Ps. 143:9–12",
-      "text": "The prayer closes by expressing trust in a number of ways: I have fled to you for refuge, you are my God, and the expectation based on God’s steadfast love. For your name’s sake means “for the sake of your good reputation,” particularly God’s reputation for faithfulness to his promises."
+      "title": "Ps. 143:9–12",
+      "text": "The prayer closes by expressing trust in a number of ways: **I have fled to you for refuge**, **you are my God**, and the expectation based on God’s **steadfast love**. **For your name’s sake** means “for the sake of your good reputation,” particularly God’s reputation for faithfulness to his promises."
     }
-  ]
+  ],
+  "notes": [
+    {
+      "ref": "Ps. 143",
+      "text": "**Psalm** . This individual lament is a penitential psalm. The person’s troubles make him aware of his own sins."
+    },
+    {
+      "ref": "Ps. 143:4",
+      "text": "When the **spirit** or “soul” **faints**, the person is at the end of his strength."
+    }
+  ],
+  "chapter_intro": "Ps. 143:1–2"
 }

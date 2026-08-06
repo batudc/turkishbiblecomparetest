@@ -1,28 +1,33 @@
 {
   "source": "ESV Global Study Bible (Crossway) — Used under license",
   "book_intro": "The Blue Letter Bible ministry and the BLB Institute hold to the historical, conservative Christian faith, which includes a firm belief in the inerrancy of Scripture. Since the text and audio content provided by BLB represent a range of evangelical traditions, all of the ideas and principles conveyed in the resource materials are not necessarily affirmed, in total, by this ministry.\n\nBlue Letter Bible study tools make reading, searching and studying the Bible easy and rewarding.\n\nBlue Letter Bible is a 501(c)(3) nonprofit organization\n\nYou can copy the order of your preferred Bible translations from the Bibles Tab to the  Version Picker (this popup) or vice versa. The Bibles Tab is found in the Tools feature on Bible pages:\n\nNote: MLA no longer requires the URL as part of their citation standard. Individual instructors or editors may still require the use of URLs.\n\nError: Passwords should have at least 6 characters\n\nError: Usernames should only contain letters, numbers, dots, dashes, or underscores\n\nPasswords should have at least 6 characters.\n\t\t\t\t\t\t\tUsernames should only contain letters, numbers, dots, dashes, or underscores.\n\nThank you for registering. A verification email has been sent to the address you provided.\n\nYour partnership makes all we do possible. Would you prayerfully consider a gift of support today?",
-  "chapter_intro": "",
-  "passages": [],
-  "notes": [
+  "passages": [
     {
       "ref": "2 Kings 25:8–12",
-      "text": "A few weeks after the fall of Jerusalem, the full vengeance of the Babylonian king came upon the city."
+      "title": "2 Kings 25:8–12",
+      "text": "A few weeks after the fall of **Jerusalem**, the full vengeance of the Babylonian king came upon the city."
     },
     {
       "ref": "2 Kings 25:13–14",
-      "text": "Pillars of bronze that were in the house of the Lord begins a detailed list of temple furnishings (vv. 13–17) carried off by the Babylonians for the value of their metal."
-    },
-    {
-      "ref": "2 Kings 25:21",
-      "text": "Almost all hope is gone in the summary statement, So Judah was taken into exile out of its land. But the land is still “its land,” holding out the promise of a future return."
+      "title": "2 Kings 25:13–14",
+      "text": "**Pillars of bronze that were in the house of the Lord** begins a detailed list of temple furnishings (vv. 13–17 ) carried off by the Babylonians for the value of their metal."
     },
     {
       "ref": "2 Kings 25:22–26",
-      "text": "Gedaliah, the new governor of the territory that once was Judah, was the grandson of King Josiah’s secretary Shaphan. His assassination caused a general flight to Egypt."
+      "title": "2 Kings 25:22–26",
+      "text": "**Gedaliah**, the new **governor** of the territory that once was Judah, was the grandson of King Josiah’s secretary **Shaphan**. His assassination caused a general flight to **Egypt**."
     },
     {
       "ref": "2 Kings 25:27–30",
-      "text": "Evil-merodach was Nebuchadnezzar’s son and successor. His release of the Judean king from prison in 561 b.c. gives the reader some hope that there is still a future for the Davidic line."
+      "title": "2 Kings 25:27–30",
+      "text": "**Evil-merodach** was Nebuchadnezzar’s son and successor. His release of the Judean king **from prison** in 561 b.c. gives the reader some hope that there is still a future for the Davidic line."
     }
-  ]
+  ],
+  "notes": [
+    {
+      "ref": "2 Kings 25:21",
+      "text": "Almost all hope is gone in the summary statement, **So Judah was taken into exile out of its land**. But the land is still “its land,” holding out the promise of a future return."
+    }
+  ],
+  "chapter_intro": "2 Kings 25:8–12"
 }

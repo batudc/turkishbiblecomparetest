@@ -1,28 +1,31 @@
 {
   "source": "ESV Global Study Bible (Crossway) — Used under license",
   "book_intro": "The Blue Letter Bible ministry and the BLB Institute hold to the historical, conservative Christian faith, which includes a firm belief in the inerrancy of Scripture. Since the text and audio content provided by BLB represent a range of evangelical traditions, all of the ideas and principles conveyed in the resource materials are not necessarily affirmed, in total, by this ministry.\n\nBlue Letter Bible study tools make reading, searching and studying the Bible easy and rewarding.\n\nBlue Letter Bible is a 501(c)(3) nonprofit organization\n\nYou can copy the order of your preferred Bible translations from the Bibles Tab to the  Version Picker (this popup) or vice versa. The Bibles Tab is found in the Tools feature on Bible pages:\n\nNote: MLA no longer requires the URL as part of their citation standard. Individual instructors or editors may still require the use of URLs.\n\nError: Passwords should have at least 6 characters\n\nError: Usernames should only contain letters, numbers, dots, dashes, or underscores\n\nPasswords should have at least 6 characters.\n\t\t\t\t\t\t\tUsernames should only contain letters, numbers, dots, dashes, or underscores.\n\nThank you for registering. A verification email has been sent to the address you provided.\n\nYour partnership makes all we do possible. Would you prayerfully consider a gift of support today?",
-  "chapter_intro": "",
-  "passages": [],
-  "notes": [
+  "passages": [
     {
       "ref": "1 Chron 20:1–3",
-      "text": "The Chronicler omits 2 Sam. 12:27–29, Joab’s summons to David to come to Rabbah."
-    },
-    {
-      "ref": "1 Chron 20:1",
-      "text": "the time when kings go out to battle. . . . But David remained at Jerusalem. See note on 2 Sam. 11:1; the Chronicler omits any mention of David’s sin with Bathsheba (see note on 1 Chron. 19:1–20:3). Joab struck down Rabbah and overthrew it. See note on 2 Sam. 12:26–31."
+      "title": "1 Chron 20:1–3",
+      "text": "The Chronicler omits 2 Sam. 12:27–29 , Joab’s summons to David to come to Rabbah."
     },
     {
       "ref": "1 Chron 20:4–8",
-      "text": "From 2 Sam. 21:18–22. Three incidents from David’s war against the Philistines in Gezer and Gath bring this unit back to where it began (1 Chron. 18:1). The giants were the Rephaim (see Gen. 14:5). the Philistines were subdued. Compare 1 Chron. 17:10."
+      "title": "1 Chron 20:4–8",
+      "text": "From 2 Sam. 21:18–22 . Three incidents from David’s war against the Philistines in Gezer and Gath bring this unit back to where it began ( 1 Chron. 18:1 ). **The giants** were the Rephaim (see Gen. 14:5 ). **the Philistines were subdued**. Compare 1 Chron. 17:10 ."
+    }
+  ],
+  "notes": [
+    {
+      "ref": "1 Chron 20:1",
+      "text": "**the time when kings go out to battle. . . . But David remained at Jerusalem**. See note on 2 Sam. 11:1 ; the Chronicler omits any mention of David’s sin with Bathsheba (see note on 1 Chron. 19:1–20:3 ). **Joab struck down Rabbah and overthrew it**. See note on 2 Sam. 12:26–31 ."
     },
     {
       "ref": "1 Chron 20:5",
-      "text": "Lahmi the brother of Goliath. See note on 2 Sam. 21:19."
+      "text": "**Lahmi the brother of Goliath**. See note on 2 Sam. 21:19 ."
     },
     {
       "ref": "1 Chron 20:7",
-      "text": "On Jonathan and Shimea, see note on 2 Sam. 21:21."
+      "text": "On **Jonathan** and **Shimea**, see note on 2 Sam. 21:21 ."
     }
-  ]
+  ],
+  "chapter_intro": "1 Chron 20:1–3"
 }

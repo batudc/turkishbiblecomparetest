@@ -1,92 +1,96 @@
 {
   "source": "ESV Global Study Bible (Crossway) — Used under license",
   "book_intro": "The Blue Letter Bible ministry and the BLB Institute hold to the historical, conservative Christian faith, which includes a firm belief in the inerrancy of Scripture. Since the text and audio content provided by BLB represent a range of evangelical traditions, all of the ideas and principles conveyed in the resource materials are not necessarily affirmed, in total, by this ministry.\n\nBlue Letter Bible study tools make reading, searching and studying the Bible easy and rewarding.\n\nBlue Letter Bible is a 501(c)(3) nonprofit organization\n\nYou can copy the order of your preferred Bible translations from the Bibles Tab to the  Version Picker (this popup) or vice versa. The Bibles Tab is found in the Tools feature on Bible pages:\n\nNote: MLA no longer requires the URL as part of their citation standard. Individual instructors or editors may still require the use of URLs.\n\nError: Passwords should have at least 6 characters\n\nError: Usernames should only contain letters, numbers, dots, dashes, or underscores\n\nPasswords should have at least 6 characters.\n\t\t\t\t\t\t\tUsernames should only contain letters, numbers, dots, dashes, or underscores.\n\nThank you for registering. A verification email has been sent to the address you provided.\n\nYour partnership makes all we do possible. Would you prayerfully consider a gift of support today?",
-  "chapter_intro": "",
-  "passages": [],
-  "notes": [
-    {
-      "ref": "1 Cor. 10:1",
-      "text": "our fathers. Most of the Corinthians were Gentiles, but Paul connects them with OT Israel. The cloud . . . the sea refers to the Israelites God delivered from slavery in Egypt and led through the wilderness (Ex. 13:17–14:31)."
-    },
-    {
-      "ref": "1 Cor. 10:2",
-      "text": "baptized into Moses. Paul interprets the events surrounding the exodus as similar to being “baptized into Christ” (Rom. 6:3; Gal. 3:27)."
-    },
+  "passages": [
     {
       "ref": "1 Cor. 10:3–4",
-      "text": "spiritual food . . . drink. Paul refers to God providing Israel with bread from heaven (“manna,” Exodus 16) and water from a rock. This rock appears at the beginning of their desert wanderings (Ex. 17:1–7) and near the end (Num. 20:2–13). “Rock” is a common OT name for God (e.g., Deut. 32:4), perhaps leading Paul to identify the rock with Christ."
-    },
-    {
-      "ref": "1 Cor. 10:5",
-      "text": "overthrown. They did not see the Promised Land. (See Num. 14:22–23.)"
-    },
-    {
-      "ref": "1 Cor. 10:6",
-      "text": "as examples for us. See v. 11; 9:10; Rom. 15:4."
-    },
-    {
-      "ref": "1 Cor. 10:7",
-      "text": "idolaters. Paul begins to make the case that eating in the temple of a pagan god is not actually the “right” that the Corinthians imagined (8:9–10). It is participation in “the table of demons” (10:21) and idolatry. For a Christian to eat meals in these temples is to follow the poor example of the Israelites who worshiped other gods (Ex. 32:1–6)."
-    },
-    {
-      "ref": "1 Cor. 10:8",
-      "text": "sexual immorality. See Num. 25:1–9. twenty-three thousand. Numbers 25:9 says “twenty-four thousand.” Both are approximations, which probably was all that either writer intended."
-    },
-    {
-      "ref": "1 Cor. 10:9",
-      "text": "Christ. Paul sees Christ as having been spiritually present with God’s people in OT times (see note on vv. 3–4; compare Num. 21:5; Jude 5)."
-    },
-    {
-      "ref": "1 Cor. 10:10",
-      "text": "grumble. See the grumbling and divine judgment in Num. 11:1; 14:1–38; 16:11–35. the Destroyer. Paul apparently views this angel who executed God’s judgment during the exodus as the destroying agent in these instances also (Ex. 12:23; Heb. 11:28)."
-    },
-    {
-      "ref": "1 Cor. 10:11",
-      "text": "See v. 6; 9:10; Rom. 15:4. The OT Scriptures point toward the end of the ages, the time in which the Corinthian Christians are living. Compare 1 Pet. 1:10–12. example. On the examples (“types”) in the OT, see Overview of the Bible.."
-    },
-    {
-      "ref": "1 Cor. 10:12",
-      "text": "thinks that he stands. Perhaps a reference to the Corinthians’ mistaken belief that they have the right to eat in an idol’s temple (8:9–10)."
-    },
-    {
-      "ref": "1 Cor. 10:13",
-      "text": "will not let you be tempted beyond your ability . . . will also provide the way of escape. In every situation, God empowers Christians to make choices that honor him."
-    },
-    {
-      "ref": "1 Cor. 10:16",
-      "text": "cup of blessing . . . we bless. See 11:23–26 and notes on 1 Corinthians 11:23–26. Paul refers to the cup in the Lord’s Supper. Jesus gave thanks for the cup (Matt. 26:27; Mark 14:23; Luke 22:17). The earliest Christian observances of the Lord’s Supper imitated this custom. Participation sometimes refers to fellowship with Jesus Christ (1 Cor. 1:9) or the Holy Spirit (2 Cor. 13:14; Phil. 2:1). Other times it means sharing someone else’s difficulty or cause (Rom. 15:26; 2 Cor. 8:4; Phil. 1:5; 3:10). A true believer cannot participate both in meals in pagan temples and in the Lord’s Supper (1 Cor. 10:21). Those who eat the Lord’s Supper identify themselves with Jesus, share his sufferings (see Phil. 3:10), and benefit from his death."
-    },
-    {
-      "ref": "1 Cor. 10:17",
-      "text": "one bread . . . one body. After Jesus gave thanks for and broke the bread, he said, “This is my body, which is for you” (11:24). The church is also Christ’s body (see also 12:12, 27; Eph. 1:22–23; 5:23; 29–30). The Lord’s Supper, therefore, is an occasion when Christians declare unity with each other because of their common unity with Christ."
-    },
-    {
-      "ref": "1 Cor. 10:18",
-      "text": "participants. See note on v. 16. The altar in the OT was a table on which food was sacrificed to God. Priests ate from the offerings (see Lev. 6:17–18; 7:32–35). The altar is like “the table of the Lord” (1 Cor. 10:21). In both instances the benefits of the table belonged to the priests, for believers in Christ are priests (1 Pet. 2:9; Rev. 1:6)."
+      "title": "1 Cor. 10:3–4",
+      "text": "**spiritual food . . . drink**. Paul refers to God providing Israel with bread from heaven (“manna,” Exodus 16 ) and water from a rock. This rock appears at the beginning of their desert wanderings ( Ex. 17:1–7 ) and near the end ( Num. 20:2–13 ). “Rock” is a common OT name for God (e.g., Deut. 32:4 ), perhaps leading Paul to identify the rock with Christ."
     },
     {
       "ref": "1 Cor. 10:19–20",
-      "text": "False religions are not just created by humans. They generally have demonic power behind them (see Deut. 32:17)."
-    },
-    {
-      "ref": "1 Cor. 10:22",
-      "text": "See note on Ex. 20:5–6 for God’s jealousy."
+      "title": "1 Cor. 10:19–20",
+      "text": "False religions are not just created by humans. They generally have demonic power behind them (see Deut. 32:17 )."
     },
     {
       "ref": "1 Cor. 10:23–11:1",
+      "title": "1 Cor. 10:23–11:1",
       "text": "Paul now addresses the issue of meat previously sacrificed to idols being eaten in private homes."
+    }
+  ],
+  "notes": [
+    {
+      "ref": "1 Cor. 10:1",
+      "text": "**our fathers**. Most of the Corinthians were Gentiles, but Paul connects them with OT Israel. **The cloud . . . the sea** refers to the Israelites God delivered from slavery in Egypt and led through the wilderness ( Ex. 13:17–14:31 )."
+    },
+    {
+      "ref": "1 Cor. 10:2",
+      "text": "**baptized into Moses**. Paul interprets the events surrounding the exodus as similar to being “baptized into Christ” ( Rom. 6:3 ; Gal. 3:27 )."
+    },
+    {
+      "ref": "1 Cor. 10:5",
+      "text": "**overthrown**. They did not see the Promised Land. (See Num. 14:22–23 .)"
+    },
+    {
+      "ref": "1 Cor. 10:6",
+      "text": "**as examples for us**. See v. 11 ; 9:10 ; Rom. 15:4 ."
+    },
+    {
+      "ref": "1 Cor. 10:7",
+      "text": "**idolaters**. Paul begins to make the case that eating in the temple of a pagan god is not actually the “right” that the Corinthians imagined ( 8:9–10 ). It is participation in “the table of demons” ( 10:21 ) and idolatry. For a Christian to eat meals in these temples is to follow the poor example of the Israelites who worshiped other gods ( Ex. 32:1–6 )."
+    },
+    {
+      "ref": "1 Cor. 10:8",
+      "text": "**sexual immorality**. See Num. 25:1–9 . **twenty-three thousand**. Numbers 25:9 says “twenty-four thousand.” Both are approximations, which probably was all that either writer intended."
+    },
+    {
+      "ref": "1 Cor. 10:9",
+      "text": "**Christ**. Paul sees Christ as having been spiritually present with God’s people in OT times (see note on vv. 3–4 ; compare Num. 21:5 ; Jude 5 )."
+    },
+    {
+      "ref": "1 Cor. 10:10",
+      "text": "**grumble**. See the grumbling and divine judgment in Num. 11:1 ; 14:1–38 ; 16:11–35 . **the Destroyer**. Paul apparently views this angel who executed God’s judgment during the exodus as the destroying agent in these instances also ( Ex. 12:23 ; Heb. 11:28 )."
+    },
+    {
+      "ref": "1 Cor. 10:11",
+      "text": "See v. 6 ; 9:10 ; Rom. 15:4 . The OT Scriptures point toward **the end of the ages**, the time in which the Corinthian Christians are living. Compare 1 Pet. 1:10–12 . **example**. On the examples (“types”) in the OT, see Overview of the Bible. ."
+    },
+    {
+      "ref": "1 Cor. 10:12",
+      "text": "**thinks that he stands**. Perhaps a reference to the Corinthians’ mistaken belief that they have the right to eat in an idol’s temple ( 8:9–10 )."
+    },
+    {
+      "ref": "1 Cor. 10:13",
+      "text": "**will not let you be tempted beyond your ability . . .** **will also provide the way of escape**. In every situation, God empowers Christians to make choices that honor him."
+    },
+    {
+      "ref": "1 Cor. 10:16",
+      "text": "**cup of blessing . . . we bless**. See 11:23–26 and notes on 1 Corinthians 11:23–26 . Paul refers to the cup in the Lord’s Supper. Jesus gave thanks for the cup ( Matt. 26:27 ; Mark 14:23 ; Luke 22:17 ). The earliest Christian observances of the Lord’s Supper imitated this custom. **Participation** sometimes refers to fellowship with Jesus Christ ( 1 Cor. 1:9 ) or the Holy Spirit ( 2 Cor. 13:14 ; Phil. 2:1 ). Other times it means sharing someone else’s difficulty or cause ( Rom. 15:26 ; 2 Cor. 8:4 ; Phil. 1:5 ; 3:10 ). A true believer cannot participate both in meals in pagan temples and in the Lord’s Supper ( 1 Cor. 10:21 ). Those who eat the Lord’s Supper identify themselves with Jesus, share his sufferings (see Phil. 3:10 ), and benefit from his death."
+    },
+    {
+      "ref": "1 Cor. 10:17",
+      "text": "**one bread . . . one body**. After Jesus gave thanks for and broke the bread, he said, “This is my body, which is for you” ( 11:24 ). The church is also Christ’s body (see also 12:12 , 27 ; Eph. 1:22–23 ; 5:23 ; 29–30 ). The Lord’s Supper, therefore, is an occasion when Christians declare unity with each other because of their common unity with Christ."
+    },
+    {
+      "ref": "1 Cor. 10:18",
+      "text": "**participants**. See note on v. 16 . The altar in the OT was a table on which food was sacrificed to God. Priests ate from the offerings (see Lev. 6:17–18 ; 7:32–35 ). The altar is like “the table of the Lord” ( 1 Cor. 10:21 ). In both instances the benefits of the table belonged to the priests, for believers in Christ are priests ( 1 Pet. 2:9 ; Rev. 1:6 )."
+    },
+    {
+      "ref": "1 Cor. 10:22",
+      "text": "See note on Ex. 20:5–6 for God’s **jealousy**."
     },
     {
       "ref": "1 Cor. 10:23",
-      "text": "“All things are lawful.” See note on 6:12–13. build up. See 3:9–10; 14:12; 1 Thess. 5:11."
+      "text": "**“All things are lawful**.**”** See note on 6:12–13 . **build** **up**. See 3:9–10 ; 14:12 ; 1 Thess. 5:11 ."
     },
     {
       "ref": "1 Cor. 10:27",
-      "text": "without raising any question. The Christian is not to ask if the food being served had ever been involved in pagan rituals. Such questions are theologically unnecessary (vv. 25–26). Also, they could be seen as rude, which ignores the principle of vv. 23–24 and 9:19–23."
+      "text": "**without raising any question**. The Christian is not to ask if the food being served had ever been involved in pagan rituals. Such questions are theologically unnecessary (vv. 25–26 ). Also, they could be seen as rude, which ignores the principle of vv. 23–24 and 9:19–23 ."
     },
     {
       "ref": "1 Cor. 10:28",
-      "text": "someone says. This person may be: (1) an unbeliever who thinks that Christians must not eat such food and is informing the Christian where it came from; or (2) a “weak” believer whose conscience wrongly demands that Christians should avoid such food (8:10; see also Rom. 14:14, 20–21). Since the person’s conscience motivated the comment, and the weak believer’s conscience was an important concern in 1 Cor. 8:7–13, this second option is most likely."
+      "text": "**someone says**. This person may be: (1) an unbeliever who thinks that Christians must not eat such food and is informing the Christian where it came from; or (2) a “weak” believer whose conscience wrongly demands that Christians should avoid such food ( 8:10 ; see also Rom. 14:14 , 20–21 ). Since the person’s **conscience** motivated the comment, and the weak believer’s conscience was an important concern in 1 Cor. 8:7–13 , this second option is most likely."
     }
-  ]
+  ],
+  "chapter_intro": "1 Cor. 10:3–4"
 }

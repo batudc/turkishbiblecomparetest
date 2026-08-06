@@ -1,28 +1,31 @@
 {
   "source": "ESV Global Study Bible (Crossway) — Used under license",
   "book_intro": "The Blue Letter Bible ministry and the BLB Institute hold to the historical, conservative Christian faith, which includes a firm belief in the inerrancy of Scripture. Since the text and audio content provided by BLB represent a range of evangelical traditions, all of the ideas and principles conveyed in the resource materials are not necessarily affirmed, in total, by this ministry.\n\nBlue Letter Bible study tools make reading, searching and studying the Bible easy and rewarding.\n\nBlue Letter Bible is a 501(c)(3) nonprofit organization\n\nYou can copy the order of your preferred Bible translations from the Bibles Tab to the  Version Picker (this popup) or vice versa. The Bibles Tab is found in the Tools feature on Bible pages:\n\nNote: MLA no longer requires the URL as part of their citation standard. Individual instructors or editors may still require the use of URLs.\n\nError: Passwords should have at least 6 characters\n\nError: Usernames should only contain letters, numbers, dots, dashes, or underscores\n\nPasswords should have at least 6 characters.\n\t\t\t\t\t\t\tUsernames should only contain letters, numbers, dots, dashes, or underscores.\n\nThank you for registering. A verification email has been sent to the address you provided.\n\nYour partnership makes all we do possible. Would you prayerfully consider a gift of support today?",
-  "chapter_intro": "",
-  "passages": [],
-  "notes": [
+  "passages": [
     {
       "ref": "Ps. 20–21",
-      "text": "Psalms . These two psalms form a pair of royal psalms. Psalm 20 is a prayer that God will give success to the Davidic king, particularly in battle. Psalm 21 gives thanks to God for answering the request of Psalm 20."
-    },
-    {
-      "ref": "Ps. 20:2",
-      "text": "The sanctuary in Zion is the place where God especially makes himself present among his people."
-    },
-    {
-      "ref": "Ps. 20:3",
-      "text": "The offerings and burnt sacrifices were the means by which the worshiper gave himself to God and received assurance of God’s love."
+      "title": "Ps. 20–21",
+      "text": "**Psalms** . These two psalms form a pair of royal psalms. Psalm 20 is a prayer that God will give success to the Davidic king, particularly in battle. Psalm 21 gives thanks to God for answering the request of Psalm 20 ."
     },
     {
       "ref": "Ps. 20:6–8",
-      "text": "The worshipers now shift from speaking to the king to speaking about the king. They trust in God as the one who saves his anointed."
+      "title": "Ps. 20:6–8",
+      "text": "The worshipers now shift from speaking to the king to speaking about the king. They trust in God as the one who **saves his anointed**."
+    }
+  ],
+  "notes": [
+    {
+      "ref": "Ps. 20:2",
+      "text": "**The sanctuary** in **Zion** is the place where God especially makes himself present among his people."
+    },
+    {
+      "ref": "Ps. 20:3",
+      "text": "The **offerings** and **burnt sacrifices** were the means by which the worshiper gave himself to God and received assurance of God’s love."
     },
     {
       "ref": "Ps. 20:9",
-      "text": "The terms save and “salvation” are repeated in this psalm (vv. 5, 6, 9)."
+      "text": "The terms **save** and “salvation” are repeated in this psalm (vv. 5 , 6 , 9 )."
     }
-  ]
+  ],
+  "chapter_intro": "Ps. 20–21"
 }

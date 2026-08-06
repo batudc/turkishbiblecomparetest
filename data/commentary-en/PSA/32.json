@@ -1,24 +1,28 @@
 {
   "source": "ESV Global Study Bible (Crossway) — Used under license",
   "book_intro": "The Blue Letter Bible ministry and the BLB Institute hold to the historical, conservative Christian faith, which includes a firm belief in the inerrancy of Scripture. Since the text and audio content provided by BLB represent a range of evangelical traditions, all of the ideas and principles conveyed in the resource materials are not necessarily affirmed, in total, by this ministry.\n\nBlue Letter Bible study tools make reading, searching and studying the Bible easy and rewarding.\n\nBlue Letter Bible is a 501(c)(3) nonprofit organization\n\nYou can copy the order of your preferred Bible translations from the Bibles Tab to the  Version Picker (this popup) or vice versa. The Bibles Tab is found in the Tools feature on Bible pages:\n\nNote: MLA no longer requires the URL as part of their citation standard. Individual instructors or editors may still require the use of URLs.\n\nError: Passwords should have at least 6 characters\n\nError: Usernames should only contain letters, numbers, dots, dashes, or underscores\n\nPasswords should have at least 6 characters.\n\t\t\t\t\t\t\tUsernames should only contain letters, numbers, dots, dashes, or underscores.\n\nThank you for registering. A verification email has been sent to the address you provided.\n\nYour partnership makes all we do possible. Would you prayerfully consider a gift of support today?",
-  "chapter_intro": "",
-  "passages": [],
-  "notes": [
-    {
-      "ref": "Ps. 32",
-      "text": "Psalm . This is usually classified as a thanksgiving hymn. Worshipers thank God for the joy of having their sins forgiven. Since the psalm is about confession and forgiveness it can also be classified as a penitential psalm (see Psalms 6; 38 and note; 51; 130; 143)."
-    },
+  "passages": [
     {
       "ref": "Ps. 32:1–2",
-      "text": "On blessed, see note on 1:1. The terms transgression, forgiven, sin, and iniquity all echo Ex.34:6–7, which is a key passage about God’s kindness and mercy toward those who receive his covenant. No one needs to force God to show mercy. Rather, the faithful confess their sins because they believe God is merciful."
+      "title": "Ps. 32:1–2",
+      "text": "On **blessed**, see note on 1:1 . The terms **transgression**, **forgiven**, **sin**, and **iniquity** all echo Ex. 34:6–7 , which is a key passage about God’s kindness and mercy toward those who receive his covenant. No one needs to force God to show mercy. Rather, the faithful confess their sins because they believe God is merciful."
     },
     {
       "ref": "Ps. 32:3–5",
-      "text": "Only those who are forgiven are truly happy. When the psalmist kept silent, refusing to confess his sins, God’s hand was heavy upon him. But this was merciful because it led him to confess his sin (vv. 3–4)."
+      "title": "Ps. 32:3–5",
+      "text": "Only those who are forgiven are truly happy. When the psalmist **kept silent**, refusing to confess his sins, God’s** hand** was** heavy upon** him. But this was merciful because it led him to confess his sin (vv. 3–4 )."
     },
     {
       "ref": "Ps. 32:6–11",
-      "text": "Therefore. The conclusion for everyone who is godly is to offer prayer (of confession) at a time when God may be found. The psalmist is warning against being foolish and waiting indefinitely (see v. 9) before seeking the Lord."
+      "title": "Ps. 32:6–11",
+      "text": "**Therefore**. The conclusion for **everyone who is godly** is to** offer prayer** (of confession) **at a time when** God **may be found**. The psalmist is warning against being foolish and waiting indefinitely (see v. 9 ) before seeking the Lord."
     }
-  ]
+  ],
+  "notes": [
+    {
+      "ref": "Ps. 32",
+      "text": "**Psalm** . This is usually classified as a thanksgiving hymn. Worshipers thank God for the joy of having their sins forgiven. Since the psalm is about confession and forgiveness it can also be classified as a penitential psalm (see Psalms 6 ; 38 and note ; 51 ; 130 ; 143 )."
+    }
+  ],
+  "chapter_intro": "Ps. 32:1–2"
 }

@@ -1,28 +1,32 @@
 {
   "source": "ESV Global Study Bible (Crossway) — Used under license",
   "book_intro": "The Blue Letter Bible ministry and the BLB Institute hold to the historical, conservative Christian faith, which includes a firm belief in the inerrancy of Scripture. Since the text and audio content provided by BLB represent a range of evangelical traditions, all of the ideas and principles conveyed in the resource materials are not necessarily affirmed, in total, by this ministry.\n\nBlue Letter Bible study tools make reading, searching and studying the Bible easy and rewarding.\n\nBlue Letter Bible is a 501(c)(3) nonprofit organization\n\nYou can copy the order of your preferred Bible translations from the Bibles Tab to the  Version Picker (this popup) or vice versa. The Bibles Tab is found in the Tools feature on Bible pages:\n\nNote: MLA no longer requires the URL as part of their citation standard. Individual instructors or editors may still require the use of URLs.\n\nError: Passwords should have at least 6 characters\n\nError: Usernames should only contain letters, numbers, dots, dashes, or underscores\n\nPasswords should have at least 6 characters.\n\t\t\t\t\t\t\tUsernames should only contain letters, numbers, dots, dashes, or underscores.\n\nThank you for registering. A verification email has been sent to the address you provided.\n\nYour partnership makes all we do possible. Would you prayerfully consider a gift of support today?",
-  "chapter_intro": "",
-  "passages": [],
-  "notes": [
-    {
-      "ref": "Ps. 50",
-      "text": "Psalm . Through this psalm the worshipers announce God’s standards for living as part of his covenant people. The God who summons the earth (v. 1) plans to judge his own people (v. 4). He particularly warns all who presume that the sacrificial system is a way to satisfy God without having a living relationship with him."
-    },
+  "passages": [
     {
       "ref": "Ps. 50:1–6",
-      "text": "The Lord, the God of Israel, is the Mighty One, who made and rules heaven and earth. So when he speaks and summons the earth, he has the right to expect all mankind to pay attention. He especially expects it from Israel, his faithful ones, who made a covenant with him by sacrifice (v. 5; see Ex. 24:8)."
+      "title": "Ps. 50:1–6",
+      "text": "**The Lord**, the God of Israel, is** the Mighty One**, who made and rules heaven and earth. So when he **speaks and summons the earth**, he has the right to expect all mankind to pay attention. He especially expects it from Israel, his **faithful ones, who made a covenant with** him **by sacrifice** (v. 5 ; see Ex. 24:8 )."
     },
     {
       "ref": "Ps. 50:7–15",
-      "text": "God’s people must realize that he does not depend upon sacrifices in any way (v. 8) since he owns the entire world (vv. 10–13). God wants his people to offer a sacrifice of thanksgiving and to perform vows (v. 14), both of which are kinds of peace offerings (Lev. 7:11–12, 16). Membership in God’s people is about being welcome in his presence (Ps. 50:14), depending on him (v. 15), and dealing justly with others (vv. 19–20, 23)."
+      "title": "Ps. 50:7–15",
+      "text": "God’s people must realize that he does not depend upon **sacrifices** in any way (v. 8 ) since he owns the entire world (vv. 10–13 ). God wants his people to offer a **sacrifice of thanksgiving** and to perform **vows** (v. 14 ), both of which are kinds of peace offerings ( Lev. 7:11–12 , 16 ). Membership in God’s people is about being welcome in his presence ( Ps. 50:14 ), depending on him (v. 15 ), and dealing justly with others (vv. 19–20 , 23 )."
     },
     {
       "ref": "Ps. 50:16–22",
-      "text": "The wicked here are members of the covenant people who despise the privileges and responsibilities of the covenant (vv. 16–17). The covenant should have connected them with all of God’s people to tell the world of God’s greatness, but instead they use their tongues for destructive purposes (vv. 18–20)."
+      "title": "Ps. 50:16–22",
+      "text": "The **wicked** here are members of the covenant people who despise the privileges and responsibilities of the covenant (vv. 16–17 ). The covenant should have connected them with all of God’s people to tell the world of God’s greatness, but instead they use their tongues for destructive purposes (vv. 18–20 )."
+    }
+  ],
+  "notes": [
+    {
+      "ref": "Ps. 50",
+      "text": "**Psalm** . Through this psalm the worshipers announce God’s standards for living as part of his covenant people. The God who summons the earth (v. 1 ) plans to judge his own people (v. 4 ). He particularly warns all who presume that the sacrificial system is a way to satisfy God without having a living relationship with him."
     },
     {
       "ref": "Ps. 50:23",
-      "text": "Membership in God’s favored people should mean joyful delight in God’s presence (thanksgiving as his sacrifice), and a just and kind life in fellowship with God’s people (orders his way rightly)."
+      "text": "Membership in God’s favored people should mean joyful delight in God’s presence (**thanksgiving as his sacrifice**), and a just and kind life in fellowship with God’s people (**orders his way rightly**)."
     }
-  ]
+  ],
+  "chapter_intro": "Ps. 50:1–6"
 }

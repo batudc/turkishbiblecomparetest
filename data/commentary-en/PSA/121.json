@@ -1,20 +1,23 @@
 {
   "source": "ESV Global Study Bible (Crossway) — Used under license",
   "book_intro": "The Blue Letter Bible ministry and the BLB Institute hold to the historical, conservative Christian faith, which includes a firm belief in the inerrancy of Scripture. Since the text and audio content provided by BLB represent a range of evangelical traditions, all of the ideas and principles conveyed in the resource materials are not necessarily affirmed, in total, by this ministry.\n\nBlue Letter Bible study tools make reading, searching and studying the Bible easy and rewarding.\n\nBlue Letter Bible is a 501(c)(3) nonprofit organization\n\nYou can copy the order of your preferred Bible translations from the Bibles Tab to the  Version Picker (this popup) or vice versa. The Bibles Tab is found in the Tools feature on Bible pages:\n\nNote: MLA no longer requires the URL as part of their citation standard. Individual instructors or editors may still require the use of URLs.\n\nError: Passwords should have at least 6 characters\n\nError: Usernames should only contain letters, numbers, dots, dashes, or underscores\n\nPasswords should have at least 6 characters.\n\t\t\t\t\t\t\tUsernames should only contain letters, numbers, dots, dashes, or underscores.\n\nThank you for registering. A verification email has been sent to the address you provided.\n\nYour partnership makes all we do possible. Would you prayerfully consider a gift of support today?",
-  "chapter_intro": "",
-  "passages": [],
-  "notes": [
-    {
-      "ref": "Ps. 121",
-      "text": "Psalm . This psalm seems to be intended to encourage confidence in those making the pilgrimage to Jerusalem (see note on Psalm 120 for the Songs of Ascents). The successful journey becomes a parable for the whole of one’s life (121:7), in which the faithful can be confident of God’s tireless care."
-    },
+  "passages": [
     {
       "ref": "Ps. 121:1–2",
-      "text": "The person on pilgrimage to Jerusalem will lift up his eyes to the hills (possibly as a terrain to be feared), and will wonder, From where does my help come? The reply is, his help comes from the Lord, who made heaven and earth, and therefore no other power can stop it."
+      "title": "Ps. 121:1–2",
+      "text": "The person on pilgrimage to Jerusalem will** lift up** his **eyes to the hills** (possibly as a terrain to be feared), and will wonder, **From where does my help come?** The reply is, his **help comes from the Lord, who made heaven and earth**, and therefore no other power can stop it."
     },
     {
       "ref": "Ps. 121:3–8",
-      "text": "These verses are dominated by the word “keep” (to watch over): the Lord who keeps Israel (the corporate entity) also keeps you (the particular member). This means that he will not let your foot be moved (that is, slip as you walk, see 38:16; 66:9). This is the confidence the faithful can have."
+      "title": "Ps. 121:3–8",
+      "text": "These verses are dominated by the word “keep” (to watch over): the Lord who **keeps Israel** (the corporate entity) also **keeps you** (the particular member). This means that **he will not let your foot be moved** (that is, slip as you walk, see 38:16 ; 66:9 ). This is the confidence the faithful can have."
     }
-  ]
+  ],
+  "notes": [
+    {
+      "ref": "Ps. 121",
+      "text": "**Psalm** . This psalm seems to be intended to encourage confidence in those making the pilgrimage to Jerusalem (see note on Psalm 120 for the Songs of Ascents). The successful journey becomes a parable for the whole of one’s life ( 121:7 ), in which the faithful can be confident of God’s tireless care."
+    }
+  ],
+  "chapter_intro": "Ps. 121:1–2"
 }

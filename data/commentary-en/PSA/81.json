@@ -1,28 +1,33 @@
 {
   "source": "ESV Global Study Bible (Crossway) — Used under license",
   "book_intro": "The Blue Letter Bible ministry and the BLB Institute hold to the historical, conservative Christian faith, which includes a firm belief in the inerrancy of Scripture. Since the text and audio content provided by BLB represent a range of evangelical traditions, all of the ideas and principles conveyed in the resource materials are not necessarily affirmed, in total, by this ministry.\n\nBlue Letter Bible study tools make reading, searching and studying the Bible easy and rewarding.\n\nBlue Letter Bible is a 501(c)(3) nonprofit organization\n\nYou can copy the order of your preferred Bible translations from the Bibles Tab to the  Version Picker (this popup) or vice versa. The Bibles Tab is found in the Tools feature on Bible pages:\n\nNote: MLA no longer requires the URL as part of their citation standard. Individual instructors or editors may still require the use of URLs.\n\nError: Passwords should have at least 6 characters\n\nError: Usernames should only contain letters, numbers, dots, dashes, or underscores\n\nPasswords should have at least 6 characters.\n\t\t\t\t\t\t\tUsernames should only contain letters, numbers, dots, dashes, or underscores.\n\nThank you for registering. A verification email has been sent to the address you provided.\n\nYour partnership makes all we do possible. Would you prayerfully consider a gift of support today?",
-  "chapter_intro": "",
-  "passages": [],
-  "notes": [
-    {
-      "ref": "Ps. 81",
-      "text": "Psalm . This psalm resembles the OT prophets’ oracles, so perhaps it is best to think of it as a prophetic hymn. The primary function of the OT prophets is to challenge God’s people to covenant faithfulness. They tell of covenant blessings or punishments that will come, depending on the people’s response. This psalm reviews the basic history of the covenant, charges Israel with unfaithfulness, and urges them to once again embrace the covenant. God would then subdue Israel’s enemies."
-    },
+  "passages": [
     {
       "ref": "Ps. 81:1–3",
-      "text": "The call to worship is a jubilant one. The people should shout for joy and play the various musical instruments (v. 2). The new moon and full moon are the beginning and middle of months in ancient Israel. This may show that the psalm was intended for the feast day of Trumpets (Lev. 23:23–25) and then Booths (Lev. 23:33–36)."
+      "title": "Ps. 81:1–3",
+      "text": "The call to worship is a jubilant one. The people should **shout for joy** and play the various musical instruments (v. 2 ). The** new moon** and **full moon** are the beginning and middle of months in ancient Israel. This may show that the psalm was intended for the **feast day** of Trumpets ( Lev. 23:23–25 ) and then Booths ( Lev. 23:33–36 )."
     },
     {
       "ref": "Ps. 81:4–7",
-      "text": "The God of Jacob worked on behalf of his people to deliver them from slavery in Egypt (see Ex. 6:6)."
+      "title": "Ps. 81:4–7",
+      "text": "**The God of Jacob** worked on behalf of his people to deliver them from slavery in **Egypt** (see Ex. 6:6 )."
     },
     {
       "ref": "Ps. 81:8–10",
-      "text": "I am the Lord your God, who brought you up out of the land of Egypt is very similar to the preface to the Ten Commandments (Ex. 20:2). The basic warning, there shall be no strange god among you; you shall not bow down to a foreign god, summarizes the first two commandments (Ex. 20:3–6). The Lord wants his people to listen to him, to receive the covenant as an expression of his grace, to believe in him, and to live as he directs."
+      "title": "Ps. 81:8–10",
+      "text": "**I am the Lord your God, who brought you up out of the land of Egypt** is very similar to the preface to the Ten Commandments ( Ex. 20:2 ). The basic warning, **there shall be no strange god among you; you shall not bow down to a foreign god**, summarizes the first two commandments ( Ex. 20:3–6 ). The Lord wants his people to **listen to** him, to receive the covenant as an expression of his grace, to believe in him, and to live as he directs."
     },
     {
       "ref": "Ps. 81:11–16",
-      "text": "God’s people did not listen to his voice (v. 11), which led to sad consequences (v. 12). But God has not given up, and he addresses his people again with the opportunity to listen, to embrace the covenant, and to walk in God’s good ways (v. 13). The consequences of this genuine faithfulness would be victory over their enemies (v. 14) and fruitfulness for the land (v. 16)."
+      "title": "Ps. 81:11–16",
+      "text": "God’s **people did not listen to** his **voice** (v. 11 ), which led to sad consequences (v. 12 ). But God has not given up, and he addresses his people again with the opportunity to **listen**, to embrace the covenant, and to **walk in** God’s good **ways** (v. 13 ). The consequences of this genuine faithfulness would be victory over **their enemies** (v. 14 ) and fruitfulness for the land (v. 16 )."
     }
-  ]
+  ],
+  "notes": [
+    {
+      "ref": "Ps. 81",
+      "text": "**Psalm** . This psalm resembles the OT prophets’ oracles, so perhaps it is best to think of it as a prophetic hymn. The primary function of the OT prophets is to challenge God’s people to covenant faithfulness. They tell of covenant blessings or punishments that will come, depending on the people’s response. This psalm reviews the basic history of the covenant, charges Israel with unfaithfulness, and urges them to once again embrace the covenant. God would then subdue Israel’s enemies."
+    }
+  ],
+  "chapter_intro": "Ps. 81:1–3"
 }

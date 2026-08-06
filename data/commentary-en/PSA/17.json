@@ -1,36 +1,39 @@
 {
   "source": "ESV Global Study Bible (Crossway) — Used under license",
   "book_intro": "The Blue Letter Bible ministry and the BLB Institute hold to the historical, conservative Christian faith, which includes a firm belief in the inerrancy of Scripture. Since the text and audio content provided by BLB represent a range of evangelical traditions, all of the ideas and principles conveyed in the resource materials are not necessarily affirmed, in total, by this ministry.\n\nBlue Letter Bible study tools make reading, searching and studying the Bible easy and rewarding.\n\nBlue Letter Bible is a 501(c)(3) nonprofit organization\n\nYou can copy the order of your preferred Bible translations from the Bibles Tab to the  Version Picker (this popup) or vice versa. The Bibles Tab is found in the Tools feature on Bible pages:\n\nNote: MLA no longer requires the URL as part of their citation standard. Individual instructors or editors may still require the use of URLs.\n\nError: Passwords should have at least 6 characters\n\nError: Usernames should only contain letters, numbers, dots, dashes, or underscores\n\nPasswords should have at least 6 characters.\n\t\t\t\t\t\t\tUsernames should only contain letters, numbers, dots, dashes, or underscores.\n\nThank you for registering. A verification email has been sent to the address you provided.\n\nYour partnership makes all we do possible. Would you prayerfully consider a gift of support today?",
-  "chapter_intro": "",
-  "passages": [],
-  "notes": [
-    {
-      "ref": "Ps. 17",
-      "text": "Psalm . This is an individual lament, dealing especially with cases in which a person considers himself unjustly accused of wrong (compare Psalm 7). The psalm is a prayer for vindication, and it ends with a feeling of confidence (compare Psalm 16)."
-    },
+  "passages": [
     {
       "ref": "Ps. 17:3–5",
-      "text": "The singer proclaims his innocence (tried, visited, tested), and he recounts his efforts to stay pure."
-    },
-    {
-      "ref": "Ps. 17:8",
-      "text": "apple of your eye. See Deut. 32:10; Prov. 7:2."
-    },
-    {
-      "ref": "Ps. 17:10",
-      "text": "The singer cannot appeal to the attackers’ pity or remorse, since they close their hearts to such feelings. Instead, they speak arrogantly."
+      "title": "Ps. 17:3–5",
+      "text": "The singer proclaims his innocence (**tried**, **visited**, **tested**), and he recounts his efforts to stay pure."
     },
     {
       "ref": "Ps. 17:13–14",
-      "text": "Amid such threats, when it seems unlikely that the attacker will repent (v. 10), the proper response is prayer for the enemy’s defeat."
+      "title": "Ps. 17:13–14",
+      "text": "Amid such threats, when it seems unlikely that the attacker will repent (v. 10 ), the proper response is prayer for the enemy’s defeat."
+    }
+  ],
+  "notes": [
+    {
+      "ref": "Ps. 17",
+      "text": "**Psalm** . This is an individual lament, dealing especially with cases in which a person considers himself unjustly accused of wrong (compare Psalm 7 ). The psalm is a prayer for vindication, and it ends with a feeling of confidence (compare Psalm 16 )."
+    },
+    {
+      "ref": "Ps. 17:8",
+      "text": "**apple of your eye**. See Deut. 32:10 ; Prov. 7:2 ."
+    },
+    {
+      "ref": "Ps. 17:10",
+      "text": "The singer cannot appeal to the attackers’ **pity** or remorse, since they **close their hearts** to such feelings. Instead, they **speak arrogantly**."
     },
     {
       "ref": "Ps. 17:14",
-      "text": "The text describes these attackers as people whose only reward is in this life (their treasure and their children). They leave all their wealth behind when they die. This contrasts with the expectation of the faithful (v. 15)."
+      "text": "The text describes these attackers as people whose only reward is in this life (their **treasure** and their **children**). They leave all their wealth behind when they die. This contrasts with the expectation of the faithful (v. 15 )."
     },
     {
       "ref": "Ps. 17:15",
-      "text": "behold your face. Compare 11:7; Rev. 22:4. when I awake. The beholding and the satisfaction refer to the everlasting bliss that the godly look for in the general resurrection."
+      "text": "**behold your face**. Compare 11:7 ; Rev. 22:4 . **when I awake**. The beholding and the satisfaction refer to the everlasting bliss that the godly look for in the general resurrection."
     }
-  ]
+  ],
+  "chapter_intro": "Ps. 17:3–5"
 }

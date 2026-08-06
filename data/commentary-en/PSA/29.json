@@ -1,24 +1,28 @@
 {
   "source": "ESV Global Study Bible (Crossway) — Used under license",
   "book_intro": "The Blue Letter Bible ministry and the BLB Institute hold to the historical, conservative Christian faith, which includes a firm belief in the inerrancy of Scripture. Since the text and audio content provided by BLB represent a range of evangelical traditions, all of the ideas and principles conveyed in the resource materials are not necessarily affirmed, in total, by this ministry.\n\nBlue Letter Bible study tools make reading, searching and studying the Bible easy and rewarding.\n\nBlue Letter Bible is a 501(c)(3) nonprofit organization\n\nYou can copy the order of your preferred Bible translations from the Bibles Tab to the  Version Picker (this popup) or vice versa. The Bibles Tab is found in the Tools feature on Bible pages:\n\nNote: MLA no longer requires the URL as part of their citation standard. Individual instructors or editors may still require the use of URLs.\n\nError: Passwords should have at least 6 characters\n\nError: Usernames should only contain letters, numbers, dots, dashes, or underscores\n\nPasswords should have at least 6 characters.\n\t\t\t\t\t\t\tUsernames should only contain letters, numbers, dots, dashes, or underscores.\n\nThank you for registering. A verification email has been sent to the address you provided.\n\nYour partnership makes all we do possible. Would you prayerfully consider a gift of support today?",
-  "chapter_intro": "",
-  "passages": [],
-  "notes": [
-    {
-      "ref": "Ps. 29",
-      "text": "Psalm . This is a hymn of praise to God for his awesome power. A thunderstorm serves as a visible representation of God’s majestic voice. It seems reasonable to suppose that setting the psalm in a thunderstorm deliberately places Yahweh over Baal, the storm-god widely worshiped in Syria-Palestine. God created the phenomena of nature. They serve his purposes and demonstrate his wisdom, glory, faithfulness, and even his love."
-    },
+  "passages": [
     {
       "ref": "Ps. 29:1–2",
-      "text": "The psalm begins by urging the heavenly beings or angels to ascribe to the Lord glory and strength, that is, to acknowledge that these things are true of God, and that he deserves admiration for them."
+      "title": "Ps. 29:1–2",
+      "text": "The psalm begins by urging the **heavenly beings** or angels to **ascribe to the Lord glory and strength**, that is, to acknowledge that these things are true of God, and that he deserves admiration for them."
     },
     {
       "ref": "Ps. 29:3–9",
-      "text": "The thunderstorm represents of the voice of the Lord. The reader should imagine a magnificent storm coming eastward from the Mediterranean and sweeping through Israel, from the northern end (Sirion) to the southern end (Kadesh). The faithful, worshiping in the temple in Jerusalem, see the storm’s awesome power. They know that the voice of the Lord is even more powerful, and even more full of majesty. Hence their responsive cry, Glory!"
+      "title": "Ps. 29:3–9",
+      "text": "The thunderstorm represents of the **voice of the Lord**. The reader should imagine a magnificent storm coming eastward from the Mediterranean and sweeping through Israel, from the northern end (**Sirion**) to the southern end (**Kadesh**). The faithful, worshiping in the **temple** in Jerusalem, see the storm’s awesome power. They know that the **voice of the Lord** is even more **powerful**, and even more **full of majesty**. Hence their responsive cry, **Glory!**"
     },
     {
       "ref": "Ps. 29:10–11",
-      "text": "The temple (v. 9) is the place where God sits enthroned (9:11; 22:3) as king forever, especially over his people. The word for flood here is used elsewhere only of Noah’s flood (Gen. 6:17). Just as in that great flood, God’s power makes distinctions between the faithful and the unfaithful."
+      "title": "Ps. 29:10–11",
+      "text": "The temple (v. 9 ) is the place where God **sits enthroned** ( 9:11 ; 22:3 ) as **king forever**, especially over his people. The word for **flood** here is used elsewhere only of Noah’s flood ( Gen. 6:17 ). Just as in that great flood, God’s power makes distinctions between the faithful and the unfaithful."
     }
-  ]
+  ],
+  "notes": [
+    {
+      "ref": "Ps. 29",
+      "text": "**Psalm** . This is a hymn of praise to God for his awesome power. A thunderstorm serves as a visible representation of God’s majestic voice. It seems reasonable to suppose that setting the psalm in a thunderstorm deliberately places Yahweh over Baal, the storm-god widely worshiped in Syria-Palestine. God created the phenomena of nature. They serve his purposes and demonstrate his wisdom, glory, faithfulness, and even his love."
+    }
+  ],
+  "chapter_intro": "Ps. 29:1–2"
 }

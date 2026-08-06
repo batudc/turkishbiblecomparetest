@@ -1,32 +1,36 @@
 {
   "source": "ESV Global Study Bible (Crossway) — Used under license",
   "book_intro": "The Blue Letter Bible ministry and the BLB Institute hold to the historical, conservative Christian faith, which includes a firm belief in the inerrancy of Scripture. Since the text and audio content provided by BLB represent a range of evangelical traditions, all of the ideas and principles conveyed in the resource materials are not necessarily affirmed, in total, by this ministry.\n\nBlue Letter Bible study tools make reading, searching and studying the Bible easy and rewarding.\n\nBlue Letter Bible is a 501(c)(3) nonprofit organization\n\nYou can copy the order of your preferred Bible translations from the Bibles Tab to the  Version Picker (this popup) or vice versa. The Bibles Tab is found in the Tools feature on Bible pages:\n\nNote: MLA no longer requires the URL as part of their citation standard. Individual instructors or editors may still require the use of URLs.\n\nError: Passwords should have at least 6 characters\n\nError: Usernames should only contain letters, numbers, dots, dashes, or underscores\n\nPasswords should have at least 6 characters.\n\t\t\t\t\t\t\tUsernames should only contain letters, numbers, dots, dashes, or underscores.\n\nThank you for registering. A verification email has been sent to the address you provided.\n\nYour partnership makes all we do possible. Would you prayerfully consider a gift of support today?",
-  "chapter_intro": "",
-  "passages": [],
-  "notes": [
+  "passages": [
     {
       "ref": "1 Chron 29:1–9",
-      "text": "The temple is referred to as a palace (v. 1), for it is God’s kingly residence among his people. David calls for freewill offerings from the people, to show that they are consecrating themselves to Yahweh (see v. 5, esv footnote; it is the same expression used to describe the ordination of priests, Ex. 28:41)."
-    },
-    {
-      "ref": "1 Chron 29:7",
-      "text": "darics. The daric was a Persian coin first minted under Darius I (522–486 b.c.). The Chronicler uses this word, which his own generation would have understood, to encourage them in giving."
+      "title": "1 Chron 29:1–9",
+      "text": "The temple is referred to as a **palace** (v. 1 ), for it is God’s kingly residence among his people. David calls for freewill offerings from the people, to show that they are **consecrating** themselves to Yahweh (see v. 5 , esv footnote; it is the same expression used to describe the ordination of priests, Ex. 28:41 )."
     },
     {
       "ref": "1 Chron 29:10–19",
-      "text": "David’s great prayer of praise and his humble request marks the high point of his reign. David says that God examines the human heart for uprightness, that is, integrity (v. 17)."
-    },
-    {
-      "ref": "1 Chron 29:22",
-      "text": "they made Solomon the son of David king the second time. Solomon had been quickly anointed and installed as king in response to Adonijah’s attempted coup (1 Kings 1:28–40, not mentioned in Chronicles). This second ceremony occurred when his kingship was secure and widely acknowledged (1 Chron. 29:24)."
-    },
-    {
-      "ref": "1 Chron 29:23",
-      "text": "The Lord has done for Solomon what he had earlier done for David (14:2). This is one way God kept his promise to David (1 Kings 2:24)."
+      "title": "1 Chron 29:10–19",
+      "text": "David’s great prayer of praise and his humble request marks the high point of his reign. David says that God examines the human heart for **uprightness**, that is, integrity (v. 17 )."
     },
     {
       "ref": "1 Chron 29:26–30",
-      "text": "See 1 Kings 2:10–11. The various Chronicles mentioned in 1 Chron. 29:29 probably contained much of the material in the books of Samuel and Kings. They may have included additional records too (see note on 1 Kings 14:19). Samuel, Nathan, and Gad all played roles in David’s life (see 1 Chron. 9:22; 17:1–15; 21:9–13). The kingdoms of the countries most likely refers to the surrounding nations that David had conquered."
+      "title": "1 Chron 29:26–30",
+      "text": "See 1 Kings 2:10–11 . The various **Chronicles** mentioned in 1 Chron. 29:29 probably contained much of the material in the books of Samuel and Kings. They may have included additional records too (see note on 1 Kings 14:19 ). **Samuel**, **Nathan**, and **Gad** all played roles in David’s life (see 1 Chron. 9:22 ; 17:1–15 ; 21:9–13 ). **The kingdoms of the countries** most likely refers to the surrounding nations that David had conquered."
     }
-  ]
+  ],
+  "notes": [
+    {
+      "ref": "1 Chron 29:7",
+      "text": "**darics**. The daric was a Persian coin first minted under Darius I (522–486 b.c. ). The Chronicler uses this word, which his own generation would have understood, to encourage them in giving."
+    },
+    {
+      "ref": "1 Chron 29:22",
+      "text": "**they made Solomon the son of David king the second time**. Solomon had been quickly anointed and installed as king in response to Adonijah’s attempted coup ( 1 Kings 1:28–40 , not mentioned in Chronicles). This second ceremony occurred when his kingship was secure and widely acknowledged ( 1 Chron. 29:24 )."
+    },
+    {
+      "ref": "1 Chron 29:23",
+      "text": "The Lord has done for **Solomon** what he had earlier done for **David** ( 14:2 ). This is one way God kept his promise to David ( 1 Kings 2:24 )."
+    }
+  ],
+  "chapter_intro": "1 Chron 29:1–9"
 }

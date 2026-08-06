@@ -1,44 +1,49 @@
 {
   "source": "ESV Global Study Bible (Crossway) — Used under license",
   "book_intro": "The Blue Letter Bible ministry and the BLB Institute hold to the historical, conservative Christian faith, which includes a firm belief in the inerrancy of Scripture. Since the text and audio content provided by BLB represent a range of evangelical traditions, all of the ideas and principles conveyed in the resource materials are not necessarily affirmed, in total, by this ministry.\n\nBlue Letter Bible study tools make reading, searching and studying the Bible easy and rewarding.\n\nBlue Letter Bible is a 501(c)(3) nonprofit organization\n\nYou can copy the order of your preferred Bible translations from the Bibles Tab to the  Version Picker (this popup) or vice versa. The Bibles Tab is found in the Tools feature on Bible pages:\n\nNote: MLA no longer requires the URL as part of their citation standard. Individual instructors or editors may still require the use of URLs.\n\nError: Passwords should have at least 6 characters\n\nError: Usernames should only contain letters, numbers, dots, dashes, or underscores\n\nPasswords should have at least 6 characters.\n\t\t\t\t\t\t\tUsernames should only contain letters, numbers, dots, dashes, or underscores.\n\nThank you for registering. A verification email has been sent to the address you provided.\n\nYour partnership makes all we do possible. Would you prayerfully consider a gift of support today?",
-  "chapter_intro": "",
-  "passages": [],
-  "notes": [
-    {
-      "ref": "Ps. 16",
-      "text": "Psalm . When the faithful sing Psalm 16, they entrust themselves to the Lord. They experience confidence and contentment in his care. The psalm uses imagery from Israel’s allocation of the land under Joshua (vv. 5–6) to express contentment in this life. It also looks forward to everlasting life in God’s presence (vv. 9–11)."
-    },
+  "passages": [
     {
       "ref": "Ps. 16:1–2",
-      "text": "The Lord is the only one on whom the psalmist relies for well-being (no good apart from you, v. 2)."
-    },
-    {
-      "ref": "Ps. 16:3",
-      "text": "The saints are those who have embraced their privilege as God’s people. Since God has declared them holy, they live in a holy way."
-    },
-    {
-      "ref": "Ps. 16:4",
-      "text": "Those who run after another god are idolaters, including unfaithful Israelites. Their names probably refers to the names of the false gods being worshiped."
+      "title": "Ps. 16:1–2",
+      "text": "The Lord is the only one on whom the psalmist relies for well-being (**no good apart from you**, v. 2 )."
     },
     {
       "ref": "Ps. 16:5–6",
-      "text": "The psalmist is satisfied with the Lord and his provision. The terms portion, lot, lines, and inheritance recall the allocation of the Promised Land into tribal and family plots."
+      "title": "Ps. 16:5–6",
+      "text": "The psalmist is satisfied with the Lord and his provision. The terms **portion**, **lot**, **lines**, and **inheritance** recall the allocation of the Promised Land into tribal and family plots."
     },
     {
       "ref": "Ps. 16:7–8",
-      "text": "God’s presence is seen in the moral instruction the psalmist receives (v. 7). It gives him assurance of stability (v. 8). The psalmist’s heart instructs him during the night, as he thinks about God’s word (compare 1:2)."
+      "title": "Ps. 16:7–8",
+      "text": "God’s presence is seen in the moral instruction the psalmist receives (v. 7 ). It gives him assurance of stability (v. 8 ). The psalmist’s **heart instructs** him during the **night**, as he thinks about God’s word (compare 1:2 )."
     },
     {
       "ref": "Ps. 16:9–11",
-      "text": "The psalm is cultivating the hope of everlasting glory for the faithful, with the resurrection of Jesus (the ultimate holy one) as the first step in bringing this hope to fulfillment (compare Acts 2:25–28; Rom. 8:23; 1 Cor. 15:23)."
+      "title": "Ps. 16:9–11",
+      "text": "The psalm is cultivating the hope of everlasting glory for the faithful, with the resurrection of Jesus (the ultimate **holy one**) as the first step in bringing this hope to fulfillment (compare Acts 2:25–28 ; Rom. 8:23 ; 1 Cor. 15:23 )."
+    }
+  ],
+  "notes": [
+    {
+      "ref": "Ps. 16",
+      "text": "**Psalm** . When the faithful sing Psalm 16 , they entrust themselves to the Lord. They experience confidence and contentment in his care. The psalm uses imagery from Israel’s allocation of the land under Joshua (vv. 5–6 ) to express contentment in this life. It also looks forward to everlasting life in God’s presence (vv. 9–11 )."
+    },
+    {
+      "ref": "Ps. 16:3",
+      "text": "**The saints** are those who have embraced their privilege as God’s people. Since God has declared them holy, they live in a holy way."
+    },
+    {
+      "ref": "Ps. 16:4",
+      "text": "**Those who run after another god** are idolaters, including unfaithful Israelites. **Their names** probably refers to the names of the false gods being worshiped."
     },
     {
       "ref": "Ps. 16:10",
-      "text": "Sheol. See note on 6:5. Here it is likely the abode of the wicked."
+      "text": "**Sheol**. See note on 6:5 . Here it is likely the abode of the wicked."
     },
     {
       "ref": "Ps. 16:11",
-      "text": "path of life. The covenant provides a “path” by which one walks toward life in all its fullness (Prov. 6:23; 10:17; Matt. 7:14). This is what the Lord makes known to his followers. To enjoy God’s presence is the goal of the covenant (compare Ex. 33:14–15; Num. 6:24–26). The word pleasures is related to “pleasant places” (Ps. 16:6). The pleasure that the psalmist has begun in this life will reach its fullness in the world to come (forevermore)."
+      "text": "**path of life**. The covenant provides a “path” by which one walks toward life in all its fullness ( Prov. 6:23 ; 10:17 ; Matt. 7:14 ). This is what the Lord makes **known to** his followers. To enjoy God’s **presence** is the goal of the covenant (compare Ex. 33:14–15 ; Num. 6:24–26 ). The word **pleasures** is related to “pleasant places” ( Ps. 16:6 ). The pleasure that the psalmist has begun in this life will reach its fullness in the world to come (**forevermore**)."
     }
-  ]
+  ],
+  "chapter_intro": "Ps. 16:1–2"
 }

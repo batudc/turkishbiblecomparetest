@@ -1,28 +1,33 @@
 {
   "source": "ESV Global Study Bible (Crossway) — Used under license",
   "book_intro": "The Blue Letter Bible ministry and the BLB Institute hold to the historical, conservative Christian faith, which includes a firm belief in the inerrancy of Scripture. Since the text and audio content provided by BLB represent a range of evangelical traditions, all of the ideas and principles conveyed in the resource materials are not necessarily affirmed, in total, by this ministry.\n\nBlue Letter Bible study tools make reading, searching and studying the Bible easy and rewarding.\n\nBlue Letter Bible is a 501(c)(3) nonprofit organization\n\nYou can copy the order of your preferred Bible translations from the Bibles Tab to the  Version Picker (this popup) or vice versa. The Bibles Tab is found in the Tools feature on Bible pages:\n\nNote: MLA no longer requires the URL as part of their citation standard. Individual instructors or editors may still require the use of URLs.\n\nError: Passwords should have at least 6 characters\n\nError: Usernames should only contain letters, numbers, dots, dashes, or underscores\n\nPasswords should have at least 6 characters.\n\t\t\t\t\t\t\tUsernames should only contain letters, numbers, dots, dashes, or underscores.\n\nThank you for registering. A verification email has been sent to the address you provided.\n\nYour partnership makes all we do possible. Would you prayerfully consider a gift of support today?",
-  "chapter_intro": "",
-  "passages": [],
-  "notes": [
-    {
-      "ref": "Ps. 108",
-      "text": "Psalm . It seems that David composed this community lament using material from two other psalms. Verses 1–5 are from 57:7–11 and 108:6–13 are from 60:5–12. In the midst of a dangerous situation, the singers express their confident hope of thanking God “among the peoples” (108:3)."
-    },
+  "passages": [
     {
       "ref": "Ps. 108:1–4",
-      "text": "See 57:7–10. The opening section expresses confidence (my heart is steadfast). The basis for the confidence is God’s steadfast love and faithfulness (Ex. 34:6)."
+      "title": "Ps. 108:1–4",
+      "text": "See 57:7–10 . The opening section expresses confidence (**my heart is steadfast**). The basis for the confidence is God’s **steadfast love** and **faithfulness** ( Ex. 34:6 )."
     },
     {
       "ref": "Ps. 108:5–6",
-      "text": "The next section is a general prayer, be exalted, with a more specific plea that your beloved ones may be delivered."
+      "title": "Ps. 108:5–6",
+      "text": "The next section is a general prayer, **be exalted**, with a more specific plea **that your beloved ones may be delivered**."
     },
     {
       "ref": "Ps. 108:7–9",
-      "text": "As with 60:6–8, these verses seem to recall an oracle (God has promised) that gives God’s plan for Israel’s place in the world."
+      "title": "Ps. 108:7–9",
+      "text": "As with 60:6–8 , these verses seem to recall an oracle (**God has promised**) that gives God’s plan for Israel’s place in the world."
     },
     {
       "ref": "Ps. 108:10–13",
-      "text": "This comes from 60:9–12. Part of the background of Psalm 60 is a campaign against Edom."
+      "title": "Ps. 108:10–13",
+      "text": "This comes from 60:9–12 . Part of the background of Psalm 60 is a campaign against **Edom**."
     }
-  ]
+  ],
+  "notes": [
+    {
+      "ref": "Ps. 108",
+      "text": "**Psalm** . It seems that David composed this community lament using material from two other psalms. Verses 1–5 are from 57:7–11 and 108:6–13 are from 60:5–12 . In the midst of a dangerous situation, the singers express their confident hope of thanking God “among the peoples” ( 108:3 )."
+    }
+  ],
+  "chapter_intro": "Ps. 108:1–4"
 }

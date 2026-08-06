@@ -1,48 +1,53 @@
 {
   "source": "ESV Global Study Bible (Crossway) — Used under license",
   "book_intro": "The Blue Letter Bible ministry and the BLB Institute hold to the historical, conservative Christian faith, which includes a firm belief in the inerrancy of Scripture. Since the text and audio content provided by BLB represent a range of evangelical traditions, all of the ideas and principles conveyed in the resource materials are not necessarily affirmed, in total, by this ministry.\n\nBlue Letter Bible study tools make reading, searching and studying the Bible easy and rewarding.\n\nBlue Letter Bible is a 501(c)(3) nonprofit organization\n\nYou can copy the order of your preferred Bible translations from the Bibles Tab to the  Version Picker (this popup) or vice versa. The Bibles Tab is found in the Tools feature on Bible pages:\n\nNote: MLA no longer requires the URL as part of their citation standard. Individual instructors or editors may still require the use of URLs.\n\nError: Passwords should have at least 6 characters\n\nError: Usernames should only contain letters, numbers, dots, dashes, or underscores\n\nPasswords should have at least 6 characters.\n\t\t\t\t\t\t\tUsernames should only contain letters, numbers, dots, dashes, or underscores.\n\nThank you for registering. A verification email has been sent to the address you provided.\n\nYour partnership makes all we do possible. Would you prayerfully consider a gift of support today?",
-  "chapter_intro": "",
-  "passages": [],
-  "notes": [
+  "passages": [
     {
       "ref": "2 Sam 11:1–12:25",
-      "text": "The story of the Ammonite war continues up through 11:1 and concludes in 12:26–31. In between comes the account of David and Bathsheba (11:2–12:25)."
-    },
-    {
-      "ref": "2 Sam 11:1",
-      "text": "With the defeat of the Syrians, David can concentrate on besieging Rabbah (10:14). the time when kings go out to battle. . . . But David remained at Jerusalem. The connection of these two phrases hints that something is wrong: all Israel went out to battle, but Israel’s leader did not."
-    },
-    {
-      "ref": "2 Sam 11:2",
-      "text": "Archaeological discoveries suggest that the roof of the king’s house may have overlooked the entire city (see illustration). bathing. See note on v. 4."
-    },
-    {
-      "ref": "2 Sam 11:3",
-      "text": "Uriah the Hittite is listed among David’s top warriors, the “thirty,” in 23:39."
-    },
-    {
-      "ref": "2 Sam 11:4",
-      "text": "sent messengers and took her. Considering David’s elaborate attempt to cover up his act of adultery (vv. 6–13), it is hardly likely that he made his intention clear when he summoned Bathsheba. Since she had been purifying herself from her uncleanness (“bathing,” v. 2), probably after her menstrual period (see Lev. 15:19–24), it is clear that her husband, Uriah, was not the father of the child who was conceived (2 Sam. 11:5)."
+      "title": "2 Sam 11:1–12:25",
+      "text": "The story of the Ammonite war continues up through 11:1 and concludes in 12:26–31 . In between comes the account of David and Bathsheba ( 11:2–12:25 )."
     },
     {
       "ref": "2 Sam 11:6–13",
+      "title": "2 Sam 11:6–13",
       "text": "Instead of repenting and trying to settle the matter openly, David tries to cover up his adultery."
     },
     {
-      "ref": "2 Sam 11:9",
-      "text": "Sexual intercourse was a source of ritual impurity (Lev. 15:18), and so it was avoided during a military campaign, as is mentioned in 1 Sam. 21:5. Uriah considered himself still on duty, in contrast to David."
-    },
-    {
       "ref": "2 Sam 11:14–15",
-      "text": "Uriah unknowingly takes with him the letter that orders him killed. David is so overwhelmed by the need to cover up his wrongdoings that he will take the life of his faithful soldier."
-    },
-    {
-      "ref": "2 Sam 11:21",
-      "text": "Jerubbesheth. See note on 4:4. cast an upper millstone on him from the wall. See Judg. 9:53."
+      "title": "2 Sam 11:14–15",
+      "text": "**Uriah** unknowingly takes with him the **letter** that orders him killed. David is so overwhelmed by the need to cover up his wrongdoings that he will take the life of his faithful soldier."
     },
     {
       "ref": "2 Sam 11:26–27",
-      "text": "The mourning period was probably seven days (Gen. 50:10; 1 Sam. 31:13)."
+      "title": "2 Sam 11:26–27",
+      "text": "The **mourning** period was probably seven days ( Gen. 50:10 ; 1 Sam. 31:13 )."
     }
-  ]
+  ],
+  "notes": [
+    {
+      "ref": "2 Sam 11:1",
+      "text": "With the defeat of the Syrians, David can concentrate on besieging Rabbah ( 10:14 ). **the time when kings go out to battle. . . . But David remained at Jerusalem**. The connection of these two phrases hints that something is wrong: **all Israel** went out to battle, but Israel’s leader did not."
+    },
+    {
+      "ref": "2 Sam 11:2",
+      "text": "Archaeological discoveries suggest that **the roof of the king’s house** may have overlooked the entire city (see illustration ). **bathing**. See note on v. 4 ."
+    },
+    {
+      "ref": "2 Sam 11:3",
+      "text": "**Uriah the Hittite** is listed among David’s top warriors, the “thirty,” in 23:39 ."
+    },
+    {
+      "ref": "2 Sam 11:4",
+      "text": "**sent messengers and took her**. Considering David’s elaborate attempt to cover up his act of adultery (vv. 6–13 ), it is hardly likely that he made his intention clear when he summoned Bathsheba. Since she had been **purifying herself from her uncleanness** (“bathing,” v. 2 ), probably after her menstrual period (see Lev. 15:19–24 ), it is clear that her husband, Uriah, was not the father of the child who was conceived ( 2 Sam. 11:5 )."
+    },
+    {
+      "ref": "2 Sam 11:9",
+      "text": "Sexual intercourse was a source of ritual impurity ( Lev. 15:18 ), and so it was avoided during a military campaign, as is mentioned in 1 Sam. 21:5 . Uriah considered himself still on duty, in contrast to David."
+    },
+    {
+      "ref": "2 Sam 11:21",
+      "text": "**Jerubbesheth**. See note on 4:4 . **cast an upper millstone on him from the wall**. See Judg. 9:53 ."
+    }
+  ],
+  "chapter_intro": "2 Sam 11:1–12:25"
 }
