@@ -1425,7 +1425,7 @@ function buildBooksPanel() {
         reSearch();
       });
       const span = document.createElement('span');
-      span.textContent = bookName;
+      span.textContent = displayBook(bookName);
       item.appendChild(cb); item.appendChild(span);
       grid.appendChild(item);
     });
@@ -1647,7 +1647,7 @@ function renderResults() {
 
     html += `<div class="book-section">
       <div class="book-heading">
-        <span class="book-heading-name">${escHtml(bn)}</span>
+        <span class="book-heading-name">${escHtml(displayBook(bn))}</span>
         <span class="book-heading-count">${rows.length} results</span>
       </div>`;
 
