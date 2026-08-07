@@ -1,5 +1,5 @@
 const SHELL_CACHE = 'kki-shell-v5';  // bumped: word study link fixes (verse tracking, consistent update)
-const DATA_CACHE  = 'kki-data-v11'; // bumped: ESV EN notes reclassified (range-verse notes moved from passages to notes)
+const DATA_CACHE  = 'kki-data-v12'; // bumped: TCL02 notes re-scraped, full footnote text restored
 
 const SHELL_FILES = [
   '/',
