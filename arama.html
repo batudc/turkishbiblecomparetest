@@ -1485,7 +1485,7 @@ function renderAiResults({ loading, error, verses, hint } = {}) {
   const query = document.getElementById('search-input').value.trim();
   area.innerHTML = `
     <div class="ai-results-header">
-      <span class="ai-results-title">YZ · "${escHtml(query)}" için en olası ${verses.length} ayet</span>
+      <span class="ai-results-title">YZ · "${escHtml(query)}" için ${verses.length} ayet</span>
     </div>
     ${verses.map(v => {
       const bookName = BOOK_CODES_REV[v.book] || v.book;
@@ -1518,28 +1518,26 @@ async function runAiSearch(query) {
     ? `Yalnızca şu kitaplarda ara: ${allowedCodes.join(' ')}`
     : `Geçerli kodlar: GEN EXO LEV NUM DEU JOS JDG RUT 1SA 2SA 1KI 2KI 1CH 2CH EZR NEH EST JOB PSA PRO ECC SNG ISA JER LAM EZK DAN HOS JOL AMO OBA JON MIC NAH HAB ZEP HAG ZEC MAL MAT MRK LUK JHN ACT ROM 1CO 2CO GAL EPH PHP COL 1TH 2TH 1TI 2TI TIT PHM HEB JAS 1PE 2PE 1JN 2JN 3JN JUD REV`;
 
-  const prompt = `Kutsal Kitap'ta şu kavramı veya fikri en iyi anlatan 5 ayeti bul. Kullanıcı kelimeleri tam bilmiyor, sadece fikri tarif ediyor.
+  const prompt = `Kutsal Kitap'ta şu kavramı veya fikri anlatan TÜM uygun ayetleri bul. Kullanıcı kelimeleri tam bilmiyor, sadece fikri tarif ediyor. İlgili ayet yoksa hiçbir şey yazma.
 
 Kavram: "${query}"
 
 ${scopeLine}
 
-Sadece şu formatta 5 satır yaz, başka hiçbir şey ekleme:
+Sadece şu formatta yaz, başka hiçbir şey ekleme:
 KITAPKODU BÖLÜM:AYET
 
 Örnek yanıt:
 PSA 23:1
 JHN 3:16
-ROM 8:28
-PHP 4:13
-ISA 40:31`;
+ROM 8:28`;
 
   try {
     // Try same-origin proxy first (avoids CORS / browser shield issues),
     // fall back to direct Anthropic API call if proxy isn't available.
     const proxyUrl  = '/api/claude';
     const directUrl = 'https://api.anthropic.com/v1/messages';
-    const payload   = { model: 'claude-haiku-4-5-20251001', max_tokens: 150, messages: [{ role: 'user', content: prompt }] };
+    const payload   = { model: 'claude-haiku-4-5-20251001', max_tokens: 400, messages: [{ role: 'user', content: prompt }] };
 
     let resp;
     try {
@@ -1591,10 +1589,12 @@ ISA 40:31`;
     for (const line of text.split('\n')) {
       const m = line.trim().match(/^([1-3]?[A-Z]+)\s+(\d+):(\d+)/);
       if (m) refs.push({ book: m[1], ch: parseInt(m[2]), v: parseInt(m[3]) });
-      if (refs.length >= 5) break;
     }
 
-    if (!refs.length) throw new Error('Ayet referansı ayrıştırılamadı. Tekrar deneyin.');
+    if (!refs.length) {
+      renderAiResults({ hint: 'Bu kavram için uygun bir ayet bulunamadı. Farklı kelimelerle tekrar deneyin.' });
+      return;
+    }
 
     // Load verse texts from TCL02 (primary) or first available translation
     // For combined verses (e.g. v=17 stored under v=16), fall back to nearest preceding verse.
