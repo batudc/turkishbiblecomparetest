@@ -544,6 +544,10 @@
     body.theme-sepia #state-no-results p  { color: rgba(44,36,22,0.3); }
 
     body.theme-dark #results-area   { background: #0e1e2c; }
+    body.theme-dark .ai-card-text   { color: rgba(247,241,232,.82); }
+    body.theme-dark .ai-results-title { color: rgba(247,241,232,.4); }
+    body.theme-dark .ai-loading     { color: rgba(247,241,232,.4); }
+    body.theme-dark .ai-empty-hint  { color: rgba(247,241,232,.4); }
 
     /* ===== MOBILE ===== */
     @media (max-width: 640px) {
@@ -652,26 +656,25 @@
     .flt-match-desc { font-size: 9px; opacity: 0.45; font-weight: 400; }
 
     /* ── AI Search ── */
-    .ai-badge { font-size: 8px; background: linear-gradient(135deg,#7c3aed,#4f46e5); color:#fff; padding:1px 5px; border-radius:8px; vertical-align:middle; font-weight:700; letter-spacing:.5px; margin-left:4px; }
     #flt-ai-key-area { margin-top:8px; display:none; }
     #flt-ai-key-area.visible { display:block; }
-    #flt-ai-key { width:100%; box-sizing:border-box; background:rgba(255,255,255,.07); border:1px solid rgba(255,255,255,.12); border-radius:4px; color:var(--text-main); padding:5px 8px; font-size:11px; outline:none; font-family:monospace; }
-    #flt-ai-key:focus { border-color:rgba(124,58,237,.6); }
+    #flt-ai-key { width:100%; box-sizing:border-box; background:rgba(184,146,42,.06); border:1px solid rgba(184,146,42,.28); border-radius:4px; color:rgba(247,241,232,.9); padding:5px 8px; font-size:11px; outline:none; font-family:monospace; }
+    #flt-ai-key:focus { border-color:rgba(184,146,42,.65); }
     .ai-key-row { display:flex; gap:6px; margin-top:5px; align-items:center; }
-    .ai-key-save-btn { background:rgba(124,58,237,.15); border:1px solid rgba(124,58,237,.35); color:#c4b5fd; padding:4px 10px; border-radius:4px; cursor:pointer; font-size:10px; white-space:nowrap; }
-    .ai-key-save-btn:hover { background:rgba(124,58,237,.28); }
+    .ai-key-save-btn { background:rgba(184,146,42,.14); border:1px solid rgba(184,146,42,.35); color:var(--gold-light); padding:4px 10px; border-radius:4px; cursor:pointer; font-size:10px; white-space:nowrap; }
+    .ai-key-save-btn:hover { background:rgba(184,146,42,.28); }
     #flt-ai-key-status { font-size:10px; color:#86efac; }
     #flt-ai-key-desc { font-size:10px; color:var(--text-dim); margin-bottom:5px; line-height:1.4; }
     #ai-results-area { display:none; padding:12px 16px; }
     #ai-results-area.visible { display:block; }
     .ai-results-header { display:flex; align-items:center; margin-bottom:10px; padding-bottom:8px; border-bottom:1px solid rgba(255,255,255,.06); }
-    .ai-results-title { font-size:11px; opacity:.5; margin-left:7px; }
-    .ai-result-card { display:block; text-decoration:none; background:rgba(124,58,237,.07); border:1px solid rgba(124,58,237,.18); border-radius:8px; margin-bottom:7px; overflow:hidden; transition:background .15s, border-color .15s; }
-    .ai-result-card:hover { background:rgba(124,58,237,.15); border-color:rgba(124,58,237,.38); }
-    .ai-card-ref { font-size:11px; font-weight:700; color:#a78bfa; padding:8px 12px 3px; }
-    .ai-card-text { font-size:13px; color:var(--text-main); padding:0 12px 10px; line-height:1.6; }
+    .ai-results-title { font-size:11px; color:rgba(44,36,22,.45); margin-left:4px; }
+    .ai-result-card { display:block; text-decoration:none; background:rgba(184,146,42,.06); border:1px solid rgba(184,146,42,.22); border-radius:6px; margin-bottom:7px; overflow:hidden; transition:background .15s, border-color .15s; }
+    .ai-result-card:hover { background:rgba(184,146,42,.13); border-color:rgba(184,146,42,.42); }
+    .ai-card-ref { font-size:11px; font-weight:700; color:var(--gold); padding:8px 12px 3px; }
+    .ai-card-text { font-size:13px; color:var(--ink); padding:0 12px 10px; line-height:1.6; }
     .ai-loading { text-align:center; padding:36px 16px; color:var(--text-dim); }
-    .ai-spinner { width:24px; height:24px; border:2px solid rgba(124,58,237,.25); border-top-color:#7c3aed; border-radius:50%; animation:spin .7s linear infinite; margin:0 auto; }
+    .ai-spinner { width:24px; height:24px; border:2px solid rgba(184,146,42,.2); border-top-color:var(--gold); border-radius:50%; animation:spin .7s linear infinite; margin:0 auto; }
     @keyframes spin { to { transform:rotate(360deg); } }
     .ai-error { background:rgba(239,68,68,.08); border:1px solid rgba(239,68,68,.2); border-radius:6px; padding:12px; color:#fca5a5; font-size:12px; line-height:1.5; }
     .ai-empty-hint { text-align:center; padding:20px; color:var(--text-dim); font-size:12px; }
@@ -928,7 +931,7 @@
     <div id="flt-books-list"></div>
   </div>
   <div class="panel-section">
-    <div class="panel-section-title">Semantic Search <span class="ai-badge">AI</span></div>
+    <div class="panel-section-title">Semantic Search</div>
     <div class="panel-row-group">
       <label class="panel-option" id="flt-ai-label">
         <input type="checkbox" id="flt-ai-toggle">
@@ -1495,8 +1498,7 @@ function renderAiResults({ loading, error, verses, hint } = {}) {
   const query = document.getElementById('search-input').value.trim();
   area.innerHTML = `
     <div class="ai-results-header">
-      <span class="ai-badge">AI</span>
-      <span class="ai-results-title">Top ${verses.length} verses for "${escHtml(query)}"</span>
+      <span class="ai-results-title">AI · "${escHtml(query)}" — ${verses.length} verse${verses.length !== 1 ? 's' : ''}</span>
     </div>
     ${verses.map(v => {
       const bookName = BOOK_CODES_REV[v.book] || v.book;
@@ -1520,26 +1522,33 @@ async function runAiSearch(query) {
 
   renderAiResults({ loading: true });
 
-  const prompt = `Find the 5 Bible verses that best match this concept or description. The user may not know exact wording.
+  // Build allowed book codes from active book filter
+  const allowedCodes = selectedBooks.size > 0
+    ? [...selectedBooks].map(b => BOOK_CODES[b]).filter(Boolean)
+    : null;
+
+  const scopeLine = allowedCodes
+    ? `Search only in these books: ${allowedCodes.join(' ')}`
+    : `Valid codes: GEN EXO LEV NUM DEU JOS JDG RUT 1SA 2SA 1KI 2KI 1CH 2CH EZR NEH EST JOB PSA PRO ECC SNG ISA JER LAM EZK DAN HOS JOL AMO OBA JON MIC NAH HAB ZEP HAG ZEC MAL MAT MRK LUK JHN ACT ROM 1CO 2CO GAL EPH PHP COL 1TH 2TH 1TI 2TI TIT PHM HEB JAS 1PE 2PE 1JN 2JN 3JN JUD REV`;
+
+  const prompt = `Find ALL Bible verses that express this concept or idea. The user may not know exact wording — they are describing a theme. If no relevant verse exists, write nothing.
 
 Concept: "${query}"
 
-Reply with ONLY 5 lines in this exact format, nothing else:
+${scopeLine}
+
+Reply with ONLY lines in this exact format, nothing else:
 BOOKCODE CHAPTER:VERSE
 
-Valid codes: GEN EXO LEV NUM DEU JOS JDG RUT 1SA 2SA 1KI 2KI 1CH 2CH EZR NEH EST JOB PSA PRO ECC SNG ISA JER LAM EZK DAN HOS JOL AMO OBA JON MIC NAH HAB ZEP HAG ZEC MAL MAT MRK LUK JHN ACT ROM 1CO 2CO GAL EPH PHP COL 1TH 2TH 1TI 2TI TIT PHM HEB JAS 1PE 2PE 1JN 2JN 3JN JUD REV
-
-Example reply:
+Example:
 PSA 23:1
 JHN 3:16
-ROM 8:28
-PHP 4:13
-ISA 40:31`;
+ROM 8:28`;
 
   try {
     const proxyUrl  = '/api/claude';
     const directUrl = 'https://api.anthropic.com/v1/messages';
-    const payload   = { model: 'claude-haiku-4-5-20251001', max_tokens: 150, messages: [{ role: 'user', content: prompt }] };
+    const payload   = { model: 'claude-haiku-4-5-20251001', max_tokens: 400, messages: [{ role: 'user', content: prompt }] };
 
     let resp;
     try {
@@ -1576,19 +1585,26 @@ ISA 40:31`;
     for (const line of text.split('\n')) {
       const m = line.trim().match(/^([1-3]?[A-Z]+)\s+(\d+):(\d+)/);
       if (m) refs.push({ book: m[1], ch: parseInt(m[2]), v: parseInt(m[3]) });
-      if (refs.length >= 5) break;
     }
 
-    if (!refs.length) throw new Error('Could not parse verse references. Please try again.');
+    if (!refs.length) {
+      renderAiResults({ hint: 'No matching verse found for this concept. Try different words.' });
+      return;
+    }
 
-    const tidsToTry = ['TCL02', 'ESV', ...activeTids.filter(t => t !== 'TCL02' && t !== 'ESV')];
+    const tidsToTry = ['ESV', 'TCL02', ...activeTids.filter(t => t !== 'ESV' && t !== 'TCL02')];
     const verses = await Promise.all(refs.map(async r => {
       for (const tid of tidsToTry) {
         try {
           const res = await fetch(`data/translations/${tid}/${r.book}/${r.ch}.json`);
           if (!res.ok) continue;
           const d = await res.json();
-          const verse = (d.content || []).find(vv => String(vv.v) === String(r.v));
+          const content = d.content || [];
+          let verse = content.find(vv => String(vv.v) === String(r.v));
+          if (!verse) {
+            const preceding = content.filter(vv => parseInt(vv.v) <= r.v && parseInt(vv.v) > 0);
+            if (preceding.length) verse = preceding[preceding.length - 1];
+          }
           if (verse?.text) return { ...r, text: verse.text };
         } catch {}
       }
