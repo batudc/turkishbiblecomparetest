@@ -1251,6 +1251,9 @@ let _aiKey = localStorage.getItem('kki-ai-key') || '';
 
 // ── Translation panel ──────────────────────────────────────────────────────
 const TRANS_CATEGORIES = [
+  { id: 'eng-tr', label: 'ENG-TR',
+    subcats: [ { label: null, ids: ['ESV','TCL02'] } ]
+  },
   { id: 'english', label: 'English',
     subcats: [
       { label: 'Favourites',          ids: [] },  // User-populated
