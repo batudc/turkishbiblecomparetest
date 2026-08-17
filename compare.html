@@ -2764,7 +2764,8 @@
           for (const {cls, symbol, label, verseData} of chapterExtraNotes) {
             const vNotes = verseData?.[String(item.v)];
             if (vNotes) {
-              for (const {anchor, note} of vNotes) {
+              const entries = Array.isArray(vNotes) ? vNotes : [{anchor: null, note: vNotes}];
+              for (const {anchor, note} of entries) {
                 insertInlineNote(vtEl, anchor, note, cls, symbol, label);
               }
             }
