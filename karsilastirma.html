@@ -3156,7 +3156,7 @@
     const listEl = document.getElementById('trans-cat-list');
     listEl.innerHTML = '';
     TRANS_CATEGORIES.forEach(cat => {
-      if (cat.hidden) return;
+      if (cat.hidden && sessionStorage.getItem('kkf_admin') !== '1') return;
       const loaded = _catAllIds(cat).filter(id => ALL_TRANS[id]?.loaded);
       const selCount = loaded.filter(id => selectedTranslations.has(id)).length;
 
@@ -3223,6 +3223,17 @@
     });
   }
   buildTransCategories();
+
+  // Restore admin badge on reload if session still active
+  if (sessionStorage.getItem('kkf_admin') === '1') {
+    const badge = document.createElement('div');
+    badge.id = '_admin-badge';
+    badge.title = 'Admin modu — kapatmak için tıkla';
+    badge.style.cssText = 'position:fixed;bottom:10px;left:10px;z-index:9999;background:rgba(220,38,38,.85);color:#fff;font-size:10px;font-weight:700;padding:3px 8px;border-radius:4px;cursor:pointer;letter-spacing:.04em;backdrop-filter:blur(4px);';
+    badge.textContent = 'ADMIN';
+    badge.addEventListener('click', () => window._adminToggle?.());
+    document.body.appendChild(badge);
+  }
 
   // ── Translation state management ──────────────────────────────────────
   // Non-heretical loaded translations (used for bulk select/deselect)
@@ -3725,6 +3736,7 @@
     _maybeReloadCommentary();
   }
   document.getElementById('btn-prev-ch')?.addEventListener('click', () => {
+    _adminSeqTick('L');
     if (currentChapter > 1) { setChapter(currentChapter - 1); loadAll(); saveState(); _maybeReloadCommentary(); }
     else {
       const idx = ALL_BOOKS.indexOf(currentBook);
@@ -3732,6 +3744,7 @@
     }
   });
   document.getElementById('btn-next-ch')?.addEventListener('click', () => {
+    _adminSeqTick('R');
     const total = CHAPTER_COUNTS[currentBook] ?? 1;
     if (currentChapter < total) { setChapter(currentChapter + 1); loadAll(); saveState(); _maybeReloadCommentary(); }
     else {
@@ -3739,6 +3752,57 @@
       if (idx < ALL_BOOKS.length - 1) navigateToBook(ALL_BOOKS[idx + 1], 1);
     }
   });
+
+  // ── Admin mode (sequence: 3R 3L 2R 2L 1R 1L) ─────────────────────────
+  {
+    const ADMIN_SEQ = ['R','R','R','L','L','L','R','R','L','L','R','L'];
+    let _seqPos = 0;
+    let _seqTimer = null;
+    let _adminMode = sessionStorage.getItem('kkf_admin') === '1';
+
+    function _adminSeqTick(dir) {
+      clearTimeout(_seqTimer);
+      if (dir === ADMIN_SEQ[_seqPos]) {
+        _seqPos++;
+        if (_seqPos === ADMIN_SEQ.length) {
+          _seqPos = 0;
+          _toggleAdminMode();
+          return;
+        }
+      } else {
+        _seqPos = (dir === ADMIN_SEQ[0]) ? 1 : 0;
+      }
+      _seqTimer = setTimeout(() => { _seqPos = 0; }, 10000);
+    }
+
+    function _toggleAdminMode() {
+      _adminMode = !_adminMode;
+      sessionStorage.setItem('kkf_admin', _adminMode ? '1' : '0');
+      // Rebuild panel with heretical visible/hidden
+      TRANS_CATEGORIES.forEach(c => { if (c.id === 'heretical') c.hidden = !_adminMode; });
+      buildTransCategories();
+      // Badge
+      let badge = document.getElementById('_admin-badge');
+      if (!badge) {
+        badge = document.createElement('div');
+        badge.id = '_admin-badge';
+        badge.title = 'Admin modu — tekrar girmek için kapat';
+        badge.style.cssText = 'position:fixed;bottom:10px;left:10px;z-index:9999;background:rgba(220,38,38,.85);color:#fff;font-size:10px;font-weight:700;padding:3px 8px;border-radius:4px;cursor:pointer;letter-spacing:.04em;backdrop-filter:blur(4px);';
+        badge.textContent = 'ADMIN';
+        badge.addEventListener('click', _toggleAdminMode);
+        document.body.appendChild(badge);
+      }
+      badge.style.display = _adminMode ? 'block' : 'none';
+    }
+
+    // Restore badge if admin mode was active from a previous pageload
+    if (_adminMode) {
+      TRANS_CATEGORIES.forEach(c => { if (c.id === 'heretical') c.hidden = false; });
+    }
+
+    window._adminSeqTick = _adminSeqTick;
+    window._adminToggle  = _toggleAdminMode;
+  }
 
   // ── Verse hover & selection ───────────────────────────────────────────
   let hoveredVerse   = null;  // verse label string e.g. "3" or "3-5"
