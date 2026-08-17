@@ -1,5 +1,5 @@
 const SHELL_CACHE = 'kki-shell-v5';  // bumped: word study link fixes (verse tracking, consistent update)
-const DATA_CACHE  = 'kki-data-v12'; // bumped: TCL02 notes re-scraped, full footnote text restored
+const DATA_CACHE  = 'kki-data-v13'; // bumped: YTC updated from ebible.org/turytc with footnotes
 
 const SHELL_FILES = [
   '/',

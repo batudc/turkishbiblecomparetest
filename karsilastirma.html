@@ -1886,6 +1886,9 @@
     .ttt-star { color: #fbbf24; }
     .ttt-star:hover { color: #fde68a; opacity: 0.8; }
     .ttt-star:focus-visible { outline: 1px solid #fbbf24; outline-offset: 1px; }
+    .ytc-star { color: #86efac; }
+    .ytc-star:hover { color: #bbf7d0; opacity: 0.8; }
+    .ytc-star:focus-visible { outline: 1px solid #86efac; outline-offset: 1px; }
 
     #errata-tooltip {
       position: fixed;
@@ -2496,6 +2499,7 @@
     NLT: { cls: 'nlt-star',  symbol: '†', label: 'Footnote · NLT' },
     ESV: { cls: 'esv-star',  symbol: '†', label: 'Footnote · ESV' },
     TTT: { cls: 'ttt-star',  symbol: '†', label: 'Dipnot · TTT' },
+    YTC: { cls: 'ytc-star',  symbol: '†', label: 'Dipnot · YTC' },
   };
 
   // ── Translation availability helper ──────────────────────────────────
@@ -3482,7 +3486,7 @@
     function hide() { tip.classList.remove('visible'); activeStar = null; }
 
     document.addEventListener('click', e => {
-      const star = e.target.closest('.errata-star, .notes-star, .net-star, .niv-star, .nlt-star, .esv-star, .ttt-star');
+      const star = e.target.closest('.errata-star, .notes-star, .net-star, .niv-star, .nlt-star, .esv-star, .ttt-star, .ytc-star');
       if (star) {
         e.stopPropagation();
         if (activeStar === star) { hide(); return; }
@@ -5313,7 +5317,7 @@
       },
     },
     {
-      trySelectors: ['.notes-star','.net-star','.niv-star','.nlt-star','.esv-star','.ttt-star','.errata-star'],
+      trySelectors: ['.notes-star','.net-star','.niv-star','.nlt-star','.esv-star','.ttt-star','.ytc-star','.errata-star'],
       title: 'Dipnot ve Notlar',
       desc: '† ‡ * simgeleri ayet içinde dipnot veya çevirmen notu bulunan kelimeleri işaret eder. Simgeye tıkladığınızda kaynağı ve açıklaması görüntülenir.',
       pos: 'top',
