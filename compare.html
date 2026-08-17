@@ -3095,10 +3095,6 @@
 
   const TRANS_CATEGORIES = [
     {
-      id: 'eng-tr', label: 'ENG-TR',
-      subcats: [ { label: null, ids: ['ESV','TCL02'] } ]
-    },
-    {
       id: 'english', label: 'English',
       subcats: [ { label: null, ids: ['KJV','NKJV','ESV','NIV','NLT','NET','CSB','LSB'] } ]
     },
@@ -3367,6 +3363,7 @@
 
   const PRESETS = [
     { id:'favoriler',   label:'⭐ Favourites',      ids: () => getFavorites().filter(id => ALL_TRANS[id]?.loaded) },
+    { id:'eng-tr',      label:'ENG-TR',              ids: () => ['ESV','TCL02'] },
     { id:'millennials', label:'Millennials',         ids: () => ['ESV','NIV','NLT','NET','CSB','LSB'].filter(id => ALL_TRANS[id]?.loaded) },
     { id:'wordword',    label:'Word by Word',        ids: () => ['KJV','NKJV','ESV','LSB'].filter(id => ALL_TRANS[id]?.loaded) },
     { id:'meaning',     label:'Meaning to Meaning',  ids: () => ['NIV','NLT','NET','CSB'].filter(id => ALL_TRANS[id]?.loaded) },

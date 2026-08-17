@@ -3023,10 +3023,6 @@
 
   const TRANS_CATEGORIES = [
     {
-      id: 'tr-eng', label: 'TR-ENG',
-      subcats: [ { label: null, ids: ['TCL02','ESV'] } ]
-    },
-    {
       id: 'ottoman', label: 'Osmanlı Türkçesi',
       subcats: [
         { label: 'Tam Kutsal Kitap', ids: ['ALI1665','JDK1827','TUR1852-57','SEL1866-77','KM1886','KMEYA'] },
@@ -3310,6 +3306,7 @@
 
   const PRESETS = [
     { id:'favoriler', label:'⭐ Favoriler',  ids: () => getFavorites() },
+    { id:'tr-eng',    label:'TR-ENG',        ids: () => ['TCL02','ESV'] },
     { id:'modern',    label:'Modern',        ids: () => ['TCL02','YTC','TTT','HAKK','KMEYA'] },
     { id:'tarihi',    label:'Tarihi',        ids: () => ['ALI1665','KIE1819','JDK1827','TUR1852-57','SEL1866-77','KM1886'] },
     { id:'yeniant',   label:'Yeni Ant.',     ids: () => ['KIE1819','YYY1987','CAN','KKDEU','BGT','COS','TTT'] },
