@@ -3047,7 +3047,7 @@
       subcats: [ { label: null, ids: ['KJV','NKJV','ESV','NIV','NLT','NET','CSB','LSB'] } ]
     },
     {
-      id: 'heretical', label: 'Sapkın Türkçe Tercümeler',
+      id: 'heretical', label: 'Sapkın Türkçe Tercümeler', hidden: true,
       subcats: [ { label: null, ids: ['NWT2008','NWT2025'] } ]
     },
   ];
@@ -3152,6 +3152,7 @@
     const listEl = document.getElementById('trans-cat-list');
     listEl.innerHTML = '';
     TRANS_CATEGORIES.forEach(cat => {
+      if (cat.hidden) return;
       const loaded = _catAllIds(cat).filter(id => ALL_TRANS[id]?.loaded);
       const selCount = loaded.filter(id => selectedTranslations.has(id)).length;
 

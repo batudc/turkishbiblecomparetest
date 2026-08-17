@@ -542,6 +542,10 @@
     body.theme-sepia #state-no-results p  { color: rgba(44,36,22,0.3); }
 
     body.theme-dark #results-area   { background: #0e1e2c; }
+    body.theme-dark .ai-card-text   { color: rgba(247,241,232,.82); }
+    body.theme-dark .ai-results-title { color: rgba(247,241,232,.4); }
+    body.theme-dark .ai-loading     { color: rgba(247,241,232,.4); }
+    body.theme-dark .ai-empty-hint  { color: rgba(247,241,232,.4); }
 
     /* ===== MOBILE ===== */
     @media (max-width: 640px) {
@@ -1225,7 +1229,7 @@ const TRANS_CATEGORIES = [
   { id: 'english', label: 'English',
     subcats: [ { label: null, ids: ['KJV','NKJV','ESV','NIV','NLT','NET','CSB','LSB'] } ]
   },
-  { id: 'heretical', label: 'Sapkın Tercümeler',
+  { id: 'heretical', label: 'Sapkın Tercümeler', hidden: true,
     subcats: [ { label: null, ids: ['NWT2008','NWT2025'] } ]
   },
 ];
@@ -1283,6 +1287,7 @@ function buildTransPanel() {
   if (!listEl) return;
   listEl.innerHTML = '';
   TRANS_CATEGORIES.forEach(cat => {
+    if (cat.hidden) return;
     const loaded = _catIds(cat);
     if (!loaded.length) return;
     const selCount = loaded.filter(id => activeTids.includes(id)).length;
