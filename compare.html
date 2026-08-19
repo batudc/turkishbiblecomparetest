@@ -1614,6 +1614,18 @@
         overflow-y: auto; -webkit-overflow-scrolling: touch;
       }
 
+      /* — Two Columns (grid) layout on mobile: 2 columns side-by-side — */
+      #okuyucu_layout.layout-grid { display: flex !important; flex-direction: row; overflow: hidden; height: calc(100dvh - 80px); gap: 1px; padding: 0; }
+      #okuyucu_layout.layout-grid .col { display: none !important; }
+      #okuyucu_layout.layout-grid .col.mob-visible {
+        display: flex !important; flex: none !important;
+        width: 50% !important; min-width: 0; height: 100%; overflow: hidden;
+      }
+      #okuyucu_layout.layout-grid .col-content {
+        overflow-y: auto; -webkit-overflow-scrolling: touch; padding: 16px 10px 200vh;
+      }
+      body:has(#sidebar-panel.open) #okuyucu_layout.layout-grid { height: calc(66dvh - 52px); }
+
       /* Regular panels: drop down from header */
       .panel {
         display: flex !important; flex-direction: column;
@@ -2143,9 +2155,9 @@
   <div class="panel-section">
     <div class="panel-section-title">Layout</div>
     <div class="panel-row-group">
-      <label class="panel-option active"><input type="radio" name="layout" value="cols" checked> Columns</label>
+      <label class="panel-option active"><input type="radio" name="layout" value="cols" checked> Single Column</label>
       <label class="panel-option"><input type="radio" name="layout" value="rows"> Rows</label>
-      <label class="panel-option"><input type="radio" name="layout" value="grid"> Grid</label>
+      <label class="panel-option"><input type="radio" name="layout" value="grid"> Two Columns</label>
     </div>
   </div>
 </div>
@@ -4432,7 +4444,7 @@
   function setMobileActiveCol(idx) {
     const outerCols = document.querySelectorAll('#okuyucu_layout .col');
     const cols = getCols();
-    const isRows = isMobile() && (layoutMode === 'rows' || isLandscapeMobile());
+    const isRows = isMobile() && (layoutMode === 'rows' || layoutMode === 'grid' || isLandscapeMobile());
 
     let syncVerse = null;
     if (cols.length > 0 && mobActiveIdx < cols.length) {
@@ -4470,7 +4482,7 @@
 
   function applyMobileVisibility() {
     if (!isMobile()) return;
-    const isRows = layoutMode === 'rows' || isLandscapeMobile();
+    const isRows = layoutMode === 'rows' || layoutMode === 'grid' || isLandscapeMobile();
     document.querySelectorAll('#okuyucu_layout .col')
       .forEach((c, i) => {
         const visible = isRows
@@ -4510,7 +4522,7 @@
       if (Math.abs(dx) < 40 || Math.abs(dx) < Math.abs(dy) * 1.5) return;
       const total = document.querySelectorAll('#okuyucu_layout .col').length;
       if (total < 2) return;
-      const step = (layoutMode === 'rows' || isLandscapeMobile()) ? 2 : 1;
+      const step = (layoutMode === 'rows' || layoutMode === 'grid' || isLandscapeMobile()) ? 2 : 1;
       const next = dx < 0
         ? Math.min(mobActiveIdx + step, total - 1)
         : Math.max(mobActiveIdx - step, 0);
