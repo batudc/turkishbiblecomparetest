@@ -3853,6 +3853,7 @@
       sessionStorage.setItem('kkf_admin', _adminMode ? '1' : '0');
       TRANS_CATEGORIES.forEach(c => { if (c.id === 'heretical') c.hidden = !_adminMode; });
       buildTransCategories();
+      updateDefaultTransSelect();
       let badge = document.getElementById('_admin-badge');
       if (!badge) {
         badge = document.createElement('div');
@@ -4711,7 +4712,10 @@
     const sel = document.getElementById('default-trans-sel');
     if (!sel) return;
     const favs = getFavorites().filter(id => ALL_TRANS[id]?.loaded);
-    const pool = (favs.length > 0 ? favs : TRANS_ORDER.filter(id => ALL_TRANS[id]?.loaded)).slice().sort((a, b) => a.localeCompare(b));
+    const isAdmin = sessionStorage.getItem('kkf_admin') === '1';
+    const pool = (favs.length > 0 ? favs : TRANS_ORDER.filter(id => ALL_TRANS[id]?.loaded))
+      .filter(id => isAdmin || (id !== 'NWT2008' && id !== 'NWT2025'))
+      .slice().sort((a, b) => a.localeCompare(b));
     sel.innerHTML = '<option value="">— Select —</option>' +
       pool.map(id => {
         const meta = ALL_TRANS[id];
