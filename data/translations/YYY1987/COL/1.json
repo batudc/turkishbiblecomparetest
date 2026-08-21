@@ -4,8 +4,14 @@
   "c": 1,
   "content": [
     {
+      "section": "Dinlemek"
+    },
+    {
       "v": 1,
       "text": "Tanrı'nın isteğiyle Mesih İsa'nın elçisi atanan ben Pavlus ve kardeşimiz Timoteyus'tan, Kolose'de bulunan ve Mesih'e iman eden kutsal kardeşlere selam! Babamız Tanrı'dan size lütuf ve esenlik olsun."
+    },
+    {
+      "section": "Pavlus Tanrı'ya şükrediyor"
     },
     {
       "v": 3,
@@ -13,31 +19,34 @@
     },
     {
       "v": 4,
-      "text": "Çünkü Mesih İsa'ya iman ettiğinizi ve tüm kutsalları sevdiğinizi duymuş bulunuyoruz. ? İman ve sevginiz, göklerde sizin için saklı bulunan ümitten kaynaklanıyor. Bu ümidin"
+      "text": "Çünkü Mesih İsa'ya iman ettiğinizi ve tüm kutsalları sevdiğinizi duymuş bulunuyoruz."
     },
     {
       "v": 5,
-      "text": "haberini gerçeğin bildirisinden, yanı daha önce size ulaşmış olan Müjde'den aldınız. Müjde, tıpkı onu ışıttığınız ve Tanrı'nın lütfunu gerçekten anladığınız günden beri"
+      "text": "İman ve sevginiz, göklerde sizin için saklı bulunan ümitten kaynaklanıyor. Bu ümidin haberini gerçeğin bildirisinden, yani daha önce size ulaşmış olan Müjde'den aldınız. Müjde, tıpkı onu işittiğiniz ve Tanrı'nın lütfunu gerçekten anladığınız günden beri aranızda olduğu gibi, bütün dünyada da meyve vermekte ve yayılmaktadır."
     },
     {
       "v": 7,
-      "text": "aranızda olduğu gibi, bütün dünyada da meyve vermekte ve yayılmaktadır. 'Müjde'yi bizim adımıza Mesih'in güvenilir hizmetkârı olan sevgili emektaşımız Epafra'dan öğrendiniz."
+      "text": "Müjde'yi bizim adımıza Mesih'in güvenilir hizmetkârı olan sevgili emektaşımız Epafra'dan öğrendiniz."
     },
     {
       "v": 8,
       "text": "Ruh'tan kaynaklanan sevginizi de bize o bildirdi."
     },
     {
+      "section": "Pavlus'un Koloseliler için duası"
+    },
+    {
       "v": 9,
-      "text": "Bunu işittiğimiz günden beri biz de sizin için dua etmekten, tüm bilgelik ve ruhsal anlayışla Tanrı'nın isteğini tam olarak bilmenizi dilemekten geri kalmadık. '"
+      "text": "Bunu işittiğimiz günden beri biz de sizin için dua etmekten, tüm bilgelik ve ruhsal anlayışla Tanrı'nın isteğini tam olarak bilmenizi dilemekten geri kalmadık."
     },
     {
       "v": 10,
-      "text": "Rab'be yaraşır biçimde yaşamanız ve O'nu her yönden hoşnut etmeniz için, her iyi işte meyve vererek Tanrı'yı tanımakta ilerlemeniz"
+      "text": "Rab'be yaraşır biçimde yaşamanız ve O'nu her yönden hoşnut etmeniz için, her iyi işte meyve vererek Tanrı'yı tanımakta ilerlemeniz için dua ediyoruz."
     },
     {
       "v": 11,
-      "text": "için dua ediyoruz. ''Her şeye sevinçle katlanıp sabredebilmeniz için O'nun yüce gücüne dayanarak bütün kudretle güçlenmenizi diliyoruz."
+      "text": "Her şeye sevinçle katlanıp sabredebilmeniz için O'nun yüce gücüne dayanarak bütün kudretle güçlenmenizi diliyoruz."
     },
     {
       "v": 12,
@@ -45,23 +54,26 @@
     },
     {
       "v": 13,
-      "text": "O bizi karanlığın hükümranlığından kurtarıp sevgili Oğlunun egemenliğine aktardı. 'O'nda kurtuluşa, günahlarımızın bağışına sahibiz. Görünmez Tanrı'nın görüntüsü, bütün yaratılışın ilk doğanı O'dur. Nitekim gökte ve yeryüzünde, görünen ve görünmeyen şeyler, tahtlar, egemenlikler, yönetimler ve hükümranlıklar, her şey"
+      "text": "O bizi karanlığın hükümranlığından kurtarıp sevgili Oğlunun egemenliğine aktardı."
     },
     {
       "v": 14,
-      "text": "O'nda yaratıldı. Her şey O'nun"
+      "text": "O'nda kurtuluşa, günahlarımızın bağışına sahibiz."
+    },
+    {
+      "section": "Mesih'in kimliği ve görevi"
     },
     {
       "v": 15,
-      "text": "aracılığıyla ve O'nun için yaratılmıştır."
+      "text": "Görünmez Tanrı'nın görüntüsü, bütün yaratılışın ilk doğanı O'dur."
     },
     {
       "v": 16,
-      "text": "Her şeyden önce var olan O'dur ve"
+      "text": "Nitekim gökte ve yeryüzünde, görünen ve görünmeyen şeyler, tahtlar, egemenlikler, yönetimler ve hükümranlıklar, her şey O'nda yaratıldı. Her şey O'nun aracılığıyla ve O'nun için yaratılmıştır."
     },
     {
       "v": 17,
-      "text": "her şey varlığını O'nda sürdürmektedir."
+      "text": "Her şeyden önce var olan O'dur ve her şey varlığını O'nda sürdürmektedir."
     },
     {
       "v": 18,
@@ -69,35 +81,38 @@
     },
     {
       "v": 19,
-      "text": "Çünkü Tanrı, tüm doluluğunun O'nda bulunmasını uygun gördü. O'nun çarmıhta akıtılan kanı aracılığıyla esenliği sağlamış olarak yerde ve gökte olan her şeyi O'nun aracılığıyla kendisiyle barıştırmaya razı oldu. İYaptığınız kötülükler yüzünden bir zamanlar düşüncelerinizde Tanrı'ya yabancı ve düşmandınız. Şimdiyse Mesih, sızı Tanrı'nın önüne kutsal, lekesiz ve kusursuz olarak çıkarmak için öz bedeninin ölümü sayesinde sizi Tanrı'yla barıştırdı. Yeter ki, duyduğunuz müjdenin verdiği ümitten kımıldamadan, imanda temellenmiş ve yerleşmiş olarak kalın. Ben Pavlus, gök altındaki bütün yaratılışa duyurulan bu müjdenin hizmetkârı oldum. Sizin için acı çektiğime şimdi seviniyorum."
+      "text": "Çünkü Tanrı, tüm doluluğunun O'nda bulunmasını uygun gördü."
     },
     {
       "v": 20,
-      "text": "Mesih'in, kendi bedeni olan inanlılar"
+      "text": "O'nun çarmıhta akıtılan kanı aracılığıyla esenliği sağlamış olarak yerde ve gökte olan her şeyi O'nun aracılığıyla kendisiyle barıştırmaya razı oldu."
     },
     {
       "v": 21,
-      "text": "topluluğu uğruna çektiği"
+      "text": "Yaptığınız kötülükler yüzünden bir zamanlar düşüncelerinizde Tanrı'ya yabancı ve düşmandınız."
     },
     {
       "v": 22,
-      "text": "sıkıntılardan eksik kalanlarını kendi"
+      "text": "Şimdiyse Mesih, sizi Tanrı'nın önüne kutsal, lekesiz ve kusursuz olarak çıkarmak için öz bedeninin ölümü sayesinde sizi Tanrı'yla barıştırdı."
     },
     {
       "v": 23,
-      "text": "bedenimde tamamlıyorum. Tanrı'nın"
+      "text": "Yeter ki, duyduğunuz müjdenin verdiği ümitten kımıldamadan, imanda temellenmiş ve yerleşmiş olarak kalın. Ben Pavlus, gök altındaki bütün yaratılışa duyurulan bu müjdenin hizmetkârı oldum."
+    },
+    {
+      "section": "Pavlus'un imanlılara hizmeti"
     },
     {
       "v": 24,
-      "text": "sizin yararınıza bana verdiği görevle inanlılar"
+      "text": "Sizin için acı çektiğime şimdi seviniyorum. Mesih'in, kendi bedeni olan inanlılar topluluğu uğruna çektiği sıkıntılardan eksik kalanlarını kendi bedenimde tamamlıyorum."
     },
     {
       "v": 25,
-      "text": "topluluğunun hizmetkârı oldum. Görevim,"
+      "text": "Tanrı'nın sizin yararınıza bana verdiği görevle inanlılar topluluğunun hizmetkârı oldum. Görevim, Tanrı sözünü, yani geçmiş çağlardan ve kuşaklardan gizlenmiş, ama şimdi O'nun kutsallarına açıklanmış olan sırrı her yerde duyurmaktır."
     },
     {
       "v": 27,
-      "text": "Tanrı sözünü, yani geçmiş çağlardan ve kuşaklardan gizlenmiş, ama şimdi O'nun kutsallarına açıklanmış olan sırrı her yerde duyurmaktır. Tanrı, kendi kutsallarına bu sırrın uluslar arasında ne denli yüce ve zengin olduğunu bildirmek istedi. Bu sırrın özü şudur: Mesih içinizde bulunuyor. Bu da size yüceliğe kavuşma ümidini veriyor."
+      "text": "Tanrı, kendi kutsallarına bu sırrın uluslar arasında ne denli yüce ve zengin olduğunu bildirmek istedi. Bu sırrın özü şudur: Mesih içinizde bulunuyor. Bu da size yüceliğe kavuşma ümidini veriyor."
     },
     {
       "v": 28,

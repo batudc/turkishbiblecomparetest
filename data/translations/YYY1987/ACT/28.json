@@ -4,6 +4,12 @@
   "c": 28,
   "content": [
     {
+      "section": "Dinlemek"
+    },
+    {
+      "section": "Malta'da"
+    },
+    {
       "v": 1,
       "text": "Kurtulduktan sonra adanın Malta adını taşıdığını öğrendik."
     },
@@ -13,11 +19,11 @@
     },
     {
       "v": 3,
-      "text": "Pavlus bir yığın çalı çırpı toplayıp ateşin üzerine attı. O anda ısıdan kaçan bir engerek yılanı onun eline yapıştı. Yerliler, Pavlus'un"
+      "text": "Pavlus bir yığın çalı çırpı toplayıp ateşin üzerine attı. O anda ısıdan kaçan bir engerek yılanı onun eline yapıştı."
     },
     {
       "v": 4,
-      "text": "eline asılan yılanı görünce birbirlerine, “Bu adam kuşkusuz bir katıl” dediler. “Denizden kurtuldu, ama Adalet tanrıçası onu yaşatmadı.”"
+      "text": "Yerliler, Pavlus'un eline asılan yılanı görünce birbirlerine, «Bu adam kuşkusuz bir katil» dediler. «Denizden kurtuldu, ama Adalet tanrıçası onu yaşatmadı.»"
     },
     {
       "v": 5,
@@ -25,7 +31,7 @@
     },
     {
       "v": 6,
-      "text": "Halk, Pavlus'un bedeninin şişmesini ya da birdenbire ölü olarak yere yıkılmasını bekliyordu. Ama uzun süre bekleyip de ona bir şey olmadığını görünce fikirlerini değiştirdiler. “Bu bir ilahtır” dediler. \""
+      "text": "Halk, Pavlus'un bedeninin şişmesini ya da birdenbire ölü olarak yere yıkılmasını bekliyordu. Ama uzun süre bekleyip de ona bir şey olmadığını görünce fikirlerini değiştirdiler. «Bu bir ilahtır!» dediler."
     },
     {
       "v": 7,
@@ -41,15 +47,18 @@
     },
     {
       "v": 10,
-      "text": "Bizi bir sürü armağanla onurlandırdılar; denize açılacağımız zaman gereksindiğimiz malzemeleri gemiye yüklediler. \""
+      "text": "Bizi bir sürü armağanla onurlandırdılar; denize açılacağımız zaman gereksindiğimiz malzemeleri gemiye yüklediler."
+    },
+    {
+      "section": "Roma'ya varış"
     },
     {
       "v": 11,
-      "text": "Üç ay sonra, kışı adada geçirmiş olan ve \"ikiz tanrılar' simgesini taşıyan bir"
+      "text": "Üç ay sonra, kışı adada geçirmiş olan ve `ikiz tanrılar' simgesini taşıyan bir İskenderiye gemisiyle denize açıldık."
     },
     {
       "v": 12,
-      "text": "İskenderiye gemisiyle denize açıldık. Sirakuza kentine uğrayıp üç gün kaldık."
+      "text": "Sirakuza kentine uğrayıp üç gün kaldık."
     },
     {
       "v": 13,
@@ -57,19 +66,22 @@
     },
     {
       "v": 14,
-      "text": "Orada bulduğumuz kardeşler, bizi yanlarında bir hafta kalmaya çağırdılar. Sonunda Roma'ya vardık. \""
+      "text": "Orada bulduğumuz kardeşler, bizi yanlarında bir hafta kalmaya çağırdılar. Sonunda Roma'ya vardık."
     },
     {
       "v": 15,
-      "text": "Haberimizi almış olan Roma'daki kardeşler, bizi karşılamak için Apıyus çarşısına ve Uç Hanlar'a kadar geldiler. Pavlus onları görünce Tanrı'ya şükretti, yüreklendi."
+      "text": "Haberimizi almış olan Roma'daki kardeşler, bizi karşılamak için Apiyus çarşısına ve Üç Hanlar'a kadar geldiler. Pavlus onları görünce Tanrı'ya şükretti, yüreklendi."
     },
     {
       "v": 16,
       "text": "Roma'ya girdiğimizde Pavlus'un, bir asker gözetiminde yalnız başına kalmasına izin verildi."
     },
     {
+      "section": "Pavlus'un Roma'daki etkinlikleri"
+    },
+    {
       "v": 17,
-      "text": "Üç gün sonra Pavlus, Yahudilerin ileri gelenlerini bir araya çağırdı. Bunlar toplandıkları zaman Pavlus kendilerine şöyle dedi: “Kardeşler, halkımıza ya da atalarımızın törelerine karşı hiçbir şey yapmadığım halde, Kudüs'te tutuklanıp Romalıların eline teslim edildim."
+      "text": "Üç gün sonra Pavlus, Yahudilerin ileri gelenlerini bir araya çağırdı. Bunlar toplandıkları zaman Pavlus kendilerine şöyle dedi: «Kardeşler, halkımıza ya da atalarımızın törelerine karşı hiçbir şey yapmadığım halde, Kudüs'te tutuklanıp Romalıların eline teslim edildim."
     },
     {
       "v": 18,
@@ -81,47 +93,47 @@
     },
     {
       "v": 20,
-      "text": "Ben İsrail'in umudu uğruna bu zincire vurulmuş bulunuyorum. Sizi buraya, işte bu konuyu görüşmek ve konuşmak için çağırdım.”"
+      "text": "Ben İsrail'in umudu uğruna bu zincire vurulmuş bulunuyorum. Sizi buraya, işte bu konuyu görüşmek ve konuşmak içinçağırdım.»"
     },
     {
       "v": 21,
-      "text": "Onlar Pavlus'a, “Yahudiye'd"
+      "text": "Onlar Pavlus'a, «Yahudiye'den seninle ilgili mektup almadık, oradan gelen kardeşlerden hiçbiri de senin hakkında kötü bir haber getirmedi, kötü bir şey söylemedi» dediler."
     },
     {
       "v": 22,
-      "text": "en seninle ilgili mektup al"
+      "text": "«Biz senin fikirlerini senden duymak isteriz. Çünkü her yerde bu mezhebe karşı çıkıldığını biliyoruz.»"
     },
     {
       "v": 23,
-      "text": "madık, oradan gelen kardeşle"
+      "text": "Pavlus'la bir gün kararlaştırdılar ve o gün, daha büyük bir kalabalıkla onun kaldığı yere geldiler. Pavlus sabahtan akşama dek onlara Tanrı'nın Egemenliğine ilişkin açıklamalarda bulundu ve bu konuda tanıklık etti. Gerek Musa'nın Yasasına, gerek peygamberlerin yazılarına dayanarak onları İsa hakkında ikna etmeye çalıştı."
     },
     {
       "v": 24,
-      "text": "rden hiçbiri de senin hakkı"
+      "text": "Bazıları onun sözlerine inandı, bazıları ise inanmadı."
     },
     {
       "v": 25,
-      "text": "nda kötü bir haber getirmedi"
+      "text": "Birbirleriyle anlaşamayınca, Pavlus'un şu son sözünden sonra ayrıldılar: «Yeşaya peygamber aracılığıyla atalarınıza seslenen Kutsal Ruh doğru söyledi."
     },
     {
       "v": 26,
-      "text": ", kötü bir şey söylemedi” d"
+      "text": "Ruh dedi ki,"
     },
     {
       "v": 27,
-      "text": "ediler. “Biz senin fikirler"
+      "text": "Çünkü bu halkın yüreği duygusuzlaştı, kulakları ağır işitir oldu. Gözlerini de kapadılar. Öyle ki, gözleri görmesin, kulakları işitmesin, yürekleri anlamasın, ve bana dönmesinler. Dönselerdi, onları iyileştirirdim.'"
     },
     {
       "v": 28,
-      "text": "ini senden duymak isteriz. Ç"
+      "text": "«Şunu bilin ki, Tanrı'nın sağladığı bu kurtuluşun haberi diğer uluslara gönderilmiştir. Ve onlar buna kulak vereceklerdir.»"
     },
     {
       "v": 30,
-      "text": "ünkü her yerde bu mezhebe k"
+      "text": "Pavlus tam iki yıl kendi kiraladığı evde kaldı ve ziyaretine gelen herkesi kabul etti."
     },
     {
       "v": 31,
-      "text": "arşı çıkıldığını biliyoruz.”"
+      "text": "Hiçbir engelle karşılaşmadan Tanrı'nın Egemenliğini tam bir cesaretle duyuruyor, Rab İsa Mesih'le ilgili gerçekleri öğretiyordu."
     }
   ]
 }

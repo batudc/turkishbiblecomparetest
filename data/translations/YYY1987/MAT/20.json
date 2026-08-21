@@ -4,8 +4,11 @@
   "c": 20,
   "content": [
     {
+      "section": "Dinlemek"
+    },
+    {
       "v": 1,
-      "text": "“Göklerin Egemenliği, bağında çalışacak işçi tutmak için sabah erkenden dışarı çıkan toprak sahibine benzer."
+      "text": "«Göklerin Egemenliği, bağında çalışacak işçi tutmak için sabah erkenden dışarı çıkan toprak sahibine benzer."
     },
     {
       "v": 2,
@@ -13,27 +16,27 @@
     },
     {
       "v": 3,
-      "text": "“Saat dokuza doğru tekrar dışarı çıkmış, çarşı meydanında boş duran başka adamlar görmüş."
+      "text": "«Saat dokuza doğru tekrar dışarı çıkmış, çarşı meydanında boş duran başka adamlar görmüş."
     },
     {
       "v": 4,
-      "text": "Onlara, \"Siz de bağa gidip çalışın. Hakkınız ne ise, veririm' demiş, onlar da bağa gitmişler. “Öğleyin ve saat üçe doğru yine çıkıp aynı şeyi yapmış."
+      "text": "Onlara, `Siz de bağa gidip çalışın. Hakkınız ne ise, veririm' demiş, onlar da bağa gitmişler. «Öğleyin ve saat üçe doğru yine çıkıp aynı şeyi yapmış."
     },
     {
       "v": 6,
-      "text": "Saat beşe doğru çıkınca, orada duran daha başkalarını görmüş. Onlara, Neden bütün gün burada boş duruyorsunuz? diye sormuş."
+      "text": "Saat beşe doğru çıkınca, orada duran daha başkalarını görmüş. Onlara, `Neden bütün gün burada boş duruyorsunuz?' diye sormuş."
     },
     {
       "v": 7,
-      "text": "\" “ Kimse bize iş vermedi ki' demişler. “Onlara, Siz de bağa gidin, çalışın' demiş."
+      "text": "«`Kimse bize iş vermedi ki' demişler. «Onlara, `Siz de bağa gidin, çalışın' demiş."
     },
     {
       "v": 8,
-      "text": "“Akşam olunca, bağın sahibi kâhyasına, \"İşçileri çağır' demiş. 'Sonunculardan başlayarak, birincilerine kadar, hepsine ücretlerini ver."
+      "text": "«Akşam olunca, bağın sahibi kâhyasına, `İşçileri çağır' demiş. `Sonunculardan başlayarak, birincilerine kadar, hepsine ücretlerini ver.'"
     },
     {
       "v": 9,
-      "text": "' ” “Saat beşe doğru işe başlamış olanlar gelip kâhyadan birer dinar almışlar."
+      "text": "«Saat beşe doğru işe başlamış olanlar gelip kâhyadan birer dinar almışlar."
     },
     {
       "v": 10,
@@ -41,35 +44,41 @@
     },
     {
       "v": 11,
-      "text": "' 'Paralarını alınca bağın sahibine karşı söylenmeye başlamışlar. '"
+      "text": "Paralarını alınca bağın sahibine karşı söylenmeye başlamışlar."
     },
     {
       "v": 12,
-      "text": "Bu sonuncular yalnız bir saat çalıştılar' demişler. Ama sen onları, günün yükünü ve sıcağını çeken bizlerle bir tuttun\" b “Bağın"
+      "text": "`Bu sonuncular yalnız bir saat çalıştılar' demişler. `Ama sen onları, günün yükünü ve sıcağını çeken bizlerle bir tuttun!'"
     },
     {
       "v": 13,
-      "text": "sahibi onlardan birine şöyle karşılık vermiş: Arkadaş, sana haksızlık ettiğim yok! Seninle bir dinara anlaşmadık mı?"
+      "text": "«Bağın sahibi onlardan birine şöyle karşılık vermiş: `Arkadaş, sana haksızlık ettiğim yok! Seninle bir dinara anlaşmadık mı?"
     },
     {
       "v": 14,
-      "text": "Hakkını al, git! Sana verdiğimi bu sonuncuya da vermek istiyorum."
+      "text": "Hakkını al, git! Sana verdiğimi bu sonuncuya davermek istiyorum."
     },
     {
       "v": 15,
-      "text": "Kendi paramla istediğimi yapmaya hakkım yok mu? Yoksa elim açık diye kıskanıyor musun?"
+      "text": "Kendi paramla istediğimi yapmaya hakkım yok mu? Yoksa elim açık diye kıskanıyor musun?'"
     },
     {
       "v": 16,
-      "text": "İşte böylece sonuncular birinci, birinciler de sonuncu olacak. ”"
+      "text": "«İşte böylece sonuncular birinci, birinciler de sonuncu olacak.»"
+    },
+    {
+      "section": "İsa ölüp dirileceğini üçüncü kez bildiriyor"
     },
     {
       "v": 17,
-      "text": "Sİsa Kudüs'e giderken, yolda on iki öğrencisini bir yana çekip onlara özel olarak şunu söyledi: “Şimdi Kudüs'e gidiyoruz. İnsanoğlu, başkâhinlerin ve din bilginlerinin eline teslim edilecek, onlar da O'nu ölüm cezasına çarptıracaklar. ?"
+      "text": "İsa Kudüs'e giderken, yolda on iki öğrencisini bir yana çekip onlara özel olarak şunu söyledi: «Şimdi Kudüs'e gidiyoruz. İnsanoğlu, başkâhinlerin ve din bilginlerinin eline teslim edilecek, onlar da O'nu ölüm cezasına çarptıracaklar."
     },
     {
       "v": 19,
-      "text": "O'nunla alay etmeleri, kamçılayıp çarmıha germeleri için O'nu diğer uluslara teslim edecekler. Ne var ki O, üçüncü gün dirilecek. ”"
+      "text": "O'nunla alay etmeleri, kamçılayıp çarmıha germeleri için O'nu diğer uluslara teslim edecekler. Ne var ki O, üçüncü gün dirilecek.»"
+    },
+    {
+      "section": "Bir annenin isteği"
     },
     {
       "v": 20,
@@ -77,15 +86,15 @@
     },
     {
       "v": 21,
-      "text": "İsa kadına, “Ne istiyorsun?"
+      "text": "İsa kadına, «Ne istiyorsun?» diye sordu. Kadın O'na, «Buyruk ver de senin egemenliğinde bu iki oğlumdan biri senin sağında, biri de solunda otursun» dedi."
     },
     {
       "v": 22,
-      "text": "” diye sordu. Kadın O'na, “Buyruk ver de senin egemenliğinde bu iki oğlumdan biri senin sağında, biri de solunda otursun” dedi. “Siz ne dilediğinizi bilmiyorsunuz” diye karşılık verdi İsa. “Benim içeceğim kâseden siz içebilir misiniz? ” “Evet, içebiliriz” dediler."
+      "text": "«Siz ne dilediğinizi bilmiyorsunuz» diye karşılık verdi İsa. «Benim içeceğim kâseden siz içebilir misiniz?» «Evet, içebiliriz» dediler."
     },
     {
       "v": 23,
-      "text": "İsa onlara, “Elbette benim kâsemden içeceksiniz” dedi, “ama sağımda ya da solumda oturmanıza izin vermek benim elimde değil. Babam bu yerleri belirli kişiler için hazırlamıştır. ”"
+      "text": "İsa onlara, «Elbette benim kâsemden içeceksiniz» dedi, «ama sağımda ya da solumda oturmanıza izin vermek benim elimde değil. Babam bu yerleri belirli kişiler için hazırlamıştır.»"
     },
     {
       "v": 24,
@@ -93,7 +102,7 @@
     },
     {
       "v": 25,
-      "text": "Ama İsa onları yanına çağırıp şöyle dedi: “Bilirsiniz ki, ulusların önderleri onları egemenlik hırsıyla yönetirler, ileri gelenleri de onlara ağırlıklarını hissettirirler."
+      "text": "Ama İsa onları yanına çağırıp şöyle dedi: «Bilirsiniz ki, ulusların önderleri onları egemenlik hırsıyla yönetirler, ileri gelenleri de onlara ağırlıklarını hissettirirler."
     },
     {
       "v": 26,
@@ -105,27 +114,30 @@
     },
     {
       "v": 28,
-      "text": "Nitekim İnsanoğlu, hizmet edilmeye değil, hizmet etmeye ve canını birçokları uğruna fidye olarak vermeye geldi. ”"
+      "text": "Nitekim İnsanoğlu, hizmet edilmeye değil, hizmet etmeye ve canını birçokları uğruna fidye olarak vermeye geldi.»"
+    },
+    {
+      "section": "İki körün gözleri açılıyor"
     },
     {
       "v": 29,
-      "text": "”Eriha'dan ayrılırlarken büyük bir kalabalık İsa'nın ardından gitti."
+      "text": "Eriha'dan ayrılırlarken büyük bir kalabalık İsa'nın ardından gitti."
     },
     {
       "v": 30,
-      "text": "Yol kenarında oturan iki kör adam, İsa'nın oradan geçmekte olduğunu duyunca, “Ya Rab, ey Davut Oğlu, halimize acı! ” diye bağırdılar."
+      "text": "Yol kenarında oturan iki kör adam, İsa'nın oradan geçmekte olduğunu duyunca, «Ya Rab, ey Davut Oğlu, halimize acı!» diye bağırdılar."
     },
     {
       "v": 31,
-      "text": "Kalabalık onları azarlayarak susturmak istediyse de onlar, “Ya Rab, ey Davut Oğlu, halimize acı! ” diyerek daha çok bağırdılar."
+      "text": "Kalabalık onları azarlayarak susturmak istediyse de onlar, «Ya Rab, ey Davut Oğlu, halimize acı!» diyerek daha çok bağırdılar."
     },
     {
       "v": 32,
-      "text": "İsa durup onları çağırdı. “Sizin için ne yapmamı istiyorsunuz? ” diye sordu."
+      "text": "İsa durup onları çağırdı. «Sizin için ne yapmamı istiyorsunuz?» diye sordu."
     },
     {
       "v": 33,
-      "text": "Onlar da, “Ya Rab, gözlerimiz açılsın” dediler."
+      "text": "Onlar da, «Ya Rab, gözlerimiz açılsın» dediler."
     },
     {
       "v": 34,

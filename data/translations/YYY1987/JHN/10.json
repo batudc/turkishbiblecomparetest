@@ -4,16 +4,22 @@
   "c": 10,
   "content": [
     {
+      "section": "Dinlemek"
+    },
+    {
+      "section": "İyi çoban"
+    },
+    {
       "v": 1,
-      "text": "“Size doğrusunu söyleyeyim, koyun ağılına"
+      "text": "«Size doğrusunu söyleyeyim, koyun ağılına kapıdan girmeyip başka yoldan giren kişi hırsız ve hayduttur."
     },
     {
       "v": 2,
-      "text": "kapıdan girmeyip başka yoldan giren kişi hırsız ve hayduttur."
+      "text": "Kapıdan giren ise koyunların çobanıdır."
     },
     {
       "v": 3,
-      "text": "Kapıdan giren ise koyunların çobanıdır. Kapıyı bekleyen ona kapıyı açar. Koyunlar çobanın sesini işitirler, o da kendi koyunlarını adlarıyla çağırır ve onları dışarı götürür."
+      "text": "Kapıyı bekleyen ona kapıyı açar. Koyunlar çobanın sesini işitirler, o da kendi koyunlarını adlarıyla çağırır ve onları dışarı götürür."
     },
     {
       "v": 4,
@@ -21,27 +27,27 @@
     },
     {
       "v": 5,
-      "text": "Bir yabancının peşinden gitmezler, ondan kaçarlar. Çünkü yabancıların sesini tanımazlar.”"
+      "text": "Bir yabancının peşinden gitmezler, ondan kaçarlar. Çünkü yabancıların sesini tanımazlar.»"
     },
     {
       "v": 6,
-      "text": "İsa onlara bu örneği anlattıysa da, ne demek istediğini anlamadılar. \"B"
+      "text": "İsa onlara bu örneği anlattıysa da, ne demek istediğini anlamadılar."
     },
     {
       "v": 7,
-      "text": "unun için İsa yine, “Size doğrusunu söyleyeyim” dedi, “ben koyunların kapısıyım."
+      "text": "Bunun için İsa yine, «Size doğrusunu söyleyeyim» dedi, «ben koyunların kapısıyım."
     },
     {
       "v": 8,
-      "text": "Benden önce gelenlerin hepsi hırsız ve hayduttu, ama koyunlar onları dinlemedi. '"
+      "text": "Benden önce gelenlerin hepsi hırsız ve hayduttu, ama koyunlar onları dinlemedi."
     },
     {
       "v": 9,
-      "text": "Kapı ben'im. Bir kimse benim aracılığımla içeri girerse kurtulur. Girer, çıkar ve otlak bulur."
+      "text": "Kapı ben'im. Bir kimsebenim aracılığımla içeri girerse kurtulur. Girer, çıkar ve otlak bulur."
     },
     {
       "v": 10,
-      "text": "HYrsyz ancak çalıp öldürmek ve yok etmek için gelir. Bense insanlar yaama, bol yaama sahip olsunlar diye geldim. '"
+      "text": "Hırsız ancak çalıp öldürmek ve yok etmek için gelir. Bense insanlar yaşama, bol yaşama sahip olsunlar diye geldim."
     },
     {
       "v": 11,
@@ -61,7 +67,7 @@
     },
     {
       "v": 16,
-      "text": "Bu ağıldan olmayan başka koyunlarım var. Onları da getirmeliyim. Benim sesimi işitecekler ve tek sürü, tek çoban olacak. ''"
+      "text": "Bu ağıldan olmayan başka koyunlarım var. Onları da getirmeliyim. Benim sesimi işitecekler ve tek sürü, tek çoban olacak."
     },
     {
       "v": 17,
@@ -69,7 +75,7 @@
     },
     {
       "v": 18,
-      "text": "Canımı kimse benden alamaz; ben onu kendiliğimden veririm. Onu vermeye de tekrar geri almaya da yetkim var. Bu buyruğu Babamdan aldım.”"
+      "text": "Canımı kimse benden alamaz; ben onu kendiliğimden veririm. Onu vermeye de tekrar geri almaya da yetkim var. Bu buyruğu Babamdan aldım.»"
     },
     {
       "v": 19,
@@ -77,11 +83,14 @@
     },
     {
       "v": 20,
-      "text": "Birçoğu, “O'nu cin çarpmış, delidir. Niçin O'nu dinliyorsunuz?” diyordu."
+      "text": "Birçoğu, «O'nu cin çarpmış, delidir. Niçin O'nu dinliyorsunuz?» diyordu."
     },
     {
       "v": 21,
-      "text": "Başkaları ise, “Bunlar, cin çarpmış bir adamın sözleri dedildir” dediler. “Cin, körlerin gözlerini açabılır mi?”"
+      "text": "Başkaları ise, «Bunlar, cin çarpmış bir adamın sözleri değildir» dediler. «Cin, körlerin gözlerini açabilir mi?»"
+    },
+    {
+      "section": "İsa'ya karşı tepkiler büyüyor"
     },
     {
       "v": 22,
@@ -93,11 +102,11 @@
     },
     {
       "v": 24,
-      "text": "Yahudiler O'nun çevresini sararak, “Bizi daha ne kadar zaman kuşkuda bırakacaksın?” dediler. “Eğer Mesih isen, bize açıkça söyle.”"
+      "text": "Yahudiler O'nun çevresini sararak, «Bizi daha ne kadar zaman kuşkuda bırakacaksın?» dediler. «Eğer Mesih isen, bize açıkça söyle.»"
     },
     {
       "v": 25,
-      "text": "İsa onlara bu karşılığı verdi: “Size söyledim, ama iman etmiyorsunuz. Babamın adıyla yaptığım işler bana tanıklık ediyor."
+      "text": "İsa onlara şu karşılığı verdi: «Size söyledim, ama iman etmiyorsunuz. Babamın adıyla yaptığım işler bana tanıklık ediyor."
     },
     {
       "v": 26,
@@ -113,11 +122,11 @@
     },
     {
       "v": 29,
-      "text": "”Onları bana veren Babam her şeyden üstündür. Onları Baba'nın elinden kapmaya kimsenin gücü yetmez."
+      "text": "Onları bana veren Babam her şeyden üstündür. Onları Baba'nın elinden kapmaya kimsenin gücü yetmez."
     },
     {
       "v": 30,
-      "text": "Ben ve Baba biriz.”"
+      "text": "Ben ve Baba biriz.»"
     },
     {
       "v": 31,
@@ -125,15 +134,15 @@
     },
     {
       "v": 32,
-      "text": "İsa onlara, “Size Baba'dan kaynaklanan birçok iyi işler gösterdim” dedi. “Bu işlerden hangisi için beni taşlıyorsunuz?”"
+      "text": "İsa onlara, «Size Baba'dan kaynaklanan birçok iyi işler gösterdim» dedi. «Bu işlerden hangisi için beni taşlıyorsunuz?»"
     },
     {
       "v": 33,
-      "text": "Yahudiler şöyle cevap verdiler: “Seni iyi işlerden ötürü değil, küfür ettiğin için taşlıyoruz. İnsan olduödun halde Tanrı olduödunu ileri sürüyorsun.”"
+      "text": "Yahudiler şöyle cevap verdiler: «Seni iyi işlerden ötürü değil, küfür ettiğin için taşlıyoruz. İnsan olduğun halde Tanrı olduğunu ileri sürüyorsun.»"
     },
     {
       "v": 34,
-      "text": "İsa bu karşılığı verdi: “Yasanızda, Siz ilahlarsınız, dedim' diye yazılı değil mi"
+      "text": "İsa şu karşılığı verdi: «Yasanızda, `Siz ilahlarsınız, dedim' diye yazılı değil mi?"
     },
     {
       "v": 35,
@@ -141,15 +150,15 @@
     },
     {
       "v": 36,
-      "text": "Baba beni kendine ayırıp dünyaya gönderdi. Öyleyse \"Tanrı'nın Oğluyum' dediğim için ban"
+      "text": "Baba beni kendine ayırıp dünyaya gönderdi. Öyleyse `Tanrı'nın Oğluyum' dediğim için bana nasıl `Küfür ediyorsun' dersiniz?"
     },
     {
       "v": 37,
-      "text": "a nasıl Küfür ediyorsun' dersiniz? 'Eğer Babamın işlerini yapmıyorsam, bana iman etmeyin."
+      "text": "Eğer Babamın işlerini yapmıyorsam, bana iman etmeyin."
     },
     {
       "v": 38,
-      "text": "Ama yapıyorsam, bana iman etmeseniz bile, yaptığım işlere iman edin. Öyle ki, Baba'nın bende, benim de Baba'da olduğumu bilesiniz ve anlayasınız.”"
+      "text": "Ama yapıyorsam, bana iman etmeseniz bile, yaptığım işlere iman edin. Öyle ki, Baba'nın bende, benim de Baba'da olduğumu bilesiniz ve anlayasınız.»"
     },
     {
       "v": 39,
@@ -157,11 +166,11 @@
     },
     {
       "v": 40,
-      "text": "Tekrar eria nehrinin ötesine, Yahya'nın başlangıçta vaftiz ettiği yere gitti ve orada kaldı,."
+      "text": "Tekrar Şeria nehrinin ötesine, Yahya'nın başlangıçta vaftiz ettiği yere gitti ve orada kaldı."
     },
     {
       "v": 41,
-      "text": "IBirçoklary, “Yahya hiç mucize yapmadı, ama bu adam için söylediklerinin hepsi doğru çıktı” diyerek İsa'ya geldiler."
+      "text": "Birçokları, «Yahya hiç mucize yapmadı, ama bu adam için söylediklerinin hepsi doğru çıktı» diyerek İsa'ya geldiler."
     },
     {
       "v": 42,

@@ -1,1 +1,95 @@
-{"t":"YYY1987","b":"MAT","c":28,"content":[{"v":1,"text":"Sept gününü izleyen haftanın ilk günü, tan yeri ağarırken, Mecdelli Meryem ile öbür Meryem mezarı görmeye gittiler."},{"v":2,"text":"Ansızın büyük bir deprem oldu. Rab'bin bir meleği gökten indi ve mezara gidip taşı bir yana yuvarlayarak üzerine oturdu."},{"v":3,"text":"Görünüşü şimşek gibi, giysileri ise kar gibi bembeyazdı."},{"v":4,"text":"Nöbetçiler korkudan titremeye başladılar, sonra ölü gibi yere yıkıldılar."},{"v":5,"text":"Melek kadınlara şöyle seslendi: “Korkmayın! Çarmıha gerilmiş olan İsa'yı aradığınızı biliyorum."},{"v":6,"text":"O burada yok; söylemiş olduğu gibi dirildi. Gelin, O'nun yattığı yeri görün."},{"v":7,"text":"Hemen O'nun öğrencilerine gidip şöyle deyin: \"İsa ölümden dirildi. Sizden önce Celile'ye gidiyor, kendisini orada göreceksiniz. İşte ben size söylemiş bulunuyorum. ”"},{"v":8,"text":"Kadınlar, hem korku hem büyük sevinç içinde, çabucak mezardan uzaklaşıp koşa koşa İsa'nın öğrencilerine haber vermeye gittiler."},{"v":9,"text":"”Ansızın İsa onların karşısına çıktı, “Selam size! ” dedi. Onlar da yaklaşıp İsa'nın ayaklarına sarıldılar, O'na tapınmaya başladılar."},{"v":10,"text":"O zaman İsa onlara, “Korkmayın! ” dedi. “Gidip kardeşlerime haber verin, Celile'ye gitsinler, beni orada görecekler. ”"},{"v":11,"text":"Kadınlar daha yoldayken nöbetçi askerlerden bazıları kente giderek olup bitenlerin hepsini başkâhinlere bildirdiler. '"},{"v":12,"text":"Başkâhinler ihtiyarlarla birlikte toplanıp birbirlerine danıştıktan sonra askerlere çok miktarda para vererek dediler ki, “Siz şöyle diyeceksiniz: \"Öğrencileri geceleyin geldi, biz uyurken O'nun cesedini çalıp götürdüler."},{"v":14,"text":"Eğer bu haber valinin kulağına gidecek olursa biz onu yatıştırır, size bir zarar gelmesini önleriz. ”"},{"v":15,"text":"Böylece askerler parayı aldılar ve kendilerine söylendiği gibi yaptılar. Bu söylenti bugüne dek Yahudiler arasında tekrarlanagelmiştir."},{"v":16,"text":"On bir öğrenci Celile'ye, İsa'nın kendilerine bildirdiği dağa gittiler."},{"v":17,"text":"' 'İsa'yı gördükleri zaman O'na tapındılar. Ama bazıları kuşku içindeydi."},{"v":18,"text":"İsa yanlarına gelip kendilerine şunları söyledi: “Gökte ve yeryüzünde bütün yetki bana verildi."},{"v":19,"text":"Bu nedenle gidin, bütün ulusları öğrencilerim olarak yetiştirin. Onları Baba, Oğul ve Kutsal Ruh'un adıyla\" ! vaftiz edin."},{"v":20,"text":"Size buyurduğum her şeye uymayı onlara öğretin. İşte ben, dünyanın sonuna dek her an sizinle birlikteyim. ”"}]}
+{
+  "t": "YYY1987",
+  "b": "MAT",
+  "c": 28,
+  "content": [
+    {
+      "section": "Dinlemek"
+    },
+    {
+      "section": "İsa'nın dirilişi"
+    },
+    {
+      "v": 1,
+      "text": "Sept gününü izleyen haftanın ilk günü, tan yeri ağarırken, Mecdelli Meryem ile öbür Meryem mezarı görmeye gittiler."
+    },
+    {
+      "v": 2,
+      "text": "Ansızın büyük bir deprem oldu. Rab'bin bir meleği gökten indi ve mezara gidip taşı bir yana yuvarlayarak üzerine oturdu."
+    },
+    {
+      "v": 3,
+      "text": "Görünüşü şimşek gibi, giysileri ise kar gibi bembeyazdı."
+    },
+    {
+      "v": 4,
+      "text": "Nöbetçiler korkudan titremeye başladılar, sonra ölü gibi yere yıkıldılar."
+    },
+    {
+      "v": 5,
+      "text": "Melek kadınlara şöyle seslendi: «Korkmayın! Çarmıha gerilmiş olan İsa'yı aradığınızı biliyorum."
+    },
+    {
+      "v": 6,
+      "text": "O burada yok; söylemiş olduğu gibi dirildi. Gelin, O'nun yattığı yeri görün."
+    },
+    {
+      "v": 7,
+      "text": "Hemen O'nun öğrencilerine gidip şöyle deyin: `İsa ölümden dirildi. Sizden önce Celile'ye gidiyor, kendisini orada göreceksiniz.' İşte ben size söylemiş bulunuyorum.»"
+    },
+    {
+      "v": 8,
+      "text": "Kadınlar, hem korku hem büyük sevinç içinde, çabucak mezardan uzaklaşıp koşa koşa İsa'nın öğrencilerine haber vermeye gittiler."
+    },
+    {
+      "v": 9,
+      "text": "Ansızın İsa onların karşısına çıktı, «Selam size!» dedi. Onlar da yaklaşıp İsa'nın ayaklarına sarıldılar, O'na tapınmaya başladılar."
+    },
+    {
+      "v": 10,
+      "text": "O zaman İsa onlara, «Korkmayın!» dedi. «Gidip kardeşlerime haber verin, Celile'ye gitsinler, beni orada görecekler.»"
+    },
+    {
+      "section": "Nöbetçilerin getirdiği haber"
+    },
+    {
+      "v": 11,
+      "text": "Kadınlar daha yoldayken nöbetçi askerlerden bazıları kente giderek olup bitenlerin hepsini başkâhinlere bildirdiler."
+    },
+    {
+      "v": 12,
+      "text": "Başkâhinler ihtiyarlarla birlikte toplanıp birbirlerine danıştıktan sonra askerlere çok miktarda para vererek dediler ki, «Siz şöyle diyeceksiniz: `Öğrencileri geceleyin geldi, biz uyurken O'nun cesedini çalıp götürdüler.'"
+    },
+    {
+      "v": 14,
+      "text": "Eğer bu haber valinin kulağına gidecek olursa biz onu yatıştırır, size bir zarar gelmesini önleriz.»"
+    },
+    {
+      "v": 15,
+      "text": "Böylece askerler parayı aldılar ve kendilerine söylendiği gibi yaptılar. Bu söylenti bugüne dek Yahudiler arasında tekrarlanagelmiştir."
+    },
+    {
+      "section": "Son buyruk"
+    },
+    {
+      "v": 16,
+      "text": "On bir öğrenci Celile'ye, İsa'nın kendilerine bildirdiği dağagittiler."
+    },
+    {
+      "v": 17,
+      "text": "İsa'yı gördükleri zaman O'na tapındılar. Ama bazıları kuşku içindeydi."
+    },
+    {
+      "v": 18,
+      "text": "İsa yanlarına gelip kendilerine şunları söyledi: «Gökte ve yeryüzünde bütün yetki bana verildi."
+    },
+    {
+      "v": 19,
+      "text": "Bu nedenle gidin, bütün ulusları öğrencilerim olarak yetiştirin. Onları Baba, Oğul ve Kutsal Ruh'un adıyla vaftiz edin."
+    },
+    {
+      "v": 20,
+      "text": "Size buyurduğum her şeye uymayı onlara öğretin. İşte ben, dünyanın sonuna dek her an sizinle birlikteyim.»"
+    }
+  ]
+}

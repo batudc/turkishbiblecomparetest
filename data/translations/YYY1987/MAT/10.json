@@ -4,8 +4,14 @@
   "c": 10,
   "content": [
     {
+      "section": "Dinlemek"
+    },
+    {
+      "section": "İsa on iki elçisini göreve gönderiyor"
+    },
+    {
       "v": 1,
-      "text": "İsa on iki öğrencisini yanına çağırdı; kötü ruhları kovmak ve her hastalığı, her illeti ıyıleştirmek üzere onlara kötü ruhlar üzerine yetki verdi."
+      "text": "İsa on iki öğrencisini yanına çağırdı; kötü ruhları kovmak ve her hastalığı, her illeti iyileştirmek üzere onlara kötü ruhlar üzerine yetki verdi."
     },
     {
       "v": 2,
@@ -13,7 +19,7 @@
     },
     {
       "v": 5,
-      "text": "”İsa Onikileri şu buyrukla halkın arasına gönderdi: “Diğer uluslara ait yerlere gitmeyin. Samiriyelilere ait kentlerin de hiçbirine uğramayın."
+      "text": "İsa Onikileri şu buyrukla halkın arasına gönderdi: «Diğer uluslara ait yerlere gitmeyin. Samiriyelilere ait kentlerin de hiçbirine uğramayın."
     },
     {
       "v": 6,
@@ -25,11 +31,11 @@
     },
     {
       "v": 8,
-      "text": "Hastaları iyileştirin, ölüleri dıriltin, cüzamlıları temiz kılın, cinleri kovun. Karşılıksız aldınız, karşılıksız verin."
+      "text": "Hastaları iyileştirin, ölüleri diriltin, cüzamlıları temiz kılın, cinleri kovun. Karşılıksız aldınız, karşılıksız verin."
     },
     {
       "v": 9,
-      "text": "”Kuşağınıza altın, gümüş, ya da bakır para koymayın."
+      "text": "Kuşağınıza altın, gümüş, ya da bakır para koymayın."
     },
     {
       "v": 10,
@@ -56,8 +62,11 @@
       "text": "Size doğrusunu söyleyeyim, yargı günü Sodom ve Gomora diyarının hali o kentin halinden daha dayanılır olacaktır."
     },
     {
+      "section": "Gelecekteki sıkıntılar"
+    },
+    {
       "v": 16,
-      "text": "İşte, kurtların arasına koyunlar gibi gönderiyorum sizi. Yılan gibi akıllı, güvercin gibi saf olun."
+      "text": "«İşte, kurtların arasına koyunlar gibi gönderiyorum sizi. Yılan gibi akıllı, güvercin gibi saf olun."
     },
     {
       "v": 17,
@@ -73,11 +82,11 @@
     },
     {
       "v": 20,
-      "text": "Çünkü konuşacak olan siz olmayacaksınız,"
+      "text": "Çünkü konuşacak olan siz olmayacaksınız, Babanızın Ruhu sizin aracılığınızla konuşacaktır."
     },
     {
       "v": 21,
-      "text": "Babanızın Ruhu sizin aracılığınızla konuşacaktır. “Kardeş kardeşini, baba çocuğunu ölüme teslim edecek. Çocuklar anne babalarına baş kaldırıp onları öldürtecekler."
+      "text": "«Kardeş kardeşini, baba çocuğunu ölüme teslim edecek. Çocuklar anne babalarına baş kaldırıp onları öldürtecekler."
     },
     {
       "v": 22,
@@ -89,15 +98,18 @@
     },
     {
       "v": 24,
-      "text": "“Öğrenci öğretmeninden, köle de efendisinden üstün değildir."
+      "text": "«Öğrenci öğretmeninden, köle de efendisinden üstün değildir."
     },
     {
       "v": 25,
       "text": "Öğrencinin öğretmeni gibi, kölenin de efendisi gibi olması yeterlidir. Eğer insanlar evin efendisine Beelzebub derlerse, ev halkına daha neler demezler!"
     },
     {
+      "section": "Kimden korkmalı"
+    },
+    {
       "v": 26,
-      "text": "Bunun için onlardan korkmayın. Örtülü olup da açığa çıkarılmayacak, gizli olup da bilinmeyecek hiçbir şey yoktur."
+      "text": "«Bunun için onlardan korkmayın. Örtülü olup da açığa çıkarılmayacak, gizli olup da bilinmeyecek hiçbir şey yoktur."
     },
     {
       "v": 27,
@@ -117,31 +129,34 @@
     },
     {
       "v": 31,
-      "text": "' Öyleyse korkmayın, siz birçok serçeden daha değerlisiniz."
+      "text": "Öyleyse korkmayın, siz birçok serçeden daha değerlisiniz."
     },
     {
       "v": 32,
-      "text": "“İnsanların önünde beni açıkça kabul eden herkesi, ben de göklerde olan Babamın önünde açıkça kabul edeceğim."
+      "text": "«İnsanların önünde beni açıkça kabul eden herkesi, ben de göklerde olan Babamın önünde açıkça kabul edeceğim."
     },
     {
       "v": 33,
       "text": "İnsanların önünde beni inkâr edeni, ben de göklerde olan Babamın önünde inkâr edeceğim."
     },
     {
+      "section": "İsa'ya layık olmak"
+    },
+    {
       "v": 34,
-      "text": "“Yeryüzüne barış getirmeye geldiğimi sanmayın! Ben barış değil, kılıç getirmeye geldim."
+      "text": "«Yeryüzüne barış getirmeye geldiğimi sanmayın! Ben barış değil, kılıç getirmeye geldim."
     },
     {
       "v": 35,
-      "text": "Çünkü ben oğulla babasının, kızla annesinin,"
+      "text": "Çünkü ben oğulla babasının, kızla annesinin, gelinle kaynanasının arasına ayrılık sokmaya geldim."
     },
     {
       "v": 36,
-      "text": "gelinle kaynanasının arasına ayrılık sokmaya geldim."
+      "text": "`İnsanın düşmanları, kendi ev halkı olacaktır.'"
     },
     {
       "v": 37,
-      "text": "İnsanın düşmanları, kendi ev halkı olacaktır. ' ” Annesini ya da babasını beni sevdiğinden çok seven, bana layık değildir. Oğlunu ya da kızını beni sevdiğinden çok seven, bana layık değildir."
+      "text": "Annesini ya da babasını beni sevdiğinden çok seven, bana layık değildir. Oğlunu ya da kızını beni sevdiğinden çok seven, bana layık değildir."
     },
     {
       "v": 38,
@@ -153,7 +168,7 @@
     },
     {
       "v": 40,
-      "text": "“Sizi kabul eden, beni kabul etmiş olur. Beni kabul eden de beni göndereni kabul etmiş olur."
+      "text": "«Sizi kabul eden, beni kabul etmiş olur. Beni kabul eden de beni göndereni kabul etmiş olur."
     },
     {
       "v": 41,
@@ -161,7 +176,7 @@
     },
     {
       "v": 42,
-      "text": "Bu sıradan kişilerden herhangi birine, öğrencim olduğu için bir bardak soğuk su bile içiren, size doğrusunu söyleyeyim, ödülsüz kalmayacaktır. ”"
+      "text": "Bu sıradan kişilerden herhangi birine, öğrencim olduğu için bir bardak soğuk su bile içiren, size doğrusunu söyleyeyim, ödülsüz kalmayacaktır.»"
     }
   ]
 }

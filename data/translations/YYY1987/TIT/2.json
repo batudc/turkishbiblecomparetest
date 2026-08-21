@@ -1,1 +1,61 @@
-{"t":"YYY1987","b":"TIT","c":2,"content":[{"v":1,"text":"Sana gelince, sağlam öğretiye uygun olanı öğret."},{"v":2,"text":"Yaşlı adamlara davranışlarında ölçülü, ağırbaşlı ve sağduyulu olmalarını buyur. İmanda, sevgide ve sabırda sağlam olsunlar."},{"v":3,"text":"Aynı şekilde yaşlı kadınlar, ıftıracy ve şaraba tutsak olmamalı. Saygın bir yaşam süren ve İyi olanı öğreten kişiler olmalıdırlar."},{"v":4,"text":"Öyle ki genç kadınları, kocalarını ve çocuklarını seven, sadduyulu, temiz yürekli, iyi birer ev kadını ve kocalarına baöymiy olmak üzere eöditebilsinler."},{"v":6,"text":"O zaman Tanrı sözü kötülenmez. Genç adamları da sağduyulu olmaya özendir. İY yi olanı yaparak her konuda onlara örnek ol. Ööğretibinde"},{"v":7,"text":"dürüst ve ağırbaşlı ol, kimsenin kınayamayacağı doğru sözler söyle. Öyle ki bize karşı gelen, hakkımızda söyleyecek fena bir söz bulamayıp utansın. ”"},{"v":9,"text":"Köleleri, efendilerine her konuda bağımlı olmaya özendir. Ters cevap vermeden ve hyrsyziyk yapmadan, tümüyle güvenilir"},{"v":10,"text":"olduklarını göstererek efendilerini hoşnut etsinler. Böylece Kurtarıcımız Tanrı'yla ilgili öğretiyi her yönden çekici kılsınlar."},{"v":11,"text":"Çünkü Tanrı'nın bütün insanlara kurtulup sağlayan lütfu ortaya çıkmıştır."},{"v":12,"text":"Bu lütuf, tanrısızlığı ve dünya arzularını reddedip bu dünyada sağduyulu, doğru ve Tanrı yoluna yaraşır bir yaşam sürebilmemiz için bizi eğitiyor."},{"v":13,"text":"Bu arada, mübarek ümidimizin gerçekleşmesini, ulu Tanrı ve Kurtaryeymyz İsa Mesih'in yücelik içinde gelmesini bekliyoruz."},{"v":14,"text":"Mesih, bizi her suçtan kurtarmak, arıtıp kendisine ait ve iyilik etmekte gayretli bir halk yapmak için kendini bizim uğrumuza feda etti."},{"v":15,"text":"Bunları tam bir yetkiyle bildir, dinleyenleri isteklendir ve ikna et. Hiç kimse seni küçümsemesin."}]}
+{
+  "t": "YYY1987",
+  "b": "TIT",
+  "c": 2,
+  "content": [
+    {
+      "section": "Dinlemek"
+    },
+    {
+      "section": "Uygun olanı öğret"
+    },
+    {
+      "v": 1,
+      "text": "Sana gelince, sağlam öğretiye uygun olanı öğret."
+    },
+    {
+      "v": 2,
+      "text": "Yaşlı adamlara davranışlarında ölçülü, ağırbaşlı ve sağduyulu olmalarını buyur. İmanda, sevgide ve sabırda sağlam olsunlar."
+    },
+    {
+      "v": 3,
+      "text": "Aynı şekilde yaşlı kadınlar, iftiracı ve şaraba tutsak olmamalı. Saygın bir yaşam süren ve iyi olanı öğreten kişiler olmalıdırlar."
+    },
+    {
+      "v": 4,
+      "text": "Öyle ki genç kadınları, kocalarını ve çocuklarını seven, sağduyulu, temiz yürekli, iyi birer ev kadını ve kocalarına bağımlı olmak üzere eğitebilsinler. O zaman Tanrı sözü kötülenmez."
+    },
+    {
+      "v": 6,
+      "text": "Genç adamları da sağduyulu olmaya özendir."
+    },
+    {
+      "v": 7,
+      "text": "İyi olanı yaparak her konuda onlara örnek ol. Öğretişinde dürüst ve ağırbaşlı ol, kimsenin kınayamayacağı doğru sözler söyle. Öyle ki bize karşı gelen, hakkımızda söyleyecek fena bir söz bulamayıp utansın."
+    },
+    {
+      "v": 9,
+      "text": "Köleleri, efendilerine her konuda bağımlı olmaya özendir. Ters cevap vermeden ve hırsızlık yapmadan, tümüyle güvenilir olduklarını göstererek efendilerini hoşnut etsinler. Böylece Kurtarıcımız Tanrı'yla ilgili öğretiyi her yönden çekici kılsınlar."
+    },
+    {
+      "v": 11,
+      "text": "Çünkü Tanrı'nın bütün insanlara kurtuluş sağlayan lütfu ortaya çıkmıştır."
+    },
+    {
+      "v": 12,
+      "text": "Bu lütuf, tanrısızlığı ve dünya arzularını reddedip bu dünyada sağduyulu, doğru ve Tanrı yoluna yaraşır bir yaşam sürebilmemiz için bizi eğitiyor."
+    },
+    {
+      "v": 13,
+      "text": "Bu arada, mübarek ümidimizin gerçekleşmesini, ulu Tanrı ve Kurtarıcımız İsa Mesih'in yücelik içinde gelmesini bekliyoruz."
+    },
+    {
+      "v": 14,
+      "text": "Mesih, bizi her suçtan kurtarmak, arıtıp kendisine ait ve iyilik etmekte gayretli bir halk yapmak için kendini bizim uğrumuza feda etti."
+    },
+    {
+      "v": 15,
+      "text": "Bunları tam bir yetkiyle bildir, dinleyenleri isteklendir ve ikna et. Hiç kimse seni küçümsemesin."
+    }
+  ]
+}

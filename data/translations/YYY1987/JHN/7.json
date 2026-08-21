@@ -4,52 +4,58 @@
   "c": 7,
   "content": [
     {
+      "section": "Dinlemek"
+    },
+    {
+      "section": "İsa Kudüs'e gidiyor"
+    },
+    {
       "v": 1,
-      "text": "Bundan sonra İsa Celile'de dolaşmaya başladı. Yahudiler O'nu"
+      "text": "Bundan sonra İsa Celile'de dolaşmaya başladı. Yahudiler O'nu öldürmeyi amaçladıkları için Yahudiye'de dolaşmak istemiyordu."
     },
     {
       "v": 2,
-      "text": "öldürmeyi amaçladıkları için Yahudiye'de dolaşmak istemiyordu."
+      "text": "Yahudilerin Çardak bayramı yaklaşmıştı."
     },
     {
       "v": 3,
-      "text": "Yahudilerin Çardak bayramı'! yaklaşmıştı. Bu nedenle İsa'nın kardehleri O'na, “Buradan ayrıl, Yahudiye'ye git” dediler, “öğrencilerin de yaptığın işleri görsünler."
+      "text": "Bu nedenle İsa'nın kardeşleri O'na, «Buradan ayrıl, Yahudiye'ye git» dediler, «öğrencilerin de yaptığın işleri görsünler."
     },
     {
       "v": 4,
-      "text": "Çünkü kendini açıkça tanıtmak isteyen bir kimse yaptıklarını gizlemez. Madem ki bu"
+      "text": "Çünkü kendini açıkça tanıtmak isteyen bir kimse yaptıklarını gizlemez. Madem ki bu şeyleri yapıyorsun, kendini dünyaya göster!»"
     },
     {
       "v": 5,
-      "text": "şeyleri yapıyorsun, kendini dünyaya göster!” Kardehleri bile O'na iman etmiyorlardı."
+      "text": "Kardeşleri bile O'na iman etmiyorlardı."
     },
     {
       "v": 6,
-      "text": "İsa onlara, “Benim zamanım daha gelmedi” dedi, “oysa sizin için zaman hep uygundur"
+      "text": "İsa onlara, «Benim zamanım daha gelmedi» dedi, «oysa sizin için zaman hep uygundur."
     },
     {
       "v": 7,
-      "text": ". \"Dünya sizden nefret edemez, ama benden nefret ediyor. Çünkü yaptıklarının kötü olduğuna tanıklık ediyorum."
+      "text": "Dünya sizden nefret edemez, ama benden nefret ediyor. Çünkü yaptıklarının kötü olduğuna tanıklık ediyorum."
     },
     {
       "v": 8,
-      "text": "Siz bu bayramı kutlamaya gidin. Ben şimdilik gitmeyeceğim. Çünkü benim zamanım daha dolmadı.”"
+      "text": "Siz bu bayramı kutlamaya gidin. Ben şimdilik gitmeyeceğim. Çünkü benim zamanım daha dolmadı.»"
     },
     {
       "v": 9,
-      "text": "”İsa bu sözleri söyleyip Celile'de kaldı."
+      "text": "İsa bu sözleri söyleyip Celile'de kaldı."
     },
     {
       "v": 10,
-      "text": "Ne var ki, karde leri bayramı kutlamaya gidince, kendisi de gitti. Ancak açıktan açığa değil, gizlice gitti. Y"
+      "text": "Ne var ki, kardeşleri bayramı kutlamaya gidince, kendisi de gitti. Ancak açıktan açığa değil, gizlice gitti."
     },
     {
       "v": 11,
-      "text": "ahudiler de O'nu bayram sırasında arıyor, “O nerede?” diye soruyorlardı,."
+      "text": "Yahudiler de O'nu bayram sırasında arıyor, «O nerede?» diye soruyorlardı."
     },
     {
       "v": 12,
-      "text": "Kalabalık arasında O'nunla ilgili bir sürü laf fısıldanıyordu. Bazıları, “Y yi adamdır”, bazıları da, “Hayır, tam tersine, halkı saptırıyor” diyorlardı."
+      "text": "Kalabalık arasında O'nunla ilgili bir sürü laf fısıldanıyordu. Bazıları, «İyi adamdır», bazıları da, «Hayır, tam tersine, halkı saptırıyor» diyorlardı."
     },
     {
       "v": 13,
@@ -57,19 +63,19 @@
     },
     {
       "v": 14,
-      "text": "Bayramın yarısı geçmişti. İsa da tapınağa gidip ders vermeye başladı. Y"
+      "text": "Bayramın yarısı geçmişti. İsa da tapınağa gidip ders vermeye başladı."
     },
     {
       "v": 15,
-      "text": "ahudiler şaşırmışlardı. “Bu adam hiç öğrenim görmediği halde, nasıl bu kadar bilgili olabilir?”\" diyorlardı"
+      "text": "Yahudiler şaşırmışlardı. «Bu adam hiç öğrenim görmediği halde, nasıl bu kadar bilgili olabilir?» diyorlardı."
     },
     {
       "v": 16,
-      "text": ". İsa onlara, “Benim öğretim benim değil, beni gönderenindir” diye karşılık verdi."
+      "text": "İsa onlara, «Benim öğretim benim değil, beni gönderenindir» diye karşılık verdi."
     },
     {
       "v": 17,
-      "text": "''“Eğer bir kimse Tanrı'nın isteğini yerine getirmek istiyorsa, bu öğretinin Tanrı'dan mı olduğunu, yoksa kendiliğimden mi konubtuöğumu bilecektir."
+      "text": "«Eğer bir kimse Tanrı'nın isteğini yerine getirmek istiyorsa, bu öğretinin Tanrı'dan mı olduğunu, yoksa kendiliğimden mi konuştuğumu bilecektir."
     },
     {
       "v": 18,
@@ -77,19 +83,19 @@
     },
     {
       "v": 19,
-      "text": "Musa size Kutsal Yasa'yı vermedi mi? Yine de hiçbiriniz Yasa'yı yerine getirmiyor. Neden beni öldürmek İstiyorsunuz?”"
+      "text": "Musa size Kutsal Yasa'yı vermedi mi? Yine de hiçbiriniz Yasa'yı yerine getirmiyor. Neden beni öldürmek istiyorsunuz?»"
     },
     {
       "v": 20,
-      "text": "Kalabalık, “Cin çarptı seni!” dedi. “Seni öldürmek isteyen ki"
+      "text": "Kalabalık, «Cin çarptı seni!» dedi. «Seni öldürmek isteyen kim?»"
     },
     {
       "v": 21,
-      "text": "m?” İsa, “Ben bir mucize! yaptım, hepiniz şaşkına döndünüz” diye cevap verd"
+      "text": "İsa, «Ben bir mucize yaptım, hepiniz şaşkına döndünüz» diye cevap verdi."
     },
     {
       "v": 22,
-      "text": "i. “Musa size sünneti buyurduğu için | aslında bu, Musa'dan değil, atalarınızdan kalmadır | Sept günü birini sünnet edersiniz."
+      "text": "«Musa size sünneti buyurduğu için - aslında bu, Musa'dan değil, atalarınızdan kalmadır - Sept günü birini sünnet edersiniz."
     },
     {
       "v": 23,
@@ -97,63 +103,66 @@
     },
     {
       "v": 24,
-      "text": "Dış görünüşe göre yargılamayın, yargınız adil olsun.” İsa, Mesih midir?"
+      "text": "Dış görünüşe göre yargılamayın, yargınız adil olsun.»"
+    },
+    {
+      "section": "İsa, Mesih midir?"
     },
     {
       "v": 25,
-      "text": "Kudüslülerin bazıları, “Öldürmek istedikleri adam bu değil mi?” diyorlardı."
+      "text": "Kudüslülerin bazıları, «Öldürmek istedikleri adam bu değil mi?» diyorlardı."
     },
     {
       "v": 26,
-      "text": "“Bakın, açıkça konuşuyor, O'na bir şey demiyorlar. Yoksa önderler O'nun Mesih olduğunu gerçekten kabul ettiler mi?"
+      "text": "«Bakın, açıkça konuşuyor, O'na bir şey demiyorlar. Yoksa önderler O'nun Mesih olduğunu gerçekten kabul ettiler mi?"
     },
     {
       "v": 27,
-      "text": "Ama biz bu adamın nereden geldiğini biliyoruz. Oysa Mesih geldiği zaman O'nun nereden geldiğini kimse bilmeyecek.”"
+      "text": "Ama biz bu adamın nereden geldiğini biliyoruz. Oysa Mesih geldiği zaman O'nun nereden geldiğini kimse bilmeyecek.»"
     },
     {
       "v": 28,
-      "text": "O sırada tapınakta ders veren İsa yüksek sesle şöyle dedi: “Hem beni tanıyorsunuz, hem de nereden olduğumu biliyorsunuz! Ben kendiliğimden gelmedim. Beni gönderen gerçektir. O'nu siz tanımıyorsunuz."
+      "text": "O sırada tapınakta ders veren İsa yüksek sesle şöyle dedi: «Hem beni tanıyorsunuz, hem de nereden olduğumu biliyorsunuz! Ben kendiliğimden gelmedim. Beni gönderen gerçektir. O'nu siz tanımıyorsunuz."
     },
     {
       "v": 29,
-      "text": "Ben O'nu tanırım. Çünkü ben O'ndanım, beni O gönderdi.”"
+      "text": "Ben O'nu tanırım. Çünkü ben O'ndanım, beni O gönderdi.»"
     },
     {
       "v": 30,
-      "text": "Bunun üzerine O'nu yakalamak istediler, ama kimse O'na el sürmedi. Çünkü O'nun saati henüz gelmemişti. H"
+      "text": "Bunun üzerine O'nu yakalamak istediler, ama kimse O'na el sürmedi. Çünkü O'nun saati henüz gelmemişti."
     },
     {
       "v": 31,
-      "text": "alktan birçok kişi ise O'na iman etti. “Mesih gelince, bunun yaptıklarından daha mı çok mucize yapacak?” diyorlardı."
+      "text": "Halktan birçok kişi ise O'na iman etti. «Mesih gelince, bunun yaptıklarından daha mı çok mucize yapacak?» diyorlardı."
     },
     {
       "v": 32,
-      "text": "Ferisiler halkın İsa hakkında şöyle fısıldaştığını duydular. Başkâhinler ve Ferisiler O'nu yakalamak için görevliler gönderdiler. İsa,"
+      "text": "Ferisiler halkın İsa hakkında böyle fısıldaştığını duydular. Başkâhinler ve Ferisiler O'nu yakalamak için görevliler gönderdiler."
     },
     {
       "v": 33,
-      "text": "“Kısa bir süre daha sizinleyim” dedi, “sonra beni gönderene gideceğim."
+      "text": "İsa, «Kısa bir süre daha sizinleyim» dedi, «sonra beni gönderene gideceğim."
     },
     {
       "v": 34,
-      "text": "Beni arayacaksınız, ama bulamayacaksınız. Ve benim bulunduğum yere siz gelemezsiniz.”"
+      "text": "Beni arayacaksınız, ama bulamayacaksınız. Ve benim bulunduğum yere siz gelemezsiniz.»"
     },
     {
       "v": 35,
-      "text": "Bunun üzerine Yahudiler birbirlerine, “Bu adam nereye gidecek de biz O'nu bulamayacağız?” dediler. “Yoksa Grekler arasında dağılmış olanlara gidip Greklere mi ders verecek?"
+      "text": "Bunun üzerine Yahudiler birbirlerine, «Bu adam nereye gidecek de biz O'nu bulamayacağız?» dediler. «Yoksa Grekler arasında dağılmış olanlara gidip Greklere mi ders verecek?"
     },
     {
       "v": 36,
-      "text": "Beni arayacaksınız, ama bulamayacaksınız. Ve benim bulunduğum yere siz gelemezsiniz' diyor. Ne demek istiyor?”"
+      "text": "`Beni arayacaksınız, ama bulamayacaksınız. Ve benim bulunduğum yere siz gelemezsiniz' diyor. Ne demek istiyor?»"
     },
     {
       "v": 37,
-      "text": "Bayramın son ve en önemli günü İsa ayağa kalktı, yüksek sesle şöyle dedi: “Bir kimse susamışsa bana gelsin, içsin."
+      "text": "Bayramın son ve en önemli günü İsa ayağa kalktı, yüksek sesleşöyle dedi: «Bir kimse susamışsa bana gelsin, içsin."
     },
     {
       "v": 38,
-      "text": "Kutsal Yazı'da dendiği gibi, bana iman edenin içinden diri su ırmakları akacaktır.'”"
+      "text": "Kutsal Yazı ‘da dendiği gibi, bana iman edenin `içinden diri su ırmakları akacaktır.’»"
     },
     {
       "v": 39,
@@ -161,55 +170,58 @@
     },
     {
       "v": 40,
-      "text": "Halktan bazıları bu sözleri işitince, “Gerçekten beklediğimiz peygamber budur” dediler."
+      "text": "Halktan bazıları bu sözleri işitince, «Gerçekten beklediğimiz peygamber budur» dediler."
     },
     {
       "v": 41,
-      "text": "IBazylary da, “Bu Mesih'tir” diyorlardı. Başkaları ise, “Olamaz! Mesih Celile'den mi gelecek?” dedil"
+      "text": "Bazıları da, «Bu Mesih'tir» diyorlardı. Başkaları ise, «Olamaz! Mesih Celile'den mi gelecek?» dediler."
     },
     {
       "v": 42,
-      "text": "er. “Kutsal Yazı'da, 'Mesih, Davut'un soyundan, Davut'un yaşadığı Beytlehem köyünden gelecek' denmemiş midi"
+      "text": "«Kutsal Yazı'da, `Mesih, Davut'un soyundan, Davut'un yaşadığı Beytlehem köyünden gelecek' denmemiş midir?»"
     },
     {
       "v": 43,
-      "text": "r?” Böylece İsa'dan dolayı halk arasında ayrılık doğdu."
+      "text": "Böylece İsa'dan dolayı halk arasında ayrılık doğdu."
     },
     {
       "v": 44,
       "text": "Bazıları O'nu yakalamak istedilerse de, kimse O'na el sürmedi."
     },
     {
+      "section": "Yahudi önderlerin imansızlığı"
+    },
+    {
       "v": 45,
-      "text": "Görevliler geri dönünce, ba kâhinlerle Ferisiler, “Niçin O'nu getirmediniz?” diye sordular."
+      "text": "Görevliler geri dönünce, başkâhinlerle Ferisiler, «Niçin O'nu getirmediniz?» diye sordular."
     },
     {
       "v": 46,
-      "text": "Görevliler, “Hiç kimse hiçbir zaman bu adamın konubtuödu gibi konuşmamıştır” karşılığını verdiler."
+      "text": "Görevliler, «Hiç kimse hiçbir zaman bu adamın konuştuğu gibi konuşmamıştır» karşılığını verdiler."
     },
     {
       "v": 47,
-      "text": "Ferisiler, “Yoksa siz de mi aldandınız?” dediler."
+      "text": "Ferisiler, «Yoksa siz de mi aldandınız?» dediler."
     },
     {
       "v": 48,
-      "text": "“Önderlerden ya da Ferisiler"
+      "text": "«Önderlerden ya da Ferisilerden O'na iman eden oldu mu hiç?"
     },
     {
       "v": 49,
-      "text": "den O'na iman eden oldu mu hiç?"
+      "text": "Kutsal Yasa'yı bilmeyen bu halk lanetlidir.»"
     },
     {
       "v": 50,
-      "text": "Kutsal Yasa'yı bilmeyen bu halk lanetlidir.” İçlerinden biri, daha önce İsa'ya gelmiş olan Nikodim, onlara şöyle dedi: “Yasamıza göre, bir adamı dinlemeden, ne yaptığını öğrenmeden onu yargılamak doğru mu?” Ona,"
+      "text": "İçlerinden biri, daha önce İsa'ya gelmiş olan Nikodim, onlara şöyle dedi: «Yasamıza göre, bir adamı dinlemeden, ne yaptığını öğrenmeden onu yargılamak doğru mu?»"
     },
     {
       "v": 52,
-      "text": "“Yoksa sen de mi Celile'densin?” diye karşılık verdiler. “Araştır, bak, Celile'den peygamber çıkmaz.” 53 ,"
+      "text": "Ona, «Yoksa sen de mi Celile'densin?» diye karşılık verdiler. «Araştır, bak, Celile'den peygamber çıkmaz.»"
     },
     {
       "v": 53,
-      "text": ". Bundan sonra herkes evine gitti."
+      "text": "Bundan sonra herkes evine gitti."
     }
   ]
 }

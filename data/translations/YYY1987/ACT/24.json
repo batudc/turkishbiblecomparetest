@@ -4,24 +4,34 @@
   "c": 24,
   "content": [
     {
+      "section": "Dinlemek"
+    },
+    {
+      "section": "Pavlus Feliks'in önünde suçlanıyor"
+    },
+    {
       "v": 1,
       "text": "Bundan beş gün sonra başkâhin Hananya, ihtiyarlardan bazıları ve Tertulus adlı bir hatip Sezariye'ye gelip Pavlus'la ilgili şikâyetlerini valiye ilettiler."
     },
     {
       "v": 2,
-      "text": "Pavlus çağrılınca Tertulus suçlamalarına başladı. “Ey erdemli Feliks” dedi. “Senin sayende uzun süredir esenlik içinde yaşamaktayız. Aldığın önlemlerle de bu ulusun yararına olumlu gelişmeler kaydedilmiştir. Yaptıklarını, her zaman ve her yerde büyük bir şükranla anıyoruz."
+      "text": "Pavlus çağrılınca Tertulus suçlamalarına başladı. «Ey erdemli Feliks!» dedi. «Senin sayende uzun süredir esenlik içinde yaşamaktayız. Aldığın önlemlerle de bu ulusun yararına olumlu gelişmeler kaydedilmiştir. Yaptıklarını, her zaman ve her yerde büyük bir şükranla anıyoruz."
     },
     {
       "v": 4,
-      "text": "Seni fazla yormak istemiyorum; söyleyeceğimiz birkaç sözü hoşgörüyle dinlemeni rica ediyorum. “Biz şunu anladık ki, bu adam"
+      "text": "Seni fazla yormak istemiyorum; söyleyeceğimiz birkaç sözü hoşgörüyle dinlemeni rica ediyorum."
     },
     {
       "v": 5,
-      "text": "dünyanın her yanında tüm Yahudiler arasında kargaşalık çıkaran bir fesatçı ve Nasrani tarikatının elebaşılarından biridir."
+      "text": "«Biz şunu anladık ki, bu adam dünyanın her yanında tüm Yahudiler arasında kargaşalık çıkaran bir fesatçı ve Nasranî tarikatının elebaşılarından biridir."
     },
     {
       "v": 6,
-      "text": "Tapınağı bile kirletmeye kalkıştı. Ama biz onu yakaladık. Onu sorguya çekersen, onunla ilgili tüm suçlamalarımızın doğruluğunu kendisinden öğrenebilirsin.”"
+      "text": "Tapınağı bile kirletmeye kalkıştı. Ama biz onu yakaladık. Onu sorguya çekersen, onunla ilgili tüm suçlamalarımızın doğruluğunu kendisinden öğrenebilirsin.»"
+    },
+    {
+      "v": 8,
+      "text": "Tapınağı bile kirletmeye kalkıştı. Ama biz onu yakaladık. Onu sorguya çekersen, onunla ilgili tüm suçlamalarımızın doğruluğunu kendisinden öğrenebilirsin.»"
     },
     {
       "v": 9,
@@ -29,7 +39,7 @@
     },
     {
       "v": 10,
-      "text": "Valinin bir işareti üzerine Pavlus şöyle karşılık verdi: “Senin yıllardan beri bu ulusa yargıçlık ettiğini bildiğim için, kendi savunmamı sevinçle yapıyorum. '"
+      "text": "Valinin bir işareti üzerine Pavlus şöyle karşılık verdi: «Senin yıllardan beri bu ulusa yargıçlık ettiğini bildiğim için, kendi savunmamı sevinçle yapıyorum."
     },
     {
       "v": 11,
@@ -45,7 +55,7 @@
     },
     {
       "v": 14,
-      "text": "Bununla birlikte, sana şunu itiraf edeyim ki, kendilerinin tarıkat dedikleri Yol'un bir izleyicisi olarak atalarımızın Tanrısına kulluk ediyorum. Kutsal Yasa'da ve peygamberlerin kitaplarında yazılı her şeye inanıyorum."
+      "text": "Bununla birlikte, sana şunu itiraf edeyim ki, kendilerinin tarikat dedikleri Yol'un bir izleyicisi olarak atalarımızın Tanrısına kulluk ediyorum. Kutsal Yasa'da ve peygamberlerin kitaplarında yazılı her şeye inanıyorum."
     },
     {
       "v": 15,
@@ -53,11 +63,11 @@
     },
     {
       "v": 16,
-      "text": "Bu nedenle ben gerek Tanrı, gerek insanlar önünde vicdanımı temiz tutmaya her zaman özen göste"
+      "text": "Bu nedenle ben gerek Tanrı, gerek insanlar önünde vicdanımı temiz tutmaya her zaman özen gösteriyorum."
     },
     {
       "v": 17,
-      "text": "riyorum. \"“Uzun yıllar sonra, ulusuma bağışlar getirmek ve adaklar sunmak için Kudüs'e geldim."
+      "text": "«Uzun yıllar sonra, ulusuma bağışlar getirmek ve adaklar sunmak için Kudüs'e geldim."
     },
     {
       "v": 18,
@@ -69,15 +79,15 @@
     },
     {
       "v": 20,
-      "text": "Buradakiler de, Yüksek Kurul'un önündeki duruşmam sırasında bende ne suç bulduklarını açıklasınlar. ”"
+      "text": "Buradakiler de, Yüksek Kurul'un önündeki duruşmam sırasında bende ne suç bulduklarını açıklasınlar."
     },
     {
       "v": 21,
-      "text": "Önlerine çıkarıldığımda, Bugün, ölülerin dırılışı konusunda tarafınızdan yargılanmaktayım' diye seslenmiştim. Olsa olsa beni bu konuda suçlayabilirler.”"
+      "text": "Önlerine çıkarıldığımda, `Bugün, ölülerin dirilişi konusunda tarafınızdan yargılanmaktayım' diye seslenmiştim. Olsa olsa beni bu konuda suçlayabilirler.»"
     },
     {
       "v": 22,
-      "text": "İsa'nın yoluna ilişkin derin bilgisi olan Feliks duruşmayı başka bir güne ertelerken, “Davanızla ılgılı kararımı komutan Lisyas gelince veririm” dedi."
+      "text": "İsa'nın yoluna ilişkin derin bilgisi olan Feliks duruşmayı başka bir güne ertelerken, «Davanızla ilgili kararımı komutan Lisyas gelince veririm» dedi."
     },
     {
       "v": 23,
@@ -85,15 +95,15 @@
     },
     {
       "v": 24,
-      "text": "Birkaç gün sonra Feliks, Yahudi olan karısı Drusıla ile birlikte geldi, Pavlus'u çağırtarak Mesih İsa'ya olan inancı konusunda onu dinledi."
+      "text": "Birkaç gün sonra Feliks, Yahudi olan karısı Drusila ile birlikte geldi, Pavlus'u çağırtarak Mesih İsa'ya olan inancı konusunda onu dinledi."
     },
     {
       "v": 25,
-      "text": "Pavlus doğruluk, özdenetim ve gelecek olan yargı gününden söz edince Feliks korkuya kapıldı. “Şımdılık gidebilirsin” dedi, “fırsat bulunca seni yine çağırtırım.”"
+      "text": "Pavlus doğruluk, özdenetim ve gelecek olan yargı gününden söz edince Feliks korkuya kapıldı. «Şimdilik gidebilirsin» dedi, «fırsat bulunca seni yine çağırtırım.»"
     },
     {
       "v": 26,
-      "text": "Bir yandan da Pavlus'un kendisine rüşvet vereceğini umuyordu. Bu nedenle onu sık sık çağırtır, onunla sohbet ederdi. \""
+      "text": "Bir yandan da Pavlus'un kendisine rüşvet vereceğini umuyordu. Bu nedenle onu sık sık çağırtır, onunla sohbet ederdi."
     },
     {
       "v": 27,

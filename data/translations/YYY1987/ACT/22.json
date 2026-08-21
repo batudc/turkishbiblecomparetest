@@ -1,1 +1,120 @@
-{"t":"YYY1987","b":"ACT","c":22,"content":[{"v":1,"text":"“Kardeşler ve babalar, size şimdi yapacağım savunmayı dinleyin” dedi."},{"v":2,"text":"Pavlus'un kendilerine bran dilinde seslendiğini duyduklarında daha derin bir sessizlik oldu. Pavlus şöyle devam etti: “Ben Yahudiyım. Kilikya'nın Tarsus kentinde doğdum ve burada, Kudüs'te Gamalyel'in dizinin dibinde büyüdüm. Atalarımızın yasasıyla ılgılı sıkı bir eğitimden geçtim. Bugün hepinizin yaptığı gibi, ben de Tanrı için gayretle çalışan biriydim."},{"v":4,"text":"İsa'nın yolundan gidenlere öldüresiye zulmeder, erkek kadın demeden onları bağlayıp hapse atardım. Başkâhın ile tüm ihtiyarlar kurulu söyledikleri"},{"v":5,"text":"mi doğrulayabilirler. Onlardan Yahudi kardeşlere yazılmış mektuplar alarak Şam'a doğru yola çıkmıştım. Amacım, oradaki İsa inanlılarını da cezalan"},{"v":6,"text":"dırmak üzere bağlayıp Kudüs'e getirmekti. “Ben öğleye doğru yol alıp Şam'a yaklaşırken, birdenbire gökten parlak bir ışık çevremi aydınlatıverdi."},{"v":7,"text":"Yere yıkıldım. Bir sesin bana, Saul, Saul Neden bana zulmediyorsun?' dediğini ışıttım. “ Ey efendim,"},{"v":8,"text":"sen kimsin? diye sordum. “Ses bana, Ben senin zulmettiğin Nasıralı İsa'yım' dedi. Beraberimde olanl"},{"v":9,"text":"ar ışığı gördülerse de, benimle konuşanın söylediklerini anlamadılar. “Rab, ne yapmalıyım?\" diye sor"},{"v":10,"text":"dum. “Rab bana, Kalk, Şam'a git' dedi, yapmakla görevlendirildiğin her şey orada sana açıklanacak. \""},{"v":11,"text":"Parlayan ışığın görkeminden gözlerim görmez olduğundan, beraberimde olanlar elimden tutup beni Şam'a götürdüler. Orada Hananya adında d"},{"v":12,"text":"indar, Kutsal Yasa'ya bağlı biri vardı. Kentte yaşayan tüm Yahudilerin kendisinden övgüyle söz ettiği bu adam gelip yanımda durdu ve, Sa"},{"v":14,"text":"ul kardeş, gözlerin görsün' dedi. Ve ben o anda onu gördüm. “Hananya, Atalarımızın Tanrısı, kendisinin isteğini bilmen ve adil Olan'ı gö"},{"v":15,"text":"rüp O'nun ağzından bir ses işitmen için seni seçmiştir' dedi. Görüp işittiklerini tüm insanlara duyurarak O'nun tanıklığını yapacaksın."},{"v":16,"text":"Haydi, ne bekliyorsun? Kalk, O'nun adını ana"},{"v":17,"text":"rak vaftiz ol ve günahlarından arın' Ben Kudü"},{"v":19,"text":"s'e döndükten sonra, tapınakta dua ettiğim bi"},{"v":20,"text":"r sırada, kendimden geçerek Rab'bi gördüm. Ba"},{"v":21,"text":"na, Çabuk ol' dedi, Kudüs'ten hemen ayrıl. Çü"},{"v":22,"text":"nkü benimle ilgili tanıklığını kabul etmeyece"},{"v":23,"text":"kler.' “ Rab'dedim, benim havradan havraya g"},{"v":25,"text":"iderek sana inananları tutuklayıp dövdüğümü b"},{"v":26,"text":"iliyorlar. Ustelik sana tanıklık eden İstefan"},{"v":27,"text":"'in kanı döküldüğü zaman, ben de oradaydım. O"},{"v":28,"text":"nu öldürenlerin kaftanlarına bekçilik ederek"},{"v":29,"text":"yapılanları onayladım.' “Rab bana, Git' dedi,"},{"v":30,"text":"ben seni uzakta olan uluslara göndereceğim.”"}]}
+{
+  "t": "YYY1987",
+  "b": "ACT",
+  "c": 22,
+  "content": [
+    {
+      "section": "Dinlemek"
+    },
+    {
+      "v": 1,
+      "text": "«Kardeşler ve babalar, size şimdi yapacağım savunmayı dinleyin» dedi."
+    },
+    {
+      "v": 2,
+      "text": "Pavlus'un kendilerine ibrani dilinde seslendiğini duyduklarında daha derin bir sessizlik oldu. Pavlus şöyle devam etti: «Ben Yahudiyim. Kilikya'nın Tarsus kentinde doğdum ve burada, Kudüs'te Gamalyel'in dizinin dibinde büyüdüm. Atalarımızın yasasıyla ilgili sıkı bir eğitimden geçtim. Bugün hepinizin yaptığı gibi, ben de Tanrı için gayretle çalışan biriydim."
+    },
+    {
+      "v": 4,
+      "text": "İsa'nın yolundan gidenlere öldüresiye zulmeder, erkek kadın demeden onları bağlayıp hapse atardım."
+    },
+    {
+      "v": 5,
+      "text": "Başkâhin ile tüm ihtiyarlar kurulu söylediklerimi doğrulayabilirler. Onlardan Yahudi kardeşlere yazılmış mektuplar alarak Şam'a doğru yola çıkmıştım. Amacım, oradaki İsa inanlılarını da cezalandırmak üzere bağlayıp Kudüs'e getirmekti."
+    },
+    {
+      "v": 6,
+      "text": "«Ben öğleye doğru yol alıp Şam'a yaklaşırken, birdenbire gökten parlak bir ışık çevremi aydınlatıverdi."
+    },
+    {
+      "v": 7,
+      "text": "Yere yıkıldım. Bir sesin bana, `Saul, Saul! Neden bana zulmediyorsun?' dediğini işittim."
+    },
+    {
+      "v": 8,
+      "text": "«`Ey efendim, sen kimsin?' diye sordum. «Ses bana, `Ben senin zulmettiğin Nasıralı İsa'yım' dedi."
+    },
+    {
+      "v": 9,
+      "text": "Beraberimde olanlar ışığı gördülerse de, benimle konuşanın söylediklerini anlamadılar."
+    },
+    {
+      "v": 10,
+      "text": "«`Rab, ne yapmalıyım?' diye sordum. «Rab bana, `Kalk, Şam'a git' dedi, `yapmakla görevlendirildiğin her şey orada sana açıklanacak.'"
+    },
+    {
+      "v": 11,
+      "text": "Parlayan ışığın görkeminden gözlerim görmez olduğundan, beraberimde olanlar elimden tutup beni Şam'a götürdüler."
+    },
+    {
+      "v": 12,
+      "text": "«Orada Hananya adında dindar, Kutsal Yasa'ya bağlı biri vardı. Kentte yaşayan tüm Yahudilerin kendisinden övgüyle söz ettiği bu adam gelip yanımda durdu ve, `Saul kardeş, gözlerin görsün!' dedi. Ve ben o anda onu gördüm."
+    },
+    {
+      "v": 14,
+      "text": "«Hananya, `Atalarımızın Tanrısı, kendisinin isteğini bilmen ve adil Olan'ı görüp O'nun ağzından bir ses işitmen için seni seçmiştir' dedi."
+    },
+    {
+      "v": 15,
+      "text": "`Görüp işittiklerini tüm insanlara duyurarak O'nun tanıklığını yapacaksın."
+    },
+    {
+      "v": 16,
+      "text": "Haydi, ne bekliyorsun? Kalk, O'nun adını anarak vaftiz ol ve günahlarından arın!'"
+    },
+    {
+      "v": 17,
+      "text": "«Ben Kudüs'e döndükten sonra, tapınakta dua ettiğim bir sırada, kendimden geçerek Rab'bi gördüm. Bana, `Çabuk ol' dedi, `Kudüs'ten hemen ayrıl. Çünkü benimle ilgili tanıklığını kabul etmeyecekler.'"
+    },
+    {
+      "v": 19,
+      "text": "«`Rab' dedim, `benim havradan havraya giderek sana inananları tutuklayıp dövdüğümü biliyorlar."
+    },
+    {
+      "v": 20,
+      "text": "Üstelik sana tanıklık eden İstefan'ın kanı döküldüğü zaman, ben de oradaydım. Onu öldürenlerinkaftanlarına bekçilik ederek yapılanları onayladım.'"
+    },
+    {
+      "v": 21,
+      "text": "«Rab bana, `Git' dedi, `ben seni uzakta olan uluslara göndereceğim.'»"
+    },
+    {
+      "section": "Roma vatandaşı Pavlus"
+    },
+    {
+      "v": 22,
+      "text": "Pavlus'u buraya kadar dinleyenler, bu söz üzerine, «Böylesini yeryüzünden temizlemeli, yaşaması uygun değildir!» diye seslerini yükselttiler."
+    },
+    {
+      "v": 23,
+      "text": "Onlar böyle bağırır, üstlüklerini sallayıp havaya toz savururken komutan, Pavlus'un kalenin içine götürülmesini buyurdu. Halkın Pavlus'un aleyhine neden böyle bağırdığını öğrenmek için onun kamçılanarak sorguya çekilmesini istedi."
+    },
+    {
+      "v": 25,
+      "text": "Kendisini sırımlarla bağlayıp kollarını geriyorlardı ki, Pavlus orada duran yüzbaşıya, «Mahkemesi yapılmamış bir Roma vatandaşını kamçılamanız yasaya uygun mudur?» dedi."
+    },
+    {
+      "v": 26,
+      "text": "Yüzbaşı bunu duyunca gidip komutana haber verdi. «Ne yapıyorsun?» dedi. «Bu adam Roma vatandaşıymış.»"
+    },
+    {
+      "v": 27,
+      "text": "Komutan Pavlus'un yanına geldi, «Söyle bakayım, sen Romalı mısın?» diye sordu. Pavlus da, «Evet» dedi."
+    },
+    {
+      "v": 28,
+      "text": "Komutan, «Ben bu vatandaşlığı yüklü bir para ödeyerek elde ettim» diye karşılık verdi. Pavlus, «Ben ise doğuştan Roma vatandaşıyım» dedi."
+    },
+    {
+      "v": 29,
+      "text": "Onu sorguya çekecek olanlar hemen yanından çekilip gittiler. Kendisini bağlatmış olan komutan da, onun Roma vatandaşı olduğunu anlayınca korktu."
+    },
+    {
+      "section": "Pavlus Yüksek Kurul'un önünde"
+    },
+    {
+      "v": 30,
+      "text": "Komutan ertesi gün Yahudilerin Pavlus'u tam olarak neyle suçladıklarını öğrenmek isteyerek onu hapisten getirtti, başkâhinlerle tüm Yüksek Kurul'un toplanması için buyruk verdi ve onu aşağı indirip Kurul'un önüne çıkardı."
+    }
+  ]
+}

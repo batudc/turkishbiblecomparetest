@@ -270,13 +270,19 @@
 
     #sidebar-drag-handle {
       display: none;
-      width: 36px; height: 4px;
-      background: rgba(255,255,255,0.18);
-      border-radius: 2px;
-      margin: 8px auto 0;
+      height: 24px;
       flex-shrink: 0;
       cursor: ns-resize;
       touch-action: none;
+      align-items: center;
+      justify-content: center;
+    }
+    #sidebar-drag-handle::after {
+      content: '';
+      display: block;
+      width: 36px; height: 4px;
+      background: rgba(255,255,255,0.2);
+      border-radius: 2px;
     }
     #commentary-title-bar {
       flex-shrink: 0;
@@ -1643,8 +1649,6 @@
       #okuyucu_layout.layout-grid .col-content {
         overflow-y: auto; -webkit-overflow-scrolling: touch; padding: 16px 10px 200vh;
       }
-      body:has(#sidebar-panel.open) #okuyucu_layout.layout-grid { height: calc(66dvh - 52px); }
-
       /* Regular panels: drop down from header */
       .panel {
         display: flex !important; flex-direction: column;
@@ -1671,7 +1675,7 @@
       #panel-chapter { width: 100% !important; }
 
       /* Yorum sidebar: bottom sheet, 2/5 height */
-      #sidebar-drag-handle { display: block; }
+      #sidebar-drag-handle { display: flex; }
       #sidebar-panel.open {
         width: 100% !important; position: fixed; inset: auto 0 0 0; height: 40vh;
         border-left: none; border-top: 1px solid rgba(184,146,42,0.25);
@@ -1685,7 +1689,7 @@
       body:has(#sidebar-panel.open) #okuyucu_layout.layout-rows .col.mob-visible {
         height: 50%;
       }
-      body:has(#sidebar-panel.open) #sidebar-panel.open {
+      body:has(#okuyucu_layout.layout-rows):has(#sidebar-panel.open) #sidebar-panel.open {
         height: calc(34dvh - 28px);
         border-radius: 0;
       }
@@ -2637,19 +2641,56 @@
     return Array.from(document.querySelectorAll('.col-content'));
   }
 
+  function isPosFresh(colIdx) {
+    const nums = verseNums[colIdx];
+    const pos  = versePos[colIdx];
+    return nums && nums.length > 0 && nums.some(n => pos[n] > 0);
+  }
+
+  function isVisible(col) {
+    return col.offsetParent !== null;
+  }
+
+  let _reinitTimer = null;
   function reinitSync() {
-    requestAnimationFrame(() => {
-      const cols = getCols();
-      versePos = cols.map(col => {
-        const map = {};
-        col.querySelectorAll('.verse[data-v]').forEach(v => {
-          const n = parseInt(v.dataset.v, 10);
-          if (!isNaN(n) && !(n in map)) map[n] = v.offsetTop;
+    clearTimeout(_reinitTimer);
+    _reinitTimer = setTimeout(() => {
+      const measure = () => {
+        const cols = getCols();
+        versePos = cols.map(col => {
+          const map = {};
+          col.querySelectorAll('.verse[data-v]').forEach(v => {
+            const n = parseInt(v.dataset.v, 10);
+            if (!isNaN(n) && !(n in map)) map[n] = v.offsetTop;
+          });
+          return map;
         });
-        return map;
-      });
-      verseNums = versePos.map(m => Object.keys(m).map(Number).sort((a, b) => a - b));
-      v1offset  = versePos.map((pos, i) => pos[verseNums[i]?.[0]] ?? 0);
+        verseNums = versePos.map(m => Object.keys(m).map(Number).sort((a, b) => a - b));
+        v1offset  = versePos.map((pos, i) => pos[verseNums[i]?.[0]] ?? 0);
+        _resyncAfterMeasure(cols);
+      };
+      if (document.fonts?.ready) {
+        document.fonts.ready.then(() => requestAnimationFrame(measure));
+      } else {
+        requestAnimationFrame(measure);
+      }
+    }, 80);
+  }
+
+  function _resyncAfterMeasure(cols) {
+    let refIdx = -1;
+    if (leader) {
+      const li = cols.indexOf(leader);
+      if (li !== -1 && isPosFresh(li)) refIdx = li;
+    }
+    if (refIdx === -1) {
+      refIdx = cols.findIndex((c, i) => isVisible(c) && isPosFresh(i));
+    }
+    if (refIdx === -1) return;
+    const { logical, verse, fraction } = getPosition(cols, refIdx);
+    cols.forEach((target, tIdx) => {
+      if (tIdx === refIdx || !isVisible(target) || !isPosFresh(tIdx)) return;
+      applyPosition(cols, tIdx, logical, verse, fraction);
     });
   }
 
@@ -2704,9 +2745,11 @@
         const cols = getCols();
         const idx  = cols.indexOf(col);
         if (idx === -1) return;
+        if (!isPosFresh(idx)) { reinitSync(); return; }
         const { logical, verse, fraction } = getPosition(cols, idx);
         cols.forEach((target, tIdx) => {
           if (target === col) return;
+          if (!isVisible(target) || !isPosFresh(tIdx)) return;
           applyPosition(cols, tIdx, logical, verse, fraction);
         });
         scheduleCommentaryScroll(verse);
@@ -3024,6 +3067,7 @@
           .map(c => c.dataset.translation);
         colOrder = newOrder;
         _lsSet('kkf_col_order', JSON.stringify(newOrder));
+        reinitSync();
 
         col.classList.remove('drop-left', 'drop-right');
       });
@@ -3759,27 +3803,95 @@
     if (isOpening) loadCommentary(currentBook, currentChapter);
   });
 
-  // Mobile: drag handle to resize bottom-sheet sidebar
+  // Mobile: drag handle — resize + flick-to-close bottom sheet
   (function() {
     const panel  = document.getElementById('sidebar-panel');
     const handle = document.getElementById('sidebar-drag-handle');
+    const btn    = document.getElementById('btn-commentary');
+    const layout = document.getElementById('okuyucu_layout');
     if (!handle) return;
-    let dragging = false, startY = 0, startH = 0;
+
+    const CLOSE_VH  = 0.10;
+    const CLOSE_VEL = 1.5;
+
+    let dragging = false, startY = 0, startH = 0, points = [];
+
+    function headerOffset() {
+      if (!layout) return 44;
+      if (layout.classList.contains('layout-grid') || layout.classList.contains('layout-rows')) return 80;
+      return 44;
+    }
+
+    function setLayoutH(panelH) {
+      if (!layout || !layout.classList.contains('layout-rows')) return;
+      const h = Math.max(0, window.innerHeight - 80 - panelH);
+      layout.style.height = h + 'px';
+    }
+
+    function clearLayoutH() {
+      if (layout) layout.style.height = '';
+    }
+
+    if (panel && layout) {
+      new MutationObserver(() => {
+        if (!panel.classList.contains('open')) clearLayoutH();
+      }).observe(panel, { attributes: true, attributeFilter: ['class'] });
+    }
+
+    function closePanel() {
+      const h = panel.getBoundingClientRect().height;
+      panel.style.transition = 'transform 0.22s cubic-bezier(0.4,0,1,1)';
+      panel.style.transform  = `translateY(${h + 20}px)`;
+      setTimeout(() => {
+        panel.classList.remove('open');
+        btn?.classList.remove('comm-open');
+        panel.style.transform  = '';
+        panel.style.transition = '';
+        panel.style.height     = '';
+        clearLayoutH();
+      }, 230);
+    }
+
     handle.addEventListener('touchstart', e => {
       if (!panel.classList.contains('open')) return;
       dragging = true;
-      startY = e.touches[0].clientY;
-      startH = panel.getBoundingClientRect().height;
+      startY   = e.touches[0].clientY;
+      startH   = panel.getBoundingClientRect().height;
+      points   = [{ y: startY, t: Date.now() }];
+      panel.style.transition = 'none';
       e.preventDefault();
     }, { passive: false });
+
     document.addEventListener('touchmove', e => {
       if (!dragging) return;
-      const dy = startY - e.touches[0].clientY;
-      const newH = Math.max(120, Math.min(window.innerHeight * 0.92, startH + dy));
+      const y  = e.touches[0].clientY;
+      const dy = startY - y;
+      const newH = Math.max(24, Math.min(window.innerHeight * 0.96, startH + dy));
       panel.style.height = newH + 'px';
+      setLayoutH(newH);
+      points.push({ y, t: Date.now() });
+      if (points.length > 6) points.shift();
       e.preventDefault();
     }, { passive: false });
-    document.addEventListener('touchend', () => { dragging = false; });
+
+    document.addEventListener('touchend', () => {
+      if (!dragging) return;
+      dragging = false;
+      const finalH   = panel.getBoundingClientRect().height;
+      const fraction = finalH / window.innerHeight;
+      let velocity   = 0;
+      if (points.length >= 2) {
+        const p0 = points[0], p1 = points[points.length - 1];
+        const dt = p1.t - p0.t;
+        if (dt > 0) velocity = (p1.y - p0.y) / dt;
+      }
+      if (fraction < CLOSE_VH || velocity > CLOSE_VEL) {
+        closePanel();
+      } else {
+        panel.style.transition = 'height 0.2s cubic-bezier(0.4,0,0.2,1)';
+        setTimeout(() => { panel.style.transition = ''; }, 220);
+      }
+    });
   })();
 
   // Commentary source picker: esv-en | akkit | esv-tr
@@ -4539,6 +4651,7 @@
           : i === mobActiveIdx;
         c.classList.toggle('mob-visible', visible);
       });
+    reinitSync();
   }
 
   // Watch for column changes (rebuildColumns clears #okuyucu_layout)
@@ -4665,7 +4778,9 @@
     const titleEl = document.getElementById('commentary-title');
     const sourceEl = document.getElementById('commentary-source');
 
-    titleEl.textContent = `${bookName} ${chap}`;
+    const SHORT_NAMES = { 'Song of Solomon': 'Song' };
+    const displayName = SHORT_NAMES[bookName] ?? bookName;
+    titleEl.textContent = `${displayName} ${chap}`;
     if (sourceEl) sourceEl.textContent = meta.label;
     emptyEl.style.display = 'none';
     document.getElementById('commentary-body').scrollTop = 0;

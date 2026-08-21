@@ -4,12 +4,18 @@
   "c": 6,
   "content": [
     {
+      "section": "Dinlemek"
+    },
+    {
+      "section": "Yoksullara yardım"
+    },
+    {
       "v": 1,
-      "text": "“Dikkat edin! Yapmanız gereken doğru işleri! gösteriş için insanların gözü önünde yapmayın. Oyle yaparsanız, göklerdeki Babanızdan ödül alamazsınız."
+      "text": "«Dikkat edin! Yapmanız gereken doğru işleri gösteriş için insanların gözü önünde yapmayın. Öyle yaparsanız, göklerdeki Babanızdan ödül alamazsınız."
     },
     {
       "v": 2,
-      "text": "“Bu nedenle, birisine sadaka vereceğiniz zaman bunu ilan etmek için önünüzde borazan çaldırmayın. İkiyüzlü kişiler, insanların övgüsünü kazanmak için havralarda ve sokaklarda böyle yaparlar. Size doğrusunu söyleyeyim, onlar ödüllerini almışlardır."
+      "text": "«Bu nedenle, birisine sadaka vereceğiniz zaman bunu ilan etmek için önünüzde borazan çaldırmayın. İkiyüzlü kişiler, insanların övgüsünü kazanmak için havralarda ve sokaklarda böyle yaparlar. Size doğrusunu söyleyeyim, onlar ödüllerini almışlardır."
     },
     {
       "v": 3,
@@ -20,16 +26,19 @@
       "text": "Öyle ki, verdiğiniz sadaka gizli kalsın. Gizlilik içinde yapılanı gören Babanız sizi ödüllendirecektir."
     },
     {
+      "section": "Dua"
+    },
+    {
       "v": 5,
-      "text": "“Dua ettiğiniz zaman ikiyüzlüler gibi olmayın. Onlar, herkes kendilerini görsün diye havralarda ve caddelerin köşe başlarında dikilip dua etmekten zevk alırlar. Size doğrusunu söyleyeyim, onlar ödüllerini almışlardır."
+      "text": "«Dua ettiğiniz zaman ikiyüzlüler gibi olmayın. Onlar, herkes kendilerini görsün diye havralarda ve caddelerin köşe başlarında dikilip dua etmekten zevk alırlar. Size doğrusunu söyleyeyim, onlar ödüllerini almışlardır."
     },
     {
       "v": 6,
-      "text": "Siz ise,"
+      "text": "Siz ise, dua edeceğiniz zaman odanıza girip kapıyı örtün ve gizlide olan Babanıza dua edin. Gizlilik içinde yapılanı gören Babanız sizi ödüllendirecektir."
     },
     {
       "v": 7,
-      "text": "dua edeceğiniz zaman odanıza girip kapıyı örtün ve gizlide olan Babanıza dua edin. Gizlilik içinde yapılanı gören Babanız sizi ödüllendirecektir. 'Dua ettiğinizde, putperestler gibi boş sözler tekrarlayıp durmayın. Onlar, söz kalabalığıyla seslerini duyurabileceklerini sanırlar."
+      "text": "Dua ettiğinizde, putperestler gibi boş sözler tekrarlayıp durmayın. Onlar, söz kalabalığıyla seslerini duyurabileceklerini sanırlar."
     },
     {
       "v": 8,
@@ -37,11 +46,11 @@
     },
     {
       "v": 9,
-      "text": "” “Bunun için siz şöyle dua edin: Göklerdeki Babamız, adın kutsal kılınsın."
+      "text": "«Bunun için siz şöyle dua edin:"
     },
     {
       "v": 10,
-      "text": "Esemenliğin gelsin. Gökte olduğu gibi, yeryüzünde de senin istediğin olsun."
+      "text": "Egemenliğin gelsin. Gökte olduğu gibi, yeryüzünde de senin istediğin olsun."
     },
     {
       "v": 11,
@@ -53,31 +62,37 @@
     },
     {
       "v": 13,
-      "text": "Ayartılmamıza izin verme. Kötü olandan bizi kurtar. Çünkü egemenlik, güç ve yücelik sonsuzlara dek senindir. Amin."
+      "text": "Ayartılmamıza izin verme. Kötü olandan bizi kurtar. Çünkü egemenlik, güç ve yücelik sonsuzlara dek senindir. Amin.'"
     },
     {
       "v": 14,
-      "text": "' / “Başkalarının suçlarını bağışlarsanız, göksel Babanız da sizin suçlarınızı bağışlar."
+      "text": "«Başkalarının suçlarını bağışlarsanız, göksel Babanız da sizin suçlarınızı bağışlar."
     },
     {
       "v": 15,
       "text": "Ama siz başkalarının suçlarını bağışlamazsanız, Babanız da sizin suçlarınızı bağışlamaz."
     },
     {
+      "section": "Oruç"
+    },
+    {
       "v": 16,
-      "text": "“Oruç tuttuğunuz zaman, ikiyüzlüler gibi surat asmayın. Onlar oruç tuttuklarını insanlara belli etmek için kendilerine perişan bir görünüm verirler."
+      "text": "«Oruç tuttuğunuz zaman, ikiyüzlüler gibi surat asmayın. Onlar oruç tuttuklarını insanlara belli etmek için kendilerine perişan bir görünüm verirler. Size doğrusunu söyleyeyim, onlar ödüllerini almışlardır."
     },
     {
       "v": 17,
-      "text": "Size doğrusunu söyleyeyim, onlar ödüllerini almışlardır. ' /Siz oruç tuttuğunuz zaman, başınıza yağ sürüp yüzünüzü yıkayın."
+      "text": "Siz oruç tuttuğunuz zaman, başınıza yağ sürüp yüzünüzü yıkayın."
     },
     {
       "v": 18,
       "text": "Öyle ki, insanlara değil, gizlide olan Babanıza oruçlu görünesiniz. Gizlilik içinde yapılanı gören Babanız sizi ödüllendirecektir."
     },
     {
+      "section": "Göksel hazineler"
+    },
+    {
       "v": 19,
-      "text": "“Yeryüzünde kendinize hazineler biriktirmeyin. Burada güve ve pas onları yiyip bitirir, hırsızlar da girip çalarlar."
+      "text": "«Yeryüzünde kendinize hazineler biriktirmeyin. Burada güve ve pas onları yiyip bitirir, hırsızlar da girip çalarlar."
     },
     {
       "v": 20,
@@ -89,19 +104,22 @@
     },
     {
       "v": 22,
-      "text": "“Bedenin ışığı gözdür. Gözünüz sağlamsa, tüm bedeniniz aydınlık olur."
+      "text": "«Bedenin ışığı gözdür. Gözünüz sağlamsa, tüm bedeniniz aydınlık olur."
     },
     {
       "v": 23,
-      "text": "Gözünüz bozuksal) , tüm bedeniniz karanlık olur. Buna göre, içinizdeki 'ışık' karanlıksa, ne korkunçtur o karanlık!"
+      "text": "Gözünüz bozuksa, tüm bedeniniz karanlık olur. Buna göre, içinizdeki `ışık' karanlıksa, ne korkunçtur o karanlık!"
     },
     {
       "v": 24,
-      "text": "“Hiç kimse iki efendiye kulluk edemez. Ya birinden nefret edip öbürünü sever, ya da birine bağlanıp öbürünü hor görür. Siz hem Tanrı'ya, hem de paraya! ! kulluk edemezsiniz."
+      "text": "«Hiç kimse iki efendiye kulluk edemez. Ya birinden nefret edip öbürünü sever, ya da birine bağlanıp öbürünü hor görür. Siz hem Tanrı'ya, hem de paraya kulluk edemezsiniz."
+    },
+    {
+      "section": "Kaygılanmayın"
     },
     {
       "v": 25,
-      "text": "“Bu nedenle size şunu söylüyorum: Ne yiyip ne içeceğiz? ' diye canınız için, ya da Ne giyeceğiz? ' diye bedeniniz için kaygılanmayın. Can yiyecekten, beden de giyecekten daha önemli değil mi?"
+      "text": "«Bu nedenle size şunu söylüyorum: `Ne yiyip ne içeceğiz?' diye canınız için, ya da `Ne giyeceğiz?' diye bedeniniz için kaygılanmayın. Can yiyecekten, beden de giyecekten daha önemli değil mi?"
     },
     {
       "v": 26,
@@ -109,7 +127,7 @@
     },
     {
       "v": 27,
-      "text": "Hangi biriniz kaygılanmakla ömrünü bir anlık\" uzatabilir?"
+      "text": "Hangi biriniz kaygılanmakla ömrünü bir anlık uzatabilir?"
     },
     {
       "v": 28,
@@ -117,15 +135,15 @@
     },
     {
       "v": 29,
-      "text": "” Ama size şunu söyleyeyim, tüm görkemine rağmen Süleyman bile bunlardan biri gibi giyinmiş değildi."
+      "text": "Ama size şunu söyleyeyim, tüm görkemine rağmen Süleyman bilebunlardan biri gibi giyinmiş değildi."
     },
     {
       "v": 30,
-      "text": "Bugün var olup"
+      "text": "Bugün var olup yarın ocağa atılacak olan kır otunu böyle giydiren Tanrı'nın sizi de giydireceği çok daha kesin değil mi, ey imanı kıt olanlar?"
     },
     {
       "v": 31,
-      "text": "yarın ocağa atılacak olan kır otunu böyle giydiren Tanrı'nın sizi de giydireceği çok daha kesin değil mi, ey imanı kıt olanlar? İ“Öyleyse, Ne yiyeceğiz? ' \"Ne içeceğiz? ' ya da Ne giyeceğiz? ' diyerek kaygılanmayın."
+      "text": "«Öyleyse, `Ne yiyeceğiz?' `Ne içeceğiz?' ya da `Ne giyeceğiz?' diyerek kaygılanmayın."
     },
     {
       "v": 32,

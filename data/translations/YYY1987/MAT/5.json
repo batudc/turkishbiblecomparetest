@@ -4,16 +4,18 @@
   "c": 5,
   "content": [
     {
+      "section": "Dinlemek"
+    },
+    {
+      "section": "Gerçek mutluluk"
+    },
+    {
       "v": 1,
       "text": "İsa kalabalıkları görünce dağa çıktı. Oturduktan sonra, öğrencileri yanına geldiler."
     },
     {
       "v": 2,
-      "text": "Onlara seslenip şöyle ders vermeye başladı: “Ne mutlu ruhta yoksul olanlara!"
-    },
-    {
-      "v": 3,
-      "text": "Göklerin Egemenliği onlarındır."
+      "text": "Onlara seslenip şöyle ders vermeye başladı:"
     },
     {
       "v": 4,
@@ -37,7 +39,7 @@
     },
     {
       "v": 9,
-      "text": "”Ne mutlu barışı sağlayanlara! Onlara Tanrı oğulları denecek."
+      "text": "Ne mutlu barışı sağlayanlara! Onlara Tanrı oğulları denecek."
     },
     {
       "v": 10,
@@ -45,31 +47,37 @@
     },
     {
       "v": 11,
-      "text": "“Bana olan bağlılığınızdan ötürü insanlar size sövüp zulmettikleri, yalan yere size karşı her türlü kötü sözü söyledikleri zaman ne mutlu size!"
+      "text": "«Bana olan bağlılığınızdan ötürü insanlar size sövüp zulmettikleri, yalan yere size karşı her türlü kötü sözü söyledikleri zaman ne mutlu size!"
     },
     {
       "v": 12,
       "text": "Sevinin, sevinçle coşun! Çünkü göklerdeki ödülünüz büyüktür. Sizden önce yaşamış olan peygamberlere de böyle zulmettiler."
     },
     {
+      "section": "Tuz ve ışık"
+    },
+    {
       "v": 13,
-      "text": "“Yeryüzünün tuzu sizsiniz. Ama tuz tadını yitirirse, ona tekrar nasıl tuz tadı verilebilir? Artık dışarı atılıp insanların ayakları altında çığnenmekten başka bir şeye yaramaz."
+      "text": "«Yeryüzünün tuzu sizsiniz. Ama tuz tadını yitirirse, ona tekrar nasıl tuz tadı verilebilir? Artık dışarı atılıp insanların ayakları altında çiğnenmekten başka bir şeye yaramaz."
     },
     {
       "v": 14,
-      "text": "“Dünyanın ışığı sizsiniz. Tepenin üzerine kurulan kent gizlenemez."
+      "text": "«Dünyanın ışığı sizsiniz. Tepenin üzerine kurulan kent gizlenemez."
     },
     {
       "v": 15,
-      "text": "İnsanlar da kandil yakıp tahıl ölçeği altına koymazlar. Tersine, kandıllığe koyarlar; oradan da evdekilerin hepsine ışık verir."
+      "text": "İnsanlar da kandil yakıp tahıl ölçeği altına koymazlar. Tersine, kandilliğe koyarlar; oradan da evdekilerin hepsine ışık verir."
     },
     {
       "v": 16,
       "text": "Sizin ışığınız insanların önünde öyle parlasın ki, iyi işlerinizi görerek göklerde olan Babanızı yüceltsinler!"
     },
     {
+      "section": "Kutsal Yasa"
+    },
+    {
       "v": 17,
-      "text": "“Kutsal Yasa'yı ya da peygamberlerin sözlerini geçersiz kılmak için geldiğimi sanmayın. Ben geçersiz kılmaya değil, tamamlamaya geldim."
+      "text": "«Kutsal Yasa'yı ya da peygamberlerin sözlerini geçersizkılmak için geldiğimi sanmayın. Ben geçersiz kılmaya değil, tamamlamaya geldim."
     },
     {
       "v": 18,
@@ -84,8 +92,11 @@
       "text": "Size şunu söyleyeyim: doğruluğunuz din bilginleriyle Ferisilerinkini kat kat aşmadıkça, Göklerin Egemenliğine asla giremezsiniz!"
     },
     {
+      "section": "Öfke ve cinayet"
+    },
+    {
       "v": 21,
-      "text": "! “Atalarımıza, Adam öldürme. Öldüren, yargılanmayı hak edecek' denildiğini duydunuz."
+      "text": "«Atalarımıza, `Adam öldürme. Öldüren, yargılanmayı hak edecek' denildiğini duydunuz."
     },
     {
       "v": 22,
@@ -101,11 +112,14 @@
     },
     {
       "v": 26,
-      "text": "Sana doğrusunu söyleyeyim, son kuruşu! ödemedikçe oradan asla çıkamazsın."
+      "text": "Sana doğrusunu söyleyeyim, son kuruşu ödemedikçe oradan asla çıkamazsın."
+    },
+    {
+      "section": "Zina ve boşanma"
     },
     {
       "v": 27,
-      "text": "Zina etme' denildiğini duydunuz."
+      "text": "«`Zina etme' denildiğini duydunuz."
     },
     {
       "v": 28,
@@ -121,31 +135,37 @@
     },
     {
       "v": 31,
-      "text": "İ“ Kim karısını boşarsa ona boş kâğıdını versin' denilmiştir."
+      "text": "«`Kim karısını boşarsa ona boş kâğıdını versin' denilmiştir."
     },
     {
       "v": 32,
       "text": "Ama ben size diyorum ki, karısını cinsel ahlaksızlıktan başka bir nedenle boşayan her adam, onu zinaya itmiş olur. Boşanmış bir kadınla evlenen de zina etmiş olur."
     },
     {
+      "section": "Ant içmek"
+    },
+    {
       "v": 33,
-      "text": "“Yine atalarımıza, Yalan yere ant içme, ama Rab'be içtiğin antları tut' denildiğini duydunuz."
+      "text": "«Yine atalarımıza, `Yalan yere ant içme, ama Rab'be içtiğin antları tut' denildiğini duydunuz."
     },
     {
       "v": 34,
-      "text": "Oysa ben size diyorum ki, hiç ant içmeyin, ne gök üzerine ' çünkü orası Tanrı'nın tahtıdır; ne yer üzerine | çünkü orası O'nun ayaklarının basamağıdır; ne de Kudüs üzerine ! çünkü orası Büyük Kral'ın kentidir."
+      "text": "Oysa ben size diyorum ki, hiç ant içmeyin, ne gök üzerine - çünkü orası Tanrı'nın tahtıdır; ne yer üzerine - çünkü orası O'nun ayaklarının basamağıdır; ne de Kudüs üzerine - çünkü orası Büyük Kral'ın kentidir."
     },
     {
       "v": 36,
-      "text": "Başınızın üzerine de ant içmeyin."
+      "text": "Başınızın üzerine de ant içmeyin. Çünkü saçınızın tek telini ak ya da kara edemezsiniz."
     },
     {
       "v": 37,
-      "text": "Çünkü saçınızın tek telini ak ya da kara edemezsiniz. ” Evet'iniz evet, \"hayır'ınız hayır olsun. Bundan fazlası Şeytan'dandır."
+      "text": "`Evet'iniz evet, `hayır'ınız hayır olsun. Bundan fazlası Şeytan'dandır."
+    },
+    {
+      "section": "Göze göz, dişe diş"
     },
     {
       "v": 38,
-      "text": "\" Göze göz, dişe diş “Göze göz, dişe diş' denildiğini duydunuz."
+      "text": "«`Göze göz, dişe diş' denildiğini duydunuz."
     },
     {
       "v": 39,
@@ -164,8 +184,11 @@
       "text": "Sizden bir şey dileyene verin, sizden ödünç isteyeni geri çevirmeyin."
     },
     {
+      "section": "Düşmanlarınızı sevin"
+    },
+    {
       "v": 43,
-      "text": "“ Komşunu sev, düşmanından nefret et' denildiğini duydunuz."
+      "text": "«`Komşunu sev, düşmanından nefret et' denildiğini duydunuz."
     },
     {
       "v": 44,

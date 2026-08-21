@@ -1,5 +1,5 @@
 const SHELL_CACHE = 'kki-shell-v5';  // bumped: word study link fixes (verse tracking, consistent update)
-const DATA_CACHE  = 'kki-data-v14'; // bumped: strip HTML tags from commentary-tr-esv notes
+const DATA_CACHE  = 'kki-data-v15'; // bumped: fresh YYY1987 data from christiananswers.net
 
 const SHELL_FILES = [
   '/',

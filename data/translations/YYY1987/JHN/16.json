@@ -4,12 +4,15 @@
   "c": 16,
   "content": [
     {
+      "section": "Dinlemek"
+    },
+    {
       "v": 1,
-      "text": "“Bunları size, sendeleyip düşmeyesiniz diye söyledim."
+      "text": "«Bunları size, sendeleyip düşmeyesiniz diye söyledim."
     },
     {
       "v": 2,
-      "text": "Sizi havra dışı edecekler. Evet, öyle bir saat geliyor ki, sizi öldüren herkes Tanrı'ya hizmet ettidini sanacak."
+      "text": "Sizi havra dışı edecekler. Evet, öyle bir saat geliyor ki, sizi öldüren herkes Tanrı'ya hizmet ettiğini sanacak."
     },
     {
       "v": 3,
@@ -17,43 +20,46 @@
     },
     {
       "v": 4,
-      "text": "Bunları size şimdiden bildiriyorum. Öyle ki, saati gelince bunları size söyledıdimi hatırlayasınız. Başlangıçta bunları size söylemedim. Çünkü sizinle birlikteydim."
+      "text": "Bunları size şimdiden bildiriyorum. Öyle ki, saati gelince bunları size söylediğimi hatırlayasınız. Başlangıçta bunları size söylemedim. Çünkü sizinle birlikteydim."
+    },
+    {
+      "section": "Kutsal Ruh'un işleyişi"
     },
     {
       "v": 5,
-      "text": "“şimdiyse beni gönderenin yanına gidiyorum. Ne var ki, içinizden hiçbiri bana, Nereye"
+      "text": "«Şimdiyse beni gönderenin yanına gidiyorum. Ne var ki, içinizden hiçbiri bana, `Nereye gidiyorsun?' diye sormuyor."
     },
     {
       "v": 6,
-      "text": "gidiyorsun?' diye sormuyor. Ama size bunları söylediğim için yüreğiniz kederle doldu."
+      "text": "Ama size bunları söylediğim için yüreğiniz kederle doldu."
     },
     {
       "v": 7,
-      "text": "Size gerçedi söylüyorum, benim gidişim sizin yararınızadır. Gitmezsem, Yardımcı size gelmez. Ama gidersem, O'nu size gönderirim."
+      "text": "Size gerçeği söylüyorum, benim gidişim sizin yararınızadır. Gitmezsem, Yardımcı size gelmez. Ama gidersem, O'nu size gönderirim."
     },
     {
       "v": 8,
-      "text": "O gelince dünyanın günah, doğruluk ve gelecek yargı konusundaki suçluluğunu dünyaya gösterecektir. G"
+      "text": "O gelince dünyanın günah, doğruluk ve gelecek yargı konusundaki suçluluğunu dünyaya gösterecektir."
     },
     {
       "v": 9,
-      "text": "ünah konusunda | çünkü bana iman etmezler."
+      "text": "Günah konusunda - çünkü bana iman etmezler."
     },
     {
       "v": 10,
-      "text": "Doğruluk konusunda | çünkü Baba'ya gidiyorum, artık beni görmeyeceksiniz. '"
+      "text": "Doğruluk konusunda - çünkü Baba'ya gidiyorum, artık beni görmeyeceksiniz."
     },
     {
       "v": 11,
-      "text": "Yargı konusunda | çünkü bu dünyanın egemeni yargılanmış bulunuyor."
+      "text": "Yargı konusunda - çünkü bu dünyanın egemeni yargılanmış bulunuyor."
     },
     {
       "v": 12,
-      "text": "“Size daha çok söyleyeceklerim var, ama şimdi bunlara dayanamazsınız."
+      "text": "«Size daha çok söyleyeceklerim var, ama şimdi bunlara dayanamazsınız."
     },
     {
       "v": 13,
-      "text": "Ne var ki O, yani Gerçeödin Ruhu gelince, sizi her gerçeğe yöneltecek. O kendiliğinden konuşmayacak, yalnız işittiklerini söyleyecek ve gelecekte olacakları size bildirecek."
+      "text": "Ne var ki O, yani Gerçeğin Ruhu gelince, sizi her gerçeğe yöneltecek. O kendiliğinden konuşmayacak, yalnız işittiklerini söyleyecek ve gelecekte olacakları size bildirecek."
     },
     {
       "v": 14,
@@ -61,27 +67,30 @@
     },
     {
       "v": 15,
-      "text": "Baba'nın her nesi varsa benimdir. Benim olandan alacak ve size bildirecek' dememin nedeni budur."
+      "text": "Baba'nın her nesi varsa benimdir. `Benim olandan alacak ve size bildirecek' dememin nedeni budur."
     },
     {
       "v": 16,
-      "text": "“K ysa süre sonra beni artık görmeyeceksiniz; yine kısa süre sonra beni göreceksiniz.”"
+      "text": "«Kısa süre sonra beni artık görmeyeceksiniz; yine kısa süre sonra beni göreceksiniz.»"
+    },
+    {
+      "section": "Kederiniz sevince dönüşecek"
     },
     {
       "v": 17,
-      "text": "Öğrencilerinden bazıları birbirlerine şöyle dediler: “ Kısa süre sonra beni görmeyeceksiniz; yine kısa süre sonra beni göreceksiniz' ve Çünkü Baba'ya gidiyorum' diyor. Bize ne söylemek istiyor?”"
+      "text": "Öğrencilerinden bazıları birbirlerine şöyle dediler: «`Kısa süre sonra beni görmeyeceksiniz; yine kısa süre sonra beni göreceksiniz' ve `Çünkü Baba'ya gidiyorum' diyor. Bize ne söylemek istiyor?»"
     },
     {
       "v": 18,
-      "text": "Bu yüzden, “ Kısa süre' dediği nedir? Söylediklerini anlamıyoruz” deyip durdula"
+      "text": "Bu yüzden, «`Kısa süre' dediği nedir?Söylediklerini anlamıyoruz» deyip durdular."
     },
     {
       "v": 19,
-      "text": "r. İsa kendisine soru sormak istediklerini anladı. Onlara dedi ki, “ Kısa süre sonra beni görmeyeceksiniz; yine kısa süre sonra beni göreceksiniz' dedim. Birbirinizle bu sözü mü tartışıyorsunuz?"
+      "text": "İsa kendisine soru sormak istediklerini anladı. Onlara dedi ki, «`Kısa süre sonra beni görmeyeceksiniz; yine kısa süre sonra beni göreceksiniz' dedim. Birbirinizle bu sözü mü tartışıyorsunuz?"
     },
     {
       "v": 20,
-      "text": "Size doğrusunu söyleyeyim, siz ağlayıp yas tutacaksınız, dünya ise sevinecektir. Kederleneceksiniz, ama kederiniz sevince dönüecek."
+      "text": "Size doğrusunu söyleyeyim, siz ağlayıp yas tutacaksınız, dünya ise sevinecektir. Kederleneceksiniz, ama kederiniz sevince dönüşecek."
     },
     {
       "v": 21,
@@ -97,11 +106,11 @@
     },
     {
       "v": 24,
-      "text": "Pimdiye dek benim adımla bir şey dilemediniz. Dileyin, alacaksınız. Öyle ki, sevinciniz tam olsun."
+      "text": "Şimdiye dek benim adımla bir şey dilemediniz. Dileyin, alacaksınız. Öyle ki, sevinciniz tam olsun."
     },
     {
       "v": 25,
-      "text": "“Size bunları örneklerle anlattım. Öyle bir saat geliyor ki, artık örneklerle konuşmayacağım; Baba'yı size açıkça tanıtacağım."
+      "text": "«Size bunları örneklerle anlattım. Öyle bir saat geliyor ki, artık örneklerle konuşmayacağım; Baba'yı size açıkça tanıtacağım."
     },
     {
       "v": 26,
@@ -113,27 +122,27 @@
     },
     {
       "v": 28,
-      "text": "Ben Baba'dan çıkıp dünyaya geldim. Pimdi dünyayı bırakıp Baba'ya dönüyorum.”"
+      "text": "Ben Baba'dan çıkıp dünyaya geldim. Şimdi dünyayı bırakıp Baba'ya dönüyorum.»"
     },
     {
       "v": 29,
-      "text": "Öğrencileri, “İşte, şimdi açıkça konuşuyorsun, hiç örnek kullanmıyorsun” dediler."
+      "text": "Öğrencileri, «İşte, şimdi açıkça konuşuyorsun, hiç örnek kullanmıyorsun» dediler."
     },
     {
       "v": 30,
-      "text": "“Şimdi senin her şeyi bildiğini anlıyoruz. Kimsenin sana soru sormasına gerek yok. Tanrı'dan geldiğine bunun için iman ediyoruz.”"
+      "text": "«Şimdi senin her şeyi bildiğini anlıyoruz. Kimsenin sana soru sormasına gerek yok. Tanrı'dan geldiğine bunun için iman ediyoruz.»"
     },
     {
       "v": 31,
-      "text": "İsa onlara, “şimdi iman ediyor musunuz?” diye karşılık verdi."
+      "text": "İsa onlara, «Şimdi iman ediyor musunuz?» diye karşılık verdi."
     },
     {
       "v": 32,
-      "text": "“Y bte, hepinizin evlerinize gitmek üzere dağılacağınız ve beni yalnız bırakacağınız saat geliyor, geldi bile. Ama ben yalnız değilim, Baba benimle birliktedir."
+      "text": "«İşte, hepinizin evlerinize gitmek üzere dağılacağınız ve beni yalnız bırakacağınız saat geliyor, geldi bile. Ama ben yalnız değilim, Baba benimle birliktedir."
     },
     {
       "v": 33,
-      "text": "Bunları size, bende esenliödiniz olsun diye söyledim. Dünyada sıkıntınız olacak. Ama cesur olun, ben dünyayı yendim!”"
+      "text": "Bunları size, bende esenliğiniz olsun diye söyledim. Dünyada sıkıntınız olacak. Ama cesur olun, ben dünyayı yendim!»"
     }
   ]
 }

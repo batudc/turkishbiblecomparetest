@@ -42,3 +42,5 @@ __pycache__/
 # Rebuilt translation data (intermediate pipeline output)
 data/translations/YYY1987_REBUILT/
 data/translations/_archive/
+.vercel
+.env*

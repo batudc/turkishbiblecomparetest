@@ -4,12 +4,22 @@
   "c": 1,
   "content": [
     {
+      "section": "Dinlemek"
+    },
+    {
       "v": 1,
-      "text": "Sayın Teofilos, Birçok kişi aramızda olup bitenlerin tarihçesini yazmaya girişmiştir. Nitekim başlangıçtan beri bu olayların görgü tanığı ve Tanrı sözünün hizmetkârı olanlar bunları bize iletmişlerdir. Ben de tüm bu olayları ta başından özenle araştırmış biri olarak bunları sana sırasıyla yazmayı uygun gördüm. Öy"
+      "text": "Sayın Teofilos, Birçok kişi aramızda olup bitenlerin tarihçesini yazmaya girişmiştir. Nitekim başlangıçtan beri bu olayların görgü tanığı ve Tanrı sözünün hizmetkârı olanlar bunları bize iletmişlerdir. Ben de tüm bu olayları ta başından özenle araştırmış biri olarak bunları sana sırasıyla yazmayı uygun gördüm."
+    },
+    {
+      "v": 3,
+      "text": "Sayın Teofilos, Birçok kişi aramızda olup bitenlerin tarihçesini yazmaya girişmiştir. Nitekim başlangıçtan beri bu olayların görgü tanığı ve Tanrı sözünün hizmetkârı olanlar bunları bize iletmişlerdir. Ben de tüm bu olayları ta başından özenle araştırmış biri olarak bunları sana sırasıyla yazmayı uygun gördüm."
     },
     {
       "v": 4,
-      "text": "le ki, sana verilen bilgilerin doğruluğunu bilesin. ”"
+      "text": "Öyle ki, sana verilen bilgilerin doğruluğunu bilesin."
+    },
+    {
+      "section": "Yahya'nın doğumu önceden bildiriliyor"
     },
     {
       "v": 5,
@@ -17,7 +27,7 @@
     },
     {
       "v": 6,
-      "text": "Her ikisi de Tanrı'nın gözünde doğru kişilerdi, Rab'bin tüm buyruk ve kurallarına eksiksizce uyarlardı. '"
+      "text": "Her ikisi de Tanrı'nın gözünde doğru kişilerdi, Rab'bin tüm buyruk ve kurallarına eksiksizce uyarlardı."
     },
     {
       "v": 7,
@@ -45,11 +55,11 @@
     },
     {
       "v": 13,
-      "text": "Melek ona, “Korkma, Zekeriya” dedi, “duan kabul edildi. Karın Elizabet sana bir oğul doğuracak, onun adını Yahya koyacaksın"
+      "text": "Melek ona, «Korkma, Zekeriya» dedi, «duan kabul edildi. Karın Elizabet sana bir oğul doğuracak, onun adını Yahya koyacaksın."
     },
     {
       "v": 14,
-      "text": ". Sevinip coşacaksın. Birçokları da onun doğumuna sevinecek."
+      "text": "Sevinip coşacaksın. Birçokları da onun doğumuna sevinecek."
     },
     {
       "v": 15,
@@ -57,23 +67,23 @@
     },
     {
       "v": 16,
-      "text": "İsrail oğullarından birçoğunu, Tanrıları olan Rab'be döndürecek. '"
+      "text": "İsrail oğullarından birçoğunu, Tanrıları olan Rab'be döndürecek."
     },
     {
       "v": 17,
-      "text": "Babaların yüreklerini çocuklarına döndürmek, söz dinlemeyenleri doğru kişilerin anlayışına yöneltmek ve Rab için hazırlanmış bir halk yetiştirmek üzere, İlyas'ın ruhu ve gücüyle Rab'bin önünden gidecektir.”"
+      "text": "Babaların yüreklerini çocuklarına döndürmek, söz dinlemeyenleri doğru kişilerin anlayışına yöneltmek ve Rab için hazırlanmış bir halk yetiştirmek üzere, İlyas'ın ruhu ve gücüyle Rab'bin önünden gidecektir.»"
     },
     {
       "v": 18,
-      "text": "Zekeriya meleğe, “Bundan nasıl emin olabilirim?” dedi. “Çünkü ben yaşlandım, karımın da yaşı ilerled"
+      "text": "Zekeriya meleğe, «Bundan nasıl emin olabilirim?» dedi. «Çünkü ben yaşlandım, karımın da yaşı ilerledi.»"
     },
     {
       "v": 19,
-      "text": "i.” Melek ona şöyle karşılık verdi: “Ben Tanrı'nın huzurunda duran Cebraıl'ım. Seninle konuşmak ve bu müjdeyi sana bildirmek için gönderildim."
+      "text": "Melek ona şöyle karşılık verdi: «Ben Tanrı'nın huzurunda duran Cebrail'im. Seninle konuşmak ve bu müjdeyi sana bildirmek için gönderildim."
     },
     {
       "v": 20,
-      "text": "İşte, belirlenen zamanda yerine gelecek olan sözlerime İnanmadığın için dilin tutulacak, bunların gerçekleşeceği güne dek konuşamayacaksın.”"
+      "text": "İşte, belirlenen zamanda yerine gelecek olan sözlerime inanmadığın için dilin tutulacak, bunların gerçekleşeceği güne dek konuşamayacaksın.»"
     },
     {
       "v": 21,
@@ -93,23 +103,26 @@
     },
     {
       "v": 25,
-      "text": "“Bunu benim için yapan Rab'dir” dedi. “Bu günlerde benimle ilgilenerek insanlar arasında utancımı giderdi.” -İRlizabet'in hamileliğinin altıncı ayında"
+      "text": "«Bunu benim için yapan Rab'dir» dedi. «Bu günlerde benimle ilgilenerek insanlar arasındautancımı giderdi.»"
+    },
+    {
+      "section": "İsa'nın doğumu önceden bildiriliyor"
     },
     {
       "v": 26,
-      "text": "Tanrı, melek Cebrail'i Celile'de bulunan Nasıra adlı kente, Davut'un soyundan Yusuf adındaki adama nişanlı olan bir kıza gönderdi. Kızın adı Meryem'di."
+      "text": "Elizabet'in hamileliğinin altıncı ayında Tanrı, melek Cebrail'i Celile'de bulunan Nasıra adlı kente, Davut'un soyundan Yusuf adındaki adama nişanlı olan bir kıza gönderdi. Kızın adı Meryem'di."
     },
     {
       "v": 28,
-      "text": "Onun yanına giren melek, “Ey Tanrı'nın lütfuna erişen kız, selam! Rab seninledir” dedi"
+      "text": "Onun yanına giren melek, «Ey Tanrı'nın lütfuna erişen kız, selam! Rab seninledir» dedi."
     },
     {
       "v": 29,
-      "text": ". ”Söylenenlere çok şaşıran Meryem, bu selamın ne anlama gelebileceğini düşünmeye başladı."
+      "text": "Söylenenlere çok şaşıran Meryem, bu selamın ne anlama gelebileceğini düşünmeye başladı."
     },
     {
       "v": 30,
-      "text": "Ama melek ona, “Korkma Meryem” dedi, “sen Tanrı'nın lütfuna eriştin."
+      "text": "Ama melek ona, «Korkma Meryem» dedi, «sen Tanrı'nın lütfuna eriştin."
     },
     {
       "v": 31,
@@ -117,35 +130,38 @@
     },
     {
       "v": 32,
-      "text": "O büyük olacak, kendisine 'en yüce Olan'ın Oğlu! denecek. Rab Tanrı O'na, atası Davut'un tahtını verecek."
+      "text": "O büyük olacak, kendisine `en yüce Olan'ın Oğlu' denecek. Rab Tanrı O'na, atası Davut'un tahtını verecek."
     },
     {
       "v": 33,
-      "text": "O da sonsuza dek Yakup'un soyu üzerinde egemenlik sürecek, ve egemenliğinin sonu gelmeyecektir.”"
+      "text": "O da sonsuza dek Yakup'un soyu üzerinde egemenlik sürecek, ve egemenliğinin sonu gelmeyecektir.»"
     },
     {
       "v": 34,
-      "text": "Meryem meleğe, “Bu nasıl olur? Ben erkeğe varmadım ki” dedi."
+      "text": "Meryem meleğe, «Bu nasıl olur? Ben erkeğe varmadım ki» dedi."
     },
     {
       "v": 35,
-      "text": "Melek ona şöyle cevap verdi: “Kutsal Ruh senin üzerine gelecek, en yüce Olan'ın gücü senin üstüne gölge salacak. Bunun için doğacak olana kutsal, Tanrı Oğlu denecek."
+      "text": "Melek ona şöyle cevap verdi: «Kutsal Ruh senin üzerine gelecek, en yüce Olan'ın gücü senin üstüne gölge salacak. Bunun için doğacak olana kutsal, Tanrı Oğlu denecek."
     },
     {
       "v": 36,
-      "text": "Bak, senin akrabalarından Elizabet de yaşlılığında bir oğula"
+      "text": "Bak, senin akrabalarından Elizabet de yaşlılığında bir oğula gebe kalmıştır. Kısır bilinen bu kadın şimdi altıncı ayındadır."
     },
     {
       "v": 37,
-      "text": "gebe kalmıştır. Kısır bilinen bu kadın şimdi altıncı ayındadır."
+      "text": "Tanrı'nın yapamayacağı hiçbir şey yoktur.»"
     },
     {
       "v": 38,
-      "text": "Tanrı'nın yapamayacağı hiçbir şey yoktur.” “Ben Rab'bin kuluyum” dedi Meryem, “bana dediğin gibi olsun.” Bundan sonra melek onun yanından ayrıldı. Meryem, Elizabet'i ziyaret ediyo"
+      "text": "«Ben Rab'bin kuluyum» dedi Meryem, «bana dediğin gibi olsun.» Bundan sonra melek onun yanından ayrıldı."
+    },
+    {
+      "section": "Meryem, Elizabet'i ziyaret ediyor"
     },
     {
       "v": 39,
-      "text": "r O günlerde Meryem kalkıp aceleyle dağlık bölgeye, Yahuda oymağının bir kentine gitti."
+      "text": "O günlerde Meryem kalkıp aceleyle dağlık bölgeye, Yahuda oymağının bir kentine gitti."
     },
     {
       "v": 40,
@@ -153,7 +169,7 @@
     },
     {
       "v": 41,
-      "text": "Elizabet Meryem'in selamını duyunca rahmindeki çocuk hopladı. Kutsal Ruh'la dolan Elizabet, yüksek sesle şöyle dedi: “Kadınlar arasında kutsanmış bulunuyorsun, rahminin ürünü de kutsanmıştır!"
+      "text": "Elizabet Meryem'in selamını duyunca rahmindeki çocuk hopladı. Kutsal Ruh'la dolan Elizabet, yüksek sesle şöyle dedi: «Kadınlar arasında kutsanmış bulunuyorsun, rahminin ürünü de kutsanmıştır!"
     },
     {
       "v": 43,
@@ -165,15 +181,15 @@
     },
     {
       "v": 45,
-      "text": "İman eden kadına ne mutlu! Çünkü Rab'bin ona söylediği sözler gerçekleşecektir.”"
+      "text": "İman eden kadına ne mutlu! Çünkü Rab'bin ona söylediği sözler gerçekleşecektir.»"
     },
     {
       "v": 46,
-      "text": "İMeryem de şöyle dedi: “Canım Rab'bi yüceltir; ruhum, Kurtarıcım Tanrı sayesinde sevinçle coşar."
+      "text": "Meryem de şöyle dedi:"
     },
     {
       "v": 48,
-      "text": "Cünkü O, sıradan biri olan kuluyla ilgilendi. İşte, bundan böyle tüm kuşaklar beni mutlu sayacak."
+      "text": "Çünkü O, sıradan biri olan kuluyla ilgilendi. İşte, bundan böyle tüm kuşaklar beni mutlu sayacak."
     },
     {
       "v": 49,
@@ -181,11 +197,11 @@
     },
     {
       "v": 50,
-      "text": "Kuşaktan kuşağa kendisinden korkanlara merhamet eder. ”'Eliyle güçlü"
+      "text": "Kuşaktan kuşağa kendisinden korkanlara merhamet eder."
     },
     {
       "v": 51,
-      "text": "işler yaptı; kıbirlileri yüreklerindeki kuruntularla darmadağın etti."
+      "text": "Eliyle güçlü işler yaptı; kibirlileri yüreklerindeki kuruntularla darmadağın etti."
     },
     {
       "v": 52,
@@ -197,15 +213,18 @@
     },
     {
       "v": 54,
-      "text": "Atalarımıza söz verdiği gibi, kulu İsrail'in yardımına yetişti.”"
+      "text": "Atalarımıza söz verdiği gibi, İbrahim'e ve onun soyuna sonsuza dek merhamet etmeyi unutmayarak kulu İsrail'in yardımına yetişti.»"
     },
     {
       "v": 56,
-      "text": "Meryem, üç ay kadar"
+      "text": "Meryem, üç ay kadar Elizabet'in yanında kaldı, sonra kendi evine döndü."
+    },
+    {
+      "section": "Yahya peygamberin doğumu"
     },
     {
       "v": 57,
-      "text": "Elizabet'in yanında kaldı, sonra kendi evine döndü. ”Elizabet'in doğum yapacağı vakit geldi ve bir oğul doğurdu."
+      "text": "Elizabet'in doğum yapacağı vakit geldi ve bir oğul doğurdu."
     },
     {
       "v": 58,
@@ -217,11 +236,11 @@
     },
     {
       "v": 60,
-      "text": "Ama annesi, “Hayır, adı Yahya olacak” dedi."
+      "text": "Ama annesi, «Hayır, adı Yahya olacak» dedi."
     },
     {
       "v": 61,
-      "text": "Ona, “Akrabaların arasında bu adı taşıyan hiç kimse yok ki” dediler."
+      "text": "Ona, «Akrabaların arasında bu adı taşıyan hiç kimse yok ki» dediler."
     },
     {
       "v": 62,
@@ -229,7 +248,7 @@
     },
     {
       "v": 63,
-      "text": "Onlardan bir yazı levhası isteyen Zekeriya, “Adı Yahya'dır” diye yazdı. Herkes şaşakaldı."
+      "text": "Onlardan bir yazı levhası isteyen Zekeriya, «Adı Yahya'dır» diye yazdı. Herkes şaşakaldı."
     },
     {
       "v": 64,
@@ -237,43 +256,58 @@
     },
     {
       "v": 65,
-      "text": "Cevrede oturanların hepsi korkuya kapıldı. Bütün bu olaylar, Yahudiye'nin dağlık bölgesinin her yanında konuşulur oldu."
+      "text": "Çevrede oturanların hepsi korkuya kapıldı. Bütün bu olaylar, Yahudiye'nin dağlık bölgesinin her yanında konuşulur oldu."
     },
     {
       "v": 66,
-      "text": "Duyan herkes derin derin düşünüyor, “Bu çocuk acaba ne olacak?” diyordu. Çünkü Rab! onunla birlikteydi."
+      "text": "Duyan herkes derin derin düşünüyor, «Bu çocuk acaba ne olacak?» diyordu. Çünkü Rab onunla birlikteydi."
+    },
+    {
+      "section": "Zekeriya'nın şükran ilahisi"
     },
     {
       "v": 67,
-      "text": "Cocuğun babası Zekeriya, Kutsal Ruh'la dolarak şu peygamberlikte bulundu:"
+      "text": "Çocuğun babası Zekeriya, Kutsal Ruh'la dolarak şu peygamberlikte bulundu:"
     },
     {
       "v": 68,
-      "text": "İsrail'in Tanrısı olan Rab'be övgüler olsun! Çünkü halkının yardımına gelip onları fidyeyle kurtardı."
+      "text": "«İsrail'in Tanrısı olan Rab'be övgüler olsun! Çünkü halkının yardımına gelip onları fidyeyle kurtardı."
     },
     {
       "v": 69,
-      "text": "Eski çağlardan beri kutsal peygamberlerinin ağzından bildirdiği gibi, bizim"
+      "text": "Eski çağlardan beri kutsal peygamberlerinin ağzından bildirdiği gibi, kulu Davut'un soyundan bizim için güçlü bir kurtarıcı çıkardı; düşmanlarımızdan, bizden nefret edenlerin hepsinin elinden kurtuluşumuzu sağladı."
+    },
+    {
+      "v": 71,
+      "text": "Eski çağlardan beri kutsal peygamberlerinin ağzından bildirdiği gibi, kulu Davut'un soyundan bizim için güçlü bir kurtarıcı çıkardı; düşmanlarımızdan, bizden nefret edenlerin hepsinin elinden kurtuluşumuzu sağladı."
     },
     {
       "v": 72,
-      "text": "için güçlü bir kurtarıcı\"! çıkardı; düşmanlarımızdan, kurtuluşumuzu sağladı."
+      "text": "Böylece atalarımıza merhamet ederek kutsal antlaşmasını anmış oldu."
     },
     {
       "v": 73,
-      "text": "Nitekim bizi düşmanlarımızın elinden kurtaracağına ve ömrümüz boyunca kendi önünde kutsallık ve doğruluk içinde, atamız İbrahim'e ant içerek söz vermişti."
+      "text": "Nitekim bizi düşmanlarımızın elinden kurtaracağına ve ömrümüz boyunca kendi önünde kutsallık ve doğruluk içinde, korkusuzca kendisine tapınmamızı sağlayacağına dair atamız İbrahim'e ant içerek söz vermişti."
+    },
+    {
+      "v": 75,
+      "text": "Nitekim bizi düşmanlarımızın elinden kurtaracağına ve ömrümüz boyunca kendi önünde kutsallık ve doğruluk içinde, korkusuzca kendisine tapınmamızı sağlayacağına dair atamız İbrahim'e ant içerek söz vermişti."
     },
     {
       "v": 76,
-      "text": "Sen de, ey çocuk, en yüce Olan'ın peygamberi diye anılacaksın. ve O'nun halkına, günahlarının bağışlanmasıyla kurtulacaklarını bildireceksin."
+      "text": "Sen de, ey çocuk, en yüce Olan'ın peygamberi diye anılacaksın. Rab'bin yollarını hazırlamak üzere önünden gidecek ve O'nun halkına, günahlarının bağışlanmasıyla kurtulacaklarını bildireceksin."
     },
     {
       "v": 78,
       "text": "Çünkü Tanrımızın yüreği merhamet doludur."
     },
     {
+      "v": 79,
+      "text": "O'nun merhameti sayesinde, yücelerden doğan Güneş, karanlıkta ve ölümün gölgesinde yaşayanlara ışık saçmak ve ayaklarımızı esenlik yoluna yöneltmek üzere yardımımıza gelecektir.»"
+    },
+    {
       "v": 80,
-      "text": "Cocuk büyüyor, ruhsal yönden güçleniyordu. İsrail halkına görüneceği güne dek ıssız yerlerde yaşadı."
+      "text": "Çocuk büyüyor, ruhsal yönden güçleniyordu. İsrail halkına görüneceği güne dek ıssız yerlerde yaşadı."
     }
   ]
 }

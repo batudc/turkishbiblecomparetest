@@ -4,16 +4,22 @@
   "c": 16,
   "content": [
     {
+      "section": "Dinlemek"
+    },
+    {
+      "section": "Timoteyus, Pavlus'la Silas'a katılıyor"
+    },
+    {
       "v": 1,
       "text": "Pavlus, Derbe ve Listra'ya da uğradı. Listra'da annesi imanlı bir Yahudi, babası ise Grek olan Timoteyus adında bir İsa öğrencisi vardı."
     },
     {
       "v": 2,
-      "text": "Listra ve Konya'daki kardeşler ondan övgüyle söz ediyorlardı. Timoteyus'u kendisiyle birlikte götürmek isteyen"
+      "text": "Listra ve Konya'daki kardeşler ondan övgüyle söz ediyorlardı."
     },
     {
       "v": 3,
-      "text": "Pavlus, oralarda bulunan Yahudiler yüzünden onu sünnet ettirdi. Çünkü hepsi, babasının Grek olduğunu biliyordu."
+      "text": "Timoteyus'u kendisiyle birlikte götürmek isteyen Pavlus, oralarda bulunan Yahudiler yüzünden onu sünnet ettirdi. Çünkü hepsi, babasının Grek olduğunu biliyordu."
     },
     {
       "v": 4,
@@ -24,8 +30,11 @@
       "text": "Böylelikle toplulukların imanı güçleniyor ve sayıları günden güne artıyordu."
     },
     {
+      "section": "Pavlus'un Makedonya'yla ilgili görümü"
+    },
+    {
       "v": 6,
-      "text": "Kutsal Ruh'un, Tanrı sözünü Asya ilinde yaymalarını engellemesi üzerine Pavlus'la arkadaşları Frıkya ve Galatya bölgesinden geçtiler. '"
+      "text": "Kutsal Ruh'un, Tanrı sözünü Asya ilinde yaymalarını engellemesi üzerine Pavlus'la arkadaşları Frikya ve Galatya bölgesinden geçtiler."
     },
     {
       "v": 7,
@@ -37,11 +46,14 @@
     },
     {
       "v": 9,
-      "text": "O gece Pavlus bir görüm gördü. Önünde Makedonyalı bir adam durmuş, ona yalvarıyordu: “Makedonya'ya geçip bize yardım et” diyordu."
+      "text": "O gece Pavlus bir görüm gördü. Önünde Makedonyalı bir adam durmuş, ona yalvarıyordu: «Makedonya'ya geçip bize yardım et» diyordu."
     },
     {
       "v": 10,
       "text": "Pavlus'un gördüğü bu görümden sonra hemen Makedonya'ya gitmenin bir yolunu aradık. Çünkü Tanrı'nın bizi, Müjde'yi oradakilere duyurmaya çağırdığı sonucuna varmıştık."
+    },
+    {
+      "section": "Lidya'nın iman etmesi"
     },
     {
       "v": 11,
@@ -49,31 +61,34 @@
     },
     {
       "v": 12,
-      "text": "Oradan da bir Roma yerleşme merkezi ve Makedonya'nın o bölgesinin önemli bir kenti olan Fılıpı'ye geçtik. Birkaç gün bu kentte kaldık. Sept günü kent"
+      "text": "Oradan da bir Roma yerleşme merkezi ve Makedonya'nın o bölgesinin önemli bir kenti olan Filipi'ye geçtik. Birkaç gün bu kentte kaldık."
     },
     {
       "v": 13,
-      "text": "kapısından dışarı çıkıp ırmak kıyısına gittik. Orada bir dua yeri olacağını düşünüyorduk. Oturduk, orada toplanmış olan kadınlarla konuşmaya başladık."
+      "text": "Sept günü kent kapısından dışarı çıkıp ırmak kıyısına gittik. Orada bir dua yeri olacağını düşünüyorduk. Oturduk, orada toplanmış olan kadınlarla konuşmaya başladık."
     },
     {
       "v": 14,
-      "text": "Bizi dinleyenler arasında Tıyatıra kentinden Lidya adında bir kadın vardı. Mora boyanmış kumaş ticareti yapan Lidya, Tanrı'ya tapan biriydi. Pavlus'un söylediklerine kulak vermesi için Rab onun yüreğini açtı."
+      "text": "Bizi dinleyenler arasında Tiyatira kentinden Lidya adında bir kadın vardı. Mora boyanmış kumaş ticareti yapan Lidya, Tanrı'ya tapan biriydi. Pavlus'un söylediklerine kulak vermesi için Rab onun yüreğini açtı."
     },
     {
       "v": 15,
-      "text": "Lidya, ev halkıyla birlikte vaftiz olduktan sonra bizi evine çağırdı. “Beni Rab'bin bir inanlısı kabul ediyorsanız, gelin, evimde kalın” dedi ve bizi razı etti."
+      "text": "Lidya, ev halkıyla birlikte vaftiz olduktan sonra bizi evine çağırdı. «Beni Rab'bin bir inanlısı kabul ediyorsanız, gelin, evimde kalın» dedi ve bizi razı etti."
+    },
+    {
+      "section": "Pavlus'la Silas hapiste"
     },
     {
       "v": 16,
-      "text": "Bir gün biz dua yerine giderken, karşımıza, falcılık ruhuna tutsak bir köle kız çıktı. Bu kız, gelecekten haber vererek efendilerine bir hayli kazanç s"
+      "text": "Bir gün biz dua yerine giderken, karşımıza, falcılık ruhuna tutsak bir köle kız çıktı. Bu kız, gelecekten haber vererek efendilerine bir hayli kazanç sağlıyordu."
     },
     {
       "v": 17,
-      "text": "ağlıyordu. Pavlus'la diğerlerimizin arkasına takılarak, “Bu adamlar yüce Tanrı'nın kullarıdır, size kurtuluş yolunu bildiriyorlar” diye bağırıp durdu."
+      "text": "Pavlus'la diğerlerimizin arkasına takılarak, «Bu adamlar yüce Tanrı'nın kullarıdır, size kurtuluş yolunu bildiriyorlar!» diye bağırıp durdu."
     },
     {
       "v": 18,
-      "text": "Ve günlerce sürdürdü bunu. Sonunda, bundan çok rahatsız olan Pavlus arkasına dönerek ruha, “İsa Mesih'in adıyla, bu kızın içinden çıkmanı emrediyorum” dedi. Ruh hemen o anda kızın içinden çıktı."
+      "text": "Ve günlerce sürdürdü bunu. Sonunda, bundan çok rahatsız olan Pavlus arkasına dönerek ruha, «İsa Mesih'in adıyla, bu kızın içinden çıkmanı emrediyorum» dedi. Ruh hemen o anda kızın içinden çıktı."
     },
     {
       "v": 19,
@@ -81,83 +96,83 @@
     },
     {
       "v": 20,
-      "text": "Onları ya"
+      "text": "Onları yargıçların karşısına çıkartarak, «Yahudi olan bu adamlar kentimizi allak bullak ediyorlar. Biz Romalılar için benimsenmesi ve uygulanması yasak olan birtakım töreler yayıyorlar» dediler."
     },
     {
       "v": 22,
-      "text": "rgıçların"
+      "text": "Bunun üzerine halk toplu halde Pavlus'la Silas'a karşı saldırıya geçti. Yargıçlar, onların giysilerini yırtıp sıyırarak değnekle dövülmeleri için buyruk verdiler."
     },
     {
       "v": 23,
-      "text": "karşısına"
+      "text": "Onları iyice dövdürdükten sonra hapse attılar. Zindancıya, onları sıkı güvenlik altında tutmasını buyurdular."
     },
     {
       "v": 24,
-      "text": "çıkartara"
+      "text": "Bu buyruğu alan zindancı onları hapishanenin iç bölmesine atarak ayaklarını tomruğa vurdu."
     },
     {
       "v": 25,
-      "text": "k, “Yahudi"
+      "text": "Gece yarısına doğru Pavlus'la Silas dua ediyor, Tanrı'yı ilahilerle yüceltiyorlardı. Öbür tutuklular da onları dinliyordu."
     },
     {
       "v": 26,
-      "text": "olan bu a"
+      "text": "Birdenbire öyle şiddetli bir deprem oldu ki, tutukevi temelden sarsıldı. Bir anda tüm kapılar açıldı, herkesin zincirleri çözüldü."
     },
     {
       "v": 27,
-      "text": "damlar ke"
+      "text": "Uykudan uyanan zindancı, zindan kapılarının açılmış olduğunu gördü. Tutukluların kaçmış olduğunu düşünerek kendi canına kıymak üzere kılıcını çekti."
     },
     {
       "v": 28,
-      "text": "ntimizi al"
+      "text": "Ama Pavlus yüksek sesle, «Kıyma canına, hepimiz buradayız!» diye seslendi."
     },
     {
       "v": 29,
-      "text": "lak bullak"
+      "text": "Işık getirten zindancı içeri daldı, titreyerek Pavlus'la Silas'ın önünde yere kapandı."
     },
     {
       "v": 30,
-      "text": "ediyorlar"
+      "text": "Onları dışarı çıkararak, «Efendiler, kurtulmak için ne yapmam gerek?» diye sordu."
     },
     {
       "v": 31,
-      "text": ". Biz Rom"
+      "text": "Onlar, «Rab İsa'ya iman et, sen de ev halkın da kurtulursunuz» dediler."
     },
     {
       "v": 32,
-      "text": "alılar içi"
+      "text": "Sonra kendisine ve ev halkının hepsine Rab'bin sözünü bildirdiler."
     },
     {
       "v": 33,
-      "text": "n benimsen"
+      "text": "Gecenin o saatinde zindancı onları götürüp yaralarını yıkadı. Sonra kendisi, bütün ev halkıyla birlikte hemen vaftiz oldu."
     },
     {
       "v": 34,
-      "text": "mesi ve u"
+      "text": "Pavlus'la Silas'ı evine götürerek önlerine sofra kurdu. Tanrı'ya inanmış olmak, onu ve evindekilerin hepsini sevince boğmuştu."
     },
     {
       "v": 35,
-      "text": "ygulanması"
+      "text": "Gün doğunca yargıçlar görevlileri yollayıp, «O adamları serbest bırak» diye haber gönderdiler."
     },
     {
       "v": 36,
-      "text": "yasak ola"
+      "text": "Zindancı bu sözleri Pavlus'a iletti. «Yargıçlar, serbest bırakılmanız için emir gönderdiler. Şimdi çıkabilirsiniz, esenlikle gidin» dedi."
     },
     {
       "v": 37,
-      "text": "n birtakı"
+      "text": "Ama Pavlus görevlilere şöyle dedi: «Roma vatandaşı olduğumuz halde, bizi yargılamadan herkesin önünde dövüp hapse attılar. Şimdi bizi gizlice mi kovacaklar? Olmaz böyle şey! Kendileri gelsinler, bizi alıp çıkarsınlar!»"
     },
     {
       "v": 38,
-      "text": "m töreler"
+      "text": "Görevliler, bu sözleri yargıçlara iletti. Yargıçlar Pavlus'la Silas'ın Roma vatandaşı olduğunu duyunca korktular."
     },
     {
       "v": 39,
-      "text": "yayıyorlar"
+      "text": "Gelip özür dilediler. Sonra onları dışarı çıkararak kentten ayrılmalarını rica ettiler."
     },
     {
       "v": 40,
-      "text": "” dediler."
+      "text": "Zindandan çıkan Pavlus'la Silas, Lidya'nın evine gittiler. Kardeşlerle görüşüp onları yüreklendirdikten sonra oradan ayrıldılar."
     }
   ]
 }
