@@ -5046,7 +5046,7 @@
     if (isNew) {
       // ── New 4-section format ──────────────────────────────────────────
       const sourceEl = document.getElementById('commentary-source');
-      if (data.source) sourceEl.textContent = data.source;
+      if (data.source && sourceEl) sourceEl.textContent = data.source;
 
       // Book Overview — supports both plain string and structured object
       const bookBody = document.getElementById('comm-sect-book-body');
