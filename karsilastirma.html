@@ -1017,6 +1017,12 @@
     .panel-option:hover { background: rgba(184,146,42,0.1); color: var(--gold-light); }
     .panel-option input { accent-color: var(--gold); cursor: pointer; flex-shrink: 0; }
     .panel-option.active { color: rgba(247,241,232,0.95); }
+    .layout-label-mob  { display: none; }
+    .layout-label-desk { display: inline; }
+    @media (max-width: 640px) {
+      .layout-label-mob  { display: inline; }
+      .layout-label-desk { display: none; }
+    }
 
     /* ===== BOOK PANEL ===== */
     #panel-books { width: 380px; }
@@ -2132,9 +2138,9 @@
   <div class="panel-section">
     <div class="panel-section-title">Düzen</div>
     <div class="panel-row-group">
-      <label class="panel-option active"><input type="radio" name="layout" value="cols" checked> Tek Sütun</label>
+      <label class="panel-option active"><input type="radio" name="layout" value="cols" checked> <span class="layout-label-mob">Tek Sütun</span><span class="layout-label-desk">Sütun</span></label>
       <label class="panel-option"><input type="radio" name="layout" value="rows"> Satır</label>
-      <label class="panel-option"><input type="radio" name="layout" value="grid"> Çift Sütun</label>
+      <label class="panel-option"><input type="radio" name="layout" value="grid"> <span class="layout-label-mob">Çift Sütun</span><span class="layout-label-desk">Sütun ve Satır</span></label>
     </div>
   </div>
 </div>

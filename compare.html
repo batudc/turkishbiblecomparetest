@@ -1051,6 +1051,12 @@
     .panel-option:hover { background: rgba(184,146,42,0.1); color: var(--gold-light); }
     .panel-option input { accent-color: var(--gold); cursor: pointer; flex-shrink: 0; }
     .panel-option.active { color: rgba(247,241,232,0.95); }
+    .layout-label-mob  { display: none; }
+    .layout-label-desk { display: inline; }
+    @media (max-width: 640px) {
+      .layout-label-mob  { display: inline; }
+      .layout-label-desk { display: none; }
+    }
 
     /* ===== BOOK PANEL ===== */
     #panel-books { width: 380px; }
@@ -2166,9 +2172,9 @@
   <div class="panel-section">
     <div class="panel-section-title">Layout</div>
     <div class="panel-row-group">
-      <label class="panel-option active"><input type="radio" name="layout" value="cols" checked> Single Column</label>
+      <label class="panel-option active"><input type="radio" name="layout" value="cols" checked> <span class="layout-label-mob">Single Column</span><span class="layout-label-desk">Columns</span></label>
       <label class="panel-option"><input type="radio" name="layout" value="rows"> Rows</label>
-      <label class="panel-option"><input type="radio" name="layout" value="grid"> Two Columns</label>
+      <label class="panel-option"><input type="radio" name="layout" value="grid"> <span class="layout-label-mob">Two Columns</span><span class="layout-label-desk">Columns &amp; Rows</span></label>
     </div>
   </div>
 </div>
