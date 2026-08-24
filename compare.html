@@ -2355,7 +2355,7 @@
     'KMEYA':        'Kitabı Mukaddes Şirketi, 1941. The most widely used standard edition in Turkey.',
     'TCL02':        'Kitabı Mukaddes Şirketi & Yeni Yaşam Yayınları, 2001. Modern Turkish.',
     'AREMSI':       'Fondatsiya "AR EM Sİ", 2007. Translation with Central Asian Turkish influence.',
-    'HKTN':         'Ecumenical team translation, 2007. Reflects both Protestant and Catholic traditions.',
+    'KA2007':        'Akın Kadir, Bayraktar Hakkı. Ali Bey\'in Osmanlıca (1662-1666) Çevirisine Göre Ekümenik Kutsal Kitap: Tevrat, Zebur, İnciller ve Tüm Deuterokanonik/Apokrif Ekleri. İstanbul: Haktan Yayıncılık, 2007.',
     'YTC':          'Yorumsuz Türkçe Çeviri, 2023. Prepared with high fidelity to the source text.',
     'HAKK':         'Halk Dilinde Kutsal Kitap, 2024. Prepared in plain, contemporary Turkish.',
     'KIE1819':      'Translators: Ali Bey & J.D. Kieffer. Published by BFBS, 1819.',
@@ -2402,7 +2402,7 @@
       { id:'KMEYA',    name:'Kitab-ı Mukaddes',                      year:1941, loaded:true  },
       { id:'TCL02',    name:'Yeni Çeviri',                           year:2001, loaded:true  },
       { id:'AREMSI',   name:'FONDATSİYA "AR EM Sİ"',                 year:2007, loaded:true  },
-      { id:'HKTN',     name:'Ekümenik Kutsal Kitap',                  year:2007, loaded:true   },
+      { id:'KA2007',     name:'Ekümenik Kutsal Kitap',                  year:2007, loaded:true   },
       { id:'YTC',      name:'Yorumsuz Türkçe Çeviri',                 year:2023, loaded:true  },
       { id:'HAKK',     name:'Halk Dilinde Kutsal Kitap',              year:2024, loaded:true  },
     ],
@@ -3179,7 +3179,7 @@
     {
       id: 'modern', label: 'Modern Turkish',
       subcats: [
-        { label: 'Full Bible',     ids: ['TCL02','AREMSI','HKTN','YTC','HAKK'] },
+        { label: 'Full Bible',     ids: ['TCL02','AREMSI','KA2007','YTC','HAKK'] },
         { label: 'New Testament',  ids: ['YYY1987','CAN','KKDEU','BGT','COS','TTT'] },
         { label: 'Partial',        ids: ['TSV','OTR2019'] },
       ]
@@ -5534,8 +5534,8 @@
         _tourCursorClick(() => document.querySelector('input[data-tid="AREMSI"]')?.closest('.trans-item')?.querySelector('.trans-name'), 1900, () => {
           const cb = document.querySelector('input[data-tid="AREMSI"]'); if (cb && !cb.checked) cb.click();
         });
-        _tourCursorClick(() => document.querySelector('input[data-tid="HKTN"]')?.closest('.trans-item')?.querySelector('.trans-name'), 2600, () => {
-          const cb = document.querySelector('input[data-tid="HKTN"]'); if (cb && !cb.checked) cb.click();
+        _tourCursorClick(() => document.querySelector('input[data-tid="KA2007"]')?.closest('.trans-item')?.querySelector('.trans-name'), 2600, () => {
+          const cb = document.querySelector('input[data-tid="KA2007"]'); if (cb && !cb.checked) cb.click();
         });
       },
     },
@@ -5558,8 +5558,8 @@
         _tourCursorClick(() => document.querySelector('.fav-star[data-tid="AREMSI"]'), 1400, () => {
           document.querySelector('.fav-star[data-tid="AREMSI"]')?.click();
         });
-        _tourCursorClick(() => document.querySelector('.fav-star[data-tid="HKTN"]'), 2100, () => {
-          document.querySelector('.fav-star[data-tid="HKTN"]')?.click();
+        _tourCursorClick(() => document.querySelector('.fav-star[data-tid="KA2007"]'), 2100, () => {
+          document.querySelector('.fav-star[data-tid="KA2007"]')?.click();
         });
       },
     },

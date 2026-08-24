@@ -1051,7 +1051,7 @@ const TRANSLATIONS = {
     { id:'KMEYA',      name:'Kitab-ı Mukaddes',                year:1941, loaded:true  },
     { id:'TCL02',      name:'Yeni Çeviri',                     year:2001, loaded:true  },
     { id:'AREMSI',     name:'FONDATSİYA "AR EM Sİ"',           year:2007, loaded:true  },
-    { id:'HKTN',       name:'Ekümenik Kutsal Kitap',            year:2007, loaded:true  },
+    { id:'KA2007',       name:'Ekümenik Kutsal Kitap',            year:2007, loaded:true  },
     { id:'YTC',        name:'Yorumsuz Türkçe Çeviri',           year:2023, loaded:true  },
     { id:'HAKK',       name:'Halk Dilinde Kutsal Kitap',        year:2024, loaded:true  },
   ],
@@ -1218,7 +1218,7 @@ const TRANS_CATEGORIES = [
   },
   { id: 'modern', label: 'Modern Türkçe',
     subcats: [
-      { label: 'Tam Kutsal Kitap', ids: ['TCL02','AREMSI','HKTN','YTC','HAKK'] },
+      { label: 'Tam Kutsal Kitap', ids: ['TCL02','AREMSI','KA2007','YTC','HAKK'] },
       { label: 'Yeni Antlaşma',    ids: ['YYY1987','CAN','KKDEU','BGT','COS','TTT'] },
       { label: 'Kısmi',            ids: ['TSV','OTR2019'] },
     ]
@@ -1975,7 +1975,7 @@ const SEARCH_PRESETS = [
   { id:'modern',   label:'Modern',    ids: () => ['TCL02','YTC','TTT','HAKK','KMEYA'] },
   { id:'tarihi',   label:'Tarihi',    ids: () => ['ALI1665','KIE1819','JDK1827','TUR1852-57','SEL1866-77','KM1886'] },
   { id:'yeniant',  label:'Yeni Ant.', ids: () => ['KIE1819','YYY1987','CAN','KKDEU','BGT','COS','TTT'] },
-  { id:'tamkitap', label:'Tam Kitap', ids: () => ['ALI1665','JDK1827','KM1886','KMEYA','TCL02','AREMSI','HKTN','YTC','HAKK'] },
+  { id:'tamkitap', label:'Tam Kitap', ids: () => ['ALI1665','JDK1827','KM1886','KMEYA','TCL02','AREMSI','KA2007','YTC','HAKK'] },
   { id:'1940plus', label:'1940 Sonrası', ids: () => ALL_TRANS_IDS_ORDERED.filter(id => !HERETICAL_ID_SET.has(id) && !ENGLISH_ID_SET.has(id) && ALL_TRANS[id]?.year > 1940 && ALL_TRANS[id]?.loaded) },
 ];
 
