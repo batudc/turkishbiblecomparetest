@@ -1,5 +1,5 @@
 const SHELL_CACHE = 'kki-shell-v5';  // bumped: word study link fixes (verse tracking, consistent update)
-const DATA_CACHE  = 'kki-data-v15'; // bumped: fresh YYY1987 data from christiananswers.net
+const DATA_CACHE  = 'kki-data-v16'; // bumped: fix 171 truncated YYY1987 verses (multi-para source)
 
 const SHELL_FILES = [
   '/',
