@@ -1,0 +1,83 @@
+{
+  "t": "HAKK",
+  "b": "EZK",
+  "c": 42,
+  "content": [
+    {
+      "v": 1,
+      "text": "Adam beni kuzeye giden yoldan dış avluya çıkardı. Mabedin açık alanına ve dış avlunun kuzeyindeki binaya bakan odalara götürdü."
+    },
+    {
+      "v": 2,
+      "text": "Bu binanın uzunluğu 100, genişliği 50 arşındı. Kapısı kuzeye bakıyordu."
+    },
+    {
+      "v": 3,
+      "text": "İç avlunun yirmi arşınlık bölümüyle dış avlunun taş yoluna bakan üç katın koridorları karşı karşıyaydı."
+    },
+    {
+      "v": 4,
+      "text": "Odaların önünde genişliği 10, uzunluğu 100 arşın olan bir iç koridor vardı. Kapıları kuzeye bakıyordu."
+    },
+    {
+      "v": 5,
+      "text": "Binanın üst kattaki odaları alt ve orta kattaki odalardan daha dardı. Çünkü üst kattaki koridorlar daha çok yer kaplıyordu."
+    },
+    {
+      "v": 6,
+      "text": "Avlularda sütunlar olduğu halde, üçüncü kattaki odaların sütunları yoktu. Bu sebeple bu odalar alt ve orta kattaki odalardan daha dardı."
+    },
+    {
+      "v": 7,
+      "text": "Odaların önünde, odalara ve dış avluya paralel bir dış duvar vardı, 50 arşın uzunluktaydı."
+    },
+    {
+      "v": 8,
+      "text": "Dış avlu yanındaki sıra odaların uzunluğu 50 arşınken, ana bölüme daha yakın sıra odaların uzunluğu 100 arşındı."
+    },
+    {
+      "v": 9,
+      "text": "Alt kattaki odaların, dış avludan girilebilecek şekilde doğu yönünde bir girişleri vardı."
+    },
+    {
+      "v": 10,
+      "text": "İç avlunun güneyi boyunca, açık alana ve dış avludaki binaya bakan başka odalar vardı."
+    },
+    {
+      "v": 11,
+      "text": "Kuzeydeki odalarda olduğu gibi bu odaların önünde de bir geçit vardı. Odaların uzunlukları ve genişlikleri aynıydı, çıkışları ve boyutları kuzeydeki odalara benziyordu. Güneydeki odaların girişleri kuzeydekiler gibiydi. Geçidin başladığı yerde bir giriş vardı. Arka duvarlar boyunca doğuya uzanan bu geçit odalara açılıyordu."
+    },
+    {
+      "v": 13,
+      "text": "Bundan sonra adam şöyle dedi: \"Mabedin açık alanına bakan kuzey ve güneydeki odalar mukaddestir. Rabbin huzurunda hizmet eden rahipler orada en mukaddes kurbanlardan yiyecekler. En mukaddes kurbanları, yani tahıl adaklarını, günah kurbanlarını ve bedel kurbanlarını oraya koyacaklar. Çünkü o odalar mukaddestir."
+    },
+    {
+      "v": 14,
+      "text": "Rahipler mukaddes alana girdikten sonra, hizmet ederken giydikleri elbiseleri çıkarıp orada bırakmalılar. Ancak ondan sonra dış avluya çıkabilirler. Çünkü bu elbiseler mukaddestir. Halka açık yerlere gitmeden önce başka elbiseler giymeliler.\""
+    },
+    {
+      "v": 15,
+      "text": "Adam mabet alanındaki binaları ölçmeyi bitirince, beni doğu kapısından dışarıya götürdü, etraftaki alanı her yandan ölçtü."
+    },
+    {
+      "v": 16,
+      "text": "Doğu yanını ölçü değneğiyle ölçtü, 500 arşın kadardı."
+    },
+    {
+      "v": 17,
+      "text": "Kuzey yanını ölçtü, 500 arşın kadardı."
+    },
+    {
+      "v": 18,
+      "text": "Güney yanını ölçtü, 500 arşın kadardı."
+    },
+    {
+      "v": 19,
+      "text": "Sonra batıya dönüp orayı ölçtü, 500 arşın kadardı."
+    },
+    {
+      "v": 20,
+      "text": "Böylece alanın dört yanını ölçtü. Mukaddes olanı bayağı olandan ayırmak için alanın etrafında bir duvar vardı; uzunluğu ve genişliği 500'er arşındı."
+    }
+  ]
+}

@@ -1,1 +1,131 @@
-{"t": "HADI", "b": "ROM", "c": 3, "content": [{"v": 1, "text": "O halde Yahudinin ne üstünlüğü var? Sünnetin faydası nedir?"}, {"v": 2, "text": "Elbette her bakımdan çoktur. En önemlisi de şudur: Allah vahiylerini Yahudilere emanet etmiştir."}, {"v": 3, "text": "Evet, bazı Yahudiler iman etmediler. Fakat onların imansızlığı Allah’ın itibarını zedeler mi?"}, {"v": 4, "text": "Hâşâ! Herkes yalan söylese bile, Allah sadece doğruyu söyler. Zebur’da şöyle yazılmıştır: “Ey Allah, söylediklerinin doğruluğunu herkes anlayacak, Seni suçlayanlara galip geleceksin.”"}, {"v": 5, "text": "Yaptığımız haksızlıklar Allah’ın adaletini daha da açıkça ortaya koymaktadır. O halde ne diyebiliriz? Bazılarının ileri sürdüğü gibi, Allah bizleri gazapla cezalandırmakta haksız mıdır?"}, {"v": 6, "text": "Hâşâ! Allah haksızlık etse, nasıl dünyanın hâkimi olur?"}, {"v": 7, "text": "Bazıları diyebilir ki, “Benim yalanım Allah’ın doğruyu söylediğini ortaya çıkarır. Bu da O’na daha çok izzet kazandırır. O halde Allah neden bana günahkâr muamelesi yapıyor?”"}, {"v": 8, "text": "Bu, şu demektir: “Kötülük yapalım da bundan iyilik çıksın.” Aslında bazıları aynen böyle söylediğimizi iddia etmektedir. Bu iftiradır. Böyle söyleyenler hak ettikleri cezayı alacaktır."}, {"v": 9, "text": "Peki, biz Yahudiler öteki insanlardan daha mı iyiyiz? Elbette değiliz. Daha önce söylediğimiz gibi, Yahudiler de tıpkı öteki milletler gibi günahın esareti altındadır."}, {"v": 10, "text": "Zebur’da yazılmış olduğu gibi, “Hiç kimse sâlih değildir, tek bir kişi bile."}, {"v": 11, "text": "Hakikati anlayan yok, Allah’ı arayan yok."}, {"v": 12, "text": "Hepsi yoldan saptı, hiç kimseye faydaları yok. İyilik yapan yok, tek bir kişi bile.”"}, {"v": 13, "text": "“Ağızlarından çıkan sözlerle ölüm saçarlar. Dilleriyle aldatırlar.” “Dudaklarından engerek zehri fışkırır.”"}, {"v": 14, "text": "“Ağızları lânetle ve kırıcı sözlerle doludur.”"}, {"v": 15, "text": "“Kan dökmeye her an hazırdırlar."}, {"v": 16, "text": "Gittikleri her yere felâket ve sefalet götürürler,"}, {"v": 17, "text": "Selâmet nedir bilmezler.”"}, {"v": 18, "text": "“Onlarda Allah korkusu yoktur.”"}, {"v": 19, "text": "Biliyoruz ki şeriatın bütün emirleri şeriata tâbi olanlar içindir. Şeriatın amacı, Allah’a itaatten kaçanların mazeret kapısını kapatmak ve bütün dünyanın Allah’a hesap vermesini sağlamaktır."}, {"v": 20, "text": "Çünkü hiç kimse şeriatın emirlerini yerine getirmekle Allah katında sâlih sayılmaz. Şeriat, sadece günahımızın farkına varalım diye verilmiştir."}, {"v": 21, "text": "Fakat Allah, insanları sâlih kılmak için bir yol açmıştır. Bu yol Tevrat’taki şeriata dayanmaz. Fakat hem Tevrat hem de peygamberlerin kitapları tarafından teyit edilir."}, {"v": 22, "text": "Allah, İsa Mesih’e iman eden herkesi imanıyla sâlih kılar. İnsanlar arasında ayrım yapmaz."}, {"v": 23, "text": "Çünkü herkes günah işlemiştir. Hiç kimse Allah’ın yüce huzuruna çıkmaya lâyık değildir."}, {"v": 24, "text": "Fakat Allah, İsa Mesih’in sağladığı fidye sayesinde insanları hiçbir karşılık beklemeden kendi lütfuyla sâlih sayar."}, {"v": 25, "text": "Allah Mesih’i, kanını akıtıp günahlarımızın kefaretini ödeyen kurban olarak sundu. Buna iman eden herkesin günahlarını bağışlar, böylece adaletini gösterir. Çünkü insanların geçmişte işledikleri günahlara sabır gösterdi ve onları cezalandırmadı."}, {"v": 26, "text": "Bunu hem adil kalmak hem de İsa’ya iman eden herkesi sâlih kılmak için yaptı. Böylece şimdiki çağda adaletini gösterdi."}, {"v": 27, "text": "O halde insanın övünebileceği hiçbir şey yoktur. Şeriatın emirlerini yerine getirmekle değil, Mesih’e iman etmekle kurtuluruz."}, {"v": 28, "text": "Demek ki Allah insanı şeriatın icaplarını yerine getirdiği için değil, iman ettiği için sâlih sayar. İnancımız budur."}, {"v": 29, "text": "Allah sadece Yahudilerin Allah’ı değildir. Yahudi olmayanların da Allah’ıdır."}, {"v": 30, "text": "Çünkü Allah birdir. Sünnetlileri de, sünnetsizleri de imanları sayesinde beraber sâlih sayacaktır."}, {"v": 31, "text": "Ne yani, iman yolundan gitmekle şeriatı hükümsüz mü sayıyoruz? Hâşâ! Bilakis, şeriatı teyit etmiş oluyoruz."}]}
+{
+  "t": "HAKK",
+  "b": "ROM",
+  "c": 3,
+  "content": [
+    {
+      "v": 1,
+      "text": "O halde Yahudinin ne üstünlüğü var? Sünnetin faydası nedir?"
+    },
+    {
+      "v": 2,
+      "text": "Elbette her bakımdan çoktur. En önemlisi de şudur: Allah vahiylerini Yahudilere emanet etmiştir."
+    },
+    {
+      "v": 3,
+      "text": "Gerçi bazı Yahudiler o emanete sadık kalmadı; fakat onların sadakatsizliği, Allah'ın sadakatine halel getirir mi?"
+    },
+    {
+      "v": 4,
+      "text": "Hâşâ! Herkes yalan söylese bile, Allah sadece doğruyu söyler. Zebur'da şöyle yazılmıştır: \"Ya Rab, konuştuğun zaman haklı çıkar, Seni suçlayanlara galip gelirsin.\""
+    },
+    {
+      "v": 5,
+      "text": "İşlediğimiz suçlar Allah'ın adaletini ortaya koymaktadır. O halde ne diyebiliriz? İnsanın aklına şöyle bir soru geliyor: Allah bizleri gazapla cezalandırmakta haksız mıdır?"
+    },
+    {
+      "v": 6,
+      "text": "Hâşâ! Allah haksızlık etse, hangi hakla dünyayı yargılayabilir?"
+    },
+    {
+      "v": 7,
+      "text": "Bazıları diyebilir ki, \"Benim yalancılığım Allah'ın doğru olduğunu ortaya çıkarıyor ve bu O'na daha çok izzet kazandırıyorsa, Allah neden hâlâ bana günahkâr muamelesi yapıyor?\""
+    },
+    {
+      "v": 8,
+      "text": "Neden \"Kötülük yapalım da bundan iyilik çıksın\" demeyelim? Aslında bazıları tam da böyle söylediğimizi iddia etmektedirler. Bu iftiradır. Böyle söyleyenler hak ettikleri cezayı alacaklardır."
+    },
+    {
+      "v": 9,
+      "text": "Peki, biz Yahudiler öteki insanlardan üstün müyüz? Elbette değiliz. Daha önce söylediğimiz gibi, Yahudiler de tıpkı öteki milletler gibi günahın esareti altındadır."
+    },
+    {
+      "v": 10,
+      "text": "Zebur'da yazılmış olduğu gibi, \"Salih olan yok, tek bir kişi bile!"
+    },
+    {
+      "v": 11,
+      "text": "Hakikati anlayan yok, Allah'a sığınan yok."
+    },
+    {
+      "v": 12,
+      "text": "Hepsi hak yolundan saptı, bütünüyle yozlaştı. İyilik eden yok, tek bir kişi bile yok!\""
+    },
+    {
+      "v": 13,
+      "text": "\"Ağızlarından çıkan sözler ölüme götürür; Dilleriyle aldatırlar.\" \"Dudaklarında engerek zehri var.\""
+    },
+    {
+      "v": 14,
+      "text": "\"Ağızları lanetle ve kırıcı sözlerle doludur.\""
+    },
+    {
+      "v": 15,
+      "text": "\"Kan dökmeye her an hazırdırlar."
+    },
+    {
+      "v": 16,
+      "text": "Gittikleri her yere felâket ve sefalet götürürler,"
+    },
+    {
+      "v": 17,
+      "text": "Selâmet nedir bilmezler.\""
+    },
+    {
+      "v": 18,
+      "text": "\"Allah'tan korkmak onların aklına bile gelmez.\""
+    },
+    {
+      "v": 19,
+      "text": "Biliyoruz ki Tevrat şeriatının bütün emirleri o şeriata tâbi olanlar içindir. Şeriatın amacı, Allah'a itaatten kaçanların mazeret kapısını kapatmak ve bütün dünyanın Allah'a hesap vermesini sağlamaktır."
+    },
+    {
+      "v": 20,
+      "text": "Çünkü hiç kimse şeriatın emirlerini yerine getirmekle Allah katında salih sayılmaz. Şeriat, günahkârlığımızın farkına varmamız için verilmiştir."
+    },
+    {
+      "v": 21,
+      "text": "Allah, insanları salih kılmak için bir yol açmıştır. Bu yol şeriata dayanmaz. Fakat hem Tevrat hem de peygamberlerin kitapları tarafından teyit edilir."
+    },
+    {
+      "v": 22,
+      "text": "Allah, İsa Mesih'e iman edenleri imanlarıyla salih kılar. İnsanlar arasında ayrım yapmaz."
+    },
+    {
+      "v": 23,
+      "text": "Çünkü herkes günah işledi ve Allah'ın izzetinden mahrum kaldı."
+    },
+    {
+      "v": 24,
+      "text": "Ancak Allah, İsa Mesih'in sağladığı fidye aracılığıyla insanları hiçbir karşılık beklemeden kendi lütfuyla salih sayar."
+    },
+    {
+      "v": 25,
+      "text": "Allah Mesih'i, günahlarımızın kefaretini kanıyla ödeyen kurban olmaya gönderdi. Buna iman eden herkesin günahlarını bağışlar ve böylece adaletini gösterir. Çünkü insanların geçmişte işledikleri günahlara sabır gösterdi ve onları cezalandırmadı."
+    },
+    {
+      "v": 26,
+      "text": "Bunu hem âdil kalmak hem de İsa'ya iman eden herkesi salih kılmak için yaptı. Böylece şimdiki çağda adaletini gösterdi."
+    },
+    {
+      "v": 27,
+      "text": "O halde insanın övünebileceği hiçbir şey yoktur. Şeriatın emirlerini yerine getirmekle değil, Mesih'e iman etmekle kurtuluruz."
+    },
+    {
+      "v": 28,
+      "text": "Demek ki Allah insanı şeriatın icaplarını yerine getirdiği için değil, iman ettiği için salih sayar. İnancımız budur."
+    },
+    {
+      "v": 29,
+      "text": "Allah sadece Yahudilerin Allah'ı değildir. Yahudi olmayanların da Allah'ıdır."
+    },
+    {
+      "v": 30,
+      "text": "Çünkü Allah birdir. Sünnetlileri de, sünnetsizleri de imanları sayesinde salih sayacaktır."
+    },
+    {
+      "v": 31,
+      "text": "Peki, imanla kurtuluruz demekle şeriatı hükümsüz mü kılıyoruz? Hâşâ! Bilakis, şeriatı teyit etmiş oluyoruz."
+    }
+  ]
+}

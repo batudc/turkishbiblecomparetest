@@ -1,1 +1,99 @@
-{"t": "HADI", "b": "ROM", "c": 14, "content": [{"v": 1, "text": "İmanı zayıf olanları aranıza kabul edin. Fakat farklı fikirlerinden ötürü onlarla tartışmaya girmeyin."}, {"v": 2, "text": "Kimi her şeyi yiyebileceğine inanır, kimiyse imanı zayıf olduğundan sadece sebze yer."}, {"v": 3, "text": "Her şeyi yiyebileceğine inanan, yemeyeni hor görmesin. Her şeyi yemeyen de yiyene hükmetmesin. Çünkü Allah onu öyle kabul etmiştir."}, {"v": 4, "text": "Sen kimsin ki başkasının kuluna hükmediyorsun? Kulu haklı veya haksız çıkarmak ancak efendisinin işidir. Rab’bin kulu haklı çıkacaktır, çünkü Rab onu haklı çıkarmaya kadirdir."}, {"v": 5, "text": "Kimileri bazı günlerin ötekilerden daha önemli olduğuna inanır, kimiyse her günü bir tutar. Herkes kendi kanaatinden emin olsun."}, {"v": 6, "text": "Bazı günleri önemli sayan, o günleri Rab için kutlar. Her şeyi yiyen, Allah’a şükrederek yer. Bazı şeyleri yemeyen, bunu Rab’bi hoşnut etmek için yapar ve Allah’a şükreder."}, {"v": 7, "text": "Çünkü hiçbirimiz ne kendimiz için yaşarız ne de kendimiz için ölürüz."}, {"v": 8, "text": "Yaşarsak Rab için yaşarız; ölürsek Rab için ölürüz. O halde yaşasak da ölsek de Rab’be aidiz."}, {"v": 9, "text": "Mesih hem ölülerin hem yaşayanların Efendisi olmak üzere ölüp dirildi."}, {"v": 10, "text": "O halde mümin kardeşine neden hükmediyorsun? Mümin kardeşini neden hor görüyorsun? Hepimiz Allah’ın huzuruna çıkacağız. Bize hükmedecek olan O’dur."}, {"v": 11, "text": "Tevrat’ta yazılmış olduğu gibi: “Rab diyor ki, ‘Varlığım hakkı için herkes önümde diz çökecek, herkes Allah olduğumu ikrar edecek.’”"}, {"v": 12, "text": "Öyleyse hepimiz Allah’ın huzuruna çıktığımız zaman kendi adımıza hesap vereceğiz."}, {"v": 13, "text": "Bunun için artık birbirimize hükmetmeyelim. Tersine, mümin kardeşinizin imanını zedeleyecek, onu yoldan çıkaracak bir şey yapmamakta kararlı olun."}, {"v": 14, "text": "Rab İsa’ya ait biri olarak hiçbir yiyeceğin haram olmadığını kesinlikle biliyorum. Fakat bir kimse bir şeyi haram sayarsa, o şey artık onun için haramdır."}, {"v": 15, "text": "Yedikleriniz yüzünden mümin kardeşinizin imanını zedelerseniz, artık sevgi yolunda yürümüyorsunuz demektir. Yiyecek yüzünden mümin kardeşinizin helâk olmasına sebep olmayın! Çünkü Mesih onun uğruna da öldü."}, {"v": 16, "text": "Size göre iyi olanı kimsenin kötülemesine izin vermeyin."}, {"v": 17, "text": "Çünkü Allah’ın Hükümranlığı yiyecek ve içecekle alakalı değildir. Mukaddes Ruh’un verdiği doğruluk, selâmet ve sevinçle alakalıdır."}, {"v": 18, "text": "Böyle yaşayıp Mesih’e kulluk eden kişi, hem Allah’ı hoşnut eder hem de insanların takdirini kazanır."}, {"v": 19, "text": "O halde kendimizi selâmet getiren ve birbirimizin imanını geliştiren amellere verelim."}, {"v": 20, "text": "Yiyecek uğruna Allah’ın işini bozmayın! Her yiyecek helâldır, fakat yediği yiyecek yüzünden mümin kardeşinin imanını zedeleyen kişi kötülük etmiş olur."}, {"v": 21, "text": "Kardeşinizin imanını zedelemektense et yemeyin, şarap içmeyin."}, {"v": 22, "text": "Bu konulardaki kanaatiniz Allah’la kendi aranızda kalsın. Doğru bildiği şeyi yapıp vicdanında suçluluk hissetmeyen kişiye ne mutlu!"}, {"v": 23, "text": "Fakat bir yiyeceği tereddüt içinde yiyen kişi kendi kendini mahkûm eder. Çünkü yaptığının doğru olduğuna iman etmiyordur. İmana dayanmayan her şey günahtır."}]}
+{
+  "t": "HAKK",
+  "b": "ROM",
+  "c": 14,
+  "content": [
+    {
+      "v": 1,
+      "text": "İmanı zayıf olanları aranıza kabul edin. Ancak farklı fikirlerinden ötürü onlarla tartışmaya girmeyin."
+    },
+    {
+      "v": 2,
+      "text": "Kimi her şeyi yiyebileceğine inanır, kimiyse imanı zayıf olduğundan sadece sebze yer."
+    },
+    {
+      "v": 3,
+      "text": "Her şeyi yiyebileceğine inanan, yemeyeni hor görmesin. Her şeyi yemeyen de yiyeni yargılamasın. Çünkü Allah onu öyle kabul etmiştir."
+    },
+    {
+      "v": 4,
+      "text": "Sen hangi hakla başkasının kulunu yargılıyorsun? Kulu haklı veya haksız çıkarmak ancak efendisinin işidir. Tartıştığın konularda Rabbin kulu haklı çıkacaktır, çünkü Rab onu haklı çıkarmaya kâdirdir."
+    },
+    {
+      "v": 5,
+      "text": "Kimileri bazı günleri ötekilerden daha önemli sayar, kimileriyse her günü bir tutar. Bu konularda herkes kendi karar versin."
+    },
+    {
+      "v": 6,
+      "text": "Bazı günleri bayram olarak kutlayan, o günleri Rab için kutlar. Herhangi bir şey yiyen, Allah'a şükrederek yer. Bazı şeyleri yemeyen de bunu Rabbi hoşnut etmek için yapar ve Allah'a şükreder."
+    },
+    {
+      "v": 7,
+      "text": "Çünkü hiçbirimiz ne kendimiz için yaşarız ne de kendimiz için ölürüz."
+    },
+    {
+      "v": 8,
+      "text": "Yaşarsak Rab için yaşarız; ölürsek Rab için ölürüz. O halde yaşasak da ölsek de Rabbe aitiz."
+    },
+    {
+      "v": 9,
+      "text": "Mesih hem ölülerin hem yaşayanların Efendisi olmak üzere ölüp dirildi."
+    },
+    {
+      "v": 10,
+      "text": "O halde mümin kardeşini neden yargılıyorsun? Mümin kardeşini neden hor görüyorsun? Hepimiz Allah'ın huzuruna çıkıp O'na hesap vereceğiz."
+    },
+    {
+      "v": 11,
+      "text": "Yeşaya Peygamber'in yazdığı gibi: \"Rab diyor ki, 'Varlığım hakkı için Herkes önümde diz çökecek, Herkes tek Allah olduğumu ikrar edecek.'\""
+    },
+    {
+      "v": 12,
+      "text": "Öyleyse hepimiz Allah'ın huzuruna çıktığımız zaman kendi adımıza hesap vereceğiz."
+    },
+    {
+      "v": 13,
+      "text": "Bunun için artık birbirimizi yargılamayalım. Tersine, mümin kardeşinizin imanını zedeleyecek, onu yoldan çıkaracak bir şey yapmamakta kararlı olun."
+    },
+    {
+      "v": 14,
+      "text": "Rab İsa'ya ait biri olarak hiçbir yiyeceğin aslında haram olmadığını kesinlikle biliyorum. Fakat bir kimse bir şeyi haram sayarsa, o şey artık onun için haramdır."
+    },
+    {
+      "v": 15,
+      "text": "Yedikleriniz yüzünden mümin kardeşiniz incinirse, artık sevgi yolunda yaşamıyorsunuz demektir. Yedikleriniz yüzünden mümin kardeşiniz imandan dönüp helâk olmasın! Çünkü Mesih onun uğruna da öldü."
+    },
+    {
+      "v": 16,
+      "text": "Size göre iyi olanı kimsenin kötülemesine sebep olmayın."
+    },
+    {
+      "v": 17,
+      "text": "Çünkü Allah'ın hükümranlığı yiyecek ve içecekle alâkalı değildir. Salâh, selâmet ve Mukaddes Ruh'un verdiği sevinçle alâkalıdır."
+    },
+    {
+      "v": 18,
+      "text": "Böyle yaşayıp Mesih'e kulluk eden kişi, hem Allah'ı hoşnut eder hem de insanların takdirini kazanır."
+    },
+    {
+      "v": 19,
+      "text": "O halde kendimizi selâmet getiren ve birbirimizi maneviyatta kuvvetlendiren amellere verelim."
+    },
+    {
+      "v": 20,
+      "text": "Yiyecek uğruna Allah'ın işini bozmayın! Her yiyecek helâldir, fakat yediği yiyecek yüzünden mümin kardeşinin imanını zedeleyen kişi kötülük etmiş olur."
+    },
+    {
+      "v": 21,
+      "text": "Kardeşinizin imanını zedelemektense et yemeyin, şarap içmeyin, zararlı başka bir şey yapmayın."
+    },
+    {
+      "v": 22,
+      "text": "Bu konulardaki kanaatiniz Allah'la aranızda kalsın. Doğru bildiği şeyi yapıp vicdanında suçluluk hissetmeyen kişiye ne mutlu!"
+    },
+    {
+      "v": 23,
+      "text": "Fakat bir yiyeceği tereddüt içinde yiyen kişi kendi kendini mahkûm eder. Çünkü yaptığının doğru olduğundan emin değildir. İmandan olmayan her şey günahtır."
+    }
+  ]
+}

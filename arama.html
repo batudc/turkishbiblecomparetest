@@ -973,7 +973,7 @@ const CAN_NT_BOOKS   = new Set(['MAT','MRK','LUK','JHN','ACT','ROM','1CO','2CO',
 const COS_NT_BOOKS   = new Set(['MAT','MRK','LUK','JHN','ACT','ROM','1CO','2CO','GAL','EPH','PHP','COL','1TH','2TH','1TI','2TI','TIT','PHM','HEB','JAS','1PE','2PE','1JN','2JN','3JN','JUD','REV','PRO']);
 const TUR1852_BOOKS  = new Set(['GEN','PSA','MAT','MRK','LUK','JHN','ACT','ROM','1CO','2CO','GAL','EPH','PHP','COL','1TH','2TH','1TI','2TI','TIT','PHM','HEB','JAS','1PE','2PE','1JN','2JN','3JN','JUD','REV']);
 const SEL1866_BOOKS  = new Set(['GEN','EXO','LEV','NUM','DEU','PSA','ISA','MAT','MRK','LUK','JHN','ACT','ROM','1CO','2CO','GAL','EPH','PHP','COL','1TH','2TH','1TI','2TI','TIT','PHM','HEB','JAS','1PE','2PE','1JN','2JN','3JN','JUD','REV']);
-const HAKK_NT_BOOKS  = new Set(['MAT','MRK','LUK','JHN','ACT','ROM','1CO','2CO','GAL','EPH','PHP','COL','1TH','2TH','1TI','2TI','TIT','PHM','HEB','JAS','1PE','2PE','1JN','2JN','3JN','JUD','REV']);
+const HADI_NT_BOOKS  = new Set(['MAT','MRK','LUK','JHN','ACT','ROM','1CO','2CO','GAL','EPH','PHP','COL','1TH','2TH','1TI','2TI','TIT','PHM','HEB','JAS','1PE','2PE','1JN','2JN','3JN','JUD','REV']);
 const NSH1739_BOOKS  = new Set(['GEN']);
 const MEZ1669_BOOKS  = new Set(['PSA']);
 
@@ -1053,7 +1053,7 @@ const TRANSLATIONS = {
     { id:'AREMSI',     name:'FONDATSİYA "AR EM Sİ"',           year:2007, loaded:true  },
     { id:'KA2007',       name:'Ekümenik Kutsal Kitap',            year:2007, loaded:true  },
     { id:'YTC',        name:'Yorumsuz Türkçe Çeviri (YTC)',       year:2023, loaded:true  },
-    { id:'HAKK',       name:'Halk Dilinde Kutsal Kitap',        year:2024, loaded:true  },
+    { id:'HADİ',       name:'Halk Dilinde İncil',        year:2024, loaded:true  },
   ],
   ntFull: [
     { id:'KIE1819',    name:'Yeni Ahit (Ali Bey, J.D. Kieffer)', year:1819, loaded:true },
@@ -1073,9 +1073,10 @@ const TRANSLATIONS = {
     { id:'NSH1739',    name:'Tekvin (N. Şröder)',                 year:1739, loaded:true },
     { id:'TSV',        name:'Türk Standart Versiyon',             year:2009, loaded:true },
   ],
-  heretical: [
+  diger: [
     { id:'NWT2008',    name:'Yeni Dünya Çevirisi',               year:2008, loaded:true },
     { id:'NWT2025',    name:'Yeni Dünya Çevirisi (2025)',         year:2025, loaded:true },
+    { id:'HAKK',       name:'Halk Dilinde Kutsal Kitap',          year:2024, loaded:true },
   ],
   english: [
     { id:'KJV',  name:'King James Version',          year:1611, loaded:true },
@@ -1091,7 +1092,7 @@ const TRANSLATIONS = {
 
 const ALL_TRANS = {};
 [...TRANSLATIONS.ancient, ...TRANSLATIONS.bibleFull, ...TRANSLATIONS.ntFull,
- ...TRANSLATIONS.ntPartial, ...TRANSLATIONS.otPartial, ...TRANSLATIONS.heretical,
+ ...TRANSLATIONS.ntPartial, ...TRANSLATIONS.otPartial, ...TRANSLATIONS.diger,
  ...TRANSLATIONS.english]
   .forEach(t => { ALL_TRANS[t.id] = t; });
 
@@ -1116,7 +1117,7 @@ function isTransAvailableForBook(tid, bookCode) {
   if (tid === 'YYY1987'    && !NT_CODE_SET.has(bookCode))       return false;
   if (tid === 'TUR1852-57' && !TUR1852_BOOKS.has(bookCode))     return false;
   if (tid === 'SEL1866-77' && !SEL1866_BOOKS.has(bookCode))     return false;
-  if (tid === 'HAKK'       && !HAKK_NT_BOOKS.has(bookCode))     return false;
+  if (tid === 'HADİ'       && !HADI_NT_BOOKS.has(bookCode))     return false;
   if (tid === 'NSH1739'    && !NSH1739_BOOKS.has(bookCode))     return false;
   if (tid === 'MEZ1669'    && !MEZ1669_BOOKS.has(bookCode))     return false;
   if (tid === 'BHS'        && !BHS_BOOKS.has(bookCode))         return false;
@@ -1182,6 +1183,7 @@ function highlightAll(text, normQ) {
 
 // ── State ──────────────────────────────────────────────────────────────────
 const params     = new URLSearchParams(location.search);
+if (params.get('admin') === 'true') sessionStorage.setItem('kkf_admin', '1');
 const initQ      = params.get('q') || '';
 const initT      = params.get('t') || '';
 
@@ -1218,7 +1220,7 @@ const TRANS_CATEGORIES = [
   },
   { id: 'modern', label: 'Modern Türkçe',
     subcats: [
-      { label: 'Tam Kutsal Kitap', ids: ['TCL02','AREMSI','KA2007','YTC','HAKK'] },
+      { label: 'Tam Kutsal Kitap', ids: ['TCL02','AREMSI','KA2007','YTC','HADİ'] },
       { label: 'Yeni Antlaşma',    ids: ['YYY1987','CAN','KKDEU','BGT','COS','TTT'] },
       { label: 'Kısmi',            ids: ['TSV','OTR2019'] },
     ]
@@ -1229,8 +1231,8 @@ const TRANS_CATEGORIES = [
   { id: 'english', label: 'English',
     subcats: [ { label: null, ids: ['KJV','NKJV','ESV','NIV','NLT','NET','CSB','LSB'] } ]
   },
-  { id: 'heretical', label: 'Sapkın Tercümeler', hidden: true,
-    subcats: [ { label: null, ids: ['NWT2008','NWT2025'] } ]
+  { id: 'diger', label: 'Diğer', hidden: true,
+    subcats: [ { label: null, ids: ['NWT2008','NWT2025','HAKK'] } ]
   },
 ];
 
@@ -1286,8 +1288,9 @@ function buildTransPanel() {
   const listEl = document.getElementById('trans-cat-list');
   if (!listEl) return;
   listEl.innerHTML = '';
+  const IS_ADMIN = new URLSearchParams(location.search).get('admin') === 'true' || sessionStorage.getItem('kkf_admin') === '1';
   TRANS_CATEGORIES.forEach(cat => {
-    if (cat.hidden) return;
+    if (cat.hidden && !IS_ADMIN) return;
     const loaded = _catIds(cat);
     if (!loaded.length) return;
     const selCount = loaded.filter(id => activeTids.includes(id)).length;
@@ -1961,22 +1964,22 @@ qEl.addEventListener('keydown', e => {
 const ALL_TRANS_IDS_ORDERED = [
   ...Object.values(TRANSLATIONS.bibleFull), ...Object.values(TRANSLATIONS.ntFull),
   ...Object.values(TRANSLATIONS.ntPartial), ...Object.values(TRANSLATIONS.otPartial),
-  ...Object.values(TRANSLATIONS.heretical), ...Object.values(TRANSLATIONS.english)
+  ...Object.values(TRANSLATIONS.diger), ...Object.values(TRANSLATIONS.english)
 ].map(t => t.id);
 
 function getFavorites() { try { return JSON.parse(localStorage.getItem('kkf_favs') || '[]'); } catch { return []; } }
 
-const HERETICAL_ID_SET = new Set(['NWT2008','NWT2025']);
+const DIGER_ID_SET = new Set(['NWT2008','NWT2025','HAKK']);
 const ENGLISH_ID_SET   = new Set(['ESV']);
 
 const SEARCH_PRESETS = [
   { id:'favoriler', label:'⭐ Favoriler',  ids: () => getFavorites().filter(id => ALL_TRANS[id]?.loaded) },
   { id:'tr-eng',   label:'TR-ENG',    ids: () => ['TCL02','ESV'].filter(id => ALL_TRANS[id]?.loaded) },
-  { id:'modern',   label:'Modern',    ids: () => ['TCL02','YTC','TTT','HAKK','KMEYA'] },
+  { id:'modern',   label:'Modern',    ids: () => ['TCL02','YTC','TTT','HADİ','KMEYA'] },
   { id:'tarihi',   label:'Tarihi',    ids: () => ['ALI1665','KIE1819','JDK1827','TUR1852-57','SEL1866-77','KM1886'] },
   { id:'yeniant',  label:'Yeni Ant.', ids: () => ['KIE1819','YYY1987','CAN','KKDEU','BGT','COS','TTT'] },
-  { id:'tamkitap', label:'Tam Kitap', ids: () => ['ALI1665','JDK1827','KM1886','KMEYA','TCL02','AREMSI','KA2007','YTC','HAKK'] },
-  { id:'1940plus', label:'1940 Sonrası', ids: () => ALL_TRANS_IDS_ORDERED.filter(id => !HERETICAL_ID_SET.has(id) && !ENGLISH_ID_SET.has(id) && ALL_TRANS[id]?.year > 1940 && ALL_TRANS[id]?.loaded) },
+  { id:'tamkitap', label:'Tam Kitap', ids: () => ['ALI1665','JDK1827','KM1886','KMEYA','TCL02','AREMSI','KA2007','YTC','HADİ'] },
+  { id:'1940plus', label:'1940 Sonrası', ids: () => ALL_TRANS_IDS_ORDERED.filter(id => !DIGER_ID_SET.has(id) && !ENGLISH_ID_SET.has(id) && ALL_TRANS[id]?.year > 1940 && ALL_TRANS[id]?.loaded) },
 ];
 
 function syncPresetHighlights() {

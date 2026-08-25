@@ -1,0 +1,143 @@
+{
+  "t": "HAKK",
+  "b": "LEV",
+  "c": 27,
+  "content": [
+    {
+      "v": 1,
+      "text": "Allah Musa'ya şu emirleri İsrailoğullarına tebliğ etmesini buyurdu:"
+    },
+    {
+      "v": 2,
+      "text": "\"Rab benim. Hizmetime bir insan adar, daha sonra bu adağınızdan vazgeçerseniz, şu bedelleri ödemeniz gerekir:"
+    },
+    {
+      "v": 3,
+      "text": "Yirmi yaşından altmış yaşına kadar erkekler için resmî ölçüyle elli parça gümüş,"
+    },
+    {
+      "v": 4,
+      "text": "kadınlar için otuz parça gümüş ödersiniz."
+    },
+    {
+      "v": 5,
+      "text": "Beş yaşından yirmi yaşına kadar erkekler için yirmi, kadınlar için on;"
+    },
+    {
+      "v": 6,
+      "text": "bir aylıktan beş yaşına kadar oğlanlar için beş, kızlar için üç;"
+    },
+    {
+      "v": 7,
+      "text": "altmış ya da daha yukarı yaştaki erkekler için on beş, kadınlar için on parça gümüş ödersiniz."
+    },
+    {
+      "v": 8,
+      "text": "Ancak adakta bulunan kişi belirtilen parayı ödeyemeyecek kadar yoksulsa, adadığı kişiyi rahibe götürsün; rahip adakta bulunan kişinin ödeme gücüne göre adanan kişi için değer biçer."
+    },
+    {
+      "v": 9,
+      "text": "\"Eğer adakta bulunulan şey, kurbanlık bir hayvan ise mukaddestir, bana mutlaka kurban olarak sunulmalı."
+    },
+    {
+      "v": 10,
+      "text": "Adakta bulunan kişi bana sunacağı adaklığını değiştiremez. İyisinin yerine kötüsünü ya da kötüsünün yerine iyisini koyamaz. Eğer hayvanı değiştirirse, değiştirilen hayvanların ikisi de mukaddes sayılıp kesilsin."
+    },
+    {
+      "v": 11,
+      "text": "Eğer adakta bulunulan hayvan, kurbanlık bir hayvan değilse rahibe götürülsün."
+    },
+    {
+      "v": 12,
+      "text": "Hayvan iyi ya da kötü olsun, rahip ona değer biçsin. Biçilen değer neyse o geçerli olur."
+    },
+    {
+      "v": 13,
+      "text": "Fakat sahibi hayvanı geri almak isterse, rahibin biçtiği değerin üzerine beşte birini katarak ödemelidir."
+    },
+    {
+      "v": 14,
+      "text": "\"Bir kimse bana evini adarsa, evin iyi ya da kötü olduğuna rahip karar versin. Rahibin biçtiği değer geçerli olur."
+    },
+    {
+      "v": 15,
+      "text": "Eğer kişi adadığı evi geri almak isterse, rahibin biçtiği değerin üzerine beşte bir fazlasını katarak ödesin; o zaman tekrar evin sahibi olur."
+    },
+    {
+      "v": 16,
+      "text": "\"Bir kimse ailesinden kalan arazinin bir bölümünü bana adamak isterse, araziye ekilecek tohum miktarına göre değer biçilsin. Bir eşek yükü arpa tohumu ekilebilecek arazinin değeri elli parça gümüş olsun."
+    },
+    {
+      "v": 17,
+      "text": "Eğer kişi tarlasını azatlık yılından hemen sonra adarsa, bu fiyat geçerli olur."
+    },
+    {
+      "v": 18,
+      "text": "Eğer azatlık yılından daha sonra adarsa, rahip bir sonraki azatlık yılına kadar geçecek yılların sayısına göre araziye değer biçsin. Arazinin fiyatı daha düşük olur."
+    },
+    {
+      "v": 19,
+      "text": "Kişi arazisini geri almak isterse, araziye biçilen değerin üzerine beşte bir fazlasını katarak ödesin; o zaman tekrar arazinin sahibi olur."
+    },
+    {
+      "v": 20,
+      "text": "Fakat araziyi geri almak istemezse ve arazi başka birine satılırsa, artık araziyi geri alamaz."
+    },
+    {
+      "v": 21,
+      "text": "Arazi azatlık yılında serbest kaldığı zaman, bana koşulsuz adanmış bir arazi gibi vakfolmuş sayılır ve rahiplere ait olur."
+    },
+    {
+      "v": 22,
+      "text": "\"Bir kimse, ailesinin mülkü olmayan, sonradan satın alınan bir araziyi bana adarsa,"
+    },
+    {
+      "v": 23,
+      "text": "rahip azatlık yılına kadar geçecek yıllara göre ona bir değer biçsin. O gün kişi biçilen değer üzerinden ödeme yapsın; bu para bana ait olur, mukaddes sayılır."
+    },
+    {
+      "v": 24,
+      "text": "Fakat azatlık yılında arazi ilk sahibine geri verilsin."
+    },
+    {
+      "v": 25,
+      "text": "Değer biçilirken fiyat resmî ölçülere göre tespit edilsin."
+    },
+    {
+      "v": 26,
+      "text": "\"Bir hayvanın ilk doğan yavrusu bana aittir. İster sığır, ister davar olsun, kimse onu bana adayamaz. Çünkü o zaten bana aittir."
+    },
+    {
+      "v": 27,
+      "text": "Fakat kurbanlık olmayan bir hayvanın yavrusu ise, kişi rahibin biçeceği değerin beşte bir fazlasını ödeyerek hayvanı geri alabilir. Geri alınmazsa, hayvan biçilen değer üzerinden başka birine satılsın."
+    },
+    {
+      "v": 28,
+      "text": "\"İster insan, ister hayvan, ister aileden kalma mülk olsun, bana koşulsuz adanan hiçbir şey satılamaz ve geri alınamaz. Çünkü bana koşulsuz adanan her şey bana mahsustur, tamamen bana aittir."
+    },
+    {
+      "v": 29,
+      "text": "Ölüme mahkûm olan insan, para karşılığında kurtarılamaz, kesinlikle öldürülecektir."
+    },
+    {
+      "v": 30,
+      "text": "\"İster toprağın ürünü, ister ağacın meyvesi olsun, toprakta yetişen her şeyin ondalığı bana aittir, bana adanmıştır."
+    },
+    {
+      "v": 31,
+      "text": "Kim ondalığının bir bölümünü geri almak isterse, değerinin üzerine beşte birini ekleyerek ödesin."
+    },
+    {
+      "v": 32,
+      "text": "Bütün sığırlarla davarların ondalığı, sayımda çoban değneğinin altından geçen her onuncu hayvan bana aittir, bana adanmıştır."
+    },
+    {
+      "v": 33,
+      "text": "Hayvan sahibi hayvanları iyi, kötü diye ayıramaz; birini öbürüyle değiştiremez. Değiştirirse, değiştirilen hayvanların ikisi de adanmış sayılır ve geri alınamaz.\""
+    },
+    {
+      "v": 34,
+      "text": "İşte bunlar, Allah'ın Sina Dağı'nda Musa vasıtasıyla İsrailoğullarına buyurduğu emirlerdir."
+    }
+  ]
+}

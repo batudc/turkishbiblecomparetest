@@ -1,0 +1,331 @@
+{
+  "t": "HAKK",
+  "b": "1CH",
+  "c": 6,
+  "content": [
+    {
+      "v": 1,
+      "text": "Levi'nin oğulları Gerşon, Kohat ve Merari'ydi."
+    },
+    {
+      "v": 2,
+      "text": "Kohat'ın oğulları Amram, Yishar, Hevron ve Uzziyel'di."
+    },
+    {
+      "v": 3,
+      "text": "Amram'ın çocukları Harun, Musa ve Miryam'dı. Harun'un oğulları Nadav, Avihu, Elazar ve İtamar'dı."
+    },
+    {
+      "v": 4,
+      "text": "Elazar Pinehas'ın babasıydı. Pinehas Avişua'nın babasıydı."
+    },
+    {
+      "v": 5,
+      "text": "Avişua Bukki'nin babasıydı. Bukki Uzzi'nin babasıydı."
+    },
+    {
+      "v": 6,
+      "text": "Uzzi Zerahya'nın babasıydı. Zerahya Merayot'un babasıydı."
+    },
+    {
+      "v": 7,
+      "text": "Merayot, Amarya'nın babasıydı. Amarya Ahituv'un babasıydı."
+    },
+    {
+      "v": 8,
+      "text": "Ahituv Sadok'un babasıydı. Sadok Ahimaas'ın babasıydı."
+    },
+    {
+      "v": 9,
+      "text": "Ahimaas Azarya'nın babasıydı. Azarya Yohanan'ın babasıydı."
+    },
+    {
+      "v": 10,
+      "text": "Yohanan Azarya'nın babasıydı. Azarya Süleyman'ın Kudüs'te yaptığı mabette rahipti."
+    },
+    {
+      "v": 11,
+      "text": "Azarya Amarya'nın babasıydı. Amarya Ahituv'un babasıydı."
+    },
+    {
+      "v": 12,
+      "text": "Ahituv Sadok'un babasıydı. Sadok Şallum'un babasıydı."
+    },
+    {
+      "v": 13,
+      "text": "Şallum Hilkiya'nın babasıydı. Hilkiya Azarya'nın babasıydı."
+    },
+    {
+      "v": 14,
+      "text": "Azarya Seraya'nın babasıydı. Seraya Yehosadak'ın babasıydı."
+    },
+    {
+      "v": 15,
+      "text": "Allah'ın izniyle Yahuda ve Kudüs halkı Babil'e sürülünce, Yehosadak da sürgüne gitti. Bu, Babil kralı Nebukadnezar'ın devrinde oldu."
+    },
+    {
+      "v": 16,
+      "text": "Levi'nin oğulları Gerşon, Kohat ve Merari'ydi."
+    },
+    {
+      "v": 17,
+      "text": "Gerşon'un oğullarının adları Livni ve Şimi'ydi."
+    },
+    {
+      "v": 18,
+      "text": "Kohat'ın oğulları Amram, Yishar, Hevron ve Uzziyel'di."
+    },
+    {
+      "v": 19,
+      "text": "Merari'nin oğulları Mahli ve Muşi'ydi. Soylarına göre Levi aşiretinin kabileleri şunlardır:"
+    },
+    {
+      "v": 20,
+      "text": "Gerşon'un soyu: Livni Gerşon'un oğluydu. Yahat Livni'nin oğluydu. Zimma Yahat'ın oğluydu."
+    },
+    {
+      "v": 21,
+      "text": "Yoah Zimma'nın oğluydu. İddo Yoah'ın oğluydu. Zerah İddo'nun oğluydu. Yeateray Zerah'ın oğluydu."
+    },
+    {
+      "v": 22,
+      "text": "Kohat'ın soyu: Amminadav Kohat'ın oğluydu. Korah Amminadav'ın oğluydu. Assir Korah'ın oğluydu."
+    },
+    {
+      "v": 23,
+      "text": "Elkana Assir'in oğluydu. Evyasaf Elkana'nın oğluydu. Assir Evyasaf'ın oğluydu."
+    },
+    {
+      "v": 24,
+      "text": "Tahat Assir'in oğluydu. Uriyel Tahat'ın oğluydu. Uzziya Uriyel'in oğluydu. Şaul Uzziya'nın oğluydu."
+    },
+    {
+      "v": 25,
+      "text": "Elkana'nın öbür oğulları Amasay ve Ahimot'tu."
+    },
+    {
+      "v": 26,
+      "text": "Elkana Ahimot'un oğluydu. Sofay Elkana'nın oğluydu. Nahat Sofay'ın oğluydu."
+    },
+    {
+      "v": 27,
+      "text": "Eliyav Nahat'ın oğluydu. Yeroham Eliyav'ın oğluydu. Elkana Yeroham'ın oğluydu. Samuel Elkana'nın oğluydu."
+    },
+    {
+      "v": 28,
+      "text": "Samuel'in oğulları şunlardı: İlk oğlu Yoel, ikincisi Aviya'ydı."
+    },
+    {
+      "v": 29,
+      "text": "Merari'nin soyu şöyleydi: Mahli Merari'nin oğluydu. Livni Mahli'nin oğluydu. Şimi Livni'nin oğluydu. Uzza Şimi'nin oğluydu."
+    },
+    {
+      "v": 30,
+      "text": "Şima Uzza'nın oğluydu. Hagiya Şima'nın oğluydu. Asaya Hagiya'nın oğluydu."
+    },
+    {
+      "v": 31,
+      "text": "Ahit Sandığı Allah'ın mabedine yerleştirildikten sonra Davud mabetteki ayinlerde ilahi okuyanları seçti."
+    },
+    {
+      "v": 32,
+      "text": "Bunlar İbadet Çadırı denen mukaddes çadırda ilahi okuyarak hizmet ederlerdi. Süleyman Kudüs'te Allah'ın mabedini inşa edene kadar orada hizmet ettiler. Görevlerini tespit edilen usûllere göre yerine getirirlerdi."
+    },
+    {
+      "v": 33,
+      "text": "İlahi okuyanların şefleri ve onların soy kayıtları: Kohatoğullarından Heman Yoel'in oğluydu. Yoel Samuel'in oğluydu."
+    },
+    {
+      "v": 34,
+      "text": "Samuel Elkana'nın oğluydu. Elkana Yeroham'ın oğluydu. Yeroham Eliyel'in oğluydu. Eliyel Toah'ın oğluydu."
+    },
+    {
+      "v": 35,
+      "text": "Toah Suf'un oğluydu. Suf Elkana'nın oğluydu. Elkana Mahat'ın oğluydu. Mahat Amasay'ın oğluydu."
+    },
+    {
+      "v": 36,
+      "text": "Amasay Elkana'nın oğluydu. Elkana Yoel'in oğluydu. Yoel Azarya'nın oğluydu. Azarya Sefanya'nın oğluydu."
+    },
+    {
+      "v": 37,
+      "text": "Sefanya Tahat'ın oğluydu. Tahat Assir'in oğluydu. Assir Evyasaf'ın oğluydu. Evyasaf Korah'un oğluydu."
+    },
+    {
+      "v": 38,
+      "text": "Korah Yishar'ın oğluydu. Yishar Kohat'ın oğluydu. Kohat Levi'nin oğluydu. Levi İsrail'in, yani Yakub'un oğluydu."
+    },
+    {
+      "v": 39,
+      "text": "Heman'ın sağ yanında görev yapan akrabası Asaf Berekya'nın oğluydu. Berekya Şima'nın oğluydu."
+    },
+    {
+      "v": 40,
+      "text": "Şima Mikail'in oğluydu. Mikail Baaseya'nın oğluydu. Baaseya Malkiya'nın oğluydu."
+    },
+    {
+      "v": 41,
+      "text": "Malkiya Etni'nin oğluydu. Etni Zerah'ın oğluydu. Zerah Adaya'nın oğluydu."
+    },
+    {
+      "v": 42,
+      "text": "Adaya Eytan'ın oğluydu. Eytan Zimma'nın oğluydu. Zimma Şimi'nin oğluydu."
+    },
+    {
+      "v": 43,
+      "text": "Şimi Yahat'ın oğluydu. Yahat Gerşon'un oğluydu. Gerşon Levi'nin oğluydu."
+    },
+    {
+      "v": 44,
+      "text": "Heman'ın solunda görev yapan ve Merarioğullarından olan akrabası Eytan, Kiyşi'nin oğluydu. Kiyşi Avdi'nin oğluydu. Avdi Malluk'un oğluydu."
+    },
+    {
+      "v": 45,
+      "text": "Malluk Haşavya'nın oğluydu. Haşavya Amasiya'nın oğluydu. Amasiya Hilkiya'nın oğluydu."
+    },
+    {
+      "v": 46,
+      "text": "Hilkiya Amsi'nin oğluydu. Amsi Bani'nin oğluydu. Bani Şemer'in oğluydu."
+    },
+    {
+      "v": 47,
+      "text": "Şemer Mahli'nin oğluydu. Mahli Muşi'nin oğluydu. Muşi Merari'nin oğluydu. Merari Levi'nin oğluydu."
+    },
+    {
+      "v": 48,
+      "text": "Bunların Levili akrabaları, Allah'a ibadet edilen mukaddes çadırın bütün hizmetini yerine getirmekle görevlendirildiler."
+    },
+    {
+      "v": 49,
+      "text": "Fakat sadece Harun'un soyundan gelenler yakmalık kurban sunağında ve buhur masasında Allah'a adak sunabilirdi. En mukaddes yerde yapılan hizmetlerden onlar sorumluydu. Ayrıca İsrailoğullarının günahları için kefaret olarak kurban sunarlardı. Bu konuda Allah'ın sevgili kulu Musa'nın bütün emirlerine itaat ederlerdi."
+    },
+    {
+      "v": 50,
+      "text": "Harun'un soyundan gelenler: Elazar Harun'un oğluydu. Pinehas Elazar'ın oğluydu. Avişua Pinehas'ın oğluydu."
+    },
+    {
+      "v": 51,
+      "text": "Bukki Avişua'nın oğluydu. Uzzi Bukki'nin oğluydu. Zerahya Uzzi'nin oğluydu."
+    },
+    {
+      "v": 52,
+      "text": "Merayot Zerahya'nın oğluydu. Amarya Merayot'un oğluydu. Ahituv Amarya'nın oğluydu."
+    },
+    {
+      "v": 53,
+      "text": "Sadok Ahituv'un oğluydu. Ahimaas Sadok'un oğluydu."
+    },
+    {
+      "v": 54,
+      "text": "Harun'un soyundan gelenlere tahsis edilen özel yerleşim bölgeleri vardı. Topraklar kurayla dağıtılmıştı. İlk kurayı çeken Kohat kabilesiydi."
+    },
+    {
+      "v": 55,
+      "text": "Kohatlılara Yahuda topraklarındaki Hevron şehri ve çevresindeki otlaklar verildi."
+    },
+    {
+      "v": 56,
+      "text": "Ancak şehrin etrafındaki tarım alanlarıyla köyler Yefunne'nin oğlu Kalev'e verildi."
+    },
+    {
+      "v": 57,
+      "text": "Harun'un soyundan gelenlere şu şehirler verildi: Sığınak şehir olarak seçilen Hevron, Livna ve otlakları, Yattir, Eştemoya ve otlakları,"
+    },
+    {
+      "v": 58,
+      "text": "Hilen ve otlakları, Devir ve otlakları,"
+    },
+    {
+      "v": 59,
+      "text": "Aşan, Yutta ve Beytşemeş ile otlakları."
+    },
+    {
+      "v": 60,
+      "text": "Ayrıca Bünyamin aşiretinin topraklarından Givon, Geva, Alemet, Anatot şehirleri ile otlakları verildi. Kohat kabilesine mensup ailelere verilen şehirlerin toplamı on üçtü."
+    },
+    {
+      "v": 61,
+      "text": "Geri kalan Kohatlılara Manaşe aşiretinin yarısından alınan on şehir kurayla verildi."
+    },
+    {
+      "v": 62,
+      "text": "Gerşon kabilesine mensup ailelere on üç şehir verildi. Bu şehirler İssakar, Aşer, Naftali aşiretlerinden ve Manaşe aşiretinin Başan bölgesinde yaşayan kısmından alındı."
+    },
+    {
+      "v": 63,
+      "text": "Merari kabilesine mensup ailelere Ruben, Gad ve Zevulun aşiretlerinden alınan on iki şehir kurayla verildi."
+    },
+    {
+      "v": 64,
+      "text": "İsrailoğulları bu şehirleri otlaklarıyla birlikte Levililere verdiler."
+    },
+    {
+      "v": 65,
+      "text": "Yahuda, Şimon ve Bünyamin aşiretlerinden alınan ve yukarıda adı geçen bu şehirler kurayla verildi."
+    },
+    {
+      "v": 66,
+      "text": "Kohat kabilesine mensup bazı ailelere Efrayim aşiretinden alınan şehirler verildi."
+    },
+    {
+      "v": 67,
+      "text": "Efrayim dağlık bölgesinde bulunan bu şehirler, sığınak şehir olan Şekem, Gezer,"
+    },
+    {
+      "v": 68,
+      "text": "Yokmeyam, Beythoron,"
+    },
+    {
+      "v": 69,
+      "text": "Ayalon ve Gatrimmon'dur. Kohatlılara bu şehirlerin etrafındaki otlaklar da verildi."
+    },
+    {
+      "v": 70,
+      "text": "Kohat kabilesinin geri kalanına Manaşe aşiretinin yarısından alınan Aner ve Bilam şehirleri ile otlakları verildi."
+    },
+    {
+      "v": 71,
+      "text": "Gerşon kabilesine Manaşe aşiretinin yarısından alınan, Başan bölgesinde bulunan Golan ve Aştarot şehirleri ile otlakları verildi."
+    },
+    {
+      "v": 72,
+      "text": "Onlara ayrıca şu şehirler ve etraflarındaki otlaklar verildi: İssakar aşiretinden alınan Kedeş ile otlakları, Daverat,"
+    },
+    {
+      "v": 73,
+      "text": "Ramot ve Anem;"
+    },
+    {
+      "v": 74,
+      "text": "Aşer aşiretinden alınan Maşal, Avdon,"
+    },
+    {
+      "v": 75,
+      "text": "Hukok ve Rehov;"
+    },
+    {
+      "v": 76,
+      "text": "Naftali aşiretinden alınan, Celile'de bulunan Kedeş, Hammon ve Kiryatayim."
+    },
+    {
+      "v": 77,
+      "text": "Merari kabilesinin geri kalanına şu şehirler ve etraflarındaki otlaklar verildi: Zevulun aşiretinden alınan Rimmono ve Tavor;"
+    },
+    {
+      "v": 78,
+      "text": "Ruben aşiretinden alınan, Eriha şehrinin ötesinde, Şeria Irmağı'nın doğusundaki kırlarda bulunan Beser, Yahsa,"
+    },
+    {
+      "v": 79,
+      "text": "Kedemot ve Mefaat;"
+    },
+    {
+      "v": 80,
+      "text": "Gad aşiretinden alınan, Gilad bölgesinde bulunan Ramot, Mahanayim,"
+    },
+    {
+      "v": 81,
+      "text": "Heşbon ve Yazer."
+    }
+  ]
+}

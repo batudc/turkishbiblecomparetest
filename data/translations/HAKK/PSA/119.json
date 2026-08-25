@@ -1,0 +1,711 @@
+{
+  "t": "HAKK",
+  "b": "PSA",
+  "c": 119,
+  "content": [
+    {
+      "v": 1,
+      "text": "Hak yolunda yaşayana, Rabbin şeriatına göre hayat sürene ne mutlu!"
+    },
+    {
+      "v": 2,
+      "text": "Ne mutlu farzlarını yerine getirene, Bütün kalbiyle O'na teslim olana!"
+    },
+    {
+      "v": 3,
+      "text": "Öyleleri haksızlık etmezler, Allah yolunda yaşarlar."
+    },
+    {
+      "v": 4,
+      "text": "Allahım, kaidelerine Dikkatle uymamızı buyurdun."
+    },
+    {
+      "v": 5,
+      "text": "Kanunlarına uymayı Cânı gönülden isterim."
+    },
+    {
+      "v": 6,
+      "text": "Aklım fikrim senin emirlerinde olduğu sürece, Asla utanacak duruma düşmem."
+    },
+    {
+      "v": 7,
+      "text": "Hükümlerinin ne kadar âdil olduğunu öğrendikçe Temiz bir kalple hamdederim sana."
+    },
+    {
+      "v": 8,
+      "text": "Kanunlarını yerine getireceğim, Ne olur, beni asla terk etme!"
+    },
+    {
+      "v": 9,
+      "text": "Genç insan nasıl pak bir hayat sürer? Tabii ki senin kelâmına göre yaşamakla."
+    },
+    {
+      "v": 10,
+      "text": "Bütün kalbimle sana yöneldim, Emirlerinden sapmama müsaade etme."
+    },
+    {
+      "v": 11,
+      "text": "Sana karşı günah işlememek için Kelâmını asla aklımdan çıkarmam."
+    },
+    {
+      "v": 12,
+      "text": "Ya Rab, sen mübareksin, Bana kanunlarını öğret."
+    },
+    {
+      "v": 13,
+      "text": "Ağzından çıkan bütün hükümleri Dudaklarımla teyit ederim."
+    },
+    {
+      "v": 14,
+      "text": "Farzlarını yerine getirmek bana zevk veriyor, Sanki benim oluyor bütün hazineler."
+    },
+    {
+      "v": 15,
+      "text": "Kaidelerini hep aklımda tutarım, Dikkat ederim senin yolundan gitmeye."
+    },
+    {
+      "v": 16,
+      "text": "Kanunlarından haz duyarım, Hep aklımdadır kelâmın."
+    },
+    {
+      "v": 17,
+      "text": "Ya Rab, bana lütfet de Kelâmına itaat ederek yaşayayım."
+    },
+    {
+      "v": 18,
+      "text": "Gözlerimi aç ki, Şeriatındaki harikaları göreyim."
+    },
+    {
+      "v": 19,
+      "text": "Ben bu dünyada misafirim, Emirlerinden habersiz bırakma beni."
+    },
+    {
+      "v": 20,
+      "text": "Hükümlerinin yerine gelmesini Her zaman hasretle bekliyorum."
+    },
+    {
+      "v": 21,
+      "text": "Emirlerine itaat etmeyen melûnları cezalandırırsın; Bu kibirlileri haklı olarak azarlarsın."
+    },
+    {
+      "v": 22,
+      "text": "Hakaretlerden ve utançtan kurtar beni; Çünkü senin farzlarını yerine getiririm."
+    },
+    {
+      "v": 23,
+      "text": "İleri gelenler toplanıp beni kötüleseler bile, Ben yine de senin kanunlarını düşüneceğim."
+    },
+    {
+      "v": 24,
+      "text": "Senin farz kıldıklarından zevk alırım, Çünkü bana rehberlik ederler."
+    },
+    {
+      "v": 25,
+      "text": "Ölümün eşiğindeyim, Kelâmınla dirilt beni."
+    },
+    {
+      "v": 26,
+      "text": "Yaptıklarımı itiraf ettim, sen de cevap verdin; Şimdi kanunlarını öğret bana."
+    },
+    {
+      "v": 27,
+      "text": "Kaidelerini bana açıkla ki, Ben de yaptığın harikaları düşüneyim."
+    },
+    {
+      "v": 28,
+      "text": "Kederden eriyorum; Vadettiğin gibi beni kuvvetlendir."
+    },
+    {
+      "v": 29,
+      "text": "Hilekârlıktan uzak tut beni, Bana lütfet de şeriatını öğreneyim."
+    },
+    {
+      "v": 30,
+      "text": "Sana sadık kalmaya karar kıldım, Hükümlerine riayet edeceğim."
+    },
+    {
+      "v": 31,
+      "text": "Ya Rab, farzlarına dört elle sarıldım, Lütfen beni utandırma!"
+    },
+    {
+      "v": 32,
+      "text": "Yüreğime huzur verdiğin için Emirlerini seve seve yerine getiririm."
+    },
+    {
+      "v": 33,
+      "text": "Ya Rab, kanunlarının anlamını öğret bana, Hayatım boyunca onlara itaat edeyim."
+    },
+    {
+      "v": 34,
+      "text": "Şeriatını yerine getirebilmem için aklımı geliştir, Onu yürekten tatbik edeyim."
+    },
+    {
+      "v": 35,
+      "text": "Beni emirlerinle çizdiğin yoldan yürüt, Çünkü o yolda yürümekten haz duyarım."
+    },
+    {
+      "v": 36,
+      "text": "Yüreğimi haksız kazanca değil, Senin farzlarına yönelt."
+    },
+    {
+      "v": 37,
+      "text": "Gözlerimi bâtıl şeylerden alıkoy, Senin yolunda yaşat beni."
+    },
+    {
+      "v": 38,
+      "text": "Ben kulunum, takva sahiplerine vadettiklerini Benim için de yerine getir."
+    },
+    {
+      "v": 39,
+      "text": "Çekindiğim hakaretlerden beni kurtar; Çünkü hükümlerinde âdilsin."
+    },
+    {
+      "v": 40,
+      "text": "Kaidelerine itaat etmeye can atıyorum; Beni adaletinle ihya et."
+    },
+    {
+      "v": 41,
+      "text": "Beni sevdiğini göster ya Rab, Vadettiğin gibi beni kurtar."
+    },
+    {
+      "v": 42,
+      "text": "Böylece kelâmına güvendiğim için, Bana hakaret edenlere verecek cevabım olur."
+    },
+    {
+      "v": 43,
+      "text": "Senin hak kelâmın asla dilimden düşmesin; Umudum senin hükümlerindedir."
+    },
+    {
+      "v": 44,
+      "text": "Şeriatını her zaman, İlelebet yerine getireceğim."
+    },
+    {
+      "v": 45,
+      "text": "Emirlerini yerine getirmeye çalıştığım için, Hür olarak yaşarım."
+    },
+    {
+      "v": 46,
+      "text": "Farzlarını kralların önünde dile getiririm; Bundan utanç duymam."
+    },
+    {
+      "v": 47,
+      "text": "Emirlerini seviyorum ya Rab, Onları yerine getirmekten zevk alıyorum."
+    },
+    {
+      "v": 48,
+      "text": "Saygı ve sevgi duyuyorum emirlerine, Kanunların her zaman aklımda."
+    },
+    {
+      "v": 49,
+      "text": "Ya Rab, ben kulunum, bana verdiğin sözü unutma! Bununla bana umut verdin."
+    },
+    {
+      "v": 50,
+      "text": "Vaadin bana hayat verir; Sıkıntıdayken bile benim tesellimdir."
+    },
+    {
+      "v": 51,
+      "text": "Mağrurlar durmadan benimle alay eder, Fakat ben senin şeriatından sapmadım."
+    },
+    {
+      "v": 52,
+      "text": "Kadim zamanda verdiğin hükümleri düşününce, Teselli bulurum ya Rab!"
+    },
+    {
+      "v": 53,
+      "text": "Şeriatından uzaklaşan zalimler yüzünden Çileden çıkıyorum."
+    },
+    {
+      "v": 54,
+      "text": "Misafir olduğum bu dünyada, İlahilerimin ilham kaynağı, Senin kanunlarındır."
+    },
+    {
+      "v": 55,
+      "text": "Geceleri ismini zikrederim ya Rab, Şeriatına riayet ederim."
+    },
+    {
+      "v": 56,
+      "text": "Nimetlerine erdim; Çünkü emirlerini yerine getirdim."
+    },
+    {
+      "v": 57,
+      "text": "Ya Rab, nasibim sensin; Buyruklarını yerine getireceğime söz verdim."
+    },
+    {
+      "v": 58,
+      "text": "Bütün kalbimle sana yakardım; Vadettiğin gibi, bana lütfet."
+    },
+    {
+      "v": 59,
+      "text": "Hayatımı gözden geçirdim, Senin farzlarına uymaya azmettim."
+    },
+    {
+      "v": 60,
+      "text": "Gevşemeden, aksatmadan, Yerine getiririm emirlerini."
+    },
+    {
+      "v": 61,
+      "text": "Zalimler bana tuzak kurdu, Fakat ben şeriatını ihmal etmedim."
+    },
+    {
+      "v": 62,
+      "text": "Gece yarıları bile kalkıp Âdil hükümlerin için şükrederim."
+    },
+    {
+      "v": 63,
+      "text": "Benim sadık dostlarım, Sana takvayla kulluk edip kaidelerine uyanlardır."
+    },
+    {
+      "v": 64,
+      "text": "Ya Rab, dünya inayetinle doludur; Lütfen kanunlarını bana öğret."
+    },
+    {
+      "v": 65,
+      "text": "Ya Rab, ben kulunum; Vadettiğin gibi bana iyi davrandın."
+    },
+    {
+      "v": 66,
+      "text": "Bana sağduyu ve ilim irfan ihsan et; Çünkü emirlerine güveniyorum."
+    },
+    {
+      "v": 67,
+      "text": "Hak yolundan saptım, cezasını da çektim, Fakat artık sözünü dinlerim."
+    },
+    {
+      "v": 68,
+      "text": "Ya Rab, sen iyisin, iyilik edersin; Bana kanunlarını öğret."
+    },
+    {
+      "v": 69,
+      "text": "Küstahlar beni yalan yere suçladılar, Bense bütün kalbimle senin kaidelerine riayet ederim."
+    },
+    {
+      "v": 70,
+      "text": "Bu adamlar vicdansız, merhametsizdirler, Bense senin şeriatından zevk alırım."
+    },
+    {
+      "v": 71,
+      "text": "İyi oldu acı çekmem; Bu sayede kanunlarını öğrendim."
+    },
+    {
+      "v": 72,
+      "text": "Ağzından çıkan şeriatı, Binlerce altın ve gümüşten daha değerli sayıyorum."
+    },
+    {
+      "v": 73,
+      "text": "Beni sen yaratıp biçimlendirdin; Emirlerine itaat etmeyi de öğret bana."
+    },
+    {
+      "v": 74,
+      "text": "Takva sahibi olanlar bana bakıp sevinsinler, Çünkü ben senin kelâmına umut bağladım."
+    },
+    {
+      "v": 75,
+      "text": "Ya Rab, biliyorum ki, hükümlerin âdildir, Beni cezalandırmakta haklıydın."
+    },
+    {
+      "v": 76,
+      "text": "Ben senin kulunum, vadettiğin gibi Sevginle beni teselli et."
+    },
+    {
+      "v": 77,
+      "text": "Merhametinle hayat bulayım, Çünkü senin şeriatından zevk alıyorum."
+    },
+    {
+      "v": 78,
+      "text": "Utansın o küstahlar, çünkü yalan yere beni suçladılar. Bense hep senin kaidelerini düşüneceğim."
+    },
+    {
+      "v": 79,
+      "text": "Takva sahibi olanlar bana gelsin, Buyurduğun farzları öğrensin."
+    },
+    {
+      "v": 80,
+      "text": "Rezil olmamak için Kanunlarına canıyürekten riayet edeyim."
+    },
+    {
+      "v": 81,
+      "text": "Beni kurtarmanı hasretle bekliyorum, Çünkü senin kelâmına umut bağladım."
+    },
+    {
+      "v": 82,
+      "text": "Vaatlerini yerine getirmeni beklemekten yoruldum. Soruyorum: \"Beni ne vakit teselli edeceksin?\""
+    },
+    {
+      "v": 83,
+      "text": "Dumanda büzülmüş deri tuluma benziyor bedenim, Yine de unutmadım senin kanunlarını."
+    },
+    {
+      "v": 84,
+      "text": "Daha ne kadar bekleyeceğim ya Rab, Bana eza edenleri ne zaman cezalandıracaksın?"
+    },
+    {
+      "v": 85,
+      "text": "Mağrurlar kuyumu kazdılar; Verdiğin şeriatı bozdular."
+    },
+    {
+      "v": 86,
+      "text": "Bütün emirlerin itimada lâyıktır. Haksız yere zulmedenlerden beni koru."
+    },
+    {
+      "v": 87,
+      "text": "Neredeyse sileceklerdi beni yeryüzünden, Ben yine de senin kaidelerinden ayrılmadım."
+    },
+    {
+      "v": 88,
+      "text": "Sevginle beni yaşat, O zaman farzlarını yerine getiririm."
+    },
+    {
+      "v": 89,
+      "text": "Ya Rab, sen ebedîsin, Gökler durdukça kelâmın da duracaktır."
+    },
+    {
+      "v": 90,
+      "text": "Sadakatin nesiller boyu sürer, Yarattığın dünya yerli yerinde durur."
+    },
+    {
+      "v": 91,
+      "text": "Her şey senin hükümlerinle kaimdir; Hepsi sana hizmet eder."
+    },
+    {
+      "v": 92,
+      "text": "Eğer şeriatın zevk kaynağım olmasaydı, Çektiğim acılar beni yer bitirirdi."
+    },
+    {
+      "v": 93,
+      "text": "Kaidelerini asla ihmal etmem, Çünkü onlarla beni ihya ettin."
+    },
+    {
+      "v": 94,
+      "text": "Ben sana aidim, lütfen kurtar beni; Çünkü kaidelerine uymaya çalışıyorum."
+    },
+    {
+      "v": 95,
+      "text": "Zalimler yoluma ölüm tuzağı kurarken, Ben senin farzlarını derin derin düşünürüm."
+    },
+    {
+      "v": 96,
+      "text": "Her şeyin sınırlı olduğunu gördüm, Fakat senin emirlerin sınırsızdır."
+    },
+    {
+      "v": 97,
+      "text": "Şeriatını öyle çok seviyorum ki! Gün boyu onu düşünür dururum."
+    },
+    {
+      "v": 98,
+      "text": "Emirlerin hep aklımdadır, Bu sayede hasımlarımdan daha hikmetliyim."
+    },
+    {
+      "v": 99,
+      "text": "Bütün hocalarımdan daha akıllıyım, Çünkü senin farzlarından ders alırım."
+    },
+    {
+      "v": 100,
+      "text": "Yaşlılardan daha hikmetliyim, Çünkü senin kaidelerine riayet ederim."
+    },
+    {
+      "v": 101,
+      "text": "Kelâmın uyarınca yaşamak için Her kötülükten uzak durdum."
+    },
+    {
+      "v": 102,
+      "text": "Senin hükümlerinden ayrılmam, Çünkü onları bana sen öğrettin."
+    },
+    {
+      "v": 103,
+      "text": "Kelâmın bana ne tatlı gelir, Baldan tatlıdır ağzıma!"
+    },
+    {
+      "v": 104,
+      "text": "Kaidelerine uyarak hikmet kazanırım; Onun için nefret ederim her tür hilekârlıktan."
+    },
+    {
+      "v": 105,
+      "text": "Kelâmın adımlarıma çıra, Yoluma ışıktır."
+    },
+    {
+      "v": 106,
+      "text": "Âdil hükümlerine uyacağıma yemin ettim; Bu yemine bağlı kalırım."
+    },
+    {
+      "v": 107,
+      "text": "Ya Rab, korkunç acı çekiyorum, Vadettiğin gibi ihya et beni."
+    },
+    {
+      "v": 108,
+      "text": "Ya Rab, gönülden sunduğum şükranları kabul eyle, Hükümlerini bana öğret."
+    },
+    {
+      "v": 109,
+      "text": "Hayatım her an tehlikede, Yine de şeriatını unutmam."
+    },
+    {
+      "v": 110,
+      "text": "Zalimler bana tuzak kurdular, Fakat senin kaidelerinden sapmadım."
+    },
+    {
+      "v": 111,
+      "text": "Farzların benim ebedî mirasımdır, Kalbimin sevinç kaynağıdır onlar."
+    },
+    {
+      "v": 112,
+      "text": "Hayatımın sonuna kadar Kanunlarına uymaya kararlıyım."
+    },
+    {
+      "v": 113,
+      "text": "Ya Rab, döneklerden nefret ederim, Fakat senin şeriatını severim."
+    },
+    {
+      "v": 114,
+      "text": "Sığınağım ve kalkanım sensin; Umudum da senin kelâmındır."
+    },
+    {
+      "v": 115,
+      "text": "Ey zalimler, benden uzak durun! Allahım'ın emirlerini yerine getirmeye kararlıyım."
+    },
+    {
+      "v": 116,
+      "text": "Ya Rab, vadettiğin gibi bana güç ver ki, hayat bulayım; Utanmayayım sana umut bağladığım için."
+    },
+    {
+      "v": 117,
+      "text": "Bana destek ol, kurtulayım; Her daim riayet edeyim senin kanunlarına."
+    },
+    {
+      "v": 118,
+      "text": "Kanunlarından sapanları reddedersin; Çünkü yalancı ve hilekârdırlar."
+    },
+    {
+      "v": 119,
+      "text": "Dünyadaki zalimleri cüruf gibi atarsın; Onun için senin farzlarını severim."
+    },
+    {
+      "v": 120,
+      "text": "Huzurunda dehşetle ürperiyorum; Korkarım senin hükümlerinden."
+    },
+    {
+      "v": 121,
+      "text": "Âdil ve doğru olanı yaptım, Gaddarların insafına bırakma beni!"
+    },
+    {
+      "v": 122,
+      "text": "Ben kulunum, saadetimin güvencesi ol! Eziyet etmesin bana mağrurlar."
+    },
+    {
+      "v": 123,
+      "text": "Gözlerimin feri söndü, Beni kurtarmanı ve vaadini gerçekleştirmeni beklerken."
+    },
+    {
+      "v": 124,
+      "text": "Ben kulunum, sevgini benden esirgeme; Kanunlarını öğret bana."
+    },
+    {
+      "v": 125,
+      "text": "Bana, kuluna akıl ver ki, Farzlarını anlayabileyim."
+    },
+    {
+      "v": 126,
+      "text": "Ya Rab, lütfen harekete geç; Bak, şeriatını ayaklar altına alıyorlar."
+    },
+    {
+      "v": 127,
+      "text": "Bense senin emirlerini Altından, evet, saf altından daha çok severim."
+    },
+    {
+      "v": 128,
+      "text": "Kaidelerinin hepsine itaat ederim, Tiksinirim her tür sapkınlıktan."
+    },
+    {
+      "v": 129,
+      "text": "Ya Rab, farzların ne harikadır! Bu sebeple onlara candan uyarım."
+    },
+    {
+      "v": 130,
+      "text": "Kelâmın anlaşılınca nur saçar; Cahillere hikmet kazandırır."
+    },
+    {
+      "v": 131,
+      "text": "Nefesimi tutmuş bekliyorum, Çünkü özlüyorum emirlerini."
+    },
+    {
+      "v": 132,
+      "text": "Seni sevenlere lütfettiğin gibi, Beni de gör, bana da merhamet et ya Rab."
+    },
+    {
+      "v": 133,
+      "text": "Vadettiğin gibi bana yol göster; Hiçbir fesadın esiri olmayayım."
+    },
+    {
+      "v": 134,
+      "text": "Kurtar beni insanların zulmünden, Senin kaidelerini yerine getireyim."
+    },
+    {
+      "v": 135,
+      "text": "Ben kulunum, huzurunun nuruyla aydınlat beni, Öğret bana kanunlarını."
+    },
+    {
+      "v": 136,
+      "text": "Gözyaşlarım sel olup aktı, Çünkü şeriatına riayet edilmiyor."
+    },
+    {
+      "v": 137,
+      "text": "Sen âdilsin ya Rab, Hükümlerin doğrudur."
+    },
+    {
+      "v": 138,
+      "text": "Yerindedir buyurduğun farzlar, Ve tam itimada lâyıktır."
+    },
+    {
+      "v": 139,
+      "text": "Senin uğrundaki gayretlerim beni tüketti; Çünkü hasımlarım unuttu senin sözlerini."
+    },
+    {
+      "v": 140,
+      "text": "Ya Rab, kelâmın tamamen saftır; Kulunum, kelâmını severim."
+    },
+    {
+      "v": 141,
+      "text": "Önemsiz ve hor görülen biri olsam da Kaidelerini asla unutmam."
+    },
+    {
+      "v": 142,
+      "text": "Adaletin ebedî adalettir, Şeriatın da haktır."
+    },
+    {
+      "v": 143,
+      "text": "Sıkıntıya ve meşakkate rağmen Emirlerinden zevk alırım."
+    },
+    {
+      "v": 144,
+      "text": "Farzların ebediyen doğrudur, Anlamama yardım et ki, hayat bulayım."
+    },
+    {
+      "v": 145,
+      "text": "Cân-ı yürekten yakarıyorum ya Rab, Lütfen duama cevap ver. Söz veriyorum, kanunlarına uyacağım."
+    },
+    {
+      "v": 146,
+      "text": "Sana sesleniyorum, lütfen kurtar beni, Farzlarını yerine getireyim."
+    },
+    {
+      "v": 147,
+      "text": "Şafak vakti kalkıp yardımını dilerim, Umudum kelâmındadır."
+    },
+    {
+      "v": 148,
+      "text": "Vaatlerini düşüne düşüne Gece yarılarını buluyorum."
+    },
+    {
+      "v": 149,
+      "text": "İnayet et ve feryadımı duy ya Rab, Hükümlerin uyarınca yaşat beni."
+    },
+    {
+      "v": 150,
+      "text": "Şer peşinde koşanlar yakınımdalar; Fakat senin şeriatından çok uzaktalar!"
+    },
+    {
+      "v": 151,
+      "text": "Fakat sen ya Rab, bana yakınsın; Bütün emirlerin haktır."
+    },
+    {
+      "v": 152,
+      "text": "Çoktan beri anladım ki, Farzların ebediyen muteberdir."
+    },
+    {
+      "v": 153,
+      "text": "Ya Rab, düşkün halimi gör ve beni kurtar. Çünkü şeriatını ihmal etmedim."
+    },
+    {
+      "v": 154,
+      "text": "Davamı savun ve beni hür kıl, Vadettiğin gibi canımı koru."
+    },
+    {
+      "v": 155,
+      "text": "Zalimlerin kurtuluş umudu yoktur, Çünkü senin kanunlarına riayet etmiyorlar."
+    },
+    {
+      "v": 156,
+      "text": "Çok merhametlisin ya Rab, Hükümlerinle yaşat beni."
+    },
+    {
+      "v": 157,
+      "text": "Bana zulmedenler, hasım olanlar çoktur, Yine de sapmadım senin farzlarından."
+    },
+    {
+      "v": 158,
+      "text": "Hainlere tiksintiyle bakıyorum, Çünkü senin kelâmına itaat etmiyorlar."
+    },
+    {
+      "v": 159,
+      "text": "Ya Rab, gör, ne kadar seviyorum kaidelerini; İnayetinle koru canımı."
+    },
+    {
+      "v": 160,
+      "text": "Kelâmının özü hakikattir, Âdil hükümlerinin hepsi ebedîdir."
+    },
+    {
+      "v": 161,
+      "text": "Nüfuzlu kişiler yok yere bana zulmediyorlar; Bense senin kelâmını el üstünde tutarım."
+    },
+    {
+      "v": 162,
+      "text": "Büyük ganimet bulan biri gibi, Vadettiklerine seviniyorum."
+    },
+    {
+      "v": 163,
+      "text": "Tiksinirim, iğrenirim yalandan; Fakat senin şeriatını severim."
+    },
+    {
+      "v": 164,
+      "text": "Âdil hükümlerin için Günde yedi defa sana hamdederim."
+    },
+    {
+      "v": 165,
+      "text": "Şeriatını sevenler tam selâmete kavuşur; Hiçbir şey onları yoldan çıkaramaz."
+    },
+    {
+      "v": 166,
+      "text": "Beni kurtarmanı umutla bekliyorum ya Rab, Emirlerini yerine getiririm."
+    },
+    {
+      "v": 167,
+      "text": "Candan uyarım farzlarına; Onları çok seviyorum."
+    },
+    {
+      "v": 168,
+      "text": "Kaidelerine ve farzlarına riayet ederim. Zaten yaptığım her şeyi görürsün."
+    },
+    {
+      "v": 169,
+      "text": "Ya Rab, ne olursun feryadımı duy; Kelâmınla akıl ver bana."
+    },
+    {
+      "v": 170,
+      "text": "Yakarışım sana ulaşsın; Vadettiğin gibi beni kurtar."
+    },
+    {
+      "v": 171,
+      "text": "Dudaklarımdan sana hamtlar aksın, Çünkü kanunlarını bana öğrettin."
+    },
+    {
+      "v": 172,
+      "text": "Dilimle kelâmını terennüm edeyim, Çünkü bütün emirlerin âdildir."
+    },
+    {
+      "v": 173,
+      "text": "Kaidelerine uymaya kararlıyım, Lütfen elini uzat ve bana yardım et."
+    },
+    {
+      "v": 174,
+      "text": "Ya Rab, beni kurtarmanı dört gözle bekliyorum; Şeriatından zevk alıyorum."
+    },
+    {
+      "v": 175,
+      "text": "Ömrümü uzat ki sana hamdedeyim; Hükümlerin yardımcım olsun."
+    },
+    {
+      "v": 176,
+      "text": "Yolunu kaybetmiş koyun gibiyim; Beni ara ve bul ya Rab! Çünkü ben senin kulunum, Emirlerini hiç ihmal etmedim."
+    }
+  ]
+}

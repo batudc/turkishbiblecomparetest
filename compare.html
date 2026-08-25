@@ -1323,98 +1323,6 @@
     }
 
 
-    /* ===== HERETICAL WARNING MODAL ===== */
-    #heretical-overlay {
-      position: fixed;
-      inset: 0;
-      z-index: 9998;
-      background: rgba(0,0,0,0.72);
-      opacity: 0;
-      pointer-events: none;
-      transition: opacity 0.22s ease;
-    }
-    #heretical-overlay.hw-visible {
-      opacity: 1;
-      pointer-events: auto;
-    }
-    #heretical-warning {
-      position: fixed;
-      top: 50%; left: 50%;
-      z-index: 9999;
-      width: min(480px, 90vw);
-      transform: translate(-50%, -48%) scale(0.93);
-      opacity: 0;
-      pointer-events: none;
-      transition: transform 0.28s cubic-bezier(0.34,1.4,0.64,1), opacity 0.22s ease;
-      background: linear-gradient(160deg, #1e0505 0%, #2e0a0a 100%);
-      border: 1px solid rgba(180,30,30,0.45);
-      box-shadow: 0 24px 64px rgba(0,0,0,0.8), 0 0 0 1px rgba(180,30,30,0.1);
-      padding: 32px 30px 26px;
-    }
-    #heretical-warning.hw-visible {
-      transform: translate(-50%, -50%) scale(1);
-      opacity: 1;
-      pointer-events: auto;
-    }
-    #hw-icon {
-      width: 44px;
-      height: 44px;
-      border-radius: 50%;
-      background: rgba(180,30,30,0.18);
-      border: 1px solid rgba(180,30,30,0.45);
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      font-size: 20px;
-      margin: 0 auto 18px;
-    }
-    #hw-title {
-      font-family: 'Jost', sans-serif;
-      font-size: 10px;
-      font-weight: 700;
-      letter-spacing: 0.22em;
-      text-transform: uppercase;
-      color: #e05555;
-      text-align: center;
-      margin-bottom: 14px;
-    }
-    #hw-text {
-      font-family: 'EB Garamond', Georgia, serif;
-      font-size: 14.5px;
-      color: rgba(240,210,210,0.78);
-      line-height: 1.65;
-      text-align: center;
-      margin-bottom: 24px;
-    }
-    #hw-actions {
-      display: flex;
-      gap: 10px;
-      justify-content: center;
-    }
-    .hw-btn {
-      font-family: 'Jost', sans-serif;
-      font-size: 9.5px;
-      font-weight: 600;
-      letter-spacing: 0.12em;
-      text-transform: uppercase;
-      padding: 7px 20px;
-      border: 1px solid;
-      cursor: pointer;
-      transition: background 0.15s, border-color 0.15s;
-    }
-    #hw-btn-dismiss {
-      color: rgba(240,210,210,0.5);
-      border-color: rgba(240,210,210,0.15);
-      background: transparent;
-    }
-    #hw-btn-dismiss:hover { background: rgba(240,210,210,0.07); }
-    #hw-btn-remove {
-      color: #e05555;
-      border-color: rgba(180,30,30,0.5);
-      background: rgba(180,30,30,0.12);
-    }
-    #hw-btn-remove:hover { background: rgba(180,30,30,0.24); }
-
     /* ===== SEARCH RESULTS ===== */
     #search-results {
       position: fixed;
@@ -2218,23 +2126,6 @@
   <div class="cip-credit"></div>
 </div>
 
-<!-- ===== HERETICAL WARNING MODAL ===== -->
-<div id="heretical-overlay"></div>
-<div id="heretical-warning">
-  <div id="hw-icon">⚠</div>
-  <div id="hw-title">Güvenilmez Kaynak</div>
-  <div id="hw-text">
-    <strong id="hw-trans-name"></strong>, güvenilir bir çeviri değildir.
-    This translation represents a heretical teaching and alters biblical text
-    tahrif ettiği bilinmektedir. Karşılaştırma amacıyla görüntüleyebilirsiniz;
-    ancak öğretici kaynak olarak kullanılması tavsiye edilmez.
-  </div>
-  <div id="hw-actions">
-    <button class="hw-btn" id="hw-btn-remove">Kaldır</button>
-    <button class="hw-btn" id="hw-btn-dismiss">Anladım, Göster</button>
-  </div>
-</div>
-
 <div id="kie-tooltip"><span class="kie-tt-word"></span><span class="kie-tt-sep"> : </span><span class="kie-tt-gloss"></span></div>
 <div id="xref-tooltip"><div class="xref-tt-ref"></div><div class="xref-tt-text"></div></div>
 <div id="errata-tooltip"><div class="errata-tt-label"></div><div class="errata-tt-text"></div></div>
@@ -2279,8 +2170,8 @@
   const TUR1852_NOTE  = 'Türabi Efendi / J.W. Redhouse (1852–57) covers Genesis, Psalms, and the New Testament.';
   const SEL1866_BOOKS = new Set(['GEN','EXO','LEV','NUM','DEU','PSA','ISA','MAT','MRK','LUK','JHN','ACT','ROM','1CO','2CO','GAL','EPH','PHP','COL','1TH','2TH','1TI','2TI','TIT','PHM','HEB','JAS','1PE','2PE','1JN','2JN','3JN','JUD','REV']);
   const SEL1866_NOTE  = 'Selim Efendi / W. Schauffler (1866–77) covers the Torah, Psalms, Isaiah, and the New Testament.';
-  const HAKK_NT_BOOKS = new Set(['MAT','MRK','LUK','JHN','ACT','ROM','1CO','2CO','GAL','EPH','PHP','COL','1TH','2TH','1TI','2TI','TIT','PHM','HEB','JAS','1PE','2PE','1JN','2JN','3JN','JUD','REV']);
-  const HAKK_NOTE     = 'The Old Testament portion of Halk Dilinde Kutsal Kitap will be added soon.';
+  const HADI_NT_BOOKS = new Set(['MAT','MRK','LUK','JHN','ACT','ROM','1CO','2CO','GAL','EPH','PHP','COL','1TH','2TH','1TI','2TI','TIT','PHM','HEB','JAS','1PE','2PE','1JN','2JN','3JN','JUD','REV']);
+  const HADI_NOTE     = 'The Old Testament portion of Halk Dilinde İncil will be added soon.';
   const NSH1739_BOOKS = new Set(['GEN']);
   const NSH1739_NOTE  = 'NSH1739 covers only the first 4 chapters of Genesis.';
   const MEZ1669_BOOKS = new Set(['PSA']);
@@ -2357,7 +2248,8 @@
     'AREMSI':       'Fondatsiya "AR EM Sİ", 2007. Translation with Central Asian Turkish influence.',
     'KA2007':        'Akın Kadir, Bayraktar Hakkı. Ali Bey\'in Osmanlıca (1662-1666) Çevirisine Göre Ekümenik Kutsal Kitap: Tevrat, Zebur, İnciller ve Tüm Deuterokanonik/Apokrif Ekleri. İstanbul: Haktan Yayıncılık, 2007.',
     'YTC':          '© 2023–2025 İsmail Serinken and eBible.org',
-    'HAKK':         'Halk Dilinde Kutsal Kitap, 2024. Prepared in plain, contemporary Turkish.',
+    'HADİ':         'Halk Dilinde İncil, 2024. Prepared in plain, contemporary Turkish.',
+    'HAKK':         'Halk Dilinde Kutsal Kitap, 2024. Full Bible in plain, contemporary Turkish.',
     'KIE1819':      'Translators: Ali Bey & J.D. Kieffer. Published by BFBS, 1819.',
     'YYY1987':      'New Testament translation prepared for church use, 1987.',
     'CAN':          'Translator: Bünyamin Candemir. New Testament translation, 2003.',
@@ -2404,7 +2296,7 @@
       { id:'AREMSI',   name:'FONDATSİYA "AR EM Sİ"',                 year:2007, loaded:true  },
       { id:'KA2007',     name:'Ekümenik Kutsal Kitap',                  year:2007, loaded:true   },
       { id:'YTC',      name:'Yorumsuz Türkçe Çeviri (YTC)',             year:2023, loaded:true  },
-      { id:'HAKK',     name:'Halk Dilinde Kutsal Kitap',              year:2024, loaded:true  },
+      { id:'HADİ',     name:'Halk Dilinde İncil',              year:2024, loaded:true  },
     ],
     ntFull: [
       { id:'KIE1819',  name:'Yeni Ahit (Ali Bey, J.D. Kieffer)',     year:1819, loaded:true  },
@@ -2424,9 +2316,10 @@
       { id:'NSH1739',  name:'Tekvin (N. Şröder)',                    year:1739, loaded:true  },
       { id:'TSV',      name:'Türk Standart Versiyon',                year:2009, loaded:true  },
     ],
-    heretical: [
+    diger: [
       { id:'NWT2008',   name:'Yeni Dünya Çevirisi',                   year:2008, loaded:true  },
       { id:'NWT2025',   name:'Yeni Dünya Çevirisi (2025)',            year:2025, loaded:true  },
+      { id:'HAKK',      name:'Halk Dilinde Kutsal Kitap',              year:2024, loaded:true  },
     ],
     english: [
       { id:'KJV',       name:'King James Version',                    year:1611, loaded:true  },
@@ -2442,7 +2335,7 @@
 
   // Flat lookup: id → translation metadata
   const ALL_TRANS = {};
-  const TRANS_ORDER = [...TRANSLATIONS.ancient, ...TRANSLATIONS.bibleFull, ...TRANSLATIONS.ntFull, ...TRANSLATIONS.ntPartial, ...TRANSLATIONS.otPartial, ...TRANSLATIONS.heretical, ...TRANSLATIONS.english]
+  const TRANS_ORDER = [...TRANSLATIONS.ancient, ...TRANSLATIONS.bibleFull, ...TRANSLATIONS.ntFull, ...TRANSLATIONS.ntPartial, ...TRANSLATIONS.otPartial, ...TRANSLATIONS.diger, ...TRANSLATIONS.english]
     .sort((a, b) => a.year - b.year)
     .map(t => { ALL_TRANS[t.id] = t; return t.id; });
 
@@ -2615,7 +2508,7 @@
     if (tid === 'KIE1819'     && !KIE1819_NT_BOOKS.has(bookCode)) return false;
     if (tid === 'TUR1852-57'  && !TUR1852_BOOKS.has(bookCode))   return false;
     if (tid === 'SEL1866-77'  && !SEL1866_BOOKS.has(bookCode))   return false;
-    if (tid === 'HAKK'        && !HAKK_NT_BOOKS.has(bookCode))   return false;
+    if (tid === 'HADİ'        && !HADI_NT_BOOKS.has(bookCode))   return false;
     if (tid === 'NSH1739'     && !NSH1739_BOOKS.has(bookCode))   return false;
     if (tid === 'MEZ1669'     && !MEZ1669_BOOKS.has(bookCode))   return false;
     if (tid === 'YYY1987'     && !YYY1987_NT_BOOKS.has(bookCode)) return false;
@@ -2894,7 +2787,7 @@
     'KIE1819':    [KIE1819_NT_BOOKS,KIE1819_NOTE],
     'TUR1852-57': [TUR1852_BOOKS,   TUR1852_NOTE],
     'SEL1866-77': [SEL1866_BOOKS,   SEL1866_NOTE],
-    'HAKK':       [HAKK_NT_BOOKS,   HAKK_NOTE],
+    'HADİ':       [HADI_NT_BOOKS,   HADI_NOTE],
     'NSH1739':    [NSH1739_BOOKS,   NSH1739_NOTE],
     'MEZ1669':    [MEZ1669_BOOKS,   MEZ1669_NOTE],
     'YYY1987':    [YYY1987_NT_BOOKS, YYY1987_NOTE],
@@ -3165,7 +3058,7 @@
   buildBooks('books-nt', NT_BOOKS);
 
   // ── Build translation panel — category accordion ─────────────────────
-  const HERETICAL_ID_SET = new Set(TRANSLATIONS.heretical.map(t => t.id));
+  const DIGER_ID_SET = new Set(TRANSLATIONS.diger.map(t => t.id));
 
   const TRANS_CATEGORIES = [
     {
@@ -3179,7 +3072,7 @@
     {
       id: 'modern', label: 'Modern Turkish',
       subcats: [
-        { label: 'Full Bible',     ids: ['TCL02','AREMSI','KA2007','YTC','HAKK'] },
+        { label: 'Full Bible',     ids: ['TCL02','AREMSI','KA2007','YTC','HADİ'] },
         { label: 'New Testament',  ids: ['YYY1987','CAN','KKDEU','BGT','COS','TTT'] },
         { label: 'Partial',        ids: ['TSV','OTR2019'] },
       ]
@@ -3193,8 +3086,8 @@
       ]
     },
     {
-      id: 'heretical', label: 'Other', hidden: true,
-      subcats: [ { label: null, ids: ['NWT2008','NWT2025'] } ]
+      id: 'diger', label: 'Other', hidden: true,
+      subcats: [ { label: null, ids: ['NWT2008','NWT2025','HAKK'] } ]
     },
   ];
 
@@ -3248,13 +3141,13 @@
   function buildTransItem(tid) {
     const t = ALL_TRANS[tid];
     if (!t) return null;
-    const isHeretical = HERETICAL_ID_SET.has(tid);
+    const isHeretical = DIGER_ID_SET.has(tid);
     const item = document.createElement('div');
     item.className = 'trans-item' + (t.loaded ? '' : ' unavailable');
     const checked = selectedTranslations.has(t.id);
     item.innerHTML = `
       <input type="checkbox" ${checked ? 'checked' : ''} ${t.loaded ? '' : 'disabled'}
-             data-tid="${t.id}"${isHeretical ? ' data-heretical="true"' : ''}>
+             data-tid="${t.id}">
       <div class="trans-abbr">${t.id}</div>
       <div class="trans-meta">
         <div class="trans-name">${t.name}</div>
@@ -3325,10 +3218,6 @@
           loaded.forEach(id => selectedTranslations.delete(id));
         } else {
           loaded.forEach(id => selectedTranslations.add(id));
-          // Show heretical warning for category-level selection
-          if (cat.id === 'heretical' && window._hereticShowWarning && loaded.length > 0) {
-            window._hereticShowWarning(loaded[0], true);
-          }
         }
         syncTranslationUI();
         rebuildColumns();
@@ -3361,6 +3250,10 @@
       listEl.appendChild(catEl);
     });
   }
+  // Handle ?admin=true URL parameter — activate admin mode before rendering
+  if (new URLSearchParams(location.search).get('admin') === 'true') {
+    sessionStorage.setItem('kkf_admin', '1');
+  }
   buildTransCategories();
 
   // ── Translation state management ──────────────────────────────────────
@@ -3369,10 +3262,10 @@
                       ...TRANSLATIONS.ntPartial, ...TRANSLATIONS.otPartial]
     .filter(t => t.loaded);
 
-  // All loaded translations including heretical/english
+  // All loaded translations including diger/english
   const ALL_LOADED_TRANS = [...TRANSLATIONS.ancient, ...TRANSLATIONS.bibleFull, ...TRANSLATIONS.ntFull,
     ...TRANSLATIONS.ntPartial, ...TRANSLATIONS.otPartial,
-    ...TRANSLATIONS.heretical, ...TRANSLATIONS.english]
+    ...TRANSLATIONS.diger, ...TRANSLATIONS.english]
     .filter(t => t.loaded);
 
   // Sync ALL checkboxes from selectedTranslations (single source of truth)
@@ -3432,7 +3325,7 @@
   }
 
   // ── Category presets ──────────────────────────────────────────────────
-  const HERETICAL_IDS = new Set(TRANSLATIONS.heretical.map(t => t.id));
+  const DIGER_IDS = new Set(TRANSLATIONS.diger.map(t => t.id));
   const ENGLISH_IDS   = new Set(TRANSLATIONS.english.map(t => t.id));
 
   const PRESETS = [
@@ -3480,60 +3373,6 @@
   }
   buildPresetsBar();
 
-
-  // ── Heretical warning banner ──────────────────────────────────────────
-  (function() {
-    const hOverlay  = document.getElementById('heretical-overlay');
-    const hWarning  = document.getElementById('heretical-warning');
-    const hName     = document.getElementById('hw-trans-name');
-    const hBtnDismiss = document.getElementById('hw-btn-dismiss');
-    const hBtnRemove  = document.getElementById('hw-btn-remove');
-    let hActiveTid    = null;
-    let _removeAllMode = false; // true when triggered from category "Tümü" button
-
-    function showHereticWarning(tid, removeAll) {
-      hActiveTid    = tid;
-      _removeAllMode = removeAll || false;
-      hName.textContent = ALL_TRANS[tid]?.name ?? tid;
-      hOverlay.classList.add('hw-visible');
-      hWarning.classList.add('hw-visible');
-    }
-    function hideHereticWarning() {
-      hOverlay.classList.remove('hw-visible');
-      hWarning.classList.remove('hw-visible');
-      hActiveTid    = null;
-      _removeAllMode = false;
-    }
-
-    hOverlay.addEventListener('click', hideHereticWarning);
-    hBtnDismiss.addEventListener('click', hideHereticWarning);
-    hBtnRemove.addEventListener('click', () => {
-      if (hActiveTid) {
-        if (_removeAllMode) {
-          // Remove every heretical translation added by category "Tümü"
-          HERETICAL_ID_SET.forEach(id => selectedTranslations.delete(id));
-        } else {
-          selectedTranslations.delete(hActiveTid);
-        }
-        syncTranslationUI();
-        rebuildColumns();
-        triggerSearch();
-        updateCatCounts();
-      }
-      hideHereticWarning();
-    });
-
-    // Attach warning trigger to heretical checkboxes (identified by data-heretical attribute)
-    document.querySelectorAll('#panel-translations input[type="checkbox"][data-heretical]').forEach(cb => {
-      cb.addEventListener('change', e => {
-        if (e.target.checked) showHereticWarning(e.target.dataset.tid, false);
-        else hideHereticWarning();
-      });
-    });
-
-    // Expose so the category "Tümü" button can trigger the warning
-    window._hereticShowWarning = (tid, removeAll) => showHereticWarning(tid, removeAll);
-  })();
 
   // ── KIE1819 gloss tooltip ─────────────────────────────────────────────
   (function() {
@@ -4052,7 +3891,7 @@
     function _toggleAdminMode() {
       _adminMode = !_adminMode;
       sessionStorage.setItem('kkf_admin', _adminMode ? '1' : '0');
-      TRANS_CATEGORIES.forEach(c => { if (c.id === 'heretical') c.hidden = !_adminMode; });
+      TRANS_CATEGORIES.forEach(c => { if (c.id === 'diger') c.hidden = !_adminMode; });
       buildTransCategories();
       updateDefaultTransSelect();
       let badge = document.getElementById('_admin-badge');
@@ -4069,7 +3908,7 @@
     }
 
     if (_adminMode) {
-      TRANS_CATEGORIES.forEach(c => { if (c.id === 'heretical') c.hidden = false; });
+      TRANS_CATEGORIES.forEach(c => { if (c.id === 'diger') c.hidden = false; });
     }
 
     window._adminSeqTick = _adminSeqTick;
