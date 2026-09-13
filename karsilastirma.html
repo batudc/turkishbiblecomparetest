@@ -2291,6 +2291,40 @@
 <div id="xref-tooltip"><div class="xref-tt-ref"></div><div class="xref-tt-text"></div></div>
 <div id="errata-tooltip"><div class="errata-tt-label"></div><div class="errata-tt-text"></div></div>
 
+<!-- ===== ADMIN EDIT MODE ===== -->
+<button id="edit-pencil-btn" title="Düzeltme editörünü aç">✎</button>
+
+<div id="edit-overlay">
+  <div id="edit-hdr">
+    <span id="edit-hdr-title">Düzeltme Editörü</span>
+    <span id="edit-hdr-sep"></span>
+    <span class="edit-hdr-label">Referans</span>
+    <select class="edit-hdr-sel" id="edit-ref-sel"></select>
+    <span class="edit-hdr-label">Düzenlenecek</span>
+    <select class="edit-hdr-sel" id="edit-tgt-sel"></select>
+    <div id="edit-nav">
+      <button class="edit-nav-btn" id="edit-prev">◀</button>
+      <span id="edit-nav-loc"></span>
+      <button class="edit-nav-btn" id="edit-next">▶</button>
+    </div>
+    <button id="edit-close" title="Kapat">✕</button>
+  </div>
+  <div class="edit-body">
+    <div class="edit-col">
+      <div class="edit-col-hdr" id="edit-col-ref-lbl">Referans</div>
+      <div class="edit-col-body" id="edit-col-ref-body"></div>
+    </div>
+    <div class="edit-col">
+      <div class="edit-col-hdr" id="edit-col-src-lbl">Orijinal</div>
+      <div class="edit-col-body" id="edit-col-src-body"></div>
+    </div>
+    <div class="edit-col">
+      <div class="edit-col-hdr">Düzenleme</div>
+      <div class="edit-col-body" id="edit-col-edit-body"></div>
+    </div>
+  </div>
+</div>
+
 <!-- ===== TOUR OVERLAY ===== -->
 <div id="tour-click-block"></div>
 <div id="tour-spotlight"></div>
@@ -5980,38 +6014,6 @@
     }
   </script>
 
-<!-- ===== ADMIN EDIT MODE ===== -->
-<button id="edit-pencil-btn" title="Düzeltme editörünü aç">✎</button>
 
-<div id="edit-overlay">
-  <div id="edit-hdr">
-    <span id="edit-hdr-title">Düzeltme Editörü</span>
-    <span id="edit-hdr-sep"></span>
-    <span class="edit-hdr-label">Referans</span>
-    <select class="edit-hdr-sel" id="edit-ref-sel"></select>
-    <span class="edit-hdr-label">Düzenlenecek</span>
-    <select class="edit-hdr-sel" id="edit-tgt-sel"></select>
-    <div id="edit-nav">
-      <button class="edit-nav-btn" id="edit-prev">◀</button>
-      <span id="edit-nav-loc"></span>
-      <button class="edit-nav-btn" id="edit-next">▶</button>
-    </div>
-    <button id="edit-close" title="Kapat">✕</button>
-  </div>
-  <div class="edit-body">
-    <div class="edit-col">
-      <div class="edit-col-hdr" id="edit-col-ref-lbl">Referans</div>
-      <div class="edit-col-body" id="edit-col-ref-body"></div>
-    </div>
-    <div class="edit-col">
-      <div class="edit-col-hdr" id="edit-col-src-lbl">Orijinal</div>
-      <div class="edit-col-body" id="edit-col-src-body"></div>
-    </div>
-    <div class="edit-col">
-      <div class="edit-col-hdr">Düzenleme</div>
-      <div class="edit-col-body" id="edit-col-edit-body"></div>
-    </div>
-  </div>
-</div>
 </body>
 </html>
