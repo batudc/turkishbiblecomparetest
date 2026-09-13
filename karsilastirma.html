@@ -2202,6 +2202,51 @@
     }
     #edit-cancel-btn.has-edits { display: flex; }
     #edit-cancel-btn:hover { background: rgba(160,40,40,0.28); border-color: rgba(220,60,60,0.6); color: rgba(255,120,120,1); }
+    #edit-hist-btn {
+      display: flex; align-items: center; gap: 5px; padding: 5px 11px;
+      border-radius: 5px; border: 1px solid rgba(184,146,42,0.22);
+      background: rgba(184,146,42,0.06); color: rgba(184,146,42,0.65);
+      font-size: 11px; font-weight: 600; cursor: pointer; white-space: nowrap;
+      transition: background 0.15s, border-color 0.15s, color 0.15s;
+    }
+    #edit-hist-btn:hover { background: rgba(184,146,42,0.18); border-color: rgba(184,146,42,0.5); color: rgba(232,201,106,1); }
+    #edit-hist-panel {
+      display: none; position: absolute; top: 0; right: 0; width: 360px; max-width: 90vw;
+      height: 100%; background: #0d0905; border-left: 1px solid rgba(184,146,42,0.18);
+      flex-direction: column; z-index: 9999;
+    }
+    #edit-hist-panel.open { display: flex; }
+    #edit-hist-hdr {
+      padding: 13px 16px; font-size: 11px; font-weight: 700; letter-spacing: 0.06em;
+      color: rgba(184,146,42,0.75); border-bottom: 1px solid rgba(184,146,42,0.1);
+      display: flex; justify-content: space-between; align-items: center; flex-shrink: 0;
+    }
+    #edit-hist-close {
+      background: none; border: none; color: rgba(247,241,232,0.35); cursor: pointer;
+      font-size: 16px; padding: 0; line-height: 1;
+    }
+    #edit-hist-close:hover { color: rgba(247,241,232,0.85); }
+    #edit-hist-list { flex: 1; overflow-y: auto; padding: 6px 0; }
+    #edit-hist-list::-webkit-scrollbar { width: 4px; }
+    #edit-hist-list::-webkit-scrollbar-thumb { background: rgba(184,146,42,0.18); border-radius: 2px; }
+    .edit-hist-item { padding: 9px 14px; border-bottom: 1px solid rgba(184,146,42,0.06); }
+    .edit-hist-item:last-child { border-bottom: none; }
+    .edit-hist-meta { display: flex; justify-content: space-between; align-items: center; margin-bottom: 3px; }
+    .edit-hist-loc { font-size: 10px; font-weight: 700; color: rgba(184,146,42,0.75); }
+    .edit-hist-ts { font-size: 9px; color: rgba(247,241,232,0.28); }
+    .edit-hist-field { font-size: 9px; text-transform: uppercase; letter-spacing: 0.05em;
+      color: rgba(247,241,232,0.38); margin-bottom: 3px; }
+    .edit-hist-val { font-size: 12px; color: rgba(247,241,232,0.75); margin-bottom: 6px;
+      white-space: pre-wrap; word-break: break-word; max-height: 72px; overflow: hidden;
+      display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; }
+    .edit-hist-revert {
+      font-size: 10px; padding: 3px 9px; border-radius: 4px;
+      border: 1px solid rgba(220,80,80,0.3); background: rgba(140,30,30,0.1);
+      color: rgba(210,90,90,0.8); cursor: pointer;
+      transition: background 0.15s, border-color 0.15s, color 0.15s;
+    }
+    .edit-hist-revert:hover { background: rgba(160,40,40,0.28); border-color: rgba(220,60,60,0.6); color: rgba(255,120,120,1); }
+    .edit-hist-empty { padding: 28px 16px; text-align: center; color: rgba(247,241,232,0.22); font-size: 12px; }
 
     /* Strong's single-entry field display */
     .edit-str-row {
@@ -2487,7 +2532,15 @@
     </div>
     <button id="edit-save-btn" title="Düzeltmeleri dışa aktar">💾 Kaydet (<span id="edit-save-count">0</span>)</button>
     <button id="edit-cancel-btn" title="Tüm düzeltmeleri iptal et">✕ İptal</button>
+    <button id="edit-hist-btn" title="Son değişiklikleri göster">📋 Geçmiş</button>
     <button id="edit-close" title="Kapat">✕</button>
+  </div>
+  <div id="edit-hist-panel">
+    <div id="edit-hist-hdr">
+      <span>Son Değişiklikler</span>
+      <button id="edit-hist-close">✕</button>
+    </div>
+    <div id="edit-hist-list"></div>
   </div>
   <div class="edit-body">
     <div class="edit-col">
@@ -4408,6 +4461,79 @@
       _loadChapter();
     }
     cancelBtn.addEventListener('click', _cancelEdits);
+
+    // ── History ────────────────────────────────────────────────────
+    const _HIST_KEY = 'kkf_ed_history';
+    const _HIST_MAX = 200;
+    const histPanel = document.getElementById('edit-hist-panel');
+    const histList  = document.getElementById('edit-hist-list');
+    const histBtn   = document.getElementById('edit-hist-btn');
+    const histClose = document.getElementById('edit-hist-close');
+
+    function _pushHistory(tid, book, ch, field, label, val, loc) {
+      if (!val) return;
+      try {
+        const hist = JSON.parse(localStorage.getItem(_HIST_KEY) || '[]');
+        hist.unshift({ ts: Date.now(), tid, book, ch, field, label, val, loc });
+        if (hist.length > _HIST_MAX) hist.length = _HIST_MAX;
+        localStorage.setItem(_HIST_KEY, JSON.stringify(hist));
+      } catch {}
+    }
+
+    function _revertHistory(idx) {
+      try {
+        const hist = JSON.parse(localStorage.getItem(_HIST_KEY) || '[]');
+        if (idx < 0 || idx >= hist.length) return;
+        const item = hist[idx];
+        const curEdits = _loadEd(item.tid, item.book, item.ch);
+        delete curEdits[item.field];
+        _saveEd(item.tid, item.book, item.ch, curEdits);
+        const filtered = hist.filter(h => !(h.tid === item.tid && h.book === item.book && h.ch === item.ch && h.field === item.field));
+        localStorage.setItem(_HIST_KEY, JSON.stringify(filtered));
+        _updateSaveBtn();
+        const curCh = _isStr(item.tid) ? edStrId : edChapter;
+        if (item.tid === edTgtTid && item.ch === curCh && item.book === edBook) {
+          edEdits = _loadEd(edTgtTid, edBook, curCh);
+          _loadChapter();
+        }
+        _renderHistory();
+      } catch {}
+    }
+
+    function _renderHistory() {
+      let hist = [];
+      try { hist = JSON.parse(localStorage.getItem(_HIST_KEY) || '[]'); } catch {}
+      if (!hist.length) {
+        histList.innerHTML = '<div class="edit-hist-empty">Henüz değişiklik yok.</div>';
+        return;
+      }
+      histList.innerHTML = '';
+      hist.forEach((item, idx) => {
+        const el = document.createElement('div');
+        el.className = 'edit-hist-item';
+        const d = new Date(item.ts);
+        const ts = d.toLocaleDateString('tr-TR', { day: '2-digit', month: '2-digit' })
+                 + ' ' + d.toLocaleTimeString('tr-TR', { hour: '2-digit', minute: '2-digit' });
+        el.innerHTML =
+          `<div class="edit-hist-meta"><span class="edit-hist-loc">${item.loc} · ${_srcName(item.tid)}</span><span class="edit-hist-ts">${ts}</span></div>` +
+          `<div class="edit-hist-field">${item.label}</div>` +
+          `<div class="edit-hist-val">${item.val || '(boş)'}</div>`;
+        const btn = document.createElement('button');
+        btn.className = 'edit-hist-revert';
+        btn.textContent = 'Geri Al';
+        btn.addEventListener('click', () => _revertHistory(idx));
+        el.appendChild(btn);
+        histList.appendChild(el);
+      });
+    }
+
+    histBtn.addEventListener('click', () => {
+      const opening = !histPanel.classList.contains('open');
+      histPanel.classList.toggle('open', opening);
+      if (opening) _renderHistory();
+    });
+    histClose.addEventListener('click', () => histPanel.classList.remove('open'));
+
     function _exportEdits() {
       const result = { timestamp: new Date().toISOString(), edits: [] };
       for (let i = 0; i < localStorage.length; i++) {
@@ -4644,18 +4770,25 @@
       const fmt = _isSpec(id) ? (SPEC[id]?.fmt ?? '') : 'trans';
       const ch = _isStr(id) ? edStrId : edChapter;
 
-      function _save(k, ta, orig) {
-        if (ta.value !== orig) { edits[k] = ta.value; ta.classList.add('ed-modified'); }
+      function _save(k, label, ta, orig) {
+        const newVal = ta.value;
+        if (newVal !== orig) { edits[k] = newVal; ta.classList.add('ed-modified'); }
         else { delete edits[k]; ta.classList.remove('ed-modified'); }
         _saveEd(id, edBook, ch, edits);
         _updateSaveBtn();
+        if (newVal !== orig) {
+          const loc = _isStr(id)
+            ? `${SPEC[id]?.prefix ?? ''}${ch}`
+            : `${BOOK_CODES[edBook] ?? edBook} ${edChapter}`;
+          _pushHistory(id, edBook, ch, k, label, newVal, loc);
+        }
       }
 
       if (fmt === 'trans') {
         data.content.forEach(item => {
           if (item.section) return;
           const k = String(item.v);
-          container.appendChild(_mkTa(item.v, item.text, edits[k], item.v, (ta, o) => _save(k, ta, o)));
+          container.appendChild(_mkTa(item.v, item.text, edits[k], item.v, (ta, o) => _save(k, `Ayet ${k}`, ta, o)));
         });
         return;
       }
@@ -4664,7 +4797,7 @@
         if (!items.length) { container.innerHTML = '<div class="edit-msg">Bu bölüm için not yok.</div>'; return; }
         items.forEach((n, i) => {
           const k = `n${i}`;
-          container.appendChild(_mkTa(n.ref, n.text, edits[k], undefined, (ta, o) => _save(k, ta, o)));
+          container.appendChild(_mkTa(n.ref, n.text, edits[k], undefined, (ta, o) => _save(k, `Not ${n.ref || i+1}`, ta, o)));
         });
         return;
       }
@@ -4673,14 +4806,14 @@
         if (!items.length) { container.innerHTML = '<div class="edit-msg">Bu bölüm için not yok.</div>'; return; }
         items.forEach((n, i) => {
           const k = `n${i}`;
-          container.appendChild(_mkTa(n.ref, n.text || n.title || '', edits[k], undefined, (ta, o) => _save(k, ta, o)));
+          container.appendChild(_mkTa(n.ref, n.text || n.title || '', edits[k], undefined, (ta, o) => _save(k, `Not ${n.ref || i+1}`, ta, o)));
         });
         return;
       }
       if (fmt === 'nxref') {
         const entries = Object.entries(data || {}).sort((a, b) => +a[0] - +b[0]);
         if (!entries.length) { container.innerHTML = '<div class="edit-msg">Bu bölüm için not yok.</div>'; return; }
-        entries.forEach(([v, txt]) => container.appendChild(_mkTa(v, txt, edits[v], undefined, (ta, o) => _save(v, ta, o))));
+        entries.forEach(([v, txt]) => container.appendChild(_mkTa(v, txt, edits[v], undefined, (ta, o) => _save(v, `Dipnot Ayet ${v}`, ta, o))));
         return;
       }
       if (fmt === 'ninline') {
@@ -4690,7 +4823,7 @@
           (Array.isArray(notes) ? notes : [{note: notes}]).forEach((n, i) => {
             const k = `${v}_${i}`;
             const orig = n.note || (typeof n === 'string' ? n : '');
-            container.appendChild(_mkTa(i === 0 ? v : '', orig, edits[k], undefined, (ta, o) => _save(k, ta, o)));
+            container.appendChild(_mkTa(i === 0 ? v : '', orig, edits[k], undefined, (ta, o) => _save(k, `Dipnot Ayet ${v}`, ta, o)));
           });
         });
         return;
@@ -4718,7 +4851,7 @@
           ta.className = 'edit-ta' + (saved !== undefined ? ' ed-modified' : '');
           ta.value = saved !== undefined ? saved : orig;
           ta.rows = Math.max(2, Math.ceil((ta.value.length || 60) / 55));
-          ta.addEventListener('input', () => _save(k, ta, orig));
+          ta.addEventListener('input', () => _save(k, f.label, ta, orig));
           row.appendChild(lbl); row.appendChild(ta);
           container.appendChild(row);
         });
