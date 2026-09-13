@@ -2074,6 +2074,183 @@
     .edit-ta.ed-modified { border-color: rgba(100,200,100,0.4); background: rgba(100,200,100,0.03); }
     .edit-msg { padding: 24px 14px; color: rgba(247,241,232,0.35); font-size: 12px; font-style: italic; text-align: center; }
 
+    /* Nav loc as button */
+    #edit-nav { position: relative; }
+    #edit-nav-loc {
+      font-family: 'EB Garamond', Georgia, serif;
+      font-size: 13px;
+      color: rgba(247,241,232,0.85);
+      min-width: 130px;
+      text-align: center;
+      background: rgba(255,255,255,0.05);
+      border: 1px solid rgba(184,146,42,0.22);
+      border-radius: 3px;
+      padding: 3px 10px;
+      cursor: pointer;
+      transition: background 0.12s, border-color 0.12s;
+      user-select: none;
+    }
+    #edit-nav-loc:hover { background: rgba(184,146,42,0.1); border-color: rgba(184,146,42,0.38); }
+    #edit-nav-loc.picker-open { background: rgba(184,146,42,0.15); border-color: rgba(184,146,42,0.5); }
+
+    /* Floating nav picker panel */
+    #edit-nav-picker {
+      display: none;
+      position: absolute;
+      top: calc(100% + 6px);
+      left: 50%;
+      transform: translateX(-50%);
+      background: #110c06;
+      border: 1px solid rgba(184,146,42,0.3);
+      border-radius: 6px;
+      padding: 12px 14px;
+      z-index: 10000;
+      width: min(680px, 90vw);
+      max-height: 60vh;
+      overflow-y: auto;
+      box-shadow: 0 16px 64px rgba(0,0,0,0.75);
+      flex-direction: column;
+      gap: 6px;
+    }
+    #edit-nav-picker.open { display: flex; }
+    #edit-nav-picker::-webkit-scrollbar { width: 4px; }
+    #edit-nav-picker::-webkit-scrollbar-thumb { background: rgba(184,146,42,0.2); border-radius: 2px; }
+
+    .edit-pk-back {
+      font-family: 'Jost', sans-serif;
+      font-size: 9px;
+      font-weight: 700;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: rgba(184,146,42,0.55);
+      background: none;
+      border: none;
+      cursor: pointer;
+      padding: 0 0 6px 0;
+      text-align: left;
+      border-bottom: 1px solid rgba(184,146,42,0.12);
+      margin-bottom: 4px;
+    }
+    .edit-pk-back:hover { color: rgba(184,146,42,0.9); }
+    .edit-pk-grp-lbl {
+      font-family: 'Jost', sans-serif;
+      font-size: 8px;
+      font-weight: 700;
+      letter-spacing: 0.15em;
+      text-transform: uppercase;
+      color: rgba(184,146,42,0.38);
+      margin: 4px 0 5px 0;
+    }
+    .edit-pk-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 4px;
+      margin-bottom: 8px;
+    }
+    .edit-pk-btn {
+      font-family: 'Jost', sans-serif;
+      font-size: 10px;
+      background: rgba(255,255,255,0.05);
+      border: 1px solid rgba(184,146,42,0.14);
+      color: rgba(247,241,232,0.72);
+      padding: 4px 9px;
+      border-radius: 3px;
+      cursor: pointer;
+      transition: background 0.1s, border-color 0.1s, color 0.1s;
+      white-space: nowrap;
+      line-height: 1.4;
+    }
+    .edit-pk-btn:hover { background: rgba(184,146,42,0.14); border-color: rgba(184,146,42,0.42); color: rgba(247,241,232,1); }
+    .edit-pk-btn.current { background: rgba(184,146,42,0.22); border-color: rgba(184,146,42,0.6); color: #e8c96a; }
+    .edit-pk-entry { max-width: 100%; overflow: hidden; text-overflow: ellipsis; }
+
+    /* Save button */
+    #edit-save-btn {
+      font-family: 'Jost', sans-serif;
+      font-size: 9.5px;
+      font-weight: 700;
+      letter-spacing: 0.06em;
+      background: rgba(60,140,60,0.15);
+      border: 1px solid rgba(80,180,80,0.28);
+      color: rgba(100,210,100,0.8);
+      padding: 4px 11px;
+      border-radius: 3px;
+      cursor: pointer;
+      display: none;
+      align-items: center;
+      gap: 4px;
+      transition: background 0.12s, border-color 0.12s, color 0.12s;
+      white-space: nowrap;
+    }
+    #edit-save-btn.has-edits { display: flex; }
+    #edit-save-btn:hover { background: rgba(60,140,60,0.28); border-color: rgba(80,180,80,0.55); color: rgba(120,240,120,1); }
+    #edit-cancel-btn {
+      font-family: 'Jost', sans-serif;
+      font-size: 9.5px;
+      font-weight: 700;
+      letter-spacing: 0.06em;
+      background: rgba(160,40,40,0.13);
+      border: 1px solid rgba(200,60,60,0.28);
+      color: rgba(220,100,100,0.8);
+      padding: 4px 11px;
+      border-radius: 3px;
+      cursor: pointer;
+      display: none;
+      align-items: center;
+      transition: background 0.12s, border-color 0.12s, color 0.12s;
+      white-space: nowrap;
+    }
+    #edit-cancel-btn.has-edits { display: flex; }
+    #edit-cancel-btn:hover { background: rgba(160,40,40,0.28); border-color: rgba(220,60,60,0.6); color: rgba(255,120,120,1); }
+
+    /* Strong's single-entry field display */
+    .edit-str-row {
+      display: flex;
+      padding: 7px 14px;
+      border-bottom: 1px solid rgba(184,146,42,0.06);
+      gap: 10px;
+      align-items: flex-start;
+    }
+    .edit-str-row:last-child { border-bottom: none; }
+    .edit-str-lbl {
+      font-family: 'Jost', sans-serif;
+      font-size: 9px;
+      font-weight: 700;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: rgba(184,146,42,0.5);
+      min-width: 90px;
+      flex-shrink: 0;
+      padding-top: 2px;
+    }
+    .edit-str-val {
+      flex: 1;
+      font-family: 'EB Garamond', Georgia, serif;
+      font-size: 14px;
+      color: rgba(247,241,232,0.82);
+      line-height: 1.6;
+    }
+    .edit-str-id {
+      font-family: 'Jost', sans-serif;
+      font-size: 22px;
+      font-weight: 700;
+      color: rgba(184,146,42,0.9);
+      letter-spacing: -0.01em;
+      padding: 10px 14px 6px;
+    }
+    .edit-str-word {
+      font-size: 28px;
+      color: rgba(247,241,232,0.95);
+      letter-spacing: -0.01em;
+    }
+
+    /* Flash on scroll-to-verse */
+    .ed-flash { animation: edflash 1.4s ease-out; }
+    @keyframes edflash {
+      0%  { background: rgba(184,146,42,0.25); }
+      100%{ background: transparent; }
+    }
+
     </style>
   <script defer src="/_vercel/insights/script.js"></script>
   <script defer src="/_vercel/speed-insights/script.js"></script>
@@ -2304,9 +2481,12 @@
     <select class="edit-hdr-sel" id="edit-tgt-sel"></select>
     <div id="edit-nav">
       <button class="edit-nav-btn" id="edit-prev">◀</button>
-      <span id="edit-nav-loc"></span>
+      <button id="edit-nav-loc" title="Kitap / bölüm / ayet seç"></button>
       <button class="edit-nav-btn" id="edit-next">▶</button>
+      <div id="edit-nav-picker"></div>
     </div>
+    <button id="edit-save-btn" title="Düzeltmeleri dışa aktar">💾 Kaydet (<span id="edit-save-count">0</span>)</button>
+    <button id="edit-cancel-btn" title="Tüm düzeltmeleri iptal et">✕ İptal</button>
     <button id="edit-close" title="Kapat">✕</button>
   </div>
   <div class="edit-body">
@@ -4073,6 +4253,10 @@
     const refSel      = document.getElementById('edit-ref-sel');
     const tgtSel      = document.getElementById('edit-tgt-sel');
     const navLoc      = document.getElementById('edit-nav-loc');
+    const picker      = document.getElementById('edit-nav-picker');
+    const saveBtn     = document.getElementById('edit-save-btn');
+    const saveCount   = document.getElementById('edit-save-count');
+    const cancelBtn   = document.getElementById('edit-cancel-btn');
     const prevBtn     = document.getElementById('edit-prev');
     const nextBtn     = document.getElementById('edit-next');
     const closeBtn    = document.getElementById('edit-close');
@@ -4089,10 +4273,10 @@
       '__COMM_TR':     { fmt: 'akkit',   folder: 'commentary' },
       '__COMM_ESV_TR': { fmt: 'esv',     folder: 'commentary-tr-esv' },
       '__COMM_ESV_EN': { fmt: 'esv',     folder: 'commentary-en' },
-      '__STR_GRK':     { fmt: 'str',     file: 'strongs/greek.json',  prefix: 'G' },
-      '__STR_GRK_TR':  { fmt: 'str_tr',  file: 'strongs/grk_tr.json', prefix: 'G' },
-      '__STR_HEB':     { fmt: 'str',     file: 'strongs/hebrew.json', prefix: 'H' },
-      '__STR_HEB_TR':  { fmt: 'str_tr',  file: 'strongs/heb_tr.json', prefix: 'H' },
+      '__STR_GRK':     { fmt: 'str',     file: 'strongs/greek.json',  prefix: 'G', total: 5624 },
+      '__STR_GRK_TR':  { fmt: 'str_tr',  file: 'strongs/grk_tr.json', prefix: 'G', total: 5624 },
+      '__STR_HEB':     { fmt: 'str',     file: 'strongs/hebrew.json', prefix: 'H', total: 8674 },
+      '__STR_HEB_TR':  { fmt: 'str_tr',  file: 'strongs/heb_tr.json', prefix: 'H', total: 8674 },
       '__NOTES_TCL02': { fmt: 'nxref',   trans: 'TCL02' },
       '__NOTES_TTT':   { fmt: 'ninline', trans: 'TTT' },
       '__NOTES_YTC':   { fmt: 'ninline', trans: 'YTC' },
@@ -4125,10 +4309,38 @@
 
     let edBook    = currentBook;
     let edChapter = currentChapter;
-    let edPage    = 1;
+    let edVerse   = null;
+    let edStrId   = 1;   // current Strong's entry number (e.g. 102 for G102)
     let edRefTid  = 'TCL02';
     let edTgtTid  = null;
     let edEdits   = {};
+
+    // Picker state: null | 'book' | 'chapter' | 'verse-loading' | 'verse' | 'str-range' | 'str-entry'
+    let pkState = null;
+    let pkBook  = null;
+    let pkRange = null;
+
+    // ── Position persistence ───────────────────────────────────────────
+    const _POS_KEY = 'kkf_ed_pos';
+    function _savePos() {
+      try {
+        localStorage.setItem(_POS_KEY, JSON.stringify({
+          b: edBook, ch: edChapter, sid: edStrId, ref: edRefTid, tgt: edTgtTid
+        }));
+      } catch {}
+    }
+    function _restorePos() {
+      try {
+        const p = JSON.parse(localStorage.getItem(_POS_KEY) || 'null');
+        if (!p) return false;
+        edBook    = p.b   || currentBook;
+        edChapter = p.ch  || currentChapter;
+        edStrId   = p.sid || 1;
+        edRefTid  = p.ref || 'TCL02';
+        edTgtTid  = p.tgt ?? null;
+        return true;
+      } catch { return false; }
+    }
 
     // ── localStorage ──────────────────────────────────────────────────
     function _edKey(tid, book, ch) {
@@ -4145,6 +4357,75 @@
       if (Object.keys(out).length) localStorage.setItem(_edKey(tid, book, ch), JSON.stringify(out));
       else localStorage.removeItem(_edKey(tid, book, ch));
     }
+
+    // Strong's field definitions
+    const STR_EN_FIELDS = [
+      { key: 'word',        label: 'Kelime' },
+      { key: 'translit',    label: 'Transliterasyon' },
+      { key: 'pronunc',     label: 'Telaffuz' },
+      { key: 'phonetic',    label: 'Fonetik' },
+      { key: 'pos',         label: 'Sözcük Türü' },
+      { key: 'origin',      label: 'Köken' },
+      { key: 'kjv',         label: 'KJV Kullanımı' },
+      { key: 'short_def',   label: 'Kısa Tanım' },
+      { key: 'nas_def',     label: 'NAS Tanımı' },
+      { key: 'long_def',    label: 'Uzun Tanım' },
+      { key: 'nasb',        label: 'NASB Kelimeleri' },
+      { key: 'strongs_def', label: 'Strong Konkordans' },
+    ];
+    const STR_TR_FIELDS = [
+      { key: 'pos',     label: 'Sözcük Türü' },
+      { key: 'origin',  label: 'Köken' },
+      { key: 'def',     label: 'Tanım' },
+      { key: 'nas_def', label: 'NAS Tanımı' },
+      { key: 'sc',      label: 'Strong Notları' },
+    ];
+
+    // ── Save button ────────────────────────────────────────────────
+    function _countEdits() {
+      let n = 0;
+      for (let i = 0; i < localStorage.length; i++) {
+        const k = localStorage.key(i);
+        if (k && k.startsWith('kkf_ed_')) {
+          try { n += Object.keys(JSON.parse(localStorage.getItem(k) || '{}')).length; } catch {}
+        }
+      }
+      return n;
+    }
+    function _updateSaveBtn() {
+      const n = _countEdits();
+      saveCount.textContent = n;
+      saveBtn.classList.toggle('has-edits', n > 0);
+      cancelBtn.classList.toggle('has-edits', n > 0);
+    }
+    function _cancelEdits() {
+      if (!confirm('Tüm kaydedilmemiş düzeltmeler silinecek. Emin misiniz?')) return;
+      for (let i = localStorage.length - 1; i >= 0; i--) {
+        const k = localStorage.key(i);
+        if (k && k.startsWith('kkf_ed_')) localStorage.removeItem(k);
+      }
+      edEdits = {};
+      _loadChapter();
+    }
+    cancelBtn.addEventListener('click', _cancelEdits);
+    function _exportEdits() {
+      const result = { timestamp: new Date().toISOString(), edits: [] };
+      for (let i = 0; i < localStorage.length; i++) {
+        const k = localStorage.key(i);
+        if (!k || !k.startsWith('kkf_ed_')) continue;
+        try {
+          const changes = JSON.parse(localStorage.getItem(k) || '{}');
+          if (Object.keys(changes).length) result.edits.push({ key: k, changes });
+        } catch {}
+      }
+      const blob = new Blob([JSON.stringify(result, null, 2)], { type: 'application/json' });
+      const a = document.createElement('a');
+      a.href = URL.createObjectURL(blob);
+      a.download = `kkf-duzeltmeler-${new Date().toISOString().slice(0,10)}.json`;
+      a.click();
+      URL.revokeObjectURL(a.href);
+    }
+    saveBtn.addEventListener('click', _exportEdits);
 
     // ── Populate categorised selects ─────────────────────────────────
     function _populateSels() {
@@ -4247,16 +4528,18 @@
           catch { _strCache[cfg.file] = []; }
         }
         const all = _strCache[cfg.file];
-        const pg = Math.max(1, ch) - 1;
-        return { entries: all.slice(pg * PAGE_SIZE, (pg + 1) * PAGE_SIZE), total: all.length, page: ch, prefix: cfg.prefix };
+        // ch = entry id (e.g. 102 for G102)
+        const entry = all.find(e => e.id === ch) ?? null;
+        return { entry, id: ch, prefix: cfg.prefix, fmt: cfg.fmt };
       }
       return null;
     }
 
     // ── DOM helpers ────────────────────────────────────────────────
-    function _mkRow(vLabel, bodyText) {
+    function _mkRow(vLabel, bodyText, dataV) {
       const row = document.createElement('div');
       row.className = 'edit-row';
+      if (dataV !== undefined) row.dataset.v = dataV;
       const vn = document.createElement('span');
       vn.className = 'edit-vn';
       vn.textContent = vLabel;
@@ -4267,9 +4550,10 @@
       return row;
     }
 
-    function _mkTa(vLabel, origVal, savedVal, onChange) {
+    function _mkTa(vLabel, origVal, savedVal, dataV, onChange) {
       const row = document.createElement('div');
       row.className = 'edit-row';
+      if (dataV !== undefined) row.dataset.v = dataV;
       const vn = document.createElement('span');
       vn.className = 'edit-vn';
       vn.textContent = vLabel;
@@ -4288,7 +4572,7 @@
       if (!data) { container.innerHTML = '<div class="edit-msg">Bu bölüm mevcut değil.</div>'; return; }
       const fmt = _isSpec(id) ? (SPEC[id]?.fmt ?? '') : 'trans';
       if (fmt === 'trans') {
-        data.content.forEach(item => { if (!item.section) container.appendChild(_mkRow(item.v, item.text)); });
+        data.content.forEach(item => { if (!item.section) container.appendChild(_mkRow(item.v, item.text, item.v)); });
         return;
       }
       if (fmt === 'akkit') {
@@ -4320,11 +4604,34 @@
         return;
       }
       if (fmt === 'str' || fmt === 'str_tr') {
-        data.entries.forEach(e => {
-          const body = fmt === 'str'
-            ? `${e.word || ''} — ${e.short_def || e.long_def || ''}`.trim()
-            : (e.def || '');
-          container.appendChild(_mkRow(`${data.prefix}${e.id}`, body));
+        if (!data.entry) { container.innerHTML = '<div class="edit-msg">Giriş bulunamadı.</div>'; return; }
+        const e = data.entry;
+        const fields = fmt === 'str' ? STR_EN_FIELDS : STR_TR_FIELDS;
+        // ID header
+        const hdr = document.createElement('div');
+        hdr.className = 'edit-str-id';
+        hdr.textContent = `${data.prefix}${e.id}`;
+        if (fmt === 'str' && e.word) {
+          const w = document.createElement('span');
+          w.className = 'edit-str-word';
+          w.textContent = ` ${e.word}`;
+          hdr.appendChild(w);
+        }
+        container.appendChild(hdr);
+        // Field rows
+        fields.forEach(f => {
+          const val = e[f.key];
+          if (!val) return;
+          const row = document.createElement('div');
+          row.className = 'edit-str-row';
+          const lbl = document.createElement('span');
+          lbl.className = 'edit-str-lbl';
+          lbl.textContent = f.label;
+          const vt = document.createElement('span');
+          vt.className = 'edit-str-val';
+          vt.textContent = val;
+          row.appendChild(lbl); row.appendChild(vt);
+          container.appendChild(row);
         });
         return;
       }
@@ -4335,19 +4642,20 @@
       container.innerHTML = '';
       if (!data) { container.innerHTML = '<div class="edit-msg">Bu bölüm mevcut değil.</div>'; return; }
       const fmt = _isSpec(id) ? (SPEC[id]?.fmt ?? '') : 'trans';
-      const ch = _isStr(id) ? edPage : edChapter;
+      const ch = _isStr(id) ? edStrId : edChapter;
 
       function _save(k, ta, orig) {
         if (ta.value !== orig) { edits[k] = ta.value; ta.classList.add('ed-modified'); }
         else { delete edits[k]; ta.classList.remove('ed-modified'); }
         _saveEd(id, edBook, ch, edits);
+        _updateSaveBtn();
       }
 
       if (fmt === 'trans') {
         data.content.forEach(item => {
           if (item.section) return;
           const k = String(item.v);
-          container.appendChild(_mkTa(item.v, item.text, edits[k], (ta, o) => _save(k, ta, o)));
+          container.appendChild(_mkTa(item.v, item.text, edits[k], item.v, (ta, o) => _save(k, ta, o)));
         });
         return;
       }
@@ -4356,7 +4664,7 @@
         if (!items.length) { container.innerHTML = '<div class="edit-msg">Bu bölüm için not yok.</div>'; return; }
         items.forEach((n, i) => {
           const k = `n${i}`;
-          container.appendChild(_mkTa(n.ref, n.text, edits[k], (ta, o) => _save(k, ta, o)));
+          container.appendChild(_mkTa(n.ref, n.text, edits[k], undefined, (ta, o) => _save(k, ta, o)));
         });
         return;
       }
@@ -4365,14 +4673,14 @@
         if (!items.length) { container.innerHTML = '<div class="edit-msg">Bu bölüm için not yok.</div>'; return; }
         items.forEach((n, i) => {
           const k = `n${i}`;
-          container.appendChild(_mkTa(n.ref, n.text || n.title || '', edits[k], (ta, o) => _save(k, ta, o)));
+          container.appendChild(_mkTa(n.ref, n.text || n.title || '', edits[k], undefined, (ta, o) => _save(k, ta, o)));
         });
         return;
       }
       if (fmt === 'nxref') {
         const entries = Object.entries(data || {}).sort((a, b) => +a[0] - +b[0]);
         if (!entries.length) { container.innerHTML = '<div class="edit-msg">Bu bölüm için not yok.</div>'; return; }
-        entries.forEach(([v, txt]) => container.appendChild(_mkTa(v, txt, edits[v], (ta, o) => _save(v, ta, o))));
+        entries.forEach(([v, txt]) => container.appendChild(_mkTa(v, txt, edits[v], undefined, (ta, o) => _save(v, ta, o))));
         return;
       }
       if (fmt === 'ninline') {
@@ -4382,16 +4690,37 @@
           (Array.isArray(notes) ? notes : [{note: notes}]).forEach((n, i) => {
             const k = `${v}_${i}`;
             const orig = n.note || (typeof n === 'string' ? n : '');
-            container.appendChild(_mkTa(i === 0 ? v : '', orig, edits[k], (ta, o) => _save(k, ta, o)));
+            container.appendChild(_mkTa(i === 0 ? v : '', orig, edits[k], undefined, (ta, o) => _save(k, ta, o)));
           });
         });
         return;
       }
       if (fmt === 'str' || fmt === 'str_tr') {
-        data.entries.forEach(e => {
-          const k = String(e.id);
-          const orig = fmt === 'str' ? (e.short_def || e.long_def || '') : (e.def || '');
-          container.appendChild(_mkTa(`${data.prefix}${e.id}`, orig, edits[k], (ta, o) => _save(k, ta, o)));
+        if (!data.entry) { container.innerHTML = '<div class="edit-msg">Giriş bulunamadı.</div>'; return; }
+        const e = data.entry;
+        // ID header
+        const hdr = document.createElement('div');
+        hdr.className = 'edit-str-id';
+        hdr.textContent = `${data.prefix}${e.id}`;
+        container.appendChild(hdr);
+        // Editable field rows — all fields for whichever language is selected
+        const editFields = fmt === 'str' ? STR_EN_FIELDS : STR_TR_FIELDS;
+        editFields.forEach(f => {
+          const orig = String(e[f.key] ?? '');
+          const k = f.key;
+          const saved = edits[k];
+          const row = document.createElement('div');
+          row.className = 'edit-str-row';
+          const lbl = document.createElement('span');
+          lbl.className = 'edit-str-lbl';
+          lbl.textContent = f.label;
+          const ta = document.createElement('textarea');
+          ta.className = 'edit-ta' + (saved !== undefined ? ' ed-modified' : '');
+          ta.value = saved !== undefined ? saved : orig;
+          ta.rows = Math.max(2, Math.ceil((ta.value.length || 60) / 55));
+          ta.addEventListener('input', () => _save(k, ta, orig));
+          row.appendChild(lbl); row.appendChild(ta);
+          container.appendChild(row);
         });
         return;
       }
@@ -4401,44 +4730,254 @@
     function _updateNav() {
       if (_isStr(edTgtTid) || _isStr(edRefTid)) {
         const cfg = SPEC[edTgtTid] || SPEC[edRefTid];
-        const total = _strCache[cfg?.file]?.length || PAGE_SIZE;
-        const from = (edPage - 1) * PAGE_SIZE + 1;
-        const to = Math.min(edPage * PAGE_SIZE, total);
-        navLoc.textContent = `${cfg?.prefix || ''}${from}–${cfg?.prefix || ''}${to}`;
+        navLoc.textContent = `${cfg?.prefix ?? ''}${edStrId}`;
       } else {
-        navLoc.textContent = `${edBook} ${edChapter}`;
+        navLoc.textContent = edVerse ? `${edBook} ${edChapter}:${edVerse}` : `${edBook} ${edChapter}`;
       }
     }
 
-    // ── Load ───────────────────────────────────────────────────────
+    // ── Load chapter ───────────────────────────────────────────────
     async function _loadChapter() {
+      _savePos();
       const loading = '<div class="edit-msg">Yükleniyor…</div>';
       colRefBody.innerHTML = loading;
       colSrcBody.innerHTML = loading;
       colEditBody.innerHTML = loading;
       refLbl.textContent = `Referans — ${_srcName(edRefTid)}`;
       srcLbl.textContent = `Orijinal — ${_srcName(edTgtTid)}`;
+      _updateNav();
 
-      const ch = _isStr(edTgtTid) || _isStr(edRefTid) ? edPage : edChapter;
+      const isStrMode = _isStr(edTgtTid) || _isStr(edRefTid);
+      const ch = isStrMode ? edStrId : edChapter;
       const [refData, tgtData] = await Promise.all([
         _fetchData(edRefTid, edBook, ch),
         _fetchData(edTgtTid, edBook, ch),
       ]);
       edEdits = _loadEd(edTgtTid, edBook, ch);
-      _updateNav();
       _renderRO(colRefBody, refData, edRefTid);
       _renderRO(colSrcBody, tgtData, edTgtTid);
       _renderEdit(colEditBody, tgtData, edTgtTid, edEdits);
+      _updateSaveBtn();
+      _updateNav();
+
+      if (edVerse) {
+        requestAnimationFrame(() => {
+          _scrollToVerse(colRefBody, edVerse);
+          _scrollToVerse(colSrcBody, edVerse);
+          _scrollToVerse(colEditBody, edVerse);
+        });
+      }
+    }
+
+    // ── Scroll to verse ────────────────────────────────────────────
+    function _scrollToVerse(container, v) {
+      const row = container.querySelector(`[data-v="${v}"]`);
+      if (!row) return;
+      container.scrollTop = row.offsetTop - 8;
+      row.classList.add('ed-flash');
+      setTimeout(() => row.classList.remove('ed-flash'), 1400);
+    }
+
+    // ── Picker ─────────────────────────────────────────────────────
+    function _openPicker(state) {
+      pkState = state;
+      navLoc.classList.add('picker-open');
+      _renderPickerContent();
+      picker.classList.add('open');
+    }
+    function _closePicker() {
+      pkState = null;
+      picker.classList.remove('open');
+      navLoc.classList.remove('picker-open');
+    }
+
+    function _mkPkBtn(label, onClick, isCurrent, extraClass) {
+      const btn = document.createElement('button');
+      btn.className = 'edit-pk-btn' + (isCurrent ? ' current' : '') + (extraClass ? ` ${extraClass}` : '');
+      btn.textContent = label;
+      btn.addEventListener('click', e => { e.stopPropagation(); onClick(); });
+      return btn;
+    }
+
+    function _renderPickerContent() {
+      picker.innerHTML = '';
+
+      if (pkState === 'chapter' || pkState === 'verse-loading' || pkState === 'verse') {
+        const bk = document.createElement('button');
+        bk.className = 'edit-pk-back';
+        bk.textContent = pkState === 'chapter' ? '← Kitap seç' : `← ${pkBook} — Bölüm seç`;
+        bk.addEventListener('click', e => { e.stopPropagation(); pkState === 'chapter' ? _openPicker('book') : _openPicker('chapter'); });
+        picker.appendChild(bk);
+      }
+      if (pkState === 'str-entry') {
+        const bk = document.createElement('button');
+        bk.className = 'edit-pk-back';
+        bk.textContent = '← Aralık seç';
+        bk.addEventListener('click', e => { e.stopPropagation(); _openPicker('str-range'); });
+        picker.appendChild(bk);
+      }
+
+      // Book picker
+      if (pkState === 'book') {
+        [{ label: 'Eski Ahit', books: OT_BOOKS }, { label: 'Yeni Ahit', books: NT_BOOKS }].forEach(grp => {
+          const lbl = document.createElement('div');
+          lbl.className = 'edit-pk-grp-lbl';
+          lbl.textContent = grp.label;
+          picker.appendChild(lbl);
+          const row = document.createElement('div');
+          row.className = 'edit-pk-row';
+          grp.books.forEach(book => {
+            row.appendChild(_mkPkBtn(book, () => { pkBook = book; _openPicker('chapter'); }, book === edBook));
+          });
+          picker.appendChild(row);
+        });
+        return;
+      }
+
+      // Chapter picker
+      if (pkState === 'chapter') {
+        const total = CHAPTER_COUNTS[pkBook] ?? 1;
+        const lbl = document.createElement('div');
+        lbl.className = 'edit-pk-grp-lbl';
+        lbl.textContent = pkBook;
+        picker.appendChild(lbl);
+        const row = document.createElement('div');
+        row.className = 'edit-pk-row';
+        for (let c = 1; c <= total; c++) {
+          const ch = c;
+          row.appendChild(_mkPkBtn(String(ch), () => {
+            pkState = 'verse-loading';
+            _renderPickerContent();
+            _goToChapterFromPicker(pkBook, ch);
+          }, ch === edChapter && pkBook === edBook));
+        }
+        picker.appendChild(row);
+        return;
+      }
+
+      // Verse picker (loading)
+      if (pkState === 'verse-loading') {
+        const msg = document.createElement('div');
+        msg.className = 'edit-msg';
+        msg.textContent = 'Yükleniyor…';
+        picker.appendChild(msg);
+        return;
+      }
+
+      // Verse picker
+      if (pkState === 'verse') {
+        const lbl = document.createElement('div');
+        lbl.className = 'edit-pk-grp-lbl';
+        lbl.textContent = `${edBook} ${edChapter} — Ayet seç`;
+        picker.appendChild(lbl);
+        const rows = colRefBody.querySelectorAll('.edit-row[data-v]');
+        if (!rows.length) {
+          const m = document.createElement('div');
+          m.className = 'edit-msg';
+          m.textContent = 'Bu bölümde ayet yok.';
+          picker.appendChild(m);
+          return;
+        }
+        const row = document.createElement('div');
+        row.className = 'edit-pk-row';
+        rows.forEach(r => {
+          const v = r.dataset.v;
+          row.appendChild(_mkPkBtn(String(v), () => {
+            edVerse = v;
+            _closePicker();
+            _updateNav();
+            _scrollToVerse(colRefBody, v);
+            _scrollToVerse(colSrcBody, v);
+            _scrollToVerse(colEditBody, v);
+          }, String(v) === String(edVerse)));
+        });
+        picker.appendChild(row);
+        return;
+      }
+
+      // Strongs range picker
+      if (pkState === 'str-range') {
+        const cfg = SPEC[edTgtTid] ?? SPEC[edRefTid];
+        const isHeb = cfg?.prefix === 'H';
+        const prefix = isHeb ? 'H' : 'G';
+        const maxId  = isHeb ? 8674 : 5624;
+        const lbl = document.createElement('div');
+        lbl.className = 'edit-pk-grp-lbl';
+        lbl.textContent = `${isHeb ? 'İbranice' : 'Yunanca'} Strong's Aralıkları`;
+        picker.appendChild(lbl);
+        const row = document.createElement('div');
+        row.className = 'edit-pk-row';
+        for (let f = 1; f <= maxId; f += 1000) {
+          const t = Math.min(f + 999, maxId);
+          const label = `${prefix}${String(f).padStart(4,'0')}–${prefix}${String(t).padStart(4,'0')}`;
+          const from = f, to = t;
+          const isCurRange = edStrId >= from && edStrId <= to;
+          row.appendChild(_mkPkBtn(label, () => { pkRange = { from, to, prefix }; _openPicker('str-entry'); }, isCurRange));
+        }
+        picker.appendChild(row);
+
+        // Preload Strongs if not cached
+        if (cfg && !_strCache[cfg.file]) {
+          fetch(`data/${cfg.file}`).then(r => r.ok ? r.json() : []).then(d => { _strCache[cfg.file] = d; }).catch(() => {});
+        }
+        return;
+      }
+
+      // Strongs entry picker
+      if (pkState === 'str-entry' && pkRange) {
+        const cfg = SPEC[edTgtTid] ?? SPEC[edRefTid];
+        if (!cfg) return;
+        const isTR = cfg.fmt === 'str_tr';
+        const lbl = document.createElement('div');
+        lbl.className = 'edit-pk-grp-lbl';
+        lbl.textContent = `${cfg.prefix}${pkRange.from}–${cfg.prefix}${pkRange.to}`;
+        picker.appendChild(lbl);
+
+        const all = _strCache[cfg.file];
+        if (!all) {
+          const msg = document.createElement('div');
+          msg.className = 'edit-msg';
+          msg.textContent = 'Yükleniyor…';
+          picker.appendChild(msg);
+          fetch(`data/${cfg.file}`).then(r => r.ok ? r.json() : []).then(d => { _strCache[cfg.file] = d; _renderPickerContent(); }).catch(() => {});
+          return;
+        }
+
+        const entries = all.filter(e => e.id >= pkRange.from && e.id <= pkRange.to);
+        const row = document.createElement('div');
+        row.className = 'edit-pk-row';
+        entries.forEach(e => {
+          const label = `${cfg.prefix}${e.id}${isTR ? '' : ` ${e.word || ''}`}`;
+          const btn = _mkPkBtn(label, () => {
+            edStrId = e.id;
+            _closePicker();
+            _loadChapter();
+          }, e.id === edStrId, 'edit-pk-entry');
+          btn.title = isTR ? (e.def || '').slice(0, 120) : (e.short_def || e.long_def || '').slice(0, 120);
+          row.appendChild(btn);
+        });
+        picker.appendChild(row);
+        return;
+      }
+    }
+
+    async function _goToChapterFromPicker(book, ch) {
+      edBook = book; edChapter = ch; edVerse = null;
+      await _loadChapter();
+      pkState = 'verse';
+      _renderPickerContent();
     }
 
     // ── Navigation ─────────────────────────────────────────────────
     const ALL_BOOKS = [...OT_BOOKS, ...NT_BOOKS];
 
     function _go(delta) {
+      _closePicker();
+      edVerse = null;
       if (_isStr(edTgtTid) || _isStr(edRefTid)) {
         const cfg = SPEC[edTgtTid] || SPEC[edRefTid];
-        const maxPg = Math.ceil((_strCache[cfg?.file]?.length || PAGE_SIZE) / PAGE_SIZE);
-        edPage = Math.max(1, Math.min(maxPg, edPage + delta));
+        const maxId = cfg?.total ?? 5624;
+        edStrId = Math.max(1, Math.min(maxId, edStrId + delta));
       } else {
         const total = CHAPTER_COUNTS[edBook] ?? 1;
         const ch = edChapter + delta;
@@ -4456,26 +4995,47 @@
     }
 
     function openEditor() {
-      edBook    = currentBook;
-      edChapter = currentChapter;
-      edPage    = 1;
+      if (!_restorePos()) {
+        edBook    = currentBook;
+        edChapter = currentChapter;
+        edVerse   = null;
+        edStrId   = 1;
+      }
       _populateSels();
       overlay.classList.add('open');
       _loadChapter();
     }
 
     pencilBtn.addEventListener('click', openEditor);
-    closeBtn.addEventListener('click', () => overlay.classList.remove('open'));
+    closeBtn.addEventListener('click', () => { _closePicker(); overlay.classList.remove('open'); });
     prevBtn.addEventListener('click', () => _go(-1));
     nextBtn.addEventListener('click', () => _go(1));
-    refSel.addEventListener('change', () => { edRefTid = refSel.value; _loadChapter(); });
+    refSel.addEventListener('change', () => { edRefTid = refSel.value; _closePicker(); _loadChapter(); });
     tgtSel.addEventListener('change', () => {
       edTgtTid = tgtSel.value; edEdits = {};
-      if (_isStr(edTgtTid)) edPage = 1;
-      _loadChapter();
+      if (_isStr(edTgtTid)) edStrId = 1;
+      _closePicker(); _loadChapter();
+    });
+
+    navLoc.addEventListener('click', e => {
+      e.stopPropagation();
+      if (pkState) { _closePicker(); return; }
+      if (_isStr(edTgtTid) || _isStr(edRefTid)) {
+        _openPicker('str-range');
+      } else {
+        pkBook = edBook;
+        _openPicker('book');
+      }
+    });
+
+    document.addEventListener('click', e => {
+      if (pkState && !picker.contains(e.target) && e.target !== navLoc) _closePicker();
     });
     document.addEventListener('keydown', e => {
-      if (e.key === 'Escape' && overlay.classList.contains('open')) overlay.classList.remove('open');
+      if (e.key === 'Escape') {
+        if (pkState) { _closePicker(); return; }
+        if (overlay.classList.contains('open')) { _closePicker(); overlay.classList.remove('open'); }
+      }
     });
 
     function _syncPencil(isAdmin) {
