@@ -2210,6 +2210,15 @@
       transition: background 0.15s, border-color 0.15s, color 0.15s;
     }
     #edit-hist-btn:hover { background: rgba(184,146,42,0.18); border-color: rgba(184,146,42,0.5); color: rgba(232,201,106,1); }
+    #edit-publish-btn {
+      display: flex; align-items: center; gap: 5px; padding: 5px 11px;
+      border-radius: 5px; border: 1px solid rgba(80,160,80,0.25);
+      background: rgba(40,100,40,0.08); color: rgba(100,200,100,0.65);
+      font-size: 11px; font-weight: 600; cursor: pointer; white-space: nowrap;
+      transition: background 0.15s, border-color 0.15s, color 0.15s;
+    }
+    #edit-publish-btn:hover:not(:disabled) { background: rgba(40,120,40,0.25); border-color: rgba(80,200,80,0.5); color: rgba(140,255,140,1); }
+    #edit-publish-btn:disabled { opacity: 0.5; cursor: default; }
     #edit-hist-panel {
       display: none; position: absolute; top: 0; right: 0; width: 360px; max-width: 90vw;
       height: 100%; background: #0d0905; border-left: 1px solid rgba(184,146,42,0.18);
@@ -2533,6 +2542,7 @@
     <button id="edit-save-btn" title="Düzeltmeleri dışa aktar">💾 Kaydet (<span id="edit-save-count">0</span>)</button>
     <button id="edit-cancel-btn" title="Tüm düzeltmeleri iptal et">✕ İptal</button>
     <button id="edit-hist-btn" title="Son değişiklikleri göster">📋 Geçmiş</button>
+    <button id="edit-publish-btn" title="Düzeltmeleri tüm kullanıcılara yayınla">📤 Yayınla</button>
     <button id="edit-close" title="Kapat">✕</button>
   </div>
   <div id="edit-hist-panel">
@@ -3074,7 +3084,7 @@
     return text;
   }
 
-  function renderChapter(container, data, chapterFallback, translationId, chapterErrata, chapterNotes, chapterExtraNotes) {
+  function renderChapter(container, data, chapterFallback, translationId, chapterErrata, chapterNotes, chapterExtraNotes, pubOverlay) {
     const chDiv = document.createElement('div');
     chDiv.className = 'chapter';
     const chNum = data.c ?? chapterFallback ?? currentChapter;
@@ -3095,7 +3105,8 @@
         const nextVerse = verses[verseIdx + 1];
         const rangeEnd = nextVerse ? nextVerse.v - 1 : null;
         const vnLabel = (rangeEnd && rangeEnd > item.v) ? `${item.v}-${rangeEnd}` : String(item.v);
-        const verseText = isKie ? parseKieGlosses(item.text) : item.text;
+        const _rawText = isKie ? parseKieGlosses(item.text) : item.text;
+        const verseText = (pubOverlay && pubOverlay[String(item.v)]) ? pubOverlay[String(item.v)] : _rawText;
         v.innerHTML = `<span class="vn" data-tid="${translationId}">${vnLabel}</span><span class="vt">${verseText}</span>`;
         const errataNote = chapterErrata?.[String(item.v)];
         if (errataNote) {
@@ -3218,7 +3229,9 @@
       const data = await res.json();
       // Cache for search
       chapterCache.set(`${translationId}|${bookCode}|${chapter}`, data.content ?? []);
-      renderChapter(container, data, chapter, translationId, chapterErrata, chapterNotes, chapterExtraNotes.length ? chapterExtraNotes : null);
+      const _peSafe = translationId.replace(/[^a-zA-Z0-9İı]/g, '_');
+      const pubOverlay = (window._pubEdits || {})['kkf_ed_' + _peSafe + '_' + bookCode + '_' + chapter] || {};
+      renderChapter(container, data, chapter, translationId, chapterErrata, chapterNotes, chapterExtraNotes.length ? chapterExtraNotes : null, pubOverlay);
     } catch {
       const entry = TRANS_NOTES[translationId];
       if (entry && !entry[0].has(bookCode)) {
@@ -4534,6 +4547,66 @@
     });
     histClose.addEventListener('click', () => histPanel.classList.remove('open'));
 
+    // ── Publish to GitHub ──────────────────────────────────────────
+    const _GH_REPO = 'batudc/turkishbiblecomparetest';
+    const _GH_FILE = 'data/edits_published.json';
+    const publishBtn = document.getElementById('edit-publish-btn');
+
+    async function _publishToGitHub() {
+      let token = sessionStorage.getItem('kkf_gh_token');
+      if (!token) {
+        token = prompt('GitHub Personal Access Token (repo yazma izni gerekli):');
+        if (!token) return;
+        token = token.trim();
+        sessionStorage.setItem('kkf_gh_token', token);
+      }
+      publishBtn.textContent = '⏳ Yayınlanıyor…';
+      publishBtn.disabled = true;
+      try {
+        // Collect all translation edits
+        const content = {};
+        for (let i = 0; i < localStorage.length; i++) {
+          const k = localStorage.key(i);
+          if (k && k.startsWith('kkf_ed_') && k !== 'kkf_ed_pos' && k !== 'kkf_ed_history') {
+            try { content[k] = JSON.parse(localStorage.getItem(k) || '{}'); } catch {}
+          }
+        }
+        // Get current SHA via GitHub API
+        const metaRes = await fetch(
+          `https://api.github.com/repos/${_GH_REPO}/contents/${_GH_FILE}`,
+          { headers: { Authorization: `Bearer ${token}`, Accept: 'application/vnd.github+json' } }
+        );
+        if (!metaRes.ok) { const e = await metaRes.json(); throw new Error(e.message || 'Dosya bilgisi alınamadı'); }
+        const { sha } = await metaRes.json();
+        // Commit
+        const jsonStr = JSON.stringify(content, null, 2);
+        const b64 = btoa(unescape(encodeURIComponent(jsonStr)));
+        const putRes = await fetch(
+          `https://api.github.com/repos/${_GH_REPO}/contents/${_GH_FILE}`,
+          {
+            method: 'PUT',
+            headers: { Authorization: `Bearer ${token}`, 'Content-Type': 'application/json', Accept: 'application/vnd.github+json' },
+            body: JSON.stringify({ message: `Düzeltmeler güncellendi — ${new Date().toLocaleDateString('tr-TR')}`, content: b64, sha, branch: 'main' })
+          }
+        );
+        if (!putRes.ok) { const e = await putRes.json(); throw new Error(e.message || 'Yayınlama başarısız'); }
+        // Update local overlay
+        window._pubEdits = content;
+        // Re-render main view
+        if (typeof loadAll === 'function') loadAll();
+        publishBtn.textContent = '✓ Yayınlandı';
+        setTimeout(() => { publishBtn.textContent = '📤 Yayınla'; publishBtn.disabled = false; }, 3000);
+      } catch (err) {
+        alert(`Yayınlama hatası: ${err.message}`);
+        if (err.message.toLowerCase().includes('bad credentials') || err.message.includes('401')) {
+          sessionStorage.removeItem('kkf_gh_token');
+        }
+        publishBtn.textContent = '📤 Yayınla';
+        publishBtn.disabled = false;
+      }
+    }
+    publishBtn.addEventListener('click', _publishToGitHub);
+
     function _exportEdits() {
       const result = { timestamp: new Date().toISOString(), edits: [] };
       for (let i = 0; i < localStorage.length; i++) {
@@ -5671,7 +5744,15 @@
   document.getElementById('btn-books').childNodes[0].textContent = currentBook + ' ';
   document.getElementById('btn-chapter').textContent = currentChapter + '. Bölüm';
   buildChapters(currentBook);
-  rebuildColumns();
+  // Load published edits overlay, then render columns
+  window._pubEdits = {};
+  (async () => {
+    try {
+      const _r = await fetch('data/edits_published.json', { cache: 'no-store' });
+      if (_r.ok) window._pubEdits = await _r.json();
+    } catch {}
+    rebuildColumns();
+  })();
 
   // ── Mobile: translation tab bar + swipe ──────────────────────────────
   const mobileTabBar = document.getElementById('mobile-col-tabs');
