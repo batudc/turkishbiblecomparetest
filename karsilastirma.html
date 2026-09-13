@@ -4082,131 +4082,375 @@
     const refLbl      = document.getElementById('edit-col-ref-lbl');
     const srcLbl      = document.getElementById('edit-col-src-lbl');
 
+    const PAGE_SIZE = 100;
+
+    // Special (non-translation) source catalog
+    const SPEC = {
+      '__COMM_TR':     { fmt: 'akkit',   folder: 'commentary' },
+      '__COMM_ESV_TR': { fmt: 'esv',     folder: 'commentary-tr-esv' },
+      '__COMM_ESV_EN': { fmt: 'esv',     folder: 'commentary-en' },
+      '__STR_GRK':     { fmt: 'str',     file: 'strongs/greek.json',  prefix: 'G' },
+      '__STR_GRK_TR':  { fmt: 'str_tr',  file: 'strongs/grk_tr.json', prefix: 'G' },
+      '__STR_HEB':     { fmt: 'str',     file: 'strongs/hebrew.json', prefix: 'H' },
+      '__STR_HEB_TR':  { fmt: 'str_tr',  file: 'strongs/heb_tr.json', prefix: 'H' },
+      '__NOTES_TCL02': { fmt: 'nxref',   trans: 'TCL02' },
+      '__NOTES_TTT':   { fmt: 'ninline', trans: 'TTT' },
+      '__NOTES_YTC':   { fmt: 'ninline', trans: 'YTC' },
+      '__NOTES_ESV':   { fmt: 'ninline', trans: 'ESV' },
+      '__NOTES_NET':   { fmt: 'ninline', trans: 'NET' },
+      '__NOTES_NIV':   { fmt: 'ninline', trans: 'NIV' },
+      '__NOTES_NLT':   { fmt: 'ninline', trans: 'NLT' },
+    };
+    const SPEC_NAMES = {
+      '__COMM_TR':     'AKKİT',
+      '__COMM_ESV_TR': 'ESV Study Bible (TR)',
+      '__COMM_ESV_EN': 'ESV Study Bible (EN)',
+      '__STR_GRK':     "Yunanca Strong's",
+      '__STR_GRK_TR':  "Yunanca Strong's (TR)",
+      '__STR_HEB':     "İbranice Strong's",
+      '__STR_HEB_TR':  "İbranice Strong's (TR)",
+      '__NOTES_TCL02': 'TCL02 Dipnot',
+      '__NOTES_TTT':   'TTT Dipnot',
+      '__NOTES_YTC':   'YTC Dipnot',
+      '__NOTES_ESV':   'ESV Footnotes',
+      '__NOTES_NET':   'NET Translator Notes',
+      '__NOTES_NIV':   'NIV Footnotes',
+      '__NOTES_NLT':   'NLT Footnotes',
+    };
+    const _strCache = {};
+
+    function _isStr(id) { const f = SPEC[id]?.fmt; return f === 'str' || f === 'str_tr'; }
+    function _isSpec(id) { return id && id.startsWith('__'); }
+    function _srcName(id) { return _isSpec(id) ? (SPEC_NAMES[id] ?? id) : (ALL_TRANS[id]?.name ?? id); }
+
     let edBook    = currentBook;
     let edChapter = currentChapter;
+    let edPage    = 1;
     let edRefTid  = 'TCL02';
     let edTgtTid  = null;
     let edEdits   = {};
 
+    // ── localStorage ──────────────────────────────────────────────────
     function _edKey(tid, book, ch) {
-      return `kkf_ed_${tid}_${BOOK_CODES[book] ?? book}_${ch}`;
+      const safe = tid.replace(/[^a-zA-Z0-9İı]/g, '_');
+      const bk = _isStr(tid) ? (SPEC[tid].prefix === 'G' ? 'GRK' : 'HEB') : (BOOK_CODES[book] ?? book);
+      return `kkf_ed_${safe}_${bk}_${ch}`;
     }
-    function _loadEdits(tid, book, ch) {
+    function _loadEd(tid, book, ch) {
       try { return JSON.parse(localStorage.getItem(_edKey(tid, book, ch)) || '{}'); } catch { return {}; }
     }
-    function _saveEdits(tid, book, ch, edits) {
+    function _saveEd(tid, book, ch, edits) {
       const out = {};
-      Object.entries(edits).forEach(([k,v]) => { if (v !== undefined) out[k] = v; });
+      Object.entries(edits).forEach(([k, v]) => { if (v !== undefined) out[k] = v; });
       if (Object.keys(out).length) localStorage.setItem(_edKey(tid, book, ch), JSON.stringify(out));
       else localStorage.removeItem(_edKey(tid, book, ch));
     }
 
+    // ── Populate categorised selects ─────────────────────────────────
     function _populateSels() {
-      const tids = TRANS_ORDER.filter(id => ALL_TRANS[id]?.loaded);
-      const opts = tids.map(id => `<option value="${id}">${id} — ${ALL_TRANS[id].name}</option>`).join('');
-      refSel.innerHTML = opts;
-      tgtSel.innerHTML = opts;
-      refSel.value = tids.includes(edRefTid) ? edRefTid : (tids[0] || '');
-      tgtSel.value = tids.includes(edTgtTid) ? edTgtTid : (tids[1] || tids[0] || '');
+      const trTids = [
+        ...TRANSLATIONS.bibleFull, ...TRANSLATIONS.ntFull,
+        ...TRANSLATIONS.ntPartial, ...TRANSLATIONS.otPartial,
+      ].filter(t => t.loaded).sort((a, b) => a.year - b.year);
+
+      const groups = [
+        {
+          label: 'Türkçe / Osmanlıca',
+          items: trTids.map(t => ({ id: t.id, label: `${t.id} — ${t.name} (${t.year})` })),
+        },
+        {
+          label: 'İngilizce',
+          items: TRANSLATIONS.english.filter(t => t.loaded).map(t => ({ id: t.id, label: `${t.id} — ${t.name} (${t.year})` })),
+        },
+        {
+          label: 'Antik Diller',
+          items: TRANSLATIONS.ancient.filter(t => t.loaded).map(t => ({ id: t.id, label: `${t.id} — ${t.name}` })),
+        },
+        {
+          label: 'Diğer',
+          items: TRANSLATIONS.diger.filter(t => t.loaded).map(t => ({ id: t.id, label: `${t.id} — ${t.name} (${t.year})` })),
+        },
+        {
+          label: 'Açıklama Notları',
+          items: [
+            { id: '__COMM_TR',     label: 'AKKİT — Açıklamalı Kitab-ı Mukaddes' },
+            { id: '__COMM_ESV_TR', label: 'ESV Global Study Bible (TR)' },
+            { id: '__COMM_ESV_EN', label: 'ESV Global Study Bible (EN)' },
+          ],
+        },
+        {
+          label: 'Sözlük',
+          items: [
+            { id: '__STR_GRK',    label: "Antik Yunanca Strong's" },
+            { id: '__STR_GRK_TR', label: "Antik Yunanca Strong's (TR)" },
+            { id: '__STR_HEB',    label: "Antik İbranice Strong's" },
+            { id: '__STR_HEB_TR', label: "Antik İbranice Strong's (TR)" },
+          ],
+        },
+        {
+          label: 'Dipnotlar',
+          items: [
+            { id: '__NOTES_TCL02', label: 'TCL02 Dipnot' },
+            { id: '__NOTES_TTT',   label: 'TTT Dipnot' },
+            { id: '__NOTES_YTC',   label: 'YTC Dipnot' },
+            { id: '__NOTES_ESV',   label: 'ESV Footnotes' },
+            { id: '__NOTES_NET',   label: 'NET Translator Notes' },
+            { id: '__NOTES_NIV',   label: 'NIV Footnotes' },
+            { id: '__NOTES_NLT',   label: 'NLT Footnotes' },
+          ],
+        },
+      ];
+
+      const html = groups.map(g =>
+        `<optgroup label="${g.label}">${
+          g.items.map(i => `<option value="${i.id}">${i.label}</option>`).join('')
+        }</optgroup>`
+      ).join('');
+
+      refSel.innerHTML = html;
+      tgtSel.innerHTML = html;
+
+      if (refSel.querySelector(`option[value="${edRefTid}"]`)) refSel.value = edRefTid;
+      else refSel.value = 'TCL02';
+      if (tgtSel.querySelector(`option[value="${edTgtTid}"]`)) tgtSel.value = edTgtTid;
+      else tgtSel.selectedIndex = 1;
+
       edRefTid = refSel.value;
       edTgtTid = tgtSel.value;
     }
 
-    async function _fetch(tid, book, ch) {
+    // ── Data fetching ──────────────────────────────────────────────
+    async function _fetchData(id, book, ch) {
       const bc = BOOK_CODES[book] ?? 'JHN';
-      try {
-        const r = await fetch(`data/translations/${tid}/${bc}/${ch}.json`);
-        return r.ok ? r.json() : null;
-      } catch { return null; }
+      if (!_isSpec(id)) {
+        try { const r = await fetch(`data/translations/${id}/${bc}/${ch}.json`); return r.ok ? r.json() : null; }
+        catch { return null; }
+      }
+      const cfg = SPEC[id];
+      if (!cfg) return null;
+
+      if (cfg.fmt === 'akkit' || cfg.fmt === 'esv') {
+        try { const r = await fetch(`data/${cfg.folder}/${bc}/${ch}.json`); return r.ok ? r.json() : null; }
+        catch { return null; }
+      }
+      if (cfg.fmt === 'nxref' || cfg.fmt === 'ninline') {
+        try {
+          const r = await fetch(`data/notes/${cfg.trans}_${bc}.json`);
+          if (!r.ok) return null;
+          const all = await r.json();
+          return all[String(ch)] ?? null;
+        } catch { return null; }
+      }
+      if (cfg.fmt === 'str' || cfg.fmt === 'str_tr') {
+        if (!_strCache[cfg.file]) {
+          try { const r = await fetch(`data/${cfg.file}`); _strCache[cfg.file] = r.ok ? await r.json() : []; }
+          catch { _strCache[cfg.file] = []; }
+        }
+        const all = _strCache[cfg.file];
+        const pg = Math.max(1, ch) - 1;
+        return { entries: all.slice(pg * PAGE_SIZE, (pg + 1) * PAGE_SIZE), total: all.length, page: ch, prefix: cfg.prefix };
+      }
+      return null;
     }
 
-    function _renderRO(container, data, tid) {
-      container.innerHTML = '';
-      if (!data) { container.innerHTML = '<div class="edit-msg">Bu bölüm bu çeviride mevcut değil.</div>'; return; }
-      data.content.forEach(item => {
-        if (item.section) return;
-        const row = document.createElement('div');
-        row.className = 'edit-row';
-        row.dataset.v = item.v;
-        const vn = document.createElement('span');
-        vn.className = 'edit-vn';
-        vn.textContent = item.v;
-        const vt = document.createElement('span');
-        vt.className = 'edit-vt';
-        vt.textContent = item.text;
-        row.appendChild(vn);
-        row.appendChild(vt);
-        container.appendChild(row);
-      });
+    // ── DOM helpers ────────────────────────────────────────────────
+    function _mkRow(vLabel, bodyText) {
+      const row = document.createElement('div');
+      row.className = 'edit-row';
+      const vn = document.createElement('span');
+      vn.className = 'edit-vn';
+      vn.textContent = vLabel;
+      const vt = document.createElement('span');
+      vt.className = 'edit-vt';
+      vt.textContent = bodyText;
+      row.appendChild(vn); row.appendChild(vt);
+      return row;
     }
 
-    function _renderEdit(container, data) {
+    function _mkTa(vLabel, origVal, savedVal, onChange) {
+      const row = document.createElement('div');
+      row.className = 'edit-row';
+      const vn = document.createElement('span');
+      vn.className = 'edit-vn';
+      vn.textContent = vLabel;
+      const ta = document.createElement('textarea');
+      ta.className = 'edit-ta' + (savedVal !== undefined ? ' ed-modified' : '');
+      ta.value = savedVal !== undefined ? savedVal : origVal;
+      ta.rows = Math.max(2, Math.ceil((ta.value.length || 80) / 55));
+      ta.addEventListener('input', () => onChange(ta, origVal));
+      row.appendChild(vn); row.appendChild(ta);
+      return row;
+    }
+
+    // ── Render read-only column ────────────────────────────────────
+    function _renderRO(container, data, id) {
       container.innerHTML = '';
-      if (!data) { container.innerHTML = '<div class="edit-msg">Bu bölüm bu çeviride mevcut değil.</div>'; return; }
-      data.content.forEach(item => {
-        if (item.section) return;
-        const vk = String(item.v);
-        const saved = edEdits[vk];
-        const row = document.createElement('div');
-        row.className = 'edit-row';
-        row.dataset.v = vk;
-        const vn = document.createElement('span');
-        vn.className = 'edit-vn';
-        vn.textContent = item.v;
-        const ta = document.createElement('textarea');
-        ta.className = 'edit-ta' + (saved !== undefined ? ' ed-modified' : '');
-        ta.value = saved !== undefined ? saved : item.text;
-        ta.rows = Math.max(2, Math.ceil((ta.value.length || 80) / 55));
-        ta.addEventListener('input', () => {
-          if (ta.value !== item.text) {
-            edEdits[vk] = ta.value;
-            ta.classList.add('ed-modified');
-          } else {
-            delete edEdits[vk];
-            ta.classList.remove('ed-modified');
-          }
-          _saveEdits(edTgtTid, edBook, edChapter, edEdits);
+      if (!data) { container.innerHTML = '<div class="edit-msg">Bu bölüm mevcut değil.</div>'; return; }
+      const fmt = _isSpec(id) ? (SPEC[id]?.fmt ?? '') : 'trans';
+      if (fmt === 'trans') {
+        data.content.forEach(item => { if (!item.section) container.appendChild(_mkRow(item.v, item.text)); });
+        return;
+      }
+      if (fmt === 'akkit') {
+        const items = data.notes || [];
+        if (!items.length) { container.innerHTML = '<div class="edit-msg">Bu bölüm için not yok.</div>'; return; }
+        items.forEach(n => container.appendChild(_mkRow(n.ref, n.text)));
+        return;
+      }
+      if (fmt === 'esv') {
+        const items = [...(data.passages || []), ...(data.notes || [])];
+        if (!items.length) { container.innerHTML = '<div class="edit-msg">Bu bölüm için not yok.</div>'; return; }
+        items.forEach(n => container.appendChild(_mkRow(n.ref, n.text || n.title || '')));
+        return;
+      }
+      if (fmt === 'nxref') {
+        const entries = Object.entries(data || {}).sort((a, b) => +a[0] - +b[0]);
+        if (!entries.length) { container.innerHTML = '<div class="edit-msg">Bu bölüm için not yok.</div>'; return; }
+        entries.forEach(([v, txt]) => container.appendChild(_mkRow(v, txt)));
+        return;
+      }
+      if (fmt === 'ninline') {
+        const entries = Object.entries(data || {}).sort((a, b) => +a[0] - +b[0]);
+        if (!entries.length) { container.innerHTML = '<div class="edit-msg">Bu bölüm için not yok.</div>'; return; }
+        entries.forEach(([v, notes]) => {
+          (Array.isArray(notes) ? notes : [{note: notes}]).forEach((n, i) => {
+            container.appendChild(_mkRow(i === 0 ? v : '', n.note || (typeof n === 'string' ? n : '')));
+          });
         });
-        row.appendChild(vn);
-        row.appendChild(ta);
-        container.appendChild(row);
-      });
+        return;
+      }
+      if (fmt === 'str' || fmt === 'str_tr') {
+        data.entries.forEach(e => {
+          const body = fmt === 'str'
+            ? `${e.word || ''} — ${e.short_def || e.long_def || ''}`.trim()
+            : (e.def || '');
+          container.appendChild(_mkRow(`${data.prefix}${e.id}`, body));
+        });
+        return;
+      }
     }
 
+    // ── Render editable column ─────────────────────────────────────
+    function _renderEdit(container, data, id, edits) {
+      container.innerHTML = '';
+      if (!data) { container.innerHTML = '<div class="edit-msg">Bu bölüm mevcut değil.</div>'; return; }
+      const fmt = _isSpec(id) ? (SPEC[id]?.fmt ?? '') : 'trans';
+      const ch = _isStr(id) ? edPage : edChapter;
+
+      function _save(k, ta, orig) {
+        if (ta.value !== orig) { edits[k] = ta.value; ta.classList.add('ed-modified'); }
+        else { delete edits[k]; ta.classList.remove('ed-modified'); }
+        _saveEd(id, edBook, ch, edits);
+      }
+
+      if (fmt === 'trans') {
+        data.content.forEach(item => {
+          if (item.section) return;
+          const k = String(item.v);
+          container.appendChild(_mkTa(item.v, item.text, edits[k], (ta, o) => _save(k, ta, o)));
+        });
+        return;
+      }
+      if (fmt === 'akkit') {
+        const items = data.notes || [];
+        if (!items.length) { container.innerHTML = '<div class="edit-msg">Bu bölüm için not yok.</div>'; return; }
+        items.forEach((n, i) => {
+          const k = `n${i}`;
+          container.appendChild(_mkTa(n.ref, n.text, edits[k], (ta, o) => _save(k, ta, o)));
+        });
+        return;
+      }
+      if (fmt === 'esv') {
+        const items = [...(data.passages || []), ...(data.notes || [])];
+        if (!items.length) { container.innerHTML = '<div class="edit-msg">Bu bölüm için not yok.</div>'; return; }
+        items.forEach((n, i) => {
+          const k = `n${i}`;
+          container.appendChild(_mkTa(n.ref, n.text || n.title || '', edits[k], (ta, o) => _save(k, ta, o)));
+        });
+        return;
+      }
+      if (fmt === 'nxref') {
+        const entries = Object.entries(data || {}).sort((a, b) => +a[0] - +b[0]);
+        if (!entries.length) { container.innerHTML = '<div class="edit-msg">Bu bölüm için not yok.</div>'; return; }
+        entries.forEach(([v, txt]) => container.appendChild(_mkTa(v, txt, edits[v], (ta, o) => _save(v, ta, o))));
+        return;
+      }
+      if (fmt === 'ninline') {
+        const entries = Object.entries(data || {}).sort((a, b) => +a[0] - +b[0]);
+        if (!entries.length) { container.innerHTML = '<div class="edit-msg">Bu bölüm için not yok.</div>'; return; }
+        entries.forEach(([v, notes]) => {
+          (Array.isArray(notes) ? notes : [{note: notes}]).forEach((n, i) => {
+            const k = `${v}_${i}`;
+            const orig = n.note || (typeof n === 'string' ? n : '');
+            container.appendChild(_mkTa(i === 0 ? v : '', orig, edits[k], (ta, o) => _save(k, ta, o)));
+          });
+        });
+        return;
+      }
+      if (fmt === 'str' || fmt === 'str_tr') {
+        data.entries.forEach(e => {
+          const k = String(e.id);
+          const orig = fmt === 'str' ? (e.short_def || e.long_def || '') : (e.def || '');
+          container.appendChild(_mkTa(`${data.prefix}${e.id}`, orig, edits[k], (ta, o) => _save(k, ta, o)));
+        });
+        return;
+      }
+    }
+
+    // ── Navigation label ───────────────────────────────────────────
+    function _updateNav() {
+      if (_isStr(edTgtTid) || _isStr(edRefTid)) {
+        const cfg = SPEC[edTgtTid] || SPEC[edRefTid];
+        const total = _strCache[cfg?.file]?.length || PAGE_SIZE;
+        const from = (edPage - 1) * PAGE_SIZE + 1;
+        const to = Math.min(edPage * PAGE_SIZE, total);
+        navLoc.textContent = `${cfg?.prefix || ''}${from}–${cfg?.prefix || ''}${to}`;
+      } else {
+        navLoc.textContent = `${edBook} ${edChapter}`;
+      }
+    }
+
+    // ── Load ───────────────────────────────────────────────────────
     async function _loadChapter() {
-      navLoc.textContent = `${edBook} ${edChapter}`;
       const loading = '<div class="edit-msg">Yükleniyor…</div>';
       colRefBody.innerHTML = loading;
       colSrcBody.innerHTML = loading;
       colEditBody.innerHTML = loading;
+      refLbl.textContent = `Referans — ${_srcName(edRefTid)}`;
+      srcLbl.textContent = `Orijinal — ${_srcName(edTgtTid)}`;
 
-      refLbl.textContent = `Referans — ${ALL_TRANS[edRefTid]?.name ?? edRefTid}`;
-      srcLbl.textContent = `Orijinal — ${ALL_TRANS[edTgtTid]?.name ?? edTgtTid}`;
-
+      const ch = _isStr(edTgtTid) || _isStr(edRefTid) ? edPage : edChapter;
       const [refData, tgtData] = await Promise.all([
-        _fetch(edRefTid, edBook, edChapter),
-        _fetch(edTgtTid, edBook, edChapter),
+        _fetchData(edRefTid, edBook, ch),
+        _fetchData(edTgtTid, edBook, ch),
       ]);
-      edEdits = _loadEdits(edTgtTid, edBook, edChapter);
+      edEdits = _loadEd(edTgtTid, edBook, ch);
+      _updateNav();
       _renderRO(colRefBody, refData, edRefTid);
       _renderRO(colSrcBody, tgtData, edTgtTid);
-      _renderEdit(colEditBody, tgtData);
+      _renderEdit(colEditBody, tgtData, edTgtTid, edEdits);
     }
 
-    function _goChapter(delta) {
-      const total = CHAPTER_COUNTS[edBook] ?? 1;
-      const allBks = [...OT_BOOKS, ...NT_BOOKS];
-      let ch = edChapter + delta;
-      if (ch < 1) {
-        const i = allBks.indexOf(edBook);
-        if (i > 0) { edBook = allBks[i - 1]; edChapter = CHAPTER_COUNTS[edBook] ?? 1; }
-        else edChapter = 1;
-      } else if (ch > total) {
-        const i = allBks.indexOf(edBook);
-        if (i < allBks.length - 1) { edBook = allBks[i + 1]; edChapter = 1; }
-        else edChapter = total;
+    // ── Navigation ─────────────────────────────────────────────────
+    const ALL_BOOKS = [...OT_BOOKS, ...NT_BOOKS];
+
+    function _go(delta) {
+      if (_isStr(edTgtTid) || _isStr(edRefTid)) {
+        const cfg = SPEC[edTgtTid] || SPEC[edRefTid];
+        const maxPg = Math.ceil((_strCache[cfg?.file]?.length || PAGE_SIZE) / PAGE_SIZE);
+        edPage = Math.max(1, Math.min(maxPg, edPage + delta));
       } else {
-        edChapter = ch;
+        const total = CHAPTER_COUNTS[edBook] ?? 1;
+        const ch = edChapter + delta;
+        if (ch < 1) {
+          const i = ALL_BOOKS.indexOf(edBook);
+          if (i > 0) { edBook = ALL_BOOKS[i - 1]; edChapter = CHAPTER_COUNTS[edBook] ?? 1; }
+          else edChapter = 1;
+        } else if (ch > total) {
+          const i = ALL_BOOKS.indexOf(edBook);
+          if (i < ALL_BOOKS.length - 1) { edBook = ALL_BOOKS[i + 1]; edChapter = 1; }
+          else edChapter = total;
+        } else { edChapter = ch; }
       }
       _loadChapter();
     }
@@ -4214,6 +4458,7 @@
     function openEditor() {
       edBook    = currentBook;
       edChapter = currentChapter;
+      edPage    = 1;
       _populateSels();
       overlay.classList.add('open');
       _loadChapter();
@@ -4221,15 +4466,18 @@
 
     pencilBtn.addEventListener('click', openEditor);
     closeBtn.addEventListener('click', () => overlay.classList.remove('open'));
-    prevBtn.addEventListener('click', () => _goChapter(-1));
-    nextBtn.addEventListener('click', () => _goChapter(1));
+    prevBtn.addEventListener('click', () => _go(-1));
+    nextBtn.addEventListener('click', () => _go(1));
     refSel.addEventListener('change', () => { edRefTid = refSel.value; _loadChapter(); });
-    tgtSel.addEventListener('change', () => { edTgtTid = tgtSel.value; edEdits = {}; _loadChapter(); });
+    tgtSel.addEventListener('change', () => {
+      edTgtTid = tgtSel.value; edEdits = {};
+      if (_isStr(edTgtTid)) edPage = 1;
+      _loadChapter();
+    });
     document.addEventListener('keydown', e => {
       if (e.key === 'Escape' && overlay.classList.contains('open')) overlay.classList.remove('open');
     });
 
-    // Show/hide pencil when admin mode changes
     function _syncPencil(isAdmin) {
       pencilBtn.classList.toggle('admin-visible', isAdmin);
     }
