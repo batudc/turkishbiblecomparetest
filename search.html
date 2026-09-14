@@ -1231,7 +1231,7 @@ const initT      = params.get('t') || '';
 
 let activeTids   = initT
   ? initT.split(',').filter(id => ALL_TRANS[id] && ALL_TRANS[id].loaded)
-  : ['TCL02'];
+  : ['ESV'];
 let scopeFilter   = 'all';
 let matchMode     = 'partial';
 let selectedBooks = new Set();
@@ -1254,13 +1254,28 @@ const _WORKER_URL = 'https://kkf-search.batuudmrcn.workers.dev';
 
 // ── Translation panel ──────────────────────────────────────────────────────
 const TRANS_CATEGORIES = [
-  { id: 'english', label: 'English',
+  { id: 'ottoman', label: 'Ottoman Turkish',
     subcats: [
-      { label: 'Favourites',          ids: [] },  // User-populated
-      { label: 'Millennials (Modern)', ids: ['ESV','NIV','NLT','NET','CSB','LSB'] },
-      { label: 'Word by Word',        ids: ['KJV','NKJV','ESV','LSB'] },
-      { label: 'Meaning to Meaning',  ids: ['NIV','NLT','NET','CSB'] },
+      { label: 'Full Bible',    ids: ['ALI1665','JDK1827','TUR1852-57','SEL1866-77','KM1886','KMEYA'] },
+      { label: 'New Testament', ids: ['KIE1819'] },
+      { label: 'Partial',       ids: ['SEA1666','MEZ1669','NSH1739'] },
     ]
+  },
+  { id: 'modern', label: 'Modern Turkish',
+    subcats: [
+      { label: 'Full Bible',    ids: ['TCL02','AREMSI','KA2007','YTC','HADİ'] },
+      { label: 'New Testament', ids: ['YYY1987','CAN','KKDEU','BGT','COS','TTT'] },
+      { label: 'Partial',       ids: ['TSV','OTR2019'] },
+    ]
+  },
+  { id: 'ancient', label: 'Ancient Languages',
+    subcats: [ { label: null, ids: ['BHS','LXX','VULG','NA27'] } ]
+  },
+  { id: 'english', label: 'English',
+    subcats: [ { label: null, ids: ['KJV','NKJV','ESV','NIV','NLT','NET','CSB','LSB'] } ]
+  },
+  { id: 'diger', label: 'Other', hidden: true,
+    subcats: [ { label: null, ids: ['NWT2008','NWT2025','HAKK'] } ]
   },
 ];
 
@@ -1316,7 +1331,9 @@ function buildTransPanel() {
   const listEl = document.getElementById('trans-cat-list');
   if (!listEl) return;
   listEl.innerHTML = '';
+  const IS_ADMIN = new URLSearchParams(location.search).get('admin') === 'true' || sessionStorage.getItem('kkf_admin') === '1';
   TRANS_CATEGORIES.forEach(cat => {
+    if (cat.hidden && !IS_ADMIN) return;
     const loaded = _catIds(cat);
     if (!loaded.length) return;
     const selCount = loaded.filter(id => activeTids.includes(id)).length;
