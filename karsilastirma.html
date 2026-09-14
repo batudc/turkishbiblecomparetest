@@ -2164,26 +2164,6 @@
     .edit-pk-btn.current { background: rgba(184,146,42,0.22); border-color: rgba(184,146,42,0.6); color: #e8c96a; }
     .edit-pk-entry { max-width: 100%; overflow: hidden; text-overflow: ellipsis; }
 
-    /* Save button */
-    #edit-save-btn {
-      font-family: 'Jost', sans-serif;
-      font-size: 9.5px;
-      font-weight: 700;
-      letter-spacing: 0.06em;
-      background: rgba(60,140,60,0.15);
-      border: 1px solid rgba(80,180,80,0.28);
-      color: rgba(100,210,100,0.8);
-      padding: 4px 11px;
-      border-radius: 3px;
-      cursor: pointer;
-      display: none;
-      align-items: center;
-      gap: 4px;
-      transition: background 0.12s, border-color 0.12s, color 0.12s;
-      white-space: nowrap;
-    }
-    #edit-save-btn.has-edits { display: flex; }
-    #edit-save-btn:hover { background: rgba(60,140,60,0.28); border-color: rgba(80,180,80,0.55); color: rgba(120,240,120,1); }
     #edit-cancel-btn {
       font-family: 'Jost', sans-serif;
       font-size: 9.5px;
@@ -2243,11 +2223,12 @@
     .edit-hist-meta { display: flex; justify-content: space-between; align-items: center; margin-bottom: 3px; }
     .edit-hist-loc { font-size: 10px; font-weight: 700; color: rgba(184,146,42,0.75); }
     .edit-hist-ts { font-size: 9px; color: rgba(247,241,232,0.28); }
+    .edit-hist-field-row { margin-bottom: 5px; }
     .edit-hist-field { font-size: 9px; text-transform: uppercase; letter-spacing: 0.05em;
-      color: rgba(247,241,232,0.38); margin-bottom: 3px; }
-    .edit-hist-val { font-size: 12px; color: rgba(247,241,232,0.75); margin-bottom: 6px;
-      white-space: pre-wrap; word-break: break-word; max-height: 72px; overflow: hidden;
-      display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; }
+      color: rgba(247,241,232,0.38); margin-right: 6px; }
+    .edit-hist-val { font-size: 12px; color: rgba(247,241,232,0.75);
+      white-space: pre-wrap; word-break: break-word; max-height: 54px; overflow: hidden;
+      display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; }
     .edit-hist-revert {
       font-size: 10px; padding: 3px 9px; border-radius: 4px;
       border: 1px solid rgba(220,80,80,0.3); background: rgba(140,30,30,0.1);
@@ -2539,7 +2520,6 @@
       <button class="edit-nav-btn" id="edit-next">▶</button>
       <div id="edit-nav-picker"></div>
     </div>
-    <button id="edit-save-btn" title="Düzeltmeleri dışa aktar">💾 Kaydet (<span id="edit-save-count">0</span>)</button>
     <button id="edit-cancel-btn" title="Tüm düzeltmeleri iptal et">✕ İptal</button>
     <button id="edit-hist-btn" title="Son değişiklikleri göster">📋 Geçmiş</button>
     <button id="edit-publish-btn" title="Düzeltmeleri tüm kullanıcılara yayınla">📤 Yayınla</button>
@@ -4320,8 +4300,6 @@
     const tgtSel      = document.getElementById('edit-tgt-sel');
     const navLoc      = document.getElementById('edit-nav-loc');
     const picker      = document.getElementById('edit-nav-picker');
-    const saveBtn     = document.getElementById('edit-save-btn');
-    const saveCount   = document.getElementById('edit-save-count');
     const cancelBtn   = document.getElementById('edit-cancel-btn');
     const prevBtn     = document.getElementById('edit-prev');
     const nextBtn     = document.getElementById('edit-next');
@@ -4447,22 +4425,17 @@
       { key: 'sc',      label: 'Strong Notları' },
     ];
 
-    // ── Save button ────────────────────────────────────────────────
-    function _countEdits() {
-      let n = 0;
+    function _hasEdits() {
       for (let i = 0; i < localStorage.length; i++) {
         const k = localStorage.key(i);
-        if (k && k.startsWith('kkf_ed_')) {
-          try { n += Object.keys(JSON.parse(localStorage.getItem(k) || '{}')).length; } catch {}
+        if (k && k.startsWith('kkf_ed_') && k !== _POS_KEY && k !== _HIST_KEY) {
+          try { if (Object.keys(JSON.parse(localStorage.getItem(k) || '{}')).length) return true; } catch {}
         }
       }
-      return n;
+      return false;
     }
-    function _updateSaveBtn() {
-      const n = _countEdits();
-      saveCount.textContent = n;
-      saveBtn.classList.toggle('has-edits', n > 0);
-      cancelBtn.classList.toggle('has-edits', n > 0);
+    function _updateCancelBtn() {
+      cancelBtn.classList.toggle('has-edits', _hasEdits());
     }
     function _cancelEdits() {
       if (!confirm('Tüm kaydedilmemiş düzeltmeler silinecek. Emin misiniz?')) return;
@@ -4487,8 +4460,29 @@
       if (!val) return;
       try {
         const hist = JSON.parse(localStorage.getItem(_HIST_KEY) || '[]');
-        hist.unshift({ ts: Date.now(), tid, book, ch, field, label, val, loc });
+        const key = `${tid}||${book}||${ch}`;
+        const existing = hist.findIndex(h => h.key === key);
+        if (existing !== -1) {
+          const entry = hist.splice(existing, 1)[0];
+          entry.ts = Date.now();
+          entry.fields[field] = { label, val };
+          hist.unshift(entry);
+        } else {
+          hist.unshift({ key, ts: Date.now(), tid, book, ch, loc, fields: { [field]: { label, val } } });
+        }
         if (hist.length > _HIST_MAX) hist.length = _HIST_MAX;
+        localStorage.setItem(_HIST_KEY, JSON.stringify(hist));
+      } catch {}
+    }
+
+    function _removeFieldFromHistory(tid, book, ch, field) {
+      try {
+        const hist = JSON.parse(localStorage.getItem(_HIST_KEY) || '[]');
+        const key = `${tid}||${book}||${ch}`;
+        const idx = hist.findIndex(h => h.key === key);
+        if (idx === -1) return;
+        delete hist[idx].fields[field];
+        if (!Object.keys(hist[idx].fields).length) hist.splice(idx, 1);
         localStorage.setItem(_HIST_KEY, JSON.stringify(hist));
       } catch {}
     }
@@ -4499,11 +4493,11 @@
         if (idx < 0 || idx >= hist.length) return;
         const item = hist[idx];
         const curEdits = _loadEd(item.tid, item.book, item.ch);
-        delete curEdits[item.field];
+        Object.keys(item.fields).forEach(f => delete curEdits[f]);
         _saveEd(item.tid, item.book, item.ch, curEdits);
-        const filtered = hist.filter(h => !(h.tid === item.tid && h.book === item.book && h.ch === item.ch && h.field === item.field));
-        localStorage.setItem(_HIST_KEY, JSON.stringify(filtered));
-        _updateSaveBtn();
+        hist.splice(idx, 1);
+        localStorage.setItem(_HIST_KEY, JSON.stringify(hist));
+        _updateCancelBtn();
         const curCh = _isStr(item.tid) ? edStrId : edChapter;
         if (item.tid === edTgtTid && item.ch === curCh && item.book === edBook) {
           edEdits = _loadEd(edTgtTid, edBook, curCh);
@@ -4527,10 +4521,12 @@
         const d = new Date(item.ts);
         const ts = d.toLocaleDateString('tr-TR', { day: '2-digit', month: '2-digit' })
                  + ' ' + d.toLocaleTimeString('tr-TR', { hour: '2-digit', minute: '2-digit' });
+        const fieldLines = Object.entries(item.fields)
+          .map(([, f]) => `<div class="edit-hist-field-row"><span class="edit-hist-field">${f.label}</span><span class="edit-hist-val">${f.val || '(boş)'}</span></div>`)
+          .join('');
         el.innerHTML =
           `<div class="edit-hist-meta"><span class="edit-hist-loc">${item.loc} · ${_srcName(item.tid)}</span><span class="edit-hist-ts">${ts}</span></div>` +
-          `<div class="edit-hist-field">${item.label}</div>` +
-          `<div class="edit-hist-val">${item.val || '(boş)'}</div>`;
+          fieldLines;
         const btn = document.createElement('button');
         btn.className = 'edit-hist-revert';
         btn.textContent = 'Geri Al';
@@ -4606,25 +4602,6 @@
       }
     }
     publishBtn.addEventListener('click', _publishToGitHub);
-
-    function _exportEdits() {
-      const result = { timestamp: new Date().toISOString(), edits: [] };
-      for (let i = 0; i < localStorage.length; i++) {
-        const k = localStorage.key(i);
-        if (!k || !k.startsWith('kkf_ed_')) continue;
-        try {
-          const changes = JSON.parse(localStorage.getItem(k) || '{}');
-          if (Object.keys(changes).length) result.edits.push({ key: k, changes });
-        } catch {}
-      }
-      const blob = new Blob([JSON.stringify(result, null, 2)], { type: 'application/json' });
-      const a = document.createElement('a');
-      a.href = URL.createObjectURL(blob);
-      a.download = `kkf-duzeltmeler-${new Date().toISOString().slice(0,10)}.json`;
-      a.click();
-      URL.revokeObjectURL(a.href);
-    }
-    saveBtn.addEventListener('click', _exportEdits);
 
     // ── Populate categorised selects ─────────────────────────────────
     function _populateSels() {
@@ -4848,12 +4825,14 @@
         if (newVal !== orig) { edits[k] = newVal; ta.classList.add('ed-modified'); }
         else { delete edits[k]; ta.classList.remove('ed-modified'); }
         _saveEd(id, edBook, ch, edits);
-        _updateSaveBtn();
+        _updateCancelBtn();
+        const loc = _isStr(id)
+          ? `${SPEC[id]?.prefix ?? ''}${ch}`
+          : `${BOOK_CODES[edBook] ?? edBook} ${edChapter}`;
         if (newVal !== orig) {
-          const loc = _isStr(id)
-            ? `${SPEC[id]?.prefix ?? ''}${ch}`
-            : `${BOOK_CODES[edBook] ?? edBook} ${edChapter}`;
           _pushHistory(id, edBook, ch, k, label, newVal, loc);
+        } else {
+          _removeFieldFromHistory(id, edBook, ch, k);
         }
       }
 
@@ -4963,7 +4942,7 @@
       _renderRO(colRefBody, refData, edRefTid);
       _renderRO(colSrcBody, tgtData, edTgtTid);
       _renderEdit(colEditBody, tgtData, edTgtTid, edEdits);
-      _updateSaveBtn();
+      _updateCancelBtn();
       _updateNav();
 
       if (edVerse) {
