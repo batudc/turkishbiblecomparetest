@@ -1206,6 +1206,8 @@ let showLimits   = {};   // bookName → number shown
 // ── AI Search state ────────────────────────────────────────────────────────
 let aiMode = false;
 let _aiKey = localStorage.getItem('kki-ai-key') || '';
+// Turkish search uses the Cloudflare Worker — no user key required
+const _TR_WORKER_URL = 'WORKER_URL_HERE';
 
 const SHOW_STEP  = 40;
 
@@ -1446,18 +1448,8 @@ function updateAiKeyArea() {
   const area = document.getElementById('flt-ai-key-area');
   const keyInput = document.getElementById('flt-ai-key');
   const status = document.getElementById('flt-ai-key-status');
-  if (aiMode) {
-    area.classList.add('visible');
-    if (_aiKey) {
-      keyInput.value = '•'.repeat(16);
-      status.textContent = 'Kayıtlı ✓';
-    } else {
-      keyInput.value = '';
-      status.textContent = '';
-    }
-  } else {
-    area.classList.remove('visible');
-  }
+  // Turkish page uses the shared Worker key — never show the key input
+  area.classList.remove('visible');
   const inp = document.getElementById('search-input');
   inp.placeholder = aiMode ? 'kavramı anlat… (2-3 kelime)' : 'arama yapın…';
 }
@@ -1506,10 +1498,6 @@ function renderAiResults({ loading, error, verses, hint } = {}) {
 }
 
 async function runAiSearch(query) {
-  if (!_aiKey) {
-    renderAiResults({ hint: 'Yapay Zeka aramasını kullanmak için filtre panelinde API anahtarınızı girin.' });
-    return;
-  }
   if (query.trim().length < 2) {
     renderAiResults({ hint: 'Aramak istediğiniz konuyu 2-3 kelimeyle anlayın.' });
     return;
@@ -1541,51 +1529,16 @@ JHN 3:16
 ROM 8:28`;
 
   try {
-    // Try same-origin proxy first (avoids CORS / browser shield issues),
-    // fall back to direct Anthropic API call if proxy isn't available.
-    const proxyUrl  = '/api/claude';
-    const directUrl = 'https://api.anthropic.com/v1/messages';
-    const payload   = { model: 'claude-haiku-4-5-20251001', max_tokens: 400, messages: [{ role: 'user', content: prompt }] };
-
-    let resp;
-    try {
-      resp = await fetch(proxyUrl, {
-        method: 'POST',
-        headers: { 'content-type': 'application/json' },
-        body: JSON.stringify({ ...payload, __apiKey: _aiKey }),
-      });
-      // If proxy returned 404 (not deployed), use direct
-      if (resp.status === 404) throw new Error('proxy-not-found');
-    } catch (proxyErr) {
-      if (proxyErr.message !== 'proxy-not-found') {
-        // Try direct as last resort
-        resp = await fetch(directUrl, {
-          method: 'POST',
-          headers: {
-            'x-api-key': _aiKey,
-            'anthropic-version': '2023-06-01',
-            'anthropic-dangerous-allow-browser': 'true',
-            'content-type': 'application/json',
-          },
-          body: JSON.stringify(payload),
-        });
-      } else {
-        resp = await fetch(directUrl, {
-          method: 'POST',
-          headers: {
-            'x-api-key': _aiKey,
-            'anthropic-version': '2023-06-01',
-            'anthropic-dangerous-allow-browser': 'true',
-            'content-type': 'application/json',
-          },
-          body: JSON.stringify(payload),
-        });
-      }
-    }
+    const payload = { model: 'claude-haiku-4-5-20251001', max_tokens: 400, messages: [{ role: 'user', content: prompt }] };
+    const resp = await fetch(_TR_WORKER_URL, {
+      method: 'POST',
+      headers: { 'content-type': 'application/json' },
+      body: JSON.stringify({ ...payload, __tr: true }),
+    });
 
     if (!resp.ok) {
       let msg = `API hatası (${resp.status})`;
-      if (resp.status === 401) msg = 'Geçersiz API anahtarı. Lütfen kontrol edin.';
+      if (resp.status === 401) msg = 'API bağlantı hatası. Yönetici ile iletişime geçin.';
       else if (resp.status === 429) msg = 'İstek limiti aşıldı. Bir süre bekleyin.';
       throw new Error(msg);
     }
