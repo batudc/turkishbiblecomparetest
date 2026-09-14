@@ -1956,15 +1956,17 @@ const ALL_TRANS_IDS_ORDERED = [
 
 function getFavorites() { try { return JSON.parse(localStorage.getItem('kkf_favs') || '[]'); } catch { return []; } }
 
-const DIGER_ID_SET = new Set(['NWT2008','NWT2025','HAKK']);
-const ENGLISH_ID_SET   = new Set(['KJV','NKJV','ESV','NIV','NLT','NET','CSB','LSB']);
+const DIGER_ID_SET   = new Set(['NWT2008','NWT2025','HAKK']);
+const ENGLISH_ID_SET = new Set(['KJV','NKJV','ESV','NIV','NLT','NET','CSB','LSB']);
 
 const SEARCH_PRESETS = [
-  { id:'favoriler', label:'⭐ Favourites', ids: () => getFavorites().filter(id => ALL_TRANS[id]?.loaded && ENGLISH_ID_SET.has(id)) },
+  { id:'favoriler', label:'⭐ Favourites', ids: () => getFavorites().filter(id => ALL_TRANS[id]?.loaded) },
   { id:'eng-tr',    label:'ENG-TR',        ids: () => ['ESV','TCL02'].filter(id => ALL_TRANS[id]?.loaded) },
-  { id:'millennials', label:'Millennials', ids: () => ['ESV','NIV','NLT','NET','CSB','LSB'].filter(id => ALL_TRANS[id]?.loaded) },
-  { id:'wordword',    label:'Word by Word', ids: () => ['KJV','NKJV','ESV','LSB'].filter(id => ALL_TRANS[id]?.loaded) },
-  { id:'meaning',     label:'Meaning to Meaning', ids: () => ['NIV','NLT','NET','CSB'].filter(id => ALL_TRANS[id]?.loaded) },
+  { id:'modern',    label:'Modern',        ids: () => ['TCL02','YTC','TTT','HADİ','KMEYA'].filter(id => ALL_TRANS[id]?.loaded) },
+  { id:'tarihi',    label:'Historical',    ids: () => ['ALI1665','KIE1819','JDK1827','TUR1852-57','SEL1866-77','KM1886'].filter(id => ALL_TRANS[id]?.loaded) },
+  { id:'yeniant',   label:'NT Only',       ids: () => ['KIE1819','YYY1987','CAN','KKDEU','BGT','COS','TTT'].filter(id => ALL_TRANS[id]?.loaded) },
+  { id:'tamkitap',  label:'Full Bible',    ids: () => ['ALI1665','JDK1827','KM1886','KMEYA','TCL02','AREMSI','KA2007','YTC','HADİ'].filter(id => ALL_TRANS[id]?.loaded) },
+  { id:'1940plus',  label:'Post-1940',     ids: () => ALL_TRANS_IDS_ORDERED.filter(id => !DIGER_ID_SET.has(id) && ALL_TRANS[id]?.year > 1940 && ALL_TRANS[id]?.loaded) },
 ];
 
 function syncPresetHighlights() {
