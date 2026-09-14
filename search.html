@@ -1249,7 +1249,8 @@ const SHOW_STEP  = 40;
 
 // ── AI Search state ────────────────────────────────────────────────────────
 let aiMode = false;
-let _aiKey = localStorage.getItem('kki-ai-key') || '';
+let _aiKey = '';
+const _WORKER_URL = 'https://kkf-search.batuudmrcn.workers.dev';
 
 // ── Translation panel ──────────────────────────────────────────────────────
 const TRANS_CATEGORIES = [
@@ -1468,21 +1469,8 @@ function maybeWarnManyTrans() {
 
 // ── AI Search ──────────────────────────────────────────────────────────────
 function updateAiKeyArea() {
-  const area = document.getElementById('flt-ai-key-area');
-  const keyInput = document.getElementById('flt-ai-key');
-  const status = document.getElementById('flt-ai-key-status');
-  if (aiMode) {
-    area.classList.add('visible');
-    if (_aiKey) {
-      keyInput.value = '•'.repeat(16);
-      status.textContent = 'Saved ✓';
-    } else {
-      keyInput.value = '';
-      status.textContent = '';
-    }
-  } else {
-    area.classList.remove('visible');
-  }
+  // No API key input needed — Worker handles auth for all users
+  document.getElementById('flt-ai-key-area').classList.remove('visible');
   const inp = document.getElementById('search-input');
   inp.placeholder = aiMode ? 'describe the concept… (2-3 words)' : 'search…';
 }
@@ -1532,10 +1520,6 @@ function renderAiResults({ loading, error, verses, hint } = {}) {
 }
 
 async function runAiSearch(query) {
-  if (!_aiKey) {
-    renderAiResults({ hint: 'Enter your Anthropic API key in the filter panel to use AI search.' });
-    return;
-  }
   if (query.trim().length < 2) {
     renderAiResults({ hint: 'Describe the verse concept in 2-3 words.' });
     return;
@@ -1567,35 +1551,16 @@ JHN 3:16
 ROM 8:28`;
 
   try {
-    const proxyUrl  = '/api/claude';
-    const directUrl = 'https://api.anthropic.com/v1/messages';
-    const payload   = { model: 'claude-haiku-4-5-20251001', max_tokens: 400, messages: [{ role: 'user', content: prompt }] };
-
-    let resp;
-    try {
-      resp = await fetch(proxyUrl, {
-        method: 'POST',
-        headers: { 'content-type': 'application/json' },
-        body: JSON.stringify({ ...payload, __apiKey: _aiKey }),
-      });
-      if (resp.status === 404) throw new Error('proxy-not-found');
-    } catch {
-      resp = await fetch(directUrl, {
-        method: 'POST',
-        headers: {
-          'x-api-key': _aiKey,
-          'anthropic-version': '2023-06-01',
-          'anthropic-dangerous-allow-browser': 'true',
-          'content-type': 'application/json',
-        },
-        body: JSON.stringify(payload),
-      });
-    }
+    const payload = { model: 'claude-haiku-4-5-20251001', max_tokens: 400, messages: [{ role: 'user', content: prompt }] };
+    const resp = await fetch(_WORKER_URL, {
+      method: 'POST',
+      headers: { 'content-type': 'application/json' },
+      body: JSON.stringify(payload),
+    });
 
     if (!resp.ok) {
       let msg = `API error (${resp.status})`;
-      if (resp.status === 401) msg = 'Invalid API key. Please check and re-enter.';
-      else if (resp.status === 429) msg = 'Rate limit exceeded. Please wait a moment.';
+      if (resp.status === 429) msg = 'Rate limit exceeded. Please wait a moment.';
       throw new Error(msg);
     }
 
