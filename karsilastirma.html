@@ -4456,10 +4456,25 @@
     const histBtn   = document.getElementById('edit-hist-btn');
     const histClose = document.getElementById('edit-hist-close');
 
+    function _loadHistory() {
+      let raw = [];
+      try { raw = JSON.parse(localStorage.getItem(_HIST_KEY) || '[]'); } catch {}
+      // migrate old per-field entries to grouped format
+      const out = [];
+      raw.forEach(h => {
+        if (h.fields) { out.push(h); return; }
+        const key = `${h.tid}||${h.book}||${h.ch}`;
+        const ex = out.find(e => e.key === key);
+        if (ex) { ex.fields[h.field] = { label: h.label, val: h.val }; }
+        else { out.push({ key, ts: h.ts, tid: h.tid, book: h.book, ch: h.ch, loc: h.loc, fields: { [h.field]: { label: h.label, val: h.val } } }); }
+      });
+      return out;
+    }
+
     function _pushHistory(tid, book, ch, field, label, val, loc) {
       if (!val) return;
       try {
-        const hist = JSON.parse(localStorage.getItem(_HIST_KEY) || '[]');
+        const hist = _loadHistory();
         const key = `${tid}||${book}||${ch}`;
         const existing = hist.findIndex(h => h.key === key);
         if (existing !== -1) {
@@ -4477,7 +4492,7 @@
 
     function _removeFieldFromHistory(tid, book, ch, field) {
       try {
-        const hist = JSON.parse(localStorage.getItem(_HIST_KEY) || '[]');
+        const hist = _loadHistory();
         const key = `${tid}||${book}||${ch}`;
         const idx = hist.findIndex(h => h.key === key);
         if (idx === -1) return;
@@ -4489,7 +4504,7 @@
 
     function _revertHistory(idx) {
       try {
-        const hist = JSON.parse(localStorage.getItem(_HIST_KEY) || '[]');
+        const hist = _loadHistory();
         if (idx < 0 || idx >= hist.length) return;
         const item = hist[idx];
         const curEdits = _loadEd(item.tid, item.book, item.ch);
@@ -4508,8 +4523,7 @@
     }
 
     function _renderHistory() {
-      let hist = [];
-      try { hist = JSON.parse(localStorage.getItem(_HIST_KEY) || '[]'); } catch {}
+      const hist = _loadHistory();
       if (!hist.length) {
         histList.innerHTML = '<div class="edit-hist-empty">Henüz değişiklik yok.</div>';
         return;
