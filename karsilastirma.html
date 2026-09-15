@@ -2223,10 +2223,15 @@
     .edit-hist-meta { display: flex; justify-content: space-between; align-items: center; margin-bottom: 3px; }
     .edit-hist-loc { font-size: 10px; font-weight: 700; color: rgba(184,146,42,0.75); }
     .edit-hist-ts { font-size: 9px; color: rgba(247,241,232,0.28); }
-    .edit-hist-field-row { margin-bottom: 5px; }
+    .edit-hist-field-row { margin-bottom: 7px; }
     .edit-hist-field { font-size: 9px; text-transform: uppercase; letter-spacing: 0.05em;
-      color: rgba(247,241,232,0.38); margin-right: 6px; }
-    .edit-hist-val { font-size: 12px; color: rgba(247,241,232,0.75);
+      color: rgba(247,241,232,0.38); display: block; margin-bottom: 3px; }
+    .edit-hist-orig { font-size: 11px; color: rgba(247,241,232,0.35);
+      white-space: pre-wrap; word-break: break-word; max-height: 40px; overflow: hidden;
+      display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical;
+      text-decoration: line-through; }
+    .edit-hist-arrow { font-size: 10px; color: rgba(184,146,42,0.5); margin: 2px 0; }
+    .edit-hist-val { font-size: 12px; color: rgba(247,241,232,0.85);
       white-space: pre-wrap; word-break: break-word; max-height: 54px; overflow: hidden;
       display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; }
     .edit-hist-revert {
@@ -4471,7 +4476,7 @@
       return out;
     }
 
-    function _pushHistory(tid, book, ch, field, label, val, loc) {
+    function _pushHistory(tid, book, ch, field, label, val, orig, loc) {
       if (!val) return;
       try {
         const hist = _loadHistory();
@@ -4480,10 +4485,11 @@
         if (existing !== -1) {
           const entry = hist.splice(existing, 1)[0];
           entry.ts = Date.now();
-          entry.fields[field] = { label, val };
+          const prevOrig = entry.fields[field]?.orig ?? orig;
+          entry.fields[field] = { label, val, orig: prevOrig };
           hist.unshift(entry);
         } else {
-          hist.unshift({ key, ts: Date.now(), tid, book, ch, loc, fields: { [field]: { label, val } } });
+          hist.unshift({ key, ts: Date.now(), tid, book, ch, loc, fields: { [field]: { label, val, orig } } });
         }
         if (hist.length > _HIST_MAX) hist.length = _HIST_MAX;
         localStorage.setItem(_HIST_KEY, JSON.stringify(hist));
@@ -4535,9 +4541,12 @@
         const d = new Date(item.ts);
         const ts = d.toLocaleDateString('tr-TR', { day: '2-digit', month: '2-digit' })
                  + ' ' + d.toLocaleTimeString('tr-TR', { hour: '2-digit', minute: '2-digit' });
-        const fieldLines = Object.entries(item.fields)
-          .map(([, f]) => `<div class="edit-hist-field-row"><span class="edit-hist-field">${f.label}</span><span class="edit-hist-val">${f.val || '(boş)'}</span></div>`)
-          .join('');
+        const fieldLines = Object.entries(item.fields).map(([, f]) => {
+          const origSnippet = f.orig != null
+            ? `<div class="edit-hist-orig">${f.orig || '(boş)'}</div><div class="edit-hist-arrow">↓</div>`
+            : '';
+          return `<div class="edit-hist-field-row"><span class="edit-hist-field">${f.label}</span>${origSnippet}<div class="edit-hist-val">${f.val || '(boş)'}</div></div>`;
+        }).join('');
         el.innerHTML =
           `<div class="edit-hist-meta"><span class="edit-hist-loc">${item.loc} · ${_srcName(item.tid)}</span><span class="edit-hist-ts">${ts}</span></div>` +
           fieldLines;
@@ -4844,7 +4853,7 @@
           ? `${SPEC[id]?.prefix ?? ''}${ch}`
           : `${BOOK_CODES[edBook] ?? edBook} ${edChapter}`;
         if (newVal !== orig) {
-          _pushHistory(id, edBook, ch, k, label, newVal, loc);
+          _pushHistory(id, edBook, ch, k, label, newVal, orig, loc);
         } else {
           _removeFieldFromHistory(id, edBook, ch, k);
         }
