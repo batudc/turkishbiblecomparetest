@@ -1333,8 +1333,28 @@ async function buildMap(url) {
 }
 (async () => { lexiconGk    = await buildMap('data/strongs/greek.json');  })();
 (async () => { lexiconHeb   = await buildMap('data/strongs/hebrew.json'); })();
-(async () => { lexiconGkTr  = await buildMap('data/strongs/grk_tr.json'); })();
-(async () => { lexiconHebTr = await buildMap('data/strongs/heb_tr.json'); })();
+(async () => {
+  lexiconGkTr  = await buildMap('data/strongs/grk_tr.json');
+  lexiconHebTr = await buildMap('data/strongs/heb_tr.json');
+  // Apply published admin edits as an overlay
+  try {
+    const r = await fetch('data/edits_published.json', { cache: 'no-store' });
+    if (r.ok) {
+      const pub = await r.json();
+      Object.entries(pub).forEach(([key, fields]) => {
+        const grkMatch = key.match(/^kkf_ed___STR_GRK_TR_GRK_(\d+)$/);
+        const hebMatch = key.match(/^kkf_ed___STR_HEB_TR_HEB_(\d+)$/);
+        if (grkMatch && lexiconGkTr) {
+          const id = parseInt(grkMatch[1], 10);
+          if (lexiconGkTr[id]) Object.assign(lexiconGkTr[id], fields);
+        } else if (hebMatch && lexiconHebTr) {
+          const id = parseInt(hebMatch[1], 10);
+          if (lexiconHebTr[id]) Object.assign(lexiconHebTr[id], fields);
+        }
+      });
+    }
+  } catch {}
+})();
 (async () => { tcl02Usage      = await loadJson('data/strongs/tcl02_usage.json'); })();
 (async () => { kmeya_Usage     = await loadJson('data/strongs/kmeya_usage.json'); })();
 (async () => { tcl02VerseIndex = await loadJson('data/strongs/tcl02_verse_index.json'); })();
