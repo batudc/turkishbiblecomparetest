@@ -41,6 +41,7 @@
       --gold-light: #D4AA56;
       --stone:      #8A8070;
       --ink:        #2C2416;
+      --vt-fz:      16.5px;
     }
 
     html, body {
@@ -666,7 +667,7 @@
     }
 
     .vt {
-      font-size: 16.5px;
+      font-size: var(--vt-fz, 16.5px);
       line-height: 1.78;
       color: #1a1611;
       font-variant-numeric: oldstyle-nums;
@@ -772,6 +773,54 @@
     }
     .gkfp-option.selected .go-name { color: rgba(247,241,232,0.9); }
 
+    /* Choice pickers (Tema, Düzen) */
+    .chpkr-wrap { position: relative; padding: 4px 8px 8px; }
+    .chpkr-btn {
+      width: 100%; display: flex; align-items: center; gap: 10px;
+      padding: 7px 10px; background: rgba(255,255,255,0.04);
+      border: 1px solid rgba(184,146,42,0.25); border-radius: 3px;
+      cursor: pointer; user-select: none;
+      transition: border-color 0.15s, background 0.15s;
+    }
+    .chpkr-btn:hover { border-color: rgba(184,146,42,0.55); background: rgba(184,146,42,0.07); }
+    .chpkr-icon { font-size: 14px; flex-shrink: 0; width: 22px; text-align: center; line-height: 1; }
+    .chpkr-label { flex: 1; font-size: 11px; color: rgba(247,241,232,0.75); text-align: left; }
+    .chpkr-arrow { font-size: 9px; color: rgba(247,241,232,0.35); flex-shrink: 0; }
+    .chpkr-dropdown {
+      display: none; position: absolute; left: 8px; right: 8px; top: calc(100% - 4px);
+      background: #161a1f; border: 1px solid rgba(184,146,42,0.3); border-radius: 3px;
+      z-index: 9999; box-shadow: 0 8px 24px rgba(0,0,0,0.55);
+    }
+    .chpkr-dropdown.open { display: block; }
+    .chpkr-option {
+      display: flex; align-items: center; gap: 10px; padding: 8px 10px;
+      cursor: pointer; border-bottom: 1px solid rgba(255,255,255,0.04);
+      transition: background 0.1s;
+    }
+    .chpkr-option:last-child { border-bottom: none; }
+    .chpkr-option:hover { background: rgba(184,146,42,0.1); }
+    .chpkr-option.selected { background: rgba(184,146,42,0.15); }
+    .chpkr-o-icon { font-size: 13px; width: 22px; text-align: center; flex-shrink: 0; line-height: 1; }
+    .chpkr-o-name { font-size: 11px; color: rgba(247,241,232,0.6); font-family: 'Jost', sans-serif; }
+    .chpkr-option.selected .chpkr-o-name { color: rgba(247,241,232,0.9); }
+
+    /* Font-size stepper */
+    .fz-stepper {
+      display: flex; align-items: center; gap: 0; padding: 4px 8px 8px;
+    }
+    .fz-step-btn {
+      width: 30px; height: 30px; flex-shrink: 0; border-radius: 3px;
+      border: 1px solid rgba(184,146,42,0.25); background: rgba(255,255,255,0.04);
+      color: rgba(184,146,42,0.75); cursor: pointer; font-size: 17px;
+      line-height: 1; display: flex; align-items: center; justify-content: center;
+      transition: background 0.12s, color 0.12s, border-color 0.12s;
+    }
+    .fz-step-btn:hover { background: rgba(184,146,42,0.1); color: rgba(184,146,42,1); border-color: rgba(184,146,42,0.5); }
+    .fz-step-val {
+      flex: 1; text-align: center; font-size: 12.5px; font-weight: 600;
+      color: rgba(247,241,232,0.8); font-family: 'Jost', sans-serif;
+    }
+
     /* RTL columns (Hebrew / ancient language texts) */
     .col[data-rtl] .col-content {
       direction: rtl;
@@ -852,8 +901,6 @@
     /* ===== FONT SIZES ===== */
     body.fz-small  .col-content { font-size: 14.5px;  line-height: 1.72; }
     body.fz-large  .col-content { font-size: 20px;    line-height: 1.82; }
-    body.fz-small  .vt          { font-size: 14px; }
-    body.fz-large  .vt          { font-size: 19.5px; }
 
     /* ===== HIDE VERSE/CHAPTER NUMBERS ===== */
     body.hide-vn .vn          { display: none; }
@@ -2386,7 +2433,7 @@
       <button class="hdr-btn" id="btn-chapter" title="Bölüm seçin" style="min-width:80px;text-align:center;">1. Bölüm</button>
       <button class="hdr-nav-arrow" id="btn-next-ch" title="Sonraki bölüm">›</button>
       <button class="hdr-btn" id="btn-translations" title="Çevirileri yönet">Çeviri <span style="opacity:.4;font-size:9px;">▾</span></button>
-      <button class="hdr-btn" id="btn-style" title="Görünüm ayarları">Görünüm <span style="opacity:.4;font-size:9px;">▾</span></button>
+      <button class="hdr-btn" id="btn-style" title="Görünüm ayarları">Seçenekler <span style="opacity:.4;font-size:9px;">▾</span></button>
       <button class="hdr-btn" id="btn-commentary" title="Bölüm yorumu">Notlar <span style="opacity:.4;font-size:9px;">▾</span></button>
       <button class="hdr-btn" id="btn-tour" title="Site turunu başlat">?</button>
     </div>
@@ -2397,7 +2444,7 @@
     <button class="mob-menu-row" id="mob-row-books" onclick="event.stopPropagation(); closeMobMenu(); document.getElementById('btn-books').click()">Kitap ▾</button>
     <button class="mob-menu-row" id="mob-row-chapter" onclick="event.stopPropagation(); closeMobMenu(); document.getElementById('btn-chapter').click()">Bölüm ▾</button>
     <button class="mob-menu-row" id="mob-row-translations" onclick="event.stopPropagation(); closeMobMenu(); document.getElementById('btn-translations').click()">Çeviri ▾</button>
-    <button class="mob-menu-row" id="mob-row-style" onclick="event.stopPropagation(); closeMobMenu(); document.getElementById('btn-style').click()">Görünüm ▾</button>
+    <button class="mob-menu-row" id="mob-row-style" onclick="event.stopPropagation(); closeMobMenu(); document.getElementById('btn-style').click()">Seçenekler ▾</button>
     <button class="mob-menu-row" id="mob-row-commentary" onclick="event.stopPropagation(); closeMobMenu(); document.getElementById('btn-commentary').click()">Notlar ▾</button>
     <div class="mob-menu-sep"></div>
     <div class="mob-menu-links">
@@ -2471,27 +2518,40 @@
 <div class="panel" id="panel-style">
   <div class="panel-section">
     <div class="panel-section-title">Tema</div>
-    <div class="panel-row-group">
-      <label class="panel-option active"><input type="radio" name="theme" value="light" checked> Açık</label>
-      <label class="panel-option"><input type="radio" name="theme" value="sepia"> Parşömen</label>
-      <label class="panel-option"><input type="radio" name="theme" value="dark"> Koyu</label>
+    <div class="chpkr-wrap" id="theme-pkr-wrap">
+      <div class="chpkr-btn" id="theme-pkr-btn">
+        <span class="chpkr-icon" id="theme-pkr-icon">☀</span>
+        <span class="chpkr-label" id="theme-pkr-label">Açık</span>
+        <span class="chpkr-arrow">▾</span>
+      </div>
+      <div class="chpkr-dropdown" id="theme-pkr-dd">
+        <div class="chpkr-option selected" data-val="light"><span class="chpkr-o-icon">☀</span><span class="chpkr-o-name">Açık</span></div>
+        <div class="chpkr-option" data-val="sepia"><span class="chpkr-o-icon">📜</span><span class="chpkr-o-name">Parşömen</span></div>
+        <div class="chpkr-option" data-val="dark"><span class="chpkr-o-icon">🌙</span><span class="chpkr-o-name">Koyu</span></div>
+      </div>
+    </div>
+  </div>
+  <div class="panel-section">
+    <div class="panel-section-title">Düzen</div>
+    <div class="chpkr-wrap" id="layout-pkr-wrap">
+      <div class="chpkr-btn" id="layout-pkr-btn">
+        <span class="chpkr-icon" id="layout-pkr-icon">▮▮</span>
+        <span class="chpkr-label" id="layout-pkr-label">Sütun</span>
+        <span class="chpkr-arrow">▾</span>
+      </div>
+      <div class="chpkr-dropdown" id="layout-pkr-dd">
+        <div class="chpkr-option selected" data-val="cols"><span class="chpkr-o-icon">▮▮</span><span class="chpkr-o-name">Sütun</span></div>
+        <div class="chpkr-option" data-val="rows"><span class="chpkr-o-icon">☰</span><span class="chpkr-o-name">Satır</span></div>
+        <div class="chpkr-option" data-val="grid"><span class="chpkr-o-icon">⊞</span><span class="chpkr-o-name">Sütun ve Satır</span></div>
+      </div>
     </div>
   </div>
   <div class="panel-section">
     <div class="panel-section-title">Yazı Boyutu</div>
-    <div class="panel-row-group">
-      <label class="panel-option"><input type="radio" name="fontsize" value="small"> Küçük</label>
-      <label class="panel-option active"><input type="radio" name="fontsize" value="normal" checked> Normal</label>
-      <label class="panel-option"><input type="radio" name="fontsize" value="large"> Büyük</label>
-    </div>
-  </div>
-  <div class="panel-section">
-    <div class="panel-section-title">Görünüm</div>
-    <div class="panel-row-group">
-      <label class="panel-option active" id="toggle-vn"><input type="checkbox" id="chk-vn" checked> Ayet numaralarını göster</label>
-      <label class="panel-option active" id="toggle-heads"><input type="checkbox" id="chk-heads" checked> Bölüm başlıklarını göster</label>
-      <label class="panel-option" id="toggle-book"><input type="checkbox" id="chk-book"> Kitap Görünümü</label>
-      <label class="panel-option" id="toggle-hide-tname"><input type="checkbox" id="chk-hide-tname"> Çeviri adını gizle</label>
+    <div class="fz-stepper">
+      <button class="fz-step-btn" id="fz-dec">−</button>
+      <span class="fz-step-val"><span id="fz-val">17</span> pt</span>
+      <button class="fz-step-btn" id="fz-inc">+</button>
     </div>
   </div>
   <div class="panel-section">
@@ -2506,11 +2566,12 @@
     </div>
   </div>
   <div class="panel-section">
-    <div class="panel-section-title">Düzen</div>
+    <div class="panel-section-title">Seçenekler</div>
     <div class="panel-row-group">
-      <label class="panel-option active"><input type="radio" name="layout" value="cols" checked> <span class="layout-label-mob">Tek Sütun</span><span class="layout-label-desk">Sütun</span></label>
-      <label class="panel-option"><input type="radio" name="layout" value="rows"> Satır</label>
-      <label class="panel-option"><input type="radio" name="layout" value="grid"> <span class="layout-label-mob">Çift Sütun</span><span class="layout-label-desk">Sütun ve Satır</span></label>
+      <label class="panel-option active" id="toggle-vn"><input type="checkbox" id="chk-vn" checked> Ayet numaralarını göster</label>
+      <label class="panel-option active" id="toggle-heads"><input type="checkbox" id="chk-heads" checked> Bölüm başlıklarını göster</label>
+      <label class="panel-option" id="toggle-book"><input type="checkbox" id="chk-book"> Kitap Görünümü</label>
+      <label class="panel-option" id="toggle-hide-tname"><input type="checkbox" id="chk-hide-tname"> Çeviri adını gizle</label>
     </div>
   </div>
 </div>
@@ -3756,8 +3817,7 @@
     _lsSet('kkf_chap',  String(currentChapter));
     _lsSet('kkf_trans', JSON.stringify([...selectedTranslations]));
     _lsSet('kkf_layout', layoutMode);
-    const fzEl = document.querySelector('input[name="fontsize"]:checked');
-    if (fzEl) _lsSet('kkf_fz', fzEl.value);
+    _lsSet('kkf_fz_px', String(_fzPx));
     _lsSet('kkf_vn',        document.getElementById('chk-vn')?.checked        ? '1' : '0');
     _lsSet('kkf_heads',     document.getElementById('chk-heads')?.checked     ? '1' : '0');
     _lsSet('kkf_hidetname', document.getElementById('chk-hide-tname')?.checked ? '1' : '0');
@@ -3943,53 +4003,78 @@
     if (val === 'dark')  document.body.classList.add('theme-dark');
     if (val === 'sepia') document.body.classList.add('theme-sepia');
   }
-  function syncStyleActive() {
-    document.querySelectorAll('#panel-style .panel-option').forEach(o =>
-      o.classList.toggle('active', o.querySelector('input')?.checked));
+
+  // Theme picker
+  const _THEME_OPTS = [
+    { val: 'light', icon: '☀', label: 'Açık' },
+    { val: 'sepia', icon: '📜', label: 'Parşömen' },
+    { val: 'dark',  icon: '🌙', label: 'Koyu' },
+  ];
+  function _setTheme(val, save) {
+    applyCompareTheme(val);
+    if (save) localStorage.setItem('pref-theme', val);
+    const opt = _THEME_OPTS.find(o => o.val === val) || _THEME_OPTS[0];
+    document.getElementById('theme-pkr-icon').textContent = opt.icon;
+    document.getElementById('theme-pkr-label').textContent = opt.label;
+    document.querySelectorAll('#theme-pkr-dd .chpkr-option').forEach(el =>
+      el.classList.toggle('selected', el.dataset.val === val));
+    document.getElementById('theme-pkr-dd').classList.remove('open');
   }
-
-  // Load saved theme on init
-  (function() {
-    const saved = localStorage.getItem('pref-theme');
-    if (saved && saved !== 'light') {
-      applyCompareTheme(saved);
-      const r = document.querySelector(`input[name="theme"][value="${saved}"]`);
-      if (r) { r.checked = true; syncStyleActive(); }
-    }
-  })();
-
-  document.querySelectorAll('input[name="theme"]').forEach(r => {
-    r.addEventListener('change', () => {
-      applyCompareTheme(r.value);
-      localStorage.setItem('pref-theme', r.value);
-      syncStyleActive();
-    });
+  document.getElementById('theme-pkr-btn').addEventListener('click', e => {
+    e.stopPropagation();
+    document.getElementById('theme-pkr-dd').classList.toggle('open');
+    document.getElementById('layout-pkr-dd').classList.remove('open');
+    document.getElementById('gkfp-dropdown').classList.remove('open');
   });
+  document.querySelectorAll('#theme-pkr-dd .chpkr-option').forEach(el =>
+    el.addEventListener('click', () => _setTheme(el.dataset.val, true)));
+  document.getElementById('theme-pkr-dd').addEventListener('click', e => e.stopPropagation());
 
-  document.querySelectorAll('input[name="fontsize"]').forEach(r => {
-    r.addEventListener('change', () => {
-      document.body.classList.remove('fz-small','fz-large');
-      if (r.value === 'small') document.body.classList.add('fz-small');
-      if (r.value === 'large') document.body.classList.add('fz-large');
-      document.querySelectorAll('#panel-style .panel-option').forEach(o =>
-        o.classList.toggle('active', o.querySelector('input')?.checked));
-    });
+  // Layout picker
+  const _LAYOUT_OPTS = [
+    { val: 'cols', icon: '▮▮', label: 'Sütun' },
+    { val: 'rows', icon: '☰',  label: 'Satır' },
+    { val: 'grid', icon: '⊞',  label: 'Sütun ve Satır' },
+  ];
+  function _syncLayoutPicker(val) {
+    const opt = _LAYOUT_OPTS.find(o => o.val === val) || _LAYOUT_OPTS[0];
+    document.getElementById('layout-pkr-icon').textContent = opt.icon;
+    document.getElementById('layout-pkr-label').textContent = opt.label;
+    document.querySelectorAll('#layout-pkr-dd .chpkr-option').forEach(el =>
+      el.classList.toggle('selected', el.dataset.val === val));
+    document.getElementById('layout-pkr-dd').classList.remove('open');
+  }
+  function _setLayout(val) {
+    layoutMode = val;
+    const chkBook = document.getElementById('chk-book');
+    if (chkBook && chkBook.checked) { chkBook.checked = false; document.getElementById('toggle-book').classList.remove('active'); }
+    _syncLayoutPicker(val);
+    rebuildColumns();
+    saveState();
+  }
+  document.getElementById('layout-pkr-btn').addEventListener('click', e => {
+    e.stopPropagation();
+    document.getElementById('layout-pkr-dd').classList.toggle('open');
+    document.getElementById('theme-pkr-dd').classList.remove('open');
+    document.getElementById('gkfp-dropdown').classList.remove('open');
   });
+  document.querySelectorAll('#layout-pkr-dd .chpkr-option').forEach(el =>
+    el.addEventListener('click', () => _setLayout(el.dataset.val)));
+  document.getElementById('layout-pkr-dd').addEventListener('click', e => e.stopPropagation());
 
-  document.querySelectorAll('input[name="layout"]').forEach(r => {
-    r.addEventListener('change', () => {
-      layoutMode = r.value;
-      const chkBook = document.getElementById('chk-book');
-      if (chkBook) { chkBook.checked = false; document.getElementById('toggle-book').classList.remove('active'); }
-      document.querySelectorAll('#panel-style .panel-option').forEach(o =>
-        o.classList.toggle('active', o.querySelector('input')?.checked));
-      rebuildColumns();
-      saveState();
-    });
+  // Font-size stepper
+  const _FZ_DEFAULT = 16.5, _FZ_MIN = 10, _FZ_MAX = 26;
+  let _fzPx = parseFloat(_lsGet('kkf_fz_px') || '0') || _FZ_DEFAULT;
+  function _applyFontSize(px) {
+    _fzPx = Math.max(_FZ_MIN, Math.min(_FZ_MAX, px));
+    document.documentElement.style.setProperty('--vt-fz', _fzPx + 'px');
+    document.getElementById('fz-val').textContent = Math.round(_fzPx);
+  }
+  document.getElementById('fz-dec').addEventListener('click', () => {
+    _applyFontSize(_fzPx - 1); _lsSet('kkf_fz_px', String(_fzPx)); saveState();
   });
-
-  document.querySelectorAll('input[name="fontsize"]').forEach(r => {
-    r.addEventListener('change', () => saveState());
+  document.getElementById('fz-inc').addEventListener('click', () => {
+    _applyFontSize(_fzPx + 1); _lsSet('kkf_fz_px', String(_fzPx)); saveState();
   });
 
   // ── Greek font picker ─────────────────────────────────────────────────
@@ -4036,7 +4121,11 @@
       e.stopPropagation();
       dropdown.classList.toggle('open');
     });
-    document.addEventListener('click', () => dropdown.classList.remove('open'));
+    document.addEventListener('click', () => {
+      dropdown.classList.remove('open');
+      document.getElementById('theme-pkr-dd')?.classList.remove('open');
+      document.getElementById('layout-pkr-dd')?.classList.remove('open');
+    });
     dropdown.addEventListener('click', e => e.stopPropagation());
   })();
 
@@ -4067,16 +4156,14 @@
   // Restore saved Görünüm settings on load
   (function _restoreViewSettings() {
     // Font size
-    const savedFz = _lsGet('kkf_fz');
-    if (savedFz && savedFz !== 'normal') {
-      const r = document.querySelector(`input[name="fontsize"][value="${savedFz}"]`);
-      if (r) { r.checked = true; document.body.classList.add(`fz-${savedFz}`); }
-    }
-    // Layout mode (already loaded into layoutMode var; wire the radio)
-    if (layoutMode && layoutMode !== 'cols') {
-      const r = document.querySelector(`input[name="layout"][value="${layoutMode}"]`);
-      if (r) r.checked = true;
-    }
+    const savedFzPx = parseFloat(_lsGet('kkf_fz_px') || '0');
+    if (savedFzPx) _applyFontSize(savedFzPx);
+    else _applyFontSize(_FZ_DEFAULT);
+    // Theme
+    const savedTheme = localStorage.getItem('pref-theme') || 'light';
+    _setTheme(savedTheme, false);
+    // Layout mode (already loaded into layoutMode var; sync picker UI without rebuilding)
+    if (layoutMode) _syncLayoutPicker(layoutMode);
     // Verse numbers
     if (_lsGet('kkf_vn') === '0') {
       const chk = document.getElementById('chk-vn');
@@ -4095,8 +4182,8 @@
       if (chk) { chk.checked = true; document.body.classList.add('hide-trans-names'); }
       document.getElementById('toggle-hide-tname')?.classList.add('active');
     }
-    // Sync all panel-option active states
-    document.querySelectorAll('#panel-style .panel-option, #panel-gorunum .panel-option').forEach(o =>
+    // Sync checkbox active states
+    document.querySelectorAll('#panel-style .panel-option').forEach(o =>
       o.classList.toggle('active', o.querySelector('input')?.checked ?? false));
   })();
 
