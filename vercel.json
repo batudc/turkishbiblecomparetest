@@ -1,5 +1,7 @@
 {
   "redirects": [
+    { "source": "/",                    "destination": "/karsilastirma.html", "permanent": false },
+    { "source": "/index.html",          "destination": "/karsilastirma.html", "permanent": false },
     { "source": "/interlinear.html",    "destination": "/ancient.html", "permanent": true },
     { "source": "/interlinear-en.html", "destination": "/ancient.html", "permanent": true }
   ]
