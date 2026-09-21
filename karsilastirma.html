@@ -27,7 +27,7 @@
   <meta name="twitter:image" content="https://www.kutsalkitapinceleme.com/icons/icon-512x512.png">
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Jost:wght@300;400;500;600&family=Noto+Serif+Hebrew:wght@400;500&family=Cardo:ital,wght@0,400;0,700;1,400&family=GFS+Didot&family=Noto+Serif:ital,wght@0,400;0,700;1,400&family=Crimson+Pro:ital,wght@0,400;0,600;1,400&family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400&family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Lora:ital,wght@0,400;0,600;1,400&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;1,8..60,400&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Jost:wght@300;400;500;600&family=Noto+Serif+Hebrew:wght@400;500&family=Cardo:ital,wght@0,400;0,700;1,400&family=GFS+Didot&family=Noto+Serif:ital,wght@0,400;0,700;1,400&family=Crimson+Pro:ital,wght@0,400;0,600;1,400&family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400&family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Lora:ital,wght@0,400;0,600;1,400&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;1,8..60,400&family=Frank+Ruhl+Libre:wght@400;500;700&family=David+Libre:wght@400;700&display=swap" rel="stylesheet" />
   <style>
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
@@ -610,7 +610,7 @@
       position: relative;
       background: var(--cream);
       padding: 20px 18px 200vh;
-      font-family: 'EB Garamond', Georgia, serif;
+      font-family: var(--lat-font);
       color: var(--ink);
       font-size: 17px;
       line-height: 1.78;
@@ -689,8 +689,13 @@
       color: #3a3025;
     }
 
+    /* Per-script font variables */
+    :root {
+      --gk-font:  'New York', ui-serif, 'Cardo', Georgia, serif;
+      --heb-font: 'Noto Serif Hebrew', 'SBL Hebrew', serif;
+      --lat-font: 'EB Garamond', Georgia, serif;
+    }
     /* Greek columns (NA27 / SBLGNT, LXX) */
-    :root { --gk-font: 'New York', ui-serif, 'Cardo', Georgia, serif; }
     .col[data-greek] .col-content {
       font-family: var(--gk-font);
       font-size: calc(var(--vt-fz, 16.5px) * 0.91);
@@ -783,6 +788,86 @@
     }
     .gkfp-option.selected .go-name { color: rgba(247,241,232,0.9); }
 
+    /* Font settings button */
+    .font-settings-btn {
+      display: block; width: 100%;
+      padding: 7px 12px; background: rgba(255,255,255,0.04);
+      border: 1px solid rgba(184,146,42,0.25); border-radius: 3px;
+      color: rgba(247,241,232,0.72); font-family: 'Jost', sans-serif;
+      font-size: 11px; font-weight: 500; letter-spacing: 0.05em;
+      cursor: pointer; text-align: left;
+      transition: background 0.12s, border-color 0.12s, color 0.12s;
+    }
+    .font-settings-btn:hover { background: rgba(184,146,42,0.1); border-color: rgba(184,146,42,0.45); color: var(--gold-light); }
+    .font-settings-btn::before { content: 'Aa'; font-family: Georgia, serif; margin-right: 8px; font-size: 13px; opacity: 0.6; }
+
+    /* Font settings modal */
+    #font-settings-modal {
+      display: none; position: fixed; inset: 0; z-index: 4000;
+      background: rgba(0,0,0,0.55); align-items: center; justify-content: center;
+    }
+    #font-settings-modal.open { display: flex; }
+    #font-settings-box {
+      background: #1a2535; border: 1px solid rgba(184,146,42,0.25);
+      border-radius: 6px; width: 520px; max-width: calc(100vw - 32px);
+      max-height: 80vh; display: flex; flex-direction: column;
+      box-shadow: 0 24px 64px rgba(0,0,0,0.6);
+    }
+    #font-settings-hdr {
+      display: flex; align-items: center; justify-content: space-between;
+      padding: 12px 16px 10px; border-bottom: 1px solid rgba(255,255,255,0.07);
+      flex-shrink: 0;
+    }
+    #font-settings-hdr span {
+      font-family: 'Jost', sans-serif; font-size: 11px; font-weight: 600;
+      letter-spacing: 0.1em; text-transform: uppercase; color: var(--gold-light);
+    }
+    #font-settings-close {
+      background: none; border: none; color: rgba(247,241,232,0.4);
+      font-size: 14px; cursor: pointer; padding: 2px 4px; line-height: 1;
+    }
+    #font-settings-close:hover { color: rgba(247,241,232,0.9); }
+    #font-settings-body {
+      flex: 1; overflow-y: auto; padding: 6px 0;
+    }
+    .fset-section { padding: 10px 16px; border-bottom: 1px solid rgba(255,255,255,0.06); }
+    .fset-section:last-child { border-bottom: none; }
+    .fset-section-label {
+      font-family: 'Jost', sans-serif; font-size: 9px; font-weight: 600;
+      letter-spacing: 0.15em; text-transform: uppercase; color: rgba(184,146,42,0.7);
+      margin-bottom: 8px;
+    }
+    .fset-list { display: grid; grid-template-columns: 1fr 1fr; gap: 5px; }
+    .fset-option {
+      display: flex; align-items: center; gap: 8px;
+      padding: 6px 10px; border-radius: 4px; cursor: pointer;
+      border: 1px solid rgba(255,255,255,0.06);
+      background: rgba(255,255,255,0.03);
+      transition: background 0.1s, border-color 0.1s;
+    }
+    .fset-option:hover { background: rgba(184,146,42,0.08); border-color: rgba(184,146,42,0.25); }
+    .fset-option.selected { background: rgba(184,146,42,0.15); border-color: rgba(184,146,42,0.4); }
+    .fset-option .fo-preview {
+      font-size: 15px; line-height: 1; color: rgba(247,241,232,0.85); flex-shrink: 0;
+    }
+    .fset-option .fo-name {
+      font-family: 'Jost', sans-serif; font-size: 10px;
+      color: rgba(247,241,232,0.55); white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+    }
+    .fset-option.selected .fo-name { color: rgba(247,241,232,0.9); }
+    #font-settings-ftr {
+      padding: 10px 16px; border-top: 1px solid rgba(255,255,255,0.07);
+      display: flex; justify-content: flex-end; flex-shrink: 0;
+    }
+    #font-settings-save {
+      padding: 7px 22px; background: rgba(184,146,42,0.2);
+      border: 1px solid rgba(184,146,42,0.4); border-radius: 3px;
+      color: var(--gold-light); font-family: 'Jost', sans-serif;
+      font-size: 11px; font-weight: 600; letter-spacing: 0.06em;
+      cursor: pointer; transition: background 0.12s, border-color 0.12s;
+    }
+    #font-settings-save:hover { background: rgba(184,146,42,0.35); border-color: rgba(184,146,42,0.6); }
+
     /* Choice pickers (Tema, Düzen) */
     .chpkr-wrap { position: relative; padding: 4px 8px 8px; }
     .chpkr-btn {
@@ -834,7 +919,7 @@
     /* RTL columns (Hebrew / ancient language texts) */
     .col[data-rtl] .col-content {
       direction: rtl;
-      font-family: 'Noto Serif Hebrew', 'SBL Hebrew', 'Ezra SIL', serif;
+      font-family: var(--heb-font);
       font-size: calc(var(--vt-fz, 16.5px) * 0.91);
       line-height: 2.1;
     }
@@ -2565,17 +2650,6 @@
     </div>
   </div>
   <div class="panel-section">
-    <div class="panel-section-title">Yunanca Yazı Tipi</div>
-    <div class="gkfp-wrap" id="gkfp-wrap">
-      <div class="gkfp-btn" id="gkfp-btn">
-        <span class="gkfp-preview-text" id="gkfp-preview-text">Ἀρχή</span>
-        <span class="gkfp-label" id="gkfp-label">New York</span>
-        <span class="gkfp-arrow">▾</span>
-      </div>
-      <div class="gkfp-dropdown" id="gkfp-dropdown"></div>
-    </div>
-  </div>
-  <div class="panel-section">
     <div class="panel-section-title">Atıf Çevirisi</div>
     <select id="default-trans-sel"><option value="">— Seçin —</option></select>
   </div>
@@ -2587,6 +2661,9 @@
       <label class="panel-option" id="toggle-book"><input type="checkbox" id="chk-book"> Kitap Görünümü</label>
       <label class="panel-option" id="toggle-hide-tname"><input type="checkbox" id="chk-hide-tname"> Çeviri adını gizle</label>
     </div>
+  </div>
+  <div class="panel-section" style="padding:8px 12px 12px;">
+    <button class="font-settings-btn" id="btn-font-settings">Font Ayarları</button>
   </div>
 </div>
 
@@ -2620,6 +2697,33 @@
 
 <!-- ===== SEARCH RESULTS PANEL ===== -->
 <div id="search-results"></div>
+
+<!-- ===== FONT SETTINGS MODAL ===== -->
+<div id="font-settings-modal">
+  <div id="font-settings-box">
+    <div id="font-settings-hdr">
+      <span>Font Ayarları</span>
+      <button id="font-settings-close">✕</button>
+    </div>
+    <div id="font-settings-body">
+      <div class="fset-section">
+        <div class="fset-section-label">Yunanca</div>
+        <div class="fset-list" id="fset-gk"></div>
+      </div>
+      <div class="fset-section">
+        <div class="fset-section-label">İbranice</div>
+        <div class="fset-list" id="fset-heb"></div>
+      </div>
+      <div class="fset-section">
+        <div class="fset-section-label">Türkçe / Latin</div>
+        <div class="fset-list" id="fset-lat"></div>
+      </div>
+    </div>
+    <div id="font-settings-ftr">
+      <button id="font-settings-save">Kaydet</button>
+    </div>
+  </div>
+</div>
 
 <!-- ===== COLUMN INFO POPUP ===== -->
 <div id="col-info-popup">
@@ -4043,7 +4147,6 @@
     e.stopPropagation();
     document.getElementById('theme-pkr-dd').classList.toggle('open');
     document.getElementById('layout-pkr-dd').classList.remove('open');
-    document.getElementById('gkfp-dropdown').classList.remove('open');
   });
   document.querySelectorAll('#theme-pkr-dd .chpkr-option').forEach(el =>
     el.addEventListener('click', () => _setTheme(el.dataset.val, true)));
@@ -4075,7 +4178,6 @@
     e.stopPropagation();
     document.getElementById('layout-pkr-dd').classList.toggle('open');
     document.getElementById('theme-pkr-dd').classList.remove('open');
-    document.getElementById('gkfp-dropdown').classList.remove('open');
   });
   document.querySelectorAll('#layout-pkr-dd .chpkr-option').forEach(el =>
     el.addEventListener('click', () => _setLayout(el.dataset.val)));
@@ -4096,60 +4198,117 @@
     _applyFontSize(_fzPx + 1); _lsSet('kkf_fz_px', String(_fzPx)); saveState();
   });
 
-  // ── Greek font picker ─────────────────────────────────────────────────
-  const GK_FONTS = [
-    { key: 'new-york',    label: 'New York',          stack: "'New York', ui-serif, 'Cardo', Georgia, serif" },
-    { key: 'cardo',       label: 'Cardo',             stack: "'Cardo', Georgia, serif" },
-    { key: 'gfs-didot',   label: 'GFS Didot',         stack: "'GFS Didot', Georgia, serif" },
-    { key: 'eb-garamond', label: 'EB Garamond',       stack: "'EB Garamond', Georgia, serif" },
-    { key: 'noto-serif',  label: 'Noto Serif',        stack: "'Noto Serif', Georgia, serif" },
-    { key: 'crimson-pro', label: 'Crimson Pro',       stack: "'Crimson Pro', Georgia, serif" },
-    { key: 'cormorant',   label: 'Cormorant Garamond',stack: "'Cormorant Garamond', Georgia, serif" },
-    { key: 'playfair',    label: 'Playfair Display',  stack: "'Playfair Display', Georgia, serif" },
-    { key: 'lora',        label: 'Lora',              stack: "'Lora', Georgia, serif" },
-    { key: 'source-serif',label: 'Source Serif 4',    stack: "'Source Serif 4', Georgia, serif" },
-  ];
-  const GK_PREVIEW = 'Ἀρχή';
+  // ── Font settings modal ───────────────────────────────────────────────
+  const FONT_DEFS = {
+    gk: {
+      varName: '--gk-font', lsKey: 'kkf_font_gk', preview: 'Ἀρχή',
+      defaultKey: 'new-york',
+      fonts: [
+        { key: 'new-york',    label: 'New York',           stack: "'New York', ui-serif, 'Cardo', Georgia, serif" },
+        { key: 'cardo',       label: 'Cardo',              stack: "'Cardo', Georgia, serif" },
+        { key: 'gfs-didot',   label: 'GFS Didot',          stack: "'GFS Didot', Georgia, serif" },
+        { key: 'eb-garamond', label: 'EB Garamond',        stack: "'EB Garamond', Georgia, serif" },
+        { key: 'crimson-pro', label: 'Crimson Pro',        stack: "'Crimson Pro', Georgia, serif" },
+        { key: 'cormorant',   label: 'Cormorant Garamond', stack: "'Cormorant Garamond', Georgia, serif" },
+        { key: 'lora',        label: 'Lora',               stack: "'Lora', Georgia, serif" },
+        { key: 'source-serif',label: 'Source Serif 4',     stack: "'Source Serif 4', Georgia, serif" },
+        { key: 'noto-serif',  label: 'Noto Serif',         stack: "'Noto Serif', Georgia, serif" },
+        { key: 'playfair',    label: 'Playfair Display',   stack: "'Playfair Display', Georgia, serif" },
+      ],
+    },
+    heb: {
+      varName: '--heb-font', lsKey: 'kkf_font_heb', preview: 'בְּרֵאשִׁית',
+      defaultKey: 'noto-heb',
+      fonts: [
+        { key: 'noto-heb',       label: 'Noto Serif Hebrew', stack: "'Noto Serif Hebrew', serif" },
+        { key: 'frank-ruhl',     label: 'Frank Ruhl Libre',  stack: "'Frank Ruhl Libre', serif" },
+        { key: 'david-libre',    label: 'David Libre',       stack: "'David Libre', serif" },
+        { key: 'eb-garamond-heb',label: 'EB Garamond',       stack: "'EB Garamond', Georgia, serif" },
+        { key: 'lora-heb',       label: 'Lora',              stack: "'Lora', Georgia, serif" },
+      ],
+    },
+    lat: {
+      varName: '--lat-font', lsKey: 'kkf_font_lat', preview: 'Başlangıçta',
+      defaultKey: 'eb-garamond',
+      fonts: [
+        { key: 'eb-garamond', label: 'EB Garamond',        stack: "'EB Garamond', Georgia, serif" },
+        { key: 'lora',        label: 'Lora',               stack: "'Lora', Georgia, serif" },
+        { key: 'crimson-pro', label: 'Crimson Pro',        stack: "'Crimson Pro', Georgia, serif" },
+        { key: 'cormorant',   label: 'Cormorant Garamond', stack: "'Cormorant Garamond', Georgia, serif" },
+        { key: 'source-serif',label: 'Source Serif 4',     stack: "'Source Serif 4', Georgia, serif" },
+        { key: 'playfair',    label: 'Playfair Display',   stack: "'Playfair Display', Georgia, serif" },
+        { key: 'noto-serif',  label: 'Noto Serif',         stack: "'Noto Serif', Georgia, serif" },
+        { key: 'georgia',     label: 'Georgia',            stack: "Georgia, serif" },
+      ],
+    },
+  };
 
-  function applyGkFont(key) {
-    const f = GK_FONTS.find(x => x.key === key) || GK_FONTS[0];
-    document.documentElement.style.setProperty('--gk-font', f.stack);
-    document.getElementById('gkfp-preview-text').style.fontFamily = f.stack;
-    document.getElementById('gkfp-label').textContent = f.label;
-    document.querySelectorAll('#gkfp-dropdown .gkfp-option').forEach(o =>
+  let _fontSavedState = {};
+
+  function _applyFont(cat, key) {
+    const def = FONT_DEFS[cat];
+    const f = def.fonts.find(x => x.key === key) || def.fonts[0];
+    document.documentElement.style.setProperty(def.varName, f.stack);
+    document.querySelectorAll(`#fset-${cat} .fset-option`).forEach(o =>
       o.classList.toggle('selected', o.dataset.key === key));
   }
 
-  (function buildGkPicker() {
-    const dropdown = document.getElementById('gkfp-dropdown');
-    GK_FONTS.forEach(f => {
-      const div = document.createElement('div');
-      div.className = 'gkfp-option';
-      div.dataset.key = f.key;
-      div.innerHTML = `<span class="go-preview" style="font-family:${f.stack}">${GK_PREVIEW}</span><span class="go-name">${f.label}</span>`;
-      div.addEventListener('click', () => {
-        applyGkFont(f.key);
-        _lsSet('gkFont', f.key);
-        dropdown.classList.remove('open');
+  function _buildFontList(cat) {
+    const def = FONT_DEFS[cat];
+    const list = document.getElementById(`fset-${cat}`);
+    list.innerHTML = '';
+    def.fonts.forEach(f => {
+      const el = document.createElement('div');
+      el.className = 'fset-option';
+      el.dataset.key = f.key;
+      el.innerHTML = `<span class="fo-preview" style="font-family:${f.stack}">${def.preview}</span><span class="fo-name">${f.label}</span>`;
+      el.addEventListener('click', () => _applyFont(cat, f.key));
+      list.appendChild(el);
+    });
+  }
+
+  function _openFontSettings() {
+    _fontSavedState = {
+      gk:  getComputedStyle(document.documentElement).getPropertyValue('--gk-font').trim(),
+      heb: getComputedStyle(document.documentElement).getPropertyValue('--heb-font').trim(),
+      lat: getComputedStyle(document.documentElement).getPropertyValue('--lat-font').trim(),
+    };
+    ['gk','heb','lat'].forEach(cat => {
+      _buildFontList(cat);
+      const savedKey = _lsGet(FONT_DEFS[cat].lsKey) || FONT_DEFS[cat].defaultKey;
+      _applyFont(cat, savedKey);
+    });
+    document.getElementById('font-settings-modal').classList.add('open');
+  }
+
+  function _closeFontSettings(save) {
+    if (save) {
+      ['gk','heb','lat'].forEach(cat => {
+        const selected = document.querySelector(`#fset-${cat} .fset-option.selected`);
+        if (selected) _lsSet(FONT_DEFS[cat].lsKey, selected.dataset.key);
       });
-      dropdown.appendChild(div);
-    });
+    } else {
+      if (_fontSavedState.gk)  document.documentElement.style.setProperty('--gk-font',  _fontSavedState.gk);
+      if (_fontSavedState.heb) document.documentElement.style.setProperty('--heb-font', _fontSavedState.heb);
+      if (_fontSavedState.lat) document.documentElement.style.setProperty('--lat-font', _fontSavedState.lat);
+    }
+    document.getElementById('font-settings-modal').classList.remove('open');
+  }
 
-    const btn = document.getElementById('gkfp-btn');
-    btn.addEventListener('click', e => {
-      e.stopPropagation();
-      dropdown.classList.toggle('open');
-    });
-    document.addEventListener('click', () => {
-      dropdown.classList.remove('open');
-      document.getElementById('theme-pkr-dd')?.classList.remove('open');
-      document.getElementById('layout-pkr-dd')?.classList.remove('open');
-    });
-    dropdown.addEventListener('click', e => e.stopPropagation());
-  })();
+  document.getElementById('btn-font-settings').addEventListener('click', _openFontSettings);
+  document.getElementById('font-settings-close').addEventListener('click', () => _closeFontSettings(false));
+  document.getElementById('font-settings-save').addEventListener('click', () => _closeFontSettings(true));
+  document.getElementById('font-settings-modal').addEventListener('click', e => {
+    if (e.target === document.getElementById('font-settings-modal')) _closeFontSettings(false);
+  });
 
-  const savedGkFont = _lsGet('gkFont') || 'new-york';
-  applyGkFont(savedGkFont);
+  // Apply saved fonts on load
+  ['gk','heb','lat'].forEach(cat => {
+    const def = FONT_DEFS[cat];
+    const key = _lsGet(def.lsKey) || def.defaultKey;
+    const f = def.fonts.find(x => x.key === key) || def.fonts[0];
+    document.documentElement.style.setProperty(def.varName, f.stack);
+  });
 
   document.getElementById('chk-vn').addEventListener('change', e => {
     document.body.classList.toggle('hide-vn', !e.target.checked);
