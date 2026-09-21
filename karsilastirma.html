@@ -6339,7 +6339,11 @@
   });
 
   function _transGlobalToggle(addAll) {
-    TRANS_ORDER.filter(id => ALL_TRANS[id]?.loaded).forEach(id => {
+    const isAdmin = sessionStorage.getItem('kkf_admin') === '1';
+    const hiddenIds = new Set(
+      TRANS_CATEGORIES.filter(c => c.hidden).flatMap(c => c.subcats.flatMap(sc => sc.ids))
+    );
+    TRANS_ORDER.filter(id => ALL_TRANS[id]?.loaded && (!addAll || isAdmin || !hiddenIds.has(id))).forEach(id => {
       if (addAll) selectedTranslations.add(id); else selectedTranslations.delete(id);
     });
     syncTranslationUI();
