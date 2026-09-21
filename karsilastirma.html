@@ -693,11 +693,11 @@
     :root { --gk-font: 'New York', ui-serif, 'Cardo', Georgia, serif; }
     .col[data-greek] .col-content {
       font-family: var(--gk-font);
-      font-size: 15px;
+      font-size: calc(var(--vt-fz, 16.5px) * 0.91);
       line-height: 2.0;
     }
     .col[data-greek] .vt {
-      font-size: 15px;
+      font-size: calc(var(--vt-fz, 16.5px) * 0.91);
       line-height: 2.0;
     }
 
@@ -835,11 +835,11 @@
     .col[data-rtl] .col-content {
       direction: rtl;
       font-family: 'Noto Serif Hebrew', 'SBL Hebrew', 'Ezra SIL', serif;
-      font-size: 15px;
+      font-size: calc(var(--vt-fz, 16.5px) * 0.91);
       line-height: 2.1;
     }
     .col[data-rtl] .vt {
-      font-size: 15px;
+      font-size: calc(var(--vt-fz, 16.5px) * 0.91);
       line-height: 2.1;
     }
     .col[data-rtl] .vn {
