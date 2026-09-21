@@ -3354,6 +3354,15 @@
           btn.dataset.label = 'Dipnot · Yeni Çeviri';
           v.querySelector('.vt').appendChild(btn);
         }
+        if (item.note) {
+          const btn = document.createElement('button');
+          btn.className = 'notes-star';
+          btn.textContent = '†';
+          btn.title = 'Çeviri notu';
+          btn.dataset.note = item.note;
+          btn.dataset.label = `Çeviri notu · ${translationId}`;
+          v.querySelector('.vt').appendChild(btn);
+        }
         if (chapterExtraNotes) {
           const vtEl = v.querySelector('.vt');
           for (const {cls, symbol, label, verseData} of chapterExtraNotes) {
