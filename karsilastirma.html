@@ -3404,8 +3404,6 @@
         if (colOrder) {
           const ai = colOrder.indexOf(a), bi = colOrder.indexOf(b);
           if (ai !== -1 && bi !== -1) return ai - bi;
-          if (ai !== -1) return -1;
-          if (bi !== -1) return 1;
         }
         return TRANS_ORDER.indexOf(a) - TRANS_ORDER.indexOf(b);
       });
