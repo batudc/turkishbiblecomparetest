@@ -519,6 +519,7 @@
       flex-direction: column;
       overflow: hidden;
     }
+    .col.col-hidden { display: none !important; }
 
     .col-header {
       flex-shrink: 0;
@@ -3058,7 +3059,7 @@
   };
 
   function getCols() {
-    return Array.from(document.querySelectorAll('.col-content'));
+    return Array.from(document.querySelectorAll('.col:not(.col-hidden) .col-content'));
   }
 
   // Returns true if this column's verse positions were measured while it was visible
@@ -3353,12 +3354,19 @@
       const _peSafe = translationId.replace(/[^a-zA-Z0-9İı]/g, '_');
       const pubOverlay = (window._pubEdits || {})['kkf_ed_' + _peSafe + '_' + bookCode + '_' + chapter] || {};
       renderChapter(container, data, chapter, translationId, chapterErrata, chapterNotes, chapterExtraNotes.length ? chapterExtraNotes : null, pubOverlay);
+      colEl.classList.remove('col-hidden');
     } catch {
-      const entry = TRANS_NOTES[translationId];
-      if (entry && !entry[0].has(bookCode)) {
-        container.innerHTML = `<div class="col-note"><p>${entry[1]}</p></div>`;
+      const totalCols = document.querySelectorAll('.col[data-translation]').length;
+      if (totalCols > 1) {
+        colEl.classList.add('col-hidden');
       } else {
-        container.innerHTML = `<div class="col-note"><p>Bu bölüm bu tercümede mevcut değil.</p></div>`;
+        colEl.classList.remove('col-hidden');
+        const entry = TRANS_NOTES[translationId];
+        if (entry && !entry[0].has(bookCode)) {
+          container.innerHTML = `<div class="col-note"><p>${entry[1]}</p></div>`;
+        } else {
+          container.innerHTML = `<div class="col-note"><p>Bu bölüm bu tercümede mevcut değil.</p></div>`;
+        }
       }
     }
     reinitSync();
