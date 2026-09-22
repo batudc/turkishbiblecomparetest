@@ -1,1 +1,103 @@
-{"t":"KA2007","b":"JOS","c":12,"content":[{"v":1,"text":"Erden’in ötesinde kuzeye doğru Arnon vadisinden Hermon dağına kadar ve kuzey yönünde olan tüm yörelerde İsrailoğullarının vurup ülkelerini aldıkları ülkelerin kralları bunlardır:"},{"v":2,"text":"Heşbon’da oturan Amorîler’in kralı Sihon ki bu Arnon vadisi kenarında olan Areor’den ve vadinin ortasından Gilead’ın yarısıyla Ammonoğullarının sınırıolan Yabbok vadisine kadar."},{"v":3,"text":"Kuzeye doğru Kinnerot denizine dek ve kuzeyde Yeşimot-Evi yoluna; güneyde Aştarot-Pisga’nın altındaki deniz kesimine; yani tuz denizine dekege mendi."},{"v":4,"text":"Ve Aştarot ile Edrei’de oturan Cab barlardan(Re falılar) kalan Başan kralı Og’un ülkelerini aldılar."},{"v":5,"text":"O Hermon dağın da, Sele kada Ge şu rîler’in ve Maakalılar’ınsınırla rın da; tüm Başan ile Heşbon kralı Sihon’un sınırıolan Gilead’ınya rısına dek egemendi."},{"v":6,"text":"Bunları Rabb’in kulu Musa ve İsrailoğulları vurdular. Ülkelerini Rabb’in kulu Musa Rubunîlere’e, Gadîler’e ve Manessa oymağının yarısına miras olmak üzere verdi."},{"v":7,"text":"Erden’in berisi; yani batısındaki Libnan ovasında olan Baal-Gad’tan Seir’e giden Halak dağına kadar Yeşu ve İsrailoğulları’nın vurdukları ülkelerin kralları bunlardır."},{"v":8,"text":"Yeşu da dağ da o va da, kırsal kesim ile dağın eteklerinde, çölde ve güneydeki Hititler Amorîler, Kenanlılar, Perizzîler, Hivîler ile Yebusîler’in ülkelerini İsrail oymaklarının bölüklerine göre miras olmakiçin verdi."},{"v":9,"text":"Eriha kralı Beyt-El yanında olan Ay kralı bir;"},{"v":10,"text":"Oruşalim kralı bir, Hebronkralı bir;"},{"v":11,"text":"Yarmut kralı bir, Lakiş kralı bir;"},{"v":12,"text":"Eglon kralı bir, Gezer kralı bir;"},{"v":13,"text":"Debir kralı bir, Geder kralı bir;"},{"v":14,"text":"Horma kralı bir, A rad kralı bir;"},{"v":15,"text":"Libna kralı bir, Adullam kralı bir;"},{"v":16,"text":"Makkeda kralı bir, Elevi kralı bir;"},{"v":17,"text":"Tappuah kralı bir, Hefer kralı bir;"},{"v":18,"text":"Afek kralı bir, Laşşaron kralı bir;"},{"v":19,"text":"Madon kralı bir, Hatsor kralı bir;"},{"v":20,"text":"Şimron-Meron kralı bir, Akşaf kralı bir;"},{"v":21,"text":"Taanak kralı bir, Magiddo kralı bir;"},{"v":22,"text":"Kedeş kralı bir, Kermel’de olan Yokneam kralı bir;"},{"v":23,"text":"Dor sırtlarında Dor kralı bir, Gilgal’de olan Goyim kralı bir;"},{"v":24,"text":"Ve Tersa kralı bir olmak üzere tüm kralların sayısı otuzbirdi."}]}
+{
+  "t": "KA2007",
+  "b": "JOS",
+  "c": 12,
+  "content": [
+    {
+      "v": 1,
+      "text": "Erden’in ötesinde kuzeye doğru Arnon vadisinden Hermon dağına kadar ve kuzey yönünde olan tüm yörelerde İsrailoğullarının vurup ülkelerini aldıkları ülkelerin kralları bunlardır:"
+    },
+    {
+      "v": 2,
+      "text": "Heşbon’da oturan Amorîler’in kralı Sihon ki bu Arnon vadisi kenarında olan Areor’den ve vadinin ortasından Gilead’ın yarısıyla Ammonoğullarının sınırıolan Yabbok vadisine kadar."
+    },
+    {
+      "v": 3,
+      "text": "Kuzeye doğru Kinnerot denizine dek ve kuzeyde Yeşimot-Evi yoluna; güneyde Aştarot-Pisga’nın altındaki deniz kesimine; yani tuz denizine dekege mendi."
+    },
+    {
+      "v": 4,
+      "text": "Ve Aştarot ile Edrei’de oturan Cab barlardan (Refalılar) kalan Başan kralı Og’un ülkelerini aldılar."
+    },
+    {
+      "v": 5,
+      "text": "O Hermon dağında, Sele kada Ge şu rîler’in ve Maakalılar’ınsınırla rın da; tüm Başan ile Heşbon kralı Sihon’un sınırıolan Gilead’ınya rısına dek egemendi."
+    },
+    {
+      "v": 6,
+      "text": "Bunları Rabb’in kulu Musa ve İsrailoğulları vurdular. Ülkelerini Rabb’in kulu Musa Rubunîlere’e, Gadîler’e ve Manessa oymağının yarısına miras olmak üzere verdi."
+    },
+    {
+      "v": 7,
+      "text": "Erden’in berisi; yani batısındaki Libnan ovasında olan Baal-Gad’tan Seir’e giden Halak dağına kadar Yeşu ve İsrailoğulları’nın vurdukları ülkelerin kralları bunlardır."
+    },
+    {
+      "v": 8,
+      "text": "Yeşu da dağda o va da, kırsal kesim ile dağın eteklerinde, çölde ve güneydeki Hititler Amorîler, Kenanlılar, Perizzîler, Hivîler ile Yebusîler’in ülkelerini İsrail oymaklarının bölüklerine göre miras olmakiçin verdi."
+    },
+    {
+      "v": 9,
+      "text": "Eriha kralı Beyt-El yanında olan Ay kralı bir;"
+    },
+    {
+      "v": 10,
+      "text": "Oruşalim kralı bir, Hebron kralı bir;"
+    },
+    {
+      "v": 11,
+      "text": "Yarmut kralı bir, Lakiş kralı bir;"
+    },
+    {
+      "v": 12,
+      "text": "Eglon kralı bir, Gezer kralı bir;"
+    },
+    {
+      "v": 13,
+      "text": "Debir kralı bir, Geder kralı bir;"
+    },
+    {
+      "v": 14,
+      "text": "Horma kralı bir, A rad kralı bir;"
+    },
+    {
+      "v": 15,
+      "text": "Libna kralı bir, Adullam kralı bir;"
+    },
+    {
+      "v": 16,
+      "text": "Makkeda kralı bir, Elevi kralı bir;"
+    },
+    {
+      "v": 17,
+      "text": "Tappuah kralı bir, Hefer kralı bir;"
+    },
+    {
+      "v": 18,
+      "text": "Afek kralı bir, Laşşaron kralı bir;"
+    },
+    {
+      "v": 19,
+      "text": "Madon kralı bir, Hatsor kralı bir;"
+    },
+    {
+      "v": 20,
+      "text": "Şimron-Meron kralı bir, Akşaf kralı bir;"
+    },
+    {
+      "v": 21,
+      "text": "Taanak kralı bir, Magiddo kralı bir;"
+    },
+    {
+      "v": 22,
+      "text": "Kedeş kralı bir, Kermel’de olan Yokneam kralı bir;"
+    },
+    {
+      "v": 23,
+      "text": "Dor sırtlarında Dor kralı bir, Gilgal’de olan Goyim kralı bir;"
+    },
+    {
+      "v": 24,
+      "text": "Ve Tersa kralı bir olmak üzere tüm kralların sayısı otuzbirdi."
+    }
+  ]
+}

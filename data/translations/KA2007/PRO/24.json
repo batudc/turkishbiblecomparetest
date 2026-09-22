@@ -1,1 +1,143 @@
-{"t":"KA2007","b":"PRO","c":24,"content":[{"v":1,"text":"Kötüleri kıskanma ve onlarla beraber olmaya arzu etme."},{"v":2,"text":"Çünkü yürekleri zulüm düşünüyor ve dudakları kahırdan söz ediyor."},{"v":3,"text":"Ev bilgiyle yapılır ve anlayışla düzülür."},{"v":4,"text":"Depoları bilgi yoluyla, her türlü değerli ve nefis mallarla dolar."},{"v":5,"text":"Bilgeler güçlü oluyor ve bilgelik bilimle güçleniyor."},{"v":6,"text":"Çünkü sağlam öğütle cenk edecek ve çok öğütçülerle kurtulacaksın."},{"v":7,"text":"Bilgelik anlayışsızlar için çok yüce bir şeydir; kapı dayken ağzını açmıyor."},{"v":8,"text":"Ve kötülük düşünen kimseye fesat çıkaran deniyor."},{"v":9,"text":"Eğlenceyi düşünmek günahtır ve insanlar arasında alayctiksintidir."},{"v":10,"text":"ı Sıkıntı gününde gevşeklik gösterirsen gücün azalır."},{"v":11,"text":"Ölüme götürülenleri kurtar ve öldürülmek üzere olanları kurtarmaktan çekinme."},{"v":12,"text":"İşte biz bunu bilmedik dersek; yürekleri ölçen kesinlikle anlar ve senin canını koruyan bilir. İnsanı işine göre ödüllendirir."},{"v":13,"text":"Ey oğlum! Bal ye çünkü iyidir. Yemekte bal ye; çünkü damağa tatlıdır."},{"v":14,"text":"Eğer bulabilirsen bilgeliği bulmak canına böyledir ve ahiret var ümidin boşa çıkmayacaktır."},{"v":15,"text":"Ey kötü iyinin evine karşı pusu kurma ve onun yurdunu yıkma."},{"v":16,"text":"Çünkü doğru kişi yedi kez düşse de yine kalkar; ama kötüler bela zamanı yıkılırlar."},{"v":17,"text":"Düşmanının düştüğüne sevinme ve yıkıldığında yüreğin sevinmesin."},{"v":18,"text":"Sakın ki, Rabb görsün ve gözünde kötü görünsün. Öfkesini ondan döndürsün."},{"v":19,"text":"Kötüler için incinme, yara mazları kıskanma."},{"v":20,"text":"Çünkü kötü insanın geleceği iyi olmaz ve kötülerin ışığı söner."},{"v":21,"text":"Ey oğlum Rabb’ten ve kraldan kork isyancılarla anlaşma."},{"v":22,"text":"Çünkü onların ölümü ansızın gelir ve ikisine gelecek belayı kim bilir?"},{"v":23,"text":"Bu şeyler de bilgelik sahipleri içindir ve yargıda hatır gözetmek iyi değildir."},{"v":24,"text":"Kötüye iyisin diyene halk beddua ediyor ve milletler ona lanet okuyor."},{"v":25,"text":"Ama onu azarlayanlar zevk buluyor ve onlar üzerine iyi bereket oluyor."},{"v":26,"text":"Doğru yanıt veren kişi dudaklarını öpen gibidir."},{"v":27,"text":"Dışardaki işini ölç biç ve onu tarlanda düzenle; ondan sonra da evini yap."},{"v":28,"text":"Komşuna karşı sebepsiz tanıklık yapma ve dudaklarınla aldatma."},{"v":29,"text":"Bana yaptığı gibi ben de ona öyle yapacağım; ve o adama işine göre ödeyeceğim deme."},{"v":30,"text":"Tembelin tarlasının ve aklı noksan adamın bağının yanından geçtim;"},{"v":31,"text":"İşte hepsinde diken bitmiş yüzünü ısırganlar örtmüş ve taş duvarı yıkılmıştı."},{"v":32,"text":"Öylece baktım, aklımda sakladım ve ibret aldım."},{"v":33,"text":"Azıcık uyku azıcıkuyuk lama ve yatmak için azıcık eli el üstüne koyma derken;"},{"v":34,"text":"Senin yoksulluğun hırsız gibi ve gerek sinmen silahlı adam gibi gelecek."}]}
+{
+  "t": "KA2007",
+  "b": "PRO",
+  "c": 24,
+  "content": [
+    {
+      "v": 1,
+      "text": "Kötüleri kıskanma ve onlarla beraber olmaya arzu etme."
+    },
+    {
+      "v": 2,
+      "text": "Çünkü yürekleri zulüm düşünüyor ve dudakları kahırdan söz ediyor."
+    },
+    {
+      "v": 3,
+      "text": "Ev bilgiyle yapılır ve anlayışla düzülür."
+    },
+    {
+      "v": 4,
+      "text": "Depoları bilgi yoluyla, her türlü değerli ve nefis mallarla dolar."
+    },
+    {
+      "v": 5,
+      "text": "Bilgeler güçlü oluyor ve bilgelik bilimle güçleniyor."
+    },
+    {
+      "v": 6,
+      "text": "Çünkü sağlam öğütle cenk edecek ve çok öğütçülerle kurtulacaksın."
+    },
+    {
+      "v": 7,
+      "text": "Bilgelik anlayışsızlar için çok yüce bir şeydir; kapı dayken ağzını açmıyor."
+    },
+    {
+      "v": 8,
+      "text": "Ve kötülük düşünen kimseye fesat çıkaran deniyor."
+    },
+    {
+      "v": 9,
+      "text": "Eğlenceyi düşünmek günahtır ve insanlar arasında alayctiksintidir."
+    },
+    {
+      "v": 10,
+      "text": "ı Sıkıntı gününde gevşeklik gösterirsen gücün azalır."
+    },
+    {
+      "v": 11,
+      "text": "Ölüme götürülenleri kurtar ve öldürülmek üzere olanları kurtarmaktan çekinme."
+    },
+    {
+      "v": 12,
+      "text": "İşte biz bunu bilmedik dersek; yürekleri ölçen kesinlikle anlar ve senin canını koruyan bilir. İnsanı işine göre ödüllendirir."
+    },
+    {
+      "v": 13,
+      "text": "Ey oğlum! Bal ye çünkü iyidir. Yemekte bal ye; çünkü damağa tatlıdır."
+    },
+    {
+      "v": 14,
+      "text": "Eğer bulabilirsen bilgeliği bulmak canına böyledir ve ahiret var ümidin boşa çıkmayacaktır."
+    },
+    {
+      "v": 15,
+      "text": "Ey kötü iyinin evine karşı pusu kurma ve onun yurdunu yıkma."
+    },
+    {
+      "v": 16,
+      "text": "Çünkü doğru kişi yedi kez düşse de yine kalkar; ama kötüler bela zamanı yıkılırlar."
+    },
+    {
+      "v": 17,
+      "text": "Düşmanının düştüğüne sevinme ve yıkıldığında yüreğin sevinmesin."
+    },
+    {
+      "v": 18,
+      "text": "Sakın ki, Rabb görsün ve gözünde kötü görünsün. Öfkesini ondan döndürsün."
+    },
+    {
+      "v": 19,
+      "text": "Kötüler için incinme, yara mazları kıskanma."
+    },
+    {
+      "v": 20,
+      "text": "Çünkü kötü insanın geleceği iyi olmaz ve kötülerin ışığı söner."
+    },
+    {
+      "v": 21,
+      "text": "Ey oğlum Rabb’ten ve kraldan kork isyancılarla anlaşma."
+    },
+    {
+      "v": 22,
+      "text": "Çünkü onların ölümü ansızın gelir ve ikisine gelecek belayı kim bilir?"
+    },
+    {
+      "v": 23,
+      "text": "Bu şeylerde bilgelik sahipleri içindir ve yargıda hatır gözetmek iyi değildir."
+    },
+    {
+      "v": 24,
+      "text": "Kötüye iyisin diyene halk beddua ediyor ve milletler ona lanet okuyor."
+    },
+    {
+      "v": 25,
+      "text": "Ama onu azarlayanlar zevk buluyor ve onlar üzerine iyi bereket oluyor."
+    },
+    {
+      "v": 26,
+      "text": "Doğru yanıt veren kişi dudaklarını öpen gibidir."
+    },
+    {
+      "v": 27,
+      "text": "Dışardaki işini ölç biç ve onu tarlanda düzenle; ondan sonra da evini yap."
+    },
+    {
+      "v": 28,
+      "text": "Komşuna karşı sebepsiz tanıklık yapma ve dudaklarınla aldatma."
+    },
+    {
+      "v": 29,
+      "text": "Bana yaptığı gibi bende ona öyle yapacağım; ve o adama işine göre ödeyeceğim deme."
+    },
+    {
+      "v": 30,
+      "text": "Tembelin tarlasının ve aklı noksan adamın bağının yanından geçtim;"
+    },
+    {
+      "v": 31,
+      "text": "İşte hepsinde diken bitmiş yüzünü ısırganlar örtmüş ve taş duvarı yıkılmıştı."
+    },
+    {
+      "v": 32,
+      "text": "Öylece baktım, aklımda sakladım ve ibret aldım."
+    },
+    {
+      "v": 33,
+      "text": "Azıcık uyku azıcıkuyuk lama ve yatmak için azıcık eliel üstüne koyma derken;"
+    },
+    {
+      "v": 34,
+      "text": "Senin yoksulluğun hırsız gibi ve gerek sinmen silahlı adam gibi gelecek."
+    }
+  ]
+}

@@ -1,1 +1,127 @@
-{"t":"KA2007","b":"LEV","c":18,"content":[{"v":1,"text":"Rabb, Musa’ya şöyle buyurdu:"},{"v":2,"text":"-İsrail oğulları’na söyle ki, Allah’ınız Yehovah Ben’im."},{"v":3,"text":"Yaşadığınız Mısır diyarının işleriyle yürütmeyin ve sizi götüreceğim Kenan diyarının işlerinden yapmayın, onların yasalarından gitmeyin."},{"v":4,"text":"Ama onlarla yürümek üzere işlerimi yürütüp kanunları mı tutasınız. Allah’ınız Rabb, Ben’im."},{"v":5,"text":"Şimdi kanunlarımı ve buyruklarımı tutun; çünkü onları yürüten adam onlar ile yaşayacaktır. Rabb ‘Ben’ - im."},{"v":6,"text":"Hiçbir kişi kendi akrabasından birine çıplaklığını açmak için yaklaşmasın. Rabb, ‘Ben’im."},{"v":7,"text":"Babanın veya annenin çıplaklığını açmayasın. O annendir; çıplaklığını açmayasın."},{"v":8,"text":"Babanın eşinin çıplaklığını açmayasın; babanın çıplaklığıdır."},{"v":9,"text":"Babanın kızı veya annenin kızı olan kızkardeşinin ; o gerek evde doğmuş ve gerek dışarda doğmuş olsun onların çıplaklığını açmayasın."},{"v":10,"text":"Oğlunun kızının çıplaklığını veya kızının kızının çıplaklığını açmayasın. Çünkü onların çıplaklığı senindir çıplaklığındır."},{"v":11,"text":"Babanın eşinin kızının çıplaklığını; çünkü o babandan dır. Kızkardeşin ol duğ undan, çıplaklığını açmayasın."},{"v":12,"text":"Babanın kızkardeşinin çıplaklığını açmayasın. O senin babanın yakınıdır."},{"v":13,"text":"Annenin kız kardeşinin çıplaklığını açmayasın. Çünkü annenin yakınıdır."},{"v":14,"text":"Eşini alan amcanın çıplaklığını aç mayasın. Çünkü; o senin yengendir."},{"v":15,"text":"Ge li ninin çıplaklığını açmayasın. Oğlunun karısıdır; onun çıplaklığını açmayasın."},{"v":16,"text":"Kardeşinin karısının çıplaklığını açmayasın: Çünkü kardeşinin çıplaklığıdır."},{"v":17,"text":"Bir kadının ve kızın çıplaklığını açmayasın. Onun oğlunun kızının veya kızının kızının çıplaklığını açmak için almayasın. Onlar onun yakınıdır ve bu çok kötü bir iştir."},{"v":18,"text":"Ve bir kadın daha sağ iken üzerine kızkardeşini alıp çıplaklığını açarak onu üzmeyesin."},{"v":19,"text":"O nun kirliliğinden ötürü ayrı duran kadına çıplaklığını açmak için yaklaş mayasın."},{"v":20,"text":"Ve bir leşmek için komşunun eşiyle yatıp onunla kendini kirletmeyesin."},{"v":21,"text":"Soyundan Molek için ateşten geçirmek üzere vermeyesin ve Allah’ın adını bozmayasın; çünkü Rabb Ben’im."},{"v":22,"text":"Kadınla yatıyormuş gibi erkekle yatma. Bu çok çirkin bir şeydir."},{"v":23,"text":"Ve bir hayvanla cinsel ilişki kurup kendini kirletme ve bir kadın bir leşmek için hayvan önünde durmasın. Bu çok kötü bir şeydir."},{"v":24,"text":"Bunların biriyle kirlenmeyesin; çünkü önünüzden atacağım milletler tüm bunlarla kirlendiler."},{"v":25,"text":"Ve ülkeler kirlen diğinden; ben kötülüğünün cezasını vereceğim ve o ülke içinde yaşayanları dışarıya kusacak."},{"v":26,"text":"Ama siz yasalarımı ve yollarımı tutun; ne yerli ve ne de aranızda yaşayan yabancı bu kötülüklerin hiçbirini yapmasın."},{"v":27,"text":"(Çünkü ülkenin sizden önce olan halkı bu kötülüklerin tümünü yaparak o ülke kirlendi.)"},{"v":28,"text":"Sakın ülke sizden önce olan millletleri kustuğu gibi sizi de onu kirlettiğiniz an kusmasın."},{"v":29,"text":"Çünkü her kim bu kötülüklerden birini yapacak olursa; onu yapanlar kendi milletleri arasından atılacaklardır."},{"v":30,"text":"Böylece sizde önce yapılan kötü alışkanlıklardan hiçbirini yapmamak ve onlar ile kirlenmemek için öğütlerimi tutunuz. Allah’ınız Rabb ‘Ben’i m."}]}
+{
+  "t": "KA2007",
+  "b": "LEV",
+  "c": 18,
+  "content": [
+    {
+      "v": 1,
+      "text": "Rabb, Musa’ya şöyle buyurdu:"
+    },
+    {
+      "v": 2,
+      "text": "-İsrailoğulları’na söyle ki, Allah’ınız Yehovah Ben’im."
+    },
+    {
+      "v": 3,
+      "text": "Yaşadığınız Mısır diyarının işleriyle yürütmeyin ve sizi götüreceğim Kenan diyarının işlerinden yapmayın, onların yasalarından gitmeyin."
+    },
+    {
+      "v": 4,
+      "text": "Ama onlarla yürümek üzere işlerimi yürütüp kanunlarımı tutasınız. Allah’ınız Rabb, Ben’im."
+    },
+    {
+      "v": 5,
+      "text": "Şimdi kanunlarımı ve buyruklarımı tutun; çünkü onları yürüten adam onlar ile yaşayacaktır. Rabb ‘Ben’ - im."
+    },
+    {
+      "v": 6,
+      "text": "Hiçbir kişi kendi akrabasından birine çıplaklığını açmak için yaklaşmasın. Rabb, ‘Ben’im."
+    },
+    {
+      "v": 7,
+      "text": "Babanın veya annenin çıplaklığını açmayasın. O annendir; çıplaklığını açmayasın."
+    },
+    {
+      "v": 8,
+      "text": "Babanın eşinin çıplaklığını açmayasın; babanın çıplaklığıdır."
+    },
+    {
+      "v": 9,
+      "text": "Babanın kızı veya annenin kızı olan kızkardeşinin ; o gerek evde doğmuş ve gerek dışarda doğmuş olsun onların çıplaklığını açmayasın."
+    },
+    {
+      "v": 10,
+      "text": "Oğlunun kızının çıplaklığını veya kızının kızının çıplaklığını açmayasın. Çünkü onların çıplaklığı senindir çıplaklığındır."
+    },
+    {
+      "v": 11,
+      "text": "Babanın eşinin kızının çıplaklığını; çünkü o babandan dır. Kızkardeşin olduğundan, çıplaklığını açmayasın."
+    },
+    {
+      "v": 12,
+      "text": "Babanın kızkardeşinin çıplaklığını açmayasın. O senin babanın yakınıdır."
+    },
+    {
+      "v": 13,
+      "text": "Annenin kızkardeşinin çıplaklığını açmayasın. Çünkü annenin yakınıdır."
+    },
+    {
+      "v": 14,
+      "text": "Eşini alan amcanın çıplaklığını açmayasın. Çünkü; o senin yengendir."
+    },
+    {
+      "v": 15,
+      "text": "Ge li ninin çıplaklığını açmayasın. Oğlunun karısıdır; onun çıplaklığını açmayasın."
+    },
+    {
+      "v": 16,
+      "text": "Kardeşinin karısının çıplaklığını açmayasın: Çünkü kardeşinin çıplaklığıdır."
+    },
+    {
+      "v": 17,
+      "text": "Bir kadının ve kızın çıplaklığını açmayasın. Onun oğlunun kızının veya kızının kızının çıplaklığını açmak için almayasın. Onlar onun yakınıdır ve bu çok kötü bir iştir."
+    },
+    {
+      "v": 18,
+      "text": "Ve bir kadın daha sağ iken üzerine kızkardeşini alıp çıplaklığını açarak onu üzmeyesin."
+    },
+    {
+      "v": 19,
+      "text": "O nun kirliliğinden ötürü ayrı duran kadına çıplaklığını açmak için yaklaş mayasın."
+    },
+    {
+      "v": 20,
+      "text": "Ve bir leşmek için komşunun eşiyle yatıp onunla kendini kirletmeyesin."
+    },
+    {
+      "v": 21,
+      "text": "Soyundan Molek için ateşten geçirmek üzere vermeyesin ve Allah’ın adını bozmayasın; çünkü Rabb Ben’im."
+    },
+    {
+      "v": 22,
+      "text": "Kadınla yatıyormuş gibi erkekle yatma. Bu çok çirkin bir şeydir."
+    },
+    {
+      "v": 23,
+      "text": "Ve bir hayvanla cinsel ilişki kurup kendini kirletme ve bir kadın bir leşmek için hayvan önünde durmasın. Bu çok kötü bir şeydir."
+    },
+    {
+      "v": 24,
+      "text": "Bunların biriyle kirlenmeyesin; çünkü önünüzden atacağım milletler tüm bunlarla kirlendiler."
+    },
+    {
+      "v": 25,
+      "text": "Ve ülkeler kirlen diğinden; ben kötülüğünün cezasını vereceğim ve o ülke içinde yaşayanları dışarıya kusacak."
+    },
+    {
+      "v": 26,
+      "text": "Ama siz yasalarımı ve yollarımı tutun; ne yerli ve ne de aranızda yaşayan yabancı bu kötülüklerin hiçbirini yapmasın."
+    },
+    {
+      "v": 27,
+      "text": "(Çünkü ülkenin sizden önce olan halkı bu kötülüklerin tümünü yaparak o ülke kirlendi.)"
+    },
+    {
+      "v": 28,
+      "text": "Sakın ülke sizden önce olan millletleri kustuğu gibi sizi de onu kirlettiğiniz an kusmasın."
+    },
+    {
+      "v": 29,
+      "text": "Çünkü her kim bu kötülüklerden birini yapacak olursa; onu yapanlar kendi milletleri arasından atılacaklardır."
+    },
+    {
+      "v": 30,
+      "text": "Böylece sizde önce yapılan kötü alışkanlıklardan hiçbirini yapmamak ve onlar ile kirlenmemek için öğütlerimi tutunuz. Allah’ınız Rabb ‘Ben’i m."
+    }
+  ]
+}

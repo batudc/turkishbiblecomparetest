@@ -1,1 +1,123 @@
-{"t":"KA2007","b":"PRO","c":22,"content":[{"v":1,"text":"İyi isim(nam) çok maldan; lütuf ve iyilik de altından daha çok değerlidir."},{"v":2,"text":"Zengin ile yoksul karşılaşıyor; ama ikisinin de yaratıcısı Rabb’dir."},{"v":3,"text":"Akıllı adam belayı görüyor ve gizleniyor; akılızlar ise ileriye geçip zarar getiriyor."},{"v":4,"text":"sAlçak gönüllülük ile Rabb korkusunun sonucu; zenginlik, görkem ve yaşamdır."},{"v":5,"text":"Eğri adamın yolunda diken ve kementler vardır; canını koruyan onlardan uzak durur."},{"v":6,"text":"Çocuğa yolun başlangıcında öğret ve yaşlandığında bile ondan sapmayacaktır."},{"v":7,"text":"Zengin yoksullara egemen olur; ve borç alan da borç verenin kulu olur."},{"v":8,"text":"Kötülük eken kötülük biçecek ve öfkenin asası kırılacaktır."},{"v":9,"text":"İyi gözlü adam kutlu olacak; çünkü kendi ekmeğinden yoksula veriyor."},{"v":10,"text":"Alay edeni uzaklaştır, kavga bitecek ve çekişme ile hakaret kesilecek."},{"v":11,"text":"Temiz yüreği seven kişinin dudaklarında lütuf olduğundan, kral ona dost olur."},{"v":12,"text":"Rabb’in gözleri bilimi korur; ama zalimin sözlerini bozar."},{"v":13,"text":"Tembel diyor ki dışarıda aslan var; sokaklarda öldürüleceğim."},{"v":14,"text":"Fahişelerin ağzı derin çukurdur; Rabb’in öfkelendiği adam oraya düşer."},{"v":15,"text":"Çocuğun yüreğinde eğlence bağlıdır; ama terbiye değneği onu oradan uzaklaştırır."},{"v":16,"text":"Mallar çoğaltmak için yoksula zulmeden ve zengine veren kesinlikle yokluğa düşecektir."},{"v":17,"text":"Kulağını iğip bilgelerin sözlerine kulak ver ve bilgisine gönül ver."},{"v":18,"text":"Çünkü onları içinde saklarsan hoştur; ama onlar dudaklarının üstünde duracaktır."},{"v":19,"text":"İşte bugün bu şeyleri sana hemen bildiriyorum ki; güvendiğin Rabbe olsun."},{"v":20,"text":"Sana çoğu kez, güvencin ve bilgin için yazmadım mı?"},{"v":21,"text":"Tâ ki; sana doğru sözlerin gerçeğini öğreteyim ve sana gönderenlere doğru sözlerle yanıt veresin."},{"v":22,"text":"Yoksulu yoksul ol duğuiçin soyma; ve çaresizi kapıda çiğneme."},{"v":23,"text":"Çünkü Rabb onların sorunlarını görecek ve onları yağma edenleri yağma edecek."},{"v":24,"text":"Öfkeli adama kılavuz olma ve kö pürmüş adamla da gitme."},{"v":25,"text":"Sakın ki, onun yollarını öğrenesin ve canını tuzağa düşüresin."},{"v":26,"text":"El sıkanlardan ve borç için kefil olanlardan olma;"},{"v":27,"text":"Çünküödemeğe gücün olmadığı halde; niçin altındaki döşeği de alsın?"},{"v":28,"text":"Atalarının koyduğu eski sınır taşını yerinden kaldırma."},{"v":29,"text":"Kendi işinde gayretli adamı görüyor musun? Kralların önünde duracak; ama tanınmayan adamların önünde durmayacak."}]}
+{
+  "t": "KA2007",
+  "b": "PRO",
+  "c": 22,
+  "content": [
+    {
+      "v": 1,
+      "text": "İyi isim (nam) çok maldan; lütuf ve iyilik de altından daha çok değerlidir."
+    },
+    {
+      "v": 2,
+      "text": "Zengin ile yoksul karşılaşıyor; ama ikisinin de yaratıcısı Rabb’dir."
+    },
+    {
+      "v": 3,
+      "text": "Akıllı adam belayı görüyor ve gizleniyor; akılızlar ise ileriye geçip zarar getiriyor."
+    },
+    {
+      "v": 4,
+      "text": "sAlçak gönüllülük ile Rabb korkusunun sonucu; zenginlik, görkem ve yaşamdır."
+    },
+    {
+      "v": 5,
+      "text": "Eğri adamın yolunda diken ve kementler vardır; canını koruyan onlardan uzak durur."
+    },
+    {
+      "v": 6,
+      "text": "Çocuğa yolun başlangıcında öğret ve yaşlandığında bile ondan sapmayacaktır."
+    },
+    {
+      "v": 7,
+      "text": "Zengin yoksullara egemen olur; ve borç alanda borç verenin kulu olur."
+    },
+    {
+      "v": 8,
+      "text": "Kötülük eken kötülük biçecek ve öfkenin asası kırılacaktır."
+    },
+    {
+      "v": 9,
+      "text": "İyi gözlü adam kutlu olacak; çünkü kendi ekmeğinden yoksula veriyor."
+    },
+    {
+      "v": 10,
+      "text": "Alay edeni uzaklaştır, kavga bitecek ve çekişme ile hakaret kesilecek."
+    },
+    {
+      "v": 11,
+      "text": "Temiz yüreği seven kişinin dudaklarında lütuf olduğundan, kral ona dost olur."
+    },
+    {
+      "v": 12,
+      "text": "Rabb’in gözleri bilimi korur; ama zalimin sözlerini bozar."
+    },
+    {
+      "v": 13,
+      "text": "Tembel diyor ki dışarıda aslan var; sokaklarda öldürüleceğim."
+    },
+    {
+      "v": 14,
+      "text": "Fahişelerin ağzı derin çukurdur; Rabb’in öfkelendiği adam oraya düşer."
+    },
+    {
+      "v": 15,
+      "text": "Çocuğun yüreğinde eğlence bağlıdır; ama terbiye değneği onu oradan uzaklaştırır."
+    },
+    {
+      "v": 16,
+      "text": "Mallar çoğaltmak için yoksula zulmeden ve zengine veren kesinlikle yokluğa düşecektir."
+    },
+    {
+      "v": 17,
+      "text": "Kulağını iğip bilgelerin sözlerine kulak ver ve bilgisine gönül ver."
+    },
+    {
+      "v": 18,
+      "text": "Çünkü onları içinde saklarsan hoştur; ama onlar dudaklarının üstünde duracaktır."
+    },
+    {
+      "v": 19,
+      "text": "İşte bugün bu şeyleri sana hemen bildiriyorum ki; güvendiğin Rabbe olsun."
+    },
+    {
+      "v": 20,
+      "text": "Sana çoğu kez, güvencin ve bilgin için yazmadım mı?"
+    },
+    {
+      "v": 21,
+      "text": "Tâ ki; sana doğru sözlerin gerçeğini öğreteyim ve sana gönderenlere doğru sözlerle yanıt veresin."
+    },
+    {
+      "v": 22,
+      "text": "Yoksulu yoksul olduğu için soyma; ve çaresizi kapıda çiğneme."
+    },
+    {
+      "v": 23,
+      "text": "Çünkü Rabb onların sorunlarını görecek ve onları yağma edenleri yağma edecek."
+    },
+    {
+      "v": 24,
+      "text": "Öfkeli adama kılavuz olma ve kö pürmüş adamla da gitme."
+    },
+    {
+      "v": 25,
+      "text": "Sakın ki, onun yollarını öğrenesin ve canını tuzağa düşüresin."
+    },
+    {
+      "v": 26,
+      "text": "El sıkanlardan ve borç için kefil olanlardan olma;"
+    },
+    {
+      "v": 27,
+      "text": "Çünküödemeğe gücün olmadığı halde; niçin altındaki döşeği de alsın?"
+    },
+    {
+      "v": 28,
+      "text": "Atalarının koyduğu eski sınır taşını yerinden kaldırma."
+    },
+    {
+      "v": 29,
+      "text": "Kendi işinde gayretli adamı görüyor musun? Kralların önünde duracak; ama tanınmayan adamların önünde durmayacak."
+    }
+  ]
+}

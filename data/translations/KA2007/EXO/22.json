@@ -1,1 +1,131 @@
-{"t":"KA2007","b":"EXO","c":22,"content":[{"v":1,"text":"Bir adam bir öküz veya bir koyun çalıp onu keser ya da satar ise; bir öküze karşılık beş öküz ve bir koyuna karşılık dört koyun verecektir."},{"v":2,"text":"Eğer bir hırsız duvar delerken yakalanır ve vurularak öldürülürse onun için kan(suç) yoktur."},{"v":3,"text":"Eğer üzerine güneş doğmuşsa onun için kan vardır; ta mamiyle ödeyebilirdi; ama birşeyi yoksa o zaman çaldığı şey için satılabilirdi."},{"v":4,"text":"Eğer çaldığı öküz, eşek veya koyun canlı olaral elinde bulunursa iki katını ödeyecektir."},{"v":5,"text":"Bir adam hayvanını otlatmak için başkalarının tarlasına giderek tarlaya veya bağa zarar verirse; kendi tarlasının en iyisi ile ve bağının en güzelinden zararı ödeyecektir."},{"v":6,"text":"A teş çıkıp dikenlere sıçrar, demet yığınlarına ve eki neulaşır da tarlayı yakarsa; ateşi çıkaran zararödeyecektir."},{"v":7,"text":"ı Bir adam komşusuna korusun diye para veya eşya vermiş ve o kişinin evinden çalınmışsa; hırsız yakalansa bile iki katını ödeyecektir."},{"v":8,"text":"Hırsız yakalanmazsa ev sahibi komşusunun malına elini uzatıp uzatmadığı araştırılsın diye yargıçlara götürülsün."},{"v":9,"text":"Her çeşit haksızlık için gerek öküz olsun, eşek, olsun, koyun olsun veya giysi olsun; birinin bu benimdir dediği her kaybolmuş eşya için tarafların dileği yargıçlara arzolunsun ve bunun için yargıçların yargıladığı kişi komşusuna iki kat ödeyecektir."},{"v":10,"text":"Bir adam komşusuna korusun diye eşek, öküz veya hangi hayvan olursa olsun teslim ettiği halde hayvan ölür, sa katlanırsa ve düşman tarafından sürülürse."},{"v":11,"text":"Komşusunun malına elini uzatmadığına ikisinin arasında Rabb’in yemini olsun ve mal sahibi onu kabul edecek, o da onu geri ödemeyecektir."},{"v":12,"text":"A ma eğer onun yanından çalındıysa sahibine geri ödeyecektir."},{"v":13,"text":"Eğer parçalanmışsa bunu kanıtlamak için meydana götürecek ve parçalanmış eşyanın karşılığını vermeyecektir."},{"v":14,"text":"Bir adam komşusundan ödünç bir hayvan alıp da sahibi yanında yok iken sakatlanır veya ölürse; bedelini kesinlikle ödeyecektir."},{"v":15,"text":"Sahibi beraber ise ödemeyecektir; ama kiralamışsa yalnız kirasını verecek tir."},{"v":16,"text":"Bir adam nişanlı olmayan genç bir kızı aldatır ve onunla yatarsa; kesinlikle nikâh bedelini vererek kendisine eş olarak onu alacaktır."},{"v":17,"text":"Ama; kadının babası onu vermekten çe kinirse; evlenmemiş kızların nikâh bedeline göre parasını verecektir."},{"v":18,"text":"Büyücü kadını sağ bırakmayacaksın."},{"v":19,"text":"Hayvan ile yatan kesinlikle öl dürü lecektir."},{"v":20,"text":"Yehovah’dan başka ilâhlara kurbanlar sunan kişiler kesinlikle öldürülecektir."},{"v":21,"text":"Kimsesizlere sıkıntı vermeyesin ve onu sı kış tırmayasın; çünkü sizler de Mısır’da garip ve kim sesizdiniz."},{"v":22,"text":"Dul kadına ve yetime asla sıkıntı vermeyiniz."},{"v":23,"text":"Eğer sen onlara bir şekilde sıkıntı verirsen; beni çağırdıkları zaman seslerini kesinlikle işitir;"},{"v":24,"text":"Ve onların çağrısı yükseldiğinde sizi kılıçla öldürürüm. Kadınlarınız dul ve çocuklarınız da öksüz kalırlar."},{"v":25,"text":"Eğer kavmimden yanında olan bir yoksula ödünç verirsen; ona faiz memuru gibi davranıp da üzerine faiz katmayasın."},{"v":26,"text":"Eğer komşunun giysisini rehin için alırsan; onu güneş batmadan önce ona geri veresin."},{"v":27,"text":"O, onun teninin örtüsüdür, bedeninin giysisidir; artık o neyin üzerinde yatacak? Ve beni çağırırsa işiteceğim çünkü ben Rahim’im."},{"v":28,"text":"Egemen’e sövmeyecek ve ulu sun dan baş kan olana lanet etmeyeceksin."},{"v":29,"text":"Tahılla rın ile şı ralarının turfandasının sunu sunu ge cik tir meyecek ve oğullarının ilk doğanlarını bana vereceksin."},{"v":30,"text":"Hayvanların ve koyunların için bu şekilde yap: Yedi gün anası ile beraber olsun ve sekizinci günde onu bana ver."},{"v":31,"text":"Böylece bana kutsal insanlar olasınız. Kırda parçalanmış olanın etini yemiyeceksiniz; onu köpeklere atınız."}]}
+{
+  "t": "KA2007",
+  "b": "EXO",
+  "c": 22,
+  "content": [
+    {
+      "v": 1,
+      "text": "Bir adam bir öküz veya bir koyun çalıp onu keser yada satar ise; bir öküze karşılık beş öküz ve bir koyuna karşılık dört koyun verecektir."
+    },
+    {
+      "v": 2,
+      "text": "Eğer bir hırsız duvar delerken yakalanır ve vurularak öldürülürse onun için kan (suç) yoktur."
+    },
+    {
+      "v": 3,
+      "text": "Eğer üzerine güneş doğmuşsa onun için kan vardır; tamamiyle ödeyebilirdi; ama birşeyi yoksa o zaman çaldığı şey için satılabilirdi."
+    },
+    {
+      "v": 4,
+      "text": "Eğer çaldığı öküz, eşek veya koyun canlı olaral elinde bulunursa iki katını ödeyecektir."
+    },
+    {
+      "v": 5,
+      "text": "Bir adam hayvanını otlatmak için başkalarının tarlasına giderek tarlaya veya bağa zarar verirse; kendi tarlasının en iyisi ile ve bağının en güzelinden zararı ödeyecektir."
+    },
+    {
+      "v": 6,
+      "text": "A teş çıkıp dikenlere sıçrar, demet yığınlarına ve eki neulaşır da tarlayı yakarsa; ateşi çıkaran zararödeyecektir."
+    },
+    {
+      "v": 7,
+      "text": "ı Bir adam komşusuna korusun diye para veya eşya vermiş ve o kişinin evinden çalınmışsa; hırsız yakalansa bile iki katını ödeyecektir."
+    },
+    {
+      "v": 8,
+      "text": "Hırsız yakalanmazsa ev sahibi komşusunun malına elini uzatıp uzatmadığı araştırılsın diye yargıçlara götürülsün."
+    },
+    {
+      "v": 9,
+      "text": "Her çeşit haksızlık için gerek öküz olsun, eşek, olsun, koyun olsun veya giysi olsun; birinin bu benimdir dediği her kaybolmuş eşya için tarafların dileği yargıçlara arzolunsun ve bunun için yargıçların yargıladığı kişi komşusuna iki kat ödeyecektir."
+    },
+    {
+      "v": 10,
+      "text": "Bir adam komşusuna korusun diye eşek, öküz veya hangi hayvan olursa olsun teslim ettiği halde hayvan ölür, sa katlanırsa ve düşman tarafından sürülürse."
+    },
+    {
+      "v": 11,
+      "text": "Komşusunun malına elini uzatmadığına ikisinin arasında Rabb’in yemini olsun ve mal sahibi onu kabul edecek, o da onu geri ödemeyecektir."
+    },
+    {
+      "v": 12,
+      "text": "A ma eğer onun yanından çalındıysa sahibine geri ödeyecektir."
+    },
+    {
+      "v": 13,
+      "text": "Eğer parçalanmışsa bunu kanıtlamak için meydana götürecek ve parçalanmış eşyanın karşılığını vermeyecektir."
+    },
+    {
+      "v": 14,
+      "text": "Bir adam komşusundan ödünç bir hayvan alıp da sahibi yanında yok iken sakatlanır veya ölürse; bedelini kesinlikle ödeyecektir."
+    },
+    {
+      "v": 15,
+      "text": "Sahibi beraber ise ödemeyecektir; ama kiralamışsa yalnız kirasını verecektir."
+    },
+    {
+      "v": 16,
+      "text": "Bir adam nişanlı olmayan genç bir kızı aldatır ve onunla yatarsa; kesinlikle nikâh bedelini vererek kendisine eş olarak onu alacaktır."
+    },
+    {
+      "v": 17,
+      "text": "Ama; kadının babası onu vermekten çe kinirse; evlenmemiş kızların nikâh bedeline göre parasını verecektir."
+    },
+    {
+      "v": 18,
+      "text": "Büyücü kadını sağ bırakmayacaksın."
+    },
+    {
+      "v": 19,
+      "text": "Hayvan ile yatan kesinlikle öldürülecektir."
+    },
+    {
+      "v": 20,
+      "text": "Yehovah’dan başka ilâhlara kurbanlar sunan kişiler kesinlikle öldürülecektir."
+    },
+    {
+      "v": 21,
+      "text": "Kimsesizlere sıkıntı vermeyesin ve onu sı kış tırmayasın; çünkü sizler de Mısır’da garip ve kim sesizdiniz."
+    },
+    {
+      "v": 22,
+      "text": "Dul kadına ve yetime asla sıkıntı vermeyiniz."
+    },
+    {
+      "v": 23,
+      "text": "Eğer sen onlara bir şekilde sıkıntı verirsen; beni çağırdıkları zaman seslerini kesinlikle işitir;"
+    },
+    {
+      "v": 24,
+      "text": "Ve onların çağrısı yükseldiğinde sizi kılıçla öldürürüm. Kadınlarınız dul ve çocuklarınız da öksüz kalırlar."
+    },
+    {
+      "v": 25,
+      "text": "Eğer kavmimden yanında olan bir yoksula ödünç verirsen; ona faiz memuru gibi davranıp da üzerine faiz katmayasın."
+    },
+    {
+      "v": 26,
+      "text": "Eğer komşunun giysisini rehin için alırsan; onu güneş batmadan önce ona geri veresin."
+    },
+    {
+      "v": 27,
+      "text": "O, onun teninin örtüsüdür, bedeninin giysisidir; artık o neyin üzerinde yatacak? Ve beni çağırırsa işiteceğim çünkü ben Rahim’im."
+    },
+    {
+      "v": 28,
+      "text": "Egemen’e sövmeyecek ve ulusun dan baş kan olana lanet etmeyeceksin."
+    },
+    {
+      "v": 29,
+      "text": "Tahılla rın ile şı ralarının turfandasının sunusunu ge cik tir meyecek ve oğullarının ilk doğanlarını bana vereceksin."
+    },
+    {
+      "v": 30,
+      "text": "Hayvanların ve koyunların için bu şekilde yap: Yedi gün anası ile beraber olsun ve sekizinci günde onu bana ver."
+    },
+    {
+      "v": 31,
+      "text": "Böylece bana kutsal insanlar olasınız. Kırda parçalanmış olanın etini yemiyeceksiniz; onu köpeklere atınız."
+    }
+  ]
+}

@@ -1,1 +1,111 @@
-{"t":"KA2007","b":"ISA","c":3,"content":[{"v":1,"text":"Çünkü yücelerin Rabb’i Yehovah Oruşalim’den ve Yahuda’dan asa ile değneği yaşam asası olan ekmekle suyun tümünü."},{"v":2,"text":"Yiğiti ve savaşçıyı, yargıçları ve peygamberleri;"},{"v":3,"text":"Yaşlıları, elli başıyı, gözdeleri, bakanları, usta yapıcıları ve becerikli büyücüleri kaldıracaktır."},{"v":4,"text":"Ben çocukları onlar üzerine başkanlar olarak atayacağım ve çocuklar onlara egemen olacaktır."},{"v":5,"text":"Halkım birbirlerine ve herkes komşusuna zulme decektir. Çocuklar yaşlılara ve düşkünler gözdelere küstahça davranacaklar."},{"v":6,"text":"Hattâ bir adam babasının evinden olan kardeşini tutarak. ‘Senin giysin var; bizi yönet ve bu yıkıntı senin yönetiminde olsun’ diyecektir."},{"v":7,"text":"O da o gün şöyle yanıt verecek: ‘Ben ıslah(yara sa rıcı) edici olmam; çünkü evimde ne ekmek ve ne de giysi var. Halka beni yönetici seçmeyin’ diyecek tir."},{"v":8,"text":"Çünkü Oruşalim(Kudüs) yıkıldı ve Yahuda düştü. Onların dilleri ve işleri Rabb’in güzel bakışını öfkelendirmek için ona karşıdır."},{"v":9,"text":"Yüzlerinin gösterişi kendilerine karşı tanıklık yapıyor; ve suçlarını gizlemeyerek Sodom gibi açıkça gösteriyorlar. Vay canlarına! Çünkü kendileri kötülük yaptılar."},{"v":10,"text":"Dürüst kişiye şöyle söyleyin ki ona iyilik gelsin. Çünkü işlerinin ürününü yiyecekler."},{"v":11,"text":"Vay kötüye! Ona yazık olacak; çünkü ellerinin işi ona verilecektir."},{"v":12,"text":"Halkıma çocuklar zulmediyor ve ona; kadınlar onlara egemen oluyor. Ey halkım seni yol göstericilerin ezdi riyor ve yürüyeceğin yolu bozuyor."},{"v":13,"text":"Rabb yargılamaya kalktı ve milletleri yargılamaya duruyor."},{"v":14,"text":"Rabb kendi halkının sözü geçen yaşlılarını; beyleriyle mahkemeye getirecektir. Çünkü siz bağı yıktınız ve yoksullardan alınan şeyler evinizdedir."},{"v":15,"text":"Orduların Rabb’i Yehovah: Size ne oldu ki halkımı eziyorsunuz ve yoksulların yüzüne basıyorsunuz? Diye buyuruyor."},{"v":16,"text":"Ve Rabb böyle buyuruyor: Mademki Sion kızları dikkafalıdırlar boyunlarını gururlandırı yorlar, gözleriyle işaret ederek gerile gerile geziyorlar ve ayaklarını çıngırdatıyorlar."},{"v":17,"text":"Rabb Sion kızını tas başlı(kel) yapacak ve Rabb onların avratlarını(kızlıklarını) açacaktır."},{"v":18,"text":"O gün Rabb halhalların(ayak halkası) güzelliğini, şapkalı saç bağlarıyla altın hilalleri;"},{"v":19,"text":"Küpeleri, bilezikleri ve peçeleri;"},{"v":20,"text":"Alın çatkılarını, baldır zincirlerini, kemerleri, mis kokusu kutu larını ve muskaları;"},{"v":21,"text":"Yüzükleri burun halkalarını;"},{"v":22,"text":"Kaftanları, pelerinleri, şalları ve keseleri;"},{"v":23,"text":"İğ neleri, gömlekleri, çemberleri ve yaşmakları (başörtüsü) kaldıracaktır."},{"v":24,"text":"Hoş koku yerine pis koku, kemer yerine ip, kıvırcık saç yerine ka bak kafalılık, güğüslük yerine çul kuşanmaklık ve güzellik yerine yanıklık olacaktır."},{"v":25,"text":"Senin adamların kılıçtan ve yiğitlerin savaşta düşecektir."},{"v":26,"text":"Onun kapıları ah ederek yas çekecektir! Kendisi de her şeyden yoksun olarak yerde oturacaktır."}]}
+{
+  "t": "KA2007",
+  "b": "ISA",
+  "c": 3,
+  "content": [
+    {
+      "v": 1,
+      "text": "Çünkü yücelerin Rabb’i Yehovah Oruşalim’den ve Yahuda’dan asa ile değneği yaşam asası olan ekmekle suyun tümünü."
+    },
+    {
+      "v": 2,
+      "text": "Yiğiti ve savaşçıyı, yargıçları ve peygamberleri;"
+    },
+    {
+      "v": 3,
+      "text": "Yaşlıları, elli başıyı, gözdeleri, bakanları, usta yapıcıları ve becerikli büyücüleri kaldıracaktır."
+    },
+    {
+      "v": 4,
+      "text": "Ben çocukları onlar üzerine başkanlar olarak atayacağım ve çocuklar onlara egemen olacaktır."
+    },
+    {
+      "v": 5,
+      "text": "Halkım birbirlerine ve herkes komşusuna zulme decektir. Çocuklar yaşlılara ve düşkünler gözdelere küstahça davranacaklar."
+    },
+    {
+      "v": 6,
+      "text": "Hattâ bir adam babasının evinden olan kardeşini tutarak. ‘Senin giysin var; bizi yönet ve bu yıkıntı senin yönetiminde olsun’ diyecektir."
+    },
+    {
+      "v": 7,
+      "text": "O da o gün şöyle yanıt verecek: ‘Ben ıslah (yarasa rıcı) edici olmam; çünkü evimde ne ekmek ve ne de giysi var. Halka beni yönetici seçmeyin’ diyecek tir."
+    },
+    {
+      "v": 8,
+      "text": "Çünkü Oruşalim (Kudüs) yıkıldı ve Yahuda düştü. Onların dilleri ve işleri Rabb’in güzel bakışını öfkelendirmek için ona karşıdır."
+    },
+    {
+      "v": 9,
+      "text": "Yüzlerinin gösterişi kendilerine karşı tanıklık yapıyor; ve suçlarını gizlemeyerek Sodom gibi açıkça gösteriyorlar. Vay canlarına! Çünkü kendileri kötülük yaptılar."
+    },
+    {
+      "v": 10,
+      "text": "Dürüst kişiye şöyle söyleyin ki ona iyilik gelsin. Çünkü işlerinin ürününü yiyecekler."
+    },
+    {
+      "v": 11,
+      "text": "Vay kötüye! Ona yazık olacak; çünkü ellerinin işi ona verilecektir."
+    },
+    {
+      "v": 12,
+      "text": "Halkıma çocuklar zulmediyor ve ona; kadınlar onlara egemen oluyor. Ey halkım seni yol göstericilerin ezdi riyor ve yürüyeceğin yolu bozuyor."
+    },
+    {
+      "v": 13,
+      "text": "Rabb yargılamaya kalktı ve milletleri yargılamaya duruyor."
+    },
+    {
+      "v": 14,
+      "text": "Rabb kendi halkının sözü geçen yaşlılarını; beyleriyle mahkemeye getirecektir. Çünkü siz bağı yıktınız ve yoksullardan alınan şeyler evinizdedir."
+    },
+    {
+      "v": 15,
+      "text": "Orduların Rabb’i Yehovah: Size ne oldu ki halkımı eziyorsunuz ve yoksulların yüzüne basıyorsunuz? Diye buyuruyor."
+    },
+    {
+      "v": 16,
+      "text": "Ve Rabb böyle buyuruyor: Mademki Sion kızları dikkafalıdırlar boyunlarını gururlandırı yorlar, gözleriyle işaret ederek gerile gerile geziyorlar ve ayaklarını çıngırdatıyorlar."
+    },
+    {
+      "v": 17,
+      "text": "Rabb Sion kızını tas başlı (kel) yapacak ve Rabb onların avratlarını (kızlıklarını) açacaktır."
+    },
+    {
+      "v": 18,
+      "text": "O gün Rabb halhalların (ayak halkası) güzelliğini, şapkalı saç bağlarıyla altın hilalleri;"
+    },
+    {
+      "v": 19,
+      "text": "Küpeleri, bilezikleri ve peçeleri;"
+    },
+    {
+      "v": 20,
+      "text": "Alın çatkılarını, baldır zincirlerini, kemerleri, mis kokusu kutu larını ve muskaları;"
+    },
+    {
+      "v": 21,
+      "text": "Yüzükleri burun halkalarını;"
+    },
+    {
+      "v": 22,
+      "text": "Kaftanları, pelerinleri, şalları ve keseleri;"
+    },
+    {
+      "v": 23,
+      "text": "İğ neleri, gömlekleri, çemberleri ve yaşmakları (başörtüsü) kaldıracaktır."
+    },
+    {
+      "v": 24,
+      "text": "Hoş koku yerine pis koku, kemer yerine ip, kıvırcık saç yerine ka bak kafalılık, güğüslük yerine çul kuşanmaklık ve güzellik yerine yanıklık olacaktır."
+    },
+    {
+      "v": 25,
+      "text": "Senin adamların kılıçtan ve yiğitlerin savaşta düşecektir."
+    },
+    {
+      "v": 26,
+      "text": "Onun kapıları ah ederek yas çekecektir! Kendisi de her şeyden yoksun olarak yerde oturacaktır."
+    }
+  ]
+}

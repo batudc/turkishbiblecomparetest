@@ -1,1 +1,167 @@
-{"t":"KA2007","b":"JOB","c":31,"content":[{"v":1,"text":"Gözlerimle antlaşmayı imzaladım; bakireye nasıl bakabilirim?"},{"v":2,"text":"Yukardan Allah tarafından pay ne ve yücelerden Kadîr tarafından miras ne olur?"},{"v":3,"text":"Yok olmak kötülük işleyenler için ve şiddetli afetler yaramazlık yapanlar için değil mi?"},{"v":4,"text":"“O” benim yollarımı görmüyor ve adımlarımı saymıyor mu?"},{"v":5,"text":"Eğer yalanla yürüdüysem ve ayağım hileye doğru gittiyse;"},{"v":6,"text":"Allah! Beni doğru ölçüyle ölçsün ve yönümü bilsin."},{"v":7,"text":"Eğer ayağım yoldan saptı ve yüreğim gözümün ardısıra gitti, acılarım lekelendiyse;"},{"v":8,"text":"Ben ekeyim başkası yesin ve ekinim kökten koparılsın."},{"v":9,"text":"Eğer yüreğim kadınlardan birine aldandı veya komşunun kapısında pusuda bekledimse;"},{"v":10,"text":"Benim eşim başkası için değirmen çevirsin ve diğerleri onun üzerine eğilsinler."},{"v":11,"text":"Çünkü bu zinadır ve yargıçlar tarafından yargılanacak olan bir te cavüzdür."},{"v":12,"text":"Yok edinceye kadar yiyip, bitiren bir ateştir ve bütün ürünümü yok edecek."},{"v":13,"text":"Eğer kulumun veya cariyemin benimle bir davası olduğunda haklarıı hor gördümse;"},{"v":14,"text":"nAllah bana karşı kalktığında ben ne yapayım? Ve araştırdığında “O”na ne yanıt vereyim."},{"v":15,"text":"Beni ana rahminde yaratan onu yaratmadı mı? Ve bana rahimde şekil veren bir değil mi?"},{"v":16,"text":"Eğer gereksinimi olandan sakladım ve dul kadının gözlerinin bozulmasına neden oldumsa."},{"v":17,"text":"Eğer lokmamı yanlız yedim ve ondan öksüz yemediyse;"},{"v":18,"text":"(Çünkü çocukluğumdan beri merhumu baba gibi besledim ve annemin rahminden beri merhumeyi gözetti.)"},{"v":19,"text":"Eğer yok olmak üzere olanı giysisiz ve yoksulu örtüsüz bıraktımsa;"},{"v":20,"text":"Eğer onun beli bana iyilik dilemedi ve ko yunl arımın yapağısından ısın ma dıysa;"},{"v":21,"text":"Eğer kapıda bekçilerim olduğunu gördüğünde öksüze karşıelimi kaldırdımsa;"},{"v":22,"text":"Kolum omuzundan düşsün ve pazım dirsekten kırılsın."},{"v":23,"text":"Çünkü Allah tarafından gelen beni korkutuyordu ve “O” nun yüzünden gücüm kalmadı."},{"v":24,"text":"Eğer ümidimi altın üzerine koydum ve saf altından daha çok ‘Güvendiğim Sensin’ dedimse;"},{"v":25,"text":"Eğer malımın çokluğundan ve elim ganimet(çapul) bulduğunda sevindimse;"},{"v":26,"text":"Parladığı zaman gü neşeve aydınlığında dolaşan aya baktımsa;"},{"v":27,"text":"Yüreğim gizlice aldanarak ağzım elimi öptüy se;"},{"v":28,"text":"Bu da bana karşı hak ettiğim bir yargı dır; çünkü yüce Allah’ı inkâr etmiş olurdum."},{"v":29,"text":"Eğer bana kötülük düşünenin yok olmasından seviniyorum veyaokazaya uğradı ve başına birşey geldi diye güldüysem;"},{"v":30,"text":"(Onun canına karşı söy lenmekle dilime bile günah ettir medim)"},{"v":31,"text":"Eğer çadırımın adamları ‘nezamanonunye meğ inden doymadık’ demişlerse;"},{"v":32,"text":"Yabancı dışarıda gecelemez yolcuya kapımı açardım."},{"v":33,"text":"Eğer Adem’in gizlediği gibi isyanımı gizlediysem ve suçumu koy numda sakladıysam;"},{"v":34,"text":"Halkın kalabalığından korkayım, kabilelerin hakareti beni korkutsun susayım ve bir daha kapıdan dışarı çıkmayayım."},{"v":35,"text":"Ah! Keşke beni bir dinleyen olaydı; işte imzam Kadîr bana yanıt vereydi ve davaya bir bildiri yazaydı;"},{"v":36,"text":"Onu mutlaka omuzumda taşır ve taç gibi kendime bağlardım."},{"v":37,"text":"Adımlarımın sayısını “O”na söyler, baş kan lardan biri gibi “O”nun yanına yaklaşırdım."},{"v":38,"text":"Eğer toprak bana karşı kabarır ve onda olanlar birlikte ağlar ise;"},{"v":39,"text":"Eğer onun ürününü bedelsiz yedim ve sahiplerinin ölmelerine sebep oldumsa;"},{"v":40,"text":"Buğday yerine diken ve arpa yerine delice bitsin. Eyüp’ün sözleri tamam oldu."}]}
+{
+  "t": "KA2007",
+  "b": "JOB",
+  "c": 31,
+  "content": [
+    {
+      "v": 1,
+      "text": "Gözlerimle antlaşmayı imzaladım; bakireye nasıl bakabilirim?"
+    },
+    {
+      "v": 2,
+      "text": "Yukardan Allah tarafından pay ne ve yücelerden Kadîr tarafından miras ne olur?"
+    },
+    {
+      "v": 3,
+      "text": "Yok olmak kötülük işleyenler için ve şiddetli afetler yaramazlık yapanlar için değil mi?"
+    },
+    {
+      "v": 4,
+      "text": "“O” benim yollarımı görmüyor ve adımlarımı saymıyor mu?"
+    },
+    {
+      "v": 5,
+      "text": "Eğer yalanla yürüdüysem ve ayağım hileye doğru gittiyse;"
+    },
+    {
+      "v": 6,
+      "text": "Allah! Beni doğru ölçüyle ölçsün ve yönümü bilsin."
+    },
+    {
+      "v": 7,
+      "text": "Eğer ayağım yoldan saptı ve yüreğim gözümün ardısıra gitti, acılarım lekelendiyse;"
+    },
+    {
+      "v": 8,
+      "text": "Ben ekeyim başkası yesin ve ekinim kökten koparılsın."
+    },
+    {
+      "v": 9,
+      "text": "Eğer yüreğim kadınlardan birine aldandı veya komşunun kapısında pusuda bekledimse;"
+    },
+    {
+      "v": 10,
+      "text": "Benim eşim başkası için değirmen çevirsin ve diğerleri onun üzerine eğilsinler."
+    },
+    {
+      "v": 11,
+      "text": "Çünkü bu zinadır ve yargıçlar tarafından yargılanacak olan bir te cavüzdür."
+    },
+    {
+      "v": 12,
+      "text": "Yok edinceye kadar yiyip, bitiren bir ateştir ve bütün ürünümü yok edecek."
+    },
+    {
+      "v": 13,
+      "text": "Eğer kulumun veya cariyemin benimle bir davası olduğunda haklarıı hor gördümse;"
+    },
+    {
+      "v": 14,
+      "text": "nAllah bana karşı kalktığında ben ne yapayım? Ve araştırdığında “O”na ne yanıt vereyim."
+    },
+    {
+      "v": 15,
+      "text": "Beni ana rahminde yaratan onu yaratmadı mı? Ve bana rahimde şekil veren bir değil mi?"
+    },
+    {
+      "v": 16,
+      "text": "Eğer gereksinimi olandan sakladım ve dul kadının gözlerinin bozulmasına neden oldumsa."
+    },
+    {
+      "v": 17,
+      "text": "Eğer lokmamı yanlız yedim ve ondan öksüz yemediyse;"
+    },
+    {
+      "v": 18,
+      "text": "(Çünkü çocukluğumdan beri merhumu baba gibi besledim ve annemin rahminden beri merhumeyi gözetti.)"
+    },
+    {
+      "v": 19,
+      "text": "Eğer yok olmak üzere olanı giysisiz ve yoksulu örtüsüz bıraktımsa;"
+    },
+    {
+      "v": 20,
+      "text": "Eğer onun beli bana iyilik dilemedi ve ko yunl arımın yapağısından ısın ma dıysa;"
+    },
+    {
+      "v": 21,
+      "text": "Eğer kapıda bekçilerim olduğunu gördüğünde öksüze karşı elimi kaldırdımsa;"
+    },
+    {
+      "v": 22,
+      "text": "Kolum omuzundan düşsün ve pazım dirsekten kırılsın."
+    },
+    {
+      "v": 23,
+      "text": "Çünkü Allah tarafından gelen beni korkutuyordu ve “O” nun yüzünden gücüm kalmadı."
+    },
+    {
+      "v": 24,
+      "text": "Eğer ümidimi altın üzerine koydum ve saf altından daha çok ‘Güvendiğim Sensin’ dedimse;"
+    },
+    {
+      "v": 25,
+      "text": "Eğer malımın çokluğundan ve elim ganimet (çapul) bulduğunda sevindimse;"
+    },
+    {
+      "v": 26,
+      "text": "Parladığı zaman gü neşeve aydınlığında dolaşan aya baktımsa;"
+    },
+    {
+      "v": 27,
+      "text": "Yüreğim gizlice aldanarak ağzım elimi öptüy se;"
+    },
+    {
+      "v": 28,
+      "text": "Bu da bana karşı hak ettiğim bir yargı dır; çünkü yüce Allah’ı inkâr etmiş olurdum."
+    },
+    {
+      "v": 29,
+      "text": "Eğer bana kötülük düşünenin yok olmasından seviniyorum veyaokazaya uğradı ve başına birşey geldi diye güldüysem;"
+    },
+    {
+      "v": 30,
+      "text": "(Onun canına karşı söylenmekle dilime bile günah ettir medim)"
+    },
+    {
+      "v": 31,
+      "text": "Eğer çadırımın adamları ‘ne zaman onun ye meğ inden doymadık’ demişlerse;"
+    },
+    {
+      "v": 32,
+      "text": "Yabancı dışarıda gecelemez yolcuya kapımı açardım."
+    },
+    {
+      "v": 33,
+      "text": "Eğer Adem’in gizlediği gibi isyanımı gizlediysem ve suçumu koy numda sakladıysam;"
+    },
+    {
+      "v": 34,
+      "text": "Halkın kalabalığından korkayım, kabilelerin hakareti beni korkutsun susayım ve bir daha kapıdan dışarı çıkmayayım."
+    },
+    {
+      "v": 35,
+      "text": "Ah! Keşke beni bir dinleyen olaydı; işte imzam Kadîr bana yanıt vereydi ve davaya bir bildiri yazaydı;"
+    },
+    {
+      "v": 36,
+      "text": "Onu mutlaka omuzumda taşır ve taç gibi kendime bağlardım."
+    },
+    {
+      "v": 37,
+      "text": "Adımlarımın sayısını “O”na söyler, başkanlardan biri gibi “O”nun yanına yaklaşırdım."
+    },
+    {
+      "v": 38,
+      "text": "Eğer toprak bana karşı kabarır ve onda olanlar birlikte ağlar ise;"
+    },
+    {
+      "v": 39,
+      "text": "Eğer onun ürününü bedelsiz yedim ve sahiplerinin ölmelerine sebep oldumsa;"
+    },
+    {
+      "v": 40,
+      "text": "Buğday yerine diken ve arpa yerine delice bitsin. Eyüp’ün sözleri tamam oldu."
+    }
+  ]
+}

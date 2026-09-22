@@ -1,1 +1,51 @@
-{"t":"KA2007","b":"SNG","c":3,"content":[{"v":1,"text":"Gece yatağımda canımın sevdiğini aradım, onu aradım; ama bulamadım."},{"v":2,"text":"Kalkayım kentte sokaklarda ve meydanlarda dolaşayım, canımın sevdiğini arayayım dedim. Onu aradım; ama bulamadım."},{"v":3,"text":"Kentte dolaşan bekçiler beni buldular; canımın sevdiğini gördünüz mü? Dedim."},{"v":4,"text":"Onlardan ayrılır ayrılmaz canımın sevdiğini buldum; onu tuttum ve anamın evine, anneciğimin odasına getirinceye değin onu bırakmadım."},{"v":5,"text":"Ey Oruşa lim(Kudüs) kızları! Size ceylanlar ve kırların geyikleriyle yemin ettim ki sevgilim istemedikçe onu uyandırıp kaldırmayasınız."},{"v":6,"text":"Bu kimdir? Ki saf mür günnük ve tüccarların türlü kokulu baharatlarıyla kokulanarak tüten direkler(çöl fırtınası) gibi çölden çıkıyor."},{"v":7,"text":"İşte Süleyman’ın minderi. Onun çevresinde İsrailin yiğitlerinden altmış yiğit var."},{"v":8,"text":"Tümü kılıçlı ve eğitimli cenkçilerdir. Gece tehlikelerinden, her biri kılıcını kalçası üzerinde taşıyor."},{"v":9,"text":"Kral Süleyman, Lübnan ağaçlarından kendine bir tahtırevan yaptı."},{"v":10,"text":"Direkleri gümüşten, parmaklığı altından ve döşeme sini mor renkli kumaştan yaptı. İçine Oruşalim kızları sevgiyle, rengarenk nakış iş lemişlerdi."},{"v":11,"text":"Ey! Sihon(Sion) kızları çıkın. Kral Süleyman’ın düğünü gününde ve yüreğinin sevinci gününde annesinin taç landırdığı tacıyla onu görün."}]}
+{
+  "t": "KA2007",
+  "b": "SNG",
+  "c": 3,
+  "content": [
+    {
+      "v": 1,
+      "text": "Gece yatağımda canımın sevdiğini aradım, onu aradım; ama bulamadım."
+    },
+    {
+      "v": 2,
+      "text": "Kalkayım kentte sokaklarda ve meydanlarda dolaşayım, canımın sevdiğini arayayım dedim. Onu aradım; ama bulamadım."
+    },
+    {
+      "v": 3,
+      "text": "Kentte dolaşan bekçiler beni buldular; canımın sevdiğini gördünüz mü? Dedim."
+    },
+    {
+      "v": 4,
+      "text": "Onlardan ayrılır ayrılmaz canımın sevdiğini buldum; onu tuttum ve anamın evine, anneciğimin odasına getirinceye değin onu bırakmadım."
+    },
+    {
+      "v": 5,
+      "text": "Ey Oruşalim (Kudüs) kızları! Size ceylanlar ve kırların geyikleriyle yemin ettim ki sevgilim istemedikçe onu uyandırıp kaldırmayasınız."
+    },
+    {
+      "v": 6,
+      "text": "Bu kimdir? Ki saf mür günnük ve tüccarların türlü kokulu baharatlarıyla kokulanarak tüten direkler (çöl fırtınası) gibi çölden çıkıyor."
+    },
+    {
+      "v": 7,
+      "text": "İşte Süleyman’ın minderi. Onun çevresinde İsrailin yiğitlerinden altmış yiğit var."
+    },
+    {
+      "v": 8,
+      "text": "Tümü kılıçlı ve eğitimli cenkçilerdir. Gece tehlikelerinden, her biri kılıcını kalçası üzerinde taşıyor."
+    },
+    {
+      "v": 9,
+      "text": "Kral Süleyman, Lübnan ağaçlarından kendine bir tahtırevan yaptı."
+    },
+    {
+      "v": 10,
+      "text": "Direkleri gümüşten, parmaklığı altından ve döşemesini mor renkli kumaştan yaptı. İçine Oruşalim kızları sevgiyle, rengarenk nakış iş lemişlerdi."
+    },
+    {
+      "v": 11,
+      "text": "Ey! Sihon (Sion) kızları çıkın. Kral Süleyman’ın düğünü gününde ve yüreğinin sevinci gününde annesinin taç landırdığı tacıyla onu görün."
+    }
+  ]
+}

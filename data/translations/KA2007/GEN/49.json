@@ -1,1 +1,139 @@
-{"t":"KA2007","b":"GEN","c":49,"content":[{"v":1,"text":"Sonra Yakup kendi oğullarını çağırıp onlara dedi ki: -Buraya gelin ve son günlerde size ne olacağını bildireyim."},{"v":2,"text":"Ey! Yakupoğulları toplanıp dinleyin ve babanız İsrail’i duyun."},{"v":3,"text":"Ey! Ruben sen ilk oğlum; gücümün ve kudretimin başlangıcı. Gözde olan sen ve güçte en şereflisin."},{"v":4,"text":"Su gibi kaynadığın halde bir yarar sağlamayacaksın çünkü babanın yatağına çıktın ve o zaman onu kirlettin."},{"v":5,"text":"Şimeon Levi kardeşlerindir; kılıçları zulüm aletleridir."},{"v":6,"text":"Canım onların meclisine girmesin, şere fim onların toplumuyla birleşmesin çünkü öfkelendikleri zaman insan katlettiler ve inatlandıkları an sığır sinirleri kestiler."},{"v":7,"text":"Öfkeleri lanetli olsun; şiddetliydi ve gazapları lanetlensin, çünkü sert idi. Onları Yakup’tanayı racağım ve İsrailden dağıtacağım."},{"v":8,"text":"Ey Yahuda kardeşlerin seni övecekler ve Allah düşmanlarının ensesinde olacaktır. Baba nınoğulları da sana eğilecektir."},{"v":9,"text":"Yahuda aslan yavrusudur. Ey oğlum! Avdan kalktın; aslan gibi ve dişi bir aslan gibi çöküp yattın. Onu kim uyandıracak?"},{"v":10,"text":"Egemenlik asası Yahuda’dan ve şeriat sahibi ayakları arasından “Şilo” gelinceye dek tükenmeyecek ve milletler “O”na itaat edeceklerdir."},{"v":11,"text":"Sıpasını asmaya ve eşeğinin yavrusunu asmanın en iyisine bağlayacak; giysisini şarapla ve gömleğini de üzüm kanıyla yı kayacaktır."},{"v":12,"text":"Gözleri şaraptan kırmızı ve dişleri sütten daha beyaz olacak."},{"v":13,"text":"Zebulun deniz kenarında oturacak ve gemilere liman olup sınırları Sayda’ya kadar olacaktır."},{"v":14,"text":"İssakar güçlü bir eşek olup ağıllar arasında yatıyor."},{"v":15,"text":"Ra hatının iyi ve yerinin güzel olduğunu görerek omuzunu yüke eğiyor ve haracı geçip gidiyor."},{"v":16,"text":"Dan İsrail bölüğünden biri gibi kendi kavmine egemen olacaktır."},{"v":17,"text":"Dan yoluüze rine yılan ve yol üzerindeki engerek olup atı to pu ğundan sokuyor, düşmanını arkaya düşürüyor."},{"v":18,"text":"Ya Rabb; kurtarışına hazırım."},{"v":19,"text":"Gad askerler ile baskına uğrayacak ise de; yine de sonunda baskın yapanoolacak."},{"v":20,"text":"Aşer’in ekmeği yağlı olup krallar için olan nefis yemekleriove recektir."},{"v":21,"text":"Naftali salıverilmiş geyik olup güzel sözler söylüyor."},{"v":22,"text":"Yusuf meyve veren bir dal dır. Su kaynağı yanında meyva veren bir dal o la rak; filizleri duvar üstüne çıkıyor."},{"v":23,"text":"Okçular o nu incittiler ve ok atıp onu rencide ettilerse de;"},{"v":24,"text":"Yine de onun yayı güçlü kaldı ve ellerinin pa zuları Yakup’un Kâdiri’nin elleriyle güç buldu. İsrail’in çobanı ve kayası onundur."},{"v":25,"text":"Babanın Allah’ı tarafından sana yardım olacak; Kadîr seni yukarıdan göğün bereketleriyle, aşağıda olan denizlerin bereketleriyle, meme ve rahmin bereketleriyle kutlu kılacaktır."},{"v":26,"text":"Babanın bereketleri atalarımın bereketleri ile uçsuz bayırlar tepelerine kadar artıyor. Yusuf’un başıüzerine ve kardeşleri arasında baş olanın başıüzerine olacaktır."},{"v":27,"text":"Bün yamin yırtıcı bir kurtolup sabahleyin av yiyecek ve akşam üzeri ganimet ayıracaktır."},{"v":28,"text":"Bunların tümü İsrail’in oniki bö lüğüdür ve babalarının onlara bereket okuyup söylediği sözler budur. Her birine ait olan bereketle onlara bereket okudu."},{"v":29,"text":"Ve onlara şöyle vasiyet etti: -Ben kavmime katılmak üzereyim. Beni atalarımın yanına, Hititli Efron’un tarlasındaki mağaraya;"},{"v":30,"text":"Yani Kenan ülkesindeki Mamreönünde olan Makpela tarlasındaki İbrahim’in mezarlık için malı olmak üzere Hititli Efron’dan tarlasıyla beraber satın aldığı mağaraya defnediniz."},{"v":31,"text":"İbrahim ile eşi Sara’yı orada defnettiler. İshak ile eşi Rebeka’yı da orada defnettiler ve ben de Lea’yı orada defnettim."},{"v":32,"text":"Tarla ve içindeki mağara Hetoğullarından satın alındı, dedi."},{"v":33,"text":"Ve Yakup oğullarına vasiyetini bitirince ayaklarını döşeğe toplayarak ruhunu teslim etti; kav mi ne katıldı."}]}
+{
+  "t": "KA2007",
+  "b": "GEN",
+  "c": 49,
+  "content": [
+    {
+      "v": 1,
+      "text": "Sonra Yakup kendi oğullarını çağırıp onlara dedi ki: -Buraya gelin ve son günlerde size ne olacağını bildireyim."
+    },
+    {
+      "v": 2,
+      "text": "Ey! Yakupoğulları toplanıp dinleyin ve babanız İsrail’i duyun."
+    },
+    {
+      "v": 3,
+      "text": "Ey! Ruben sen ilk oğlum; gücümün ve kudretimin başlangıcı. Gözde olan sen ve güçte en şereflisin."
+    },
+    {
+      "v": 4,
+      "text": "Su gibi kaynadığın halde bir yarar sağlamayacaksın çünkü babanın yatağına çıktın ve o zaman onu kirlettin."
+    },
+    {
+      "v": 5,
+      "text": "Şimeon Levi kardeşlerindir; kılıçları zulüm aletleridir."
+    },
+    {
+      "v": 6,
+      "text": "Canım onların meclisine girmesin, şerefim onların toplumuyla birleşmesin çünkü öfkelendikleri zaman insan katlettiler ve inatlandıkları an sığır sinirleri kestiler."
+    },
+    {
+      "v": 7,
+      "text": "Öfkeleri lanetli olsun; şiddetliydi ve gazapları lanetlensin, çünkü sert idi. Onları Yakup’tanayı racağım ve İsrailden dağıtacağım."
+    },
+    {
+      "v": 8,
+      "text": "Ey Yahuda kardeşlerin seni övecekler ve Allah düşmanlarının ensesinde olacaktır. Baba nınoğulları da sana eğilecektir."
+    },
+    {
+      "v": 9,
+      "text": "Yahuda aslan yavrusudur. Ey oğlum! Avdan kalktın; aslan gibi ve dişi bir aslan gibi çöküp yattın. Onu kim uyandıracak?"
+    },
+    {
+      "v": 10,
+      "text": "Egemenlik asası Yahuda’dan ve şeriat sahibi ayakları arasından “Şilo” gelinceye dek tükenmeyecek ve milletler “O”na itaat edeceklerdir."
+    },
+    {
+      "v": 11,
+      "text": "Sıpasını asmaya ve eşeğinin yavrusunu asmanın en iyisine bağlayacak; giysisini şarapla ve gömleğini de üzüm kanıyla yı kayacaktır."
+    },
+    {
+      "v": 12,
+      "text": "Gözleri şaraptan kırmızı ve dişleri sütten daha beyaz olacak."
+    },
+    {
+      "v": 13,
+      "text": "Zebulun deniz kenarında oturacak ve gemilere liman olup sınırları Sayda’ya kadar olacaktır."
+    },
+    {
+      "v": 14,
+      "text": "İssakar güçlü bir eşek olup ağıllar arasında yatıyor."
+    },
+    {
+      "v": 15,
+      "text": "Rahatının iyi ve yerinin güzel olduğunu görerek omuzunu yüke eğiyor ve haracı geçip gidiyor."
+    },
+    {
+      "v": 16,
+      "text": "Dan İsrail bölüğünden biri gibi kendi kavmine egemen olacaktır."
+    },
+    {
+      "v": 17,
+      "text": "Dan yoluüze rine yılan ve yol üzerindeki engerek olup atı to pu ğundan sokuyor, düşmanını arkaya düşürüyor."
+    },
+    {
+      "v": 18,
+      "text": "YaRabb; kurtarışına hazırım."
+    },
+    {
+      "v": 19,
+      "text": "Gad askerler ile baskına uğrayacak ise de; yine de sonunda baskın yapanoolacak."
+    },
+    {
+      "v": 20,
+      "text": "Aşer’in ekmeği yağlı olup krallar için olan nefis yemekleriove recektir."
+    },
+    {
+      "v": 21,
+      "text": "Naftali salıverilmiş geyik olup güzel sözler söylüyor."
+    },
+    {
+      "v": 22,
+      "text": "Yusuf meyve veren bir dal dır. Su kaynağı yanında meyva veren bir dal o larak; filizleri duvar üstüne çıkıyor."
+    },
+    {
+      "v": 23,
+      "text": "Okçular o nu incittiler ve ok atıp onu rencide ettilerse de;"
+    },
+    {
+      "v": 24,
+      "text": "Yine de onun yayı güçlü kaldı ve ellerinin pa zuları Yakup’un Kâdiri’nin elleriyle güç buldu. İsrail’in çobanı ve kayası onundur."
+    },
+    {
+      "v": 25,
+      "text": "Babanın Allah’ı tarafından sana yardım olacak; Kadîr seni yukarıdan göğün bereketleriyle, aşağıda olan denizlerin bereketleriyle, meme ve rahmin bereketleriyle kutlu kılacaktır."
+    },
+    {
+      "v": 26,
+      "text": "Babanın bereketleri atalarımın bereketleri ile uçsuz bayırlar tepelerine kadar artıyor. Yusuf’un başıüzerine ve kardeşleri arasında baş olanın başıüzerine olacaktır."
+    },
+    {
+      "v": 27,
+      "text": "Bün yamin yırtıcı bir kurt olup sabahleyin av yiyecek ve akşam üzeri ganimet ayıracaktır."
+    },
+    {
+      "v": 28,
+      "text": "Bunların tümü İsrail’in oniki bö lüğüdür ve babalarının onlara bereket okuyup söylediği sözler budur. Her birine ait olan bereketle onlara bereket okudu."
+    },
+    {
+      "v": 29,
+      "text": "Ve onlara şöyle vasiyet etti: -Ben kavmime katılmak üzereyim. Beni atalarımın yanına, Hititli Efron’un tarlasındaki mağaraya;"
+    },
+    {
+      "v": 30,
+      "text": "Yani Kenan ülkesindeki Mamre önünde olan Makpela tarlasındaki İbrahim’in mezarlık için malı olmak üzere Hititli Efron’dan tarlasıyla beraber satın aldığı mağaraya defnediniz."
+    },
+    {
+      "v": 31,
+      "text": "İbrahim ile eşi Sara’yı orada defnettiler. İshak ile eşi Rebeka’yı da orada defnettiler ve bende Lea’yı orada defnettim."
+    },
+    {
+      "v": 32,
+      "text": "Tarla ve içindeki mağara Hetoğullarından satın alındı, dedi."
+    },
+    {
+      "v": 33,
+      "text": "Ve Yakup oğullarına vasiyetini bitirince ayaklarını döşeğe toplayarak ruhunu teslim etti; kav mi ne katıldı."
+    }
+  ]
+}
