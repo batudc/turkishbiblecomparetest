@@ -3402,9 +3402,17 @@
   // Handles: all language prefixes (Ar., Fa., E.Tü., Yun., Aram., İbr., Osm., etc.), numbered glosses, (alt) forms, < > :: = delimiters.
   // Word group uses [^\s.]+ to prevent matching partial lang prefixes (e.g. E. in E.Yun.) as words.
   // Optional (?:\s*<\s*)? handles "word < LANG. form" format where < leads the annotation.
-  const KIE_GLOSS_RE = /([^\s.]+?)(?:\s*<\s*)?((?:[A-Zİ][a-zğüşöçı]*\.)+(?:\/(?:[A-Zİ][a-zğüşöçı]*\.)+)?\s+(?:[^\s=\[(<>]+|\([^)]+\))+(?:\s+\[[^\]]+\])?(?:\s*\([^)]+\))?(?:(?:\s*=\s*(?:\d+\.\s+)?[^\s,;]+(?:\s*\([^)]+\))?(?:[,;]\s+(?:\d+\.\s+)?[^\s,;]+(?:\s*\([^)]+\))?)*|\s*[<>]\s*(?:\S+\.\s+\S+|\S+)(?:\s*=\s*[^\s,;]+(?:[,;]\s+[^\s,;]+)*)?|\s*::\s*(?:\S+\.\s+\S+|\S+)(?:\s*=\s*[^\s,;]+(?:[,;]\s+[^\s,;]+)*)?)(?:\s*(?:[<>]|::)\s*(?:\S+\.\s+\S+|\S+)(?:\s*=\s*[^\s,;]+(?:[,;]\s+[^\s,;]+)*)?)*)?)/g;
+  const KIE_GLOSS_RE = /([^\s.(]+?)(?:\s*<\s*)?((?:[A-Zİ][a-zğüşöçı]*\.)+(?:\/(?:[A-Zİ][a-zğüşöçı]*\.)+)?\s+(?:[^\s=\[(<>]+|\([^)]+\))+(?:\s+\[[^\]]+\])?(?:\s*\([^)]+\))?(?:(?:\s*=\s*(?:\d+\.\s+)?[^\s,;]+(?:\s*\([^)]+\))?(?:[,;]\s+(?:\d+\.\s+)?[^\s,;]+(?:\s*\([^)]+\))?)*|\s*[<>]\s*(?:\S+\.\s+\S+|\S+)(?:\s*=\s*[^\s,;]+(?:[,;]\s+[^\s,;]+)*)?|\s*::\s*(?:\S+\.\s+\S+|\S+)(?:\s*=\s*[^\s,;]+(?:[,;]\s+[^\s,;]+)*)?)(?:\s*(?:[<>]|::)\s*(?:\S+\.\s+\S+|\S+)(?:\s*=\s*[^\s,;]+(?:[,;]\s+[^\s,;]+)*)?)*)?)/g;
 
   function parseKieGlosses(text) {
+    // Remove cross-references and comparison notes first so their embedded lang-tags
+    // don't confuse the pre-cleanup that follows.
+    text = text.replace(/\s*\(bkz\.[^)]+\)/g, '');
+    text = text.replace(/\s*\(karş\.[^)]+\)/g, '');
+    // Pre-cleanup: strip standalone "Lang. root [bracket] [= def]" fragments that appear after
+    // plain Ottoman text (not after < > + :), where the main regex can't reach them.
+    // Safe to run before span insertion — no data-gloss attributes exist yet.
+    text = text.replace(/(?<=[^<>+:]\s)(?:[A-Zİ][a-zğüşöçı]*\.)+\s+[^\s<>&:;,+\[\]"(•¤]+(?:\s*\[[^\]]+\])?(?:\s*=\s*[^\s<>&:;,+\[\]"(•¤]+(?:[,;]\s*[^\s<>&:;,+\[\]"(•¤]+)*)*/g, '');
     // Escape < > & in gloss values so the cleanup passes below don't corrupt data-gloss attributes.
     // dataset.gloss decodes &lt; back to < for the tooltip display.
     text = text.replace(KIE_GLOSS_RE, (_, word, gloss) => {
@@ -3413,15 +3421,29 @@
     });
     // Strip remaining annotation chain markers that weren't consumed by the main regex.
     // Safe: < > in data-gloss are &lt; &gt; and won't be matched by [<>].
-    text = text.replace(/\s+[<>]\s+(?:(?:[A-Zİ][a-zğüşöçı]*\.)+\s+)?[^\s<>&:;,+\[\]"]+(?:\s*=\s*[^\s<>&:;,+\[\]"]+(?:[,;]\s*[^\s<>&:;,+\[\]"]+)*)*/g, '');
+    text = text.replace(/\s+[<>]\s+(?:(?:[A-Zİ][a-zğüşöçı]*\.)+\s+)?[^\s<>&:;,+\[\]"]+(?:\s*\([^)]+\))?(?:\s*=\s*[^\s<>&:;,+\[\]"]+(?:[,;]\s*[^\s<>&:;,+\[\]"]+)*)*/g, '');
     text = text.replace(/\s+::\s+(?:(?:[A-Zİ][a-zğüşöçı]*\.)+\s+)?[^\s<>&:;,+\[\]"]+(?:\s*=\s*[^\s<>&:;,+\[\]"]+(?:[,;]\s*[^\s<>&:;,+\[\]"]+)*)*/g, '');
-    // Strip "+" Ottoman etymology chains: "+ root (opt-paren) = meaning, alt" leftover after span.
-    // Allows comma-separated multi-word def but not space-separated (to avoid eating verse text).
-    text = text.replace(/\s*\+\s+[^\s=+<>,•¤\[\]":;]+(?:\/[^\s=+<>,•¤\[\]":;]+)?(?:\s*\([^)]+\))?(?:\s*=\s*[^\s+<>,•¤\[\]":;]+(?:\s*,\s*[^\s+<>,•¤\[\]":;]+)*(?:\s*\([^)]+\))?)?/g, '');
+    // Strip "+" Ottoman etymology chains: "+ [Lang.] root (opt-paren) = meaning, alt".
+    // The optional Lang. prefix handles "+ Ar. root" / "+ Fa. word" style chains.
+    text = text.replace(/\s*\+\s+(?:(?:[A-Zİ][a-zğüşöçı]*\.)+\s+)?[^\s=+<>,•¤\[\]":;]+(?:\/[^\s=+<>,•¤\[\]":;]+)?(?:\s*\([^)]+\))?(?:\s*=\s*[^\s+<>,•¤\[\]":;]+(?:\s*,\s*[^\s+<>,•¤\[\]":;]+)*(?:\s*\([^)]+\))?)?/g, '');
     // Strip stray "(word) = word" fragments left after < cleanup (e.g. "(kayıt) = bağ").
-    text = text.replace(/\s+\([^)]{1,30}\)\s*=\s*\S+/g, '');
-    // Strip bare "wordAr" / "wordYun" etc. (lang tag without period, no definition).
-    text = text.replace(/([^\s.]+?)(Ar|Yun|Fa|İbr|Aram|Lat|Osm)(?![a-zğüşöçı.])/g, '$1');
+    // Use [^\s"<>&]+ instead of \S+ to avoid matching into data-gloss attribute values.
+    text = text.replace(/\s+\([^)]{1,30}\)\s*=\s*[^\s"<>&]+/g, '');
+    // Strip bare "wordAr" / "wordYun" etc. (lang tag without period) only at word boundary.
+    // Lookahead prevents stripping mid-word capital sequences like ʿArûs → ʿûs.
+    text = text.replace(/([^\s.]+?)(Ar|Yun|Fa|İbr|Aram|Lat|Osm|Soğ|Tü)(?=[\s•¤,;(]|$)/g, '$1');
+    // Strip bibliographic cross-references: (bkz. X:Y) embedded in annotations.
+    text = text.replace(/\s*\(bkz\.[^)]+\)/g, '');
+    // Strip comparative annotation notes: (karş. root = def) — always annotation, never verse text.
+    text = text.replace(/\s*\(karş\.[^)]+\)/g, '');
+    // Strip Arabic definite-article root orphan: "el-word = def1, def2" left when the main regex
+    // only matched the word before "el-" (e.g. "fi" from "fi el-hāl").
+    text = text.replace(/\s+el-[^\s<>&"]+(?:\s*=\s*[^\s<>&",]+(?:,\s*[^\s<>&",]+)*)?\s*/g, ' ');
+    // Strip Persian "ki = o kadar ki" particle annotation orphan (from "bal ki" two-word root).
+    text = text.replace(/\s+ki\s*=\s*o\s+kadar\s+ki\b/g, '');
+    // Strip orphaned parenthetical lang-equivalents left by inner chain cleanup,
+    // e.g. "(Tü. veli)", "(Ar. ḍaḍ harfiyle ...)" — always etymology notes, never verse text.
+    text = text.replace(/\s*\([A-Zİ][a-zğüşöçı]*\.\s+[^)]+\)/g, '');
     return text;
   }
 
