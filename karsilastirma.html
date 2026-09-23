@@ -2010,7 +2010,102 @@
       line-height: 1.65;
       color: rgba(247,241,232,0.82);
     }
-  
+    /* Clickable bkz. link inside note tooltip */
+    .bkz-link {
+      color: rgba(184,146,42,0.95);
+      text-decoration: underline;
+      text-decoration-color: rgba(184,146,42,0.4);
+      text-underline-offset: 2px;
+      cursor: pointer;
+      background: none;
+      border: none;
+      padding: 0;
+      font: inherit;
+    }
+    .bkz-link:hover { color: #f0c040; }
+    /* Birimler cetveli sidebar panel */
+    #birimler-body {
+      flex: 1;
+      overflow-y: auto;
+      padding: 14px 16px 40px;
+      font-family: 'EB Garamond', Georgia, serif;
+      font-size: 13.5px;
+      line-height: 1.6;
+    }
+    .bc-section-title {
+      font-size: 10px;
+      font-weight: 700;
+      letter-spacing: 0.15em;
+      text-transform: uppercase;
+      color: rgba(184,146,42,0.7);
+      padding: 18px 0 6px;
+      border-bottom: 1px solid rgba(184,146,42,0.15);
+      margin-bottom: 4px;
+    }
+    .bc-section-title:first-child { padding-top: 4px; }
+    .bc-row { display: flex; align-items: baseline; gap: 6px; padding: 5px 0; border-bottom: 1px solid rgba(255,255,255,0.05); }
+    .bc-row:last-child { border-bottom: none; }
+    .bc-row-name { flex: 1; min-width: 0; font-size: 13px; color: rgba(247,241,232,0.85); line-height: 1.35; word-break: break-word; }
+    .bc-row-orig { font-style: italic; color: rgba(247,241,232,0.4); font-size: 11px; flex-shrink: 0; max-width: 110px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+    .bc-row-val { font-family: 'Jost', 'Courier New', monospace; font-size: 11.5px; color: rgba(184,146,42,0.9); white-space: nowrap; flex-shrink: 0; min-width: 58px; text-align: right; }
+    .bc-chain {
+      font-size: 11px; color: rgba(247,241,232,0.5); padding: 6px 0 10px;
+      line-height: 1.9; word-break: break-word;
+    }
+    .bc-note { font-size: 11px; color: rgba(247,241,232,0.45); padding: 3px 0 10px; font-style: italic; }
+    /* Sözlük sidebar panel */
+    #sozluk-body {
+      flex: 1; overflow-y: auto; padding: 10px 16px 40px;
+      font-family: 'EB Garamond', Georgia, serif; font-size: 13.5px; line-height: 1.6;
+    }
+    .sk-search {
+      width: 100%; box-sizing: border-box;
+      background: rgba(255,255,255,0.05); border: 1px solid rgba(255,255,255,0.12);
+      border-radius: 6px; color: rgba(247,241,232,0.82);
+      font-family: 'Jost', sans-serif; font-size: 12px;
+      padding: 7px 10px; margin-bottom: 10px; outline: none;
+      transition: border-color 0.15s;
+    }
+    .sk-search::placeholder { color: rgba(247,241,232,0.3); }
+    .sk-search:focus { border-color: rgba(184,146,42,0.4); }
+    .sk-entry { padding: 7px 0; border-bottom: 1px solid rgba(255,255,255,0.05); }
+    .sk-entry:last-child { border-bottom: none; }
+    .sk-entry.sk-highlight .sk-term { color: rgba(184,146,42,0.95); }
+    .sk-term { font-weight: 600; color: rgba(247,241,232,0.92); font-size: 13.5px; margin-bottom: 2px; }
+    .sk-def { font-size: 12.5px; color: rgba(247,241,232,0.62); line-height: 1.52; }
+    .sk-empty { color: rgba(247,241,232,0.35); font-size: 13px; text-align: center; padding: 24px 0; font-style: italic; }
+    /* + reference button and dropdown */
+    #ref-more-wrap { position: relative; flex-shrink: 0; }
+    #ref-more-btn {
+      padding: 3px 8px; background: rgba(255,255,255,0.05);
+      border: 1px solid rgba(255,255,255,0.1); border-radius: 10px;
+      color: rgba(247,241,232,0.5); font-family: 'Jost', sans-serif;
+      font-size: 14px; font-weight: 300; line-height: 1;
+      cursor: pointer; white-space: nowrap;
+      transition: background 0.12s, color 0.12s, border-color 0.12s;
+    }
+    #ref-more-btn:hover, #ref-more-btn.open {
+      background: rgba(184,146,42,0.12); border-color: rgba(184,146,42,0.3);
+      color: var(--gold-light);
+    }
+    #ref-more-dd {
+      display: none; position: absolute; top: calc(100% + 6px); right: 0;
+      background: rgba(20,15,8,0.97); border: 1px solid rgba(184,146,42,0.25);
+      border-radius: 8px; min-width: 172px; z-index: 600;
+      box-shadow: 0 6px 24px rgba(0,0,0,0.55); overflow: hidden;
+    }
+    #ref-more-dd.open { display: block; }
+    .ref-more-item {
+      display: block; width: 100%; padding: 9px 14px;
+      background: none; border: none; border-bottom: 1px solid rgba(255,255,255,0.06);
+      color: rgba(247,241,232,0.72); font-family: 'Jost', sans-serif;
+      font-size: 12px; font-weight: 500; letter-spacing: 0.03em;
+      text-align: left; cursor: pointer;
+      transition: background 0.12s, color 0.12s;
+    }
+    .ref-more-item:last-child { border-bottom: none; }
+    .ref-more-item:hover { background: rgba(184,146,42,0.12); color: var(--gold-light); }
+
     /* Language toggle in nav */
     .lang-toggle { display:flex; gap:2px; align-items:center; margin-left:8px; }
     .lang-toggle-btn {
@@ -2567,6 +2662,13 @@
           <button class="comm-src-btn" data-src="akkit">AKKİT</button>
           <button class="comm-src-btn" data-src="esv-tr">ESV TR</button>
           <button class="comm-src-btn" data-src="esv-en">ESV EN</button>
+          <div id="ref-more-wrap">
+            <button id="ref-more-btn" title="Birimler Cetveli ve Sözlük">+</button>
+            <div id="ref-more-dd">
+              <button class="ref-more-item" data-panel="birimler">📐 Birimler Cetveli</button>
+              <button class="ref-more-item" data-panel="sozluk">📚 Sözlük</button>
+            </div>
+          </div>
         </div>
         <span id="commentary-title"></span>
       </div>
@@ -2603,6 +2705,12 @@
 
             <div id="commentary-empty" style="display:none">Bu bölüm için yorum bulunamadı.</div>
           </div>
+        </div>
+        <div class="sidebar-section" id="sidebar-section-birimler">
+          <div id="birimler-body"></div>
+        </div>
+        <div class="sidebar-section" id="sidebar-section-sozluk">
+          <div id="sozluk-body"></div>
         </div>
       </div>
     </div><!-- /#sidebar-panel -->
@@ -4089,6 +4197,177 @@
     document.addEventListener('scroll', hide, true);
   })();
 
+  // ── Birimler Cetveli data + panel ────────────────────────────────────
+  const SOZLUK_DATA = [{"term": "adak ekmekleri", "def": "Tap\u0131nma \u00c7ad\u0131r\u0131'nda ve Yeru\u015falim'deki* tap\u0131nakta her \u015eabat G\u00fcn\u00fc* Tanr\u0131'ya adanan on iki ekmek (bkz. Lev.24:5-9). Ayr\u0131ca, \u00abTanr\u0131'n\u0131n huzuruna konan ekmek\u00bb diye bilinir."}, {"term": "adanm\u0131\u015f ki\u015fi", "def": "Kendisini belirli bir s\u00fcre i\u00e7in Tanr\u0131'ya adayan ki\u015fi. Ki\u015fi bu zaman i\u00e7inde alkolden ve \u00f6l\u00fclere dokunmaktan sak\u0131n\u0131r, sa\u00e7lar\u0131n\u0131 uzat\u0131rd\u0131. Bu s\u00fcrenin sonunda Tanr\u0131'ya sunular sunar ve sa\u00e7lar\u0131n\u0131 kestirirdi (bkz. Say.6:1-21)."}, {"term": "alfa", "def": "Grek alfabesinin ilk harfi olan alfa, ba\u015flang\u0131\u00e7 simgesi olarak kullan\u0131l\u0131r."}, {"term": "Antla\u015fma Sand\u0131\u011f\u0131", "def": "\u00d6nceleri \u0130srailliler'in Tap\u0131nma \u00c7ad\u0131r\u0131'nda, daha sonralar\u0131 tap\u0131na\u011f\u0131n En Kutsal Yeri'nde* bulunan, On Buyruk'un yaz\u0131l\u0131 oldu\u011fu ta\u015f levhalarla \u00e7e\u015fitli kutsal e\u015fyalar\u0131n i\u00e7inde korundu\u011fu sand\u0131k. Sand\u0131k, \u00abBa\u011f\u0131\u015flanma Kapa\u011f\u0131\u00bb ile \u00f6rt\u00fcl\u00fcrd\u00fc (bkz. \u00c7\u0131k.25:17-22; \u0130br.9:5)."}, {"term": "Aramice", "def": "Antik \u00e7a\u011fda bug\u00fcnk\u00fc Suriye'de oturan bir Sami halk\u0131n\u0131n konu\u015ftu\u011fu, S\u00fcryanice'ye benzeyen bir dil. Pers \u0130mparatorlu\u011fu'nun resmi diliydi. Eski Antla\u015fma'da Ezr.4:8-6:18; 7:12-26; Dan.2:4-7:28 ve Yer.10:11 ayetleri Aramice yaz\u0131ld\u0131. \u0130sa Mesih zaman\u0131nda Yahudiler \u0130branice* yerine genellikle Aramice konu\u015furlard\u0131."}, {"term": "A\u015fera", "def": "Kenanl\u0131lar'\u0131n ana tanr\u0131\u00e7as\u0131. A\u015fera kimi yerlerde dikilen oymal\u0131 a\u011fa\u00e7 s\u00fctunlarla temsil edilirdi."}, {"term": "A\u015ftoret", "def": "Astarte diye de bilinir. Kenanl\u0131lar'\u0131n do\u011furganl\u0131k, a\u015fk ve sava\u015f tanr\u0131\u00e7as\u0131. ay Eski \u0130srail'de yeni y\u0131l ve aylar\u0131n ba\u015flang\u0131c\u0131 bug\u00fcn kulland\u0131\u011f\u0131m\u0131z takvimden farkl\u0131yd\u0131. Musa'n\u0131n kitaplar\u0131nda iki ayr\u0131 takvime rastl\u0131yoruz. Biri Mart/Nisan'da, \u00f6b\u00fcr\u00fc Eyl\u00fcl/Ekim'de ba\u015flar. Baz\u0131 yerlerde hangi takvime uyuldu\u011fu pek belli de\u011fil. Kral S\u00fcleyman'dan itibaren (\u0130.\u00d6. 971-931) a\u015fa\u011f\u0131daki takvimin kullan\u0131ld\u0131\u011f\u0131 san\u0131l\u0131yor. Aylar \u0130branice adlar\u0131 T\u00fcrk\u00e7e kar\u015f\u0131l\u0131\u011f\u0131 1. ay Aviv, Nisan Mart-Nisan 2. ay Ziv, \u0130yyar Nisan-May\u0131s 3. ay Sivan May\u0131s-Haziran 4. ay Tammuz Haziran-Temmuz 5. ay Av Temmuz-A\u011fustos 6. ay Elul A\u011fustos-Eyl\u00fcl 7. ay Etanim, Ti\u015fri Eyl\u00fcl-Ekim 8. ay Bul, Markesvan Ekim-Kas\u0131m 9. ay Kislev Kas\u0131m-Aral\u0131k 10. ay Tevet Aral\u0131k-Ocak 11. ay \u015eevat Ocak-\u015eubat 12. ay Adar \u015eubat-Mart"}, {"term": "Asya \u0130li", "def": "Anadolu'nun bug\u00fcnk\u00fc Ege b\u00f6lgesi."}, {"term": "Baal", "def": "\u00abEfendi\u00bb ya da \u00abkoca\u00bb anlam\u0131na gelen Baal, Kenanl\u0131lar'\u0131n verimlilik ilah\u0131yd\u0131."}, {"term": "Baalzevul", "def": "Bkz."}, {"term": "Baalzevuv", "def": "Baalzevuv \u00abSineklerin efendisi\u00bb anlam\u0131na gelen Baalzevuv, \u0130srailliler'in Baalzevul (Y\u00fcksek yerin tanr\u0131s\u0131) adl\u0131 bir Filist ilah\u0131na takt\u0131klar\u0131 alayl\u0131 bir isimdi (bkz. 2Kr.1:1-6). Yeni Antla\u015fma'da ge\u00e7en Baalzevul, \u015eeytan anlam\u0131nda kullan\u0131l\u0131r."}, {"term": "Babil s\u00fcrg\u00fcn\u00fc", "def": "Babil Kral\u0131 Nebukadnessar, \u0130.\u00d6. 597 y\u0131l\u0131nda Yahudiler'in ba\u015fkenti Yeru\u015falim'i* ele ge\u00e7irdi ve halk\u0131n ileri gelenlerini Babil'e g\u00f6t\u00fcrd\u00fc. \u0130.\u00d6. 586 y\u0131l\u0131nda kenti y\u0131karak halk\u0131 Babil'e s\u00fcrd\u00fc. Yahudiler'in orada kald\u0131klar\u0131 70 y\u0131ll\u0131k d\u00f6nem \u00abBabil s\u00fcrg\u00fcn\u00fc\u00bb diye bilinir (bkz. 2Kr.24-25; 2Ta.36)."}, {"term": "bayram", "def": "Kutsal Kitap'ta ge\u00e7en bayramlar: Bayram Ad\u0131 Ge\u00e7ti\u011fi Ayetler Tarih F\u0131s\u0131h* Bayram\u0131 \u00c7\u0131k.12:1-14; Lev.23:5; Say.9:1- 14; 28:16; Yas.16:1-3a, 4b-7 14 Aviv (Mart-Nisan) Mayas\u0131z Ekmek Bayram\u0131 \u00c7\u0131k.12:15-20; 13:3-10; 23:15; 34:18; Lev.23:6-8; Say.28:17-25; Yas.16:3b,4a,8 15-21 Aviv (Mart-Nisan) Hasat Bayram\u0131 / Haftalar Bayram\u0131 / Pentikost Bayram\u0131 \u00c7\u0131k.23:16a; 34:22a; Lev.23:15-21; Say.28:26-31; Yas.16:9-12; El\u00e7.2:1 6 Sivan (May\u0131s-Haziran) Anma G\u00fcn\u00fc / Boru \u00c7alma G\u00fcn\u00fc / Yeni y\u0131l Lev.23:23-25; Say.29:1-6 1 Ti\u015fri (Eyl\u00fcl-Ekim) G\u00fcnahlar\u0131 Ba\u011f\u0131\u015flatma G\u00fcn\u00fc Lev.16:1-34; 23:26-32; Say.29:7-11; El\u00e7.27:9-10 10 Ti\u015fri (Eyl\u00fcl-Ekim) \u00c7ardak Bayram\u0131 / \u00dcr\u00fcn Dev\u015firme Bayram\u0131 \u00c7\u0131k.23:16b; 34:22b; Lev.23:33-36a; 39:43; Say.29:12-34; Yas.16:13-15; Zek.14:16-19 15-21 Ti\u015fri (Eyl\u00fcl-Ekim) Tap\u0131na\u011f\u0131n A\u00e7\u0131l\u0131\u015f\u0131n\u0131 Anma Bayram\u0131 Yu.10:22 25 Kislev (Kas\u0131m-Aral\u0131k) Purim Bayram\u0131 Est.9:18-32 14,15 Adar (\u015eubat-Mart)"}, {"term": "bilici", "def": "E\u015f anlaml\u0131 \u00abhoze\u00bb ve \u00abroe\u00bb \u0130branice s\u00f6zc\u00fcklerin kar\u015f\u0131l\u0131\u011f\u0131 olarak kullan\u0131lan bilici, s\u00f6zc\u00fc\u011f\u00fc s\u00f6zc\u00fc\u011f\u00fcne \u00abg\u00f6ren\u00bb anlam\u0131na gelir. Bu terimler peygamberleri nitelemek i\u00e7in kullan\u0131l\u0131rd\u0131 (bkz. 1Sa.9:9)."}, {"term": "b\u00f6lge kral\u0131", "def": "Grek\u00e7e \u00abTetrarhis\u00bb, Roma ad\u0131na k\u00fc\u00e7\u00fck bir b\u00f6lge \u00fczerinde yetkili k\u0131l\u0131nan krala verilen \u00f6zel bir unvand\u0131r. (Ayr\u0131ca bkz. Hirodes*.)"}, {"term": "\u00e7ul ve k\u00fcl", "def": "\u00c7ul, k\u0131ldan yap\u0131lm\u0131\u015f kaba dokumad\u0131r. Eski \u00e7a\u011flarda Yahudiler t\u00f6vbe ya da yas i\u015fareti olarak \u00e7ul giyer ve \u00fczerlerine k\u00fcl serperlerdi."}, {"term": "c\u00fczam", "def": "\u0130ncil'de \u00abc\u00fczam\u00bb diye \u00e7evrilen s\u00f6zc\u00fck bir\u00e7ok deri hastal\u0131\u011f\u0131 i\u00e7in kullan\u0131l\u0131rd\u0131."}, {"term": "Davut O\u011flu", "def": "\u0130sa Mesih'in unvanlar\u0131ndan biri."}, {"term": "dillerle konu\u015fmak", "def": "Ki\u015finin bir dili Kutsal Ruh'un etkisiyle konu\u015fmas\u0131 (bkz. El\u00e7.2:4-13; 10:46; 19:6; 1Ko.12:8,28,30; 14:2-39)."}, {"term": "din bilginleri", "def": "Yeni Antla\u015fma'da, Kutsal Yaz\u0131lar'\u0131 kopya etmek, yorumlamak ve \u00f6\u011fretmekle u\u011fra\u015fan Yahudi din adamlar\u0131 anlam\u0131ndad\u0131r."}, {"term": "efod", "def": "Ayr\u0131nt\u0131lar\u0131 \u00c7\u0131k.28 ve 39. b\u00f6l\u00fcmlerde anlat\u0131lan keten bir \u00fcst giysi. Halk Rab'bin iste\u011fini \u00f6\u011frenmek i\u00e7in efodun g\u00f6\u011f\u00fcs k\u0131sm\u0131nda bulunan Urim ve Tummim'e* ba\u015fvururdu. Efod s\u00f6zc\u00fc\u011f\u00fc baz\u0131 yerlerde bir \u00e7e\u015fit put olarak da kabul ediliyor (\u00f6rne\u011fin Hak.8:27; 17:5; 18:14-20)."}, {"term": "En Kutsal Yer", "def": "\u00d6nceleri Tap\u0131nma \u00c7ad\u0131r\u0131'nda, sonralar\u0131 da Yeru\u015falim'deki* tap\u0131nakta yer alan ve yaln\u0131z ba\u015fk\u00e2hinin y\u0131lda bir kez girebildi\u011fi en kutsal b\u00f6lme, i\u00e7 oda."}, {"term": "Ferisiler", "def": "\u0130sa Mesih d\u00f6neminde dindar bir Yahudi mezhebi. Bu mezhep Kutsal Yasa'ya ve y\u00fczy\u0131llar boyu Yasa'ya dayand\u0131r\u0131lan dinsel kurallara s\u0131k\u0131 s\u0131k\u0131ya ba\u011fl\u0131yd\u0131."}, {"term": "F\u0131s\u0131h", "def": "\u00abDokunmadan ge\u00e7mek\u00bb anlam\u0131na gelen \u0130branice \u00abPasah\u00bb s\u00f6zc\u00fc\u011f\u00fcn\u00fcn kar\u015f\u0131l\u0131\u011f\u0131d\u0131r. \u0130srailliler F\u0131s\u0131h Bayram\u0131'nda* M\u0131s\u0131r'daki k\u00f6lelikten kurtulu\u015flar\u0131n\u0131 kutlarlar (bkz. \u00c7\u0131k.12:13,27)."}, {"term": "g\u00f6\u011f\u00fcsl\u00fck", "def": "Ba\u015fk\u00e2hinin efod* \u00fczerine takt\u0131\u011f\u0131 kare bi\u00e7imindeki dokuma (\u00c7\u0131k.28:15-16). Bu dokumaya ili\u015ftirilmi\u015f on iki de\u011ferli ta\u015f\u0131n \u00fczerine de \u0130srail'in on iki oyma\u011f\u0131n\u0131n adlar\u0131 kaz\u0131nm\u0131\u015ft\u0131. Bu sayede ba\u015fk\u00e2hin En Kutsal Yer'e* her girdi\u011finde halk\u0131 Tanr\u0131'n\u0131n huzuruna \u00e7\u0131karm\u0131\u015f oluyordu."}, {"term": "Grekler", "def": "Grek t\u00f6relerine g\u00f6re ya\u015fayan halklar. Rom.10:12; 1Ko.12:13; Gal.3:28'de Yahudi olmayanlar anlam\u0131na gelir."}, {"term": "haftan\u0131n ilk g\u00fcn\u00fc", "def": "Pazar g\u00fcn\u00fc."}, {"term": "Haz\u0131rl\u0131k G\u00fcn\u00fc", "def": "Per\u015fembe g\u00fcnbat\u0131m\u0131ndan Cuma g\u00fcnbat\u0131m\u0131na kadar olan s\u00fcre; bu s\u00fcre i\u00e7inde Yahudiler, \u015eabat G\u00fcn\u00fc* i\u00e7in haz\u0131rl\u0131k yaparlar."}, {"term": "Hirodes", "def": "Yeni Antla\u015fma'da be\u015f ayr\u0131 ki\u015finin ad\u0131d\u0131r: 1) Birincisi \u0130.\u00d6. 40 ile 4 y\u0131llar\u0131 aras\u0131nda Filistin'i Roma ad\u0131na y\u00f6neten B\u00fcy\u00fck Hirodes'tir (bkz. Mat.2:1-15). B\u00fcy\u00fck Hirodes \u00f6ld\u00fc\u011f\u00fcnde krall\u0131\u011f\u0131 \u00fc\u00e7 o\u011flu aras\u0131nda payla\u015f\u0131ld\u0131: Yahudiye* ile Samiriye Hirodes Arhelas'a (\u0130.\u00d6. 4 - \u0130.S. 6), Celile ile Perea Hirodes Antipa'ya (\u0130.\u00d6. 4 - \u0130.S. 39) ve kuzeydo\u011fu topraklar\u0131 Filipus'a (\u0130.\u00d6. 4 - \u0130.S. 33/4) verildi. 2) Hirodes Arhelas'\u0131n (bkz. Mat.2:22) k\u00f6t\u00fc idaresinden \u00f6t\u00fcr\u00fc Yahudiye ile Samiriye'nin y\u00f6netimi daha sonra bir Roma Valisi'ne verildi (\u0130.S. 6). 3) Tetrarhis (b\u00f6lge kral\u0131*) Hirodes diye de bilinen Hirodes Antipa, Peygamber Yahya'y\u0131 tutuklat\u0131p \u00f6ld\u00fcrtt\u00fc, \u0130sa Mesih'i yarg\u0131lanmak \u00fczere Pontius Pilatus'a g\u00f6nderdi (bkz. Mat.14:1-12; Luk.23:7-12). 4) B\u00fcy\u00fck Hirodes'in torunlar\u0131ndan Kral I. Hirodes Agrippa, \u0130.S. 37 ile 44 y\u0131llar\u0131 aras\u0131nda Filistin'in \u00e7e\u015fitli b\u00f6lgelerini y\u00f6netti. 44 y\u0131l\u0131ndaki \u00f6l\u00fcm\u00fc Yeni Antla\u015fma'da kaydedilmi\u015ftir (bkz. El\u00e7.12:20-23). 5) I. Hirodes Agrippa'n\u0131n o\u011flu olan II. Hirodes Agrippa, babas\u0131n\u0131n krall\u0131\u011f\u0131n\u0131 \u0130.S. 48 y\u0131l\u0131nda miras ald\u0131. Pavlus'un duru\u015fmas\u0131nda bulunan bu Agrippa'yd\u0131 (bkz. El\u00e7.25:13-26:32)."}, {"term": "Hitit", "def": "Eski Antla\u015fma'da ge\u00e7en Hitit ad\u0131 iki farkl\u0131 halk\u0131 tan\u0131ml\u0131yor: 1) \u0130srailliler'in fethinden \u00f6nce Kenan'da ya\u015fayan halk (\u00f6rne\u011fin Yar.23:10); 2) Anadolu Hititleri'nin G\u00fcneydo\u011fu Anadolu ve Suriye'de \u00abGe\u00e7-Hitit\u00bb krall\u0131klar\u0131n\u0131 kurmu\u015f olan torunlar\u0131 (1Kr.10:29; 2Ta.1:17). Bu halklar\u0131n ili\u015fki derecesi tam bilinmiyor."}, {"term": "hozana", "def": "Aramice* \u00ab\u015eimdi kurtar\u00bb anlam\u0131na gelen \u00abho\u015fana\u00bb s\u00f6zc\u00fc\u011f\u00fc, Yeni Antla\u015fma'da Kurtar\u0131c\u0131 \u0130sa'y\u0131 selamlamak i\u00e7in kullan\u0131l\u0131yor."}, {"term": "ihtiyar", "def": "Kilise* \u00f6nderi. \u0130htiyar unvan\u0131 \u0130srail'de halk\u0131n ileri gelenleri i\u00e7in de kullan\u0131l\u0131rd\u0131."}, {"term": "inanl\u0131lar toplulu\u011fu", "def": "Grek\u00e7e \u00abekklisia\u00bb s\u00f6zc\u00fc\u011f\u00fcn\u00fcn k\u00f6k anlam\u0131 \u00abtopluluk\u00bb ya da \u00abtoplant\u0131\u00bbd\u0131r. Eski Antla\u015fma'n\u0131n Grek\u00e7e \u00e7evirisi olan Septuaginta'da \u0130srail halk\u0131 i\u00e7in kullan\u0131ld\u0131. Sonradan H\u0131ristiyan toplulu\u011fu i\u00e7in teknik terim olup Yunanca'dan T\u00fcrk\u00e7e'ye \u00abkilise\u00bb \u015feklinde ge\u00e7ti. Elinizdeki \u00e7eviride bu s\u00f6zc\u00fck, d\u00fcnya \u00e7ap\u0131ndaki ya da belirli bir kentteki H\u0131ristiyan toplulu\u011fundan s\u00f6z ederken \u00abkilise\u00bb; topluluk bireylerinin kar\u015f\u0131l\u0131kl\u0131 davran\u0131\u015flar\u0131ndan, ili\u015fkilerinden ve sorunlar\u0131ndan s\u00f6z ederken \u00abinanl\u0131lar toplulu\u011fu\u00bb ya da \u00abtopluluk\u00bb diye \u00e7evrilmi\u015ftir."}, {"term": "\u0130branice", "def": "\u0130srailliler'in dili. Yeni Antla\u015fma'da, \u0130branice'den s\u00f6z edildi\u011fi baz\u0131 yerlerde bu dile benzeyen Aramice* kastedilir."}, {"term": "\u0130nsano\u011flu", "def": "Dan.7:13'te ge\u00e7en ve \u0130ncil'de \u0130sa Mesih'in kendisi i\u00e7in kulland\u0131\u011f\u0131 unvan."}, {"term": "Kam\u0131\u015f Denizi", "def": "Bu olay\u0131n Sina Yar\u0131madas\u0131\u2019nda bulunan bir batakl\u0131k b\u00f6lgede ge\u00e7ti\u011fi san\u0131l\u0131yor. Bug\u00fcn \u201cAc\u0131 G\u00f6ller\u201d diye bilinen yer olabilir."}, {"term": "kaya tav\u015fan\u0131", "def": "Bilimsel a\u00e7\u0131dan \u00abk\u0131r s\u0131\u00e7an\u0131ms\u0131\u00bb olarak adland\u0131r\u0131lan bu otobur hayvan tav\u015fan b\u00fcy\u00fckl\u00fc\u011f\u00fcnde olup kayal\u0131k tepelerde ya\u015far."}, {"term": "Kefas", "def": "\u00abKaya\u00bb anlam\u0131na gelen Petrus ad\u0131n\u0131n Aramice'si*. Keretliler'le Peletliler Benaya komutas\u0131nda olan ve Davut'u koruma birli\u011fini olu\u015fturan paral\u0131 askerler. Keretliler'in Giritli, Peletliler'inse Filistli oldu\u011fu san\u0131l\u0131yor."}, {"term": "Keruvlar", "def": "Kanatl\u0131 do\u011fa\u00fcst\u00fc varl\u0131klar ve bunlar\u0131n heykelleri."}, {"term": "Kildaniler", "def": "Kuzey Arabistan'da ya\u015fam\u0131\u015f olan Sami \u0131rk\u0131ndan yar\u0131 g\u00f6\u00e7ebe bir halk. Sonralar\u0131 G\u00fcney Mezopotamya'n\u0131n Ur Kenti \u00e7evresine yerle\u015ftiler (Yar.11:28). Yeni-Babil \u0130mparatorlu\u011fu'nu (\u0130.\u00d6. 626-539) y\u00f6neten krallar bu halktand\u0131. Daniel Kitab\u0131'nda \u00aby\u0131ld\u0131zbilimciler\u00bb diye \u00e7evrilen \u00abKildaniler\u00bb s\u00f6zc\u00fc\u011f\u00fc \u0130branice'de ve Aramice'de* bir b\u00fcy\u00fcc\u00fc toplulu\u011fu anlam\u0131na da geliyor."}, {"term": "kilise", "def": "Bkz. inanl\u0131lar toplulu\u011fu."}, {"term": "k\u00f6t\u00fc olan", "def": "\u015eeytan. K\u00fb\u015f 1) K\u00fb\u015f ad\u0131 genellikle M\u0131s\u0131r'\u0131n g\u00fcneyindeki Asvan'dan bug\u00fcnk\u00fc Hartum'a yak\u0131n olan Beyaz Nil ile Mavi Nil'in birle\u015fti\u011fi yer aras\u0131nda uzanan b\u00f6lge i\u00e7in kullan\u0131l\u0131rd\u0131. 2) Sadece Yar.2:13'te ge\u00e7en K\u00fb\u015f ad\u0131 ise Aden bah\u00e7esine yak\u0131n bir b\u00f6lgeyi niteliyor."}, {"term": "kutsal kent", "def": "Yeru\u015falim*, Kud\u00fcs."}, {"term": "Kutsal Yasa", "def": "Tanr\u0131'n\u0131n Peygamber Musa'ya verdi\u011fi yasalar dizisi."}, {"term": "Kutsal Yer", "def": "\u00d6nceleri Tap\u0131nma \u00c7ad\u0131r\u0131'nda, sonralar\u0131 da Yeru\u015falim'deki* tap\u0131nakta yer alan ve yaln\u0131z \u0130srailli k\u00e2hinlerin* girebildi\u011fi b\u00f6lme. Tap\u0131na\u011f\u0131n ikinci odas\u0131 olan bu b\u00f6l\u00fcme \u00abana b\u00f6l\u00fcm\u00bb denilir. Kutsal Yer k\u00fc\u00e7\u00fck harfle yaz\u0131ld\u0131\u011f\u0131 zaman Tap\u0131nma \u00c7ad\u0131r\u0131'n\u0131 ya da tap\u0131na\u011f\u0131n t\u00fcm\u00fcn\u00fc anlat\u0131r."}, {"term": "k\u00e2hin", "def": "Tanr\u0131 ile insanlar aras\u0131nda arac\u0131l\u0131k yapan ve Tanr\u0131'ya kurban sunmak gibi dinsel i\u015flerle u\u011fra\u015fan g\u00f6revli. K\u00e2hinin b\u00fcy\u00fcc\u00fcl\u00fck, falc\u0131l\u0131k, sihirbazl\u0131k, gaipten haber vermek gibi i\u015flerle u\u011fra\u015fmas\u0131 s\u00f6z konusu de\u011fildi. Bu uygulamalar Yas.18:9-14 ayetlerinde yasaklanm\u0131\u015ft\u0131r."}, {"term": "k\u00e2se", "def": "Bazen b\u00fcy\u00fck ac\u0131 simgesi olarak kullan\u0131l\u0131r (bkz. Mat.20:22-23; 26:39-42; Mar.10:38-40; 14:36; Luk.22:41-44; Yu.18:11)."}, {"term": "Levililer", "def": "\u0130srail'in on iki oyma\u011f\u0131ndan biri. Harun ve Harun'un soyundan gelen k\u00e2hinler bu oymaktand\u0131. Levililer ad\u0131, bu k\u00e2hinlere tap\u0131nakta yard\u0131m eden g\u00f6revliler i\u00e7in kullan\u0131l\u0131rd\u0131 (bkz. 1 Ta.23:28-32)."}, {"term": "Livyatan", "def": "Kenan mitolojisinde de ge\u00e7en bir \u00e7e\u015fit deniz canavar\u0131."}, {"term": "man", "def": "Tanr\u0131'n\u0131n M\u0131s\u0131r'dan \u00e7\u0131kan \u0130srailliler'i \u00e7\u00f6lde doyurmak i\u00e7in g\u00f6kten g\u00f6nderdi\u011fi yiyecek (bkz. \u00c7\u0131k.16:13-36)."}, {"term": "meshetmek", "def": "Eski Antla\u015fma'da kutsal bir ama\u00e7la kullan\u0131lacak bir e\u015fyan\u0131n \u00fczerine ya da yeni g\u00f6reve atanacak bir ki\u015finin ba\u015f\u0131na zeytinya\u011f\u0131 s\u00fcrmek. Yeni Antla\u015fma'da \u00abmesh\u00bb s\u00f6zc\u00fc\u011f\u00fc Tanr\u0131'n\u0131n, Kutsal Ruhu'nu inanl\u0131lara veri\u015fini de kaps\u0131yor (bkz. \u00c7\u0131k.30:22-29; 1Sa.10:1-10; 16:3; 24:6; 1Kr.19:5-16; Y\u015fa.61:1-3; El\u00e7.10:38; 1Yu.2:20,27)."}, {"term": "Mesih", "def": "Mesih, \u00abMeshedilmi\u015f Olan\u00bb (Grek\u00e7e \u00abHristos\u00bb). Peygamberlerin gelece\u011fini \u00f6nceden haber verdikleri Kurtar\u0131c\u0131 Kral \u0130sa. Mesih Kar\u015f\u0131t\u0131 1) D\u00fcnyan\u0131n son g\u00fcnlerinde \u0130sa Mesih'e kar\u015f\u0131 koymak \u00fczere \u015eeytan taraf\u0131ndan g\u00fc\u00e7lendirilecek olan k\u00f6t\u00fc ki\u015fi. 2) \u0130sa Mesih'e kar\u015f\u0131 koyan kimse (1Yu.2:18-22, 4:3; 2Yu.7)."}, {"term": "mezar", "def": "Yahudiler \u00f6l\u00fclerini kayadan oyulmu\u015f ma\u011faralarda g\u00f6merlerdi. Ma\u011fara, a\u011fz\u0131na b\u00fcy\u00fck bir ta\u015f\u0131n yuvarlanmas\u0131yla kapat\u0131l\u0131rd\u0131."}, {"term": "Millo", "def": "\u0130branice \u00abdolmak\u00bb fiilinden t\u00fcretilmi\u015f ad. Topra\u011f\u0131n d\u00fczeltilip engebeli yerleri doldurmas\u0131yla olu\u015fturulan alan olabilir."}, {"term": "Molek", "def": "Ammonlular'\u0131n Molok, Milkom ya da Malkam diye de bilinen ilah\u0131. Zaman zaman bu ilah\u0131n s\u00f6zde \u00f6fkesini dindirmek i\u00e7in \u00e7ocuklar\u0131 yakarak kurban ederlerdi. Kutsal Yasa bu \u00e7e\u015fit uygulamalar\u0131 yasakl\u0131yor (bkz. Lev.18:21, 20:2-5)."}, {"term": "m\u00fcr", "def": "\u0130la\u00e7 ve parf\u00fcm olarak kullan\u0131lan de\u011ferli ve ho\u015f kokulu bir ya\u011f."}, {"term": "murdar", "def": "Dinsel a\u00e7\u0131dan kirli."}, {"term": "omega", "def": "Grek alfabesinin son harfi olan omega, sonu simgelemek i\u00e7in kullan\u0131l\u0131r."}, {"term": "Onbirler", "def": "Yahuda \u0130skariot'un \u00f6l\u00fcm\u00fcnden sonra \u0130sa Mesih'in el\u00e7ileri bir s\u00fcre \u00abOnbirler\u00bb olarak an\u0131ld\u0131. Yahuda'n\u0131n yerine Mattiya se\u00e7ildikten sonra el\u00e7ilerden tekrar \u00ab"}, {"term": "Onikiler", "def": "\u00bb diye s\u00f6z edilmeye ba\u015fland\u0131. Onikiler \u0130sa Mesih'in on iki el\u00e7isi (havarisi)."}, {"term": "oru\u00e7", "def": "Belli bir s\u00fcre yiyecekten i\u00e7ecekten ka\u00e7\u0131nmak. Kutsal Kitap'ta oru\u00e7 i\u00e7in kesin bir s\u00fcre belirtilmez; gece g\u00fcnd\u00fcz s\u00fcrd\u00fcr\u00fclebilir."}, {"term": "\u00f6teki uluslar", "def": "Yahudi olmayanlar."}, {"term": "para bozanlar", "def": "Putperestli\u011fin i\u015faretlerini ta\u015f\u0131yan Roma paras\u0131n\u0131 tap\u0131nak vergisini \u00f6demekte kullanmak yasakt\u0131. Onun i\u00e7in, bu paray\u0131 \u00f6zel bir ak\u00e7eyle de\u011fi\u015ftirmek gerekiyordu. Para bozan ki\u015filer bu i\u015f i\u00e7in fahi\u015f \u00fccretler al\u0131rd\u0131."}, {"term": "perde", "def": "Yahudiler'in tap\u0131na\u011f\u0131nda, En Kutsal Yer'i* Kutsal Yer'den* ay\u0131ran perde (bkz. \u00c7\u0131k.26:31-35; \u0130br.10:19-20)."}, {"term": "Rab'bin Sofras\u0131", "def": "Yeni Antla\u015fma'da \u0130sa Mesih'in \u00f6l\u00fcm\u00fcn\u00fc anmak i\u00e7in yap\u0131lan t\u00f6ren (bkz. Mat.26:26-29; Mar.14:22-25; Luk.22:15-20; 1Ko.11:23-34)."}, {"term": "Rabb\u00ee", "def": "Kutsal Yasa uzmanlar\u0131na verilen ve \u00abHocam\u00bb anlam\u0131na gelen Aramice* bir unvan."}, {"term": "Roma vatanda\u015f\u0131", "def": "Eski Roma imparatorlu\u011funun s\u0131n\u0131rlar\u0131 i\u00e7inde ya\u015fayan herkes Roma vatanda\u015f\u0131 de\u011fildi. Roma vatanda\u015f\u0131 olman\u0131n ayr\u0131cal\u0131klar\u0131 aras\u0131nda, dayak ve \u00e7arm\u0131h gibi utan\u00e7 verici cezalardan muaf tutulma, su\u00e7lamalar kar\u015f\u0131s\u0131nda imparatora ba\u015fvurabilme hakk\u0131 vard\u0131. Do\u011fu\u015ftan Romal\u0131 olmayan bir ki\u015fi bu vatanda\u015fl\u0131\u011f\u0131, k\u00f6lelikten \u00f6zg\u00fcr k\u0131l\u0131narak, bir \u00f6d\u00fcl olarak ya da parayla sat\u0131n alarak elde edebilirdi."}, {"term": "saat", "def": "Eski \u00e7a\u011flarda genellikle g\u00fcnbat\u0131m\u0131, yeni bir g\u00fcn\u00fcn ba\u015flang\u0131c\u0131 say\u0131l\u0131rd\u0131. Gece, on iki saate ya da \u00abn\u00f6bet\u00bb denen \u00fc\u00e7er veya d\u00f6rder saatlik zaman dilimlerine b\u00f6l\u00fcnm\u00fc\u015ft\u00fc. G\u00fcnd\u00fcz ise g\u00fcn do\u011fu\u015fundan ba\u015flayarak on iki saate b\u00f6l\u00fcnm\u00fc\u015ft\u00fc. \u00d6rne\u011fin, bu d\u00fczenlemeye g\u00f6re (g\u00fcnd\u00fcz) alt\u0131nc\u0131 saat = \u00f6\u011fle vakti; dokuzuncu saat = saat 15:00, vb. Yeni Antla\u015fma'da belirtilen saatler bu sisteme g\u00f6re d\u00fczenlenmi\u015fti. Ne var ki, baz\u0131 uzmanlara g\u00f6re Yuhanna yaz\u0131lar\u0131nda bug\u00fcnk\u00fc sisteme yak\u0131n bir sistem kulland\u0131. Bu durumda onuncu saat sabah saat 10:00 olur (bkz. Yu.1:39)."}, {"term": "\u015eabat G\u00fcn\u00fc", "def": "\u0130srailliler'in dinlenme ve tap\u0131nma g\u00fcn\u00fc (Cuma g\u00fcnbat\u0131m\u0131ndan Cumartesi g\u00fcnbat\u0131m\u0131na dek s\u00fcrer). Bkz. \u00c7\u0131k.20:8-11; Yas.5:12-15."}, {"term": "Sadukiler", "def": "Yahudilik'te ak\u0131lc\u0131l\u0131\u011f\u0131 savunan bir mezhep. Sadukiler, Eski Antla\u015fma'dan yaln\u0131z Musa'n\u0131n kitaplar\u0131n\u0131 kabul eder, \u00f6l\u00fcmden sonraki ya\u015fam, dirili\u015f, cennet, cehennem d\u00fc\u015f\u00fcncesine ve cin, melek gibi do\u011fa\u00fcst\u00fc varl\u0131klara inanmazlard\u0131."}, {"term": "Samiriyeliler", "def": "Yahudiler'le \u00f6b\u00fcr halklar\u0131n kar\u0131\u015f\u0131m\u0131ndan olu\u015fan, Yahudiye* ile Celile aras\u0131nda ya\u015fayan melez bir halk. Tektanr\u0131c\u0131 olduklar\u0131 halde Samiriyeliler, saf kan Yahudi olmad\u0131klar\u0131ndan ve birtak\u0131m de\u011fi\u015fik dinsel g\u00f6renekleri izlediklerinden Yahudilerce hor g\u00f6r\u00fcl\u00fcrd\u00fc."}, {"term": "satraplar", "def": "Pers Kral\u0131 ad\u0131na geni\u015f b\u00f6lgeleri y\u00f6neten \u00fcst d\u00fczey valiler (\u0130.\u00d6. 6-4. y\u00fczy\u0131l aras\u0131)."}, {"term": "Sela", "def": "M\u00fczikte duru\u015f ifade eden bir terim oldu\u011fu san\u0131l\u0131yor."}, {"term": "Sezar", "def": "Roma imparatorlar\u0131na verilen bir unvan. Kayser diye de bilinir."}, {"term": "Siyon", "def": "Yeru\u015falim* Kenti'nin kuruldu\u011fu tepelerden biri olan \u00abSiyon\u00bb s\u00f6zc\u00fc\u011f\u00fc, mecazi anlamda \u00abTanr\u0131'n\u0131n konutu\u00bb, \u00abTanr\u0131'n\u0131n halk\u0131\u00bb demektir. \u00abSiyon k\u0131z\u0131\u00bb ise \u00abYeru\u015falim halk\u0131\u00bb anlam\u0131na gelir."}, {"term": "s\u00fcnnetli", "def": "\u0130srail halk\u0131."}, {"term": "s\u00fcnnetsiz", "def": "Kutsal Kitap'ta \u0130srail halk\u0131ndan olmayanlar."}, {"term": "sunular", "def": "Levililer Kitab\u0131'nda a\u00e7\u0131klanan sunular sistemi olduk\u00e7a karma\u015f\u0131kt\u0131r. Be\u015f temel sunu vard\u0131r. Sununun Ad\u0131 Ge\u00e7ti\u011fi Ayetler Ama\u00e7 ve Anlam\u0131 Yakmal\u0131k sunu Lev.1; 6:8-13; 8:18-21; 16:24 G\u00f6n\u00fcll\u00fc tap\u0131nma, g\u00fcnahlar\u0131 ba\u011f\u0131\u015flatmak, Tanr\u0131'ya ba\u011fl\u0131l\u0131k g\u00f6stermek Tah\u0131l sunusu Lev.2; 6:14-23 G\u00f6n\u00fcll\u00fc tap\u0131nma, Tanr\u0131'n\u0131n l\u00fctfunu hat\u0131rlamak Esenlik sunusu Lev.3; 7:11-34 G\u00f6n\u00fcll\u00fc tap\u0131nma, \u015f\u00fckran ve Payda\u015fl\u0131k G\u00fcnah sunusu Lev.4:1-5:13; 6:24-30; 8:14-17; 16:3-22 G\u00fcnaha kar\u015f\u0131l\u0131k zorunlu sunu, g\u00fcnahlar\u0131 ba\u011f\u0131\u015flatmak, ar\u0131nma Su\u00e7 sunusu Lev.5:14-6:7; 7:1-6 Bedeli \u00f6denmesi gereken g\u00fcnahlara kar\u015f\u0131l\u0131k zorunlu sunu"}, {"term": "s\u00fcr\u00fcngen", "def": "\u0130branice s\u00f6zc\u00fck fare, b\u00f6cek gibi \u00f6teki kara hayvanlar\u0131n\u0131 da kaps\u0131yor. Buna benzer ba\u015fka bir \u0130branice s\u00f6zc\u00fck Levililer Kitab\u0131'nda \u00abk\u00fc\u00e7\u00fck kara hayvan\u0131\u00bb diye \u00e7evrildi (bkz. Lev.11:29-30)."}, {"term": "Tanr\u0131'dan korkanlar", "def": "\u0130sa Mesih zaman\u0131nda Yahudi soyundan olmay\u0131p da Yahudi dinini benimsemi\u015f ama s\u00fcnnet olmam\u0131\u015f ki\u015filer."}, {"term": "Tanr\u0131'n\u0131n Egemenli\u011fi", "def": "Bu terim, Tanr\u0131'n\u0131n d\u00fcnya \u00fczerinde bir kral gibi egemenlik s\u00fcrd\u00fc\u011f\u00fcn\u00fc anlat\u0131r. Mat.3:2-3 ve Luk.11:20'ye g\u00f6re \u0130sa'n\u0131n d\u00fcnyaya geli\u015fiyle ba\u015flam\u0131\u015f olan bu egemenlik, yine Mat.24-25'e g\u00f6re \u0130sa'n\u0131n ikinci geli\u015finden sonra t\u00fcm\u00fcyle ger\u00e7ekle\u015fecektir."}, {"term": "Tanr\u0131'n\u0131n huzuruna konan ekmek", "def": "Bkz. adak ekmekleri."}, {"term": "Tofet", "def": "Yeru\u015falim* d\u0131\u015f\u0131nda Ben-Hinnom Vadisi'nde bir tap\u0131nma yeriydi. Burada halk ilah Molek'in* s\u00f6zde \u00f6fkesini dindirmek i\u00e7in \u00e7ocuklar\u0131 yakarak kurban ederdi."}, {"term": "topluluk", "def": "Bkz. inanl\u0131lar toplulu\u011fu."}, {"term": "t\u00fcmen", "def": "\u0130sa Mesih zaman\u0131nda Roma ordusunun \u00ablejyon\u00bb denilen ve yakla\u015f\u0131k 6 000 erden olu\u015fan askeri birli\u011fi."}, {"term": "tun\u00e7", "def": "\u0130branice ve Aramice'deki* ilgili s\u00f6zc\u00fckler hem bak\u0131r hem tun\u00e7 anlam\u0131na gelir. Bak\u0131r \u0131s\u0131ya daha dayan\u0131kl\u0131d\u0131r ve \u00c7\u0131k.27:1-8'le 38:1-7'de a\u00e7\u0131kland\u0131\u011f\u0131 gibi suna\u011f\u0131n yap\u0131m\u0131nda kullan\u0131lm\u0131\u015f olabilir. Tun\u00e7 daha serttir ve 1Sa.17:5'te belirtildi\u011fi gibi silah yap\u0131m\u0131nda kullan\u0131l\u0131rd\u0131."}, {"term": "Urim ve Tummim", "def": "Ba\u015fk\u00e2hinin efodundaki* g\u00f6\u011f\u00fcsl\u00fc\u011f\u00fcnde* bulunan iki k\u00fc\u00e7\u00fck nesne. Bunlar kura \u00e7ekmek ve Tanr\u0131'n\u0131n iste\u011fini \u00f6\u011frenmek i\u00e7in kullan\u0131l\u0131rd\u0131."}, {"term": "vaftiz", "def": "S\u00f6zc\u00fck anlam\u0131yla \u00absuyla y\u0131kama\u00bb, \u00absuya dald\u0131rma\u00bb (bkz. Mat.3:5-17; 28:19; Mar.1:4-11; 16:15-16; Luk.3:2-22; Yu.1:24-28,33; 4:1-3; El\u00e7.1:5; 2:38-41; 10:46-48; 19:1-6; Rom.6:3-4; 1Ko.12:13; Gal.3:27; Kol.2:12; 1Pe.3:20-21)."}, {"term": "vergi g\u00f6revlisi", "def": "\u0130sa zaman\u0131nda Roma \u0130mparatorlu\u011fu ad\u0131na Yahudi halk\u0131ndan vergi toplayan ve bu y\u00fczden sevilmeyen ki\u015fi."}, {"term": "Yahudiye", "def": "1) Roma \u0130mparatorlu\u011fu zaman\u0131nda Filistin'in g\u00fcney k\u0131sm\u0131ndan olu\u015fan eyalet; 2) Bu eyaletle birlikte Yahudiler'in \u00e7ok say\u0131da bulundu\u011fu kom\u015fu eyaletlerin topraklar\u0131n\u0131n t\u00fcm\u00fc."}, {"term": "Yard\u0131mc\u0131", "def": "Yeni Antla\u015fma'n\u0131n Yuhanna b\u00f6l\u00fcm\u00fcnde Grek\u00e7e'deki \u00abParaklitos\u00bb s\u00f6zc\u00fc\u011f\u00fcn\u00fcn kar\u015f\u0131l\u0131\u011f\u0131. Kutsal Ruh'un unvanlar\u0131ndan biri olan Paraklitos, ayr\u0131ca \u00abTesellici\u00bb ya da \u00ab\u00d6\u011f\u00fct\u00e7\u00fc\u00bb diye \u00e7evrilebilir."}, {"term": "Yeru\u015falim", "def": "Bug\u00fcnk\u00fc Kud\u00fcs; Kutsal Kitap'ta \u015ealem, Davut Kenti, Siyon*, kutsal kent, Ariel diye de ge\u00e7er. \u00abYeru\u015falim k\u0131z\u0131\u00bb ise \u00abYeru\u015falim halk\u0131\u00bb anlam\u0131na gelir."}, {"term": "y\u0131k\u0131c\u0131 i\u011fren\u00e7 \u015fey", "def": "\u0130lk defa Dan.9:27'de s\u00f6z\u00fc edilen y\u0131k\u0131c\u0131 i\u011fren\u00e7 \u015feyle ilgili yorumlar \u015f\u00f6yledir: 1) \u0130.\u00d6. 168 y\u0131l\u0131nda Suriye Kral\u0131 Antiohos Epifanis taraf\u0131ndan Yahudiler'in Yeru\u015falim'deki* tap\u0131na\u011f\u0131nda dikilen put; 2) \u0130.S. 70 y\u0131l\u0131nda Yahudiye'de* b\u00fcy\u00fck tahribat yapan Roma ordusu; 3) Gelecekte Tanr\u0131'ya ba\u015fkald\u0131racak olan Mesih Kar\u015f\u0131t\u0131*."}, {"term": "Y\u00fcksek Kurul", "def": "\u0130sa d\u00f6neminde Yahudiler'in milli meclisi olan ve \u00abSanhedrin\u00bb diye bilinen yetmi\u015f ki\u015filik Y\u00fcksek Kurul, \u00f6nemli k\u00e2hinler*, ileri gelenler ve din bilginlerinden* olu\u015furdu. Ba\u015fk\u00e2hin Kurul'a ba\u015fkanl\u0131k ederdi."}, {"term": "Yurtseverler", "def": "Roma d\u00f6neminde a\u015f\u0131r\u0131 milliyet\u00e7i bir Yahudi partisi."}];
+
+  const BIRIMLER_CETVELI = [
+    { title: 'İbranice Uzunluk Ölçüleri', cols: ['Türkçe', 'İbranice', 'Değer'],
+      rows: [
+        { tr: 'dört parmak / elin eni', orig: 'tefah / tofah', val: '~8 cm' },
+        { tr: 'karış', orig: 'zeret', val: '~22.5 cm' },
+        { tr: 'arşın', orig: 'amma', val: '~45 cm', note: 'Hez.40–48 tapınak bölümünde ~53 cm (bir arşın + bir elin eni).' },
+      ]
+    },
+    { title: 'İbranice / Aramice Kuru Hacim', cols: ['Türkçe', 'Orijinal', 'Değer'],
+      rows: [
+        { tr: 'kav', orig: 'kav', val: '~1.2 lt' },
+        { tr: 'omer', orig: 'omer', val: '~2.2 lt' },
+        { tr: 'sea', orig: 'sea', val: '~7.5 lt' },
+        { tr: 'efa', orig: 'efa', val: '~22 lt' },
+        { tr: 'letek', orig: 'letek', val: '~110 lt' },
+        { tr: 'homer', orig: 'homer', val: '~220 lt' },
+        { tr: 'kor', orig: 'kor', val: '~220 lt' },
+      ]
+    },
+    { title: 'İbranice / Aramice Sıvı Hacim', cols: ['Türkçe', 'Orijinal', 'Değer'],
+      rows: [
+        { tr: 'log', orig: 'log', val: '~0.3 lt' },
+        { tr: 'hin', orig: 'hin', val: '~3.6 lt' },
+        { tr: 'bat', orig: 'bat', val: '~22 lt' },
+      ]
+    },
+    { title: 'İbranice / Aramice Ağırlık ve Para', cols: ['Türkçe', 'İbranice', 'Değer'],
+      rows: [
+        { tr: 'gera', orig: 'gera', val: '~0.6 gr' },
+        { tr: 'beka', orig: 'beka', val: '~5.8 gr' },
+        { tr: 'kutsal yerin şekeli', orig: 'şekel', val: '~10 gr' },
+        { tr: 'şekel', orig: 'şekel', val: '~11.5 gr' },
+        { tr: 'krallık ölçüsüne göre şekel', orig: 'şekel', val: '~12.5 gr' },
+        { tr: 'mina', orig: 'mane', val: '~575 gr' },
+        { tr: 'talant', orig: 'kikkar', val: '~34.5 kg' },
+      ]
+    },
+    { title: 'Yunanca Uzunluk', cols: ['Türkçe', 'Yunanca', 'Değer'],
+      rows: [
+        { tr: 'arşın', orig: 'pihis', val: '~53 cm' },
+        { tr: 'kulaç', orig: 'orgia', val: '~1.8 m' },
+        { tr: 'ok atımı (stadion)', orig: 'stadion', val: '~185 m' },
+        { tr: 'bin adım', orig: 'milion', val: '~1480 m' },
+      ]
+    },
+    { title: 'Yunanca Kuru Hacim', cols: ['Türkçe', 'Yunanca', 'Değer'],
+      rows: [
+        { tr: 'ölçek', orig: 'hiniks', val: '~1.1 lt' },
+        { tr: 'tahıl ölçeği', orig: 'modios', val: '~8.8 lt' },
+        { tr: 'ölçek', orig: 'saton', val: '~12.3 lt' },
+        { tr: 'ölçek', orig: 'koros', val: '~525 lt' },
+      ]
+    },
+    { title: 'Yunanca Sıvı Hacim', cols: ['Türkçe', 'Yunanca', 'Değer'],
+      rows: [
+        { tr: 'ölçek', orig: 'batos', val: '~40 lt' },
+        { tr: 'kırk litre', orig: 'metritis', val: '~40 lt' },
+      ]
+    },
+    { title: 'Yunanca Ağırlık', cols: ['Türkçe', 'Yunanca', 'Değer'],
+      rows: [
+        { tr: 'litre', orig: 'litra', val: '~330 gr' },
+        { tr: 'kırk kilo', orig: 'talanton', val: '~40 kg' },
+      ]
+    },
+    { title: 'Yunanca Para', cols: ['Türkçe', 'Yunanca', 'Oran'],
+      rows: [
+        { tr: 'bakır para / kuruş', orig: 'lepton', val: 'en küçük' },
+        { tr: '(birkaç) kuruş', orig: 'kodrantis', val: '= 2 lepton' },
+        { tr: 'metelik', orig: 'assarion', val: '= 4 kodrantis' },
+        { tr: 'dinar', orig: 'dinarion', val: 'günlük ücret' },
+        { tr: '(gümüş) para', orig: 'drahmi', val: '≈ 1 dinar' },
+        { tr: 'iki dirhem', orig: 'didrahmon', val: '= 2 dinar' },
+        { tr: 'dört dirhemlik / gümüş', orig: 'statir / argirion', val: '= 4 dinar' },
+        { tr: 'mina', orig: 'mna', val: '= 100 dinar' },
+        { tr: 'talant', orig: 'talanton', val: '= 6000 dinar' },
+      ],
+      chain: '2 lepton = 1 kodrantis · 4 kodrantis = 1 assarion · 16 assarion = 1 dinar · 4 dinar = 1 statir · 100 dinar = 1 mina · 6 000 dinar = 1 talant',
+      chainNote: '1 dinar, İsa Mesih zamanında vasıfsız bir işçinin günlük ücretiydi.'
+    },
+  ];
+
+  function renderBirimlerPanel() {
+    const body = document.getElementById('birimler-body');
+    if (!body || body.dataset.rendered) return;
+    body.dataset.rendered = '1';
+    let html = '';
+    for (const section of BIRIMLER_CETVELI) {
+      html += `<div class="bc-section-title">${section.title}</div>`;
+      for (const row of section.rows) {
+        html += `<div class="bc-row">` +
+          `<span class="bc-row-name">${row.tr}</span>` +
+          `<span class="bc-row-orig">${row.orig}</span>` +
+          `<span class="bc-row-val">${row.val}</span>` +
+          `</div>`;
+        if (row.note) html += `<div class="bc-note">${row.note}</div>`;
+      }
+      if (section.chain) {
+        html += `<div class="bc-chain">${section.chain}</div>`;
+        if (section.chainNote) html += `<div class="bc-note">${section.chainNote}</div>`;
+      }
+    }
+    body.innerHTML = html;
+  }
+
+  function _openRefPanel(sectionId) {
+    const sidebar = document.getElementById('sidebar-panel');
+    if (!sidebar.classList.contains('open')) sidebar.classList.add('open');
+    document.querySelectorAll('.sidebar-tab').forEach(t => t.classList.remove('active'));
+    document.querySelectorAll('.sidebar-section').forEach(s => s.classList.remove('active'));
+    document.getElementById(sectionId)?.classList.add('active');
+  }
+
+  function openBirimlerPanel() {
+    _openRefPanel('sidebar-section-birimler');
+    renderBirimlerPanel();
+  }
+
+  function renderSozlukPanel(highlightTerm) {
+    const body = document.getElementById('sozluk-body');
+    if (!body) return;
+    if (!body.dataset.rendered) {
+      let html = '<input class="sk-search" type="search" placeholder="Ara…" id="sk-search-input">';
+      html += '<div id="sk-list">';
+      for (const entry of SOZLUK_DATA) {
+        const tid = 'sk-' + entry.term.replace(/[^a-zA-Z0-9ığüşöçİĞÜŞÖÇ]/g, '_');
+        const termEsc = entry.term.replace(/&/g, '&amp;').replace(/</g, '&lt;');
+        const defEsc = entry.def.replace(/&/g, '&amp;').replace(/</g, '&lt;');
+        html += `<div class="sk-entry" id="${tid}" data-term="${termEsc}">`;
+        html += `<div class="sk-term">${termEsc}</div>`;
+        html += `<div class="sk-def">${defEsc}</div>`;
+        html += `</div>`;
+      }
+      html += '<div class="sk-empty" id="sk-empty" style="display:none">Sonuç bulunamadı.</div>';
+      html += '</div>';
+      body.innerHTML = html;
+      body.dataset.rendered = '1';
+      const inp = document.getElementById('sk-search-input');
+      if (inp) {
+        inp.addEventListener('input', () => {
+          const q = inp.value.trim().toLowerCase();
+          let any = false;
+          body.querySelectorAll('.sk-entry').forEach(el => {
+            const match = !q || el.dataset.term.toLowerCase().includes(q);
+            el.style.display = match ? '' : 'none';
+            if (match) any = true;
+          });
+          const empty = document.getElementById('sk-empty');
+          if (empty) empty.style.display = any ? 'none' : '';
+        });
+      }
+    }
+    if (highlightTerm) {
+      body.querySelectorAll('.sk-entry').forEach(el => el.classList.remove('sk-highlight'));
+      const tid = 'sk-' + highlightTerm.replace(/[^a-zA-Z0-9ığüşöçİĞÜŞÖÇ]/g, '_');
+      const target = document.getElementById(tid);
+      if (target) {
+        target.classList.add('sk-highlight');
+        setTimeout(() => target.scrollIntoView({ behavior: 'smooth', block: 'center' }), 80);
+      }
+    }
+  }
+
+  function openSozlukPanel(term) {
+    _openRefPanel('sidebar-section-sozluk');
+    renderSozlukPanel(term);
+  }
+
   // ── Verse annotation tooltip ──────────────────────────────────────────
   (() => {
     const tip = document.getElementById('errata-tooltip');
@@ -4096,9 +4375,18 @@
     const tipText = tip.querySelector('.errata-tt-text');
     let activeStar = null;
 
+    function noteToHtml(text) {
+      const esc = text.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+      return esc
+        .replace(/Birimler Cetveli/g,
+          '<button class="bkz-link" data-panel="birimler">Birimler Cetveli</button>')
+        .replace(/bkz\.\s*Sözlük(?::\s*([^<.]+))?/g, (_, term) =>
+          `<button class="bkz-link" data-panel="sozluk"${term ? ` data-term="${term.trim()}"` : ''}>bkz. Sözlük${term ? ': ' + term.trim() : ''}</button>`);
+    }
+
     function showAt(star) {
       tipLabel.textContent = star.dataset.label || '';
-      tipText.textContent = star.dataset.note;
+      tipText.innerHTML = noteToHtml(star.dataset.note);
       tip.classList.add('visible');
       requestAnimationFrame(() => {
         const rect = star.getBoundingClientRect();
@@ -4116,6 +4404,15 @@
     function hide() { tip.classList.remove('visible'); activeStar = null; }
 
     document.addEventListener('click', e => {
+      // Handle bkz-link clicks inside the tooltip
+      const bkzLink = e.target.closest('.bkz-link[data-panel]');
+      if (bkzLink) {
+        e.stopPropagation();
+        hide();
+        if (bkzLink.dataset.panel === 'birimler') openBirimlerPanel();
+        else if (bkzLink.dataset.panel === 'sozluk') openSozlukPanel(bkzLink.dataset.term || null);
+        return;
+      }
       const star = e.target.closest('.errata-star, .notes-star, .net-star, .niv-star, .nlt-star, .esv-star, .ttt-star, .ytc-star');
       if (star) {
         e.stopPropagation();
@@ -6310,6 +6607,31 @@
       document.getElementById(`sidebar-section-${section}`)?.classList.add('active');
     });
   });
+
+  // ── Reference panel (+) dropdown ─────────────────────────────────────
+  const refMoreBtn = document.getElementById('ref-more-btn');
+  const refMoreDd = document.getElementById('ref-more-dd');
+  if (refMoreBtn && refMoreDd) {
+    refMoreBtn.addEventListener('click', e => {
+      e.stopPropagation();
+      const isOpen = refMoreDd.classList.toggle('open');
+      refMoreBtn.classList.toggle('open', isOpen);
+    });
+    refMoreDd.querySelectorAll('.ref-more-item').forEach(item => {
+      item.addEventListener('click', e => {
+        e.stopPropagation();
+        refMoreDd.classList.remove('open');
+        refMoreBtn.classList.remove('open');
+        const panel = item.dataset.panel;
+        if (panel === 'birimler') openBirimlerPanel();
+        else if (panel === 'sozluk') openSozlukPanel(null);
+      });
+    });
+    document.addEventListener('click', () => {
+      refMoreDd.classList.remove('open');
+      refMoreBtn.classList.remove('open');
+    });
+  }
 
   // ── Commentary source picker ─────────────────────────────────────────
   const COMM_SOURCES = {
