@@ -3415,6 +3415,13 @@
     // Safe: < > in data-gloss are &lt; &gt; and won't be matched by [<>].
     text = text.replace(/\s+[<>]\s+(?:(?:[A-Zİ][a-zğüşöçı]*\.)+\s+)?[^\s<>&:;,+\[\]"]+(?:\s*=\s*[^\s<>&:;,+\[\]"]+(?:[,;]\s*[^\s<>&:;,+\[\]"]+)*)*/g, '');
     text = text.replace(/\s+::\s+(?:(?:[A-Zİ][a-zğüşöçı]*\.)+\s+)?[^\s<>&:;,+\[\]"]+(?:\s*=\s*[^\s<>&:;,+\[\]"]+(?:[,;]\s*[^\s<>&:;,+\[\]"]+)*)*/g, '');
+    // Strip "+" Ottoman etymology chains: "+ root (opt-paren) = meaning, alt" leftover after span.
+    // Allows comma-separated multi-word def but not space-separated (to avoid eating verse text).
+    text = text.replace(/\s*\+\s+[^\s=+<>,•¤\[\]":;]+(?:\/[^\s=+<>,•¤\[\]":;]+)?(?:\s*\([^)]+\))?(?:\s*=\s*[^\s+<>,•¤\[\]":;]+(?:\s*,\s*[^\s+<>,•¤\[\]":;]+)*(?:\s*\([^)]+\))?)?/g, '');
+    // Strip stray "(word) = word" fragments left after < cleanup (e.g. "(kayıt) = bağ").
+    text = text.replace(/\s+\([^)]{1,30}\)\s*=\s*\S+/g, '');
+    // Strip bare "wordAr" / "wordYun" etc. (lang tag without period, no definition).
+    text = text.replace(/([^\s.]+?)(Ar|Yun|Fa|İbr|Aram|Lat|Osm)(?![a-zğüşöçı.])/g, '$1');
     return text;
   }
 
