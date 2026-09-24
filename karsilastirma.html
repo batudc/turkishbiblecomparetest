@@ -414,9 +414,9 @@
     .timeline-compact-marker { min-width: 8px; width: 8px; height: 8px; border-radius: 50%; background: var(--gold-light); flex-shrink: 0; }
     .timeline-compact-year { font-size: 10px; font-weight: 700; color: var(--gold-light); min-width: 60px; flex-shrink: 0; }
     .timeline-compact-text { font-size: 11px; color: rgba(247,241,232,0.9); line-height: 1.5; }
-    .comm-category-header { font-size: 11px; font-weight: 800; letter-spacing: 0.12em; text-transform: uppercase; color: var(--gold-light); font-family: 'Jost', sans-serif; margin-bottom: 10px; display: flex; align-items: center; gap: 10px; }
+    .comm-category-header { font-size: 13px; font-weight: 800; letter-spacing: 0.08em; text-transform: uppercase; color: var(--gold-light); font-family: 'Jost', sans-serif; margin-bottom: 8px; display: flex; align-items: center; gap: 10px; }
     .comm-category-header::before { content: '▪'; font-size: 9px; color: var(--gold-light); }
-    .comm-list-item { margin-left: 14px; margin-bottom: 8px; position: relative; padding-left: 10px; line-height: 1.6; }
+    .comm-list-item { margin-left: 14px; margin-bottom: 8px; position: relative; padding-left: 10px; line-height: 1.6; font-size: 10.5px; }
     .comm-list-item::before { content: '-'; position: absolute; left: 0; color: var(--gold-light); font-weight: 700; }
     #comm-sect-verses-body { overflow-y: visible; }
     #xref-tooltip {
@@ -6984,6 +6984,37 @@
     return div;
   }
 
+  // Translate English Bible book abbreviations to Turkish in ref strings
+  function translateRef(ref) {
+    if (!ref) return ref;
+    const map = {
+      'Gen.': 'Yar.', 'Ex.': 'Çık.', 'Lev.': 'Lev.', 'Num.': 'Say.', 'Deut.': 'Tes.',
+      'Josh.': 'Yeş.', 'Judg': 'Hak.', 'Ruth': 'Rut', '1 Sam': '1.Sam.', '2 Sam': '2.Sam.',
+      '1 Kings': '1.Kr.', '2 Kings': '2.Kr.', '1 Chron': '1.Ta.', '2 Chron.': '2.Ta.',
+      'Ezra': 'Ezr.', 'Neh.': 'Neh.', 'Est.': 'Est.', 'Job': 'Eyü.', 'Ps.': 'Mez.',
+      'Prov.': 'Öz.', 'Eccles.': 'Vaa.', 'Song.': 'Ezg.', 'Isa.': 'Yşa.', 'Jer.': 'Yer.',
+      'Lam.': 'Ağı.', 'Ezek.': 'Hez.', 'Dan.': 'Dan.', 'Hos.': 'Hoş.', 'Joel': 'Yoe.',
+      'Amos': 'Amo.', 'Obad.': 'Oba.', 'Jonah': 'Yun.', 'Mic.': 'Mik.', 'Nah.': 'Nah.',
+      'Hab.': 'Hab.', 'Zeph.': 'Sef.', 'Hag.': 'Hag.', 'Zech.': 'Zek.', 'Mal.': 'Mal.',
+      'Matt.': 'Mat.', 'Mark': 'Mar.', 'Luke': 'Luk.', 'John': 'Yu.', 'Acts': 'El.İş.',
+      'Rom.': 'Rom.', '1 Cor.': '1Ko.', '2 Cor.': '2Ko.', 'Gal.': 'Gal.',
+      'Eph.': 'Efe.', 'Phil.': 'Fil.', 'Col.': 'Kol.', '1 Thess.': '1Se.', '2 Thess.': '2Se.',
+      '1 Tim.': '1Ti.', '2 Tim.': '2Ti.', 'Titus': 'Tit.', 'Philem.': 'Flm.',
+      'Heb.': 'İbr.', 'James': 'Yak.', '1 Pet.': '1Pe.', '2 Pet.': '2Pe.',
+      '1 John': '1Yu.', '2 John': '2Yu.', '3 John': '3Yu.', 'Jude': 'Yah.', 'Rev.': 'Va.'
+    };
+    // Sort by length descending so longer patterns match first (e.g. "1 Cor." before "Cor.")
+    const keys = Object.keys(map).sort((a, b) => b.length - a.length);
+    let result = ref;
+    for (const k of keys) {
+      if (result.startsWith(k + ' ') || result.startsWith(k + '–') || result === k) {
+        result = map[k] + result.slice(k.length);
+        break;
+      }
+    }
+    return result;
+  }
+
   function renderCommentary(data, isNew) {
     const emptyEl  = document.getElementById('commentary-empty');
     const sections = document.getElementById('comm-sections');
@@ -7112,7 +7143,7 @@
       if (passages.length > 0) {
         passages.forEach(p => {
           const wrap = document.createElement('div'); wrap.className = 'comm-passage';
-          const refEl = document.createElement('div'); refEl.className = 'comm-passage-ref'; refEl.textContent = p.ref;
+          const refEl = document.createElement('div'); refEl.className = 'comm-passage-ref'; refEl.textContent = translateRef(p.ref);
           const titleEl = document.createElement('div'); titleEl.className = 'comm-passage-title'; titleEl.textContent = p.title;
           const textEl = document.createElement('div'); textEl.className = 'comm-text'; textEl.style.lineHeight = '1.7'; textEl.textContent = p.text;
           wrap.appendChild(refEl); wrap.appendChild(titleEl); if (p.text) wrap.appendChild(textEl);
