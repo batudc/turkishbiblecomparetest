@@ -4842,10 +4842,26 @@
   document.getElementById('btn-style').addEventListener('click', function(e) {
     e.stopPropagation(); togglePanel('panel-style', this);
   });
+  let _notesEverOpened = false;
   document.getElementById('btn-commentary').addEventListener('click', function(e) {
-    // Open the resource picker panel (like translation selector)
     e.stopPropagation();
-    togglePanel('panel-resources', this);
+    const sidebar = document.getElementById('sidebar-panel');
+    const isOpen  = sidebar.classList.contains('open');
+
+    if (!_notesEverOpened) {
+      // First ever click: open sidebar + picker simultaneously
+      _notesEverOpened = true;
+      sidebar.classList.add('open');
+      document.getElementById('btn-commentary')?.classList.add('comm-open');
+      togglePanel('panel-resources', this);
+    } else if (!isOpen) {
+      // Sidebar closed: just re-open sidebar with last active content
+      sidebar.classList.add('open');
+      document.getElementById('btn-commentary')?.classList.add('comm-open');
+    } else {
+      // Sidebar already open: show/toggle picker
+      togglePanel('panel-resources', this);
+    }
   });
 
   document.getElementById('sidebar-close-btn').addEventListener('click', function(e) {
@@ -7032,6 +7048,7 @@
     if (openSidebar && !wasOpen) {
       sidebar?.classList.add('open');
       document.getElementById('btn-commentary')?.classList.add('comm-open');
+      _notesEverOpened = true;
     }
 
     if (res.type === 'commentary') {
@@ -7184,10 +7201,12 @@
     };
   })();
 
-  // Init
+  // Init — load content but keep sidebar closed until user explicitly opens it
   buildResourcePanel();
   buildResourceTabs();
   activateResource(activeResourceId, false);
+  document.getElementById('sidebar-panel')?.classList.remove('open');
+  document.getElementById('btn-commentary')?.classList.remove('comm-open');
 
   // ── Commentary panel ─────────────────────────────────────────────────
   async function loadCommentary(bookName, chap) {
