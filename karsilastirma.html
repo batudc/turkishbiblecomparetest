@@ -1206,6 +1206,36 @@
     /* ===== TRANSLATION PANEL ===== */
     #panel-translations { width: 300px; max-height: 70vh; }
 
+    /* ── Resource picker panel ── */
+    #panel-resources { width: 320px; max-height: 75vh; overflow-y: auto; display: flex; flex-direction: column; }
+    #res-panel-hdr { padding: 12px 16px 8px; border-bottom: 1px solid rgba(184,146,42,0.2); display: flex; align-items: center; justify-content: space-between; flex-shrink: 0; }
+    #res-panel-title { font-size: 11px; font-weight: 800; letter-spacing: 0.1em; text-transform: uppercase; color: var(--gold-light); }
+    .res-cat { border-bottom: 1px solid rgba(184,146,42,0.1); }
+    .res-cat-toggle { width: 100%; display: flex; align-items: center; gap: 8px; padding: 10px 16px; background: none; border: none; color: var(--fg); cursor: pointer; font-size: 11.5px; font-weight: 700; letter-spacing: 0.05em; text-transform: uppercase; text-align: left; transition: color 0.15s; }
+    .res-cat-toggle:hover { color: var(--gold-light); }
+    .res-cat-toggle .cat-icon { font-size: 13px; }
+    .res-cat-toggle .cat-count { margin-left: auto; font-size: 10px; font-weight: 600; color: var(--gold); opacity: 0; transition: opacity 0.15s; }
+    .res-cat-toggle .cat-count.has-sel { opacity: 1; }
+    .res-cat-toggle .cat-chevron { font-size: 8px; opacity: 0.4; transition: transform 0.2s; margin-left: 6px; }
+    .res-cat.open .cat-chevron { transform: rotate(180deg); }
+    .res-cat-items { display: none; padding: 2px 0 8px; }
+    .res-cat.open .res-cat-items { display: block; }
+    .res-item { display: flex; align-items: center; gap: 8px; padding: 6px 14px 6px 38px; cursor: pointer; transition: background 0.12s; user-select: none; }
+    .res-item:hover { background: rgba(184,146,42,0.07); }
+    .res-item-check { width: 15px; height: 15px; border: 1.5px solid rgba(184,146,42,0.35); border-radius: 3px; flex-shrink: 0; display: flex; align-items: center; justify-content: center; transition: background 0.12s, border-color 0.12s; }
+    .res-item.selected .res-item-check { background: var(--gold); border-color: var(--gold); }
+    .res-item.selected .res-item-check::after { content: '✓'; font-size: 9px; color: #1a1209; font-weight: 900; }
+    .res-item-label { font-size: 11.5px; flex: 1; line-height: 1.4; }
+    .res-item-star { font-size: 12px; opacity: 0.25; cursor: pointer; flex-shrink: 0; transition: opacity 0.15s, color 0.15s; padding: 3px; }
+    .res-item-star:hover { opacity: 0.7; }
+    .res-item.favorited .res-item-star { opacity: 1; color: var(--gold); }
+    .res-cat-empty { padding: 6px 14px 6px 38px; font-size: 11px; opacity: 0.35; font-style: italic; }
+    /* resource tab bar */
+    .res-tab { background: none; border: none; color: var(--fg-muted); font-size: 11px; font-weight: 600; letter-spacing: 0.04em; padding: 4px 8px; cursor: pointer; border-radius: 3px; transition: color 0.15s, background 0.15s; white-space: nowrap; }
+    .res-tab:hover { color: var(--gold-light); }
+    .res-tab.active { color: var(--gold-light); background: rgba(184,146,42,0.12); }
+    .res-tab.is-fav::before { content: '★ '; font-size: 8px; opacity: 0.7; }
+
     /* Preset category buttons */
     #trans-presets-bar {
       display: flex;
@@ -2658,18 +2688,7 @@
       <div id="sidebar-drag-handle"></div>
       <div id="sidebar-tabs">
         <button class="sidebar-tab active" data-section="commentary">📖 Notlar</button>
-        <div id="comm-src-row">
-          <button class="comm-src-btn" data-src="akkit">AKKİT</button>
-          <button class="comm-src-btn" data-src="esv-tr">ESV TR</button>
-          <button class="comm-src-btn" data-src="esv-en">ESV EN</button>
-          <div id="ref-more-wrap">
-            <button id="ref-more-btn" title="Birimler Cetveli ve Sözlük">+</button>
-            <div id="ref-more-dd">
-              <button class="ref-more-item" data-panel="birimler">📐 Birimler Cetveli</button>
-              <button class="ref-more-item" data-panel="sozluk">📚 Sözlük</button>
-            </div>
-          </div>
-        </div>
+        <div id="comm-src-row"><!-- populated by buildResourceTabs() --></div>
         <span id="commentary-title"></span>
       </div>
       <div id="sidebar-sections">
@@ -2801,6 +2820,14 @@
     <button class="trans-global-btn" id="trans-clr-all">Tümünü Kaldır</button>
   </div>
   <div id="trans-cat-list"><!-- populated by buildTransCategories() --></div>
+</div>
+
+<!-- ===== RESOURCE PICKER PANEL ===== -->
+<div class="panel" id="panel-resources">
+  <div id="res-panel-hdr">
+    <span id="res-panel-title">Kaynaklar</span>
+  </div>
+  <div id="res-cat-list"><!-- populated by buildResourcePanel() --></div>
 </div>
 
 <!-- ===== SEARCH RESULTS PANEL ===== -->
@@ -4713,20 +4740,10 @@
   document.getElementById('btn-style').addEventListener('click', function(e) {
     e.stopPropagation(); togglePanel('panel-style', this);
   });
-  document.getElementById('btn-commentary').addEventListener('click', function() {
-    const sidebar = document.getElementById('sidebar-panel');
-    const isOpening = !sidebar.classList.contains('open');
-    if (!isOpening && window.matchMedia('(max-width: 640px)').matches) {
-      sidebar.style.transition = 'none';
-      sidebar.style.visibility = 'hidden';
-      sidebar.classList.remove('open');
-      this.classList.remove('comm-open');
-      requestAnimationFrame(() => { sidebar.style.visibility = ''; sidebar.style.transition = ''; });
-      return;
-    }
-    sidebar.classList.toggle('open');
-    this.classList.toggle('comm-open', isOpening);
-    if (isOpening) loadCommentary(currentBook, currentChapter);
+  document.getElementById('btn-commentary').addEventListener('click', function(e) {
+    // Open the resource picker panel (like translation selector)
+    e.stopPropagation();
+    togglePanel('panel-resources', this);
   });
 
   // Mobile: drag handle — resize + flick-to-close bottom sheet
@@ -6637,39 +6654,50 @@
     });
   });
 
-  // ── Reference panel (+) dropdown ─────────────────────────────────────
-  const refMoreBtn = document.getElementById('ref-more-btn');
-  const refMoreDd = document.getElementById('ref-more-dd');
-  if (refMoreBtn && refMoreDd) {
-    refMoreBtn.addEventListener('click', e => {
-      e.stopPropagation();
-      const isOpen = refMoreDd.classList.toggle('open');
-      refMoreBtn.classList.toggle('open', isOpen);
-    });
-    refMoreDd.querySelectorAll('.ref-more-item').forEach(item => {
-      item.addEventListener('click', e => {
-        e.stopPropagation();
-        refMoreDd.classList.remove('open');
-        refMoreBtn.classList.remove('open');
-        const panel = item.dataset.panel;
-        if (panel === 'birimler') openBirimlerPanel();
-        else if (panel === 'sozluk') openSozlukPanel(null);
-      });
-    });
-    document.addEventListener('click', () => {
-      refMoreDd.classList.remove('open');
-      refMoreBtn.classList.remove('open');
-    });
-  }
-
-  // ── Commentary source picker ─────────────────────────────────────────
+    // ── Resource system ──────────────────────────────────────────────────
+  // COMM_SOURCES kept for loadCommentary backward-compat
   const COMM_SOURCES = {
     'akkit':  { folder: 'commentary',        label: 'AKKİT',                      newFormat: false },
     'esv-tr': { folder: 'commentary-tr-esv', label: 'ESV Global Study Bible (TR)', newFormat: true  },
     'esv-en': { folder: 'commentary-en',     label: 'ESV Global Study Bible',      newFormat: true  },
   };
-  let commSource = localStorage.getItem('kki_comm_source') || 'akkit';
-  if (!COMM_SOURCES[commSource]) commSource = 'akkit';
+
+  const RESOURCE_CATS = [
+    { id: 'notes',    icon: '📖', label: 'Açıklamalı Kutsal Kitap Notları', items: [
+        { id: 'akkit',  shortLabel: 'AKKİT',   label: 'AKKİT — Resmi Açıklamalı Kutsal Kitap',     type: 'commentary', commId: 'akkit'  },
+        { id: 'esv-tr', shortLabel: 'ESV TR',   label: 'ESV Global Study Bible (Türkçe)',           type: 'commentary', commId: 'esv-tr' },
+        { id: 'esv-en', shortLabel: 'ESV EN',   label: 'ESV Global Study Bible (English)',          type: 'commentary', commId: 'esv-en' },
+    ]},
+    { id: 'sozluk',   icon: '📚', label: 'Sözlükler', items: [
+        { id: 'sozluk-tcl02',   shortLabel: 'Sözlük',   label: 'Kutsal Kitap Sözlüğü (Yeni Çeviri)', type: 'sozluk'   },
+    ]},
+    { id: 'birimler', icon: '📐', label: 'Birim Cetvelleri', items: [
+        { id: 'birimler-tcl02', shortLabel: 'Birimler', label: 'Birim Cetveli (Yeni Çeviri)',        type: 'birimler' },
+    ]},
+    { id: 'harita',   icon: '🗺', label: 'Haritalar',         items: [] },
+    { id: 'onsoz',    icon: '📜', label: 'Önsözler',           items: [] },
+    { id: 'hakkinda', icon: 'ℹ',  label: 'Çeviriler Hakkında', items: [] },
+  ];
+
+  // Flatten for quick lookup
+  const RESOURCE_BY_ID = {};
+  RESOURCE_CATS.forEach(c => c.items.forEach(r => { RESOURCE_BY_ID[r.id] = r; }));
+
+  // State — localStorage backed
+  const DEFAULT_SELECTED = ['akkit', 'esv-tr', 'esv-en'];
+  function _loadSet(key, def) {
+    try { const v = localStorage.getItem(key); return v ? new Set(JSON.parse(v)) : new Set(def); } catch { return new Set(def); }
+  }
+  function _saveSet(key, set) {
+    try { localStorage.setItem(key, JSON.stringify([...set])); } catch {}
+  }
+  let selectedResources = _loadSet('kki_res_selected', DEFAULT_SELECTED);
+  let favoriteResources = _loadSet('kki_res_favorites', []);
+  let activeResourceId  = localStorage.getItem('kki_res_active') || 'akkit';
+  if (!RESOURCE_BY_ID[activeResourceId]) activeResourceId = [...selectedResources][0] || 'akkit';
+
+  // commSource kept in sync for loadCommentary
+  let commSource = activeResourceId in COMM_SOURCES ? activeResourceId : 'akkit';
 
   // ── Commentary section tabs ─────────────────────────────────────────
   let commActiveSect = 'verses';
@@ -6685,23 +6713,190 @@
   }
   document.querySelectorAll('.comm-sect-tab').forEach(btn =>
     btn.addEventListener('click', e => { e.stopPropagation(); _applyCommSect(btn.dataset.sect); }));
-
-  function _applyCommSource(src) {
-    if (!COMM_SOURCES[src]) return;
-    commSource = src;
-    localStorage.setItem('kki_comm_source', src);
-    document.querySelectorAll('.comm-src-btn').forEach(b =>
-      b.classList.toggle('active', b.dataset.src === src));
-    const isNew = COMM_SOURCES[src]?.newFormat;
-    const sectTabs = document.getElementById('comm-sect-tabs');
-    if (sectTabs) sectTabs.style.display = isNew ? 'flex' : 'none';
-    const sidebar = document.getElementById('sidebar-panel');
-    if (sidebar?.classList.contains('open')) loadCommentary(currentBook, currentChapter);
-  }
-  document.querySelectorAll('.comm-src-btn').forEach(btn =>
-    btn.addEventListener('click', e => { e.stopPropagation(); _applyCommSource(btn.dataset.src); }));
-  _applyCommSource(commSource);
   _applyCommSect(commActiveSect);
+
+  // ── Build resource panel (picker) ────────────────────────────────────
+  function buildResourcePanel() {
+    const list = document.getElementById('res-cat-list');
+    if (!list) return;
+    list.innerHTML = '';
+    RESOURCE_CATS.forEach(cat => {
+      const div = document.createElement('div');
+      div.className = 'res-cat';
+      div.dataset.catId = cat.id;
+
+      const selCount = cat.items.filter(r => selectedResources.has(r.id)).length;
+      const toggle = document.createElement('button');
+      toggle.className = 'res-cat-toggle';
+      toggle.innerHTML = `<span class="cat-icon">${cat.icon}</span><span>${cat.label}</span><span class="cat-count${selCount ? ' has-sel' : '"'}>${selCount || ''}</span><span class="cat-chevron">▼</span>`;
+      toggle.onclick = () => div.classList.toggle('open');
+      div.appendChild(toggle);
+
+      const items = document.createElement('div');
+      items.className = 'res-cat-items';
+
+      if (cat.items.length === 0) {
+        items.innerHTML = `<div class="res-cat-empty">Yakında eklenecek…</div>`;
+      } else {
+        cat.items.forEach(res => {
+          const isSel = selectedResources.has(res.id);
+          const isFav = favoriteResources.has(res.id);
+          const row = document.createElement('div');
+          row.className = `res-item${isSel ? ' selected' : ''}${isFav ? ' favorited' : ''}`;
+          row.dataset.resId = res.id;
+          row.innerHTML = `<div class="res-item-check"></div><span class="res-item-label">${res.label}</span><span class="res-item-star" title="Favori">★</span>`;
+
+          // Toggle selection
+          row.querySelector('.res-item-check').addEventListener('click', e => {
+            e.stopPropagation();
+            _toggleResSelected(res.id);
+          });
+          row.querySelector('.res-item-label').addEventListener('click', e => {
+            e.stopPropagation();
+            _toggleResSelected(res.id);
+          });
+
+          // Toggle favorite
+          row.querySelector('.res-item-star').addEventListener('click', e => {
+            e.stopPropagation();
+            _toggleResFavorite(res.id);
+          });
+
+          items.appendChild(row);
+        });
+      }
+      div.appendChild(items);
+      list.appendChild(div);
+    });
+    // Open first cat by default
+    list.querySelector('.res-cat')?.classList.add('open');
+  }
+
+  function _toggleResSelected(id) {
+    if (selectedResources.has(id)) {
+      selectedResources.delete(id);
+    } else {
+      selectedResources.add(id);
+    }
+    _saveSet('kki_res_selected', selectedResources);
+    buildResourcePanel();
+    buildResourceTabs();
+  }
+
+  function _toggleResFavorite(id) {
+    if (favoriteResources.has(id)) {
+      favoriteResources.delete(id);
+    } else {
+      favoriteResources.add(id);
+    }
+    _saveSet('kki_res_favorites', favoriteResources);
+    buildResourcePanel();
+    buildResourceTabs();
+  }
+
+  // ── Build resource tab bar ────────────────────────────────────────────
+  function buildResourceTabs() {
+    const row = document.getElementById('comm-src-row');
+    if (!row) return;
+
+    // Ordered: favorites first, then others; all must be in selectedResources
+    const favSel    = [...favoriteResources].filter(id => selectedResources.has(id) && RESOURCE_BY_ID[id]);
+    const nonFavSel = [...selectedResources].filter(id => !favoriteResources.has(id) && RESOURCE_BY_ID[id]);
+    const ordered   = [...favSel, ...nonFavSel];
+
+    const visible  = ordered.slice(0, 3);
+    const overflow = ordered.slice(3);
+
+    row.innerHTML = '';
+
+    visible.forEach(id => {
+      const res = RESOURCE_BY_ID[id];
+      const btn = document.createElement('button');
+      btn.className = `res-tab${id === activeResourceId ? ' active' : ''}${favoriteResources.has(id) ? ' is-fav' : ''}`;
+      btn.dataset.resId = id;
+      btn.textContent = res.shortLabel;
+      btn.title = res.label;
+      btn.addEventListener('click', e => { e.stopPropagation(); activateResource(id, true); });
+      row.appendChild(btn);
+    });
+
+    if (overflow.length) {
+      const wrap = document.createElement('div');
+      wrap.id = 'ref-more-wrap';
+      wrap.style.cssText = 'position:relative;flex-shrink:0';
+      const plusBtn = document.createElement('button');
+      plusBtn.id = 'ref-more-btn';
+      plusBtn.textContent = '+';
+      plusBtn.title = `${overflow.length} kaynak daha`;
+
+      const dd = document.createElement('div');
+      dd.id = 'ref-more-dd';
+      overflow.forEach(id => {
+        const res = RESOURCE_BY_ID[id];
+        const item = document.createElement('button');
+        item.className = 'ref-more-item';
+        item.textContent = `${favoriteResources.has(id) ? '★ ' : ''}${res.shortLabel}`;
+        item.title = res.label;
+        item.addEventListener('click', e => {
+          e.stopPropagation();
+          dd.classList.remove('open');
+          plusBtn.classList.remove('open');
+          activateResource(id, true);
+        });
+        dd.appendChild(item);
+      });
+
+      plusBtn.addEventListener('click', e => {
+        e.stopPropagation();
+        const isOpen = dd.classList.contains('open');
+        dd.classList.toggle('open', !isOpen);
+        plusBtn.classList.toggle('open', !isOpen);
+      });
+      document.addEventListener('click', () => { dd.classList.remove('open'); plusBtn.classList.remove('open'); }, { once: false });
+
+      wrap.appendChild(plusBtn);
+      wrap.appendChild(dd);
+      row.appendChild(wrap);
+    }
+  }
+
+  // ── Activate a resource (show its content in sidebar) ────────────────
+  function activateResource(id, openSidebar) {
+    const res = RESOURCE_BY_ID[id];
+    if (!res) return;
+    activeResourceId = id;
+    localStorage.setItem('kki_res_active', id);
+
+    // Update tab active state
+    document.querySelectorAll('.res-tab').forEach(b =>
+      b.classList.toggle('active', b.dataset.resId === id));
+
+    const sidebar = document.getElementById('sidebar-panel');
+    if (openSidebar && !sidebar?.classList.contains('open')) {
+      sidebar?.classList.add('open');
+      document.getElementById('btn-commentary')?.classList.add('comm-open');
+    }
+
+    if (res.type === 'commentary') {
+      commSource = res.commId;
+      localStorage.setItem('kki_comm_source', commSource);
+      _openRefPanel('sidebar-section-commentary');
+      const isNew = COMM_SOURCES[commSource]?.newFormat;
+      const sectTabs = document.getElementById('comm-sect-tabs');
+      if (sectTabs) sectTabs.style.display = isNew ? 'flex' : 'none';
+      if (sidebar?.classList.contains('open')) loadCommentary(currentBook, currentChapter);
+    } else if (res.type === 'sozluk') {
+      openSozlukPanel(null);
+    } else if (res.type === 'birimler') {
+      openBirimlerPanel();
+    }
+  }
+
+  // Build on init
+  buildResourcePanel();
+  buildResourceTabs();
+  // Activate persisted resource (without opening sidebar)
+  activateResource(activeResourceId, false);
 
   // ── Commentary panel ─────────────────────────────────────────────────
   let _commCache = {};
