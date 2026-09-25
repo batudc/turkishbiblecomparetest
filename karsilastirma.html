@@ -2743,6 +2743,12 @@
           </div>
           <div id="onsoz-body" style="padding:14px 16px;line-height:1.7;font-size:0.88rem;overflow-y:auto;flex:1;"></div>
         </div>
+        <div class="sidebar-section" id="sidebar-section-harita">
+          <div id="harita-header" style="padding:12px 16px 6px;border-bottom:1px solid var(--border-color);">
+            <div id="harita-title" style="font-weight:700;font-size:0.9rem;"></div>
+          </div>
+          <div id="harita-body" style="overflow-y:auto;flex:1;padding:8px 0;"></div>
+        </div>
       </div>
     </div><!-- /#sidebar-panel -->
   </div><!-- /#reader-wrapper -->
@@ -6694,7 +6700,9 @@
     { id: 'birimler', icon: '📐', label: 'Birim Cetvelleri', items: [
         { id: 'birimler-tcl02', shortLabel: 'Birimler', label: 'Birim Cetveli (Yeni Çeviri)',        type: 'birimler' },
     ]},
-    { id: 'harita',   icon: '🗺', label: 'Haritalar',         items: [] },
+    { id: 'harita',   icon: '🗺', label: 'Haritalar', items: [
+        { id: 'haritalar-hakk', shortLabel: 'HAKK', label: 'HAKK — Haritalar', type: 'harita', dataFile: 'data/hakk/haritalar.json' },
+    ]},
     { id: 'onsoz',    icon: '📜', label: 'Önsözler',           items: [
         { id: 'onsoz-hakk', shortLabel: 'HAKK', label: 'HAKK — Halk Dilinde Kutsal Kitap (Önsöz)', type: 'onsoz', dataFile: 'data/hakk/onsoz.json' },
     ]},
@@ -6727,6 +6735,7 @@
   let _commCache = {};
   let _hakkSozlukCache = null;
   const _onsozCache = {};
+  const _haritaCache = {};
 
   // ── Commentary section tabs ─────────────────────────────────────────
   let commActiveSect = 'verses';
@@ -6811,9 +6820,11 @@
               cb.checked = true;
             }
             activateResource(res.id, true);
-            // close resource picker
-            const panel = document.getElementById('panel-resources');
-            if (panel?.classList.contains('open')) panel.classList.remove('open');
+            // close picker only for commentary (sidebar takes focus); keep open for tools
+            if (res.type === 'commentary') {
+              const panel = document.getElementById('panel-resources');
+              if (panel?.classList.contains('open')) panel.classList.remove('open');
+            }
           });
           meta.appendChild(name);
 
@@ -6954,6 +6965,8 @@
       openBirimlerPanel();
     } else if (res.type === 'onsoz') {
       openOnsozPanel(res);
+    } else if (res.type === 'harita') {
+      openHaritaPanel(res);
     }
   }
 
@@ -7004,6 +7017,66 @@
     ).join('');
     body.innerHTML = paras || '<p style="color:var(--text-muted)">İçerik bulunamadı.</p>';
   }
+
+  // ── Haritalar panel ───────────────────────────────────────────────────
+  async function openHaritaPanel(res) {
+    _openRefPanel('sidebar-section-harita');
+    const body  = document.getElementById('harita-body');
+    const title = document.getElementById('harita-title');
+    if (!body) return;
+    title.textContent = res.label || '';
+    if (_haritaCache[res.id]) { _renderHaritaList(body, _haritaCache[res.id]); return; }
+    body.innerHTML = '<div style="padding:16px;color:var(--text-muted)">Yükleniyor…</div>';
+    try {
+      const r = await fetch(res.dataFile);
+      const data = await r.json();
+      _haritaCache[res.id] = data;
+      _renderHaritaList(body, data);
+    } catch { body.innerHTML = '<div style="padding:16px;color:var(--text-muted)">Yüklenemedi.</div>'; }
+  }
+
+  function _renderHaritaList(body, data) {
+    const maps = data.maps || [];
+    body.innerHTML = maps.map(m => `
+      <button class="harita-item" data-img="${m.image}" data-title="${m.title.replace(/"/g,'&quot;')}"
+        style="display:flex;align-items:center;gap:10px;width:100%;padding:10px 16px;background:none;border:none;
+               border-bottom:1px solid var(--border-color);color:var(--text-main);font-family:inherit;
+               font-size:0.875rem;text-align:left;cursor:pointer;transition:background 0.15s">
+        <span style="font-size:1.1rem;flex-shrink:0">🗺</span>
+        <span>${m.title}</span>
+      </button>`).join('');
+    body.querySelectorAll('.harita-item').forEach(btn => {
+      btn.addEventListener('mouseenter', () => btn.style.background = 'rgba(184,146,42,0.07)');
+      btn.addEventListener('mouseleave', () => btn.style.background = '');
+      btn.addEventListener('click', () => openMapLightbox(btn.dataset.img, btn.dataset.title));
+    });
+  }
+
+  // ── Map lightbox ──────────────────────────────────────────────────────
+  (function() {
+    const lb    = document.getElementById('map-lightbox');
+    const lbImg = document.getElementById('map-lightbox-img');
+    const lbTit = document.getElementById('map-lightbox-title');
+    const lbX   = document.getElementById('map-lightbox-close');
+    if (!lb) return;
+
+    window.openMapLightbox = function(src, title) {
+      lbTit.textContent = title || '';
+      lbImg.src = src;
+      lb.style.display = 'flex';
+      document.body.style.overflow = 'hidden';
+    };
+
+    function closeLightbox() {
+      lb.style.display = 'none';
+      lbImg.src = '';
+      document.body.style.overflow = '';
+    }
+
+    lbX.addEventListener('click', closeLightbox);
+    lb.addEventListener('click', e => { if (e.target === lb) closeLightbox(); });
+    document.addEventListener('keydown', e => { if (e.key === 'Escape' && lb.style.display !== 'none') closeLightbox(); });
+  })();
 
   // Init
   buildResourcePanel();
@@ -8106,6 +8179,14 @@
     }
   </script>
 
+<!-- ===== MAP LIGHTBOX ===== -->
+<div id="map-lightbox" style="display:none;position:fixed;inset:0;z-index:9999;background:rgba(0,0,0,0.88);align-items:center;justify-content:center;flex-direction:column;gap:12px">
+  <div style="display:flex;align-items:center;justify-content:space-between;width:min(90vw,700px);flex-shrink:0">
+    <div id="map-lightbox-title" style="color:#f7f1e8;font-size:0.9rem;font-weight:600;letter-spacing:0.03em"></div>
+    <button id="map-lightbox-close" style="background:none;border:none;color:rgba(247,241,232,0.5);font-size:22px;cursor:pointer;line-height:1;padding:4px 8px;border-radius:4px" title="Kapat">✕</button>
+  </div>
+  <img id="map-lightbox-img" src="" alt="" style="max-width:min(90vw,700px);max-height:80vh;object-fit:contain;border-radius:4px;box-shadow:0 8px 40px rgba(0,0,0,0.6)">
+</div>
 
 </body>
 </html>

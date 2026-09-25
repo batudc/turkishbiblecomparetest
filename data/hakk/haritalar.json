@@ -2,31 +2,54 @@
   "source": "HAKK",
   "title": "Haritalar",
   "lang": "tr",
-  "note": "PDF sayfalar görüntü tabanlıdır; metin çıkarımı mevcut değil.",
   "maps": [
     {
+      "id": "hakk-harita-1",
+      "title": "Eski Yakın Doğu",
       "page": 1435,
-      "title": "Eski Yakın Doğu"
+      "image": "data/hakk/haritalar/hakk-harita-1.jpg",
+      "width": 927,
+      "height": 1400
     },
     {
+      "id": "hakk-harita-2",
+      "title": "Mısır'dan Çıkış ve Çöl Yolculuğu",
       "page": 1436,
-      "title": "Mısır'dan Çıkış ve Çöl Yolculuğu"
+      "image": "data/hakk/haritalar/hakk-harita-2.jpg",
+      "width": 927,
+      "height": 1400
     },
     {
+      "id": "hakk-harita-3",
+      "title": "Reisler Döneminde Kenan Ülkesi",
       "page": 1437,
-      "title": "Reisler Döneminde Kenan Ülkesi"
+      "image": "data/hakk/haritalar/hakk-harita-3.jpg",
+      "width": 927,
+      "height": 1400
     },
     {
+      "id": "hakk-harita-4",
+      "title": "Yeni Ahit'in Yazıldığı Çağda Filistin",
       "page": 1438,
-      "title": "Yeni Ahit'in Yazıldığı Çağda Filistin"
+      "image": "data/hakk/haritalar/hakk-harita-4.jpg",
+      "width": 927,
+      "height": 1400
     },
     {
+      "id": "hakk-harita-5",
+      "title": "Pavlus'un 1. ve 2. Müjdeleme Yolculukları",
       "page": 1439,
-      "title": "Pavlus'un Birinci ve İkinci Müjdeleme Yolculukları"
+      "image": "data/hakk/haritalar/hakk-harita-5.jpg",
+      "width": 927,
+      "height": 1400
     },
     {
+      "id": "hakk-harita-6",
+      "title": "Pavlus'un 3. Müjdeleme Yolculuğu ve Roma",
       "page": 1440,
-      "title": "Pavlus'un Üçüncü Müjdeleme Yolculuğu ve Roma'ya Seyahati"
+      "image": "data/hakk/haritalar/hakk-harita-6.jpg",
+      "width": 927,
+      "height": 1400
     }
   ]
 }
