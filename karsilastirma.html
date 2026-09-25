@@ -6911,10 +6911,7 @@
             }
             activateResource(res.id, true);
             // close picker only for commentary (sidebar takes focus); keep open for tools
-            if (res.type === 'commentary') {
-              const panel = document.getElementById('panel-resources');
-              if (panel?.classList.contains('open')) panel.classList.remove('open');
-            }
+            if (res.type === 'commentary') closePanel();
           });
           meta.appendChild(name);
 
