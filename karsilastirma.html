@@ -2101,11 +2101,11 @@
     }
     .res-section-title {
       font-family: 'Jost', sans-serif;
-      font-size: 11px;
-      font-weight: 700;
-      letter-spacing: 0.09em;
+      font-size: 10px;
+      font-weight: 600;
+      letter-spacing: 0.08em;
       text-transform: uppercase;
-      color: var(--gold-light);
+      color: rgba(247,241,232,0.5);
     }
     .res-section-source {
       font-family: 'Jost', sans-serif;
@@ -2832,6 +2832,9 @@
         </div>
         <div class="sidebar-section" id="sidebar-section-sozluk">
           <div id="sozluk-body"></div>
+        </div>
+        <div class="sidebar-section" id="sidebar-section-sozluk-hakk">
+          <div id="sozluk-hakk-body"></div>
         </div>
         <div class="sidebar-section" id="sidebar-section-onsoz">
           <div class="res-section-header">
@@ -7072,8 +7075,8 @@
 
   // ── HAKK Sözlük panel ────────────────────────────────────────────────
   async function openHakkSozlukPanel() {
-    _openRefPanel('sidebar-section-sozluk');
-    const body = document.getElementById('sozluk-body');
+    _openRefPanel('sidebar-section-sozluk-hakk');
+    const body = document.getElementById('sozluk-hakk-body');
     if (!body) return;
     if (_hakkSozlukCache) { _renderHakkSozluk(body, _hakkSozlukCache); return; }
     body.innerHTML = '<div class="sk-empty">Yükleniyor…</div>';
@@ -7085,10 +7088,35 @@
   }
   function _renderHakkSozluk(body, data) {
     const entries = data.entries || [];
-    const html = entries.map(e =>
-      `<div class="hk-sk-entry"><span class="hk-sk-term">${e.term}</span><span class="hk-sk-def">${e.definition}</span></div>`
-    ).join('');
-    body.innerHTML = html || '<div class="sk-empty">İçerik bulunamadı.</div>';
+    let html = '<input class="sk-search" type="search" placeholder="Ara…" id="hk-sk-search">';
+    html += '<div id="hk-sk-list">';
+    for (const e of entries) {
+      const term = e.term.replace(/&/g,'&amp;').replace(/</g,'&lt;');
+      const def  = e.definition.replace(/&/g,'&amp;').replace(/</g,'&lt;');
+      html += `<div class="sk-entry" data-term="${term}">`;
+      html += `<div class="sk-term">${term}</div>`;
+      html += `<div class="sk-def">${def}</div>`;
+      html += `</div>`;
+    }
+    html += '<div class="sk-empty" id="hk-sk-empty" style="display:none">Sonuç bulunamadı.</div>';
+    html += '</div>';
+    body.innerHTML = html;
+
+    const inp = body.querySelector('#hk-sk-search');
+    if (inp) {
+      inp.addEventListener('input', () => {
+        const q = inp.value.trim().toLowerCase();
+        let any = false;
+        body.querySelectorAll('.sk-entry').forEach(el => {
+          const match = !q || el.dataset.term.toLowerCase().includes(q) ||
+                        el.querySelector('.sk-def')?.textContent.toLowerCase().includes(q);
+          el.style.display = match ? '' : 'none';
+          if (match) any = true;
+        });
+        const empty = body.querySelector('#hk-sk-empty');
+        if (empty) empty.style.display = any ? 'none' : '';
+      });
+    }
   }
 
   // ── Önsöz / Giriş panel ───────────────────────────────────────────────
