@@ -2092,6 +2092,103 @@
       flex: 1; overflow-y: auto; padding: 10px 16px 40px;
       font-family: 'EB Garamond', Georgia, serif; font-size: 13.5px; line-height: 1.6;
     }
+
+    /* ─── Önsöz / Giriş sidebar section ─── */
+    .res-section-header {
+      flex-shrink: 0;
+      padding: 10px 16px 8px;
+      border-bottom: 1px solid rgba(184,146,42,0.18);
+    }
+    .res-section-title {
+      font-family: 'Jost', sans-serif;
+      font-size: 11px;
+      font-weight: 700;
+      letter-spacing: 0.09em;
+      text-transform: uppercase;
+      color: var(--gold-light);
+    }
+    .res-section-source {
+      font-family: 'Jost', sans-serif;
+      font-size: 10px;
+      color: rgba(247,241,232,0.38);
+      margin-top: 2px;
+      font-style: italic;
+    }
+    #onsoz-body {
+      flex: 1;
+      overflow-y: auto;
+      padding: 14px 16px 32px;
+      font-family: 'EB Garamond', Georgia, serif;
+      font-size: 13.5px;
+      line-height: 1.72;
+      color: rgba(247,241,232,0.82);
+    }
+    #onsoz-body p { margin: 0 0 1em 0; }
+
+    /* ─── Haritalar sidebar section ─── */
+    #harita-body {
+      flex: 1;
+      overflow-y: auto;
+      padding: 6px 0 32px;
+    }
+    .harita-item {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      width: 100%;
+      padding: 10px 16px;
+      background: none;
+      border: none;
+      border-bottom: 1px solid rgba(255,255,255,0.05);
+      color: rgba(247,241,232,0.78);
+      font-family: 'Jost', sans-serif;
+      font-size: 12px;
+      letter-spacing: 0.01em;
+      text-align: left;
+      cursor: pointer;
+      transition: background 0.15s, color 0.15s;
+    }
+    .harita-item:last-child { border-bottom: none; }
+    .harita-item:hover { background: rgba(184,146,42,0.08); color: var(--gold-light); }
+    .harita-item-icon { font-size: 1rem; flex-shrink: 0; opacity: 0.7; }
+
+    /* ─── HAKK Sözlük entries ─── */
+    .hk-sk-entry {
+      padding: 7px 0;
+      border-bottom: 1px solid rgba(255,255,255,0.05);
+      font-family: 'EB Garamond', Georgia, serif;
+      font-size: 13px;
+      line-height: 1.55;
+    }
+    .hk-sk-entry:last-child { border-bottom: none; }
+    .hk-sk-term {
+      font-weight: 600;
+      color: var(--gold-light);
+      margin-right: 4px;
+    }
+    .hk-sk-def { color: rgba(247,241,232,0.7); }
+
+    /* ─── Map lightbox ─── */
+    #map-lightbox-title {
+      font-family: 'Jost', sans-serif;
+      font-size: 11px;
+      font-weight: 700;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: rgba(184,146,42,0.75);
+    }
+    #map-lightbox-close {
+      background: none;
+      border: none;
+      color: rgba(247,241,232,0.4);
+      font-size: 20px;
+      cursor: pointer;
+      line-height: 1;
+      padding: 4px 8px;
+      border-radius: 4px;
+      transition: color 0.15s, background 0.15s;
+    }
+    #map-lightbox-close:hover { color: rgba(247,241,232,0.9); background: rgba(255,255,255,0.08); }
     .sk-search {
       width: 100%; box-sizing: border-box;
       background: rgba(255,255,255,0.05); border: 1px solid rgba(255,255,255,0.12);
@@ -2737,17 +2834,17 @@
           <div id="sozluk-body"></div>
         </div>
         <div class="sidebar-section" id="sidebar-section-onsoz">
-          <div id="onsoz-header" style="padding:12px 16px 6px;border-bottom:1px solid var(--border-color);">
-            <div id="onsoz-title" style="font-weight:700;font-size:1rem;"></div>
-            <div id="onsoz-source" style="font-size:0.75rem;color:var(--text-muted);margin-top:2px;"></div>
+          <div class="res-section-header">
+            <div id="onsoz-title" class="res-section-title"></div>
+            <div id="onsoz-source" class="res-section-source"></div>
           </div>
-          <div id="onsoz-body" style="padding:14px 16px;line-height:1.7;font-size:0.88rem;overflow-y:auto;flex:1;"></div>
+          <div id="onsoz-body"></div>
         </div>
         <div class="sidebar-section" id="sidebar-section-harita">
-          <div id="harita-header" style="padding:12px 16px 6px;border-bottom:1px solid var(--border-color);">
-            <div id="harita-title" style="font-weight:700;font-size:0.9rem;"></div>
+          <div class="res-section-header">
+            <div id="harita-title" class="res-section-title"></div>
           </div>
-          <div id="harita-body" style="overflow-y:auto;flex:1;padding:8px 0;"></div>
+          <div id="harita-body"></div>
         </div>
       </div>
     </div><!-- /#sidebar-panel -->
@@ -6979,20 +7076,19 @@
     const body = document.getElementById('sozluk-body');
     if (!body) return;
     if (_hakkSozlukCache) { _renderHakkSozluk(body, _hakkSozlukCache); return; }
-    body.innerHTML = '<div style="padding:16px;color:var(--text-muted)">Yükleniyor…</div>';
+    body.innerHTML = '<div class="sk-empty">Yükleniyor…</div>';
     try {
       const r = await fetch('data/hakk/sozluk.json');
       _hakkSozlukCache = await r.json();
       _renderHakkSozluk(body, _hakkSozlukCache);
-    } catch { body.innerHTML = '<div style="padding:16px;color:var(--text-muted)">Yüklenemedi.</div>'; }
+    } catch { body.innerHTML = '<div class="sk-empty">Yüklenemedi.</div>'; }
   }
   function _renderHakkSozluk(body, data) {
     const entries = data.entries || [];
     const html = entries.map(e =>
-      `<div style="margin-bottom:12px"><strong style="color:var(--accent)">${e.term}</strong><span style="color:var(--text-muted)"> — </span>${e.definition}</div>`
+      `<div class="hk-sk-entry"><span class="hk-sk-term">${e.term}</span><span class="hk-sk-def">${e.definition}</span></div>`
     ).join('');
-    body.innerHTML = `<div style="padding:14px 16px;font-size:0.85rem;line-height:1.65">
-      <div style="font-weight:700;margin-bottom:10px">HAKK Terimler Sözlüğü</div>${html}</div>`;
+    body.innerHTML = html || '<div class="sk-empty">İçerik bulunamadı.</div>';
   }
 
   // ── Önsöz / Giriş panel ───────────────────────────────────────────────
@@ -7005,14 +7101,14 @@
     title.textContent  = res.label || '';
     source.textContent = '';
     if (_onsozCache[res.id]) { _renderOnsoz(body, _onsozCache[res.id]); return; }
-    body.innerHTML = '<div style="color:var(--text-muted)">Yükleniyor…</div>';
+    body.innerHTML = '<p style="color:rgba(247,241,232,0.35);padding:12px 0;font-family:\'Jost\',sans-serif;font-size:11px">Yükleniyor…</p>';
     try {
       const r = await fetch(res.dataFile);
       const data = await r.json();
       _onsozCache[res.id] = data;
       source.textContent = data.source || '';
       _renderOnsoz(body, data);
-    } catch { body.innerHTML = '<div style="color:var(--text-muted)">Yüklenemedi.</div>'; }
+    } catch { body.innerHTML = '<p style="color:rgba(247,241,232,0.35);padding:12px 0;font-family:\'Jost\',sans-serif;font-size:11px">Yüklenemedi.</p>'; }
   }
   function _renderOnsoz(body, data) {
     const paras = (data.paragraphs || []).map(p =>
@@ -7029,30 +7125,24 @@
     if (!body) return;
     title.textContent = res.label || '';
     if (_haritaCache[res.id]) { _renderHaritaList(body, _haritaCache[res.id]); return; }
-    body.innerHTML = '<div style="padding:16px;color:var(--text-muted)">Yükleniyor…</div>';
+    body.innerHTML = '<div class="sk-empty">Yükleniyor…</div>';
     try {
       const r = await fetch(res.dataFile);
       const data = await r.json();
       _haritaCache[res.id] = data;
       _renderHaritaList(body, data);
-    } catch { body.innerHTML = '<div style="padding:16px;color:var(--text-muted)">Yüklenemedi.</div>'; }
+    } catch { body.innerHTML = '<div class="sk-empty">Yüklenemedi.</div>'; }
   }
 
   function _renderHaritaList(body, data) {
     const maps = data.maps || [];
     body.innerHTML = maps.map(m => `
-      <button class="harita-item" data-img="${m.image}" data-title="${m.title.replace(/"/g,'&quot;')}"
-        style="display:flex;align-items:center;gap:10px;width:100%;padding:10px 16px;background:none;border:none;
-               border-bottom:1px solid var(--border-color);color:var(--text-main);font-family:inherit;
-               font-size:0.875rem;text-align:left;cursor:pointer;transition:background 0.15s">
-        <span style="font-size:1.1rem;flex-shrink:0">🗺</span>
+      <button class="harita-item" data-img="${m.image}" data-title="${m.title.replace(/"/g,'&quot;')}">
+        <span class="harita-item-icon">🗺</span>
         <span>${m.title}</span>
       </button>`).join('');
-    body.querySelectorAll('.harita-item').forEach(btn => {
-      btn.addEventListener('mouseenter', () => btn.style.background = 'rgba(184,146,42,0.07)');
-      btn.addEventListener('mouseleave', () => btn.style.background = '');
-      btn.addEventListener('click', () => openMapLightbox(btn.dataset.img, btn.dataset.title));
-    });
+    body.querySelectorAll('.harita-item').forEach(btn =>
+      btn.addEventListener('click', () => openMapLightbox(btn.dataset.img, btn.dataset.title)));
   }
 
   // ── Map lightbox ──────────────────────────────────────────────────────
@@ -8183,12 +8273,12 @@
   </script>
 
 <!-- ===== MAP LIGHTBOX ===== -->
-<div id="map-lightbox" style="display:none;position:fixed;inset:0;z-index:9999;background:rgba(0,0,0,0.88);align-items:center;justify-content:center;flex-direction:column;gap:12px">
-  <div style="display:flex;align-items:center;justify-content:space-between;width:min(90vw,700px);flex-shrink:0">
-    <div id="map-lightbox-title" style="color:#f7f1e8;font-size:0.9rem;font-weight:600;letter-spacing:0.03em"></div>
-    <button id="map-lightbox-close" style="background:none;border:none;color:rgba(247,241,232,0.5);font-size:22px;cursor:pointer;line-height:1;padding:4px 8px;border-radius:4px" title="Kapat">✕</button>
+<div id="map-lightbox" style="display:none;position:fixed;inset:0;z-index:9999;background:rgba(8,20,31,0.95);align-items:center;justify-content:center;flex-direction:column;gap:14px">
+  <div style="display:flex;align-items:center;justify-content:space-between;width:min(90vw,720px);flex-shrink:0">
+    <div id="map-lightbox-title"></div>
+    <button id="map-lightbox-close" title="Kapat">✕</button>
   </div>
-  <img id="map-lightbox-img" src="" alt="" style="max-width:min(90vw,700px);max-height:80vh;object-fit:contain;border-radius:4px;box-shadow:0 8px 40px rgba(0,0,0,0.6)">
+  <img id="map-lightbox-img" src="" alt="" style="max-width:min(90vw,720px);max-height:82vh;object-fit:contain;border-radius:3px;box-shadow:0 12px 48px rgba(0,0,0,0.7),0 0 0 1px rgba(184,146,42,0.15)">
 </div>
 
 </body>
