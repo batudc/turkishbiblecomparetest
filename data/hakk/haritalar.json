@@ -40,16 +40,16 @@
       "title": "Pavlus'un 1. ve 2. Müjdeleme Yolculukları",
       "page": 1439,
       "image": "data/hakk/haritalar/hakk-harita-5.jpg",
-      "width": 655,
-      "height": 1123
+      "width": 1123,
+      "height": 655
     },
     {
       "id": "hakk-harita-6",
       "title": "Pavlus'un 3. Müjdeleme Yolculuğu ve Roma",
       "page": 1440,
       "image": "data/hakk/haritalar/hakk-harita-6.jpg",
-      "width": 655,
-      "height": 1123
+      "width": 1123,
+      "height": 655
     }
   ]
 }
