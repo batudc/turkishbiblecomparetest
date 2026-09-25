@@ -6758,11 +6758,17 @@
   function buildResourcePanel() {
     const list = document.getElementById('res-cat-list');
     if (!list) return;
+
+    // Preserve which categories are currently open before rebuilding
+    const openCats = new Set();
+    list.querySelectorAll('.trans-cat.open[data-res-cat-id]').forEach(el =>
+      openCats.add(el.dataset.resCatId));
     list.innerHTML = '';
 
     RESOURCE_CATS.forEach((cat, idx) => {
       const selCount = cat.items.filter(r => selectedResources.has(r.id)).length;
-      const isOpen   = idx === 0; // first category open by default
+      // Keep open if was open; default first category open on first build (openCats empty)
+      const isOpen = openCats.size > 0 ? openCats.has(cat.id) : idx === 0;
 
       // Category header — identical structure to .trans-cat
       const catDiv = document.createElement('div');
@@ -6946,9 +6952,6 @@
       sidebar?.classList.add('open');
       document.getElementById('btn-commentary')?.classList.add('comm-open');
     }
-
-    // Don't load content if sidebar is (and will remain) closed — just set state
-    if (!openSidebar && !wasOpen) return;
 
     if (res.type === 'commentary') {
       commSource = res.commId;
