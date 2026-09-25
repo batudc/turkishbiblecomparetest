@@ -1263,7 +1263,7 @@ const TRANS_CATEGORIES = [
   },
   { id: 'modern', label: 'Modern Turkish',
     subcats: [
-      { label: 'Full Bible',    ids: ['TCL02','AREMSI','KA2007','YTC','HADİ'] },
+      { label: 'Full Bible',    ids: ['TCL02','AREMSI','KA2007','YTC','HADİ','HAKK'] },
       { label: 'New Testament', ids: ['YYY1987','CAN','KKDEU','BGT','COS','TTT'] },
       { label: 'Partial',       ids: ['TSV','OTR2019'] },
     ]
@@ -1275,7 +1275,7 @@ const TRANS_CATEGORIES = [
     subcats: [ { label: null, ids: ['KJV','NKJV','ESV','NIV','NLT','NET','CSB','LSB'] } ]
   },
   { id: 'diger', label: 'Other', hidden: true,
-    subcats: [ { label: null, ids: ['NWT2008','NWT2025','HAKK'] } ]
+    subcats: [ { label: null, ids: ['NWT2008','NWT2025'] } ]
   },
 ];
 
@@ -1956,7 +1956,7 @@ const ALL_TRANS_IDS_ORDERED = [
 
 function getFavorites() { try { return JSON.parse(localStorage.getItem('kkf_favs') || '[]'); } catch { return []; } }
 
-const DIGER_ID_SET   = new Set(['NWT2008','NWT2025','HAKK']);
+const DIGER_ID_SET   = new Set(['NWT2008','NWT2025']);
 const ENGLISH_ID_SET = new Set(['KJV','NKJV','ESV','NIV','NLT','NET','CSB','LSB']);
 
 const SEARCH_PRESETS = [
