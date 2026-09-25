@@ -7175,28 +7175,32 @@
 
   // ── Map lightbox ──────────────────────────────────────────────────────
   (function() {
-    const lb    = document.getElementById('map-lightbox');
-    const lbImg = document.getElementById('map-lightbox-img');
-    const lbTit = document.getElementById('map-lightbox-title');
-    const lbX   = document.getElementById('map-lightbox-close');
-    if (!lb) return;
-
-    window.openMapLightbox = function(src, title) {
-      lbTit.textContent = title || '';
-      lbImg.src = src;
-      lb.style.display = 'flex';
-      document.body.style.overflow = 'hidden';
-    };
-
     function closeLightbox() {
+      const lb = document.getElementById('map-lightbox');
+      if (!lb) return;
       lb.style.display = 'none';
-      lbImg.src = '';
+      const lbImg = document.getElementById('map-lightbox-img');
+      if (lbImg) lbImg.src = '';
       document.body.style.overflow = '';
     }
 
-    lbX.addEventListener('click', closeLightbox);
-    lb.addEventListener('click', e => { if (e.target === lb) closeLightbox(); });
-    document.addEventListener('keydown', e => { if (e.key === 'Escape' && lb.style.display !== 'none') closeLightbox(); });
+    window.openMapLightbox = function(src, title) {
+      const lb    = document.getElementById('map-lightbox');
+      const lbImg = document.getElementById('map-lightbox-img');
+      const lbTit = document.getElementById('map-lightbox-title');
+      if (!lb) return;
+      if (lbTit) lbTit.textContent = title || '';
+      if (lbImg) lbImg.src = src;
+      lb.style.display = 'flex';
+      document.body.style.overflow = 'hidden';
+      // wire close handlers once
+      if (!lb.dataset.bound) {
+        lb.dataset.bound = '1';
+        document.getElementById('map-lightbox-close')?.addEventListener('click', closeLightbox);
+        lb.addEventListener('click', e => { if (e.target === lb) closeLightbox(); });
+        document.addEventListener('keydown', e => { if (e.key === 'Escape') closeLightbox(); });
+      }
+    };
   })();
 
   // Init
