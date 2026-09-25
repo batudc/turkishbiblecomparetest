@@ -236,6 +236,20 @@
       padding: 0 10px;
       gap: 0;
     }
+    #sidebar-close-btn {
+      margin-left: auto;
+      flex-shrink: 0;
+      background: none;
+      border: none;
+      color: rgba(247,241,232,0.35);
+      font-size: 16px;
+      line-height: 1;
+      padding: 6px 8px;
+      cursor: pointer;
+      border-radius: 4px;
+      transition: color 0.15s, background 0.15s;
+    }
+    #sidebar-close-btn:hover { color: var(--gold-light); background: rgba(184,146,42,0.08); }
     .sidebar-tab {
       padding: 8px 14px;
       background: none;
@@ -2680,6 +2694,7 @@
         <button class="sidebar-tab active" data-section="commentary">📖 Notlar</button>
         <div id="comm-src-row"><!-- populated by buildResourceTabs() --></div>
         <span id="commentary-title"></span>
+        <button id="sidebar-close-btn" title="Kapat">✕</button>
       </div>
       <div id="sidebar-sections">
         <div class="sidebar-section active" id="sidebar-section-commentary">
@@ -4743,6 +4758,13 @@
     togglePanel('panel-resources', this);
   });
 
+  document.getElementById('sidebar-close-btn').addEventListener('click', function(e) {
+    e.stopPropagation();
+    const sb = document.getElementById('sidebar-panel');
+    sb.classList.remove('open');
+    document.getElementById('btn-commentary')?.classList.remove('comm-open');
+  });
+
   // Mobile: drag handle — resize + flick-to-close bottom sheet
   (function() {
     const panel  = document.getElementById('sidebar-panel');
@@ -6701,6 +6723,11 @@
   // commSource kept in sync for loadCommentary
   let commSource = activeResourceId in COMM_SOURCES ? activeResourceId : 'akkit';
 
+  // Content caches — declared here so they're initialized before the init activateResource() call
+  let _commCache = {};
+  let _hakkSozlukCache = null;
+  const _onsozCache = {};
+
   // ── Commentary section tabs ─────────────────────────────────────────
   let commActiveSect = 'verses';
 
@@ -6902,10 +6929,15 @@
       b.classList.toggle('active', b.dataset.resId === id));
 
     const sidebar = document.getElementById('sidebar-panel');
-    if (openSidebar && !sidebar?.classList.contains('open')) {
+    const wasOpen = sidebar?.classList.contains('open');
+
+    if (openSidebar && !wasOpen) {
       sidebar?.classList.add('open');
       document.getElementById('btn-commentary')?.classList.add('comm-open');
     }
+
+    // Don't load content if sidebar is (and will remain) closed — just set state
+    if (!openSidebar && !wasOpen) return;
 
     if (res.type === 'commentary') {
       commSource = res.commId;
@@ -6913,7 +6945,7 @@
       _openRefPanel('sidebar-section-commentary');
       const sectTabs = document.getElementById('comm-sect-tabs');
       if (sectTabs) sectTabs.style.display = COMM_SOURCES[commSource]?.newFormat ? 'flex' : 'none';
-      if (sidebar?.classList.contains('open')) loadCommentary(currentBook, currentChapter);
+      loadCommentary(currentBook, currentChapter);
     } else if (res.type === 'sozluk') {
       openSozlukPanel(null);
     } else if (res.type === 'sozluk-hakk') {
@@ -6926,7 +6958,6 @@
   }
 
   // ── HAKK Sözlük panel ────────────────────────────────────────────────
-  let _hakkSozlukCache = null;
   async function openHakkSozlukPanel() {
     _openRefPanel('sidebar-section-sozluk');
     const body = document.getElementById('sozluk-body');
@@ -6949,7 +6980,6 @@
   }
 
   // ── Önsöz / Giriş panel ───────────────────────────────────────────────
-  const _onsozCache = {};
   async function openOnsozPanel(res) {
     _openRefPanel('sidebar-section-onsoz');
     const body   = document.getElementById('onsoz-body');
@@ -6981,8 +7011,6 @@
   activateResource(activeResourceId, false);
 
   // ── Commentary panel ─────────────────────────────────────────────────
-  let _commCache = {};
-
   async function loadCommentary(bookName, chap) {
     const bookCode = BOOK_CODES[bookName];
     if (!bookCode) return;
