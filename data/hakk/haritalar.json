@@ -8,48 +8,48 @@
       "title": "Eski Yakın Doğu",
       "page": 1435,
       "image": "data/hakk/haritalar/hakk-harita-1.jpg",
-      "width": 836,
-      "height": 1309
+      "width": 655,
+      "height": 1123
     },
     {
       "id": "hakk-harita-2",
       "title": "Mısır'dan Çıkış ve Çöl Yolculuğu",
       "page": 1436,
       "image": "data/hakk/haritalar/hakk-harita-2.jpg",
-      "width": 836,
-      "height": 1309
+      "width": 655,
+      "height": 1123
     },
     {
       "id": "hakk-harita-3",
       "title": "Reisler Döneminde Kenan Ülkesi",
       "page": 1437,
       "image": "data/hakk/haritalar/hakk-harita-3.jpg",
-      "width": 836,
-      "height": 1309
+      "width": 655,
+      "height": 1123
     },
     {
       "id": "hakk-harita-4",
       "title": "Yeni Ahit'in Yazıldığı Çağda Filistin",
       "page": 1438,
       "image": "data/hakk/haritalar/hakk-harita-4.jpg",
-      "width": 836,
-      "height": 1309
+      "width": 655,
+      "height": 1123
     },
     {
       "id": "hakk-harita-5",
       "title": "Pavlus'un 1. ve 2. Müjdeleme Yolculukları",
       "page": 1439,
       "image": "data/hakk/haritalar/hakk-harita-5.jpg",
-      "width": 836,
-      "height": 1309
+      "width": 655,
+      "height": 1123
     },
     {
       "id": "hakk-harita-6",
       "title": "Pavlus'un 3. Müjdeleme Yolculuğu ve Roma",
       "page": 1440,
       "image": "data/hakk/haritalar/hakk-harita-6.jpg",
-      "width": 836,
-      "height": 1309
+      "width": 655,
+      "height": 1123
     }
   ]
 }
