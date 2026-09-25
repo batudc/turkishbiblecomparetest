@@ -2721,6 +2721,13 @@
         <div class="sidebar-section" id="sidebar-section-sozluk">
           <div id="sozluk-body"></div>
         </div>
+        <div class="sidebar-section" id="sidebar-section-onsoz">
+          <div id="onsoz-header" style="padding:12px 16px 6px;border-bottom:1px solid var(--border-color);">
+            <div id="onsoz-title" style="font-weight:700;font-size:1rem;"></div>
+            <div id="onsoz-source" style="font-size:0.75rem;color:var(--text-muted);margin-top:2px;"></div>
+          </div>
+          <div id="onsoz-body" style="padding:14px 16px;line-height:1.7;font-size:0.88rem;overflow-y:auto;flex:1;"></div>
+        </div>
       </div>
     </div><!-- /#sidebar-panel -->
   </div><!-- /#reader-wrapper -->
@@ -6659,14 +6666,19 @@
         { id: 'esv-en', shortLabel: 'ESV EN',   label: 'ESV Global Study Bible (English)',          type: 'commentary', commId: 'esv-en' },
     ]},
     { id: 'sozluk',   icon: '📚', label: 'Sözlükler', items: [
-        { id: 'sozluk-tcl02',   shortLabel: 'Sözlük',   label: 'Kutsal Kitap Sözlüğü (Yeni Çeviri)', type: 'sozluk'   },
+        { id: 'sozluk-tcl02',  shortLabel: 'YÇ Sözlük', label: 'Kutsal Kitap Sözlüğü (Yeni Çeviri)', type: 'sozluk' },
+        { id: 'sozluk-hakk',   shortLabel: 'HAKK',       label: 'HAKK — Terimler Sözlüğü',            type: 'sozluk-hakk' },
     ]},
     { id: 'birimler', icon: '📐', label: 'Birim Cetvelleri', items: [
         { id: 'birimler-tcl02', shortLabel: 'Birimler', label: 'Birim Cetveli (Yeni Çeviri)',        type: 'birimler' },
     ]},
     { id: 'harita',   icon: '🗺', label: 'Haritalar',         items: [] },
-    { id: 'onsoz',    icon: '📜', label: 'Önsözler',           items: [] },
-    { id: 'hakkinda', icon: 'ℹ',  label: 'Çeviriler Hakkında', items: [] },
+    { id: 'onsoz',    icon: '📜', label: 'Önsözler',           items: [
+        { id: 'onsoz-hakk', shortLabel: 'HAKK', label: 'HAKK — Halk Dilinde Kutsal Kitap (Önsöz)', type: 'onsoz', dataFile: 'data/hakk/onsoz.json' },
+    ]},
+    { id: 'hakkinda', icon: 'ℹ',  label: 'Çeviriler Hakkında', items: [
+        { id: 'giris-hakk', shortLabel: 'HAKK Giriş', label: 'HAKK — Kutsal Kitap\'a Giriş', type: 'onsoz', dataFile: 'data/hakk/giris.json' },
+    ]},
   ];
 
   // Flatten for quick lookup
@@ -6904,9 +6916,63 @@
       if (sidebar?.classList.contains('open')) loadCommentary(currentBook, currentChapter);
     } else if (res.type === 'sozluk') {
       openSozlukPanel(null);
+    } else if (res.type === 'sozluk-hakk') {
+      openHakkSozlukPanel();
     } else if (res.type === 'birimler') {
       openBirimlerPanel();
+    } else if (res.type === 'onsoz') {
+      openOnsozPanel(res);
     }
+  }
+
+  // ── HAKK Sözlük panel ────────────────────────────────────────────────
+  let _hakkSozlukCache = null;
+  async function openHakkSozlukPanel() {
+    _openRefPanel('sidebar-section-sozluk');
+    const body = document.getElementById('sozluk-body');
+    if (!body) return;
+    if (_hakkSozlukCache) { _renderHakkSozluk(body, _hakkSozlukCache); return; }
+    body.innerHTML = '<div style="padding:16px;color:var(--text-muted)">Yükleniyor…</div>';
+    try {
+      const r = await fetch('data/hakk/sozluk.json');
+      _hakkSozlukCache = await r.json();
+      _renderHakkSozluk(body, _hakkSozlukCache);
+    } catch { body.innerHTML = '<div style="padding:16px;color:var(--text-muted)">Yüklenemedi.</div>'; }
+  }
+  function _renderHakkSozluk(body, data) {
+    const entries = data.entries || [];
+    const html = entries.map(e =>
+      `<div style="margin-bottom:12px"><strong style="color:var(--accent)">${e.term}</strong><span style="color:var(--text-muted)"> — </span>${e.definition}</div>`
+    ).join('');
+    body.innerHTML = `<div style="padding:14px 16px;font-size:0.85rem;line-height:1.65">
+      <div style="font-weight:700;margin-bottom:10px">HAKK Terimler Sözlüğü</div>${html}</div>`;
+  }
+
+  // ── Önsöz / Giriş panel ───────────────────────────────────────────────
+  const _onsozCache = {};
+  async function openOnsozPanel(res) {
+    _openRefPanel('sidebar-section-onsoz');
+    const body   = document.getElementById('onsoz-body');
+    const title  = document.getElementById('onsoz-title');
+    const source = document.getElementById('onsoz-source');
+    if (!body) return;
+    title.textContent  = res.label || '';
+    source.textContent = '';
+    if (_onsozCache[res.id]) { _renderOnsoz(body, _onsozCache[res.id]); return; }
+    body.innerHTML = '<div style="color:var(--text-muted)">Yükleniyor…</div>';
+    try {
+      const r = await fetch(res.dataFile);
+      const data = await r.json();
+      _onsozCache[res.id] = data;
+      source.textContent = data.source || '';
+      _renderOnsoz(body, data);
+    } catch { body.innerHTML = '<div style="color:var(--text-muted)">Yüklenemedi.</div>'; }
+  }
+  function _renderOnsoz(body, data) {
+    const paras = (data.paragraphs || []).map(p =>
+      `<p style="margin:0 0 1em 0">${p.replace(/- \n?/g,'')}</p>`
+    ).join('');
+    body.innerHTML = paras || '<p style="color:var(--text-muted)">İçerik bulunamadı.</p>';
   }
 
   // Init

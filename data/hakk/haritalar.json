@@ -1,0 +1,32 @@
+{
+  "source": "HAKK",
+  "title": "Haritalar",
+  "lang": "tr",
+  "note": "PDF sayfalar görüntü tabanlıdır; metin çıkarımı mevcut değil.",
+  "maps": [
+    {
+      "page": 1435,
+      "title": "Eski Yakın Doğu"
+    },
+    {
+      "page": 1436,
+      "title": "Mısır'dan Çıkış ve Çöl Yolculuğu"
+    },
+    {
+      "page": 1437,
+      "title": "Reisler Döneminde Kenan Ülkesi"
+    },
+    {
+      "page": 1438,
+      "title": "Yeni Ahit'in Yazıldığı Çağda Filistin"
+    },
+    {
+      "page": 1439,
+      "title": "Pavlus'un Birinci ve İkinci Müjdeleme Yolculukları"
+    },
+    {
+      "page": 1440,
+      "title": "Pavlus'un Üçüncü Müjdeleme Yolculuğu ve Roma'ya Seyahati"
+    }
+  ]
+}
