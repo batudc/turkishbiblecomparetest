@@ -4065,6 +4065,7 @@
 
   // ── Copy panel ───────────────────────────────────────────────────────
   const _copySelVerses = new Set();
+  let _copyLastV = null; // last clicked verse number (for range selection)
 
   function buildCopyPanel() {
     // Update label
@@ -4076,6 +4077,7 @@
 
     // Verse grid
     _copySelVerses.clear();
+    _copyLastV = null;
     verseNums.forEach(n => _copySelVerses.add(n));
     const grid = document.getElementById('copy-verse-grid');
     grid.innerHTML = '';
@@ -4085,17 +4087,30 @@
       btn.textContent = n;
       btn.dataset.v = n;
       btn.addEventListener('click', () => {
-        if (_copySelVerses.has(n)) { _copySelVerses.delete(n); btn.classList.remove('sel'); }
-        else { _copySelVerses.add(n); btn.classList.add('sel'); }
+        if (_copyLastV !== null && n > _copyLastV) {
+          // Range fill: select all verses from _copyLastV up to n
+          verseNums.filter(v => v >= _copyLastV && v <= n).forEach(v => {
+            _copySelVerses.add(v);
+            grid.querySelector(`[data-v="${v}"]`)?.classList.add('sel');
+          });
+          _copyLastV = n;
+        } else {
+          // Individual toggle
+          if (_copySelVerses.has(n)) { _copySelVerses.delete(n); btn.classList.remove('sel'); }
+          else { _copySelVerses.add(n); btn.classList.add('sel'); }
+          _copyLastV = n;
+        }
       });
       grid.appendChild(btn);
     });
 
     // Tümü / Hiçbiri
     document.getElementById('copy-sel-all').onclick = () => {
+      _copyLastV = null;
       verseNums.forEach(n => { _copySelVerses.add(n); grid.querySelector(`[data-v="${n}"]`)?.classList.add('sel'); });
     };
     document.getElementById('copy-sel-none').onclick = () => {
+      _copyLastV = null;
       _copySelVerses.clear(); grid.querySelectorAll('.copy-vbtn').forEach(b => b.classList.remove('sel'));
     };
 
