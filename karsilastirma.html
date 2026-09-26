@@ -4177,33 +4177,41 @@
     const commLabel = COMM_SOURCES[commSource]?.label || activeResourceId;
     const totalSources = bibleTids.length + (inclComm ? 1 : 0);
 
+    const multiSource = totalSources > 1;
+
     selectedVers.forEach(vn => {
       bibleTids.forEach(tid => {
         const verseEl = document.querySelector(`.col[data-translation="${tid}"] .verse[data-v="${vn}"] .vt`);
         if (!verseEl) return;
         const text = verseEl.innerText.replace(/\s+/g, ' ').trim();
         let line = '';
-        if (inclTid) line += `(${tid}) `;
+        if (inclTid && multiSource) line += `(${tid}) `;
         if (inclVNum) line += `${bookAbbr} ${currentChapter}:${vn} `;
         line += text;
         lines.push(line);
       });
       if (inclComm) {
-        // Find the commentary note for this verse
         const noteEl = document.querySelector(`#commentary-body .comm-note[data-verse="${vn}"]`);
         if (noteEl) {
           const ref  = noteEl.querySelector('.comm-ref')?.innerText.trim() || '';
           const text = noteEl.querySelector('.comm-text')?.innerText.replace(/\s+/g, ' ').trim() || '';
           let line = '';
-          if (inclTid) line += `[${commLabel}] `;
+          if (inclTid && multiSource) line += `[${commLabel}] `;
           if (inclVNum && ref) line += `${ref} `;
           else if (inclVNum) line += `${bookAbbr} ${currentChapter}:${vn} `;
           line += text;
           lines.push(line);
         }
       }
-      if (totalSources > 1) lines.push(''); // blank line between verse groups
+      if (multiSource) lines.push('');
     });
+
+    // Single source: append attribution at the end
+    if (inclTid && !multiSource) {
+      const singleLabel = inclComm ? commLabel : selectedTids[0];
+      lines.push('');
+      lines.push(`— ${singleLabel}`);
+    }
 
     const copyText = lines.join('\n').trimEnd();
     navigator.clipboard.writeText(copyText).then(() => {
