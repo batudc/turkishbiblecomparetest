@@ -4133,23 +4133,28 @@
       transList.appendChild(label);
     });
 
-    // Commentary checkbox — only if sidebar is open and commentary section is active
-    const sidebarOpen = document.getElementById('sidebar-panel')?.classList.contains('open');
-    const commSectActive = document.getElementById('sidebar-section-commentary')?.classList.contains('active');
-    const hasNotes = document.querySelectorAll('#commentary-body .comm-note[data-verse]').length > 0;
-    if (sidebarOpen && commSectActive && hasNotes) {
-      const commLabel = COMM_SOURCES[commSource]?.label || activeResourceId;
+    // Commentary checkboxes — all selected commentary resources
+    const selectedCommResources = [...selectedResources]
+      .map(id => RESOURCE_BY_ID[id])
+      .filter(r => r && r.type === 'commentary' && COMM_SOURCES[r.commId]);
+    if (selectedCommResources.length > 0) {
       const sep = document.createElement('div');
       sep.style.cssText = 'border-top:1px solid rgba(255,255,255,0.07);margin:6px 0 4px;';
       transList.appendChild(sep);
-      const label = document.createElement('label');
-      label.className = 'copy-trans-item';
-      const cb = document.createElement('input');
-      cb.type = 'checkbox'; cb.checked = true; cb.dataset.tid = '__commentary';
-      const sp = document.createElement('span');
-      sp.textContent = `${commLabel} (Notlar)`;
-      label.appendChild(cb); label.appendChild(sp);
-      transList.appendChild(label);
+      const secLabel = document.createElement('div');
+      secLabel.style.cssText = 'font-family:Jost,sans-serif;font-size:10px;font-weight:700;letter-spacing:0.07em;text-transform:uppercase;color:rgba(247,241,232,0.3);padding:2px 0 4px;';
+      secLabel.textContent = 'Açıklamalı Notlar';
+      transList.appendChild(secLabel);
+      selectedCommResources.forEach(res => {
+        const label = document.createElement('label');
+        label.className = 'copy-trans-item';
+        const cb = document.createElement('input');
+        cb.type = 'checkbox'; cb.checked = true; cb.dataset.tid = `__comm_${res.commId}`;
+        const sp = document.createElement('span');
+        sp.textContent = res.shortLabel + ' — ' + COMM_SOURCES[res.commId].label;
+        label.appendChild(cb); label.appendChild(sp);
+        transList.appendChild(label);
+      });
     }
   }
 
@@ -4161,23 +4166,34 @@
     togglePanel('panel-copy', this);
   });
 
-  document.getElementById('copy-do-btn').addEventListener('click', () => {
+  document.getElementById('copy-do-btn').addEventListener('click', async () => {
     const inclVNum = document.getElementById('copy-opt-vnum').checked;
     const inclTid  = document.getElementById('copy-opt-tid').checked;
     const selectedVers = [..._copySelVerses].sort((a, b) => a - b);
     const selectedTids = [...document.querySelectorAll('#copy-trans-list input[type=checkbox]:checked')].map(cb => cb.dataset.tid);
 
     if (!selectedVers.length || !selectedTids.length) return;
-    // Allow copy even if only commentary is selected
 
     const bookAbbr = BOOK_ABBR[currentBook] || currentBook;
+    const bookCode = BOOK_CODES[currentBook] ?? 'JHN';
     const lines = [];
-    const bibleTids = selectedTids.filter(t => t !== '__commentary');
-    const inclComm  = selectedTids.includes('__commentary');
-    const commLabel = COMM_SOURCES[commSource]?.label || activeResourceId;
-    const totalSources = bibleTids.length + (inclComm ? 1 : 0);
+    const bibleTids  = selectedTids.filter(t => !t.startsWith('__comm_'));
+    const commTidIds = selectedTids.filter(t => t.startsWith('__comm_')).map(t => t.slice(7)); // e.g. 'akkit'
+    const totalSources = bibleTids.length + commTidIds.length;
+    const multiSource  = totalSources > 1;
 
-    const multiSource = totalSources > 1;
+    // Load all needed commentary data (from cache or fetch)
+    const commDataMap = {}; // commId → data
+    await Promise.all(commTidIds.map(async commId => {
+      const meta = COMM_SOURCES[commId];
+      if (!meta) return;
+      const key = `${commId}|${bookCode}|${currentChapter}`;
+      if (_commCache[key]) { commDataMap[commId] = _commCache[key]; return; }
+      try {
+        const res = await fetch(`data/${meta.folder}/${bookCode}/${currentChapter}.json`);
+        if (res.ok) { const d = await res.json(); _commCache[key] = d; commDataMap[commId] = d; }
+      } catch (_) {}
+    }));
 
     selectedVers.forEach(vn => {
       bibleTids.forEach(tid => {
@@ -4190,25 +4206,29 @@
         line += text;
         lines.push(line);
       });
-      if (inclComm) {
-        const noteEl = document.querySelector(`#commentary-body .comm-note[data-verse="${vn}"]`);
-        if (noteEl) {
-          const ref  = noteEl.querySelector('.comm-ref')?.innerText.trim() || '';
-          const text = noteEl.querySelector('.comm-text')?.innerText.replace(/\s+/g, ' ').trim() || '';
+      commTidIds.forEach(commId => {
+        const data = commDataMap[commId];
+        if (!data) return;
+        const notes = (data.notes || []).filter(n => _parseNoteVerse(n.ref) === vn);
+        notes.forEach(note => {
+          const ref  = note.ref.includes(':') ? note.ref.split(':')[1].trim() : note.ref;
+          const text = note.text.replace(/\*\*/g, '').replace(/\s+/g, ' ').trim();
           let line = '';
-          if (inclTid && multiSource) line += `[${commLabel}] `;
-          if (inclVNum && ref) line += `${ref} `;
-          else if (inclVNum) line += `${bookAbbr} ${currentChapter}:${vn} `;
+          const meta = COMM_SOURCES[commId];
+          if (inclTid && multiSource) line += `[${meta.label}] `;
+          if (inclVNum) line += `${ref || (bookAbbr + ' ' + currentChapter + ':' + vn)} `;
           line += text;
           lines.push(line);
-        }
-      }
+        });
+      });
       if (multiSource) lines.push('');
     });
 
     // Single source: append attribution at the end
     if (inclTid && !multiSource) {
-      const singleLabel = inclComm ? commLabel : selectedTids[0];
+      let singleLabel;
+      if (commTidIds.length === 1) singleLabel = COMM_SOURCES[commTidIds[0]]?.label || commTidIds[0];
+      else singleLabel = bibleTids[0];
       lines.push('');
       lines.push(`— ${singleLabel}`);
     }
