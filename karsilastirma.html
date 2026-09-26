@@ -1339,6 +1339,7 @@
     }
     .trans-dl-btn:hover { color: var(--gold-light); border-color: rgba(184,146,42,0.6); transform: scale(1.05); }
     .trans-dl-btn.cached { color: #4caf77; border-color: rgba(76,175,119,0.5); }
+    .trans-dl-btn.update { color: #e8a020; border-color: rgba(232,160,32,0.55); }
     .trans-dl-btn.loading { opacity: 0.6; border-color: rgba(184,146,42,0.3); animation: spin 1.2s linear infinite; }
     @keyframes spin { to { transform: rotate(360deg); } }
     .trans-item input[type="checkbox"] { accent-color: var(--gold); flex-shrink: 0; cursor: pointer; }
@@ -4071,13 +4072,37 @@
   }
 
   // ── Offline caching ───────────────────────────────────────────────────────
-  const _cachedTids = new Set(JSON.parse(localStorage.getItem('kki_cached_tids') || '[]'));
+  // Current data cache version — must match the number in sw.js DATA_CACHE ('kki-data-vN')
+  const DATA_CACHE_VERSION = 16;
+
+  // kki_cache_tid_vers: { tid: version } — per-translation version tracking
+  // Migration: if old kki_cached_tids exists, import with version 0 (→ needs update)
+  const _cacheTidVers = (() => {
+    try {
+      const stored = localStorage.getItem('kki_cache_tid_vers');
+      if (stored) return JSON.parse(stored);
+      // Migrate from old format
+      const old = JSON.parse(localStorage.getItem('kki_cached_tids') || '[]');
+      const vers = {};
+      old.forEach(tid => { vers[tid] = 0; });
+      if (old.length) localStorage.setItem('kki_cache_tid_vers', JSON.stringify(vers));
+      return vers;
+    } catch { return {}; }
+  })();
+
+  function _saveCacheVers() {
+    localStorage.setItem('kki_cache_tid_vers', JSON.stringify(_cacheTidVers));
+  }
+
+  function _isCached(tid)        { return tid in _cacheTidVers; }
+  function _isCachedCurrent(tid) { return _cacheTidVers[tid] === DATA_CACHE_VERSION; }
 
   function _markCached(tid) {
-    _cachedTids.add(tid);
-    localStorage.setItem('kki_cached_tids', JSON.stringify([..._cachedTids]));
+    _cacheTidVers[tid] = DATA_CACHE_VERSION;
+    _saveCacheVers();
     document.querySelectorAll(`.trans-dl-btn[data-tid="${tid}"]`).forEach(b => {
-      b.textContent = '✓'; b.classList.remove('loading'); b.classList.add('cached'); b.title = 'Çevrimdışı kullanıma hazır';
+      b.textContent = '✓'; b.classList.remove('loading', 'update'); b.classList.add('cached');
+      b.title = 'Çevrimdışı kullanıma hazır';
     });
   }
 
@@ -4085,13 +4110,28 @@
     if (!('serviceWorker' in navigator) || !navigator.serviceWorker.controller) {
       alert('Servis çalışanı henüz hazır değil, sayfayı yenileyin.'); return;
     }
-    btn.textContent = '○'; btn.classList.add('loading'); btn.title = 'İndiriliyor…';
+    btn.textContent = '○'; btn.classList.remove('cached', 'update'); btn.classList.add('loading'); btn.title = 'İndiriliyor…';
     const books = Object.entries(CHAPTER_COUNTS).map(([code, chapters]) => ({ code, chapters }));
     navigator.serviceWorker.controller.postMessage({ type: 'CACHE_TRANSLATION', tid, books });
     navigator.serviceWorker.addEventListener('message', function handler(e) {
       if (e.data?.type === 'CACHE_DONE' && e.data.tid === tid) {
         navigator.serviceWorker.removeEventListener('message', handler);
         _markCached(tid);
+      }
+    });
+  }
+
+  function updateCachedTranslation(tid, btn) {
+    if (!('serviceWorker' in navigator) || !navigator.serviceWorker.controller) {
+      alert('Servis çalışanı henüz hazır değil, sayfayı yenileyin.'); return;
+    }
+    btn.textContent = '○'; btn.classList.remove('cached', 'update'); btn.classList.add('loading'); btn.title = 'Güncelleniyor…';
+    navigator.serviceWorker.controller.postMessage({ type: 'UNCACHE_TRANSLATION', tid });
+    navigator.serviceWorker.addEventListener('message', function handler(e) {
+      if (e.data?.type === 'UNCACHE_DONE' && e.data.tid === tid) {
+        navigator.serviceWorker.removeEventListener('message', handler);
+        // Now re-download with fresh files
+        cacheTranslation(tid, btn);
       }
     });
   }
@@ -4120,12 +4160,28 @@
     item.appendChild(star);
     if (t.loaded) {
       const dlBtn = document.createElement('button');
-      const isCached = _cachedTids.has(t.id);
-      dlBtn.className = 'trans-dl-btn' + (isCached ? ' cached' : '');
+      const isCached = _isCached(t.id);
+      const isCurrent = _isCachedCurrent(t.id);
+      if (isCurrent) {
+        dlBtn.className = 'trans-dl-btn cached';
+        dlBtn.textContent = '✓';
+        dlBtn.title = 'Çevrimdışı kullanıma hazır';
+      } else if (isCached) {
+        dlBtn.className = 'trans-dl-btn update';
+        dlBtn.textContent = '⬆';
+        dlBtn.title = 'Güncelleme mevcut — tıklayarak güncelle';
+      } else {
+        dlBtn.className = 'trans-dl-btn';
+        dlBtn.textContent = '↓';
+        dlBtn.title = 'Çevrimdışı kullanım için indir';
+      }
       dlBtn.dataset.tid = t.id;
-      dlBtn.textContent = isCached ? '✓' : '↓';
-      dlBtn.title = isCached ? 'Çevrimdışı kullanıma hazır' : 'Çevrimdışı kullanım için indir';
-      dlBtn.addEventListener('click', e => { e.stopPropagation(); if (!isCached) cacheTranslation(t.id, dlBtn); });
+      dlBtn.addEventListener('click', e => {
+        e.stopPropagation();
+        if (isCurrent) return;
+        if (_isCached(t.id)) updateCachedTranslation(t.id, dlBtn);
+        else cacheTranslation(t.id, dlBtn);
+      });
       item.appendChild(dlBtn);
     }
     if (t.loaded) {

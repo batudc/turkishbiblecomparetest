@@ -83,28 +83,41 @@ self.addEventListener('fetch', e => {
   );
 });
 
-// ── Message: manual cache of a full translation ────────────────────────────
-// Called from the UI: sw.postMessage({ type: 'CACHE_TRANSLATION', tid, books })
+// ── Message: manual cache / uncache of a full translation ─────────────────
 self.addEventListener('message', e => {
-  if (e.data?.type !== 'CACHE_TRANSLATION') return;
-  const { tid, books } = e.data;
-  // books: array of { code, chapters } e.g. [{code:'JHN', chapters:21}, ...]
-  caches.open(DATA_CACHE).then(async cache => {
-    let cached = 0;
-    for (const { code, chapters } of books) {
-      for (let ch = 1; ch <= chapters; ch++) {
-        const url = `/data/translations/${tid}/${code}/${ch}.json`;
-        const already = await cache.match(url);
-        if (!already) {
-          try {
-            const res = await fetch(url);
-            if (res.ok) { await cache.put(url, res); cached++; }
-          } catch (_) {}
+  // CACHE_TRANSLATION: sw.postMessage({ type: 'CACHE_TRANSLATION', tid, books })
+  if (e.data?.type === 'CACHE_TRANSLATION') {
+    const { tid, books } = e.data;
+    caches.open(DATA_CACHE).then(async cache => {
+      let cached = 0;
+      for (const { code, chapters } of books) {
+        for (let ch = 1; ch <= chapters; ch++) {
+          const url = `/data/translations/${tid}/${code}/${ch}.json`;
+          const already = await cache.match(url);
+          if (!already) {
+            try {
+              const res = await fetch(url);
+              if (res.ok) { await cache.put(url, res); cached++; }
+            } catch (_) {}
+          }
         }
       }
-    }
-    // Notify all clients when done
-    const clients = await self.clients.matchAll();
-    clients.forEach(c => c.postMessage({ type: 'CACHE_DONE', tid, cached }));
-  });
+      const clients = await self.clients.matchAll();
+      clients.forEach(c => c.postMessage({ type: 'CACHE_DONE', tid, cached }));
+    });
+    return;
+  }
+
+  // UNCACHE_TRANSLATION: delete all cached files for a specific tid
+  if (e.data?.type === 'UNCACHE_TRANSLATION') {
+    const { tid } = e.data;
+    caches.open(DATA_CACHE).then(async cache => {
+      const keys = await cache.keys();
+      const toDelete = keys.filter(req => req.url.includes(`/data/translations/${tid}/`));
+      await Promise.all(toDelete.map(req => cache.delete(req)));
+      const clients = await self.clients.matchAll();
+      clients.forEach(c => c.postMessage({ type: 'UNCACHE_DONE', tid }));
+    });
+    return;
+  }
 });
