@@ -1623,6 +1623,16 @@
       /* Expand button (right of search bar) */
       #mob-compact-controls { display: flex; align-items: center; flex-shrink: 0; min-height: 44px; margin-left: 6px; gap: 4px; }
       #mob-prev-ch, #mob-next-ch { display: flex; }
+      #mob-book-ch {
+        height: 30px; padding: 0 7px; background: none;
+        border: 1px solid rgba(184,146,42,0.25); border-radius: 4px;
+        color: rgba(247,241,232,0.72); font-family: 'Jost', sans-serif;
+        font-size: 11px; font-weight: 600; letter-spacing: 0.04em;
+        cursor: pointer; flex-shrink: 0; white-space: nowrap;
+        transition: background 0.12s, border-color 0.12s;
+      }
+      #mob-book-ch:active { background: rgba(184,146,42,0.1); border-color: rgba(184,146,42,0.4); }
+      #mob-notes-btn { font-size: 15px; }
       .mob-ch-arrow {
         width: 30px; height: 30px; background: none;
         border: 1px solid rgba(184,146,42,0.25); border-radius: 4px;
@@ -2718,6 +2728,8 @@
 
     <!-- Mobile-only compact controls (hidden on desktop via CSS) -->
     <div id="mob-compact-controls">
+      <button id="mob-book-ch" title="Kitap ve bölüm seçin">Yuh 1</button>
+      <button id="mob-notes-btn" class="mob-ch-arrow" title="Notlar">📖</button>
       <button id="mob-prev-ch" class="mob-ch-arrow" title="Önceki bölüm">‹</button>
       <button id="mob-next-ch" class="mob-ch-arrow" title="Sonraki bölüm">›</button>
       <button id="mob-expand-btn" class="mob-expand" title="Tüm seçenekler" aria-expanded="false">▾</button>
@@ -3245,6 +3257,33 @@
     'Nahum':'NAH','Habakkuk':'HAB','Zefanya':'ZEP','Hagay':'HAG',
     'Zekeriya':'ZEC','Malaki':'MAL'
   };
+
+  const BOOK_ABBR = {
+    'Yaratılış':'Yar','Mısır\'dan Çıkış':'Çık','Levililer':'Lev','Çölde Sayım':'Say',
+    'Yasa\'nın Tekrarı':'Yas','Yeşu':'Yeş','Hakimler':'Hak','Rut':'Rut',
+    '1. Samuel':'1Sa','2. Samuel':'2Sa','1. Krallar':'1Kr','2. Krallar':'2Kr',
+    '1. Tarihler':'1Ta','2. Tarihler':'2Ta','Ezra':'Ezr','Nehemya':'Neh',
+    'Ester':'Est','Eyüp':'Eyp','Mezmurlar':'Mez','Süleyman\'ın Özdeyişleri':'Süz',
+    'Vaiz':'Vai','Ezgiler Ezgisi':'Ezg','Yeşaya':'Yeş','Yeremya':'Yer',
+    'Ağıtlar':'Ağı','Hezekiel':'Hez','Daniel':'Dan','Hoşea':'Hoş',
+    'Yoel':'Yoe','Amos':'Amo','Ovadya':'Ova','Yunus':'Yun','Mika':'Mik',
+    'Nahum':'Nah','Habakkuk':'Hab','Zefanya':'Zef','Hagay':'Hag',
+    'Zekeriya':'Zek','Malaki':'Mal',
+    'Matta':'Mat','Markos':'Mar','Luka':'Luk','Yuhanna':'Yuh',
+    'Elçilerin İşleri':'Elç','Romalılar':'Rom','1. Korintliler':'1Ko',
+    '2. Korintliler':'2Ko','Galatyalılar':'Gal','Efesliler':'Efe',
+    'Filipililer':'Fil','Koloseliler':'Kol','1. Selanikliler':'1Se',
+    '2. Selanikliler':'2Se','1. Timoteos':'1Ti','2. Timoteos':'2Ti',
+    'Titus':'Tit','Filemon':'Flm','İbraniler':'İbr','Yakup':'Yak',
+    '1. Petrus':'1Pe','2. Petrus':'2Pe','1. Yuhanna':'1Yu',
+    '2. Yuhanna':'2Yu','3. Yuhanna':'3Yu','Yahuda':'Yah','Vahiy':'Vah'
+  };
+
+  function updateMobBookCh() {
+    const el = document.getElementById('mob-book-ch');
+    if (!el) return;
+    el.textContent = (BOOK_ABBR[currentBook] || currentBook) + ' ' + currentChapter;
+  }
 
   // ── Persistence helpers (defined early, before state init) ────────────
   function _lsGet(k)    { try { return localStorage.getItem(k); } catch { return null; } }
@@ -4994,6 +5033,7 @@
     document.getElementById('chapters-grid').querySelectorAll('.book-btn').forEach((b, i) =>
       b.classList.toggle('active', i + 1 === currentChapter));
     updateWordStudyLink();
+    updateMobBookCh();
   }
   const ALL_BOOKS = [...OT_BOOKS, ...NT_BOOKS];
   function navigateToBook(bookName, chapterNum) {
@@ -8238,6 +8278,14 @@
     // Chapter arrow shortcuts
     document.getElementById('mob-prev-ch')?.addEventListener('click', () => document.getElementById('btn-prev-ch')?.click());
     document.getElementById('mob-next-ch')?.addEventListener('click', () => document.getElementById('btn-next-ch')?.click());
+
+    // Mobile book/chapter button → open book picker
+    document.getElementById('mob-book-ch')?.addEventListener('click', () => document.getElementById('btn-books')?.click());
+    // Mobile notes button → open notes panel
+    document.getElementById('mob-notes-btn')?.addEventListener('click', () => document.getElementById('btn-commentary')?.click());
+
+    // Init mobile book/chapter display
+    updateMobBookCh();
 
   })();
 
