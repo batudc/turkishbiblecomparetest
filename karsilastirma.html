@@ -5524,9 +5524,9 @@
         {
           label: 'Açıklama Notları',
           items: [
-            { id: '__COMM_TR',     label: 'AKKİT — Açıklamalı Kitab-ı Mukaddes' },
-            { id: '__COMM_ESV_TR', label: 'ESV Global Study Bible (TR)' },
-            { id: '__COMM_ESV_EN', label: 'ESV Global Study Bible (EN)' },
+            { id: '__COMM_TR',     label: 'AKKİT — AKKİT Açıklamalı Kutsal Kitap' },
+            { id: '__COMM_ESV_TR', label: 'ESV TR — ESV Global Study Bible (Türkçe)' },
+            { id: '__COMM_ESV_EN', label: 'ESV EN — ESV Global Study Bible (English)' },
           ],
         },
         {
@@ -6822,32 +6822,32 @@
     // ── Resource system ──────────────────────────────────────────────────
   // COMM_SOURCES kept for loadCommentary backward-compat
   const COMM_SOURCES = {
-    'akkit':  { folder: 'commentary',        label: 'AKKİT',                      newFormat: false },
-    'esv-tr': { folder: 'commentary-tr-esv', label: 'ESV Global Study Bible (TR)', newFormat: true  },
-    'esv-en': { folder: 'commentary-en',     label: 'ESV Global Study Bible',      newFormat: true  },
+    'akkit':  { folder: 'commentary',        label: 'AKKİT',                           newFormat: false },
+    'esv-tr': { folder: 'commentary-tr-esv', label: 'ESV Global Study Bible (Türkçe)', newFormat: true  },
+    'esv-en': { folder: 'commentary-en',     label: 'ESV Global Study Bible (English)', newFormat: true  },
   };
 
   const RESOURCE_CATS = [
     { id: 'notes',    icon: '📖', label: 'Açıklamalı Kutsal Kitap Notları', items: [
-        { id: 'akkit',  shortLabel: 'AKKİT',   label: 'AKKİT — Resmi Açıklamalı Kutsal Kitap',     type: 'commentary', commId: 'akkit'  },
-        { id: 'esv-tr', shortLabel: 'ESV TR',   label: 'ESV Global Study Bible (Türkçe)',           type: 'commentary', commId: 'esv-tr' },
-        { id: 'esv-en', shortLabel: 'ESV EN',   label: 'ESV Global Study Bible (English)',          type: 'commentary', commId: 'esv-en' },
+        { id: 'akkit',  shortLabel: 'AKKİT',   label: 'AKKİT — AKKİT Açıklamalı Kutsal Kitap',    type: 'commentary', commId: 'akkit'  },
+        { id: 'esv-tr', shortLabel: 'ESV TR',   label: 'ESV TR — ESV Global Study Bible (Türkçe)', type: 'commentary', commId: 'esv-tr' },
+        { id: 'esv-en', shortLabel: 'ESV EN',   label: 'ESV EN — ESV Global Study Bible (English)', type: 'commentary', commId: 'esv-en' },
     ]},
     { id: 'sozluk',   icon: '📚', label: 'Sözlükler', items: [
-        { id: 'sozluk-tcl02',  shortLabel: 'YÇ Sözlük', label: 'Kutsal Kitap Sözlüğü (Yeni Çeviri)', type: 'sozluk' },
-        { id: 'sozluk-hakk',   shortLabel: 'HAKK',       label: 'HAKK — Terimler Sözlüğü',            type: 'sozluk-hakk' },
+        { id: 'sozluk-tcl02',  shortLabel: 'TCL02', label: 'TCL02 — TCL02 Kutsal Kitap Sözlüğü',  type: 'sozluk' },
+        { id: 'sozluk-hakk',   shortLabel: 'HAKK',  label: 'HAKK — HAKK Terimler Sözlüğü',        type: 'sozluk-hakk' },
     ]},
     { id: 'birimler', icon: '📐', label: 'Birim Cetvelleri', items: [
-        { id: 'birimler-tcl02', shortLabel: 'Birimler', label: 'Birim Cetveli (Yeni Çeviri)',        type: 'birimler' },
+        { id: 'birimler-tcl02', shortLabel: 'TCL02', label: 'TCL02 — TCL02 Birim Cetveli',         type: 'birimler' },
     ]},
     { id: 'harita',   icon: '🗺', label: 'Haritalar', items: [
-        { id: 'haritalar-hakk', shortLabel: 'HAKK', label: 'HAKK — Haritalar', type: 'harita', dataFile: 'data/hakk/haritalar.json' },
+        { id: 'haritalar-hakk', shortLabel: 'HAKK', label: 'HAKK — HAKK Haritalar',               type: 'harita', dataFile: 'data/hakk/haritalar.json' },
     ]},
     { id: 'onsoz',    icon: '📜', label: 'Önsözler',           items: [
         { id: 'onsoz-hakk', shortLabel: 'HAKK', label: 'HAKK — Halk Dilinde Kutsal Kitap (Önsöz)', type: 'onsoz', dataFile: 'data/hakk/onsoz.json' },
     ]},
     { id: 'hakkinda', icon: 'ℹ',  label: 'Çeviriler Hakkında', items: [
-        { id: 'giris-hakk', shortLabel: 'HAKK Giriş', label: 'HAKK — Kutsal Kitap\'a Giriş', type: 'onsoz', dataFile: 'data/hakk/giris.json' },
+        { id: 'giris-hakk', shortLabel: 'HAKK', label: 'HAKK — Halk Dilinde Kutsal Kitap Hakkında', type: 'onsoz', dataFile: 'data/hakk/giris.json' },
     ]},
   ];
 
