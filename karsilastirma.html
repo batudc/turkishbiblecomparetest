@@ -4132,6 +4132,25 @@
       label.appendChild(cb); label.appendChild(sp);
       transList.appendChild(label);
     });
+
+    // Commentary checkbox — only if sidebar is open and commentary section is active
+    const sidebarOpen = document.getElementById('sidebar-panel')?.classList.contains('open');
+    const commSectActive = document.getElementById('sidebar-section-commentary')?.classList.contains('active');
+    const hasNotes = document.querySelectorAll('#commentary-body .comm-note[data-verse]').length > 0;
+    if (sidebarOpen && commSectActive && hasNotes) {
+      const commLabel = COMM_SOURCES[commSource]?.label || activeResourceId;
+      const sep = document.createElement('div');
+      sep.style.cssText = 'border-top:1px solid rgba(255,255,255,0.07);margin:6px 0 4px;';
+      transList.appendChild(sep);
+      const label = document.createElement('label');
+      label.className = 'copy-trans-item';
+      const cb = document.createElement('input');
+      cb.type = 'checkbox'; cb.checked = true; cb.dataset.tid = '__commentary';
+      const sp = document.createElement('span');
+      sp.textContent = `${commLabel} (Notlar)`;
+      label.appendChild(cb); label.appendChild(sp);
+      transList.appendChild(label);
+    }
   }
 
   document.getElementById('copy-panel-close').addEventListener('click', () => closePanel());
@@ -4149,12 +4168,17 @@
     const selectedTids = [...document.querySelectorAll('#copy-trans-list input[type=checkbox]:checked')].map(cb => cb.dataset.tid);
 
     if (!selectedVers.length || !selectedTids.length) return;
+    // Allow copy even if only commentary is selected
 
     const bookAbbr = BOOK_ABBR[currentBook] || currentBook;
     const lines = [];
+    const bibleTids = selectedTids.filter(t => t !== '__commentary');
+    const inclComm  = selectedTids.includes('__commentary');
+    const commLabel = COMM_SOURCES[commSource]?.label || activeResourceId;
+    const totalSources = bibleTids.length + (inclComm ? 1 : 0);
 
     selectedVers.forEach(vn => {
-      selectedTids.forEach(tid => {
+      bibleTids.forEach(tid => {
         const verseEl = document.querySelector(`.col[data-translation="${tid}"] .verse[data-v="${vn}"] .vt`);
         if (!verseEl) return;
         const text = verseEl.innerText.replace(/\s+/g, ' ').trim();
@@ -4164,7 +4188,21 @@
         line += text;
         lines.push(line);
       });
-      if (selectedTids.length > 1) lines.push(''); // blank line between verse groups
+      if (inclComm) {
+        // Find the commentary note for this verse
+        const noteEl = document.querySelector(`#commentary-body .comm-note[data-verse="${vn}"]`);
+        if (noteEl) {
+          const ref  = noteEl.querySelector('.comm-ref')?.innerText.trim() || '';
+          const text = noteEl.querySelector('.comm-text')?.innerText.replace(/\s+/g, ' ').trim() || '';
+          let line = '';
+          if (inclTid) line += `[${commLabel}] `;
+          if (inclVNum && ref) line += `${ref} `;
+          else if (inclVNum) line += `${bookAbbr} ${currentChapter}:${vn} `;
+          line += text;
+          lines.push(line);
+        }
+      }
+      if (totalSources > 1) lines.push(''); // blank line between verse groups
     });
 
     const copyText = lines.join('\n').trimEnd();
