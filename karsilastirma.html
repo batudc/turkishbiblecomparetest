@@ -1137,6 +1137,80 @@
     }
     .panel.open { display: flex; }
 
+    /* ── Copy panel ── */
+    #panel-copy { min-width: 300px; max-width: 360px; overflow-y: auto; }
+    #copy-panel-hdr {
+      display: flex; align-items: center; justify-content: space-between;
+      padding: 10px 14px 10px 16px;
+      border-bottom: 1px solid rgba(184,146,42,0.18);
+      flex-shrink: 0;
+    }
+    #copy-panel-title { font-family: 'Jost', sans-serif; font-size: 13px; font-weight: 600; color: var(--gold-light); letter-spacing: 0.04em; }
+    #copy-panel-close {
+      background: none; border: none; cursor: pointer; color: rgba(247,241,232,0.4);
+      font-size: 14px; padding: 2px 4px; line-height: 1;
+      transition: color 0.15s;
+    }
+    #copy-panel-close:hover { color: rgba(247,241,232,0.85); }
+    #copy-panel-body { display: flex; flex-direction: column; }
+    .copy-section {
+      padding: 10px 14px 12px;
+      border-bottom: 1px solid rgba(255,255,255,0.06);
+    }
+    .copy-section:last-child { border-bottom: none; }
+    .copy-section-label {
+      font-family: 'Jost', sans-serif; font-size: 10px; font-weight: 700;
+      letter-spacing: 0.08em; text-transform: uppercase;
+      color: rgba(247,241,232,0.35); margin-bottom: 8px;
+      display: flex; align-items: center; justify-content: space-between;
+    }
+    .copy-quick-btns { display: flex; gap: 4px; }
+    .copy-quick-btns button {
+      background: none; border: 1px solid rgba(184,146,42,0.25);
+      border-radius: 3px; color: rgba(247,241,232,0.55);
+      font-family: 'Jost', sans-serif; font-size: 10px; font-weight: 600;
+      padding: 1px 6px; cursor: pointer; transition: background 0.12s, color 0.12s;
+    }
+    .copy-quick-btns button:hover { background: rgba(184,146,42,0.12); color: var(--gold-light); }
+    #copy-verse-grid {
+      display: grid; grid-template-columns: repeat(10, 1fr); gap: 3px;
+    }
+    .copy-vbtn {
+      background: rgba(255,255,255,0.04); border: 1px solid rgba(255,255,255,0.08);
+      border-radius: 3px; color: rgba(247,241,232,0.55);
+      font-family: 'Jost', sans-serif; font-size: 11px; font-weight: 500;
+      padding: 4px 0; cursor: pointer; text-align: center;
+      transition: background 0.1s, border-color 0.1s, color 0.1s;
+    }
+    .copy-vbtn:hover { background: rgba(184,146,42,0.12); color: var(--gold-light); }
+    .copy-vbtn.sel {
+      background: rgba(184,146,42,0.2); border-color: rgba(184,146,42,0.5);
+      color: var(--gold-light);
+    }
+    .copy-trans-item {
+      display: flex; align-items: center; gap: 8px;
+      padding: 4px 0; cursor: pointer;
+    }
+    .copy-trans-item input { accent-color: var(--gold); cursor: pointer; flex-shrink: 0; }
+    .copy-trans-item span { font-family: 'Jost', sans-serif; font-size: 12px; color: rgba(247,241,232,0.75); }
+    .copy-option {
+      display: flex; align-items: center; gap: 8px;
+      padding: 4px 0; cursor: pointer;
+      font-family: 'Jost', sans-serif; font-size: 12px; color: rgba(247,241,232,0.7);
+    }
+    .copy-option input { accent-color: var(--gold); cursor: pointer; flex-shrink: 0; }
+    .copy-action-row { padding-top: 10px; padding-bottom: 10px; }
+    #copy-do-btn {
+      width: 100%; padding: 8px 0;
+      background: rgba(184,146,42,0.18); border: 1px solid rgba(184,146,42,0.4);
+      border-radius: 4px; color: var(--gold-light);
+      font-family: 'Jost', sans-serif; font-size: 13px; font-weight: 600;
+      letter-spacing: 0.04em; cursor: pointer;
+      transition: background 0.15s, border-color 0.15s;
+    }
+    #copy-do-btn:hover { background: rgba(184,146,42,0.28); border-color: rgba(184,146,42,0.65); }
+    #copy-do-btn.copied { background: rgba(76,175,119,0.2); border-color: rgba(76,175,119,0.5); color: #4caf77; }
+
     .panel-section {
       padding: 10px 14px 12px;
       border-bottom: 1px solid rgba(255,255,255,0.06);
@@ -2752,6 +2826,7 @@
       <button class="hdr-nav-arrow" id="btn-next-ch" title="Sonraki bölüm">›</button>
       <button class="hdr-btn" id="btn-translations" title="Çevirileri yönet">Çeviri <span style="opacity:.4;font-size:9px;">▾</span></button>
       <button class="hdr-btn" id="btn-style" title="Ayarlar">Ayarlar <span style="opacity:.4;font-size:9px;">▾</span></button>
+      <button class="hdr-btn" id="btn-copy" title="Metni kopyala">Kopyala</button>
       <button class="hdr-btn" id="btn-commentary" title="Bölüm yorumu">Notlar <span style="opacity:.4;font-size:9px;">▾</span></button>
       <button class="hdr-btn" id="btn-tour" title="Site turunu başlat">?</button>
     </div>
@@ -2935,6 +3010,37 @@
     <button class="trans-global-btn" id="trans-clr-all">Tümünü Kaldır</button>
   </div>
   <div id="trans-cat-list"><!-- populated by buildTransCategories() --></div>
+</div>
+
+<!-- ===== COPY PANEL ===== -->
+<div class="panel" id="panel-copy">
+  <div id="copy-panel-hdr">
+    <span id="copy-panel-title">📋 Kopyala</span>
+    <button id="copy-panel-close">✕</button>
+  </div>
+  <div id="copy-panel-body">
+    <div class="copy-section">
+      <div class="copy-section-label">
+        <span id="copy-book-label"></span>
+        <div class="copy-quick-btns">
+          <button id="copy-sel-all">Tümü</button>
+          <button id="copy-sel-none">Hiçbiri</button>
+        </div>
+      </div>
+      <div id="copy-verse-grid"></div>
+    </div>
+    <div class="copy-section">
+      <div class="copy-section-label">Çeviriler</div>
+      <div id="copy-trans-list"></div>
+    </div>
+    <div class="copy-section">
+      <label class="copy-option"><input type="checkbox" id="copy-opt-vnum" checked> Ayet numarasını dahil et</label>
+      <label class="copy-option"><input type="checkbox" id="copy-opt-tid" checked> Çeviri adını dahil et</label>
+    </div>
+    <div class="copy-section copy-action-row">
+      <button id="copy-do-btn">Kopyala</button>
+    </div>
+  </div>
 </div>
 
 <!-- ===== RESOURCE PICKER PANEL ===== -->
@@ -3955,6 +4061,109 @@
 
   document.addEventListener('click', e => {
     if (!_tourActive && !e.target.closest('.panel') && !e.target.closest('.hdr-btn')) closePanel();
+  });
+
+  // ── Copy panel ───────────────────────────────────────────────────────
+  const _copySelVerses = new Set();
+
+  function buildCopyPanel() {
+    // Update label
+    document.getElementById('copy-book-label').textContent = currentBook + ' ' + currentChapter + '. Bölüm';
+
+    // Collect verse numbers from rendered DOM
+    const allVerseEls = document.querySelectorAll('.col:not(.col-hidden) .col-content .verse[data-v]');
+    const verseNums = [...new Set([...allVerseEls].map(el => parseInt(el.dataset.v, 10)))].sort((a, b) => a - b);
+
+    // Verse grid
+    _copySelVerses.clear();
+    verseNums.forEach(n => _copySelVerses.add(n));
+    const grid = document.getElementById('copy-verse-grid');
+    grid.innerHTML = '';
+    verseNums.forEach(n => {
+      const btn = document.createElement('button');
+      btn.className = 'copy-vbtn sel';
+      btn.textContent = n;
+      btn.dataset.v = n;
+      btn.addEventListener('click', () => {
+        if (_copySelVerses.has(n)) { _copySelVerses.delete(n); btn.classList.remove('sel'); }
+        else { _copySelVerses.add(n); btn.classList.add('sel'); }
+      });
+      grid.appendChild(btn);
+    });
+
+    // Tümü / Hiçbiri
+    document.getElementById('copy-sel-all').onclick = () => {
+      verseNums.forEach(n => { _copySelVerses.add(n); grid.querySelector(`[data-v="${n}"]`)?.classList.add('sel'); });
+    };
+    document.getElementById('copy-sel-none').onclick = () => {
+      _copySelVerses.clear(); grid.querySelectorAll('.copy-vbtn').forEach(b => b.classList.remove('sel'));
+    };
+
+    // Translation checkboxes — active translations only
+    const transList = document.getElementById('copy-trans-list');
+    transList.innerHTML = '';
+    const activeTids = [...selectedTranslations].filter(tid => {
+      const col = document.querySelector(`.col[data-translation="${tid}"]:not(.col-hidden)`);
+      return col && col.querySelector('.verse[data-v]');
+    });
+    activeTids.forEach(tid => {
+      const t = ALL_TRANS[tid];
+      const label = document.createElement('label');
+      label.className = 'copy-trans-item';
+      const cb = document.createElement('input');
+      cb.type = 'checkbox'; cb.checked = true; cb.dataset.tid = tid;
+      const sp = document.createElement('span');
+      sp.textContent = t ? `${tid} — ${t.name}` : tid;
+      label.appendChild(cb); label.appendChild(sp);
+      transList.appendChild(label);
+    });
+  }
+
+  document.getElementById('copy-panel-close').addEventListener('click', () => closePanel());
+
+  document.getElementById('btn-copy').addEventListener('click', function(e) {
+    e.stopPropagation();
+    buildCopyPanel();
+    togglePanel('panel-copy', this);
+  });
+
+  document.getElementById('copy-do-btn').addEventListener('click', () => {
+    const inclVNum = document.getElementById('copy-opt-vnum').checked;
+    const inclTid  = document.getElementById('copy-opt-tid').checked;
+    const selectedVers = [..._copySelVerses].sort((a, b) => a - b);
+    const selectedTids = [...document.querySelectorAll('#copy-trans-list input[type=checkbox]:checked')].map(cb => cb.dataset.tid);
+
+    if (!selectedVers.length || !selectedTids.length) return;
+
+    const bookAbbr = BOOK_ABBR[currentBook] || currentBook;
+    const lines = [];
+
+    selectedVers.forEach(vn => {
+      selectedTids.forEach(tid => {
+        const verseEl = document.querySelector(`.col[data-translation="${tid}"] .verse[data-v="${vn}"] .vt`);
+        if (!verseEl) return;
+        const text = verseEl.innerText.replace(/\s+/g, ' ').trim();
+        let line = '';
+        if (inclTid) line += `(${tid}) `;
+        if (inclVNum) line += `${bookAbbr} ${currentChapter}:${vn} `;
+        line += text;
+        lines.push(line);
+      });
+      if (selectedTids.length > 1) lines.push(''); // blank line between verse groups
+    });
+
+    const copyText = lines.join('\n').trimEnd();
+    navigator.clipboard.writeText(copyText).then(() => {
+      const btn = document.getElementById('copy-do-btn');
+      btn.textContent = '✓ Kopyalandı!';
+      btn.classList.add('copied');
+      setTimeout(() => { btn.textContent = 'Kopyala'; btn.classList.remove('copied'); }, 1800);
+    }).catch(() => {
+      const ta = document.createElement('textarea');
+      ta.value = copyText; ta.style.position = 'fixed'; ta.style.opacity = '0';
+      document.body.appendChild(ta); ta.select(); document.execCommand('copy');
+      document.body.removeChild(ta);
+    });
   });
 
   // ── Build chapter panel ───────────────────────────────────────────────
